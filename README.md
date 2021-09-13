@@ -40,21 +40,21 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>3</td><td>Perceptron</td>
    <td><a href="3-NeuralNetworks/03-Perceptron/README.md">Text</a>
    <td colspan="2"><a href="3-NeuralNetworks/03-Perceptron/Perceptron.ipynb">Perceptron</a><br/>
-   <a href="3-NeuralNetworks/03-Perceptron/OwnFramework.ipynb">Own Framework</a></td><td><td></td></tr>
+   <a href="3-NeuralNetworks/03-Perceptron/OwnFramework.ipynb">Own Framework</a></td><td></td></tr>
 <tr><td>4 </td><td>Intro to Frameworks (PyTorch/Tensorflow)</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>5 </td><td>Multi-Layered Perceptron</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr> 
 <tr><td>IV</td><td colspan="2"><b>Computer Vision</b></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td>PAT</td></tr>
-<tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td>Text<td colspan="2">Notebook</td><td><td></td></tr>
+<tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td>Text<td colspan="2">Notebook</td><td></td></tr>
 <tr><td>7</td><td>Convolutional Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>8</td><td>Pre-trained Networks and Transfer Learning</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td</td></tr>
 <tr><td>9</td><td>Autoencoders and VAEs</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>10</td><td> Generative Adversarial Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>V</td><td><b>Natural Language Processing</b></td>
+<tr><td>V</td><td colspan="2"><b>Natural Language Processing</b></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
    <td>PAT</td></tr>
@@ -71,7 +71,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>22</td><td>Deep Reinforcement Learning</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>23</td><td>Multi-Agent Systems</td><td>Text</td><td></td><td></td><td</td></tr>
 <tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td>PAT</td></tr>
-<tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td></td></tr>
+<tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td><td></td></tr>
 
 </table>
 
