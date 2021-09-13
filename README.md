@@ -13,7 +13,7 @@
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. In this curriculum, you will learn:
 
 * Different approaches to Artificial Intelligence, including "good old" symbolic approach with **Knowledge Representation** and reasoning.
-* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will try to illustrate all ideas using code in two most popular frameworks - [Tensorflow](http://tensorflow.org) and [PyTorch](http://pytorch.org).
+* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will try to illustrate all ideas using code in two most popular frameworks - Tensorflow(http://tensorflow.org) and PyTorch(http://pytorch.org).
 * **Neural Architectures** for working with Images and Text. We will try to cover very recent models, but may lack a little bit on state-of-the-art.
 * Less popular AI approaches, such as **Genetic Algorithms**
 
@@ -28,39 +28,52 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 ---
 # Content
 
-| No | Lesson | Intro | PyTorch | Tensorflow | Lab |
-|----|--------|-------|---------|------------|-----|
-| <td colspan="4">**Introduction to AI** | [PAT] |
-| 1 | Introduction and History of AI | [Text] | | | |
-| <td colspan="4">**Symbolic AI**  | [PAT] |
-| 2 | Knowledge Representation and Expert Systems | [Text] | | | |
-| <td colspan="4">**Introduction to Neural Networks**  | [PAT] |
-| 3 | Perceptron | [Text] | <td colspan="2">[Notebook] | 
-| 4 | Intro to Frameworks (PyTorch/Tensorflow) | [Text] | [PyTorch]	| [Tensorflow] | |
-| 5 | Multi-Layered Perceptron | [Text] | [PyTorch]	| [Tensorflow] | | 
-| <td colspan="2">**Computer Vision** | [MS Learn][PTLearnCV] | [MS Learn][TFLearnCV] | [PAT] |
-| 6	| Intro to Computer Vision. OpenCV | [Text] | <td colspan="2">[Notebook] | |
-| 7	| Convolutional Neural Networks	| [Text] | [PyTorch] | [Tensorflow] | |
-| 8	| Pre-trained Networks and Transfer Learning | [Text] | [PyTorch] | [Tensorflow] | |
-| 9 | Autoencoders and VAEs | [Text] | [PyTorch] | [Tensorflow] | |
-| 10 | Generative Adversarial Networks | [Text] | [PyTorch] | [Tensorflow] | |
-| 11 | Object Detection | [Text] | [PyTorch] | [Tensorflow] | |
-| 12 | Instance Segmentation. U-Net | [Text] | [PyTorch] | [Tensorflow] | |
-| <td colspan="2">**Natural Language Processing** | [MS Learn][PTLearnNLP] | [MS Learn][TFLearnNLP] | [PAT] |
-| 13 | Text Representation. Bow/TF-IDF | [Text] | [PyTorch] | [Tensorflow] | |
-| 14 | Semantic Word Embeddings | [Text] | [PyTorch] | [Tensorflow] | |
-| 15 | Training your own embeddings | [Text] | [PyTorch] | [Tensorflow] | |
-| 16 | Recurrent Neural Networks| [Text] | [PyTorch] | [Tensorflow] | |
-| 17 | Generative Recurrent Networks | [Text] | [PyTorch] | [Tensorflow] | |
-| 18 | Language Modelling. BERT. Transformers. | [Text] | [PyTorch] | [Tensorflow] | |
-| 19 | Named Entity Recognition. | [Text] | [PyTorch] | [Tensorflow] | |
-| 20 | Text Generation using GPT | [Text] | [PyTorch] | [Tensorflow] | |
-| <td colspan="4">**Other AI Techniques**  | [PAT](1-intro/PAT.md) |
-| 21 | Genetic Algorithms | [Text] | <td colspan="2">[Notebook] |
-| 22 | Deep Reinforcement Learning | [Text] | [PyTorch] | [Tensorflow] | |
-| 23 | Multi-Agent Systems | [Text] | | | |
-| <td colspan="4">**AI Ethics**  | [PAT] |
-| 24 | AI Ethics and Responsible AI	| [Text] | | | |
+<table>
+<tr><th>No</th><th>Lesson</th><th>Intro</th><th>PyTorch</th><th>Tensorflow</th><th>Lab</th></tr>
+
+<tr><td>I</td><td colspan="4"><b>Introduction to AI</b></td><td>PAT</td></tr>
+<tr><td>1</td><td>Introduction and History of AI</td><td>Text</td><td></td><td></td><td></td></tr>
+
+<tr><td>II</td><td colspan="4"><b>Symbolic AI</b></td><td>PAT</td></tr>
+<tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td>Text</td><td></td><td></td><td></td></tr>
+<tr><td>III</td><td colspan="4"><b>Introduction to Neural Networks</b></td><td>PAT</td></tr>
+<tr><td>3</td><td>Perceptron</td>
+   <td><a href="3-NeuralNetworks/03-Perceptron/README.md">Text</a>
+   <td colspan="2"><a href="3-NeuralNetworks/03-Perceptron/Perceptron.ipynb">Perceptron</a><br/>
+   <a href="3-NeuralNetworks/03-Perceptron/OwnFramework.ipynb">Own Framework</a></td><td><td></td></tr>
+<tr><td>4 </td><td>Intro to Frameworks (PyTorch/Tensorflow)</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>5 </td><td>Multi-Layered Perceptron</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr> 
+<tr><td>IV</td><td colspan="2"><b>Computer Vision</b></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
+  <td>PAT</td></tr>
+<tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td>Text<td colspan="2">Notebook</td><td><td></td></tr>
+<tr><td>7</td><td>Convolutional Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>8</td><td>Pre-trained Networks and Transfer Learning</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td</td></tr>
+<tr><td>9</td><td>Autoencoders and VAEs</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>10</td><td> Generative Adversarial Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>V</td><td><b>Natural Language Processing</b></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
+   <td>PAT</td></tr>
+<tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>14</td><td>Semantic Word Embeddings</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>15</td><td>Training your own embeddings</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>16</td><td>Recurrent Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>17</td><td>Generative Recurrent Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>18</td><td>Language Modelling. BERT. Transformers.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>19</td><td>Named Entity Recognition.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>20</td><td>Text Generation using GPT</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td>PAT</td></tr>
+<tr><td>21</td><td>Genetic Algorithms</td><td>Text<td colspan="2">Notebook</td><td></td></tr>
+<tr><td>22</td><td>Deep Reinforcement Learning</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>23</td><td>Multi-Agent Systems</td><td>Text</td><td></td><td></td><td</td></tr>
+<tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td>PAT</td></tr>
+<tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td></td></tr>
+
+</table>
 
 Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **Tensorflow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or Tensorflow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to some specific problem. 
 
@@ -132,8 +145,3 @@ Our team produces other curricula! Check out:
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](http://github.com/microsoft/ML-for-Beginners)
 - [Data Science for Beginners](http://github.com/microsoft/Data-Science-for-Beginners)
-
-[TFLearnCV]: https://docs.microsoft.com/learn/modules/intro-computer-vision-tensorflow/?WT.mc_id=academic-33554-dmitryso
-[TFLearnNLP]: https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-33554-dmitryso
-[PTLearnCV]: https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-33554-dmitryso
-[PTLearnNLP]: https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-33554-dmitryso
