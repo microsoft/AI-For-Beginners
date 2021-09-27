@@ -60,6 +60,6 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
     return weights
 ```
 
-## Proceed in Notebook
+## [Proceed to Notebook](Perceptron.ipynb)
 
 To see how we can use perceptron to solve some toy as well as real-life problems, and to continue learning - go to [Perceptron](Perceptron.ipynb) notebook.
