@@ -14,14 +14,14 @@ We will also develop our own modular framework in Python that will allows us to 
 
 Let's start with formalizing the Machine Learning problem. Suppose we have a training dataset **X** with labels **Y**, and we need to build a model *f* that will make most accurate predictions. The quality of predictions is measured by **Loss function** &lagran;. The following loss functions are often used:
 
-* For regression problem, when we need to predict a number, we can use **absolute error** &sum;<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sub>|, or **squared error** &sum;<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sub>)<sup>2</sup>
+* For regression problem, when we need to predict a number, we can use **absolute error** &sum;<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>|, or **squared error** &sum;<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sub>)<sup>2</sup>
 * For classification, we use **0-1 loss** (which is essentially the same as **accuracy** of the model), or **logistic loss**.
 
 For one-level perceptron, function *f* was defined as a linear function *f(x)=wx+b* (here *w* is the weight matrix, *x* is the vector if input features, and *b* is bias vector). For different neural network architectures, this function can take more complex form. 
 
-> In the case of classification, it is often desirable to get probabilities of corresponding classes as network output. To convert arbitrary numbers to probabilities (eg. to normalize the output), we often use **softmax** function &sigma;, for the function *f* becomes *f=&sigma;(wx+b)*
+> In the case of classification, it is often desirable to get probabilities of corresponding classes as network output. To convert arbitrary numbers to probabilities (eg. to normalize the output), we often use **softmax** function &sigma;, for the function *f* becomes *f(x)=&sigma;(wx+b)*
 
-In the definition of *f* above, *w* and *b* are called **parameters** &theta;=*w,b*. Given the dataset <**X**,**Y**>, we can compute an overall error on the whole dataset as a function of parameters &theta;.
+In the definition of *f* above, *w* and *b* are called **parameters** &theta;=⟨*w,b*⟩. Given the dataset ⟨**X**,**Y**⟩, we can compute an overall error on the whole dataset as a function of parameters &theta;.
 
 **The goal of neural network training is to minimize the error by varying parameters &theta;**
 
@@ -38,15 +38,22 @@ During training, the optimization steps are supposed to be calculated considerin
 
 ## Multi-Layered Perceptrons and Back Propagation
 
-One-layer network, as we have seen above, is capable of classifying linearly separable classes. To build reacher model, we can combine several layers of the network. Mathematically it would just mean that the function *f* would have more complex form, such as *f(x) = &sigma;(w<sub>1</sub>&alpha;(w<sub>2</sub>x+b<sub>2</sub>)+b<sub>1</sub>)*, where &alpha; is a **non-linear activation function**, and &theta;=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>*> are parameters.
+One-layer network, as we have seen above, is capable of classifying linearly separable classes. To build reacher model, we can combine several layers of the network. Mathematically it would just mean that the function *f* would have more complex form, and will be computed in several steps:
+* z<sub>1</sub>=w<sub>1</sub>x+b<sub>1</sub>
+* z<sub>2</sub>=w<sub>2</sub>&alpha;(z<sub>1</sub>)+b<sub>2</sub>
+* f = &sigma;(z<sub>2</sub>)
 
-The gradient descent algorithm would remain the same, but it would be more difficult to calculate gradients. Given the chain differentiation rule, we can calculate derivatives as 
+Here, &alpha; is a **non-linear activation function**, &sigma; is a softmax function, and &theta;=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>*> are parameters.
 
-* &part;&lagran;/&part;w<sub>1</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;w<sub>1</sub>)
-* &part;&lagran;/&part;w<sub>2</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;&alpha;)(&part;&alpha;/&part;z)
+The gradient descent algorithm would remain the same, but it would be more difficult to calculate gradients. Given the
+ chain differentiation rule, we can calculate derivatives as:
 
+* &part;&lagran;/&part;w<sub>2</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;z<sub>2</sub>)(&part;z<sub>2</sub>/&part;w<sub>2</sub>)
+* &part;&lagran;/&part;w<sub>1</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;z<sub>2</sub>)(&part;z<sub>2</sub>/&part;&alpha;)(&part;&alpha;/&part;z<sub>1</sub>)(&part;z<sub>1</sub>/&part;w<sub>1</sub>)
 
+Note that the beginning of all those expressions are the same, and thus we can effectively calculate derivatives starting from the loss function and going "backwards" through the computational graph. Thus the method of training multi-layered perceptron is called **back propagation**.
 
+> We will cover back prop in much more detail in our notebook example.  
 ## [Proceed to Notebook](OwnFramework.ipynb)
 
-To see how we can use perceptron to solve some toy as well as real-life problems, and to continue learning - go to [OwnFramework](OwnFramework.ipynb) notebook.
+In the accompanying notebook, we will implement our own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. Proceed to [OwnFramework](OwnFramework.ipynb) notebook.
