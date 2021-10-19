@@ -32,7 +32,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><th>No</th><th>Lesson</th><th>Intro</th><th>PyTorch</th><th>Keras/Tensorflow</th><th>Lab</th></tr>
 
 <tr><td>I</td><td colspan="4"><b>Introduction to AI</b></td><td>PAT</td></tr>
-<tr><td>1</td><td>Introduction and History of AI</td><td>Text</td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Introduction and History of AI</td><td>[Text](01-Intro/README.md)</td><td></td><td></td><td></td></tr>
 
 <tr><td>II</td><td colspan="4"><b>Symbolic AI</b></td><td>PAT</td></tr>
 <tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td>Text</td><td></td><td></td><td></td></tr>
