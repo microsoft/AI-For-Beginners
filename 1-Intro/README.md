@@ -28,17 +28,53 @@ However, when speaking about AGI we need to have some way to tell if we have cre
 
 If we want computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
 
+> To be able to program intelligence into a machine, we need to understand how our own process of taking decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
+
 There are two possible approaches to this problem:
 
 Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
 ---------------------------------------|-------------------------------------
 Modelling the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | Modelling a structure of a human brain, consisting of huge number of simplest units called **neurons**. Each neuron acts like a simple weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
 
-There are also some other possible approaches to intelligence that we will mention here, but the two above are the main ones.
+There are also some other possible approaches to intelligence:
+
+* **Emergent**, **Synergetic** or **multi-agent approach** is based on the fact that complex intelligent behaviour can be obtained by an interaction of large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
+* **Evolutionary approach**, or **genetic algorithms** is an optimization process based on the principles of evolution. 
+
+We will consider those approaches later in the course, but right now we will focus on two main directions.
 ### Top-Down Approach
 
-In **top-down approach**, we try to model our reasoning. People tend to have some rules in their head, for example, when a doctor is diagnosing a patient, he may realize that a person has a fever, and thus there might be some inflammation going on in his body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis. 
+In **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**. 
+
+People tend to have some rules in their head, for example, when a doctor is diagnosing a patient, he may realize that a person has a fever, and thus there might be some inflammation going on in his body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis. 
 
 This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his/her head without explicit thinking. Some tasks, such as determining the age of a person from photograph, cannot be at all reduced to manipulating knowledge.
 
-Another  
+### Bottom-Up Approach
+
+Alternatively, we can try to model the simplest elements inside our brain – a neuron. We can construct so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about the world around him by observations. 
+
+A part of Artificial Intelligence that is based on computer learning to solve the problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-for-beginners) Curriculum. | ![ML for Beginners](images/ml-for-beginners.png)
+-----|-----
+
+
+## A Brief History of AI
+
+Artificial Intelligence was started as a field in the middle of XX century. Initially symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domain. However, it soon became obvious that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
+
+![Brief History of AI](images/history-of-ai.png)
+
+As time passed, computing resources became cheaper, and more data has become available, the neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision, or speech understanding. In the last decade, the term Artificial Intelligence is mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
+
+We can observe how the approaches changed, for example, in creating a Chess playing program:
+
+* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a few next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
+* Search strategies work good towards the end of the game, where search space is limited by a small number of possible moves. However, in the beginning of the game the search space is huge, and the algorithm can be improved by learning from existing matches between human players. This employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where we are looking for cases in the knowledgebase very similar to the current position in the game.
+* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learns to play solely by playing a long time with itself and learning from its own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
+
+Similarly, we can see how the approach towards creating “talking programs” (that might pass Turing test) changed:
+
+* Early program of this kind, [Eliza](https://en.wikipedia.org/wiki/ELIZA), was based on very simple grammatical rule and re-formulation of the input sentence into a question.
+* Modern assistants, such as Cortana, Siri or Google Assistant, are all hybrid systems, that use Neural networks to convert speech into text and to recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions
+* In the future, we may expect complete neural-based model to handle dialogue by itself, recent GPT family of neural networks show great success in this.
+
