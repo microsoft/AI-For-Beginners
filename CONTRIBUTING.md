@@ -12,3 +12,8 @@ instructions provided by the bot. You will only need to do this once across all 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
 or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+# Looking for Contributions
+
+We are currently actively looking for contributions on the following topics:
+* PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
