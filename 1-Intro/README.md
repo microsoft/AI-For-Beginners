@@ -57,12 +57,11 @@ Alternatively, we can try to model the simplest elements inside our brain – a 
 A part of Artificial Intelligence that is based on computer learning to solve the problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-for-beginners) Curriculum. | ![ML for Beginners](images/ml-for-beginners.png)
 -----|-----
 
-
 ## A Brief History of AI
 
 Artificial Intelligence was started as a field in the middle of XX century. Initially symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domain. However, it soon became obvious that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
 
-![Brief History of AI](images/history-of-ai.png)
+<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
 
 As time passed, computing resources became cheaper, and more data has become available, the neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision, or speech understanding. In the last decade, the term Artificial Intelligence is mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
 
@@ -76,5 +75,27 @@ Similarly, we can see how the approach towards creating “talking programs” (
 
 * Early program of this kind, [Eliza](https://en.wikipedia.org/wiki/ELIZA), was based on very simple grammatical rule and re-formulation of the input sentence into a question.
 * Modern assistants, such as Cortana, Siri or Google Assistant, are all hybrid systems, that use Neural networks to convert speech into text and to recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions
-* In the future, we may expect complete neural-based model to handle dialogue by itself, recent GPT family of neural networks show great success in this.
+* In the future, we may expect complete neural-based model to handle dialogue by itself. Recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
+
+<img src="images/turing-test-evol.png" width="70%"/>
+
+## Recent AI Research
+
+Recent huge growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
+
+![ILSVRC Accuracy](images/ilsvrc.gif)
+
+In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which lead to significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
+
+Since then, Neural Networks demonstrated very successful behaviour in many tasks:
+
+------|-------
+Year | Human Parity in 
+-----|--------
+2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
+2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
+2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
+2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
+
+Last years witnessed huge successes with large language models, such as BERT and GPT-3. This happens mainly due to the fact that there is a lot of general text data available, which allows us to train models that capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
 
