@@ -19,9 +19,9 @@ Normal distribution **N(0,1)** is not a good idea, because if we have *n* inputs
 The following initializations are often used:
 
  * Uniform distribution -- `uniform`
- * **N(0,1/n)** -- `gaussian`)
+ * **N(0,1/n)** -- `gaussian`
  * **N(0,1/&radic;n_in)** guarantees that for inputs with zero mean and standard deviation of 1 the same mean/standard deviation would remain
- * **N(0,&radic;2/(n_in+n_out)** -- so-called **Xavier initialization** (`glorot`), it helps to keep the signals in range during both forward and backward propagation
+ * **N(0,&radic;2/(n_in+n_out))** -- so-called **Xavier initialization** (`glorot`), it helps to keep the signals in range during both forward and backward propagation
 
 ## Batch Normalization
 
@@ -45,9 +45,9 @@ This effect can be explained in several ways:
 
 ## Preventing overfitting
 
-One of the very important aspect of deep learning is too be able to prevent [overfitting](../3-NeuralNetworks/05-Frameworks/Overfitting.md). While it might be tempting to use very powerful neural network model, we should always balance the number of model parameters with the number of training samples.
+One of the very important aspect of deep learning is too be able to prevent [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). While it might be tempting to use very powerful neural network model, we should always balance the number of model parameters with the number of training samples.
 
-> Make sure you understand the concept of [overfitting](../3-NeuralNetworks/05-Frameworks/Overfitting.md) we have introduced earlier!
+> Make sure you understand the concept of [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) we have introduced earlier!
 
 There are several ways to prevent overfitting:
 
@@ -66,13 +66,12 @@ w<sup>t+1</sup> = w<sup>t</sup> - &eta;&nabla;&lagran;
 
 ### Momentum
 
-In **momentum SGD**, we are keeping a portion of a gradient from previous steps. It is similar to when we are moving somewhere with inertia, and we receive a punch in a different direction, our trajectory does not change immediately, but keeps some part of the original movement. Here we introduce another vector v to 
+In **momentum SGD**, we are keeping a portion of a gradient from previous steps. It is similar to when we are moving somewhere with inertia, and we receive a punch in a different direction, our trajectory does not change immediately, but keeps some part of the original movement. Here we introduce another vector v to represent the *speed*:
 
-v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
- 
-w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
+* v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
+* w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Here parameter &gamma; indicated the extent to which we take inertia into account: &gamma;=0 corresponds to classical SGD; &gamma;=1 is a pure motion equation.
+Here parameter &gamma; indicates the extent to which we take inertia into account: &gamma;=0 corresponds to classical SGD; &gamma;=1 is a pure motion equation.
 
 ### Adam, Adagrad, etc.
 
@@ -80,9 +79,7 @@ Since in each layer we multiply signals by some matrix W<sub>i</sub>, depending 
 
 One of the solutions to this problem is to use only direction of the gradient in the equation, and ignore the absolute value, i.e.
 
-w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||)
-
-where ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), where ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
 
 This algorithm is called **Adagrad**. Another algorithms that use the same idea: **RMSProp**, **Adam**
 
@@ -90,7 +87,7 @@ This algorithm is called **Adagrad**. Another algorithms that use the same idea:
 
 ### Gradient clipping
 
-Gradient clipping is an extension the idea above. When the ||&nabla;&lagran;|| &le; &theta;, we consider the original gradient in the weight optimization, and when ||&nabla;&lagran;|| > &theta - we divide the gradient by it's norm. Here &theta; is a parameter, in most cases we can take &theta;=1 or &theta;=10.
+Gradient clipping is an extension the idea above. When the ||&nabla;&lagran;|| &le; &theta;, we consider the original gradient in the weight optimization, and when ||&nabla;&lagran;|| > &theta; - we divide the gradient by it's norm. Here &theta; is a parameter, in most cases we can take &theta;=1 or &theta;=10.
 
 ### Learning rate decay
 
@@ -103,6 +100,6 @@ This can be done by multiplying &eta; by some number (eg. 0.98) after each epoch
 
 Selecting right network architecture for your problem can be tricky. Normally, we would take an architecture that has proven to work for our specific task (or similar one). Here is a [good overview](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) or neural network architectures for computer vision. 
 
-> It is important to select an architecture that will be powerful enough for the number of training samples that we have. Selecting too powerful model can result in [overfitting](../3-NeuralNetworks/05-Frameworks/Overfitting.md)
+> It is important to select an architecture that will be powerful enough for the number of training samples that we have. Selecting too powerful model can result in [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
 Another good way would be to use and architecture that will automatically adjust to the required complexity. To some extent, **ResNet** architecture and **Inception** are self-adjusting. [More on computer vision architectures](../07-ConvNets/CNN_Architectures.md)
