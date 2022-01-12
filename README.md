@@ -46,7 +46,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
    <td><a href="3-NeuralNetworks/05-Frameworks/README.md">Text</a><br/><a href="3-NeuralNetworks/05-Frameworks/Overfitting.md">Text</a></td>
    <td><a href="3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb">PyTorch</td>
    <td><a href="3-NeuralNetworks/05-Frameworks/IntroKerasTF.md">Keras/Tensorflow</td><td></td></tr>
-<tr><td>IV</td><td colspan="2"><b>Computer Vision</b></td>
+<tr><td>IV</td><td colspan="2"><b><a href="4-ComputerVision/README.md">Computer Vision</a></b></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td>PAT</td></tr>
@@ -57,17 +57,17 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>10</td><td> Generative Adversarial Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>V</td><td colspan="2"><b>Natural Language Processing</b></td>
+<tr><td>V</td><td colspan="2"><b><a href="5-NLP/README.md">Natural Language Processing</a></b></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
    <td>PAT</td></tr>
-<tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>14</td><td>Semantic Word Embeddings</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td><a href="5-NLP/13-TextRep/README.md">Text</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationTF.ipynb">Tensorflow</td><td></td></tr>
+<tr><td>14</td><td>Semantic word embeddings</td><td><a href="5-NLP/14-Embeddings/README.md">Text</td><td><a href="5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/14-Embeddings/EmbeddingsTF.ipynb">Tensorflow</a></td><td></td></tr>
 <tr><td>15</td><td>Training your own embeddings</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>16</td><td>Recurrent Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>17</td><td>Generative Recurrent Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>18</td><td>Language Modelling. BERT. Transformers.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>19</td><td>Named Entity Recognition.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>18</td><td>Language Modelling. Transformers. BERT.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>19</td><td>Named Entity Recognition</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>20</td><td>Text Generation using GPT</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td>PAT</td></tr>
 <tr><td>21</td><td>Genetic Algorithms</td><td>Text<td colspan="2">Notebook</td><td></td></tr>

@@ -39,6 +39,6 @@ where f is some non-linear **activation function**.
 
 In this section we will learn about:
 * [Perceptron](03-Perceptron/README.md), one of the earliest neural network models for two-class classification
-* [Modern multi-layered networks](04-OwnFramework/README.md) and [how to build our own framework](04-OwnFramework/OwnFramework.ipynb)
+* [Multi-layered networks](04-OwnFramework/README.md) and [how to build our own framework](04-OwnFramework/OwnFramework.ipynb)
 * [Neural Network Frameworks](05-Frameworks/README.md), such as [PyTorch](05-Frameworks/IntroPyTorch.ipynb) and [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
-
+* [Overfitting](05-Frameworks/Overfitting.md)

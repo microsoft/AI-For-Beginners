@@ -25,7 +25,7 @@ Thus it is very important to strike a correct balance between richness of the mo
 
 As you can see from the graph above, overfitting can be detected by very low training error, and high validation error. Normally during training we will see both training and validation errors starting to decrease, and then at some point validaton error might stop decreasing and start rising. This will be a sign of overfitting, and the indicator that we should probably stop training at this point (or at least make a snapshot of the model).
 
-<img src="../Overfitting.png" width="90%"/>
+<img src="../images/Overfitting.png" width="90%"/>
 
 ## How to prevent overfitting
 

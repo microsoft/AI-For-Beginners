@@ -1,0 +1,12 @@
+gensim==3.8.3
+huggingface==0.0.1
+matplotlib
+nltk==3.5
+numpy==1.18.5
+opencv-python==4.5.1.48
+Pillow==7.1.2
+scikit-learn
+scipy
+tensorflow
+tensorflow_datasets
+transformers==4.3.3

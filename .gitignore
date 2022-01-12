@@ -14,6 +14,7 @@
 *.userprefs
 
 .ipynb_checkpoints/
+data/
 
 # Mono auto generated files
 mono_crash.*
