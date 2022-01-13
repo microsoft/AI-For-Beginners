@@ -62,8 +62,8 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
    <td>PAT</td></tr>
 <tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td><a href="5-NLP/13-TextRep/README.md">Text</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationTF.ipynb">Tensorflow</td><td></td></tr>
-<tr><td>14</td><td>Semantic word embeddings</td><td><a href="5-NLP/14-Embeddings/README.md">Text</td><td><a href="5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/14-Embeddings/EmbeddingsTF.ipynb">Tensorflow</a></td><td></td></tr>
-<tr><td>15</td><td>Training your own embeddings</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>14</td><td>Semantic word embeddings. Word2Vec and GloVe</td><td><a href="5-NLP/14-Embeddings/README.md">Text</td><td><a href="5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/14-Embeddings/EmbeddingsTF.ipynb">Tensorflow</a></td><td></td></tr>
+<tr><td>15</td><td>Language Modeling. Training your own embeddings</td><td><a href="5-NLP/15-LanguageModeling">Text</a></td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>16</td><td>Recurrent Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>17</td><td>Generative Recurrent Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>18</td><td>Language Modelling. Transformers. BERT.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>

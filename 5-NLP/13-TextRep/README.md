@@ -14,7 +14,7 @@ Our goal would be to classify the news item into one of the categories based on 
 
 If we want to solve Natural Language Processing (NLP) tasks with neural networks, we need some way to represent text as tensors. Computers already represent textual characters as numbers that map to fonts on your screen using encodings such as ASCII or UTF-8.
 
-![Image showing diagram mapping a character to an ASCII and binary representation](images/ascii-character-map.png)
+<img alt="Image showing diagram mapping a character to an ASCII and binary representation" src="images/ascii-character-map.png" width="50%"/>
 
 We understand what each letter **represents**, and how all characters come together to form the words of a sentence. However, computers by themselves do not have such an understanding, and neural network has to learn the meaning during training.
 
@@ -34,7 +34,7 @@ In some cases, we may consider using tri-grams -- combinations of three words --
 
 When solving tasks like text classification, we need to be able to represent text by one fixed-size vector, which we will use as an input to final dense classifier. One of the simplest ways to do that is to combine all individual word representations, eg. by adding them. If we add one-hot encodings of each word, we will end up with a vector of frequencies, showing how many times each word appears inside the text. Such representation of text is called **bag of words** (BOW).
 
-<img src="images/bow.png" width="30%"/>
+<img src="images/bow.png" width="90%"/>
 
 BOW essentially represents which words appear in text and in which quantities, which can indeed be a good indication of what the text is about. For example, news article on politics is likely to contains words such as *president* and *country*, while scientific publication would have something like *collider*, *discovered*, etc. Thus, word frequencies can in many cases be a good indicator of text content.
 

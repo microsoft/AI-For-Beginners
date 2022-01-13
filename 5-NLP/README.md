@@ -33,7 +33,23 @@ pip install -r requirements-torch.txt
 pip install -r requirements-tf.txt
 ```
 
+## GPU Warning
+
+In this section, in some of the examples we will be training quite large models. It is advisable to run notebooks on GPU-enabled compute to minimize waiting time.
+
+When running on GPU, you may experience situations when you run out of GPU memory. During training, the amount of GPU memory consumed depends on many factors, including minibatch size. If you experience any memory problems - you may try to minimize the minibatch size in the code.
+
+Also, some older versions of Tensorflow do not release GPU memory correctly if we are training multiple models in one Python kernel. In order to use GPU memory cautiously, you may set tensorflow option to grow GPU memory allocation only when required. You would need to include the following code in your notebooks:
+
+```python
+physical_devices = tf.config.list_physical_devices('GPU') 
+if len(physical_devices)>0:
+    tf.config.experimental.set_memory_growth(physical_devices[0], True) 
+```
+
 ## Contents
 
 * [Representing text as tensors](13-TextRep/README.md)
 * [Word Embeddings](14-Emdeddings/README.md)
+* [Language Modeling](15-LanguageModeling/README.md)
+

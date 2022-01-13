@@ -15,6 +15,7 @@
 
 .ipynb_checkpoints/
 data/
+.vector_cache/
 
 # Mono auto generated files
 mono_crash.*
