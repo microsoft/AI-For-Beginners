@@ -52,4 +52,6 @@ if len(physical_devices)>0:
 * [Representing text as tensors](13-TextRep/README.md)
 * [Word Embeddings](14-Emdeddings/README.md)
 * [Language Modeling](15-LanguageModeling/README.md)
-
+* [Recurrent Neural Networks](16-RNN/README.md)
+* [Generative Networks](17-GenerativeNetworks/README.md)
+* [Transformers](18-Transformers/README.md)

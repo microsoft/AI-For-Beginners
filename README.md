@@ -64,9 +64,9 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td><a href="5-NLP/13-TextRep/README.md">Text</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/13-TextRep/TextRepresentationTF.ipynb">Tensorflow</td><td></td></tr>
 <tr><td>14</td><td>Semantic word embeddings. Word2Vec and GloVe</td><td><a href="5-NLP/14-Embeddings/README.md">Text</td><td><a href="5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/14-Embeddings/EmbeddingsTF.ipynb">Tensorflow</a></td><td></td></tr>
 <tr><td>15</td><td>Language Modeling. Training your own embeddings</td><td><a href="5-NLP/15-LanguageModeling">Text</a></td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>16</td><td>Recurrent Neural Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>17</td><td>Generative Recurrent Networks</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
-<tr><td>18</td><td>Language Modelling. Transformers. BERT.</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>16</td><td>Recurrent Neural Networks</td><td><a href="5-NLP/16-RNN/README.md">Text</a></td><td><a href="5-NLP/16-RNN/RNNPyTorch.ipynb">PyTorch</a></td><td><a href="5-NLP/16-RNN/RNNTF.ipynb">Tensorflow</a></td><td></td></tr>
+<tr><td>17</td><td>Generative Recurrent Networks</td><td><a href="5-NLP/17-GenerativeNetworks/README.md">Text</a></td><td><a href="5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="5-NLP/17-GenerativeNetworks/GenerativeTF.md">Tensorflow</a></td><td></td></tr>
+<tr><td>18</td><td>Transformers. BERT.</td><td><a href="5-NLP/18-Transformers/README.md">Text</a></td><td><a href="5-NLP/18-Transformers/TransformersPyTorch.md">PyTorch</a></td><td><a href="5-NLP/18-Transformers/TransformersTF.md">Tensorflow</a></td><td></td></tr>
 <tr><td>19</td><td>Named Entity Recognition</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>20</td><td>Text Generation using GPT</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td>PAT</td></tr>
