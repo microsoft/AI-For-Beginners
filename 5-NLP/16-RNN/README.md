@@ -18,7 +18,7 @@ Let's see how simple RNN cell is organized. It accepts previous state S<sub>i-1<
 
 Simple RNN cell has two weight matrices inside: one transforms input symbol (let call it W), and another one transforms input state (H). In this case the output of the network is calculated as &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), where &sigma; is the activation function, b is additional bias.
 
-![RNN Cell Anatomy](images/rnn-anatomy.png)
+<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
 
 In many cases, input tokens are passed through the embedding layer before entering the RNN to lower the dimensionality. In this case, if the dimension of the input vectors is *emb_size*, and state vector is *hid_size* - the size of W is *emb_size*&times;*hid_size*, and the size of H is *hid_size*&times;*hid_size*. 
 
