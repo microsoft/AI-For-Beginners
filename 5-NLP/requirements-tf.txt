@@ -9,4 +9,5 @@ scikit-learn
 scipy
 tensorflow
 tensorflow_datasets
+tensorflow_text
 transformers==4.3.3
