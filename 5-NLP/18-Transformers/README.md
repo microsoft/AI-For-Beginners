@@ -20,7 +20,8 @@ Attention matrix {&alpha;<sub>i,j</sub>} would represent the degree which certai
 
 Attention mechanisms are responsible for much of the current or near current state of the art in Natural language processing. Adding attention however greatly increases the number of model parameters which led to scaling issues with RNNs. A key constraint of scaling RNNs is that the recurrent nature of the models makes it challenging to batch and parallelize training. In an RNN each element of a sequence needs to be processed in sequential order which means it cannot be easily parallelized.
 
-![Encoder Decoder with Attention](images/EndDecAttention.gif)
+![Encoder Decoder with Attention](images/EncDecAttention.gif)
+
 *Figure taken from [Google Blog](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html)*
 
 Adoption of attention mechanisms combined with this constraint led to the creation of the now State of the Art Transformer Models that we know and use today from BERT to Open-GPT3.
@@ -41,7 +42,7 @@ We then mix the token position with token embedding vector. To transform positio
 * Trainable embedding, similar to token embedding. This is the approach we consider here. We apply embedding layers on top of both tokens and their positions, resulting in embedding vectors of the same dimensions, which we then add together. 
 * Fixed position encoding function, as proposed in the original paper.
 
-<img src="images/pos-encoding.png" width="50%"/>
+<img src="images/pos-embedding.png" width="50%"/>
 
 The result we get with positional embedding embeds both original token and its position within sequence.
 
@@ -54,7 +55,7 @@ Next, we need to capture some patterns within our sequence. To do this, transfor
 
 In transformers, we use **Multi-Head Attention**, in order to give network the power to capture several different types of dependencies, eg. long-term vs. short-term word relations, co-reference vs. something else, etc. 
 
-[Tensorflow Notebook](TransformersTF.ipynb) contains more detains on the implementation of transformer layers. You can also find [this blog post]()
+[Tensorflow Notebook](TransformersTF.ipynb) contains more detains on the implementation of transformer layers.
 
 ### Encoder-Decoder Attention
 
