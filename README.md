@@ -54,7 +54,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures<br/>Training Tricks</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">Tensorflow</a></td><td></td></tr>
 <tr><td>8</td><td>Pre-trained Networks and Transfer Learning</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">Tensorflow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td></td></tr>
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">Tensorflow</a></td><td></td></tr>
-<tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
+<tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">Tensorflow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td>PyTorch</td><td>Tensorflow</td><td></td></tr>
 <tr><td>V</td><td colspan="2"><b><a href="5-NLP/README.md">Natural Language Processing</a></b></td>
@@ -75,7 +75,6 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>23</td><td>Multi-Agent Systems</td><td>Text</td><td></td><td></td><td></td></tr>
 <tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td>PAT</td></tr>
 <tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td><td></td></tr>
-
 </table>
 
 Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **Tensorflow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or Tensorflow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to some specific problem. 

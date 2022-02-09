@@ -16,4 +16,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 # Looking for Contributions
 
 We are currently actively looking for contributions on the following topics:
-* PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
+
+[ ] PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
+[ ] Improve GAN section and translate samples to PyTorch
+[ ] Improve Autoencoders section and translate samples to PyTorch
