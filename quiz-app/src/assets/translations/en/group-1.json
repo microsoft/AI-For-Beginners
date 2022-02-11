@@ -1,0 +1,453 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 0,
+        "title": "Defining Data Science - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Why is the word _Science_ in Data Science?",
+            "answerOptions": [
+              {
+                "answerText": "It uses scientific methods to analyze data",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Only people with academic degrees can understand it",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "To make is sound cool",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Learning Data Science is only useful for developers",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "What do we need to demonstrate that basketball players are taller than average people?",
+            "answerOptions": [
+              {
+                "answerText": "Collect some data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Know some probability and statistics",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Defining Data Science: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "Which areas are closely related to data science?",
+            "answerOptions": [
+              {
+                "answerText": "Artificial Intelligence",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Machine Learning",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of the following is an example of non-structured data?",
+            "answerOptions": [
+              {
+                "answerText": "List of students in class",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Collection of student essays",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Graph of friends of social network users",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "What is the main goal of data science?",
+            "answerOptions": [
+              {
+                "answerText": "to collect data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to process data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to be able to make decisions based on data",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Ethics - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "What is a consideration of ethics in Data Science?",
+            "answerOptions": [
+              {
+                "answerText": "Data collection",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Algorithm Design",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of the following are a part of ethical challenges?",
+            "answerOptions": [
+              {
+                "answerText": "Transparency",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Data privacy",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Reliability and safety",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Data ethics also includes AI and machine learning algorithms ",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False, they are separate",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Ethics - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "What is the main difference between ethics and applied ethics?",
+            "answerOptions": [
+              {
+                "answerText": "Applied ethics is a specific type of ethics",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Applied ethics is not a real term",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Applied ethics is the process of finding and correcting ethical issues",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "What is the difference between ethics regulation vs ethics principles",
+            "answerOptions": [
+              {
+                "answerText": "Ethics regulation focuses on regular ethics",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "There is no difference",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Ethics principles do not relate to a particular law, while regulations do",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of these are real ethical principles and practices that can be applied?",
+            "answerOptions": [
+              {
+                "answerText": "Collection bias",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Compliance with ethics regulations",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Defining Data - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "Which of these could be quantitative data?",
+            "answerOptions": [
+              {
+                "answerText": "Photos of dogs",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Hotel reviews",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Student’s marks or grades",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of these could be qualitative data?",
+            "answerOptions": [
+              {
+                "answerText": "List of employees' salaries",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Hotel reviews",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Students' marks or grades",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "What is the main goal of classifying data?",
+            "answerOptions": [
+              {
+                "answerText": "To store the data correctly",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "To give the data a proper name",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "To know which method is best to organize it for readability and analysis",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Defining Data - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "The teacher is reviewing students’ number of correct answers, what type of data is that?",
+            "answerOptions": [
+              {
+                "answerText": "Qualitative Data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Quantitative Data",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "All the above",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A company is collecting surveys from their customers to improve their products. What type of data source is this?",
+            "answerOptions": [
+              {
+                "answerText": "Primary",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Secondary",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Tertiary",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A student is collecting data using queries. What data source could that be?",
+            "answerOptions": [
+              {
+                "answerText": "Local Files",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "API",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Database",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Statistics and Probability - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "Why statistics and probability are important for data science?",
+            "answerOptions": [
+              {
+                "answerText": "Because you cannot operate on data without knowing math",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Because data science is a science and has strong formal foundation",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Because we want to keep uneducated people from doing data science",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Can you get heads 10 times in a row when throwing a coin?",
+            "answerOptions": [
+              {
+                "answerText": "yes",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "no",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "When you throw a dice, what is the probability of getting an even number?",
+            "answerOptions": [
+              {
+                "answerText": "1/2",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "1/3",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "impossible to tell",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Statistics and Probability - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "We want to prove that basketball players are taller than average people. We have collected heights of 20 people from both groups. What do we need to do?",
+            "answerOptions": [
+              {
+                "answerText": "compare means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "collect more data, 20 is not enough!",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "How can we demonstrate that income of a person is dependent on the level of education?",
+            "answerOptions": [
+              {
+                "answerText": "compute correlation coefficient",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "divide into educated and non-educated cohorts and compute means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "We throw the dice 100 times and compute the average value. What would be the distribution of the result?",
+            "answerOptions": [
+              {
+                "answerText": "uniform",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "normal",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "none of the above",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

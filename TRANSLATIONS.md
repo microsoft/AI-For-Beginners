@@ -24,7 +24,7 @@ Similar to Readme's, please translate the assignments as well.
 
 2. Add your language code to the dropdown in the quiz-app's App.vue file.
 
-3. Edit the quiz-app's [translations index.js file](https://github.com/microsoft/ML-For-Beginners/blob/main/quiz-app/src/assets/translations/index.js) to add your language.
+3. Edit the quiz-app's [translations index.js file](https://github.com/microsoft/AI-For-Beginners/blob/main/quiz-app/src/assets/translations/index.js) to add your language.
 
 4. Finally, edit ALL the quiz links in your translated README.md files to point directly to your translated quiz: https://https://jolly-sea-0a877260f.azurestaticapps.net/quiz/1 becomes https://jolly-sea-0a877260f.azurestaticapps.net/quiz/1?loc=id
 
