@@ -83,7 +83,7 @@ Some sections also contain links to **MS Learn** modules that cover related topi
 
 Course sections also include the links to **PAT**s - Progress Assessment Tool, a list of items that you are likely to get to know after completing the module. You can review it and assess your progress on the course yourself. 
 
----
+![Mindmap of the Course](Mindmap.svg)
 # Getting Started
 
 **Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - you can find the advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
