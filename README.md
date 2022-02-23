@@ -10,20 +10,21 @@
 
 # Artificial Intelligence for Beginners - A Curriculum
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. In this curriculum, you will learn:
+Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
 
-* Different approaches to Artificial Intelligence, including "good old" symbolic approach with **Knowledge Representation** and reasoning.
-* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will try to illustrate all ideas using code in two most popular frameworks - TensorFlow(http://TensorFlow.org) and PyTorch(http://pytorch.org).
-* **Neural Architectures** for working with Images and Text. We will try to cover very recent models, but may lack a little bit on state-of-the-art.
-* Less popular AI approaches, such as **Genetic Algorithms**
+In this curriculum, you will learn:
+* Different approaches to Artificial Intelligence, including the "good old" symbolic approach with **Knowledge Representation** and reasoning.
+* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - TensorFlow(http://Tensorflow.org) and PyTorch(http://pytorch.org).
+* **Neural Architectures** for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.
+* Less popular AI approaches, such as **Genetic Algorithms**.
 
-What we will not cover in this curricula:
+What we will not cover in this curriculum:
 * **Classic Machine Learning**, which is well described in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners)
-* Practical AI applications build using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mcid=academic-33554-dmitryso)**. You may want to go to separate courses on Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mcid=academic-33554-dmitryso), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mcid=academic-33554-dmitryso) and others.
-* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mcid=academic-33554-dmitryso). There is great learning path [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mcid=academic-33554-dmitryso) for this.
-* **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mcid=academic-33554-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/)
+* Practical AI applications built using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mcid=academic-33554-dmitryso)**. For this, we recommend that you start with modules Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mcid=academic-33554-dmitryso), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mcid=academic-33554-dmitryso) and others.
+* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mcid=academic-33554-dmitryso). There is a great learning path called [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mcid=academic-33554-dmitryso) for this topic.
+* **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mcid=academic-33554-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
 
-For a gentle introduction to *AI in the Cloud* topic you may consider taking [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mcid=academic-33554-dmitryso) Learning Path.
+For a gentle introduction to *AI in the Cloud* topic you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mcid=academic-33554-dmitryso) Learning Path.
 
 ---
 # Content
@@ -77,28 +78,29 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking [Ge
 <tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td><td></td></tr>
 </table>
 
-Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to some specific problem. 
+Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to a specific problem. 
 
-Some sections also contain links to **MS Learn** modules that cover related topics. Microsoft Learn provides convenient GPU-enabled learning environment, although in terms of content you can expect this curriculum to go a bit deeper.
+Some sections also contain links to **MS Learn** modules that cover related topics. Microsoft Learn provides a convenient GPU-enabled learning environment, although in terms of content you can expect this curriculum to go a bit deeper.
 
 Course sections also include the links to **PAT**s - Progress Assessment Tool, a list of items that you are likely to get to know after completing the module. You can review it and assess your progress on the course yourself. 
 
 ![Mindmap of the Course](Mindmap.svg)
+
 # Getting Started
 
 **Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - you can find the advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-However, if you are serious about the course, we suggest to fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
+However, if you would like to take the course as a self-study project, we suggest that you fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
 
-- Start with a pre-lecture quiz.
+- Start with a pre-lecture quiz
 - Read the intro text for the lecture 
-- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favourite framework.
-- Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment. Do not by lazy and do it!
-- Take the post-lecture quiz.
-- If there is a lab attached to the module - complete the assignment.
-- Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to and "learn out loud" by filling out the appropriate PAT rubric. A 'PAT' is a Progress Assessment Tool that is a rubric you fill out to further your learning. You can also react to other PATs so we can learn together.
+- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favourite framework
+- Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment
+- Take the post-lecture quiz
+- If there is a lab attached to the module - complete the assignment
+- Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to and "learn out loud" by filling out the appropriate PAT rubric. A 'PAT' is a Progress Assessment Tool that is a rubric you fill out to further your learning. You can also react to other PATs so we can learn together
 
-> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/k7o7tg1gp306q4?WT.mc_id=academic-15963-cxa) modules and learning paths.
+> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/users/jenlooper-2911/collections/k7o7tg1gp306q4?WT.mc_id=academic-15963-cxa) modules and learning paths.
 
 **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum.
 
@@ -115,7 +117,7 @@ However, if you are serious about the course, we suggest to fork the entire repo
 
 ## Meet the Team
 
-[![Promo video](ml-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
+[![Promo video](ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
 
 > 🎥 Click the image above for a video about the project and the folks who created it!
 
