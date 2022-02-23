@@ -23,4 +23,4 @@ In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.
 Let's see transfer learning in action in corresponding notebooks:
 
 * [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
-* [Transfer Learning - Tensorflow](TransferLearningTF.ipynb)
+* [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)

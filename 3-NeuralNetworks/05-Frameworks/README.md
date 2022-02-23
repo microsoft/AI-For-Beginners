@@ -9,9 +9,9 @@ While `numpy` library can do the first part, we need some mechanism to compute g
 
 Another important thing is to be able to perform computations on GPU, or any other specialized compute units, such as [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Deep neural network training requires *a lot* of computations, and to be able to parallelize those computations on GPUs is very important.
 
-Currently, there are two most popular neural frameworks: [Tensorflow](http://tensorflow.org), and [PyTorch](https://pytorch.org/). Both provide low-level API to operate with tensors on both CPU and GPU. On top of the low-level API, there is also higher-level API, called [Keras](https://keras.io/) and [PyTorch Lightning](https://pytorchlightning.ai/) correspondingly.
+Currently, there are two most popular neural frameworks: [TensorFlow](http://TensorFlow.org), and [PyTorch](https://pytorch.org/). Both provide low-level API to operate with tensors on both CPU and GPU. On top of the low-level API, there is also higher-level API, called [Keras](https://keras.io/) and [PyTorch Lightning](https://pytorchlightning.ai/) correspondingly.
 
-Low-Level API | [TensorFlow](http://tensorflow.org) | [PyTorch](https://pytorch.org/)
+Low-Level API | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)
 --------------|-------------------------------------|--------------------------------
 High-level API| [Keras](https://keras.io/) | [PyTorch Lightning](https://pytorchlightning.ai/)
 
@@ -25,7 +25,7 @@ It is also important to understand that you can use both APIs together, eg. you 
 
 ## Learning
 
-In this course, we offer most of the content both for PyTorch and Tensorflow. You can chose your preferred framework and only go through the corresponding notebooks. If you are not sure which framework to chose - read some discussions on the internet regarding **PyTorch vs. Tensorflow**. You can also have a look at both frameworks to get better understanding.
+In this course, we offer most of the content both for PyTorch and TensorFlow. You can chose your preferred framework and only go through the corresponding notebooks. If you are not sure which framework to chose - read some discussions on the internet regarding **PyTorch vs. TensorFlow**. You can also have a look at both frameworks to get better understanding.
 
 Where possible, we will use High-Level APIs for simplicity. However, we believe it is important to understand how neural networks work from the ground up, thus in the beginning we start by working with low-level API and tensors. However, if you want to get going fast and do not want to spend a lot of time on details, you can skip those, and go straight into high-level API notebooks.
 

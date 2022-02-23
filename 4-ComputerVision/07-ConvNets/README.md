@@ -30,7 +30,7 @@ The way CNNs work is based on the following important ideas:
 Let's continue exploring how convolutional neural networks work, and how we can achieve trainable filters, in corresponding notebooks:
 
 * [Convolutional Neural Networks - PyTorch](ConvNetsPyTorch.ipynb)
-* [Convolutional Neural Networks - Tensorflow](ConvNetsTF.ipynb)
+* [Convolutional Neural Networks - TensorFlow](ConvNetsTF.ipynb)
 
 ## Pyramid Architecture
 

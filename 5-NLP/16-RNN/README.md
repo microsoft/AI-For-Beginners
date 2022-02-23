@@ -50,7 +50,7 @@ Recurrent network, one-directional or bidirectional, captures certain patterns w
 ## Continue to Notebooks
 
 * [RNNs with PyTorch](RNNPyTorch.ipynb)
-* [RNNs with Tensorflow](RNNTF.ipynb)
+* [RNNs with TensorFlow](RNNTF.ipynb)
 
 ## RNNs for other tasks
 

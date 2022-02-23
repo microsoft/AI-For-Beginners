@@ -13,7 +13,7 @@ By using embedding layer as a first layer in our classifier network, we can swit
 ## Continue in Notebooks
 
 * [Embeddings with PyTorch](EmbeddingsPyTorch.ipynb)
-* [Embeddings Tensorflow](EmbeddingsTF.ipynb)
+* [Embeddings TensorFlow](EmbeddingsTF.ipynb)
 
 ## Semantic Embeddings: Word2Vec
 

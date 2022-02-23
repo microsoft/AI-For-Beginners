@@ -16,5 +16,5 @@ The idea of CBoW is exactly predicting a missing word, however, to do this we ta
 ## More Info
 
 * [Official PyTorch tutorial on Language Modeling](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html). 
-* [Official TensorFlow tutorial on training Word2Vec model](https://www.tensorflow.org/tutorials/text/word2vec).
+* [Official TensorFlow tutorial on training Word2Vec model](https://www.TensorFlow.org/tutorials/text/word2vec).
 * Using **gensim** framework to train most commonly used embeddings in a few lines of code is as described [in this documentation](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).

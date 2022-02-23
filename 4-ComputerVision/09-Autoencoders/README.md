@@ -49,7 +49,7 @@ Observe how images blend into each other, as we start getting latent vectors fro
 
 ## Continue to Notebooks
 
-* [Autoencoders in Tensorflow](AutoencodersTF.ipynb)
+* [Autoencoders in TensorFlow](AutoencodersTF.ipynb)
 
 ## Properties of Autoencoders
 

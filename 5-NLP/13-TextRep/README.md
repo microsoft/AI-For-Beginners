@@ -45,4 +45,4 @@ However, none of those approaches can fully take into account the semantics of t
 ## Continue to Notebooks
 
 * [Text Representation with PyTorch](TextRepresentationPyTorch.ipynb)
-* [Text Representation with Tensorflow](TextRepresentationTF.ipynb)
+* [Text Representation with TensorFlow](TextRepresentationTF.ipynb)

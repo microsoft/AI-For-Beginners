@@ -27,7 +27,7 @@ When generating text (during inference), we start with some **prompt**, which is
 ## Continue to Notebooks
 
 * [Generative Networks with PyTorch](GenerativePyTorch.ipynb)
-* [Generative Networks with Tensorflow](GenerativeTF.ipynb)
+* [Generative Networks with TensorFlow](GenerativeTF.ipynb)
 
 ## Soft text generation and temperature
 

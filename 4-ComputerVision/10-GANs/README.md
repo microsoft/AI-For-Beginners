@@ -39,7 +39,7 @@ The training happens in two stages:
 During this process, both generator and discriminator losses are not going down significantly. In the ideal situation, they should oscillate, corresponding to both networks improving their performance.
 
 ## Go to Notebook
-* [GAN Notebook in Tensorflow/Keras](GANs.ipynb)
+* [GAN Notebook in TensorFlow/Keras](GANs.ipynb)
 
 ### Problems with GAN training
 

@@ -55,7 +55,7 @@ Next, we need to capture some patterns within our sequence. To do this, transfor
 
 In transformers, we use **Multi-Head Attention**, in order to give network the power to capture several different types of dependencies, eg. long-term vs. short-term word relations, co-reference vs. something else, etc. 
 
-[Tensorflow Notebook](TransformersTF.ipynb) contains more detains on the implementation of transformer layers.
+[TensorFlow Notebook](TransformersTF.ipynb) contains more detains on the implementation of transformer layers.
 
 ### Encoder-Decoder Attention
 
@@ -75,12 +75,12 @@ Since each input position is mapped independently to each output position, trans
 
 ![picture from http://jalammar.github.io/illustrated-bert/](images/jalammarBERT-language-modeling-masked-lm.png)
 
-There are many variations of Transformer architectures including BERT, DistilBERT. BigBird, OpenGPT3 and more that can be fine tuned. The [HuggingFace package](https://github.com/huggingface/) provides repository for training many of these architectures with both PyTorch and Tensorflow.
+There are many variations of Transformer architectures including BERT, DistilBERT. BigBird, OpenGPT3 and more that can be fine tuned. The [HuggingFace package](https://github.com/huggingface/) provides repository for training many of these architectures with both PyTorch and TensorFlow.
 
 ## Continue to Notebooks
 
 * [Transformers in PyTorch](TransformersPyTorch.ipynb)
-* [Transformers in Tensorflow](TransformersTF.ipynb)
+* [Transformers in TensorFlow](TransformersTF.ipynb)
 
 ## Related materials
 

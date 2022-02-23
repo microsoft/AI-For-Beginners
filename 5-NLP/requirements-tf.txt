@@ -7,7 +7,7 @@ opencv-python==4.5.1.48
 Pillow==7.1.2
 scikit-learn
 scipy
-tensorflow
-tensorflow_datasets
-tensorflow_text
+TensorFlow
+TensorFlow_datasets
+TensorFlow_text
 transformers==4.3.3

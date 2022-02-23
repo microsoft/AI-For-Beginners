@@ -28,7 +28,7 @@ If you are using local Python installation to run this course, you may need to i
 ```bash
 pip install -r requirements-torch.txt
 ```
-**For Tensorflow**
+**For TensorFlow**
 ```bash
 pip install -r requirements-tf.txt
 ```
@@ -39,7 +39,7 @@ In this section, in some of the examples we will be training quite large models.
 
 When running on GPU, you may experience situations when you run out of GPU memory. During training, the amount of GPU memory consumed depends on many factors, including minibatch size. If you experience any memory problems - you may try to minimize the minibatch size in the code.
 
-Also, some older versions of Tensorflow do not release GPU memory correctly if we are training multiple models in one Python kernel. In order to use GPU memory cautiously, you may set tensorflow option to grow GPU memory allocation only when required. You would need to include the following code in your notebooks:
+Also, some older versions of TensorFlow do not release GPU memory correctly if we are training multiple models in one Python kernel. In order to use GPU memory cautiously, you may set TensorFlow option to grow GPU memory allocation only when required. You would need to include the following code in your notebooks:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
