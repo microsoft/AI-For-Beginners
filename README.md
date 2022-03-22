@@ -39,7 +39,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>1</td><td>Introduction and History of AI</td><td><a href="1-Intro/README.md">Text</a></td><td></td><td></td><td></td></tr>
 
 <tr><td>II</td><td colspan="4"><b>Symbolic AI</b></td><td>PAT</td></tr>
-<tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td><a href="2-Symbolic/README.md">Text</a></td colspan="2"><a href="2-Symbolic/Animals.ipynb">Expert System</a>, <a href="2-Symbolic/FamilyOntology.ipynb">Ontology</a>, <a href="2-Symbolic/MSConceptGraph.ipynb">Concept Graph</a><td></td><td></td></tr>
+<tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td><a href="2-Symbolic/README.md">Text</a></td><td colspan="2"><a href="2-Symbolic/Animals.ipynb">Expert System</a>, <a href="2-Symbolic/FamilyOntology.ipynb">Ontology</a>, <a href="2-Symbolic/MSConceptGraph.ipynb">Concept Graph</a></td><td></td></tr>
 <tr><td>III</td><td colspan="4"><b><a href="3-NeuralNetworks/README.md">Introduction to Neural Networks</a></b></td><td>PAT</td></tr>
 <tr><td>3</td><td>Perceptron</td>
    <td><a href="3-NeuralNetworks/03-Perceptron/README.md">Text</a>
