@@ -1,5 +1,7 @@
 # Introduction to AI
 
+![Summary of Introduction of AI content in a doodle](../../sketchnotes/ai-intro.png)
+
 **Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
 
 Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to operate on numbers following well-defined procedure - an algorithm. Modern computers, even though significantly more advanced than original model proposed in 19th century - still follow the same idea of controlled computations. Thus it is easy to program computer to do something if we know the exact sequence of steps that we need to do in order to achieve the goal.
