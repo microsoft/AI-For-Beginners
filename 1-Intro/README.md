@@ -1,6 +1,6 @@
 # Introduction to AI
 
-![Summary of Introduction of AI content in a doodle](../../sketchnotes/ai-intro.png)
+![Summary of Introduction of AI content in a doodle](../sketchnotes/ai-intro.png)
 
 **Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
 
