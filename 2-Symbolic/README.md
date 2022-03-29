@@ -1,5 +1,7 @@
 # Knowledge Representation and Expert Systems
 
+![Summary of Symbolic AI content in a doodle](../sketchnotes/ai-symbolic.png)
+
 In the early days of AI, top-down approach to creating intelligent systems was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
 * Knowledge Representation
