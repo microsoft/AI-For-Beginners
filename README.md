@@ -87,7 +87,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="X-Extras/1-MultiModal/README.md">Text</a></td><td></td><td></td><td></td></tr>
 </table>
 
-**[Mindmap of the Course](etc/Mindmap.html)**
+**[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
 Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to a specific problem. 
 
