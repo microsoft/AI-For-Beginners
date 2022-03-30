@@ -1,4 +1,4 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
@@ -16,18 +16,22 @@
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
 
 In this curriculum, you will learn:
-* Different approaches to Artificial Intelligence, including the "good old" symbolic approach with **Knowledge Representation** and reasoning.
-* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - TensorFlow(http://Tensorflow.org) and PyTorch(http://pytorch.org).
+
+* Different approaches to Artificial Intelligence, including the "good old" symbolic approach with **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).
 * **Neural Architectures** for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.
-* Less popular AI approaches, such as **Genetic Algorithms**.
+* Less popular AI approaches, such as **Genetic Algorithms** and **Multi-Agent Systems**.
 
 What we will not cover in this curriculum:
-* **Classic Machine Learning**, which is well described in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners)
-* Practical AI applications built using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mcid=academic-33554-dmitryso)**. For this, we recommend that you start with modules Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mcid=academic-33554-dmitryso), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mcid=academic-33554-dmitryso) and others.
-* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mcid=academic-33554-dmitryso). There is a great learning path called [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mcid=academic-33554-dmitryso) for this topic.
-* **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mcid=academic-33554-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
 
-For a gentle introduction to *AI in the Cloud* topic you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mcid=academic-33554-dmitryso) Learning Path.
+* Business cases of using **AI in Business**. Consider taking [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-33554-dmitryso) learning path on Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-33554-dmitryso), developed in cooperation with [INSEAD](https://www.insead.edu/).
+* **Classic Machine Learning**, which is well described in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners)
+* Practical AI applications built using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-33554-dmitryso)**. For this, we recommend that you start with modules Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-33554-dmitryso), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-33554-dmitryso) and others.
+* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-33554-dmitryso) or [Azure Databricks](). Consider using [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-33554-dmitryso) and [Build and O perate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-33554-dmitryso) learning paths.
+* **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-33554-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
+* **Deep Mathematics** behind deep learning. For this, we would recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, which is also available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+
+For a gentle introduction to *AI in the Cloud* topic you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-33554-dmitryso) Learning Path.
 
 ---
 # Content
@@ -55,8 +59,8 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td>PAT</td></tr>
 <tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td>Text<td colspan="2">Notebook</td><td></td></tr>
-<tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures<br/>Training Tricks</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>8</td><td>Pre-trained Networks and Transfer Learning</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td></td></tr>
+<tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>8</td><td>Pre-trained Networks and Transfer Learning<br/>Training Tricks</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td></td></tr>
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
@@ -74,11 +78,13 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>19</td><td>Named Entity Recognition</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
 <tr><td>20</td><td>Text Generation using GPT</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
 <tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td>PAT</td></tr>
-<tr><td>21</td><td>Genetic Algorithms</td><td>Text<td colspan="2">Notebook</td><td></td></tr>
-<tr><td>22</td><td>Deep Reinforcement Learning</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
-<tr><td>23</td><td>Multi-Agent Systems</td><td>Text</td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>Genetic Algorithms</td><td><a href="6-Other/21-GeneticAlgorithms/README.md">Text</a><td colspan="2"><a href="6-Other/21-GeneticAlgorithms/Genetic.ipynb">Notebook</a></td><td></td></tr>
+<tr><td>22</td><td>Deep Reinforcement Learning</td><td><a href="6-Other/22-DeepRL/README.md">Text</a></td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
+<tr><td>23</td><td>Multi-Agent Systems</td><td><a href="6-Other/23-MultiagentSystems/README.md">Text</a></td><td></td><td></td><td></td></tr>
 <tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td>PAT</td></tr>
-<tr><td>24</td><td>AI Ethics and Responsible AI</td><td>Text</td><td></td><td></td><td></td></tr>
+<tr><td>24</td><td>AI Ethics and Responsible AI</td><td><a href="7-Ethics/README.md">Text</a></td><td></td><td></td><td></td></tr>
+<tr><td></td><td colspan="4"><b>Extras</b></td><td></td></tr>
+<tr><td>1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="X-Extras/1-MultiModal/README.md">Text</a></td><td></td><td></td><td></td></tr>
 </table>
 
 Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learnt to a specific problem. 
