@@ -141,4 +141,4 @@ Do a tour of the internet to determine where, in your opinion, AI is most effect
 
 Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
 
-**Assignment**: [Assignment Name](assignment.md) TODO
+**Assignment**: [Game Jam](assignment.md)
