@@ -1,0 +1,418 @@
+[{
+  "title": "AI para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 0,
+      "title": "Definición de la ciencia de los datos - Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Por qué la palabra _Ciencia_ en Ciencia de Datos?",
+          "answerOptions": [{
+              "answerText": "Utiliza métodos científicos para analizar los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Sólo las personas con títulos académicos pueden entenderlo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Para que suene bien",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "El aprendizaje de la ciencia de los datos sólo es útil para los desarrolladores",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué necesitamos para demostrar que los jugadores de baloncesto son más altos que la gente media?",
+          "answerOptions": [{
+              "answerText": "Recopilar datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Conocer algo de probabilidad y estadística",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Definir la ciencia de los datos: Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Qué áreas están estrechamente relacionadas con la ciencia de los datos?",
+          "answerOptions": [{
+              "answerText": "Inteligencia Artificial",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Aprendizaje automático",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál de los siguientes representaciones es un ejemplo de datos no estructurados?",
+          "answerOptions": [{
+              "answerText": "Una lista de alumnos en clase",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Una colección de ensayos de estudiantes",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Un gráfico de amigos de usuarios en redes sociales",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo principal de la ciencia de datos?",
+          "answerOptions": [{
+              "answerText": "recoger datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "procesar los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "ser capaz de tomar decisiones basadas en datos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ética - Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Qué es la consideración de la ética en la Ciencia de los Datos?",
+          "answerOptions": [{
+              "answerText": "Recogida de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Diseño de algoritmos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de los siguientes elementos forman parte de los desafíos éticos?",
+          "answerOptions": [{
+              "answerText": "La transparencia",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La privacidad",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "La seguridad y fiabilidad",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La ética de los datos también incluye la IA y los algoritmos de aprendizaje automático",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso, están separados",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ética - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Cuál es la principal diferencia entre la ética y la ética aplicada?",
+          "answerOptions": [{
+              "answerText": "La ética aplicada es un tipo específico de ética",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La ética aplicada no es un término real",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La ética aplicada es el proceso de encontrar y corregir problemas éticos",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es la diferencia entre reglamento de ética y principios de ética?",
+          "answerOptions": [{
+              "answerText": "La normativa ética se centra en la ética habitual",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No hay ninguna diferencia",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Los principios éticos no están relacionados con una ley concreta, mientras que los reglamentos sí.",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son los principios y prácticas éticas reales que se pueden aplicar?",
+          "answerOptions": [{
+              "answerText": "Sesgo de recogida",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cumplimiento de la normativa ética",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Definición de datos - Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Cuáles de estos datos podrían ser cuantitativos?",
+          "answerOptions": [{
+              "answerText": "Fotos de perros",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reseñas de hoteles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Notas o calificaciones de estudiantes",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de estos datos podrían ser datos cualitativos?",
+          "answerOptions": [{
+              "answerText": "Lista de salarios de los empleados",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reseñas de hoteles",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Notas o calificaciones de estudiantes",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo principal de la clasificación de datos?",
+          "answerOptions": [{
+              "answerText": "El almacenamiento correcto de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Dar un nombre propio a los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Saber cuál es el mejor método para organizarlo para la legibilidad y el análisis",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Definición de los datos - Cuestionario final",
+      "quiz": [{
+          "questionText": "El profesor está revisando el número de respuestas correctas de los alumnos, ¿de qué tipo de datos se trata?",
+          "answerOptions": [{
+              "answerText": "Datos cualitativos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Datos cuantitativos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una empresa está recogiendo encuestas de sus clientes para mejorar sus productos. ¿De qué tipo de fuente de datos se trata?",
+          "answerOptions": [{
+              "answerText": "Primario",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Secundario",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Terciario",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Un estudiante está recogiendo datos mediante consultas. ¿Qué fuente de datos podría ser?",
+          "answerOptions": [{
+              "answerText": "Archivos locales",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "API",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Base de datos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Estadística y Probabilidad - Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Por qué la estadística y la probabilidad son importantes para la ciencia de los datos?",
+          "answerOptions": [{
+              "answerText": "Porque no se puede operar con datos sin saber matemáticas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Porque la ciencia de los datos es una ciencia y tiene una sólida base formal",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Porque queremos evitar que la gente sin formación se dedique a la ciencia de los datos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Puedes sacar cara 10 veces seguidas al lanzar una moneda?",
+          "answerOptions": [{
+              "answerText": "Sí",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número par?",
+          "answerOptions": [{
+              "answerText": "1/2",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "1/3",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Es imposible de predecir",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Estadística y Probabilidad - Cuestionario final",
+      "quiz": [{
+          "questionText": "Queremos demostrar que los jugadores de baloncesto son más altos que la gente media. Hemos recogido las estaturas de 20 personas de ambos grupos. ¿Qué tenemos que hacer?",
+          "answerOptions": [{
+              "answerText": "comparar la media",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Recoger más datos, ¡20 no es suficiente!",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "utilizar la prueba t de Student",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cómo podemos demostrar que los ingresos de una persona dependen del nivel de educación?",
+          "answerOptions": [{
+              "answerText": "calcular el coeficiente de correlación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "dividir en grupos con y sin estudios y calcular las medias",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "utilizar la prueba t de Studen",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Lanzamos los dados 100 veces y calculamos el valor medio. ¿Cuál sería la distribución del resultado?",
+          "answerOptions": [{
+              "answerText": "uniforme",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "normal",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "ninguna de las respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
