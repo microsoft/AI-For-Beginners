@@ -53,14 +53,15 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
    <td>Intro to Frameworks (PyTorch/TensorFlow)<br/>Overfitting</td>
    <td><a href="3-NeuralNetworks/05-Frameworks/README.md">Text</a><br/><a href="3-NeuralNetworks/05-Frameworks/Overfitting.md">Text</a></td>
    <td><a href="3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb">PyTorch</td>
-   <td><a href="3-NeuralNetworks/05-Frameworks/IntroKerasTF.md">Keras/TensorFlow</td><td></td></tr>
+   <td><a href="3-NeuralNetworks/05-Frameworks/IntroKerasTF.md">Keras/TensorFlow</td>
+   <td><a href="3-NeuralNetworks/05-Frameworks/lab/README.md">Lab</a></td></tr>
 <tr><td>IV</td><td colspan="2"><b><a href="4-ComputerVision/README.md">Computer Vision</a></b></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-33554-dmitryso">MS Learn</a></td>
   <td>PAT</td></tr>
 <tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td>Text<td colspan="2">Notebook</td><td></td></tr>
-<tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>8</td><td>Pre-trained Networks and Transfer Learning<br/>Training Tricks</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td></td></tr>
+<tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
+<tr><td>8</td><td>Pre-trained Networks and Transfer Learning<br/>Training Tricks</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td><a href="4-ComputerVision/08-TransferLearning/lab/README.md">Lab</a></td></tr>
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
