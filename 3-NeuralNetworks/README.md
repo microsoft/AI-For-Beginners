@@ -26,11 +26,11 @@ From biology we know that our brain consists of neural cells, each of them havin
 
 ![Model of a Neuron](images/synapse-wikipedia.jpg) | ![Model of a Neuron](images/artneuron.png)
 ----|----
-Real Neuron | Artificial Neuron
+Real Neuron *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) from Wikipedia)* | Artificial Neuron *(Image by Author)*
 
 Thus, simplest mathematical model of a neuron contains several inputs X<sub>1</sub>, ..., X<sub>N</sub> and an output Y, and a series of weights W<sub>1</sub>, ..., W<sub>N</sub>. An output is calculated as
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=Y%20%3D%20f%5Cleft%28%5Csum_%7Bi%3D1%7D%5EN%20X_iW_i%5Cright%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" />
+<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 where f is some non-linear **activation function**.
 

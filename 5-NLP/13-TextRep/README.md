@@ -16,6 +16,8 @@ If we want to solve Natural Language Processing (NLP) tasks with neural networks
 
 <img alt="Image showing diagram mapping a character to an ASCII and binary representation" src="images/ascii-character-map.png" width="50%"/>
 
+> [Image source](https://www.seobility.net/en/wiki/ASCII)
+
 We understand what each letter **represents**, and how all characters come together to form the words of a sentence. However, computers by themselves do not have such an understanding, and neural network has to learn the meaning during training.
 
 Therefore, we can use different approaches when representing text:
@@ -35,6 +37,8 @@ In some cases, we may consider using tri-grams -- combinations of three words --
 When solving tasks like text classification, we need to be able to represent text by one fixed-size vector, which we will use as an input to final dense classifier. One of the simplest ways to do that is to combine all individual word representations, eg. by adding them. If we add one-hot encodings of each word, we will end up with a vector of frequencies, showing how many times each word appears inside the text. Such representation of text is called **bag of words** (BOW).
 
 <img src="images/bow.png" width="90%"/>
+
+> Image by author
 
 BOW essentially represents which words appear in text and in which quantities, which can indeed be a good indication of what the text is about. For example, news article on politics is likely to contains words such as *president* and *country*, while scientific publication would have something like *collider*, *discovered*, etc. Thus, word frequencies can in many cases be a good indicator of text content.
 

@@ -2,6 +2,9 @@
 
 ![Summary of Symbolic AI content in a doodle](../sketchnotes/ai-symbolic.png)
 
+> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+
+
 In the early days of AI, top-down approach to creating intelligent systems was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
 * Knowledge Representation
@@ -30,6 +33,8 @@ Thus, the problem of **knowledge representation** is to find some effective way 
 * On the right, there are representations such as natural text. It is the most powerful, but cannot be used for automatic reasoning.
 
 ![Knowledge representation spectrum](images/knowledge-spectrum.png)
+
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 We can classify different computer knowledge representation methods in the following categories:
 
@@ -81,6 +86,8 @@ Expert systems are built similarly to a human being reasoning system, which cont
 As an example, let's consider the following expert system of determining an animal based on physical characteristics:
 
 ![AND-OR Tree](images/AND-OR-Tree.png)
+
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 This diagram is called **AND-OR tree**, and it is a graphical representation of a set of production rules. Drawing a tree is useful at the beginning of extracting knowledge from the expert, and to represent the knowledge inside the computer it is more convenient to use rules:
 ```
@@ -148,6 +155,8 @@ In a more complex case, if we want to define a list of creators, we can use some
 
 <img src="images/triplet-complex.png" width="40%"/>
 
+> Diagrams above by [Dmitry Soshnikov](http://soshnikov.com)
+
 Progress of building Semantic Web was somehow slowed down by the success of search engines and natural language processing techniques, which allow extracting structured data from text. However, in some areas there are still significant efforts to maintain ontologies and knowledgebases. A few projects worth noting:
 * [WikiData](https://wikidata.org/) is a collection of machine readable knowledgebases associated with Wikipedia. Most of the data is mined from Wikipedia *InfoBoxes*, pieces of structured content inside Wikipedia pages. You can [query](https://query.wikidata.org/) wikidata in SPARQL, a special query language for Semantic Web. Here is a sample query that displays most popular eye colors among humans:
 ```sparql
@@ -167,7 +176,7 @@ GROUP BY ?eyeColorLabel
 
 <img src="images/protege.png" width="70%"/>
 
-*Web Protégé editor open with Romanov Family ontology*
+*Web Protégé editor open with Romanov Family ontology. Screenshot by Dmitry Soshnikov*
 
 See [FamilyOntology.ipynb](FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format, and an ontology of family relationships, and build a graph of all family relationships for given set of individuals.
 

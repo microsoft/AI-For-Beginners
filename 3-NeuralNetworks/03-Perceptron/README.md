@@ -5,6 +5,8 @@ One of the first attempts to implement something similar to a modern neural netw
 <img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />
 -----|-----
 
+> Images [from Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
+
 An input image was represented by 20x20 photocell array, so the neural network had 400 inputs and one binary output. Simple network contained one neuron, also called **threshold logic unit**. Neural network weights were potentiometers that required manual adjustment during the training phase.
 
 > New York Times wrote about perceptron at that time:
@@ -64,3 +66,10 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 ## [Proceed to Notebook](Perceptron.ipynb)
 
 To see how we can use perceptron to solve some toy as well as real-life problems, and to continue learning - go to [Perceptron](Perceptron.ipynb) notebook.
+
+## [Lab](lab/README.md)
+
+In this lesson, we have implemented perceptron for binary classification task, and we have used it to classify between two handwritten digits. In this lab, you are asked to solve the problem of digit classification entirely, i.e. determine which digit is most likely to correspond to a given image.
+
+* [Instructions](lab/README.md)
+* [Notebook](lab/PerceptronMultiClass.ipynb)

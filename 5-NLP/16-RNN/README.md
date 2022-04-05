@@ -6,6 +6,8 @@ To capture the meaning of text sequence, we need to use another neural network a
 
 ![RNN](./images/rnn.png)
 
+> Image by author
+
 Given the input sequence of tokens X<sub>0</sub>,...,X<sub>n</sub>, RNN creates a sequence of neural network blocks, and trains this sequence end-to-end using back propagation. Each network block takes a pair (X<sub>i</sub>,S<sub>i</sub>) as an input, and produces S<sub>i+1</sub> as a result. Final state S<sub>n</sub> or (output Y<sub>n</sub>) goes into a linear classifier to produce the result. All network blocks share the same weights, and are trained end-to-end using one backpropagation pass.
 
 Because state vectors S<sub>0</sub>,...,S<sub>n</sub> are passed through the network, it is able to learn the sequential dependencies between words. For example, when the word *not* appears somewhere in the sequence, it can learn to negate certain elements within the state vector, resulting in negation.  
@@ -19,6 +21,8 @@ Let's see how simple RNN cell is organized. It accepts previous state S<sub>i-1<
 Simple RNN cell has two weight matrices inside: one transforms input symbol (let call it W), and another one transforms input state (H). In this case the output of the network is calculated as &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), where &sigma; is the activation function, b is additional bias.
 
 <img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+
+> Image by author
 
 In many cases, input tokens are passed through the embedding layer before entering the RNN to lower the dimensionality. In this case, if the dimension of the input vectors is *emb_size*, and state vector is *hid_size* - the size of W is *emb_size*&times;*hid_size*, and the size of H is *hid_size*&times;*hid_size*. 
 
@@ -55,4 +59,3 @@ Recurrent network, one-directional or bidirectional, captures certain patterns w
 ## RNNs for other tasks
 
 In this unit, we have seen that RNNs can be used for sequence classification, but in fact, they can handle many more tasks, such as text generation, machine translation, and more. We will consider those tasks in the next unit.
-

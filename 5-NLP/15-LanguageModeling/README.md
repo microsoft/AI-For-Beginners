@@ -11,6 +11,8 @@ In our previous examples, we have been using pre-trained semantic embeddings, bu
 
 ![](../14-Embeddings/images/example-algorithms-for-converting-words-to-vectors.png)
 
+> Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
+
 The idea of CBoW is exactly predicting a missing word, however, to do this we take a small sliding window of text tokens (we can denote them from W<sub>-2</sub> to W<sub>2</sub>), and train a model to predict the central word W<sub>0</sub> from few surrounding words. 
 
 ## More Info

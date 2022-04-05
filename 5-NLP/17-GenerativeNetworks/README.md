@@ -7,7 +7,8 @@ In RNN architecture we discussed in the previous unit, each RNN unit produced ne
 This allows for different neural architectures that are shown in the picture below:
 
 ![Image showing common recurrent neural network patterns.](images/unreasonable-effectiveness-of-rnn.jpg)
-*Image from blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpaty](http://karpathy.github.io/)*
+
+> Image from blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpaty](http://karpathy.github.io/)
 
 * **One-to-one** is a traditional neural network with one input and one output
 * **One-to-many** is a generative architecture that accepts one input value, and generates a sequence of output values. For example, if we want to train **image captioning** network that would produce a textual description of a picture, we can a picture as input, pass it through CNN to obtain hidden state, and then have recurrent chain generate caption word-by-word
@@ -22,8 +23,9 @@ The way we will train RNN to generate text is the following. On each step, we wi
 
 When generating text (during inference), we start with some **prompt**, which is passed through RNN cells to generate intermediate state, and then from this state the generation starts. We generate one character at a time, and pass the state and the generated character to another RNN cell to generate the next one, until we generate enough characters.
 
-<img src="images/rnn-generate-ing.png" width="60%"/>
+<img src="images/rnn-generate-inf.png" width="60%"/>
 
+> Image by author
 ## Continue to Notebooks
 
 * [Generative Networks with PyTorch](GenerativePyTorch.ipynb)

@@ -59,3 +59,10 @@ We will cover back prop in much more detail in our notebook example.
 ## [Proceed to Notebook](OwnFramework.ipynb)
 
 In the accompanying notebook, we will implement our own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. Proceed to [OwnFramework](OwnFramework.ipynb) notebook.
+
+## [Lab](lab/README.md)
+
+In this lesson, we have our own neural network library, and we have used for a simple two-dimensional classification task. In this lab, you are asked to use this framework to solve MNIST handwritten digit classification.
+
+* [Instructions](lab/README.md)
+* [Notebook](lab/MyFW_MNIST.ipynb)

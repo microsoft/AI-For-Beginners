@@ -14,6 +14,10 @@ Both Keras and PyTorch contain functions to easily load pre-trained neural netwo
 * **ResNet** is a family of models proposed by Microsoft Research in 2015. They have more layers, and thus take more resources.
 * **MobileNet** is a family of models with reduced size, suitable for mobile devices. Use them if you are short in resources, and can sacrifice a little bit of accuracy.
 
+Here are sample features extracted from a picture of a cat by VGG-16 network:
+
+![Features extracted by VGG-16](images/features.png)
+
 ## Cats vs. Dogs Dataset
 
 In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.com/en-us/download/details.aspx?id=54765&WT.mc_id=academic-33554-dmitryso), which is very close to a real-life image classification scenario. 
@@ -24,3 +28,4 @@ Let's see transfer learning in action in corresponding notebooks:
 
 * [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
 * [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)
+

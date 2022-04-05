@@ -10,6 +10,8 @@ By using embedding layer as a first layer in our classifier network, we can swit
 
 ![Image showing an embedding classifier for five sequence words.](images/embedding-classifier-example.png)
 
+> Image by author
+
 ## Continue in Notebooks
 
 * [Embeddings with PyTorch](EmbeddingsPyTorch.ipynb)
@@ -28,6 +30,8 @@ CBoW is faster, while skip-gram is slower, but does a better job of representing
 
 ![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](./images/example-algorithms-for-converting-words-to-vectors.png)
 
+> Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
+
 Word2Vec pre-trained embeddings (as well as other similar models, such as GloVe) can also be used in place of embedding layer in neural networks. However, we need to deal with vocabularies, because the vocabulary used to pre-train Word2Vec/GloVe is likely to differ from the vocabulary in our text corpus. Have a look into Notebooks to see how this problem can be resolved.
 
 ## Contextual Embeddings
@@ -39,3 +43,7 @@ For example word 'play' in those two different sentences have quite different me
 - John wants to **play** with his friends.
 
 The pretrained embeddings above represent both of these meanings of the word 'play' in the same embedding. To overcome this limitation, we need to build embeddings based on the **language model**, which is trained on a large corpus of text, and *knows* how words can be put together in different contexts. Discussing contextual embeddings is out of scope for this tutorial, but we will come back to them when talking about language models later in the course.
+
+## References
+
+* Paper on Word2Vec: [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf)

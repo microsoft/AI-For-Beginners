@@ -12,7 +12,7 @@ Originally, computers were invented by [Charles Babbage](https://en.wikipedia.or
 
 ![Photo of a person](images/dsh_age.png) 
 
-> Photo by TODO
+> Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
 > ✅ Defining the age of a person from his or her photograph is a task that cannot be explicitly programmed, because we do not know how we come up with a number inside our head when we do it.
 
@@ -30,7 +30,11 @@ The task of solving a specific human-like problem, such as determining a person'
 
 One of the problems when dealing with the term **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is that there is no clear definition of this term. One can argue that intelligence is connected to **abstract thinking**, or to **self-awareness**, but we cannot properly define it.
 
-![Photo of a Cat](images/photo-cat.jpg) | To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion true or not. And if you think there is - try running your cat through an IQ test...
+![Photo of a Cat](images/photo-cat.jpg)
+
+> [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
+
+To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion true or not. And if you think there is - try running your cat through an IQ test...
 
 ✅ Think for a minute about how you define intelligence. Is a crow who can solve a maze and get at some food intelligent? Is a child intelligent?
 
@@ -86,7 +90,7 @@ Artificial Intelligence was started as a field in the middle of the twentieth ce
 
 <img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
 
-> Image by TODO
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
 
@@ -106,7 +110,7 @@ Similarly, we can see how the approach towards creating “talking programs” (
 
 <img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
 
-> Image by TODO
+> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recent AI Research
 
@@ -114,7 +118,7 @@ The huge recent growth in neural network research started around 2010, when larg
 
 ![ILSVRC Accuracy](images/ilsvrc.gif)
 
-> TODO image attribution
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
 

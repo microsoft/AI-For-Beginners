@@ -10,11 +10,15 @@ As you can see, VGG follows traditional pyramid architecture, which is a sequenc
 
 ![ImageNet Pyramid](images/vgg-16-arch.jpg)
 
+> Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
+
 ### ResNet
 
 ResNet is a family of models proposed by Microsoft Research in 2015. The main idea of ResNet is to use **residual blocks**:
 
 <img src="images/resnet-block.png" width="300"/>
+
+> Image from [this paper](https://arxiv.org/pdf/1512.03385.pdf)
 
 The reason for using identity pass-through is to have our layer predict **the difference** between the result of a previous layer and the output of the residual block - hence the name *residual*. Those blocks are much easier to train, and one can construct networks with several hundreds of those blocks (most common variants are ResNet-52, ResNet-101 and ResNet-152).
 
@@ -25,6 +29,8 @@ You can also think of this network as being able to adjust its complexity to the
 Google Inception architecture takes this idea one step further, and builds each network layer as a combination of several different paths:
 
 <img src="images/inception.png" width="400"/>
+
+> Image from [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 
 Here, we need to emphasize the role of 1x1 convolutions, because at first they do not make sense. Why would we need to run through the image with 1x1 filter? However, you need to remember that convolution filter also works with several depth channels (originally - RGB colors, in subsequent layers - channels for different filters), and 1x1 convolution is used to mix those input channels together using different trainable weights. It can be also viewed as downsampling (pooling) over channel dimension.
 

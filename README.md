@@ -48,7 +48,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>3</td><td>Perceptron</td>
    <td><a href="3-NeuralNetworks/03-Perceptron/README.md">Text</a>
    <td colspan="2"><a href="3-NeuralNetworks/03-Perceptron/Perceptron.ipynb">Notebook</a></td><td><a href="3-NeuralNetworks/03-Perceptron/lab/README.md">Lab</a></td></tr>
-<tr><td>4 </td><td>Multi-Layered Perceptron and Creating our own Framework</td><td><a href="3-NeuralNetworks/04-OwnFramework/README.md">Text</a></td><td colspan="2"><a href="3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb">Notebook</a><td></td></tr> 
+<tr><td>4 </td><td>Multi-Layered Perceptron and Creating our own Framework</td><td><a href="3-NeuralNetworks/04-OwnFramework/README.md">Text</a></td><td colspan="2"><a href="3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb">Notebook</a><td><a href="3-NeuralNetworks/04-OwnFramework/lab/README.md">Lab</a></td></tr> 
 <tr><td>5</td>
    <td>Intro to Frameworks (PyTorch/TensorFlow)<br/>Overfitting</td>
    <td><a href="3-NeuralNetworks/05-Frameworks/README.md">Text</a><br/><a href="3-NeuralNetworks/05-Frameworks/Overfitting.md">Text</a></td>

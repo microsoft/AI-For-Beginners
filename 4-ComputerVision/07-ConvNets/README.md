@@ -13,6 +13,8 @@ For example, if we apply 3x3 vertical edge and horizontal edge filters to the MN
 
 <img src="images/lmfilters.jpg" width="500" align="center"/>
 
+> Image of Leung-Malik Filter Bank, from [here](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+
 However, while we can design the filters to extract some patterns manually, we can also design the network in such a way that it will learn the patterns automatically. It is one of the main ideas behind the CNN.
 
 ## Main ideas behind CNN
@@ -24,6 +26,7 @@ The way CNNs work is based on the following important ideas:
 
 ![Hierarchical Feature Extraction](images/FeatureExtractionCNN.png)
 
+> Image from [this paper](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), based on [this research](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
 ## Continue in Notebook
 
@@ -41,6 +44,8 @@ As an example, let's look at the architecture of VGG-16, a network that achieved
 ![ImageNet Layers](images/vgg-16-arch1.jpg)
 
 ![ImageNet Pyramid](images/vgg-16-arch.jpg)
+
+> Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
 [**Often Used CNN Architectures**](CNN_Architectures.md)
 

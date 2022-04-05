@@ -10,19 +10,20 @@ With RNNs, sequence-to-sequence is implemented by two recurrent networks, where 
 **Attention Mechanisms** provide means of weighting the contextual impact of each input vector on each output prediction of the RNN. The way it is implemented is by creating shortcuts between intermediate states of the input RNN, and output RNN. In this manner, when generating output symbol y<sub>t</sub>, we will take into account all input hidden states h<sub>i</sub>, with different weight coefficients &alpha;<sub>t,i</sub>. 
 
 ![Image showing an encoder/decoder model with an additive attention layer](./images/encoder-decoder-attention.png)
-*The encoder-decoder model with additive attention mechanism in [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cited from [this blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)*
+
+> The encoder-decoder model with additive attention mechanism in [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cited from [this blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Attention matrix {&alpha;<sub>i,j</sub>} would represent the degree which certain input words play in generation of a given word in the output sequence. Below is the example of such a matrix:
 
 ![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](./images/bahdanau-fig3.png)
 
-*Figure taken from [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)*
+> Figure from [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
 Attention mechanisms are responsible for much of the current or near current state of the art in Natural language processing. Adding attention however greatly increases the number of model parameters which led to scaling issues with RNNs. A key constraint of scaling RNNs is that the recurrent nature of the models makes it challenging to batch and parallelize training. In an RNN each element of a sequence needs to be processed in sequential order which means it cannot be easily parallelized.
 
 ![Encoder Decoder with Attention](images/EncDecAttention.gif)
 
-*Figure taken from [Google Blog](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html)*
+> Figure from [Google Blog](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html)
 
 Adoption of attention mechanisms combined with this constraint led to the creation of the now State of the Art Transformer Models that we know and use today from BERT to Open-GPT3.
 
@@ -44,6 +45,8 @@ We then mix the token position with token embedding vector. To transform positio
 
 <img src="images/pos-embedding.png" width="50%"/>
 
+> Image by author
+
 The result we get with positional embedding embeds both original token and its position within sequence.
 
 ### Multi-Head Self-attention
@@ -51,7 +54,8 @@ The result we get with positional embedding embeds both original token and its p
 Next, we need to capture some patterns within our sequence. To do this, transformers use **self-attention** mechanism, which is essentially attention applied to the same sequence as input and output. Applying self-attention allows us to take into account **context** within the sentence, and see which words are inter-related. For example, it allows us to see which words are referred to by coreferences, such as *it*, and also take the context into account:
 
 ![](images/CoreferenceResolution.png)
-*Image from the [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)*
+
+> Image from the [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
 In transformers, we use **Multi-Head Attention**, in order to give network the power to capture several different types of dependencies, eg. long-term vs. short-term word relations, co-reference vs. something else, etc. 
 
@@ -74,6 +78,8 @@ Since each input position is mapped independently to each output position, trans
 **BERT** (Bidirectional Encoder Representations from Transformers) is a very large multi layer transformer network with 12 layers for *BERT-base*, and 24 for *BERT-large*. The model is first pre-trained on large corpus of text data (WikiPedia + books) using unsupervised training (predicting masked words in a sentence). During pre-training the model absorbs significant level of language understanding which can then be leveraged with other datasets using fine tuning. This process is called **transfer learning**. 
 
 ![picture from http://jalammar.github.io/illustrated-bert/](images/jalammarBERT-language-modeling-masked-lm.png)
+
+> Image [source](http://jalammar.github.io/illustrated-bert/)
 
 There are many variations of Transformer architectures including BERT, DistilBERT. BigBird, OpenGPT3 and more that can be fine tuned. The [HuggingFace package](https://github.com/huggingface/) provides repository for training many of these architectures with both PyTorch and TensorFlow.
 
