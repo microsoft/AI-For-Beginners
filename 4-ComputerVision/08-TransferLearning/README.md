@@ -29,3 +29,7 @@ Let's see transfer learning in action in corresponding notebooks:
 * [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
 * [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)
 
+## [Lab](lab/README.md)
+
+In this lab, we will use real-life [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pets dataset with 35 breeds of cats and dogs, and we will build a transfer learning classifier.
+ 

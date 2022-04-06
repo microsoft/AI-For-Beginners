@@ -23,4 +23,108 @@ Multi-agent systems are nowadays used in a number of applications:
 * In systems modeling, multi-agent approach is used to simulate the behavior of a complex model. For example, multi-agent approach has been successfully used to predict the spread of COVID-19 disease worldwide. Similar approach can be used to model traffic in the city, and see how it reacts to changes in traffic rules.
 * In complex automation systems, each device can act as an independent agent, which makes the whole system less monolith and more robust.
 
+We will not spend a lot of time going deep into multi-agent systems, but consider one example of **Multi-Agent Modeling**.
 ## NetLogo
+
+[NetLogo](https://ccl.northwestern.edu/netlogo/) is a multi-agent modeling environment based on modified [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)) programming language. This language was developed for teaching programming concepts to kids, and it allows you to control an agent called **turtle**, which can move, leaving a trace behind. This allows creating complex geometric figures, which is a very visual way to understand the behavior of an agent.
+
+In NetLogo, we can create many turtles by using the `create-turtles` command. We can then command all turtles to do some actions (in the example below - more 10 point forward):
+
+```
+create-turtles 10
+ask turtles [
+  forward 10
+]
+```
+
+Of course, it is not interesting when all turtles do the same thing, so we can `ask` groups of turtles, eg. those who are in vicinity of a certain point. We can also create turtles of different *breeds* using `breed [cats cat]` command. Here `cat` is the name of a breed, and we need to specify both singular and plural word, because different commands use different forms for clarity.
+
+We will not go into learning NetLogo language - you can visit brilliant [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) resource if you are interested to learn more.
+
+You can [download](https://ccl.northwestern.edu/netlogo/download.shtml) and install NetLogo to try it.
+
+### Model's Library
+
+A great thing about NetLogo is that it contains a great library of working models that you can try. Go to **File &rightarrow; Models Library**, and you have many categories of models to chose from.
+
+<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+
+You can open one of the models, for example **Biology &rightarrow; Flocking**.
+
+### Main Principles
+
+After opening the model, you are taken to the main NetLogo screen. Here is a sample model that describes the population of wolves and sheep, given finite resources (grass).
+
+![NetLogo Main Screen](images/NetLogo-Main.png)
+
+On this screen, you can see:
+
+* **Interface** section, which contains:
+  - Main field, where all agents live
+  - Different controls: buttons, sliders, etc.
+  - Graphs that you can use to display parameters of the simulation
+* **Code** tab contains the editor, where you can type NetLogo program
+
+In most cases, interface would have **Setup** button, which initializes the simulation state, and **Go** button that starts execution. Those are handled by corresponding handlers in the code that look like this:
+
+```
+to go [
+...
+]
+```
+
+NetLogo world consist of the following objects:
+
+* **Agents** (turtles) that can move across the field and do something. You command agents by using `ask turtles [...]` syntax, and the code in brackets is executed by all agents in *turtle mode*.
+* **Patches** are square areas of the field, on which agents live. You can refer to all agents on the same patch, or you can change patch colors and some other properties. You can also `ask patches` to do something.
+* **Observer** is a unique one agent that controls the world. All button handlers are executed in *observer mode*.
+
+> The beauty of multi-agent environment is that the code that runs in turtle mode or in patch mode is executed at the same time by all agents in parallel. Thus, by writing a little code and programming the behavior of individual agent, you can create complex behavior of the simulation system as a whole.
+
+### Flocking
+
+As an example of multi-agent behavior, let's consider **[Flocking](https://en.wikipedia.org/wiki/Flocking_(behavior))** - a complex pattern that is very similar to how flocks of birds fly. Watching them fly you can think that they follow some kind of collective algorithm, or that they possess some form of *collective intelligence*. However, this complex behavior arises when each individual agent (*bird*)only observes some other agents in a short distance from it, and follows three simple rules:
+
+* **Alignment** - it steers towards the average heading of neighboring agents
+* **Cohesion** - it tries to steer towards the average position of neighbors (*long range attraction*)
+* **Separation** - when getting too close to other birds, it tries to move away (*short range repulsion*)
+
+You can run flocking example and observe the behavior. You can also adjust parameters, such as *degree of separation*, or the *viewing range*, which defines how far each bird can see. Note that if you decrease viewing range to 0, all birds become blind, and flocking stops. If you decrease separation to 0, all birds gather into a straight line.
+
+Try to switch to **Code** tab and see where three rules of flocking (alignment, cohesion and separation) are implemented in code. Note how we refer only to those agents that are in sight. 
+
+### Other Models to see
+
+There are a few interesting models that I encourage you to experiment with:
+* **Art &rightarrow; Fireworks** shows how a firework can be considered a collective behavior of individual fire streams
+* **Social Science &rightarrow; Traffic Basic** and **Social Science &rightarrow; Traffic Grid** show the model of city traffic in 1D and 2D Grid with or without traffic lights. Each car in the simulation follows the simple rules:
+   - If the space in front of it is empty - accelerate (up to a certain max speed)
+   - If it sees the obstacle in front - brake (and you can adjust how far a driver can see)
+* **Social Science &rightarrow; Party** shows how people group together during a cocktail party. You can find the combination of parameters that lead to the fastest increase of happiness of the group.
+
+As you can see from those examples, multi-agent simulations can be quite a useful way to understand the behavior of a complex system consisting of individuals that follow the same or similar logic. It can also be used to control virtual agents, such as [NPCs](https://en.wikipedia.org/wiki/NPC) in computer games, or agents in 3D animated worlds.
+
+## Deliberative Agents
+
+Agents above were typically very simple, reacting to changes in environment using some kind of algorithm - **reactive agents**. However, sometimes agents can reason and plan their action, in which case they are called **deliberative**.
+
+A typical example would be a personal agent that receives an instructions from human to book a vacation tour. Suppose that there are many agents that live on the internet, who can help it. It should then contact other agents to see which flights are available, what are the hotel prices for different dates, and try to negotiate the best price. When the vacation plan is complete and confirmed by the owner, it can proceed with booking.
+
+In order to do that, agents need to **communicate**. And for successful communication they need:
+
+* Some **standard languages to exchange knowledge**, such as [Knowledge Interchange Format](https://en.wikipedia.org/wiki/Knowledge_Interchange_Format) (KIF) and [Knowledge Query and Manipulation Language](https://en.wikipedia.org/wiki/Knowledge_Query_and_Manipulation_Language) (KQML). Those languages are designed based on [Speech Act theory](https://en.wikipedia.org/wiki/Speech_act).
+* Those languages should also include some **protocols for negotiations**, based on different **auction types**.
+* A **common ontology** to use, so that they refer to the same concepts knowing their semantics
+* A way to **discover** what different agents can do, also based on some sort of ontology
+
+Deliberative agents are much more complex than reactive, because they do not only react to changes in environment, they should also be able to *intiate* actions. One of the proposed architectures for deliberative agents is so-called Belief-Desire-Intention (BDI):
+
+* **Beliefs** form a set of knowledge about environment that the agent has. It can be structures as knowledgebase or set of rules that an agent can apply to a specific situation in the environment.
+* **Desires** define what agents wants to do, i.e. its goals. For example, the goal of the personal assistant agent above is to book a tour, and the goal of hotel agent is to maximize profit.
+* **Intentions** are specific actions that agent plans to achieve its goals. Actions typically change the environment and cause communication with other agents.
+
+There are some platforms available for building multi-agent systems, such as [JADE](https://jade.tilab.com/). [This paper](https://arxiv.org/ftp/arxiv/papers/2007/2007.08961.pdf) contains fairly recent review of multi-agent platforms, together with brief history of multi-agent systems the their different usage scenarios.
+
+## Takeaway
+
+Multi-Agent systems can take very different forms and be used in many different applications. One common thing between them is focusing on simpler behavior of an individual agent, and achieving more complex behavior of the overall system due to **synergetic effect**.
