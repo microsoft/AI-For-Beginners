@@ -65,7 +65,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td><a href="4-ComputerVision/09-Autoencoders/AutoEncodersPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td>PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
-<tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
+<tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td><a href="4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td>TensorFlow</td><td></td></tr>
 <tr><td>V</td><td colspan="2"><b><a href="5-NLP/README.md">Natural Language Processing</a></b></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso">MS Learn</a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso">MS Learn</a></td>
