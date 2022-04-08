@@ -9,24 +9,24 @@
         "title": "Introduction to AI - Pre Quiz",
         "quiz": [
           {
-            "questionText": "q1",
+            "questionText": "A famous 19th century proto-computer engineer was",
             "answerOptions": [
               {
-                "answerText": "a1",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "a2",
+                "answerText": "Charles Barkley",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a3",
+                "answerText": "Charles Babbage",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Charles Darwin",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Weak AI is a system designed to solve many tasks",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -39,18 +39,18 @@
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Chat bots are an example of truly intelligent systems",
             "answerOptions": [
               {
-                "answerText": "a1",
+                "answerText": "false, they are usually designed by a series of rules.",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a2",
+                "answerText": "true, they are usually considered to be 'intelligent'.",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a3",
+                "answerText": "false, but they are increasingly able to pass Turing tests as they become more sophisticated.",
                 "isCorrect": "true"
               }
             ]
@@ -62,52 +62,48 @@
         "title": "Introduction to AI: Post-Quiz",
         "quiz": [
           {
-            "questionText": "q1",
+            "questionText": "A top-down approach to AI is a model of reasoning called",
             "answerOptions": [
               {
-                "answerText": "a1",
+                "answerText": "strategic reasoning",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a2",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "a3",
-                "isCorrect": "true"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "a1",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "a2",
+                "answerText": "symbolic reasoning",
                 "isCorrect": "true"
               },
               {
-                "answerText": "a3",
+                "answerText": "synergistic reasoning",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3?",
+            "questionText": "A bottom-up approach to AI might leverage a neural network to",
             "answerOptions": [
               {
-                "answerText": "a1",
+                "answerText": "true",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "The AI Winter occurred in this era",
+            "answerOptions": [
+              {
+                "answerText": "1950s",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a2",
+                "answerText": "1960s",
                 "isCorrect": "false"
               },
               {
-                "answerText": "a3",
+                "answerText": "1970s",
                 "isCorrect": "true"
               }
             ]
