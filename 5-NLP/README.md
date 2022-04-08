@@ -1,4 +1,5 @@
 # Natural Language Processing
+![Summary of NLP tasks in a doodle](../sketchnotes/ai-nlp.png)
 
 In this section, we will focus on using Neural Networks to handle tasks related to natural language processing (NLP). There are many NLP problems that we want computers to be able to solve:
 
