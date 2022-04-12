@@ -65,7 +65,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td><a href="4-ComputerVision/09-Autoencoders/AutoEncodersPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td><a href="4-ComputerVision/10-GANs/GANPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
-<tr><td>12</td><td>Instance Segmentation. U-Net</td><td>Text</td><td><a href="4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td>TensorFlow</td><td></td></tr>
+<tr><td>12</td><td>Semantic Segmentation. U-Net</td><td><a href="4-ComputerVision/12-Segmentation/README.md">Text</a></td><td><a href="4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td>TensorFlow</td><td><a href="4-ComputerVision/12-Segmentation/lab/README.md">Lab</a></td></tr>
 <tr><td>V</td><td colspan="2"><b><a href="5-NLP/README.md">Natural Language Processing</a></b></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso">MS Learn</a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso">MS Learn</a></td>
@@ -77,7 +77,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>17</td><td>Generative Recurrent Networks</td><td><a href="5-NLP/17-GenerativeNetworks/README.md">Text</a></td><td><a href="5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="5-NLP/17-GenerativeNetworks/GenerativeTF.md">TensorFlow</a></td><td></td></tr>
 <tr><td>18</td><td>Transformers. BERT.</td><td><a href="5-NLP/18-Transformers/README.md">Text</a></td><td><a href="5-NLP/18-Transformers/TransformersPyTorch.md">PyTorch</a></td><td><a href="5-NLP/18-Transformers/TransformersTF.md">TensorFlow</a></td><td></td></tr>
 <tr><td>19</td><td>Named Entity Recognition</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
-<tr><td>20</td><td>Text Generation using GPT</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
+<tr><td>20</td><td>Large Language Models, Prompt Programming and Few-Shot Tasks</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
 <tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td>PAT</td></tr>
 <tr><td>21</td><td>Genetic Algorithms</td><td><a href="6-Other/21-GeneticAlgorithms/README.md">Text</a><td colspan="2"><a href="6-Other/21-GeneticAlgorithms/Genetic.ipynb">Notebook</a></td><td></td></tr>
 <tr><td>22</td><td>Deep Reinforcement Learning</td><td><a href="6-Other/22-DeepRL/README.md">Text</a></td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
