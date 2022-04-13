@@ -6,7 +6,7 @@
 
 The quest for artificial intelligence is based on a search for knowledge, to make sense of the world similar to how humans do. But how can you go about doing this? 
 
-## [Pre-lecture quiz](link-to-quiz-app) TODO
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/2)
 
 In the early days of AI, the top-down approach to creating intelligent systems (discussed in the previous lesson) was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
@@ -90,7 +90,7 @@ Simplified structure of a human neural system | Architecture of a knowledge-base
 
 Expert systems are built like the human reasoning system, which contains **short-term memory** and **long-term memory**. Similarly, in knowledge-based systems we distinguish the following components:
 * **Problem memory**: contains the knowledge about the problem being currently solved, i.e. the temperature or blood pressure of a patient, whether he has inflammation or not, etc. This knowledge is also called **static knowledge**, because it contains a snapshot of what we currently know about the problem - the so-called *problem state*.
-* **Knowledge base**: represents long-term knowledge about a problem domain. It is extracted manually from human experts, and does not change from consulation to consultation. Because it allows us to navigate from one problem state to another, it is also called **dynamic knowledge**.
+* **Knowledge base**: represents long-term knowledge about a problem domain. It is extracted manually from human experts, and does not change from consultation to consultation. Because it allows us to navigate from one problem state to another, it is also called **dynamic knowledge**.
 * **Inference engine**: orchestrates the whole process of searching in the problem state space, asking questions of the user when necessary. It is also responsible for finding the right rules to be applied to each state.
 
 As an example, let's consider the following expert system of determining an animal based on its physical characteristics:
@@ -220,7 +220,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 In the three notebooks associated to this lesson, there are challenges at the end - pick one, and try to solve it!
 
-## [Post-lecture quiz](link-to-quiz-app) TODO
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/3)
 
 ## Review & Self Study
 

@@ -1,6 +1,6 @@
 # Introduction to Neural Networks: Perceptron
 
-## [Pre-lecture quiz](link-to-quiz-app) TODO
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/4)
 
 One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.
 
@@ -14,7 +14,7 @@ An input image was represented by 20x20 photocell array, so the neural network h
 
 > ✅ A potentiometer is a device that allows the user to adjust the resistance of a circuit.
 
-> New York Times wrote about perceptron at that time:
+> The New York Times wrote about perceptron at that time:
 > *the embryo of an electronic computer that [the Navy] expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.*
 
 ## Perceptron Model
@@ -30,7 +30,7 @@ where f is a step activation function
 
 ## Training the Perceptron
 
-To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error is defined by **perceptron criterion** on the following manner:
+To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error is defined by **perceptron criterion** in the following manner:
 
 E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
@@ -43,7 +43,7 @@ This criteria is considered as a function of weights w, and we need to minimize 
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Here &eta; is so-called **learning rate**, and &nabla;E(w) denotes the **gradient** of E. After we calculate the gradient, we end up with
+Here &eta; is the so-called **learning rate**, and &nabla;E(w) denotes the **gradient** of E. After we calculate the gradient, we end up with
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
@@ -77,7 +77,7 @@ In this lesson, you learned about a perceptron, which is a binary classification
 
 If you'd like to try to build your own perceptron, try [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-57639-dmitryso) which uses the [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-57639-dmitryso).
 
-## [Post-lecture quiz](link-to-quiz-app) TODO
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/5)
 
 ## Review & Self Study
 

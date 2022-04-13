@@ -4,7 +4,7 @@
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Pre-lecture quiz](link-to-quiz-app) TODO
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/0)
 
 **Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
 
@@ -140,7 +140,7 @@ Over the past few years we have witnessed huge successes with large language mod
 
 Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
 
-## [Post-lecture quiz](link-to-quiz-app) TODO
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/1)
 
 ## Review & Self Study
 
