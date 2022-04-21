@@ -113,7 +113,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 > For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/users/jenlooper-2911/collections/k7o7tg1gp306q4?WT.mc_id=academic-15963-cxa) modules and learning paths.
 
-**Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum.
+**Teachers**, we have [included some suggestions](etc/for-teachers.md) on how to use this curriculum.
 
 ---
 
@@ -125,10 +125,9 @@ However, if you would like to take the course as a self-study project, we sugges
 
 **🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors**, notably TBD
 
-
 ## Meet the Team
 
-[![Promo video](ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
+[![Promo video](sketchnotes/ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
 
 > 🎥 Click the image above for a video about the project and the folks who created it!
 
@@ -140,9 +139,9 @@ We have chosen two pedagogical tenets while building this curriculum: ensuring t
 
 By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
 
-> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> Find our [Code of Conduct](etc/CODE_OF_CONDUCT.md), [Contributing](etc/CONTRIBUTING.md), and [Translation](etc/TRANSLATIONS.md) guidelines. Find our [Support Documentation here[(etc/SUPPORT.md). We welcome your constructive feedback!
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://black-ground-0cc93280f.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `/etc/quiz-app` folder.
+> **A note about quizzes**: All quizzes are contained [in this app](https://black-ground-0cc93280f.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
 
 ## Offline access
 
@@ -150,7 +149,7 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 ## Help Wanted!
 
-Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md).
+Would you like to contribute a translation? Please read our [translation guidelines](etc/TRANSLATIONS.md).
 
 ## Other Curricula
 
