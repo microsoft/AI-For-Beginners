@@ -19,8 +19,8 @@ We are currently actively looking for contributions on the following topics:
 
 - [ ] Write section + notebook on OpenCV / preprocessing images
 - [ ] Write section on Deep Reinforcement Learning
+- [ ] Translate Semantic Segmentation notebook to TensorFlow
 - [ ] Improve section + notebook on Object Detection
-- [ ] Write section + notebook on Instance Segmentation
 - [ ] PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
-- [ ] Improve GAN section and translate samples to PyTorch ([here](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/10-GANs/README.md))
-- [ ] Translate Autoencoder sample to PyTorch ([here](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/09-Autoencoders/README.md))
+- [ ] Write section + samples on Named Entity Recognition
+- [ ] Create samples for training our own embeddings for [this section](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling) 
