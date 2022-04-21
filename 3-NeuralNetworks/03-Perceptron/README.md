@@ -1,20 +1,25 @@
-# Introduction to Neural Networks. Perceptron.
+# Introduction to Neural Networks: Perceptron
 
-One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/4)
 
-<img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />
------|-----
+One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.
+
+|      |      | 
+|--------------|-----------|
+|<img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />|
 
 > Images [from Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
-An input image was represented by 20x20 photocell array, so the neural network had 400 inputs and one binary output. Simple network contained one neuron, also called **threshold logic unit**. Neural network weights were potentiometers that required manual adjustment during the training phase.
+An input image was represented by 20x20 photocell array, so the neural network had 400 inputs and one binary output. A simple network contained one neuron, also called a **threshold logic unit**. Neural network weights acted like potentiometers that required manual adjustment during the training phase.
 
-> New York Times wrote about perceptron at that time:
+> ✅ A potentiometer is a device that allows the user to adjust the resistance of a circuit.
+
+> The New York Times wrote about perceptron at that time:
 > *the embryo of an electronic computer that [the Navy] expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.*
 
 ## Perceptron Model
 
-Suppose we have N features in our model, in which case the input vector would be a vector of size N. Perceptron is a **binary classification** model, i.e. it can distinguish between two classes of input data. We will assume that for each input vector x the output of our perceptron would be either +1 or -1, depending on the class. The output will be computed using the formula
+Suppose we have N features in our model, in which case the input vector would be a vector of size N. A perceptron is a **binary classification** model, i.e. it can distinguish between two classes of input data. We will assume that for each input vector x the output of our perceptron would be either +1 or -1, depending on the class. The output will be computed using the formula:
 
 y(x) = f(w<sup>T</sup>x)
 
@@ -25,19 +30,20 @@ where f is a step activation function
 
 ## Training the Perceptron
 
-To train a perceptron we need to find weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error is defined by **perceptron criterion** on the following manner:
+To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error is defined by **perceptron criterion** in the following manner:
 
 E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
-where
+where:
+
 * the sum is taken on those training data points i that result in the wrong classification
 * x<sub>i</sub> is the input data, and t<sub>i</sub> is either -1 or +1 for negative and positive examples accordingly. 
 
-This criteria is considered as a function of weights w, and we need to minimize it. Often, a method called **gradient descent** is used, in which we start with some initial weights w<sup>(0)</sup>, and then at each step update the weights according to the formula
+This criteria is considered as a function of weights w, and we need to minimize it. Often, a method called **gradient descent** is used, in which we start with some initial weights w<sup>(0)</sup>, and then at each step update the weights according to the formula:
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Here &eta; is so-called **learning rate**, and &nabla;E(w) denotes the **gradient** of E. After we calculate the gradient, we end up with
+Here &eta; is the so-called **learning rate**, and &nabla;E(w) denotes the **gradient** of E. After we calculate the gradient, we end up with
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
@@ -63,13 +69,26 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
     return weights
 ```
 
-## [Proceed to Notebook](Perceptron.ipynb)
+## Conclusion
 
-To see how we can use perceptron to solve some toy as well as real-life problems, and to continue learning - go to [Perceptron](Perceptron.ipynb) notebook.
+In this lesson, you learned about a perceptron, which is a binary classification model, and how to training it by using a weights vector.
 
-## [Lab](lab/README.md)
+## 🚀 Challenge
 
-In this lesson, we have implemented perceptron for binary classification task, and we have used it to classify between two handwritten digits. In this lab, you are asked to solve the problem of digit classification entirely, i.e. determine which digit is most likely to correspond to a given image.
+If you'd like to try to build your own perceptron, try [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-57639-dmitryso) which uses the [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-57639-dmitryso).
+
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/5)
+
+## Review & Self Study
+
+To see how we can use perceptron to solve a toy problem as well as real-life problems, and to continue learning - go to [Perceptron](Perceptron.ipynb) notebook.
+
+Here's an interesting [article about perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590
+) as well.
+
+## [Assignment](lab/README.md)
+
+In this lesson, we have implemented a perceptron for binary classification task, and we have used it to classify between two handwritten digits. In this lab, you are asked to solve the problem of digit classification entirely, i.e. determine which digit is most likely to correspond to a given image.
 
 * [Instructions](lab/README.md)
 * [Notebook](lab/PerceptronMultiClass.ipynb)

@@ -109,6 +109,218 @@
             ]
           }
         ]
+      },
+      {
+        "id": 2,
+        "title": "Knowledge Representation and Expert Systems: Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "The top-down approach to creating intelligent systems was based on:",
+            "answerOptions": [
+              {
+                "answerText": "knowledge seeking and reading",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "knowledge representation and reasoning",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "knowledge reasoning and seeking",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Knowledge is the same as information",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Knowledge is obtained by an:",
+            "answerOptions": [
+              {
+                "answerText": "active learning process",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "passive learning process",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of these",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Knowledge Representation and Expert Systems: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "The simplest method of knowledge representation is:",
+            "answerOptions": [
+              {
+                "answerText": "algorithmic",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "symbolic",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "synergistic",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Scenarios can represent complex situations that can unfold in time",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Forward inference starts with initial data and then:",
+            "answerOptions": [
+              {
+                "answerText": "executes a reasoning loop",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "looks for a goal",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "starts over",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Introduction to Neural Networks - Perceptron: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "Early neural networks required",
+            "answerOptions": [
+              {
+                "answerText": "manual weight adjusting",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "terabytes of data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "special reasoning",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A simple neuron is also called a 'threshold logic unit'",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A perceptron is a ___ type of model",
+            "answerOptions": [
+              {
+                "answerText": "linear regression",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "clustering",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "binary classification",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Introduction to Neural Networks - Perceptron: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "To train a perceptron, find a weights vector that results in the smallest ___.",
+            "answerOptions": [
+              {
+                "answerText": "size",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "error",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "nodes",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "To minimize the function of weights, you can use gradient descent",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "During gradient descent, each step updates the ___",
+            "answerOptions": [
+              {
+                "answerText": "learning rate",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "weights",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "gradient",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
