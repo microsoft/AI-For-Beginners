@@ -1,0 +1,115 @@
+[
+  {
+    "title": "IA para principiantes: Quizzes",
+    "complete": "¡Felicitaciones, has completado el cuestionario!",
+    "error": "Perdón, intente de nuevo",
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Introducción a la IA - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "A famous 19th century proto-computer engineer was",
+            "answerOptions": [
+              {
+                "answerText": "Charles Barkley",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Charles Babbage",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Charles Darwin",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Weak AI is a system designed to solve many tasks",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Chat bots are an example of truly intelligent systems",
+            "answerOptions": [
+              {
+                "answerText": "false, they are usually designed by a series of rules.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "true, they are usually considered to be 'intelligent'.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "false, but they are increasingly able to pass Turing tests as they become more sophisticated.",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Introducción a la IA: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "A top-down approach to AI is a model of reasoning called",
+            "answerOptions": [
+              {
+                "answerText": "strategic reasoning",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "symbolic reasoning",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "synergistic reasoning",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A bottom-up approach to AI might leverage a neural network to",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "The AI Winter occurred in this era",
+            "answerOptions": [
+              {
+                "answerText": "1950s",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "1960s",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "1970s",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

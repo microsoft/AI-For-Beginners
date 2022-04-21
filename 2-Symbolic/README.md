@@ -6,7 +6,7 @@
 
 The quest for artificial intelligence is based on a search for knowledge, to make sense of the world similar to how humans do. But how can you go about doing this? 
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/2)
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/3)
 
 In the early days of AI, the top-down approach to creating intelligent systems (discussed in the previous lesson) was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
@@ -220,7 +220,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 In the three notebooks associated to this lesson, there are challenges at the end - pick one, and try to solve it!
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/3)
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/4)
 
 ## Review & Self Study
 
