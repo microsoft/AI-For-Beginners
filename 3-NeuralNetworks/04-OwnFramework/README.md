@@ -56,7 +56,7 @@ The gradient descent algorithm would remain the same, but it would be more diffi
 
 Note that the left-most part of all those expressions is the same, and thus we can effectively calculate derivatives starting from the loss function and going "backwards" through the computational graph. Thus the method of training a multi-layered perceptron is called **backpropagation**, or 'backprop'.
 
-<img src="images/ComputeGraphGrad.PNG" width="400px" align="right"/>
+<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
 
 > TODO: image citation
 
