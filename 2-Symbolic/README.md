@@ -218,7 +218,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 ## 🚀 Challenge
 
-In the three notebooks associated to this lesson, there are challenges at the end - pick one, and try to solve it!
+In the Family Ontology notebook associated to this lesson, there is an opportunity to experiment with other family relations. Try to discover new connections between people in the family tree.
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/4)
 
