@@ -2,7 +2,7 @@
 
 ![Summary of Intro Neural Networks content in a doodle](../sketchnotes/ai-neuralnetworks.png)
 
-As we discussed in the introduction, one of the ways to achieve intelligence is to train a **computer model** or an **artificial brain**. Since the middle of 20th century, researchers tried different mathematical models, until in recent years this direction proved to by hugely successful. Such mathematical models of the brain are called **neural networks**. 
+As we discussed in the introduction, one of the ways to achieve intelligence is to train a **computer model** or an **artificial brain**. Since the middle of 20th century, researchers tried different mathematical models, until in recent years this direction proved to by hugely successful. Such mathematical models of the brain are called **neural networks**.
 
 > Sometimes neural networks are called *Artificial Neural Networks*, ANNs, in order to indicate that we are talking about models, not real networks of neurons.
 
@@ -15,7 +15,8 @@ Neural Networks are a part of a larger discipline called **Machine Learning**, w
 In Machine Learning, we assume that we have some dataset of examples **X**, and corresponding output values **Y**. Examples are often N-dimensional vectors that consist of **features**, and outputs are called **labels**.
 
 We will consider the two most common machine learning problems:
-* **Classification**, where we need to classify an input object into two or more classes. 
+
+* **Classification**, where we need to classify an input object into two or more classes.
 * **Regression**, where we need to predict a numerical number for each of the input samples.
 
 > When representing inputs and outputs as tensors, the input dataset is a matrix of size M&times;N, where M is number of samples and N is the number of features. Output labels Y is the vector of size M.
@@ -37,7 +38,6 @@ Thus, the simplest mathematical model of a neuron contains several inputs X<sub>
 where f is some non-linear **activation function**.
 
 > Early models of neuron were described in the classical paper [A logical calculus of the ideas immanent in nervous activity](http://www.springerlink.com/content/61446605110620kg/fulltext.pdf) by Warren McCullock and Walter Pitts in 1943. Donald Hebb in his book "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" proposed the way those networks can be trained.
-
 
 ## In this Section
 

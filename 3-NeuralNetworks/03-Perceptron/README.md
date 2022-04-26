@@ -4,7 +4,7 @@
 
 One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.
 
-|      |      | 
+|      |      |
 |--------------|-----------|
 |<img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />|
 
@@ -14,8 +14,7 @@ An input image was represented by 20x20 photocell array, so the neural network h
 
 > ✅ A potentiometer is a device that allows the user to adjust the resistance of a circuit.
 
-> The New York Times wrote about perceptron at that time:
-> *the embryo of an electronic computer that [the Navy] expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.*
+> The New York Times wrote about perceptron at that time: *the embryo of an electronic computer that [the Navy] expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.*
 
 ## Perceptron Model
 
@@ -37,7 +36,7 @@ E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 where:
 
 * the sum is taken on those training data points i that result in the wrong classification
-* x<sub>i</sub> is the input data, and t<sub>i</sub> is either -1 or +1 for negative and positive examples accordingly. 
+* x<sub>i</sub> is the input data, and t<sub>i</sub> is either -1 or +1 for negative and positive examples accordingly.
 
 This criteria is considered as a function of weights w, and we need to minimize it. Often, a method called **gradient descent** is used, in which we start with some initial weights w<sup>(0)</sup>, and then at each step update the weights according to the formula:
 
@@ -71,7 +70,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## Conclusion
 
-In this lesson, you learned about a perceptron, which is a binary classification model, and how to training it by using a weights vector.
+In this lesson, you learned about a perceptron, which is a binary classification model, and how to train it by using a weights vector.
 
 ## 🚀 Challenge
 
