@@ -228,7 +228,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 ## 🚀 Challenge
 
-In the three notebooks associated to this lesson, there are challenges at the end - pick one, and try to solve it!
+In the three notebooks associated with this lesson, there are challenges at the end - pick one, and try to solve it!
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/4)
 
