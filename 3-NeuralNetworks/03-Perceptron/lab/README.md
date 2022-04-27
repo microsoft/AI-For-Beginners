@@ -10,7 +10,7 @@ Using the code we have developed in this lesson for binary classification of MNI
 
 1. For each digit, create a dataset for binary classifier of "this digit vs. all other digits"
 1. Train 10 different perceptrons for binary classification (one for each digit)
-1. Define a function that will classify an input digit 
+1. Define a function that will classify an input digit
 
 > **Hint**: If we combine weights of all 10 perceptrons into one matrix, we should be able to apply all 10 perceptrons to the input digits by one matrix multiplication. Most probable digit can then be found just by applying `argmax` operation on the output.
 

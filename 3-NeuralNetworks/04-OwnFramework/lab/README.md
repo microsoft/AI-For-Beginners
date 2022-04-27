@@ -6,7 +6,6 @@ Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/a
 
 Solve the MNIST handwritten digit classification problem using 1-, 2- and 3-layered perceptron. Use the neural network framework we have developed in the lesson.
 
-
 ## Stating Notebook
 
 Start the lab by opening [MyFW_MNIST.ipynb](MyFW_MNIST.ipynb)
