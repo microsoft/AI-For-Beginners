@@ -68,7 +68,9 @@ In this lesson, we have built our own neural network library, and we have used i
 
 ## 🚀 Challenge
 
-In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it
+In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. 
+
+Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it.
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/8)
 
