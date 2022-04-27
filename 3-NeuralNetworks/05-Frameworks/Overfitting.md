@@ -1,6 +1,6 @@
 # Overfitting
 
-Overfitting is an extremely important concept in machine learning, and it is very important to get it right! 
+Overfitting is an extremely important concept in machine learning, and it is very important to get it right!
 
 Consider the following simple problem of approximating 5 dots (represented by `x` on the graphs below):
 
@@ -33,12 +33,13 @@ If you can see that overfitting occurs, you can do one of the following:
 
  * Increase the amount of training data
  * Decrease the complexity of the model
- * Use some [regularization technique](../4-ComputerVision/08-TransferLearning/TrainingTricks.md), such as [Dropout](../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), which we will consider later.
+ * Use some [regularization technique](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), such as [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), which we will consider later.
 
 ## Overfitting and Bias-Variance Tradeoff
 
 Overfitting is actually a case of more generic problem in statistics, called [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). If we consider possible sources of error in our model, we can see two types of errors:
+
 * **Bias errors** are caused by our algorithm not being able to capture the relationship between training data correctly. It can result from the fact that our model is not powerful enough (**underfitting**).
 * **Variance errors**, which are caused by the model approximating noise in the input data instead of meaningful relationship (**overfitting**).
 
-During training, bias error decreases (as our model learns to approximate the data), and variance error increases. It is important to stop training - either manually (when we detect overfitting) or automatically (by introducing regularization) to prevent overfitting. 
+During training, bias error decreases (as our model learns to approximate the data), and variance error increases. It is important to stop training - either manually (when we detect overfitting) or automatically (by introducing regularization) to prevent overfitting.
