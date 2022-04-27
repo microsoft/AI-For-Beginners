@@ -19,7 +19,7 @@ High-level API| [Keras](https://keras.io/) | [PyTorch Lightning](https://pytorch
 
 **High-level APIs** pretty much consider neural network as a **sequence of layers**, and make constructing most of the neural networks much easier. Training the model usually requires preparing the data and then calling `fit` function to do the job.
 
-High-level API allows you to construct typical neural networks very fast, without worrying about lots of details. At the same time, low-level API offer much more control over training process, and thus they are used a lot in research, when you are dealing with new neural network architectures. 
+High-level API allows you to construct typical neural networks very fast, without worrying about lots of details. At the same time, low-level API offer much more control over training process, and thus they are used a lot in research, when you are dealing with new neural network architectures.
 
 It is also important to understand that you can use both APIs together, eg. you can develop your own network layer architecture using low-level API, and then use it inside the larger network constructed and trained with high-level API. Or you can define a network using high-level API as a sequence of layers, and then use your own low-level training loop to perform optimization. Both APIs use the same basic underlying concepts, and they are designed to work well together.
 
@@ -35,4 +35,4 @@ Low-Level API | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](Intr
 --------------|-------------------------------------|--------------------------------
 High-level API| [Keras](IntroKeras.ipynb) | *PyTorch Lightning*
 
-After mastering the frameworks, let's recap the notion of [overfitting](Overfiting.md).
+After mastering the frameworks, let's recap the notion of [overfitting](Overfitting.md).
