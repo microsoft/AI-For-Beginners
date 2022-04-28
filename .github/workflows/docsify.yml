@@ -10,6 +10,6 @@ jobs:
     - uses: tool3/docsify-action@master
       with:
         github_token: ${{ secrets.GP_TOKEN }}
-        dir: /etc/docsify
+        dir: etc/docsify
         # destination branch
         branch: "main"
