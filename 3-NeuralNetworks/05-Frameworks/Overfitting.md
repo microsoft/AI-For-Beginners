@@ -1,6 +1,6 @@
 # Overfitting
 
-Overfitting is an extremely important concept in machine learning, and it is very important to get it right! 
+Overfitting is an extremely important concept in machine learning, and it is very important to get it right!
 
 Consider the following problem of approximating 5 dots (represented by `x` on the graphs below):
 
@@ -33,7 +33,7 @@ If you can see that overfitting occurs, you can do one of the following:
 
  * Increase the amount of training data
  * Decrease the complexity of the model
- * Use some [regularization technique](../4-ComputerVision/08-TransferLearning/TrainingTricks.md), such as [Dropout](../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), which we will consider later.
+ * Use some [regularization technique](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), such as [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), which we will consider later.
 
 ## Overfitting and Bias-Variance Tradeoff
 

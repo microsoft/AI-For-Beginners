@@ -19,7 +19,7 @@ Let's start with formalizing the Machine Learning problem. Suppose we have a tra
 * For regression problem, when we need to predict a number, we can use **absolute error** &sum;<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>|, or **squared error** &sum;<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sup>)<sup>2</sup>
 * For classification, we use **0-1 loss** (which is essentially the same as **accuracy** of the model), or **logistic loss**.
 
-For one-level perceptron, function *f* was defined as a linear function *f(x)=wx+b* (here *w* is the weight matrix, *x* is the vector if input features, and *b* is bias vector). For different neural network architectures, this function can take more complex form. 
+For one-level perceptron, function *f* was defined as a linear function *f(x)=wx+b* (here *w* is the weight matrix, *x* is the vector of input features, and *b* is bias vector). For different neural network architectures, this function can take more complex form.
 
 > In the case of classification, it is often desirable to get probabilities of corresponding classes as network output. To convert arbitrary numbers to probabilities (eg. to normalize the output), we often use **softmax** function &sigma;, and the function *f* becomes *f(x)=&sigma;(wx+b)*
 
@@ -68,7 +68,9 @@ In this lesson, we have built our own neural network library, and we have used i
 
 ## 🚀 Challenge
 
-In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it
+In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. 
+
+Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it.
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/8)
 
