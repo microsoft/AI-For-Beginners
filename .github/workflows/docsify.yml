@@ -1,0 +1,15 @@
+- name: docsify-action
+  # You may pin to the exact commit or the version.
+  # uses: tool3/docsify-action@0221337ae139ac03ef834b9705a13395d587ba0e
+  uses: tool3/docsify-action@v1.0.3
+  with:
+    # github access token
+    github_token: 
+    # destination dir
+    dir: # optional, default is docs
+    # destination branch
+    branch: # optional, default is master
+    # docsify-cli args
+    docsify_args: # optional
+    # commit message used when pushing
+    commit_msg: # optional, default is docs update 📚
