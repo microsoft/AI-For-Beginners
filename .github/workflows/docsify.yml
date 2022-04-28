@@ -1,4 +1,4 @@
-- name: docsify-action
+name: docsify-action
   # You may pin to the exact commit or the version.
   # uses: tool3/docsify-action@0221337ae139ac03ef834b9705a13395d587ba0e
   uses: tool3/docsify-action@v1.0.3
