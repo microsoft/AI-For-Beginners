@@ -6,9 +6,9 @@
     # github access token
     github_token: 
     # destination dir
-    dir: # optional, default is docs
+    dir: "etc/docsify"
     # destination branch
-    branch: # optional, default is master
+    branch: "main"
     # docsify-cli args
     docsify_args: # optional
     # commit message used when pushing
