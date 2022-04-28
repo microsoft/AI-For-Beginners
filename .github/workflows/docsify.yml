@@ -1,0 +1,12 @@
+name: docs
+
+on: [push]
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: tool3/docsify-action@master
+      with:
+        github_token: ${{ secrets.GP_TOKEN }}
