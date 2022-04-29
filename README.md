@@ -10,7 +10,7 @@
 
 # Artificial Intelligence for Beginners - A Curriculum
 
-> **This curriculum is being actively developed on GitHub. Look into [contributing](CONTRIBUTING.md) to see which areas require active contributions. Please consider this a pre-release, and do not actively use in the classroom yet!**
+> **This curriculum is being actively developed on GitHub. Look into [contributing](/etc/CONTRIBUTING.md) to see which areas require active contributions. Please consider this a pre-release, and do not actively use in the classroom yet!**
 
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
@@ -27,7 +27,7 @@ What we will not cover in this curriculum:
 * Business cases of using **AI in Business**. Consider taking [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-57639-dmitryso) learning path on Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso), developed in cooperation with [INSEAD](https://www.insead.edu/).
 * **Classic Machine Learning**, which is well described in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners)
 * Practical AI applications built using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-57639-dmitryso)**. For this, we recommend that you start with modules Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-57639-dmitryso), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso) and others.
-* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) or [Azure Databricks](). Consider using [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-57639-dmitryso) and [Build and O perate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-57639-dmitryso) learning paths.
+* Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-57639-dmitryso). Consider using [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-57639-dmitryso) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-57639-dmitryso) learning paths.
 * **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-57639-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
 * **Deep Mathematics** behind deep learning. For this, we would recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, which is also available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
@@ -40,7 +40,7 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><th>No</th><th>Lesson</th><th>Intro</th><th>PyTorch</th><th>Keras/TensorFlow</th><th>Lab</th></tr>
 
 <tr><td>I</td><td colspan="4"><b>Introduction to AI</b></td><td>PAT</td></tr>
-<tr><td>1</td><td>Introduction and History of AI</td><td><a href="1-Intro/README.md">Text</a></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Introduction and History of AI</td><td><a href="/lessons/1-Intro/README.md">Text</a></td><td></td><td></td><td></td></tr>
 
 <tr><td>II</td><td colspan="4"><b>Symbolic AI</b></td><td>PAT</td></tr>
 <tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td><a href="2-Symbolic/README.md">Text</a></td><td colspan="2"><a href="2-Symbolic/Animals.ipynb">Expert System</a>, <a href="2-Symbolic/FamilyOntology.ipynb">Ontology</a>, <a href="2-Symbolic/MSConceptGraph.ipynb">Concept Graph</a></td><td></td></tr>
