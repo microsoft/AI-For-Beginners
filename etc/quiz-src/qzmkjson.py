@@ -1,5 +1,5 @@
-src = 'questions.txt'
-dst_dir = '../quiz-app/src/assets/translations/zz'
+src = 'questions-en.txt'
+dst_dir = '../quiz-app/src/assets/translations/en'
 
 import json,os
 from copy import deepcopy
@@ -49,8 +49,6 @@ for k,v in lessons.items():
     if no not in lesson_content.keys():
         lesson_content[no] = deepcopy(doc)
     lesson_content[no][0]['quizzes'].append(v)
-
-print(lesson_content[1])
 
 with open(os.path.join(dst_dir,'index.js'),'w',encoding='utf-8') as f:
     for i,k in enumerate(lesson_content.keys()):

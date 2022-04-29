@@ -5,11 +5,11 @@
     "error": "Sorry, try again",
     "quizzes": [
       {
-        "id": 104,
-        "title": "Neural Networks - Pre Quiz",
+        "id": 105,
+        "title": "Frameworks - Pre Quiz",
         "quiz": [
           {
-            "questionText": "The quality of prediction is measured by Loss function",
+            "questionText": "Deep Neural Network training requires a lot of computations",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -22,35 +22,35 @@
             ]
           },
           {
-            "questionText": "One layer network is capable of classifying ____",
+            "questionText": "Overfitting occurs because of ____",
             "answerOptions": [
               {
-                "answerText": "linearly joined classes",
+                "answerText": "Not enough testing data",
                 "isCorrect": false
               },
               {
-                "answerText": "linearly separable classes",
+                "answerText": "Too powerful model",
                 "isCorrect": true
               },
               {
-                "answerText": "single layers of classes",
+                "answerText": "Too much noise in output data",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "The method of training multi-layered perceptron is called ____",
+            "questionText": "Bias errors are caused by our ____ not being able to capture the relationship between training data correctly.",
             "answerOptions": [
               {
-                "answerText": "back propagation",
-                "isCorrect": true
-              },
-              {
-                "answerText": "multiple propagation",
+                "answerText": "model",
                 "isCorrect": false
               },
               {
-                "answerText": "front propagation",
+                "answerText": "algorithm",
+                "isCorrect": true
+              },
+              {
+                "answerText": "computer",
                 "isCorrect": false
               }
             ]
@@ -58,58 +58,58 @@
         ]
       },
       {
-        "id": 204,
-        "title": "Neural Networks - Post Quiz",
+        "id": 205,
+        "title": "Frameworks - Post Quiz",
         "quiz": [
           {
-            "questionText": "We use ____ for regression loss functions",
+            "questionText": "After compiling our model object, we train by calling ____ function",
             "answerOptions": [
               {
-                "answerText": "absolute error",
-                "isCorrect": false
-              },
-              {
-                "answerText": "mean squared error",
-                "isCorrect": false
-              },
-              {
-                "answerText": "all of the above",
-                "isCorrect": true
-              }
-            ]
-          },
-          {
-            "questionText": "All but one is a type of classification loss function",
-            "answerOptions": [
-              {
-                "answerText": "0-1 loss",
-                "isCorrect": false
-              },
-              {
-                "answerText": "binary loss",
+                "answerText": "fit",
                 "isCorrect": true
               },
               {
-                "answerText": "logistic loss",
+                "answerText": "train",
+                "isCorrect": false
+              },
+              {
+                "answerText": "teach",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "Softmax can be used to convert inputs into probabilities",
+            "questionText": "Binary cross-entropy is also called log loss",
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": false
+                "isCorrect": true
               },
               {
                 "answerText": "False",
-                "isCorrect": true
+                "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions",
+            "questionText": "Tensorflow is to ____ while PyTorch is to ____",
+            "answerOptions": [
+              {
+                "answerText": "Facebook, Google",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Google, Facebook",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Microsoft, Google",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Pred is the values predicted by the network",
             "answerOptions": [
               {
                 "answerText": "True",
