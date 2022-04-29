@@ -1,15 +1,16 @@
-name: docsify-action
-  # You may pin to the exact commit or the version.
-  # uses: tool3/docsify-action@0221337ae139ac03ef834b9705a13395d587ba0e
-  uses: tool3/docsify-action@v1.0.3
-  with:
-    # github access token
-    github_token: 
-    # destination dir
-    dir: "etc/docsify"
-    # destination branch
-    branch: "main"
-    # docsify-cli args
-    docsify_args: # optional
-    # commit message used when pushing
-    commit_msg: # optional, default is docs update 📚
+
+name: docs
+
+on: [push]
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: tool3/docsify-action@master
+      with:
+        github_token: ${{ secrets.GP_TOKEN }}
+        dir: etc/docsify
+        # destination branch
+
