@@ -65,7 +65,7 @@ export default {
     handleAnswerClick(isCorrect) {
       this.error = false;
       let nextQuestion = this.currentQuestion + 1;
-      if (isCorrect == "true") {
+      if (isCorrect) {
         //always 3 questions per quiz
         if (nextQuestion < 3) {
           this.currentQuestion = nextQuestion;
