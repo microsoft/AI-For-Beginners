@@ -51,7 +51,7 @@ In this lesson, you learned about the differences between the various APIs for t
 
 In the accompanying notebooks, you will find 'tasks' at the bottom; work through the notebooks and complete the tasks.
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/10)
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/502)
 
 ## Review & Self Study
 
