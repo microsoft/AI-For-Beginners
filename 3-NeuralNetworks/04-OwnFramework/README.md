@@ -58,7 +58,7 @@ Note that the left-most part of all those expressions is the same, and thus we c
 
 <img alt="compute graph" src="images/ComputeGraphGrad.png"/>
 
-> TODO: image citation
+> Image by author
 
 > ✅ We will cover backprop in much more detail in our notebook example.  
 

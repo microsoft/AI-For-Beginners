@@ -1,3 +1,4 @@
+
 name: docs
 
 on: [push]
@@ -12,4 +13,4 @@ jobs:
         github_token: ${{ secrets.GP_TOKEN }}
         dir: etc/docsify
         # destination branch
-        branch: "main"
+

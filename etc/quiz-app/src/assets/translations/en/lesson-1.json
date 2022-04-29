@@ -5,7 +5,7 @@
     "error": "Sorry, try again",
     "quizzes": [
       {
-        "id": 1,
+        "id": 101,
         "title": "Introduction to AI - Pre Quiz",
         "quiz": [
           {
@@ -13,15 +13,15 @@
             "answerOptions": [
               {
                 "answerText": "Charles Barkley",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "Charles Babbage",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "Charles Darwin",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -30,11 +30,11 @@
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "False",
-                "isCorrect": "true"
+                "isCorrect": true
               }
             ]
           },
@@ -43,51 +43,51 @@
             "answerOptions": [
               {
                 "answerText": "false, they are usually designed by a series of rules.",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
-                "answerText": "true, they are usually considered to be 'intelligent'.",
-                "isCorrect": "false"
+                "answerText": "true, they are usually considered to be 'intelligent",
+                "isCorrect": false
               },
               {
                 "answerText": "false, but they are increasingly able to pass Turing tests as they become more sophisticated.",
-                "isCorrect": "true"
+                "isCorrect": true
               }
             ]
           }
         ]
       },
       {
-        "id": 2,
-        "title": "Introduction to AI: Post-Quiz",
+        "id": 201,
+        "title": "Introduction to AI - Post-Quiz",
         "quiz": [
           {
             "questionText": "A top-down approach to AI is a model of reasoning called",
             "answerOptions": [
               {
                 "answerText": "strategic reasoning",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "symbolic reasoning",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "synergistic reasoning",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "A bottom-up approach to AI might leverage a neural network to",
+            "questionText": "A bottom-up approach to AI is based on neural networks",
             "answerOptions": [
               {
-                "answerText": "true",
-                "isCorrect": "true"
+                "answerText": "True",
+                "isCorrect": true
               },
               {
-                "answerText": "false",
-                "isCorrect": "false"
+                "answerText": "False",
+                "isCorrect": false
               }
             ]
           },
@@ -96,15 +96,15 @@
             "answerOptions": [
               {
                 "answerText": "1950s",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "1960s",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "1970s",
-                "isCorrect": "true"
+                "isCorrect": true
               }
             ]
           }
