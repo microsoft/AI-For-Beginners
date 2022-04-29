@@ -127,7 +127,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 ## Meet the Team
 
-[![Promo video](sketchnotes/ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
+[![Promo video](./lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
 
 > 🎥 Click the image above for a video about the project and the folks who created it!
 
