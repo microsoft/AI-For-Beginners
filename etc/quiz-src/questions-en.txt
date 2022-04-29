@@ -133,3 +133,28 @@ Lesson 5E Frameworks - Post Quiz
 * Pred is the values predicted by the network
 + True
 - False
+
+Lesson 6B Convolutional Neural Networks - Pre Quiz
+* To extract patterns from images we use?
++ convolutional filters
+- extractor
+- filters
+* One of these is not a CNN Architecture
+- ResNet
+- MobileNet
++ Tensorflow
+* CNN are mostly used for computer vision tasks.
++ true
+- false
+
+Lesson 6E Convolutional Neural Networks - Post Quiz
+* Which pooling layer is used "scale down" the size of the image
+- average pooling
+- max pooling
++ a and b
+* Convolutional networks generalizes much better
++ True
+- False
+* To train our neural network, we need to convert images to tensors
++ true
+- false
