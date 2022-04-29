@@ -4,25 +4,24 @@
     "complete": "Congratulations, you completed the quiz!",
     "error": "Sorry, try again",
     "quizzes": [
-      
       {
-        "id": 5,
-        "title": "Introduction to Neural Networks - Perceptron: Post-Quiz",
+        "id": 103,
+        "title": "Introduction to Neural Networks - Perceptron: Pre-Quiz",
         "quiz": [
           {
             "questionText": "Early neural networks required",
             "answerOptions": [
               {
                 "answerText": "manual weight adjusting",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "terabytes of data",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "special reasoning",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -31,11 +30,11 @@
             "answerOptions": [
               {
                 "answerText": "true",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "false",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -43,23 +42,23 @@
             "questionText": "A perceptron is a ___ type of model",
             "answerOptions": [
               {
-                "answerText": "linear regression",
-                "isCorrect": "false"
+                "answerText": "multi-class classification",
+                "isCorrect": false
               },
               {
                 "answerText": "clustering",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "binary classification",
-                "isCorrect": "true"
+                "isCorrect": true
               }
             ]
           }
         ]
       },
       {
-        "id": 6,
+        "id": 203,
         "title": "Introduction to Neural Networks - Perceptron: Post-Quiz",
         "quiz": [
           {
@@ -67,15 +66,15 @@
             "answerOptions": [
               {
                 "answerText": "size",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "error",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "nodes",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -84,11 +83,11 @@
             "answerOptions": [
               {
                 "answerText": "true",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "false",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -97,15 +96,15 @@
             "answerOptions": [
               {
                 "answerText": "learning rate",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "weights",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "gradient",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           }
