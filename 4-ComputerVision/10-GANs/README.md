@@ -23,7 +23,7 @@ CNN discriminator consists of the following layers: several convolutions+pooling
 
 ### Generator
 
-Generator is slightly more tricky. You can consider it to be a reversed discriminator - starting from latent vector (in place of a feature vector), it has fully-connected layer to convert it into required size/shape, followed by deconvolutions+upscaling. 
+Generator is slightly more tricky. You can consider it to be a reversed discriminator - starting from latent vector (in place of a feature vector), it has fully-connected layer to convert it into required size/shape, followed by deconvolutions+upscaling. This is similar to *decoder* part of [autoencoder](../09-Autoencoders/README.md).
 
 > Because convolution layer is implemented as a linear filter traversing the image, deconvolution is essentially similar to convolution, and can be implemented using the same layer logic.
 
@@ -33,7 +33,7 @@ Generator is slightly more tricky. You can consider it to be a reversed discrimi
 
 ### Training the GAN
 
-GANs are called **adversarial** because there is a constant competition between generator and discriminator. During this cometition, both generator and discriminator improve, thus the network learns to produce better and better pictures.
+GANs are called **adversarial** because there is a constant competition between generator and discriminator. During this competition, both generator and discriminator improve, thus the network learns to produce better and better pictures.
 
 The training happens in two stages:
 
@@ -43,8 +43,8 @@ The training happens in two stages:
 During this process, both generator and discriminator losses are not going down significantly. In the ideal situation, they should oscillate, corresponding to both networks improving their performance.
 
 ## Go to Notebook
-* [GAN Notebook in TensorFlow/Keras](GANs.ipynb)
-
+* [GAN Notebook in TensorFlow/Keras](GANTF.ipynb)
+* [GAN Notebook in PyTorch](GANPyTorch.ipynb)
 ### Problems with GAN training
 
 GANs are known to be especially difficult to train. Here are a few problems:

@@ -31,7 +31,7 @@ What we will not cover in this curriculum:
 * **Conversational AI** and **Chat Bots**. There is a separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-57639-dmitryso) learning path, and you can also refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
 * **Deep Mathematics** behind deep learning. For this, we would recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, which is also available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-For a gentle introduction to *AI in the Cloud* topic you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-57639-dmitryso) Learning Path.
+For a gentle introduction to *AI in the Cloud* topics you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-57639-dmitryso) Learning Path.
 
 ---
 # Content
@@ -63,7 +63,7 @@ For a gentle introduction to *AI in the Cloud* topic you may consider taking the
 <tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures</td><td><a href="4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
 <tr><td>8</td><td>Pre-trained Networks and Transfer Learning<br/>Training Tricks</td><td><a href="4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a></td><td><a href="4-ComputerVision/08-TransferLearning/lab/README.md">Lab</a></td></tr>
 <tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td><a href="4-ComputerVision/09-Autoencoders/AutoEncodersPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td><a href="4-ComputerVision/10-GANs/GANPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANs.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>10</td><td>Generative Adversarial Networks</td><td><a href="4-ComputerVision/10-GANs/README.md">Text</a></td><td><a href="4-ComputerVision/10-GANs/GANPyTorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/10-GANs/GANTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>11</td><td>Object Detection</td><td>Text</td><td>PyTorch</td><td>TensorFlow</td><td></td></tr>
 <tr><td>12</td><td>Semantic Segmentation. U-Net</td><td><a href="4-ComputerVision/12-Segmentation/README.md">Text</a></td><td><a href="4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
 <tr><td>V</td><td colspan="2"><b><a href="5-NLP/README.md">Natural Language Processing</a></b></td>
@@ -119,9 +119,9 @@ However, if you would like to take the course as a self-study project, we sugges
 
 ## Credits
 
-**✍️ Hearty thanks to our authors** TBD
+**✍️ Hearty thanks to our authors** [Dmitry Soshnikov](http://soshnikov.com), [Evgenii Pishchik](https://github.com/Pe4enIks), with editors [Jen Looper](https://twitter.com/jenlooper) and [Lateefah Bello](https://github.com/CinnamonXI)
 
-**🎨 Thanks as well to our illustrators** TBD
+**🎨 Thanks as well to our sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
 
 **🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors**, notably TBD
 

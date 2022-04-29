@@ -1,0 +1,135 @@
+Lesson 1B Introduction to AI - Pre Quiz
+* A famous 19th century proto-computer engineer was
+- Charles Barkley
++ Charles Babbage
+- Charles Darwin
+* Weak AI is a system designed to solve many tasks
+- True
++ False
+* Chat bots are an example of truly intelligent systems
+- false, they are usually designed by a series of rules.
+- true, they are usually considered to be 'intelligent
++ false, but they are increasingly able to pass Turing tests as they become more sophisticated.
+
+Lesson 1E Introduction to AI - Post-Quiz
+* A top-down approach to AI is a model of reasoning called
+- strategic reasoning
++ symbolic reasoning
+- synergistic reasoning
+* A bottom-up approach to AI is based on neural networks
++ True
+- False
+* The AI Winter occurred in this era
+- 1950s
+- 1960s
++ 1970s
+
+Lesson 2B Knowledge Representation and Expert Systems: Pre-Quiz
+* The top-down approach to creating intelligent systems was based on:
+- knowledge seeking and reading
++ knowledge representation and reasoning
+- knowledge reasoning and seeking
+* Knowledge is the same as information
+- True
++ False
+* Knowledge is obtained by an:
++ active learning process
+- passive learning process
+- both of these
+
+Lesson 2E Knowledge Representation and Expert Systems: Post-Quiz
+* The simplest method of knowledge representation is:
++ algorithmic
+- symbolic
+- synergistic
+* Scenarios can represent complex situations that can unfold in time
++ true
+- false
+* Forward inference starts with initial data and then:
++ executes a reasoning loop
+- looks for a goal
+- starts over
+
+Lesson 3B Introduction to Neural Networks - Perceptron: Pre-Quiz
+* Early neural networks required
++ manual weight adjusting
+- terabytes of data
+- special reasoning
+* A simple neuron is also called a 'threshold logic unit'
++ true
+- false
+* A perceptron is a ___ type of model
+- multi-class classification
+- clustering
++ binary classification
+
+Lesson 3E Introduction to Neural Networks - Perceptron: Post-Quiz
+* To train a perceptron, find a weights vector that results in the smallest ___.
+- size
++ error
+- nodes
+* To minimize the function of weights, you can use gradient descent
++ true
+- false
+* During gradient descent, each step updates the ___
+- learning rate
++ weights
+- gradient
+
+Lesson 4B Neural Networks - Pre Quiz
+* The quality of prediction is measured by Loss function 
++ True
+- False
+* One layer network is capable of classifying ____
+- linearly joined classes
++ linearly separable classes
+- single layers of classes
+* The method of training multi-layered perceptron is called ____
++ back propagation
+- multiple propagation
+- front propagation
+
+Lesson 4E Neural Networks - Post Quiz
+* We use ____ for regression loss functions
+- absolute error
+- mean squared error
++ all of the above
+* All but one is a type of classification loss function
+- 0-1 loss
++ binary loss
+- logistic loss
+* Softmax can be used to convert inputs into probabilities
+- True
++ False
+* Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions
++ True
+- False
+
+Lesson 5B Frameworks - Pre Quiz
+* Deep Neural Network training requires a lot of computations
++ True
+- False
+* Overfitting occurs because of ____
+- Not enough testing data
++ Too powerful model
+- Too much noise in output data
+* Bias errors are caused by our ____ not being able to capture the relationship between training data correctly.
+- model
++ algorithm
+- computer
+
+Lesson 5E Frameworks - Post Quiz
+* After compiling our model object, we train by calling ____ function
++ fit
+- train
+- teach
+* Binary cross-entropy is also called log loss
++ True
+- False
+* Tensorflow is to ____ while PyTorch is to ____
+- Facebook, Google
++ Google, Facebook
+- Microsoft, Google
+* Pred is the values predicted by the network
++ True
+- False

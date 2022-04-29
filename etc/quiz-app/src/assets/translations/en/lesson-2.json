@@ -4,9 +4,8 @@
     "complete": "Congratulations, you completed the quiz!",
     "error": "Sorry, try again",
     "quizzes": [
-      
       {
-        "id": 3,
+        "id": 102,
         "title": "Knowledge Representation and Expert Systems: Pre-Quiz",
         "quiz": [
           {
@@ -14,15 +13,15 @@
             "answerOptions": [
               {
                 "answerText": "knowledge seeking and reading",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "knowledge representation and reasoning",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "knowledge reasoning and seeking",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -30,12 +29,12 @@
             "questionText": "Knowledge is the same as information",
             "answerOptions": [
               {
-                "answerText": "true",
-                "isCorrect": "false"
+                "answerText": "True",
+                "isCorrect": false
               },
               {
-                "answerText": "false",
-                "isCorrect": "true"
+                "answerText": "False",
+                "isCorrect": true
               }
             ]
           },
@@ -44,22 +43,22 @@
             "answerOptions": [
               {
                 "answerText": "active learning process",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "passive learning process",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "both of these",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           }
         ]
       },
       {
-        "id": 4,
+        "id": 202,
         "title": "Knowledge Representation and Expert Systems: Post-Quiz",
         "quiz": [
           {
@@ -67,15 +66,15 @@
             "answerOptions": [
               {
                 "answerText": "algorithmic",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "symbolic",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "synergistic",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -84,11 +83,11 @@
             "answerOptions": [
               {
                 "answerText": "true",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "false",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           },
@@ -97,15 +96,15 @@
             "answerOptions": [
               {
                 "answerText": "executes a reasoning loop",
-                "isCorrect": "true"
+                "isCorrect": true
               },
               {
                 "answerText": "looks for a goal",
-                "isCorrect": "false"
+                "isCorrect": false
               },
               {
                 "answerText": "starts over",
-                "isCorrect": "false"
+                "isCorrect": false
               }
             ]
           }
