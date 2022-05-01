@@ -22,8 +22,6 @@ To download the dataset, use this code snippet:
 
 Start the lab by opening [OxfordPets.ipynb](OxfordPets.ipynb)
 
-
 ## Takeaway
 
 Transfer learning and pre-trained networks allow us to solve real-world image classification problems relatively easily. However, pre-trained networks work well on images of similar kind, and if we start classifying very different images (eg. medical images), we are likely to get much worse results.
-

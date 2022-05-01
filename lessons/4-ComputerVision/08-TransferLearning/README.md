@@ -2,6 +2,8 @@
 
 Training CNNs can take a lot of time, and a lot of data is required for that task. However, much of the time is spent to learn the best low-level filters that a network is using to extract patterns from images. A natural question arises - can we use a neural network trained on one dataset and adapt it to classifying different images without full training process?
 
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/108)
+
 This approach is called **transfer learning**, because we transfer some knowledge from one neural network model to another. In transfer learning, we typically start with a pre-trained model, which has been trained on some large image dataset, such as **ImageNet**. Those models can already do a good job extracting different features from generic images, and in many cases just building a classifier on top of those extracted features can yield a good result.
 
 ## Pre-Trained Models as Feature Extractors
@@ -20,7 +22,7 @@ Here are sample features extracted from a picture of a cat by VGG-16 network:
 
 ## Cats vs. Dogs Dataset
 
-In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.com/en-us/download/details.aspx?id=54765&WT.mc_id=academic-57639-dmitryso), which is very close to a real-life image classification scenario. 
+In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.com/en-us/download/details.aspx?id=54765&WT.mc_id=academic-57639-dmitryso), which is very close to a real-life image classification scenario.
 
 ## Continue in Notebook
 
@@ -29,7 +31,11 @@ Let's see transfer learning in action in corresponding notebooks:
 * [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
 * [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)
 
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/208)
+
 ## [Lab](lab/README.md)
 
 In this lab, we will use real-life [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pets dataset with 35 breeds of cats and dogs, and we will build a transfer learning classifier.
- 
+
+> ✅ Todo: there is an unlinked file: [TrainingTricks.md](TrainingTricks.md
+)

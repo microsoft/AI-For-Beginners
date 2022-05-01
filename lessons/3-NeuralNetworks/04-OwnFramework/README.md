@@ -10,7 +10,7 @@ In this section we will extend this model into a more flexible framework, allowi
 
 We will also develop our own modular framework in Python that will allow us to construct different neural network architectures.
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/401)
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/104)
 
 ## Formalization of Machine Learning
 
@@ -64,15 +64,15 @@ Note that the left-most part of all those expressions is the same, and thus we c
 
 ## Conclusion
 
-In this lesson, we have built our own neural network library, and we have used it for a simple two-dimensional classification task. 
+In this lesson, we have built our own neural network library, and we have used it for a simple two-dimensional classification task.
 
 ## 🚀 Challenge
 
-In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate. 
+In the accompanying notebook, you will implement your own framework for building and training multi-layered perceptrons. You will be able to see in detail how modern neural networks operate.
 
 Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it.
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/402)
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/204)
 
 ## Review & Self Study
 
