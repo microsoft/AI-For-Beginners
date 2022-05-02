@@ -6,7 +6,7 @@
     "quizzes": [
       {
         "id": 104,
-        "title": "Neural Networks - Pre Quiz",
+        "title": "Neural Networks: Pre Quiz",
         "quiz": [
           {
             "questionText": "The quality of prediction is measured by Loss function",
@@ -59,7 +59,7 @@
       },
       {
         "id": 204,
-        "title": "Neural Networks - Post Quiz",
+        "title": "Neural Networks: Post Quiz",
         "quiz": [
           {
             "questionText": "We use ____ for regression loss functions",

@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 108,
+        "title": "Pre-trained Networks and Transfer Learning: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Transfer learning approach uses untrained models for classification",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "One of these is not a normalization technique?",
+            "answerOptions": [
+              {
+                "answerText": "height normalization",
+                "isCorrect": true
+              },
+              {
+                "answerText": "weight normalization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "layer normalization",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "We choose Stochastic Gradient Descent(SGD) in deep learning because classical gradient descent can be ____",
+            "answerOptions": [
+              {
+                "answerText": "fast",
+                "isCorrect": false
+              },
+              {
+                "answerText": "slow",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "title": "Pre-trained Networks and Transfer Learning: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Dropout layers act as a ____ technique",
+            "answerOptions": [
+              {
+                "answerText": "gradient boosting",
+                "isCorrect": false
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "regularization",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "freezing weights of convolutional feature extractor can be done by ____",
+            "answerOptions": [
+              {
+                "answerText": "setting `requires_grad` property to `False`",
+                "isCorrect": false
+              },
+              {
+                "answerText": "setting `trainable` property to `False`",
+                "isCorrect": false
+              },
+              {
+                "answerText": "a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Batch normalization is to bring values that flow through the ____ to right interval",
+            "answerOptions": [
+              {
+                "answerText": "algorithms",
+                "isCorrect": false
+              },
+              {
+                "answerText": "batches",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neural network",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

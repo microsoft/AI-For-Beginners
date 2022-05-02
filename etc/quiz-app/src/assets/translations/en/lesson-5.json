@@ -6,7 +6,7 @@
     "quizzes": [
       {
         "id": 105,
-        "title": "Frameworks - Pre Quiz",
+        "title": "Frameworks: Pre Quiz",
         "quiz": [
           {
             "questionText": "Deep Neural Network training requires a lot of computations",
@@ -59,7 +59,7 @@
       },
       {
         "id": 205,
-        "title": "Frameworks - Post Quiz",
+        "title": "Frameworks: Post Quiz",
         "quiz": [
           {
             "questionText": "After compiling our model object, we train by calling ____ function",
