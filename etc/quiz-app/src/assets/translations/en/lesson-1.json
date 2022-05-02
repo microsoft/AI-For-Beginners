@@ -6,7 +6,7 @@
     "quizzes": [
       {
         "id": 101,
-        "title": "Introduction to AI - Pre Quiz",
+        "title": "Introduction to AI: Pre Quiz",
         "quiz": [
           {
             "questionText": "A famous 19th century proto-computer engineer was",
@@ -59,7 +59,7 @@
       },
       {
         "id": 201,
-        "title": "Introduction to AI - Post-Quiz",
+        "title": "Introduction to AI: Post-Quiz",
         "quiz": [
           {
             "questionText": "A top-down approach to AI is a model of reasoning called",
