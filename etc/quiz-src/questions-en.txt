@@ -184,3 +184,30 @@ Lesson 8E Pre-trained Networks and Transfer Learning: Post Quiz
 - algorithms
 - batches
 + neural network
+
+Lesson 23B Multi-Agent Modeling: Pre Quiz
+* By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
++ true
+- false
+* The principle of metasystem transition is derived from:
+- Evolutionary Cybernetics
+- Emergentism
++ both of these
+* Multi-Agent systems emerged in the ____:
+- 1970s
+- 1980s
++ 1990s
+
+Lesson 23E Multi-Agent Modeling: Post Quiz
+* An agent is:
+- an entity that lives alone
++ an entity that lives in an environment
+- an entity that is intelligent
+* Reactive agents usually have:
++ simple request-response behavior
+- complex behavior
+- no behavior
+* Multi-agent systems are used in:
+- video production and systems modeling
+- games and automations
++ both the above
