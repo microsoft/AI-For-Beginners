@@ -41,3 +41,5 @@ Here is [a good blog post](https://medium.com/analytics-vidhya/talented-mr-1x1-c
 MobileNet is a family of models with reduced size, suitable for mobile devices. Use them if you are short in resources, and can sacrifice a little bit of accuracy. The main idea behind them is so-called **depthwise separable convolution**, which allows representing convolution filters by a composition of spatial convolutions and 1x1 convolution over depth channels. This significantly reduces the number of parameters, making the network smaller in size, and also easier to train with less data.
 
 Here is [a good blog post on MobileNet](https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470).
+
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/207)

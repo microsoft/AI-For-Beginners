@@ -38,8 +38,9 @@ Here is the [original paper](https://arxiv.org/pdf/1502.03167.pdf) on batch norm
 While this may sound like a strange idea, you can see the effect of dropout on training MNIST digit classifier in [`Dropout.ipynb`](Dropout.ipynb) notebook. It speeds up training and allows us to achieve higher accuracy in less training epochs.
 
 This effect can be explained in several ways:
+
  * It can be considered to be a random shocking factor to the model, which takes optimiation out of local minimum
- * It can be considered as *implicit model averaging*, because we can say that during dropout we are training slightly different model 
+ * It can be considered as *implicit model averaging*, because we can say that during dropout we are training slightly different model
 
 > *Some people say that when a drunk person tries to learn something, he will remember this better next morning, comparing to a sober person, because a brain with some malfunctioning neurons tries to adapt better to gasp the meaning. We never tested ourselves if this is true of not*
 
@@ -52,7 +53,7 @@ One of the very important aspect of deep learning is too be able to prevent [ove
 There are several ways to prevent overfitting:
 
  * Early stopping -- continuously monitor error on validation set and stopping training when validation error starts to increase.
- * Explicit Weight Decay / Regularization -- adding an extra penalty to the loss function for high absolute values of weights, which prevents the model of getting very unstable results 
+ * Explicit Weight Decay / Regularization -- adding an extra penalty to the loss function for high absolute values of weights, which prevents the model of getting very unstable results
  * Model Averaging -- training several models and then averaging the result. This helps to minimize the variance.
  * Dropout (Implicit Model Averaging)
 
@@ -83,7 +84,7 @@ w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), wh
 
 This algorithm is called **Adagrad**. Another algorithms that use the same idea: **RMSProp**, **Adam**
 
-> **Adam** is considered to be a very efficient algorithm for many applications, so if you are not sure which one to use - use Adam. 
+> **Adam** is considered to be a very efficient algorithm for many applications, so if you are not sure which one to use - use Adam.
 
 ### Gradient clipping
 
@@ -93,12 +94,11 @@ Gradient clipping is an extension the idea above. When the ||&nabla;&lagran;|| &
 
 Training success often depends on the learning rate parameter &eta;. It is logical to assume that larger values of &eta; result in faster training, which is something we typically want in the beginning of the training, and then smaller value of &eta; allow us to fine-tune the network. Thus, in most of the cases we want to decrease &eta; in the process of the training.
 
-This can be done by multiplying &eta; by some number (eg. 0.98) after each epoch of the training, or by using more complicated **learning rate schedule**. 
-
+This can be done by multiplying &eta; by some number (eg. 0.98) after each epoch of the training, or by using more complicated **learning rate schedule**.
 
 ## Different Network Architectures
 
-Selecting right network architecture for your problem can be tricky. Normally, we would take an architecture that has proven to work for our specific task (or similar one). Here is a [good overview](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) or neural network architectures for computer vision. 
+Selecting right network architecture for your problem can be tricky. Normally, we would take an architecture that has proven to work for our specific task (or similar one). Here is a [good overview](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) or neural network architectures for computer vision.
 
 > It is important to select an architecture that will be powerful enough for the number of training samples that we have. Selecting too powerful model can result in [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 

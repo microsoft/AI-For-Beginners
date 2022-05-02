@@ -1,4 +1,4 @@
-Lesson 1B Introduction to AI - Pre Quiz
+Lesson 1B Introduction to AI: Pre Quiz
 * A famous 19th century proto-computer engineer was
 - Charles Barkley
 + Charles Babbage
@@ -11,7 +11,7 @@ Lesson 1B Introduction to AI - Pre Quiz
 - true, they are usually considered to be 'intelligent
 + false, but they are increasingly able to pass Turing tests as they become more sophisticated.
 
-Lesson 1E Introduction to AI - Post-Quiz
+Lesson 1E Introduction to AI: Post-Quiz
 * A top-down approach to AI is a model of reasoning called
 - strategic reasoning
 + symbolic reasoning
@@ -76,7 +76,7 @@ Lesson 3E Introduction to Neural Networks - Perceptron: Post-Quiz
 + weights
 - gradient
 
-Lesson 4B Neural Networks - Pre Quiz
+Lesson 4B Neural Networks: Pre Quiz
 * The quality of prediction is measured by Loss function 
 + True
 - False
@@ -89,7 +89,7 @@ Lesson 4B Neural Networks - Pre Quiz
 - multiple propagation
 - front propagation
 
-Lesson 4E Neural Networks - Post Quiz
+Lesson 4E Neural Networks: Post Quiz
 * We use ____ for regression loss functions
 - absolute error
 - mean squared error
@@ -105,7 +105,7 @@ Lesson 4E Neural Networks - Post Quiz
 + True
 - False
 
-Lesson 5B Frameworks - Pre Quiz
+Lesson 5B Frameworks: Pre Quiz
 * Deep Neural Network training requires a lot of computations
 + True
 - False
@@ -118,7 +118,7 @@ Lesson 5B Frameworks - Pre Quiz
 + algorithm
 - computer
 
-Lesson 5E Frameworks - Post Quiz
+Lesson 5E Frameworks: Post Quiz
 * After compiling our model object, we train by calling ____ function
 + fit
 - train
@@ -133,3 +133,54 @@ Lesson 5E Frameworks - Post Quiz
 * Pred is the values predicted by the network
 + True
 - False
+
+Lesson 7B Convolutional Neural Networks: Pre Quiz
+* To extract patterns from images we use?
++ convolutional filters
+- extractor
+- filters
+* One of these is not a CNN Architecture
+- ResNet
+- MobileNet
++ Tensorflow
+* CNN are mostly used for computer vision tasks.
++ true
+- false
+
+Lesson 7E Convolutional Neural Networks: Post Quiz
+* Which pooling layer is used "scale down" the size of the image
+- average pooling
+- max pooling
++ a and b
+* Convolutional networks generalizes much better
++ True
+- False
+* To train our neural network, we need to convert images to tensors
++ true
+- false
+
+Lesson 8B Pre-trained Networks and Transfer Learning: Pre Quiz
+* Transfer learning approach uses untrained models for classification
+- true
++ false
+* One of these is not a normalization technique?
++ height normalization
+- weight normalization
+- layer normalization
+* We choose Stochastic Gradient Descent(SGD) in deep learning because classical gradient descent can be ____
+- fast
++ slow
+
+Lesson 8E Pre-trained Networks and Transfer Learning: Post Quiz
+* Dropout layers act as a ____ technique
+- gradient boosting
+- training
++ regularization
+* freezing weights of convolutional feature extractor can be done by ____
+- setting `requires_grad` property to `False`
+- setting `trainable` property to `False`
++ a and b
+* Batch normalization is to bring values that flow through the ____ to right interval
+- algorithms
+- batches
++ neural network
