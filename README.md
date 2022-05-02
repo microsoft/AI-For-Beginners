@@ -85,7 +85,7 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td>PAT</td></tr>
 <tr><td>24</td><td>AI Ethics and Responsible AI</td><td><a href="lessons/7-Ethics/README.md">Text</a></td><td></td><td></td><td></td></tr>
 <tr><td></td><td colspan="4"><b>Extras</b></td><td></td></tr>
-<tr><td>1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="lessons/X-Extras/X1-MultiModal/README.md">Text</a></td><td></td><td></td><td></td></tr>
+<tr><td>X1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="lessons/X-Extras/X1-MultiModal/README.md">Text</a></td><td></td><td></td><td></td></tr>
 </table>
 
 **[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
