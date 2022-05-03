@@ -185,6 +185,33 @@ Lesson 8E Pre-trained Networks and Transfer Learning: Post Quiz
 - batches
 + neural network
 
+Lesson 9B Autoencoders: Pre Quiz
+* Self-supervised learning uses ____ data for training
+- pre-trained
++ raw
+- labeled
+* Encoder Network coverts input images into latent spaces
++ true
+- false
+* VAE is short for?
+- Variable AutoEncoding
++ Variation auto-encoder
+- Variational automated encoders
+
+Lesson 9E Autoencoders: Post Quiz
+* Properties of autoencoders include
+- it is data Specific
+- works on unlabeled data
++ all of the above
+* Auto encoders can be used to effectively remove noise from images
++ true
+- false
+* Variational auto-encoders loss funnction does not consist of which of these?
+- reconstruction loss
+- KL loss
++ TF loss
+
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true
