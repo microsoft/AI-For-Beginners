@@ -58,6 +58,10 @@ GANs are known to be especially difficult to train. Here are a few problems:
 * Keeping **balance** between generator and discriminator. In many cases discriminator loss can drop to zero relatively quickly, which results in generator being unable to train further. To overcome this, we can try setting different learning rates for generator and discriminator, or skip discriminator training if the loss is already too low.
 * Training for **high resolution**. It is the same problems as with autoencoders, because reconstructing too many layers of convolutional network leads to artifacts. This problem is typically solved with so-called **progressive growing**, when first a few layers are trained on low-res images, and then layers are "unblocked" or added. Another solutions would be adding extra connections between layers and training several resolutions at once - see [Multi-Scale Gradient GANs paper](https://arxiv.org/abs/1903.06048) for details.
 
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/210)
+
+> ✅ Todo: Assignment, conclusion
+
 ## References
 
 * Marco Pasini, [10 Lessons I Learned Training GANs for one Year](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
