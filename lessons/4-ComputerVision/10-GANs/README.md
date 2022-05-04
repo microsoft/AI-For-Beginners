@@ -2,6 +2,8 @@
 
 In the previous section, we have learnt about **generative models** - i.e. models that can generate new images similar to the ones in the training dataset. VAE was a good example of generative model.
 
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/110)
+
 However, if we try to generate something really meaningful, like a painting at reasonable resolution, with VAE, we will see that training does not converge well. There is another architecture specifically targeted at generative models - **Generative Adversarial Networks**, or GANs.
 
 The main idea of GAN is to have two neural networks that will be trained against each other:
@@ -19,7 +21,7 @@ The architecture of discriminator does not differ from an ordinary image classif
 
 > GAN based on convolutional networks is called [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
 
-CNN discriminator consists of the following layers: several convolutions+poolings (with decreasing spatial size and ), one-or-more fully-connected layers to get "feature vector", final binary classifier.
+CNN discriminator consists of the following layers: several convolutions+poolings (with decreasing spatial size) and, one-or-more fully-connected layers to get "feature vector", final binary classifier.
 
 ### Generator
 
@@ -43,16 +45,22 @@ The training happens in two stages:
 During this process, both generator and discriminator losses are not going down significantly. In the ideal situation, they should oscillate, corresponding to both networks improving their performance.
 
 ## Go to Notebook
+
 * [GAN Notebook in TensorFlow/Keras](GANTF.ipynb)
 * [GAN Notebook in PyTorch](GANPyTorch.ipynb)
+
 ### Problems with GAN training
 
 GANs are known to be especially difficult to train. Here are a few problems:
 
 * **Mode Collapse**. By this term we mean that generator learns to produce one successful image that tricks the generator, and not a variety of different images.
-* **Sensitivity to hyperparameters**. Often you can see that GAN does not converge at all, and then suddenly decrease in the learning rate can lead to convergence. 
+* **Sensitivity to hyperparameters**. Often you can see that GAN does not converge at all, and then suddenly decrease in the learning rate can lead to convergence.
 * Keeping **balance** between generator and discriminator. In many cases discriminator loss can drop to zero relatively quickly, which results in generator being unable to train further. To overcome this, we can try setting different learning rates for generator and discriminator, or skip discriminator training if the loss is already too low.
-* Training for **high resolution**. It is the same problems as with autoencoders, because reconstructing too many layers of convolutional network leads to artifacts. This problem is typically solved with so-called **progressive growing**, when first a few layers are trained on low-res images, and then layers are "unblocked" or added. Another solutions would be adding extra connections between layers and training several resolutions at once - see [Multi-Scale Gradient GANs paper](https://arxiv.org/abs/1903.06048) for details. 
+* Training for **high resolution**. It is the same problems as with autoencoders, because reconstructing too many layers of convolutional network leads to artifacts. This problem is typically solved with so-called **progressive growing**, when first a few layers are trained on low-res images, and then layers are "unblocked" or added. Another solutions would be adding extra connections between layers and training several resolutions at once - see [Multi-Scale Gradient GANs paper](https://arxiv.org/abs/1903.06048) for details.
+
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/210)
+
+> ✅ Todo: Assignment, conclusion
 
 ## References
 

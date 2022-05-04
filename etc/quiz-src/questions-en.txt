@@ -211,6 +211,32 @@ Lesson 9E Autoencoders: Post Quiz
 - KL loss
 + TF loss
 
+Lesson 10B Generative Adversarial Networks: Pre Quiz
+* Gnerators take vectors and produces ____
+- videos
++ image
+- gif
+* GANs is short for?
+- General adversarial networks
+- Generative advisor networks
++ Generative adversarial networks
+* GAN uses ____ neural networks
+- 1
++ 2
+- 3
+
+Lesson 10E Generative Adversarial Networks: Post Quiz
+* We can use Batch normalization and BatchNorm1D to stabilize the training
++ true
+- false
+* Deep Convolutional GAN uses convolutional layers for ____ and ____
++ generator, discriminator
+- CNN, generator
+- training, testing
+* Problems of GAN training includes
+- Sensitivity to hyperparameters
+- Keeping balance between generator and discriminator
++ all of the above
 
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
