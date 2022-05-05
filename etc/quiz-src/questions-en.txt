@@ -238,6 +238,34 @@ Lesson 10E Generative Adversarial Networks: Post Quiz
 - Keeping balance between generator and discriminator
 + all of the above
 
+Lesson 12B Segmentation: Pre Quiz
+* There are ____ segmentation algorithms?
+- 1
++ 2
+- 3
+* Segmentation is a _____ task
++ computer vision
+- natural language processing
+- neural networks
+* Segmentation networks consist of ____ and ____ parts
+- classifier, divider
++ encoder, Decoder
+- generator, discriminator
+
+Lesson 12E Segmentation: Post Quiz
+* ____ extracts features from input image
+- decoder
+- generator
++ encoder
+* ____ transforms input features into mask image
++ decoder
+- generator
+- encoder
+* SegNet relies on ____ to train multi-layered network
++ batch normalization
+- height normalization
+- weight normalization
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true

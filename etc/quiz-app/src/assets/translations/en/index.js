@@ -7,6 +7,7 @@ import x7 from "./lesson-7.json";
 import x8 from "./lesson-8.json";
 import x9 from "./lesson-9.json";
 import x10 from "./lesson-10.json";
+import x12 from "./lesson-12.json";
 import x23 from "./lesson-23.json";
-const quiz = { 0 : x1[0], 1 : x2[0], 2 : x3[0], 3 : x4[0], 4 : x5[0], 5 : x7[0], 6 : x8[0], 7 : x9[0], 8 : x10[0], 9 : x23[0] }; 
+const quiz = { 0 : x1[0], 1 : x2[0], 2 : x3[0], 3 : x4[0], 4 : x5[0], 5 : x7[0], 6 : x8[0], 7 : x9[0], 8 : x10[0], 9 : x12[0], 10 : x23[0] }; 
 export default quiz;
