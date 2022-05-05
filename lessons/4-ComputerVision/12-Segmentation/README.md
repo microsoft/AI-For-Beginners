@@ -41,7 +41,7 @@ Open the notebook to learn more about different semantic segmentation architectu
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/112)
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/212)
 
 ## [Lab](lab/README.md)
 
