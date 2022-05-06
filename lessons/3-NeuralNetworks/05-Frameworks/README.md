@@ -33,7 +33,9 @@ In this course, we offer most of the content both for PyTorch and TensorFlow. Yo
 
 Where possible, we will use High-Level APIs for simplicity. However, we believe it is important to understand how neural networks work from the ground up, thus in the beginning we start by working with low-level API and tensors. However, if you want to get going fast and do not want to spend a lot of time on learning these details, you can skip those and go straight into high-level API notebooks.
 
-## Continue into Notebooks
+## ✍️ Exercises: Frameworks
+
+Continue your learning in the following notebooks:
 
 Low-Level API | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](IntroPyTorch.ipynb)
 --------------|-------------------------------------|--------------------------------

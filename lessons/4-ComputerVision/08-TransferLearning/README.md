@@ -26,7 +26,7 @@ Here are sample features extracted from a picture of a cat by VGG-16 network:
 
 In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.com/download/details.aspx?id=54765&WT.mc_id=academic-57639-dmitryso), which is very close to a real-life image classification scenario.
 
-## Continue in a Notebook
+## ✍️ Exercise: Transfer Learning
 
 Let's see transfer learning in action in corresponding notebooks:
 

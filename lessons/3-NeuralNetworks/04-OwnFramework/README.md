@@ -38,7 +38,7 @@ There is a well-known method of function optimization called **gradient descent*
 
 During training, the optimization steps are supposed to be calculated considering the whole dataset (remember that loss is calculated as a sum through all training samples). However, in real life we take small portions of the dataset called **minibatches**, and calculate gradients based on a subset of data. Because subset is taken randomly each time, such method is called **stochastic gradient descent** (SGD).
 
-## Multi-Layered Perceptrons and Back Propagation
+## Multi-Layered Perceptrons and Backpropagation
 
 One-layer network, as we have seen above, is capable of classifying linearly separable classes. To build a richer model, we can combine several layers of the network. Mathematically it would mean that the function *f* would have a more complex form, and will be computed in several steps:
 * z<sub>1</sub>=w<sub>1</sub>x+b<sub>1</sub>

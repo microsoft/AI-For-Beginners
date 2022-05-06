@@ -34,7 +34,7 @@ The way CNNs work is based on the following important ideas:
 
 > Image from [a paper by Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), based on [their research](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
-## Continue in Notebook
+## ✍️ Exercises: Convolutional Neural Networks
 
 Let's continue exploring how convolutional neural networks work, and how we can achieve trainable filters, by working through the corresponding notebooks:
 
