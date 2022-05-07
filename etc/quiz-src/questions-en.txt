@@ -266,6 +266,32 @@ Lesson 12E Segmentation: Post Quiz
 - height normalization
 - weight normalization
 
+Lesson 13B Text Representation: Pre Quiz
+* Each word in a Bag of Words is linked to a vector index
++ true
+- false
+* Text can be represented using _____ approaches
+- 1
++ 2
+- 3
+* Character level representation represents each _____ as a number
++ letter
+- word
+- symbol
+
+Lesson 13E Text Representation: Post Quiz
+* Word level representation represents _____ as a number
+- letter
++ word
+- symbol
+* N-Grams refers to _____
+- combination of n number of words and symbols
+- combination of n number of letters
++ combination of n number of Words
+* The main drawback of N-gram is that the vocabulary size grows fast
++ true
+- false
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true
