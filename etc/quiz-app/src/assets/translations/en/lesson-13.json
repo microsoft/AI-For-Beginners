@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 113,
+        "title": "Text Representation: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Each word in a Bag of Words is linked to a vector index",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Text can be represented using _____ approaches",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Character level representation represents each _____ as a number",
+            "answerOptions": [
+              {
+                "answerText": "letter",
+                "isCorrect": true
+              },
+              {
+                "answerText": "word",
+                "isCorrect": false
+              },
+              {
+                "answerText": "symbol",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "title": "Text Representation: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Word level representation represents _____ as a number",
+            "answerOptions": [
+              {
+                "answerText": "letter",
+                "isCorrect": false
+              },
+              {
+                "answerText": "word",
+                "isCorrect": true
+              },
+              {
+                "answerText": "symbol",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "N-Grams refers to _____",
+            "answerOptions": [
+              {
+                "answerText": "combination of n number of words and symbols",
+                "isCorrect": false
+              },
+              {
+                "answerText": "combination of n number of letters",
+                "isCorrect": false
+              },
+              {
+                "answerText": "combination of n number of Words",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "The main drawback of N-gram is that the vocabulary size grows fast",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

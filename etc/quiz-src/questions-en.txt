@@ -266,6 +266,57 @@ Lesson 12E Segmentation: Post Quiz
 - height normalization
 - weight normalization
 
+Lesson 13B Text Representation: Pre Quiz
+* Each word in a Bag of Words is linked to a vector index
++ true
+- false
+* Text can be represented using _____ approaches
+- 1
++ 2
+- 3
+* Character level representation represents each _____ as a number
++ letter
+- word
+- symbol
+
+Lesson 13E Text Representation: Post Quiz
+* Word level representation represents _____ as a number
+- letter
++ word
+- symbol
+* N-Grams refers to _____
+- combination of n number of words and symbols
+- combination of n number of letters
++ combination of n number of Words
+* The main drawback of N-gram is that the vocabulary size grows fast
++ true
+- false
+
+Lesson 14B Embeddings: Pre Quiz
+* Embedding is to represent words with _____ dimensional dense vectors
++ lower
+- higher
+- average
+* Word2Vec pre-trained embeddings can also be used in place of embedding layer in neural networks
++ True
+- False
+* Using embedding layer we cannot switch from bag-of-words to embedding bag
+- True
++ false
+
+Lesson 14E Embeddings: Post Quiz
+* Word2Vec has _____ main architectures
+- 1
++ 2
+- 3
+* Word sense disambiguation is a limitation of traditional pretrained embedding representations
++ True
+- False
+* An embedding layer takes _____ as input
++ word
+- symbol
+- number 
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true
