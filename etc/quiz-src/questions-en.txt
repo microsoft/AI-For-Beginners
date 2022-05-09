@@ -292,6 +292,31 @@ Lesson 13E Text Representation: Post Quiz
 + true
 - false
 
+Lesson 14B Embeddings: Pre Quiz
+* Embedding is to represent words with _____ dimensional dense vectors
++ lower
+- higher
+- average
+* Word2Vec pre-trained embeddings can also be used in place of embedding layer in neural networks
++ True
+- False
+* Using embedding layer we cannot switch from bag-of-words to embedding bag
+- True
++ false
+
+Lesson 14E Embeddings: Post Quiz
+* Word2Vec has _____ main architectures
+- 1
++ 2
+- 3
+* Word sense disambiguation is a limitation of traditional pretrained embedding representations
++ True
+- False
+* An embedding layer takes _____ as input
++ word
+- symbol
+- number 
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true
