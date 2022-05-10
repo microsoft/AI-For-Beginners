@@ -64,4 +64,3 @@ This [wikipedia article](https://wikipedia.org/wiki/Image_segmentation) offers a
 ## [Assignment](lab/README.md)
 
 In this lab, try **human body segmentation** using [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) from Kaggle.
-
