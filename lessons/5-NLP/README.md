@@ -35,6 +35,8 @@ pip install -r requirements-torch.txt
 pip install -r requirements-tf.txt
 ```
 
+> You can try NLP with TensorFlow on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-57639-dmitryso)
+
 ## GPU Warning
 
 In this section, in some of the examples we will be training quite large models. It is advisable to run notebooks on GPU-enabled computer to minimize waiting time.
@@ -48,6 +50,8 @@ physical_devices = tf.config.list_physical_devices('GPU')
 if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
 ```
+
+If you're interested in learning about NLP from a classic ML perspective, visit [this suite of lessons](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
 
 ## In this Section
 In this section we will learn about:
