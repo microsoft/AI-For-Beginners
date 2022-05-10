@@ -1,10 +1,11 @@
 # Natural Language Processing
+
 ![Summary of NLP tasks in a doodle](../sketchnotes/ai-nlp.png)
 
 In this section, we will focus on using Neural Networks to handle tasks related to natural language processing (NLP). There are many NLP problems that we want computers to be able to solve:
 
-* **Text classification** is a typical classification problem pertaining to text sequences. Examples include classifying e-mail messages on spam vs. no-spam, or categorizing news article as sport, business, politics, etc. Also, when developing chat bots, we often need to understand what a user wanted to say -- in this case we are dealing with **intent classificaton**. Often, in intent classification we need to deal with many categories.
-* **Sentiment analysis** is typical regression problem, where we need to attribute a number -- sentiment -- corresponding to how positive/negative the meaning of a sentence is. More advanced version of sentiment analysis is **aspect-based sentiment analysis** (ABSA), where we attribute sentiment not the the whole sentence, but to different parts of it (aspects), eg. *In this restaurant, I liked the cuisine, but the atmosphere was awful*.
+* **Text classification** is a typical classification problem on text sequences. Examples include classifying e-mail messages as spam vs. no-spam, or categorizing articles as sport, business, politics, etc. Also, when developing chat bots, we often need to understand what a user wanted to say -- in this case we are dealing with **intent classification**. Often, in intent classification we need to deal with many categories.
+* **Sentiment analysis** is a typical regression problem, where we need to attribute a number -- sentiment -- corresponding to how positive/negative the meaning of a sentence is. More advanced version of sentiment analysis is **aspect-based sentiment analysis** (ABSA), where we attribute sentiment not to the whole sentence, but to different parts of it (aspects), eg. *In this restaurant, I liked the cuisine, but the atmosphere was awful*.
 * **Named Entity Recognition** (NER) refers to the problem of extracting certain entities from text. For example, we might need to understand that in the phrase *I need to fly to Paris tomorrow* the word *tomorrow* refers to DATE, and *Paris* is a LOCATION.  
 * **Keyword extraction** is similar to NER, but we need to extract words important to the meaning of the sentence automatically, without pre-training for specific entity types.
 * **Text clustering** can be useful when we want to group together similar sentences, for example, similar requests in technical support conversations.
@@ -19,7 +20,7 @@ Many classical NLP methods are implemented in [Natural Language Processing Toolk
 
 In our course, we will mostly focus on using Neural Networks for NLP, and we will use NLTK where needed.
 
-We have already learnt about using neural networks for dealing with tabular data and with images. The main difference between those types of data and text is that text is a sequence of variable length, while the input size in case of images is known in advance. While convolutional networks can extract patterns from input data, patterns in text are more complex. Eg., we can have negation being separated from the subject be arbitrary many words (eg. *I do not like organges*, vs. *I do not like those big colorful tasty oranges*), and that should still be interpreted as one pattern. Thus, to handle language we need to introduce new neural network types, such as *recurrent networks* and *transformers*. 
+We have already learnt about using neural networks for dealing with tabular data and with images. The main difference between those types of data and text is that text is a sequence of variable length, while the input size in case of images is known in advance. While convolutional networks can extract patterns from input data, patterns in text are more complex. Eg., we can have negation being separated from the subject be arbitrary many words (eg. *I do not like organges*, vs. *I do not like those big colorful tasty oranges*), and that should still be interpreted as one pattern. Thus, to handle language we need to introduce new neural network types, such as *recurrent networks* and *transformers*.
 
 ## Install Libraries
 
@@ -36,7 +37,7 @@ pip install -r requirements-tf.txt
 
 ## GPU Warning
 
-In this section, in some of the examples we will be training quite large models. It is advisable to run notebooks on GPU-enabled compute to minimize waiting time.
+In this section, in some of the examples we will be training quite large models. It is advisable to run notebooks on GPU-enabled computer to minimize waiting time.
 
 When running on GPU, you may experience situations when you run out of GPU memory. During training, the amount of GPU memory consumed depends on many factors, including minibatch size. If you experience any memory problems - you may try to minimize the minibatch size in the code.
 

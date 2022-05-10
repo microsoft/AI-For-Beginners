@@ -1,5 +1,7 @@
 # Representing Text as Tensors
 
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/113)
+
 ## Text Classification
 
 Throughout the first part of this course, we will focus on **text classification** task. We will use [AG News](https://www.kaggle.com/amananandrai/ag-news-classification-dataset) Dataset, which contains news articles like the following:
@@ -21,6 +23,7 @@ If we want to solve Natural Language Processing (NLP) tasks with neural networks
 We understand what each letter **represents**, and how all characters come together to form the words of a sentence. However, computers by themselves do not have such an understanding, and neural network has to learn the meaning during training.
 
 Therefore, we can use different approaches when representing text:
+
 * **Character-level representation**, when we represent text by treating each character as a number. Given that we have *C* different characters in our text corpus, the word *Hello* would be represented by 5x*C* tensor. Each letter would correspond to a tensor column in one-hot encoding.
 * **Word-level representation**, in which we create a **vocabulary** of all words in our text, and then represent words using one-hot encoding. This approach is somehow better, because each letter by itself does not have much meaning, and thus by using higher-level semantic concepts - words - we simplify the task for the neural network. However, given large dictionary size, we need to deal with high-dimensional sparse tensors.
 
@@ -50,3 +53,7 @@ However, none of those approaches can fully take into account the semantics of t
 
 * [Text Representation with PyTorch](TextRepresentationPyTorch.ipynb)
 * [Text Representation with TensorFlow](TextRepresentationTF.ipynb)
+
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/213)
+
+> ✅ Todo: conclusion, assignment, challenge, review.
