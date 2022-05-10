@@ -21,7 +21,7 @@ By using embedding layer as a first layer in our classifier network, we can swit
 
 ## Semantic Embeddings: Word2Vec
 
-While embedding layer learnt to map words to vector representation, however, this representation did not necessarily have much semantical meaning. It would be nice to learn such vector representation that similar words or synonyms correspond to vectors that are close to each other in terms of some vector distance (eg. Euclidean distance).
+While embedding layer learned to map words to vector representation, however, this representation did not necessarily have much semantical meaning. It would be nice to learn such vector representation that similar words or synonyms correspond to vectors that are close to each other in terms of some vector distance (eg. Euclidean distance).
 
 To do that, we need to pre-train our embedding model on a large collection of text in a specific way. One of the first ways to train semantic embeddings is called [Word2Vec](https://en.wikipedia.org/wiki/Word2vec). It is based on two main architectures that are used to produce a distributed representation of words:
 
