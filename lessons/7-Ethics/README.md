@@ -4,7 +4,7 @@ You have almost finished this course, and I hope that by now you clearly see tha
 
 However, in science fiction we often see stories where AI presents a danger to the humankind. Usually those stories are centered around some sort of AI rebellion, when AI decides to confront human beings. This implies that AI has some sort of emotions, or can take decisions unforeseen by its developers.
 
-The kind of AI that we have learnt about in this course is nothing more than large matrix arithmetics. It is a very powerful tool to help us solve our problems, and as any other powerful tool - it can be used for good and for bad purposes. What's also important, it can be *misused*.
+The kind of AI that we have learned about in this course is nothing more than large matrix arithmetics. It is a very powerful tool to help us solve our problems, and as any other powerful tool - it can be used for good and for bad purposes. What's also important, it can be *misused*.
 
 ## Principles of Responsible AI
 
