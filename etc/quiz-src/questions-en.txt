@@ -317,6 +317,59 @@ Lesson 14E Embeddings: Post Quiz
 - symbol
 - number 
 
+Lesson 16B RNN: Pre Quiz
+* RNN is short for?
+- regression neural network
++ recurrent neural network
+- re-iterative neural network
+* Simple RNN cell has two weight _____
++ matrices
+- cell
+- neuron
+* vanishing gradients is a problem of _____
++ RNN
+- CNN
+- KNN
+
+Lesson 16E RNN: Post Quiz
+* _____ takes some information from the input and hidden vector, and inserts it into state
+- forget gate
+- output gate
++ input gate
+* Bidirectional RNNs runs recurrent computation in _____
++ both directions
+- nort-west direction
+- left-right direction
+* All RNN Cells have the same shareable weights
++ True
+- False
+
+Lesson 17B Generative networks: Pre Quiz
+* RNNs can be for generative tasks
++ yes
+- no
+* _____ is a traditional neural network with one input and one output
++ one-to-one
+- sequence-to-sequence
+- one-to-many
+* RNN generate texts by generating next output character for each input character
++ true
+- false
+
+Lesson 17E Generative networks: Post Quiz
+* Output encoder converts hidden state into _____ output
++ one-hot-encoded
+- sequence
+- number
+* Selecting the character with higher probabilities always gives a meaningful text.
+- true
++ false
+- maybe
+* Many-to-many can also be referred to as _____
+- one-to-one
++ sequence-to-sequence
+- one-to-many
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true
