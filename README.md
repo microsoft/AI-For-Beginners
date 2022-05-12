@@ -127,8 +127,6 @@ However, if you would like to take the course as a self-study project, we sugges
 
 **🎨 Thanks as well to our sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
 
-**🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors**, notably TBD
-
 ## Meet the Team
 
 [![Promo video](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")

@@ -27,7 +27,7 @@ When generating text (during inference), we start with some **prompt**, which is
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Image by author
+> Image by the author
 
 ## Continue to Notebooks
 

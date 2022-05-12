@@ -952,7 +952,7 @@ When solving tasks like text classification, we need to be able to represent tex
 
 <img src="images/bow.png" width="90%"/>
 
-> Image by author
+> Image by the author
 
 BoW essentially represents which words appear in text and in which quantities, which can indeed be a good indication of what the text is about. For example, news article on politics is likely to contains words such as *president* and *country*, while scientific publication would have something like *collider*, *discovered*, etc. Thus, word frequencies can in many cases be a good indicator of text content.
 
@@ -980,7 +980,7 @@ By using embedding layer as a first layer in our classifier network, we can swit
 
 ![Image showing an embedding classifier for five sequence words.](../../../lessons/5-NLP/14-Embeddings/images/embedding-classifier-example.png)
 
-> Image by author
+> Image by the author
 
 ## Continue in Notebooks
 
@@ -1054,7 +1054,7 @@ To capture the meaning of text sequence, we need to use another neural network a
 
 ![RNN](../../../lessons/5-NLP/16-RNN/images/rnn.png)
 
-> Image by author
+> Image by the author
 
 Given the input sequence of tokens X<sub>0</sub>,...,X<sub>n</sub>, RNN creates a sequence of neural network blocks, and trains this sequence end-to-end using back propagation. Each network block takes a pair (X<sub>i</sub>,S<sub>i</sub>) as an input, and produces S<sub>i+1</sub> as a result. Final state S<sub>n</sub> or (output Y<sub>n</sub>) goes into a linear classifier to produce the result. All network blocks share the same weights, and are trained end-to-end using one backpropagation pass.
 
@@ -1070,7 +1070,7 @@ Simple RNN cell has two weight matrices inside: one transforms input symbol (let
 
 <img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
 
-> Image by author
+> Image by the author
 
 In many cases, input tokens are passed through the embedding layer before entering the RNN to lower the dimensionality. In this case, if the dimension of the input vectors is *emb_size*, and state vector is *hid_size* - the size of W is *emb_size*&times;*hid_size*, and the size of H is *hid_size*&times;*hid_size*. 
 
@@ -1138,7 +1138,7 @@ When generating text (during inference), we start with some **prompt**, which is
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Image by author
+> Image by the author
 ## Continue to Notebooks
 
 * [Generative Networks with PyTorch](GenerativePyTorch.ipynb)
@@ -1208,7 +1208,7 @@ We then mix the token position with token embedding vector. To transform positio
 
 <img src="images/pos-embedding.png" width="50%"/>
 
-> Image by author
+> Image by the author
 
 The result we get with positional embedding embeds both original token and its position within sequence.
 

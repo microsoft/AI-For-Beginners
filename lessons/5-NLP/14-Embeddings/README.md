@@ -12,7 +12,7 @@ By using an embedding layer as a first layer in our classifier network, we can s
 
 ![Image showing an embedding classifier for five sequence words.](images/embedding-classifier-example.png)
 
-> Image by author
+> Image by the author
 
 ## ✍️ Exercises: Embeddings
 
