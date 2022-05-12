@@ -45,7 +45,7 @@ We then mix the token position with token embedding vector. To transform positio
 
 <img src="images/pos-embedding.png" width="50%"/>
 
-> Image by author
+> Image by the author
 
 The result we get with positional embedding embeds both original token and its position within sequence.
 

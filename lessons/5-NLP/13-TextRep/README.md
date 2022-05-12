@@ -41,7 +41,7 @@ When solving tasks like text classification, we need to be able to represent tex
 
 <img src="images/bow.png" width="90%"/>
 
-> Image by author
+> Image by the author
 
 A BoW essentially represents which words appear in text and in which quantities, which can indeed be a good indication of what the text is about. For example, news article on politics is likely to contains words such as *president* and *country*, while scientific publication would have something like *collider*, *discovered*, etc. Thus, word frequencies can in many cases be a good indicator of text content.
 
