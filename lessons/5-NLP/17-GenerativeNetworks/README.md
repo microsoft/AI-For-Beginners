@@ -1,8 +1,10 @@
 # Generative networks
 
+## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/117)
+
 Recurrent Neural Networks (RNNs) and their gated cell variants such as Long Short Term Memory Cells (LSTMs) and Gated Recurrent Units (GRUs) provided a mechanism for language modeling, i.e. they can learn word ordering and provide predictions for next word in a sequence. This allows us to use RNNs for **generative tasks**, such as ordinary text generation, machine translation, and even image captioning.
 
-In RNN architecture we discussed in the previous unit, each RNN unit produced next next hidden state as an output. However, we can also add another output to each recurrent unit, which would allow us to output a **sequence** (which is equal in length to the original sequence). Moreover, we can use RNN units that do not accept an input at each step, and just take some initial state vector, and then produce a sequence of outputs.
+In RNN architecture we discussed in the previous unit, each RNN unit produced next hidden state as an output. However, we can also add another output to each recurrent unit, which would allow us to output a **sequence** (which is equal in length to the original sequence). Moreover, we can use RNN units that do not accept an input at each step, and just take some initial state vector, and then produce a sequence of outputs.
 
 This allows for different neural architectures that are shown in the picture below:
 
@@ -26,6 +28,7 @@ When generating text (during inference), we start with some **prompt**, which is
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
 > Image by author
+
 ## Continue to Notebooks
 
 * [Generative Networks with PyTorch](GenerativePyTorch.ipynb)
@@ -44,3 +47,7 @@ However, if we look at the probability distribution for the next character, it c
 This leads us to the conclusion that it is not always "fair" to select the character with higher probability, because choosing the second highest might still lead us to meaningful text. It is more wise to **sample** characters from the probability distribution given by the network output. We can also use a parameter, **temperature**, that will flatten out the probability distribution, in case we want to add more randomness, or make it more steep, if we want to stick more to the highest-probability characters.
 
 Have a look at how this soft text generation is implemented in the notebooks.
+
+## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/217)
+
+> ✅ Todo: conclusion, Assignment, challenge, reference.
