@@ -123,7 +123,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 ## Credits
 
-**✍️ Hearty thanks to our authors** [Dmitry Soshnikov](http://soshnikov.com), [Evgenii Pishchik](https://github.com/Pe4enIks), with editors [Jen Looper](https://twitter.com/jenlooper) and [Lateefah Bello](https://github.com/CinnamonXI)
+**✍️ Hearty thanks to our authors** [Dmitry Soshnikov](http://soshnikov.com), [Evgenii Pishchik](https://github.com/Pe4enIks), with editors [Jen Looper](https://twitter.com/jenlooper) and [Lateefah Bello](https://twitter.com/CinnamonXI)
 
 **🎨 Thanks as well to our sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
 
