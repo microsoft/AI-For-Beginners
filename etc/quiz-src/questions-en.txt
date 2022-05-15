@@ -370,6 +370,59 @@ Lesson 17E Generative networks: Post Quiz
 + sequence-to-sequence
 - one-to-many
 
+Lesson 18B Transformers: Pre Quiz
+* Attention mechanism provides a means of _____ the imoact of an inout vector on an output prediction of RNN
++ weighting
+- training
+- testing
+* BERT is an acronym for
+- Bidirectional Encoded Representations From Transformers
++ Bidirectional Encoder Representations From Transformers
+- Bidirectional Encoder Representatives of Transformers
+* In positional encoding the relative position of the token is represented by number of steps
++ true
+- false
+
+Lesson 18E Transformers: Post Quiz
+* Positional embedding _____ the original token and its position within the sequence
+- seperates
+- compares
++ embeds
+* Multi-Head Attention is used in transformers to give network the power to capture _____ of dependencies
++ different types
+- same type
+- none
+* In transformers attention is used in _____ instances
+- 1
++ 2
+- 3
+
+Lesson 21B Genetic Algorithms: Pre Quiz
+* Genetic Algorithms are based on which of the following?
+- mutations
+- Selection
++ both a and b
+* Crossover allows us to combine two solutions together to obtain a new valid solution
++ true
+- false
+* Valid solutions to genetic algorithm can be represented as _____
++ genes
+- neurons
+- cells
+
+Lesson 21E Genetic Algorithms: Post Quiz
+* Genetic Algorithms can solve which of these tasks
+- Schedule optimization
+- Optimal packing
++ both of a and b
+* In implementing a genetic algorithm the first step is to randomly select two genes
+- true
++ false
+* When using Crossover operation the algorithm randomly selects _____ genes
+- 3
+- 1
++ 2 
+
 Lesson 23B Multi-Agent Modeling: Pre Quiz
 * By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
 + true

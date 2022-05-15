@@ -20,6 +20,7 @@ Central to Multi-agent approach is the notion of **Agent** - an entity that live
    - **Cognitive agents** involve complex planning and reasoning
 
 Multi-agent systems are nowadays used in a number of applications:
+
 * In games, many non-player characters employ some sort of AI, and can be considered to be intelligent agents
 * In video production, rendering complex 3D scenes that involve crowds is typically done using multi-agent simulation
 * In systems modeling, multi-agent approach is used to simulate the behavior of a complex model. For example, multi-agent approach has been successfully used to predict the spread of COVID-19 disease worldwide. Similar approach can be used to model traffic in the city, and see how it reacts to changes in traffic rules.
@@ -103,6 +104,7 @@ You can run the flocking example and observe the behavior. You can also adjust p
 ### Other Models to see
 
 There are a few more interesting models that you can experiment with:
+
 * **Art &rightarrow; Fireworks** shows how a firework can be considered a collective behavior of individual fire streams
 * **Social Science &rightarrow; Traffic Basic** and **Social Science &rightarrow; Traffic Grid** show the model of city traffic in 1D and 2D Grid with or without traffic lights. Each car in the simulation follows the following rules:
    - If the space in front of it is empty - accelerate (up to a certain max speed)
@@ -148,4 +150,3 @@ Take this lesson to the real world and try to conceptualize a multi-agent system
 Review the use of this type of system in industry. Pick a domain such as manufacturing or the video game industry and discover how multi-agent systems can be used to solve unique problems.
 
 ## [NetLogo Assignment](assignment.md)
-
