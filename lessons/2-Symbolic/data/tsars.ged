@@ -1,0 +1,313 @@
+0 HEAD
+1 CHAR UTF8
+1 GEDC
+2 VERS 5.5
+0 @0@ INDI
+1 NAME Mihail Fedorovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1613
+1 DEAT 
+2 DATE 1645
+1 FAMS @41@
+0 @1@ INDI
+1 NAME Evdokija Lukjanovna /Streshneva/
+1 SEX F
+1 FAMS @41@
+0 @2@ INDI
+1 NAME Aleksej Mihajlovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1645
+1 DEAT 
+2 DATE 1676
+1 FAMC @41@
+1 FAMS @42@
+1 FAMS @46@
+0 @3@ INDI
+1 NAME Marija Ilinichna /Miloslavskaja/
+1 SEX F
+1 FAMS @42@
+0 @4@ INDI
+1 NAME Natalja Kirillovna /Naryshkina/
+1 SEX F
+1 FAMS @46@
+0 @5@ INDI
+1 NAME Marfa Matveevna /Apraksina/
+1 SEX F
+0 @6@ INDI
+1 NAME Fedor Alekseevich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1676
+1 DEAT 
+2 DATE 1682
+1 FAMC @42@
+0 @7@ INDI
+1 NAME Sofja Aleksevna /Romanova/
+1 SEX F
+1 FAMC @42@
+0 @8@ INDI
+1 NAME Ivan V Alekseevich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1682
+1 DEAT 
+2 DATE 1696
+1 FAMC @42@
+1 FAMS @43@
+0 @9@ INDI
+1 NAME Praskovja Fedorovna /Saltykova/
+1 SEX F
+1 FAMS @43@
+0 @10@ INDI
+1 NAME Ekaterina Ivanovna /Romanova/
+1 SEX F
+1 FAMC @43@
+1 FAMS @44@
+0 @11@ INDI
+1 NAME Anna Ivanovna /Romanova/
+1 SEX F
+1 BIRT
+2 DATE 1730
+1 DEAT 
+2 DATE 1740
+1 FAMC @43@
+0 @12@ INDI
+1 NAME Fridrih Vilgelm /Kurlandskij/
+1 SEX M
+0 @13@ INDI
+1 NAME Karl Leopold /Meklenburg-Shverinskij/
+1 SEX M
+1 FAMS @44@
+0 @14@ INDI
+1 NAME Anna Leopoldovna /Meklenburg-Shverinskaja/
+1 SEX F
+1 FAMC @44@
+1 FAMS @45@
+0 @15@ INDI
+1 NAME Anton Ulrih /Braunshvejg-Volfenbjuttelskij/
+1 SEX M
+1 FAMS @45@
+0 @16@ INDI
+1 NAME Ivan VI Antonovich /Braunshvejg-Volfenbjuttelskij/
+1 SEX M
+1 BIRT
+2 DATE 1740
+1 DEAT 
+2 DATE 1741
+1 FAMC @45@
+0 @17@ INDI
+1 NAME Petr I Alekseevich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1682
+1 DEAT 
+2 DATE 1725
+1 FAMC @46@
+1 FAMS @47@
+1 FAMS @49@
+0 @18@ INDI
+1 NAME Evdokija Fedorovna /Lopuhina/
+1 SEX F
+1 FAMS @47@
+0 @19@ INDI
+1 NAME Ekaterina I Alekseevna /Mihajlova/
+1 SEX F
+1 BIRT
+2 DATE 1725
+1 DEAT 
+2 DATE 1727
+1 FAMS @49@
+0 @20@ INDI
+1 NAME Aleksej Petrovich /Romanov/
+1 SEX M
+1 FAMC @47@
+1 FAMS @48@
+0 @21@ INDI
+1 NAME Sharlotta Kristina /Braunshvejg-Volfenbjuttelskaja/
+1 SEX F
+1 FAMS @48@
+0 @22@ INDI
+1 NAME Petr II Alekseevich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1727
+1 FAMC @48@
+0 @23@ INDI
+1 NAME Anna Petrovna /Romanova/
+1 SEX F
+1 FAMC @49@
+1 FAMS @50@
+0 @24@ INDI
+1 NAME Elizaveta Petrovna /Romanova/
+1 SEX F
+1 BIRT
+2 DATE 1741
+1 DEAT 
+2 DATE 1761
+1 FAMC @49@
+0 @25@ INDI
+1 NAME Karl Fridrih /Golshtejn-Gottorpskij/
+1 SEX M
+1 FAMS @50@
+0 @26@ INDI
+1 NAME Petr III Fedorovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1761
+1 DEAT 
+2 DATE 1762
+1 FAMC @50@
+1 FAMS @51@
+0 @27@ INDI
+1 NAME Ekaterina II /Alekseevna/
+1 SEX F
+1 BIRT
+2 DATE 1762
+1 DEAT 
+2 DATE 1796
+1 FAMS @51@
+0 @28@ INDI
+1 NAME Pavel I Petrovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1796
+1 DEAT 
+2 DATE 1801
+1 FAMC @51@
+1 FAMS @52@
+0 @29@ INDI
+1 NAME Natalja Alekseevna /Gessen-Darmshtadskaja/
+1 SEX F
+0 @30@ INDI
+1 NAME Marija Fedorovna /Vjurtembergskaja/
+1 SEX F
+1 FAMS @52@
+0 @31@ INDI
+1 NAME Aleksandr I Pavlovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1801
+1 DEAT 
+2 DATE 1825
+1 FAMC @52@
+0 @32@ INDI
+1 NAME Elizaveta Alekseevna /Baden-Durlahskaja/
+1 SEX F
+0 @33@ INDI
+1 NAME Nikolaj I Pavlovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1825
+1 DEAT 
+2 DATE 1855
+1 FAMC @52@
+1 FAMS @53@
+0 @34@ INDI
+1 NAME Aleksandra Fedorovna /Prusskaja/
+1 SEX F
+1 FAMS @53@
+0 @35@ INDI
+1 NAME Aleksandr II Nikolaevich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1855
+1 DEAT 
+2 DATE 1881
+1 FAMC @53@
+1 FAMS @54@
+0 @36@ INDI
+1 NAME Marija Aleksandrovna /Gessenskaja/
+1 SEX F
+1 FAMS @54@
+0 @37@ INDI
+1 NAME Aleksandr III Aleksandrovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1881
+1 DEAT 
+2 DATE 1894
+1 FAMC @54@
+1 FAMS @55@
+0 @38@ INDI
+1 NAME Marija Fedorovna /Datskaja/
+1 SEX F
+1 FAMS @55@
+0 @39@ INDI
+1 NAME Nikolaj II Aleksandrovich /Romanov/
+1 SEX M
+1 BIRT
+2 DATE 1894
+1 DEAT 
+2 DATE 1917
+1 FAMC @55@
+0 @40@ INDI
+1 NAME Aleksandra Fedorovna /Gessenskaja/
+1 SEX F
+0 @41@ FAM
+1 HUSB @0@
+1 WIFE @1@
+1 CHIL @2@
+0 @42@ FAM
+1 HUSB @2@
+1 WIFE @3@
+1 CHIL @6@
+1 CHIL @7@
+1 CHIL @8@
+0 @43@ FAM
+1 HUSB @8@
+1 WIFE @9@
+1 CHIL @10@
+1 CHIL @11@
+0 @44@ FAM
+1 HUSB @13@
+1 WIFE @10@
+1 CHIL @14@
+0 @45@ FAM
+1 HUSB @15@
+1 WIFE @14@
+1 CHIL @16@
+0 @46@ FAM
+1 HUSB @2@
+1 WIFE @4@
+1 CHIL @17@
+0 @47@ FAM
+1 HUSB @17@
+1 WIFE @18@
+1 CHIL @20@
+0 @48@ FAM
+1 HUSB @20@
+1 WIFE @21@
+1 CHIL @22@
+0 @49@ FAM
+1 HUSB @17@
+1 WIFE @19@
+1 CHIL @23@
+1 CHIL @24@
+0 @50@ FAM
+1 HUSB @25@
+1 WIFE @23@
+1 CHIL @26@
+0 @51@ FAM
+1 HUSB @26@
+1 WIFE @27@
+1 CHIL @28@
+0 @52@ FAM
+1 HUSB @28@
+1 WIFE @30@
+1 CHIL @31@
+1 CHIL @33@
+0 @53@ FAM
+1 HUSB @33@
+1 WIFE @34@
+1 CHIL @35@
+0 @54@ FAM
+1 HUSB @35@
+1 WIFE @36@
+1 CHIL @37@
+0 @55@ FAM
+1 HUSB @37@
+1 WIFE @38@
+1 CHIL @39@
+0 TRLR
