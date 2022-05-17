@@ -50,4 +50,16 @@ Have a look at how this soft text generation is implemented in the notebooks.
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/217)
 
-> ✅ Todo: conclusion, Assignment, challenge, reference.
+## [Assignment](lab/README.md)
+
+We have seen how to generate text character-by-character. In the lab, you will explore word-level text generation.
+
+## References
+
+* Different approaches to text generation with Markov Chain, LSTM and GPT-2: [blog post](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* Learn Unit on Text Generation with [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-15963-dmitryso)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-15963-dmitryso)
+* Text generation sample in [Keras documentation](https://keras.io/examples/generative/lstm_character_level_text_generation/)
+
+## Takeaway
+
+While text generation may be useful in its own right, the major benefits come from the ability to generate text using RNNs from some initial feature vector. For example, text generation is used as part of machine translation (sequence-to-sequence, in this case state vector from *encoder* is used to generate or *decode* translated message), generating textual description of an image (in which case feature vector would come from CNN extractor), etc. 
