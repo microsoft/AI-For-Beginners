@@ -1,7 +1,7 @@
 
 # Language Modeling
 
-Semantic embeddings, such as Word2Vec and GloVe, are in fact a first step towards **language modeling** - creating models that somehow *understand* (or *represent*) the nature of the language. 
+Semantic embeddings, such as Word2Vec and GloVe, are in fact a first step towards **language modeling** - creating models that somehow *understand* (or *represent*) the nature of the language.
 
 ## [Pre-lecture quiz](tbd)
 

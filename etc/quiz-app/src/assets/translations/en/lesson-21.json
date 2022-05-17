@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 121,
+        "title": "Genetic Algorithms: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Genetic Algorithms are based on which of the following?",
+            "answerOptions": [
+              {
+                "answerText": "mutations",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Selection",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Crossover allows us to combine two solutions together to obtain a new valid solution",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Valid solutions to genetic algorithm can be represented as _____",
+            "answerOptions": [
+              {
+                "answerText": "genes",
+                "isCorrect": true
+              },
+              {
+                "answerText": "neurons",
+                "isCorrect": false
+              },
+              {
+                "answerText": "cells",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 221,
+        "title": "Genetic Algorithms: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Genetic Algorithms can solve which of these tasks",
+            "answerOptions": [
+              {
+                "answerText": "Schedule optimization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Optimal packing",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both of a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "In implementing a genetic algorithm the first step is to randomly select two genes",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "When using Crossover operation the algorithm randomly selects _____ genes",
+            "answerOptions": [
+              {
+                "answerText": "3",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
