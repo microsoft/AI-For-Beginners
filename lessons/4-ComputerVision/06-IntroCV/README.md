@@ -62,6 +62,7 @@ In our [OpenCV Notebook](OpenCV.ipynb), we give some examples of when computer v
 * **Pre-processing a photograph of Braille book**. We focus on how we can use thresholding, feature detection, perspective transformation and numpy manipulations to separate individual Braille symbols for further classification by a neural network.
 
 ![Braille Image](data/braille.jpeg) | ![Braille Image Pre-processed](images/braille-result.png) | ![Braille Symbols](images/braille-symbols.png) 
+----|-----|-----
 
 > *Image from [OpenCV.ipynb](OpenCV.ipynb)*
  
@@ -81,7 +82,7 @@ In our [OpenCV Notebook](OpenCV.ipynb), we give some examples of when computer v
 
 Read more on optical flow [in this great tutorial](https://learnopencv.com/optical-flow-in-opencv/).
 
-## ✍️ Exercises: try OpenCV in Action
+## ✍️ Exercises: [try OpenCV in Action](OpenCV.ipynb)
 
 Let's do some experiments with OpenCV by exploring [OpenCV Notebook](OpenCV.ipynb)
 
