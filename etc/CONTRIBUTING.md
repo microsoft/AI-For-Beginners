@@ -17,9 +17,7 @@ or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any addi
 
 We are currently actively looking for contributions on the following topics:
 
-- [ ] Write section + notebook on OpenCV / preprocessing images
 - [ ] Write section on Deep Reinforcement Learning
-- [ ] Translate Semantic Segmentation notebook to TensorFlow
 - [ ] Improve section + notebook on Object Detection
 - [ ] PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
 - [ ] Write section + samples on Named Entity Recognition
