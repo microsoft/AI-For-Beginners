@@ -61,6 +61,20 @@ GANs are known to be especially difficult to train. Here are a few problems:
 * Keeping a **balance** between the generator and the discriminator. In many cases discriminator loss can drop to zero relatively quickly, which results in the generator being unable to train further. To overcome this, we can try setting different learning rates for the generator and discriminator, or skip discriminator training if the loss is already too low.
 * Training for **high resolution**. Reflecting the same problem as with autoencoders, this problem is triggered because reconstructing too many layers of convolutional network leads to artifacts. This problem is typically solved with so-called **progressive growing**, when first a few layers are trained on low-res images, and then layers are "unblocked" or added. Another solution would be adding extra connections between layers and training several resolutions at once - see this [Multi-Scale Gradient GANs paper](https://arxiv.org/abs/1903.06048) for details.
 
+## Style Transfer
+
+GANs is a great way to generate artistic images. Another interesting technique is so-called **style transfer**, which takes one **content image**, and re-draws it in a different style, applying filters from **style image**. 
+
+The way it works is the following:
+* We start with a random noise image (or with a content image, but for the sake of understanding it is easier to start from random noise)
+* Our goal would be to create such an image, that would be close to both content image and style image. This would be determined by two loss functions:
+   - **Content loss** is computed based on the features extracted by the CNN at some layers from current image and content image
+   - **Style loss** is computed between current image and style image in a clever way using Gram matrices (more details in the [example notebook](StyleTransfer.ipynb))
+* To make the image smoother and remove noise, we also introduce **Variation loss**, which computes average distance between neighboring pixels
+* The main optimization loop adjusts current image using gradient descent (or some other optimization algorithm) to minimize the total loss, which is a weighted sum of all three losses. 
+
+## ✍️ Example: [Style Transfer](StyleTransfer.ipynb)
+
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/210)
 
 ## Conclusion
