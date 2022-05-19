@@ -6,7 +6,7 @@ Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/a
 
 Your goal is to train the RL agent to control [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) in OpenAI Environment.
 
-![Mountain Car](images/mountaincar.png)
+<img alt="Mountain Car" src="images/mountaincar.png" width="300"/>
 
 ## The Environment
 
