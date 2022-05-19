@@ -107,19 +107,6 @@
                 "isCorrect": false
               }
             ]
-          },
-          {
-            "questionText": "Pred is the values predicted by the network",
-            "answerOptions": [
-              {
-                "answerText": "True",
-                "isCorrect": true
-              },
-              {
-                "answerText": "False",
-                "isCorrect": false
-              }
-            ]
           }
         ]
       }
