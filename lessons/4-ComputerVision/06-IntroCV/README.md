@@ -25,7 +25,7 @@ A good place to learn OpenCV is [this Learn OpenCV course](https://learnopencv.c
 
 ### Loading Images
 
-Images in Python can be conveniently represented by Numpy arrays. For example, grayscale image with size of 320x200 pixels would be stored in 200x320 array, and color image of the same dimension would have shape of 200x320x3 (for 3 color channels). To load an image, you can use the following code:
+Images in Python can be conveniently represented by NumPy arrays. For example, grayscale image with size of 320x200 pixels would be stored in 200x320 array, and color image of the same dimension would have shape of 200x320x3 (for 3 color channels). To load an image, you can use the following code:
 
 ```python
 import cv2
@@ -35,7 +35,7 @@ im = cv2.imread('image.jpeg')
 plt.imshow(im)
 ```
 
-Traditionally, OpenCV uses BGR (Blue-Green-Red) encoding for color images, while the rest of Python tools use more traditional RGB. For the image to look right, you need to convert it to RGB color space, either by swapping dimensions in numpy array, or by calling OpenCV function:
+Traditionally, OpenCV uses BGR (Blue-Green-Red) encoding for color images, while the rest of Python tools use more traditional RGB. For the image to look right, you need to convert it to RGB color space, either by swapping dimensions in NumPy array, or by calling OpenCV function:
 
 ```python
 im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
@@ -51,7 +51,7 @@ Before feeding an image to a neural network, you may want to apply several pre-p
 
 * **Resizing** the image using `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
 * **Blurring** the image using `im = cv2.medianBlur(im,3)` or `im = cv2.GaussianBlur(im, (3,3), 0)`
-* Changing **brightness and contrast** of the image can be done by numpy array manipulations, as described [here](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
+* Changing **brightness and contrast** of the image can be done by NumPy array manipulations, as described [here](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
 * Instead of adjusting brightness/contrast, it is often better to use [thresholding](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) by calling `cv2.threshold`/`cv2.adaptiveThreshold` functions.
 * Applying different [transformations](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) to the image:
     - **[Affine transformations](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** can be useful if you need to combine rotation, resizing and skewing to the image, and you know source and destination location of three points in the image. Affine transformations keep parallel lines parallel.
@@ -62,7 +62,7 @@ Before feeding an image to a neural network, you may want to apply several pre-p
 
 In our [OpenCV Notebook](OpenCV.ipynb), we give some examples of when computer vision can be used to perform specific tasks:
 
-* **Pre-processing a photograph of Braille book**. We focus on how we can use thresholding, feature detection, perspective transformation and numpy manipulations to separate individual Braille symbols for further classification by a neural network.
+* **Pre-processing a photograph of Braille book**. We focus on how we can use thresholding, feature detection, perspective transformation and NumPy manipulations to separate individual Braille symbols for further classification by a neural network.
 
 ![Braille Image](data/braille.jpeg) | ![Braille Image Pre-processed](images/braille-result.png) | ![Braille Symbols](images/braille-symbols.png)
 ----|-----|-----
