@@ -98,9 +98,6 @@ Lesson 4E Neural Networks: Post Quiz
 - 0-1 loss
 + binary loss
 - logistic loss
-* Softmax can be used to convert inputs into probabilities
-- True
-+ False
 * Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions
 + True
 - False
@@ -130,9 +127,32 @@ Lesson 5E Frameworks: Post Quiz
 - Facebook, Google
 + Google, Facebook
 - Microsoft, Google
-* Pred is the values predicted by the network
-+ True
-- False
+
+Lesson 6B Introduction to Computer Vision: Pre Quiz
+* Computer vision aims to allow computers gain understanding of _____
++ images
+- text
+- computers
+* Python libraries available for image processing includes
+- OpenCV
+- Pillow
++ a and b
+* Images cannot be represented as NumPy arrays in Python
+- true
++ False
+
+Lesson 6E Introduction to Computer Vision: Post Quiz
+* Optical Flow helps us to understand how each pixel on video frames move.
++ true
+- false
+* _____ computes the vector field that shows where each pixel is moving
+- Sparse Optical Flow
++ Dense Optical Flow
+- none
+* Resizing and Blurring are steps that can be taken during? 
++ pre-processing
+- training
+- image transformation
 
 Lesson 7B Convolutional Neural Networks: Pre Quiz
 * To extract patterns from images we use?

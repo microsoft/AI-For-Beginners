@@ -96,19 +96,6 @@
             ]
           },
           {
-            "questionText": "Softmax can be used to convert inputs into probabilities",
-            "answerOptions": [
-              {
-                "answerText": "True",
-                "isCorrect": false
-              },
-              {
-                "answerText": "False",
-                "isCorrect": true
-              }
-            ]
-          },
-          {
             "questionText": "Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions",
             "answerOptions": [
               {

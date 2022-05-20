@@ -8,12 +8,11 @@ Consider [this video](palm-movement.mp4), in which a person's palm moves left/ri
 
 <img src="../images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
 
-**Your goal** would be to use Optical Flow to determine, which parts of video contain up/down/left/right movements. 
+**Your goal** would be able to use Optical Flow to determine, which parts of video contain up/down/left/right movements.
 
 **Stretch goal** would be to actually track the palm/finger movement using skin tone, as described [in this blog post](https://dev.to/amarlearning/finger-detection-and-tracking-using-opencv-and-python-586m) or [here](http://www.benmeline.com/finger-tracking-with-opencv-and-python/).
 
-
-## Stating Notebook
+## Starting Notebook
 
 Start the lab by opening [MovementDetection.ipynb](MovementDetection.ipynb)
 
