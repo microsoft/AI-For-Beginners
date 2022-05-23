@@ -106,4 +106,4 @@ In this lesson you learned about Transformers and Attention Mechanisms, all esse
 * [Blog post](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/), explaining the classical [Attention is all you need](https://arxiv.org/abs/1706.03762) paper on transformers.
 * [A series of blog posts](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452) on transformers, explaining the architecture in detail.
 
-## [Assignment](lab/README.md)
+## [Assignment](assignment.md)
