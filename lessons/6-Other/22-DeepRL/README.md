@@ -94,7 +94,7 @@ Reinforcement Learning nowadays is a fast growing field of research. Some of the
 * Teaching computer to play board games, such as Chess and Go. Recent state-of-the-art programs like **Alpha Zero** was trained from scratch by two agents playing against each other, and improving at each step.
 * In industry, RL is used to create control systems from simulation. A service called [Bonsai](https://azure.microsoft.com/services/project-bonsai/) is specifically designed for that.
 
-## Assignment: [Train a Mountain Car](labs/README.md)
+## Assignment: [Train a Mountain Car](lab/README.md)
 
 Your goal during this assignment would be to train a different Gym environment - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
 
