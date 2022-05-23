@@ -126,9 +126,11 @@ However, if you would like to take the course as a self-study project, we sugges
 
 ## Credits
 
-**✍️ Hearty thanks to our authors** [Dmitry Soshnikov](http://soshnikov.com), [Evgenii Pishchik](https://github.com/Pe4enIks), with editors [Jen Looper](https://twitter.com/jenlooper) and [Lateefah Bello](https://github.com/CinnamonXI)
-
-**🎨 Thanks as well to our sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
+**✍️ Primary Author:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
+**🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper) <br/>
+**🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac) <br/>
+**✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  <br/>
+**🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks) 
 
 ## Meet the Team
 
