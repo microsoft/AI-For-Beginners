@@ -62,7 +62,7 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>IV</td><td><b><a href="lessons/4-ComputerVision/README.md">Computer Vision</a></b></td>
   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-57639-dmitryso">AI Fundamentals: Explore Computer Vision</a></td>
   <td></td></tr>
-<tr><td colspan="2">Microsoft Learn Module on Computer Vision</td><td></td>
+<tr><td></td><td colspan="2">Microsoft Learn Module on Computer Vision</td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-57639-dmitryso">PyTorch</a></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-57639-dmitryso">TensorFlow</a></td>
   <td></td></tr>
@@ -76,7 +76,7 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>V</td><td><b><a href="lessons/5-NLP/README.md">Natural Language Processing</a></b></td>
    <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso">AI Fundamentals: Explore Natural Language Processing</a></td>
    <td></td></tr>
-<tr><td colspan="2">Microsoft Learn Module on Natural Language</td><td></td>
+<tr><td></td><td colspan="2">Microsoft Learn Module on Natural Language</td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso">PyTorch</a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso">TensorFlow</a></td>
    <td></td></tr>
