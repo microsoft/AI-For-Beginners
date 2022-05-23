@@ -8,9 +8,9 @@ Up to now, we have mostly been concentrating on one NLP task - classification. H
 
 Suppose you want to develop a natural language chat bot, similar to Amazon Alexa or Google Assistant. The way intelligent chat bots work is to *understand* what the user want by doing text classification on the input sentence. The result of this classification is so-called **intent**, which determines what a chat bot should do.
 
-![Bot NER](images/bot-ner.png)
+<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
 
-> Image by author
+> *Image by author*
 
 However, a user may provide some parameters as part of the phrase. For example, when asking for a weather, she may specify a location or date. A bot should be able to understand those entities, and fill in the parameter slots accordingly before performing the action. This is exactly when NER comes in. 
 
