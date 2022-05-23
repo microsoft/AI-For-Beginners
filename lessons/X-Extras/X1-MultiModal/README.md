@@ -50,7 +50,7 @@ To generate an image corresponding to a text prompt, we start with some random e
 
 A great library that implements VQGAN+CLIP is [Pixray](http://github.com/pixray/pixray)
 
-![Picture produced by Pixray](images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.png) |  ![Picture produced by pixray](images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.png) | ![Picture produced by Pixray](a_closeup_oil_portrait_of_old_male_teacher_of_math.png)
+![Picture produced by Pixray](images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.png) |  ![Picture produced by pixray](images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.png) | ![Picture produced by Pixray](images/a_closeup_oil_portrait_of_old_male_teacher_of_math.png)
 ----|----|----
 Picture generated from prompt *a closeup watercolor portrait of young male teacher of literature with a book* | Picture generated from prompt *a closeup oil portrait of young female teacher of computer science with a computer* | Picture generated from prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
@@ -59,4 +59,4 @@ Picture generated from prompt *a closeup watercolor portrait of young male teach
 ## References
 
 * VQGAN Paper: [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/paper/paper.pdf)
-* CLIP Paper: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf) 
+* CLIP Paper: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf)
