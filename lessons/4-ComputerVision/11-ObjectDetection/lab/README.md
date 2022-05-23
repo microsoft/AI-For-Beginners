@@ -60,4 +60,4 @@ You can train an object detection model using one of the following ways:
 
 ## Takeaway
 
-Object detection is a task that is frequently required in industry. While there are some services that can be used to perform object detection (such as [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-57639-dmitryso)), it is important to understant how object detection works and to be able to train your own models. 
+Object detection is a task that is frequently required in industry. While there are some services that can be used to perform object detection (such as [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-57639-dmitryso)), it is important to understand how object detection works and to be able to train your own models. 
