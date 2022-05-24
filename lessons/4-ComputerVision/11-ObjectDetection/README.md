@@ -120,7 +120,7 @@ This algorithm is even faster than Faster R-CNN. The main idea is the following:
 1. Features are processed by **Position-Sensitive Score Map**. Each object from $C$ classes is divided by $k\times k$ regions, and we are training to predict parts of objects.
 1. For each part from $k\times k$ regions all networks vote for object classes, and the object class with maximum vote is selected. 
 
-![](https://cdn-images-1.medium.com/max/840/1*JFtFIzpDhb3KsN1jran6yA.png)
+![r-fcn image](images/r-fcn.png)
 
 > Image from [official paper](https://arxiv.org/abs/1605.06409)
 
