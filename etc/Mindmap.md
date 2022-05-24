@@ -1,13 +1,20 @@
 # AI
 
-## Introduction to AI
- - [AI Definition](https://github.com/microsoft/AI-For-Beginners/blob/main/1-Intro/README.md#different-approaches-to-ai)
- - [History of AI](https://github.com/microsoft/AI-For-Beginners/blob/main/1-Intro/README.md#different-approaches-to-ai)
- - [Approaches to AI](https://github.com/microsoft/AI-For-Beginners/blob/main/1-Intro/README.md#different-approaches-to-ai)
+## [Introduction to AI](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)
+ - AI Definition
+ - History of AI
+ - Approaches to AI
+     - Top-down/Symbolic
+     - Bottom-up/Neural
+     - Evolutionary
+     - Synergetic / Emergent AI
+ - [Microsoft AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)
 
-## Sybmbolic AI
+## [Sybmbolic AI](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
  - Knowledge Representation
- - Expert Systems
+ - [Expert Systems](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb)
+ - [Ontologies](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb)
+ - Semantic Web
 
 ## [Neural Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/README.md)
  - [Perceptron](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/03-Perceptron/README.md)
@@ -18,17 +25,26 @@
    - [Overfitting](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
 ## [Computer Vision](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/README.md)
- - Intro to CV. OpenCV
+ - On MS Learn
+    - [AI Fundamentals: Explore Computer Vision](https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-57639-dmitryso)
+    - [CV with PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-57639-dmitryso)
+    - [CV with TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-57639-dmitryso)
+ - [Intro to CV. OpenCV](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/06-IntroCV/README.md)
  - [Convolutional Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/07-ConvNets/README.md)
-   - [Architectures](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/07-ConvNets/CNN_Architectures.md)
+   - [CNN Architectures](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/07-ConvNets/CNN_Architectures.md)
  - [Trasnsfer Learning](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/08-TransferLearning/README.md)
    - [Training Tricks](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/08-TransferLearning/TrainingTricks.md)
  - [Autoencoders and VAEs](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/09-Autoencoders/README.md)
  - [Generative Adversarial Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/4-ComputerVision/10-GANs/README.md)
- - Object Detection
- - Segmentation
+ - [Style Transfer](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
+ - [Object Detection](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/11-ObjectDetection/README.md)
+ - [Segmentation](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/12-Segmentation/README.md)
  
 ## [Natural Language Processing](https://github.com/microsoft/AI-For-Beginners/blob/main/5-NLP/README.md)
+ - On MS Learn
+    - [AI Fundamentals: Explore NLP](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso)
+    - [NLP with PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso)
+    - [NLP with TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso)
  - [Text Representation](https://github.com/microsoft/AI-For-Beginners/blob/main/5-NLP/13-TextRep/README.md)
     - Bag of Words
     - TF/IDF
@@ -41,16 +57,17 @@
      - GRU
  - [Generative Recurrent Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/5-NLP/17-GenerativeNetworks/README.md)
  - [Transformers and BERT](https://github.com/microsoft/AI-For-Beginners/blob/main/5-NLP/18-Transformers/README.md)
- - Named Entity Recognition
- - Text Generation and GPT
+ - [Named Entity Recognition](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/19-NER/README.md)
+ - [Text Generation and GPT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LanguageModels/README.md)
 ## Other Techniques
  - [Genetic Algorithms](https://github.com/microsoft/AI-For-Beginners/blob/main/6-Other/21-GeneticAlgorithms/README.md)
- - Deep Reinforcement Learning
+ - [Deep Reinforcement Learning](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md)
  - [Multi-Agent Systems](https://github.com/microsoft/AI-For-Beginners/blob/main/6-Other/23-MultiagentSystems/README.md)
 
 ## [AI Ethics](https://github.com/microsoft/AI-For-Beginners/blob/main/7-Ethics/README.md)
+ - [MS Learn on Responsible AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso)
 ## Extras
- - Multimodal Networks
-   - CLIP
+ - [Multimodal Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/README.md)
+   - [CLIP](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/Clip.ipynb)
    - DALL-E
    - VQ-GAN
