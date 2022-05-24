@@ -1,0 +1,21 @@
+name: py38
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jupyter
+  - matplotlib=3.4.2
+  - numpy=1.22.3
+  - python=3.8.12
+  - requests=2.26.0
+  - scikit-learn=0.24.2
+  - scipy=1.6.2
+  - setuptools=58.0.4
+  - tensorflow-base=2.3.0
+  - pip:
+    - -r requirements.txt
