@@ -39,7 +39,7 @@
             ]
           },
           {
-            "questionText": "RNN generate texts by generating next output character for each input character",
+            "questionText": "RNN generates texts by generating the next output character for each input character",
             "answerOptions": [
               {
                 "answerText": "true",
@@ -58,7 +58,7 @@
         "title": "Generative networks: Post Quiz",
         "quiz": [
           {
-            "questionText": "Output encoder converts hidden state into _____ output",
+            "questionText": "An output encoder converts hidden state into _____ output",
             "answerOptions": [
               {
                 "answerText": "one-hot-encoded",

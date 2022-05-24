@@ -123,7 +123,7 @@ Lesson 5E Frameworks: Post Quiz
 * Binary cross-entropy is also called log loss
 + True
 - False
-* Tensorflow is to ____ while PyTorch is to ____
+* TensorFlow is to ____ while PyTorch is to ____
 - Facebook, Google
 + Google, Facebook
 - Microsoft, Google
@@ -162,7 +162,7 @@ Lesson 7B Convolutional Neural Networks: Pre Quiz
 * One of these is not a CNN Architecture
 - ResNet
 - MobileNet
-+ Tensorflow
++ TensorFlow
 * CNN are mostly used for computer vision tasks.
 + true
 - false
@@ -226,13 +226,13 @@ Lesson 9E Autoencoders: Post Quiz
 * Auto encoders can be used to effectively remove noise from images
 + true
 - false
-* Variational auto-encoders loss funnction does not consist of which of these?
+* Variational auto-encoders loss function does not consist of which of these?
 - reconstruction loss
 - KL loss
 + TF loss
 
 Lesson 10B Generative Adversarial Networks: Pre Quiz
-* Gnerators take vectors and produces ____
+* Generators take vectors and produce ____
 - videos
 + image
 - gif
@@ -342,7 +342,7 @@ Lesson 16B RNN: Pre Quiz
 - regression neural network
 + recurrent neural network
 - re-iterative neural network
-* Simple RNN cell has two weight _____
+* A simple RNN cell has two weight _____
 + matrices
 - cell
 - neuron
@@ -352,13 +352,13 @@ Lesson 16B RNN: Pre Quiz
 - KNN
 
 Lesson 16E RNN: Post Quiz
-* _____ takes some information from the input and hidden vector, and inserts it into state
+* _____ takes some information from the input and hidden vector, and inserts it into the state
 - forget gate
 - output gate
 + input gate
 * Bidirectional RNNs runs recurrent computation in _____
 + both directions
-- nort-west direction
+- north-west direction
 - left-right direction
 * All RNN Cells have the same shareable weights
 + True
@@ -372,12 +372,12 @@ Lesson 17B Generative networks: Pre Quiz
 + one-to-one
 - sequence-to-sequence
 - one-to-many
-* RNN generate texts by generating next output character for each input character
+* RNN generates texts by generating the next output character for each input character
 + true
 - false
 
 Lesson 17E Generative networks: Post Quiz
-* Output encoder converts hidden state into _____ output
+* An output encoder converts hidden state into _____ output
 + one-hot-encoded
 - sequence
 - number
@@ -391,7 +391,7 @@ Lesson 17E Generative networks: Post Quiz
 - one-to-many
 
 Lesson 18B Transformers: Pre Quiz
-* Attention mechanism provides a means of _____ the imoact of an inout vector on an output prediction of RNN
+* Attention mechanism provides a means of _____ the impact of an inout vector on an output prediction of RNN
 + weighting
 - training
 - testing
@@ -405,7 +405,7 @@ Lesson 18B Transformers: Pre Quiz
 
 Lesson 18E Transformers: Post Quiz
 * Positional embedding _____ the original token and its position within the sequence
-- seperates
+- separates
 - compares
 + embeds
 * Multi-Head Attention is used in transformers to give network the power to capture _____ of dependencies
@@ -468,4 +468,4 @@ Lesson 23E Multi-Agent Modeling: Post Quiz
 * Multi-agent systems are used in:
 - video production and systems modeling
 - games and automations
-+ both the above
++ both of the above
