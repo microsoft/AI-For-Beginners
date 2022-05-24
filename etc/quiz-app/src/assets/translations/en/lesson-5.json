@@ -92,7 +92,7 @@
             ]
           },
           {
-            "questionText": "Tensorflow is to ____ while PyTorch is to ____",
+            "questionText": "TensorFlow is to ____ while PyTorch is to ____",
             "answerOptions": [
               {
                 "answerText": "Facebook, Google",

@@ -9,7 +9,7 @@
         "title": "Transformers: Pre Quiz",
         "quiz": [
           {
-            "questionText": "Attention mechanism provides a means of _____ the imoact of an inout vector on an output prediction of RNN",
+            "questionText": "Attention mechanism provides a means of _____ the impact of an inout vector on an output prediction of RNN",
             "answerOptions": [
               {
                 "answerText": "weighting",
@@ -65,7 +65,7 @@
             "questionText": "Positional embedding _____ the original token and its position within the sequence",
             "answerOptions": [
               {
-                "answerText": "seperates",
+                "answerText": "separates",
                 "isCorrect": false
               },
               {
