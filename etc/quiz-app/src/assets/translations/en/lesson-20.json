@@ -5,41 +5,45 @@
     "error": "Sorry, try again",
     "quizzes": [
       {
-        "id": 117,
-        "title": "Generative networks: Pre Quiz",
+        "id": 120,
+        "title": "Language Models: Pre Quiz",
         "quiz": [
           {
-            "questionText": "RNNs can be for generative tasks",
+            "questionText": "What is GPT stands for?",
             "answerOptions": [
               {
-                "answerText": "yes",
+                "answerText": "Generic Pre-Trained network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative Pre-trained Transformers",
                 "isCorrect": true
               },
               {
-                "answerText": "no",
+                "answerText": "Generic Positional Text",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "_____ is a traditional neural network with one input and one output",
+            "questionText": "What can GPT be used for?",
             "answerOptions": [
               {
-                "answerText": "one-to-one",
+                "answerText": "Text generation",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both text generation and other tasks",
                 "isCorrect": true
-              },
-              {
-                "answerText": "sequence-to-sequence",
-                "isCorrect": false
-              },
-              {
-                "answerText": "one-to-many",
-                "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "RNN generates texts by generating next output token for each input token",
+            "questionText": "GPT is based on transformer architecture",
             "answerOptions": [
               {
                 "answerText": "true",
@@ -54,57 +58,57 @@
         ]
       },
       {
-        "id": 217,
-        "title": "Generative networks: Post Quiz",
+        "id": 220,
+        "title": "Language Models: Post Quiz",
         "quiz": [
           {
-            "questionText": "Output encoder converts hidden state into _____ output",
+            "questionText": "What is zero-shot learning?",
             "answerOptions": [
               {
-                "answerText": "one-hot-encoded",
+                "answerText": "Getting an answer from pre-trained network",
                 "isCorrect": true
               },
               {
-                "answerText": "sequence",
+                "answerText": "Training the network from scratch",
                 "isCorrect": false
               },
               {
-                "answerText": "number",
+                "answerText": "Training the network only for one epoch",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "Selecting the character with higher probabilities always gives a meaningful text.",
+            "questionText": "Prompt engineering can be used with",
             "answerOptions": [
               {
-                "answerText": "true",
+                "answerText": "Zero-shot learning",
                 "isCorrect": false
               },
               {
-                "answerText": "false",
-                "isCorrect": true
+                "answerText": "Few-shot learning",
+                "isCorrect": false
               },
               {
-                "answerText": "maybe",
+                "answerText": "Both",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "Many-to-many can also be referred to as _____",
+            "questionText": "Which metric can be used to estimate quality of a language model?",
             "answerOptions": [
               {
-                "answerText": "one-to-one",
+                "answerText": "accuracy",
                 "isCorrect": false
               },
               {
-                "answerText": "sequence-to-sequence",
+                "answerText": "recall",
+                "isCorrect": false
+              },
+              {
+                "answerText": "perplexity",
                 "isCorrect": true
-              },
-              {
-                "answerText": "one-to-many",
-                "isCorrect": false
               }
             ]
           }

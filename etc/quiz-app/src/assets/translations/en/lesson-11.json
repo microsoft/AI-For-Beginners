@@ -5,52 +5,52 @@
     "error": "Sorry, try again",
     "quizzes": [
       {
-        "id": 123,
-        "title": "Multi-Agent Modeling: Pre Quiz",
+        "id": 111,
+        "title": "Object Detection: Pre Quiz",
         "quiz": [
           {
-            "questionText": "By modeling the behavior of simple agents, we can understand more complex behaviors of a system.",
+            "questionText": "Neural networks can only be used to classify images",
             "answerOptions": [
               {
                 "answerText": "true",
-                "isCorrect": true
+                "isCorrect": false
               },
               {
                 "answerText": "false",
-                "isCorrect": false
-              }
-            ]
-          },
-          {
-            "questionText": "The principle of metasystem transition is derived from:",
-            "answerOptions": [
-              {
-                "answerText": "Evolutionary Cybernetics",
-                "isCorrect": false
-              },
-              {
-                "answerText": "Emergentism",
-                "isCorrect": false
-              },
-              {
-                "answerText": "both of these",
                 "isCorrect": true
               }
             ]
           },
           {
-            "questionText": "Multi-Agent systems emerged in the ____:",
+            "questionText": "With object detection, we don't just get class of an object, but also it's ____",
             "answerOptions": [
               {
-                "answerText": "1970s",
+                "answerText": "shape",
                 "isCorrect": false
               },
               {
-                "answerText": "1980s",
+                "answerText": "location",
+                "isCorrect": true
+              },
+              {
+                "answerText": "type",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "How many objects an object detection model can detect?",
+            "answerOptions": [
+              {
+                "answerText": "one",
                 "isCorrect": false
               },
               {
-                "answerText": "1990s",
+                "answerText": "two",
+                "isCorrect": false
+              },
+              {
+                "answerText": "any number",
                 "isCorrect": true
               }
             ]
@@ -58,56 +58,56 @@
         ]
       },
       {
-        "id": 223,
-        "title": "Multi-Agent Modeling: Post Quiz",
+        "id": 211,
+        "title": "Object Detection: Post Quiz",
         "quiz": [
           {
-            "questionText": "An agent is:",
+            "questionText": "Object detection model give us",
             "answerOptions": [
               {
-                "answerText": "an entity that lives alone",
+                "answerText": "object class",
                 "isCorrect": false
               },
               {
-                "answerText": "an entity that lives in an environment",
+                "answerText": "bounding box",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both class and bounding box",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Which object detection models are faster?",
+            "answerOptions": [
+              {
+                "answerText": "one-pass models",
                 "isCorrect": true
               },
               {
-                "answerText": "an entity that is intelligent",
+                "answerText": "region proposal networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Fast R-CNN",
                 "isCorrect": false
               }
             ]
           },
           {
-            "questionText": "Reactive agents usually have:",
+            "questionText": "Which metric can be used to determine how well bounding boxes are aligned?",
             "answerOptions": [
               {
-                "answerText": "simple request-response behavior",
-                "isCorrect": true
-              },
-              {
-                "answerText": "complex behavior",
+                "answerText": "accuracy",
                 "isCorrect": false
               },
               {
-                "answerText": "no behavior",
-                "isCorrect": false
-              }
-            ]
-          },
-          {
-            "questionText": "Multi-agent systems are used in:",
-            "answerOptions": [
-              {
-                "answerText": "video production and systems modeling",
+                "answerText": "precision",
                 "isCorrect": false
               },
               {
-                "answerText": "games and automations",
-                "isCorrect": false
-              },
-              {
-                "answerText": "both the above",
+                "answerText": "IoU",
                 "isCorrect": true
               }
             ]
