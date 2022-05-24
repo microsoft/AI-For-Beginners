@@ -21,7 +21,8 @@ tokenizers==0.10.3
 torch==1.11.0
 torchaudio
 torchinfo
-torchtext
-torchvision
+torchtext==0.12.0
+torchvision==0.12.0
+torchdata
 tqdm==4.62.3
 transformers==4.3.3
