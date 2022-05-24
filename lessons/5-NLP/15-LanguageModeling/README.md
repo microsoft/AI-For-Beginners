@@ -1,4 +1,3 @@
-
 # Language Modeling
 
 Semantic embeddings, such as Word2Vec and GloVe, are in fact a first step towards **language modeling** - creating models that somehow *understand* (or *represent*) the nature of the language.
@@ -13,7 +12,7 @@ In our previous examples, we used pre-trained semantic embeddings, but it is int
 
 * **N-Gram** language modeling, when we predict a token by looking at N previous tokens (N-gram)
 * **Continuous Bag-of-Words** (CBoW), when we predict the middle token $W_0$ in a token sequence $W_{-N}$, ..., $W_N$.
-* **Skip-gram**, where we predict a set of neighboring tokens $\{W_{-N},\dots, W_{-1}, W_1,\dots, W_N\}$ from the middle token $W_0$.
+* **Skip-gram**, where we predict a set of neighboring tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} from the middle token $W_0$.
 
 ![image from paper on converting words to vectors](../14-Embeddings/images/example-algorithms-for-converting-words-to-vectors.png)
 
