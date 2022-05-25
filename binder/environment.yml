@@ -1,14 +1,13 @@
-name: py38
+name: ai4beg
 channels:
   - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - ipykernel
-  - ipython
-  - ipython_genutils
-  - ipywidgets
-  - jupyter
+  - ipykernel=6.4.1
+  - ipython=7.27.0
+  - ipywidgets=7.6.5
+  - jupyter=1.0.0
   - matplotlib=3.4.2
   - numpy=1.22.3
   - python=3.8.12
