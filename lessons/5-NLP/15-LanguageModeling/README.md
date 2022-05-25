@@ -38,4 +38,4 @@ In the previous lesson we have seen that words embeddings work like magic! Now w
 
 ## 🚀 [Assignment: Train Skip-Gram Model](lab/README.md)
 
-In the lab, we challenge you to modify the code from this lesson to train skip-gram model instead of CBoW. [Read the details](lab/README.md) 
+In the lab, we challenge you to modify the code from this lesson to train skip-gram model instead of CBoW. [Read the details](lab/README.md)

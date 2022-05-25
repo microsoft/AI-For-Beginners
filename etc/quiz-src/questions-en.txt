@@ -266,7 +266,7 @@ Lesson 11B Object Detection: Pre Quiz
 - shape
 + location
 - type
-* How many objects an object detection model can detect?
+* How many objects can an object detection model can detect?
 - one
 - two
 + any number
@@ -446,7 +446,7 @@ Lesson 17E Generative networks: Post Quiz
 - one-to-many
 
 Lesson 18B Transformers: Pre Quiz
-* Attention mechanism provides a means of _____ the imoact of an inout vector on an output prediction of RNN
+* Attention mechanism provides a means of _____ the impact of an inout vector on an output prediction of RNN
 + weighting
 - training
 - testing
@@ -473,7 +473,7 @@ Lesson 18E Transformers: Post Quiz
 - 3
 
 Lesson 19B Named Entity Recognition: Pre Quiz
-* What is NER stands for?
+* What does NER stands for?
 - Nearest Estimated Region
 - Nearest Entity Region
 + Named Entity Recognition
@@ -488,7 +488,7 @@ Lesson 19B Named Entity Recognition: Pre Quiz
 Lesson 19E Named Entity Recognition: Post Quiz
 * NER model is essentially a ____ model
 - text classification
-- token classification
++ token classification
 - text regression
 * Which neural network types can be used for NER?
 - RNNs
@@ -520,7 +520,7 @@ Lesson 20E Language Models: Post Quiz
 * Prompt engineering can be used with
 - Zero-shot learning
 - Few-shot learning
-- Both
++ Both
 * Which metric can be used to estimate quality of a language model?
 - accuracy
 - recall
@@ -571,7 +571,7 @@ Lesson 22E Reinforcement Learning: Post Quiz
 - It achieves high accuracy
 - Using perplexity metric
 + Using reward function
-* Which problems RL is applicable to?
+* Which problem(s) is RL is applicable to?
 - With discrete environment
 - With continuous environment
 + Both
