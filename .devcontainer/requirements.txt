@@ -4,7 +4,6 @@ huggingface==0.0.1
 imageio==2.16.2
 keras==2.8.0
 nltk==3.5
-opencv-python==4.5.1.48
 pandas==1.4.2
 pillow==9.1.0
 pygame==2.1.2

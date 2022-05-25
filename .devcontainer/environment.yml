@@ -13,6 +13,7 @@ dependencies:
   - scikit-learn=0.24.2
   - scipy=1.6.2
   - pip=21.0.1
+  - conda-forge::opencv=4.5
   - setuptools=58.0.4
   - pytorch::pytorch=1.11.0
   - pytorch::torchtext=0.12.0
