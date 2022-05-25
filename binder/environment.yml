@@ -14,7 +14,6 @@ dependencies:
   - scipy=1.6.2
   - pip=21.0.1
   - setuptools=58.0.4
-  - tensorflow-base=2.3.0
   - pytorch::pytorch=1.11.0
   - pytorch::torchtext=0.12.0
   - pytorch::torchvision=0.12.0
