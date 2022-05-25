@@ -9,7 +9,7 @@
         "title": "Embeddings: Pre Quiz",
         "quiz": [
           {
-            "questionText": "Embedding is to represent words with _____ dimensional dense vectors",
+            "questionText": "Embedding is used to represent words with _____ dimensional dense vectors",
             "answerOptions": [
               {
                 "answerText": "lower",

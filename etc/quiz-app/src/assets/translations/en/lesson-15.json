@@ -83,7 +83,7 @@
             ]
           },
           {
-            "questionText": "When we train CBoW model, we obtain",
+            "questionText": "When we train a CBoW model, we obtain",
             "answerOptions": [
               {
                 "answerText": "A model that can generate text",
@@ -100,7 +100,7 @@
             ]
           },
           {
-            "questionText": "CBoW model is based on",
+            "questionText": "The CBoW model is based on",
             "answerOptions": [
               {
                 "answerText": "Dense neural network",

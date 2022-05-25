@@ -262,17 +262,17 @@ Lesson 11B Object Detection: Pre Quiz
 * Neural networks can only be used to classify images
 - true
 + false
-* With object detection, we don't just get class of an object, but also it's ____
+* With object detection, we don't just get the class of an object, but also its ____
 - shape
 + location
 - type
-* How many objects can an object detection model can detect?
+* How many objects can an object detection model detect?
 - one
 - two
 + any number
 
 Lesson 11E Object Detection: Post Quiz
-* Object detection model give us
+* An Object detection model gives us
 - object class
 - bounding box
 + both class and bounding box
@@ -286,7 +286,7 @@ Lesson 11E Object Detection: Post Quiz
 + IoU
 
 Lesson 12B Segmentation: Pre Quiz
-* There are ____ segmentation algorithms?
+* How many segmentation algorithm are there?
 - 1
 + 2
 - 3
@@ -300,7 +300,7 @@ Lesson 12B Segmentation: Pre Quiz
 - generator, discriminator
 
 Lesson 12E Segmentation: Post Quiz
-* ____ extracts features from input image
+* ____ extracts features from an input image
 - decoder
 - generator
 + encoder
@@ -340,7 +340,7 @@ Lesson 13E Text Representation: Post Quiz
 - false
 
 Lesson 14B Embeddings: Pre Quiz
-* Embedding is to represent words with _____ dimensional dense vectors
+* Embedding is used to represent words with _____ dimensional dense vectors
 + lower
 - higher
 - average
@@ -383,11 +383,11 @@ Lesson 15E Language Modeling: Post Quiz
 + CBoW
 - Skip-gram
 - N-Gram
-* When we train CBoW model, we obtain
+* When we train a CBoW model, we obtain
 - A model that can generate text
 + Word2Vec embedding vectors
 - Text classification model
-* CBoW model is based on
+* The CBoW model is based on
 + Dense neural network
 - Convolutional neural network
 - Recurrent neural network
@@ -500,7 +500,7 @@ Lesson 19E Named Entity Recognition: Post Quiz
 + many-to-many
 
 Lesson 20B Language Models: Pre Quiz
-* What is GPT stands for?
+* What does GPT stand for?
 - Generic Pre-Trained network
 + Generative Pre-trained Transformers
 - Generic Positional Text
@@ -521,7 +521,7 @@ Lesson 20E Language Models: Post Quiz
 - Zero-shot learning
 - Few-shot learning
 + Both
-* Which metric can be used to estimate quality of a language model?
+* Which metric can be used to estimate the quality of a language model?
 - accuracy
 - recall
 + perplexity
