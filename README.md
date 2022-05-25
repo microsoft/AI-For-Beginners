@@ -107,7 +107,7 @@ Some sections also contain links to **MS Learn** modules that cover related topi
 
 **Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-> **Note**: [Instructions on how to run the code in this curriculum](/etc/how-to-run.md)
+> **Note**: [Instructions on how to run the code in this curriculum](./etc/how-to-run.md)
 
 However, if you would like to take the course as a self-study project, we suggest that you fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
 
