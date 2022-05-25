@@ -11,8 +11,9 @@ The image classification models we have dealt with so far took an image and prod
 ## A Naive Approach to Object Detection
 
 Assuming we wanted to find a cat on a picture, a very naive approach to object detection would be the following:
-1.  Break the picture down to a number of tiles
-2. Run image classification on each tile. 
+
+1. Break the picture down to a number of tiles
+2. Run image classification on each tile.
 3. Those tiles that result in sufficiently high activation can be considered to contain the object in question.
 
 ![Naive Object Detection](images/naive-detection.png)
@@ -50,8 +51,8 @@ The idea is simple - we divide the area of intersection between two figures by t
 
 Suppose we want to measure how well a given class of objects $C$ is recognized. To measure it, we use **Average Precision** metrics, which is calculated as follows:
 
-1. Consider Precision-Recall curve shows the accuracy depending on a detection threshold value (from 0 to 1). 
-2. Depending on the threshold, we will get more or less objects detected in the image, and different values of precision and recall. 
+1. Consider Precision-Recall curve shows the accuracy depending on a detection threshold value (from 0 to 1).
+2. Depending on the threshold, we will get more or less objects detected in the image, and different values of precision and recall.
 3. The curve will look like this:
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
@@ -118,7 +119,7 @@ This algorithm is even faster than Faster R-CNN. The main idea is the following:
 
 1. We extract features using ResNet-101
 1. Features are processed by **Position-Sensitive Score Map**. Each object from $C$ classes is divided by $k\times k$ regions, and we are training to predict parts of objects.
-1. For each part from $k\times k$ regions all networks vote for object classes, and the object class with maximum vote is selected. 
+1. For each part from $k\times k$ regions all networks vote for object classes, and the object class with maximum vote is selected.
 
 ![r-fcn image](images/r-fcn.png)
 
@@ -127,14 +128,14 @@ This algorithm is even faster than Faster R-CNN. The main idea is the following:
 ### YOLO - You Only Look Once
 
 YOLO is a realtime one-pass algorithm. The main idea is the following:
- 
+
  * Image is divided into $S\times S$ regions
  * For each region, **CNN** predicts $n$ possible objects, *bounding box* coordinates and *confidence*=*probability* * IoU.
- 
+
  ![YOLO](images/yolo.png)
- 
+
 > Image from [official paper](https://arxiv.org/abs/1506.02640)
- 
+
 ### Other Algorithms
 
 * RetinaNet: [official paper](https://arxiv.org/abs/1708.02002)
@@ -161,7 +162,7 @@ Read through these articles and notebooks about YOLO and try them for yourself
  * [Official site](https://pjreddie.com/darknet/yolo/)
  * Yolo: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
- 
+
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/211)
 
 ## Review & Self Study
@@ -173,4 +174,3 @@ Read through these articles and notebooks about YOLO and try them for yourself
 * [Implementation of Faster R-CNN in Python for Object Detection](https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/)
 
 ## [Assignment: Object Detection](lab/README.md)
-

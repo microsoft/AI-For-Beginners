@@ -7,7 +7,7 @@ Reinforcement learning (RL) is seen as one of the basic machine learning paradig
 To perform RL, we need:
 
 * An **environment** or **simulator** that sets the rules of the game. We should be able to run the experiments in the simulator and observe the results.
-* Some **Reward function**, which indicates how successful our experiment was. In case of learning to play a computer game, the reward would be our final score. 
+* Some **Reward function**, which indicates how successful our experiment was. In case of learning to play a computer game, the reward would be our final score.
 
 Based on the reward function, we should be able to adjust our behavior and improve our skills, so that the next time we play better. The main difference between other types of machine learning and RL is that in RL we typically do not know whether we win or lose until we finish the game. Thus, we cannot say whether a certain move alone is good or not - we only receive a reward at the end of the game.
 
@@ -17,7 +17,7 @@ During RL, we typically perform many experiments. During each experiment, we nee
 
 A great tool for RL is the [OpenAI Gym](https://gym.openai.com/) - a **simulation environment**, which can simulate many different environments starting from Atari games, to the physics behind pole balancing. It is one of the most popular simulation environments for training reinforcement learning algorithms, and is maintained by [OpenAI](https://openai.com/).
 
-> **Note**: You can see all the environments available from OpenAI Gym [here](https://gym.openai.com/envs/#classic_control). 
+> **Note**: You can see all the environments available from OpenAI Gym [here](https://gym.openai.com/envs/#classic_control).
 
 ## CartPole Balancing
 

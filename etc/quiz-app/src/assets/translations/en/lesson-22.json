@@ -83,7 +83,7 @@
             ]
           },
           {
-            "questionText": "Which problems RL is applicable to?",
+            "questionText": "Which problem(s) is RL is applicable to?",
             "answerOptions": [
               {
                 "answerText": "With discrete environment",

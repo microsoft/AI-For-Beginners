@@ -6,9 +6,9 @@ In all of our previous tasks, we were training a neural network to perform a cer
 
 ## Text Generation and Perplexity
 
-The idea of a neural network being able to do general tasks without downstream training is presented in [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) paper. The main idea is the many other tasks can be modeled using **text generation**, because understanding text essentially means being able to produce it. Because the model is trained on a huge amount of text that encompasses human knowledge, it also becomes knowledgeable about wide variety of subjects. 
+The idea of a neural network being able to do general tasks without downstream training is presented in [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) paper. The main idea is the many other tasks can be modeled using **text generation**, because understanding text essentially means being able to produce it. Because the model is trained on a huge amount of text that encompasses human knowledge, it also becomes knowledgeable about wide variety of subjects.
 
-> Understanding and being able to produce text also entails knowing something about the world around us. People  also learn by reading to the large extent, and GPT network is similar in this respect. 
+> Understanding and being able to produce text also entails knowing something about the world around us. People  also learn by reading to the large extent, and GPT network is similar in this respect.
 
 Text generation networks work by predicting probability of the next word $P(w_N)$. However, unconditional probability of the next word equals to the frequency of the this word in the text corpus. GPT is able to give us **conditional probability** of the next word, given the previous ones $P(w_N | w_{n-1}, ..., w_0)$.
 
@@ -54,4 +54,3 @@ Continue your learning in the following notebooks:
 New general pre-trained language models do not only model language structure, but also contain vast amount of commonsense knowledge. Thus, they can be effectively used to solve some NLP tasks in zero-shop or few-shot settings.
 
 ## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/220)
-

@@ -9,7 +9,7 @@
         "title": "Named Entity Recognition: Pre Quiz",
         "quiz": [
           {
-            "questionText": "What is NER stands for?",
+            "questionText": "What does NER stands for?",
             "answerOptions": [
               {
                 "answerText": "Nearest Estimated Region",
@@ -70,7 +70,7 @@
               },
               {
                 "answerText": "token classification",
-                "isCorrect": false
+                "isCorrect": true
               },
               {
                 "answerText": "text regression",

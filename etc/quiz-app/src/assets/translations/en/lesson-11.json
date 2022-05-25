@@ -39,7 +39,7 @@
             ]
           },
           {
-            "questionText": "How many objects an object detection model can detect?",
+            "questionText": "How many objects can an object detection model can detect?",
             "answerOptions": [
               {
                 "answerText": "one",
