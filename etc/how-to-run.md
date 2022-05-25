@@ -11,9 +11,7 @@ After you install miniconda, you need to clone the repository and create a virtu
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
 cd ai-for-beginners
-cd .devcontainer
-conda env create --name ai4beg --file environment.yml
-cd ..
+conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
