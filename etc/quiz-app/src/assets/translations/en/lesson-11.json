@@ -22,7 +22,7 @@
             ]
           },
           {
-            "questionText": "With object detection, we don't just get class of an object, but also it's ____",
+            "questionText": "With object detection, we don't just get the class of an object, but also its ____",
             "answerOptions": [
               {
                 "answerText": "shape",
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "questionText": "How many objects can an object detection model can detect?",
+            "questionText": "How many objects can an object detection model detect?",
             "answerOptions": [
               {
                 "answerText": "one",
@@ -62,7 +62,7 @@
         "title": "Object Detection: Post Quiz",
         "quiz": [
           {
-            "questionText": "Object detection model give us",
+            "questionText": "An Object detection model gives us",
             "answerOptions": [
               {
                 "answerText": "object class",

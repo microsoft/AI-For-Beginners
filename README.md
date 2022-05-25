@@ -12,12 +12,9 @@
 
 # Artificial Intelligence for Beginners - A Curriculum
 
-> **This curriculum is being actively developed on GitHub. Look into [contributing](/etc/CONTRIBUTING.md) to see which areas require active contributions. Please consider this a pre-release, and do not actively use in the classroom yet!**
-
 |![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
-
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
 
@@ -139,7 +136,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 ## Meet the Team
 
-[![Promo video](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/Tj1XWrDSYJU "Promo video")
+[![Promo video](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/m2KrAk0cC1c "Promo video")
 
 > 🎥 Click the image above for a video about the project and the folks who created it!
 
