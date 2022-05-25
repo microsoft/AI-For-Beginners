@@ -120,7 +120,7 @@ However, if you would like to take the course as a self-study project, we sugges
 - Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to "learn out loud".
 - Chat with other learners [on Gitter](https://gitter.im/Microsoft/ai-for-beginners)
 
-> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/users/jenlooper-2911/collections/k7o7tg1gp306q4?WT.mc_id=academic-15963-cxa) modules and learning paths.
+> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) modules and learning paths.
 
 **Teachers**, we have [included some suggestions](/etc/for-teachers.md) on how to use this curriculum.
 
