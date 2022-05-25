@@ -1,7 +1,5 @@
 name: ai4beg
 channels:
-  - pytorch
-  - conda-forge
   - defaults
 dependencies:
   - ipykernel=6.4.1
@@ -17,9 +15,9 @@ dependencies:
   - pip=21.0.1
   - setuptools=58.0.4
   - tensorflow-base=2.3.0
-  - pytorch=1.11.0
-  - torchtext=0.12.0
-  - torchvision=0.12.0
-  - torchdata=0.3.0
+  - pytorch::pytorch=1.11.0
+  - pytorch::torchtext=0.12.0
+  - pytorch::torchvision=0.12.0
+  - pytorch::torchdata=0.3.0
   - pip:
     - -r requirements.txt
