@@ -112,18 +112,18 @@
 
 ただし、自習用として受講したい場合は、レポ全体を自分のGitHubアカウントにフォークして、一人で、またはグループで演習をこなすことをお勧めします。
 
-- Start with a pre-lecture quiz
-- Read the intro text for the lecture 
-- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favorite framework
-- Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment
-- Take the post-lecture quiz
-- If there is a lab attached to the module - complete the assignment
-- Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to "learn out loud".
-- Chat with other learners [on Gitter](https://gitter.im/Microsoft/ai-for-beginners) or [in Telegram channel](http://t.me/ai_for_beginners).
+- 講義前のクイズから始める
+- 講義のイントロテキストを読む 
+- ノートブックがある場合はそれを読み、コードを実行する。TensorFlowとPyTorchの両方のノートブックが提供されている場合は、どちらかに焦点を当てることができますのでお好みのフレームワークを選択
+- ノートブックにはコードを少しいじるよう必要のある課題も含まれています
+- 講義後のクイズに参加
+- モジュールにラボが付属している場合その課題もしましょう
+- [議論ボード](https://github.com/microsoft/AI-For-Beginners/discussions)にアクセスして「大きく声を出して」学ぼう
+- 他の学習者と [Gitter](https://gitter.im/Microsoft/ai-for-beginners) または [Telegram チャンネル](http://t.me/ai_for_beginners)でチャットすることができます。
 
-> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) modules and learning paths.
+> さらに学習を進めるには、以下の [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) のモジュールとラーニングパスに沿って学習することをお勧めします。
 
-**Teachers**, we have [included some suggestions](/etc/for-teachers.md) on how to use this curriculum.
+**先生方**、このカリキュラムをどのように使うかのいくつかの提案](/etc/for-teachers.md)を参考にしてください。
 
 ---
 
