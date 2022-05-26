@@ -43,7 +43,7 @@
 <tr><th>No</th><th>Lesson</th><th>Intro</th><th>PyTorch</th><th>Keras/TensorFlow</th><th>Lab</th></tr>
 
 <tr><td>I</td><td colspan="4"><b>AI入門</b></td><td></td></tr>
-<tr><td>1</td><td>Introduction and History of AI</td><td><a href="lessons/1-Intro/README.md">Text</a></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Introduction and History of AI</td><td><a href="lessons/1-Intro/translations/README.ja.md">Text</a></td><td></td><td></td><td></td></tr>
 
 <tr><td>II</td><td colspan="4"><b>シンボリックAI</b></td><td></td></tr>
 <tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td><a href="lessons/2-Symbolic/README.md">Text</a></td><td colspan="2"><a href="lessons/2-Symbolic/Animals.ipynb">Expert System</a>, <a href="lessons/2-Symbolic/FamilyOntology.ipynb">Ontology</a>, <a href="lessons/2-Symbolic/MSConceptGraph.ipynb">Concept Graph</a></td><td></td></tr>
