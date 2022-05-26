@@ -12,7 +12,7 @@
 
 # 初心者のための人工知能 カリキュラム
 
-|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
+|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](../lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
@@ -27,7 +27,7 @@
 
 本カリキュラムで扱わない内容
 
-* **AIをビジネスで活用するためのビジネスケース**。Microsoft Learnの学習パス[ビジネスユーザーのためのAI入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-57639-dmitryso)や、【INSEAD】(https://www.insead.edu/)と共同で開発した【AIビジネススクール】(https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)の受講をご検討ください。
+* **AIをビジネスで活用するためのビジネスケース**。Microsoft Learnの学習パス[ビジネスユーザーのためのAI入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-57639-dmitryso)や、[INSEAD](https://www.insead.edu/)と共同で開発した[AIビジネススクール](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)の受講をご検討ください。
 * **古典的な機械学習**については、[初心者のための機械学習カリキュラム](http://github.com/Microsoft/ML-for-Beginners)で十分に説明されています。
 * **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-57639-dmitryso)** を利用して構築された実践的なAIアプリケーション。これには、Microsoft Learnの[ビジョン](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-57639-dmitryso)、[自然言語処理](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso)などのモジュールから始めることをお勧めします。
 * [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) や [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-57639-dmitryso) などの特定のML **Cloud Frameworks** を利用する [Azure Machine Learning による機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-57639-dmitryso)、[Azure Databricksによる機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-57639-dmitryso) の学習パスの利用を検討します。
