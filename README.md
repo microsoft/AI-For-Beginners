@@ -166,5 +166,5 @@ Our team produces other curricula! Check out:
 
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](http://aka.ms/ML-for-Beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
