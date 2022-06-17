@@ -51,7 +51,7 @@ To improve the result, we can add another term into the loss function, which is 
 
 Similar approach can be used to perform so-called **adversarial attacks** on a neural network. Suppose we want to fool a neural network and make a dog look like a cat. If we take dog's image, which is recognized by a network as a dog, we can then tweak it a little but using gradient descent optimization, until the network starts classifying it as a cat:
 
-![Picture of a Dog](images/dog-from-unsplash.jpg) | ![Picture of a dog classified as a cat](images/adversarial-dog.png)
+![Picture of a Dog](images/original-dog.png) | ![Picture of a dog classified as a cat](images/adversarial-dog.png)
 -----|-----
 *Original picture of a dog* | *Picture of a dog classified as a cat*
 
