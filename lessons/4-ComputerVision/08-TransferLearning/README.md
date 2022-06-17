@@ -33,6 +33,31 @@ Let's see transfer learning in action in corresponding notebooks:
 * [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
 * [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)
 
+## Visualizing Adversarial Cat
+
+Pre-trained neural network contains different patterns inside it's *brain*, including notions of **ideal cat** (as well as ideal dog, ideal zebra, etc.). It would be interesting to somehow **visualize this image**. However, it is not simple, because patterns are spread all over the network weights, and also organized in a hierarchical structure.
+
+One approach we can take is to start with a random image, and then try to use **gradient descent optimization** technique to adjust that image in such a way, that the network starts thinking that it's a cat. 
+
+![Image Optimization Loop](images/ideal-cat-loop.png)
+
+However, if we do this, we will receive something very similar to a random noise. This is because *there are many ways to make network think the input image is a cat*, including some that do not make sense visually. While those images contain a lot of patterns typical for a cat, there is nothing to constrain them to be visually distinctive.
+
+To improve the result, we can add another term into the loss function, which is called **variation loss**. It is a metric that shows how similar neighboring pixels of the image are. Minimizing variation loss makes image smoother, and gets rid of noise - thus revealing more visually appealing patterns. Here is an example of such "ideal" images, that are classified as cat and as zebra with high probability:
+
+![Ideal Cat](images/ideal-cat.png) | ![Ideal Zebra](images/ideal-zebra.png)
+-----|-----
+ *Ideal Cat* | *Ideal Zebra*
+
+Similar approach can be used to perform so-called **adversarial attacks** on a neural network. Suppose we want to fool a neural network and make a dog look like a cat. If we take dog's image, which is recognized by a network as a dog, we can then tweak it a little but using gradient descent optimization, until the network starts classifying it as a cat:
+
+![Picture of a Dog](images/dog-from-unsplash.jpg) | ![Picture of a dog classified as a cat](images/adversarial-dog.png)
+-----|-----
+*Original picture of a dog* | *Picture of a dog classified as a cat*
+
+See the code to reproduce the results above in the following notebook:
+
+* [Ideal and Adversarial Cat - TensorFlow](AdversarialCat_TF.ipynb)
 ## Conclusion
 
 Using transfer learning, you are able to quickly put together a classifier for a custom object classification task and achieve high accuracy. You can see that more complex tasks that we are solving now require higher computational power, and cannot be easily solved on the CPU. In the next unit, we will try to use a more lightweight implementation to train the same model using lower compute resources, which results in just slightly lower accuracy.
