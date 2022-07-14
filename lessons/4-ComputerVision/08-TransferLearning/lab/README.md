@@ -13,7 +13,7 @@ We will use the original [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pet
 To download the dataset, use this code snippet:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/oxpets_images.tar.gz
+!wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
 !tar xfz oxpets_images.tar.gz
 !rm oxpets_images.tar.gz
 ```
