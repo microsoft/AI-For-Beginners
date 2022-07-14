@@ -14,8 +14,8 @@ To download the dataset, use this code snippet:
 
 ```python
 !wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
-!tar xfz oxpets_images.tar.gz
-!rm oxpets_images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Stating Notebook
