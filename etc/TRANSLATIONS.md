@@ -26,7 +26,7 @@ Similar to Readme's, please translate the assignments as well.
 
 3. Edit the quiz-app's [translations index.js file](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) to add your language.
 
-4. Finally, edit ALL the quiz links in your translated README.md files to point directly to your translated quiz: https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/1 becomes https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/1?loc=id
+4. Finally, edit ALL the quiz links in your translated README.md files to point directly to your translated quiz: https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/1 becomes https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/1?loc=id
 
 **THANK YOU**
 

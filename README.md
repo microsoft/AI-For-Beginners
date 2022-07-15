@@ -150,7 +150,7 @@ By ensuring that the content aligns with projects, the process is made more enga
 
 > Find our [Code of Conduct](etc/CODE_OF_CONDUCT.md), [Contributing](etc/CONTRIBUTING.md), and [Translation](etc/TRANSLATIONS.md) guidelines. Find our [Support Documentation here](etc/SUPPORT.md) and [security information here](etc/SECURITY.md). We welcome your constructive feedback!
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://lemon-grass-0b79cf70f.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
+> **A note about quizzes**: All quizzes are contained [in this app](https://green-forest-02da2d60f.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
 
 ## Offline access
 

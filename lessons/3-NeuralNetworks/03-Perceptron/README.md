@@ -1,6 +1,6 @@
 # Introduction to Neural Networks: Perceptron
 
-## [Pre-lecture quiz](https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/103)
+## [Pre-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/103)
 
 One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.
 
@@ -76,7 +76,7 @@ In this lesson, you learned about a perceptron, which is a binary classification
 
 If you'd like to try to build your own perceptron, try [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-57639-dmitryso) which uses the [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-57639-dmitryso).
 
-## [Post-lecture quiz](https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/203)
+## [Post-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/203)
 
 ## Review & Self Study
 

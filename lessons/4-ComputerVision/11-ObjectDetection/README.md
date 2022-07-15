@@ -2,7 +2,7 @@
 
 The image classification models we have dealt with so far took an image and produced a categorical result, such as the class 'number' in a MNIST problem. However, in many cases we do not want just to know that a picture portrays objects - we want to be able to determine their precise location. This is exactly the point of **object detection**.
 
-## [Pre-lecture quiz](https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/111)
 
 ![Object Detection](images/Screen_Shot_2016-11-17_at_11.14.54_AM.png)
 
@@ -163,7 +163,7 @@ Read through these articles and notebooks about YOLO and try them for yourself
  * Yolo: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://lemon-grass-0b79cf70f.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/211)
 
 ## Review & Self Study
 
