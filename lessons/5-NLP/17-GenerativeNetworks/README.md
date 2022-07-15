@@ -1,6 +1,6 @@
 # Generative networks
 
-## [Pre-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/117)
+## [Pre-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/117)
 
 Recurrent Neural Networks (RNNs) and their gated cell variants such as Long Short Term Memory Cells (LSTMs) and Gated Recurrent Units (GRUs) provided a mechanism for language modeling in that they can learn word ordering and provide predictions for the next word in a sequence. This allows us to use RNNs for **generative tasks**, such as ordinary text generation, machine translation, and even image captioning.
 
@@ -62,7 +62,7 @@ Take some lessons on Microsoft Learn on this topic
 
 * Text Generation with [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-15963-dmitryso)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-15963-dmitryso)
 
-## [Post-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/217)
+## [Post-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/217)
 
 ## Review & Self Study
 

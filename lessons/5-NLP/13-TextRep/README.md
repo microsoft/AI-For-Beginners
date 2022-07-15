@@ -1,6 +1,6 @@
 # Representing Text as Tensors
 
-## [Pre-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/113)
+## [Pre-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/113)
 
 ## Text Classification
 
@@ -64,7 +64,7 @@ So far, we have studied techniques that can add frequency weight to different wo
 
 Try some other exercises using bag-of-words and different data models. You might be inspired by this [competition on Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Post-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/213)
+## [Post-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/213)
 
 ## Review & Self Study
 

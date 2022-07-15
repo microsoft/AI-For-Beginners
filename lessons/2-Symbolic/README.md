@@ -6,7 +6,7 @@
 
 The quest for artificial intelligence is based on a search for knowledge, to make sense of the world similar to how humans do. But how can you go about doing this?
 
-## [Pre-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/102)
+## [Pre-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/102)
 
 In the early days of AI, the top-down approach to creating intelligent systems (discussed in the previous lesson) was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
@@ -230,7 +230,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 In the Family Ontology notebook associated to this lesson, there is an opportunity to experiment with other family relations. Try to discover new connections between people in the family tree.
 
-## [Post-lecture quiz](https://green-forest-02da2d60f.1.azurestaticapps.net/quiz/202)
+## [Post-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/202)
 
 ## Review & Self Study
 
