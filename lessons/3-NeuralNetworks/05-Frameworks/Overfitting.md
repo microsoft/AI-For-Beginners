@@ -52,7 +52,7 @@ In this lesson, you learned about the differences between the various APIs for t
 
 In the accompanying notebooks, you will find 'tasks' at the bottom; work through the notebooks and complete the tasks.
 
-## [Post-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
 
 ## Review & Self Study
 
