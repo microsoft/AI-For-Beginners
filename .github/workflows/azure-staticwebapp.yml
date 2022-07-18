@@ -23,9 +23,8 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  APP_LOCATION: "/" # location of your client code
-  API_LOCATION: "api" # location of your api source code - optional
-  APP_ARTIFACT_LOCATION: "build" # location of client code build output
+  APP_LOCATION: "/etc/quiz-app" # location of your client code
+  OUTPUT_LOCATION: "dist" # location of client code build output
   AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_SAND_043CA7603 }} # secret containing deployment token for your static web app
 
 permissions:
@@ -53,8 +52,7 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: ${{ env.APP_LOCATION }}
-          api_location: ${{ env.API_LOCATION }}
-          app_artifact_location: ${{ env.APP_ARTIFACT_LOCATION }}
+          output_location: ${{ env.OUTPUT_LOCATION }}
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
