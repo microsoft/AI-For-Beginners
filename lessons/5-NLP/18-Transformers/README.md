@@ -1,6 +1,6 @@
 # Attention Mechanisms and Transformers
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/118)
+## [Pre-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/118)
 
 One of the most important problems in the NLP domain is **machine translation**, an essential task that underlies tools such as Google Translate. In this section, we will focus on machine translation, or, more generally, on any *sequence-to-sequence* task (which is also called **sentence transduction**).
 
@@ -99,7 +99,7 @@ In this lesson you learned about Transformers and Attention Mechanisms, all esse
 
 ## 🚀 Challenge
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/218)
+## [Post-lecture quiz](https://victorious-sand-043ca7603.1.azurestaticapps.net/quiz/218)
 
 ## Review & Self Study
 
