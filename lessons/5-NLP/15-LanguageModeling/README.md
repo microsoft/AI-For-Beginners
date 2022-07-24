@@ -23,6 +23,8 @@ In our previous examples, we used pre-trained semantic embeddings, but it is int
 Continue your learning in the following notebooks:
 
 * [Training CBoW Word2Vec with TensorFlow](CBoW-TF.ipynb)
+* [Training CBoW Word2Vec with PyTorch](CBoW-PyTorch.ipynb)
+
 
 ## Conclusion
 
