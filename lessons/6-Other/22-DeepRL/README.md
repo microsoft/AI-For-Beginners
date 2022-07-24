@@ -83,6 +83,7 @@ After running one of those algorithms, we can expect our CartPole to behave like
 Continue your learning in the following notebooks:
 
 * [RL in TensorFlow](CartPole-RL-TF.ipynb)
+* [RL in PyTorch](CartPole-RL-PyTorch.ipynb)
 
 ## Other RL Tasks
 
