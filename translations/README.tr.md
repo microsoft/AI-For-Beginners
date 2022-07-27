@@ -72,101 +72,101 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>8</td><td>Önceden Eğitilmiş Ağlar ve Öğrenme Aktarımı<br/>Eğitim Püf Noktaları</td><td><a href="../lessons/4-ComputerVision/08-TransferLearning/README.md">Metin</a><br/><a href="../lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="../lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb">Hattan düşürme örneklemi</a><br/><a href="../lessons/4-ComputerVision/08-TransferLearning/AdversarialCat_TF.ipynb">Düşman kedi</a></td><td><a href="../lessons/4-ComputerVision/08-TransferLearning/lab/README.md">Lab</a></td></tr>
 <tr><td>9</td><td>Otomatik kodlayıcılar and Değişken otomatik kodlayıcılars</td><td><a href="../lessons/4-ComputerVision/09-Autoencoders/README.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
 <tr><td>10</td><td>Üretken Çekişmeli Ağları<br/>Sanatsal Tarz Aktarımı</td><td><a href="../lessons/4-ComputerVision/10-GANs/README.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb">PyTorch</td><td><a href="../lessons/4-ComputerVision/10-GANs/GANTF.ipynb">TensorFlow GAN</a><br/><a href="../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb">Tarz Aktarımı</a></td><td></td></tr>
-<tr><td>11</td><td>Object Detection</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/README.md">Text</a></td><td>PyTorch</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb">TensorFlow</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
-<tr><td>12</td><td>Semantic Segmentation. U-Net</td><td><a href="lessons/4-ComputerVision/12-Segmentation/README.md">Text</a></td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
-<tr><td>V</td><td><b><a href="lessons/5-NLP/README.md">Natural Language Processing</a></b></td>
-   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso"><i>AI Fundamentals: Explore Natural Language Processing</i></a></td>
+<tr><td>11</td><td>Nesne Tespiti</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/README.md">Metin</a></td><td>PyTorch</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb">TensorFlow</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
+<tr><td>12</td><td>Anlamsal Bölünme. U-Net</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/README.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
+<tr><td>V</td><td><b><a href="../lessons/5-NLP/README.md">Doğal Dil İşleme</a></b></td>
+   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso"><i>YZ Temelleri: Doğal Dil İşlemeyi Keşfedin</i></a></td>
    <td></td></tr>
-<tr><td></td><td colspan="2"><i>Microsoft Learn Module on Natural Language</i></td>
+<tr><td></td><td colspan="2"><i>Doğal Dil Üstüne Microsoft Öğrenme Modülü</i></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso"><i>PyTorch</i></a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso"><i>TensorFlow</i></a></td>
    <td></td></tr>
-<tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td><a href="lessons/5-NLP/13-TextRep/README.md">Text</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
-<tr><td>14</td><td>Semantic word embeddings. Word2Vec and GloVe</td><td><a href="lessons/5-NLP/14-Embeddings/README.md">Text</td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>15</td><td>Language Modeling. Training your own embeddings</td><td><a href="lessons/5-NLP/15-LanguageModeling/README.md">Text</a></td><td></td><td><a href="lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/lab/README.md">Lab</a></td></tr>
-<tr><td>16</td><td>Recurrent Neural Networks</td><td><a href="lessons/5-NLP/16-RNN/README.md">Text</a></td><td><a href="lessons/5-NLP/16-RNN/RNNPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/16-RNN/RNNTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>17</td><td>Generative Recurrent Networks</td><td><a href="lessons/5-NLP/17-GenerativeNetworks/README.md">Text</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md">TensorFlow</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/lab/README.md">Lab</a></td></tr>
-<tr><td>18</td><td>Transformers. BERT.</td><td><a href="lessons/5-NLP/18-Transformers/README.md">Text</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>19</td><td>Named Entity Recognition</td><td><a href="lessons/5-NLP/19-NER/README.md">Text</a></td><td></td><td><a href="lessons/5-NLP/19-NER/NER-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/19-NER/lab/README.md">Lab</a></td></tr>
-<tr><td>20</td><td>Large Language Models, Prompt Programming and Few-Shot Tasks</td><td><a href="lessons/5-NLP/20-LangModels/README.md">Text</a></td><td><a href="lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb">PyTorch</td><td></td><td></td></tr>
-<tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td></td></tr>
-<tr><td>21</td><td>Genetic Algorithms</td><td><a href="lessons/6-Other/21-GeneticAlgorithms/README.md">Text</a><td colspan="2"><a href="lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb">Notebook</a></td><td></td></tr>
-<tr><td>22</td><td>Deep Reinforcement Learning</td><td><a href="lessons/6-Other/22-DeepRL/README.md">Text</a></td><td></td><td><a href="lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</td><td><a href="lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
-<tr><td>23</td><td>Multi-Agent Systems</td><td><a href="lessons/6-Other/23-MultiagentSystems/README.md">Text</a></td><td></td><td></td><td></td></tr>
-<tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td></td></tr>
-<tr><td>24</td><td>AI Ethics and Responsible AI</td><td><a href="lessons/7-Ethics/README.md">Text</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso"><i>MS Learn: Responsible AI Principles</i></a></td><td></td></tr>
-<tr><td></td><td colspan="4"><b>Extras</b></td><td></td></tr>
-<tr><td>X1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="lessons/X-Extras/X1-MultiModal/README.md">Text</a></td><td colspan="2"><a href="lessons/X-Extras/X1-MultiModal/Clip.ipynb">Notebook</a></td><td></td></tr>
+<tr><td>13</td><td>Metin Temsili. Bow/TF-IDF</td><td><a href="../lessons/5-NLP/13-TextRep/README.md">Metin</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
+<tr><td>14</td><td>Anlamsal kelime gömmeleri. Word2Vec and GloVe</td><td><a href="../lessons/5-NLP/14-Embeddings/README.md">Metin</td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>15</td><td>Dil Modelleme. Kendi gömmelerinizi eğitme</td><td><a href="../lessons/5-NLP/15-LanguageModeling/README.md">Text</a></td><td></td><td><a href="../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb">TensorFlow</a></td><td><a href="../lessons/5-NLP/15-LanguageModeling/lab/README.md">Lab</a></td></tr>
+<tr><td>16</td><td>Yinelemeli Sinir Ağları</td><td><a href="../lessons/5-NLP/16-RNN/README.md">Metin</a></td><td><a href="../lessons/5-NLP/16-RNN/RNNPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/16-RNN/RNNTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>17</td><td>Üretken Yinelemeli Ağlar</td><td><a href="../lessons/5-NLP/17-GenerativeNetworks/README.md">Metin</a></td><td><a href="../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md">TensorFlow</a></td><td><a href="../lessons/5-NLP/17-GenerativeNetworks/lab/README.md">Lab</a></td></tr>
+<tr><td>18</td><td>Dönüştürücüler. BERT.</td><td><a href="../lessons/5-NLP/18-Transformers/README.md">Metin</a></td><td><a href="../lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/18-Transformers/TransformersTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>19</td><td>Adlandırılmış Varlık Tanıma</td><td><a href="../lessons/5-NLP/19-NER/README.md">Metin</a></td><td></td><td><a href="../lessons/5-NLP/19-NER/NER-TF.ipynb">TensorFlow</a></td><td><a href="../lessons/5-NLP/19-NER/lab/README.md">Lab</a></td></tr>
+<tr><td>20</td><td>Büyük Dil Modelleri, Anlık Programlama ve Birkaç Atışlı Görevler</td><td><a href="../lessons/5-NLP/20-LangModels/README.md">Metin</a></td><td><a href="../lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb">PyTorch</td><td></td><td></td></tr>
+<tr><td>VI</td><td colspan="4"><b>Diğer YZ Teknikleri</b></td><td></td></tr>
+<tr><td>21</td><td>Genetik Algoritmalar</td><td><a href="../lessons/6-Other/21-GeneticAlgorithms/README.md">Metin</a><td colspan="2"><a href="../lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb">Defter</a></td><td></td></tr>
+<tr><td>22</td><td>Derin Pekiştirmeli Öğrenme</td><td><a href="../lessons/6-Other/22-DeepRL/README.md">Metin</a></td><td></td><td><a href="../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</td><td><a href="../lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
+<tr><td>23</td><td>Çok Etmenli Sistemler</td><td><a href="../lessons/6-Other/23-MultiagentSystems/README.md">Metin</a></td><td></td><td></td><td></td></tr>
+<tr><td>VII</td><td colspan="4"><b>YZ Etiği</b></td><td></td></tr>
+<tr><td>24</td><td>YZ Etiği ve Sorumlu YZ</td><td><a href="../lessons/7-Ethics/README.md">Metin</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso"><i>Microsoft Öğrenme Modülü: Sorumlu YZ İlkeleri</i></a></td><td></td></tr>
+<tr><td></td><td colspan="4"><b>Ekstralar</b></td><td></td></tr>
+<tr><td>X1</td><td>Çok Modlu Ağlar, CLIP and VQGAN</td><td><a href="../lessons/X-Extras/X1-MultiModal/README.md">Metin</a></td><td colspan="2"><a href="../lessons/X-Extras/X1-MultiModal/Clip.ipynb">Defter</a></td><td></td></tr>
 </table>
 
-**[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[Dersin Zihinsel Haritası](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem. 
+Her ders, bazı ön okuma materyalleri (yukarıda **Metin** olarak bağlantılandırılmıştır) ve genellikle (**PyTorch** veya **TensorFlow**) çerçevelerine özel bazı yürütülebilir Jupyter Defterleri içerir. Yürütülebilir not defteri ayrıca birçok teorik materyal içerir, bu nedenle konuyu anlamak için not defterlerinin en az bir sürümünü (PyTorch veya TensorFlow) üzerinden gitmeniz gerekir. Ayrıca bazı konular için öğrendiğiniz materyali belirli bir probleme uygulamayı deneme fırsatı veren laboratuvarlar (**Labs**) da vardır.
 
-Some sections also contain links to **MS Learn** modules that cover related topics. Microsoft Learn provides a convenient GPU-enabled learning environment, although in terms of content you can expect this curriculum to go a bit deeper.
+Bazı bölümler, ilgili konuları kapsayan **MS Öğrenme** modüllerine bağlantılar da içerir. Microsoft Öğrenme, uygun bir GPU etkin öğrenme ortamı sağlar, ancak içerik açısından bu müfredatın biraz daha derine inmesini bekleyebilirsiniz.
 
-# Getting Started
+# Başlarken
 
-**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Öğrenciler**, müfredatı kullanmanın birkaç yolu vardır. Her şeyden önce, metni okuyabilir ve kodu doğrudan GitHub'da inceleyebilirsiniz. Kodu not defterlerinden herhangi birinde çalıştırmak istiyorsanız [talimatlarımızı okuyun](./etc/how-to-run.md) ve bunu nasıl yapacağınızla ilgili daha fazlasını [bu blog yayınında](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) bulabilirsiniz.
 
-> **Note**: [Instructions on how to run the code in this curriculum](./etc/how-to-run.md)
+> **Not**: [Bu müfredattaki kodun nasıl çalıştırılacağına ilişkin talimatlar](./etc/how-to-run.md)
 
-However, if you would like to take the course as a self-study project, we suggest that you fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
+Ancak, dersi kendi kendine çalışma projesi olarak almak istiyorsanız, tüm depoyu kendi GitHub hesabınıza çatallamanızı ve alıştırmaları kendi başınıza veya bir grupla tamamlamanızı öneririz:
 
-- Start with a pre-lecture quiz
-- Read the intro text for the lecture 
-- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favorite framework
-- Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment
-- Take the post-lecture quiz
-- If there is a lab attached to the module - complete the assignment
-- Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to "learn out loud".
-- Chat with other learners [on Gitter](https://gitter.im/Microsoft/ai-for-beginners) or [in Telegram channel](http://t.me/ai_for_beginners).
+- Bir ders öncesi sınavı ile başlayın.
+- Dersin giriş metnini okuyun.
+- Derste ek not defterleri varsa, bunları gözden geçirin, kodu okuyun ve yürütün. Hem TensorFlow hem de PyTorch not defterleri sağlanmışsa bunlardan birine odaklanabilirsiniz - en sevdiğiniz çerçeveyi seçin.
+- Defterler genellikle, deney yapmak için kodu biraz değiştirmenizi gerektiren bazı zorluklar içerir.
+- Ders sonrası sınavını yapın.
+- Eğer modüle bağlı bir laboratuvar varsa - o zaman ödevi tamamlayın.
+- "Yüksek sesle öğrenmek" için [tartışma panosunu](https://github.com/microsoft/AI-For-Beginners/discussions) ziyaret edin.
+- Diğer öğrencilerle [Gitter](https://gitter.im/Microsoft/ai-for-beginners)'da veya [Telegram kanalı](http://t.me/ai_for_beginners)nda konuşun.
 
-> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) modules and learning paths.
+> Daha fazla çalışma için bu [Microsoft Öğrenme](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) modüllerini ve öğrenme yollarını takip etmenizi öneririz.
 
-**Teachers**, we have [included some suggestions](/etc/for-teachers.md) on how to use this curriculum.
-
----
-
-## Credits
-
-**✍️ Primary Author:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
-**🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD <br/>
-**🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac) <br/>
-**✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  <br/>
-**🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks) 
-
-## Meet the Team
-
-[![Promo video](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/m2KrAk0cC1c "Promo video")
-
-> 🎥 Click the image above for a video about the project and the folks who created it!
+**Eğitimciler**, bu müfredatın nasıl kullanılacağına ilişkin [bazı öneriler ekledik](/etc/for-teachers.md).
 
 ---
 
-## Pedagogy
+## Katkıda Bulunanlar
 
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is hands-on **project-based** and that it includes **frequent quizzes**.
+**✍️ Ana Yazar:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
+**🔥 Editör:** [Jen Looper](https://twitter.com/jenlooper), PhD <br/>
+**🎨 Sketchnote Ressamı:** [Tomomi Imura](https://twitter.com/girlie_mac) <br/>
+**✅ Sınav Yaratıcı:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/) <br/>
+**🙏 Temel Katkıda Bulunanlar:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+## Ekiple Tanışın
 
-> Find our [Code of Conduct](etc/CODE_OF_CONDUCT.md), [Contributing](etc/CONTRIBUTING.md), and [Translation](etc/TRANSLATIONS.md) guidelines. Find our [Support Documentation here](etc/SUPPORT.md) and [security information here](etc/SECURITY.md). We welcome your constructive feedback!
+[![Tanıtım videosu](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/m2KrAk0cC1c "Promo video")
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
+> 🎥 Proje ve onu oluşturan kişiler hakkındaki video için yukarıdaki resme tıklayın!
 
-## Offline access
+---
 
-You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the `etc/docsify` folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`. A pdf of the curriculum is available [at this link](/etc/pdf/readme.pdf).
+## Eğitbilim
 
-## Help Wanted!
+Bu müfredatı oluştururken iki eğitbilimsel ilke seçtik: Uygulamalı **proje tabanlı** olmasını ve **sıkça sınavlar** içermesini sağlamak.
 
-Would you like to contribute a translation? Please read our [translation guidelines](etc/TRANSLATIONS.md).
+İçeriğin projelerle uyumlu olması sağlanarak süreç öğrenciler için daha ilgi çekici hale getirilecek ve kavramların akılda kalıcılığı artırılacaktır. Buna ek olarak, bir dersten önce düşük riskli bir sınav, öğrencinin bir konuyu öğrenmeye yönelik niyetini belirlerken, dersten sonra ikinci bir sınav daha fazla akılda kalmasını sağlar. Bu müfredat esnek ve eğlenceli olacak şekilde tasarlanmıştır ve kısmen veya tamamen çalışılabilir. Projeler küçük başlar ve 12 haftalık döngünün sonunda giderek daha karmaşık hale gelir.
 
-## Other Curricula
+> [Davranış Kuralları](etc/CODE_OF_CONDUCT.md), [Katkıda Bulunma](etc/CONTRIBUTING.md) ve [Çeviri](etc/TRANSLATIONS.md) yönergelerimizi bakın. [Destek belgelerimizi burada](etc/SUPPORT.md) ve [güvenlik bilgilerini burada](etc/SECURITY.md) bulabilirsiniz. Yapıcı geri bildiriminizi memnuniyetle karşılıyoruz!
 
-Our team produces other curricula! Check out:
+> **Sınavlarla ilgili bir not**: Her biri üç sorudan oluşan toplam 50 sınav için tüm sınavlar [bu uygulamada](https://red-field-0a6ddfd03.1.azurestaticapps.net/) bulunur. Bunlar derslerin içerisinden bağlantılıdır ancak sınav uygulaması yerel olarak çalıştırılabilir; `etc/quiz-app` klasöründeki talimatları izleyin.
 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+## Çevrimdışı erişim
+
+[Docsify](https://docsify.js.org/#/) kullanarak bu belgeleri çevrimdışı çalıştırabilirsiniz. Bu depoyu çatallayın, yerel makinenize [Docsify'ı yükleyin](https://docsify.js.org/#/quickstart) ve ardından bu deponun `etc/docsify` klasörüne `docsify serve` yazın. Web sitesi, localhost'unuzdaki 3000 numaralı bağlantı noktasında hizmet sağlayacak: `localhost:3000`. Müfredatın bir pdf'i [bu bağlantıda](/etc/pdf/readme.pdf) mevcuttur.
+
+## Yardım Aranıyor!
+
+Bir çeviriye katkıda bulunmak ister misiniz? Lütfen [çeviri yönergelerimizi](etc/TRANSLATIONS.md) okuyun.
+
+## Diğer Müfredatlar
+
+Ekibimiz başka müfredatlar da üretiyor! Bir bakın:
+
+- [Yeni Başlayanlar için Web Geliştirme](https://aka.ms/webdev-beginners)
+- [Yeni Başlayanlar için IoT](https://aka.ms/iot-beginners)
+- [Yeni Başlayanlar için Yapay Öğrenme](https://aka.ms/ml-beginners)
+- [Yeni Başlayanlar için Veri Bilimi](https://aka.ms/datascience-beginners)
