@@ -14,7 +14,7 @@
 
 |![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
 |:---:|
-| 초보자를 위한 인공지능 - _[@girlie_mac](https://twitter.com/girlie_mac)가 그린 스케치노트_ |
+| 초보자를 위한 인공지능 - _ [@girlie_mac](https://twitter.com/girlie_mac)가 그린 스케치노트_ |
 
 마이크로소프트의 Azure Cloud Advocates는 **인공 지능**에 대한 모든 내용을 12주 24개 강의로 제공하게 된 것을 기쁘게 생각합니다. 
 
