@@ -46,103 +46,103 @@ GYZ hakkında konuşurken, gerçekten zeki bir sistem oluşturup oluşturmadığ
 
 ✅ Hiç bir sohbet botu tarafından bir insanla konuştuğunuzu düşünerek kandırıldınız mı? Sizi nasıl ikna etti?
 
-#gitYZ'ya Farklı Yaklaşımlar
+#YZ'ya Farklı Yaklaşımlar
 
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
+Bir bilgisayarın insan gibi davranmasını istiyorsak, bir şekilde düşünme şeklimizi bilgisayar içinde modellememiz gerekir. Sonuç olarak, bir insanı zeki yapan şeyin ne olduğunu anlamaya çalışmalıyız.
 
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
+> Zekayı bir makineye programlayabilmek için kendi karar verme süreçlerimizin nasıl çalıştığını anlamamız gerekir. Biraz iç gözlem yaparsanız, bilinçaltında gerçekleşen bazı süreçlerin olduğunu fark edeceksiniz – örn. bir kediyi bir köpekten düşünmeden ayırt edebiliriz - bazı süreçlerse ise akıl yürütmeyi içerir.
 
-There are two possible approaches to this problem:
+Bu soruna iki olası yaklaşım vardır:
 
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
----------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
+Yukarıdan Aşağıya Yaklaşım (Simgesel Akıl Yürütme) | Aşağıdan Yukarıya Yaklaşım (Sinir Ağları)
+---------------------------------------------------|------------------------------------------
+Yukarıdan aşağıya bir yaklaşım, bir kişinin bir sorunu çözmek için akıl yürütme şeklini modeller. Bir insandan **bilgiyi** çıkarmayı ve onu bilgisayar tarafından okunabilir bir biçimde temsil etmeyi içerir. Ayrıca bir bilgisayarda **akıl yürütmeyi** modellemek için bir yol geliştirmemiz gerekiyor. | Aşağıdan yukarıya bir yaklaşım, **nöronlar** olarak adlandırılan çok sayıda basit birimden oluşan insan beyninin yapısını modeller. Her nöron, girdilerinin ağırlıklı ortalaması gibi davranır ve **eğitim verileri** sağlayarak yararlı sorunları çözmek için bir nöron ağını eğitebiliriz.
 
-There are also some other possible approaches to intelligence:
+Zekaya başka olası yaklaşımlar da vardır:
 
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
+* Bir **ortaya çıkan**, **sinerjik** veya **çoklu etmen yaklaşımı**, karmaşık akıllı davranışın çok sayıda basit etmenin etkileşimi ile elde edilebileceği gerçeğine dayanır. [Evrimsel sibernetik](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics)'e göre, zeka *başkalaşım-sistemi geçişi* sürecinde daha basit, tepkisel davranışlardan *ortaya çıkabilir*.
 
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
+* **Evrimsel yaklaşım** veya **genetik algoritma**, evrim ilkelerine dayalı bir optimizasyon sürecidir.
 
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
+Bu yaklaşımları dersin ilerleyen bölümlerinde ele alacağız, ancak şu anda iki ana yöne odaklanacağız: Yukarıdan aşağıya ve aşağıdan yukarıya.
 
-### The Top-Down Approach
+### Yukarıdan Aşağıya Yaklaşım
 
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
+**Yukarıdan aşağıya bir yaklaşımla**, akıl yürütmemizi modellemeye çalışırız. Akıl yürüttüğümüzde düşüncelerimizi takip edebildiğimiz için, bu süreci formüle dökmeye ve bilgisayar içinde programlamaya çalışabiliriz. Buna **simgesel akıl yürütme** denir.
 
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
+İnsanlar kafalarında karar verme süreçlerine yön veren bazı kurallara sahip olma eğilimindedir. Örneğin, bir doktor bir hastayı teşhis ederken, bir kişinin ateşi olduğunu fark edebilir, öyle ki vücudun içinde bir miktar iltihap olabilir. Bir doktor, belirli bir soruna çok sayıda kural uygulayarak nihai teşhisi koyabilir.
 
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
+Bu yaklaşım büyük ölçüde **bilgi temsiline** ve **akıl yürütmeye** dayanır. Bir insan uzmandan bilgi çıkarmak en zor kısım olabilir, çünkü çoğu durumda bir doktor neden belirli bir teşhis koyduğunu tam olarak bilemez. Bazen çözüm, açıkça düşünmeden kafasında ortaya çıkar. Bir fotoğraftan bir kişinin yaşını belirlemek gibi bazı görevler, hiçbir şekilde bilgi üzerinde oynama yapmaya indirgenemez.
 
-### Bottom-Up Approach
+### Aşağıdan Yukarıya Yaklaşım
 
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
+Alternatif olarak, beynimizin içindeki en basit öğeleri, yani bir nöronu modellemeye çalışabiliriz. Bir bilgisayarın içinde **yapay sinir ağı** denilen bir yapı oluşturabilir ve ardından ona örnekler vererek problem çözmeyi öğretmeye çalışabiliriz. Bu süreç, yeni doğmuş bir çocuğun gözlem yaparak çevresini öğrenmesine benzer.
 
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
+✅ Bebeklerin nasıl öğrendiği hakkında biraz araştırma yapın. Bir bebeğin beyninin temel unsurları nelerdir?
 
-> | What about ML?         |      |
+> | ML'ye ne demeli?        |      |
 > |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
+> | Yapay Zekanın bazı verilere dayalı bir sorunu çözmek için bilgisayar öğrenmesine dayanan kısmına **Makine Öğrenmesi** denir. Bu derste klasik makine öğrenmesini ele almayacağız - sizi ayrı bir [Yeni Başlayanlar için Makine Öğrenmesi](http://aka.ms/ml-beginners) müfredatına yönlendiriyoruz. | ![Yeni Başlayanlar için MÖ](images/ml-for-beginners.png) |
 
-## A Brief History of AI
+## YZ'nin Kısa Tarihi
 
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domain. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
+Yapay Zeka, yirminci yüzyılın ortalarında bir alan olarak kullanılmaya başlandı. Başlangıçta simgesel akıl yürütme yaygın bir yaklaşımdı ve uzman sistemler - bazı sınırlı sorun alanlarında uzman olarak hareket edebilen bilgisayar programları - gibi bir dizi önemli başarıya yön verdi. Ancak, kısa süre sonra bu yaklaşımın iyi ölçeklenmediği anlaşıldı. Bilgiyi bir uzmandan çıkarmak, bir bilgisayarda temsil etmek ve bu bilgi tabanını doğru tutmak çok karmaşık görevlerdir ve çoğu durumda pratik olamayacak kadar pahalıdır. Bu, 1970'lerde [YZ Kışı](https://en.wikipedia.org/wiki/AI_winter) olarak adlandırılan döneme yol açtı.
 
-<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
+<img alt="YZ'nin Kısa Tarihi" src="images/history-of-ai.png" width="70%"/>
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> İmge sahibi [Dmitry Soshnikov](http://soshnikov.com)
 
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
+Zaman ilerdikçe, hesaplama kaynakları daha ucuz hale geldi ve daha fazla veri kullanılabilir hale geldi, böylece sinir ağı yaklaşımları, bilgisayarla görme veya konuşmayı anlama gibi birçok alanda insanlarla rekabet etmede büyük başarım göstermeye başladı. Son on yılda, Yapay Zeka terimi çoğunlukla Sinir Ağları ile eşanlamlı olarak kullanılmıştır, çünkü duyduğumuz YZ başarılarının çoğu onlara dayanmaktadır.
 
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
+Yaklaşımların nasıl değiştiğini, mesela satranç oynayan bir bilgisayar programı yaratırken, gözlemleyebiliriz:
 
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well towards the end of the game, where the search space is limited by a small number of possible moves. However, in the beginning of the game the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against itself and learning from its own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
+* Evvelki satranç programları aramaya dayalıydı - bir program, belirli sayıda sonraki hamle için rakibin olası hamlelerini açıkça tahmin etmeye çalışırdı ve birkaç hamlede elde edilebilecek en uygun konuma dayalı olarak en uygun hamleyi seçerdi. Bu, [alfa-beta budama](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) denen arama algoritmasının geliştirilmesine yön verdi.
+* Arama stratejileri, arama alanının az sayıda olası hareketle sınırlı olduğu oyunun sonuna doğru iyi çalışır. Ancak oyunun başında arama alanı çok büyüktür ve algoritma, insan oyuncular arasındaki mevcut karşılamalardan öğrenilerek geliştirilebilir. Sonraki deneyler, programın bilgi tabanında oyundaki mevcut duruma çok benzeyen vakaları aradığı sözde [vakaya dayalı akıl yürütme](https://en.wikipedia.org/wiki/Case-based_reasoning)yi kullandı.
+* İnsan oyunculara karşı kazanan modern programlar, sinir ağları ve programların yalnızca kendisine karşı uzun süre oynayarak - tıpkı insanların satranç oynamayı öğrenirken yaptığı gibi - kendi hatalarından oynamayı öğrendiği [pekiştirmeli öğrenme](https://en.wikipedia.org/wiki/Reinforcement_learning) üzerine kuruludur. Ancak bir bilgisayar programı çok daha fazla oyunu çok daha kısa sürede oynayabilir ve böylece çok daha hızlı öğrenebilir.
 
-✅ Do a little research on other games that have been played by AI.
+✅ YZ tarafından oynanan diğer oyunlar hakkında biraz araştırma yapın.
 
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
+Benzer şekilde, (Turing testini geçebilecek) “konuşan programlar” oluşturmaya yönelik yaklaşımın nasıl değiştiğini görebiliriz:
 
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and to recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
+* [Eliza](https://en.wikipedia.org/wiki/ELIZA) gibi bu türün ilk programları, çok basit dilbilgisi kurallarına ve girdi cümlesinin bir soru olarak yeniden formüle edilmesine dayanıyordu.
+* Cortana, Siri veya Google Asistan gibi modern asistanların tümü, konuşmayı metne dönüştürmek ve niyetimizi tanımak için Sinir ağlarını kullanan ve ardından gerekli eylemleri gerçekleştirmek için bazı akıl yürütmeler veya açık algoritmalar kullanan karma sistemlerdir.
+* Gelecekte, tamamen sinir tabanlı bir modelin diyaloğu tek başına idare etmesini bekleyebiliriz. En son GPT ve [Turing-NLG](https://turing.microsoft.com/) sinir ağları ailesi bu konuda büyük başarı gösteriyor.
 
-<img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
+<img alt="Turing testinin evrimi" src="images/turing-test-evol.png" width="70%"/>
 
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
+> İmge sahibi Dmitry Soshnikov, [fotoğraf](https://unsplash.com/photos/r8LmVbUKgns) ve [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
-## Recent AI Research
+## Yakın Zaman YZ Araştırmaları
 
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
+Sinir ağı araştırmalarındaki yakın zamanlardaki büyük büyüme, büyük halka açık veri kümelerinin kullanıma sunulmaya başladığı 2010 civarında başladı. Yaklaşık 14 milyon açıklamalı resim içeren [ImageNet](https://en.wikipedia.org/wiki/ImageNet) adlı devasa bir resim koleksiyonu, [ImageNet Büyük Ölçekli Görsel Tanıma Yarışmasını](https://image-net.org/challenges/LSVRC/) doğurdu. 
 
-![ILSVRC Accuracy](images/ilsvrc.gif)
+![ILSVRC Doğruluğu](images/ilsvrc.gif)
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> İmge sahibi [Dmitry Soshnikov](http://soshnikov.com)
 
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
+2012 yılında, [Evrişimli Sinir Ağları](../4-ComputerVision/07-ConvNets/README.tr.md) ilk olarak imge sınıflandırmada kullanıldı ve bu da sınıflandırma hatalarında önemli bir düşüşe neden oldu (neredeyse %30'dan %16.4'e). 2015 yılında, Microsoft Araştırma'nın ResNet mimarisi [insan düzeyinde doğruluk elde etti](https://doi.org/0.1109/ICCV.2015.123).
 
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
+O zamandan beri, Sinir Ağları birçok görevde çok başarılı davranışlar sergiledi:
 
 ---
 
-Year | Human Parity achieved
+Yıl  | İnsana denklik elde edildi
 -----|--------
-2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
-2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
-2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
-2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
+2015 | [İmge Sınıflandırma](https://doi.org/10.1109/ICCV.2015.123)
+2016 | [Sohbetli Konuşma Tanıma](https://arxiv.org/abs/1610.05256)
+2018 | [Otomatik Makine Çevirisi](https://arxiv.org/abs/1803.05567) (Çince-İngilizce)
+2020 | [İmge Altyazısı](https://arxiv.org/abs/2009.13682)
 
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happen happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
+Geçtiğimiz birkaç yılda, BERT ve GPT-3 gibi büyük dil modelleriyle büyük başarılara tanık olduk. Bu, çoğunlukla, onları genel metin koleksiyonları üzerinde önceden eğitmemize ve daha sonra bu modelleri daha belirli görevler için özelleştirmemize olanak tanıyarak metinlerin yapısını ve anlamını yakalamak için modelleri eğitmemizi sağlayan çok sayıda genel metin verisi olduğu gerçeğinden kaynaklanmaktadır. Bu dersin ilerleyen bölümlerinde [Doğal Dil İşleme](../5-NLP/README.tr.md) hakkında daha fazla bilgi edineceğiz.
 
-## 🚀 Challenge
+## 🚀 Kendini Sınama
 
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
+Yapay zekanın size göre en etkili nerede kullanıldığını belirlemek için internette bir tur yapın. Bir eşleme uygulamasında mı, yoksa bir konuşmadan metne hizmetinde mi ya da bir video oyununda mı? Sistemin nasıl inşa edildiği araştırın.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Ders sonrası sınavı](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
 
-## Review & Self Study
+## Gözden Geçirme ve Bireysel Çalışma
 
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
+[Bu dersi](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML) okuyarak YZ ve MÖ'nün geçmişini inceleyin. O dersin veya bu dersin üstündeki eskiz notundan bir öğe alın ve evrimini bildiren kültürel bağlamı anlamak için daha derinlemesine araştırın.
 
-**Assignment**: [Game Jam](assignment.md)
+**Ödev**: [Oyun Özeti](assignment.tr.md)
