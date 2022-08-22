@@ -1,6 +1,6 @@
 # YZ'ye Giriş
 
-![Bir doodle'da yapay zekaya giriş içeriğinin özeti](../sketchnotes/ai-intro.png)
+![Bir doodle'da yapay zekaya giriş içeriğinin özeti](../../sketchnotes/ai-intro.png)
 
 > Çizim: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -10,7 +10,7 @@
 
 Başlangıçta bilgisayarlar [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) tarafından, iyi tanımlanmış bir prosedürü, yani bir algoritmayı izleyerek sayılar üzerinde çalışmak üzere icat edildi. Modern bilgisayarlar, 19. yüzyılda önerilen orijinal modelden önemli ölçüde daha gelişmiş olmasına rağmen, hala aynı kontrollü hesaplama fikrini takip ediyor. Bu nedenle, hedefe ulaşmak için yapmamız gereken adımların tam sırasını biliyorsak, bir bilgisayarı bir şeyler yapmak üzere programlamak mümkündür.
 
-![Bir insanın fotoğrafı](images/dsh_age.png)
+![Bir insanın fotoğrafı](../images/dsh_age.png)
 
 > Fotoğraf: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -30,7 +30,7 @@ Bir fotoğraftan bir kişinin yaşını belirleme gibi, belirli bir insani probl
 
 **[Zeka](https://en.wikipedia.org/wiki/Intelligence)** terimiyle uğraşırken karşılaşılan sorunlardan biri, bu terimin net bir tanımının olmamasıdır. Zekanın **soyut düşünme** veya **öz farkındalık** ile bağlantılı olduğu iddia edilebilir, ancak onu tam olarak tanımlayamıyoruz.
 
-![Kedi Fotoğrafı](images/photo-cat.jpg)
+![Kedi Fotoğrafı](../images/photo-cat.jpg)
 
 > [Fotoğraf](https://unsplash.com/photos/75715CVEJhI) sahibi Unsplash'tan [Amber Kipp](https://unsplash.com/@sadmax) 
 
@@ -82,13 +82,13 @@ Alternatif olarak, beynimizin içindeki en basit öğeleri, yani bir nöronu mod
 
 > | ML'ye ne demeli?        |      |
 > |--------------|-----------|
-> | Yapay Zekanın bazı verilere dayalı bir sorunu çözmek için bilgisayar öğrenmesine dayanan kısmına **Makine Öğrenmesi** denir. Bu derste klasik makine öğrenmesini ele almayacağız - sizi ayrı bir [Yeni Başlayanlar için Makine Öğrenmesi](http://aka.ms/ml-beginners) müfredatına yönlendiriyoruz. | ![Yeni Başlayanlar için MÖ](images/ml-for-beginners.png) |
+> | Yapay Zekanın bazı verilere dayalı bir sorunu çözmek için bilgisayar öğrenmesine dayanan kısmına **Makine Öğrenmesi** denir. Bu derste klasik makine öğrenmesini ele almayacağız - sizi ayrı bir [Yeni Başlayanlar için Makine Öğrenmesi](http://aka.ms/ml-beginners) müfredatına yönlendiriyoruz. | ![Yeni Başlayanlar için MÖ](../images/ml-for-beginners.png) |
 
 ## YZ'nin Kısa Tarihi
 
 Yapay Zeka, yirminci yüzyılın ortalarında bir alan olarak kullanılmaya başlandı. Başlangıçta simgesel akıl yürütme yaygın bir yaklaşımdı ve uzman sistemler - bazı sınırlı sorun alanlarında uzman olarak hareket edebilen bilgisayar programları - gibi bir dizi önemli başarıya yön verdi. Ancak, kısa süre sonra bu yaklaşımın iyi ölçeklenmediği anlaşıldı. Bilgiyi bir uzmandan çıkarmak, bir bilgisayarda temsil etmek ve bu bilgi tabanını doğru tutmak çok karmaşık görevlerdir ve çoğu durumda pratik olamayacak kadar pahalıdır. Bu, 1970'lerde [YZ Kışı](https://en.wikipedia.org/wiki/AI_winter) olarak adlandırılan döneme yol açtı.
 
-<img alt="YZ'nin Kısa Tarihi" src="images/history-of-ai.png" width="70%"/>
+<img alt="YZ'nin Kısa Tarihi" src="../images/history-of-ai.png" width="70%"/>
 
 > İmge sahibi [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -108,7 +108,7 @@ Benzer şekilde, (Turing testini geçebilecek) “konuşan programlar” oluştu
 * Cortana, Siri veya Google Asistan gibi modern asistanların tümü, konuşmayı metne dönüştürmek ve niyetimizi tanımak için Sinir ağlarını kullanan ve ardından gerekli eylemleri gerçekleştirmek için bazı akıl yürütmeler veya açık algoritmalar kullanan karma sistemlerdir.
 * Gelecekte, tamamen sinir tabanlı bir modelin diyaloğu tek başına idare etmesini bekleyebiliriz. En son GPT ve [Turing-NLG](https://turing.microsoft.com/) sinir ağları ailesi bu konuda büyük başarı gösteriyor.
 
-<img alt="Turing testinin evrimi" src="images/turing-test-evol.png" width="70%"/>
+<img alt="Turing testinin evrimi" src="../images/turing-test-evol.png" width="70%"/>
 
 > İmge sahibi Dmitry Soshnikov, [fotoğraf](https://unsplash.com/photos/r8LmVbUKgns) ve [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
@@ -116,11 +116,11 @@ Benzer şekilde, (Turing testini geçebilecek) “konuşan programlar” oluştu
 
 Sinir ağı araştırmalarındaki yakın zamanlardaki büyük büyüme, büyük halka açık veri kümelerinin kullanıma sunulmaya başladığı 2010 civarında başladı. Yaklaşık 14 milyon açıklamalı resim içeren [ImageNet](https://en.wikipedia.org/wiki/ImageNet) adlı devasa bir resim koleksiyonu, [ImageNet Büyük Ölçekli Görsel Tanıma Yarışmasını](https://image-net.org/challenges/LSVRC/) doğurdu. 
 
-![ILSVRC Doğruluğu](images/ilsvrc.gif)
+![ILSVRC Doğruluğu](../images/ilsvrc.gif)
 
 > İmge sahibi [Dmitry Soshnikov](http://soshnikov.com)
 
-2012 yılında, [Evrişimli Sinir Ağları](../4-ComputerVision/07-ConvNets/README.tr.md) ilk olarak imge sınıflandırmada kullanıldı ve bu da sınıflandırma hatalarında önemli bir düşüşe neden oldu (neredeyse %30'dan %16.4'e). 2015 yılında, Microsoft Araştırma'nın ResNet mimarisi [insan düzeyinde doğruluk elde etti](https://doi.org/0.1109/ICCV.2015.123).
+2012 yılında, [Evrişimli Sinir Ağları](../../4-ComputerVision/07-ConvNets/README.tr.md) ilk olarak imge sınıflandırmada kullanıldı ve bu da sınıflandırma hatalarında önemli bir düşüşe neden oldu (neredeyse %30'dan %16.4'e). 2015 yılında, Microsoft Araştırma'nın ResNet mimarisi [insan düzeyinde doğruluk elde etti](https://doi.org/0.1109/ICCV.2015.123).
 
 O zamandan beri, Sinir Ağları birçok görevde çok başarılı davranışlar sergiledi:
 
@@ -133,7 +133,7 @@ Yıl  | İnsana denklik elde edildi
 2018 | [Otomatik Makine Çevirisi](https://arxiv.org/abs/1803.05567) (Çince-İngilizce)
 2020 | [İmge Altyazısı](https://arxiv.org/abs/2009.13682)
 
-Geçtiğimiz birkaç yılda, BERT ve GPT-3 gibi büyük dil modelleriyle büyük başarılara tanık olduk. Bu, çoğunlukla, onları genel metin koleksiyonları üzerinde önceden eğitmemize ve daha sonra bu modelleri daha belirli görevler için özelleştirmemize olanak tanıyarak metinlerin yapısını ve anlamını yakalamak için modelleri eğitmemizi sağlayan çok sayıda genel metin verisi olduğu gerçeğinden kaynaklanmaktadır. Bu dersin ilerleyen bölümlerinde [Doğal Dil İşleme](../5-NLP/README.tr.md) hakkında daha fazla bilgi edineceğiz.
+Geçtiğimiz birkaç yılda, BERT ve GPT-3 gibi büyük dil modelleriyle büyük başarılara tanık olduk. Bu, çoğunlukla, onları genel metin koleksiyonları üzerinde önceden eğitmemize ve daha sonra bu modelleri daha belirli görevler için özelleştirmemize olanak tanıyarak metinlerin yapısını ve anlamını yakalamak için modelleri eğitmemizi sağlayan çok sayıda genel metin verisi olduğu gerçeğinden kaynaklanmaktadır. Bu dersin ilerleyen bölümlerinde [Doğal Dil İşleme](../../5-NLP/README.tr.md) hakkında daha fazla bilgi edineceğiz.
 
 ## 🚀 Kendini Sınama
 
