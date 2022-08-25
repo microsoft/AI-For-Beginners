@@ -1,0 +1,3 @@
+# Bir Ontoloji Oluşturun
+
+Bir bilgi tabanı oluşturmak, bir konu hakkındaki gerçekleri temsil eden bir modeli kategorize etmekle ilgilidir. Bir konu seçin - bir kişi, bir yer veya bir nesne gibi - ve sonra o konunun bir modelini oluşturun. Bu derste açıklanan bazı teknikleri ve model kurma stratejilerini kullanın. Bir örnek, mobilyalar, ışıklar vb. ile bir oturma odasının ontolojisini oluşturmak olabilir. Oturma odası mutfaktan nasıl farklıdır? Ya banyo? Yemek odası değil de oturma odası olduğunu nereden biliyorsun? Ontolojinizi oluşturmak için [Protégé](https://protege.stanford.edu/)'i kullanın.
