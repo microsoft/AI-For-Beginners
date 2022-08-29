@@ -151,38 +151,40 @@ Uzman sistemler farklı araçlar kullanılarak uygulanabilir:
 
 İleri ve geri çıkarsama uzman sistemi uygulama örneği için [Animals.tr.ipynb](Animals.tr.ipynb) bölümüne bakın.
 
-> **Not**: Bu örnek oldukça basittir ve yalnızca bir uzman sistemin nasıl göründüğü hakkında fikir verir. Böyle bir sistem oluşturmaya başladığınızda, yalnızca belirli sayıda kurala ulaştığınızda, yaklaşık 200'den fazlaysa, *akıllı* davranış fark edeceksiniz. Bir noktada, kurallar hepsini akılda tutamayacak kadar karmaşık hale gelir ve bu noktada bir sistemin neden belirli kararlar aldığını merak etmeye başlayabilirsiniz. Bununla birlikte, bilgi tabanlı sistemlerin önemli özelliği, kararlardan herhangi birinin nasıl verildiğini her zaman tam olarak *açıklayabilmenizdir.
+> **Not**: Bu örnek oldukça basittir ve yalnızca bir uzman sistemin nasıl göründüğü hakkında fikir verir. Böyle bir sistem oluşturmaya başladığınızda, yalnızca belirli sayıda kurala ulaştığınızda, yaklaşık 200'den fazlaysa, *akıllı* davranış fark edeceksiniz. Bir noktada, kurallar hepsini akılda tutamayacak kadar karmaşık hale gelir ve bu noktada bir sistemin neden belirli kararlar aldığını merak etmeye başlayabilirsiniz. Bununla birlikte, bilgi tabanlı sistemlerin önemli özelliği, kararlardan herhangi birinin nasıl verildiğini her zaman tam olarak *açıklayabilmenizdir*.
 
-## Ontologies and the Semantic Web
+## Ontolojiler ve Anlamsal Web
 
-At the end of 20th century there was an initiative to use knowledge representation to annotate Internet resources, so that it would be possible to find resources that correspond to very specific queries. This motion was called **Semantic Web**, and it relied on several concepts:
+20. yüzyılın sonunda, çok özel sorgulara karşılık gelen kaynakları bulmak mümkün olacak şekilde, İnternet kaynaklarına açıklama eklemek için bilgi temsilini kullanma girişimi vardı. Bu harekete **Anlamsal Web** adı verildi ve birkaç kavrama dayanıyordu:
 
-- A special knowledge representation based on **[description logics](https://en.wikipedia.org/wiki/Description_logic)** (DL). It is similar to frame knowledge representation, because it builds a hierarchy of objects with properties, but it has formal logical semantics and inference. There is a whole family of DLs which balance between expressiveness and algorithmic complexity of inference.
-- Distributed knowledge representation, where all concepts are represented by a global URI identifier, making it possible to create knowledge hierarchies that span the internet.
-- A family of XML-based languages for knowledge description: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+- **[Tanım mantığına](https://en.wikipedia.org/wiki/Description_logic)** (TM) dayalı özel bir bilgi temsili. Çerçeve bilgi temsiline benzerdir, çünkü özelliklere sahip bir nesneler hiyerarşisi oluşturur, ancak biçimsel mantıksal anlambilimi ve çıkarsama vardır. Anlamlılığın ve çıkarsamanın algoritmik karmaşıklığı arasında denge kuran bütün bir TM ailesi vardır.
+- Tüm kavramların küresel bir URI tanımlayıcısı tarafından temsil edildiği, interneti kapsayan bilgi hiyerarşileri oluşturmayı mümkün kılan dağıtılmış bilgi temsili.
+- Bilgi tanımı için bir XML tabanlı dil ailesi: RDF (Kaynak Tanım Çerçevesi - Resource Description Framework), RDFS (RDF Şeması), OWL (Ontoloji Web Dili).
 
-A core concept in the Semantic Web is a concept of **Ontology**. It refers to a explicit specification of a problem domain using some formal knowledge representation. The simplest ontology can be just a hierarchy of objects in a problem domain, but more complex ontologies will include rules that can be used for inference.
+Anlamsal Web'deki temel bir kavram, **Ontoloji** kavramıdır. Bazı resmi bilgi temsillerini kullanarak bir problem alanının açık bir isterini ifade eder. En basit ontoloji, bir problem alanındaki nesnelerin sade bir hiyerarşisi olabilir, ancak daha karmaşık ontolojiler, çıkarsama için kullanılabilecek kuralları içerecektir.
 
 In the semantic web, all representations are based on triplets. Each object and each relation are uniquely identified by the URI. For example, if we want to state the fact that this AI Curriculum has been developed by Dmitry Soshnikov on Jan 1st, 2022 - here are the triplets we can use:
 
-<img src="images/triplet.png" width="30%"/>
+Anlamsal ağda, tüm temsiller üçlülere dayanmaktadır. Her nesne ve her ilişki, URI tarafından benzersiz bir şekilde tanımlanır. Örneğin, bu YZ Müfredatının 1 Ocak 2022'de Dmitry Soshnikov tarafından geliştirildiğini belirtmek istersek - kullanabileceğimiz üçlüler böyledir:
+
+<img src="../images/triplet.png" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Here `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator` are some well-known and universally accepted URIs to express the concepts of *creator* and *creation date*.
+> ✅ Burada `http://www.example.com/terms/creation-date` ve `http://purl.org/dc/elements/1.1/creator` *yaratıcı* ve *oluşturma tarihi* kavramlarını ifade etmek için iyi bilinen ve evrensel olarak kabul edilen bazı URI'lerdir. 
 
-In a more complex case, if we want to define a list of creators, we can use some data structures defined in RDF.
+Daha karmaşık bir durumda, bir yaratıcı listesi tanımlamak istersek, RDF'de tanımlanan bazı veri yapılarını kullanabiliriz.
 
-<img src="images/triplet-complex.png" width="40%"/>
+<img src="../images/triplet-complex.png" width="40%"/>
 
-> Diagrams above by [Dmitry Soshnikov](http://soshnikov.com)
+> Diyagramların sahibi [Dmitry Soshnikov](http://soshnikov.com)
 
-The progress of building the Semantic Web was somehow slowed down by the success of search engines and natural language processing techniques, which allow extracting structured data from text. However, in some areas there are still significant efforts to maintain ontologies and knowledge bases. A few projects worth noting:
+Anlamsal Web'i oluşturmanın ilerlemesi, arama motorlarının ve metinden yapılandırılmış verilerin çıkarılmasına izin veren doğal dil işleme tekniklerinin başarısıyla bir şekilde yavaşladı. Bununla birlikte, bazı alanlarda ontolojileri ve bilgi tabanlarını sürdürmek için hala önemli çabalar vardır. Kayda değer birkaç proje:
 
-* [WikiData](https://wikidata.org/) is a collection of machine readable knowledge bases associated with Wikipedia. Most of the data is mined from Wikipedia *InfoBoxes*, pieces of structured content inside Wikipedia pages. You can [query](https://query.wikidata.org/) wikidata in SPARQL, a special query language for Semantic Web. Here is a sample query that displays most popular eye colors among humans:
+* [WikiData](https://wikidata.org/), Wikipedia ile ilişkili makine tarafından okunabilen bilgi tabanlarının bir koleksiyonudur. Verilerin çoğu, Wikipedia sayfalarındaki yapılandırılmış içerik parçaları olan Wikipedia *Bilgi Kutularından* çıkarılır. Anlamsal Web için özel bir sorgu dili olan SPARQL ile wikidatada [sorgu](https://query.wikidata.org/) yapabilirsiniz. İşte insanlar arasında en popüler göz renklerini gösteren örnek bir sorgu:
 
 ```sparql
 #defaultView:BubbleChart
@@ -196,44 +198,44 @@ WHERE
 GROUP BY ?eyeColorLabel
 ```
 
-* [DBpedia](https://www.dbpedia.org/) is another effort similar to WikiData.
+* [DBpedia](https://www.dbpedia.org/) WikiData'ya benzer başka bir çalışmadır.
 
-> ✅ If you want to experiment with building your own ontologies, or opening existing ones, there is a great visual ontology editor called [Protégé](https://protege.stanford.edu/). Download it, or use it online.
+> ✅ Kendi ontolojilerinizi oluşturmayı veya mevcut olanları açmayı denemek istiyorsanız, [Protégé](https://protege.stanford.edu/) adında harika bir görsel ontoloji düzenleyicisi var. İndirin veya çevrimiçi kullanın.
 
-<img src="images/protege.png" width="70%"/>
+<img src="../images/protege.png" width="70%"/>
 
-*Web Protégé editor open with the Romanov Family ontology. Screenshot by Dmitry Soshnikov*
+*Romanov Ailesi ontolojisi ile açık Web Protégé editörü. Dmitry Soshnikov'un ekran görüntüsü*
 
-## ✍️ Exercise: A Family Ontology
+## ✍️ Alıştırma: Bir Aile Ontolojisi
 
-See [FamilyOntology.ipynb](FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format and an ontology of family relationships and build a graph of all family relationships for given set of individuals.
+Aile ilişkileri hakkında akıl yürütmede Anlamsal Web tekniklerini kullanma örneği için [FamilyOntology.tr.ipynb](FamilyOntology.tr.ipynb) bölümüne bakın. Ortak GEDCOM formatında temsil edilen bir aile ağacını ve aile ilişkilerinin ontolojisini alacağız ve belirli bir grup birey için tüm aile ilişkilerinin bir çizgesini oluşturacağız.
 
-## Microsoft Concept Graph
+## Microsoft Kavram Çizgesi
 
-In most of the cases, ontologies are carefully created by hand. However, it is also possible to **mine** ontologies from unstructured data, for example, from natural language texts.
+Çoğu durumda, ontolojiler dikkatle elle oluşturulur. Bununla birlikte, örneğin doğal dil metinlerinden yapılandırılmamış verilerden ontolojiler **çıkarmak** da mümkündür.
 
-One such attempt was done by Microsoft Research, and resulted in [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-57639-dmitryso).
+Böyle bir girişim Microsoft Research tarafından yapıldı ve [Microsoft Kavram Çizgesi](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-57639-dmitryso) ile sonuçlandı.
 
-It is a large collection of entities grouped together using `is-a` inheritance relationship. It allows answering questions like "What is Microsoft?" - the answer being something like "a company with probability 0.87, and a brand with probability 0.75".
+It is a large collection of entities grouped together using `is-a` inheritance relationship. It allows answering questions like "What is Microsoft?" - the answer being something like "a company with probability 0.87, and a brand with probability 0.75". `is-a` (bir örneği olma) kalıtım ilişkisi kullanılarak gruplandırılmış geniş bir varlıklar topluluğudur. "Microsoft Nedir?" gibi soruların yanıtlanmasına olanak tanır - cevap, "0.87 bir şirket ve 0.75 olasılıkla bir marka" gibi bir şeydir.
 
-The Graph is available either as REST API, or as a large downloadable text file that lists all entity pairs.
+Çizge, ya REST API olarak ya da tüm varlık çiftlerini listeleyen büyük bir indirilebilir metin dosyası olarak mevcuttur.
 
-## ✍️ Exercise: A Concept Graph
+## ✍️ Alıştırma: Bir Kavram Çizgesi
 
-Try the [MSConceptGraph.ipynb](MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
+Haber makalelerini birkaç kategoride gruplandırmak için Microsoft Kavram Çizgesi'ni nasıl kullanabileceğimizi görmek için [MSConceptGraph.tr.ipynb](MSConceptGraph.tr.ipynb) not defterini deneyin.
 
-## Conclusion
+## Vargılar
 
-Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neural Networks*. However, a human being also exhibits explicit reasoning, which is something currently not being handled by neural networks. In real world projects, explicit reasoning is still used to perform tasks that require explanations, or being able to modify the behavior of the system in a controlled way.
+Günümüzde YZ, genellikle *Makine Öğrenmesi* veya *Sinir Ağları* ile eşanlamlı olarak kabul edilir. Bununla birlikte, bir insan aynı zamanda şu anda sinir ağları tarafından ele alınmayan açık bir akıl yürütme sergiler. Gerçek dünya projelerinde, açıklama gerektiren görevleri gerçekleştirmek veya sistemin davranışını kontrollü bir şekilde değiştirebilmek için açık akıl yürütme hala kullanılmaktadır.
 
-## 🚀 Challenge
+## 🚀 Kendini Sınama
 
-In the Family Ontology notebook associated to this lesson, there is an opportunity to experiment with other family relations. Try to discover new connections between people in the family tree.
+Bu dersle ilişkili Aile Ontolojisi defterinde, diğer aile ilişkilerini deneme fırsatı vardır. Soy ağacındaki insanlar arasında yeni bağlantılar keşfetmeye çalışın.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Ders sonrası sınavı](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
 
-## Review & Self Study
+## Gözden Geçirme ve Bireysel Çalışma
 
-Do some research on the internet to discover areas where humans have tried to quantify and codify knowledge. Take a look at Bloom's Taxonomy, and go back in history to learn how humans tried to make sense of their world. Explore the work of Linnaeus to create a taxonomy of organisms, and observe the way Dmitri Mendeleev created a way for chemical elements to be described and grouped. What other interesting examples can you find?
+İnsanların bilgiyi ölçmeye ve kodlamaya çalıştığı alanları keşfetmek için internette biraz araştırma yapın. Bloom'un Taksonomisine bir göz atın ve insanların dünyalarını nasıl anlamlandırmaya çalıştıklarını öğrenmek için tarihe bakın. Linnaeus'un bir organizma sınıflandırması yaratma çalışmalarını keşfedin ve Dmitri Mendeleev'in kimyasal elementlerin tanımlanması ve gruplandırılması için yarattığını yolu gözlemleyin. Başka hangi ilginç örnekleri bulabilirsiniz?
 
-**Assignment**: [Build an Ontology](assignment.md)
+**Ödev**: [Bir Ontoloji Oluşturun](assignment.tr.md)
