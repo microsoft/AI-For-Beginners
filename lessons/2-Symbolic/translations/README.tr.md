@@ -216,7 +216,7 @@ Aile ilişkileri hakkında akıl yürütmede Anlamsal Web tekniklerini kullanma 
 
 Böyle bir girişim Microsoft Research tarafından yapıldı ve [Microsoft Kavram Çizgesi](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-57639-dmitryso) ile sonuçlandı.
 
-It is a large collection of entities grouped together using `is-a` inheritance relationship. It allows answering questions like "What is Microsoft?" - the answer being something like "a company with probability 0.87, and a brand with probability 0.75". `is-a` (bir örneği olma) kalıtım ilişkisi kullanılarak gruplandırılmış geniş bir varlıklar topluluğudur. "Microsoft Nedir?" gibi soruların yanıtlanmasına olanak tanır - cevap, "0.87 bir şirket ve 0.75 olasılıkla bir marka" gibi bir şeydir.
+It is a large collection of entities grouped together using `is-a` inheritance relationship. It allows answering questions like "What is Microsoft?" - the answer being something like "a company with probability 0.87, and a brand with probability 0.75". `is-a` (bir örneği olma) kalıtım ilişkisi kullanılarak gruplandırılmış geniş bir varlıklar topluluğudur. "Microsoft Nedir?" gibi soruların yanıtlanmasına olanak tanır - cevap, "0.87 olasılıkla bir şirket ve 0.75 olasılıkla bir marka" gibi bir şeydir.
 
 Çizge, ya REST API olarak ya da tüm varlık çiftlerini listeleyen büyük bir indirilebilir metin dosyası olarak mevcuttur.
 
