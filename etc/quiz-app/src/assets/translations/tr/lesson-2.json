@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 102,
+        "title": "Bilgi Temsili ve Uzman Sistemler: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "Akıllı sistemler oluşturmaya yönelik yukarıdan aşağıya yaklaşım şunlara dayanıyordu:",
+            "answerOptions": [
+              {
+                "answerText": "bilgi arama ve okuma",
+                "isCorrect": false
+              },
+              {
+                "answerText": "bilgi temsili ve akıl yürütme",
+                "isCorrect": true
+              },
+              {
+                "answerText": "bilgi muhakeme ve arama",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Bilgi ile enformasyon aynıdır:",
+            "answerOptions": [
+              {
+                "answerText": "Doğru",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Yanlış",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Bilgi şu şekilde elde edilir:",
+            "answerOptions": [
+              {
+                "answerText": "etkin öğrenme süreci",
+                "isCorrect": true
+              },
+              {
+                "answerText": "edilgen öğrenme süreci",
+                "isCorrect": false
+              },
+              {
+                "answerText": "bunların ikisi de",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "title": "Bilgi Temsili ve Uzman Sistemler: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Bilgi temsilinin en basit yöntemi şudur:",
+            "answerOptions": [
+              {
+                "answerText": "algoritmik",
+                "isCorrect": true
+              },
+              {
+                "answerText": "simgesel",
+                "isCorrect": false
+              },
+              {
+                "answerText": "sinerjik",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Senaryolar, zamanla ortaya çıkabilecek karmaşık durumları temsil edebilir.",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "İleriye dönük çıkarsama, ilk verilerle başlar ve ardından",
+            "answerOptions": [
+              {
+                "answerText": "bir akıl yürütme döngüsü yürütür",
+                "isCorrect": true
+              },
+              {
+                "answerText": "bir hedef arar",
+                "isCorrect": false
+              },
+              {
+                "answerText": "baştan başlar",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
