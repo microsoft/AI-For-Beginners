@@ -42,8 +42,6 @@ Bu kriter w ağırlıklarının bir fonksiyonu olarak kabul edilir ve bunu en az
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Here &eta; is the so-called **learning rate**, and &nabla;E(w) denotes the **gradient** of E. After we calculate the gradient, we end up with
-
 Burada &eta; sözde **öğrenme oranı** ve &nabla;E(w) E'nin **gradyanını** belirtir. Gradyanı hesapladıktan sonra, aşağıdaki işleme varırız:
 
 w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
@@ -82,7 +80,7 @@ Kendi algılayıcınızı oluşturmaya çalışmak istiyorsanız, [Azure ML tasa
 
 ## Gözden Geçirme ve Bireysel Çalışma
 
-Bir oyuncak probleminin yanı sıra gerçek hayattaki problemleri çözmek için algılayıcıyı nasıl kullanabileceğimizi görmek ve öğrenmeye devam etmek için - [Algılayıcı](./Perceptron.tr.ipynb) not defterine gidin.
+Bir oyuncak probleminin yanı sıra gerçek hayattaki problemleri çözmek için algılayıcıyı nasıl kullanabileceğimizi görmek ve öğrenmeye devam etmek için [Algılayıcı](./Perceptron.tr.ipynb) not defterine gidin.
 
 İşte ilave olarak ilginç bir [algılayıcılar makalesi](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
