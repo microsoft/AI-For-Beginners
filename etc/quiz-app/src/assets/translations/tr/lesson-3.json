@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 103,
+        "title": "Sinir Ağlarına Giriş - Algılayıcı: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "İlk sinir ağları şuna ihtiyaç duyuyordu:",
+            "answerOptions": [
+              {
+                "answerText": "elle ağırlık ayarlama",
+                "isCorrect": true
+              },
+              {
+                "answerText": "terabaytlarca veri",
+                "isCorrect": false
+              },
+              {
+                "answerText": "özel akıl yürütme",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Basit bir nörona 'eşik mantık birimi' de denir",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Algılayıcı bir ___ türü modeldir.",
+            "answerOptions": [
+              {
+                "answerText": "çok sınıflı sınıflandırma",
+                "isCorrect": false
+              },
+              {
+                "answerText": "öbekleme",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ikili sınıflandırma",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "title": "Sinir Ağlarına Giriş - Algılayıcı: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Bir algılayıcı eğitmek için en küçük ___ ile sonlanan ağırlık vektörünü bulun.",
+            "answerOptions": [
+              {
+                "answerText": "boyut",
+                "isCorrect": false
+              },
+              {
+                "answerText": "hata",
+                "isCorrect": true
+              },
+              {
+                "answerText": "düğüm",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Ağırlık işlevini en aza indirirken gradyan inişini kullanabilirsiniz.",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Eğitim esnasında her adımda ___ güncellenir.",
+            "answerOptions": [
+              {
+                "answerText": "öğrenme oranı",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ağırlıklar",
+                "isCorrect": true
+              },
+              {
+                "answerText": "gradyan",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
