@@ -23,7 +23,7 @@ $$
 
 ## GPT is a Family
 
-GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](http://openai.org). The latest model openly available is [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), which has up to 1.5 billion parameters (there are several variations of the model, so you can select one for your tasks that is a good compromise between size/performance). Latest GPT-3 model has up to 175 billion parameters, and is available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-57639-dmitryso), and as [OpenAI API](https://openai.com/api/).
+GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](http://openai.org). The latest model openly available is [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), which has up to 1.5 billion parameters (there are several variations of the model, so you can select one for your tasks that is a good compromise between size/performance). Latest GPT-3 model has up to 175 billion parameters, and is available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), and as [OpenAI API](https://openai.com/api/).
 
 ## Prompt-based Inference
 
