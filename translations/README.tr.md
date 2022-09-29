@@ -27,16 +27,16 @@ Bu müfredatta şunları öğreneceksiniz:
 
 Bu müfredatta neleri ele almayacağız:
 
-* **İşte YZ** kullanımına ilişkin iş vakaları. Microsoft Öğrenme yolunundaki [İş için YZ'ye Giriş](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-57639-dmitryso)'i veya [INSEAD](https://www.insead.edu/) ile işbirliğiyle geliştirilmiş [YZ İş Okulu](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)'nu almayı düşünün.
+* **İşte YZ** kullanımına ilişkin iş vakaları. Microsoft Öğrenme yolunundaki [İş için YZ'ye Giriş](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-cacaste)'i veya [INSEAD](https://www.insead.edu/) ile işbirliğiyle geliştirilmiş [YZ İş Okulu](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste)'nu almayı düşünün.
 * **Klasik Yapay Öğrenme**, [Yeni Başlayanlar için Yapay Öğrenme Müfredatı](http://github.com/Microsoft/ML-for-Beginners)'mızda iyice açıklanmıştır. 
-* **[Bilişsel Hizmetler](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-57639-dmitryso)** kullanılarak oluşturulmuş pratik YZ uygulamaları. Bunun gibi [görme](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-57639-dmitryso), [doğal dil işleme](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso) ve diğerleri için Microsoft Öğrenme modülleriyle başlamanızı öneririz. 
-* [Azure Yapay Öğrenme](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) veya [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-57639-dmitryso) gibi belli YÖ **Bulut Çerçeveleri**. [Azure Yapay Öğrenme ile yapay öğrenme çözümleri oluşturma ve çalıştırma](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-57639-dmitryso) ve [Azure Databricks ile yapay öğrenme çözümleri oluşturma ve çalıştırma](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-57639-dmitryso) öğrenme yollarını kullanmayı düşünün.
-* **Konuşkan YZ** ve **Sohbet Botları**. Ayrı bir [konuşkan YZ çözümleri yaratma](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-57639-dmitryso) öğrenme yolu vardır, ayrıca daha fazla ayrıntı için [bu blog gönderisine](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) bakın.
+* **[Bilişsel Hizmetler](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-cacaste)** kullanılarak oluşturulmuş pratik YZ uygulamaları. Bunun gibi [görme](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-cacaste), [doğal dil işleme](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste) ve diğerleri için Microsoft Öğrenme modülleriyle başlamanızı öneririz. 
+* [Azure Yapay Öğrenme](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) veya [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-cacaste) gibi belli YÖ **Bulut Çerçeveleri**. [Azure Yapay Öğrenme ile yapay öğrenme çözümleri oluşturma ve çalıştırma](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-cacaste) ve [Azure Databricks ile yapay öğrenme çözümleri oluşturma ve çalıştırma](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-cacaste) öğrenme yollarını kullanmayı düşünün.
+* **Konuşkan YZ** ve **Sohbet Botları**. Ayrı bir [konuşkan YZ çözümleri yaratma](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-cacaste) öğrenme yolu vardır, ayrıca daha fazla ayrıntı için [bu blog gönderisine](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) bakın.
 * Derin öğrenmenin ardındaki **Derin Matematik**. Bunun için Ian Goodfellow, Yoshua Bengio ve Aaron Courville tarafından yazılmış [Derin Öğrenme](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) adlı [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) adresinden de ulaşılabilir kitabı tavsiye ediyoruz.
 
-For a gentle introduction to *AI in the Cloud* topics you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-57639-dmitryso) Learning Path.
+For a gentle introduction to *AI in the Cloud* topics you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-cacaste) Learning Path.
 
-*Bulutta Yapay Zeka* konularına nazik bir giriş için [Azure'de yapay zekayı kullanmaya başlama](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-57639-dmitryso) öğrenme yolunu almayı düşünebilirsiniz. 
+*Bulutta Yapay Zeka* konularına nazik bir giriş için [Azure'de yapay zekayı kullanmaya başlama](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-cacaste) öğrenme yolunu almayı düşünebilirsiniz. 
 
 ---
 # İçerik
@@ -61,11 +61,11 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
    <td><a href="../lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb">Keras</a>/<a href="../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb">TensorFlow</a></td>
    <td><a href="../lessons/3-NeuralNetworks/05-Frameworks/lab/README.md">Lab</a></td></tr>
 <tr><td>IV</td><td><b><a href="../lessons/4-ComputerVision/README.md">Bilgisayarla Görme</a></b></td>
-  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-57639-dmitryso"><i>YZ Temelleri: Bilgisayarla Görmeyi Keşfedin</i></a></td>
+  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste"><i>YZ Temelleri: Bilgisayarla Görmeyi Keşfedin</i></a></td>
   <td></td></tr>
 <tr><td></td><td colspan="2"><i>Bilgisayarla Görmede Microsoft Öğrenme Modülü</i></td>
-  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-57639-dmitryso"><i>PyTorch</i></a></td>
-  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-57639-dmitryso"><i>TensorFlow</i></a></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
   <td></td></tr>
 <tr><td>6</td><td>Bilgisayarla Görmeye Giriş. OpenCV</td><td><a href="../lessons/4-ComputerVision/06-IntroCV/README.md">Metin</a><td colspan="2"><a href="../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb">Defter</a></td><td><a href="../lessons/4-ComputerVision/06-IntroCV/lab/README.md">Lab</a></td></tr>
 <tr><td>7</td><td>Evrişimli Sinir Ağları<br/>CNN Mimarileri</td><td><a href="../lessons/4-ComputerVision/07-ConvNets/README.md">Metin</a><br/><a href="../lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="../lessons/4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
@@ -75,11 +75,11 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>11</td><td>Nesne Tespiti</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/README.md">Metin</a></td><td>PyTorch</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb">TensorFlow</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
 <tr><td>12</td><td>Anlamsal Bölünme. U-Net</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/README.md">Metin</a></td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
 <tr><td>V</td><td><b><a href="../lessons/5-NLP/README.md">Doğal Dil İşleme</a></b></td>
-   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso"><i>YZ Temelleri: Doğal Dil İşlemeyi Keşfedin</i></a></td>
+   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste"><i>YZ Temelleri: Doğal Dil İşlemeyi Keşfedin</i></a></td>
    <td></td></tr>
 <tr><td></td><td colspan="2"><i>Doğal Dil Üstüne Microsoft Öğrenme Modülü</i></td>
-   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso"><i>PyTorch</i></a></td>
-   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso"><i>TensorFlow</i></a></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
    <td></td></tr>
 <tr><td>13</td><td>Metin Temsili. Bow/TF-IDF</td><td><a href="../lessons/5-NLP/13-TextRep/README.md">Metin</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
 <tr><td>14</td><td>Anlamsal kelime gömmeleri. Word2Vec and GloVe</td><td><a href="../lessons/5-NLP/14-Embeddings/README.md">Metin</td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
@@ -94,7 +94,7 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
 <tr><td>22</td><td>Derin Pekiştirmeli Öğrenme</td><td><a href="../lessons/6-Other/22-DeepRL/README.md">Metin</a></td><td></td><td><a href="../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</td><td><a href="../lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
 <tr><td>23</td><td>Çok Etmenli Sistemler</td><td><a href="../lessons/6-Other/23-MultiagentSystems/README.md">Metin</a></td><td></td><td></td><td></td></tr>
 <tr><td>VII</td><td colspan="4"><b>YZ Etiği</b></td><td></td></tr>
-<tr><td>24</td><td>YZ Etiği ve Sorumlu YZ</td><td><a href="../lessons/7-Ethics/README.md">Metin</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso"><i>Microsoft Öğrenme Modülü: Sorumlu YZ İlkeleri</i></a></td><td></td></tr>
+<tr><td>24</td><td>YZ Etiği ve Sorumlu YZ</td><td><a href="../lessons/7-Ethics/README.md">Metin</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste"><i>Microsoft Öğrenme Modülü: Sorumlu YZ İlkeleri</i></a></td><td></td></tr>
 <tr><td></td><td colspan="4"><b>Ekstralar</b></td><td></td></tr>
 <tr><td>X1</td><td>Çok Modlu Ağlar, CLIP and VQGAN</td><td><a href="../lessons/X-Extras/X1-MultiModal/README.md">Metin</a></td><td colspan="2"><a href="../lessons/X-Extras/X1-MultiModal/Clip.ipynb">Defter</a></td><td></td></tr>
 </table>
@@ -122,7 +122,7 @@ Ancak, dersi kendi kendine çalışma projesi olarak almak istiyorsanız, tüm d
 - "Yüksek sesle öğrenmek" için [tartışma panosunu](https://github.com/microsoft/AI-For-Beginners/discussions) ziyaret edin.
 - Diğer öğrencilerle [Gitter](https://gitter.im/Microsoft/ai-for-beginners)'da veya [Telegram kanalı](http://t.me/ai_for_beginners)nda konuşun.
 
-> Daha fazla çalışma için bu [Microsoft Öğrenme](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) modüllerini ve öğrenme yollarını takip etmenizi öneririz.
+> Daha fazla çalışma için bu [Microsoft Öğrenme](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) modüllerini ve öğrenme yollarını takip etmenizi öneririz.
 
 **Eğitimciler**, bu müfredatın nasıl kullanılacağına ilişkin [bazı öneriler ekledik](/etc/for-teachers.md).
 
