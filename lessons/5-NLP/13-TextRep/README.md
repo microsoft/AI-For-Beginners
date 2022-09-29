@@ -68,6 +68,6 @@ Try some other exercises using bag-of-words and different data models. You might
 
 ## Review & Self Study
 
-Practice your skills with text embeddings and bag-of-words techniques on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso)
+Practice your skills with text embeddings and bag-of-words techniques on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
 
 ## [Assignment: Notebooks](assignment.md)

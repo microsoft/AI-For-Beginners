@@ -27,14 +27,14 @@
 
 本カリキュラムで扱わない内容
 
-* **AIをビジネスで活用するためのビジネスケース**。Microsoft Learnの学習パス[ビジネスユーザーのためのAI入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-57639-dmitryso)や、[INSEAD](https://www.insead.edu/)と共同で開発した[AIビジネススクール](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)の受講をご検討ください。
+* **AIをビジネスで活用するためのビジネスケース**。Microsoft Learnの学習パス[ビジネスユーザーのためのAI入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-cacaste)や、[INSEAD](https://www.insead.edu/)と共同で開発した[AIビジネススクール](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste)の受講をご検討ください。
 * **古典的な機械学習**については、[初心者のための機械学習カリキュラム](http://github.com/Microsoft/ML-for-Beginners)で十分に説明されています。
-* **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-57639-dmitryso)** を利用して構築された実践的なAIアプリケーション。これには、Microsoft Learnの[ビジョン](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-57639-dmitryso)、[自然言語処理](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso)などのモジュールから始めることをお勧めします。
-* [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) や [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-57639-dmitryso) などの特定のML **Cloud Frameworks** を利用する [Azure Machine Learning による機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-57639-dmitryso)、[Azure Databricksによる機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-57639-dmitryso) の学習パスの利用を検討します。
-* **会話型AI**と**Chat Bots**。別途、[Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-57639-dmitryso) という学習パスがあり、詳しくは[こちらのブログ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) も参照してください。
+* **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-cacaste)** を利用して構築された実践的なAIアプリケーション。これには、Microsoft Learnの[ビジョン](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-cacaste)、[自然言語処理](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste)などのモジュールから始めることをお勧めします。
+* [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) や [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-cacaste) などの特定のML **Cloud Frameworks** を利用する [Azure Machine Learning による機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-cacaste)、[Azure Databricksによる機械学習ソリューションの構築と運用](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-cacaste) の学習パスの利用を検討します。
+* **会話型AI**と**Chat Bots**。別途、[Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-cacaste) という学習パスがあり、詳しくは[こちらのブログ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) も参照してください。
 * **ディープラーニングの背後にある深層数学**。これについては、Ian Goodfellow、Yoshua Bengio、Aaron Courvilleによる[Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618)をお勧めします。また、[https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) で公開されています。
 
-クラウドにおける*AI*のトピックを優しく紹介するために、[Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-57639-dmitryso) Learning Pathの受講を検討してもよいでしょう。
+クラウドにおける*AI*のトピックを優しく紹介するために、[Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-cacaste) Learning Pathの受講を検討してもよいでしょう。
 
 ---
 # コンテンツ
@@ -59,11 +59,11 @@
    <td><a href="../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.md">Keras/TensorFlow</td>
    <td><a href="../lessons/3-NeuralNetworks/05-Frameworks/lab/README.md">Lab</a></td></tr>
 <tr><td>IV</td><td><b><a href="../lessons/4-ComputerVision/README.md">コンピュータビジョン</a></b></td>
-  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-57639-dmitryso"><i>AIファンダメンタルズ コンピュータビジョンの探求</i></a></td>
+  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste"><i>AIファンダメンタルズ コンピュータビジョンの探求</i></a></td>
   <td></td></tr>
 <tr><td></td><td colspan="2"><i>Microsoft Learn Module - コンピュータビジョン</i></td>
-  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-57639-dmitryso"><i>PyTorch</i></a></td>
-  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-57639-dmitryso"><i>TensorFlow</i></a></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
+  <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
   <td></td></tr>
 <tr><td>6</td><td>コンピュータビジョン入門 OpenCV</td><td><a href="../lessons/4-ComputerVision/06-IntroCV/README.md">Text</a><td colspan="2"><a href="../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb">Notebook</a></td><td><a href="../lessons/4-ComputerVision/06-IntroCV/lab/README.md">Lab</a></td></tr>
 <tr><td>7</td><td>畳み込みニューラルネットワーク<br/>CNN アーキテクチャ</td><td><a href="../lessons/4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="../lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="../lessons/4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
@@ -73,11 +73,11 @@
 <tr><td>11</td><td>オブジェクト検出</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/README.md">Text</a></td><td>PyTorch</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection-TF.ipynb">TensorFlow</td><td><a href="../lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
 <tr><td>12</td><td>セマンティック・セグメンテーション U-Net</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/README.md">Text</a></td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
 <tr><td>V</td><td><b><a href="../lessons/5-NLP/README.md">自然言語処理</a></b></td>
-   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso"><i>AIファンダメンタルズ 自然言語処理の探究</i></a></td>
+   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste"><i>AIファンダメンタルズ 自然言語処理の探究</i></a></td>
    <td></td></tr>
 <tr><td></td><td colspan="2"><i>Microsoft Learn Module - 自然言語</i></td>
-   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso"><i>PyTorch</i></a></td>
-   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso"><i>TensorFlow</i></a></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
+   <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
    <td></td></tr>
 <tr><td>13</td><td>文書表現 Bow/TF-IDF</td><td><a href="../lessons/5-NLP/13-TextRep/README.md">Text</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
 <tr><td>14</td><td>セマンティックな単語の埋め込み Word2Vec と GloVe</td><td><a href="../lessons/5-NLP/14-Embeddings/README.md">Text</td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="../lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
@@ -92,7 +92,7 @@
 <tr><td>22</td><td>深層強化学習</td><td><a href="../lessons/6-Other/22-DeepRL/README.md">Text</a></td><td></td><td><a href="../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</td><td><a href="../lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
 <tr><td>23</td><td>マルチエージェントシステム</td><td><a href="../lessons/6-Other/23-MultiagentSystems/README.md">Text</a></td><td></td><td></td><td></td></tr>
 <tr><td>VII</td><td colspan="4"><b>AI倫理</b></td><td></td></tr>
-<tr><td>24</td><td>AI 倫理と責任ある AI のあり方</td><td><a href="../lessons/7-Ethics/README.md">Text</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso"><i>MS Learn: Responsible AI Principles</i></a></td><td></td></tr>
+<tr><td>24</td><td>AI 倫理と責任ある AI のあり方</td><td><a href="../lessons/7-Ethics/README.md">Text</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste"><i>MS Learn: Responsible AI Principles</i></a></td><td></td></tr>
 <tr><td></td><td colspan="4"><b>Extras</b></td><td></td></tr>
 <tr><td>X1</td><td>マルチモーダルネットワーク、CLIP、VQGAN</td><td><a href="../lessons/X-Extras/X1-MultiModal/README.md">Text</a></td><td colspan="2"><a href="../lessons/X-Extras/X1-MultiModal/Clip.ipynb">Notebook</a></td><td></td></tr>
 </table>
@@ -121,7 +121,7 @@
 - [議論ボード](https://github.com/microsoft/AI-For-Beginners/discussions)にアクセスして「大きく声を出して」学ぼう
 - 他の学習者と [Gitter](https://gitter.im/Microsoft/ai-for-beginners) または [Telegram チャンネル](http://t.me/ai_for_beginners)でチャットすることができます。
 
-> さらに学習を進めるには、以下の [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-57639-dmitryso) のモジュールとラーニングパスに沿って学習することをお勧めします。
+> さらに学習を進めるには、以下の [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) のモジュールとラーニングパスに沿って学習することをお勧めします。
 
 **先生方**、このカリキュラムをどのように使うかのいくつかの提案](/etc/for-teachers.md)を参考にしてください。
 
