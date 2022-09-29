@@ -214,7 +214,7 @@ Aile ilişkileri hakkında akıl yürütmede Anlamsal Web tekniklerini kullanma 
 
 Çoğu durumda, ontolojiler dikkatle elle oluşturulur. Bununla birlikte, örneğin doğal dil metinlerinden yapılandırılmamış verilerden ontolojiler **çıkarmak** da mümkündür.
 
-Böyle bir girişim Microsoft Research tarafından yapıldı ve [Microsoft Kavram Çizgesi](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-57639-dmitryso) ile sonuçlandı.
+Böyle bir girişim Microsoft Research tarafından yapıldı ve [Microsoft Kavram Çizgesi](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste) ile sonuçlandı.
 
 `is-a` (bir örneği olma) kalıtım ilişkisi kullanılarak gruplandırılmış geniş bir varlıklar topluluğudur. "Microsoft Nedir?" gibi soruların yanıtlanmasına olanak tanır - cevap, "0.87 olasılıkla bir şirket ve 0.75 olasılıkla bir marka" gibi bir şeydir.
 

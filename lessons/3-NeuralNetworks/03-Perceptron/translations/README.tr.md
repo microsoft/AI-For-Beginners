@@ -74,7 +74,7 @@ Bu derste, ikili sınıflandırma modeli olan algılayıcıyı ve ağırlık vek
 
 ## 🚀 Kendini Sınama
 
-Kendi algılayıcınızı oluşturmaya çalışmak istiyorsanız, [Azure ML tasarımcısını (Azure ML designer)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-57639-dmitryso) kullanan [Microsoft Learn'deki bu laboratuvarı](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-57639-dmitryso) deneyin.
+Kendi algılayıcınızı oluşturmaya çalışmak istiyorsanız, [Azure ML tasarımcısını (Azure ML designer)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) kullanan [Microsoft Learn'deki bu laboratuvarı](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) deneyin.
 
 ## [Ders sonrası sınavı](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
 
