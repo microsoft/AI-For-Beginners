@@ -35,7 +35,7 @@ pip install -r requirements-torch.txt
 pip install -r requirements-tf.txt
 ```
 
-> You can try NLP with TensorFlow on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-57639-dmitryso)
+> You can try NLP with TensorFlow on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-77998-cacaste)
 
 ## GPU Warning
 

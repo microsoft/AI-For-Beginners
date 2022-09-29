@@ -8,7 +8,7 @@
      - Bottom-up/Neural
      - Evolutionary
      - Synergetic / Emergent AI
- - [Microsoft AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-57639-dmitryso)
+ - [Microsoft AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste)
 
 ## [Sybmbolic AI](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
  - Knowledge Representation
@@ -26,9 +26,9 @@
 
 ## [Computer Vision](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/README.md)
  - On MS Learn
-    - [AI Fundamentals: Explore Computer Vision](https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-57639-dmitryso)
-    - [CV with PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-57639-dmitryso)
-    - [CV with TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-57639-dmitryso)
+    - [AI Fundamentals: Explore Computer Vision](https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste)
+    - [CV with PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste)
+    - [CV with TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)
  - [Intro to CV. OpenCV](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/06-IntroCV/README.md)
  - [Convolutional Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/README.md)
    - [CNN Architectures](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)
@@ -42,9 +42,9 @@
  
 ## [Natural Language Processing](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/README.md)
  - On MS Learn
-    - [AI Fundamentals: Explore NLP](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-57639-dmitryso)
-    - [NLP with PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-57639-dmitryso)
-    - [NLP with TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-57639-dmitryso)
+    - [AI Fundamentals: Explore NLP](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste)
+    - [NLP with PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
+    - [NLP with TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste)
  - [Text Representation](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/README.md)
     - Bag of Words
     - TF/IDF
@@ -65,7 +65,7 @@
  - [Multi-Agent Systems](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/23-MultiagentSystems/README.md)
 
 ## [AI Ethics](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/7-Ethics/README.md)
- - [MS Learn on Responsible AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-57639-dmitryso)
+ - [MS Learn on Responsible AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste)
 ## Extras
  - [Multimodal Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/README.md)
    - [CLIP](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/Clip.ipynb)
