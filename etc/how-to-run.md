@@ -17,7 +17,7 @@ conda activate ai4beg
 
 ### Using Visual Studio Code with Python Extension
 
-Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-57639-dmitryso) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-57639-dmitryso).
+Probably the best way to use the curriculum is to open it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
 > **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above.
 
@@ -52,12 +52,12 @@ If you do not want to install Python locally, and have access to some cloud reso
 
 ## Running in the Cloud with GPU
 
-Some of the later lessons in this curriculum would greatly benefit from GPU support, because otherwise training will be painfully slow. There are a few options you can follow, especially if you have access to the cloud either through [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-57639-dmitryso), or through your institution:
+Some of the later lessons in this curriculum would greatly benefit from GPU support, because otherwise training will be painfully slow. There are a few options you can follow, especially if you have access to the cloud either through [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), or through your institution:
 
-* Create [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-57639-dmitryso) and connect to it through Jupyter. You can then clone the repo right onto the machine, and start learning. NC-series VMs have GPU support.
+* Create [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) and connect to it through Jupyter. You can then clone the repo right onto the machine, and start learning. NC-series VMs have GPU support.
 
 > **Note**: Some subscriptions, including Azure for Students, do not provide GPU support out of the box. You may need to request additional GPU cores through technical support request.
 
-* Create [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-57639-dmitryso) and then use Notebook feature there. [This video](https://azure-for-academics.github.io/quickstart/azureml-papers/) shows how to clone a repository into Azure ML notebook and start using it.
+* Create [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) and then use Notebook feature there. [This video](https://azure-for-academics.github.io/quickstart/azureml-papers/) shows how to clone a repository into Azure ML notebook and start using it.
 
 You can also use Google Colab, which comes with some free GPU support, and upload Jupyter Notebooks there to execute them one-by-one.

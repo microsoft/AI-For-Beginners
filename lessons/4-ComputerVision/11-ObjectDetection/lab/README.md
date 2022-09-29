@@ -54,10 +54,10 @@ In this dataset, there is only one class of objects `head`, and for each head, y
 
 You can train an object detection model using one of the following ways:
 
-* Using [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-57639-dmitryso) and it's Python API to programmatically train the model in the cloud. Custom vision will not be able to use more than a few hundred images for training the model, so you may need to limit the dataset.
+* Using [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) and it's Python API to programmatically train the model in the cloud. Custom vision will not be able to use more than a few hundred images for training the model, so you may need to limit the dataset.
 * Using the example from [Keras tutorial](https://keras.io/examples/vision/retinanet/) to train RetunaNet model.
 * Using [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) build-in module in torchvision.
 
 ## Takeaway
 
-Object detection is a task that is frequently required in industry. While there are some services that can be used to perform object detection (such as [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-57639-dmitryso)), it is important to understand how object detection works and to be able to train your own models. 
+Object detection is a task that is frequently required in industry. While there are some services that can be used to perform object detection (such as [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), it is important to understand how object detection works and to be able to train your own models. 
