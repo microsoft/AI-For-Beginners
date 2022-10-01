@@ -14,7 +14,7 @@ Python'da farklı sinir ağı mimarileri oluşturmamıza izin verecek kendi mod�
 
 ## Makine Öğrenmesinin Formülleştirilmesi
 
-Makine Öğrenmesi problemini formülleştirerek başlayalım. **Y** etiketli bir **X** eğitim veri kümemiz olduğunu ve en doğru tahminleri yapacak bir *f* modeli oluşturmamız gerektiğini varsayalım. Tahminlerin kalitesi **Kayıp işlevi** &lagran; ile ölçülür. Aşağıdaki kayıp fonksiyonları sıklıkla kullanılır:
+Makine Öğrenmesi problemini formülleştirerek başlayalım. **Y** etiketli bir **X** eğitim veri kümemiz olduğunu ve en doğru tahminleri yapacak bir *f* modeli oluşturmamız gerektiğini varsayalım. Tahminlerin kalitesi **kayıp işlevi** &lagran; ile ölçülür. Aşağıdaki kayıp fonksiyonları sıklıkla kullanılır:
 
 * Bağlanım problemi için, bir sayıyı tahmin etmemiz gerektiğinde, **mutlak hata** &sum;<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>| veya **kare hatası** &sum;<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i )</sup>)<sup>2</sup> kullanabiliriz.
 * Sınıflandırma için **0-1 kaybı** (esas olarak modelin **doğruluğu** ile aynıdır) veya **lojistik kayıp** kullanırız.
