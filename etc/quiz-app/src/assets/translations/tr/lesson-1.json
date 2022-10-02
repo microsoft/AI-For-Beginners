@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 101,
+        "title": "YZ'ye giriş: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "19. yüzyılın ünlü bir öncü-bilgisayar mühendisidir",
+            "answerOptions": [
+              {
+                "answerText": "Charles Barkley",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Charles Babbage",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Charles Darwin",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Zayıf AI, birçok görevi çözmek için tasarlanmış bir sistemdir",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Sohbet botları gerçekten akıllı sistemlerin bir örneğidir.",
+            "answerOptions": [
+              {
+                "answerText": "Yanlış, genellikle bir dizi kuralla tasarlanırlar.",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Doğru, genellikle zeki olarak kabul edilirler.",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Yanlış, ancak daha karmaşık hale geldikçe Turing testlerini giderek daha fazla geçebiliyorlar.",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "title": "YZ'ye giriş: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Hangisi YZ'ye yukarıdan aşağıya bir yaklaşım, bir akıl yürütme modelidir.",
+            "answerOptions": [
+              {
+                "answerText": "stratejik akıl yürütme",
+                "isCorrect": false
+              },
+              {
+                "answerText": "simgesel akıl yürütme",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sinerjik akıl yürütme",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "YZ'ye aşağıdan yukarıya bir yaklaşım, sinir ağlarına dayanmaktadır.",
+            "answerOptions": [
+              {
+                "answerText": "Doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "YZ Kışı bu dönemde meydana geldi.",
+            "answerOptions": [
+              {
+                "answerText": "1950ler",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1960lar",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1970ler",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
