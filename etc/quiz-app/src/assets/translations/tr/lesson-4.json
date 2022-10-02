@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 104,
+        "title": "Sinir Ağları: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "Tahminin kalitesi kayıp fonksiyonu ile ölçülür",
+            "answerOptions": [
+              {
+                "answerText": "Doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Tek katmanlı ağ ____ sınıflandırma yeteneğine sahiptir",
+            "answerOptions": [
+              {
+                "answerText": "doğrusal olarak birleştirilmiş sınıfları",
+                "isCorrect": false
+              },
+              {
+                "answerText": "doğrusal olarak ayrılabilir sınıfları",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sınıfların tek katmanlarını",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Çok katmanlı algılayıcıyı eğitme yöntemine ____ denir.",
+            "answerOptions": [
+              {
+                "answerText": "geri yayma",
+                "isCorrect": true
+              },
+              {
+                "answerText": "çoklu yayma",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ön yayma",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "title": "Sinir Aşları: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Bağlanım kaybı fonksiyonları için ____ kullanıyoruz",
+            "answerOptions": [
+              {
+                "answerText": "mutlak hata",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ortalama kare hata",
+                "isCorrect": false
+              },
+              {
+                "answerText": "yukarıdakilerin hepsi",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Biri hariç hepsi bir tür sınıflandırma kaybı fonksiyonudur",
+            "answerOptions": [
+              {
+                "answerText": "0-1 kaybı",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ikili kayıp",
+                "isCorrect": true
+              },
+              {
+                "answerText": "lojistik kayıp",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Çapraz entropi kaybı, iki rastgele olasılık dağılımı arasındaki benzerliği hesaplayabilen bir fonksiyondur.",
+            "answerOptions": [
+              {
+                "answerText": "Doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Yanlış",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
