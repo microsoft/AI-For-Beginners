@@ -69,9 +69,9 @@ Bir imgeyi sinir ağına beslemeden önce, birkaç ön işleme adımı uygulamak
 
 > [OpenCV.tr.ipynb](OpenCV.tr.ipynb)'den imge
 
-* **Kare farklılığını kullanarak videodaki hareketi algılama**. Kamera sabitse, kamera beslemesindeki kareler birbirine oldukça benzer olmalıdır. Kareler dizilimler olarak temsil edildiğinden, yalnızca bu dizilimleri sonraki iki kare için çıkararak, statik kareler için düşük olması gereken ve imgede önemli bir hareket olduğunda daha yüksek olması gereken piksel farkını elde ederiz.
+* **Kare farkını kullanarak videodaki hareketi algılama**. Kamera sabitse, kamera beslemesindeki kareler birbirine oldukça benzer olmalıdır. Kareler dizilimler olarak temsil edildiğinden, yalnızca bu dizilimleri sonraki iki kare için çıkararak, statik kareler için düşük olması gereken ve imgede önemli bir hareket olduğunda daha yüksek olması gereken piksel farkını elde ederiz.
 
-![Video karelerinin imgesi ve kare farklılıkları](../images/frame-difference.png)
+![Video karelerinin imgesi ve kare farkları](../images/frame-difference.png)
 
 > [OpenCV.tr.ipynb](OpenCV.tr.ipynb)'den imge
 
