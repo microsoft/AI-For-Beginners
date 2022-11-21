@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 106,
+        "title": "Bilgisayarla Görmeye Giriş: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "Bilgisayarla görme, bilgisayarların _____ hakkında anlayış kazanmasını sağlamayı amaçlar.",
+            "answerOptions": [
+              {
+                "answerText": "imgeler",
+                "isCorrect": true
+              },
+              {
+                "answerText": "metin",
+                "isCorrect": false
+              },
+              {
+                "answerText": "bilgisayar",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Görüntü işleme için kullanılabilen Python kütüphaneleri şunları içerir:",
+            "answerOptions": [
+              {
+                "answerText": "OpenCV",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Pillow",
+                "isCorrect": false
+              },
+              {
+                "answerText": "a ve b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "İmgeler, Python'da NumPy dizilimleri olarak temsil edilemez",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": false
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "title": "Bilgisayarla Görmeye Giriş: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Optik Akış, video karelerindeki her bir pikselin nasıl hareket ettiğini anlamamıza yardımcı olur.",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "_____ her pikselin nereye hareket ettiğini gösteren vektör alanını hesaplar.",
+            "answerOptions": [
+              {
+                "answerText": "Seyrek Optik Akış",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Yoğun Optik Akış",
+                "isCorrect": true
+              },
+              {
+                "answerText": "hiç biri",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Yeniden Boyutlandırma ve Bulanıklaştırma ne esnasında atılabilecek adımlardır?",
+            "answerOptions": [
+              {
+                "answerText": "ön işleme",
+                "isCorrect": true
+              },
+              {
+                "answerText": "eğitim",
+                "isCorrect": false
+              },
+              {
+                "answerText": "imge dönüşümü",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
