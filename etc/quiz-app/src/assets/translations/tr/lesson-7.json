@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Yeni Başlayanlar İçin YZ: Sınavlar",
+    "complete": "Tebrikler, sınavı tamamladınız!",
+    "error": "Üzgünüz, tekrar deneyin",
+    "quizzes": [
+      {
+        "id": 107,
+        "title": "Evrişimli Sinir Ağları: Ön Sınav",
+        "quiz": [
+          {
+            "questionText": "İmgelerden örüntü çıkarmak için ne kullanırız?",
+            "answerOptions": [
+              {
+                "answerText": "evrişimli filtreler",
+                "isCorrect": true
+              },
+              {
+                "answerText": "çıkarıcılar",
+                "isCorrect": false
+              },
+              {
+                "answerText": "filtreler",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Bunlardan birisi CNN Mimarisi değildir:",
+            "answerOptions": [
+              {
+                "answerText": "ResNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "MobileNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "TensorFlow",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "CNN çoğunlukla bilgisayarla görme görevleri için kullanılır.",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "title": "Evrişimli Sinir Ağları: Ders Sonrası Sınavı",
+        "quiz": [
+          {
+            "questionText": "Hangi ortaklama katmanı imgenin boyutunu \"küçültmek\" için kullanılır ?",
+            "answerOptions": [
+              {
+                "answerText": "ortalama ortaklama",
+                "isCorrect": false
+              },
+              {
+                "answerText": "azami ortaklama",
+                "isCorrect": false
+              },
+              {
+                "answerText": "a ve b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Evrişimli ağlar çok daha iyi genelleştirir.",
+            "answerOptions": [
+              {
+                "answerText": "Doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Yanlış",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Sinir ağımızı eğitmek için imgeleri tensörlere dönüştürmemiz gerekir.",
+            "answerOptions": [
+              {
+                "answerText": "doğru",
+                "isCorrect": true
+              },
+              {
+                "answerText": "yanlış",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
