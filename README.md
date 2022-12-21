@@ -107,8 +107,8 @@ Some sections also contain links to **MS Learn** modules that cover related topi
 
 Get started with the following resources:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77807-sagibbon) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
-- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77807-sagibbon) Join a global community of student ambassadors, this could be your way into Microsoft.
+- [Student Hub page](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
+- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Join a global community of student ambassadors, this could be your way into Microsoft.
 
 # Getting Started
 
