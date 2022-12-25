@@ -175,3 +175,4 @@ Our team produces other curricula! Check out:
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
