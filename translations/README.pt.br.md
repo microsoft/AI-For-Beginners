@@ -42,94 +42,94 @@ Para uma introdução suave aos tópicos de *AI in the Cloud*, considere fazer o
 <table>
 <tr><th>No</th><th>Lesson</th><th>Intro</th><th>PyTorch</th><th>Keras/TensorFlow</th><th>Lab</th></tr>
 
-<tr><td>I</td><td colspan="4"><b>Introduction to AI</b></td><td></td></tr>
-<tr><td>1</td><td>Introduction and History of AI</td><td><a href="lessons/1-Intro/README.md">Text</a></td><td></td><td></td><td></td></tr>
+<tr><td>I</td><td colspan="4"><b>Introdução à IA</b></td><td></td></tr>
+<tr><td>1</td><td>Introdução e história da IA</td><td><a href="lessons/1-Intro/README.md">Texto</a></td><td></td><td></td><td></td></tr>
 
-<tr><td>II</td><td colspan="4"><b>Symbolic AI</b></td><td></td></tr>
-<tr><td>2 </td><td>Knowledge Representation and Expert Systems</td><td><a href="lessons/2-Symbolic/README.md">Text</a></td><td colspan="2"><a href="lessons/2-Symbolic/Animals.ipynb">Expert System</a>, <a href="lessons/2-Symbolic/FamilyOntology.ipynb">Ontology</a>, <a href="lessons/2-Symbolic/MSConceptGraph.ipynb">Concept Graph</a></td><td></td></tr>
-<tr><td>III</td><td colspan="4"><b><a href="lessons/3-NeuralNetworks/README.md">Introduction to Neural Networks</a></b></td><td></td></tr>
+<tr><td>II</td><td colspan="4"><b>IA Simbólica</b></td><td></td></tr>
+<tr><td>2 </td><td>Representação do Conhecimento e Sistemas Especialistas</td><td><a href="lessons/2-Symbolic/README.md">Texto</a></td><td colspan="2"><a href="lessons/2-Symbolic/Animals.ipynb">Sistema Inteligente</a>, <a href="lessons/2-Symbolic/FamilyOntology.ipynb">Ontologia</a>, <a href="lessons/2-Symbolic/MSConceptGraph.ipynb">Gráfico Conceitual</a></td><td></td></tr>
+<tr><td>III</td><td colspan="4"><b><a href="lessons/3-NeuralNetworks/README.md">Introdução às Redes Neurais</a></b></td><td></td></tr>
 <tr><td>3</td><td>Perceptron</td>
    <td><a href="lessons/3-NeuralNetworks/03-Perceptron/README.md">Text</a>
    <td colspan="2"><a href="lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb">Notebook</a></td><td><a href="lessons/3-NeuralNetworks/03-Perceptron/lab/README.md">Lab</a></td></tr>
-<tr><td>4 </td><td>Multi-Layered Perceptron and Creating our own Framework</td><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/README.md">Text</a></td><td colspan="2"><a href="lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb">Notebook</a><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md">Lab</a></td></tr> 
+<tr><td>4 </td><td>Perceptron multicamadas e criando nosso próprio Framework</td><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/README.md">Texto</a></td><td colspan="2"><a href="lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb">Notebook</a><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md">Lab</a></td></tr> 
 <tr><td>5</td>
-   <td>Intro to Frameworks (PyTorch/TensorFlow)<br/>Overfitting</td>
-   <td><a href="lessons/3-NeuralNetworks/05-Frameworks/README.md">Text</a><br/><a href="lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md">Text</a></td>
+   <td>Introdução aos Frameworks (PyTorch/TensorFlow)<br/>Sobreajuste</td>
+   <td><a href="lessons/3-NeuralNetworks/05-Frameworks/README.md">Texo</a><br/><a href="lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md">Texto</a></td>
    <td><a href="lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb">PyTorch</a></td>
    <td><a href="lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb">Keras</a>/<a href="lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb">TensorFlow</a></td>
    <td><a href="lessons/3-NeuralNetworks/05-Frameworks/lab/README.md">Lab</a></td></tr>
-<tr><td>IV</td><td><b><a href="lessons/4-ComputerVision/README.md">Computer Vision</a></b></td>
-  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste"><i>AI Fundamentals: Explore Computer Vision</i></a></td>
+<tr><td>IV</td><td><b><a href="lessons/4-ComputerVision/README.md">Visão Computacional</a></b></td>
+  <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste"><i>Fundamentos da IA: explore a Visão Computacional</i></a></td>
   <td></td></tr>
-<tr><td></td><td colspan="2"><i>Microsoft Learn Module on Computer Vision</i></td>
+<tr><td></td><td colspan="2"><i>Módulo Microsoft Learn sobre Visão Computacional</i></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
   <td><a href="https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
   <td></td></tr>
-<tr><td>6</td><td>Intro to Computer Vision. OpenCV</td><td><a href="lessons/4-ComputerVision/06-IntroCV/README.md">Text</a><td colspan="2"><a href="lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb">Notebook</a></td><td><a href="lessons/4-ComputerVision/06-IntroCV/lab/README.md">Lab</a></td></tr>
-<tr><td>7</td><td>Convolutional Neural Networks<br/>CNN Architectures</td><td><a href="lessons/4-ComputerVision/07-ConvNets/README.md">Text</a><br/><a href="lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md">Text</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
-<tr><td>8</td><td>Pre-trained Networks and Transfer Learning<br/>Training Tricks</td><td><a href="lessons/4-ComputerVision/08-TransferLearning/README.md">Text</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md">Text</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb">Dropout sample</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/AdversarialCat_TF.ipynb">Adversarial Cat</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/lab/README.md">Lab</a></td></tr>
-<tr><td>9</td><td>Autoencoders and VAEs</td><td><a href="lessons/4-ComputerVision/09-Autoencoders/README.md">Text</a></td><td><a href="lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>10</td><td>Generative Adversarial Networks<br/>Artistic Style Transfer</td><td><a href="lessons/4-ComputerVision/10-GANs/README.md">Text</a></td><td><a href="lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb">PyTorch</td><td><a href="lessons/4-ComputerVision/10-GANs/GANTF.ipynb">TensorFlow GAN</a><br/><a href="lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb">Style Transfer</a></td><td></td></tr>
-<tr><td>11</td><td>Object Detection</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/README.md">Text</a></td><td>PyTorch</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb">TensorFlow</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
-<tr><td>12</td><td>Semantic Segmentation. U-Net</td><td><a href="lessons/4-ComputerVision/12-Segmentation/README.md">Text</a></td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
-<tr><td>V</td><td><b><a href="lessons/5-NLP/README.md">Natural Language Processing</a></b></td>
-   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste"><i>AI Fundamentals: Explore Natural Language Processing</i></a></td>
+<tr><td>6</td><td>Introdução à Visão Computacional. OpenCV</td><td><a href="lessons/4-ComputerVision/06-IntroCV/README.md">Texto</a><td colspan="2"><a href="lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb">Notebook</a></td><td><a href="lessons/4-ComputerVision/06-IntroCV/lab/README.md">Lab</a></td></tr>
+<tr><td>7</td><td>Redes Neurais Convolucionais<br/>Arquiteturas CNN</td><td><a href="lessons/4-ComputerVision/07-ConvNets/README.md">Texto</a><br/><a href="lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md">Texto</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb">TensorFlow</a></td><td><a href="lessons/4-ComputerVision/07-ConvNets/lab/README.md">Lab</a></td></tr>
+<tr><td>8</td><td>Redes pré-treinadas e Aprendizado de Transferência<br/>Truques de Treinamento</td><td><a href="lessons/4-ComputerVision/08-TransferLearning/README.md">Texto</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md">Texto</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb">TensorFlow</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb">Amostra de abandono</a><br/><a href="lessons/4-ComputerVision/08-TransferLearning/AdversarialCat_TF.ipynb">Gato Adversário</a></td><td><a href="lessons/4-ComputerVision/08-TransferLearning/lab/README.md">Lab</a></td></tr>
+<tr><td>9</td><td>Autoencoders e VAEs</td><td><a href="lessons/4-ComputerVision/09-Autoencoders/README.md">Texto</a></td><td><a href="lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>10</td><td>Redes Adversárias Gerativas<br/>Transferência de Estilo Artístico</td><td><a href="lessons/4-ComputerVision/10-GANs/README.md">Texto</a></td><td><a href="lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb">PyTorch</td><td><a href="lessons/4-ComputerVision/10-GANs/GANTF.ipynb">TensorFlow GAN</a><br/><a href="lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb">Transferência de Estilo</a></td><td></td></tr>
+<tr><td>11</td><td>Detecção de Objetos</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/README.md">Texto</a></td><td>PyTorch</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb">TensorFlow</td><td><a href="lessons/4-ComputerVision/11-ObjectDetection/lab/README.md">Lab</a></td></tr>
+<tr><td>12</td><td>Segmentação Semântica. U-Net</td><td><a href="lessons/4-ComputerVision/12-Segmentation/README.md">Texto</a></td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb">PyTorch</td><td><a href="lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb">TensorFlow</td><td></td></tr>
+<tr><td>V</td><td><b><a href="lessons/5-NLP/README.md">Processamento de Linguagem Natural</a></b></td>
+   <td colspan="3"><a href="https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste"><i>Fundamentos da IA: explore o processamento de linguagem natural</i></a></td>
    <td></td></tr>
-<tr><td></td><td colspan="2"><i>Microsoft Learn Module on Natural Language</i></td>
+<tr><td></td><td colspan="2"><i>Módulo Microsoft Learn em Linguagem Natural</i></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste"><i>PyTorch</i></a></td>
    <td><a href="https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste"><i>TensorFlow</i></a></td>
    <td></td></tr>
-<tr><td>13</td><td>Text Representation. Bow/TF-IDF</td><td><a href="lessons/5-NLP/13-TextRep/README.md">Text</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
-<tr><td>14</td><td>Semantic word embeddings. Word2Vec and GloVe</td><td><a href="lessons/5-NLP/14-Embeddings/README.md">Text</td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>15</td><td>Language Modeling. Training your own embeddings</td><td><a href="lessons/5-NLP/15-LanguageModeling/README.md">Text</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/lab/README.md">Lab</a></td></tr>
-<tr><td>16</td><td>Recurrent Neural Networks</td><td><a href="lessons/5-NLP/16-RNN/README.md">Text</a></td><td><a href="lessons/5-NLP/16-RNN/RNNPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/16-RNN/RNNTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>17</td><td>Generative Recurrent Networks</td><td><a href="lessons/5-NLP/17-GenerativeNetworks/README.md">Text</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md">TensorFlow</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/lab/README.md">Lab</a></td></tr>
-<tr><td>18</td><td>Transformers. BERT.</td><td><a href="lessons/5-NLP/18-Transformers/README.md">Text</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersTF.ipynb">TensorFlow</a></td><td></td></tr>
-<tr><td>19</td><td>Named Entity Recognition</td><td><a href="lessons/5-NLP/19-NER/README.md">Text</a></td><td></td><td><a href="lessons/5-NLP/19-NER/NER-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/19-NER/lab/README.md">Lab</a></td></tr>
-<tr><td>20</td><td>Large Language Models, Prompt Programming and Few-Shot Tasks</td><td><a href="lessons/5-NLP/20-LangModels/README.md">Text</a></td><td><a href="lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb">PyTorch</td><td></td><td></td></tr>
-<tr><td>VI</td><td colspan="4"><b>Other AI Techniques</b></td><td></td></tr>
-<tr><td>21</td><td>Genetic Algorithms</td><td><a href="lessons/6-Other/21-GeneticAlgorithms/README.md">Text</a><td colspan="2"><a href="lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb">Notebook</a></td><td></td></tr>
-<tr><td>22</td><td>Deep Reinforcement Learning</td><td><a href="lessons/6-Other/22-DeepRL/README.md">Text</a></td><td><a href="lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb">PyTorch</a></td><td><a href="lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</a></td><td><a href="lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
-<tr><td>23</td><td>Multi-Agent Systems</td><td><a href="lessons/6-Other/23-MultiagentSystems/README.md">Text</a></td><td></td><td></td><td></td></tr>
-<tr><td>VII</td><td colspan="4"><b>AI Ethics</b></td><td></td></tr>
-<tr><td>24</td><td>AI Ethics and Responsible AI</td><td><a href="lessons/7-Ethics/README.md">Text</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste"><i>MS Learn: Responsible AI Principles</i></a></td><td></td></tr>
+<tr><td>13</td><td>Representação de Texto. Arco/TF-IDF</td><td><a href="lessons/5-NLP/13-TextRep/README.md">Text</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb">TensorFlow</td><td></td></tr>
+<tr><td>14</td><td>Incorporações semânticas de palavras. Word2Vec e GloVe</td><td><a href="lessons/5-NLP/14-Embeddings/README.md">Texto</td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>15</td><td>Modelagem de Linguagem. Treinando suas próprias incorporações</td><td><a href="lessons/5-NLP/15-LanguageModeling/README.md">Texto</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/15-LanguageModeling/lab/README.md">Lab</a></td></tr>
+<tr><td>16</td><td>Redes Neurais Recorrentes</td><td><a href="lessons/5-NLP/16-RNN/README.md">Texto</a></td><td><a href="lessons/5-NLP/16-RNN/RNNPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/16-RNN/RNNTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>17</td><td>Redes Gerativas Recorrentes</td><td><a href="lessons/5-NLP/17-GenerativeNetworks/README.md">Texto</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md">PyTorch</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md">TensorFlow</a></td><td><a href="lessons/5-NLP/17-GenerativeNetworks/lab/README.md">Lab</a></td></tr>
+<tr><td>18</td><td>Transformadores. BERT.</td><td><a href="lessons/5-NLP/18-Transformers/README.md">Texto</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb">PyTorch</a></td><td><a href="lessons/5-NLP/18-Transformers/TransformersTF.ipynb">TensorFlow</a></td><td></td></tr>
+<tr><td>19</td><td>Reconhecimento de Entidade Nomeada</td><td><a href="lessons/5-NLP/19-NER/README.md">Texto</a></td><td></td><td><a href="lessons/5-NLP/19-NER/NER-TF.ipynb">TensorFlow</a></td><td><a href="lessons/5-NLP/19-NER/lab/README.md">Lab</a></td></tr>
+<tr><td>20</td><td>Modelos de Linguagem Grande, Programação Prompt e Tarefas de Poucos Tiros</td><td><a href="lessons/5-NLP/20-LangModels/README.md">Texto</a></td><td><a href="lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb">PyTorch</td><td></td><td></td></tr>
+<tr><td>VI</td><td colspan="4"><b>Outras Técnicas de IA</b></td><td></td></tr>
+<tr><td>21</td><td>Algorítmos Genéticos</td><td><a href="lessons/6-Other/21-GeneticAlgorithms/README.md">Texto</a><td colspan="2"><a href="lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb">Notebook</a></td><td></td></tr>
+<tr><td>22</td><td>Aprendizado por Reforço Profundo</td><td><a href="lessons/6-Other/22-DeepRL/README.md">Texto</a></td><td><a href="lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb">PyTorch</a></td><td><a href="lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb">TensorFlow</a></td><td><a href="lessons/6-Other/22-DeepRL/lab/README.md">Lab</a></td></tr>
+<tr><td>23</td><td>Sistemas Multiagentes</td><td><a href="lessons/6-Other/23-MultiagentSystems/README.md">Texto</a></td><td></td><td></td><td></td></tr>
+<tr><td>VII</td><td colspan="4"><b>Ética da IA</b></td><td></td></tr>
+<tr><td>24</td><td>Ética de IA e IA Responsável</td><td><a href="lessons/7-Ethics/README.md">Texto</a></td><td colspan="2"><a href="https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste"><i>MS Learn: princípios de IA Responsável</i></a></td><td></td></tr>
 <tr><td></td><td colspan="4"><b>Extras</b></td><td></td></tr>
-<tr><td>X1</td><td>Multi-Modal Networks, CLIP and VQGAN</td><td><a href="lessons/X-Extras/X1-MultiModal/README.md">Text</a></td><td colspan="2"><a href="lessons/X-Extras/X1-MultiModal/Clip.ipynb">Notebook</a></td><td></td></tr>
+<tr><td>X1</td><td>Redes Multimodais, CLIP e VQGAN</td><td><a href="lessons/X-Extras/X1-MultiModal/README.md">Texto</a></td><td colspan="2"><a href="lessons/X-Extras/X1-MultiModal/Clip.ipynb">Notebook</a></td><td></td></tr>
 </table>
 
-**[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[Mapa Mental do Curso](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem. 
+Cada lição contém algum material de pré-leitura (link como **Texto** acima) e alguns Jupyter Notebooks executáveis, que geralmente são específicos para a estrutura (**PyTorch** ou **TensorFlow**). O notebook executável também contém muito material teórico, portanto, para entender o tópico, você precisa passar por pelo menos uma versão dos notebooks (PyTorch ou TensorFlow). Há também **Labs** disponíveis para alguns tópicos, que oferecem a oportunidade de tentar aplicar o material aprendido a um problema específico.
 
-Some sections also contain links to **MS Learn** modules that cover related topics. Microsoft Learn provides a convenient GPU-enabled learning environment, although in terms of content you can expect this curriculum to go a bit deeper.
+Algumas seções também contêm links para módulos do **MS Learn** que abrangem tópicos relacionados. O Microsoft Learn fornece um ambiente de aprendizado conveniente habilitado para GPU, embora em termos de conteúdo você possa esperar que este currículo seja um pouco mais profundo.
 
-# Are you a student?
+# Você é estudante?
 
-Get started with the following resources:
+Comece com os seguintes recursos:
 
-- [Student Hub page](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
-- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Join a global community of student ambassadors, this could be your way into Microsoft.
+- [Página do Hub do Aluno](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) Nesta página, você encontrará recursos para iniciantes, pacotes de estudante e até formas de obter um voucher de certificado gratuito. Esta é uma página que você deseja marcar e verificar de tempos em tempos, pois trocamos o conteúdo pelo menos uma vez por mês.
+- [Embaixadores do Microsoft Student Learn](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Junte-se a uma comunidade global de estudantes embaixadores, este pode ser o seu caminho para a Microsoft.
 
-# Getting Started
+# Começando
 
-**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Estudantes**, existem algumas maneiras de usar o currículo. Em primeiro lugar, você pode apenas ler o texto e examinar o código diretamente no GitHub. Se você deseja executar o código em qualquer um dos notebooks - [leia nossas instruções](./etc/how-to-run.md), e encontre mais conselhos sobre como fazer isso [neste post do blog](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-> **Note**: [Instructions on how to run the code in this curriculum](./etc/how-to-run.md)
+> **Observação**: [Instruções sobre como executar o código neste currículo](./etc/how-to-run.md)
 
-However, if you would like to take the course as a self-study project, we suggest that you fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
+No entanto, se você quiser fazer o curso como um projeto de autoestudo, sugerimos que você faça um fork de todo o repo para sua própria conta do GitHub e conclua os exercícios sozinho ou com um grupo:
 
-- Start with a pre-lecture quiz
-- Read the intro text for the lecture 
-- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favorite framework
-- Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment
-- Take the post-lecture quiz
-- If there is a lab attached to the module - complete the assignment
-- Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to "learn out loud".
-- Chat with other learners [on Gitter](https://gitter.im/Microsoft/ai-for-beginners) or [in Telegram channel](http://t.me/ai_for_beginners).
+- Comece com um questionário pré-aula
+- Leia o texto de introdução da palestra
+- Se a palestra tiver notebooks adicionais, percorra-os, lendo e executando o código. Se os notebooks TensorFlow e PyTorch forem fornecidos, você pode se concentrar em um deles - escolha sua estrutura favorita
+- Os notebooks geralmente contêm alguns dos desafios que exigem que você ajuste um pouco o código para experimentar
+- Faça o teste pós-palestra
+- Se houver um laboratório anexado ao módulo - conclua a tarefa
+- Visite o [Fórum de Discussão](https://github.com/microsoft/AI-For-Beginners/discussions) para "aprender em voz alta".
+- Bate-papo com outros alunos [no Gitter](https://gitter.im/Microsoft/ai-for-beginners) ou [no canal do Telegram](http://t.me/ai_for_beginners).
 
-> For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) modules and learning paths.
+> Para um estudo mais aprofundado, recomendamos seguir estes [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) módulos e caminhos de aprendizagem.
 
-**Teachers**, we have [included some suggestions](/etc/for-teachers.md) on how to use this curriculum.
+**Professores**, nós [incluímos algumas sugestões](/etc/for-teachers.md) sobre como usar este currículo.
 
 ---
 
