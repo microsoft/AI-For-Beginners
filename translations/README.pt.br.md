@@ -155,7 +155,7 @@ Escolhemos dois princípios pedagógicos ao construir este currículo: garantir 
 
 Ao garantir que o conteúdo esteja alinhado com os projetos, o processo se torna mais envolvente para os alunos e a retenção de conceitos aumenta. Além disso, um questionário de baixo risco antes de uma aula define a intenção do aluno em relação ao aprendizado de um tópico, enquanto um segundo questionário após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser feito no todo ou em parte. Os projetos começam pequenos e se tornam cada vez mais complexos ao final do ciclo de 12 semanas.
 
-> Encontre nosso [Código de Conduta](etc/CODE_OF_CONDUCT.md), [Contribuindo](etc/CONTRIBUTING.md), e [Tradução](etc/TRANSLATIONS.md) diretrizes. Encontre nossa [Documentação de suporte aqui](etc/SUPPORT.md) e [informações de segurança aqui](etc/SECURITY.md). Congratulamo-nos com o seu feedback construtivo!
+> Encontre nosso [Código de Conduta](/etc/CODE_OF_CONDUCT.md), [Contribuindo](/etc/CONTRIBUTING.md), e [Tradução](/etc/TRANSLATIONS.md) diretrizes. Encontre nossa [Documentação de suporte aqui](/etc/SUPPORT.md) e [informações de segurança aqui](/etc/SECURITY.md). Congratulamo-nos com o seu feedback construtivo!
 
 >**Uma observação sobre questionários**: Todos os questionários estão contidos [neste aplicativo](https://red-field-0a6ddfd03.1.azurestaticapps.net/), para 50 questionários totais de três perguntas cada. Eles estão vinculados nas lições, mas o aplicativo de teste pode ser executado localmente; siga as instruções na pasta `etc/quiz-app`.
 
@@ -165,7 +165,7 @@ Você pode executar esta documentação off-line usando [Docsify](https://docsif
 
 ## Procura-se ajuda!
 
-Gostaria de contribuir com uma tradução? Leia nossas [diretrizes de tradução](etc/TRANSLATIONS.md).
+Gostaria de contribuir com uma tradução? Leia nossas [diretrizes de tradução](/etc/TRANSLATIONS.md).
 
 ## Outros currículos
 
