@@ -133,45 +133,45 @@ No entanto, se você quiser fazer o curso como um projeto de autoestudo, sugerim
 
 ---
 
-## Credits
+## Créditos
 
-**✍️ Primary Author:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
+**✍️ Autor Primário:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
 **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD <br/>
-**🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac) <br/>
-**✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  <br/>
-**🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks) 
+**🎨 Ilustrador Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac) <br/>
+**✅ Criador de Quiz:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  <br/>
+**🙏 Principais Colaboradores:** [Evgenii Pishchik](https://github.com/Pe4enIks) 
 
-## Meet the Team
+## Conheça o Time
 
 [![Promo video](/lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/m2KrAk0cC1c "Promo video")
 
-> 🎥 Click the image above for a video about the project and the folks who created it!
+> 🎥 Clique na imagem acima para ver um vídeo sobre o projeto e as pessoas que o criaram!
 
 ---
 
-## Pedagogy
+## Pedagogia
 
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is hands-on **project-based** and that it includes **frequent quizzes**.
+Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que seja prático **baseado em projeto** e que inclua **testes frequentes**.
 
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+Ao garantir que o conteúdo esteja alinhado com os projetos, o processo se torna mais envolvente para os alunos e a retenção de conceitos aumenta. Além disso, um questionário de baixo risco antes de uma aula define a intenção do aluno em relação ao aprendizado de um tópico, enquanto um segundo questionário após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser feito no todo ou em parte. Os projetos começam pequenos e se tornam cada vez mais complexos ao final do ciclo de 12 semanas.
 
-> Find our [Code of Conduct](etc/CODE_OF_CONDUCT.md), [Contributing](etc/CONTRIBUTING.md), and [Translation](etc/TRANSLATIONS.md) guidelines. Find our [Support Documentation here](etc/SUPPORT.md) and [security information here](etc/SECURITY.md). We welcome your constructive feedback!
+> Encontre nosso [Código de Conduta](etc/CODE_OF_CONDUCT.md), [Contribuindo](etc/CONTRIBUTING.md), e [Tradução](etc/TRANSLATIONS.md) diretrizes. Encontre nossa [Documentação de suporte aqui](etc/SUPPORT.md) e [informações de segurança aqui](etc/SECURITY.md). Congratulamo-nos com o seu feedback construtivo!
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
+>**Uma observação sobre questionários**: Todos os questionários estão contidos [neste aplicativo](https://red-field-0a6ddfd03.1.azurestaticapps.net/), para 50 questionários totais de três perguntas cada. Eles estão vinculados nas lições, mas o aplicativo de teste pode ser executado localmente; siga as instruções na pasta `etc/quiz-app`.
 
-## Offline access
+## Acesso off-line
 
-You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the `etc/docsify` folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`. A pdf of the curriculum is available [at this link](/etc/pdf/readme.pdf).
+Você pode executar esta documentação off-line usando [Docsify](https://docsify.js.org/#/). Fork este repositório, [instale Docsify](https://docsify.js.org/#/quickstart) na usa  máquina local, e, em seguida, na pasta `etc/docsify` deste repositório, digite `docsify serve`. O site será executado na porta 3000 em seu localhost: `localhost:3000`. Um pdf do currículo está disponível [neste link](/etc/pdf/readme.pdf).
 
-## Help Wanted!
+## Procura-se ajuda!
 
-Would you like to contribute a translation? Please read our [translation guidelines](etc/TRANSLATIONS.md).
+Gostaria de contribuir com uma tradução? Leia nossas [diretrizes de tradução](etc/TRANSLATIONS.md).
 
-## Other Curricula
+## Outros currículos
 
-Our team produces other curricula! Check out:
+Nossa equipe produz outros currículos! Veja:
 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Desenvolvimento Web para Iniciantes](https://aka.ms/webdev-beginners)
+- [IoT para Iniciantes](https://aka.ms/iot-beginners)
+- [Machine Learning para Iniciantes](https://aka.ms/ml-beginners)
+- [Data Science para Iniciantes](https://aka.ms/datascience-beginners)
