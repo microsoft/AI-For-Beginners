@@ -12,7 +12,7 @@
 
 # Inteligência Artificial para Iniciantes - Um Currículo
 
-|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
+|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](../lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | IA para iniciantes - _Sketchnote por [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
@@ -25,9 +25,9 @@ Neste currículo, você aprenderá:
 * **Arquiteturas Neurais** para trabalhar com imagens e texto. Abordaremos modelos recentes, mas pode faltar um pouco no estado da arte.
 * Abordagens de IA menos populares, como **Algoritmos Genéticos** e **Sistemas Multiagentes**.
 
-What we will not cover in this curriculum:
+O que não abordaremos neste currículo:
 
-* Business cases of using **AI in Business**. Consider taking [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-cacaste) learning path on Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste), developed in cooperation with [INSEAD](https://www.insead.edu/).
+* Casos de negócios de uso de **IA nos Negócios**. Considere fazer [Introdução à IA para usuários corporativos](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-cacaste) caminho de aprendizado no Microsoft Learn ou [IA Escola de Negócios](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste), desenvolvido em cooperação com [INSEAD](https://www.insead.edu/).
 * **Classic Machine Learning**, which is well described in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners)
 * Practical AI applications built using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-cacaste)**. For this, we recommend that you start with modules Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-cacaste), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste) and others.
 * Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-cacaste). Consider using [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-cacaste) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-cacaste) learning paths.
