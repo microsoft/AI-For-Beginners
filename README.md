@@ -112,7 +112,7 @@ Get started with the following resources:
 
 # Getting Started
 
-**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebook - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 > **Note**: [Instructions on how to run the code in this curriculum](./etc/how-to-run.md)
 
@@ -120,7 +120,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 - Start with a pre-lecture quiz
 - Read the intro text for the lecture 
-- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - chose your favorite framework
+- If the lecture has additional notebooks, go through them, reading and executing the code. If both TensorFlow and PyTorch notebooks are provided, you can focus on one of them - choose your favorite framework
 - Notebooks often contain some of the challenges that require you to tweak the code a little bit to experiment
 - Take the post-lecture quiz
 - If there is a lab attached to the module - complete the assignment

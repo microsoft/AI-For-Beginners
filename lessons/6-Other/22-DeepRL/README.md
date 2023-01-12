@@ -7,7 +7,7 @@ Reinforcement learning (RL) is seen as one of the basic machine learning paradig
 To perform RL, we need:
 
 * An **environment** or **simulator** that sets the rules of the game. We should be able to run the experiments in the simulator and observe the results.
-* Some **Reward function**, which indicates how successful our experiment was. In case of learning to play a computer game, the reward would be our final score.
+* Some **Reward function**, which indicate how successful our experiment was. In case of learning to play a computer game, the reward would be our final score.
 
 Based on the reward function, we should be able to adjust our behavior and improve our skills, so that the next time we play better. The main difference between other types of machine learning and RL is that in RL we typically do not know whether we win or lose until we finish the game. Thus, we cannot say whether a certain move alone is good or not - we only receive a reward at the end of the game.
 
@@ -21,7 +21,7 @@ A great tool for RL is the [OpenAI Gym](https://gym.openai.com/) - a **simulatio
 
 ## CartPole Balancing
 
-You have probably all seen modern balancing devices such as the *Segway* or *Gyroscooters*. They are able to automatically balance by adjusting their wheels in response to a signal from accelerometer or gyroscope. In this section, we will learn how to solve a similar problem - balancing a pole. It is similar to a situation when a circus performer needs to balance a pole on his hand - but this pole balancing only occurs in 1D.
+You have probably all seen modern balancing devices such as the *Segway* or *Gyroscooters*. They are able to automatically balance by adjusting their wheels in response to a signal from an accelerometer or gyroscope. In this section, we will learn how to solve a similar problem - balancing a pole. It is similar to a situation when a circus performer needs to balance a pole on his hand - but this pole balancing only occurs in 1D.
 
 A simplified version of balancing is known as a **CartPole** problem. In the cartpole world, we have a horizontal slider that can move left or right, and the goal is to balance a vertical pole on top of the slider as it moves.
 
