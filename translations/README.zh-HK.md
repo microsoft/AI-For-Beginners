@@ -157,7 +157,7 @@
 
 > 這裡是[行為準則](etc/CODE_OF_CONDUCT.md)，[貢獻指南](etc/CONTRIBUTING.md)和[翻譯指南](etc/TRANSLATIONS.md)。以及[說明文件](etc/SUPPORT.md)和[安全信息](etc/SECURITY.md)。我們歡迎您的建設性反饋！
 
-> **小測驗說明**: All quizzes are contained [in this app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
+> **小測驗說明**: 所有測驗包含在這個[應用程序](https://red-field-0a6ddfd03.1.azurestaticapps.net/)中，共50個小測驗，每個小測驗有三個問題。課程內有小測驗的鏈接，您亦可在本地運行測驗，具體操作請按照`etc/quiz-app`文件夾中說明操作。
 
 ## 離線學習
 
