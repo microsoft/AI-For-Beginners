@@ -12,7 +12,7 @@
 
 # Искусственный интеллект для начинающих - Учебная программа
 
-|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
+|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](../lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
@@ -175,7 +175,3 @@
 - [IoT для начинающих](https://aka.ms/iot-beginners)
 - [Машинное обучение для начинающих](https://aka.ms/ml-beginners)
 - [Наука о данных для начинающих](https://aka.ms/datascience-beginners)
-
-
-
-\\ Данный тект перевел / This text was translated by: CoreDov (https://github.com/CoreDov)
