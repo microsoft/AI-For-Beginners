@@ -2,7 +2,7 @@
 
 In the previous section, we learned about **generative models**: models that can generate new images similar to the ones in the training dataset. VAE was a good example of a generative model.
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
 
 However, if we try to generate something really meaningful, like a painting at reasonable resolution, with VAE, we will see that training does not converge well. For this use case, we should learn about another architecture specifically targeted at generative models - **Generative Adversarial Networks**, or GANs.
 
@@ -75,7 +75,7 @@ The way it works is the following:
 
 ## ✍️ Example: [Style Transfer](StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
 
 ## Conclusion
 

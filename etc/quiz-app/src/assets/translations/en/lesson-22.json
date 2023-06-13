@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 122,
+        "title": "Reinforcement Learning: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "To train RL model, we need",
+            "answerOptions": [
+              {
+                "answerText": "Simulation environment",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Labeled dataset",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Unlabeled dataset",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "What is a good example of Reinforcement learning:",
+            "answerOptions": [
+              {
+                "answerText": "Zero-shot image classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Zero-shot text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Learning to play chess",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "When creating RL-based chess engine, we need to",
+            "answerOptions": [
+              {
+                "answerText": "use all existing chess matches as a dataset",
+                "isCorrect": false
+              },
+              {
+                "answerText": "let computer play against itself many times",
+                "isCorrect": true
+              },
+              {
+                "answerText": "program exhaustive search algorithm",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 222,
+        "title": "Reinforcement Learning: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "How does RL training algorithm knows how well it did?",
+            "answerOptions": [
+              {
+                "answerText": "It achieves high accuracy",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Using perplexity metric",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Using reward function",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Which problem(s) is RL is applicable to?",
+            "answerOptions": [
+              {
+                "answerText": "With discrete environment",
+                "isCorrect": false
+              },
+              {
+                "answerText": "With continuous environment",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "In Actor-Critic model, critic predicts",
+            "answerOptions": [
+              {
+                "answerText": "Reward function",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Best next action",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Probability of next actions",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

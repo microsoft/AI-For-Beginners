@@ -20,12 +20,19 @@ def load_dataset(ngrams=1,min_freq=1):
     counter = collections.Counter()
     for (label, line) in train_dataset:
         counter.update(torchtext.data.utils.ngrams_iterator(tokenizer(line),ngrams=ngrams))
-    vocab = torchtext.vocab.Vocab(counter, min_freq=min_freq)
+    vocab = torchtext.vocab.vocab(counter, min_freq=min_freq)
     return train_dataset,test_dataset,classes,vocab
 
+stoi_hash = {}
 def encode(x,voc=None,unk=0,tokenizer=tokenizer):
+    global stoi_hash
     v = vocab if voc is None else voc
-    return [v.stoi.get(s,unk) for s in tokenizer(x)]
+    if v in stoi_hash.keys():
+        stoi = stoi_hash[v]
+    else:
+        stoi = v.get_stoi()
+        stoi_hash[v]=stoi        
+    return [stoi.get(s,unk) for s in tokenizer(x)]
 
 def train_epoch(net,dataloader,lr=0.01,optimizer=None,loss_fn = torch.nn.CrossEntropyLoss(),epoch_size=None, report_freq=200):
     optimizer = optimizer or torch.optim.Adam(net.parameters(),lr=lr)

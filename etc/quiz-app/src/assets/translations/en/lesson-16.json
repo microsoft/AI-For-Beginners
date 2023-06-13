@@ -26,7 +26,7 @@
             ]
           },
           {
-            "questionText": "Simple RNN cell has two weight _____",
+            "questionText": "A simple RNN cell has two weight _____",
             "answerOptions": [
               {
                 "answerText": "matrices",
@@ -90,7 +90,7 @@
                 "isCorrect": true
               },
               {
-                "answerText": "nort-west direction",
+                "answerText": "north-west direction",
                 "isCorrect": false
               },
               {

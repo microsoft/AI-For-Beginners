@@ -5,7 +5,7 @@ As we have learned already, to be able to train neural networks efficiently we n
 * To operate on tensors, eg. to multiply, add, and compute some functions such as sigmoid or softmax
 * To compute gradients of all expressions, in order to perform gradient descent optimization
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
 
 While the `numpy` library can do the first part, we need some mechanism to compute gradients. In [our framework](../04-OwnFramework/OwnFramework.ipynb) that we have developed in the previous section we had to manually program all derivative functions inside the `backward` method, which does backpropagation. Ideally, a framework should give us the opportunity to compute gradients of *any expression* that we can define.
 

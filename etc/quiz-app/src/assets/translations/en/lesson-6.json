@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 106,
+        "title": "Introduction to Computer Vision: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Computer vision aims to allow computers gain understanding of _____",
+            "answerOptions": [
+              {
+                "answerText": "images",
+                "isCorrect": true
+              },
+              {
+                "answerText": "text",
+                "isCorrect": false
+              },
+              {
+                "answerText": "computers",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Python libraries available for image processing includes",
+            "answerOptions": [
+              {
+                "answerText": "OpenCV",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Pillow",
+                "isCorrect": false
+              },
+              {
+                "answerText": "a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Images cannot be represented as NumPy arrays in Python",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "title": "Introduction to Computer Vision: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Optical Flow helps us to understand how each pixel on video frames move.",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "_____ computes the vector field that shows where each pixel is moving",
+            "answerOptions": [
+              {
+                "answerText": "Sparse Optical Flow",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Dense Optical Flow",
+                "isCorrect": true
+              },
+              {
+                "answerText": "none",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Resizing and Blurring are steps that can be taken during?",
+            "answerOptions": [
+              {
+                "answerText": "pre-processing",
+                "isCorrect": true
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "image transformation",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

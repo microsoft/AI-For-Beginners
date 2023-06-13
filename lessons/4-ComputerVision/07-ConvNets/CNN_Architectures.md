@@ -50,7 +50,7 @@ In this unit, you have learned the main concept behind computer vision neural ne
 
 In the accompanying notebooks, there are notes at the bottom about how to obtain greater accuracy. Do some experiments to see if you can achieve higher accuracy.
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/207)
+## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
 
 ## Review & Self Study
 

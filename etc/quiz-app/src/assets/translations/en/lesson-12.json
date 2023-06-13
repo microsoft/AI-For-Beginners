@@ -9,7 +9,7 @@
         "title": "Segmentation: Pre Quiz",
         "quiz": [
           {
-            "questionText": "There are ____ segmentation algorithms?",
+            "questionText": "How many segmentation algorithm are there?",
             "answerOptions": [
               {
                 "answerText": "1",
@@ -50,7 +50,7 @@
                 "isCorrect": false
               },
               {
-                "answerText": "encoder, Decoder",
+                "answerText": "encoder, decoder",
                 "isCorrect": true
               },
               {
@@ -66,7 +66,7 @@
         "title": "Segmentation: Post Quiz",
         "quiz": [
           {
-            "questionText": "____ extracts features from input image",
+            "questionText": "____ extracts features from an input image",
             "answerOptions": [
               {
                 "answerText": "decoder",

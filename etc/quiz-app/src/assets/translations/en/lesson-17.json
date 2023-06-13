@@ -39,7 +39,7 @@
             ]
           },
           {
-            "questionText": "RNN generate texts by generating next output character for each input character",
+            "questionText": "RNN generates texts by generating next output token for each input token",
             "answerOptions": [
               {
                 "answerText": "true",

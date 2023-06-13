@@ -9,7 +9,7 @@
         "title": "Generative Adversarial Networks: Pre Quiz",
         "quiz": [
           {
-            "questionText": "Gnerators take vectors and produces ____",
+            "questionText": "Generators take vectors and produce ____",
             "answerOptions": [
               {
                 "answerText": "videos",

@@ -10,7 +10,7 @@ The kind of AI that we have learned about in this course is nothing more than la
 
 ## Principles of Responsible AI
 
-To avoid this accidental or purposeful misuse of AI, Microsoft states the important [Principles of Responsible AI](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-57639-dmitryso). The following concepts underpin these principles:
+To avoid this accidental or purposeful misuse of AI, Microsoft states the important [Principles of Responsible AI](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste). The following concepts underpin these principles:
 
 * **Fairness** is related to the important problem of *model biases*, which can be caused by using biased data for training. For example, when we try to predict the probability of getting a software developer job for a person, the model is likely to give higher preference to males - just because the training dataset was likely biased towards a male audience. We need to carefully balance training data and investigate the model to avoid biases, and make sure that the model takes into account more relevant features.
 * **Reliability and Safety**. By their nature, AI models can make mistakes. A neural network returns probabilities, and we need to take it into account when making decisions. Every model has some precision and recall, and we need to understand that to prevent harm that wrong advice can cause.
@@ -31,10 +31,10 @@ Microsoft has developed the [Responsible AI Toolbox](https://github.com/microsof
    - EconML - tool for Causal Analysis, which focuses on what-if questions
    - DiCE - tool for Counterfactual Analysis allows you to see which features need to be changed to affect the decision of the model
 
-For more information about AI Ethics, please visit [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-57639-dmitryso) on the Machine Learning Curriculum which includes assignments.
+For more information about AI Ethics, please visit [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) on the Machine Learning Curriculum which includes assignments.
 
 ## Review & Self Study
 
-Take this [Learn Path](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-57639-dmitryso) to learn more about responsible AI.
+Take this [Learn Path](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) to learn more about responsible AI.
 
 ## [Post-lecture quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)

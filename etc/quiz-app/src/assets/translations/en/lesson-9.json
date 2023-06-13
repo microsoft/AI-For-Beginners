@@ -92,7 +92,7 @@
             ]
           },
           {
-            "questionText": "Variational auto-encoders loss funnction does not consist of which of these?",
+            "questionText": "Variational auto-encoders loss function does not consist of which of these?",
             "answerOptions": [
               {
                 "answerText": "reconstruction loss",

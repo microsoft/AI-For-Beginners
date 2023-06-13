@@ -92,7 +92,7 @@
             ]
           },
           {
-            "questionText": "Tensorflow is to ____ while PyTorch is to ____",
+            "questionText": "TensorFlow is to ____ while PyTorch is to ____",
             "answerOptions": [
               {
                 "answerText": "Facebook, Google",
@@ -104,19 +104,6 @@
               },
               {
                 "answerText": "Microsoft, Google",
-                "isCorrect": false
-              }
-            ]
-          },
-          {
-            "questionText": "Pred is the values predicted by the network",
-            "answerOptions": [
-              {
-                "answerText": "True",
-                "isCorrect": true
-              },
-              {
-                "answerText": "False",
                 "isCorrect": false
               }
             ]

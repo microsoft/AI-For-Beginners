@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 120,
+        "title": "Language Models: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "What does GPT stand for?",
+            "answerOptions": [
+              {
+                "answerText": "Generic Pre-Trained network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative Pre-trained Transformers",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Generic Positional Text",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "What can GPT be used for?",
+            "answerOptions": [
+              {
+                "answerText": "Text generation",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both text generation and other tasks",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "GPT is based on transformer architecture",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "title": "Language Models: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "What is zero-shot learning?",
+            "answerOptions": [
+              {
+                "answerText": "Getting an answer from pre-trained network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Training the network from scratch",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Training the network only for one epoch",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Prompt engineering can be used with",
+            "answerOptions": [
+              {
+                "answerText": "Zero-shot learning",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Few-shot learning",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Which metric can be used to estimate the quality of a language model?",
+            "answerOptions": [
+              {
+                "answerText": "accuracy",
+                "isCorrect": false
+              },
+              {
+                "answerText": "recall",
+                "isCorrect": false
+              },
+              {
+                "answerText": "perplexity",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
