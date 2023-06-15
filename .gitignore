@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# virtual environment
+venv/
+ENV/
+
 # ignore all pdf creation files
 package.json
 package-lock.json
