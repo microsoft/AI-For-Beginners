@@ -64,6 +64,7 @@ Untyped-Language | doesn't have | type definitions
    - **Scenarios** are special kind of frames that represent complex situations that can unfold in time.
 
 **Python**
+
 Slot | Value | Default value | Interval |
 -----|-------|---------------|----------|
 Name | Python | | |
