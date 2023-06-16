@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 102,
+        "title": "การนำเสนอองค์ความรู้และ Expert Systems: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "การสร้างระบบอัจริยะแบบ top-down มีพื้นฐานมาจาก:",
+            "answerOptions": [
+              {
+                "answerText": "การอ่านและหาความรู้เพิ่มเติม",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การนำเสนอองค์ความรู้และการให้เหตุผล",
+                "isCorrect": true
+              },
+              {
+                "answerText": "การค้นคว้าและการศึกษาเชิงเหตุผล",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ความรู้และข้อมูลถือว่าเป็นสิ่งเดียวกัน",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราจะหาความรู้ได้จาก:",
+            "answerOptions": [
+              {
+                "answerText": "การเรียนแบบเชิงรุก",
+                "isCorrect": true
+              },
+              {
+                "answerText": "การเรียนแบบเชิงรับ",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้งสองรูปแบบ",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "title": "การนำเสนอองค์ความรู้และ Expert Systems: แบบทดสอบก่อนเรียนs: แบบทดสอบหลังเรียนz",
+        "quiz": [
+          {
+            "questionText": "ข้อใดคือวิธีการนำเสนอองค์ความรู้แบบทั่วไป:",
+            "answerOptions": [
+              {
+                "answerText": "algorithmic",
+                "isCorrect": true
+              },
+              {
+                "answerText": "symbolic",
+                "isCorrect": false
+              },
+              {
+                "answerText": "synergistic",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เราสามารถใช้ฉากทัศน์ (Scenarios)อธิบายเหตุการณ์ที่ยุ่งยากให้กลายเป็นสิ่งที่เข้าใจได้ง่ายๆ",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดคือขั้นตอนต่อไปของวิธีการณ์แบบ Forward inference ที่เริ่มทำงานด้วยข้อมูลเบื้องต้น: ",
+            "answerOptions": [
+              {
+                "answerText": "เริ่มการทำงานวนลูป (executes a reasoning loop)",
+                "isCorrect": true
+              },
+              {
+                "answerText": "มองหาเป้าหมาย (looks for a goal)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "เริ่มใหม่อีกครั้ง (starts over)",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
