@@ -6,7 +6,7 @@
     "quizzes": [
       {
         "id": 104,
-        "title": "โครงข่ายประสาทเทียมเบื้องต้น (Neural Networks) : แบบทดสอบก่อนเรียนz",
+        "title": "โครงข่ายประสาทเทียมเบื้องต้น (Neural Networks) : แบบทดสอบก่อนเรียน",
         "quiz": [
           {
             "questionText": "Loss function ใข้ประเมินคุณภาพการทำนาย (Prediction)",

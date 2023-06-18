@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 106,
+        "title": "Computer Vision เบื้องต้น: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "Computer vision ช่วยให้คอมพิวเตอร์เข้าใจการทำงานของ _____",
+            "answerOptions": [
+              {
+                "answerText": "images",
+                "isCorrect": true
+              },
+              {
+                "answerText": "text",
+                "isCorrect": false
+              },
+              {
+                "answerText": "computers",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Python libraries สำหรับการทำ image processing ได้แก่",
+            "answerOptions": [
+              {
+                "answerText": "OpenCV",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Pillow",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง a และ b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราไม่สามารถแสดงข้อมูล Images ในรูปแบบของ arrays ของ NumPy บน Python",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "title": "Computer Vision เบื้องต้น: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "Optical Flow ช่วยให้เราเข้าใจการเคลื่อนไหวของ video frames ในแต่ละ pixel",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "_____ computes เป็น vector field ที่แสดงให้ถึงตำแหน่งที่แต่ละ pixel เคลื่อนที่",
+            "answerOptions": [
+              {
+                "answerText": "Sparse Optical Flow",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Dense Optical Flow",
+                "isCorrect": true
+              },
+              {
+                "answerText": "none",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ขั้นตอน Resizing และ Blurring เกิดขึ้นในช่วงใด",
+            "answerOptions": [
+              {
+                "answerText": "pre-processing",
+                "isCorrect": true
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "image transformation",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

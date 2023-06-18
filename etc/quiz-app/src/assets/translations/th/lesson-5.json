@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 105,
+        "title": "Frameworks: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "เราต้องใช้การคำนวณเยอะมากในการเทรน Deep Neural Network",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "สิ่งที่ทำให้เกิดการ Overfitting คือ ____",
+            "answerOptions": [
+              {
+                "answerText": "ข้อมูลที่นำมาเทรนน้อยเกินไป",
+                "isCorrect": false
+              },
+              {
+                "answerText": "โมเดลมีประสิทธิภาพสูงเกินไป",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ข้อมูลที่นำเข้ามาเทรนมีความเป็น noise สูง",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Bias errors เกิดขึ้นเพราะว่า ____ ไม่สามารถที่จะดึงความสัมพันธ์ระหว่างข้อมูลที่นำมาเทรนมาใช้ได้อย่างถูกต้อง",
+            "answerOptions": [
+              {
+                "answerText": "model",
+                "isCorrect": false
+              },
+              {
+                "answerText": "algorithm",
+                "isCorrect": true
+              },
+              {
+                "answerText": "computer",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 205,
+        "title": "Frameworks: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "เราเทรนข้อมูลโดยการเรียกใช้____ฟังก์ชันหลังจากที่คอมไพล์โมเดลเรียบร้อยแล้ว",
+            "answerOptions": [
+              {
+                "answerText": "fit",
+                "isCorrect": true
+              },
+              {
+                "answerText": "train",
+                "isCorrect": false
+              },
+              {
+                "answerText": "teach",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Binary cross-entropy มีชื่อเรียกอีกอย่างหนึ่งว่า log loss",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "TensorFlow เหมือนกับการใช้ ____ ในขณะที่การใช้งาน PyTorch คือการใช้ ____",
+            "answerOptions": [
+              {
+                "answerText": "Facebook, Google",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Google, Facebook",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Microsoft, Google",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
