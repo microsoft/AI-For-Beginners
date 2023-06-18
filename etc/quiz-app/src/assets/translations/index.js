@@ -5,6 +5,6 @@ import spanishQuizzes from './th';
 const messages = {
   en: englishQuizzes,
   es: spanishQuizzes,
-  th: thaiQuizzez,
+  th: thaiQuizzes
 };
 export default messages;

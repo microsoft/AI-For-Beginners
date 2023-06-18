@@ -79,7 +79,7 @@
             ]
           },
           {
-            "questionText": "To minimize the function of weights, you can use gradient descent",
+            "questionText": "สามารถใช้ Gradient Descent ในการลดค่าน้ำหนักของฟังก์ชัน",
             "answerOptions": [
               {
                 "answerText": "true",

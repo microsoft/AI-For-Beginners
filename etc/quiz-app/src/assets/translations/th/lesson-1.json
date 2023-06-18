@@ -42,15 +42,15 @@
             "questionText": "Chat bots นับว่าเป็นหนึ่งในตัวอย่างที่สำคัญของระบบอัจฉริยะ",
             "answerOptions": [
               {
-                "answerText": "ไม่จริง เพราะแชทบอทถูกออกแบบมาในรูปแบบให้ทำงานตามคำสั่ง false, they are usually designed by a series of rules.",
+                "answerText": "ไม่จริง เพราะแชทบอทถูกออกแบบมาในรูปแบบให้ทำงานตามคำสั่ง",
                 "isCorrect": false
               },
               {
-                "answerText": "จริง เพราะปกติแล้วนับได้ว่าแชทบอทฉลาดมาก true, they are usually considered to be 'intelligent",
+                "answerText": "จริง เพราะปกติแล้วนับได้ว่าแชทบอทฉลาดมาก",
                 "isCorrect": false
               },
               {
-                "answerText": "ไม่จริง แต่ว่าแชทบอทเริ่มมีการทำงานที่ซับซ้อนและสามารถผ่านแบบทดสอบของ Turing Test ได้false, but they are increasingly able to pass Turing tests as they become more sophisticated.",
+                "answerText": "ไม่จริง แต่ว่าแชทบอทเริ่มมีการทำงานที่ซับซ้อนและสามารถผ่านแบบทดสอบของ",
                 "isCorrect": true
               }
             ]
