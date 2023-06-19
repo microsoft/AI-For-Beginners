@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 109,
+        "title": "Autoencoders: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "Self-supervised learning ใช้ข้อมูลแบบใดสำหรับการเทรน",
+            "answerOptions": [
+              {
+                "answerText": "pre-trained",
+                "isCorrect": false
+              },
+              {
+                "answerText": "raw",
+                "isCorrect": true
+              },
+              {
+                "answerText": "labeled",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เครือข่ายเอนโคเดอร์ (Encoder Network) แปลงภาพป้อนเข้าเป็น Latent Spaces",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "VAE เป็นตัวย่อของคำใด",
+            "answerOptions": [
+              {
+                "answerText": "Variable AutoEncoding",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Variation auto-encoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Variational automated encoders",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 209,
+        "title": "Autoencoders: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "คุณสมบัติของ autoencoders ประกอบไปด้วยอะไรบ้าง",
+            "answerOptions": [
+              {
+                "answerText": "เป็นข้อมูลที่เจาะจง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทำงานร่วมกับข้อมูลที่ไม่มีป้ายกำกับ",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้งหมดที่กล่าวมา",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Auto encoders สามารถใช้ลบนอยซ์จากภาพได้ดี",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดไม่ใช่ส่วนประกอบของ Variational auto-encoders loss function",
+            "answerOptions": [
+              {
+                "answerText": "reconstruction loss",
+                "isCorrect": false
+              },
+              {
+                "answerText": "KL loss",
+                "isCorrect": false
+              },
+              {
+                "answerText": "TF loss",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

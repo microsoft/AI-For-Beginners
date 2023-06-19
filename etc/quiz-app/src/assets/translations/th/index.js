@@ -5,7 +5,9 @@ import th4 from "./lesson-4.json";
 import th5 from "./lesson-5.json";
 import th6 from "./lesson-6.json";
 import th7 from "./lesson-7.json";
-
+import th8 from "./lesson-8.json";
+import th9 from "./lesson-9.json";
+import th10 from "./lesson-10.json";
 //add items here
 const quiz = {
   0: th1[0],
@@ -14,7 +16,11 @@ const quiz = {
   3: th4[0],
   4: th5[0],
   5: th6[0],
-  6: th7[0]
+  6: th7[0],
+  7: th8[0],
+  8: th9[0],
+  9: th10[0],
+
 };
 
 export default quiz;
