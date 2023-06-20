@@ -32,7 +32,7 @@ We can also do the opposite. If we have a collection of images, we can pass this
 
 Open the [Clip.ipynb](Clip.ipynb) notebook to see CLIP in action.
 
-## Contrastive Image Pre-Training (CLIP)
+## Image Generation with VQGAN+ CLIP
 
 CLIP can also be used for **image generation** from a text prompt. In order to do this, we need a **generator model** that will be able to generate images based on some vector input. One of such models is called [VQGAN](https://compvis.github.io/taming-transformers/) (Vector-Quantized GAN).
 
