@@ -10,7 +10,7 @@ The idea of a neural network being able to do general tasks without downstream t
 
 > Understanding and being able to produce text also entails knowing something about the world around us. People  also learn by reading to the large extent, and GPT network is similar in this respect.
 
-Text generation networks work by predicting probability of the next word $P(w_N)$. However, unconditional probability of the next word equals to the frequency of the this word in the text corpus. GPT is able to give us **conditional probability** of the next word, given the previous ones $P(w_N | w_{n-1}, ..., w_0)$.
+Text generation networks wor;k by predicting probability of the next word $$P(w_N)$$ However, unconditional probability of the next word equals to the frequency of the this word in the text corpus. GPT is able to give us **conditional probability** of the next word, given the previous ones: $$P(w_N | w_{n-1}, ..., w_0)$$
 
 > You can read more about probabilities in our [Data Science for Beginers Curriculum](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/04-stats-and-probability)
 
@@ -25,9 +25,12 @@ $$
 
 GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](https://openai.com). 
 
-Under the GPT models, we have GPT-2, GPT-3, GPT-3.5 and now, GPT-4. [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), has up to 1.5 billion parameters. Next we have the GPT-3 model has up to 175 billion parameters which is 116 times larger than GPT-2.
+Under the GPT models, we have:
 
-The latest model openly available is [GPT-4](https://openai.com/gpt-4), which is a large multimodal model. GPT-4 accepts both image and text inputs and outputs text. The difference between GPT-3.5 and GPT-4 is subtle, but GPT-4 offere more reliable and creative output as well as is able to handle more nuanced instructions compared to GPT-3.5. [Learn more about GPT-4](https://openai.com/research/gpt-4)
+| [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2) | [GPT 3](https://openai.com/research/language-models-are-few-shot-learners) | [GPT-4](https://openai.com/gpt-4) |
+| -- | -- | -- |
+|Language model with upto 1.5 billion parameters. | Language model with up to 175 billion parameters | 100T parameters and accepts both image and text inputs and outputs text. |
+
 
 The GPT-3 and GPT-4 models are available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), and as [OpenAI API](https://openai.com/api/).
 
