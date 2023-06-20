@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 113,
+        "title": "Text Representation: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "คำแต่ละคำในคลังคำศัพท์เชื่อมโยงกับ Index ของ Vector",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ในการนำเสนอข้อมูลแบบ Text นั้นมีทั้งหมดกี่วิธี",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ในขั้นของการนำเสนอ Character นั้นจะนำเสนอสิ่งใดต่อไปนี้ในรูปแบบของข้อมูลตัวเลข",
+            "answerOptions": [
+              {
+                "answerText": "letter",
+                "isCorrect": true
+              },
+              {
+                "answerText": "word",
+                "isCorrect": false
+              },
+              {
+                "answerText": "symbol",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "title": "Text Representation: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "การนำเสนอข้อมูล Word level representation นำเสนอข้อมูลใดต่อไปนี้ในรูปแบบของตัวเลข",
+            "answerOptions": [
+              {
+                "answerText": "letter",
+                "isCorrect": false
+              },
+              {
+                "answerText": "word",
+                "isCorrect": true
+              },
+              {
+                "answerText": "symbol",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "N-Grams หมายถึงอะไร",
+            "answerOptions": [
+              {
+                "answerText": "การรวมกันของจำนวนคำและสัญลักษณ์ทั้งหมด n จำนวน",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การรวมกันของจำนวนตัวอักษร n ตัว",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การรวมกันของจำนวนคำทั้งหมด n คำ",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อเสียของ N-gram คือจำนวนคำศัพท์มีการเพิ่มขึ้นอย่างรวดเร็ว",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

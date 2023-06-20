@@ -8,6 +8,9 @@ import th7 from "./lesson-7.json";
 import th8 from "./lesson-8.json";
 import th9 from "./lesson-9.json";
 import th10 from "./lesson-10.json";
+import th11 from "./lesson-11.json";
+import th12 from "./lesson-12.json";
+import th13 from "./lesson-13.json";
 //add items here
 const quiz = {
   0: th1[0],
@@ -20,6 +23,9 @@ const quiz = {
   7: th8[0],
   8: th9[0],
   9: th10[0],
+  10: th11[0],
+  11: th12[0],
+  12: th13[0],
 
 };
 
