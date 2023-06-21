@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 116,
+        "title": "RNN: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "RNN ย่อมาจากคำว่าอะไร",
+            "answerOptions": [
+              {
+                "answerText": "regression neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "recurrent neural network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "re-iterative neural network",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เซลล์ RNN แบบทั่วไปมีน้ำหนักของสิ่งใดเป็นจำนวน two weight",
+            "answerOptions": [
+              {
+                "answerText": "matrices",
+                "isCorrect": true
+              },
+              {
+                "answerText": "cell",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neuron",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "vanishing gradients คือปัญหาที่มาจากอะไร",
+            "answerOptions": [
+              {
+                "answerText": "RNN",
+                "isCorrect": true
+              },
+              {
+                "answerText": "CNN",
+                "isCorrect": false
+              },
+              {
+                "answerText": "KNN",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "title": "RNN: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "สิ่งใดรับเอาข้อมูลนำเข้า (input) และ hidden vector จากนั้นนำเข้าสู่ state",
+            "answerOptions": [
+              {
+                "answerText": "forget gate",
+                "isCorrect": false
+              },
+              {
+                "answerText": "output gate",
+                "isCorrect": false
+              },
+              {
+                "answerText": "input gate",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Bidirectional RNNs ทำงานบนการคำนวณของอะไร",
+            "answerOptions": [
+              {
+                "answerText": "both directions",
+                "isCorrect": true
+              },
+              {
+                "answerText": "north-west direction",
+                "isCorrect": false
+              },
+              {
+                "answerText": "left-right direction",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เซลล์ RNN ทั้งหมดมีการแชร์น้ำหนักจำนวนเท่าๆกัน",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

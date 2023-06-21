@@ -11,6 +11,10 @@ import th10 from "./lesson-10.json";
 import th11 from "./lesson-11.json";
 import th12 from "./lesson-12.json";
 import th13 from "./lesson-13.json";
+import th14 from "./lesson-14.json";
+import th15 from "./lesson-15.json";
+import th16 from "./lesson-16.json";
+import th17 from "./lesson-17.json";
 //add items here
 const quiz = {
   0: th1[0],
@@ -26,6 +30,10 @@ const quiz = {
   10: th11[0],
   11: th12[0],
   12: th13[0],
+  13: th14[0],
+  14: th15[0],
+  15: th16[0],
+  16: th17[0],
 
 };
 

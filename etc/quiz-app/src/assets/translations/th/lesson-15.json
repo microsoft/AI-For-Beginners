@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 115,
+        "title": "Language Modeling: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "ข้อใดคือ Language model?",
+            "answerOptions": [
+              {
+                "answerText": "Word2Vec embeddings",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Embedding layer in RNN",
+                "isCorrect": false
+              },
+              {
+                "answerText": "RNN used for text classification",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Language model สามารถที่จะ ____ คำถัดไปในประโยคได้",
+            "answerOptions": [
+              {
+                "answerText": "ใช้ (use)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทำนาย (predict)",
+                "isCorrect": true
+              },
+              {
+                "answerText": "คาดเดา (guess)",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เราใช้ข้อมูลอะไรในการเทรน Language models",
+            "answerOptions": [
+              {
+                "answerText": "คำศัพท์(language vocabulary)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ข้อมูลที่มีตรากำหนดโดยเฉพาะ (specially labeled data)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ข้อความทั่วไป (any natural text)",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "title": "Language Modeling: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "สถาปัตยกรรมใดใช้การทำนายคำ (words) จากคำข้างเคียง (neighboring words)",
+            "answerOptions": [
+              {
+                "answerText": "CBoW",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Skip-gram",
+                "isCorrect": false
+              },
+              {
+                "answerText": "N-Gram",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ผลลัพธ์ของการเทรน CBoW model คืออะไร",
+            "answerOptions": [
+              {
+                "answerText": "โมเดลที่สร้างคำได้",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Word2Vec embedding vectors",
+                "isCorrect": true
+              },
+              {
+                "answerText": "โมเดล Text classification model",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "หลักการทำงานของ The CBoW โมเดล ตั้งอยู่บนหลักการของอะไร ",
+            "answerOptions": [
+              {
+                "answerText": "Dense neural network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Convolutional neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Recurrent neural network",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
