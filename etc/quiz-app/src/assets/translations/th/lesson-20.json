@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 120,
+        "title": "Language Models: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "GPT ย่อมาจากอะไร?",
+            "answerOptions": [
+              {
+                "answerText": "Generic Pre-Trained network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative Pre-trained Transformers",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Generic Positional Text",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "GPT ใช้สำหรับงานอะไร",
+            "answerOptions": [
+              {
+                "answerText": "Text generation",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง text generation และงานด้านอื่นๆ",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "GPT ทำงานบนพื้นฐานหลักการของสถาปัตยกรรมแบบ transformer architecture",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "title": "Language Models: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "zero-shot learning คืออะไร",
+            "answerOptions": [
+              {
+                "answerText": "การหาคำตอบจากการเทรนแบบ pre-trained network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "การเทรนข้อมูลโครงข่ายจากเริ่มต้น (scratch)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การเทรนโครงข่ายข้อมูลสำหรับ epoch อันเดียวเท่านั้น",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Prompt engineering สามารถใช้ร่วมกับสิ่งใด",
+            "answerOptions": [
+              {
+                "answerText": "Zero-shot learning",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Few-shot learning",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้งสองอย่าง",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เมตริกใดสามารถใช้ในการประเมิณคุณภาพของโมเดลภาษา (language model)",
+            "answerOptions": [
+              {
+                "answerText": "accuracy",
+                "isCorrect": false
+              },
+              {
+                "answerText": "recall",
+                "isCorrect": false
+              },
+              {
+                "answerText": "perplexity",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
