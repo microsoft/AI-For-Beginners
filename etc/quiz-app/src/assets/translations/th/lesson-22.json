@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 122,
+        "title": "Reinforcement Learning: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "ข้อใดคือส่ิงสำคัญที่ใช้ในการเทรนแบบ RL model",
+            "answerOptions": [
+              {
+                "answerText": "Simulation environment",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Labeled dataset",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Unlabeled dataset",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดเป็นตัวอย่างของการเรียนรู้แบบ Reinforcement learning:",
+            "answerOptions": [
+              {
+                "answerText": "Zero-shot image classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Zero-shot text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Learning to play chess",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดคือสิ่งที่ต้องทำถ้าหากต้องการที่จะสร้าง RL-based chess engine",
+            "answerOptions": [
+              {
+                "answerText": "ใช้เกมหมากรุกทั้งหมดที่มีอยู่เป็นชุดข้อมูล",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ปล่อยให้คอมพิวเตอร์เล่นหมากรุกแข่งกับตัวเองหลายๆรอบ",
+                "isCorrect": true
+              },
+              {
+                "answerText": "เขียนโปรแกรมอัลกอริทึมแบบ exhaustive search algorithm",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 222,
+        "title": "Reinforcement Learning: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "เราจะสามารถวัดความสำเร็จของ RL training algorithm ได้อย่างไร",
+            "answerOptions": [
+              {
+                "answerText": "เมื่อ RL training algorithm มีอัตราความแม่นยำสูง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "วัดได้โดยใช้ perplexity metric",
+                "isCorrect": false
+              },
+              {
+                "answerText": "วัดได้โดยใช้ฟังก์ชัน reward function",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราควรใช้ RL ในการแก้ปัญหาเมื่อใด",
+            "answerOptions": [
+              {
+                "answerText": "เมื่ออยู่ในสภาพแวดล้อมแบบไม่ต่อเนื่อง (discrete environment)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "เมื่ออยู่ในสภาพแวดล้อมแบบต่อเนื่อง (continuous environment)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ถูกทั้งสองข้อ",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราใช้ critic ในการทำนายอะไรเมื่อใช้โมเดลแบบ Actor-Critic model",
+            "answerOptions": [
+              {
+                "answerText": "Reward function",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Best next action",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ความน่าจะเป็นของเหตุการณ์ถัดไป",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
