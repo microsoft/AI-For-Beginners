@@ -125,7 +125,7 @@ However, if you would like to take the course as a self-study project, we sugges
 - Take the post-lecture quiz
 - If there is a lab attached to the module - complete the assignment
 - Visit the [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions) to "learn out loud".
-- Chat with other learners [on Gitter](https://gitter.im/Microsoft/ai-for-beginners) or [in Telegram channel](http://t.me/ai_for_beginners).
+
 
 > For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) modules and learning paths.
 
