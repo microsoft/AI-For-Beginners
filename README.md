@@ -53,8 +53,8 @@ For a gentle introduction to *AI in the Cloud* topics you may consider taking th
    <td colspan="2"><a href="https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb">Notebook</a></td><td><a href="lessons/3-NeuralNetworks/03-Perceptron/lab/README.md">Lab</a></td></tr>
 <tr><td>4 </td><td>Multi-Layered Perceptron and Creating our own Framework</td><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/README.md">Text</a></td><td colspan="2"><a href="https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb">Notebook</a><td><a href="lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md">Lab</a></td></tr> 
 <tr><td>5</td>
-   <td>Intro to Frameworks (PyTorch/TensorFlow)<br/>Overfitting</td>
-   <td><a href="lessons/3-NeuralNetworks/05-Frameworks/README.md">Text</a><br/><a href="lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md">Text</a></td>
+   <td>Intro to Frameworks (PyTorch/TensorFlow) and Overfitting</td>
+   <td><a href="lessons/3-NeuralNetworks/05-Frameworks/README.md">Text</a></td>
    <td><a href="https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb">PyTorch</a></td>
    <td><a href="https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb">Keras</a>/<a href="https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb">TensorFlow</a></td>
    <td><a href="lessons/3-NeuralNetworks/05-Frameworks/lab/README.md">Lab</a></td></tr>
