@@ -60,59 +60,60 @@
 
 ## Различные подходы к ИИ
 
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
+Если мы хотим, чтобы компьютер вёл себя как человек, то мы должны смоделировать внутри компьютера человеческое мышление. Нам нужно постараться понять как же работает человеческий интеллект.
 
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
+> Чтобы иметь возможность запрограммировать интеллект для машины, мы должны понять как же работает процесс принятия решений человеком. Если вы немного задумаетесь, то поймёте, что часть процессов в человеческом мозге происходит на подсознательном уровне. Например, человек не задумываясь отличит кошку от собаки, но для других решений человеку придётся задуматься.
 
-There are two possible approaches to this problem:
+Есть два возможных подхода к данной проблеме: 
 
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
+Нисходящий подход (символическое рассуждение) | Восходящий подход (нейронные сети)
 ---------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
+Нисходящий подход моделирует то, как человек рассуждает над решением проблемы. Данный подход включает в себя получение **знаний** от человека и перевод их в форму, которая доступна компьютеру. Также для нисходящего подхода необходимо разработать способ моделирования **рассуждений**  внутри компьютера. |Восходящий подход моделирует структуру человеческого мозга, состоящего из огромного количества простейших частей - **нейронов**. Каждый нейрон работает как средневзвещенное среднее своих входных значений и мы можем использовать данное свойство для обучения нейронной сети решению полезных задач, предоставляя ей **обучающие наборы данных**.
 
-There are also some other possible approaches to intelligence:
+Есть и другие подходы:
 
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
+* **Эмерджентный**, **синергетический** или **мультиагентный** подход основан на том факте, что сложное интеллектуальное поведение может быть получено с помощью взаимодействия большого количества простых элементов (агентов). [Эволюционная кибернетика](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics) говорит нам, что интеллект может *появиться* из более простого реактивного поведения в процессе *метасистемного перехода*.
 
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
+* **Эволюционный подход** или **генетический алгоритм** - оптимизационный процесс, основанный на эволюционном принципе.
 
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
+Мы рассмотрим эти подходы позднее, а пока остановимся на двух основных подходах - нисходящем и восходящем.
 
-### The Top-Down Approach
+### Нисходящий подход
 
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
+В **нисходящем подходе**  мы пытаемся смоделировать наши рассуждения. Т.к. мы можем следить за ходом своих мыслей в процессе рассуждения, мы можем попытаться формализовать и запрограммировать данный процесс. Это называется - **символическое мышление**. 
 
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
+Обычно, при принятии решений, люди следуют каким-то правилам, которые хранятся внутри их головы. Например, доктор, выполняющий осмотр пациента, может понять, что у пациента жар, а это уже говорит о том, что внутри человеческого тела началась воспалительная реакция. Так, применяя большое количество правил к конкретной проблеме, доктор может поставить пациенту окончательный диагноз.
 
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
+Этот подход очень сильно зависит от **представления знаний** и **рассуждений**. Получение знаний от эксперта может быть самой сложной частью данного подхода т.к. довольно часто доктор не может точно сказать почему ставит именно этот диагноз(диагноз просто приходит ему на ум без каких-либо размышлений). Некоторые задачи, такие как определение возраста по фото, не могут быть сведены к манипуляции экспертными знаниями.
 
-### Bottom-Up Approach
+### Восходящий подход
 
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
+ В данном подходе мы пытаемся смоделировать простейшие элементы человеческого мозга - нейроны. Мы может создать ** искусственную нейронную сеть ** и научить решать её нужные нам задачи, предоставив примеры. Этот процесс схож с тем, как младенец получает знания о своём окружении с помощью наблюдений.
 
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
+✅ Сделайте небольшое исследование о том, как дети учатся чему-то новому. Какие отделы головного мозга наиболее развиты у детей?
 
-> | What about ML?         |      |
-> |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
+> | Что такое машинное обучение?                                                                                                                                                                                                                                                                                                                                              |      |
+> |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+> | Раздел ИИ, который исследует обучение компьютера решению какой-либо задачи на основе имеющегося наборы данных часто называется **машинным обучением**. Мы не будем рассматривать классическое машинное обучение в данном курсе. Познакомиться с классическим машинным обучением вы можете в курсе [Machine Learning for Beginners](http://aka.ms/ml-beginners).           |   ![ML for Beginners](images/ml-for-beginners.png)    |
 
-## A Brief History of AI
+## Краткая история ИИ
 
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially, symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domains. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
+ИИ зародился как научная область в середине 20-го веку. Изначально в ИИ преобладал символические рассуждения и это привело к целому ряду важных научных открытий. Так на свет появились экспертные системы - компьютерные программы, которые могли выступать в качестве эксперта в какой-либо узкой предметной области. Но скоро стало понятно, что такой подход очень сложно масштабировать т.к. получение и обработка экспертных данных в систему является очень сложной и дорогой задачей.
+Это привело к [зиме ИИ](https://en.wikipedia.org/wiki/AI_winter) в 70х годах.
 
-<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
+<img alt="Краткая история ИИ" src="images/history-of-ai.png" width="70%"/>
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> Изображение [Dmitry Soshnikov](http://soshnikov.com)
 
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
+Со временем цена вычислительных ресурсов снизилась, а доступных для обработки данных стало гораздо больше и начался "рассвет" нейронных сетей, которые стали показывать высокую производительность и хорошо зарекомендовали себя во множестве областей(распознавание образов, распознавание речи), где конкуренцию людям. За последний десяток лет ИИ стало синонимом нейронных сетей т.к. большая часть достижений в области ИИ связана именно с ними. 
 
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
+Например, мы можем проследить как менялись подходы к созданию программ для игры в шахматы:
 
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well toward the end of the game, where the search space is limited by a small number of possible moves. However, at the beginning of the game, the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against themselves and learning from their own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
+* Ранние компьютерные программы были основаны на поиске. Программа пыталась оценить возможные ходы противника на заданное количество ходов вперёд и выбирала оптимальный на заданном отрезке ход. Это привело к разработке алгоритма [альфа-бета-отсечение](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning).
+* Стратегии, основанные на поиске хорошо зарекомендовали себя на поздних этапах игры, когда пространство поиска ограничено небольшим  количеством возможных ходов. На начальных этапах игры простраство для поиска очень велико и алгоритм может быть улучшен если использовать данные о партиях, проведённых игроками людьми. В последующих экспериментах использовалось [рассуждение на основе прецедентов](https://en.wikipedia.org/wiki/Case-based_reasoning), где программа искала в базе знаний "прецеденты" максимально похожие на текущую ситуацию в игре.
+* Современные программы, обыгрывающие игроков людей, основы на нейронных сетях и [обучении с подкреплением](https://en.wikipedia.org/wiki/Reinforcement_learning), где программы учатся играя сами с собой и учась на своих ошибках так же как и люди, которые учатся играть. Но у компьютерных программ есть одно важное преимущество - они могут провести большое количество игр за ограниченное время и учиться  очень быстро.
 
-✅ Do a little research on other games that have been played by AI.
+✅ Проведите небольшое исследование других игр в которые играл ИИ.
 
 Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
 
@@ -120,9 +121,9 @@ Similarly, we can see how the approach towards creating “talking programs” (
 * Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
 * In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
 
-<img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
+<img alt="Эволюция теста Тьюринга" src="images/turing-test-evol.png" width="70%"/>
 
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
+> Изображение Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recent AI Research
 
