@@ -115,47 +115,50 @@
 
 ✅ Проведите небольшое исследование других игр в которые играл ИИ.
 
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
+Также мы можем проследить как изменился подход к созданию, способных пройти тест Тьюринга, виртуальных собеседников:
 
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
+* Ранние программы такие как [Eliza](https://en.wikipedia.org/wiki/ELIZA), были основаны на очень простых грамматических правилах и преобразовании входной фразы в вопрос.
+* Современные ассистенты, такие как Cortana, Siri или Google Assistant являются гибридными системами, которые используют нейронные сети и алгоритмы для преобразования and recognize речи в текст и распознавания наших намерений и дальнейшего выполнения требуемых действий.
+* Мы можем ожидать, что в будущем, модели, полностью основанные на нейронных сетях, сами будут обрабатывать диалоги. Недавно семейство GPT и [Turing-NLG](https://turing.microsoft.com/) нейронных сетей показали большие успехи в этом направлении.
 
 <img alt="Эволюция теста Тьюринга" src="images/turing-test-evol.png" width="70%"/>
 
 > Изображение Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
-## Recent AI Research
+## Недавние исследования в области ИИ
 
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
+Взрывной рост исследований в области нейронных сетей начался около 2010 года, когда в открытом доступе стали появляться большие наборы данных.
+Огромная коллекция изображений [ImageNet](https://en.wikipedia.org/wiki/ImageNet), содержащая около 14 миллионов изображений с аннотациями, дала начало [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
 
 ![ILSVRC Accuracy](images/ilsvrc.gif)
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> Изображение [Dmitry Soshnikov](http://soshnikov.com)
 
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
+В 2012 году, [свёрточные нейронные сети](../4-ComputerVision/07-ConvNets/README.md) были впервые использованы для классификации изображений. Это привело к значительному росту качества распознавания - количество ошибок сократилось с 30% до 16.4%.
+В 2015 году, архитектура ResNet от Microsoft Research [достигла точности распознавания сопоставимой с точностью распознавания человеком](https://doi.org/10.1109/ICCV.2015.123).
 
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
+С тех пор нейронные сети демонстрируют успехи во многих задачах:
 
 ---
 
-Year | Human Parity achieved
+Год | Достигнуто качество решения задачи сопоставимое с качеством решения задачи человеком
 -----|--------
-2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
-2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
-2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
-2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
+2015 | [Классификация изображений](https://doi.org/10.1109/ICCV.2015.123)
+2016 | [Распознавание речи](https://arxiv.org/abs/1610.05256)
+2018 | [Машинный перевод](https://arxiv.org/abs/1803.05567) (с китайского на английский)
+2020 | [Добавление подписей к изображениям](https://arxiv.org/abs/2009.13682)
 
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
+За последние несколько лет мы стали свидетелями огромных успехов в использовании больших языковых моделей, таких как BERT и GPT-3. 
+Это стало возможным благодаря появлению большого количества текстов на общие темы, которые позволяют обучить модели определению структуры и пониманию смысла текста на текстах на общие темы, а затем доработать данные модели для решения более специализированных задач. Мы подробнее рассмотрим [обработку естественного языка (NLP)](../5-NLP/README.md) позднее.
 
-## 🚀 Challenge
+## 🚀 Задача
 
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
+"Прогуляйтесь" по страницам интернета и определите где по вашему ИИ используется наиболее эффективно. Это может быть и картографическое приложение, и приложение для конвертации речи в текст, и даже видеоигра. Проведите небольшое о том, как устроена заинтересовавшая вас система.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Тест](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
 
-## Review & Self Study
+##  Самостоятельная работа
 
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
+Ознакомиться с историей ИИ и машинного обучения прочитав [этот урок](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Выберите элемент из данного урока и углубленно изучите его, чтобы понять культурный контекст, определяющий его развитие.
 
-**Assignment**: [Game Jam](assignment.md)
+**Задание**: [Game Jam](assignment.md)
