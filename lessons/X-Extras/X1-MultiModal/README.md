@@ -1,6 +1,6 @@
 # Multi-Modal Networks
 
-After the success of transformer models for solving NLP tasks, there were many attempts to apply the same or similar architectures to computer vision tasks. Also, there is a growing interest in building models that would *combine* vision and natural language capabilities. One of such attempts was done by OpenAI, and it is called CLIP.
+After the success of transformer models for solving NLP tasks, the same or similar architectures have been applied to computer vision tasks. There is a growing interest in building models that would *combine* vision and natural language capabilities. One of such attempts was done by OpenAI, and it is called CLIP and DALL.E.
 
 ## Contrastive Image Pre-Training (CLIP)
 
@@ -32,7 +32,7 @@ We can also do the opposite. If we have a collection of images, we can pass this
 
 Open the [Clip.ipynb](Clip.ipynb) notebook to see CLIP in action.
 
-## Image Generation with VQGAN + CLIP
+## Image Generation with VQGAN+ CLIP
 
 CLIP can also be used for **image generation** from a text prompt. In order to do this, we need a **generator model** that will be able to generate images based on some vector input. One of such models is called [VQGAN](https://compvis.github.io/taming-transformers/) (Vector-Quantized GAN).
 
@@ -55,6 +55,20 @@ A great library that implements VQGAN+CLIP is [Pixray](http://github.com/pixray/
 Picture generated from prompt *a closeup watercolor portrait of young male teacher of literature with a book* | Picture generated from prompt *a closeup oil portrait of young female teacher of computer science with a computer* | Picture generated from prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
 > Pictures from **Artificial Teachers** collection by [Dmitry Soshnikov](http://soshnikov.com)
+
+## DALL-E
+### [DALL-E 1](https://openai.com/research/dall-e)
+DALL-E is a version of GPT-3 trained to generate images from prompts. It has been trained with 12-billion parameters.
+
+Unlike CLIP, DALL-E receives both text and image as a single stream of tokens for both images and text. Therefore, from multiple prompts, you can generate images based on the text.
+
+### [DALL-E 2](https://openai.com/dall-e-2)
+The main difference between DALL.E 1 and 2, is that it generates more realistic images and art. 
+
+Examples of image genrations with DALL-E:
+![Picture produced by Pixray](images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.png) |  ![Picture produced by pixray](images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.png) | ![Picture produced by Pixray](images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.png)
+----|----|----
+Picture generated from prompt *a closeup watercolor portrait of young male teacher of literature with a book* | Picture generated from prompt *a closeup oil portrait of young female teacher of computer science with a computer* | Picture generated from prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
 ## References
 
