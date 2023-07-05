@@ -10,7 +10,7 @@ The idea of a neural network being able to do general tasks without downstream t
 
 > Understanding and being able to produce text also entails knowing something about the world around us. People  also learn by reading to the large extent, and GPT network is similar in this respect.
 
-Text generation networks work by predicting probability of the next word $P(w_N)$. However, unconditional probability of the next word equals to the frequency of the this word in the text corpus. GPT is able to give us **conditional probability** of the next word, given the previous ones $P(w_N | w_{n-1}, ..., w_0)$.
+Text generation networks wor;k by predicting probability of the next word $$P(w_N)$$ However, unconditional probability of the next word equals to the frequency of the this word in the text corpus. GPT is able to give us **conditional probability** of the next word, given the previous ones: $$P(w_N | w_{n-1}, ..., w_0)$$
 
 > You can read more about probabilities in our [Data Science for Beginers Curriculum](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/04-stats-and-probability)
 
@@ -23,34 +23,31 @@ $$
 
 ## GPT is a Family
 
-GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](http://openai.org). The latest model openly available is [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), which has up to 1.5 billion parameters (there are several variations of the model, so you can select one for your tasks that is a good compromise between size/performance). Latest GPT-3 model has up to 175 billion parameters, and is available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), and as [OpenAI API](https://openai.com/api/).
+GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](https://openai.com). 
 
-## Prompt-based Inference
+Under the GPT models, we have:
 
-Because GPT has been trained on a vast volumes of data, it has some commonsense knowledge embedded directly inside the model. This allows us to force GPT to solve certain typical problems by just providing the right prompt. This presents a whole new approach for using pre-trained models, called [Prompt Engineering](https://en.wikipedia.org/wiki/Prompt_engineering). It is particularly useful with GPT-3, which has significantly more parameters, and consequently more embedded knowledge.
+| [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2) | [GPT 3](https://openai.com/research/language-models-are-few-shot-learners) | [GPT-4](https://openai.com/gpt-4) |
+| -- | -- | -- |
+|Language model with upto 1.5 billion parameters. | Language model with up to 175 billion parameters | 100T parameters and accepts both image and text inputs and outputs text. |
 
-Here are a few example of using Prompt Engineering (answers from the model are *in italics*):
 
-**Recommendation Systems**:<br/>
-People, who liked the movie "The Matrix" also liked *Star Wars, Jupyter Ascending, Ex Machina*
+The GPT-3 and GPT-4 models are available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), and as [OpenAI API](https://openai.com/api/).
 
-**Translation**:<br/>
-Translate from English to French:<br/>
-cat => chat, dog => chien, student => *étudiant*
+## Prompt Engineering
 
-**Looking for words:**<br/>
-Synonyms of a word cat: *feline, feline form, feline spirit*
+Because GPT has been trained on a vast volumes of data to understand language and code, they provide outputs in response to inputs (prompts). Prompts are GPT inputs or queries whereby one provides instructions to models on tasks they next completed. To elicit a desired outcome, you need the most effective prompt which involves selecting the right words, formats, phrases or even symbols. This approach is [Prompt Engineering](https://learn.microsoft.com/en-us/shows/ai-show/the-basics-of-prompt-engineering-with-azure-openai-service?WT.mc_id=academic-77998-bethanycheum)
 
-[This article](https://www.gwern.net/GPT-3#prompts-as-programming) talks more about prompt engineering.
+[This documentation](https://learn.microsoft.com/en-us/semantic-kernel/prompt-engineering/?WT.mc_id=academic-77998-bethanycheum) provides you with more information on prompt engineering.
 
-## ✍️ Example Notebook: [Playing with GPT-2](GPT-PyTorch.ipynb)
+## ✍️ Example Notebook: [Playing with OpenAI-GPT](GPT-PyTorch.ipynb)
 
 Continue your learning in the following notebooks:
 
-* [Generating text with GPT-2 and Hugging Face Transformers](GPT-PyTorch.ipynb)
+* [Generating text with OpenAI-GPT and Hugging Face Transformers](GPT-PyTorch.ipynb)
 
 ## Conclusion
 
-New general pre-trained language models do not only model language structure, but also contain vast amount of commonsense knowledge. Thus, they can be effectively used to solve some NLP tasks in zero-shop or few-shot settings.
+New general pre-trained language models do not only model language structure, but also contain vast amount of natural language. Thus, they can be effectively used to solve some NLP tasks in zero-shop or few-shot settings.
 
 ## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
