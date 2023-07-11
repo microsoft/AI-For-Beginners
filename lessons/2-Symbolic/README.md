@@ -149,7 +149,7 @@ Expert systems can be implemented using different tools:
 
 ## ✍️ Exercise: Animal Inference
 
-See [Animals.ipynb](Animals.ipynb) for an example of implementing forward and backward inference expert system.
+See [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) for an example of implementing forward and backward inference expert system.
 
 > **Note**: This example is rather simple, and only gives the idea of how an expert system looks like. Once you start creating such a system, you will only notice some *intelligent* behaviour from it once you reach certain number of rules, around 200+. At some point, rules become too complex to keep all of them in mind, and at this point you may start wondering why a system makes certain decisions. However, the important characteristics of knowledge-based systems is that you can always *explain* exactly how any of the decisions were made.
 
