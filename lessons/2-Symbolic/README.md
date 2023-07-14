@@ -207,6 +207,7 @@ GROUP BY ?eyeColorLabel
 
 ## ✍️ Exercise: A Family Ontology
 
+
 See [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format and an ontology of family relationships and build a graph of all family relationships for given set of individuals.
 
 ## Microsoft Concept Graph
@@ -221,7 +222,7 @@ The Graph is available either as REST API, or as a large downloadable text file 
 
 ## ✍️ Exercise: A Concept Graph
 
-Try the [MSConceptGraph.ipynb](MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
+Try the [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
 
 ## Conclusion
 
