@@ -16,7 +16,7 @@
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
+Explore the world of **Artificial Intelligence** (AI) with Microsoft's 12-week, 24-lesson curriculum! Dive into Symbolic AI, Neural Networks, Computer Vision, Natural Language Processing, and more. Hands-on lessons, quizzes, and labs enhance your learning. Perfect for beginners, this comprehensive guide, designed by experts, covers TensorFlow, PyTorch, and ethical AI principles. Start your AI journey today!"
 
 In this curriculum, you will learn:
 
