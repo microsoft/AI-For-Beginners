@@ -64,6 +64,7 @@ Untyped-Language | doesn't have | type definitions
    - **Scenarios** are special kind of frames that represent complex situations that can unfold in time.
 
 **Python**
+
 Slot | Value | Default value | Interval |
 -----|-------|---------------|----------|
 Name | Python | | |
@@ -149,7 +150,7 @@ Expert systems can be implemented using different tools:
 
 ## ✍️ Exercise: Animal Inference
 
-See [Animals.ipynb](Animals.ipynb) for an example of implementing forward and backward inference expert system.
+See [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) for an example of implementing forward and backward inference expert system.
 
 > **Note**: This example is rather simple, and only gives the idea of how an expert system looks like. Once you start creating such a system, you will only notice some *intelligent* behaviour from it once you reach certain number of rules, around 200+. At some point, rules become too complex to keep all of them in mind, and at this point you may start wondering why a system makes certain decisions. However, the important characteristics of knowledge-based systems is that you can always *explain* exactly how any of the decisions were made.
 
@@ -206,7 +207,8 @@ GROUP BY ?eyeColorLabel
 
 ## ✍️ Exercise: A Family Ontology
 
-See [FamilyOntology.ipynb](FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format and an ontology of family relationships and build a graph of all family relationships for given set of individuals.
+
+See [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format and an ontology of family relationships and build a graph of all family relationships for given set of individuals.
 
 ## Microsoft Concept Graph
 
@@ -220,7 +222,7 @@ The Graph is available either as REST API, or as a large downloadable text file 
 
 ## ✍️ Exercise: A Concept Graph
 
-Try the [MSConceptGraph.ipynb](MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
+Try the [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
 
 ## Conclusion
 
