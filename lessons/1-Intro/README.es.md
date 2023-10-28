@@ -4,13 +4,13 @@
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Prueba previa a la conferencia](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
 
 **La Inteligencia Artificial** es una apasionante disciplina científica que estudia cómo podemos hacer que las computadoras muestren un comportamiento inteligente, p. hacer aquellas cosas que los seres humanos hacen bien.
 Originalmente, las computadoras fueron inventadas por [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) para operar con números siguiendo un procedimiento bien definido - un algoritmo. Las computadoras modernas, aunque significativamente más avanzadas que el modelo original propuesto en el siglo XIX, todavía siguen la misma idea de cálculos controlados. Por lo tanto, es posible programar una computadora para que haga algo si conocemos la secuencia exacta de pasos que debemos seguir para lograr el objetivo.
 ![Photo of a person](images/dsh_age.png)
 
-> Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
+> Foto de [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
 > ✅ Definir la edad de una persona a partir de su fotografía es una tarea que no se puede programar explícitamente, porque no sabemos cómo se nos ocurre un número dentro de la cabeza cuando lo hacemos.
 ---
@@ -20,569 +20,125 @@ Sin embargo, hay algunas tareas que no sabemos explícitamente cómo resolver. C
 
 ## IA débil versus IA fuerte
 
-La tarea de resolver un problema humano específico, como determinar la edad de una persona a partir de una fotografía, se puede llamar **IA débil**, porque estamos creando un sistema para una sola tarea, y no un sistema que pueda resolver muchas. tareas que pueden ser realizadas por un ser humano. Por supuesto, el desarrollo de un sistema informático generalmente inteligente también es muy interesante desde muchos puntos de vista, también para los estudiantes de filosofía de la conciencia. Dicho sistema se llamaría **Fuerte IA** o **[Inteligencia general artificial](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
+La tarea de resolver un problema humano específico, como determinar la edad de una persona a partir de una fotografía, se puede llamar **IA débil**, porque estamos creando un sistema para una sola tarea, y no un sistema que pueda resolver muchas. tareas que pueden ser realizadas por un ser humano. Por supuesto, el desarrollo de un sistema informático generalmente inteligente también es muy interesante desde muchos puntos de vista, también para los estudiantes de filosofía de la conciencia. Dicho sistema se llamaría **Fuerte IA** o  **[Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
 
 ## La definición de inteligencia y el test de Turing
 
-Uno de los problemas al abordar el término **[Inteligencia](https://en.wikipedia.org/wiki/Intelligence)** es que no existe una definición clara de este término. Se puede argumentar que la inteligencia está relacionada con el **pensamiento abstracto** o con la **autoconciencia**, pero no podemos definirlo adecuadamente.
+Uno de los problemas al abordar el término **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** es que no existe una definición clara de este término. Se puede argumentar que la inteligencia está relacionada con el **pensamiento abstracto** o con la **autoconciencia**, pero no podemos definirlo adecuadamente.
 
 ![Foto de un gato](images/photo-cat.jpg)
 
 > [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
 
-To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion is true or not. And if you think there is - try running your cat through an IQ test...
+Para ver la ambigüedad de un término *inteligencia*, intenta responder a una pregunta: "¿Es inteligente un gato?". Diferentes personas tienden a dar diferentes respuestas a esta pregunta, ya que no existe una prueba universalmente aceptada para demostrar que la afirmación es cierta o no. Y si crees que sí, prueba a someter a tu gato a una prueba de coeficiente intelectual...
 
-✅ Think for a minute about how you define intelligence. Is a crow who can solve a maze and get at some food intelligent? Is a child intelligent?
+✅ Piensa por un minuto en cómo defines la inteligencia. ¿Es inteligente un cuervo que puede resolver un laberinto y llegar a algo de comida? ¿Es inteligente un niño?
 
 ---
 
-When speaking about AGI we need to have some way to tell if we have created a truly intelligent system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) proposed a way called a **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, which also acts like a definition of intelligence. The test compares a given system to something inherently intelligent - a real human being, and because any automatic comparison can be bypassed by a computer program, we use a human interrogator. So, if a human being is unable to distinguish between a real person and a computer system in text-based dialogue - the system is considered intelligent.
+Cuando hablamos de AGI, necesitamos tener alguna forma de saber si hemos creado un sistema verdaderamente inteligente. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) propuso una forma llamada **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, que también actúa como una definición de inteligencia. La prueba compara un sistema dado con algo inherentemente inteligente: un ser humano real, y debido a que cualquier comparación automática puede ser eludida por un programa de computadora, usamos un interrogador humano. Por lo tanto, si un ser humano es incapaz de distinguir entre una persona real y un sistema informático en un diálogo basado en texto, el sistema se considera inteligente.
 
-> A chat-bot called [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), developed in St.Petersburg, came close to passing the Turing test in 2014 by using a clever personality trick. It announced up front that it was a 13-year old Ukrainian boy, which would explain the lack of knowledge and some discrepancies in the text. The bot convinced 30% of the judges that it was human after a 5 minute dialogue, a metric that Turing believed a machine would be able to pass by 2000. However, one should understand that this does not indicate that we have created an intelligent system, or that a computer system has fooled the human interrogator - the system didn't fool the humans, but rather the bot creators did!
+> Un chat-bot llamado [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), desarrollado en San Petersburgo, estuvo a punto de pasar el test de Turing en 2014 mediante el uso de un ingenioso truco de personalidad. Anunciaba por adelantado que se trataba de un niño ucraniano de 13 años, lo que explicaría la falta de conocimiento y algunas discrepancias en el texto. El bot convenció al 30% de los jueces de que era humano después de un diálogo de 5 minutos, una métrica que Turing creía que una máquina sería capaz de pasar en el año 2000. Sin embargo, hay que entender que esto no indica que hayamos creado un sistema inteligente, o que un sistema informático haya engañado al interrogador humano: ¡el sistema no engañó a los humanos, sino que lo hicieron los creadores de los bots!
 
-✅ Have you ever been fooled by a chat bot into thinking that you are speaking to a human? How did it convince you?
+✅ ¿Alguna vez has sido engañado por un bot de chat para que pienses que estás hablando con un humano? ¿Cómo te convenció?
 
-## Different Approaches to AI
+## Diferentes enfoques de la IA
 
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
+Si queremos que una computadora se comporte como un humano, necesitamos de alguna manera modelar dentro de una computadora nuestra forma de pensar. En consecuencia, tenemos que tratar de entender qué es lo que hace que un ser humano sea inteligente.
 
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
+> Para poder programar la inteligencia en una máquina, necesitamos entender cómo funcionan nuestros propios procesos de toma de decisiones. Si haces un poco de introspección, te darás cuenta de que hay algunos procesos que ocurren inconscientemente, por ejemplo. Podemos distinguir a un gato de un perro sin pensar en ello, mientras que otros implican razonamiento.
 
-There are two possible approaches to this problem:
+Hay dos enfoques posibles para este problema:
 
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
----------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
+Enfoque de arriba hacia abajo (razonamiento simbólico) | Enfoque ascendente (redes neuronales)
+-------------------------------------------------------|-----------------------------------------------------
+Un enfoque de arriba hacia abajo modela la forma en que una persona razona para resolver un problema. Consiste en extraer **conocimiento** de un ser humano y representarlo en una forma legible por computadora. También necesitamos desarrollar una forma de modelar el **razonamiento** dentro de una computadora. | Un enfoque ascendente modela la estructura de un cerebro humano, que consiste en un gran número de unidades simples llamadas **neuronas**. Cada neurona actúa como un promedio ponderado de sus entradas, y podemos entrenar una red de neuronas para resolver problemas útiles proporcionando **datos de entrenamiento**.
 
-There are also some other possible approaches to intelligence:
+También hay otros enfoques posibles de la inteligencia:
 
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
+* Un enfoque **Emergente**, **Sinérgico** o **multi-agente** se basa en el hecho de que se puede obtener un comportamiento inteligente complejo mediante la interacción de un gran número de agentes simples. Según [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), La inteligencia puede *emerger* de un comportamiento más simple y reactivo en el proceso de *transición del metasistema*.
+  
+* Un **enfoque evolutivo**, o **algoritmo genético** es un proceso de optimización basado en los principios de la evolución.
+  
+Consideraremos esos enfoques más adelante en el curso, pero en este momento nos centraremos en dos direcciones principales: de arriba hacia abajo y de abajo hacia arriba.
 
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
+### El enfoque de arriba hacia abajo
 
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
+En un **enfoque de arriba hacia abajo**, tratamos de modelar nuestro razonamiento.  Debido a que podemos seguir nuestros pensamientos cuando razonamos, podemos tratar de formalizar este proceso y programarlo dentro de la computadora. A esto se le llama **razonamiento simbólico**.
 
-### The Top-Down Approach
+Las personas tienden a tener algunas reglas en su cabeza que guían sus procesos de toma de decisiones. Por ejemplo, cuando un médico está diagnosticando a un paciente, puede darse cuenta de que una persona tiene fiebre y, por lo tanto, puede haber algo de inflamación dentro del cuerpo. Al aplicar un gran conjunto de reglas a un problema específico, un médico puede llegar al diagnóstico final.
 
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
+Este enfoque se basa en gran medida en la **representación del conocimiento** y el **razonamiento**. Extraer el conocimiento de un experto humano puede ser la parte más difícil, porque un médico en muchos casos no sabría exactamente por qué está llegando a un diagnóstico en particular. A veces, la solución simplemente surge en su cabeza sin pensar explícitamente. Algunas tareas, como determinar la edad de una persona a partir de una fotografía, no pueden reducirse en absoluto a manipular el conocimiento.
 
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
+### Enfoque ascendente
 
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
+Alternativamente, podemos intentar modelar los elementos más simples dentro de nuestro cerebro: una neurona. Podemos construir una llamada **red neuronal artificial** dentro de una computadora, y luego tratar de enseñarle a resolver problemas dándole ejemplos. Este proceso es similar a la forma en que un niño recién nacido aprende sobre su entorno haciendo observaciones.
 
-### Bottom-Up Approach
+✅ Investigue un poco sobre cómo aprenden los bebés. ¿Cuáles son los elementos básicos del cerebro de un bebé?
 
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
-
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
-
-> | What about ML?         |      |
+> | ¿Qué pasa con el aprendizaje automático?         |      |
 > |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
+> | Parte de la Inteligencia Artificial que se basa en el aprendizaje informático para resolver un problema basado en unos datos se denomina **Machine Learning**. No consideraremos el aprendizaje automático clásico en este curso, lo remitimos a un [Machine Learning for Beginners](http://aka.ms/ml-beginners) currículo. |   ![ML for Beginners](images/ml-for-beginners.png)    |
 
-## A Brief History of AI
+## Breve historia de la IA
 
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially, symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domains. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
+La Inteligencia Artificial se inició como campo a mediados del siglo XX. Inicialmente, el razonamiento simbólico era un enfoque prevalente, y condujo a una serie de éxitos importantes, como los sistemas expertos, programas informáticos que eran capaces de actuar como expertos en algunos dominios problemáticos limitados. Sin embargo, pronto quedó claro que este enfoque no se adapta bien.Extraer el conocimiento de un experto, representarlo en una computadora y mantener esa base de conocimiento precisa resulta ser una tarea muy compleja y demasiado costosa para ser práctica en muchos casos. Esto llevó a los llamados [AI Winter](https://en.wikipedia.org/wiki/AI_winter) en la década de 1970.
 
 <img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> Imagen de [Dmitry Soshnikov](http://soshnikov.com)
 
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
+Con el paso del tiempo, los recursos informáticos se volvieron más baratos y se dispuso de más datos, por lo que los enfoques de redes neuronales comenzaron a demostrar un gran rendimiento para competir con los seres humanos en muchas áreas, como la visión por computadora o la comprensión del habla. En la última década, el término Inteligencia Artificial se ha utilizado principalmente como sinónimo de Redes Neuronales, porque la mayoría de los éxitos de la IA de los que oímos hablar se basan en ellas.
 
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
+Podemos observar cómo cambiaron los enfoques, por ejemplo, en la creación de un programa informático para jugar al ajedrez:
 
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well toward the end of the game, where the search space is limited by a small number of possible moves. However, at the beginning of the game, the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against themselves and learning from their own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
+* Los primeros programas de ajedrez se basaban en la búsqueda: un programa intentaba explícitamente estimar los posibles movimientos de un oponente para un número determinado de movimientos siguientes, y seleccionaba un movimiento óptimo basado en la posición óptima que se puede lograr en unos pocos movimientos. Condujo al desarrollo de la llamada [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) algoritmo de búsqueda.
+* Las estrategias de búsqueda funcionan bien hacia el final del juego, donde el espacio de búsqueda está limitado por un pequeño número de movimientos posibles. Sin embargo, al comienzo del juego, el espacio de búsqueda es enorme y el algoritmo se puede mejorar aprendiendo de las coincidencias existentes entre jugadores humanos. En experimentos posteriores se emplearon los llamados [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), donde el programa buscaba casos en la base de conocimiento muy similares a la posición actual en el juego.
+* Los programas modernos que conquistan a los jugadores humanos se basan en redes neuronales y [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), donde los programas aprenden a jugar únicamente jugando mucho tiempo contra sí mismos y aprendiendo de sus propios errores, al igual que lo hacen los seres humanos cuando aprenden a jugar al ajedrez. Sin embargo, un programa de computadora puede jugar muchos más juegos en mucho menos tiempo y, por lo tanto, puede aprender mucho más rápido.
 
-✅ Do a little research on other games that have been played by AI.
+✅ Investiga un poco sobre otros juegos que han sido jugados por IA.
 
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
+Del mismo modo, podemos ver cómo cambió el enfoque hacia la creación de "programas parlantes" (que podrían pasar el test de Turing):
 
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
+* Los primeros programas de este tipo, tales como [Eliza](https://en.wikipedia.org/wiki/ELIZA), se basaban en reglas gramaticales muy simples y en la reformulación de la oración introducida en una pregunta.
+* Los asistentes modernos, como Cortana, Siri o Google Assistant son todos sistemas híbridos que utilizan redes neuronales para convertir el habla en texto y reconocer nuestra intención, y luego emplean algunos algoritmos de razonamiento o explícitos para realizar las acciones requeridas.
+* En el futuro, podemos esperar un modelo completo basado en neuronas que maneje el diálogo por sí mismo. El reciente GPT y [Turing-NLG](https://turing.microsoft.com/) familia de redes neuronales muestran un gran éxito en esto.
 
 <img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
 
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
+> Imagen de Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
-## Recent AI Research
+## Investigación reciente sobre IA
 
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
+El enorme crecimiento reciente en la investigación de redes neuronales comenzó alrededor de 2010, cuando grandes conjuntos de datos públicos comenzaron a estar disponibles. Una enorme colección de imágenes llamada [ImageNet](https://en.wikipedia.org/wiki/ImageNet), que contiene alrededor de 14 millones de imágenes anotadas, dio origen a la [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
 
 ![ILSVRC Accuracy](images/ilsvrc.gif)
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+> Imagen de [Dmitry Soshnikov](http://soshnikov.com)
 
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
+En 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) se utilizaron por primera vez en la clasificación de imágenes, lo que condujo a una caída significativa en los errores de clasificación (de casi el 30% al 16,4%). En 2015, la arquitectura ResNet de Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
 
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
+Desde entonces, las Redes Neuronales han demostrado un comportamiento muy exitoso en muchas tareas:
 
 ---
 
-Year | Human Parity achieved
+Año  | Paridad Humana lograda
 -----|--------
 2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
 2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
 2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
 2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
 
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
+En los últimos años hemos sido testigos de grandes éxitos con grandes modelos de lenguaje, como BERT y GPT-3. Esto sucedió principalmente debido al hecho de que hay una gran cantidad de datos de texto general disponibles que nos permiten entrenar modelos para capturar la estructura y el significado de los textos, entrenarlos previamente en colecciones de texto generales y luego especializar esos modelos para tareas más específicas. Aprenderemos más sobre [Natural Language Processing](../5-NLP/README.md) más adelante en este curso.
 
-## 🚀 Challenge
+## 🚀 Desafiar
 
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
+Haga un recorrido por Internet para determinar dónde, en su opinión, se utiliza la IA de manera más efectiva. ¿Está en una aplicación de mapas, o en algún servicio de voz a texto o en un videojuego? Investiga cómo se construyó el sistema.
 
 ## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
 
-## Review & Self Study
+## Repaso y autoestudio
 
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element # Introduction to AI
+Revise la historia de la IA y el ML leyendo [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Toma un elemento de la nota de boceto en la parte superior de esa lección o de esta otra e investiga con más profundidad para comprender el contexto cultural que informa su evolución.
 
-![Summary of Introduction of AI content in a doodle](../sketchnotes/ai-intro.png)
-
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
-
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
-
-**Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
-
-Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to operate on numbers following a well-defined procedure - an algorithm. Modern computers, even though significantly more advanced than the original model proposed in the 19th century, still follow the same idea of controlled computations. Thus it is possible to program a computer to do something if we know the exact sequence of steps that we need to do in order to achieve the goal.
-
-![Photo of a person](images/dsh_age.png)
-
-> Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
-
-> ✅ Defining the age of a person from his or her photograph is a task that cannot be explicitly programmed, because we do not know how we come up with a number inside our head when we do it.
-
----
-
-There are some tasks, however, that we do not explicitly know how to solve. Consider determining the age of a person from his/her photograph. We somehow learn to do it, because we have seen many examples of people of different age, but we cannot explicitly explain how we do it, nor can we program the computer to do it. This is exactly the kind of task that are of interest to **Artificial Intelligence** (AI for short).
-
-✅ Think of some tasks that you could offload to a computer that would benefit from AI. Consider the fields of finance, medicine, and the arts - how are these fields benefiting today from AI?
-
-## Weak AI vs. Strong AI
-
-The task of solving a specific human-like problem, such as determining a person's age from a photo, can be called **Weak AI**, because we are creating a system for only one task, and not a system that can solve many tasks, such as can be done by a human being. Of course, developing a generally intelligent computer system is also extremely interesting from many points of view, including for students of the philosophy of consciousness. Such system would be called **Strong AI**, or **[Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
-
-## The Definition of Intelligence and the Turing Test
-
-One of the problems when dealing with the term **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is that there is no clear definition of this term. One can argue that intelligence is connected to **abstract thinking**, or to **self-awareness**, but we cannot properly define it.
-
-![Photo of a Cat](images/photo-cat.jpg)
-
-> [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
-
-To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion is true or not. And if you think there is - try running your cat through an IQ test...
-
-✅ Think for a minute about how you define intelligence. Is a crow who can solve a maze and get at some food intelligent? Is a child intelligent?
-
----
-
-When speaking about AGI we need to have some way to tell if we have created a truly intelligent system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) proposed a way called a **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, which also acts like a definition of intelligence. The test compares a given system to something inherently intelligent - a real human being, and because any automatic comparison can be bypassed by a computer program, we use a human interrogator. So, if a human being is unable to distinguish between a real person and a computer system in text-based dialogue - the system is considered intelligent.
-
-> A chat-bot called [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), developed in St.Petersburg, came close to passing the Turing test in 2014 by using a clever personality trick. It announced up front that it was a 13-year old Ukrainian boy, which would explain the lack of knowledge and some discrepancies in the text. The bot convinced 30% of the judges that it was human after a 5 minute dialogue, a metric that Turing believed a machine would be able to pass by 2000. However, one should understand that this does not indicate that we have created an intelligent system, or that a computer system has fooled the human interrogator - the system didn't fool the humans, but rather the bot creators did!
-
-✅ Have you ever been fooled by a chat bot into thinking that you are speaking to a human? How did it convince you?
-
-## Different Approaches to AI
-
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
-
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
-
-There are two possible approaches to this problem:
-
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
----------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
-
-There are also some other possible approaches to intelligence:
-
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
-
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
-
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
-
-### The Top-Down Approach
-
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
-
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
-
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
-
-### Bottom-Up Approach
-
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
-
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
-
-> | What about ML?         |      |
-> |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
-
-## A Brief History of AI
-
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially, symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domains. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
-
-<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
-
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
-
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well toward the end of the game, where the search space is limited by a small number of possible moves. However, at the beginning of the game, the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against themselves and learning from their own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
-
-✅ Do a little research on other games that have been played by AI.
-
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
-
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
-
-<img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
-
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
-
-## Recent AI Research
-
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
-
-![ILSVRC Accuracy](images/ilsvrc.gif)
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
-
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
-
----
-
-Year | Human Parity achieved
------|--------
-2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
-2016 | [Conversational Speech Rec# Introduction to AI
-
-![Summary of Introduction of AI content in a doodle](../sketchnotes/ai-intro.png)
-
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
-
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
-
-**Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
-
-Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to operate on numbers following a well-defined procedure - an algorithm. Modern computers, even though significantly more advanced than the original model proposed in the 19th century, still follow the same idea of controlled computations. Thus it is possible to program a computer to do something if we know the exact sequence of steps that we need to do in order to achieve the goal.
-
-![Photo of a person](images/dsh_age.png)
-
-> Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
-
-> ✅ Defining the age of a person from his or her photograph is a task that cannot be explicitly programmed, because we do not know how we come up with a number inside our head when we do it.
-
----
-
-There are some tasks, however, that we do not explicitly know how to solve. Consider determining the age of a person from his/her photograph. We somehow learn to do it, because we have seen many examples of people of different age, but we cannot explicitly explain how we do it, nor can we program the computer to do it. This is exactly the kind of task that are of interest to **Artificial Intelligence** (AI for short).
-
-✅ Think of some tasks that you could offload to a computer that would benefit from AI. Consider the fields of finance, medicine, and the arts - how are these fields benefiting today from AI?
-
-## Weak AI vs. Strong AI
-
-The task of solving a specific human-like problem, such as determining a person's age from a photo, can be called **Weak AI**, because we are creating a system for only one task, and not a system that can solve many tasks, such as can be done by a human being. Of course, developing a generally intelligent computer system is also extremely interesting from many points of view, including for students of the philosophy of consciousness. Such system would be called **Strong AI**, or **[Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
-
-## The Definition of Intelligence and the Turing Test
-
-One of the problems when dealing with the term **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is that there is no clear definition of this term. One can argue that intelligence is connected to **abstract thinking**, or to **self-awareness**, but we cannot properly define it.
-
-![Photo of a Cat](images/photo-cat.jpg)
-
-> [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
-
-To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion is true or not. And if you think there is - try running your cat through an IQ test...
-
-✅ Think for a minute about how you define intelligence. Is a crow who can solve a maze and get at some food intelligent? Is a child intelligent?
-
----
-
-When speaking about AGI we need to have some way to tell if we have created a truly intelligent system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) proposed a way called a **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, which also acts like a definition of intelligence. The test compares a given system to something inherently intelligent - a real human being, and because any automatic comparison can be bypassed by a computer program, we use a human interrogator. So, if a human being is unable to distinguish between a real person and a computer system in text-based dialogue - the system is considered intelligent.
-
-> A chat-bot called [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), developed in St.Petersburg, came close to passing the Turing test in 2014 by using a clever personality trick. It announced up front that it was a 13-year old Ukrainian boy, which would explain the lack of knowledge and some discrepancies in the text. The bot convinced 30% of the judges that it was human after a 5 minute dialogue, a metric that Turing believed a machine would be able to pass by 2000. However, one should understand that this does not indicate that we have created an intelligent system, or that a computer system has fooled the human interrogator - the system didn't fool the humans, but rather the bot creators did!
-
-✅ Have you ever been fooled by a chat bot into thinking that you are speaking to a human? How did it convince you?
-
-## Different Approaches to AI
-
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
-
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
-
-There are two possible approaches to this problem:
-
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
----------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
-
-There are also some other possible approaches to intelligence:
-
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
-
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
-
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
-
-### The Top-Down Approach
-
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
-
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
-
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
-
-### Bottom-Up Approach
-
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
-
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
-
-> | What about ML?         |      |
-> |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
-
-## A Brief History of AI
-
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially, symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domains. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
-
-<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
-
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
-
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well toward the end of the game, where the search space is limited by a small number of possible moves. However, at the beginning of the game, the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against themselves and learning from their own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
-
-✅ Do a little research on other games that have been played by AI.
-
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
-
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
-
-<img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
-
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
-
-## Recent AI Research
-
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
-
-![ILSVRC Accuracy](images/ilsvrc.gif)
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
-
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
-
----
-
-Year | Human Parity achieved
------|--------
-2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
-2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
-2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
-2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
-
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
-
-## 🚀 Challenge
-
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
-
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
-
-## Review & Self Study
-
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element # Introduction to AI
-
-![Summary of Introduction of AI content in a doodle](../sketchnotes/ai-intro.png)
-
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
-
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
-
-**Artificial Intelligence** is an exciting scientific discipline that studies how we can make computers exhibit intelligent behavior, e.g. do those things that human beings are good at doing.
-
-Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to operate on numbers following a well-defined procedure - an algorithm. Modern computers, even though significantly more advanced than the original model proposed in the 19th century, still follow the same idea of controlled computations. Thus it is possible to program a computer to do something if we know the exact sequence of steps that we need to do in order to achieve the goal.
-
-![Photo of a person](images/dsh_age.png)
-
-> Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
-
-> ✅ Defining the age of a person from his or her photograph is a task that cannot be explicitly programmed, because we do not know how we come up with a number inside our head when we do it.
-
----
-
-There are some tasks, however, that we do not explicitly know how to solve. Consider determining the age of a person from his/her photograph. We somehow learn to do it, because we have seen many examples of people of different age, but we cannot explicitly explain how we do it, nor can we program the computer to do it. This is exactly the kind of task that are of interest to **Artificial Intelligence** (AI for short).
-
-✅ Think of some tasks that you could offload to a computer that would benefit from AI. Consider the fields of finance, medicine, and the arts - how are these fields benefiting today from AI?
-
-## Weak AI vs. Strong AI
-
-The task of solving a specific human-like problem, such as determining a person's age from a photo, can be called **Weak AI**, because we are creating a system for only one task, and not a system that can solve many tasks, such as can be done by a human being. Of course, developing a generally intelligent computer system is also extremely interesting from many points of view, including for students of the philosophy of consciousness. Such system would be called **Strong AI**, or **[Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
-
-## The Definition of Intelligence and the Turing Test
-
-One of the problems when dealing with the term **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is that there is no clear definition of this term. One can argue that intelligence is connected to **abstract thinking**, or to **self-awareness**, but we cannot properly define it.
-
-![Photo of a Cat](images/photo-cat.jpg)
-
-> [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
-
-To see the ambiguity of a term *intelligence*, try answering a question: "Is a cat intelligent?". Different people tend to give different answers to this question, as there is no universally accepted test to prove the assertion is true or not. And if you think there is - try running your cat through an IQ test...
-
-✅ Think for a minute about how you define intelligence. Is a crow who can solve a maze and get at some food intelligent? Is a child intelligent?
-
----
-
-When speaking about AGI we need to have some way to tell if we have created a truly intelligent system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) proposed a way called a **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, which also acts like a definition of intelligence. The test compares a given system to something inherently intelligent - a real human being, and because any automatic comparison can be bypassed by a computer program, we use a human interrogator. So, if a human being is unable to distinguish between a real person and a computer system in text-based dialogue - the system is considered intelligent.
-
-> A chat-bot called [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), developed in St.Petersburg, came close to passing the Turing test in 2014 by using a clever personality trick. It announced up front that it was a 13-year old Ukrainian boy, which would explain the lack of knowledge and some discrepancies in the text. The bot convinced 30% of the judges that it was human after a 5 minute dialogue, a metric that Turing believed a machine would be able to pass by 2000. However, one should understand that this does not indicate that we have created an intelligent system, or that a computer system has fooled the human interrogator - the system didn't fool the humans, but rather the bot creators did!
-
-✅ Have you ever been fooled by a chat bot into thinking that you are speaking to a human? How did it convince you?
-
-## Different Approaches to AI
-
-If we want a computer to behave like a human, we need somehow to model inside a computer our way of thinking. Consequently, we need to try to understand what makes a human being intelligent.
-
-> To be able to program intelligence into a machine, we need to understand how our own processes of making decisions work. If you do a little self-introspection, you will realize that there are some processes that happen subconsciously – eg. we can distinguish a cat from a dog without thinking about it - while some others involve reasoning.
-
-There are two possible approaches to this problem:
-
-Top-down Approach (Symbolic Reasoning) | Bottom-up Approach (Neural Networks)
----------------------------------------|-------------------------------------
-A top-down approach models the way a person reasons to solve a problem. It involves extracting **knowledge** from a human being, and representing it in a computer-readable form. We also need to develop a way to model **reasoning** inside a computer. | A bottom-up approach models the structure of a human brain, consisting of huge number of simple units called **neurons**. Each neuron acts like a weighted average of its inputs, and we can train a network of neurons to solve useful problems by providing **training data**.
-
-There are also some other possible approaches to intelligence:
-
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
-
-* An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
-
-We will consider those approaches later in the course, but right now we will focus on two main directions: top-down and bottom-up.
-
-### The Top-Down Approach
-
-In a **top-down approach**, we try to model our reasoning.  Because we can follow our thoughts when we reason, we can try to formalize this process and program it inside the computer. This is called **symbolic reasoning**.
-
-People tend to have some rules in their head that guide their decision making processes. For example, when a doctor is diagnosing a patient, he or she may realize that a person has a fever, and thus there might be some inflammation going on inside the body. By applying a large set of rules to a specific problem a doctor may be able to come up with the final diagnosis.
-
-This approach relies heavily on **knowledge representation** and **reasoning**. Extracting knowledge from a human expert might be the most difficult part, because a doctor in many cases would not know exactly why he or she is coming up with a particular diagnosis. Sometimes the solution just comes up in his or her head without explicit thinking. Some tasks, such as determining the age of a person from a photograph, cannot be at all reduced to manipulating knowledge.
-
-### Bottom-Up Approach
-
-Alternately, we can try to model the simplest elements inside our brain – a neuron. We can construct a so-called **artificial neural network** inside a computer, and then try to teach it to solve problems by giving it examples. This process is similar to how a newborn child learns about his or her surroundings by making observations.
-
-✅ Do a little research on how babies learn. What are the basic elements of a baby's brain?
-
-> | What about ML?         |      |
-> |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
-
-## A Brief History of AI
-
-Artificial Intelligence was started as a field in the middle of the twentieth century. Initially, symbolic reasoning was a prevalent approach, and it led to a number of important successes, such as expert systems – computer programs that were able to act as an expert in some limited problem domains. However, it soon became clear that such approach does not scale well. Extracting the knowledge from an expert, representing it in a computer, and keeping that knowledgebase accurate turns out to be a very complex task, and too expensive to be practical in many cases. This led to so-called [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
-
-<img alt="Brief History of AI" src="images/history-of-ai.png" width="70%"/>
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-As time passed, computing resources became cheaper, and more data has become available, so neural network approaches started demonstrating great performance in competing with human beings in many areas, such as computer vision or speech understanding. In the last decade, the term Artificial Intelligence has been mostly used as a synonym for Neural Networks, because most of the AI successes that we hear about are based on them.
-
-We can observe how the approaches changed, for example, in creating a chess playing computer program:
-
-* Early chess programs were based on search – a program explicitly tried to estimate possible moves of an opponent for a given number of next moves, and selected an optimal move based on the optimal position that can be achieved in a few moves. It led to the development of the so-called [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Search strategies work well toward the end of the game, where the search space is limited by a small number of possible moves. However, at the beginning of the game, the search space is huge, and the algorithm can be improved by learning from existing matches between human players. Subsequent experiments employed so-called [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), where the program looked for cases in the knowledge base very similar to the current position in the game.
-* Modern programs that win over human players are based on neural networks and [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), where the programs learn to play solely by playing a long time against themselves and learning from their own mistakes – much like human beings do when learning to play chess. However, a computer program can play many more games in much less time, and thus can learn much faster.
-
-✅ Do a little research on other games that have been played by AI.
-
-Similarly, we can see how the approach towards creating “talking programs” (that might pass the Turing test) changed:
-
-* Early programs of this kind such as [Eliza](https://en.wikipedia.org/wiki/ELIZA), were based on very simple grammatical rules and the re-formulation of the input sentence into a question.
-* Modern assistants, such as Cortana, Siri or Google Assistant are all hybrid systems that use Neural networks to convert speech into text and recognize our intent, and then employ some reasoning or explicit algorithms to perform required actions.
-* In the future, we may expect a complete neural-based model to handle dialogue by itself. The recent GPT and [Turing-NLG](https://turing.microsoft.com/) family of neural networks show great success in this.
-
-<img alt="the Turing test's evolution" src="images/turing-test-evol.png" width="70%"/>
-
-> Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
-
-## Recent AI Research
-
-The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
-
-![ILSVRC Accuracy](images/ilsvrc.gif)
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
-
-Since then, Neural Networks demonstrated very successful behaviour in many tasks:
-
----
-
-Year | Human Parity achieved
------|--------
-2015 | [Image Classification](https://doi.org/10.1109/ICCV.2015.123)
-2016 | [Conversational Speech Recognition](https://arxiv.org/abs/1610.05256)
-2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
-2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
-
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
-
-## 🚀 Challenge
-
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
-
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
-
-## Review & Self Study
-
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
-
-**Assignment**: [Game Jam](assignment.md)
-from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
-
-**Assignment**: [Game Jam](assignment.md)
-ognition](https://arxiv.org/abs/1610.05256)
-2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
-2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
-
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
-
-## 🚀 Challenge
-
-Do a tour of the internet to determine where, in your opinion, AI is most effectively used. Is it in a Mapping app, or some speech-to-text service or a video game? Research how the system was built.
-
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
-
-## Review & Self Study
-
-Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
-
-**Assignment**: [Game Jam](assignment.md)
-from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
-
-**Assignment**: [Game Jam](assignment.md)
+**Assignment**: [Game Jam](assignment.md):
