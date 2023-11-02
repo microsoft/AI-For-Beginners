@@ -49,7 +49,7 @@ As usual, there's a lesson, assignments to complete, knowledge checks and challe
 
 Check it out:
 
-> https://github.com/microsoft/generative-ai-for-beginners
+> https://aka.ms/genai-beginners
 
 ---
 # Content
