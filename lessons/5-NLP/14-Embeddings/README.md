@@ -27,7 +27,7 @@ While the embedding layer learned to map words to vector representation, however
 To do that, we need to pre-train our embedding model on a large collection of text in a specific way. One way to train semantic embeddings is called [Word2Vec](https://en.wikipedia.org/wiki/Word2vec). It is based on two main architectures that are used to produce a distributed representation of words:
 
  - **Continuous bag-of-words** (CBoW) — in this architecture, we train the model to predict a word from surrounding context. Given the ngram $(W_{-2},W_{-1},W_0,W_1,W_2)$, the goal of the model is to predict $W_0$ from $(W_{-2},W_{-1},W_1,W_2)$.
- - **Continuous skip-gram** is opposite to CBoW. The model uses surrounding window of context words to predict the current word.
+ - **Continuous skip-gram** is opposite to CBoW. The model aims to predict the surrounding context words using the current word. Given the n-gram $(W_{-2},W_{-1},W_0,W_1,W_2)$, the Continuous Skip-gram model's goal is to predict $(W_{-2},W_{-1},W_1,W_2)$ from $W_0$.
 
 CBoW is faster, while skip-gram is slower, but does a better job of representing infrequent words.
 
