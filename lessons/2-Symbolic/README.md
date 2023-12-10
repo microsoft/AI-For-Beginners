@@ -1,241 +1,212 @@
-# Knowledge Representation and Expert Systems
+# 知识表示和专家系统
 
-![Summary of Symbolic AI content](../sketchnotes/ai-symbolic.png)
+![符号人工智能内容概述](../sketchnotes/ai-symbolic.png)
 
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> 漫画笔记 by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-The quest for artificial intelligence is based on a search for knowledge, to make sense of the world similar to how humans do. But how can you go about doing this?
+人工智能的追求基于对知识的搜索，类似于人类通过理解世界来做出决策。但是要如何实现这一目标呢？
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [预讲测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)在人工智能的早期阶段，创建智能系统的自上而下方法（在前一课中讨论过）很受欢迎。这种方法的想法是将人们的知识提取成一种机器可读的形式，然后使用它来自动解决问题。这种方法基于两个重要的思想：
 
-In the early days of AI, the top-down approach to creating intelligent systems (discussed in the previous lesson) was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
+* 知识表示
+* 推理
 
-* Knowledge Representation
-* Reasoning
+## 知识表示
 
-## Knowledge Representation
+在符号化的人工智能中，**知识**是一个重要的概念。很重要的是要区分知识和*信息*或*数据*。例如，人们可以说书包含知识，因为人们可以通过学习书籍而成为专家。然而，书籍所包含的实际上是被称为*数据*的东西，通过阅读书籍并将这些数据整合到我们的世界模型中，我们将这些数据转化为知识。
 
-One of the important concepts in Symbolic AI is **knowledge**. It is important to differentiate knowledge from *information* or *data*. For example, one can say that books contain knowledge, because one can study books and become an expert. However, what books contain is actually called *data*, and by reading books and integrating this data into our world model we convert this data to knowledge.
+> ✅ **知识**是我们头脑中包含的东西，代表着我们对世界的理解。它是通过一个积极的**学习**过程获得的，该过程将我们收到的信息片段整合到我们对世界的积极模型中。通常情况下，我们并不严格定义知识，而是使用[DIKW金字塔](https://en.wikipedia.org/wiki/DIKW_pyramid)将其与其他相关概念相结合。它包含以下概念：
 
-> ✅ **Knowledge** is something which is contained in our head and represents our understanding of the world. It is obtained by an active **learning** process, which integrates pieces of information that we receive into our active model of the world.
+* **数据**是指以物理媒体表示的内容，如书面文字或口头语言。数据独立于人类存在，并可以在人们之间传递。
+* **信息**是我们在头脑中解释数据的方式。例如，当我们听到“计算机”这个词时，我们对它有一些理解。
+* **知识**是将信息整合到我们的世界模型中。例如，一旦我们学会了计算机是什么，我们就开始对它的工作原理、价格和用途有一些想法。这个相互关联的概念网络构成了我们的知识。
+* **智慧**是对世界的理解的另一个层面，它代表了“元知识”，例如对知识使用的方式和时间的一些概念。
 
-Most often, we do not strictly define knowledge, but we align it with other related concepts using [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). It contains the following concepts:
+<img src="images/DIKW_Pyramid.png" width="30%"/>*图片 [来源于维基百科](https://commons.wikimedia.org/w/index.php?curid=37705247)，由Longlivetheux创作，CC BY-SA 4.0*
 
-* **Data** is something represented in physical media, such as written text or spoken words. Data exists independently of human beings and can be passed between people.
-* **Information** is how we interpret data in our head. For example, when we hear the word *computer*, we have some understanding of what it is.
-* **Knowledge** is information being integrated into our world model. For example, once we learn what a computer is, we start having some ideas about how it works, how much it costs, and what it can be used for. This network of interrelated concepts forms our knowledge.
-* **Wisdom** is yet one more level of our understanding of the world, and it represents *meta-knowledge*, eg. some notion on how and when the knowledge should be used.
+因此，**知识表达**的问题是找到一种在计算机内部以数据形式表示知识的有效方法，以使其能够自动使用。这可以看作是一个光谱:
 
-<img src="images/DIKW_Pyramid.png" width="30%"/>
+![知识表达的光谱](images/knowledge-spectrum.png)
 
-*Image [from Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), By Longlivetheux - Own work, CC BY-SA 4.0*
+> 图片由[Dmitry Soshnikov](http://soshnikov.com)提供
 
-Thus, the problem of **knowledge representation** is to find some effective way to represent knowledge inside a computer in the form of data, to make it automatically usable. This can be seen as a spectrum:
+* 在左侧，有一些非常简单的知识表达类型，可以被计算机有效地使用。最简单的一种类型是基于算法的，即知识由计算机程序表示。然而，这不是最好的知识表达方式，因为它不灵活。我们头脑中的知识通常是非算法性的。
+* 在右侧，有一些如自然文本的表达形式。它是最强大的，但不能用于自动推理。> ✅ 请花一分钟思考一下你是如何将知识转化为笔记的方式。是否有一种特定的格式对于你记忆有很大的帮助呢？
 
-![Knowledge representation spectrum](images/knowledge-spectrum.png)
+## 分类计算机知识表示法
 
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
+我们可以将不同的计算机知识表示方法分为以下几类：
 
-* On the left, there are very simple types of knowledge representations that can be effectively used by computers. The simplest one is algorithmic, when knowledge is represented by a computer program. This, however, is not the best way to represent knowledge, because it is not flexible. Knowledge inside our head is often non-algorithmic.
-* On the right, there are representations such as natural text. It is the most powerful, but cannot be used for automatic reasoning.
+* **网络表示法** 基于我们大脑中存在着一系列相互关联的概念。我们可以尝试在计算机中以图形的形式重现这些网络，这就是所谓的**语义网络**。
 
-> ✅ Think for a minute about how you represent knowledge in your head and convert it to notes. Is there a particular format that works well for you to aid in retention?
+1. **对象-属性-值三元组** 或 **属性-值对**。由于图形可以以计算机中的节点和边的列表的形式表示，我们可以通过一个包含对象、属性和值的三元组列表来表示一个语义网络。举个例子，我们可以构建以下关于编程语言的三元组：对象 | 属性 | 值
+------|------|-----
+Python | 是 | 弱类型语言
+Python | 发明者 | Guido van Rossum
+Python | 块语法 | 缩进
+弱类型语言 | 没有 |类型定义
 
-## Classifying Computer Knowledge Representations
+> ✅ 想想如何使用三元组来表示其他类型的知识。2. **层次表示**强调了我们经常在头脑中创建对象的层次结构。例如，我们知道金丝雀是一种鸟，所有鸟都有翅膀。我们还有一些关于金丝雀通常的颜色和飞行速度的概念。
 
-We can classify different computer knowledge representation methods in the following categories:
-
-* **Network representations** are based on the fact that we have a network of interrelated concepts inside our head. We can try to reproduce the same networks as a graph inside a computer - a so-called **semantic network**.
-
-1. **Object-Attribute-Value triplets** or **attribute-value pairs**. Since a graph can be represented inside a computer as a list of nodes and edges, we can represent a semantic network by a list of triplets, containing objects, attributes, and values. For example, we build the following triplets about programming languages:
-
-Object | Attribute | Value
--------|-----------|------
-Python | is | Untyped-Language
-Python | invented-by | Guido van Rossum
-Python | block-syntax | indentation
-Untyped-Language | doesn't have | type definitions
-
-> ✅ Think how triplets can be used to represent other types of knowledge.
-
-2. **Hierarchical representations** emphasize the fact that we often create a hierarchy of objects inside our head. For example, we know that canary is a bird, and all birds have wings. We also have some idea about what colour canary usually is, and what is their flight speed.
-
-   - **Frame representation** is based on representing each object or class of objects as a **frame** which contains **slots**. Slots have possible default values, value restrictions, or stored procedures that can be called to obtain the value of a slot. All frames form a hierarchy similar to an object hierarchy in object-oriented programming languages.
-   - **Scenarios** are special kind of frames that represent complex situations that can unfold in time.
+   - **帧表示**是基于将每个对象或对象类表示为包含**槽**的**帧**。槽可以具有可能的默认值、值限制或调用存储过程以获取槽值。所有帧形成一个类似于面向对象编程语言中的对象层次结构的层次结构。
+   - **场景**是表示可以随时间展开的复杂情境的特殊帧。
 
 **Python**
 
-Slot | Value | Default value | Interval |
+槽位 | 值 | 默认值 | 区间 |
 -----|-------|---------------|----------|
-Name | Python | | |
-Is-A | Untyped-Language | | |
-Variable Case | | CamelCase | |
-Program Length | | | 5-5000 lines |
-Block Syntax | Indent | | |
+名称 | Python | | |**是-A** | 无类型语言 | | |
+**变量命名方式** | | 驼峰命名法 | |
+**程序长度** | | | 5-5000行 |
+**块语法** | 缩进 | | |
 
-3. **Procedural representations** are based on representing knowledge by a list of actions that can be executed when a certain condition occurs.
-   - Production rules are if-then statements that allow us to draw conclusions. For example, a doctor can have a rule saying that **IF** a patient has high fever **OR** high level of C-reactive protein in blood test **THEN** he has an inflammation. Once we encounter one of the conditions, we can make a conclusion about inflammation, and then use it in further reasoning.
-   - Algorithms can be considered another form of procedural representation, although they are almost never used directly in knowledge-based systems.
+3. **过程表示**基于通过一系列可在特定条件发生时执行的操作列表来表示知识。
+   - 产生规则是if-then语句，允许我们得出结论。例如，医生可以有一条规则，**如果**患者有高热或血液检查中C-反应蛋白水平高**那么**他有炎症。一旦我们遇到其中一种条件，我们就可以得出关于炎症的结论，然后在进一步推理时使用它。
+   - 算法可以被看作是另一种形式的过程表示，尽管它们几乎不直接在知识系统中使用。
 
-4. **Logic** was originally proposed by Aristotle as a way to represent universal human knowledge.
-   - Predicate Logic as a mathematical theory is too rich to be computable, therefore some subset of it is normally used, such as Horn clauses used in Prolog.
-   - Descriptive Logic is a family of logical systems used to represent and reason about hierarchies of objects distributed knowledge representations such as *semantic web*.
+4. **逻辑**最初是亚里士多德提出的一种表示普遍人类知识的方法。- Predicate Logic（谓词逻辑）作为一个数学理论太过丰富而无法计算，因此通常使用其中的一部分，比如在Prolog中使用的Horn子句。
+- 描述逻辑（Descriptive Logic）是一系列逻辑系统，用于表示和推理分布式知识表示（如“语义网络”）中的对象层次结构。
 
-## Expert Systems
+## 专家系统
 
-One of the early successes of symbolic AI were so-called **expert systems** - computer systems that were designed to act as an expert in some limited problem domain. They were based on a **knowledge base** extracted from one or more human experts, and they contained an **inference engine** that performed some reasoning on top of it.
+符号化人工智能的早期成功之一是所谓的“专家系统” - 这是一种计算机系统，旨在在某个有限的问题领域中充当专家。它们基于从一个或多个人类专家中提取的“知识库”，并包含一个在其上执行推理的“推理引擎”。
 
 ![Human Architecture](images/arch-human.png) | ![Knowledge-Based System](images/arch-kbs.png)
 ---------------------------------------------|------------------------------------------------
-Simplified structure of a human neural system | Architecture of a knowledge-based system
+人类神经系统的简化结构 | 基于知识的系统的架构专家系统的构建方式类似于人类推理系统，其中包含**短期记忆**和**长期记忆**。同样，在基于知识的系统中，我们区分以下组件：
 
-Expert systems are built like the human reasoning system, which contains **short-term memory** and **long-term memory**. Similarly, in knowledge-based systems we distinguish the following components:
+* **问题记忆**：包含关于当前正在解决的问题的知识，例如患者的温度或血压，是否存在炎症等。这种知识也被称为**静态知识**，因为它包含了我们当前对问题了解的快照 - 所谓的*问题状态*。
+* **知识库**：表示有关问题领域的长期知识。它是从人类专家手动提取的，并且在每次咨询时不会改变。因为它允许我们从一个问题状态导航到另一个问题状态，所以它也被称为**动态知识**。
+* **推理引擎**：协调整个问题状态空间搜索的过程，根据需要向用户提问。它还负责找到要应用于每个状态的正确规则。
 
-* **Problem memory**: contains the knowledge about the problem being currently solved, i.e. the temperature or blood pressure of a patient, whether he has inflammation or not, etc. This knowledge is also called **static knowledge**, because it contains a snapshot of what we currently know about the problem - the so-called *problem state*.
-* **Knowledge base**: represents long-term knowledge about a problem domain. It is extracted manually from human experts, and does not change from consultation to consultation. Because it allows us to navigate from one problem state to another, it is also called **dynamic knowledge**.
-* **Inference engine**: orchestrates the whole process of searching in the problem state space, asking questions of the user when necessary. It is also responsible for finding the right rules to be applied to each state.
+例如，让我们考虑以下根据动物的物理特征确定动物的专家系统：
 
-As an example, let's consider the following expert system of determining an animal based on its physical characteristics:
+![AND-OR树](images/AND-OR-Tree.png)> 图片由[Dmitry Soshnikov](http://soshnikov.com)制作
 
-![AND-OR Tree](images/AND-OR-Tree.png)
-
-> Image by [Dmitry Soshnikov](http://soshnikov.com)
-
-This diagram is called an **AND-OR tree**, and it is a graphical representation of a set of production rules. Drawing a tree is useful at the beginning of extracting knowledge from the expert. To represent the knowledge inside the computer it is more convenient to use rules:
+这个图示被称为**AND-OR树**，它是一组生产规则的图形表示。在从专家那里提取知识的开始阶段绘制一棵树是很有用的。为了表示计算机内部的知识，使用规则更加方便:
 
 ```
-IF the animal eats meat
-OR (animal has sharp teeth
-    AND animal has claws
-    AND animal has forward-looking eyes
-) 
-THEN the animal is a carnivore
+如果动物吃肉
+或者 (动物有锋利的牙齿
+     并且动物有爪子
+     并且动物有向前看的眼睛
 ```
 
-You can notice that each condition on the left-hand-side of the rule and the action are essentially object-attribute-value (OAV) triplets. **Working memory** contains the set of OAV triplets that correspond to the problem currently being solved. A **rules engine** looks for rules for which a condition is satisfied and applies them, adding another triplet to the working memory.
+### 正向推理与反向推理
 
-> ✅ Write your own AND-OR tree on a topic you like!
+在前面的例子中，我们使用的是正向推理。即，我们从已知的条件开始，应用规则并得出结论。这种类型的推理被称为正向链推理或数据驱动推理。
 
-### Forward vs. Backward Inference
+另一种类型的推理是反向推理。在反向推理中，我们从所需的结论开始，逆向应用规则以确定满足条件的可能的条件。这种类型的推理被称为反向链推理或目标驱动推理。
 
-The process described above is called **forward inference**. It starts with some initial data about the problem available in the working memory, and then executes the following reasoning loop:
+正向推理适用于我们已经知道条件并且想要得出结论的情况。例如，在动物分类的例子中，我们知道动物是有脊椎动物和有爪动物，并且我们想要得出动物是食肉动物的结论。通过应用适当的规则，我们可以得出这个结论。
 
-1. If the target attribute is present in the working memory - stop and give the result
-2. Look for all the rules whose condition is currently satisfied - obtain **conflict set** of rules.
-3. Perform **conflict resolution** - select one rule that will be executed on this step. There could be different conflict resolution strategies:
-   - Select the first applicable rule in the knowledge base
-   - Select a random rule
-   - Select a *more specific* rule, i.e. the one meeting the most conditions in the "left-hand-side" (LHS)
-4. Apply selected rule and insert new piece of knowledge into the problem state
-5. Repeat from step 1.
+反向推理适用于我们已经知道结论并且想要确定满足条件的所有可能条件的情况。例如，假设我们想要找到一个动物，该动物是食肉动物，并且我们已经知道动物是有爪动物。逆向应用适当的规则，我们可以确定动物是有脊椎动物。
 
-However, in some cases we might want to start with an empty knowledge about the problem, and ask questions that will help us arrive to the conclusion. For example, when doing medical diagnosis, we usually do not perform all medical analyses in advance before starting diagnosing the patient. We rather want to perform analyses when a decision needs to be made.
+### 正向推理和反向推理的比较
 
-This process can be modeled using **backward inference**. It is driven by the **goal** - the attribute value that we are looking to find:
+正向推理和反向推理具有不同的特点和应用场景：
 
-1. Select all rules that can give us the value of a goal (i.e. with the goal on the RHS ("right-hand-side")) - a conflict set
-1. If there are no rules for this attribute, or there is a rule saying that we should ask the value from the user - ask for it, otherwise:
-1. Use conflict resolution strategy to select one rule that we will use as *hypothesis* - we will try to prove it
-1. Recurrently repeat the process for all attributes in the LHS of the rule, trying to prove them as goals
-1. If at any point the process fails - use another rule at step 3.
+- 正向推理是使用已知条件来推导出结论，比如通过应用规则或逻辑推理。它适用于我们拥有条件并且想要得出结论的情况。
 
-> ✅ In which situations is forward inference more appropriate? How about backward inference?
+- 反向推理是从所需的结论开始，并逆向应用规则以确定满足条件的可能条件。它适用于我们已经知道结论，并且想要确定满足条件的所有可能条件的情况。
 
-### Implementing Expert Systems
+正向推理更常见和直观，因为它类似于我们的日常思维方式。我们从已知的条件开始，并将它们应用到规则中，得出结论。
 
-Expert systems can be implemented using different tools:
+反向推理在某些情况下也很有用，特别是当我们知道所需的结论并且想要确定满足条件的可能条件时。它可以用于推理和解决一些问题，例如诊断医学病例或寻找特定解决方案。
 
-* Programming them directly in some high level programming language. This is not the best idea, because the main advantage of a knowledge-based system is that knowledge is separated from inference, and potentially a problem domain expert should be able to write rules without understanding the details of the inference process
-* Using **expert systems shell**, i.e. a system specifically designed to be populated by knowledge using some knowledge representation language.
+正向推理和反向推理在不同的场景和问题中有不同的应用，了解它们的特点和适用性可以帮助我们在实际应用中更好地选择和使用它们。上述描述的过程称为**正向推理**。它从工作内存中提取问题的某些初始数据，然后执行以下推理循环：
 
-## ✍️ Exercise: Animal Inference
+1. 如果目标属性在工作内存中存在-停止并给出结果。
+2. 寻找所有当前满足条件的规则-获得**冲突集**。
+3. 执行**冲突解决**-选择一条将在此步骤上执行的规则。可以选择不同的冲突解决策略：
+   - 选择知识库中的第一个适用规则
+   - 选择一个随机规则
+   - 选择一个*更具体*的规则，即满足“左侧”（LHS）最多条件的规则。
+4. 应用所选择的规则，并将新的知识插入到问题状态中。
+5. 重复从步骤1开始。然而，在某些情况下，我们可能希望从零开始了解问题，并提出问题来帮助我们得出结论。例如，在进行医学诊断时，我们通常不会在开始诊断患者之前预先进行所有医学分析。相反，我们希望在需要做出决策时进行分析。
 
-See [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) for an example of implementing forward and backward inference expert system.
+这个过程可以使用**逆向推理**进行建模，它由**目标**驱动 - 我们要查找的属性值：
 
-> **Note**: This example is rather simple, and only gives the idea of how an expert system looks like. Once you start creating such a system, you will only notice some *intelligent* behaviour from it once you reach certain number of rules, around 200+. At some point, rules become too complex to keep all of them in mind, and at this point you may start wondering why a system makes certain decisions. However, the important characteristics of knowledge-based systems is that you can always *explain* exactly how any of the decisions were made.
+1. 选择所有可以给我们目标值的规则（即，目标位于右侧）- 冲突集
+2. 如果没有针对该属性的规则，或者有一条规则说我们应该询问用户的值 - 向用户询问，否则：
+3. 使用冲突解决策略来选择一条我们将用作*假设*的规则 - 我们尝试证明它
+4. 递归地为规则的左侧所有属性重复步骤3，试图将它们证明为目标
+5. 如果在任何时候过程失败 - 在步骤3中使用另一条规则。> ✅ 在哪些情况下, 前向推理是更合适的? 反向推理呢?
 
-## Ontologies and the Semantic Web
+### 实现专家系统
 
-At the end of 20th century there was an initiative to use knowledge representation to annotate Internet resources, so that it would be possible to find resources that correspond to very specific queries. This motion was called **Semantic Web**, and it relied on several concepts:
+可以使用不同的工具来实现专家系统:
 
-- A special knowledge representation based on **[description logics](https://en.wikipedia.org/wiki/Description_logic)** (DL). It is similar to frame knowledge representation, because it builds a hierarchy of objects with properties, but it has formal logical semantics and inference. There is a whole family of DLs which balance between expressiveness and algorithmic complexity of inference.
-- Distributed knowledge representation, where all concepts are represented by a global URI identifier, making it possible to create knowledge hierarchies that span the internet.
-- A family of XML-based languages for knowledge description: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+* 直接在一些高级编程语言中编程。这不是最好的主意，因为基于知识的系统的主要优势在于知识与推理是分离的，潜在地，领域专家应该能够编写规则而不需要了解推理过程的细节.
+* 使用**专家系统工具包**，即一个专门设计用来通过某种知识表示语言来填充知识的系统.## ✍️ 练习：动物推理
 
-A core concept in the Semantic Web is a concept of **Ontology**. It refers to a explicit specification of a problem domain using some formal knowledge representation. The simplest ontology can be just a hierarchy of objects in a problem domain, but more complex ontologies will include rules that can be used for inference.
+详见[Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb)中实现前向和后向推理专家系统的示例。
 
-In the semantic web, all representations are based on triplets. Each object and each relation are uniquely identified by the URI. For example, if we want to state the fact that this AI Curriculum has been developed by Dmitry Soshnikov on Jan 1st, 2022 - here are the triplets we can use:
+> **注意**：这个示例相当简单，只是展示了专家系统的外观。只有当你创建这样一个系统时，你才会注意到它的某些"智能"行为，一旦你达到一定数量的规则，大约 200+。在某一点上，规则变得太复杂，无法记住所有规则，这时候你可能会开始想知道为什么系统会做出某些决策。然而，知识系统的重要特征在于你始终可以**解释**任何决策是如何做出的。
 
-<img src="images/triplet.png" width="30%"/>
+## 本体论和语义网
 
-```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
-http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
-```
+在20世纪末，出现了一个使用知识表示来注释互联网资源的倡议，以便能够找到与非常特定查询相对应的资源。这个运动被称为**语义网**，它依赖于几个概念：- 一种基于**[描述逻辑](https://en.wikipedia.org/wiki/Description_logic)**（DL）的特殊知识表示。它类似于框架知识表示，因为它构建了一个带有属性的对象层次结构，但它具有形式逻辑语义和推理。有一个完整的DL家族，它在表达能力和推理的算法复杂性之间保持平衡。
+- 分布式知识表示，其中所有概念都由全局URI标识符表示，从而可以创建跨互联网的知识层次结构。
+- 一系列基于XML的知识描述语言：RDF（资源描述框架）、RDFS（RDF模式）、OWL（本体网页语言）。
 
-> ✅ Here `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator` are some well-known and universally accepted URIs to express the concepts of *creator* and *creation date*.
+语义网中的核心概念是**本体（Ontology）**的概念。它是指使用某种形式的知识表示对问题域进行明确规定的明确规范。简单的本体可以只是一个问题域中的对象层次结构，但更复杂的本体将包括可用于推理的规则。
 
-In a more complex case, if we want to define a list of creators, we can use some data structures defined in RDF.
+在语义网中，所有表示都是基于三元组。每个对象和每个关系都由URI唯一标识。例如，如果我们想要陈述这个AI课程是由Dmitry Soshnikov在2022年1月1日开发的这个事实-我们可以使用以下三元组：
+<img src="images/triplet.png" width="30%"/>```
+✅ 这里的`http://www.example.com/terms/creation-date`和`http://purl.org/dc/elements/1.1/creator`是一些已知且普遍接受的URI，用于表示“创建者”和“创建日期”这些概念。
 
-<img src="images/triplet-complex.png" width="40%"/>
+在更复杂的情况下，如果我们想要定义一个创建者的列表，可以使用在RDF中定义的一些数据结构。
 
-> Diagrams above by [Dmitry Soshnikov](http://soshnikov.com)
+![triplet-complex](images/triplet-complex.png)
+```> 以上图示来自[Dmitry Soshnikov](http://soshnikov.com)
 
-The progress of building the Semantic Web was somehow slowed down by the success of search engines and natural language processing techniques, which allow extracting structured data from text. However, in some areas there are still significant efforts to maintain ontologies and knowledge bases. A few projects worth noting:
+构建语义网的进展在某种程度上受到了搜索引擎和自然语言处理技术的成功的影响，这些技术允许从文本中提取结构化数据。然而，在某些领域仍然存在着保持本体论和知识库的重要工作。以下是几个值得注意的项目：
 
-* [WikiData](https://wikidata.org/) is a collection of machine readable knowledge bases associated with Wikipedia. Most of the data is mined from Wikipedia *InfoBoxes*, pieces of structured content inside Wikipedia pages. You can [query](https://query.wikidata.org/) wikidata in SPARQL, a special query language for Semantic Web. Here is a sample query that displays most popular eye colors among humans:
+* [WikiData](https://wikidata.org/) 是与维基百科相关联的一系列可机读的知识库。大部分数据都是从维基百科的 *InfoBox* 中提取的，这些是维基百科页面中的结构化内容块。您可以使用SPARQL查询语言查询[WikiData](https://query.wikidata.org/)，这是一种专门用于语义网的查询语言。以下是一个示例查询，它显示了人类中最流行的眼睛颜色：
 
 ```sparql
 #defaultView:BubbleChart
 SELECT ?eyeColorLabel (COUNT(?human) AS ?count)
-WHERE
-{
-  ?human wdt:P31 wd:Q5.       # human instance-of homo sapiens
-  ?human wdt:P1340 ?eyeColor. # human eye-color ?eyeColor
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}
-GROUP BY ?eyeColorLabel
 ```
+WHERE子句指定了一个SPARQL查询模式，该模式用于从数据库中检索满足指定条件的数据。在这个查询中，我们使用了三个三元组来指定我们的条件：
 
-* [DBpedia](https://www.dbpedia.org/) is another effort similar to WikiData.
+- 第一个三元组表示?human是一个实例，其类型为"wd:Q5"（代表人类）。
+- 第二个三元组表示?human的眼睛颜色为?eyeColor。
+- 第三个三元组是一个SERVICE子句，用于从Wikibase服务中获取标签。在这个例子中，我们要求使用英语来获取标签。
 
-> ✅ If you want to experiment with building your own ontologies, or opening existing ones, there is a great visual ontology editor called [Protégé](https://protege.stanford.edu/). Download it, or use it online.
+GROUP BY子句按照?eyeColorLabel字段对结果进行分组。
+
+最后的查询将返回一个表格，其中列名为"?eyeColorLabel"，包含了按照眼睛颜色分组的结果。
+
+DBpedia是类似于WikiData的另一个项目，用于获取和整理维基百科的数据。> ✅ 如果你想尝试构建自己的本体论，或者打开现有的本体论，有一个很棒的可视化本体论编辑器叫做 [Protégé](https://protege.stanford.edu/)。你可以下载它，或者在线使用。
 
 <img src="images/protege.png" width="70%"/>
 
-*Web Protégé editor open with the Romanov Family ontology. Screenshot by Dmitry Soshnikov*
+*Web Protégé编辑器打开了Romanov家族本体。截图：Dmitry Soshnikov*
 
-## ✍️ Exercise: A Family Ontology
-
-
-See [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) for an example of using Semantic Web techniques to reason about family relationships. We will take a family tree represented in common GEDCOM format and an ontology of family relationships and build a graph of all family relationships for given set of individuals.
+## ✍️ 练习：一个家族本体论请参考[FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb)中的示例，使用语义化网络技术来推理家庭关系。我们将使用常见的GEDCOM格式表示家族谱系，并使用家庭关系本体构建一张包含所有家庭关系的图形，适用于给定的个人集。
 
 ## Microsoft Concept Graph
 
-In most of the cases, ontologies are carefully created by hand. However, it is also possible to **mine** ontologies from unstructured data, for example, from natural language texts.
+在大多数情况下，本体是通过手工创建的。然而，也可以从非结构化数据（例如自然语言文本）中“挖掘”本体。
 
-One such attempt was done by Microsoft Research, and resulted in [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
+微软研究曾进行过这样一次尝试，结果就是[Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste)。
 
-It is a large collection of entities grouped together using `is-a` inheritance relationship. It allows answering questions like "What is Microsoft?" - the answer being something like "a company with probability 0.87, and a brand with probability 0.75".
+这是一个大型的实体集合，使用`is-a`继承关系进行分组。它可以回答诸如“什么是Microsoft？”之类的问题，答案可能是“一个概率为0.87的公司，和一个概率为0.75的品牌”。图形可以通过REST API或作为一个大型可下载的文本文件来使用，该文件列出了所有实体对。
 
-The Graph is available either as REST API, or as a large downloadable text file that lists all entity pairs.
+## ✍️ 练习：概念图
 
-## ✍️ Exercise: A Concept Graph
+尝试使用[MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb)笔记本，了解如何使用Microsoft Concept Graph将新闻文章分组到几个类别中。
 
-Try the [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebook to see how we can use Microsoft Concept Graph to group news articles into several categories.
+## 结论
 
-## Conclusion
+如今，人工智能经常被认为是*机器学习*或*神经网络*的同义词。然而，人类也表现出明确的推理能力，而这是神经网络目前无法处理的。在现实世界的项目中，明确的推理仍然被用于执行需要解释的任务，或者以受控的方式修改系统的行为。## 🚀 挑战
 
-Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neural Networks*. However, a human being also exhibits explicit reasoning, which is something currently not being handled by neural networks. In real world projects, explicit reasoning is still used to perform tasks that require explanations, or being able to modify the behavior of the system in a controlled way.
+在与本课程相关的家族本体笔记本中，有机会尝试其他家族关系。试着发现家族谱中的新联系。
 
-## 🚀 Challenge
+## [讲座后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
 
-In the Family Ontology notebook associated to this lesson, there is an opportunity to experiment with other family relations. Try to discover new connections between people in the family tree.
+## 复习与自学
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
-
-## Review & Self Study
-
-Do some research on the internet to discover areas where humans have tried to quantify and codify knowledge. Take a look at Bloom's Taxonomy, and go back in history to learn how humans tried to make sense of their world. Explore the work of Linnaeus to create a taxonomy of organisms, and observe the way Dmitri Mendeleev created a way for chemical elements to be described and grouped. What other interesting examples can you find?
-
-**Assignment**: [Build an Ontology](assignment.md)
+在互联网上进行一些研究，以发现人们试图量化和编码知识的领域。了解布鲁姆的分类法，并回顾历史，了解人们如何理解他们的世界。探索林奈创建生物分类学的工作，并观察德米特里·门捷列夫创建描述和分组化学元素的方法。还有哪些有趣的例子你能找到？**作业**: [构建本体](assignment.md)
