@@ -1,31 +1,27 @@
-# Introduction to Computer Vision
+# 计算机视觉简介
 
-[Computer Vision](https://wikipedia.org/wiki/Computer_vision) is a discipline whose aim is to allow computers to gain high-level understanding of digital images. This is quite a broad definition, because *understanding* can mean many different things, including finding an object on a picture (**object detection**), understanding what is happening (**event detection**), describing a picture in text, or reconstructing a scene in 3D. There are also special tasks related to human images: age and emotion estimation, face detection and identification, and 3D pose estimation, to name a few.
+[计算机视觉](https://wikipedia.org/wiki/Computer_vision) 是一门学科，旨在使计算机能够对数字图像进行高级理解。这是一个相当广泛的定义，因为*理解*可以有很多不同的含义，包括在图片中找到一个物体（**物体检测**），理解正在发生的情况（**事件检测**），用文本描述一幅图片，或者重建一个三维场景。还有一些与人类图像相关的特殊任务：年龄和情绪估计，人脸检测和识别，以及3D姿势估计，仅举几例。
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
 
-One of the simplest tasks of computer vision is **image classification**.
+计算机视觉中最简单的任务之一是**图像分类**。
 
-Computer vision is often considered to be a branch of AI. Nowadays, most of computer vision tasks are solved using neural networks. We will learn more about the special type of neural networks used for computer vision, [convolutional neural networks](../07-ConvNets/README.md), throughout this section.
+计算机视觉通常被认为是人工智能的一个分支。如今，大多数计算机视觉任务都是使用神经网络来解决的。在本节中，我们将更深入地学习用于计算机视觉的特殊类型神经网络，即[卷积神经网络](../07-ConvNets/README.md)。然而，在将图像传递给神经网络之前，在许多情况下，使用一些算法技术来增强图像是有意义的。
 
-However, before you pass the image to a neural network, in many cases it makes sense to use some algorithmic techniques to enhance the image.
+有几个可用于图像处理的Python库：
 
-There are several Python libraries available for image processing:
+* **[imageio](https://imageio.readthedocs.io/en/stable/)** 可用于读写不同的图像格式。它也支持ffmpeg，这是一个将视频帧转换为图像的有用工具。
+* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)**（也称为PIL）更强大一些，并且还支持一些图像操作，如变形，调色板调整等。
+* **[OpenCV](https://opencv.org/)** 是一个强大的用C++编写的图像处理库，已成为图像处理的事实标准。它有一个方便的Python接口。
+* **[dlib](http://dlib.net/)** 是一个实现许多机器学习算法的C++库，包括一些计算机视觉算法。它也有一个Python接口，可以用于挑战性的任务，如人脸和面部标志检测。
 
-* **[imageio](https://imageio.readthedocs.io/en/stable/)** can be used for reading/writing different image formats. It also support ffmpeg, a useful tool to convert video frames to images.
-* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (also known as PIL) is a bit more powerful, and also supports some image manipulation such as morphing, palette adjustments, and more.
-* **[OpenCV](https://opencv.org/)** is a powerful image processing library written in C++, which has become the *de facto* standard for image processing. It has a convenient Python interface.
-* **[dlib](http://dlib.net/)** is a C++ library that implements many machine learning algorithms, including some of the Computer Vision algorithms. It also has a Python interface, and can be used for challenging tasks such as face and facial landmark detection.
+## OpenCV[OpenCV](https://opencv.org/) 被认为是图像处理的**事实**标准。它包含了很多有用的算法，使用C++实现。你也可以从Python中调用OpenCV。
 
-## OpenCV
+一个很好的学习OpenCV的地方是[这个学习OpenCV的课程](https://learnopencv.com/getting-started-with-opencv/)。在我们的课程中，我们的目标不是学习OpenCV，而是向你展示一些可以使用OpenCV的例子以及如何使用。
 
-[OpenCV](https://opencv.org/) is considered to be the *de facto* standard for image processing. It contains a lot of useful algorithms, implemented in C++. You can call OpenCV from Python as well.
+### 加载图片
 
-A good place to learn OpenCV is [this Learn OpenCV course](https://learnopencv.com/getting-started-with-opencv/). In our curriculum, our goal is not to learn OpenCV, but to show you some examples when it can be used, and how.
-
-### Loading Images
-
-Images in Python can be conveniently represented by NumPy arrays. For example, grayscale images with the size of 320x200 pixels would be stored in a 200x320 array, and color images of the same dimension would have shape of 200x320x3 (for 3 color channels). To load an image, you can use the following code:
+在Python中，图像可以方便地用NumPy数组表示。例如，大小为320x200像素的灰度图像将存储在一个200x320的数组中，相同尺寸的彩色图像将具有200x320x3的形状（3个颜色通道）。要加载图像，可以使用以下代码：
 
 ```python
 import cv2
@@ -35,75 +31,73 @@ im = cv2.imread('image.jpeg')
 plt.imshow(im)
 ```
 
-Traditionally, OpenCV uses BGR (Blue-Green-Red) encoding for color images, while the rest of Python tools use the more traditional RGB (Red-Green-Blue). For the image to look right, you need to convert it to the RGB color space, either by swapping dimensions in the NumPy array, or by calling an OpenCV function:
-
+传统上，OpenCV对于彩色图像使用BGR（蓝绿红）编码，而其他Python工具使用传统的RGB（红绿蓝）编码。为了使图像显示正确，需要将其转换为RGB颜色空间，可以通过交换NumPy数组的维度或调用OpenCV函数来实现：
 ```python
 im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 ```
 
-The same `cvtColor` function can be used to perform other color space transformations such as converting an image to grayscale or to the HSV (Hue-Saturation-Value) color space.
+相同的`cvtColor`函数可以用来进行其他颜色空间的转换，比如将图像转换为灰度图或者HSV（色调-饱和度-亮度）颜色空间。
 
-You can also use OpenCV to load video frame-by-frame - an example is given in the exercise [OpenCV Notebook](OpenCV.ipynb).
+你也可以使用OpenCV逐帧加载视频 - 在练习[OpenCV Notebook](OpenCV.ipynb)中有一个示例。
 
-### Image Processing
+### 图像处理
 
-Before feeding an image to a neural network, you may want to apply several pre-processing steps. OpenCV can do many things, including:
+在将图像输入神经网络之前，你可能想要进行一些预处理步骤。OpenCV可以做很多事情，包括：
 
-* **Resizing** the image using `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
-* **Blurring** the image using `im = cv2.medianBlur(im,3)` or `im = cv2.GaussianBlur(im, (3,3), 0)`
-* Changing the **brightness and contrast** of the image can be done by NumPy array manipulations, as described [in this Stackoverflow note](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
-* Using [thresholding](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) by calling `cv2.threshold`/`cv2.adaptiveThreshold` functions, which is often preferable to adjusting brightness or contrast.
-* Applying different [transformations](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) to the image:
-    - **[Affine transformations](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** can be useful if you need to combine rotation, resizing and skewing to the image and you know the source and destination location of three points in the image. Affine transformations keep parallel lines parallel.
-    - **[Perspective transformations](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** can be useful when you know the source and destination positions of 4 points in the image. For example, if you take a picture of a rectangular document via a smartphone camera from some angle, and you want to make a rectangular image of the document itself.
-* Understanding movement inside the image by using **[optical flow](https://docs.opencv.org/4.5.5/d4/dee/tutorial_optical_flow.html)**.
+* 使用`im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`来改变图像的大小。
+* 使用`im = cv2.medianBlur(im,3)`或者`im = cv2.GaussianBlur(im, (3,3), 0)`来对图像进行模糊处理。
+* 可以通过NumPy数组操作来改变图像的亮度和对比度，参考[这个Stackoverflow的帖子](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv)。
+* 使用阈值化方法，可以通过调用`cv2.threshold`/`cv2.adaptiveThreshold`函数，这通常比调整亮度或对比度更可取。
+* 对图像应用不同的变换，参考[这个OpenCV文档](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html)：
+    - 如果您需要将旋转、调整大小和倾斜组合到图像中，并且知道图像中三个点的源位置和目标位置，则**仿射变换**很有用。仿射变换保持平行线平行。
+    - 如果您知道图像中四个点的源位置和目标位置，则**透视变换**非常有用。例如，如果您从某个角度通过智能手机相机拍摄一个矩形文件的图片，并且想要制作一个表示文档本身的矩形图像。
+* 通过使用**光流算法**来了解图像内部的运动。参考[这个OpenCV文档](https://docs.opencv.org/4.5.5/d4/dee/tutorial_optical_flow.html)。
 
-## Examples of using Computer Vision
+## 使用计算机视觉的示例
 
-In our [OpenCV Notebook](OpenCV.ipynb), we give some examples of when computer vision can be used to perform specific tasks:
+在我们的 [OpenCV Notebook](OpenCV.ipynb) 中，我们提供了一些使用计算机视觉进行特定任务的示例：
 
-* **Pre-processing a photograph of a Braille book**. We focus on how we can use thresholding, feature detection, perspective transformation and NumPy manipulations to separate individual Braille symbols for further classification by a neural network.
+* **预处理一张盲文书的照片**。我们关注如何使用阈值处理、特征检测、透视变换和 NumPy 操作，将单个盲文符号分离出来，以便神经网络进一步分类。
 
-![Braille Image](data/braille.jpeg) | ![Braille Image Pre-processed](images/braille-result.png) | ![Braille Symbols](images/braille-symbols.png)
+![盲文图像](data/braille.jpeg) | ![预处理的盲文图像](images/braille-result.png) | ![盲文符号](images/braille-symbols.png)
 ----|-----|-----
 
-> Image from [OpenCV.ipynb](OpenCV.ipynb)
+> 图像来自 [OpenCV.ipynb](OpenCV.ipynb)* **使用帧差法检测视频中的运动**。如果相机固定不动，那么相机捕捉到的帧应该是非常相似的。由于帧被表示为数组，通过对连续两个帧的数组进行相减操作，我们将得到像素差异，对于静止帧来说这个差异应该很低，而一旦图像中有实质性的运动，差异将会增大。
 
-* **Detecting motion in video using frame difference**. If the camera is fixed, then frames from the camera feed should be pretty similar to each other. Since frames are represented as arrays, just by subtracting those arrays for two subsequent frames we will get the pixel difference, which should be low for static frames, and become higher once there is substantial motion in the image.
+![视频帧和帧差异的图像](images/frame-difference.png)
 
-![Image of video frames and frame differences](images/frame-difference.png)
+> 图片来源：[OpenCV.ipynb](OpenCV.ipynb)
 
-> Image from [OpenCV.ipynb](OpenCV.ipynb)
+* **使用光流法检测运动**。[光流法](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html)允许我们理解视频帧上个体像素是如何移动的。光流法有两种类型：
 
-* **Detecting motion using Optical Flow**. [Optical flow](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) allows us to understand how individual pixels on video frames move. There are two types of optical flow:
+   - **稠密光流**计算每个像素的移动向量场，用于显示它的移动方向。
+   - **稀疏光流**基于提取图像中的一些有特色的特征(例如边缘)，并根据这些特征在帧之间建立它们的轨迹。
 
-   - **Dense Optical Flow** computes the vector field that shows for each pixel where is it moving
-   - **Sparse Optical Flow** is based on taking some distinctive features in the image (eg. edges), and building their trajectory from frame to frame.
+![光流图像](images/optical.png)
 
-![Image of Optical Flow](images/optical.png)
+> 图片来源：[OpenCV.ipynb](OpenCV.ipynb)
 
-> Image from [OpenCV.ipynb](OpenCV.ipynb)
+## ✍️ 示例笔记本：OpenCV [尝试OpenCV的实例操作](OpenCV.ipynb)
 
-## ✍️ Example Notebooks: OpenCV [try OpenCV in Action](OpenCV.ipynb)
+使用OpenCV进行一些实验，可以探索[OpenCV笔记本](OpenCV.ipynb)。
 
-Let's do some experiments with OpenCV by exploring [OpenCV Notebook](OpenCV.ipynb)
+## 结论
 
-## Conclusion
+有时候，相对复杂的任务，如运动检测或指尖检测，可以纯粹通过计算机视觉来解决。因此，了解计算机视觉的基本技术以及像OpenCV这样的库能做什么非常有帮助。
 
-Sometimes, relatively complex tasks such as movement detection or fingertip detection can be solved purely by computer vision. Thus, it is very helpful to know the basic techniques of computer vision, and what libraries like OpenCV can do.
+## 🚀 挑战
 
-## 🚀 Challenge
+观看[该视频](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste)，了解Cortic Tigers项目以及他们是如何通过一个基于块的解决方案来普及计算机视觉任务的。还要研究其他类似的项目，帮助新学习者进入这个领域。
 
-Watch [this video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) from the AI show to learn about the Cortic Tigers project and how they built a block-based solution to democratize computer vision tasks via a robot. Do some research on other projects like this that help onboard new learners into the field.
+## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## 复习与自学
 
-## Review & Self Study
+在这个很棒的教程中[阅读更多关于光流](https://learnopencv.com/optical-flow-in-opencv/)。
 
-Read more on optical flow [in this great tutorial](https://learnopencv.com/optical-flow-in-opencv/).
+## [任务](lab/README.md)
 
-## [Assignment](lab/README.md)
+在这个实验中，你将使用简单的手势录制一个视频，并使用光流提取上下左右的运动。
 
-In this lab, you will take a video with simple gestures, and your goal is to extract up/down/left/right movements using optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="images/palm-movement.png" width="30%" alt="掌部运动帧"/>

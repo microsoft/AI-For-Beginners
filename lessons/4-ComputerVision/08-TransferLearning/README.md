@@ -1,77 +1,69 @@
-# Pre-trained Networks and Transfer Learning
+# 预训练网络和迁移学习
 
-Training CNNs can take a lot of time, and a lot of data is required for that task. However, much of the time is spent learning the best low-level filters that a network can use to extract patterns from images. A natural question arises - can we use a neural network trained on one dataset and adapt it to classify different images without requiring a full training process?
+训练卷积神经网络可以花费很多时间，并且需要大量数据。然而，大部分时间都用于学习网络可以用来从图像中提取模式的最佳低级过滤器。一个自然的问题出现了 - 可以将在一个数据集上训练的神经网络适应于分类不同图像，而不需要进行完整的训练过程吗？
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
 
-This approach is called **transfer learning**, because we transfer some knowledge from one neural network model to another. In transfer learning, we typically start with a pre-trained model, which has been trained on some large image dataset, such as **ImageNet**. Those models can already do a good job extracting different features from generic images, and in many cases just building a classifier on top of those extracted features can yield a good result.
+这种方法被称为**迁移学习**，因为我们将一些知识从一个神经网络模型转移到另一个模型中。在迁移学习中，我们通常从一个预训练的模型开始，该模型已经在一些大型图像数据集（例如**ImageNet**）上进行了训练。这些模型已经能够很好地从通用图像中提取不同的特征，而在许多情况下，仅构建一个基于这些提取特征的分类器就能获得良好的结果。
 
-> ✅ Transfer Learning is a term you find in other academic fields, such as Education. It refers to the process of taking knowledge from one domain and applying it to another.
+> ✅ 迁移学习是一个在其他学术领域中也可找到的术语，比如教育。它指的是将从一个领域获取的知识应用于另一个领域的过程。
 
-## Pre-Trained Models as Feature Extractors
+## 作为特征提取器的预训练模型
 
-The convolutional networks that we have talked about in the previous section contained a number of layers, each of which is supposed to extract some features from the image, starting from low-level pixel combinations (such as horizontal/vertical line or stroke), up to higher level combinations of features, corresponding to things like an eye of a flame. If we train CNN on sufficiently large dataset of generic and diverse images, the network should learn to extract those common features.
+在前一节中我们提到，卷积网络由许多层组成，每一层都应该从图像中提取一些特征，从低级像素组合（例如水平/垂直线或笔画）到更高级的特征组合，对应于一些东西的眼睛（如火焰的眼睛）。如果我们在足够大的通用和多样化的图像数据集上训练卷积神经网络，网络应该能够学习提取这些常见的特征。
 
-Both Keras and PyTorch contain functions to easily load pre-trained neural network weights for some common architectures, most of which were trained on ImageNet images. The most often used ones are described on the [CNN Architectures](../07-ConvNets/CNN_Architectures.md) page from the prior lesson. In particular, you may want to consider using one of the following:
+Keras和PyTorch都包含一些函数，可以方便地加载用于一些常见架构的预训练神经网络权重，其中大部分是在ImageNet图像上训练的。最常用的模型在上一课的[CNN架构](../07-ConvNets/CNN_Architectures.md)页面中有描述。特别是，你可以考虑使用以下之一：
 
-* **VGG-16/VGG-19** which are relatively simple models that still give good accuracy. Often using VGG as a first attempt is a good choice to see how transfer learning is working.
-* **ResNet** is a family of models proposed by Microsoft Research in 2015. They have more layers, and thus take more resources.
-* **MobileNet** is a family of models with reduced size, suitable for mobile devices. Use them if you are short in resources and can sacrifice a little bit of accuracy.
+* **VGG-16 / VGG-19**是相对简单的模型，但仍然具有较高的准确性。通常使用VGG作为第一次尝试是一个不错的选择，可以看看迁移学习的效果如何。
+* **ResNet**是Microsoft Research在2015年提出的一系列模型。它们有更多的层，因此需要更多的资源。
+* **MobileNet**是一系列尺寸较小的模型，适用于移动设备。如果你的资源有限并且可以牺牲一点准确性的话，可以使用它们。以下是VGG-16网络从一张猫的图片中提取出来的特征示例：
 
-Here are sample features extracted from a picture of a cat by VGG-16 network:
+![由VGG-16提取的特征](images/features.png)
 
-![Features extracted by VGG-16](images/features.png)
+## 猫和狗数据集
 
-## Cats vs. Dogs Dataset
+在本例中，我们将使用一个名为[猫和狗](https://www.microsoft.com/download/details.aspx?id=54765&WT.mc_id=academic-77998-cacaste)的数据集，该数据集非常接近于一个真实的图像分类场景。
 
-In this example, we will use a dataset of [Cats and Dogs](https://www.microsoft.com/download/details.aspx?id=54765&WT.mc_id=academic-77998-cacaste), which is very close to a real-life image classification scenario.
+## ✍️ 练习：迁移学习让我们在相应的笔记本中看一下迁移学习的实际应用：
 
-## ✍️ Exercise: Transfer Learning
+* [迁移学习 - PyTorch](TransferLearningPyTorch.ipynb)
+* [迁移学习 - TensorFlow](TransferLearningTF.ipynb)
 
-Let's see transfer learning in action in corresponding notebooks:
+## 可视化对抗性猫
 
-* [Transfer Learning - PyTorch](TransferLearningPyTorch.ipynb)
-* [Transfer Learning - TensorFlow](TransferLearningTF.ipynb)
+预训练的神经网络中包含了不同的模式，包括理想的猫（以及理想的狗、理想的斑马等）。有趣的是，我们可以尝试**可视化这个图像**。然而，这并不简单，因为模式遍布在网络权重中，而且以层次结构组织。
 
-## Visualizing Adversarial Cat
+我们可以采用一种方法，从随机图像开始，然后尝试使用**梯度下降优化**技术来调整图像，以便网络开始认为它是一只猫。![图像优化循环](images/ideal-cat-loop.png)
 
-Pre-trained neural network contains different patterns inside it's *brain*, including notions of **ideal cat** (as well as ideal dog, ideal zebra, etc.). It would be interesting to somehow **visualize this image**. However, it is not simple, because patterns are spread all over the network weights, and also organized in a hierarchical structure.
+然而，如果我们这样做，我们会得到一个非常类似于随机噪声的东西。这是因为*有很多种方法可以让网络认为输入图像是一只猫*，包括一些在视觉上没有意义的方法。虽然这些图像包含了许多典型猫的图案，但没有任何约束使它们在视觉上有区别。
 
-One approach we can take is to start with a random image, and then try to use **gradient descent optimization** technique to adjust that image in such a way, that the network starts thinking that it's a cat. 
+为了改善结果，我们可以将另一个术语添加到损失函数中，该术语称为**变化损失**。它是一个指标，显示图像相邻像素之间的相似程度。最小化变化损失会使图像更平滑，并消除噪声-从而显示出更具吸引力的图案。以下是这样的"理想"图像的示例，这些图像以高概率被分类为猫和斑马：
 
-![Image Optimization Loop](images/ideal-cat-loop.png)
-
-However, if we do this, we will receive something very similar to a random noise. This is because *there are many ways to make network think the input image is a cat*, including some that do not make sense visually. While those images contain a lot of patterns typical for a cat, there is nothing to constrain them to be visually distinctive.
-
-To improve the result, we can add another term into the loss function, which is called **variation loss**. It is a metric that shows how similar neighboring pixels of the image are. Minimizing variation loss makes image smoother, and gets rid of noise - thus revealing more visually appealing patterns. Here is an example of such "ideal" images, that are classified as cat and as zebra with high probability:
-
-![Ideal Cat](images/ideal-cat.png) | ![Ideal Zebra](images/ideal-zebra.png)
+![理想猫](images/ideal-cat.png) | ![理想斑马](images/ideal-zebra.png)
 -----|-----
- *Ideal Cat* | *Ideal Zebra*
+ *理想猫* | *理想斑马*可以使用类似的方法对神经网络进行所谓的**对抗攻击**。假设我们想欺骗一个神经网络，让一只狗看起来像是一只猫。如果我们拿到一只被网络识别为狗的狗的图片，然后使用梯度下降优化来微调这个图片，直到网络开始将其分类为猫:
 
-Similar approach can be used to perform so-called **adversarial attacks** on a neural network. Suppose we want to fool a neural network and make a dog look like a cat. If we take dog's image, which is recognized by a network as a dog, we can then tweak it a little but using gradient descent optimization, until the network starts classifying it as a cat:
-
-![Picture of a Dog](images/original-dog.png) | ![Picture of a dog classified as a cat](images/adversarial-dog.png)
+![一只狗的图片](images/original-dog.png) | ![被分为猫的狗的图片](images/adversarial-dog.png)
 -----|-----
-*Original picture of a dog* | *Picture of a dog classified as a cat*
+*原始的一只狗的图片* | *被分类为猫的狗的图片*
 
-See the code to reproduce the results above in the following notebook:
+查看在以下笔记本中复制以上结果的代码:
 
-* [Ideal and Adversarial Cat - TensorFlow](AdversarialCat_TF.ipynb)
-## Conclusion
+* [理想和对抗猫 - TensorFlow](AdversarialCat_TF.ipynb)
+* ## 结论
 
-Using transfer learning, you are able to quickly put together a classifier for a custom object classification task and achieve high accuracy. You can see that more complex tasks that we are solving now require higher computational power, and cannot be easily solved on the CPU. In the next unit, we will try to use a more lightweight implementation to train the same model using lower compute resources, which results in just slightly lower accuracy.
+使用迁移学习，你可以快速地构建一个用于自定义对象分类任务的分类器，并且达到较高的准确率。你可以看到，我们现在正在解决的更复杂的任务需要更高的计算能力，无法在CPU上轻松解决。在下一个单元中，我们将尝试使用更轻量级的实现来使用较低的计算资源训练相同的模型，这将导致稍微降低准确率。
 
-## 🚀 Challenge
+## 🚀挑战
 
-In the accompanying notebooks, there are notes at the bottom about how transfer knowledge works best with somewhat similar training data (a new type of animal, perhaps). Do some experimentation with completely new types of images to see how well or poorly your transfer knowledge models perform.
+在附带的笔记本中，底部有关于迁移学习最适合相似训练数据（也许是一种新类型的动物）的说明。尝试用全新类型的图片进行一些实验，看看你的迁移学习模型表现得如何好或差。
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [讲后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
 
-## Review & Self Study
+## 复习和自学
 
-Read through [TrainingTricks.md](TrainingTricks.md) to deepen your knowledge of some other way to train your models.
+阅读[TrainingTricks.md](TrainingTricks.md)来加深你对其他训练模型的方式的了解。
 
-## [Assignment](lab/README.md)
+## [作业](lab/README.md)
 
-In this lab, we will use real-life [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pets dataset with 35 breeds of cats and dogs, and we will build a transfer learning classifier.
+在这个实验室中，我们将使用真实的 [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) 宠物数据集，其中包含35种猫和狗的品种，并且我们将构建一个迁移学习分类器。
