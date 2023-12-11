@@ -1,73 +1,71 @@
-# Representing Text as Tensors
+# 将文本表示为张量
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
 
-## Text Classification
+## 文本分类
 
-Throughout the first part of this section, we will focus on **text classification** task. We will use the [AG News](https://www.kaggle.com/amananandrai/ag-news-classification-dataset) Dataset, which contains news articles like the following:
+在这一部分的前面，我们将集中讨论**文本分类**任务。我们将使用[AG News](https://www.kaggle.com/amananandrai/ag-news-classification-dataset)数据集，该数据集包含以下新闻文章：
 
-* Category: Sci/Tech
-* Title: Ky. Company Wins Grant to Study Peptides (AP)
-* Body: AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop...
+* 类别：科技/技术
+* 标题：KY公司获得研究肽化合物的资助金（美联社）* 主题：AP - 路易斯维尔大学的化学研究员创办的一个公司赢得了一项开发资金...
+  
+我们的目标是根据文本将新闻项目分类为其中一种类别。
 
-Our goal will be to classify the news item into one of the categories based on text.
+## 表示文本
 
-## Representing text
+如果我们想要用神经网络解决自然语言处理（NLP）任务，我们需要一种将文本表示为张量的方法。计算机已经通过编码（如ASCII或UTF-8）将文本字符表示为将映射到屏幕上的字体的数字。
 
-If we want to solve Natural Language Processing (NLP) tasks with neural networks, we need some way to represent text as tensors. Computers already represent textual characters as numbers that map to fonts on your screen using encodings such as ASCII or UTF-8.
+<img alt="显示将字符映射到ASCII和二进制表示的图像" src="images/ascii-character-map.png" width="50%"/>
 
-<img alt="Image showing diagram mapping a character to an ASCII and binary representation" src="images/ascii-character-map.png" width="50%"/>
+> [图片来源](https://www.seobility.net/zh/wiki/ASCII)
 
-> [Image source](https://www.seobility.net/en/wiki/ASCII)
+作为人类，我们理解每个字母代表的含义，以及所有字符如何组合形成句子中的单词。然而，计算机本身没有这样的理解，神经网络在训练过程中需要学习这个含义。
 
-As humans, we understand what each letter **represents**, and how all characters come together to form the words of a sentence. However, computers by themselves do not have such an understanding, and neural network has to learn the meaning during training.
+因此，在表示文本时可以使用不同的方法：
 
-Therefore, we can use different approaches when representing text:
+* **字符级表示**，通过将每个字符都视为一个数字来表示文本。假设我们的文本语料库中有*C*种不同的字符，那么单词*Hello*将被表示为一个5x*C*的张量。每个字母将对应于一个以one-hot编码的张量列。
+* **单词级表示**，我们创建一个包含文本中所有单词的**词汇表**，然后使用one-hot编码来表示单词。这种方法更好一些，因为每个字母本身并没有太多含义，因此通过使用更高级的语义概念-单词，我们简化了神经网络的任务。然而，由于字典大小较大，我们需要处理高维稀疏张量。
 
-* **Character-level representation**, when we represent text by treating each character as a number. Given that we have *C* different characters in our text corpus, the word *Hello* would be represented by 5x*C* tensor. Each letter would correspond to a tensor column in one-hot encoding.
-* **Word-level representation**, in which we create a **vocabulary** of all words in our text, and then represent words using one-hot encoding. This approach is somehow better, because each letter by itself does not have much meaning, and thus by using higher-level semantic concepts - words - we simplify the task for the neural network. However, given the large dictionary size, we need to deal with high-dimensional sparse tensors.
-
-Regardless of the representation, we first need to convert the text into a sequence of **tokens**, one token being either a character, a word, or sometimes even part of a word. Then, we convert the token into a number, typically using **vocabulary**, and this number can be fed into a neural network using one-hot encoding.
+无论采用何种表示方式，我们首先需要将文本转换为一系列**标记**（token），其中一个标记可以是一个字符、一个单词，或者有时甚至是一个单词的一部分。然后，我们使用**词汇表**将标记转换为数字，通常使用one-hot编码来将这个数字输入神经网络。
 
 ## N-Grams
 
-In natural language, precise meaning of words can only be determined in context. For example, meanings of *neural network* and *fishing network* are completely different. One of the ways to take this into account is to build our model on pairs of words, and considering word pairs as separate vocabulary tokens. In this way, the sentence *I like to go fishing* will be represented by the following sequence of tokens: *I like*, *like to*, *to go*, *go fishing*. The problem with this approach is that the dictionary size grows significantly, and combinations like *go fishing* and *go shopping* are presented by different tokens, which do not share any semantic similarity despite the same verb.  
+在自然语言中，一个词的确切含义只能在上下文中确定。例如，*神经网络*和*捕鱼网*的含义完全不同。为了考虑到这一点，一种方法是构建我们的模型以词对的形式，并将词对视为单独的词汇标记。这样，句子*I like to go fishing*将由以下标记序列表示：*I like*，*like to*，*to go*，*go fishing*。这种方法的问题在于词典大小显著增长，而像*go fishing*和*go shopping*这样的组合被不同的标记表示，尽管它们是相同的动词，它们之间没有任何语义相似性。
 
-In some cases, we may consider using tri-grams -- combinations of three words -- as well. Thus the approach is such is often called **n-grams**. Also, it makes sense to use n-grams with character-level representation, in which case n-grams will roughly correspond to different syllabi.
+在一些情况下，我们可以考虑使用三元组 - 三个词的组合。这种方法通常被称为**n-grams**。此外，使用字符级表示的n-grams也是有意义的，这种情况下n-grams大致对应于不同的音节。
 
-## Bag-of-Words and TF/IDF
+## 词袋和TF/IDF
 
-When solving tasks like text classification, we need to be able to represent text by one fixed-size vector, which we will use as an input to final dense classifier. One of the simplest ways to do that is to combine all individual word representations, eg. by adding them. If we add one-hot encodings of each word, we will end up with a vector of frequencies, showing how many times each word appears inside the text. Such representation of text is called **bag of words** (BoW).
-
+在解决文本分类等任务时，我们需要能够用一个固定大小的向量来表示文本，我们将使用这个向量作为最终密集分类器的输入。其中一种最简单的方法是将所有单词的表示组合在一起，例如通过加法。如果我们将每个单词的独热编码相加，我们将得到一个频率向量，显示每个单词在文本中出现的次数。这种文本表示被称为**词袋**（Bag-of-Words）。
 <img src="images/bow.png" width="90%"/>
 
-> Image by the author
+> 图片由作者提供
 
-A BoW essentially represents which words appear in text and in which quantities, which can indeed be a good indication of what the text is about. For example, news article on politics is likely to contains words such as *president* and *country*, while scientific publication would have something like *collider*, *discovered*, etc. Thus, word frequencies can in many cases be a good indicator of text content.
+BoW基本上表示出现在文本中的单词及其数量，这实际上可以很好地表明文本的内容。例如，政治新闻文章可能包含诸如"总统"和"国家"之类的词汇，而科学出版物可能会使用"对撞机"、"发现"等词汇。因此，单词频率在许多情况下可以很好地指示文本内容。
 
-The problem with BoW is that certain common words, such as *and*, *is*, etc. appear in most of the texts, and they have highest frequencies, masking out the words that are really important. We may lower the importance of those words by taking into account the frequency at which words occur in the whole document collection. This is the main idea behind TF/IDF approach, which is covered in more detail in the notebooks attached to this lesson.
+BoW的问题在于一些常见词汇，例如"and"、"is"等，在大多数文本中都出现，并且它们的频率最高，掩盖了真正重要的词汇。我们可以通过考虑单词在整个文档集中出现的频率来降低这些词汇的重要性。这是TF/IDF方法的主要思想，更详细的内容可以在本课程附带的笔记本中找到。
 
-However, none of those approaches can fully take into account the **semantics** of text. We need more powerful neural networks models to do this, which we will discuss later in this section.
+然而，以上方法都不能充分考虑文本的语义。我们需要更强大的神经网络模型来实现这一点，这将在本节的后续讨论中介绍。
 
-## ✍️ Exercises: Text Representation
+## ✍️练习: 文本表示
 
-Continue your learning in the following notebooks:
+在以下笔记本中继续学习:
 
-* [Text Representation with PyTorch](TextRepresentationPyTorch.ipynb)
-* [Text Representation with TensorFlow](TextRepresentationTF.ipynb)
+* [使用PyTorch进行文本表示](TextRepresentationPyTorch.ipynb)
+* [使用TensorFlow进行文本表示](TextRepresentationTF.ipynb)
 
-## Conclusion
+## 结论
 
-So far, we have studied techniques that can add frequency weight to different words. They are, however, unable to represent meaning or order. As the famous linguist J. R. Firth said in 1935, "The complete meaning of a word is always contextual, and no study of meaning apart from context can be taken seriously." We will learn later in the course how to capture contextual information from text using language modeling.
+到目前为止，我们已经学习了一些可以为不同的单词添加频率权重的技术。然而，它们无法表示含义或顺序。正如著名语言学家J.R. Firth在1935年所说：“一个单词的完整含义始终是依赖于上下文的，任何脱离上下文的含义研究都不能被认真对待。”在后面的课程中，我们将学习如何使用语言模型从文本中捕获上下文信息。
 
-## 🚀 Challenge
+## 🚀 挑战
 
-Try some other exercises using bag-of-words and different data models. You might be inspired by this [competition on Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
+尝试一些使用词袋模型和不同数据模型的其他练习。你可以参考这个[Kaggle竞赛](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)。
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [讲座后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
 
-## Review & Self Study
+## 复习与自学
 
-Practice your skills with text embeddings and bag-of-words techniques on [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
+在[Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)上练习文本嵌入和词袋技术的技能。
 
-## [Assignment: Notebooks](assignment.md)
+## [作业: 笔记本](assignment.md)

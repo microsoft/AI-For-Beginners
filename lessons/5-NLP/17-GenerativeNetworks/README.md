@@ -1,76 +1,64 @@
-# Generative networks
+# 生成网络
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [预先讲座测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
 
-Recurrent Neural Networks (RNNs) and their gated cell variants such as Long Short Term Memory Cells (LSTMs) and Gated Recurrent Units (GRUs) provided a mechanism for language modeling in that they can learn word ordering and provide predictions for the next word in a sequence. This allows us to use RNNs for **generative tasks**, such as ordinary text generation, machine translation, and even image captioning.
+循环神经网络（RNN）及其门控单元变体，如长短时记忆单元（LSTM）和门控循环单元（GRU），提供了一种语言模型的机制，它们可以学习词序并为序列中的下一个词提供预测。这样，我们就可以将RNN用于**生成任务**，例如普通文本生成、机器翻译，甚至图像标题生成。
 
-> ✅ Think about all the times you've benefited from generative tasks such as text completion as you type. Do some research into your favorite applications to see if they leveraged RNNs.
+> ✅ 回想一下你在打字时受益于文本补全等生成任务的所有时候。研究一下你最喜欢的应用程序，看看它们是否利用了RNN。
 
-In RNN architecture we discussed in the previous unit, each RNN unit produced the next hidden state as an output. However, we can also add another output to each recurrent unit, which would allow us to output a **sequence** (which is equal in length to the original sequence). Moreover, we can use RNN units that do not accept an input at each step, and just take some initial state vector, and then produce a sequence of outputs.
+在之前的单元中我们讨论了RNN架构，每个RNN单元产生下一个隐藏状态作为输出。然而，我们还可以在每个循环单元中添加另一个输出，这样我们就可以输出一个**序列**（与原始序列长度相等）。此外，我们还可以使用在每个步骤中不接受输入的RNN单元，只需采用一些初始状态向量，然后生成一系列输出。这允许使用下图所示的不同神经网络结构：
 
-This allows for different neural architectures that are shown in the picture below:
+![显示常见递归神经网络模式的图像。](images/unreasonable-effectiveness-of-rnn.jpg)
 
-![Image showing common recurrent neural network patterns.](images/unreasonable-effectiveness-of-rnn.jpg)
+> 图片来源于[递归神经网络的非理性有效性](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)这篇博文，作者是[Andrej Karpaty](http://karpathy.github.io/)
 
-> Image from blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpaty](http://karpathy.github.io/)
+* **一对一** 是具有一个输入和一个输出的传统神经网络
+* **一对多** 是一种生成性架构，接受一个输入值，并生成一系列输出值。例如，如果我们想要训练一个**图像标题**网络，以生成一幅图片的文字描述，我们可以将图片作为输入，通过CNN获取它的隐藏状态，然后通过递归链逐字生成标题。
+* **多对一** 对应于我们在前一节中描述的RNN架构，例如文本分类。
+* **多对多**，或**序列对序列**对应于任务，如**机器翻译**，其中我们首先用一个RNN将所有输入序列的信息收集到隐藏状态中，然后另一个RNN链将该状态展开为输出序列。在本单元中，我们将重点关注帮助我们生成文本的简单生成模型。为了简单起见，我们将使用字符级的分词。
 
-* **One-to-one** is a traditional neural network with one input and one output
-* **One-to-many** is a generative architecture that accepts one input value, and generates a sequence of output values. For example, if we want to train an **image captioning** network that would produce a textual description of a picture, we can a picture as input, pass it through a CNN to obtain its hidden state, and then have a recurrent chain generate caption word-by-word
-* **Many-to-one** corresponds to the RNN architectures we described in the previous unit, such as text classification
-* **Many-to-many**, or **sequence-to-sequence** corresponds to tasks such as **machine translation**, where we have first RNN collect all information from the input sequence into the hidden state, and another RNN chain unrolls this state into the output sequence.
+我们将逐步训练这个循环神经网络(RNN)来生成文本。在每一步中，我们将取一个长度为 `nchars` 的字符序列，并要求网络为每个输入字符生成下一个输出字符:
 
-In this unit, we will focus on simple generative models that help us generate text. For simplicity, we will use character-level tokenization.
+![显示一个例子的RNN生成单词'HELLO'的图像。](images/rnn-generate.png)
 
-We will train this RNN to generate text step by step. On each step, we will take a sequence of characters of length `nchars`, and ask the network to generate the next output character for each input character:
+在生成文本(推断过程)时，我们从某个**提示**开始，它通过RNN单元产生中间状态，然后从该状态开始生成。我们逐个字符地生成，并将状态和生成的字符传递给另一个RNN单元来生成下一个字符，直到我们生成足够的字符。
 
-![Image showing an example RNN generation of the word 'HELLO'.](images/rnn-generate.png)
+![图片显示在推断过程中的RNN生成文本。](images/rnn-generate-inf.png)> 作者提供的图片
 
-When generating text (during inference), we start with some **prompt**, which is passed through RNN cells to generate its intermediate state, and then from this state the generation starts. We generate one character at a time, and pass the state and the generated character to another RNN cell to generate the next one, until we generate enough characters.
+## ✍️ 练习: 生成网络
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+请在以下笔记本中继续学习:
 
-> Image by the author
+* [使用PyTorch的生成网络](GenerativePyTorch.ipynb)
+* [使用TensorFlow的生成网络](GenerativeTF.ipynb)## 软文本生成和温度
 
-## ✍️ Exercises: Generative Networks
-
-Continue your learning in the following notebooks:
-
-* [Generative Networks with PyTorch](GenerativePyTorch.ipynb)
-* [Generative Networks with TensorFlow](GenerativeTF.ipynb)
-
-## Soft text generation and temperature
-
-The output of each RNN cell is a probability distribution of characters. If we always take the character with the highest probability as the next character in generated text, the text often can become "cycled" between the same character sequences again and again, like in this example:
+每个RNN单元的输出是一个字符的概率分布。如果我们总是选择概率最高的字符作为生成文本中的下一个字符，文本往往会在相同的字符序列之间不断循环，就像这个例子中一样：
 
 ```
 today of the second the company and a second the company ...
 ```
 
-However, if we look at the probability distribution for the next character, it could be that the difference between a few highest probabilities is not huge, e.g. one character can have probability 0.2, another - 0.19, etc. For example, when looking for the next character in the sequence '*play*', next character can equally well be either space, or **e** (as in the word *player*).
+然而，如果我们观察下一个字符的概率分布，可能会发现最高概率之间的差异并不是很大，例如一个字符的概率可能是0.2，另一个字符的概率可能是0.19，等等。例如，在寻找序列“*play*”的下一个字符时，下一个字符可以是空格，也可以是**e**（例如单词*player*中的e）。这导致我们得出结论，选择具有更高概率的字符并不总是“公平”的，因为选择第二高的字符可能仍会导致有意义的文本。从网络输出给定的概率分布中**抽样**字符更为明智。我们还可以使用一个参数，**温度**，它可以使概率分布变得更平坦，以增加更多的随机性，或者使其更陡峭，以更多地坚持最高概率的字符。
 
-This leads us to the conclusion that it is not always "fair" to select the character with a higher probability, because choosing the second highest might still lead us to meaningful text. It is more wise to **sample** characters from the probability distribution given by the network output. We can also use a parameter, **temperature**, that will flatten out the probability distribution, in case we want to add more randomness, or make it more steep, if we want to stick more to the highest-probability characters.
+在上述链接的笔记本中探索软文本生成是如何实现的。
 
-Explore how this soft text generation is implemented in the notebooks linked above.
+## 结论
 
-## Conclusion
+尽管文本生成在其本身已经很有用，但主要的好处来自于使用RNN从一些初始特征向量生成文本的能力。例如，文本生成被用作机器翻译的一部分（在这种情况下，来自*编码器*的状态向量被用来生成或*解码*翻译后的信息），或者生成图像的文字描述（在这种情况下，特征向量将来自CNN提取器）。
 
-While text generation may be useful in its own right, the major benefits come from the ability to generate text using RNNs from some initial feature vector. For example, text generation is used as part of machine translation (sequence-to-sequence, in this case state vector from *encoder* is used to generate or *decode* translated message), or generating textual description of an image (in which case the feature vector would come from CNN extractor).
+## 🚀 挑战
 
-## 🚀 Challenge
+在这个主题上在Microsoft Learn上学习一些课程
 
-Take some lessons on Microsoft Learn on this topic
+* 使用[PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)进行文本生成
 
-* Text Generation with [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
+## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## 回顾与自学
 
-## Review & Self Study
+以下是一些文章，可以扩展你的知识。* 使用马尔可夫链、LSTM和GPT-2进行文本生成的不同方法：[博客文章](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* 在[Keras文档](https://keras.io/examples/generative/lstm_character_level_text_generation/)中的文本生成示例
 
-Here are some articles to expand your knowledge
+## [作业](lab/README.md)
 
-* Different approaches to text generation with Markov Chain, LSTM and GPT-2: [blog post](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
-* Text generation sample in [Keras documentation](https://keras.io/examples/generative/lstm_character_level_text_generation/)
-
-## [Assignment](lab/README.md)
-
-We have seen how to generate text character-by-character. In the lab, you will explore word-level text generation.
+我们已经看到了如何逐个字生成文本。在实验室中，您将探索逐个词的文本生成。

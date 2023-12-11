@@ -1,3 +1,3 @@
-# Assignment: Transformers
+# 作业：Transformers
 
-Experiment with Transformers on HuggingFace! Try some of the scripts they provide to work with the various models available on their site: https://huggingface.co/docs/transformers/run_scripts. Try one of their datasets, then import one of your own from this curriculum or from Kaggle and see if you can generate interesting texts. Produce a notebook with your findings.
+在HuggingFace上尝试使用Transformers！试着使用他们提供的一些脚本来处理他们网站上可用的各种模型：https://huggingface.co/docs/transformers/run_scripts。尝试使用他们的数据集，然后从这个课程或者从Kaggle导入你自己的数据集，看看你能否生成有趣的文本。用你的发现制作一个笔记本。

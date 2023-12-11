@@ -1,47 +1,44 @@
-# NER
+# 命名实体识别（NER）
 
-Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+来自于[AI初学者课程](https://github.com/microsoft/ai-for-beginners)的实验作业。
 
-## Task
+## 任务
 
-In this lab, you need to train named entity recognition model for medical terms.
+在这个实验中，你需要训练一个用于医学术语的命名实体识别模型。
 
-## The Dataset
+## 数据集要训练NER模型，我们需要具有正确标记的医学实体的数据集。[BC5CDR数据集](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/)包含来自1500多篇论文的已标记的疾病和化学实体。您可以在他们的网站上注册后下载这个数据集。
 
-To train NER model, we need properly labeled dataset with medical entities. [BC5CDR dataset](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) contains labeled diseases and chemicals entities from more than 1500 papers. You may download the dataset after registering at their web site.
-
-BC5CDR Dataset looks like this:
+BC5CDR数据集的样式如下：
 
 ```
-6794356|t|Tricuspid valve regurgitation and lithium carbonate toxicity in a newborn infant.
-6794356|a|A newborn with massive tricuspid regurgitation, atrial flutter, congestive heart failure, and a high serum lithium level is described. This is the first patient to initially manifest tricuspid regurgitation and atrial flutter, and the 11th described patient with cardiac disease among infants exposed to lithium compounds in the first trimester of pregnancy. Sixty-three percent of these infants had tricuspid valve involvement. Lithium carbonate may be a factor in the increasing incidence of congenital heart disease when taken during early pregnancy. It also causes neurologic depression, cyanosis, and cardiac arrhythmia when consumed prior to delivery.
-6794356	0	29	Tricuspid valve regurgitation	Disease	D014262
-6794356	34	51	lithium carbonate	Chemical	D016651
-6794356	52	60	toxicity	Disease	D064420
-...
+6794356|t|新生儿患有三尖瓣反流和碳酸锂中毒。
+6794356|a|描述了一名新生儿患有巨大的三尖瓣反流、心房扑动、充血性心力衰竭和高血清锂水平。这是首个最初表现为三尖瓣反流和心房扑动的患者，也是首个在妊娠初期暴露于锂化合物的婴儿中患有心脏疾病的患者（第11例）。这些婴儿中，63%有三尖瓣的受损。碳酸锂在早期妊娠期间服用时可能是导致先天性心脏病发病率增加的因素。它还会在分娩前引起神经抑制、紫绀和心律失常。
+6794356	0	29	三尖瓣反流	疾病	D014262
+6794356	34	51	碳酸锂	化学物质	D016651
+6794356	52	60	中毒	疾病	D064420
+```...
+
 ```
 
-In this dataset, there are paper title and abstract in the first two lines, and then there are individual entities, with beginning and end positions within title+abstract block. In addition to entity type, you get the ontology ID of this entity within some medical ontology.
+在这个数据集中，前两行是论文的标题和摘要，然后是个别的实体，包括在标题+摘要块中的开始和结束位置。除了实体类型，你还可以得到该实体在某个医学本体中的本体ID。
 
-You will need to write some Python code to convert this into BIO encoding.
+你需要编写一些Python代码将其转换为BIO编码。
 
-## The Network
+## 网络
 
-First attempt at NER can be done by using LSTM network, as in our example you have seen during the lesson. However, in NLP tasks, [transformer architecture](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), and specifically [BERT language models](https://en.wikipedia.org/wiki/BERT_(language_model)) show much better results. Pre-trained BERT models understand the general structure of a language, and can be fine-tuned for specific tasks with relatively small datasets and computational costs.
+可以尝试使用LSTM网络来进行命名实体识别，就像你在课堂上所看到的例子一样。然而，在自然语言处理任务中，[变压器架构](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))，尤其是[BERT语言模型](https://en.wikipedia.org/wiki/BERT_(language_model))的结果要好得多。预训练的BERT模型可以理解语言的通用结构，并且可以通过相对较小的数据集和计算成本进行特定任务的微调。由于我们计划在医疗场景中应用NER，因此使用在医学文本上训练的BERT模型是有意义的。Microsoft Research发布了一个名为[PubMedBERT][PubMedBERT]的预训练模型（[出版物][PubMedBERT-Pub]），该模型使用了来自[PubMed](https://pubmed.ncbi.nlm.nih.gov/)数据库的文本进行微调。
 
-Since we are planning to apply NER to medical scenario, it makes sense to use BERT model trained on medical texts. Microsoft Research has released a pre-trained a model called [PubMedBERT][PubMedBERT] ([publication][PubMedBERT-Pub]), which was fine-tuned using texts from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) repository.
-
-The *de facto* standard for training transformer models is [Hugging Face Transformers](https://huggingface.co/) library. It also contains a repository of community-maintained pre-trained models, including PubMedBERT. To load and use this model, we just need a couple of lines of code:
+对于训练Transformer模型，*事实上*的标准是[Hugging Face Transformers](https://huggingface.co/)库。该库还包含一个社区维护的预训练模型的存储库，其中包括PubMedBERT。要加载和使用此模型，我们只需要几行代码：
 
 ```python
 model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
-classes = ... # number of classes: 2*entities+1
+classes = ... # 类别数：2*实体数+1
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = BertForTokenClassification.from_pretrained(model_name, classes)
-```
+``````
 
-This gives us the `model` itself, built for token classification task using `classes` number of classes, as well as `tokenizer` object that can split input text into tokens. You will need to convert the dataset into BIO format, taking PubMedBERT tokenization into account. You can use [this bit of Python code](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) as an inspiration.
+这将为我们提供`model`本身，该模型用于标记分类任务，使用`classes`类的数量，以及将输入文本拆分为标记的`tokenizer`对象。您需要将数据集转换为BIO格式，并考虑PubMedBERT的标记化。您可以使用[这段Python代码](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88)作为灵感。
 
-## Takeaway
+## 要点
 
-This task is very close to the actual task you are likely go have if you want to gain more insights into large volumes on natural language texts. In our case, we can apply our trained model to the [dataset of COVID-related papers](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) and see which insights we will be able to get. [This blog post](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) and [this paper](https://www.mdpi.com/2504-2289/6/1/4) describe the research the can be done on this corpus of papers using NER.
+这个任务非常接近于你可能遇到的实际任务，如果你想对大量的自然语言文本获得更多的见解。在我们的案例中，我们可以将我们训练好的模型应用于[COVID相关论文的数据集](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)，并查看我们能得到的见解。[这篇博客文章](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/)和[这篇论文](https://www.mdpi.com/2504-2289/6/1/4)描述了使用NER对这些论文语料库进行的研究。

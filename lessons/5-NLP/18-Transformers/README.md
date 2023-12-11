@@ -1,109 +1,91 @@
-# Attention Mechanisms and Transformers
+# 注意机制和Transformer
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [预讲座测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
 
-One of the most important problems in the NLP domain is **machine translation**, an essential task that underlies tools such as Google Translate. In this section, we will focus on machine translation, or, more generally, on any *sequence-to-sequence* task (which is also called **sentence transduction**).
+自然语言处理领域中最重要的问题之一是**机器翻译**，这是支撑Google翻译等工具的基本任务。在本节中，我们将专注于机器翻译，或者更一般地说，任何*序列到序列*的任务（也称为**句子转导**）。
 
-With RNNs, sequence-to-sequence is implemented by two recurrent networks, where one network, the **encoder**, collapses an input sequence into a hidden state, while another network, the **decoder**, unrolls this hidden state into a translated result. There are a couple of problems with this approach:
+使用循环神经网络（RNN），序列到序列是通过两个循环网络实现的，其中一个网络，**编码器**，将输入序列转化为隐藏状态，而另一个网络，**解码器**，将这个隐藏状态展开为翻译结果。这种方法存在几个问题：
 
-* The final state of the encoder network has a hard time remembering the beginning of a sentence, thus causing poor quality of the model for long sentences
-* All words in a sequence have the same impact on the result. In reality, however, specific words in the input sequence often have more impact on sequential outputs than others.
+* 编码器网络的最终状态很难记住句子的开头，从而导致对于长句子的模型质量较差。
+* 序列中的所有单词对结果具有相同的影响。然而，在现实中，输入序列中的特定单词往往比其他单词对顺序输出的结果影响更大。**注意机制**提供了一种方法来评估RNN每个输入向量对于输出预测的上下文影响。其实现方式是在输入RNN和输出RNN之间创建中间状态的捷径。通过这种方式，在生成输出符号y<sub>t</sub>时，我们将考虑所有的输入隐藏状态h<sub>i</sub>，并赋予不同的权重系数&alpha;<sub>t,i</sub>。
 
-**Attention Mechanisms** provide a means of weighting the contextual impact of each input vector on each output prediction of the RNN. The way it is implemented is by creating shortcuts between intermediate states of the input RNN and the output RNN. In this manner, when generating output symbol y<sub>t</sub>, we will take into account all input hidden states h<sub>i</sub>, with different weight coefficients &alpha;<sub>t,i</sub>.
+![显示带有加性注意层的编码器/解码器模型的图像](./images/encoder-decoder-attention.png)
 
-![Image showing an encoder/decoder model with an additive attention layer](./images/encoder-decoder-attention.png)
+>来自[Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)的加法注意机制编码器-解码器模型，引用自[这篇博文](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
-> The encoder-decoder model with additive attention mechanism in [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cited from [this blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+注意矩阵{&alpha;<sub>i,j</sub>}表示某些输入单词在生成输出序列中某个单词时的重要程度。下面是一个示例：
 
-The attention matrix {&alpha;<sub>i,j</sub>} would represent the degree that certain input words play in the generation of a given word in the output sequence. Below is an example of such a matrix:
+![显示RNNsearch-50找到的示例对齐，摘自Bahdanau - arviz.org](./images/bahdanau-fig3.png)> 来自 [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) 的图3
 
-![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](./images/bahdanau-fig3.png)
+注意机制在自然语言处理的当前或最新研究中起着很大的作用。然而，添加注意机制会大大增加模型参数的数量，这导致了在循环神经网络中遇到的扩展问题。扩展循环神经网络的一个关键限制是模型的循环特性使得批处理和并行化训练变得困难。在循环神经网络中，每个序列元素都需要按顺序处理，这意味着无法轻易进行并行化处理。
 
-> Figure from [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
+![带有注意机制的编码器-解码器](images/EncDecAttention.gif)
 
-Attention mechanisms are responsible for much of the current or near current state of the art in NLP. Adding attention however greatly increases the number of model parameters which led to scaling issues with RNNs. A key constraint of scaling RNNs is that the recurrent nature of the models makes it challenging to batch and parallelize training. In an RNN each element of a sequence needs to be processed in sequential order which means it cannot be easily parallelized.
+> 来自 [Google's Blog](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html) 
 
-![Encoder Decoder with Attention](images/EncDecAttention.gif)
+通过采用注意机制并结合这个限制，现在的Transformer模型成为了我们今天所知道和使用的最先进模型，如BERT和Open-GPT3。## Transformer模型
 
-> Figure from [Google's Blog](https://research.googleblog.com/2016/09/a-neural-network-for-machine.html)
+Transformer模型的主要思想之一是避免RNN的顺序性，并创建一个在训练过程中可以并行化的模型。这通过实现两个想法来实现:
 
-The adoption of attention mechanisms combined with this constraint led to the creation of the now State of the Art Transformer Models that we know and use today such as BERT to Open-GPT3.
+* 位置编码
+* 使用自注意机制来捕捉模式，而不是使用RNN(或CNN) (这就是为什么引入transformer的论文被称为"注意力就是一切" *[Attention is all you need](https://arxiv.org/abs/1706.03762)*
 
-## Transformer models
+### 位置编码/嵌入位置编码的思想如下：
+1. 在使用RNN时，标记的相对位置由步数表示，因此不需要明确地表示。
+2. 然而，一旦切换到注意力机制，我们就需要知道序列中标记之间的相对位置。
+3. 为了获得位置编码，我们在标记序列上增加了一个标记位置序列（即，一系列数字0,1, …）。
+4. 然后，我们将标记位置与标记嵌入向量混合。为了将位置（整数）转换为向量，我们可以使用不同的方法：
 
-One of the main ideas behind transformers is to avoid sequential nature of RNNs and to create a model that is parallelizable during training. This is achieved by implementing two ideas:
+* 可训练的嵌入，类似于标记嵌入。这是我们在这里考虑的方法。我们在标记和它们的位置的基础上应用嵌入层，得到相同维度的嵌入向量，然后将它们相加。
+* 固定的位置编码函数，如原始论文中所提出的。
 
-* positional encoding
-* using self-attention mechanism to capture patterns instead of RNNs (or CNNs) (that is why the paper that introduces transformers is called *[Attention is all you need](https://arxiv.org/abs/1706.03762)*
+![位置编码](images/pos-embedding.png)> 作者提供的图像
 
-### Positional Encoding/Embedding
+通过位置嵌入我们得到的结果，既嵌入了原始令牌，也嵌入了它在序列中的位置。
 
-The idea of positional encoding is the following. 
-1. When using RNNs, the relative position of the tokens is represented by the number of steps, and thus does not need to be explicitly represented. 
-2. However, once we switch to attention, we need to know the relative positions of tokens within a sequence. 
-3. To get positional encoding, we augment our sequence of tokens with a sequence of token positions in the sequence (i.e., a sequence of numbers 0,1, ...).
-4. We then mix the token position with a token embedding vector. To transform the position (integer) into a vector, we can use different approaches:
+### 多头自注意力
 
-* Trainable embedding, similar to token embedding. This is the approach we consider here. We apply embedding layers on top of both tokens and their positions, resulting in embedding vectors of the same dimensions, which we then add together.
-* Fixed position encoding function, as proposed in the original paper.
+接下来，我们需要捕捉序列中的一些模式。为此，transformers 使用了**自注意力**机制，该机制实质上是将注意力应用于相同的输入和输出序列。应用自注意力使我们能够考虑句子中的**上下文**，并看到哪些单词之间存在关联。例如，它使我们能够看到哪些单词由于指代关系而相关，并且还考虑了上下文：
 
-<img src="images/pos-embedding.png" width="50%"/>
+![](images/CoreferenceResolution.png)> 图片来源于[Google博客](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
-> Image by the author
+在transformers中，我们使用**多头注意力（Multi-Head Attention）**以便让网络具备捕捉多个不同类型依赖关系的能力，例如长期依赖与短期依赖、共指与其他依赖等等。
 
-The result that we get with positional embedding embeds both the original token and its position within a sequence.
+[TensorFlow Notebook](TransformersTF.ipynb)包含了有关transformer层实现的更多细节。
 
-### Multi-Head Self-Attention
+### 编码器-解码器注意力
 
-Next, we need to capture some patterns within our sequence. To do this, transformers use a **self-attention** mechanism, which is essentially attention applied to the same sequence as the input and output. Applying self-attention allows us to take into account **context** within the sentence, and see which words are inter-related. For example, it allows us to see which words are referred to by coreferences, such as *it*, and also take the context into account:
+在transformers中，注意力机制在两个位置上被使用：* 使用自注意力机制来捕捉输入文本中的模式
+* 执行序列翻译 - 它是编码器和解码器之间的注意力层。
 
-![](images/CoreferenceResolution.png)
+编码器-解码器注意力机制与RNN中使用的注意力机制非常相似，如本节开头所述。这个动画图解释了编码器-解码器注意力的作用。
 
-> Image from the [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
+![动画GIF展示了如何在transformer模型中执行评估。](./images/transformer-animated-explanation.gif)
 
-In transformers, we use **Multi-Head Attention** in order to give the network the power to capture several different types of dependencies, eg. long-term vs. short-term word relations, co-reference vs. something else, etc.
+由于每个输入位置都独立映射到每个输出位置，因此transformer可以比RNN更好地并行化，这使得可以构建更大更具表达力的语言模型。每个注意力头都可以用于学习不同单词之间的关系，从而改善下游的自然语言处理任务。## BERT
 
-[TensorFlow Notebook](TransformersTF.ipynb) contains more detains on the implementation of transformer layers.
+**BERT**（双向编码器转换器）是一个非常大的多层Transformer网络，*BERT-base*有12层，*BERT-large*有24层。该模型首先通过无监督训练（预测句子中的掩码词）在大规模文本数据（维基百科+图书）上进行预训练。在预训练过程中，模型获得了丰富的语言理解能力，然后可以通过微调与其他数据集结合使用。这个过程称为**迁移学习**。
 
-### Encoder-Decoder Attention
+![图片来源于http://jalammar.github.io/illustrated-bert/](images/jalammarBERT-language-modeling-masked-lm.png)
 
-In transformers, attention is used in two places:
+> 图片来源：[http://jalammar.github.io/illustrated-bert/](http://jalammar.github.io/illustrated-bert/)
 
-* To capture patterns within the input text using self-attention
-* To perform sequence translation - it is the attention layer between encoder and decoder.
+## ✍️ 练习：转换器继续学习以下的笔记本：
 
-Encoder-decoder attention is very similar to the attention mechanism used in RNNs, as described in the beginning of this section. This animated diagram explains the role of encoder-decoder attention.
+* [使用PyTorch的Transformers](TransformersPyTorch.ipynb)
+* [使用TensorFlow的Transformers](TransformersTF.ipynb)
 
-![Animated GIF showing how the evaluations are performed in transformer models.](./images/transformer-animated-explanation.gif)
+## 结论
 
-Since each input position is mapped independently to each output position, transformers can parallelize better than RNNs, which enables much larger and more expressive language models. Each attention head can be used to learn different relationships between words that improves downstream Natural Language Processing tasks.
+在本课程中，你学习了Transformer和Attention Mechanism，这些都是在NLP工具箱中非常重要的工具。Transformer架构有很多变种，包括BERT、DistilBERT、BigBird、OpenGPT3等等，这些都可以进行微调。[HuggingFace package](https://github.com/huggingface/)提供了一个存储库，可以使用PyTorch和TensorFlow训练许多这些架构。
 
-## BERT
+## 🚀 挑战
 
-**BERT** (Bidirectional Encoder Representations from Transformers) is a very large multi layer transformer network with 12 layers for *BERT-base*, and 24 for *BERT-large*. The model is first pre-trained on a large corpus of text data (WikiPedia + books) using unsupervised training (predicting masked words in a sentence). During pre-training the model absorbs significant levels of language understanding which can then be leveraged with other datasets using fine tuning. This process is called **transfer learning**.
+## [Lecture Quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
 
-![picture from http://jalammar.github.io/illustrated-bert/](images/jalammarBERT-language-modeling-masked-lm.png)
+## 复习与自学
 
-> Image [source](http://jalammar.github.io/illustrated-bert/)
+* [博客文章](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/)，解释了关于变压器的经典论文[Attention is all you need](https://arxiv.org/abs/1706.03762)。
+* [一系列博客文章](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452)关于变压器的详细架构解释。
 
-## ✍️ Exercises: Transformers
-
-Continue your learning in the following notebooks:
-
-* [Transformers in PyTorch](TransformersPyTorch.ipynb)
-* [Transformers in TensorFlow](TransformersTF.ipynb)
-
-## Conclusion
-
-In this lesson you learned about Transformers and Attention Mechanisms, all essential tools in the NLP toolbox. There are many variations of Transformer architectures including BERT, DistilBERT. BigBird, OpenGPT3 and more that can be fine tuned. The [HuggingFace package](https://github.com/huggingface/) provides repository for training many of these architectures with both PyTorch and TensorFlow.
-
-## 🚀 Challenge
-
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
-
-## Review & Self Study
-
-* [Blog post](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/), explaining the classical [Attention is all you need](https://arxiv.org/abs/1706.03762) paper on transformers.
-* [A series of blog posts](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452) on transformers, explaining the architecture in detail.
-
-## [Assignment](assignment.md)
+## [任务](assignment.md)

@@ -1,84 +1,80 @@
-# Recurrent Neural Networks
+# 循环神经网络
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
 
-In previous sections, we have been using rich semantic representations of text and a simple linear classifier on top of the embeddings. What this architecture does is to capture the aggregated meaning of words in a sentence, but it does not take into account the **order** of words, because the aggregation operation on top of embeddings removed this information from the original text. Because these models are unable to model word ordering, they cannot solve more complex or ambiguous tasks such as text generation or question answering.
+在之前的章节中，我们使用了富语义表示的文本和简单的线性分类器来处理这些嵌入。这种架构的作用是捕捉句子中单词的聚合含义，但它并不考虑单词的顺序，因为在嵌入之上的聚合操作将原始文本中的这些信息删除。因为这些模型无法模拟单词的顺序，所以它们无法解决更复杂或含糊的任务，比如文本生成或问题回答。
 
-To capture the meaning of text sequence, we need to use another neural network architecture, which is called a **recurrent neural network**, or RNN. In RNN, we pass our sentence through the network one symbol at a time, and the network produces some **state**, which we then pass to the network again with the next symbol.
+为了捕捉文本序列的含义，我们需要使用另一种神经网络架构，称为**循环神经网络**（Recurrent Neural Network，RNN）。在RNN中，我们逐个符号地将句子传递到网络中，网络会产生一些**状态**，然后我们再将这个状态与下一个符号一起传递给网络。
 
 ![RNN](./images/rnn.png)
 
-> Image by the author
+> 作者提供的图片
 
-Given the input sequence of tokens X<sub>0</sub>,...,X<sub>n</sub>, RNN creates a sequence of neural network blocks, and trains this sequence end-to-end using backpropagation. Each network block takes a pair (X<sub>i</sub>,S<sub>i</sub>) as an input, and produces S<sub>i+1</sub> as a result. The final state S<sub>n</sub> or (output Y<sub>n</sub>) goes into a linear classifier to produce the result. All the network blocks share the same weights, and are trained end-to-end using one backpropagation pass.
+给定输入序列的标记 X<sub>0</sub>，...，X<sub>n</sub>，RNN 创建一系列神经网络块，并使用反向传播算法将此序列端到端地进行训练。每个网络块将一对 (X<sub>i</sub>, S<sub>i</sub>) 作为输入，并产生 S<sub>i+1</sub> 作为结果。最终状态 S<sub>n</sub> 或 (输出 Y<sub>n</sub>) 进入线性分类器生成结果。所有的网络块共享相同的权重，并通过一次反向传播进行端到端的训练。
 
-Because state vectors S<sub>0</sub>,...,S<sub>n</sub> are passed through the network, it is able to learn the sequential dependencies between words. For example, when the word *not* appears somewhere in the sequence, it can learn to negate certain elements within the state vector, resulting in negation.
+由于状态向量 S<sub>0</sub>，...，S<sub>n</sub> 通过网络传递，它能够学习单词之间的顺序依赖关系。例如，当单词“not”在序列中的某个位置出现时，它可以学习对状态向量中的某些元素进行否定，从而产生否定的效果。
 
-> ✅ Since the weights of all RNN blocks on the picture above are shared, the same picture can be represented as one block (on the right) with a recurrent feedback loop, which passes the output state of the network back to the input.
+> ✅ 由于上图中所有RNN块的权重是共享的，同样的图可以表示为一个块（在右侧）带有一个循环反馈回路，将网络的输出状态传递回输入。
 
-## Anatomy of an RNN Cell
+## RNN单元的解剖
 
-Let's see how a simple RNN cell is organized. It accepts the previous state S<sub>i-1</sub> and current symbol X<sub>i</sub> as inputs, and has to produce the output state S<sub>i</sub> (and, sometimes, we are also interested in some other output Y<sub>i</sub>, as in the case with generative networks).
+让我们看看一个简单的RNN单元是如何组织的。它接受前一个状态S<sub>i-1</sub>和当前符号X<sub>i</sub>作为输入，并且必须产生输出状态S<sub>i</sub>（有时，我们还对一些其他输出Y<sub>i</sub>感兴趣，就像在生成网络中一样）。
 
-A simple RNN cell has two weight matrices inside: one transforms an input symbol (let's call it W), and another one transforms an input state (H). In this case the output of the network is calculated as &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), where &sigma; is the activation function and b is additional bias.
+一个简单的RNN单元里面有两个权重矩阵：一个将输入符号进行转换（我们称之为W），另一个将输入状态进行转换（H）。在这种情况下，网络的输出计算公式为&sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b)，其中&sigma;是激活函数，b是额外的偏置。
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN单元解剖图" src="images/rnn-anatomy.png" width="50%"/>
 
-> Image by the author
+> 图片由作者提供
 
-In many cases, input tokens are passed through the embedding layer before entering the RNN to lower the dimensionality. In this case, if the dimension of the input vectors is *emb_size*, and state vector is *hid_size* - the size of W is *emb_size*&times;*hid_size*, and the size of H is *hid_size*&times;*hid_size*.
+在许多情况下，输入标记在进入RNN之前通过嵌入层进行降维。在这种情况下，如果输入向量的维数为*emb_size*，状态向量的大小为*hid_size* - W的大小为*emb_size*&times;*hid_size*，H的大小为*hid_size*&times;*hid_size*。## 长短期记忆（LSTM）
 
-## Long Short Term Memory (LSTM)
+传统循环神经网络（RNN）的一个主要问题是所谓的**梯度消失**问题。因为RNN是通过一次反向传播进行端到端训练的，所以它很难将错误传播到网络的第一层，从而无法学习远距离标记之间的关系。为了避免这个问题，一种方法是引入**显式的状态管理**，使用所谓的**门**。这种类型有两种已知的架构：**长短期记忆**（LSTM）和**门控中继单元**（GRU）。
 
-One of the main problems of classical RNNs is the so-called **vanishing gradients** problem. Because RNNs are trained end-to-end in one backpropagation pass, it has difficulty propagating error to the first layers of the network, and thus the network cannot learn relationships between distant tokens. One of the ways to avoid this problem is to introduce **explicit state management** by using so called **gates**. There are two well-known architectures of this kind: **Long Short Term Memory** (LSTM) and **Gated Relay Unit** (GRU).
+![显示示例长短期记忆单元的图像](./images/long-short-term-memory-cell.svg)
 
-![Image showing an example long short term memory cell](./images/long-short-term-memory-cell.svg)
+> 图像来源待定
 
-> Image source TBD
+LSTM网络的组织方式与RNN类似，但有两个状态从一层传递到下一层：实际状态C和隐藏向量H。在每个单元中，隐藏向量H<sub>i</sub>与输入X<sub>i</sub>连接在一起，通过**门**控制状态C的变化。每个门都是一个具有sigmoid激活的神经网络（输出在[0, 1]范围内），当与状态向量相乘时，可以将其看作是一个位掩码。在上面的图中，有以下门（从左到右）：
+* **忘记门(forget gate)** 接收隐藏向量，并确定我们需要忘记向量C的哪些组成部分，以及需要通过哪些部分。
+* **输入门(input gate)** 从输入向量和隐藏向量中提取一些信息并插入状态中。
+* **输出门(output gate)** 通过带有* tanh *激活的线性层来转换状态，然后使用隐藏向量H<sub>i</sub>选择其一些组成部分来产生新的状态C<sub>i+1</sub>。
 
-The LSTM Network is organized in a manner similar to RNN, but there are two states that are being passed from layer to layer: the actual state C, and the hidden vector H. At each unit, the hidden vector H<sub>i</sub> is concatenated with input X<sub>i</sub>, and they control what happens to the state C via **gates**. Each gate is a neural network with sigmoid activation (output in the range [0,1]), which can be thought of as a bitwise mask when multiplied by the state vector. There are the following gates (from left to right on the picture above):
+状态C的各个组成部分可以被看作是一些可以打开和关闭的标志。例如，当我们在序列中遇到一个名字*Alice*时，我们可能希望假设它是指一个女性角色，并在状态中提高我们有一个女性名词的标志。当我们进一步遇到短语*and Tom*时，我们将提高我们有一个复数名词的标志。因此，通过操作状态，我们可以假设地追踪句子部分的语法属性。
 
-* The **forget gate** takes a hidden vector and determines which components of the vector C we need to forget, and which to pass through.
-* The **input gate** takes some information from the input and hidden vectors and inserts it into state.
-* The **output gate** transforms state via a linear layer with *tanh* activation, then selects some of its components using a hidden vector H<sub>i</sub> to produce a new state C<sub>i+1</sub>.
+> ✅ 了解LSTM内部机制的一个很好的资源是Christopher Olah的这篇优秀文章[Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)。
 
-Components of the state C can be thought of as some flags that can be switched on and off. For example, when we encounter a name *Alice* in the sequence, we may want to assume that it refers to a female character, and raise the flag in the state that we have a female noun in the sentence. When we further encounter phrases *and Tom*, we will raise the flag that we have a plural noun. Thus by manipulating state we can supposedly keep track of the grammatical properties of sentence parts.
+## 双向和多层RNN
 
-> ✅ An excellent resource for understanding the internals of LSTM is this great article [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah.
+我们已经讨论了在一个方向上运行的循环网络，从序列的开始到结尾。这看起来很自然，因为它类似于我们阅读和听听说话的方式。然而，由于在许多实际情况下我们可以随机访问输入序列，所以以两个方向运行循环计算可能是有意义的。这样的网络被称为**双向**RNN。在处理双向网络时，我们需要两个隐藏状态向量，一个用于每个方向。
 
-## Bidirectional and Multilayer RNNs
+一个循环网络，无论是单向的还是双向的，都会捕捉序列中的特定模式，并将它们存储到状态向量中或传递到输出中。与卷积网络一样，我们可以在第一个网络的基础上构建另一个循环层，以捕捉更高级别的模式，并从第一层提取的低级别模式构建。这引导我们进入一个**多层RNN**的概念，它由两个或多个循环网络组成，其中上一层的输出作为下一层的输入传递。
 
-We have discussed recurrent networks that operate in one direction, from beginning of a sequence to the end. It looks natural, because it resembles the way we read and listen to speech. However, since in many practical cases we have random access to the input sequence, it might make sense to run recurrent computation in both directions. Such networks are call **bidirectional** RNNs. When dealing with bidirectional network, we would need two hidden state vectors, one for each direction.
+![图示多层长短时记忆RNN](./images/multi-layer-lstm.jpg)
 
-A Recurrent network, either one-directional or bidirectional, captures certain patterns within a sequence, and can store them into a state vector or pass into output. As with convolutional networks, we can build another recurrent layer on top of the first one to capture higher level patterns and build from low-level patterns extracted by the first layer. This leads us to the notion of a **multi-layer RNN** which consists of two or more recurrent networks, where the output of the previous layer is passed to the next layer as input.
+*图片来源于[Fernando López的这篇精彩文章](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3)*
 
-![Image showing a Multilayer long-short-term-memory- RNN](./images/multi-layer-lstm.jpg)
+## ✍️ 练习：
 
-*Picture from [this wonderful post](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) by Fernando López*
+继续在以下笔记本中学习：
 
-## ✍️ Exercises: Embeddings
+* [使用PyTorch进行RNN](RNNPyTorch.ipynb)
+* [使用TensorFlow进行RNN](RNNTF.ipynb)
 
-Continue your learning in the following notebooks:
+## 结论
 
-* [RNNs with PyTorch](RNNPyTorch.ipynb)
-* [RNNs with TensorFlow](RNNTF.ipynb)
+在本单元中，我们看到RNN可以用于序列分类，但实际上，它们可以处理更多的任务，如文本生成，机器翻译等。我们将在下一单元中考虑这些任务。
 
-## Conclusion
+## 🚀 挑战
 
-In this unit, we have seen that RNNs can be used for sequence classification, but in fact, they can handle many more tasks, such as text generation, machine translation, and more. We will consider those tasks in the next unit.
-
-## 🚀 Challenge
-
-Read through some literature about LSTMs and consider their applications:
+阅读一些关于LSTM的文献，考虑其应用：
 
 - [Grid Long Short-Term Memory](https://arxiv.org/pdf/1507.01526v1.pdf)
-- [Show, Attend and Tell: Neural Image Caption
-Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
+- [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
 
-## Review & Self Study
+## 复习和自学
 
-- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah.
+- [理解LSTM网络](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) 作者：Christopher Olah。
 
-## [Assignment: Notebooks](assignment.md)
+## [作业：笔记本](assignment.md)

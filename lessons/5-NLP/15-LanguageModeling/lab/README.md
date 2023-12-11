@@ -1,14 +1,14 @@
-# Training Skip-Gram Model
+# 训练Skip-Gram模型
 
-Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+来自[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)的实验任务。
 
-## Task
+## 任务
 
-In this lab, you we challenge you to train Word2Vec model using Skip-Gram technique. Train a network with embedding to predict neighboring words in $N$-tokens-wide Skip-Gram window. You can use the [code from this lesson](../CBoW-TF.ipynb), and slightly modify it.
+在这个实验中，我们要求您使用Skip-Gram技术训练Word2Vec模型。训练一个具有嵌入的神经网络，用于预测$N$-tokens-wide的Skip-Gram窗口中的相邻单词。您可以使用[本课程的代码](../CBoW-TF.ipynb)，并进行一些微小的修改。
 
-## The Dataset
+## 数据集
 
-You are welcome to use any book. You can find a lot of free texts at [Project Gutenberg](https://www.gutenberg.org/), for example, here is a direct link to [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt)) by Lewis Carroll. Or, you can use Shakespeare's plays, which you can get using the following code:
+您可以随意选择任何一本书。在[古腾堡计划](https://www.gutenberg.org/)上可以找到很多免费的文本，例如，这是[刘易斯·卡罗尔](https://www.gutenberg.org/files/11/11-0.txt)的《爱丽丝梦游仙境》的直接链接。或者，您可以使用莎士比亚的戏剧作品，可以使用以下代码获取：
 
 ```python
 path_to_file = tf.keras.utils.get_file(
@@ -17,11 +17,10 @@ path_to_file = tf.keras.utils.get_file(
 text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 ```
 
-## Explore!
+## 开始探索吧！
 
-If you have time and want to get deeper into the subject, try to explore several things:
+如果你有时间并且想更深入地了解这个主题，可以尝试探索以下几个方面：
 
-* How does embedding size affects the results?
-* How does different text styles affect the result?
-* Take several very different types of words and their synonyms, obtain their vector representations, apply PCA to reduce dimensions to 2, and plot them in 2D space. Do you see any patterns?
- 
+* 嵌入大小如何影响结果？
+* 不同的文本风格对结果有何影响？
+* 拿取几个非常不同类型的单词及其同义词，获取其向量表示，应用PCA算法将维度降低为2，并在二维空间中绘制它们。你能看到任何模式吗？
