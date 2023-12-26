@@ -68,7 +68,7 @@
 
 ## 复习与自学
 
-反向传播是人工智能和机器学习中常用的算法，值得更详细地学习。请参考[维基百科](https://wikipedia.org/wiki/Backpropagation)。
+反向传播是人工智能和机器学习中常用的算法，值得更详细地学习。请参考[维基百科](https://zh.wikipedia.org/wiki/Backpropagation)。
 ## [实验](../lab/README.zh.md)
 
 在这个实验中，你被要求使用你在本课中构建的框架来解决MNIST手写数字分类问题。
