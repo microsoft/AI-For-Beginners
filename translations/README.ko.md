@@ -13,7 +13,7 @@
 <!-- # Artificial Intelligence for Beginners - A Curriculum -->
 # 초보자를 위한 인공지능 - 교육과정
 
-|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
+|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](/lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
