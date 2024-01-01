@@ -12,7 +12,7 @@
 
 # A人工智能入门 - 课程大纲
 
-|![ 手记由[(@girlie_mac)](https://twitter.com/girlie_mac) 制作](./lessons/sketchnotes/ai-overview.png)|
+|![ 手记由[(@girlie_mac)](https://twitter.com/girlie_mac) 制作](../lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | 初学者的人工智能 - _手记由[@girlie_mac](https://twitter.com/girlie_mac) 制作_ |
 
