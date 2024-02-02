@@ -16,7 +16,7 @@
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about **Artificial Intelligence**. 
+Explore the world of **Artificial Intelligence** (AI) with Microsoft's 12-week, 24-lesson curriculum! Dive into Symbolic AI, Neural Networks, Computer Vision, Natural Language Processing, and more. Hands-on lessons, quizzes, and labs enhance your learning. Perfect for beginners, this comprehensive guide, designed by experts, covers TensorFlow, PyTorch, and ethical AI principles. Start your AI journey today!"
 
 In this curriculum, you will learn:
 
@@ -35,6 +35,21 @@ What we will not cover in this curriculum:
 * **Deep Mathematics** behind deep learning. For this, we would recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, which is also available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
 For a gentle introduction to *AI in the Cloud* topics you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-cacaste) Learning Path.
+
+
+## Announcement - New Curriculum on Generative AI was just released!
+
+We just released a 12 lesson curriculum on generative AI. Come learn things like:
+
+- prompting and prompt engineering
+- text and image app generation
+- search apps
+
+As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
+
+Check it out:
+
+> https://aka.ms/genai-beginners
 
 ---
 # Content
@@ -171,7 +186,11 @@ Would you like to contribute a translation? Please read our [translation guideli
 
 Our team produces other curricula! Check out:
 
+- [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
+- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
