@@ -4,7 +4,7 @@ matplotlib
 nltk==3.5
 numpy==1.22.0
 opencv-python==4.5.1.48
-Pillow==7.1.2
+Pillow==10.2.0
 scikit-learn
 scipy
 torch==1.8.1
@@ -12,4 +12,4 @@ torchaudio==0.8.1
 torchinfo==0.0.8
 torchtext==0.9.1
 torchvision==0.9.1
-transformers==4.30.0
+transformers==4.37.0
