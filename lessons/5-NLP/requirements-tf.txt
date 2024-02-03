@@ -4,10 +4,10 @@ matplotlib
 nltk==3.5
 numpy==1.22.0
 opencv-python==4.5.1.48
-Pillow==7.1.2
+Pillow==10.2.0
 scikit-learn
 scipy
 TensorFlow
 TensorFlow_datasets
 TensorFlow_text
-transformers==4.30.0
+transformers==4.37.0
