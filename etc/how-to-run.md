@@ -28,6 +28,7 @@ Probably the best way to use the curriculum is to open it in [Visual Studio Code
 You can also use Jupyter environment right from the browser on your own computer. Actually, both classical Jupyter and Jupyer Hub provide quite convenient development environment with auto-completion, code highlighting, etc.
 
 To start Jupyter locally, go to the directory of the course, and execute:
+
 ```bash
 jupyter notebook
 ```
