@@ -144,7 +144,7 @@ However, if you would like to take the course as a self-study project, we sugges
 
 > For further study, we recommend following these [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) modules and learning paths.
 
-**Teachers**, we have [included some suggestions](/etc/for-teachers.md) on how to use this curriculum.
+**Teachers**, we have [included some suggestions](./etc/for-teachers.md) on how to use this curriculum.
 
 ---
 
