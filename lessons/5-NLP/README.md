@@ -39,11 +39,13 @@ pip install -r requirements-tf.txt
 
 ## GPU Warning
 
-In this section, in some of the examples we will be training quite large models. It is advisable to run notebooks on GPU-enabled computer to minimize waiting time.
-
-When running on GPU, you may experience situations when you run out of GPU memory. During training, the amount of GPU memory consumed depends on many factors, including the minibatch size. If you experience any memory problems - you may try to minimize the minibatch size in the code.
-
-Also, some older versions of TensorFlow do not release GPU memory correctly if you are training multiple models in one Python kernel. In order to use GPU memory cautiously, you may set TensorFlow option to grow GPU memory allocation only when required. You would need to include the following code in your notebooks:
+In this section, in some of the examples we will be training quite large models.
+* **Use a GPU-Enabled Computer**: It's advisable to run your notebooks on a GPU-enabled computer to reduce waiting times when working with large models.
+* **GPU Memory Constraints**: Running on a GPU may lead to situations where you run out of GPU memory, especially when training large models.
+* **GPU Memory Consumption**: The amount of GPU memory consumed during training depends on various factors, including the minibatch size.
+* **Minimize Minibatch Size**: If you encounter GPU memory issues, consider reducing the minibatch size in your code as a potential solution.
+* **TensorFlow GPU Memory Release**: Older versions of TensorFlow may not release GPU memory correctly when training multiple models within one Python kernel. To manage GPU memory usage effectively, you can configure TensorFlow to allocate GPU memory only as needed.
+* **Code Inclusion**: To set TensorFlow to grow GPU memory allocation only when required, include the following code in your notebooks:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
