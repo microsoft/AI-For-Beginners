@@ -2,7 +2,7 @@
 
 ![Summary of Introduction of AI content in a doodle](../../sketchnotes/ai-intro.png)
 
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
+> Sketch note by [Tomomi Imura](https://twitter.com/girlie_mac)
 
 ## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
 
