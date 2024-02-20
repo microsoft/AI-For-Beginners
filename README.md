@@ -22,7 +22,7 @@ In this curriculum, you will learn:
 
 * Different approaches to Artificial Intelligence, including the "good old" symbolic approach with **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
 * **Neural Networks** and **Deep Learning**, which are at the core of modern AI. We will illustrate the concepts behind these important topics using code in two of the most popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).
-* **Neural Architectures** for working with images and text. We will cover recent models but may lack a little bit on the state-of-the-art.
+* **Neural Architectures** for working with images and text. We will cover recent models but may be a bit lacking in the state-of-the-art.
 * Less popular AI approaches, such as **Genetic Algorithms** and **Multi-Agent Systems**.
 
 What we will not cover in this curriculum:
@@ -37,15 +37,15 @@ What we will not cover in this curriculum:
 For a gentle introduction to *AI in the Cloud* topics you may consider taking the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-cacaste) Learning Path.
 
 
-## Announcement - New Curriculum on Generative AI was just released!
+## Announcement - A New Curriculum on Generative AI was just released!
 
-We just released a 12 lesson curriculum on generative AI. Come learn things like:
+We just released a 12-lesson curriculum on generative AI. Learn things like:
 
 - prompting and prompt engineering
 - text and image app generation
 - search apps
 
-As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
+As usual, there's a lesson, assignments to complete, knowledge checks, and challenges.
 
 Check it out:
 
@@ -114,7 +114,7 @@ Check it out:
 
 **[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebooks (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem. 
+Each lesson contains some pre-reading material (linked as **Text** above), and some executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebook (either PyTorch or TensorFlow). There are also **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem. 
 
 Some sections also contain links to **MS Learn** modules that cover related topics. Microsoft Learn provides a convenient GPU-enabled learning environment, although in terms of content you can expect this curriculum to go a bit deeper.
 
@@ -122,12 +122,12 @@ Some sections also contain links to **MS Learn** modules that cover related topi
 
 Get started with the following resources:
 
-- [Student Hub page](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
+- [Student Hub page](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) On this page, you will find beginner resources, Student packs, and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
 - [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Join a global community of student ambassadors, this could be your way into Microsoft.
 
 # Getting Started
 
-**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebook - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Students**, there are a couple of ways to use the curriculum. First of all, you can just read the text and look through the code directly on GitHub. If you want to run the code in any of the notebooks - [read our instructions](./etc/how-to-run.md), and find more advice on how to do it [in this blog post](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 > **Note**: [Instructions on how to run the code in this curriculum](./etc/how-to-run.md)
 
@@ -168,11 +168,11 @@ However, if you would like to take the course as a self-study project, we sugges
 
 We have chosen two pedagogical tenets while building this curriculum: ensuring that it is hands-on **project-based** and that it includes **frequent quizzes**.
 
-By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+By ensuring that the content aligns with projects, the process is made more engaging for students and retention of concepts will be augmented. In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12-week cycle.
 
 > Find our [Code of Conduct](etc/CODE_OF_CONDUCT.md), [Contributing](etc/CONTRIBUTING.md), and [Translation](etc/TRANSLATIONS.md) guidelines. Find our [Support Documentation here](etc/SUPPORT.md) and [security information here](etc/SECURITY.md). We welcome your constructive feedback!
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `etc/quiz-app` folder.
+> **A note about quizzes**: All quizzes are contained [in this app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), for 50 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instructions in the `etc/quiz-app` folder.
 
 ## Offline access
 
