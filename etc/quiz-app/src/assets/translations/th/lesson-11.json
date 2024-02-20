@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 111,
+        "title": "Object Detection: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "โครงข่ายประสาทเทียม (Neural networks) ใช้สำหรับจำแนกข้อมูลภาพเท่านั้น",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ในการตรวจจับวัตถุ (object detection) นั้นประกอบไปด้วย class ของ object และสิ่งใดต่อไปนี้",
+            "answerOptions": [
+              {
+                "answerText": "shape",
+                "isCorrect": false
+              },
+              {
+                "answerText": "location",
+                "isCorrect": true
+              },
+              {
+                "answerText": "type",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "How many objects can an object detection model detect?",
+            "answerOptions": [
+              {
+                "answerText": "one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "two",
+                "isCorrect": false
+              },
+              {
+                "answerText": "any number",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "title": "Object Detection: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "โมเดลตรวจจับวัตถุ (Object detection) ได้เตรียมสิ่งเหล่านี้ไว้ให้แล้ว",
+            "answerOptions": [
+              {
+                "answerText": "object class",
+                "isCorrect": false
+              },
+              {
+                "answerText": "bounding box",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both class and bounding box",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "โมเดลตรวจจับวัตถุ object detection แบบใดทำงานได้อย่างรวดเร็ว",
+            "answerOptions": [
+              {
+                "answerText": "one-pass models",
+                "isCorrect": true
+              },
+              {
+                "answerText": "region proposal networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Fast R-CNN",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เมตริกใดที่ใช้กำหนดการ align ของ bounding boxes",
+            "answerOptions": [
+              {
+                "answerText": "accuracy",
+                "isCorrect": false
+              },
+              {
+                "answerText": "precision",
+                "isCorrect": false
+              },
+              {
+                "answerText": "IoU",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

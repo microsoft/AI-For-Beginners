@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 117,
+        "title": "Generative networks: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": " เราสามารถใช้ RNNs สำหรับงานที่เกี่ยวกับการสร้างข้อมูลได้",
+            "answerOptions": [
+              {
+                "answerText": "yes",
+                "isCorrect": true
+              },
+              {
+                "answerText": "no",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "สิ่งใดคือเครือข่ายประสาทแบบดั้งเดิมที่มีหนึ่งอินพุตและหนึ่งเอาต์พุต (one input and one output)",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sequence-to-sequence",
+                "isCorrect": false
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "RNN สร้างคำข้อความโดยการสร้างค่า output token สำหรับ input token ในแต่ละอัน",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "title": "Generative networks: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "Output encoder แปลง hidden state ให้เป็นเอาท์พุทแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "one-hot-encoded",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sequence",
+                "isCorrect": false
+              },
+              {
+                "answerText": "number",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "การเลือกตัวอักษรที่มีค่าความเป็นไปได้สูงสามารถสร้างคำที่มีความหมายได้เสมอ",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              },
+              {
+                "answerText": "maybe",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Many-to-many หมายถึงอะไร",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "sequence-to-sequence",
+                "isCorrect": true
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

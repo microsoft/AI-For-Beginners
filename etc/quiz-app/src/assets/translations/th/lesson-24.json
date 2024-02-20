@@ -1,0 +1,136 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 124,
+        "title": "Ethical และ Responsible AI: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "ทำไมเราต้องพิจารณาไตร่ตรองเรื่องจริยธรรมของปัญญาประดิษฐ์ (Ethical AI)",
+            "answerOptions": [
+              {
+                "answerText": "เพราะ AI เป็นเครื่องมือที่มีประสิทธิภาพการทำงานสูงและสามารถเป็นอันตรายได้หากใช้ไม่ถูกที่ถูกทาง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "เพื่อให้แน่ใจว่า AI models ไม่ได้เลือกปฎิบัติผู้คนที่มีลักษณะใดลักษณะหนึ่ง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ถูกทั้งสองข้อ",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดคือตัวอย่างของการทำงานของ interpretable AI?",
+            "answerOptions": [
+              {
+                "answerText": "Expert system",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Image classifier",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "การใช้ AI ทางการแพทย์ถือว่าไร้จริยธรรม",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 224,
+        "title": "Ethical และ Responsible AI: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "ปัจจัยใดที่ทำให้ AI model เลือกปฏิบัติต่อลักษณะใดลักษณะหนึ่ง",
+            "answerOptions": [
+              {
+                "answerText": "เพราะเอไอกลายเป็นสิ่งที่ไม่เป็นมิตร",
+                "isCorrect": false
+              },
+              {
+                "answerText": "เพราะข้อมูลขาดสมดุล",
+                "isCorrect": true
+              },
+              {
+                "answerText": "เพราะผู้พัฒนาต้องการใช้เป็นแบบนั้น",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดไม่ถือว่าเป็นหลักการของ Responsible AI?",
+            "answerOptions": [
+              {
+                "answerText": "Transparency",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Fairness",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Cleverness",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ขอบเขตความรับผิดชอบของระบบ AI system คืออะไร",
+            "answerOptions": [
+              {
+                "answerText": "ความรับผิดชอบของระบบ AI หมายถึงการมีผู้ที่เกี่ยวข้องในการตัดสินใจและมีความรับผิดชอบในการดำเนินการ",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ระบบ AI system ควรรับผิดชอบต่อการกระทำของตัวเอง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ผู้พัฒนาระบบ AI system ควรรับผิดชอบต่อการกระทำของ AI",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Model fairness หมายถึงอะไร",
+            "answerOptions": [
+              {
+                "answerText": "การตีความ (Interpretability)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "อคติ (Biases)",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ความรับผิดชอบ (Accountability)",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

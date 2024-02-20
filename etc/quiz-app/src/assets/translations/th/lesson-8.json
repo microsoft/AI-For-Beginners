@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 108,
+        "title": "Pre-trained Networks and Transfer Learning: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "วิธีการเรียนรู้แบบ Transfer learning ใข้โมเดลที่ยังไม่ได้เทรนในการจำแนก (Classification)",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดต่อไปนี้ไม่ใช่เทตนิคของการ Normalization",
+            "answerOptions": [
+              {
+                "answerText": "height normalization",
+                "isCorrect": true
+              },
+              {
+                "answerText": "weight normalization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "layer normalization",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ในการทำ Deep Learning เราเลือกใช้ Stochastic Gradient Descent(SGD) เพราะ gradient descent แบบตลาสสิกค่อนข้างจะ ____",
+            "answerOptions": [
+              {
+                "answerText": "fast",
+                "isCorrect": false
+              },
+              {
+                "answerText": "slow",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "title": "Pre-trained Networks and Transfer Learning: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "Dropout layers มีทำงานเหมือนเทคนิคใด",
+            "answerOptions": [
+              {
+                "answerText": "gradient boosting",
+                "isCorrect": false
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "regularization",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราสามารถตรึงค่าน้ำหนักของ convolutional feature extractor ได้อย่างไร",
+            "answerOptions": [
+              {
+                "answerText": "ตั้งค่า `requires_grad` property ให้เป็น `False`",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ตั้งค่า `trainable` property ให้เป็น `False`",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง a และ b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Batch normalization คือการนำค่าที่ไหลเข้าสู่ ____ มาปรับให้ถูกต้อง",
+            "answerOptions": [
+              {
+                "answerText": "algorithms",
+                "isCorrect": false
+              },
+              {
+                "answerText": "batches",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neural network",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

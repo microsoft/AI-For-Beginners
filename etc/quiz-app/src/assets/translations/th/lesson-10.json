@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 110,
+        "title": "Generative Adversarial Networks: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "Generators รับเวกเตอร์เข้ามาเพื่อสร้างอะไร",
+            "answerOptions": [
+              {
+                "answerText": "videos",
+                "isCorrect": false
+              },
+              {
+                "answerText": "image",
+                "isCorrect": true
+              },
+              {
+                "answerText": "gif",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "GANs ย่อมาจากคำว่าอะไร",
+            "answerOptions": [
+              {
+                "answerText": "General adversarial networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative advisor networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative adversarial networks",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "GAN ใช้โครงข่ายประสาทเทียม (Neural Networks) ทั้งหมดกี่ตัว",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "title": "Generative Adversarial Networks: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "เราสามารถใช้ Batch normalization และ BatchNorm1D เพื่อทำให้การเทรนนิ่งคงที่",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Deep Convolutional GAN ใช้ convolutional layers ทำอะไร",
+            "answerOptions": [
+              {
+                "answerText": "generator, discriminator",
+                "isCorrect": true
+              },
+              {
+                "answerText": "CNN, generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "training, testing",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "GAN training มีข้อเสียอะไรบ้าง",
+            "answerOptions": [
+              {
+                "answerText": "มีความไวต่อ hyperparameters",
+                "isCorrect": false
+              },
+              {
+                "answerText": "คอยปรับสมดุลระหว่าง generator และ discriminator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้งหมดที่กล่าวมา",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

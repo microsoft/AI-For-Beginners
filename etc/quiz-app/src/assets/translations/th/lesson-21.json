@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 121,
+        "title": "Genetic Algorithms: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "Genetic Algorithms ทำงานบนหลักการของอะไร",
+            "answerOptions": [
+              {
+                "answerText": "mutations",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Selection",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง a และ b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "เราสามารถใช้วิธี Crossover ในการรวบรวมวิธีการแก้ปัญหาทั้งสองรูปแบบเข้าด้วยกันเพื่อให้ได้ Valid solutions ",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Valid solutions สำหรับ genetic algorithm จะถูกนำเสนอในรูปแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "genes",
+                "isCorrect": true
+              },
+              {
+                "answerText": "neurons",
+                "isCorrect": false
+              },
+              {
+                "answerText": "cells",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 221,
+        "title": "Genetic Algorithms: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "Genetic Algorithms ใช้แก้ปัญหาด้านใด",
+            "answerOptions": [
+              {
+                "answerText": "Schedule optimization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Optimal packing",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both of a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "สิ่งแรกที่ต้องทำในกระบวนการ genetic algorithm คือการคัดเลือก genes สองตัวแบบสุ่ม",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "ระหว่างขั้นตอนของ Crossover operation ตัว algorithm จะสุ่มเลือก genes ทั้งหมดกี่ตัว",
+            "answerOptions": [
+              {
+                "answerText": "3",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

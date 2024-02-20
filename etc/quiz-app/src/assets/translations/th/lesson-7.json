@@ -1,0 +1,111 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 107,
+        "title": "Convolutional Neural Networks: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "สิ่งใดที่ใช้ในการจำแนกรูปแบบ(Patterns) ของข้อมูลภาพ(Images)",
+            "answerOptions": [
+              {
+                "answerText": "convolutional filters",
+                "isCorrect": true
+              },
+              {
+                "answerText": "extractor",
+                "isCorrect": false
+              },
+              {
+                "answerText": "filters",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ข้อใดไม่ใช่ CNN Architecture",
+            "answerOptions": [
+              {
+                "answerText": "ResNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "MobileNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "TensorFlow",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "โดยส่วนใหญ่แล้วเราจะใช้งาน CNN ในการทำงานด้าน Computer vision.",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "title": "Convolutional Neural Networks: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "Pooling layer ที่ใช้ในการ \"scale down\" ของขนาดรูปภาพคือ",
+            "answerOptions": [
+              {
+                "answerText": "average pooling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "max pooling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง a และ b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Convolutional networks ครอบคลุมการทำงานในการแบบจำลองได้ทั่วถึงและดีกว่า",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เราจะต้องแปลงข้อมูลรูปภาพเป็น Tensors ก่อนที่จะเทรนโครงข่ายประสาท",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

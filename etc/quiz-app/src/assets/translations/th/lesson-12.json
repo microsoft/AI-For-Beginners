@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 112,
+        "title": "Segmentation: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "Segmentation มีอัลกอริทึมทั้งหมดเท่าไหร่",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Segmentation คือการทำงานของอะไร",
+            "answerOptions": [
+              {
+                "answerText": "computer vision",
+                "isCorrect": true
+              },
+              {
+                "answerText": "natural language processing",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neural networks",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "โครงข่ายของ Segmentation ประกอบไปด้วยสิ่งใดบ้างและส่วนประกอบใด",
+            "answerOptions": [
+              {
+                "answerText": "classifier, divider",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder, decoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "generator, discriminator",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "title": "Segmentation: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "____ แยกลักษณะสำคัญต่างๆออกจากข้อมูลภาพที่นำออกมา",
+            "answerOptions": [
+              {
+                "answerText": "decoder",
+                "isCorrect": false
+              },
+              {
+                "answerText": "generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "____ แปลงข้อมูลภาพที่รับเข้ามาให้เป็นข้อมูลภาพแบบ mask image",
+            "answerOptions": [
+              {
+                "answerText": "decoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "การทำงานของ SegNet ขึ้นอยู่กับ ____ในการเทรนข้อมูลแบบ multi-layered network",
+            "answerOptions": [
+              {
+                "answerText": "batch normalization",
+                "isCorrect": true
+              },
+              {
+                "answerText": "height normalization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "weight normalization",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

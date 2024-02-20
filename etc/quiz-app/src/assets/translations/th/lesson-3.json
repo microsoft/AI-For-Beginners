@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 103,
+        "title": "โครงข่ายประสาทเทียมเบื้องต้น (Neural Networks) - Perceptron: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "ลักษณะของโครงข่ายประสาทเทียมในช่วงแรกๆคืออะไร",
+            "answerOptions": [
+              {
+                "answerText": "ต้องปรับระดับน้ำหนัก",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ข้อมูลขนาดใหญ่",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การให้เหตุผลแบบพิเศษ (special reasoning)",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ระบบประสาทแบบปกติ (simple neuron)เรียกว่า 'threshold logic unit'",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": " Perceptron คือโมเดลรูปแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "multi-class classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "clustering",
+                "isCorrect": false
+              },
+              {
+                "answerText": "binary classification",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "title": "โครงข่ายประสาทเทียมเบื้องต้น (Neural Networks) - Perceptron: แบบทดสอหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "ก่อนที่จะเทรนโมเดลแบบ Perceptron น้ำหนักของเวกเตอร์จะต้องส่งผลให้เกิด ___ให้น้อยที่สุด",
+            "answerOptions": [
+              {
+                "answerText": "ขนาด (Sizes)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ข้อผิดพลาด (Errors)",
+                "isCorrect": true
+              },
+              {
+                "answerText": "โหนด (Nodes)",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "สามารถใช้ Gradient Descent ในการลดค่าน้ำหนักของฟังก์ชัน",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "จะมีการอัพเดทของ ___ ในแต่ละขั้นตอน ระหว่างที่อัลกอรึทึม การเคลื่อนลงตามความชัน (Gradient descent)ทำงาน",
+            "answerOptions": [
+              {
+                "answerText": "อัตราการเรียนรู้ (Learning Rate)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "น้ำหนัก (Weights)",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ความชัน (Gradient)",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

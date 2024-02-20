@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 101,
+        "title": "AI เบื้องต้น: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "บุคคลใดถือว่าเป็นวิศวกรคนสำคัญด้าน proto-computer แห่งศตวรรษที่ 19",
+            "answerOptions": [
+              {
+                "answerText": "Charles Barkley",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Charles Babbage",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Charles Darwin",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ระบบ Weak AI ถูกออกแบบมาเพื่อการใช้งานหลายๆด้าน",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Chat bots นับว่าเป็นหนึ่งในตัวอย่างที่สำคัญของระบบอัจฉริยะ",
+            "answerOptions": [
+              {
+                "answerText": "ไม่จริง เพราะแชทบอทถูกออกแบบมาในรูปแบบให้ทำงานตามคำสั่ง",
+                "isCorrect": false
+              },
+              {
+                "answerText": "จริง เพราะปกติแล้วนับได้ว่าแชทบอทฉลาดมาก",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ไม่จริง แต่ว่าแชทบอทเริ่มมีการทำงานที่ซับซ้อนและสามารถผ่านแบบทดสอบของ",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "title": "AI เบื้องต้น : แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "วิธีการให้เหตุผลแบบ top-down แบบใดที่นับว่า เป็นรูปแบบการทำงานของ AI is a model of reasoning called",
+            "answerOptions": [
+              {
+                "answerText": "strategic reasoning",
+                "isCorrect": false
+              },
+              {
+                "answerText": "symbolic reasoning",
+                "isCorrect": true
+              },
+              {
+                "answerText": "synergistic reasoning",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "วิธีการให้เหตุผลแบบbottom-up ของ AI ตั้งอยู่บนพื้นฐานของโครงข่ายประสาทเทียม (Neural networks)",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ยุค AI Winter ได้เกิดขึ้นในช่วง",
+            "answerOptions": [
+              {
+                "answerText": "1950s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1960s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1970s",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

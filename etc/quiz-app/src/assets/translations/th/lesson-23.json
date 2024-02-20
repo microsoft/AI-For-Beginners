@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 123,
+        "title": "Multi-Agent Modeling: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "เราสามารถทำความเข้าใจกับพฤติกรรมที่ซับซ้อนของระบบได้โดยการใช้โมเดล Behavior of simple agents",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "หลักการการเปลี่ยนผ่านของ metasystem transition จะอยู่ในรูปแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "Evolutionary Cybernetics",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Emergentism",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ถูกทั้งสองข้อ",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Multi-Agent ถือกำเนิดขึ้นเมื่อใด",
+            "answerOptions": [
+              {
+                "answerText": "1970s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1980s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1990s",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 223,
+        "title": "Multi-Agent Modeling: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "An agent is:",
+            "answerOptions": [
+              {
+                "answerText": "สิ่งที่อาศัยอยู่โดดเดี่ยว",
+                "isCorrect": false
+              },
+              {
+                "answerText": "สิ่งที่อาศัยอยู่ในสิงแวดล้อม",
+                "isCorrect": true
+              },
+              {
+                "answerText": "สิ่งที่มีสติปัญญา",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "โดยปกติแล้ว Reactive agents จะมีพฤติกรรมแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "พฤติกรรมแบบ simple request-response",
+                "isCorrect": true
+              },
+              {
+                "answerText": "พฤติกรรมที่ซับซ้อน",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ไม่มีการแสดงพฤติกรรมใดๆ",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "เราใช้ Multi-agent systems ในงานแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "สร้างวิดีโอและ systems modeling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "games และ automations",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ถูกทั้งสองข้อ",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

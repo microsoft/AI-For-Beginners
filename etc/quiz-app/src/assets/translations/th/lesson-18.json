@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 118,
+        "title": "Transformers: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "กลไก Attention mechanism ช่วยสรรหาการ_____ ที่ส่งผลกระทบให้เวกเตอร์ข้อมูลแบบ inout เข้าสู่การทำนายเอาต์พุตของ RNN",
+            "answerOptions": [
+              {
+                "answerText": "weighting",
+                "isCorrect": true
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "testing",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "BERT ย่อมาจากอะไร",
+            "answerOptions": [
+              {
+                "answerText": "Bidirectional Encoded Representations From Transformers",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Bidirectional Encoder Representations From Transformers",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Bidirectional Encoder Representatives of Transformers",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "ในการถอดรหัสแบบ positional encoding ตัว relative position ของ Token จะถูกนำเสนอในแต่ละขั้นตอน",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "title": "Transformers: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "ในระหว่างการเทรนข้อมูล Positional embedding ทำสิ่งใดต่อไปนี้กับ  original token และตำแหน่งของ original token",
+            "answerOptions": [
+              {
+                "answerText": "แยก (separates)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "เปรียบเทียบ (compares)",
+                "isCorrect": false
+              },
+              {
+                "answerText": "การ embeds",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Multi-Head Attention ใช้ใน Transformers เพื่อให้เครือข่ายมีความสามารถในการจับกลุ่มของความสัมพันธ์ (dependencies) ลักษณะใด",
+            "answerOptions": [
+              {
+                "answerText": "ลักษณะต่างกัน",
+                "isCorrect": true
+              },
+              {
+                "answerText": "ลักษณะแบบเดียวกัน",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ไม่ใช่ทุกข้อที่กล่าวมา",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "จำนวนinstances ที่ใช้ใน transformers attention มีเท่าใด",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

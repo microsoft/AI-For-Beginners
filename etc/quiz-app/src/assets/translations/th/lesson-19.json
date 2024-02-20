@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI เบื้องต้น: แบบทดสอบ",
+    "complete": "เก่งมาก! คุณทำแบบทดสอบได้ครบทุกข้อ!",
+    "error": "แย่จัง ลองทำใหม่อีกรอบนะ",
+    "quizzes": [
+      {
+        "id": 119,
+        "title": "Named Entity Recognition: แบบทดสอบก่อนเรียน",
+        "quiz": [
+          {
+            "questionText": "NER ย่อมาจากอะไร",
+            "answerOptions": [
+              {
+                "answerText": "Nearest Estimated Region",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Nearest Entity Region",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Named Entity Recognition",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Entity ประกอบด้วย token หนึ่งตัวเสมอ",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "สิ่งจำเป็นสำหรับการเทรน NER model คืออะไร",
+            "answerOptions": [
+              {
+                "answerText": "Labeled dataset",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Any natural text",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Translated texts in two languages",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 219,
+        "title": "Named Entity Recognition: แบบทดสอบหลังเรียน",
+        "quiz": [
+          {
+            "questionText": "NER model คือโมเดลสำหรับการทำงานรูปแบบใดโดยเฉพาะ",
+            "answerOptions": [
+              {
+                "answerText": "text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "token classification",
+                "isCorrect": true
+              },
+              {
+                "answerText": "text regression",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "โครงข่ายประสาทเทียม(neural network)แบบใดที่นำมาใช้ใน NER?",
+            "answerOptions": [
+              {
+                "answerText": "RNNs",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Transformers",
+                "isCorrect": false
+              },
+              {
+                "answerText": "ทั้ง RNNs และ Transformers",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "NER model เป็นตัวอย่างของสถาปัตยกรรมโครงข่ายรูปแบบใด",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              },
+              {
+                "answerText": "many-to-many",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
