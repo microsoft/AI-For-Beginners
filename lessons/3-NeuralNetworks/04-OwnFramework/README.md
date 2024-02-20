@@ -29,7 +29,7 @@ In the definition of *f* above, *w* and *b* are called **parameters** &theta;=‚ü
 
 ## Gradient Descent Optimization
 
-There is a well-known method of function optimization called **gradient descent**. The idea is that we can compute a derivative (in multi-dimensional case call **gradient**) of loss function with respect to parameters, and vary parameters in such a way that the error would decrease. This can be formalized as follows:
+There is a well-known method of function optimization called **gradient descent**. The idea is that we can compute a derivative (in multi-dimensional case called **gradient**) of loss function with respect to parameters, and vary parameters in such a way that the error would decrease. This can be formalized as follows:
 
 * Initialize parameters by some random values w<sup>(0)</sup>, b<sup>(0)</sup>
 * Repeat the following step many times:
