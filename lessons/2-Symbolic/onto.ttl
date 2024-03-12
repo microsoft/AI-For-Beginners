@@ -1,0 +1,166 @@
+fhkb:i0 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i2 ;
+    rdfs:label "Mihail Fedorovich Romanov" .
+fhkb:i1 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i2 ;
+    rdfs:label "Evdokija Lukjanovna Streshneva" .
+fhkb:i2 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i8, fhkb:i17, fhkb:i6, fhkb:i7 ;
+    rdfs:label "Aleksej Mihajlovich Romanov" .
+fhkb:i3 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i8, fhkb:i6, fhkb:i7 ;
+    rdfs:label "Marija Ilinichna Miloslavskaja" .
+fhkb:i4 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i17 ;
+    rdfs:label "Natalja Kirillovna Naryshkina" .
+fhkb:i5 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Marfa Matveevna Apraksina" .
+fhkb:i6 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:i8, fhkb:i7 ;
+    rdfs:label "Fedor Alekseevich Romanov" .
+fhkb:i7 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isSisterOf fhkb:i6, fhkb:i8 ;
+    rdfs:label "Sofja Aleksevna Romanova" .
+fhkb:i8 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i11, fhkb:i10 ;
+    fhkb:isBrotherOf fhkb:i6, fhkb:i7 ;
+    rdfs:label "Ivan V Alekseevich Romanov" .
+fhkb:i9 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i11, fhkb:i10 ;
+    rdfs:label "Praskovja Fedorovna Saltykova" .
+fhkb:i10 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i14 ;
+    fhkb:isSisterOf fhkb:i11 ;
+    rdfs:label "Ekaterina Ivanovna Romanova" .
+fhkb:i11 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isSisterOf fhkb:i10 ;
+    rdfs:label "Anna Ivanovna Romanova" .
+fhkb:i12 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fridrih Vilgelm Kurlandskij" .
+fhkb:i13 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i14 ;
+    rdfs:label "Karl Leopold Meklenburg-Shverinskij" .
+fhkb:i14 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i16 ;
+    rdfs:label "Anna Leopoldovna Meklenburg-Shverinskaja" .
+fhkb:i15 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i16 ;
+    rdfs:label "Anton Ulrih Braunshvejg-Volfenbjuttelskij" .
+fhkb:i16 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Ivan VI Antonovich Braunshvejg-Volfenbjuttelskij" .
+fhkb:i17 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i23, fhkb:i20, fhkb:i24 ;
+    rdfs:label "Petr I Alekseevich Romanov" .
+fhkb:i18 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i20 ;
+    rdfs:label "Evdokija Fedorovna Lopuhina" .
+fhkb:i19 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i23, fhkb:i24 ;
+    rdfs:label "Ekaterina I Alekseevna Mihajlova" .
+fhkb:i20 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i22 ;
+    rdfs:label "Aleksej Petrovich Romanov" .
+fhkb:i21 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i22 ;
+    rdfs:label "Sharlotta Kristina Braunshvejg-Volfenbjuttelskaja" .
+fhkb:i22 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Petr II Alekseevich Romanov" .
+fhkb:i23 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i26 ;
+    fhkb:isSisterOf fhkb:i24 ;
+    rdfs:label "Anna Petrovna Romanova" .
+fhkb:i24 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isSisterOf fhkb:i23 ;
+    rdfs:label "Elizaveta Petrovna Romanova" .
+fhkb:i25 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i26 ;
+    rdfs:label "Karl Fridrih Golshtejn-Gottorpskij" .
+fhkb:i26 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i28 ;
+    rdfs:label "Petr III Fedorovich Romanov" .
+fhkb:i27 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i28 ;
+    rdfs:label "Ekaterina II Alekseevna" .
+fhkb:i28 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i33, fhkb:i31 ;
+    rdfs:label "Pavel I Petrovich Romanov" .
+fhkb:i29 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Natalja Alekseevna Gessen-Darmshtadskaja" .
+fhkb:i30 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i33, fhkb:i31 ;
+    rdfs:label "Marija Fedorovna Vjurtembergskaja" .
+fhkb:i31 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:i33 ;
+    rdfs:label "Aleksandr I Pavlovich Romanov" .
+fhkb:i32 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Elizaveta Alekseevna Baden-Durlahskaja" .
+fhkb:i33 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i35 ;
+    fhkb:isBrotherOf fhkb:i31 ;
+    rdfs:label "Nikolaj I Pavlovich Romanov" .
+fhkb:i34 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i35 ;
+    rdfs:label "Aleksandra Fedorovna Prusskaja" .
+fhkb:i35 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i37 ;
+    rdfs:label "Aleksandr II Nikolaevich Romanov" .
+fhkb:i36 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i37 ;
+    rdfs:label "Marija Aleksandrovna Gessenskaja" .
+fhkb:i37 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:i39 ;
+    rdfs:label "Aleksandr III Aleksandrovich Romanov" .
+fhkb:i38 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isMotherOf fhkb:i39 ;
+    rdfs:label "Marija Fedorovna Datskaja" .
+fhkb:i39 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Nikolaj II Aleksandrovich Romanov" .
+fhkb:i40 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Aleksandra Fedorovna Gessenskaja" .
+fhkb:i41 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i1 ;
+    fhkb:hasMalePartner fhkb:i0 .
+fhkb:i42 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i3 ;
+    fhkb:hasMalePartner fhkb:i2 .
+fhkb:i43 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i9 ;
+    fhkb:hasMalePartner fhkb:i8 .
+fhkb:i44 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i10 ;
+    fhkb:hasMalePartner fhkb:i13 .
+fhkb:i45 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i14 ;
+    fhkb:hasMalePartner fhkb:i15 .
+fhkb:i46 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i4 ;
+    fhkb:hasMalePartner fhkb:i2 .
+fhkb:i47 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i18 ;
+    fhkb:hasMalePartner fhkb:i17 .
+fhkb:i48 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i21 ;
+    fhkb:hasMalePartner fhkb:i20 .
+fhkb:i49 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i19 ;
+    fhkb:hasMalePartner fhkb:i17 .
+fhkb:i50 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i23 ;
+    fhkb:hasMalePartner fhkb:i25 .
+fhkb:i51 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i27 ;
+    fhkb:hasMalePartner fhkb:i26 .
+fhkb:i52 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i30 ;
+    fhkb:hasMalePartner fhkb:i28 .
+fhkb:i53 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i34 ;
+    fhkb:hasMalePartner fhkb:i33 .
+fhkb:i54 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i36 ;
+    fhkb:hasMalePartner fhkb:i35 .
+fhkb:i55 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:i38 ;
+    fhkb:hasMalePartner fhkb:i37 .
+[] a owl:AllDifferent ;
+    owl:distinctMembers (    fhkb:i0    fhkb:i1    fhkb:i2    fhkb:i3    fhkb:i4    fhkb:i5    fhkb:i6    fhkb:i7    fhkb:i8    fhkb:i9    fhkb:i10    fhkb:i11    fhkb:i12    fhkb:i13    fhkb:i14    fhkb:i15    fhkb:i16    fhkb:i17    fhkb:i18    fhkb:i19    fhkb:i20    fhkb:i21    fhkb:i22    fhkb:i23    fhkb:i24    fhkb:i25    fhkb:i26    fhkb:i27    fhkb:i28    fhkb:i29    fhkb:i30    fhkb:i31    fhkb:i32    fhkb:i33    fhkb:i34    fhkb:i35    fhkb:i36    fhkb:i37    fhkb:i38    fhkb:i39    fhkb:i40    fhkb:i41    fhkb:i42    fhkb:i43    fhkb:i44    fhkb:i45    fhkb:i46    fhkb:i47    fhkb:i48    fhkb:i49    fhkb:i50    fhkb:i51    fhkb:i52    fhkb:i53    fhkb:i54    fhkb:i55    ) .
