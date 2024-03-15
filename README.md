@@ -13,7 +13,7 @@
 # Artificial Intelligence for Beginners - A Curriculum
 ## Available in Multiple Languages  
   
-- [中文](README.zho.md)  
+- [中文](translations/README.zho.md)  
 |![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](./lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
