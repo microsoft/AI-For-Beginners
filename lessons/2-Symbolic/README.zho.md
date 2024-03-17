@@ -156,7 +156,7 @@ OR （动物有锋利的牙齿
 
 > **注意**： 这个例子非常简单，只是提供了一个专家系统的概念。一旦你开始创建这样一个系统，只有当规则达到一定数量（大约 200 多条）时，你才会注意到它的一些*智能*行为。在某些时候，规则会变得过于复杂，以至于无法将所有规则都牢记在心，这时你可能会开始怀疑系统为什么会做出某些决定。不过，基于知识的系统的重要特点是，你总能*准确地解释*任何决定是如何做出的。
 
-##本体论和语义网
+## 本体论和语义网
 
 20世纪末，有人倡议使用知识表示法来注释互联网资源，以便能够找到与非常具体的查询相对应的资源。这一倡议被称为**语义网**，它依赖于几个概念：
 
@@ -207,7 +207,7 @@ GROUP BY ?eyeColorLabel
 
 *Web Protégé editor open with the Romanov Family ontology. Screenshot by Dmitry Soshnikov*
 
-## ✍️ 练习： 家庭本体论
+## ✍️ 练习： 家庭本体论（家庭关系网）
 
 
 有关使用语义网技术推理家庭关系的示例，请参阅[FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb)。我们将采用以普通 GEDCOM 格式表示的家庭树和家庭关系本体，并为给定的个人集合构建一个包含所有家庭关系的图。
