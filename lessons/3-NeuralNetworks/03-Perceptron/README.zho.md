@@ -74,9 +74,9 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## 🚀 挑战
 
-如果你想建立自己的感知器，请尝试 [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) which uses the [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
+如果你想建立自己的感知器，请尝试 [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) 基于 [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
 
 ## 复习与自学
 
