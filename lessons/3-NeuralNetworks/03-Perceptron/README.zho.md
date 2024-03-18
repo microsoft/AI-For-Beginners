@@ -16,7 +16,7 @@
 
 > 《纽约时报》当时对感知器进行了报道： *[海军]希望这种电子计算机的雏形能够行走、说话、看东西、写字、自我复制并意识到自己的存在。
 
-##感知器模型
+## 感知器模型
 
 假设我们的模型有 N 个特征，那么输入向量就是一个大小为 N 的向量。感知器是一个**二元分类**模型，即它可以区分输入数据的两个类别。我们假定，对于每个输入向量 x，感知器的输出都是+1或-1，具体取决于类别。输出的计算公式为
 
@@ -78,16 +78,15 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
 
-## Review & Self Study
+## 复习与自学
 
-To see how we can use perceptron to solve a toy problem as well as real-life problems, and to continue learning - go to [Perceptron](Perceptron.ipynb) notebook.
+要了解我们如何使用感知器解决玩具问题和现实问题，并继续学习--请访问 [Perceptron](Perceptron.ipynb) 笔记本。
 
-Here's an interesting [article about perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590
-) as well.
+这里还有一篇有趣的[关于感知器的文章](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590)。
 
-## [Assignment](lab/README.md)
+### [作业](lab/README.md)
 
-In this lesson, we have implemented a perceptron for binary classification task, and we have used it to classify between two handwritten digits. In this lab, you are asked to solve the problem of digit classification entirely, i.e. determine which digit is most likely to correspond to a given image.
+在本课中，我们为二进制分类任务实现了一个感知器，并用它对两个手写数字进行了分类。在本实验中，我们要求你完全解决数字分类问题，即确定哪个数字最有可能与给定图像相对应。
 
 * [Instructions](lab/README.md)
 * [Notebook](lab/PerceptronMultiClass.ipynb)
