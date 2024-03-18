@@ -31,18 +31,17 @@
 ----|----
 Real Neuron *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) from Wikipedia)* | Artificial Neuron *(Image by Author)*
 
-Thus, the simplest mathematical model of a neuron contains several inputs X<sub>1</sub>, ..., X<sub>N</sub> and an output Y, and a series of weights W<sub>1</sub>, ..., W<sub>N</sub>. An output is calculated as:
-
+因此，神经元最简单的数学模型包含几个输入端 X<sub>1</sub>, ..., X<sub>N</sub> 和输出 Y，以及一系列权重 W<sub>1</sub>, ..., W<sub>N</sub>. 输出计算公式为
+:
 <img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
-where f is some non-linear **activation function**.
+其中，f 是某个非线性**激活函数**。
 
-> Early models of neuron were described in the classical paper [A logical calculus of the ideas immanent in nervous activity](http://www.springerlink.com/content/61446605110620kg/fulltext.pdf) by Warren McCullock and Walter Pitts in 1943. Donald Hebb in his book "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" proposed the way those networks can be trained.
+> 沃伦-麦卡洛克（Warren McCullock）和沃尔特-皮茨（Walter Pitts）在 1943 年发表的经典论文[神经活动中蕴含的思想的逻辑演算](http://www.springerlink.com/content/61446605110620kg/fulltext.pdf)中描述了神经元的早期模型。唐纳德-赫伯（Donald Hebb）在其著作《行为的组织：神经心理学理论》（https://books.google.com/books?id=VNetYrB8EBoC）中提出了训练这些网络的方法。
+## 在本节中
 
-## In this Section
-
-In this section we will learn about:
-* [Perceptron](03-Perceptron/README.md), one of the earliest neural network models for two-class classification
-* [Multi-layered networks](04-OwnFramework/README.md) with a paired notebook [how to build our own framework](04-OwnFramework/OwnFramework.ipynb)
-* [Neural Network Frameworks](05-Frameworks/README.md), with these notebooks: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) and [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
+在本节中，我们将了解
+* [感知器](03-Perceptron/README.md)，最早的两类分类神经网络模型之一
+* [多层网络](04-OwnFramework/README.md)，配对笔记[如何构建我们自己的框架](04-OwnFramework/OwnFramework.ipynb)
+* 神经网络框架](05-Frameworks/README.md)，以及这些笔记： [PyTorch](05-Frameworks/IntroPyTorch.ipynb) 和 [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
 * [Overfitting](05-Frameworks/Overfitting.md)
