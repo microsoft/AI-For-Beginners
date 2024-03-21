@@ -1,7 +1,7 @@
 # Knowledge Representation and Expert Systems
 
 ## Available in Multiple Languages
-- [中文](./README.zho.md)
+- [中文](./translations/README.zho.md)
   
 ![Summary of Symbolic AI content](../sketchnotes/ai-symbolic.png)
 
