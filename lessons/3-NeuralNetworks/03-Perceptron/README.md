@@ -1,6 +1,6 @@
 # Introduction to Neural Networks: Perceptron
 ## Available in Multiple Languages
-- [中文](./README.zho.md)
+- [中文](./translations/README.zho.md)
   
 ## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
 
