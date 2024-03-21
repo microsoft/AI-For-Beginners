@@ -10,7 +10,7 @@
 
 我们还将用 Python 开发自己的模块化框架，以便构建不同的神经网络架构。
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
 
 ## 机器学习的形式化
 
@@ -68,7 +68,7 @@
 
 在随附的笔记本中，你将实现自己的多层感知器构建和训练框架。您将能够详细了解现代神经网络是如何运行的。
 
-进入 [OwnFramework](OwnFramework.ipynb) 笔记本并完成它。
+进入 [OwnFramework](../OwnFramework.ipynb) 笔记本并完成它。
 
 ## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
 
