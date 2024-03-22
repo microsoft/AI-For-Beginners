@@ -7,7 +7,7 @@
 
 ## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
 
-虽然 "numpy "库可以完成第一部分，但我们需要一些机制来计算梯度。在上一节我们开发的[我们的框架]（../../04-OwnFramework/OwnFramework.ipynb）中，我们不得不手动将所有导数函数编入 "backward "方法中，该方法进行反向传播。理想情况下，一个框架应该让我们有机会计算我们可以定义的*任何表达式*的梯度。
+虽然 "numpy "库可以完成第一部分，但我们需要一些机制来计算梯度。在上一节我们开发的[我们的框架](../../04-OwnFramework/OwnFramework.ipynb)中，我们不得不手动将所有导数函数编入 "backward "方法中，该方法进行反向传播。理想情况下，一个框架应该让我们有机会计算我们可以定义的*任何表达式*的梯度。
 
 还有一点很重要，那就是能够在 GPU 或任何其他专用计算单元上执行计算，例如 [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)。深度神经网络训练需要*大量*的计算，能够在 GPU 上并行处理这些计算非常重要。
 
@@ -27,7 +27,7 @@
 
 同样重要的是，你可以同时使用这两种应用程序接口，例如，你可以使用低级应用程序接口开发自己的网络层架构，然后在使用高级应用程序接口构建和训练的大型网络中使用它。或者，你也可以使用高级 API 将网络定义为一个层序列，然后使用自己的低级训练循环来执行优化。这两种应用程序接口使用相同的基本概念，而且可以很好地协同工作。
 
-##学习
+## 学习
 
 在本课程中，我们提供了 PyTorch 和 TensorFlow 的大部分内容。您可以选择自己喜欢的框架，然后只浏览相应的笔记本。如果您不确定选择哪种框架，可以阅读互联网上关于 **PyTorch 与 TensorFlow 的讨论。你也可以看看这两个框架，以便更好地理解。
 
@@ -37,9 +37,9 @@
 
 在以下笔记本中继续学习：
 
-低级 API | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](../IntroPyTorch.ipynb)
+低级 API | [TensorFlow+Keras Notebook](../IntroKerasTF.ipynb) | [PyTorch](../IntroPyTorch.ipynb)
 --------------|-------------------------------------|--------------------------------
-高级 API| [Keras](../IntroKeras.ipynb) | *PyTorch Lightning*
+高级 API| [Keras](../IntroKeras.ipynb)| *PyTorch Lightning*
 
 掌握了框架之后，让我们来回顾一下过度拟合的概念。
 
