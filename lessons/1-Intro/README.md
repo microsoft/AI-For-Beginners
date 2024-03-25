@@ -1,5 +1,8 @@
 # Introduction to AI
 
+## Available in Multiple Languages
+- [中文](translations/README.zho.md)
+  
 ![Summary of Introduction of AI content in a doodle](../sketchnotes/ai-intro.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)

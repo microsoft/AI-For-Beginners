@@ -1,5 +1,7 @@
 # Neural Network Frameworks
-
+## Available in Multiple Languages
+- [中文](./translations/README.zho.md)
+  
 As we have learned already, to be able to train neural networks efficiently we need to do two things:
 
 * To operate on tensors, eg. to multiply, add, and compute some functions such as sigmoid or softmax
