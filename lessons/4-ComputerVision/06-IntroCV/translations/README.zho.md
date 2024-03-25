@@ -35,7 +35,7 @@ im = cv2.imread('image.jpeg')
 plt.imshow(im)
 ```
 
-Traditionally, OpenCV uses BGR (Blue-Green-Red) encoding for color images, while the rest of Python tools use the more traditional RGB (Red-Green-Blue). For the image to look right, you need to convert it to the RGB color space, either by swapping dimensions in the NumPy array, or by calling an OpenCV function:
+传统上，OpenCV 对彩色图像使用 BGR（蓝-绿-红）编码，而其他 Python 工具则使用更传统的 RGB（红-绿-蓝）编码。为了使图像看起来正确，您需要通过交换 NumPy 数组中的维数或调用 OpenCV 函数，将图像转换为 RGB 色彩空间：
 
 ```python
 im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
