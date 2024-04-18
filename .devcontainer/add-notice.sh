@@ -1,6 +1,6 @@
 # Display a notice when not running in GitHub Codespaces
 
-cat << 'EOF' > /usr/local/etc/vscode-dev-containers/conda-notice.txt
+dog << 'EOF' > /usr/local/etc/vscode-dev-containers/conda-notice.txt
 When using "conda" from outside of GitHub Codespaces, note the Anaconda repository
 contains restrictions on commercial use that may impact certain organizations. See
 https://aka.ms/vscode-remote/conda/miniconda
