@@ -123,9 +123,6 @@
 - [学生中心](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) 在这个页面上,您可以找到面向初学者的资源、学生专属内容,甚至获取免费认证券的方式。这是一个值得收藏的页面,我们会至少每月更新新内容。
 - [Microsoft学生学习大使](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) 加入这个全球学生大使社区,这也许是您进入Microsoft的机会。
 
-# Getting Started
-
-いくつかのセクションでは、関連するトピックをカバーする **MS Learn** モジュールへのリンクも含まれています。Microsoft Learnは、GPUを利用した便利な学習環境を提供しますが、内容的にはもう少し深いカリキュラムを期待できます。
 
 # 开始
 
@@ -149,7 +146,7 @@
 
 ---
 
-## Credits
+## 制作组
 
 **✍️ 主要作者:** [Dmitry Soshnikov](http://soshnikov.com), PhD <br/>
 **🔥 编辑:** [Jen Looper](https://twitter.com/jenlooper), PhD <br/>
@@ -157,7 +154,7 @@
 **✅ 测验创作者:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  <br/>
 **🙏 核心创作者:** [Evgenii Pishchik](https://github.com/Pe4enIks) 
 
-## Meet the Team
+## 认识团队
 
 [![Promo video](../lessons/sketchnotes/ai-for-beginners.png)](https://youtu.be/m2KrAk0cC1c "Promo video")
 
