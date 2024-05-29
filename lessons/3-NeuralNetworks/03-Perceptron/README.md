@@ -29,7 +29,7 @@ where f is a step activation function
 
 ## Training the Perceptron
 
-To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error is defined by **perceptron criterion** in the following manner:
+To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest **error**. This error E is defined by **perceptron criterion** in the following manner:
 
 E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
