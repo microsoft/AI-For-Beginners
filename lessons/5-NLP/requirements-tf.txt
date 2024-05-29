@@ -10,4 +10,4 @@ scipy
 TensorFlow
 TensorFlow_datasets
 TensorFlow_text
-transformers==4.30.0
+transformers==4.36.0
