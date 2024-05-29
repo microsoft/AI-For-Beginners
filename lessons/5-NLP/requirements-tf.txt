@@ -4,7 +4,7 @@ matplotlib
 nltk==3.5
 numpy==1.22.0
 opencv-python==4.5.1.48
-Pillow==7.1.2
+Pillow==10.0.1
 scikit-learn
 scipy
 TensorFlow
