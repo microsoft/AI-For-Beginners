@@ -1,4 +1,4 @@
-## For Educators
+# For Educators
 
 Would you like to use this curriculum in your classroom? Please feel free!
 
@@ -18,6 +18,6 @@ If you prefer a more private format, ask your students to fork the curriculum, l
 
 There are many ways to make this work in an online classroom format. Please let us know what works best for you!
 
-## Please give us your thoughts!
+## Please give us your thoughts
 
 We want to make this curriculum work for you and your students. Please give us feedback in the discussion boards!
