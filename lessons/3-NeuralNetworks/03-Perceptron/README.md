@@ -1,5 +1,7 @@
 # Introduction to Neural Networks: Perceptron
-
+## Available in Multiple Languages
+- [中文](./translations/README.zho.md)
+  
 ## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
 
 One of the first attempts to implement something similar to a modern neural network was done by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1", designed to recognize primitive geometric figures, such as triangles, squares and circles.

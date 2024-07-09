@@ -1,5 +1,8 @@
 # Introduction to Neural Networks
 
+## Available in Multiple Languages
+- [中文](./translations/README.zho.md)
+  
 ![Summary of Intro Neural Networks content in a doodle](../sketchnotes/ai-neuralnetworks.png)
 
 As we discussed in the introduction, one of the ways to achieve intelligence is to train a **computer model** or an **artificial brain**. Since the middle of 20th century, researchers tried different mathematical models, until in recent years this direction proved to by hugely successful. Such mathematical models of the brain are called **neural networks**.

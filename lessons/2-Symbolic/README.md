@@ -1,5 +1,8 @@
 # Knowledge Representation and Expert Systems
 
+## Available in Multiple Languages
+- [中文](./translations/README.zho.md)
+  
 ![Summary of Symbolic AI content](../sketchnotes/ai-symbolic.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)

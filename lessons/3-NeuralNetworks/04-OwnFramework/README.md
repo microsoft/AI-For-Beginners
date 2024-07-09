@@ -1,4 +1,6 @@
 # Introduction to Neural Networks. Multi-Layered Perceptron
+## Available in Multiple Languages
+- [中文](./translations/README.zho.md)
 
 In the previous section, you learned about the simplest neural network model - one-layered perceptron, a linear two-class classification model.
 
