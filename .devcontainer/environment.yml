@@ -1,6 +1,7 @@
 name: ai4beg
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - ipykernel=6.4.1
   - ipython=7.27.0
@@ -8,7 +9,7 @@ dependencies:
   - jupyter=1.0.0
   - matplotlib=3.4.2
   - numpy=1.22.3
-  - python=3.8.12
+  - python=3.8.12ip
   - requests=2.26.0
   - scikit-learn=0.24.2
   - scipy=1.6.2
