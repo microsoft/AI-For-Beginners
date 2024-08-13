@@ -17,6 +17,6 @@ tensorflow-text==2.13.0
 tensorflow==2.13.1
 tensorboard==2.13.0
 tokenizers==0.19.1
-torchinfo==0.3.0
+torchinfo==1.8.0
 tqdm==4.66.5
 transformers==4.44.0
