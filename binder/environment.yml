@@ -1,6 +1,7 @@
 name: ai4beg
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - ipykernel=6.4.1
   - ipython=7.27.0
