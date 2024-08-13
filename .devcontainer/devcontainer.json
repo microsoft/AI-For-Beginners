@@ -4,7 +4,9 @@
     "context": "..",
     "dockerfile": "Dockerfile",
     "args": {
-      "NODE_VERSION": "lts/*"
+      "NODE_VERSION": "lts/*",
+      "DOCKER_CLIENT_TIMEOUT": "120",
+      "COMPOSE_HTTP_TIMEOUT": "120"
     }
   },
   "hostRequirements": { 
