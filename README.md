@@ -90,7 +90,7 @@ For a gentle introduction to _AI in the Cloud_ topics you may consider taking th
 
 ## Getting Started
 
-We have created a [setup lesson](./lessons/0-course-setup/setup.md) to help you with setting up your development environment. For Educators, we have created a [curricula setup lesson](/lessons/0-course-setup/for-teachers.md) for you too!
+We have created a [setup lesson](https://github.com/microsoft/ai-for-beginners/lessons/0-course-setup/setup.md) to help you with setting up your development environment. For Educators, we have created a [curricula setup lesson](https://github.com/microsoft/ai-for-beginners/lessons/0-course-setup/for-teachers.md) for you too!
 
 Don't forget to star (🌟) this repo to find it easier later.
 
