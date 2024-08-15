@@ -3,22 +3,22 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - ipykernel=6.4.1
-  - ipython=7.27.0
-  - ipywidgets=7.6.5
-  - jupyter=1.0.0
-  - matplotlib=3.4.2
-  - numpy=1.22.3
-  - python=3.8.12ip
-  - requests=2.26.0
-  - scikit-learn=0.24.2
-  - scipy=1.6.2
-  - pip=21.0.1
-  - conda-forge::opencv=4.5
-  - setuptools=58.0.4
-  - pytorch::pytorch=1.11.0
-  - pytorch::torchtext=0.12.0
-  - pytorch::torchvision=0.12.0
-  - pytorch::torchdata=0.3.0
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyter
+  - matplotlib=3.9
+  - numpy=1.26
+  - python
+  - requests=2.32
+  - scikit-learn
+  - scipy=1.13
+  - pip
+  - conda-forge::opencv
+  - setuptools
+  - pytorch::pytorch
+  - pytorch::torchtext
+  - pytorch::torchvision
+  - pytorch::torchdata
   - pip:
     - -r requirements.txt
