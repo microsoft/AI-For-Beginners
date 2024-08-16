@@ -18,5 +18,4 @@ tensorboard
 tokenizers
 torchinfo
 tqdm
-transformers
-tensorflow-text
+
