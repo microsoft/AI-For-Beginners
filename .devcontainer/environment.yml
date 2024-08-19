@@ -1,6 +1,6 @@
 name: ai4beg
 channels:
-  - flexible
+  - defaults
   - conda-forge
 dependencies:
   - ipykernel
