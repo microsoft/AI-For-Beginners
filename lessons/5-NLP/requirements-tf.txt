@@ -3,7 +3,7 @@ huggingface==0.0.1
 matplotlib
 nltk==3.5
 numpy==1.22.0
-opencv-python==4.5.1.48
+opencv-python==4.8.1.78
 Pillow==10.3.0
 scikit-learn
 scipy
