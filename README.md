@@ -128,7 +128,7 @@ Do you have suggestions or found spelling or code errors? Raise an issue or crea
 Our team produces other curricula! Check out:
 
 * [Data Science for Beginners](https://aka.ms/ds4beginners)
-* [**Version 2.0** Generative AI for Beginners](https://aka.ms/genai-beginners)
+* [Generative AI for Beginners](https://aka.ms/genai-beginners)
 * [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
 * [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 * [IoT for Beginners](https://aka.ms/iot-beginners)
