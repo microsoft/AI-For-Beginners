@@ -1,14 +1,6 @@
 {
   "name": "Miniconda (Python 3)",
-  "build": { 
-    "context": "..",
-    "dockerfile": "Dockerfile",
-    "args": {
-      "NODE_VERSION": "lts/*",
-      "DOCKER_CLIENT_TIMEOUT": "",
-      "COMPOSE_HTTP_TIMEOUT": ""
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/miniconda",
   "hostRequirements": { 
     "cpus": 4, 
     "memory": "8gb", 
