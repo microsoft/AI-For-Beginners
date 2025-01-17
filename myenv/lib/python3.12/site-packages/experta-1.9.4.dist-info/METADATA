@@ -1,0 +1,232 @@
+Metadata-Version: 2.1
+Name: experta
+Version: 1.9.4
+Summary: Expert Systems for Python
+Home-page: https://github.com/nilp0inter/experta
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: LGPLv3
+Keywords: knowledge-based,inference,engine
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: frozendict (==1.2)
+Requires-Dist: schema (==0.6.7)
+
+=========
+|Experta|  
+=========
+
+|pypi| |version| |tests| |docs| |coverage|
+
+Experta is a Python library for building expert systems strongly inspired
+by CLIPS_.
+
+.. code-block:: python
+
+   from random import choice
+   from experta import *
+
+
+   class Light(Fact):
+       """Info about the traffic light."""
+       pass
+
+
+   class RobotCrossStreet(KnowledgeEngine):
+       @Rule(Light(color='green'))
+       def green_light(self):
+           print("Walk")
+
+       @Rule(Light(color='red'))
+       def red_light(self):
+           print("Don't walk")
+
+       @Rule(AS.light << Light(color=L('yellow') | L('blinking-yellow')))
+       def cautious(self, light):
+           print("Be cautious because light is", light["color"])
+
+
+.. code-block:: python
+
+   >>> engine = RobotCrossStreet()
+   >>> engine.reset()
+   >>> engine.declare(Light(color=choice(['green', 'yellow', 'blinking-yellow', 'red'])))
+   >>> engine.run()
+   Be cautious because light is blinking-yellow
+
+
+Migrating from Pyknow
+---------------------
+
+Experta is a Pyknow fork. Just replace any `pyknow` references in your
+code/examples to `experta` and everything should work the same.
+
+
+Examples
+--------
+
+You can find some more examples on GitHub_.
+
+.. _CLIPS: http://clipsrules.sourceforge.net
+.. _GitHub: https://github.com/nilp0inter/experta/tree/develop/docs
+.. |Experta| image:: https://raw.githubusercontent.com/nilp0inter/experta/develop/docs/static/expertalogo_small.png
+.. |pypi| image:: https://img.shields.io/pypi/v/experta.svg
+    :target: https://pypi.python.org/pypi/experta
+
+.. |version| image:: https://img.shields.io/pypi/pyversions/experta.svg
+    :target: https://pypi.python.org/pypi/experta
+
+.. |tests| image:: https://travis-ci.org/nilp0inter/experta.svg?branch=master
+    :target: https://travis-ci.org/nilp0inter/experta
+
+.. |docs| image:: https://readthedocs.org/projects/experta/badge/?version=stable
+    :target: https://experta.readthedocs.io/en/stable/
+    :alt: Documentation Status
+
+.. |coverage| image:: https://codecov.io/gh/nilp0inter/experta/branch/develop/graph/badge.svg
+    :target: https://codecov.io/gh/nilp0inter/experta
+    :alt: codecov.io
+
+
+TODO
+----
+
+
+CHANGELOG
+---------
+
+1.9.4
+~~~~~
+
+* Resolved #10. Corner case in DepthStrategy in which the first
+  activation of the agenda didn't get removed.
+
+
+1.9.3
+~~~~~
+
+* Resolved #11 that was introduced with #7, that caused the same
+  behavior under different conditions.
+
+
+1.9.2
+~~~~~
+
+* Resolved #7. In some situations last activation was removed right
+  after entering the agenda.
+
+
+1.9.1
+~~~~~
+
+* Resolved #3. Rules should not be called with already retracted facts.
+
+
+1.9.0
+~~~~~
+
+* Drop Python 3.4 support.
+* Use setup.cfg to save all package metadata.
+
+
+1.8.0-1.8.2
+~~~~~~~~~~~
+
+* Rebranded to Experta.
+
+
+1.7.0
+~~~~~
+
+* Implemented the template system.
+* Replaced warnings by watchers messages.
+* Fixed freeze() with frozen objects.
+* Fixed unfreeze() with unfrozen objects.
+* Parametrized DefFacts via reset() kwargs.
+
+
+1.6.0
+~~~~~
+
+* Improved overall performance.
+
+
+1.5.0
+~~~~~
+
+* Added Python version 3.7 to tox.ini.
+* Monkey and bananas example.
+* Fixed bug, numeric index args gets repeated in a weird way introduced in `1.4.0`.
+* Pass only the defined args in absence of kwargs.
+
+
+1.4.0
+~~~~~
+
+* Order integer facts keys after making a copy.
+* as_dict method for Fact.
+* freeze and unfreeze method documentation.
+* unfreeze method in pyknow.utils.
+* Zebra example from Clips.
+
+
+1.3.0
+~~~~~
+
+* `pyknow.operator` module.
+* Nested matching.
+* Added Talk 'Sistemas Expertos en Python con PyKnow - PyConES 2017' to docs
+  folder.
+
+
+1.2.0
+~~~~~
+
+* Freeze fact values as the default behavior to address Issue #9.
+* Added `pyknow.utils.anyof` to mitigate Issue #7.
+* Raise RuntimeError if a fact value is modified after declare().
+* Added MATCH and AS objects.
+
+
+1.1.1
+~~~~~
+
+* Removing the borg optimization for P field constraints.
+* Use the hash of the check in the sorting of the nodes to always
+  generate the same alpha part of the network.
+
+
+1.1.0
+~~~~~
+
+* Allow any kind of callable in Predicate Field Constraints (P()).
+
+
+1.0.1
+~~~~~
+
+* DNF of OR clause inside AND or Rule was implemented wrong.
+
+
+1.0.0
+~~~~~
+
+* RETE matching algorithm.
+* Better Rule decorator system.
+* Facts are dictionaries.
+* Documentation.
+
+
+<1.0.0
+~~~~~~
+
+* Unestable API.
+* Wrong matching algorithm.
+* Bad performance
+* PLEASE DON'T USE THIS.
+
+
