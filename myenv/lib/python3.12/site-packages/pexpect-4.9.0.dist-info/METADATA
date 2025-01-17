@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pexpect
+Version: 4.9.0
+Summary: Pexpect allows easy control of interactive console applications.
+Home-page: https://pexpect.readthedocs.io/
+Author: Noah Spurrier; Thomas Kluyver; Jeff Quast
+Author-email: noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com
+License: ISC license
+Project-URL: Bug Tracker, https://github.com/pexpect/pexpect/issues
+Project-URL: Documentation, https://pexpect.readthedocs.io/
+Project-URL: Source Code, https://github.com/pexpect/pexpect
+Project-URL: History, https://pexpect.readthedocs.io/en/stable/history.html
+Platform: UNIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Terminals
+License-File: LICENSE
+Requires-Dist: ptyprocess (>=0.5)
+
+
+Pexpect is a pure Python module for spawning child applications; controlling
+them; and responding to expected patterns in their output. Pexpect works like
+Don Libes' Expect. Pexpect allows your script to spawn a child application and
+control it as if a human were typing commands.
+
+Pexpect can be used for automating interactive applications such as ssh, ftp,
+passwd, telnet, etc. It can be used to automate setup scripts for duplicating
+software package installations on different servers. It can be used for
+automated software testing. Pexpect is in the spirit of Don Libes' Expect, but
+Pexpect is pure Python.
+
+The main features of Pexpect require the pty module in the Python standard
+library, which is only available on Unix-like systems. Some features—waiting
+for patterns from file descriptors or subprocesses—are also available on
+Windows.

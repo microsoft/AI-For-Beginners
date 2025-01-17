@@ -1,0 +1,13 @@
+matplotlib_inline-0.1.7.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+matplotlib_inline-0.1.7.dist-info/LICENSE,sha256=hSGwNsZEjg4KpyE9RxO2_e4PTGTJ8yBFD3c0a_XA6OQ,1538
+matplotlib_inline-0.1.7.dist-info/METADATA,sha256=Xz23GdN-XdBaedxKOTUXCuChARrN9NvHcKHdnkpv08E,3873
+matplotlib_inline-0.1.7.dist-info/RECORD,,
+matplotlib_inline-0.1.7.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+matplotlib_inline-0.1.7.dist-info/entry_points.txt,sha256=NxSdh3hjUJgJ73Z6FN60JWKd4Ll30Iy1nlIoNAvYGIU,63
+matplotlib_inline-0.1.7.dist-info/top_level.txt,sha256=0ViJqRtJZLIS7IfjHrUgYI6RIvWY0cfk1OjAlp40Zsw,18
+matplotlib_inline/__init__.py,sha256=tnQF2ytXKVHudRzPup4ymHdSygJW8znm2Ox3CVF9FQs,75
+matplotlib_inline/__pycache__/__init__.cpython-312.pyc,,
+matplotlib_inline/__pycache__/backend_inline.cpython-312.pyc,,
+matplotlib_inline/__pycache__/config.cpython-312.pyc,,
+matplotlib_inline/backend_inline.py,sha256=pR2qQcdCoXAEen7FXIyJvgRMaS4V9pker_IbabROH6E,11354
+matplotlib_inline/config.py,sha256=Z87OCv-LStYhOwQ2LmHDNxwkAn9BLFKTbHI7XSAT1Jc,3911
