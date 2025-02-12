@@ -1,0 +1,6 @@
+# Game Jam
+
+Les jeux sont un domaine qui a été fortement influencé par les développements en IA et en ML. Dans cette tâche, rédigez un court document sur un jeu que vous aimez et qui a été influencé par l'évolution de l'IA. Il doit s'agir d'un jeu suffisamment ancien pour avoir été influencé par plusieurs types de systèmes de traitement informatique. Un bon exemple est les échecs ou le go, mais jetez également un œil aux jeux vidéo comme Pong ou Pac-Man. Rédigez un essai qui discute du passé, du présent et de l'avenir de l'IA dans le jeu.
+
+**Avertissement** :  
+Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous visons l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction professionnelle par un humain est recommandée. Nous ne sommes pas responsables des malentendus ou des erreurs d'interprétation résultant de l'utilisation de cette traduction.

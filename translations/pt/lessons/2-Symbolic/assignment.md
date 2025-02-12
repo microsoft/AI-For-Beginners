@@ -1,0 +1,6 @@
+# Construir uma Ontologia
+
+Construir uma base de conhecimento é tudo sobre categorizar um modelo que representa fatos sobre um tópico. Escolha um tópico - como uma pessoa, um lugar ou uma coisa - e então construa um modelo desse tópico. Utilize algumas das técnicas e estratégias de construção de modelos descritas nesta lição. Um exemplo seria criar uma ontologia de uma sala de estar com móveis, luzes e assim por diante. Como a sala de estar difere da cozinha? Do banheiro? Como você sabe que é uma sala de estar e não uma sala de jantar? Use [Protégé](https://protege.stanford.edu/) para construir sua ontologia.
+
+**Aviso**:  
+Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações errôneas decorrentes do uso desta tradução.

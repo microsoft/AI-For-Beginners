@@ -1,0 +1,6 @@
+# Game Jam
+
+Permainan adalah bidang yang telah banyak dipengaruhi oleh perkembangan dalam AI dan ML. Dalam tugas ini, tulislah sebuah makalah pendek tentang permainan yang Anda suka yang telah dipengaruhi oleh evolusi AI. Permainan tersebut harus cukup tua untuk telah dipengaruhi oleh beberapa jenis sistem pemrosesan komputer. Contoh yang baik adalah Catur atau Go, tetapi juga lihatlah permainan video seperti pong atau Pac-Man. Tulis esai yang membahas masa lalu permainan, masa kini, dan masa depan AI-nya.
+
+**Penafian**:  
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI berasaskan mesin. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa ibundanya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

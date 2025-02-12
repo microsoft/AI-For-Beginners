@@ -1,0 +1,6 @@
+# Eine Ontologie erstellen
+
+Der Aufbau einer Wissensdatenbank dreht sich darum, ein Modell zu kategorisieren, das Fakten über ein Thema repräsentiert. Wählen Sie ein Thema - wie eine Person, einen Ort oder eine Sache - und erstellen Sie dann ein Modell dieses Themas. Verwenden Sie einige der Techniken und Modellierungsstrategien, die in dieser Lektion beschrieben werden. Ein Beispiel wäre die Erstellung einer Ontologie für ein Wohnzimmer mit Möbeln, Beleuchtung und so weiter. Wie unterscheidet sich das Wohnzimmer von der Küche? Vom Badezimmer? Wie wissen Sie, dass es sich um ein Wohnzimmer und nicht um ein Esszimmer handelt? Verwenden Sie [Protégé](https://protege.stanford.edu/), um Ihre Ontologie zu erstellen.
+
+**Haftungsausschluss**:  
+Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, sollten Sie sich bewusst sein, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner Ursprungssprache sollte als die maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.

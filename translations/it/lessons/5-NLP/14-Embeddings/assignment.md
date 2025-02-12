@@ -1,0 +1,6 @@
+# Tarea: Cuadernos
+
+Usando los cuadernos asociados a esta lección (ya sea la versión de PyTorch o la de TensorFlow), ejecútalos nuevamente utilizando tu propio conjunto de datos, quizás uno de Kaggle, asegurándote de dar la atribución correspondiente. Reescribe el cuaderno para resaltar tus propios hallazgos. Intenta con un tipo diferente de conjunto de datos y documenta tus descubrimientos, utilizando textos como [estas letras de los Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).
+
+**Disclaimer**:  
+Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de malentendidos o interpretaciones erróneas que surjan del uso de esta traducción.

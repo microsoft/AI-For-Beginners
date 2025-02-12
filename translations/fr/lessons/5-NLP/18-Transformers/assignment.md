@@ -1,0 +1,6 @@
+# Devoir : Transformers
+
+Expérimentez avec les Transformers sur HuggingFace ! Essayez certains des scripts qu'ils fournissent pour travailler avec les différents modèles disponibles sur leur site : https://huggingface.co/docs/transformers/run_scripts. Testez l'un de leurs ensembles de données, puis importez l'un des vôtres provenant de ce programme ou de Kaggle et voyez si vous pouvez générer des textes intéressants. Produisez un carnet de notes avec vos découvertes.
+
+**Avertissement** :  
+Ce document a été traduit à l'aide de services de traduction automatisés basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
