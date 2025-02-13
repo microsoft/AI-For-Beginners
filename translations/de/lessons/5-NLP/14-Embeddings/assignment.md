@@ -1,0 +1,6 @@
+# Aufgabe: Notebooks
+
+Verwenden Sie die Notebooks, die mit dieser Lektion verbunden sind (entweder die PyTorch- oder die TensorFlow-Version), und führen Sie sie mit Ihrem eigenen Datensatz erneut aus, möglicherweise einem von Kaggle, wobei Sie die Quelle angeben. Überarbeiten Sie das Notebook, um Ihre eigenen Erkenntnisse zu unterstreichen. Probieren Sie eine andere Art von Datensatz aus und dokumentieren Sie Ihre Ergebnisse, indem Sie Texte wie [diese Beatles-Lyrics](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) verwenden.
+
+**Haftungsausschluss**:  
+Dieses Dokument wurde mithilfe von KI-gestützten maschinellen Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, bitten wir zu beachten, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.

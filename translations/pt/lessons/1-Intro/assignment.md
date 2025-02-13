@@ -1,0 +1,6 @@
+# Game Jam
+
+Os jogos são uma área que foi fortemente influenciada pelos desenvolvimentos em IA e ML. Nesta tarefa, escreva um artigo curto sobre um jogo que você gosta e que foi influenciado pela evolução da IA. Deve ser um jogo antigo o suficiente para ter sido influenciado por vários tipos de sistemas de processamento de computador. Um bom exemplo é Xadrez ou Go, mas também dê uma olhada em videogames como pong ou Pac-Man. Escreva um ensaio que discuta o passado, o presente e o futuro da IA no jogo.
+
+**Isenção de responsabilidade**:  
+Este documento foi traduzido usando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.

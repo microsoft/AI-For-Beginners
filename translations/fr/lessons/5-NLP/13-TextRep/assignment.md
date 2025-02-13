@@ -1,0 +1,6 @@
+# Devoir : Notebooks
+
+En utilisant les notebooks associés à cette leçon (soit la version PyTorch, soit la version TensorFlow), relancez-les en utilisant votre propre jeu de données, peut-être un de Kaggle, utilisé avec attribution. Réécrivez le notebook pour mettre en avant vos propres découvertes. Essayez des jeux de données innovants qui pourraient être surprenants, comme [celui-ci sur les observations d'OVNIs](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) de NUFORC.
+
+**Avertissement** :  
+Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction professionnelle humaine est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.

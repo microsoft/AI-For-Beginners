@@ -1,0 +1,6 @@
+# Tarea: Notebooks
+
+Utilizando los notebooks asociados a esta lección (ya sea la versión de PyTorch o la de TensorFlow), ejecútalos nuevamente utilizando tu propio conjunto de datos, quizás uno de Kaggle, utilizado con atribución. Reescribe el notebook para resaltar tus propios hallazgos. Prueba algunos conjuntos de datos innovadores que podrían resultar sorprendentes, como [este sobre avistamientos de OVNIs](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) de NUFORC.
+
+**Descargo de responsabilidad**:  
+Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda la traducción profesional por parte de un humano. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.

@@ -1,0 +1,6 @@
+# Uppgift: Anteckningsböcker
+
+Använd anteckningsböckerna kopplade till denna lektion (antingen PyTorch- eller TensorFlow-versionen), och kör dem igen med din egen datamängd, kanske en från Kaggle, använd med korrekt hänvisning. Skriv om anteckningsboken för att understryka dina egna upptäckter. Prova en annan typ av datamängd och dokumentera dina fynd, med text som [denna Kaggle-tävling datamängd om vädertweets](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+
+**Ansvarsfriskrivning**:  
+Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.

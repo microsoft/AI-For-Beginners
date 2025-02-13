@@ -1,0 +1,6 @@
+# Aufgabe: Transformer
+
+Experimentiere mit Transformers auf HuggingFace! Probiere einige der Skripte aus, die sie bereitstellen, um mit den verschiedenen Modellen zu arbeiten, die auf ihrer Seite verfügbar sind: https://huggingface.co/docs/transformers/run_scripts. Teste einen ihrer Datensätze, importiere dann einen eigenen aus diesem Lehrplan oder von Kaggle und schaue, ob du interessante Texte generieren kannst. Erstelle ein Notizbuch mit deinen Ergebnissen.
+
+**Haftungsausschluss**:  
+Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, sollten Sie sich bewusst sein, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.

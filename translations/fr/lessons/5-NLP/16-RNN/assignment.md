@@ -1,0 +1,6 @@
+# Devoir : Notebooks
+
+En utilisant les notebooks associés à cette leçon (soit la version PyTorch, soit la version TensorFlow), exécutez-les à nouveau en utilisant votre propre jeu de données, peut-être un de Kaggle, utilisé avec attribution. Réécrivez le notebook pour mettre en évidence vos propres découvertes. Essayez un autre type de jeu de données et documentez vos résultats, en utilisant un texte tel que [ce jeu de données de compétition Kaggle sur les tweets météo](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+
+**Avertissement** :  
+Ce document a été traduit à l'aide de services de traduction automatisés basés sur l'IA. Bien que nous nous efforçons d'atteindre l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autorisée. Pour des informations critiques, une traduction professionnelle humaine est recommandée. Nous ne sommes pas responsables des malentendus ou des erreurs d'interprétation résultant de l'utilisation de cette traduction.

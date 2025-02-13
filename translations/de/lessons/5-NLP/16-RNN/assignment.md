@@ -1,0 +1,6 @@
+# Aufgabe: Notebooks
+
+Verwenden Sie die mit dieser Lektion verbundenen Notebooks (entweder die PyTorch- oder die TensorFlow-Version), und führen Sie sie erneut mit Ihrem eigenen Datensatz aus, möglicherweise einem von Kaggle, wobei Sie die Quelle angeben. Überarbeiten Sie das Notebook, um Ihre eigenen Erkenntnisse zu betonen. Probieren Sie eine andere Art von Datensatz aus und dokumentieren Sie Ihre Ergebnisse mit Texten wie [diesem Kaggle-Wettbewerbsdatensatz über Wettertweets](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+
+**Haftungsausschluss**:  
+Dieses Dokument wurde mithilfe von KI-gestützten maschinellen Übersetzungsdiensten übersetzt. Obwohl wir um Genauigkeit bemüht sind, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Verantwortung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.

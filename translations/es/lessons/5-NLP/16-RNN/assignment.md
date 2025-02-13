@@ -1,0 +1,6 @@
+# Tarea: Cuadernos
+
+Usando los cuadernos asociados a esta lección (ya sea la versión de PyTorch o la de TensorFlow), ejecútalos nuevamente utilizando tu propio conjunto de datos, quizás uno de Kaggle, usado con atribución. Reescribe el cuaderno para resaltar tus propios hallazgos. Prueba con un tipo diferente de conjunto de datos y documenta tus hallazgos, utilizando texto como [este conjunto de datos de competencia de Kaggle sobre tweets del clima](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+
+**Descargo de responsabilidad**:  
+Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional humana. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.

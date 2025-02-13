@@ -1,0 +1,6 @@
+# Bygg en Ontologi
+
+Att skapa en kunskapsbas handlar om att kategorisera en modell som representerar fakta om ett ämne. Välj ett ämne - som en person, en plats eller en sak - och bygg sedan en modell av det ämnet. Använd några av de tekniker och strategier för modellbygge som beskrivs i den här lektionen. Ett exempel skulle vara att skapa en ontologi för ett vardagsrum med möbler, belysning och så vidare. Hur skiljer sig vardagsrummet från köket? Från badrummet? Hur vet du att det är ett vardagsrum och inte ett matsal? Använd [Protégé](https://protege.stanford.edu/) för att bygga din ontologi.
+
+**Ansvarsfriskrivning**:  
+Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.

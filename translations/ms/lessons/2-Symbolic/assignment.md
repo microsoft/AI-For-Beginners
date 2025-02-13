@@ -1,0 +1,6 @@
+# Membangunkan Ontologi
+
+Membangunkan pangkalan pengetahuan adalah tentang mengkategorikan model yang mewakili fakta tentang sesuatu topik. Pilihlah satu topik - seperti seorang individu, sebuah tempat, atau suatu benda - dan kemudian bangunkan model untuk topik tersebut. Gunakan beberapa teknik dan strategi pembinaan model yang diterangkan dalam pelajaran ini. Sebagai contoh, anda boleh mencipta ontologi bagi sebuah ruang tamu yang mempunyai perabot, lampu, dan sebagainya. Bagaimana ruang tamu berbeza daripada dapur? Dari bilik mandi? Bagaimana anda tahu bahawa itu adalah ruang tamu dan bukan ruang makan? Gunakan [Protégé](https://protege.stanford.edu/) untuk membangunkan ontologi anda.
+
+**Penafian**:  
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi ralat atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

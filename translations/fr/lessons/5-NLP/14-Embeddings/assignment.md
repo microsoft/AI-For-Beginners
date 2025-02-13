@@ -1,0 +1,6 @@
+# Devoir : Carnets
+
+En utilisant les carnets associés à cette leçon (soit la version PyTorch, soit la version TensorFlow), exécutez-les à nouveau en utilisant votre propre ensemble de données, peut-être un de Kaggle, en l'utilisant avec attribution. Réécrivez le carnet pour mettre en avant vos propres découvertes. Essayez un type différent d'ensemble de données et documentez vos résultats, en utilisant des textes comme [ces paroles des Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).
+
+**Avertissement** :  
+Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'atteindre l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des erreurs d'interprétation résultant de l'utilisation de cette traduction.
