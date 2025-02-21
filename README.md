@@ -87,7 +87,7 @@ For a gentle introduction to _AI in the Cloud_ topics you may consider taking th
 
 * Pre-reading material
 * Executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebook (either PyTorch or TensorFlow).
-* **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem.
+* **Labs** are available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem.
 * Some sections contain links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules that cover related topics.
 
 ## Getting Started
