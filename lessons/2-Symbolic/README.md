@@ -58,7 +58,7 @@ Untyped-Language | doesn't have | type definitions
 
 > ✅ Think how triplets can be used to represent other types of knowledge.
 
-2. **Hierarchical representations** emphasize the fact that we often create a hierarchy of objects inside our head. For example, we know that canary is a bird, and all birds have wings. We also have some idea about what colour a canary usually is, and what is their flight speed.
+2. **Hierarchical representations** emphasize the fact that we often create a hierarchy of objects inside our head. For example, we know that a canary is a bird, and all birds have wings. We also have some idea about what colour a canary usually is, and what their flight speed is.
 
    - **Frame representation** is based on representing each object or class of objects as a **frame** which contains **slots**. Slots have possible default values, value restrictions, or stored procedures that can be called to obtain the value of a slot. All frames form a hierarchy similar to an object hierarchy in object-oriented programming languages.
    - **Scenarios** are special kind of frames that represent complex situations that can unfold in time.
@@ -74,12 +74,12 @@ Program Length | | | 5-5000 lines |
 Block Syntax | Indent | | |
 
 3. **Procedural representations** are based on representing knowledge by a list of actions that can be executed when a certain condition occurs.
-   - Production rules are if-then statements that allow us to draw conclusions. For example, a doctor can have a rule saying that **IF** a patient has high fever **OR** high level of C-reactive protein in blood test **THEN** he has an inflammation. Once we encounter one of the conditions, we can make a conclusion about inflammation, and then use it in further reasoning.
+   - Production rules are if-then statements that allow us to draw conclusions. For example, a doctor can have a rule saying that **IF** a patient has a high fever **OR** a high level of C-reactive protein in a blood test **THEN** he has an inflammation. Once we encounter one of the conditions, we can make a conclusion about inflammation, and then use it in further reasoning.
    - Algorithms can be considered another form of procedural representation, although they are almost never used directly in knowledge-based systems.
 
 4. **Logic** was originally proposed by Aristotle as a way to represent universal human knowledge.
    - Predicate Logic as a mathematical theory is too rich to be computable, therefore some subset of it is normally used, such as Horn clauses used in Prolog.
-   - Descriptive Logic is a family of logical systems used to represent and reason about hierarchies of objects distributed knowledge representations such as *semantic web*.
+   - Descriptive Logic is a family of logical systems used to represent and reason about hierarchies of objects distributed knowledge representations such as the *semantic web*.
 
 ## Expert Systems
 
