@@ -18,7 +18,7 @@ Originally, computers were invented by [Charles Babbage](https://en.wikipedia.or
 
 ---
 
-There are some tasks, however, that we do not explicitly know how to solve. Consider determining the age of a person from his/her photograph. We somehow learn to do it, because we have seen many examples of people of different age, but we cannot explicitly explain how we do it, nor can we program the computer to do it. This is exactly the kind of task that are of interest to **Artificial Intelligence** (AI for short).
+There are some tasks, however, that we do not explicitly know how to solve. Consider determining the age of a person from his/her photograph. We somehow learn to do it, because we have seen many examples of people of different ages, but we cannot explicitly explain how we do it, nor can we program the computer to do it. This is exactly the kind of task that is of interest to **Artificial Intelligence** (AI for short).
 
 ✅ Think of some tasks that you could offload to a computer that would benefit from AI. Consider the fields of finance, medicine, and the arts - how are these fields benefiting today from AI?
 
@@ -66,7 +66,7 @@ A top-down approach models the way a person reasons to solve a problem. It invol
 
 There are also some other possible approaches to intelligence:
 
-* An **Emergent**, **Synergetic** or **multi-agent approach** are based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
+* An **Emergent**, **Synergetic** or **multi-agent approach** is based on the fact that complex intelligent behaviour can be obtained by an interaction of a large number of simple agents. According to [evolutionary cybernetics](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), intelligence can *emerge* from more simple, reactive behaviour in the process of *metasystem transition*.
 
 * An **Evolutionary approach**, or **genetic algorithm** is an optimization process based on the principles of evolution.
 
