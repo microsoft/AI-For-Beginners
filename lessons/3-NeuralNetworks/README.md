@@ -25,7 +25,7 @@ In this curriculum, we will only focus on neural network models.
 
 ## A Model of a Neuron
 
-From biology we know that our brain consists of neural cells, each of them having multiple "inputs" (axons), and an output (dendrite). Axons and dendrites can conduct electrical signals, and connections between axons and dendrites can exhibit different degrees of conductivity (controlled by neuromediators).
+From biology we know that our brain consists of neural cells, each of them having multiple "inputs" (Dendrites), and an output (Axon). Axons and dendrites can conduct electrical signals, and connections between axons and dendrites can exhibit different degrees of conductivity (controlled by neuromediators).
 
 ![Model of a Neuron](images/synapse-wikipedia.jpg) | ![Model of a Neuron](images/artneuron.png)
 ----|----
