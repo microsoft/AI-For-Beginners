@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import Quiz from "@/components/Quiz.vue";
+import Quiz from "@/components/TheQuiz.vue";
 import messages from "@/assets/translations";
 
 export default {

@@ -19,7 +19,7 @@
 import messages from "@/assets/translations";
 
 export default {
-  name: "Home",
+  name: "TheHome",
   data() {
     return {
       locale: "",
