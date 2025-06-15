@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/webtech#"
+     xml:base="http://example.org/webtech"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:Ontology rdf:about="http://example.org/webtech"/>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="http://example.org/webtech#WebTechnology"/>
+    <owl:Class rdf:about="http://example.org/webtech#MarkupLanguage"/>
+    <owl:Class rdf:about="http://example.org/webtech#StyleSheetLanguage"/>
+    <owl:Class rdf:about="http://example.org/webtech#ProgrammingLanguage"/>
+    <owl:Class rdf:about="http://example.org/webtech#Browser"/>
+
+    <!-- Individuals -->
+    <owl:NamedIndividual rdf:about="http://example.org/webtech#HTML5">
+        <rdf:type rdf:resource="http://example.org/webtech#MarkupLanguage"/>
+        <rdfs:label>HTML5</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://example.org/webtech#CSS3">
+        <rdf:type rdf:resource="http://example.org/webtech#StyleSheetLanguage"/>
+        <rdfs:label>CSS3</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://example.org/webtech#JavaScript">
+        <rdf:type rdf:resource="http://example.org/webtech#ProgrammingLanguage"/>
+        <rdfs:label>JavaScript</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://example.org/webtech#Chrome">
+        <rdf:type rdf:resource="http://example.org/webtech#Browser"/>
+        <rdfs:label>Chrome</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://example.org/webtech#Firefox">
+        <rdf:type rdf:resource="http://example.org/webtech#Browser"/>
+        <rdfs:label>Firefox</rdfs:label>
+    </owl:NamedIndividual>
+
+    <!-- Properties -->
+    <owl:ObjectProperty rdf:about="http://example.org/webtech#supports"/>
+    <owl:ObjectProperty rdf:about="http://example.org/webtech#renders"/>
+    <owl:ObjectProperty rdf:about="http://example.org/webtech#styles"/>
+
+    <!-- Relations -->
+    <rdf:Description rdf:about="http://example.org/webtech#Chrome">
+        <supports rdf:resource="http://example.org/webtech#HTML5"/>
+        <supports rdf:resource="http://example.org/webtech#CSS3"/>
+        <supports rdf:resource="http://example.org/webtech#JavaScript"/>
+        <renders rdf:resource="http://example.org/webtech#HTML5"/>
+        <renders rdf:resource="http://example.org/webtech#CSS3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/webtech#Firefox">
+        <supports rdf:resource="http://example.org/webtech#HTML5"/>
+        <supports rdf:resource="http://example.org/webtech#CSS3"/>
+        <supports rdf:resource="http://example.org/webtech#JavaScript"/>
+        <renders rdf:resource="http://example.org/webtech#HTML5"/>
+        <renders rdf:resource="http://example.org/webtech#CSS3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/webtech#CSS3">
+        <styles rdf:resource="http://example.org/webtech#HTML5"/>
+    </rdf:Description>
+</rdf:RDF>
