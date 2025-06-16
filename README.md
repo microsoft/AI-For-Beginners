@@ -107,6 +107,8 @@ Don't forget to star (🌟) this repo to find it easier later.
 
 Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) to meet and network with other learners taking this course and get support.
 
+If you have product feedback or questions whilst building visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+
 ## Quizzes 
 
 > **A note about quizzes**: All quizzes are contained in the Quiz-app folder in etc\quiz-app, They are linked from within the lessons the quiz app can be run locally or deployed to Azure; follow the instruction in the `quiz-app` folder. They are gradually being localized.
