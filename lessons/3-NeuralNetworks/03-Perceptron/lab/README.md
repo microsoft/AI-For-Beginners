@@ -14,6 +14,6 @@ Using the code we have developed in this lesson for binary classification of MNI
 
 > **Hint**: If we combine weights of all 10 perceptrons into one matrix, we should be able to apply all 10 perceptrons to the input digits by one matrix multiplication. Most probable digit can then be found just by applying `argmax` operation on the output.
 
-## Stating Notebook
+## Starting Notebook
 
 Start the lab by opening [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
