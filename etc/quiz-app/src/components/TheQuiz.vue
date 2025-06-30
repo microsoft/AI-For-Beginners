@@ -38,7 +38,7 @@
 import messages from "@/assets/translations";
 
 export default {
-  name: "Quiz",
+  name: "TheQuiz",
   data() {
     return {
       currentQuestion: 0,
