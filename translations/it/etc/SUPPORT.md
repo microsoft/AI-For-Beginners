@@ -1,14 +1,12 @@
-# Support
+# Supporto
 
-## How to file issues and get help  
+## Come segnalare problemi e ricevere assistenza
 
-This project utilizes GitHub Issues to monitor bugs and feature requests. Please check the existing issues before submitting new ones to prevent duplicates. For new issues, please report your bug or feature request as a new Issue.
+Questo progetto utilizza *GitHub Issues* per tracciare bug e richieste di funzionalità. Ti invitiamo a cercare tra le issue esistenti prima di aprirne di nuove, per evitare duplicati.  
+Per nuovi problemi, segnala il bug o la richiesta di funzionalità aprendo una nuova *Issue*.
 
-For assistance and inquiries regarding the use of this project, kindly refer to the Discussion Boards.
+Per assistenza e domande sull'utilizzo di questo progetto, utilizza i *Discussion Boards*.
 
-## Microsoft Support Policy  
+## Politica di supporto Microsoft
 
-Support for this project is restricted to the resources mentioned above.
-
-**Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+Il supporto per questo progetto è limitato alle risorse elencate sopra.
