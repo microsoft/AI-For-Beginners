@@ -1,36 +1,36 @@
-# Contribuye traduciendo lecciones
+# Contribuisci traducendo le lezioni
 
-¡Damos la bienvenida a las traducciones de las lecciones en este currículo!
+Accogliamo con piacere traduzioni delle lezioni contenute in questo curriculum!
 
-## Directrices
+## Linee guida
 
-Hay carpetas en cada carpeta de lección y en la carpeta de introducción de lección que contienen los archivos markdown traducidos.
+In ogni cartella delle lezioni e nella cartella di introduzione alle lezioni ci sono delle sottocartelle che contengono i file Markdown tradotti.
 
-> Nota: por favor, no traduzcas ningún código en los archivos de muestra de código; lo único que se debe traducir son README, tareas y cuestionarios. ¡Gracias!
+> Nota: ti chiediamo di **non tradurre alcun codice** nei file di esempio. Gli unici contenuti da tradurre sono i file README, gli assignment e i quiz. Grazie!
 
-Los archivos traducidos deben seguir esta convención de nombres:
+I file tradotti devono seguire questa convenzione di denominazione:
 
-**README._[language]_.md**
+**README._[lingua]_.md**
 
-donde _[language]_ es una abreviatura de dos letras del idioma que sigue el estándar ISO 639-1 (por ejemplo, `README.es.md` para español y `README.nl.md` para neerlandés).
+dove _[lingua]_ è un'abbreviazione di due lettere della lingua, secondo lo standard ISO 639-1 (es. `README.es.md` per lo spagnolo e `README.nl.md` per l’olandese).
 
-**assignment._[language]_.md**
+**assignment._[lingua]_.md**
 
-Al igual que los README, por favor traduce también las tareas.
+Allo stesso modo dei README, anche gli assignment devono essere tradotti.
 
-**Cuestionarios**
+**Quiz**
 
-1. Agrega tu traducción al quiz-app añadiendo un archivo aquí: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, con la convención de nombres adecuada (en.json, fr.json). **Sin embargo, por favor no localices las palabras 'true' o 'false'. ¡Gracias!**
+1. Aggiungi la tua traduzione al quiz-app creando un file qui: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, utilizzando la convenzione di denominazione corretta (es. `en.json`, `fr.json`).  
+   **Per favore, non localizzare le parole ‘true’ o ‘false’. Grazie!**
 
-2. Agrega el código de tu idioma al menú desplegable en el archivo App.vue del quiz-app.
+2. Aggiungi il codice della tua lingua al menu a discesa nel file `App.vue` del quiz-app.
 
-3. Edita el [archivo index.js de traducciones del quiz-app](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) para añadir tu idioma.
+3. Modifica il file [index.js delle traduzioni](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) per includere la tua lingua.
 
-4. Finalmente, edita TODOS los enlaces de los cuestionarios en tus archivos README.md traducidos para que apunten directamente a tu cuestionario traducido: https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 se convierte en https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
+4. Infine, modifica **tutti** i link ai quiz nei tuoi file README.md tradotti affinché puntino direttamente alla tua versione tradotta del quiz:  
+   `https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1` diventa  
+   `https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id`
 
-**¡GRACIAS!**
+**GRAZIE**
 
-¡Apreciamos sinceramente tus esfuerzos!
-
-**Disclaimer**: 
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Apprezziamo davvero tanto il tuo impegno!
