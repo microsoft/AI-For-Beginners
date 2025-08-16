@@ -1,45 +1,42 @@
-# Introduction à ce cursus
+# Come iniziare con questo curriculum
 
-## Êtes-vous un étudiant ?
+## Sei uno studente?
 
-Commencez avec les ressources suivantes :
+Inizia con queste risorse:
 
-* [Page du Hub étudiant](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) Sur cette page, vous trouverez des ressources pour débutants, des packs étudiants et même des moyens d'obtenir un bon de certification gratuit. C'est une page que vous voudrez mettre en favoris et consulter de temps en temps, car nous mettons à jour le contenu au moins une fois par mois.
-* [Ambassadeurs Microsoft Student Learn](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Rejoignez une communauté mondiale d'ambassadeurs étudiants, cela pourrait être votre porte d'entrée vers Microsoft.
+* [Pagina Student Hub](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste): In questa pagina troverai risorse per principianti, pacchetti per studenti e persino modi per ottenere un voucher per una certificazione gratuita. È una pagina da salvare nei preferiti e consultare periodicamente, poiché aggiorniamo i contenuti almeno una volta al mese.
+* [Microsoft Student Learn Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste): Unisciti a una community globale di ambasciatori studenteschi; potrebbe essere il tuo punto d'ingresso in Microsoft.
 
-**Étudiants**, il existe plusieurs façons d'utiliser le cursus. Tout d'abord, vous pouvez simplement lire le texte et consulter le code directement sur GitHub. Si vous souhaitez exécuter le code dans l'un des notebooks - [lisez nos instructions](./etc/how-to-run.md), et trouvez plus de conseils sur la façon de le faire [dans cet article de blog](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Studenti**, ci sono diversi modi per usare il curriculum. Prima di tutto, puoi semplicemente leggere i testi e consultare il codice direttamente su GitHub. Se vuoi eseguire il codice nei notebook – [leggi le nostre istruzioni](./etc/how-to-run.md), e scopri altri consigli su come farlo [in questo post del blog](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-> **Remarque** : [Instructions sur la façon d'exécuter le code de ce cursus](/how-to-run.md)
+> **Nota**: [Istruzioni su come eseguire il codice di questo curriculum](./how-to-run.md)
 
-## Auto-apprentissage
+## Studio autonomo
 
-Cependant, si vous souhaitez suivre le cours en tant que projet d'auto-apprentissage, nous vous suggérons de forker l'ensemble du dépôt sur votre propre compte GitHub et de compléter les exercices par vous-même ou en groupe :
+Se invece desideri seguire il corso come progetto di autoapprendimento, ti consigliamo di fare un *fork* dell'intero repository sul tuo account GitHub e completare gli esercizi da solo o con un gruppo:
 
-* Commencez par un quiz pré-conférence.
-* Lisez le texte d'introduction de la conférence.
-* Si la conférence comprend des notebooks supplémentaires, parcourez-les, lisez et exécutez le code. Si des notebooks TensorFlow et PyTorch sont fournis, vous pouvez vous concentrer sur l'un d'eux - choisissez votre framework préféré.
-* Les notebooks contiennent souvent certains défis qui vous obligent à ajuster le code un peu pour expérimenter.
-* Réalisez le quiz post-conférence.
-* S'il y a un laboratoire associé au module - complétez l'affectation.
-* Visitez le [Forum de discussion](https://github.com/microsoft/AI-For-Beginners/discussions) pour "apprendre à haute voix".
+* Inizia con un quiz preliminare alla lezione.
+* Leggi il testo introduttivo della lezione.
+* Se la lezione include notebook aggiuntivi, leggili ed esegui il codice. Se sono disponibili notebook sia per TensorFlow che per PyTorch, puoi concentrarti su uno dei due – scegli il tuo framework preferito.
+* I notebook spesso contengono sfide che richiedono piccole modifiche al codice per sperimentare.
+* Completa il quiz alla fine della lezione.
+* Se è previsto un laboratorio per il modulo, porta a termine l’esercitazione.
+* Visita il [Forum di discussione](https://github.com/microsoft/AI-For-Beginners/discussions) per "imparare ad alta voce".
 
-> Pour un apprentissage supplémentaire, nous recommandons de suivre ces modules et parcours d'apprentissage [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste).
+> Per approfondire, consigliamo di seguire questi moduli e percorsi di apprendimento su [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste).
 
-**Enseignants**, nous avons [inclus quelques suggestions](/for-teachers.md) sur la façon d'utiliser ce cursus.
+**Insegnanti**, abbiamo [incluso alcuni suggerimenti](/for-teachers.md) su come usare questo curriculum.
 
 ---
 
-## Pédagogie
+## Pedagogia
 
-Nous avons choisi deux principes pédagogiques lors de la construction de ce cursus : garantir qu'il soit pratique **basé sur des projets** et qu'il inclut des **quiz fréquents**.
+Abbiamo adottato due principi pedagogici nella costruzione di questo curriculum: garantire che sia **basato su progetti** e includere **quiz frequenti**.
 
-En veillant à ce que le contenu soit aligné sur des projets, le processus devient plus engageant pour les étudiants et la rétention des concepts sera renforcée. De plus, un quiz à faible enjeu avant un cours fixe l'intention de l'étudiant envers l'apprentissage d'un sujet, tandis qu'un second quiz après le cours assure une rétention supplémentaire. Ce cursus a été conçu pour être flexible et amusant et peut être suivi dans son intégralité ou en partie. Les projets commencent petits et deviennent de plus en plus complexes à la fin du cycle de 12 semaines.
+Allineando i contenuti ai progetti, l'apprendimento diventa più coinvolgente per gli studenti e migliora la memorizzazione dei concetti. Inoltre, un quiz preliminare a basso impatto aiuta lo studente a concentrarsi sul tema della lezione, mentre un quiz finale rafforza l’apprendimento. Questo curriculum è progettato per essere flessibile e divertente, e può essere seguito interamente o solo in parte. I progetti iniziano in modo semplice e diventano progressivamente più complessi entro la fine delle 12 settimane.
 
-> **Une note sur les quiz** : Tous les quiz sont contenus [dans cette application](https://red-field-0a6ddfd03.1.azurestaticapps.net/), pour un total de 50 quiz de trois questions chacun. Ils sont liés depuis les leçons, mais l'application de quiz peut être exécutée localement ; suivez les instructions dans le dossier `etc/quiz-app`.
+> **Nota sui quiz**: Tutti i quiz sono contenuti [in questa app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), per un totale di 50 quiz da tre domande ciascuno. Sono collegati all’interno delle lezioni, ma è anche possibile eseguire l'app localmente; segui le istruzioni nella cartella `etc/quiz-app`.
 
-## Accès hors ligne
+## Accesso offline
 
-Vous pouvez exécuter cette documentation hors ligne en utilisant [Docsify](https://docsify.js.org/#/). Forkez ce dépôt, [installez Docsify](https://docsify.js.org/#/quickstart) sur votre machine locale, puis dans le dossier `etc/docsify` de ce dépôt, tapez `docsify serve`. Le site sera servi sur le port 3000 sur votre localhost : `localhost:3000`. Un PDF du cursus est disponible [à ce lien](../../../../../../etc/pdf/readme.pdf).
-
-**Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Puoi consultare questa documentazione anche offline usando [Docsify](https://docsify.js.org/#/). Esegui un *fork* di questo repository, [installa Docsify](https://docsify.js.org/#/quickstart) sulla tua macchina locale, poi, dalla cartella principale del repo, esegui `docsify serve`. Il sito sarà disponibile sulla porta 3000 del tuo localhost: `localhost:3000`. È disponibile anche una versione in PDF del curriculum [a questo link](/etc/pdf/readme.pdf).
