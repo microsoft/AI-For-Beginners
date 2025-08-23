@@ -1,20 +1,17 @@
-# Contribuindo
+# Contributi
 
-Este projeto acolhe contribuições e sugestões. A maioria das contribuições exige que você concorde com um Acordo de Licença de Contribuidor (CLA) declarando que você tem o direito de, e realmente faz, nos conceder os direitos de usar sua contribuição. Para mais detalhes, visite https://cla.microsoft.com.
+Questo progetto accoglie con piacere contributi e suggerimenti. La maggior parte dei contributi richiede che tu accetti un Contributor License Agreement (CLA), dichiarando di avere il diritto di concedere, e di fatto concedere, a noi i diritti di utilizzo del tuo contributo. Per maggiori dettagli, visita https://cla.microsoft.com.
 
-Quando você enviar um pull request, um CLA-bot determinará automaticamente se você precisa fornecer um CLA e decorará o PR de forma apropriada (por exemplo, rótulo, comentário). Basta seguir as instruções fornecidas pelo bot. Você só precisará fazer isso uma vez em todos os repositórios que utilizam nosso CLA.
+Quando invii una pull request, un CLA-bot determinerà automaticamente se devi fornire un CLA e annoterà la Pull Request in modo appropriato (es. con un'etichetta o un commento). Ti basterà seguire le istruzioni fornite dal bot. Dovrai farlo solo una volta per tutti i repository che utilizzano il nostro CLA.
 
-Este projeto adotou o [Código de Conduta de Código Aberto da Microsoft](https://opensource.microsoft.com/codeofconduct/). Para mais informações, consulte as [Perguntas Frequentes sobre o Código de Conduta](https://opensource.microsoft.com/codeofconduct/faq/) ou entre em contato com [opencode@microsoft.com](mailto:opencode@microsoft.com) para quaisquer perguntas ou comentários adicionais.
+Questo progetto ha adottato il [Codice di Condotta Open Source di Microsoft](https://opensource.microsoft.com/codeofconduct/). Per maggiori informazioni consulta [Codice di Condotta FAQ](https://opensource.microsoft.com/codeofconduct/faq/) o contatta [opencode@microsoft.com](mailto:opencode@microsoft.com) per qualunque eventuale domanda o commento.
 
-# Procurando Contribuições
+# Cerchiamo Contributi
 
-Atualmente, estamos buscando ativamente contribuições nos seguintes tópicos:
+Attualmente stiamo cercando attivamente contributi sui seguenti argomenti:
 
-- [ ] Escrever seção sobre Aprendizado por Reforço Profundo
-- [ ] Melhorar seção + notebook sobre Detecção de Objetos
-- [ ] PyTorch Lightning (para [esta seção](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
-- [ ] Escrever seção + exemplos sobre Reconhecimento de Entidades Nomeadas
-- [ ] Criar exemplos para treinar nossas próprias incorporações para [esta seção](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)
-
-**Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+- [ ] Scrivere la sezione sul Deep Reinforcement Learning
+- [ ] Migliorare la sezione e il notebook sul Riconoscimento di Oggetti
+- [ ] PyTorch Lightning (per [questa sezione](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
+- [ ] Scrivere una sezione + fornire esempi su Named Entity Recognition
+- [ ] Creare esempi per addestrare i propri embeddings per [questa sezione](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)
