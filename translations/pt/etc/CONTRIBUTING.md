@@ -1,20 +1,31 @@
-# Contribuindo
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
+  "translation_date": "2025-08-24T09:09:05+00:00",
+  "source_file": "etc/CONTRIBUTING.md",
+  "language_code": "pt"
+}
+-->
+# Contribuir
 
-Este projeto acolhe contribuições e sugestões. A maioria das contribuições exige que você concorde com um Acordo de Licença de Contribuidor (CLA), declarando que você tem o direito de, e de fato, nos conceder os direitos de usar sua contribuição. Para mais detalhes, visite https://cla.microsoft.com.
+Este projeto acolhe contribuições e sugestões. A maioria das contribuições exige que concorde com um Acordo de Licença de Contribuidor (CLA), declarando que tem o direito de, e de facto concede-nos, os direitos para usar a sua contribuição. Para mais detalhes, visite https://cla.microsoft.com.
 
-Quando você enviar um pull request, um CLA-bot determinará automaticamente se você precisa fornecer um CLA e decorará o PR de forma apropriada (por exemplo, etiqueta, comentário). Basta seguir as instruções fornecidas pelo bot. Você precisará fazer isso apenas uma vez em todos os repositórios que utilizam nosso CLA.
+Quando submeter um pull request, um CLA-bot determinará automaticamente se precisa de fornecer um CLA e decorará o PR de forma apropriada (por exemplo, etiqueta, comentário). Basta seguir as instruções fornecidas pelo bot. Só precisará de fazer isto uma vez em todos os repositórios que utilizam o nosso CLA.
 
-Este projeto adotou o [Código de Conduta de Código Aberto da Microsoft](https://opensource.microsoft.com/codeofconduct/). Para mais informações, consulte as [Perguntas Frequentes sobre o Código de Conduta](https://opensource.microsoft.com/codeofconduct/faq/) ou entre em contato com [opencode@microsoft.com](mailto:opencode@microsoft.com) com quaisquer perguntas ou comentários adicionais.
+Este projeto adotou o [Código de Conduta de Código Aberto da Microsoft](https://opensource.microsoft.com/codeofconduct/).  
+Para mais informações, consulte as [Perguntas Frequentes sobre o Código de Conduta](https://opensource.microsoft.com/codeofconduct/faq/)  
+ou contacte [opencode@microsoft.com](mailto:opencode@microsoft.com) para quaisquer questões ou comentários adicionais.
 
-# Procurando Contribuições
+# Procuramos Contribuições
 
-Atualmente, estamos ativamente buscando contribuições nos seguintes tópicos:
+Estamos atualmente à procura de contribuições ativas nos seguintes tópicos:
 
-- [ ] Escrever seção sobre Aprendizado por Reforço Profundo
-- [ ] Melhorar seção + notebook sobre Detecção de Objetos
-- [ ] PyTorch Lightning (para [esta seção](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
-- [ ] Escrever seção + exemplos sobre Reconhecimento de Entidades Nomeadas
-- [ ] Criar exemplos para treinar nossas próprias embeddings para [esta seção](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)
+- [ ] Escrever uma secção sobre Aprendizagem por Reforço Profunda  
+- [ ] Melhorar a secção + notebook sobre Deteção de Objetos  
+- [ ] PyTorch Lightning (para [esta secção](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))  
+- [ ] Escrever uma secção + exemplos sobre Reconhecimento de Entidades Nomeadas  
+- [ ] Criar exemplos para treinar os nossos próprios embeddings para [esta secção](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)  
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações errôneas decorrentes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.

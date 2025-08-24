@@ -1,20 +1,29 @@
-# Mitwirken
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
+  "translation_date": "2025-08-24T09:44:51+00:00",
+  "source_file": "etc/CONTRIBUTING.md",
+  "language_code": "de"
+}
+-->
+# Beiträge
 
-Dieses Projekt freut sich über Beiträge und Vorschläge. Die meisten Beiträge erfordern, dass Sie einer Contributor License Agreement (CLA) zustimmen, in der erklärt wird, dass Sie das Recht haben, und tatsächlich auch, uns die Rechte zur Nutzung Ihres Beitrags zu gewähren. Für weitere Informationen besuchen Sie bitte https://cla.microsoft.com.
+Dieses Projekt begrüßt Beiträge und Vorschläge. Die meisten Beiträge erfordern, dass Sie einer Contributor License Agreement (CLA) zustimmen, die erklärt, dass Sie das Recht haben und tatsächlich gewähren, uns die Rechte zur Nutzung Ihres Beitrags zu übertragen. Weitere Details finden Sie unter https://cla.microsoft.com.
 
-Wenn Sie einen Pull Request einreichen, wird ein CLA-Bot automatisch bestimmen, ob Sie eine CLA bereitstellen müssen, und den PR entsprechend kennzeichnen (z. B. Label, Kommentar). Befolgen Sie einfach die Anweisungen des Bots. Sie müssen dies nur einmal für alle Repositories tun, die unsere CLA verwenden.
+Wenn Sie eine Pull-Anfrage einreichen, wird ein CLA-Bot automatisch feststellen, ob Sie eine CLA bereitstellen müssen, und die PR entsprechend kennzeichnen (z. B. Label, Kommentar). Folgen Sie einfach den Anweisungen des Bots. Dies müssen Sie nur einmal für alle Repositories tun, die unsere CLA verwenden.
 
-Dieses Projekt hat den [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) übernommen. Für weitere Informationen siehe die [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) oder kontaktieren Sie [opencode@microsoft.com](mailto:opencode@microsoft.com) bei weiteren Fragen oder Anmerkungen.
+Dieses Projekt hat den [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie in den [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) oder kontaktieren Sie [opencode@microsoft.com](mailto:opencode@microsoft.com) bei zusätzlichen Fragen oder Kommentaren.
 
-# Suche nach Beiträgen
+# Gesuchte Beiträge
 
-Wir suchen derzeit aktiv nach Beiträgen zu folgenden Themen:
+Wir suchen derzeit aktiv nach Beiträgen zu den folgenden Themen:
 
 - [ ] Abschnitt über Deep Reinforcement Learning schreiben
 - [ ] Abschnitt + Notebook zur Objekterkennung verbessern
 - [ ] PyTorch Lightning (für [diesen Abschnitt](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
-- [ ] Abschnitt + Beispiele zur Named Entity Recognition schreiben
-- [ ] Beispiele für das Training unserer eigenen Embeddings für [diesen Abschnitt](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling) erstellen
+- [ ] Abschnitt + Beispiele zu Named Entity Recognition schreiben
+- [ ] Beispiele erstellen, um eigene Embeddings für [diesen Abschnitt](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling) zu trainieren
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Verantwortung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

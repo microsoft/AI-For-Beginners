@@ -1,8 +1,17 @@
-# Resumen
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
+  "translation_date": "2025-08-24T09:11:15+00:00",
+  "source_file": "lessons/README.md",
+  "language_code": "es"
+}
+-->
+# Descripción general
 
-![Resumen en un garabato](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.es.png)
+![Descripción general en un dibujo](../../../lessons/sketchnotes/ai-overview.png)
 
-> Garabato por [Tomomi Imura](https://twitter.com/girlie_mac)
+> Dibujo por [Tomomi Imura](https://twitter.com/girlie_mac)
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por lograr la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de ningún malentendido o mala interpretación que surja del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

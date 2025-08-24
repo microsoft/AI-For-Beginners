@@ -1,26 +1,35 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a094ef9927883de1cfcee51dbd143381",
+  "translation_date": "2025-08-24T09:26:23+00:00",
+  "source_file": "lessons/0-course-setup/for-teachers.md",
+  "language_code": "es"
+}
+-->
 # Para Educadores
 
-¿Te gustaría utilizar este currículo en tu aula? ¡Siéntete libre de hacerlo!
+¿Te gustaría usar este plan de estudios en tu aula? ¡Siéntete libre de hacerlo!
 
-De hecho, puedes usarlo dentro de GitHub mismo utilizando GitHub Classroom.
+De hecho, puedes usarlo directamente en GitHub utilizando GitHub Classroom.
 
-Para hacerlo, haz un fork de este repositorio. Necesitarás crear un repositorio para cada lección, así que tendrás que extraer cada carpeta en un repositorio separado. De esa manera, [GitHub Classroom](https://classroom.github.com/classrooms) puede recoger cada lección por separado.
+Para hacerlo, haz un fork de este repositorio. Necesitarás crear un repositorio para cada lección, por lo que tendrás que extraer cada carpeta en un repositorio separado. De esta manera, [GitHub Classroom](https://classroom.github.com/classrooms) podrá identificar cada lección por separado.
 
 Estas [instrucciones completas](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) te darán una idea de cómo configurar tu aula.
 
-## Usando el repositorio tal como está
+## Usar el repositorio tal como está
 
-Si deseas utilizar este repositorio tal como está actualmente, sin usar GitHub Classroom, también se puede hacer. Tendrás que comunicarte con tus estudiantes sobre qué lección trabajar juntos.
+Si prefieres usar este repositorio tal como está, sin utilizar GitHub Classroom, también es posible. Necesitarás comunicarte con tus estudiantes para indicarles qué lección trabajar juntos.
 
-En un formato en línea (Zoom, Teams u otro), podrías formar salas de grupo para los cuestionarios y guiar a los estudiantes para ayudarles a prepararse para aprender. Luego, invita a los estudiantes a participar en los cuestionarios y enviar sus respuestas como 'issues' en un momento determinado. Podrías hacer lo mismo con las tareas, si deseas que los estudiantes trabajen colaborativamente de manera abierta.
+En un formato en línea (Zoom, Teams u otro), podrías formar salas de trabajo para los cuestionarios y guiar a los estudiantes para que se preparen para aprender. Luego, invítalos a realizar los cuestionarios y enviar sus respuestas como 'issues' en un momento determinado. Podrías hacer lo mismo con las tareas, si deseas que los estudiantes trabajen de manera colaborativa y abierta.
 
-Si prefieres un formato más privado, pide a tus estudiantes que hagan un fork del currículo, lección por lección, a sus propios repositorios de GitHub como repositorios privados y te den acceso. Así podrán completar cuestionarios y tareas de forma privada y enviártelos a través de issues en tu repositorio del aula.
+Si prefieres un formato más privado, pide a tus estudiantes que hagan un fork del plan de estudios, lección por lección, en sus propios repositorios privados de GitHub y te den acceso. De esta manera, podrán completar los cuestionarios y tareas de forma privada y enviártelos a través de issues en tu repositorio de aula.
 
-Hay muchas maneras de hacer que esto funcione en un formato de aula en línea. ¡Por favor, háznos saber qué funciona mejor para ti!
+Existen muchas maneras de hacer que esto funcione en un aula en línea. ¡Por favor, cuéntanos qué funciona mejor para ti!
 
 ## Por favor, danos tu opinión
 
-Queremos que este currículo funcione para ti y tus estudiantes. ¡Por favor, déjanos tus comentarios en los foros de discusión!
+Queremos que este plan de estudios funcione para ti y tus estudiantes. ¡Déjanos tus comentarios en los foros de discusión!
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de ningún malentendido o mala interpretación que surja del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

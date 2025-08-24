@@ -1,8 +1,17 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
+  "translation_date": "2025-08-24T09:02:39+00:00",
+  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
+  "language_code": "pt"
+}
+-->
 # Tarefa de NetLogo
 
-Escolha um dos modelos da biblioteca do NetLogo e use-o para simular uma situação da vida real da maneira mais próxima possível. Um bom exemplo seria ajustar o modelo de Vírus na pasta de Visualizações Alternativas para mostrar como ele pode ser usado para modelar a disseminação do COVID-19. Você consegue construir um modelo que imite a propagação viral da vida real?
+Escolhe um dos modelos da biblioteca do NetLogo e utiliza-o para simular uma situação da vida real o mais fielmente possível. Um bom exemplo seria ajustar o modelo Virus na pasta Alternative Visualizations para mostrar como pode ser usado para modelar a propagação da COVID-19. Consegues criar um modelo que imite a propagação real de um vírus?
 
-Mostre seu trabalho salvando uma cópia e criando uma demonstração em vídeo explicando como o modelo está conectado a uma situação do mundo real.
+Mostra o teu trabalho guardando uma cópia e criando um vídeo de demonstração a explicar como o modelo está relacionado com uma situação do mundo real.
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em sua língua nativa deve ser considerado a fonte autorizada. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações erradas decorrentes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.
