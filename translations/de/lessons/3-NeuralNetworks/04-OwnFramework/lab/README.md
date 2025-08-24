@@ -1,23 +1,32 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-24T09:40:10+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "de"
+}
+-->
 # MNIST-Klassifikation mit unserem eigenen Framework
 
 Laboraufgabe aus dem [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
 
 ## Aufgabe
 
-Löse das Problem der Klassifikation handgeschriebener Ziffern im MNIST-Datensatz mithilfe von 1-, 2- und 3-schichtigen Perzeptronen. Nutze das neuronale Netzwerk-Framework, das wir in der Lektion entwickelt haben.
+Lösen Sie das MNIST-Problem der handschriftlichen Ziffernklassifikation mithilfe eines 1-, 2- und 3-schichtigen Perzeptrons. Verwenden Sie das neuronale Netzwerk-Framework, das wir in der Lektion entwickelt haben.
 
-## Notebook starten
+## Start-Notebook
 
-Beginne das Labor, indem du [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb) öffnest.
+Beginnen Sie das Labor, indem Sie [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb) öffnen.
 
 ## Fragen
 
-Versuche als Ergebnis dieses Labors die folgenden Fragen zu beantworten:
+Versuchen Sie, als Ergebnis dieses Labors die folgenden Fragen zu beantworten:
 
-- Beeinflusst die Aktivierungsfunktion zwischen den Schichten die Leistung des Netzwerks?
+- Beeinflusst die Aktivierungsfunktion zwischen den Schichten die Netzwerkleistung?
 - Benötigen wir für diese Aufgabe ein 2- oder 3-schichtiges Netzwerk?
-- Hattest du Probleme beim Trainieren des Netzwerks? Besonders als die Anzahl der Schichten zunahm.
-- Wie verhalten sich die Gewichte des Netzwerks während des Trainings? Du kannst den maximalen Absolutwert der Gewichte im Vergleich zur Epoche auftragen, um die Beziehung zu verstehen.
+- Sind während des Trainings des Netzwerks Probleme aufgetreten? Besonders, wenn die Anzahl der Schichten zunahm.
+- Wie verhalten sich die Gewichte des Netzwerks während des Trainings? Sie können den maximalen absoluten Wert der Gewichte im Vergleich zur Epoche plotten, um die Beziehung zu verstehen.
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, sollten Sie sich bewusst sein, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle angesehen werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, weisen wir darauf hin, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

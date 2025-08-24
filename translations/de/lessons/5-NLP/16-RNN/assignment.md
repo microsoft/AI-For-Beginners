@@ -1,6 +1,15 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
+  "translation_date": "2025-08-24T09:30:25+00:00",
+  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
+  "language_code": "de"
+}
+-->
 # Aufgabe: Notebooks
 
-Verwenden Sie die mit dieser Lektion verbundenen Notebooks (entweder die PyTorch- oder die TensorFlow-Version), und führen Sie sie erneut mit Ihrem eigenen Datensatz aus, möglicherweise einem von Kaggle, wobei Sie die Quelle angeben. Überarbeiten Sie das Notebook, um Ihre eigenen Erkenntnisse zu betonen. Probieren Sie eine andere Art von Datensatz aus und dokumentieren Sie Ihre Ergebnisse mit Texten wie [diesem Kaggle-Wettbewerbsdatensatz über Wettertweets](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+Verwenden Sie die Notebooks, die mit dieser Lektion verbunden sind (entweder die PyTorch- oder die TensorFlow-Version), und führen Sie sie mit Ihrem eigenen Datensatz erneut aus, möglicherweise einem von Kaggle, unter Angabe der Quelle. Überarbeiten Sie das Notebook, um Ihre eigenen Erkenntnisse hervorzuheben. Probieren Sie eine andere Art von Datensatz aus und dokumentieren Sie Ihre Ergebnisse, beispielsweise mit Text wie [diesem Kaggle-Wettbewerbsdatensatz über Wetter-Tweets](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mithilfe von KI-gestützten maschinellen Übersetzungsdiensten übersetzt. Obwohl wir um Genauigkeit bemüht sind, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Verantwortung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, weisen wir darauf hin, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Nutzung dieser Übersetzung entstehen.

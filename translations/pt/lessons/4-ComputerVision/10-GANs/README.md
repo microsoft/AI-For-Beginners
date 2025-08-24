@@ -1,10 +1,19 @@
-# Redes Adversariais Generativas
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f07c85bbf05a1f67505da98f4ecc124c",
+  "translation_date": "2025-08-24T08:58:33+00:00",
+  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
+  "language_code": "pt"
+}
+-->
+# Redes Generativas Adversárias
 
-Na seção anterior, aprendemos sobre **modelos geradores**: modelos que podem gerar novas imagens semelhantes às do conjunto de dados de treinamento. O VAE foi um bom exemplo de um modelo gerador.
+Na seção anterior, aprendemos sobre **modelos generativos**: modelos que podem gerar novas imagens semelhantes às do conjunto de dados de treino. O VAE foi um bom exemplo de modelo generativo.
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
 
-No entanto, se tentarmos gerar algo realmente significativo, como uma pintura em uma resolução razoável, com o VAE, veremos que o treinamento não converge bem. Para esse caso de uso, devemos aprender sobre outra arquitetura especificamente direcionada a modelos geradores - **Redes Adversariais Generativas**, ou GANs.
+No entanto, se tentarmos gerar algo realmente significativo, como uma pintura com resolução razoável, usando o VAE, veremos que o treino não converge bem. Para este caso, devemos aprender sobre outra arquitetura especificamente voltada para modelos generativos - **Redes Generativas Adversárias**, ou GANs.
 
 A ideia principal de uma GAN é ter duas redes neurais que serão treinadas uma contra a outra:
 
@@ -12,23 +21,23 @@ A ideia principal de uma GAN é ter duas redes neurais que serão treinadas uma 
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 
-> ✅ Um pequeno vocabulário:
-> * **Gerador** é uma rede que recebe um vetor aleatório e produz a imagem como resultado.
-> * **Discriminador** é uma rede que recebe uma imagem e deve dizer se é uma imagem real (do conjunto de dados de treinamento) ou se foi gerada por um gerador. É essencialmente um classificador de imagens.
+> ✅ Um pouco de vocabulário:
+> * **Gerador** é uma rede que recebe um vetor aleatório e produz uma imagem como resultado.
+> * **Discriminador** é uma rede que recebe uma imagem e deve dizer se é uma imagem real (do conjunto de dados de treino) ou se foi gerada por um gerador. Essencialmente, é um classificador de imagens.
 
 ### Discriminador
 
-A arquitetura do discriminador não difere de uma rede de classificação de imagens comum. No caso mais simples, pode ser um classificador totalmente conectado, mas provavelmente será uma [rede convolucional](../07-ConvNets/README.md).
+A arquitetura do discriminador não difere de uma rede de classificação de imagens comum. No caso mais simples, pode ser um classificador totalmente conectado, mas, muito provavelmente, será uma [rede convolucional](../07-ConvNets/README.md).
 
 > ✅ Uma GAN baseada em redes convolucionais é chamada de [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
 
-Um discriminador CNN consiste nas seguintes camadas: várias convoluções + pooling (com tamanho espacial decrescente) e uma ou mais camadas totalmente conectadas para obter o "vetor de características", classificador binário final.
+Um discriminador CNN consiste nas seguintes camadas: várias convoluções+poolings (com tamanho espacial decrescente) e uma ou mais camadas totalmente conectadas para obter o "vetor de características", seguido de um classificador binário final.
 
-> ✅ Um 'pooling' neste contexto é uma técnica que reduz o tamanho da imagem. "Camadas de pooling reduzem as dimensões dos dados combinando as saídas de grupos de neurônios em uma camada em um único neurônio na próxima camada." - [fonte](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
+> ✅ Um 'pooling' neste contexto é uma técnica que reduz o tamanho da imagem. "As camadas de pooling reduzem as dimensões dos dados combinando as saídas de clusters de neurónios em uma camada em um único neurónio na próxima camada." - [fonte](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
 
 ### Gerador
 
-Um Gerador é um pouco mais complicado. Você pode considerá-lo como um discriminador invertido. Começando de um vetor latente (no lugar de um vetor de características), ele tem uma camada totalmente conectada para convertê-lo no tamanho/formato necessário, seguida de deconvoluções + aumento de escala. Isso é semelhante à parte *decodificadora* de um [autoencoder](../09-Autoencoders/README.md).
+Um Gerador é um pouco mais complicado. Pode ser considerado como um discriminador invertido. Começando por um vetor latente (no lugar de um vetor de características), ele possui uma camada totalmente conectada para convertê-lo no tamanho/forma desejados, seguida por deconvoluções+ampliação. Isso é semelhante à parte de *decodificador* de um [autoencoder](../09-Autoencoders/README.md).
 
 > ✅ Como a camada de convolução é implementada como um filtro linear que percorre a imagem, a deconvolução é essencialmente semelhante à convolução e pode ser implementada usando a mesma lógica de camada.
 
@@ -38,64 +47,64 @@ Um Gerador é um pouco mais complicado. Você pode considerá-lo como um discrim
 
 ### Treinando a GAN
 
-As GANs são chamadas de **adversariais** porque há uma competição constante entre o gerador e o discriminador. Durante essa competição, tanto o gerador quanto o discriminador melhoram, assim a rede aprende a produzir imagens cada vez melhores.
+As GANs são chamadas de **adversárias** porque há uma competição constante entre o gerador e o discriminador. Durante essa competição, tanto o gerador quanto o discriminador melhoram, fazendo com que a rede aprenda a produzir imagens cada vez melhores.
 
-O treinamento acontece em duas etapas:
+O treino ocorre em duas etapas:
 
-* **Treinando o discriminador**. Esta tarefa é bastante direta: geramos um lote de imagens pelo gerador, rotulando-as como 0, que representa imagem falsa, e pegamos um lote de imagens do conjunto de dados de entrada (com rótulo 1, imagem real). Obtemos uma *perda do discriminador* e realizamos a retropropagação.
-* **Treinando o gerador**. Isso é um pouco mais complicado, porque não sabemos a saída esperada para o gerador diretamente. Pegamos toda a rede GAN, consistindo de um gerador seguido de um discriminador, alimentamos com alguns vetores aleatórios e esperamos que o resultado seja 1 (correspondente a imagens reais). Em seguida, congelamos os parâmetros do discriminador (não queremos que ele seja treinado nesta etapa) e realizamos a retropropagação.
+* **Treinando o discriminador**. Esta tarefa é bastante direta: geramos um lote de imagens com o gerador, rotulando-as como 0, que representa imagem falsa, e pegamos um lote de imagens do conjunto de dados de entrada (com rótulo 1, imagem real). Obtemos uma *perda do discriminador* e realizamos o backpropagation.
+* **Treinando o gerador**. Isto é um pouco mais complicado, porque não sabemos diretamente o resultado esperado para o gerador. Pegamos toda a rede GAN, composta por um gerador seguido de um discriminador, alimentamos com alguns vetores aleatórios e esperamos que o resultado seja 1 (correspondente a imagens reais). Em seguida, congelamos os parâmetros do discriminador (não queremos que ele seja treinado nesta etapa) e realizamos o backpropagation.
 
-Durante esse processo, as perdas do gerador e do discriminador não estão diminuindo significativamente. Na situação ideal, elas devem oscilar, correspondendo a ambas as redes melhorando seu desempenho.
+Durante este processo, as perdas do gerador e do discriminador não diminuem significativamente. Na situação ideal, elas devem oscilar, correspondendo à melhoria de desempenho de ambas as redes.
 
 ## ✍️ Exercícios: GANs
 
 * [Notebook GAN em TensorFlow/Keras](../../../../../lessons/4-ComputerVision/10-GANs/GANTF.ipynb)
 * [Notebook GAN em PyTorch](../../../../../lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb)
 
-### Problemas com o treinamento de GAN
+### Problemas no treino de GANs
 
 As GANs são conhecidas por serem especialmente difíceis de treinar. Aqui estão alguns problemas:
 
-* **Colapso de Modo**. Por esse termo, queremos dizer que o gerador aprende a produzir uma imagem bem-sucedida que engana o discriminador, e não uma variedade de imagens diferentes.
-* **Sensibilidade a hiperparâmetros**. Muitas vezes você pode ver que uma GAN não converge de forma alguma e, em seguida, de repente diminui na taxa de aprendizado levando à convergência.
-* Manter um **equilíbrio** entre o gerador e o discriminador. Em muitos casos, a perda do discriminador pode cair para zero relativamente rápido, o que resulta na incapacidade do gerador de treinar mais. Para superar isso, podemos tentar definir diferentes taxas de aprendizado para o gerador e o discriminador, ou pular o treinamento do discriminador se a perda já estiver muito baixa.
-* Treinamento para **alta resolução**. Refletindo o mesmo problema que com autoencoders, esse problema é desencadeado porque reconstruir muitas camadas de uma rede convolucional leva a artefatos. Esse problema é tipicamente resolvido com o chamado **crescimento progressivo**, quando primeiro algumas camadas são treinadas em imagens de baixa resolução e, em seguida, as camadas são "desbloqueadas" ou adicionadas. Outra solução seria adicionar conexões extras entre camadas e treinar várias resoluções ao mesmo tempo - veja este [artigo sobre GANs de Gradiente Multi-Escala](https://arxiv.org/abs/1903.06048) para detalhes.
+* **Colapso de modo**. Este termo refere-se ao fato de que o gerador aprende a produzir uma única imagem bem-sucedida que engana o discriminador, em vez de uma variedade de imagens diferentes.
+* **Sensibilidade aos hiperparâmetros**. Muitas vezes, pode-se observar que uma GAN não converge de forma alguma e, de repente, uma redução na taxa de aprendizagem leva à convergência.
+* Manter um **equilíbrio** entre o gerador e o discriminador. Em muitos casos, a perda do discriminador pode cair para zero relativamente rápido, o que resulta no gerador sendo incapaz de continuar o treino. Para superar isso, podemos tentar definir taxas de aprendizagem diferentes para o gerador e o discriminador ou pular o treino do discriminador se a perda já estiver muito baixa.
+* Treino para **alta resolução**. Refletindo o mesmo problema dos autoencoders, este problema ocorre porque reconstruir muitas camadas de uma rede convolucional leva a artefatos. Este problema é geralmente resolvido com o chamado **crescimento progressivo**, onde primeiro algumas camadas são treinadas em imagens de baixa resolução e, em seguida, as camadas são "desbloqueadas" ou adicionadas. Outra solução seria adicionar conexões extras entre camadas e treinar várias resoluções ao mesmo tempo - veja este [artigo sobre Multi-Scale Gradient GANs](https://arxiv.org/abs/1903.06048) para mais detalhes.
 
 ## Transferência de Estilo
 
-As GANs são uma ótima maneira de gerar imagens artísticas. Outra técnica interessante é a chamada **transferência de estilo**, que pega uma **imagem de conteúdo** e a redesenha em um estilo diferente, aplicando filtros da **imagem de estilo**.
+As GANs são uma ótima maneira de gerar imagens artísticas. Outra técnica interessante é a chamada **transferência de estilo**, que pega uma **imagem de conteúdo** e a redesenha em um estilo diferente, aplicando filtros de uma **imagem de estilo**.
 
-A maneira como isso funciona é a seguinte:
-* Começamos com uma imagem de ruído aleatório (ou com uma imagem de conteúdo, mas para fins de compreensão é mais fácil começar a partir do ruído aleatório).
-* Nosso objetivo seria criar uma imagem que estivesse próxima tanto da imagem de conteúdo quanto da imagem de estilo. Isso seria determinado por duas funções de perda:
+O funcionamento é o seguinte:
+* Começamos com uma imagem de ruído aleatório (ou com uma imagem de conteúdo, mas para fins de compreensão é mais fácil começar com ruído aleatório).
+* Nosso objetivo será criar uma imagem que seja próxima tanto da imagem de conteúdo quanto da imagem de estilo. Isso será determinado por duas funções de perda:
    - **Perda de conteúdo** é calculada com base nas características extraídas pela CNN em algumas camadas da imagem atual e da imagem de conteúdo.
    - **Perda de estilo** é calculada entre a imagem atual e a imagem de estilo de uma maneira inteligente usando matrizes de Gram (mais detalhes no [notebook de exemplo](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)).
-* Para tornar a imagem mais suave e remover o ruído, também introduzimos a **Perda de Variedade**, que calcula a distância média entre pixels vizinhos.
-* O loop principal de otimização ajusta a imagem atual usando descida de gradiente (ou algum outro algoritmo de otimização) para minimizar a perda total, que é uma soma ponderada de todas as três perdas.
+* Para tornar a imagem mais suave e remover ruídos, também introduzimos a **Perda de variação**, que calcula a distância média entre pixels vizinhos.
+* O principal loop de otimização ajusta a imagem atual usando descida de gradiente (ou algum outro algoritmo de otimização) para minimizar a perda total, que é uma soma ponderada de todas as três perdas.
 
 ## ✍️ Exemplo: [Transferência de Estilo](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
 
 ## Conclusão
 
-Nesta lição, você aprendeu sobre GANs e como treiná-las. Você também aprendeu sobre os desafios especiais que esse tipo de Rede Neural pode enfrentar e algumas estratégias sobre como superá-los.
+Nesta lição, você aprendeu sobre GANs e como treiná-las. Também aprendeu sobre os desafios especiais que este tipo de rede neural pode enfrentar e algumas estratégias para superá-los.
 
 ## 🚀 Desafio
 
 Execute o [notebook de Transferência de Estilo](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) usando suas próprias imagens.
 
-## Revisão & Estudo Autônomo
+## Revisão e Estudo Individual
 
 Para referência, leia mais sobre GANs nestes recursos:
 
 * Marco Pasini, [10 Lições que Aprendi Treinando GANs por um Ano](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
-* [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN), uma arquitetura GAN *de fato* a considerar
+* [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN), uma arquitetura GAN *de facto* a considerar.
 * [Criando Arte Generativa usando GANs no Azure ML](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/)
 
 ## Tarefa
 
-Revisite um dos dois notebooks associados a esta lição e re-treine a GAN com suas próprias imagens. O que você pode criar?
+Revise um dos dois notebooks associados a esta lição e treine novamente a GAN com suas próprias imagens. O que você consegue criar?
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autorizada. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, é importante notar que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.

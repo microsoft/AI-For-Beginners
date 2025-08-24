@@ -1,22 +1,31 @@
-# Treinando o Carro da Montanha para Escapar
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
+  "translation_date": "2025-08-24T09:03:07+00:00",
+  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
+  "language_code": "pt"
+}
+-->
+# Treinar o Carro da Montanha para Escapar
 
-Tarefa do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
+Trabalho prático do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarefa
 
-Seu objetivo é treinar o agente RL para controlar o [Carro da Montanha](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) no Ambiente OpenAI. Você está treinando com dados até outubro de 2023.
+O teu objetivo é treinar o agente de RL para controlar o [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) no Ambiente OpenAI.
 
 ## O Ambiente
 
-O ambiente do Carro da Montanha consiste no carro preso dentro de um vale. Seu objetivo é pular para fora do vale e alcançar a bandeira. As ações que você pode realizar são acelerar para a esquerda, para a direita ou não fazer nada. Você pode observar a posição do carro ao longo do eixo x e a velocidade.
+O ambiente Mountain Car consiste num carro preso dentro de um vale. O teu objetivo é saltar para fora do vale e alcançar a bandeira. As ações que podes realizar são acelerar para a esquerda, para a direita ou não fazer nada. Podes observar a posição do carro ao longo do eixo x e a velocidade.
 
-## Iniciando o Notebook
+## Notebook Inicial
 
-Inicie o laboratório abrindo [MountainCar.ipynb](../../../../../../lessons/6-Other/22-DeepRL/lab/MountainCar.ipynb)
+Começa o trabalho prático abrindo [MountainCar.ipynb](../../../../../../lessons/6-Other/22-DeepRL/lab/MountainCar.ipynb)
 
 ## Conclusão
 
-Você deve aprender ao longo deste laboratório que adotar algoritmos de RL para um novo ambiente é frequentemente bastante simples, porque o OpenAI Gym tem a mesma interface para todos os ambientes, e os algoritmos, por sua vez, não dependem muito da natureza do ambiente. Você pode até reestruturar o código Python de tal forma a passar qualquer ambiente para o algoritmo RL como um parâmetro.
+Deverás aprender ao longo deste trabalho que adaptar algoritmos de RL a um novo ambiente é frequentemente bastante simples, porque o OpenAI Gym tem a mesma interface para todos os ambientes, e os algoritmos, como tal, não dependem muito da natureza do ambiente. Podes até reestruturar o código Python de forma a passar qualquer ambiente para o algoritmo de RL como um parâmetro.
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que as traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações errôneas decorrentes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional humana. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.

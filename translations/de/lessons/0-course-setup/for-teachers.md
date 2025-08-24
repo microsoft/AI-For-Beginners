@@ -1,26 +1,35 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a094ef9927883de1cfcee51dbd143381",
+  "translation_date": "2025-08-24T09:44:12+00:00",
+  "source_file": "lessons/0-course-setup/for-teachers.md",
+  "language_code": "de"
+}
+-->
 # Für Lehrkräfte
 
-Möchten Sie diesen Lehrplan in Ihrem Unterricht verwenden? Fühlen Sie sich frei dazu!
+Möchten Sie dieses Curriculum in Ihrem Unterricht verwenden? Fühlen Sie sich frei, es zu nutzen!
 
-Tatsächlich können Sie ihn direkt in GitHub verwenden, indem Sie GitHub Classroom nutzen.
+Tatsächlich können Sie es direkt auf GitHub verwenden, indem Sie GitHub Classroom nutzen.
 
-Dazu müssen Sie dieses Repo forken. Sie müssen für jede Lektion ein eigenes Repo erstellen, also müssen Sie jeden Ordner in ein separates Repo extrahieren. Auf diese Weise kann [GitHub Classroom](https://classroom.github.com/classrooms) jede Lektion separat erfassen.
+Dazu müssen Sie dieses Repository forken. Sie müssen für jede Lektion ein eigenes Repository erstellen, indem Sie jeden Ordner in ein separates Repository extrahieren. Auf diese Weise kann [GitHub Classroom](https://classroom.github.com/classrooms) jede Lektion einzeln erfassen.
 
 Diese [vollständigen Anweisungen](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) geben Ihnen eine Vorstellung davon, wie Sie Ihr Klassenzimmer einrichten können.
 
-## Verwendung des Repos wie es ist
+## Nutzung des Repos wie es ist
 
-Wenn Sie dieses Repo so verwenden möchten, wie es derzeit ist, ohne GitHub Classroom zu nutzen, ist das ebenfalls möglich. Sie müssten mit Ihren Schülern kommunizieren, welche Lektion sie gemeinsam durcharbeiten sollen.
+Wenn Sie dieses Repository in seiner aktuellen Form verwenden möchten, ohne GitHub Classroom zu nutzen, ist das ebenfalls möglich. Sie müssten Ihren Schülern mitteilen, welche Lektion Sie gemeinsam durcharbeiten möchten.
 
-In einem Online-Format (Zoom, Teams oder ähnliches) könnten Sie Breakout-Räume für die Quizze bilden und die Schüler betreuen, um ihnen beim Lernen zu helfen. Dann laden Sie die Schüler ein, die Quizze zu machen und ihre Antworten zu einem bestimmten Zeitpunkt als 'Issues' einzureichen. Sie könnten dasselbe mit Aufgaben machen, wenn Sie möchten, dass die Schüler offen und kollaborativ arbeiten.
+In einem Online-Format (Zoom, Teams oder andere) könnten Sie Breakout-Räume für die Quizfragen einrichten und die Schüler unterstützen, damit sie bereit sind zu lernen. Anschließend können Sie die Schüler einladen, die Quizfragen zu bearbeiten und ihre Antworten zu einem bestimmten Zeitpunkt als 'Issues' einzureichen. Dasselbe könnten Sie mit Aufgaben machen, wenn Sie möchten, dass die Schüler offen und kollaborativ arbeiten.
 
-Wenn Sie ein privateres Format bevorzugen, bitten Sie Ihre Schüler, den Lehrplan lektion für lektion in ihre eigenen GitHub-Repos als private Repos zu forken und Ihnen Zugang zu gewähren. Dann können sie Quizze und Aufgaben privat abschließen und diese über Issues in Ihrem Klassenrepo einreichen.
+Wenn Sie ein privateres Format bevorzugen, bitten Sie Ihre Schüler, das Curriculum Lektion für Lektion in ihre eigenen privaten GitHub-Repositories zu forken und Ihnen Zugriff zu gewähren. So können sie Quizfragen und Aufgaben privat bearbeiten und diese über Issues in Ihrem Klassen-Repository einreichen.
 
-Es gibt viele Möglichkeiten, dies in einem Online-Klassenraumformat zu gestalten. Bitte lassen Sie uns wissen, was für Sie am besten funktioniert!
+Es gibt viele Möglichkeiten, dies in einem Online-Klassenzimmer-Format umzusetzen. Lassen Sie uns wissen, was für Sie am besten funktioniert!
 
-## Bitte teilen Sie uns Ihre Gedanken mit
+## Bitte teilen Sie uns Ihre Meinung mit
 
-Wir möchten, dass dieser Lehrplan für Sie und Ihre Schüler funktioniert. Bitte geben Sie uns Feedback in den Diskussionsforen!
+Wir möchten, dass dieses Curriculum für Sie und Ihre Schüler funktioniert. Bitte geben Sie uns Feedback in den Diskussionsforen!
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, weisen wir darauf hin, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Nutzung dieser Übersetzung entstehen.

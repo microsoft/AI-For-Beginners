@@ -1,16 +1,25 @@
-# Classificação de Animais de Estimação de Oxford usando Aprendizado por Transferência
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-24T09:01:39+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "pt"
+}
+-->
+# Classificação de Oxford Pets usando Transfer Learning
 
-Trabalho de laboratório do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
+Trabalho prático do [Currículo AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarefa
 
-Imagine que você precisa desenvolver uma aplicação para uma creche de animais de estimação para catalogar todos os pets. Uma das grandes funcionalidades de tal aplicação seria descobrir automaticamente a raça a partir de uma fotografia. Neste trabalho, usaremos aprendizado por transferência para classificar imagens de animais de estimação da vida real do conjunto de dados [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+Imagine que precisa desenvolver uma aplicação para um berçário de animais de estimação para catalogar todos os animais. Uma das grandes funcionalidades de tal aplicação seria identificar automaticamente a raça a partir de uma fotografia. Neste trabalho, vamos usar transfer learning para classificar imagens reais de animais de estimação do conjunto de dados [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
 ## O Conjunto de Dados
 
-Usaremos o conjunto de dados original de animais de estimação [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contém 35 raças diferentes de cães e gatos.
+Usaremos o conjunto de dados original [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contém 35 raças diferentes de cães e gatos.
 
-Para baixar o conjunto de dados, utilize este trecho de código:
+Para descarregar o conjunto de dados, utilize este trecho de código:
 
 ```python
 !wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
@@ -18,13 +27,13 @@ Para baixar o conjunto de dados, utilize este trecho de código:
 !rm images.tar.gz
 ```
 
-## Iniciando o Notebook
+## Notebook Inicial
 
-Comece o laboratório abrindo [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
+Comece o trabalho prático abrindo [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
 
 ## Conclusão
 
-O aprendizado por transferência e as redes pré-treinadas nos permitem resolver problemas de classificação de imagens do mundo real de maneira relativamente fácil. No entanto, redes pré-treinadas funcionam bem em imagens de tipos semelhantes, e se começarmos a classificar imagens muito diferentes (por exemplo, imagens médicas), é provável que obtenhamos resultados muito piores.
+Transfer learning e redes pré-treinadas permitem-nos resolver problemas reais de classificação de imagens de forma relativamente simples. No entanto, redes pré-treinadas funcionam bem em imagens de tipos semelhantes, e se começarmos a classificar imagens muito diferentes (por exemplo, imagens médicas), é provável que obtenhamos resultados significativamente piores.
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido usando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações erradas que possam surgir do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.

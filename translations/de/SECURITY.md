@@ -1,40 +1,49 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
+  "translation_date": "2025-08-24T09:28:59+00:00",
+  "source_file": "SECURITY.md",
+  "language_code": "de"
+}
+-->
 ## Sicherheit
 
-Microsoft nimmt die Sicherheit unserer Softwareprodukte und -dienste ernst, einschließlich aller Quellcode-Repositorys, die über unsere GitHub-Organisationen verwaltet werden, darunter [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin) und [unsere GitHub-Organisationen](https://opensource.microsoft.com/).
+Microsoft nimmt die Sicherheit seiner Softwareprodukte und -dienste sehr ernst, einschließlich aller Quellcode-Repositories, die über unsere GitHub-Organisationen verwaltet werden. Dazu gehören [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin) und [unsere GitHub-Organisationen](https://opensource.microsoft.com/).
 
-Wenn Sie glauben, eine Sicherheitsanfälligkeit in einem Microsoft-eigenen Repository gefunden zu haben, die [Microsofts Definition einer Sicherheitsanfälligkeit](https://aka.ms/opensource/security/definition) erfüllt, melden Sie dies bitte wie unten beschrieben.
+Wenn Sie der Meinung sind, eine Sicherheitslücke in einem von Microsoft verwalteten Repository gefunden zu haben, die [Microsofts Definition einer Sicherheitslücke](https://aka.ms/opensource/security/definition) entspricht, melden Sie diese bitte wie unten beschrieben.
 
-## Meldung von Sicherheitsproblemen
+## Melden von Sicherheitsproblemen
 
-**Bitte melden Sie Sicherheitsanfälligkeiten nicht über öffentliche GitHub-Issues.**
+**Bitte melden Sie Sicherheitslücken nicht über öffentliche GitHub-Issues.**
 
-Stattdessen melden Sie diese bitte an das Microsoft Security Response Center (MSRC) unter [https://msrc.microsoft.com/create-report](https://aka.ms/opensource/security/create-report).
+Stattdessen melden Sie diese bitte dem Microsoft Security Response Center (MSRC) unter [https://msrc.microsoft.com/create-report](https://aka.ms/opensource/security/create-report).
 
-Wenn Sie lieber ohne Anmeldung einreichen möchten, senden Sie eine E-Mail an [secure@microsoft.com](mailto:secure@microsoft.com). Wenn möglich, verschlüsseln Sie Ihre Nachricht mit unserem PGP-Schlüssel; bitte laden Sie ihn von der [Microsoft Security Response Center PGP Key-Seite](https://aka.ms/opensource/security/pgpkey) herunter.
+Falls Sie lieber ohne Anmeldung einreichen möchten, senden Sie eine E-Mail an [secure@microsoft.com](mailto:secure@microsoft.com). Wenn möglich, verschlüsseln Sie Ihre Nachricht mit unserem PGP-Schlüssel; laden Sie diesen von der [Microsoft Security Response Center PGP Key-Seite](https://aka.ms/opensource/security/pgpkey) herunter.
 
-Sie sollten innerhalb von 24 Stunden eine Antwort erhalten. Wenn Sie aus irgendeinem Grund keine Antwort erhalten, folgen Sie bitte per E-Mail nach, um sicherzustellen, dass wir Ihre ursprüngliche Nachricht erhalten haben. Weitere Informationen finden Sie unter [microsoft.com/msrc](https://aka.ms/opensource/security/msrc).
+Sie sollten innerhalb von 24 Stunden eine Antwort erhalten. Falls dies aus irgendeinem Grund nicht geschieht, folgen Sie bitte per E-Mail nach, um sicherzustellen, dass wir Ihre ursprüngliche Nachricht erhalten haben. Weitere Informationen finden Sie unter [microsoft.com/msrc](https://aka.ms/opensource/security/msrc).
 
-Bitte fügen Sie die angeforderten Informationen aufgelistet unten (so viel wie Sie bereitstellen können) hinzu, um uns zu helfen, die Natur und den Umfang des möglichen Problems besser zu verstehen:
+Bitte geben Sie die unten aufgeführten Informationen (so weit wie möglich) an, um uns zu helfen, die Art und den Umfang des möglichen Problems besser zu verstehen:
 
-  * Art des Problems (z.B. Bufferüberlauf, SQL-Injection, Cross-Site-Scripting usw.)
-  * Vollständige Pfade der Quellcodedatei(en), die mit dem Auftreten des Problems zusammenhängen
-  * Der Standort des betroffenen Quellcodes (Tag/Branch/Commit oder direkte URL)
-  * Alle speziellen Konfigurationen, die erforderlich sind, um das Problem zu reproduzieren
-  * Schritt-für-Schritt-Anleitungen zur Reproduktion des Problems
-  * Proof-of-Concept oder Exploit-Code (wenn möglich)
-  * Auswirkungen des Problems, einschließlich wie ein Angreifer das Problem ausnutzen könnte
+  * Art des Problems (z. B. Buffer Overflow, SQL-Injection, Cross-Site-Scripting usw.)
+  * Vollständige Pfade der Quellcodedatei(en), die mit dem Problem in Zusammenhang stehen
+  * Der Ort des betroffenen Quellcodes (Tag/Branch/Commit oder direkte URL)
+  * Besondere Konfigurationen, die erforderlich sind, um das Problem zu reproduzieren
+  * Schritt-für-Schritt-Anleitung zur Reproduktion des Problems
+  * Proof-of-Concept- oder Exploit-Code (falls möglich)
+  * Auswirkungen des Problems, einschließlich der möglichen Ausnutzung durch einen Angreifer
 
-Diese Informationen helfen uns, Ihren Bericht schneller zu triagieren.
+Diese Informationen helfen uns, Ihren Bericht schneller zu priorisieren.
 
-Wenn Sie für ein Bug-Bounty berichten, können vollständigere Berichte zu einer höheren Belohnung führen. Bitte besuchen Sie unsere Seite [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) für weitere Details zu unseren aktiven Programmen.
+Wenn Sie im Rahmen eines Bug-Bounty-Programms berichten, können vollständigere Berichte zu einer höheren Prämie führen. Besuchen Sie unsere Seite zum [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty), um weitere Details zu unseren aktiven Programmen zu erhalten.
 
 ## Bevorzugte Sprachen
 
-Wir bevorzugen, dass alle Kommunikationen in Englisch erfolgen.
+Wir bevorzugen alle Kommunikation in Englisch.
 
 ## Richtlinie
 
-Microsoft folgt dem Prinzip der [Koordinierten Verwundbarkeitsoffenlegung](https://aka.ms/opensource/security/cvd).
+Microsoft folgt dem Prinzip der [koordinierten Offenlegung von Sicherheitslücken](https://aka.ms/opensource/security/cvd).
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Verantwortung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, weisen wir darauf hin, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Nutzung dieser Übersetzung entstehen.
