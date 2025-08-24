@@ -1,14 +1,23 @@
-# RNNを用いた単語レベルのテキスト生成
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
+  "translation_date": "2025-08-24T21:05:15+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
+  "language_code": "ja"
+}
+-->
+# RNNを使用した単語レベルのテキスト生成
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)からのラボ課題です。
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)からの課題。
 
 ## 課題
 
-このラボでは、任意の本を取り、それをデータセットとして使用して単語レベルのテキストジェネレーターを訓練する必要があります。
+このラボでは、任意の本を選び、それをデータセットとして使用して単語レベルのテキスト生成器を訓練する必要があります。
 
 ## データセット
 
-任意の本を使用しても構いません。例えば、[Project Gutenberg](https://www.gutenberg.org/)には多くの無料テキストがあります。ここでは、ルイス・キャロルによる[Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt)への直接リンクを示します。
+どの本でも使用可能です。無料のテキストは[Project Gutenberg](https://www.gutenberg.org/)でたくさん見つけることができます。例えば、ルイス・キャロルの[不思議の国のアリス](https://www.gutenberg.org/files/11/11-0.txt)への直接リンクがあります。
 
 **免責事項**:  
-この文書は、機械ベースのAI翻訳サービスを使用して翻訳されています。正確性を追求していますが、自動翻訳にはエラーや不正確さが含まれる可能性があることにご注意ください。原文のネイティブ言語の文書が権威ある情報源と見なされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の使用に起因する誤解や誤訳について、当社は一切の責任を負いません。
+この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があることをご承知おきください。元の言語で記載された文書が公式な情報源と見なされるべきです。重要な情報については、専門の人間による翻訳をお勧めします。本翻訳の使用に起因する誤解や誤認について、当方は一切の責任を負いません。

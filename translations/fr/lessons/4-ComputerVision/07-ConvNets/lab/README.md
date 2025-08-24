@@ -1,20 +1,29 @@
-# Classification des Visages des Animaux de Compagnie
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
+  "translation_date": "2025-08-24T20:52:03+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
+  "language_code": "fr"
+}
+-->
+# Classification des visages d'animaux de compagnie
 
-Devoir de laboratoire du [Curriculum AI pour Débutants](https://github.com/microsoft/ai-for-beginners).
+Devoir de laboratoire tiré du [programme AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Imaginez que vous devez développer une application pour une nursery d'animaux de compagnie afin de cataloguer tous les animaux. L'une des grandes fonctionnalités d'une telle application serait de découvrir automatiquement la race à partir d'une photographie. Cela peut être réalisé avec succès en utilisant des réseaux de neurones.
+Imaginez que vous devez développer une application pour une garderie pour animaux afin de cataloguer tous les animaux. L'une des fonctionnalités intéressantes d'une telle application serait de reconnaître automatiquement la race à partir d'une photographie. Cela peut être réalisé avec succès en utilisant des réseaux neuronaux.
 
-Vous devez entraîner un réseau de neurones convolutionnel pour classifier différentes races de chats et de chiens en utilisant le jeu de données **Visages d'Animaux de Compagnie**.
+Vous devez entraîner un réseau neuronal convolutif pour classer différentes races de chats et de chiens en utilisant le dataset **Pet Faces**.
 
-## Le Jeu de Données
+## Le Dataset
 
-Nous allons utiliser le jeu de données **Visages d'Animaux de Compagnie**, dérivé du jeu de données [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) sur les animaux de compagnie. Il contient 35 races différentes de chiens et de chats.
+Nous utiliserons le dataset **Pet Faces**, dérivé du dataset [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pour animaux. Il contient 35 races différentes de chiens et de chats.
 
-![Jeu de données avec lequel nous allons travailler](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fr.png)
+![Dataset que nous allons utiliser](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fr.png)
 
-Pour télécharger le jeu de données, utilisez ce extrait de code :
+Pour télécharger le dataset, utilisez cet extrait de code :
 
 ```python
 !wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
@@ -22,13 +31,13 @@ Pour télécharger le jeu de données, utilisez ce extrait de code :
 !rm petfaces.tar.gz
 ```
 
-## Début du Notebook
+## Démarrage du Notebook
 
 Commencez le laboratoire en ouvrant [PetFaces.ipynb](../../../../../../lessons/4-ComputerVision/07-ConvNets/lab/PetFaces.ipynb)
 
-## À Retenir
+## Résultat
 
-Vous avez résolu un problème de classification d'images relativement complexe depuis le début ! Il y avait pas mal de classes, et vous avez tout de même réussi à obtenir une précision raisonnable ! Il est également judicieux de mesurer la précision top-k, car il est facile de confondre certaines classes qui ne sont pas clairement différentes même pour les êtres humains.
+Vous avez résolu un problème relativement complexe de classification d'images à partir de zéro ! Il y avait un grand nombre de classes, et vous avez tout de même réussi à obtenir une précision raisonnable ! Il est également pertinent de mesurer la précision top-k, car il est facile de confondre certaines classes qui ne sont pas clairement distinctes, même pour des êtres humains.
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source faisant autorité. Pour des informations critiques, une traduction professionnelle par un humain est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
