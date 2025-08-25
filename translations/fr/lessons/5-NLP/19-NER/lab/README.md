@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "032bda5068f543d6c1fcb30c34231461",
+  "translation_date": "2025-08-24T20:48:23+00:00",
+  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
+  "language_code": "fr"
+}
+-->
 # NER
 
-Devoir de laboratoire du [Curriculum AI pour Débutants](https://github.com/microsoft/ai-for-beginners).
+Travail pratique issu du [programme AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Dans ce laboratoire, vous devez entraîner un modèle de reconnaissance d'entités nommées pour des termes médicaux.
+Dans ce travail pratique, vous devez entraîner un modèle de reconnaissance d'entités nommées (NER) pour les termes médicaux.
 
-## Le Jeu de Données
+## Le jeu de données
 
-Pour entraîner le modèle NER, nous avons besoin d'un jeu de données correctement étiqueté avec des entités médicales. Le [jeu de données BC5CDR](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) contient des entités de maladies et de produits chimiques étiquetées provenant de plus de 1500 articles. Vous pouvez télécharger le jeu de données après vous être inscrit sur leur site web.
+Pour entraîner un modèle NER, nous avons besoin d'un jeu de données correctement annoté avec des entités médicales. Le [jeu de données BC5CDR](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) contient des entités annotées de maladies et de produits chimiques provenant de plus de 1500 articles. Vous pouvez télécharger ce jeu de données après vous être inscrit sur leur site web.
 
 Le jeu de données BC5CDR ressemble à ceci :
 
@@ -21,17 +30,17 @@ Le jeu de données BC5CDR ressemble à ceci :
 ...
 ```
 
-Dans ce jeu de données, il y a le titre de l'article et le résumé dans les deux premières lignes, puis il y a des entités individuelles, avec des positions de début et de fin dans le bloc titre+résumé. En plus du type d'entité, vous obtenez l'ID d'ontologie de cette entité dans une certaine ontologie médicale.
+Dans ce jeu de données, le titre de l'article et le résumé se trouvent dans les deux premières lignes, suivis des entités individuelles, avec leurs positions de début et de fin dans le bloc titre+résumé. En plus du type d'entité, vous obtenez l'ID d'ontologie de cette entité dans une ontologie médicale.
 
-Vous devrez écrire un peu de code Python pour convertir cela en encodage BIO.
+Vous devrez écrire du code Python pour convertir cela en encodage BIO.
 
-## Le Réseau
+## Le réseau
 
-La première tentative de NER peut être réalisée en utilisant un réseau LSTM, comme dans notre exemple que vous avez vu pendant la leçon. Cependant, dans les tâches de NLP, l'[architecture de transformateur](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), et spécifiquement les [modèles de langage BERT](https://en.wikipedia.org/wiki/BERT_(language_model)), montrent de bien meilleurs résultats. Les modèles BERT pré-entraînés comprennent la structure générale d'une langue et peuvent être affinés pour des tâches spécifiques avec des jeux de données relativement petits et des coûts computationnels réduits.
+Une première tentative de NER peut être réalisée en utilisant un réseau LSTM, comme dans notre exemple vu pendant le cours. Cependant, dans les tâches de traitement du langage naturel (NLP), l'[architecture transformer](https://fr.wikipedia.org/wiki/Transformer_(mod%C3%A8le_d%27apprentissage_automatique)), et en particulier les [modèles de langage BERT](https://fr.wikipedia.org/wiki/BERT_(mod%C3%A8le_de_langage)), donnent de bien meilleurs résultats. Les modèles BERT pré-entraînés comprennent la structure générale d'une langue et peuvent être ajustés pour des tâches spécifiques avec des jeux de données relativement petits et des coûts computationnels réduits.
 
-Étant donné que nous prévoyons d'appliquer NER à un scénario médical, il est logique d'utiliser un modèle BERT entraîné sur des textes médicaux. Microsoft Research a publié un modèle pré-entraîné appelé [PubMedBERT][PubMedBERT] ([publication][PubMedBERT-Pub]), qui a été affiné en utilisant des textes du dépôt [PubMed](https://pubmed.ncbi.nlm.nih.gov/).
+Étant donné que nous prévoyons d'appliquer le NER à un scénario médical, il est logique d'utiliser un modèle BERT entraîné sur des textes médicaux. Microsoft Research a publié un modèle pré-entraîné appelé [PubMedBERT][PubMedBERT] ([publication][PubMedBERT-Pub]), qui a été ajusté à l'aide de textes provenant du dépôt [PubMed](https://pubmed.ncbi.nlm.nih.gov/).
 
-Le standard *de facto* pour l'entraînement des modèles de transformateurs est la bibliothèque [Hugging Face Transformers](https://huggingface.co/). Elle contient également un dépôt de modèles pré-entraînés maintenus par la communauté, y compris PubMedBERT. Pour charger et utiliser ce modèle, nous avons juste besoin de quelques lignes de code :
+Le standard *de facto* pour entraîner des modèles transformer est la bibliothèque [Hugging Face Transformers](https://huggingface.co/). Elle contient également un dépôt de modèles pré-entraînés maintenus par la communauté, y compris PubMedBERT. Pour charger et utiliser ce modèle, il suffit de quelques lignes de code :
 
 ```python
 model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
@@ -40,11 +49,11 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = BertForTokenClassification.from_pretrained(model_name, classes)
 ```
 
-Cela nous donne l'objet `model` itself, built for token classification task using `classes` number of classes, as well as `tokenizer` qui peut diviser le texte d'entrée en tokens. Vous devrez convertir le jeu de données au format BIO, en tenant compte de la tokenisation de PubMedBERT. Vous pouvez utiliser [ce morceau de code Python](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) comme source d'inspiration.
+Cela nous donne le `model` lui-même, conçu pour une tâche de classification de tokens avec un nombre de `classes`, ainsi qu'un objet `tokenizer` qui peut diviser le texte d'entrée en tokens. Vous devrez convertir le jeu de données en format BIO, en tenant compte de la tokenisation de PubMedBERT. Vous pouvez utiliser [ce bout de code Python](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) comme source d'inspiration.
 
 ## Conclusion
 
-Cette tâche est très proche de la tâche réelle que vous serez probablement amené à réaliser si vous souhaitez obtenir plus d'informations sur de grands volumes de textes en langage naturel. Dans notre cas, nous pouvons appliquer notre modèle entraîné au [jeu de données d'articles liés au COVID](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) et voir quelles informations nous pourrons obtenir. [Cet article de blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) et [ce papier](https://www.mdpi.com/2504-2289/6/1/4) décrivent les recherches qui peuvent être menées sur ce corpus d'articles en utilisant NER.
+Cette tâche est très proche de celles que vous pourriez rencontrer si vous souhaitez obtenir des informations approfondies à partir de grands volumes de textes en langage naturel. Dans notre cas, nous pouvons appliquer notre modèle entraîné au [jeu de données d'articles liés au COVID](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) et voir quelles informations nous pourrons en tirer. [Cet article de blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) et [cet article scientifique](https://www.mdpi.com/2504-2289/6/1/4) décrivent les recherches qui peuvent être effectuées sur ce corpus d'articles en utilisant le NER.
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue natale doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

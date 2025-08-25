@@ -1,6 +1,15 @@
-# 任务：笔记本
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
+  "translation_date": "2025-08-24T20:30:28+00:00",
+  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
+  "language_code": "zh"
+}
+-->
+# 作业：笔记本
 
-使用与本课程相关的笔记本（可以是 PyTorch 或 TensorFlow 版本），使用您自己的数据集重新运行它们，数据集可以来自 Kaggle，并请注明来源。重写笔记本，以突出您的发现。尝试一些可能令人惊讶的创新数据集，例如 [这个关于 UFO 目击事件的数据集](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) 来自 NUFORC。
+使用与本课程相关的笔记本（可以选择 PyTorch 或 TensorFlow 版本），使用您自己的数据集重新运行它们，例如从 Kaggle 获取并注明出处。重写笔记本以突出您自己的发现。尝试一些可能令人惊讶的创新数据集，例如 [这个关于 UFO 目击事件的数据集](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) 来自 NUFORC。
 
 **免责声明**：  
-本文件使用基于机器的人工智能翻译服务进行翻译。虽然我们努力追求准确性，但请注意，自动翻译可能包含错误或不准确之处。原始文件的母语版本应被视为权威来源。对于关键信息，建议进行专业人工翻译。我们对因使用此翻译而产生的任何误解或误读不承担责任。
+本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原始语言的文档作为权威来源。对于关键信息，建议使用专业人工翻译。我们对于因使用此翻译而引起的任何误解或误读不承担责任。

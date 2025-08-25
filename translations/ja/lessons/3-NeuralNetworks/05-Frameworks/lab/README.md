@@ -1,19 +1,28 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-24T21:15:49+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "ja"
+}
+-->
 # PyTorch/TensorFlowによる分類
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)からのラボ課題です。
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)の課題。
 
-## 課題
+## タスク
 
-PyTorchまたはTensorFlowを使用して、単層および多層の全結合ネットワークを用いて2つの分類問題を解決してください。
+PyTorchまたはTensorFlowを使用して、以下の2つの分類問題を解決してください：
 
-1. **[アイリス分類](https://en.wikipedia.org/wiki/Iris_flower_data_set)** 問題 - 表形式の入力データを扱うことができる古典的な機械学習の問題の例です。あなたの目標は、4つの数値パラメータに基づいてアイリスを3つのクラスに分類することです。
-1. **MNIST** 手書き数字分類問題 - 以前に見たことがあります。
+1. **[アヤメ分類](https://en.wikipedia.org/wiki/Iris_flower_data_set)** 問題 - 表形式の入力データを扱う問題の例で、従来の機械学習でも対応可能です。4つの数値パラメータに基づいてアヤメを3つのクラスに分類することが目標です。
+1. **MNIST** 手書き数字分類問題 - 以前に見たことがある問題です。
 
-さまざまなネットワークアーキテクチャを試して、可能な限り最高の精度を達成してください。
+異なるネットワークアーキテクチャを試して、可能な限り最高の精度を達成してください。
 
-## ノートブックを開始する
+## 開始ノートブック
 
-[LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)を開いてラボを始めましょう。
+[LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)を開いてラボを開始してください。
 
 **免責事項**:  
-この文書は、機械翻訳AIサービスを使用して翻訳されました。正確性を追求していますが、自動翻訳には誤りや不正確さが含まれる可能性があることをご理解ください。元の文書はその母国語での権威ある情報源と見なされるべきです。重要な情報については、専門の人間による翻訳をお勧めします。この翻訳の使用から生じる誤解や誤解釈について、当社は一切の責任を負いません。
+この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があることをご承知おきください。元の言語で記載された文書が公式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の使用に起因する誤解や誤認について、当方は一切の責任を負いません。

@@ -1,19 +1,28 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-24T20:56:34+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "fr"
+}
+-->
 # Classification avec PyTorch/TensorFlow
 
-Devoir de [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Devoir pratique tiré du [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Résoudre deux problèmes de classification en utilisant des réseaux entièrement connectés à une ou plusieurs couches avec PyTorch ou TensorFlow :
+Résolvez deux problèmes de classification en utilisant des réseaux entièrement connectés à une ou plusieurs couches avec PyTorch ou TensorFlow :
 
-1. Problème de **[classification des iris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - un exemple de problème avec des données d'entrée tabulaires, qui peut être traité par l'apprentissage automatique classique. Votre objectif sera de classer les iris en 3 classes, basées sur 4 paramètres numériques.
-2. Problème de classification des chiffres manuscrits **MNIST** que nous avons déjà vu.
+1. Problème de **[classification des iris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - un exemple de problème avec des données tabulaires en entrée, qui peut être traité par l'apprentissage automatique classique. Votre objectif sera de classer les iris en 3 catégories, en vous basant sur 4 paramètres numériques.
+2. Problème de classification des chiffres manuscrits **MNIST**, que nous avons déjà vu auparavant.
 
-Essayez différentes architectures de réseau pour atteindre la meilleure précision possible.
+Essayez différentes architectures de réseau pour obtenir la meilleure précision possible.
 
-## Notebook de démarrage
+## Notebook de départ
 
-Commencez le laboratoire en ouvrant [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+Commencez le devoir en ouvrant [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatisée basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue natale doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction professionnelle par un humain est recommandée. Nous ne sommes pas responsables des malentendus ou des erreurs d'interprétation résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

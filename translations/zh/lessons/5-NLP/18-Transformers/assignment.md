@@ -1,6 +1,15 @@
-# 任务：变换器
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
+  "translation_date": "2025-08-24T20:30:49+00:00",
+  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
+  "language_code": "zh"
+}
+-->
+# 作业：Transformers
 
-在 HuggingFace 上实验变换器！尝试一些他们提供的脚本，以便与他们网站上可用的各种模型进行互动：https://huggingface.co/docs/transformers/run_scripts。尝试他们的一个数据集，然后从本课程或 Kaggle 导入您自己的数据集，看看您能否生成有趣的文本。制作一个包含您发现的笔记本。
+在 HuggingFace 上尝试使用 Transformers！试试他们提供的一些脚本，来操作他们网站上提供的各种模型：https://huggingface.co/docs/transformers/run_scripts。尝试使用他们的一个数据集，然后从本课程或 Kaggle 导入一个你自己的数据集，看看你是否能生成有趣的文本。制作一个包含你发现的内容的笔记本。
 
-**免责声明**：
-本文件使用基于机器的人工智能翻译服务进行翻译。虽然我们努力追求准确性，但请注意，自动翻译可能包含错误或不准确之处。原始文件的母语版本应视为权威来源。对于关键信息，建议进行专业人工翻译。对于因使用此翻译而产生的任何误解或误读，我们不承担任何责任。
+**免责声明**：  
+本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原文档的原始语言版本为权威来源。对于关键信息，建议使用专业人工翻译。我们对因使用此翻译而引起的任何误解或误读不承担责任。
