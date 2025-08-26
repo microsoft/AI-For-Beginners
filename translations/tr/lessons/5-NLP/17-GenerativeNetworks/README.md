@@ -1,35 +1,44 @@
-# Üretken ağlar
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d9de7847385eeeda67cfdcce1640ab72",
+  "translation_date": "2025-08-26T07:21:08+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
+  "language_code": "tr"
+}
+-->
+# Üretken Ağlar
 
-## [Ders öncesi quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
 
-Tekrarlayan Sinir Ağları (RNN'ler) ve Long Short Term Memory Cells (LSTM'ler) ile Gated Recurrent Units (GRU'lar) gibi kapalı hücre varyantları, dil modellemesi için bir mekanizma sağladı; çünkü kelime sıralamasını öğrenebilirler ve bir dizideki bir sonraki kelime için tahminlerde bulunabilirler. Bu, RNN'leri **üretken görevler** için kullanmamıza olanak tanır; örneğin sıradan metin oluşturma, makine çevirisi ve hatta görüntü başlığı oluşturma.
+Tekrarlayan Sinir Ağları (RNN'ler) ve Uzun Kısa Süreli Bellek Hücreleri (LSTM'ler) ile Gated Recurrent Units (GRU'ler) gibi kapılı hücre varyantları, dil modelleme için bir mekanizma sağlar. Bu mekanizma, kelime sıralamasını öğrenebilir ve bir dizideki bir sonraki kelime için tahminler sunabilir. Bu, RNN'lerin **üretken görevler** için kullanılmasını sağlar; örneğin, sıradan metin üretimi, makine çevirisi ve hatta görüntü açıklaması.
 
-> ✅ Yazarken metin tamamlama gibi üretken görevlerden faydalandığınız tüm zamanları düşünün. Favori uygulamalarınızda RNN'lerin kullanılıp kullanılmadığını görmek için biraz araştırma yapın.
+> ✅ Yazarken metin tamamlama gibi üretken görevlerden faydalandığınız tüm zamanları düşünün. Favori uygulamalarınızın RNN'leri kullanıp kullanmadığını görmek için biraz araştırma yapın.
 
-Önceki biriminde tartıştığımız RNN mimarisinde, her RNN birimi bir sonraki gizli durumu bir çıktı olarak üretmiştir. Ancak, her tekrarlayan birime bir başka çıktı ekleyebiliriz; bu da bize **dizi** (orijinal dizinin uzunluğuna eşit) çıktısı vermemizi sağlar. Ayrıca, her adımda bir giriş kabul etmeyen RNN birimleri kullanabiliriz; sadece bazı başlangıç durumu vektörlerini alır ve ardından bir çıktı dizisi üretebiliriz.
+Önceki birimde tartıştığımız RNN mimarisinde, her RNN birimi bir sonraki gizli durumu çıktı olarak üretir. Ancak, her tekrarlayan birime başka bir çıktı ekleyebiliriz, bu da bir **dizi** (orijinal dizinin uzunluğuna eşit) üretmemizi sağlar. Ayrıca, her adımda bir giriş kabul etmeyen ve sadece bir başlangıç durum vektörü alarak bir çıktı dizisi üreten RNN birimleri kullanabiliriz.
 
-Bu, aşağıdaki resimde gösterilen farklı sinir mimarilerine olanak tanır:
+Bu, aşağıdaki resimde gösterilen farklı sinir mimarilerini mümkün kılar:
 
-![Yaygın tekrarlayan sinir ağı desenlerini gösteren bir resim.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.tr.jpg)
+![Yaygın tekrarlayan sinir ağı desenlerini gösteren resim.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.tr.jpg)
 
-> Resim [Andrej Karpaty](http://karpathy.github.io/) tarafından [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) başlıklı blog yazısından alınmıştır.
+> Resim, [Andrej Karpaty](http://karpathy.github.io/) tarafından yazılan [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) blog yazısından alınmıştır.
 
-* **Bir-bir** bir giriş ve bir çıkışı olan geleneksel bir sinir ağıdır.
-* **Bir-çok** bir giriş değeri kabul eden ve bir çıktı değeri dizisi üreten üretken bir mimaridir. Örneğin, bir resmi metin olarak tanımlayan bir **görüntü başlığı oluşturma** ağı eğitmek istiyorsak, resmi giriş olarak alabiliriz, bir CNN'den geçirerek gizli durumunu elde edebiliriz ve ardından tekrarlayan bir zincir ile başlık kelimelerini kelime kelime üretebiliriz.
-* **Çok-bir** önceki birimde tanımladığımız RNN mimarilerine karşılık gelir, örneğin metin sınıflandırma.
-* **Çok-çok**, veya **diziye-dizi** ise **makine çevirisi** gibi görevlerle ilgilidir; burada ilk RNN, giriş dizisinden tüm bilgileri gizli duruma toplar ve başka bir RNN zinciri bu durumu çıktı dizisine açar.
+* **Bire bir**: Bir giriş ve bir çıkış ile geleneksel bir sinir ağıdır.
+* **Bire çok**: Bir giriş değeri kabul eden ve bir çıktı değerleri dizisi üreten üretken bir mimaridir. Örneğin, bir **görüntü açıklama** ağı eğitmek istiyorsak, bir resmi giriş olarak alabilir, bir CNN'den geçirerek gizli durumunu elde edebilir ve ardından bir tekrarlayan zincir açıklamayı kelime kelime üretebiliriz.
+* **Çoktan bire**: Önceki birimde tanımladığımız RNN mimarilerine karşılık gelir, örneğin metin sınıflandırma.
+* **Çoktan çoğa** veya **diziden diziye**: **Makine çevirisi** gibi görevlere karşılık gelir. Burada, ilk RNN giriş dizisinden tüm bilgiyi gizli duruma toplar ve başka bir RNN zinciri bu durumu çıktı dizisine açar.
 
-Bu birimde, metin oluşturmaya yardımcı olan basit üretken modellere odaklanacağız. Kolaylık olması açısından, karakter düzeyinde tokenizasyon kullanacağız.
+Bu birimde, metin üretmemize yardımcı olan basit üretken modeller üzerine odaklanacağız. Basitlik için karakter düzeyinde tokenizasyon kullanacağız.
 
-Bu RNN'yi adım adım metin üretmesi için eğiteceğiz. Her adımda, `nchars` uzunluğunda bir karakter dizisi alacağız ve ağa her giriş karakteri için bir sonraki çıktı karakterini üretmesini isteyeceğiz:
+Bu RNN'yi adım adım metin üretmek için eğiteceğiz. Her adımda, `nchars` uzunluğunda bir karakter dizisi alacağız ve ağdan her giriş karakteri için bir sonraki çıktı karakterini üretmesini isteyeceğiz:
 
-!['HELLO' kelimesinin RNN ile üretilmesini gösteren bir örnek resim.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.tr.png)
+![RNN'nin 'HELLO' kelimesini üretme örneğini gösteren resim.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.tr.png)
 
-Metin oluştururken (çıkarım sırasında), bazı **uyarıcılarla** başlarız; bu, RNN hücrelerinden geçirilerek ara durumunu üretir ve ardından bu durumdan üretim başlar. Bir seferde bir karakter üretiriz ve durumu ve üretilen karakteri bir sonraki RNN hücresine geçirerek bir sonraki karakteri üretiriz; yeterli karakter ürettiğimizdeye kadar devam ederiz.
+Metin üretirken (çıkarsama sırasında), bazı **başlangıç noktası** ile başlarız. Bu başlangıç noktası RNN hücrelerinden geçirilerek ara durumu oluşturur ve ardından bu durumdan üretim başlar. Her seferinde bir karakter üretiriz ve durumu ve üretilen karakteri bir sonraki karakteri üretmek için başka bir RNN hücresine geçiririz. Bu işlem yeterli sayıda karakter üretilene kadar devam eder.
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Resim yazar tarafından
+> Resim, yazar tarafından oluşturulmuştur.
 
 ## ✍️ Alıştırmalar: Üretken Ağlar
 
@@ -38,42 +47,42 @@ Aşağıdaki not defterlerinde öğrenmeye devam edin:
 * [PyTorch ile Üretken Ağlar](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
 * [TensorFlow ile Üretken Ağlar](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
 
-## Yumuşak metin oluşturma ve sıcaklık
+## Yumuşak Metin Üretimi ve Sıcaklık
 
-Her RNN hücresinin çıktısı, karakterlerin bir olasılık dağılımıdır. Eğer her zaman en yüksek olasılığa sahip karakteri üretilen metindeki bir sonraki karakter olarak alırsak, metin genellikle aynı karakter dizileri arasında "dönmeye" başlayabilir; bu örnekte olduğu gibi:
+Her RNN hücresinin çıktısı bir karakter olasılık dağılımıdır. Eğer üretilen metindeki bir sonraki karakter olarak her zaman en yüksek olasılığa sahip karakteri seçersek, metin genellikle aynı karakter dizileri arasında "dönmeye" başlayabilir, aşağıdaki örnekte olduğu gibi:
 
 ```
 today of the second the company and a second the company ...
 ```
 
-Ancak, bir sonraki karakterin olasılık dağılımına baktığımızda, en yüksek birkaç olasılık arasındaki farkın çok büyük olmayabileceği durumlar vardır; örneğin, bir karakterin olasılığı 0.2, diğerinin 0.19 olabilir. Örneğin, '*play*' dizisinde bir sonraki karakter, ya boşluk ya da **e** (örneğin *player* kelimesinde olduğu gibi) olabilir.
+Ancak, bir sonraki karakter için olasılık dağılımına bakarsak, en yüksek olasılıklardan birkaçının arasındaki farkın büyük olmadığını görebiliriz. Örneğin, bir karakterin olasılığı 0.2, diğerinin ise 0.19 olabilir. Örneğin, '*play*' dizisindeki bir sonraki karakter, boşluk veya **e** (kelime *player*'daki gibi) olabilir.
 
-Bu, daha yüksek olasılığa sahip karakteri seçmenin her zaman "adil" olmadığını sonucuna götürür; çünkü ikinci en yüksek olanı seçmek de anlamlı bir metne yol açabilir. **Olasılık dağılımından** karakterler **örneklemek** daha akıllıcadır. Ayrıca, daha fazla rastgelelik eklemek istiyorsak olasılık dağılımını düzleştirecek bir parametre, **sıcaklık** kullanabiliriz; ya da en yüksek olasılığa sahip karakterlere daha fazla bağlı kalmak istiyorsak daha dik bir hale getirebiliriz.
+Bu, her zaman en yüksek olasılığa sahip karakteri seçmenin "adil" olmadığını gösterir, çünkü ikinci en yüksek olasılığa sahip karakteri seçmek de anlamlı bir metin oluşturabilir. Daha akıllıca bir yaklaşım, ağ çıktısının verdiği olasılık dağılımından karakterleri **örneklemek** olacaktır. Ayrıca, olasılık dağılımını düzleştirmek veya daha dik hale getirmek için **sıcaklık** adlı bir parametre kullanabiliriz. Bu, daha fazla rastgelelik eklemek veya en yüksek olasılıklı karakterlere daha fazla bağlı kalmak istediğimizde işe yarar.
 
-Bu yumuşak metin oluşturmanın yukarıda bağlantılı not defterlerinde nasıl uygulandığını keşfedin.
+Bu yumuşak metin üretiminin yukarıdaki not defterlerinde nasıl uygulandığını keşfedin.
 
 ## Sonuç
 
-Metin oluşturma kendi başına yararlı olsa da, asıl faydalar, RNN'ler kullanarak bazı başlangıç özellik vektörlerinden metin üretebilme yeteneğinden gelir. Örneğin, metin oluşturma, makine çevirisinin bir parçası olarak kullanılır (bu durumda *encoder*'dan gelen durum vektörü, çevrilen mesajı üretmek veya *decode* etmek için kullanılır) veya bir görüntünün metinsel tanımını oluşturma (bu durumda özellik vektörü CNN çıkarıcısından gelir).
+Metin üretimi kendi başına faydalı olabilir, ancak asıl avantajlar, RNN'ler kullanılarak bir başlangıç özellik vektöründen metin üretme yeteneğinden gelir. Örneğin, metin üretimi makine çevirisinin bir parçası olarak kullanılır (diziden diziye, bu durumda *kodlayıcı*dan gelen durum vektörü çevrilen mesajı üretmek veya *çözmek* için kullanılır) veya bir görüntünün metinsel açıklamasını üretmek için kullanılır (bu durumda özellik vektörü CNN çıkarıcısından gelir).
 
-## 🚀 Zorluk
+## 🚀 Meydan Okuma
 
-Bu konuda Microsoft Learn'da bazı dersler alın
+Bu konuyla ilgili Microsoft Learn'de bazı dersler alın:
 
-* Metin Oluşturma ile [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
+* [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) ile Metin Üretimi
 
-## [Ders sonrası quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
 
-## Gözden Geçirme & Kendi Kendine Çalışma
+## İnceleme ve Kendi Kendine Çalışma
 
-Bilgilerinizi genişletmek için bazı makaleler
+Bilginizi genişletmek için bazı makaleler:
 
-* Markov Zinciri, LSTM ve GPT-2 ile metin oluşturmanın farklı yaklaşımları: [blog yazısı](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
-* [Keras belgelerinde](https://keras.io/examples/generative/lstm_character_level_text_generation/) metin oluşturma örneği
+* Markov Zinciri, LSTM ve GPT-2 ile metin üretimine farklı yaklaşımlar: [blog yazısı](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* [Keras dokümantasyonu](https://keras.io/examples/generative/lstm_character_level_text_generation/) içinde metin üretim örneği
 
-## [Görev](lab/README.md)
+## [Ödev](lab/README.md)
 
-Karakter karakter metin oluşturmanın nasıl yapıldığını gördük. Laboratuvar ortamında, kelime düzeyinde metin oluşturmayı keşfedeceksiniz.
+Metni karakter karakter nasıl üreteceğimizi gördük. Laboratuvarda, kelime düzeyinde metin üretimini keşfedeceksiniz.
 
-**Açıklama**:  
-Bu belge, makine tabanlı AI çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk konusunda çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucunda ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

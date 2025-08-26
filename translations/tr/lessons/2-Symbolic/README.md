@@ -1,107 +1,114 @@
-# Bilgi Temsili ve Uzman Sistemleri
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "98c5222ff9556b55223fed2337145e18",
+  "translation_date": "2025-08-26T07:38:21+00:00",
+  "source_file": "lessons/2-Symbolic/README.md",
+  "language_code": "tr"
+}
+-->
+# Bilgi Temsili ve Uzman Sistemler
 
 ![Sembolik AI içeriğinin özeti](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.tr.png)
 
-> Sketchnote [Tomomi Imura](https://twitter.com/girlie_mac) tarafından
+> Sketchnote: [Tomomi Imura](https://twitter.com/girlie_mac)
 
-Yapay zeka arayışı, insanlara benzer şekilde dünyayı anlamak için bilgi arayışına dayanır. Peki, bunu nasıl yapabilirsiniz?
+Yapay zeka arayışı, dünyayı insanların yaptığı gibi anlamlandırmak için bilgi arayışına dayanır. Peki, bunu nasıl gerçekleştirebilirsiniz?
 
-## [Ders öncesi quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
 
-Yapay zekanın ilk dönemlerinde, zeki sistemler oluşturmak için yukarıdan aşağıya yaklaşım (önceki derste tartışılan) popülerdi. Fikir, bilgiyi insanlardan makine tarafından okunabilir bir forma çıkarmak ve ardından bunu otomatik olarak sorunları çözmek için kullanmaktı. Bu yaklaşım iki büyük fikre dayanıyordu:
+Yapay zekanın ilk zamanlarında, zeki sistemler oluşturmak için yukarıdan aşağıya yaklaşım (önceki derste tartışılmıştı) popülerdi. Fikir, insanlardan bilgiyi alıp makine tarafından okunabilir bir forma dönüştürmek ve ardından bu bilgiyi otomatik olarak problem çözmek için kullanmaktı. Bu yaklaşım iki büyük fikre dayanıyordu:
 
 * Bilgi Temsili
 * Akıl Yürütme
 
 ## Bilgi Temsili
 
-Sembolik AI'deki önemli kavramlardan biri **bilgidir**. Bilgiyi *bilgi* veya *veri* ile ayırt etmek önemlidir. Örneğin, kitapların bilgi içerdiğini söyleyebiliriz, çünkü kitapları inceleyerek uzmanlaşabiliriz. Ancak, kitapların içeriği aslında *veri* olarak adlandırılır ve bu verileri okuyarak ve dünyamız modeline entegre ederek bu verileri bilgiye dönüştürürüz.
+Sembolik AI'deki önemli kavramlardan biri **bilgi**dir. Bilgiyi *bilgi* ya da *veri*den ayırmak önemlidir. Örneğin, kitapların bilgi içerdiğini söyleyebiliriz çünkü kitapları okuyarak uzmanlaşabiliriz. Ancak, kitapların içerdiği şey aslında *veri*dir ve kitapları okuyarak ve bu veriyi dünya modelimize entegre ederek bu veriyi bilgiye dönüştürürüz.
 
-> ✅ **Bilgi**, kafamızda bulunan ve dünyayı anlama şeklimizi temsil eden bir şeydir. Aktif bir **öğrenme** süreci ile elde edilir; bu süreç, aldığımız bilgi parçalarını aktif dünya modelimize entegre eder.
+> ✅ **Bilgi**, kafamızda bulunan ve dünyayı anlama şeklimizi temsil eden bir şeydir. Bu, aldığımız bilgi parçalarını aktif dünya modelimize entegre eden aktif bir **öğrenme** süreciyle elde edilir.
 
-Çoğu zaman bilgiyi katı bir şekilde tanımlamayız, ancak [DIKW Piramidi](https://en.wikipedia.org/wiki/DIKW_pyramid) gibi diğer ilgili kavramlarla ilişkilendiririz. Bu, aşağıdaki kavramları içerir:
+Çoğu zaman bilgiyi kesin olarak tanımlamayız, ancak onu diğer ilgili kavramlarla [DIKW Piramidi](https://en.wikipedia.org/wiki/DIKW_pyramid) kullanarak hizalarız. Bu piramit şu kavramları içerir:
 
-* **Veri**, fiziksel medya üzerinde temsil edilen bir şeydir; yazılı metin veya sözel kelimeler gibi. Veri, insanlardan bağımsız olarak var olur ve insanlar arasında aktarılabilir.
-* **Bilgi**, veriyi kafamızda nasıl yorumladığımızdır. Örneğin, "bilgisayar" kelimesini duyduğumuzda, bunun ne olduğu hakkında bir anlayışımız vardır.
-* **Bilgi**, bilgilerin dünya modelimize entegre edilmesidir. Örneğin, bir bilgisayarın ne olduğunu öğrendiğimizde, bunun nasıl çalıştığı, ne kadar maliyeti olduğu ve ne amaçla kullanılabileceği hakkında bazı fikirler edinmeye başlarız. Bu birbiriyle ilişkili kavramlar ağı, bilgimizi oluşturur.
-* **Bilgelik**, dünyayı anlama seviyemizin bir başka boyutudur ve *meta-bilgi* temsil eder; örneğin, bilginin nasıl ve ne zaman kullanılacağına dair bir kavram.
+* **Veri**, yazılı metin veya konuşulan kelimeler gibi fiziksel bir ortamda temsil edilen bir şeydir. Veri, insanlardan bağımsız olarak var olur ve insanlar arasında aktarılabilir.
+* **Bilgi**, veriyi kafamızda nasıl yorumladığımızdır. Örneğin, *bilgisayar* kelimesini duyduğumuzda, onun ne olduğunu anlarız.
+* **Bilgi**, bilginin dünya modelimize entegre edilmesidir. Örneğin, bir bilgisayarın ne olduğunu öğrendiğimizde, onun nasıl çalıştığı, ne kadar maliyeti olduğu ve ne için kullanılabileceği hakkında bazı fikirler ediniriz. Bu birbiriyle ilişkili kavramlar ağı, bilgimizi oluşturur.
+* **Bilgelik**, dünyayı anlama seviyemizin bir üst seviyesidir ve *meta-bilgi*yi temsil eder, örneğin bilginin nasıl ve ne zaman kullanılacağına dair bir kavrayış.
 
-<img src="images/DIKW_Pyramid.png" width="30%"/>
+*Image [from Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), By Longlivetheux - Own work, CC BY-SA 4.0*
 
-*Görsel [Wikipedia'dan](https://commons.wikimedia.org/w/index.php?curid=37705247), Longlivetheux - Kendi çalışması, CC BY-SA 4.0*
-
-Böylece, **bilgi temsili** sorunu, bilgiyi bir bilgisayar içinde veri biçiminde etkili bir şekilde temsil etmenin bir yolunu bulmaktır, böylece otomatik olarak kullanılabilir hale gelir. Bu, bir spektrum olarak görülebilir:
+Dolayısıyla, **bilgi temsili** problemi, bilgiyi bilgisayar içinde veri biçiminde etkili bir şekilde temsil etmenin bir yolunu bulmaktır, böylece otomatik olarak kullanılabilir hale gelir. Bu, bir spektrum olarak görülebilir:
 
 ![Bilgi temsili spektrumu](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.tr.png)
 
-> Görsel [Dmitry Soshnikov](http://soshnikov.com) tarafından
+> Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
-* Solda, bilgisayarlar tarafından etkili bir şekilde kullanılabilen çok basit bilgi temsilleri vardır. En basiti algoritmik olanıdır; burada bilgi, bir bilgisayar programı ile temsil edilir. Ancak, bu bilgi temsilinin en iyi yolu değildir, çünkü esnek değildir. Kafamızdaki bilgi genellikle algoritmik değildir.
-* Sağda, doğal metin gibi temsiller vardır. En güçlü olanıdır, ancak otomatik akıl yürütme için kullanılamaz.
+* Solda, bilgisayarlar tarafından etkili bir şekilde kullanılabilecek çok basit bilgi temsilleri vardır. En basiti algoritmik olanıdır; bilgi bir bilgisayar programı ile temsil edilir. Ancak, bu bilgi temsili için en iyi yol değildir çünkü esnek değildir. Kafamızdaki bilgi genellikle algoritmik değildir.
+* Sağda, doğal metin gibi temsiller vardır. Bu en güçlü olanıdır, ancak otomatik akıl yürütme için kullanılamaz.
 
-> ✅ Bilgiyi kafanızda nasıl temsil ettiğinizi ve notlara dönüştürdüğünüzü bir dakika düşünün. Hatırlamayı kolaylaştırmak için sizin için iyi çalışan belirli bir format var mı?
+> ✅ Bilgiyi kafanızda nasıl temsil ettiğinizi ve bunu notlara nasıl dönüştürdüğünüzü bir dakika düşünün. Bilgiyi daha iyi hatırlamanıza yardımcı olan belirli bir format var mı?
 
-## Bilgisayar Bilgi Temsillerinin Sınıflandırılması
+## Bilgisayar Bilgi Temsillerini Sınıflandırma
 
-Farklı bilgisayar bilgi temsil yöntemlerini aşağıdaki kategorilere ayırabiliriz:
+Bilgisayar bilgi temsili yöntemlerini şu kategorilerde sınıflandırabiliriz:
 
-* **Ağ temsilleri**, kafamızda birbiriyle ilişkili kavramlar ağına sahip olduğumuz gerçeğine dayanır. Aynı ağları bir graf olarak bir bilgisayarda yeniden üretmeye çalışabiliriz - buna **anlamsal ağ** denir.
+* **Ağ temsilleri**, kafamızda birbiriyle ilişkili kavramların bir ağı olduğu gerçeğine dayanır. Aynı ağları bir bilgisayar içinde bir grafik olarak yeniden oluşturabiliriz - bu, **anlamsal ağ** olarak adlandırılır.
 
-1. **Nesne-Aitlik-Değer üçlüleri** veya **aitlik-değer çiftleri**. Bir graf, bilgisayarda düğüm ve kenar listesini temsil edebileceği için, bir anlamsal ağı, nesneleri, özellikleri ve değerleri içeren üçlüler listesi ile temsil edebiliriz. Örneğin, programlama dilleri hakkında aşağıdaki üçlüleri oluştururuz:
+1. **Nesne-Özellik-Değer üçlüleri** veya **özellik-değer çiftleri**. Bir grafik, bilgisayar içinde bir düğüm ve kenar listesi olarak temsil edilebildiğinden, bir anlamsal ağı nesneler, özellikler ve değerler içeren bir üçlü listesiyle temsil edebiliriz. Örneğin, programlama dilleri hakkında şu üçlüleri oluşturabiliriz:
 
-Nesne | Aitlik | Değer
+Nesne | Özellik | Değer
 -------|-----------|------
-Python | dir | Tipleme-İçermeyen-Dil
-Python | icat-edildi | Guido van Rossum
-Python | blok-sözdizimi | girinti
-Tipleme-İçermeyen-Dil | yoktur | tür tanımlamaları
+Python | is | Türsüz Dil
+Python | invented-by | Guido van Rossum
+Python | blok-syntax | girinti
+Türsüz Dil | doesn't have | tür tanımları
 
 > ✅ Üçlülerin diğer bilgi türlerini temsil etmek için nasıl kullanılabileceğini düşünün.
 
-2. **Hiyerarşik temsiller**, kafamızda sık sık nesnelerin bir hiyerarşisini oluşturduğumuzu vurgular. Örneğin, kanaryanın bir kuş olduğunu ve tüm kuşların kanatları olduğunu biliriz. Ayrıca, bir kanaryanın genellikle hangi renkte olduğunu ve uçuş hızının ne olduğunu da biliyoruz.
+2. **Hiyerarşik temsiller**, kafamızda genellikle nesnelerin bir hiyerarşisini oluşturduğumuzu vurgular. Örneğin, kanaryanın bir kuş olduğunu ve tüm kuşların kanatları olduğunu biliriz. Ayrıca, kanaryanın genellikle ne renk olduğu ve uçuş hızları hakkında bir fikrimiz vardır.
 
-   - **Çerçeve temsili**, her nesneyi veya nesne sınıfını, **slotlar** içeren bir **çerçeve** olarak temsil etmeye dayanır. Slotların varsayılan değerleri, değer kısıtlamaları veya bir slotun değerini elde etmek için çağrılabilecek saklanan prosedürleri olabilir. Tüm çerçeveler, nesne yönelimli programlama dillerindeki nesne hiyerarşisine benzer bir hiyerarşi oluşturur.
+   - **Çerçeve temsili**, her nesneyi veya nesne sınıfını **çerçeve** olarak temsil etmeye dayanır ve bu çerçeve **yuvalar** içerir. Yuvalar, olası varsayılan değerlere, değer kısıtlamalarına veya bir yuvanın değerini elde etmek için çağrılabilecek saklı prosedürlere sahip olabilir. Tüm çerçeveler, nesne yönelimli programlama dillerindeki nesne hiyerarşisine benzer bir hiyerarşi oluşturur.
    - **Senaryolar**, zaman içinde gelişebilecek karmaşık durumları temsil eden özel bir çerçeve türüdür.
 
 **Python**
 
-Slot | Değer | Varsayılan değer | Aralık |
------|-------|---------------|----------|
-İsim | Python | | |
-Şu-Dir | Tipleme-İçermeyen-Dil | | |
+Yuva | Değer | Varsayılan Değer | Aralık |
+-----|-------|------------------|--------|
+Ad | Python | | |
+Is-A | Türsüz Dil | | |
 Değişken Durumu | | CamelCase | |
 Program Uzunluğu | | | 5-5000 satır |
 Blok Sözdizimi | Girinti | | |
 
-3. **Prosedürel temsiller**, bilgiyi belirli bir koşul gerçekleştiğinde yürütülebilecek eylemler listesi olarak temsil etmeye dayanır.
-   - Üretim kuralları, sonuç çıkarmamıza izin veren eğer-o zaman ifadeleridir. Örneğin, bir doktorun "Eğer" bir hastada yüksek ateş "veya" kan testinde yüksek C-reaktif protein varsa "o zaman" bir iltihabı vardır şeklinde bir kuralı olabilir. Koşullardan birine ulaştığımızda, iltihap hakkında bir sonuç çıkarabiliriz ve bunu daha sonraki akıl yürütmede kullanabiliriz.
-   - Algoritmalar, prosedürel temsilin başka bir biçimi olarak düşünülebilir, ancak neredeyse hiçbiri bilgi tabanlı sistemlerde doğrudan kullanılmaz.
+3. **Prosedürel temsiller**, belirli bir koşul oluştuğunda yürütülebilecek bir dizi eylemle bilgiyi temsil etmeye dayanır.
+   - Üretim kuralları, sonuç çıkarmamıza olanak tanıyan eğer-o zaman ifadeleridir. Örneğin, bir doktorun şu şekilde bir kuralı olabilir: **EĞER** bir hastada yüksek ateş **VEYA** kan testinde yüksek C-reaktif protein seviyesi varsa, **O ZAMAN** iltihaplanması vardır. Koşullardan birini karşılaştığımızda, iltihaplanma hakkında bir sonuca varabiliriz ve ardından bunu daha ileri akıl yürütmede kullanabiliriz.
+   - Algoritmalar, prosedürel temsillerin başka bir biçimi olarak kabul edilebilir, ancak bilgi tabanlı sistemlerde neredeyse hiç doğrudan kullanılmazlar.
 
-4. **Mantık**, Aristoteles tarafından evrensel insan bilgisini temsil etmenin bir yolu olarak önerilmiştir.
-   - Matematiksel bir teori olarak Predikat Mantığı, hesaplanabilirlik açısından çok zengin olduğu için genellikle bunun bir alt kümesi kullanılır; örneğin, Prolog'da kullanılan Horn cümleleri.
-   - Tanımlayıcı Mantık, nesnelerin hiyerarşilerini temsil etmek ve akıl yürütmek için kullanılan mantıksal sistemler ailesidir; bu tür sistemler arasında *anlamsal web* yer alır.
+4. **Mantık**, evrensel insan bilgisini temsil etmenin bir yolu olarak Aristoteles tarafından önerilmiştir.
+   - Önerme Mantığı, matematiksel bir teori olarak hesaplanabilir olmayacak kadar zengindir, bu nedenle genellikle Prolog'da kullanılan Horn cümleleri gibi bir alt kümesi kullanılır.
+   - Tanımlayıcı Mantık, *anlamsal web* gibi dağıtılmış bilgi temsilleri ve nesne hiyerarşilerini temsil etmek ve bunlar üzerinde akıl yürütmek için kullanılan mantıksal sistemler ailesidir.
 
-## Uzman Sistemleri
+## Uzman Sistemler
 
-Sembolik AI'nin erken başarılarından biri, belirli bir problem alanında uzman olarak hareket etmek üzere tasarlanmış bilgisayar sistemleri olan **uzman sistemleridir**. Bunlar, bir veya daha fazla insan uzmanından çıkarılan bir **bilgi tabanı** üzerine kurulmuştur ve üzerinde bazı akıl yürütmeler yapan bir **çıkarım motoru** içerir.
+Sembolik AI'nın erken başarılarından biri, belirli bir problem alanında uzman gibi davranmak üzere tasarlanmış **uzman sistemler**di. Bu sistemler, bir veya daha fazla insan uzmandan çıkarılan bir **bilgi tabanı**na dayanıyordu ve bunun üzerinde bazı akıl yürütmeler gerçekleştiren bir **çıkarım motoru** içeriyordu.
 
 ![İnsan Mimarisi](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.tr.png) | ![Bilgi Tabanlı Sistem](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.tr.png)
 ---------------------------------------------|------------------------------------------------
 İnsan sinir sisteminin basitleştirilmiş yapısı | Bilgi tabanlı sistemin mimarisi
 
-Uzman sistemleri, **kısa süreli bellek** ve **uzun süreli bellek** içeren insan akıl yürütme sistemi gibi inşa edilmiştir. Benzer şekilde, bilgi tabanlı sistemlerde aşağıdaki bileşenleri ayırt ederiz:
+Uzman sistemler, insan akıl yürütme sistemine benzer şekilde inşa edilir; bu sistem **kısa süreli hafıza** ve **uzun süreli hafıza** içerir. Benzer şekilde, bilgi tabanlı sistemlerde şu bileşenleri ayırt ederiz:
 
-* **Problem belleği**: şu anda çözülen problem hakkında bilgiyi içerir; yani bir hastanın sıcaklığı veya kan basıncı, iltihap olup olmadığı vb. Bu bilgi, şu anda problem hakkında bildiklerimizin bir anlık görüntüsünü içerdiği için **statik bilgi** olarak da adlandırılır - bu, söz konusu *problem durumu*dur.
-* **Bilgi tabanı**: bir problem alanı hakkında uzun süreli bilgiyi temsil eder. Bu, insan uzmanlarından manuel olarak çıkarılır ve danışmadan danışmaya değişmez. Bir problem durumundan diğerine geçiş yapmamıza olanak tanıdığı için, bu aynı zamanda **dinamik bilgi** olarak da adlandırılır.
-* **Çıkarım motoru**: problem durumu alanında arama sürecini düzenler, gerektiğinde kullanıcıya sorular sorar. Ayrıca, her duruma uygulanacak doğru kuralları bulmaktan da sorumludur.
+* **Problem hafızası**: Şu anda çözülmekte olan problem hakkındaki bilgileri içerir, örneğin bir hastanın sıcaklığı veya kan basıncı, iltihaplanması olup olmadığı vb. Bu bilgiye **statik bilgi** de denir çünkü şu anda problem hakkında bildiklerimizin bir anlık görüntüsünü içerir - bu, *problem durumu* olarak adlandırılır.
+* **Bilgi tabanı**: Bir problem alanı hakkındaki uzun süreli bilgiyi temsil eder. İnsan uzmanlardan manuel olarak çıkarılır ve danışmadan danışmaya değişmez. Çünkü bir problem durumundan diğerine geçiş yapmamıza olanak tanır, bu nedenle **dinamik bilgi** olarak da adlandırılır.
+* **Çıkarım motoru**: Problem durumu alanında arama sürecini yönlendirir, gerektiğinde kullanıcıya sorular sorar. Ayrıca her duruma uygulanacak doğru kuralları bulmaktan da sorumludur.
 
-Örnek olarak, fiziksel özelliklerine dayanarak bir hayvanı belirleyen aşağıdaki uzman sistemini düşünelim:
+Örneğin, fiziksel özelliklere dayalı bir hayvanı belirlemek için şu uzman sistemini ele alalım:
 
-![VE-VEYA Ağaç](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.tr.png)
+![AND-OR Ağacı](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.tr.png)
 
-> Görsel [Dmitry Soshnikov](http://soshnikov.com) tarafından
+> Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
-Bu diyagram bir **VE-VEYA ağacı** olarak adlandırılır ve bir dizi üretim kuralının grafiksel bir temsilidir. Bir ağacın çizilmesi, uzman bilgilerini çıkarmanın başlangıcında faydalıdır. Bilgisayar içinde bilgiyi temsil etmek için kuralları kullanmak daha uygundur:
+Bu diyagram bir **AND-OR ağacı** olarak adlandırılır ve bir dizi üretim kuralının grafiksel bir temsilidir. Bir uzmandan bilgi çıkarma sürecinin başında bir ağaç çizmek faydalıdır. Bilgiyi bilgisayar içinde temsil etmek için kuralları kullanmak daha uygundur:
 
 ```
 IF the animal eats meat
@@ -112,59 +119,57 @@ OR (animal has sharp teeth
 THEN the animal is a carnivore
 ```
 
-Kuralların sol tarafındaki her koşul ve eylem esasen nesne-aitlik-değer (OAV) üçlüleridir. **Çalışma belleği**, şu anda çözülen probleme karşılık gelen OAV üçlüleri setini içerir. Bir **kural motoru**, bir koşulun karşılandığı kuralları arar ve uygular, çalışma belleğine başka bir üçlü ekler.
+Her kuralın sol tarafındaki koşul ve eylemin aslında nesne-özellik-değer (OÖD) üçlüleri olduğunu fark edebilirsiniz. **Çalışma hafızası**, şu anda çözülmekte olan problemle ilgili OÖD üçlülerini içerir. Bir **kural motoru**, bir koşulun sağlandığı kuralları arar ve bunları uygular, çalışma hafızasına başka bir üçlü ekler.
 
-> ✅ Sevdiğiniz bir konuda kendi VE-VEYA ağacınızı çizin!
+> ✅ Sevdiğiniz bir konu hakkında kendi AND-OR ağacınızı çizin!
 
 ### İleri ve Geri Çıkarım
 
-Yukarıda tanımlanan süreç **ileri çıkarım** olarak adlandırılır. Bu, çalışma belleğinde mevcut olan problemle ilgili bazı başlangıç verileri ile başlar ve ardından şu akıl yürütme döngüsünü yürütür:
+Yukarıda açıklanan süreç **ileri çıkarım** olarak adlandırılır. Çalışma hafızasında problemle ilgili bazı başlangıç verileriyle başlar ve ardından şu akıl yürütme döngüsünü yürütür:
 
-1. Hedef özellik çalışma belleğinde mevcutsa - dur ve sonucu ver
-2. Şu anda koşulu karşılanan tüm kuralları ara - **çelişki seti** elde et.
-3. **Çelişki çözümü** gerçekleştir - bu adımda uygulanacak bir kural seç. Farklı çelişki çözümleme stratejileri olabilir:
+1. Hedef özellik çalışma hafızasında mevcutsa - dur ve sonucu ver
+2. Koşulu şu anda sağlanan tüm kuralları ara - bir **çatışma kümesi** elde et.
+3. **Çatışma çözümü** yap - bu adımda yürütülecek bir kural seç. Farklı çatışma çözüm stratejileri olabilir:
    - Bilgi tabanındaki ilk uygulanabilir kuralı seç
    - Rastgele bir kural seç
-   - En çok koşulu karşılayan *daha spesifik* bir kural seç, yani "sol taraf" (LHS) koşullarını en çok karşılayan kural
-4. Seçilen kuralı uygula ve problem durumuna yeni bir bilgi ekle
-5. 1. adıma geri dön.
+   - *Daha spesifik* bir kural seç, yani "sol taraf" (LHS) koşullarının çoğunu karşılayan bir kural
+4. Seçilen kuralı uygula ve problem durumuna yeni bir bilgi parçası ekle
+5. 1. adımdan tekrar et.
 
-Ancak, bazı durumlarda, problem hakkında boş bir bilgi ile başlamak isteyebiliriz ve sonuca ulaşmamıza yardımcı olacak sorular sorabiliriz. Örneğin, tıbbi teşhis yaparken, genellikle hastayı teşhis etmeye başlamadan önce tüm tıbbi analizleri yapmayız. Daha çok, bir karar vermemiz gerektiğinde analizler yapmak isteriz.
+Ancak, bazı durumlarda problem hakkında hiçbir bilgiye sahip olmadan başlayabilir ve sonuca ulaşmamıza yardımcı olacak sorular sorabiliriz. Örneğin, tıbbi teşhis yaparken, hastayı teşhis etmeye başlamadan önce tüm tıbbi analizleri önceden yapmayız. Bunun yerine, bir karar verilmesi gerektiğinde analiz yapmak isteriz.
 
-Bu süreç **geri çıkarım** kullanılarak modellenebilir. **Amaç** tarafından yönlendirilir - bulmaya çalıştığımız özellik değeri:
+Bu süreç **geri çıkarım** kullanılarak modellenebilir. Bu, aradığımız **hedef** tarafından yönlendirilir - bulmaya çalıştığımız özellik değeri:
 
-1. Amaç değerini verebilecek tüm kuralları seçin (yani, amaç sağ tarafta ("sağ taraf")) - bir çelişki seti
-1. Bu özellik için kural yoksa ya da kullanıcıdan değer istememiz gerektiğini belirten bir kural varsa - bunu isteyin, aksi takdirde:
-1. Bir hipotez olarak kullanacağımız bir kural seçmek için çelişki çözümleme stratejisini kullanın - bunu kanıtlamaya çalışacağız
-1. Kuralın LHS'sindeki tüm özellikler için süreci tekrarlayın, bunları hedefler olarak kanıtlamaya çalışarak
-1. Herhangi bir noktada süreç başarısız olursa - 3. adımda başka bir kural kullanın.
+1. Bir hedefin değerini verebilecek tüm kuralları seç (örneğin, hedef sağ tarafta (RHS) olan kurallar) - bir çatışma kümesi
+1. Bu özellik için hiçbir kural yoksa veya kullanıcıdan değeri sormamız gerektiğini söyleyen bir kural varsa - kullanıcıya sor, aksi takdirde:
+1. Çatışma çözüm stratejisini kullanarak *hipotez* olarak kullanacağımız bir kural seç - bunu kanıtlamaya çalışacağız
+1. Kuralların sol tarafındaki tüm özellikler için süreci yineleyerek bunları hedef olarak kanıtlamaya çalış
+1. Süreç herhangi bir noktada başarısız olursa - 3. adımda başka bir kural kullan.
 
-> ✅ Hangi durumlarda ileri çıkarım daha uygun? Geri çıkarım hakkında ne dersiniz?
+> ✅ Hangi durumlarda ileri çıkarım daha uygundur? Peki ya geri çıkarım?
 
-### Uzman Sistemlerin Uygulanması
+### Uzman Sistemleri Uygulama
 
-Uzman sistemler, farklı araçlar kullanılarak uygulanabilir:
+Uzman sistemleri farklı araçlar kullanılarak uygulanabilir:
 
-* Bunları doğrudan bazı yüksek seviyeli programlama dillerinde programlamak. Bu en iyi fikir değildir, çünkü bilgi tabanlı bir sistemin ana avantajı bilginin çıkarımdan ayrılmasıdır ve potansiyel olarak bir problem alanı uzmanı, çıkarım sürecinin ayrıntılarını anlamadan kurallar yazabilmelidir.
-* **Uzman sistemler kabuğu** kullanmak, yani bazı bilgi temsil dilleri kullanarak bilgi ile doldurulması için özel olarak tasarlanmış bir sistem.
+* Doğrudan bir yüksek seviyeli programlama dilinde programlamak. Bu en iyi fikir değildir çünkü bilgi tabanlı bir sistemin ana avantajı, bilginin çıkarımdan ayrılmasıdır ve potansiyel olarak bir problem alanı uzmanı, çıkarım sürecinin ayrıntılarını anlamadan kurallar yazabilmelidir.
+* **Uzman sistem kabuğu** kullanmak, yani bilgi temsili dili kullanılarak bilgiyle doldurulmak üzere özel olarak tasarlanmış bir sistem.
 
-## ✍️ Alıştırma: Hayvan Çıkarımı
+## ✍️ Egzersiz: Hayvan Çıkarımı
 
-İleri ve geri çıkarım uzman sisteminin uygulanmasına bir örnek için [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) dosyasına bakın.
-
-> **Not**: Bu örnek oldukça basit olup, bir uzman sistemin nasıl göründüğüne dair sadece bir fikir vermektedir. Böyle bir sistem oluşturmaya başladığınızda, yaklaşık 200 kurala ulaştığınızda, sistemin belirli kararlar alma biçiminde bazı *zeka* davranışları fark edeceksiniz. Bir noktada, kurallar çok karmaşık hale gelir ve bunların hepsini akılda tutmak zorlaşır, bu noktada bir sistemin neden belirli kararlar verdiğini sorgulamaya başlayabilirsiniz. Ancak, bilgi tabanlı sistemlerin önemli bir özelliği, herhangi bir kararın nasıl alındığını her zaman *açıklayabilmenizdir*.
-
+İleri ve geri çıkarım uzman sistemi uygulama örneği için [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) dosyasına bakın.
+> **Not**: Bu örnek oldukça basittir ve yalnızca bir uzman sistemin nasıl göründüğüne dair bir fikir verir. Böyle bir sistem oluşturmaya başladığınızda, yalnızca belirli bir kural sayısına, yaklaşık 200+ kurala ulaştığınızda *zeki* bir davranış fark etmeye başlarsınız. Bir noktada, kurallar o kadar karmaşık hale gelir ki, hepsini akılda tutmak zorlaşır ve bu noktada sistemin neden belirli kararlar verdiğini merak etmeye başlayabilirsiniz. Ancak, bilgi tabanlı sistemlerin önemli özelliklerinden biri, alınan herhangi bir kararın tam olarak nasıl verildiğini her zaman *açıklayabilmenizdir*.
 ## Ontolojiler ve Anlamsal Web
 
-20. yüzyılın sonunda, internet kaynaklarını işaretlemek için bilgi temsili kullanma girişimi vardı, böylece çok özel sorgulara karşılık gelen kaynakları bulmak mümkün olabilirdi. Bu hareket **Anlamsal Web** olarak adlandırıldı ve birkaç kavrama dayanıyordu:
+20. yüzyılın sonunda, İnternet kaynaklarını bilgi temsili kullanarak açıklama girişimi ortaya çıktı. Bu sayede, çok spesifik sorgulara karşılık gelen kaynakları bulmak mümkün olacaktı. Bu girişim **Anlamsal Web** olarak adlandırıldı ve birkaç kavrama dayanıyordu:
 
-- **[Tanım mantıkları](https://en.wikipedia.org/wiki/Description_logic)** (DL) üzerine kurulu özel bir bilgi temsili. Bu, özelliklerle nesnelerin bir hiyerarşisini oluşturduğu için çerçeve bilgi temsilinin benzeridir, ancak resmi mantıksal anlamı ve çıkarımı vardır. İfade gücü ve çıkarımın algoritmik karmaşıklığı arasında denge kuran bir dizi DL vardır.
-- Tüm kavramların küresel bir URI tanımlayıcısı ile temsil edildiği dağıtık bilgi temsili, interneti kapsayan bilgi hiyerarşileri oluşturmayı mümkün kılar.
-- Bilgi tanımlamak için XML tabanlı diller ailesi: RDF (Kaynak Tanım Çerçevesi), RDFS (RDF Şeması), OWL (Ontoloji Web Dili).
+- **[Tanım mantıkları](https://en.wikipedia.org/wiki/Description_logic)** (DL) temelli özel bir bilgi temsili. Çerçeve bilgi temsiline benzer, çünkü özelliklere sahip nesnelerin bir hiyerarşisini oluşturur, ancak formal mantıksal semantiğe ve çıkarıma sahiptir. Çıkarımın ifade gücü ve algoritmik karmaşıklığı arasında denge kuran bir DL ailesi vardır.
+- Dağıtılmış bilgi temsili, tüm kavramların küresel bir URI tanımlayıcısı ile temsil edildiği, interneti kapsayan bilgi hiyerarşileri oluşturmayı mümkün kılan bir yapı.
+- Bilgi açıklaması için XML tabanlı bir dil ailesi: RDF (Kaynak Tanım Çerçevesi), RDFS (RDF Şeması), OWL (Ontoloji Web Dili).
 
-Anlamsal Web'deki temel kavram, **Ontoloji** kavramıdır. Bu, belirli bir problem alanının bazı resmi bilgi temsili kullanılarak açık bir şekilde tanımlanmasını ifade eder. En basit ontoloji, bir problem alanındaki nesnelerin hiyerarşisi olabilir, ancak daha karmaşık ontolojiler çıkarım için kullanılabilecek kuralları içerecektir.
+Anlamsal Web'in temel kavramı **Ontoloji** kavramıdır. Bu, bir problem alanının formal bir bilgi temsili kullanılarak açık bir şekilde tanımlanmasını ifade eder. En basit ontoloji, bir problem alanındaki nesnelerin bir hiyerarşisi olabilir, ancak daha karmaşık ontolojiler çıkarım için kullanılabilecek kuralları içerir.
 
-Anlamsal webde, tüm temsiller üçlüler üzerine kuruludur. Her nesne ve her ilişki, URI ile benzersiz bir şekilde tanımlanır. Örneğin, bu AI Müfredatının 1 Ocak 2022'de Dmitry Soshnikov tarafından geliştirildiğini belirtmek istersek - kullanabileceğimiz üçlüler şunlardır:
+Anlamsal webde, tüm temsiller üçlüler üzerine kuruludur. Her nesne ve her ilişki URI ile benzersiz bir şekilde tanımlanır. Örneğin, bu AI Müfredatının Dmitry Soshnikov tarafından 1 Ocak 2022'de geliştirildiği gerçeğini ifade etmek istersek, kullanabileceğimiz üçlüler şunlardır:
 
 <img src="images/triplet.png" width="30%"/>
 
@@ -173,15 +178,71 @@ http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creati
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Burada `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator`, *yaratıcı* ve *oluşturma tarihi* kavramlarını ifade etmek için bazı iyi bilinen ve evrensel olarak kabul edilen URI'lardır.
+> ✅ Burada `http://www.example.com/terms/creation-date` ve `http://purl.org/dc/elements/1.1/creator` *yaratıcı* ve *oluşturma tarihi* kavramlarını ifade etmek için kullanılan, iyi bilinen ve evrensel olarak kabul edilen URI'lardır.
 
-Daha karmaşık bir durumda, bir yaratıcılar listesi tanımlamak istersek, RDF'de tanımlanan bazı veri yapıları kullanabiliriz.
+Daha karmaşık bir durumda, bir yaratıcılar listesini tanımlamak istersek, RDF'de tanımlanan bazı veri yapılarını kullanabiliriz.
 
 <img src="images/triplet-complex.png" width="40%"/>
 
-> Yukarıdaki diyagramlar [Dmitry Soshnikov](http://soshnikov.com) tarafından
+> Yukarıdaki diyagramlar [Dmitry Soshnikov](http://soshnikov.com) tarafından hazırlanmıştır.
 
-Anlamsal Web'in inşası, arama motorlarının ve doğal dil işleme tekniklerinin başarısı nedeniyle bir nebze yavaşladı; bu teknikler metinden yapılandırılmış verileri çıkarmayı mümkün kılmaktadır. Ancak, bazı alanlarda hala ontolojileri ve bilgi tabanlarını sürdürmek için önemli çabalar gösterilmektedir. Dikkate değer birkaç
+Anlamsal Web'in inşa edilmesindeki ilerleme, arama motorlarının ve metinden yapılandırılmış veri çıkarılmasını sağlayan doğal dil işleme tekniklerinin başarısı nedeniyle bir ölçüde yavaşladı. Ancak, bazı alanlarda ontolojileri ve bilgi tabanlarını sürdürmek için hala önemli çabalar gösterilmektedir. Dikkate değer birkaç proje:
 
-**Açıklama**:  
-Bu belge, makine tabanlı AI çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa özen göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen dikkate alınız. Yerel dildeki orijinal belge, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+* [WikiData](https://wikidata.org/) Wikipedia ile ilişkili makine tarafından okunabilir bilgi tabanlarının bir koleksiyonudur. Verilerin çoğu, Wikipedia sayfalarındaki yapılandırılmış içerik parçaları olan *InfoBox*lardan çıkarılır. WikiData'yı Anlamsal Web için özel bir sorgu dili olan SPARQL ile [sorgulayabilirsiniz](https://query.wikidata.org/). İşte insanların en popüler göz renklerini gösteren örnek bir sorgu:
+
+```sparql
+#defaultView:BubbleChart
+SELECT ?eyeColorLabel (COUNT(?human) AS ?count)
+WHERE
+{
+  ?human wdt:P31 wd:Q5.       # human instance-of homo sapiens
+  ?human wdt:P1340 ?eyeColor. # human eye-color ?eyeColor
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?eyeColorLabel
+```
+
+* [DBpedia](https://www.dbpedia.org/) WikiData'ya benzer başka bir girişimdir.
+
+> ✅ Kendi ontolojilerinizi oluşturmayı veya mevcut olanları açmayı denemek istiyorsanız, [Protégé](https://protege.stanford.edu/) adlı harika bir görsel ontoloji düzenleyici var. İndirin veya çevrimiçi kullanın.
+
+<img src="images/protege.png" width="70%"/>
+
+*Web Protégé düzenleyicisi Romanov Ailesi ontolojisi ile açık. Dmitry Soshnikov tarafından ekran görüntüsü.*
+
+## ✍️ Alıştırma: Bir Aile Ontolojisi
+
+Aile ilişkileri hakkında Anlamsal Web tekniklerini kullanmaya dair bir örnek için [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) dosyasına bakın. Yaygın GEDCOM formatında temsil edilen bir aile ağacını ve aile ilişkileri ontolojisini alacağız ve belirli bireyler için tüm aile ilişkilerinin bir grafiğini oluşturacağız.
+
+## Microsoft Kavram Grafiği
+
+Çoğu durumda, ontolojiler dikkatlice elle oluşturulur. Ancak, ontolojileri yapılandırılmamış verilerden, örneğin doğal dil metinlerinden **çıkarmak** da mümkündür.
+
+Microsoft Research tarafından yapılan böyle bir girişim, [Microsoft Kavram Grafiği](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste) ile sonuçlandı.
+
+Bu, `is-a` kalıtım ilişkisi kullanılarak gruplandırılmış büyük bir varlık koleksiyonudur. "Microsoft nedir?" gibi soruları yanıtlamayı sağlar - yanıt, "bir şirket (olasılık 0.87) ve bir marka (olasılık 0.75)" gibi bir şeydir.
+
+Grafik, REST API olarak veya tüm varlık çiftlerini listeleyen büyük bir indirilebilir metin dosyası olarak kullanılabilir.
+
+## ✍️ Alıştırma: Bir Kavram Grafiği
+
+Microsoft Kavram Grafiği'ni kullanarak haber makalelerini birkaç kategoriye ayırmayı görmek için [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) defterini deneyin.
+
+## Sonuç
+
+Günümüzde, yapay zeka genellikle *Makine Öğrenimi* veya *Sinir Ağları* ile eş anlamlı olarak kabul edilir. Ancak, bir insan açık bir şekilde akıl yürütme sergiler, bu da şu anda sinir ağları tarafından ele alınmayan bir şeydir. Gerçek dünya projelerinde, açık akıl yürütme, açıklama gerektiren veya sistemin davranışını kontrollü bir şekilde değiştirme yeteneği gerektiren görevleri gerçekleştirmek için hala kullanılmaktadır.
+
+## 🚀 Meydan Okuma
+
+Bu derse bağlı Aile Ontolojisi defterinde, diğer aile ilişkileriyle deneme yapma fırsatı vardır. Aile ağacındaki insanlar arasında yeni bağlantılar keşfetmeyi deneyin.
+
+## [Ders sonrası test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+
+## İnceleme ve Kendi Kendine Çalışma
+
+İnsanların bilgiyi nicelleştirmeye ve kodlamaya çalıştığı alanları keşfetmek için internette araştırma yapın. Bloom'un Taksonomisine göz atın ve insanların dünyalarını anlamlandırmaya çalıştığı tarihsel süreçlere geri dönün. Linnaeus'un organizmaların taksonomisini oluşturma çalışmalarını ve Dmitri Mendeleev'in kimyasal elementlerin tanımlanması ve gruplandırılması için bir yol yaratma çabalarını inceleyin. Başka hangi ilginç örnekler bulabilirsiniz?
+
+**Ödev**: [Bir Ontoloji Oluşturun](assignment.md)
+
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

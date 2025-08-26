@@ -1,14 +1,23 @@
-# Support
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
+  "translation_date": "2025-08-26T07:15:43+00:00",
+  "source_file": "etc/SUPPORT.md",
+  "language_code": "it"
+}
+-->
+# Supporto
 
-## How to file issues and get help  
+## Come segnalare problemi e ottenere aiuto  
 
-This project utilizes GitHub Issues to monitor bugs and feature requests. Please check the existing issues before submitting new ones to prevent duplicates. For new issues, please report your bug or feature request as a new Issue.
+Questo progetto utilizza GitHub Issues per tracciare bug e richieste di funzionalità. Cerca tra i problemi esistenti prima di segnalare nuovi problemi per evitare duplicati. Per nuovi problemi, segnala il tuo bug o la tua richiesta di funzionalità come un nuovo Issue.
 
-For assistance and inquiries regarding the use of this project, kindly refer to the Discussion Boards.
+Per assistenza e domande sull'utilizzo di questo progetto, utilizza i Forum di Discussione.
 
-## Microsoft Support Policy  
+## Politica di supporto Microsoft  
 
-Support for this project is restricted to the resources mentioned above.
+Il supporto per questo progetto è limitato alle risorse elencate sopra.
 
 **Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

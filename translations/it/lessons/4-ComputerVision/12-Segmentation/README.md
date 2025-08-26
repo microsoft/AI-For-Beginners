@@ -1,69 +1,78 @@
-# Segmentación
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d7f8a25ff13cfe9f4cd671cc23351fad",
+  "translation_date": "2025-08-26T07:00:33+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
+  "language_code": "it"
+}
+-->
+# Segmentazione
 
-Anteriormente aprendimos sobre la Detección de Objetos, que nos permite localizar objetos en la imagen prediciendo sus *cajas delimitadoras*. Sin embargo, para algunas tareas no solo necesitamos cajas delimitadoras, sino también una localización de objetos más precisa. Esta tarea se llama **segmentación**.
+Abbiamo già imparato a conoscere il Rilevamento degli Oggetti, che ci permette di individuare gli oggetti in un'immagine prevedendo i loro *bounding box*. Tuttavia, per alcuni compiti non ci bastano solo i bounding box, ma abbiamo bisogno di una localizzazione più precisa degli oggetti. Questo compito si chiama **segmentazione**.
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
 
-La segmentación puede verse como **clasificación de píxeles**, donde para **cada** píxel de la imagen debemos predecir su clase (*fondo* siendo una de las clases). Hay dos algoritmos principales de segmentación:
+La segmentazione può essere vista come una **classificazione dei pixel**, in cui per **ogni** pixel dell'immagine dobbiamo prevedere la sua classe (*sfondo* essendo una delle classi). Esistono due principali algoritmi di segmentazione:
 
-* La **segmentación semántica** solo indica la clase del píxel y no hace distinción entre diferentes objetos de la misma clase.
-* La **segmentación por instancias** divide las clases en diferentes instancias.
+* La **segmentazione semantica** indica solo la classe del pixel, senza distinguere tra diversi oggetti della stessa classe.
+* La **segmentazione per istanza** divide le classi in istanze diverse.
 
-Por ejemplo, en la segmentación por instancias, estas ovejas son objetos diferentes, pero en la segmentación semántica todas las ovejas están representadas por una sola clase.
+Ad esempio, nella segmentazione per istanza, queste pecore sono oggetti diversi, mentre nella segmentazione semantica tutte le pecore sono rappresentate da una sola classe.
 
 <img src="images/instance_vs_semantic.jpeg" width="50%">
 
-> Imagen de [esta publicación en el blog](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
+> Immagine tratta da [questo post sul blog](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
-Existen diferentes arquitecturas neuronales para la segmentación, pero todas tienen la misma estructura. De alguna manera, es similar al autoencoder que aprendiste anteriormente, pero en lugar de descomponer la imagen original, nuestro objetivo es descomponer una **máscara**. Así, una red de segmentación tiene las siguientes partes:
+Esistono diverse architetture neurali per la segmentazione, ma tutte hanno la stessa struttura. In un certo senso, è simile all'autoencoder di cui hai già appreso, ma invece di decostruire l'immagine originale, il nostro obiettivo è decostruire una **maschera**. Pertanto, una rete di segmentazione ha le seguenti parti:
 
-* **Codificador** extrae características de la imagen de entrada.
-* **Decodificador** transforma esas características en la **imagen de máscara**, con el mismo tamaño y número de canales correspondiente al número de clases.
+* **Encoder**: estrae le caratteristiche dall'immagine di input.
+* **Decoder**: trasforma queste caratteristiche nell'**immagine maschera**, con la stessa dimensione e un numero di canali corrispondente al numero di classi.
 
 <img src="images/segm.png" width="80%">
 
-> Imagen de [esta publicación](https://arxiv.org/pdf/2001.05566.pdf)
+> Immagine tratta da [questa pubblicazione](https://arxiv.org/pdf/2001.05566.pdf)
 
-Debemos mencionar especialmente la función de pérdida que se utiliza para la segmentación. Al usar autoencoders clásicos, necesitamos medir la similitud entre dos imágenes, y podemos usar el error cuadrático medio (MSE) para hacerlo. En la segmentación, cada píxel en la imagen de máscara objetivo representa el número de clase (codificado en one-hot a lo largo de la tercera dimensión), por lo que necesitamos usar funciones de pérdida específicas para la clasificación: pérdida de entropía cruzada, promediada sobre todos los píxeles. Si la máscara es binaria, se utiliza **pérdida de entropía cruzada binaria** (BCE).
+Dobbiamo menzionare in particolare la funzione di perdita utilizzata per la segmentazione. Quando si utilizzano autoencoder classici, dobbiamo misurare la somiglianza tra due immagini, e possiamo utilizzare l'errore quadratico medio (MSE) per farlo. Nella segmentazione, ogni pixel nell'immagine maschera target rappresenta il numero della classe (one-hot-encoded lungo la terza dimensione), quindi dobbiamo utilizzare funzioni di perdita specifiche per la classificazione - la cross-entropy loss, mediata su tutti i pixel. Se la maschera è binaria, si utilizza la **binary cross-entropy loss** (BCE).
 
-> ✅ La codificación one-hot es una forma de codificar una etiqueta de clase en un vector de longitud igual al número de clases. Echa un vistazo a [este artículo](https://datagy.io/sklearn-one-hot-encode/) sobre esta técnica.
+> ✅ La codifica one-hot è un modo per codificare un'etichetta di classe in un vettore di lunghezza pari al numero di classi. Dai un'occhiata a [questo articolo](https://datagy.io/sklearn-one-hot-encode/) su questa tecnica.
 
-## Segmentación para Imágenes Médicas
+## Segmentazione per Immagini Mediche
 
-En esta lección, veremos la segmentación en acción entrenando la red para reconocer nevos humanos (también conocidos como lunares) en imágenes médicas. Usaremos la <a href="https://www.fc.up.pt/addi/ph2%20database.html">Base de Datos PH<sup>2</sup></a> de imágenes de dermatoscopia como fuente de imágenes. Este conjunto de datos contiene 200 imágenes de tres clases: nevus típico, nevus atípico y melanoma. Todas las imágenes también contienen una **máscara** correspondiente que delimita el nevus.
+In questa lezione, vedremo la segmentazione in azione addestrando una rete a riconoscere i nevi umani (noti anche come nei) nelle immagini mediche. Utilizzeremo il <a href="https://www.fc.up.pt/addi/ph2%20database.html">Database PH<sup>2</sup></a> di immagini dermoscopiche come fonte di immagini. Questo dataset contiene 200 immagini di tre classi: nevo tipico, nevo atipico e melanoma. Tutte le immagini contengono anche una corrispondente **maschera** che delinea il nevo.
 
-> ✅ Esta técnica es particularmente adecuada para este tipo de imágenes médicas, pero ¿qué otras aplicaciones en el mundo real podrías imaginar?
+> ✅ Questa tecnica è particolarmente adatta per questo tipo di immagini mediche, ma quali altre applicazioni nel mondo reale potresti immaginare?
 
 <img alt="navi" src="images/navi.png"/>
 
-> Imagen de la Base de Datos PH<sup>2</sup>
+> Immagine tratta dal Database PH<sup>2</sup>
 
-Entrenaremos un modelo para segmentar cualquier nevus de su fondo.
+Addestreremo un modello per segmentare qualsiasi nevo dal suo sfondo.
 
-## ✍️ Ejercicios: Segmentación Semántica
+## ✍️ Esercizi: Segmentazione Semantica
 
-Abre los cuadernos a continuación para aprender más sobre diferentes arquitecturas de segmentación semántica, practicar trabajando con ellas y verlas en acción.
+Apri i notebook qui sotto per saperne di più sulle diverse architetture di segmentazione semantica, esercitarti a lavorare con esse e vederle in azione.
 
-* [Segmentación Semántica Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
-* [Segmentación Semántica TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
+* [Segmentazione Semantica Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
+* [Segmentazione Semantica TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
 
-## Conclusión
+## Conclusione
 
-La segmentación es una técnica muy poderosa para la clasificación de imágenes, que va más allá de las cajas delimitadoras hacia la clasificación a nivel de píxel. Es una técnica utilizada en imágenes médicas, entre otras aplicaciones.
+La segmentazione è una tecnica molto potente per la classificazione delle immagini, andando oltre i bounding box fino alla classificazione a livello di pixel. È una tecnica utilizzata nell'imaging medico, tra le altre applicazioni.
 
-## 🚀 Desafío
+## 🚀 Sfida
 
-La segmentación del cuerpo es solo una de las tareas comunes que podemos realizar con imágenes de personas. Otras tareas importantes incluyen la **detección de esqueletos** y la **detección de poses**. Prueba la biblioteca [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) para ver cómo se puede utilizar la detección de poses.
+La segmentazione del corpo è solo uno dei compiti comuni che possiamo svolgere con le immagini delle persone. Altri compiti importanti includono il **rilevamento dello scheletro** e il **rilevamento della posa**. Prova la libreria [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) per vedere come può essere utilizzato il rilevamento della posa.
 
-## Revisión y Autoestudio
+## Revisione e Studio Autonomo
 
-Este [artículo de Wikipedia](https://wikipedia.org/wiki/Image_segmentation) ofrece una buena visión general de las diversas aplicaciones de esta técnica. Aprende más por tu cuenta sobre los subdominios de la segmentación por instancias y la segmentación panóptica en este campo de investigación.
+Questo [articolo di Wikipedia](https://wikipedia.org/wiki/Image_segmentation) offre una buona panoramica delle varie applicazioni di questa tecnica. Approfondisci autonomamente i sottodomini della segmentazione per istanza e della segmentazione panottica in questo campo di studio.
 
-## [Tarea](lab/README.md)
+## [Compito](lab/README.md)
 
-En este laboratorio, intenta **segmentación del cuerpo humano** utilizando el [Conjunto de Datos de Segmentación del Cuerpo Completo MADS](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) de Kaggle.
+In questo laboratorio, prova la **segmentazione del corpo umano** utilizzando il [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) da Kaggle.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

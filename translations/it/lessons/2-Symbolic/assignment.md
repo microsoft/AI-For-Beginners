@@ -1,6 +1,15 @@
-# Construir una Ontología
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a057a8604f3976c3e309884453f1fad0",
+  "translation_date": "2025-08-26T07:14:33+00:00",
+  "source_file": "lessons/2-Symbolic/assignment.md",
+  "language_code": "it"
+}
+-->
+# Costruire un'ontologia
 
-Construir una base de conocimientos se trata de categorizar un modelo que represente hechos sobre un tema. Elige un tema, como una persona, un lugar o un objeto, y luego construye un modelo de ese tema. Utiliza algunas de las técnicas y estrategias de construcción de modelos descritas en esta lección. Un ejemplo sería crear una ontología de una sala de estar con muebles, luces, y así sucesivamente. ¿En qué se diferencia la sala de estar de la cocina? ¿Del baño? ¿Cómo sabes que es una sala de estar y no un comedor? Utiliza [Protégé](https://protege.stanford.edu/) para construir tu ontología.
+Costruire una base di conoscenza significa categorizzare un modello che rappresenta fatti su un argomento. Scegli un argomento - come una persona, un luogo o un oggetto - e poi costruisci un modello di quell'argomento. Utilizza alcune delle tecniche e strategie di costruzione del modello descritte in questa lezione. Un esempio potrebbe essere creare un'ontologia di un soggiorno con mobili, luci e così via. In che modo il soggiorno si differenzia dalla cucina? Dal bagno? Come fai a sapere che è un soggiorno e non una sala da pranzo? Usa [Protégé](https://protege.stanford.edu/) per costruire la tua ontologia.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

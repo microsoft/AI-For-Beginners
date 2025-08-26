@@ -1,14 +1,23 @@
-# Entrenamiento del Modelo Skip-Gram
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
+  "translation_date": "2025-08-26T06:58:01+00:00",
+  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Addestramento del Modello Skip-Gram
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Compito del laboratorio tratto dal [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
-## Tarea
+## Compito
 
-En este laboratorio, te desafiamos a entrenar un modelo Word2Vec utilizando la técnica Skip-Gram. Entrena una red con incrustaciones para predecir palabras vecinas en una ventana Skip-Gram de $N$ tokens de ancho. Puedes usar el [código de esta lección](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) y modificarlo ligeramente.
+In questo laboratorio, ti sfidiamo a addestrare un modello Word2Vec utilizzando la tecnica Skip-Gram. Addestra una rete con embedding per prevedere le parole vicine in una finestra Skip-Gram di $N$ token. Puoi utilizzare il [codice di questa lezione](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) e modificarlo leggermente.
 
-## El Conjunto de Datos
+## Il Dataset
 
-Puedes utilizar cualquier libro. Puedes encontrar muchos textos gratuitos en [Project Gutenberg](https://www.gutenberg.org/); por ejemplo, aquí tienes un enlace directo a [Las Aventuras de Alicia en el País de las Maravillas](https://www.gutenberg.org/files/11/11-0.txt) de Lewis Carroll. O, puedes utilizar las obras de Shakespeare, que puedes obtener utilizando el siguiente código:
+Puoi utilizzare qualsiasi libro. Puoi trovare molti testi gratuiti su [Project Gutenberg](https://www.gutenberg.org/), ad esempio, ecco un link diretto a [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt) di Lewis Carroll. Oppure, puoi utilizzare le opere di Shakespeare, che puoi ottenere con il seguente codice:
 
 ```python
 path_to_file = tf.keras.utils.get_file(
@@ -17,13 +26,13 @@ path_to_file = tf.keras.utils.get_file(
 text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 ```
 
-## ¡Explora!
+## Esplora!
 
-Si tienes tiempo y quieres profundizar en el tema, intenta explorar varias cosas:
+Se hai tempo e vuoi approfondire l'argomento, prova a esplorare diversi aspetti:
 
-* ¿Cómo afecta el tamaño de la incrustación a los resultados?
-* ¿Cómo afectan los diferentes estilos de texto al resultado?
-* Toma varios tipos de palabras muy diferentes y sus sinónimos, obtén sus representaciones vectoriales, aplica PCA para reducir las dimensiones a 2 y plótalas en un espacio 2D. ¿Ves algún patrón?
+* Come influisce la dimensione dell'embedding sui risultati?
+* Come influiscono gli stili di testo diversi sui risultati?
+* Prendi diversi tipi di parole molto differenti e i loro sinonimi, ottieni le loro rappresentazioni vettoriali, applica PCA per ridurre le dimensioni a 2 e tracciale in uno spazio 2D. Riesci a vedere qualche schema?
 
-**Disclaimer**: 
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de ningún malentendido o mala interpretación que surja del uso de esta traducción.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

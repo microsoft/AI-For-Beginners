@@ -1,22 +1,31 @@
-# Detectar Movimientos usando Flujo Óptico
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "3d53d6409f80970f7281a45dee35328a",
+  "translation_date": "2025-08-26T07:04:05+00:00",
+  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Rilevamento dei Movimenti con Optical Flow
 
-Tarea del [Currículo de IA para Principiantes](https://aka.ms/ai-beginners).
+Compito del laboratorio tratto dal [Curriculum AI per Principianti](https://aka.ms/ai-beginners).
 
-## Tarea
+## Compito
 
-Considera [este video](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4), en el que la palma de una persona se mueve de izquierda/derecha/arriba/abajo sobre un fondo estable. Estás entrenado en datos hasta octubre de 2023.
+Considera [questo video](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4), in cui il palmo di una persona si muove a sinistra/destra/su/giù su uno sfondo stabile.
 
-**Tu objetivo** será utilizar Flujo Óptico para determinar qué partes del video contienen movimientos hacia arriba/abajo/izquierda/derecha.
+**Il tuo obiettivo** sarà utilizzare Optical Flow per determinare quali parti del video contengono movimenti verso l'alto, il basso, la sinistra o la destra.
 
-**Objetivo adicional** sería rastrear el movimiento de la palma/dedo utilizando el tono de piel, como se describe [en esta publicación de blog](https://dev.to/amarlearning/finger-detection-and-tracking-using-opencv-and-python-586m) o [aquí](http://www.benmeline.com/finger-tracking-with-opencv-and-python/).
+**Obiettivo avanzato** sarà effettivamente tracciare il movimento del palmo/delle dita utilizzando il tono della pelle, come descritto [in questo post sul blog](https://dev.to/amarlearning/finger-detection-and-tracking-using-opencv-and-python-586m) o [qui](http://www.benmeline.com/finger-tracking-with-opencv-and-python/).
 
-## Cuaderno de Inicio
+## Notebook di Partenza
 
-Comienza el laboratorio abriendo [MovementDetection.ipynb](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/MovementDetection.ipynb)
+Inizia il laboratorio aprendo [MovementDetection.ipynb](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/MovementDetection.ipynb)
 
-## Conclusión
+## Conclusione
 
-A veces, tareas relativamente complejas como la detección de movimientos o la detección de puntas de dedos pueden resolverse únicamente mediante visión por computadora. Por lo tanto, es muy útil saber lo que bibliotecas como OpenCV pueden hacer.
+A volte, compiti relativamente complessi come il rilevamento del movimento o il rilevamento della punta delle dita possono essere risolti esclusivamente tramite visione artificiale. Pertanto, è molto utile sapere cosa possono fare librerie come OpenCV.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

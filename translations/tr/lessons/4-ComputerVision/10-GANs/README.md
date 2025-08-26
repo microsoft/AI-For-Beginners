@@ -1,101 +1,110 @@
-# Üretken Çatışmalı Ağlar
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f07c85bbf05a1f67505da98f4ecc124c",
+  "translation_date": "2025-08-26T07:26:24+00:00",
+  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
+  "language_code": "tr"
+}
+-->
+# Üretici Çekişmeli Ağlar (Generative Adversarial Networks)
 
-Önceki bölümde **üretken modeller** hakkında bilgi edindik: eğitim veri setindeki görüntülere benzer yeni görüntüler üretebilen modeller. VAE, bir üretken modelin iyi bir örneğiydi.
+Önceki bölümde, **üretici modeller** hakkında bilgi edindik: eğitim veri kümesindeki görüntülere benzer yeni görüntüler üretebilen modeller. VAE, üretici bir modele iyi bir örnekti.
 
-## [Ders öncesi quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
 
-Ancak, VAE ile gerçekten anlamlı bir şey, örneğin makul bir çözünürlükte bir resim üretmeye çalıştığımızda, eğitimin iyi bir şekilde yakınsadığını göremeyiz. Bu kullanım durumu için, üretken modellere özel olarak hedeflenmiş başka bir mimari hakkında bilgi edinmemiz gerekir - **Üretken Çatışmalı Ağlar**, veya kısaca GAN'lar.
+Ancak, VAE ile makul bir çözünürlükte anlamlı bir şey, örneğin bir tablo, üretmeye çalışırsak, eğitimin iyi bir şekilde yakınsama sağlamadığını göreceğiz. Bu kullanım durumu için, özellikle üretici modellere yönelik başka bir mimariyi öğrenmeliyiz - **Üretici Çekişmeli Ağlar** veya GAN'ler.
 
-GAN'ın ana fikri, birbirine karşı eğitilecek iki sinir ağına sahip olmaktır:
+GAN'in temel fikri, birbirine karşı eğitilecek iki sinir ağına sahip olmaktır:
 
 <img src="images/gan_architecture.png" width="70%"/>
 
-> Resim [Dmitry Soshnikov](http://soshnikov.com) tarafından
+> Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Küçük bir kelime bilgisi:
-> * **Üretici** (Generator), rastgele bir vektör alıp, sonuç olarak bir görüntü üreten bir ağdır.
-> * **Ayrıştırıcı** (Discriminator), bir görüntü alır ve bunun gerçek bir görüntü olup olmadığını (eğitim veri setinden) ya da bir üretici tarafından üretilip üretilmediğini belirtmelidir. Temelde bir görüntü sınıflayıcısıdır.
+> * **Üretici (Generator)**, rastgele bir vektör alıp sonuç olarak bir görüntü üreten bir ağdır.
+> * **Ayrımcı (Discriminator)**, bir görüntü alır ve bunun gerçek bir görüntü mü (eğitim veri kümesinden) yoksa bir üretici tarafından mı üretildiğini belirlemelidir. Esasen bir görüntü sınıflandırıcısıdır.
 
-### Ayrıştırıcı
+### Ayrımcı (Discriminator)
 
-Ayrıştırıcının mimarisi, sıradan bir görüntü sınıflama ağından farklı değildir. En basit durumda, tamamen bağlı bir sınıflayıcı olabilir, ancak büyük ihtimalle bir [konvolüsyonel ağ](../07-ConvNets/README.md) olacaktır.
+Ayrımcının mimarisi, sıradan bir görüntü sınıflandırma ağından farklı değildir. En basit durumda, tamamen bağlı bir sınıflandırıcı olabilir, ancak büyük olasılıkla bir [konvolüsyonel ağ](../07-ConvNets/README.md) olacaktır.
 
-> ✅ Konvolüsyonel ağlara dayanan bir GAN'a [DCGAN](https://arxiv.org/pdf/1511.06434.pdf) denir.
+> ✅ Konvolüsyonel ağlara dayalı bir GAN, [DCGAN](https://arxiv.org/pdf/1511.06434.pdf) olarak adlandırılır.
 
-Bir CNN ayrıştırıcısı, aşağıdaki katmanlardan oluşur: birkaç konvolüsyon+havuzlama (azalan mekansal boyutlarla) ve "özellik vektörü" elde etmek için bir veya daha fazla tamamen bağlı katman, son ikili sınıflayıcı.
+Bir CNN ayrımcısı şu katmanlardan oluşur: birkaç konvolüsyon + havuzlama (azalan uzamsal boyutlarla) ve bir veya daha fazla tamamen bağlı katman, "özellik vektörü" elde etmek için, ardından ikili bir sınıflandırıcı.
 
-> ✅ Bu bağlamda 'havuzlama', görüntünün boyutunu azaltan bir tekniktir. "Havuzlama katmanları, bir katmandaki nöron kümelerinin çıktısını bir sonraki katmandaki tek bir nörona birleştirerek verinin boyutunu azaltır." - [kaynak](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
+> ✅ 'Havuzlama' (pooling) bu bağlamda, görüntünün boyutunu küçültme tekniğidir. "Havuzlama katmanları, bir katmandaki nöron kümelerinin çıktısını bir sonraki katmandaki tek bir nöronda birleştirerek verilerin boyutlarını azaltır." - [kaynak](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
 
-### Üretici
+### Üretici (Generator)
 
-Üretici biraz daha karmaşıktır. Bunu tersine çevrilmiş bir ayrıştırıcı olarak düşünebilirsiniz. Gizli bir vektörden (özellik vektörünün yerinde) başlar, gerekli boyut/şekle dönüştürmek için bir tamamen bağlı katmana sahiptir ve ardından dekonvolüsyonlar+ölçekleme yapılır. Bu, [oto kodlayıcı](../09-Autoencoders/README.md) kısmının *çözücü* bölümüne benzerdir.
+Üretici biraz daha karmaşıktır. Bunu tersine çevrilmiş bir ayrımcı olarak düşünebilirsiniz. Bir özellik vektörü yerine bir gizli vektörden başlayarak, gerekli boyut/şekle dönüştürmek için tamamen bağlı bir katmana sahiptir, ardından dekonvolüsyonlar + ölçek büyütme gelir. Bu, [otoenkoderin](../09-Autoencoders/README.md) *kod çözücü* kısmına benzer.
 
-> ✅ Konvolüsyon katmanı görüntüyü tarayan bir lineer filtre olarak uygulandığı için, dekonvolüsyon temelde konvolüsyona benzer ve aynı katman mantığı kullanılarak uygulanabilir.
+> ✅ Konvolüsyon katmanı, görüntü üzerinde bir doğrusal filtre olarak uygulandığından, dekonvolüsyon esasen konvolüsyona benzerdir ve aynı katman mantığı kullanılarak uygulanabilir.
 
 <img src="images/gan_arch_detail.png" width="70%"/>
 
-> Resim [Dmitry Soshnikov](http://soshnikov.com) tarafından
+> Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
-### GAN'ı Eğitmek
+### GAN'in Eğitimi
 
-GAN'lar **çatışmalı** olarak adlandırılır çünkü üretici ile ayrıştırıcı arasında sürekli bir rekabet vardır. Bu rekabet sırasında, hem üretici hem de ayrıştırıcı gelişir, böylece ağ daha iyi ve daha iyi resimler üretmeyi öğrenir.
+GAN'ler **çekişmeli** olarak adlandırılır çünkü üretici ve ayrımcı arasında sürekli bir rekabet vardır. Bu rekabet sırasında hem üretici hem de ayrımcı gelişir, böylece ağ daha iyi ve daha iyi görüntüler üretmeyi öğrenir.
 
 Eğitim iki aşamada gerçekleşir:
 
-* **Ayrıştırıcıyı Eğitmek**. Bu görev oldukça basittir: üretici tarafından bir görüntü partisi üretiyoruz, bunları sahte görüntü için 0 olarak etiketliyoruz ve giriş veri setinden (gerçek görüntü için etiket 1) bir görüntü partisi alıyoruz. Bazı *ayrıştırıcı kaybı* elde ediyoruz ve geri yayılım yapıyoruz.
-* **Üreticiyi Eğitmek**. Bu biraz daha karmaşıktır, çünkü üretici için beklenen çıktıyı doğrudan bilmiyoruz. Bir üretici ve ardından ayrıştırıcıdan oluşan tüm GAN ağını alıyoruz, bazı rastgele vektörlerle besliyoruz ve sonucun 1 (gerçek görüntülere karşılık gelen) olmasını bekliyoruz. Ardından, ayrıştırıcının parametrelerini donduruyoruz (bu adımda eğitilmesini istemiyoruz) ve geri yayılım yapıyoruz.
+* **Ayrımcının eğitimi**. Bu görev oldukça basittir: üretici tarafından bir görüntü grubu oluştururuz, bunları sahte görüntü anlamına gelen 0 ile etiketleriz ve giriş veri kümesinden bir grup görüntü alırız (1 etiketiyle, gerçek görüntü). Bir *ayrımcı kaybı* elde ederiz ve geri yayılım yaparız.
+* **Üreticinin eğitimi**. Bu biraz daha karmaşıktır çünkü üretici için beklenen çıktıyı doğrudan bilmiyoruz. Üretici ve ayrımcıdan oluşan tüm GAN ağına bazı rastgele vektörler besleriz ve sonucun 1 (gerçek görüntülere karşılık gelen) olmasını bekleriz. Ardından ayrımcının parametrelerini dondururuz (bu adımda eğitilmesini istemeyiz) ve geri yayılım yaparız.
 
-Bu süreçte, hem üretici hem de ayrıştırıcı kayıpları önemli ölçüde düşmez. İdeal durumda, her iki ağın performanslarını geliştirmesine karşılık olarak osilasyon göstermelidirler.
+Bu süreç sırasında, hem üretici hem de ayrımcı kayıpları önemli ölçüde azalmaz. İdeal durumda, her iki ağın performansını geliştirdiğini gösteren bir salınım yapmalıdırlar.
 
-## ✍️ Alıştırmalar: GAN'lar
+## ✍️ Alıştırmalar: GAN'ler
 
-* [TensorFlow/Keras'ta GAN Not Defteri](../../../../../lessons/4-ComputerVision/10-GANs/GANTF.ipynb)
-* [PyTorch'ta GAN Not Defteri](../../../../../lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb)
+* [TensorFlow/Keras ile GAN Defteri](../../../../../lessons/4-ComputerVision/10-GANs/GANTF.ipynb)
+* [PyTorch ile GAN Defteri](../../../../../lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb)
 
-### GAN eğitimindeki problemler
+### GAN Eğitimiyle İlgili Sorunlar
 
-GAN'ların eğitiminin özellikle zor olduğu bilinmektedir. İşte birkaç problem:
+GAN'lerin eğitimi özellikle zordur. İşte birkaç sorun:
 
-* **Mod Çökmesi**. Bu terim, üreticinin bir başarılı görüntü üretmeyi öğrenmesi ve farklı görüntü çeşitliliği üretmemesi anlamına gelir.
-* **Hiperparametrelere duyarlılık**. Genellikle bir GAN'ın hiç yakınsama göstermediğini görebilirsiniz ve ardından öğrenme oranında ani bir düşüş ile yakınsama sürecine girebilir.
-* Üretici ve ayrıştırıcı arasında bir **denge** sağlamak. Birçok durumda ayrıştırıcı kaybı oldukça hızlı bir şekilde sıfıra düşebilir, bu da üreticinin daha fazla eğitim yapamamasına neden olur. Bunu aşmak için, üretici ve ayrıştırıcı için farklı öğrenme oranları belirlemeyi deneyebiliriz veya kayıp zaten çok düşükse ayrıştırıcı eğitimini atlayabiliriz.
-* **Yüksek çözünürlük** için eğitim. Oto kodlayıcılarla benzer bir sorunu yansıtarak, çok sayıda konvolüsyonel ağ katmanını yeniden yapılandırmanın artefaktlara yol açması nedeniyle bu problem tetiklenir. Bu problem genellikle ilk olarak birkaç katmanın düşük çözünürlükteki görüntüler üzerinde eğitilmesi ve ardından katmanların "açılması" veya eklenmesiyle çözülen **ilerlemeli büyüme** ile çözülür. Diğer bir çözüm, katmanlar arasında ekstra bağlantılar eklemek ve birden fazla çözünürlükte eğitim yapmaktır - detaylar için bu [Çok Ölçekli Gradyan GAN'lar makalesine](https://arxiv.org/abs/1903.06048) bakın.
+* **Mod Çökmesi**. Bu terimle, üreticinin ayrımcıyı kandıran tek bir başarılı görüntü üretmeyi öğrenmesi ve farklı görüntüler üretmemesi kastedilir.
+* **Hiperparametrelere duyarlılık**. Çoğu zaman, bir GAN'in hiç yakınsamadığını ve ardından öğrenme oranındaki ani bir düşüşle yakınsamaya başladığını görebilirsiniz.
+* Üretici ve ayrımcı arasında bir **denge** sağlamak. Çoğu durumda, ayrımcı kaybı nispeten hızlı bir şekilde sıfıra düşebilir, bu da üreticinin daha fazla eğitim yapamamasına neden olur. Bunu aşmak için, üretici ve ayrımcı için farklı öğrenme oranları ayarlamayı deneyebilir veya kayıp zaten çok düşükse ayrımcı eğitimini atlayabiliriz.
+* **Yüksek çözünürlük** için eğitim. Otoenkoderlerde olduğu gibi, bu sorun, çok fazla konvolüsyonel ağ katmanını yeniden yapılandırmanın artefaktlara yol açması nedeniyle ortaya çıkar. Bu sorun genellikle, önce birkaç katmanın düşük çözünürlüklü görüntüler üzerinde eğitildiği ve ardından katmanların "açıldığı" veya eklendiği **aşamalı büyüme** ile çözülür. Bir diğer çözüm, katmanlar arasında ek bağlantılar eklemek ve birden fazla çözünürlüğü aynı anda eğitmek olabilir - ayrıntılar için bu [Çok Ölçekli Gradient GAN'ler makalesine](https://arxiv.org/abs/1903.06048) bakabilirsiniz.
 
-## Stil Aktarımı
+## Stil Transferi
 
-GAN'lar sanatsal görüntüler oluşturmak için harika bir yoldur. Diğer ilginç bir teknik ise **stil aktarımı** olarak adlandırılır; bu teknik, bir **içerik görüntüsü** alır ve bunu farklı bir stil ile yeniden çizer, **stil görüntüsünden** filtreler uygulayarak.
+GAN'ler sanatsal görüntüler üretmek için harika bir yöntemdir. Bir diğer ilginç teknik ise **stil transferi** olarak adlandırılır. Bu teknik, bir **içerik görüntüsü** alır ve onu farklı bir tarzda yeniden çizer, **stil görüntüsünden** filtreler uygular.
 
-Bu işlem şu şekilde çalışır:
-* Rastgele bir gürültü görüntüsü ile başlarız (veya bir içerik görüntüsü ile, ancak anlamak açısından rastgele gürültü ile başlamak daha kolaydır).
-* Amacımız, hem içerik görüntüsüne hem de stil görüntüsüne yakın bir görüntü oluşturmaktır. Bu, iki kayıp fonksiyonu ile belirlenir:
-   - **İçerik kaybı**, mevcut görüntü ve içerik görüntüsünden çıkarılan özellikler kullanılarak hesaplanır.
-   - **Stil kaybı**, mevcut görüntü ve stil görüntüsü arasındaki ilişkiyi akıllıca Gram matrisleri kullanarak hesaplar (daha fazla detay için [örnek not defterine](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) bakın).
-* Görüntüyü daha pürüzsüz hale getirmek ve gürültüyü kaldırmak için, ayrıca komşu pikseller arasındaki ortalama mesafeyi hesaplayan **Varyasyon kaybı** da tanıtıyoruz.
-* Ana optimizasyon döngüsü, toplam kaybı minimize etmek için mevcut görüntüyü gradyan inişi (veya başka bir optimizasyon algoritması) kullanarak ayarlamaktadır; bu, üç kaybın ağırlıklı toplamıdır.
+Bu yöntem şu şekilde çalışır:
+* Rastgele bir gürültü görüntüsüyle başlarız (veya bir içerik görüntüsüyle, ancak anlamak için rastgele gürültüyle başlamak daha kolaydır)
+* Amacımız, hem içerik görüntüsüne hem de stil görüntüsüne yakın olacak bir görüntü oluşturmaktır. Bu, iki kayıp fonksiyonu ile belirlenir:
+   - **İçerik kaybı**, mevcut görüntü ve içerik görüntüsünden CNN tarafından bazı katmanlarda çıkarılan özelliklere dayanarak hesaplanır.
+   - **Stil kaybı**, mevcut görüntü ve stil görüntüsü arasında, Gram matrisleri kullanılarak (daha fazla ayrıntı için [örnek deftere](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) bakabilirsiniz) hesaplanır.
+* Görüntüyü daha pürüzsüz hale getirmek ve gürültüyü kaldırmak için, **Varyasyon kaybı** da ekleriz, bu kayıp komşu pikseller arasındaki ortalama mesafeyi hesaplar.
+* Ana optimizasyon döngüsü, toplam kaybı (üç kaybın ağırlıklı toplamı) minimize etmek için mevcut görüntüyü gradyan inişi (veya başka bir optimizasyon algoritması) kullanarak ayarlar.
 
-## ✍️ Örnek: [Stil Aktarımı](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
+## ✍️ Örnek: [Stil Transferi](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Ders sonrası quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
 
 ## Sonuç
 
-Bu derste, GAN'lar ve bunları nasıl eğiteceğiniz hakkında bilgi edindiniz. Ayrıca, bu tür bir Sinir Ağı'nın karşılaşabileceği özel zorluklar ve bunları aşmanın bazı stratejileri hakkında bilgi edindiniz.
+Bu derste, GAN'ler ve bunları nasıl eğiteceğinizi öğrendiniz. Ayrıca, bu tür Sinir Ağlarının karşılaşabileceği özel zorlukları ve bunların üstesinden nasıl gelinebileceğine dair bazı stratejileri öğrendiniz.
 
 ## 🚀 Meydan Okuma
 
-Kendi görüntülerinizi kullanarak [Stil Aktarımı not defterini](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) çalıştırın.
+[Stil Transferi defterini](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) kendi görüntülerinizle çalıştırın.
 
-## İnceleme & Kendi Kendine Çalışma
+## İnceleme ve Kendi Kendine Çalışma
 
-Referans olarak, GAN'lar hakkında daha fazla bilgi edinmek için bu kaynakları okuyun:
+Referans için, GAN'ler hakkında daha fazla bilgi edinmek için şu kaynakları okuyun:
 
-* Marco Pasini, [Bir Yıl Boyunca GAN Eğitimiyle İlgili Öğrendiğim 10 Ders](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
-* Dikkate alınması gereken bir *de facto* GAN mimarisi olan [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN)
-* [Azure ML'de GAN'lar kullanarak Üretken Sanat Oluşturma](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/)
+* Marco Pasini, [GAN'leri Bir Yıl Boyunca Eğitmekten Öğrendiğim 10 Ders](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
+* [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN), dikkate alınması gereken bir *de facto* GAN mimarisi
+* [Azure ML'de GAN'ler Kullanarak Üretici Sanat Oluşturma](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/)
 
-## Görev
+## Ödev
 
-Bu derse bağlı iki not defterinden birini gözden geçirin ve GAN'ı kendi görüntüleriniz üzerinde yeniden eğitin. Ne yaratabilirsiniz?
+Bu derse ait iki defterden birini tekrar gözden geçirin ve GAN'i kendi görüntülerinizle yeniden eğitin. Neler oluşturabilirsiniz?
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otoriter bir kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucunda ortaya çıkan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

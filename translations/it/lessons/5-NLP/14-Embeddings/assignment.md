@@ -1,6 +1,15 @@
-# Tarea: Cuadernos
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
+  "translation_date": "2025-08-26T06:56:36+00:00",
+  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
+  "language_code": "it"
+}
+-->
+# Compito: Notebook
 
-Usando los cuadernos asociados a esta lección (ya sea la versión de PyTorch o la de TensorFlow), ejecútalos nuevamente utilizando tu propio conjunto de datos, quizás uno de Kaggle, asegurándote de dar la atribución correspondiente. Reescribe el cuaderno para resaltar tus propios hallazgos. Intenta con un tipo diferente de conjunto de datos y documenta tus descubrimientos, utilizando textos como [estas letras de los Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).
+Utilizzando i notebook associati a questa lezione (sia la versione PyTorch che quella TensorFlow), eseguili nuovamente utilizzando il tuo dataset, magari uno preso da Kaggle, utilizzato con attribuzione. Riscrivi il notebook per evidenziare le tue scoperte. Prova un tipo diverso di dataset e documenta le tue osservazioni, utilizzando testi come [questi testi dei Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).
 
 **Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de malentendidos o interpretaciones erróneas que surjan del uso de esta traducción.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

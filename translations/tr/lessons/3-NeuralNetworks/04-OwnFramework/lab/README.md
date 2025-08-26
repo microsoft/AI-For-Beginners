@@ -1,23 +1,32 @@
-# Kendi Çerçevemiz ile MNIST Sınıflandırması
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-26T07:34:52+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# MNIST Sınıflandırması Kendi Çerçevemizle
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) laboratuvar ödevi.
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) içindeki Lab Görevi.
 
 ## Görev
 
-MNIST el yazısı rakam sınıflandırma problemini 1-, 2- ve 3-katmanlı algılayıcı kullanarak çözün. Derste geliştirdiğimiz sinir ağı çerçevesini kullanın.
+1-, 2- ve 3 katmanlı perceptron kullanarak MNIST el yazısı rakam sınıflandırma problemini çözün. Derste geliştirdiğimiz sinir ağı çerçevesini kullanın.
 
-## Not Defteri Açma
+## Başlangıç Not Defteri
 
-Laboratuvara [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb) dosyasını açarak başlayın.
+Lab çalışmasına [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb) dosyasını açarak başlayın.
 
 ## Sorular
 
-Bu laboratuvarın sonucu olarak, aşağıdaki soruları yanıtlamaya çalışın:
+Bu laboratuvar çalışmasının sonucunda aşağıdaki soruları yanıtlamaya çalışın:
 
 - Katmanlar arası aktivasyon fonksiyonu ağın performansını etkiliyor mu?
-- Bu görev için 2- veya 3-katmanlı bir ağa ihtiyacımız var mı?
-- Ağı eğitirken herhangi bir sorunla karşılaştınız mı? Özellikle katman sayısı arttıkça.
-- Ağı eğitimi sırasında ağırlıkların davranışı nasıldır? İlişkiyi anlamak için ağırlıkların maksimum mutlak değerini epoch'a karşı çizebilirsiniz.
+- Bu görev için 2 veya 3 katmanlı bir ağa ihtiyaç var mı?
+- Ağı eğitirken herhangi bir sorun yaşadınız mı? Özellikle katman sayısı arttıkça.
+- Ağırlıklar eğitim sırasında nasıl bir davranış sergiliyor? İlişkiyi anlamak için ağırlıkların maksimum mutlak değerini epoch'a karşı çizdirebilirsiniz.
 
-**Sorumluluk Reddi**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımıyla ortaya çıkan yanlış anlamalardan veya yanlış yorumlamalardan dolayı sorumluluğumuz yoktur.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

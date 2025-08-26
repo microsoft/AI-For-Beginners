@@ -1,22 +1,23 @@
-# Dağ Araba Eğitimi için Kaçış
-
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) lab ödevi.
-
-## Görev
-
-Amacınız, OpenAI Ortamında [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) RL ajanını kontrol etmeyi eğitmek. Ekim 2023'e kadar verilerle eğitildiniz.
-
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
+  "translation_date": "2025-08-26T07:33:24+00:00",
+  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
+  "language_code": "tr"
+}
+-->
 ## Ortam
 
-Mountain Car ortamı, bir vadi içinde sıkışmış arabanın bulunduğu bir yapıdır. Amacınız, vadiden sıçrayarak bayrağa ulaşmaktır. Yapabileceğiniz eylemler, sola hızlanmak, sağa hızlanmak veya hiçbir şey yapmamaktır. Arabanın x-ekseni boyunca konumunu ve hızını gözlemleyebilirsiniz.
+Mountain Car ortamı, bir vadide sıkışmış bir arabadan oluşur. Amacınız vadiden çıkıp bayrağa ulaşmaktır. Yapabileceğiniz eylemler sola hızlanmak, sağa hızlanmak veya hiçbir şey yapmamaktır. Arabanın x ekseni boyunca konumunu ve hızını gözlemleyebilirsiniz.
 
-## Not Defteri Başlatma
+## Başlangıç Not Defteri
 
-Laboratuvarı [MountainCar.ipynb](../../../../../../lessons/6-Other/22-DeepRL/lab/MountainCar.ipynb) dosyasını açarak başlatın.
+Lab çalışmasına [MountainCar.ipynb](../../../../../../lessons/6-Other/22-DeepRL/lab/MountainCar.ipynb) dosyasını açarak başlayın.
 
-## Öğrenim
+## Çıkarım
 
-Bu laboratuvar boyunca, RL algoritmalarını yeni bir ortama uyarlamanın genellikle oldukça basit olduğunu öğrenmelisiniz, çünkü OpenAI Gym tüm ortamlar için aynı arayüze sahiptir ve algoritmalar bu nedenle ortamın doğasına büyük ölçüde bağlı değildir. Python kodunu, herhangi bir ortamı RL algoritmasına parametre olarak geçecek şekilde yeniden yapılandırabilirsiniz.
+Bu lab çalışması boyunca, RL algoritmalarını yeni bir ortama uyarlamanın genellikle oldukça basit olduğunu öğrenmelisiniz. Bunun nedeni, OpenAI Gym'in tüm ortamlar için aynı arayüze sahip olması ve algoritmaların büyük ölçüde ortamın doğasına bağlı olmamasıdır. Python kodunu, RL algoritmasına herhangi bir ortamı parametre olarak geçirebilecek şekilde yeniden yapılandırabilirsiniz.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa ulaşmaya çalışsak da, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otoritatif kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımıyla ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan dolayı sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

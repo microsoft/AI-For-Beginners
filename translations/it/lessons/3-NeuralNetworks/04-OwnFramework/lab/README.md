@@ -1,23 +1,32 @@
-# Clasificación MNIST con Nuestro Propio Marco
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-26T07:09:07+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Classificazione MNIST con il Nostro Framework
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Compito del laboratorio tratto dal [Curriculum AI per Principianti](https://github.com/microsoft/ai-for-beginners).
 
-## Tarea
+## Compito
 
-Resuelve el problema de clasificación de dígitos manuscritos MNIST utilizando perceptrones de 1, 2 y 3 capas. Utiliza el marco de red neuronal que hemos desarrollado en la lección.
+Risolvi il problema di classificazione delle cifre scritte a mano di MNIST utilizzando un percettrone a 1, 2 e 3 strati. Usa il framework per reti neurali che abbiamo sviluppato durante la lezione.
 
-## Inicio del Notebook
+## Notebook di Partenza
 
-Comienza el laboratorio abriendo [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
+Inizia il laboratorio aprendo [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
 
-## Preguntas
+## Domande
 
-Como resultado de este laboratorio, intenta responder las siguientes preguntas:
+Come risultato di questo laboratorio, prova a rispondere alle seguenti domande:
 
-- ¿Afecta la función de activación entre capas al rendimiento de la red?
-- ¿Necesitamos una red de 2 o 3 capas para esta tarea?
-- ¿Tuviste algún problema al entrenar la red? Especialmente a medida que aumentaba el número de capas.
-- ¿Cómo se comportan los pesos de la red durante el entrenamiento? Puedes graficar el valor absoluto máximo de los pesos frente a la época para entender la relación.
+- La funzione di attivazione tra gli strati influisce sulle prestazioni della rete?
+- È necessario utilizzare una rete a 2 o 3 strati per questo compito?
+- Hai riscontrato problemi nell'addestrare la rete? Soprattutto con l'aumentare del numero di strati.
+- Come si comportano i pesi della rete durante l'addestramento? Puoi tracciare il valore massimo assoluto dei pesi rispetto alle epoche per comprendere la relazione.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

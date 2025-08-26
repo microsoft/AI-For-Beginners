@@ -1,22 +1,31 @@
-# Segmentación del Cuerpo Humano
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
+  "translation_date": "2025-08-26T07:00:56+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Segmentazione del Corpo Umano
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Compito di laboratorio dal [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
-## Tarea
+## Compito
 
-En la producción de video, por ejemplo, en pronósticos del tiempo, a menudo necesitamos recortar una imagen humana de la cámara y colocarla sobre otro metraje. Esto se hace típicamente utilizando técnicas de **chroma key**, cuando una persona es filmada frente a un fondo de color uniforme, que luego se elimina. En este laboratorio, entrenaremos un modelo de red neuronal para recortar la silueta humana.
+Nella produzione video, ad esempio nelle previsioni del tempo, spesso è necessario ritagliare l'immagine di una persona dalla telecamera e posizionarla sopra un altro filmato. Questo viene tipicamente fatto utilizzando tecniche di **chroma key**, in cui una persona viene filmata davanti a uno sfondo di colore uniforme, che viene poi rimosso. In questo laboratorio, alleneremo un modello di rete neurale per ritagliare la silhouette umana.
 
-## El Conjunto de Datos
+## Il Dataset
 
-Utilizaremos el [Conjunto de Datos de Segmentación de Cuerpo Completo MADS](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) de Kaggle. Descarga el conjunto de datos manualmente desde Kaggle.
+Utilizzeremo il [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) da Kaggle. Scarica manualmente il dataset da Kaggle.
 
-## Iniciando el Cuaderno
+## Notebook di Partenza
 
-Comienza el laboratorio abriendo [BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb)
+Inizia il laboratorio aprendo [BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb)
 
-## Conclusiones
+## Conclusione
 
-La segmentación del cuerpo es solo una de las tareas comunes que podemos realizar con imágenes de personas. Otras tareas importantes incluyen la **detección de esqueletos** y la **detección de poses**. Consulta la biblioteca [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) para ver cómo se pueden implementar esas tareas.
+La segmentazione del corpo è solo uno dei compiti comuni che possiamo svolgere con immagini di persone. Altri compiti importanti includono **rilevamento dello scheletro** e **rilevamento della postura**. Esplora la libreria [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) per vedere come possono essere implementati questi compiti.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
