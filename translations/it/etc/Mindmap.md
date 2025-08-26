@@ -1,76 +1,87 @@
-# IA
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f2f88dbd2debd38e26149b27b1fd272d",
+  "translation_date": "2025-08-26T07:16:15+00:00",
+  "source_file": "etc/Mindmap.md",
+  "language_code": "it"
+}
+-->
+# AI
 
-## [Introducción a la IA](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)
- - Definición de IA
- - Historia de la IA
- - Enfoques de la IA
-     - De arriba hacia abajo/Simbólico
-     - De abajo hacia arriba/Neuronal
+## [Introduzione all'AI](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)
+ - Definizione di AI
+ - Storia dell'AI
+ - Approcci all'AI
+     - Top-down/Symbolico
+     - Bottom-up/Neurale
      - Evolutivo
-     - Sinérgico / IA Emergente
- - [Escuela de Negocios de IA de Microsoft](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste)
+     - Sinergico / AI Emergente
+ - [Microsoft AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-cacaste)
 
-## [IA Simbólica](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
- - Representación del Conocimiento
- - [Sistemas Expertos](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb)
- - [Ontologías](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb)
- - Web Semántica
+## [AI Simbolica](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/README.md)
+ - Rappresentazione della Conoscenza
+ - [Sistemi Esperti](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb)
+ - [Ontologie](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb)
+ - Web Semantico
 
-## [Redes Neuronales](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/README.md)
- - [Perceptrón](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/03-Perceptron/README.md)
- - [Redes Multicapa](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/README.md)
- - [Introducción a Frameworks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
+## [Reti Neurali](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/README.md)
+ - [Perceptron](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/03-Perceptron/README.md)
+ - [Reti Multi-Strato](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/README.md)
+ - [Introduzione ai Framework](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
    - [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)
    - [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.md)
-   - [Sobreajuste](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md)
+   - [Overfitting](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-## [Visión por Computadora](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/README.md)
- - En MS Learn
-    - [Fundamentos de IA: Explorar Visión por Computadora](https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste)
-    - [Visión por Computadora con PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste)
-    - [Visión por Computadora con TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)
- - [Introducción a CV. OpenCV](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/06-IntroCV/README.md)
- - [Redes Convolucionales](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/README.md)
-   - [Arquitecturas de CNN](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)
- - [Aprendizaje por Transferencia](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/README.md)
-   - [Trucos de Entrenamiento](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)
- - [Autoencoders y VAEs](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/09-Autoencoders/README.md)
- - [Redes Generativas Antagónicas](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/10-GANs/README.md)
- - [Transferencia de Estilo](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
- - [Detección de Objetos](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/11-ObjectDetection/README.md)
- - [Segmentación](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/12-Segmentation/README.md)
-
-## [Procesamiento de Lenguaje Natural](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/README.md)
- - En MS Learn
-    - [Fundamentos de IA: Explorar PLN](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste)
-    - [PLN con PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
-    - [PLN con TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste)
-- [Text Representation](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/README.md)
-    - Bolsa de Palabras
+## [Visione Artificiale](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/README.md)
+ - Su MS Learn
+    - [Fondamenti di AI: Esplora la Visione Artificiale](https://docs.microsoft.com/learn/paths/explore-computer-vision-microsoft-azure/?WT.mc_id=academic-77998-cacaste)
+    - [Visione Artificiale con PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste)
+    - [Visione Artificiale con TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)
+ - [Introduzione alla Visione Artificiale. OpenCV](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/06-IntroCV/README.md)
+ - [Reti Convoluzionali](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/README.md)
+   - [Architetture CNN](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)
+ - [Transfer Learning](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/README.md)
+   - [Trucchi per l'Addestramento](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)
+ - [Autoencoder e VAE](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/09-Autoencoders/README.md)
+ - [Reti Generative Avversarie](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/10-GANs/README.md)
+ - [Trasferimento di Stile](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
+ - [Rilevamento Oggetti](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/11-ObjectDetection/README.md)
+ - [Segmentazione](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/12-Segmentation/README.md)
+ 
+## [Elaborazione del Linguaggio Naturale](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/README.md)
+ - Su MS Learn
+    - [Fondamenti di AI: Esplora l'NLP](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-cacaste)
+    - [NLP con PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
+    - [NLP con TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste)
+ - [Rappresentazione del Testo](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/README.md)
+    - Bag of Words
     - TF/IDF
- - [Semantic Embeddings](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/README.md)
+ - [Incorporamenti Semantici](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/README.md)
     - Word2Vec
     - GloVE
- - [Modelado del Lenguaje](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling)
- - [Redes Neuronales Recurrentes](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/README.md)
+ - [Modellazione del Linguaggio](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling)
+ - [Reti Neurali Ricorrenti](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/README.md)
      - LSTM
      - GRU
- - [Redes Generativas Recurrentes](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/README.md)
- - [Transformers y BERT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/README.md)
- - [Reconocimiento de Entidades Nombradas](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/19-NER/README.md)
- - [Generación de Texto y GPT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LanguageModels/README.md)
-## Otras Técnicas
- - [Algoritmos Genéticos](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/21-GeneticAlgorithms/README.md)
- - [Aprendizaje Profundo por Refuerzo](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md)
- - [Sistemas Multi-Agente](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/23-MultiagentSystems/README.md)
+ - [Reti Ricorrenti Generative](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/README.md)
+ - [Transformers e BERT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/README.md)
+ - [Riconoscimento di Entità Nominate](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/19-NER/README.md)
+ - [Generazione di Testo e GPT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LanguageModels/README.md)
 
-## [Ética en IA](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/7-Ethics/README.md)
- - [MS Learn sobre IA Responsable](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste)
-## Extras
- - [Redes Multimodales](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/README.md)
+## Altre Tecniche
+ - [Algoritmi Genetici](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/21-GeneticAlgorithms/README.md)
+ - [Deep Reinforcement Learning](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md)
+ - [Sistemi Multi-Agente](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/23-MultiagentSystems/README.md)
+
+## [Etica dell'AI](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/7-Ethics/README.md)
+ - [MS Learn sull'AI Responsabile](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste)
+
+## Extra
+ - [Reti Multimodali](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/README.md)
    - [CLIP](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/X-Extras/X1-MultiModal/Clip.ipynb)
    - DALL-E
    - VQ-GAN
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

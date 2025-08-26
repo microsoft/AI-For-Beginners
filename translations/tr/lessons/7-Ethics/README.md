@@ -1,43 +1,52 @@
-# Etik ve Sorumlu AI
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
+  "translation_date": "2025-08-26T07:18:48+00:00",
+  "source_file": "lessons/7-Ethics/README.md",
+  "language_code": "tr"
+}
+-->
+# Etik ve Sorumlu Yapay Zeka
 
-Bu kursu neredeyse tamamladınız ve umarım artık AI'nın verilerdeki ilişkileri bulmamıza ve insan davranışının bazı yönlerini kopyalamak için modelleri eğitmemize olanak tanıyan bir dizi resmi matematiksel yönteme dayandığını net bir şekilde görüyorsunuzdur. Tarihsel olarak bu noktada, AI'yı verilerden desenler çıkarmak ve bu desenleri yeni problemleri çözmek için uygulamak için çok güçlü bir araç olarak değerlendiriyoruz.
+Bu kursu neredeyse tamamladınız ve umarım şu ana kadar yapay zekanın, verilerdeki ilişkileri bulmamıza ve insan davranışının bazı yönlerini taklit eden modelleri eğitmemize olanak tanıyan bir dizi resmi matematiksel yönteme dayandığını açıkça görüyorsunuzdur. Tarihin bu noktasında, yapay zekayı verilerden desenler çıkarmak ve bu desenleri yeni problemleri çözmek için uygulamak adına çok güçlü bir araç olarak görüyoruz.
 
-## [Ön ders anketi](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
+## [Ders Öncesi Test](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
 
-Ancak bilim kurgu eserlerinde, AI'nın insanlığa bir tehlike oluşturduğu hikayelere sıkça rastlıyoruz. Genellikle bu hikayeler, AI'nın insanlarla yüzleşmeye karar verdiği bir AI isyanı etrafında döner. Bu, AI'nın bir tür duygusunun olduğu veya geliştiricileri tarafından öngörülemeyen kararlar alabileceği anlamına gelir.
+Ancak, bilim kurgu hikayelerinde genellikle yapay zekanın insanlık için bir tehlike oluşturduğu senaryolarla karşılaşırız. Bu hikayeler genellikle bir tür yapay zeka isyanı etrafında döner; yapay zekanın insanlara karşı çıkmaya karar verdiği durumlar. Bu, yapay zekanın bir tür duyguya sahip olduğunu veya geliştiricileri tarafından öngörülemeyen kararlar alabildiğini ima eder.
 
-Bu kursta öğrendiğimiz AI türü, büyük matris aritmetiğinden başka bir şey değildir. Sorunlarımızı çözmemize yardımcı olmak için çok güçlü bir araçtır ve diğer güçlü araçlar gibi - iyi ve kötü amaçlar için kullanılabilir. Önemli olan, bunun *kötüye kullanılabileceğidir*.
+Bu kursta öğrendiğimiz yapay zeka türü, büyük matris aritmetiğinden başka bir şey değildir. Problemlerimizi çözmemize yardımcı olan çok güçlü bir araçtır ve diğer güçlü araçlar gibi - hem iyi hem de kötü amaçlar için kullanılabilir. Önemli olan, bu aracın *yanlış kullanılabileceğidir*.
 
-## Sorumlu AI İlkeleri
+## Sorumlu Yapay Zeka İlkeleri
 
-AI'nın bu kazara veya kasıtlı kötüye kullanımını önlemek için Microsoft, önemli [Sorumlu AI İlkeleri](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste) belirlemektedir. Bu ilkeleri destekleyen bazı kavramlar şunlardır:
+Yapay zekanın kazara veya kasıtlı olarak yanlış kullanılmasını önlemek için Microsoft, önemli [Sorumlu Yapay Zeka İlkeleri](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste) belirlemiştir. Bu ilkelerin temelini oluşturan kavramlar şunlardır:
 
-* **Adalet**, *model önyargıları* ile ilgili önemli bir sorunla ilgilidir; bu önyargılar, eğitim için önyargılı verilerin kullanılmasıyla ortaya çıkabilir. Örneğin, bir kişinin yazılım geliştirici işine kabul edilme olasılığını tahmin etmeye çalıştığımızda, model muhtemelen erkeklere daha yüksek bir öncelik verecektir - çünkü eğitim veri seti muhtemelen erkek izleyicilere yönelik önyargılıydı. Eğitim verilerini dikkatlice dengelememiz ve modelin önyargılardan kaçınması için araştırmamız gerekiyor ve modelin daha ilgili özellikleri dikkate aldığından emin olmalıyız.
-* **Güvenilirlik ve Güvenlik**. Doğası gereği, AI modelleri hata yapabilir. Bir sinir ağı olasılıkları döndürür ve kararlar alırken bunu dikkate almamız gerekir. Her modelin bir kesinliği ve geri çağırma oranı vardır ve yanlış tavsiyelerin neden olabileceği zararı önlemek için bunu anlamamız gerekir.
-* **Gizlilik ve Güvenlik**, AI'ya özgü bazı sonuçlar taşır. Örneğin, bir modeli eğitmek için bazı verileri kullandığımızda, bu veriler bir şekilde modelin içine "entegrasyon" haline gelir. Bir yandan bu güvenliği ve gizliliği artırır, diğer yandan modelin hangi verilerle eğitildiğini hatırlamamız gerekir.
-* **Kapsayıcılık**, AI'yı insanların yerini almak için değil, insanların yeteneklerini artırmak ve işimizi daha yaratıcı hale getirmek için inşa ettiğimiz anlamına gelir. Ayrıca adaletle de ilişkilidir, çünkü temsil edilmeyen topluluklarla ilgilendiğimizde, topladığımız veri setlerinin çoğu muhtemelen önyargılı olacaktır ve bu toplulukların AI tarafından dahil edilmesini ve doğru bir şekilde ele alınmasını sağlamalıyız.
-* **Şeffaflık**. Bu, AI'nın kullanımında her zaman net olmamızı sağlamayı içerir. Ayrıca, mümkün olduğunca, *yorumlanabilir* AI sistemlerini kullanmak isteriz.
-* **Hesap verebilirlik**. AI modelleri bazı kararlar aldığında, bu kararların kimin sorumluluğunda olduğu her zaman net değildir. AI kararlarının sorumluluğunun nerede olduğunu anlamamız gerekir. Çoğu durumda, önemli kararlar alma sürecine insanları dahil etmek isteriz, böylece gerçek insanlar sorumlu tutulabilir.
+* **Adalet**, *model önyargıları* gibi önemli bir problemle ilgilidir. Bu önyargılar, eğitim için önyargılı verilerin kullanılmasıyla ortaya çıkabilir. Örneğin, bir kişinin yazılım geliştirici işine girme olasılığını tahmin etmeye çalıştığımızda, modelin erkeklere daha fazla öncelik verme olasılığı yüksektir - çünkü eğitim veri seti muhtemelen erkeklere yönelik bir önyargıya sahipti. Eğitim verilerini dikkatlice dengelemeli, modeli incelemeli ve önyargıları önlemek için daha alakalı özellikleri dikkate aldığından emin olmalıyız.
+* **Güvenilirlik ve Güvenlik**. Yapay zeka modelleri doğası gereği hata yapabilir. Bir sinir ağı olasılıkları döndürür ve karar verirken bunu dikkate almamız gerekir. Her modelin belirli bir hassasiyeti ve hatırlama oranı vardır ve yanlış tavsiyelerin neden olabileceği zararı önlemek için bunu anlamamız gerekir.
+* **Gizlilik ve Güvenlik**, yapay zekaya özgü bazı sonuçlara sahiptir. Örneğin, bir modeli eğitmek için bazı verileri kullandığımızda, bu veriler bir şekilde modelin içine "entegre" olur. Bir yandan bu güvenlik ve gizliliği artırır, diğer yandan modelin hangi verilerle eğitildiğini hatırlamamız gerekir.
+* **Kapsayıcılık**, yapay zekayı insanları değiştirmek için değil, insanları desteklemek ve işimizi daha yaratıcı hale getirmek için inşa ettiğimiz anlamına gelir. Bu aynı zamanda adaletle de ilgilidir, çünkü az temsil edilen topluluklarla çalışırken topladığımız veri setlerinin çoğu muhtemelen önyargılı olacaktır ve bu toplulukların yapay zeka tarafından doğru bir şekilde ele alındığından emin olmamız gerekir.
+* **Şeffaflık**. Bu, yapay zekanın kullanıldığını her zaman açıkça belirttiğimizden emin olmayı içerir. Ayrıca, mümkün olduğunda, *yorumlanabilir* yapay zeka sistemleri kullanmak isteriz.
+* **Hesap Verebilirlik**. Yapay zeka modelleri bazı kararlar verdiğinde, bu kararların sorumluluğunun kimde olduğu her zaman net değildir. Yapay zeka kararlarının sorumluluğunun nerede olduğunu anladığımızdan emin olmamız gerekir. Çoğu durumda, önemli kararlar alınırken insanları sürece dahil etmek isteriz, böylece gerçek insanlar sorumlu tutulabilir.
 
-## Sorumlu AI Araçları
+## Sorumlu Yapay Zeka Araçları
 
-Microsoft, bir dizi araç içeren [Sorumlu AI Araç Kutusu](https://github.com/microsoft/responsible-ai-toolbox) geliştirmiştir:
+Microsoft, bir dizi araç içeren [Sorumlu Yapay Zeka Araç Kutusu](https://github.com/microsoft/responsible-ai-toolbox) geliştirmiştir:
 
-* Yorumlanabilirlik Gösterge Tablosu (InterpretML)
-* Adalet Gösterge Tablosu (FairLearn)
-* Hata Analizi Gösterge Tablosu
-* Sorumlu AI Gösterge Tablosu, şunları içerir:
+* Yorumlanabilirlik Panosu (InterpretML)
+* Adalet Panosu (FairLearn)
+* Hata Analizi Panosu
+* Sorumlu Yapay Zeka Panosu, şunları içerir:
 
-   - EconML - Neden-sonuç analizi için bir araç, "ya ne olursa" sorularına odaklanır
-   - DiCE - Karşıfaktüel Analiz için bir araç, modelin kararını etkilemek için hangi özelliklerin değiştirilmesi gerektiğini görmenizi sağlar
+   - EconML - Nedensel Analiz için bir araç, "ne olurdu" sorularına odaklanır
+   - DiCE - Karşıt Analiz için bir araç, modelin kararını etkilemek için hangi özelliklerin değiştirilmesi gerektiğini görmenizi sağlar
 
-AI Etiği hakkında daha fazla bilgi için, [bu dersi](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) ziyaret edin; bu ders, ödevler içeren Makine Öğrenimi Müfredatına aittir.
+Yapay Zeka Etiği hakkında daha fazla bilgi için, ödevler içeren Makine Öğrenimi Müfredatındaki [bu derse](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) göz atabilirsiniz.
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 
-Sorumlu AI hakkında daha fazla bilgi edinmek için bu [Öğrenme Yolu](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste)nu takip edin.
+Sorumlu yapay zeka hakkında daha fazla bilgi edinmek için bu [Öğrenme Yolunu](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) tamamlayın.
 
-## [Ders sonrası anket](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
+## [Ders Sonrası Test](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
 
-**Açıklama**:  
-Bu belge, makine tabanlı AI çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen dikkate alınız. Orijinal belge, kendi dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan dolayı sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

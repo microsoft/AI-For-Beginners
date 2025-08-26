@@ -1,14 +1,23 @@
-# Hollywood Heads Veri Seti ile Baş
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-26T07:28:01+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# Hollywood Heads Veri Seti Kullanarak Kafa Tespiti
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) laboratuvar ödevi.
+[AI for Beginners Müfredatı](https://github.com/microsoft/ai-for-beginners) kapsamında bir laboratuvar çalışması.
 
 ## Görev
 
-Video gözetim kameralarıyla insan sayısını saymak, mağazalardaki ziyaretçi sayısını, restoranlardaki yoğun saatleri tahmin etmemizi sağlayan önemli bir görevdir. Bu görevi çözmek için, insan başlarını farklı açılardan tespit edebilmemiz gerekiyor. İnsan başlarını tespit etmek için bir nesne tespit modeli eğitmek amacıyla [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/) kullanılabilir.
+Video gözetim kamera akışında kişi sayısını saymak, mağazalardaki ziyaretçi sayısını, restoranlardaki yoğun saatleri vb. tahmin etmemizi sağlayan önemli bir görevdir. Bu görevi çözmek için, insan kafalarını farklı açılardan tespit edebilmemiz gerekir. İnsan kafalarını tespit etmek için bir nesne algılama modeli eğitmek amacıyla [Hollywood Heads Veri Seti](https://www.di.ens.fr/willow/research/headdetection/) kullanılabilir.
 
 ## Veri Seti
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip), Hollywood filmlerinden 224,740 film karesinde 369,846 insan başı içermektedir. Her resim için ayrıca şu şekilde görünen bir XML açıklama dosyası bulunmaktadır:
+[Hollywood Heads Veri Seti](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip), Hollywood filmlerinden alınmış 224,740 film karesinde 369,846 insan kafası anotasyonunu içerir. Veri seti, [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) formatında sunulmaktadır. Her bir görüntü için aşağıdaki gibi bir XML açıklama dosyası bulunmaktadır:
 
 ```xml
 <annotation>
@@ -48,19 +57,19 @@ Video gözetim kameralarıyla insan sayısını saymak, mağazalardaki ziyaretç
 </annotation>
 ```
 
-Bu veri setinde yalnızca bir nesne sınıfı olan `head` bulunmaktadır ve her baş için sınırlayıcı kutunun koordinatlarını alırsınız. XML'yi Python kütüphaneleri kullanarak ayrıştırabilir veya PASCAL VOC formatıyla doğrudan çalışmak için [bu kütüphaneyi](https://pypi.org/project/pascal-voc/) kullanabilirsiniz.
+Bu veri setinde yalnızca bir nesne sınıfı vardır: `head`. Her bir kafa için, sınırlayıcı kutunun koordinatları sağlanır. XML dosyalarını Python kütüphaneleri kullanarak ayrıştırabilir veya doğrudan PASCAL VOC formatıyla çalışmak için [bu kütüphaneyi](https://pypi.org/project/pascal-voc/) kullanabilirsiniz.
 
-## Nesne Tespiti Eğitimi
+## Nesne Algılama Modeli Eğitimi
 
-Aşağıdaki yöntemlerden birini kullanarak bir nesne tespit modeli eğitebilirsiniz:
+Bir nesne algılama modeli aşağıdaki yöntemlerden biriyle eğitilebilir:
 
-* [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) ve Python API'sini kullanarak modeli bulutta programatik olarak eğitmek. Özel vizyon, modeli eğitmek için birkaç yüz resimden fazlasını kullanamayacağından, veri setini sınırlamanız gerekebilir.
-* [Keras tutorial](https://keras.io/examples/vision/retinanet/) örneğini kullanarak RetinaNet modelini eğitmek.
-* [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) modülünü torchvision içinde kullanmak.
+* Modeli bulutta programlı bir şekilde eğitmek için [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) ve Python API'sini kullanabilirsiniz. Custom Vision, modeli eğitmek için birkaç yüz görüntüden fazlasını kullanamayabilir, bu nedenle veri setini sınırlamanız gerekebilir.
+* RetunaNet modelini eğitmek için [Keras eğitiminden](https://keras.io/examples/vision/retinanet/) örnek kullanabilirsiniz.
+* [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) modülünü kullanarak torchvision içindeki yerleşik modülü tercih edebilirsiniz.
 
-## Önemli Nokta
+## Çıkarım
 
-Nesne tespiti, sanayide sıkça gereken bir görevdir. Nesne tespiti gerçekleştirmek için kullanılabilecek bazı hizmetler olsa da (örneğin, [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), nesne tespitinin nasıl çalıştığını anlamak ve kendi modellerinizi eğitebilmek önemlidir.
+Nesne algılama, endüstride sıkça ihtiyaç duyulan bir görevdir. [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) gibi nesne algılama işlemleri için kullanılabilecek bazı hizmetler olsa da, nesne algılamanın nasıl çalıştığını anlamak ve kendi modellerinizi eğitebilmek önemlidir.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucunda ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluğu sağlamak için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

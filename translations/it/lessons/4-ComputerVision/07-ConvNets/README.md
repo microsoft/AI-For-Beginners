@@ -1,59 +1,67 @@
-# Réseaux de Neurones Convolutionnels
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "088837b42b7d99198bf62db8a42411e0",
+  "translation_date": "2025-08-26T07:02:34+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
+  "language_code": "it"
+}
+-->
+# Reti Neurali Convoluzionali
 
-Nous avons déjà constaté que les réseaux de neurones sont assez efficaces pour traiter des images, et même un perceptron à une couche est capable de reconnaître des chiffres manuscrits à partir du jeu de données MNIST avec une précision raisonnable. Cependant, le jeu de données MNIST est très particulier, et tous les chiffres sont centrés dans l'image, ce qui simplifie la tâche.
+Abbiamo visto in precedenza che le reti neurali sono piuttosto efficaci nel trattare le immagini, e persino un percettrone a un solo strato è in grado di riconoscere le cifre scritte a mano del dataset MNIST con una precisione ragionevole. Tuttavia, il dataset MNIST è molto particolare: tutte le cifre sono centrate all'interno dell'immagine, il che rende il compito più semplice.
 
-## [Quiz pré-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz preliminare alla lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
 
-Dans la vie réelle, nous voulons être capables de reconnaître des objets sur une image, peu importe leur emplacement exact dans celle-ci. La vision par ordinateur diffère de la classification générique, car lorsque nous essayons de trouver un certain objet dans l'image, nous scannons l'image à la recherche de certains **modèles** et de leurs combinaisons. Par exemple, lorsque nous cherchons un chat, nous pouvons d'abord rechercher des lignes horizontales, qui peuvent former des moustaches, et ensuite une certaine combinaison de moustaches peut nous indiquer qu'il s'agit en fait d'une image d'un chat. La position relative et la présence de certains modèles sont importantes, et non leur position exacte dans l'image.
+Nella vita reale, vogliamo essere in grado di riconoscere oggetti in un'immagine indipendentemente dalla loro posizione esatta. La visione artificiale è diversa dalla classificazione generica, perché quando cerchiamo di individuare un certo oggetto in un'immagine, stiamo scansionando l'immagine alla ricerca di specifici **schemi** e delle loro combinazioni. Ad esempio, cercando un gatto, potremmo iniziare cercando linee orizzontali che possono formare i baffi, e poi una certa combinazione di baffi potrebbe indicarci che si tratta effettivamente di un'immagine di un gatto. La posizione relativa e la presenza di certi schemi sono importanti, non la loro posizione esatta nell'immagine.
 
-Pour extraire des modèles, nous utiliserons la notion de **filtres convolutionnels**. Comme vous le savez, une image est représentée par une matrice 2D, ou un tenseur 3D avec une profondeur de couleur. Appliquer un filtre signifie que nous prenons une matrice de **noyau de filtre** relativement petite, et pour chaque pixel de l'image originale, nous calculons la moyenne pondérée avec les points voisins. Nous pouvons voir cela comme une petite fenêtre glissant sur toute l'image, et moyennant tous les pixels selon les poids dans la matrice du noyau de filtre.
+Per estrarre schemi, utilizzeremo il concetto di **filtri convoluzionali**. Come sapete, un'immagine è rappresentata da una matrice 2D o da un tensore 3D con profondità di colore. Applicare un filtro significa prendere una matrice relativamente piccola chiamata **kernel del filtro**, e per ogni pixel dell'immagine originale calcolare la media ponderata con i punti vicini. Possiamo immaginare questo processo come una piccola finestra che scorre su tutta l'immagine, mediando tutti i pixel secondo i pesi nella matrice del kernel del filtro.
 
-![Filtre de Bord Vertical](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.it.png) | ![Filtre de Bord Horizontal](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.it.png)
+![Filtro per bordi verticali](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.it.png) | ![Filtro per bordi orizzontali](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.it.png)
 ----|----
 
-> Image par Dmitry Soshnikov
+> Immagine di Dmitry Soshnikov
 
-Par exemple, si nous appliquons des filtres de bord vertical et horizontal 3x3 aux chiffres MNIST, nous pouvons obtenir des surlignages (par exemple, des valeurs élevées) là où se trouvent des bords verticaux et horizontaux dans notre image originale. Ainsi, ces deux filtres peuvent être utilisés pour "chercher" des bords. De même, nous pouvons concevoir différents filtres pour rechercher d'autres modèles de bas niveau :
-Vous êtes formé sur des données jusqu'à octobre 2023.
+Ad esempio, se applichiamo filtri per bordi verticali e orizzontali 3x3 alle cifre del dataset MNIST, possiamo evidenziare (ad esempio, ottenere valori alti) dove ci sono bordi verticali e orizzontali nell'immagine originale. Questi due filtri possono quindi essere utilizzati per "cercare" i bordi. Allo stesso modo, possiamo progettare filtri diversi per individuare altri schemi di basso livello:
 
-> Image de [Banque de Filtres Leung-Malik](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+> Immagine del [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 
-Cependant, bien que nous puissions concevoir les filtres pour extraire certains modèles manuellement, nous pouvons également concevoir le réseau de manière à ce qu'il apprenne les modèles automatiquement. C'est l'une des idées principales derrière le CNN.
+Tuttavia, mentre possiamo progettare manualmente i filtri per estrarre alcuni schemi, possiamo anche progettare la rete in modo tale che impari automaticamente gli schemi. Questa è una delle idee principali alla base delle CNN.
 
-## Idées principales derrière le CNN
+## Idee principali delle CNN
 
-Le fonctionnement des CNN est basé sur les idées importantes suivantes :
+Il funzionamento delle CNN si basa sulle seguenti idee fondamentali:
 
-* Les filtres convolutionnels peuvent extraire des modèles
-* Nous pouvons concevoir le réseau de manière à ce que les filtres soient entraînés automatiquement
-* Nous pouvons utiliser la même approche pour trouver des modèles dans des caractéristiques de haut niveau, et pas seulement dans l'image originale. Ainsi, l'extraction de caractéristiques par CNN fonctionne sur une hiérarchie de caractéristiques, allant des combinaisons de pixels de bas niveau jusqu'aux combinaisons de parties d'image de niveau supérieur.
+* I filtri convoluzionali possono estrarre schemi
+* Possiamo progettare la rete in modo che i filtri vengano addestrati automaticamente
+* Possiamo utilizzare lo stesso approccio per individuare schemi in caratteristiche di alto livello, non solo nell'immagine originale. In questo modo, l'estrazione delle caratteristiche nelle CNN funziona su una gerarchia di caratteristiche, partendo da combinazioni di pixel di basso livello fino a combinazioni di alto livello di parti dell'immagine.
 
-![Extraction de Caractéristiques Hiérarchiques](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.it.png)
+![Estrazione gerarchica delle caratteristiche](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.it.png)
 
-> Image tirée [d'un article de Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), basé sur [leur recherche](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
+> Immagine tratta da [un articolo di Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), basato sulla [loro ricerca](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
-## ✍️ Exercices : Réseaux de Neurones Convolutionnels
+## ✍️ Esercizi: Reti Neurali Convoluzionali
 
-Continuons à explorer comment fonctionnent les réseaux de neurones convolutionnels et comment nous pouvons obtenir des filtres entraînables, en travaillant à travers les notebooks correspondants :
+Continuiamo a esplorare come funzionano le reti neurali convoluzionali e come possiamo ottenere filtri addestrabili, lavorando sui notebook corrispondenti:
 
-* [Réseaux de Neurones Convolutionnels - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
-* [Réseaux de Neurones Convolutionnels - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
+* [Reti Neurali Convoluzionali - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
+* [Reti Neurali Convoluzionali - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
 
-## Architecture Pyramidale
+## Architettura a Piramide
 
-La plupart des CNN utilisés pour le traitement d'images suivent une architecture pyramidale. La première couche convolutionnelle appliquée aux images originales a généralement un nombre relativement faible de filtres (8-16), qui correspondent à différentes combinaisons de pixels, telles que des lignes horizontales/verticales de traits. Au niveau suivant, nous réduisons la dimension spatiale du réseau et augmentons le nombre de filtres, ce qui correspond à plus de combinaisons possibles de caractéristiques simples. À chaque couche, à mesure que nous nous rapprochons du classificateur final, les dimensions spatiales de l'image diminuent et le nombre de filtres augmente.
+La maggior parte delle CNN utilizzate per l'elaborazione delle immagini segue una cosiddetta architettura a piramide. Il primo strato convoluzionale applicato alle immagini originali ha tipicamente un numero relativamente basso di filtri (8-16), che corrispondono a diverse combinazioni di pixel, come linee orizzontali/verticali o tratti. Al livello successivo, riduciamo la dimensione spaziale della rete e aumentiamo il numero di filtri, che corrisponde a più possibili combinazioni di caratteristiche semplici. Con ogni strato, man mano che ci avviciniamo al classificatore finale, le dimensioni spaziali dell'immagine diminuiscono e il numero di filtri cresce.
 
-À titre d'exemple, examinons l'architecture de VGG-16, un réseau qui a atteint 92,7 % de précision dans la classification top-5 d'ImageNet en 2014 :
+Ad esempio, diamo un'occhiata all'architettura di VGG-16, una rete che ha raggiunto il 92,7% di accuratezza nella classificazione top-5 di ImageNet nel 2014:
 
-![Couches ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.it.jpg)
+![Strati di ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.it.jpg)
 
-![Pyramide ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.it.jpg)
+![Piramide di ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.it.jpg)
 
-> Image tirée de [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
+> Immagine tratta da [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
-## Architectures CNN les Plus Connues
+## Architetture CNN più conosciute
 
-[Continuez votre étude sur les architectures CNN les plus connues](CNN_Architectures.md)
+[Continua il tuo studio sulle architetture CNN più conosciute](CNN_Architectures.md)
 
-**Disclaimer**: 
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

@@ -1,6 +1,15 @@
-# Tarea: Cuadernos
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
+  "translation_date": "2025-08-26T06:57:41+00:00",
+  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
+  "language_code": "it"
+}
+-->
+# Compito: Notebook
 
-Utilizando los cuadernos asociados a esta lección (ya sea la versión de PyTorch o la de TensorFlow), ejecútalos nuevamente con tu propio conjunto de datos, tal vez uno de Kaggle, utilizado con la debida atribución. Reescribe el cuaderno para resaltar tus propios hallazgos. Prueba algunos conjuntos de datos innovadores que podrían resultar sorprendentes, como [este sobre avistamientos de OVNIs](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) de NUFORC.
+Utilizzando i notebook associati a questa lezione (sia la versione PyTorch che quella TensorFlow), eseguili nuovamente utilizzando il tuo dataset, magari uno preso da Kaggle, utilizzato con attribuzione. Riscrivi il notebook per evidenziare le tue scoperte. Prova alcuni dataset innovativi che potrebbero risultare sorprendenti, come [questo sui avvistamenti di UFO](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) di NUFORC.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

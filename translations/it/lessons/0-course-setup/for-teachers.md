@@ -1,26 +1,35 @@
-# For Educators
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a094ef9927883de1cfcee51dbd143381",
+  "translation_date": "2025-08-26T07:15:19+00:00",
+  "source_file": "lessons/0-course-setup/for-teachers.md",
+  "language_code": "it"
+}
+-->
+# Per gli Educatori
 
-¿Te gustaría utilizar este currículo en tu aula? ¡No dudes en hacerlo!
+Vorresti utilizzare questo curriculum nella tua classe? Sentiti libero di farlo!
 
-De hecho, puedes usarlo dentro de GitHub mismo utilizando GitHub Classroom.
+Infatti, puoi usarlo direttamente su GitHub utilizzando GitHub Classroom.
 
-Para hacerlo, haz un fork de este repositorio. Necesitarás crear un repositorio para cada lección, así que tendrás que extraer cada carpeta en un repositorio separado. De esta manera, [GitHub Classroom](https://classroom.github.com/classrooms) podrá recoger cada lección por separado.
+Per farlo, fai un fork di questo repository. Avrai bisogno di creare un repository per ogni lezione, quindi dovrai estrarre ogni cartella in un repository separato. In questo modo, [GitHub Classroom](https://classroom.github.com/classrooms) potrà gestire ogni lezione separatamente.
 
-Estas [instrucciones completas](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) te darán una idea de cómo configurar tu aula.
+Queste [istruzioni complete](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) ti daranno un'idea di come configurare la tua classe.
 
-## Usando el repositorio tal como está
+## Utilizzare il repository così com'è
 
-Si deseas utilizar este repositorio tal como está, sin usar GitHub Classroom, también se puede hacer. Tendrás que comunicarte con tus estudiantes sobre qué lección trabajar juntos.
+Se desideri utilizzare questo repository nello stato attuale, senza utilizzare GitHub Classroom, è possibile farlo. Dovrai comunicare ai tuoi studenti quale lezione seguire insieme.
 
-En un formato en línea (Zoom, Teams u otro), podrías formar salas de trabajo para los cuestionarios y guiar a los estudiantes para ayudarlos a prepararse para aprender. Luego, invita a los estudiantes a realizar los cuestionarios y enviar sus respuestas como 'issues' en un momento determinado. Podrías hacer lo mismo con las tareas, si deseas que los estudiantes trabajen colaborativamente en público.
+In un formato online (Zoom, Teams o altri), potresti creare stanze di gruppo per i quiz e fare da mentore agli studenti per aiutarli a prepararsi per l'apprendimento. Poi invita gli studenti a partecipare ai quiz e a inviare le loro risposte come 'issue' a un orario stabilito. Potresti fare lo stesso con i compiti, se desideri che gli studenti lavorino in modo collaborativo e aperto.
 
-Si prefieres un formato más privado, pídele a tus estudiantes que hagan un fork del currículo, lección por lección, a sus propios repositorios de GitHub como repositorios privados y que te den acceso. Así podrán completar cuestionarios y tareas de forma privada y enviártelas a través de issues en tu repositorio de aula.
+Se preferisci un formato più privato, chiedi ai tuoi studenti di fare un fork del curriculum, lezione per lezione, nei loro repository GitHub privati, e di darti accesso. In questo modo, potranno completare quiz e compiti in modo privato e inviarteli tramite issue sul tuo repository della classe.
 
-Hay muchas maneras de hacer que esto funcione en un formato de aula en línea. ¡Por favor, háznos saber qué funciona mejor para ti!
+Ci sono molti modi per far funzionare questo approccio in un'aula online. Facci sapere quale funziona meglio per te!
 
-## Por favor, danos tus comentarios
+## Dacci il tuo feedback
 
-Queremos hacer que este currículo funcione para ti y tus estudiantes. ¡Por favor, danos tu opinión en los foros de discusión!
+Vogliamo che questo curriculum funzioni per te e i tuoi studenti. Ti preghiamo di darci il tuo feedback nei forum di discussione!
 
-**Disclaimer**: 
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.

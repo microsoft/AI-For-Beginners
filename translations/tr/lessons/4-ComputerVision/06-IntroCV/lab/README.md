@@ -1,23 +1,31 @@
-# Optik Akış Kullanarak Hareketlerin Tespiti
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "3d53d6409f80970f7281a45dee35328a",
+  "translation_date": "2025-08-26T07:29:48+00:00",
+  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# Optik Akış Kullanarak Hareketleri Tespit Etme
 
-[AI for Beginners Curriculum](https://aka.ms/ai-beginners) dersinden laboratuvar ödevi.
+[AI for Beginners Curriculum](https://aka.ms/ai-beginners) müfredatından bir laboratuvar ödevi.
 
 ## Görev
 
-[Bu videoyu](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4) dikkate alın, burada bir kişinin avucu sabit bir arka planda sola/sağa/yukarı/aşağı hareket ediyor.
-Eğitiminiz Ekim 2023'e kadar olan verilerle yapılmıştır.
+[Bu videoyu](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4) inceleyin; bir kişinin avucu sabit bir arka plan üzerinde sola/sağa/yukarı/aşağı hareket ediyor.
 
-**Amacınız**, Optik Akış'ı kullanarak videonun hangi kısımlarının yukarı/aşağı/sola/sağa hareket içerdiğini belirlemektir.
+**Amacınız**, Optik Akış kullanarak videonun hangi bölümlerinde yukarı/aşağı/sola/sağa hareketlerin olduğunu belirlemek olacaktır.
 
-**Gelişmiş hedef**, avuç içi/parmak hareketini cilt tonunu kullanarak takip etmek olacaktır; bu, [bu blog yazısında](https://dev.to/amarlearning/finger-detection-and-tracking-using-opencv-and-python-586m) veya [burada](http://www.benmeline.com/finger-tracking-with-opencv-and-python/) açıklanmıştır.
+**Ekstra hedef**, [bu blog yazısında](https://dev.to/amarlearning/finger-detection-and-tracking-using-opencv-and-python-586m) veya [burada](http://www.benmeline.com/finger-tracking-with-opencv-and-python/) açıklandığı gibi, cilt tonu kullanarak avuç veya parmak hareketini gerçekten takip etmek olacaktır.
 
 ## Başlangıç Not Defteri
 
 Laboratuvara [MovementDetection.ipynb](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/MovementDetection.ipynb) dosyasını açarak başlayın.
 
-## Önemli Nokta
+## Çıkarım
 
-Bazen, hareket tespiti veya parmak ucu tespiti gibi görece karmaşık görevler tamamen bilgisayarla görme ile çözülebilir. Bu nedenle, OpenCV gibi kütüphanelerin neler yapabileceğini bilmek oldukça faydalıdır.
+Bazen, hareket algılama veya parmak ucu algılama gibi nispeten karmaşık görevler yalnızca bilgisayarla görme yöntemleriyle çözülebilir. Bu nedenle, OpenCV gibi kütüphanelerin neler yapabileceğini bilmek oldukça faydalıdır.
 
-**Sorumluluk Reddi**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde, otorite kaynağı olarak değerlendirilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımıyla ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan dolayı sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

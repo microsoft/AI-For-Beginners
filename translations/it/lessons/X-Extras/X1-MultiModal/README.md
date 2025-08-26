@@ -1,79 +1,88 @@
-# Réseaux Multi-Modal
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "9c592c26aca16ca085d268c732284187",
+  "translation_date": "2025-08-26T07:07:34+00:00",
+  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
+  "language_code": "it"
+}
+-->
+# Reti Multi-Modali
 
-Après le succès des modèles transformer pour résoudre des tâches de traitement du langage naturel, des architectures similaires ont été appliquées aux tâches de vision par ordinateur. Il y a un intérêt croissant à construire des modèles qui *combinent* les capacités de vision et de langage naturel. L'une de ces tentatives a été réalisée par OpenAI, et elle s'appelle CLIP et DALL.E.
+Dopo il successo dei modelli transformer per risolvere compiti di NLP, le stesse o simili architetture sono state applicate ai compiti di visione artificiale. C'è un crescente interesse nel costruire modelli che *combinino* capacità di visione e linguaggio naturale. Uno di questi tentativi è stato fatto da OpenAI, ed è chiamato CLIP e DALL.E.
 
-## Pré-Formation d'Image Contrastive (CLIP)
+## Contrastive Image Pre-Training (CLIP)
 
-L'idée principale de CLIP est de pouvoir comparer des invites textuelles avec une image et de déterminer à quel point l'image correspond à l'invite.
+L'idea principale di CLIP è quella di confrontare i prompt testuali con un'immagine e determinare quanto bene l'immagine corrisponda al prompt.
 
-![Architecture CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.it.png)
+![Architettura CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.it.png)
 
-> *Image provenant de [cet article de blog](https://openai.com/blog/clip/)*
+> *Immagine tratta da [questo post sul blog](https://openai.com/blog/clip/)*
 
-Le modèle est entraîné sur des images obtenues sur Internet et leurs légendes. Pour chaque lot, nous prenons N paires de (image, texte) et les convertissons en certaines représentations vectorielles I et T. Ces représentations sont ensuite appariées. La fonction de perte est définie pour maximiser la similarité cosinus entre les vecteurs correspondant à une paire (par exemple, I et T), et minimiser la similarité cosinus entre toutes les autres paires. C'est la raison pour laquelle cette approche est appelée **contrastive**.
+Il modello è addestrato su immagini ottenute da Internet e sulle loro didascalie. Per ogni batch, prendiamo N coppie di (immagine, testo) e le convertiamo in rappresentazioni vettoriali I, ..., T. Queste rappresentazioni vengono poi abbinate tra loro. La funzione di perdita è definita per massimizzare la similarità coseno tra i vettori corrispondenti a una coppia (es. I e T) e minimizzare la similarità coseno tra tutte le altre coppie. Questo è il motivo per cui questo approccio è chiamato **contrastivo**.
 
-Le modèle/bibliothèque CLIP est disponible sur [OpenAI GitHub](https://github.com/openai/CLIP). L'approche est décrite dans [cet article de blog](https://openai.com/blog/clip/), et plus en détail dans [ce document](https://arxiv.org/pdf/2103.00020.pdf).
+Il modello/libreria CLIP è disponibile su [GitHub di OpenAI](https://github.com/openai/CLIP). L'approccio è descritto in [questo post sul blog](https://openai.com/blog/clip/) e in modo più dettagliato in [questo articolo](https://arxiv.org/pdf/2103.00020.pdf).
 
-Une fois que ce modèle est pré-entraîné, nous pouvons lui donner un lot d'images et un lot d'invites textuelles, et il retournera un tenseur avec des probabilités. CLIP peut être utilisé pour plusieurs tâches :
+Una volta che questo modello è stato pre-addestrato, possiamo fornire un batch di immagini e un batch di prompt testuali, e il risultato sarà un tensore con probabilità. CLIP può essere utilizzato per diversi compiti:
 
-**Classification d'Image**
+**Classificazione delle Immagini**
 
-Supposons que nous devions classer des images entre, disons, des chats, des chiens et des humains. Dans ce cas, nous pouvons donner au modèle une image et une série d'invites textuelles : "*une image d'un chat*", "*une image d'un chien*", "*une image d'un humain*". Dans le vecteur résultant de 3 probabilités, nous devons simplement sélectionner l'index avec la valeur la plus élevée.
+Supponiamo di dover classificare immagini tra, ad esempio, gatti, cani e esseri umani. In questo caso, possiamo fornire al modello un'immagine e una serie di prompt testuali: "*una foto di un gatto*", "*una foto di un cane*", "*una foto di un essere umano*". Nel vettore risultante di 3 probabilità, dobbiamo semplicemente selezionare l'indice con il valore più alto.
 
-![CLIP pour la Classification d'Image](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.it.png)
+![CLIP per la Classificazione delle Immagini](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.it.png)
 
-> *Image provenant de [cet article de blog](https://openai.com/blog/clip/)*
+> *Immagine tratta da [questo post sul blog](https://openai.com/blog/clip/)*
 
-**Recherche d'Image Basée sur du Texte**
+**Ricerca di Immagini Basata su Testo**
 
-Nous pouvons également faire l'inverse. Si nous avons une collection d'images, nous pouvons passer cette collection au modèle, et une invite textuelle - cela nous donnera l'image qui est la plus similaire à l'invite donnée.
+Possiamo anche fare il contrario. Se abbiamo una collezione di immagini, possiamo passarla al modello insieme a un prompt testuale: questo ci darà l'immagine più simile al prompt fornito.
 
-## ✍️ Exemple : [Utilisation de CLIP pour la Classification d'Image et la Recherche d'Image](../../../../../lessons/X-Extras/X1-MultiModal/Clip.ipynb)
+## ✍️ Esempio: [Utilizzo di CLIP per la Classificazione delle Immagini e la Ricerca di Immagini](../../../../../lessons/X-Extras/X1-MultiModal/Clip.ipynb)
 
-Ouvrez le notebook [Clip.ipynb](../../../../../lessons/X-Extras/X1-MultiModal/Clip.ipynb) pour voir CLIP en action.
+Apri il notebook [Clip.ipynb](../../../../../lessons/X-Extras/X1-MultiModal/Clip.ipynb) per vedere CLIP in azione.
 
-## Génération d'Image avec VQGAN+ CLIP
+## Generazione di Immagini con VQGAN+CLIP
 
-CLIP peut également être utilisé pour la **génération d'images** à partir d'une invite textuelle. Pour ce faire, nous avons besoin d'un **modèle générateur** qui sera capable de générer des images basées sur une certaine entrée vectorielle. L'un de ces modèles s'appelle [VQGAN](https://compvis.github.io/taming-transformers/) (GAN à Quantification Vectorielle).
+CLIP può essere utilizzato anche per la **generazione di immagini** a partire da un prompt testuale. Per fare ciò, abbiamo bisogno di un **modello generatore** che sia in grado di generare immagini basate su un input vettoriale. Uno di questi modelli è chiamato [VQGAN](https://compvis.github.io/taming-transformers/) (Vector-Quantized GAN).
 
-Les principales idées de VQGAN qui le différencient d'un GAN ordinaire sont les suivantes :
-* Utiliser une architecture transformer autoregressive pour générer une séquence de parties visuelles riches en contexte qui composent l'image. Ces parties visuelles sont à leur tour apprises par un [CNN](../../4-ComputerVision/07-ConvNets/README.md).
-* Utiliser un discriminateur de sous-image qui détecte si des parties de l'image sont "réelles" ou "fausses" (contrairement à l'approche "tout ou rien" dans un GAN traditionnel).
+Le idee principali di VQGAN che lo differenziano dai tradizionali [GAN](../../4-ComputerVision/10-GANs/README.md) sono le seguenti:
+* Utilizzo di un'architettura transformer autoregressiva per generare una sequenza di parti visive ricche di contesto che compongono l'immagine. Queste parti visive sono a loro volta apprese da [CNN](../../4-ComputerVision/07-ConvNets/README.md).
+* Uso di un discriminatore di sotto-immagini che rileva se le parti dell'immagine sono "reali" o "false" (a differenza dell'approccio "tutto o niente" nei GAN tradizionali).
 
-En savoir plus sur VQGAN sur le site [Taming Transformers](https://compvis.github.io/taming-transformers/).
+Scopri di più su VQGAN sul sito web [Taming Transformers](https://compvis.github.io/taming-transformers/).
 
-Une des différences importantes entre VQGAN et un GAN traditionnel est que ce dernier peut produire une image décente à partir de n'importe quel vecteur d'entrée, tandis que VQGAN est susceptible de produire une image qui ne serait pas cohérente. Ainsi, nous devons guider davantage le processus de création d'image, et cela peut être fait en utilisant CLIP.
+Una delle differenze importanti tra VQGAN e i GAN tradizionali è che questi ultimi possono produrre un'immagine decente da qualsiasi vettore di input, mentre VQGAN è più propenso a produrre un'immagine incoerente. Pertanto, è necessario guidare ulteriormente il processo di creazione dell'immagine, e questo può essere fatto utilizzando CLIP.
 
-![Architecture VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.it.png)
+![Architettura VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.it.png)
 
-Pour générer une image correspondant à une invite textuelle, nous commençons avec un vecteur d'encodage aléatoire qui est passé à travers VQGAN pour produire une image. Ensuite, CLIP est utilisé pour produire une fonction de perte qui montre à quel point l'image correspond à l'invite textuelle. L'objectif est alors de minimiser cette perte, en utilisant la rétropropagation pour ajuster les paramètres du vecteur d'entrée.
+Per generare un'immagine corrispondente a un prompt testuale, iniziamo con un vettore di codifica casuale che viene passato attraverso VQGAN per produrre un'immagine. Successivamente, CLIP viene utilizzato per produrre una funzione di perdita che mostra quanto bene l'immagine corrisponda al prompt testuale. L'obiettivo è quindi minimizzare questa perdita, utilizzando la retropropagazione per regolare i parametri del vettore di input.
 
-Une excellente bibliothèque qui implémente VQGAN+CLIP est [Pixray](http://github.com/pixray/pixray).
+Una grande libreria che implementa VQGAN+CLIP è [Pixray](http://github.com/pixray/pixray).
 
-![Image produite par Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.it.png) |  ![Image produite par pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.it.png) | ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.it.png)
+![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.it.png) |  ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.it.png) | ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.it.png)
 ----|----|----
-Image générée à partir de l'invite *un gros plan d'un portrait aquarelle d'un jeune enseignant de littérature avec un livre* | Image générée à partir de l'invite *un gros plan d'un portrait à l'huile d'une jeune enseignante de sciences informatiques avec un ordinateur* | Image générée à partir de l'invite *un gros plan d'un portrait à l'huile d'un vieux professeur de mathématiques devant un tableau noir*
+Immagine generata dal prompt *un ritratto ravvicinato ad acquerello di un giovane insegnante di letteratura con un libro* | Immagine generata dal prompt *un ritratto ravvicinato a olio di una giovane insegnante di informatica con un computer* | Immagine generata dal prompt *un ritratto ravvicinato a olio di un anziano insegnante di matematica davanti a una lavagna*
 
-> Images de la collection **Enseignants Artificiels** par [Dmitry Soshnikov](http://soshnikov.com)
+> Immagini dalla collezione **Artificial Teachers** di [Dmitry Soshnikov](http://soshnikov.com)
 
 ## DALL-E
 ### [DALL-E 1](https://openai.com/research/dall-e)
-DALL-E est une version de GPT-3 entraînée pour générer des images à partir d'invites. Il a été entraîné avec 12 milliards de paramètres.
+DALL-E è una versione di GPT-3 addestrata per generare immagini a partire da prompt. È stato addestrato con 12 miliardi di parametri.
 
-Contrairement à CLIP, DALL-E reçoit à la fois le texte et l'image comme un seul flux de jetons pour les images et le texte. Par conséquent, à partir de plusieurs invites, vous pouvez générer des images basées sur le texte.
+A differenza di CLIP, DALL-E riceve sia testo che immagine come un unico flusso di token per entrambi. Pertanto, da più prompt, è possibile generare immagini basate sul testo.
 
 ### [DALL-E 2](https://openai.com/dall-e-2)
-La principale différence entre DALL-E 1 et 2 est qu'il génère des images et des œuvres d'art plus réalistes.
+La principale differenza tra DALL-E 1 e 2 è che quest'ultimo genera immagini e arte più realistiche.
 
-Exemples de générations d'images avec DALL-E :
-![Image produite par Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.it.png) |  ![Image produite par pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.it.png) | ![Image produite par Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.it.png)
+Esempi di generazione di immagini con DALL-E:
+![Immagine prodotta da Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.it.png) |  ![Immagine prodotta da Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.it.png) | ![Immagine prodotta da Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.it.png)
 ----|----|----
-Image générée à partir de l'invite *un gros plan d'un portrait aquarelle d'un jeune enseignant de littérature avec un livre* | Image générée à partir de l'invite *un gros plan d'un portrait à l'huile d'une jeune enseignante de sciences informatiques avec un ordinateur* | Image générée à partir de l'invite *un gros plan d'un portrait à l'huile d'un vieux professeur de mathématiques devant un tableau noir*
+Immagine generata dal prompt *un ritratto ravvicinato ad acquerello di un giovane insegnante di letteratura con un libro* | Immagine generata dal prompt *un ritratto ravvicinato a olio di una giovane insegnante di informatica con un computer* | Immagine generata dal prompt *un ritratto ravvicinato a olio di un anziano insegnante di matematica davanti a una lavagna*
 
-## Références
+## Riferimenti
 
-* Document VQGAN : [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/paper/paper.pdf)
-* Document CLIP : [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf)
+* Articolo su VQGAN: [Taming Transformers for High-Resolution Image Synthesis](https://compvis.github.io/taming-transformers/paper/paper.pdf)
+* Articolo su CLIP: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/pdf/2103.00020.pdf)
 
 **Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

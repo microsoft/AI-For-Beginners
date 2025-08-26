@@ -1,8 +1,17 @@
-# NetLogo Aufgabe
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
+  "translation_date": "2025-08-26T07:06:41+00:00",
+  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
+  "language_code": "it"
+}
+-->
+# Compito NetLogo
 
-Wählen Sie eines der Modelle aus der NetLogo-Bibliothek aus und verwenden Sie es, um eine reale Situation so genau wie möglich zu simulieren. Ein gutes Beispiel wäre, das Virus-Modell im Ordner Alternative Visualisierungen anzupassen, um zu zeigen, wie es verwendet werden kann, um die Ausbreitung von COVID-19 zu modellieren. Können Sie ein Modell erstellen, das eine reale virale Ausbreitung nachahmt?
+Prendi uno dei modelli presenti nella libreria di NetLogo e usalo per simulare una situazione reale nel modo più accurato possibile. Un buon esempio potrebbe essere modificare il modello Virus nella cartella Alternative Visualizations per mostrare come possa essere utilizzato per modellare la diffusione del COVID-19. Riesci a creare un modello che imiti la diffusione virale nella vita reale?
 
-Zeigen Sie Ihre Arbeit, indem Sie eine Kopie speichern und ein Video-Demo erstellen, das erklärt, wie das Modell mit einer realen Situation verbunden ist.
+Mostra il tuo lavoro salvando una copia e creando una demo video che spieghi come il modello sia collegato a una situazione reale.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

@@ -1,51 +1,60 @@
-# Procesamiento de Lenguaje Natural
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
+  "translation_date": "2025-08-26T06:55:02+00:00",
+  "source_file": "lessons/5-NLP/README.md",
+  "language_code": "it"
+}
+-->
+# Elaborazione del Linguaggio Naturale
 
-![Resumen de tareas de PLN en un garabato](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.it.png)
+![Riepilogo dei compiti NLP in uno schizzo](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.it.png)
 
-En esta sección, nos centraremos en el uso de Redes Neuronales para abordar tareas relacionadas con el **Procesamiento de Lenguaje Natural (PLN)**. Existen muchos problemas de PLN que queremos que las computadoras sean capaces de resolver:
+In questa sezione ci concentreremo sull'utilizzo delle reti neurali per gestire compiti legati all'**Elaborazione del Linguaggio Naturale (NLP)**. Ci sono molti problemi di NLP che vogliamo che i computer siano in grado di risolvere:
 
-* **Clasificación de texto** es un problema típico de clasificación que se refiere a secuencias de texto. Ejemplos incluyen clasificar mensajes de correo electrónico como spam o no spam, o categorizar artículos como deportes, negocios, política, etc. Además, al desarrollar chatbots, a menudo necesitamos entender lo que un usuario quería decir; en este caso, estamos tratando con **clasificación de intenciones**. A menudo, en la clasificación de intenciones, necesitamos manejar muchas categorías.
-* **Análisis de sentimientos** es un problema típico de regresión, donde necesitamos atribuir un número (un sentimiento) que corresponda a cuán positivo o negativo es el significado de una oración. Una versión más avanzada del análisis de sentimientos es el **análisis de sentimientos basado en aspectos** (ABSA), donde atribuimos el sentimiento no a toda la oración, sino a diferentes partes de la misma (aspectos), por ejemplo, *En este restaurante, me gustó la cocina, pero la atmósfera era horrible*.
-* **Reconocimiento de Entidades Nombradas** (NER) se refiere al problema de extraer ciertas entidades del texto. Por ejemplo, podríamos necesitar entender que en la frase *Necesito volar a París mañana*, la palabra *mañana* se refiere a FECHA, y *París* es una UBICACIÓN.  
-* **Extracción de palabras clave** es similar a NER, pero necesitamos extraer automáticamente palabras importantes para el significado de la oración, sin preentrenamiento para tipos de entidades específicos.
-* **Agrupamiento de texto** puede ser útil cuando queremos agrupar oraciones similares, por ejemplo, solicitudes similares en conversaciones de soporte técnico.
-* **Respuesta a preguntas** se refiere a la capacidad de un modelo para responder a una pregunta específica. El modelo recibe un pasaje de texto y una pregunta como entradas, y necesita proporcionar un lugar en el texto donde se encuentra la respuesta a la pregunta (o, a veces, generar el texto de la respuesta).
-* **Generación de texto** es la capacidad de un modelo para generar nuevo texto. Puede considerarse como una tarea de clasificación que predice la siguiente letra/palabra basada en algún *texto de entrada*. Modelos avanzados de generación de texto, como GPT-3, son capaces de resolver otras tareas de PLN como clasificación utilizando una técnica llamada [programación de prompts](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) o [ingeniería de prompts](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29).
-* **Resumen de texto** es una técnica en la que queremos que una computadora "lea" un texto largo y lo resuma en unas pocas oraciones.
-* **Traducción automática** puede verse como una combinación de comprensión de texto en un idioma y generación de texto en otro.
+* **Classificazione del testo** è un tipico problema di classificazione relativo alle sequenze di testo. Gli esempi includono la classificazione di e-mail come spam o non-spam, o la categorizzazione di articoli come sport, economia, politica, ecc. Inoltre, nello sviluppo di chatbot, spesso dobbiamo capire cosa l'utente vuole dire -- in questo caso ci occupiamo della **classificazione dell'intento**. Spesso, nella classificazione dell'intento, dobbiamo gestire molte categorie.
+* **Analisi del sentiment** è un tipico problema di regressione, dove dobbiamo attribuire un numero (un sentiment) che corrisponde a quanto positivo/negativo è il significato di una frase. Una versione più avanzata dell'analisi del sentiment è l'**analisi del sentiment basata sugli aspetti** (ABSA), dove attribuiamo il sentiment non all'intera frase, ma a diverse parti di essa (aspetti), ad esempio: *In questo ristorante, mi è piaciuta la cucina, ma l'atmosfera era terribile*.
+* **Riconoscimento delle entità nominate** (NER) si riferisce al problema di estrarre determinate entità dal testo. Ad esempio, potremmo dover capire che nella frase *Devo volare a Parigi domani* la parola *domani* si riferisce a una DATA, e *Parigi* è una LOCALITÀ.  
+* **Estrazione di parole chiave** è simile al NER, ma dobbiamo estrarre automaticamente le parole importanti per il significato della frase, senza pre-addestramento per tipi specifici di entità.
+* **Clustering del testo** può essere utile quando vogliamo raggruppare insieme frasi simili, ad esempio, richieste simili nelle conversazioni di supporto tecnico.
+* **Risposta alle domande** si riferisce alla capacità di un modello di rispondere a una domanda specifica. Il modello riceve un passaggio di testo e una domanda come input, e deve fornire un punto nel testo dove si trova la risposta alla domanda (o, a volte, generare il testo della risposta).
+* **Generazione di testo** è la capacità di un modello di generare nuovo testo. Può essere considerato un compito di classificazione che prevede la prossima lettera/parola basandosi su un *prompt di testo*. Modelli avanzati di generazione di testo, come GPT-3, sono in grado di risolvere altri compiti NLP utilizzando una tecnica chiamata [programmazione tramite prompt](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) o [ingegneria dei prompt](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29).
+* **Riassunto del testo** è una tecnica in cui vogliamo che un computer "legga" un testo lungo e lo riassuma in poche frasi.
+* **Traduzione automatica** può essere vista come una combinazione di comprensione del testo in una lingua e generazione di testo in un'altra.
 
-Inicialmente, la mayoría de las tareas de PLN se resolvían utilizando métodos tradicionales como gramáticas. Por ejemplo, en la traducción automática se utilizaban analizadores para transformar la oración inicial en un árbol sintáctico, luego se extraían estructuras semánticas de nivel superior para representar el significado de la oración, y con base en este significado y la gramática del idioma objetivo se generaba el resultado. Hoy en día, muchas tareas de PLN se resuelven de manera más efectiva utilizando redes neuronales.
+Inizialmente, la maggior parte dei compiti NLP veniva risolta utilizzando metodi tradizionali come le grammatiche. Ad esempio, nella traduzione automatica venivano utilizzati parser per trasformare la frase iniziale in un albero sintattico, poi venivano estratte strutture semantiche di livello superiore per rappresentare il significato della frase, e basandosi su questo significato e sulla grammatica della lingua di destinazione veniva generato il risultato. Oggi, molti compiti NLP vengono risolti in modo più efficace utilizzando reti neurali.
 
-> Muchos métodos clásicos de PLN están implementados en la biblioteca de Python [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org). Hay un excelente [Libro de NLTK](https://www.nltk.org/book/) disponible en línea que cubre cómo se pueden resolver diferentes tareas de PLN utilizando NLTK.
+> Molti metodi classici di NLP sono implementati nella libreria Python [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org). È disponibile online un ottimo [Libro NLTK](https://www.nltk.org/book/) che copre come diversi compiti NLP possono essere risolti utilizzando NLTK.
 
-En nuestro curso, nos enfocaremos principalmente en el uso de Redes Neuronales para PLN, y utilizaremos NLTK cuando sea necesario.
+Nel nostro corso, ci concentreremo principalmente sull'utilizzo delle reti neurali per il NLP, e utilizzeremo NLTK dove necessario.
 
-Ya hemos aprendido sobre el uso de redes neuronales para tratar con datos tabulares y con imágenes. La principal diferencia entre esos tipos de datos y el texto es que el texto es una secuencia de longitud variable, mientras que el tamaño de entrada en el caso de las imágenes es conocido de antemano. Si bien las redes convolucionales pueden extraer patrones de los datos de entrada, los patrones en el texto son más complejos. Por ejemplo, podemos tener la negación separada del sujeto que puede ser arbitraria para muchas palabras (por ejemplo, *No me gustan las naranjas*, frente a *No me gustan esas grandes naranjas coloridas y sabrosas*), y eso debería seguir siendo interpretado como un patrón. Así, para manejar el lenguaje, necesitamos introducir nuevos tipos de redes neuronales, como *redes recurrentes* y *transformadores*.
+Abbiamo già imparato a utilizzare le reti neurali per gestire dati tabulari e immagini. La principale differenza tra questi tipi di dati e il testo è che il testo è una sequenza di lunghezza variabile, mentre la dimensione dell'input nel caso delle immagini è nota in anticipo. Mentre le reti convoluzionali possono estrarre schemi dai dati di input, gli schemi nel testo sono più complessi. Ad esempio, possiamo avere una negazione separata dal soggetto da molte parole (ad esempio: *Non mi piacciono le arance*, vs. *Non mi piacciono quelle grandi arance colorate e gustose*), e ciò dovrebbe comunque essere interpretato come un unico schema. Pertanto, per gestire il linguaggio dobbiamo introdurre nuovi tipi di reti neurali, come le *reti ricorrenti* e i *transformer*.
 
-## Instalar Bibliotecas
+## Installare le librerie
 
-Si estás utilizando una instalación local de Python para ejecutar este curso, es posible que necesites instalar todas las bibliotecas necesarias para PLN utilizando los siguientes comandos:
+Se stai utilizzando un'installazione locale di Python per eseguire questo corso, potresti dover installare tutte le librerie necessarie per il NLP utilizzando i seguenti comandi:
 
-**Para PyTorch**
+**Per PyTorch**
 ```bash
 pip install -r requirements-torch.txt
 ```
-**Para TensorFlow**
+**Per TensorFlow**
 ```bash
 pip install -r requirements-tf.txt
 ```
 
-> Puedes probar PLN con TensorFlow en [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-77998-cacaste)
+> Puoi provare il NLP con TensorFlow su [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-77998-cacaste)
 
-## Advertencia sobre GPU
+## Avviso GPU
 
-En esta sección, en algunos de los ejemplos estaremos entrenando modelos bastante grandes.
-* **Usar una computadora con GPU habilitada**: Es recomendable ejecutar tus notebooks en una computadora habilitada para GPU para reducir los tiempos de espera al trabajar con modelos grandes.
-* **Restricciones de memoria GPU**: Ejecutar en una GPU puede llevar a situaciones en las que te quedes sin memoria GPU, especialmente al entrenar modelos grandes.
-* **Consumo de memoria GPU**: La cantidad de memoria GPU consumida durante el entrenamiento depende de varios factores, incluyendo el tamaño del minibatch.
-* **Minimizar el tamaño del minibatch**: Si encuentras problemas de memoria GPU, considera reducir el tamaño del minibatch en tu código como una solución potencial.
-* **Liberación de memoria GPU en TensorFlow**: Las versiones más antiguas de TensorFlow pueden no liberar la memoria GPU correctamente al entrenar múltiples modelos dentro de un mismo núcleo de Python. Para gestionar el uso de memoria GPU de manera efectiva, puedes configurar TensorFlow para que asigne memoria GPU solo según sea necesario.
-* **Inclusión de código**: Para configurar TensorFlow para que crezca la asignación de memoria GPU solo cuando sea necesario, incluye el siguiente código en tus notebooks:
+In questa sezione, in alcuni esempi alleneremo modelli piuttosto grandi.
+* **Usa un computer con GPU**: È consigliabile eseguire i tuoi notebook su un computer con GPU per ridurre i tempi di attesa quando lavori con modelli grandi.
+* **Vincoli di memoria GPU**: L'esecuzione su GPU può portare a situazioni in cui esaurisci la memoria GPU, specialmente durante l'addestramento di modelli grandi.
+* **Consumo di memoria GPU**: La quantità di memoria GPU consumata durante l'addestramento dipende da vari fattori, inclusa la dimensione del minibatch.
+* **Riduci la dimensione del minibatch**: Se riscontri problemi di memoria GPU, considera di ridurre la dimensione del minibatch nel tuo codice come possibile soluzione.
+* **Rilascio della memoria GPU in TensorFlow**: Le versioni più vecchie di TensorFlow potrebbero non rilasciare correttamente la memoria GPU durante l'addestramento di più modelli all'interno di un kernel Python. Per gestire efficacemente l'uso della memoria GPU, puoi configurare TensorFlow per allocare memoria GPU solo quando necessario.
+* **Inclusione del codice**: Per impostare TensorFlow affinché cresca l'allocazione della memoria GPU solo quando richiesto, includi il seguente codice nei tuoi notebook:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
@@ -53,17 +62,17 @@ if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
 ```
 
-Si estás interesado en aprender sobre PLN desde una perspectiva clásica de ML, visita [este conjunto de lecciones](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP).
+Se sei interessato a imparare il NLP da una prospettiva di ML classico, visita [questa suite di lezioni](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
 
-## En esta Sección
-En esta sección aprenderemos sobre:
+## In questa sezione
+In questa sezione impareremo:
 
-* [Representación de texto como tensores](13-TextRep/README.md)
-* [Embeddings de palabras](14-Emdeddings/README.md)
-* [Modelado del lenguaje](15-LanguageModeling/README.md)
-* [Redes Neuronales Recurrentes](16-RNN/README.md)
-* [Redes Generativas](17-GenerativeNetworks/README.md)
-* [Transformadores](18-Transformers/README.md)
+* [Rappresentare il testo come tensori](13-TextRep/README.md)
+* [Word Embeddings](14-Emdeddings/README.md)
+* [Modellazione del linguaggio](15-LanguageModeling/README.md)
+* [Reti neurali ricorrenti](16-RNN/README.md)
+* [Reti generative](17-GenerativeNetworks/README.md)
+* [Transformers](18-Transformers/README.md)
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

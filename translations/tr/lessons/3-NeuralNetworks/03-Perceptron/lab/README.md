@@ -1,22 +1,31 @@
-# Çoklu Sınıf Sınıflandırması ile Perceptron
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7336583e4630220c835335da640016db",
+  "translation_date": "2025-08-26T07:36:02+00:00",
+  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# Perceptron ile Çok Sınıflı Sınıflandırma
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) projesinden laboratuvar ödevi.
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) içindeki Lab Görevi.
 
 ## Görev
 
-Bu derste geliştirdiğimiz MNIST el yazısı rakamlarının ikili sınıflandırması için yazdığımız kodu kullanarak, herhangi bir rakamı tanıyabilen çoklu sınıf sınıflandırıcısı oluşturun. Eğitim ve test veri setinde sınıflandırma doğruluğunu hesaplayın ve karışıklık matrisini yazdırın.
+Bu derste MNIST el yazısı rakamlarının ikili sınıflandırması için geliştirdiğimiz kodu kullanarak, herhangi bir rakamı tanıyabilen bir çok sınıflı sınıflandırıcı oluşturun. Eğitim ve test veri setlerindeki sınıflandırma doğruluğunu hesaplayın ve karışıklık matrisini yazdırın.
 
 ## İpuçları
 
-1. Her rakam için "bu rakam vs. diğer tüm rakamlar" için bir ikili sınıflandırıcı veri seti oluşturun.
+1. Her rakam için, "bu rakam vs. diğer tüm rakamlar" şeklinde bir ikili sınıflandırıcı veri seti oluşturun.
 1. İkili sınıflandırma için 10 farklı perceptron eğitin (her rakam için bir tane).
-1. Bir girdi rakamını sınıflandıracak bir fonksiyon tanımlayın.
+1. Bir giriş rakamını sınıflandıracak bir fonksiyon tanımlayın.
 
-> **İpucu**: Tüm 10 perceptronun ağırlıklarını tek bir matriste birleştirirsek, girdi rakamlarına tüm 10 perceptronu bir matris çarpımı ile uygulayabilmemiz gerekir. En olası rakamı, çıktıya `argmax` işlemi uygulayarak bulabiliriz.
+> **İpucu**: Eğer 10 perceptronun ağırlıklarını bir matris içinde birleştirirsek, tüm 10 perceptronu giriş rakamlarına tek bir matris çarpımıyla uygulayabiliriz. En olası rakam, çıktıya `argmax` işlemi uygulanarak bulunabilir.
 
-## Not Defteri Açma
+## Başlangıç Not Defteri
 
-Laboratuvarı [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb) dosyasını açarak başlatın.
+Laba [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb) dosyasını açarak başlayın.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk konusunda çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen dikkate alın. Orijinal belge, ana dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucunda oluşabilecek yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama durumunda sorumluluk kabul edilmez.

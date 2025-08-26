@@ -1,14 +1,23 @@
-# RNN'ler ile Kelime Düzeyinde Metin Üretimi
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
+  "translation_date": "2025-08-26T07:21:43+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# Kelime Düzeyinde Metin Üretimi RNN'ler Kullanılarak
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) içinden Laboratuvar Görevi.
+[AI for Beginners Müfredatı](https://github.com/microsoft/ai-for-beginners) kapsamında bir laboratuvar çalışması.
 
 ## Görev
 
-Bu laboratuvarda, herhangi bir kitabı almanız ve bunu kelime düzeyinde metin üreteci eğitmek için bir veri seti olarak kullanmanız gerekiyor.
+Bu laboratuvar çalışmasında, herhangi bir kitabı alıp, kelime düzeyinde metin üreteci eğitmek için veri seti olarak kullanmanız gerekiyor.
 
 ## Veri Seti
 
-Herhangi bir kitabı kullanmakta özgürsünüz. [Project Gutenberg](https://www.gutenberg.org/) adresinde birçok ücretsiz metin bulabilirsiniz. Örneğin, Lewis Carroll'un [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt) kitabına doğrudan bağlantı burada.
+Herhangi bir kitabı kullanabilirsiniz. [Project Gutenberg](https://www.gutenberg.org/) üzerinde birçok ücretsiz metin bulabilirsiniz. Örneğin, Lewis Carroll tarafından yazılmış [Alice Harikalar Diyarında](https://www.gutenberg.org/files/11/11-0.txt) kitabına doğrudan buradan ulaşabilirsiniz.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa özen göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otoriter kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

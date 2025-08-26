@@ -1,38 +1,47 @@
-# Systèmes Multi-Agents
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "1ddf651d7681b4449f9d09ea3b17911e",
+  "translation_date": "2025-08-26T07:05:49+00:00",
+  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
+  "language_code": "it"
+}
+-->
+# Sistemi Multi-Agente
 
-L'une des manières possibles d'atteindre l'intelligence est l'approche dite **émergente** (ou **synergétique**), qui repose sur le fait que le comportement combiné de nombreux agents relativement simples peut donner lieu à un comportement global plus complexe (ou intelligent) du système dans son ensemble. Théoriquement, cela repose sur les principes de [l'Intelligence Collective](https://en.wikipedia.org/wiki/Collective_intelligence), de [l'Émergentisme](https://en.wikipedia.org/wiki/Global_brain) et de [la Cybernétique Évolutionnaire](https://en.wikipedia.org/wiki/Global_brain), qui affirment que les systèmes de niveau supérieur obtiennent une sorte de valeur ajoutée lorsqu'ils sont correctement combinés à partir de systèmes de niveau inférieur (le soi-disant *principe de transition de méta-système*).
+Uno dei modi possibili per raggiungere l'intelligenza è il cosiddetto approccio **emergente** (o **sinergico**), basato sul fatto che il comportamento combinato di molti agenti relativamente semplici può portare a un comportamento complessivo più complesso (o intelligente) del sistema nel suo insieme. Teoricamente, ciò si basa sui principi dell'[Intelligenza Collettiva](https://en.wikipedia.org/wiki/Collective_intelligence), dell'[Emergentismo](https://en.wikipedia.org/wiki/Global_brain) e della [Cibernetica Evolutiva](https://en.wikipedia.org/wiki/Global_brain), che affermano che i sistemi di livello superiore acquisiscono un certo valore aggiunto quando vengono opportunamente combinati da sistemi di livello inferiore (il cosiddetto *principio della transizione del metasistema*).
 
-## [Quiz pré-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
 
-Le domaine des **Systèmes Multi-Agents** a émergé dans l'IA dans les années 1990 en réponse à la croissance d'Internet et des systèmes distribués. L'un des manuels classiques de l'IA, [Intelligence Artificielle : Une Approche Moderne](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), se concentre sur la vision de l'IA classique du point de vue des systèmes multi-agents.
+La direzione dei **Sistemi Multi-Agente** è emersa nell'IA negli anni '90 come risposta alla crescita di Internet e dei sistemi distribuiti. Uno dei classici libri di testo sull'IA, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), si concentra sulla visione dell'IA classica dal punto di vista dei sistemi multi-agente.
 
-Au cœur de l'approche multi-agents se trouve la notion d'**Agent** - une entité qui évolue dans un **environnement**, qu'elle peut percevoir et sur lequel elle peut agir. C'est une définition très large, et il peut y avoir de nombreux types et classifications d'agents :
+Centrale nell'approccio multi-agente è il concetto di **Agente** - un'entità che vive in un certo **ambiente**, che può percepire e su cui può agire. Questa è una definizione molto ampia, e ci possono essere molti tipi e classificazioni di agenti:
 
-* Par leur capacité à raisonner :
-   - Les agents **Réactifs** ont généralement un comportement simple de type demande-réponse
-   - Les agents **Délibératifs** utilisent une sorte de raisonnement logique et/ou de capacités de planification
-* Par l'endroit où l'agent exécute son code :
-   - Les agents **Statiques** fonctionnent sur un nœud de réseau dédié
-   - Les agents **Mobiles** peuvent déplacer leur code entre les nœuds de réseau
-* Par leur comportement :
-   - Les **agents passifs** n'ont pas d'objectifs spécifiques. Ces agents peuvent réagir à des stimuli externes, mais n'initieront aucune action eux-mêmes. 
-   - Les **agents actifs** ont des objectifs qu'ils poursuivent
-   - Les **agents cognitifs** impliquent une planification et un raisonnement complexes
+* In base alla loro capacità di ragionare:
+   - Gli agenti **reattivi** di solito hanno un comportamento semplice di tipo richiesta-risposta
+   - Gli agenti **deliberativi** utilizzano una qualche forma di ragionamento logico e/o capacità di pianificazione
+* In base al luogo in cui l'agente esegue il proprio codice:
+   - Gli agenti **statici** operano su un nodo di rete dedicato
+   - Gli agenti **mobili** possono spostare il proprio codice tra i nodi di rete
+* In base al loro comportamento:
+   - Gli agenti **passivi** non hanno obiettivi specifici. Tali agenti possono reagire a stimoli esterni, ma non inizieranno alcuna azione da soli.
+   - Gli agenti **attivi** hanno degli obiettivi che perseguono
+   - Gli agenti **cognitivi** coinvolgono pianificazione e ragionamento complessi
 
-Les systèmes multi-agents sont aujourd'hui utilisés dans un certain nombre d'applications :
+I sistemi multi-agente sono oggi utilizzati in numerose applicazioni:
 
-* Dans les jeux, de nombreux personnages non-joueurs utilisent une forme d'IA et peuvent être considérés comme des agents intelligents
-* Dans la production vidéo, le rendu de scènes 3D complexes impliquant des foules est généralement réalisé à l'aide de simulations multi-agents
-* Dans la modélisation de systèmes, l'approche multi-agents est utilisée pour simuler le comportement d'un modèle complexe. Par exemple, cette approche a été utilisée avec succès pour prédire la propagation de la maladie COVID-19 dans le monde entier. Une approche similaire peut être utilisée pour modéliser le trafic dans la ville et observer comment il réagit aux changements des règles de circulation.
-* Dans les systèmes d'automatisation complexes, chaque appareil peut agir comme un agent indépendant, ce qui rend l'ensemble du système moins monolithique et plus robuste.
+* Nei giochi, molti personaggi non giocanti utilizzano una qualche forma di IA e possono essere considerati agenti intelligenti
+* Nella produzione video, il rendering di scene 3D complesse che coinvolgono folle viene tipicamente eseguito utilizzando simulazioni multi-agente
+* Nella modellazione di sistemi, l'approccio multi-agente viene utilizzato per simulare il comportamento di un modello complesso. Ad esempio, l'approccio multi-agente è stato utilizzato con successo per prevedere la diffusione della malattia COVID-19 a livello mondiale. Un approccio simile può essere utilizzato per modellare il traffico in una città e vedere come reagisce ai cambiamenti nelle regole del traffico.
+* Nei sistemi di automazione complessi, ogni dispositivo può agire come un agente indipendente, rendendo l'intero sistema meno monolitico e più robusto.
 
-Nous ne passerons pas beaucoup de temps à approfondir les systèmes multi-agents, mais considérons un exemple de **Modélisation Multi-Agent**.
+Non dedicheremo molto tempo ad approfondire i sistemi multi-agente, ma considereremo un esempio di **Modellazione Multi-Agente**.
 
 ## NetLogo
 
-[NetLogo](https://ccl.northwestern.edu/netlogo/) est un environnement de modélisation multi-agent basé sur une version modifiée du langage de programmation [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)). Ce langage a été développé pour enseigner les concepts de programmation aux enfants, et il vous permet de contrôler un agent appelé **tortue**, qui peut se déplacer en laissant une trace derrière elle. Cela permet de créer des figures géométriques complexes, ce qui est une manière très visuelle de comprendre le comportement d'un agent.
+[NetLogo](https://ccl.northwestern.edu/netlogo/) è un ambiente di modellazione multi-agente basato su una versione modificata del linguaggio di programmazione [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)). Questo linguaggio è stato sviluppato per insegnare i concetti di programmazione ai bambini e consente di controllare un agente chiamato **tartaruga**, che può muoversi lasciando una traccia dietro di sé. Questo permette di creare figure geometriche complesse, un modo molto visivo per comprendere il comportamento di un agente.
 
-Dans NetLogo, nous pouvons créer de nombreuses tortues en utilisant la commande `create-turtles`. Nous pouvons ensuite ordonner à toutes les tortues d'effectuer certaines actions (dans l'exemple ci-dessous - avancer de 10 points) :
+In NetLogo, possiamo creare molte tartarughe utilizzando il comando `create-turtles`. Possiamo quindi comandare a tutte le tartarughe di eseguire alcune azioni (nell'esempio seguente - avanzare di 10 punti):
 
 ```
 create-turtles 10
@@ -41,39 +50,39 @@ ask turtles [
 ]
 ```
 
-Bien sûr, il n'est pas intéressant que toutes les tortues fassent la même chose, donc nous pouvons `ask` groups of turtles, eg. those who are in the vicinity of a certain point. We can also create turtles of different *breeds* using `breed [cats cat]` command. Here `cat` est le nom d'une race, et nous devons spécifier à la fois le mot au singulier et au pluriel, car différentes commandes utilisent différentes formes pour plus de clarté.
+Ovviamente, non è interessante quando tutte le tartarughe fanno la stessa cosa, quindi possiamo `ask` a gruppi di tartarughe, ad esempio quelle che si trovano nelle vicinanze di un determinato punto. Possiamo anche creare tartarughe di diverse *razze* utilizzando il comando `breed [cats cat]`. Qui `cat` è il nome di una razza, e dobbiamo specificare sia la parola al singolare che al plurale, poiché diversi comandi utilizzano forme diverse per chiarezza.
 
-> ✅ Nous n'allons pas approfondir l'apprentissage du langage NetLogo lui-même - vous pouvez visiter le brillant [Dictionnaire Interactif pour Débutants de NetLogo](https://ccl.northwestern.edu/netlogo/bind/) si vous souhaitez en savoir plus.
+> ✅ Non approfondiremo l'apprendimento del linguaggio NetLogo - puoi visitare l'eccellente risorsa [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) se sei interessato a saperne di più.
 
-Vous pouvez [télécharger](https://ccl.northwestern.edu/netlogo/download.shtml) et installer NetLogo pour l'essayer.
+Puoi [scaricare](https://ccl.northwestern.edu/netlogo/download.shtml) e installare NetLogo per provarlo.
 
-### Bibliothèque de Modèles
+### Libreria di Modelli
 
-Une grande chose à propos de NetLogo est qu'il contient une bibliothèque de modèles fonctionnels que vous pouvez essayer. Allez dans **Fichier → Bibliothèque de Modèles**, et vous aurez de nombreuses catégories de modèles parmi lesquelles choisir.
+Una grande caratteristica di NetLogo è che contiene una libreria di modelli funzionanti che puoi provare. Vai su **File → Models Library**, e avrai molte categorie di modelli tra cui scegliere.
 
-<img alt="Bibliothèque de Modèles NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
 
-> Une capture d'écran de la bibliothèque de modèles par Dmitry Soshnikov
+> Uno screenshot della libreria di modelli di Dmitry Soshnikov
 
-Vous pouvez ouvrir l'un des modèles, par exemple **Biologie → Flocking**.
+Puoi aprire uno dei modelli, ad esempio **Biology → Flocking**.
 
-### Principes Principaux
+### Principi Fondamentali
 
-Après avoir ouvert le modèle, vous êtes dirigé vers l'écran principal de NetLogo. Voici un modèle d'exemple qui décrit la population de loups et de moutons, compte tenu des ressources finies (herbe).
+Dopo aver aperto il modello, verrai portato alla schermata principale di NetLogo. Ecco un esempio di modello che descrive la popolazione di lupi e pecore, date risorse finite (erba).
 
-![Écran Principal de NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.it.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.it.png)
 
-> Capture d'écran par Dmitry Soshnikov
+> Screenshot di Dmitry Soshnikov
 
-Sur cet écran, vous pouvez voir :
+In questa schermata, puoi vedere:
 
-* La section **Interface** qui contient :
-  - Le champ principal, où vivent tous les agents
-  - Différents contrôles : boutons, curseurs, etc.
-  - Des graphiques que vous pouvez utiliser pour afficher les paramètres de la simulation
-* L'onglet **Code** qui contient l'éditeur, où vous pouvez taper le programme NetLogo
+* La sezione **Interfaccia** che contiene:
+  - Il campo principale, dove vivono tutti gli agenti
+  - Diversi controlli: pulsanti, cursori, ecc.
+  - Grafici che puoi utilizzare per visualizzare i parametri della simulazione
+* La scheda **Codice** che contiene l'editor, dove puoi scrivere il programma NetLogo
 
-Dans la plupart des cas, l'interface aura un bouton **Setup**, qui initialise l'état de la simulation, et un bouton **Go** qui démarre l'exécution. Ceux-ci sont gérés par les gestionnaires correspondants dans le code qui ressemblent à ceci :
+Nella maggior parte dei casi, l'interfaccia avrà un pulsante **Setup**, che inizializza lo stato della simulazione, e un pulsante **Go** che avvia l'esecuzione. Questi sono gestiti da gestori corrispondenti nel codice che appaiono così:
 
 ```
 to go [
@@ -81,74 +90,75 @@ to go [
 ]
 ```
 
-Le monde de NetLogo se compose des objets suivants :
+Il mondo di NetLogo è composto dai seguenti oggetti:
 
-* **Agents** (tortues) qui peuvent se déplacer sur le champ et faire quelque chose. Vous commandez les agents en utilisant `ask turtles [...]` syntax, and the code in brackets is executed by all agents in *turtle mode*.
-* **Patches** are square areas of the field, on which agents live. You can refer to all agents on the same patch, or you can change patch colors and some other properties. You can also `ask patches` pour faire quelque chose.
-* **Observer** est un agent unique qui contrôle le monde. Tous les gestionnaires de boutons sont exécutés en *mode observateur*.
+* **Agenti** (tartarughe) che possono muoversi sul campo e fare qualcosa. Comandi gli agenti utilizzando la sintassi `ask turtles [...]`, e il codice tra parentesi viene eseguito da tutti gli agenti in *modalità tartaruga*.
+* **Patch** sono aree quadrate del campo, su cui vivono gli agenti. Puoi fare riferimento a tutti gli agenti sulla stessa patch, oppure puoi cambiare i colori delle patch e alcune altre proprietà. Puoi anche `ask patches` di fare qualcosa.
+* **Osservatore** è un agente unico che controlla il mondo. Tutti i gestori dei pulsanti vengono eseguiti in *modalità osservatore*.
 
-> ✅ La beauté d'un environnement multi-agent est que le code qui s'exécute en mode tortue ou en mode patch est exécuté en même temps par tous les agents en parallèle. Ainsi, en écrivant un peu de code et en programmant le comportement d'un agent individuel, vous pouvez créer un comportement complexe du système de simulation dans son ensemble.
+> ✅ La bellezza di un ambiente multi-agente è che il codice che gira in modalità tartaruga o in modalità patch viene eseguito contemporaneamente da tutti gli agenti in parallelo. Così, scrivendo poco codice e programmando il comportamento di un singolo agente, puoi creare un comportamento complesso del sistema di simulazione nel suo insieme.
 
 ### Flocking
 
-Comme exemple de comportement multi-agent, considérons le **[Flocking](https://en.wikipedia.org/wiki/Flocking_(behavior))**. Le flocking est un modèle complexe qui ressemble beaucoup à la façon dont les volées d'oiseaux volent. En les observant voler, vous pourriez penser qu'ils suivent une sorte d'algorithme collectif, ou qu'ils possèdent une forme d'*intelligence collective*. Cependant, ce comportement complexe émerge lorsque chaque agent individuel (dans ce cas, un *oiseau*) n'observe que quelques autres agents à une courte distance de lui, et suit trois règles simples :
+Come esempio di comportamento multi-agente, consideriamo il **[Flocking](https://en.wikipedia.org/wiki/Flocking_(behavior))**. Il Flocking è un modello complesso molto simile al modo in cui volano gli stormi di uccelli. Osservandoli volare, potresti pensare che seguano una sorta di algoritmo collettivo o che possiedano una forma di *intelligenza collettiva*. Tuttavia, questo comportamento complesso emerge quando ogni singolo agente (in questo caso, un *uccello*) osserva solo alcuni altri agenti a breve distanza da sé e segue tre semplici regole:
 
-* **Alignement** - il s'oriente vers la direction moyenne des agents voisins
-* **Cohésion** - il essaie de s'orienter vers la position moyenne des voisins (*attraction à long terme*)
-* **Séparation** - lorsqu'il s'approche trop des autres oiseaux, il essaie de s'éloigner (*répulsion à courte portée*)
+* **Allineamento** - si orienta verso la direzione media degli agenti vicini
+* **Coesione** - cerca di orientarsi verso la posizione media dei vicini (*attrazione a lungo raggio*)
+* **Separazione** - quando si avvicina troppo ad altri uccelli, cerca di allontanarsi (*repulsione a corto raggio*)
 
-Vous pouvez exécuter l'exemple de flocking et observer le comportement. Vous pouvez également ajuster des paramètres, tels que le *degré de séparation* ou le *champ de vision*, qui définit jusqu'où chaque oiseau peut voir. Notez que si vous réduisez le champ de vision à 0, tous les oiseaux deviennent aveugles et le flocking s'arrête. Si vous réduisez la séparation à 0, tous les oiseaux se regroupent en une ligne droite.
+Puoi eseguire l'esempio di flocking e osservare il comportamento. Puoi anche regolare i parametri, come il *grado di separazione* o il *raggio visivo*, che definisce quanto lontano ogni uccello può vedere. Nota che se riduci il raggio visivo a 0, tutti gli uccelli diventano ciechi e il flocking si interrompe. Se riduci la separazione a 0, tutti gli uccelli si raggruppano in una linea retta.
 
-> ✅ Passez à l'onglet **Code** et voyez où les trois règles du flocking (alignement, cohésion et séparation) sont mises en œuvre dans le code. Notez comment nous ne faisons référence qu'aux agents qui sont en vue.
+> ✅ Passa alla scheda **Codice** e osserva dove sono implementate nel codice le tre regole del flocking (allineamento, coesione e separazione). Nota come ci riferiamo solo agli agenti che sono in vista.
 
-### Autres Modèles à Explorer
+### Altri Modelli da Vedere
 
-Il y a quelques modèles intéressants supplémentaires avec lesquels vous pouvez expérimenter :
+Ci sono alcuni altri modelli interessanti con cui puoi sperimentare:
 
-* **Art → Feux d'Artifice** montre comment un feu d'artifice peut être considéré comme un comportement collectif de flux de feu individuels
-* **Sciences Sociales → Trafic de Base** et **Sciences Sociales → Grille de Trafic** montrent le modèle du trafic urbain en 1D et en 2D avec ou sans feux de circulation. Chaque voiture dans la simulation suit les règles suivantes :
-   - Si l'espace devant elle est vide - accélérer (jusqu'à une certaine vitesse maximale)
-   - Si elle voit un obstacle devant - freiner (et vous pouvez ajuster jusqu'où un conducteur peut voir)
-* **Sciences Sociales → Fête** montre comment les gens se regroupent lors d'une fête. Vous pouvez trouver la combinaison de paramètres qui conduit à la plus rapide augmentation du bonheur du groupe.
+* **Art → Fireworks** mostra come un fuoco d'artificio possa essere considerato un comportamento collettivo di singoli flussi di fuoco
+* **Social Science → Traffic Basic** e **Social Science → Traffic Grid** mostrano il modello del traffico cittadino in una griglia 1D e 2D con o senza semafori. Ogni auto nella simulazione segue le seguenti regole:
+   - Se lo spazio davanti è vuoto - accelera (fino a una certa velocità massima)
+   - Se vede un ostacolo davanti - frena (e puoi regolare quanto lontano un conducente può vedere)
+* **Social Science → Party** mostra come le persone si raggruppano durante una festa. Puoi trovare la combinazione di parametri che porta al più rapido aumento della felicità del gruppo.
 
-Comme vous pouvez le constater à partir de ces exemples, les simulations multi-agents peuvent être un moyen très utile de comprendre le comportement d'un système complexe composé d'individus qui suivent la même logique ou une logique similaire. Cela peut également être utilisé pour contrôler des agents virtuels, tels que les [PNJ](https://en.wikipedia.org/wiki/NPC) dans les jeux vidéo, ou des agents dans des mondes animés en 3D.
+Come puoi vedere da questi esempi, le simulazioni multi-agente possono essere un modo molto utile per comprendere il comportamento di un sistema complesso composto da individui che seguono la stessa o simile logica. Può anche essere utilizzato per controllare agenti virtuali, come [NPC](https://en.wikipedia.org/wiki/NPC) nei videogiochi o agenti in mondi animati 3D.
 
-## Agents Délibératifs
+## Agenti Deliberativi
 
-Les agents décrits ci-dessus sont très simples, réagissant aux changements dans l'environnement à l'aide d'un certain type d'algorithme. En tant que tels, ils sont des **agents réactifs**. Cependant, parfois, les agents peuvent raisonner et planifier leurs actions, auquel cas on les appelle **délibératifs**.
+Gli agenti descritti sopra sono molto semplici, reagendo ai cambiamenti nell'ambiente utilizzando una sorta di algoritmo. In quanto tali, sono **agenti reattivi**. Tuttavia, a volte gli agenti possono ragionare e pianificare le loro azioni, nel qual caso vengono chiamati **deliberativi**.
 
-Un exemple typique serait un agent personnel qui reçoit une instruction d'un humain pour réserver un voyage. Supposons qu'il existe de nombreux agents qui vivent sur Internet, qui peuvent l'aider. Il devrait alors contacter d'autres agents pour voir quels vols sont disponibles, quels sont les prix des hôtels pour différentes dates, et essayer de négocier le meilleur prix. Lorsque le plan de vacances est complet et confirmé par le propriétaire, il peut procéder à la réservation.
+Un esempio tipico potrebbe essere un agente personale che riceve un'istruzione da un umano per prenotare un viaggio. Supponiamo che ci siano molti agenti che vivono su Internet e che possono aiutarlo. Dovrebbe quindi contattare altri agenti per vedere quali voli sono disponibili, quali sono i prezzi degli hotel per diverse date e cercare di negoziare il miglior prezzo. Quando il piano di viaggio è completo e confermato dal proprietario, può procedere con la prenotazione.
 
-Pour cela, les agents doivent **communiquer**. Pour une communication réussie, ils ont besoin de :
+Per fare ciò, gli agenti devono **comunicare**. Per una comunicazione efficace, hanno bisogno di:
 
-* De **langages standard pour échanger des connaissances**, tels que le [Knowledge Interchange Format](https://en.wikipedia.org/wiki/Knowledge_Interchange_Format) (KIF) et le [Knowledge Query and Manipulation Language](https://en.wikipedia.org/wiki/Knowledge_Query_and_Manipulation_Language) (KQML). Ces langages sont conçus sur la base de la [théorie des actes de langage](https://en.wikipedia.org/wiki/Speech_act).
-* Ces langages devraient également inclure certains **protocoles de négociation**, basés sur différents **types d'enchères**.
-* Une **ontologie commune** à utiliser, afin qu'ils fassent référence aux mêmes concepts en connaissant leur sémantique
-* Un moyen de **découvrir** ce que différents agents peuvent faire, également basé sur une sorte d'ontologie
+* Alcuni **linguaggi standard per scambiare conoscenze**, come [Knowledge Interchange Format](https://en.wikipedia.org/wiki/Knowledge_Interchange_Format) (KIF) e [Knowledge Query and Manipulation Language](https://en.wikipedia.org/wiki/Knowledge_Query_and_Manipulation_Language) (KQML). Questi linguaggi sono progettati sulla base della [teoria degli atti linguistici](https://en.wikipedia.org/wiki/Speech_act).
+* Questi linguaggi dovrebbero includere anche alcuni **protocolli per le negoziazioni**, basati su diversi **tipi di aste**.
+* Una **ontologia comune** da utilizzare, in modo che si riferiscano agli stessi concetti conoscendone la semantica
+* Un modo per **scoprire** cosa possono fare i diversi agenti, basato anch'esso su una sorta di ontologia
 
-Les agents délibératifs sont beaucoup plus complexes que les réactifs, car ils ne réagissent pas seulement aux changements dans l'environnement, mais doivent également être capables d'*initier* des actions. L'une des architectures proposées pour les agents délibératifs est celle des agents de type Croyance-Désir-Intention (BDI) :
+Gli agenti deliberativi sono molto più complessi di quelli reattivi, perché non solo reagiscono ai cambiamenti nell'ambiente, ma devono anche essere in grado di *iniziare* azioni. Una delle architetture proposte per gli agenti deliberativi è il cosiddetto agente Belief-Desire-Intention (BDI):
 
-* Les **Croyances** forment un ensemble de connaissances sur l'environnement d'un agent. Cela peut être structuré sous la forme d'une base de connaissances ou d'un ensemble de règles qu'un agent peut appliquer à une situation spécifique dans l'environnement.
-* Les **Désirs** définissent ce qu'un agent souhaite faire, c'est-à-dire ses objectifs. Par exemple, l'objectif de l'agent assistant personnel ci-dessus est de réserver un voyage, et l'objectif d'un agent hôtelier est de maximiser le profit.
-* Les **Intentions** sont des actions spécifiques qu'un agent prévoit d'accomplir pour atteindre ses objectifs. Les actions modifient généralement l'environnement et entraînent une communication avec d'autres agents.
+* **Beliefs** formano un insieme di conoscenze sull'ambiente di un agente. Può essere strutturato come una base di conoscenza o un insieme di regole che un agente può applicare a una situazione specifica nell'ambiente.
+* **Desires** definiscono ciò che un agente vuole fare, cioè i suoi obiettivi. Ad esempio, l'obiettivo dell'agente assistente personale sopra è prenotare un viaggio, e l'obiettivo di un agente di un hotel è massimizzare il profitto.
+* **Intentions** sono azioni specifiche che un agente pianifica per raggiungere i suoi obiettivi. Le azioni tipicamente cambiano l'ambiente e causano comunicazione con altri agenti.
 
-Il existe des plateformes disponibles pour construire des systèmes multi-agents, telles que [JADE](https://jade.tilab.com/). [Cet article](https://arxiv.org/ftp/arxiv/papers/2007/2007.08961.pdf) contient une revue des plateformes multi-agents, ainsi qu'une brève histoire des systèmes multi-agents et de leurs différents scénarios d'utilisation.
+Esistono alcune piattaforme disponibili per costruire sistemi multi-agente, come [JADE](https://jade.tilab.com/). [Questo articolo](https://arxiv.org/ftp/arxiv/papers/2007/2007.08961.pdf) contiene una panoramica delle piattaforme multi-agente, insieme a una breve storia dei sistemi multi-agente e ai loro diversi scenari di utilizzo.
 
-## Conclusion
+## Conclusione
 
-Les systèmes multi-agents peuvent prendre des formes très différentes et être utilisés dans de nombreuses applications variées. Ils ont tous tendance à se concentrer sur le comportement plus simple d'un agent individuel, et à atteindre un comportement plus complexe de l'ensemble du système grâce à l'effet **synergétique**.
+I sistemi Multi-Agente possono assumere forme molto diverse ed essere utilizzati in molte applicazioni differenti. 
+Tendono tutti a concentrarsi sul comportamento più semplice di un singolo agente, ottenendo un comportamento più complesso del sistema complessivo grazie all'**effetto sinergico**.
 
-## 🚀 Défi
+## 🚀 Sfida
 
-Prenez cette leçon dans le monde réel et essayez de conceptualiser un système multi-agent capable de résoudre un problème. Que devrait faire un système multi-agent pour optimiser un itinéraire de bus scolaire, par exemple ? Comment cela pourrait-il fonctionner dans une boulangerie ?
+Porta questa lezione nel mondo reale e prova a concettualizzare un sistema multi-agente che possa risolvere un problema. Cosa, ad esempio, dovrebbe fare un sistema multi-agente per ottimizzare il percorso di uno scuolabus? Come potrebbe funzionare in una panetteria?
 
-## [Quiz post-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
 
-## Revue et Auto-Étude
+## Revisione e Studio Autonomo
 
-Examinez l'utilisation de ce type de système dans l'industrie. Choisissez un domaine tel que la fabrication ou l'industrie du jeu vidéo et découvrez comment les systèmes multi-agents peuvent être utilisés pour résoudre des problèmes uniques.
+Esamina l'uso di questo tipo di sistema nell'industria. Scegli un dominio come la produzione o l'industria dei videogiochi e scopri come i sistemi multi-agente possono essere utilizzati per risolvere problemi unici.
 
-## [Devoir NetLogo](assignment.md)
+## [Compito NetLogo](assignment.md)
 
 **Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda la traducción profesional humana. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
