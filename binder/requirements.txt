@@ -19,4 +19,4 @@ tensorboard==2.13.0
 tokenizers==0.19.1
 torchinfo==1.8.0
 tqdm==4.66.5
-transformers==4.44.0
+transformers==4.53.0
