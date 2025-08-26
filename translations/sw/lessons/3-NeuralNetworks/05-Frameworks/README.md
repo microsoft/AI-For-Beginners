@@ -1,123 +1,132 @@
-# Neural Network Frameworks
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "2b544f20b796402507fb05a0df893323",
+  "translation_date": "2025-08-25T21:00:46+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
+  "language_code": "sw"
+}
+-->
+# Mfumo wa Mitandao ya Neural
 
-Som vi redan har lärt oss, för att effektivt kunna träna neurala nätverk behöver vi göra två saker:
+Kama tulivyojifunza tayari, ili kufundisha mitandao ya neural kwa ufanisi tunahitaji kufanya mambo mawili:
 
-* Att arbeta med tensorer, t.ex. att multiplicera, addera och beräkna vissa funktioner som sigmoid eller softmax
-* Att beräkna gradienter för alla uttryck, för att kunna utföra gradientnedstigning
+* Kufanya kazi na tensors, kwa mfano kuzidisha, kuongeza, na kuhesabu baadhi ya kazi kama sigmoid au softmax  
+* Kuhesabu derivatives za maelezo yote, ili kufanya uboreshaji wa gradient descent  
 
-## [För-lektion quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
 
-Medan `numpy` biblioteket kan hantera den första delen, behöver vi någon mekanism för att beräkna gradienter. I [vårt ramverk](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) som vi utvecklade i föregående avsnitt var vi tvungna att manuellt programmera alla derivatfunktioner inuti `backward` metoden, som gör backpropagation. Idealiskt sett bör ett ramverk ge oss möjlighet att beräkna gradienter av *vilket uttryck som helst* som vi kan definiera.
+Ingawa maktaba ya `numpy` inaweza kufanya sehemu ya kwanza, tunahitaji utaratibu wa kuhesabu derivatives. Katika [mfumo wetu](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) ambao tumeunda katika sehemu iliyopita, tulilazimika kuandika kwa mkono kazi zote za derivatives ndani ya njia ya `backward`, ambayo hufanya backpropagation. Kwa hali bora, mfumo unapaswa kutupa fursa ya kuhesabu derivatives za *maelezo yoyote* tunayoweza kufafanua.
 
-En annan viktig aspekt är att kunna utföra beräkningar på GPU, eller andra specialiserade beräkningsenheter, såsom [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Träning av djupa neurala nätverk kräver *mycket* beräkningar, och att kunna parallellisera dessa beräkningar på GPU:er är mycket viktigt.
+Jambo lingine muhimu ni uwezo wa kufanya mahesabu kwenye GPU, au vitengo vingine maalum vya mahesabu, kama [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Mafunzo ya mitandao ya neural ya kina yanahitaji *mahesabu mengi sana*, na uwezo wa kuendesha mahesabu hayo kwa sambamba kwenye GPUs ni muhimu sana.
 
-> ✅ Termen 'parallellisera' betyder att fördela beräkningarna över flera enheter.
+> ✅ Neno 'kuendesha kwa sambamba' linamaanisha kusambaza mahesabu kwenye vifaa vingi.
 
-För närvarande är de två mest populära neurala ramverken: [TensorFlow](http://TensorFlow.org) och [PyTorch](https://pytorch.org/). Båda erbjuder ett lågnivå-API för att arbeta med tensorer både på CPU och GPU. Ovanpå lågnivå-API:et finns också ett högre API, som kallas [Keras](https://keras.io/) och [PyTorch Lightning](https://pytorchlightning.ai/) respektive.
+Kwa sasa, mifumo miwili maarufu zaidi ya neural ni: [TensorFlow](http://TensorFlow.org) na [PyTorch](https://pytorch.org/). Zote mbili zinatoa API ya kiwango cha chini kufanya kazi na tensors kwenye CPU na GPU. Juu ya API ya kiwango cha chini, kuna pia API ya kiwango cha juu, inayoitwa [Keras](https://keras.io/) na [PyTorch Lightning](https://pytorchlightning.ai/) kwa mtiririko huo.
 
-Lågnivå-API | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)
---------------|-------------------------------------|--------------------------------
-Högnivå-API| [Keras](https://keras.io/) | [PyTorch Lightning](https://pytorchlightning.ai/)
+Low-Level API | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)  
+--------------|-------------------------------------|--------------------------------  
+High-level API| [Keras](https://keras.io/) | [PyTorch Lightning](https://pytorchlightning.ai/)  
 
-**Lågnivå-API:er** i båda ramverken låter dig bygga så kallade **beräkningsgrafer**. Denna graf definierar hur man beräknar utdata (vanligtvis förlustfunktionen) med givna indata, och kan skickas för beräkning på GPU, om det är tillgängligt. Det finns funktioner för att differentiera denna beräkningsgraf och beräkna gradienter, som sedan kan användas för att optimera modellparametrar.
+**APIs za kiwango cha chini** katika mifumo yote miwili hukuruhusu kujenga kinachoitwa **michoro ya mahesabu**. Mchoro huu hufafanua jinsi ya kuhesabu matokeo (kawaida kazi ya hasara) kwa kutumia vigezo vilivyotolewa, na inaweza kusukumwa kwa mahesabu kwenye GPU, ikiwa inapatikana. Kuna kazi za kutofautisha mchoro huu wa mahesabu na kuhesabu derivatives, ambazo zinaweza kutumika kuboresha vigezo vya mfano.
 
-**Högnivå-API:er** betraktar i stort sett neurala nätverk som en **sekvens av lager**, och gör konstruktionen av de flesta neurala nätverk mycket enklare. Att träna modellen kräver vanligtvis att man förbereder data och sedan anropar en `fit` funktion för att utföra jobbet.
+**APIs za kiwango cha juu** huchukulia mitandao ya neural kama **mfululizo wa tabaka**, na hufanya ujenzi wa mitandao mingi ya neural kuwa rahisi zaidi. Kufundisha mfano kawaida kunahitaji kuandaa data na kisha kuita kazi ya `fit` kufanya kazi hiyo.
 
-Högnivå-API:et gör att du snabbt kan konstruera typiska neurala nätverk utan att behöva oroa dig för många detaljer. Samtidigt erbjuder lågnivå-API:t mycket mer kontroll över träningsprocessen, och därför används de ofta inom forskningen, när man hanterar nya arkitekturer för neurala nätverk.
+API ya kiwango cha juu hukuruhusu kujenga mitandao ya neural ya kawaida haraka sana bila kuwa na wasiwasi kuhusu maelezo mengi. Wakati huo huo, API ya kiwango cha chini inatoa udhibiti zaidi juu ya mchakato wa mafunzo, na hivyo hutumika sana katika utafiti, unaposhughulika na usanifu mpya wa mitandao ya neural.
 
-Det är också viktigt att förstå att du kan använda båda API:erna tillsammans, t.ex. kan du utveckla din egen nätverkslagerarkitektur med lågnivå-API:t, och sedan använda den i det större nätverk som konstruerats och tränats med högnivå-API:t. Eller så kan du definiera ett nätverk med högnivå-API:t som en sekvens av lager, och sedan använda din egen lågnivå träningsloop för att utföra optimering. Båda API:erna använder samma grundläggande koncept och är designade för att fungera bra tillsammans.
+Ni muhimu pia kuelewa kwamba unaweza kutumia APIs zote mbili pamoja, kwa mfano, unaweza kuunda usanifu wako wa tabaka la mtandao kwa kutumia API ya kiwango cha chini, na kisha kuitumia ndani ya mtandao mkubwa ulioundwa na kufundishwa kwa API ya kiwango cha juu. Au unaweza kufafanua mtandao kwa kutumia API ya kiwango cha juu kama mfululizo wa tabaka, na kisha kutumia mzunguko wako wa mafunzo wa kiwango cha chini kufanya uboreshaji. APIs zote mbili hutumia dhana za msingi sawa, na zimeundwa kufanya kazi vizuri pamoja.
 
-## Lärande
+## Kujifunza
 
-I den här kursen erbjuder vi det mesta av innehållet både för PyTorch och TensorFlow. Du kan välja ditt föredragna ramverk och bara gå igenom motsvarande anteckningar. Om du är osäker på vilket ramverk du ska välja, läs några diskussioner på internet angående **PyTorch vs. TensorFlow**. Du kan också titta på båda ramverken för att få en bättre förståelse.
+Katika kozi hii, tunatoa maudhui mengi kwa PyTorch na TensorFlow. Unaweza kuchagua mfumo unaoupenda na kupitia tu daftari zinazohusiana. Ikiwa huna uhakika ni mfumo gani wa kuchagua, soma mijadala fulani mtandaoni kuhusu **PyTorch vs. TensorFlow**. Unaweza pia kuangalia mifumo yote miwili ili kupata uelewa bora.
 
-Där det är möjligt kommer vi att använda Högnivå-API:er för enkelhetens skull. Men vi anser att det är viktigt att förstå hur neurala nätverk fungerar från grunden, så i början börjar vi med att arbeta med lågnivå-API och tensorer. Men om du vill komma igång snabbt och inte vill spendera mycket tid på att lära dig dessa detaljer, kan du hoppa över dem och gå direkt till högnivå-API anteckningarna.
+Pale inapowezekana, tutatumia APIs za kiwango cha juu kwa urahisi. Hata hivyo, tunaamini ni muhimu kuelewa jinsi mitandao ya neural inavyofanya kazi kutoka mwanzo, hivyo mwanzoni tunaanza kwa kufanya kazi na API ya kiwango cha chini na tensors. Hata hivyo, ikiwa unataka kuanza haraka na hutaki kutumia muda mwingi kujifunza maelezo haya, unaweza kuruka hizo na kwenda moja kwa moja kwenye daftari za API ya kiwango cha juu.
 
-## ✍️ Övningar: Ramverk
+## ✍️ Mazoezi: Mifumo
 
-Fortsätt ditt lärande i följande anteckningar:
+Endelea kujifunza katika daftari zifuatazo:
 
-Lågnivå-API | [TensorFlow+Keras Anteckning](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb) | [PyTorch](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)
---------------|-------------------------------------|--------------------------------
-Högnivå-API| [Keras](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) | *PyTorch Lightning*
+Low-Level API | [TensorFlow+Keras Notebook](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb) | [PyTorch](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)  
+--------------|-------------------------------------|--------------------------------  
+High-level API| [Keras](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) | *PyTorch Lightning*  
 
-Efter att ha bemästrat ramverken, låt oss sammanfatta begreppet överanpassning.
+Baada ya kufahamu mifumo, hebu tukumbuke dhana ya overfitting.
 
-# Överanpassning
+# Overfitting
 
-Överanpassning är ett extremt viktigt begrepp inom maskininlärning, och det är mycket viktigt att få det rätt!
+Overfitting ni dhana muhimu sana katika ujifunzaji wa mashine, na ni muhimu sana kuielewa vizuri!
 
-Överväg följande problem med att approximera 5 punkter (representerade av `x` på graferna nedan):
+Fikiria tatizo lifuatalo la kukadiria alama 5 (zinazowakilishwa na `x` kwenye grafu hapa chini):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.sw.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.sw.jpg)
--------------------------|--------------------------
-**Linjär modell, 2 parametrar** | **Icke-linjär modell, 7 parametrar**
-Träningsfel = 5.3 | Träningsfel = 0
-Valideringsfel = 5.1 | Valideringsfel = 20
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.sw.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.sw.jpg)  
+-------------------------|--------------------------  
+**Mfano wa Linear, vigezo 2** | **Mfano wa Non-linear, vigezo 7**  
+Makosa ya mafunzo = 5.3 | Makosa ya mafunzo = 0  
+Makosa ya uthibitishaji = 5.1 | Makosa ya uthibitishaji = 20  
 
-* Till vänster ser vi en bra rak linje approximation. Eftersom antalet parametrar är adekvat, förstår modellen idén bakom punktfördelningen korrekt.
-* Till höger är modellen för kraftfull. Eftersom vi bara har 5 punkter och modellen har 7 parametrar, kan den justera sig på ett sätt som gör att den går genom alla punkter, vilket gör träningsfelet till 0. Men detta hindrar modellen från att förstå det korrekta mönstret bakom datan, vilket gör att valideringsfelet blir mycket högt.
+* Kushoto, tunaona makadirio mazuri ya mstari wa moja kwa moja. Kwa sababu idadi ya vigezo ni ya kutosha, mfano unapata wazo sahihi la usambazaji wa alama.  
+* Kulia, mfano ni wenye nguvu kupita kiasi. Kwa sababu tuna alama 5 tu na mfano una vigezo 7, unaweza kurekebisha kwa njia ya kupita kwenye alama zote, na kufanya makosa ya mafunzo kuwa 0. Hata hivyo, hii inazuia mfano kuelewa muundo sahihi wa data, hivyo makosa ya uthibitishaji ni makubwa sana.  
 
-Det är mycket viktigt att hitta en korrekt balans mellan modellens rikedom (antal parametrar) och antalet träningsprover.
+Ni muhimu sana kupata usawa sahihi kati ya utajiri wa mfano (idadi ya vigezo) na idadi ya sampuli za mafunzo.
 
-## Varför överanpassning inträffar
+## Kwa nini overfitting hutokea
 
-  * Inte tillräckligt med träningsdata
-  * För kraftfull modell
-  * För mycket brus i indata
+  * Data ya mafunzo haitoshi  
+  * Mfano wenye nguvu kupita kiasi  
+  * Kelele nyingi kwenye data ya ingizo  
 
-## Hur man upptäcker överanpassning
+## Jinsi ya kugundua overfitting
 
-Som du kan se från grafen ovan kan överanpassning upptäckas genom ett mycket lågt träningsfel och ett högt valideringsfel. Normalt under träning kommer vi att se både tränings- och valideringsfel börja minska, och sedan vid en viss punkt kan valideringsfelet sluta minska och börja öka. Detta kommer att vara ett tecken på överanpassning, och en indikator på att vi troligen bör sluta träna vid denna punkt (eller åtminstone göra en snapshot av modellen).
+Kama unavyoona kutoka kwenye grafu hapo juu, overfitting inaweza kugunduliwa kwa makosa ya mafunzo ya chini sana, na makosa ya uthibitishaji ya juu. Kawaida wakati wa mafunzo tutaona makosa ya mafunzo na uthibitishaji yakianza kupungua, na kisha wakati fulani makosa ya uthibitishaji yanaweza kuacha kupungua na kuanza kuongezeka. Hii itakuwa ishara ya overfitting, na kiashiria kwamba tunapaswa labda kuacha mafunzo wakati huo (au angalau kuchukua snapshot ya mfano).
 
 ![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.sw.png)
 
-## Hur man förhindrar överanpassning
+## Jinsi ya kuzuia overfitting
 
-Om du ser att överanpassning inträffar kan du göra något av följande:
+Ikiwa unaona kwamba overfitting inatokea, unaweza kufanya mojawapo ya yafuatayo:
 
- * Öka mängden träningsdata
- * Minska modellens komplexitet
- * Använda någon [regulariseringsteknik](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), såsom [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), som vi kommer att överväga senare.
+ * Ongeza kiasi cha data ya mafunzo  
+ * Punguza ugumu wa mfano  
+ * Tumia baadhi ya [mbinu za kudhibiti](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), kama [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), ambayo tutazingatia baadaye.  
 
-## Överanpassning och Bias-Varians Tradeoff
+## Overfitting na Bias-Variance Tradeoff
 
-Överanpassning är faktiskt ett fall av ett mer generellt problem inom statistik som kallas [Bias-Varians Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Om vi överväger de möjliga källorna till fel i vår modell kan vi se två typer av fel:
+Overfitting kwa kweli ni hali ya tatizo la jumla zaidi katika takwimu linaloitwa [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Tukizingatia vyanzo vinavyowezekana vya makosa katika mfano wetu, tunaweza kuona aina mbili za makosa:
 
-* **Biasfel** orsakas av att vår algoritm inte kan fånga relationen mellan träningsdata korrekt. Det kan bero på att vår modell inte är tillräckligt kraftfull (**underanpassning**).
-* **Variansfel**, som orsakas av att modellen approximera brus i indata istället för meningsfulla relationer (**överanpassning**).
+* **Makosa ya Bias** husababishwa na algorithimu yetu kushindwa kunasa uhusiano kati ya data ya mafunzo kwa usahihi. Inaweza kusababishwa na ukweli kwamba mfano wetu hauna nguvu ya kutosha (**underfitting**).  
+* **Makosa ya Variance**, ambayo husababishwa na mfano kukadiria kelele kwenye data ya ingizo badala ya uhusiano wa maana (**overfitting**).  
 
-Under träning minskar biasfelet (när vår modell lär sig att approximera datan), och variansfelet ökar. Det är viktigt att stoppa träningen - antingen manuellt (när vi upptäcker överanpassning) eller automatiskt (genom att införa regularisering) - för att förhindra överanpassning.
+Wakati wa mafunzo, makosa ya bias hupungua (kama mfano wetu unavyojifunza kukadiria data), na makosa ya variance huongezeka. Ni muhimu kuacha mafunzo - ama kwa mikono (tunapogundua overfitting) au kiotomatiki (kwa kuanzisha udhibiti) - ili kuzuia overfitting.
 
-## Slutsats
+## Hitimisho
 
-I den här lektionen lärde du dig om skillnaderna mellan de olika API:erna för de två mest populära AI-ramverken, TensorFlow och PyTorch. Dessutom lärde du dig om ett mycket viktigt ämne, överanpassning.
+Katika somo hili, umejifunza tofauti kati ya APIs mbalimbali za mifumo miwili maarufu ya AI, TensorFlow na PyTorch. Zaidi ya hayo, umejifunza kuhusu mada muhimu sana, overfitting.
 
-## 🚀 Utmaning
+## 🚀 Changamoto
 
-I de medföljande anteckningarna hittar du 'uppgifter' längst ner; arbeta igenom anteckningarna och slutför uppgifterna.
+Katika daftari zinazofuatana, utapata 'kazi' chini; pitia daftari na ukamilishe kazi hizo.
 
-## [Efter-lektion quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
 
-## Granskning & Självstudie
+## Mapitio & Kujisomea
 
-Gör lite forskning om följande ämnen:
+Fanya utafiti kuhusu mada zifuatazo:
 
-- TensorFlow
-- PyTorch
-- Överanpassning
+- TensorFlow  
+- PyTorch  
+- Overfitting  
 
-Ställ dig själv följande frågor:
+Jiulize maswali yafuatayo:
 
-- Vad är skillnaden mellan TensorFlow och PyTorch?
-- Vad är skillnaden mellan överanpassning och underanpassning?
+- Tofauti kati ya TensorFlow na PyTorch ni ipi?  
+- Tofauti kati ya overfitting na underfitting ni ipi?  
 
-## [Uppgift](lab/README.md)
+## [Kazi](lab/README.md)
 
-I detta laboratorium ombeds du att lösa två klassificeringsproblem med hjälp av enkel- och flerlagerade fullt anslutna nätverk med PyTorch eller TensorFlow.
+Katika maabara hii, unatakiwa kutatua matatizo mawili ya uainishaji kwa kutumia mitandao ya tabaka moja na tabaka nyingi kwa kutumia PyTorch au TensorFlow.
 
-* [Instruktioner](lab/README.md)
-* [Anteckning](../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+* [Maelekezo](lab/README.md)  
+* [Daftari](../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)  
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

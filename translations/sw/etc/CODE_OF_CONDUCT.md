@@ -1,12 +1,21 @@
-# Microsoft Open Source Code of Conduct
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
+  "translation_date": "2025-08-25T21:06:19+00:00",
+  "source_file": "etc/CODE_OF_CONDUCT.md",
+  "language_code": "sw"
+}
+-->
+# Kanuni za Maadili ya Microsoft Open Source
 
-Detta projekt har antagit [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Mradi huu umechukua [Kanuni za Maadili za Microsoft Open Source](https://opensource.microsoft.com/codeofconduct/).
 
-Resurser:
+Rasilimali:
 
-- [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
-- [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-- Kontakta [opencode@microsoft.com](mailto:opencode@microsoft.com) med frågor eller bekymmer.
+- [Kanuni za Maadili za Microsoft Open Source](https://opensource.microsoft.com/codeofconduct/)
+- [Maswali Yanayoulizwa Mara kwa Mara kuhusu Kanuni za Maadili za Microsoft](https://opensource.microsoft.com/codeofconduct/faq/)
+- Wasiliana na [opencode@microsoft.com](mailto:opencode@microsoft.com) kwa maswali au wasiwasi
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

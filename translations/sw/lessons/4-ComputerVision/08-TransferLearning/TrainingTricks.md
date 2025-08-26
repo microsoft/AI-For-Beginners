@@ -1,108 +1,117 @@
-# Djupinlärningstricks för träning
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
+  "translation_date": "2025-08-25T20:57:06+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
+  "language_code": "sw"
+}
+-->
+# Mbinu za Mafunzo ya Kujifunza Kina
 
-När neurala nätverk blir djupare blir träningsprocessen mer och mer utmanande. Ett stort problem är så kallade [försvinnande gradienter](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) eller [exploderande gradienter](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Detta inlägg](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ger en bra introduktion till dessa problem.
+Kadri mitandao ya neva inavyozidi kuwa na kina, mchakato wa mafunzo yake unazidi kuwa changamoto. Tatizo moja kubwa ni kinachojulikana kama [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) au [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Chapisho hili](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) linatoa utangulizi mzuri kuhusu matatizo haya.
 
-För att göra träningen av djupa nätverk mer effektiv finns det några tekniker som kan användas.
+Ili kufanya mafunzo ya mitandao yenye kina kuwa bora zaidi, kuna mbinu kadhaa zinazoweza kutumika.
 
-## Hålla värden inom rimligt intervall
+## Kuweka Thamani Kwenye Kipimo Kinachofaa
 
-För att göra numeriska beräkningar mer stabila vill vi säkerställa att alla värden inom vårt neurala nätverk ligger inom ett rimligt intervall, typiskt [-1..1] eller [0..1]. Det är inte ett mycket strikt krav, men naturen av flyttalsberäkningar är sådan att värden av olika magnituder inte kan manipuleras tillsammans på ett exakt sätt. Till exempel, om vi lägger till 10<sup>-10</sup> och 10<sup>10</sup>, är vi troligen att få 10<sup>10</sup>, eftersom det mindre värdet skulle "konverteras" till samma ordning som det större, och därmed skulle mantissan gå förlorad.
+Ili kufanya hesabu za namba kuwa thabiti zaidi, tunataka kuhakikisha kuwa thamani zote ndani ya mtandao wetu wa neva ziko kwenye kipimo kinachofaa, kwa kawaida [-1..1] au [0..1]. Hili si hitaji kali sana, lakini asili ya hesabu za namba za kuelea ni kwamba thamani za ukubwa tofauti haziwezi kushughulikiwa kwa usahihi pamoja. Kwa mfano, tukijumlisha 10<sup>-10</sup> na 10<sup>10</sup>, kuna uwezekano mkubwa tutapata 10<sup>10</sup>, kwa sababu thamani ndogo itabadilishwa kuwa kiwango sawa na ile kubwa, na hivyo mantissa itapotea.
 
-De flesta aktiveringsfunktioner har icke-linjäriteter runt [-1..1], och därför är det rimligt att skala all indata till [-1..1] eller [0..1] intervall.
+Kazi nyingi za uanzishaji zina hali zisizo za mstari karibu na [-1..1], na kwa hivyo inafaa kupima data yote ya ingizo kwenye kipimo cha [-1..1] au [0..1].
 
-## Initial Viktinitialisering
+## Uanzishaji wa Awali wa Uzito
 
-Idealiskt vill vi att värdena ska ligga inom samma intervall efter att ha passerat genom nätverkslager. Därför är det viktigt att initiera vikterna på ett sätt som bevarar värdesfördelningen.
+Kwa hali bora, tunataka thamani ziwe kwenye kipimo sawa baada ya kupita kwenye tabaka za mtandao. Kwa hivyo ni muhimu kuanzisha uzito kwa njia ambayo inahifadhi usambazaji wa thamani.
 
-Normalfördelning **N(0,1)** är inte en bra idé, eftersom om vi har *n* ingångar, skulle standardavvikelsen av utdata vara *n*, och värden är troligen att hoppa utanför [0..1] intervallet.
+Usambazaji wa kawaida **N(0,1)** si wazo zuri, kwa sababu ikiwa tuna *n* ingizo, upotofu wa kawaida wa matokeo utakuwa *n*, na thamani zinaweza kuruka nje ya kipimo cha [0..1].
 
-Följande initialiseringar används ofta:
+Uanzishaji ufuatao mara nyingi hutumika:
 
- * Uniform fördelning -- `uniform`
- * **N(0,1/n)** -- `gaussian`
- * **N(0,1/√n_in)** garanterar att för ingångar med noll medelvärde och standardavvikelse 1, skulle samma medelvärde/standardavvikelse förbli
- * **N(0,√2/(n_in+n_out))** -- så kallad **Xavier-initialisering** (`glorot`), det hjälper till att hålla signalerna inom intervallet under både framåt- och bakåtspridning
+- Usambazaji wa sare -- `uniform`
+- **N(0,1/n)** -- `gaussian`
+- **N(0,1/√n_in)** inahakikisha kuwa kwa ingizo lenye wastani wa sifuri na upotofu wa kawaida wa 1, wastani/upotofu wa kawaida utabaki sawa
+- **N(0,√2/(n_in+n_out))** -- kinachojulikana kama **Xavier initialization** (`glorot`), husaidia kuweka ishara kwenye kipimo wakati wa upitishaji wa mbele na nyuma
 
-## Batchnormalisering
+## Kawaida ya Kundi
 
-Även med korrekt viktinitialisering kan vikterna bli godtyckligt stora eller små under träningen, och de kommer att föra signaler utanför rätt intervall. Vi kan föra tillbaka signalerna genom att använda en av **normaliseringsteknikerna**. Medan det finns flera av dem (Viktnormalisering, Lagernormalisering), är den mest använda Batchnormalisering.
+Hata kwa uanzishaji sahihi wa uzito, uzito unaweza kuwa mkubwa au mdogo kiholela wakati wa mafunzo, na wataondoa ishara nje ya kipimo kinachofaa. Tunaweza kurudisha ishara kwa kutumia mojawapo ya mbinu za **kawaida**. Ingawa kuna kadhaa (Kawaida ya Uzito, Kawaida ya Tabaka), inayotumika zaidi ni Kawaida ya Kundi.
 
-Idén med **batchnormalisering** är att ta hänsyn till alla värden över minibatchen och utföra normalisering (dvs. subtrahera medelvärde och dela med standardavvikelse) baserat på dessa värden. Det implementeras som ett nätverkslager som gör denna normalisering efter att vikterna har tillämpats, men före aktiveringsfunktionen. Som ett resultat är vi troligen att se högre slutlig noggrannhet och snabbare träning.
+Wazo la **kawaida ya kundi** ni kuzingatia thamani zote kwenye kundi dogo, na kufanya kawaida (yaani, kutoa wastani na kugawanya kwa upotofu wa kawaida) kulingana na thamani hizo. Inatekelezwa kama tabaka la mtandao ambalo hufanya kawaida hii baada ya kutumia uzito, lakini kabla ya kazi ya uanzishaji. Matokeo yake, kuna uwezekano wa kuona usahihi wa mwisho wa juu na mafunzo ya haraka.
 
-Här är den [ursprungliga artikeln](https://arxiv.org/pdf/1502.03167.pdf) om batchnormalisering, [förklaringen på Wikipedia](https://en.wikipedia.org/wiki/Batch_normalization), och [ett bra introducerande blogginlägg](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (och den [på ryska](https://habrahabr.ru/post/309302/)).
+Hapa kuna [karatasi ya asili](https://arxiv.org/pdf/1502.03167.pdf) kuhusu kawaida ya kundi, [maelezo kwenye Wikipedia](https://en.wikipedia.org/wiki/Batch_normalization), na [chapisho la blogu la utangulizi mzuri](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (na moja [kwa Kirusi](https://habrahabr.ru/post/309302/)).
 
 ## Dropout
 
-**Dropout** är en intressant teknik som tar bort en viss procentandel av slumpmässiga neuroner under träningen. Det implementeras också som ett lager med en parameter (procentandel av neuroner att ta bort, typiskt 10%-50%), och under träningen nollställer det slumpmässiga element av ingångsvektorn innan den skickas till nästa lager.
+**Dropout** ni mbinu ya kuvutia inayotoa asilimia fulani ya neurons kwa nasibu wakati wa mafunzo. Pia inatekelezwa kama tabaka lenye kigezo kimoja (asilimia ya neurons za kuondoa, kwa kawaida 10%-50%), na wakati wa mafunzo inafuta vipengele vya nasibu vya vector ya ingizo, kabla ya kuipitisha kwenye tabaka inayofuata.
 
-Även om detta kan låta som en konstig idé, kan du se effekten av dropout på träningen av MNIST-sifferklassificeraren i [`Dropout.ipynb`](../../../../../lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb) anteckningen. Det påskyndar träningen och gör att vi kan uppnå högre noggrannhet på färre träningsomgångar.
+Ingawa hii inaweza kuonekana kama wazo la ajabu, unaweza kuona athari ya dropout kwenye mafunzo ya classifier ya tarakimu ya MNIST katika daftari [`Dropout.ipynb`](../../../../../lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb). Inaharakisha mafunzo na inatuwezesha kufikia usahihi wa juu katika vipindi vichache vya mafunzo.
 
-Denna effekt kan förklaras på flera sätt:
+Athari hii inaweza kuelezewa kwa njia kadhaa:
 
- * Det kan ses som en slumpmässig chockerande faktor för modellen, som tar optimering ut ur lokala minimum
- * Det kan ses som *implicit modellgenomsnitt*, eftersom vi kan säga att under dropout tränar vi en något annan modell
+- Inaweza kuchukuliwa kuwa ni mshtuko wa nasibu kwa modeli, ambao unatoa uboreshaji nje ya kiwango cha chini cha ndani
+- Inaweza kuchukuliwa kama *kawaida ya modeli isiyo ya moja kwa moja*, kwa sababu tunaweza kusema kwamba wakati wa dropout tunafundisha modeli tofauti kidogo
 
-> *Vissa människor säger att när en berusad person försöker lära sig något, kommer han att minnas detta bättre nästa morgon, jämfört med en nykter person, eftersom en hjärna med vissa defekta neuroner försöker anpassa sig bättre för att förstå betydelsen. Vi har aldrig testat oss själva om detta är sant eller inte*
+> *Watu wengine wanasema kwamba mtu mlevi anapojaribu kujifunza kitu, atakumbuka vizuri zaidi asubuhi inayofuata, ikilinganishwa na mtu asiye mlevi, kwa sababu ubongo wenye neurons zinazofanya kazi vibaya unajaribu kujifunza vizuri zaidi. Hatujawahi kujaribu wenyewe kama hili ni kweli au la.*
 
-## Förhindra överanpassning
+## Kuzuia Overfitting
 
-En av de mycket viktiga aspekterna av djupinlärning är att kunna förhindra [överanpassning](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Även om det kan vara frestande att använda en mycket kraftfull neurala nätverksmodell, bör vi alltid balansera antalet modellparametrar med antalet träningsprover.
+Moja ya vipengele muhimu sana vya kujifunza kina ni kuweza kuzuia [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Ingawa inaweza kuwa ya kuvutia kutumia modeli yenye nguvu sana ya mtandao wa neva, tunapaswa kila wakati kusawazisha idadi ya vigezo vya modeli na idadi ya sampuli za mafunzo.
 
-> Se till att du förstår konceptet [överanpassning](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) som vi har introducerat tidigare!
+> Hakikisha unaelewa dhana ya [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) tuliyoanzisha awali!
 
-Det finns flera sätt att förhindra överanpassning:
+Kuna njia kadhaa za kuzuia overfitting:
 
- * Tidig stoppning -- kontinuerligt övervaka fel på valideringsuppsättningen och stoppa träningen när valideringsfelet börjar öka.
- * Explicit Viktavklingning / Regularisering -- lägga till en extra straffavgift till förlustfunktionen för höga absoluta värden av vikterna, vilket förhindrar att modellen får mycket instabila resultat
- * Modellgenomsnitt -- träna flera modeller och sedan genomsnitt resultatet. Detta hjälper till att minimera variansen.
- * Dropout (Implicit Modellgenomsnitt)
+- Kusimamisha mapema -- kufuatilia makosa kwenye seti ya uthibitishaji na kusimamisha mafunzo wakati makosa ya uthibitishaji yanaanza kuongezeka.
+- Kupungua kwa Uzito wa Wazi / Kawaida -- kuongeza adhabu ya ziada kwenye kazi ya hasara kwa thamani kubwa za uzito, ambayo huzuia modeli kupata matokeo yasiyo thabiti sana
+- Kawaida ya Modeli -- kufundisha modeli kadhaa na kisha kujumlisha matokeo. Hii husaidia kupunguza tofauti.
+- Dropout (Kawaida ya Modeli Isiyo ya Moja kwa Moja)
 
-## Optimerare / Träningsalgoritmer
+## Optimizers / Algorithms za Mafunzo
 
-En annan viktig aspekt av träning är att välja en bra träningsalgoritm. Medan klassisk **gradientnedstigning** är ett rimligt val, kan det ibland vara för långsamt eller resultera i andra problem.
+Jambo lingine muhimu la mafunzo ni kuchagua algorithm nzuri ya mafunzo. Ingawa **gradient descent** ya kawaida ni chaguo la busara, wakati mwingine inaweza kuwa polepole sana, au kusababisha matatizo mengine.
 
-Inom djupinlärning använder vi **Stokastisk Gradientnedstigning** (SGD), som är en gradientnedstigning tillämpad på minibatcher, slumpmässigt valda från träningsuppsättningen. Vikterna justeras med hjälp av denna formel:
+Katika kujifunza kina, tunatumia **Stochastic Gradient Descent** (SGD), ambayo ni gradient descent inayotumika kwa minibatches, zilizochaguliwa kwa nasibu kutoka kwenye seti ya mafunzo. Uzito hubadilishwa kwa kutumia fomula hii:
 
 w<sup>t+1</sup> = w<sup>t</sup> - η∇ℒ
 
 ### Momentum
 
-I **momentum SGD**, behåller vi en del av en gradient från tidigare steg. Det är liknande som när vi rör oss någonstans med tröghet, och vi får ett slag i en annan riktning, vår bana ändras inte omedelbart, utan behåller en del av den ursprungliga rörelsen. Här introducerar vi en annan vektor v för att representera *hastighet*:
+Katika **momentum SGD**, tunahifadhi sehemu ya gradient kutoka hatua za awali. Ni sawa na tunaposonga mahali fulani kwa kasi, na tunapokea mshtuko katika mwelekeo tofauti, mwelekeo wetu hauwezi kubadilika mara moja, lakini unahifadhi sehemu ya mwendo wa awali. Hapa tunaanzisha vector nyingine v kuwakilisha *kasi*:
 
-* v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
-* w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
+- v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
+- w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Här indikerar parametern γ i vilken utsträckning vi tar hänsyn till tröghet: γ=0 motsvarar klassisk SGD; γ=1 är en ren rörelseekvation.
+Hapa kigezo γ kinaonyesha kiwango ambacho tunazingatia kasi: γ=0 inalingana na SGD ya kawaida; γ=1 ni equation ya mwendo safi.
 
-### Adam, Adagrad, etc.
+### Adam, Adagrad, nk.
 
-Eftersom vi i varje lager multiplicerar signaler med en viss matris W<sub>i</sub>, beroende på ||W<sub>i</sub>||, kan gradienten antingen minska och vara nära 0, eller stiga oändligt. Det är essensen av problemet med Exploderande/Försvinnande Gradienter.
+Kwa kuwa katika kila tabaka tunazidisha ishara kwa matrix W<sub>i</sub>, kulingana na ||W<sub>i</sub>||, gradient inaweza kupungua na kuwa karibu na 0, au kupanda bila kikomo. Hii ndiyo kiini cha tatizo la Exploding/Vanishing Gradients.
 
-En av lösningarna på detta problem är att endast använda riktningen av gradienten i ekvationen och ignorera det absoluta värdet, dvs.
+Moja ya suluhisho la tatizo hili ni kutumia mwelekeo tu wa gradient katika equation, na kupuuza thamani halisi, yaani
 
-w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), där ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), ambapo ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
 
-Denna algoritm kallas **Adagrad**. Andra algoritmer som använder samma idé: **RMSProp**, **Adam**
+Algorithm hii inaitwa **Adagrad**. Algorithm nyingine zinazotumia wazo hili: **RMSProp**, **Adam**
 
-> **Adam** anses vara en mycket effektiv algoritm för många tillämpningar, så om du är osäker på vilken du ska använda - använd Adam.
+> **Adam** inachukuliwa kuwa algorithm yenye ufanisi sana kwa matumizi mengi, kwa hivyo ikiwa huna uhakika ni ipi ya kutumia - tumia Adam.
 
-### Gradientklippning
+### Gradient clipping
 
-Gradientklippning är en förlängning av idén ovan. När ||∇ℒ|| ≤ θ, beaktar vi den ursprungliga gradienten i viktoptimeringen, och när ||∇ℒ|| > θ - delar vi gradienten med sin norm. Här är θ en parameter, i de flesta fall kan vi ta θ=1 eller θ=10.
+Gradient clipping ni upanuzi wa wazo hapo juu. Wakati ||∇ℒ|| ≤ θ, tunazingatia gradient ya awali katika uboreshaji wa uzito, na wakati ||∇ℒ|| > θ - tunagawanya gradient kwa norm yake. Hapa θ ni kigezo, katika hali nyingi tunaweza kuchukua θ=1 au θ=10.
 
-### Inlärningshastighetsavtagning
+### Kupungua kwa Kiwango cha Kujifunza
 
-Träningsframgång beror ofta på inlärningshastighetsparametern η. Det är logiskt att anta att större värden av η resulterar i snabbare träning, vilket är något vi typiskt vill i början av träningen, och sedan mindre värde av η gör att vi kan finjustera nätverket. Därför vill vi i de flesta fall minska η under träningsprocessen.
+Mafanikio ya mafunzo mara nyingi hutegemea kigezo cha kiwango cha kujifunza η. Ni mantiki kudhani kwamba thamani kubwa za η husababisha mafunzo ya haraka, ambayo ni kitu tunachotaka kwa kawaida mwanzoni mwa mafunzo, na kisha thamani ndogo za η zinaturuhusu kurekebisha mtandao. Kwa hivyo, katika hali nyingi tunataka kupunguza η katika mchakato wa mafunzo.
 
-Detta kan göras genom att multiplicera η med något nummer (t.ex. 0.98) efter varje träningsomgång, eller genom att använda en mer komplicerad **inlärningshastighetsplan**.
+Hii inaweza kufanywa kwa kuzidisha η kwa nambari fulani (mfano 0.98) baada ya kila kipindi cha mafunzo, au kwa kutumia ratiba ya kiwango cha kujifunza iliyo ngumu zaidi.
 
-## Olika nätverksarkitekturer
+## Miundo Tofauti ya Mitandao
 
-Att välja rätt nätverksarkitektur för ditt problem kan vara knepigt. Normalt skulle vi ta en arkitektur som har visat sig fungera för vår specifika uppgift (eller en liknande). Här är en [bra översikt](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) av neurala nätverksarkitekturer för datorvision.
+Kuchagua muundo sahihi wa mtandao kwa tatizo lako inaweza kuwa changamoto. Kwa kawaida, tungechukua muundo ambao umethibitishwa kufanya kazi kwa kazi yetu maalum (au inayofanana). Hapa kuna [muhtasari mzuri](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) wa miundo ya mitandao ya neva kwa maono ya kompyuta.
 
-> Det är viktigt att välja en arkitektur som är tillräckligt kraftfull för det antal träningsprover vi har. Att välja en för kraftfull modell kan resultera i [överanpassning](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
+> Ni muhimu kuchagua muundo ambao utakuwa na nguvu ya kutosha kwa idadi ya sampuli za mafunzo tulizo nazo. Kuchagua modeli yenye nguvu sana kunaweza kusababisha [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-Ett annat bra sätt skulle vara att använda en arkitektur som automatiskt justerar sig till den erforderliga komplexiteten. I viss utsträckning är **ResNet**-arkitekturen och **Inception** självjusterande. [Mer om datorvisionsarkitekturer](../07-ConvNets/CNN_Architectures.md)
+Njia nyingine nzuri inaweza kuwa kutumia muundo ambao utajirekebisha kiotomatiki kwa ugumu unaohitajika. Kwa kiwango fulani, muundo wa **ResNet** na **Inception** unajirekebisha. [Zaidi kuhusu miundo ya maono ya kompyuta](../07-ConvNets/CNN_Architectures.md)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

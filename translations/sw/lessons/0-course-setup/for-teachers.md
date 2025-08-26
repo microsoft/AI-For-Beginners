@@ -1,26 +1,35 @@
-# För lärare
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a094ef9927883de1cfcee51dbd143381",
+  "translation_date": "2025-08-25T21:05:48+00:00",
+  "source_file": "lessons/0-course-setup/for-teachers.md",
+  "language_code": "sw"
+}
+-->
+# Kwa Walimu
 
-Vill du använda denna läroplan i ditt klassrum? Känn dig fri att göra det!
+Je, ungependa kutumia mtaala huu darasani kwako? Tafadhali jisikie huru!
 
-Faktum är att du kan använda den direkt inom GitHub genom att använda GitHub Classroom.
+Kwa kweli, unaweza kuutumia ndani ya GitHub yenyewe kwa kutumia GitHub Classroom.
 
-För att göra det, fork denna repo. Du kommer att behöva skapa en repo för varje lektion, så du måste extrahera varje mapp till en separat repo. På så sätt kan [GitHub Classroom](https://classroom.github.com/classrooms) plocka upp varje lektion separat.
+Ili kufanya hivyo, nakili repo hii. Utahitaji kuunda repo kwa kila somo, kwa hivyo utahitaji kutoa kila folda na kuiweka kwenye repo tofauti. Kwa njia hiyo, [GitHub Classroom](https://classroom.github.com/classrooms) inaweza kuchukua kila somo moja kwa moja.
 
-Dessa [fullständiga instruktioner](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) ger dig en uppfattning om hur du sätter upp ditt klassrum.
+Maelezo haya [kamili](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) yatakupa mwongozo wa jinsi ya kuandaa darasa lako.
 
-## Använda repo som den är
+## Kutumia repo kama ilivyo
 
-Om du vill använda denna repo som den är nu, utan att använda GitHub Classroom, går det också bra. Du behöver kommunicera med dina studenter om vilken lektion ni ska arbeta igenom tillsammans.
+Ikiwa ungependa kutumia repo hii kama ilivyo sasa, bila kutumia GitHub Classroom, hilo linawezekana pia. Utahitaji kuwasiliana na wanafunzi wako kuhusu somo gani la kufanyia kazi pamoja.
 
-I ett online-format (Zoom, Teams eller annat) kan du skapa breakout-rum för quizzen och vägleda studenterna för att hjälpa dem att förbereda sig för att lära. Sedan kan du bjuda in studenterna till quizzen och låta dem skicka in sina svar som 'issues' vid en viss tidpunkt. Du kan göra detsamma med uppgifter, om du vill att studenterna ska arbeta tillsammans öppet.
+Katika muundo wa mtandaoni (Zoom, Teams, au nyinginezo) unaweza kuunda vyumba vya vikundi kwa ajili ya maswali ya majaribio, na kuwaelekeza wanafunzi ili kuwasaidia kujiandaa kujifunza. Kisha waalike wanafunzi kushiriki kwenye maswali ya majaribio na kuwasilisha majibu yao kama 'issues' kwa wakati fulani. Unaweza kufanya vivyo hivyo na kazi za nyumbani, ikiwa unataka wanafunzi wafanye kazi kwa kushirikiana waziwazi.
 
-Om du föredrar ett mer privat format, be dina studenter att forkla läroplanen, lektion för lektion, till sina egna GitHub-repos som privata repos och ge dig tillgång. Då kan de slutföra quizzen och uppgifterna privat och skicka dem till dig via issues på din klassrumsrepo.
+Ikiwa unapendelea muundo wa faragha zaidi, waombe wanafunzi wako kunakili mtaala huu, somo kwa somo, kwenye repos zao za GitHub kama repos za faragha, na wakupe ufikiaji. Kisha wanaweza kukamilisha maswali ya majaribio na kazi za nyumbani kwa faragha na kuwasilisha kwako kupitia 'issues' kwenye repo ya darasa lako.
 
-Det finns många sätt att få detta att fungera i ett online klassrumformat. Låt oss veta vad som fungerar bäst för dig!
+Kuna njia nyingi za kufanya hili lifanye kazi katika muundo wa darasa la mtandaoni. Tafadhali tujulishe ni njia gani inakufaa zaidi!
 
-## Ge oss gärna dina tankar
+## Tafadhali tupe maoni yako
 
-Vi vill att denna läroplan ska fungera för dig och dina studenter. Ge oss gärna feedback på diskussionsforumet!
+Tunataka mtaala huu ufanye kazi kwako na kwa wanafunzi wako. Tafadhali tupe maoni yako kwenye bodi za majadiliano!
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller oegentligheter. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

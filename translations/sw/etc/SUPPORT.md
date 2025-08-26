@@ -1,16 +1,23 @@
-# Support
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
+  "translation_date": "2025-08-25T21:06:13+00:00",
+  "source_file": "etc/SUPPORT.md",
+  "language_code": "sw"
+}
+-->
+# Msaada
 
-## Hur man rapporterar problem och får hjälp  
+## Jinsi ya kuripoti matatizo na kupata msaada  
 
-Detta projekt använder GitHub Issues för att spåra buggar och funktionsförfrågningar. Vänligen sök bland de befintliga 
-problemen innan du rapporterar nya för att undvika dubbletter. För nya problem, rapportera din bugg eller 
-funktionsförfrågan som ett nytt problem.
+Mradi huu unatumia GitHub Issues kufuatilia hitilafu na maombi ya vipengele vipya. Tafadhali tafuta matatizo yaliyopo kabla ya kuripoti matatizo mapya ili kuepuka marudio. Kwa matatizo mapya, ripoti hitilafu yako au ombi la kipengele kama Issue mpya.
 
-För hjälp och frågor om hur man använder detta projekt, vänligen använd Diskussionsforum.
+Kwa msaada na maswali kuhusu jinsi ya kutumia mradi huu, tafadhali tumia Mabaraza ya Majadiliano.
 
-## Microsofts supportpolicy  
+## Sera ya Msaada ya Microsoft  
 
-Stödet för detta projekt är begränsat till de resurser som anges ovan.
+Msaada kwa mradi huu umewekewa mipaka kwa rasilimali zilizoorodheshwa hapo juu.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi tar inget ansvar för eventuella missförstånd eller feltolkningar som uppstår på grund av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

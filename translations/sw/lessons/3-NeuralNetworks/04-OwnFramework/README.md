@@ -1,89 +1,98 @@
-# Introduktion till Neurala Nätverk. Flerlagers Perceptron
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "186bf7eeab776b36f557357ea56d4751",
+  "translation_date": "2025-08-25T21:00:11+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
+  "language_code": "sw"
+}
+-->
+# Utangulizi wa Mitandao ya Neural. Multi-Layered Perceptron
 
-I den föregående sektionen lärde du dig om den enklaste modellen för neurala nätverk - enlagers perceptron, en linjär klassificeringsmodell för två klasser.
+Katika sehemu iliyopita, ulijifunza kuhusu mfano rahisi zaidi wa mtandao wa neural - perceptron ya tabaka moja, mfano wa uainishaji wa tabaka mbili wa mstari.
 
-I denna sektion kommer vi att utvidga denna modell till ett mer flexibelt ramverk, vilket gör att vi kan:
+Katika sehemu hii tutapanua mfano huu kuwa mfumo wenye kubadilika zaidi, unaotuwezesha:
 
-* utföra **flerklassklassificering** utöver tvåklasstillstånd
-* lösa **regressionsproblem** utöver klassificering
-* separera klasser som inte är linjärt separerbara
+* kufanya **uainishaji wa tabaka nyingi** pamoja na tabaka mbili  
+* kutatua **matatizo ya regression** pamoja na uainishaji  
+* kutenganisha madarasa ambayo hayawezi kutenganishwa kwa mstari  
 
-Vi kommer också att utveckla vårt eget modulära ramverk i Python som gör att vi kan konstruera olika arkitekturer för neurala nätverk.
+Pia tutaendeleza mfumo wetu wa modular kwa kutumia Python ambao utaturuhusu kujenga usanifu tofauti wa mitandao ya neural.
 
-## [För-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
 
-## Formalisering av Maskininlärning
+## Urasmishaji wa Kujifunza kwa Mashine
 
-Låt oss börja med att formalisera problemet inom Maskininlärning. Anta att vi har en träningsdataset **X** med etiketter **Y**, och vi behöver bygga en modell *f* som kommer att ge de mest exakta förutsägelserna. Kvaliteten på förutsägelserna mäts av **Förlustfunktion** ℒ. Följande förlustfunktioner används ofta:
+Tuanze kwa kurasmisha tatizo la Kujifunza kwa Mashine. Tuseme tuna seti ya mafunzo **X** yenye lebo **Y**, na tunahitaji kujenga mfano *f* ambao utatoa utabiri sahihi zaidi. Ubora wa utabiri hupimwa kwa kutumia **Kazi ya Hasara** ℒ. Kazi za hasara zifuatazo hutumika mara nyingi:
 
-* För regressionsproblem, när vi behöver förutsäga ett tal, kan vi använda **absolut fel** ∑<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>|, eller **kvadrerat fel** ∑<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sup>)<sup>2</sup>
-* För klassificering använder vi **0-1 förlust** (som i huvudsak är detsamma som **noggrannheten** hos modellen), eller **logistisk förlust**.
+* Kwa tatizo la regression, ambapo tunahitaji kutabiri namba, tunaweza kutumia **absolute error** ∑<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>|, au **squared error** ∑<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sup>)<sup>2</sup>  
+* Kwa uainishaji, tunatumia **0-1 loss** (ambayo kimsingi ni sawa na **usahihi** wa mfano), au **logistic loss**.
 
-För en enlags perceptron definierades funktionen *f* som en linjär funktion *f(x)=wx+b* (här är *w* viktmatrisen, *x* är vektorn av ingångsegenskaper, och *b* är biasvektorn). För olika arkitekturer av neurala nätverk kan denna funktion anta en mer komplex form.
+Kwa perceptron ya tabaka moja, kazi *f* ilifafanuliwa kama kazi ya mstari *f(x)=wx+b* (hapa *w* ni matrix ya uzito, *x* ni vector ya vipengele vya ingizo, na *b* ni vector ya bias). Kwa usanifu tofauti wa mitandao ya neural, kazi hii inaweza kuchukua umbo tata zaidi.
 
-> I fallet med klassificering är det ofta önskvärt att få sannolikheter för motsvarande klasser som nätverksutgång. För att konvertera godtyckliga tal till sannolikheter (t.ex. för att normalisera utgången) använder vi ofta **softmax** funktionen σ, och funktionen *f* blir *f(x)=σ(wx+b)*
+> Katika hali ya uainishaji, mara nyingi ni muhimu kupata uwezekano wa madarasa husika kama matokeo ya mtandao. Ili kubadilisha namba za kawaida kuwa uwezekano (mfano, kuhalalisha matokeo), mara nyingi tunatumia kazi ya **softmax** σ, na kazi *f* inakuwa *f(x)=σ(wx+b)*
 
-I definitionen av *f* ovan kallas *w* och *b* för **parametrar** θ=⟨*w,b*⟩. Givet datasetet ⟨**X**,**Y**⟩ kan vi beräkna ett totalt fel på hela datasetet som en funktion av parametrarna θ.
+Katika ufafanuzi wa *f* hapo juu, *w* na *b* huitwa **vigezo** θ=⟨*w,b*⟩. Kwa kuzingatia seti ya data ⟨**X**,**Y**⟩, tunaweza kuhesabu kosa la jumla kwenye seti nzima ya data kama kazi ya vigezo θ.
 
-> ✅ **Målet med träningen av det neurala nätverket är att minimera felet genom att variera parametrarna θ**
+> ✅ **Lengo la mafunzo ya mtandao wa neural ni kupunguza kosa kwa kubadilisha vigezo θ**
 
-## Gradientnedstigning Optimering
+## Uboreshaji wa Gradient Descent
 
-Det finns en välkänd metod för funktionsoptimering som kallas **gradientnedstigning**. Idén är att vi kan beräkna en derivata (i flerdimensionellt fall kallad **gradient**) av förlustfunktionen med avseende på parametrarna, och variera parametrarna på ett sätt så att felet minskar. Detta kan formaliseras som följer:
+Kuna mbinu inayojulikana ya uboreshaji wa kazi inayoitwa **gradient descent**. Wazo ni kwamba tunaweza kuhesabu derivative (katika hali ya vipimo vingi huitwa **gradient**) ya kazi ya hasara kwa kuzingatia vigezo, na kubadilisha vigezo kwa njia ambayo kosa litapungua. Hii inaweza kurasmishwa kama ifuatavyo:
 
-* Initiera parametrar med några slumpmässiga värden w<sup>(0)</sup>, b<sup>(0)</sup>
-* Upprepa följande steg många gånger:
-    - w<sup>(i+1)</sup> = w<sup>(i)</sup>-η∂ℒ/∂w
-    - b<sup>(i+1)</sup> = b<sup>(i)</sup>-η∂ℒ/∂b
+* Anzisha vigezo kwa thamani za nasibu w<sup>(0)</sup>, b<sup>(0)</sup>  
+* Rudia hatua ifuatayo mara nyingi:  
+    - w<sup>(i+1)</sup> = w<sup>(i)</sup>-η∂ℒ/∂w  
+    - b<sup>(i+1)</sup> = b<sup>(i)</sup>-η∂ℒ/∂b  
 
-Under träningen förväntas optimeringsstegen beräknas med hänsyn till hela datasetet (kom ihåg att förlusten beräknas som en summa över alla träningsprover). Men i verkligheten tar vi små portioner av datasetet som kallas **minibatcher**, och beräknar gradienter baserat på en delmängd av data. Eftersom delmängden tas slumpmässigt varje gång, kallas denna metod **stokastisk gradientnedstigning** (SGD).
+Wakati wa mafunzo, hatua za uboreshaji zinapaswa kuhesabiwa kwa kuzingatia seti nzima ya data (kumbuka kuwa hasara huhesabiwa kama jumla kupitia sampuli zote za mafunzo). Hata hivyo, katika maisha halisi tunachukua sehemu ndogo za seti ya data zinazoitwa **minibatches**, na kuhesabu gradients kwa kuzingatia subset ya data. Kwa sababu subset huchukuliwa kwa nasibu kila wakati, mbinu hii huitwa **stochastic gradient descent** (SGD).
 
-## Flerlagers Perceptron och Backpropagation
+## Multi-Layered Perceptrons na Backpropagation
 
-En enlags nätverk, som vi har sett ovan, kan klassificera linjärt separerbara klasser. För att bygga en rikare modell kan vi kombinera flera lager av nätverket. Matematiskt skulle det innebära att funktionen *f* skulle ha en mer komplex form och beräknas i flera steg:
-* z<sub>1</sub>=w<sub>1</sub>x+b<sub>1</sub>
-* z<sub>2</sub>=w<sub>2</sub>α(z<sub>1</sub>)+b<sub>2</sub>
-* f = σ(z<sub>2</sub>)
+Mtandao wa tabaka moja, kama tulivyoona hapo juu, unaweza kuainisha madarasa yanayoweza kutenganishwa kwa mstari. Ili kujenga mfano tajiri zaidi, tunaweza kuchanganya tabaka kadhaa za mtandao. Kihisabati, hii itamaanisha kuwa kazi *f* itakuwa na umbo tata zaidi, na itahesabiwa kwa hatua kadhaa:
+* z<sub>1</sub>=w<sub>1</sub>x+b<sub>1</sub>  
+* z<sub>2</sub>=w<sub>2</sub>α(z<sub>1</sub>)+b<sub>2</sub>  
+* f = σ(z<sub>2</sub>)  
 
-Här är α en **icke-linjär aktiveringsfunktion**, σ är en softmax-funktion, och parametrarna θ=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>* >.
+Hapa, α ni **kazi ya uanzishaji isiyo ya mstari**, σ ni kazi ya softmax, na vigezo θ=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>*>.
 
-Gradientnedstigningsalgoritmen skulle förbli densamma, men det skulle bli svårare att beräkna gradienter. Givet kedjederiveringsregeln kan vi beräkna derivator som:
+Algorithm ya gradient descent itabaki ile ile, lakini itakuwa ngumu zaidi kuhesabu gradients. Kwa kuzingatia kanuni ya mnyororo wa differentiation, tunaweza kuhesabu derivatives kama:
 
-* ∂ℒ/∂w<sub>2</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂w<sub>2</sub>)
-* ∂ℒ/∂w<sub>1</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂α)(∂α/∂z<sub>1</sub>)(∂z<sub>1</sub>/∂w<sub>1</sub>)
+* ∂ℒ/∂w<sub>2</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂w<sub>2</sub>)  
+* ∂ℒ/∂w<sub>1</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂α)(∂α/∂z<sub>1</sub>)(∂z<sub>1</sub>/∂w<sub>1</sub>)  
 
-> ✅ Kedjederiveringsregeln används för att beräkna derivator av förlustfunktionen med avseende på parametrar.
+> ✅ Kanuni ya mnyororo wa differentiation hutumika kuhesabu derivatives za kazi ya hasara kwa kuzingatia vigezo.
 
-Observera att den vänstra delen av alla dessa uttryck är densamma, och vi kan därför effektivt beräkna derivator som börjar från förlustfunktionen och går "bakåt" genom den beräkningsmässiga grafen. Därför kallas metoden för att träna en flerlagers perceptron för **backpropagation**, eller 'backprop'.
+Kumbuka kuwa sehemu ya kushoto kabisa ya maelezo haya yote ni sawa, na hivyo tunaweza kuhesabu derivatives kwa ufanisi kuanzia kazi ya hasara na kurudi "nyuma" kupitia grafu ya kihesabu. Hivyo mbinu ya kufundisha perceptron ya tabaka nyingi huitwa **backpropagation**, au 'backprop'.
 
-<img alt="beräkningsgraf" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
 
-> TODO: bildcitat
+> TODO: rejea ya picha
 
-> ✅ Vi kommer att täcka backprop i mycket mer detalj i vårt notebook-exempel.
+> ✅ Tutashughulikia backprop kwa undani zaidi katika mfano wetu wa daftari.  
 
-## Slutsats
+## Hitimisho
 
-I denna lektion har vi byggt vårt eget bibliotek för neurala nätverk, och vi har använt det för en enkel tvådimensionell klassificeringsuppgift.
+Katika somo hili, tumejenga maktaba yetu ya mtandao wa neural, na tumeitumia kwa kazi rahisi ya uainishaji wa vipimo viwili.
 
-## 🚀 Utmaning
+## 🚀 Changamoto
 
-I den medföljande notebooken kommer du att implementera ditt eget ramverk för att bygga och träna flerlagers perceptron. Du kommer att kunna se i detalj hur moderna neurala nätverk fungerar.
+Katika daftari linaloambatana, utatekeleza mfumo wako wa kujenga na kufundisha perceptrons za tabaka nyingi. Utaweza kuona kwa undani jinsi mitandao ya neural ya kisasa inavyofanya kazi.
 
-Gå till [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) notebooken och arbeta igenom den.
+Endelea kwenye [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) daftari na uifanyie kazi.
 
-## [Efter-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
 
-## Granskning & Självstudie
+## Mapitio na Kujisomea
 
-Backpropagation är en vanlig algoritm som används inom AI och ML, värd att studera [i mer detalj](https://wikipedia.org/wiki/Backpropagation)
+Backpropagation ni algorithm ya kawaida inayotumika katika AI na ML, inafaa kusomwa [kwa undani zaidi](https://wikipedia.org/wiki/Backpropagation)
 
-## [Uppgift](lab/README.md)
+## [Kazi ya Nyumbani](lab/README.md)
 
-I detta labb ombeds du att använda det ramverk du konstruerade i denna lektion för att lösa klassificeringen av handskrivna siffror från MNIST.
+Katika maabara hii, unatakiwa kutumia mfumo uliounda katika somo hili kutatua uainishaji wa namba za mkono wa MNIST.
 
-* [Instruktioner](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
+* [Maelekezo](lab/README.md)  
+* [Daftari](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)  
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

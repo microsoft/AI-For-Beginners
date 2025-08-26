@@ -1,16 +1,25 @@
-# Klassificering av Oxford-djur med Transfer Learning
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-25T20:57:37+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uainishaji wa Wanyama wa Oxford kwa Kutumia Kujifunza kwa Uhamisho
 
-Laborationsuppgift från [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Föreställ dig att du behöver utveckla en applikation för djurdagis för att katalogisera alla husdjur. En av de fantastiska funktionerna i en sådan applikation skulle vara att automatiskt upptäcka rasen från ett fotografi. I denna uppgift kommer vi att använda transfer learning för att klassificera verkliga djurbilder från datasetet [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+Fikiria unahitaji kuunda programu kwa ajili ya malezi ya wanyama ili kuorodhesha wanyama wote. Mojawapo ya vipengele bora vya programu kama hiyo itakuwa kugundua moja kwa moja aina ya mnyama kutoka kwenye picha. Katika kazi hii, tutatumia kujifunza kwa uhamisho kuainisha picha halisi za wanyama kutoka kwenye hifadhidata ya wanyama ya [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
-## Datasetet
+## Hifadhidata
 
-Vi kommer att använda det ursprungliga datasetet [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), som innehåller 35 olika raser av hundar och katter.
+Tutatumia hifadhidata ya awali ya [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), ambayo ina aina 35 tofauti za mbwa na paka.
 
-För att ladda ner datasetet, använd denna kodsnutt:
+Ili kupakua hifadhidata, tumia kipande hiki cha msimbo:
 
 ```python
 !wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
@@ -18,13 +27,13 @@ För att ladda ner datasetet, använd denna kodsnutt:
 !rm images.tar.gz
 ```
 
-## Starta Notebook
+## Kuanzisha Daftari
 
-Börja laborationen med att öppna [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
+Anza maabara kwa kufungua [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
 
-## Sammanfattning
+## Ujumbe wa Kujifunza
 
-Transfer learning och förtränade nätverk gör det möjligt för oss att lösa verkliga problem med bildklassificering relativt enkelt. Dock fungerar förtränade nätverk bra på bilder av liknande slag, och om vi börjar klassificera mycket olika bilder (t.ex. medicinska bilder) är det troligt att vi får mycket sämre resultat.
+Kujifunza kwa uhamisho na mitandao iliyokwisha kufundishwa hutuwezesha kutatua matatizo halisi ya uainishaji wa picha kwa urahisi. Hata hivyo, mitandao iliyokwisha kufundishwa hufanya kazi vizuri kwenye picha za aina zinazofanana, na tukianza kuainisha picha tofauti sana (mfano, picha za matibabu), kuna uwezekano mkubwa wa kupata matokeo mabaya zaidi.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

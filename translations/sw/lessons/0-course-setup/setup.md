@@ -1,45 +1,54 @@
-# Komma igång med denna läroplan
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "c4c545eb30765a49469ced84cfb4379f",
+  "translation_date": "2025-08-25T21:05:57+00:00",
+  "source_file": "lessons/0-course-setup/setup.md",
+  "language_code": "sw"
+}
+-->
+# Kuanza na Mtaala Huu
 
-## Är du student?
+## Je, wewe ni mwanafunzi?
 
-Börja med följande resurser:
+Anza na rasilimali zifuatazo:
 
-* [Student Hub-sidan](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) På denna sida hittar du nybörjarresurser, studentpaket och till och med sätt att få en gratis certifikatvoucher. Detta är en sida du vill bokmärka och kolla på då och då eftersom vi byter ut innehållet minst en gång i månaden.
-* [Microsoft Student Learn-ambassadörer](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Gå med i en global gemenskap av studentambassadörer, detta kan vara din väg in i Microsoft.
+* [Ukurasa wa Student Hub](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) Kwenye ukurasa huu, utapata rasilimali za wanaoanza, vifurushi vya wanafunzi, na hata njia za kupata vocha ya cheti bila malipo. Huu ni ukurasa wa muhimu kuweka alama na kuangalia mara kwa mara kwani tunabadilisha maudhui angalau kila mwezi.
+* [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Jiunge na jumuiya ya kimataifa ya mabalozi wa wanafunzi, hii inaweza kuwa njia yako ya kuingia Microsoft.
 
-**Studenter**, det finns flera sätt att använda läroplanen. Först och främst kan du bara läsa texten och titta på koden direkt på GitHub. Om du vill köra koden i någon av anteckningsböckerna - [läs våra instruktioner](./etc/how-to-run.md), och hitta mer råd om hur du gör det [i detta blogginlägg](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+**Wanafunzi**, kuna njia kadhaa za kutumia mtaala huu. Kwanza kabisa, unaweza kusoma maandishi na kuangalia moja kwa moja msimbo kwenye GitHub. Ikiwa unataka kuendesha msimbo katika mojawapo ya daftari - [soma maelekezo yetu](./etc/how-to-run.md), na pata ushauri zaidi wa jinsi ya kufanya hivyo [katika chapisho hili la blogu](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-> **Notera**: [Instruktioner om hur man kör koden i denna läroplan](/how-to-run.md)
+> **Note**: [Maelekezo ya jinsi ya kuendesha msimbo katika mtaala huu](./how-to-run.md)
 
-## Självstudier
+## Kujisomea
 
-Men om du vill ta kursen som ett självstudieprojekt, föreslår vi att du forklar hela repot till ditt eget GitHub-konto och slutför övningarna på egen hand eller med en grupp:
+Hata hivyo, ikiwa ungependa kuchukua kozi hii kama mradi wa kujisomea, tunapendekeza uige repo nzima kwenye akaunti yako ya GitHub na ukamilishe mazoezi peke yako au na kikundi:
 
-* Börja med ett quiz före föreläsningen.
-* Läs introduktionstexten för föreläsningen.
-* Om föreläsningen har ytterligare anteckningsböcker, gå igenom dem, läs och kör koden. Om både TensorFlow- och PyTorch-anteckningsböcker tillhandahålls, kan du fokusera på en av dem - välj ditt favoritramverk.
-* Anteckningsböcker innehåller ofta några av de utmaningar som kräver att du justerar koden lite för att experimentera.
-* Ta quizet efter föreläsningen.
-* Om det finns ett laboratorium kopplat till modulen - slutför uppgiften.
-* Besök [Diskussionsforumet](https://github.com/microsoft/AI-For-Beginners/discussions) för att "lära ut högt".
+* Anza na jaribio la awali la somo.
+* Soma maandishi ya utangulizi ya somo.
+* Ikiwa somo lina daftari za ziada, pitia, ukisoma na kuendesha msimbo. Ikiwa daftari za TensorFlow na PyTorch zimetolewa, unaweza kuzingatia moja yao - chagua mfumo unaoupenda.
+* Daftari mara nyingi zina changamoto zinazokuhitaji kurekebisha msimbo kidogo ili kujaribu.
+* Fanya jaribio la baada ya somo.
+* Ikiwa kuna maabara iliyounganishwa na moduli - kamilisha kazi hiyo.
+* Tembelea [Bodi ya Majadiliano](https://github.com/microsoft/AI-For-Beginners/discussions) ili "kujifunza kwa sauti".
 
-> För vidare studier rekommenderar vi att följa dessa [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) moduler och lärstigar.
+> Kwa masomo zaidi, tunapendekeza kufuata [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) moduli na njia za kujifunza.
 
-**Lärare**, vi har [inkluderat några förslag](/for-teachers.md) på hur man använder denna läroplan.
+**Walimu**, tumetoa [mapendekezo kadhaa](/for-teachers.md) ya jinsi ya kutumia mtaala huu.
 
 ---
 
-## Pedagogik
+## Pedagogia
 
-Vi har valt två pedagogiska principer när vi byggde denna läroplan: att säkerställa att den är praktisk **projektbaserad** och att den inkluderar **frekventa quiz**.
+Tumechagua kanuni mbili za kielimu wakati wa kuunda mtaala huu: kuhakikisha kuwa ni wa vitendo **unaotegemea miradi** na kwamba unajumuisha **maswali ya mara kwa mara**.
 
-Genom att säkerställa att innehållet är kopplat till projekt, görs processen mer engagerande för studenterna och retentionen av koncept kommer att öka. Dessutom sätter ett lågriskquiz före en lektion intentionen för studenten att lära sig ett ämne, medan ett andra quiz efter lektionen säkerställer ytterligare retention. Denna läroplan är utformad för att vara flexibel och rolig och kan tas helt eller delvis. Projekten börjar små och blir alltmer komplexa i slutet av den 12 veckor långa cykeln.
+Kwa kuhakikisha kuwa maudhui yanalingana na miradi, mchakato unakuwa wa kuvutia zaidi kwa wanafunzi na uhifadhi wa dhana utaongezeka. Aidha, jaribio la hatari ndogo kabla ya darasa huweka nia ya mwanafunzi kuelekea kujifunza mada, wakati jaribio la pili baada ya darasa linahakikisha uhifadhi zaidi. Mtaala huu uliundwa kuwa rahisi na wa kufurahisha na unaweza kuchukuliwa kwa ukamilifu au kwa sehemu. Miradi huanza kwa urahisi na kuwa ngumu zaidi mwishoni mwa mzunguko wa wiki 12.
 
-> **En notering om quiz**: Alla quiz finns [i denna app](https://red-field-0a6ddfd03.1.azurestaticapps.net/), med totalt 50 quiz av tre frågor vardera. De är länkade från lektionerna, men quiz-appen kan köras lokalt; följ instruktionerna i `etc/quiz-app`-mappen.
+> **Maelezo kuhusu maswali**: Maswali yote yamejumuishwa [katika programu hii](https://red-field-0a6ddfd03.1.azurestaticapps.net/), kwa jumla ya maswali 50 ya maswali matatu kila moja. Yameunganishwa kutoka ndani ya masomo lakini programu ya maswali inaweza kuendeshwa ndani ya nchi; fuata maelekezo katika folda ya `etc/quiz-app`.
 
-## Offline-åtkomst
+## Ufikiaji wa Nje ya Mtandao
 
-Du kan köra denna dokumentation offline genom att använda [Docsify](https://docsify.js.org/#/). Forka detta repo, [installera Docsify](https://docsify.js.org/#/quickstart) på din lokala maskin, och skriv sedan `docsify serve` i `etc/docsify`-mappen i detta repo. Webbplatsen kommer att serveras på port 3000 på din localhost: `localhost:3000`. En pdf av läroplanen finns tillgänglig [på denna länk](../../../../../../etc/pdf/readme.pdf).
+Unaweza kuendesha nyaraka hizi nje ya mtandao kwa kutumia [Docsify](https://docsify.js.org/#/). Ige repo hii, [sakinisha Docsify](https://docsify.js.org/#/quickstart) kwenye mashine yako ya ndani, kisha kwenye folda kuu ya repo hii, andika `docsify serve`. Tovuti itahudumiwa kwenye bandari 3000 kwenye localhost yako: `localhost:3000`. Pdf ya mtaala inapatikana [katika kiungo hiki](../../../../../../../../../etc/pdf/readme.pdf).
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiserade översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

@@ -1,22 +1,31 @@
-# Segmentering av den mänskliga kroppen
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
+  "translation_date": "2025-08-25T20:53:51+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Usegaji wa Mwili wa Binadamu
 
-Laborationsuppgift från [AI för nybörjare-kursen](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Vid videoproduktion, till exempel i väderprognoser, behöver vi ofta klippa ut en mänsklig bild från kameran och placera den ovanpå annat material. Detta görs vanligtvis med hjälp av **chroma key**-tekniker, där en människa filmas framför en enhetlig färgbakgrund som sedan tas bort. I denna laboration kommer vi att träna en neuralt nätverksmodell för att klippa ut människans silhuett.
+Katika uzalishaji wa video, kwa mfano, katika utabiri wa hali ya hewa, mara nyingi tunahitaji kukata picha ya binadamu kutoka kwa kamera na kuiweka juu ya video nyingine. Hii kwa kawaida hufanyika kwa kutumia mbinu za **chroma key**, ambapo binadamu anarekodiwa mbele ya mandhari yenye rangi moja, ambayo kisha huondolewa. Katika maabara hii, tutafundisha mtandao wa neva ili kukata umbo la binadamu.
 
-## Datasetet
+## Seti ya Data
 
-Vi kommer att använda [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) från Kaggle. Ladda ner datasetet manuellt från Kaggle.
+Tutatumia [Seti ya Data ya Usegaji Mwili Kamili wa MADS](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) kutoka Kaggle. Pakua seti ya data kwa mkono kutoka Kaggle.
 
-## Starta anteckningsboken
+## Daftari la Kuanza
 
-Börja laborationen genom att öppna [BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb)
+Anza maabara kwa kufungua [BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb)
 
-## Sammanfattning
+## Mambo ya Kujifunza
 
-Segmentering av kroppen är bara en av de vanliga uppgifterna som vi kan utföra med bilder på människor. Andra viktiga uppgifter inkluderar **skelettdetektering** och **ställningsdetektering**. Kolla in [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) biblioteket för att se hur dessa uppgifter kan implementeras.
+Usegaji wa mwili ni mojawapo ya kazi za kawaida tunazoweza kufanya na picha za watu. Kazi nyingine muhimu ni pamoja na **utambuzi wa mifupa** na **utambuzi wa mkao**. Angalia maktaba ya [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) ili kuona jinsi kazi hizo zinaweza kutekelezwa.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi tar inget ansvar för missförstånd eller felaktiga tolkningar som kan uppstå genom användning av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

@@ -1,19 +1,28 @@
-# Klassificering med PyTorch/TensorFlow
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-25T21:01:18+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uainishaji kwa kutumia PyTorch/TensorFlow
 
-Laborationsuppgift från [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Lös två klassificeringsproblem med hjälp av enkla och flerlagers fullt kopplade nätverk med PyTorch eller TensorFlow:
+Tatua matatizo mawili ya uainishaji kwa kutumia mitandao ya tabaka moja na tabaka nyingi iliyo na muunganisho kamili kwa kutumia PyTorch au TensorFlow:
 
-1. **[Iris klassificering](https://en.wikipedia.org/wiki/Iris_flower_data_set)** problem - ett exempel på ett problem med tabulär indata, som kan hanteras av klassisk maskininlärning. Ditt mål är att klassificera irisar i 3 klasser, baserat på 4 numeriska parametrar.
-2. **MNIST** klassificering av handskrivna siffror som vi har sett tidigare.
+1. **[Tatizo la uainishaji wa Iris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - mfano wa tatizo lenye data ya tabular kama pembejeo, ambalo linaweza kushughulikiwa na ujifunzaji wa mashine wa kawaida. Lengo lako litakuwa kuainisha maua ya iris katika madarasa 3, kulingana na vigezo 4 vya namba.
+1. Tatizo la uainishaji wa namba zilizoandikwa kwa mkono la **MNIST** ambalo tumeliona hapo awali.
 
-Försök med olika nätverksarkitekturer för att uppnå den bästa noggrannheten du kan få.
+Jaribu usanifu tofauti wa mitandao ili kufanikisha usahihi bora zaidi unavyoweza.
 
-## Starta Anteckningsbok
+## Daftari la Kuanza
 
-Börja laborationen genom att öppna [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+Anza maabara kwa kufungua [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiserade översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

@@ -1,14 +1,23 @@
-# Träning av Skip-Gram Modell
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
+  "translation_date": "2025-08-25T20:51:28+00:00",
+  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Kufundisha Mfano wa Skip-Gram
 
-Laborationsuppgift från [AI för Nybörjare Läroplan](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-I den här laborationen utmanar vi dig att träna en Word2Vec-modell med hjälp av Skip-Gram-tekniken. Träna ett nätverk med inbäddningar för att förutsäga närliggande ord i ett $N$-tokens-bred Skip-Gram-fönster. Du kan använda [koden från den här lektionen](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) och göra några små ändringar.
+Katika maabara hii, tunakupa changamoto ya kufundisha mfano wa Word2Vec kwa kutumia mbinu ya Skip-Gram. Fundisha mtandao wenye embedding ili kutabiri maneno jirani katika dirisha la Skip-Gram lenye upana wa $N$-tokens. Unaweza kutumia [msimbo kutoka somo hili](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb), na kuubadilisha kidogo.
 
-## Datasetet
+## Seti ya Takwimu
 
-Du är välkommen att använda vilken bok som helst. Du kan hitta många gratis texter på [Project Gutenberg](https://www.gutenberg.org/), till exempel här är en direktlänk till [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt) av Lewis Carroll. Eller så kan du använda Shakespeares pjäser, som du kan få med följande kod:
+Unakaribishwa kutumia kitabu chochote. Unaweza kupata maandishi mengi ya bure kwenye [Project Gutenberg](https://www.gutenberg.org/), kwa mfano, hapa kuna kiungo cha moja kwa moja cha [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt)) kilichoandikwa na Lewis Carroll. Au, unaweza kutumia michezo ya Shakespeare, ambayo unaweza kupata kwa kutumia msimbo ufuatao:
 
 ```python
 path_to_file = tf.keras.utils.get_file(
@@ -17,13 +26,13 @@ path_to_file = tf.keras.utils.get_file(
 text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 ```
 
-## Utforska!
+## Chunguza!
 
-Om du har tid och vill fördjupa dig i ämnet, försök att utforska flera saker:
+Ikiwa una muda na unataka kuingia kwa undani zaidi kwenye mada hii, jaribu kuchunguza mambo kadhaa:
 
-* Hur påverkar storleken på inbäddningen resultaten?
-* Hur påverkar olika textstilar resultatet?
-* Ta flera mycket olika typer av ord och deras synonymer, erhåll deras vektorrepresentationer, tillämpa PCA för att reducera dimensionerna till 2 och plotta dem i 2D-utrymme. Ser du några mönster?
+* Je, ukubwa wa embedding unaathirije matokeo?
+* Je, mitindo tofauti ya maandishi inaathirije matokeo?
+* Chukua aina kadhaa tofauti za maneno na visawe vyake, pata uwakilishi wa vekta zao, tumia PCA kupunguza vipimo hadi 2, na uchore kwenye nafasi ya 2D. Je, unaona mifumo yoyote?
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
