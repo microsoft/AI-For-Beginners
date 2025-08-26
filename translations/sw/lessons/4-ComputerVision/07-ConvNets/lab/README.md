@@ -1,20 +1,29 @@
-# Klassificering av Husdjurs Ansikten
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
+  "translation_date": "2025-08-25T20:55:46+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uainishaji wa Nyuso za Wanyama wa Kipenzi
 
-Laborationsuppgift från [AI för Nybörjare Läroplan](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Tänk dig att du behöver utveckla en applikation för en djurförskola för att katalogisera alla husdjur. En av de fantastiska funktionerna i en sådan applikation skulle vara att automatiskt upptäcka rasen från ett fotografi. Detta kan framgångsrikt göras med hjälp av neurala nätverk.
+Fikiria unahitaji kuunda programu kwa ajili ya kitalu cha wanyama wa kipenzi ili kuorodhesha wanyama wote. Moja ya vipengele bora vya programu kama hiyo itakuwa kugundua moja kwa moja aina ya mnyama kutoka kwenye picha. Hili linaweza kufanikiwa kwa kutumia mitandao ya neva.
 
-Du behöver träna ett konvolutionellt neuralt nätverk för att klassificera olika raser av katter och hundar med hjälp av **Pet Faces** datasetet.
+Unahitaji kufundisha mtandao wa neva wa convolutional ili kuainisha aina tofauti za paka na mbwa kwa kutumia seti ya data ya **Pet Faces**.
 
-## Datasetet
+## Seti ya Data
 
-Vi kommer att använda **Pet Faces** datasetet, som härstammar från [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) husdjursdatasetet. Det innehåller 35 olika raser av hundar och katter.
+Tutatumia seti ya data ya **Pet Faces**, inayotokana na seti ya data ya wanyama wa kipenzi ya [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/). Inayo aina 35 tofauti za mbwa na paka.
 
-![Datasetet vi kommer att hantera](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.sw.png)
+![Seti ya data tutakayoshughulikia](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.sw.png)
 
-För att ladda ner datasetet, använd denna kodsnutt:
+Ili kupakua seti ya data, tumia kipande hiki cha msimbo:
 
 ```python
 !wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
@@ -22,13 +31,13 @@ För att ladda ner datasetet, använd denna kodsnutt:
 !rm petfaces.tar.gz
 ```
 
-## Starta Anteckningsbok
+## Kuanzisha Daftari
 
-Börja laborationen med att öppna [PetFaces.ipynb](../../../../../../lessons/4-ComputerVision/07-ConvNets/lab/PetFaces.ipynb)
+Anza maabara kwa kufungua [PetFaces.ipynb](../../../../../../lessons/4-ComputerVision/07-ConvNets/lab/PetFaces.ipynb)
 
-## Sammanfattning
+## Jambo la Kujifunza
 
-Du har löst ett relativt komplext problem med bildklassificering från grunden! Det fanns ganska många klasser, och du lyckades fortfarande få en rimlig noggrannhet! Det är också meningsfullt att mäta top-k noggrannhet, eftersom det är lätt att förväxla vissa av klasserna som inte är tydligt olika ens för människor.
+Umesuluhisha tatizo changamani la uainishaji wa picha kutoka mwanzo! Kulikuwa na madarasa mengi, na bado uliweza kupata usahihi wa kuridhisha! Pia inafaa kupima usahihi wa top-k, kwa sababu ni rahisi kuchanganya baadhi ya madarasa ambayo hata kwa wanadamu si rahisi kuyatofautisha wazi.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

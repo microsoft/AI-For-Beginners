@@ -1,23 +1,32 @@
-# MNIST Klassificering med Vårt Eget Ramverk
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-25T21:00:40+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uainishaji wa MNIST kwa Mfumo Wetu
 
-Laborationsuppgift från [AI för Nybörjare Läroplan](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Lös problemet med klassificering av handskrivna siffror i MNIST med hjälp av 1-, 2- och 3-lagerade perceptron. Använd det neurala nätverksramverk vi har utvecklat under lektionen.
+Tatua tatizo la uainishaji wa namba zilizoandikwa kwa mkono za MNIST kwa kutumia perceptron ya tabaka 1, 2, na 3. Tumia mfumo wa mtandao wa neva ambao tumeunda katika somo.
 
-## Starta Anteckningsbok
+## Daftari la Kuanza
 
-Börja laborationen genom att öppna [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
+Anza maabara kwa kufungua [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
 
-## Frågor
+## Maswali
 
-Som ett resultat av denna laboration, försök att besvara följande frågor:
+Kama matokeo ya maabara hii, jaribu kujibu maswali yafuatayo:
 
-- Påverkar aktiveringsfunktionen mellan lagren nätverkets prestanda?
-- Behöver vi ett 2- eller 3-lagerat nätverk för denna uppgift?
-- Upplevde du några problem med att träna nätverket? Särskilt när antalet lager ökade.
-- Hur beter sig vikterna i nätverket under träningen? Du kan rita max abs-värde av vikterna mot epok för att förstå relationen.
+- Je, kazi ya uanzishaji kati ya tabaka inaathiri utendaji wa mtandao?
+- Je, tunahitaji mtandao wa tabaka 2 au 3 kwa kazi hii?
+- Je, ulipata changamoto zozote wakati wa kufundisha mtandao? Hasa idadi ya tabaka ilipoongezeka.
+- Je, uzito wa mtandao unabadilika vipi wakati wa mafunzo? Unaweza kuchora thamani ya juu kabisa ya uzito dhidi ya enzi ili kuelewa uhusiano.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

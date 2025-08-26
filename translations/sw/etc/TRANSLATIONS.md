@@ -1,36 +1,45 @@
-# Bidra genom att översätta lektioner
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
+  "translation_date": "2025-08-25T21:06:24+00:00",
+  "source_file": "etc/TRANSLATIONS.md",
+  "language_code": "sw"
+}
+-->
+# Changia kwa kutafsiri masomo
 
-Vi välkomnar översättningar för lektionerna i denna läroplan!
+Tunakaribisha tafsiri za masomo katika mtaala huu!
 
-## Riktlinjer
+## Miongozo
 
-Det finns mappar i varje lektionsmapp och mapp för lektionsintroduktion som innehåller de översatta markdown-filerna.
+Kuna folda katika kila folda ya somo na folda ya utangulizi wa somo ambazo zina faili za markdown zilizotafsiriwa.
 
-> Observera, vänligen översätt inte någon kod i kodexempelfilerna; det enda som ska översättas är README, uppgifter och quiz. Tack!
+> Kumbuka, tafadhali usitafsiri msimbo wowote katika faili za sampuli za msimbo; vitu pekee vya kutafsiri ni README, kazi, na maswali ya majaribio. Asante!
 
-Översatta filer bör följa denna namngivningskonvention:
+Faili zilizotafsiriwa zinapaswa kufuata muundo huu wa majina:
 
-**README._[språk]_.md**
+**README._[language]_.md**
 
-där _[språk]_ är en tvåbokstavsförkortning för språket enligt ISO 639-1-standarden (t.ex. `README.es.md` för spanska och `README.nl.md` för nederländska).
+ambapo _[language]_ ni kifupi cha herufi mbili cha lugha kinachofuata kiwango cha ISO 639-1 (mfano `README.es.md` kwa Kihispania na `README.nl.md` kwa Kiholanzi).
 
-**assignment._[språk]_.md**
+**assignment._[language]_.md**
 
-Liksom för Readme, vänligen översätt även uppgifterna.
+Sawa na README, tafadhali tafsiri pia kazi.
 
-**Quiz**
+**Maswali ya Majaribio**
 
-1. Lägg till din översättning till quiz-appen genom att lägga till en fil här: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, med korrekt namngivningskonvention (en.json, fr.json). **Vänligen lokalisera inte orden 'true' eller 'false' dock. Tack!**
+1. Ongeza tafsiri yako kwenye programu ya maswali ya majaribio kwa kuongeza faili hapa: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, kwa kufuata muundo sahihi wa majina (en.json, fr.json). **Tafadhali usibadilisha maneno 'true' au 'false' hata hivyo. Asante!**
 
-2. Lägg till din språkkod i rullgardinsmenyn i quiz-appens App.vue-fil.
+2. Ongeza msimbo wa lugha yako kwenye menyu kunjuzi katika faili ya App.vue ya programu ya maswali ya majaribio.
 
-3. Redigera quiz-appens [translations index.js-fil](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) för att lägga till ditt språk.
+3. Hariri [faili ya index.js ya tafsiri za programu ya maswali ya majaribio](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) ili kuongeza lugha yako.
 
-4. Slutligen, redigera ALLA quiz-länkar i dina översatta README.md-filer så att de pekar direkt på ditt översatta quiz: https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 blir https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
+4. Hatimaye, hariri VIUNGO VYOTE vya maswali ya majaribio katika faili zako za README.md zilizotafsiriwa ili kuelekeza moja kwa moja kwenye jaribio lako lililotafsiriwa: https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 inakuwa https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
 
-**TACK**
+**ASANTE**
 
-Vi uppskattar verkligen dina insatser!
+Tunathamini sana juhudi zako!
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

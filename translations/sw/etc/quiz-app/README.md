@@ -1,96 +1,106 @@
-# Quizzes
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
+  "translation_date": "2025-08-25T21:07:07+00:00",
+  "source_file": "etc/quiz-app/README.md",
+  "language_code": "sw"
+}
+-->
+# Maswali ya Mitihani
 
-Dessa quizzar är för- och efterföljande quizzar för AI-läroplanen på https://aka.ms/ai-beginners
+Maswali haya ni ya kabla na baada ya mihadhara kwa mtaala wa AI unaopatikana kwenye https://aka.ms/ai-beginners
 
-## Lägga till en översatt quizuppsättning
+## Kuongeza seti ya maswali iliyotafsiriwa
 
-Lägg till en quizöversättning genom att skapa matchande quizstrukturer i `assets/translations` mapparna. De kanoniska quizzarna finns i `assets/translations/en`. Quizzarna är uppdelade i flera grupper efter lektion. Se till att numreringen stämmer överens med den rätta quizsektionen. Det finns totalt 40 quizzar i denna läroplan, med räkningen som börjar på 0.
+Ongeza tafsiri ya maswali kwa kuunda miundo inayolingana ya maswali katika folda za `assets/translations`. Maswali ya msingi yapo kwenye `assets/translations/en`. Maswali yamegawanywa katika makundi kadhaa kulingana na somo. Hakikisha unalinganisha namba na sehemu sahihi ya maswali. Kuna jumla ya maswali 40 katika mtaala huu, na hesabu inaanzia 0.
 
-Efter att ha redigerat översättningarna, redigera index.js-filen i översättningsmappen för att importera alla filer enligt konventionerna i `en`.
+Baada ya kuhariri tafsiri, hariri faili ya `index.js` katika folda ya tafsiri ili kuingiza faili zote ukifuata kanuni za `en`.
 
-Redigera `index.js`-filen i `assets/translations` för att importera de nya översatta filerna.
+Hariri faili ya `index.js` katika `assets/translations` ili kuingiza faili mpya zilizotafsiriwa.
 
-Därefter, redigera rullgardinsmenyn i `App.vue` i denna app för att lägga till ditt språk. Matcha den lokaliserade förkortningen med mappnamnet för ditt språk.
+Kisha, hariri menyu kunjuzi katika `App.vue` kwenye programu hii ili kuongeza lugha yako. Linganisha kifupi cha lugha kilichotafsiriwa na jina la folda ya lugha yako.
 
-Slutligen, redigera alla quizlänkar i de översatta lektionerna, om de finns, för att inkludera denna lokalisering som en frågeparameter: `?loc=fr` till exempel.
+Mwishowe, hariri viungo vyote vya maswali katika masomo yaliyotafsiriwa, ikiwa yapo, ili kujumuisha utafsiri huu kama kigezo cha swali: `?loc=fr` kwa mfano.
 
-## Projektuppsättning
+## Usanidi wa Mradi
 
 ```
 npm install
 ```
 
-### Kompilerar och hot-reloader för utveckling
+### Inakamilisha na kupakia tena kwa maendeleo
 
 ```
 npm run serve
 ```
 
-### Kompilerar och minifierar för produktion
+### Inakamilisha na kupunguza kwa uzalishaji
 
 ```
 npm run build
 ```
 
-### Lintar och fixar filer
+### Inakagua na kurekebisha faili
 
 ```
 npm run lint
 ```
 
-### Anpassa konfiguration
+### Kubadilisha usanidi
 
-Se [Konfigurationsreferens](https://cli.vuejs.org/config/).
+Tazama [Marejeleo ya Usanidi](https://cli.vuejs.org/config/).
 
-Krediter: Tack till den ursprungliga versionen av denna quizapp: https://github.com/arpan45/simple-quiz-vue
+Shukrani: Asante kwa toleo la awali la programu hii ya maswali: https://github.com/arpan45/simple-quiz-vue
 
-## Distribuera till Azure
+## Kuweka kwenye Azure
 
-Här är en steg-för-steg-guide för att hjälpa dig komma igång:
+Hapa kuna mwongozo wa hatua kwa hatua wa kukusaidia kuanza:
 
-1. Forka ett GitHub-repo
-Se till att din statiska webbapps kod finns i ditt GitHub-repo. Forka detta repo.
+1. Nakili Hifadhi ya GitHub  
+Hakikisha msimbo wa programu yako ya wavuti tuli uko kwenye hifadhi yako ya GitHub. Nakili hifadhi hii.
 
-2. Skapa en Azure Static Web App
-- Skapa ett [Azure-konto](http://azure.microsoft.com)
-- Gå till [Azure-portalen](https://portal.azure.com) 
-- Klicka på "Skapa en resurs" och sök efter "Static Web App".
-- Klicka på "Skapa".
+2. Unda Azure Static Web App  
+- Unda [akaunti ya Azure](http://azure.microsoft.com)  
+- Nenda kwenye [Azure portal](https://portal.azure.com)  
+- Bonyeza “Create a resource” na utafute “Static Web App”.  
+- Bonyeza “Create”.  
 
-3. Konfigurera den statiska webbappen
-- Grundläggande: Prenumeration: Välj din Azure-prenumeration.
-- Resursgrupp: Skapa en ny resursgrupp eller använd en befintlig.
-- Namn: Ange ett namn för din statiska webbapp.
-- Region: Välj den region som ligger närmast dina användare.
+3. Sanidi Azure Static Web App  
+- Msingi:  
+  - Usajili: Chagua usajili wako wa Azure.  
+  - Kikundi cha Rasilimali: Unda kikundi kipya cha rasilimali au tumia kilichopo.  
+  - Jina: Toa jina kwa programu yako ya wavuti tuli.  
+  - Eneo: Chagua eneo lililo karibu zaidi na watumiaji wako.  
 
-- #### Distribueringsdetaljer:
-- Källa: Välj "GitHub".
-- GitHub-konto: Auktorisera Azure att få tillgång till ditt GitHub-konto.
-- Organisation: Välj din GitHub-organisation.
-- Repository: Välj det repo som innehåller din statiska webbapp.
-- Gren: Välj den gren du vill distribuera från.
+- #### Maelezo ya Uwekaji:  
+  - Chanzo: Chagua “GitHub”.  
+  - Akaunti ya GitHub: Ruhusu Azure kufikia akaunti yako ya GitHub.  
+  - Shirika: Chagua shirika lako la GitHub.  
+  - Hifadhi: Chagua hifadhi yenye msimbo wa programu yako ya wavuti tuli.  
+  - Tawi: Chagua tawi unalotaka kuweka kutoka.  
 
-- #### Byggdetaljer:
-- Byggförinställningar: Välj det ramverk din app är byggd med (t.ex. React, Angular, Vue, etc.).
-- App-läge: Specificera mappen som innehåller din appkod (t.ex. / om den ligger i roten).
-- API-läge: Om du har ett API, specificera dess plats (valfritt).
-- Utmatningsläge: Specificera mappen där byggutmatningen genereras (t.ex. build eller dist).
+- #### Maelezo ya Ujenzi:  
+  - Vigezo vya Ujenzi: Chagua mfumo ambao programu yako imejengwa nao (mfano, React, Angular, Vue, n.k.).  
+  - Eneo la Programu: Eleza folda yenye msimbo wa programu yako (mfano, / ikiwa iko kwenye mzizi).  
+  - Eneo la API: Ikiwa una API, eleza eneo lake (hiari).  
+  - Eneo la Matokeo: Eleza folda ambapo matokeo ya ujenzi yanazalishwa (mfano, build au dist).  
 
-4. Granska och skapa
-Granska dina inställningar och klicka på "Skapa". Azure kommer att ställa in de nödvändiga resurserna och skapa en GitHub Actions-arbetsflöde i ditt repo.
+4. Kagua na Unda  
+Kagua mipangilio yako na bonyeza “Create”. Azure itaweka rasilimali zinazohitajika na kuunda faili ya GitHub Actions katika hifadhi yako.  
 
-5. GitHub Actions-arbetsflöde
-Azure kommer automatiskt att skapa en GitHub Actions-arbetsflödesfil i ditt repo (.github/workflows/azure-static-web-apps-<name>.yml). Detta arbetsflöde kommer att hantera bygg- och distributionsprocessen.
+5. Faili ya GitHub Actions Workflow  
+Azure itaunda moja kwa moja faili ya GitHub Actions workflow katika hifadhi yako (.github/workflows/azure-static-web-apps-<name>.yml). Faili hii itashughulikia mchakato wa ujenzi na uwekaji.  
 
-6. Övervaka distributionen
-Gå till fliken "Actions" i ditt GitHub-repo.
-Du bör se ett arbetsflöde som körs. Detta arbetsflöde kommer att bygga och distribuera din statiska webbapp till Azure.
-När arbetsflödet är klart kommer din app att vara live på den angivna Azure-URL:en.
+6. Fuata Uwekaji  
+Nenda kwenye kichupo cha “Actions” katika hifadhi yako ya GitHub.  
+Unapaswa kuona mchakato wa workflow ukiendelea. Mchakato huu utajenga na kuweka programu yako ya wavuti tuli kwenye Azure.  
+Baada ya workflow kukamilika, programu yako itakuwa hewani kwenye URL iliyotolewa na Azure.  
 
-### Exempel på arbetsflödesfil
+### Mfano wa Faili ya Workflow  
 
-Här är ett exempel på hur GitHub Actions-arbetsflödesfilen kan se ut:
-name: Azure Static Web Apps CI/CD
+Hapa kuna mfano wa jinsi faili ya GitHub Actions workflow inaweza kuonekana:  
+name: Azure Static Web Apps CI/CD  
 ```
 on:
   push:
@@ -119,9 +129,9 @@ jobs:
           output_location: "dist" #Built app content directory - optional
 ```
 
-### Ytterligare resurser
-- [Dokumentation för Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/getting-started)
-- [Dokumentation för GitHub Actions](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)
+### Rasilimali za Ziada  
+- [Nyaraka za Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/getting-started)  
+- [Nyaraka za GitHub Actions](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)  
 
-**Varning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

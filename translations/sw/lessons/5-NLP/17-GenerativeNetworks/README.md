@@ -1,79 +1,88 @@
-# Generativa nätverk
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d9de7847385eeeda67cfdcce1640ab72",
+  "translation_date": "2025-08-25T20:50:07+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
+  "language_code": "sw"
+}
+-->
+# Mitandao ya Kizazi
 
-## [Förläsningsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
 
-Återkommande neurala nätverk (RNNs) och deras varianter med gated celler, såsom Long Short Term Memory Cells (LSTMs) och Gated Recurrent Units (GRUs), erbjuder en mekanism för språkmodellering genom att de kan lära sig ordningsföljd och ge förutsägelser för nästa ord i en sekvens. Detta gör att vi kan använda RNNs för **generativa uppgifter**, som vanlig textgenerering, maskinöversättning och till och med bildbeskrivning.
+Mitandao ya Neural Inayojirudia (RNNs) na aina zake kama vile Long Short Term Memory Cells (LSTMs) na Gated Recurrent Units (GRUs) zilitoa njia ya kuunda mifano ya lugha kwa kuwa zinaweza kujifunza mpangilio wa maneno na kutoa utabiri wa neno linalofuata katika mfuatano. Hii inatuwezesha kutumia RNNs kwa **kazi za kizazi**, kama vile utengenezaji wa maandishi ya kawaida, tafsiri ya mashine, na hata uundaji wa maelezo ya picha.
 
-> ✅ Tänk på alla gånger du har haft nytta av generativa uppgifter som textkomplettering medan du skriver. Gör lite forskning om dina favoritapplikationer för att se om de utnyttjar RNNs.
+> ✅ Fikiria mara zote ulivyonufaika na kazi za kizazi kama vile kukamilisha maandishi unapoandika. Fanya utafiti kuhusu programu unazozipenda ili kuona kama zilitumia RNNs.
 
-I RNN-arkitekturen vi diskuterade i den föregående enheten, producerade varje RNN-enhet nästa dolda tillstånd som en utdata. Vi kan dock också lägga till en annan utdata till varje återkommande enhet, vilket skulle tillåta oss att producera en **sekvens** (som är lika lång som den ursprungliga sekvensen). Dessutom kan vi använda RNN-enheter som inte tar emot en ingång vid varje steg, utan istället tar en initial tillståndsvektor och sedan producerar en sekvens av utdata.
+Katika usanifu wa RNN tuliojadili katika kitengo kilichopita, kila kitengo cha RNN kilizalisha hali fiche inayofuata kama matokeo. Hata hivyo, tunaweza pia kuongeza matokeo mengine kwa kila kitengo kinachojirudia, ambacho kingeturuhusu kutoa **mfuatano** (ambao ni sawa kwa urefu na mfuatano wa awali). Zaidi ya hayo, tunaweza kutumia vitengo vya RNN ambavyo havipokei pembejeo katika kila hatua, na badala yake huchukua vigezo vya hali ya awali, na kisha kuzalisha mfuatano wa matokeo.
 
-Detta möjliggör olika neurala arkitekturer som visas i bilden nedan:
+Hii inaruhusu usanifu tofauti wa neural unaoonyeshwa kwenye picha hapa chini:
 
-![Bild som visar vanliga mönster av återkommande neurala nätverk.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sw.jpg)
+![Picha inayoonyesha mifumo ya kawaida ya mitandao ya neural inayojirudia.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sw.jpg)
 
-> Bild från blogginlägget [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) av [Andrej Karpaty](http://karpathy.github.io/)
+> Picha kutoka kwa chapisho la blogu [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) na [Andrej Karpaty](http://karpathy.github.io/)
 
-* **En-till-en** är ett traditionellt neuralt nätverk med en ingång och en utgång
-* **En-till-många** är en generativ arkitektur som accepterar ett ingångsvärde och genererar en sekvens av utgångsvärden. Till exempel, om vi vill träna ett **bildbeskrivnings** nätverk som skulle producera en textuell beskrivning av en bild, kan vi använda en bild som ingång, skicka den genom en CNN för att få dess dolda tillstånd, och sedan låta en återkommande kedja generera beskrivningen ord för ord
-* **Många-till-en** motsvarar de RNN-arkitekturer vi beskrev i den föregående enheten, såsom textklassificering
-* **Många-till-många**, eller **sekvens-till-sekvens** motsvarar uppgifter som **maskinöversättning**, där vi först har en RNN som samlar all information från ingångssekvensen till det dolda tillståndet, och en annan RNN-kedja utvecklar detta tillstånd till utgångssekvensen.
+* **Moja-kwa-moja** ni mtandao wa neural wa jadi wenye pembejeo moja na matokeo moja.
+* **Moja-kwa-nyingi** ni usanifu wa kizazi unaopokea thamani moja ya pembejeo, na kuzalisha mfuatano wa thamani za matokeo. Kwa mfano, ikiwa tunataka kufundisha mtandao wa **uundaji wa maelezo ya picha** ambao utatoa maelezo ya maandishi ya picha, tunaweza kuchukua picha kama pembejeo, kuipitisha kupitia CNN ili kupata hali yake fiche, na kisha kuwa na mnyororo unaojirudia kuzalisha maelezo neno kwa neno.
+* **Nyingi-kwa-moja** inahusiana na usanifu wa RNN tulioelezea katika kitengo kilichopita, kama vile uainishaji wa maandishi.
+* **Nyingi-kwa-nyingi**, au **mfuatano-kwa-mfuatano** inahusiana na kazi kama vile **tafsiri ya mashine**, ambapo tunayo RNN ya kwanza inayokusanya taarifa zote kutoka kwa mfuatano wa pembejeo hadi hali fiche, na mnyororo mwingine wa RNN unafungua hali hii kuwa mfuatano wa matokeo.
 
-I denna enhet kommer vi att fokusera på enkla generativa modeller som hjälper oss att generera text. För enkelhetens skull kommer vi att använda tecken-nivå tokenisering.
+Katika kitengo hiki, tutazingatia mifano rahisi ya kizazi inayotusaidia kuzalisha maandishi. Kwa urahisi, tutatumia tokeni za kiwango cha herufi.
 
-Vi kommer att träna denna RNN för att generera text steg för steg. Vid varje steg kommer vi att ta en sekvens av tecken av längd `nchars`, och be nätverket att generera nästa utdata-tecken för varje ingångstecken:
+Tutafundisha RNN hii kuzalisha maandishi hatua kwa hatua. Katika kila hatua, tutachukua mfuatano wa herufi wa urefu `nchars`, na kuiuliza mtandao kuzalisha herufi inayofuata kwa kila herufi ya pembejeo:
 
-![Bild som visar ett exempel på RNN-generering av ordet 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.sw.png)
+![Picha inayoonyesha mfano wa kizazi cha RNN cha neno 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.sw.png)
 
-När vi genererar text (under inferens), börjar vi med en viss **prompt**, som skickas genom RNN-celler för att generera sitt mellanliggande tillstånd, och sedan börjar generationen från detta tillstånd. Vi genererar ett tecken i taget och skickar tillståndet och det genererade tecknet till en annan RNN-cell för att generera nästa, tills vi har genererat tillräckligt med tecken.
+Wakati wa kuzalisha maandishi (wakati wa utabiri), tunaanza na **msukumo** fulani, ambao hupitishwa kupitia seli za RNN ili kuzalisha hali yake ya kati, na kisha kutoka kwa hali hii kizazi huanza. Tunazalisha herufi moja kwa wakati, na kupitisha hali na herufi iliyozalishwa kwa seli nyingine ya RNN ili kuzalisha inayofuata, hadi tutakapozalisha herufi za kutosha.
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Bild av författaren
+> Picha na mwandishi
 
-## ✍️ Övningar: Generativa Nätverk
+## ✍️ Mazoezi: Mitandao ya Kizazi
 
-Fortsätt din inlärning i följande anteckningsblock:
+Endelea kujifunza katika daftari zifuatazo:
 
-* [Generativa Nätverk med PyTorch](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
-* [Generativa Nätverk med TensorFlow](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
+* [Mitandao ya Kizazi na PyTorch](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
+* [Mitandao ya Kizazi na TensorFlow](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
 
-## Mjuk textgenerering och temperatur
+## Kizazi cha Maandishi Laini na Joto
 
-Utdata från varje RNN-cell är en sannolikhetsfördelning av tecken. Om vi alltid tar tecknet med den högsta sannolikheten som nästa tecken i den genererade texten, kan texten ofta bli "cyklad" mellan samma teckensekvenser om och om igen, som i detta exempel:
+Matokeo ya kila seli ya RNN ni usambazaji wa uwezekano wa herufi. Ikiwa kila mara tutachukua herufi yenye uwezekano mkubwa zaidi kama herufi inayofuata katika maandishi yanayozalishwa, maandishi mara nyingi yanaweza "kurudiwa" kati ya mfuatano wa herufi zile zile tena na tena, kama katika mfano huu:
 
 ```
 today of the second the company and a second the company ...
 ```
 
-Men om vi tittar på sannolikhetsfördelningen för nästa tecken, kan det hända att skillnaden mellan några av de högsta sannolikheterna inte är stor, t.ex. ett tecken kan ha sannolikheten 0.2, ett annat - 0.19, osv. Till exempel, när vi letar efter nästa tecken i sekvensen '*play*', kan nästa tecken lika gärna vara antingen ett mellanslag eller **e** (som i ordet *player*).
+Hata hivyo, tukitazama usambazaji wa uwezekano wa herufi inayofuata, inaweza kuwa tofauti kati ya uwezekano wa juu zaidi si kubwa sana, kwa mfano herufi moja inaweza kuwa na uwezekano wa 0.2, nyingine - 0.19, n.k. Kwa mfano, tunapotafuta herufi inayofuata katika mfuatano '*play*', herufi inayofuata inaweza kuwa nafasi, au **e** (kama katika neno *player*).
 
-Detta leder oss till slutsatsen att det inte alltid är "rättvist" att välja tecknet med högre sannolikhet, eftersom valet av det näst högsta fortfarande kan leda oss till meningsfull text. Det är klokare att **prova** tecken från sannolikhetsfördelningen som ges av nätverksutdata. Vi kan också använda en parameter, **temperatur**, som kommer att platta ut sannolikhetsfördelningen, om vi vill lägga till mer slumpmässighet, eller göra den brantare, om vi vill hålla oss mer till tecknen med högsta sannolikhet.
+Hii inatupeleka kwenye hitimisho kwamba si kila mara "haki" kuchagua herufi yenye uwezekano mkubwa zaidi, kwa sababu kuchagua ya pili kwa juu bado kunaweza kutupeleka kwenye maandishi yenye maana. Ni busara zaidi **kuchagua kwa sampuli** herufi kutoka kwa usambazaji wa uwezekano uliotolewa na matokeo ya mtandao. Tunaweza pia kutumia kigezo, **joto**, ambacho kitapunguza usambazaji wa uwezekano, ikiwa tunataka kuongeza nasibu, au kuufanya kuwa mkali zaidi, ikiwa tunataka kushikamana zaidi na herufi zenye uwezekano mkubwa zaidi.
 
-Utforska hur denna mjuka textgenerering implementeras i anteckningsblocken länkade ovan.
+Chunguza jinsi kizazi hiki laini cha maandishi kinavyotekelezwa katika daftari zilizounganishwa hapo juu.
 
-## Slutsats
+## Hitimisho
 
-Även om textgenerering kan vara användbar i sig, kommer de största fördelarna från förmågan att generera text med hjälp av RNNs från en viss initial funktionsvektor. Till exempel används textgenerering som en del av maskinöversättning (sekvens-till-sekvens, i detta fall används tillståndsvektorn från *encoder* för att generera eller *avkoda* det översatta meddelandet), eller för att generera en textuell beskrivning av en bild (i vilket fall funktionsvektorn skulle komma från CNN-extraktorn).
+Ingawa kizazi cha maandishi kinaweza kuwa na manufaa chenyewe, faida kubwa hutokana na uwezo wa kuzalisha maandishi kwa kutumia RNNs kutoka kwa vigezo vya awali. Kwa mfano, kizazi cha maandishi kinatumika kama sehemu ya tafsiri ya mashine (mfuatano-kwa-mfuatano, katika kesi hii hali fiche kutoka kwa *encoder* hutumika kuzalisha au *kufasiri* ujumbe uliotafsiriwa), au kuzalisha maelezo ya maandishi ya picha (ambapo vigezo vya awali vinatoka kwa kiondoa CNN).
 
-## 🚀 Utmaning
+## 🚀 Changamoto
 
-Ta några lektioner på Microsoft Learn om detta ämne
+Chukua masomo fulani kwenye Microsoft Learn kuhusu mada hii:
 
-* Textgenerering med [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
+* Kizazi cha Maandishi na [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Efterläsningsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
 
-## Granskning & Självstudie
+## Mapitio na Kujisomea
 
-Här är några artiklar för att utöka din kunskap
+Hapa kuna makala za kupanua maarifa yako:
 
-* Olika tillvägagångssätt för textgenerering med Markov Chain, LSTM och GPT-2: [blogginlägg](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
-* Exempel på textgenerering i [Keras-dokumentationen](https://keras.io/examples/generative/lstm_character_level_text_generation/)
+* Njia tofauti za kizazi cha maandishi na Markov Chain, LSTM na GPT-2: [blogu](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* Mfano wa kizazi cha maandishi katika [nyaraka za Keras](https://keras.io/examples/generative/lstm_character_level_text_generation/)
 
-## [Uppgift](lab/README.md)
+## [Kazi ya Nyumbani](lab/README.md)
 
-Vi har sett hur man genererar text tecken för tecken. I labbet kommer du att utforska textgenerering på ordnivå.
+Tumeona jinsi ya kuzalisha maandishi herufi kwa herufi. Katika maabara, utachunguza kizazi cha maandishi kwa kiwango cha maneno.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller oegentligheter. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

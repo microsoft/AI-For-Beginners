@@ -1,45 +1,54 @@
-# Språkmodellering
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
+  "translation_date": "2025-08-25T20:51:14+00:00",
+  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
+  "language_code": "sw"
+}
+-->
+# Uundaji wa Lugha
 
-Semantiska inbäddningar, såsom Word2Vec och GloVe, är faktiskt ett första steg mot **språkmodellering** - att skapa modeller som på något sätt *förstår* (eller *representerar*) språkets natur.
+Uwakilishi wa semantiki, kama Word2Vec na GloVe, kwa kweli ni hatua ya kwanza kuelekea **uundaji wa lugha** - kuunda mifano inayoweza *kuelewa* (au *kuwakilisha*) asili ya lugha.
 
-## [För-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
 
-Den huvudsakliga idén bakom språkmodellering är att träna dem på oetiketterade dataset på ett icke övervakat sätt. Detta är viktigt eftersom vi har stora mängder oetiketterad text tillgänglig, medan mängden etiketterad text alltid skulle vara begränsad av den insats vi kan lägga på att märka. Oftast kan vi bygga språkmodeller som kan **förutsäga saknade ord** i texten, eftersom det är enkelt att maskera ett slumpmässigt ord i texten och använda det som ett träningsprov.
+Wazo kuu nyuma ya uundaji wa lugha ni kuifundisha kwenye seti za data zisizo na lebo kwa njia isiyo ya kusimamiwa. Hili ni muhimu kwa sababu tuna kiasi kikubwa cha maandishi yasiyo na lebo yanayopatikana, wakati kiasi cha maandishi yaliyo na lebo daima kitakuwa kidogo kutokana na juhudi tunazoweza kutumia katika kuweka lebo. Mara nyingi, tunaweza kujenga mifano ya lugha inayoweza **kutabiri maneno yanayokosekana** katika maandishi, kwa sababu ni rahisi kuficha neno la bahati nasibu katika maandishi na kulitumia kama sampuli ya mafunzo.
 
-## Träning av inbäddningar
+## Mafunzo ya Uwakilishi
 
-I våra tidigare exempel använde vi förtränade semantiska inbäddningar, men det är intressant att se hur dessa inbäddningar kan tränas. Det finns flera möjliga idéer som kan användas:
+Katika mifano yetu ya awali, tulitumia uwakilishi wa semantiki uliokwisha kufundishwa, lakini ni jambo la kuvutia kuona jinsi uwakilishi huo unavyoweza kufundishwa. Kuna mawazo kadhaa yanayoweza kutumika:
 
-* **N-Gram** språkmodellering, när vi förutsäger en token genom att titta på N föregående tokens (N-gram)
-* **Kontinuerlig Bag-of-Words** (CBoW), när vi förutsäger den mittersta token $W_0$ i en tokensekvens $W_{-N}$, ..., $W_N$.
-* **Skip-gram**, där vi förutsäger en uppsättning granntokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} från den mittersta token $W_0$.
+* **Uundaji wa lugha wa N-Gram**, ambapo tunatabiri tokeni kwa kuangalia tokeni N za awali (N-gram).
+* **Mfuko Endelevu wa Maneno** (CBoW), ambapo tunatabiri tokeni ya katikati $W_0$ katika mlolongo wa tokeni $W_{-N}$, ..., $W_N$.
+* **Skip-gram**, ambapo tunatabiri seti ya tokeni za jirani {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} kutoka tokeni ya katikati $W_0$.
 
-![bild från artikel om att omvandla ord till vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sw.png)
+![picha kutoka karatasi kuhusu kubadilisha maneno kuwa vekta](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sw.png)
 
-> Bild från [denna artikel](https://arxiv.org/pdf/1301.3781.pdf)
+> Picha kutoka [karatasi hii](https://arxiv.org/pdf/1301.3781.pdf)
 
-## ✍️ Exempel Notebooks: Träning av CBoW-modell
+## ✍️ Noti za Mfano: Mafunzo ya Mfano wa CBoW
 
-Fortsätt din inlärning i följande notebooks:
+Endelea kujifunza katika noti zifuatazo:
 
-* [Träning av CBoW Word2Vec med TensorFlow](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)
-* [Träning av CBoW Word2Vec med PyTorch](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb)
+* [Mafunzo ya CBoW Word2Vec kwa kutumia TensorFlow](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)
+* [Mafunzo ya CBoW Word2Vec kwa kutumia PyTorch](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb)
 
-## Slutsats
+## Hitimisho
 
-I den föregående lektionen har vi sett att ordinbäddningar fungerar som magi! Nu vet vi att träning av ordinbäddningar inte är en särskilt komplex uppgift, och vi borde kunna träna våra egna ordinbäddningar för domänspecifik text om det behövs.
+Katika somo la awali tuliona kwamba uwakilishi wa maneno hufanya kazi kama uchawi! Sasa tunajua kwamba kufundisha uwakilishi wa maneno si kazi ngumu sana, na tunapaswa kuwa na uwezo wa kufundisha uwakilishi wetu wa maneno kwa maandishi maalum ya kikoa ikiwa inahitajika.
 
-## [Efter-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
 
-## Översyn & Självstudie
+## Mapitio na Kujifunza Binafsi
 
-* [Officiell PyTorch-handledning om språkmodellering](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
-* [Officiell TensorFlow-handledning om träning av Word2Vec-modell](https://www.TensorFlow.org/tutorials/text/word2vec).
-* Att använda **gensim**-ramverket för att träna de mest använda inbäddningarna på några få rader kod beskrivs [i denna dokumentation](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* [Mafunzo rasmi ya PyTorch kuhusu Uundaji wa Lugha](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* [Mafunzo rasmi ya TensorFlow kuhusu kufundisha mfano wa Word2Vec](https://www.TensorFlow.org/tutorials/text/word2vec).
+* Kutumia mfumo wa **gensim** kufundisha uwakilishi unaotumika sana kwa mistari michache ya msimbo imeelezwa [katika nyaraka hizi](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
 
-## 🚀 [Uppgift: Träna Skip-Gram-modell](lab/README.md)
+## 🚀 [Kazi: Fundisha Mfano wa Skip-Gram](lab/README.md)
 
-I labbet utmanar vi dig att modifiera koden från denna lektion för att träna skip-gram-modellen istället för CBoW. [Läs detaljerna](lab/README.md)
+Katika maabara, tunakupa changamoto ya kurekebisha msimbo kutoka somo hili ili kufundisha mfano wa skip-gram badala ya CBoW. [Soma maelezo](lab/README.md)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller oegentligheter. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

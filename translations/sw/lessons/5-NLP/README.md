@@ -1,69 +1,86 @@
-# Bearbetning av naturligt språk
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
+  "translation_date": "2025-08-25T20:48:39+00:00",
+  "source_file": "lessons/5-NLP/README.md",
+  "language_code": "sw"
+}
+-->
+# Usindikaji wa Lugha Asilia
 
-![Sammanfattning av NLP-uppgifter i en doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.sw.png)
+![Muhtasari wa kazi za NLP katika mchoro](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.sw.png)
 
-I denna sektion kommer vi att fokusera på att använda neurala nätverk för att hantera uppgifter relaterade till **bearbetning av naturligt språk (NLP)**. Det finns många NLP-problem som vi vill att datorer ska kunna lösa:
+Katika sehemu hii, tutazingatia kutumia Mitandao ya Neural kushughulikia kazi zinazohusiana na **Usindikaji wa Lugha Asilia (NLP)**. Kuna matatizo mengi ya NLP ambayo tunataka kompyuta iweze kuyatatua:
 
-* **Textklassificering** är ett typiskt klassificeringsproblem som rör textsekvenser. Exempel inkluderar att klassificera e-postmeddelanden som skräppost eller icke-skräppost, eller att kategorisera artiklar som sport, affärer, politik, etc. Dessutom, när vi utvecklar chattbotar, behöver vi ofta förstå vad en användare ville säga – i detta fall handlar det om **avsiktsklassificering**. Ofta behöver vi hantera många kategorier i avsiktsklassificering.
-* **Sentimentanalys** är ett typiskt regressionsproblem, där vi behöver ge ett nummer (ett sentiment) som motsvarar hur positivt/negativt innebörden av en mening är. En mer avancerad version av sentimentanalys är **aspektbaserad sentimentanalys** (ABSA), där vi ger sentiment inte till hela meningen, utan till olika delar av den (aspekter), t.ex. *På denna restaurang gillade jag maten, men atmosfären var fruktansvärd*.
-* **Named Entity Recognition** (NER) hänvisar till problemet med att extrahera vissa enheter från text. Till exempel kan vi behöva förstå att i frasen *Jag behöver flyga till Paris imorgon* hänvisar ordet *imorgon* till DATUM, och *Paris* är en PLATS.  
-* **Nyckelordsextraktion** liknar NER, men vi behöver automatiskt extrahera ord som är viktiga för meningen i meningen, utan förutbildning för specifika enhetstyper.
-* **Textklustring** kan vara användbart när vi vill gruppera liknande meningar, till exempel liknande förfrågningar i teknisk supportkonversationer.
-* **Frågebesvarande** hänvisar till en models förmåga att svara på en specifik fråga. Modellen får en textpassage och en fråga som indata, och den behöver ange en plats i texten där svaret på frågan finns (eller, ibland, generera svaret).
-* **Textgenerering** är en models förmåga att generera ny text. Det kan ses som en klassificeringsuppgift som förutsäger nästa bokstav/ord baserat på en viss *textprompt*. Avancerade textgenereringsmodeller, som GPT-3, kan lösa andra NLP-uppgifter som klassificering med en teknik som kallas [prompt programming](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) eller [prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29).
-* **Textsammanfattning** är en teknik när vi vill att en dator ska "läsa" lång text och sammanfatta den i några meningar.
-* **Maskinöversättning** kan ses som en kombination av textförståelse på ett språk och textgenerering på ett annat.
+* **Uainishaji wa maandishi** ni tatizo la kawaida la uainishaji linalohusiana na mfuatano wa maandishi. Mifano ni pamoja na kuainisha barua pepe kama spam au si-spam, au kuainisha makala kama michezo, biashara, siasa, n.k. Pia, tunapounda roboti za mazungumzo, mara nyingi tunahitaji kuelewa kile mtumiaji alitaka kusema -- katika kesi hii tunashughulika na **uainishaji wa nia**. Mara nyingi, katika uainishaji wa nia tunahitaji kushughulikia kategoria nyingi.
 
-Fram till nyligen löstes de flesta NLP-uppgifter med traditionella metoder som grammatik. Till exempel, inom maskinöversättning användes parser för att omvandla den ursprungliga meningen till ett syntaxträd, sedan extraherades högre nivåer av semantiska strukturer för att representera meningen av meningen, och baserat på denna mening och grammatiken i målspråket genererades resultatet. Numera löses många NLP-uppgifter mer effektivt med hjälp av neurala nätverk.
+* **Uchambuzi wa hisia** ni tatizo la kawaida la regression, ambapo tunahitaji kuhusisha namba (hisia) inayolingana na jinsi maana ya sentensi ilivyo chanya/mbaya. Toleo la juu zaidi la uchambuzi wa hisia ni **uchambuzi wa hisia kulingana na vipengele** (ABSA), ambapo tunahusisha hisia si kwa sentensi nzima, bali kwa sehemu zake tofauti (vipengele), mfano: *Katika mgahawa huu, nilipenda chakula, lakini mazingira yalikuwa mabaya*.
 
-> Många klassiska NLP-metoder är implementerade i [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org) Python-biblioteket. Det finns en fantastisk [NLTK Book](https://www.nltk.org/book/) tillgänglig online som täcker hur olika NLP-uppgifter kan lösas med NLTK.
+* **Utambuzi wa Viumbe Vilivyotajwa** (NER) inahusu tatizo la kutoa viumbe fulani kutoka kwa maandishi. Kwa mfano, tunaweza kuhitaji kuelewa kwamba katika kifungu *Nahitaji kuruka kwenda Paris kesho* neno *kesho* linahusu TAREHE, na *Paris* ni MAHALI.
 
-I vår kurs kommer vi mestadels att fokusera på att använda neurala nätverk för NLP, och vi kommer att använda NLTK där det behövs.
+* **Uchimbaji wa maneno muhimu** ni sawa na NER, lakini tunahitaji kutoa maneno muhimu kwa maana ya sentensi moja kwa moja, bila mafunzo ya awali kwa aina maalum za viumbe.
 
-Vi har redan lärt oss om att använda neurala nätverk för att hantera tabulär data och bilder. Den största skillnaden mellan dessa typer av data och text är att text är en sekvens av variabel längd, medan indata storleken i fallet med bilder är känd i förväg. Medan konvolutionella nätverk kan extrahera mönster från indata, är mönster i text mer komplexa. T.ex. kan vi ha negation som är åtskild från subjektet och vara godtycklig för många ord (t.ex. *Jag gillar inte apelsiner*, vs. *Jag gillar inte de stora färgglada välsmakande apelsinerna*), och det bör fortfarande tolkas som ett mönster. Så för att hantera språk behöver vi introducera nya typer av neurala nätverk, såsom *återkommande nätverk* och *transformatorer*.
+* **Kugawanya maandishi katika makundi** kunaweza kuwa muhimu tunapotaka kuunganisha sentensi zinazofanana, kwa mfano, maombi yanayofanana katika mazungumzo ya msaada wa kiufundi.
 
-## Installera Bibliotek
+* **Kujibu maswali** inahusu uwezo wa mfano kujibu swali maalum. Mfano hupokea kifungu cha maandishi na swali kama pembejeo, na inahitaji kutoa sehemu ya maandishi ambapo jibu la swali linapatikana (au, wakati mwingine, kutengeneza maandishi ya jibu).
 
-Om du använder en lokal Python-installation för att köra denna kurs, kan du behöva installera alla nödvändiga bibliotek för NLP med följande kommandon:
+* **Uzalishaji wa maandishi** ni uwezo wa mfano kutengeneza maandishi mapya. Inaweza kuchukuliwa kama kazi ya uainishaji inayotabiri herufi/maneno yanayofuata kulingana na *msukumo wa maandishi*. Mifano ya juu ya uzalishaji wa maandishi, kama vile GPT-3, inaweza kutatua kazi nyingine za NLP kama uainishaji kwa kutumia mbinu inayoitwa [programu ya msukumo](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) au [uhandisi wa msukumo](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29).
 
-**För PyTorch**
+* **Muhtasari wa maandishi** ni mbinu tunapotaka kompyuta "kusoma" maandishi marefu na kuyafupisha kwa sentensi chache.
+
+* **Tafsiri ya mashine** inaweza kuonekana kama mchanganyiko wa kuelewa maandishi kwa lugha moja, na uzalishaji wa maandishi kwa lugha nyingine.
+
+Hapo awali, kazi nyingi za NLP zilitatuliwa kwa kutumia mbinu za jadi kama sarufi. Kwa mfano, katika tafsiri ya mashine, vichanganuzi vilitumika kubadilisha sentensi ya awali kuwa mti wa sintaksia, kisha miundo ya juu ya kisemantiki ilitolewa ili kuwakilisha maana ya sentensi, na kulingana na maana hii na sarufi ya lugha lengwa, matokeo yalitengenezwa. Siku hizi, kazi nyingi za NLP zinatatuliwa kwa ufanisi zaidi kwa kutumia mitandao ya neural.
+
+> Mbinu nyingi za jadi za NLP zinatekelezwa katika maktaba ya Python inayoitwa [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org). Kuna [Kitabu cha NLTK](https://www.nltk.org/book/) kinachopatikana mtandaoni ambacho kinaelezea jinsi kazi tofauti za NLP zinaweza kutatuliwa kwa kutumia NLTK.
+
+Katika kozi yetu, tutazingatia zaidi kutumia Mitandao ya Neural kwa NLP, na tutatumia NLTK pale inapohitajika.
+
+Tayari tumejifunza kuhusu kutumia mitandao ya neural kushughulikia data ya jedwali na picha. Tofauti kuu kati ya aina hizo za data na maandishi ni kwamba maandishi ni mfuatano wa urefu unaobadilika, wakati saizi ya pembejeo katika picha inajulikana mapema. Wakati mitandao ya convolutional inaweza kutoa mifumo kutoka kwa data ya pembejeo, mifumo katika maandishi ni changamano zaidi. Kwa mfano, tunaweza kuwa na kukanusha kunakotenganishwa na somo kwa maneno mengi (mfano: *Sipendi machungwa*, dhidi ya *Sipendi yale machungwa makubwa yenye rangi nzuri na ladha*), na hiyo bado inapaswa kufasiriwa kama muundo mmoja. Kwa hivyo, ili kushughulikia lugha tunahitaji kuanzisha aina mpya za mitandao ya neural, kama vile *mitandao ya kurudiarudia* na *transformers*.
+
+## Sakinisha Maktaba
+
+Ikiwa unatumia usakinishaji wa Python wa ndani kuendesha kozi hii, unaweza kuhitaji kusakinisha maktaba zote zinazohitajika kwa NLP kwa kutumia amri zifuatazo:
+
+**Kwa PyTorch**  
 ```bash
 pip install -r requirements-torch.txt
-```
-**För TensorFlow**
+```  
+**Kwa TensorFlow**  
 ```bash
 pip install -r requirements-tf.txt
-```
+```  
 
-> Du kan prova NLP med TensorFlow på [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-77998-cacaste)
+> Unaweza kujaribu NLP na TensorFlow kwenye [Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/?WT.mc_id=academic-77998-cacaste)
 
-## GPU Varning
+## Onyo Kuhusu GPU
 
-I denna sektion, i några av exemplen kommer vi att träna ganska stora modeller.
-* **Använd en GPU-aktiverad dator**: Det är rekommenderat att köra dina anteckningsböcker på en GPU-aktiverad dator för att minska väntetiderna när du arbetar med stora modeller.
-* **GPU-minnesbegränsningar**: Att köra på en GPU kan leda till situationer där du får slut på GPU-minne, särskilt när du tränar stora modeller.
-* **GPU-minnesanvändning**: Mängden GPU-minne som används under träning beror på olika faktorer, inklusive minibatch-storleken.
-* **Minimera minibatch-storleken**: Om du stöter på GPU-minnesproblem, överväg att minska minibatch-storleken i din kod som en potentiell lösning.
-* **TensorFlow GPU-minnesfrisläppande**: Äldre versioner av TensorFlow kanske inte släpper GPU-minne korrekt när flera modeller tränas inom en Python-kernel. För att effektivt hantera GPU-minnesanvändning kan du konfigurera TensorFlow att allokera GPU-minne endast efter behov.
-* **Kodinkludering**: För att ställa in TensorFlow att växa GPU-minnesallokeringen endast när det behövs, inkludera följande kod i dina anteckningsböcker:
+Katika sehemu hii, katika baadhi ya mifano tutakuwa tukifundisha mifano mikubwa.  
+* **Tumia Kompyuta Yenye GPU**: Inashauriwa kuendesha daftari zako kwenye kompyuta yenye GPU ili kupunguza muda wa kusubiri wakati wa kufanya kazi na mifano mikubwa.  
+* **Vikwazo vya Kumbukumbu ya GPU**: Kuendesha kwenye GPU kunaweza kusababisha hali ambapo kumbukumbu ya GPU inajaa, hasa wakati wa kufundisha mifano mikubwa.  
+* **Matumizi ya Kumbukumbu ya GPU**: Kiasi cha kumbukumbu ya GPU kinachotumika wakati wa mafunzo kinategemea mambo mbalimbali, ikiwa ni pamoja na ukubwa wa minibatch.  
+* **Punguza Ukubwa wa Minibatch**: Ikiwa unakutana na matatizo ya kumbukumbu ya GPU, fikiria kupunguza ukubwa wa minibatch katika msimbo wako kama suluhisho linalowezekana.  
+* **Utoaji wa Kumbukumbu ya GPU kwa TensorFlow**: Matoleo ya zamani ya TensorFlow yanaweza yasitoe kumbukumbu ya GPU ipasavyo wakati wa kufundisha mifano mingi ndani ya kernel moja ya Python. Ili kudhibiti matumizi ya kumbukumbu ya GPU kwa ufanisi, unaweza kusanidi TensorFlow kugawa kumbukumbu ya GPU tu inapohitajika.  
+* **Ujumuishaji wa Msimbo**: Ili kuweka TensorFlow kugawa kumbukumbu ya GPU tu inapohitajika, jumuisha msimbo ufuatao katika daftari zako:  
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
 if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
-```
+```  
 
-Om du är intresserad av att lära dig om NLP från ett klassiskt ML-perspektiv, besök [denna samling av lektioner](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
+Ikiwa una nia ya kujifunza kuhusu NLP kutoka mtazamo wa ML wa jadi, tembelea [hii seti ya masomo](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
 
-## I denna Sektion
-I denna sektion kommer vi att lära oss om:
+## Katika Sehemu Hii  
+Katika sehemu hii tutajifunza kuhusu:
 
-* [Representera text som tensorer](13-TextRep/README.md)
-* [Ordembeddings](14-Emdeddings/README.md)
-* [Språkmodellering](15-LanguageModeling/README.md)
-* [Återkommande neurala nätverk](16-RNN/README.md)
-* [Generativa nätverk](17-GenerativeNetworks/README.md)
-* [Transformatorer](18-Transformers/README.md)
+* [Kuwakilisha maandishi kama tensors](13-TextRep/README.md)  
+* [Uwakilishi wa Maneno](14-Emdeddings/README.md)  
+* [Uundaji wa Lugha](15-LanguageModeling/README.md)  
+* [Mitandao ya Neural ya Kurudiarudia](16-RNN/README.md)  
+* [Mitandao ya Kizazi](17-GenerativeNetworks/README.md)  
+* [Transformers](18-Transformers/README.md)  
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår på grund av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

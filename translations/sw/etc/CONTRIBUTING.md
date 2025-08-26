@@ -1,20 +1,36 @@
-# Bidragande
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
+  "translation_date": "2025-08-25T21:06:33+00:00",
+  "source_file": "etc/CONTRIBUTING.md",
+  "language_code": "sw"
+}
+-->
+# Kuchangia
 
-Detta projekt välkomnar bidrag och förslag. De flesta bidrag kräver att du godkänner ett Contributor License Agreement (CLA) som förklarar att du har rätten att, och faktiskt gör, ge oss rättigheterna att använda ditt bidrag. För mer information, besök https://cla.microsoft.com.
+Mradi huu unakaribisha michango na mapendekezo. Michango mingi inahitaji wewe
+kukubaliana na Mkataba wa Leseni ya Mchangiaji (CLA) unaoeleza kuwa una haki ya,
+na kwa kweli unatoa, ruhusa kwetu kutumia mchango wako. Kwa maelezo zaidi, tembelea
+https://cla.microsoft.com.
 
-När du skickar in en pull request kommer en CLA-bot automatiskt att avgöra om du behöver tillhandahålla en CLA och dekorera PR:n på lämpligt sätt (t.ex. etikett, kommentar). Följ bara instruktionerna som ges av boten. Du behöver bara göra detta en gång över alla arkiv som använder vår CLA.
+Unapowasilisha ombi la kuvuta (pull request), CLA-bot itatambua kiotomatiki kama unahitaji
+kutoa CLA na kuipamba PR ipasavyo (mfano, lebo, maoni). Fuata tu
+maelekezo yaliyotolewa na bot. Utahitaji kufanya hivi mara moja tu kwenye hifadhi zote zinazotumia CLA yetu.
 
-Detta projekt har antagit [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). För mer information, se [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) eller kontakta [opencode@microsoft.com](mailto:opencode@microsoft.com) med eventuella ytterligare frågor eller kommentarer.
+Mradi huu umechukua [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Kwa maelezo zaidi angalia [Maswali Yanayoulizwa Mara kwa Mara kuhusu Kanuni za Maadili](https://opensource.microsoft.com/codeofconduct/faq/)
+au wasiliana na [opencode@microsoft.com](mailto:opencode@microsoft.com) kwa maswali au maoni ya ziada.
 
-# Söker Bidrag
+# Kutafuta Michango
 
-Vi letar för närvarande aktivt efter bidrag inom följande ämnen:
+Kwa sasa tunatafuta michango kwa mada zifuatazo:
 
-- [ ] Skriv avsnitt om Deep Reinforcement Learning
-- [ ] Förbättra avsnitt + anteckningsbok om Objektidentifiering
-- [ ] PyTorch Lightning (för [detta avsnitt](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
-- [ ] Skriv avsnitt + exempel om Namngiven Entitetsigenkänning
-- [ ] Skapa exempel för att träna våra egna inbäddningar för [detta avsnitt](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)
+- [ ] Andika sehemu kuhusu Kujifunza Kuimarisha Kina (Deep Reinforcement Learning)
+- [ ] Boresha sehemu + daftari kuhusu Utambuzi wa Vitu (Object Detection)
+- [ ] PyTorch Lightning (kwa [sehemu hii](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
+- [ ] Andika sehemu + mifano kuhusu Utambuzi wa Huluki Jina (Named Entity Recognition)
+- [ ] Unda mifano ya kufundisha embeddings zetu wenyewe kwa [sehemu hii](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiska översättningar kan innehålla fel eller oegentligheter. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi tar inget ansvar för missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
