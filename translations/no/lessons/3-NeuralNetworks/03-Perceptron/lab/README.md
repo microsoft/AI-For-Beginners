@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7336583e4630220c835335da640016db",
-  "translation_date": "2025-08-28T15:39:57+00:00",
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T08:32:26+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
   "language_code": "no"
 }
@@ -17,11 +17,11 @@ Ved å bruke koden vi har utviklet i denne leksjonen for binær klassifisering a
 
 ## Tips
 
-1. For hvert siffer, lag et datasett for binær klassifisering av "dette sifferet vs. alle andre sifre".
-1. Tren 10 forskjellige perceptroner for binær klassifisering (én for hvert siffer).
-1. Definer en funksjon som kan klassifisere et inndata-siffer.
+1. For hvert siffer, opprett et datasett for binær klassifisering av "dette sifferet vs. alle andre sifre".
+1. Tren 10 forskjellige perceptroner for binær klassifisering (ett for hvert siffer).
+1. Definer en funksjon som kan klassifisere et inngangssiffer.
 
-> **Hint**: Hvis vi kombinerer vektene til alle 10 perceptronene i én matrise, bør vi kunne anvende alle 10 perceptronene på inndata-sifrene ved én matrise-multiplikasjon. Det mest sannsynlige sifferet kan deretter finnes ved å bruke `argmax`-operasjonen på utdataene.
+> **Hint**: Hvis vi kombinerer vektene til alle 10 perceptronene i én matrise, bør vi kunne bruke alle 10 perceptronene på inngangssifrene ved én matriseoperasjon. Det mest sannsynlige sifferet kan deretter finnes ved å bruke `argmax`-operasjonen på utdataene.
 
 ## Startnotatbok
 

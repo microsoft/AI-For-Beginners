@@ -1,13 +1,13 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7336583e4630220c835335da640016db",
-  "translation_date": "2025-08-26T07:10:21+00:00",
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T08:20:31+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
   "language_code": "it"
 }
 -->
-# Classificazione Multi-Classe con Perceptrone
+# Classificazione Multi-Classe con Perceptron
 
 Compito del laboratorio dal [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
@@ -25,7 +25,9 @@ Utilizzando il codice sviluppato in questa lezione per la classificazione binari
 
 ## Notebook di Partenza
 
-Inizia il laboratorio aprendo [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+Inizia il laboratorio aprendo [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
+
+---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.

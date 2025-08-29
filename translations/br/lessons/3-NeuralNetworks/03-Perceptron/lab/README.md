@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7336583e4630220c835335da640016db",
-  "translation_date": "2025-08-26T10:40:13+00:00",
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T08:17:31+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
   "language_code": "br"
 }
 -->
 # Classificação Multi-Classe com Perceptron
 
-Atividade de laboratório do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
+Atividade prática do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarefa
 
@@ -21,11 +21,13 @@ Usando o código que desenvolvemos nesta lição para classificação binária d
 1. Treine 10 perceptrons diferentes para classificação binária (um para cada dígito).
 1. Defina uma função que classifique um dígito de entrada.
 
-> **Dica**: Se combinarmos os pesos de todos os 10 perceptrons em uma única matriz, devemos ser capazes de aplicar todos os 10 perceptrons aos dígitos de entrada por meio de uma única multiplicação de matriz. O dígito mais provável pode então ser encontrado simplesmente aplicando a operação `argmax` no resultado.
+> **Dica**: Se combinarmos os pesos de todos os 10 perceptrons em uma matriz, devemos ser capazes de aplicar todos os 10 perceptrons aos dígitos de entrada por meio de uma única multiplicação de matriz. O dígito mais provável pode então ser encontrado simplesmente aplicando a operação `argmax` no resultado.
 
 ## Notebook Inicial
 
-Comece o laboratório abrindo [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+Inicie a atividade abrindo [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
+
+---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional feita por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "335144a809cc5695988bb1504c67066d",
-  "translation_date": "2025-08-28T14:58:23+00:00",
+  "original_hash": "07191303b7ea2aff1d47e2b0fe4bb862",
+  "translation_date": "2025-08-29T08:27:53+00:00",
   "source_file": "README.md",
   "language_code": "da"
 }
@@ -21,54 +21,54 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
 
-# Kunstig intelligens for begyndere - Et pensum  
+# Kunstig intelligens for begyndere - Et undervisningsforløb  
 
-|![ Sketchnote af (@girlie_mac) https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.da.png)|  
+|![Sketchnote af @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.da.png)|  
 |:---:|  
 | AI For Beginners - _Sketchnote af [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Udforsk verdenen af **Kunstig intelligens** (AI) med vores 12-ugers pensum, der består af 24 lektioner! Det inkluderer praktiske lektioner, quizzer og laboratorier. Pensummet er venligt for begyndere og dækker værktøjer som TensorFlow og PyTorch samt etik inden for AI.  
+Udforsk verdenen af **Kunstig intelligens** (AI) med vores 12-ugers undervisningsforløb med 24 lektioner! Det inkluderer praktiske lektioner, quizzer og laboratorieøvelser. Forløbet er begyndervenligt og dækker værktøjer som TensorFlow og PyTorch samt etik inden for AI.  
 
 ### 🌐 Understøttelse af flere sprog  
 
-#### Understøttet via GitHub Action (Automatisk & Altid Opdateret)  
+#### Understøttet via GitHub Action (Automatisk & Altid opdateret)  
 
 [French](../fr/README.md) | [Spanish](../es/README.md) | [German](../de/README.md) | [Russian](../ru/README.md) | [Arabic](../ar/README.md) | [Persian (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Portuguese (Brazil)](../br/README.md) | [Italian](../it/README.md) | [Polish](../pl/README.md) | [Turkish](../tr/README.md) | [Greek](../el/README.md) | [Thai](../th/README.md) | [Swedish](../sv/README.md) | [Danish](./README.md) | [Norwegian](../no/README.md) | [Finnish](../fi/README.md) | [Dutch](../nl/README.md) | [Hebrew](../he/README.md) | [Vietnamese](../vi/README.md) | [Indonesian](../id/README.md) | [Malay](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hungarian](../hu/README.md) | [Czech](../cs/README.md) | [Slovak](../sk/README.md) | [Romanian](../ro/README.md) | [Bulgarian](../bg/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Croatian](../hr/README.md) | [Slovenian](../sl/README.md) | [Ukrainian](../uk/README.md) | [Burmese (Myanmar)](../my/README.md)  
 
-**Hvis du ønsker yderligere oversættelser, er understøttede sprog listet [her](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**Hvis du ønsker yderligere oversættelser, kan understøttede sprog findes [her](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
 
 ## Bliv en del af fællesskabet  
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
 
 ## Hvad du vil lære  
 
-**[Mindmap af kurset](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
+**[Mindmap over kurset](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-I dette pensum vil du lære:  
+I dette undervisningsforløb vil du lære:  
 
 * Forskellige tilgange til Kunstig intelligens, herunder den "gode gamle" symbolske tilgang med **Vidensrepræsentation** og ræsonnement ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Neurale netværk** og **Deep Learning**, som er kernen i moderne AI. Vi vil illustrere begreberne bag disse vigtige emner med kode i to af de mest populære frameworks - [TensorFlow](http://Tensorflow.org) og [PyTorch](http://pytorch.org).  
-* **Neurale arkitekturer** til arbejde med billeder og tekst. Vi vil dække nyere modeller, men kan mangle lidt i forhold til det nyeste.  
-* Mindre populære AI-tilgange, såsom **Genetiske algoritmer** og **Multi-Agent Systems**.  
+* **Neurale arkitekturer** til arbejde med billeder og tekst. Vi vil dække nyere modeller, men muligvis ikke de allernyeste.  
+* Mindre populære AI-tilgange, såsom **Genetiske algoritmer** og **Multi-agent systemer**.  
 
-Hvad vi ikke vil dække i dette pensum:  
+Hvad vi ikke vil dække i dette undervisningsforløb:  
 
 > [Find alle yderligere ressourcer til dette kursus i vores Microsoft Learn-samling](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Forretningscases for brug af **AI i erhvervslivet**. Overvej at tage [Introduktion til AI for erhvervsbrugere](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) læringssti på Microsoft Learn, eller [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), udviklet i samarbejde med [INSEAD](https://www.insead.edu/).  
-* **Klassisk maskinlæring**, som er godt beskrevet i vores [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
-* Praktiske AI-applikationer bygget ved hjælp af **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Til dette anbefaler vi, at du starter med modulerne Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI med Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** og andre.  
-* Specifikke ML **Cloud Frameworks**, såsom [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), eller [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Overvej at bruge [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) og [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) læringsstier.  
-* **Konversations-AI** og **Chat Bots**. Der er en separat [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) læringssti, og du kan også referere til [denne blogpost](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for mere detaljer.  
-* **Dybtgående matematik** bag deep learning. Til dette vil vi anbefale [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) af Ian Goodfellow, Yoshua Bengio og Aaron Courville, som også er tilgængelig online på [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Forretningsmæssige anvendelser af **AI i erhvervslivet**. Overvej at tage [Introduktion til AI for erhvervsbrugere](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) læringsforløb på Microsoft Learn, eller [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), udviklet i samarbejde med [INSEAD](https://www.insead.edu/).  
+* **Klassisk maskinlæring**, som er godt beskrevet i vores [Maskinlæring for begyndere undervisningsforløb](http://github.com/Microsoft/ML-for-Beginners).  
+* Praktiske AI-applikationer bygget med **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Til dette anbefaler vi, at du starter med modulerne Microsoft Learn for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI med Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** og andre.  
+* Specifikke ML **Cloud Frameworks**, såsom [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), eller [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Overvej at bruge [Byg og drift maskinlæringsløsninger med Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) og [Byg og drift maskinlæringsløsninger med Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) læringsforløb.  
+* **Konversations-AI** og **Chatbots**. Der er et separat [Skab konversations-AI-løsninger](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) læringsforløb, og du kan også referere til [denne blogpost](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for mere detaljeret information.  
+* **Avanceret matematik** bag deep learning. Til dette vil vi anbefale [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) af Ian Goodfellow, Yoshua Bengio og Aaron Courville, som også er tilgængelig online på [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-For en blid introduktion til _AI i skyen_ emner kan du overveje at tage [Kom i gang med kunstig intelligens på Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) læringssti.  
+For en blid introduktion til _AI i skyen_ emner kan du overveje at tage [Kom i gang med kunstig intelligens på Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) læringsforløb.  
 
 # Indhold  
 
 |     |                                                                 Lektion Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
-| 0  |                                 [Kursusopsætning](./lessons/0-course-setup/setup.md)                                 |                      [Opsæt dit udviklingsmiljø](./lessons/0-course-setup/how-to-run.md)                       |   |  
+| 0  |                                 [Opsætning af kursus](./lessons/0-course-setup/setup.md)                                 |                      [Opsæt dit udviklingsmiljø](./lessons/0-course-setup/how-to-run.md)                       |   |  
 | I  |               [**Introduktion til AI**](./lessons/1-Intro/README.md)      | | |  
 | 01  |       [Introduktion og AI's historie](./lessons/1-Intro/README.md)       |           -                            | -  |  
 | II |              **Symbolsk AI**              |  
@@ -88,7 +88,7 @@ For en blid introduktion til _AI i skyen_ emner kan du overveje at tage [Kom i g
 | V  |            [**Natural Language Processing**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Udforsk Natural Language Processing på Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
 | 13  |            [Tekstrepræsentation. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](./lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
 | 14  |            [Semantiske ordindlejringer. Word2Vec og GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](./lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Sproglig Modellering. Træn dine egne indlejringer](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 15  |            [Sprogmodellering. Træn dine egne indlejringer](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Recurrent Neural Networks](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](./lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
 | 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/READMEtransformers.md)             |           [PyTorch](./lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](./lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
@@ -99,7 +99,7 @@ For en blid introduktion til _AI i skyen_ emner kan du overveje at tage [Kom i g
 | 22  |            [Deep Reinforcement Learning](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
 | 23  |            [Multi-Agent Systemer](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **AI Etik** | | |
-| 24  |            [AI Etik og Ansvarlig AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Ansvarlige AI-principper](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| 24  |            [AI Etik og Ansvarlig AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Principper for Ansvarlig AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Ekstra** | | |
 | 25  |            [Multi-Modal Netværk, CLIP og VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
@@ -112,57 +112,57 @@ For en blid introduktion til _AI i skyen_ emner kan du overveje at tage [Kom i g
 
 ## Kom godt i gang
 
-- Vi har oprettet en [opsætningslektion](./lessons/0-course-setup/setup.md) for at hjælpe dig med at opsætte dit udviklingsmiljø. - For undervisere har vi også oprettet en [curricula opsætningslektion](./lessons/0-course-setup/for-teachers.md)!
-- Sådan [kører du koden i VSCode eller en Codespace](./lessons/0-course-setup/how-to-run.md)
+- Vi har oprettet en [setup-lektion](./lessons/0-course-setup/setup.md) for at hjælpe dig med at opsætte dit udviklingsmiljø. - For undervisere har vi også oprettet en [curricula-setup-lektion](./lessons/0-course-setup/for-teachers.md)!
+- Sådan [Kører du koden i VSCode eller en Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Følg disse trin:
 
 Fork repositoryet: Klik på "Fork"-knappen øverst til højre på denne side.
 
-Klon repositoryet: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Clone repositoryet: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Glem ikke at stjerne (🌟) dette repo for nemmere at finde det senere.
+Glem ikke at give stjerne (🌟) til dette repo for at finde det lettere senere.
 
 ## Mød andre lærende
 
 Deltag i vores [officielle AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) for at møde og netværke med andre lærende, der tager dette kursus, og få support.
 
-Hvis du har produktfeedback eller spørgsmål undervejs, kan du besøge vores [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+Hvis du har produktfeedback eller spørgsmål under opbygningen, kan du besøge vores [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Quizzer
-> **En note om quizzer**: Alle quizzer findes i Quiz-app-mappen i etc\quiz-app, eller [Online Her](https://ff-quizzes.netlify.app/) De er linket fra lektionerne, og quiz-appen kan køres lokalt eller implementeres på Azure; følg instruktionerne i `quiz-app`-mappen. De bliver gradvist lokaliseret.
+> **En bemærkning om quizzer**: Alle quizzer findes i Quiz-app-mappen i etc\quiz-app, eller [Online Her](https://ff-quizzes.netlify.app/). De er linket fra lektionerne, og quiz-appen kan køres lokalt eller implementeres på Azure; følg instruktionerne i `quiz-app`-mappen. De bliver gradvist lokaliseret.
 ## Hjælp ønskes
 
 Har du forslag eller fundet stave- eller kodefejl? Opret en issue eller lav en pull request.
 
 ## Særlig tak
 
-* **✍️ Primær forfatter:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
-* **🔥 Redaktør:** [Jen Looper](https://twitter.com/jenlooper), PhD  
-* **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)  
-* **✅ Quiz-skaber:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
-* **🙏 Kernebidragydere:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
+* **✍️ Primær forfatter:** [Dmitry Soshnikov](http://soshnikov.com), PhD
+* **🔥 Redaktør:** [Jen Looper](https://twitter.com/jenlooper), PhD
+* **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **✅ Quiz-skaber:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **🙏 Kernebidragydere:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
 ## Andre læseplaner
 
 Vores team producerer andre læseplaner! Tjek dem ud:
 
-- [Generativ AI for begyndere](https://aka.ms/genai-beginners)  
-- [Generativ AI for begyndere .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
-- [Generativ AI med JavaScript](https://github.com/microsoft/generative-ai-with-javascript)  
-- [Generativ AI med Java](https://github.com/microsoft/Generative-AI-for-beginners-java)  
-- [AI for begyndere](https://aka.ms/ai-beginners)  
-- [Data Science for begyndere](https://aka.ms/datascience-beginners)  
-- [ML for begyndere](https://aka.ms/ml-beginners)  
-- [Cybersikkerhed for begyndere](https://github.com/microsoft/Security-101)  
-- [Webudvikling for begyndere](https://aka.ms/webdev-beginners)  
-- [IoT for begyndere](https://aka.ms/iot-beginners)  
-- [XR-udvikling for begyndere](https://github.com/microsoft/xr-development-for-beginners)  
-- [Mestre GitHub Copilot til agentisk brug](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
-- [Mestre GitHub Copilot for C#/.NET-udviklere](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
-- [Vælg dit eget Copilot-eventyr](https://github.com/microsoft/CopilotAdventures)  
+- [Generativ AI for begyndere](https://aka.ms/genai-beginners)
+- [Generativ AI for begyndere .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generativ AI med JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [Generativ AI med Java](https://github.com/microsoft/Generative-AI-for-beginners-java)
+- [AI for begyndere](https://aka.ms/ai-beginners)
+- [Data Science for begyndere](https://aka.ms/datascience-beginners)
+- [ML for begyndere](https://aka.ms/ml-beginners)
+- [Cybersikkerhed for begyndere](https://github.com/microsoft/Security-101) 
+- [Webudvikling for begyndere](https://aka.ms/webdev-beginners)
+- [IoT for begyndere](https://aka.ms/iot-beginners)
+- [XR-udvikling for begyndere](https://github.com/microsoft/xr-development-for-beginners)
+- [Mestre GitHub Copilot til agentisk brug](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [Mestre GitHub Copilot for C#/.NET udviklere](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Vælg dit eget Copilot-eventyr](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os intet ansvar for misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
