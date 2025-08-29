@@ -1,101 +1,112 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "f07c85bbf05a1f67505da98f4ecc124c",
+  "translation_date": "2025-08-29T11:51:41+00:00",
+  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
+  "language_code": "ms"
+}
+-->
 # Rangkaian Adversarial Generatif
 
-Dalam bagian sebelumnya, kita telah mempelajari tentang **model generatif**: model yang dapat menghasilkan gambar baru yang mirip dengan yang ada di dataset pelatihan. VAE adalah contoh yang baik dari model generatif.
+Dalam bahagian sebelumnya, kita telah belajar tentang **model generatif**: model yang boleh menghasilkan imej baru yang serupa dengan imej dalam dataset latihan. VAE adalah contoh yang baik bagi model generatif.
 
-## [Kuis Pra-perkuliahan](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
 
-Namun, jika kita mencoba untuk menghasilkan sesuatu yang benar-benar bermakna, seperti lukisan dengan resolusi yang wajar, dengan VAE, kita akan melihat bahwa pelatihan tidak konvergen dengan baik. Untuk kasus penggunaan ini, kita perlu mempelajari arsitektur lain yang ditargetkan secara khusus pada model generatif - **Rangkaian Adversarial Generatif**, atau GAN.
+Namun, jika kita cuba menghasilkan sesuatu yang benar-benar bermakna, seperti lukisan dengan resolusi yang munasabah, menggunakan VAE, kita akan melihat bahawa latihan tidak berkumpul dengan baik. Untuk kes penggunaan ini, kita perlu belajar tentang satu lagi seni bina yang khusus untuk model generatif - **Rangkaian Adversarial Generatif**, atau GAN.
 
-Ide utama dari GAN adalah memiliki dua jaringan saraf yang akan dilatih satu sama lain:
+Idea utama GAN adalah mempunyai dua rangkaian neural yang akan dilatih melawan satu sama lain:
 
 <img src="images/gan_architecture.png" width="70%"/>
 
-> Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
+> Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
-> ✅ Kosakata sedikit:
-> * **Generator** adalah jaringan yang mengambil beberapa vektor acak, dan menghasilkan gambar sebagai hasilnya.
-> * **Discriminator** adalah jaringan yang mengambil gambar, dan seharusnya dapat memberitahu apakah itu adalah gambar nyata (dari dataset pelatihan), atau dihasilkan oleh generator. Ini pada dasarnya adalah pengklasifikasi gambar.
+> ✅ Sedikit perbendaharaan kata:
+> * **Generator** adalah rangkaian yang mengambil beberapa vektor rawak, dan menghasilkan imej sebagai hasilnya
+> * **Discriminator** adalah rangkaian yang mengambil imej, dan ia harus menentukan sama ada ia adalah imej sebenar (daripada dataset latihan), atau ia dihasilkan oleh generator. Ia pada dasarnya adalah pengklasifikasi imej.
 
 ### Discriminator
 
-Arsitektur discriminator tidak berbeda dari jaringan klasifikasi gambar biasa. Dalam kasus paling sederhana, itu bisa menjadi pengklasifikasi terhubung penuh, tetapi kemungkinan besar itu akan menjadi [jaringan konvolusional](../07-ConvNets/README.md).
+Seni bina discriminator tidak berbeza daripada rangkaian pengklasifikasi imej biasa. Dalam kes paling mudah, ia boleh menjadi pengklasifikasi sepenuhnya bersambung, tetapi kemungkinan besar ia akan menjadi [rangkaian konvolusi](../07-ConvNets/README.md).
 
-> ✅ GAN yang berbasis pada jaringan konvolusional disebut [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
+> ✅ GAN berdasarkan rangkaian konvolusi dipanggil [DCGAN](https://arxiv.org/pdf/1511.06434.pdf)
 
-Discriminator CNN terdiri dari lapisan-lapisan berikut: beberapa konvolusi+pooling (dengan ukuran spasial yang semakin berkurang) dan satu atau lebih lapisan terhubung penuh untuk mendapatkan "vektor fitur", pengklasifikasi biner akhir.
+Discriminator CNN terdiri daripada lapisan berikut: beberapa konvolusi+pooling (dengan saiz spatial yang semakin berkurang) dan satu atau lebih lapisan sepenuhnya bersambung untuk mendapatkan "vektor ciri", pengklasifikasi binari akhir.
 
-> ✅ 'Pooling' dalam konteks ini adalah teknik yang mengurangi ukuran gambar. "Lapisan pooling mengurangi dimensi data dengan menggabungkan keluaran kluster neuron pada satu lapisan menjadi satu neuron di lapisan berikutnya." - [sumber](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
+> ✅ 'Pooling' dalam konteks ini adalah teknik yang mengurangkan saiz imej. "Lapisan pooling mengurangkan dimensi data dengan menggabungkan output kluster neuron pada satu lapisan ke dalam satu neuron pada lapisan seterusnya." - [sumber](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
 
 ### Generator
 
-Generator sedikit lebih rumit. Anda dapat menganggapnya sebagai discriminator terbalik. Dimulai dari vektor laten (sebagai pengganti vektor fitur), ia memiliki lapisan terhubung penuh untuk mengubahnya menjadi ukuran/bentuk yang diperlukan, diikuti oleh dekonvolusi+peningkatan skala. Ini mirip dengan bagian *decoder* dari [autoencoder](../09-Autoencoders/README.md).
+Generator sedikit lebih rumit. Anda boleh menganggapnya sebagai discriminator yang terbalik. Bermula dari vektor laten (menggantikan vektor ciri), ia mempunyai lapisan sepenuhnya bersambung untuk menukarnya kepada saiz/bentuk yang diperlukan, diikuti oleh dekonvolusi+peningkatan. Ini serupa dengan bahagian *decoder* dalam [autoencoder](../09-Autoencoders/README.md).
 
-> ✅ Karena lapisan konvolusi diimplementasikan sebagai filter linier yang melintasi gambar, dekonvolusi pada dasarnya mirip dengan konvolusi, dan dapat diimplementasikan menggunakan logika lapisan yang sama.
+> ✅ Oleh kerana lapisan konvolusi dilaksanakan sebagai penapis linear yang melintasi imej, dekonvolusi pada dasarnya serupa dengan konvolusi, dan boleh dilaksanakan menggunakan logik lapisan yang sama.
 
 <img src="images/gan_arch_detail.png" width="70%"/>
 
-> Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
+> Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
 ### Melatih GAN
 
-GAN disebut **adversarial** karena ada kompetisi konstan antara generator dan discriminator. Selama kompetisi ini, baik generator maupun discriminator meningkat, sehingga jaringan belajar untuk menghasilkan gambar yang semakin baik.
+GAN dipanggil **adversarial** kerana terdapat persaingan berterusan antara generator dan discriminator. Semasa persaingan ini, kedua-dua generator dan discriminator bertambah baik, dengan itu rangkaian belajar menghasilkan imej yang semakin baik.
 
-Pelatihan dilakukan dalam dua tahap:
+Latihan berlaku dalam dua peringkat:
 
-* **Melatih discriminator**. Tugas ini cukup sederhana: kita menghasilkan sekumpulan gambar oleh generator, memberi label 0, yang menunjukkan gambar palsu, dan mengambil sekumpulan gambar dari dataset input (dengan label 1, gambar nyata). Kita memperoleh *kerugian discriminator*, dan melakukan backprop.
-* **Melatih generator**. Ini sedikit lebih rumit, karena kita tidak tahu output yang diharapkan untuk generator secara langsung. Kita mengambil seluruh jaringan GAN yang terdiri dari generator diikuti oleh discriminator, memberi umpan dengan beberapa vektor acak, dan mengharapkan hasilnya menjadi 1 (yang sesuai dengan gambar nyata). Kita kemudian membekukan parameter discriminator (kita tidak ingin ia dilatih pada langkah ini), dan melakukan backprop.
+* **Melatih discriminator**. Tugas ini agak mudah: kita menghasilkan satu batch imej oleh generator, melabelkannya 0, yang bermaksud imej palsu, dan mengambil satu batch imej daripada dataset input (dengan label 1, imej sebenar). Kita memperoleh beberapa *discriminator loss*, dan melakukan backprop.
+* **Melatih generator**. Ini sedikit lebih rumit, kerana kita tidak tahu output yang dijangkakan untuk generator secara langsung. Kita mengambil keseluruhan rangkaian GAN yang terdiri daripada generator diikuti oleh discriminator, memberinya beberapa vektor rawak, dan mengharapkan hasilnya menjadi 1 (bersesuaian dengan imej sebenar). Kita kemudian membekukan parameter discriminator (kita tidak mahu ia dilatih pada langkah ini), dan melakukan backprop.
 
-Selama proses ini, baik kerugian generator maupun discriminator tidak turun secara signifikan. Dalam situasi ideal, mereka harus berosilasi, sesuai dengan kedua jaringan yang meningkatkan kinerja mereka.
+Semasa proses ini, kedua-dua generator dan discriminator loss tidak turun dengan ketara. Dalam situasi ideal, mereka sepatutnya berayun, menunjukkan kedua-dua rangkaian meningkatkan prestasi mereka.
 
 ## ✍️ Latihan: GANs
 
-* [Notebook GAN di TensorFlow/Keras](../../../../../lessons/4-ComputerVision/10-GANs/GANTF.ipynb)
-* [Notebook GAN di PyTorch](../../../../../lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb)
+* [Notebook GAN dalam TensorFlow/Keras](GANTF.ipynb)
+* [Notebook GAN dalam PyTorch](GANPyTorch.ipynb)
 
-### Masalah dengan pelatihan GAN
+### Masalah dengan Latihan GAN
 
-GAN dikenal sangat sulit untuk dilatih. Berikut beberapa masalah:
+GAN diketahui sangat sukar untuk dilatih. Berikut adalah beberapa masalah:
 
-* **Mode Collapse**. Dengan istilah ini, kami maksudkan bahwa generator belajar untuk menghasilkan satu gambar sukses yang menipu discriminator, dan bukan variasi gambar yang berbeda.
-* **Sensitivitas terhadap hiperparameter**. Sering kali Anda dapat melihat bahwa GAN tidak konvergen sama sekali, dan kemudian tiba-tiba menurun dalam laju pembelajaran yang mengarah ke konvergensi.
-* Menjaga **keseimbangan** antara generator dan discriminator. Dalam banyak kasus, kerugian discriminator dapat turun ke nol relatif cepat, yang mengakibatkan generator tidak dapat dilatih lebih lanjut. Untuk mengatasi ini, kita dapat mencoba mengatur laju pembelajaran yang berbeda untuk generator dan discriminator, atau melewatkan pelatihan discriminator jika kerugian sudah terlalu rendah.
-* Pelatihan untuk **resolusi tinggi**. Mencerminkan masalah yang sama seperti dengan autoencoder, masalah ini dipicu karena merekonstruksi terlalu banyak lapisan jaringan konvolusional mengarah pada artefak. Masalah ini biasanya diatasi dengan yang disebut **pertumbuhan progresif**, ketika pertama beberapa lapisan dilatih pada gambar resolusi rendah, dan kemudian lapisan "dibuka" atau ditambahkan. Solusi lain adalah menambahkan koneksi ekstra antara lapisan dan melatih beberapa resolusi sekaligus - lihat [makalah Multi-Scale Gradient GANs](https://arxiv.org/abs/1903.06048) untuk rincian.
+* **Mode Collapse**. Istilah ini merujuk kepada generator yang belajar menghasilkan satu imej berjaya yang menipu discriminator, dan bukannya pelbagai imej yang berbeza.
+* **Sensitiviti kepada hiperparameter**. Selalunya anda boleh melihat bahawa GAN tidak berkumpul sama sekali, dan kemudian tiba-tiba penurunan kadar pembelajaran membawa kepada pengumpulan.
+* Menjaga **keseimbangan** antara generator dan discriminator. Dalam banyak kes, discriminator loss boleh turun ke sifar dengan cepat, yang menyebabkan generator tidak dapat dilatih lebih lanjut. Untuk mengatasi ini, kita boleh cuba menetapkan kadar pembelajaran yang berbeza untuk generator dan discriminator, atau melangkau latihan discriminator jika loss sudah terlalu rendah.
+* Latihan untuk **resolusi tinggi**. Masalah ini mencerminkan masalah yang sama seperti dengan autoencoder, yang dicetuskan kerana pembinaan semula terlalu banyak lapisan rangkaian konvolusi membawa kepada artifak. Masalah ini biasanya diselesaikan dengan **pertumbuhan progresif**, di mana beberapa lapisan pertama dilatih pada imej resolusi rendah, dan kemudian lapisan "dibuka" atau ditambah. Penyelesaian lain adalah menambah sambungan tambahan antara lapisan dan melatih beberapa resolusi sekaligus - lihat kertas [Multi-Scale Gradient GANs](https://arxiv.org/abs/1903.06048) untuk butiran.
 
-## Transfer Gaya
+## Pemindahan Gaya
 
-GAN adalah cara yang hebat untuk menghasilkan gambar artistik. Teknik menarik lainnya adalah yang disebut **transfer gaya**, yang mengambil satu **gambar konten**, dan menggambarnya kembali dalam gaya yang berbeda, menerapkan filter dari **gambar gaya**.
+GAN adalah cara yang hebat untuk menghasilkan imej artistik. Teknik menarik lain adalah **pemindahan gaya**, yang mengambil satu **imej kandungan**, dan melukis semula dalam gaya yang berbeza, menggunakan penapis daripada **imej gaya**.
 
-Cara kerjanya adalah sebagai berikut:
-* Kita mulai dengan gambar kebisingan acak (atau dengan gambar konten, tetapi demi pemahaman, lebih mudah untuk memulai dari kebisingan acak).
-* Tujuan kita adalah untuk menciptakan gambar sedemikian rupa, sehingga dekat dengan gambar konten dan gambar gaya. Ini akan ditentukan oleh dua fungsi kerugian:
-   - **Kerugian konten** dihitung berdasarkan fitur yang diekstrak oleh CNN di beberapa lapisan dari gambar saat ini dan gambar konten.
-   - **Kerugian gaya** dihitung antara gambar saat ini dan gambar gaya dengan cara yang cerdas menggunakan matriks Gram (lebih banyak rincian dalam [notebook contoh](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)).
-* Untuk membuat gambar lebih halus dan menghilangkan kebisingan, kita juga memperkenalkan **Kerugian Variasi**, yang menghitung jarak rata-rata antara piksel tetangga.
-* Loop optimisasi utama menyesuaikan gambar saat ini menggunakan penurunan gradien (atau beberapa algoritma optimisasi lainnya) untuk meminimalkan total kerugian, yang merupakan jumlah tertimbang dari ketiga kerugian.
+Cara ia berfungsi adalah seperti berikut:
+* Kita bermula dengan imej bunyi rawak (atau dengan imej kandungan, tetapi untuk pemahaman lebih mudah, kita bermula dengan bunyi rawak)
+* Matlamat kita adalah untuk mencipta imej yang dekat dengan kedua-dua imej kandungan dan imej gaya. Ini ditentukan oleh dua fungsi loss:
+   - **Content loss** dikira berdasarkan ciri yang diekstrak oleh CNN pada beberapa lapisan daripada imej semasa dan imej kandungan
+   - **Style loss** dikira antara imej semasa dan imej gaya dengan cara yang bijak menggunakan matriks Gram (butiran lanjut dalam [notebook contoh](StyleTransfer.ipynb))
+* Untuk menjadikan imej lebih licin dan menghilangkan bunyi, kita juga memperkenalkan **Variation loss**, yang mengira jarak purata antara piksel yang berdekatan
+* Gelung pengoptimuman utama menyesuaikan imej semasa menggunakan penurunan kecerunan (atau beberapa algoritma pengoptimuman lain) untuk meminimumkan jumlah loss, yang merupakan jumlah berwajaran semua tiga loss.
 
-## ✍️ Contoh: [Transfer Gaya](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
+## ✍️ Contoh: [Pemindahan Gaya](StyleTransfer.ipynb)
 
-## [Kuis Pasca-perkuliahan](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
 
 ## Kesimpulan
 
-Dalam pelajaran ini, Anda belajar tentang GAN dan cara melatihnya. Anda juga belajar tentang tantangan khusus yang dapat dihadapi oleh jenis Jaringan Saraf ini, dan beberapa strategi tentang cara mengatasinya.
+Dalam pelajaran ini, anda telah belajar tentang GAN dan cara melatihnya. Anda juga telah belajar tentang cabaran khas yang dihadapi oleh jenis Rangkaian Neural ini, dan beberapa strategi untuk mengatasinya.
 
-## 🚀 Tantangan
+## 🚀 Cabaran
 
-Jalankan [notebook Transfer Gaya](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb) menggunakan gambar Anda sendiri.
+Jalankan notebook [Pemindahan Gaya](StyleTransfer.ipynb) menggunakan imej anda sendiri.
 
-## Tinjauan & Studi Mandiri
+## Kajian & Pembelajaran Kendiri
 
-Sebagai referensi, baca lebih lanjut tentang GAN di sumber-sumber ini:
+Sebagai rujukan, baca lebih lanjut tentang GAN dalam sumber berikut:
 
-* Marco Pasini, [10 Pelajaran yang Saya Pelajari Melatih GAN selama Satu Tahun](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
-* [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN), arsitektur GAN *de facto* yang perlu dipertimbangkan
-* [Membuat Seni Generatif menggunakan GAN di Azure ML](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/)
+* Marco Pasini, [10 Pengajaran yang Saya Pelajari Melatih GAN selama Satu Tahun](https://towardsdatascience.com/10-lessons-i-learned-training-generative-adversarial-networks-gans-for-a-year-c9071159628)
+* [StyleGAN](https://en.wikipedia.org/wiki/StyleGAN), seni bina GAN *de facto* untuk dipertimbangkan
+* [Mencipta Seni Generatif menggunakan GAN di Azure ML](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/)
 
-## Tugas
+## Tugasan
 
-Kunjungi kembali salah satu dari dua notebook yang terkait dengan pelajaran ini dan latih ulang GAN pada gambar Anda sendiri. Apa yang dapat Anda ciptakan?
+Kaji semula salah satu daripada dua notebook yang berkaitan dengan pelajaran ini dan latih semula GAN menggunakan imej anda sendiri. Apa yang boleh anda cipta?
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-29T11:50:36+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "ms"
+}
+-->
 # Pengesanan Kepala menggunakan Dataset Hollywood Heads
 
-Tugasan Makmal dari [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
+Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
 
-## Tugas
+## Tugasan
 
-Mengira jumlah orang dalam aliran kamera pengawasan video adalah tugas penting yang membolehkan kita menganggarkan jumlah pengunjung di kedai, waktu sibuk di restoran, dan sebagainya. Untuk menyelesaikan tugas ini, kita perlu dapat mengesan kepala manusia dari pelbagai sudut. Untuk melatih model pengesanan objek bagi mengesan kepala manusia, kita boleh menggunakan [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/).
+Mengira bilangan orang dalam aliran kamera pengawasan video adalah tugas penting yang membolehkan kita menganggarkan jumlah pengunjung di kedai, waktu sibuk di restoran, dan sebagainya. Untuk menyelesaikan tugas ini, kita perlu dapat mengesan kepala manusia dari pelbagai sudut. Untuk melatih model pengesanan objek bagi mengesan kepala manusia, kita boleh menggunakan [Dataset Hollywood Heads](https://www.di.ens.fr/willow/research/headdetection/).
 
 ## Dataset
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) mengandungi 369,846 kepala manusia yang ditandakan dalam 224,740 bingkai filem dari filem Hollywood. Ia disediakan dalam format [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC), di mana untuk setiap imej terdapat juga fail penerangan XML yang kelihatan seperti ini:
+[Dataset Hollywood Heads](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) mengandungi 369,846 kepala manusia yang telah dianotasi dalam 224,740 bingkai filem dari filem Hollywood. Ia disediakan dalam format [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC), di mana untuk setiap imej terdapat juga fail penerangan XML yang kelihatan seperti ini:
 
 ```xml
 <annotation>
@@ -48,19 +57,21 @@ Mengira jumlah orang dalam aliran kamera pengawasan video adalah tugas penting y
 </annotation>
 ```
 
-Dalam dataset ini, terdapat hanya satu kelas objek `head`, dan untuk setiap kepala, anda akan mendapatkan koordinat kotak pembatas. Anda boleh menguraikan XML menggunakan perpustakaan Python, atau menggunakan [perpustakaan ini](https://pypi.org/project/pascal-voc/) untuk berurusan secara langsung dengan format PASCAL VOC.
+Dalam dataset ini, hanya terdapat satu kelas objek iaitu `head`, dan untuk setiap kepala, anda akan mendapat koordinat kotak sempadan. Anda boleh memproses XML menggunakan perpustakaan Python, atau menggunakan [perpustakaan ini](https://pypi.org/project/pascal-voc/) untuk berurusan secara langsung dengan format PASCAL VOC.
 
 ## Melatih Pengesanan Objek 
 
 Anda boleh melatih model pengesanan objek menggunakan salah satu cara berikut:
 
-* Menggunakan [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) dan API Python-nya untuk melatih model secara programatik di awan. Penglihatan khusus tidak dapat menggunakan lebih daripada beberapa ratus imej untuk melatih model, jadi anda mungkin perlu mengehadkan dataset.
-* Menggunakan contoh dari [tutorial Keras](https://keras.io/examples/vision/retinanet/) untuk melatih model RetinaNet.
+* Menggunakan [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) dan API Python untuk melatih model secara programatik di awan. Custom Vision tidak dapat menggunakan lebih daripada beberapa ratus imej untuk melatih model, jadi anda mungkin perlu mengehadkan dataset.
+* Menggunakan contoh daripada [tutorial Keras](https://keras.io/examples/vision/retinanet/) untuk melatih model RetunaNet.
 * Menggunakan modul terbina dalam [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) dalam torchvision.
 
 ## Pengajaran
 
-Pengesanan objek adalah tugas yang sering diperlukan dalam industri. Walaupun terdapat beberapa perkhidmatan yang boleh digunakan untuk melakukan pengesanan objek (seperti [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), adalah penting untuk memahami bagaimana pengesanan objek berfungsi dan untuk dapat melatih model anda sendiri.
+Pengesanan objek adalah tugas yang sering diperlukan dalam industri. Walaupun terdapat beberapa perkhidmatan yang boleh digunakan untuk melakukan pengesanan objek (seperti [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), adalah penting untuk memahami bagaimana pengesanan objek berfungsi dan mampu melatih model anda sendiri.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia yang profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

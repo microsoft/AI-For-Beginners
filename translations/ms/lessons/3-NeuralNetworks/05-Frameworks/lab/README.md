@@ -1,19 +1,30 @@
-# Klasifikasi dengan PyTorch/TensorFlow
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-29T11:56:06+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "ms"
+}
+-->
+# Pengelasan dengan PyTorch/TensorFlow
 
-Tugasan Makmal dari [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
+Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
 
-## Tugas
+## Tugasan
 
-Selesaikan dua masalah klasifikasi menggunakan rangkaian sepenuhnya berhubung tunggal dan berlapis banyak menggunakan PyTorch atau TensorFlow:
+Selesaikan dua masalah pengelasan menggunakan rangkaian sepenuhnya bersambung satu lapisan dan berbilang lapisan dengan PyTorch atau TensorFlow:
 
-1. **Masalah klasifikasi Iris** - contoh masalah dengan data input tabular, yang boleh ditangani oleh pembelajaran mesin klasik. Matlamat anda adalah untuk mengklasifikasikan iris ke dalam 3 kelas, berdasarkan 4 parameter numerik.
-1. **MNIST** masalah klasifikasi digit tulisan tangan yang telah kita lihat sebelum ini.
+1. **[Pengelasan Iris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - contoh masalah dengan data input berbentuk tabular, yang boleh ditangani oleh pembelajaran mesin klasik. Matlamat anda adalah untuk mengelaskan bunga iris kepada 3 kelas, berdasarkan 4 parameter berangka.
+1. **MNIST** masalah pengelasan digit tulisan tangan yang telah kita lihat sebelum ini.
 
-Cuba pelbagai seni bina rangkaian untuk mencapai ketepatan terbaik yang anda boleh dapatkan.
+Cuba pelbagai seni bina rangkaian untuk mencapai ketepatan terbaik yang boleh anda peroleh.
 
-## Memulakan Notebook
+## Notebook Permulaan
 
-Mulakan makmal dengan membuka [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+Mulakan makmal dengan membuka [LabFrameworks.ipynb](LabFrameworks.ipynb)
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI berasaskan mesin. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab terhadap sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

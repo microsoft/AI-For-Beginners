@@ -1,38 +1,47 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
+  "translation_date": "2025-08-29T12:03:02+00:00",
+  "source_file": "etc/quiz-app/README.md",
+  "language_code": "ms"
+}
+-->
 # Kuiz
 
-Kuiz ini adalah kuiz pra- dan pasca-kuliah untuk kurikulum AI di https://aka.ms/ai-beginners
+Kuiz-kuiz ini adalah kuiz sebelum dan selepas kuliah untuk kurikulum AI di https://aka.ms/ai-beginners
 
 ## Menambah set kuiz terjemahan
 
-Tambahkan terjemahan kuiz dengan membuat struktur kuiz yang sesuai dalam folder `assets/translations`. Kuiz kanonik terdapat di `assets/translations/en`. Kuiz dibagi menjadi beberapa kelompok berdasarkan pelajaran. Pastikan untuk menyelaraskan penomoran dengan bagian kuiz yang tepat. Terdapat 40 kuiz dalam kurikulum ini, dengan hitungan dimulai dari 0.
+Tambah terjemahan kuiz dengan mencipta struktur kuiz yang sepadan dalam folder `assets/translations`. Kuiz asal terdapat dalam `assets/translations/en`. Kuiz-kuiz ini dibahagikan kepada beberapa kumpulan mengikut pelajaran. Pastikan nombor kuiz sejajar dengan bahagian kuiz yang betul. Terdapat 40 kuiz keseluruhan dalam kurikulum ini, dengan kiraan bermula dari 0.
 
-Setelah mengedit terjemahan, edit file index.js dalam folder terjemahan untuk mengimpor semua file mengikuti konvensi di `en`.
+Selepas mengedit terjemahan, edit fail index.js dalam folder terjemahan untuk mengimport semua fail mengikut konvensyen dalam `en`.
 
-Edit file `index.js` di `assets/translations` untuk mengimpor file terjemahan baru.
+Edit fail `index.js` dalam `assets/translations` untuk mengimport fail terjemahan yang baru.
 
-Kemudian, edit dropdown di `App.vue` dalam aplikasi ini untuk menambahkan bahasa Anda. Sesuaikan singkatan lokal dengan nama folder untuk bahasa Anda.
+Kemudian, edit dropdown dalam `App.vue` dalam aplikasi ini untuk menambah bahasa anda. Padankan singkatan bahasa tempatan dengan nama folder untuk bahasa anda.
 
-Akhirnya, edit semua tautan kuiz dalam pelajaran yang diterjemahkan, jika ada, untuk menyertakan lokalisasi ini sebagai parameter kueri: `?loc=fr` misalnya.
+Akhir sekali, edit semua pautan kuiz dalam pelajaran yang diterjemahkan, jika ada, untuk memasukkan lokalisasi ini sebagai parameter pertanyaan: `?loc=fr` sebagai contoh.
 
-## Pengaturan Proyek
+## Persediaan Projek
 
 ```
 npm install
 ```
 
-### Mengkompilasi dan memuat ulang secara panas untuk pengembangan
+### Kompil dan muat semula secara langsung untuk pembangunan
 
 ```
 npm run serve
 ```
 
-### Mengkompilasi dan meminimalkan untuk produksi
+### Kompil dan minimakan untuk pengeluaran
 
 ```
 npm run build
 ```
 
-### Memeriksa dan memperbaiki file
+### Lint dan betulkan fail
 
 ```
 npm run lint
@@ -40,56 +49,56 @@ npm run lint
 
 ### Sesuaikan konfigurasi
 
-Lihat [Referensi Konfigurasi](https://cli.vuejs.org/config/).
+Lihat [Rujukan Konfigurasi](https://cli.vuejs.org/config/).
 
-Kredit: Terima kasih kepada versi asli aplikasi kuiz ini: https://github.com/arpan45/simple-quiz-vue
+Kredit: Terima kasih kepada versi asal aplikasi kuiz ini: https://github.com/arpan45/simple-quiz-vue
 
-## Meng-deploy ke Azure
+## Menyebarkan ke Azure
 
-Berikut adalah panduan langkah-demi-langkah untuk membantu Anda memulai:
+Berikut adalah panduan langkah demi langkah untuk membantu anda bermula:
 
 1. Fork Repositori GitHub
-Pastikan kode aplikasi web statis Anda ada di repositori GitHub Anda. Fork repositori ini.
+Pastikan kod aplikasi web statik anda berada dalam repositori GitHub anda. Fork repositori ini.
 
-2. Buat Azure Static Web App
-- Buat dan [akun Azure](http://azure.microsoft.com)
+2. Cipta Aplikasi Web Statik Azure
+- Cipta [akaun Azure](http://azure.microsoft.com)
 - Pergi ke [portal Azure](https://portal.azure.com) 
-- Klik “Buat sumber daya” dan cari “Static Web App”.
-- Klik “Buat”.
+- Klik “Create a resource” dan cari “Static Web App”.
+- Klik “Create”.
 
-3. Konfigurasikan Static Web App
-- Dasar: Langganan: Pilih langganan Azure Anda.
-- Grup Sumber Daya: Buat grup sumber daya baru atau gunakan yang sudah ada.
-- Nama: Berikan nama untuk aplikasi web statis Anda.
-- Wilayah: Pilih wilayah yang paling dekat dengan pengguna Anda.
+3. Konfigurasi Aplikasi Web Statik
+- Asas: Langganan: Pilih langganan Azure anda.
+- Kumpulan Sumber: Cipta kumpulan sumber baru atau gunakan yang sedia ada.
+- Nama: Berikan nama untuk aplikasi web statik anda.
+- Wilayah: Pilih wilayah yang paling dekat dengan pengguna anda.
 
-- #### Detail Penempatan:
+- #### Butiran Penyebaran:
 - Sumber: Pilih “GitHub”.
-- Akun GitHub: Beri izin Azure untuk mengakses akun GitHub Anda.
-- Organisasi: Pilih organisasi GitHub Anda.
-- Repositori: Pilih repositori yang berisi aplikasi web statis Anda.
-- Cabang: Pilih cabang yang ingin Anda gunakan untuk melakukan penempatan.
+- Akaun GitHub: Benarkan Azure mengakses akaun GitHub anda.
+- Organisasi: Pilih organisasi GitHub anda.
+- Repositori: Pilih repositori yang mengandungi aplikasi web statik anda.
+- Cawangan: Pilih cawangan yang anda ingin sebarkan.
 
-- #### Detail Build:
-- Preset Build: Pilih kerangka kerja yang digunakan aplikasi Anda (misalnya, React, Angular, Vue, dll.).
-- Lokasi Aplikasi: Tentukan folder yang berisi kode aplikasi Anda (misalnya, / jika berada di root).
-- Lokasi API: Jika Anda memiliki API, tentukan lokasinya (opsional).
-- Lokasi Output: Tentukan folder di mana output build dihasilkan (misalnya, build atau dist).
+- #### Butiran Pembinaan:
+- Preset Pembinaan: Pilih kerangka kerja yang digunakan oleh aplikasi anda (contoh: React, Angular, Vue, dll.).
+- Lokasi Aplikasi: Nyatakan folder yang mengandungi kod aplikasi anda (contoh: / jika ia berada di root).
+- Lokasi API: Jika anda mempunyai API, nyatakan lokasinya (pilihan).
+- Lokasi Output: Nyatakan folder di mana output pembinaan dihasilkan (contoh: build atau dist).
 
-4. Tinjau dan Buat
-Tinjau pengaturan Anda dan klik “Buat”. Azure akan menyiapkan sumber daya yang diperlukan dan membuat alur kerja GitHub Actions di repositori Anda.
+4. Semak dan Cipta
+Semak tetapan anda dan klik “Create”. Azure akan menyediakan sumber yang diperlukan dan mencipta fail aliran kerja GitHub Actions dalam repositori anda.
 
-5. Alur Kerja GitHub Actions
-Azure akan secara otomatis membuat file alur kerja GitHub Actions di repositori Anda (.github/workflows/azure-static-web-apps-<name>.yml). Alur kerja ini akan menangani proses build dan penempatan.
+5. Aliran Kerja GitHub Actions
+Azure akan secara automatik mencipta fail aliran kerja GitHub Actions dalam repositori anda (.github/workflows/azure-static-web-apps-<name>.yml). Aliran kerja ini akan mengendalikan proses pembinaan dan penyebaran.
 
-6. Pantau Penempatan
-Pergi ke tab “Actions” di repositori GitHub Anda.
-Anda seharusnya melihat alur kerja yang sedang berjalan. Alur kerja ini akan membangun dan menempatkan aplikasi web statis Anda ke Azure.
-Setelah alur kerja selesai, aplikasi Anda akan live di URL Azure yang disediakan.
+6. Pantau Penyebaran
+Pergi ke tab “Actions” dalam repositori GitHub anda.
+Anda sepatutnya melihat aliran kerja sedang berjalan. Aliran kerja ini akan membina dan menyebarkan aplikasi web statik anda ke Azure.
+Setelah aliran kerja selesai, aplikasi anda akan tersedia secara langsung pada URL Azure yang disediakan.
 
-### Contoh File Alur Kerja
+### Contoh Fail Aliran Kerja
 
-Berikut adalah contoh bagaimana file alur kerja GitHub Actions mungkin terlihat:
+Berikut adalah contoh bagaimana fail aliran kerja GitHub Actions mungkin kelihatan:
 name: Azure Static Web Apps CI/CD
 ```
 on:
@@ -119,9 +128,11 @@ jobs:
           output_location: "dist" #Built app content directory - optional
 ```
 
-### Sumber Daya Tambahan
+### Sumber Tambahan
 - [Dokumentasi Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/getting-started)
 - [Dokumentasi GitHub Actions](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)
 
+---
+
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi ralat atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat penting, terjemahan manusia yang profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

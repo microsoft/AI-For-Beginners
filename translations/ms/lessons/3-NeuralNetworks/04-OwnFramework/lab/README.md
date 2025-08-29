@@ -1,23 +1,34 @@
-# Klasifikasi MNIST dengan Kerangka Sendiri Kami
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-29T11:55:04+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "ms"
+}
+-->
+# Pengelasan MNIST dengan Rangka Kerja Kita Sendiri
 
-Tugasan Makmal dari [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
+Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
 
 ## Tugas
 
-Selesaikan masalah klasifikasi digit tulisan tangan MNIST menggunakan perceptron lapisan 1, 2, dan 3. Gunakan kerangka rangkaian saraf yang telah kami kembangkan dalam pelajaran.
+Selesaikan masalah pengelasan digit tulisan tangan MNIST menggunakan perceptron 1-, 2-, dan 3-lapisan. Gunakan rangka kerja rangkaian neural yang telah kita bangunkan dalam pelajaran.
 
-## Membuka Notebook
+## Memulakan Notebook
 
-Mulakan makmal dengan membuka [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
+Mulakan makmal dengan membuka [MyFW_MNIST.ipynb](MyFW_MNIST.ipynb)
 
 ## Soalan
 
-Sebagai hasil daripada makmal ini, cuba jawab soalan-soalan berikut:
+Sebagai hasil daripada makmal ini, cuba jawab soalan berikut:
 
 - Adakah fungsi pengaktifan antara lapisan mempengaruhi prestasi rangkaian?
-- Adakah kita memerlukan rangkaian 2 atau 3 lapisan untuk tugas ini?
+- Adakah kita memerlukan rangkaian 2- atau 3-lapisan untuk tugas ini?
 - Adakah anda mengalami sebarang masalah semasa melatih rangkaian? Terutamanya apabila bilangan lapisan meningkat.
-- Bagaimana berat rangkaian berkelakuan semasa latihan? Anda boleh melukis nilai abs maksimum berat berbanding epoch untuk memahami hubungan tersebut.
+- Bagaimana tingkah laku berat rangkaian semasa latihan? Anda boleh plot nilai mutlak maksimum berat vs. epoch untuk memahami hubungannya.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia yang profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

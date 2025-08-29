@@ -1,33 +1,42 @@
-# Pembelajaran Penguatan Dalam
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "dbacf9b1915612981d76059678e563e5",
+  "translation_date": "2025-08-29T11:45:42+00:00",
+  "source_file": "lessons/6-Other/22-DeepRL/README.md",
+  "language_code": "ms"
+}
+-->
+# Pembelajaran Pengukuhan Mendalam
 
-Pembelajaran penguatan (RL) dilihat sebagai salah satu paradigma dasar pembelajaran mesin, bersebelahan dengan pembelajaran terawasi dan pembelajaran tidak terawasi. Sementara dalam pembelajaran terawasi kita bergantung pada dataset dengan hasil yang diketahui, RL didasarkan pada **belajar melalui pengalaman**. Sebagai contoh, ketika kita pertama kali melihat permainan komputer, kita mulai bermain, bahkan tanpa mengetahui aturannya, dan segera kita dapat meningkatkan keterampilan kita hanya melalui proses bermain dan menyesuaikan perilaku kita.
+Pembelajaran pengukuhan (RL) dianggap sebagai salah satu paradigma asas pembelajaran mesin, selain pembelajaran diselia dan pembelajaran tidak diselia. Dalam pembelajaran diselia, kita bergantung pada dataset dengan hasil yang diketahui, manakala RL berdasarkan **belajar melalui pengalaman**. Sebagai contoh, apabila kita pertama kali melihat permainan komputer, kita mula bermain walaupun tanpa mengetahui peraturannya, dan tidak lama kemudian kita dapat meningkatkan kemahiran kita hanya melalui proses bermain dan menyesuaikan tingkah laku kita.
 
-## [Kuiz Pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
 
-Untuk melakukan RL, kita memerlukan:
+Untuk melaksanakan RL, kita memerlukan:
 
-* **Lingkungan** atau **simulator** yang menetapkan aturan permainan. Kita harus dapat menjalankan eksperimen dalam simulator dan mengamati hasilnya.
-* Beberapa **Fungsi Reward**, yang menunjukkan seberapa sukses eksperimen kita. Dalam hal belajar bermain permainan komputer, reward akan menjadi skor akhir kita.
+* **Persekitaran** atau **simulator** yang menetapkan peraturan permainan. Kita harus dapat menjalankan eksperimen dalam simulator dan memerhatikan hasilnya.
+* **Fungsi ganjaran**, yang menunjukkan sejauh mana eksperimen kita berjaya. Dalam kes belajar bermain permainan komputer, ganjaran adalah skor akhir kita.
 
-Berdasarkan fungsi reward, kita harus dapat menyesuaikan perilaku kita dan meningkatkan keterampilan kita, sehingga di lain waktu kita bermain dengan lebih baik. Perbedaan utama antara jenis pembelajaran mesin lainnya dan RL adalah bahwa dalam RL kita biasanya tidak tahu apakah kita menang atau kalah sampai kita menyelesaikan permainan. Dengan demikian, kita tidak dapat mengatakan apakah gerakan tertentu baik atau tidak - kita hanya menerima reward di akhir permainan.
+Berdasarkan fungsi ganjaran, kita harus dapat menyesuaikan tingkah laku kita dan meningkatkan kemahiran kita supaya kita bermain dengan lebih baik pada masa akan datang. Perbezaan utama antara jenis pembelajaran mesin lain dan RL ialah dalam RL kita biasanya tidak tahu sama ada kita menang atau kalah sehingga kita selesai bermain. Oleh itu, kita tidak dapat mengatakan sama ada satu langkah tertentu sahaja adalah baik atau tidak - kita hanya menerima ganjaran di akhir permainan.
 
-Selama RL, kita biasanya melakukan banyak eksperimen. Selama setiap eksperimen, kita perlu menyeimbangkan antara mengikuti strategi optimal yang telah kita pelajari sejauh ini (**eksploitasi**) dan menjelajahi kemungkinan keadaan baru (**eksplorasi**).
+Semasa RL, kita biasanya menjalankan banyak eksperimen. Dalam setiap eksperimen, kita perlu mengimbangi antara mengikuti strategi optimum yang telah kita pelajari setakat ini (**eksploitasi**) dan meneroka keadaan baharu yang mungkin (**eksplorasi**).
 
 ## OpenAI Gym
 
-Salah satu alat hebat untuk RL adalah [OpenAI Gym](https://gym.openai.com/) - sebuah **lingkungan simulasi**, yang dapat mensimulasikan banyak lingkungan berbeda mulai dari permainan Atari hingga fisika di balik penyeimbangan tiang. Ini adalah salah satu lingkungan simulasi yang paling populer untuk melatih algoritma pembelajaran penguatan, dan dikelola oleh [OpenAI](https://openai.com/).
+Satu alat yang hebat untuk RL ialah [OpenAI Gym](https://gym.openai.com/) - sebuah **persekitaran simulasi**, yang boleh mensimulasikan pelbagai persekitaran bermula daripada permainan Atari, hingga fizik di sebalik keseimbangan tiang. Ia adalah salah satu persekitaran simulasi paling popular untuk melatih algoritma pembelajaran pengukuhan, dan diselenggara oleh [OpenAI](https://openai.com/).
 
-> **Catatan**: Anda dapat melihat semua lingkungan yang tersedia dari OpenAI Gym [di sini](https://gym.openai.com/envs/#classic_control).
+> **Nota**: Anda boleh melihat semua persekitaran yang tersedia daripada OpenAI Gym [di sini](https://gym.openai.com/envs/#classic_control).
 
-## Penyeimbangan CartPole
+## Keseimbangan CartPole
 
-Anda mungkin semua telah melihat perangkat penyeimbang modern seperti *Segway* atau *Gyroscooters*. Mereka mampu menyeimbangkan secara otomatis dengan menyesuaikan roda mereka sebagai respons terhadap sinyal dari akselerometer atau giroskop. Dalam bagian ini, kita akan belajar bagaimana menyelesaikan masalah serupa - menyeimbangkan sebuah tiang. Ini mirip dengan situasi ketika seorang penghibur sirkus perlu menyeimbangkan tiang di tangannya - tetapi penyeimbangan tiang ini hanya terjadi dalam 1D.
+Anda mungkin pernah melihat alat keseimbangan moden seperti *Segway* atau *Gyroscooters*. Alat ini dapat menyeimbangkan secara automatik dengan menyesuaikan roda mereka sebagai tindak balas kepada isyarat daripada accelerometer atau giroskop. Dalam bahagian ini, kita akan belajar bagaimana menyelesaikan masalah yang serupa - menyeimbangkan tiang. Ia serupa dengan situasi di mana seorang penghibur sarkas perlu menyeimbangkan tiang di tangannya - tetapi keseimbangan tiang ini hanya berlaku dalam 1D.
 
-Versi sederhana dari penyeimbangan dikenal sebagai masalah **CartPole**. Dalam dunia cartpole, kita memiliki penggeser horizontal yang dapat bergerak ke kiri atau kanan, dan tujuannya adalah untuk menyeimbangkan tiang vertikal di atas penggeser saat bergerak.
+Versi ringkas keseimbangan dikenali sebagai masalah **CartPole**. Dalam dunia cartpole, kita mempunyai peluncur mendatar yang boleh bergerak ke kiri atau kanan, dan matlamatnya adalah untuk menyeimbangkan tiang menegak di atas peluncur semasa ia bergerak.
 
 <img alt="a cartpole" src="images/cartpole.png" width="200"/>
 
-Untuk membuat dan menggunakan lingkungan ini, kita memerlukan beberapa baris kode Python:
+Untuk mencipta dan menggunakan persekitaran ini, kita memerlukan beberapa baris kod Python:
 
 ```python
 import gym
@@ -45,73 +54,75 @@ while not done:
 print(f"Total reward: {total_reward}")
 ```
 
-Setiap lingkungan dapat diakses dengan cara yang sama:
-* `env.reset` starts a new experiment
-* `env.step` melakukan langkah simulasi. Ini menerima **aksi** dari **ruang aksi**, dan mengembalikan **observasi** (dari ruang observasi), serta reward dan bendera penghentian.
+Setiap persekitaran boleh diakses dengan cara yang sama:
+* `env.reset` memulakan eksperimen baharu
+* `env.step` melaksanakan langkah simulasi. Ia menerima **tindakan** daripada **ruang tindakan**, dan mengembalikan **pemerhatian** (daripada ruang pemerhatian), serta ganjaran dan bendera penamatan.
 
-Dalam contoh di atas kita melakukan aksi acak di setiap langkah, itulah sebabnya kehidupan eksperimen sangat singkat:
+Dalam contoh di atas, kita melaksanakan tindakan rawak pada setiap langkah, sebab itu jangka hayat eksperimen sangat pendek:
 
 ![non-balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
 
-Tujuan dari algoritma RL adalah untuk melatih model - yang disebut **kebijakan** π - yang akan mengembalikan aksi sebagai respons terhadap keadaan tertentu. Kita juga dapat mempertimbangkan kebijakan ini bersifat probabilistik, misalnya untuk setiap keadaan *s* dan aksi *a* akan mengembalikan probabilitas π(*a*|*s*) bahwa kita harus mengambil *a* dalam keadaan *s*.
+Matlamat algoritma RL adalah untuk melatih model - yang dipanggil **dasar** π - yang akan mengembalikan tindakan sebagai tindak balas kepada keadaan tertentu. Kita juga boleh menganggap dasar sebagai probabilistik, contohnya untuk mana-mana keadaan *s* dan tindakan *a*, ia akan mengembalikan kebarangkalian π(*a*|*s*) bahawa kita harus mengambil *a* dalam keadaan *s*.
 
-## Algoritma Gradien Kebijakan
+## Algoritma Policy Gradients
 
-Cara paling jelas untuk memodelkan kebijakan adalah dengan membuat jaringan saraf yang akan mengambil keadaan sebagai input, dan mengembalikan aksi yang sesuai (atau lebih tepatnya probabilitas dari semua aksi). Dalam arti tertentu, ini akan mirip dengan tugas klasifikasi normal, dengan perbedaan utama - kita tidak tahu sebelumnya aksi mana yang harus kita ambil di setiap langkah.
+Cara yang paling jelas untuk memodelkan dasar adalah dengan mencipta rangkaian neural yang akan mengambil keadaan sebagai input, dan mengembalikan tindakan yang sepadan (atau lebih tepatnya kebarangkalian semua tindakan). Dalam erti kata lain, ia akan serupa dengan tugas klasifikasi biasa, dengan perbezaan utama - kita tidak tahu terlebih dahulu tindakan mana yang harus kita ambil pada setiap langkah.
 
-Ide di sini adalah untuk memperkirakan probabilitas tersebut. Kita membangun vektor **reward kumulatif** yang menunjukkan total reward kita di setiap langkah eksperimen. Kita juga menerapkan **diskonto reward** dengan mengalikan reward sebelumnya dengan beberapa koefisien γ=0.99, untuk mengurangi peran reward sebelumnya. Kemudian, kita memperkuat langkah-langkah tersebut sepanjang jalur eksperimen yang menghasilkan reward lebih besar.
+Idea di sini adalah untuk menganggarkan kebarangkalian tersebut. Kita membina vektor **ganjaran kumulatif** yang menunjukkan ganjaran keseluruhan kita pada setiap langkah eksperimen. Kita juga menggunakan **diskaun ganjaran** dengan mendarabkan ganjaran awal dengan beberapa pekali γ=0.99, untuk mengurangkan peranan ganjaran awal. Kemudian, kita menguatkan langkah-langkah sepanjang laluan eksperimen yang menghasilkan ganjaran yang lebih besar.
 
-> Pelajari lebih lanjut tentang algoritma Gradien Kebijakan dan lihat dalam aksi di [notebook contoh](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb).
+> Ketahui lebih lanjut tentang algoritma Policy Gradient dan lihat ia beraksi dalam [notebook contoh](CartPole-RL-TF.ipynb).
 
-## Algoritma Aktor-Kritik
+## Algoritma Actor-Critic
 
-Versi yang lebih baik dari pendekatan Gradien Kebijakan disebut **Aktor-Kritik**. Ide utama di baliknya adalah bahwa jaringan saraf akan dilatih untuk mengembalikan dua hal:
+Versi yang lebih baik daripada pendekatan Policy Gradients dipanggil **Actor-Critic**. Idea utama di sebaliknya ialah rangkaian neural akan dilatih untuk mengembalikan dua perkara:
 
-* Kebijakan, yang menentukan aksi mana yang harus diambil. Bagian ini disebut **aktor**
-* Estimasi total reward yang dapat kita harapkan untuk didapatkan pada keadaan ini - bagian ini disebut **kritik**.
+* Dasar, yang menentukan tindakan mana yang perlu diambil. Bahagian ini dipanggil **actor**
+* Anggaran ganjaran keseluruhan yang boleh kita harapkan untuk diperoleh dalam keadaan ini - bahagian ini dipanggil **critic**.
 
-Dalam arti tertentu, arsitektur ini menyerupai [GAN](../../4-ComputerVision/10-GANs/README.md), di mana kita memiliki dua jaringan yang dilatih melawan satu sama lain. Dalam model aktor-kritik, aktor mengusulkan aksi yang perlu kita ambil, dan kritik berusaha untuk bersikap kritis dan memperkirakan hasilnya. Namun, tujuan kita adalah untuk melatih jaringan tersebut secara bersamaan.
+Dalam erti kata lain, seni bina ini menyerupai [GAN](../../4-ComputerVision/10-GANs/README.md), di mana kita mempunyai dua rangkaian yang dilatih antara satu sama lain. Dalam model actor-critic, actor mencadangkan tindakan yang perlu kita ambil, dan critic cuba menjadi kritikal dan menganggarkan hasilnya. Walau bagaimanapun, matlamat kita adalah untuk melatih rangkaian tersebut secara serentak.
 
-Karena kita mengetahui baik reward kumulatif yang sebenarnya maupun hasil yang dikembalikan oleh kritik selama eksperimen, relatif mudah untuk membangun fungsi kerugian yang akan meminimalkan perbedaan antara keduanya. Itu akan memberi kita **kerugian kritik**. Kita dapat menghitung **kerugian aktor** dengan menggunakan pendekatan yang sama seperti dalam algoritma gradien kebijakan.
+Oleh kerana kita tahu kedua-dua ganjaran kumulatif sebenar dan hasil yang dikembalikan oleh critic semasa eksperimen, agak mudah untuk membina fungsi kehilangan yang akan meminimumkan perbezaan antara mereka. Itu akan memberikan kita **critic loss**. Kita boleh mengira **actor loss** dengan menggunakan pendekatan yang sama seperti dalam algoritma policy gradient.
 
-Setelah menjalankan salah satu algoritma tersebut, kita dapat mengharapkan CartPole kita berperilaku seperti ini:
+Selepas menjalankan salah satu algoritma tersebut, kita boleh mengharapkan CartPole kita berkelakuan seperti ini:
 
 ![a balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
 
-## ✍️ Latihan: Gradien Kebijakan dan RL Aktor-Kritik
+## ✍️ Latihan: Policy Gradients dan Actor-Critic RL
 
-Lanjutkan pembelajaran Anda di notebook berikut:
+Teruskan pembelajaran anda dalam notebook berikut:
 
-* [RL dalam TensorFlow](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)
-* [RL dalam PyTorch](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb)
+* [RL dalam TensorFlow](CartPole-RL-TF.ipynb)
+* [RL dalam PyTorch](CartPole-RL-PyTorch.ipynb)
 
-## Tugas RL Lainnya
+## Tugas RL Lain
 
-Pembelajaran Penguatan saat ini adalah bidang penelitian yang berkembang pesat. Beberapa contoh menarik dari pembelajaran penguatan adalah:
+Pembelajaran Pengukuhan kini merupakan bidang penyelidikan yang berkembang pesat. Beberapa contoh menarik pembelajaran pengukuhan adalah:
 
-* Mengajarkan komputer untuk bermain **Permainan Atari**. Bagian yang menantang dalam masalah ini adalah bahwa kita tidak memiliki keadaan sederhana yang direpresentasikan sebagai vektor, tetapi lebih sebagai tangkapan layar - dan kita perlu menggunakan CNN untuk mengonversi gambar layar ini menjadi vektor fitur, atau untuk mengekstrak informasi reward. Permainan Atari tersedia di Gym.
-* Mengajarkan komputer untuk bermain permainan papan, seperti Catur dan Go. Baru-baru ini program-program mutakhir seperti **Alpha Zero** dilatih dari awal oleh dua agen yang bermain satu sama lain, dan meningkat di setiap langkah.
-* Dalam industri, RL digunakan untuk membuat sistem kontrol dari simulasi. Layanan bernama [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) dirancang khusus untuk itu.
+* Mengajar komputer bermain **Permainan Atari**. Bahagian yang mencabar dalam masalah ini ialah kita tidak mempunyai keadaan mudah yang diwakili sebagai vektor, tetapi sebaliknya tangkapan skrin - dan kita perlu menggunakan CNN untuk menukar imej skrin ini kepada vektor ciri, atau untuk mengekstrak maklumat ganjaran. Permainan Atari tersedia dalam Gym.
+* Mengajar komputer bermain permainan papan, seperti Catur dan Go. Baru-baru ini, program canggih seperti **Alpha Zero** dilatih dari awal oleh dua agen yang bermain antara satu sama lain, dan bertambah baik pada setiap langkah.
+* Dalam industri, RL digunakan untuk mencipta sistem kawalan daripada simulasi. Perkhidmatan yang dipanggil [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) direka khusus untuk itu.
 
 ## Kesimpulan
 
-Kita sekarang telah belajar bagaimana melatih agen untuk mencapai hasil yang baik hanya dengan memberikan mereka fungsi reward yang mendefinisikan keadaan yang diinginkan dari permainan, dan dengan memberi mereka kesempatan untuk menjelajahi ruang pencarian secara cerdas. Kita telah berhasil mencoba dua algoritma, dan mencapai hasil yang baik dalam waktu yang relatif singkat. Namun, ini hanyalah awal dari perjalanan Anda ke dalam RL, dan Anda pasti harus mempertimbangkan untuk mengambil kursus terpisah jika Anda ingin menyelami lebih dalam.
+Kita kini telah belajar bagaimana melatih agen untuk mencapai hasil yang baik hanya dengan memberikan mereka fungsi ganjaran yang menentukan keadaan permainan yang diinginkan, dan dengan memberi mereka peluang untuk meneroka ruang carian dengan bijak. Kita telah berjaya mencuba dua algoritma, dan mencapai hasil yang baik dalam tempoh masa yang agak singkat. Walau bagaimanapun, ini hanyalah permulaan perjalanan anda ke dalam RL, dan anda harus mempertimbangkan untuk mengambil kursus berasingan jika anda ingin mendalami lebih lanjut.
 
-## 🚀 Tantangan
+## 🚀 Cabaran
 
-Jelajahi aplikasi yang terdaftar di bagian 'Tugas RL Lainnya' dan coba untuk mengimplementasikan salah satunya!
+Terokai aplikasi yang disenaraikan dalam bahagian 'Tugas RL Lain' dan cuba laksanakan salah satu daripadanya!
 
-## [Kuiz Pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
 
-## Tinjauan & Studi Mandiri
+## Kajian & Pembelajaran Kendiri
 
-Pelajari lebih lanjut tentang pembelajaran penguatan klasik dalam [Kurikulum Pembelajaran Mesin untuk Pemula](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
+Ketahui lebih lanjut tentang pembelajaran pengukuhan klasik dalam [Kurikulum Pembelajaran Mesin untuk Pemula](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
 
-Tonton [video hebat ini](https://www.youtube.com/watch?v=qv6UVOQ0F44) yang membahas bagaimana komputer dapat belajar bermain Super Mario.
+Tonton [video hebat ini](https://www.youtube.com/watch?v=qv6UVOQ0F44) yang membincangkan bagaimana komputer boleh belajar bermain Super Mario.
 
-## Tugas: [Latih Mobil Gunung](lab/README.md)
+## Tugasan: [Latih Mountain Car](lab/README.md)
 
-Tujuan Anda selama tugas ini adalah untuk melatih lingkungan Gym yang berbeda - [Mobil Gunung](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
+Matlamat anda semasa tugasan ini adalah untuk melatih persekitaran Gym yang berbeza - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa ibundanya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

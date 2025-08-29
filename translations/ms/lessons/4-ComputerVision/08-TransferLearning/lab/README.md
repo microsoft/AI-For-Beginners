@@ -1,16 +1,25 @@
-# Klasifikasi Haiwan Peliharaan Oxford menggunakan Pembelajaran Pemindahan
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-29T11:49:04+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "ms"
+}
+-->
+# Pengelasan Haiwan Peliharaan Oxford menggunakan Pembelajaran Pindahan
 
-Tugasan Makmal dari [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
+Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
 
-## Tugas
+## Tugasan
 
-Bayangkan anda perlu membangunkan aplikasi untuk pusat penjagaan haiwan peliharaan untuk mengkatalog semua haiwan peliharaan. Salah satu ciri hebat aplikasi tersebut adalah penemuan automatik baka dari gambar. Dalam tugasan ini, kita akan menggunakan pembelajaran pemindahan untuk mengklasifikasikan imej haiwan peliharaan sebenar dari dataset haiwan peliharaan [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+Bayangkan anda perlu membangunkan aplikasi untuk pusat penjagaan haiwan peliharaan bagi mengkatalogkan semua haiwan peliharaan. Salah satu ciri hebat aplikasi tersebut adalah mengenal pasti baka secara automatik daripada gambar. Dalam tugasan ini, kita akan menggunakan pembelajaran pindahan untuk mengelaskan imej haiwan peliharaan sebenar daripada set data haiwan peliharaan [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
-## Dataset
+## Set Data
 
-Kita akan menggunakan dataset haiwan peliharaan [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) yang asal, yang mengandungi 35 baka anjing dan kucing yang berbeza.
+Kita akan menggunakan set data asal [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), yang mengandungi 35 baka anjing dan kucing yang berbeza.
 
-Untuk memuat turun dataset, gunakan petikan kod ini:
+Untuk memuat turun set data, gunakan petikan kod berikut:
 
 ```python
 !wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
@@ -20,11 +29,13 @@ Untuk memuat turun dataset, gunakan petikan kod ini:
 
 ## Memulakan Notebook
 
-Mulakan makmal dengan membuka [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
+Mulakan makmal dengan membuka [OxfordPets.ipynb](OxfordPets.ipynb)
 
-## Pengajaran
+## Kesimpulan
 
-Pembelajaran pemindahan dan rangkaian yang telah dilatih membolehkan kita menyelesaikan masalah pengklasifikasian imej dunia nyata dengan agak mudah. Walau bagaimanapun, rangkaian yang telah dilatih berfungsi dengan baik pada imej yang sejenis, dan jika kita mula mengklasifikasikan imej yang sangat berbeza (contohnya, imej perubatan), kita mungkin akan mendapatkan hasil yang jauh lebih buruk.
+Pembelajaran pindahan dan rangkaian pra-latih membolehkan kita menyelesaikan masalah pengelasan imej dunia sebenar dengan agak mudah. Walau bagaimanapun, rangkaian pra-latih berfungsi dengan baik pada imej yang serupa, dan jika kita mula mengelaskan imej yang sangat berbeza (contohnya, imej perubatan), kemungkinan besar kita akan mendapat keputusan yang jauh lebih buruk.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI berasaskan mesin. Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

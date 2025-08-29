@@ -1,0 +1,190 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
+  "translation_date": "2025-08-29T12:24:43+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
+  "language_code": "id"
+}
+-->
+# Deteksi Objek
+
+Model klasifikasi gambar yang telah kita bahas sejauh ini mengambil sebuah gambar dan menghasilkan hasil kategoris, seperti kelas 'angka' dalam masalah MNIST. Namun, dalam banyak kasus, kita tidak hanya ingin mengetahui bahwa sebuah gambar menggambarkan objek - kita ingin dapat menentukan lokasi tepatnya. Inilah tujuan dari **deteksi objek**.
+
+## [Kuis sebelum pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+
+![Deteksi Objek](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.id.png)
+
+> Gambar dari [situs web YOLO v2](https://pjreddie.com/darknet/yolov2/)
+
+## Pendekatan Naif untuk Deteksi Objek
+
+Misalkan kita ingin menemukan seekor kucing dalam sebuah gambar, pendekatan yang sangat naif untuk deteksi objek adalah sebagai berikut:
+
+1. Memecah gambar menjadi sejumlah ubin.
+2. Melakukan klasifikasi gambar pada setiap ubin.
+3. Ubin yang menghasilkan aktivasi yang cukup tinggi dapat dianggap mengandung objek yang dimaksud.
+
+![Deteksi Objek Naif](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.id.png)
+
+> *Gambar dari [Notebook Latihan](ObjectDetection-TF.ipynb)*
+
+Namun, pendekatan ini jauh dari ideal, karena hanya memungkinkan algoritma untuk menentukan kotak pembatas objek dengan sangat tidak presisi. Untuk lokasi yang lebih presisi, kita perlu menjalankan semacam **regresi** untuk memprediksi koordinat kotak pembatas - dan untuk itu, kita memerlukan dataset khusus.
+
+## Regresi untuk Deteksi Objek
+
+[Blog post ini](https://towardsdatascience.com/object-detection-with-neural-networks-a4e2c46b4491) memberikan pengenalan yang baik tentang cara mendeteksi bentuk.
+
+## Dataset untuk Deteksi Objek
+
+Anda mungkin menemukan dataset berikut untuk tugas ini:
+
+* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 kelas
+* [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 kelas, kotak pembatas, dan masker segmentasi
+
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.id.jpg)
+
+## Metrik Deteksi Objek
+
+### Intersection over Union
+
+Sementara untuk klasifikasi gambar mudah untuk mengukur seberapa baik algoritma bekerja, untuk deteksi objek kita perlu mengukur baik kebenaran kelas maupun presisi lokasi kotak pembatas yang dihasilkan. Untuk yang terakhir, kita menggunakan **Intersection over Union** (IoU), yang mengukur seberapa baik dua kotak (atau dua area arbitrer) saling tumpang tindih.
+
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.id.png)
+
+> *Gambar 2 dari [blog post yang sangat baik tentang IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
+
+Idenya sederhana - kita membagi area perpotongan antara dua bentuk dengan area gabungannya. Untuk dua area yang identik, IoU akan menjadi 1, sementara untuk area yang sepenuhnya terpisah akan menjadi 0. Selain itu, nilainya akan bervariasi dari 0 hingga 1. Kita biasanya hanya mempertimbangkan kotak pembatas yang memiliki IoU di atas nilai tertentu.
+
+### Average Precision
+
+Misalkan kita ingin mengukur seberapa baik suatu kelas objek $C$ dikenali. Untuk mengukurnya, kita menggunakan metrik **Average Precision**, yang dihitung sebagai berikut:
+
+1. Pertimbangkan kurva Precision-Recall yang menunjukkan akurasi tergantung pada nilai ambang deteksi (dari 0 hingga 1).
+2. Bergantung pada ambang batas, kita akan mendapatkan lebih banyak atau lebih sedikit objek yang terdeteksi dalam gambar, dan nilai presisi serta recall yang berbeda.
+3. Kurva akan terlihat seperti ini:
+
+<img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
+
+> *Gambar dari [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
+
+Average Precision untuk kelas tertentu $C$ adalah area di bawah kurva ini. Lebih tepatnya, sumbu Recall biasanya dibagi menjadi 10 bagian, dan Precision dirata-rata di semua titik tersebut:
+
+$$
+AP = {1\over11}\sum_{i=0}^{10}\mbox{Precision}(\mbox{Recall}={i\over10})
+$$
+
+### AP dan IoU
+
+Kita hanya akan mempertimbangkan deteksi yang memiliki IoU di atas nilai tertentu. Misalnya, dalam dataset PASCAL VOC biasanya $\mbox{IoU Threshold} = 0.5$, sementara dalam COCO AP diukur untuk berbagai nilai $\mbox{IoU Threshold}$.
+
+<img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecallIoU.png"/>
+
+> *Gambar dari [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
+
+### Mean Average Precision - mAP
+
+Metrik utama untuk Deteksi Objek disebut **Mean Average Precision**, atau **mAP**. Ini adalah nilai Average Precision, rata-rata di semua kelas objek, dan kadang-kadang juga di atas $\mbox{IoU Threshold}$. Proses perhitungan **mAP** dijelaskan secara lebih rinci
+[dalam blog post ini](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), dan juga [di sini dengan contoh kode](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
+
+## Pendekatan Deteksi Objek yang Berbeda
+
+Ada dua kelas besar algoritma deteksi objek:
+
+* **Region Proposal Networks** (R-CNN, Fast R-CNN, Faster R-CNN). Ide utamanya adalah menghasilkan **Regions of Interests** (ROI) dan menjalankan CNN di atasnya, mencari aktivasi maksimum. Ini agak mirip dengan pendekatan naif, dengan pengecualian bahwa ROI dihasilkan dengan cara yang lebih cerdas. Salah satu kelemahan utama metode ini adalah lambat, karena kita memerlukan banyak proses klasifikasi CNN pada gambar.
+* **One-pass** (YOLO, SSD, RetinaNet) metode. Dalam arsitektur ini, kita merancang jaringan untuk memprediksi baik kelas maupun ROI dalam satu kali proses.
+
+### R-CNN: Region-Based CNN
+
+[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) menggunakan [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) untuk menghasilkan struktur hierarkis dari wilayah ROI, yang kemudian diteruskan melalui ekstraktor fitur CNN dan pengklasifikasi SVM untuk menentukan kelas objek, serta regresi linier untuk menentukan koordinat *bounding box*. [Paper Resmi](https://arxiv.org/pdf/1506.01497v1.pdf)
+
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.id.png)
+
+> *Gambar dari van de Sande et al. ICCV’11*
+
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.id.png)
+
+> *Gambar dari [blog ini](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
+
+### F-RCNN - Fast R-CNN
+
+Pendekatan ini mirip dengan R-CNN, tetapi wilayah didefinisikan setelah lapisan konvolusi diterapkan.
+
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.id.png)
+
+> Gambar dari [Paper Resmi](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
+
+### Faster R-CNN
+
+Ide utama pendekatan ini adalah menggunakan jaringan neural untuk memprediksi ROI - yang disebut *Region Proposal Network*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
+
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.id.png)
+
+> Gambar dari [paper resmi](https://arxiv.org/pdf/1506.01497.pdf)
+
+### R-FCN: Region-Based Fully Convolutional Network
+
+Algoritma ini bahkan lebih cepat daripada Faster R-CNN. Ide utamanya adalah sebagai berikut:
+
+1. Kita mengekstrak fitur menggunakan ResNet-101.
+2. Fitur diproses oleh **Position-Sensitive Score Map**. Setiap objek dari $C$ kelas dibagi menjadi $k\times k$ wilayah, dan kita melatih untuk memprediksi bagian-bagian objek.
+3. Untuk setiap bagian dari wilayah $k\times k$, semua jaringan memberikan suara untuk kelas objek, dan kelas objek dengan suara maksimum dipilih.
+
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.id.png)
+
+> Gambar dari [paper resmi](https://arxiv.org/abs/1605.06409)
+
+### YOLO - You Only Look Once
+
+YOLO adalah algoritma satu kali proses yang real-time. Ide utamanya adalah sebagai berikut:
+
+ * Gambar dibagi menjadi $S\times S$ wilayah.
+ * Untuk setiap wilayah, **CNN** memprediksi $n$ objek yang mungkin, koordinat *bounding box*, dan *confidence*=*probabilitas* * IoU.
+
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.id.png)
+
+> Gambar dari [paper resmi](https://arxiv.org/abs/1506.02640)
+
+### Algoritma Lain
+
+* RetinaNet: [paper resmi](https://arxiv.org/abs/1708.02002)
+   - [Implementasi PyTorch di Torchvision](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html)
+   - [Implementasi Keras](https://github.com/fizyr/keras-retinanet)
+   - [Deteksi Objek dengan RetinaNet](https://keras.io/examples/vision/retinanet/) di Keras Samples
+* SSD (Single Shot Detector): [paper resmi](https://arxiv.org/abs/1512.02325)
+
+## ✍️ Latihan: Deteksi Objek
+
+Lanjutkan pembelajaran Anda di notebook berikut:
+
+[ObjectDetection.ipynb](ObjectDetection.ipynb)
+
+## Kesimpulan
+
+Dalam pelajaran ini, Anda telah menjelajahi berbagai cara untuk melakukan deteksi objek!
+
+## 🚀 Tantangan
+
+Baca artikel dan notebook tentang YOLO ini dan coba sendiri:
+
+* [Blog post yang bagus](https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/) yang menjelaskan YOLO
+ * [Situs resmi](https://pjreddie.com/darknet/yolo/)
+ * Yolo: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah-demi-langkah](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
+ * Yolo v2: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah-demi-langkah](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
+
+## [Kuis setelah pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+
+## Tinjauan & Studi Mandiri
+
+* [Deteksi Objek](https://tjmachinelearning.com/lectures/1718/obj/) oleh Nikhil Sardana
+* [Perbandingan yang baik tentang algoritma deteksi objek](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
+* [Tinjauan Algoritma Deep Learning untuk Deteksi Objek](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
+* [Pengantar Langkah-demi-Langkah ke Algoritma Deteksi Objek Dasar](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
+* [Implementasi Faster R-CNN dalam Python untuk Deteksi Objek](https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/)
+
+## [Tugas: Deteksi Objek](lab/README.md)
+
+---
+
+**Penafian**:  
+Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.

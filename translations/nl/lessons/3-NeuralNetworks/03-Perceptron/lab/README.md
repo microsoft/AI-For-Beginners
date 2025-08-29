@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7336583e4630220c835335da640016db",
-  "translation_date": "2025-08-28T19:49:13+00:00",
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T11:41:19+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
   "language_code": "nl"
 }
@@ -13,7 +13,7 @@ Labopdracht uit [AI for Beginners Curriculum](https://github.com/microsoft/ai-fo
 
 ## Taak
 
-Gebruik de code die we in deze les hebben ontwikkeld voor binaire classificatie van MNIST-handgeschreven cijfers om een multi-class classifier te maken die elk cijfer kan herkennen. Bereken de classificatienauwkeurigheid op de trainings- en testdataset en druk de verwarringsmatrix af.
+Gebruik de code die we in deze les hebben ontwikkeld voor binaire classificatie van MNIST-handgeschreven cijfers om een multi-class classifier te maken die elk cijfer kan herkennen. Bereken de classificatienauwkeurigheid op de trainings- en testdataset en print de verwarringsmatrix.
 
 ## Tips
 
@@ -30,4 +30,4 @@ Begin de labopdracht door [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipyn
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we ons best doen voor nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
