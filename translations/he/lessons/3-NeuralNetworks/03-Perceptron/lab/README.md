@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7336583e4630220c835335da640016db",
-  "translation_date": "2025-08-28T19:49:21+00:00",
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T11:42:49+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
   "language_code": "he"
 }
 -->
 # סיווג רב-קטגורי עם פרספטרון
 
-מטלת מעבדה מתוך [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+תרגיל מעבדה מתוך [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
 
 ## משימה
 
@@ -25,9 +25,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## מחברת התחלה
 
-התחילו את המעבדה על ידי פתיחת [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
+התחילו את התרגיל על ידי פתיחת [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
 
 ---
 
 **כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). בעוד שאנו שואפים לדיוק, יש להיות מודעים לכך שתרגומים אוטומטיים עשויים להכיל שגיאות או אי-דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור הסמכותי. למידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי בני אדם. איננו נושאים באחריות לכל אי-הבנה או פרשנות שגויה הנובעת משימוש בתרגום זה.

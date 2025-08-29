@@ -1,79 +1,90 @@
-# Jaringan Generatif
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d9de7847385eeeda67cfdcce1640ab72",
+  "translation_date": "2025-08-29T11:58:33+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
+  "language_code": "ms"
+}
+-->
+# Rangkaian Generatif
 
-## [Kuiz Pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
 
-Jaringan Saraf Tiruan Berulang (RNN) dan varian sel tergeraknya seperti Sel Memori Jangka Panjang Pendek (LSTM) dan Unit Berulang Tergerak (GRU) menyediakan mekanisme untuk pemodelan bahasa dengan cara mereka dapat mempelajari urutan kata dan memberikan prediksi untuk kata berikutnya dalam sebuah urutan. Ini memungkinkan kita menggunakan RNN untuk **tugas generatif**, seperti pembuatan teks biasa, terjemahan mesin, dan bahkan penulisan keterangan gambar.
+Rangkaian Neural Berulang (RNN) dan varian sel berpintunya seperti Sel Memori Jangka Panjang (LSTM) dan Unit Berulang Berpintu (GRU) menyediakan mekanisme untuk pemodelan bahasa kerana ia boleh mempelajari susunan perkataan dan memberikan ramalan untuk perkataan seterusnya dalam satu urutan. Ini membolehkan kita menggunakan RNN untuk **tugas generatif**, seperti penjanaan teks biasa, terjemahan mesin, dan juga kapsyen imej.
 
-> ✅ Pikirkan tentang semua kali Anda mendapat manfaat dari tugas generatif seperti penyelesaian teks saat Anda mengetik. Lakukan riset tentang aplikasi favorit Anda untuk melihat apakah mereka memanfaatkan RNN.
+> ✅ Fikirkan tentang semua masa anda mendapat manfaat daripada tugas generatif seperti pelengkapan teks semasa menaip. Lakukan penyelidikan tentang aplikasi kegemaran anda untuk melihat sama ada ia menggunakan RNN.
 
-Dalam arsitektur RNN yang kita diskusikan di unit sebelumnya, setiap unit RNN menghasilkan keadaan tersembunyi berikutnya sebagai output. Namun, kita juga dapat menambahkan output lain ke setiap unit berulang, yang memungkinkan kita untuk mengeluarkan sebuah **urutan** (yang panjangnya sama dengan urutan asli). Selain itu, kita dapat menggunakan unit RNN yang tidak menerima input di setiap langkah, dan hanya mengambil beberapa vektor keadaan awal, lalu menghasilkan urutan output.
+Dalam seni bina RNN yang kita bincangkan dalam unit sebelumnya, setiap unit RNN menghasilkan keadaan tersembunyi seterusnya sebagai output. Walau bagaimanapun, kita juga boleh menambah output lain kepada setiap unit berulang, yang membolehkan kita menghasilkan **urutan** (yang sama panjang dengan urutan asal). Selain itu, kita boleh menggunakan unit RNN yang tidak menerima input pada setiap langkah, dan hanya mengambil beberapa vektor keadaan awal, dan kemudian menghasilkan urutan output.
 
-Ini memungkinkan berbagai arsitektur neural yang ditunjukkan dalam gambar di bawah ini:
+Ini membolehkan pelbagai seni bina neural yang ditunjukkan dalam gambar di bawah:
 
-![Gambar yang menunjukkan pola jaringan saraf berulang yang umum.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ms.jpg)
+![Imej menunjukkan corak rangkaian neural berulang yang biasa.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ms.jpg)
 
-> Gambar dari pos blog [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) oleh [Andrej Karpaty](http://karpathy.github.io/)
+> Imej daripada catatan blog [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) oleh [Andrej Karpaty](http://karpathy.github.io/)
 
-* **Satu-ke-satu** adalah jaringan saraf tradisional dengan satu input dan satu output
-* **Satu-ke-banyak** adalah arsitektur generatif yang menerima satu nilai input, dan menghasilkan urutan nilai output. Misalnya, jika kita ingin melatih jaringan **penulisan keterangan gambar** yang akan menghasilkan deskripsi teks dari sebuah gambar, kita dapat menggunakan gambar sebagai input, mengoperasikannya melalui CNN untuk mendapatkan keadaan tersembunyi, dan kemudian memiliki rantai berulang yang menghasilkan keterangan kata demi kata
-* **Banyak-ke-satu** sesuai dengan arsitektur RNN yang kita jelaskan di unit sebelumnya, seperti klasifikasi teks
-* **Banyak-ke-banyak**, atau **urutan-ke-urutan** sesuai dengan tugas seperti **terjemahan mesin**, di mana kita memiliki RNN pertama yang mengumpulkan semua informasi dari urutan input ke dalam keadaan tersembunyi, dan rantai RNN lainnya menguraikan keadaan ini menjadi urutan output.
+* **Satu-ke-satu** ialah rangkaian neural tradisional dengan satu input dan satu output
+* **Satu-ke-banyak** ialah seni bina generatif yang menerima satu nilai input, dan menghasilkan urutan nilai output. Sebagai contoh, jika kita ingin melatih rangkaian **kapsyen imej** yang akan menghasilkan penerangan teks tentang gambar, kita boleh mengambil gambar sebagai input, melaluinya melalui CNN untuk mendapatkan keadaan tersembunyinya, dan kemudian mempunyai rantai berulang menghasilkan kapsyen perkataan demi perkataan
+* **Banyak-ke-satu** sepadan dengan seni bina RNN yang kita terangkan dalam unit sebelumnya, seperti klasifikasi teks
+* **Banyak-ke-banyak**, atau **urutan-ke-urutan** sepadan dengan tugas seperti **terjemahan mesin**, di mana kita mempunyai RNN pertama mengumpulkan semua maklumat daripada urutan input ke dalam keadaan tersembunyi, dan rantai RNN lain mengembangkan keadaan ini ke dalam urutan output.
 
-Dalam unit ini, kita akan fokus pada model generatif sederhana yang membantu kita menghasilkan teks. Untuk kesederhanaan, kita akan menggunakan tokenisasi tingkat karakter.
+Dalam unit ini, kita akan memberi tumpuan kepada model generatif mudah yang membantu kita menjana teks. Untuk kesederhanaan, kita akan menggunakan tokenisasi peringkat aksara.
 
-Kita akan melatih RNN ini untuk menghasilkan teks langkah demi langkah. Pada setiap langkah, kita akan mengambil urutan karakter dengan panjang `nchars`, dan meminta jaringan untuk menghasilkan karakter output berikutnya untuk setiap karakter input:
+Kita akan melatih RNN ini untuk menjana teks langkah demi langkah. Pada setiap langkah, kita akan mengambil urutan aksara sepanjang `nchars`, dan meminta rangkaian untuk menghasilkan aksara output seterusnya untuk setiap aksara input:
 
-![Gambar yang menunjukkan contoh RNN menghasilkan kata 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.ms.png)
+![Imej menunjukkan contoh penjanaan RNN bagi perkataan 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.ms.png)
 
-Saat menghasilkan teks (selama inferensi), kita mulai dengan beberapa **prompt**, yang diteruskan melalui sel RNN untuk menghasilkan keadaan intermediatenya, dan kemudian dari keadaan ini, generasi dimulai. Kita menghasilkan satu karakter pada satu waktu, dan meneruskan keadaan dan karakter yang dihasilkan ke sel RNN lainnya untuk menghasilkan karakter berikutnya, sampai kita menghasilkan cukup karakter.
+Semasa menjana teks (semasa inferens), kita bermula dengan beberapa **prompt**, yang dilalui melalui sel RNN untuk menghasilkan keadaan perantaraannya, dan kemudian daripada keadaan ini penjanaan bermula. Kita menjana satu aksara pada satu masa, dan menghantar keadaan dan aksara yang dijana kepada sel RNN lain untuk menjana aksara seterusnya, sehingga kita menjana aksara yang mencukupi.
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Gambar oleh penulis
+> Imej oleh penulis
 
-## ✍️ Latihan: Jaringan Generatif
+## ✍️ Latihan: Rangkaian Generatif
 
-Lanjutkan pembelajaran Anda di notebook berikut:
+Teruskan pembelajaran anda dalam buku nota berikut:
 
-* [Jaringan Generatif dengan PyTorch](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
-* [Jaringan Generatif dengan TensorFlow](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
+* [Rangkaian Generatif dengan PyTorch](GenerativePyTorch.ipynb)
+* [Rangkaian Generatif dengan TensorFlow](GenerativeTF.ipynb)
 
-## Generasi teks lembut dan suhu
+## Penjanaan Teks Lembut dan Suhu
 
-Output dari setiap sel RNN adalah distribusi probabilitas karakter. Jika kita selalu mengambil karakter dengan probabilitas tertinggi sebagai karakter berikutnya dalam teks yang dihasilkan, teks sering kali bisa menjadi "terulang" antara urutan karakter yang sama berulang kali, seperti dalam contoh ini:
+Output setiap sel RNN ialah taburan kebarangkalian aksara. Jika kita sentiasa mengambil aksara dengan kebarangkalian tertinggi sebagai aksara seterusnya dalam teks yang dijana, teks sering boleh menjadi "berulang" antara urutan aksara yang sama berulang kali, seperti dalam contoh ini:
 
 ```
 today of the second the company and a second the company ...
 ```
 
-Namun, jika kita melihat distribusi probabilitas untuk karakter berikutnya, bisa jadi bahwa perbedaan antara beberapa probabilitas tertinggi tidak besar, misalnya, satu karakter bisa memiliki probabilitas 0.2, karakter lain - 0.19, dan seterusnya. Misalnya, saat mencari karakter berikutnya dalam urutan '*play*', karakter berikutnya bisa sama baiknya menjadi spasi, atau **e** (seperti dalam kata *player*).
+Walau bagaimanapun, jika kita melihat taburan kebarangkalian untuk aksara seterusnya, mungkin perbezaan antara beberapa kebarangkalian tertinggi tidak besar, contohnya satu aksara boleh mempunyai kebarangkalian 0.2, yang lain - 0.19, dsb. Sebagai contoh, apabila mencari aksara seterusnya dalam urutan '*play*', aksara seterusnya boleh sama ada ruang, atau **e** (seperti dalam perkataan *player*).
 
-Ini membawa kita pada kesimpulan bahwa tidak selalu "adil" untuk memilih karakter dengan probabilitas lebih tinggi, karena memilih karakter kedua tertinggi mungkin masih membawa kita ke teks yang bermakna. Lebih bijaksana untuk **mengambil sampel** karakter dari distribusi probabilitas yang diberikan oleh output jaringan. Kita juga dapat menggunakan parameter, **suhu**, yang akan meratakan distribusi probabilitas, jika kita ingin menambahkan lebih banyak kebetulan, atau membuatnya lebih curam, jika kita ingin tetap lebih pada karakter dengan probabilitas tertinggi.
+Ini membawa kita kepada kesimpulan bahawa tidak selalu "adil" untuk memilih aksara dengan kebarangkalian lebih tinggi, kerana memilih yang kedua tertinggi masih boleh membawa kita kepada teks yang bermakna. Adalah lebih bijak untuk **sampel** aksara daripada taburan kebarangkalian yang diberikan oleh output rangkaian. Kita juga boleh menggunakan parameter, **suhu**, yang akan meratakan taburan kebarangkalian, jika kita ingin menambah lebih banyak keacakan, atau menjadikannya lebih curam, jika kita ingin lebih berpegang kepada aksara kebarangkalian tertinggi.
 
-Jelajahi bagaimana generasi teks lembut ini diimplementasikan dalam notebook yang terhubung di atas.
+Terokai bagaimana penjanaan teks lembut ini dilaksanakan dalam buku nota yang dipautkan di atas.
 
 ## Kesimpulan
 
-Meskipun generasi teks mungkin berguna dengan sendirinya, manfaat utama datang dari kemampuan untuk menghasilkan teks menggunakan RNN dari beberapa vektor fitur awal. Misalnya, generasi teks digunakan sebagai bagian dari terjemahan mesin (urutan-ke-urutan, dalam hal ini vektor keadaan dari *encoder* digunakan untuk menghasilkan atau *menguraikan* pesan yang diterjemahkan), atau menghasilkan deskripsi tekstual dari sebuah gambar (di mana vektor fitur akan berasal dari ekstraktor CNN).
+Walaupun penjanaan teks mungkin berguna dengan sendirinya, manfaat utama datang daripada keupayaan untuk menjana teks menggunakan RNN daripada beberapa vektor ciri awal. Sebagai contoh, penjanaan teks digunakan sebagai sebahagian daripada terjemahan mesin (urutan-ke-urutan, dalam kes ini vektor keadaan daripada *penyandi* digunakan untuk menjana atau *menyahkod* mesej yang diterjemahkan), atau menjana penerangan teks tentang imej (dalam kes ini vektor ciri akan datang daripada pengekstrak CNN).
 
-## 🚀 Tantangan
+## 🚀 Cabaran
 
-Ambil beberapa pelajaran di Microsoft Learn tentang topik ini
+Ambil beberapa pelajaran di Microsoft Learn mengenai topik ini
 
-* Generasi Teks dengan [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
+* Penjanaan Teks dengan [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Kuiz Pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
 
-## Tinjauan & Studi Mandiri
+## Ulasan & Kajian Kendiri
 
-Berikut adalah beberapa artikel untuk memperluas pengetahuan Anda
+Berikut adalah beberapa artikel untuk mengembangkan pengetahuan anda
 
-* Berbagai pendekatan untuk generasi teks dengan Rantai Markov, LSTM, dan GPT-2: [pos blog](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
-* Contoh generasi teks dalam [dokumentasi Keras](https://keras.io/examples/generative/lstm_character_level_text_generation/)
+* Pendekatan berbeza untuk penjanaan teks dengan Rantaian Markov, LSTM dan GPT-2: [catatan blog](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* Contoh penjanaan teks dalam [dokumentasi Keras](https://keras.io/examples/generative/lstm_character_level_text_generation/)
 
-## [Tugas](lab/README.md)
+## [Tugasan](lab/README.md)
 
-Kita telah melihat bagaimana cara menghasilkan teks karakter demi karakter. Dalam lab, Anda akan menjelajahi generasi teks tingkat kata.
+Kita telah melihat bagaimana untuk menjana teks aksara demi aksara. Dalam makmal, anda akan meneroka penjanaan teks peringkat perkataan.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

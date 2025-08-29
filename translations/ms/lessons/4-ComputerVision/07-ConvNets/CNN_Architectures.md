@@ -1,64 +1,75 @@
-# Arsitektur CNN Yang Dikenal
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "2f7b97b375358cb51a1e098df306bf73",
+  "translation_date": "2025-08-29T11:47:48+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
+  "language_code": "ms"
+}
+-->
+# Senibina CNN Terkenal
 
 ### VGG-16
 
-VGG-16 adalah jaringan yang mencapai akurasi 92,7% dalam klasifikasi top-5 ImageNet pada tahun 2014. Jaringan ini memiliki struktur lapisan sebagai berikut:
+VGG-16 adalah rangkaian yang mencapai ketepatan 92.7% dalam klasifikasi top-5 ImageNet pada tahun 2014. Ia mempunyai struktur lapisan seperti berikut:
 
 ![Lapisan ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.ms.jpg)
 
-Seperti yang dapat Anda lihat, VGG mengikuti arsitektur piramida tradisional, yang merupakan urutan lapisan konvolusi-pooling.
+Seperti yang anda lihat, VGG mengikuti senibina piramid tradisional, iaitu urutan lapisan pengkonvolusian dan penurunan.
 
-![Piramida ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.ms.jpg)
+![Piramid ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.ms.jpg)
 
-> Gambar dari [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
+> Imej daripada [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
 ### ResNet
 
-ResNet adalah keluarga model yang diusulkan oleh Microsoft Research pada tahun 2015. Ide utama dari ResNet adalah menggunakan **blok residual**:
+ResNet adalah keluarga model yang dicadangkan oleh Microsoft Research pada tahun 2015. Idea utama ResNet adalah menggunakan **blok residual**:
 
 <img src="images/resnet-block.png" width="300"/>
 
-> Gambar dari [makalah ini](https://arxiv.org/pdf/1512.03385.pdf)
+> Imej daripada [kertas ini](https://arxiv.org/pdf/1512.03385.pdf)
 
-Alasan menggunakan identitas pass-through adalah untuk membuat lapisan kami memprediksi **perbedaan** antara hasil lapisan sebelumnya dan keluaran blok residual - sehingga dinamakan *residual*. Blok-blok ini jauh lebih mudah dilatih, dan seseorang dapat membangun jaringan dengan beberapa ratus blok tersebut (varian yang paling umum adalah ResNet-52, ResNet-101, dan ResNet-152).
+Sebab menggunakan laluan identiti adalah untuk membolehkan lapisan kita meramalkan **perbezaan** antara hasil lapisan sebelumnya dan output blok residual - oleh itu nama *residual*. Blok-blok ini lebih mudah untuk dilatih, dan kita boleh membina rangkaian dengan beratus-ratus blok tersebut (varian yang paling biasa adalah ResNet-52, ResNet-101 dan ResNet-152).
 
-Anda juga dapat memikirkan jaringan ini sebagai jaringan yang dapat menyesuaikan kompleksitasnya dengan dataset. Awalnya, ketika Anda mulai melatih jaringan, nilai bobot kecil, dan sebagian besar sinyal melewati lapisan identitas pass-through. Seiring berjalannya pelatihan dan bobot menjadi lebih besar, signifikansi parameter jaringan meningkat, dan jaringan menyesuaikan untuk memenuhi kekuatan ekspresif yang diperlukan untuk mengklasifikasikan gambar pelatihan dengan benar.
+Anda juga boleh menganggap rangkaian ini sebagai mampu menyesuaikan kerumitannya kepada dataset. Pada mulanya, apabila anda mula melatih rangkaian, nilai berat adalah kecil, dan kebanyakan isyarat melalui lapisan identiti laluan. Apabila latihan berlangsung dan berat menjadi lebih besar, kepentingan parameter rangkaian meningkat, dan rangkaian menyesuaikan diri untuk memenuhi kuasa ekspresif yang diperlukan untuk mengklasifikasikan imej latihan dengan betul.
 
 ### Google Inception
 
-Arsitektur Google Inception membawa ide ini selangkah lebih jauh, dan membangun setiap lapisan jaringan sebagai kombinasi dari beberapa jalur yang berbeda:
+Senibina Google Inception membawa idea ini satu langkah lebih jauh, dan membina setiap lapisan rangkaian sebagai gabungan beberapa laluan yang berbeza:
 
 <img src="images/inception.png" width="400"/>
 
-> Gambar dari [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
+> Imej daripada [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 
-Di sini, kita perlu menekankan peran konvolusi 1x1, karena pada awalnya mereka tidak masuk akal. Mengapa kita perlu menjalankan filter 1x1 melalui gambar? Namun, Anda perlu ingat bahwa filter konvolusi juga bekerja dengan beberapa saluran kedalaman (aslinya - warna RGB, di lapisan berikutnya - saluran untuk filter yang berbeda), dan konvolusi 1x1 digunakan untuk mencampur saluran input tersebut menggunakan bobot yang dapat dilatih. Ini juga dapat dilihat sebagai downsampling (pooling) di atas dimensi saluran.
+Di sini, kita perlu menekankan peranan pengkonvolusian 1x1, kerana pada mulanya ia tidak masuk akal. Mengapa kita perlu menjalankan imej dengan penapis 1x1? Walau bagaimanapun, anda perlu ingat bahawa penapis pengkonvolusian juga berfungsi dengan beberapa saluran kedalaman (asalnya - warna RGB, dalam lapisan berikutnya - saluran untuk penapis yang berbeza), dan pengkonvolusian 1x1 digunakan untuk mencampurkan saluran input tersebut menggunakan berat yang boleh dilatih. Ia juga boleh dilihat sebagai penurunan (pooling) pada dimensi saluran.
 
-Berikut adalah [posting blog yang bagus](https://medium.com/analytics-vidhya/talented-mr-1x1-comprehensive-look-at-1x1-convolution-in-deep-learning-f6b355825578) tentang subjek ini, dan [makalah asli](https://arxiv.org/pdf/1312.4400.pdf).
+Berikut adalah [blog post yang baik](https://medium.com/analytics-vidhya/talented-mr-1x1-comprehensive-look-at-1x1-convolution-in-deep-learning-f6b355825578) mengenai subjek ini, dan [kertas asal](https://arxiv.org/pdf/1312.4400.pdf).
 
 ### MobileNet
 
-MobileNet adalah keluarga model dengan ukuran yang lebih kecil, cocok untuk perangkat mobile. Gunakan mereka jika Anda kekurangan sumber daya, dan dapat mengorbankan sedikit akurasi. Ide utama di balik mereka adalah **konvolusi terpisah berdasarkan kedalaman**, yang memungkinkan mewakili filter konvolusi dengan komposisi konvolusi spasial dan konvolusi 1x1 di atas saluran kedalaman. Ini secara signifikan mengurangi jumlah parameter, membuat jaringan lebih kecil, dan juga lebih mudah dilatih dengan data yang lebih sedikit.
+MobileNet adalah keluarga model dengan saiz yang dikurangkan, sesuai untuk peranti mudah alih. Gunakan mereka jika anda kekurangan sumber, dan boleh mengorbankan sedikit ketepatan. Idea utama di sebalik mereka adalah **pengkonvolusian separable depthwise**, yang membolehkan penapis pengkonvolusian diwakili oleh komposisi pengkonvolusian spatial dan pengkonvolusian 1x1 pada saluran kedalaman. Ini secara signifikan mengurangkan bilangan parameter, menjadikan rangkaian lebih kecil dalam saiz, dan juga lebih mudah untuk dilatih dengan data yang kurang.
 
-Berikut adalah [posting blog yang bagus tentang MobileNet](https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470).
+Berikut adalah [blog post yang baik mengenai MobileNet](https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470).
 
 ## Kesimpulan
 
-Dalam unit ini, Anda telah mempelajari konsep utama di balik jaringan saraf visi komputer - jaringan konvolusi. Arsitektur nyata yang mendukung klasifikasi gambar, deteksi objek, dan bahkan jaringan generasi gambar semuanya didasarkan pada CNN, hanya dengan lebih banyak lapisan dan beberapa trik pelatihan tambahan.
+Dalam unit ini, anda telah mempelajari konsep utama di sebalik rangkaian neural penglihatan komputer - rangkaian pengkonvolusian. Senibina sebenar yang menggerakkan klasifikasi imej, pengesanan objek, dan juga rangkaian penjanaan imej semuanya berdasarkan CNN, hanya dengan lebih banyak lapisan dan beberapa helah latihan tambahan.
 
-## 🚀 Tantangan
+## 🚀 Cabaran
 
-Dalam buku catatan yang menyertai, ada catatan di bagian bawah tentang bagaimana mendapatkan akurasi yang lebih tinggi. Lakukan beberapa eksperimen untuk melihat apakah Anda dapat mencapai akurasi yang lebih tinggi.
+Dalam notebook yang disertakan, terdapat nota di bahagian bawah tentang cara untuk mendapatkan ketepatan yang lebih tinggi. Lakukan beberapa eksperimen untuk melihat jika anda boleh mencapai ketepatan yang lebih tinggi.
 
-## [Kuis pasca kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
 
-## Tinjauan & Studi Mandiri
+## Kajian & Pembelajaran Kendiri
 
-Meskipun CNN paling sering digunakan untuk tugas Visi Komputer, mereka umumnya baik untuk mengekstrak pola berukuran tetap. Misalnya, jika kita berurusan dengan suara, kita juga mungkin ingin menggunakan CNN untuk mencari pola tertentu dalam sinyal audio - dalam hal ini filter akan 1-dimensi (dan CNN ini akan disebut 1D-CNN). Juga, terkadang 3D-CNN digunakan untuk mengekstrak fitur di ruang multi-dimensi, seperti peristiwa tertentu yang terjadi di video - CNN dapat menangkap pola tertentu dari perubahan fitur seiring waktu. Lakukan beberapa tinjauan dan studi mandiri tentang tugas lain yang dapat dilakukan dengan CNN.
+Walaupun CNN paling kerap digunakan untuk tugas Penglihatan Komputer, ia secara amnya baik untuk mengekstrak corak bersaiz tetap. Sebagai contoh, jika kita berurusan dengan bunyi, kita mungkin juga ingin menggunakan CNN untuk mencari beberapa corak tertentu dalam isyarat audio - dalam kes ini penapis akan menjadi 1-dimensi (dan CNN ini akan dipanggil 1D-CNN). Selain itu, kadang-kadang 3D-CNN digunakan untuk mengekstrak ciri dalam ruang multi-dimensi, seperti peristiwa tertentu yang berlaku dalam video - CNN boleh menangkap corak tertentu perubahan ciri sepanjang masa. Lakukan kajian dan pembelajaran kendiri tentang tugas lain yang boleh dilakukan dengan CNN.
 
-## [Tugas](lab/README.md)
+## [Tugasan](lab/README.md)
 
-Dalam lab ini, Anda ditugaskan untuk mengklasifikasikan berbagai ras kucing dan anjing. Gambar-gambar ini lebih kompleks daripada dataset MNIST dan memiliki dimensi yang lebih tinggi, dan ada lebih dari 10 kelas.
+Dalam makmal ini, anda ditugaskan untuk mengklasifikasikan pelbagai baka kucing dan anjing. Imej-imej ini lebih kompleks daripada dataset MNIST dan mempunyai dimensi yang lebih tinggi, serta terdapat lebih daripada 10 kelas.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI berasaskan mesin. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berkuasa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
