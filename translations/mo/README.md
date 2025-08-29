@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "335144a809cc5695988bb1504c67066d",
-  "translation_date": "2025-08-28T10:33:18+00:00",
+  "original_hash": "07191303b7ea2aff1d47e2b0fe4bb862",
+  "translation_date": "2025-08-29T07:00:47+00:00",
   "source_file": "README.md",
   "language_code": "mo"
 }
@@ -23,19 +23,19 @@ CO_OP_TRANSLATOR_METADATA:
 
 # 人工智慧入門課程 - 課程大綱  
 
-|![由 (@girlie_mac) 繪製的速記筆記 https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.mo.png)|  
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.mo.png)|  
 |:---:|  
-| 人工智慧入門課程 - _速記筆記由 [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+| 人工智慧入門課程 - _由 [@girlie_mac](https://twitter.com/girlie_mac) 繪製的手繪筆記_ |  
 
-探索 **人工智慧** (AI) 的世界，透過我們為期 12 週、共 24 節課的課程！課程包含實用的教學內容、測驗及實驗室練習。此課程適合初學者，涵蓋 TensorFlow 和 PyTorch 等工具，以及人工智慧的倫理議題。  
+探索 **人工智慧** (AI) 的世界，透過我們為期 12 週、共 24 節課的課程！課程包含實作教學、測驗以及實驗室練習。此課程適合初學者，涵蓋 TensorFlow 和 PyTorch 等工具，以及人工智慧的倫理議題。  
 
 ### 🌐 多語言支援  
 
 #### 透過 GitHub Action 支援 (自動化且保持最新)  
 
-[法文](../fr/README.md) | [西班牙文](../es/README.md) | [德文](../de/README.md) | [俄文](../ru/README.md) | [阿拉伯文](../ar/README.md) | [波斯文 (法爾西)](../fa/README.md) | [烏爾都文](../ur/README.md) | [中文 (簡體)](../zh/README.md) | [中文 (繁體，澳門)](./README.md) | [中文 (繁體，香港)](../hk/README.md) | [中文 (繁體，台灣)](../tw/README.md) | [日文](../ja/README.md) | [韓文](../ko/README.md) | [印地文](../hi/README.md) | [孟加拉文](../bn/README.md) | [馬拉地文](../mr/README.md) | [尼泊爾文](../ne/README.md) | [旁遮普文 (古木基文)](../pa/README.md) | [葡萄牙文 (葡萄牙)](../pt/README.md) | [葡萄牙文 (巴西)](../br/README.md) | [義大利文](../it/README.md) | [波蘭文](../pl/README.md) | [土耳其文](../tr/README.md) | [希臘文](../el/README.md) | [泰文](../th/README.md) | [瑞典文](../sv/README.md) | [丹麥文](../da/README.md) | [挪威文](../no/README.md) | [芬蘭文](../fi/README.md) | [荷蘭文](../nl/README.md) | [希伯來文](../he/README.md) | [越南文](../vi/README.md) | [印尼文](../id/README.md) | [馬來文](../ms/README.md) | [他加祿文 (菲律賓)](../tl/README.md) | [斯瓦希里文](../sw/README.md) | [匈牙利文](../hu/README.md) | [捷克文](../cs/README.md) | [斯洛伐克文](../sk/README.md) | [羅馬尼亞文](../ro/README.md) | [保加利亞文](../bg/README.md) | [塞爾維亞文 (西里爾文)](../sr/README.md) | [克羅埃西亞文](../hr/README.md) | [斯洛維尼亞文](../sl/README.md) | [烏克蘭文](../uk/README.md) | [緬甸文 (緬甸)](../my/README.md)  
+[法文](../fr/README.md) | [西班牙文](../es/README.md) | [德文](../de/README.md) | [俄文](../ru/README.md) | [阿拉伯文](../ar/README.md) | [波斯文 (法爾西)](../fa/README.md) | [烏爾都文](../ur/README.md) | [中文 (簡體)](../zh/README.md) | [中文 (繁體，澳門)](./README.md) | [中文 (繁體，香港)](../hk/README.md) | [中文 (繁體，台灣)](../tw/README.md) | [日文](../ja/README.md) | [韓文](../ko/README.md) | [印地文](../hi/README.md) | [孟加拉文](../bn/README.md) | [馬拉地文](../mr/README.md) | [尼泊爾文](../ne/README.md) | [旁遮普文 (古木基文)](../pa/README.md) | [葡萄牙文 (葡萄牙)](../pt/README.md) | [葡萄牙文 (巴西)](../br/README.md) | [義大利文](../it/README.md) | [波蘭文](../pl/README.md) | [土耳其文](../tr/README.md) | [希臘文](../el/README.md) | [泰文](../th/README.md) | [瑞典文](../sv/README.md) | [丹麥文](../da/README.md) | [挪威文](../no/README.md) | [芬蘭文](../fi/README.md) | [荷蘭文](../nl/README.md) | [希伯來文](../he/README.md) | [越南文](../vi/README.md) | [印尼文](../id/README.md) | [馬來文](../ms/README.md) | [他加祿文 (菲律賓)](../tl/README.md) | [斯瓦希里文](../sw/README.md) | [匈牙利文](../hu/README.md) | [捷克文](../cs/README.md) | [斯洛伐克文](../sk/README.md) | [羅馬尼亞文](../ro/README.md) | [保加利亞文](../bg/README.md) | [塞爾維亞文 (西里爾字母)](../sr/README.md) | [克羅埃西亞文](../hr/README.md) | [斯洛維尼亞文](../sl/README.md) | [烏克蘭文](../uk/README.md) | [緬甸文 (緬甸)](../my/README.md)  
 
-**如果您希望支援其他語言，請參考 [此處](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**如果您希望支援其他語言，請參考 [此處](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) 列出的支援語言**  
 
 ## 加入社群  
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
@@ -48,21 +48,21 @@ CO_OP_TRANSLATOR_METADATA:
 
 * 不同的人工智慧方法，包括「經典」符號方法，透過 **知識表示** 和推理 ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence))。  
 * **神經網路** 和 **深度學習**，這是現代人工智慧的核心。我們將使用兩個最受歡迎的框架 [TensorFlow](http://Tensorflow.org) 和 [PyTorch](http://pytorch.org) 的程式碼來說明這些重要主題的概念。  
-* **神經架構**，用於處理影像和文字。我們將涵蓋近期的模型，但可能稍微缺乏最前沿的技術。  
+* 用於處理影像和文字的 **神經架構**。我們將涵蓋近期的模型，但可能稍微缺乏最前沿的技術。  
 * 不太流行的人工智慧方法，例如 **遺傳演算法** 和 **多代理系統**。  
 
 我們不會在這門課程中涵蓋：  
 
-> [在 Microsoft Learn 的課程集合中找到所有額外資源](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
+> [在 Microsoft Learn 集合中找到所有額外的課程資源](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* **人工智慧在商業中的應用案例**。建議參加 [商業使用者的人工智慧入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) 學習路徑，或由 [INSEAD](https://www.insead.edu/) 合作開發的 [AI 商業學院](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum)。  
+* **人工智慧在商業中的應用案例**。建議參加 [商業用戶的人工智慧入門](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) 學習路徑，或由 [INSEAD](https://www.insead.edu/) 合作開發的 [AI 商業學院](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum)。  
 * **經典機器學習**，這在我們的 [機器學習入門課程](http://github.com/Microsoft/ML-for-Beginners) 中有詳細描述。  
-* 使用 **[認知服務](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** 建立的實際人工智慧應用。建議從 Microsoft Learn 的模組開始，例如 [影像](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum)、[自然語言處理](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum)、**[Azure OpenAI Service 的生成式人工智慧](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** 等。  
-* 特定的機器學習 **雲端框架**，例如 [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum)、[Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) 或 [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)。建議參加 [使用 Azure Machine Learning 建立和操作機器學習解決方案](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) 和 [使用 Azure Databricks 建立和操作機器學習解決方案](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) 學習路徑。  
+* 使用 **[認知服務](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** 建立的實際人工智慧應用。建議從 Microsoft Learn 的模組開始，例如 [視覺](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum)、[自然語言處理](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum)、**[Azure OpenAI Service 的生成式人工智慧](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** 等。  
+* 特定的機器學習 **雲端框架**，例如 [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum)、[Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) 或 [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)。建議使用 [Azure Machine Learning 建立和操作機器學習解決方案](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) 和 [Azure Databricks 建立和操作機器學習解決方案](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) 學習路徑。  
 * **對話式人工智慧** 和 **聊天機器人**。有一個單獨的 [建立對話式人工智慧解決方案](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) 學習路徑，您也可以參考 [這篇部落格文章](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) 了解更多細節。  
-* **深度學習的數學基礎**。建議參考 Ian Goodfellow、Yoshua Bengio 和 Aaron Courville 的 [深度學習](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618)，也可在線上取得 [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)。  
+* **深度學習的數學基礎**。建議參考 Ian Goodfellow、Yoshua Bengio 和 Aaron Courville 所著的 [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618)，此書也可在線上取得：[https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)。  
 
-若想輕鬆入門 _雲端人工智慧_ 主題，建議參加 [在 Azure 上開始人工智慧學習](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) 學習路徑。  
+若想輕鬆入門 _雲端人工智慧_ 主題，建議參加 [Azure 人工智慧入門](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) 學習路徑。  
 
 # 課程內容  
 
@@ -90,7 +90,7 @@ CO_OP_TRANSLATOR_METADATA:
 | 14  |            [語義詞嵌入. Word2Vec 和 GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](./lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
 | 15  |            [語言建模. 訓練自己的嵌入](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [實驗](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [循環神經網絡（RNNs）](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](./lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [生成式循環網絡](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [實驗](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 17  |            [生成型循環網絡](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [實驗](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformer. BERT.](./lessons/5-NLP/18-Transformers/READMEtransformers.md)             |           [PyTorch](./lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](./lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
 | 19  |            [命名實體識別（NER）](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](./lessons/5-NLP/19-NER/NER-TF.ipynb)             | [實驗](./lessons/5-NLP/19-NER/lab/README.md) |
 | 20  |            [大型語言模型、提示編程與少樣本任務](./lessons/5-NLP/20-LangModels/READMELargeLang.md)             |           [PyTorch](./lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
@@ -108,18 +108,18 @@ CO_OP_TRANSLATOR_METADATA:
 * 預讀材料
 * 可執行的 Jupyter 筆記本，通常針對特定框架（**PyTorch** 或 **TensorFlow**）。可執行的筆記本還包含大量理論材料，因此要理解主題，您需要至少完成一個版本的筆記本（PyTorch 或 TensorFlow）。
 * **實驗**（Labs）可用於某些主題，讓您有機會將所學材料應用於特定問題。
-* 某些章節包含指向 [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) 模組的連結，涵蓋相關主題。
+* 部分章節包含指向 [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) 模組的連結，涵蓋相關主題。
 
-## 開始學習
+## 開始使用
 
-- 我們已創建一個 [設置課程](./lessons/0-course-setup/setup.md)，幫助您設置開發環境。 - 對於教育工作者，我們也創建了一個 [課程設置課程](./lessons/0-course-setup/for-teachers.md)！
+- 我們已創建 [設置課程](./lessons/0-course-setup/setup.md)，幫助您設置開發環境。 - 對於教育工作者，我們也創建了 [課程設置指南](./lessons/0-course-setup/for-teachers.md)！
 - 如何 [在 VSCode 或 Codepace 中運行代碼](./lessons/0-course-setup/how-to-run.md)
 
 請按照以下步驟：
 
-Fork 此倉庫：點擊此頁面右上角的 "Fork" 按鈕。
+分叉（Fork）倉庫：點擊此頁面右上角的 "Fork" 按鈕。
 
-克隆倉庫：`git clone https://github.com/microsoft/AI-For-Beginners.git`
+克隆（Clone）倉庫：`git clone https://github.com/microsoft/AI-For-Beginners.git`
 
 別忘了給此倉庫加星（🌟），以便日後更容易找到。
 
@@ -130,7 +130,7 @@ Fork 此倉庫：點擊此頁面右上角的 "Fork" 按鈕。
 如果您在構建過程中有產品反饋或問題，請訪問我們的 [Azure AI Foundry 開發者論壇](https://aka.ms/foundry/forum)
 
 ## 測驗
-> **關於測驗的注意事項**：所有測驗都包含在 Quiz-app 資料夾中，位於 etc\quiz-app，或可在[線上查看](https://ff-quizzes.netlify.app/)。它們已在課程中連結，測驗應用程式可以在本地執行或部署到 Azure；請按照 `quiz-app` 資料夾中的指示操作。測驗正在逐步進行本地化。
+> **關於測驗的注意事項**：所有測驗都包含在 Quiz-app 資料夾中，位於 etc\quiz-app，或[線上版本](https://ff-quizzes.netlify.app/)。它們已在課程中連結，測驗應用程式可以在本地執行或部署到 Azure；請按照 `quiz-app` 資料夾中的指示操作。測驗正在逐步進行本地化。
 ## 幫助需求
 
 您有任何建議或發現拼寫或程式碼錯誤嗎？請提交一個問題或建立一個拉取請求。
@@ -160,9 +160,9 @@ Fork 此倉庫：點擊此頁面右上角的 "Fork" 按鈕。
 - [XR 開發初學者課程](https://github.com/microsoft/xr-development-for-beginners)
 - [精通 GitHub Copilot 的智能應用](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [精通 GitHub Copilot 的 C#/.NET 開發者課程](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [選擇你的 Copilot 冒險](https://github.com/microsoft/CopilotAdventures)
+- [選擇你的 Copilot 冒險之旅](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
 **免責聲明**：  
-本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原始語言的文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解讀概不負責。
+本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原始語言的文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而產生的任何誤解或錯誤解讀概不負責。  
