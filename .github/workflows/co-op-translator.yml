@@ -56,7 +56,7 @@ jobs:
           # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
           # translate -l "ar bn bg br cs da de el es fa fi fr he hi hr hu id it ja" -nb
           # translate -l "ko lt mo ms mr my ne nl no pa pl 
-          translate - l "pt ro ru sk sl sr sv sw" -nb  
+          translate -l "pt ro ru sk sl sr sv sw" -nb  
           # translate -l  "th tl tr tw uk ur vi zh hk" -nb
           # translate -l "ar ur tl mr ne pa bn ru mo" -y
           # translate -l "mr ne pa" -y
