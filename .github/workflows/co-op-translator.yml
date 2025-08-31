@@ -54,8 +54,8 @@ jobs:
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
           # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
-          # translate -l "ar bn bg br cs da de el es fa fi" -nb 
-          translate -l "fr he hi hr hu id it ja" -nb
+          translate -l "ar bn bg br cs da de el es fa fi" -nb 
+          # translate -l "fr he hi hr hu id it ja" -nb
           # translate -l "ko lt mo ms mr my ne nl no pa pl" -nb
           # translate -l "pt ro ru sk sl sr sv sw" -nb  
           # translate -l  "th tl tr tw uk ur vi zh hk" -nb
