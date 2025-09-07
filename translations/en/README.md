@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "07191303b7ea2aff1d47e2b0fe4bb862",
-  "translation_date": "2025-08-31T17:27:39+00:00",
+  "original_hash": "2c8099af824bae942ca6ea7e53284770",
+  "translation_date": "2025-09-07T13:22:03+00:00",
   "source_file": "README.md",
   "language_code": "en"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Dive into the fascinating world of **Artificial Intelligence** (AI) with our 12-week, 24-lesson curriculum! It features hands-on lessons, quizzes, and labs. This beginner-friendly curriculum introduces tools like TensorFlow and PyTorch, along with discussions on AI ethics.  
+Dive into the fascinating world of **Artificial Intelligence** (AI) with this 12-week, 24-lesson curriculum! It includes hands-on lessons, quizzes, and labs. Designed for beginners, it covers tools like TensorFlow and PyTorch, along with discussions on AI ethics.  
 
 ### 🌐 Multi-Language Support  
 
@@ -47,15 +47,15 @@ Dive into the fascinating world of **Artificial Intelligence** (AI) with our 12-
 This curriculum will teach you:  
 
 * Various approaches to Artificial Intelligence, including the classic symbolic approach with **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Neural Networks** and **Deep Learning**, the foundation of modern AI. You'll learn the concepts behind these topics through code examples in two popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).  
+* **Neural Networks** and **Deep Learning**, the foundation of modern AI. You'll learn the concepts behind these topics using code in two popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).  
 * **Neural Architectures** for processing images and text. While we’ll cover recent models, we may not delve into the latest advancements.  
-* Less common AI techniques, such as **Genetic Algorithms** and **Multi-Agent Systems**.  
+* Less common AI methods, such as **Genetic Algorithms** and **Multi-Agent Systems**.  
 
 What this curriculum does not cover:  
 
 > [Find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Business applications of **AI in Business**. For this, consider the [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path on Microsoft Learn or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), developed in collaboration with [INSEAD](https://www.insead.edu/).  
+* Business applications of **AI in Business**. For this, consider the [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path on Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), developed in collaboration with [INSEAD](https://www.insead.edu/).  
 * **Classic Machine Learning**, which is thoroughly covered in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
 * Practical AI applications using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. For this, start with Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)**, and more.  
 * Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Consider the learning paths [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
@@ -86,14 +86,14 @@ For a beginner-friendly introduction to _AI in the Cloud_, consider the [Get sta
 | 11  |            [Object Detection](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Semantic Segmentation. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Natural Language Processing**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Explore Natural Language Processing on Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [Text Representation. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](./lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Semantic word embeddings. Word2Vec and GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](./lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Language Modeling. Training your own embeddings](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
-| 16  |            [Recurrent Neural Networks](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](./lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
-| 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/READMEtransformers.md)             |           [PyTorch](./lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](./lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Named Entity Recognition](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](./lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [Large Language Models, Prompt Programming and Few-Shot Tasks](./lessons/5-NLP/20-LangModels/READMELargeLang.md)             |           [PyTorch](./lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| 13  |            [Text Representation. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Semantic word embeddings. Word2Vec and GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Language Modeling. Training your own embeddings](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [Recurrent Neural Networks](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
+| 19  |            [Named Entity Recognition](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [Large Language Models, Prompt Programming and Few-Shot Tasks](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Other AI Techniques** || |
 | 21  |            [Genetic Algorithms](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Notebook](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
 | 22  |            [Deep Reinforcement Learning](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
@@ -130,7 +130,7 @@ Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=acad
 If you have product feedback or questions whilst building visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Quizzes
-> **A note about quizzes**: All quizzes are located in the Quiz-app folder under etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/). They are linked within the lessons. The quiz app can be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is being done progressively.
+> **A note about quizzes**: All quizzes are located in the Quiz-app folder in etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/). They are linked within the lessons. The quiz app can be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is being done gradually.
 ## Help Wanted
 
 Do you have suggestions or have you found spelling or code errors? Feel free to open an issue or submit a pull request.
@@ -165,4 +165,4 @@ Our team creates other learning materials! Check out:
 ---
 
 **Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.

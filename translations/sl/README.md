@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "07191303b7ea2aff1d47e2b0fe4bb862",
-  "translation_date": "2025-08-30T07:06:23+00:00",
+  "original_hash": "2c8099af824bae942ca6ea7e53284770",
+  "translation_date": "2025-09-07T14:14:09+00:00",
   "source_file": "README.md",
   "language_code": "sl"
 }
@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
 
-# Umetna inteligenca za začetnike - Kurikulum  
+# Umetna inteligenca za začetnike - Kurikulum
 
 |![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.sl.png)|  
 |:---:|  
@@ -58,11 +58,11 @@ Kaj ne bomo pokrili v tem kurikulumu:
 * Poslovne primere uporabe **AI v poslovanju**. Razmislite o tečaju [Uvod v AI za poslovne uporabnike](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) na Microsoft Learn ali [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), razvit v sodelovanju z [INSEAD](https://www.insead.edu/).  
 * **Klasično strojno učenje**, ki je dobro opisano v našem [kurikulumu Strojno učenje za začetnike](http://github.com/Microsoft/ML-for-Beginners).  
 * Praktične aplikacije AI, zgrajene z uporabo **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Za to priporočamo, da začnete z moduli Microsoft Learn za [vizijo](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [obdelavo naravnega jezika](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generativna AI z Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** in druge.  
-* Specifična ML **oblaka ogrodja**, kot so [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ali [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Razmislite o uporabi učnih poti [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) in [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **Pogovorna AI** in **klepetalni roboti**. Obstaja ločena učna pot [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), prav tako pa si lahko ogledate [ta blog prispevek](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) za več podrobnosti.  
+* Specifična ML **Cloud Frameworks**, kot so [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ali [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Razmislite o uporabi učnih poti [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) in [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* **Pogovorna AI** in **klepetalni roboti**. Obstaja ločena učna pot [Ustvarite pogovorne AI rešitve](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), prav tako pa si lahko ogledate [ta blog prispevek](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) za več podrobnosti.  
 * **Globoka matematika** za globoko učenje. Za to priporočamo knjigo [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) avtorjev Ian Goodfellow, Yoshua Bengio in Aaron Courville, ki je na voljo tudi na spletu na [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Za uvod v teme _AI v oblaku_ razmislite o učni poti [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
+Za uvod v teme _AI v oblaku_ razmislite o učni poti [Začnite z umetno inteligenco na Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
 # Vsebina  
 
@@ -76,24 +76,24 @@ Za uvod v teme _AI v oblaku_ razmislite o učni poti [Get started with artificia
 | III |                        [**Uvod v nevronske mreže**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Zvezek](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Laboratorij](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
 | 04  |                   [Večplastni perceptron in ustvarjanje lastnega ogrodja](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Zvezek](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Laboratorij](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
-| 05  |            [Uvod v ogrodja (PyTorch/TensorFlow) in overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| 05  |            [Uvod v ogrodja (PyTorch/TensorFlow) in prenaučenje](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Računalniški vid**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Raziščite računalniški vid na Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Uvod v računalniški vid. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Zvezek](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Laboratorij](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Konvolucijske nevronske mreže](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Arhitekture CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Laboratorij](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [Vnaprej naučene mreže in prenos učenja](./lessons/4-ComputerVision/08-TransferLearning/README.md) in [Triki za učenje](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 08  |            [Vnaprej naučene mreže in prenos učenja](./lessons/4-ComputerVision/08-TransferLearning/README.md) in [Triki pri učenju](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Avtoenkoderji in VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
 | 10  |            [Generativne nasprotujoče mreže in prenos umetniškega sloga](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Prepoznavanje objektov](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Laboratorij](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Semantična segmentacija. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Obdelava naravnega jezika**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Raziščite obdelavo naravnega jezika na Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [Predstavitev besedila. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](./lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Semantične besedne vektorske predstavitve. Word2Vec in GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](./lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Jezikovno modeliranje. Učenje lastnih predstavitev](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Laboratorij](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
-| 16  |            [Rekurentne nevronske mreže](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](./lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Generativne rekurentne mreže](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [Laboratorij](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
-| 18  |            [Transformerji. BERT.](./lessons/5-NLP/18-Transformers/READMEtransformers.md)             |           [PyTorch](./lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](./lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Prepoznavanje imenovanih entitet](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](./lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Laboratorij](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [Veliki jezikovni modeli, programiranje s pozivi in naloge z malo primeri](./lessons/5-NLP/20-LangModels/READMELargeLang.md)             |           [PyTorch](./lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| 13  |            [Predstavitev besedila. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Semantične besedne vektorske predstavitve. Word2Vec in GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Modeliranje jezika. Učenje lastnih vektorskih predstavitev](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Laboratorij](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [Rekurzivne nevronske mreže](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [Generativne rekurzivne mreže](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Laboratorij](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 18  |            [Transformatorji. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
+| 19  |            [Prepoznavanje imenovanih entitet](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Laboratorij](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [Veliki jezikovni modeli, programiranje z ukazi in naloge z malo primeri](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Druge tehnike umetne inteligence** || |
 | 21  |            [Genetski algoritmi](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Zvezek](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
 | 22  |            [Globoko okrepljeno učenje](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Laboratorij](./lessons/6-Other/22-DeepRL/lab/README.md) |
@@ -101,18 +101,18 @@ Za uvod v teme _AI v oblaku_ razmislite o učni poti [Get started with artificia
 | VII |            **Etika umetne inteligence** | | |
 | 24  |            [Etika umetne inteligence in odgovorna umetna inteligenca](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Načela odgovorne umetne inteligence](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Dodatki** | | |
-| 25  |            [Večmodalne mreže, CLIP in VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Zvezek](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
+| 25  |            [Mreže z več modalnostmi, CLIP in VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Zvezek](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
 ## Vsaka lekcija vsebuje
 
 * Gradivo za predhodno branje
-* Izvedljive Jupyter zvezke, ki so pogosto specifični za ogrodje (**PyTorch** ali **TensorFlow**). Izvedljivi zvezek vsebuje tudi veliko teoretičnega gradiva, zato je za razumevanje teme potrebno prebrati vsaj eno različico zvezka (PyTorch ali TensorFlow).
-* **Laboratorije**, ki so na voljo za nekatere teme in vam omogočajo, da preizkusite uporabo naučenega gradiva na določenem problemu.
+* Izvedljive Jupyter zvezke, ki so pogosto specifični za ogrodje (**PyTorch** ali **TensorFlow**). Izvedljiv zvezek vsebuje tudi veliko teoretičnega gradiva, zato je za razumevanje teme potrebno prebrati vsaj eno različico zvezka (PyTorch ali TensorFlow).
+* **Laboratorije**, ki so na voljo za nekatere teme in vam omogočajo, da preizkusite uporabo naučenega gradiva na specifičnem problemu.
 * Nekateri razdelki vsebujejo povezave do modulov [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum), ki pokrivajo sorodne teme.
 
 ## Začetek
 
-- Pripravili smo [lekcijo za nastavitev](./lessons/0-course-setup/setup.md), ki vam pomaga pri nastavitvi razvojnega okolja. - Za učitelje smo pripravili tudi [lekcijo za nastavitev kurikuluma](./lessons/0-course-setup/for-teachers.md)!
+- Ustvarili smo [lekcijo za nastavitev](./lessons/0-course-setup/setup.md), ki vam bo pomagala pri nastavitvi razvojnega okolja. - Za učitelje smo pripravili tudi [lekcijo za nastavitev učnega načrta](./lessons/0-course-setup/for-teachers.md)!
 - Kako [zagnati kodo v VSCode ali Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Sledite tem korakom:
@@ -131,38 +131,38 @@ Pridružite se našemu [uradnemu AI Discord strežniku](https://aka.ms/genai-dis
 
 ## Kvizi
 > **Opomba o kvizih**: Vsi kvizi se nahajajo v mapi Quiz-app v etc\quiz-app, ali [na spletu tukaj](https://ff-quizzes.netlify.app/). Povezani so znotraj lekcij, aplikacijo za kvize pa je mogoče zagnati lokalno ali namestiti na Azure; sledite navodilom v mapi `quiz-app`. Postopoma se lokalizirajo.
-## Potrebna pomoč
+## Potrebujemo pomoč
 
-Imate predloge ali ste našli napake v črkovanju ali kodi? Odprite težavo ali ustvarite zahtevo za združitev.
+Imate predloge ali ste našli pravopisne ali programske napake? Odprite težavo ali ustvarite zahtevo za združitev.
 
 ## Posebna zahvala
 
-* **✍️ Glavni avtor:** [Dmitry Soshnikov](http://soshnikov.com), doktor znanosti
-* **🔥 Urednica:** [Jen Looper](https://twitter.com/jenlooper), doktor znanosti
-* **🎨 Ilustratorka skic:** [Tomomi Imura](https://twitter.com/girlie_mac)
-* **✅ Ustvarjalka kvizov:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Glavni sodelavci:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+* **✍️ Glavni avtor:** [Dmitry Soshnikov](http://soshnikov.com), doktor znanosti  
+* **🔥 Urednica:** [Jen Looper](https://twitter.com/jenlooper), doktorica znanosti  
+* **🎨 Ilustratorka skic:** [Tomomi Imura](https://twitter.com/girlie_mac)  
+* **✅ Ustvarjalka kvizov:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
+* **🙏 Glavni sodelavci:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
 
 ## Drugi učni načrti
 
 Naša ekipa ustvarja tudi druge učne načrte! Oglejte si:
 
-- [Generativna umetna inteligenca za začetnike](https://aka.ms/genai-beginners)
-- [Generativna umetna inteligenca za začetnike .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generativna umetna inteligenca z JavaScriptom](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generativna umetna inteligenca z Javo](https://github.com/microsoft/Generative-AI-for-beginners-java)
-- [Umetna inteligenca za začetnike](https://aka.ms/ai-beginners)
-- [Podatkovna znanost za začetnike](https://aka.ms/datascience-beginners)
-- [Strojno učenje za začetnike](https://aka.ms/ml-beginners)
-- [Kibernetska varnost za začetnike](https://github.com/microsoft/Security-101) 
-- [Razvoj spletnih aplikacij za začetnike](https://aka.ms/webdev-beginners)
-- [IoT za začetnike](https://aka.ms/iot-beginners)
-- [Razvoj XR za začetnike](https://github.com/microsoft/xr-development-for-beginners)
-- [Obvladovanje GitHub Copilot za agentno uporabo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [Obvladovanje GitHub Copilot za razvijalce C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Izberite svojo Copilot pustolovščino](https://github.com/microsoft/CopilotAdventures)
+- [Generativna umetna inteligenca za začetnike](https://aka.ms/genai-beginners)  
+- [Generativna umetna inteligenca za začetnike .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
+- [Generativna umetna inteligenca z JavaScriptom](https://github.com/microsoft/generative-ai-with-javascript)  
+- [Generativna umetna inteligenca z Javo](https://github.com/microsoft/Generative-AI-for-beginners-java)  
+- [Umetna inteligenca za začetnike](https://aka.ms/ai-beginners)  
+- [Podatkovna znanost za začetnike](https://aka.ms/datascience-beginners)  
+- [Strojno učenje za začetnike](https://aka.ms/ml-beginners)  
+- [Kibernetska varnost za začetnike](https://github.com/microsoft/Security-101)  
+- [Spletni razvoj za začetnike](https://aka.ms/webdev-beginners)  
+- [IoT za začetnike](https://aka.ms/iot-beginners)  
+- [XR razvoj za začetnike](https://github.com/microsoft/xr-development-for-beginners)  
+- [Obvladovanje GitHub Copilota za agentno uporabo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
+- [Obvladovanje GitHub Copilota za razvijalce C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
+- [Izberi svojo Copilot pustolovščino](https://github.com/microsoft/CopilotAdventures)  
 
 ---
 
 **Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve za strojno prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo strokovno človeško prevajanje. Ne prevzemamo odgovornosti za morebitna nesporazuma ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
+Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna napačna razumevanja ali napačne interpretacije, ki bi nastale zaradi uporabe tega prevoda.
