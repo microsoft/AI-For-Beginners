@@ -1,18 +1,27 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
+  "translation_date": "2025-08-26T07:41:37+00:00",
+  "source_file": "etc/quiz-app/README.md",
+  "language_code": "tr"
+}
+-->
 # Quizler
 
-Bu quizler, https://aka.ms/ai-beginners adresindeki AI müfredatı için ders öncesi ve sonrası quizlerdir.
+Bu quizler, https://aka.ms/ai-beginners adresindeki AI müfredatının ders öncesi ve sonrası quizleridir.
 
-## Çevirisi yapılmış bir quiz seti ekleme
+## Çevirilmiş bir quiz seti ekleme
 
-Eşleşen quiz yapıları oluşturarak bir quiz çevirisi ekleyin `assets/translations` klasörlerinde. Temel quizler `assets/translations/en` içinde bulunmaktadır. Quizler, derslere göre birkaç gruba ayrılmıştır. Numara sıralamasını doğru quiz bölümüne göre ayarladığınızdan emin olun. Bu müfredatta toplam 40 quiz bulunmaktadır ve sayım 0'dan başlamaktadır.
+Bir quiz çevirisi eklemek için, `assets/translations` klasörlerinde eşleşen quiz yapıları oluşturun. Orijinal quizler `assets/translations/en` klasöründe bulunur. Quizler, derslere göre birkaç gruba ayrılmıştır. Numaralandırmayı doğru quiz bölümüyle hizalamayı unutmayın. Bu müfredatta toplam 40 quiz bulunmaktadır ve numaralandırma 0'dan başlar.
 
-Çevirileri düzenledikten sonra, çeviri klasöründeki index.js dosyasını `en` içindeki kurallara göre tüm dosyaları içerecek şekilde düzenleyin.
+Çevirileri düzenledikten sonra, çeviri klasöründeki `index.js` dosyasını düzenleyerek, `en` klasöründeki kurallara uygun şekilde tüm dosyaları içe aktarın.
 
-Yeni çevrilmiş dosyaları içermek için `assets/translations` içindeki `index.js` dosyasını düzenleyin.
+`assets/translations` içindeki `index.js` dosyasını düzenleyerek yeni çevirilmiş dosyaları içe aktarın.
 
-Ardından, bu uygulamadaki `App.vue` bölümündeki açılır menüyü düzenleyerek dilinizi ekleyin. Yerelleştirilmiş kısaltmayı diliniz için klasör adıyla eşleştirin.
+Son olarak, bu uygulamadaki `App.vue` dosyasındaki açılır menüyü düzenleyerek dilinizi ekleyin. Yerelleştirilmiş kısaltmayı dilinizin klasör adıyla eşleştirin.
 
-Son olarak, çevrilen derslerdeki tüm quiz bağlantılarını, varsa, bu yerelleştirmeyi bir sorgu parametresi olarak ekleyecek şekilde düzenleyin: örneğin `?loc=fr`.
+Eğer varsa, çevirilmiş derslerdeki tüm quiz bağlantılarını düzenleyerek bu yerelleştirmeyi bir sorgu parametresi olarak ekleyin: Örneğin, `?loc=fr`.
 
 ## Proje kurulumu
 
@@ -20,7 +29,7 @@ Son olarak, çevrilen derslerdeki tüm quiz bağlantılarını, varsa, bu yerell
 npm install
 ```
 
-### Geliştirme için derler ve sıcak yeniden yükler
+### Geliştirme için derler ve sıcak yükleme yapar
 
 ```
 npm run serve
@@ -32,65 +41,66 @@ npm run serve
 npm run build
 ```
 
-### Dosyaları denetler ve düzeltir
+### Dosyaları kontrol eder ve düzeltir
 
 ```
 npm run lint
 ```
 
-### Yapılandırmayı özelleştirin
+### Yapılandırmayı özelleştirme
 
-[Configuration Reference](https://cli.vuejs.org/config/) sayfasına bakın.
+[Configuration Reference](https://cli.vuejs.org/config/) adresine bakın.
 
-Krediler: Bu quiz uygulamasının orijinal sürümüne teşekkürler: https://github.com/arpan45/simple-quiz-vue
+Teşekkürler: Bu quiz uygulamasının orijinal versiyonu için teşekkürler: https://github.com/arpan45/simple-quiz-vue
 
 ## Azure'a Dağıtım
 
-Başlamak için adım adım bir kılavuz:
+İşte başlamanıza yardımcı olacak adım adım bir rehber:
 
-1. GitHub Deposu Oluşturun
-Statik web uygulamanızın kodunun GitHub deponuzda olduğundan emin olun. Bu depoyu fork edin.
+1. GitHub Deposunu Çatallayın  
+Statik web uygulamanızın kodunun GitHub deponuzda olduğundan emin olun. Bu depoyu çatallayın.
 
-2. Azure Statik Web Uygulaması Oluşturun
-- Bir [Azure hesabı](http://azure.microsoft.com) oluşturun.
-- [Azure portalına](https://portal.azure.com) gidin.
-- "Bir kaynak oluştur" seçeneğine tıklayın ve "Statik Web Uygulaması" araması yapın.
-- "Oluştur" seçeneğine tıklayın.
+2. Bir Azure Statik Web Uygulaması Oluşturun  
+- Bir [Azure hesabı](http://azure.microsoft.com) oluşturun.  
+- [Azure portalına](https://portal.azure.com) gidin.  
+- “Bir kaynak oluştur”a tıklayın ve “Statik Web Uygulaması” arayın.  
+- “Oluştur”a tıklayın.
 
-3. Statik Web Uygulamasını Yapılandırın
-- Temel Bilgiler: Abonelik: Azure aboneliğinizi seçin.
-- Kaynak Grubu: Yeni bir kaynak grubu oluşturun veya mevcut birini kullanın.
-- İsim: Statik web uygulamanız için bir isim verin.
-- Bölge: Kullanıcılarınıza en yakın bölgeyi seçin.
+3. Statik Web Uygulamasını Yapılandırın  
+- Temel Bilgiler:  
+  - Abonelik: Azure aboneliğinizi seçin.  
+  - Kaynak Grubu: Yeni bir kaynak grubu oluşturun veya mevcut birini kullanın.  
+  - Ad: Statik web uygulamanız için bir ad belirleyin.  
+  - Bölge: Kullanıcılarınıza en yakın bölgeyi seçin.  
 
-- #### Dağıtım Detayları:
-- Kaynak: "GitHub" seçeneğini seçin.
-- GitHub Hesabı: Azure'un GitHub hesabınıza erişim izni vermesini onaylayın.
-- Organizasyon: GitHub organizasyonunuzu seçin.
-- Depo: Statik web uygulamanızı içeren depoyu seçin.
-- Dal: Dağıtım yapmak istediğiniz dalı seçin.
+- #### Dağıtım Detayları:  
+  - Kaynak: “GitHub”ı seçin.  
+  - GitHub Hesabı: Azure’un GitHub hesabınıza erişmesine izin verin.  
+  - Organizasyon: GitHub organizasyonunuzu seçin.  
+  - Depo: Statik web uygulamanızı içeren depoyu seçin.  
+  - Dal: Hangi daldan dağıtım yapacağınızı seçin.  
 
-- #### Derleme Detayları:
-- Derleme Ön Ayarları: Uygulamanızın inşa edildiği çerçeveyi seçin (örn., React, Angular, Vue, vb.).
-- Uygulama Konumu: Uygulama kodunuzu içeren klasörü belirtin (örn., kökse /).
-- API Konumu: Bir API'niz varsa, konumunu belirtin (isteğe bağlı).
-- Çıktı Konumu: Derleme çıktısının oluşturulacağı klasörü belirtin (örn., build veya dist).
+- #### Yapı Detayları:  
+  - Yapı Ön Ayarları: Uygulamanızın oluşturulduğu çerçeveyi seçin (ör. React, Angular, Vue, vb.).  
+  - Uygulama Konumu: Uygulama kodunuzu içeren klasörü belirtin (ör. kökteyse /).  
+  - API Konumu: Eğer bir API’niz varsa, konumunu belirtin (isteğe bağlı).  
+  - Çıktı Konumu: Yapı çıktısının oluşturulduğu klasörü belirtin (ör. build veya dist).  
 
-4. Gözden Geçirin ve Oluşturun
-Ayarlarınızı gözden geçirin ve "Oluştur" seçeneğine tıklayın. Azure gerekli kaynakları kuracak ve deponuzda bir GitHub Actions iş akışı oluşturacaktır.
+4. Gözden Geçir ve Oluştur  
+Ayarlarınızı gözden geçirin ve “Oluştur”a tıklayın. Azure, gerekli kaynakları ayarlayacak ve deponuzda bir GitHub Actions iş akışı oluşturacaktır.
 
-5. GitHub Actions İş Akışı
-Azure, deponuzda otomatik olarak bir GitHub Actions iş akışı dosyası oluşturacaktır (.github/workflows/azure-static-web-apps-<name>.yml). Bu iş akışı, derleme ve dağıtım sürecini yönetecektir.
+5. GitHub Actions İş Akışı  
+Azure, deponuzda otomatik olarak bir GitHub Actions iş akışı dosyası oluşturacaktır (.github/workflows/azure-static-web-apps-<name>.yml). Bu iş akışı, yapı ve dağıtım sürecini yönetecektir.
 
-6. Dağıtımı İzleyin
-GitHub deponuzdaki "Actions" sekmesine gidin.
-Bir iş akışının çalıştığını görmelisiniz. Bu iş akışı, statik web uygulamanızı Azure'a derleyip dağıtacaktır.
-İş akışı tamamlandığında, uygulamanız sağlanan Azure URL'sinde canlı olacaktır.
+6. Dağıtımı İzleme  
+GitHub deponuzdaki “Actions” sekmesine gidin.  
+Bir iş akışının çalıştığını görmelisiniz. Bu iş akışı, statik web uygulamanızı Azure’a oluşturup dağıtacaktır.  
+İş akışı tamamlandığında, uygulamanız sağlanan Azure URL’sinde canlı olacaktır.
 
 ### Örnek İş Akışı Dosyası
 
-GitHub Actions iş akışı dosyasının nasıl görünebileceğine dair bir örnek:
-name: Azure Statik Web Uygulamaları CI/CD
+İşte GitHub Actions iş akışı dosyasının nasıl görünebileceğine dair bir örnek:  
+name: Azure Static Web Apps CI/CD  
 ```
 on:
   push:
@@ -119,9 +129,9 @@ jobs:
           output_location: "dist" #Built app content directory - optional
 ```
 
-### Ek Kaynaklar
-- [Azure Statik Web Uygulamaları Belgeleri](https://learn.microsoft.com/azure/static-web-apps/getting-started)
-- [GitHub Actions Belgeleri](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)
+### Ek Kaynaklar  
+- [Azure Statik Web Uygulamaları Dokümantasyonu](https://learn.microsoft.com/azure/static-web-apps/getting-started)  
+- [GitHub Actions Dokümantasyonu](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)  
 
-**Açıklama**:  
-Bu belge, makine tabanlı AI çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucunda ortaya çıkan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

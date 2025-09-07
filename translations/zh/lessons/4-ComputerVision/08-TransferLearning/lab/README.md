@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-24T20:35:55+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "zh"
+}
+-->
 # 使用迁移学习对牛津宠物进行分类
 
-来自 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) 的实验作业。
+来自 [AI 初学者课程](https://github.com/microsoft/ai-for-beginners) 的实验任务。
 
 ## 任务
 
-想象一下，您需要开发一个宠物托儿所的应用程序来 catalog 所有宠物。这样一个应用程序的一个重要功能将是自动从照片中识别宠物的品种。在这个作业中，我们将使用迁移学习来对来自 [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) 宠物数据集的真实宠物图像进行分类。
+想象一下，你需要为一家宠物托管中心开发一个应用程序，用来记录所有的宠物。这样的应用程序一个很棒的功能就是能够通过照片自动识别宠物的品种。在本次任务中，我们将使用迁移学习对 [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) 宠物数据集中的真实宠物图片进行分类。
 
 ## 数据集
 
-我们将使用原始的 [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) 宠物数据集，该数据集包含 35 种不同品种的狗和猫。
+我们将使用原始的 [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) 宠物数据集，该数据集包含 35 种不同品种的猫和狗。
 
 要下载数据集，请使用以下代码片段：
 
@@ -18,13 +27,13 @@
 !rm images.tar.gz
 ```
 
-## 启动笔记本
+## 启动 Notebook
 
 通过打开 [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb) 开始实验。
 
 ## 收获
 
-迁移学习和预训练网络使我们能够相对轻松地解决现实世界的图像分类问题。然而，预训练网络在相似类型的图像上效果良好，如果我们开始对非常不同的图像（例如医学图像）进行分类，结果可能会大大降低。
+迁移学习和预训练网络使我们能够相对轻松地解决现实世界中的图像分类问题。然而，预训练网络在处理相似类型的图像时效果较好，如果我们开始分类非常不同的图像（例如医学图像），结果可能会大打折扣。
 
 **免责声明**：  
-本文件使用基于机器的人工智能翻译服务进行翻译。虽然我们努力确保准确性，但请注意，自动翻译可能包含错误或不准确之处。原始文件的母语版本应视为权威来源。对于关键信息，建议进行专业人工翻译。我们对因使用此翻译而产生的任何误解或误读不承担责任。
+本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原始语言的文档作为权威来源。对于关键信息，建议使用专业人工翻译。因使用本翻译而引起的任何误解或误读，我们概不负责。

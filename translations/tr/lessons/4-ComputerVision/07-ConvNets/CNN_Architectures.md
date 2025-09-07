@@ -1,3 +1,12 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "2f7b97b375358cb51a1e098df306bf73",
+  "translation_date": "2025-08-26T07:28:38+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
+  "language_code": "tr"
+}
+-->
 # Bilinen CNN Mimarileri
 
 ### VGG-16
@@ -6,59 +15,59 @@ VGG-16, 2014 yılında ImageNet top-5 sınıflandırmasında %92.7 doğruluk ora
 
 ![ImageNet Katmanları](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.tr.jpg)
 
-Görüldüğü gibi, VGG geleneksel bir piramit mimarisini takip eder; bu, bir dizi konvolüsyon-pooling katmanıdır.
+Gördüğünüz gibi, VGG geleneksel bir piramit mimarisini takip eder; bu, bir dizi evrişim-havuzlama katmanıdır.
 
 ![ImageNet Piramidi](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.tr.jpg)
 
-> Görsel [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) kaynağındandır.
+> Görsel [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) kaynağından alınmıştır.
 
 ### ResNet
 
-ResNet, 2015 yılında Microsoft Research tarafından önerilen bir model ailesidir. ResNet'in ana fikri **artık bloklar** kullanmaktır:
+ResNet, 2015 yılında Microsoft Research tarafından önerilen bir model ailesidir. ResNet'in ana fikri, **artık blokları** kullanmaktır:
 
 <img src="images/resnet-block.png" width="300"/>
 
 > Görsel [bu makaleden](https://arxiv.org/pdf/1512.03385.pdf) alınmıştır.
 
-Kimlik geçişinin kullanılma nedeni, katmanımızın bir önceki katmanın sonucuyla artık bloğunun çıktısı arasındaki **farkı** tahmin etmesini sağlamaktır - bu nedenle ismi *artık*dır. Bu bloklar çok daha kolay eğitilir ve bu bloklardan birkaç yüz tanesiyle ağlar inşa edilebilir (en yaygın varyantlar ResNet-52, ResNet-101 ve ResNet-152'dir).
+Kimlik geçişini kullanmanın nedeni, katmanımızın bir önceki katmanın sonucu ile artık bloğun çıktısı arasındaki **farkı** tahmin etmesini sağlamaktır - bu nedenle adına *artık* denir. Bu bloklar eğitilmesi çok daha kolaydır ve bu bloklardan yüzlercesiyle ağlar oluşturulabilir (en yaygın varyantlar ResNet-52, ResNet-101 ve ResNet-152'dir).
 
-Bu ağı, veri kümesine göre karmaşıklığını ayarlayabilen bir yapı olarak da düşünebilirsiniz. Başlangıçta, ağı eğitmeye başladığınızda, ağırlık değerleri küçüktür ve sinyalin çoğu kimlik geçiş katmanlarından geçer. Eğitim ilerledikçe ve ağırlıklar büyüdükçe, ağ parametrelerinin önemi artar ve ağ, eğitim görüntülerini doğru bir şekilde sınıflandırmak için gerekli ifadeyi sağlamak üzere ayarlanır.
+Bu ağı, veri setine göre karmaşıklığını ayarlayabilen bir yapı olarak da düşünebilirsiniz. Başlangıçta, ağı eğitmeye başladığınızda, ağırlık değerleri küçüktür ve sinyalin çoğu kimlik geçiş katmanlarından geçer. Eğitim ilerledikçe ve ağırlıklar büyüdükçe, ağ parametrelerinin önemi artar ve ağ, eğitim görüntülerini doğru bir şekilde sınıflandırmak için gereken ifade gücünü karşılayacak şekilde kendini ayarlar.
 
 ### Google Inception
 
-Google Inception mimarisi bu fikri bir adım daha ileri götürerek, her ağ katmanını birkaç farklı yolun kombinasyonu olarak inşa eder:
+Google Inception mimarisi bu fikri bir adım öteye taşır ve her ağ katmanını birkaç farklı yolun bir kombinasyonu olarak inşa eder:
 
 <img src="images/inception.png" width="400"/>
 
-> Görsel [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) kaynağındandır.
+> Görsel [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) kaynağından alınmıştır.
 
-Burada, 1x1 konvolüsyonların rolünü vurgulamamız gerekiyor, çünkü ilk başta mantıklı görünmeyebilir. 1x1 filtre ile görüntü üzerinden geçmemize neden olan şey nedir? Ancak, konvolüsyon filtrelerinin aynı zamanda birkaç derinlik kanalıyla çalıştığını unutmamalısınız (ilk olarak - RGB renkleri, sonraki katmanlarda - farklı filtreler için kanallar) ve 1x1 konvolüsyon, bu giriş kanallarını farklı eğitilebilir ağırlıklar kullanarak bir araya getirmek için kullanılır. Ayrıca, bu durum kanal boyutunda örnekleme (pooling) olarak da görülebilir.
+Burada, 1x1 evrişimlerin rolünü vurgulamak gerekir, çünkü ilk bakışta mantıklı görünmeyebilir. Görüntüyü neden 1x1 filtreyle taramamız gerekiyor? Ancak, evrişim filtrelerinin aynı zamanda birkaç derinlik kanalında (başlangıçta - RGB renkleri, sonraki katmanlarda - farklı filtreler için kanallar) çalıştığını unutmamalısınız ve 1x1 evrişim, bu giriş kanallarını farklı eğitilebilir ağırlıklarla birleştirmek için kullanılır. Ayrıca kanal boyutunda bir alt örnekleme (havuzlama) olarak da görülebilir.
 
-Konu hakkında [iyi bir blog yazısı](https://medium.com/analytics-vidhya/talented-mr-1x1-comprehensive-look-at-1x1-convolution-in-deep-learning-f6b355825578) ve [orijinal makale](https://arxiv.org/pdf/1312.4400.pdf) bulunmaktadır.
+Bu konuda [iyi bir blog yazısı](https://medium.com/analytics-vidhya/talented-mr-1x1-comprehensive-look-at-1x1-convolution-in-deep-learning-f6b355825578) ve [orijinal makale](https://arxiv.org/pdf/1312.4400.pdf) bulunmaktadır.
 
 ### MobileNet
 
-MobileNet, boyutu azaltılmış, mobil cihazlar için uygun model aileleridir. Kaynaklarınız kısıtlıysa ve biraz doğruluktan feragat edebiliyorsanız bunları kullanabilirsiniz. Onların arkasındaki ana fikir, **derinlik ayırıcı konvolüsyon** olarak adlandırılan bir yapıdır; bu, konvolüsyon filtrelerini mekansal konvolüsyonların ve derinlik kanalları üzerindeki 1x1 konvolüsyonların bir bileşimi olarak temsil etmeye olanak tanır. Bu, parametre sayısını önemli ölçüde azaltarak ağın boyutunu küçültür ve ayrıca daha az veriyle daha kolay eğitilmesini sağlar.
+MobileNet, mobil cihazlar için uygun, boyutları küçültülmüş bir model ailesidir. Kaynaklarınız sınırlıysa ve biraz doğruluk kaybını göze alabiliyorsanız, bu modelleri kullanabilirsiniz. Bu modellerin arkasındaki ana fikir, **derinlik ayrılabilir evrişim** olarak adlandırılan bir tekniktir. Bu teknik, evrişim filtrelerini, uzaysal evrişimlerin ve derinlik kanalları üzerinde 1x1 evrişimlerin bir bileşimi olarak temsil etmeye olanak tanır. Bu, parametre sayısını önemli ölçüde azaltır, ağı daha küçük hale getirir ve daha az veriyle eğitilmesini kolaylaştırır.
 
-Burada [MobileNet hakkında iyi bir blog yazısı](https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470) bulunmaktadır.
+İşte [MobileNet hakkında iyi bir blog yazısı](https://medium.com/analytics-vidhya/image-classification-with-mobilenet-cc6fbb2cd470).
 
 ## Sonuç
 
-Bu ünitede, bilgisayarla görme sinir ağlarının temel kavramını öğrendiniz - konvolüsyonel ağlar. Görüntü sınıflandırması, nesne tespiti ve hatta görüntü üretim ağlarını güçlendiren gerçek yaşam mimarileri hepsi CNN'lere dayanmaktadır, sadece daha fazla katman ve bazı ek eğitim ipuçları ile.
+Bu bölümde, bilgisayarla görme sinir ağlarının temel konseptini - evrişimli ağları öğrendiniz. Görüntü sınıflandırma, nesne algılama ve hatta görüntü oluşturma ağlarını destekleyen gerçek yaşam mimarilerinin hepsi CNN'lere dayanır, sadece daha fazla katman ve bazı ek eğitim hileleriyle.
 
 ## 🚀 Meydan Okuma
 
-Eşlik eden defterlerde, daha yüksek doğruluk elde etme konusunda notlar bulunmaktadır. Daha yüksek bir doğruluk elde edip edemeyeceğinizi görmek için bazı deneyler yapın.
+Eşlik eden defterlerde, daha yüksek doğruluk elde etmenin yolları hakkında notlar bulunmaktadır. Daha yüksek doğruluk elde edip edemeyeceğinizi görmek için bazı deneyler yapın.
 
-## [Ders sonrası quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 
-CNN'ler en çok Bilgisayarla Görme görevleri için kullanılsa da, genellikle sabit boyutlu desenleri çıkarmak için iyidirler. Örneğin, seslerle uğraşıyorsak, belirli bir ses sinyalindeki belirli desenleri aramak için CNN'leri kullanmak isteyebiliriz - bu durumda filtreler 1 boyutlu olur (ve bu CNN 1D-CNN olarak adlandırılır). Ayrıca, bazen 3D-CNN, çok boyutlu alanda özellikleri çıkarmak için kullanılır; örneğin, videoda meydana gelen belirli olaylar - CNN, zaman içinde değişen özelliklerin belirli desenlerini yakalayabilir. CNN'lerle yapılabilecek diğer görevler hakkında gözden geçirme ve kendi kendine çalışma yapın.
+CNN'ler genellikle Bilgisayarla Görme görevlerinde kullanılsa da, sabit boyutlu desenleri çıkarmada genel olarak iyidirler. Örneğin, seslerle çalışıyorsak, ses sinyalinde bazı belirli desenleri aramak için de CNN'leri kullanmak isteyebiliriz - bu durumda filtreler 1 boyutlu olur (ve bu CNN'e 1D-CNN denir). Ayrıca, bazen çok boyutlu uzayda özellikleri çıkarmak için 3D-CNN kullanılır, örneğin videoda meydana gelen belirli olaylar - CNN, zaman içinde değişen belirli özellik desenlerini yakalayabilir. CNN'lerle yapılabilecek diğer görevler hakkında biraz araştırma ve kendi kendine çalışma yapın.
 
-## [Ödev](lab/README.md)
+## [Görev](lab/README.md)
 
-Bu laboratuvar çalışmasında, farklı kedi ve köpek ırklarını sınıflandırmanız isteniyor. Bu görüntüler, MNIST veri setinden daha karmaşık ve daha yüksek boyutlardadır ve 10'dan fazla sınıf bulunmaktadır.
+Bu laboratuvarda, farklı kedi ve köpek ırklarını sınıflandırma görevi verilmektedir. Bu görüntüler, MNIST veri setinden daha karmaşıktır, daha yüksek boyutlardadır ve 10'dan fazla sınıf bulunmaktadır.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucu ortaya çıkan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul edilmez.

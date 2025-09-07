@@ -1,33 +1,42 @@
-# Apprentissage par Renforcement Profond
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "dbacf9b1915612981d76059678e563e5",
+  "translation_date": "2025-08-26T07:06:48+00:00",
+  "source_file": "lessons/6-Other/22-DeepRL/README.md",
+  "language_code": "it"
+}
+-->
+# Apprendimento per Rinforzo Profondo
 
-L'apprentissage par renforcement (RL) est considéré comme l'un des paradigmes fondamentaux de l'apprentissage machine, aux côtés de l'apprentissage supervisé et non supervisé. Alors que dans l'apprentissage supervisé, nous nous appuyons sur un ensemble de données avec des résultats connus, le RL repose sur **l'apprentissage par l'action**. Par exemple, lorsque nous découvrons un nouveau jeu vidéo, nous commençons à jouer, même sans connaître les règles, et rapidement, nous parvenons à améliorer nos compétences simplement en jouant et en ajustant notre comportement.
+L'apprendimento per rinforzo (RL) è considerato uno dei paradigmi fondamentali del machine learning, accanto all'apprendimento supervisionato e non supervisionato. Mentre nell'apprendimento supervisionato ci basiamo su un dataset con risultati noti, l'RL si basa sull'**imparare facendo**. Ad esempio, quando vediamo per la prima volta un videogioco, iniziamo a giocare anche senza conoscere le regole, e presto miglioriamo le nostre abilità semplicemente giocando e adattando il nostro comportamento.
 
-## [Quiz pré-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
 
-Pour effectuer du RL, nous avons besoin de :
+Per eseguire l'RL, abbiamo bisogno di:
 
-* Un **environnement** ou **simulateur** qui définit les règles du jeu. Nous devrions être capables de réaliser des expériences dans le simulateur et d'observer les résultats.
-* Une **fonction de récompense**, qui indique à quel point notre expérience a été réussie. Dans le cas de l'apprentissage d'un jeu vidéo, la récompense serait notre score final.
+* Un **ambiente** o **simulatore** che definisca le regole del gioco. Dovremmo essere in grado di eseguire esperimenti nel simulatore e osservare i risultati.
+* Una **funzione di ricompensa**, che indichi quanto è stato efficace il nostro esperimento. Nel caso di apprendimento per giocare a un videogioco, la ricompensa potrebbe essere il nostro punteggio finale.
 
-Sur la base de la fonction de récompense, nous devrions être en mesure d'ajuster notre comportement et d'améliorer nos compétences, de sorte qu'à la prochaine partie, nous jouions mieux. La principale différence entre les autres types d'apprentissage machine et le RL est qu'en RL, nous ne savons généralement pas si nous gagnons ou perdons avant d'avoir terminé le jeu. Ainsi, nous ne pouvons pas dire si un mouvement particulier est bon ou non - nous ne recevons une récompense qu'à la fin du jeu.
+Basandoci sulla funzione di ricompensa, dovremmo essere in grado di adattare il nostro comportamento e migliorare le nostre abilità, così da giocare meglio la volta successiva. La principale differenza tra l'RL e altri tipi di machine learning è che nell'RL tipicamente non sappiamo se abbiamo vinto o perso fino alla fine del gioco. Pertanto, non possiamo dire se una singola mossa sia buona o meno - riceviamo una ricompensa solo alla fine del gioco.
 
-Lors de l'apprentissage par renforcement, nous réalisons généralement de nombreuses expériences. Au cours de chaque expérience, nous devons équilibrer entre le suivi de la stratégie optimale que nous avons apprise jusqu'à présent (**exploitation**) et l'exploration de nouveaux états possibles (**exploration**).
+Durante l'RL, eseguiamo tipicamente molti esperimenti. In ciascun esperimento, dobbiamo bilanciare tra il seguire la strategia ottimale appresa fino a quel momento (**sfruttamento**) e l'esplorazione di nuovi stati possibili (**esplorazione**).
 
 ## OpenAI Gym
 
-Un excellent outil pour le RL est l'[OpenAI Gym](https://gym.openai.com/) - un **environnement de simulation**, capable de simuler de nombreux environnements différents, allant des jeux Atari à la physique derrière l'équilibre d'un poteau. C'est l'un des environnements de simulation les plus populaires pour former des algorithmes d'apprentissage par renforcement, et il est maintenu par [OpenAI](https://openai.com/).
+Uno strumento eccellente per l'RL è [OpenAI Gym](https://gym.openai.com/) - un **ambiente di simulazione**, che può simulare molti ambienti diversi, dai giochi Atari alla fisica dietro l'equilibrio di un'asta. È uno degli ambienti di simulazione più popolari per l'addestramento di algoritmi di apprendimento per rinforzo, ed è mantenuto da [OpenAI](https://openai.com/).
 
-> **Note** : Vous pouvez voir tous les environnements disponibles dans OpenAI Gym [ici](https://gym.openai.com/envs/#classic_control).
+> **Nota**: Puoi vedere tutti gli ambienti disponibili in OpenAI Gym [qui](https://gym.openai.com/envs/#classic_control).
 
-## Équilibre CartPole
+## Equilibrio del CartPole
 
-Vous avez probablement tous vu des dispositifs d'équilibre modernes tels que le *Segway* ou les *Gyroscooters*. Ils parviennent à s'équilibrer automatiquement en ajustant leurs roues en réponse à un signal provenant d'un accéléromètre ou d'un gyroscope. Dans cette section, nous allons apprendre à résoudre un problème similaire - l'équilibre d'un poteau. C'est comparable à une situation où un artiste de cirque doit équilibrer un poteau sur sa main - mais cet équilibre ne se produit que dans une dimension.
+Avrete probabilmente visto dispositivi moderni di bilanciamento come il *Segway* o i *Gyroscooter*. Sono in grado di bilanciarsi automaticamente regolando le ruote in risposta a un segnale proveniente da un accelerometro o giroscopio. In questa sezione, impareremo a risolvere un problema simile: bilanciare un'asta. È simile alla situazione in cui un artista circense deve bilanciare un'asta sulla mano - ma in questo caso il bilanciamento avviene solo in 1D.
 
-Une version simplifiée de l'équilibre est connue sous le nom de problème **CartPole**. Dans le monde du cartpole, nous avons un curseur horizontal qui peut se déplacer à gauche ou à droite, et l'objectif est de maintenir un poteau vertical au sommet du curseur pendant qu'il se déplace.
+Una versione semplificata del bilanciamento è nota come problema del **CartPole**. Nel mondo del CartPole, abbiamo uno slider orizzontale che può muoversi a sinistra o a destra, e l'obiettivo è bilanciare un'asta verticale sopra lo slider mentre si muove.
 
 <img alt="un cartpole" src="images/cartpole.png" width="200"/>
 
-Pour créer et utiliser cet environnement, nous avons besoin de quelques lignes de code Python :
+Per creare e utilizzare questo ambiente, servono poche righe di codice Python:
 
 ```python
 import gym
@@ -45,73 +54,73 @@ while not done:
 print(f"Total reward: {total_reward}")
 ```
 
-Chaque environnement peut être accessible de la même manière :
-* `env.reset` starts a new experiment
-* `env.step` effectue une étape de simulation. Il reçoit une **action** de l'**espace d'actions** et renvoie une **observation** (de l'espace d'observation), ainsi qu'une récompense et un indicateur de terminaison.
+Ogni ambiente può essere utilizzato esattamente nello stesso modo:
+* `env.reset` avvia un nuovo esperimento
+* `env.step` esegue un passo di simulazione. Riceve un'**azione** dallo **spazio delle azioni** e restituisce un'**osservazione** (dallo spazio delle osservazioni), oltre a una ricompensa e un flag di terminazione.
 
-Dans l'exemple ci-dessus, nous effectuons une action aléatoire à chaque étape, ce qui explique pourquoi la durée de vie de l'expérience est très courte :
+Nell'esempio sopra, eseguiamo un'azione casuale a ogni passo, motivo per cui la durata dell'esperimento è molto breve:
 
-![cartpole non équilibré](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
+![cartpole senza bilanciamento](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
 
-L'objectif d'un algorithme de RL est de former un modèle - la soi-disant **politique** π - qui renverra l'action en réponse à un état donné. Nous pouvons également considérer la politique comme étant probabiliste, par exemple, pour tout état *s* et action *a*, elle renverra la probabilité π(*a*|*s*) que nous devrions prendre *a* dans l'état *s*.
+L'obiettivo di un algoritmo di RL è addestrare un modello - la cosiddetta **policy** π - che restituisca l'azione in risposta a uno stato dato. Possiamo anche considerare la policy come probabilistica, ad esempio per ogni stato *s* e azione *a* restituirà la probabilità π(*a*|*s*) che dovremmo eseguire *a* nello stato *s*.
 
-## Algorithme des Gradients de Politique
+## Algoritmo dei Gradienti di Policy
 
-La manière la plus évidente de modéliser une politique est de créer un réseau de neurones qui prendra des états en entrée et renverra les actions correspondantes (ou plutôt les probabilités de toutes les actions). En un sens, cela serait similaire à une tâche de classification normale, avec une différence majeure - nous ne savons pas à l'avance quelles actions nous devrions prendre à chacune des étapes.
+Il modo più ovvio per modellare una policy è creare una rete neurale che prenda gli stati come input e restituisca le azioni corrispondenti (o piuttosto le probabilità di tutte le azioni). In un certo senso, sarebbe simile a un normale compito di classificazione, con una differenza fondamentale: non sappiamo in anticipo quali azioni dovremmo eseguire a ciascun passo.
 
-L'idée ici est d'estimer ces probabilités. Nous construisons un vecteur de **récompenses cumulées** qui montre notre récompense totale à chaque étape de l'expérience. Nous appliquons également un **escompte de récompense** en multipliant les récompenses antérieures par un coefficient γ=0.99, afin de diminuer le rôle des récompenses antérieures. Ensuite, nous renforçons ces étapes le long du chemin de l'expérience qui produisent des récompenses plus importantes.
+L'idea qui è stimare quelle probabilità. Costruiamo un vettore di **ricompense cumulative** che mostra la nostra ricompensa totale a ciascun passo dell'esperimento. Applichiamo anche uno **sconto sulle ricompense** moltiplicando le ricompense precedenti per un coefficiente γ=0.99, al fine di ridurre l'importanza delle ricompense più lontane nel tempo. Successivamente, rafforziamo quei passi lungo il percorso dell'esperimento che producono ricompense maggiori.
 
-> En savoir plus sur l'algorithme de Gradient de Politique et le voir en action dans le [carnet d'exemples](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb).
+> Scopri di più sull'algoritmo dei Gradienti di Policy e guardalo in azione nel [notebook di esempio](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb).
 
-## Algorithme Acteur-Critique
+## Algoritmo Actor-Critic
 
-Une version améliorée de l'approche des Gradients de Politique est appelée **Acteur-Critique**. L'idée principale est que le réseau de neurones serait entraîné pour renvoyer deux choses :
+Una versione migliorata dell'approccio dei Gradienti di Policy è chiamata **Actor-Critic**. L'idea principale è che la rete neurale venga addestrata per restituire due cose:
 
-* La politique, qui détermine quelle action prendre. Cette partie est appelée **acteur**.
-* L'estimation de la récompense totale que nous pouvons espérer obtenir dans cet état - cette partie est appelée **critique**.
+* La policy, che determina quale azione intraprendere. Questa parte è chiamata **actor**.
+* La stima della ricompensa totale che possiamo aspettarci di ottenere in questo stato - questa parte è chiamata **critic**.
 
-En un sens, cette architecture ressemble à un [GAN](../../4-ComputerVision/10-GANs/README.md), où nous avons deux réseaux qui sont entraînés l'un contre l'autre. Dans le modèle acteur-critique, l'acteur propose l'action que nous devons prendre, et le critique essaie d'être critique et d'estimer le résultat. Cependant, notre objectif est d'entraîner ces réseaux de manière conjointe.
+In un certo senso, questa architettura ricorda un [GAN](../../4-ComputerVision/10-GANs/README.md), dove abbiamo due reti che vengono addestrate l'una contro l'altra. Nel modello actor-critic, l'actor propone l'azione da intraprendere, e il critic cerca di essere critico e stimare il risultato. Tuttavia, il nostro obiettivo è addestrare queste reti in sincronia.
 
-Comme nous connaissons à la fois les vraies récompenses cumulées et les résultats renvoyés par le critique pendant l'expérience, il est relativement facile de construire une fonction de perte qui minimisera la différence entre elles. Cela nous donnerait la **perte du critique**. Nous pouvons calculer la **perte de l'acteur** en utilisant la même approche que dans l'algorithme de gradient de politique.
+Poiché conosciamo sia le ricompense cumulative reali sia i risultati restituiti dal critic durante l'esperimento, è relativamente facile costruire una funzione di perdita che minimizzi la differenza tra di essi. Questo ci darà la **perdita del critic**. Possiamo calcolare la **perdita dell'actor** utilizzando lo stesso approccio dell'algoritmo dei gradienti di policy.
 
-Après avoir exécuté l'un de ces algorithmes, nous pouvons nous attendre à ce que notre CartPole se comporte comme ceci :
+Dopo aver eseguito uno di questi algoritmi, possiamo aspettarci che il nostro CartPole si comporti così:
 
-![un cartpole équilibré](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
+![cartpole in equilibrio](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
 
-## ✍️ Exercices : Gradients de Politique et RL Acteur-Critique
+## ✍️ Esercizi: Gradienti di Policy e Actor-Critic RL
 
-Poursuivez votre apprentissage dans les carnets suivants :
+Continua il tuo apprendimento nei seguenti notebook:
 
-* [RL dans TensorFlow](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)
-* [RL dans PyTorch](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb)
+* [RL in TensorFlow](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)
+* [RL in PyTorch](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb)
 
-## Autres Tâches de RL
+## Altri Compiti di RL
 
-L'apprentissage par renforcement est aujourd'hui un domaine de recherche en pleine expansion. Voici quelques exemples intéressants d'apprentissage par renforcement :
+L'apprendimento per rinforzo è oggi un campo di ricerca in rapida crescita. Alcuni esempi interessanti di apprendimento per rinforzo sono:
 
-* Apprendre à un ordinateur à jouer à des **jeux Atari**. La difficulté dans ce problème est que nous n'avons pas d'état simple représenté sous forme de vecteur, mais plutôt une capture d'écran - et nous devons utiliser le CNN pour convertir cette image d'écran en un vecteur de caractéristiques, ou pour extraire des informations de récompense. Les jeux Atari sont disponibles dans le Gym.
-* Apprendre à un ordinateur à jouer à des jeux de société, tels que les échecs et le Go. Récemment, des programmes à la pointe de la technologie comme **Alpha Zero** ont été entraînés à partir de zéro par deux agents jouant l'un contre l'autre, s'améliorant à chaque étape.
-* Dans l'industrie, le RL est utilisé pour créer des systèmes de contrôle à partir de simulations. Un service appelé [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) est spécifiquement conçu pour cela.
+* Insegnare a un computer a giocare ai **giochi Atari**. La parte impegnativa di questo problema è che non abbiamo uno stato semplice rappresentato come un vettore, ma piuttosto uno screenshot - e dobbiamo usare una CNN per convertire questa immagine dello schermo in un vettore di caratteristiche o per estrarre informazioni sulla ricompensa. I giochi Atari sono disponibili in Gym.
+* Insegnare a un computer a giocare a giochi da tavolo, come gli scacchi e il Go. Recentemente, programmi all'avanguardia come **Alpha Zero** sono stati addestrati da zero facendo giocare due agenti l'uno contro l'altro, migliorando a ogni passo.
+* Nell'industria, l'RL viene utilizzato per creare sistemi di controllo a partire da simulazioni. Un servizio chiamato [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) è specificamente progettato per questo.
 
-## Conclusion
+## Conclusione
 
-Nous avons maintenant appris comment former des agents pour obtenir de bons résultats simplement en leur fournissant une fonction de récompense qui définit l'état souhaité du jeu, et en leur offrant la possibilité d'explorer intelligemment l'espace de recherche. Nous avons essayé avec succès deux algorithmes et obtenu un bon résultat dans un délai relativement court. Cependant, ce n'est que le début de votre voyage dans le RL, et vous devriez certainement envisager de suivre un cours séparé si vous souhaitez approfondir vos connaissances.
+Abbiamo ora imparato come addestrare agenti per ottenere buoni risultati semplicemente fornendo loro una funzione di ricompensa che definisce lo stato desiderato del gioco e dando loro l'opportunità di esplorare intelligentemente lo spazio di ricerca. Abbiamo provato con successo due algoritmi e ottenuto un buon risultato in un periodo di tempo relativamente breve. Tuttavia, questo è solo l'inizio del tuo viaggio nell'RL, e dovresti sicuramente considerare di seguire un corso specifico se vuoi approfondire.
 
-## 🚀 Défi
+## 🚀 Sfida
 
-Explorez les applications énumérées dans la section 'Autres Tâches de RL' et essayez d'en implémenter une !
+Esplora le applicazioni elencate nella sezione "Altri Compiti di RL" e prova a implementarne una!
 
-## [Quiz post-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
 
-## Revue et Auto-étude
+## Revisione e Studio Autonomo
 
-En savoir plus sur l'apprentissage par renforcement classique dans notre [Curriculum d'Apprentissage Machine pour Débutants](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
+Scopri di più sull'apprendimento per rinforzo classico nel nostro [Curriculum di Machine Learning per Principianti](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
 
-Regardez [cette excellente vidéo](https://www.youtube.com/watch?v=qv6UVOQ0F44) qui parle de la façon dont un ordinateur peut apprendre à jouer à Super Mario.
+Guarda [questo fantastico video](https://www.youtube.com/watch?v=qv6UVOQ0F44) che spiega come un computer può imparare a giocare a Super Mario.
 
-## Devoir : [Entraîner une Voiture de Montagne](lab/README.md)
+## Compito: [Addestra una Mountain Car](lab/README.md)
 
-Votre objectif lors de ce devoir serait d'entraîner un environnement Gym différent - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
+Il tuo obiettivo durante questo compito sarà addestrare un ambiente Gym diverso - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

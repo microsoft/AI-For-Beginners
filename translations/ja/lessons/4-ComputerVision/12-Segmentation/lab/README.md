@@ -1,22 +1,31 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
+  "translation_date": "2025-08-24T21:08:37+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
+  "language_code": "ja"
+}
+-->
 # 人体セグメンテーション
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)からのラボ課題です。
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) のラボ課題。
 
-## タスク
+## 課題
 
-映像制作、例えば天気予報では、カメラから人の画像を切り抜いて他の映像の上に置く必要があることがよくあります。これは通常、**クロマキー**技術を使用して行われ、人が均一な色の背景の前で撮影され、その背景が取り除かれます。このラボでは、人のシルエットを切り抜くためにニューラルネットワークモデルを訓練します。
+ビデオ制作、例えば天気予報では、カメラで撮影した人の画像を切り抜き、別の映像の上に配置する必要があることがあります。これには通常、**クロマキー**技術が使用されます。人が均一な色の背景の前で撮影され、その背景が取り除かれる方法です。このラボでは、人のシルエットを切り抜くためのニューラルネットワークモデルを訓練します。
 
 ## データセット
 
-Kaggleから[Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset)を使用します。Kaggleから手動でデータセットをダウンロードしてください。
+Kaggleの[Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset)を使用します。データセットはKaggleから手動でダウンロードしてください。
 
-## ノートブックの開始
+## スタートノートブック
 
-[BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb)を開いてラボを始めましょう。
+[BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb) を開いてラボを開始してください。
 
-## まとめ
+## 学び
 
-人体セグメンテーションは、人の画像を使って行う一般的なタスクの一つです。別の重要なタスクには、**スケルトン検出**や**ポーズ検出**が含まれます。これらのタスクがどのように実装されるかを確認するには、[OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)ライブラリを見てみてください。
+人体セグメンテーションは、人の画像を使ってできる一般的なタスクの一つに過ぎません。他にも重要なタスクとして、**骨格検出**や**ポーズ検出**があります。[OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) ライブラリを調べて、それらのタスクがどのように実装されるかを確認してください。
 
 **免責事項**:  
-この文書は、機械翻訳AIサービスを使用して翻訳されています。正確性を追求していますが、自動翻訳には誤りや不正確さが含まれる可能性があることをご理解ください。原文の母国語の文書を権威ある情報源として考慮するべきです。重要な情報については、専門の人間翻訳をお勧めします。この翻訳の使用から生じる誤解や誤解釈について、当社は責任を負いません。
+この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があることをご承知おきください。元の言語で記載された文書が公式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の使用に起因する誤解や誤認について、当方は一切の責任を負いません。

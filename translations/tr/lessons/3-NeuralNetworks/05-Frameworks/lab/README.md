@@ -1,19 +1,28 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-26T07:35:34+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "tr"
+}
+-->
 # PyTorch/TensorFlow ile Sınıflandırma
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) için Laboratuvar Görevi.
+[AI for Beginners Müfredatı](https://github.com/microsoft/ai-for-beginners) tarafından hazırlanan Lab Görevi.
 
 ## Görev
 
-PyTorch veya TensorFlow kullanarak tek ve çok katmanlı tam bağlantılı ağlar ile iki sınıflandırma problemini çözün:
+PyTorch veya TensorFlow kullanarak tek ve çok katmanlı tam bağlantılı ağlarla iki sınıflandırma problemini çözün:
 
-1. **[İris sınıflandırması](https://en.wikipedia.org/wiki/Iris_flower_data_set)** problemi - klasik makine öğrenimi ile ele alınabilen tablo verisi ile ilgili bir problem örneği. Amacınız, 4 sayısal parametreye dayanarak irisleri 3 sınıfa ayırmaktır.
+1. **[Iris sınıflandırması](https://en.wikipedia.org/wiki/Iris_flower_data_set)** problemi - tabular giriş verileriyle çalışılabilen ve klasik makine öğrenimiyle çözülebilecek bir problem örneği. Amacınız, 4 sayısal parametreye dayanarak iris çiçeklerini 3 sınıfa ayırmak olacaktır.
 1. Daha önce gördüğümüz **MNIST** el yazısı rakam sınıflandırma problemi.
 
 En iyi doğruluğu elde etmek için farklı ağ mimarilerini deneyin.
 
-## Not Defterini Başlatma
+## Başlangıç Not Defteri
 
-Laboratuvara [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb) dosyasını açarak başlayın.
+Lab çalışmasına [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb) dosyasını açarak başlayın.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucu ortaya çıkan herhangi bir yanlış anlama veya yanlış yorumlamadan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

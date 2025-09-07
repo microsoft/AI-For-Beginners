@@ -1,12 +1,21 @@
-# Clasificación MNIST con Nuestro Propio Marco
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+  "translation_date": "2025-08-24T09:22:24+00:00",
+  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+  "language_code": "es"
+}
+-->
+# Clasificación MNIST con Nuestro Propio Framework
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Asignación de laboratorio del [Currículo de AI para Principiantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarea
 
-Resuelve el problema de clasificación de dígitos manuscritos MNIST utilizando perceptrones de 1, 2 y 3 capas. Usa el marco de red neuronal que hemos desarrollado en la lección.
+Resuelve el problema de clasificación de dígitos escritos a mano de MNIST utilizando perceptrones de 1, 2 y 3 capas. Usa el framework de redes neuronales que hemos desarrollado en la lección.
 
-## Inicio del Notebook
+## Notebook Inicial
 
 Comienza el laboratorio abriendo [MyFW_MNIST.ipynb](../../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
 
@@ -16,8 +25,8 @@ Como resultado de este laboratorio, intenta responder las siguientes preguntas:
 
 - ¿La función de activación entre capas afecta el rendimiento de la red?
 - ¿Necesitamos una red de 2 o 3 capas para esta tarea?
-- ¿Experimentaste algún problema al entrenar la red? Especialmente a medida que aumentaba el número de capas.
-- ¿Cómo se comportan los pesos de la red durante el entrenamiento? Puedes graficar el valor absoluto máximo de los pesos vs. época para entender la relación.
+- ¿Tuviste algún problema entrenando la red? Especialmente cuando aumentó el número de capas.
+- ¿Cómo se comportan los pesos de la red durante el entrenamiento? Puedes graficar el valor absoluto máximo de los pesos frente a las épocas para entender la relación.
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que surjan del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

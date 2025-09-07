@@ -1,16 +1,25 @@
-# Clasificación de Mascotas de Oxford utilizando Aprendizaje por Transferencia
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-26T07:05:08+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Classificazione degli Oxford Pets utilizzando il Transfer Learning
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Compito del laboratorio tratto dal [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
-## Tarea
+## Compito
 
-Imagina que necesitas desarrollar una aplicación para una guardería de mascotas para catalogar todos los animales. Una de las grandes características de dicha aplicación sería descubrir automáticamente la raza a partir de una fotografía. En esta tarea, utilizaremos el aprendizaje por transferencia para clasificar imágenes de mascotas de la vida real del conjunto de datos de mascotas [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+Immagina di dover sviluppare un'applicazione per un asilo per animali domestici per catalogare tutti gli animali. Una delle funzionalità più utili di tale applicazione sarebbe quella di riconoscere automaticamente la razza da una fotografia. In questo compito, utilizzeremo il transfer learning per classificare immagini reali di animali domestici tratte dal dataset [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
-## El Conjunto de Datos
+## Il Dataset
 
-Usaremos el conjunto de datos original de mascotas [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contiene 35 razas diferentes de perros y gatos.
+Utilizzeremo il dataset originale [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), che contiene 35 diverse razze di cani e gatti.
 
-Para descargar el conjunto de datos, utiliza este fragmento de código:
+Per scaricare il dataset, utilizza questo frammento di codice:
 
 ```python
 !wget https://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
@@ -18,13 +27,13 @@ Para descargar el conjunto de datos, utiliza este fragmento de código:
 !rm images.tar.gz
 ```
 
-## Iniciando el Notebook
+## Notebook di Partenza
 
-Comienza el laboratorio abriendo [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
+Inizia il laboratorio aprendo [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
 
-## Conclusión
+## Conclusione
 
-El aprendizaje por transferencia y las redes preentrenadas nos permiten resolver problemas de clasificación de imágenes del mundo real de manera relativamente sencilla. Sin embargo, las redes preentrenadas funcionan bien con imágenes de un tipo similar, y si comenzamos a clasificar imágenes muy diferentes (por ejemplo, imágenes médicas), es probable que obtengamos resultados mucho peores.
+Il transfer learning e le reti pre-addestrate ci permettono di risolvere problemi di classificazione delle immagini del mondo reale in modo relativamente semplice. Tuttavia, le reti pre-addestrate funzionano bene su immagini di tipo simile e, se iniziamo a classificare immagini molto diverse (ad esempio immagini mediche), è probabile che i risultati siano molto peggiori.
 
 **Disclaimer**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

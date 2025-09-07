@@ -1,14 +1,23 @@
-# Textgenerering på ordnivå med RNN:er
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
+  "translation_date": "2025-08-25T20:50:34+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uzalishaji wa Maandishi kwa Ngazi ya Neno kwa kutumia RNNs
 
-Laborationsuppgift från [AI för Nybörjare Läroplan](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta Wanaoanza](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-I denna laboration behöver du ta en valfri bok och använda den som dataset för att träna en textgenerator på ordnivå.
+Katika maabara hii, unahitaji kuchukua kitabu chochote, na kukitumia kama seti ya data kufundisha jenereta ya maandishi kwa ngazi ya neno.
 
-## Datasetet
+## Seti ya Data
 
-Du är välkommen att använda vilken bok som helst. Du kan hitta många gratis texter på [Project Gutenberg](https://www.gutenberg.org/), till exempel, här är en direktlänk till [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt) av Lewis Carroll.
+Unakaribishwa kutumia kitabu chochote. Unaweza kupata maandishi mengi ya bure kwenye [Project Gutenberg](https://www.gutenberg.org/), kwa mfano, hapa kuna kiungo cha moja kwa moja kwa [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt)) kilichoandikwa na Lewis Carroll.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

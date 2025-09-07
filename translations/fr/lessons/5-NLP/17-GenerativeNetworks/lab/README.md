@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
+  "translation_date": "2025-08-24T20:47:04+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
+  "language_code": "fr"
+}
+-->
 # Génération de texte au niveau des mots avec des RNN
 
-Devoir de [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Devoir de laboratoire tiré du [Curriculum AI pour débutants](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Dans ce laboratoire, vous devez choisir un livre et l'utiliser comme ensemble de données pour entraîner un générateur de texte au niveau des mots.
+Dans ce laboratoire, vous devez choisir un livre et l'utiliser comme jeu de données pour entraîner un générateur de texte au niveau des mots.
 
-## L'ensemble de données
+## Le jeu de données
 
-Vous êtes libre d'utiliser n'importe quel livre. Vous pouvez trouver de nombreux textes gratuits sur [Project Gutenberg](https://www.gutenberg.org/), par exemple, voici un lien direct vers [Les aventures d'Alice au pays des merveilles](https://www.gutenberg.org/files/11/11-0.txt) de Lewis Carroll.
+Vous êtes libre d'utiliser n'importe quel livre. Vous pouvez trouver de nombreux textes gratuits sur [Project Gutenberg](https://www.gutenberg.org/), par exemple, voici un lien direct vers [Les Aventures d'Alice au Pays des Merveilles](https://www.gutenberg.org/files/11/11-0.txt)) de Lewis Carroll.
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autorisée. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

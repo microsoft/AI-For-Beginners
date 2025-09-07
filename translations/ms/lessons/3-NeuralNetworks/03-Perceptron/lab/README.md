@@ -1,22 +1,33 @@
-# Klasifikasi Pelbagai Kelas dengan Perceptron
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T11:55:31+00:00",
+  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+  "language_code": "ms"
+}
+-->
+# Pengelasan Pelbagai Kelas dengan Perceptron
 
-Tugasan Makmal dari [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
+Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).
 
-## Tugas
+## Tugasan
 
-Menggunakan kod yang telah kita bangunkan dalam pelajaran ini untuk klasifikasi binari digit tulisan tangan MNIST, buat klasifikasi pelbagai kelas yang dapat mengenali mana-mana digit. Kira ketepatan klasifikasi pada dataset latihan dan ujian, dan cetak matriks kekeliruan.
+Menggunakan kod yang telah kita bangunkan dalam pelajaran ini untuk pengelasan binari digit tulisan tangan MNIST, bina pengelas pelbagai kelas yang mampu mengenal pasti sebarang digit. Kira ketepatan pengelasan pada dataset latihan dan ujian, dan cetak matriks kekeliruan.
 
 ## Petunjuk
 
-1. Untuk setiap digit, buat dataset untuk pengklasifikasi binari "digit ini vs. semua digit lain"
-1. Latih 10 perceptron yang berbeza untuk klasifikasi binari (satu untuk setiap digit)
-1. Definisikan fungsi yang akan mengklasifikasikan digit input
+1. Untuk setiap digit, cipta dataset untuk pengelas binari "digit ini vs. semua digit lain"
+1. Latih 10 perceptron berbeza untuk pengelasan binari (satu untuk setiap digit)
+1. Definisikan fungsi yang akan mengelaskan digit input
 
-> **Petunjuk**: Jika kita menggabungkan berat semua 10 perceptron ke dalam satu matriks, kita seharusnya dapat menerapkan semua 10 perceptron pada digit input dengan satu pendaraban matriks. Digit yang paling mungkin dapat ditemui hanya dengan menerapkan `argmax` operasi pada output.
+> **Petunjuk**: Jika kita gabungkan berat bagi kesemua 10 perceptron ke dalam satu matriks, kita sepatutnya dapat menggunakan kesemua 10 perceptron pada digit input dengan satu pendaraban matriks. Digit yang paling mungkin boleh ditemui hanya dengan menggunakan operasi `argmax` pada output.
 
-## Memulakan Notebook
+## Notebook Permulaan
 
-Mulakan makmal dengan membuka [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+Mulakan makmal dengan membuka [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

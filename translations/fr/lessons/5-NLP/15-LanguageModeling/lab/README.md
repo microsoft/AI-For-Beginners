@@ -1,14 +1,23 @@
-# Modèle Skip-Gram pour l'Entraînement
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
+  "translation_date": "2025-08-24T20:47:51+00:00",
+  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
+  "language_code": "fr"
+}
+-->
+# Entraîner un modèle Skip-Gram
 
-Devoir de [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Devoir de laboratoire tiré du [Curriculum AI pour débutants](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Dans ce laboratoire, nous vous mettons au défi d'entraîner un modèle Word2Vec en utilisant la technique Skip-Gram. Entraînez un réseau avec des embeddings pour prédire les mots voisins dans une fenêtre Skip-Gram de $N$-tokens de large. Vous pouvez utiliser [le code de cette leçon](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) et le modifier légèrement.
+Dans ce laboratoire, nous vous mettons au défi d'entraîner un modèle Word2Vec en utilisant la technique Skip-Gram. Entraînez un réseau avec des embeddings pour prédire les mots voisins dans une fenêtre Skip-Gram de $N$ tokens de large. Vous pouvez utiliser le [code de cette leçon](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) et le modifier légèrement.
 
-## Le Jeu de Données
+## Le jeu de données
 
-Vous êtes libre d'utiliser n'importe quel livre. Vous pouvez trouver de nombreux textes gratuits sur [Project Gutenberg](https://www.gutenberg.org/), par exemple, voici un lien direct vers [Les Aventures d'Alice au Pays des Merveilles](https://www.gutenberg.org/files/11/11-0.txt) de Lewis Carroll. Ou, vous pouvez utiliser les pièces de Shakespeare, que vous pouvez obtenir en utilisant le code suivant :
+Vous êtes libre d'utiliser n'importe quel livre. Vous pouvez trouver de nombreux textes gratuits sur [Project Gutenberg](https://www.gutenberg.org/), par exemple, voici un lien direct vers [Les Aventures d'Alice au Pays des Merveilles](https://www.gutenberg.org/files/11/11-0.txt)) de Lewis Carroll. Ou bien, vous pouvez utiliser les pièces de Shakespeare, que vous pouvez obtenir avec le code suivant :
 
 ```python
 path_to_file = tf.keras.utils.get_file(
@@ -19,11 +28,11 @@ text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 
 ## Explorez !
 
-Si vous avez le temps et que vous souhaitez approfondir le sujet, essayez d'explorer plusieurs éléments :
+Si vous avez du temps et souhaitez approfondir le sujet, essayez d'explorer plusieurs aspects :
 
-* Comment la taille de l'embedding affecte-t-elle les résultats ?
+* Comment la taille des embeddings affecte-t-elle les résultats ?
 * Comment les différents styles de texte influencent-ils le résultat ?
-* Prenez plusieurs types de mots très différents et leurs synonymes, obtenez leurs représentations vectorielles, appliquez l'ACP pour réduire les dimensions à 2 et tracez-les dans un espace 2D. Voyez-vous des motifs ?
+* Prenez plusieurs types de mots très différents et leurs synonymes, obtenez leurs représentations vectorielles, appliquez une PCA pour réduire les dimensions à 2, et tracez-les dans un espace 2D. Voyez-vous des motifs ?
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autorisée. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

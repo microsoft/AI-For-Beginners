@@ -1,36 +1,45 @@
-# Contribuye traduciendo lecciones
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
+  "translation_date": "2025-08-26T07:15:54+00:00",
+  "source_file": "etc/TRANSLATIONS.md",
+  "language_code": "it"
+}
+-->
+# Contribuisci traducendo le lezioni
 
-¡Damos la bienvenida a las traducciones de las lecciones en este currículo!
+Accogliamo con piacere le traduzioni delle lezioni di questo curriculum!
 
-## Directrices
+## Linee guida
 
-Hay carpetas en cada carpeta de lección y en la carpeta de introducción de lección que contienen los archivos markdown traducidos.
+Ci sono cartelle in ogni cartella di lezione e nella cartella di introduzione alle lezioni che contengono i file markdown tradotti.
 
-> Nota: por favor, no traduzcas ningún código en los archivos de muestra de código; lo único que se debe traducir son README, tareas y cuestionarios. ¡Gracias!
+> Nota, per favore non tradurre alcun codice nei file di esempio di codice; le uniche cose da tradurre sono README, esercizi e quiz. Grazie!
 
-Los archivos traducidos deben seguir esta convención de nombres:
+I file tradotti devono seguire questa convenzione di denominazione:
 
-**README._[language]_.md**
+**README._[lingua]_.md**
 
-donde _[language]_ es una abreviatura de dos letras del idioma que sigue el estándar ISO 639-1 (por ejemplo, `README.es.md` para español y `README.nl.md` para neerlandés).
+dove _[lingua]_ è un'abbreviazione di due lettere della lingua secondo lo standard ISO 639-1 (ad esempio `README.es.md` per lo spagnolo e `README.nl.md` per l'olandese).
 
-**assignment._[language]_.md**
+**assignment._[lingua]_.md**
 
-Al igual que los README, por favor traduce también las tareas.
+Simile ai README, traduci anche gli esercizi.
 
-**Cuestionarios**
+**Quiz**
 
-1. Agrega tu traducción al quiz-app añadiendo un archivo aquí: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, con la convención de nombres adecuada (en.json, fr.json). **Sin embargo, por favor no localices las palabras 'true' o 'false'. ¡Gracias!**
+1. Aggiungi la tua traduzione all'app del quiz aggiungendo un file qui: https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, seguendo la corretta convenzione di denominazione (en.json, fr.json). **Per favore, non localizzare le parole 'true' o 'false'. Grazie!**
 
-2. Agrega el código de tu idioma al menú desplegable en el archivo App.vue del quiz-app.
+2. Aggiungi il codice della tua lingua al menu a tendina nel file App.vue dell'app del quiz.
 
-3. Edita el [archivo index.js de traducciones del quiz-app](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) para añadir tu idioma.
+3. Modifica il [file index.js delle traduzioni](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) dell'app del quiz per aggiungere la tua lingua.
 
-4. Finalmente, edita TODOS los enlaces de los cuestionarios en tus archivos README.md traducidos para que apunten directamente a tu cuestionario traducido: https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 se convierte en https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
+4. Infine, modifica TUTTI i link ai quiz nei tuoi file README.md tradotti per puntare direttamente al tuo quiz tradotto: https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 diventa https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
 
-**¡GRACIAS!**
+**GRAZIE**
 
-¡Apreciamos sinceramente tus esfuerzos!
+Apprezziamo davvero i tuoi sforzi!
 
-**Disclaimer**: 
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

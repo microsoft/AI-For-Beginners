@@ -1,43 +1,52 @@
-# Ethische und Verantwortungsvolle KI
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
+  "translation_date": "2025-08-24T09:29:15+00:00",
+  "source_file": "lessons/7-Ethics/README.md",
+  "language_code": "de"
+}
+-->
+# Ethische und verantwortungsvolle KI
 
-Sie haben diesen Kurs fast abgeschlossen, und ich hoffe, dass Sie inzwischen klar erkennen, dass KI auf einer Reihe von formalen mathematischen Methoden basiert, die es uns ermöglichen, Beziehungen in Daten zu finden und Modelle zu trainieren, um einige Aspekte menschlichen Verhaltens zu replizieren. An diesem Punkt in der Geschichte betrachten wir KI als ein sehr mächtiges Werkzeug, um Muster aus Daten zu extrahieren und diese Muster anzuwenden, um neue Probleme zu lösen.
+Sie haben diesen Kurs fast abgeschlossen, und ich hoffe, dass Sie mittlerweile klar erkennen, dass KI auf einer Reihe formaler mathematischer Methoden basiert, die es uns ermöglichen, Beziehungen in Daten zu finden und Modelle zu trainieren, um bestimmte Aspekte menschlichen Verhaltens nachzubilden. Zu diesem Zeitpunkt in der Geschichte betrachten wir KI als ein sehr mächtiges Werkzeug, um Muster aus Daten zu extrahieren und diese Muster anzuwenden, um neue Probleme zu lösen.
 
-## [Vorlesungsquiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
+## [Quiz vor der Vorlesung](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
 
-In der Science-Fiction sehen wir jedoch oft Geschichten, in denen KI eine Gefahr für die Menschheit darstellt. In der Regel konzentrieren sich diese Geschichten auf eine Art von KI-Rebellion, wenn KI beschließt, sich den Menschen zu widersetzen. Das impliziert, dass KI eine Art von Emotion hat oder Entscheidungen trifft, die von ihren Entwicklern nicht vorhergesehen wurden.
+In der Science-Fiction sehen wir jedoch oft Geschichten, in denen KI eine Gefahr für die Menschheit darstellt. Diese Geschichten drehen sich meist um eine Art KI-Rebellion, bei der die KI beschließt, sich gegen die Menschen zu stellen. Dies impliziert, dass KI eine Art Emotion besitzt oder Entscheidungen treffen kann, die von ihren Entwicklern nicht vorhergesehen wurden.
 
-Die Art von KI, die wir in diesem Kurs kennengelernt haben, ist nichts weiter als große Matrizenarithmetik. Es ist ein sehr mächtiges Werkzeug, das uns hilft, unsere Probleme zu lösen, und wie jedes andere mächtige Werkzeug kann es sowohl für gute als auch für schlechte Zwecke eingesetzt werden. Wichtig ist, dass es *missbraucht* werden kann.
+Die Art von KI, die wir in diesem Kurs kennengelernt haben, ist nichts anderes als umfangreiche Matrizenarithmetik. Es ist ein sehr mächtiges Werkzeug, das uns hilft, unsere Probleme zu lösen, und wie jedes andere mächtige Werkzeug kann es sowohl für gute als auch für schlechte Zwecke eingesetzt werden. Wichtig ist, dass es *missbraucht* werden kann.
 
-## Prinzipien der Verantwortungsvolle KI
+## Prinzipien der verantwortungsvollen KI
 
-Um diesen unbeabsichtigten oder absichtlichen Missbrauch von KI zu vermeiden, gibt Microsoft die wichtigen [Prinzipien der Verantwortungsvolle KI](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste) an. Die folgenden Konzepte bilden die Grundlage für diese Prinzipien:
+Um einen zufälligen oder absichtlichen Missbrauch von KI zu vermeiden, hat Microsoft die wichtigen [Prinzipien der verantwortungsvollen KI](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste) definiert. Die folgenden Konzepte bilden die Grundlage dieser Prinzipien:
 
-* **Fairness** hängt mit dem wichtigen Problem der *Modellverzerrungen* zusammen, die durch die Verwendung von voreingenommenen Daten für das Training verursacht werden können. Zum Beispiel, wenn wir die Wahrscheinlichkeit vorhersagen wollen, dass eine Person einen Job als Softwareentwickler erhält, wird das Modell wahrscheinlich Männern eine höhere Präferenz einräumen – nur weil der Trainingsdatensatz wahrscheinlich auf ein männliches Publikum ausgerichtet war. Wir müssen die Trainingsdaten sorgfältig ausbalancieren und das Modell untersuchen, um Verzerrungen zu vermeiden und sicherzustellen, dass das Modell relevantere Merkmale berücksichtigt.
-* **Zuverlässigkeit und Sicherheit**. Aufgrund ihrer Natur können KI-Modelle Fehler machen. Ein neuronales Netzwerk gibt Wahrscheinlichkeiten zurück, und wir müssen dies bei Entscheidungen berücksichtigen. Jedes Modell hat eine gewisse Präzision und Rückrufquote, und wir müssen verstehen, dass wir Schäden, die falsche Ratschläge verursachen können, verhindern müssen.
-* **Datenschutz und Sicherheit** haben einige KI-spezifische Implikationen. Zum Beispiel, wenn wir einige Daten zum Trainieren eines Modells verwenden, werden diese Daten irgendwie "integriert" in das Modell. Einerseits erhöht das die Sicherheit und den Datenschutz, andererseits müssen wir uns daran erinnern, auf welchen Daten das Modell trainiert wurde.
-* **Inklusivität** bedeutet, dass wir KI nicht entwickeln, um Menschen zu ersetzen, sondern um Menschen zu unterstützen und unsere Arbeit kreativer zu gestalten. Es hängt auch mit Fairness zusammen, denn im Umgang mit unterrepräsentierten Gemeinschaften sind die meisten Datensätze, die wir sammeln, wahrscheinlich voreingenommen, und wir müssen sicherstellen, dass diese Gemeinschaften einbezogen und korrekt von der KI behandelt werden.
-* **Transparenz**. Dazu gehört, dass wir immer klar kommunizieren, dass KI verwendet wird. Auch wo immer möglich, möchten wir KI-Systeme nutzen, die *interpretierbar* sind.
-* **Rechenschaftspflicht**. Wenn KI-Modelle Entscheidungen treffen, ist nicht immer klar, wer für diese Entscheidungen verantwortlich ist. Wir müssen sicherstellen, dass wir verstehen, wo die Verantwortung für KI-Entscheidungen liegt. In den meisten Fällen möchten wir Menschen in den Entscheidungsprozess einbeziehen, damit tatsächliche Personen zur Rechenschaft gezogen werden.
+* **Fairness** bezieht sich auf das wichtige Problem der *Modellverzerrungen*, die durch die Verwendung von voreingenommenen Trainingsdaten verursacht werden können. Zum Beispiel, wenn wir versuchen, die Wahrscheinlichkeit vorherzusagen, dass eine Person einen Job als Softwareentwickler bekommt, wird das Modell wahrscheinlich Männern den Vorzug geben – einfach weil der Trainingsdatensatz wahrscheinlich auf eine männliche Zielgruppe ausgerichtet war. Wir müssen die Trainingsdaten sorgfältig ausbalancieren und das Modell untersuchen, um Verzerrungen zu vermeiden und sicherzustellen, dass das Modell relevantere Merkmale berücksichtigt.
+* **Zuverlässigkeit und Sicherheit**. KI-Modelle können von Natur aus Fehler machen. Ein neuronales Netzwerk liefert Wahrscheinlichkeiten, und das müssen wir bei Entscheidungen berücksichtigen. Jedes Modell hat eine bestimmte Präzision und einen bestimmten Rückrufwert, und wir müssen das verstehen, um Schäden zu vermeiden, die durch falsche Ratschläge entstehen können.
+* **Privatsphäre und Sicherheit** haben einige KI-spezifische Implikationen. Zum Beispiel wird die verwendete Trainingsdaten irgendwie in das Modell "integriert". Einerseits erhöht das die Sicherheit und Privatsphäre, andererseits müssen wir uns daran erinnern, welche Daten für das Training des Modells verwendet wurden.
+* **Inklusivität** bedeutet, dass wir KI nicht entwickeln, um Menschen zu ersetzen, sondern um sie zu unterstützen und unsere Arbeit kreativer zu gestalten. Es steht auch in Zusammenhang mit Fairness, denn wenn wir mit unterrepräsentierten Gemeinschaften arbeiten, sind die meisten der gesammelten Datensätze wahrscheinlich voreingenommen. Wir müssen sicherstellen, dass diese Gemeinschaften einbezogen und korrekt von der KI behandelt werden.
+* **Transparenz**. Dazu gehört, dass wir immer klarstellen, wenn KI verwendet wird. Außerdem möchten wir, wo immer möglich, KI-Systeme verwenden, die *interpretierbar* sind.
+* **Verantwortlichkeit**. Wenn KI-Modelle Entscheidungen treffen, ist nicht immer klar, wer für diese Entscheidungen verantwortlich ist. Wir müssen sicherstellen, dass wir verstehen, wo die Verantwortung für KI-Entscheidungen liegt. In den meisten Fällen möchten wir Menschen in den Entscheidungsprozess einbeziehen, damit tatsächliche Personen zur Verantwortung gezogen werden können.
 
-## Werkzeuge für Verantwortungsvolle KI
+## Werkzeuge für verantwortungsvolle KI
 
-Microsoft hat die [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) entwickelt, die eine Reihe von Werkzeugen enthält:
+Microsoft hat das [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) entwickelt, das eine Reihe von Werkzeugen enthält:
 
-* Interpretierbarkeit-Dashboard (InterpretML)
-* Fairness-Dashboard (FairLearn)
-* Fehleranalyse-Dashboard
-* Verantwortungsvolles KI-Dashboard, das Folgendes umfasst
+* Interpretability Dashboard (InterpretML)
+* Fairness Dashboard (FairLearn)
+* Error Analysis Dashboard
+* Responsible AI Dashboard, das Folgendes umfasst:
 
-   - EconML - ein Werkzeug für Kausalanalyse, das sich auf Was-wäre-wenn-Fragen konzentriert
-   - DiCE - ein Werkzeug für kontrafaktische Analysen, mit dem Sie sehen können, welche Merkmale geändert werden müssen, um die Entscheidung des Modells zu beeinflussen
+   - EconML – ein Tool für Kausalanalysen, das sich auf Was-wäre-wenn-Fragen konzentriert
+   - DiCE – ein Tool für kontrafaktische Analysen, mit dem Sie sehen können, welche Merkmale geändert werden müssen, um die Entscheidung des Modells zu beeinflussen
 
-Für weitere Informationen über KI-Ethische Grundsätze besuchen Sie bitte [diese Lektion](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) im Lehrplan für maschinelles Lernen, der Aufgaben enthält.
+Weitere Informationen zur KI-Ethik finden Sie in [dieser Lektion](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) im Machine Learning Curriculum, das auch Aufgaben enthält.
 
 ## Überprüfung & Selbststudium
 
-Nehmen Sie diesen [Lernpfad](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste), um mehr über verantwortungsvolle KI zu erfahren.
+Nehmen Sie an diesem [Lernpfad](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) teil, um mehr über verantwortungsvolle KI zu erfahren.
 
-## [Nachlesungsquiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
+## [Quiz nach der Vorlesung](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung resultieren.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

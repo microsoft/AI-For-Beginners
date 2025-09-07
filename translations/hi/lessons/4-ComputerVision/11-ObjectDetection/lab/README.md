@@ -1,14 +1,23 @@
-# हेड डिटेक्शन हॉलीवुड हेड्स डेटासेट का उपयोग करके
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-24T09:54:23+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "hi"
+}
+-->
+# हॉलीवुड हेड्स डेटासेट का उपयोग करके हेड डिटेक्शन
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) से प्रयोगशाला असाइनमेंट।
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) से लैब असाइनमेंट।
 
 ## कार्य
 
-वीडियो निगरानी कैमरा स्ट्रीम पर लोगों की संख्या की गणना करना एक महत्वपूर्ण कार्य है जो हमें दुकानों में आगंतुकों की संख्या, रेस्तरां में व्यस्त समय आदि का अनुमान लगाने की अनुमति देगा। इस कार्य को हल करने के लिए, हमें विभिन्न कोणों से मानव सिर का पता लगाने में सक्षम होना चाहिए। मानव सिर का पता लगाने के लिए ऑब्जेक्ट डिटेक्शन मॉडल को प्रशिक्षित करने के लिए, हम [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/) का उपयोग कर सकते हैं।
+वीडियो सर्विलांस कैमरा स्ट्रीम पर लोगों की संख्या गिनना एक महत्वपूर्ण कार्य है, जो हमें दुकानों में आगंतुकों की संख्या, रेस्तरां में व्यस्त समय आदि का अनुमान लगाने में मदद करेगा। इस कार्य को हल करने के लिए, हमें विभिन्न कोणों से मानव सिर का पता लगाने में सक्षम होना चाहिए। मानव सिर का पता लगाने के लिए ऑब्जेक्ट डिटेक्शन मॉडल को प्रशिक्षित करने के लिए, हम [हॉलीवुड हेड्स डेटासेट](https://www.di.ens.fr/willow/research/headdetection/) का उपयोग कर सकते हैं।
 
 ## डेटासेट
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) में 369,846 मानव सिर हैं जो हॉलीवुड फिल्मों के 224,740 मूवी फ्रेम में एनोटेट किए गए हैं। इसे [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) प्रारूप में प्रदान किया गया है, जहाँ प्रत्येक छवि के लिए एक XML विवरण फ़ाइल भी होती है जो इस तरह दिखती है:
+[हॉलीवुड हेड्स डेटासेट](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) में 369,846 मानव सिर शामिल हैं, जो हॉलीवुड फिल्मों के 224,740 मूवी फ्रेम्स में एनोटेट किए गए हैं। इसे [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) फॉर्मेट में प्रदान किया गया है, जहां प्रत्येक इमेज के लिए एक XML विवरण फ़ाइल भी होती है, जो इस प्रकार दिखती है:
 
 ```xml
 <annotation>
@@ -48,19 +57,19 @@
 </annotation>
 ```
 
-इस डेटासेट में केवल एक वस्तु की श्रेणी `head` है, और प्रत्येक सिर के लिए, आपको बाउंडिंग बॉक्स के निर्देशांक मिलते हैं। आप Python लाइब्रेरी का उपयोग करके XML को पार्स कर सकते हैं, या [इस लाइब्रेरी](https://pypi.org/project/pascal-voc/) का उपयोग कर सकते हैं ताकि सीधे PASCAL VOC प्रारूप से निपट सकें।
+इस डेटासेट में केवल एक ऑब्जेक्ट क्लास `head` है, और प्रत्येक सिर के लिए आपको बॉक्स की सीमाओं के निर्देशांक मिलते हैं। आप XML को Python लाइब्रेरीज़ का उपयोग करके पार्स कर सकते हैं, या [इस लाइब्रेरी](https://pypi.org/project/pascal-voc/) का उपयोग करके सीधे PASCAL VOC फॉर्मेट के साथ काम कर सकते हैं।
 
 ## ऑब्जेक्ट डिटेक्शन का प्रशिक्षण
 
-आप निम्नलिखित तरीकों में से किसी एक का उपयोग करके ऑब्जेक्ट डिटेक्शन मॉडल को प्रशिक्षित कर सकते हैं:
+आप ऑब्जेक्ट डिटेक्शन मॉडल को निम्नलिखित तरीकों में से किसी एक का उपयोग करके प्रशिक्षित कर सकते हैं:
 
-* [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) और इसके Python API का उपयोग करके मॉडल को प्रोग्रामेटिक रूप से क्लाउड में प्रशिक्षित करें। कस्टम विजन मॉडल को प्रशिक्षित करने के लिए कुछ सौ छवियों से अधिक का उपयोग नहीं कर सकेगा, इसलिए आपको डेटासेट को सीमित करने की आवश्यकता हो सकती है।
-* [Keras ट्यूटोरियल](https://keras.io/examples/vision/retinanet/) से उदाहरण का उपयोग करके RetinaNet मॉडल को प्रशिक्षित करना।
-* [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) में निर्मित मॉड्यूल का उपयोग करना।
+* [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) और इसका Python API का उपयोग करके क्लाउड में प्रोग्रामेटिक रूप से मॉडल को प्रशिक्षित करें। कस्टम विजन कुछ सौ इमेज से अधिक का उपयोग मॉडल को प्रशिक्षित करने के लिए नहीं कर सकता, इसलिए आपको डेटासेट को सीमित करना पड़ सकता है।
+* [Keras tutorial](https://keras.io/examples/vision/retinanet/) के उदाहरण का उपयोग करके RetunaNet मॉडल को प्रशिक्षित करें।
+* [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) में उपलब्ध मॉड्यूल का उपयोग करें।
 
 ## निष्कर्ष
 
-ऑब्जेक्ट डिटेक्शन एक ऐसा कार्य है जो उद्योग में अक्सर आवश्यक होता है। जबकि कुछ सेवाएँ हैं जिनका उपयोग ऑब्जेक्ट डिटेक्शन करने के लिए किया जा सकता है (जैसे [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), यह समझना महत्वपूर्ण है कि ऑब्जेक्ट डिटेक्शन कैसे काम करता है और अपने स्वयं के मॉडल को प्रशिक्षित करने में सक्षम होना चाहिए।
+ऑब्जेक्ट डिटेक्शन एक ऐसा कार्य है जिसकी उद्योग में अक्सर आवश्यकता होती है। जबकि कुछ सेवाएं हैं जो ऑब्जेक्ट डिटेक्शन करने के लिए उपयोग की जा सकती हैं (जैसे [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), यह समझना महत्वपूर्ण है कि ऑब्जेक्ट डिटेक्शन कैसे काम करता है और अपने स्वयं के मॉडल को प्रशिक्षित करने में सक्षम होना चाहिए।
 
-**अस्वीकृति**:  
-यह दस्तावेज़ मशीन-आधारित एआई अनुवाद सेवाओं का उपयोग करके अनुवादित किया गया है। जबकि हम सटीकता के लिए प्रयास करते हैं, कृपया ध्यान दें कि स्वचालित अनुवादों में त्रुटियाँ या असंगतियाँ हो सकती हैं। मूल दस्तावेज़ को उसकी मूल भाषा में प्राधिकृत स्रोत के रूप में माना जाना चाहिए। महत्वपूर्ण जानकारी के लिए, पेशेवर मानव अनुवाद की सिफारिश की जाती है। हम इस अनुवाद के उपयोग से उत्पन्न किसी भी गलतफहमी या गलत व्याख्या के लिए जिम्मेदार नहीं हैं।
+**अस्वीकरण**:  
+यह दस्तावेज़ AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) का उपयोग करके अनुवादित किया गया है। जबकि हम सटीकता के लिए प्रयासरत हैं, कृपया ध्यान दें कि स्वचालित अनुवाद में त्रुटियां या अशुद्धियां हो सकती हैं। मूल भाषा में उपलब्ध मूल दस्तावेज़ को प्रामाणिक स्रोत माना जाना चाहिए। महत्वपूर्ण जानकारी के लिए, पेशेवर मानव अनुवाद की सिफारिश की जाती है। इस अनुवाद के उपयोग से उत्पन्न किसी भी गलतफहमी या गलत व्याख्या के लिए हम उत्तरदायी नहीं हैं।

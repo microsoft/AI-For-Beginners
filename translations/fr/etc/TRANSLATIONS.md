@@ -1,36 +1,45 @@
-# Contribuez en traduisant des leçons
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
+  "translation_date": "2025-08-24T21:00:20+00:00",
+  "source_file": "etc/TRANSLATIONS.md",
+  "language_code": "fr"
+}
+-->
+# Contribuer en traduisant les leçons
 
-Nous accueillons les traductions des leçons de ce programme !
+Nous accueillons avec plaisir les traductions des leçons de ce programme !
 
 ## Directives
 
-Il y a des dossiers dans chaque dossier de leçon et dans le dossier d'introduction de la leçon qui contiennent les fichiers markdown traduits.
+Il y a des dossiers dans chaque dossier de leçon et dossier d'introduction de leçon qui contiennent les fichiers markdown traduits.
 
-> Remarque : veuillez ne pas traduire le code dans les fichiers d'exemple de code ; les seules choses à traduire sont le README, les devoirs et les quiz. Merci !
+> Note, veuillez ne pas traduire le code dans les fichiers d'exemples de code ; les seuls éléments à traduire sont README, les devoirs et les quiz. Merci !
 
 Les fichiers traduits doivent suivre cette convention de nommage :
 
 **README._[language]_.md**
 
-où _[language]_ est une abréviation de deux lettres pour la langue selon la norme ISO 639-1 (par exemple, `README.es.md` pour l'espagnol et `README.nl.md` pour le néerlandais).
+où _[language]_ est une abréviation de langue à deux lettres suivant la norme ISO 639-1 (par exemple, `README.es.md` pour l'espagnol et `README.nl.md` pour le néerlandais).
 
 **assignment._[language]_.md**
 
-Tout comme pour les README, veuillez également traduire les devoirs.
+Comme pour les README, veuillez également traduire les devoirs.
 
 **Quiz**
 
-1. Ajoutez votre traduction à l'application de quiz en ajoutant un fichier ici : https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, avec la convention de nommage appropriée (en.json, fr.json). **Veuillez cependant ne pas localiser les mots 'true' ou 'false'. Merci !**
+1. Ajoutez votre traduction à l'application de quiz en ajoutant un fichier ici : https://github.com/microsoft/AI-For-Beginners/tree/main/etc/quiz-app/src/assets/translations, en respectant la convention de nommage (en.json, fr.json). **Veuillez ne pas localiser les mots 'true' ou 'false'. Merci !**
 
 2. Ajoutez votre code de langue au menu déroulant dans le fichier App.vue de l'application de quiz.
 
-3. Modifiez le fichier [index.js des traductions de l'application de quiz](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) pour ajouter votre langue.
+3. Modifiez le [fichier index.js des traductions](https://github.com/microsoft/AI-For-Beginners/blob/main/etc/quiz-app/src/assets/translations/index.js) de l'application de quiz pour ajouter votre langue.
 
-4. Enfin, modifiez TOUS les liens de quiz dans vos fichiers README.md traduits pour pointer directement vers votre quiz traduit : https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 devient https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
+4. Enfin, modifiez TOUS les liens des quiz dans vos fichiers README.md traduits pour qu'ils pointent directement vers votre quiz traduit : https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1 devient https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/1?loc=id
 
 **MERCI**
 
-Nous apprécions vraiment vos efforts !
+Nous apprécions sincèrement vos efforts !
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'atteindre une précision, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source faisant autorité. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

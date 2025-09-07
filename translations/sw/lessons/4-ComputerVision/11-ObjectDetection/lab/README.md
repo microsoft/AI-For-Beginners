@@ -1,14 +1,23 @@
-# Huvuddetektering med Hollywood Heads Dataset
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-25T20:54:58+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Utambuzi wa Vichwa kwa Kutumia Hollywood Heads Dataset
 
-Laborationsuppgift från [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Att räkna antalet personer på en videoövervakningskamerastream är en viktig uppgift som gör att vi kan uppskatta antalet besökare i butiker, hektiska timmar på en restaurang, osv. För att lösa denna uppgift behöver vi kunna detektera mänskliga huvuden från olika vinklar. För att träna en objektdetekteringsmodell för att upptäcka mänskliga huvuden kan vi använda [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/).
+Kuhesabu idadi ya watu kwenye mkondo wa kamera ya ufuatiliaji ni kazi muhimu ambayo itatuwezesha kukadiria idadi ya wageni katika maduka, saa za shughuli nyingi kwenye mgahawa, n.k. Ili kutatua kazi hii, tunahitaji uwezo wa kutambua vichwa vya binadamu kutoka pembe tofauti. Ili kufundisha modeli ya utambuzi wa vitu kutambua vichwa vya binadamu, tunaweza kutumia [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/).
 
-## Datasetet
+## Dataset
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) innehåller 369,846 mänskliga huvuden annoterade i 224,740 filmrutor från Hollywood-filmer. Det tillhandahålls i [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) format, där det för varje bild också finns en XML-beskrivningsfil som ser ut så här:
+[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) ina vichwa vya binadamu 369,846 vilivyotolewa maelezo katika fremu za filamu 224,740 kutoka filamu za Hollywood. Dataset hii inatolewa katika muundo wa [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC), ambapo kwa kila picha kuna faili ya maelezo ya XML inayofanana na hii:
 
 ```xml
 <annotation>
@@ -48,19 +57,19 @@ Att räkna antalet personer på en videoövervakningskamerastream är en viktig 
 </annotation>
 ```
 
-I detta dataset finns det endast en klass av objekt `head`, och för varje huvud får du koordinaterna för bounding box. Du kan analysera XML med hjälp av Python-bibliotek, eller använda [detta bibliotek](https://pypi.org/project/pascal-voc/) för att hantera PASCAL VOC-formatet direkt.
+Katika dataset hii, kuna darasa moja tu la vitu `head`, na kwa kila kichwa, unapata maelezo ya mipaka ya kisanduku. Unaweza kuchambua XML kwa kutumia maktaba za Python, au kutumia [maktaba hii](https://pypi.org/project/pascal-voc/) kushughulikia moja kwa moja muundo wa PASCAL VOC.
 
-## Träning av Objektdetektion
+## Mafunzo ya Utambuzi wa Vitu
 
-Du kan träna en objektdetekteringsmodell på följande sätt:
+Unaweza kufundisha modeli ya utambuzi wa vitu kwa kutumia mojawapo ya njia zifuatazo:
 
-* Använda [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) och dess Python-API för att programmera träningen av modellen i molnet. Custom Vision kommer inte att kunna använda mer än några hundra bilder för att träna modellen, så du kan behöva begränsa datasetet.
-* Använda exemplet från [Keras tutorial](https://keras.io/examples/vision/retinanet/) för att träna RetunaNet-modellen.
-* Använda [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) inbyggda modul i torchvision.
+* Kutumia [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) na API yake ya Python kufundisha modeli kwa njia ya programu kwenye wingu. Custom Vision haitakuwa na uwezo wa kutumia zaidi ya picha chache kwa mafunzo ya modeli, kwa hivyo unaweza kuhitaji kupunguza dataset.
+* Kutumia mfano kutoka [Keras tutorial](https://keras.io/examples/vision/retinanet/) kufundisha modeli ya RetunaNet.
+* Kutumia [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) moduli iliyojengwa ndani ya torchvision.
 
-## Sammanfattning
+## Muhimu
 
-Objektdetektion är en uppgift som ofta krävs inom industrin. Även om det finns vissa tjänster som kan användas för att utföra objektdetektion (såsom [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), är det viktigt att förstå hur objektdetektion fungerar och att kunna träna sina egna modeller.
+Utambuzi wa vitu ni kazi ambayo mara nyingi inahitajika katika sekta. Ingawa kuna huduma ambazo zinaweza kutumika kufanya utambuzi wa vitu (kama [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), ni muhimu kuelewa jinsi utambuzi wa vitu unavyofanya kazi na kuwa na uwezo wa kufundisha modeli zako mwenyewe.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

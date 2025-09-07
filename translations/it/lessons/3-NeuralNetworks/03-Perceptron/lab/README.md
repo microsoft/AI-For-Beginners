@@ -1,22 +1,33 @@
-# Clasificación Multiclase con Perceptrón
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T08:20:31+00:00",
+  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+  "language_code": "it"
+}
+-->
+# Classificazione Multi-Classe con Perceptron
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Compito del laboratorio dal [Curriculum AI for Beginners](https://github.com/microsoft/ai-for-beginners).
 
-## Tarea
+## Compito
 
-Usando el código que hemos desarrollado en esta lección para la clasificación binaria de dígitos manuscritos MNIST, crea un clasificador multiclase que sea capaz de reconocer cualquier dígito. Calcula la precisión de clasificación en el conjunto de datos de entrenamiento y prueba, y muestra la matriz de confusión.
+Utilizzando il codice sviluppato in questa lezione per la classificazione binaria delle cifre scritte a mano del dataset MNIST, crea un classificatore multi-classe in grado di riconoscere qualsiasi cifra. Calcola l'accuratezza della classificazione sui dataset di addestramento e di test, e stampa la matrice di confusione.
 
-## Sugerencias
+## Suggerimenti
 
-1. Para cada dígito, crea un conjunto de datos para el clasificador binario de "este dígito vs. todos los demás dígitos".
-1. Entrena 10 perceptrones diferentes para clasificación binaria (uno para cada dígito).
-1. Define una función que clasifique un dígito de entrada.
+1. Per ogni cifra, crea un dataset per un classificatore binario del tipo "questa cifra vs. tutte le altre cifre".
+1. Addestra 10 perceptroni diversi per la classificazione binaria (uno per ogni cifra).
+1. Definisci una funzione che classifichi una cifra in input.
 
-> **Sugerencia**: Si combinamos los pesos de los 10 perceptrones en una sola matriz, deberíamos poder aplicar los 10 perceptrones a los dígitos de entrada mediante una multiplicación de matrices. El dígito más probable se puede encontrar simplemente aplicando la operación `argmax` sobre la salida.
+> **Suggerimento**: Se combiniamo i pesi di tutti e 10 i perceptroni in una matrice, dovremmo essere in grado di applicare tutti e 10 i perceptroni alle cifre in input con una sola moltiplicazione di matrici. La cifra più probabile può essere trovata semplicemente applicando l'operazione `argmax` sull'output.
 
-## Notebook Inicial
+## Notebook di Partenza
 
-Comienza el laboratorio abriendo [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb).
+Inizia il laboratorio aprendo [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
 
-**Disclaimer**: 
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+---
+
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.

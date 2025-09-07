@@ -1,59 +1,67 @@
-# Konvolüsyonel Sinir Ağları
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "088837b42b7d99198bf62db8a42411e0",
+  "translation_date": "2025-08-26T07:28:18+00:00",
+  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
+  "language_code": "tr"
+}
+-->
+# Evrişimli Sinir Ağları
 
-Daha önce sinir ağlarının görüntülerle başa çıkmada oldukça iyi olduğunu ve hatta tek katmanlı algılayıcıların MNIST veri setinden el yazısı rakamlarını makul bir doğrulukla tanıyabildiğini gördük. Ancak, MNIST veri seti çok özel bir durumdur ve tüm rakamlar görüntünün içinde merkezlenmiştir, bu da görevi daha basit hale getirir.
+Daha önce sinir ağlarının görüntülerle başa çıkmada oldukça iyi olduğunu görmüştük ve tek katmanlı bir algılayıcı bile MNIST veri setindeki el yazısı rakamları makul bir doğrulukla tanıyabiliyor. Ancak, MNIST veri seti oldukça özeldir ve tüm rakamlar görüntünün ortasına hizalanmıştır, bu da görevi daha basit hale getirir.
 
-## [Ön-dersten sınav](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
 
-Gerçek hayatta, bir resimde nesneleri tam konumlarına bakmaksızın tanıyabilmemiz gerekir. Bilgisayarla görme, genel sınıflandırmadan farklıdır, çünkü bir resimde belirli bir nesneyi bulmaya çalışırken, belirli **desenleri** ve bunların kombinasyonlarını aramak için görüntüyü tarıyoruz. Örneğin, bir kedi ararken önce, bıyıkları oluşturabilecek yatay çizgilere bakabiliriz ve ardından belirli bir bıyık kombinasyonu, bunun gerçekten bir kedi resmi olduğunu bize gösterebilir. Belirli desenlerin göreceli konumu ve varlığı önemlidir, görüntüdeki tam konumları değil.
+Gerçek hayatta, bir görüntüdeki nesneleri tam olarak nerede olduklarına bakmaksızın tanıyabilmek isteriz. Bilgisayarla görme, genel sınıflandırmadan farklıdır çünkü bir görüntüde belirli bir nesneyi bulmaya çalışırken, görüntüyü tarar ve belirli **desenler** ve bunların kombinasyonlarını ararız. Örneğin, bir kedi ararken, önce bıyık oluşturabilecek yatay çizgiler arayabiliriz ve ardından belirli bir bıyık kombinasyonu bize bunun bir kedi resmi olduğunu söyleyebilir. Belirli desenlerin göreceli konumu ve varlığı önemlidir, ancak görüntüdeki tam konumu değil.
 
-Desenleri çıkarmak için **konvolüsyonel filtreler** kavramını kullanacağız. Bildiğiniz gibi, bir görüntü 2D-matris veya renk derinliği ile 3D-tensor ile temsil edilir. Bir filtre uygulamak, nispeten küçük bir **filtre çekirdek** matrisini alıp, orijinal görüntüdeki her piksel için komşu noktalarla ağırlıklı ortalama hesaplamak anlamına gelir. Bunu, görüntünün üzerinde kaydırılan küçük bir pencere gibi düşünebiliriz ve filtre çekirdek matrisindeki ağırlıklara göre tüm pikselleri ortalıyoruz.
+Desenleri çıkarmak için **evrişimsel filtreler** kavramını kullanacağız. Bildiğiniz gibi, bir görüntü 2D bir matris veya renk derinliği olan bir 3D tensör olarak temsil edilir. Bir filtre uygulamak, nispeten küçük bir **filtre çekirdeği** matrisini alıp, orijinal görüntüdeki her bir piksel için komşu noktalarla ağırlıklı ortalamayı hesaplamak anlamına gelir. Bunu, filtre çekirdeği matrisindeki ağırlıklara göre tüm pikselleri ortalayan küçük bir pencerenin tüm görüntü üzerinde kayması gibi düşünebiliriz.
 
-![Dikey Kenar Filtre](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.tr.png) | ![Yatay Kenar Filtre](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.tr.png)
+![Dikey Kenar Filtresi](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.tr.png) | ![Yatay Kenar Filtresi](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.tr.png)
 ----|----
 
-> Görüntü Dmitry Soshnikov'dan
+> Görsel: Dmitry Soshnikov
 
-Örneğin, MNIST rakamlarına 3x3 dikey kenar ve yatay kenar filtreleri uygularsak, orijinal görüntümüzdeki dikey ve yatay kenarların bulunduğu yerlerde vurgular (örneğin, yüksek değerler) alabiliriz. Böylece bu iki filtre, kenarları "arama" için kullanılabilir. Benzer şekilde, diğer düşük seviyeli desenleri aramak için farklı filtreler tasarlayabiliriz:
-Veriler Ekim 2023'e kadar eğitim aldınız.
+Örneğin, MNIST rakamlarına 3x3 boyutunda dikey kenar ve yatay kenar filtreleri uygularsak, orijinal görüntümüzde dikey ve yatay kenarların olduğu yerlerde vurgular (örneğin, yüksek değerler) elde edebiliriz. Bu nedenle, bu iki filtre "kenarları aramak" için kullanılabilir. Benzer şekilde, diğer düşük seviyeli desenleri aramak için farklı filtreler tasarlayabiliriz:
 
-> [Leung-Malik Filtre Bankası](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) görüntüsü
+> [Leung-Malik Filtre Bankası](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) Görseli
 
-Ancak, bazı desenleri manuel olarak çıkarmak için filtreleri tasarlayabilsek de, ağı bu desenleri otomatik olarak öğrenmesi için tasarlayabiliriz. Bu, CNN'in arkasındaki ana fikirlerden biridir.
+Ancak, bazı desenleri çıkarmak için filtreleri manuel olarak tasarlayabileceğimiz gibi, ağı filtreleri otomatik olarak öğrenebilecek şekilde de tasarlayabiliriz. Bu, CNN'nin arkasındaki temel fikirlerden biridir.
 
-## CNN'in Ana Fikirleri
+## CNN'nin Temel Fikirleri
 
-CNN'lerin çalışma şekli, aşağıdaki önemli fikirlere dayanır:
+CNN'lerin çalışma şekli şu önemli fikirlere dayanır:
 
-* Konvolüsyonel filtreler desenleri çıkarabilir
-* Ağı, filtrelerin otomatik olarak eğitilmesini sağlayacak şekilde tasarlayabiliriz
-* Aynı yaklaşımı, yalnızca orijinal görüntüde değil, yüksek seviyeli özelliklerde desenler bulmak için de kullanabiliriz. Böylece CNN özellik çıkarımı, düşük seviyeli piksel kombinasyonlarından başlayarak, resim parçalarının daha yüksek seviyeli kombinasyonlarına kadar bir özellik hiyerarşisi üzerinde çalışır.
+* Evrişimsel filtreler desenleri çıkarabilir.
+* Ağı, filtrelerin otomatik olarak eğitileceği şekilde tasarlayabiliriz.
+* Aynı yaklaşımı yalnızca orijinal görüntüde değil, yüksek seviyeli özelliklerde desenler bulmak için de kullanabiliriz. Böylece, CNN özellik çıkarımı, düşük seviyeli piksel kombinasyonlarından başlayarak, görüntü parçalarının daha yüksek seviyeli kombinasyonlarına kadar bir özellik hiyerarşisi üzerinde çalışır.
 
-![Hiyerarşik Özellik Çıkarma](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.tr.png)
+![Hiyerarşik Özellik Çıkarımı](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.tr.png)
 
-> [Hislop-Lynch'in bir makalesinden](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) alınan görüntü, [araştırmalarına dayanmaktadır](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
+> Görsel: [Hislop-Lynch'in bir makalesinden](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), [araştırmalarına dayanarak](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
-## ✍️ Alıştırmalar: Konvolüsyonel Sinir Ağları
+## ✍️ Alıştırmalar: Evrişimli Sinir Ağları
 
-Konvolüsyonel sinir ağlarının nasıl çalıştığını ve nasıl eğitilebilir filtreler elde edebileceğimizi keşfetmeye devam edelim, ilgili defterler üzerinden çalışarak:
+Evrişimli sinir ağlarının nasıl çalıştığını ve eğitilebilir filtrelere nasıl ulaşabileceğimizi keşfetmeye devam edelim. Bunun için ilgili defterler üzerinde çalışabilirsiniz:
 
-* [Konvolüsyonel Sinir Ağları - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
-* [Konvolüsyonel Sinir Ağları - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
+* [Evrişimli Sinir Ağları - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
+* [Evrişimli Sinir Ağları - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
 
 ## Piramit Mimarisi
 
-Görüntü işleme için kullanılan çoğu CNN, sözde bir piramit mimarisini takip eder. Orijinal görüntülere uygulanan ilk konvolüsyonel katman genellikle nispeten düşük sayıda filtreye (8-16) sahiptir ve bu filtreler yatay/dikey çizgiler gibi farklı piksel kombinasyonlarına karşılık gelir. Bir sonraki seviyede, ağın mekansal boyutunu azaltır ve filtre sayısını artırırız, bu da daha fazla basit özellik kombinasyonuna karşılık gelir. Her katmanda, son sınıflandırıcıya doğru ilerledikçe, görüntünün mekansal boyutları azalır ve filtre sayısı artar.
+Görüntü işleme için kullanılan çoğu CNN, sözde piramit mimarisini takip eder. Orijinal görüntülere uygulanan ilk evrişim katmanı genellikle nispeten az sayıda filtreye sahiptir (8-16), bu da yatay/dikey çizgiler gibi farklı piksel kombinasyonlarına karşılık gelir. Bir sonraki seviyede, ağın uzaysal boyutunu azaltır ve basit özelliklerin daha fazla olası kombinasyonuna karşılık gelen filtre sayısını artırırız. Her katmanda, son sınıflandırıcıya doğru ilerledikçe, görüntünün uzaysal boyutları azalır ve filtre sayısı artar.
 
-Örneğin, 2014'te ImageNet'in en iyi-5 sınıflandırmasında %92.7 doğruluk elde eden VGG-16 ağının mimarisine bakalım:
+Örneğin, 2014 yılında ImageNet'in ilk 5 sınıflandırmasında %92.7 doğruluk elde eden VGG-16 ağının mimarisine bakalım:
 
 ![ImageNet Katmanları](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.tr.jpg)
 
 ![ImageNet Piramidi](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.tr.jpg)
 
-> [Researchgate'den](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) alınan görüntü
+> Görsel: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
 ## En İyi Bilinen CNN Mimarileri
 
 [En iyi bilinen CNN mimarileri hakkında çalışmaya devam edin](CNN_Architectures.md)
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk konusunda çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen dikkate alın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucunda ortaya çıkabilecek yanlış anlamalardan veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul edilmez.

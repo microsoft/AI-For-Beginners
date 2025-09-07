@@ -1,43 +1,52 @@
-# IA Ética y Responsable
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
+  "translation_date": "2025-08-26T06:54:45+00:00",
+  "source_file": "lessons/7-Ethics/README.md",
+  "language_code": "it"
+}
+-->
+# AI Etica e Responsabile
 
-Has casi terminado este curso, y espero que ahora veas claramente que la IA se basa en una serie de métodos matemáticos formales que nos permiten encontrar relaciones en los datos y entrenar modelos para replicar algunos aspectos del comportamiento humano. En este momento de la historia, consideramos que la IA es una herramienta muy poderosa para extraer patrones de los datos y aplicar esos patrones para resolver nuevos problemas.
+Hai quasi terminato questo corso e spero che ormai tu abbia chiaramente compreso che l'AI si basa su una serie di metodi matematici formali che ci permettono di trovare relazioni nei dati e di addestrare modelli per replicare alcuni aspetti del comportamento umano. In questo momento storico, consideriamo l'AI uno strumento molto potente per estrarre schemi dai dati e applicarli per risolvere nuovi problemi.
 
-## [Cuestionario previo a la clase](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
+## [Quiz pre-lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
 
-Sin embargo, en la ciencia ficción a menudo vemos historias donde la IA presenta un peligro para la humanidad. Generalmente, estas historias giran en torno a algún tipo de rebelión de la IA, cuando esta decide confrontar a los seres humanos. Esto implica que la IA tiene algún tipo de emoción o puede tomar decisiones imprevistas por sus desarrolladores.
+Tuttavia, nella fantascienza spesso vediamo storie in cui l'AI rappresenta un pericolo per l'umanità. Di solito queste storie ruotano attorno a una sorta di ribellione dell'AI, quando l'AI decide di confrontarsi con gli esseri umani. Questo implica che l'AI abbia una sorta di emozione o possa prendere decisioni impreviste dai suoi sviluppatori.
 
-El tipo de IA que hemos aprendido en este curso no es más que una aritmética de matrices grande. Es una herramienta muy poderosa que nos ayuda a resolver nuestros problemas, y como cualquier otra herramienta poderosa, puede ser utilizada para fines buenos y malos. Es importante destacar que puede ser *mal utilizada*.
+Il tipo di AI che abbiamo studiato in questo corso non è altro che una grande aritmetica matriciale. È uno strumento molto potente per aiutarci a risolvere i nostri problemi e, come qualsiasi altro strumento potente, può essere usato per scopi buoni o cattivi. È importante sottolineare che può essere *mal utilizzato*.
 
-## Principios de la IA Responsable
+## Principi di AI Responsabile
 
-Para evitar este uso accidental o intencionado de la IA, Microsoft establece los importantes [Principios de la IA Responsable](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste). Los siguientes conceptos sustentan estos principios:
+Per evitare questo uso improprio, accidentale o intenzionale, Microsoft stabilisce i [Principi di AI Responsabile](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste). I seguenti concetti sono alla base di questi principi:
 
-* **Equidad** está relacionada con el importante problema de los *sesgos en los modelos*, que pueden ser causados por el uso de datos sesgados para el entrenamiento. Por ejemplo, cuando intentamos predecir la probabilidad de conseguir un trabajo como desarrollador de software para una persona, es probable que el modelo dé mayor preferencia a los hombres, simplemente porque el conjunto de datos de entrenamiento probablemente estaba sesgado hacia una audiencia masculina. Necesitamos equilibrar cuidadosamente los datos de entrenamiento e investigar el modelo para evitar sesgos, y asegurarnos de que el modelo tenga en cuenta características más relevantes.
-* **Fiabilidad y Seguridad**. Por su naturaleza, los modelos de IA pueden cometer errores. Una red neuronal devuelve probabilidades, y debemos tenerlo en cuenta al tomar decisiones. Cada modelo tiene una cierta precisión y recuperación, y necesitamos entender eso para prevenir el daño que puede causar un consejo erróneo.
-* **Privacidad y Seguridad** tienen algunas implicaciones específicas de la IA. Por ejemplo, cuando usamos algunos datos para entrenar un modelo, esos datos se integran de alguna manera en el modelo. Por un lado, eso aumenta la seguridad y la privacidad; por otro, debemos recordar sobre qué datos se entrenó el modelo.
-* **Inclusividad** significa que no estamos construyendo IA para reemplazar a las personas, sino para aumentar a las personas y hacer nuestro trabajo más creativo. También está relacionado con la equidad, porque al tratar con comunidades subrepresentadas, la mayoría de los conjuntos de datos que recopilamos probablemente estén sesgados, y debemos asegurarnos de que esas comunidades estén incluidas y manejadas correctamente por la IA.
-* **Transparencia**. Esto incluye asegurarnos de que siempre seamos claros sobre el uso de la IA. Además, siempre que sea posible, queremos utilizar sistemas de IA que sean *interpretables*.
-* **Responsabilidad**. Cuando los modelos de IA toman decisiones, no siempre está claro quién es responsable de esas decisiones. Necesitamos asegurarnos de que entendemos dónde radica la responsabilidad de las decisiones de la IA. En la mayoría de los casos, querríamos incluir a seres humanos en el proceso de toma de decisiones importantes, para que las personas reales sean responsables.
+* **Equità** è legata al problema importante dei *bias nei modelli*, che possono essere causati dall'uso di dati di addestramento distorti. Ad esempio, quando cerchiamo di prevedere la probabilità che una persona ottenga un lavoro come sviluppatore software, il modello potrebbe dare una preferenza maggiore ai maschi, semplicemente perché il dataset di addestramento era probabilmente orientato verso un pubblico maschile. Dobbiamo bilanciare attentamente i dati di addestramento e investigare il modello per evitare bias e assicurarci che il modello prenda in considerazione caratteristiche più rilevanti.
+* **Affidabilità e Sicurezza**. Per loro natura, i modelli di AI possono commettere errori. Una rete neurale restituisce probabilità, e dobbiamo tenerne conto quando prendiamo decisioni. Ogni modello ha una certa precisione e richiamo, e dobbiamo comprenderlo per prevenire i danni che un consiglio errato può causare.
+* **Privacy e Sicurezza** hanno alcune implicazioni specifiche per l'AI. Ad esempio, quando utilizziamo alcuni dati per addestrare un modello, questi dati diventano in qualche modo "integrati" nel modello. Da un lato, ciò aumenta la sicurezza e la privacy, dall'altro dobbiamo ricordare quali dati sono stati utilizzati per l'addestramento del modello.
+* **Inclusività** significa che non stiamo costruendo AI per sostituire le persone, ma piuttosto per potenziarle e rendere il nostro lavoro più creativo. È anche legata all'equità, perché quando si tratta di comunità sottorappresentate, la maggior parte dei dataset che raccogliamo tende ad essere distorta, e dobbiamo assicurarci che queste comunità siano incluse e gestite correttamente dall'AI.
+* **Trasparenza**. Questo include assicurarsi che sia sempre chiaro quando viene utilizzata l'AI. Inoltre, ove possibile, vogliamo utilizzare sistemi di AI che siano *interpretabili*.
+* **Responsabilità**. Quando i modelli di AI prendono delle decisioni, non è sempre chiaro chi sia responsabile di quelle decisioni. Dobbiamo assicurarci di comprendere dove risiede la responsabilità delle decisioni dell'AI. Nella maggior parte dei casi, vorremmo includere esseri umani nel processo decisionale per le decisioni importanti, in modo che siano le persone a essere ritenute responsabili.
 
-## Herramientas para la IA Responsable
+## Strumenti per AI Responsabile
 
-Microsoft ha desarrollado la [Caja de Herramientas de IA Responsable](https://github.com/microsoft/responsible-ai-toolbox) que contiene un conjunto de herramientas:
+Microsoft ha sviluppato il [Responsible AI Toolbox](https://github.com/microsoft/responsible-ai-toolbox) che contiene una serie di strumenti:
 
-* Panel de Interpretabilidad (InterpretML)
-* Panel de Equidad (FairLearn)
-* Panel de Análisis de Errores
-* Panel de IA Responsable que incluye
+* Interpretability Dashboard (InterpretML)
+* Fairness Dashboard (FairLearn)
+* Error Analysis Dashboard
+* Responsible AI Dashboard che include:
 
-   - EconML - herramienta para Análisis Causal, que se centra en preguntas hipotéticas
-   - DiCE - herramienta para Análisis Contrafactual que te permite ver qué características deben cambiarse para afectar la decisión del modelo
+   - EconML - uno strumento per l'Analisi Causale, che si concentra sulle domande "cosa succederebbe se"
+   - DiCE - uno strumento per l'Analisi Controfattuale che ti permette di vedere quali caratteristiche devono essere modificate per influenzare la decisione del modello
 
-Para más información sobre Ética de la IA, visita [esta lección](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) en el Currículo de Aprendizaje Automático que incluye tareas.
+Per ulteriori informazioni sull'etica dell'AI, visita [questa lezione](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) nel curriculum di Machine Learning che include esercizi.
 
-## Revisión y Autoestudio
+## Revisione e Studio Autonomo
 
-Realiza este [Ruta de Aprendizaje](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) para aprender más sobre la IA responsable.
+Segui questo [Percorso di Apprendimento](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) per approfondire i principi di AI responsabile.
 
-## [Cuestionario posterior a la clase](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
+## [Quiz post-lezione](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

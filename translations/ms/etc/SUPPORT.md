@@ -1,14 +1,25 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
+  "translation_date": "2025-08-29T12:01:29+00:00",
+  "source_file": "etc/SUPPORT.md",
+  "language_code": "ms"
+}
+-->
 # Sokongan
 
 ## Cara melaporkan isu dan mendapatkan bantuan  
 
-Projek ini menggunakan GitHub Issues untuk menjejak pepijat dan permintaan ciri. Sila cari isu yang sedia ada sebelum melaporkan isu baru untuk mengelakkan duplikasi. Untuk isu baru, laporkan pepijat atau permintaan ciri anda sebagai Isu baru.
+Projek ini menggunakan GitHub Issues untuk menjejaki pepijat dan permintaan ciri. Sila cari isu yang sedia ada sebelum melaporkan isu baharu untuk mengelakkan pendua. Untuk isu baharu, laporkan pepijat atau permintaan ciri anda sebagai Isu baharu.
 
-Untuk bantuan dan soalan mengenai penggunaan projek ini, sila gunakan Lembaga Perbincangan.
+Untuk bantuan dan pertanyaan mengenai penggunaan projek ini, sila gunakan Papan Perbincangan.
 
-## Dasar Sokongan Microsoft  
+## Polisi Sokongan Microsoft  
 
 Sokongan untuk projek ini terhad kepada sumber yang disenaraikan di atas.
 
+---
+
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

@@ -1,12 +1,21 @@
-# Cara Menjalankan Kode
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
+  "translation_date": "2025-08-29T11:46:23+00:00",
+  "source_file": "lessons/0-course-setup/how-to-run.md",
+  "language_code": "ms"
+}
+-->
+# Cara Menjalankan Kod
 
-Kurikulum ini mengandung banyak contoh dan lab yang dapat dieksekusi yang ingin Anda jalankan. Untuk melakukan ini, Anda perlu kemampuan untuk menjalankan kode Python di Jupyter Notebooks yang disediakan sebagai bagian dari kurikulum ini. Anda memiliki beberapa opsi untuk menjalankan kode:
+Kurikulum ini mengandungi banyak contoh kod yang boleh dijalankan dan makmal yang anda mungkin ingin cuba. Untuk melakukannya, anda perlu mempunyai keupayaan untuk menjalankan kod Python dalam Jupyter Notebooks yang disediakan sebagai sebahagian daripada kurikulum ini. Terdapat beberapa pilihan untuk menjalankan kod:
 
-## Menjalankan secara lokal di komputer Anda
+## Jalankan secara tempatan di komputer anda
 
-Untuk menjalankan kode secara lokal di komputer Anda, Anda perlu memiliki beberapa versi Python yang terinstal. Saya pribadi merekomendasikan untuk menginstal **[miniconda](https://conda.io/en/latest/miniconda.html)** - ini adalah instalasi yang cukup ringan yang mendukung manajer paket `conda` untuk berbagai **lingkungan virtual** Python.
+Untuk menjalankan kod secara tempatan di komputer anda, anda perlu mempunyai beberapa versi Python yang dipasang. Saya secara peribadi mengesyorkan memasang **[miniconda](https://conda.io/en/latest/miniconda.html)** - ia adalah pemasangan yang ringan dan menyokong pengurus pakej `conda` untuk pelbagai **persekitaran maya** Python.
 
-Setelah Anda menginstal miniconda, Anda perlu mengkloning repositori dan membuat lingkungan virtual yang akan digunakan untuk kursus ini:
+Selepas anda memasang miniconda, anda perlu mengklon repositori dan mencipta persekitaran maya untuk digunakan dalam kursus ini:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -15,19 +24,19 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Menggunakan Visual Studio Code dengan Ekstensi Python
+### Menggunakan Visual Studio Code dengan Sambungan Python
 
-Mungkin cara terbaik untuk menggunakan kurikulum ini adalah dengan membukanya di [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) dengan [Ekstensi Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Cara terbaik untuk menggunakan kurikulum ini adalah dengan membukanya dalam [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) bersama [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Catatan**: Setelah Anda mengkloning dan membuka direktori di VS Code, ia akan secara otomatis menyarankan Anda untuk menginstal ekstensi Python. Anda juga harus menginstal miniconda seperti yang dijelaskan di atas.
+> **Nota**: Setelah anda mengklon dan membuka direktori dalam VS Code, ia akan secara automatik mencadangkan anda untuk memasang sambungan Python. Anda juga perlu memasang miniconda seperti yang diterangkan di atas.
 
-> **Catatan**: Jika VS Code menyarankan Anda untuk membuka kembali repositori di dalam kontainer, Anda perlu menolak ini untuk menggunakan instalasi Python lokal.
+> **Nota**: Jika VS Code mencadangkan anda untuk membuka semula repositori dalam container, anda perlu menolak cadangan ini untuk menggunakan pemasangan Python tempatan.
 
-### Menggunakan Jupyter di Browser
+### Menggunakan Jupyter dalam Pelayar
 
-Anda juga dapat menggunakan lingkungan Jupyter langsung dari browser di komputer Anda sendiri. Sebenarnya, baik Jupyter klasik maupun Jupyter Hub menyediakan lingkungan pengembangan yang cukup nyaman dengan pelengkapan otomatis, penyorotan kode, dll.
+Anda juga boleh menggunakan persekitaran Jupyter terus dari pelayar di komputer anda. Sebenarnya, kedua-dua Jupyter klasik dan Jupyter Hub menyediakan persekitaran pembangunan yang cukup mudah dengan auto-lengkap, penyorotan kod, dan sebagainya.
 
-Untuk memulai Jupyter secara lokal, pergi ke direktori kursus, dan jalankan:
+Untuk memulakan Jupyter secara tempatan, pergi ke direktori kursus, dan jalankan:
 
 ```bash
 jupyter notebook
@@ -36,32 +45,34 @@ atau
 ```bash
 jupyterhub
 ```
-Anda kemudian dapat menavigasi ke salah satu folder `.ipynb` files, open them and start working.
+Anda kemudian boleh menavigasi ke mana-mana fail `.ipynb`, membukanya dan mula bekerja.
 
-### Running in container
+### Menjalankan dalam Container
 
-One alternative to Python installation would be to run the code in container. Since our repository contains special `.devcontainer` yang menginstruksikan cara membangun kontainer untuk repositori ini, VS Code akan menawarkan Anda untuk membuka kembali kode di dalam kontainer. Ini akan memerlukan instalasi Docker, dan juga akan lebih kompleks, jadi kami merekomendasikan ini untuk pengguna yang lebih berpengalaman.
+Satu alternatif kepada pemasangan Python adalah menjalankan kod dalam container. Oleh kerana repositori kami mengandungi folder `.devcontainer` khas yang memberikan arahan bagaimana membina container untuk repositori ini, VS Code akan menawarkan anda untuk membuka semula kod dalam container. Ini memerlukan pemasangan Docker, dan juga lebih kompleks, jadi kami mencadangkan ini untuk pengguna yang lebih berpengalaman.
 
-## Menjalankan di Cloud
+## Menjalankan di Awan
 
-Jika Anda tidak ingin menginstal Python secara lokal, dan memiliki akses ke beberapa sumber daya cloud - alternatif yang baik adalah menjalankan kode di cloud. Ada beberapa cara untuk melakukan ini:
+Jika anda tidak mahu memasang Python secara tempatan, dan mempunyai akses kepada beberapa sumber awan - alternatif yang baik adalah menjalankan kod di awan. Terdapat beberapa cara untuk melakukannya:
 
-* Menggunakan **[GitHub Codespaces](https://github.com/features/codespaces)**, yang merupakan lingkungan virtual yang dibuat untuk Anda di GitHub, dapat diakses melalui antarmuka browser VS Code. Jika Anda memiliki akses ke Codespaces, Anda dapat langsung mengklik tombol **Code** di repositori, memulai codespace, dan mulai menjalankannya dalam waktu singkat.
-* Menggunakan **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) adalah sumber daya komputasi gratis yang disediakan di cloud untuk orang-orang seperti Anda untuk menguji beberapa kode di GitHub. Ada tombol di halaman depan untuk membuka repositori di Binder - ini seharusnya dengan cepat membawa Anda ke situs binder, yang akan membangun kontainer yang mendasari dan memulai antarmuka web Jupyter untuk Anda tanpa hambatan.
+* Menggunakan **[GitHub Codespaces](https://github.com/features/codespaces)**, yang merupakan persekitaran maya yang dicipta untuk anda di GitHub, boleh diakses melalui antara muka pelayar VS Code. Jika anda mempunyai akses kepada Codespaces, anda hanya perlu klik butang **Code** dalam repositori, mulakan codespace, dan mula bekerja dengan segera.
+* Menggunakan **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) adalah sumber pengkomputeran percuma yang disediakan di awan untuk orang seperti anda mencuba beberapa kod di GitHub. Terdapat butang di halaman utama untuk membuka repositori dalam Binder - ini akan membawa anda ke laman Binder, yang akan membina container asas dan memulakan antara muka web Jupyter untuk anda dengan lancar.
 
-> **Catatan**: Untuk mencegah penyalahgunaan, Binder memiliki akses ke beberapa sumber daya web yang diblokir. Ini mungkin mencegah beberapa kode berfungsi, yang mengambil model dan/atau dataset dari Internet publik. Anda mungkin perlu mencari beberapa solusi alternatif. Juga, sumber daya komputasi yang disediakan oleh Binder cukup dasar, jadi pelatihan akan lambat, terutama di pelajaran yang lebih kompleks nanti.
+> **Nota**: Untuk mengelakkan penyalahgunaan, Binder mempunyai akses kepada beberapa sumber web yang disekat. Ini mungkin menghalang beberapa kod daripada berfungsi, terutamanya yang memuat model dan/atau dataset dari Internet awam. Anda mungkin perlu mencari penyelesaian alternatif. Juga, sumber pengkomputeran yang disediakan oleh Binder agak asas, jadi latihan akan menjadi perlahan, terutamanya dalam pelajaran yang lebih kompleks kemudian.
 
-## Menjalankan di Cloud dengan GPU
+## Menjalankan di Awan dengan GPU
 
-Beberapa pelajaran terakhir dalam kurikulum ini akan sangat diuntungkan dari dukungan GPU, karena jika tidak, pelatihan akan sangat lambat. Ada beberapa opsi yang dapat Anda ikuti, terutama jika Anda memiliki akses ke cloud baik melalui [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), atau melalui institusi Anda:
+Beberapa pelajaran kemudian dalam kurikulum ini akan mendapat manfaat besar daripada sokongan GPU, kerana tanpa GPU, latihan akan menjadi sangat perlahan. Terdapat beberapa pilihan yang boleh anda ikuti, terutamanya jika anda mempunyai akses kepada awan sama ada melalui [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), atau melalui institusi anda:
 
-* Buat [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) dan sambungkan ke dalamnya melalui Jupyter. Anda kemudian dapat mengkloning repositori langsung ke mesin, dan mulai belajar. VM seri NC memiliki dukungan GPU.
+* Cipta [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) dan sambungkan ke dalamnya melalui Jupyter. Anda kemudian boleh mengklon repositori terus ke mesin tersebut, dan mula belajar. VM siri NC mempunyai sokongan GPU.
 
-> **Catatan**: Beberapa langganan, termasuk Azure for Students, tidak menyediakan dukungan GPU secara langsung. Anda mungkin perlu meminta tambahan inti GPU melalui permintaan dukungan teknis.
+> **Nota**: Beberapa langganan, termasuk Azure for Students, tidak menyediakan sokongan GPU secara lalai. Anda mungkin perlu meminta teras GPU tambahan melalui permintaan sokongan teknikal.
 
-* Buat [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) dan kemudian gunakan fitur Notebook di sana. [Video ini](https://azure-for-academics.github.io/quickstart/azureml-papers/) menunjukkan cara mengkloning repositori ke dalam notebook Azure ML dan mulai menggunakannya.
+* Cipta [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) dan kemudian gunakan ciri Notebook di sana. [Video ini](https://azure-for-academics.github.io/quickstart/azureml-papers/) menunjukkan cara mengklon repositori ke dalam notebook Azure ML dan mula menggunakannya.
 
-Anda juga dapat menggunakan Google Colab, yang dilengkapi dengan beberapa dukungan GPU gratis, dan mengunggah Jupyter Notebooks di sana untuk mengeksekusinya satu per satu.
+Anda juga boleh menggunakan Google Colab, yang menyediakan beberapa sokongan GPU percuma, dan memuat naik Jupyter Notebooks ke sana untuk menjalankannya satu persatu.
+
+---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan berasaskan AI. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi ralat atau ketidakakuratan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

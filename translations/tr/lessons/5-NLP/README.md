@@ -1,30 +1,39 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
+  "translation_date": "2025-08-26T07:19:03+00:00",
+  "source_file": "lessons/5-NLP/README.md",
+  "language_code": "tr"
+}
+-->
 # Doğal Dil İşleme
 
-![NLP görevlerinin özetini gösteren bir doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.tr.png)
+![NLP görevlerinin bir çizimi](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.tr.png)
 
-Bu bölümde, **Doğal Dil İşleme (NLP)** ile ilgili görevleri ele almak için Sinir Ağlarını kullanmaya odaklanacağız. Bilgisayarların çözmesini istediğimiz birçok NLP sorunu bulunmaktadır:
+Bu bölümde, **Doğal Dil İşleme (NLP)** ile ilgili görevleri çözmek için Sinir Ağlarını kullanmaya odaklanacağız. Bilgisayarların çözmesini istediğimiz birçok NLP problemi bulunmaktadır:
 
-* **Metin sınıflandırması**, metin dizileri ile ilgili tipik bir sınıflandırma problemidir. Örnekler arasında e-posta mesajlarını spam ve spam olmayan olarak sınıflandırmak veya makaleleri spor, iş, siyaset vb. kategorilere ayırmak yer alır. Ayrıca, sohbet botları geliştirirken, genellikle bir kullanıcının ne demek istediğini anlamamız gerekir; bu durumda **niyet sınıflandırması** ile ilgileniyoruz. Niyet sınıflandırmasında genellikle birçok kategori ile başa çıkmamız gerekir.
-* **Duygu analizi**, bir cümlenin anlamının ne kadar olumlu/olumsuz olduğunu karşılık gelen bir sayıya (bir duyguya) atfetmemiz gereken tipik bir regresyon problemidir. Duygu analizinin daha gelişmiş bir versiyonu, cümlenin tamamına değil, farklı kısımlarına (aspektlere) duygu atfettiğimiz **aspekt bazlı duygu analizi** (ABSA) olarak bilinir; örneğin, *Bu restoranda mutfağı beğendim, ama atmosfer berbat*.
-* **Adlandırılmış Varlık Tanıma** (NER), metinden belirli varlıkları çıkarma problemine atıfta bulunur. Örneğin, *Yarın Paris'e uçmam gerekiyor* ifadesinde *yarın* kelimesinin TARİH'e, *Paris* kelimesinin ise LOKASYON'a karşılık geldiğini anlamamız gerekebilir.
-* **Anahtar kelime çıkarımı**, NER'ye benzer, ancak cümlenin anlamı için önemli kelimeleri otomatik olarak, belirli varlık türleri için ön eğitim yapmadan çıkarmamız gerekir.
-* **Metin kümeleme**, benzer cümleleri bir araya gruplamak istediğimizde yararlı olabilir; örneğin, teknik destek konuşmalarındaki benzer talepler.
-* **Soru yanıtlama**, bir modelin belirli bir soruyu yanıtlayabilme yeteneğine atıfta bulunur. Model, bir metin parçası ve bir soru alır ve sorunun yanıtının bulunduğu metindeki yeri sağlaması gerekir (veya bazen yanıt metnini oluşturması).
-* **Metin Üretimi**, bir modelin yeni metin oluşturabilme yeteneğidir. Bu, bazı *metin istemleri* temelinde bir sonraki harf/kelimeyi tahmin eden bir sınıflandırma görevi olarak düşünülebilir. GPT-3 gibi gelişmiş metin üretim modelleri, [istek programlama](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) veya [istek mühendisliği](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29) gibi bir teknik kullanarak sınıflandırma gibi diğer NLP görevlerini çözebilir.
-* **Metin özetleme**, bir bilgisayarın uzun metni "okumasını" ve birkaç cümlede özetlemesini istediğimiz bir tekniktir.
-* **Makine çevirisi**, bir dilde metin anlayışının ve diğer bir dilde metin üretiminin bir kombinasyonu olarak görülebilir.
+* **Metin sınıflandırma**, metin dizileriyle ilgili tipik bir sınıflandırma problemidir. Örnekler arasında e-posta mesajlarını spam veya spam değil olarak sınıflandırmak ya da makaleleri spor, iş, politika gibi kategorilere ayırmak yer alır. Ayrıca, sohbet botları geliştirirken, genellikle bir kullanıcının ne söylemek istediğini anlamamız gerekir -- bu durumda **niyet sınıflandırması** ile ilgileniyoruz. Niyet sınıflandırmasında genellikle birçok kategoriyle uğraşmamız gerekir.
+* **Duygu analizi**, bir cümlenin anlamının ne kadar olumlu/olumsuz olduğunu belirten bir sayı (duygu) atamamız gereken tipik bir regresyon problemidir. Duygu analizinin daha gelişmiş bir versiyonu olan **özellik tabanlı duygu analizi** (ABSA), duygu durumunu tüm cümleye değil, farklı bölümlerine (özelliklere) atar, örneğin: *Bu restoranda mutfağı beğendim, ama atmosfer berbattı*.
+* **Adlandırılmış Varlık Tanıma** (NER), metinden belirli varlıkları çıkarmakla ilgilidir. Örneğin, *Yarın Paris'e uçmam gerekiyor* cümlesinde *yarın* kelimesinin TARİH'e, *Paris* kelimesinin ise KONUM'a atıfta bulunduğunu anlamamız gerekebilir.  
+* **Anahtar kelime çıkarımı**, NER'e benzer, ancak belirli varlık türleri için önceden eğitim yapmadan, cümlenin anlamı için önemli olan kelimeleri otomatik olarak çıkarmamız gerekir.
+* **Metin kümeleme**, benzer cümleleri bir araya getirmek istediğimizde faydalı olabilir, örneğin teknik destek konuşmalarında benzer talepleri gruplamak.
+* **Soru yanıtlama**, bir modelin belirli bir soruya yanıt verebilme yeteneğini ifade eder. Model, bir metin parçası ve bir soruyu giriş olarak alır ve sorunun cevabının metinde bulunduğu yeri sağlaması (veya bazen cevap metnini oluşturması) gerekir.
+* **Metin oluşturma**, bir modelin yeni metin oluşturma yeteneğidir. Bu, bir *metin ipucu* temelinde bir sonraki harf/kelimeyi tahmin eden bir sınıflandırma görevi olarak düşünülebilir. GPT-3 gibi gelişmiş metin oluşturma modelleri, [ipucu programlama](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) veya [ipucu mühendisliği](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29) adı verilen bir teknik kullanarak sınıflandırma gibi diğer NLP görevlerini çözebilir.
+* **Metin özetleme**, bir bilgisayarın uzun bir metni "okuyup" birkaç cümleyle özetlemesini istediğimiz bir tekniktir.
+* **Makine çevirisi**, bir dildeki metni anlamayı ve başka bir dilde metin oluşturmayı birleştiren bir görev olarak görülebilir.
 
-Başlangıçta, çoğu NLP görevi geleneksel yöntemlerle, örneğin dilbilgileri kullanılarak çözülüyordu. Örneğin, makine çevirisinde, başlangıç cümlesini bir sözdizim ağaçına dönüştürmek için ayrıştırıcılar kullanılıyordu, ardından cümlenin anlamını temsil etmek için daha yüksek düzeyde anlamsal yapılar çıkarılıyordu ve bu anlam ile hedef dilin dilbilgisine dayanarak sonuç üretiliyordu. Günümüzde birçok NLP görevi, sinir ağları kullanılarak daha etkili bir şekilde çözülmektedir.
+Başlangıçta, çoğu NLP görevi dilbilgisi gibi geleneksel yöntemlerle çözülüyordu. Örneğin, makine çevirisinde, başlangıç cümlesi bir sözdizimi ağacına dönüştürmek için ayrıştırıcılar kullanılıyor, ardından cümlenin anlamını temsil etmek için daha yüksek seviyeli anlamsal yapılar çıkarılıyor ve bu anlam ve hedef dilin dilbilgisine dayanarak sonuç oluşturuluyordu. Günümüzde, birçok NLP görevi sinir ağları kullanılarak daha etkili bir şekilde çözülmektedir.
 
-> Birçok klasik NLP yöntemi, [Doğal Dil İşleme Araç Takımı (NLTK)](https://www.nltk.org) Python kütüphanesinde uygulanmıştır. Farklı NLP görevlerinin NLTK kullanılarak nasıl çözülebileceğini kapsayan harika bir [NLTK Kitabı](https://www.nltk.org/book/) çevrimiçi olarak mevcuttur.
+> Birçok klasik NLP yöntemi, [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org) Python kütüphanesinde uygulanmıştır. Farklı NLP görevlerinin NLTK kullanılarak nasıl çözülebileceğini kapsayan harika bir [NLTK Kitabı](https://www.nltk.org/book/) çevrimiçi olarak mevcuttur.
 
-Kursumuzda, genellikle NLP için Sinir Ağlarını kullanmaya odaklanacağız ve gerektiğinde NLTK kullanacağız.
+Kursumuzda, çoğunlukla NLP için Sinir Ağlarını kullanmaya odaklanacağız ve gerektiğinde NLTK kullanacağız.
 
-Daha önce, sinir ağlarını tablo verileri ve görüntülerle başa çıkmak için kullanmayı öğrendik. Bu veri türleri ile metin arasındaki ana fark, metnin değişken uzunlukta bir dizi olmasıdır; oysa görüntüler durumunda girdi boyutu önceden bilinir. Konvolüsyonel ağlar girdi verilerinden kalıpları çıkarabilirken, metindeki kalıplar daha karmaşıktır. Örneğin, birçok kelime için öznenin olumsuzluğunun ayrılmasının rastgele olması mümkündür (örneğin, *Portakalları sevmiyorum*, vs. *O büyük renkli lezzetli portakalları sevmiyorum*), ve bu hala bir kalıp olarak yorumlanmalıdır. Bu nedenle, dili ele almak için *tekrarlayan ağlar* ve *dönüştürücüler* gibi yeni sinir ağı türlerini tanıtmamız gerekir.
+Tablo verileri ve görüntülerle çalışmak için sinir ağlarını kullanmayı zaten öğrendik. Bu veri türleri ile metin arasındaki temel fark, metnin değişken uzunlukta bir dizi olmasıdır, oysa görüntülerde giriş boyutu önceden bilinir. Konvolüsyonel ağlar giriş verilerinden desenler çıkarabilirken, metindeki desenler daha karmaşıktır. Örneğin, olumsuzluk, özneyle birçok kelime arasında ayrılabilir (örneğin: *Portakalları sevmiyorum* ile *O büyük renkli lezzetli portakalları sevmiyorum*), ve bu yine de tek bir desen olarak yorumlanmalıdır. Bu nedenle, dili işlemek için *tekrarlayan ağlar* ve *dönüştürücüler* gibi yeni sinir ağı türlerini tanıtmamız gerekir.
 
-## Kütüphaneleri Yükle
+## Kütüphaneleri Yükleme
 
-Bu kursu çalıştırmak için yerel Python yüklemesi kullanıyorsanız, NLP için gerekli tüm kütüphaneleri aşağıdaki komutları kullanarak yüklemeniz gerekebilir:
+Bu kursu yerel bir Python kurulumunda çalıştırıyorsanız, NLP için gerekli tüm kütüphaneleri aşağıdaki komutlarla yüklemeniz gerekebilir:
 
 **PyTorch için**
 ```bash
@@ -41,11 +50,11 @@ pip install -r requirements-tf.txt
 
 Bu bölümde, bazı örneklerde oldukça büyük modelleri eğiteceğiz.
 * **GPU Destekli Bilgisayar Kullanın**: Büyük modellerle çalışırken bekleme sürelerini azaltmak için not defterlerinizi GPU destekli bir bilgisayarda çalıştırmanız önerilir.
-* **GPU Bellek Kısıtlamaları**: Bir GPU'da çalışmak, özellikle büyük modelleri eğitirken GPU belleğinin tükenmesi durumlarına yol açabilir.
-* **GPU Bellek Tüketimi**: Eğitim sırasında tüketilen GPU belleği miktarı, minibatch boyutu gibi çeşitli faktörlere bağlıdır.
-* **Minibatch Boyutunu Küçültün**: GPU bellek sorunlarıyla karşılaşırsanız, kodunuzda minibatch boyutunu azaltmayı düşünebilirsiniz.
-* **TensorFlow GPU Bellek Salımı**: Eski TensorFlow sürümleri, bir Python çekirdeği içinde birden fazla modeli eğitirken GPU belleğini doğru bir şekilde serbest bırakmayabilir. GPU bellek kullanımını etkili bir şekilde yönetmek için TensorFlow'u yalnızca gerektiğinde GPU belleği ayıracak şekilde yapılandırabilirsiniz.
-* **Kod Dahil Etme**: TensorFlow'un GPU bellek tahsisini yalnızca gerektiğinde artırması için not defterlerinize aşağıdaki kodu ekleyin:
+* **GPU Bellek Sınırlamaları**: GPU'da çalışmak, özellikle büyük modelleri eğitirken GPU belleğinizin tükenmesine neden olabilir.
+* **GPU Bellek Tüketimi**: Eğitim sırasında tüketilen GPU belleği, minibatch boyutu gibi çeşitli faktörlere bağlıdır.
+* **Minibatch Boyutunu Azaltın**: GPU bellek sorunlarıyla karşılaşırsanız, kodunuzdaki minibatch boyutunu azaltmayı düşünebilirsiniz.
+* **TensorFlow GPU Bellek Serbest Bırakma**: TensorFlow'un eski sürümleri, bir Python çekirdeğinde birden fazla model eğitildiğinde GPU belleğini doğru şekilde serbest bırakmayabilir. GPU bellek kullanımını etkili bir şekilde yönetmek için TensorFlow'u yalnızca gerektiğinde GPU belleği tahsis edecek şekilde yapılandırabilirsiniz.
+* **Kod Ekleme**: TensorFlow'un GPU belleği tahsisini yalnızca gerektiğinde büyütmesini sağlamak için not defterlerinize aşağıdaki kodu ekleyin:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
@@ -53,17 +62,17 @@ if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
 ```
 
-Klasik ML perspektifinden NLP hakkında daha fazla bilgi edinmek isterseniz, [bu dersler dizisine](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP) göz atın.
+Klasik ML perspektifinden NLP öğrenmekle ilgileniyorsanız, [bu dersler dizisini](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP) ziyaret edin.
 
 ## Bu Bölümde
 Bu bölümde şunları öğreneceğiz:
 
 * [Metni tensörler olarak temsil etme](13-TextRep/README.md)
-* [Kelime Gömme](14-Emdeddings/README.md)
+* [Kelime Gömüleri](14-Emdeddings/README.md)
 * [Dil Modelleme](15-LanguageModeling/README.md)
 * [Tekrarlayan Sinir Ağları](16-RNN/README.md)
 * [Üretken Ağlar](17-GenerativeNetworks/README.md)
 * [Dönüştürücüler](18-Transformers/README.md)
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa özen göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Yerel dilindeki orijinal belge, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

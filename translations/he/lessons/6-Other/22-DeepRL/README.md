@@ -1,0 +1,128 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "dbacf9b1915612981d76059678e563e5",
+  "translation_date": "2025-08-28T19:18:09+00:00",
+  "source_file": "lessons/6-Other/22-DeepRL/README.md",
+  "language_code": "he"
+}
+-->
+# למידה חיזוקית עמוקה
+
+למידה חיזוקית (RL) נחשבת לאחד מהפרדיגמות הבסיסיות של למידת מכונה, לצד למידה מונחית ולמידה בלתי מונחית. בעוד שבלמידה מונחית אנו מסתמכים על מערך נתונים עם תוצאות ידועות מראש, בלמידה חיזוקית הבסיס הוא **למידה מתוך עשייה**. לדוגמה, כשאנו רואים לראשונה משחק מחשב, אנו מתחילים לשחק בו, גם מבלי לדעת את החוקים, ועד מהרה אנו משפרים את יכולותינו רק מתוך תהליך המשחק והתאמת ההתנהגות שלנו.
+
+## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+
+כדי לבצע למידה חיזוקית, אנו זקוקים ל:
+
+* **סביבה** או **סימולטור** שמגדירים את חוקי המשחק. עלינו להיות מסוגלים להריץ ניסויים בסימולטור ולצפות בתוצאות.
+* **פונקציית תגמול**, שמצביעה על מידת ההצלחה של הניסוי שלנו. במקרה של למידה לשחק משחק מחשב, התגמול יהיה הניקוד הסופי שלנו.
+
+בהתבסס על פונקציית התגמול, אנו יכולים להתאים את ההתנהגות שלנו ולשפר את יכולותינו, כך שבפעם הבאה נשחק טוב יותר. ההבדל המרכזי בין סוגי למידת מכונה אחרים לבין למידה חיזוקית הוא שב-RL בדרך כלל איננו יודעים אם ניצחנו או הפסדנו עד לסיום המשחק. לכן, איננו יכולים לומר אם מהלך מסוים בפני עצמו הוא טוב או לא - אנו מקבלים תגמול רק בסוף המשחק.
+
+במהלך למידה חיזוקית, אנו מבצעים בדרך כלל ניסויים רבים. בכל ניסוי, עלינו לאזן בין שימוש באסטרטגיה האופטימלית שלמדנו עד כה (**ניצול**) לבין חקר מצבים חדשים אפשריים (**חקר**).
+
+## OpenAI Gym
+
+כלי מצוין ללמידה חיזוקית הוא [OpenAI Gym](https://gym.openai.com/) - **סביבת סימולציה**, שיכולה לדמות סביבות רבות ושונות, החל ממשחקי Atari ועד לפיזיקה של איזון מוט. זו אחת מסביבות הסימולציה הפופולריות ביותר לאימון אלגוריתמים של למידה חיזוקית, והיא מתוחזקת על ידי [OpenAI](https://openai.com/).
+
+> **Note**: ניתן לראות את כל הסביבות הזמינות ב-OpenAI Gym [כאן](https://gym.openai.com/envs/#classic_control).
+
+## איזון מוט (CartPole)
+
+רובכם ודאי ראיתם מכשירי איזון מודרניים כמו *Segway* או *Gyroscooters*. הם מסוגלים להתאזן אוטומטית על ידי התאמת הגלגלים שלהם בתגובה לאותות ממאיץ או גירוסקופ. בחלק זה, נלמד כיצד לפתור בעיה דומה - איזון מוט. זה דומה למצב שבו אמן קרקס צריך לאזן מוט על ידו - אך איזון המוט כאן מתרחש רק בממד אחד.
+
+גרסה פשוטה יותר של איזון זו ידועה כבעיה **CartPole**. בעולם ה-CartPole, יש לנו מחוון אופקי שיכול לנוע שמאלה או ימינה, והמטרה היא לאזן מוט אנכי על גבי המחוון בזמן שהוא זז.
+
+<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+
+כדי ליצור ולהשתמש בסביבה זו, אנו זקוקים לכמה שורות קוד ב-Python:
+
+```python
+import gym
+env = gym.make("CartPole-v1")
+
+env.reset()
+done = False
+total_reward = 0
+while not done:
+   env.render()
+   action = env.action_space.sample()
+   observaton, reward, done, info = env.step(action)
+   total_reward += reward
+
+print(f"Total reward: {total_reward}")
+```
+
+ניתן לגשת לכל סביבה בדיוק באותו אופן:
+* `env.reset` מתחיל ניסוי חדש
+* `env.step` מבצע שלב סימולציה. הוא מקבל **פעולה** מתוך **מרחב הפעולות**, ומחזיר **תצפית** (ממרחב התצפיות), וכן תגמול ודגל סיום.
+
+בדוגמה לעיל אנו מבצעים פעולה אקראית בכל שלב, ולכן אורך החיים של הניסוי קצר מאוד:
+
+![non-balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
+
+המטרה של אלגוריתם למידה חיזוקית היא לאמן מודל - מה שנקרא **מדיניות** π - שיחזיר את הפעולה בתגובה למצב נתון. ניתן גם להתייחס למדיניות כאל הסתברותית, כלומר עבור כל מצב *s* ופעולה *a* היא תחזיר את ההסתברות π(*a*|*s*) שעלינו לבצע את *a* במצב *s*.
+
+## אלגוריתם Policy Gradients
+
+הדרך הברורה ביותר למודל מדיניות היא על ידי יצירת רשת עצבית שתיקח מצבים כקלט ותחזיר פעולות מתאימות (או ליתר דיוק את ההסתברויות של כל הפעולות). במובן מסוים, זה יהיה דומה למשימת סיווג רגילה, עם הבדל מרכזי - איננו יודעים מראש אילו פעולות עלינו לבצע בכל אחד מהשלבים.
+
+הרעיון כאן הוא להעריך את ההסתברויות הללו. אנו בונים וקטור של **תגמולים מצטברים** שמראה את התגמול הכולל שלנו בכל שלב של הניסוי. אנו גם מיישמים **הנחתת תגמול** על ידי הכפלת תגמולים מוקדמים יותר בקבוע γ=0.99, כדי להקטין את השפעתם של תגמולים מוקדמים. לאחר מכן, אנו מחזקים את אותם שלבים לאורך מסלול הניסוי שמניבים תגמולים גדולים יותר.
+
+> למדו עוד על אלגוריתם Policy Gradient וצפו בו בפעולה ב-[מחברת הדוגמה](CartPole-RL-TF.ipynb).
+
+## אלגוריתם Actor-Critic
+
+גרסה משופרת של גישת Policy Gradients נקראת **Actor-Critic**. הרעיון המרכזי מאחוריה הוא שהרשת העצבית תתאמץ להחזיר שני דברים:
+
+* המדיניות, שקובעת איזו פעולה לבצע. חלק זה נקרא **actor**
+* הערכה של התגמול הכולל שאנו יכולים לצפות לקבל במצב זה - חלק זה נקרא **critic**.
+
+במובן מסוים, הארכיטקטורה הזו מזכירה [GAN](../../4-ComputerVision/10-GANs/README.md), שבה יש לנו שתי רשתות שמתאמנות זו מול זו. במודל Actor-Critic, ה-actor מציע את הפעולה שעלינו לבצע, וה-critic מנסה להיות ביקורתי ולהעריך את התוצאה. עם זאת, המטרה שלנו היא לאמן את הרשתות הללו בהרמוניה.
+
+מכיוון שאנו יודעים הן את התגמולים המצטברים האמיתיים והן את התוצאות שה-critic מחזיר במהלך הניסוי, קל יחסית לבנות פונקציית הפסד שתמזער את ההבדל ביניהם. זה ייתן לנו **critic loss**. אנו יכולים לחשב **actor loss** באמצעות אותה גישה כמו באלגוריתם Policy Gradient.
+
+לאחר הרצת אחד מהאלגוריתמים הללו, אנו יכולים לצפות שה-CartPole שלנו יתנהג כך:
+
+![a balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
+
+## ✍️ תרגילים: Policy Gradients ו-Actor-Critic RL
+
+המשיכו ללמוד במחברות הבאות:
+
+* [RL ב-TensorFlow](CartPole-RL-TF.ipynb)
+* [RL ב-PyTorch](CartPole-RL-PyTorch.ipynb)
+
+## משימות RL אחרות
+
+למידה חיזוקית כיום היא תחום מחקר שצומח במהירות. כמה דוגמאות מעניינות ללמידה חיזוקית הן:
+
+* לימוד מחשב לשחק **משחקי Atari**. החלק המאתגר בבעיה זו הוא שאין לנו מצב פשוט שמיוצג כוקטור, אלא צילום מסך - ואנו צריכים להשתמש ב-CNN כדי להמיר את תמונת המסך לוקטור תכונות או לחלץ מידע על תגמול. משחקי Atari זמינים ב-Gym.
+* לימוד מחשב לשחק משחקי לוח, כמו שחמט וגו. לאחרונה תוכניות מתקדמות כמו **Alpha Zero** אומנו מאפס על ידי שני סוכנים ששיחקו זה מול זה ושיפרו את עצמם בכל שלב.
+* בתעשייה, RL משמש ליצירת מערכות בקרה מתוך סימולציה. שירות בשם [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) מיועד במיוחד לכך.
+
+## סיכום
+
+למדנו כעת כיצד לאמן סוכנים להשיג תוצאות טובות רק על ידי מתן פונקציית תגמול שמגדירה את מצב המשחק הרצוי, ומתן הזדמנות לחקור את מרחב החיפוש בצורה חכמה. ניסינו בהצלחה שני אלגוריתמים, והשגנו תוצאה טובה בפרק זמן יחסית קצר. עם זאת, זהו רק תחילתו של המסע שלכם לתוך RL, וכדאי לכם לשקול לקחת קורס נפרד אם אתם רוצים להעמיק.
+
+## 🚀 אתגר
+
+חקור את היישומים המפורטים בסעיף 'משימות RL אחרות' ונסה ליישם אחד מהם!
+
+## [שאלון לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+
+## סקירה ולימוד עצמי
+
+למדו עוד על למידה חיזוקית קלאסית בתוכנית הלימודים שלנו [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
+
+צפו ב-[סרטון נהדר זה](https://www.youtube.com/watch?v=qv6UVOQ0F44) שמדבר על איך מחשב יכול ללמוד לשחק סופר מריו.
+
+## משימה: [אמן מכונית הרים](lab/README.md)
+
+המטרה שלכם במשימה זו תהיה לאמן סביבה אחרת ב-Gym - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
+
+---
+
+**כתב ויתור**:  
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.

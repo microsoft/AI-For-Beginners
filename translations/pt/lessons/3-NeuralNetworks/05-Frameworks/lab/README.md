@@ -1,19 +1,28 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "e452d897efb9a89700f41021834cf6e5",
+  "translation_date": "2025-08-24T09:04:42+00:00",
+  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+  "language_code": "pt"
+}
+-->
 # Classificação com PyTorch/TensorFlow
 
-Atividade de laboratório do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
+Trabalho prático do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarefa
 
-Resolva dois problemas de classificação usando redes totalmente conectadas de camada única e multicamada com PyTorch ou TensorFlow:
+Resolva dois problemas de classificação utilizando redes totalmente conectadas de uma e várias camadas com PyTorch ou TensorFlow:
 
-1. Problema de **[classificação de íris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - um exemplo de problema com dados de entrada tabulares, que pode ser tratado por aprendizado de máquina clássico. Seu objetivo será classificar íris em 3 classes, com base em 4 parâmetros numéricos.
-1. Problema de classificação de dígitos manuscritos **MNIST** que já vimos anteriormente.
+1. Problema de **[classificação de íris](https://en.wikipedia.org/wiki/Iris_flower_data_set)** - um exemplo de problema com dados tabulares de entrada, que pode ser resolvido com aprendizagem automática clássica. O teu objetivo será classificar íris em 3 classes, com base em 4 parâmetros numéricos.
+1. Problema de classificação de dígitos manuscritos **MNIST**, que já vimos anteriormente.
 
 Experimente diferentes arquiteturas de rede para alcançar a melhor precisão possível.
 
-## Iniciando o Notebook
+## Notebook Inicial
 
-Comece o laboratório abrindo [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+Comece o trabalho prático abrindo [LabFrameworks.ipynb](../../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos para garantir a precisão, esteja ciente de que as traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações errôneas resultantes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.

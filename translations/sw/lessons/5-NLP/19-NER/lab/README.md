@@ -1,16 +1,25 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "032bda5068f543d6c1fcb30c34231461",
+  "translation_date": "2025-08-25T20:52:02+00:00",
+  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
+  "language_code": "sw"
+}
+-->
 # NER
 
-Laborationsuppgift från [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-I denna laboration behöver du träna en modell för namngiven entitetsigenkänning för medicinska termer.
+Katika maabara hii, unahitaji kufundisha mfano wa utambuzi wa vyombo vilivyopewa majina (NER) kwa maneno ya kitabibu.
 
-## Datasetet
+## Seti ya Data
 
-För att träna NER-modellen behöver vi ett korrekt märkt dataset med medicinska entiteter. [BC5CDR dataset](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) innehåller märkta sjukdomar och kemiska entiteter från mer än 1500 artiklar. Du kan ladda ner datasetet efter att ha registrerat dig på deras webbplats.
+Ili kufundisha mfano wa NER, tunahitaji seti ya data iliyowekwa alama ipasavyo yenye vyombo vya kitabibu. [Seti ya data ya BC5CDR](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) ina vyombo vya magonjwa na kemikali vilivyowekwa alama kutoka kwa zaidi ya makala 1500. Unaweza kupakua seti ya data baada ya kujisajili kwenye tovuti yao.
 
-BC5CDR Dataset ser ut så här:
+Seti ya data ya BC5CDR inaonekana kama ifuatavyo:
 
 ```
 6794356|t|Tricuspid valve regurgitation and lithium carbonate toxicity in a newborn infant.
@@ -21,17 +30,17 @@ BC5CDR Dataset ser ut så här:
 ...
 ```
 
-I detta dataset finns artikeltitel och abstrakt i de två första raderna, och sedan finns individuella entiteter, med start- och slutpositioner inom titel+abstrakt blocket. Förutom entitetstyp får du ontologin ID för denna entitet inom en viss medicinsk ontologi.
+Katika seti hii ya data, kuna kichwa cha makala na muhtasari kwenye mistari miwili ya kwanza, na kisha kuna vyombo vya mtu binafsi, na nafasi za mwanzo na mwisho ndani ya sehemu ya kichwa+muhtasari. Mbali na aina ya chombo, unapata kitambulisho cha ontolojia cha chombo hiki ndani ya ontolojia fulani ya kitabibu.
 
-Du behöver skriva lite Python-kod för att konvertera detta till BIO-encoding.
+Utahitaji kuandika msimbo wa Python ili kubadilisha hii kuwa usimbaji wa BIO.
 
-## Nätverket
+## Mtandao
 
-Första försöket med NER kan göras genom att använda LSTM-nätverk, som i vårt exempel som du har sett under lektionen. Men i NLP-uppgifter visar [transformerarkitektur](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), och specifikt [BERT-språkmodeller](https://en.wikipedia.org/wiki/BERT_(language_model)), mycket bättre resultat. Förtränade BERT-modeller förstår den allmänna strukturen i ett språk och kan finjusteras för specifika uppgifter med relativt små dataset och beräkningskostnader.
+Jaribio la kwanza la NER linaweza kufanywa kwa kutumia mtandao wa LSTM, kama katika mfano wetu ulioona wakati wa somo. Hata hivyo, katika kazi za NLP, [usanifu wa transformer](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)), na hasa [mifano ya lugha ya BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) huonyesha matokeo bora zaidi. Mifano ya BERT iliyofundishwa awali inaelewa muundo wa jumla wa lugha, na inaweza kufundishwa zaidi kwa kazi maalum kwa kutumia seti ndogo za data na gharama ndogo za kihesabu.
 
-Eftersom vi planerar att tillämpa NER på medicinska scenarier, är det logiskt att använda BERT-modellen som är tränad på medicinska texter. Microsoft Research har släppt en förtränad modell som kallas [PubMedBERT][PubMedBERT] ([publicering][PubMedBERT-Pub]), som har finjusterats med texter från [PubMed](https://pubmed.ncbi.nlm.nih.gov/) arkivet.
+Kwa kuwa tunapanga kutumia NER katika hali ya kitabibu, ina maana kutumia mfano wa BERT uliofundishwa kwenye maandishi ya kitabibu. Microsoft Research imetoa mfano uliofundishwa awali unaoitwa [PubMedBERT][PubMedBERT] ([uchapishaji][PubMedBERT-Pub]), ambao ulifundishwa zaidi kwa kutumia maandishi kutoka hifadhidata ya [PubMed](https://pubmed.ncbi.nlm.nih.gov/).
 
-Den *de facto* standarden för att träna transformer-modeller är [Hugging Face Transformers](https://huggingface.co/) biblioteket. Det innehåller också ett arkiv med gemenskapsunderhållna förtränade modeller, inklusive PubMedBERT. För att ladda och använda denna modell behöver vi bara ett par rader kod:
+Kiwango cha *de facto* cha kufundisha mifano ya transformer ni maktaba ya [Hugging Face Transformers](https://huggingface.co/). Pia ina hifadhidata ya mifano iliyofundishwa awali inayosimamiwa na jamii, ikijumuisha PubMedBERT. Ili kupakia na kutumia mfano huu, tunahitaji mistari michache tu ya msimbo:
 
 ```python
 model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
@@ -40,11 +49,11 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = BertForTokenClassification.from_pretrained(model_name, classes)
 ```
 
-Detta ger oss `model` itself, built for token classification task using `classes` number of classes, as well as `tokenizer` objektet som kan dela upp inmatningstexten i tokens. Du behöver konvertera datasetet till BIO-format, med hänsyn till PubMedBERT-tokenisering. Du kan använda [denna bit av Python-kod](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) som inspiration.
+Hii inatupa `model` yenyewe, iliyojengwa kwa kazi ya uainishaji wa tokeni kwa kutumia idadi ya `classes`, pamoja na kitu cha `tokenizer` ambacho kinaweza kugawanya maandishi ya pembejeo kuwa tokeni. Utahitaji kubadilisha seti ya data kuwa muundo wa BIO, ukizingatia usimbaji wa tokeni wa PubMedBERT. Unaweza kutumia [kipande hiki cha msimbo wa Python](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) kama msukumo.
 
-## Sammanfattning
+## Hitimisho
 
-Denna uppgift ligger mycket nära den faktiska uppgift du sannolikt kommer att ha om du vill få mer insikter i stora volymer av texter på naturligt språk. I vårt fall kan vi tillämpa vår tränade modell på [datasetet med COVID-relaterade artiklar](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) och se vilka insikter vi kommer att kunna få. [Detta blogginlägg](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) och [denna artikel](https://www.mdpi.com/2504-2289/6/1/4) beskriver forskningen som kan göras på detta corpus av artiklar med hjälp av NER.
+Kazi hii iko karibu sana na kazi halisi unayoweza kuwa nayo ikiwa unataka kupata maarifa zaidi kutoka kwa idadi kubwa ya maandishi ya lugha asilia. Katika hali yetu, tunaweza kutumia mfano wetu uliofundishwa kwenye [seti ya data ya makala zinazohusiana na COVID](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) na kuona ni maarifa gani tutakayoweza kupata. [Chapisho hili la blogu](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) na [karatasi hii](https://www.mdpi.com/2504-2289/6/1/4) vinaelezea utafiti unaoweza kufanywa kwenye mkusanyiko huu wa makala kwa kutumia NER.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller inkonsekvenser. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår till följd av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

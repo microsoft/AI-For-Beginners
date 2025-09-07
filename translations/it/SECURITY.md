@@ -1,40 +1,49 @@
-## Seguridad
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
+  "translation_date": "2025-08-26T06:54:25+00:00",
+  "source_file": "SECURITY.md",
+  "language_code": "it"
+}
+-->
+## Sicurezza
 
-Microsoft toma muy en serio la seguridad de nuestros productos y servicios de software, lo que incluye todos los repositorios de código fuente gestionados a través de nuestras organizaciones en GitHub, que incluyen [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin) y [nuestras organizaciones de GitHub](https://opensource.microsoft.com/).
+Microsoft prende molto seriamente la sicurezza dei propri prodotti software e servizi, inclusi tutti i repository di codice sorgente gestiti attraverso le nostre organizzazioni GitHub, che includono [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin) e [le nostre organizzazioni GitHub](https://opensource.microsoft.com/).
 
-Si crees que has encontrado una vulnerabilidad de seguridad en algún repositorio de Microsoft que cumpla con [la definición de vulnerabilidad de seguridad de Microsoft](https://aka.ms/opensource/security/definition), por favor repórtala como se describe a continuación.
+Se ritieni di aver individuato una vulnerabilità di sicurezza in un repository di proprietà di Microsoft che soddisfa [la definizione di vulnerabilità di sicurezza di Microsoft](https://aka.ms/opensource/security/definition), ti preghiamo di segnalarcela come descritto di seguito.
 
-## Reportando Problemas de Seguridad
+## Segnalazione di Problemi di Sicurezza
 
-**Por favor, no reportes vulnerabilidades de seguridad a través de problemas públicos de GitHub.**
+**Non segnalare vulnerabilità di sicurezza tramite issue pubblici su GitHub.**
 
-En su lugar, repórtalas al Centro de Respuesta de Seguridad de Microsoft (MSRC) en [https://msrc.microsoft.com/create-report](https://aka.ms/opensource/security/create-report).
+Invece, segnalale al Microsoft Security Response Center (MSRC) su [https://msrc.microsoft.com/create-report](https://aka.ms/opensource/security/create-report).
 
-Si prefieres enviar tu informe sin iniciar sesión, envía un correo electrónico a [secure@microsoft.com](mailto:secure@microsoft.com). Si es posible, cifra tu mensaje con nuestra clave PGP; por favor descárgala desde la [página de Clave PGP del Centro de Respuesta de Seguridad de Microsoft](https://aka.ms/opensource/security/pgpkey).
+Se preferisci inviare la segnalazione senza effettuare l'accesso, invia un'email a [secure@microsoft.com](mailto:secure@microsoft.com). Se possibile, cifra il tuo messaggio con la nostra chiave PGP; puoi scaricarla dalla [pagina della chiave PGP del Microsoft Security Response Center](https://aka.ms/opensource/security/pgpkey).
 
-Deberías recibir una respuesta dentro de las 24 horas. Si por alguna razón no lo haces, por favor sigue el hilo por correo electrónico para asegurarte de que recibimos tu mensaje original. Puedes encontrar información adicional en [microsoft.com/msrc](https://aka.ms/opensource/security/msrc).
+Dovresti ricevere una risposta entro 24 ore. Se per qualche motivo non la ricevi, ti invitiamo a inviare un'email di follow-up per assicurarci di aver ricevuto il tuo messaggio originale. Ulteriori informazioni sono disponibili su [microsoft.com/msrc](https://aka.ms/opensource/security/msrc).
 
-Por favor incluye la información solicitada que se detalla a continuación (tanto como puedas proporcionar) para ayudarnos a comprender mejor la naturaleza y el alcance del posible problema:
+Ti preghiamo di includere le informazioni richieste elencate di seguito (per quanto possibile) per aiutarci a comprendere meglio la natura e la portata del possibile problema:
 
-  * Tipo de problema (por ejemplo, desbordamiento de búfer, inyección SQL, scripting entre sitios, etc.)
-  * Rutas completas de los archivos de origen relacionados con la manifestación del problema
-  * La ubicación del código fuente afectado (etiqueta/rama/commit o URL directa)
-  * Cualquier configuración especial requerida para reproducir el problema
-  * Instrucciones paso a paso para reproducir el problema
-  * Código de prueba de concepto o de explotación (si es posible)
-  * Impacto del problema, incluyendo cómo un atacante podría explotarlo
+  * Tipo di problema (ad esempio, buffer overflow, SQL injection, cross-site scripting, ecc.)
+  * Percorsi completi dei file sorgente relativi alla manifestazione del problema
+  * La posizione del codice sorgente interessato (tag/branch/commit o URL diretto)
+  * Qualsiasi configurazione speciale necessaria per riprodurre il problema
+  * Istruzioni dettagliate per riprodurre il problema
+  * Codice proof-of-concept o exploit (se possibile)
+  * Impatto del problema, incluso come un attaccante potrebbe sfruttarlo
 
-Esta información nos ayudará a clasificar tu informe más rápidamente.
+Queste informazioni ci aiuteranno a gestire la tua segnalazione più rapidamente.
 
-Si estás reportando para un programa de recompensas por errores, informes más completos pueden contribuir a una mayor recompensa. Por favor visita nuestra página del [Programa de Recompensas por Errores de Microsoft](https://aka.ms/opensource/security/bounty) para más detalles sobre nuestros programas activos.
+Se stai segnalando per un programma di bug bounty, rapporti più completi possono contribuire a un premio più alto. Visita la nostra pagina del [Programma di Bug Bounty di Microsoft](https://aka.ms/opensource/security/bounty) per maggiori dettagli sui nostri programmi attivi.
 
-## Idiomas Preferidos
+## Lingue Preferite
 
-Preferimos que todas las comunicaciones sean en inglés.
+Preferiamo che tutte le comunicazioni siano in inglese.
 
-## Política
+## Politica
 
-Microsoft sigue el principio de [Divulgación Coordinada de Vulnerabilidades](https://aka.ms/opensource/security/cvd).
+Microsoft segue il principio della [Divulgazione Coordinata delle Vulnerabilità](https://aka.ms/opensource/security/cvd).
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

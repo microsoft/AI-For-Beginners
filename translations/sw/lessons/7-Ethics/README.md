@@ -1,43 +1,52 @@
-# Etisk och Ansvarsfull AI
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
+  "translation_date": "2025-08-25T20:47:57+00:00",
+  "source_file": "lessons/7-Ethics/README.md",
+  "language_code": "sw"
+}
+-->
+# AI ya Kimaadili na ya Kuwajibika
 
-Du har nästan avslutat den här kursen, och jag hoppas att du nu tydligt ser att AI bygger på ett antal formella matematiska metoder som gör att vi kan hitta relationer i data och träna modeller för att återspegla vissa aspekter av mänskligt beteende. Vid denna tidpunkt i historien anser vi att AI är ett mycket kraftfullt verktyg för att extrahera mönster från data och tillämpa dessa mönster för att lösa nya problem.
+U karibu kumaliza kozi hii, na natumai kwamba kufikia sasa unaelewa wazi kuwa AI inategemea mbinu kadhaa za kihisabati rasmi ambazo hutuwezesha kupata uhusiano katika data na kufundisha mifano kuiga baadhi ya tabia za binadamu. Katika hatua hii ya historia, tunachukulia AI kama chombo chenye nguvu sana cha kutoa mifumo kutoka kwa data, na kutumia mifumo hiyo kutatua matatizo mapya.
 
-## [För-lärosessionens quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
+## [Jaribio la kabla ya somo](https://white-water-09ec41f0f.azurestaticapps.net/quiz/5/)
 
-Men i science fiction ser vi ofta berättelser där AI utgör en fara för mänskligheten. Vanligtvis handlar dessa berättelser om någon form av AI-revolt, när AI beslutar att konfrontera människor. Detta innebär att AI har någon form av känsla eller kan fatta beslut som dess utvecklare inte förutsåg.
+Hata hivyo, katika hadithi za kisayansi mara nyingi tunaona simulizi ambapo AI inahatarisha ubinadamu. Kwa kawaida, hadithi hizo huzunguka aina fulani ya uasi wa AI, ambapo AI huamua kupingana na wanadamu. Hii inaashiria kwamba AI ina aina fulani ya hisia au inaweza kufanya maamuzi yasiyotabirika na watengenezaji wake.
 
-Den typ av AI som vi har lärt oss om i den här kursen är inget mer än stor matrisaritmetik. Det är ett mycket kraftfullt verktyg för att hjälpa oss att lösa våra problem, och precis som med alla andra kraftfulla verktyg - kan det användas för både goda och dåliga syften. Viktigt att notera är att det kan *missbrukas*.
+Aina ya AI tuliyojifunza katika kozi hii si chochote zaidi ya hesabu kubwa za matriki. Ni chombo chenye nguvu sana cha kutusaidia kutatua matatizo yetu, na kama chombo kingine chochote chenye nguvu - kinaweza kutumika kwa madhumuni mazuri au mabaya. Muhimu zaidi, kinaweza kutumiwa *vibaya*.
 
-## Principer för Ansvarsfull AI
+## Kanuni za AI ya Kuwajibika
 
-För att undvika detta oavsiktliga eller avsiktliga missbruk av AI, anger Microsoft de viktiga [Principerna för Ansvarsfull AI](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste). Följande koncept ligger till grund för dessa principer:
+Ili kuepuka matumizi mabaya ya AI kwa bahati mbaya au kwa makusudi, Microsoft inasisitiza [Kanuni Muhimu za AI ya Kuwajibika](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-77998-cacaste). Dhana zifuatazo zinaunga mkono kanuni hizi:
 
-* **Rättvisa** är kopplat till det viktiga problemet med *modellpartiskhet*, som kan orsakas av att använda partisk data för träning. Till exempel, när vi försöker förutsäga sannolikheten att få ett jobb som mjukvaruutvecklare för en person, är det troligt att modellen ger högre preferens till män - bara för att träningsdatasetet sannolikt var partiskt mot en manlig publik. Vi måste noggrant balansera träningsdata och undersöka modellen för att undvika partiskhet och se till att modellen tar hänsyn till mer relevanta egenskaper.
-* **Tillförlitlighet och Säkerhet**. Av sin natur kan AI-modeller göra misstag. Ett neuralt nätverk returnerar sannolikheter, och vi måste ta hänsyn till detta när vi fattar beslut. Varje modell har viss precision och återkallande, och vi behöver förstå detta för att förhindra skador som felaktiga råd kan orsaka.
-* **Integritet och Säkerhet** har vissa AI-specifika implikationer. Till exempel, när vi använder viss data för att träna en modell, blir dessa data på något sätt "integrerade" i modellen. Å ena sidan ökar det säkerheten och integriteten, å andra sidan måste vi komma ihåg vilken data modellen tränades på.
-* **Inkludering** betyder att vi inte bygger AI för att ersätta människor, utan snarare för att komplettera människor och göra vårt arbete mer kreativt. Det är också relaterat till rättvisa, eftersom när vi arbetar med underrepresenterade samhällen, är de flesta dataset vi samlar in sannolikt partiska, och vi måste se till att dessa samhällen inkluderas och hanteras korrekt av AI.
-* **Transparens**. Detta inkluderar att se till att vi alltid är tydliga med att AI används. Dessutom, där det är möjligt, vill vi använda AI-system som är *tolkbara*.
-* **Ansvar**. När AI-modeller kommer med beslut, är det inte alltid klart vem som är ansvarig för dessa beslut. Vi måste se till att vi förstår var ansvaret för AI-beslut ligger. I de flesta fall vill vi inkludera människor i beslutsprocessen för att säkerställa att faktiska personer hålls ansvariga.
+* **Haki** inahusiana na tatizo muhimu la *upendeleo wa mfano*, ambalo linaweza kusababishwa na kutumia data yenye upendeleo kwa mafunzo. Kwa mfano, tunapojaribu kutabiri uwezekano wa mtu kupata kazi ya msanidi programu, mfano unaweza kupendelea wanaume zaidi - kwa sababu tu seti ya data ya mafunzo ilionekana kuwa na upendeleo kwa wanaume. Tunahitaji kusawazisha data ya mafunzo kwa uangalifu na kuchunguza mfano ili kuepuka upendeleo, na kuhakikisha kwamba mfano unazingatia vipengele vinavyofaa zaidi.
+* **Uaminifu na Usalama**. Kwa asili, mifano ya AI inaweza kufanya makosa. Mtandao wa neva hutoa uwezekano, na tunahitaji kuzingatia hilo tunapofanya maamuzi. Kila mfano una usahihi na kumbukumbu fulani, na tunahitaji kuelewa hilo ili kuzuia madhara yanayoweza kusababishwa na ushauri mbaya.
+* **Faragha na Usalama** vina athari maalum za AI. Kwa mfano, tunapotumia data fulani kwa mafunzo ya mfano, data hii inakuwa kwa namna fulani "imeunganishwa" kwenye mfano. Kwa upande mmoja, hilo linaongeza usalama na faragha, lakini kwa upande mwingine - tunahitaji kukumbuka data ambayo mfano ulifundishwa nayo.
+* **Ujumuishi** unamaanisha kwamba hatujengi AI ili kuchukua nafasi ya watu, bali kuimarisha watu na kufanya kazi yetu kuwa ya ubunifu zaidi. Pia inahusiana na haki, kwa sababu tunaposhughulika na jamii zisizowakilishwa vizuri, seti nyingi za data tunazokusanya zinaweza kuwa na upendeleo, na tunahitaji kuhakikisha kwamba jamii hizo zinajumuishwa na kushughulikiwa ipasavyo na AI.
+* **Uwazi**. Hii inajumuisha kuhakikisha kwamba tunakuwa wazi kila wakati kuhusu matumizi ya AI. Pia, popote inapowezekana, tunataka kutumia mifumo ya AI ambayo inaweza *kufasiriwa*.
+* **Uwajibikaji**. Wakati mifano ya AI inatoa maamuzi fulani, si mara zote wazi ni nani anayewajibika kwa maamuzi hayo. Tunahitaji kuhakikisha kwamba tunaelewa uwajibikaji wa maamuzi ya AI uko wapi. Katika hali nyingi tungependa kujumuisha wanadamu katika mchakato wa kufanya maamuzi muhimu, ili watu halisi wawajibike.
 
-## Verktyg för Ansvarsfull AI
+## Zana za AI ya Kuwajibika
 
-Microsoft har utvecklat [Ansvarsfull AI-verktygslådan](https://github.com/microsoft/responsible-ai-toolbox) som innehåller en uppsättning verktyg:
+Microsoft imeunda [Kisanduku cha Zana cha AI ya Kuwajibika](https://github.com/microsoft/responsible-ai-toolbox) ambacho kina seti ya zana:
 
-* Tolkbarhetsdashboard (InterpretML)
-* Rättvisedashboard (FairLearn)
-* Felanalysdashboard
-* Ansvarsfull AI-dashboard som inkluderar
+* Dashibodi ya Ufasiri (InterpretML)
+* Dashibodi ya Haki (FairLearn)
+* Dashibodi ya Uchambuzi wa Makosa
+* Dashibodi ya AI ya Kuwajibika inayojumuisha
 
-   - EconML - verktyg för kausal analys, som fokuserar på vad-händer-om-frågor
-   - DiCE - verktyg för motfaktisk analys som låter dig se vilka egenskaper som behöver ändras för att påverka modellens beslut
+   - EconML - chombo cha Uchambuzi wa Kisababishi, kinacholenga maswali ya "nini-ikiwa"
+   - DiCE - chombo cha Uchambuzi wa Counterfactual kinachokuwezesha kuona ni vipengele vipi vinahitaji kubadilishwa ili kuathiri uamuzi wa mfano
 
-För mer information om AI-etik, vänligen besök [denna lektion](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) i läroplanen för maskininlärning som inkluderar uppgifter.
+Kwa maelezo zaidi kuhusu Maadili ya AI, tafadhali tembelea [somo hili](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/3-fairness?WT.mc_id=academic-77998-cacaste) kwenye Mtaala wa Kujifunza Mashine unaojumuisha kazi za nyumbani.
 
-## Granskning & Självstudier
+## Mapitio na Kujisomea
 
-Ta denna [Lärväg](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) för att lära dig mer om ansvarsfull AI.
+Chukua [Njia hii ya Kujifunza](https://docs.microsoft.com/learn/modules/responsible-ai-principles/?WT.mc_id=academic-77998-cacaste) ili kujifunza zaidi kuhusu AI ya kuwajibika.
 
-## [Efter-lärosessionens quiz](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
+## [Jaribio la baada ya somo](https://white-water-09ec41f0f.azurestaticapps.net/quiz/6/)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

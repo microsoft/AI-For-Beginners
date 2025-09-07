@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-24T20:33:45+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "zh"
+}
+-->
 # 使用好莱坞头部数据集进行头部检测
 
-来自 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) 的实验作业。
+来自 [AI 初学者课程](https://github.com/microsoft/ai-for-beginners) 的实验任务。
 
 ## 任务
 
-在视频监控摄像头流中计数人数是一个重要的任务，这将使我们能够估算商店中的访客数量、餐厅的繁忙时段等。为了解决这个任务，我们需要能够从不同角度检测人头。为了训练对象检测模型以检测人头，我们可以使用 [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/)。
+通过视频监控摄像头流统计人数是一项重要任务，它可以帮助我们估算商店的访客数量、餐厅的繁忙时段等。为了解决这个任务，我们需要能够从不同角度检测人类的头部。为了训练一个能够检测人类头部的目标检测模型，我们可以使用 [好莱坞头部数据集](https://www.di.ens.fr/willow/research/headdetection/)。
 
 ## 数据集
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) 包含369,846个在好莱坞电影的224,740个电影帧中标注的人头。它以 [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) 格式提供，每张图像都有一个看起来像这样的XML描述文件：
+[好莱坞头部数据集](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) 包含了 369,846 个标注的人类头部，分布在 224,740 帧好莱坞电影画面中。数据集采用 [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC) 格式提供，每张图片都有一个对应的 XML 描述文件，格式如下：
 
 ```xml
 <annotation>
@@ -48,19 +57,19 @@
 </annotation>
 ```
 
-在这个数据集中，只有一个对象类别 `head`，对于每个头部，你可以获得边界框的坐标。你可以使用Python库解析XML，或者使用 [这个库](https://pypi.org/project/pascal-voc/) 直接处理PASCAL VOC格式。
+在这个数据集中，只有一个类别的对象 `head`，对于每个头部，都会提供其边界框的坐标。你可以使用 Python 库解析 XML，或者使用 [这个库](https://pypi.org/project/pascal-voc/) 直接处理 PASCAL VOC 格式。
 
-## 训练对象检测
+## 训练目标检测模型
 
-你可以通过以下几种方式训练对象检测模型：
+你可以通过以下方式之一来训练目标检测模型：
 
-* 使用 [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) 及其Python API以编程方式在云中训练模型。自定义视觉服务无法使用超过几百张图像来训练模型，因此你可能需要限制数据集。
-* 使用 [Keras tutorial](https://keras.io/examples/vision/retinanet/) 中的示例来训练RetinaNet模型。
-* 使用 [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) 中内置的模块。
+* 使用 [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) 及其 Python API，在云端以编程方式训练模型。Custom Vision 只能使用几百张图片进行模型训练，因此可能需要限制数据集的规模。
+* 使用 [Keras 教程](https://keras.io/examples/vision/retinanet/) 中的示例来训练 RetunaNet 模型。
+* 使用 [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) 中的内置模块进行训练。
 
 ## 收获
 
-对象检测是工业中经常需要的任务。虽然有一些服务可以用于执行对象检测（例如 [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)），但理解对象检测的工作原理并能够训练自己的模型是很重要的。
+目标检测是工业中经常需要完成的任务。虽然有一些服务可以用来执行目标检测（例如 [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)），但理解目标检测的工作原理并能够训练自己的模型是非常重要的。
 
 **免责声明**：  
-本文件使用基于机器的人工智能翻译服务进行翻译。虽然我们努力追求准确性，但请注意，自动翻译可能包含错误或不准确之处。原始文件的母语版本应视为权威来源。对于重要信息，建议进行专业人工翻译。我们对因使用此翻译而导致的任何误解或误读不承担责任。
+本文档使用AI翻译服务[Co-op Translator](https://github.com/Azure/co-op-translator)进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。原始语言的文档应被视为权威来源。对于关键信息，建议使用专业人工翻译。我们对因使用此翻译而产生的任何误解或误读不承担责任。

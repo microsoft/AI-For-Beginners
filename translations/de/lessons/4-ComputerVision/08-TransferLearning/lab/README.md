@@ -1,10 +1,19 @@
-# Klassifizierung von Oxford-Haustieren mit Transferlernen
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-24T09:37:45+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "de"
+}
+-->
+# Klassifikation von Oxford-Haustieren mit Transfer-Learning
 
 Laboraufgabe aus dem [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
 
 ## Aufgabe
 
-Stellen Sie sich vor, Sie müssen eine Anwendung für eine Tieraufzucht entwickeln, um alle Haustiere zu katalogisieren. Eine der großartigen Funktionen einer solchen Anwendung wäre die automatische Erkennung der Rasse anhand eines Fotos. In dieser Aufgabe werden wir Transferlernen nutzen, um echte Haustierbilder aus dem [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) Haustier-Datensatz zu klassifizieren.
+Stellen Sie sich vor, Sie müssen eine Anwendung für eine Tierpension entwickeln, um alle Haustiere zu katalogisieren. Eine großartige Funktion einer solchen Anwendung wäre die automatische Erkennung der Rasse anhand eines Fotos. In dieser Aufgabe werden wir Transfer-Learning verwenden, um echte Bilder von Haustieren aus dem [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) Haustier-Datensatz zu klassifizieren.
 
 ## Der Datensatz
 
@@ -18,13 +27,13 @@ Um den Datensatz herunterzuladen, verwenden Sie diesen Code-Schnipsel:
 !rm images.tar.gz
 ```
 
-## Notebook starten
+## Start des Notebooks
 
 Beginnen Sie das Labor, indem Sie [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb) öffnen.
 
-## Fazit
+## Erkenntnis
 
-Transferlernen und vortrainierte Netzwerke ermöglichen es uns, reale Bildklassifizierungsprobleme relativ einfach zu lösen. Allerdings funktionieren vortrainierte Netzwerke gut bei Bildern ähnlicher Art, und wenn wir beginnen, sehr unterschiedliche Bilder (z. B. medizinische Bilder) zu klassifizieren, werden wir wahrscheinlich viel schlechtere Ergebnisse erzielen.
+Transfer-Learning und vortrainierte Netzwerke ermöglichen es uns, reale Bildklassifikationsprobleme relativ einfach zu lösen. Allerdings funktionieren vortrainierte Netzwerke gut bei Bildern ähnlicher Art, und wenn wir anfangen, sehr unterschiedliche Bilder zu klassifizieren (z. B. medizinische Bilder), werden die Ergebnisse wahrscheinlich deutlich schlechter ausfallen.
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für wichtige Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Verantwortung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

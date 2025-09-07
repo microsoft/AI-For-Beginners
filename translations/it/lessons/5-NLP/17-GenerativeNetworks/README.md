@@ -1,79 +1,88 @@
-# Redes Generativas
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d9de7847385eeeda67cfdcce1640ab72",
+  "translation_date": "2025-08-26T06:56:42+00:00",
+  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
+  "language_code": "it"
+}
+-->
+# Reti generative
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
 
-Las Redes Neuronales Recurrentes (RNN) y sus variantes con celdas de compuerta, como las Celdas de Memoria a Largo Plazo (LSTM) y las Unidades Recurrentes con Compuerta (GRU), proporcionan un mecanismo para el modelado del lenguaje, ya que pueden aprender el orden de las palabras y ofrecer predicciones para la siguiente palabra en una secuencia. Esto nos permite utilizar RNN para **tareas generativas**, como la generación de texto ordinario, la traducción automática e incluso la creación de subtítulos para imágenes.
+Le Reti Neurali Ricorrenti (RNN) e le loro varianti con celle gated, come le celle Long Short Term Memory (LSTM) e le Gated Recurrent Units (GRU), offrono un meccanismo per il modellamento del linguaggio, poiché possono apprendere l'ordine delle parole e fornire previsioni per la parola successiva in una sequenza. Questo ci permette di utilizzare le RNN per **compiti generativi**, come la generazione di testo ordinario, la traduzione automatica e persino la descrizione di immagini.
 
-> ✅ Piensa en todas las veces que te has beneficiado de tareas generativas, como la finalización de texto mientras escribes. Investiga en tus aplicaciones favoritas para ver si han aprovechado las RNN.
+> ✅ Pensa a tutte le volte in cui hai beneficiato di compiti generativi, come il completamento del testo mentre scrivi. Fai una ricerca sulle tue applicazioni preferite per vedere se hanno utilizzato le RNN.
 
-En la arquitectura de RNN que discutimos en la unidad anterior, cada unidad RNN producía el siguiente estado oculto como salida. Sin embargo, también podemos agregar otra salida a cada unidad recurrente, lo que nos permitiría generar una **secuencia** (que tiene la misma longitud que la secuencia original). Además, podemos utilizar unidades RNN que no aceptan una entrada en cada paso, y solo toman un vector de estado inicial, para luego producir una secuencia de salidas.
+Nell'architettura RNN discussa nell'unità precedente, ogni unità RNN produceva il prossimo stato nascosto come output. Tuttavia, possiamo anche aggiungere un altro output a ogni unità ricorrente, che ci permetterebbe di generare una **sequenza** (di lunghezza uguale alla sequenza originale). Inoltre, possiamo utilizzare unità RNN che non accettano un input a ogni passo, ma prendono solo un vettore di stato iniziale e producono una sequenza di output.
 
-Esto permite diferentes arquitecturas neuronales que se muestran en la imagen a continuación:
+Questo consente diverse architetture neurali, come mostrato nell'immagine seguente:
 
-![Imagen que muestra patrones comunes de redes neuronales recurrentes.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.it.jpg)
+![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.it.jpg)
 
-> Imagen del artículo [Efectividad Irrazonable de las Redes Neuronales Recurrentes](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) de [Andrej Karpaty](http://karpathy.github.io/)
+> Immagine tratta dal post del blog [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) di [Andrej Karpaty](http://karpathy.github.io/)
 
-* **Uno a uno** es una red neuronal tradicional con una entrada y una salida.
-* **Uno a muchos** es una arquitectura generativa que acepta un valor de entrada y genera una secuencia de valores de salida. Por ejemplo, si queremos entrenar una red de **subtitulación de imágenes** que produzca una descripción textual de una imagen, podemos usar una imagen como entrada, pasarla a través de una CNN para obtener su estado oculto, y luego tener una cadena recurrente que genere el subtítulo palabra por palabra.
-* **Muchos a uno** corresponde a las arquitecturas RNN que describimos en la unidad anterior, como la clasificación de texto.
-* **Muchos a muchos**, o **secuencia a secuencia**, corresponde a tareas como la **traducción automática**, donde una primera RNN recopila toda la información de la secuencia de entrada en el estado oculto, y otra cadena RNN despliega este estado en la secuencia de salida.
+* **One-to-one** è una rete neurale tradizionale con un input e un output
+* **One-to-many** è un'architettura generativa che accetta un valore di input e genera una sequenza di valori di output. Ad esempio, se vogliamo addestrare una rete di **descrizione immagini** che produca una descrizione testuale di un'immagine, possiamo fornire un'immagine come input, passarla attraverso una CNN per ottenere il suo stato nascosto e poi utilizzare una catena ricorrente per generare la descrizione parola per parola
+* **Many-to-one** corrisponde alle architetture RNN descritte nell'unità precedente, come la classificazione del testo
+* **Many-to-many**, o **sequence-to-sequence**, corrisponde a compiti come la **traduzione automatica**, dove una prima RNN raccoglie tutte le informazioni dalla sequenza di input nel suo stato nascosto, e un'altra catena RNN espande questo stato nella sequenza di output.
 
-En esta unidad, nos enfocaremos en modelos generativos simples que nos ayuden a generar texto. Para simplificar, utilizaremos la tokenización a nivel de caracteres.
+In questa unità, ci concentreremo su modelli generativi semplici che ci aiutano a generare testo. Per semplicità, utilizzeremo la tokenizzazione a livello di carattere.
 
-Entrenaremos esta RNN para generar texto paso a paso. En cada paso, tomaremos una secuencia de caracteres de longitud `nchars` y pediremos a la red que genere el siguiente carácter de salida para cada carácter de entrada:
+Addestreremo questa RNN per generare testo passo dopo passo. A ogni passo, prenderemo una sequenza di caratteri di lunghezza `nchars` e chiederemo alla rete di generare il prossimo carattere di output per ogni carattere di input:
 
-![Imagen que muestra un ejemplo de generación de la palabra 'HELLO' por una RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.it.png)
+![Immagine che mostra un esempio di generazione RNN della parola 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.it.png)
 
-Al generar texto (durante la inferencia), comenzamos con algún **prompter**, que se pasa a través de las celdas RNN para generar su estado intermedio, y luego desde este estado comienza la generación. Generamos un carácter a la vez y pasamos el estado y el carácter generado a otra celda RNN para generar el siguiente, hasta que generemos suficientes caracteres.
+Durante la generazione del testo (in fase di inferenza), iniziamo con un **prompt**, che viene passato attraverso le celle RNN per generare il suo stato intermedio, e da questo stato inizia la generazione. Generiamo un carattere alla volta e passiamo lo stato e il carattere generato a un'altra cella RNN per generare il successivo, fino a generare un numero sufficiente di caratteri.
 
 <img src="images/rnn-generate-inf.png" width="60%"/>
 
-> Imagen del autor
+> Immagine dell'autore
 
-## ✍️ Ejercicios: Redes Generativas
+## ✍️ Esercizi: Reti generative
 
-Continúa tu aprendizaje en los siguientes cuadernos:
+Continua il tuo apprendimento nei seguenti notebook:
 
-* [Redes Generativas con PyTorch](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
-* [Redes Generativas con TensorFlow](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
+* [Reti generative con PyTorch](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb)
+* [Reti generative con TensorFlow](../../../../../lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)
 
-## Generación de texto suave y temperatura
+## Generazione di testo soft e temperatura
 
-La salida de cada celda RNN es una distribución de probabilidad de caracteres. Si siempre tomamos el carácter con la probabilidad más alta como el siguiente carácter en el texto generado, el texto a menudo puede volverse "cíclico" entre las mismas secuencias de caracteres una y otra vez, como en este ejemplo:
+L'output di ogni cella RNN è una distribuzione di probabilità dei caratteri. Se prendiamo sempre il carattere con la probabilità più alta come prossimo carattere nel testo generato, il testo può spesso diventare "ciclico", ripetendo le stesse sequenze di caratteri più e più volte, come in questo esempio:
 
 ```
 today of the second the company and a second the company ...
 ```
 
-Sin embargo, si miramos la distribución de probabilidad para el siguiente carácter, podría ser que la diferencia entre algunas de las probabilidades más altas no sea enorme, por ejemplo, un carácter puede tener una probabilidad de 0.2, otro - 0.19, etc. Por ejemplo, al buscar el siguiente carácter en la secuencia '*play*', el siguiente carácter podría ser igualmente un espacio o **e** (como en la palabra *player*).
+Tuttavia, se osserviamo la distribuzione di probabilità per il prossimo carattere, potrebbe accadere che la differenza tra alcune delle probabilità più alte non sia enorme, ad esempio un carattere può avere una probabilità di 0.2, un altro di 0.19, ecc. Ad esempio, quando cerchiamo il prossimo carattere nella sequenza '*play*', il prossimo carattere potrebbe essere ugualmente uno spazio o **e** (come nella parola *player*).
 
-Esto nos lleva a la conclusión de que no siempre es "justo" seleccionar el carácter con una probabilidad más alta, porque elegir el segundo más alto podría aún llevarnos a un texto significativo. Es más sabio **muestrear** caracteres de la distribución de probabilidad dada por la salida de la red. También podemos utilizar un parámetro, **temperatura**, que aplanará la distribución de probabilidad, en caso de que queramos añadir más aleatoriedad, o hacerla más pronunciada, si queremos ceñirnos más a los caracteres de mayor probabilidad.
+Questo ci porta alla conclusione che non è sempre "giusto" selezionare il carattere con la probabilità più alta, perché scegliere il secondo più alto potrebbe comunque portare a un testo significativo. È più saggio **campionare** i caratteri dalla distribuzione di probabilità fornita dall'output della rete. Possiamo anche utilizzare un parametro, **temperatura**, che appiattisce la distribuzione di probabilità, nel caso in cui vogliamo aggiungere più casualità, o la rende più ripida, se vogliamo attenerci maggiormente ai caratteri con probabilità più alta.
 
-Explora cómo se implementa esta generación de texto suave en los cuadernos enlazados anteriormente.
+Esplora come questa generazione di testo soft è implementata nei notebook collegati sopra.
 
-## Conclusión
+## Conclusione
 
-Aunque la generación de texto puede ser útil por sí misma, los principales beneficios provienen de la capacidad de generar texto utilizando RNN a partir de algún vector de características inicial. Por ejemplo, la generación de texto se utiliza como parte de la traducción automática (secuencia a secuencia, en este caso el vector de estado del *encoder* se utiliza para generar o *decodificar* el mensaje traducido), o para generar una descripción textual de una imagen (en cuyo caso el vector de características provendría de un extractor CNN).
+Sebbene la generazione di testo possa essere utile di per sé, i principali vantaggi derivano dalla capacità di generare testo utilizzando le RNN a partire da un vettore di caratteristiche iniziale. Ad esempio, la generazione di testo viene utilizzata come parte della traduzione automatica (sequence-to-sequence, in questo caso il vettore di stato dell'*encoder* viene utilizzato per generare o *decodificare* il messaggio tradotto), o per generare una descrizione testuale di un'immagine (in questo caso il vettore di caratteristiche proviene dall'estrattore CNN).
 
-## 🚀 Desafío
+## 🚀 Sfida
 
-Toma algunas lecciones en Microsoft Learn sobre este tema.
+Segui alcune lezioni su Microsoft Learn su questo argomento
 
-* Generación de Texto con [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
+* Generazione di testo con [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
 
-## Revisión y Autoestudio
+## Revisione e studio autonomo
 
-Aquí hay algunos artículos para ampliar tus conocimientos:
+Ecco alcuni articoli per ampliare le tue conoscenze
 
-* Diferentes enfoques para la generación de texto con Cadenas de Markov, LSTM y GPT-2: [artículo del blog](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
-* Ejemplo de generación de texto en la [documentación de Keras](https://keras.io/examples/generative/lstm_character_level_text_generation/)
+* Approcci diversi alla generazione di testo con Catena di Markov, LSTM e GPT-2: [post del blog](https://towardsdatascience.com/text-generation-gpt-2-lstm-markov-chain-9ea371820e1e)
+* Esempio di generazione di testo nella [documentazione Keras](https://keras.io/examples/generative/lstm_character_level_text_generation/)
 
-## [Asignación](lab/README.md)
+## [Compito](lab/README.md)
 
-Hemos visto cómo generar texto carácter por carácter. En el laboratorio, explorarás la generación de texto a nivel de palabras.
+Abbiamo visto come generare testo carattere per carattere. Nel laboratorio, esplorerai la generazione di testo a livello di parola.
 
 **Disclaimer**:  
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

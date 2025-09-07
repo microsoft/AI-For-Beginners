@@ -1,14 +1,23 @@
-# Detecção de Cabeças usando o Conjunto de Dados Hollywood Heads
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+  "translation_date": "2025-08-24T08:59:30+00:00",
+  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+  "language_code": "pt"
+}
+-->
+# Deteção de Cabeças usando o Hollywood Heads Dataset
 
-Tarefa do [Currículo AI para Iniciantes](https://github.com/microsoft/ai-for-beginners).
+Trabalho prático do [Currículo de IA para Iniciantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarefa
 
-Contar o número de pessoas em uma transmissão de câmera de vigilância é uma tarefa importante que nos permitirá estimar o número de visitantes em lojas, horários de pico em restaurantes, etc. Para resolver essa tarefa, precisamos ser capazes de detectar cabeças humanas de diferentes ângulos. Para treinar um modelo de detecção de objetos para detectar cabeças humanas, podemos usar o [Conjunto de Dados Hollywood Heads](https://www.di.ens.fr/willow/research/headdetection/).
+Contar o número de pessoas num fluxo de vídeo de uma câmara de vigilância é uma tarefa importante que nos permite estimar o número de visitantes em lojas, as horas de maior movimento num restaurante, etc. Para resolver esta tarefa, precisamos de ser capazes de detetar cabeças humanas a partir de diferentes ângulos. Para treinar um modelo de deteção de objetos para identificar cabeças humanas, podemos usar o [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/).
 
 ## O Conjunto de Dados
 
-O [Conjunto de Dados Hollywood Heads](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) contém 369.846 cabeças humanas anotadas em 224.740 quadros de filmes de Hollywood. Ele é fornecido no formato [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC), onde para cada imagem também há um arquivo de descrição XML que se parece com isto:
+O [Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) contém 369.846 cabeças humanas anotadas em 224.740 frames de filmes de Hollywood. É fornecido no formato [https://host.robots.ox.ac.uk/pascal/VOC/](../../../../../../lessons/4-ComputerVision/11-ObjectDetection/lab/PASCAL VOC), onde para cada imagem existe também um ficheiro de descrição XML que se parece com isto:
 
 ```xml
 <annotation>
@@ -48,19 +57,19 @@ O [Conjunto de Dados Hollywood Heads](https://www.di.ens.fr/willow/research/head
 </annotation>
 ```
 
-Neste conjunto de dados, há apenas uma classe de objetos `head`, e para cada cabeça, você obtém as coordenadas da caixa delimitadora. Você pode analisar XML usando bibliotecas Python ou usar [esta biblioteca](https://pypi.org/project/pascal-voc/) para lidar diretamente com o formato PASCAL VOC.
+Neste conjunto de dados, existe apenas uma classe de objetos, `head`, e para cada cabeça, obtém-se as coordenadas da caixa delimitadora. Pode-se analisar os ficheiros XML usando bibliotecas Python ou usar [esta biblioteca](https://pypi.org/project/pascal-voc/) para lidar diretamente com o formato PASCAL VOC.
 
-## Treinamento de Detecção de Objetos
+## Treinar a Deteção de Objetos
 
-Você pode treinar um modelo de detecção de objetos usando uma das seguintes maneiras:
+Pode treinar um modelo de deteção de objetos utilizando uma das seguintes abordagens:
 
-* Usando [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) e sua API Python para treinar programaticamente o modelo na nuvem. A visão personalizada não conseguirá usar mais do que algumas centenas de imagens para treinar o modelo, então você pode precisar limitar o conjunto de dados.
-* Usando o exemplo do [tutorial Keras](https://keras.io/examples/vision/retinanet/) para treinar o modelo RetunaNet.
-* Usando o módulo embutido [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) na torchvision.
+* Usar o [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) e a sua API Python para treinar programaticamente o modelo na cloud. O Custom Vision não consegue usar mais do que algumas centenas de imagens para treinar o modelo, por isso pode ser necessário limitar o conjunto de dados.
+* Usar o exemplo do [tutorial do Keras](https://keras.io/examples/vision/retinanet/) para treinar o modelo RetunaNet.
+* Usar o módulo integrado [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) no torchvision.
 
 ## Conclusão
 
-A detecção de objetos é uma tarefa frequentemente requerida na indústria. Embora existam alguns serviços que podem ser usados para realizar a detecção de objetos (como [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), é importante entender como a detecção de objetos funciona e ser capaz de treinar seus próprios modelos.
+A deteção de objetos é uma tarefa frequentemente necessária na indústria. Embora existam alguns serviços que podem ser usados para realizar a deteção de objetos (como o [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste)), é importante compreender como funciona a deteção de objetos e ser capaz de treinar os seus próprios modelos.
 
-**Isenção de responsabilidade**:  
-Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos pela precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em sua língua nativa deve ser considerado a fonte autorizada. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações errôneas decorrentes do uso desta tradução.
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, tenha em atenção que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes da utilização desta tradução.

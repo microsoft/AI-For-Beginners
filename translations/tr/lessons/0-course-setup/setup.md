@@ -1,45 +1,54 @@
-# Bu Müfredatla Başlarken
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "c4c545eb30765a49469ced84cfb4379f",
+  "translation_date": "2025-08-26T07:40:15+00:00",
+  "source_file": "lessons/0-course-setup/setup.md",
+  "language_code": "tr"
+}
+-->
+# Bu Müfredata Başlarken
 
-## Sen bir öğrenci misin?
+## Öğrenci misiniz?
 
-Aşağıdaki kaynaklarla başlayabilirsin:
+Aşağıdaki kaynaklarla başlayabilirsiniz:
 
-* [Öğrenci Hub sayfası](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) Bu sayfada, başlangıç kaynakları, Öğrenci paketleri ve hatta ücretsiz sertifika kuponu alma yolları bulacaksınız. Bu sayfayı yer imlerinize eklemeyi ve zaman zaman kontrol etmeyi unutmayın; içerikleri en az ayda bir güncelliyoruz.
-* [Microsoft Öğrenci Öğrenme elçileri](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Küresel bir öğrenci elçileri topluluğuna katılın; bu, Microsoft’a giriş yapmanın bir yolu olabilir.
+* [Öğrenci Merkezi sayfası](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77998-cacaste) Bu sayfada başlangıç kaynakları, Öğrenci paketleri ve hatta ücretsiz sertifika kuponu alma yollarını bulabilirsiniz. Bu sayfayı sık kullanılanlara ekleyip zaman zaman kontrol etmek isteyebilirsiniz, çünkü içeriği en az ayda bir değiştiriyoruz.
+* [Microsoft Öğrenci Elçileri](https://studentambassadors.microsoft.com?WT.mc_id=academic-77998-cacaste) Küresel bir öğrenci elçileri topluluğuna katılın, bu sizin Microsoft'a açılan kapınız olabilir.
 
-**Öğrenciler**, müfredatı kullanmanın birkaç yolu var. Öncelikle, metni okuyabilir ve kodu doğrudan GitHub'da inceleyebilirsiniz. Eğer herhangi bir not defterinde kodu çalıştırmak isterseniz - [talimatlarımızı okuyun](./etc/how-to-run.md), ve bunu nasıl yapacağınız hakkında daha fazla tavsiye için [bu blog yazısına](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) göz atın.
+**Öğrenciler**, müfredatı kullanmanın birkaç yolu var. İlk olarak, metni okuyabilir ve kodu doğrudan GitHub'da inceleyebilirsiniz. Not defterlerindeki kodu çalıştırmak isterseniz - [talimatlarımızı okuyun](./etc/how-to-run.md) ve bunu nasıl yapacağınızla ilgili daha fazla tavsiyeyi [bu blog yazısında](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) bulabilirsiniz.
 
-> **Not**: [Bu müfredattaki kodu nasıl çalıştıracağınız hakkında talimatlar](/how-to-run.md)
+> **Not**: [Bu müfredattaki kodu nasıl çalıştıracağınızla ilgili talimatlar](./how-to-run.md)
 
 ## Kendi Kendine Çalışma
 
-Ancak, dersi kendi kendine çalışma projesi olarak almak isterseniz, tüm depoyu kendi GitHub hesabınıza fork etmenizi ve alıştırmaları kendi başınıza veya bir grupla tamamlamanızı öneririz:
+Ancak, bu dersi kendi kendine çalışma projesi olarak almak isterseniz, tüm depoyu kendi GitHub hesabınıza çatallayıp alıştırmaları kendi başınıza veya bir grupla tamamlamanızı öneririz:
 
-* Öncelikle bir ön ders sınavı ile başlayın.
-* Dersi tanıtan metni okuyun.
-* Eğer dersin ek not defterleri varsa, bunları gözden geçirin, kodu okuyun ve çalıştırın. Hem TensorFlow hem de PyTorch not defterleri sağlanıyorsa, birine odaklanabilirsiniz - favori çerçevenizi seçin.
-* Not defterleri genellikle kodu biraz değiştirmenizi gerektiren bazı zorluklar içerir.
-* Ders sonrası sınavı alın.
+* Ders öncesi bir testle başlayın.
+* Dersin giriş metnini okuyun.
+* Eğer dersin ek not defterleri varsa, bunları okuyup kodu çalıştırarak inceleyin. Hem TensorFlow hem de PyTorch not defterleri sağlanmışsa, favori çerçevenizi seçip ona odaklanabilirsiniz.
+* Not defterleri genellikle kodu biraz değiştirerek denemeler yapmanızı gerektiren bazı zorluklar içerir.
+* Ders sonrası testi yapın.
 * Modüle bağlı bir laboratuvar varsa - ödevi tamamlayın.
-* "Sesli öğrenmek" için [Tartışma panosunu](https://github.com/microsoft/AI-For-Beginners/discussions) ziyaret edin.
+* [Tartışma panosunu](https://github.com/microsoft/AI-For-Beginners/discussions) ziyaret ederek "yüksek sesle öğrenin".
 
 > Daha fazla çalışma için, bu [Microsoft Learn](https://docs.microsoft.com/en-us/users/dmitrysoshnikov-9132/collections/31zgizg2p418yo/?WT.mc_id=academic-77998-cacaste) modüllerini ve öğrenme yollarını takip etmenizi öneririz.
 
-**Eğitmenler**, bu müfredatı nasıl kullanacağınıza dair [bazı öneriler ekledik](/for-teachers.md).
+**Eğitmenler**, bu müfredatı nasıl kullanacağınızla ilgili [bazı öneriler ekledik](/for-teachers.md).
 
 ---
 
 ## Pedagoji
 
-Bu müfredatı oluştururken iki pedagojik ilke seçtik: uygulamalı **proje bazlı** olması ve **sık sık sınavlar** içermesi.
+Bu müfredatı oluştururken iki pedagojik ilkeye bağlı kaldık: içeriğin **proje tabanlı** ve **sık sık testler içeren** bir yapıda olmasını sağlamak.
 
-İçeriğin projelerle uyumlu olmasını sağlamak, öğrenciler için süreci daha ilgi çekici hale getirir ve kavramların kalıcılığını artırır. Ayrıca, bir dersten önce yapılan düşük riskli bir sınav, öğrencinin bir konuyu öğrenme niyetini belirlerken, dersten sonraki ikinci sınav daha fazla kalıcılığı sağlar. Bu müfredat esnek ve eğlenceli olacak şekilde tasarlandı ve bütün veya kısmen alınabilir. Projeler küçük başlar ve 12 haftalık döngünün sonunda giderek daha karmaşık hale gelir.
+İçeriğin projelerle uyumlu olmasını sağlayarak, süreç öğrenciler için daha ilgi çekici hale gelir ve kavramların kalıcılığı artırılır. Ayrıca, ders öncesi düşük riskli bir test, öğrencinin bir konuyu öğrenmeye yönelik niyetini belirlerken, ders sonrası yapılan ikinci bir test daha fazla kalıcılığı sağlar. Bu müfredat esnek ve eğlenceli olacak şekilde tasarlandı ve tamamen veya kısmen alınabilir. Projeler küçük başlar ve 12 haftalık döngünün sonunda giderek daha karmaşık hale gelir.
 
-> **Sınavlar hakkında bir not**: Tüm sınavlar [bu uygulamada](https://red-field-0a6ddfd03.1.azurestaticapps.net/) yer almaktadır; toplamda üç sorudan oluşan 50 sınav bulunmaktadır. Sınavlar dersler içinde bağlantılıdır, ancak sınav uygulaması yerel olarak çalıştırılabilir; `etc/quiz-app` klasöründeki talimatları izleyin.
+> **Testler hakkında bir not**: Tüm testler [bu uygulamada](https://red-field-0a6ddfd03.1.azurestaticapps.net/) yer alır, toplamda üçer sorudan oluşan 50 test vardır. Derslerin içinden bağlantılıdır, ancak test uygulaması yerel olarak çalıştırılabilir; `etc/quiz-app` klasöründeki talimatları izleyin.
 
-## Çevrimdışı Erişim
+## Çevrimdışı erişim
 
-Bu belgeleri çevrimdışı olarak [Docsify](https://docsify.js.org/#/) kullanarak çalıştırabilirsiniz. Bu depoyu fork edin, yerel makinenize [Docsify'i yükleyin](https://docsify.js.org/#/quickstart), ve ardından bu deponun `etc/docsify` klasöründe `docsify serve` yazın. Web sitesi localhost üzerinde 3000 numaralı portta sunulacaktır: `localhost:3000`. Müfredatın pdf'si [bu bağlantıda](../../../../../../etc/pdf/readme.pdf) mevcuttur.
+Bu dokümantasyonu [Docsify](https://docsify.js.org/#/) kullanarak çevrimdışı çalıştırabilirsiniz. Bu depoyu çatallayın, [Docsify'i yükleyin](https://docsify.js.org/#/quickstart) yerel makinenize kurun ve ardından bu deponun kök klasöründe `docsify serve` yazın. Web sitesi localhost'unuzda 3000 portunda sunulacaktır: `localhost:3000`. Müfredatın bir PDF'sine [bu bağlantıdan](../../../../../../../../../etc/pdf/readme.pdf) ulaşabilirsiniz.
 
-**Sorumluluk Reddi**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa özen göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucu ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

@@ -1,38 +1,47 @@
-# Multi-Agent-Systeme
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "1ddf651d7681b4449f9d09ea3b17911e",
+  "translation_date": "2025-08-24T09:38:09+00:00",
+  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
+  "language_code": "de"
+}
+-->
+# Multi-Agenten-Systeme
 
-Eine der möglichen Wege, Intelligenz zu erreichen, ist der sogenannte **emergente** (oder **synergetische**) Ansatz, der darauf basiert, dass das kombinierte Verhalten vieler relativ einfacher Agenten zu einem insgesamt komplexeren (oder intelligenten) Verhalten des Systems als Ganzes führen kann. Theoretisch beruht dies auf den Prinzipien der [kollektiven Intelligenz](https://de.wikipedia.org/wiki/Kollektive_Intelligenz), [Emergentismus](https://de.wikipedia.org/wiki/Emergentismus) und [evolutionären Kybernetik](https://de.wikipedia.org/wiki/Evolution%C3%A4re_Kybernetik), die besagen, dass höherstufige Systeme einen gewissen Mehrwert gewinnen, wenn sie richtig aus niederstufigen Systemen kombiniert werden (sogenanntes *Prinzip des Metasystemübergangs*).
+Eine der möglichen Methoden, Intelligenz zu erreichen, ist der sogenannte **emergente** (oder **synergetische**) Ansatz, der auf der Tatsache basiert, dass das kombinierte Verhalten vieler relativ einfacher Agenten zu einem insgesamt komplexeren (oder intelligenteren) Verhalten des Systems als Ganzes führen kann. Theoretisch basiert dies auf den Prinzipien der [kollektiven Intelligenz](https://en.wikipedia.org/wiki/Collective_intelligence), des [Emergentismus](https://en.wikipedia.org/wiki/Global_brain) und der [evolutionären Kybernetik](https://en.wikipedia.org/wiki/Global_brain), die besagen, dass höherstufige Systeme einen Mehrwert erhalten, wenn sie richtig aus niedrigeren Systemen kombiniert werden (das sogenannte *Prinzip des Übergangs zu Metasystemen*).
 
-## [Vorlesungsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
 
-Der Bereich der **Multi-Agent-Systeme** hat sich in den 1990er Jahren als Reaktion auf das Wachstum des Internets und verteilter Systeme in der KI entwickelt. Eines der klassischen KI-Lehrbücher, [Künstliche Intelligenz: Ein moderner Ansatz](https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz:_Ein_moderner_Ansatz), konzentriert sich auf die Sichtweise der klassischen KI aus der Perspektive von Multi-Agent-Systemen.
+Die Richtung der **Multi-Agenten-Systeme** entstand in den 1990er Jahren in der KI als Reaktion auf das Wachstum des Internets und verteilter Systeme. Eines der klassischen Lehrbücher der KI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), betrachtet die klassische KI aus der Perspektive von Multi-Agenten-Systemen.
 
-Zentral für den Multi-Agenten-Ansatz ist der Begriff des **Agenten** - eine Entität, die in einer bestimmten **Umgebung** lebt, die sie wahrnehmen und beeinflussen kann. Dies ist eine sehr breite Definition, und es könnte viele verschiedene Arten und Klassifikationen von Agenten geben:
+Im Mittelpunkt des Multi-Agenten-Ansatzes steht der Begriff des **Agenten** – eine Entität, die in einer **Umgebung** lebt, die sie wahrnehmen und auf die sie einwirken kann. Dies ist eine sehr breite Definition, und es gibt viele verschiedene Typen und Klassifikationen von Agenten:
 
-* Nach ihrer Fähigkeit zu schlussfolgern:
-   - **Reaktive** Agenten haben in der Regel ein einfaches Anfrage-Antwort-Verhalten
-   - **Deliberative** Agenten verwenden eine Art logisches Denken und/oder Planungsfähigkeiten
+* Nach ihrer Fähigkeit zu denken:
+   - **Reaktive** Agenten haben normalerweise ein einfaches Anfrage-Antwort-Verhalten.
+   - **Deliberative** Agenten nutzen eine Art logisches Denken und/oder Planungsfähigkeiten.
 * Nach dem Ort, an dem der Agent seinen Code ausführt:
-   - **Statische** Agenten arbeiten auf einem dedizierten Netzwerk-Knoten
-   - **Mobile** Agenten können ihren Code zwischen Netzwerk-Knoten bewegen
+   - **Statische** Agenten arbeiten auf einem dedizierten Netzwerkknoten.
+   - **Mobile** Agenten können ihren Code zwischen Netzwerkknoten verschieben.
 * Nach ihrem Verhalten:
-   - **Passive Agenten** haben keine spezifischen Ziele. Solche Agenten können auf externe Reize reagieren, initiieren jedoch selbst keine Aktionen.
-   - **Aktive Agenten** verfolgen bestimmte Ziele
-   - **Kognitive Agenten** beinhalten komplexe Planung und Schlussfolgerungen
+   - **Passive Agenten** haben keine spezifischen Ziele. Solche Agenten können auf externe Reize reagieren, initiieren jedoch keine eigenen Aktionen.
+   - **Aktive Agenten** verfolgen bestimmte Ziele.
+   - **Kognitive Agenten** beinhalten komplexe Planung und Denken.
 
-Multi-Agent-Systeme werden heutzutage in einer Vielzahl von Anwendungen eingesetzt:
+Multi-Agenten-Systeme werden heutzutage in einer Reihe von Anwendungen eingesetzt:
 
-* In Spielen verwenden viele Nicht-Spieler-Charaktere eine Art von KI und können als intelligente Agenten betrachtet werden.
-* In der Videoproduktion wird das Rendern komplexer 3D-Szenen, die Menschenmengen beinhalten, typischerweise durch Multi-Agenten-Simulationen durchgeführt.
-* In der Systemmodellierung wird der Multi-Agenten-Ansatz verwendet, um das Verhalten eines komplexen Modells zu simulieren. Zum Beispiel wurde der Multi-Agenten-Ansatz erfolgreich genutzt, um die Ausbreitung der COVID-19-Krankheit weltweit vorherzusagen. Ein ähnlicher Ansatz kann verwendet werden, um den Verkehr in der Stadt zu modellieren und zu sehen, wie er auf Änderungen der Verkehrsregeln reagiert.
-* In komplexen Automatisierungssystemen kann jedes Gerät als unabhängiger Agent fungieren, was das gesamte System weniger monolithisch und robuster macht.
+* In Spielen nutzen viele Nicht-Spieler-Charaktere eine Art KI und können als intelligente Agenten betrachtet werden.
+* In der Videoproduktion wird das Rendern komplexer 3D-Szenen, die Menschenmengen beinhalten, typischerweise mithilfe von Multi-Agenten-Simulationen durchgeführt.
+* In der Systemmodellierung wird der Multi-Agenten-Ansatz verwendet, um das Verhalten eines komplexen Modells zu simulieren. Beispielsweise wurde der Multi-Agenten-Ansatz erfolgreich eingesetzt, um die weltweite Ausbreitung der COVID-19-Krankheit vorherzusagen. Ein ähnlicher Ansatz kann verwendet werden, um den Verkehr in einer Stadt zu modellieren und zu sehen, wie er auf Änderungen der Verkehrsregeln reagiert.
+* In komplexen Automatisierungssystemen kann jedes Gerät als unabhängiger Agent agieren, wodurch das gesamte System weniger monolithisch und robuster wird.
 
-Wir werden nicht viel Zeit damit verbringen, tief in Multi-Agent-Systeme einzutauchen, sondern ein Beispiel für **Multi-Agenten-Modellierung** betrachten.
+Wir werden nicht viel Zeit damit verbringen, tief in Multi-Agenten-Systeme einzutauchen, sondern ein Beispiel für **Multi-Agenten-Modellierung** betrachten.
 
 ## NetLogo
 
-[NetLogo](https://ccl.northwestern.edu/netlogo/) ist eine Multi-Agenten-Modellierungsumgebung, die auf einer modifizierten Version der [Logo](https://de.wikipedia.org/wiki/Logo_(Programmiersprache))-Programmiersprache basiert. Diese Sprache wurde entwickelt, um Programmierkonzepte Kindern beizubringen, und ermöglicht es Ihnen, einen Agenten namens **Schildkröte** zu steuern, der sich bewegen und dabei eine Spur hinterlassen kann. Dies ermöglicht die Erstellung komplexer geometrischer Figuren, was eine sehr visuelle Art ist, das Verhalten eines Agenten zu verstehen.
+[NetLogo](https://ccl.northwestern.edu/netlogo/) ist eine Multi-Agenten-Modellierungsumgebung, die auf einer modifizierten Version der [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language))-Programmiersprache basiert. Diese Sprache wurde entwickelt, um Kindern Programmierkonzepte beizubringen, und ermöglicht es, einen Agenten namens **Turtle** zu steuern, der sich bewegen und dabei eine Spur hinterlassen kann. Dies ermöglicht die Erstellung komplexer geometrischer Figuren, was eine sehr visuelle Möglichkeit ist, das Verhalten eines Agenten zu verstehen.
 
-In NetLogo können wir viele Schildkröten erstellen, indem wir den `create-turtles`-Befehl verwenden. Wir können dann alle Schildkröten anweisen, einige Aktionen auszuführen (im folgenden Beispiel - 10 Punkte nach vorne):
+In NetLogo können wir viele Turtles mit dem Befehl `create-turtles` erstellen. Anschließend können wir alle Turtles anweisen, bestimmte Aktionen auszuführen (im folgenden Beispiel - 10 Punkte vorwärts bewegen):
 
 ```
 create-turtles 10
@@ -41,39 +50,39 @@ ask turtles [
 ]
 ```
 
-Natürlich ist es nicht interessant, wenn alle Schildkröten dasselbe tun, also können wir `ask` groups of turtles, eg. those who are in the vicinity of a certain point. We can also create turtles of different *breeds* using `breed [cats cat]` command. Here `cat` ist der Name einer Rasse, und wir müssen sowohl das Singular- als auch das Pluralwort angeben, da verschiedene Befehle unterschiedliche Formen zur Klarheit verwenden.
+Natürlich ist es nicht interessant, wenn alle Turtles dasselbe tun, daher können wir Gruppen von Turtles mit `ask` ansprechen, z. B. diejenigen, die sich in der Nähe eines bestimmten Punktes befinden. Wir können auch Turtles verschiedener *Rassen* mit dem Befehl `breed [cats cat]` erstellen. Hier ist `cat` der Name einer Rasse, und wir müssen sowohl das Singular- als auch das Pluralwort angeben, da verschiedene Befehle unterschiedliche Formen für Klarheit verwenden.
 
-> ✅ Wir werden nicht in die Sprache NetLogo selbst eintauchen - Sie können die brillante [Interaktive NetLogo-Wörterbuch für Anfänger](https://ccl.northwestern.edu/netlogo/bind/) Ressource besuchen, wenn Sie mehr lernen möchten.
+> ✅ Wir werden nicht in die NetLogo-Sprache selbst eintauchen – Sie können die großartige Ressource [Beginner's Interactive NetLogo Dictionary](https://ccl.northwestern.edu/netlogo/bind/) besuchen, wenn Sie mehr lernen möchten.
 
 Sie können [NetLogo herunterladen](https://ccl.northwestern.edu/netlogo/download.shtml) und installieren, um es auszuprobieren.
 
-### Modelle-Bibliothek
+### Modellbibliothek
 
-Eine großartige Sache an NetLogo ist, dass es eine Bibliothek von funktionierenden Modellen enthält, die Sie ausprobieren können. Gehen Sie zu **Datei → Modelle-Bibliothek**, und Sie haben viele Kategorien von Modellen zur Auswahl.
+Ein großartiges Merkmal von NetLogo ist, dass es eine Bibliothek mit funktionierenden Modellen enthält, die Sie ausprobieren können. Gehen Sie zu **Datei → Modellbibliothek**, und Sie haben viele Kategorien von Modellen zur Auswahl.
 
-<img alt="NetLogo Modelle-Bibliothek" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
 
-> Ein Screenshot der Modelle-Bibliothek von Dmitry Soshnikov
+> Ein Screenshot der Modellbibliothek von Dmitry Soshnikov
 
-Sie können eines der Modelle öffnen, zum Beispiel **Biologie → Vogelschwarm**.
+Sie können eines der Modelle öffnen, zum Beispiel **Biologie → Flocking**.
 
 ### Hauptprinzipien
 
-Nach dem Öffnen des Modells gelangen Sie zum Hauptbildschirm von NetLogo. Hier ist ein Beispielmodell, das die Population von Wölfen und Schafen beschreibt, bei begrenzten Ressourcen (Gras).
+Nach dem Öffnen des Modells gelangen Sie zum Hauptbildschirm von NetLogo. Hier ist ein Beispielmodell, das die Population von Wölfen und Schafen beschreibt, basierend auf begrenzten Ressourcen (Gras).
 
-![NetLogo Hauptbildschirm](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.de.png)
+![NetLogo Main Screen](../../../../../lessons/6-Other/23-MultiagentSystems/images/NetLogo-Main.png)
 
 > Screenshot von Dmitry Soshnikov
 
 Auf diesem Bildschirm sehen Sie:
 
-* Den Abschnitt **Schnittstelle**, der enthält:
-  - Das Hauptfeld, in dem alle Agenten leben
-  - Verschiedene Steuerungen: Tasten, Schieberegler usw.
-  - Grafiken, die Sie verwenden können, um Parameter der Simulation anzuzeigen
-* Den **Code**-Tab, der den Editor enthält, in dem Sie NetLogo-Programme eingeben können
+* Den **Interface**-Bereich, der Folgendes enthält:
+  - Das Hauptfeld, auf dem alle Agenten leben
+  - Verschiedene Steuerungen: Schaltflächen, Schieberegler usw.
+  - Diagramme, die Sie verwenden können, um Parameter der Simulation anzuzeigen
+* Den **Code**-Tab, der den Editor enthält, in dem Sie NetLogo-Programme schreiben können
 
-In den meisten Fällen hätte die Schnittstelle eine **Setup**-Taste, die den Simulationszustand initialisiert, und eine **Go**-Taste, die die Ausführung startet. Diese werden von den entsprechenden Handlern im Code behandelt, die so aussehen:
+In den meisten Fällen enthält die Benutzeroberfläche eine **Setup**-Schaltfläche, die den Simulationszustand initialisiert, und eine **Go**-Schaltfläche, die die Ausführung startet. Diese werden von entsprechenden Handlern im Code gesteuert, die wie folgt aussehen:
 
 ```
 to go [
@@ -83,72 +92,73 @@ to go [
 
 Die Welt von NetLogo besteht aus den folgenden Objekten:
 
-* **Agenten** (Schildkröten), die sich über das Feld bewegen und etwas tun können. Sie befehlen Agenten mit `ask turtles [...]` syntax, and the code in brackets is executed by all agents in *turtle mode*.
-* **Patches** are square areas of the field, on which agents live. You can refer to all agents on the same patch, or you can change patch colors and some other properties. You can also `ask patches`, um etwas zu tun.
-* **Beobachter** ist ein einzigartiger Agent, der die Welt kontrolliert. Alle Button-Handler werden im *Beobachtungsmodus* ausgeführt.
+* **Agenten** (Turtles), die sich über das Feld bewegen und etwas tun können. Sie steuern Agenten mit der Syntax `ask turtles [...]`, und der Code in den Klammern wird von allen Agenten im *Turtle-Modus* ausgeführt.
+* **Patches** sind quadratische Bereiche des Feldes, auf denen Agenten leben. Sie können auf alle Agenten auf demselben Patch verweisen oder die Farben und einige andere Eigenschaften des Patches ändern. Sie können auch `ask patches` verwenden, um etwas zu tun.
+* **Observer** ist ein einzigartiger Agent, der die Welt kontrolliert. Alle Button-Handler werden im *Observer-Modus* ausgeführt.
 
-> ✅ Die Schönheit einer Multi-Agenten-Umgebung besteht darin, dass der Code, der im Schildkrötenmodus oder im Patchmodus ausgeführt wird, gleichzeitig von allen Agenten parallel ausgeführt wird. Durch das Schreiben eines kleinen Codes und das Programmieren des Verhaltens des einzelnen Agenten können Sie komplexes Verhalten des Simulationssystems als Ganzes erzeugen.
+> ✅ Die Schönheit einer Multi-Agenten-Umgebung liegt darin, dass der Code, der im Turtle-Modus oder im Patch-Modus ausgeführt wird, gleichzeitig von allen Agenten parallel ausgeführt wird. Indem Sie also wenig Code schreiben und das Verhalten eines einzelnen Agenten programmieren, können Sie ein komplexes Verhalten des gesamten Simulationssystems erzeugen.
 
-### Vogelschwarm
+### Flocking
 
-Als Beispiel für multi-agenten Verhalten betrachten wir **[Vogelschwarm](https://de.wikipedia.org/wiki/Vogelschwarm_(Verhalten))**. Vogelschwarm ist ein komplexes Muster, das dem ähnelt, wie Vogelschwärme fliegen. Wenn man ihnen beim Fliegen zusieht, könnte man denken, dass sie einem kollektiven Algorithmus folgen oder dass sie eine Form von *kollektiver Intelligenz* besitzen. Dieses komplexe Verhalten entsteht jedoch, wenn jeder einzelne Agent (in diesem Fall ein *Vogel*) nur einige andere Agenten in kurzer Distanz von sich beobachtet und drei einfache Regeln befolgt:
+Als Beispiel für Multi-Agenten-Verhalten betrachten wir **[Flocking](https://en.wikipedia.org/wiki/Flocking_(behavior))**. Flocking ist ein komplexes Muster, das dem Flug von Vogelschwärmen sehr ähnlich ist. Wenn man sie fliegen sieht, könnte man denken, dass sie einer Art kollektivem Algorithmus folgen oder eine Form von *kollektiver Intelligenz* besitzen. Dieses komplexe Verhalten entsteht jedoch, wenn jeder einzelne Agent (in diesem Fall ein *Vogel*) nur einige andere Agenten in kurzer Entfernung beobachtet und drei einfache Regeln befolgt:
 
-* **Ausrichtung** - er steuert in Richtung des durchschnittlichen Kurs der benachbarten Agenten
-* **Kohäsion** - er versucht, in Richtung der durchschnittlichen Position der Nachbarn zu steuern (*langfristige Anziehung*)
-* **Trennung** - wenn er zu nah an anderen Vögeln ist, versucht er, sich zu entfernen (*kurzfristige Abstoßung*)
+* **Ausrichtung** – es steuert in Richtung der durchschnittlichen Flugrichtung benachbarter Agenten.
+* **Kohäsion** – es versucht, sich in Richtung der durchschnittlichen Position der Nachbarn zu bewegen (*langreichweite Anziehung*).
+* **Trennung** – wenn es anderen Vögeln zu nahe kommt, versucht es, sich zu entfernen (*kurzreichweite Abstoßung*).
 
-Sie können das Vogelschwarm-Beispiel ausführen und das Verhalten beobachten. Sie können auch Parameter anpassen, wie den *Grad der Trennung* oder den *Sichtbereich*, der definiert, wie weit jeder Vogel sehen kann. Beachten Sie, dass, wenn Sie den Sichtbereich auf 0 reduzieren, alle Vögel blind werden und der Vogelschwarm stoppt. Wenn Sie die Trennung auf 0 reduzieren, versammeln sich alle Vögel in einer geraden Linie.
+Sie können das Flocking-Beispiel ausführen und das Verhalten beobachten. Sie können auch Parameter anpassen, wie z. B. den *Grad der Trennung* oder die *Sichtweite*, die definiert, wie weit jeder Vogel sehen kann. Beachten Sie, dass alle Vögel blind werden und das Flocking stoppt, wenn Sie die Sichtweite auf 0 reduzieren. Wenn Sie die Trennung auf 0 reduzieren, sammeln sich alle Vögel in einer geraden Linie.
 
-> ✅ Wechseln Sie zum **Code**-Tab und sehen Sie, wo die drei Regeln des Vogelschwarmes (Ausrichtung, Kohäsion und Trennung) im Code implementiert sind. Beachten Sie, wie wir uns nur auf die Agenten beziehen, die in Sichtweite sind.
+> ✅ Wechseln Sie zum **Code**-Tab und sehen Sie, wo die drei Regeln des Flockings (Ausrichtung, Kohäsion und Trennung) im Code implementiert sind. Beachten Sie, wie wir uns nur auf die Agenten beziehen, die in Sichtweite sind.
 
 ### Weitere Modelle zum Ausprobieren
 
-Es gibt noch einige weitere interessante Modelle, mit denen Sie experimentieren können:
+Es gibt einige weitere interessante Modelle, die Sie ausprobieren können:
 
-* **Kunst → Feuerwerk** zeigt, wie ein Feuerwerk als kollektives Verhalten individueller Feuerströme betrachtet werden kann.
-* **Sozialwissenschaft → Verkehr Grundlegend** und **Sozialwissenschaft → Verkehr Raster** zeigen das Modell des Stadtverkehrs in 1D und 2D Rastern mit oder ohne Ampeln. Jedes Auto in der Simulation folgt den folgenden Regeln:
-   - Wenn der Raum vor ihm leer ist - beschleunigen (bis zu einer bestimmten Höchstgeschwindigkeit)
-   - Wenn es ein Hindernis vor sich sieht - bremsen (und Sie können anpassen, wie weit ein Fahrer sehen kann)
-* **Sozialwissenschaft → Party** zeigt, wie Menschen sich während einer Cocktailparty gruppieren. Sie können die Kombination von Parametern finden, die zu einer schnellsten Steigerung des Glücks der Gruppe führen.
+* **Kunst → Feuerwerk** zeigt, wie ein Feuerwerk als kollektives Verhalten einzelner Feuerströme betrachtet werden kann.
+* **Sozialwissenschaften → Verkehr Basic** und **Sozialwissenschaften → Verkehr Grid** zeigen das Modell des Stadtverkehrs in 1D und 2D-Gitter mit oder ohne Ampeln. Jedes Auto in der Simulation folgt den folgenden Regeln:
+   - Wenn der Raum vor ihm leer ist – beschleunigen (bis zu einer bestimmten Maximalgeschwindigkeit).
+   - Wenn es ein Hindernis vor sich sieht – bremsen (und Sie können anpassen, wie weit ein Fahrer sehen kann).
+* **Sozialwissenschaften → Party** zeigt, wie sich Menschen während einer Cocktailparty gruppieren. Sie können die Kombination von Parametern finden, die zu einer schnelleren Steigerung der Gruppenfreude führt.
 
-Wie Sie an diesen Beispielen sehen können, können Multi-Agenten-Simulationen eine nützliche Möglichkeit sein, das Verhalten eines komplexen Systems zu verstehen, das aus Individuen besteht, die der gleichen oder ähnlichen Logik folgen. Sie können auch verwendet werden, um virtuelle Agenten zu steuern, wie [NPCs](https://de.wikipedia.org/wiki/NPC) in Computerspielen oder Agenten in 3D-animierten Welten.
+Wie Sie aus diesen Beispielen sehen können, können Multi-Agenten-Simulationen eine nützliche Möglichkeit sein, das Verhalten eines komplexen Systems zu verstehen, das aus Individuen besteht, die derselben oder ähnlichen Logik folgen. Es kann auch verwendet werden, um virtuelle Agenten wie [NPCs](https://en.wikipedia.org/wiki/NPC) in Computerspielen oder Agenten in 3D-animierten Welten zu steuern.
 
 ## Deliberative Agenten
 
-Die oben beschriebenen Agenten sind sehr einfach und reagieren auf Veränderungen in der Umgebung mithilfe einer Art Algorithmus. Daher sind sie **reaktive Agenten**. Manchmal können Agenten jedoch auch schlussfolgern und ihre Aktionen planen, in diesem Fall werden sie als **deliberative** bezeichnet.
+Die oben beschriebenen Agenten sind sehr einfach und reagieren auf Änderungen in der Umgebung mithilfe einer Art Algorithmus. Als solche sind sie **reaktive Agenten**. Manchmal können Agenten jedoch denken und ihre Aktionen planen, in diesem Fall werden sie als **deliberative** bezeichnet.
 
-Ein typisches Beispiel wäre ein persönlicher Agent, der eine Anweisung von einem Menschen erhält, um eine Urlaubsreise zu buchen. Angenommen, es gibt viele Agenten, die im Internet leben und ihm helfen können. Er sollte dann andere Agenten kontaktieren, um zu sehen, welche Flüge verfügbar sind, wie die Hotelpreise an verschiedenen Daten sind, und versuchen, den besten Preis auszuhandeln. Wenn der Urlaubsplan abgeschlossen und vom Besitzer bestätigt ist, kann er mit der Buchung fortfahren.
+Ein typisches Beispiel wäre ein persönlicher Agent, der von einem Menschen die Anweisung erhält, eine Urlaubsreise zu buchen. Angenommen, es gibt viele Agenten im Internet, die ihm helfen können. Er sollte dann andere Agenten kontaktieren, um herauszufinden, welche Flüge verfügbar sind, wie hoch die Hotelpreise für verschiedene Daten sind, und versuchen, den besten Preis auszuhandeln. Wenn der Urlaubsplan abgeschlossen und vom Besitzer bestätigt ist, kann er mit der Buchung fortfahren.
 
 Um dies zu tun, müssen Agenten **kommunizieren**. Für eine erfolgreiche Kommunikation benötigen sie:
 
-* Einige **Standardsprachen zum Austausch von Wissen**, wie [Knowledge Interchange Format](https://de.wikipedia.org/wiki/Knowledge_Interchange_Format) (KIF) und [Knowledge Query and Manipulation Language](https://de.wikipedia.org/wiki/Knowledge_Query_and_Manipulation_Language) (KQML). Diese Sprachen sind auf der Grundlage der [Sprechakt-Theorie](https://de.wikipedia.org/wiki/Sprechakt) entworfen.
-* Diese Sprachen sollten auch einige **Protokolle für Verhandlungen** beinhalten, basierend auf verschiedenen **Auktionsarten**.
-* Eine **gemeinsame Ontologie**, die verwendet wird, damit sie sich auf die gleichen Konzepte beziehen und deren Semantik kennen.
-* Eine Möglichkeit, um zu **entdecken**, was verschiedene Agenten tun können, ebenfalls basierend auf einer Art Ontologie.
+* Einige **Standardsprachen zum Austausch von Wissen**, wie [Knowledge Interchange Format](https://en.wikipedia.org/wiki/Knowledge_Interchange_Format) (KIF) und [Knowledge Query and Manipulation Language](https://en.wikipedia.org/wiki/Knowledge_Query_and_Manipulation_Language) (KQML). Diese Sprachen basieren auf der [Sprechakttheorie](https://en.wikipedia.org/wiki/Speech_act).
+* Diese Sprachen sollten auch einige **Protokolle für Verhandlungen** enthalten, basierend auf verschiedenen **Auktionstypen**.
+* Eine **gemeinsame Ontologie**, damit sie sich auf dieselben Konzepte beziehen und deren Semantik kennen.
+* Eine Möglichkeit, herauszufinden, was verschiedene Agenten tun können, ebenfalls basierend auf einer Art Ontologie.
 
-Deliberative Agenten sind viel komplexer als reaktive, da sie nicht nur auf Veränderungen in der Umgebung reagieren, sondern auch in der Lage sein sollten, Aktionen *zu initiieren*. Eine der vorgeschlagenen Architekturen für deliberative Agenten ist der sogenannte Belief-Desire-Intention (BDI) Agent:
+Deliberative Agenten sind viel komplexer als reaktive, da sie nicht nur auf Änderungen in der Umgebung reagieren, sondern auch Aktionen initiieren können. Eine der vorgeschlagenen Architekturen für deliberative Agenten ist der sogenannte Belief-Desire-Intention (BDI)-Agent:
 
-* **Überzeugungen** bilden ein Set von Wissen über die Umgebung eines Agenten. Es kann als Wissensbasis oder Regelset strukturiert sein, das ein Agent auf eine spezifische Situation in der Umgebung anwenden kann.
-* **Wünsche** definieren, was ein Agent tun möchte, d.h. seine Ziele. Zum Beispiel ist das Ziel des oben genannten persönlichen Assistenten, eine Reise zu buchen, und das Ziel eines Hotelagenten ist es, den Gewinn zu maximieren.
-* **Absichten** sind spezifische Aktionen, die ein Agent plant, um seine Ziele zu erreichen. Aktionen verändern typischerweise die Umgebung und verursachen Kommunikation mit anderen Agenten.
+* **Beliefs** bilden eine Wissensbasis über die Umgebung eines Agenten. Sie können als Wissensdatenbank oder Regelwerk strukturiert sein, das ein Agent auf eine bestimmte Situation in der Umgebung anwenden kann.
+* **Desires** definieren, was ein Agent tun möchte, d. h. seine Ziele. Zum Beispiel ist das Ziel des persönlichen Assistenten-Agenten oben, eine Reise zu buchen, und das Ziel eines Hotel-Agenten ist es, den Gewinn zu maximieren.
+* **Intentions** sind spezifische Aktionen, die ein Agent plant, um seine Ziele zu erreichen. Aktionen ändern typischerweise die Umgebung und führen zu Kommunikation mit anderen Agenten.
 
-Es gibt einige Plattformen, die für den Aufbau von Multi-Agenten-Systemen verfügbar sind, wie [JADE](https://jade.tilab.com/). [Dieses Papier](https://arxiv.org/ftp/arxiv/papers/2007/2007.08961.pdf) enthält eine Übersicht über Multi-Agenten-Plattformen, zusammen mit einer kurzen Geschichte der Multi-Agenten-Systeme und ihren verschiedenen Anwendungsszenarien.
+Es gibt einige Plattformen, die für den Aufbau von Multi-Agenten-Systemen verfügbar sind, wie [JADE](https://jade.tilab.com/). [Dieses Papier](https://arxiv.org/ftp/arxiv/papers/2007/2007.08961.pdf) enthält eine Übersicht über Multi-Agenten-Plattformen sowie eine kurze Geschichte der Multi-Agenten-Systeme und ihrer verschiedenen Anwendungsszenarien.
 
 ## Fazit
 
-Multi-Agent-Systeme können sehr unterschiedliche Formen annehmen und in vielen verschiedenen Anwendungen eingesetzt werden. Sie konzentrieren sich alle auf das einfachere Verhalten eines einzelnen Agenten und erreichen komplexeres Verhalten des Gesamtsystems aufgrund des **synergetischen Effekts**.
+Multi-Agenten-Systeme können sehr unterschiedliche Formen annehmen und in vielen verschiedenen Anwendungen eingesetzt werden. 
+Sie konzentrieren sich alle auf das einfachere Verhalten eines einzelnen Agenten und erreichen ein komplexeres Verhalten des Gesamtsystems durch den **synergetischen Effekt**.
 
 ## 🚀 Herausforderung
 
-Bringen Sie diese Lektion in die reale Welt und versuchen Sie, ein Multi-Agenten-System zu konzipieren, das ein Problem lösen kann. Was müsste ein Multi-Agenten-System beispielsweise tun, um eine Schulbusroute zu optimieren? Wie könnte es in einer Bäckerei funktionieren?
+Übertragen Sie diese Lektion in die reale Welt und versuchen Sie, ein Multi-Agenten-System zu konzeptualisieren, das ein Problem lösen kann. Was müsste ein Multi-Agenten-System beispielsweise tun, um eine Schulbusroute zu optimieren? Wie könnte es in einer Bäckerei funktionieren?
 
-## [Nachvorlesungsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
 
 ## Überprüfung & Selbststudium
 
-Überprüfen Sie die Verwendung dieses Typs von Systemen in der Industrie. Wählen Sie ein Gebiet wie die Fertigung oder die Videospielindustrie aus und entdecken Sie, wie Multi-Agenten-Systeme verwendet werden können, um einzigartige Probleme zu lösen.
+Überprüfen Sie die Verwendung dieses Systemtyps in der Industrie. Wählen Sie einen Bereich wie die Fertigung oder die Videospielindustrie und entdecken Sie, wie Multi-Agenten-Systeme verwendet werden können, um einzigartige Probleme zu lösen.
 
 ## [NetLogo Aufgabe](assignment.md)
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, sollten Sie sich bewusst sein, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als autoritative Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

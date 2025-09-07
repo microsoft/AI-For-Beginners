@@ -1,14 +1,23 @@
-# Eğitim Skip-Gram Modeli
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
+  "translation_date": "2025-08-26T07:22:41+00:00",
+  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
+  "language_code": "tr"
+}
+-->
+# Skip-Gram Modelini Eğitme
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) dersinden laboratuvar ödevi.
+[AI for Beginners Müfredatı](https://github.com/microsoft/ai-for-beginners) tarafından hazırlanan laboratuvar ödevi.
 
 ## Görev
 
-Bu laboratuvar çalışmasında, size Word2Vec modelini Skip-Gram tekniği kullanarak eğitme challenge'ı veriyoruz. $N$-token genişliğinde bir Skip-Gram penceresinde komşu kelimeleri tahmin etmek için gömme ile bir ağ eğitin. Bu dersten [bu kodu](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) kullanabilir ve biraz değiştirebilirsiniz.
+Bu laboratuvarda, sizden Skip-Gram tekniğini kullanarak Word2Vec modelini eğitmeniz isteniyor. $N$-token genişliğindeki Skip-Gram penceresinde komşu kelimeleri tahmin etmek için gömme (embedding) içeren bir ağ eğitin. [Bu dersteki kodu](../../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb) kullanabilir ve biraz değiştirebilirsiniz.
 
 ## Veri Seti
 
-Herhangi bir kitabı kullanabilirsiniz. [Project Gutenberg](https://www.gutenberg.org/) adresinde birçok ücretsiz metin bulabilirsiniz; örneğin, Lewis Carroll'un [Alice's Adventures in Wonderland](https://www.gutenberg.org/files/11/11-0.txt)) adlı eserine doğrudan bağlantı. Ya da, aşağıdaki kodu kullanarak Shakespeare'in oyunlarını edinebilirsiniz:
+Herhangi bir kitabı kullanabilirsiniz. [Project Gutenberg](https://www.gutenberg.org/) sitesinde birçok ücretsiz metin bulabilirsiniz. Örneğin, Lewis Carroll tarafından yazılan [Alice Harikalar Diyarında](https://www.gutenberg.org/files/11/11-0.txt) kitabına doğrudan buradan ulaşabilirsiniz. Alternatif olarak, Shakespeare'in oyunlarını kullanabilirsiniz. Aşağıdaki kodu kullanarak bu oyunlara erişebilirsiniz:
 
 ```python
 path_to_file = tf.keras.utils.get_file(
@@ -19,11 +28,11 @@ text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 
 ## Keşfet!
 
-Eğer zamanınız varsa ve konuya daha derinlemesine dalmak istiyorsanız, birkaç şeyi keşfetmeyi deneyin:
+Eğer zamanınız varsa ve konuyu daha derinlemesine incelemek istiyorsanız, birkaç şeyi keşfetmeyi deneyin:
 
-* Gömme boyutunun sonuçları nasıl etkilediği?
-* Farklı metin stillerinin sonuçları nasıl etkilediği?
-* Çok farklı türde kelimeler ve eşanlamlılarını alın, vektör temsillerini elde edin, boyutları 2'ye indirmek için PCA uygulayın ve bunları 2D alanda çizin. Herhangi bir desen görüyor musunuz?
+* Gömme boyutunun sonuçları nasıl etkilediğini inceleyin.
+* Farklı metin stillerinin sonucu nasıl etkilediğini araştırın.
+* Çok farklı türdeki kelimeler ve onların eş anlamlılarını seçin, bu kelimelerin vektör temsillerini elde edin, boyutları 2'ye düşürmek için PCA uygulayın ve bunları 2D uzayda çizin. Herhangi bir desen görüyor musunuz?
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otorite kaynağı olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucunda ortaya çıkan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

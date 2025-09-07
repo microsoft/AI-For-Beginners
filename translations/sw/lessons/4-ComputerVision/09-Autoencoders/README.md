@@ -1,100 +1,109 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "0b306c04f5337b6e7430e5c0b16bb5c0",
+  "translation_date": "2025-08-25T20:53:09+00:00",
+  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
+  "language_code": "sw"
+}
+-->
 # Autoencoders
 
-När vi tränar CNN:er är ett av problemen att vi behöver mycket märkt data. När det gäller bildklassificering behöver vi separera bilder i olika klasser, vilket är en manuell insats.
+Wakati wa kufundisha CNNs, mojawapo ya changamoto ni kwamba tunahitaji data nyingi iliyo na lebo. Katika hali ya uainishaji wa picha, tunahitaji kutenganisha picha katika madarasa tofauti, jambo ambalo linahitaji juhudi za mikono.
 
 ## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
 
-Vi kan dock vilja använda rå (omärkt) data för att träna CNN-funktionsextraktorer, vilket kallas **självövervakad inlärning**. Istället för etiketter kommer vi att använda träningsbilder som både nätverksinmatning och utdata. Huvudidén med **autoencoder** är att vi kommer att ha ett **encoder-nätverk** som konverterar inmatad bild till ett visst **latent rum** (normalt är det bara en vektor av mindre storlek), och sedan **decoder-nätverket**, vars mål är att rekonstruera den ursprungliga bilden.
+Hata hivyo, tunaweza kutaka kutumia data ghafi (isiyo na lebo) kwa mafunzo ya CNN feature extractors, ambayo inaitwa **kujifunza kwa kujisimamia**. Badala ya lebo, tutatumia picha za mafunzo kama pembejeo na matokeo ya mtandao. Wazo kuu la **autoencoder** ni kwamba tutakuwa na **encoder network** inayobadilisha picha ya pembejeo kuwa **latent space** fulani (kawaida ni vector ya ukubwa mdogo), kisha **decoder network**, ambayo lengo lake litakuwa kurejesha picha ya asili.
 
-> ✅ En [autoencoder](https://wikipedia.org/wiki/Autoencoder) är "en typ av artificiellt neuralt nätverk som används för att lära sig effektiva kodningar av omärkt data."
+> ✅ [Autoencoder](https://wikipedia.org/wiki/Autoencoder) ni "aina ya mtandao wa neva wa bandia unaotumika kujifunza njia bora za kuweka data isiyo na lebo."
 
-Eftersom vi tränar en autoencoder för att fånga så mycket information som möjligt från den ursprungliga bilden för noggrann rekonstruktion, försöker nätverket hitta den bästa **inbäddningen** av inmatade bilder för att fånga betydelsen.
+Kwa kuwa tunafundisha autoencoder ili kunasa taarifa nyingi kutoka kwenye picha ya asili iwezekanavyo kwa ajili ya ujenzi sahihi, mtandao unajaribu kupata **embedding** bora ya picha za pembejeo ili kunasa maana yake.
 
 ![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.sw.jpg)
 
-> Bild från [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
+> Picha kutoka [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 
-## Scenarier för användning av Autoencoders
+## Matumizi ya Autoencoders
 
-Även om rekonstruktion av ursprungliga bilder inte verkar användbart i sig, finns det några scenarier där autoencoders är särskilt användbara:
+Ingawa kurejesha picha za asili hakuonekani kuwa na manufaa peke yake, kuna hali kadhaa ambapo autoencoders ni muhimu sana:
 
-* **Minska dimensionen av bilder för visualisering** eller **träning av bildeinbäddningar**. Vanligtvis ger autoencoders bättre resultat än PCA, eftersom de tar hänsyn till den spatiala naturen hos bilder och hierarkiska funktioner.
-* **Denoising**, dvs. ta bort brus från bilden. Eftersom brus bär med sig mycket oanvändbar information kan autoencodern inte passa in allt i det relativt lilla latenta rummet, och fångar därför endast den viktiga delen av bilden. När vi tränar avbrusare börjar vi med ursprungliga bilder och använder bilder med artificiellt tillagt brus som indata för autoencodern.
-* **Super-upplösning**, öka bildens upplösning. Vi börjar med högupplösta bilder och använder bilder med lägre upplösning som autoencoder-inmatning.
-* **Generativa modeller**. När vi har tränat autoencodern kan decoder-delen användas för att skapa nya objekt utifrån slumpmässiga latenta vektorer.
+* **Kupunguza vipimo vya picha kwa ajili ya kuona** au **kufundisha embeddings za picha**. Kawaida autoencoders hutoa matokeo bora kuliko PCA, kwa sababu inazingatia asili ya anga ya picha na vipengele vya kihierarkia.
+* **Kuondoa kelele**, yaani kuondoa kelele kutoka kwenye picha. Kwa sababu kelele hubeba taarifa nyingi zisizo na maana, autoencoder haiwezi kuingiza zote kwenye latent space ndogo, na hivyo hunasa sehemu muhimu tu ya picha. Wakati wa kufundisha denoisers, tunaanza na picha za asili, na kutumia picha zilizo na kelele iliyoongezwa kwa makusudi kama pembejeo kwa autoencoder.
+* **Super-resolution**, kuongeza azimio la picha. Tunaanza na picha zenye azimio la juu, na kutumia picha yenye azimio la chini kama pembejeo ya autoencoder.
+* **Generative models**. Mara tu tunapofundisha autoencoder, sehemu ya decoder inaweza kutumika kuunda vitu vipya kuanzia latent vectors za nasibu.
 
 ## Variational Autoencoders (VAE)
 
-Traditionella autoencoders minskar dimensionen av indata på något sätt, genom att identifiera de viktiga funktionerna i inmatade bilder. Latenta vektorer ger dock ofta inte mycket mening. Med andra ord, med MNIST-datasetet som exempel, är det inte en lätt uppgift att ta reda på vilka siffror som motsvarar olika latenta vektorer, eftersom nära latenta vektorer inte nödvändigtvis motsvarar samma siffror.
+Autoencoders za jadi hupunguza vipimo vya data ya pembejeo kwa namna fulani, ikigundua vipengele muhimu vya picha za pembejeo. Hata hivyo, latent vectors mara nyingi hazina maana kubwa. Kwa maneno mengine, tukichukua dataset ya MNIST kama mfano, kugundua ni namba gani zinazolingana na latent vectors tofauti si kazi rahisi, kwa sababu latent vectors zilizo karibu hazihusiani lazima na namba sawa.
 
-Å andra sidan, för att träna *generativa* modeller är det bättre att ha en viss förståelse för det latenta rummet. Denna idé leder oss till **variational autoencoder** (VAE).
+Kwa upande mwingine, ili kufundisha *generative* models ni bora kuwa na uelewa fulani wa latent space. Wazo hili linatupeleka kwenye **variational auto-encoder** (VAE).
 
-VAE är autoencodern som lär sig att förutsäga *statistisk fördelning* av de latenta parametrarna, så kallad **latent fördelning**. Till exempel kan vi vilja att latenta vektorer ska fördelas normalt med ett visst medelvärde z<sub>mean</sub> och standardavvikelse z<sub>sigma</sub> (både medelvärde och standardavvikelse är vektorer av viss dimension d). Encodern i VAE lär sig att förutsäga dessa parametrar, och sedan tar decodern en slumpmässig vektor från denna fördelning för att rekonstruera objektet.
+VAE ni autoencoder inayojifunza kutabiri *statistical distribution* ya vigezo vya latent, inayoitwa **latent distribution**. Kwa mfano, tunaweza kutaka latent vectors zisambazwe kawaida na wastani fulani z<sub>mean</sub> na mkengeuko wa kawaida z<sub>sigma</sub> (wote wastani na mkengeuko wa kawaida ni vectors za vipimo fulani d). Encoder katika VAE hujifunza kutabiri vigezo hivyo, kisha decoder huchukua vector ya nasibu kutoka kwenye usambazaji huu ili kurejesha kitu.
 
-Sammanfattningsvis:
+Kwa muhtasari:
 
- * Från inmatad vektor förutspår vi `z_mean` och `z_log_sigma` (istället för att förutsäga standardavvikelsen själv, förutspår vi dess logaritm)
- * Vi sampel en vektor `sample` från fördelningen N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
- * Decodern försöker avkoda den ursprungliga bilden med `sample` som inmatad vektor
+ * Kutoka vector ya pembejeo, tunatabiri `z_mean` na `z_log_sigma` (badala ya kutabiri mkengeuko wa kawaida yenyewe, tunatabiri logarithm yake)
+ * Tunachukua vector `sample` kutoka kwenye usambazaji N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
+ * Decoder inajaribu kurejesha picha ya asili kwa kutumia `sample` kama vector ya pembejeo
 
  <img src="images/vae.png" width="50%">
 
-> Bild från [denna blogginlägg](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) av Isaak Dykeman
+> Picha kutoka [blog post hii](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) na Isaak Dykeman
 
-Variational autoencoders använder en komplex förlustfunktion som består av två delar:
+Variational auto-encoders hutumia loss function ngumu inayojumuisha sehemu mbili:
 
-* **Rekonstruktionsförlust** är förlustfunktionen som visar hur nära en rekonstruerad bild är målet (det kan vara Mean Squared Error, eller MSE). Det är samma förlustfunktion som i vanliga autoencoders.
-* **KL-förlust**, som säkerställer att de latenta variabelns fördelningar förblir nära normalfördelningen. Den baseras på begreppet [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) - en metrik för att uppskatta hur lika två statistiska fördelningar är.
+* **Reconstruction loss** ni loss function inayonyesha jinsi picha iliyojengwa upya ilivyo karibu na lengo (inaweza kuwa Mean Squared Error, au MSE). Ni loss function sawa na ile ya autoencoders za kawaida.
+* **KL loss**, ambayo inahakikisha kwamba usambazaji wa latent variable unakaribia usambazaji wa kawaida. Inategemea dhana ya [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) - kipimo cha kutathmini jinsi usambazaji wa takwimu mbili unavyofanana.
 
-En viktig fördel med VAEs är att de gör det möjligt för oss att generera nya bilder relativt enkelt, eftersom vi vet vilken fördelning vi ska sampela latenta vektorer från. Om vi till exempel tränar en VAE med 2D latent vektor på MNIST kan vi sedan variera komponenterna i den latenta vektorn för att få olika siffror:
+Faida moja muhimu ya VAEs ni kwamba zinaturuhusu kuunda picha mpya kwa urahisi, kwa sababu tunajua usambazaji kutoka ambapo tunachukua latent vectors. Kwa mfano, tukifundisha VAE na latent vector ya 2D kwenye MNIST, tunaweza kubadilisha vipengele vya latent vector ili kupata namba tofauti:
 
 <img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
 
-> Bild av [Dmitry Soshnikov](http://soshnikov.com)
+> Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
-Observera hur bilderna blandar sig med varandra, när vi börjar få latenta vektorer från olika delar av det latenta parameterrummet. Vi kan också visualisera detta rum i 2D:
+Angalia jinsi picha zinavyoungana, tunapoanza kupata latent vectors kutoka sehemu tofauti za latent parameter space. Tunaweza pia kuona anga hii kwa 2D:
 
 <img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
 
-> Bild av [Dmitry Soshnikov](http://soshnikov.com)
+> Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
-## ✍️ Övningar: Autoencoders
+## ✍️ Mazoezi: Autoencoders
 
-Lär dig mer om autoencoders i dessa motsvarande anteckningar:
+Jifunze zaidi kuhusu autoencoders katika daftari hizi zinazohusiana:
 
-* [Autoencoders i TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)
-* [Autoencoders i PyTorch](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb)
+* [Autoencoders katika TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)
+* [Autoencoders katika PyTorch](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb)
 
-## Egenskaper hos Autoencoders
+## Sifa za Autoencoders
 
-* **Dataspecifika** - de fungerar bara bra med den typ av bilder de har tränats på. Om vi till exempel tränar ett super-upplösningsnätverk på blommor kommer det inte att fungera bra på porträtt. Detta beror på att nätverket kan producera högupplösta bilder genom att ta fina detaljer från funktioner som lärts från träningsdatasetet.
-* **Förlustiga** - den rekonstruerade bilden är inte densamma som den ursprungliga bilden. Förlustens natur definieras av *förlustfunktionen* som används under träning.
-* Fungerar på **omärkt data**.
+* **Data Specific** - zinafanya kazi vizuri tu na aina ya picha ambazo zimefundishwa nazo. Kwa mfano, tukifundisha mtandao wa super-resolution kwenye maua, hautafanya kazi vizuri kwenye picha za watu. Hii ni kwa sababu mtandao unaweza kutoa picha ya azimio la juu kwa kuchukua maelezo mazuri kutoka vipengele vilivyojifunzwa kutoka dataset ya mafunzo.
+* **Lossy** - picha iliyojengwa upya si sawa na picha ya asili. Asili ya hasara inafafanuliwa na *loss function* iliyotumika wakati wa mafunzo.
+* Inafanya kazi na **data isiyo na lebo**
 
 ## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
 
-## Slutsats
+## Hitimisho
 
-I denna lektion lärde du dig om de olika typerna av autoencoders som finns tillgängliga för AI-forskaren. Du lärde dig hur man bygger dem och hur man använder dem för att rekonstruera bilder. Du lärde dig också om VAE och hur man använder den för att generera nya bilder.
+Katika somo hili, umejifunza kuhusu aina mbalimbali za autoencoders zinazopatikana kwa mwanasayansi wa AI. Umejifunza jinsi ya kuzijenga, na jinsi ya kuzitumia kurejesha picha. Pia umejifunza kuhusu VAE na jinsi ya kuitumia kuunda picha mpya.
 
-## 🚀 Utmaning
+## 🚀 Changamoto
 
-I denna lektion lärde du dig om att använda autoencoders för bilder. Men de kan också användas för musik! Kolla in Magenta-projektets [MusicVAE](https://magenta.tensorflow.org/music-vae) projekt, som använder autoencoders för att lära sig rekonstruera musik. Gör några [experiment](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med detta bibliotek för att se vad du kan skapa.
+Katika somo hili, umejifunza kuhusu kutumia autoencoders kwa picha. Lakini zinaweza pia kutumika kwa muziki! Angalia mradi wa Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), ambao hutumia autoencoders kujifunza kurejesha muziki. Fanya [majaribio](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) na maktaba hii ili kuona unachoweza kuunda.
 
 ## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
 
-## Granskning & Självstudie
+## Mapitio & Kujisomea
 
-För referens, läs mer om autoencoders i dessa resurser:
+Kwa marejeleo, soma zaidi kuhusu autoencoders katika rasilimali hizi:
 
-* [Bygga Autoencoders i Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
-* [Blogginlägg om NeuroHive](https://neurohive.io/ru/osnovy-data-science/variacionnyj-avtojenkoder-vae/)
-* [Förklarade Variational Autoencoders](https://kvfrans.com/variational-autoencoders-explained/)
-* [Villkorliga Variational Autoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
+* [Kujenga Autoencoders katika Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
+* [Blog post kwenye NeuroHive](https://neurohive.io/ru/osnovy-data-science/variacionnyj-avtojenkoder-vae/)
+* [Variational Autoencoders Explained](https://kvfrans.com/variational-autoencoders-explained/)
+* [Conditional Variational Autoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
-## Uppgift
+## Kazi
 
-I slutet av [denna anteckning som använder TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb) hittar du en 'uppgift' - använd detta som din uppgift.
+Mwisho wa [daftari hili linalotumia TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb), utapata 'kazi' - tumia hii kama jukumu lako.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller feltolkningar som uppstår från användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya asili inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

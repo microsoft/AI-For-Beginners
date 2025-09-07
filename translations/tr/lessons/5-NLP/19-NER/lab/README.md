@@ -1,16 +1,25 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "032bda5068f543d6c1fcb30c34231461",
+  "translation_date": "2025-08-26T07:23:20+00:00",
+  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
+  "language_code": "tr"
+}
+-->
 # NER
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) için Laboratuvar Görevi.
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) içindeki Laboratuvar Görevi.
 
 ## Görev
 
-Bu laboratuvar çalışmasında, tıbbi terimler için adlandırılmış varlık tanıma modeli eğitmeniz gerekiyor.
+Bu laboratuvarda, tıbbi terimler için adlandırılmış varlık tanıma (NER) modeli eğitmeniz gerekiyor.
 
 ## Veri Seti
 
-NER modelini eğitmek için, tıbbi varlıklarla düzgün bir şekilde etiketlenmiş bir veri setine ihtiyacımız var. [BC5CDR veri seti](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/) 1500'den fazla makaleden etiketlenmiş hastalıklar ve kimyasallar içeren varlıklar içerir. Veri setini indirmek için web sitelerinde kayıt olmanız gerekmektedir.
+NER modelini eğitmek için, tıbbi varlıklarla düzgün bir şekilde etiketlenmiş bir veri setine ihtiyacımız var. [BC5CDR veri seti](https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/), 1500'den fazla makaleden etiketlenmiş hastalık ve kimyasal varlıkları içerir. Veri setini, web sitelerinde kayıt olduktan sonra indirebilirsiniz.
 
-BC5CDR Veri Seti şu şekilde görünmektedir:
+BC5CDR veri seti şu şekilde görünür:
 
 ```
 6794356|t|Tricuspid valve regurgitation and lithium carbonate toxicity in a newborn infant.
@@ -21,17 +30,17 @@ BC5CDR Veri Seti şu şekilde görünmektedir:
 ...
 ```
 
-Bu veri setinde, ilk iki satırda makale başlığı ve özeti bulunmakta, ardından başlık+özet bloğu içinde başlangıç ve bitiş konumlarıyla birlikte bireysel varlıklar yer almaktadır. Varlık türüne ek olarak, bu varlığın belirli bir tıbbi ontolojideki ontoloji kimliğini de alırsınız.
+Bu veri setinde, ilk iki satırda makale başlığı ve özeti bulunur, ardından başlık+özet bloğu içindeki başlangıç ve bitiş pozisyonlarıyla bireysel varlıklar yer alır. Varlık türüne ek olarak, bu varlığın bazı tıbbi ontolojiler içindeki ontoloji kimliğini de alırsınız.
 
-Bunu BIO kodlamasına dönüştürmek için bazı Python kodları yazmanız gerekecek.
+Bu veriyi BIO kodlamasına dönüştürmek için biraz Python kodu yazmanız gerekecek.
 
 ## Ağ
 
-NER için ilk deneme, ders sırasında gördüğünüz gibi LSTM ağı kullanılarak yapılabilir. Ancak, NLP görevlerinde, [transformer mimarisi](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) ve özellikle [BERT dil modelleri](https://en.wikipedia.org/wiki/BERT_(language_model)) çok daha iyi sonuçlar göstermektedir. Önceden eğitilmiş BERT modelleri, bir dilin genel yapısını anlamakta ve belirli görevler için nispeten küçük veri setleri ve hesaplama maliyetleri ile ince ayar yapılabilmektedir.
+NER için ilk deneme, ders sırasında gördüğünüz örnekte olduğu gibi LSTM ağı kullanılarak yapılabilir. Ancak, NLP görevlerinde [transformer mimarisi](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) ve özellikle [BERT dil modelleri](https://en.wikipedia.org/wiki/BERT_(language_model)) çok daha iyi sonuçlar verir. Önceden eğitilmiş BERT modelleri, bir dilin genel yapısını anlar ve nispeten küçük veri setleri ve hesaplama maliyetleriyle belirli görevler için ince ayar yapılabilir.
 
-Tıbbi senaryoya NER uygulamayı planladığımız için, tıbbi metinler üzerinde eğitilmiş BERT modelini kullanmak mantıklıdır. Microsoft Research, [PubMedBERT][PubMedBERT] ([yayın][PubMedBERT-Pub]) adında önceden eğitilmiş bir model yayınladı; bu model, [PubMed](https://pubmed.ncbi.nlm.nih.gov/) deposundan alınan metinlerle ince ayar yapılmıştır.
+NER'yi tıbbi bir senaryoya uygulamayı planladığımız için, tıbbi metinler üzerinde eğitilmiş bir BERT modeli kullanmak mantıklıdır. Microsoft Research, [PubMed](https://pubmed.ncbi.nlm.nih.gov/) deposundaki metinler kullanılarak ince ayar yapılmış [PubMedBERT][PubMedBERT] ([yayın][PubMedBERT-Pub]) adlı önceden eğitilmiş bir model yayınladı.
 
-Transformer modellerini eğitmek için *de facto* standart, [Hugging Face Transformers](https://huggingface.co/) kütüphanesidir. Ayrıca, PubMedBERT de dahil olmak üzere, topluluk tarafından bakım yapılan önceden eğitilmiş modellerin bir deposunu içerir. Bu modeli yüklemek ve kullanmak için sadece birkaç satır kod yazmamız yeterlidir:
+Transformer modellerini eğitmek için *de facto* standart, [Hugging Face Transformers](https://huggingface.co/) kütüphanesidir. Bu kütüphane, PubMedBERT dahil olmak üzere topluluk tarafından sürdürülen önceden eğitilmiş modellerin bir deposunu içerir. Bu modeli yüklemek ve kullanmak için sadece birkaç satır kod yeterlidir:
 
 ```python
 model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract"
@@ -40,11 +49,11 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = BertForTokenClassification.from_pretrained(model_name, classes)
 ```
 
-Bu, girdi metnini token'lara bölebilen `model` itself, built for token classification task using `classes` number of classes, as well as `tokenizer` nesnesini verir. Veri setini BIO formatına dönüştürmeniz gerekecek ve PubMedBERT tokenizasyonunu dikkate almanız önemlidir. İlham almak için [bu Python kodu parçasını](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) kullanabilirsiniz.
+Bu kod bize `model` nesnesini, `classes` sayıda sınıf kullanarak token sınıflandırma görevi için oluşturulmuş bir model olarak, ve giriş metnini tokenlara bölebilen `tokenizer` nesnesini verir. Veri setini BIO formatına dönüştürmeniz gerekecek ve bunu yaparken PubMedBERT tokenizasyonunu dikkate almalısınız. [Bu Python kodu](https://gist.github.com/shwars/580b55684be3328eb39ecf01b9cbbd88) ilham kaynağı olarak kullanılabilir.
 
-## Özet
+## Çıkarım
 
-Bu görev, doğal dil metinleri hakkında daha fazla içgörü elde etmek istiyorsanız muhtemelen karşılaşacağınız gerçek bir göreve çok yakındır. Bizim durumumuzda, eğitilmiş modelimizi [COVID ile ilgili makalelerin veri setine](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) uygulayabilir ve hangi içgörüleri elde edebileceğimizi görebiliriz. [Bu blog yazısı](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) ve [bu makale](https://www.mdpi.com/2504-2289/6/1/4), NER kullanarak bu makaleler koleksiyonu üzerinde yapılabilecek araştırmaları tanımlamaktadır.
+Bu görev, doğal dil metinlerinin büyük hacimlerinde daha fazla içgörü elde etmek istiyorsanız karşılaşabileceğiniz gerçek bir göreve oldukça yakındır. Bizim durumumuzda, eğitilmiş modelimizi [COVID ile ilgili makaleler veri setine](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) uygulayabilir ve hangi içgörüleri elde edebileceğimizi görebiliriz. [Bu blog yazısı](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) ve [bu makale](https://www.mdpi.com/2504-2289/6/1/4), NER kullanılarak bu makale derlemesi üzerinde yapılabilecek araştırmaları açıklamaktadır.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen dikkate alınız. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul edilmez.

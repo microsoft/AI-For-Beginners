@@ -1,107 +1,86 @@
-# Représentation des connaissances et systèmes experts
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "98c5222ff9556b55223fed2337145e18",
+  "translation_date": "2025-08-26T07:13:25+00:00",
+  "source_file": "lessons/2-Symbolic/README.md",
+  "language_code": "it"
+}
+-->
+*Immagine [da Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), di Longlivetheux - Opera propria, CC BY-SA 4.0*
 
-![Résumé du contenu de l'IA symbolique](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.it.png)
+Pertanto, il problema della **rappresentazione della conoscenza** consiste nel trovare un modo efficace per rappresentare la conoscenza all'interno di un computer sotto forma di dati, rendendola automaticamente utilizzabile. Questo può essere visto come uno spettro:
 
-> Schéma par [Tomomi Imura](https://twitter.com/girlie_mac)
+![Spettro della rappresentazione della conoscenza](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.it.png)
 
-La quête de l'intelligence artificielle repose sur la recherche de connaissances, pour donner un sens au monde de manière similaire à celle des humains. Mais comment procéder ?
+> Immagine di [Dmitry Soshnikov](http://soshnikov.com)
 
-## [Quiz pré-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+* A sinistra, ci sono tipi di rappresentazione della conoscenza molto semplici che possono essere utilizzati efficacemente dai computer. La più semplice è quella algoritmica, in cui la conoscenza è rappresentata da un programma informatico. Tuttavia, questo non è il modo migliore per rappresentare la conoscenza, poiché non è flessibile. La conoscenza nella nostra mente è spesso non algoritmica.
+* A destra, ci sono rappresentazioni come il testo naturale. È la più potente, ma non può essere utilizzata per il ragionamento automatico.
 
-Au début de l'IA, l'approche descendante pour créer des systèmes intelligents (discutée dans la leçon précédente) était populaire. L'idée était d'extraire les connaissances des personnes dans une forme lisible par machine, puis de les utiliser pour résoudre automatiquement des problèmes. Cette approche reposait sur deux grandes idées :
+> ✅ Pensa per un momento a come rappresenti la conoscenza nella tua mente e la converti in appunti. Esiste un formato particolare che funziona bene per te per favorire la memorizzazione?
 
-* Représentation des connaissances
-* Raisonnement
+## Classificazione delle rappresentazioni della conoscenza nei computer
 
-## Représentation des connaissances
+Possiamo classificare i diversi metodi di rappresentazione della conoscenza nei computer nelle seguenti categorie:
 
-L'un des concepts importants de l'IA symbolique est la **connaissance**. Il est essentiel de différencier la connaissance de *l'information* ou *des données*. Par exemple, on peut dire que les livres contiennent des connaissances, car on peut les étudier et devenir un expert. Cependant, ce que contiennent les livres est en réalité appelé *données*, et en lisant ces livres et en intégrant ces données dans notre modèle du monde, nous convertissons ces données en connaissances.
+* **Rappresentazioni a rete** si basano sul fatto che abbiamo una rete di concetti interrelati nella nostra mente. Possiamo provare a riprodurre le stesse reti come un grafo all'interno di un computer - una cosiddetta **rete semantica**.
 
-> ✅ **La connaissance** est quelque chose qui est contenu dans notre esprit et représente notre compréhension du monde. Elle est obtenue par un processus d'**apprentissage** actif, qui intègre des morceaux d'information que nous recevons dans notre modèle actif du monde.
+1. **Triplette Oggetto-Attributo-Valore** o **coppie attributo-valore**. Poiché un grafo può essere rappresentato all'interno di un computer come un elenco di nodi e archi, possiamo rappresentare una rete semantica con un elenco di triplette, contenenti oggetti, attributi e valori. Ad esempio, costruiamo le seguenti triplette sui linguaggi di programmazione:
 
-Le plus souvent, nous ne définissons pas strictement la connaissance, mais nous l'alignons avec d'autres concepts connexes en utilisant la [Pyramide DIKW](https://en.wikipedia.org/wiki/DIKW_pyramid). Elle contient les concepts suivants :
+Oggetto | Attributo | Valore
+--------|-----------|------
+Python  | è         | Linguaggio non tipizzato
+Python  | inventato-da | Guido van Rossum
+Python  | sintassi-blocco | indentazione
+Linguaggio non tipizzato | non ha | definizioni di tipo
 
-* **Données** : quelque chose représenté sur un support physique, tel qu'un texte écrit ou des mots prononcés. Les données existent indépendamment des êtres humains et peuvent être transmises entre les personnes.
-* **Information** : c'est ainsi que nous interprétons les données dans notre esprit. Par exemple, lorsque nous entendons le mot *ordinateur*, nous avons une certaine compréhension de ce que c'est.
-* **Connaissance** : c'est l'information intégrée dans notre modèle du monde. Par exemple, une fois que nous apprenons ce qu'est un ordinateur, nous commençons à avoir des idées sur son fonctionnement, son coût et ses utilisations possibles. Ce réseau de concepts interconnectés forme notre connaissance.
-* **Sagesse** : c'est encore un niveau supplémentaire de notre compréhension du monde, et cela représente *la méta-connaissance*, c'est-à-dire une notion sur comment et quand la connaissance doit être utilisée.
+> ✅ Pensa a come le triplette possono essere utilizzate per rappresentare altri tipi di conoscenza.
 
-<img src="images/DIKW_Pyramid.png" width="30%"/>
+2. **Rappresentazioni gerarchiche** enfatizzano il fatto che spesso creiamo una gerarchia di oggetti nella nostra mente. Ad esempio, sappiamo che il canarino è un uccello, e tutti gli uccelli hanno le ali. Abbiamo anche un'idea di quale sia il colore di un canarino e della sua velocità di volo.
 
-*Image [de Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), par Longlivetheux - Travail personnel, CC BY-SA 4.0*
-
-Ainsi, le problème de la **représentation des connaissances** est de trouver un moyen efficace de représenter les connaissances à l'intérieur d'un ordinateur sous forme de données, afin de les rendre automatiquement utilisables. Cela peut être vu comme un spectre :
-
-![Spectre de la représentation des connaissances](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.it.png)
-
-> Image par [Dmitry Soshnikov](http://soshnikov.com)
-
-* À gauche, il y a des types très simples de représentations des connaissances qui peuvent être efficacement utilisés par les ordinateurs. Le plus simple est algorithmique, lorsque la connaissance est représentée par un programme informatique. Cependant, ce n'est pas la meilleure façon de représenter la connaissance, car elle n'est pas flexible. La connaissance dans notre esprit est souvent non-algorithmique.
-* À droite, il y a des représentations telles que le texte naturel. C'est la plus puissante, mais elle ne peut pas être utilisée pour le raisonnement automatique.
-
-> ✅ Pensez un instant à la façon dont vous représentez la connaissance dans votre esprit et la convertissez en notes. Existe-t-il un format particulier qui fonctionne bien pour vous afin d'aider à la rétention ?
-
-## Classification des représentations des connaissances informatiques
-
-Nous pouvons classer différentes méthodes de représentation des connaissances informatiques dans les catégories suivantes :
-
-* **Représentations en réseau** : basées sur le fait que nous avons un réseau de concepts interconnectés dans notre esprit. Nous pouvons essayer de reproduire ces mêmes réseaux sous forme de graphique à l'intérieur d'un ordinateur - un soi-disant **réseau sémantique**.
-
-1. **Triplets Objet-Attribut-Valeur** ou **paires attribut-valeur**. Étant donné qu'un graphique peut être représenté à l'intérieur d'un ordinateur sous forme de liste de nœuds et d'arêtes, nous pouvons représenter un réseau sémantique par une liste de triplets, contenant des objets, des attributs et des valeurs. Par exemple, nous construisons les triplets suivants sur les langages de programmation :
-
-Objet | Attribut | Valeur
--------|-----------|------
-Python | est | Langage-Non-Typé
-Python | inventé-par | Guido van Rossum
-Python | syntaxe-bloc | indentation
-Langage-Non-Typé | n'a pas | définitions de type
-
-> ✅ Réfléchissez à la manière dont les triplets peuvent être utilisés pour représenter d'autres types de connaissances.
-
-2. **Représentations hiérarchiques** : mettent en avant le fait que nous créons souvent une hiérarchie d'objets dans notre esprit. Par exemple, nous savons que le canari est un oiseau, et que tous les oiseaux ont des ailes. Nous avons également une idée de la couleur qu'un canari a généralement et de sa vitesse de vol.
-
-   - **Représentation par cadre** : basée sur la représentation de chaque objet ou classe d'objets sous forme de **cadre** qui contient des **emplacements**. Les emplacements ont des valeurs par défaut possibles, des restrictions de valeur ou des procédures stockées qui peuvent être appelées pour obtenir la valeur d'un emplacement. Tous les cadres forment une hiérarchie similaire à une hiérarchie d'objets dans les langages de programmation orientés objet.
-   - **Scénarios** : sont une sorte spéciale de cadres qui représentent des situations complexes pouvant se dérouler dans le temps.
+   - **Rappresentazione a frame** si basa sulla rappresentazione di ogni oggetto o classe di oggetti come un **frame** che contiene **slot**. Gli slot hanno possibili valori predefiniti, restrizioni di valore o procedure memorizzate che possono essere chiamate per ottenere il valore di uno slot. Tutti i frame formano una gerarchia simile a una gerarchia di oggetti nei linguaggi di programmazione orientati agli oggetti.
+   - **Scenari** sono un tipo speciale di frame che rappresentano situazioni complesse che possono evolversi nel tempo.
 
 **Python**
 
-Emplacement | Valeur | Valeur par défaut | Intervalle |
------|-------|---------------|----------|
-Nom | Python | | |
-Est-Un | Langage-Non-Typé | | |
-Cas de Variable | | CamelCase | |
-Longueur du Programme | | | 5-5000 lignes |
-Syntaxe de Bloc | Indentation | | |
+Slot | Valore | Valore predefinito | Intervallo |
+-----|--------|--------------------|------------|
+Nome | Python |                    |            |
+È-Un | Linguaggio non tipizzato |            |            |
+Caso Variabile |                    | CamelCase  |            |
+Lunghezza Programma |              |            | 5-5000 righe |
+Sintassi Blocco | Indentazione      |            |            |
 
-3. **Représentations procédurales** : basées sur la représentation de la connaissance par une liste d'actions pouvant être exécutées lorsqu'une certaine condition se produit.
-   - Les règles de production sont des déclarations si-alors qui nous permettent de tirer des conclusions. Par exemple, un médecin peut avoir une règle disant que **SI** un patient a une forte fièvre **OU** un taux élevé de protéine C-réactive dans un test sanguin **ALORS** il a une inflammation. Une fois que nous rencontrons l'une des conditions, nous pouvons tirer une conclusion sur l'inflammation, puis l'utiliser dans un raisonnement ultérieur.
-   - Les algorithmes peuvent être considérés comme une autre forme de représentation procédurale, bien qu'ils ne soient presque jamais utilisés directement dans les systèmes basés sur la connaissance.
+3. **Rappresentazioni procedurali** si basano sulla rappresentazione della conoscenza tramite un elenco di azioni che possono essere eseguite quando si verifica una certa condizione.
+   - Le regole di produzione sono dichiarazioni if-then che ci permettono di trarre conclusioni. Ad esempio, un medico può avere una regola che dice che **SE** un paziente ha febbre alta **O** un alto livello di proteina C-reattiva nel test del sangue **ALLORA** ha un'infiammazione. Una volta che incontriamo una delle condizioni, possiamo trarre una conclusione sull'infiammazione e poi usarla per ulteriori ragionamenti.
+   - Gli algoritmi possono essere considerati un'altra forma di rappresentazione procedurale, anche se quasi mai vengono utilizzati direttamente nei sistemi basati sulla conoscenza.
 
-4. **Logique** : a été initialement proposée par Aristote comme un moyen de représenter la connaissance humaine universelle.
-   - La logique des prédicats, en tant que théorie mathématique, est trop riche pour être calculable, donc un sous-ensemble est normalement utilisé, comme les clauses Horn utilisées dans Prolog.
-   - La logique descriptive est une famille de systèmes logiques utilisés pour représenter et raisonner sur des hiérarchies d'objets et des représentations de connaissances distribuées telles que le *web sémantique*.
+4. **Logica** è stata originariamente proposta da Aristotele come un modo per rappresentare la conoscenza universale umana.
+   - La logica predicativa come teoria matematica è troppo ricca per essere computabile, quindi normalmente viene utilizzato un sottoinsieme di essa, come le clausole di Horn utilizzate in Prolog.
+   - La logica descrittiva è una famiglia di sistemi logici utilizzati per rappresentare e ragionare su gerarchie di oggetti e rappresentazioni distribuite della conoscenza come il *web semantico*.
 
-## Systèmes experts
+## Sistemi esperti
 
-L'un des premiers succès de l'IA symbolique a été les soi-disant **systèmes experts** - des systèmes informatiques conçus pour agir en tant qu'expert dans un domaine de problème limité. Ils étaient basés sur une **base de connaissances** extraite d'un ou plusieurs experts humains, et contenaient un **moteur d'inférence** qui effectuait un raisonnement sur cette base.
+Uno dei primi successi dell'IA simbolica sono stati i cosiddetti **sistemi esperti** - sistemi informatici progettati per agire come esperti in un dominio di problemi limitato. Si basavano su una **base di conoscenza** estratta da uno o più esperti umani e contenevano un **motore di inferenza** che eseguiva alcuni ragionamenti su di essa.
 
-![Architecture humaine](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.it.png) | ![Système basé sur la connaissance](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.it.png)
+![Architettura umana](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.it.png) | ![Sistema basato sulla conoscenza](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.it.png)
 ---------------------------------------------|------------------------------------------------
-Structure simplifiée d'un système nerveux humain | Architecture d'un système basé sur la connaissance
+Struttura semplificata del sistema neurale umano | Architettura di un sistema basato sulla conoscenza
 
-Les systèmes experts sont construits comme le système de raisonnement humain, qui contient de la **mémoire à court terme** et de la **mémoire à long terme**. De même, dans les systèmes basés sur la connaissance, nous distinguons les composants suivants :
+I sistemi esperti sono costruiti come il sistema di ragionamento umano, che contiene **memoria a breve termine** e **memoria a lungo termine**. Allo stesso modo, nei sistemi basati sulla conoscenza distinguiamo i seguenti componenti:
 
-* **Mémoire de problème** : contient les connaissances sur le problème actuellement résolu, c'est-à-dire la température ou la pression artérielle d'un patient, s'il a une inflammation ou non, etc. Cette connaissance est également appelée **connaissance statique**, car elle contient un instantané de ce que nous savons actuellement sur le problème - l'état du *problème*.
-* **Base de connaissances** : représente la connaissance à long terme sur un domaine de problème. Elle est extraite manuellement d'experts humains et ne change pas d'une consultation à l'autre. Parce qu'elle nous permet de naviguer d'un état de problème à un autre, elle est également appelée **connaissance dynamique**.
-* **Moteur d'inférence** : orchestre tout le processus de recherche dans l'espace des états de problème, posant des questions à l'utilisateur lorsque cela est nécessaire. Il est également responsable de la recherche des bonnes règles à appliquer à chaque état.
+* **Memoria del problema**: contiene la conoscenza sul problema attualmente in fase di risoluzione, ad esempio la temperatura o la pressione sanguigna di un paziente, se ha un'infiammazione o meno, ecc. Questa conoscenza è anche chiamata **conoscenza statica**, poiché contiene un'istantanea di ciò che sappiamo attualmente sul problema - il cosiddetto *stato del problema*.
+* **Base di conoscenza**: rappresenta la conoscenza a lungo termine su un dominio di problemi. È estratta manualmente dagli esperti umani e non cambia da una consultazione all'altra. Poiché ci permette di navigare da uno stato del problema a un altro, è anche chiamata **conoscenza dinamica**.
+* **Motore di inferenza**: orchestra l'intero processo di ricerca nello spazio dello stato del problema, ponendo domande all'utente quando necessario. È anche responsabile di trovare le regole giuste da applicare a ogni stato.
 
-Prenons comme exemple le système expert suivant pour déterminer un animal en fonction de ses caractéristiques physiques :
+Come esempio, consideriamo il seguente sistema esperto per determinare un animale basandosi sulle sue caratteristiche fisiche:
 
-![Arbre AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.it.png)
+![Albero AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.it.png)
 
-> Image par [Dmitry Soshnikov](http://soshnikov.com)
+> Immagine di [Dmitry Soshnikov](http://soshnikov.com)
 
-Ce diagramme est appelé un **arbre AND-OR**, et c'est une représentation graphique d'un ensemble de règles de production. Dessiner un arbre est utile au début de l'extraction de connaissances de l'expert. Pour représenter les connaissances à l'intérieur de l'ordinateur, il est plus pratique d'utiliser des règles :
+Questo diagramma è chiamato **albero AND-OR**, ed è una rappresentazione grafica di un insieme di regole di produzione. Disegnare un albero è utile all'inizio dell'estrazione della conoscenza dall'esperto. Per rappresentare la conoscenza all'interno del computer è più conveniente utilizzare regole:
 
 ```
 IF the animal eats meat
@@ -112,59 +91,57 @@ OR (animal has sharp teeth
 THEN the animal is a carnivore
 ```
 
-Vous pouvez remarquer que chaque condition du côté gauche de la règle et l'action sont essentiellement des triplets objet-attribut-valeur (OAV). La **mémoire de travail** contient l'ensemble des triplets OAV qui correspondent au problème actuellement résolu. Un **moteur de règles** recherche les règles pour lesquelles une condition est satisfaite et les applique, ajoutant un autre triplet à la mémoire de travail.
+Puoi notare che ogni condizione sul lato sinistro della regola e l'azione sono essenzialmente triplette Oggetto-Attributo-Valore (OAV). La **memoria di lavoro** contiene l'insieme di triplette OAV che corrispondono al problema attualmente in fase di risoluzione. Un **motore di regole** cerca regole per le quali una condizione è soddisfatta e le applica, aggiungendo un'altra tripletta alla memoria di lavoro.
 
-> ✅ Écrivez votre propre arbre AND-OR sur un sujet qui vous plaît !
+> ✅ Scrivi il tuo albero AND-OR su un argomento che ti piace!
 
-### Inférence avant vs. Inférence arrière
+### Inferenza in avanti vs. inferenza all'indietro
 
-Le processus décrit ci-dessus est appelé **inférence avant**. Il commence avec certaines données initiales sur le problème disponibles dans la mémoire de travail, puis exécute la boucle de raisonnement suivante :
+Il processo descritto sopra è chiamato **inferenza in avanti**. Inizia con alcuni dati iniziali sul problema disponibili nella memoria di lavoro e poi esegue il seguente ciclo di ragionamento:
 
-1. Si l'attribut cible est présent dans la mémoire de travail - arrêtez et donnez le résultat
-2. Recherchez toutes les règles dont la condition est actuellement satisfaite - obtenez l'**ensemble de conflits** des règles.
-3. Effectuez la **résolution de conflits** - sélectionnez une règle qui sera exécutée à cette étape. Il pourrait y avoir différentes stratégies de résolution de conflits :
-   - Sélectionnez la première règle applicable dans la base de connaissances
-   - Sélectionnez une règle aléatoire
-   - Sélectionnez une règle *plus spécifique*, c'est-à-dire celle qui répond à la plupart des conditions dans le "côté gauche" (LHS)
-4. Appliquez la règle sélectionnée et insérez un nouveau morceau de connaissance dans l'état du problème
-5. Répétez à partir de l'étape 1.
+1. Se l'attributo target è presente nella memoria di lavoro - fermati e fornisci il risultato
+2. Cerca tutte le regole la cui condizione è attualmente soddisfatta - ottieni il **set di conflitto** delle regole.
+3. Esegui la **risoluzione del conflitto** - seleziona una regola che verrà eseguita in questo passaggio. Ci potrebbero essere diverse strategie di risoluzione del conflitto:
+   - Seleziona la prima regola applicabile nella base di conoscenza
+   - Seleziona una regola casuale
+   - Seleziona una regola *più specifica*, cioè quella che soddisfa il maggior numero di condizioni nel "lato sinistro" (LHS)
+4. Applica la regola selezionata e inserisci un nuovo pezzo di conoscenza nello stato del problema
+5. Ripeti dal passo 1.
 
-Cependant, dans certains cas, nous pourrions vouloir commencer avec une connaissance vide du problème et poser des questions qui nous aideront à arriver à la conclusion. Par exemple, lors d'un diagnostic médical, nous ne réalisons généralement pas toutes les analyses médicales à l'avance avant de commencer à diagnostiquer le patient. Nous préférons plutôt effectuer des analyses lorsqu'une décision doit être prise.
+Tuttavia, in alcuni casi potremmo voler iniziare con una conoscenza vuota sul problema e porre domande che ci aiuteranno ad arrivare alla conclusione. Ad esempio, quando si effettua una diagnosi medica, di solito non eseguiamo tutte le analisi mediche in anticipo prima di iniziare a diagnosticare il paziente. Piuttosto, vogliamo eseguire analisi quando è necessario prendere una decisione.
 
-Ce processus peut être modélisé en utilisant l'**inférence arrière**. Il est dirigé par le **but** - la valeur d'attribut que nous cherchons à trouver :
+Questo processo può essere modellato utilizzando **inferenza all'indietro**. È guidato dall'**obiettivo** - il valore dell'attributo che stiamo cercando di trovare:
 
-1. Sélectionnez toutes les règles qui peuvent nous donner la valeur d'un but (c'est-à-dire avec le but sur le RHS ("côté droit")) - un ensemble de conflits
-2. S'il n'y a pas de règles pour cet attribut, ou s'il y a une règle disant que nous devons demander la valeur à l'utilisateur - demandez-la, sinon :
-3. Utilisez la stratégie de résolution de conflits pour sélectionner une règle que nous utiliserons comme *hypothèse* - nous allons essayer de la prouver
-4. Répétez de manière récurrente le processus pour tous les attributs dans le LHS de la règle, essayant de les prouver comme des buts
-5. Si à un moment donné le processus échoue - utilisez une autre règle à l'étape 3.
+1. Seleziona tutte le regole che possono fornire il valore di un obiettivo (cioè con l'obiettivo sul RHS ("lato destro")) - un set di conflitto
+1. Se non ci sono regole per questo attributo, o c'è una regola che dice che dovremmo chiedere il valore all'utente - chiedilo, altrimenti:
+1. Usa una strategia di risoluzione del conflitto per selezionare una regola che useremo come *ipotesi* - proveremo a dimostrarla
+1. Ripeti ricorsivamente il processo per tutti gli attributi nel LHS della regola, cercando di dimostrarli come obiettivi
+1. Se in qualsiasi momento il processo fallisce - usa un'altra regola al passo 3.
 
-> ✅ Dans quelles situations l'inférence avant est-elle plus appropriée ? Et l'inférence arrière ?
+> ✅ In quali situazioni è più appropriata l'inferenza in avanti? E l'inferenza all'indietro?
 
-### Mise en œuvre des systèmes experts
+### Implementazione dei sistemi esperti
 
-Les systèmes experts peuvent être mis en œuvre à l'aide de différents outils :
+I sistemi esperti possono essere implementati utilizzando diversi strumenti:
 
-* En les programmant directement dans un langage de programmation de haut niveau. Ce n'est pas la meilleure idée, car le principal avantage d'un système basé sur la connaissance est que la connaissance est séparée de l'inférence, et potentiellement un expert du domaine du problème devrait être capable d'écrire des règles sans comprendre les détails du processus d'inférence.
-* En utilisant une **coquille de systèmes experts**, c'est-à-dire un système spécifiquement conçu pour être peuplé de connaissances à l'aide d'un certain langage de représentation des connaissances.
+* Programmandoli direttamente in un linguaggio di programmazione di alto livello. Questa non è la scelta migliore, poiché il principale vantaggio di un sistema basato sulla conoscenza è che la conoscenza è separata dall'inferenza, e potenzialmente un esperto del dominio del problema dovrebbe essere in grado di scrivere regole senza comprendere i dettagli del processo di inferenza.
+* Utilizzando un **guscio di sistemi esperti**, cioè un sistema progettato specificamente per essere popolato di conoscenza utilizzando un linguaggio di rappresentazione della conoscenza.
 
-## ✍️ Exercice : Inférence animale
+## ✍️ Esercizio: Inferenza sugli animali
 
-Voir [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) pour un exemple de mise en œuvre d'un système expert d'inférence avant et arrière.
+Consulta [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) per un esempio di implementazione di un sistema esperto con inferenza in avanti e all'indietro.
+> **Nota**: Questo esempio è piuttosto semplice e serve solo a dare un'idea di come appare un sistema esperto. Una volta che inizi a creare un sistema del genere, noterai un comportamento *intelligente* solo quando raggiungi un certo numero di regole, circa 200 o più. A un certo punto, le regole diventano troppo complesse per tenerle tutte a mente, e potresti iniziare a chiederti perché il sistema prenda determinate decisioni. Tuttavia, una caratteristica importante dei sistemi basati sulla conoscenza è che puoi sempre *spiegare* esattamente come è stata presa ciascuna decisione.
+## Ontologie e il Web Semantico
 
-> **Remarque** : Cet exemple est assez simple et ne donne qu'une idée de ce à quoi ressemble un système expert. Une fois que vous commencez à créer un tel système, vous remarquerez un comportement *intelligent* de sa part seulement lorsque vous atteindrez un certain nombre de règles, autour de 200+. À un moment donné, les règles deviennent trop complexes pour garder toutes en tête, et à ce stade, vous pourriez commencer à vous demander pourquoi un système prend certaines décisions. Cependant, la caractéristique importante des systèmes basés sur la connaissance est que vous pouvez toujours *expliquer* exactement comment l'une des décisions a été prise.
+Alla fine del XX secolo, è stata avviata un'iniziativa per utilizzare la rappresentazione della conoscenza al fine di annotare le risorse Internet, rendendo possibile trovare risorse che corrispondano a query molto specifiche. Questo movimento è stato chiamato **Web Semantico** e si basava su diversi concetti:
 
-## Ontologies et Web Sémantique
+- Una rappresentazione della conoscenza speciale basata su **[logiche descrittive](https://en.wikipedia.org/wiki/Description_logic)** (DL). È simile alla rappresentazione della conoscenza a frame, poiché costruisce una gerarchia di oggetti con proprietà, ma ha una semantica logica formale e inferenza. Esiste un'intera famiglia di DL che bilanciano tra espressività e complessità algoritmica dell'inferenza.
+- Una rappresentazione della conoscenza distribuita, in cui tutti i concetti sono rappresentati da un identificatore URI globale, rendendo possibile creare gerarchie di conoscenza che si estendono su Internet.
+- Una famiglia di linguaggi basati su XML per la descrizione della conoscenza: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
 
-À la fin du 20ème siècle, il y a eu une initiative visant à utiliser la représentation des connaissances pour annoter les ressources Internet, afin qu'il soit possible de trouver des ressources correspondant à des requêtes très spécifiques. Ce mouvement a été appelé **Web Sémantique**, et il reposait sur plusieurs concepts :
+Un concetto fondamentale nel Web Semantico è quello di **Ontologia**. Si riferisce a una specifica esplicita di un dominio di problema utilizzando una rappresentazione formale della conoscenza. L'ontologia più semplice può essere solo una gerarchia di oggetti in un dominio di problema, ma le ontologie più complesse includeranno regole che possono essere utilizzate per l'inferenza.
 
-- Une représentation de connaissance spéciale basée sur les **[logiques de description](https://en.wikipedia.org/wiki/Description_logic)** (DL). Elle est similaire à la représentation de connaissance par cadre, car elle construit une hiérarchie d'objets avec des propriétés, mais elle a une sémantique logique formelle et une inférence. Il existe toute une famille de DL qui équilibre expressivité et complexité algorithmique de l'inférence.
-- Représentation de connaissance distribuée, où tous les concepts sont représentés par un identifiant URI global, ce qui permet de créer des hiérarchies de connaissances qui s'étendent sur Internet.
-- Une famille de langages basés sur XML pour la description des connaissances : RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
-
-Un concept central du Web Sémantique est le concept d'**Ontologie**. Cela fait référence à une spécification explicite d'un domaine de problème utilisant une certaine représentation formelle des connaissances. La plus simple des ontologies peut être juste une hiérarchie d'objets dans un domaine de problème, mais des ontologies plus complexes incluront des règles qui peuvent être utilisées pour l'inférence.
-
-Dans le web sémantique, toutes les représentations sont basées sur des triplets. Chaque objet et chaque relation sont identifiés de manière unique par l'URI. Par exemple, si nous voulons affirmer le fait que ce curriculum IA a été développé par Dmitry Soshnikov le 1er janvier 2022 - voici les triplets que nous pouvons utiliser :
+Nel Web Semantico, tutte le rappresentazioni si basano su triplette. Ogni oggetto e ogni relazione sono identificati univocamente dall'URI. Ad esempio, se vogliamo affermare che questo Curriculum di AI è stato sviluppato da Dmitry Soshnikov il 1° gennaio 2022, ecco le triplette che possiamo utilizzare:
 
 <img src="images/triplet.png" width="30%"/>
 
@@ -173,17 +150,17 @@ http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creati
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Ici `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator` sont des URI bien connues et universellement acceptées pour exprimer les concepts de *créateur* et de *date de création*.
+> ✅ Qui `http://www.example.com/terms/creation-date` e `http://purl.org/dc/elements/1.1/creator` sono alcuni URI ben noti e universalmente accettati per esprimere i concetti di *creatore* e *data di creazione*.
 
-Dans un cas plus complexe, si nous voulons définir une liste de créateurs, nous pouvons utiliser certaines structures de données définies dans RDF.
+In un caso più complesso, se vogliamo definire un elenco di creatori, possiamo utilizzare alcune strutture dati definite in RDF.
 
 <img src="images/triplet-complex.png" width="40%"/>
 
-> Diagrammes ci-dessus par [Dmitry Soshnikov](http://soshnikov.com)
+> Diagrammi sopra di [Dmitry Soshnikov](http://soshnikov.com)
 
-Les progrès réalisés dans la construction du Web Sémantique ont été quelque peu ralentis par le succès des moteurs de recherche et des techniques de traitement du langage naturel, qui permettent d'extraire des données structurées à partir de texte. Cependant, dans certains domaines, il y a encore des efforts significatifs pour maintenir des ontologies et des bases de connaissances. Quelques projets à noter :
+Il progresso nella costruzione del Web Semantico è stato in qualche modo rallentato dal successo dei motori di ricerca e delle tecniche di elaborazione del linguaggio naturale, che consentono di estrarre dati strutturati dal testo. Tuttavia, in alcune aree ci sono ancora sforzi significativi per mantenere ontologie e basi di conoscenza. Alcuni progetti degni di nota:
 
-* [WikiData](https://wikidata.org/) est une collection de bases de connaissances lisibles par machine associées à Wikipedia. La plupart des données sont extraites des *InfoBoxes* de Wikipedia, des morceaux de contenu structuré à l'intérieur des pages Wikipedia. Vous pouvez [interroger](https://query.wikidata.org/) wikidata en SPARQL, un langage de requête spécial pour le Web Sémantique. Voici un exemple de requête qui affiche les couleurs d'yeux les plus populaires chez les humains :
+* [WikiData](https://wikidata.org/) è una raccolta di basi di conoscenza leggibili dalle macchine associate a Wikipedia. La maggior parte dei dati è estratta dagli *InfoBox* di Wikipedia, pezzi di contenuto strutturato all'interno delle pagine di Wikipedia. Puoi [interrogare](https://query.wikidata.org/) WikiData in SPARQL, un linguaggio di query speciale per il Web Semantico. Ecco un esempio di query che mostra i colori degli occhi più popolari tra gli esseri umani:
 
 ```sparql
 #defaultView:BubbleChart
@@ -197,9 +174,47 @@ WHERE
 GROUP BY ?eyeColorLabel
 ```
 
-* [DBpedia](https://www.dbpedia.org/) est un autre effort similaire à WikiData.
+* [DBpedia](https://www.dbpedia.org/) è un altro progetto simile a WikiData.
 
-> ✅ Si vous souhaitez expérimenter la construction de vos propres ontologies, ou ouvrir des ontologies existantes, il existe un excellent éditeur d'ontologies visuel appelé [Protégé](https://protege.stanford.edu/
+> ✅ Se vuoi sperimentare la costruzione delle tue ontologie o aprire quelle esistenti, c'è un ottimo editor visuale di ontologie chiamato [Protégé](https://protege.stanford.edu/). Scaricalo o usalo online.
 
-**Disclaimer**: 
-This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+<img src="images/protege.png" width="70%"/>
+
+*Editor Web Protégé aperto con l'ontologia della Famiglia Romanov. Screenshot di Dmitry Soshnikov*
+
+## ✍️ Esercizio: Un'Ontologia Familiare
+
+Consulta [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) per un esempio di utilizzo delle tecniche del Web Semantico per ragionare sulle relazioni familiari. Prenderemo un albero genealogico rappresentato nel formato comune GEDCOM e un'ontologia delle relazioni familiari per costruire un grafo di tutte le relazioni familiari per un determinato insieme di individui.
+
+## Microsoft Concept Graph
+
+Nella maggior parte dei casi, le ontologie sono create con cura manualmente. Tuttavia, è anche possibile **estrarre** ontologie da dati non strutturati, ad esempio da testi in linguaggio naturale.
+
+Un tentativo in tal senso è stato fatto da Microsoft Research, e ha portato al [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
+
+Si tratta di una vasta raccolta di entità raggruppate utilizzando la relazione di ereditarietà `is-a`. Consente di rispondere a domande come "Cos'è Microsoft?" - la risposta potrebbe essere qualcosa come "un'azienda con probabilità 0,87 e un marchio con probabilità 0,75".
+
+Il grafo è disponibile sia come API REST che come un grande file di testo scaricabile che elenca tutte le coppie di entità.
+
+## ✍️ Esercizio: Un Concept Graph
+
+Prova il notebook [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) per vedere come possiamo utilizzare Microsoft Concept Graph per raggruppare articoli di notizie in diverse categorie.
+
+## Conclusione
+
+Oggi, l'AI è spesso considerata sinonimo di *Machine Learning* o *Reti Neurali*. Tuttavia, un essere umano dimostra anche un ragionamento esplicito, qualcosa che attualmente non viene gestito dalle reti neurali. Nei progetti del mondo reale, il ragionamento esplicito è ancora utilizzato per svolgere compiti che richiedono spiegazioni o la capacità di modificare il comportamento del sistema in modo controllato.
+
+## 🚀 Sfida
+
+Nel notebook sull'Ontologia Familiare associato a questa lezione, c'è l'opportunità di sperimentare altre relazioni familiari. Prova a scoprire nuove connessioni tra le persone nell'albero genealogico.
+
+## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+
+## Revisione e Studio Autonomo
+
+Fai una ricerca su Internet per scoprire aree in cui gli esseri umani hanno cercato di quantificare e codificare la conoscenza. Dai un'occhiata alla Tassonomia di Bloom e torna indietro nella storia per imparare come gli esseri umani hanno cercato di dare un senso al loro mondo. Esplora il lavoro di Linneo per creare una tassonomia degli organismi e osserva come Dmitri Mendeleev ha creato un modo per descrivere e raggruppare gli elementi chimici. Quali altri esempi interessanti riesci a trovare?
+
+**Compito**: [Costruisci un'Ontologia](assignment.md)
+
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

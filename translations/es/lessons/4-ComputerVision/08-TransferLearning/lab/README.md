@@ -1,14 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+  "translation_date": "2025-08-24T09:19:55+00:00",
+  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+  "language_code": "es"
+}
+-->
 # Clasificación de Mascotas de Oxford usando Aprendizaje por Transferencia
 
-Tarea del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).
+Asignación de laboratorio del [Currículo de AI para Principiantes](https://github.com/microsoft/ai-for-beginners).
 
 ## Tarea
 
-Imagina que necesitas desarrollar una aplicación para una guardería de mascotas para catalogar todos los animales. Una de las grandes características de tal aplicación sería descubrir automáticamente la raza a partir de una fotografía. En esta tarea, utilizaremos el aprendizaje por transferencia para clasificar imágenes de mascotas de la vida real del conjunto de datos de mascotas [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+Imagina que necesitas desarrollar una aplicación para una guardería de mascotas para catalogar a todas las mascotas. Una de las grandes características de dicha aplicación sería identificar automáticamente la raza a partir de una fotografía. En esta asignación, utilizaremos aprendizaje por transferencia para clasificar imágenes reales de mascotas del conjunto de datos de [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
 ## El Conjunto de Datos
 
-Usaremos el conjunto de datos original de mascotas [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contiene 35 razas diferentes de perros y gatos.
+Usaremos el conjunto de datos original de [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contiene 35 razas diferentes de perros y gatos.
 
 Para descargar el conjunto de datos, utiliza este fragmento de código:
 
@@ -18,13 +27,13 @@ Para descargar el conjunto de datos, utiliza este fragmento de código:
 !rm images.tar.gz
 ```
 
-## Iniciando el Notebook
+## Iniciando el Cuaderno
 
 Comienza el laboratorio abriendo [OxfordPets.ipynb](../../../../../../lessons/4-ComputerVision/08-TransferLearning/lab/OxfordPets.ipynb)
 
 ## Conclusión
 
-El aprendizaje por transferencia y las redes preentrenadas nos permiten resolver problemas de clasificación de imágenes del mundo real de manera relativamente sencilla. Sin embargo, las redes preentrenadas funcionan bien con imágenes de tipos similares, y si comenzamos a clasificar imágenes muy diferentes (por ejemplo, imágenes médicas), es probable que obtengamos resultados mucho peores.
+El aprendizaje por transferencia y las redes preentrenadas nos permiten resolver problemas reales de clasificación de imágenes de manera relativamente sencilla. Sin embargo, las redes preentrenadas funcionan bien con imágenes de un tipo similar, y si comenzamos a clasificar imágenes muy diferentes (por ejemplo, imágenes médicas), es probable que obtengamos resultados mucho peores.
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Si bien nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No somos responsables de ningún malentendido o mala interpretación que surja del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

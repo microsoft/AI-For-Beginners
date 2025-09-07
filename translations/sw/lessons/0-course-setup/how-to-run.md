@@ -1,12 +1,21 @@
-# Hur man kör koden
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
+  "translation_date": "2025-08-25T21:05:27+00:00",
+  "source_file": "lessons/0-course-setup/how-to-run.md",
+  "language_code": "sw"
+}
+-->
+# Jinsi ya Kuendesha Msimbo
 
-Denna kursplan innehåller många exekverbara exempel och labbar som du vill köra. För att göra detta behöver du kunna köra Python-kod i Jupyter Notebooks som tillhandahålls som en del av denna kursplan. Du har flera alternativ för att köra koden:
+Mtaala huu una mifano mingi inayoweza kutekelezwa na maabara ambayo ungependa kuendesha. Ili kufanya hivyo, unahitaji uwezo wa kutekeleza msimbo wa Python katika Jupyter Notebooks zinazotolewa kama sehemu ya mtaala huu. Una chaguo kadhaa za kuendesha msimbo:
 
-## Kör lokalt på din dator
+## Kuendesha kwenye Kompyuta Yako
 
-För att köra koden lokalt på din dator behöver du ha någon version av Python installerad. Jag rekommenderar personligen att installera **[miniconda](https://conda.io/en/latest/miniconda.html)** - det är en ganska lättviktsinstallation som stöder `conda` paketchef för olika Python **virtuella miljöer**.
+Ili kuendesha msimbo kwenye kompyuta yako, unahitaji kuwa na toleo fulani la Python lililowekwa. Ninapendekeza sana kusakinisha **[miniconda](https://conda.io/en/latest/miniconda.html)** - ni usakinishaji mwepesi unaosaidia meneja wa kifurushi cha `conda` kwa mazingira tofauti ya **Python**.
 
-Efter att du har installerat miniconda behöver du klona repositoryt och skapa en virtuell miljö som ska användas för denna kurs:
+Baada ya kusakinisha miniconda, unahitaji kunakili hifadhi na kuunda mazingira ya kawaida yatakayotumika kwa kozi hii:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -15,53 +24,53 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Använda Visual Studio Code med Python-tillägg
+### Kutumia Visual Studio Code na Kiendelezi cha Python
 
-Förmodligen det bästa sättet att använda kursplanen är att öppna den i [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) med [Python-tillägget](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Njia bora zaidi ya kutumia mtaala huu ni kuufungua katika [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) na [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Obs!**: När du har klonat och öppnat katalogen i VS Code kommer den automatiskt att föreslå att du installerar Python-tillägg. Du måste också installera miniconda som beskrivits ovan.
+> **Note**: Mara tu unapokopi na kufungua folda katika VS Code, itakupendekezea kusakinisha viendelezi vya Python. Pia utahitaji kusakinisha miniconda kama ilivyoelezwa hapo juu.
 
-> **Obs!**: Om VS Code föreslår att du ska öppna repositoryt i en container, behöver du avböja detta för att använda den lokala Python-installationen.
+> **Note**: Ikiwa VS Code inapendekeza kufungua hifadhi katika kontena, unapaswa kukataa hili ili kutumia usakinishaji wa Python wa ndani.
 
-### Använda Jupyter i webbläsaren
+### Kutumia Jupyter kwenye Kivinjari
 
-Du kan också använda Jupyter-miljön direkt från webbläsaren på din egen dator. Faktum är att både klassiska Jupyter och Jupyter Hub erbjuder en ganska bekväm utvecklingsmiljö med automatisk komplettering, kodmarkering, etc.
+Unaweza pia kutumia mazingira ya Jupyter moja kwa moja kutoka kwenye kivinjari kwenye kompyuta yako. Kwa kweli, Jupyter ya kawaida na Jupyter Hub hutoa mazingira mazuri ya maendeleo yenye uwezo wa kukamilisha msimbo kiotomatiki, kuonyesha rangi ya msimbo, n.k.
 
-För att starta Jupyter lokalt, gå till kursens katalog och kör:
+Ili kuanza Jupyter ndani ya nchi, nenda kwenye folda ya kozi, na utekeleze:
 
 ```bash
 jupyter notebook
 ```
-eller
+au
 ```bash
 jupyterhub
 ```
-Du kan sedan navigera till valfri `.ipynb` files, open them and start working.
+Kisha unaweza kuvinjari faili zozote za `.ipynb`, kuzifungua na kuanza kufanya kazi.
 
-### Running in container
+### Kuendesha katika Kontena
 
-One alternative to Python installation would be to run the code in container. Since our repository contains special `.devcontainer` mapp som instruerar hur man bygger en container för detta repo, VS Code skulle erbjuda dig att öppna koden i containern. Detta kräver Docker-installation och skulle också vara mer komplext, så vi rekommenderar detta för mer erfarna användare.
+Njia mbadala ya usakinishaji wa Python ni kuendesha msimbo katika kontena. Kwa kuwa hifadhi yetu ina folda maalum ya `.devcontainer` inayotoa maelekezo ya jinsi ya kujenga kontena kwa hifadhi hii, VS Code itakupendekezea kufungua msimbo katika kontena. Hii itahitaji usakinishaji wa Docker, na pia itakuwa ngumu zaidi, kwa hivyo tunapendekeza hii kwa watumiaji wenye uzoefu zaidi.
 
-## Köra i molnet
+## Kuendesha Mtandaoni
 
-Om du inte vill installera Python lokalt och har tillgång till några molnresurser - ett bra alternativ skulle vara att köra koden i molnet. Det finns flera sätt att göra detta:
+Ikiwa hutaki kusakinisha Python ndani ya nchi, na una rasilimali za wingu - njia nzuri ni kuendesha msimbo mtandaoni. Kuna njia kadhaa za kufanya hivi:
 
-* Använda **[GitHub Codespaces](https://github.com/features/codespaces)**, vilket är en virtuell miljö som skapats för dig på GitHub, tillgänglig via VS Code:s webbläsargränssnitt. Om du har tillgång till Codespaces kan du helt enkelt klicka på **Code**-knappen i repo, starta en codespace och komma igång på nolltid.
-* Använda **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) är en gratis datorkraft som tillhandahålls i molnet för personer som du att testa lite kod på GitHub. Det finns en knapp på förstasidan för att öppna repositoryt i Binder - detta bör snabbt ta dig till bindersidan, som kommer att bygga den underliggande containern och starta Jupyter-webbgränssnittet för dig sömlöst.
+* Kutumia **[GitHub Codespaces](https://github.com/features/codespaces)**, ambayo ni mazingira ya kawaida yaliyoundwa kwa ajili yako kwenye GitHub, yanayopatikana kupitia kiolesura cha kivinjari cha VS Code. Ikiwa una ufikiaji wa Codespaces, unaweza kubofya kitufe cha **Code** kwenye hifadhi, kuanzisha codespace, na kuanza mara moja.
+* Kutumia **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) ni rasilimali za bure za kompyuta zinazotolewa mtandaoni kwa watu kama wewe kujaribu msimbo kwenye GitHub. Kuna kitufe kwenye ukurasa wa mbele kufungua hifadhi katika Binder - hii inapaswa kukuchukua haraka kwenye tovuti ya Binder, ambayo itajenga kontena msingi na kuanzisha kiolesura cha wavuti cha Jupyter kwa urahisi.
 
-> **Obs!**: För att förhindra missbruk har Binder tillgång till vissa webbresurser blockerade. Detta kan förhindra att viss kod fungerar, som hämtar modeller och/eller dataset från offentliga Internet. Du kan behöva hitta några lösningar. Dessutom är de datorkraft som tillhandahålls av Binder ganska grundläggande, så träningen kommer att vara långsam, särskilt i senare mer komplexa lektioner.
+> **Note**: Ili kuzuia matumizi mabaya, Binder imezuia ufikiaji wa baadhi ya rasilimali za wavuti. Hii inaweza kuzuia baadhi ya misimbo inayopakua mifano na/au seti za data kutoka mtandao wa umma kufanya kazi. Unaweza kuhitaji kutafuta njia mbadala. Pia, rasilimali za kompyuta zinazotolewa na Binder ni za msingi sana, kwa hivyo mafunzo yatakuwa polepole, hasa katika masomo magumu zaidi.
 
-## Köra i molnet med GPU
+## Kuendesha Mtandaoni na GPU
 
-Vissa av de senare lektionerna i denna kursplan skulle dra stor nytta av GPU-stöd, eftersom träningen annars kommer att vara smärtsamt långsam. Det finns några alternativ du kan följa, särskilt om du har tillgång till molnet antingen genom [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) eller genom din institution:
+Baadhi ya masomo ya baadaye katika mtaala huu yatanufaika sana na msaada wa GPU, kwa sababu vinginevyo mafunzo yatakuwa ya polepole sana. Kuna chaguo chache unazoweza kufuata, hasa ikiwa una ufikiaji wa wingu kupitia [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), au kupitia taasisi yako:
 
-* Skapa [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) och anslut till den via Jupyter. Du kan då klona repo direkt till maskinen och börja lära dig. NC-seriens virtuella maskiner har GPU-stöd.
+* Unda [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) na uunganishe nayo kupitia Jupyter. Unaweza kisha kunakili hifadhi moja kwa moja kwenye mashine, na kuanza kujifunza. Mashine za NC-series zina msaada wa GPU.
 
-> **Obs!**: Vissa prenumerationer, inklusive Azure for Students, erbjuder inte GPU-stöd direkt. Du kan behöva begära ytterligare GPU-kärnor genom en teknisk supportförfrågan.
+> **Note**: Baadhi ya usajili, ikiwa ni pamoja na Azure for Students, hazitoi msaada wa GPU moja kwa moja. Unaweza kuhitaji kuomba nyongeza ya cores za GPU kupitia ombi la msaada wa kiufundi.
 
-* Skapa [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) och använd sedan Notebook-funktionen där. [Denna video](https://azure-for-academics.github.io/quickstart/azureml-papers/) visar hur man klonar ett repository till Azure ML-notebook och börjar använda det.
+* Unda [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) na kisha utumie kipengele cha Notebook huko. [Video hii](https://azure-for-academics.github.io/quickstart/azureml-papers/) inaonyesha jinsi ya kunakili hifadhi kwenye daftari la Azure ML na kuanza kuitumia.
 
-Du kan också använda Google Colab, som kommer med viss gratis GPU-stöd, och ladda upp Jupyter Notebooks dit för att köra dem en efter en.
+Unaweza pia kutumia Google Colab, ambayo inakuja na msaada wa GPU wa bure, na kupakia Jupyter Notebooks huko ili kuzitekeleza moja baada ya nyingine.
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, var medveten om att automatiska översättningar kan innehålla fel eller oegentligheter. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi tar inget ansvar för missförstånd eller feltolkningar som uppstår på grund av användningen av denna översättning.
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

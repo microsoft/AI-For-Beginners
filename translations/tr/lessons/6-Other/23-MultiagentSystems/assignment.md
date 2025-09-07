@@ -1,8 +1,17 @@
-# NetLogo Görevi
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
+  "translation_date": "2025-08-26T07:32:42+00:00",
+  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
+  "language_code": "tr"
+}
+-->
+# NetLogo Ödevi
 
-NetLogo kütüphanesindeki modellerden birini alarak, gerçek bir durumu mümkün olduğunca yakın bir şekilde simüle edin. İyi bir örnek, Alternatif Görselleştirmeler klasöründeki Virus modelini değiştirerek COVID-19'un yayılımını modellemek için nasıl kullanılabileceğini göstermektir. Gerçek bir virüs yayılımını taklit eden bir model oluşturabilir misiniz?
+NetLogo'nun kütüphanesindeki modellerden birini alın ve bunu gerçek bir durumu olabildiğince yakından simüle etmek için kullanın. İyi bir örnek, Alternatif Görselleştirmeler klasöründeki Virüs modelini, COVID-19'un yayılmasını modellemek için nasıl kullanılabileceğini gösterecek şekilde uyarlamak olabilir. Gerçek hayattaki bir viral yayılımı taklit eden bir model oluşturabilir misiniz?
 
-Çalışmanızı, bir kopyasını kaydederek ve modelin gerçek dünya durumu ile nasıl bağlantılı olduğunu açıklayan bir video demosu oluşturarak gösterin.
+Çalışmanızı bir kopya kaydederek ve modelin gerçek bir durumla nasıl bağlantılı olduğunu açıklayan bir video demosu hazırlayarak gösterin.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk konusunda çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucunda ortaya çıkabilecek yanlış anlamalardan veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

@@ -1,26 +1,35 @@
-# Eğitmenler için
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "a094ef9927883de1cfcee51dbd143381",
+  "translation_date": "2025-08-26T07:40:06+00:00",
+  "source_file": "lessons/0-course-setup/for-teachers.md",
+  "language_code": "tr"
+}
+-->
+# Eğitimciler İçin
 
-Bu müfredatı sınıfınızda kullanmak ister misiniz? Lütfen çekinmeyin!
+Bu müfredatı sınıfınızda kullanmak ister misiniz? Lütfen çekinmeden kullanın!
 
-Aslında, bunu GitHub Classroom kullanarak GitHub'ın kendisi içinde de kullanabilirsiniz.
+Aslında, GitHub Classroom kullanarak bu müfredatı doğrudan GitHub üzerinde kullanabilirsiniz.
 
-Bunu yapmak için, bu repoyu fork'layın. Her ders için bir repo oluşturmanız gerekecek, bu nedenle her klasörü ayrı bir repoya çıkarmanız gerekecek. Bu şekilde, [GitHub Classroom](https://classroom.github.com/classrooms) her dersi ayrı ayrı alabilir.
+Bunu yapmak için, bu depoyu forklayın. Her ders için ayrı bir depo oluşturmanız gerekecek, bu yüzden her klasörü ayrı bir depoya çıkarmanız gerekecek. Böylece, [GitHub Classroom](https://classroom.github.com/classrooms) her dersi ayrı ayrı algılayabilir.
 
-Bu [tam talimatlar](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) sınıfınızı nasıl kuracağınız hakkında bir fikir verecektir.
+Bu [detaylı talimatlar](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) sınıfınızı nasıl kuracağınız konusunda size bir fikir verecektir.
 
-## Repoyu olduğu gibi kullanma
+## Depoyu olduğu gibi kullanma
 
-Eğer bu repoyu mevcut haliyle, GitHub Classroom kullanmadan kullanmak isterseniz, bu da mümkündür. Öğrencilerinize hangi dersi birlikte çalışacaklarını iletmeniz gerekecek.
+Eğer bu depoyu şu anki haliyle, GitHub Classroom kullanmadan kullanmak isterseniz, bu da mümkün. Öğrencilerinizle hangi dersi birlikte işleyeceğinizi iletişim kurmanız gerekecek.
 
-Çevrimiçi bir formatta (Zoom, Teams veya diğerleri) sınavlar için grup odaları oluşturabilirsiniz ve öğrencileri öğrenmeye hazırlamaları için mentorluk yapabilirsiniz. Daha sonra öğrencileri sınavlara davet edin ve belirli bir zamanda cevaplarını 'sorunlar' olarak gönderin. Öğrencilerin açık bir ortamda işbirliği yapmalarını istiyorsanız, ödevlerle de aynı şeyi yapabilirsiniz.
+Çevrimiçi bir formatta (Zoom, Teams veya başka bir platform) sınavlar için gruplar oluşturabilir ve öğrencileri öğrenmeye hazırlanmaları için yönlendirebilirsiniz. Daha sonra öğrencileri sınavlara davet edebilir ve belirli bir zamanda cevaplarını 'issue' olarak göndermelerini isteyebilirsiniz. Aynı yöntemi, öğrencilerin açık bir şekilde iş birliği yapmasını istediğiniz ödevler için de uygulayabilirsiniz.
 
-Daha özel bir format tercih ediyorsanız, öğrencilerinize müfredatı, ders ders, kendi GitHub repolarına özel repolar olarak fork'lamalarını ve size erişim vermelerini isteyin. Böylece, sınavları ve ödevleri özel olarak tamamlayabilir ve bunları sınıf repolarınızdaki sorunlar aracılığıyla size gönderebilirler.
+Daha özel bir format tercih ediyorsanız, öğrencilerinizden müfredatı ders ders kendi GitHub depolarına, özel depo olarak forklamalarını isteyin ve size erişim izni versinler. Böylece sınavları ve ödevleri özel olarak tamamlayabilir ve bunları sınıf deponuzdaki 'issue'lar aracılığıyla size gönderebilirler.
 
-Çevrimiçi bir sınıf formatında bunu çalıştırmanın birçok yolu vardır. Hangi yöntemin sizin için en iyi çalıştığını lütfen bize bildirin!
+Çevrimiçi bir sınıf formatında bunu çalıştırmanın birçok yolu var. Sizin için en iyi neyin işe yaradığını lütfen bize bildirin!
 
-## Düşüncelerinizi bizimle paylaşın
+## Lütfen düşüncelerinizi bizimle paylaşın
 
-Bu müfredatın sizin ve öğrencileriniz için işe yaramasını istiyoruz. Lütfen geri bildirimlerinizi tartışma panolarında paylaşın!
+Bu müfredatın sizin ve öğrencileriniz için işe yaramasını istiyoruz. Lütfen tartışma panolarında bize geri bildirimde bulunun!
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen dikkate alın. Orijinal belge, kendi dilinde otoriter bir kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama için sorumluluk kabul etmiyoruz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

@@ -1,18 +1,27 @@
-# Quizze
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
+  "translation_date": "2025-08-24T09:45:20+00:00",
+  "source_file": "etc/quiz-app/README.md",
+  "language_code": "de"
+}
+-->
+# Quizfragen
 
-Diese Quizze sind die Vor- und Nach-Lecture-Quizze für das KI-Curriculum unter https://aka.ms/ai-beginners
+Diese Quizfragen sind die Vor- und Nachbereitungsquizfragen für den KI-Lehrplan unter https://aka.ms/ai-beginners
 
-## Hinzufügen eines übersetzten Quizsets
+## Hinzufügen eines übersetzten Quiz-Sets
 
-Fügen Sie eine Quizübersetzung hinzu, indem Sie passende Quizstrukturen in den `assets/translations`-Ordnern erstellen. Die kanonischen Quizze befinden sich in `assets/translations/en`. Die Quizze sind in mehrere Gruppen nach Lektionen unterteilt. Stellen Sie sicher, dass die Nummerierung mit dem entsprechenden Quizabschnitt übereinstimmt. In diesem Curriculum gibt es insgesamt 40 Quizze, beginnend bei 0.
+Füge eine Quiz-Übersetzung hinzu, indem du passende Quizstrukturen in den Ordnern `assets/translations` erstellst. Die ursprünglichen Quizfragen befinden sich in `assets/translations/en`. Die Quizfragen sind nach Lektionen in mehrere Gruppen unterteilt. Achte darauf, die Nummerierung mit dem entsprechenden Quizabschnitt abzugleichen. Insgesamt gibt es 40 Quizfragen in diesem Lehrplan, beginnend mit der Nummer 0.
 
-Nach der Bearbeitung der Übersetzungen bearbeiten Sie die index.js-Datei im Übersetzungsordner, um alle Dateien gemäß den Konventionen in `en` zu importieren.
+Nach dem Bearbeiten der Übersetzungen bearbeite die Datei `index.js` im Übersetzungsordner, um alle Dateien gemäß den Konventionen in `en` zu importieren.
 
-Bearbeiten Sie die `index.js`-Datei in `assets/translations`, um die neuen übersetzten Dateien zu importieren.
+Bearbeite die Datei `index.js` in `assets/translations`, um die neuen übersetzten Dateien zu importieren.
 
-Dann bearbeiten Sie das Dropdown-Menü in `App.vue` in dieser App, um Ihre Sprache hinzuzufügen. Passen Sie die lokalisierte Abkürzung an den Ordnernamen Ihrer Sprache an.
+Bearbeite anschließend das Dropdown-Menü in `App.vue` in dieser App, um deine Sprache hinzuzufügen. Passe die lokalisierte Abkürzung an den Ordnernamen deiner Sprache an.
 
-Schließlich bearbeiten Sie alle Quizlinks in den übersetzten Lektionen, falls vorhanden, um diese Lokalisierung als Abfrageparameter einzuschließen: `?loc=fr` zum Beispiel.
+Schließlich bearbeite alle Quiz-Links in den übersetzten Lektionen, falls vorhanden, um diese Lokalisierung als Abfrageparameter hinzuzufügen: z. B. `?loc=fr`.
 
 ## Projektsetup
 
@@ -26,13 +35,13 @@ npm install
 npm run serve
 ```
 
-### Konstruiert und minimiert für die Produktion
+### Kompiliert und minimiert für die Produktion
 
 ```
 npm run build
 ```
 
-### Linter und behebt Dateien
+### Überprüft und behebt Dateien
 
 ```
 npm run lint
@@ -42,55 +51,56 @@ npm run lint
 
 Siehe [Konfigurationsreferenz](https://cli.vuejs.org/config/).
 
-Credits: Vielen Dank an die ursprüngliche Version dieser Quiz-App: https://github.com/arpan45/simple-quiz-vue
+Credits: Dank an die ursprüngliche Version dieser Quiz-App: https://github.com/arpan45/simple-quiz-vue
 
-## Bereitstellung in Azure
+## Bereitstellung auf Azure
 
-Hier ist eine Schritt-für-Schritt-Anleitung, um Ihnen den Einstieg zu erleichtern:
+Hier ist eine Schritt-für-Schritt-Anleitung, um dir den Einstieg zu erleichtern:
 
-1. Forken Sie ein GitHub-Repository
-Stellen Sie sicher, dass Ihr Code für die statische Web-App in Ihrem GitHub-Repository vorhanden ist. Forken Sie dieses Repository.
+1. Forke ein GitHub-Repository  
+Stelle sicher, dass sich der Code deiner statischen Web-App in deinem GitHub-Repository befindet. Forke dieses Repository.
 
-2. Erstellen Sie eine Azure Static Web App
-- Erstellen Sie ein [Azure-Konto](http://azure.microsoft.com)
-- Gehen Sie zum [Azure-Portal](https://portal.azure.com)
-- Klicken Sie auf „Ressource erstellen“ und suchen Sie nach „Static Web App“.
-- Klicken Sie auf „Erstellen“.
+2. Erstelle eine Azure Static Web App  
+- Erstelle ein [Azure-Konto](http://azure.microsoft.com)  
+- Gehe zum [Azure-Portal](https://portal.azure.com)  
+- Klicke auf „Ressource erstellen“ und suche nach „Static Web App“.  
+- Klicke auf „Erstellen“.
 
-3. Konfigurieren Sie die Static Web App
-- Grundlagen: Abonnement: Wählen Sie Ihr Azure-Abonnement aus.
-- Ressourcengruppe: Erstellen Sie eine neue Ressourcengruppe oder verwenden Sie eine vorhandene.
-- Name: Geben Sie einen Namen für Ihre statische Web-App an.
-- Region: Wählen Sie die Region, die Ihren Nutzern am nächsten ist.
+3. Konfiguriere die Static Web App  
+- Grundlagen:  
+  - Abonnement: Wähle dein Azure-Abonnement aus.  
+  - Ressourcengruppe: Erstelle eine neue Ressourcengruppe oder verwende eine bestehende.  
+  - Name: Gib deiner statischen Web-App einen Namen.  
+  - Region: Wähle die Region, die deinen Nutzern am nächsten liegt.
 
-- #### Bereitstellungsdetails:
-- Quelle: Wählen Sie „GitHub“.
-- GitHub-Konto: Autorisieren Sie Azure, auf Ihr GitHub-Konto zuzugreifen.
-- Organisation: Wählen Sie Ihre GitHub-Organisation aus.
-- Repository: Wählen Sie das Repository, das Ihre statische Web-App enthält.
-- Branch: Wählen Sie den Branch aus, den Sie bereitstellen möchten.
+- #### Bereitstellungsdetails:  
+  - Quelle: Wähle „GitHub“.  
+  - GitHub-Konto: Autorisiere Azure, auf dein GitHub-Konto zuzugreifen.  
+  - Organisation: Wähle deine GitHub-Organisation aus.  
+  - Repository: Wähle das Repository, das deine statische Web-App enthält.  
+  - Branch: Wähle den Branch, von dem aus du bereitstellen möchtest.
 
-- #### Build-Details:
-- Build-Voreinstellungen: Wählen Sie das Framework, mit dem Ihre App erstellt wurde (z. B. React, Angular, Vue usw.).
-- App-Standort: Geben Sie den Ordner an, der Ihren App-Code enthält (z. B. /, wenn es sich im Stammverzeichnis befindet).
-- API-Standort: Wenn Sie eine API haben, geben Sie deren Standort an (optional).
-- Ausgabeort: Geben Sie den Ordner an, in dem die Build-Ausgabe generiert wird (z. B. build oder dist).
+- #### Build-Details:  
+  - Build-Voreinstellungen: Wähle das Framework, mit dem deine App erstellt wurde (z. B. React, Angular, Vue usw.).  
+  - App-Standort: Gib den Ordner an, der deinen App-Code enthält (z. B. /, wenn er sich im Root-Verzeichnis befindet).  
+  - API-Standort: Falls du eine API hast, gib deren Standort an (optional).  
+  - Ausgabe-Standort: Gib den Ordner an, in dem die Build-Ausgabe generiert wird (z. B. build oder dist).
 
-4. Überprüfen und Erstellen
-Überprüfen Sie Ihre Einstellungen und klicken Sie auf „Erstellen“. Azure wird die erforderlichen Ressourcen einrichten und einen GitHub Actions-Workflow in Ihrem Repository erstellen.
+4. Überprüfen und Erstellen  
+Überprüfe deine Einstellungen und klicke auf „Erstellen“. Azure wird die erforderlichen Ressourcen einrichten und einen GitHub Actions-Workflow in deinem Repository erstellen.
 
-5. GitHub Actions Workflow
-Azure wird automatisch eine GitHub Actions-Workflow-Datei in Ihrem Repository erstellen (.github/workflows/azure-static-web-apps-<name>.yml). Dieser Workflow wird den Build- und Bereitstellungsprozess verwalten.
+5. GitHub Actions-Workflow  
+Azure erstellt automatisch eine GitHub Actions-Workflow-Datei in deinem Repository (.github/workflows/azure-static-web-apps-<name>.yml). Dieser Workflow übernimmt den Build- und Bereitstellungsprozess.
 
-6. Überwachen der Bereitstellung
-Gehen Sie zum Tab „Aktionen“ in Ihrem GitHub-Repository. 
-Sie sollten einen laufenden Workflow sehen. Dieser Workflow wird Ihre statische Web-App in Azure erstellen und bereitstellen. 
-Sobald der Workflow abgeschlossen ist, wird Ihre App unter der angegebenen Azure-URL live sein.
+6. Überwache die Bereitstellung  
+Gehe zum Tab „Actions“ in deinem GitHub-Repository.  
+Du solltest sehen, dass ein Workflow ausgeführt wird. Dieser Workflow wird deine statische Web-App auf Azure erstellen und bereitstellen.  
+Sobald der Workflow abgeschlossen ist, ist deine App unter der bereitgestellten Azure-URL live.
 
-### Beispiel-Workflow-Datei
+### Beispiel für eine Workflow-Datei
 
-Hier ist ein Beispiel dafür, wie die GitHub Actions-Workflow-Datei aussehen könnte:
-name: Azure Static Web Apps CI/CD
+Hier ist ein Beispiel, wie die GitHub Actions-Workflow-Datei aussehen könnte:  
+name: Azure Static Web Apps CI/CD  
 ```
 on:
   push:
@@ -119,9 +129,9 @@ jobs:
           output_location: "dist" #Built app content directory - optional
 ```
 
-### Zusätzliche Ressourcen
-- [Dokumentation zu Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/getting-started)
-- [Dokumentation zu GitHub Actions](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)
+### Zusätzliche Ressourcen  
+- [Azure Static Web Apps Dokumentation](https://learn.microsoft.com/azure/static-web-apps/getting-started)  
+- [GitHub Actions Dokumentation](https://docs.github.com/actions/use-cases-and-examples/deploying/deploying-to-azure-static-web-app)  
 
 **Haftungsausschluss**:  
-Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.
+Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

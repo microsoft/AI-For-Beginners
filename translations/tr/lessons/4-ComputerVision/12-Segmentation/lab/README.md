@@ -1,22 +1,31 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
+  "translation_date": "2025-08-26T07:26:11+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
+  "language_code": "tr"
+}
+-->
 # İnsan Vücudu Segmentasyonu
 
-[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) için laboratuvar ödevi.
+[AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) kapsamında bir laboratuvar ödevi.
 
 ## Görev
 
-Video prodüksiyonunda, örneğin hava durumu tahminlerinde, bir insan görüntüsünü kameradan kesip başka bir görüntünün üzerine yerleştirmemiz sıkça gerekmektedir. Bu genellikle, bir insanın tek renkli bir arka plan önünde çekildiği ve ardından bu arka planın kaldırıldığı **chroma key** teknikleri kullanılarak yapılır. Bu laboratuvar çalışmasında, insan siluetini kesmek için bir sinir ağı modeli eğiteceğiz.
+Video prodüksiyonunda, örneğin hava durumu sunumlarında, genellikle bir insan görüntüsünü kameradan kesip başka bir görüntünün üzerine yerleştirmemiz gerekir. Bu genellikle, bir insanın tek renkli bir arka plan önünde çekildiği ve ardından bu arka planın kaldırıldığı **chroma key** teknikleri kullanılarak yapılır. Bu laboratuvarda, bir insan siluetini kesmek için bir sinir ağı modeli eğiteceğiz.
 
 ## Veri Seti
 
 Kaggle'dan [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) veri setini kullanacağız. Veri setini Kaggle'dan manuel olarak indirin.
 
-## Not Defterini Açma
+## Başlangıç Not Defteri
 
 Laboratuvara [BodySegmentation.ipynb](../../../../../../lessons/4-ComputerVision/12-Segmentation/lab/BodySegmentation.ipynb) dosyasını açarak başlayın.
 
-## Önemli Nokta
+## Çıkarım
 
-Vücut segmentasyonu, insanların görüntüleriyle yapabileceğimiz yaygın görevlerden sadece biridir. Diğer önemli görevler arasında **iskelet tespiti** ve **poz tespiti** bulunur. Bu görevlerin nasıl uygulanabileceğini görmek için [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) kütüphanesine göz atın.
+Vücut segmentasyonu, insan görüntüleriyle yapabileceğimiz yaygın görevlerden sadece biridir. Diğer önemli görevler arasında **iskelet tespiti** ve **poz tespiti** bulunur. Bu görevlerin nasıl uygulanabileceğini görmek için [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) kütüphanesine göz atın.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen dikkate alınız. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucunda ortaya çıkabilecek yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

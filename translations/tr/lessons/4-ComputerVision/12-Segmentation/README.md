@@ -1,69 +1,78 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "d7f8a25ff13cfe9f4cd671cc23351fad",
+  "translation_date": "2025-08-26T07:25:49+00:00",
+  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
+  "language_code": "tr"
+}
+-->
 # Segmentasyon
 
-Daha önce, nesne tespiti hakkında öğrendik; bu, görüntüdeki nesneleri *sınırlayıcı kutularını* tahmin ederek yerlerini belirlememizi sağlar. Ancak bazı görevler için yalnızca sınırlayıcı kutulara değil, aynı zamanda daha hassas nesne konumlandırmasına da ihtiyacımız var. Bu görev **segmentasyon** olarak adlandırılır.
+Daha önce, nesneleri *bounding box* tahminiyle görüntüde bulmamızı sağlayan Nesne Tespiti hakkında bilgi edinmiştik. Ancak, bazı görevlerde yalnızca bounding box'lara değil, daha hassas nesne konumlandırmasına da ihtiyaç duyarız. Bu göreve **segmentasyon** denir.
 
-## [Ders öncesi quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
 
-Segmentasyon, **piksel sınıflandırması** olarak görülebilir; burada görüntünün **her** pikseli için sınıfını tahmin etmemiz gerekir (*arka plan* sınıflardan biridir). İki ana segmentasyon algoritması vardır:
+Segmentasyon, **piksel sınıflandırması** olarak görülebilir; burada görüntünün **her bir** pikseli için sınıfını tahmin etmemiz gerekir (*arka plan* da sınıflardan biri olarak kabul edilir). İki ana segmentasyon algoritması vardır:
 
-* **Anlamsal segmentasyon**, yalnızca piksel sınıfını belirtir ve aynı sınıftaki farklı nesneler arasında ayrım yapmaz.
-* **Örnek segmentasyonu**, sınıfları farklı örneklere böler.
+* **Semantik segmentasyon**, yalnızca piksel sınıfını belirtir ve aynı sınıfa ait farklı nesneler arasında ayrım yapmaz.
+* **Örnek segmentasyonu**, sınıfları farklı örneklere ayırır.
 
-Örnek segmentasyonunda, bu koyunlar farklı nesnelerken, anlamsal segmentasyonda tüm koyunlar tek bir sınıf olarak temsil edilir.
+Örneğin, örnek segmentasyon için bu koyunlar farklı nesneler olarak kabul edilir, ancak semantik segmentasyon için tüm koyunlar tek bir sınıf olarak temsil edilir.
 
 <img src="images/instance_vs_semantic.jpeg" width="50%">
 
-> Resim [bu blog yazısından](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) alınmıştır.
+> Görsel [bu blog yazısından](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) alınmıştır.
 
-Segmentasyon için farklı sinir mimarileri bulunmaktadır, ancak hepsi aynı yapıya sahiptir. Bir bakıma, daha önce öğrendiğiniz otomatik kodlayıcıya benzer; ancak amacımız orijinal görüntüyü parçalamak yerine bir **maske** parçalamaktır. Bu nedenle, bir segmentasyon ağı aşağıdaki parçalara sahiptir:
+Segmentasyon için farklı sinir ağı mimarileri vardır, ancak hepsi aynı yapıya sahiptir. Bir bakıma, daha önce öğrendiğiniz otomatik kodlayıcıya (autoencoder) benzer, ancak burada amacımız orijinal görüntüyü yeniden oluşturmak yerine bir **maske**yi yeniden oluşturmaktır. Bu nedenle, bir segmentasyon ağı şu parçalardan oluşur:
 
-* **Kodlayıcı**, giriş görüntüsünden özellikleri çıkarır.
-* **Çözücü**, bu özellikleri **maske görüntüsüne** dönüştürür; bu maske, sınıf sayısına karşılık gelen aynı boyut ve kanal sayısına sahiptir.
+* **Kodlayıcı (Encoder)** giriş görüntüsünden özellikler çıkarır.
+* **Kod Çözücü (Decoder)** bu özellikleri, sınıf sayısına karşılık gelen kanal sayısı ve aynı boyutta bir **maske görüntüsüne** dönüştürür.
 
 <img src="images/segm.png" width="80%">
 
-> Resim [bu yayından](https://arxiv.org/pdf/2001.05566.pdf) alınmıştır.
+> Görsel [bu yayından](https://arxiv.org/pdf/2001.05566.pdf) alınmıştır.
 
-Segmentasyon için kullanılan kayıp fonksiyonunu özellikle belirtmeliyiz. Klasik otomatik kodlayıcılar kullanıldığında, iki görüntü arasındaki benzerliği ölçmemiz gerekir ve bunu yapmak için ortalama kare hatasını (MSE) kullanabiliriz. Segmentasyonda, hedef maske görüntüsündeki her piksel sınıf numarasını temsil eder (üçüncü boyutta one-hot kodlanmış), bu nedenle sınıflandırma için özel kayıp fonksiyonları kullanmalıyız - tüm pikseller üzerinde ortalaması alınan çapraz entropi kaybı. Maske ikili olduğunda - **ikili çapraz entropi kaybı** (BCE) kullanılır.
+Segmentasyon için kullanılan kayıp fonksiyonundan özellikle bahsetmeliyiz. Klasik otomatik kodlayıcılar kullanıldığında, iki görüntü arasındaki benzerliği ölçmemiz gerekir ve bunu yapmak için ortalama kare hatası (MSE) kullanılabilir. Segmentasyonda, hedef maske görüntüsündeki her piksel sınıf numarasını (üçüncü boyut boyunca tekil kodlama ile) temsil eder, bu nedenle sınıflandırma için özel kayıp fonksiyonları kullanmamız gerekir - tüm pikseller üzerinde ortalaması alınan çapraz entropi kaybı. Eğer maske ikili ise - **ikili çapraz entropi kaybı** (BCE) kullanılır.
 
-> ✅ One-hot kodlama, bir sınıf etiketini sınıf sayısına eşit uzunlukta bir vektöre kodlama yöntemidir. Bu teknik hakkında daha fazla bilgi için [bu makaleye](https://datagy.io/sklearn-one-hot-encode/) göz atın.
+> ✅ Tekil kodlama, bir sınıf etiketini, sınıf sayısına eşit uzunlukta bir vektöre kodlamanın bir yoludur. Bu teknik hakkında daha fazla bilgi için [bu makaleye](https://datagy.io/sklearn-one-hot-encode/) göz atın.
 
 ## Tıbbi Görüntüleme için Segmentasyon
 
-Bu derste, ağı insan nevuslarını (benler olarak da bilinir) tıbbi görüntülerde tanımak için eğiterek segmentasyonun nasıl çalıştığını göreceğiz. Görüntü kaynağı olarak <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> Veritabanı</a> dermoskopi görüntülerini kullanacağız. Bu veri seti, tipik nevus, atipik nevus ve melanom olmak üzere üç sınıftan 200 görüntü içermektedir. Tüm görüntüler, nevusu belirten bir **maske** ile birlikte gelir.
+Bu derste, tıbbi görüntülerde insan nevüslerini (benler olarak da bilinir) tanımak için ağı eğiterek segmentasyonu uygulamada göreceğiz. Görüntü kaynağı olarak <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> Veritabanı</a>'nı kullanacağız. Bu veri seti, üç sınıfa ait 200 görüntü içerir: tipik nevüs, atipik nevüs ve melanom. Tüm görüntüler ayrıca nevüsü çevreleyen bir **maske** içerir.
 
-> ✅ Bu teknik, bu tür tıbbi görüntüleme için özellikle uygundur, ancak başka hangi gerçek dünya uygulamalarını hayal edebilirsiniz?
+> ✅ Bu teknik özellikle bu tür tıbbi görüntüleme için uygundur, ancak başka hangi gerçek dünya uygulamalarını hayal edebilirsiniz?
 
 <img alt="navi" src="images/navi.png"/>
 
-> Resim PH<sup>2</sup> Veritabanından alınmıştır.
+> Görsel PH<sup>2</sup> Veritabanından alınmıştır.
 
-Herhangi bir nevusu arka plandan ayırmak için bir model eğiteceğiz.
+Modelimizi, herhangi bir nevüsü arka plandan ayırmak için eğiteceğiz.
 
-## ✍️ Alıştırmalar: Anlamsal Segmentasyon
+## ✍️ Alıştırmalar: Semantik Segmentasyon
 
-Aşağıdaki not defterlerini açarak farklı anlamsal segmentasyon mimarileri hakkında daha fazla bilgi edinin, onlarla çalışmayı pratik edin ve bunları eylemde görün.
+Aşağıdaki defterleri açarak farklı semantik segmentasyon mimarileri hakkında daha fazla bilgi edinin, bunlarla çalışmayı pratik yapın ve bunları uygulamada görün.
 
-* [Anlamsal Segmentasyon Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
-* [Anlamsal Segmentasyon TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
+* [Semantik Segmentasyon Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
+* [Semantik Segmentasyon TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Ders sonrası quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
 
 ## Sonuç
 
-Segmentasyon, görüntü sınıflandırması için çok güçlü bir tekniktir; sınırlayıcı kutuların ötesine geçerek piksel düzeyinde sınıflandırma yapar. Bu teknik, tıbbi görüntüleme gibi çeşitli uygulamalarda kullanılmaktadır.
+Segmentasyon, görüntü sınıflandırması için çok güçlü bir tekniktir ve bounding box'lardan piksel düzeyinde sınıflandırmaya geçiş yapar. Bu teknik, tıbbi görüntüleme gibi birçok uygulamada kullanılır.
 
 ## 🚀 Zorluk
 
-Vücut segmentasyonu, insan görüntüleriyle yapabileceğimiz yaygın görevlerden yalnızca biridir. Diğer önemli görevler arasında **iskelet tespiti** ve **poz tespiti** bulunmaktadır. Poz tespitinin nasıl kullanılabileceğini görmek için [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) kütüphanesini deneyin.
+Vücut segmentasyonu, insan görüntüleriyle yapabileceğimiz yaygın görevlerden sadece biridir. Diğer önemli görevler arasında **iskelet tespiti** ve **poz tespiti** bulunur. [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) kütüphanesini deneyerek poz tespitinin nasıl kullanılabileceğini görün.
 
-## Gözden Geçirme & Kendi Kendine Çalışma
+## İnceleme ve Kendi Kendine Çalışma
 
-Bu [wikipedia makalesi](https://wikipedia.org/wiki/Image_segmentation), bu tekniğin çeşitli uygulamaları hakkında iyi bir genel bakış sunmaktadır. Bu araştırma alanında Örnek segmentasyonu ve Panoptik segmentasyonun alt alanları hakkında kendi başınıza daha fazla bilgi edinin.
+Bu [Vikipedi makalesi](https://wikipedia.org/wiki/Image_segmentation), bu tekniğin çeşitli uygulamaları hakkında iyi bir genel bakış sunar. Bu alandaki Örnek segmentasyonu ve Panoptik segmentasyon alt alanları hakkında kendi başınıza daha fazla bilgi edinin.
 
-## [Görev](lab/README.md)
+## [Ödev](lab/README.md)
 
-Bu laboratuvar çalışmasında, Kaggle'dan [Segmentasyon Tam Vücut MADS Veri Seti](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) kullanarak **insan vücudu segmentasyonu** yapmayı deneyin.
+Bu laboratuvarda, Kaggle'dan [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) kullanarak **insan vücudu segmentasyonu** yapmayı deneyin.
 
-**Açıklama**:  
-Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa özen göstersek de, otomatik çevirilerin hatalar veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belge, kendi dilinde otoriter kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanılması sonucu ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.
+**Feragatname**:  
+Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

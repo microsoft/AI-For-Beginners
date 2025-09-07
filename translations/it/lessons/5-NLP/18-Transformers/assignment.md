@@ -1,6 +1,15 @@
-# Tarea: Transformadores
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
+  "translation_date": "2025-08-26T06:58:09+00:00",
+  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
+  "language_code": "it"
+}
+-->
+# Compito: Transformers
 
-¡Experimenta con Transformadores en HuggingFace! Prueba algunos de los scripts que proporcionan para trabajar con los diversos modelos disponibles en su sitio: https://huggingface.co/docs/transformers/run_scripts. Intenta con uno de sus conjuntos de datos, luego importa uno de los tuyos de este currículo o de Kaggle y verifica si puedes generar textos interesantes. Elabora un cuaderno con tus hallazgos.
+Sperimenta con i Transformers su HuggingFace! Prova alcuni degli script che forniscono per lavorare con i vari modelli disponibili sul loro sito: https://huggingface.co/docs/transformers/run_scripts. Prova uno dei loro dataset, poi importa uno dei tuoi da questo curriculum o da Kaggle e verifica se riesci a generare testi interessanti. Produci un notebook con le tue scoperte.
 
-**Disclaimer**: 
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di tenere presente che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

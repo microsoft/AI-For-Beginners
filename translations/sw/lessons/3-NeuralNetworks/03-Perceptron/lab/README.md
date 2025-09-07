@@ -1,22 +1,33 @@
-# Flerklassklassificering med Perceptron
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+  "translation_date": "2025-08-29T12:04:56+00:00",
+  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+  "language_code": "sw"
+}
+-->
+# Uainishaji wa Darasa Nyingi kwa Kutumia Perceptron
 
-Laborationsuppgift från [AI för nybörjare läroplan](https://github.com/microsoft/ai-for-beginners).
+Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).
 
-## Uppgift
+## Kazi
 
-Använd koden vi har utvecklat i den här lektionen för binär klassificering av handskrivna MNIST-siffror för att skapa en flerklassklassificerare som kan känna igen vilken siffra som helst. Beräkna klassificeringsnoggrannheten på tränings- och testdatasetet, och skriv ut förvirringsmatrisen.
+Kutumia msimbo tuliotengeneza katika somo hili kwa uainishaji wa binary wa nambari za mkono za MNIST, tengeneza uainishaji wa darasa nyingi ambao utaweza kutambua nambari yoyote. Hesabu usahihi wa uainishaji kwenye seti ya mafunzo na majaribio, na uchapishe matriki ya mkanganyiko.
 
-## Tips
+## Vidokezo
 
-1. För varje siffra, skapa ett dataset för binär klassificering av "denna siffra vs. alla andra siffror"
-1. Träna 10 olika perceptroner för binär klassificering (en för varje siffra)
-1. Definiera en funktion som kommer att klassificera en inmatad siffra
+1. Kwa kila nambari, tengeneza seti ya data kwa uainishaji wa binary wa "nambari hii dhidi ya nambari zingine zote"
+1. Funza perceptrons 10 tofauti kwa uainishaji wa binary (moja kwa kila nambari)
+1. Fafanua kazi ambayo itatambua nambari ya pembejeo
 
-> **Tips**: Om vi kombinerar vikterna från alla 10 perceptroner till en matris, bör vi kunna tillämpa alla 10 perceptroner på inmatade siffror genom en matris-multiplikation. Den mest sannolika siffran kan sedan hittas genom att tillämpa `argmax` operation på utdata.
+> **Kidokezo**: Tukijumuisha uzito wa perceptrons zote 10 katika matriki moja, tunaweza kutumia perceptrons zote 10 kwa nambari za pembejeo kwa kuzidisha matriki moja. Nambari inayowezekana zaidi inaweza kupatikana kwa kutumia operesheni ya `argmax` kwenye matokeo.
 
-## Starta anteckningsblock
+## Daftari la Kuanza
 
-Börja laborationen genom att öppna [PerceptronMultiClass.ipynb](../../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+Anza maabara kwa kufungua [PerceptronMultiClass.ipynb](PerceptronMultiClass.ipynb)
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för några missförstånd eller felaktiga tolkningar som uppstår till följd av användningen av denna översättning.
+---
+
+**Kanusho**:  
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, inashauriwa kutumia huduma ya tafsiri ya kitaalamu ya binadamu. Hatutawajibika kwa maelewano mabaya au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
