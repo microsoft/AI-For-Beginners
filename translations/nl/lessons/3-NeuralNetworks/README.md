@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1c6b8c7c1778a35fc1139b7f2aecb7b3",
-  "translation_date": "2025-08-28T19:45:43+00:00",
+  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
+  "translation_date": "2025-09-07T14:34:02+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "nl"
 }
@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Zoals we in de introductie hebben besproken, is een van de manieren om intelligentie te bereiken het trainen van een **computermodel** of een **kunstmatig brein**. Sinds het midden van de 20e eeuw hebben onderzoekers verschillende wiskundige modellen geprobeerd, totdat deze richting de afgelopen jaren enorm succesvol bleek te zijn. Dergelijke wiskundige modellen van het brein worden **neurale netwerken** genoemd.
 
-> Soms worden neurale netwerken *Kunstmatige Neurale Netwerken* genoemd, ANNs, om aan te geven dat we het hebben over modellen en niet over echte netwerken van neuronen.
+> Soms worden neurale netwerken *Artificial Neural Networks*, ANNs, genoemd om aan te geven dat we het hebben over modellen en niet over echte netwerken van neuronen.
 
 ## Machine Learning
 
-Neurale netwerken maken deel uit van een bredere discipline genaamd **Machine Learning**, waarvan het doel is om gegevens te gebruiken om computermodellen te trainen die problemen kunnen oplossen. Machine Learning vormt een groot deel van Kunstmatige Intelligentie, maar we behandelen klassieke ML niet in deze leerstof.
+Neurale netwerken maken deel uit van een bredere discipline genaamd **Machine Learning**, waarvan het doel is om data te gebruiken om computermodellen te trainen die problemen kunnen oplossen. Machine Learning vormt een groot deel van Kunstmatige Intelligentie, maar we behandelen klassieke ML niet in deze leerstof.
 
 > Bezoek ons aparte **[Machine Learning voor Beginners](http://github.com/microsoft/ml-for-beginners)** curriculum om meer te leren over klassieke Machine Learning.
 
@@ -46,7 +46,7 @@ Het eenvoudigste wiskundige model van een neuron bevat dus meerdere inputs X<sub
 
 waarbij f een niet-lineaire **activatiefunctie** is.
 
-> Vroege modellen van neuronen werden beschreven in het klassieke artikel [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) door Warren McCullock en Walter Pitts in 1943. Donald Hebb stelde in zijn boek "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" een manier voor waarop deze netwerken kunnen worden getraind.
+> Vroege modellen van neuronen werden beschreven in het klassieke artikel [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) door Warren McCullock en Walter Pitts in 1943. Donald Hebb stelde in zijn boek "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" een manier voor waarop deze netwerken getraind kunnen worden.
 
 ## In deze Sectie
 
