@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1c6b8c7c1778a35fc1139b7f2aecb7b3",
-  "translation_date": "2025-08-24T09:39:36+00:00",
+  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
+  "translation_date": "2025-09-07T14:27:25+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "de"
 }
 -->
 # Einführung in Neuronale Netzwerke
 
-![Zusammenfassung des Inhalts zu neuronalen Netzwerken in einer Skizze](../../../../lessons/sketchnotes/ai-neuralnetworks.png)
+![Zusammenfassung des Inhalts zu neuronalen Netzwerken in einer Skizze](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.de.png)
 
 Wie wir in der Einführung besprochen haben, ist eine Möglichkeit, Intelligenz zu erreichen, das Training eines **Computermodells** oder eines **künstlichen Gehirns**. Seit Mitte des 20. Jahrhunderts haben Forscher verschiedene mathematische Modelle ausprobiert, bis sich in den letzten Jahren dieser Ansatz als äußerst erfolgreich erwiesen hat. Solche mathematischen Modelle des Gehirns werden als **neuronale Netzwerke** bezeichnet.
 
@@ -25,8 +25,8 @@ Im Maschinellen Lernen gehen wir davon aus, dass wir einen Datensatz mit Beispie
 
 Wir betrachten die zwei häufigsten Probleme des Maschinellen Lernens:
 
-* **Klassifikation**, bei der ein Eingabeobjekt in zwei oder mehr Klassen eingeteilt werden muss.
-* **Regression**, bei der für jede Eingabeprobe eine numerische Zahl vorhergesagt werden muss.
+* **Klassifikation**, bei der wir ein Eingabeobjekt in zwei oder mehr Klassen einordnen müssen.
+* **Regression**, bei der wir für jede Eingabeprobe eine numerische Zahl vorhersagen müssen.
 
 > Wenn Eingaben und Ausgaben als Tensoren dargestellt werden, ist der Eingabedatensatz eine Matrix der Größe M×N, wobei M die Anzahl der Proben und N die Anzahl der Merkmale ist. Die Ausgabelabels **Y** sind ein Vektor der Größe M.
 
@@ -36,7 +36,7 @@ In diesem Lehrplan konzentrieren wir uns ausschließlich auf Modelle neuronaler 
 
 Aus der Biologie wissen wir, dass unser Gehirn aus Nervenzellen besteht, von denen jede mehrere "Eingänge" (Axone) und einen Ausgang (Dendrit) hat. Axone und Dendriten können elektrische Signale leiten, und die Verbindungen zwischen Axonen und Dendriten können unterschiedliche Leitfähigkeitsgrade aufweisen (gesteuert durch Neurotransmitter).
 
-![Modell eines Neurons](../../../../lessons/3-NeuralNetworks/images/synapse-wikipedia.jpg) | ![Modell eines Neurons](../../../../lessons/3-NeuralNetworks/images/artneuron.png)
+![Modell eines Neurons](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.de.jpg) | ![Modell eines Neurons](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.de.png)
 ----|----
 Echtes Neuron *([Bild](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) von Wikipedia)* | Künstliches Neuron *(Bild vom Autor)*
 
@@ -51,10 +51,12 @@ wobei **f** eine nichtlineare **Aktivierungsfunktion** ist.
 ## In diesem Abschnitt
 
 In diesem Abschnitt lernen wir:
-* [Perceptron](03-Perceptron/README.md), eines der frühesten neuronalen Netzwerkmodelle für Zwei-Klassen-Klassifikation
-* [Mehrschichtige Netzwerke](04-OwnFramework/README.md) mit einem zugehörigen Notebook [wie man unser eigenes Framework erstellt](../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)
-* [Frameworks für neuronale Netzwerke](05-Frameworks/README.md), mit diesen Notebooks: [PyTorch](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) und [Keras/Tensorflow](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)
+* [Perceptron](03-Perceptron/README.md), eines der frühesten neuronalen Netzwerkmodelle für die Zwei-Klassen-Klassifikation
+* [Mehrschichtige Netzwerke](04-OwnFramework/README.md) mit einem zugehörigen Notebook [wie man unser eigenes Framework erstellt](04-OwnFramework/OwnFramework.ipynb)
+* [Frameworks für neuronale Netzwerke](05-Frameworks/README.md), mit diesen Notebooks: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) und [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
 * [Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
+
+---
 
 **Haftungsausschluss**:  
 Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.

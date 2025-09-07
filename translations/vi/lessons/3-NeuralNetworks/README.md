@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1c6b8c7c1778a35fc1139b7f2aecb7b3",
-  "translation_date": "2025-08-29T12:33:54+00:00",
+  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
+  "translation_date": "2025-09-07T14:34:31+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "vi"
 }
@@ -17,7 +17,7 @@ Như đã thảo luận trong phần giới thiệu, một trong những cách �
 
 ## Học Máy
 
-Mạng Nơ-ron là một phần của lĩnh vực lớn hơn gọi là **Học Máy**, với mục tiêu sử dụng dữ liệu để huấn luyện các mô hình máy tính có khả năng giải quyết vấn đề. Học Máy chiếm một phần lớn trong Trí Tuệ Nhân Tạo, tuy nhiên, chúng tôi không đề cập đến Học Máy cổ điển trong chương trình này.
+Mạng Nơ-ron là một phần của lĩnh vực lớn hơn gọi là **Học Máy**, với mục tiêu sử dụng dữ liệu để huấn luyện các mô hình máy tính có khả năng giải quyết vấn đề. Học Máy chiếm một phần lớn trong Trí Tuệ Nhân Tạo, tuy nhiên, chúng ta sẽ không đề cập đến Học Máy cổ điển trong chương trình học này.
 
 > Hãy truy cập chương trình học riêng **[Học Máy cho Người Mới Bắt Đầu](http://github.com/microsoft/ml-for-beginners)** để tìm hiểu thêm về Học Máy cổ điển.
 
@@ -26,11 +26,11 @@ Trong Học Máy, chúng ta giả định rằng có một tập dữ liệu ví
 Chúng ta sẽ xem xét hai vấn đề phổ biến nhất trong học máy:
 
 * **Phân loại**, nơi chúng ta cần phân loại một đối tượng đầu vào vào hai hoặc nhiều lớp.
-* **Hồi quy**, nơi chúng ta cần dự đoán một giá trị số cho mỗi mẫu đầu vào.
+* **Hồi quy**, nơi chúng ta cần dự đoán một con số cụ thể cho mỗi mẫu đầu vào.
 
 > Khi biểu diễn đầu vào và đầu ra dưới dạng tensor, tập dữ liệu đầu vào là một ma trận kích thước M×N, trong đó M là số lượng mẫu và N là số lượng đặc trưng. Nhãn đầu ra Y là một vector kích thước M.
 
-Trong chương trình này, chúng ta sẽ chỉ tập trung vào các mô hình mạng nơ-ron.
+Trong chương trình học này, chúng ta sẽ chỉ tập trung vào các mô hình mạng nơ-ron.
 
 ## Mô hình của một Nơ-ron
 
@@ -48,13 +48,13 @@ trong đó f là một **hàm kích hoạt** phi tuyến.
 
 > Các mô hình nơ-ron ban đầu được mô tả trong bài báo kinh điển [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) của Warren McCullock và Walter Pitts vào năm 1943. Donald Hebb trong cuốn sách "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" đã đề xuất cách huấn luyện các mạng này.
 
-## Trong Phần này
+## Trong Phần Này
 
 Trong phần này, chúng ta sẽ tìm hiểu về:
 * [Perceptron](03-Perceptron/README.md), một trong những mô hình mạng nơ-ron đầu tiên dành cho phân loại hai lớp
 * [Mạng nhiều lớp](04-OwnFramework/README.md) với một notebook đi kèm [cách xây dựng framework của riêng chúng ta](04-OwnFramework/OwnFramework.ipynb)
-* [Các Framework Mạng Nơ-ron](05-Frameworks/README.md), với các notebook sau: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) và [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
-* [Hiện tượng Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
+* [Framework Mạng Nơ-ron](05-Frameworks/README.md), với các notebook sau: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) và [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
+* [Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
 ---
 

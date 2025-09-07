@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1c6b8c7c1778a35fc1139b7f2aecb7b3",
-  "translation_date": "2025-08-25T20:59:56+00:00",
+  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
+  "translation_date": "2025-09-07T14:35:23+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "sw"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ![Muhtasari wa maudhui ya Utangulizi wa Mitandao ya Neural katika mchoro](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sw.png)
 
-Kama tulivyojadili katika utangulizi, mojawapo ya njia za kufanikisha akili ni kufundisha **mfano wa kompyuta** au **ubongo wa bandia**. Tangu katikati ya karne ya 20, watafiti walijaribu mifano mbalimbali ya kihesabu, hadi miaka ya hivi karibuni ambapo mwelekeo huu ulithibitishwa kuwa na mafanikio makubwa. Mifano hii ya kihesabu ya ubongo inaitwa **mitandao ya neural**.
+Kama tulivyojadili katika utangulizi, mojawapo ya njia za kufanikisha akili ni kufundisha **mfano wa kompyuta** au **ubongo wa bandia**. Tangu katikati ya karne ya 20, watafiti walijaribu mifano mbalimbali ya kihesabu, hadi miaka ya hivi karibuni ambapo mwelekeo huu ulithibitisha kuwa na mafanikio makubwa. Mifano hii ya kihesabu ya ubongo inaitwa **mitandao ya neural**.
 
 > Wakati mwingine mitandao ya neural huitwa *Mitandao ya Neural ya Bandia*, ANNs, ili kuonyesha kwamba tunazungumzia mifano, si mitandao halisi ya neurons.
 
@@ -34,7 +34,7 @@ Katika mtaala huu, tutazingatia tu mifano ya mitandao ya neural.
 
 ## Mfano wa Neuron
 
-Kutoka kwa biolojia tunajua kwamba ubongo wetu unajumuisha seli za neural, kila moja ikiwa na "pembejeo" nyingi (axons), na matokeo (dendrite). Axons na dendrites zinaweza kusafirisha ishara za umeme, na miunganisho kati ya axons na dendrites inaweza kuonyesha viwango tofauti vya usafirishaji (inayodhibitiwa na neuromediators).
+Kutoka kwa biolojia tunajua kwamba ubongo wetu unajumuisha seli za neural, kila moja ikiwa na "pembejeo" nyingi (axons), na matokeo (dendrite). Axons na dendrites zinaweza kuendesha ishara za umeme, na miunganisho kati ya axons na dendrites inaweza kuonyesha viwango tofauti vya upitishaji (vinavyodhibitiwa na neuromediators).
 
 ![Mfano wa Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sw.jpg) | ![Mfano wa Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sw.png)
 ----|----
@@ -52,9 +52,11 @@ ambapo f ni **kazi ya uanzishaji** isiyo ya mstari.
 
 Katika sehemu hii tutajifunza kuhusu:
 * [Perceptron](03-Perceptron/README.md), mojawapo ya mifano ya awali ya mitandao ya neural kwa uainishaji wa darasa mbili
-* [Mitandao ya Tabaka Nyingi](04-OwnFramework/README.md) na daftari lililoambatanishwa [jinsi ya kujenga mfumo wetu wenyewe](../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)
-* [Mifumo ya Mitandao ya Neural](05-Frameworks/README.md), na daftari hizi: [PyTorch](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) na [Keras/Tensorflow](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)
+* [Mitandao ya Tabaka Nyingi](04-OwnFramework/README.md) na daftari lililopangwa [jinsi ya kujenga mfumo wetu wenyewe](04-OwnFramework/OwnFramework.ipynb)
+* [Mifumo ya Mitandao ya Neural](05-Frameworks/README.md), na daftari hizi: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) na [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
 * [Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
+---
+
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutokuelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

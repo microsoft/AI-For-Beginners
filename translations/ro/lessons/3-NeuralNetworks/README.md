@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1c6b8c7c1778a35fc1139b7f2aecb7b3",
-  "translation_date": "2025-08-25T23:42:22+00:00",
+  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
+  "translation_date": "2025-09-07T14:36:23+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "ro"
 }
@@ -26,13 +26,13 @@ Rețelele neurale fac parte dintr-o disciplină mai largă numită **Învățare
 Vom analiza cele mai comune două probleme de învățare automată:
 
 * **Clasificare**, unde trebuie să clasificăm un obiect de intrare în două sau mai multe clase.
-* **Regresie**, unde trebuie să prezicem un număr numeric pentru fiecare dintre mostrele de intrare.
+* **Regresie**, unde trebuie să prezicem un număr numeric pentru fiecare dintre exemplele de intrare.
 
-> Când reprezentăm intrările și ieșirile ca tensori, setul de date de intrare este o matrice de dimensiune M×N, unde M este numărul de mostre și N este numărul de caracteristici. Etichetele de ieșire Y sunt vectorul de dimensiune M.
+> Când reprezentăm intrările și ieșirile ca tensori, setul de date de intrare este o matrice de dimensiune M×N, unde M este numărul de exemple și N este numărul de caracteristici. Etichetele de ieșire Y sunt vectori de dimensiune M.
 
 În acest curriculum, ne vom concentra doar pe modelele de rețele neurale.
 
-## Un Model al unui Neuron
+## Un Model al Neuronului
 
 Din biologie știm că creierul nostru este format din celule neuronale, fiecare dintre ele având multiple "intrări" (axoni) și o ieșire (dendrită). Axonii și dendritele pot conduce semnale electrice, iar conexiunile dintre axoni și dendrite pot prezenta diferite grade de conductivitate (controlate de neuromediatori).
 
@@ -52,9 +52,11 @@ unde f este o **funcție de activare** neliniară.
 
 În această secțiune vom învăța despre:
 * [Perceptron](03-Perceptron/README.md), unul dintre cele mai timpurii modele de rețele neurale pentru clasificarea în două clase
-* [Rețele multi-stratificate](04-OwnFramework/README.md) cu un notebook asociat [cum să construim propriul nostru framework](../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)
-* [Framework-uri pentru Rețele Neurale](05-Frameworks/README.md), cu aceste notebook-uri: [PyTorch](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) și [Keras/Tensorflow](../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)
+* [Rețele multi-stratificate](04-OwnFramework/README.md) cu un notebook asociat [cum să construim propriul nostru framework](04-OwnFramework/OwnFramework.ipynb)
+* [Framework-uri pentru Rețele Neurale](05-Frameworks/README.md), cu aceste notebook-uri: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) și [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
 * [Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
+---
+
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
