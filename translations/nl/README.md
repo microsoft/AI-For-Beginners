@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "07191303b7ea2aff1d47e2b0fe4bb862",
-  "translation_date": "2025-08-29T11:39:53+00:00",
+  "original_hash": "2c8099af824bae942ca6ea7e53284770",
+  "translation_date": "2025-09-07T13:57:37+00:00",
   "source_file": "README.md",
   "language_code": "nl"
 }
@@ -46,7 +46,7 @@ Ontdek de wereld van **Kunstmatige Intelligentie** (AI) met ons 12-weken durende
 
 In dit curriculum leer je:  
 
-* Verschillende benaderingen van Kunstmatige Intelligentie, waaronder de "goede oude" symbolische benadering met **Kennisrepresentatie** en redeneren ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* Verschillende benaderingen van Kunstmatige Intelligentie, inclusief de "goede oude" symbolische benadering met **Kennisrepresentatie** en redeneren ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Neurale Netwerken** en **Deep Learning**, die de kern vormen van moderne AI. We illustreren de concepten achter deze belangrijke onderwerpen met code in twee van de meest populaire frameworks - [TensorFlow](http://Tensorflow.org) en [PyTorch](http://pytorch.org).  
 * **Neurale Architecturen** voor het werken met afbeeldingen en tekst. We behandelen recente modellen, maar mogelijk niet de allernieuwste.  
 * Minder populaire AI-benaderingen, zoals **Genetische Algoritmen** en **Multi-Agent Systemen**.  
@@ -55,18 +55,18 @@ Wat we niet behandelen in dit curriculum:
 
 > [Vind alle aanvullende bronnen voor deze cursus in onze Microsoft Learn-collectie](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Zakelijke toepassingen van **AI in Business**. Overweeg de leerroute [Introductie tot AI voor zakelijke gebruikers](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) op Microsoft Learn, of [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), ontwikkeld in samenwerking met [INSEAD](https://www.insead.edu/).  
+* Zakelijke toepassingen van **AI in Business**. Overweeg het volgen van [Introductie tot AI voor zakelijke gebruikers](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) leerpad op Microsoft Learn, of [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), ontwikkeld in samenwerking met [INSEAD](https://www.insead.edu/).  
 * **Klassieke Machine Learning**, die goed wordt beschreven in ons [Machine Learning voor Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
 * Praktische AI-toepassingen gebouwd met **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Hiervoor raden we aan te beginnen met modules op Microsoft Learn voor [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generatieve AI met Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** en anderen.  
-* Specifieke ML **Cloud Frameworks**, zoals [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), of [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Overweeg de leerpaden [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) en [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **Conversational AI** en **Chat Bots**. Er is een aparte leerroute [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), en je kunt ook verwijzen naar [deze blogpost](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) voor meer details.  
+* Specifieke ML **Cloud Frameworks**, zoals [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), of [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Overweeg het gebruik van [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) en [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) leerpaden.  
+* **Conversational AI** en **Chat Bots**. Er is een apart [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) leerpad, en je kunt ook verwijzen naar [deze blogpost](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) voor meer details.  
 * **Diepe Wiskunde** achter deep learning. Hiervoor raden we [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) aan door Ian Goodfellow, Yoshua Bengio en Aaron Courville, die ook online beschikbaar is op [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Voor een eenvoudige introductie tot _AI in de Cloud_ kun je overwegen de leerroute [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) te volgen.  
+Voor een zachte introductie tot _AI in de Cloud_ onderwerpen kun je overwegen het [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) leerpad te volgen.  
 
 # Inhoud  
 
-|     |                                                                 Les Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
+|     |                                                                 Leslink                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
 | 0  |                                 [Cursus Setup](./lessons/0-course-setup/setup.md)                                 |                      [Setup Je Ontwikkelomgeving](./lessons/0-course-setup/how-to-run.md)                       |   |  
 | I  |               [**Introductie tot AI**](./lessons/1-Intro/README.md)      | | |  
@@ -75,7 +75,7 @@ Voor een eenvoudige introductie tot _AI in de Cloud_ kun je overwegen de leerrou
 | 02  |       [Kennisrepresentatie en Expertsystemen](./lessons/2-Symbolic/README.md)       |            [Expertsystemen](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologie](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Concept Graph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
 | III |                        [**Introductie tot Neurale Netwerken**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
-| 04  |                   [Multi-Laags Perceptron en Ons Eigen Framework Maken](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
+| 04  |                   [Multi-Layered Perceptron en Ons Eigen Framework Maken](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
 | 05  |            [Introductie tot Frameworks (PyTorch/TensorFlow) en Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Computer Vision**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Ontdek Computer Vision op Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Introductie tot Computer Vision. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
@@ -85,82 +85,82 @@ Voor een eenvoudige introductie tot _AI in de Cloud_ kun je overwegen de leerrou
 | 10  |            [Generatieve Adversariële Netwerken & Artistieke Stijltransfer](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Objectdetectie](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Semantische Segmentatie. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
-| V  |            [**Natural Language Processing**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Ontdek Natural Language Processing op Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [Tekstrepresentatie. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](./lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Semantische woordembeddings. Word2Vec en GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](./lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Taalmodellering. Je eigen embeddings trainen](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](./lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
-| 16  |            [Recurrente Neurale Netwerken](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](./lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](./lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Generatieve Recurrente Netwerken](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](./lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.md) / [TensorFlow](./lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.md)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
-| 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/READMEtransformers.md)             |           [PyTorch](./lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](./lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Named Entity Recognition](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](./lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [Grote Taalmodellen, Prompt Programming en Few-Shot Taken](./lessons/5-NLP/20-LangModels/READMELargeLang.md)             |           [PyTorch](./lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| V  |            [**Natuurlijke Taalverwerking**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Ontdek Natuurlijke Taalverwerking op Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
+| 13  |            [Tekstrepresentatie. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Semantische woordembeddings. Word2Vec en GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Taalmodellering. Eigen embeddings trainen](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [Recurrente Neurale Netwerken](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [Generatieve Recurrente Netwerken](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
+| 19  |            [Named Entity Recognition](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [Grote Taalmodellen, Promptprogrammering en Few-Shot Taken](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Andere AI-technieken** || |
 | 21  |            [Genetische Algoritmen](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Notebook](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
-| 22  |            [Diepe Reinforcement Learning](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
+| 22  |            [Diepe Versterkingsleren](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
 | 23  |            [Multi-Agent Systemen](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **AI Ethiek** | | |
-| 24  |            [AI Ethiek en Verantwoordelijke AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Principes van Verantwoordelijke AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| 24  |            [AI Ethiek en Verantwoorde AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Principes voor Verantwoorde AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Extra's** | | |
 | 25  |            [Multi-Modale Netwerken, CLIP en VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
 ## Elke les bevat
 
 * Voorbereidend leesmateriaal
-* Uitvoerbare Jupyter Notebooks, die vaak specifiek zijn voor het framework (**PyTorch** of **TensorFlow**). Het uitvoerbare notebook bevat ook veel theoretisch materiaal, dus om het onderwerp te begrijpen moet je minstens één versie van het notebook doorlopen (PyTorch of TensorFlow).
-* **Labs** beschikbaar voor sommige onderwerpen, waarmee je de kans krijgt om het geleerde materiaal toe te passen op een specifiek probleem.
+* Uitvoerbare Jupyter Notebooks, vaak specifiek voor het framework (**PyTorch** of **TensorFlow**). Het uitvoerbare notebook bevat ook veel theoretisch materiaal, dus om het onderwerp te begrijpen moet je minstens één versie van het notebook doornemen (PyTorch of TensorFlow).
+* **Labs** beschikbaar voor sommige onderwerpen, waarmee je de kans krijgt om het geleerde toe te passen op een specifiek probleem.
 * Sommige secties bevatten links naar [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules die gerelateerde onderwerpen behandelen.
 
 ## Aan de slag
 
-- We hebben een [setup-les](./lessons/0-course-setup/setup.md) gemaakt om je te helpen bij het instellen van je ontwikkelomgeving. - Voor docenten hebben we ook een [curricula setup-les](./lessons/0-course-setup/for-teachers.md) gemaakt!
-- Hoe je [de code uitvoert in VSCode of een Codespace](./lessons/0-course-setup/how-to-run.md)
+- We hebben een [setup-les](./lessons/0-course-setup/setup.md) gemaakt om je te helpen met het opzetten van je ontwikkelomgeving. - Voor docenten hebben we ook een [curriculum-setup-les](./lessons/0-course-setup/for-teachers.md) gemaakt!
+- Hoe je de [code uitvoert in VSCode of een Codespace](./lessons/0-course-setup/how-to-run.md)
 
 Volg deze stappen:
 
-Fork de Repository: Klik op de "Fork"-knop rechtsboven op deze pagina.
+Fork de repository: Klik op de "Fork"-knop rechtsboven op deze pagina.
 
-Clone de Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Clone de repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Vergeet niet om deze repo te sterren (🌟) zodat je hem later makkelijker kunt vinden.
+Vergeet niet om deze repo te sterren (🌟) zodat je hem later makkelijker kunt terugvinden.
 
-## Ontmoet andere leerlingen
+## Ontmoet andere studenten
 
-Word lid van onze [officiële AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) om andere leerlingen te ontmoeten en te netwerken die deze cursus volgen en om ondersteuning te krijgen.
+Word lid van onze [officiële AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) om andere studenten te ontmoeten die deze cursus volgen en om ondersteuning te krijgen.
 
 Als je productfeedback of vragen hebt tijdens het bouwen, bezoek dan ons [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Quizzen
-> **Een opmerking over quizzen**: Alle quizzen bevinden zich in de Quiz-app map in etc\quiz-app, of [Online Hier](https://ff-quizzes.netlify.app/). Ze zijn gekoppeld vanuit de lessen. De quiz-app kan lokaal worden uitgevoerd of worden gedeployed naar Azure; volg de instructies in de `quiz-app` map. Ze worden geleidelijk vertaald.
+> **Een opmerking over quizzen**: Alle quizzen zijn te vinden in de Quiz-app map in etc\quiz-app, of [Online Hier](https://ff-quizzes.netlify.app/). Ze zijn gekoppeld aan de lessen en de quiz-app kan lokaal worden uitgevoerd of worden gedeployed naar Azure; volg de instructies in de `quiz-app` map. Ze worden geleidelijk gelokaliseerd.
 ## Hulp Gezocht
 
-Heb je suggesties of spelling- of codefouten gevonden? Maak een issue aan of dien een pull request in.
+Heb je suggesties of heb je spelfouten of codefouten gevonden? Open een issue of maak een pull request aan.
 
 ## Speciale Dank
 
-* **✍️ Hoofdauteur:** [Dmitry Soshnikov](http://soshnikov.com), PhD
-* **🔥 Redacteur:** [Jen Looper](https://twitter.com/jenlooper), PhD
-* **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
-* **✅ Quizmaker:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Kernbijdragers:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+* **✍️ Hoofdauteur:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
+* **🔥 Redacteur:** [Jen Looper](https://twitter.com/jenlooper), PhD  
+* **🎨 Sketchnote-illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)  
+* **✅ Quizmaker:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
+* **🙏 Kernbijdragers:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
 
 ## Andere Leermaterialen
 
-Ons team produceert ook andere leermaterialen! Bekijk:
+Ons team maakt ook andere leermaterialen! Bekijk:
 
-- [Generatieve AI voor Beginners](https://aka.ms/genai-beginners)
-- [Generatieve AI voor Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generatieve AI met JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generatieve AI met Java](https://github.com/microsoft/Generative-AI-for-beginners-java)
-- [AI voor Beginners](https://aka.ms/ai-beginners)
-- [Data Science voor Beginners](https://aka.ms/datascience-beginners)
-- [ML voor Beginners](https://aka.ms/ml-beginners)
-- [Cybersecurity voor Beginners](https://github.com/microsoft/Security-101) 
-- [Webontwikkeling voor Beginners](https://aka.ms/webdev-beginners)
-- [IoT voor Beginners](https://aka.ms/iot-beginners)
-- [XR Ontwikkeling voor Beginners](https://github.com/microsoft/xr-development-for-beginners)
-- [GitHub Copilot Masteren voor Agentisch Gebruik](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [GitHub Copilot Masteren voor C#/.NET Ontwikkelaars](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Kies Je Eigen Copilot Avontuur](https://github.com/microsoft/CopilotAdventures)
+- [Generatieve AI voor Beginners](https://aka.ms/genai-beginners)  
+- [Generatieve AI voor Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
+- [Generatieve AI met JavaScript](https://github.com/microsoft/generative-ai-with-javascript)  
+- [Generatieve AI met Java](https://github.com/microsoft/Generative-AI-for-beginners-java)  
+- [AI voor Beginners](https://aka.ms/ai-beginners)  
+- [Datawetenschap voor Beginners](https://aka.ms/datascience-beginners)  
+- [ML voor Beginners](https://aka.ms/ml-beginners)  
+- [Cybersecurity voor Beginners](https://github.com/microsoft/Security-101)  
+- [Webontwikkeling voor Beginners](https://aka.ms/webdev-beginners)  
+- [IoT voor Beginners](https://aka.ms/iot-beginners)  
+- [XR-ontwikkeling voor Beginners](https://github.com/microsoft/xr-development-for-beginners)  
+- [Mastering GitHub Copilot voor Agentisch Gebruik](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
+- [Mastering GitHub Copilot voor C#/.NET Ontwikkelaars](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
+- [Kies Je Eigen Copilot Avontuur](https://github.com/microsoft/CopilotAdventures)  
 
 ---
 
