@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantičke ugrađene reprezentacije, poput Word2Vec i GloVe, zapravo su prvi korak prema **modeliranju jezika** - stvaranju modela koji na neki način *razumiju* (ili *predstavljaju*) prirodu jezika.
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Glavna ideja modeliranja jezika je treniranje na nepodacima bez oznaka na nesuperviziran način. Ovo je važno jer imamo ogromne količine teksta bez oznaka, dok bi količina teksta s oznakama uvijek bila ograničena trudom koji možemo uložiti u označavanje. Najčešće možemo izgraditi modele jezika koji mogu **predvidjeti nedostajuće riječi** u tekstu, jer je lako sakriti nasumičnu riječ u tekstu i koristiti je kao uzorak za treniranje.
 
@@ -38,7 +38,7 @@ Nastavite učiti kroz sljedeće bilježnice:
 
 U prethodnoj lekciji vidjeli smo da ugrađene reprezentacije riječi djeluju poput magije! Sada znamo da treniranje ugrađenih reprezentacija riječi nije vrlo složen zadatak, i trebali bismo biti u mogućnosti trenirati vlastite ugrađene reprezentacije za tekst specifičan za određeno područje ako je potrebno.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Pregled i samostalno učenje
 

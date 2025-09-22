@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # जेनेरेटिभ नेटवर्कहरू
 
-## [पाठ अघि क्विज](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [पाठ अघि क्विज](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 रिकरन्ट न्युरल नेटवर्कहरू (RNNs) र तिनका गेटेड सेल भेरियन्टहरू जस्तै लङ सर्ट टर्म मेमोरी सेलहरू (LSTMs) र गेटेड रिकरन्ट युनिटहरू (GRUs) ले भाषा मोडलिङको लागि एक मेकानिज्म प्रदान गर्छन् जसले शब्दहरूको क्रम सिक्न सक्छ र अनुक्रममा अर्को शब्दको भविष्यवाणी गर्न सक्छ। यसले RNNs लाई **जेनेरेटिभ कार्यहरू** जस्तै सामान्य पाठ उत्पादन, मेसिन अनुवाद, र छविको क्याप्शनिङको लागि प्रयोग गर्न अनुमति दिन्छ।
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) संग पाठ उत्पादन
 
-## [पाठ पछि क्विज](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [पाठ पछि क्विज](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## समीक्षा र आत्म अध्ययन
 

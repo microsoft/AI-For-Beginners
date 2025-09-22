@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 سنقوم أيضًا بتطوير إطار عمل معياري خاص بنا باستخدام Python، مما يتيح لنا بناء هياكل مختلفة للشبكات العصبية.
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## صياغة تعلم الآلة
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 انتقل إلى دفتر [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) واعمل عليه.
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## المراجعة والدراسة الذاتية
 

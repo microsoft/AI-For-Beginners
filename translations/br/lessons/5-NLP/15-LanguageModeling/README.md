@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Embeddings semânticos, como Word2Vec e GloVe, são, na verdade, um primeiro passo em direção à **modelagem de linguagem** - criando modelos que de alguma forma *entendem* (ou *representam*) a natureza da linguagem.
 
-## [Pré-quiz da aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Pré-quiz da aula](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 A ideia principal por trás da modelagem de linguagem é treiná-los em conjuntos de dados não rotulados de forma não supervisionada. Isso é importante porque temos uma enorme quantidade de texto não rotulado disponível, enquanto a quantidade de texto rotulado sempre será limitada pelo esforço necessário para rotular. Na maioria das vezes, podemos construir modelos de linguagem que conseguem **prever palavras ausentes** no texto, porque é fácil mascarar uma palavra aleatória no texto e usá-la como um exemplo de treinamento.
 
@@ -38,7 +38,7 @@ Continue seu aprendizado nos seguintes notebooks:
 
 Na lição anterior, vimos que embeddings de palavras funcionam como mágica! Agora sabemos que treinar embeddings de palavras não é uma tarefa muito complexa, e devemos ser capazes de treinar nossos próprios embeddings para textos específicos de domínio, se necessário.
 
-## [Pós-quiz da aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Pós-quiz da aula](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Revisão e Autoestudo
 

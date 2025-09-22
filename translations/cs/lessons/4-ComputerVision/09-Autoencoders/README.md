@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Při trénování CNN je jedním z problémů potřeba velkého množství označených dat. V případě klasifikace obrázků je nutné rozdělit obrázky do různých tříd, což vyžaduje manuální úsilí.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Můžeme však chtít použít surová (neoznačená) data pro trénování CNN extraktorů funkcí, což se nazývá **self-supervised learning**. Místo štítků použijeme trénovací obrázky jako vstup i výstup sítě. Hlavní myšlenkou **autoenkodéru** je, že budeme mít **enkodér síť**, která převede vstupní obrázek do nějakého **latentního prostoru** (obvykle je to jen vektor menší velikosti), a poté **dekodér síť**, jejímž cílem bude rekonstruovat původní obrázek.
 
@@ -80,7 +80,7 @@ Zjistěte více o autoenkodérech v těchto odpovídajících noteboocích:
 * **Ztrátové** - rekonstruovaný obrázek není stejný jako původní obrázek. Povaha ztráty je definována *ztrátovou funkcí* použitou během trénování.
 * Fungují na **neoznačených datech**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Závěr
 
@@ -90,7 +90,7 @@ V této lekci jste se naučili o různých typech autoenkodérů dostupných pro
 
 V této lekci jste se naučili používat autoenkodéry pro obrázky. Ale mohou být také použity pro hudbu! Podívejte se na projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), který používá autoenkodéry k učení rekonstrukce hudby. Udělejte několik [experimentů](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) s touto knihovnou a zjistěte, co můžete vytvořit.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Přehled & Samostudium
 

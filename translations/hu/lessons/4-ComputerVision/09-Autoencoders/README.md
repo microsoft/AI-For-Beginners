@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Amikor CNN-eket tanítunk, az egyik probléma az, hogy sok címkézett adatra van szükségünk. Képklasszifikáció esetén például manuálisan kell az egyes képeket különböző osztályokba sorolni.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Azonban előfordulhat, hogy nyers (címkézetlen) adatokat szeretnénk használni a CNN jellemzők kinyerésére, amit **önfelügyelt tanulásnak** nevezünk. Címkék helyett a tanítóképeket használjuk hálózati bemenetként és kimenetként is. Az **autoenkóder** fő ötlete az, hogy lesz egy **enkóder hálózat**, amely a bemeneti képet valamilyen **rejtett térbe** alakítja (általában egy kisebb méretű vektor), majd egy **dekóder hálózat**, amelynek célja az eredeti kép rekonstruálása.
 
@@ -80,7 +80,7 @@ További információ az autoenkóderekről az alábbi jegyzetekben található:
 * **Veszteséges** - a rekonstruált kép nem ugyanaz, mint az eredeti kép. A veszteség jellege a tanítás során használt *veszteségfüggvénytől* függ.
 * **Címkézetlen adatokkal működik**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Összegzés
 
@@ -90,7 +90,7 @@ Ebben a leckében megismerkedtél az autoenkóderek különböző típusaival, a
 
 Ebben a leckében megtanultad, hogyan használhatók az autoenkóderek képekhez. De zenéhez is használhatók! Nézd meg a Magenta projekt [MusicVAE](https://magenta.tensorflow.org/music-vae) projektjét, amely autoenkódereket használ a zene rekonstruálásának megtanulására. Végezzen néhány [kísérletet](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) ezzel a könyvtárral, hogy lássa, mit tud létrehozni.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Áttekintés és önálló tanulás
 

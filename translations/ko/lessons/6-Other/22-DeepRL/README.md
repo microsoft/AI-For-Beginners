@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 강화 학습(RL)은 지도 학습과 비지도 학습과 함께 기본적인 머신 러닝 패러다임 중 하나로 간주됩니다. 지도 학습에서는 결과가 알려진 데이터셋에 의존하는 반면, RL은 **직접 행동하며 배우는 것**에 기반합니다. 예를 들어, 처음 컴퓨터 게임을 접했을 때 규칙을 몰라도 게임을 시작하고, 게임을 하면서 행동을 조정하는 과정을 통해 점차 실력을 향상시킬 수 있습니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 RL을 수행하기 위해 필요한 요소는 다음과 같습니다:
 
@@ -110,7 +110,7 @@ RL 알고리즘의 목표는 모델, 즉 **정책** π를 훈련시키는 것입
 
 '기타 RL 작업' 섹션에 나열된 응용 프로그램을 탐색하고 하나를 구현해보세요!
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## 복습 및 자기 학습
 

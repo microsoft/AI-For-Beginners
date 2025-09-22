@@ -14,7 +14,7 @@ Jak już się nauczyliśmy, aby efektywnie trenować sieci neuronowe, musimy zro
 * Operować na tensorach, np. mnożyć, dodawać i obliczać funkcje takie jak sigmoid czy softmax  
 * Obliczać gradienty wszystkich wyrażeń, aby przeprowadzać optymalizację metodą gradientu prostego  
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Podczas gdy biblioteka `numpy` może realizować pierwszą część, potrzebujemy mechanizmu do obliczania gradientów. W [naszym frameworku](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), który opracowaliśmy w poprzedniej sekcji, musieliśmy ręcznie programować wszystkie funkcje pochodne w metodzie `backward`, która realizuje propagację wsteczną. Idealnie byłoby, gdyby framework umożliwiał obliczanie gradientów *dowolnego wyrażenia*, które możemy zdefiniować.
 
@@ -106,7 +106,7 @@ W tej lekcji dowiedziałeś się o różnicach między różnymi API dla dwóch 
 
 W towarzyszących notatnikach znajdziesz 'zadania' na końcu; przejdź przez notatniki i wykonaj zadania.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Przegląd i samodzielna nauka
 

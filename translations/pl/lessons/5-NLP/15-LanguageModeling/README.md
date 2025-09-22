@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantyczne osadzenia, takie jak Word2Vec i GloVe, to w rzeczywistości pierwszy krok w kierunku **modelowania języka** – tworzenia modeli, które w pewien sposób *rozumieją* (lub *reprezentują*) naturę języka.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Główna idea modelowania języka polega na trenowaniu modeli na niezlabelowanych zbiorach danych w sposób nienadzorowany. Jest to istotne, ponieważ mamy dostęp do ogromnych ilości niezlabelowanego tekstu, podczas gdy ilość tekstu zlabelowanego zawsze będzie ograniczona wysiłkiem, jaki możemy poświęcić na jego oznaczanie. Najczęściej możemy budować modele językowe, które potrafią **przewidywać brakujące słowa** w tekście, ponieważ łatwo jest zamaskować losowe słowo w tekście i użyć go jako próbki treningowej.
 
@@ -38,7 +38,7 @@ Kontynuuj naukę, korzystając z poniższych notatników:
 
 W poprzedniej lekcji widzieliśmy, że osadzenia słów działają jak magia! Teraz wiemy, że trenowanie osadzeń słów nie jest bardzo skomplikowanym zadaniem i powinniśmy być w stanie wytrenować własne osadzenia słów dla tekstów specyficznych dla danej dziedziny, jeśli zajdzie taka potrzeba.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Przegląd i samodzielna nauka
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Modele klasyfikacji obrazów, które omawialiśmy do tej pory, przyjmowały obraz i zwracały wynik kategoryczny, na przykład klasę 'liczba' w problemie MNIST. Jednak w wielu przypadkach nie wystarczy wiedzieć, że na zdjęciu znajdują się obiekty – chcemy również określić ich dokładne położenie. Na tym właśnie polega **wykrywanie obiektów**.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Wykrywanie Obiektów](../../../../../lessons/4-ComputerVision/11-ObjectDetection/images/Screen_Shot_2016-11-17_at_11.14.54_AM.png)
 
@@ -172,7 +172,7 @@ Przeczytaj te artykuły i notatniki o YOLO i spróbuj je samodzielnie:
  * YOLO: [Implementacja w Keras](https://github.com/experiencor/keras-yolo2), [notatnik krok po kroku](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Implementacja w Keras](https://github.com/experiencor/keras-yolo2), [notatnik krok po kroku](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Przegląd i samodzielna nauka
 

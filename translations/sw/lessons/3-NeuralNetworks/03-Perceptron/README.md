@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Utangulizi wa Mitandao ya Neural: Perceptron
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Moja ya majaribio ya kwanza ya kutekeleza kitu kinachofanana na mtandao wa neural wa kisasa yalifanywa na Frank Rosenblatt kutoka Maabara ya Anga ya Cornell mwaka 1957. Ilikuwa ni utekelezaji wa vifaa vilivyoitwa "Mark-1", iliyoundwa kutambua maumbo ya kijiometri rahisi, kama vile pembetatu, miraba na miduara.
 
@@ -85,7 +85,7 @@ Katika somo hili, umejifunza kuhusu perceptron, ambayo ni mfano wa uainishaji wa
 
 Ikiwa ungependa kujaribu kujenga perceptron yako mwenyewe, jaribu [maabara hii kwenye Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) ambayo inatumia [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Mapitio na Kujisomea
 

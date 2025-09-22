@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 生成网络
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 循环神经网络（RNN）及其门控单元变体（如长短期记忆单元 LSTM 和门控循环单元 GRU）提供了一种语言建模的机制，因为它们可以学习单词的顺序并预测序列中下一个单词。这使得我们可以使用 RNN 执行**生成任务**，例如普通文本生成、机器翻译，甚至图像描述。
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * 使用 [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) 进行文本生成
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## 复习与自学
 

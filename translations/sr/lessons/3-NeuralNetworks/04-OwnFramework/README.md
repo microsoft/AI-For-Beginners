@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Такође ћемо развити сопствени модуларни оквир у Python-у који ће нам омогућити да конструишемо различите архитектуре неуронских мрежа.
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Формализација машинског учења
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Прелазите на [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) нотебук и радите кроз њега.
 
-## [Квиз после предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Квиз после предавања](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Преглед и самостално учење
 

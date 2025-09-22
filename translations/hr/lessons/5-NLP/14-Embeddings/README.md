@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ugrađivanja
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Kada smo trenirali klasifikatore temeljene na BoW ili TF/IDF, radili smo s vektorima vreće riječi visoke dimenzionalnosti duljine `vocab_size`, te smo eksplicitno pretvarali vektore s niskodimenzionalnim pozicijskim prikazom u rijetke one-hot prikaze. Međutim, ovaj one-hot prikaz nije memorijski učinkovit. Osim toga, svaka se riječ tretira neovisno o drugima, tj. one-hot kodirani vektori ne izražavaju nikakvu semantičku sličnost između riječi.
 
@@ -65,7 +65,7 @@ U ovoj lekciji otkrili ste kako izgraditi i koristiti slojeve za ugrađivanje u 
 
 Word2Vec je korišten za neke zanimljive primjene, uključujući generiranje stihova pjesama i poezije. Pogledajte [ovaj članak](https://www.politetype.com/blog/word2vec-color-poems) koji objašnjava kako je autor koristio Word2Vec za generiranje poezije. Pogledajte i [ovaj video Dana Shiffmanna](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) kako biste otkrili drugačije objašnjenje ove tehnike. Zatim pokušajte primijeniti ove tehnike na vlastiti tekstualni korpus, možda preuzet s Kaggla.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Pregled i samostalno učenje
 

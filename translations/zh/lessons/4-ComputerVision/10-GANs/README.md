@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在上一节中，我们学习了**生成模型**：可以生成与训练数据集中的图像相似的新图像的模型。VAE是生成模型的一个很好的例子。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 然而，如果我们尝试生成一些真正有意义的东西，比如一幅分辨率合理的画作，用VAE进行训练时会发现训练效果并不理想。针对这种情况，我们需要学习一种专门用于生成模型的架构——**生成对抗网络**，简称GAN。
 
@@ -84,7 +84,7 @@ GAN是生成艺术图像的绝佳工具。另一种有趣的技术是所谓的**
 
 ## ✍️ 示例：[风格迁移](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## 总结
 

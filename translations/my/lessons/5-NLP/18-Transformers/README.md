@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # အာရုံစိုက်မှု Mechanisms နှင့် Transformers
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP နယ်ပယ်တွင် အရေးကြီးဆုံးပြဿနာများထဲမှ တစ်ခုက **စက်ဖြင့်ဘာသာပြန်ခြင်း** ဖြစ်ပြီး၊ Google Translate ကဲ့သို့သော tools များ၏ အခြေခံအလုပ်ဖြစ်သည်။ ဒီအပိုင်းမှာ ကျွန်တော်တို့ **စက်ဖြင့်ဘာသာပြန်ခြင်း** (သို့မဟုတ် **sequence-to-sequence** task) ကို အဓိကထားပြီး လေ့လာပါမည်။ 
 
@@ -108,7 +108,7 @@ Input position တစ်ခုစီကို output position တစ်ခုစ
 
 ## 🚀 Challenge
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Review & Self Study
 

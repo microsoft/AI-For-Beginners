@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengantar Jaringan Saraf: Perceptron
 
-## [Kuis Pra-Pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Kuis Pra-Pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Salah satu upaya pertama untuk mengimplementasikan sesuatu yang mirip dengan jaringan saraf modern dilakukan oleh Frank Rosenblatt dari Cornell Aeronautical Laboratory pada tahun 1957. Ini adalah implementasi perangkat keras yang disebut "Mark-1", dirancang untuk mengenali bentuk geometris sederhana, seperti segitiga, persegi, dan lingkaran.
 
@@ -84,7 +84,7 @@ Dalam pelajaran ini, Anda telah mempelajari tentang perceptron, yang merupakan m
 
 Jika Anda ingin mencoba membangun perceptron Anda sendiri, coba [lab ini di Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) yang menggunakan [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Kuis Pasca-Pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Tinjauan & Studi Mandiri
 

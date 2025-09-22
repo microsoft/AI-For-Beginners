@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Sketchnote par [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **L'intelligence artificielle** est une discipline scientifique fascinante qui étudie comment rendre les ordinateurs capables de comportements intelligents, c'est-à-dire de réaliser des tâches que les humains maîtrisent bien.
 
@@ -151,7 +151,7 @@ Au cours des dernières années, nous avons assisté à de grands succès avec l
 
 Faites un tour sur internet pour déterminer, selon vous, où l'IA est utilisée de manière la plus efficace. Est-ce dans une application de cartographie, un service de reconnaissance vocale ou un jeu vidéo ? Recherchez comment le système a été conçu.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Révision et étude personnelle
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tekstin esittäminen tensoreina
 
-## [Ennakkovisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Ennakkovisa](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Tekstin luokittelu
 
@@ -73,7 +73,7 @@ Tähän mennessä olemme tutkineet tekniikoita, jotka voivat lisätä painotusta
 
 Kokeile muita harjoituksia käyttäen bag-of-words-menetelmää ja erilaisia datamalleja. Voit saada inspiraatiota tästä [Kaggle-kilpailusta](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Jälkivisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Jälkivisa](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Kertaus ja itseopiskelu
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 遺伝的アルゴリズム
 
-## [講義前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [講義前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **遺伝的アルゴリズム**（GA）は、AIにおける**進化的アプローチ**に基づいており、集団の進化の方法を利用して、特定の問題に対する最適解を得る手法です。1975年に[ジョン・ヘンリー・ホランド](https://wikipedia.org/wiki/John_Henry_Holland)によって提案されました。
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 「遺伝的アルゴリズムは実装が簡単だが、その挙動を理解するのは難しい。」[出典](https://wikipedia.org/wiki/Genetic_algorithm)  
 遺伝的アルゴリズムの実装例（例えば数独パズルの解法）を調査し、それがどのように機能するかをスケッチやフローチャートで説明してください。
 
-## [講義後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [講義後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## 復習と自己学習
 

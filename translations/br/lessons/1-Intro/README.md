@@ -54,7 +54,7 @@ Nos últimos anos, testemunhamos grandes avanços com modelos de linguagem de gr
 
 Faça uma pesquisa na internet para determinar onde, na sua opinião, a IA é mais eficazmente utilizada. É em um aplicativo de mapeamento, em algum serviço de conversão de fala para texto ou em um videogame? Pesquise como o sistema foi construído.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Revisão e Autoestudo
 

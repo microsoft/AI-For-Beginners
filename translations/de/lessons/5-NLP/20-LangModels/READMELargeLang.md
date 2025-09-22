@@ -2,7 +2,7 @@
 
 In all unseren vorherigen Aufgaben haben wir ein neuronales Netzwerk trainiert, um eine bestimmte Aufgabe mit einem beschrifteten Datensatz auszuführen. Bei großen Transformermodellen wie BERT nutzen wir Sprachmodellierung in selbstüberwachter Weise, um ein Sprachmodell zu erstellen, das dann für spezifische nachgelagerte Aufgaben mit weiterem domänenspezifischem Training spezialisiert wird. Es wurde jedoch gezeigt, dass große Sprachmodelle viele Aufgaben auch ohne jegliches domänenspezifisches Training lösen können. Eine Familie von Modellen, die dazu in der Lage ist, wird als **GPT** bezeichnet: Generative Pre-Trained Transformer.
 
-## [Vorlesungsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Vorlesungsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Textgenerierung und Perplexität
 
@@ -50,7 +50,7 @@ Setzen Sie Ihr Lernen in den folgenden Notizbüchern fort:
 
 Neue allgemeine vortrainierte Sprachmodelle modellieren nicht nur die Sprachstruktur, sondern enthalten auch eine riesige Menge an natürlicher Sprache. Daher können sie effektiv eingesetzt werden, um einige NLP-Aufgaben in Zero-Shot- oder Few-Shot-Einstellungen zu lösen.
 
-## [Nachlesungsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Nachlesungsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Haftungsausschluss**:  
 Dieses Dokument wurde mit maschinellen KI-Übersetzungsdiensten übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als die maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Verwendung dieser Übersetzung entstehen.

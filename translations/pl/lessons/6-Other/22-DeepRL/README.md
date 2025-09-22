@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Uczenie wzmocnione (RL) jest uważane za jeden z podstawowych paradygmatów uczenia maszynowego, obok uczenia nadzorowanego i nienadzorowanego. Podczas gdy w uczeniu nadzorowanym opieramy się na zbiorze danych z określonymi wynikami, RL bazuje na **uczeniu się poprzez działanie**. Na przykład, gdy po raz pierwszy widzimy grę komputerową, zaczynamy grać, nawet nie znając zasad, a wkrótce jesteśmy w stanie poprawić swoje umiejętności dzięki samemu procesowi grania i dostosowywania swojego zachowania.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Aby przeprowadzić RL, potrzebujemy:
 
@@ -110,7 +110,7 @@ Nauczyliśmy się, jak trenować agentów, aby osiągali dobre wyniki, zapewniaj
 
 Zbadaj aplikacje wymienione w sekcji "Inne Zadania RL" i spróbuj zaimplementować jedną z nich!
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Przegląd i Samodzielna Nauka
 

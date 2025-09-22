@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einführung in Neuronale Netze: Perzeptron
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Einer der ersten Versuche, etwas Ähnliches wie ein modernes neuronales Netz zu implementieren, wurde 1957 von Frank Rosenblatt vom Cornell Aeronautical Laboratory unternommen. Es handelte sich um eine Hardware-Implementierung namens "Mark-1", die entwickelt wurde, um primitive geometrische Figuren wie Dreiecke, Quadrate und Kreise zu erkennen.
 
@@ -85,7 +85,7 @@ In dieser Lektion haben Sie ein Perzeptron kennengelernt, ein Modell zur binäre
 
 Wenn Sie versuchen möchten, Ihr eigenes Perzeptron zu erstellen, probieren Sie [dieses Lab auf Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) aus, das den [Azure ML Designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) verwendet.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Rückblick & Selbststudium
 

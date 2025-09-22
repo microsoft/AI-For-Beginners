@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 임베딩
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 BoW 또는 TF/IDF 기반의 분류기를 학습시킬 때, 우리는 `vocab_size` 길이의 고차원 bag-of-words 벡터를 사용했으며, 저차원 위치 표현 벡터를 희소한 원-핫 표현으로 명시적으로 변환했습니다. 하지만 이 원-핫 표현은 메모리 효율적이지 않습니다. 게다가 각 단어는 서로 독립적으로 처리되며, 원-핫 인코딩된 벡터는 단어 간의 의미적 유사성을 표현하지 못합니다.
 
@@ -65,7 +65,7 @@ Word2Vec와 같은 전통적인 사전 학습 임베딩 표현의 주요 한계�
 
 Word2Vec는 노래 가사와 시를 생성하는 등 흥미로운 응용 프로그램에 사용되었습니다. [이 글](https://www.politetype.com/blog/word2vec-color-poems)을 읽어보세요. 작성자가 Word2Vec를 사용해 시를 생성하는 과정을 설명합니다. 또한 [Dan Shiffmann의 이 영상](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain)을 시청하여 이 기술에 대한 다른 설명을 확인하세요. 그런 다음 Kaggle에서 텍스트 코퍼스를 가져와 자신의 텍스트 코퍼스에 이 기술을 적용해 보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## 복습 및 자기 학습
 

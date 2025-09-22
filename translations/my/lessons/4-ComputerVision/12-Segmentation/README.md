@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ယခင်က ကျွန်ုပ်တို့ Object Detection အကြောင်းကို လေ့လာခဲ့ပြီး၊ *bounding boxes* ကိုခန့်မှန်းခြင်းဖြင့် ပုံထဲရှိ objects တွေကို ရှာဖွေနိုင်ခဲ့ပါတယ်။ သို့သော် အချို့သောအလုပ်များအတွက် bounding boxes ပဲမဟုတ်ဘဲ၊ ပိုမိုတိကျသော object localization လည်းလိုအပ်ပါတယ်။ ဒီအလုပ်ကို **segmentation** လို့ခေါ်ပါတယ်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentation ကို **pixel classification** အနေနဲ့မြင်နိုင်ပြီး၊ ပုံရိပ်ရဲ့ **တစ်ခုချင်းစီ** pixel အတွက် class ကိုခန့်မှန်းရမယ် (*background* က classes တွေထဲကတစ်ခုဖြစ်ပါတယ်)။ Segmentation algorithm နှစ်မျိုးရှိပါတယ်-
 
@@ -56,7 +56,7 @@ Segmentation အတွက် အသုံးပြုတဲ့ loss function က
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## နိဂုံး
 

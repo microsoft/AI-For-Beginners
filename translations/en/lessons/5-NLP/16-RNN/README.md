@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Recurrent Neural Networks
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 In previous sections, we used rich semantic representations of text along with a simple linear classifier on top of embeddings. This architecture captures the overall meaning of words in a sentence but does not account for the **order** of words, as the aggregation operation on embeddings removes this information from the original text. Since these models cannot represent word order, they struggle with more complex or ambiguous tasks like text generation or question answering.
 
@@ -84,7 +84,7 @@ Read some literature about LSTMs and explore their applications:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Review & Self Study
 

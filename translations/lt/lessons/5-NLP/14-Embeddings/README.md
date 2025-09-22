@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Įterptys
 
-## [Prieš paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Mokant klasifikatorius, pagrįstus BoW arba TF/IDF, mes dirbome su aukštos dimensijos žodžių maišo vektoriais, kurių ilgis buvo `vocab_size`, ir aiškiai konvertavome iš žemos dimensijos pozicinių reprezentacijų vektorių į retą vieno elemento reprezentaciją. Tačiau tokia vieno elemento reprezentacija nėra efektyvi atminties atžvilgiu. Be to, kiekvienas žodis yra traktuojamas nepriklausomai nuo kitų, t. y. vieno elemento koduoti vektoriai neišreiškia jokio semantinio panašumo tarp žodžių.
 
@@ -65,7 +65,7 @@ Iš anksto apmokytos įterptys aukščiau reprezentuoja abi šias žodžio „pl
 
 Word2Vec buvo naudojamas kai kurioms įdomioms programoms, įskaitant dainų tekstų ir poezijos generavimą. Peržiūrėkite [šį straipsnį](https://www.politetype.com/blog/word2vec-color-poems), kuriame aprašoma, kaip autorius naudojo Word2Vec poezijai generuoti. Taip pat pažiūrėkite [šį Dan Shiffmann vaizdo įrašą](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), kad sužinotumėte kitokį šios technikos paaiškinimą. Tada pabandykite pritaikyti šias technikas savo tekstų korpusui, galbūt gautam iš Kaggle.
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Apžvalga ir savarankiškas mokymasis
 

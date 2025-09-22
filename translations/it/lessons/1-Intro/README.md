@@ -54,7 +54,7 @@ Negli ultimi anni abbiamo assistito a enormi successi con i modelli linguistici 
 
 Fai un giro su internet per determinare dove, secondo te, l'AI viene utilizzata in modo più efficace. È in un'app di mappatura, in un servizio di riconoscimento vocale o in un videogioco? Ricerca come è stato costruito il sistema.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Revisione e Studio Autonomo
 

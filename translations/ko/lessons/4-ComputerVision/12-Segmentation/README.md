@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이전에 우리는 객체 감지(Object Detection)에 대해 배웠습니다. 객체 감지는 이미지에서 객체의 *바운딩 박스*를 예측하여 위치를 찾을 수 있게 해줍니다. 하지만 일부 작업에서는 바운딩 박스뿐만 아니라 더 정밀한 객체 위치 정보가 필요합니다. 이러한 작업을 **세그멘테이션(Segmentation)**이라고 합니다.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 세그멘테이션은 **픽셀 분류**로 볼 수 있습니다. 이미지의 **각** 픽셀에 대해 해당 픽셀이 속하는 클래스를 예측해야 합니다 (*배경*도 클래스 중 하나로 포함됩니다). 주요 세그멘테이션 알고리즘은 두 가지가 있습니다:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## 결론
 

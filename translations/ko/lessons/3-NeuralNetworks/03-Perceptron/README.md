@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 신경망 소개: 퍼셉트론
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 현대 신경망과 유사한 것을 구현하려는 최초의 시도 중 하나는 1957년 Cornell Aeronautical Laboratory의 Frank Rosenblatt에 의해 이루어졌습니다. 이는 "Mark-1"이라는 하드웨어 구현으로, 삼각형, 사각형, 원과 같은 기본적인 기하학적 도형을 인식하도록 설계되었습니다.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 직접 퍼셉트론을 만들어 보고 싶다면 [Microsoft Learn의 실습](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste)을 시도해 보세요. 이 실습에서는 [Azure ML 디자이너](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste)를 사용합니다.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## 복습 및 자기 학습
 

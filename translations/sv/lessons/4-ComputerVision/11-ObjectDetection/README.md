@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De bildklassificeringsmodeller vi har arbetat med hittills tog en bild och producerade ett kategoriskt resultat, som klassen 'nummer' i ett MNIST-problem. Men i många fall vill vi inte bara veta att en bild föreställer objekt – vi vill kunna bestämma deras exakta position. Det är precis detta som är syftet med **objektigenkänning**.
 
-## [Förquiz före föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Förquiz före föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objektigenkänning](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sv.png)
 
@@ -172,7 +172,7 @@ Läs igenom dessa artiklar och anteckningsböcker om YOLO och prova dem själv:
  * Yolo: [Keras-implementation](https://github.com/experiencor/keras-yolo2), [steg-för-steg-anteckningsbok](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras-implementation](https://github.com/experiencor/keras-yolo2), [steg-för-steg-anteckningsbok](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Efterquiz efter föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Efterquiz efter föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Granskning och självstudier
 

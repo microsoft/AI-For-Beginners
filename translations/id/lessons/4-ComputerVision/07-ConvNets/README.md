@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kita telah melihat sebelumnya bahwa jaringan saraf cukup baik dalam menangani gambar, bahkan perceptron satu lapis mampu mengenali angka tulisan tangan dari dataset MNIST dengan akurasi yang cukup baik. Namun, dataset MNIST sangatlah spesial, karena semua angka di dalamnya sudah dipusatkan di tengah gambar, sehingga tugasnya menjadi lebih sederhana.
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Dalam kehidupan nyata, kita ingin dapat mengenali objek dalam gambar tanpa peduli lokasi pastinya di dalam gambar. Penglihatan komputer berbeda dari klasifikasi umum, karena ketika kita mencoba menemukan objek tertentu dalam gambar, kita memindai gambar untuk mencari **pola** tertentu dan kombinasinya. Sebagai contoh, ketika mencari kucing, kita mungkin pertama-tama mencari garis horizontal yang dapat membentuk kumis, dan kemudian kombinasi tertentu dari kumis tersebut dapat memberi tahu kita bahwa itu sebenarnya adalah gambar kucing. Posisi relatif dan keberadaan pola tertentu penting, bukan posisi pastinya di dalam gambar.
 

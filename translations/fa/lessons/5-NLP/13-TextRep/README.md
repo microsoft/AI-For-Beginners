@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # نمایش متن به صورت تنسورها
 
-## [پیش‌ آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [پیش‌ آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## دسته‌بندی متن
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 برخی تمرین‌های دیگر را با استفاده از کیسه کلمات و مدل‌های داده مختلف امتحان کنید. ممکن است این [رقابت در Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) الهام‌بخش شما باشد.
 
-## [پس‌آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [پس‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## مرور و مطالعه خودآموز
 

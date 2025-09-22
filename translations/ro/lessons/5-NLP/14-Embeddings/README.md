@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Încapsulări
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Când antrenam clasificatori bazându-ne pe BoW sau TF/IDF, lucram cu vectori de cuvinte de dimensiuni mari, având lungimea `vocab_size`, și transformam explicit vectorii de reprezentare pozițională de dimensiuni mici în reprezentări sparse one-hot. Totuși, această reprezentare one-hot nu este eficientă din punct de vedere al memoriei. În plus, fiecare cuvânt este tratat independent de celelalte, adică vectorii one-hot codificați nu exprimă nicio similaritate semantică între cuvinte.
 
@@ -65,7 +65,7 @@ De exemplu, cuvântul „play” în cele două propoziții de mai jos are semni
 
 Word2Vec a fost utilizat pentru unele aplicații interesante, inclusiv generarea de versuri și poezii. Aruncă o privire la [acest articol](https://www.politetype.com/blog/word2vec-color-poems) care explică cum autorul a folosit Word2Vec pentru a genera poezie. Urmărește și [acest videoclip de Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) pentru a descoperi o altă explicație a acestei tehnici. Apoi încearcă să aplici aceste tehnici pe propriul tău corpus de texte, poate obținut de pe Kaggle.
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Recapitulare și Studiu Individual
 

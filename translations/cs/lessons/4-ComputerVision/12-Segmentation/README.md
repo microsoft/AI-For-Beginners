@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dříve jsme se naučili o detekci objektů, která nám umožňuje lokalizovat objekty na obrázku předpovědí jejich *ohraničujících rámečků*. Pro některé úkoly však nepotřebujeme pouze ohraničující rámečky, ale také přesnější lokalizaci objektů. Tento úkol se nazývá **segmentace**.
 
-## [Kvíz před lekcí](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Kvíz před lekcí](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentaci lze chápat jako **klasifikaci pixelů**, kde pro **každý** pixel obrázku musíme předpovědět jeho třídu (*pozadí* je jednou z tříd). Existují dva hlavní algoritmy segmentace:
 
@@ -56,7 +56,7 @@ Otevřete níže uvedené notebooky, abyste se dozvěděli více o různých arc
 * [Sémantická segmentace v Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Sémantická segmentace v TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Kvíz po lekci](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Kvíz po lekci](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Závěr
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Word2Vec ve GloVe gibi anlamsal gömme yöntemleri aslında **dil modellemesine** doğru atılmış ilk adımdır - dilin doğasını bir şekilde *anlayan* (veya *temsil eden*) modeller oluşturmak.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Dil modellemesinin temel fikri, modelleri etiketlenmemiş veri kümeleri üzerinde gözetimsiz bir şekilde eğitmektir. Bu önemlidir çünkü elimizde büyük miktarda etiketlenmemiş metin bulunurken, etiketlenmiş metin miktarı her zaman etiketleme için harcayabileceğimiz çabayla sınırlı olacaktır. Çoğu zaman, metindeki **eksik kelimeleri tahmin edebilen** dil modelleri oluşturabiliriz, çünkü metindeki rastgele bir kelimeyi maskelemek ve bunu bir eğitim örneği olarak kullanmak oldukça kolaydır.
 
@@ -38,7 +38,7 @@ Aşağıdaki defterlerde öğreniminize devam edebilirsiniz:
 
 Önceki derste, kelime gömmelerinin adeta bir sihir gibi çalıştığını görmüştük! Şimdi ise kelime gömmelerini eğitmenin çok karmaşık bir iş olmadığını biliyoruz ve gerekirse alanına özgü metinler için kendi kelime gömmelerimizi eğitebileceğimizi öğrenmiş olduk.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

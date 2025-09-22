@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Meccanismi di Attenzione e Trasformatori
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Uno dei problemi più importanti nel campo dell'elaborazione del linguaggio naturale (NLP) è la **traduzione automatica**, un compito essenziale alla base di strumenti come Google Translate. In questa sezione ci concentreremo sulla traduzione automatica o, più in generale, su qualsiasi compito di *sequence-to-sequence* (chiamato anche **trasduzione di frasi**).
 
@@ -108,7 +108,7 @@ In questa lezione hai appreso dei Transformer e dei Meccanismi di Attenzione, st
 
 ## 🚀 Sfida
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Revisione e Studio Autonomo
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Osadzenia
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Podczas trenowania klasyfikatorów opartych na BoW lub TF/IDF operowaliśmy na wektorach worka słów o wysokiej wymiarowości o długości `vocab_size`, a także jawnie konwertowaliśmy z wektorów reprezentacji pozycyjnej o niskiej wymiarowości na rzadkie wektory one-hot. Jednakże, reprezentacja one-hot nie jest efektywna pod względem pamięci. Dodatkowo, każde słowo jest traktowane niezależnie od innych, tzn. wektory zakodowane one-hot nie wyrażają żadnego podobieństwa semantycznego między słowami.
 
@@ -65,7 +65,7 @@ W tej lekcji dowiedziałeś się, jak budować i używać warstw osadzeń w Tens
 
 Word2Vec został wykorzystany w ciekawych zastosowaniach, takich jak generowanie tekstów piosenek i poezji. Zajrzyj do [tego artykułu](https://www.politetype.com/blog/word2vec-color-poems), który opisuje, jak autor użył Word2Vec do generowania poezji. Obejrzyj również [ten film Dana Shiffmanna](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), aby poznać inne wyjaśnienie tej techniki. Następnie spróbuj zastosować te techniki do własnego korpusu tekstowego, być może pochodzącego z Kaggle.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Przegląd i samodzielna nauka
 

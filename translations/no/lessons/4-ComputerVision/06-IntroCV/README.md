@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Datamaskinsyn](https://wikipedia.org/wiki/Computer_vision) er et fagfelt som har som mål å gi datamaskiner en høyere forståelse av digitale bilder. Dette er en ganske bred definisjon, fordi *forståelse* kan bety mange forskjellige ting, inkludert å finne et objekt i et bilde (**objektdeteksjon**), forstå hva som skjer (**hendelsesdeteksjon**), beskrive et bilde med tekst, eller rekonstruere en scene i 3D. Det finnes også spesifikke oppgaver knyttet til bilder av mennesker: alders- og følelsesestimering, ansiktsdeteksjon og -identifikasjon, og 3D-posisjonsestimering, for å nevne noen.
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 En av de enkleste oppgavene innen datamaskinsyn er **bildeklassifisering**.
 
@@ -105,7 +105,7 @@ Noen ganger kan relativt komplekse oppgaver som bevegelsesdeteksjon eller finger
 
 Se [denne videoen](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) fra AI-showet for å lære om Cortic Tigers-prosjektet og hvordan de bygde en blokkbasert løsning for å demokratisere oppgaver innen datamaskinsyn via en robot. Gjør litt research på andre prosjekter som dette som hjelper nye lærere inn i feltet.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Gjennomgang og selvstudium
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Mokant CNN, viena iš problemų yra ta, kad reikia daug pažymėtų duomenų. Vaizdų klasifikavimo atveju reikia rankiniu būdu suskirstyti vaizdus į skirtingas klases.
 
-## [Prieš paskaitą vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Prieš paskaitą vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Tačiau galime norėti naudoti neapdorotus (nepažymėtus) duomenis CNN funkcijų ištraukėjų mokymui, vadinamą **savaiminio mokymosi** metodu. Vietoj etikečių naudosime mokymo vaizdus tiek kaip tinklo įvestį, tiek kaip išvestį. Pagrindinė **autoenkoderio** idėja yra turėti **enkoderio tinklą**, kuris paverčia įvesties vaizdą į tam tikrą **latentę erdvę** (paprastai tai yra mažesnio dydžio vektorius), ir **dekoderio tinklą**, kurio tikslas yra atkurti originalų vaizdą.
 
@@ -80,7 +80,7 @@ Sužinokite daugiau apie autoenkoderius šiuose atitinkamuose užrašų knygelė
 * **Nuostolingumas** – atkurtas vaizdas nėra toks pat kaip originalus vaizdas. Nuostolių pobūdis apibrėžiamas *nuostolių funkcija*, naudojama mokymo metu.
 * Veikia su **nepažymėtais duomenimis**
 
-## [Po paskaitos vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Po paskaitos vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Išvada
 
@@ -90,7 +90,7 @@ Sužinokite daugiau apie autoenkoderius šiuose atitinkamuose užrašų knygelė
 
 Šioje pamokoje sužinojote apie autoenkoderių naudojimą vaizdams. Tačiau jie gali būti naudojami ir muzikai! Peržiūrėkite Magenta projekto [MusicVAE](https://magenta.tensorflow.org/music-vae) projektą, kuris naudoja autoenkoderius muzikos atkūrimui išmokti. Atlikite keletą [eksperimentų](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) su šia biblioteka ir pažiūrėkite, ką galite sukurti.
 
-## [Po paskaitos vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Po paskaitos vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Apžvalga ir savarankiškas mokymasis
 

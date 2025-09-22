@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mecanisme de Atenție și Transformere
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Una dintre cele mai importante probleme din domeniul NLP este **traducerea automată**, o sarcină esențială care stă la baza unor instrumente precum Google Translate. În această secțiune, ne vom concentra pe traducerea automată sau, mai general, pe orice sarcină de tip *secvență-la-secvență* (numită și **transducția propozițiilor**).
 
@@ -108,7 +108,7 @@ Continuă învățarea în următoarele notebook-uri:
 
 ## 🚀 Provocare
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Recapitulare și Studiu Individual
 

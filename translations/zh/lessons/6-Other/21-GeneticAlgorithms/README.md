@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 遗传算法
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **遗传算法** (GA) 基于一种**进化式方法**，通过模拟种群的进化过程来为给定问题找到最优解。这种方法由 [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) 于1975年提出。
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 “遗传算法易于实现，但其行为难以理解。” [来源](https://wikipedia.org/wiki/Genetic_algorithm) 进行一些研究，找到一个遗传算法的实现，例如解决数独问题，并通过草图或流程图解释其工作原理。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## 复习与自学
 

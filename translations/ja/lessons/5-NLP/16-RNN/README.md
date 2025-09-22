@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # リカレントニューラルネットワーク (RNN)
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 これまでのセクションでは、テキストのリッチなセマンティック表現と、その上に単純な線形分類器を使用してきました。このアーキテクチャは、文中の単語の集約された意味を捉えることができますが、埋め込みの上で行われる集約操作によって元のテキストからこの情報が失われるため、単語の**順序**を考慮することはできません。このため、これらのモデルは単語の順序をモデル化することができず、テキスト生成や質問応答のようなより複雑または曖昧なタスクを解くことができません。
 
@@ -84,7 +84,7 @@ LSTMに関する文献を読み、その応用について考えてみてくだ�
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## 復習と自己学習
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representing Text as Tensors
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Text Classification
 
@@ -75,7 +75,7 @@ So far, we have explored techniques that add frequency weight to different words
 
 Try some other exercises using bag-of-words and different data models. You might find inspiration in this [competition on Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Review & Self Study
 

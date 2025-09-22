@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till neurala nätverk: Perceptron
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Ett av de första försöken att implementera något liknande ett modernt neuralt nätverk gjordes av Frank Rosenblatt från Cornell Aeronautical Laboratory år 1957. Det var en hårdvaruimplementation kallad "Mark-1", designad för att känna igen enkla geometriska figurer, såsom trianglar, kvadrater och cirklar.
 
@@ -85,7 +85,7 @@ I denna lektion lärde du dig om en perceptron, som är en binär klassificering
 
 Om du vill prova att bygga din egen perceptron, testa [detta labb på Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) som använder [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Granskning & Självstudier
 

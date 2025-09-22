@@ -19,7 +19,7 @@ Dans cette section, nous allons étendre ce modèle à un cadre plus flexible, n
 
 Nous développerons également notre propre cadre modulaire en Python, qui nous permettra de construire différentes architectures de réseaux neuronaux.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisation de l'apprentissage automatique
 
@@ -81,7 +81,7 @@ Dans le notebook associé, vous allez implémenter votre propre cadre pour const
 
 Passez au notebook [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) et travaillez dessus.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Révision et auto-apprentissage
 

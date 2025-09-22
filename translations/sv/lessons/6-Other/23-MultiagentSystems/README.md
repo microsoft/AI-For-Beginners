@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ett av de möjliga sätten att uppnå intelligens är den så kallade **emergenta** (eller **synergetiska**) metoden, som bygger på att det kombinerade beteendet hos många relativt enkla agenter kan resultera i ett mer komplext (eller intelligent) beteende för systemet som helhet. Teoretiskt baseras detta på principerna för [Kollektiv intelligens](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) och [Evolutionär cybernetik](https://en.wikipedia.org/wiki/Global_brain), som säger att högre nivåsystem får någon form av mervärde när de kombineras korrekt från system på lägre nivå (den så kallade *principen om metasystemövergång*).
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Riktningen för **Multi-Agent Systems** uppstod inom AI på 1990-talet som ett svar på tillväxten av internet och distribuerade system. En av de klassiska AI-läroböckerna, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), fokuserar på den klassiska AI-synen ur perspektivet av multi-agent system.
 
@@ -152,7 +152,7 @@ De tenderar alla att fokusera på det enklare beteendet hos en enskild agent och
 
 Ta denna lektion till verkligheten och försök att konceptualisera ett multi-agent system som kan lösa ett problem. Vad skulle till exempel ett multi-agent system behöva göra för att optimera en skolbussrutt? Hur skulle det kunna fungera i ett bageri?
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Granskning & Självstudier
 

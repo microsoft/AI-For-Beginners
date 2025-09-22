@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Вече научихме за Обектно Разпознаване, което ни позволява да локализираме обекти в изображението чрез предсказване на техните *ограничаващи кутии*. Въпреки това, за някои задачи не се нуждаем само от ограничаващи кутии, а и от по-прецизна локализация на обектите. Тази задача се нарича **сегментация**.
 
-## [Тест преди лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Сегментацията може да се разглежда като **класификация на пиксели**, при която за **всеки** пиксел от изображението трябва да предскажем неговия клас (*фонът* също е един от класовете). Съществуват два основни алгоритъма за сегментация:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Семантична сегментация с Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Семантична сегментация с TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Тест след лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Тест след лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Заключение
 

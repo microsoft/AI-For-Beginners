@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbeelding en produceerden een categorisch resultaat, zoals de klasse 'nummer' in een MNIST-probleem. Echter, in veel gevallen willen we niet alleen weten dat een afbeelding objecten toont - we willen ook hun exacte locatie kunnen bepalen. Dit is precies het doel van **objectdetectie**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objectdetectie](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.nl.png)
 
@@ -172,7 +172,7 @@ Lees deze artikelen en notebooks over YOLO en probeer ze zelf uit:
  * Yolo: [Keras implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Review & Zelfstudie
 

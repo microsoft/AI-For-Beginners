@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 When training classifiers using BoW or TF/IDF, we worked with high-dimensional bag-of-words vectors of length `vocab_size`, explicitly converting low-dimensional positional representation vectors into sparse one-hot representations. However, this one-hot representation is not memory-efficient. Additionally, each word is treated independently, meaning one-hot encoded vectors do not capture any semantic similarity between words.
 
@@ -65,7 +65,7 @@ In this lesson, you learned how to build and use embedding layers in TensorFlow 
 
 Word2Vec has been applied to some fascinating projects, such as generating song lyrics and poetry. Check out [this article](https://www.politetype.com/blog/word2vec-color-poems), which explains how the author used Word2Vec to create poetry. Also, watch [this video by Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) for another explanation of this technique. Then, try applying these methods to your own text corpus, perhaps sourced from Kaggle.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Review & Self Study
 

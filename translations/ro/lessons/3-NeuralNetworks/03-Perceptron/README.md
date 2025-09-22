@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducere în Rețele Neuronale: Perceptron
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Una dintre primele încercări de a implementa ceva similar cu o rețea neuronală modernă a fost realizată de Frank Rosenblatt de la Cornell Aeronautical Laboratory în 1957. A fost o implementare hardware numită "Mark-1", concepută pentru a recunoaște figuri geometrice primitive, cum ar fi triunghiuri, pătrate și cercuri.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 Dacă dorești să încerci să construiești propriul perceptron, încearcă [acest laborator pe Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), care folosește [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Recapitulare și Studiu Individual
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 嵌入
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 在基于 BoW 或 TF/IDF 训练分类器时，我们使用的是长度为 `vocab_size` 的高维词袋向量，并且我们显式地将低维位置表示向量转换为稀疏的独热表示。然而，这种独热表示并不节省内存。此外，每个单词都是独立处理的，即独热编码向量无法表达单词之间的语义相似性。
 
@@ -65,7 +65,7 @@ Word2Vec 预训练嵌入（以及其他类似模型，例如 GloVe）也可以�
 
 Word2Vec 已被用于一些有趣的应用，包括生成歌词和诗歌。阅读 [这篇文章](https://www.politetype.com/blog/word2vec-color-poems)，了解作者如何使用 Word2Vec 生成诗歌。观看 [Dan Shiffmann 的视频](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain)，了解该技术的另一种解释。然后尝试将这些技术应用到你自己的文本语料库中，可以从 Kaggle 获取数据。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## 复习与自学
 

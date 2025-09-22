@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wir haben bereits gesehen, dass neuronale Netze recht gut mit Bildern umgehen können, und selbst ein Ein-Schicht-Perzeptron ist in der Lage, handgeschriebene Ziffern aus dem MNIST-Datensatz mit einer akzeptablen Genauigkeit zu erkennen. Der MNIST-Datensatz ist jedoch etwas Besonderes, da alle Ziffern zentriert im Bild dargestellt sind, was die Aufgabe vereinfacht.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Im echten Leben möchten wir Objekte auf einem Bild unabhängig von ihrer genauen Position erkennen können. Computer Vision unterscheidet sich von generischer Klassifikation, da wir beim Versuch, ein bestimmtes Objekt auf einem Bild zu finden, das Bild nach spezifischen **Mustern** und deren Kombinationen durchsuchen. Zum Beispiel, wenn wir nach einer Katze suchen, könnten wir zunächst nach horizontalen Linien suchen, die Schnurrhaare bilden können, und dann kann eine bestimmte Kombination von Schnurrhaaren darauf hinweisen, dass es sich tatsächlich um ein Bild einer Katze handelt. Die relative Position und das Vorhandensein bestimmter Muster sind wichtig, nicht jedoch deren exakte Position im Bild.
 

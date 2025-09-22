@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tekst Representeren als Tensors
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Tekstclassificatie
 
@@ -73,7 +73,7 @@ Tot nu toe hebben we technieken bestudeerd die frequentiegewicht kunnen toevoege
 
 Probeer enkele andere oefeningen met bag-of-words en verschillende datamodellen. Je kunt geïnspireerd worden door deze [competitie op Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Review & Zelfstudie
 

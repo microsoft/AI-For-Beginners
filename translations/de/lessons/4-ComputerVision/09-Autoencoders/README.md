@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Beim Training von CNNs besteht eines der Probleme darin, dass wir viele gelabelte Daten benötigen. Im Fall der Bildklassifikation müssen wir Bilder in verschiedene Klassen unterteilen, was manuell erfolgen muss.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Wir möchten jedoch möglicherweise rohe (nicht gelabelte) Daten verwenden, um CNN-Feature-Extraktoren zu trainieren, was als **selbstüberwachtes Lernen** bezeichnet wird. Anstelle von Labels verwenden wir Trainingsbilder sowohl als Netzwerkeingabe als auch als -ausgabe. Die Hauptidee des **Autoencoders** besteht darin, dass wir ein **Encoder-Netzwerk** haben, das das Eingabebild in einen **latenten Raum** umwandelt (normalerweise ist dies einfach ein Vektor mit kleinerer Größe), und dann ein **Decoder-Netzwerk**, dessen Ziel es ist, das ursprüngliche Bild zu rekonstruieren.
 
@@ -80,7 +80,7 @@ Erfahren Sie mehr über Autoencoder in den entsprechenden Notebooks:
 * **Verlustbehaftet** - das rekonstruierte Bild ist nicht identisch mit dem ursprünglichen Bild. Die Art des Verlusts wird durch die *Verlustfunktion* definiert, die während des Trainings verwendet wird.
 * Funktioniert mit **nicht gelabelten Daten**
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Fazit
 
@@ -90,7 +90,7 @@ In dieser Lektion haben Sie die verschiedenen Arten von Autoencodern kennengeler
 
 In dieser Lektion haben Sie gelernt, wie man Autoencoder für Bilder verwendet. Aber sie können auch für Musik verwendet werden! Schauen Sie sich das [MusicVAE](https://magenta.tensorflow.org/music-vae)-Projekt des Magenta-Projekts an, das Autoencoder verwendet, um Musik zu rekonstruieren. Machen Sie einige [Experimente](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) mit dieser Bibliothek, um zu sehen, was Sie erstellen können.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Überprüfung & Selbststudium
 

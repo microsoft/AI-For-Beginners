@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 למדנו בעבר על זיהוי אובייקטים, שמאפשר לנו לאתר אובייקטים בתמונה על ידי חיזוי *תיבות גבול* (bounding boxes). עם זאת, עבור משימות מסוימות אנחנו לא זקוקים רק לתיבות גבול, אלא גם למיקום מדויק יותר של האובייקט. משימה זו נקראת **חלוקה** (Segmentation).
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 ניתן לראות חלוקה כ**סיווג פיקסלים**, כאשר עבור **כל** פיקסל בתמונה עלינו לחזות את הקטגוריה שלו (*רקע* הוא אחת הקטגוריות). קיימים שני סוגים עיקריים של אלגוריתמי חלוקה:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [חלוקה סמנטית ב-PyTorch](SemanticSegmentationPytorch.ipynb)
 * [חלוקה סמנטית ב-TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [שאלון אחרי ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [שאלון אחרי ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## סיכום
 

@@ -208,7 +208,7 @@ Oggi, l'AI è spesso considerata sinonimo di *Machine Learning* o *Reti Neurali*
 
 Nel notebook sull'Ontologia Familiare associato a questa lezione, c'è l'opportunità di sperimentare altre relazioni familiari. Prova a scoprire nuove connessioni tra le persone nell'albero genealogico.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Revisione e Studio Autonomo
 

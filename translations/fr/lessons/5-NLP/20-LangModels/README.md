@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dans toutes nos tâches précédentes, nous entraînions un réseau neuronal pour accomplir une tâche spécifique en utilisant un ensemble de données étiquetées. Avec les grands modèles transformateurs, tels que BERT, nous utilisons la modélisation linguistique de manière auto-supervisée pour construire un modèle de langage, qui est ensuite spécialisé pour des tâches spécifiques grâce à un entraînement supplémentaire adapté au domaine. Cependant, il a été démontré que les grands modèles de langage peuvent également résoudre de nombreuses tâches sans AUCUN entraînement spécifique au domaine. Une famille de modèles capables de faire cela est appelée **GPT** : Transformateur Génératif Pré-entraîné.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Génération de Texte et Perplexité
 
@@ -58,7 +58,7 @@ Poursuivez votre apprentissage dans les notebooks suivants :
 
 Les nouveaux modèles de langage pré-entraînés généraux ne modélisent pas seulement la structure du langage, mais contiennent également une immense quantité de langage naturel. Ainsi, ils peuvent être utilisés efficacement pour résoudre certaines tâches de traitement du langage naturel dans des contextes zéro-shot ou few-shot.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Avertissement** :  
 Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

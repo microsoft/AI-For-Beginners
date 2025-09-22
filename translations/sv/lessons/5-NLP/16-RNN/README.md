@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurrenta neurala nätverk
 
-## [Quiz före föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Quiz före föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 I tidigare avsnitt har vi använt rika semantiska representationer av text och en enkel linjär klassificerare ovanpå inbäddningarna. Vad denna arkitektur gör är att fånga den aggregerade betydelsen av ord i en mening, men den tar inte hänsyn till **ordningen** av orden, eftersom aggregeringsoperationen ovanpå inbäddningarna tog bort denna information från den ursprungliga texten. Eftersom dessa modeller inte kan modellera ordordning, kan de inte lösa mer komplexa eller tvetydiga uppgifter som textgenerering eller frågehantering.
 
@@ -84,7 +84,7 @@ Läs igenom lite litteratur om LSTM och fundera över deras tillämpningar:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Quiz efter föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Quiz efter föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Granskning & Självstudier
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetische Algoritmen
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetische algoritmen** (GA) zijn gebaseerd op een **evolutionaire benadering** van AI, waarbij methoden van de evolutie van een populatie worden gebruikt om een optimale oplossing voor een gegeven probleem te vinden. Ze werden voorgesteld in 1975 door [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetische algoritmen worden gebruikt om veel problemen op te lossen, waaronder 
 
 "Genetische algoritmen zijn eenvoudig te implementeren, maar hun gedrag is moeilijk te begrijpen." [bron](https://wikipedia.org/wiki/Genetic_algorithm) Doe wat onderzoek om een implementatie van een genetisch algoritme te vinden, zoals het oplossen van een Sudoku-puzzel, en leg uit hoe het werkt in de vorm van een schets of stroomdiagram.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Review & Zelfstudie
 

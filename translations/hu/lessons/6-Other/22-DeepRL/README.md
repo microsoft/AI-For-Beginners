@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A megerősítéses tanulás (RL) az egyik alapvető gépi tanulási paradigma, a felügyelt tanulás és a nem felügyelt tanulás mellett. Míg a felügyelt tanulásnál ismert kimenetekkel rendelkező adathalmazra támaszkodunk, az RL a **cselekvés általi tanuláson** alapul. Például, amikor először látunk egy számítógépes játékot, elkezdünk játszani, még akkor is, ha nem ismerjük a szabályokat, és hamarosan képesek vagyunk javítani a képességeinken pusztán azáltal, hogy játszunk és alkalmazkodunk a viselkedésünkhöz.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Az RL végrehajtásához szükségünk van:
 
@@ -110,7 +110,7 @@ Most megtanultuk, hogyan képezzünk ügynököket, hogy jó eredményeket érje
 
 Fedezze fel az 'Egyéb RL feladatok' szakaszban felsorolt alkalmazásokat, és próbáljon meg egyet megvalósítani!
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Áttekintés és önálló tanulás
 

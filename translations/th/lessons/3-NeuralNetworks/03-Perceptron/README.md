@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # บทนำสู่โครงข่ายประสาทเทียม: เพอร์เซปตรอน
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 หนึ่งในความพยายามแรก ๆ ในการสร้างสิ่งที่คล้ายกับโครงข่ายประสาทเทียมสมัยใหม่เกิดขึ้นโดย Frank Rosenblatt จาก Cornell Aeronautical Laboratory ในปี 1957 ซึ่งเป็นการสร้างฮาร์ดแวร์ที่เรียกว่า "Mark-1" ออกแบบมาเพื่อจดจำรูปทรงเรขาคณิตพื้นฐาน เช่น สามเหลี่ยม สี่เหลี่ยม และวงกลม
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 หากคุณต้องการลองสร้างเพอร์เซปตรอนของคุณเอง ลองดู [แลปนี้บน Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) ซึ่งใช้ [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste)
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## การทบทวนและการศึกษาด้วยตนเอง
 

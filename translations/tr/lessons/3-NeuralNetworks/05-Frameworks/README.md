@@ -14,7 +14,7 @@ Daha önce öğrendiğimiz gibi, sinir ağlarını verimli bir şekilde eğitebi
 * Tensörler üzerinde işlem yapmak, örneğin çarpma, toplama ve sigmoid veya softmax gibi bazı fonksiyonları hesaplamak
 * Tüm ifadelerin gradyanlarını hesaplamak, böylece gradyan inişi optimizasyonunu gerçekleştirebilmek
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 `numpy` kütüphanesi ilk kısmı yapabilse de, gradyanları hesaplayacak bir mekanizmaya ihtiyacımız var. Önceki bölümde geliştirdiğimiz [kendi çerçevemizde](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), tüm türev fonksiyonlarını `backward` metodunun içine manuel olarak programlamamız gerekiyordu. Bu yöntem geri yayılımı gerçekleştirir. İdeal olarak, bir çerçeve bize tanımlayabileceğimiz *herhangi bir ifadenin* gradyanlarını hesaplama fırsatı sunmalıdır.
 
@@ -106,7 +106,7 @@ Bu derste, iki en popüler yapay zeka çerçevesi olan TensorFlow ve PyTorch'un 
 
 Eşlik eden not defterlerinde, 'görevler' bölümünü bulacaksınız; not defterlerini inceleyin ve görevleri tamamlayın.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

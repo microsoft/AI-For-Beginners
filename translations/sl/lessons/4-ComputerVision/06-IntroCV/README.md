@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Računalniški vid](https://wikipedia.org/wiki/Computer_vision) je področje, katerega cilj je omogočiti računalnikom, da pridobijo visok nivo razumevanja digitalnih slik. To je precej široka definicija, saj lahko *razumevanje* pomeni veliko različnih stvari, vključno z iskanjem objekta na sliki (**prepoznavanje objektov**), razumevanjem dogajanja (**prepoznavanje dogodkov**), opisovanjem slike z besedilom ali rekonstrukcijo prizora v 3D. Obstajajo tudi posebne naloge, povezane s človeškimi slikami: ocenjevanje starosti in čustev, prepoznavanje obrazov ter določanje 3D drže, če naštejemo le nekaj primerov.
 
-## [Pred-predavanjski kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Pred-predavanjski kviz](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Ena najpreprostejših nalog računalniškega vida je **klasifikacija slik**.
 
@@ -105,7 +105,7 @@ Včasih je mogoče relativno kompleksne naloge, kot so zaznavanje gibanja ali za
 
 Oglejte si [ta video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) iz oddaje AI show, da se naučite o projektu Cortic Tigers in kako so zgradili rešitev na osnovi blokov za demokratizacijo nalog računalniškega vida prek robota. Raziskujte druge podobne projekte, ki pomagajo novim učencem pri vstopu na področje.
 
-## [Po-predavanjski kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Po-predavanjski kviz](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Pregled in samostojno učenje
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 注意機制與Transformer
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 自然語言處理（NLP）領域中最重要的問題之一是**機器翻譯**，這是一項支撐工具（如Google翻譯）的核心任務。在本節中，我們將專注於機器翻譯，或者更廣泛地說，任何*序列到序列*的任務（也稱為**句子轉換**）。
 
@@ -108,7 +108,7 @@ Transformer的核心思想之一是避免RNN的序列特性，並創建一個在
 
 ## 🚀 挑戰
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## 複習與自學
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Training CNNs can be time-consuming and requires a significant amount of data. However, much of the time is spent learning the best low-level filters that a network can use to extract patterns from images. This raises a natural question: can we use a neural network trained on one dataset and adapt it to classify different images without undergoing a full training process?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 This approach is called **transfer learning**, as it involves transferring knowledge from one neural network model to another. In transfer learning, we typically start with a pre-trained model that has been trained on a large image dataset, such as **ImageNet**. These models are already adept at extracting various features from generic images, and in many cases, simply building a classifier on top of these extracted features can yield good results.
 
@@ -76,7 +76,7 @@ Using transfer learning, you can quickly create a classifier for a custom object
 
 In the accompanying notebooks, there are notes at the bottom about how transfer learning works best with somewhat similar training data (e.g., a new type of animal). Experiment with completely different types of images to see how well or poorly your transfer learning models perform.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review & Self Study
 

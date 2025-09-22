@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Stiprinamasis mokymasis (angl. Reinforcement Learning, RL) laikomas vienu iš pagrindinių mašininio mokymosi paradigmų, greta prižiūrimojo mokymosi (supervised learning) ir neprižiūrimojo mokymosi (unsupervised learning). Prižiūrimajame mokymesi remiamės duomenų rinkiniu su žinomais rezultatais, o RL pagrįstas **mokymusi per veiksmą**. Pavyzdžiui, kai pirmą kartą matome kompiuterinį žaidimą, pradedame jį žaisti net nežinodami taisyklių, ir netrukus galime pagerinti savo įgūdžius tiesiog žaisdami ir koreguodami savo elgesį.
 
-## [Prieš paskaitą: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Norint atlikti RL, mums reikia:
 
@@ -110,7 +110,7 @@ Dabar išmokome treniruoti agentus, kad jie pasiektų gerų rezultatų, tiesiog 
 
 Išnagrinėkite taikymus, išvardytus skyriuje „Kiti RL uždaviniai“, ir pabandykite įgyvendinti vieną iš jų!
 
-## [Po paskaitos: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Peržiūra ir savarankiškas mokymasis
 

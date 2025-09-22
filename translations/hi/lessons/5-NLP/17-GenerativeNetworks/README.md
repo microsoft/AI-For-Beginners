@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # जनरेटिव नेटवर्क्स
 
-## [प्री-लेक्चर क्विज़](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [प्री-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 रिकरंट न्यूरल नेटवर्क्स (RNNs) और उनके गेटेड सेल वेरिएंट्स जैसे लॉन्ग शॉर्ट टर्म मेमोरी सेल्स (LSTMs) और गेटेड रिक्रंट यूनिट्स (GRUs) ने भाषा मॉडलिंग के लिए एक तंत्र प्रदान किया है, क्योंकि वे शब्दों के क्रम को सीख सकते हैं और अनुक्रम में अगले शब्द की भविष्यवाणी कर सकते हैं। यह हमें RNNs का उपयोग **जनरेटिव कार्यों** के लिए करने की अनुमति देता है, जैसे सामान्य टेक्स्ट जनरेशन, मशीन ट्रांसलेशन, और यहां तक कि इमेज कैप्शनिंग।
 
@@ -71,7 +71,7 @@ Microsoft Learn पर इस विषय पर कुछ पाठ लें:
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) के साथ टेक्स्ट जनरेशन
 
-## [पोस्ट-लेक्चर क्विज़](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [पोस्ट-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## समीक्षा और स्व-अध्ययन
 

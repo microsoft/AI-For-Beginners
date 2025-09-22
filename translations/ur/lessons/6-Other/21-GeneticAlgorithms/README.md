@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # جینیاتی الگورتھمز
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **جینیاتی الگورتھمز** (GA) ایک **ارتقائی طریقہ** پر مبنی ہیں، جس میں آبادی کے ارتقاء کے طریقے استعمال کیے جاتے ہیں تاکہ دیے گئے مسئلے کے لیے ایک بہترین حل حاصل کیا جا سکے۔ انہیں 1975 میں [جان ہنری ہالینڈ](https://wikipedia.org/wiki/John_Henry_Holland) نے پیش کیا۔
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "جینیاتی الگورتھمز کو نافذ کرنا آسان ہے، لیکن ان کے رویے کو سمجھنا مشکل ہے۔" [ماخذ](https://wikipedia.org/wiki/Genetic_algorithm) تحقیق کریں اور جینیاتی الگورتھم کے نفاذ کی مثال تلاش کریں، جیسے کہ سوڈوکو پہیلی کو حل کرنا، اور وضاحت کریں کہ یہ کیسے کام کرتا ہے ایک خاکہ یا فلو چارٹ کے طور پر۔
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## جائزہ اور خود مطالعہ
 

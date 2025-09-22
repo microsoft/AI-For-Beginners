@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hadi sasa, tumekuwa tukijikita zaidi katika kazi moja ya NLP - uainishaji. Hata hivyo, kuna kazi nyingine za NLP ambazo zinaweza kufanikishwa kwa kutumia mitandao ya neva. Mojawapo ya kazi hizo ni **[Utambuzi wa Viumbe Vilivyotajwa](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ambayo inahusika na kutambua viumbe maalum ndani ya maandishi, kama vile maeneo, majina ya watu, vipindi vya tarehe na muda, fomula za kemikali, na kadhalika.
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Mfano wa Kutumia NER
 
@@ -80,7 +80,7 @@ Mfano wa NER ni **mfano wa uainishaji wa tokeni**, ambayo ina maana kwamba unawe
 
 Kamilisha kazi iliyounganishwa hapa chini ili kufundisha mfano wa utambuzi wa viumbe vilivyotajwa kwa istilahi za matibabu, kisha ujaribu kwenye seti ya data tofauti.
 
-## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Mapitio na Kujisomea
 

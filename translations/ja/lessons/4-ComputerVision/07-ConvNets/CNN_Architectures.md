@@ -59,7 +59,7 @@ MobileNetは、モバイルデバイスに適した小型のモデルファミ�
 
 付属のノートブックには、精度を向上させる方法についてのメモがあります。いくつかの実験を行い、より高い精度を達成できるか試してみてください。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## 復習と自己学習
 

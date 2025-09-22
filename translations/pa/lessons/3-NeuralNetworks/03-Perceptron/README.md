@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਨਿਊਰਲ ਨੈਟਵਰਕਸ ਦਾ ਪਰਚੇ: ਪਰਸੈਪਟ੍ਰਾਨ
 
-## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 ਸਮਕਾਲੀ ਨਿਊਰਲ ਨੈਟਵਰਕ ਵਰਗੇ ਕੁਝ ਬਣਾਉਣ ਦੇ ਪਹਿਲੇ ਯਤਨ 1957 ਵਿੱਚ ਕੋਰਨੇਲ ਏਰੋਨਾਟਿਕਲ ਲੈਬੋਰਟਰੀ ਦੇ ਫ੍ਰੈਂਕ ਰੋਜ਼ਨਬਲਾਟ ਦੁਆਰਾ ਕੀਤੇ ਗਏ ਸਨ। ਇਹ ਇੱਕ ਹਾਰਡਵੇਅਰ ਇੰਪਲੀਮੈਂਟੇਸ਼ਨ ਸੀ ਜਿਸਨੂੰ "ਮਾਰਕ-1" ਕਿਹਾ ਜਾਂਦਾ ਸੀ, ਜੋ ਤਿਕੋਣ, ਵਰਗ ਅਤੇ ਗੋਲਾਕਾਰ ਵਰਗੇ ਆਦਿ ਜਾਮਿਤੀ ਆਕਾਰਾਂ ਨੂੰ ਪਛਾਣਨ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਸੀ।
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਰਸੈਪਟ੍ਰਾਨ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ [ਮਾਈਕਰੋਸਾਫਟ ਲਰਨ](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) 'ਤੇ ਇਸ ਲੈਬ ਨੂੰ ਅਜ਼ਮਾਓ ਜੋ [Azure ML ਡਿਜ਼ਾਈਨਰ](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ।
 
-## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ
 

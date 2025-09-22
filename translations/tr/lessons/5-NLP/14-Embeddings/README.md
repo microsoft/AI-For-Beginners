@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gömülü Temsiller
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 BoW veya TF/IDF tabanlı sınıflandırıcılar eğitirken, `vocab_size` uzunluğunda yüksek boyutlu kelime torbası vektörleri üzerinde çalışıyorduk ve düşük boyutlu konumsal temsil vektörlerini seyrek tekil temsil vektörlerine açıkça dönüştürüyorduk. Ancak, bu tekil temsil bellek açısından verimli değildir. Ayrıca, her kelime birbirinden bağımsız olarak ele alınır, yani tekil kodlanmış vektörler kelimeler arasındaki herhangi bir anlamsal benzerliği ifade etmez.
 
@@ -65,7 +65,7 @@ Bu derste, kelimelerin anlamsal anlamlarını daha iyi yansıtmak için TensorFl
 
 Word2Vec, şarkı sözleri ve şiir oluşturma gibi ilginç uygulamalar için kullanılmıştır. Yazarın Word2Vec'i kullanarak şiir oluşturma sürecini anlattığı [bu makaleye](https://www.politetype.com/blog/word2vec-color-poems) göz atın. Ayrıca, bu tekniğin farklı bir açıklamasını keşfetmek için Dan Shiffmann'ın [bu videosunu](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) izleyin. Ardından, bu teknikleri kendi metin korpusunuza uygulamayı deneyin, belki Kaggle'dan bir kaynak kullanabilirsiniz.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

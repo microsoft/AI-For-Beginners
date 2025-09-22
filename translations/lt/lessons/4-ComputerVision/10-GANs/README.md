@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ankstesniame skyriuje sužinojome apie **generatyvinius modelius**: modelius, kurie gali generuoti naujus vaizdus, panašius į tuos, kurie yra mokymo duomenų rinkinyje. VAE buvo geras generatyvinio modelio pavyzdys.
 
-## [Klausimynas prieš paskaitą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Tačiau, jei bandysime generuoti kažką tikrai prasmingo, pavyzdžiui, paveikslą su tinkama raiška, naudojant VAE, pastebėsime, kad mokymas nesusikoncentruoja gerai. Šiam tikslui turėtume išmokti apie kitą architektūrą, specialiai skirtą generatyviniams modeliams - **Generatyviniai priešiniai tinklai**, arba GAN.
 
@@ -84,7 +84,7 @@ Kaip tai veikia:
 
 ## ✍️ Pavyzdys: [Stiliaus perkėlimas](StyleTransfer.ipynb)
 
-## [Klausimynas po paskaitos](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Klausimynas po paskaitos](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Išvada
 

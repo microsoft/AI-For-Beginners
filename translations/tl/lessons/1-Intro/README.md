@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Sketchnote ni [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Artificial Intelligence** ay isang kapanapanabik na disiplina ng agham na nag-aaral kung paano natin magagawang magpakita ng matalinong pag-uugali ang mga computer, halimbawa, gawin ang mga bagay na mahusay gawin ng mga tao.
 
@@ -151,7 +151,7 @@ Sa nakalipas na ilang taon, nasaksihan natin ang malalaking tagumpay sa malalaki
 
 Maglibot sa internet upang tukuyin kung saan, sa iyong opinyon, ang AI ay pinaka-epektibong ginagamit. Ito ba ay sa isang Mapping app, o sa isang speech-to-text service, o sa isang video game? Saliksikin kung paano binuo ang sistema.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Review at Pag-aaral sa Sarili
 

@@ -54,7 +54,7 @@ Trong vài năm qua, chúng ta đã chứng kiến những thành công lớn v�
 
 Hãy khám phá trên internet để xác định, theo ý kiến của bạn, AI được sử dụng hiệu quả nhất ở đâu. Có phải trong một ứng dụng bản đồ, một dịch vụ chuyển giọng nói thành văn bản, hay một trò chơi điện tử? Nghiên cứu cách hệ thống đó được xây dựng.
 
-## [Câu hỏi kiểm tra sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Câu hỏi kiểm tra sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Ôn tập & Tự học
 

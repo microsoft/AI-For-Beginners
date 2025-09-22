@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) is a field focused on enabling computers to achieve a high-level understanding of digital images. This definition is broad because *understanding* can encompass various tasks, such as identifying objects in an image (**object detection**), recognizing events (**event detection**), describing an image in text, or reconstructing a scene in 3D. There are also specialized tasks related to human images, such as estimating age and emotions, detecting and identifying faces, and estimating 3D poses, among others.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 One of the simplest tasks in computer vision is **image classification**.
 
@@ -105,7 +105,7 @@ Sometimes, relatively complex tasks like motion detection or fingertip detection
 
 Watch [this video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) from the AI show to learn about the Cortic Tigers project and how they developed a block-based solution to make computer vision tasks accessible via a robot. Research other similar projects that help introduce new learners to the field.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Review & Self Study
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在训练 CNN 时，一个主要问题是我们需要大量的标注数据。以图像分类为例，我们需要将图像分成不同的类别，这通常需要手动完成。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 然而，我们可能希望使用原始（未标注的）数据来训练 CNN 的特征提取器，这被称为**自监督学习**。在这种情况下，我们不使用标签，而是将训练图像同时作为网络的输入和输出。**自编码器**的核心思想是，我们会有一个**编码器网络**，将输入图像转换为某种**潜在空间**（通常是一个较小尺寸的向量），然后通过**解码器网络**来重建原始图像。
 
@@ -80,7 +80,7 @@ VAE 的一个重要优势是它可以相对容易地生成新图像，因为我�
 * **有损性** - 重建的图像与原始图像并不完全相同。损失的性质由训练时使用的*损失函数*决定。
 * 适用于**未标注数据**
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## 总结
 
@@ -90,7 +90,7 @@ VAE 的一个重要优势是它可以相对容易地生成新图像，因为我�
 
 在本课中，你学习了如何将自编码器用于图像。但它们也可以用于音乐！查看 Magenta 项目的 [MusicVAE](https://magenta.tensorflow.org/music-vae) 项目，该项目使用自编码器学习重建音乐。通过[实验](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb)这个库，看看你能创造出什么。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## 复习与自学
 

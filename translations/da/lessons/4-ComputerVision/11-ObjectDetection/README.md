@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De billedklassifikationsmodeller, vi har arbejdet med indtil nu, tog et billede og producerede et kategorisk resultat, såsom klassen 'nummer' i et MNIST-problem. Men i mange tilfælde ønsker vi ikke blot at vide, at et billede viser objekter - vi vil også kunne bestemme deres præcise placering. Det er netop formålet med **objektgenkendelse**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objektgenkendelse](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.da.png)
 
@@ -172,7 +172,7 @@ Læs disse artikler og notebooks om YOLO og prøv dem selv:
  * Yolo: [Keras-implementering](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras-implementering](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Gennemgang & Selvstudie
 

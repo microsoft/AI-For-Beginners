@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) ay isang disiplina na ang layunin ay bigyan ang mga computer ng kakayahang maunawaan ang mga digital na imahe sa mataas na antas. Medyo malawak ang depinisyon na ito, dahil ang *pag-unawa* ay maaaring mangahulugan ng iba't ibang bagay, kabilang ang paghahanap ng isang bagay sa larawan (**object detection**), pag-unawa sa nangyayari (**event detection**), paglalarawan ng larawan gamit ang teksto, o pagbuo muli ng eksena sa 3D. Mayroon ding mga espesyal na gawain na may kaugnayan sa mga larawan ng tao: pagtatantiya ng edad at emosyon, pagtuklas at pagkilala sa mukha, at pagtatantiya ng 3D pose, upang pangalanan ang ilan.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Isa sa mga pinakasimpleng gawain ng computer vision ay ang **image classification**.
 
@@ -105,7 +105,7 @@ Minsan, ang mga medyo komplikadong gawain tulad ng pagtuklas ng galaw o pagtukla
 
 Panoorin ang [video na ito](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) mula sa AI show upang matutunan ang tungkol sa proyekto ng Cortic Tigers at kung paano nila binuo ang isang block-based solution upang gawing mas accessible ang mga gawain sa computer vision gamit ang isang robot. Mag-research tungkol sa iba pang mga proyekto na tulad nito na tumutulong sa mga bagong mag-aaral na makapasok sa larangan.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Review & Self Study
 

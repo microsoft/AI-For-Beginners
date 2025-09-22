@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uwekaji wa Neno
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Wakati wa kufundisha vionyeshi vya kuainisha kwa kutumia BoW au TF/IDF, tulikuwa tunatumia vekta za maneno zenye vipimo vingi zenye urefu `vocab_size`, na tulikuwa tunabadilisha vekta za uwakilishi wa nafasi zenye vipimo vichache kuwa uwakilishi wa sparse one-hot. Hata hivyo, uwakilishi huu wa one-hot si wa ufanisi wa kumbukumbu. Zaidi ya hayo, kila neno linachukuliwa kuwa huru kutoka kwa mengine, yaani, vekta za one-hot hazionyeshi uhusiano wa kisemantiki kati ya maneno.
 
@@ -65,7 +65,7 @@ Katika somo hili, umejifunza jinsi ya kujenga na kutumia safu za uwekaji katika 
 
 Word2Vec imetumika kwa matumizi ya kuvutia, ikiwa ni pamoja na kuunda mashairi na nyimbo. Angalia [makala hii](https://www.politetype.com/blog/word2vec-color-poems) ambayo inaelezea jinsi mwandishi alitumia Word2Vec kuunda mashairi. Tazama [video hii na Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) pia ili kugundua maelezo tofauti ya mbinu hii. Kisha jaribu kutumia mbinu hizi kwenye mkusanyiko wako wa maandishi, labda kutoka Kaggle.
 
-## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Mapitio na Kujifunza Binafsi
 

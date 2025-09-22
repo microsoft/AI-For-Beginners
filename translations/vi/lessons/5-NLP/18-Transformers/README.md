@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Cơ chế Attention và Transformers
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Một trong những vấn đề quan trọng nhất trong lĩnh vực NLP là **dịch máy**, một nhiệm vụ thiết yếu làm nền tảng cho các công cụ như Google Dịch. Trong phần này, chúng ta sẽ tập trung vào dịch máy, hoặc nói chung hơn, vào bất kỳ nhiệm vụ *chuỗi-đến-chuỗi* nào (còn được gọi là **chuyển đổi câu**).
 
@@ -108,7 +108,7 @@ Trong bài học này, bạn đã tìm hiểu về Transformers và Cơ chế At
 
 ## 🚀 Thử thách
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Ôn tập & Tự học
 

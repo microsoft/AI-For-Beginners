@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Das Training von CNNs kann viel Zeit in Anspruch nehmen, und es wird eine große Menge an Daten dafür benötigt. Allerdings wird ein Großteil der Zeit darauf verwendet, die besten Low-Level-Filter zu lernen, die ein Netzwerk nutzen kann, um Muster aus Bildern zu extrahieren. Eine natürliche Frage stellt sich: Können wir ein neuronales Netzwerk, das auf einem Datensatz trainiert wurde, verwenden und anpassen, um andere Bilder zu klassifizieren, ohne den gesamten Trainingsprozess erneut durchlaufen zu müssen?
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Dieser Ansatz wird als **Transfer-Learning** bezeichnet, da wir Wissen von einem neuronalen Netzwerkmodell auf ein anderes übertragen. Beim Transfer-Learning beginnen wir typischerweise mit einem vortrainierten Modell, das auf einem großen Bilddatensatz wie **ImageNet** trainiert wurde. Diese Modelle können bereits verschiedene Merkmale aus generischen Bildern gut extrahieren, und in vielen Fällen reicht es aus, einen Klassifikator auf diesen extrahierten Merkmalen aufzubauen, um gute Ergebnisse zu erzielen.
 
@@ -76,7 +76,7 @@ Mit Transfer-Learning können Sie schnell einen Klassifikator für eine benutzer
 
 In den begleitenden Notebooks gibt es am Ende Hinweise darauf, dass Transfer-Wissen am besten mit einigermaßen ähnlichen Trainingsdaten funktioniert (zum Beispiel eine neue Tierart). Experimentieren Sie mit völlig neuen Bildtypen, um zu sehen, wie gut oder schlecht Ihre Transfer-Wissen-Modelle abschneiden.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Überprüfung & Selbststudium
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Forstærkningslæring (RL) betragtes som en af de grundlæggende maskinlæringsparadigmer, ved siden af superviseret læring og usuperviseret læring. Mens vi i superviseret læring er afhængige af datasæt med kendte resultater, er RL baseret på **at lære ved at gøre**. For eksempel, når vi første gang ser et computerspil, begynder vi at spille, selv uden at kende reglerne, og snart er vi i stand til at forbedre vores færdigheder blot gennem processen med at spille og justere vores adfærd.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 For at udføre RL har vi brug for:
 
@@ -110,7 +110,7 @@ Vi har nu lært, hvordan man træner agenter til at opnå gode resultater blot v
 
 Udforsk de applikationer, der er nævnt i afsnittet 'Andre RL Opgaver', og prøv at implementere en!
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Gennemgang & Selvstudie
 

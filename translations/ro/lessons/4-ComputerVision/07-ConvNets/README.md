@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Am văzut anterior că rețelele neuronale sunt destul de bune la procesarea imaginilor, iar chiar și un perceptron cu un singur strat este capabil să recunoască cifre scrise de mână din setul de date MNIST cu o acuratețe rezonabilă. Totuși, setul de date MNIST este foarte special, iar toate cifrele sunt centrate în interiorul imaginii, ceea ce face sarcina mai simplă.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 În viața reală, ne dorim să putem recunoaște obiecte într-o imagine, indiferent de locația lor exactă în cadrul imaginii. Viziunea computerizată este diferită de clasificarea generică, deoarece atunci când încercăm să găsim un anumit obiect într-o imagine, scanăm imaginea căutând **tipare** specifice și combinațiile acestora. De exemplu, când căutăm o pisică, mai întâi putem căuta linii orizontale, care pot forma mustăți, iar apoi o anumită combinație de mustăți ne poate indica faptul că este, de fapt, o imagine cu o pisică. Poziția relativă și prezența anumitor tipare sunt importante, nu poziția lor exactă în imagine.
 

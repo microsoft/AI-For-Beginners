@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Recurrent Neural Networks
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Sa mga nakaraang seksyon, gumamit tayo ng masaganang semantikong representasyon ng teksto at isang simpleng linear classifier sa ibabaw ng embeddings. Ang ginagawa ng arkitekturang ito ay kinukuha ang pinagsama-samang kahulugan ng mga salita sa isang pangungusap, ngunit hindi nito isinasaalang-alang ang **pagkakasunod-sunod** ng mga salita, dahil ang operasyon ng pagsasama-sama sa ibabaw ng embeddings ay tinanggal ang impormasyong ito mula sa orihinal na teksto. Dahil hindi kayang i-modelo ng mga modelong ito ang pagkakasunod-sunod ng mga salita, hindi nila masosolusyunan ang mas kumplikado o malalabong gawain tulad ng pagbuo ng teksto o pagsagot sa mga tanong.
 
@@ -84,7 +84,7 @@ Basahin ang ilang literatura tungkol sa LSTMs at isaalang-alang ang kanilang mga
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Review at Pag-aaral sa Sarili
 

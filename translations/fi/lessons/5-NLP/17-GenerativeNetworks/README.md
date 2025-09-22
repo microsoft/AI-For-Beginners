@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatiiviset verkot
 
-## [Esiluentakysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Esiluentakysely](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Toistuvat neuroverkot (Recurrent Neural Networks, RNN) ja niiden porttimalliset solumuunnelmat, kuten Long Short Term Memory Cells (LSTM) ja Gated Recurrent Units (GRU), tarjoavat mekanismin kielen mallintamiseen, koska ne voivat oppia sanojen järjestyksen ja ennustaa seuraavan sanan sekvenssissä. Tämä mahdollistaa RNN:ien käytön **generatiivisissa tehtävissä**, kuten tavallisessa tekstin generoinnissa, konekäännöksessä ja jopa kuvatekstien luomisessa.
 
@@ -71,7 +71,7 @@ Ota oppitunteja Microsoft Learn -alustalta tästä aiheesta
 
 * Tekstin generointi [PyTorchilla](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow'lla](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Jälkiluentakysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Jälkiluentakysely](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Kertaus ja itseopiskelu
 

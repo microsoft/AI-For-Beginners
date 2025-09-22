@@ -59,7 +59,7 @@ Iată [un articol bun pe blog despre MobileNet](https://medium.com/analytics-vid
 
 În caietele de lucru însoțitoare, există note la final despre cum să obții o acuratețe mai mare. Fă câteva experimente pentru a vedea dacă poți atinge o acuratețe mai mare.
 
-## [Chestionar post-lectură](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Chestionar post-lectură](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Recapitulare și Studiu Individual
 

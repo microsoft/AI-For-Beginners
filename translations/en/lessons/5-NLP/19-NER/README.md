@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 So far, we have primarily focused on one NLP task—classification. However, there are other NLP tasks that can be tackled using neural networks. One such task is **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), which involves identifying specific entities in text, such as locations, person names, dates, chemical formulas, and more.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Example of Using NER
 
@@ -80,7 +80,7 @@ A NER model is a **token classification model**, meaning it is used to classify 
 
 Complete the assignment linked below to train a named entity recognition model for medical terms, and then test it on a different dataset.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Review & Self Study
 

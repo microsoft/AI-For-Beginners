@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 U svim našim prethodnim zadacima trenirali smo neuronsku mrežu da obavlja određeni zadatak koristeći označeni skup podataka. Kod velikih transformacijskih modela, poput BERT-a, koristimo modeliranje jezika u samonadziranom načinu kako bismo izgradili jezični model, koji se zatim specijalizira za specifične zadatke uz dodatnu obuku specifičnu za domenu. Međutim, pokazalo se da veliki jezični modeli mogu riješiti mnoge zadatke i bez ikakve obuke specifične za domenu. Obitelj modela sposobnih za to naziva se **GPT**: Generativni unaprijed trenirani transformator.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generiranje teksta i Perpleksnost
 
@@ -58,7 +58,7 @@ Nastavite učiti kroz sljedeće bilježnice:
 
 Novi opći unaprijed trenirani jezični modeli ne modeliraju samo strukturu jezika, već sadrže i ogromnu količinu prirodnog jezika. Stoga se mogu učinkovito koristiti za rješavanje nekih NLP zadataka u zero-shot ili few-shot postavkama.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Odricanje od odgovornosti**:  
 Ovaj dokument je preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo osigurati točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku treba smatrati autoritativnim izvorom. Za ključne informacije preporučuje se profesionalni prijevod od strane čovjeka. Ne preuzimamo odgovornost za nesporazume ili pogrešna tumačenja koja mogu proizaći iz korištenja ovog prijevoda.

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Học tăng cường (Reinforcement Learning - RL) được xem là một trong những mô hình học máy cơ bản, bên cạnh học có giám sát và học không giám sát. Trong khi học có giám sát dựa vào tập dữ liệu với kết quả đã biết, thì RL dựa trên nguyên tắc **học qua hành động**. Ví dụ, khi lần đầu chơi một trò chơi máy tính, chúng ta bắt đầu chơi mà không biết luật, và dần dần cải thiện kỹ năng chỉ qua quá trình chơi và điều chỉnh hành vi.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Để thực hiện RL, chúng ta cần:
 
@@ -110,7 +110,7 @@ Chúng ta đã học cách huấn luyện các tác nhân để đạt được 
 
 Khám phá các ứng dụng được liệt kê trong phần 'Các Nhiệm Vụ RL Khác' và thử triển khai một trong số chúng!
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Ôn Tập & Tự Học
 

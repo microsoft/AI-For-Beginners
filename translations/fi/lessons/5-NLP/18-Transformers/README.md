@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Huomiomekanismit ja Transformerit
 
-## [Ennakkovisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Ennakkovisa](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Yksi NLP:n tärkeimmistä ongelmista on **konekäännös**, joka on olennainen tehtävä esimerkiksi Google Kääntäjän kaltaisille työkaluille. Tässä osiossa keskitymme konekäännökseen tai yleisemmin mihin tahansa *sekvenssistä sekvenssiin* -tehtävään (jota kutsutaan myös **lauseen muunnokseksi**).
 
@@ -108,7 +108,7 @@ Tässä oppitunnissa opit Transformereista ja Huomiomekanismeista, jotka ovat ol
 
 ## 🚀 Haaste
 
-## [Jälkivisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Jälkivisa](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Kertaus ja itseopiskelu
 

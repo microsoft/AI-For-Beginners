@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Saat melatih CNN, salah satu masalahnya adalah kita membutuhkan banyak data yang diberi label. Dalam kasus klasifikasi gambar, kita perlu memisahkan gambar ke dalam berbagai kelas, yang merupakan pekerjaan manual.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Namun, kita mungkin ingin menggunakan data mentah (tanpa label) untuk melatih ekstraktor fitur CNN, yang disebut **pembelajaran mandiri**. Alih-alih menggunakan label, kita akan menggunakan gambar pelatihan sebagai input dan output jaringan. Ide utama dari **autoencoder** adalah kita akan memiliki **encoder network** yang mengubah gambar input menjadi **latent space** (biasanya hanya berupa vektor dengan ukuran lebih kecil), lalu **decoder network**, yang bertujuan untuk merekonstruksi gambar asli.
 
@@ -80,7 +80,7 @@ Pelajari lebih lanjut tentang autoencoders dalam notebook berikut:
 * **Lossy** - gambar yang direkonstruksi tidak sama dengan gambar asli. Sifat loss ditentukan oleh *fungsi loss* yang digunakan selama pelatihan.
 * Bekerja pada **data tanpa label**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Kesimpulan
 
@@ -90,7 +90,7 @@ Dalam pelajaran ini, Anda belajar tentang berbagai jenis autoencoders yang terse
 
 Dalam pelajaran ini, Anda belajar tentang penggunaan autoencoders untuk gambar. Tetapi mereka juga dapat digunakan untuk musik! Lihat proyek Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), yang menggunakan autoencoders untuk belajar merekonstruksi musik. Lakukan beberapa [eksperimen](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) dengan pustaka ini untuk melihat apa yang dapat Anda buat.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Tinjauan & Studi Mandiri
 

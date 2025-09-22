@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hľadanie umelej inteligencie je založené na snahe o získanie znalostí, aby sme dokázali chápať svet podobne ako ľudia. Ale ako to dosiahnuť?
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 V začiatkoch AI bol populárny prístup zhora nadol pri vytváraní inteligentných systémov (diskutovaný v predchádzajúcej lekcii). Myšlienka spočívala v extrakcii znalostí od ľudí do strojovo čitateľnej formy, ktorú by bolo možné automaticky použiť na riešenie problémov. Tento prístup bol založený na dvoch hlavných myšlienkach:
 
@@ -236,7 +236,7 @@ V súčasnosti sa AI často považuje za synonymum pre *strojové učenie* alebo
 
 V notebooku Family Ontology priradenom k tejto lekcii máte možnosť experimentovať s inými rodinnými vzťahmi. Skúste objaviť nové spojenia medzi ľuďmi v rodokmeni.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Prehľad a samostatné štúdium
 

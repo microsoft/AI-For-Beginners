@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Het trainen van CNN's kan veel tijd kosten en vereist vaak een grote hoeveelheid data. Veel van de tijd wordt besteed aan het leren van de beste laag-niveau filters die een netwerk kan gebruiken om patronen uit afbeeldingen te halen. Een logische vraag is: kunnen we een neuraal netwerk dat op één dataset is getraind gebruiken en aanpassen om andere afbeeldingen te classificeren zonder het volledige trainingsproces opnieuw te doorlopen?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Deze aanpak wordt **transfer learning** genoemd, omdat we kennis overdragen van het ene neurale netwerkmodel naar het andere. Bij transfer learning beginnen we meestal met een voorgetraind model, dat is getraind op een grote afbeeldingsdataset, zoals **ImageNet**. Deze modellen kunnen al goed verschillende kenmerken uit generieke afbeeldingen halen, en in veel gevallen kan het bouwen van een classifier bovenop deze geëxtraheerde kenmerken al goede resultaten opleveren.
 
@@ -76,7 +76,7 @@ Met transfer learning kun je snel een classifier samenstellen voor een aangepast
 
 In de bijbehorende notebooks staan notities onderaan over hoe transferkennis het beste werkt met enigszins vergelijkbare trainingsdata (bijvoorbeeld een nieuw type dier). Experimenteer met volledig nieuwe soorten afbeeldingen om te zien hoe goed of slecht je transferkennis-modellen presteren.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Herziening & Zelfstudie
 

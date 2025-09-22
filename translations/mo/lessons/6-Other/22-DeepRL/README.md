@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 強化學習（Reinforcement Learning, RL）被視為與監督學習（Supervised Learning）和非監督學習（Unsupervised Learning）並列的基本機器學習範式之一。在監督學習中，我們依賴於已知結果的數據集，而強化學習則是基於**透過實踐學習**。例如，當我們第一次接觸一款電腦遊戲時，即使不知道規則，我們也會開始嘗試遊玩，並通過遊玩的過程和調整行為來逐漸提升技能。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 進行強化學習需要以下幾個要素：
 
@@ -110,7 +110,7 @@ print(f"Total reward: {total_reward}")
 
 探索「其他強化學習任務」部分列出的應用，並嘗試實現其中一個！
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## 回顧與自學
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rangkaian Neural Berulang
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Dalam bahagian sebelum ini, kita telah menggunakan representasi semantik teks yang kaya dan pengklasifikasi linear ringkas di atas embedding. Apa yang dilakukan oleh seni bina ini adalah menangkap makna agregat perkataan dalam ayat, tetapi ia tidak mengambil kira **susunan** perkataan, kerana operasi agregasi di atas embedding telah menghapuskan maklumat ini daripada teks asal. Oleh kerana model ini tidak dapat memodelkan susunan perkataan, ia tidak dapat menyelesaikan tugas yang lebih kompleks atau samar seperti penjanaan teks atau menjawab soalan.
 
@@ -84,7 +84,7 @@ Baca beberapa literatur tentang LSTM dan pertimbangkan aplikasinya:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Kajian & Pembelajaran Kendiri
 

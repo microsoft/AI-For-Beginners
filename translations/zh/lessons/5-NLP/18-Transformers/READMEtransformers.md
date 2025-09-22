@@ -1,6 +1,6 @@
 # 注意力机制与变换器
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 自然语言处理领域中最重要的问题之一是**机器翻译**，这是一个支撑像谷歌翻译等工具的基本任务。在这一部分，我们将专注于机器翻译，或者更一般地说，任何*序列到序列*的任务（这也被称为**句子转导**）。
 
@@ -99,7 +99,7 @@
 
 ## 🚀 挑战
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## 复习与自学
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introductie tot Neurale Netwerken: Perceptron
 
-## [Quiz voor de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Quiz voor de les](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Een van de eerste pogingen om iets te implementeren dat lijkt op een modern neuraal netwerk werd gedaan door Frank Rosenblatt van het Cornell Aeronautical Laboratory in 1957. Het was een hardware-implementatie genaamd "Mark-1", ontworpen om primitieve geometrische figuren te herkennen, zoals driehoeken, vierkanten en cirkels.
 
@@ -85,7 +85,7 @@ In deze les heb je geleerd over een perceptron, een binaire classificatie-model,
 
 Als je zelf een perceptron wilt bouwen, probeer dan [deze lab op Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) die gebruik maakt van de [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Quiz na de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Review & Zelfstudie
 

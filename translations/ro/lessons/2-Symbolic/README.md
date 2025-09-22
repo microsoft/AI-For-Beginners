@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Căutarea inteligenței artificiale se bazează pe dorința de a înțelege lumea într-un mod similar cu cel al oamenilor. Dar cum putem realiza acest lucru?
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 În primele zile ale AI, abordarea de sus în jos pentru crearea sistemelor inteligente (discutată în lecția anterioară) era populară. Ideea era să extragem cunoștințele de la oameni într-o formă care să poată fi citită de mașini și apoi să le folosim pentru a rezolva automat probleme. Această abordare se baza pe două idei mari:
 
@@ -236,7 +236,7 @@ Graficul este disponibil fie ca API REST, fie ca un fișier text mare descărcab
 
 În notebook-ul Ontologiei Familiei asociat acestei lecții, există oportunitatea de a experimenta cu alte relații de familie. Încercați să descoperiți noi conexiuni între persoanele din arborele genealogic.
 
-## [Quiz post-lectură](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Recapitulare și Studiu Individual
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Når vi trener CNN-er, er en av utfordringene at vi trenger mye merket data. Når det gjelder bildeklassifisering, må vi dele bilder inn i forskjellige klasser, noe som krever manuelt arbeid.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Vi kan imidlertid ønske å bruke rå (umerket) data for å trene CNN-funksjonsekstraktorer, noe som kalles **selv-supervisert læring**. I stedet for etiketter bruker vi treningsbilder både som nettverksinput og output. Hovedideen med **autoenkoder** er at vi har et **enkodernettverk** som konverterer inputbildet til et **latent rom** (vanligvis bare en vektor av mindre størrelse), og deretter et **dekodernettverk**, som har som mål å rekonstruere det originale bildet.
 
@@ -80,7 +80,7 @@ Lær mer om autoenkodere i disse tilhørende notatbøkene:
 * **Tapsbaserte** - det rekonstruerte bildet er ikke det samme som det originale bildet. Tapets natur er definert av *tapsfunksjonen* som brukes under trening.
 * Fungerer på **umerket data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Konklusjon
 
@@ -90,7 +90,7 @@ I denne leksjonen lærte du om de forskjellige typene autoenkodere som er tilgje
 
 I denne leksjonen lærte du om bruk av autoenkodere for bilder. Men de kan også brukes for musikk! Sjekk ut Magenta-prosjektets [MusicVAE](https://magenta.tensorflow.org/music-vae)-prosjekt, som bruker autoenkodere for å lære å rekonstruere musikk. Gjør noen [eksperimenter](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med dette biblioteket for å se hva du kan skape.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Gjennomgang & Selvstudium
 

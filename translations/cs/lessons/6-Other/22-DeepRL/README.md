@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Posilované učení (Reinforcement Learning, RL) je považováno za jeden ze základních paradigmat strojového učení, vedle učení s učitelem a bez učitele. Zatímco učení s učitelem spoléhá na datovou sadu se známými výsledky, RL je založeno na **učení skrze činnost**. Například, když poprvé vidíme počítačovou hru, začneme ji hrát, i když neznáme pravidla, a brzy se zlepšujeme jen díky samotnému procesu hraní a přizpůsobování našeho chování.
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Pro provádění RL potřebujeme:
 
@@ -110,7 +110,7 @@ Nyní jsme se naučili, jak trénovat agenty, aby dosáhli dobrých výsledků p
 
 Prozkoumejte aplikace uvedené v sekci 'Další úkoly RL' a zkuste některou implementovat!
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Přehled a samostudium
 

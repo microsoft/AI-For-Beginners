@@ -59,7 +59,7 @@ Trong bài học này, bạn đã học được khái niệm chính đằng sau
 
 Trong các notebook đi kèm, có các ghi chú ở cuối về cách đạt được độ chính xác cao hơn. Hãy thử nghiệm để xem liệu bạn có thể đạt được độ chính xác cao hơn không.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Ôn tập & Tự học
 

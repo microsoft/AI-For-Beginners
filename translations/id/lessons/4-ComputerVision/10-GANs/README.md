@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Di bagian sebelumnya, kita telah mempelajari tentang **model generatif**: model yang dapat menghasilkan gambar baru yang mirip dengan yang ada di dataset pelatihan. VAE adalah contoh yang baik dari model generatif.
 
-## [Kuis sebelum pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Kuis sebelum pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Namun, jika kita mencoba menghasilkan sesuatu yang benar-benar bermakna, seperti lukisan dengan resolusi yang wajar, menggunakan VAE, kita akan melihat bahwa pelatihannya tidak berjalan dengan baik. Untuk kasus ini, kita perlu mempelajari arsitektur lain yang secara khusus ditujukan untuk model generatif - **Generative Adversarial Networks**, atau GANs.
 
@@ -84,7 +84,7 @@ Cara kerjanya adalah sebagai berikut:
 
 ## ✍️ Contoh: [Style Transfer](StyleTransfer.ipynb)
 
-## [Kuis setelah pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Kesimpulan
 

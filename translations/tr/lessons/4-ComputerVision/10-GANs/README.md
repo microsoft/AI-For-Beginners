@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Önceki bölümde, **üretici modeller** hakkında bilgi edindik: eğitim veri kümesindeki görüntülere benzer yeni görüntüler üretebilen modeller. VAE, üretici bir modele iyi bir örnekti.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Ancak, VAE ile makul bir çözünürlükte anlamlı bir şey, örneğin bir tablo, üretmeye çalışırsak, eğitimin iyi bir şekilde yakınsama sağlamadığını göreceğiz. Bu kullanım durumu için, özellikle üretici modellere yönelik başka bir mimariyi öğrenmeliyiz - **Üretici Çekişmeli Ağlar** veya GAN'ler.
 
@@ -84,7 +84,7 @@ Bu yöntem şu şekilde çalışır:
 
 ## ✍️ Örnek: [Stil Transferi](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Sonuç
 

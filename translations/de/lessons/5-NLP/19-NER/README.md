@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Bis jetzt haben wir uns hauptsächlich auf eine NLP-Aufgabe konzentriert – die Klassifikation. Es gibt jedoch auch andere NLP-Aufgaben, die mit neuronalen Netzwerken gelöst werden können. Eine dieser Aufgaben ist die **[Erkennung benannter Entitäten](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), bei der spezifische Entitäten im Text erkannt werden, wie z. B. Orte, Personennamen, Datums- und Zeitangaben, chemische Formeln und vieles mehr.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Beispiel für die Verwendung von NER
 
@@ -78,7 +78,7 @@ Ein NER-Modell ist ein **Token-Klassifikationsmodell**, was bedeutet, dass es zu
 
 Bearbeiten Sie die unten verlinkte Aufgabe, um ein Modell zur Erkennung benannter medizinischer Entitäten zu trainieren, und testen Sie es anschließend mit einem anderen Datensatz.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Wiederholung & Selbststudium
 

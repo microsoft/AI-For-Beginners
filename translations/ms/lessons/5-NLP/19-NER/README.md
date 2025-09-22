@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Sehingga kini, kita telah banyak menumpukan perhatian kepada satu tugas NLP - klasifikasi. Walau bagaimanapun, terdapat juga tugas-tugas NLP lain yang boleh diselesaikan dengan rangkaian neural. Salah satu tugas tersebut ialah **[Pengenalan Entiti Bernama](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), yang berkaitan dengan mengenal pasti entiti tertentu dalam teks, seperti tempat, nama orang, selang masa, formula kimia, dan sebagainya.
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Contoh Penggunaan NER
 
@@ -80,7 +80,7 @@ Model NER ialah **model klasifikasi token**, yang bermaksud ia boleh digunakan u
 
 Lengkapkan tugasan yang dipautkan di bawah untuk melatih model pengenalan entiti bernama untuk istilah perubatan, kemudian cuba pada set data yang berbeza.
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Kajian Semula & Kajian Kendiri
 

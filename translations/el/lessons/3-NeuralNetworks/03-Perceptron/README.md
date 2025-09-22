@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Εισαγωγή στα Νευρωνικά Δίκτυα: Perceptron
 
-## [Προ-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Μία από τις πρώτες προσπάθειες να υλοποιηθεί κάτι παρόμοιο με ένα σύγχρονο νευρωνικό δίκτυο έγινε από τον Frank Rosenblatt στο Cornell Aeronautical Laboratory το 1957. Ήταν μια υλοποίηση υλικού που ονομάστηκε "Mark-1", σχεδιασμένη να αναγνωρίζει πρωτόγονα γεωμετρικά σχήματα, όπως τρίγωνα, τετράγωνα και κύκλους.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 Αν θέλετε να δοκιμάσετε να δημιουργήσετε το δικό σας perceptron, δοκιμάστε [αυτό το εργαστήριο στο Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) που χρησιμοποιεί τον [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Κουίζ μετά τη διάλεξη](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Κουίζ μετά τη διάλεξη](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Ανασκόπηση & Αυτομελέτη
 

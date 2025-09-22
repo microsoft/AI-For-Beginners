@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Yksi mahdollinen tapa saavuttaa älykkyyttä on niin sanottu **emergentti** (tai **synergeettinen**) lähestymistapa, joka perustuu siihen, että monien suhteellisen yksinkertaisten agenttien yhdistetty käyttäytyminen voi johtaa järjestelmän kokonaisvaltaisesti monimutkaisempaan (tai älykkäämpään) käyttäytymiseen. Teoreettisesti tämä perustuu [kollektiivisen älykkyyden](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentismin](https://en.wikipedia.org/wiki/Global_brain) ja [evolutionaarisen kybernetiikan](https://en.wikipedia.org/wiki/Global_brain) periaatteisiin, jotka väittävät, että korkeamman tason järjestelmät saavat jonkinlaista lisäarvoa, kun ne yhdistetään asianmukaisesti alemman tason järjestelmistä (niin sanottu *metajärjestelmäsiirtymän periaate*).
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **Multi-Agent Systems** -suuntaus syntyi tekoälyssä 1990-luvulla vastauksena internetin ja hajautettujen järjestelmien kasvuun. Yksi klassisista tekoälyoppikirjoista, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), tarkastelee klassista tekoälyä monen agentin järjestelmien näkökulmasta.
 
@@ -152,7 +152,7 @@ Ne keskittyvät yleensä yksittäisen agentin yksinkertaisempaan käyttäytymise
 
 Vie tämä oppitunti todelliseen maailmaan ja yritä hahmottaa monen agentin järjestelmä, joka voi ratkaista ongelman. Mitä esimerkiksi monen agentin järjestelmän pitäisi tehdä optimoidakseen koulubussireitin? Miten se voisi toimia leipomossa?
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Kertaus ja itseopiskelu
 

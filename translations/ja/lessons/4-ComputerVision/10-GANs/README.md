@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 前のセクションでは、**生成モデル**について学びました。これは、トレーニングデータセットに似た新しい画像を生成できるモデルです。VAEは生成モデルの良い例でした。
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 しかし、VAEを使って合理的な解像度の絵画のような本当に意味のあるものを生成しようとすると、トレーニングがうまく収束しないことがわかります。このようなケースでは、生成モデルに特化した別のアーキテクチャである**敵対的生成ネットワーク (Generative Adversarial Networks, GANs)** を学ぶ必要があります。
 
@@ -84,7 +84,7 @@ GANは芸術的な画像を生成するのに優れた方法です。もう1つ�
 
 ## ✍️ 例: [スタイル転送](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## 結論
 

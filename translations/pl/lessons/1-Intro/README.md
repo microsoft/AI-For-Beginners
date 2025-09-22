@@ -54,7 +54,7 @@ W ostatnich latach byliśmy świadkami ogromnych sukcesów dużych modeli język
 
 Przeprowadź badanie w internecie, aby określić, gdzie Twoim zdaniem sztuczna inteligencja jest najskuteczniej wykorzystywana. Czy jest to aplikacja mapowa, usługa zamiany mowy na tekst, czy może gra wideo? Zbadaj, jak został zbudowany ten system.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Przegląd i samodzielna nauka
 

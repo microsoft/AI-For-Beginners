@@ -2,7 +2,7 @@
 
 Em todas as nossas tarefas anteriores, estávamos treinando uma rede neural para realizar uma determinada tarefa usando um conjunto de dados rotulados. Com grandes modelos de transformadores, como o BERT, utilizamos modelagem de linguagem de forma auto-supervisionada para construir um modelo de linguagem, que é então especializado para uma tarefa específica com treinamento adicional focado no domínio. No entanto, foi demonstrado que grandes modelos de linguagem também podem resolver muitas tarefas sem NENHUM treinamento específico de domínio. Uma família de modelos capaz de fazer isso é chamada de **GPT**: Transformer Generativo Pré-Treinado.
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Geração de Texto e Perplexidade
 
@@ -49,7 +49,7 @@ Continue seu aprendizado nos seguintes notebooks:
 
 Novos modelos de linguagem pré-treinados não apenas modelam a estrutura da linguagem, mas também contêm uma vasta quantidade de linguagem natural. Assim, eles podem ser usados efetivamente para resolver algumas tarefas de PNL em configurações de zero-shot ou few-shot.
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Isenção de responsabilidade**:  
 Este documento foi traduzido utilizando serviços de tradução automática baseados em IA. Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em sua língua nativa deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional por um humano. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações erradas decorrentes do uso desta tradução.

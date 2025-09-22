@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Melatih CNN boleh mengambil masa yang lama, dan memerlukan banyak data untuk tugas tersebut. Walau bagaimanapun, sebahagian besar masa dihabiskan untuk mempelajari penapis tahap rendah terbaik yang boleh digunakan oleh rangkaian untuk mengekstrak corak daripada imej. Satu persoalan semula jadi timbul - bolehkah kita menggunakan rangkaian neural yang telah dilatih pada satu set data dan menyesuaikannya untuk mengklasifikasikan imej yang berbeza tanpa memerlukan proses latihan penuh?
 
-## [Kuiz Pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Kuiz Pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Pendekatan ini dipanggil **pembelajaran pemindahan**, kerana kita memindahkan sebahagian pengetahuan daripada satu model rangkaian neural kepada yang lain. Dalam pembelajaran pemindahan, kita biasanya bermula dengan model pra-latih, yang telah dilatih pada set data imej yang besar, seperti **ImageNet**. Model-model ini sudah mampu melakukan tugas yang baik dalam mengekstrak ciri-ciri berbeza daripada imej generik, dan dalam banyak kes, hanya dengan membina pengklasifikasi di atas ciri-ciri yang diekstrak tersebut boleh memberikan hasil yang baik.
 
@@ -76,7 +76,7 @@ Dengan menggunakan pembelajaran pemindahan, anda dapat dengan cepat membina peng
 
 Dalam buku nota yang disertakan, terdapat nota di bahagian bawah tentang bagaimana pengetahuan pemindahan berfungsi dengan baik dengan data latihan yang agak serupa (mungkin jenis haiwan baru). Lakukan beberapa eksperimen dengan jenis imej yang benar-benar baru untuk melihat sejauh mana atau buruknya model pengetahuan pemindahan anda berfungsi.
 
-## [Kuiz Pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Kuiz Pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Kajian & Pembelajaran Kendiri
 

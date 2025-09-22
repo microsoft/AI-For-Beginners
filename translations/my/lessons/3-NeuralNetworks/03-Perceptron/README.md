@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # နယူးရယ်နက်ဝက်များအကြောင်း အကျဉ်းချုပ်: ပာစက်ထရွန်
 
-## [မဆွေးနွေးမီ စမ်းမေးခွန်း](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [မဆွေးနွေးမီ စမ်းမေးခွန်း](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 နယူးရယ်နက်ဝက်တစ်ခုကို အချိန်မီနည်းလမ်းဖြင့် ဖန်တီးရန် ပထမဆုံးကြိုးစားမှုတစ်ခုကို 1957 ခုနှစ်တွင် Cornell Aeronautical Laboratory မှ Frank Rosenblatt က ပြုလုပ်ခဲ့သည်။ ၎င်းသည် "Mark-1" ဟုခေါ်သော ဟာ့ဒ်ဝဲတစ်ခုဖြစ်ပြီး၊ တိရိစ္ဆာန်ပုံစံများ (ဥပမာ- တြိဂံ၊ စတုရန်း၊ စက်ဝိုင်း) ကို အသိအမှတ်ပြုနိုင်ရန် ဒီဇိုင်းပြုလုပ်ထားသည်။
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 သင့်ကိုယ်ပိုင် ပာစက်ထရွန်တစ်ခု ဖန်တီးကြည့်လိုပါက၊ [Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) တွင်ရှိသော [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) ကို အသုံးပြု၍ လေ့လာကြည့်ပါ။
 
-## [သင်ခန်းစာပြီးနောက် စမ်းမေးခွန်း](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [သင်ခန်းစာပြီးနောက် စမ်းမေးခွန်း](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

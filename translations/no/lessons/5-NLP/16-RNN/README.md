@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurrente Nevrale Nettverk
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 I tidligere seksjoner har vi brukt rike semantiske representasjoner av tekst og en enkel lineær klassifikator på toppen av embeddingene. Det denne arkitekturen gjør, er å fange opp den samlede meningen av ordene i en setning, men den tar ikke hensyn til **rekkefølgen** av ordene, fordi aggregeringsoperasjonen på embeddingene fjerner denne informasjonen fra den opprinnelige teksten. Siden disse modellene ikke kan modellere ordrekkefølge, kan de ikke løse mer komplekse eller tvetydige oppgaver som tekstgenerering eller spørsmål-svar.
 
@@ -84,7 +84,7 @@ Les gjennom noe litteratur om LSTM-er og vurder deres anvendelser:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Gjennomgang og selvstudium
 

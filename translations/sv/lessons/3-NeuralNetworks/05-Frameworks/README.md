@@ -14,7 +14,7 @@ Som vi redan har lärt oss, för att kunna träna neurala nätverk effektivt beh
 * Arbeta med tensorer, t.ex. multiplicera, addera och beräkna funktioner som sigmoid eller softmax
 * Beräkna gradienter för alla uttryck för att kunna utföra gradientnedstigningsoptimering
 
-## [Förtest](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Förtest](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Medan biblioteket `numpy` kan hantera den första delen, behöver vi en mekanism för att beräkna gradienter. I [vårt ramverk](../04-OwnFramework/OwnFramework.ipynb) som vi utvecklade i föregående avsnitt var vi tvungna att manuellt programmera alla derivatafunktioner i metoden `backward`, som utför backpropagation. Idealt sett bör ett ramverk ge oss möjlighet att beräkna gradienter för *vilket uttryck som helst* som vi kan definiera.
 
@@ -106,7 +106,7 @@ I denna lektion lärde du dig om skillnaderna mellan de olika API:erna för de t
 
 I de medföljande anteckningsböckerna hittar du 'uppgifter' längst ner; arbeta igenom anteckningsböckerna och slutför uppgifterna.
 
-## [Eftertest](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Eftertest](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Granskning & Självstudier
 

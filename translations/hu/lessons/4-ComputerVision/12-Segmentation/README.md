@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Korábban már tanultunk az objektumfelismerésről, amely lehetővé teszi számunkra, hogy az objektumokat az *határoló dobozok* előrejelzésével lokalizáljuk a képen. Azonban bizonyos feladatokhoz nemcsak határoló dobozokra van szükségünk, hanem pontosabb objektum lokalizációra is. Ezt a feladatot **szegmentációnak** nevezzük.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 A szegmentációt tekinthetjük **pixelek osztályozásának**, ahol a kép **minden egyes** pixeléről meg kell jósolnunk az osztályát (*háttér* is egy osztály). Két fő szegmentációs algoritmus létezik:
 
@@ -56,7 +56,7 @@ Nyisd meg az alábbi notebookokat, hogy többet megtudj a különböző szemanti
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Összegzés
 

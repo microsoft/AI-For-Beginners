@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vahvistusoppiminen (RL) nähdään yhtenä koneoppimisen perusparadigmoista, yhdessä ohjatun oppimisen ja ohjaamattoman oppimisen kanssa. Siinä missä ohjatussa oppimisessa tukeudumme tunnettuja tuloksia sisältävään aineistoon, RL perustuu **oppimiseen tekemällä**. Esimerkiksi, kun näemme ensimmäistä kertaa tietokonepelin, alamme pelata sitä, vaikka emme tiedä sääntöjä, ja pian pystymme parantamaan taitojamme pelkästään pelaamisen ja käyttäytymisen säätämisen kautta.
 
-## [Esiluentavisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Esiluentavisa](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 RL:n suorittamiseen tarvitsemme:
 
@@ -110,7 +110,7 @@ Olemme nyt oppineet kouluttamaan agentteja saavuttamaan hyviä tuloksia pelkäst
 
 Tutustu "Muut RL-tehtävät" -osiossa lueteltuihin sovelluksiin ja yritä toteuttaa yksi niistä!
 
-## [Jälkiluentavisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Jälkiluentavisa](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Kertaus ja itseopiskelu
 

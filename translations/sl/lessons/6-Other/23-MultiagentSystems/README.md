@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Eden od možnih načinov za doseganje inteligence je tako imenovani **emergentni** (ali **sinergijski**) pristop, ki temelji na dejstvu, da lahko združeno vedenje mnogih relativno preprostih agentov privede do bolj kompleksnega (ali inteligentnega) vedenja sistema kot celote. Teoretično to temelji na principih [kolektivne inteligence](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentizma](https://en.wikipedia.org/wiki/Global_brain) in [evolucijske kibernetike](https://en.wikipedia.org/wiki/Global_brain), ki pravijo, da višjenivojski sistemi pridobijo neko dodano vrednost, ko so pravilno sestavljeni iz nižjenivojskih sistemov (tako imenovani *princip prehoda metasistema*).
 
-## [Predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Smer **večagentnih sistemov** se je v umetni inteligenci pojavila v 90. letih prejšnjega stoletja kot odgovor na rast interneta in porazdeljenih sistemov. Ena od klasičnih učbenikov umetne inteligence, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), se osredotoča na pogled klasične umetne inteligence z vidika večagentnih sistemov.
 
@@ -152,7 +152,7 @@ Vsi se osredotočajo na preprostejše vedenje posameznega agenta in dosežejo bo
 
 Prenesite to lekcijo v resnični svet in poskusite zasnovati večagentni sistem, ki lahko reši določen problem. Kaj bi na primer moral narediti večagentni sistem za optimizacijo poti šolskega avtobusa? Kako bi lahko deloval v pekarni?
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Pregled in samostojno učenje
 

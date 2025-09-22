@@ -14,7 +14,7 @@ Wie wir bereits gelernt haben, müssen wir zwei Dinge tun, um neuronale Netzwerk
 * Mit Tensoren arbeiten, z. B. multiplizieren, addieren und Funktionen wie Sigmoid oder Softmax berechnen
 * Gradienten aller Ausdrücke berechnen, um die Gradientenabstiegsoptimierung durchzuführen
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Während die Bibliothek `numpy` den ersten Teil übernehmen kann, benötigen wir einen Mechanismus, um Gradienten zu berechnen. In [unserem Framework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), das wir im vorherigen Abschnitt entwickelt haben, mussten wir alle Ableitungsfunktionen manuell im `backward`-Methodenprogrammieren, die die Rückwärtspropagation durchführt. Idealerweise sollte ein Framework uns die Möglichkeit geben, Gradienten für *jeden Ausdruck* zu berechnen, den wir definieren können.
 
@@ -106,7 +106,7 @@ In dieser Lektion haben Sie die Unterschiede zwischen den verschiedenen APIs der
 
 In den begleitenden Notebooks finden Sie 'Aufgaben' am Ende; arbeiten Sie die Notebooks durch und lösen Sie die Aufgaben.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Überprüfung & Selbststudium
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vo všetkých našich predchádzajúcich úlohách sme trénovali neurónovú sieť na vykonávanie určitej úlohy pomocou označených dátových súborov. Pri veľkých transformátorových modeloch, ako je BERT, používame modelovanie jazyka v samo-supervidovanom režime na vytvorenie jazykového modelu, ktorý je následne špecializovaný na konkrétnu úlohu pomocou ďalšieho tréningu v špecifickej doméne. Ukázalo sa však, že veľké jazykové modely dokážu riešiť mnohé úlohy aj bez akéhokoľvek tréningu v špecifickej doméne. Rodina modelov, ktoré to dokážu, sa nazýva **GPT**: Generative Pre-Trained Transformer.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generovanie textu a perplexita
 
@@ -58,7 +58,7 @@ Pokračujte vo svojom učení v nasledujúcich notebookoch:
 
 Nové všeobecné predtrénované jazykové modely nemodelujú len štruktúru jazyka, ale obsahujú aj obrovské množstvo prirodzeného jazyka. Preto môžu byť efektívne použité na riešenie niektorých NLP úloh v režime zero-shot alebo few-shot.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Upozornenie**:  
 Tento dokument bol preložený pomocou služby na automatický preklad [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, upozorňujeme, že automatické preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.

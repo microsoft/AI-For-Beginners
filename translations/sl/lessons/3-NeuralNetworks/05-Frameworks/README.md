@@ -14,7 +14,7 @@ Kot smo že spoznali, za učinkovito učenje nevronskih mrež moramo narediti dv
 * Operirati na tensorjih, npr. množiti, seštevati in izračunavati funkcije, kot sta sigmoid ali softmax
 * Izračunati gradient vseh izrazov, da lahko izvedemo optimizacijo z gradientnim spustom
 
-## [Pre-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Medtem ko knjižnica `numpy` omogoča prvo nalogo, potrebujemo mehanizem za izračun gradientov. V [našem okviru](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), ki smo ga razvili v prejšnjem razdelku, smo morali ročno programirati vse funkcije za odvode znotraj metode `backward`, ki izvaja povratno propagacijo. Idealno bi bilo, da nam okvir omogoča izračun gradientov *kateregakoli izraza*, ki ga lahko definiramo.
 
@@ -106,7 +106,7 @@ V tej lekciji ste spoznali razlike med različnimi API-ji za dva najbolj priljub
 
 V priloženih zvezkih boste našli 'naloge' na dnu; preglejte zvezke in dokončajte naloge.
 
-## [Po-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Po-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Pregled & Samostojno učenje
 

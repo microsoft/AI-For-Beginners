@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مکانیزم‌های توجه و مدل‌های ترانسفورمر
 
-## [پیش‌آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [پیش‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 یکی از مهم‌ترین مسائل در حوزه پردازش زبان طبیعی (NLP) **ترجمه ماشینی** است، که یک وظیفه اساسی در ابزارهایی مانند Google Translate محسوب می‌شود. در این بخش، ما بر ترجمه ماشینی تمرکز خواهیم کرد، یا به طور کلی‌تر، بر هر وظیفه‌ای که به صورت *توالی به توالی* انجام می‌شود (که به آن **تبدیل جمله** نیز گفته می‌شود).
 
@@ -108,7 +108,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 🚀 چالش
 
-## [پس‌آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [پس‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## مرور و مطالعه خودآموز
 

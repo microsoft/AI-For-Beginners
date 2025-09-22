@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang semantic embeddings, tulad ng Word2Vec at GloVe, ay unang hakbang patungo sa **pagmomodelo ng wika** - paggawa ng mga modelo na sa isang paraan ay *nakakaunawa* (o *nagre-representa*) sa likas na katangian ng wika.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Ang pangunahing ideya sa likod ng pagmomodelo ng wika ay ang pagsasanay sa mga ito gamit ang mga dataset na walang label sa isang unsupervised na paraan. Mahalaga ito dahil may napakaraming dami ng text na walang label na magagamit, habang ang dami ng text na may label ay palaging limitado sa dami ng pagsisikap na magagawa natin para maglagay ng label. Kadalasan, maaari tayong bumuo ng mga modelo ng wika na kayang **hulaan ang mga nawawalang salita** sa teksto, dahil madali lang takpan ang isang random na salita sa teksto at gamitin ito bilang sample para sa pagsasanay.
 
@@ -38,7 +38,7 @@ Ipagpatuloy ang iyong pag-aaral sa mga sumusunod na notebook:
 
 Sa nakaraang aralin, nakita natin na ang word embeddings ay parang mahika! Ngayon alam natin na ang pagsasanay ng word embeddings ay hindi masyadong komplikadong gawain, at dapat nating magawa ang pagsasanay ng sarili nating word embeddings para sa domain-specific na teksto kung kinakailangan.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Review at Pag-aaral sa Sarili
 

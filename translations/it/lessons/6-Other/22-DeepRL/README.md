@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 L'apprendimento per rinforzo (RL) è considerato uno dei paradigmi fondamentali del machine learning, accanto all'apprendimento supervisionato e non supervisionato. Mentre nell'apprendimento supervisionato ci basiamo su un dataset con risultati noti, l'RL si basa sull'**imparare facendo**. Ad esempio, quando vediamo per la prima volta un videogioco, iniziamo a giocare anche senza conoscere le regole, e presto miglioriamo le nostre abilità semplicemente giocando e adattando il nostro comportamento.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Per eseguire l'RL, abbiamo bisogno di:
 
@@ -110,7 +110,7 @@ Abbiamo ora imparato come addestrare agenti per ottenere buoni risultati semplic
 
 Esplora le applicazioni elencate nella sezione "Altri Compiti di RL" e prova a implementarne una!
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Revisione e Studio Autonomo
 

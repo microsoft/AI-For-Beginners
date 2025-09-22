@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pembelajaran pengukuhan (RL) dianggap sebagai salah satu paradigma asas pembelajaran mesin, selain pembelajaran diselia dan pembelajaran tidak diselia. Dalam pembelajaran diselia, kita bergantung pada dataset dengan hasil yang diketahui, manakala RL berdasarkan **belajar melalui pengalaman**. Sebagai contoh, apabila kita pertama kali melihat permainan komputer, kita mula bermain walaupun tanpa mengetahui peraturannya, dan tidak lama kemudian kita dapat meningkatkan kemahiran kita hanya melalui proses bermain dan menyesuaikan tingkah laku kita.
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Untuk melaksanakan RL, kita memerlukan:
 
@@ -110,7 +110,7 @@ Kita kini telah belajar bagaimana melatih agen untuk mencapai hasil yang baik ha
 
 Terokai aplikasi yang disenaraikan dalam bahagian 'Tugas RL Lain' dan cuba laksanakan salah satu daripadanya!
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Kajian & Pembelajaran Kendiri
 

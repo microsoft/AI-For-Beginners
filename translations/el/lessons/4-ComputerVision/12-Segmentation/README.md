@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Έχουμε ήδη μάθει για την Ανίχνευση Αντικειμένων, η οποία μας επιτρέπει να εντοπίζουμε αντικείμενα στην εικόνα προβλέποντας τα *περιγράμματα* τους. Ωστόσο, για ορισμένες εργασίες δεν χρειαζόμαστε μόνο περιγράμματα, αλλά και πιο ακριβή εντοπισμό αντικειμένων. Αυτή η εργασία ονομάζεται **τμηματοποίηση**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Η τμηματοποίηση μπορεί να θεωρηθεί ως **ταξινόμηση εικονοστοιχείων**, όπου για **κάθε** εικονοστοιχείο της εικόνας πρέπει να προβλέψουμε την κατηγορία του (*το φόντο* είναι μία από τις κατηγορίες). Υπάρχουν δύο κύριοι αλγόριθμοι τμηματοποίησης:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Συμπέρασμα
 

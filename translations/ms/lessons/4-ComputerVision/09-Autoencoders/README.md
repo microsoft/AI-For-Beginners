@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Apabila melatih CNN, salah satu masalahnya ialah kita memerlukan banyak data berlabel. Dalam kes klasifikasi imej, kita perlu memisahkan imej ke dalam kelas yang berbeza, yang memerlukan usaha manual.
 
-## [Kuiz sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Kuiz sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Namun, kita mungkin ingin menggunakan data mentah (tidak berlabel) untuk melatih pengekstrak ciri CNN, yang dipanggil **pembelajaran kendiri**. Sebagai ganti label, kita akan menggunakan imej latihan sebagai input dan output rangkaian. Idea utama **autoencoder** ialah kita akan mempunyai **rangkaian pengekod** yang menukar imej input kepada **ruang laten** (biasanya ia hanya vektor bersaiz lebih kecil), kemudian **rangkaian penyahkod**, yang bertujuan untuk membina semula imej asal.
 
@@ -80,7 +80,7 @@ Ketahui lebih lanjut tentang autoencoders dalam buku nota berikut:
 * **Kehilangan** - imej yang dibina semula tidak sama seperti imej asal. Sifat kehilangan ditentukan oleh *fungsi kehilangan* yang digunakan semasa latihan.
 * Berfungsi pada **data tidak berlabel**
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Kesimpulan
 
@@ -90,7 +90,7 @@ Dalam pelajaran ini, anda telah mempelajari pelbagai jenis autoencoders yang ter
 
 Dalam pelajaran ini, anda telah mempelajari tentang penggunaan autoencoders untuk imej. Tetapi ia juga boleh digunakan untuk muzik! Lihat projek Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), yang menggunakan autoencoders untuk belajar membina semula muzik. Lakukan beberapa [eksperimen](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) dengan perpustakaan ini untuk melihat apa yang boleh anda cipta.
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Kajian & Pembelajaran Kendiri
 

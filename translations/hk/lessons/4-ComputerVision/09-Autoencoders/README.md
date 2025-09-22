@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在訓練 CNN 時，其中一個問題是我們需要大量的標籤數據。在圖像分類的情況下，我們需要將圖像分成不同的類別，這是一項手動工作。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 然而，我們可能希望使用原始（未標籤）數據來訓練 CNN 特徵提取器，這被稱為**自監督學習**。取代標籤，我們將使用訓練圖像作為網絡的輸入和輸出。**自動編碼器**的主要概念是，我們將有一個**編碼器網絡**，將輸入圖像轉換為某種**潛在空間**（通常只是某種較小尺寸的向量），然後是**解碼器網絡**，其目標是重建原始圖像。
 
@@ -80,7 +80,7 @@ VAE 的一個重要優勢是它使我們能夠相對容易地生成新圖像，�
 * **有損** - 重建的圖像與原始圖像不同。損失的性質由訓練期間使用的*損失函數*定義。
 * 適用於**未標籤數據**
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## 結論
 
@@ -90,7 +90,7 @@ VAE 的一個重要優勢是它使我們能夠相對容易地生成新圖像，�
 
 在本課中，您學習了如何使用自動編碼器處理圖像。但它們也可以用於音樂！查看 Magenta 項目的 [MusicVAE](https://magenta.tensorflow.org/music-vae) 項目，它使用自動編碼器學習重建音樂。使用此庫進行一些[實驗](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb)，看看您能創造出什麼。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## 回顧與自學
 

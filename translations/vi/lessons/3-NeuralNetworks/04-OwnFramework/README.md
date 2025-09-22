@@ -19,7 +19,7 @@ Trong phần này, chúng ta sẽ mở rộng mô hình này thành một khung 
 
 Chúng ta cũng sẽ phát triển khung mô-đun của riêng mình bằng Python để xây dựng các kiến trúc mạng nơ-ron khác nhau.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Chính thức hóa Học Máy
 
@@ -81,7 +81,7 @@ Trong notebook đi kèm, bạn sẽ triển khai khung của riêng mình để 
 
 Hãy tiếp tục với notebook [OwnFramework](OwnFramework.ipynb) và làm việc qua nó.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Ôn tập & Tự học
 

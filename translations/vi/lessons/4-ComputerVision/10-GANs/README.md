@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Trong phần trước, chúng ta đã tìm hiểu về **mô hình sinh tạo**: các mô hình có thể tạo ra hình ảnh mới tương tự như những hình ảnh trong tập dữ liệu huấn luyện. VAE là một ví dụ tốt về mô hình sinh tạo.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Tuy nhiên, nếu chúng ta cố gắng tạo ra thứ gì đó thực sự có ý nghĩa, như một bức tranh với độ phân giải hợp lý, bằng VAE, chúng ta sẽ thấy rằng việc huấn luyện không hội tụ tốt. Đối với trường hợp này, chúng ta nên tìm hiểu về một kiến trúc khác được thiết kế đặc biệt cho các mô hình sinh tạo - **Mạng Đối Kháng Sinh Tạo**, hay GAN.
 
@@ -84,7 +84,7 @@ Cách hoạt động như sau:
 
 ## ✍️ Ví dụ: [Chuyển đổi phong cách](StyleTransfer.ipynb)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Kết luận
 

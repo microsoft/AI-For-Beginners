@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Attention Mechanisms and Transformers
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 One of the most significant challenges in the field of NLP is **machine translation**, a critical task that powers tools like Google Translate. In this section, we will focus on machine translation or, more broadly, on any *sequence-to-sequence* task (also known as **sentence transduction**).
 
@@ -108,7 +108,7 @@ In this lesson, you learned about Transformers and Attention Mechanisms, essenti
 
 ## 🚀 Challenge
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Review & Self Study
 

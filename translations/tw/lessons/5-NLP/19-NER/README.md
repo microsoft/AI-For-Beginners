@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 到目前為止，我們主要集中在一個 NLP 任務——分類。然而，還有其他 NLP 任務可以通過神經網絡完成。其中一個任務是 **[命名實體識別](https://wikipedia.org/wiki/Named-entity_recognition)** (NER)，它處理識別文本中的特定實體，例如地點、人物姓名、日期時間範圍、化學公式等。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## 使用 NER 的範例
 
@@ -79,7 +79,7 @@ NER 模型是一種 **標記分類模型**，這意味著它可以用於執行�
 
 完成以下連結的作業，訓練一個醫學術語的命名實體識別模型，然後嘗試在不同的數據集上進行測試。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## 回顧與自學
 

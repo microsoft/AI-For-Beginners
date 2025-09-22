@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Datorseende](https://wikipedia.org/wiki/Computer_vision) är en disciplin vars mål är att låta datorer få en hög nivå av förståelse för digitala bilder. Detta är en ganska bred definition, eftersom *förståelse* kan innebära många olika saker, inklusive att hitta ett objekt på en bild (**objektdetektering**), förstå vad som händer (**händelsedetektering**), beskriva en bild i text eller rekonstruera en scen i 3D. Det finns också speciella uppgifter relaterade till mänskliga bilder: ålders- och känsloestimering, ansiktsdetektering och identifiering samt 3D-positionsestimering, för att nämna några.
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 En av de enklaste uppgifterna inom datorseende är **bildklassificering**.
 
@@ -105,7 +105,7 @@ Ibland kan relativt komplexa uppgifter som rörelsedetektering eller fingertopps
 
 Titta på [denna video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) från AI Show för att lära dig om Cortic Tigers-projektet och hur de byggde en blockbaserad lösning för att demokratisera datorseendeuppgifter via en robot. Gör lite forskning om andra projekt som detta som hjälper nya lärande att komma in i området.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Granskning & Självstudier
 

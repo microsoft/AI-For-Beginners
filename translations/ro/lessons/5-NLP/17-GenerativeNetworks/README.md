@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rețele generative
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rețelele Neuronale Recurente (RNN) și variantele lor cu celule cu porți, cum ar fi celulele Long Short Term Memory (LSTM) și Gated Recurrent Units (GRU), oferă un mecanism pentru modelarea limbajului, deoarece pot învăța ordinea cuvintelor și pot oferi predicții pentru următorul cuvânt dintr-o secvență. Acest lucru ne permite să folosim RNN pentru **sarcini generative**, cum ar fi generarea obișnuită de text, traducerea automată și chiar generarea de descrieri pentru imagini.
 
@@ -71,7 +71,7 @@ Urmează câteva lecții pe Microsoft Learn pe acest subiect:
 
 * Generare de text cu [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Recapitulare și studiu individual
 

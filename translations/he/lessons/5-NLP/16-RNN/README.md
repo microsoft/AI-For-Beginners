@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # רשתות עצביות חוזרות
 
-## [מבחן מקדים להרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [מבחן מקדים להרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 בקטעים הקודמים השתמשנו בייצוגים סמנטיים עשירים של טקסט ובמסווג ליניארי פשוט מעל ההטמעות. מה שהארכיטקטורה הזו עושה הוא לתפוס את המשמעות המצטברת של מילים במשפט, אך היא אינה מתחשבת ב**סדר** המילים, מכיוון שפעולת האגרגציה מעל ההטמעות הסירה את המידע הזה מהטקסט המקורי. מכיוון שמודלים אלו אינם מסוגלים לדמות את סדר המילים, הם אינם יכולים לפתור משימות מורכבות או עמומות יותר כמו יצירת טקסט או מענה על שאלות.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [מבחן לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [מבחן לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## סקירה ולימוד עצמי
 

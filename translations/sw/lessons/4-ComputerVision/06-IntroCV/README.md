@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Maono ya Kompyuta](https://wikipedia.org/wiki/Computer_vision) ni taaluma inayolenga kuwezesha kompyuta kuelewa kwa kiwango cha juu picha za kidijitali. Hii ni tafsiri pana, kwa sababu *kuelewa* kunaweza kumaanisha mambo mengi, ikiwa ni pamoja na kutambua kitu kwenye picha (**utambuzi wa kitu**), kuelewa kinachoendelea (**utambuzi wa tukio**), kuelezea picha kwa maandishi, au kujenga upya eneo kwa 3D. Pia kuna kazi maalum zinazohusiana na picha za binadamu: makadirio ya umri na hisia, utambuzi wa uso na utambulisho, na makadirio ya mkao wa 3D, kutaja chache.
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Moja ya kazi rahisi zaidi za maono ya kompyuta ni **uainishaji wa picha**.
 
@@ -105,7 +105,7 @@ Wakati mwingine, kazi ngumu kama vile utambuzi wa harakati au utambuzi wa ncha z
 
 Tazama [video hii](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) kutoka kipindi cha AI ili kujifunza kuhusu mradi wa Cortic Tigers na jinsi walivyojenga suluhisho la msingi wa vizuizi ili kurahisisha kazi za maono ya kompyuta kupitia roboti. Fanya utafiti juu ya miradi mingine kama hii inayosaidia wanafunzi wapya kuingia kwenye uwanja huu.
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Mapitio na Kujisomea
 

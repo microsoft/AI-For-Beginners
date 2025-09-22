@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Αναπαράσταση Κειμένου ως Τανυστές
 
-## [Προ-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Ταξινόμηση Κειμένου
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Δοκιμάστε κάποιες άλλες ασκήσεις χρησιμοποιώντας bag-of-words και διαφορετικά μοντέλα δεδομένων. Ίσως εμπνευστείτε από αυτόν τον [διαγωνισμό στο Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Μετα-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Μετα-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Ανασκόπηση & Αυτομελέτη
 

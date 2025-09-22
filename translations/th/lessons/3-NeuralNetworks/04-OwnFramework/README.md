@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เรายังจะพัฒนากรอบการทำงานแบบโมดูลาร์ใน Python ที่ช่วยให้เราสร้างสถาปัตยกรรมเครือข่ายประสาทเทียมที่แตกต่างกันได้
 
-## [แบบทดสอบก่อนการบรรยาย](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [แบบทดสอบก่อนการบรรยาย](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## การทำให้ปัญหา Machine Learning เป็นทางการ
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ไปที่ [OwnFramework](OwnFramework.ipynb) notebook และทำงานผ่านมัน
 
-## [แบบทดสอบหลังการบรรยาย](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [แบบทดสอบหลังการบรรยาย](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## การทบทวนและการศึกษาด้วยตนเอง
 

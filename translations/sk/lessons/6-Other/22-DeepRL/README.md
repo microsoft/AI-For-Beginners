@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Posilňovacie učenie (RL) je považované za jeden zo základných paradigmov strojového učenia, vedľa učenia s učiteľom a učenia bez učiteľa. Zatiaľ čo pri učení s učiteľom sa spoliehame na dataset s známymi výsledkami, RL je založené na **učení sa prostredníctvom skúseností**. Napríklad, keď prvýkrát vidíme počítačovú hru, začneme ju hrať, aj keď nepoznáme pravidlá, a čoskoro dokážeme zlepšiť svoje schopnosti len procesom hrania a prispôsobovania svojho správania.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Na vykonanie RL potrebujeme:
 
@@ -110,7 +110,7 @@ Teraz sme sa naučili, ako trénovať agentov na dosiahnutie dobrých výsledkov
 
 Preskúmajte aplikácie uvedené v sekcii 'Ďalšie úlohy RL' a skúste implementovať jednu z nich!
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Prehľad a samostatné štúdium
 

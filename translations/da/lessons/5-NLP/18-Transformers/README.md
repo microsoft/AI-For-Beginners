@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Attention Mekanismer og Transformers
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Et af de vigtigste problemer inden for NLP er **maskinoversættelse**, en essentiel opgave, der ligger til grund for værktøjer som Google Translate. I denne sektion vil vi fokusere på maskinoversættelse, eller mere generelt på enhver *sekvens-til-sekvens* opgave (som også kaldes **sætningsomdannelse**).
 
@@ -108,7 +108,7 @@ I denne lektion lærte du om Transformers og Attention Mekanismer, alle essentie
 
 ## 🚀 Udfordring
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Gennemgang & Selvstudie
 

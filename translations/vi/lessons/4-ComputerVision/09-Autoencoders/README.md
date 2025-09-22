@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Khi huấn luyện CNNs, một trong những vấn đề là chúng ta cần rất nhiều dữ liệu được gắn nhãn. Trong trường hợp phân loại hình ảnh, chúng ta cần phân chia hình ảnh thành các lớp khác nhau, điều này đòi hỏi công sức thủ công.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Tuy nhiên, chúng ta có thể muốn sử dụng dữ liệu thô (không gắn nhãn) để huấn luyện các bộ trích xuất đặc trưng của CNN, điều này được gọi là **học tự giám sát**. Thay vì sử dụng nhãn, chúng ta sẽ sử dụng hình ảnh huấn luyện làm cả đầu vào và đầu ra của mạng. Ý tưởng chính của **bộ mã hóa tự động** là chúng ta sẽ có một **mạng mã hóa** để chuyển đổi hình ảnh đầu vào thành một **không gian tiềm ẩn** (thường chỉ là một vector có kích thước nhỏ hơn), sau đó là **mạng giải mã**, với mục tiêu tái tạo lại hình ảnh gốc.
 
@@ -80,7 +80,7 @@ Tìm hiểu thêm về autoencoders trong các notebook tương ứng sau:
 * **Mất mát thông tin** - hình ảnh tái tạo không giống hoàn toàn với hình ảnh gốc. Bản chất của mất mát được xác định bởi *hàm mất mát* được sử dụng trong quá trình huấn luyện.
 * Hoạt động trên **dữ liệu không gắn nhãn**
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Kết luận
 
@@ -90,7 +90,7 @@ Trong bài học này, bạn đã tìm hiểu về các loại autoencoders khá
 
 Trong bài học này, bạn đã tìm hiểu về việc sử dụng autoencoders cho hình ảnh. Nhưng chúng cũng có thể được sử dụng cho âm nhạc! Hãy xem dự án [MusicVAE](https://magenta.tensorflow.org/music-vae) của dự án Magenta, sử dụng autoencoders để học cách tái tạo âm nhạc. Thực hiện một số [thí nghiệm](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) với thư viện này để xem bạn có thể tạo ra gì.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Ôn tập & Tự học
 

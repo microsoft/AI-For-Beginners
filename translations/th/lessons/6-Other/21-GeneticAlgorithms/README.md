@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # อัลกอริธึมเชิงพันธุกรรม
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **อัลกอริธึมเชิงพันธุกรรม** (Genetic Algorithms หรือ GA) มีพื้นฐานมาจาก **แนวคิดวิวัฒนาการ** ในปัญญาประดิษฐ์ ซึ่งใช้วิธีการวิวัฒนาการของประชากรเพื่อหาคำตอบที่เหมาะสมที่สุดสำหรับปัญหาที่กำหนดไว้ แนวคิดนี้ถูกเสนอขึ้นในปี 1975 โดย [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "อัลกอริธึมเชิงพันธุกรรมง่ายต่อการพัฒนา แต่พฤติกรรมของมันยากที่จะเข้าใจ" [ที่มา](https://wikipedia.org/wiki/Genetic_algorithm) ลองค้นคว้าหาการนำอัลกอริธึมเชิงพันธุกรรมไปใช้ เช่น การแก้ปริศนา Sudoku และอธิบายวิธีการทำงานในรูปแบบร่างหรือแผนผังการไหล
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## ทบทวนและศึกษาด้วยตนเอง
 

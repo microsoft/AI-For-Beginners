@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kita sebelumnya telah mempelajari tentang Deteksi Objek, yang memungkinkan kita untuk menemukan objek dalam gambar dengan memprediksi *bounding boxes*. Namun, untuk beberapa tugas, kita tidak hanya membutuhkan bounding boxes, tetapi juga pelokalan objek yang lebih presisi. Tugas ini disebut **segmentasi**.
 
-## [Kuis sebelum pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Kuis sebelum pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentasi dapat dilihat sebagai **klasifikasi piksel**, di mana untuk **setiap** piksel dalam gambar kita harus memprediksi kelasnya (*background* menjadi salah satu kelas). Ada dua algoritma utama untuk segmentasi:
 
@@ -56,7 +56,7 @@ Buka notebook di bawah ini untuk mempelajari lebih lanjut tentang berbagai arsit
 * [Segmentasi Semantik Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Segmentasi Semantik TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Kuis setelah pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Kesimpulan
 

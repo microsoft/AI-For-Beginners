@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Am învățat anterior despre Detectarea Obiectelor, care ne permite să localizăm obiecte în imagine prin prezicerea *casetelor de delimitare*. Totuși, pentru unele sarcini, nu avem nevoie doar de casete de delimitare, ci și de o localizare mai precisă a obiectelor. Această sarcină se numește **segmentare**.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentarea poate fi privită ca o **clasificare a pixelilor**, în care pentru **fiecare** pixel al imaginii trebuie să prezicem clasa sa (*fundalul* fiind una dintre clase). Există două algoritmi principali de segmentare:
 
@@ -56,7 +56,7 @@ Deschide notebook-urile de mai jos pentru a învăța mai multe despre diferite 
 * [Segmentare Semantică Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Segmentare Semantică TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Concluzie
 

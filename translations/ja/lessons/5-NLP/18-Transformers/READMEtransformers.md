@@ -1,6 +1,6 @@
 # 注意機構とトランスフォーマー
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP分野で最も重要な問題の一つは、**機械翻訳**であり、これはGoogle翻訳などのツールの基盤となる重要なタスクです。このセクションでは、機械翻訳、またはより一般的には*シーケンスからシーケンス*のタスク（これは**文の変換**とも呼ばれます）に焦点を当てます。
 
@@ -99,7 +99,7 @@ RNNを使用したシーケンスからシーケンスの実装は、二つの�
 
 ## 🚀 チャレンジ
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## レビュー & 自習
 

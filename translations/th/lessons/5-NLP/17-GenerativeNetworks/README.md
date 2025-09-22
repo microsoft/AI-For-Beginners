@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # เครือข่ายการสร้างสรรค์
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) และรูปแบบเซลล์ที่มีการควบคุม เช่น Long Short Term Memory Cells (LSTMs) และ Gated Recurrent Units (GRUs) ได้มอบกลไกสำหรับการสร้างแบบจำลองภาษา โดยสามารถเรียนรู้ลำดับคำและให้การคาดการณ์คำถัดไปในลำดับได้ สิ่งนี้ช่วยให้เราสามารถใช้ RNNs สำหรับ **งานสร้างสรรค์** เช่น การสร้างข้อความทั่วไป การแปลภาษา และแม้กระทั่งการสร้างคำบรรยายภาพ
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * การสร้างข้อความด้วย [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## ทบทวนและศึกษาด้วยตนเอง
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generative networks
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) နှင့် Long Short Term Memory Cells (LSTMs)၊ Gated Recurrent Units (GRUs) ကဲ့သို့သော gated cell မျိုးကွဲများသည် စကားလုံးများ၏ အစီအစဉ်ကို သင်ယူနိုင်ပြီး အစီအစဉ်အတွင်း နောက်တစ်ခုလာမည့် စကားလုံးကို ခန့်မှန်းပေးနိုင်သောကြောင့် ဘာသာစကားမော်ဒယ်ဖန်တီးရာတွင် အထောက်အကူဖြစ်စေပါသည်။ ၎င်းတို့ကို အသုံးပြု၍ RNNs ကို **ဖန်တီးမှုဆိုင်ရာ အလုပ်များ** (ဥပမာ- ပုံမှန်စာသားဖန်တီးခြင်း၊ စက်ဖြင့်ဘာသာပြန်ခြင်း၊ ပုံအကြောင်းဖော်ပြချက်ရေးခြင်း) အတွက် အသုံးပြုနိုင်ပါသည်။
 
@@ -71,7 +71,7 @@ Microsoft Learn တွင် ဤအကြောင်းအရာနှင့်
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) ဖြင့် စာသားဖန်တီးခြင်း
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Review & Self Study
 

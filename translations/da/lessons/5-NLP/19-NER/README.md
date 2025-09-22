@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Indtil nu har vi primært fokuseret på én NLP-opgave - klassifikation. Der findes dog også andre NLP-opgaver, som kan løses med neurale netværk. En af disse opgaver er **[Genkendelse af navngivne enheder](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), som handler om at genkende specifikke enheder i tekst, såsom steder, personnavne, tidsintervaller, kemiske formler og så videre.
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Eksempel på brug af NER
 
@@ -79,7 +79,7 @@ En NER-model er en **tokenklassifikationsmodel**, hvilket betyder, at den kan br
 
 Fuldfør opgaven nedenfor for at træne en model til genkendelse af medicinske enheder, og prøv den derefter på et andet datasæt.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Gennemgang & Selvstudie
 

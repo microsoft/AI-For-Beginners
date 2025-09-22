@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # الخوارزميات الجينية
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **الخوارزميات الجينية** (GA) تعتمد على **نهج تطوري** في الذكاء الاصطناعي، حيث يتم استخدام أساليب تطور السكان للحصول على حل أمثل لمشكلة معينة. تم اقتراحها لأول مرة في عام 1975 من قبل [جون هنري هولاند](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "الخوارزميات الجينية سهلة التنفيذ، لكن سلوكها صعب الفهم." [المصدر](https://wikipedia.org/wiki/Genetic_algorithm) قم ببعض البحث للعثور على تنفيذ لخوارزمية جينية مثل حل لغز سودوكو، واشرح كيف تعمل باستخدام مخطط أو رسم تخطيطي.
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## المراجعة والدراسة الذاتية
 

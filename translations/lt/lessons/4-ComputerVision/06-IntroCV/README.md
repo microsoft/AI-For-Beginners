@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Kompiuterinis matymas](https://wikipedia.org/wiki/Computer_vision) yra disciplina, kurios tikslas – leisti kompiuteriams suprasti skaitmeninius vaizdus aukštu lygiu. Tai gana plati sąvoka, nes *supratimas* gali reikšti daugybę dalykų, įskaitant objekto radimą nuotraukoje (**objektų atpažinimas**), įvykių atpažinimą (**įvykių detekcija**), nuotraukos aprašymą tekstu ar scenos atkūrimą 3D formatu. Taip pat yra specialių užduočių, susijusių su žmogaus atvaizdais: amžiaus ir emocijų nustatymas, veido aptikimas ir atpažinimas, 3D pozos nustatymas ir kt.
 
-## [Prieš paskaitą: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Viena iš paprasčiausių kompiuterinio matymo užduočių yra **vaizdų klasifikacija**.
 
@@ -105,7 +105,7 @@ Kartais, palyginti sudėtingos užduotys, tokios kaip judesio ar pirštų galiuk
 
 Peržiūrėkite [šį vaizdo įrašą](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) iš AI šou, kad sužinotumėte apie Cortic Tigers projektą ir kaip jie sukūrė blokų pagrindu veikiančią sprendimą, skirtą kompiuterinio matymo užduotims demokratizuoti per robotą. Atlikite tyrimą apie kitus panašius projektus, kurie padeda naujokams įsitraukti į šią sritį.
 
-## [Po paskaitos: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Peržiūra ir savarankiškas mokymasis
 

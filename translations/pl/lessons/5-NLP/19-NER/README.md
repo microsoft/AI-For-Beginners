@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Do tej pory skupialiśmy się głównie na jednym zadaniu NLP - klasyfikacji. Istnieją jednak inne zadania NLP, które można realizować za pomocą sieci neuronowych. Jednym z takich zadań jest **[Rozpoznawanie nazwanych jednostek](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), które polega na identyfikacji konkretnych jednostek w tekście, takich jak miejsca, imiona i nazwiska, przedziały czasowe, wzory chemiczne i inne.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Przykład użycia NER
 
@@ -78,7 +78,7 @@ Model NER to **model klasyfikacji tokenów**, co oznacza, że można go używać
 
 Wykonaj zadanie podlinkowane poniżej, aby wytrenować model rozpoznawania nazwanych jednostek dla terminów medycznych, a następnie wypróbuj go na innym zbiorze danych.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Przegląd i samodzielna nauka
 

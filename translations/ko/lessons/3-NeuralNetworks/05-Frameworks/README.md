@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 * 텐서를 다루는 작업, 예를 들어 곱셈, 덧셈, 그리고 sigmoid나 softmax 같은 함수 계산
 * 모든 표현식의 기울기를 계산하여 경사 하강법 최적화를 수행
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 `numpy` 라이브러리가 첫 번째 작업을 수행할 수 있지만, 기울기를 계산할 메커니즘이 필요합니다. 이전 섹션에서 개발한 [우리의 프레임워크](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)에서는 `backward` 메서드 내부에서 모든 미분 함수를 수동으로 프로그래밍해야 했습니다. 이 메서드는 역전파를 수행합니다. 이상적으로는 프레임워크가 우리가 정의할 수 있는 *어떤 표현식*의 기울기를 계산할 수 있는 기능을 제공해야 합니다.
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 첨부된 노트북에서 '작업' 섹션을 찾을 수 있습니다. 노트북을 학습하고 작업을 완료하세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## 복습 및 자기 학습
 

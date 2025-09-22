@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ранее мы изучали обнаружение объектов, которое позволяет находить объекты на изображении, предсказывая их *ограничивающие рамки*. Однако для некоторых задач нам нужны не только рамки, но и более точная локализация объектов. Эта задача называется **сегментацией**.
 
-## [Тест перед лекцией](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Сегментацию можно рассматривать как **классификацию пикселей**, где для **каждого** пикселя изображения необходимо предсказать его класс (*фон* является одним из классов). Существует два основных алгоритма сегментации:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Семантическая сегментация на Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Семантическая сегментация на TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Тест после лекции](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Тест после лекции](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Заключение
 

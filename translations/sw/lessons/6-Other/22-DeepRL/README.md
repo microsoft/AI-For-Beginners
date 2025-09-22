@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kujifunza kuimarisha (RL) kunachukuliwa kama mojawapo ya mifumo ya msingi ya kujifunza kwa mashine, sambamba na kujifunza kwa kusimamiwa na kujifunza bila kusimamiwa. Wakati katika kujifunza kwa kusimamiwa tunategemea seti ya data yenye matokeo yanayojulikana, RL inategemea **kujifunza kwa kufanya**. Kwa mfano, tunapoona mchezo wa kompyuta kwa mara ya kwanza, tunaanza kucheza hata bila kujua sheria, na hivi karibuni tunaweza kuboresha ujuzi wetu kupitia mchakato wa kucheza na kurekebisha tabia zetu.
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Ili kufanya RL, tunahitaji:
 
@@ -110,7 +110,7 @@ Sasa tumejifunza jinsi ya kufundisha mawakala kufanikisha matokeo mazuri kwa kuw
 
 Chunguza matumizi yaliyoorodheshwa katika sehemu ya 'Majukumu Mengine ya RL' na jaribu kutekeleza moja!
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Mapitio na Kujisomea
 

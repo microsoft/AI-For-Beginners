@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetik Algoritmalar
 
-## [Ders Öncesi Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetik Algoritmalar** (GA), bir popülasyonun evrim yöntemlerini kullanarak verilen bir problem için en uygun çözümü elde etmeye dayanan bir **evrimsel yaklaşım** üzerine kuruludur. 1975 yılında [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) tarafından önerilmiştir.
 
@@ -66,7 +66,7 @@ Genetik Algoritmalar, lojistik ve arama problemleri dahil olmak üzere birçok p
 
 "Genetik algoritmalar basit bir şekilde uygulanabilir, ancak davranışlarını anlamak zordur." [kaynak](https://wikipedia.org/wiki/Genetic_algorithm) Bir Sudoku bulmacasını çözmek gibi bir genetik algoritma uygulaması bulun ve bunun nasıl çalıştığını bir taslak veya akış diyagramı olarak açıklayın.
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

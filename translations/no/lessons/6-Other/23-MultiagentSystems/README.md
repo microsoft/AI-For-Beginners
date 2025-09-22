@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 En av de mulige måtene å oppnå intelligens på er den såkalte **emergente** (eller **synergetiske**) tilnærmingen, som er basert på det faktum at den kombinerte oppførselen til mange relativt enkle agenter kan resultere i en mer kompleks (eller intelligent) oppførsel av systemet som helhet. Teoretisk sett er dette basert på prinsippene for [Kollektiv intelligens](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentisme](https://en.wikipedia.org/wiki/Global_brain) og [Evolusjonær kybernetikk](https://en.wikipedia.org/wiki/Global_brain), som sier at høyere nivå-systemer får en form for merverdi når de kombineres riktig fra lavere nivå-systemer (det såkalte *prinsippet om metasystemovergang*).
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Retningen **Multi-Agent Systemer** dukket opp innen AI på 1990-tallet som en respons på veksten av Internett og distribuerte systemer. En av de klassiske AI-lærebøkene, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), fokuserer på klassisk AI fra perspektivet til multi-agent systemer.
 
@@ -152,7 +152,7 @@ De fokuserer alle på den enklere oppførselen til en individuell agent, og oppn
 
 Ta denne leksjonen til den virkelige verden og prøv å konseptualisere et multi-agent system som kan løse et problem. Hva, for eksempel, ville et multi-agent system trenge å gjøre for å optimalisere en skolebussrute? Hvordan kunne det fungere i et bakeri?
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Gjennomgang & Selvstudium
 

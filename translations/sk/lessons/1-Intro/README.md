@@ -54,7 +54,7 @@ V posledných rokoch sme boli svedkami obrovských úspechov veľkých jazykový
 
 Preskúmajte internet a určte, kde je podľa vás AI najefektívnejšie využívaná. Je to v aplikácii na mapovanie, v službe na prevod reči na text alebo vo videohre? Preskúmajte, ako bol systém vytvorený.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Prehľad & Samoštúdium
 

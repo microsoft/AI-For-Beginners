@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Įvadas į neuroninius tinklus: Perceptronas
 
-## [Prieš paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Vienas iš pirmųjų bandymų sukurti kažką panašaus į šiuolaikinį neuroninį tinklą buvo atliktas Franko Rosenblatto iš Kornelio aeronautikos laboratorijos 1957 metais. Tai buvo aparatinės įrangos įgyvendinimas, pavadintas „Mark-1“, sukurtas atpažinti primityvias geometrines figūras, tokias kaip trikampiai, kvadratai ir apskritimai.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 Jei norite pabandyti sukurti savo perceptroną, išbandykite [šį laboratorinį darbą Microsoft Learn platformoje](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), kuris naudoja [Azure ML dizainerį](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Apžvalga ir savarankiškas mokymasis
 

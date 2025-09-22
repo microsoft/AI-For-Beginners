@@ -19,7 +19,7 @@ I detta avsnitt kommer vi att utöka denna modell till en mer flexibel ram, vilk
 
 Vi kommer också att utveckla vår egen modulära ram i Python som gör det möjligt för oss att konstruera olika arkitekturer för neurala nätverk.
 
-## [Förtest inför föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Förtest inför föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisering av maskininlärning
 
@@ -81,7 +81,7 @@ I den medföljande notebooken kommer du att implementera din egen ram för att b
 
 Gå vidare till [OwnFramework](OwnFramework.ipynb) notebooken och arbeta igenom den.
 
-## [Eftertest efter föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Eftertest efter föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Granskning och självstudier
 

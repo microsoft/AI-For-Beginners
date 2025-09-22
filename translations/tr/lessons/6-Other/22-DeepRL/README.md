@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pekiştirmeli öğrenme (RL), denetimli öğrenme ve denetimsiz öğrenme ile birlikte temel makine öğrenimi paradigmalarından biri olarak görülür. Denetimli öğrenmede bilinen sonuçlara sahip bir veri setine dayanırken, RL **yaparak öğrenme** ilkesine dayanır. Örneğin, bir bilgisayar oyununu ilk kez gördüğümüzde, kuralları bilmeden oynamaya başlarız ve sadece oynama ve davranışlarımızı ayarlama süreciyle becerilerimizi geliştirebiliriz.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 RL gerçekleştirmek için ihtiyacımız olanlar:
 
@@ -110,7 +110,7 @@ Artık bir ödül fonksiyonu sağlayarak ve arama alanını akıllıca keşfetme
 
 'Diğer RL Görevleri' bölümünde listelenen uygulamaları keşfedin ve birini uygulamayı deneyin!
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

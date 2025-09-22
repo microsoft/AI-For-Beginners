@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dans la section précédente, nous avons appris sur les **modèles génératifs** : des modèles capables de générer de nouvelles images similaires à celles du jeu de données d'entraînement. Le VAE était un bon exemple de modèle génératif.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Cependant, si nous essayons de générer quelque chose de vraiment significatif, comme une peinture avec une résolution raisonnable, avec un VAE, nous constaterons que l'entraînement ne converge pas bien. Pour ce cas d'utilisation, nous devrions nous intéresser à une autre architecture spécifiquement conçue pour les modèles génératifs - les **Réseaux Adversaires Génératifs**, ou GANs.
 
@@ -84,7 +84,7 @@ Voici comment cela fonctionne :
 
 ## ✍️ Exemple : [Transfert de style](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Conclusion
 

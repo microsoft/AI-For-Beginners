@@ -59,7 +59,7 @@ V tej enoti ste spoznali glavni koncept nevronskih mrež za računalniški vid -
 
 V priloženih zvezkih so na dnu zapiski o tem, kako doseči večjo natančnost. Naredite nekaj eksperimentov, da preverite, ali lahko dosežete višjo natančnost.
 
-## [Kvizi po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Pregled in samostojno učenje
 

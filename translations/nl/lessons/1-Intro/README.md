@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Schets door [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Quiz voorafgaand aan de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Quiz voorafgaand aan de les](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Kunstmatige Intelligentie** is een boeiende wetenschappelijke discipline die onderzoekt hoe we computers intelligent gedrag kunnen laten vertonen, bijvoorbeeld dingen doen waar mensen goed in zijn.
 
@@ -151,7 +151,7 @@ De afgelopen jaren hebben we enorme successen gezien met grote taalmodellen, zoa
 
 Maak een rondgang op het internet om te bepalen waar AI volgens jou het meest effectief wordt gebruikt. Is het in een kaartapp, een spraak-naar-tekstdienst of een videogame? Onderzoek hoe het systeem is opgebouwd.
 
-## [Quiz na de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Herziening & Zelfstudie
 

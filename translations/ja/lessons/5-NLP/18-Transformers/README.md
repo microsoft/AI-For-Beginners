@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 注意メカニズムとトランスフォーマー
 
-## [事前講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [事前講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP分野で最も重要な問題の1つは**機械翻訳**であり、Google翻訳のようなツールの基盤となる重要なタスクです。このセクションでは、機械翻訳、またはより一般的には*シーケンス間変換*タスク（**文変換**とも呼ばれる）に焦点を当てます。
 
@@ -108,7 +108,7 @@ RNNを使用すると、シーケンス間変換は2つのリカレントネッ�
 
 ## 🚀 チャレンジ
 
-## [事後講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [事後講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## レビューと自己学習
 

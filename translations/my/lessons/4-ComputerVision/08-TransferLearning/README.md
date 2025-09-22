@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN များကို သင်ကြားရန်အချိန်များစွာလိုအပ်ပြီး၊ အချက်အလက်များစွာလည်း လိုအပ်ပါသည်။ သို့သော် အချိန်အများစုမှာ ပုံများမှ pattern များကို ထုတ်ယူရန် အသုံးပြုနိုင်သော အနိမ့်အဆင့် filter များကို သင်ယူရန်အတွက် အသုံးပြုသည်။ ထို့ကြောင့် သဘာဝကျသောမေးခွန်းတစ်ခုဖြစ်သည်မှာ - တစ်ခုသော dataset တွင် သင်ကြားထားသော neural network ကို အသုံးပြုပြီး အခြားပုံများကို အပြည့်အဝ သင်ကြားစရာမလိုဘဲ ခွဲခြားနိုင်မည်လား?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 ဒီနည်းလမ်းကို **transfer learning** ဟုခေါ်သည်၊ အကြောင်းမှာ တစ်ခုသော neural network model မှ knowledge တစ်စိတ်တစ်ပိုင်းကို အခြား model သို့ လွှဲပြောင်းသုံးစွဲခြင်းဖြစ်သည်။ Transfer learning တွင် ကျွန်ုပ်တို့သည် ပုံမှန်အားဖြင့် **ImageNet** ကဲ့သို့သော အကြီးစား image dataset တစ်ခုတွင် သင်ကြားထားသော pre-trained model တစ်ခုဖြင့် စတင်ပါသည်။ ဒီ model များသည် ပုံမှန်ပုံများမှ အမျိုးမျိုးသော feature များကို ထုတ်ယူနိုင်ပြီး၊ အများစုတွင် ထို feature များပေါ်တွင် classifier တစ်ခုတည်ဆောက်ခြင်းဖြင့် အကောင်းဆုံးရလဒ်ရနိုင်သည်။
 
@@ -76,7 +76,7 @@ Transfer learning ကို အသုံးပြုခြင်းဖြင့�
 
 အတူတကွပါဝင်သော notebook များတွင်၊ training data နှင့် ဆင်တူသော data များတွင် transfer knowledge အလုပ်လုပ်ပုံကို ဖော်ပြထားသည်။ အလုံးစုံမတူညီသော image များဖြင့် စမ်းသပ်ပြီး၊ transfer knowledge model များ၏ အလုပ်လုပ်ပုံကို ကြည့်ရှုပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

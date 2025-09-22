@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # רשתות גנרטיביות
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 רשתות עצביות חוזרות (RNNs) וגרסאות התאים שלהן כמו תאי זיכרון ארוך-קצר (LSTMs) ויחידות חוזרות עם שערים (GRUs) מספקות מנגנון למידול שפה בכך שהן יכולות ללמוד את סדר המילים ולספק תחזיות למילה הבאה ברצף. זה מאפשר לנו להשתמש ב-RNNs למשימות **גנרטיביות**, כמו יצירת טקסט רגיל, תרגום מכונה ואפילו יצירת כיתוב לתמונות.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * יצירת טקסט עם [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [שאלון לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## סקירה ולימוד עצמי
 

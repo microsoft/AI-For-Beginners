@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A CNN-ek tanítása sok időt vehet igénybe, és ehhez nagy mennyiségű adat szükséges. Az idő nagy részét azonban azzal töltjük, hogy megtanuljuk azokat az alacsony szintű szűrőket, amelyeket a hálózat használhat a minták kinyerésére a képekből. Felmerül egy természetes kérdés: használhatunk-e egy másik adathalmazon betanított neurális hálózatot, és adaptálhatjuk-e azt különböző képek osztályozására anélkül, hogy teljes tanítási folyamatra lenne szükség?
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Ezt a megközelítést **transzfer tanulásnak** nevezzük, mivel egy neurális hálózati modellből átvisszük a tudást egy másikba. A transzfer tanulás során általában egy előre betanított modellel kezdünk, amelyet egy nagy képadathalmazon, például az **ImageNet**-en tanítottak. Ezek a modellek már jó eredményeket érhetnek el különböző jellemzők kinyerésében általános képekből, és sok esetben elegendő egy osztályozót építeni ezekre a kinyert jellemzőkre, hogy jó eredményt érjünk el.
 
@@ -76,7 +76,7 @@ A transzfer tanulás segítségével gyorsan összeállíthat egy osztályozót 
 
 A kísérő notebookokban vannak megjegyzések az alján arról, hogy a transzfer tudás legjobban hasonló tanítási adatokkal működik (például egy új állatfajta). Kísérletezzen teljesen új típusú képekkel, hogy lássa, mennyire jól vagy rosszul teljesítenek a transzfer tudás modellek.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Áttekintés és önálló tanulás
 

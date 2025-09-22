@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們之前學過物件偵測，這讓我們能夠透過預測物件的*邊界框*來定位影像中的物件。然而，對於某些任務來說，我們不僅需要邊界框，還需要更精確的物件定位。這項任務被稱為**分割**。
 
-## [課前小測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [課前小測驗](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 分割可以被視為**像素分類**，也就是說，我們需要為影像中的**每一個**像素預測其類別（*背景*也是其中一個類別）。主要有兩種分割演算法：
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [語義分割 Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [語義分割 TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [課後小測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [課後小測驗](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## 總結
 

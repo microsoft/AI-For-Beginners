@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Până acum, ne-am concentrat în principal pe o singură sarcină NLP - clasificarea. Totuși, există și alte sarcini NLP care pot fi realizate cu ajutorul rețelelor neuronale. Una dintre aceste sarcini este **[Recunoașterea Entităților Denumite](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), care se ocupă cu identificarea entităților specifice din text, cum ar fi locuri, nume de persoane, intervale de timp, formule chimice și altele.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Exemplu de utilizare a NER
 
@@ -80,7 +80,7 @@ Un model NER este un **model de clasificare a tokenilor**, ceea ce înseamnă c�
 
 Completează sarcina legată mai jos pentru a antrena un model de recunoaștere a entităților denumite pentru termeni medicali, apoi încearcă-l pe un alt set de date.
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Recapitulare & Studiu individual
 

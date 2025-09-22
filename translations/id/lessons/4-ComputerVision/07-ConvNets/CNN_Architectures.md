@@ -59,7 +59,7 @@ Dalam unit ini, Anda telah mempelajari konsep utama di balik jaringan saraf visi
 
 Dalam notebook yang menyertai, terdapat catatan di bagian bawah tentang cara mendapatkan akurasi yang lebih tinggi. Lakukan beberapa eksperimen untuk melihat apakah Anda dapat mencapai akurasi yang lebih tinggi.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Tinjauan & Studi Mandiri
 

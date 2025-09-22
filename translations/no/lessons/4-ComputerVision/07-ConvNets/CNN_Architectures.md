@@ -59,7 +59,7 @@ I denne enheten har du lært hovedkonseptet bak nevrale nettverk for datavisjon 
 
 I de medfølgende notatbøkene er det notater nederst om hvordan man kan oppnå høyere nøyaktighet. Gjør noen eksperimenter for å se om du kan oppnå bedre resultater.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Gjennomgang og selvstudium
 

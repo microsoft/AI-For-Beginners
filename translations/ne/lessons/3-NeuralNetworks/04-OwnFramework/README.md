@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हामी हाम्रो आफ्नै पायथनमा आधारित मोड्युलर फ्रेमवर्क पनि विकास गर्नेछौं, जसले विभिन्न न्यूरल नेटवर्क आर्किटेक्चरहरू निर्माण गर्न अनुमति दिनेछ।
 
-## [पाठपूर्व प्रश्नोत्तरी](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [पाठपूर्व प्रश्नोत्तरी](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## मेसिन लर्निङको औपचारिकता
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) नोटबुकमा जानुहोस् र यसलाई पूरा गर्नुहोस्।
 
-## [पाठपछिको प्रश्नोत्तरी](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [पाठपछिको प्रश्नोत्तरी](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## समीक्षा र आत्म-अध्ययन
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Представљање текста као тензора
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Класификација текста
 
@@ -73,7 +73,7 @@ BoW у суштини представља које речи се појављу
 
 Испробајте неке друге вежбе користећи bag-of-words и различите моделе података. Можда ћете бити инспирисани овим [такмичењем на Kaggle-у](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Квиз после предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Квиз после предавања](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Преглед и самостално учење
 

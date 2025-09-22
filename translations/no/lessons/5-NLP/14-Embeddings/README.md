@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Innebygginger
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Når vi trente klassifikatorer basert på BoW eller TF/IDF, jobbet vi med høy-dimensjonale bag-of-words-vektorer med lengde `vocab_size`, og vi konverterte eksplisitt fra lav-dimensjonale posisjonsrepresentasjonsvektorer til sparsomme én-hot-representasjoner. Denne én-hot-representasjonen er imidlertid ikke minneeffektiv. I tillegg behandles hvert ord uavhengig av hverandre, dvs. én-hot-kodede vektorer uttrykker ingen semantisk likhet mellom ord.
 
@@ -65,7 +65,7 @@ I denne leksjonen oppdaget du hvordan du kan bygge og bruke innebyggingslag i Te
 
 Word2Vec har blitt brukt til noen interessante applikasjoner, inkludert generering av sangtekster og poesi. Ta en titt på [denne artikkelen](https://www.politetype.com/blog/word2vec-color-poems) som forklarer hvordan forfatteren brukte Word2Vec til å generere poesi. Se også [denne videoen av Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) for å oppdage en annen forklaring på denne teknikken. Prøv deretter å bruke disse teknikkene på din egen tekstkorpus, kanskje hentet fra Kaggle.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Gjennomgang & Selvstudium
 

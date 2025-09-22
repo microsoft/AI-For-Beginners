@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generativní sítě
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rekurentní neuronové sítě (RNN) a jejich varianty s bránovými buňkami, jako jsou Long Short Term Memory Cells (LSTM) a Gated Recurrent Units (GRU), poskytují mechanismus pro modelování jazyka, protože se dokážou naučit pořadí slov a předpovídat další slovo v sekvenci. To nám umožňuje používat RNN pro **generativní úlohy**, jako je generování běžného textu, strojový překlad nebo dokonce popisování obrázků.
 
@@ -71,7 +71,7 @@ Absolvujte některé lekce na Microsoft Learn na toto téma:
 
 * Generování textu s [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Přehled a samostudium
 

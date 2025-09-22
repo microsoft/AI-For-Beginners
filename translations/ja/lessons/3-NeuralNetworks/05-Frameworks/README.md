@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 * テンソルを操作すること（例：乗算、加算、シグモイドやソフトマックスなどの関数を計算すること）
 * 勾配降下法による最適化を行うために、すべての式の勾配を計算すること
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 `numpy`ライブラリは最初の部分を実行できますが、勾配を計算する仕組みが必要です。[前のセクション](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)で開発したフレームワークでは、`backward`メソッド内で逆伝播を行うためにすべての微分関数を手動でプログラムする必要がありました。理想的には、フレームワークは定義可能な*任意の式*の勾配を計算する機能を提供すべきです。
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 付属のノートブックには「タスク」が記載されています。ノートブックを進めてタスクを完了してください。
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## 復習と自己学習
 

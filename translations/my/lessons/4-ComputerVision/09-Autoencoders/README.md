@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN များကိုလေ့ကျင့်ရာတွင် အဓိကပြဿနာတစ်ခုမှာ အမှတ်အသားပြုထားသော ဒေတာများအများကြီးလိုအပ်သည်။ ဥပမာအားဖြင့် ပုံများကို အမျိုးအစားအလိုက်ခွဲခြားရန် လိုအပ်ပြီး၊ ၎င်းသည်လူ့အင်အားဖြင့် လုပ်ဆောင်ရမည့်အလုပ်ဖြစ်သည်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 သို့သော်၊ CNN feature extractors များကိုလေ့ကျင့်ရန် အမှတ်အသားမပြုထားသော (raw) ဒေတာများကို အသုံးပြုလိုနိုင်သည်။ ၎င်းကို **self-supervised learning** ဟုခေါ်သည်။ အမှတ်အသားများအစား၊ ပုံများကို network input နှင့် output အဖြစ်အသုံးပြုမည်ဖြစ်သည်။ **autoencoder** ၏ အဓိကအကြောင်းအရာမှာ **encoder network** တစ်ခုကို အသုံးပြု၍ input ပုံကို **latent space** (အများအားဖြင့် အရွယ်အစားသေးငယ်သော vector) တစ်ခုအဖြစ် ပြောင်းလဲပြီး၊ **decoder network** သည် မူရင်းပုံကို ပြန်လည်ဖန်တီးရန် ရည်ရွယ်ထားသည်။
 
@@ -80,7 +80,7 @@ Autoencoders အကြောင်းကို အောက်ပါ notebooks �
 * **Lossy** - ပြန်လည်ဖန်တီးထားသောပုံသည် မူရင်းပုံနှင့် တူညီမှုမရှိပါ။ Loss ၏ nature ကို training အတွင်း အသုံးပြုသော *loss function* က သတ်မှတ်သည်။
 * **Unlabeled data** တွင် အလုပ်လုပ်သည်။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## အကျဉ်းချုပ်
 
@@ -90,7 +90,7 @@ Autoencoders အကြောင်းကို အောက်ပါ notebooks �
 
 ဤသင်ခန်းစာတွင် autoencoders ကို ပုံများအတွက် အသုံးပြုခြင်းကို သင်လေ့လာခဲ့သည်။ သို့သော်၊ ၎င်းတို့ကို ဂီတအတွက်လည်း အသုံးပြုနိုင်သည်! Magenta project ၏ [MusicVAE](https://magenta.tensorflow.org/music-vae) ကို ကြည့်ရှုပါ၊ autoencoders ကို အသုံးပြုကာ ဂီတကို ပြန်လည်ဖန်တီးရန် လေ့လာထားသည်။ ဤ library ကို အသုံးပြုကာ [အတွေ့အကြုံများ](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) လုပ်ဆောင်ပြီး၊ သင်ဖန်တီးနိုင်သည့်အရာများကို ကြည့်ရှုပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review & Self Study
 

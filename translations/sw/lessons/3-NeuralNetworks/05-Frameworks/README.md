@@ -14,7 +14,7 @@ Kama tulivyojifunza tayari, ili kufundisha mitandao ya neural kwa ufanisi tunahi
 * Kufanya kazi na tensors, kwa mfano kuzidisha, kuongeza, na kuhesabu baadhi ya kazi kama sigmoid au softmax  
 * Kuhesabu derivatives za maelezo yote, ili kufanya uboreshaji wa gradient descent  
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Ingawa maktaba ya `numpy` inaweza kufanya sehemu ya kwanza, tunahitaji utaratibu wa kuhesabu derivatives. Katika [mfumo wetu](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) ambao tumeunda katika sehemu iliyopita, tulilazimika kuandika kwa mkono kazi zote za derivatives ndani ya njia ya `backward`, ambayo hufanya backpropagation. Kwa hali bora, mfumo unapaswa kutupa fursa ya kuhesabu derivatives za *maelezo yoyote* tunayoweza kufafanua.
 
@@ -106,7 +106,7 @@ Katika somo hili, umejifunza tofauti kati ya APIs mbalimbali za mifumo miwili ma
 
 Katika daftari zinazofuatana, utapata 'kazi' chini; pitia daftari na ukamilishe kazi hizo.
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Mapitio & Kujisomea
 

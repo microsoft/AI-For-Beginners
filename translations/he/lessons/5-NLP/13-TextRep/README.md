@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ייצוג טקסט כטנסורים
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## סיווג טקסט
 
@@ -73,7 +73,7 @@ BoW למעשה מייצג אילו מילים מופיעות בטקסט ובאי
 
 נסו תרגילים נוספים באמצעות bag-of-words ומודלים שונים של נתונים. ייתכן שתמצאו השראה בתחרות הזו ב-[Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [שאלון אחרי ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [שאלון אחרי ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## סקירה ולימוד עצמי
 

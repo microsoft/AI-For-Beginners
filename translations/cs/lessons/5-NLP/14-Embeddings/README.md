@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vnoření
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Při trénování klasifikátorů založených na BoW nebo TF/IDF jsme pracovali s vysoce dimenzionálními vektory bag-of-words o délce `vocab_size` a explicitně jsme převáděli nízko-dimenzionální poziční reprezentace na řídké jednohotové reprezentace. Tato jednohotová reprezentace však není paměťově efektivní. Navíc je každé slovo považováno za nezávislé na ostatních, tj. jednohotové vektory nevyjadřují žádnou sémantickou podobnost mezi slovy.
 
@@ -65,7 +65,7 @@ V této lekci jste se naučili, jak vytvořit a používat vrstvy vnoření v Te
 
 Word2Vec byl použit pro některé zajímavé aplikace, včetně generování textů písní a poezie. Podívejte se na [tento článek](https://www.politetype.com/blog/word2vec-color-poems), který popisuje, jak autor použil Word2Vec k generování poezie. Podívejte se také na [toto video od Dana Shiffmanna](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), kde najdete jiný výklad této techniky. Poté zkuste tyto techniky aplikovat na svůj vlastní textový korpus, možná získaný z Kaggle.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Přehled & Samostudium
 

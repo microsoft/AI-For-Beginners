@@ -54,7 +54,7 @@ I løbet af de seneste år har vi været vidne til enorme succeser med store spr
 
 Tag en tur på internettet for at afgøre, hvor du mener, AI bliver brugt mest effektivt. Er det i en kortlægningsapp, en tale-til-tekst-tjeneste eller et videospil? Undersøg, hvordan systemet blev bygget.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Gennemgang & Selvstudie
 

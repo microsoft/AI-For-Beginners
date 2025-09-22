@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Các mô hình phân loại hình ảnh mà chúng ta đã làm việc trước đây nhận một hình ảnh và đưa ra kết quả phân loại, chẳng hạn như lớp 'số' trong bài toán MNIST. Tuy nhiên, trong nhiều trường hợp, chúng ta không chỉ muốn biết rằng một bức ảnh có chứa các đối tượng - mà còn muốn xác định vị trí chính xác của chúng. Đây chính là mục tiêu của **phát hiện đối tượng**.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Phát Hiện Đối Tượng](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.vi.png)
 
@@ -172,7 +172,7 @@ Trong bài học này, bạn đã có một cái nhìn tổng quan về các cá
  * Yolo: [Triển khai Keras](https://github.com/experiencor/keras-yolo2), [notebook từng bước](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Triển khai Keras](https://github.com/experiencor/keras-yolo2), [notebook từng bước](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Ôn Tập & Tự Học
 

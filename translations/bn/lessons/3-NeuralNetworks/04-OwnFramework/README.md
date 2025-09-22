@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 আমরা আমাদের নিজস্ব মডুলার ফ্রেমওয়ার্কও তৈরি করব যা আমাদের বিভিন্ন নিউরাল নেটওয়ার্ক আর্কিটেকচার তৈরি করতে সাহায্য করবে।
 
-## [পূর্ব-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## মেশিন লার্নিংয়ের আনুষ্ঠানিকীকরণ
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) নোটবুকে যান এবং এটি সম্পূর্ণ করুন।
 
-## [পোস্ট-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [পোস্ট-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## পর্যালোচনা ও স্ব-অধ্যয়ন
 

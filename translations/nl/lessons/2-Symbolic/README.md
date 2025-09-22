@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De zoektocht naar kunstmatige intelligentie is gebaseerd op het streven naar kennis, om de wereld te begrijpen zoals mensen dat doen. Maar hoe kun je dit aanpakken?
 
-## [Quiz voorafgaand aan de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz voorafgaand aan de les](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 In de vroege dagen van AI was de top-down benadering om intelligente systemen te creëren (besproken in de vorige les) populair. Het idee was om kennis van mensen te extraheren in een machineleesbare vorm en deze vervolgens te gebruiken om automatisch problemen op te lossen. Deze aanpak was gebaseerd op twee grote ideeën:
 
@@ -236,7 +236,7 @@ Tegenwoordig wordt AI vaak beschouwd als een synoniem voor *Machine Learning* of
 
 In de Family Ontology-notebook die bij deze les hoort, is er een mogelijkheid om te experimenteren met andere familiebanden. Probeer nieuwe verbindingen tussen mensen in de stamboom te ontdekken.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Review & Zelfstudie
 

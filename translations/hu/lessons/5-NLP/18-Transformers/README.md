@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Figyelem Mechanizmusok és Transzformerek
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Az NLP terület egyik legfontosabb problémája a **gépi fordítás**, amely alapvető feladat olyan eszközök mögött, mint a Google Translate. Ebben a részben a gépi fordításra, vagy általánosabban bármilyen *sorról-sorra* feladatra (amit **mondattranszdukciónak** is neveznek) fogunk összpontosítani.
 
@@ -108,7 +108,7 @@ Ebben a leckében megismerkedtél a Transzformerekkel és Figyelem Mechanizmusok
 
 ## 🚀 Kihívás
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Áttekintés és Önálló Tanulás
 

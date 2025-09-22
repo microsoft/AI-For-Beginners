@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurrens Neurális Hálózatok
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Az előző szakaszokban gazdag szemantikai reprezentációkat használtunk a szövegekhez, valamint egy egyszerű lineáris osztályozót az embeddingek tetején. Ez az architektúra a mondatokban szereplő szavak összesített jelentését ragadja meg, de nem veszi figyelembe a szavak **sorrendjét**, mivel az embeddingek tetején végzett aggregációs művelet eltávolította ezt az információt az eredeti szövegből. Mivel ezek a modellek nem képesek a szavak sorrendjét modellezni, nem tudnak megoldani összetettebb vagy kétértelmű feladatokat, mint például szöveg generálása vagy kérdés megválaszolása.
 
@@ -84,7 +84,7 @@ Olvass el néhány irodalmat az LSTM-ekről, és gondold át az alkalmazásaikat
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Áttekintés és önálló tanulás
 

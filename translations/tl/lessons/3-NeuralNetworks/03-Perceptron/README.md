@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panimula sa Neural Networks: Perceptron
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Isa sa mga unang pagsubok na magpatupad ng isang bagay na katulad ng modernong neural network ay ginawa ni Frank Rosenblatt mula sa Cornell Aeronautical Laboratory noong 1957. Ito ay isang hardware implementation na tinawag na "Mark-1", na idinisenyo upang makilala ang mga simpleng geometric na hugis, tulad ng mga tatsulok, parisukat, at bilog.
 
@@ -85,7 +85,7 @@ Sa araling ito, natutunan mo ang tungkol sa perceptron, na isang binary classifi
 
 Kung nais mong subukang gumawa ng sarili mong perceptron, subukan ang [lab na ito sa Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) na gumagamit ng [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Review at Pag-aaral ng Sarili
 

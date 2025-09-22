@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantic embeddings, such as Word2Vec and GloVe, are essentially the first step toward **language modeling**—creating models that can somehow *understand* (or *represent*) the essence of language.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 The core idea behind language modeling is training models on unlabeled datasets in an unsupervised way. This is crucial because there is an abundance of unlabeled text available, whereas labeled text is always limited by the effort required to annotate it. Typically, language models are designed to **predict missing words** in text, as it is straightforward to mask a random word in a sentence and use it as a training example.
 
@@ -38,7 +38,7 @@ Expand your knowledge with the following notebooks:
 
 In the previous lesson, we discovered that word embeddings work like magic! Now we understand that training word embeddings isn’t overly complicated, and we can train our own embeddings for domain-specific text when necessary.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Review & Self Study
 

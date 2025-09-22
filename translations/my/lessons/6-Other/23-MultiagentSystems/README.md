@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **ဉာဏ်ရည်ရှိမှု** ကိုရရှိစေမည့်နည်းလမ်းများထဲမှတစ်ခုမှာ **ပေါ်ထွက်လာသော** (သို့မဟုတ် **synergetic**) နည်းလမ်းဖြစ်ပြီး၊ ၎င်းသည် အလွန်ရိုးရှင်းသော အေးဂျင့်များစွာ၏ပေါင်းစည်းလှုပ်ရှားမှုမှ စနစ်တစ်ခုလုံး၏ ပိုမိုရှုပ်ထွေးသော (သို့မဟုတ် ဉာဏ်ရည်ရှိသော) လှုပ်ရှားမှုကို ဖြစ်ပေါ်စေသည်ဆိုသည့် အခြေခံအယူအဆပေါ်တွင် တည်ရှိသည်။ သီအိုရီအရ၊ ၎င်းသည် [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) နှင့် [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain) တို့၏ အခြေခံအယူအဆများအပေါ်တွင် တည်ရှိပြီး၊ အဆင့်အနိမ့်စနစ်များမှ သင့်တင့်စွာပေါင်းစည်းခြင်းဖြင့် အဆင့်မြင့်စနစ်များသည် တန်ဖိုးတစ်ခုခုကို ထပ်မံရရှိနိုင်သည်ဟုဆိုသည် (*metasystem transition အခြေခံအယူအဆ* ဟုခေါ်သည်)။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **Multi-Agent Systems** ဆိုသော ဥာဏ်ရည်တုနည်းလမ်းသည် 1990 ခုနှစ်များတွင် အင်တာနက်နှင့် ဖြန့်ဖြူးစနစ်များ၏ တိုးတက်မှုအဖြစ်အပေါ် တုံ့ပြန်မှုအနေဖြင့် ပေါ်ထွက်လာခဲ့သည်။ ဥာဏ်ရည်တုဆိုင်ရာ ရိုးရာ 교과서တစ်ခုဖြစ်သည့် [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach) သည် Multi-agent systems ၏ ရှုထောင့်မှ ရိုးရာ AI ကို အဓိကထားဆွေးနွေးထားသည်။
 

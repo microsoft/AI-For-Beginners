@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # الشبكات العصبية المتكررة
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 في الأقسام السابقة، كنا نستخدم تمثيلات دلالية غنية للنصوص ومصنف خطي بسيط فوق التضمينات. ما تفعله هذه البنية هو التقاط المعنى المجمع للكلمات في الجملة، لكنها لا تأخذ في الاعتبار **ترتيب** الكلمات، لأن عملية التجميع فوق التضمينات أزالت هذه المعلومات من النص الأصلي. وبسبب عدم قدرة هذه النماذج على نمذجة ترتيب الكلمات، فإنها لا تستطيع حل المهام الأكثر تعقيدًا أو الغموض مثل توليد النصوص أو الإجابة على الأسئلة.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## المراجعة والدراسة الذاتية
 

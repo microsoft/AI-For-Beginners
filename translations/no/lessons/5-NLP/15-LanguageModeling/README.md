@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantiske embeddinger, som Word2Vec og GloVe, er faktisk et første steg mot **språkmodellering** - å lage modeller som på en eller annen måte *forstår* (eller *representerer*) språkets natur.
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Hovedideen bak språkmodellering er å trene dem på umerkede datasett på en usupervisert måte. Dette er viktig fordi vi har enorme mengder umerket tekst tilgjengelig, mens mengden merket tekst alltid vil være begrenset av hvor mye innsats vi kan legge i merking. Oftest kan vi bygge språkmodeller som kan **forutsi manglende ord** i teksten, fordi det er enkelt å maskere et tilfeldig ord i teksten og bruke det som et treningsprøve.
 
@@ -38,7 +38,7 @@ Fortsett læringen i følgende notatbøker:
 
 I forrige leksjon så vi at ordembeddinger fungerer som magi! Nå vet vi at trening av ordembeddinger ikke er en veldig kompleks oppgave, og vi bør kunne trene våre egne ordembeddinger for domenespesifikk tekst hvis nødvendig.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Gjennomgang & Selvstudium
 

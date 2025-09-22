@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ニューラルネットワーク入門: パーセプトロン
 
-## [講義前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [講義前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 現代のニューラルネットワークに似たものを初めて実装しようとした試みの一つは、1957年にコーネル航空研究所のフランク・ローゼンブラットによって行われました。それは「Mark-1」と呼ばれるハードウェア実装で、三角形、四角形、円などの基本的な幾何学的図形を認識するよう設計されていました。
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 自分でパーセプトロンを構築してみたい場合は、[Microsoft Learnのこのラボ](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste)を試してみてください。このラボでは[Azure MLデザイナー](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste)を使用します。
 
-## [講義後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [講義後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## 復習と自己学習
 

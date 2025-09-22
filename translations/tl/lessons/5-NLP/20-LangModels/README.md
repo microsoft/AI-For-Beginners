@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Sa lahat ng ating mga nakaraang gawain, sinanay natin ang isang neural network upang magsagawa ng isang partikular na gawain gamit ang labeled dataset. Sa mga malalaking transformer model, tulad ng BERT, gumagamit tayo ng language modeling sa self-supervised na paraan upang makabuo ng isang language model, na pagkatapos ay isinasapinal para sa mga tiyak na downstream na gawain sa pamamagitan ng karagdagang domain-specific na pagsasanay. Gayunpaman, napatunayan na ang mga malalaking language model ay maaari ring lutasin ang maraming gawain nang WALANG anumang domain-specific na pagsasanay. Ang pamilya ng mga modelong may kakayahang gawin ito ay tinatawag na **GPT**: Generative Pre-Trained Transformer.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Pagbuo ng Teksto at Perplexity
 
@@ -58,7 +58,7 @@ Ipagpatuloy ang iyong pag-aaral sa mga sumusunod na notebook:
 
 Ang mga bagong general pre-trained language model ay hindi lamang nagmo-modelo ng istruktura ng wika, kundi naglalaman din ng napakalaking dami ng natural na wika. Dahil dito, maaari silang epektibong magamit upang lutasin ang ilang mga gawain sa NLP sa zero-shot o few-shot na mga setting.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

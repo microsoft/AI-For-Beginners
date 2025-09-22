@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เราได้เรียนรู้เกี่ยวกับการตรวจจับวัตถุ (Object Detection) ซึ่งช่วยให้เราสามารถระบุตำแหน่งของวัตถุในภาพโดยการทำนาย *กรอบสี่เหลี่ยม* (bounding boxes) ของวัตถุ อย่างไรก็ตาม สำหรับบางงาน เราไม่ได้ต้องการแค่กรอบสี่เหลี่ยม แต่ต้องการการระบุตำแหน่งของวัตถุที่แม่นยำยิ่งขึ้น งานนี้เรียกว่า **การแบ่งส่วนภาพ** (segmentation)
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 การแบ่งส่วนภาพสามารถมองว่าเป็น **การจำแนกพิกเซล** ซึ่งสำหรับ **แต่ละ** พิกเซลในภาพ เราต้องทำนายคลาสของมัน (*พื้นหลัง* เป็นหนึ่งในคลาส) โดยมีอัลกอริทึมการแบ่งส่วนภาพหลักสองประเภท:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## สรุป
 

@@ -2,7 +2,7 @@
 
 Dalam semua tugas sebelumnya, kami melatih jaringan saraf untuk melakukan tugas tertentu menggunakan dataset yang dilabeli. Dengan model transformer besar, seperti BERT, kami menggunakan pemodelan bahasa dengan cara yang diawasi sendiri untuk membangun model bahasa, yang kemudian disesuaikan untuk tugas hilir tertentu dengan pelatihan spesifik domain lebih lanjut. Namun, telah dibuktikan bahwa model bahasa besar juga dapat menyelesaikan banyak tugas tanpa pelatihan spesifik domain. Keluarga model yang mampu melakukan hal itu disebut **GPT**: Generative Pre-Trained Transformer.
 
-## [Kuis Pra-perkuliahan](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Kuis Pra-perkuliahan](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generasi Teks dan Perplexity
 
@@ -50,7 +50,7 @@ Lanjutkan pembelajaran Anda di notebook berikut:
 
 Model bahasa umum yang baru dilatih sebelumnya tidak hanya memodelkan struktur bahasa, tetapi juga mengandung sejumlah besar bahasa alami. Dengan demikian, mereka dapat digunakan secara efektif untuk menyelesaikan beberapa tugas NLP dalam pengaturan zero-shot atau few-shot.
 
-## [Kuis Pasca-perkuliahan](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Kuis Pasca-perkuliahan](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Penafian**:  
 Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI berasaskan mesin. Walaupun kami berusaha untuk ketepatan, sila sedar bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sah. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

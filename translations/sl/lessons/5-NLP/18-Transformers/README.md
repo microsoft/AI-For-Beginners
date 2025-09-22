@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mehanizmi pozornosti in transformatorji
 
-## [Predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Eden najpomembnejših problemov na področju NLP je **strojno prevajanje**, ključna naloga, ki je osnova za orodja, kot je Google Translate. V tem poglavju se bomo osredotočili na strojno prevajanje oziroma bolj splošno na katerokoli nalogo *zaporedje-v-zaporedje* (imenovano tudi **pretvorba stavkov**).
 
@@ -108,7 +108,7 @@ V tej lekciji ste se naučili o transformatorjih in mehanizmih pozornosti, ki so
 
 ## 🚀 Izziv
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Pregled in samostojno učenje
 

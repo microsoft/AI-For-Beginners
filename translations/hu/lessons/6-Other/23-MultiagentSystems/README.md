@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Az intelligencia elérésének egyik lehetséges módja az úgynevezett **emergens** (vagy **szinergikus**) megközelítés, amely azon az elven alapul, hogy sok viszonylag egyszerű ügynök együttes viselkedése a rendszer egészének összetettebb (vagy intelligensebb) viselkedését eredményezheti. Elméletileg ez a [Kollektív intelligencia](https://en.wikipedia.org/wiki/Collective_intelligence), az [Emergentizmus](https://en.wikipedia.org/wiki/Global_brain) és az [Evolúciós kibernetika](https://en.wikipedia.org/wiki/Global_brain) elvein alapul, amelyek szerint a magasabb szintű rendszerek valamilyen hozzáadott értéket nyernek, ha megfelelően kombinálják őket alacsonyabb szintű rendszerekből (az úgynevezett *metarendszer-átmenet elve*).
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 A **többügynökös rendszerek** iránya az 1990-es években jelent meg a mesterséges intelligencia területén, válaszul az internet és az elosztott rendszerek növekedésére. Az egyik klasszikus mesterséges intelligencia tankönyv, az [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), a klasszikus mesterséges intelligencia szemléletét a többügynökös rendszerek nézőpontjából vizsgálja.
 

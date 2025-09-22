@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Incorporazioni
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Quando si addestrano classificatori basati su BoW o TF/IDF, lavoravamo su vettori sparsi ad alta dimensionalità con lunghezza `vocab_size`, convertendo esplicitamente da vettori di rappresentazione posizionale a bassa dimensionalità a rappresentazioni one-hot sparse. Tuttavia, questa rappresentazione one-hot non è efficiente in termini di memoria. Inoltre, ogni parola viene trattata in modo indipendente dalle altre, cioè i vettori one-hot codificati non esprimono alcuna somiglianza semantica tra le parole.
 
@@ -65,7 +65,7 @@ In questa lezione, hai scoperto come costruire e utilizzare i livelli di incorpo
 
 Word2Vec è stato utilizzato per alcune applicazioni interessanti, tra cui la generazione di testi poetici e di canzoni. Dai un'occhiata a [questo articolo](https://www.politetype.com/blog/word2vec-color-poems) che spiega come l'autore ha utilizzato Word2Vec per generare poesie. Guarda anche [questo video di Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) per scoprire un'altra spiegazione di questa tecnica. Poi prova ad applicare queste tecniche al tuo corpus di testo, magari preso da Kaggle.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Revisione e Studio Autonomo
 

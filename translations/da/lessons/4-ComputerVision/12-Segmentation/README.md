@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vi har tidligere lært om Objektgenkendelse, som giver os mulighed for at lokalisere objekter i et billede ved at forudsige deres *bounding boxes*. Men til nogle opgaver har vi ikke kun brug for bounding boxes, men også mere præcis objektlokalisering. Denne opgave kaldes **segmentering**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentering kan betragtes som **pixelklassifikation**, hvor vi for **hver** pixel i billedet skal forudsige dens klasse (*baggrund* er en af klasserne). Der findes to hovedtyper af segmenteringsalgoritmer:
 
@@ -56,7 +56,7 @@ Vi vil træne en model til at segmentere enhver nevus fra dens baggrund.
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Konklusion
 

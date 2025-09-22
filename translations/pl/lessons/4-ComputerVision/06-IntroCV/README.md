@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Wizja komputerowa](https://wikipedia.org/wiki/Computer_vision) to dziedzina, której celem jest umożliwienie komputerom uzyskania wysokopoziomowego zrozumienia obrazów cyfrowych. Jest to dość szeroka definicja, ponieważ *zrozumienie* może oznaczać wiele różnych rzeczy, w tym znalezienie obiektu na zdjęciu (**detekcja obiektów**), zrozumienie, co się dzieje (**detekcja zdarzeń**), opisanie obrazu w formie tekstu czy rekonstrukcję sceny w 3D. Istnieją również specjalne zadania związane z obrazami ludzi: szacowanie wieku i emocji, detekcja i identyfikacja twarzy oraz estymacja pozycji w 3D, żeby wymienić tylko kilka.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Jednym z najprostszych zadań wizji komputerowej jest **klasyfikacja obrazów**.
 
@@ -105,7 +105,7 @@ Czasami stosunkowo złożone zadania, takie jak detekcja ruchu czy detekcja koń
 
 Obejrzyj [ten film](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) z programu AI Show, aby dowiedzieć się o projekcie Cortic Tigers i jak stworzyli rozwiązanie oparte na blokach, aby demokratyzować zadania wizji komputerowej za pomocą robota. Poszukaj innych podobnych projektów, które pomagają nowym uczniom wejść w tę dziedzinę.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Przegląd i samodzielna nauka
 

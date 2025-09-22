@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 지금까지 우리는 주로 하나의 NLP 작업인 분류에 집중해 왔습니다. 하지만 신경망을 사용하여 수행할 수 있는 다른 NLP 작업도 있습니다. 그 중 하나가 **[개체명 인식](https://wikipedia.org/wiki/Named-entity_recognition)** (NER)으로, 텍스트 내에서 장소, 사람 이름, 날짜-시간 간격, 화학식 등 특정 개체를 인식하는 작업을 다룹니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## NER 사용 예시
 
@@ -79,7 +79,7 @@ NER 모델은 **토큰 분류 모델**로, 토큰 분류를 수행하는 데 사
 
 아래 링크된 과제를 완료하여 의료 용어를 위한 개체명 인식 모델을 훈련한 후, 다른 데이터셋에서 이를 시도해 보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## 복습 및 자기 학습
 

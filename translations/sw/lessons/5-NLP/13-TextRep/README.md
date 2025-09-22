@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kuwakilisha Maandishi kama Tensors
 
-## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Uainishaji wa Maandishi
 
@@ -73,7 +73,7 @@ Hadi sasa, tumejifunza mbinu zinazoweza kuongeza uzito wa marudio kwa maneno tof
 
 Jaribu mazoezi mengine kwa kutumia mfuko wa maneno na mifano tofauti ya data. Unaweza kupata msukumo kutoka kwa [shindano hili kwenye Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Mapitio na Kujisomea
 

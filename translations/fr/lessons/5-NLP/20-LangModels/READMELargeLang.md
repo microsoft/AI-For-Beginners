@@ -2,7 +2,7 @@
 
 Dans toutes nos tâches précédentes, nous avons entraîné un réseau de neurones pour effectuer une tâche spécifique en utilisant un ensemble de données étiquetées. Avec de grands modèles de transformateurs, tels que BERT, nous utilisons la modélisation du langage de manière auto-supervisée pour construire un modèle de langage, qui est ensuite spécialisé pour une tâche spécifique en aval grâce à un entraînement supplémentaire spécifique au domaine. Cependant, il a été démontré que de grands modèles de langage peuvent également résoudre de nombreuses tâches sans AUCUN entraînement spécifique au domaine. Une famille de modèles capables de le faire est appelée **GPT** : Transformateur Génératif Pré-entrainé.
 
-## [Quiz pré-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz pré-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Génération de Texte et Perplexité
 
@@ -50,7 +50,7 @@ Continuez votre apprentissage dans les notebooks suivants :
 
 Les nouveaux modèles de langage pré-entraînés généraux ne modélisent pas seulement la structure du langage, mais contiennent également une vaste quantité de langage naturel. Ainsi, ils peuvent être utilisés efficacement pour résoudre certaines tâches de traitement du langage naturel dans des contextes zéro-shot ou few-shot.
 
-## [Quiz post-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz post-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Avertissement** :  
 Ce document a été traduit à l'aide de services de traduction automatique basés sur l'IA. Bien que nous nous efforçons d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source autoritaire. Pour des informations critiques, une traduction humaine professionnelle est recommandée. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.

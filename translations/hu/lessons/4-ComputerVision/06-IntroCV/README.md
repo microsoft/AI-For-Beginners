@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A [Számítógépes Látás](https://wikipedia.org/wiki/Computer_vision) egy olyan tudományág, amelynek célja, hogy a számítógépek magas szintű megértést szerezzenek digitális képekből. Ez egy meglehetősen tág meghatározás, mivel a *megértés* sok mindent jelenthet, például egy objektum megtalálását egy képen (**objektumdetektálás**), annak megértését, hogy mi történik (**eseménydetektálás**), egy kép szöveges leírását, vagy egy jelenet 3D-s rekonstrukcióját. Vannak speciális feladatok is, amelyek az emberi képekkel kapcsolatosak: életkor- és érzelemfelismerés, arcfelismerés és azonosítás, valamint 3D testtartás becslés, hogy csak néhányat említsünk.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 A számítógépes látás egyik legegyszerűbb feladata a **képosztályozás**.
 
@@ -105,7 +105,7 @@ Néha viszonylag összetett feladatok, mint például mozgásérzékelés vagy u
 
 Nézd meg [ezt a videót](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) az AI Show-ból, hogy megismerd a Cortic Tigers projektet, és hogyan építettek egy blokk-alapú megoldást a számítógépes látási feladatok demokratizálására egy robot segítségével. Kutass más hasonló projekteket, amelyek segítenek az új tanulók bevonásában a területre.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Áttekintés és Önálló Tanulás
 

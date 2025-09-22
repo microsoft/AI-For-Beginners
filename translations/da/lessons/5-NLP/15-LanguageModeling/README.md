@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantiske indlejringer, såsom Word2Vec og GloVe, er faktisk et første skridt mod **sprogsmodellering** - at skabe modeller, der på en eller anden måde *forstår* (eller *repræsenterer*) sprogets natur.
 
-## [Quiz før lektionen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Hovedideen bag sprogsmodellering er at træne dem på ulabelerede datasæt på en usuperviseret måde. Dette er vigtigt, fordi vi har enorme mængder ulabeleret tekst tilgængelig, mens mængden af labeleret tekst altid vil være begrænset af den indsats, vi kan bruge på at labelere. Oftest kan vi bygge sprogsmodeller, der kan **forudsige manglende ord** i teksten, fordi det er nemt at maskere et tilfældigt ord i teksten og bruge det som en træningsprøve.
 
@@ -38,7 +38,7 @@ Fortsæt din læring i følgende notebooks:
 
 I den tidligere lektion har vi set, at ordindlejringer virker som magi! Nu ved vi, at træning af ordindlejringer ikke er en særlig kompleks opgave, og vi bør være i stand til at træne vores egne ordindlejringer til domænespecifik tekst, hvis det er nødvendigt.
 
-## [Quiz efter lektionen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Gennemgang & Selvstudie
 

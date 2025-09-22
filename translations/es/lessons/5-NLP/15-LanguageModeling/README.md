@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Las incrustaciones semánticas, como Word2Vec y GloVe, son de hecho un primer paso hacia el **modelado del lenguaje**: crear modelos que de alguna manera *entiendan* (o *representen*) la naturaleza del lenguaje.
 
-## [Cuestionario previo a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 La idea principal detrás del modelado del lenguaje es entrenarlos en conjuntos de datos no etiquetados de manera no supervisada. Esto es importante porque tenemos enormes cantidades de texto no etiquetado disponible, mientras que la cantidad de texto etiquetado siempre estará limitada por el esfuerzo que podamos dedicar a etiquetarlo. Muy a menudo, podemos construir modelos de lenguaje que puedan **predecir palabras faltantes** en el texto, ya que es fácil ocultar una palabra aleatoria en el texto y usarla como muestra de entrenamiento.
 
@@ -38,7 +38,7 @@ Continúa tu aprendizaje en los siguientes cuadernos:
 
 En la lección anterior vimos que las incrustaciones de palabras funcionan como magia. ¡Ahora sabemos que entrenar incrustaciones de palabras no es una tarea muy compleja, y deberíamos ser capaces de entrenar nuestras propias incrustaciones de palabras para texto específico de un dominio si es necesario!
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Revisión y Autoestudio
 

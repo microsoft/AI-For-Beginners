@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Също така ще разработим собствен модулен фреймуърк на Python, който ще ни позволи да изграждаме различни архитектури на невронни мрежи.
 
-## [Тест преди лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Формализация на машинното обучение
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Продължете към тетрадката [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) и я разгледайте.
 
-## [Тест след лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Тест след лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Преглед и самостоятелно обучение
 

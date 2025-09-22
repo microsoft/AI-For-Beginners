@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetiska Algoritmer
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetiska Algoritmer** (GA) bygger på en **evolutionär metod** inom AI, där metoder för att utveckla en population används för att hitta en optimal lösning på ett givet problem. De föreslogs 1975 av [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetiska Algoritmer används för att lösa många problem, inklusive logistik-
 
 "Genetiska algoritmer är enkla att implementera, men deras beteende är svårt att förstå." [källa](https://wikipedia.org/wiki/Genetic_algorithm) Gör lite forskning för att hitta en implementering av en genetisk algoritm, till exempel för att lösa ett Sudoku-pussel, och förklara hur den fungerar som en skiss eller flödesschema.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Granskning & Självstudier
 

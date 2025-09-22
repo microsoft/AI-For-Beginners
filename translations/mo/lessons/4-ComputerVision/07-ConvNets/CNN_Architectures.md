@@ -59,7 +59,7 @@ MobileNet 是一系列縮小尺寸的模型，適合用於移動設備。如果�
 
 在隨附的筆記本中，底部有關於如何獲得更高準確率的筆記。進行一些實驗，看看你是否能達到更高的準確率。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## 複習與自學
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 One way to achieve intelligence is through the **emergent** (or **synergetic**) approach, which relies on the idea that the combined behavior of many relatively simple agents can lead to more complex (or intelligent) behavior in the system as a whole. This concept is theoretically grounded in principles like [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain), and [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain). These principles suggest that higher-level systems gain added value when properly composed of lower-level systems (known as the *principle of metasystem transition*).
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 The field of **Multi-Agent Systems** emerged in AI during the 1990s as a response to the growth of the Internet and distributed systems. One of the classic AI textbooks, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), explores classical AI from the perspective of Multi-Agent Systems.
 
@@ -151,7 +151,7 @@ Multi-Agent Systems take various forms and are applied in diverse fields. They f
 
 Apply this lesson to real-world scenarios. Conceptualize a multi-agent system to solve a problem. For instance, how could a multi-agent system optimize school bus routes? Or how could it function in a bakery?
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Review & Self Study
 

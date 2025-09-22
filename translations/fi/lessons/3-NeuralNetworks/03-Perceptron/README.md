@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Johdanto neuroverkkoihin: Perceptron
 
-## [Ennakkovisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Ennakkovisa](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Yksi ensimmäisistä yrityksistä toteuttaa jotain modernin neuroverkon kaltaista tehtiin Frank Rosenblattin toimesta Cornellin ilmailulaboratoriossa vuonna 1957. Se oli laitteistototeutus nimeltä "Mark-1", joka oli suunniteltu tunnistamaan yksinkertaisia geometrisia kuvioita, kuten kolmioita, neliöitä ja ympyröitä.
 
@@ -85,7 +85,7 @@ Tässä oppitunnissa opit perceptronista, joka on binääriluokittelumalli, ja k
 
 Jos haluat kokeilla rakentaa oman perceptronin, kokeile [tätä Microsoft Learn -laboratoriota](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), joka käyttää [Azure ML -suunnittelijaa](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Jälkivisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Jälkivisa](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Kertaus ja itseopiskelu
 

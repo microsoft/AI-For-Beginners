@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 유전 알고리즘
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **유전 알고리즘**(Genetic Algorithms, GA)은 **진화적 접근법**을 기반으로 한 AI 방법으로, 인구의 진화 과정을 사용하여 주어진 문제에 대한 최적의 해결책을 찾습니다. 유전 알고리즘은 1975년 [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland)에 의해 제안되었습니다.
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 "유전 알고리즘은 구현하기는 간단하지만, 그 동작을 이해하기는 어렵다." [출처](https://wikipedia.org/wiki/Genetic_algorithm)  
 유전 알고리즘을 사용하여 예를 들어 스도쿠 퍼즐을 해결하는 구현을 찾아보고, 이를 스케치 또는 흐름도로 설명하세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## 복습 및 자기 학습
 

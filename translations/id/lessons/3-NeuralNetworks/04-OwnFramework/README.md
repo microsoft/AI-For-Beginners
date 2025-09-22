@@ -19,7 +19,7 @@ Pada bagian ini, kita akan memperluas model ini ke dalam kerangka kerja yang leb
 
 Kita juga akan mengembangkan kerangka kerja modular kita sendiri dalam Python yang memungkinkan kita untuk membangun berbagai arsitektur jaringan neural.
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisasi Pembelajaran Mesin
 
@@ -81,7 +81,7 @@ Dalam notebook yang menyertai, Anda akan mengimplementasikan kerangka kerja Anda
 
 Lanjutkan ke notebook [OwnFramework](OwnFramework.ipynb) dan kerjakan.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Tinjauan & Studi Mandiri
 

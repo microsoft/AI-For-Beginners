@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Генеративні мережі
 
-## [Тест перед лекцією](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Рекурентні нейронні мережі (RNN) та їх варіанти з керованими комірками, такі як комірки довготривалої пам'яті (LSTM) і керовані рекурентні блоки (GRU), забезпечують механізм моделювання мови, оскільки вони можуть навчатися порядку слів і передбачати наступне слово в послідовності. Це дозволяє використовувати RNN для **генеративних завдань**, таких як звичайне генерування тексту, машинний переклад і навіть створення підписів до зображень.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * Генерація тексту з [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Тест після лекції](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Тест після лекції](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Огляд і самостійне навчання
 

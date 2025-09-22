@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Model klasifikasi gambar yang telah kita bahas sejauh ini mengambil sebuah gambar dan menghasilkan hasil kategoris, seperti kelas 'angka' dalam masalah MNIST. Namun, dalam banyak kasus, kita tidak hanya ingin mengetahui bahwa sebuah gambar menggambarkan objek - kita ingin dapat menentukan lokasi tepatnya. Inilah tujuan dari **deteksi objek**.
 
-## [Kuis sebelum pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Kuis sebelum pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Deteksi Objek](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.id.png)
 
@@ -172,7 +172,7 @@ Baca artikel dan notebook tentang YOLO ini dan coba sendiri:
  * Yolo: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah-demi-langkah](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah-demi-langkah](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Kuis setelah pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Tinjauan & Studi Mandiri
 

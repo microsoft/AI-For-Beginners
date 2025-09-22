@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mecanismos de Atenção e Transformers
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Um dos problemas mais importantes no domínio do PLN (Processamento de Linguagem Natural) é a **tradução automática**, uma tarefa essencial que sustenta ferramentas como o Google Tradutor. Nesta seção, vamos focar na tradução automática ou, de forma mais geral, em qualquer tarefa de *sequência para sequência* (também chamada de **transdução de frases**).
 
@@ -108,7 +108,7 @@ Nesta lição, você aprendeu sobre Transformers e Mecanismos de Atenção, ferr
 
 ## 🚀 Desafio
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Revisão e Autoestudo
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Az emberi intelligencia mesterséges megvalósításának célja a világ megértése, hasonlóan ahhoz, ahogyan az emberek teszik. De hogyan lehet ezt elérni?
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Az AI korai időszakában népszerű volt az intelligens rendszerek létrehozásának felülről lefelé irányuló megközelítése (az előző leckében tárgyaltak szerint). Az ötlet az volt, hogy az emberek tudását gép által olvasható formába kell átültetni, majd ezt automatikusan problémák megoldására használni. Ez a megközelítés két nagy elképzelésen alapult:
 
@@ -236,7 +236,7 @@ Manapság az AI-t gyakran a *gépi tanulás* vagy *neurális hálózatok* szinon
 
 A leckéhez kapcsolódó Family Ontology notebookban lehetőség van más családi kapcsolatokkal kísérletezni. Próbálj meg új kapcsolatokat felfedezni az emberek között a családfában.
 
-## [Utólagos kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Utólagos kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Áttekintés és önálló tanulás
 

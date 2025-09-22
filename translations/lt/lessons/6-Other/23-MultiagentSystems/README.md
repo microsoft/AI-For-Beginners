@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vienas iš galimų būdų pasiekti intelektą yra vadinamasis **emergentinis** (arba **sinerginis**) požiūris, kuris remiasi faktu, kad daugelio palyginti paprastų agentų bendras elgesys gali sukurti sudėtingesnį (arba protingesnį) visos sistemos elgesį. Teoriškai tai grindžiama [Kolektyvinio intelekto](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentizmo](https://en.wikipedia.org/wiki/Global_brain) ir [Evoliucinės kibernetikos](https://en.wikipedia.org/wiki/Global_brain) principais, kurie teigia, kad aukštesnio lygio sistemos įgyja tam tikrą pridėtinę vertę, kai tinkamai sujungiamos iš žemesnio lygio sistemų (vadinamasis *metasistemos perėjimo principas*).
 
-## [Prieš paskaitą: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **Daugiaveiksmių sistemų** kryptis dirbtinio intelekto srityje atsirado 1990-aisiais kaip atsakas į interneto ir paskirstytų sistemų augimą. Viena iš klasikinių dirbtinio intelekto vadovėlių, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), nagrinėja klasikinio dirbtinio intelekto požiūrį iš daugiaveiksmių sistemų perspektyvos.
 

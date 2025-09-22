@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurentne nevronske mreže
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 V prejšnjih poglavjih smo uporabljali bogate semantične reprezentacije besedila in preprost linearni klasifikator na vrhu vgrajenih predstavitev. Ta arhitektura zajame združeni pomen besed v stavku, vendar ne upošteva **zaporedja** besed, saj operacija združevanja na vrhu vgrajenih predstavitev odstrani te informacije iz izvirnega besedila. Ker ti modeli ne morejo modelirati vrstnega reda besed, ne morejo reševati bolj zapletenih ali dvoumnih nalog, kot so generiranje besedila ali odgovarjanje na vprašanja.
 
@@ -84,7 +84,7 @@ Preberite nekaj literature o LSTM-jih in razmislite o njihovih aplikacijah:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Pregled in samostojno učenje
 

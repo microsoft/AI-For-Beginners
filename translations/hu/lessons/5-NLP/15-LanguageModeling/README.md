@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A szemantikus beágyazások, mint például a Word2Vec és a GloVe, valójában az első lépést jelentik a **nyelvi modellezés** felé – olyan modellek létrehozása felé, amelyek valamilyen módon *megértik* (vagy *reprezentálják*) a nyelv természetét.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 A nyelvi modellezés fő gondolata az, hogy címkézetlen adathalmazokon tanítsuk őket felügyelet nélküli módon. Ez azért fontos, mert hatalmas mennyiségű címkézetlen szöveg áll rendelkezésünkre, míg a címkézett szövegek mennyiségét mindig korlátozza az a munka, amit a címkézésre fordíthatunk. Leggyakrabban olyan nyelvi modelleket építhetünk, amelyek képesek **hiányzó szavakat megjósolni** a szövegben, mivel egyszerűen ki lehet takarni egy véletlenszerű szót a szövegben, és azt használni tanítómintaként.
 
@@ -38,7 +38,7 @@ Folytasd a tanulást az alábbi jegyzetfüzetekben:
 
 Az előző leckében láttuk, hogy a szóbeágyazások szinte varázslatosan működnek! Most már tudjuk, hogy a szóbeágyazások tanítása nem egy túl bonyolult feladat, és képesek lehetünk saját szóbeágyazásokat tanítani specifikus szakterületi szövegekhez, ha szükséges.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Áttekintés és Önálló Tanulás
 

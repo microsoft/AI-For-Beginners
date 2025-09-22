@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Şimdiye kadar, çoğunlukla bir NLP görevi olan sınıflandırmaya odaklandık. Ancak, sinir ağlarıyla gerçekleştirilebilecek başka NLP görevleri de vardır. Bu görevlerden biri, metin içinde yer alan belirli varlıkları tanımayı amaçlayan **[Adlandırılmış Varlık Tanıma](https://wikipedia.org/wiki/Named-entity_recognition)** (NER) işlemidir. Bu varlıklar arasında yerler, kişi adları, tarih-zaman aralıkları, kimyasal formüller gibi unsurlar bulunabilir.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## NER Kullanımına Bir Örnek
 
@@ -79,7 +79,7 @@ Bir NER modeli, bir **token sınıflandırma modeli** olup, token sınıflandır
 
 Aşağıda bağlantısı verilen ödevi tamamlayarak tıbbi terimler için bir adlandırılmış varlık tanıma modeli eğitin ve ardından bunu farklı bir veri kümesi üzerinde deneyin.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

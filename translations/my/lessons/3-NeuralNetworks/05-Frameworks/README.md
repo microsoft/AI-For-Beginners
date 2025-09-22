@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Tensor များပေါ်တွင် လုပ်ဆောင်ရန်၊ ဥပမာ- တိုးမြှင့်ခြင်း၊ ပေါင်းခြင်း၊ sigmoid သို့မဟုတ် softmax ကဲ့သို့သော အချို့သော function များကိုတွက်ချက်ရန်
 * Gradient descent optimization ကိုလုပ်ဆောင်ရန်အတွက် expression အားလုံး၏ gradient များကိုတွက်ချက်ရန်
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 `numpy` library သည် ပထမအချက်ကိုလုပ်ဆောင်နိုင်သော်လည်း gradient များကိုတွက်ချက်ရန်အတွက် mechanism တစ်ခုလိုအပ်ပါတယ်။ [ကျွန်တော်တို့ဖရိမ်းဝက်](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) တွင် ကျွန်တော်တို့သည် `backward` method အတွင်း derivative function အားလုံးကို လက်ဖြင့်ရေးသားရပြီး backpropagation ကိုလုပ်ဆောင်ခဲ့ရပါတယ်။ အကောင်းဆုံးအားဖြင့် ဖရိမ်းဝက်သည် ကျွန်တော်တို့သတ်မှတ်နိုင်သည့် *မည်သည့် expression* ၏ gradient များကိုမဆိုတွက်ချက်နိုင်စေရန် အခွင့်အလမ်းပေးသင့်ပါတယ်။
 
@@ -106,7 +106,7 @@ Training အတွင်း bias error သည်လျော့နည်းလ�
 
 အတူတူပါဝင်သော notebook များတွင် 'tasks' များကိုအောက်ဆုံးတွင်တွေ့နိုင်ပါသည်။ Notebook များကိုလုပ်ဆောင်ပြီး tasks များကိုပြီးမြောက်ပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

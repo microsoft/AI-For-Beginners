@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Počítačové videnie](https://wikipedia.org/wiki/Computer_vision) je disciplína, ktorej cieľom je umožniť počítačom získavať vysokú úroveň porozumenia digitálnym obrázkom. Toto je pomerne široká definícia, pretože *porozumenie* môže znamenať mnoho rôznych vecí, vrátane nájdenia objektu na obrázku (**detekcia objektov**), pochopenia, čo sa deje (**detekcia udalostí**), opísania obrázku textom alebo rekonštrukcie scény v 3D. Existujú aj špeciálne úlohy týkajúce sa ľudských obrázkov: odhad veku a emócií, detekcia a identifikácia tváre, či odhad 3D pozície, aby sme spomenuli niektoré.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Jednou z najjednoduchších úloh počítačového videnia je **klasifikácia obrázkov**.
 
@@ -105,7 +105,7 @@ Niekedy sa relatívne zložité úlohy, ako je detekcia pohybu alebo detekcia ko
 
 Pozrite si [toto video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) zo série AI show, aby ste sa dozvedeli o projekte Cortic Tigers a o tom, ako vytvorili riešenie založené na blokoch na demokratizáciu úloh počítačového videnia prostredníctvom robota. Urobte si prieskum o ďalších podobných projektoch, ktoré pomáhajú novým študentom vstúpiť do tejto oblasti.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Prehľad a samostatné štúdium
 

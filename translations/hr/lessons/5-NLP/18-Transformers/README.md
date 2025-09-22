@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mehanizmi pažnje i Transformeri
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Jedan od najvažnijih problema u području obrade prirodnog jezika (NLP) je **strojno prevođenje**, ključni zadatak koji stoji iza alata poput Google Prevoditelja. U ovom ćemo se dijelu fokusirati na strojno prevođenje ili, općenitije, na bilo koji zadatak *sekvenca-u-sekvencu* (koji se također naziva **transdukcija rečenica**).
 
@@ -108,7 +108,7 @@ U ovoj lekciji naučili ste o Transformerima i mehanizmima pažnje, ključnim al
 
 ## 🚀 Izazov
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Pregled i samostalno učenje
 

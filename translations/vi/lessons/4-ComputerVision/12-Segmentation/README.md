@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Chúng ta đã học về Phát hiện Đối tượng, một kỹ thuật cho phép xác định vị trí các đối tượng trong hình ảnh bằng cách dự đoán *hộp giới hạn* của chúng. Tuy nhiên, trong một số nhiệm vụ, chúng ta không chỉ cần hộp giới hạn mà còn cần định vị đối tượng chính xác hơn. Nhiệm vụ này được gọi là **phân đoạn**.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Phân đoạn có thể được xem như là **phân loại từng điểm ảnh**, trong đó đối với **mỗi** điểm ảnh của hình ảnh, chúng ta phải dự đoán lớp của nó (*nền* cũng được xem là một lớp). Có hai thuật toán phân đoạn chính:
 
@@ -56,7 +56,7 @@ Mở các notebook dưới đây để tìm hiểu thêm về các kiến trúc 
 * [Phân đoạn Ngữ nghĩa với Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Phân đoạn Ngữ nghĩa với TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Kết luận
 

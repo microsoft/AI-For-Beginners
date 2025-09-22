@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Darstellung von Text als Tensoren
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Textklassifikation
 
@@ -73,7 +73,7 @@ Bisher haben wir Techniken untersucht, die Frequenzgewichte für verschiedene W�
 
 Probieren Sie einige andere Übungen mit Bag-of-Words und verschiedenen Datenmodellen aus. Vielleicht inspiriert Sie dieser [Wettbewerb auf Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Wiederholung & Selbststudium
 

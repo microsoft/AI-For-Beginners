@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 어텐션 메커니즘과 트랜스포머
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP 분야에서 가장 중요한 문제 중 하나는 **기계 번역**으로, Google Translate와 같은 도구의 핵심 과제입니다. 이 섹션에서는 기계 번역, 더 일반적으로는 **문장 변환**이라고도 불리는 *시퀀스-투-시퀀스* 작업에 대해 집중적으로 다룰 것입니다.
 
@@ -108,7 +108,7 @@ RNN을 사용하면 시퀀스-투-시퀀스 작업은 두 개의 순환 네트�
 
 ## 🚀 도전 과제
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## 복습 및 자기 학습
 

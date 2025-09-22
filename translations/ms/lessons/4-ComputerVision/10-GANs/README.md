@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dalam bahagian sebelumnya, kita telah belajar tentang **model generatif**: model yang boleh menghasilkan imej baru yang serupa dengan imej dalam dataset latihan. VAE adalah contoh yang baik bagi model generatif.
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Namun, jika kita cuba menghasilkan sesuatu yang benar-benar bermakna, seperti lukisan dengan resolusi yang munasabah, menggunakan VAE, kita akan melihat bahawa latihan tidak berkumpul dengan baik. Untuk kes penggunaan ini, kita perlu belajar tentang satu lagi seni bina yang khusus untuk model generatif - **Rangkaian Adversarial Generatif**, atau GAN.
 
@@ -84,7 +84,7 @@ Cara ia berfungsi adalah seperti berikut:
 
 ## ✍️ Contoh: [Pemindahan Gaya](StyleTransfer.ipynb)
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Kesimpulan
 

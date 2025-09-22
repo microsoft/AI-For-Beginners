@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representera text som tensorer
 
-## [Quiz före föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Quiz före föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Textklassificering
 
@@ -73,7 +73,7 @@ Hittills har vi studerat tekniker som kan lägga till frekvensvikt till olika or
 
 Prova några andra övningar med bag-of-words och olika datamodeller. Du kan bli inspirerad av denna [tävling på Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Quiz efter föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Quiz efter föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Granskning & Självstudier
 

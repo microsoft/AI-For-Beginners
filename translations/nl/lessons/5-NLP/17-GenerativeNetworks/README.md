@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatieve netwerken
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) en hun varianten met gated cellen, zoals Long Short Term Memory Cells (LSTMs) en Gated Recurrent Units (GRUs), bieden een mechanisme voor taalmodellering doordat ze woordvolgorde kunnen leren en voorspellingen kunnen doen voor het volgende woord in een reeks. Dit stelt ons in staat om RNNs te gebruiken voor **generatieve taken**, zoals gewone tekstgeneratie, machinevertaling en zelfs beeldonderschriften.
 
@@ -71,7 +71,7 @@ Volg enkele lessen op Microsoft Learn over dit onderwerp:
 
 * Tekstgeneratie met [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Review & Zelfstudie
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Intégrations
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Lors de l'entraînement de classificateurs basés sur BoW ou TF/IDF, nous travaillions avec des vecteurs bag-of-words de haute dimension de longueur `vocab_size`, et nous convertissions explicitement des vecteurs de représentation positionnelle de basse dimension en une représentation sparse one-hot. Cependant, cette représentation one-hot n'est pas efficace en termes de mémoire. De plus, chaque mot est traité indépendamment des autres, c'est-à-dire que les vecteurs encodés en one-hot n'expriment aucune similarité sémantique entre les mots.
 
@@ -65,7 +65,7 @@ Dans cette leçon, vous avez découvert comment construire et utiliser des couch
 
 Word2Vec a été utilisé pour des applications intéressantes, notamment la génération de paroles de chansons et de poésie. Consultez [cet article](https://www.politetype.com/blog/word2vec-color-poems) qui explique comment l'auteur a utilisé Word2Vec pour générer de la poésie. Regardez également [cette vidéo de Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) pour découvrir une autre explication de cette technique. Ensuite, essayez d'appliquer ces techniques à votre propre corpus de texte, peut-être issu de Kaggle.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Révision & Auto-apprentissage
 

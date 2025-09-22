@@ -54,7 +54,7 @@ Katika miaka michache iliyopita tumeshuhudia mafanikio makubwa na mifano mikubwa
 
 Fanya ziara ya mtandao ili kubaini wapi, kwa maoni yako, AI inatumiwa kwa ufanisi zaidi. Je, ni katika programu ya Ramani, huduma ya hotuba-kwa-maandishi, au mchezo wa video? Tafiti jinsi mfumo ulivyojengwa.
 
-## [Maswali ya Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Maswali ya Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Mapitio na Kujisomea
 

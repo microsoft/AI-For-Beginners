@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Reinforcement Learning (RL) wird als eines der grundlegenden Paradigmen des maschinellen Lernens angesehen, neben überwachten und unüberwachten Lernen. Während wir beim überwachten Lernen auf Datensätze mit bekannten Ergebnissen angewiesen sind, basiert RL auf dem Prinzip des **Lernens durch Handeln**. Zum Beispiel: Wenn wir ein Computerspiel zum ersten Mal sehen, beginnen wir zu spielen, auch ohne die Regeln zu kennen, und verbessern unsere Fähigkeiten allein durch das Spielen und Anpassen unseres Verhaltens.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Um RL durchzuführen, benötigen wir:
 
@@ -110,7 +110,7 @@ Wir haben nun gelernt, wie man Agenten trainiert, um gute Ergebnisse zu erzielen
 
 Erkunden Sie die Anwendungen, die im Abschnitt "Andere RL-Aufgaben" aufgeführt sind, und versuchen Sie, eine davon umzusetzen!
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Überprüfung & Selbststudium
 

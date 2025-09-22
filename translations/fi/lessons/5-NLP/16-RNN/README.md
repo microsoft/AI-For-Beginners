@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Toistuvat neuroverkot
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Aiemmissa osioissa olemme käyttäneet tekstin semanttisia esityksiä ja yksinkertaista lineaarista luokitinta upotusten päällä. Tämä arkkitehtuuri pyrkii vangitsemaan sanojen yhdistetyn merkityksen lauseessa, mutta se ei ota huomioon sanojen **järjestystä**, koska upotusten päälle tehty yhdistämisoperaatio poistaa tämän tiedon alkuperäisestä tekstistä. Koska nämä mallit eivät pysty mallintamaan sanojen järjestystä, ne eivät voi ratkaista monimutkaisempia tai epäselvempiä tehtäviä, kuten tekstin generointia tai kysymysten vastaamista.
 
@@ -84,7 +84,7 @@ Lue kirjallisuutta LSTM:istä ja pohdi niiden sovelluksia:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Kertaus ja itseopiskelu
 

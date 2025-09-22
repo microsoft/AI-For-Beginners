@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to Neural Networks: Perceptron
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 One of the earliest attempts to create something resembling a modern neural network was made by Frank Rosenblatt from Cornell Aeronautical Laboratory in 1957. It was a hardware implementation called "Mark-1," designed to recognize basic geometric shapes like triangles, squares, and circles.
 
@@ -85,7 +85,7 @@ In this lesson, you learned about the perceptron, a binary classification model,
 
 If you'd like to try building your own perceptron, check out [this lab on Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), which uses the [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Review & Self Study
 

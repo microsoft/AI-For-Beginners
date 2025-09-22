@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Å trene CNN-er kan ta mye tid, og det kreves mye data for denne oppgaven. Imidlertid brukes mye av tiden på å lære de beste lavnivåfiltrene som et nettverk kan bruke for å trekke ut mønstre fra bilder. Et naturlig spørsmål oppstår - kan vi bruke et nevralt nettverk trent på ett datasett og tilpasse det til å klassifisere forskjellige bilder uten å kreve en full treningsprosess?
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Denne tilnærmingen kalles **overføringslæring**, fordi vi overfører noe kunnskap fra én nevralt nettverksmodell til en annen. I overføringslæring starter vi vanligvis med en forhåndstrent modell, som har blitt trent på et stort bildedatasett, som for eksempel **ImageNet**. Disse modellene kan allerede gjøre en god jobb med å trekke ut ulike funksjoner fra generiske bilder, og i mange tilfeller kan det å bygge en klassifiserer på toppen av disse funksjonene gi gode resultater.
 
@@ -76,7 +76,7 @@ Ved å bruke overføringslæring kan du raskt sette sammen en klassifiserer for 
 
 I de tilhørende notatbøkene er det notater nederst om hvordan overføringskunnskap fungerer best med noe lignende treningsdata (en ny type dyr, kanskje). Gjør noen eksperimenter med helt nye typer bilder for å se hvor godt eller dårlig dine modeller for overføringskunnskap presterer.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Gjennomgang og selvstudium
 

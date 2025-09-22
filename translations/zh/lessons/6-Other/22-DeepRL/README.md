@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 强化学习（RL）被认为是机器学习的基本范式之一，与监督学习和无监督学习并列。与监督学习依赖于已知结果的数据集不同，RL基于**通过实践学习**。例如，当我们第一次看到一款电脑游戏时，即使不知道规则，我们也会开始玩，并通过玩游戏和调整行为逐渐提高技能。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 要进行强化学习，我们需要：
 
@@ -110,7 +110,7 @@ print(f"Total reward: {total_reward}")
 
 探索“其他强化学习任务”部分列出的应用，并尝试实现其中一个！
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## 复习与自学
 

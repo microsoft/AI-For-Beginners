@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ao treinar CNNs, um dos problemas é que precisamos de muitos dados rotulados. No caso de classificação de imagens, precisamos separar as imagens em diferentes classes, o que exige esforço manual.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 No entanto, podemos querer usar dados brutos (não rotulados) para treinar extratores de características de CNN, o que é chamado de **aprendizado auto-supervisionado**. Em vez de rótulos, usaremos imagens de treinamento como entrada e saída da rede. A ideia principal do **autoencoder** é que teremos uma **rede codificadora** que converte a imagem de entrada em algum **espaço latente** (normalmente é apenas um vetor de tamanho menor), e então uma **rede decodificadora**, cujo objetivo será reconstruir a imagem original.
 
@@ -80,7 +80,7 @@ Saiba mais sobre autoencoders nestes notebooks correspondentes:
 * **Com perdas** - a imagem reconstruída não é idêntica à imagem original. A natureza da perda é definida pela *função de perda* usada durante o treinamento.
 * Funciona com **dados não rotulados**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Conclusão
 
@@ -90,7 +90,7 @@ Nesta lição, você aprendeu sobre os vários tipos de autoencoders disponívei
 
 Nesta lição, você aprendeu sobre o uso de autoencoders para imagens. Mas eles também podem ser usados para música! Confira o projeto [MusicVAE](https://magenta.tensorflow.org/music-vae) do Magenta, que usa autoencoders para aprender a reconstruir música. Faça alguns [experimentos](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) com esta biblioteca para ver o que você pode criar.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Revisão e Autoestudo
 

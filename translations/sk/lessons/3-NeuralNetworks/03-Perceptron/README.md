@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do neurónových sietí: Perceptron
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Jedným z prvých pokusov o implementáciu niečoho podobného moderným neurónovým sieťam bol projekt Franka Rosenblatta z Cornell Aeronautical Laboratory v roku 1957. Išlo o hardvérovú implementáciu nazvanú "Mark-1", ktorá bola navrhnutá na rozpoznávanie primitívnych geometrických tvarov, ako sú trojuholníky, štvorce a kruhy.
 
@@ -85,7 +85,7 @@ V tejto lekcii ste sa naučili o perceptrone, ktorý je modelom binárnej klasif
 
 Ak si chcete vyskúšať vytvoriť vlastný perceptron, skúste [tento lab na Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), ktorý používa [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Prehľad a samostatné štúdium
 

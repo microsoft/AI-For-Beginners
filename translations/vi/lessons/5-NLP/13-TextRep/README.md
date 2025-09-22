@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Biểu Diễn Văn Bản Dưới Dạng Tensor
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Phân Loại Văn Bản
 
@@ -73,7 +73,7 @@ Cho đến nay, chúng ta đã nghiên cứu các kỹ thuật có thể thêm t
 
 Thử một số bài tập khác sử dụng bag-of-words và các mô hình dữ liệu khác nhau. Bạn có thể lấy cảm hứng từ [cuộc thi này trên Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Ôn Tập & Tự Học
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 We previously explored Object Detection, which helps identify objects in an image by predicting their *bounding boxes*. However, for certain tasks, bounding boxes alone aren't enough—we need more precise object localization. This task is known as **segmentation**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentation can be thought of as **pixel classification**, where we predict the class of **each** pixel in the image (*background* being one of the classes). There are two main types of segmentation algorithms:
 
@@ -56,7 +56,7 @@ Explore the notebooks below to learn more about different semantic segmentation 
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Conclusion
 

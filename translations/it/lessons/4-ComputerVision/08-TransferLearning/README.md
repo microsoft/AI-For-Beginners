@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Addestrare le CNN può richiedere molto tempo e una grande quantità di dati. Tuttavia, gran parte del tempo viene speso per imparare i migliori filtri di basso livello che una rete può utilizzare per estrarre schemi dalle immagini. Sorge una domanda naturale: possiamo utilizzare una rete neurale addestrata su un dataset e adattarla per classificare immagini diverse senza dover eseguire un processo di addestramento completo?
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Questo approccio è chiamato **apprendimento per trasferimento**, perché trasferiamo alcune conoscenze da un modello di rete neurale a un altro. Nell'apprendimento per trasferimento, di solito si parte da un modello pre-addestrato, che è stato addestrato su un grande dataset di immagini, come **ImageNet**. Questi modelli sono già in grado di estrarre diverse caratteristiche da immagini generiche e, in molti casi, costruire un classificatore sopra queste caratteristiche estratte può portare a buoni risultati.
 
@@ -76,7 +76,7 @@ Utilizzando l'apprendimento per trasferimento, puoi rapidamente mettere insieme 
 
 Nei notebook allegati, ci sono note in fondo su come l'apprendimento per trasferimento funzioni meglio con dati di addestramento relativamente simili (ad esempio, un nuovo tipo di animale). Fai qualche esperimento con tipi di immagini completamente nuovi per vedere quanto bene o male i tuoi modelli di apprendimento per trasferimento funzionano.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Revisione e Studio Autonomo
 

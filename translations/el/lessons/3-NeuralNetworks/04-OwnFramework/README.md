@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Θα αναπτύξουμε επίσης το δικό μας αρθρωτό πλαίσιο σε Python, που θα μας επιτρέπει να κατασκευάζουμε διαφορετικές αρχιτεκτονικές νευρωνικών δικτύων.
 
-## [Προ-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Τυποποίηση της Μηχανικής Μάθησης
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Μεταβείτε στο σημειωματάριο [OwnFramework](OwnFramework.ipynb) και δουλέψτε πάνω σε αυτό.
 
-## [Μετα-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Μετα-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Ανασκόπηση & Αυτομελέτη
 

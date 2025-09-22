@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 U prethodnom dijelu naučili smo o **generativnim modelima**: modelima koji mogu generirati nove slike slične onima iz skupa za treniranje. VAE je bio dobar primjer generativnog modela.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Međutim, ako pokušamo generirati nešto zaista značajno, poput slike visoke rezolucije, s VAE-om, vidjet ćemo da treniranje ne konvergira dobro. Za ovaj slučaj trebali bismo naučiti o drugoj arhitekturi koja je posebno usmjerena na generativne modele - **Generativne suparničke mreže**, ili GAN-ove.
 
@@ -84,7 +84,7 @@ Kako to funkcionira:
 
 ## ✍️ Primjer: [Prijenos stila](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Zaključak
 

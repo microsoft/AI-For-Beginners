@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Já vimos anteriormente que as redes neuronais são bastante eficazes a lidar com imagens, e até mesmo um perceptron de uma camada consegue reconhecer dígitos manuscritos do conjunto de dados MNIST com uma precisão razoável. No entanto, o conjunto de dados MNIST é muito especial, pois todos os dígitos estão centrados na imagem, o que torna a tarefa mais simples.
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Na vida real, queremos ser capazes de reconhecer objetos numa imagem independentemente da sua localização exata. A visão computacional é diferente da classificação genérica, porque, ao tentar encontrar um determinado objeto na imagem, estamos a analisar a imagem em busca de **padrões** específicos e suas combinações. Por exemplo, ao procurar um gato, podemos começar por procurar linhas horizontais, que podem formar os bigodes, e depois uma certa combinação de bigodes pode indicar que se trata de uma imagem de um gato. A posição relativa e a presença de certos padrões são importantes, e não a sua posição exata na imagem.
 

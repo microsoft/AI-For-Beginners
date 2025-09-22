@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 We wszystkich naszych poprzednich zadaniach trenowaliśmy sieć neuronową, aby wykonywała określone zadanie, korzystając z oznaczonego zbioru danych. W przypadku dużych modeli transformatorowych, takich jak BERT, wykorzystujemy modelowanie języka w sposób samonadzorowany, aby zbudować model językowy, który następnie jest specjalizowany do konkretnego zadania dzięki dalszemu treningowi w specyficznej dziedzinie. Jednakże wykazano, że duże modele językowe mogą również rozwiązywać wiele zadań bez JAKIEGOKOLWIEK treningu specyficznego dla danej dziedziny. Rodzina modeli zdolnych do tego nazywa się **GPT**: Generative Pre-Trained Transformer.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generowanie Tekstu i Perpleksja
 
@@ -58,7 +58,7 @@ Kontynuuj naukę w poniższych notebookach:
 
 Nowe ogólne wstępnie wytrenowane modele językowe nie tylko modelują strukturę języka, ale także zawierają ogromną ilość naturalnego języka. Dzięki temu mogą być skutecznie wykorzystywane do rozwiązywania niektórych zadań NLP w ustawieniach zero-shot lub few-shot.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Zastrzeżenie**:  
 Ten dokument został przetłumaczony za pomocą usługi tłumaczeniowej AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż dokładamy wszelkich starań, aby tłumaczenie było precyzyjne, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z korzystania z tego tłumaczenia.

@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בנוסף, נפתח מסגרת מודולרית משלנו ב-Python שתאפשר לנו לבנות ארכיטקטורות שונות של רשתות נוירונים.
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## פורמליזציה של למידת מכונה
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 המשיכו ל-[OwnFramework](OwnFramework.ipynb) ועבדו עליה.
 
-## [שאלון לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## סקירה ולימוד עצמי
 

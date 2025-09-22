@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 När man tränar CNNs är ett av problemen att vi behöver mycket märkt data. När det gäller bildklassificering måste vi dela upp bilder i olika klasser, vilket är en manuell process.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Men vi kanske vill använda rå (omärkt) data för att träna CNN-funktionsextraktorer, vilket kallas **självövervakad inlärning**. Istället för etiketter använder vi träningsbilder som både nätverksinmatning och -utmatning. Huvudidén med **autoencoder** är att vi har ett **encoder-nätverk** som omvandlar inmatningsbilden till ett **latent utrymme** (vanligtvis bara en vektor av mindre storlek), och sedan ett **decoder-nätverk**, vars mål är att rekonstruera den ursprungliga bilden.
 
@@ -80,7 +80,7 @@ Lär dig mer om autoencoders i dessa motsvarande notebooks:
 * **Förlustfyllda** - den rekonstruerade bilden är inte densamma som den ursprungliga bilden. Förlustens natur definieras av den *förlustfunktion* som används under träningen.
 * Fungerar på **omärkt data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Slutsats
 
@@ -90,7 +90,7 @@ I denna lektion lärde du dig om de olika typerna av autoencoders som finns till
 
 I denna lektion lärde du dig om att använda autoencoders för bilder. Men de kan också användas för musik! Kolla in Magenta-projektets [MusicVAE](https://magenta.tensorflow.org/music-vae)-projekt, som använder autoencoders för att lära sig rekonstruera musik. Gör några [experiment](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med detta bibliotek för att se vad du kan skapa.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Granskning & Självstudier
 

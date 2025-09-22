@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [计算机视觉](https://wikipedia.org/wiki/Computer_vision) 是一个旨在让计算机能够对数字图像进行高层次理解的学科。这是一个非常广泛的定义，因为“理解”可以有很多不同的含义，包括在图片中找到一个物体（**目标检测**）、理解发生了什么（**事件检测**）、用文字描述图片，或者以3D形式重建场景。此外，还有一些与人类图像相关的特殊任务：例如年龄和情绪估计、人脸检测与识别，以及3D姿态估计等。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 计算机视觉最简单的任务之一是 **图像分类**。
 
@@ -105,7 +105,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 观看 [这个视频](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste)，了解 Cortic Tigers 项目以及他们如何通过机器人构建一个基于模块的解决方案来普及计算机视觉任务。研究其他类似项目，这些项目帮助新学习者进入该领域。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## 复习与自学
 

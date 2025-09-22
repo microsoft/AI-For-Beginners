@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einbettungen
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Beim Training von Klassifikatoren basierend auf BoW oder TF/IDF arbeiteten wir mit hochdimensionalen Bag-of-Words-Vektoren der Länge `vocab_size` und konvertierten explizit von niedrigdimensionalen Positionsdarstellungsvektoren in spärliche One-Hot-Darstellungen. Diese One-Hot-Darstellung ist jedoch nicht speichereffizient. Außerdem wird jedes Wort unabhängig von den anderen behandelt, d. h. One-Hot-codierte Vektoren drücken keine semantische Ähnlichkeit zwischen Wörtern aus.
 
@@ -65,7 +65,7 @@ In dieser Lektion hast du gelernt, wie man Einbettungsschichten in TensorFlow un
 
 Word2Vec wurde für einige interessante Anwendungen verwendet, einschließlich der Generierung von Songtexten und Gedichten. Schau dir [diesen Artikel](https://www.politetype.com/blog/word2vec-color-poems) an, der erklärt, wie der Autor Word2Vec verwendet hat, um Gedichte zu generieren. Sieh dir auch [dieses Video von Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) an, um eine andere Erklärung dieser Technik zu entdecken. Versuche dann, diese Techniken auf deinen eigenen Textkorpus anzuwenden, vielleicht aus Kaggle.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Wiederholung & Selbststudium
 

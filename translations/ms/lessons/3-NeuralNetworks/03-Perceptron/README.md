@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengenalan kepada Rangkaian Neural: Perceptron
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Salah satu percubaan pertama untuk melaksanakan sesuatu yang serupa dengan rangkaian neural moden dilakukan oleh Frank Rosenblatt dari Cornell Aeronautical Laboratory pada tahun 1957. Ia adalah pelaksanaan perkakasan yang dipanggil "Mark-1", direka untuk mengenali bentuk geometri primitif, seperti segitiga, segi empat sama, dan bulatan.
 
@@ -85,7 +85,7 @@ Dalam pelajaran ini, anda telah mempelajari tentang perceptron, yang merupakan m
 
 Jika anda ingin mencuba membina perceptron anda sendiri, cuba [makmal ini di Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) yang menggunakan [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Ulasan & Kajian Kendiri
 

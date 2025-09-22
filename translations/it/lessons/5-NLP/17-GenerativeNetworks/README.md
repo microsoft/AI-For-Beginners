@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reti generative
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Le Reti Neurali Ricorrenti (RNN) e le loro varianti con celle gated, come le celle Long Short Term Memory (LSTM) e le Gated Recurrent Units (GRU), offrono un meccanismo per il modellamento del linguaggio, poiché possono apprendere l'ordine delle parole e fornire previsioni per la parola successiva in una sequenza. Questo ci permette di utilizzare le RNN per **compiti generativi**, come la generazione di testo ordinario, la traduzione automatica e persino la descrizione di immagini.
 
@@ -71,7 +71,7 @@ Segui alcune lezioni su Microsoft Learn su questo argomento
 
 * Generazione di testo con [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Revisione e studio autonomo
 

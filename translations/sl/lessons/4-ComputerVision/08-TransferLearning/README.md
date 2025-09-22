@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Učenje konvolucijskih nevronskih omrežij (CNN) lahko zahteva veliko časa in podatkov. Velik del časa se porabi za učenje najboljših nizkofrekvenčnih filtrov, ki jih omrežje lahko uporabi za prepoznavanje vzorcev iz slik. Naravno se pojavi vprašanje – ali lahko uporabimo nevronsko omrežje, naučeno na enem naboru podatkov, in ga prilagodimo za razvrščanje drugih slik, ne da bi morali izvesti celoten proces učenja?
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Ta pristop se imenuje **prenos učenja**, saj prenesemo določeno znanje iz enega modela nevronskega omrežja na drugega. Pri prenosu učenja običajno začnemo z vnaprej naučenim modelom, ki je bil naučen na velikem naboru slik, kot je **ImageNet**. Ti modeli že dobro prepoznavajo različne značilnosti iz splošnih slik, in v mnogih primerih lahko že samo zgraditev klasifikatorja na podlagi teh značilnosti prinese dobre rezultate.
 
@@ -76,7 +76,7 @@ S prenosom učenja lahko hitro sestavite klasifikator za nalogo razvrščanja pr
 
 V priloženih beležnicah so na dnu zapiski o tem, kako prenos znanja najbolje deluje s sorodnimi učnimi podatki (na primer nova vrsta živali). Naredite nekaj eksperimentov s popolnoma novimi vrstami slik, da vidite, kako dobro ali slabo delujejo vaši modeli za prenos znanja.
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Pregled in samostojno učenje
 

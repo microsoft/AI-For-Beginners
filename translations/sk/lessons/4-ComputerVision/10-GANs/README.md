@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 V predchádzajúcej časti sme sa naučili o **generatívnych modeloch**: modeloch, ktoré dokážu generovať nové obrázky podobné tým v tréningovej množine. VAE bol dobrým príkladom generatívneho modelu.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Ak sa však pokúsime generovať niečo naozaj zmysluplné, napríklad maľbu v rozumnej kvalite, pomocou VAE, zistíme, že tréning sa nekonverguje dobre. Pre tento prípad použitia by sme sa mali naučiť o inej architektúre špecificky zameranej na generatívne modely - **Generatívne adversariálne siete**, alebo GANy.
 
@@ -84,7 +84,7 @@ Ako to funguje:
 
 ## ✍️ Príklad: [Prenos štýlu](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Zhrnutie
 

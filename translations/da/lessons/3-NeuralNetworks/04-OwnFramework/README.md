@@ -19,7 +19,7 @@ I dette afsnit vil vi udvide denne model til en mere fleksibel ramme, der giver 
 
 Vi vil også udvikle vores egen modulære ramme i Python, som giver os mulighed for at konstruere forskellige arkitekturer for neurale netværk.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisering af Maskinlæring
 
@@ -81,7 +81,7 @@ I den medfølgende notebook vil du implementere din egen ramme for at bygge og t
 
 Gå videre til [OwnFramework](OwnFramework.ipynb) notebook og arbejd dig igennem den.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Gennemgang & Selvstudie
 

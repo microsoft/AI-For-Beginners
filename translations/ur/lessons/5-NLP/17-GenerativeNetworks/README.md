@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # جنریٹیو نیٹ ورکس
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 ریکرنٹ نیورل نیٹ ورکس (RNNs) اور ان کے گیٹڈ سیل ویریئنٹس جیسے کہ لانگ شارٹ ٹرم میموری سیلز (LSTMs) اور گیٹڈ ریکرنٹ یونٹس (GRUs) زبان کی ماڈلنگ کے لیے ایک طریقہ فراہم کرتے ہیں، کیونکہ یہ الفاظ کی ترتیب سیکھ سکتے ہیں اور کسی سیکوئنس میں اگلے لفظ کی پیش گوئی کر سکتے ہیں۔ اس سے ہمیں RNNs کو **جنریٹیو ٹاسکس** کے لیے استعمال کرنے کی اجازت ملتی ہے، جیسے کہ عام ٹیکسٹ جنریشن، مشین ٹرانسلیشن، اور یہاں تک کہ امیج کیپشننگ۔
 
@@ -71,7 +71,7 @@ Microsoft Learn پر اس موضوع پر کچھ اسباق لیں:
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) کے ساتھ ٹیکسٹ جنریشن
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## جائزہ اور خود مطالعہ
 

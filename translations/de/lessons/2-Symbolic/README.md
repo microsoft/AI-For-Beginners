@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Die Suche nach künstlicher Intelligenz basiert auf dem Streben nach Wissen, um die Welt ähnlich wie Menschen zu verstehen. Aber wie kann man das erreichen?
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 In den frühen Tagen der KI war der Top-Down-Ansatz zur Erstellung intelligenter Systeme (im vorherigen Kapitel besprochen) beliebt. Die Idee war, das Wissen von Menschen in eine maschinenlesbare Form zu extrahieren und es dann zu nutzen, um Probleme automatisch zu lösen. Dieser Ansatz basierte auf zwei großen Ideen:
 
@@ -236,7 +236,7 @@ Heutzutage wird KI oft als Synonym für *Maschinelles Lernen* oder *Neuronale Ne
 
 Im Family Ontology Notebook, das mit dieser Lektion verbunden ist, gibt es die Möglichkeit, mit anderen Familienbeziehungen zu experimentieren. Versuchen Sie, neue Verbindungen zwischen Personen im Familienstammbaum zu entdecken.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Überprüfung & Selbststudium
 

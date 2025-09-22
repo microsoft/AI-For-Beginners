@@ -19,7 +19,7 @@ In this section, we will expand this model into a more versatile framework, enab
 
 We will also create our own modular framework in Python, which will allow us to design various neural network architectures.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalizing Machine Learning
 
@@ -81,7 +81,7 @@ In the accompanying notebook, you will implement your own framework for building
 
 Proceed to the [OwnFramework](OwnFramework.ipynb) notebook and work through it.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Review & Self Study
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Abbiamo visto in precedenza che le reti neurali sono piuttosto efficaci nel trattare le immagini, e persino un percettrone a un solo strato è in grado di riconoscere le cifre scritte a mano del dataset MNIST con una precisione ragionevole. Tuttavia, il dataset MNIST è molto particolare: tutte le cifre sono centrate all'interno dell'immagine, il che rende il compito più semplice.
 
-## [Quiz preliminare alla lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz preliminare alla lezione](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Nella vita reale, vogliamo essere in grado di riconoscere oggetti in un'immagine indipendentemente dalla loro posizione esatta. La visione artificiale è diversa dalla classificazione generica, perché quando cerchiamo di individuare un certo oggetto in un'immagine, stiamo scansionando l'immagine alla ricerca di specifici **schemi** e delle loro combinazioni. Ad esempio, cercando un gatto, potremmo iniziare cercando linee orizzontali che possono formare i baffi, e poi una certa combinazione di baffi potrebbe indicarci che si tratta effettivamente di un'immagine di un gatto. La posizione relativa e la presenza di certi schemi sono importanti, non la loro posizione esatta nell'immagine.
 

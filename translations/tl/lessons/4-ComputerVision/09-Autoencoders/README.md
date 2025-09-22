@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kapag nagte-train ng CNNs, isa sa mga problema ay kailangan natin ng maraming labeled na data. Sa kaso ng image classification, kailangan nating paghiwalayin ang mga imahe sa iba't ibang klase, na isang manu-manong gawain.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Gayunpaman, maaaring gusto nating gumamit ng raw (unlabeled) na data para sa pagte-train ng CNN feature extractors, na tinatawag na **self-supervised learning**. Sa halip na labels, gagamitin natin ang mga training images bilang parehong input at output ng network. Ang pangunahing ideya ng **autoencoder** ay magkakaroon tayo ng **encoder network** na nagko-convert ng input image sa isang **latent space** (karaniwan itong isang vector na mas maliit ang sukat), at pagkatapos ang **decoder network**, na ang layunin ay i-reconstruct ang orihinal na imahe.
 
@@ -80,7 +80,7 @@ Matuto pa tungkol sa autoencoders sa mga kaukulang notebooks na ito:
 * **Lossy** - ang reconstructed na imahe ay hindi pareho sa orihinal na imahe. Ang likas na katangian ng loss ay tinutukoy ng *loss function* na ginamit sa training.
 * Gumagana sa **unlabeled data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Konklusyon
 
@@ -90,7 +90,7 @@ Sa araling ito, natutunan mo ang iba't ibang uri ng autoencoders na magagamit ng
 
 Sa araling ito, natutunan mo ang paggamit ng autoencoders para sa mga imahe. Ngunit maaari rin itong gamitin para sa musika! Tingnan ang proyekto ng Magenta na [MusicVAE](https://magenta.tensorflow.org/music-vae) na gumagamit ng autoencoders upang matutunan ang pag-reconstruct ng musika. Subukan ang ilang [eksperimento](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) gamit ang library na ito upang makita kung ano ang kaya mong likhain.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review & Self Study
 

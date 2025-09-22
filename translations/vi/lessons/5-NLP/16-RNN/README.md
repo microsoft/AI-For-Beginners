@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mạng Nơ-ron Hồi quy
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Trong các phần trước, chúng ta đã sử dụng các biểu diễn ngữ nghĩa phong phú của văn bản và một bộ phân loại tuyến tính đơn giản trên các embedding. Kiến trúc này giúp nắm bắt ý nghĩa tổng hợp của các từ trong một câu, nhưng nó không xem xét đến **thứ tự** của các từ, vì phép tổng hợp trên embedding đã loại bỏ thông tin này từ văn bản gốc. Do các mô hình này không thể mô hình hóa thứ tự từ, chúng không thể giải quyết các nhiệm vụ phức tạp hoặc mơ hồ hơn như tạo văn bản hoặc trả lời câu hỏi.
 
@@ -84,7 +84,7 @@ Trong bài học này, chúng ta đã thấy rằng RNN có thể được sử 
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Ôn tập & Tự học
 

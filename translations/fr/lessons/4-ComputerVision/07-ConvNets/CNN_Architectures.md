@@ -59,7 +59,7 @@ Dans cette unité, vous avez appris le concept principal derrière les réseaux 
 
 Dans les notebooks associés, il y a des notes en bas sur la façon d'obtenir une meilleure précision. Faites quelques expériences pour voir si vous pouvez atteindre une précision plus élevée.
 
-## [Quiz post-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz post-cours](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Révision & Auto-apprentissage
 

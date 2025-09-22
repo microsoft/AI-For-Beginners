@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Bilgisayarlı Görü](https://wikipedia.org/wiki/Computer_vision), bilgisayarların dijital görüntüleri yüksek seviyede anlamasını sağlamayı amaçlayan bir disiplindir. Bu oldukça geniş bir tanımdır çünkü *anlama* birçok farklı şeyi ifade edebilir; bir resimdeki nesneyi bulmak (**nesne tespiti**), ne olduğunu anlamak (**olay tespiti**), bir resmi metinle açıklamak veya bir sahneyi 3D olarak yeniden oluşturmak gibi. İnsan görüntüleriyle ilgili özel görevler de vardır: yaş ve duygu tahmini, yüz tespiti ve tanımlama, 3D duruş tahmini gibi.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Bilgisayarlı görünün en basit görevlerinden biri **görüntü sınıflandırmasıdır**.
 
@@ -105,7 +105,7 @@ Bazen, hareket tespiti veya parmak ucu tespiti gibi nispeten karmaşık görevle
 
 AI Show'daki [bu videoyu](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) izleyerek Cortic Tigers projesini ve bilgisayarlı görü görevlerini bir robot aracılığıyla demokratikleştirmek için nasıl blok tabanlı bir çözüm geliştirdiklerini öğrenin. Yeni öğrenenleri bu alana kazandırmaya yardımcı olan diğer projeler hakkında araştırma yapın.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

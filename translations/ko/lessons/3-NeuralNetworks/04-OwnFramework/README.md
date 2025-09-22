@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 또한, 다양한 신경망 아키텍처를 구성할 수 있는 Python 기반의 모듈형 프레임워크를 개발할 것입니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## 머신러닝의 공식화
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) 노트북으로 이동하여 작업을 진행하세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## 복습 및 자기 학습
 

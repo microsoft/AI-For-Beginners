@@ -19,7 +19,7 @@ Tässä osiossa laajennamme tätä mallia joustavammaksi kehykseksi, joka mahdol
 
 Kehitämme myös oman modulaarisen kehyksen Pythonissa, jonka avulla voimme rakentaa erilaisia neuroverkkorakenteita.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Koneoppimisen formalisointi
 
@@ -81,7 +81,7 @@ Liitetyssä vihkossa toteutat oman kehyksen monikerroksisten perceptronien raken
 
 Siirry [OwnFramework](OwnFramework.ipynb) -vihkoon ja käy se läpi.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Kertaus ja itseopiskelu
 

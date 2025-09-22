@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Nous avons vu précédemment que les réseaux de neurones sont assez performants pour traiter des images, et même un perceptron à une seule couche est capable de reconnaître des chiffres manuscrits du jeu de données MNIST avec une précision raisonnable. Cependant, le jeu de données MNIST est très particulier, car tous les chiffres y sont centrés dans l'image, ce qui simplifie la tâche.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Dans la vie réelle, nous souhaitons pouvoir reconnaître des objets sur une image, peu importe leur emplacement exact. La vision par ordinateur diffère de la classification générique, car lorsque nous cherchons un objet spécifique dans une image, nous analysons celle-ci à la recherche de certains **motifs** et de leurs combinaisons. Par exemple, en cherchant un chat, nous pouvons d'abord repérer des lignes horizontales qui pourraient former des moustaches, puis une certaine combinaison de moustaches peut nous indiquer qu'il s'agit effectivement d'une image de chat. La position relative et la présence de certains motifs sont importantes, mais pas leur emplacement exact dans l'image.
 

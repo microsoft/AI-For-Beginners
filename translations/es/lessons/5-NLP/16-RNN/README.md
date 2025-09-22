@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Redes Neuronales Recurrentes
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 En secciones anteriores, hemos estado utilizando representaciones semánticas ricas de texto y un clasificador lineal simple sobre las incrustaciones. Lo que hace esta arquitectura es capturar el significado agregado de las palabras en una oración, pero no toma en cuenta el **orden** de las palabras, ya que la operación de agregación sobre las incrustaciones elimina esta información del texto original. Debido a que estos modelos no pueden modelar el orden de las palabras, no pueden resolver tareas más complejas o ambiguas como la generación de texto o la respuesta a preguntas.
 
@@ -84,7 +84,7 @@ Lee algo de literatura sobre LSTMs y considera sus aplicaciones:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Revisión y Estudio Autónomo
 

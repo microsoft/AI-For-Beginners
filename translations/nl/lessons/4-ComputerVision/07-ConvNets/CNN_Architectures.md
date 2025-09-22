@@ -59,7 +59,7 @@ In deze eenheid heb je het belangrijkste concept achter neurale netwerken voor c
 
 In de bijbehorende notebooks staan notities onderaan over hoe je een hogere nauwkeurigheid kunt behalen. Doe wat experimenten om te zien of je een betere nauwkeurigheid kunt bereiken.
 
-## [Post-lezing quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Post-lezing quiz](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Review & Zelfstudie
 

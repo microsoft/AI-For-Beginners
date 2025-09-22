@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Réseaux génératifs
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Les réseaux neuronaux récurrents (RNN) et leurs variantes à cellules à portes, comme les cellules Long Short Term Memory (LSTM) et les Gated Recurrent Units (GRU), offrent un mécanisme pour la modélisation du langage, car ils peuvent apprendre l'ordre des mots et prédire le mot suivant dans une séquence. Cela nous permet d'utiliser les RNN pour des **tâches génératives**, telles que la génération de texte ordinaire, la traduction automatique et même la génération de légendes pour des images.
 
@@ -71,7 +71,7 @@ Suivez des leçons sur Microsoft Learn sur ce sujet :
 
 * Génération de texte avec [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Révision et auto-apprentissage
 

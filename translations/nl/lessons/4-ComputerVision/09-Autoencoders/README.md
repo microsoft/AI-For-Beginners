@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Bij het trainen van CNN's is een van de problemen dat we veel gelabelde data nodig hebben. In het geval van beeldclassificatie moeten we afbeeldingen in verschillende klassen indelen, wat een handmatig proces is.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 We willen echter mogelijk ruwe (ongelabelde) data gebruiken om CNN-feature-extractors te trainen, wat **zelf-supervised learning** wordt genoemd. In plaats van labels gebruiken we trainingsafbeeldingen als zowel netwerkinput als -output. Het belangrijkste idee van een **autoencoder** is dat we een **encoder-netwerk** hebben dat de inputafbeelding omzet in een **latente ruimte** (meestal een vector van kleinere omvang), en vervolgens een **decoder-netwerk**, dat als doel heeft de originele afbeelding te reconstrueren.
 
@@ -80,7 +80,7 @@ Leer meer over autoencoders in deze bijbehorende notebooks:
 * **Verlieslatend** - de gereconstrueerde afbeelding is niet hetzelfde als de originele afbeelding. De aard van het verlies wordt bepaald door de *verliesfunctie* die tijdens het trainen wordt gebruikt.
 * Werkt op **ongelabelde data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Conclusie
 
@@ -90,7 +90,7 @@ In deze les heb je geleerd over de verschillende soorten autoencoders die beschi
 
 In deze les heb je geleerd over het gebruik van autoencoders voor afbeeldingen. Maar ze kunnen ook worden gebruikt voor muziek! Bekijk het [MusicVAE](https://magenta.tensorflow.org/music-vae)-project van Magenta, dat autoencoders gebruikt om muziek te reconstrueren. Doe wat [experimenten](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) met deze bibliotheek om te zien wat je kunt creëren.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review & Zelfstudie
 

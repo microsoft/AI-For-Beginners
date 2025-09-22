@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Upotukset
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Kun koulutimme luokittimia BoW:n tai TF/IDF:n perusteella, käytimme korkean ulottuvuuden bag-of-words-vektoreita, joiden pituus oli `vocab_size`, ja muunsimme eksplisiittisesti matalan ulottuvuuden paikkavektoreista harvoiksi yksiulotteisiksi vektoreiksi. Tämä yksiulotteinen esitys ei kuitenkaan ole muistin kannalta tehokas. Lisäksi jokaista sanaa käsitellään toisistaan riippumattomana, eli yksiulotteiset vektorit eivät ilmaise mitään semanttista samankaltaisuutta sanojen välillä.
 
@@ -65,7 +65,7 @@ Tässä oppitunnissa opit rakentamaan ja käyttämään upotuskerroksia TensorFl
 
 Word2Veciä on käytetty joissakin mielenkiintoisissa sovelluksissa, kuten laululyriikan ja runouden luomisessa. Tutustu [tähän artikkeliin](https://www.politetype.com/blog/word2vec-color-poems), jossa kirjoittaja käy läpi, miten hän käytti Word2Veciä runojen luomiseen. Katso myös [tämä Dan Shiffmannin video](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), jossa selitetään tätä tekniikkaa eri tavalla. Kokeile sitten soveltaa näitä tekniikoita omaan tekstikorpukseesi, ehkä Kagglesta hankittuun.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Kertaus ja itseopiskelu
 

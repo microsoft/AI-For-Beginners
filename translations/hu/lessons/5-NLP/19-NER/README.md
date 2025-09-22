@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Eddig főként egy NLP feladatra, a klasszifikációra koncentráltunk. Azonban léteznek más NLP feladatok is, amelyeket neurális hálózatokkal meg lehet oldani. Az egyik ilyen feladat a **[Névjegy Felismerés](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), amely a szövegben található konkrét entitások, például helyek, személynevek, dátum-idő intervallumok, kémiai képletek stb. felismerésével foglalkozik.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Példa a NER használatára
 
@@ -79,7 +79,7 @@ A NER modell egy **token klasszifikációs modell**, ami azt jelenti, hogy token
 
 Teljesítsd az alábbi feladathoz kapcsolódó kihívást, amelyben egy orvosi kifejezéseket felismerő modellt kell tanítanod, majd próbáld ki egy másik adathalmazon.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Áttekintés és önálló tanulás
 

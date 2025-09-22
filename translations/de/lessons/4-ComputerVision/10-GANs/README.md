@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Im vorherigen Abschnitt haben wir über **generative Modelle** gelernt: Modelle, die neue Bilder erzeugen können, die den Bildern im Trainingsdatensatz ähneln. VAE war ein gutes Beispiel für ein generatives Modell.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Wenn wir jedoch versuchen, etwas wirklich Bedeutungsvolles zu generieren, wie ein Gemälde in vernünftiger Auflösung, werden wir feststellen, dass das Training mit VAE nicht gut konvergiert. Für diesen Anwendungsfall sollten wir eine andere Architektur kennenlernen, die speziell auf generative Modelle ausgerichtet ist - **Generative Adversarial Networks**, oder GANs.
 
@@ -84,7 +84,7 @@ So funktioniert es:
 
 ## ✍️ Beispiel: [Style Transfer](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Fazit
 

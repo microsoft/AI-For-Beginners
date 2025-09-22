@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # জেনারেটিভ নেটওয়ার্কস
 
-## [পূর্ব-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) এবং তাদের গেটেড সেল ভ্যারিয়েন্ট যেমন Long Short Term Memory Cells (LSTMs) এবং Gated Recurrent Units (GRUs) ভাষা মডেলিংয়ের জন্য একটি পদ্ধতি প্রদান করে, যেখানে তারা শব্দের ক্রম শিখতে পারে এবং একটি সিকোয়েন্সে পরবর্তী শব্দের পূর্বাভাস দিতে পারে। এটি আমাদের RNNs ব্যবহার করে **জেনারেটিভ কাজ** সম্পাদন করতে দেয়, যেমন সাধারণ টেক্সট জেনারেশন, মেশিন ট্রান্সলেশন এবং এমনকি ইমেজ ক্যাপশনিং।
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) দিয়ে টেক্সট জেনারেশন
 
-## [পোস্ট-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [পোস্ট-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## পর্যালোচনা ও স্ব-অধ্যয়ন
 

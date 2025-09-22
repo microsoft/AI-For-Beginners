@@ -2,7 +2,7 @@
 
 I alla våra tidigare uppgifter har vi tränat ett neuralt nätverk för att utföra en viss uppgift med hjälp av en märkt dataset. Med stora transformer-modeller, såsom BERT, använder vi språkmodellering på ett självövervakat sätt för att bygga en språkmodell, som sedan specialiseras för specifika nedströmsuppgifter med ytterligare domänspecifik träning. Det har emellertid visat sig att stora språkmodeller också kan lösa många uppgifter utan NÅGON domänspecifik träning. En familj av modeller som kan göra detta kallas **GPT**: Generative Pre-Trained Transformer.
 
-## [För-föreläsningsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [För-föreläsningsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Textgenerering och Perplexitet
 
@@ -50,7 +50,7 @@ Fortsätt ditt lärande i följande notböcker:
 
 Nya allmänna förtränade språkmodeller modellerar inte bara språkstruktur, utan innehåller också stora mängder naturligt språk. Därför kan de effektivt användas för att lösa vissa NLP-uppgifter i zero-shot eller few-shot inställningar.
 
-## [Efter-föreläsningsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Efter-föreläsningsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Ansvarsfriskrivning**:  
 Detta dokument har översatts med hjälp av maskinbaserade AI-översättningstjänster. Även om vi strävar efter noggrannhet, vänligen var medveten om att automatiska översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på sitt modersmål bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår från användningen av denna översättning.

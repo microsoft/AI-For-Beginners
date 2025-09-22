@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 * 操作张量，例如进行乘法、加法，以及计算一些函数如 sigmoid 或 softmax
 * 计算所有表达式的梯度，以便执行梯度下降优化
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 虽然 `numpy` 库可以完成第一部分，但我们需要某种机制来计算梯度。在[我们开发的框架](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)中，我们必须手动在 `backward` 方法中编写所有的导数函数来实现反向传播。理想情况下，一个框架应该能够让我们计算*任何表达式*的梯度。
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在配套的笔记本中，你会发现一些“任务”；请完成这些笔记本中的任务。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## 复习与自学
 

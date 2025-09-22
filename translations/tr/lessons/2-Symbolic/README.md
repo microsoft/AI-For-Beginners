@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Yapay zeka arayışı, dünyayı insanların yaptığı gibi anlamlandırmak için bilgi arayışına dayanır. Peki, bunu nasıl gerçekleştirebilirsiniz?
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Yapay zekanın ilk zamanlarında, zeki sistemler oluşturmak için yukarıdan aşağıya yaklaşım (önceki derste tartışılmıştı) popülerdi. Fikir, insanlardan bilgiyi alıp makine tarafından okunabilir bir forma dönüştürmek ve ardından bu bilgiyi otomatik olarak problem çözmek için kullanmaktı. Bu yaklaşım iki büyük fikre dayanıyordu:
 
@@ -236,7 +236,7 @@ Günümüzde, yapay zeka genellikle *Makine Öğrenimi* veya *Sinir Ağları* il
 
 Bu derse bağlı Aile Ontolojisi defterinde, diğer aile ilişkileriyle deneme yapma fırsatı vardır. Aile ağacındaki insanlar arasında yeni bağlantılar keşfetmeyi deneyin.
 
-## [Ders sonrası test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Ders sonrası test](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

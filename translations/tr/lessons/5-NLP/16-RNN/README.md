@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tekrarlayan Sinir Ağları
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Önceki bölümlerde, metinlerin zengin anlamsal temsillerini ve gömme katmanlarının üzerine basit bir doğrusal sınıflandırıcıyı kullandık. Bu mimarinin yaptığı şey, bir cümledeki kelimelerin toplu anlamını yakalamaktır, ancak kelimelerin **sırasını** dikkate almaz, çünkü gömme katmanlarının üzerindeki toplama işlemi bu bilgiyi orijinal metinden kaldırır. Bu modeller kelime sırasını modelleyemediği için, metin üretimi veya soru yanıtlama gibi daha karmaşık veya belirsiz görevleri çözemezler.
 
@@ -84,7 +84,7 @@ LSTM'ler hakkında bazı literatürleri okuyun ve uygulamalarını düşünün:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

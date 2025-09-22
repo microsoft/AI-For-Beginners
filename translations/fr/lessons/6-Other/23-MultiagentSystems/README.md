@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Une des façons possibles d'atteindre l'intelligence est l'approche dite **émergente** (ou **synergétique**), qui repose sur le fait que le comportement combiné de nombreux agents relativement simples peut aboutir à un comportement global plus complexe (ou intelligent) du système dans son ensemble. Théoriquement, cela repose sur les principes de l'[Intelligence Collective](https://fr.wikipedia.org/wiki/Intelligence_collective), de l'[Émergentisme](https://fr.wikipedia.org/wiki/Cerveau_global) et de la [Cybernétique Évolutionnaire](https://fr.wikipedia.org/wiki/Cerveau_global), qui affirment que les systèmes de niveau supérieur acquièrent une certaine valeur ajoutée lorsqu'ils sont correctement combinés à partir de systèmes de niveau inférieur (le *principe de transition méta-systémique*).
 
-## [Quiz pré-lecture](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz pré-lecture](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 La direction des **Systèmes Multi-Agents** a émergé dans l'IA dans les années 1990 en réponse à la croissance d'Internet et des systèmes distribués. L'un des manuels classiques de l'IA, [Artificial Intelligence: A Modern Approach](https://fr.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), se concentre sur la vision de l'IA classique du point de vue des systèmes multi-agents.
 
@@ -152,7 +152,7 @@ Ils tendent tous à se concentrer sur le comportement plus simple d'un agent ind
 
 Appliquez cette leçon au monde réel et essayez de conceptualiser un système multi-agents qui pourrait résoudre un problème. Que devrait faire, par exemple, un système multi-agents pour optimiser un itinéraire de bus scolaire ? Comment pourrait-il fonctionner dans une boulangerie ?
 
-## [Quiz post-lecture](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz post-lecture](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Révision & Auto-apprentissage
 

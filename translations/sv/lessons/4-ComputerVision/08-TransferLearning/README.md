@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Att träna CNNs kan ta mycket tid, och det krävs en stor mängd data för den uppgiften. Dock spenderas mycket av tiden på att lära sig de bästa låg-nivå filtren som ett nätverk kan använda för att extrahera mönster från bilder. En naturlig fråga uppstår - kan vi använda ett neuralt nätverk som tränats på ett dataset och anpassa det för att klassificera andra bilder utan att behöva genomföra en fullständig träningsprocess?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Denna metod kallas **transferinlärning**, eftersom vi överför viss kunskap från en neuralt nätverksmodell till en annan. Vid transferinlärning börjar vi vanligtvis med en förtränad modell, som har tränats på ett stort bilddataset, såsom **ImageNet**. Dessa modeller kan redan göra ett bra jobb med att extrahera olika funktioner från generiska bilder, och i många fall kan man bygga en klassificerare ovanpå dessa extraherade funktioner för att uppnå ett bra resultat.
 
@@ -76,7 +76,7 @@ Med hjälp av transferinlärning kan du snabbt sätta ihop en klassificerare fö
 
 I de medföljande notebooks finns det anteckningar längst ner om hur transferkunskap fungerar bäst med något liknande träningsdata (en ny typ av djur, kanske). Gör lite experiment med helt nya typer av bilder för att se hur bra eller dåligt dina transferkunskapsmodeller presterar.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Granskning & Självstudier
 

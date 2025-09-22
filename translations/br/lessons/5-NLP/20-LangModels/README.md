@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Em todas as nossas tarefas anteriores, treinamos uma rede neural para realizar uma determinada tarefa usando um conjunto de dados rotulado. Com grandes modelos de transformadores, como o BERT, utilizamos modelagem de linguagem de forma auto-supervisionada para construir um modelo de linguagem, que é então especializado para tarefas específicas com treinamento adicional em domínios específicos. No entanto, foi demonstrado que grandes modelos de linguagem também podem resolver muitas tarefas sem QUALQUER treinamento específico de domínio. Uma família de modelos capaz de fazer isso é chamada de **GPT**: Transformador Pré-Treinado Generativo.
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Geração de Texto e Perplexidade
 
@@ -58,7 +58,7 @@ Continue seu aprendizado nos seguintes notebooks:
 
 Novos modelos de linguagem pré-treinados gerais não apenas modelam a estrutura da linguagem, mas também contêm uma vasta quantidade de linguagem natural. Assim, eles podem ser usados de forma eficaz para resolver algumas tarefas de PLN em configurações de zero-shot ou few-shot.
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Aviso Legal**:  
 Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional feita por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.

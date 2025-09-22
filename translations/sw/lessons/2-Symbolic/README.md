@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Utafutaji wa akili bandia unategemea kutafuta maarifa, ili kuelewa dunia kama binadamu wanavyofanya. Lakini unaweza kufanikisha hili vipi?
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Katika siku za mwanzo za AI, mbinu ya juu-chini ya kuunda mifumo yenye akili (ilijadiliwa katika somo lililopita) ilikuwa maarufu. Wazo lilikuwa ni kutoa maarifa kutoka kwa watu katika mfumo unaoweza kusomeka na mashine, na kisha kuyatumia kutatua matatizo kiotomatiki. Mbinu hii ilitegemea mawazo mawili makubwa:
 
@@ -236,7 +236,7 @@ Siku hizi, AI mara nyingi huchukuliwa kuwa sawa na *Kujifunza kwa Mashine* au *M
 
 Katika daftari la Ontolojia ya Familia lililohusishwa na somo hili, kuna fursa ya kujaribu mahusiano mengine ya kifamilia. Jaribu kugundua miunganiko mipya kati ya watu katika mti wa familia.
 
-## [Jaribio baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Jaribio baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Mapitio na Kujisomea
 

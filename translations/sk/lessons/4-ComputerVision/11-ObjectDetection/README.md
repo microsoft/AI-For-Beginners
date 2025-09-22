@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Modely klasifikácie obrázkov, s ktorými sme sa doteraz zaoberali, brali obrázok a produkovali kategóriálny výsledok, ako napríklad triedu 'číslo' v probléme MNIST. Avšak v mnohých prípadoch nechceme len vedieť, že obrázok zobrazuje objekty – chceme byť schopní určiť ich presnú polohu. Toto je presne cieľom **detekcie objektov**.
 
-## [Pre-quiz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-quiz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Detekcia objektov](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sk.png)
 
@@ -172,7 +172,7 @@ Prečítajte si tieto články a notebooky o YOLO a vyskúšajte ich sami:
  * Yolo: [Implementácia v Keras](https://github.com/experiencor/keras-yolo2), [krok-za-krokom notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Implementácia v Keras](https://github.com/experiencor/keras-yolo2), [krok-za-krokom notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-quiz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-quiz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Prehľad a samostatné štúdium
 

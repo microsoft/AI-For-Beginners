@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Njia mojawapo ya kufanikisha akili ni mbinu inayoitwa **inayojitokeza** (au **synergetic**), ambayo inategemea ukweli kwamba tabia ya pamoja ya mawakala wengi rahisi inaweza kusababisha tabia ya jumla ya mfumo kuwa ngumu zaidi (au yenye akili). Kimsingi, hii inategemea kanuni za [Akili ya Pamoja](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) na [Cybernetics ya Mageuzi](https://en.wikipedia.org/wiki/Global_brain), ambazo zinasema kwamba mifumo ya kiwango cha juu hupata aina fulani ya thamani ya ziada inapounganishwa vizuri kutoka kwa mifumo ya kiwango cha chini (kanuni inayoitwa *mpito wa metasystem*).
 
-## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Mwelekeo wa **Mfumo wa Wakala Wengi** ulianza kujitokeza katika AI miaka ya 1990 kama jibu la ukuaji wa mtandao na mifumo iliyosambazwa. Mojawapo ya vitabu vya kiada vya AI vya kawaida, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), linaangazia mtazamo wa AI ya kawaida kutoka kwa mtazamo wa mifumo ya wakala wengi.
 
@@ -152,7 +152,7 @@ Yote huwa na mwelekeo wa tabia rahisi ya wakala mmoja, na kufanikisha tabia chan
 
 Chukua somo hili katika ulimwengu halisi na jaribu kufikiria mfumo wa wakala wengi ambao unaweza kutatua tatizo. Kwa mfano, mfumo wa wakala wengi ungehitaji kufanya nini ili kuboresha njia ya basi la shule? Unaweza kufanya kazi vipi katika mkate?
 
-## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Mapitio na Kujifunza Binafsi
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在我們之前的所有任務中，我們都是使用標註數據集來訓練神經網絡以執行特定任務。而對於像 BERT 這樣的大型 Transformer 模型，我們使用自監督的方式進行語言建模來構建語言模型，然後通過進一步的特定領域訓練將其專門化用於特定的下游任務。然而，已經證明大型語言模型也可以在沒有任何特定領域訓練的情況下解決許多任務。能夠做到這一點的一類模型被稱為 **GPT**：生成式預訓練 Transformer。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## 文本生成與困惑度
 
@@ -58,7 +58,7 @@ GPT-3 和 GPT-4 模型可以通過 [Microsoft Azure 的認知服務](https://azu
 
 新的通用預訓練語言模型不僅建模語言結構，還包含大量的自然語言知識。因此，它們可以在零樣本或少樣本設置中有效地解決一些 NLP 任務。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **免責聲明**：  
 本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解釋概不負責。

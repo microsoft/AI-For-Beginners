@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 實現智慧的一種可能方式是所謂的**湧現式**（或**協同式**）方法，這種方法基於一個事實，即許多相對簡單的代理的組合行為可以導致整個系統表現出更複雜（或更智慧）的行為。理論上，這種方法基於[集體智慧](https://en.wikipedia.org/wiki/Collective_intelligence)、[湧現主義](https://en.wikipedia.org/wiki/Global_brain)和[進化控制論](https://en.wikipedia.org/wiki/Global_brain)的原則，這些原則認為，高層次的系統在適當地由低層次系統組合時，會獲得某種附加價值（即所謂的*超系統轉換原則*）。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **多代理系統**的方向在1990年代隨著互聯網和分散式系統的發展而在人工智慧領域中興起。經典的人工智慧教科書之一[《人工智慧：現代方法》](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach)從多代理系統的角度探討了經典人工智慧的觀點。
 
@@ -152,7 +152,7 @@ NetLogo 的世界由以下對象組成：
 
 將這節課的內容應用到現實世界，嘗試構思一個可以解決問題的多代理系統。例如，多代理系統需要做什麼來優化校車路線？它如何在麵包店中運作？
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## 複習與自學
 

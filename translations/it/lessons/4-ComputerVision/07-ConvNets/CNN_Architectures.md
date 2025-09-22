@@ -59,7 +59,7 @@ In questa unità, hai appreso il concetto principale alla base delle reti neural
 
 Nei notebook allegati, ci sono note in fondo su come ottenere una maggiore accuratezza. Fai alcuni esperimenti per vedere se riesci a raggiungere una maggiore accuratezza.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Revisione e Studio Autonomo
 

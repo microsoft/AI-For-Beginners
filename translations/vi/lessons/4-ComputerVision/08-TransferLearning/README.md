@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Huấn luyện CNN có thể mất rất nhiều thời gian và yêu cầu một lượng lớn dữ liệu. Tuy nhiên, phần lớn thời gian được dành để học các bộ lọc cấp thấp tốt nhất mà mạng có thể sử dụng để trích xuất các mẫu từ hình ảnh. Một câu hỏi tự nhiên được đặt ra - liệu chúng ta có thể sử dụng một mạng nơ-ron đã được huấn luyện trên một tập dữ liệu và điều chỉnh nó để phân loại các hình ảnh khác mà không cần một quá trình huấn luyện đầy đủ?
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Phương pháp này được gọi là **học chuyển giao**, bởi vì chúng ta chuyển một số kiến thức từ một mô hình mạng nơ-ron sang một mô hình khác. Trong học chuyển giao, chúng ta thường bắt đầu với một mô hình đã được huấn luyện sẵn, mô hình này đã được huấn luyện trên một tập dữ liệu hình ảnh lớn, chẳng hạn như **ImageNet**. Những mô hình này đã có khả năng tốt trong việc trích xuất các đặc điểm khác nhau từ hình ảnh chung, và trong nhiều trường hợp, chỉ cần xây dựng một bộ phân loại dựa trên những đặc điểm đã trích xuất có thể mang lại kết quả tốt.
 
@@ -76,7 +76,7 @@ Sử dụng học chuyển giao, bạn có thể nhanh chóng tạo ra một b�
 
 Trong các notebook đi kèm, có các ghi chú ở cuối về cách học chuyển giao hoạt động tốt nhất với dữ liệu huấn luyện tương đối giống nhau (có thể là một loại động vật mới). Hãy thử nghiệm với các loại hình ảnh hoàn toàn mới để xem mô hình học chuyển giao của bạn hoạt động tốt hay kém như thế nào.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Ôn Tập & Tự Học
 

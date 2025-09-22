@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [電腦視覺](https://wikipedia.org/wiki/Computer_vision)是一個旨在讓電腦能夠高層次理解數位影像的學科。這是一個相當廣泛的定義，因為*理解*可以有許多不同的含義，包括在圖片中找到物件（**物件偵測**）、理解正在發生的事情（**事件偵測**）、用文字描述圖片，或是以3D重建場景。此外，還有一些與人類影像相關的特殊任務，例如年齡和情緒估算、臉部偵測與識別，以及3D姿態估算等。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 電腦視覺最簡單的任務之一是**影像分類**。
 
@@ -105,7 +105,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 觀看[這段影片](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste)，了解 Cortic Tigers 項目以及他們如何構建基於模塊的解決方案來通過機器人普及電腦視覺任務。研究其他類似項目，了解它們如何幫助新學習者進入這個領域。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## 回顧與自學
 

@@ -59,7 +59,7 @@ Nesta unidade, você aprendeu o conceito principal por trás das redes neurais d
 
 Nos notebooks que acompanham esta unidade, há anotações no final sobre como obter maior precisão. Faça alguns experimentos para ver se você consegue alcançar uma precisão maior.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Revisão e Autoestudo
 

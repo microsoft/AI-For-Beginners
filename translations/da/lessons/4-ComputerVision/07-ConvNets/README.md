@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vi har tidligere set, at neurale netværk er ret gode til at arbejde med billeder, og selv en enkeltlags perceptron kan genkende håndskrevne cifre fra MNIST-datasættet med rimelig nøjagtighed. MNIST-datasættet er dog meget specielt, da alle cifre er centreret i billedet, hvilket gør opgaven enklere.
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 I virkeligheden ønsker vi at kunne genkende objekter på et billede uanset deres præcise placering i billedet. Computer vision adskiller sig fra generisk klassifikation, fordi vi, når vi forsøger at finde et bestemt objekt på et billede, scanner billedet for at finde specifikke **mønstre** og deres kombinationer. For eksempel, når vi leder efter en kat, kan vi først kigge efter horisontale linjer, som kan danne knurhår, og derefter kan en bestemt kombination af knurhår fortælle os, at det faktisk er et billede af en kat. Den relative position og tilstedeværelsen af visse mønstre er vigtig, og ikke deres præcise placering på billedet.
 

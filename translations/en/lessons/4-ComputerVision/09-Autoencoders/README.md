@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 When training CNNs, one challenge is the need for a large amount of labeled data. For example, in image classification, we must manually sort images into different categories.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 However, we can use raw (unlabeled) data to train CNN feature extractors, a method known as **self-supervised learning**. Instead of labels, training images serve as both the input and output for the network. The main concept of an **autoencoder** is to use an **encoder network** to transform the input image into a **latent space** (usually a smaller vector), followed by a **decoder network** that reconstructs the original image.
 
@@ -80,7 +80,7 @@ Explore autoencoders further in these notebooks:
 * **Lossy** - The reconstructed image differs from the original image. The nature of the loss depends on the *loss function* used during training.
 * Works on **unlabeled data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Conclusion
 
@@ -90,7 +90,7 @@ In this lesson, you explored different types of autoencoders available to AI pra
 
 This lesson focused on using autoencoders for images, but they can also be applied to music! Check out the Magenta project's [MusicVAE](https://magenta.tensorflow.org/music-vae), which uses autoencoders to reconstruct music. Experiment with the [library](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) to see what you can create.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review & Self Study
 

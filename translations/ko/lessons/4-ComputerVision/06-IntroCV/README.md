@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [컴퓨터 비전](https://wikipedia.org/wiki/Computer_vision)은 디지털 이미지를 통해 컴퓨터가 고수준의 이해를 할 수 있도록 하는 것을 목표로 하는 학문입니다. 이는 매우 광범위한 정의인데, *이해*라는 것이 사진에서 객체를 찾는 것(**객체 탐지**), 무슨 일이 일어나고 있는지 이해하는 것(**이벤트 탐지**), 사진을 텍스트로 설명하는 것, 또는 3D로 장면을 재구성하는 것 등 다양한 의미를 가질 수 있기 때문입니다. 또한 인간 이미지를 다루는 특별한 작업들도 있습니다: 나이와 감정 추정, 얼굴 탐지 및 식별, 3D 자세 추정 등이 그 예입니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 컴퓨터 비전의 가장 간단한 작업 중 하나는 **이미지 분류**입니다.
 
@@ -105,7 +105,7 @@ OpenCV를 사용하여 비디오를 프레임 단위로 로드할 수도 있습�
 
 AI 쇼의 [이 비디오](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste)를 시청하여 Cortic Tigers 프로젝트와 로봇을 통해 컴퓨터 비전 작업을 민주화하는 블록 기반 솔루션을 구축한 방법을 알아보세요. 이와 유사하게 새로운 학습자를 컴퓨터 비전 분야로 유도하는 다른 프로젝트를 조사해 보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## 복습 및 자기 학습
 

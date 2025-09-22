@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wcześniej poznaliśmy Wykrywanie Obiektów, które pozwala nam lokalizować obiekty na obrazie poprzez przewidywanie ich *ramki ograniczającej* (bounding box). Jednak w niektórych zadaniach potrzebujemy nie tylko ramek ograniczających, ale także bardziej precyzyjnej lokalizacji obiektów. To zadanie nazywa się **segmentacją**.
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentację można postrzegać jako **klasyfikację pikseli**, gdzie dla **każdego** piksela obrazu musimy przewidzieć jego klasę (*tło* jest jedną z klas). Istnieją dwa główne algorytmy segmentacji:
 
@@ -56,7 +56,7 @@ Otwórz poniższe notatniki, aby dowiedzieć się więcej o różnych architektu
 * [Segmentacja semantyczna w Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Segmentacja semantyczna w TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Podsumowanie
 

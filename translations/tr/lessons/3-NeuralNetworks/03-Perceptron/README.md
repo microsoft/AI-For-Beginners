@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sinir Ağlarına Giriş: Perceptron
 
-## [Ders Öncesi Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Modern sinir ağına benzer bir şeyin ilk uygulama girişimlerinden biri, 1957 yılında Cornell Havacılık Laboratuvarı'ndan Frank Rosenblatt tarafından gerçekleştirildi. Bu, "Mark-1" olarak adlandırılan ve üçgenler, kareler ve daireler gibi basit geometrik şekilleri tanımak için tasarlanmış bir donanım uygulamasıydı.
 
@@ -85,7 +85,7 @@ Bu derste, ikili sınıflandırma modeli olan perceptronu ve ağırlık vektör�
 
 Kendi perceptronunuzu oluşturmayı denemek isterseniz, [Microsoft Learn'deki bu laboratuvarı](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) deneyebilirsiniz. Bu laboratuvar, [Azure ML tasarımcısını](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) kullanır.
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

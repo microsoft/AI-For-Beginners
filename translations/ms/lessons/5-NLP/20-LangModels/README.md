@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dalam semua tugasan sebelum ini, kita melatih rangkaian neural untuk melaksanakan tugas tertentu menggunakan set data berlabel. Dengan model transformer besar seperti BERT, kita menggunakan pemodelan bahasa secara kendiri untuk membina model bahasa, yang kemudiannya disesuaikan untuk tugas hiliran tertentu dengan latihan tambahan yang khusus kepada domain. Walau bagaimanapun, telah dibuktikan bahawa model bahasa besar juga boleh menyelesaikan banyak tugas tanpa latihan khusus domain. Keluarga model yang mampu melakukan ini dipanggil **GPT**: Generative Pre-Trained Transformer.
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Penjanaan Teks dan Perpleksiti
 
@@ -58,7 +58,7 @@ Teruskan pembelajaran anda dalam buku nota berikut:
 
 Model bahasa pra-latihan umum yang baru bukan sahaja memodelkan struktur bahasa, tetapi juga mengandungi sejumlah besar bahasa semula jadi. Oleh itu, ia boleh digunakan secara berkesan untuk menyelesaikan beberapa tugas NLP dalam tetapan zero-shot atau few-shot.
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

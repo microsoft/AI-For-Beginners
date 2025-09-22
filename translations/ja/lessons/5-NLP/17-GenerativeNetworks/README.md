@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 生成ネットワーク
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 リカレントニューラルネットワーク（RNN）とそのゲート付きセルのバリエーション（Long Short Term Memory Cells（LSTM）やGated Recurrent Units（GRU）など）は、単語の順序を学習し、シーケンス内の次の単語を予測することで、言語モデリングのメカニズムを提供します。これにより、RNNを使用して、通常のテキスト生成、機械翻訳、さらには画像キャプション生成といった**生成タスク**を実行することが可能になります。
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)を使ったテキスト生成
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## 復習と自己学習
 

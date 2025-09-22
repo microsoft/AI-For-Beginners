@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 以前、物体検出について学びました。物体検出では、画像内の物体を特定し、その*バウンディングボックス*を予測することで位置を特定します。しかし、いくつかのタスクではバウンディングボックスだけでなく、より正確な物体の位置情報が必要です。このタスクは**セグメンテーション**と呼ばれます。
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 セグメンテーションは**ピクセル分類**として見ることができます。画像の**各**ピクセルについて、そのクラス（*背景*もクラスの一つ）を予測する必要があります。セグメンテーションには主に2つのアルゴリズムがあります：
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## 結論
 

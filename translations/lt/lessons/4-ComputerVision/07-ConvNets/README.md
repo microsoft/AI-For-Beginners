@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Anksčiau matėme, kad neuroniniai tinklai puikiai susidoroja su vaizdais, ir net vieno sluoksnio perceptronas gali atpažinti ranka rašytus skaitmenis iš MNIST duomenų rinkinio su pakankamu tikslumu. Tačiau MNIST duomenų rinkinys yra labai specifinis – visi skaitmenys yra centruoti vaizde, todėl užduotis tampa paprastesnė.
 
-## [Klausimynas prieš paskaitą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Realiame gyvenime norime atpažinti objektus paveikslėlyje, nepaisant jų tikslios vietos vaizde. Kompiuterinis matymas skiriasi nuo bendro klasifikavimo, nes bandydami rasti tam tikrą objektą paveikslėlyje, skenuojame vaizdą ieškodami specifinių **raštų** ir jų kombinacijų. Pavyzdžiui, ieškodami katės, pirmiausia galime ieškoti horizontalių linijų, kurios gali sudaryti ūsus, o tam tikra ūsų kombinacija gali pasakyti, kad tai iš tiesų katės paveikslėlis. Svarbi yra santykinė tam tikrų raštų padėtis ir buvimas, o ne jų tiksli vieta vaizde.
 

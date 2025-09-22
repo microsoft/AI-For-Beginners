@@ -208,7 +208,7 @@ Today, AI is often equated with *Machine Learning* or *Neural Networks*. However
 
 In the Family Ontology notebook linked to this lesson, experiment with other family relationships. Try to uncover new connections between individuals in the family tree.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Review & Self Study
 

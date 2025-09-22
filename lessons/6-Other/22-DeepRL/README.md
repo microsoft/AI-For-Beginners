@@ -2,7 +2,7 @@
 
 Reinforcement learning (RL) is seen as one of the basic machine learning paradigms, next to supervised learning and unsupervised learning. While in supervised learning we rely on the dataset with known outcomes, RL is based on **learning by doing**. For example, when we first see a computer game, we start playing, even without knowing the rules, and soon we are able to improve our skills just by the process of playing and adjusting our behavior.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 To perform RL, we need:
 
@@ -101,7 +101,7 @@ We have now learned how to train agents to achieve good results just by providin
 
 Explore the applications listed in the 'Other RL Tasks' section and try to implement one!
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Review & Self Study
 

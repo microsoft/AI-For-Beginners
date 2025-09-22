@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # شبکه‌های عصبی بازگشتی
 
-## [پیش‌زمینه: آزمون کوتاه](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [پیش‌زمینه: آزمون کوتاه](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 در بخش‌های قبلی، ما از نمایش‌های معنایی غنی متن و یک طبقه‌بند خطی ساده بر روی تعبیه‌ها استفاده کرده‌ایم. این معماری معنای کلی کلمات در یک جمله را ثبت می‌کند، اما ترتیب کلمات را در نظر نمی‌گیرد، زیرا عملیات تجمیع بر روی تعبیه‌ها این اطلاعات را از متن اصلی حذف می‌کند. به دلیل اینکه این مدل‌ها قادر به مدل‌سازی ترتیب کلمات نیستند، نمی‌توانند وظایف پیچیده‌تر یا مبهم‌تر مانند تولید متن یا پاسخ به سوالات را حل کنند.
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [آزمون پس از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [آزمون پس از درس](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## مرور و مطالعه خودآموز
 

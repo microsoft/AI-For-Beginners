@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # الشبكات التوليدية
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 توفر الشبكات العصبية المتكررة (RNNs) وأنواعها المختلفة مثل خلايا الذاكرة طويلة المدى (LSTMs) ووحدات التكرار المغلقة (GRUs) آلية لنمذجة اللغة، حيث يمكنها تعلم ترتيب الكلمات وتقديم توقعات للكلمة التالية في تسلسل معين. يتيح لنا ذلك استخدام RNNs في **المهام التوليدية**، مثل توليد النصوص العادية، والترجمة الآلية، وحتى وصف الصور.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * توليد النصوص باستخدام [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## المراجعة والدراسة الذاتية
 

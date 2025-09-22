@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 اب تک ہم نے جو امیج کلاسیفیکیشن ماڈلز دیکھے ہیں، وہ ایک تصویر لیتے ہیں اور ایک کیٹیگری کا نتیجہ دیتے ہیں، جیسے MNIST مسئلے میں کلاس 'نمبر'۔ لیکن اکثر ہمیں صرف یہ جاننا نہیں ہوتا کہ تصویر میں اشیاء موجود ہیں - بلکہ ہم ان کی صحیح جگہ کا تعین کرنا چاہتے ہیں۔ یہی **آبجیکٹ ڈیٹیکشن** کا مقصد ہے۔
 
-## [پری لیکچر کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [پری لیکچر کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![آبجیکٹ ڈیٹیکشن](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ur.png)
 
@@ -172,7 +172,7 @@ YOLO ایک ریئل ٹائم ون پاس الگورتھم ہے۔ بنیادی �
  * YOLO: [Keras امپلیمنٹیشن](https://github.com/experiencor/keras-yolo2)، [اسٹیپ بائی اسٹیپ نوٹ بک](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Keras امپلیمنٹیشن](https://github.com/experiencor/keras-yolo2)، [اسٹیپ بائی اسٹیپ نوٹ بک](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [پوسٹ لیکچر کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [پوسٹ لیکچر کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## جائزہ اور خود مطالعہ
 

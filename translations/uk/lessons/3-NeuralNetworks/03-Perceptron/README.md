@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Вступ до нейронних мереж: Перцептрон
 
-## [Тест перед лекцією](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Однією з перших спроб реалізувати щось схоже на сучасну нейронну мережу була робота Френка Розенблатта з Корнельської аеронавтичної лабораторії у 1957 році. Це була апаратна реалізація під назвою "Mark-1", створена для розпізнавання простих геометричних фігур, таких як трикутники, квадрати та кола.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 Якщо ви хочете спробувати створити власний перцептрон, спробуйте [цю лабораторну роботу на Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), яка використовує [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Тест після лекції](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Тест після лекції](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Огляд і самостійне навчання
 

@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 De asemenea, vom dezvolta propriul nostru cadru modular în Python, care ne va permite să construim diferite arhitecturi de rețele neurale.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalizarea Învățării Automate
 
@@ -81,7 +81,7 @@ Observați că partea din stânga a tuturor acestor expresii este aceeași, și 
 
 Accesează notebook-ul [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) și parcurge-l.
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Recapitulare și Studiu Individual
 

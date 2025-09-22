@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) adalah sebuah disiplin ilmu yang bertujuan untuk memungkinkan komputer memahami gambar digital pada tingkat yang lebih tinggi. Definisi ini cukup luas, karena *memahami* dapat berarti banyak hal, termasuk menemukan objek dalam gambar (**deteksi objek**), memahami apa yang sedang terjadi (**deteksi peristiwa**), mendeskripsikan gambar dalam bentuk teks, atau merekonstruksi sebuah adegan dalam 3D. Ada juga tugas-tugas khusus yang berkaitan dengan gambar manusia: estimasi usia dan emosi, deteksi dan identifikasi wajah, serta estimasi pose 3D, untuk beberapa contoh.
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Salah satu tugas paling sederhana dalam computer vision adalah **klasifikasi gambar**.
 
@@ -105,7 +105,7 @@ Terkadang, tugas yang relatif kompleks seperti deteksi gerakan atau deteksi ujun
 
 Tonton [video ini](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) dari AI show untuk mempelajari tentang proyek Cortic Tigers dan bagaimana mereka membangun solusi berbasis blok untuk mendemokratisasi tugas computer vision melalui robot. Lakukan penelitian tentang proyek lain seperti ini yang membantu pemula masuk ke bidang ini.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Tinjauan & Studi Mandiri
 

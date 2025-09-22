@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # เครือข่ายประสาทเทียมแบบวนซ้ำ (Recurrent Neural Networks)
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 ในส่วนก่อนหน้านี้ เราได้ใช้การแสดงผลเชิงความหมายที่ซับซ้อนของข้อความและตัวจำแนกเชิงเส้นแบบง่ายที่อยู่บน embeddings สถาปัตยกรรมนี้ช่วยจับความหมายรวมของคำในประโยค แต่ไม่ได้คำนึงถึง **ลำดับ** ของคำ เนื่องจากการดำเนินการรวมบน embeddings ได้ลบข้อมูลนี้ออกไปจากข้อความต้นฉบับ ด้วยเหตุนี้ โมเดลเหล่านี้จึงไม่สามารถจำลองลำดับของคำได้ และไม่สามารถแก้ปัญหาที่ซับซ้อนหรือคลุมเครือ เช่น การสร้างข้อความหรือการตอบคำถามได้
 
@@ -84,7 +84,7 @@ CO_OP_TRANSLATOR_METADATA:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## การทบทวนและการศึกษาด้วยตนเอง
 

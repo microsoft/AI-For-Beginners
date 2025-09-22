@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Tegning av [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Kunstig intelligens** er en spennende vitenskapelig disiplin som studerer hvordan vi kan få datamaskiner til å vise intelligent atferd, f.eks. gjøre de tingene som mennesker er gode til å gjøre.
 
@@ -151,7 +151,7 @@ De siste årene har vi vært vitne til store suksesser med store språkmodeller,
 
 Ta en tur på internett for å finne ut hvor, etter din mening, AI brukes mest effektivt. Er det i en kartleggingsapp, en tale-til-tekst-tjeneste eller et videospill? Undersøk hvordan systemet ble bygget.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Gjennomgang & Selvstudium
 

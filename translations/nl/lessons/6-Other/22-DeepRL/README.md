@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Reinforcement learning (RL) wordt gezien als een van de fundamentele machine learning paradigma's, naast supervised learning en unsupervised learning. Terwijl we bij supervised learning vertrouwen op een dataset met bekende uitkomsten, is RL gebaseerd op **leren door te doen**. Bijvoorbeeld, wanneer we voor het eerst een computerspel zien, beginnen we te spelen, zelfs zonder de regels te kennen, en al snel verbeteren we onze vaardigheden simpelweg door te spelen en ons gedrag aan te passen.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Om RL uit te voeren, hebben we nodig:
 
@@ -110,7 +110,7 @@ We hebben nu geleerd hoe we agenten kunnen trainen om goede resultaten te behale
 
 Verken de toepassingen die worden vermeld in de sectie 'Andere RL Taken' en probeer er een te implementeren!
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Review & Zelfstudie
 

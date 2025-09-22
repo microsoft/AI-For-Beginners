@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我们之前讨论的图像分类模型通常会接收一张图片并输出一个类别结果，例如在 MNIST 问题中输出类别“数字”。然而，在许多情况下，我们不仅仅想知道图片中是否有物体——我们还希望能够确定它们的具体位置。这正是**目标检测**的核心所在。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![目标检测](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.zh.png)
 
@@ -172,7 +172,7 @@ YOLO 是一种实时单次检测算法。其核心思想如下：
  * YOLO：[Keras 实现](https://github.com/experiencor/keras-yolo2)，[逐步笔记本](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2：[Keras 实现](https://github.com/experiencor/keras-yolo2)，[逐步笔记本](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## 复习与自学
 

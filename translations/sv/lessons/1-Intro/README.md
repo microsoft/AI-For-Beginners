@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Skiss av [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Artificiell intelligens** är en spännande vetenskaplig disciplin som studerar hur vi kan få datorer att uppvisa intelligent beteende, t.ex. göra sådant som människor är bra på att göra.
 
@@ -151,7 +151,7 @@ Under de senaste åren har vi bevittnat stora framgångar med stora språkmodell
 
 Gör en rundtur på internet för att avgöra var AI, enligt din mening, används mest effektivt. Är det i en kartapp, någon tal-till-text-tjänst eller ett videospel? Undersök hur systemet byggdes.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Granskning & Självstudier
 

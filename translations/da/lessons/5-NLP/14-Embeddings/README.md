@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Indlejring
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Når vi træner klassifikatorer baseret på BoW eller TF/IDF, arbejder vi med høj-dimensionelle bag-of-words vektorer med længden `vocab_size`, og vi konverterer eksplicit fra lav-dimensionelle positionsrepræsentationsvektorer til sparsomme one-hot repræsentationer. Denne one-hot repræsentation er dog ikke hukommelseseffektiv. Derudover behandles hvert ord uafhængigt af hinanden, dvs. one-hot kodede vektorer udtrykker ikke nogen semantisk lighed mellem ord.
 
@@ -65,7 +65,7 @@ I denne lektion har du opdaget, hvordan man bygger og bruger indlejringslag i Te
 
 Word2Vec er blevet brugt til nogle interessante anvendelser, herunder generering af sangtekster og poesi. Tag et kig på [denne artikel](https://www.politetype.com/blog/word2vec-color-poems), som gennemgår, hvordan forfatteren brugte Word2Vec til at generere poesi. Se også [denne video af Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) for at opdage en anden forklaring af denne teknik. Prøv derefter at anvende disse teknikker på din egen tekstkorpus, måske hentet fra Kaggle.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Gennemgang & Selvstudie
 

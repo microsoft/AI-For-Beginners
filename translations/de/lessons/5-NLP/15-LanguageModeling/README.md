@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantische Einbettungen wie Word2Vec und GloVe sind tatsächlich ein erster Schritt in Richtung **Sprachmodellierung** – Modelle zu erstellen, die die Natur der Sprache irgendwie *verstehen* (oder *repräsentieren*).
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Die Hauptidee hinter der Sprachmodellierung besteht darin, Modelle auf unbeschrifteten Datensätzen in einer unüberwachten Weise zu trainieren. Das ist wichtig, da uns riesige Mengen an unbeschriftetem Text zur Verfügung stehen, während die Menge an beschriftetem Text immer durch den Aufwand begrenzt ist, den wir für die Beschriftung aufbringen können. Meistens können wir Sprachmodelle erstellen, die **fehlende Wörter** im Text vorhersagen, da es einfach ist, ein zufälliges Wort im Text auszublenden und es als Trainingsbeispiel zu verwenden.
 
@@ -38,7 +38,7 @@ Setze dein Lernen in den folgenden Notebooks fort:
 
 In der vorherigen Lektion haben wir gesehen, dass Wort-Einbettungen wie Magie funktionieren! Jetzt wissen wir, dass das Training von Wort-Einbettungen keine sehr komplexe Aufgabe ist, und wir sollten in der Lage sein, unsere eigenen Wort-Einbettungen für textspezifische Domänen zu trainieren, falls erforderlich.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Rückblick & Selbststudium
 

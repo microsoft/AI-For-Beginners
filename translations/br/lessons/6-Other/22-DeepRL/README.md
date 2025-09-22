@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 O aprendizado por reforço (RL) é considerado um dos paradigmas básicos de aprendizado de máquina, ao lado do aprendizado supervisionado e não supervisionado. Enquanto no aprendizado supervisionado dependemos de um conjunto de dados com resultados conhecidos, o RL é baseado no **aprender fazendo**. Por exemplo, quando vemos um jogo de computador pela primeira vez, começamos a jogar, mesmo sem conhecer as regras, e logo conseguimos melhorar nossas habilidades apenas pelo processo de jogar e ajustar nosso comportamento.
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Para realizar RL, precisamos de:
 
@@ -110,7 +110,7 @@ Agora aprendemos como treinar agentes para alcançar bons resultados apenas forn
 
 Explore as aplicações listadas na seção 'Outras Tarefas de RL' e tente implementar uma delas!
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Revisão e Autoestudo
 

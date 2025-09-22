@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 I föregående avsnitt lärde vi oss om **generativa modeller**: modeller som kan generera nya bilder som liknar de i träningsdatamängden. VAE var ett bra exempel på en generativ modell.
 
-## [Förtest](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Förtest](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Men om vi försöker generera något riktigt meningsfullt, som en målning med rimlig upplösning, med VAE, kommer vi att märka att träningen inte konvergerar särskilt bra. För detta användningsfall bör vi lära oss om en annan arkitektur som är specifikt inriktad på generativa modeller - **Generativa Adversariella Nätverk**, eller GANs.
 
@@ -84,7 +84,7 @@ Så här fungerar det:
 
 ## ✍️ Exempel: [Stilöverföring](StyleTransfer.ipynb)
 
-## [Eftertest](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Eftertest](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Slutsats
 

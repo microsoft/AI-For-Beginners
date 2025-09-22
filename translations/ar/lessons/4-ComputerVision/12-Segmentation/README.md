@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 لقد تعلمنا سابقًا عن اكتشاف الكائنات، الذي يسمح لنا بتحديد مواقع الكائنات في الصورة من خلال التنبؤ بـ *الصناديق المحيطة*. ومع ذلك، في بعض المهام، لا نحتاج فقط إلى الصناديق المحيطة، بل نحتاج أيضًا إلى تحديد مواقع الكائنات بدقة أكبر. تُعرف هذه المهمة بـ **التقسيم**.
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 يمكن اعتبار التقسيم على أنه **تصنيف البكسلات**، حيث يجب علينا التنبؤ بفئة **كل** بكسل في الصورة (*الخلفية* تكون واحدة من الفئات). هناك نوعان رئيسيان من خوارزميات التقسيم:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [التقسيم الدلالي باستخدام Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [التقسيم الدلالي باستخدام TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## الخلاصة
 

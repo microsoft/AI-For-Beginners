@@ -1,6 +1,6 @@
 # Mekanisme Perhatian dan Transformer
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Salah satu masalah terpenting dalam domain NLP adalah **penerjemahan mesin**, sebuah tugas penting yang menjadi dasar alat seperti Google Translate. Di bagian ini, kita akan fokus pada penerjemahan mesin, atau, lebih umum, pada setiap tugas *urutan-ke-urutan* (yang juga disebut **transduksi kalimat**).
 
@@ -99,7 +99,7 @@ Dalam pelajaran ini, Anda belajar tentang Transformers dan Mekanisme Perhatian, 
 
 ## 🚀 Tantangan
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Tinjauan & Studi Mandiri
 

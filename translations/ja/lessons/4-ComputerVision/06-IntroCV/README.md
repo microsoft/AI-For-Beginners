@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [コンピュータビジョン](https://wikipedia.org/wiki/Computer_vision)は、コンピュータがデジタル画像を高レベルで理解できるようにすることを目的とした分野です。この定義は非常に広範であり、「理解する」ということは、画像内の物体を見つける（**物体検出**）、何が起きているかを理解する（**イベント検出**）、画像をテキストで説明する、または3Dでシーンを再構築するなど、さまざまな意味を持ちます。人間の画像に関連する特別なタスクもあり、例えば年齢や感情の推定、顔の検出と識別、3Dポーズ推定などがあります。
 
-## [講義前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [講義前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 コンピュータビジョンの最も基本的なタスクの一つは、**画像分類**です。
 
@@ -105,7 +105,7 @@ OpenCVを使用してビデオをフレームごとに読み込むことも可�
 
 AIショーの[このビデオ](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste)を視聴して、Cortic Tigersプロジェクトについて学び、彼らがロボットを通じてコンピュータビジョンタスクを民主化するブロックベースのソリューションをどのように構築したかを確認してください。この分野への新しい学習者を導入するのに役立つ他のプロジェクトについても調査してみてください。
 
-## [講義後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [講義後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## 復習と自己学習
 

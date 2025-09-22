@@ -14,7 +14,7 @@ Như chúng ta đã học, để có thể huấn luyện mạng neural một c�
 * Thao tác trên các tensor, ví dụ như nhân, cộng, và tính các hàm như sigmoid hoặc softmax
 * Tính gradient của tất cả các biểu thức, để thực hiện tối ưu hóa bằng phương pháp gradient descent
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Mặc dù thư viện `numpy` có thể thực hiện phần đầu tiên, chúng ta cần một cơ chế để tính gradient. Trong [framework của chúng ta](../04-OwnFramework/OwnFramework.ipynb) mà chúng ta đã phát triển ở phần trước, chúng ta phải tự lập trình tất cả các hàm đạo hàm bên trong phương thức `backward`, phương thức thực hiện backpropagation. Lý tưởng nhất, một framework nên cho phép chúng ta tính gradient của *bất kỳ biểu thức nào* mà chúng ta có thể định nghĩa.
 
@@ -106,7 +106,7 @@ Trong bài học này, bạn đã học về sự khác biệt giữa các API k
 
 Trong các notebook đi kèm, bạn sẽ tìm thấy 'nhiệm vụ' ở cuối; hãy làm việc qua các notebook và hoàn thành các nhiệm vụ.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Ôn tập & Tự học
 

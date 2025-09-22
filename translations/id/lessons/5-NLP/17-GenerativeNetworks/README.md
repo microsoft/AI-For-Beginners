@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Jaringan Generatif
 
-## [Kuis Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) dan varian sel ber-gate seperti Long Short Term Memory Cells (LSTMs) dan Gated Recurrent Units (GRUs) menyediakan mekanisme untuk pemodelan bahasa karena mereka dapat mempelajari urutan kata dan memberikan prediksi untuk kata berikutnya dalam sebuah rangkaian. Hal ini memungkinkan kita menggunakan RNN untuk **tugas generatif**, seperti pembuatan teks biasa, penerjemahan mesin, dan bahkan pembuatan keterangan gambar.
 
@@ -71,7 +71,7 @@ Ikuti beberapa pelajaran di Microsoft Learn tentang topik ini
 
 * Pembuatan Teks dengan [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Kuis Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Tinjauan & Studi Mandiri
 

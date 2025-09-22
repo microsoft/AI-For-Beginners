@@ -14,7 +14,7 @@ Zoals we al hebben geleerd, moeten we twee dingen doen om neurale netwerken effi
 * Werken met tensors, bijvoorbeeld vermenigvuldigen, optellen en functies zoals sigmoid of softmax berekenen.
 * Gradienten berekenen van alle uitdrukkingen, om optimalisatie via gradient descent uit te voeren.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Hoewel de `numpy`-bibliotheek het eerste deel kan uitvoeren, hebben we een mechanisme nodig om gradienten te berekenen. In [ons framework](../04-OwnFramework/OwnFramework.ipynb) dat we in de vorige sectie hebben ontwikkeld, moesten we handmatig alle afgeleide functies programmeren in de `backward`-methode, die backpropagation uitvoert. Idealiter zou een framework ons de mogelijkheid moeten bieden om gradienten te berekenen van *elke uitdrukking* die we kunnen definiëren.
 
@@ -106,7 +106,7 @@ In deze les heb je geleerd over de verschillen tussen de verschillende APIs voor
 
 In de bijbehorende notebooks vind je 'taken' onderaan; werk door de notebooks en voltooi de taken.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Review & Zelfstudie
 

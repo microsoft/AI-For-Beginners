@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 El aprendizaje por refuerzo (RL, por sus siglas en inglés) se considera uno de los paradigmas básicos del aprendizaje automático, junto con el aprendizaje supervisado y no supervisado. Mientras que en el aprendizaje supervisado dependemos de un conjunto de datos con resultados conocidos, el RL se basa en **aprender haciendo**. Por ejemplo, cuando vemos un videojuego por primera vez, comenzamos a jugar, incluso sin conocer las reglas, y pronto somos capaces de mejorar nuestras habilidades simplemente jugando y ajustando nuestro comportamiento.
 
-## [Cuestionario previo a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Para realizar RL, necesitamos:
 
@@ -110,7 +110,7 @@ Ahora hemos aprendido cómo entrenar agentes para lograr buenos resultados simpl
 
 Explora las aplicaciones enumeradas en la sección 'Otras Tareas de RL' e intenta implementar una.
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Revisión y Autoestudio
 

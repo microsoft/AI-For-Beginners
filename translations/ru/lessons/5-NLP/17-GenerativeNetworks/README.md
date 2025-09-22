@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Генеративные сети
 
-## [Тест перед лекцией](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Рекуррентные нейронные сети (RNN) и их варианты с управляемыми ячейками, такие как ячейки долгосрочной памяти (LSTM) и управляемые рекуррентные блоки (GRU), предоставляют механизм для моделирования языка, так как они могут изучать порядок слов и предсказывать следующее слово в последовательности. Это позволяет использовать RNN для **генеративных задач**, таких как обычная генерация текста, машинный перевод и даже создание подписей к изображениям.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * Генерация текста с [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Тест после лекции](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Тест после лекции](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Обзор и самостоятельное изучение
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Trénovanie CNN môže zabrať veľa času a vyžaduje veľké množstvo dát. Avšak veľká časť času sa venuje učeniu najlepších nízkoúrovňových filtrov, ktoré sieť môže použiť na extrahovanie vzorov z obrázkov. Prirodzene sa vynára otázka - môžeme použiť neurónovú sieť natrénovanú na jednom datasete a prispôsobiť ju na klasifikáciu iných obrázkov bez potreby kompletného procesu trénovania?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Tento prístup sa nazýva **transferové učenie**, pretože prenášame určitú znalosť z jedného modelu neurónovej siete na druhý. Pri transferovom učení zvyčajne začíname s predtrénovaným modelom, ktorý bol natrénovaný na veľkom datasete obrázkov, ako je napríklad **ImageNet**. Tieto modely už dokážu dobre extrahovať rôzne vlastnosti z generických obrázkov, a v mnohých prípadoch stačí postaviť klasifikátor na vrchole týchto extrahovaných vlastností, aby sme dosiahli dobrý výsledok.
 
@@ -76,7 +76,7 @@ Pomocou transferového učenia môžete rýchlo zostaviť klasifikátor pre úlo
 
 V sprievodných notebookoch sú poznámky na spodku o tom, ako transferové znalosti najlepšie fungujú s trochu podobnými trénovacími dátami (napríklad nový typ zvieraťa). Urobte experimenty s úplne novými typmi obrázkov, aby ste zistili, ako dobre alebo zle vaše modely transferových znalostí fungujú.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Prehľad & Samoštúdium
 

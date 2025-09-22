@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مقدمه‌ای بر شبکه‌های عصبی: پرسپترون
 
-## [پیش‌زمینه آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [پیش‌زمینه آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 یکی از اولین تلاش‌ها برای پیاده‌سازی چیزی مشابه شبکه‌های عصبی مدرن توسط فرانک روزنبلات از آزمایشگاه هوافضای کورنل در سال ۱۹۵۷ انجام شد. این پیاده‌سازی سخت‌افزاری به نام "Mark-1" طراحی شده بود تا اشکال هندسی ابتدایی مانند مثلث، مربع و دایره را تشخیص دهد.
 
@@ -84,7 +84,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 اگر دوست دارید پرسپترون خود را بسازید، این [آزمایش در Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) را امتحان کنید که از [طراح Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) استفاده می‌کند.
 
-## [آزمون پس از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [آزمون پس از درس](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## مرور و مطالعه شخصی
 

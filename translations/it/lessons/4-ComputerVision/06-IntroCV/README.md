@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) è una disciplina il cui obiettivo è permettere ai computer di ottenere una comprensione di alto livello delle immagini digitali. Questa è una definizione piuttosto ampia, poiché *comprensione* può significare molte cose, tra cui trovare un oggetto in un'immagine (**rilevamento di oggetti**), capire cosa sta accadendo (**rilevamento di eventi**), descrivere un'immagine in testo o ricostruire una scena in 3D. Ci sono anche compiti specifici legati alle immagini umane: stima dell'età e delle emozioni, rilevamento e identificazione del volto, e stima della posa in 3D, solo per citarne alcuni.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Uno dei compiti più semplici della visione artificiale è la **classificazione delle immagini**.
 
@@ -105,7 +105,7 @@ A volte, compiti relativamente complessi come il rilevamento del movimento o il 
 
 Guarda [questo video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) dello show AI per conoscere il progetto Cortic Tigers e come hanno costruito una soluzione basata su blocchi per democratizzare i compiti di visione artificiale tramite un robot. Fai qualche ricerca su altri progetti simili che aiutano i nuovi studenti ad avvicinarsi al campo.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Revisione e studio autonomo
 

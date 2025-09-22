@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Prej smo se naučili o zaznavanju objektov, ki nam omogoča lociranje objektov na sliki z napovedovanjem njihovih *omejevalnih okvirjev*. Vendar pa za nekatere naloge ne potrebujemo le omejevalnih okvirjev, temveč tudi bolj natančno lokalizacijo objektov. Ta naloga se imenuje **segmentacija**.
 
-## [Pre-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentacijo lahko obravnavamo kot **klasifikacijo pikslov**, kjer moramo za **vsak** piksel slike napovedati njegov razred (*ozadje* je eden od razredov). Obstajata dva glavna algoritma za segmentacijo:
 
@@ -56,7 +56,7 @@ Odprite spodnje zvezke, da se naučite več o različnih arhitekturah semantičn
 * [Semantična segmentacija Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantična segmentacija TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Po-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Po-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Zaključek
 

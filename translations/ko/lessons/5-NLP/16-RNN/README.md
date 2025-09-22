@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 순환 신경망 (Recurrent Neural Networks)
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 이전 섹션에서는 텍스트의 풍부한 의미 표현과 임베딩 위에 간단한 선형 분류기를 사용했습니다. 이 아키텍처는 문장에서 단어의 집합적인 의미를 포착하지만, 임베딩 위의 집계 작업이 원본 텍스트에서 이 정보를 제거했기 때문에 단어의 **순서**를 고려하지 않습니다. 이러한 모델은 단어 순서를 모델링할 수 없기 때문에 텍스트 생성이나 질문 응답과 같은 더 복잡하거나 모호한 작업을 해결할 수 없습니다.
 
@@ -84,7 +84,7 @@ LSTM에 대한 문헌을 읽고 그 응용 사례를 고려해보세요:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## 복습 및 자기 학습
 

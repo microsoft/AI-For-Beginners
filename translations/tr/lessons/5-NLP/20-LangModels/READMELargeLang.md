@@ -2,7 +2,7 @@
 
 Önceki görevlerimizde, etiketlenmiş veri seti kullanarak belirli bir görevi yerine getirmek için bir sinir ağı eğitiyorduk. BERT gibi büyük dönüştürücü modellerle, dil modellemesini kendi kendine denetimli bir şekilde kullanarak bir dil modeli oluşturuyoruz; bu model daha sonra belirli bir alt görev için daha fazla alan spesifik eğitimi ile özelleştiriliyor. Ancak, büyük dil modellerinin herhangi bir alan spesifik eğitimi olmadan birçok görevi de çözebileceği gösterilmiştir. Bunu yapabilen modeller ailesine **GPT** denir: Üretken Önceden Eğitilmiş Dönüştürücü.
 
-## [Öncesi ders sınavı](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Öncesi ders sınavı](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Metin Üretimi ve Perpleksite
 
@@ -49,7 +49,7 @@ Aşağıdaki not defterlerinde öğrenmeye devam edin:
 
 Yeni genel önceden eğitilmiş dil modelleri sadece dil yapısını modellemekle kalmaz, aynı zamanda büyük miktarda doğal dil içerir. Bu nedenle, bazı NLP görevlerini sıfırdan veya az sayıda örnekle çözmek için etkili bir şekilde kullanılabilirler.
 
-## [Ders sonrası sınav](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Ders sonrası sınav](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Açıklama**:  
 Bu belge, makine tabanlı AI çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluğa önem vermemize rağmen, otomatik çevirilerin hatalar veya yanlış anlamalar içerebileceğini lütfen unutmayın. Belgenin orijinal metni, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilmektedir. Bu çevirinin kullanımı sonucunda ortaya çıkan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

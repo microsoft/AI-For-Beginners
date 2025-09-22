@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentarea textului ca tensori
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Clasificarea textului
 
@@ -73,7 +73,7 @@ Până acum, am studiat tehnici care pot adăuga greutate frecvenței diferitelo
 
 Încearcă alte exerciții folosind bag-of-words și diferite modele de date. Poți găsi inspirație în această [competiție pe Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Recapitulare și studiu individual
 

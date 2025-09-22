@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Jedan od mogućih načina postizanja inteligencije je takozvani **emergentni** (ili **sinergijski**) pristup, koji se temelji na činjenici da kombinirano ponašanje mnogih relativno jednostavnih agenata može rezultirati ukupno složenijim (ili inteligentnijim) ponašanjem sustava u cjelini. Teoretski, ovo se temelji na principima [Kolektivne inteligencije](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentizma](https://en.wikipedia.org/wiki/Global_brain) i [Evolucijske kibernetike](https://en.wikipedia.org/wiki/Global_brain), koji tvrde da sustavi višeg nivoa dobivaju neku vrstu dodane vrijednosti kada se pravilno kombiniraju iz sustava nižeg nivoa (tzv. *princip prijelaza metasustava*).
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Smjer **Višestrukih agentskih sustava** pojavio se u AI-u 1990-ih kao odgovor na rast Interneta i distribuiranih sustava. Jedan od klasičnih udžbenika o AI-u, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), fokusira se na pogled klasičnog AI-a iz perspektive višestrukih agentskih sustava.
 
@@ -152,7 +152,7 @@ Svi oni teže fokusiranju na jednostavnije ponašanje pojedinog agenta i postiza
 
 Primijenite ovu lekciju u stvarnom svijetu i pokušajte konceptualizirati višestruki agentski sustav koji može riješiti problem. Što bi, na primjer, višestruki agentski sustav trebao učiniti kako bi optimizirao rutu školskog autobusa? Kako bi mogao funkcionirati u pekarnici?
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Pregled i samostalno učenje
 

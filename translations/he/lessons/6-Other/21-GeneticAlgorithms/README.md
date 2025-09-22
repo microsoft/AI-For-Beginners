@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # אלגוריתמים גנטיים
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **אלגוריתמים גנטיים** (GA) מבוססים על **גישה אבולוציונית** לבינה מלאכותית, שבה נעשה שימוש בשיטות אבולוציה של אוכלוסייה כדי להגיע לפתרון אופטימלי לבעיה נתונה. הם הוצעו לראשונה בשנת 1975 על ידי [ג'ון הנרי הולנד](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "אלגוריתמים גנטיים פשוטים ליישום, אך התנהגותם קשה להבנה." [מקור](https://wikipedia.org/wiki/Genetic_algorithm) בצע מחקר כדי למצוא יישום של אלגוריתם גנטי, כמו פתרון חידת סודוקו, והסבר כיצד הוא עובד באמצעות סקיצה או תרשים זרימה.
 
-## [שאלון לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## סקירה ולימוד עצמי
 

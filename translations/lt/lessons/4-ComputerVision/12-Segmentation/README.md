@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Anksčiau mokėmės apie objektų atpažinimą, kuris leidžia nustatyti objektų vietą paveikslėlyje, prognozuojant jų *apibrėžimo dėžutes* (bounding boxes). Tačiau kai kurioms užduotims mums reikia ne tik apibrėžimo dėžučių, bet ir tikslesnės objektų lokalizacijos. Ši užduotis vadinama **segmentacija**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentaciją galima suprasti kaip **pikselių klasifikaciją**, kur kiekvienam paveikslėlio pikseliui turime prognozuoti jo klasę (*fonas* yra viena iš klasių). Yra du pagrindiniai segmentacijos algoritmai:
 
@@ -56,7 +56,7 @@ Atidarykite žemiau pateiktus užrašus, kad sužinotumėte daugiau apie skirtin
 * [Semantinė segmentacija Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantinė segmentacija TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Išvada
 

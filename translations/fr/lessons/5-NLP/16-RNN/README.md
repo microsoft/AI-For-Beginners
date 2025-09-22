@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Réseaux Neuronaux Récurrents
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Dans les sections précédentes, nous avons utilisé des représentations sémantiques riches de texte et un simple classificateur linéaire au-dessus des embeddings. Cette architecture capture le sens global des mots dans une phrase, mais elle ne prend pas en compte l'**ordre** des mots, car l'opération d'agrégation sur les embeddings supprime cette information du texte original. Étant donné que ces modèles ne peuvent pas modéliser l'ordre des mots, ils ne peuvent pas résoudre des tâches plus complexes ou ambiguës comme la génération de texte ou la réponse à des questions.
 
@@ -84,7 +84,7 @@ Lisez quelques articles sur les LSTM et réfléchissez à leurs applications :
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Révision & Auto-apprentissage
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Edellisessä osiossa opimme **generatiivisista malleista**: malleista, jotka voivat luoda uusia kuvia, jotka muistuttavat harjoitusaineistossa olevia kuvia. VAE oli hyvä esimerkki generatiivisesta mallista.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Jos kuitenkin yritämme luoda jotain todella merkityksellistä, kuten maalauksen kohtuullisella resoluutiolla, VAE:lla huomaamme, että koulutus ei konvergoi hyvin. Tätä käyttötapausta varten meidän tulisi oppia toinen arkkitehtuuri, joka on erityisesti suunnattu generatiivisille malleille - **Generatiiviset vastakkaisasettelumallit**, eli GANit.
 
@@ -84,7 +84,7 @@ Näin se toimii:
 
 ## ✍️ Esimerkki: [Tyylinsiirto](StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Yhteenveto
 

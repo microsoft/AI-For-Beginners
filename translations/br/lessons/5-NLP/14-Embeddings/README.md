@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Ao treinar classificadores baseados em BoW ou TF/IDF, trabalhamos com vetores de bag-of-words de alta dimensionalidade com comprimento `vocab_size`, e estávamos convertendo explicitamente de vetores de representação posicional de baixa dimensionalidade para representações esparsas de uma única posição ativa (one-hot). No entanto, essa representação one-hot não é eficiente em termos de memória. Além disso, cada palavra é tratada de forma independente, ou seja, vetores codificados em one-hot não expressam nenhuma similaridade semântica entre palavras.
 
@@ -65,7 +65,7 @@ Nesta lição, você descobriu como construir e usar camadas de embedding no Ten
 
 Word2Vec tem sido usado em algumas aplicações interessantes, incluindo a geração de letras de músicas e poesias. Confira [este artigo](https://www.politetype.com/blog/word2vec-color-poems), que explica como o autor usou Word2Vec para gerar poesia. Assista também [este vídeo de Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) para descobrir uma explicação diferente dessa técnica. Depois, tente aplicar essas técnicas ao seu próprio corpus de texto, talvez obtido no Kaggle.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Revisão e Autoestudo
 

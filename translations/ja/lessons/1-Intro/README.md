@@ -54,7 +54,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 インターネットを調査して、AIが最も効果的に使用されていると思う分野を特定してください。それは地図アプリでしょうか、それとも音声認識サービスやビデオゲームでしょうか？そのシステムがどのように構築されたのかを調べてみましょう。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## 復習と自主学習
 

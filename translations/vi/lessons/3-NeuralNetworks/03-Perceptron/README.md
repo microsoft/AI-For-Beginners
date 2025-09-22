@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giới thiệu về Mạng Nơ-ron: Perceptron
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Một trong những nỗ lực đầu tiên để triển khai một thứ gì đó tương tự như mạng nơ-ron hiện đại được thực hiện bởi Frank Rosenblatt từ Phòng thí nghiệm Hàng không Cornell vào năm 1957. Đây là một triển khai phần cứng có tên "Mark-1", được thiết kế để nhận diện các hình học cơ bản như tam giác, hình vuông và hình tròn.
 
@@ -85,7 +85,7 @@ Trong bài học này, bạn đã tìm hiểu về perceptron, một mô hình p
 
 Nếu bạn muốn tự xây dựng perceptron của riêng mình, hãy thử [bài thực hành này trên Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) sử dụng [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Ôn tập & Tự học
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Viziunea Computațională](https://wikipedia.org/wiki/Computer_vision) este o disciplină al cărei scop este să permită calculatoarelor să obțină o înțelegere de nivel înalt a imaginilor digitale. Aceasta este o definiție destul de largă, deoarece *înțelegerea* poate însemna multe lucruri, inclusiv găsirea unui obiect într-o imagine (**detecția obiectelor**), înțelegerea a ceea ce se întâmplă (**detecția evenimentelor**), descrierea unei imagini în text sau reconstrucția unei scene în 3D. Există, de asemenea, sarcini speciale legate de imaginile umane: estimarea vârstei și a emoțiilor, detectarea și identificarea fețelor, precum și estimarea poziției 3D, pentru a numi doar câteva.
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Una dintre cele mai simple sarcini ale viziunii computaționale este **clasificarea imaginilor**.
 
@@ -105,7 +105,7 @@ Uneori, sarcini relativ complexe, cum ar fi detectarea mișcării sau detectarea
 
 Urmărește [acest videoclip](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) din seria AI Show pentru a afla despre proiectul Cortic Tigers și cum au construit o soluție bazată pe blocuri pentru a democratiza sarcinile de viziune computațională printr-un robot. Fă cercetări despre alte proiecte similare care ajută noii învățăcei să intre în acest domeniu.
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Recapitulare și Studiu Individual
 

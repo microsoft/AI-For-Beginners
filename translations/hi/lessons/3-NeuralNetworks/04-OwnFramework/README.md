@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हम Python में अपना खुद का मॉड्यूलर ढांचा भी विकसित करेंगे, जो हमें विभिन्न न्यूरल नेटवर्क आर्किटेक्चर बनाने की अनुमति देगा।
 
-## [प्री-लेक्चर क्विज़](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [प्री-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## मशीन लर्निंग का औपचारिककरण
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) नोटबुक पर जाएं और इसे पूरा करें।
 
-## [पोस्ट-लेक्चर क्विज़](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [पोस्ट-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## समीक्षा और स्व-अध्ययन
 

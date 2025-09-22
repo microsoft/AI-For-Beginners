@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang Reinforcement Learning (RL) ay itinuturing na isa sa mga pangunahing paradigma ng machine learning, kasabay ng supervised learning at unsupervised learning. Habang sa supervised learning ay umaasa tayo sa dataset na may kilalang resulta, ang RL ay nakabatay sa **pagkatuto sa pamamagitan ng paggawa**. Halimbawa, kapag unang beses nating nakita ang isang computer game, sinisimulan natin itong laruin kahit hindi alam ang mga patakaran, at kalaunan ay napapabuti natin ang ating kakayahan sa pamamagitan lamang ng paglalaro at pag-aadjust ng ating mga kilos.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Upang maisagawa ang RL, kailangan natin ng:
 
@@ -110,7 +110,7 @@ Natutuhan na natin ngayon kung paano sanayin ang mga agent upang makamit ang mag
 
 Galugarin ang mga aplikasyon na nakalista sa seksyong 'Iba Pang RL Tasks' at subukang ipatupad ang isa!
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Review at Pag-aaral sa Sarili
 

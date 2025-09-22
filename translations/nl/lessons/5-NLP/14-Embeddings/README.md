@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Bij het trainen van classifiers gebaseerd op BoW of TF/IDF werkten we met hoog-dimensionale bag-of-words vectoren met een lengte van `vocab_size`, en converteerden we expliciet van laag-dimensionale positionele representatievectoren naar spaarzame one-hot representaties. Deze one-hot representatie is echter niet efficiënt qua geheugen. Bovendien worden woorden onafhankelijk van elkaar behandeld, d.w.z. one-hot gecodeerde vectoren drukken geen semantische gelijkenis tussen woorden uit.
 
@@ -65,7 +65,7 @@ In deze les heb je ontdekt hoe je embeddinglagen kunt bouwen en gebruiken in Ten
 
 Word2Vec is gebruikt voor enkele interessante toepassingen, waaronder het genereren van songteksten en poëzie. Bekijk [dit artikel](https://www.politetype.com/blog/word2vec-color-poems) waarin wordt uitgelegd hoe de auteur Word2Vec gebruikte om poëzie te genereren. Bekijk ook [deze video van Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) om een andere uitleg van deze techniek te ontdekken. Probeer vervolgens deze technieken toe te passen op je eigen tekstcorpus, mogelijk afkomstig van Kaggle.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Review & Zelfstudie
 
