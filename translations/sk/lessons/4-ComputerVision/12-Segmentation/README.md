@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d7f8a25ff13cfe9f4cd671cc23351fad",
-  "translation_date": "2025-08-25T22:34:08+00:00",
+  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
+  "translation_date": "2025-09-23T14:05:35+00:00",
   "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
   "language_code": "sk"
 }
 -->
 # Segmentácia
 
-Predtým sme sa naučili o detekcii objektov, ktorá nám umožňuje lokalizovať objekty na obrázku predpovedaním ich *ohraničujúcich boxov*. Pre niektoré úlohy však nestačia len ohraničujúce boxy, ale potrebujeme presnejšiu lokalizáciu objektov. Táto úloha sa nazýva **segmentácia**.
+Predtým sme sa naučili o detekcii objektov, ktorá nám umožňuje lokalizovať objekty na obrázku predpovedaním ich *ohraničujúcich rámčekov*. Pre niektoré úlohy však nepotrebujeme len ohraničujúce rámčeky, ale aj presnejšiu lokalizáciu objektov. Táto úloha sa nazýva **segmentácia**.
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
@@ -18,7 +18,7 @@ Segmentáciu môžeme vnímať ako **klasifikáciu pixelov**, kde pre **každý*
 * **Semantická segmentácia** určuje iba triedu pixelu a nerozlišuje medzi rôznymi objektmi tej istej triedy.
 * **Inštančná segmentácia** rozdeľuje triedy na rôzne inštancie.
 
-Pri inštančnej segmentácii sú tieto ovce rôznymi objektmi, ale pri semantickej segmentácii sú všetky ovce reprezentované jednou triedou.
+Pri inštančnej segmentácii sú tieto ovce rôzne objekty, ale pri semantickej segmentácii sú všetky ovce reprezentované jednou triedou.
 
 <img src="images/instance_vs_semantic.jpeg" width="50%">
 
@@ -26,22 +26,22 @@ Pri inštančnej segmentácii sú tieto ovce rôznymi objektmi, ale pri semantic
 
 Existujú rôzne neurónové architektúry pre segmentáciu, ale všetky majú rovnakú štruktúru. Istým spôsobom je to podobné autoenkóderu, o ktorom ste sa už učili, ale namiesto rekonštrukcie pôvodného obrázka je naším cieľom rekonštruovať **masku**. Segmentačná sieť má teda nasledujúce časti:
 
-* **Encoder** extrahuje vlastnosti z vstupného obrázka.
-* **Decoder** transformuje tieto vlastnosti do **obrázka masky**, ktorý má rovnakú veľkosť a počet kanálov zodpovedajúci počtu tried.
+* **Kódovač (Encoder)** extrahuje črty z vstupného obrázka.
+* **Dekóder (Decoder)** transformuje tieto črty na **obrázok masky**, ktorý má rovnakú veľkosť a počet kanálov zodpovedajúci počtu tried.
 
 <img src="images/segm.png" width="80%">
 
 > Obrázok z [tejto publikácie](https://arxiv.org/pdf/2001.05566.pdf)
 
-Osobitne by sme mali spomenúť stratovú funkciu, ktorá sa používa pri segmentácii. Pri použití klasických autoenkóderov musíme merať podobnosť medzi dvoma obrázkami, na čo môžeme použiť strednú kvadratickú chybu (MSE). Pri segmentácii každý pixel v cieľovom obrázku masky predstavuje číslo triedy (one-hot-enkódované pozdĺž tretej dimenzie), takže musíme použiť stratové funkcie špecifické pre klasifikáciu - krížovú entropiu, spriemerovanú cez všetky pixely. Ak je maska binárna, používa sa **binárna krížová entropia** (BCE).
+Osobitne by sme mali spomenúť funkciu straty, ktorá sa používa pri segmentácii. Pri použití klasických autoenkóderov musíme merať podobnosť medzi dvoma obrázkami, na čo môžeme použiť strednú kvadratickú chybu (MSE). Pri segmentácii každý pixel v cieľovom obrázku masky reprezentuje číslo triedy (one-hot-enkódované v tretej dimenzii), takže musíme použiť funkcie straty špecifické pre klasifikáciu - krížovú entropiu, spriemerovanú cez všetky pixely. Ak je maska binárna, používa sa **binárna krížová entropia (BCE)**.
 
 > ✅ One-hot enkódovanie je spôsob, ako zakódovať triedu do vektora s dĺžkou rovnou počtu tried. Pozrite si [tento článok](https://datagy.io/sklearn-one-hot-encode/) o tejto technike.
 
 ## Segmentácia v medicínskom zobrazovaní
 
-V tejto lekcii uvidíme segmentáciu v praxi tým, že natrénujeme sieť na rozpoznávanie ľudských névov (známych aj ako znamienka) na medicínskych obrázkoch. Budeme používať <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> databázu</a> dermoskopických obrázkov ako zdroj obrázkov. Táto databáza obsahuje 200 obrázkov troch tried: typický névus, atypický névus a melanóm. Všetky obrázky obsahujú aj zodpovedajúcu **masku**, ktorá ohraničuje névus.
+V tejto lekcii uvidíme segmentáciu v praxi tým, že natrénujeme sieť na rozpoznávanie ľudských névov (známych aj ako materské znamienka) na medicínskych obrázkoch. Ako zdroj obrázkov použijeme <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> databázu</a> dermoskopických obrázkov. Táto databáza obsahuje 200 obrázkov troch tried: typický névus, atypický névus a melanóm. Všetky obrázky obsahujú aj zodpovedajúcu **masku**, ktorá ohraničuje névus.
 
-> ✅ Táto technika je obzvlášť vhodná pre tento typ medicínskeho zobrazovania, ale aké ďalšie reálne aplikácie si viete predstaviť?
+> ✅ Táto technika je obzvlášť vhodná pre tento typ medicínskeho zobrazovania, ale aké iné reálne aplikácie by ste si vedeli predstaviť?
 
 <img alt="navi" src="images/navi.png"/>
 
@@ -53,14 +53,14 @@ Natrénujeme model na segmentáciu akéhokoľvek névusu z jeho pozadia.
 
 Otvorte nižšie uvedené notebooky, aby ste sa dozvedeli viac o rôznych architektúrach semantickej segmentácie, precvičili si prácu s nimi a videli ich v akcii.
 
-* [Semantická segmentácia Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
-* [Semantická segmentácia TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
+* [Semantická segmentácia v Pytorch](SemanticSegmentationPytorch.ipynb)
+* [Semantická segmentácia v TensorFlow](SemanticSegmentationTF.ipynb)
 
 ## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Záver
 
-Segmentácia je veľmi silná technika pre klasifikáciu obrázkov, ktorá ide nad rámec ohraničujúcich boxov až po klasifikáciu na úrovni pixelov. Táto technika sa používa v medicínskom zobrazovaní a v mnohých ďalších aplikáciách.
+Segmentácia je veľmi silná technika pre klasifikáciu obrázkov, ktorá ide nad rámec ohraničujúcich rámčekov a umožňuje klasifikáciu na úrovni pixelov. Táto technika sa používa v medicínskom zobrazovaní, ale aj v iných aplikáciách.
 
 ## 🚀 Výzva
 
@@ -72,7 +72,7 @@ Tento [článok na Wikipédii](https://wikipedia.org/wiki/Image_segmentation) po
 
 ## [Úloha](lab/README.md)
 
-V tomto laboratóriu si vyskúšajte **segmentáciu ľudského tela** pomocou [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) z Kaggle.
+V tomto laboratóriu vyskúšajte **segmentáciu ľudského tela** pomocou [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) z Kaggle.
 
-**Zrieknutie sa zodpovednosti**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+---
+

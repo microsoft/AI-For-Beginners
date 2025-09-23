@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-25T23:57:33+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T14:20:52+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "ro"
 }
@@ -19,7 +19,7 @@ Una dintre primele încercări de a implementa ceva similar cu o rețea neuronal
 
 > Imagini [de pe Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
-O imagine de intrare era reprezentată de o matrice de 20x20 fotocelule, astfel încât rețeaua neuronală avea 400 de intrări și o ieșire binară. O rețea simplă conținea un singur neuron, numit și **unitate logică de prag**. Greutățile rețelei neuronale funcționau ca potențiometre care necesitau ajustare manuală în timpul fazei de antrenament.
+O imagine de intrare era reprezentată de o matrice de fotocelule de 20x20, astfel încât rețeaua neuronală avea 400 de intrări și o ieșire binară. O rețea simplă conținea un singur neuron, numit și **unitate logică de prag**. Greutățile rețelei neuronale funcționau ca potențiometre care necesitau ajustare manuală în timpul fazei de antrenare.
 
 > ✅ Un potențiometru este un dispozitiv care permite utilizatorului să ajusteze rezistența unui circuit.
 
@@ -31,7 +31,7 @@ Să presupunem că avem N caracteristici în modelul nostru, caz în care vector
 
 y(x) = f(w<sup>T</sup>x)
 
-unde f este o funcție de activare de tip treaptă
+unde f este o funcție de activare de tip treaptă.
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
 <img src="images/activation-func.png"/>
@@ -40,20 +40,20 @@ unde f este o funcție de activare de tip treaptă
 
 Pentru a antrena un perceptron, trebuie să găsim un vector de greutăți w care clasifică corect majoritatea valorilor, adică rezultă în cea mai mică **eroare**. Această eroare E este definită prin **criteriul perceptronului** în următorul mod:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 unde:
 
 * suma este luată pentru acele puncte de date de antrenament i care duc la clasificarea greșită
-* x<sub>i</sub> reprezintă datele de intrare, iar t<sub>i</sub> este fie -1, fie +1 pentru exemplele negative și pozitive, respectiv.
+* x<sub>i</sub> este datele de intrare, iar t<sub>i</sub> este fie -1, fie +1 pentru exemplele negative și pozitive, respectiv.
 
-Acest criteriu este considerat ca o funcție a greutăților w, și trebuie să îl minimizăm. Adesea, se folosește o metodă numită **descendentă a gradientului**, în care începem cu niște greutăți inițiale w<sup>(0)</sup>, și apoi la fiecare pas actualizăm greutățile conform formulei:
+Acest criteriu este considerat ca o funcție a greutăților w, și trebuie să îl minimizăm. Adesea, se folosește o metodă numită **descendentă pe gradient**, în care începem cu niște greutăți inițiale w<sup>(0)</sup>, și apoi la fiecare pas actualizăm greutățile conform formulei:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Aici η este așa-numita **rată de învățare**, iar ∇E(w) denotă **gradientul** lui E. După ce calculăm gradientul, ajungem la
+Aici &eta; este așa-numita **rată de învățare**, iar &nabla;E(w) denotă **gradientul** lui E. După ce calculăm gradientul, ajungem la:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 Algoritmul în Python arată astfel:
 
@@ -87,18 +87,18 @@ Dacă dorești să încerci să construiești propriul perceptron, încearcă [a
 
 ## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
-## Recapitulare și Studiu Individual
+## Recapitulare & Studiu Individual
 
-Pentru a vedea cum putem folosi perceptronul pentru a rezolva o problemă simplă, precum și probleme din viața reală, și pentru a continua să înveți - accesează notebook-ul [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb).
+Pentru a vedea cum putem folosi perceptronul pentru a rezolva o problemă simplă, precum și probleme din viața reală, și pentru a continua să înveți - accesează notebook-ul [Perceptron](Perceptron.ipynb).
 
-Iată un [articol interesant despre perceptron](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
+Iată un articol interesant despre [perceptroni](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
 ## [Temă](lab/README.md)
 
-În această lecție, am implementat un perceptron pentru o sarcină de clasificare binară și l-am folosit pentru a clasifica între două cifre scrise de mână. În acest laborator, ți se cere să rezolvi problema clasificării cifrelor în întregime, adică să determini care cifră este cel mai probabil să corespundă unei imagini date.
+În această lecție, am implementat un perceptron pentru o sarcină de clasificare binară și l-am folosit pentru a clasifica între două cifre scrise de mână. În acest laborator, ți se cere să rezolvi problema clasificării cifrelor în întregime, adică să determini care cifră corespunde cel mai probabil unei imagini date.
 
 * [Instrucțiuni](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Notebook](lab/PerceptronMultiClass.ipynb)
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+---
+

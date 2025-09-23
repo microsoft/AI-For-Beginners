@@ -1,32 +1,34 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "088837b42b7d99198bf62db8a42411e0",
-  "translation_date": "2025-08-31T17:35:46+00:00",
+  "original_hash": "a560d5b845962cf33dc102266e409568",
+  "translation_date": "2025-09-23T15:41:50+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
   "language_code": "lt"
 }
 -->
 # Konvoliuciniai neuroniniai tinklai
 
-Anksčiau matėme, kad neuroniniai tinklai puikiai susidoroja su vaizdais, ir net vieno sluoksnio perceptronas gali atpažinti ranka rašytus skaitmenis iš MNIST duomenų rinkinio su pakankamu tikslumu. Tačiau MNIST duomenų rinkinys yra labai specifinis – visi skaitmenys yra centruoti vaizde, todėl užduotis tampa paprastesnė.
+Anksčiau matėme, kad neuroniniai tinklai gana gerai dirba su vaizdais, ir net vieno sluoksnio perceptronas sugeba atpažinti ranka rašytus skaitmenis iš MNIST duomenų rinkinio su pakankamu tikslumu. Tačiau MNIST duomenų rinkinys yra labai specifinis – visi skaitmenys yra centruoti vaizde, todėl užduotis tampa paprastesnė.
 
-## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/13)
+## [Klausimai prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
-Realiame gyvenime norime atpažinti objektus paveikslėlyje, nepaisant jų tikslios vietos vaizde. Kompiuterinis matymas skiriasi nuo bendro klasifikavimo, nes bandydami rasti tam tikrą objektą paveikslėlyje, skenuojame vaizdą ieškodami specifinių **raštų** ir jų kombinacijų. Pavyzdžiui, ieškodami katės, pirmiausia galime ieškoti horizontalių linijų, kurios gali sudaryti ūsus, o tam tikra ūsų kombinacija gali pasakyti, kad tai iš tiesų katės paveikslėlis. Svarbi yra santykinė tam tikrų raštų padėtis ir buvimas, o ne jų tiksli vieta vaizde.
+Realiame gyvenime norime atpažinti objektus nuotraukoje, nepaisant jų tikslios vietos vaizde. Kompiuterinis matymas skiriasi nuo bendro klasifikavimo, nes bandydami rasti tam tikrą objektą nuotraukoje, skenuojame vaizdą ieškodami specifinių **raštų** ir jų kombinacijų. Pavyzdžiui, ieškodami katės, pirmiausia galime ieškoti horizontalių linijų, kurios gali sudaryti ūsus, o tam tikra ūsų kombinacija gali pasakyti, kad tai iš tiesų yra katės nuotrauka. Svarbi yra santykinė tam tikrų raštų padėtis ir buvimas, o ne jų tiksli vieta vaizde.
 
-Norėdami išgauti raštus, naudosime **konvoliucinių filtrų** sąvoką. Kaip žinote, vaizdas yra pateikiamas kaip 2D matrica arba 3D tensoras su spalvų gyliais. Filtrą taikyti reiškia, kad imame palyginti mažą **filtrų branduolio** matricą ir kiekvienam pradiniam vaizdo pikseliui apskaičiuojame svertinį vidurkį su kaimyniniais taškais. Galime tai įsivaizduoti kaip mažą langą, kuris slysta per visą vaizdą ir vidurkina visus pikselius pagal filtrų branduolio matricos svorius.
+Norėdami išgauti raštus, naudosime **konvoliucinių filtrų** sąvoką. Kaip žinote, vaizdas yra pateikiamas kaip 2D-matrica arba 3D-tensoras su spalvų gylio dimensija. Filtrą taikyti reiškia, kad imame palyginti mažą **filtrų branduolio** matricą ir kiekvienam pikseliui originaliame vaizde apskaičiuojame svertinį vidurkį su kaimyniniais taškais. Galime tai įsivaizduoti kaip mažą langą, kuris slysta per visą vaizdą ir vidutiniškai apskaičiuoja pikselius pagal filtrų branduolio matricos svorius.
 
 ![Vertikalus kraštų filtras](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.lt.png) | ![Horizontalus kraštų filtras](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.lt.png)
 ----|----
 
 > Vaizdas: Dmitry Soshnikov
 
-Pavyzdžiui, jei MNIST skaitmenims taikome 3x3 vertikalų ir horizontalų kraštų filtrus, galime išryškinti (pvz., gauti aukštas reikšmes) vietas, kuriose yra vertikalūs ir horizontalūs kraštai pradiniame vaizde. Taigi šiuos du filtrus galima naudoti "ieškant" kraštų. Panašiai galime sukurti skirtingus filtrus, kad ieškotume kitų žemo lygio raštų:
+Pavyzdžiui, jei taikome 3x3 vertikalų ir horizontalų kraštų filtrus MNIST skaitmenims, galime išryškinti (pvz., gauti aukštas reikšmes) vietas, kuriose yra vertikalūs ir horizontalūs kraštai originaliame vaizde. Taigi šiuos du filtrus galima naudoti "ieškant" kraštų. Panašiai galime sukurti skirtingus filtrus, kad ieškotume kitų žemo lygio raštų:
 
-> Vaizdas [Leung-Malik filtrų banko](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+<img src="images/lmfilters.jpg" width="500" align="center"/>
 
-Tačiau, nors galime rankiniu būdu sukurti filtrus tam tikrų raštų išgavimui, galime taip pat sukurti tinklą, kuris pats išmoktų raštus automatiškai. Tai yra viena pagrindinių CNN idėjų.
+> Vaizdas: [Leung-Malik filtrų rinkinys](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+
+Tačiau, nors galime rankiniu būdu sukurti filtrus tam tikrų raštų išgavimui, galime sukurti tinklą taip, kad jis automatiškai išmoktų raštus. Tai yra viena pagrindinių CNN idėjų.
 
 ## Pagrindinės CNN idėjos
 
@@ -34,7 +36,7 @@ CNN veikimas grindžiamas šiomis svarbiomis idėjomis:
 
 * Konvoliuciniai filtrai gali išgauti raštus
 * Galime sukurti tinklą taip, kad filtrai būtų mokomi automatiškai
-* Galime naudoti tą patį metodą, kad rastume raštus aukšto lygio savybėse, ne tik pradiniame vaizde. Taigi CNN savybių išgavimas veikia hierarchijos principu, pradedant nuo žemo lygio pikselių kombinacijų iki aukštesnio lygio paveikslėlio dalių kombinacijų.
+* Galime naudoti tą patį metodą aukšto lygio savybių raštų paieškai, ne tik originaliame vaizde. Taigi CNN savybių išgavimas veikia hierarchijos principu – pradedant nuo žemo lygio pikselių kombinacijų iki aukšto lygio vaizdo dalių kombinacijų.
 
 ![Hierarchinis savybių išgavimas](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.lt.png)
 
@@ -42,14 +44,14 @@ CNN veikimas grindžiamas šiomis svarbiomis idėjomis:
 
 ## ✍️ Pratimai: Konvoliuciniai neuroniniai tinklai
 
-Tęskime tyrinėjimą, kaip veikia konvoliuciniai neuroniniai tinklai ir kaip galime pasiekti mokomus filtrus, atlikdami atitinkamus užrašų knygelių pratimus:
+Tęskime tyrinėjimą, kaip veikia konvoliuciniai neuroniniai tinklai ir kaip galime pasiekti mokomus filtrus, dirbdami su atitinkamais užrašais:
 
 * [Konvoliuciniai neuroniniai tinklai - PyTorch](ConvNetsPyTorch.ipynb)
 * [Konvoliuciniai neuroniniai tinklai - TensorFlow](ConvNetsTF.ipynb)
 
 ## Piramidės architektūra
 
-Dauguma CNN, naudojamų vaizdų apdorojimui, seka vadinamąją piramidės architektūrą. Pirmasis konvoliucinis sluoksnis, taikomas pradiniams vaizdams, paprastai turi palyginti mažą filtrų skaičių (8-16), kurie atitinka skirtingas pikselių kombinacijas, tokias kaip horizontalios/vertikalios linijos ar brūkšniai. Kitame lygyje sumažiname tinklo erdvinį matmenį ir padidiname filtrų skaičių, kuris atitinka daugiau galimų paprastų savybių kombinacijų. Kiekviename sluoksnyje, artėjant prie galutinio klasifikatoriaus, vaizdo erdviniai matmenys mažėja, o filtrų skaičius didėja.
+Dauguma CNN, naudojamų vaizdų apdorojimui, seka vadinamąją piramidės architektūrą. Pirmasis konvoliucinis sluoksnis, taikomas originaliems vaizdams, paprastai turi palyginti mažą filtrų skaičių (8-16), kurie atitinka skirtingas pikselių kombinacijas, tokias kaip horizontalios/vertikalios linijos ar brūkšniai. Kitame lygyje sumažiname tinklo erdvinę dimensiją ir padidiname filtrų skaičių, kuris atitinka daugiau galimų paprastų savybių kombinacijų. Kiekviename sluoksnyje, judant link galutinio klasifikatoriaus, vaizdo erdvinės dimensijos mažėja, o filtrų skaičius auga.
 
 Pavyzdžiui, pažvelkime į VGG-16 architektūrą – tinklą, kuris 2014 m. pasiekė 92,7% tikslumą ImageNet top-5 klasifikacijoje:
 
@@ -65,5 +67,3 @@ Pavyzdžiui, pažvelkime į VGG-16 architektūrą – tinklą, kuris 2014 m. pas
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius naudojant šį vertimą.

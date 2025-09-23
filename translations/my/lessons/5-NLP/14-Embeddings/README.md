@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "e40b47ac3fd48f71304ede1474e66293",
-  "translation_date": "2025-08-25T21:41:43+00:00",
+  "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
+  "translation_date": "2025-09-23T15:26:21+00:00",
   "source_file": "lessons/5-NLP/14-Embeddings/README.md",
   "language_code": "my"
 }
@@ -11,67 +11,67 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
-BoW သို့မဟုတ် TF/IDF အခြေခံထားသော classifier များကို သင်ကြားသင့်သောအခါတွင် `vocab_size` အရှည်ရှိသော အမြင့် dimension bag-of-words vectors များကို အသုံးပြုခဲ့ပြီး၊ အနိမ့် dimension positional representation vectors များမှ sparse one-hot representation သို့ အတိအကျပြောင်းလဲခဲ့သည်။ သို့သော် one-hot representation သည် memory ကို ထိရောက်စွာ အသုံးမပြုနိုင်ပါ။ ထို့အပြင်၊ စကားလုံးတစ်လုံးချင်းစီကို တစ်ခုချင်းစီ သီးခြားစီဆက်ဆံသည်၊ ဤအနေအထားတွင် one-hot encoded vectors များသည် စကားလုံးများအကြား semantic ဆက်စပ်မှုကို မဖော်ပြနိုင်ပါ။
+BoW (Bag-of-Words) သို့မဟုတ် TF/IDF ကို အခြေခံပြီး Classifier များကို သင်ကြားသည့်အခါ `vocab_size` အတိုင်းအတာရှိသော အမြင့် dimension bag-of-words vectors များကို အသုံးပြုခဲ့ပြီး၊ အနိမ့် dimension positional representation vectors များကို sparse one-hot representation သို့ ပြောင်းလဲခြင်းကို တိကျစွာ ပြုလုပ်ခဲ့သည်။ သို့သော်၊ one-hot representation သည် memory ကို ထိရောက်စွာ အသုံးမပြုနိုင်ပါ။ ထို့အပြင်၊ စကားလုံးတစ်လုံးချင်းစီကို တစ်ခုချင်းစီ သီးသန့်အနေဖြင့် ဆက်ဆံထားပြီး၊ one-hot encoded vectors များသည် စကားလုံးများအကြား semantic ဆက်စပ်မှုကို မဖော်ပြနိုင်ပါ။
 
-**Embedding** ဆိုသည်မှာ စကားလုံးများကို အနိမ့် dimension dense vectors များဖြင့် ကိုယ်စားပြုရန်အယူအဆဖြစ်ပြီး၊ စကားလုံးတစ်လုံး၏ semantic အဓိပ္ပါယ်ကို တစ်နည်းနည်းဖြင့် ရှင်းလင်းဖော်ပြသည်။ စကားလုံး embedding များကို ဘယ်လိုဖန်တီးရမည်ကို နောက်ပိုင်းတွင် ဆွေးနွေးမည်ဖြစ်သော်လည်း၊ ယခုအချိန်တွင် embedding များကို စကားလုံး vector ၏ dimension ကို လျှော့ချရန် နည်းလမ်းတစ်ခုအဖြစ်သာ စဉ်းစားပါ။
+**Embedding** ဆိုတဲ့ အယူအဆက စကားလုံးတွေကို အနိမ့် dimension dense vectors တွေဖြင့် ကိုယ်စားပြုဖို့ ဖြစ်ပြီး၊ စကားလုံးတစ်လုံးရဲ့ semantic အဓိပ္ပါယ်ကို တစ်နည်းနည်းနဲ့ ဖော်ပြနိုင်ဖို့ ဖြစ်ပါတယ်။ စကားလုံး embedding တွေကို အဓိက အဓိပ္ပါယ်ရှိအောင် ဘယ်လို ဖန်တီးရမလဲဆိုတာကို နောက်ပိုင်းမှာ ဆွေးနွေးပါမယ်၊ ဒါပေမယ့် အခုအချိန်မှာတော့ စကားလုံး vector ရဲ့ dimension ကို လျှော့ချဖို့ နည်းလမ်းတစ်ခုအနေနဲ့ embedding တွေကို သက်သက် စဉ်းစားကြည့်ပါ။
 
-ထို့ကြောင့် embedding layer သည် စကားလုံးတစ်လုံးကို input အဖြစ်ယူပြီး၊ သတ်မှတ်ထားသော `embedding_size` output vector ကို ထုတ်ပေးမည်ဖြစ်သည်။ တစ်နည်းအားဖြင့်၊ ၎င်းသည် `Linear` layer နှင့် အလွန်ဆင်တူသည်၊ သို့သော် one-hot encoded vector ကို မယူဘဲ၊ စကားလုံးနံပါတ်ကို input အဖြစ်ယူနိုင်မည်ဖြစ်ပြီး၊ အကြီးမားသော one-hot-encoded vectors များ ဖန်တီးရန် မလိုအပ်တော့ပါ။
+Embedding layer က စကားလုံးကို input အနေနဲ့ ယူပြီး၊ သတ်မှတ်ထားတဲ့ `embedding_size` ရဲ့ output vector ကို ထုတ်ပေးပါမယ်။ တစ်နည်းအားဖြင့်၊ ဒါဟာ `Linear` layer နဲ့ အလွန်တူပါတယ်၊ ဒါပေမယ့် one-hot encoded vector ကို ယူမယ့်အစား၊ စကားလုံးနံပါတ်ကို input အနေနဲ့ ယူနိုင်ပြီး၊ အကြီးမားတဲ့ one-hot-encoded vectors တွေ ဖန်တီးဖို့ မလိုအပ်တော့ပါဘူး။
 
-Classifier network ၏ ပထမဆုံး layer အဖြစ် embedding layer ကို အသုံးပြုခြင်းဖြင့်၊ bag-of-words မှ **embedding bag** မော်ဒယ်သို့ ပြောင်းလဲနိုင်ပြီး၊ ကျွန်ုပ်တို့၏ စာသားအတွင်းရှိ စကားလုံးတစ်လုံးချင်းစီကို သက်ဆိုင်ရာ embedding သို့ ပထမဆုံး ပြောင်းလဲပြီး၊ ထို့နောက် `sum`၊ `average` သို့မဟုတ် `max` ကဲ့သို့သော aggregate function တစ်ခုကို အဲဒီ embedding များအားလုံးအပေါ်တွင် တွက်ချက်နိုင်သည်။
+Embedding layer ကို classifier network ရဲ့ ပထမဆုံး layer အနေနဲ့ အသုံးပြုခြင်းအားဖြင့်၊ bag-of-words model ကနေ **embedding bag** model သို့ ပြောင်းလဲနိုင်ပါတယ်။ ဒီမှာ စကားလုံးတစ်လုံးချင်းစီကို သက်ဆိုင်ရာ embedding သို့ ပြောင်းပြီး၊ အဲဒီ embeddings အားလုံးအပေါ်မှာ `sum`, `average` သို့မဟုတ် `max` ကဲ့သို့သော aggregate function တစ်ခုခုကို တွက်ချက်ပါမယ်။
 
 ![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.my.png)
 
-> ပုံကို စာရေးသူမှ ဖန်တီးသည်
+> ပုံကို စာရေးသူမှ ဖန်တီးထားသည်
 
-## ✍️ လေ့ကျင့်မှုများ: Embeddings
+## ✍️ Exercises: Embeddings
 
-အောက်ပါ notebooks များတွင် သင့်လေ့လာမှုကို ဆက်လက်လုပ်ဆောင်ပါ:
-* [Embeddings with PyTorch](../../../../../lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb)
-* [Embeddings TensorFlow](../../../../../lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)
+အောက်ပါ notebooks များတွင် သင့်ရဲ့ သင်ကြားမှုကို ဆက်လက် လေ့လာပါ:
+* [Embeddings with PyTorch](EmbeddingsPyTorch.ipynb)
+* [Embeddings TensorFlow](EmbeddingsTF.ipynb)
 
 ## Semantic Embeddings: Word2Vec
 
-Embedding layer သည် စကားလုံးများကို vector representation သို့ map လုပ်ရန် သင်ကြားခဲ့သော်လည်း၊ ၎င်း representation သည် အဓိပ္ပါယ်ဆိုင်ရာ အနက်အဓိပ္ပါယ်များကို မရှိမဖြစ် ဖော်ပြထားသည်မဟုတ်ပါ။ စကားလုံးများနှင့် အနီးကပ်ဆက်စပ်မှုရှိသော vector distance (ဥပမာ Euclidean distance) အရ၊ ဆင်တူသော စကားလုံးများ သို့မဟုတ် အဓိပ္ပါယ်တူများကို နီးကပ်သော vectors အဖြစ် ကိုယ်စားပြုနိုင်မည့် vector representation ကို သင်ကြားနိုင်ရမည်ဖြစ်သည်။
+Embedding layer က စကားလုံးတွေကို vector representation သို့ mapping လုပ်ဖို့ သင်ယူခဲ့ပေမယ့်၊ ဒီ representation က semantic အဓိပ္ပါယ်နဲ့ မဖြစ်စဉ်းစားထားတာ ဖြစ်နိုင်ပါတယ်။ စကားလုံးတွေဟာ semantic အနေနဲ့ တူညီတဲ့အခါ၊ သို့မဟုတ် synonym တွေဟာ vector distance (ဥပမာ Euclidean distance) အနေနဲ့ နီးစပ်တဲ့ vectors တွေဖြစ်အောင် သင်ယူနိုင်ရင် ကောင်းမယ်။
 
-ဤအတွက်၊ စကားလုံး embedding မော်ဒယ်ကို စာသားအစုကြီးတစ်ခုအပေါ်တွင် သီးခြားနည်းလမ်းဖြင့် pre-train လုပ်ရန် လိုအပ်သည်။ Semantic embeddings များကို သင်ကြားရန် နည်းလမ်းတစ်ခုမှာ [Word2Vec](https://en.wikipedia.org/wiki/Word2vec) ဟုခေါ်သည်။ ၎င်းသည် စကားလုံးများ၏ distributed representation ကို ထုတ်လုပ်ရန် အသုံးပြုသော အဓိက architecture နှစ်ခုအပေါ် အခြေခံသည်။
+ဒါကို ပြုလုပ်ဖို့၊ စကားလုံး embedding model ကို အထူးနည်းလမ်းနဲ့ စာသားအကြီးစား collection တစ်ခုမှာ pre-train လုပ်ဖို့ လိုအပ်ပါတယ်။ Semantic embeddings ကို train လုပ်ဖို့ နည်းလမ်းတစ်ခုက [Word2Vec](https://en.wikipedia.org/wiki/Word2vec) လို့ခေါ်ပါတယ်။ ဒါဟာ စကားလုံးတွေကို distributed representation ထုတ်လုပ်ဖို့ အသုံးပြုတဲ့ အဓိက architecture နှစ်ခုအပေါ် အခြေခံထားပါတယ်။
 
- - **Continuous bag-of-words** (CBoW) — ဤ architecture တွင်၊ မော်ဒယ်ကို context ပတ်ဝန်းကျင်မှ စကားလုံးကို ခန့်မှန်းရန် သင်ကြားသည်။ ngram $(W_{-2},W_{-1},W_0,W_1,W_2)$ ကို ပေးထားပါက၊ မော်ဒယ်၏ ရည်မှန်းချက်မှာ $(W_{-2},W_{-1},W_1,W_2)$ မှ $W_0$ ကို ခန့်မှန်းရန်ဖြစ်သည်။
- - **Continuous skip-gram** သည် CBoW ၏ ဆန့်ကျင်ဘက်ဖြစ်သည်။ မော်ဒယ်သည် context စကားလုံးများ၏ window ကို အသုံးပြု၍ လက်ရှိစကားလုံးကို ခန့်မှန်းသည်။
+ - **Continuous bag-of-words** (CBoW) — ဒီ architecture မှာ၊ surrounding context ကနေ စကားလုံးကို predict လုပ်ဖို့ model ကို train လုပ်ပါတယ်။ ngram $(W_{-2},W_{-1},W_0,W_1,W_2)$ ကို ပေးထားတဲ့အခါ၊ model ရဲ့ ရည်ရွယ်ချက်က $(W_{-2},W_{-1},W_1,W_2)$ ကနေ $W_0$ ကို predict လုပ်ဖို့ ဖြစ်ပါတယ်။
+ - **Continuous skip-gram** က CBoW ရဲ့ ဆန့်ကျင်ဘက်ဖြစ်ပါတယ်။ Surrounding window context စကားလုံးတွေကို အသုံးပြုပြီး လက်ရှိစကားလုံးကို predict လုပ်ပါတယ်။
 
-CBoW သည် ပိုမြန်သော်လည်း၊ skip-gram သည် ပိုနှေးပြီး၊ မကြာခဏမတွေ့သော စကားလုံးများကို ကိုယ်စားပြုရာတွင် ပိုကောင်းသည်။
+CBoW က ပိုမြန်ပြီး၊ skip-gram က ပိုနှေးပေမယ့်၊ မကြာခဏ မတွေ့ရတဲ့ စကားလုံးတွေကို ပိုကောင်းစွာ ကိုယ်စားပြုနိုင်ပါတယ်။
 
 ![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.my.png)
 
-> ပုံကို [ဤစာတမ်း](https://arxiv.org/pdf/1301.3781.pdf) မှ ယူဆောင်သည်
+> ပုံကို [ဒီစာတမ်း](https://arxiv.org/pdf/1301.3781.pdf) မှာ ရရှိခဲ့သည်
 
-Word2Vec pre-trained embeddings (GloVe ကဲ့သို့သော အခြားမော်ဒယ်များနှင့်အတူ) ကို neural networks တွင် embedding layer အဖြစ် အသုံးပြုနိုင်သည်။ သို့သော် vocabularies ကို စီမံခန့်ခွဲရန် လိုအပ်သည်၊ အကြောင်းမှာ Word2Vec/GloVe ကို pre-train လုပ်ရန် အသုံးပြုသော vocabulary သည် ကျွန်ုပ်တို့၏ စာသား corpus ၏ vocabulary နှင့် မတူနိုင်ပါ။ ဤပြဿနာကို ဘယ်လိုဖြေရှင်းရမည်ကို အထက်ပါ Notebooks များတွင် ကြည့်ရှုပါ။
+Word2Vec pre-trained embeddings (GloVe ကဲ့သို့သော model များပါ) ကို neural networks တွေမှာ embedding layer အစား အသုံးပြုနိုင်ပါတယ်။ သို့သော်၊ vocabularies တွေကို စီမံခန့်ခွဲဖို့ လိုအပ်ပါတယ်၊ Word2Vec/GloVe ကို pre-train လုပ်ဖို့ အသုံးပြုတဲ့ vocabulary ဟာ ကျွန်တော်တို့ရဲ့ text corpus ရဲ့ vocabulary နဲ့ မတူနိုင်ပါတယ်။ ဒီပြဿနာကို ဘယ်လို ဖြေရှင်းရမလဲဆိုတာကို အထက်ပါ Notebooks တွေမှာ ကြည့်ရှုပါ။
 
 ## Contextual Embeddings
 
-Word2Vec ကဲ့သို့သော traditional pretrained embedding representations ၏ အဓိက ကန့်သတ်ချက်တစ်ခုမှာ စကားလုံးအဓိပ္ပါယ်များကို ရှင်းလင်းစွာ ခွဲခြားနိုင်မှု၏ ပြဿနာဖြစ်သည်။ Pretrained embeddings များသည် စကားလုံးများ၏ အဓိပ္ပါယ်ကို context အတွင်း ဖမ်းယူနိုင်သော်လည်း၊ စကားလုံးတစ်လုံး၏ အဓိပ္ပါယ်အားလုံးကို တစ်ခုတည်းသော embedding အတွင်း encode လုပ်ထားသည်။ ၎င်းသည် downstream မော်ဒယ်များတွင် ပြဿနာများ ဖြစ်စေနိုင်သည်၊ အကြောင်းမှာ စကားလုံးများ (ဥပမာ 'play') သည် အသုံးပြုသော context အပေါ်မူတည်၍ အဓိပ္ပါယ်ကွဲပြားမှုများ ရှိနိုင်သည်။
+Traditional pretrained embedding representations (Word2Vec ကဲ့သို့သော) ရဲ့ အဓိက ကန့်သတ်ချက်တစ်ခုက word sense disambiguation ပြဿနာဖြစ်ပါတယ်။ Pretrained embeddings တွေဟာ စကားလုံးတွေကို context အနေနဲ့ အဓိပ္ပါယ်တစ်ခုခုကို ဖမ်းယူနိုင်ပေမယ့်၊ စကားလုံးတစ်လုံးရဲ့ အဓိပ္ပါယ်အားလုံးကို တစ်ခုတည်းသော embedding မှာ encode လုပ်ထားပါတယ်။ ဒါက downstream models တွေမှာ ပြဿနာဖြစ်စေနိုင်ပါတယ်၊ စကားလုံးများ (ဥပမာ 'play') ဟာ context အပေါ်မူတည်ပြီး အဓိပ္ပါယ်ကွဲပြားမှုရှိပါတယ်။
 
-ဥပမာအားဖြင့် 'play' စကားလုံးသည် အောက်ပါ စာကြောင်းနှစ်ခုတွင် အဓိပ္ပါယ်ကွဲပြားမှုများ ရှိသည်-
+ဥပမာအားဖြင့် 'play' ဆိုတဲ့ စကားလုံးဟာ အောက်ပါ စာကြောင်းနှစ်ခုမှာ အဓိပ္ပါယ်ကွဲပြားမှုရှိပါတယ်:
 
-- I went to a **play** at the theatre.
-- John wants to **play** with his friends.
+- ကျွန်တော် **play** တစ်ခုကို ရုပ်ရှင်ရုံမှာ သွားကြည့်ခဲ့တယ်။
+- John က သူ့သူငယ်ချင်းတွေနဲ့ **play** လုပ်ချင်တယ်။
 
-အထက်ပါ pretrained embeddings များသည် 'play' စကားလုံး၏ အဓိပ္ပါယ်နှစ်ခုလုံးကို တစ်ခုတည်းသော embedding အတွင်း ကိုယ်စားပြုထားသည်။ ဤကန့်သတ်ချက်ကို ကျော်လွှားရန်၊ စကားလုံးများကို အခြား context များတွင် ဘယ်လိုပေါင်းစပ်နိုင်သည်ကို *သိသော* **language model** အပေါ် အခြေခံထားသော embeddings များကို ဖန်တီးရန် လိုအပ်သည်။ Contextual embeddings များကို ဆွေးနွေးခြင်းသည် ဤသင်ခန်းစာ၏ အကျုံးအတွင်းမရှိသော်လည်း၊ သင်ခန်းစာ၏ နောက်ပိုင်းတွင် language models များကို ဆွေးနွေးသောအခါ ပြန်လည်ဆွေးနွေးမည်ဖြစ်သည်။
+Pretrained embeddings တွေဟာ 'play' ဆိုတဲ့ စကားလုံးရဲ့ အဓိပ္ပါယ်နှစ်ခုလုံးကို တစ်ခုတည်းသော embedding မှာ ကိုယ်စားပြုထားပါတယ်။ ဒီကန့်သတ်ချက်ကို ကျော်လွှားဖို့၊ **language model** ကို အခြေခံပြီး embeddings တွေကို ဖန်တီးဖို့ လိုအပ်ပါတယ်၊ language model ဟာ စာသားအကြီးစား corpus မှာ train လုပ်ထားပြီး၊ စကားလုံးတွေကို context အမျိုးမျိုးမှာ ဘယ်လို သုံးနိုင်တယ်ဆိုတာ *သိ*ပါတယ်။ Contextual embeddings ကို ဆွေးနွေးခြင်းဟာ ဒီ tutorial ရဲ့ အကျိုးကျေးဇူးအတွင်း မပါဝင်ပါဘူး၊ ဒါပေမယ့် language models တွေကို နောက်ပိုင်း သင်ခန်းစာမှာ ပြန်လည်ဆွေးနွေးပါမယ်။
 
-## အနှိပ်ချုပ်
+## Conclusion
 
-ဤသင်ခန်းစာတွင်၊ TensorFlow နှင့် Pytorch တွင် embedding layers များကို ဖန်တီးခြင်းနှင့် အသုံးပြုခြင်းဖြင့် စကားလုံးများ၏ semantic အဓိပ္ပါယ်များကို ပိုမိုကောင်းမွန်စွာ ဖော်ပြနိုင်သည်ကို ရှာဖွေတွေ့ရှိခဲ့သည်။
+ဒီသင်ခန်းစာမှာ၊ TensorFlow နဲ့ Pytorch မှာ embedding layers တွေကို ဘယ်လို ဖန်တီးပြီး စကားလုံးရဲ့ semantic အဓိပ္ပါယ်ကို ပိုကောင်းစွာ ဖော်ပြနိုင်မလဲဆိုတာကို သင်တွေ့ရှိခဲ့ပါတယ်။
 
-## 🚀 စိန်ခေါ်မှု
+## 🚀 Challenge
 
-Word2Vec ကို သီချင်းစာသားများနှင့် ကဗျာများ ဖန်တီးရန် အပါအဝင် စိတ်ဝင်စားဖွယ် အပလီကေးရှင်းများအတွက် အသုံးပြုခဲ့သည်။ [ဤဆောင်းပါး](https://www.politetype.com/blog/word2vec-color-poems) ကို ကြည့်ရှုပါ၊ ၎င်းတွင် စာရေးသူသည် Word2Vec ကို အသုံးပြု၍ ကဗျာများ ဖန်တီးပုံကို ရှင်းလင်းဖော်ပြထားသည်။ [Dan Shiffmann ၏ ဤဗီဒီယို](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) ကိုလည်း ကြည့်ရှု၍ ဤနည်းလမ်း၏ အခြားရှင်းလင်းချက်တစ်ခုကို ရှာဖွေပါ။ ထို့နောက်၊ Kaggle မှ ရရှိနိုင်သော သင့်ကိုယ်ပိုင် စာသား corpus အပေါ်တွင် ဤနည်းလမ်းများကို လက်တွေ့အသုံးပြုကြည့်ပါ။
+Word2Vec ကို သီချင်းစာသားနဲ့ ကဗျာတွေ ဖန်တီးဖို့ စိတ်ဝင်စားဖွယ် application တွေမှာ အသုံးပြုခဲ့ပါတယ်။ [ဒီဆောင်းပါး](https://www.politetype.com/blog/word2vec-color-poems) ကို ကြည့်ရှုပါ၊ ဒီမှာ အရေးသားသူက Word2Vec ကို အသုံးပြုပြီး ကဗျာတွေ ဖန်တီးပုံကို ရှင်းလင်းထားပါတယ်။ Dan Shiffmann ရဲ့ [ဒီဗီဒီယို](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) ကိုလည်း ကြည့်ရှုပြီး ဒီနည်းလမ်းရဲ့ အခြားသော ရှင်းလင်းချက်ကို ရှာဖွေပါ။ ထို့နောက် Kaggle မှ ရရှိနိုင်သော သင့်ရဲ့ text corpus ကို အသုံးပြုပြီး ဒီနည်းလမ်းတွေကို သင့်ကိုယ်တိုင် လက်တွေ့ကျကျ အသုံးချကြည့်ပါ။
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
-## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
+## Review & Self Study
 
-Word2Vec အကြောင်း [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) စာတမ်းကို ဖတ်ရှုပါ။
+Word2Vec အကြောင်း [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf) ဆိုတဲ့ စာတမ်းကို ဖတ်ရှုပါ။
 
 ## [Assignment: Notebooks](assignment.md)
 
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရ အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+---
+

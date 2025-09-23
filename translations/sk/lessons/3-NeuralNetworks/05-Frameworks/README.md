@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2b544f20b796402507fb05a0df893323",
-  "translation_date": "2025-08-25T23:50:49+00:00",
+  "original_hash": "ddd216f558a255260a9374008002c971",
+  "translation_date": "2025-09-23T14:09:06+00:00",
   "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
   "language_code": "sk"
 }
@@ -11,18 +11,18 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ako sme sa už naučili, na efektívne trénovanie neurónových sietí musíme urobiť dve veci:
 
-* Operovať s tenzormi, napr. násobiť, sčítať a počítať niektoré funkcie ako sigmoid alebo softmax
+* Pracovať s tenzormi, napr. násobiť, sčítať a počítať niektoré funkcie ako sigmoid alebo softmax
 * Počítať gradienty všetkých výrazov, aby sme mohli vykonávať optimalizáciu pomocou gradientného zostupu
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
-Kým knižnica `numpy` dokáže vykonávať prvú časť, potrebujeme mechanizmus na výpočet gradientov. V [našom frameworku](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), ktorý sme vyvinuli v predchádzajúcej sekcii, sme museli manuálne programovať všetky derivácie vo vnútri metódy `backward`, ktorá vykonáva spätnú propagáciu. Ideálne by mal framework umožniť výpočet gradientov *akéhokoľvek výrazu*, ktorý môžeme definovať.
+Kým knižnica `numpy` dokáže vykonávať prvú časť, potrebujeme mechanizmus na výpočet gradientov. V [našom frameworku](../04-OwnFramework/OwnFramework.ipynb), ktorý sme vyvinuli v predchádzajúcej sekcii, sme museli manuálne programovať všetky derivácie funkcií v metóde `backward`, ktorá vykonáva spätnú propagáciu. Ideálne by mal framework umožniť výpočet gradientov *akéhokoľvek výrazu*, ktorý môžeme definovať.
 
 Ďalšou dôležitou vecou je schopnosť vykonávať výpočty na GPU alebo iných špecializovaných výpočtových jednotkách, ako napríklad [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Trénovanie hlbokých neurónových sietí vyžaduje *veľké množstvo* výpočtov, a možnosť paralelizovať tieto výpočty na GPU je veľmi dôležitá.
 
 > ✅ Termín 'paralelizovať' znamená rozložiť výpočty na viaceré zariadenia.
 
-V súčasnosti sú najpopulárnejšie frameworky pre neurónové siete: [TensorFlow](http://TensorFlow.org) a [PyTorch](https://pytorch.org/). Oba poskytujú nízkoúrovňové API na operácie s tenzormi na CPU aj GPU. Na vrchole nízkoúrovňového API existuje aj vysokoúrovňové API, nazývané [Keras](https://keras.io/) a [PyTorch Lightning](https://pytorchlightning.ai/) zodpovedajúco.
+V súčasnosti sú najpopulárnejšie frameworky pre neurónové siete: [TensorFlow](http://TensorFlow.org) a [PyTorch](https://pytorch.org/). Oba poskytujú nízkoúrovňové API na prácu s tenzormi na CPU aj GPU. Na vrchole nízkoúrovňového API existuje aj vysokoúrovňové API, nazývané [Keras](https://keras.io/) a [PyTorch Lightning](https://pytorchlightning.ai/) zodpovedajúco.
 
 Nízkoúrovňové API | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)
 ------------------|-------------------------------------|--------------------------------
@@ -32,29 +32,29 @@ Vysokoúrovňové API| [Keras](https://keras.io/) | [PyTorch Lightning](https://
 
 **Vysokoúrovňové API** považujú neurónové siete za **sekvenciu vrstiev** a uľahčujú konštrukciu väčšiny neurónových sietí. Trénovanie modelu zvyčajne vyžaduje prípravu dát a následné zavolanie funkcie `fit`, ktorá vykoná prácu.
 
-Vysokoúrovňové API umožňujú veľmi rýchlo konštruovať typické neurónové siete bez starostí o množstvo detailov. Zároveň nízkoúrovňové API ponúkajú oveľa väčšiu kontrolu nad procesom trénovania, a preto sa často používajú vo výskume, keď pracujete s novými architektúrami neurónových sietí.
+Vysokoúrovňové API umožňuje rýchlo konštruovať typické neurónové siete bez starostí o množstvo detailov. Na druhej strane, nízkoúrovňové API poskytuje oveľa väčšiu kontrolu nad procesom trénovania, a preto sa často používa vo výskume, keď pracujete s novými architektúrami neurónových sietí.
 
-Je tiež dôležité pochopiť, že môžete používať obe API spoločne, napr. môžete vyvinúť vlastnú architektúru vrstvy siete pomocou nízkoúrovňového API a potom ju použiť vo väčšej sieti konštruovanej a trénovanej pomocou vysokoúrovňového API. Alebo môžete definovať sieť pomocou vysokoúrovňového API ako sekvenciu vrstiev a potom použiť vlastný nízkoúrovňový tréningový cyklus na vykonanie optimalizácie. Obe API používajú rovnaké základné koncepty a sú navrhnuté tak, aby spolu dobre fungovali.
+Je tiež dôležité pochopiť, že môžete používať obe API spoločne, napr. môžete vyvinúť vlastnú architektúru vrstvy pomocou nízkoúrovňového API a potom ju použiť vo väčšej sieti konštruovanej a trénovanej pomocou vysokoúrovňového API. Alebo môžete definovať sieť pomocou vysokoúrovňového API ako sekvenciu vrstiev a potom použiť vlastný nízkoúrovňový tréningový cyklus na vykonanie optimalizácie. Obe API používajú rovnaké základné koncepty a sú navrhnuté tak, aby spolu dobre fungovali.
 
 ## Učenie
 
 V tomto kurze ponúkame väčšinu obsahu pre PyTorch aj TensorFlow. Môžete si vybrať preferovaný framework a prejsť iba zodpovedajúce notebooky. Ak si nie ste istí, ktorý framework si vybrať, prečítajte si diskusie na internete o **PyTorch vs. TensorFlow**. Môžete sa tiež pozrieť na oba frameworky, aby ste získali lepšie pochopenie.
 
-Kde je to možné, použijeme vysokoúrovňové API pre jednoduchosť. Veríme však, že je dôležité pochopiť, ako neurónové siete fungujú od základov, preto na začiatku začíname prácou s nízkoúrovňovým API a tenzormi. Ak však chcete začať rýchlo a nechcete tráviť veľa času učením týchto detailov, môžete ich preskočiť a ísť priamo do notebookov s vysokoúrovňovým API.
+Kde je to možné, použijeme vysokoúrovňové API pre jednoduchosť. Veríme však, že je dôležité pochopiť, ako neurónové siete fungujú od základov, preto na začiatku začíname prácou s nízkoúrovňovým API a tenzormi. Ak sa však chcete rýchlo pohnúť a nechcete tráviť veľa času učením týchto detailov, môžete ich preskočiť a ísť priamo do notebookov s vysokoúrovňovým API.
 
 ## ✍️ Cvičenia: Frameworky
 
 Pokračujte vo svojom učení v nasledujúcich notebookoch:
 
-Nízkoúrovňové API | [TensorFlow+Keras Notebook](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb) | [PyTorch](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)
+Nízkoúrovňové API | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](IntroPyTorch.ipynb)
 ------------------|-------------------------------------|--------------------------------
-Vysokoúrovňové API| [Keras](../../../../../lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) | *PyTorch Lightning*
+Vysokoúrovňové API| [Keras](IntroKeras.ipynb) | *PyTorch Lightning*
 
-Po zvládnutí frameworkov si zopakujme koncept overfittingu.
+Po zvládnutí frameworkov si zopakujme koncept pretrénovania.
 
-# Overfitting
+# Pretrénovanie (Overfitting)
 
-Overfitting je mimoriadne dôležitý koncept v strojovom učení, a je veľmi dôležité ho správne pochopiť!
+Pretrénovanie je mimoriadne dôležitý koncept v strojovom učení, a je veľmi dôležité ho správne pochopiť!
 
 Zvážte nasledujúci problém aproximácie 5 bodov (reprezentovaných `x` na grafoch nižšie):
 
@@ -65,46 +65,46 @@ Chyba trénovania = 5.3 | Chyba trénovania = 0
 Chyba validácie = 5.1 | Chyba validácie = 20
 
 * Naľavo vidíme dobrú aproximáciu priamkou. Pretože počet parametrov je primeraný, model správne pochopí rozloženie bodov.
-* Napravo je model príliš výkonný. Pretože máme iba 5 bodov a model má 7 parametrov, môže sa prispôsobiť tak, aby prešiel všetkými bodmi, čím sa chyba trénovania stane 0. To však bráni modelu pochopiť správny vzor v dátach, a preto je chyba validácie veľmi vysoká.
+* Napravo je model príliš výkonný. Pretože máme iba 5 bodov a model má 7 parametrov, dokáže sa prispôsobiť tak, aby prešiel všetkými bodmi, čím sa chyba trénovania stane 0. To však zabraňuje modelu pochopiť správny vzor v dátach, a preto je chyba validácie veľmi vysoká.
 
 Je veľmi dôležité nájsť správnu rovnováhu medzi bohatstvom modelu (počet parametrov) a počtom trénovacích vzoriek.
 
-## Prečo dochádza k overfittingu
+## Prečo dochádza k pretrénovaniu
 
   * Nedostatok trénovacích dát
   * Príliš výkonný model
   * Príliš veľa šumu vo vstupných dátach
 
-## Ako detekovať overfitting
+## Ako detekovať pretrénovanie
 
-Ako môžete vidieť na grafe vyššie, overfitting možno detekovať veľmi nízkou chybou trénovania a vysokou chybou validácie. Normálne počas trénovania vidíme, že chyby trénovania aj validácie začínajú klesať, a potom v určitom bode chyba validácie môže prestať klesať a začať stúpať. Toto bude znak overfittingu a indikátor, že by sme mali pravdepodobne zastaviť trénovanie (alebo aspoň urobiť snímku modelu).
+Ako môžete vidieť na grafe vyššie, pretrénovanie možno detekovať veľmi nízkou chybou trénovania a vysokou chybou validácie. Normálne počas trénovania vidíme, že chyby trénovania aj validácie začínajú klesať, a potom v určitom bode chyba validácie môže prestať klesať a začať stúpať. Toto bude znak pretrénovania a indikátor, že by sme mali pravdepodobne zastaviť trénovanie (alebo aspoň urobiť snímku modelu).
 
 ![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.sk.png)
 
-## Ako predísť overfittingu
+## Ako predísť pretrénovaniu
 
-Ak vidíte, že dochádza k overfittingu, môžete urobiť jedno z nasledujúcich:
+Ak vidíte, že dochádza k pretrénovaniu, môžete urobiť jedno z nasledujúcich:
 
  * Zvýšiť množstvo trénovacích dát
  * Znížiť komplexnosť modelu
  * Použiť nejakú [regularizačnú techniku](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), ako napríklad [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), ktorú si neskôr rozoberieme.
 
-## Overfitting a tradeoff medzi biasom a varianciou
+## Pretrénovanie a kompromis medzi biasom a varianciou
 
-Overfitting je vlastne prípad všeobecnejšieho problému v štatistike nazývaného [tradeoff medzi biasom a varianciou](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Ak zvážime možné zdroje chyby v našom modeli, môžeme vidieť dva typy chýb:
+Pretrénovanie je vlastne prípad všeobecnejšieho problému v štatistike nazývaného [kompromis medzi biasom a varianciou](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Ak zvážime možné zdroje chyby v našom modeli, môžeme vidieť dva typy chýb:
 
-* **Chyby biasu** sú spôsobené tým, že náš algoritmus nedokáže správne zachytiť vzťah medzi trénovacími dátami. Môže to byť výsledok toho, že náš model nie je dostatočne výkonný (**underfitting**).
-* **Chyby variancie**, ktoré sú spôsobené tým, že model aproximuje šum vo vstupných dátach namiesto zmysluplného vzťahu (**overfitting**).
+* **Chyby biasu** sú spôsobené tým, že náš algoritmus nedokáže správne zachytiť vzťah medzi trénovacími dátami. Môže to byť výsledok toho, že náš model nie je dostatočne výkonný (**podtrénovanie**).
+* **Chyby variancie**, ktoré sú spôsobené tým, že model aproximuje šum vo vstupných dátach namiesto zmysluplného vzťahu (**pretrénovanie**).
 
-Počas trénovania chyba biasu klesá (keď sa náš model učí aproximovať dáta) a chyba variancie stúpa. Je dôležité zastaviť trénovanie - buď manuálne (keď detekujeme overfitting) alebo automaticky (zavedením regularizácie) - aby sme predišli overfittingu.
+Počas trénovania chyba biasu klesá (keď sa náš model učí aproximovať dáta) a chyba variancie stúpa. Je dôležité zastaviť trénovanie - buď manuálne (keď detekujeme pretrénovanie) alebo automaticky (zavedením regularizácie) - aby sme predišli pretrénovaniu.
 
 ## Záver
 
-V tejto lekcii ste sa naučili rozdiely medzi rôznymi API pre dva najpopulárnejšie AI frameworky, TensorFlow a PyTorch. Okrem toho ste sa naučili o veľmi dôležitej téme, overfittingu.
+V tejto lekcii ste sa naučili rozdiely medzi rôznymi API pre dva najpopulárnejšie AI frameworky, TensorFlow a PyTorch. Okrem toho ste sa naučili o veľmi dôležitej téme, pretrénovaní.
 
 ## 🚀 Výzva
 
-V sprievodných notebookoch nájdete 'úlohy' na konci; prejdite si notebooky a dokončite úlohy.
+V sprievodných notebookoch nájdete 'úlohy' na konci; prejdite si notebooky a splňte úlohy.
 
 ## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
@@ -114,19 +114,19 @@ Preskúmajte nasledujúce témy:
 
 - TensorFlow
 - PyTorch
-- Overfitting
+- Pretrénovanie
 
 Položte si nasledujúce otázky:
 
 - Aký je rozdiel medzi TensorFlow a PyTorch?
-- Aký je rozdiel medzi overfittingom a underfittingom?
+- Aký je rozdiel medzi pretrénovaním a podtrénovaním?
 
-## [Zadanie](lab/README.md)
+## [Úloha](lab/README.md)
 
-V tomto laboratóriu máte za úlohu vyriešiť dva klasifikačné problémy pomocou jedno- a viacvrstvových plne prepojených sietí pomocou PyTorch alebo TensorFlow.
+V tomto laboratóriu máte za úlohu vyriešiť dva klasifikačné problémy pomocou jedno- a viacvrstvových plne prepojených sietí s použitím PyTorch alebo TensorFlow.
 
 * [Inštrukcie](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/05-Frameworks/lab/LabFrameworks.ipynb)
+* [Notebook](lab/LabFrameworks.ipynb)
 
-**Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+---
+

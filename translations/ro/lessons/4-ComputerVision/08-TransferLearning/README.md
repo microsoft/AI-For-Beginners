@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "717775c4050ccbffbe0c961ad8bf7bf7",
-  "translation_date": "2025-08-25T23:07:39+00:00",
+  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
+  "translation_date": "2025-09-23T14:15:14+00:00",
   "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
   "language_code": "ro"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Antrenarea CNN-urilor poate dura mult timp și necesită o cantitate mare de date. Totuși, o mare parte din timp este petrecut în învățarea celor mai bune filtre de nivel scăzut pe care o rețea le poate folosi pentru a extrage modele din imagini. O întrebare naturală apare - putem folosi o rețea neuronală antrenată pe un set de date și să o adaptăm pentru a clasifica imagini diferite fără a necesita un proces complet de antrenare?
 
-## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Această abordare se numește **învățare prin transfer**, deoarece transferăm o parte din cunoștințele unui model de rețea neuronală către altul. În învățarea prin transfer, de obicei începem cu un model pre-antrenat, care a fost antrenat pe un set mare de imagini, cum ar fi **ImageNet**. Aceste modele pot deja să extragă caracteristici diferite din imagini generice, iar în multe cazuri, construirea unui clasificator pe baza acestor caracteristici extrase poate oferi un rezultat bun.
 
@@ -19,9 +19,9 @@ Această abordare se numește **învățare prin transfer**, deoarece transferă
 
 ## Modele Pre-antrenate ca Extractoare de Caracteristici
 
-Rețelele convoluționale despre care am vorbit în secțiunea anterioară conțineau un număr de straturi, fiecare dintre ele fiind destinat să extragă anumite caracteristici din imagine, începând de la combinații de pixeli de nivel scăzut (cum ar fi linii orizontale/verticale sau trăsături), până la combinații de caracteristici de nivel înalt, corespunzătoare unor lucruri precum un ochi de flacără. Dacă antrenăm un CNN pe un set de date suficient de mare și diversificat, rețeaua ar trebui să învețe să extragă aceste caracteristici comune.
+Rețelele convoluționale despre care am vorbit în secțiunea anterioară conțineau un număr de straturi, fiecare dintre ele fiind destinat să extragă anumite caracteristici din imagine, începând de la combinații de pixeli de nivel scăzut (cum ar fi linii orizontale/verticale sau trăsături), până la combinații de caracteristici de nivel înalt, corespunzătoare unor lucruri precum un ochi sau o flacără. Dacă antrenăm un CNN pe un set de date suficient de mare, cu imagini generice și diverse, rețeaua ar trebui să învețe să extragă aceste caracteristici comune.
 
-Atât Keras, cât și PyTorch conțin funcții pentru a încărca cu ușurință greutăți pre-antrenate ale rețelelor neuronale pentru unele arhitecturi comune, majoritatea fiind antrenate pe imagini ImageNet. Cele mai utilizate sunt descrise pe pagina [Arhitecturi CNN](../07-ConvNets/CNN_Architectures.md) din lecția anterioară. În special, poate fi util să folosiți una dintre următoarele:
+Atât Keras, cât și PyTorch conțin funcții pentru a încărca cu ușurință greutăți pre-antrenate ale rețelelor neuronale pentru unele arhitecturi comune, majoritatea fiind antrenate pe imagini din ImageNet. Cele mai utilizate sunt descrise pe pagina [Arhitecturi CNN](../07-ConvNets/CNN_Architectures.md) din lecția anterioară. În special, poate fi util să folosiți una dintre următoarele:
 
 * **VGG-16/VGG-19**, care sunt modele relativ simple, dar oferă o acuratețe bună. Deseori, utilizarea VGG ca primă încercare este o alegere bună pentru a vedea cum funcționează învățarea prin transfer.
 * **ResNet** este o familie de modele propuse de Microsoft Research în 2015. Acestea au mai multe straturi și, prin urmare, necesită mai multe resurse.
@@ -35,30 +35,30 @@ Iată caracteristici extrase dintr-o imagine cu o pisică de către rețeaua VGG
 
 În acest exemplu, vom folosi un set de date cu [Pisici și Câini](https://www.microsoft.com/download/details.aspx?id=54765&WT.mc_id=academic-77998-cacaste), care este foarte apropiat de un scenariu real de clasificare a imaginilor.
 
-## ✍️ Exercițiu: Învățare prin Transfer
+## ✍️ Exercițiu: Învățarea prin Transfer
 
 Să vedem învățarea prin transfer în acțiune în caietele corespunzătoare:
 
-* [Învățare prin Transfer - PyTorch](../../../../../lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb)
-* [Învățare prin Transfer - TensorFlow](../../../../../lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb)
+* [Învățarea prin Transfer - PyTorch](TransferLearningPyTorch.ipynb)
+* [Învățarea prin Transfer - TensorFlow](TransferLearningTF.ipynb)
 
 ## Vizualizarea Pisicii Adversariale
 
-Rețeaua neuronală pre-antrenată conține diferite modele în "creierul" său, inclusiv noțiuni de **pisică ideală** (precum și câine ideal, zebră ideală etc.). Ar fi interesant să **vizualizăm această imagine**. Totuși, nu este simplu, deoarece modelele sunt răspândite în greutățile rețelei și organizate într-o structură ierarhică.
+Rețeaua neuronală pre-antrenată conține diferite modele în "creierul" său, inclusiv noțiuni de **pisică ideală** (precum și câine ideal, zebră ideală etc.). Ar fi interesant să **vizualizăm această imagine**. Totuși, nu este simplu, deoarece modelele sunt răspândite în greutățile rețelei și sunt organizate într-o structură ierarhică.
 
-O abordare pe care o putem adopta este să începem cu o imagine aleatorie și apoi să folosim tehnica de **optimizare prin descendență gradient** pentru a ajusta acea imagine astfel încât rețeaua să înceapă să creadă că este o pisică.
+O abordare pe care o putem adopta este să începem cu o imagine aleatorie și apoi să folosim tehnica de optimizare **gradient descent** pentru a ajusta acea imagine astfel încât rețeaua să înceapă să creadă că este o pisică.
 
 ![Buclă de Optimizare a Imaginilor](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.ro.png)
 
 Totuși, dacă facem acest lucru, vom obține ceva foarte asemănător cu un zgomot aleatoriu. Acest lucru se întâmplă deoarece *există multe moduri prin care rețeaua poate crede că imaginea de intrare este o pisică*, inclusiv unele care nu au sens vizual. Deși aceste imagini conțin multe modele tipice pentru o pisică, nu există nimic care să le constrângă să fie distincte vizual.
 
-Pentru a îmbunătăți rezultatul, putem adăuga un alt termen în funcția de pierdere, numit **pierdere de variație**. Este o metrică care arată cât de similari sunt pixelii vecini ai imaginii. Minimizarea pierderii de variație face imaginea mai netedă și elimină zgomotul - dezvăluind astfel modele mai atractive vizual. Iată un exemplu de astfel de imagini "ideale", care sunt clasificate ca pisică și ca zebră cu probabilitate mare:
+Pentru a îmbunătăți rezultatul, putem adăuga un alt termen în funcția de pierdere, numit **pierdere de variație**. Este o metrică care arată cât de similari sunt pixelii vecini ai imaginii. Minimizarea pierderii de variație face imaginea mai netedă și elimină zgomotul - dezvăluind astfel modele mai atractive vizual. Iată un exemplu de astfel de imagini "ideale", care sunt clasificate ca pisică și ca zebră cu o probabilitate mare:
 
 ![Pisică Ideală](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.ro.png) | ![Zebră Ideală](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.ro.png)
 -----|-----
  *Pisică Ideală* | *Zebră Ideală*
 
-O abordare similară poate fi utilizată pentru a efectua așa-numitele **atacuri adversariale** asupra unei rețele neuronale. Să presupunem că dorim să păcălim o rețea neuronală și să facem un câine să arate ca o pisică. Dacă luăm imaginea unui câine, care este recunoscută de rețea ca fiind un câine, o putem ajusta puțin folosind optimizarea prin descendență gradient, până când rețeaua începe să o clasifice ca o pisică:
+O abordare similară poate fi utilizată pentru a efectua așa-numitele **atacuri adversariale** asupra unei rețele neuronale. Să presupunem că dorim să păcălim o rețea neuronală și să facem un câine să arate ca o pisică. Dacă luăm imaginea unui câine, care este recunoscută de rețea ca fiind un câine, putem apoi să o ajustăm puțin folosind optimizarea gradient descent, până când rețeaua începe să o clasifice ca fiind o pisică:
 
 ![Imaginea unui Câine](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.ro.png) | ![Imaginea unui câine clasificat ca pisică](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.ro.png)
 -----|-----
@@ -66,17 +66,17 @@ O abordare similară poate fi utilizată pentru a efectua așa-numitele **atacur
 
 Consultați codul pentru a reproduce rezultatele de mai sus în următorul caiet:
 
-* [Pisică Ideală și Adversarială - TensorFlow](../../../../../lessons/4-ComputerVision/08-TransferLearning/AdversarialCat_TF.ipynb)
+* [Pisică Ideală și Adversarială - TensorFlow](AdversarialCat_TF.ipynb)
 
 ## Concluzie
 
-Folosind învățarea prin transfer, puteți crea rapid un clasificator pentru o sarcină personalizată de clasificare a obiectelor și obține o acuratețe ridicată. Puteți observa că sarcinile mai complexe pe care le rezolvăm acum necesită o putere computațională mai mare și nu pot fi rezolvate ușor pe CPU. În unitatea următoare, vom încerca să utilizăm o implementare mai ușoară pentru a antrena același model folosind resurse computaționale mai reduse, ceea ce duce la o acuratețe doar puțin mai scăzută.
+Folosind învățarea prin transfer, puteți crea rapid un clasificator pentru o sarcină personalizată de clasificare a obiectelor și obține o acuratețe ridicată. Puteți observa că sarcinile mai complexe pe care le rezolvăm acum necesită o putere de calcul mai mare și nu pot fi rezolvate ușor pe CPU. În unitatea următoare, vom încerca să folosim o implementare mai ușoară pentru a antrena același model folosind resurse de calcul mai reduse, ceea ce duce la o acuratețe doar ușor mai scăzută.
 
 ## 🚀 Provocare
 
-În caietele însoțitoare, există note la final despre cum funcționează cel mai bine transferul de cunoștințe cu date de antrenament oarecum similare (poate un nou tip de animal). Faceți câteva experimente cu tipuri complet noi de imagini pentru a vedea cât de bine sau prost performează modelele de transfer de cunoștințe.
+În caietele însoțitoare, există note la final despre cum funcționează cel mai bine transferul de cunoștințe cu date de antrenament oarecum similare (poate un nou tip de animal). Faceți câteva experimente cu tipuri complet noi de imagini pentru a vedea cât de bine sau prost performează modelele voastre de transfer de cunoștințe.
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Recapitulare și Studiu Individual
 
@@ -86,5 +86,5 @@ Citiți [TrainingTricks.md](TrainingTricks.md) pentru a aprofunda cunoștințele
 
 În acest laborator, vom folosi setul de date real [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) cu 35 de rase de pisici și câini și vom construi un clasificator bazat pe învățarea prin transfer.
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+---
+

@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dbacf9b1915612981d76059678e563e5",
-  "translation_date": "2025-08-25T23:30:54+00:00",
+  "original_hash": "04395657fc01648f8f70484d0e55ab67",
+  "translation_date": "2025-09-23T14:02:13+00:00",
   "source_file": "lessons/6-Other/22-DeepRL/README.md",
   "language_code": "sk"
 }
 -->
 # Hlboké posilňovacie učenie
 
-Posilňovacie učenie (RL) je považované za jeden zo základných paradigmov strojového učenia, vedľa učenia s učiteľom a učenia bez učiteľa. Zatiaľ čo pri učení s učiteľom sa spoliehame na dataset s známymi výsledkami, RL je založené na **učení sa prostredníctvom skúseností**. Napríklad, keď prvýkrát vidíme počítačovú hru, začneme ju hrať, aj keď nepoznáme pravidlá, a čoskoro dokážeme zlepšiť svoje schopnosti len procesom hrania a prispôsobovania svojho správania.
+Posilňovacie učenie (RL) je považované za jeden zo základných paradigmov strojového učenia, vedľa učenia s učiteľom a učenia bez učiteľa. Zatiaľ čo pri učení s učiteľom sa spoliehame na dataset so známymi výsledkami, RL je založené na **učení sa prostredníctvom skúseností**. Napríklad, keď prvýkrát vidíme počítačovú hru, začneme ju hrať, aj keď nepoznáme pravidlá, a čoskoro dokážeme zlepšiť svoje schopnosti len procesom hrania a prispôsobovania svojho správania.
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
@@ -18,21 +18,21 @@ Na vykonanie RL potrebujeme:
 * **Prostredie** alebo **simulátor**, ktorý nastavuje pravidlá hry. Mali by sme byť schopní vykonávať experimenty v simulátore a pozorovať výsledky.
 * **Funkciu odmeny**, ktorá naznačuje, ako úspešný bol náš experiment. V prípade učenia sa hrať počítačovú hru by odmenou bolo naše konečné skóre.
 
-Na základe funkcie odmeny by sme mali byť schopní prispôsobiť svoje správanie a zlepšiť svoje schopnosti, aby sme nabudúce hrali lepšie. Hlavný rozdiel medzi inými typmi strojového učenia a RL je ten, že pri RL zvyčajne nevieme, či vyhráme alebo prehráme, až kým nedokončíme hru. Preto nemôžeme povedať, či je určitý krok sám o sebe dobrý alebo nie - odmenu dostaneme až na konci hry.
+Na základe funkcie odmeny by sme mali byť schopní prispôsobiť svoje správanie a zlepšiť svoje schopnosti, aby sme nabudúce hrali lepšie. Hlavný rozdiel medzi inými typmi strojového učenia a RL je, že pri RL zvyčajne nevieme, či vyhráme alebo prehráme, kým nedokončíme hru. Preto nemôžeme povedať, či je určitý krok sám o sebe dobrý alebo nie - odmenu dostaneme až na konci hry.
 
-Počas RL zvyčajne vykonávame mnoho experimentov. Počas každého experimentu musíme vyvážiť medzi nasledovaním optimálnej stratégie, ktorú sme sa doteraz naučili (**využívanie**), a skúmaním nových možných stavov (**prieskum**).
+Počas RL zvyčajne vykonávame mnoho experimentov. Počas každého experimentu musíme vyvážiť medzi nasledovaním optimálnej stratégie, ktorú sme sa doteraz naučili (**exploatácia**), a skúmaním nových možných stavov (**explorácia**).
 
 ## OpenAI Gym
 
-Skvelým nástrojom pre RL je [OpenAI Gym](https://gym.openai.com/) - **simulačné prostredie**, ktoré dokáže simulovať mnoho rôznych prostredí, od hier Atari až po fyziku za vyvažovaním tyče. Je to jedno z najpopulárnejších simulačných prostredí na trénovanie algoritmov posilňovacieho učenia a je udržiavané [OpenAI](https://openai.com/).
+Skvelým nástrojom pre RL je [OpenAI Gym](https://gym.openai.com/) - **simulačné prostredie**, ktoré dokáže simulovať mnoho rôznych prostredí, od hier Atari až po fyziku za balansovaním tyče. Je to jedno z najpopulárnejších simulačných prostredí na trénovanie algoritmov posilňovacieho učenia a je udržiavané spoločnosťou [OpenAI](https://openai.com/).
 
 > **Note**: Všetky dostupné prostredia z OpenAI Gym si môžete pozrieť [tu](https://gym.openai.com/envs/#classic_control).
 
-## Vyvažovanie CartPole
+## Balansovanie CartPole
 
-Pravdepodobne ste už videli moderné vyvažovacie zariadenia, ako napríklad *Segway* alebo *Gyroskútre*. Dokážu automaticky vyvažovať tým, že upravujú svoje kolesá na základe signálu z akcelerometra alebo gyroskopu. V tejto sekcii sa naučíme, ako vyriešiť podobný problém - vyvažovanie tyče. Je to podobné situácii, keď cirkusový umelec potrebuje vyvážiť tyč na svojej ruke - ale toto vyvažovanie tyče sa deje iba v 1D.
+Pravdepodobne ste už videli moderné balansovacie zariadenia, ako napríklad *Segway* alebo *Gyroskútre*. Dokážu automaticky balansovať tým, že upravujú svoje kolesá na základe signálu z akcelerometra alebo gyroskopu. V tejto sekcii sa naučíme, ako vyriešiť podobný problém - balansovanie tyče. Je to podobné situácii, keď cirkusový umelec potrebuje balansovať tyč na svojej ruke - ale toto balansovanie tyče sa odohráva iba v 1D.
 
-Zjednodušená verzia vyvažovania je známa ako problém **CartPole**. Vo svete CartPole máme horizontálny posúvač, ktorý sa môže pohybovať doľava alebo doprava, a cieľom je vyvážiť vertikálnu tyč na vrchu posúvača, keď sa pohybuje.
+Zjednodušená verzia balansovania je známa ako problém **CartPole**. Vo svete CartPole máme horizontálny posúvač, ktorý sa môže pohybovať doľava alebo doprava, a cieľom je balansovať vertikálnu tyč na vrchu posúvača, keď sa pohybuje.
 
 <img alt="cartpole" src="images/cartpole.png" width="200"/>
 
@@ -60,46 +60,46 @@ Každé prostredie je možné pristupovať presne rovnakým spôsobom:
 
 V príklade vyššie vykonávame náhodnú akciu pri každom kroku, čo je dôvod, prečo je život experimentu veľmi krátky:
 
-![nevyvážené cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
+![nebalansujúci cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
 
-Cieľom algoritmu RL je vytrénovať model - tzv. **politiku** π - ktorá bude vracať akciu v reakcii na daný stav. Politiku môžeme tiež považovať za pravdepodobnostnú, napr. pre akýkoľvek stav *s* a akciu *a* bude vracať pravdepodobnosť π(*a*|*s*), že by sme mali vykonať *a* v stave *s*.
+Cieľom RL algoritmu je vytrénovať model - tzv. **politiku** &pi; - ktorá bude vracať akciu v reakcii na daný stav. Politiku môžeme tiež považovať za pravdepodobnostnú, napr. pre akýkoľvek stav *s* a akciu *a* bude vracať pravdepodobnosť &pi;(*a*|*s*), že by sme mali vykonať *a* v stave *s*.
 
 ## Algoritmus Policy Gradients
 
-Najzjavnejší spôsob modelovania politiky je vytvorenie neurónovej siete, ktorá bude brať stavy ako vstup a vracať zodpovedajúce akcie (alebo skôr pravdepodobnosti všetkých akcií). V istom zmysle by to bolo podobné bežnej klasifikačnej úlohe, s hlavnou odlišnosťou - vopred nevieme, ktoré akcie by sme mali vykonať pri každom kroku.
+Najzjavnejší spôsob, ako modelovať politiku, je vytvoriť neurónovú sieť, ktorá bude brať stavy ako vstup a vracať zodpovedajúce akcie (alebo skôr pravdepodobnosti všetkých akcií). V istom zmysle by to bolo podobné bežnej klasifikačnej úlohe, s jedným hlavným rozdielom - vopred nevieme, ktoré akcie by sme mali vykonať pri každom kroku.
 
-Myšlienka je tu odhadnúť tieto pravdepodobnosti. Vytvoríme vektor **kumulatívnych odmien**, ktorý ukazuje našu celkovú odmenu pri každom kroku experimentu. Tiež aplikujeme **diskontovanie odmien** násobením skorších odmien nejakým koeficientom γ=0.99, aby sme znížili význam skorších odmien. Potom posilníme tie kroky pozdĺž experimentálnej cesty, ktoré prinášajú väčšie odmeny.
+Myšlienka je tu odhadnúť tieto pravdepodobnosti. Vytvoríme vektor **kumulatívnych odmien**, ktorý ukazuje našu celkovú odmenu pri každom kroku experimentu. Tiež aplikujeme **diskontovanie odmien** násobením skorších odmien určitým koeficientom &gamma;=0.99, aby sme znížili význam skorších odmien. Potom posilníme tie kroky pozdĺž experimentálnej cesty, ktoré prinášajú väčšie odmeny.
 
-> Viac o algoritme Policy Gradient a jeho ukážku nájdete v [príkladovom notebooku](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb).
+> Viac o algoritme Policy Gradient a jeho ukážku nájdete v [príkladovom notebooku](CartPole-RL-TF.ipynb).
 
 ## Algoritmus Actor-Critic
 
-Vylepšená verzia prístupu Policy Gradients sa nazýva **Actor-Critic**. Hlavná myšlienka za tým je, že neurónová sieť by mala byť trénovaná na návrat dvoch vecí:
+Vylepšená verzia prístupu Policy Gradients sa nazýva **Actor-Critic**. Hlavná myšlienka spočíva v tom, že neurónová sieť by bola trénovaná na návrat dvoch vecí:
 
 * Politiku, ktorá určuje, akú akciu vykonať. Táto časť sa nazýva **actor**.
 * Odhad celkovej odmeny, ktorú môžeme očakávať v tomto stave - táto časť sa nazýva **critic**.
 
 V istom zmysle táto architektúra pripomína [GAN](../../4-ComputerVision/10-GANs/README.md), kde máme dve siete, ktoré sú trénované proti sebe. V modeli actor-critic navrhuje actor akciu, ktorú potrebujeme vykonať, a critic sa snaží byť kritický a odhadnúť výsledok. Naším cieľom je však trénovať tieto siete v súlade.
 
-Keďže poznáme skutočné kumulatívne odmeny a výsledky, ktoré critic vracia počas experimentu, je relatívne jednoduché vytvoriť funkciu straty, ktorá minimalizuje rozdiel medzi nimi. To nám dáva **critic loss**. **Actor loss** môžeme vypočítať použitím rovnakého prístupu ako v algoritme Policy Gradient.
+Keďže poznáme skutočné kumulatívne odmeny a výsledky vrátené criticom počas experimentu, je relatívne jednoduché vytvoriť funkciu straty, ktorá minimalizuje rozdiel medzi nimi. To nám dáva **critic loss**. **Actor loss** môžeme vypočítať použitím rovnakého prístupu ako v algoritme Policy Gradient.
 
-Po spustení jedného z týchto algoritmov môžeme očakávať, že naše CartPole sa bude správať takto:
+Po spustení jedného z týchto algoritmov môžeme očakávať, že náš CartPole sa bude správať takto:
 
-![vyvážené cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
+![balansujúci cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
 
 ## ✍️ Cvičenia: Policy Gradients a Actor-Critic RL
 
 Pokračujte vo svojom učení v nasledujúcich notebookoch:
 
-* [RL v TensorFlow](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)
-* [RL v PyTorch](../../../../../lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb)
+* [RL v TensorFlow](CartPole-RL-TF.ipynb)
+* [RL v PyTorch](CartPole-RL-PyTorch.ipynb)
 
 ## Ďalšie úlohy RL
 
 Posilňovacie učenie je dnes rýchlo rastúcou oblasťou výskumu. Niektoré zaujímavé príklady posilňovacieho učenia sú:
 
-* Učenie počítača hrať **hry Atari**. Náročnou časťou tohto problému je, že nemáme jednoduchý stav reprezentovaný ako vektor, ale skôr snímku obrazovky - a musíme použiť CNN na konverziu obrazu obrazovky na vektor vlastností alebo na extrakciu informácií o odmene. Hry Atari sú dostupné v Gym.
-* Učenie počítača hrať stolové hry, ako šach a Go. Nedávno boli programy na špičkovej úrovni, ako **Alpha Zero**, trénované od nuly dvoma agentmi, ktorí hrali proti sebe a zlepšovali sa pri každom kroku.
+* Učenie počítača hrať **hry Atari**. Výzvou v tomto probléme je, že nemáme jednoduchý stav reprezentovaný ako vektor, ale skôr snímku obrazovky - a musíme použiť CNN na konverziu tohto obrazového snímku na vektor vlastností alebo na extrakciu informácií o odmene. Hry Atari sú dostupné v Gym.
+* Učenie počítača hrať stolové hry, ako šach a Go. Nedávno boli špičkové programy ako **Alpha Zero** trénované od nuly dvoma agentmi, ktorí hrali proti sebe a zlepšovali sa pri každom kroku.
 * V priemysle sa RL používa na vytváranie riadiacich systémov zo simulácie. Služba nazývaná [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) je špeciálne navrhnutá na tento účel.
 
 ## Záver
@@ -114,7 +114,7 @@ Preskúmajte aplikácie uvedené v sekcii 'Ďalšie úlohy RL' a skúste impleme
 
 ## Prehľad a samostatné štúdium
 
-Viac o klasickom posilňovacom učení sa dozviete v našom [kurze Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
+Viac o klasickom posilňovacom učení sa dozviete v našom [učebnom pláne Strojového učenia pre začiatočníkov](https://github.com/microsoft/ML-For-Beginners/blob/main/8-Reinforcement/README.md).
 
 Pozrite si [toto skvelé video](https://www.youtube.com/watch?v=qv6UVOQ0F44), ktoré hovorí o tom, ako sa počítač môže naučiť hrať Super Mario.
 
@@ -122,5 +122,5 @@ Pozrite si [toto skvelé video](https://www.youtube.com/watch?v=qv6UVOQ0F44), kt
 
 Vaším cieľom počas tohto zadania bude vytrénovať iné prostredie Gym - [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/).
 
-**Zrieknutie sa zodpovednosti**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+---
+

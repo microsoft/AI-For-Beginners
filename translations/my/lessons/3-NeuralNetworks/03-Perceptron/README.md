@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-25T23:59:51+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T15:22:42+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "my"
 }
 -->
-# နယူးရယ်နက်ဝက်များအကြောင်း အကျဉ်းချုပ်: ပာစက်ထရွန်
+# နယူးရယ်နက်ဝက်များအကြောင်း: Perceptron
 
-## [မဆွေးနွေးမီ စမ်းမေးခွန်း](https://ff-quizzes.netlify.app/en/ai/quiz/5)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-နယူးရယ်နက်ဝက်တစ်ခုကို အချိန်မီနည်းလမ်းဖြင့် ဖန်တီးရန် ပထမဆုံးကြိုးစားမှုတစ်ခုကို 1957 ခုနှစ်တွင် Cornell Aeronautical Laboratory မှ Frank Rosenblatt က ပြုလုပ်ခဲ့သည်။ ၎င်းသည် "Mark-1" ဟုခေါ်သော ဟာ့ဒ်ဝဲတစ်ခုဖြစ်ပြီး၊ တိရိစ္ဆာန်ပုံစံများ (ဥပမာ- တြိဂံ၊ စတုရန်း၊ စက်ဝိုင်း) ကို အသိအမှတ်ပြုနိုင်ရန် ဒီဇိုင်းပြုလုပ်ထားသည်။
+နယူးရယ်နက်ဝက်တစ်ခုကို အခေတ်သစ်နည်းပညာနဲ့ဆင်တူအောင် ဖန်တီးဖို့အတွက် ပထမဆုံးကြိုးစားမှုတစ်ခုကို 1957 ခုနှစ်မှာ Cornell Aeronautical Laboratory မှ Frank Rosenblatt ကလုပ်ခဲ့ပါတယ်။ ဒါဟာ "Mark-1" လို့ခေါ်တဲ့ hardware implementation ဖြစ်ပြီး တြိဂံ၊ စတုရန်း၊ ရှိုင်းကယ်လ်လိုက်စတဲ့ ရုပ်ပုံအခြေခံဂျီဩမေထရိကပုံများကို မှတ်မိစေဖို့ ဒီဇိုင်းထုတ်ထားတာပါ။
 
 |      |      |
 |--------------|-----------|
@@ -19,43 +19,43 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ပုံများ [Wikipedia မှ](https://en.wikipedia.org/wiki/Perceptron)
 
-အထဲသို့ ထည့်သွင်းသော ပုံကို 20x20 ဖိုတိုဆဲလ်အကွက်ဖြင့် ကိုယ်စားပြုထားပြီး၊ နယူးရယ်နက်ဝက်တွင် 400 ခုသော အထွက်အချက်အလက်များနှင့် binary output တစ်ခုသာ ရှိသည်။ ရိုးရှင်းသော နက်ဝက်တစ်ခုတွင် **threshold logic unit** ဟုခေါ်သော နယူးရွန်တစ်ခုသာ ပါဝင်သည်။ နယူးရယ်နက်ဝက်၏ အလေးချိန်များသည် ပိုတင်ရှိုမီတာများကဲ့သို့ လုပ်ဆောင်ပြီး၊ သင်ကြားမှုအဆင့်တွင် လက်ဖြင့် ပြင်ဆင်ရန် လိုအပ်သည်။
+input image ကို 20x20 photocell array နဲ့ဖော်ပြထားပြီး နယူးရယ်နက်ဝက်မှာ input 400 ခုနဲ့ binary output တစ်ခုရှိပါတယ်။ ရိုးရှင်းတဲ့ network တစ်ခုမှာ neuron တစ်ခုသာပါဝင်ပြီး **threshold logic unit** လို့လည်းခေါ်ပါတယ်။ နယူးရယ်နက်ဝက်ရဲ့ weight တွေဟာ training အဆင့်မှာ လက်ဖြင့်ချိန်ညှိရတဲ့ potentiometer အဖြစ်လုပ်ဆောင်ပါတယ်။
 
-> ✅ ပိုတင်ရှိုမီတာသည် စက်ဝိုင်း၏ ခုခံမှုကို အသုံးပြုသူက ပြင်ဆင်နိုင်စေသော စက်ကိရိယာတစ်ခုဖြစ်သည်။
+> ✅ Potentiometer ဆိုတာ circuit ရဲ့ resistance ကို user ကချိန်ညှိနိုင်စေတဲ့ device တစ်ခုပါ။
 
-> အဲဒီအချိန်တွင် The New York Times သည် ပာစက်ထရွန်အကြောင်းကို *[Navy] သည် လမ်းလျှောက်နိုင်၊ စကားပြောနိုင်၊ မြင်နိုင်၊ ရေးနိုင်၊ ကိုယ့်ကိုယ်ကို ထပ်မံဖန်တီးနိုင်ပြီး၊ ကိုယ့်ရဲ့ တည်ရှိမှုကို သိနိုင်မည့် အီလက်ထရွန်နစ် ကွန်ပျူတာ၏ စတင်အဆင့်* ဟု ဖော်ပြခဲ့သည်။
+> အဲဒီအချိန်မှာ The New York Times က perceptron အကြောင်းရေးသားခဲ့တာက: *[Navy] က မျှော်လင့်ထားတဲ့ အီလက်ထရွန်နစ်ကွန်ပျူတာရဲ့ embryo ဖြစ်ပြီး လမ်းလျှောက်နိုင်၊ စကားပြောနိုင်၊ မြင်နိုင်၊ ရေးနိုင်၊ ကိုယ်တိုင်ထုတ်လုပ်နိုင်၊ ကိုယ်တိုင်ရဲ့တည်ရှိမှုကို သိနိုင်မယ်လို့ဆိုထားပါတယ်။*
 
-## ပာစက်ထရွန် မော်ဒယ်
+## Perceptron Model
 
-မော်ဒယ်တွင် N အချက်အလက်များ ရှိသည်ဟု ယူဆပါစို့။ ထိုအခါ input vector သည် N အရွယ်အစားရှိသော ဗက်တာတစ်ခုဖြစ်သည်။ ပာစက်ထရွန်သည် **binary classification** မော်ဒယ်တစ်ခုဖြစ်ပြီး၊ အချက်အလက်နှစ်မျိုးကို ခွဲခြားနိုင်သည်။ အချက်အလက်များအတွက် input vector x တစ်ခုစီအတွက် ပာစက်ထရွန်၏ output သည် +1 သို့မဟုတ် -1 ဖြစ်မည်ဟု ယူဆပါမည်။ ထို output ကို အောက်ပါဖော်မြူလာဖြင့် တွက်ချက်မည်-
+Suppose ကျွန်တော်တို့ရဲ့ model မှာ N features ရှိတယ်လို့ဆိုရင်၊ input vector ဟာ N အရွယ်အစားရှိတဲ့ vector ဖြစ်ပါမယ်။ Perceptron ဟာ **binary classification** model ဖြစ်ပြီး input data ရဲ့ class နှစ်ခုကို ခွဲခြားနိုင်ပါတယ်။ input vector x တစ်ခုစီအတွက် perceptron ရဲ့ output ဟာ +1 ဒါမှမဟုတ် -1 ဖြစ်မယ်လို့ assumption လုပ်ထားပါတယ်။ Output ကို အောက်ပါ formula ကိုသုံးပြီးတွက်ချက်ပါမယ်-
 
 y(x) = f(w<sup>T</sup>x)
 
-f သည် step activation function ဖြစ်သည်။
+f ဟာ step activation function ဖြစ်ပါတယ်။
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
 <img src="images/activation-func.png"/>
 
-## ပာစက်ထရွန်ကို သင်ကြားခြင်း
+## Perceptron ကို Training လုပ်ခြင်း
 
-ပာစက်ထရွန်ကို သင်ကြားရန်အတွက် အမှားအနည်းဆုံးဖြစ်စေရန် အများစုသော input data များကို မှန်ကန်စွာ ခွဲခြားနိုင်သော အလေးချိန်ဗက်တာ w ကို ရှာဖွေရမည်။ ထိုအမှား E ကို **perceptron criterion** ဖြင့် အောက်ပါအတိုင်း သတ်မှတ်သည်-
+Perceptron ကို training လုပ်ဖို့အတွက် အများဆုံး data တွေကို မှန်ကန်စွာခွဲခြားနိုင်တဲ့ weight vector w ကိုရှာဖွေရပါမယ်။ ဒါဟာ **error** အနည်းဆုံးဖြစ်စေဖို့လိုပါတယ်။ Error E ကို **perceptron criterion** အတိုင်းအောက်ပါအနည်းအကျဉ်းနည်းဖြင့်ဖော်ပြထားပါတယ်-
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 ဒီမှာ:
 
-* စုစုပေါင်းသည် မှားယွင်းသော ခွဲခြားမှုဖြစ်သော training data points i များအပေါ်တွင် ပြုလုပ်သည်။
-* x<sub>i</sub> သည် input data ဖြစ်ပြီး၊ t<sub>i</sub> သည် -1 သို့မဟုတ် +1 ဖြစ်သည် (negative နှင့် positive ตัวอย่างများအတွက်)။
+* စုစုပေါင်းဟာ training data points i တွေထဲမှ wrong classification ဖြစ်တဲ့ data point တွေမှာသာယူထားပါတယ်။
+* x<sub>i</sub> ဟာ input data ဖြစ်ပြီး t<sub>i</sub> ဟာ negative နဲ့ positive ตัวอย่างအတွက် -1 ဒါမှမဟုတ် +1 ဖြစ်ပါတယ်။
 
-ဤ criteria ကို အလေးချိန် w ၏ function အဖြစ် သတ်မှတ်ပြီး၊ ၎င်းကို အနည်းဆုံးအဆင့်သို့ လျှော့ချရန် လိုအပ်သည်။ မကြာခဏ **gradient descent** ဟုခေါ်သော နည်းလမ်းကို အသုံးပြုသည်။ ဤနည်းလမ်းတွင် စတင်အလေးချိန် w<sup>(0)</sup> ဖြင့် စတင်ပြီး၊ အဆင့်တစ်ခုစီတွင် အောက်ပါဖော်မြူလာအတိုင်း အလေးချိန်များကို ပြင်ဆင်သည်-
+ဒီ criteria ကို weight w ရဲ့ function အနေနဲ့ယူထားပြီး minimize လုပ်ဖို့လိုပါတယ်။ အများအားဖြင့် **gradient descent** လို့ခေါ်တဲ့နည်းကိုသုံးပြီး w<sup>(0)</sup> ဆိုတဲ့ initial weight တွေကိုစပြီး၊ နောက်တစ်ဆင့်မှာ weight တွေကို အောက်ပါ formula အတိုင်း update လုပ်ပါတယ်-
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-ဒီမှာ η သည် **learning rate** ဟုခေါ်ပြီး၊ ∇E(w) သည် E ၏ **gradient** ဖြစ်သည်။ Gradient ကို တွက်ချက်ပြီးနောက်-
+ဒီမှာ &eta; ဟာ **learning rate** ဖြစ်ပြီး &nabla;E(w) ဟာ E ရဲ့ **gradient** ဖြစ်ပါတယ်။ Gradient ကိုတွက်ပြီးရင်-
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
-Python ဖြင့် ရေးသားထားသော အဲဒီ algorithm သည် အောက်ပါအတိုင်းဖြစ်သည်-
+Python code အနေနဲ့ algorithm ဟာ အောက်ပါအတိုင်းဖြစ်ပါတယ်-
 
 ```python
 def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
@@ -77,28 +77,28 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
     return weights
 ```
 
-## အကျဉ်းချုပ်
+## နိဂုံး
 
-ဒီသင်ခန်းစာတွင် binary classification မော်ဒယ်ဖြစ်သော ပာစက်ထရွန်နှင့် ၎င်းကို အလေးချိန်ဗက်တာကို အသုံးပြု၍ သင်ကြားနည်းကို သင်ယူခဲ့ပါသည်။
+ဒီသင်ခန်းစာမှာ binary classification model ဖြစ်တဲ့ perceptron နဲ့ weight vector ကိုသုံးပြီး training လုပ်ပုံကိုလေ့လာခဲ့ပါတယ်။
 
 ## 🚀 စိန်ခေါ်မှု
 
-သင့်ကိုယ်ပိုင် ပာစက်ထရွန်တစ်ခု ဖန်တီးကြည့်လိုပါက၊ [Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) တွင်ရှိသော [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) ကို အသုံးပြု၍ လေ့လာကြည့်ပါ။
+သင့်ကိုယ်တိုင် perceptron တစ်ခုကိုတည်ဆောက်ချင်ရင် [Microsoft Learn မှ lab](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) ကိုစမ်းကြည့်ပါ။ ဒီမှာ [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) ကိုသုံးထားပါတယ်။
 
-## [သင်ခန်းစာပြီးနောက် စမ်းမေးခွန်း](https://ff-quizzes.netlify.app/en/ai/quiz/6)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 
-ပာစက်ထရွန်ကို အသုံးပြု၍ သေးငယ်သော ပြဿနာများနှင့် အမှန်တကယ် ပြဿနာများကို ဖြေရှင်းနိုင်ပုံကို ကြည့်ရှုရန်နှင့် ဆက်လက်လေ့လာရန် - [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb) notebook သို့ သွားပါ။
+Perceptron ကို toy problem နဲ့ အမှန်တကယ်ဖြစ်ရပ်များကို ဖြေရှင်းဖို့ဘယ်လိုအသုံးပြုနိုင်တယ်ဆိုတာကိုလေ့လာဖို့ [Perceptron](Perceptron.ipynb) notebook ကိုသွားပါ။
 
-ပာစက်ထရွန်များအကြောင်း စိတ်ဝင်စားဖွယ် [ဆောင်းပါး](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590) တစ်ပုဒ်လည်း ရှိပါသည်။
+Perceptron အကြောင်း [စိတ်ဝင်စားဖွယ်ဆောင်းပါး](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590) တစ်ခုလည်းရှိပါတယ်။
 
-## [အိမ်စာ](lab/README.md)
+## [Assignment](lab/README.md)
 
-ဒီသင်ခန်းစာတွင် binary classification အလုပ်ကို ဆောင်ရွက်ရန် ပာစက်ထရွန်တစ်ခုကို ဖန်တီးခဲ့ပြီး၊ လက်ရေးလက်သားနံပါတ်နှစ်ခုကို ခွဲခြားရန် အသုံးပြုခဲ့သည်။ ဒီ lab တွင် သင့်အား နံပါတ်ခွဲခြားမှု ပြဿနာကို အပြည့်အစုံ ဖြေရှင်းရန် တိုက်တွန်းပါမည်။ အဓိကအားဖြင့် ပုံတစ်ပုံနှင့် ကိုက်ညီနိုင်သော နံပါတ်ကို သတ်မှတ်ရန် လိုအပ်သည်။
+ဒီသင်ခန်းစာမှာ binary classification task အတွက် perceptron တစ်ခုကိုတည်ဆောက်ပြီး handwritten digits နှစ်ခုကိုခွဲခြားဖို့အသုံးပြုခဲ့ပါတယ်။ ဒီ lab မှာတော့ digit classification ကိုအပြည့်အစုံဖြေရှင်းဖို့အလုပ်လုပ်ရမှာဖြစ်ပြီး ပုံတစ်ခုကိုအခြေခံပြီး digit ဘယ်ဟာဖြစ်နိုင်မလဲဆိုတာကိုဆုံးဖြတ်ရပါမယ်။
 
-* [ညွှန်ကြားချက်များ](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [အညွှန်း](lab/README.md)
+* [Notebook](lab/PerceptronMultiClass.ipynb)
 
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+---
+

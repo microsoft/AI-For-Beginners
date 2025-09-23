@@ -1,75 +1,75 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "186bf7eeab776b36f557357ea56d4751",
-  "translation_date": "2025-08-24T10:40:26+00:00",
+  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
+  "translation_date": "2025-09-23T13:56:46+00:00",
   "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
   "language_code": "pl"
 }
 -->
-# Wprowadzenie do Sieci Neuronowych. Perceptron Wielowarstwowy
+# Wprowadzenie do sieci neuronowych. Wielowarstwowy perceptron
 
-W poprzedniej sekcji nauczyłeś się o najprostszym modelu sieci neuronowej - perceptronie jednowarstwowym, będącym liniowym modelem klasyfikacji dwuklasowej.
+W poprzedniej sekcji poznaliśmy najprostszy model sieci neuronowej - jednowarstwowy perceptron, liniowy model klasyfikacji dla dwóch klas.
 
-W tej sekcji rozszerzymy ten model do bardziej elastycznego frameworka, który pozwoli nam:
+W tej sekcji rozszerzymy ten model, tworząc bardziej elastyczne ramy, które pozwolą nam:
 
-* wykonywać **klasyfikację wieloklasową** oprócz dwuklasowej
-* rozwiązywać **problemy regresji** oprócz klasyfikacji
-* rozdzielać klasy, które nie są liniowo separowalne
+* przeprowadzać **klasyfikację wieloklasową** oprócz klasyfikacji dwuklasowej,
+* rozwiązywać **problemy regresji** oprócz klasyfikacji,
+* rozdzielać klasy, które nie są liniowo separowalne.
 
-Stworzymy również własny modułowy framework w Pythonie, który umożliwi nam budowanie różnych architektur sieci neuronowych.
+Dodatkowo stworzymy własne modułowe ramy w Pythonie, które umożliwią konstruowanie różnych architektur sieci neuronowych.
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
-## Formalizacja Uczenia Maszynowego
+## Formalizacja uczenia maszynowego
 
-Zacznijmy od formalizacji problemu Uczenia Maszynowego. Załóżmy, że mamy zbiór danych treningowych **X** z etykietami **Y**, i musimy zbudować model *f*, który będzie dokonywał jak najdokładniejszych przewidywań. Jakość przewidywań mierzymy za pomocą **funkcji straty** ℒ. Często używane funkcje straty to:
+Zacznijmy od formalizacji problemu uczenia maszynowego. Załóżmy, że mamy zbiór danych treningowych **X** z etykietami **Y**, i musimy zbudować model *f*, który będzie generował jak najdokładniejsze przewidywania. Jakość przewidywań mierzymy za pomocą **funkcji straty** &lagran;. Często stosowane funkcje straty to:
 
-* W przypadku problemu regresji, gdy musimy przewidzieć liczbę, możemy użyć **błędu bezwzględnego** ∑<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>| lub **błędu kwadratowego** ∑<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sup>)<sup>2</sup>
-* W przypadku klasyfikacji używamy **straty 0-1** (która jest zasadniczo tym samym co **dokładność** modelu) lub **straty logistycznej**.
+* W przypadku problemu regresji, gdy musimy przewidzieć wartość liczbową, możemy użyć **błędu absolutnego** &sum;<sub>i</sub>|f(x<sup>(i)</sup>)-y<sup>(i)</sup>| lub **błędu kwadratowego** &sum;<sub>i</sub>(f(x<sup>(i)</sup>)-y<sup>(i)</sup>)<sup>2</sup>.
+* W przypadku klasyfikacji stosujemy **0-1 loss** (który zasadniczo odpowiada **dokładności** modelu) lub **logistyczną funkcję straty**.
 
-Dla perceptronu jednowarstwowego funkcja *f* była zdefiniowana jako funkcja liniowa *f(x)=wx+b* (gdzie *w* to macierz wag, *x* to wektor cech wejściowych, a *b* to wektor przesunięcia). Dla różnych architektur sieci neuronowych funkcja ta może przyjmować bardziej złożoną formę.
+Dla jednowarstwowego perceptronu funkcja *f* była zdefiniowana jako funkcja liniowa *f(x)=wx+b* (gdzie *w* to macierz wag, *x* to wektor cech wejściowych, a *b* to wektor przesunięcia). W przypadku różnych architektur sieci neuronowych funkcja ta może przyjmować bardziej złożoną formę.
 
-> W przypadku klasyfikacji często pożądane jest uzyskanie prawdopodobieństw odpowiadających klas jako wyjścia sieci. Aby przekształcić dowolne liczby na prawdopodobieństwa (np. znormalizować wyjście), często używamy funkcji **softmax** σ, a funkcja *f* staje się *f(x)=σ(wx+b)*
+> W przypadku klasyfikacji często pożądane jest uzyskanie prawdopodobieństw odpowiadających klasom jako wynik sieci. Aby przekształcić dowolne liczby w prawdopodobieństwa (np. znormalizować wynik), często używamy funkcji **softmax** &sigma;, a funkcja *f* staje się *f(x)=&sigma;(wx+b)*.
 
-W definicji *f* powyżej, *w* i *b* nazywane są **parametrami** θ=⟨*w,b*⟩. Mając zbiór danych ⟨**X**,**Y**⟩, możemy obliczyć całkowity błąd dla całego zbioru danych jako funkcję parametrów θ.
+W powyższej definicji *f*, *w* i *b* nazywane są **parametrami** &theta;=⟨*w,b*⟩. Mając zbiór danych ⟨**X**,**Y**⟩, możemy obliczyć całkowity błąd dla całego zbioru danych jako funkcję parametrów &theta;.
 
-> ✅ **Celem trenowania sieci neuronowej jest minimalizacja błędu poprzez modyfikację parametrów θ**
+> ✅ **Celem treningu sieci neuronowej jest minimalizacja błędu poprzez zmienianie parametrów &theta;**
 
-## Optymalizacja za pomocą Gradientu Prostego
+## Optymalizacja metodą gradientu prostego
 
-Istnieje dobrze znana metoda optymalizacji funkcji zwana **gradientem prostym**. Idea polega na tym, że możemy obliczyć pochodną (w przypadku wielowymiarowym nazywaną **gradientem**) funkcji straty względem parametrów i zmieniać parametry w taki sposób, aby błąd malał. Można to sformalizować w następujący sposób:
+Istnieje dobrze znana metoda optymalizacji funkcji zwana **gradientem prostym**. Polega ona na obliczeniu pochodnej (w przypadku wielowymiarowym zwanej **gradientem**) funkcji straty względem parametrów i zmienianiu parametrów w taki sposób, aby błąd się zmniejszał. Można to sformalizować w następujący sposób:
 
-* Inicjalizuj parametry losowymi wartościami w<sup>(0)</sup>, b<sup>(0)</sup>
+* Zainicjalizuj parametry losowymi wartościami w<sup>(0)</sup>, b<sup>(0)</sup>.
 * Powtarzaj następujący krok wiele razy:
-    - w<sup>(i+1)</sup> = w<sup>(i)</sup>-η∂ℒ/∂w
-    - b<sup>(i+1)</sup> = b<sup>(i)</sup>-η∂ℒ/∂b
+    - w<sup>(i+1)</sup> = w<sup>(i)</sup>-&eta;&part;&lagran;/&part;w
+    - b<sup>(i+1)</sup> = b<sup>(i)</sup>-&eta;&part;&lagran;/&part;b
 
-Podczas treningu kroki optymalizacji powinny być obliczane z uwzględnieniem całego zbioru danych (pamiętaj, że strata jest obliczana jako suma dla wszystkich próbek treningowych). Jednak w praktyce bierzemy małe porcje zbioru danych zwane **minipaczkami** i obliczamy gradienty na podstawie podzbioru danych. Ponieważ podzbiór jest wybierany losowo za każdym razem, taka metoda nazywana jest **stochastycznym gradientem prostym** (SGD).
+Podczas treningu kroki optymalizacji powinny być obliczane z uwzględnieniem całego zbioru danych (pamiętajmy, że strata jest obliczana jako suma dla wszystkich próbek treningowych). Jednak w praktyce bierzemy małe porcje zbioru danych, zwane **minibatchami**, i obliczamy gradienty na podstawie podzbioru danych. Ponieważ podzbiór jest wybierany losowo za każdym razem, taka metoda nazywana jest **stochastycznym gradientem prostym** (SGD).
 
-## Perceptrony Wielowarstwowe i Wsteczna Propagacja
+## Wielowarstwowe perceptrony i propagacja wsteczna
 
-Sieć jednowarstwowa, jak widzieliśmy powyżej, jest w stanie klasyfikować klasy liniowo separowalne. Aby zbudować bogatszy model, możemy połączyć kilka warstw sieci. Matematycznie oznaczałoby to, że funkcja *f* przyjmie bardziej złożoną formę i będzie obliczana w kilku krokach:
+Jednowarstwowa sieć, jak widzieliśmy powyżej, jest zdolna do klasyfikacji klas liniowo separowalnych. Aby zbudować bardziej zaawansowany model, możemy połączyć kilka warstw sieci. Matematycznie oznaczałoby to, że funkcja *f* przyjmie bardziej złożoną formę i będzie obliczana w kilku krokach:
 * z<sub>1</sub>=w<sub>1</sub>x+b<sub>1</sub>
-* z<sub>2</sub>=w<sub>2</sub>α(z<sub>1</sub>)+b<sub>2</sub>
-* f = σ(z<sub>2</sub>)
+* z<sub>2</sub>=w<sub>2</sub>&alpha;(z<sub>1</sub>)+b<sub>2</sub>
+* f = &sigma;(z<sub>2</sub>)
 
-Tutaj α to **nieliniowa funkcja aktywacji**, σ to funkcja softmax, a parametry θ=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>*>.
+Tutaj &alpha; to **nieliniowa funkcja aktywacji**, &sigma; to funkcja softmax, a parametry &theta;=<*w<sub>1</sub>,b<sub>1</sub>,w<sub>2</sub>,b<sub>2</sub>*>.
 
-Algorytm gradientu prostego pozostanie taki sam, ale obliczanie gradientów będzie trudniejsze. Zgodnie z regułą różniczkowania łańcuchowego możemy obliczyć pochodne jako:
+Algorytm gradientu prostego pozostanie taki sam, ale obliczanie gradientów będzie bardziej skomplikowane. Zgodnie z regułą różniczkowania łańcuchowego możemy obliczyć pochodne jako:
 
-* ∂ℒ/∂w<sub>2</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂w<sub>2</sub>)
-* ∂ℒ/∂w<sub>1</sub> = (∂ℒ/∂σ)(∂σ/∂z<sub>2</sub>)(∂z<sub>2</sub>/∂α)(∂α/∂z<sub>1</sub>)(∂z<sub>1</sub>/∂w<sub>1</sub>)
+* &part;&lagran;/&part;w<sub>2</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;z<sub>2</sub>)(&part;z<sub>2</sub>/&part;w<sub>2</sub>)
+* &part;&lagran;/&part;w<sub>1</sub> = (&part;&lagran;/&part;&sigma;)(&part;&sigma;/&part;z<sub>2</sub>)(&part;z<sub>2</sub>/&part;&alpha;)(&part;&alpha;/&part;z<sub>1</sub>)(&part;z<sub>1</sub>/&part;w<sub>1</sub>)
 
 > ✅ Reguła różniczkowania łańcuchowego jest używana do obliczania pochodnych funkcji straty względem parametrów.
 
-Zauważ, że lewa część wszystkich tych wyrażeń jest taka sama, dzięki czemu możemy efektywnie obliczać pochodne, zaczynając od funkcji straty i idąc "wstecz" przez graf obliczeniowy. Dlatego metoda trenowania perceptronu wielowarstwowego nazywana jest **wsteczną propagacją**, lub 'backprop'.
+Zauważ, że lewa część wszystkich tych wyrażeń jest taka sama, dzięki czemu możemy efektywnie obliczać pochodne, zaczynając od funkcji straty i przechodząc "wstecz" przez graf obliczeniowy. Dlatego metoda treningu wielowarstwowego perceptronu nazywana jest **propagacją wsteczną**, lub 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="graf obliczeniowy" src="images/ComputeGraphGrad.png"/>
 
 > TODO: cytowanie obrazu
 
-> ✅ Omówimy wsteczną propagację znacznie bardziej szczegółowo w naszym przykładzie w notatniku.  
+> ✅ Omówimy propagację wsteczną znacznie bardziej szczegółowo w naszym przykładzie w notebooku.  
 
 ## Podsumowanie
 
@@ -77,22 +77,22 @@ W tej lekcji stworzyliśmy własną bibliotekę sieci neuronowych i użyliśmy j
 
 ## 🚀 Wyzwanie
 
-W dołączonym notatniku zaimplementujesz własny framework do budowania i trenowania perceptronów wielowarstwowych. Będziesz mógł zobaczyć szczegółowo, jak działają nowoczesne sieci neuronowe.
+W dołączonym notebooku zaimplementujesz własne ramy do budowy i treningu wielowarstwowych perceptronów. Będziesz mógł szczegółowo zobaczyć, jak działają nowoczesne sieci neuronowe.
 
-Przejdź do notatnika [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) i przepracuj go.
+Przejdź do notebooka [OwnFramework](OwnFramework.ipynb) i wykonaj zadania.
 
 ## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
-## Przegląd i Samodzielna Nauka
+## Przegląd i samodzielna nauka
 
-Wsteczna propagacja to powszechny algorytm używany w AI i ML, warto go [zgłębić bardziej szczegółowo](https://wikipedia.org/wiki/Backpropagation)
+Propagacja wsteczna to powszechny algorytm stosowany w AI i ML, warto go [zgłębić](https://wikipedia.org/wiki/Backpropagation).
 
 ## [Zadanie](lab/README.md)
 
-W tym laboratorium zostaniesz poproszony o użycie frameworka stworzonego w tej lekcji do rozwiązania problemu klasyfikacji ręcznie pisanych cyfr MNIST.
+W tym laboratorium masz za zadanie użyć ram, które stworzyłeś w tej lekcji, do rozwiązania problemu klasyfikacji ręcznie pisanych cyfr MNIST.
 
 * [Instrukcje](lab/README.md)
-* [Notatnik](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/lab/MyFW_MNIST.ipynb)
+* [Notebook](lab/MyFW_MNIST.ipynb)
 
-**Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż staramy się zapewnić dokładność, prosimy mieć na uwadze, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+---
+

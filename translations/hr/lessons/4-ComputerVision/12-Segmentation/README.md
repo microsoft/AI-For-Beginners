@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d7f8a25ff13cfe9f4cd671cc23351fad",
-  "translation_date": "2025-08-25T22:35:34+00:00",
+  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
+  "translation_date": "2025-09-23T14:53:13+00:00",
   "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
   "language_code": "hr"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ranije smo učili o Detekciji objekata, koja nam omogućuje lociranje objekata na slici predviđanjem njihovih *bounding boxova*. Međutim, za neke zadatke ne trebamo samo bounding boxove, već i precizniju lokalizaciju objekata. Taj zadatak zove se **segmentacija**.
 
-## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
+## [Pre-lecture kviz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentacija se može promatrati kao **klasifikacija piksela**, gdje za **svaki** piksel slike moramo predvidjeti njegovu klasu (*pozadina* je jedna od klasa). Postoje dva glavna algoritma za segmentaciju:
 
@@ -33,9 +33,9 @@ Postoje različite neuronske arhitekture za segmentaciju, ali sve imaju istu str
 
 > Slika iz [ove publikacije](https://arxiv.org/pdf/2001.05566.pdf)
 
-Posebno treba spomenuti funkciju gubitka koja se koristi za segmentaciju. Kod klasičnih autoenkodera, potrebno je izmjeriti sličnost između dvije slike, za što se može koristiti srednja kvadratna pogreška (MSE). Kod segmentacije, svaki piksel u ciljnoj maski slike predstavlja broj klase (jednoznačno kodiran duž treće dimenzije), pa je potrebno koristiti funkcije gubitka specifične za klasifikaciju - gubitak unakrsne entropije, prosječan za sve piksele. Ako je maska binarna, koristi se **gubitak binarne unakrsne entropije** (BCE).
+Posebno treba spomenuti funkciju gubitka koja se koristi za segmentaciju. Kod klasičnih autoenkodera, potrebno je izmjeriti sličnost između dvije slike, za što se može koristiti srednja kvadratna pogreška (MSE). Kod segmentacije, svaki piksel u ciljnoj maski slike predstavlja broj klase (one-hot kodiran u trećoj dimenziji), pa se koriste funkcije gubitka specifične za klasifikaciju - gubitak unakrsne entropije, prosječen preko svih piksela. Ako je maska binarna, koristi se **gubitak binarne unakrsne entropije** (BCE).
 
-> ✅ Jednoznačno kodiranje je način kodiranja oznake klase u vektor duljine jednake broju klasa. Pogledajte [ovaj članak](https://datagy.io/sklearn-one-hot-encode/) o ovoj tehnici.
+> ✅ One-hot kodiranje je način kodiranja oznake klase u vektor čija duljina odgovara broju klasa. Pogledajte [ovaj članak](https://datagy.io/sklearn-one-hot-encode/) o ovoj tehnici.
 
 ## Segmentacija u medicinskom snimanju
 
@@ -47,16 +47,16 @@ U ovoj lekciji vidjet ćemo segmentaciju u praksi treniranjem mreže za prepozna
 
 > Slika iz PH<sup>2</sup> baze podataka
 
-Trenirat ćemo model za segmentaciju bilo kojeg nevusa od njegove pozadine.
+Trenirat ćemo model za segmentaciju bilo kojeg nevusa iz pozadine.
 
 ## ✍️ Vježbe: Semantička segmentacija
 
-Otvorite dolje navedene bilježnice kako biste saznali više o različitim arhitekturama za semantičku segmentaciju, vježbali rad s njima i vidjeli ih u praksi.
+Otvorite dolje navedene bilježnice kako biste saznali više o različitim arhitekturama za semantičku segmentaciju, vježbali rad s njima i vidjeli ih u akciji.
 
-* [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
-* [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
+* [Semantička segmentacija Pytorch](SemanticSegmentationPytorch.ipynb)
+* [Semantička segmentacija TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
+## [Post-lecture kviz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Zaključak
 
@@ -74,5 +74,5 @@ Ovaj [Wikipedia članak](https://wikipedia.org/wiki/Image_segmentation) nudi dob
 
 U ovom laboratorijskom zadatku pokušajte **segmentaciju ljudskog tijela** koristeći [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) s Kagglea.
 
-**Odricanje od odgovornosti**:  
-Ovaj dokument je preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo osigurati točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku treba smatrati autoritativnim izvorom. Za kritične informacije preporučuje se profesionalni prijevod od strane čovjeka. Ne preuzimamo odgovornost za nesporazume ili pogrešna tumačenja koja mogu proizaći iz korištenja ovog prijevoda.
+---
+

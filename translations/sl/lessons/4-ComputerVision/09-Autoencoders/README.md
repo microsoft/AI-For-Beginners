@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0b306c04f5337b6e7430e5c0b16bb5c0",
-  "translation_date": "2025-08-25T22:32:01+00:00",
+  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
+  "translation_date": "2025-09-23T15:04:17+00:00",
   "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
   "language_code": "sl"
 }
 -->
 # Avtoenkoderji
 
-Pri treniranju CNN-jev je ena izmed težav, da potrebujemo veliko označenih podatkov. Pri klasifikaciji slik moramo slike razvrstiti v različne razrede, kar zahteva ročno delo.
+Pri treniranju CNN-jev je ena od težav, da potrebujemo veliko označenih podatkov. Pri klasifikaciji slik moramo slike razvrstiti v različne razrede, kar zahteva ročno delo.
 
-## [Pre-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
-Vendar pa bi morda želeli uporabiti surove (neoznačene) podatke za treniranje CNN ekstraktorjev značilnosti, kar imenujemo **samostojno učenje**. Namesto oznak bomo uporabili slike za treniranje kot vhod in izhod mreže. Glavna ideja **avtoenkoderja** je, da imamo **kodirno mrežo**, ki vhodno sliko pretvori v nek **latentni prostor** (običajno je to vektor manjših dimenzij), nato pa **dekodirno mrežo**, katere cilj je rekonstruirati izvirno sliko.
+Vendar pa bi morda želeli uporabiti surove (neoznačene) podatke za treniranje CNN ekstraktorjev značilnosti, kar imenujemo **samonadzorovano učenje**. Namesto oznak bomo uporabili slike za treniranje kot vhod in izhod mreže. Glavna ideja **avtoenkoderja** je, da imamo **kodirno mrežo**, ki vhodno sliko pretvori v nek **latentni prostor** (običajno je to vektor manjših dimenzij), nato pa **dekodirno mrežo**, katere cilj je rekonstruirati izvirno sliko.
 
-> ✅ [Avtoenkoder](https://wikipedia.org/wiki/Autoencoder) je "vrsta umetne nevronske mreže, ki se uporablja za učenje učinkovitega kodiranja neoznačenih podatkov."
+> ✅ [Avtoenkoder](https://wikipedia.org/wiki/Autoencoder) je "vrsta umetne nevronske mreže, ki se uporablja za učenje učinkovitih kodiranj neoznačenih podatkov."
 
 Ker treniramo avtoenkoder, da zajame čim več informacij iz izvirne slike za natančno rekonstrukcijo, mreža poskuša najti najboljšo **vgradnjo** vhodnih slik, da zajame njihov pomen.
 
@@ -25,7 +25,7 @@ Ker treniramo avtoenkoder, da zajame čim več informacij iz izvirne slike za na
 
 ## Scenariji uporabe avtoenkoderjev
 
-Čeprav rekonstrukcija izvirnih slik sama po sebi morda ne zveni uporabno, obstaja nekaj scenarijev, kjer so avtoenkoderji še posebej koristni:
+Čeprav se zdi rekonstrukcija izvirnih slik sama po sebi neuporabna, obstaja nekaj scenarijev, kjer so avtoenkoderji še posebej koristni:
 
 * **Zmanjšanje dimenzije slik za vizualizacijo** ali **treniranje vgradnje slik**. Običajno avtoenkoderji dajejo boljše rezultate kot PCA, ker upoštevajo prostorsko naravo slik in hierarhične značilnosti.
 * **Odstranjevanje šuma**, tj. odstranjevanje šuma s slike. Ker šum vsebuje veliko nepotrebnih informacij, avtoenkoder ne more vsega vključiti v relativno majhen latentni prostor, zato zajame le pomemben del slike. Pri treniranju odstranjevalcev šuma začnemo z izvirnimi slikami in uporabimo slike z umetno dodanim šumom kot vhod za avtoenkoder.
@@ -34,7 +34,7 @@ Ker treniramo avtoenkoder, da zajame čim več informacij iz izvirne slike za na
 
 ## Variacijski avtoenkoderji (VAE)
 
-Tradicionalni avtoenkoderji nekako zmanjšajo dimenzijo vhodnih podatkov in ugotovijo pomembne značilnosti vhodnih slik. Vendar pa latentni vektorji pogosto nimajo veliko smisla. Z drugimi besedami, če vzamemo MNIST podatkovno zbirko kot primer, ugotoviti, katere številke ustrezajo različnim latentnim vektorjem, ni enostavna naloga, saj bližnji latentni vektorji ne ustrezajo nujno istim številkam.
+Tradicionalni avtoenkoderji nekako zmanjšajo dimenzijo vhodnih podatkov in ugotovijo pomembne značilnosti vhodnih slik. Vendar pa latentni vektorji pogosto nimajo veliko smisla. Z drugimi besedami, če vzamemo MNIST podatkovno zbirko kot primer, ugotoviti, katere številke ustrezajo različnim latentnim vektorjem, ni enostavna naloga, ker bližnji latentni vektorji ne ustrezajo nujno istim številkam.
 
 Po drugi strani pa je za treniranje *generativnih* modelov bolje imeti neko razumevanje latentnega prostora. Ta ideja nas pripelje do **variacijskega avtoenkoderja** (VAE).
 
@@ -42,11 +42,11 @@ VAE je avtoenkoder, ki se nauči napovedovati *statistično porazdelitev* latent
 
 Povzetek:
 
-* Iz vhodnega vektorja napovemo `z_mean` in `z_log_sigma` (namesto da napovemo standardni odklon, napovemo njegov logaritem)
-* Vzamemo vzorec `sample` iz porazdelitve N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
-* Dekodirnik poskuša dekodirati izvirno sliko z uporabo `sample` kot vhodnega vektorja
+ * Iz vhodnega vektorja napovemo `z_mean` in `z_log_sigma` (namesto napovedovanja standardnega odklona napovemo njegov logaritem)
+ * Vzamemo vzorec `sample` iz porazdelitve N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
+ * Dekodirnik poskuša dekodirati izvirno sliko z uporabo `sample` kot vhodnega vektorja
 
-<img src="images/vae.png" width="50%">
+ <img src="images/vae.png" width="50%">
 
 > Slika iz [tega bloga](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) avtorja Isaaka Dykemana
 
@@ -61,7 +61,7 @@ Ena pomembna prednost VAE-jev je, da omogočajo relativno enostavno generiranje 
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 
-Opazite, kako se slike prelivajo ena v drugo, ko začnemo jemati latentne vektorje iz različnih delov latentnega prostora parametrov. Ta prostor lahko vizualiziramo tudi v 2D:
+Opazite, kako se slike prelivajo ena v drugo, ko začnemo pridobivati latentne vektorje iz različnih delov latentnega prostora parametrov. Ta prostor lahko vizualiziramo tudi v 2D:
 
 <img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
 
@@ -69,18 +69,18 @@ Opazite, kako se slike prelivajo ena v drugo, ko začnemo jemati latentne vektor
 
 ## ✍️ Vaje: Avtoenkoderji
 
-Več o avtoenkoderjih se naučite v teh priloženih zvezkih:
+Več o avtoenkoderjih se naučite v teh ustreznih zvezkih:
 
-* [Avtoenkoderji v TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)
-* [Avtoenkoderji v PyTorch](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb)
+* [Avtoenkoderji v TensorFlow](AutoencodersTF.ipynb)
+* [Avtoenkoderji v PyTorch](AutoEncodersPyTorch.ipynb)
 
 ## Lastnosti avtoenkoderjev
 
-* **Specifični za podatke** - dobro delujejo le s tipom slik, na katerih so bili trenirani. Na primer, če treniramo mrežo za super-resolucijo na rožah, ne bo dobro delovala na portretih. To je zato, ker mreža lahko ustvari sliko z višjo ločljivostjo tako, da vzame fine podrobnosti iz značilnosti, naučenih iz podatkovne zbirke za treniranje.
+* **Specifični za podatke** - dobro delujejo le s tistimi vrstami slik, na katerih so bili trenirani. Na primer, če treniramo mrežo za super-resolucijo na rožah, ne bo dobro delovala na portretih. To je zato, ker mreža lahko ustvari sliko z višjo ločljivostjo tako, da vzame fine podrobnosti iz značilnosti, naučenih iz podatkovne zbirke za treniranje.
 * **Izgubni** - rekonstruirana slika ni enaka izvirni sliki. Narava izgube je določena z *funkcijo izgube*, uporabljeno med treniranjem.
 * Deluje na **neoznačenih podatkih**
 
-## [Post-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
+## [Naknadni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Zaključek
 
@@ -88,9 +88,9 @@ V tej lekciji ste se naučili o različnih vrstah avtoenkoderjev, ki so na voljo
 
 ## 🚀 Izziv
 
-V tej lekciji ste se naučili o uporabi avtoenkoderjev za slike. Vendar pa jih lahko uporabimo tudi za glasbo! Oglejte si projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), ki uporablja avtoenkoderje za učenje rekonstrukcije glasbe. Izvedite nekaj [eksperimentov](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) s to knjižnico, da vidite, kaj lahko ustvarite.
+V tej lekciji ste se naučili o uporabi avtoenkoderjev za slike. Vendar pa jih je mogoče uporabiti tudi za glasbo! Oglejte si projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), ki uporablja avtoenkoderje za učenje rekonstrukcije glasbe. Izvedite nekaj [eksperimentov](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) s to knjižnico, da vidite, kaj lahko ustvarite.
 
-## [Post-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
+## [Naknadni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Pregled in samostojno učenje
 
@@ -103,7 +103,7 @@ Za referenco preberite več o avtoenkoderjih v teh virih:
 
 ## Naloga
 
-Na koncu [tega zvezka z uporabo TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb) boste našli 'nalogo' - uporabite jo kot svojo nalogo.
+Na koncu [tega zvezka z uporabo TensorFlow](AutoencodersTF.ipynb) boste našli 'nalogo' - uporabite jo kot svojo nalogo.
 
-**Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve AI za prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
+---
+

@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
-  "translation_date": "2025-08-25T22:46:41+00:00",
+  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+  "translation_date": "2025-09-23T14:52:10+00:00",
   "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
   "language_code": "hr"
 }
 -->
 # Detekcija objekata
 
-Modeli za klasifikaciju slika koje smo dosad obrađivali uzimaju sliku i daju kategorijski rezultat, poput klase 'broj' u MNIST problemu. Međutim, u mnogim slučajevima ne želimo samo znati da slika prikazuje objekte - želimo odrediti njihovu točnu lokaciju. Upravo je to svrha **detekcije objekata**.
+Modeli za klasifikaciju slika s kojima smo se dosad susretali uzimaju sliku i proizvode kategorijski rezultat, poput klase 'broj' u MNIST problemu. Međutim, u mnogim slučajevima ne želimo samo znati da slika prikazuje objekte – želimo odrediti njihovu točnu lokaciju. Upravo to je cilj **detekcije objekata**.
 
-## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
+## [Prethodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Detekcija objekata](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.hr.png)
 
@@ -23,13 +23,13 @@ Pretpostavimo da želimo pronaći mačku na slici. Vrlo naivan pristup detekciji
 
 1. Podijeliti sliku na niz pločica.
 2. Provoditi klasifikaciju slike na svakoj pločici.
-3. Pločice koje daju dovoljno visoku aktivaciju mogu se smatrati da sadrže traženi objekt.
+3. Pločice koje rezultiraju dovoljno visokom aktivacijom mogu se smatrati da sadrže traženi objekt.
 
 ![Naivna detekcija objekata](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.hr.png)
 
-> *Slika iz [vježbenice](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection-TF.ipynb)*
+> *Slika iz [vježbenice](ObjectDetection-TF.ipynb)*
 
-Međutim, ovaj pristup je daleko od idealnog jer omogućuje algoritmu da vrlo neprecizno odredi okvir objekta. Za precizniju lokaciju potrebno je provesti neku vrstu **regresije** kako bi se predvidjele koordinate okvira - a za to su potrebni specifični skupovi podataka.
+Međutim, ovaj pristup je daleko od idealnog jer omogućuje algoritmu da vrlo neprecizno odredi okvir objekta. Za precizniju lokaciju potrebno je provesti neku vrstu **regresije** kako bi se predvidjele koordinate okvira – a za to su potrebni specifični skupovi podataka.
 
 ## Regresija za detekciju objekata
 
@@ -39,36 +39,36 @@ Međutim, ovaj pristup je daleko od idealnog jer omogućuje algoritmu da vrlo ne
 
 Možete naići na sljedeće skupove podataka za ovu zadaću:
 
-* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 klasa
-* [COCO](http://cocodataset.org/#home) - Uobičajeni objekti u kontekstu. 80 klasa, okviri i maske za segmentaciju
+* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 klasa
+* [COCO](http://cocodataset.org/#home) – Uobičajeni objekti u kontekstu. 80 klasa, okviri i maske za segmentaciju
 
 ![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.hr.jpg)
 
 ## Metrike za detekciju objekata
 
-### Presjek preko unije (Intersection over Union)
+### Presjek kroz uniju (Intersection over Union)
 
-Dok je za klasifikaciju slika lako izmjeriti koliko dobro algoritam radi, za detekciju objekata moramo izmjeriti i točnost klase, kao i preciznost predviđene lokacije okvira. Za ovo drugo koristimo tzv. **Presjek preko unije** (IoU), koji mjeri koliko se dobro dva okvira (ili dva proizvoljna područja) preklapaju.
+Dok je za klasifikaciju slika lako izmjeriti koliko dobro algoritam radi, za detekciju objekata moramo mjeriti i točnost klase, kao i preciznost lokacije predviđenog okvira. Za ovo drugo koristimo metodu **Presjek kroz uniju** (IoU), koja mjeri koliko se dobro dva okvira (ili dva proizvoljna područja) preklapaju.
 
 ![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.hr.png)
 
 > *Slika 2 iz [ovog izvrsnog blog posta o IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
-Ideja je jednostavna - podijelimo područje presjeka između dvije figure s područjem njihove unije. Za dva identična područja IoU bi bio 1, dok bi za potpuno nepovezana područja bio 0. Inače će varirati od 0 do 1. Obično uzimamo u obzir samo one okvire za koje je IoU iznad određene vrijednosti.
+Ideja je jednostavna – podijelimo područje presjeka između dvije figure s područjem njihove unije. Za dva identična područja IoU bi bio 1, dok bi za potpuno nepovezana područja bio 0. Inače će varirati od 0 do 1. Obično uzimamo u obzir samo one okvire za koje je IoU iznad određene vrijednosti.
 
 ### Prosječna preciznost (Average Precision)
 
 Pretpostavimo da želimo izmjeriti koliko dobro je prepoznata određena klasa objekata $C$. Za mjerenje koristimo metriku **Prosječne preciznosti**, koja se računa na sljedeći način:
 
-1. Razmotrite krivulju preciznosti i prisjećanja (Precision-Recall) koja pokazuje točnost ovisno o vrijednosti praga detekcije (od 0 do 1).
-2. Ovisno o pragu, dobit ćemo više ili manje objekata detektiranih na slici, te različite vrijednosti preciznosti i prisjećanja.
+1. Razmotrite krivulju Preciznost-Poziv koja pokazuje točnost ovisno o vrijednosti praga detekcije (od 0 do 1).
+2. Ovisno o pragu, dobit ćemo više ili manje detektiranih objekata na slici, te različite vrijednosti preciznosti i poziva.
 3. Krivulja će izgledati ovako:
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
 
 > *Slika iz [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
 
-Prosječna preciznost za određenu klasu $C$ je područje ispod ove krivulje. Preciznije, os prisjećanja obično se dijeli na 10 dijelova, a preciznost se prosječuje preko svih tih točaka:
+Prosječna preciznost za određenu klasu $C$ je područje ispod ove krivulje. Preciznije, os poziva obično se dijeli na 10 dijelova, a preciznost se prosječuje preko svih tih točaka:
 
 $$
 AP = {1\over11}\sum_{i=0}^{10}\mbox{Precision}(\mbox{Recall}={i\over10})
@@ -76,25 +76,25 @@ $$
 
 ### AP i IoU
 
-Razmatramo samo one detekcije za koje je IoU iznad određene vrijednosti. Na primjer, u PASCAL VOC skupu podataka obično se pretpostavlja $\mbox{IoU Threshold} = 0.5$, dok se u COCO AP mjeri za različite vrijednosti $\mbox{IoU Threshold}$.
+Razmatramo samo one detekcije za koje je IoU iznad određene vrijednosti. Na primjer, u PASCAL VOC skupu podataka obično se pretpostavlja $\mbox{IoU Threshold} = 0.5$, dok se u COCO skupu AP mjeri za različite vrijednosti $\mbox{IoU Threshold}$.
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecallIoU.png"/>
 
 > *Slika iz [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
 
-### Prosječna preciznost po klasama - mAP
+### Prosječna preciznost po klasama – mAP
 
-Glavna metrika za detekciju objekata naziva se **Prosječna preciznost po klasama**, ili **mAP**. To je vrijednost Prosječne preciznosti, prosječna preko svih klasa objekata, a ponekad i preko $\mbox{IoU Threshold}$. Detaljniji opis procesa izračuna **mAP** možete pronaći
+Glavna metrika za detekciju objekata naziva se **Prosječna preciznost po klasama**, ili **mAP**. To je vrijednost Prosječne preciznosti, prosječna preko svih klasa objekata, a ponekad i preko $\mbox{IoU Threshold}$. Detaljan proces izračuna **mAP** opisan je
 [u ovom blog postu](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), kao i [ovdje s primjerima koda](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
 
 ## Različiti pristupi detekciji objekata
 
 Postoje dvije široke kategorije algoritama za detekciju objekata:
 
-* **Mreže za predlaganje regija** (R-CNN, Fast R-CNN, Faster R-CNN). Glavna ideja je generirati **regije interesa** (ROI) i provoditi CNN preko njih, tražeći maksimalnu aktivaciju. Ovo je donekle slično naivnom pristupu, osim što se ROI generiraju na pametniji način. Jedan od glavnih nedostataka ovih metoda je što su spore, jer zahtijevaju mnogo prolaza CNN klasifikatora preko slike.
+* **Mreže za predlaganje regija** (R-CNN, Fast R-CNN, Faster R-CNN). Glavna ideja je generirati **regije interesa** (ROI) i provoditi CNN preko njih, tražeći maksimalnu aktivaciju. Ovo je donekle slično naivnom pristupu, osim što se ROI generiraju na pametniji način. Jedan od glavnih nedostataka ovih metoda je što su spore jer zahtijevaju mnogo prolaza CNN klasifikatora preko slike.
 * **Jedan prolaz** (YOLO, SSD, RetinaNet) metode. U tim arhitekturama dizajniramo mrežu da predviđa i klase i ROI u jednom prolazu.
 
-### R-CNN: CNN baziran na regijama
+### R-CNN: CNN temeljen na regijama
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) koristi [Selektivno pretraživanje](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) za generiranje hijerarhijske strukture ROI regija, koje se zatim prosljeđuju kroz CNN ekstraktore značajki i SVM klasifikatore za određivanje klase objekta, te linearnu regresiju za određivanje koordinata *okvira*. [Službeni rad](https://arxiv.org/pdf/1506.01497v1.pdf)
 
@@ -106,7 +106,7 @@ Postoje dvije široke kategorije algoritama za detekciju objekata:
 
 > *Slike iz [ovog bloga](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
-### F-RCNN - Brzi R-CNN
+### F-RCNN – Brzi R-CNN
 
 Ovaj pristup je sličan R-CNN-u, ali regije se definiraju nakon što su primijenjeni slojevi konvolucije.
 
@@ -116,15 +116,15 @@ Ovaj pristup je sličan R-CNN-u, ali regije se definiraju nakon što su primijen
 
 ### Brži R-CNN
 
-Glavna ideja ovog pristupa je korištenje neuronske mreže za predviđanje ROI - tzv. *Mreža za predlaganje regija*. [Rad](https://arxiv.org/pdf/1506.01497.pdf), 2016
+Glavna ideja ovog pristupa je korištenje neuronske mreže za predviđanje ROI – takozvane *Mreže za predlaganje regija*. [Rad](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
 ![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.hr.png)
 
 > Slika iz [službenog rada](https://arxiv.org/pdf/1506.01497.pdf)
 
-### R-FCN: Potpuno konvolucijska mreža bazirana na regijama
+### R-FCN: Potpuno konvolucijska mreža temeljena na regijama
 
-Ovaj algoritam je još brži od Faster R-CNN-a. Glavna ideja je sljedeća:
+Ovaj algoritam je čak brži od Faster R-CNN-a. Glavna ideja je sljedeća:
 
 1. Ekstrahiramo značajke koristeći ResNet-101.
 2. Značajke se obrađuju pomoću **Pozicijski osjetljive mape rezultata**. Svaki objekt iz $C$ klasa dijeli se na $k\times k$ regije, i treniramo mrežu da predviđa dijelove objekata.
@@ -134,7 +134,7 @@ Ovaj algoritam je još brži od Faster R-CNN-a. Glavna ideja je sljedeća:
 
 > Slika iz [službenog rada](https://arxiv.org/abs/1605.06409)
 
-### YOLO - You Only Look Once
+### YOLO – You Only Look Once
 
 YOLO je algoritam za detekciju u stvarnom vremenu s jednim prolazom. Glavna ideja je sljedeća:
 
@@ -157,7 +157,7 @@ YOLO je algoritam za detekciju u stvarnom vremenu s jednim prolazom. Glavna idej
 
 Nastavite učenje u sljedećoj vježbenici:
 
-[ObjectDetection.ipynb](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)
+[ObjectDetection.ipynb](ObjectDetection.ipynb)
 
 ## Zaključak
 
@@ -172,7 +172,7 @@ Pročitajte ove članke i vježbenice o YOLO-u i isprobajte ih sami:
  * Yolo: [Keras implementacija](https://github.com/experiencor/keras-yolo2), [vježbenica korak-po-korak](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementacija](https://github.com/experiencor/keras-yolo2), [vježbenica korak-po-korak](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Pregled i samostalno učenje
 
@@ -184,5 +184,5 @@ Pročitajte ove članke i vježbenice o YOLO-u i isprobajte ih sami:
 
 ## [Zadatak: Detekcija objekata](lab/README.md)
 
-**Odricanje od odgovornosti**:  
-Ovaj dokument je preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo osigurati točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku treba smatrati autoritativnim izvorom. Za kritične informacije preporučuje se profesionalni prijevod od strane čovjeka. Ne preuzimamo odgovornost za nesporazume ili pogrešna tumačenja koja mogu proizaći iz korištenja ovog prijevoda.
+---
+

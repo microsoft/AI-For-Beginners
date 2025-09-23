@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-31T17:50:26+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T15:47:37+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "lt"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-Vienas iš pirmųjų bandymų sukurti kažką panašaus į šiuolaikinį neuroninį tinklą buvo atliktas Franko Rosenblatto iš Kornelio aeronautikos laboratorijos 1957 metais. Tai buvo aparatinės įrangos įgyvendinimas, pavadintas „Mark-1“, sukurtas atpažinti primityvias geometrines figūras, tokias kaip trikampiai, kvadratai ir apskritimai.
+Vienas iš pirmųjų bandymų sukurti kažką panašaus į šiuolaikinį neuroninį tinklą buvo atliktas Franko Rosenblatto iš Kornelio aeronautikos laboratorijos 1957 metais. Tai buvo techninė įranga, pavadinta „Mark-1“, sukurta atpažinti primityvias geometrines figūras, tokias kaip trikampiai, kvadratai ir apskritimai.
 
 |      |      |
 |--------------|-----------|
@@ -21,17 +21,17 @@ Vienas iš pirmųjų bandymų sukurti kažką panašaus į šiuolaikinį neuroni
 
 Įvesties vaizdas buvo pateikiamas kaip 20x20 fotoląstelių masyvas, todėl neuroninis tinklas turėjo 400 įėjimų ir vieną dvejetainį išėjimą. Paprastas tinklas turėjo vieną neuroną, dar vadinamą **slenksčio logikos vienetu**. Neuroninio tinklo svoriai veikė kaip potenciometrai, kuriuos reikėjo rankiniu būdu reguliuoti mokymo metu.
 
-> ✅ Potenciometras yra prietaisas, leidžiantis vartotojui reguliuoti grandinės varžą.
+> ✅ Potenciometras yra įrenginys, leidžiantis vartotojui reguliuoti grandinės varžą.
 
-> Tuo metu „The New York Times“ rašė apie perceptroną: *elektroninio kompiuterio embrionas, kurį [karinis jūrų laivynas] tikisi, kad galės vaikščioti, kalbėti, matyti, rašyti, daugintis ir būti sąmoningas savo egzistencijos.*
+> Tuo metu „The New York Times“ rašė apie perceptroną: *elektroninio kompiuterio embrionas, kurį [karinis jūrų laivynas] tikisi, kad jis galės vaikščioti, kalbėti, matyti, rašyti, daugintis ir būti sąmoningas savo egzistencijos.*
 
 ## Perceptrono modelis
 
-Tarkime, kad mūsų modelyje yra N savybių, tokiu atveju įvesties vektorius būtų N dydžio vektorius. Perceptronas yra **dvejetainės klasifikacijos** modelis, t. y. jis gali atskirti dviejų klasių įvesties duomenis. Mes prisiimsime, kad kiekvienam įvesties vektoriui x mūsų perceptrono išėjimas bus arba +1, arba -1, priklausomai nuo klasės. Išėjimas bus apskaičiuojamas pagal formulę:
+Tarkime, kad mūsų modelyje yra N savybių, tokiu atveju įvesties vektorius būtų N dydžio vektorius. Perceptronas yra **dvejetainės klasifikacijos** modelis, t. y. jis gali atskirti du įvesties duomenų klases. Mes laikysime, kad kiekvienam įvesties vektoriui x perceptrono išėjimas bus arba +1, arba -1, priklausomai nuo klasės. Išėjimas bus apskaičiuojamas pagal formulę:
 
 y(x) = f(w<sup>T</sup>x)
 
-kur f yra slenksčio aktyvavimo funkcija
+kur f yra slenksčio aktyvacijos funkcija
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
 <img src="images/activation-func.png"/>
@@ -40,20 +40,20 @@ kur f yra slenksčio aktyvavimo funkcija
 
 Norint išmokyti perceptroną, reikia rasti svorių vektorių w, kuris teisingai klasifikuotų daugumą reikšmių, t. y. duotų mažiausią **klaidą**. Ši klaida E apibrėžiama pagal **perceptrono kriterijų** taip:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 kur:
 
 * suma imama iš tų mokymo duomenų taškų i, kurie duoda neteisingą klasifikaciją
-* x<sub>i</sub> yra įvesties duomenys, o t<sub>i</sub> yra -1 arba +1 atitinkamai neigiamiems ir teigiamiems pavyzdžiams.
+* x<sub>i</sub> yra įvesties duomenys, o t<sub>i</sub> yra -1 arba +1 atitinkamai neigiamų ir teigiamų pavyzdžių.
 
-Šis kriterijus laikomas svorių w funkcija, ir mes turime ją minimizuoti. Dažnai naudojamas metodas, vadinamas **gradientiniu nusileidimu**, kuriame pradedame nuo pradinio svorio w<sup>(0)</sup>, o kiekviename žingsnyje atnaujiname svorius pagal formulę:
+Šis kriterijus laikomas svorių w funkcija, ir mes turime jį minimizuoti. Dažnai naudojamas metodas, vadinamas **gradientiniu nusileidimu**, kuriame pradedame nuo pradinio svorio w<sup>(0)</sup>, o kiekviename žingsnyje atnaujiname svorius pagal formulę:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Čia η yra vadinamas **mokymosi greitis**, o ∇E(w) reiškia **gradientą** E. Po gradiento apskaičiavimo gauname:
+Čia &eta; yra vadinamas **mokymosi greitis**, o &nabla;E(w) reiškia **gradientą** E. Po gradiento apskaičiavimo gauname:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 Algoritmas Python kalba atrodo taip:
 
@@ -89,9 +89,9 @@ Jei norite pabandyti sukurti savo perceptroną, išbandykite [šį laboratorinį
 
 ## Apžvalga ir savarankiškas mokymasis
 
-Norėdami pamatyti, kaip perceptronas gali būti naudojamas sprendžiant žaislinius ir realaus gyvenimo problemas, ir tęsti mokymąsi - eikite į [Perceptron](Perceptron.ipynb) užrašų knygelę.
+Norėdami pamatyti, kaip perceptronas gali būti naudojamas sprendžiant žaislinius ir realaus gyvenimo uždavinius, bei tęsti mokymąsi, apsilankykite [Perceptron](Perceptron.ipynb) užrašų knygelėje.
 
-Štai įdomus [straipsnis apie perceptronus](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
+Taip pat štai įdomus [straipsnis apie perceptronus](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
 ## [Užduotis](lab/README.md)
 
@@ -102,5 +102,3 @@ Norėdami pamatyti, kaip perceptronas gali būti naudojamas sprendžiant žaisli
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
