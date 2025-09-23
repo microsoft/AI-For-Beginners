@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
-  "translation_date": "2025-08-29T12:24:01+00:00",
+  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+  "translation_date": "2025-09-23T10:28:30+00:00",
   "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
   "language_code": "vi"
 }
 -->
 # Phát Hiện Đối Tượng
 
-Các mô hình phân loại hình ảnh mà chúng ta đã làm việc trước đây nhận một hình ảnh và đưa ra kết quả phân loại, chẳng hạn như lớp 'số' trong bài toán MNIST. Tuy nhiên, trong nhiều trường hợp, chúng ta không chỉ muốn biết rằng một bức ảnh có chứa các đối tượng - mà còn muốn xác định vị trí chính xác của chúng. Đây chính là mục tiêu của **phát hiện đối tượng**.
+Các mô hình phân loại hình ảnh mà chúng ta đã làm việc trước đây nhận một hình ảnh và đưa ra kết quả phân loại, chẳng hạn như lớp 'số' trong bài toán MNIST. Tuy nhiên, trong nhiều trường hợp, chúng ta không chỉ muốn biết rằng một bức ảnh có chứa các đối tượng - mà còn muốn xác định vị trí chính xác của chúng. Đây chính là mục đích của **phát hiện đối tượng**.
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
@@ -29,7 +29,7 @@ Giả sử chúng ta muốn tìm một con mèo trong một bức ảnh, một c
 
 > *Hình ảnh từ [Notebook Bài Tập](ObjectDetection-TF.ipynb)*
 
-Tuy nhiên, cách tiếp cận này còn xa mới đạt được lý tưởng, vì nó chỉ cho phép thuật toán xác định hộp giới hạn của đối tượng một cách rất không chính xác. Để có vị trí chính xác hơn, chúng ta cần chạy một loại **hồi quy** để dự đoán tọa độ của các hộp giới hạn - và để làm điều đó, chúng ta cần các tập dữ liệu cụ thể.
+Tuy nhiên, cách tiếp cận này còn xa mới đạt được lý tưởng, vì nó chỉ cho phép thuật toán xác định hộp bao đối tượng một cách rất không chính xác. Để có vị trí chính xác hơn, chúng ta cần chạy một loại **hồi quy** để dự đoán tọa độ của các hộp bao - và để làm điều đó, chúng ta cần các tập dữ liệu cụ thể.
 
 ## Hồi Quy Cho Phát Hiện Đối Tượng
 
@@ -40,7 +40,7 @@ Tuy nhiên, cách tiếp cận này còn xa mới đạt được lý tưởng, 
 Bạn có thể gặp các tập dữ liệu sau cho nhiệm vụ này:
 
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 lớp
-* [COCO](http://cocodataset.org/#home) - Các Đối Tượng Thông Thường Trong Ngữ Cảnh. 80 lớp, hộp giới hạn và mặt nạ phân đoạn
+* [COCO](http://cocodataset.org/#home) - Các Đối Tượng Thông Thường Trong Ngữ Cảnh. 80 lớp, hộp bao và mặt nạ phân đoạn
 
 ![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.vi.jpg)
 
@@ -48,20 +48,20 @@ Bạn có thể gặp các tập dữ liệu sau cho nhiệm vụ này:
 
 ### Intersection over Union
 
-Trong khi đối với phân loại hình ảnh, việc đo lường hiệu suất của thuật toán khá dễ dàng, thì đối với phát hiện đối tượng, chúng ta cần đo lường cả độ chính xác của lớp và độ chính xác của vị trí hộp giới hạn được suy ra. Đối với yếu tố sau, chúng ta sử dụng chỉ số **Intersection over Union** (IoU), đo lường mức độ chồng lấp giữa hai hộp (hoặc hai vùng bất kỳ).
+Trong khi đối với phân loại hình ảnh, việc đo lường hiệu suất của thuật toán khá dễ dàng, thì đối với phát hiện đối tượng, chúng ta cần đo lường cả độ chính xác của lớp, cũng như độ chính xác của vị trí hộp bao được suy ra. Đối với yếu tố sau, chúng ta sử dụng chỉ số **Intersection over Union** (IoU), đo lường mức độ chồng lấp giữa hai hộp (hoặc hai khu vực bất kỳ).
 
 ![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.vi.png)
 
 > *Hình 2 từ [bài viết blog xuất sắc về IoU này](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
-Ý tưởng rất đơn giản - chúng ta chia diện tích giao nhau giữa hai hình cho diện tích hợp của chúng. Đối với hai vùng giống hệt nhau, IoU sẽ là 1, trong khi đối với các vùng hoàn toàn không giao nhau, nó sẽ là 0. Trong các trường hợp khác, nó sẽ dao động từ 0 đến 1. Chúng ta thường chỉ xem xét các hộp giới hạn có IoU trên một giá trị nhất định.
+Ý tưởng rất đơn giản - chúng ta chia diện tích giao nhau giữa hai hình cho diện tích hợp của chúng. Đối với hai khu vực giống hệt nhau, IoU sẽ là 1, trong khi đối với các khu vực hoàn toàn không giao nhau, nó sẽ là 0. Trong các trường hợp khác, nó sẽ dao động từ 0 đến 1. Chúng ta thường chỉ xem xét các hộp bao có IoU vượt qua một giá trị nhất định.
 
 ### Độ Chính Xác Trung Bình
 
 Giả sử chúng ta muốn đo lường mức độ nhận diện tốt của một lớp đối tượng $C$ nào đó. Để đo lường điều này, chúng ta sử dụng chỉ số **Độ Chính Xác Trung Bình** (Average Precision - AP), được tính như sau:
 
 1. Xem xét đường cong Precision-Recall thể hiện độ chính xác phụ thuộc vào giá trị ngưỡng phát hiện (từ 0 đến 1).
-2. Tùy thuộc vào ngưỡng, chúng ta sẽ phát hiện được nhiều hay ít đối tượng trong hình ảnh, và các giá trị precision và recall sẽ khác nhau.
+2. Tùy thuộc vào ngưỡng, chúng ta sẽ phát hiện được nhiều hoặc ít đối tượng trong hình ảnh, và các giá trị precision và recall khác nhau.
 3. Đường cong sẽ trông như thế này:
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
@@ -89,14 +89,14 @@ Chỉ số chính cho Phát Hiện Đối Tượng được gọi là **Độ Ch
 
 ## Các Phương Pháp Phát Hiện Đối Tượng Khác Nhau
 
-Có hai nhóm chính của các thuật toán phát hiện đối tượng:
+Có hai loại thuật toán phát hiện đối tượng chính:
 
 * **Mạng Đề Xuất Vùng** (R-CNN, Fast R-CNN, Faster R-CNN). Ý tưởng chính là tạo ra các **Vùng Quan Tâm** (ROI) và chạy CNN trên chúng, tìm kiếm kích hoạt tối đa. Điều này hơi giống với cách tiếp cận đơn giản, ngoại trừ việc các ROI được tạo ra một cách thông minh hơn. Một trong những nhược điểm lớn của các phương pháp này là chúng chậm, vì cần nhiều lần chạy bộ phân loại CNN trên hình ảnh.
-* **Một Lần Duy Nhất** (YOLO, SSD, RetinaNet). Trong các kiến trúc này, chúng ta thiết kế mạng để dự đoán cả lớp và ROI trong một lần chạy.
+* Các phương pháp **Một Lần Duy Nhất** (YOLO, SSD, RetinaNet). Trong các kiến trúc này, chúng ta thiết kế mạng để dự đoán cả lớp và ROI trong một lần chạy.
 
-### R-CNN: Mạng CNN Dựa Trên Vùng
+### R-CNN: CNN Dựa Trên Vùng
 
-[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) sử dụng [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) để tạo ra cấu trúc phân cấp của các vùng ROI, sau đó được đưa qua các bộ trích xuất đặc trưng CNN và các bộ phân loại SVM để xác định lớp đối tượng, và hồi quy tuyến tính để xác định tọa độ *hộp giới hạn*. [Bài báo chính thức](https://arxiv.org/pdf/1506.01497v1.pdf)
+[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) sử dụng [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) để tạo ra cấu trúc phân cấp của các vùng ROI, sau đó được đưa qua các bộ trích xuất đặc trưng CNN và các bộ phân loại SVM để xác định lớp đối tượng, và hồi quy tuyến tính để xác định tọa độ *hộp bao*. [Bài báo chính thức](https://arxiv.org/pdf/1506.01497v1.pdf)
 
 ![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.vi.png)
 
@@ -116,7 +116,7 @@ Phương pháp này tương tự như R-CNN, nhưng các vùng được xác đ�
 
 ### Faster R-CNN
 
-Ý tưởng chính của phương pháp này là sử dụng mạng nơ-ron để dự đoán các ROI - gọi là *Mạng Đề Xuất Vùng* (Region Proposal Network). [Bài báo](https://arxiv.org/pdf/1506.01497.pdf), 2016
+Ý tưởng chính của phương pháp này là sử dụng mạng nơ-ron để dự đoán các ROI - được gọi là *Mạng Đề Xuất Vùng* (Region Proposal Network). [Bài báo](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
 ![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.vi.png)
 
@@ -126,9 +126,9 @@ Phương pháp này tương tự như R-CNN, nhưng các vùng được xác đ�
 
 Thuật toán này thậm chí còn nhanh hơn Faster R-CNN. Ý tưởng chính là:
 
-1. Trích xuất đặc trưng bằng ResNet-101.
-2. Các đặc trưng được xử lý bởi **Bản Đồ Điểm Nhạy Cảm Vị Trí**. Mỗi đối tượng từ $C$ lớp được chia thành $k\times k$ vùng, và chúng ta huấn luyện để dự đoán các phần của đối tượng.
-3. Đối với mỗi phần từ $k\times k$ vùng, tất cả các mạng bỏ phiếu cho các lớp đối tượng, và lớp đối tượng có số phiếu cao nhất được chọn.
+1. Chúng ta trích xuất đặc trưng bằng ResNet-101.
+2. Các đặc trưng được xử lý bởi **Bản Đồ Điểm Nhạy Cảm Vị Trí**. Mỗi đối tượng từ $C$ lớp được chia thành các vùng $k\times k$, và chúng ta huấn luyện để dự đoán các phần của đối tượng.
+3. Đối với mỗi phần từ các vùng $k\times k$, tất cả các mạng bỏ phiếu cho các lớp đối tượng, và lớp đối tượng có số phiếu cao nhất được chọn.
 
 ![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.vi.png)
 
@@ -138,8 +138,8 @@ Thuật toán này thậm chí còn nhanh hơn Faster R-CNN. Ý tưởng chính 
 
 YOLO là một thuật toán một lần duy nhất thời gian thực. Ý tưởng chính là:
 
- * Hình ảnh được chia thành $S\times S$ vùng.
- * Đối với mỗi vùng, **CNN** dự đoán $n$ đối tượng có thể, tọa độ *hộp giới hạn* và *độ tin cậy* = *xác suất* * IoU.
+ * Hình ảnh được chia thành các vùng $S\times S$.
+ * Đối với mỗi vùng, **CNN** dự đoán $n$ đối tượng có thể, tọa độ *hộp bao* và *độ tin cậy* = *xác suất* * IoU.
 
  ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.vi.png)
 
@@ -150,7 +150,7 @@ YOLO là một thuật toán một lần duy nhất thời gian thực. Ý tư�
 * RetinaNet: [bài báo chính thức](https://arxiv.org/abs/1708.02002)
    - [Triển khai PyTorch trong Torchvision](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html)
    - [Triển khai Keras](https://github.com/fizyr/keras-retinanet)
-   - [Phát Hiện Đối Tượng với RetinaNet](https://keras.io/examples/vision/retinanet/) trong Keras Samples
+   - [Phát hiện đối tượng với RetinaNet](https://keras.io/examples/vision/retinanet/) trong Keras Samples
 * SSD (Single Shot Detector): [bài báo chính thức](https://arxiv.org/abs/1512.02325)
 
 ## ✍️ Bài Tập: Phát Hiện Đối Tượng
@@ -161,7 +161,7 @@ Tiếp tục học trong notebook sau:
 
 ## Kết Luận
 
-Trong bài học này, bạn đã có một cái nhìn tổng quan về các cách khác nhau để thực hiện phát hiện đối tượng!
+Trong bài học này, bạn đã có một cái nhìn tổng quan nhanh về tất cả các cách khác nhau mà phát hiện đối tượng có thể được thực hiện!
 
 ## 🚀 Thử Thách
 
@@ -186,5 +186,3 @@ Trong bài học này, bạn đã có một cái nhìn tổng quan về các cá
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn tham khảo chính thức. Đối với các thông tin quan trọng, chúng tôi khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.

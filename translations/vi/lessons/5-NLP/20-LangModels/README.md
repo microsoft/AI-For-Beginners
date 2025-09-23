@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2efbb183384a50f0fc0cde02534d912f",
-  "translation_date": "2025-08-29T12:45:24+00:00",
+  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
+  "translation_date": "2025-09-23T10:35:06+00:00",
   "source_file": "lessons/5-NLP/20-LangModels/README.md",
   "language_code": "vi"
 }
 -->
 # Các Mô Hình Ngôn Ngữ Lớn Được Huấn Luyện Trước
 
-Trong tất cả các nhiệm vụ trước đây, chúng ta đã huấn luyện một mạng nơ-ron để thực hiện một nhiệm vụ nhất định bằng cách sử dụng tập dữ liệu có nhãn. Với các mô hình transformer lớn, như BERT, chúng ta sử dụng mô hình ngôn ngữ theo cách tự giám sát để xây dựng một mô hình ngôn ngữ, sau đó được chuyên biệt hóa cho các nhiệm vụ cụ thể với việc huấn luyện thêm theo từng lĩnh vực. Tuy nhiên, đã được chứng minh rằng các mô hình ngôn ngữ lớn cũng có thể giải quyết nhiều nhiệm vụ mà không cần bất kỳ huấn luyện nào theo từng lĩnh vực. Một nhóm các mô hình có khả năng làm điều này được gọi là **GPT**: Generative Pre-Trained Transformer.
+Trong tất cả các nhiệm vụ trước đây, chúng ta đã huấn luyện một mạng nơ-ron để thực hiện một nhiệm vụ cụ thể bằng cách sử dụng tập dữ liệu có nhãn. Với các mô hình transformer lớn, như BERT, chúng ta sử dụng mô hình ngôn ngữ theo cách tự giám sát để xây dựng một mô hình ngôn ngữ, sau đó được chuyên biệt hóa cho các nhiệm vụ cụ thể với việc huấn luyện thêm theo từng lĩnh vực. Tuy nhiên, đã có minh chứng rằng các mô hình ngôn ngữ lớn cũng có thể giải quyết nhiều nhiệm vụ mà KHÔNG cần huấn luyện theo từng lĩnh vực. Một nhóm các mô hình có khả năng làm điều này được gọi là **GPT**: Generative Pre-Trained Transformer.
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
@@ -19,11 +19,11 @@ Trong tất cả các nhiệm vụ trước đây, chúng ta đã huấn luyện
 
 > Hiểu và có khả năng tạo ra văn bản cũng đồng nghĩa với việc biết một chút về thế giới xung quanh chúng ta. Con người cũng học rất nhiều thông qua việc đọc, và mạng GPT cũng tương tự theo khía cạnh này.
 
-Các mạng sinh văn bản hoạt động bằng cách dự đoán xác suất của từ tiếp theo $$P(w_N)$$. Tuy nhiên, xác suất không điều kiện của từ tiếp theo bằng với tần suất của từ đó trong tập văn bản. GPT có thể cung cấp **xác suất có điều kiện** của từ tiếp theo, dựa trên các từ trước đó: $$P(w_N | w_{n-1}, ..., w_0)$$.
+Các mạng sinh văn bản hoạt động bằng cách dự đoán xác suất của từ tiếp theo $$P(w_N)$$. Tuy nhiên, xác suất không điều kiện của từ tiếp theo bằng với tần suất của từ đó trong tập văn bản. GPT có khả năng cung cấp **xác suất có điều kiện** của từ tiếp theo, dựa trên các từ trước đó: $$P(w_N | w_{n-1}, ..., w_0)$$.
 
-> Bạn có thể tìm hiểu thêm về xác suất trong [Chương trình học Khoa học Dữ liệu cho Người Mới Bắt Đầu](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/04-stats-and-probability).
+> Bạn có thể đọc thêm về xác suất trong [Chương trình học Khoa học Dữ liệu cho Người Mới Bắt Đầu](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/04-stats-and-probability).
 
-Chất lượng của mô hình sinh ngôn ngữ có thể được định nghĩa bằng **độ phức tạp**. Đây là một chỉ số nội tại cho phép chúng ta đo lường chất lượng mô hình mà không cần bất kỳ tập dữ liệu cụ thể nào. Nó dựa trên khái niệm *xác suất của một câu* - mô hình gán xác suất cao cho một câu có khả năng là thực (tức là mô hình không **bối rối** bởi nó), và xác suất thấp cho các câu ít hợp lý hơn (ví dụ: *Can it does what?*). Khi chúng ta đưa cho mô hình các câu từ tập văn bản thực, chúng ta mong đợi chúng có xác suất cao và **độ phức tạp** thấp. Về mặt toán học, nó được định nghĩa là nghịch đảo chuẩn hóa của xác suất tập kiểm tra:
+Chất lượng của mô hình sinh ngôn ngữ có thể được định nghĩa bằng **độ phức tạp**. Đây là một thước đo nội tại cho phép chúng ta đánh giá chất lượng mô hình mà không cần bất kỳ tập dữ liệu cụ thể nào. Nó dựa trên khái niệm *xác suất của một câu* - mô hình gán xác suất cao cho một câu có khả năng là thực (tức là mô hình không **bối rối** bởi câu đó), và xác suất thấp cho các câu ít hợp lý hơn (ví dụ: *Can it does what?*). Khi chúng ta đưa cho mô hình các câu từ tập văn bản thực, chúng ta mong đợi chúng có xác suất cao và **độ phức tạp** thấp. Về mặt toán học, nó được định nghĩa là nghịch đảo chuẩn hóa của xác suất tập kiểm tra:
 $$
 \mathrm{Perplexity}(W) = \sqrt[N]{1\over P(W_1,...,W_N)}
 $$ 
@@ -38,7 +38,7 @@ Trong các mô hình GPT, chúng ta có:
 
 | [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2) | [GPT 3](https://openai.com/research/language-models-are-few-shot-learners) | [GPT-4](https://openai.com/gpt-4) |
 | -- | -- | -- |
-|Mô hình ngôn ngữ với tối đa 1.5 tỷ tham số. | Mô hình ngôn ngữ với tối đa 175 tỷ tham số | 100T tham số và chấp nhận cả đầu vào hình ảnh và văn bản, đầu ra là văn bản. |
+|Mô hình ngôn ngữ với tối đa 1.5 tỷ tham số. | Mô hình ngôn ngữ với tối đa 175 tỷ tham số. | 100T tham số và chấp nhận cả đầu vào hình ảnh và văn bản, đầu ra là văn bản. |
 
 Các mô hình GPT-3 và GPT-4 có sẵn [như một dịch vụ nhận thức từ Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), và dưới dạng [API của OpenAI](https://openai.com/api/).
 
@@ -56,11 +56,9 @@ Tiếp tục học tập trong các notebook sau:
 
 ## Kết Luận
 
-Các mô hình ngôn ngữ được huấn luyện trước mới không chỉ mô hình hóa cấu trúc ngôn ngữ, mà còn chứa một lượng lớn ngôn ngữ tự nhiên. Do đó, chúng có thể được sử dụng hiệu quả để giải quyết một số nhiệm vụ NLP trong các thiết lập zero-shot hoặc few-shot.
+Các mô hình ngôn ngữ được huấn luyện trước mới không chỉ mô hình hóa cấu trúc ngôn ngữ, mà còn chứa một lượng lớn ngôn ngữ tự nhiên. Do đó, chúng có thể được sử dụng hiệu quả để giải quyết một số nhiệm vụ NLP trong các tình huống không cần huấn luyện hoặc huấn luyện ít.
 
 ## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với các thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.

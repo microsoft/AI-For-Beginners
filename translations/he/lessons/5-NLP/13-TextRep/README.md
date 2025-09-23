@@ -1,22 +1,22 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4522e22e150be0845e03aa41209a39d5",
-  "translation_date": "2025-08-28T20:09:22+00:00",
+  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
+  "translation_date": "2025-09-23T10:25:24+00:00",
   "source_file": "lessons/5-NLP/13-TextRep/README.md",
   "language_code": "he"
 }
 -->
 # ייצוג טקסט כטנסורים
 
-## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/25)
+## [מבחן לפני השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## סיווג טקסט
 
-במהלך החלק הראשון של הסעיף הזה, נתמקד במשימת **סיווג טקסט**. נשתמש במאגר הנתונים [AG News](https://www.kaggle.com/amananandrai/ag-news-classification-dataset), שמכיל מאמרי חדשות כמו הדוגמה הבאה:
+במהלך החלק הראשון של הסעיף הזה, נתמקד במשימת **סיווג טקסט**. נשתמש במאגר הנתונים [AG News](https://www.kaggle.com/amananandrai/ag-news-classification-dataset), שמכיל כתבות חדשות כמו זו:
 
 * קטגוריה: מדע/טכנולוגיה  
-* כותרת: חברת Ky. זוכה במענק לחקר פפטידים (AP)  
+* כותרת: חברה מקנטקי זכתה במענק לחקר פפטידים (AP)  
 * גוף: AP - חברה שהוקמה על ידי חוקר כימיה מאוניברסיטת לואיוויל זכתה במענק לפיתוח...
 
 המטרה שלנו תהיה לסווג את פריט החדשות לאחת הקטגוריות על בסיס הטקסט.
@@ -29,34 +29,34 @@ CO_OP_TRANSLATOR_METADATA:
 
 > [מקור התמונה](https://www.seobility.net/en/wiki/ASCII)
 
-כבני אדם, אנחנו מבינים מה כל אות **מייצגת**, ואיך כל התווים מתחברים יחד כדי ליצור את המילים במשפט. עם זאת, מחשבים בעצמם אינם מבינים זאת, ורשת נוירונים צריכה ללמוד את המשמעות במהלך האימון.
+כאנשים, אנחנו מבינים מה כל אות **מייצגת**, ואיך כל התווים מתחברים יחד כדי ליצור את המילים במשפט. עם זאת, מחשבים בעצמם אינם מבינים זאת, ורשת נוירונים צריכה ללמוד את המשמעות במהלך האימון.
 
 לכן, ניתן להשתמש בגישות שונות לייצוג טקסט:
 
 * **ייצוג ברמת תו**, שבו אנו מייצגים טקסט על ידי התייחסות לכל תו כמספר. בהינתן שיש לנו *C* תווים שונים בקורפוס הטקסט שלנו, המילה *Hello* תיוצג על ידי טנסור בגודל 5x*C*. כל אות תתאים לעמודת טנסור בקידוד one-hot.  
-* **ייצוג ברמת מילה**, שבו אנו יוצרים **אוצר מילים** של כל המילים בטקסט שלנו, ואז מייצגים מילים באמצעות קידוד one-hot. גישה זו טובה יותר במידה מסוימת, מכיוון שלאות בודדת אין הרבה משמעות, ולכן על ידי שימוש במושגים סמנטיים גבוהים יותר - מילים - אנו מפשטים את המשימה עבור רשת הנוירונים. עם זאת, בשל גודל המילון הגדול, עלינו להתמודד עם טנסורים דלילים בממדים גבוהים.
+* **ייצוג ברמת מילה**, שבו אנו יוצרים **אוצר מילים** של כל המילים בטקסט שלנו, ואז מייצגים מילים באמצעות קידוד one-hot. גישה זו טובה יותר במידה מסוימת, מכיוון שלאות בודדת אין הרבה משמעות בפני עצמה, ולכן באמצעות מושגים סמנטיים ברמה גבוהה יותר - מילים - אנו מפשטים את המשימה עבור רשת הנוירונים. עם זאת, בהתחשב בגודל המילון הגדול, עלינו להתמודד עם טנסורים דלילים בעלי ממדים גבוהים.
 
-ללא קשר לייצוג, תחילה עלינו להמיר את הטקסט לרצף של **טוקנים**, כאשר טוקן אחד יכול להיות תו, מילה, או אפילו חלק ממילה. לאחר מכן, אנו ממירים את הטוקן למספר, בדרך כלל באמצעות **אוצר מילים**, ומספר זה יכול להיות מוזן לרשת נוירונים באמצעות קידוד one-hot.
+לא משנה מה הייצוג, תחילה עלינו להמיר את הטקסט לרצף של **טוקנים**, כאשר טוקן אחד יכול להיות תו, מילה, או אפילו חלק ממילה. לאחר מכן, אנו ממירים את הטוקן למספר, בדרך כלל באמצעות **אוצר מילים**, ומספר זה יכול להיות מוזן לרשת נוירונים באמצעות קידוד one-hot.
 
 ## N-Grams
 
-בשפה טבעית, המשמעות המדויקת של מילים יכולה להיקבע רק בהקשר. לדוגמה, המשמעויות של *רשת נוירונים* ו-*רשת דיג* שונות לחלוטין. אחת הדרכים להתחשב בכך היא לבנות את המודל שלנו על זוגות מילים, ולהתייחס לזוגות מילים כטוקנים נפרדים באוצר המילים. כך, המשפט *אני אוהב ללכת לדוג* ייוצג על ידי רצף הטוקנים הבא: *אני אוהב*, *אוהב ללכת*, *ללכת לדוג*. הבעיה בגישה זו היא שגודל המילון גדל משמעותית, ושילובים כמו *ללכת לדוג* ו-*ללכת לקניות* מיוצגים על ידי טוקנים שונים, שאינם חולקים דמיון סמנטי למרות אותו פועל.
+בשפה טבעית, המשמעות המדויקת של מילים יכולה להיקבע רק בהקשר. לדוגמה, המשמעויות של *רשת נוירונים* ו-*רשת דיג* שונות לחלוטין. אחת הדרכים להתחשב בכך היא לבנות את המודל שלנו על זוגות מילים, ולהתייחס לזוגות מילים כטוקנים נפרדים באוצר המילים. בדרך זו, המשפט *אני אוהב ללכת לדוג* ייוצג על ידי רצף הטוקנים הבא: *אני אוהב*, *אוהב ללכת*, *ללכת לדוג*. הבעיה בגישה זו היא שגודל המילון גדל משמעותית, ושילובים כמו *ללכת לדוג* ו-*ללכת לקניות* מיוצגים על ידי טוקנים שונים, שאינם חולקים שום דמיון סמנטי למרות אותו פועל.
 
 במקרים מסוימים, ניתן לשקול שימוש בטרי-גרמים -- שילובים של שלוש מילים -- גם כן. לכן, גישה זו נקראת לעיתים **n-grams**. כמו כן, יש היגיון להשתמש ב-n-grams עם ייצוג ברמת תו, שבו n-grams יתאימו בערך להברות שונות.
 
 ## Bag-of-Words ו-TF/IDF
 
-כאשר פותרים משימות כמו סיווג טקסט, עלינו להיות מסוגלים לייצג טקסט כווקטור בגודל קבוע, שישמש כקלט למסווג הסופי. אחת הדרכים הפשוטות לעשות זאת היא לשלב את כל הייצוגים של המילים הבודדות, למשל על ידי חיבורם. אם נחבר את קידודי ה-one-hot של כל מילה, נקבל וקטור של תדירויות, שמראה כמה פעמים כל מילה מופיעה בטקסט. ייצוג כזה של טקסט נקרא **Bag of Words** (BoW).
+כאשר פותרים משימות כמו סיווג טקסט, אנו צריכים להיות מסוגלים לייצג טקסט על ידי וקטור בגודל קבוע, אותו נשתמש כקלט למסווג הסופי הצפוף. אחת הדרכים הפשוטות לעשות זאת היא לשלב את כל ייצוגי המילים הבודדות, למשל על ידי חיבורם. אם נחבר את קידודי ה-one-hot של כל מילה, נקבל וקטור של תדירויות, שמראה כמה פעמים כל מילה מופיעה בתוך הטקסט. ייצוג כזה של טקסט נקרא **bag of words** (BoW).
 
 <img src="images/bow.png" width="90%"/>
 
 > תמונה מאת המחבר
 
-BoW למעשה מייצג אילו מילים מופיעות בטקסט ובאילו כמויות, מה שיכול להיות אינדיקציה טובה למהות הטקסט. לדוגמה, מאמר חדשות על פוליטיקה עשוי לכלול מילים כמו *נשיא* ו-*מדינה*, בעוד שמאמר מדעי יכלול מילים כמו *מאיץ חלקיקים*, *גילה*, וכו'. לכן, תדירויות מילים יכולות במקרים רבים להיות אינדיקטור טוב לתוכן הטקסט.
+BoW למעשה מייצג אילו מילים מופיעות בטקסט ובאילו כמויות, מה שיכול להיות אינדיקציה טובה למה הטקסט עוסק בו. לדוגמה, כתבת חדשות על פוליטיקה עשויה להכיל מילים כמו *נשיא* ו-*מדינה*, בעוד פרסום מדעי עשוי לכלול מילים כמו *מאיץ חלקיקים*, *גילוי*, וכו'. לכן, תדירויות מילים יכולות במקרים רבים להיות אינדיקטור טוב לתוכן הטקסט.
 
-הבעיה עם BoW היא שמילים נפוצות מסוימות, כמו *ו*, *הוא*, וכו', מופיעות ברוב הטקסטים, ויש להן תדירויות גבוהות, מה שמטשטש את המילים שבאמת חשובות. ניתן להוריד את החשיבות של מילים אלו על ידי התחשבות בתדירות שבה מילים מופיעות בכל אוסף המסמכים. זהו הרעיון המרכזי מאחורי גישת TF/IDF, שמוסברת בפירוט רב יותר במחברות המצורפות לשיעור זה.
+הבעיה עם BoW היא שמילים מסוימות נפוצות, כמו *ו*, *הוא*, וכו', מופיעות ברוב הטקסטים, ויש להן תדירויות גבוהות, מה שמטשטש את המילים שבאמת חשובות. ניתן להוריד את החשיבות של אותן מילים על ידי התחשבות בתדירות שבה מילים מופיעות בכל אוסף המסמכים. זו הרעיון המרכזי מאחורי גישת TF/IDF, שמכוסה בפירוט רב יותר במחברות המצורפות לשיעור זה.
 
-עם זאת, אף אחת מהגישות הללו אינה יכולה לקחת בחשבון באופן מלא את **הסמנטיקה** של הטקסט. אנו זקוקים למודלים חזקים יותר של רשתות נוירונים כדי לעשות זאת, עליהם נדון בהמשך הסעיף.
+עם זאת, אף אחת מהגישות הללו אינה יכולה לקחת בחשבון באופן מלא את **הסמנטיקה** של הטקסט. אנו זקוקים למודלים רשתות נוירונים חזקים יותר כדי לעשות זאת, אותם נדון בהמשך בסעיף זה.
 
 ## ✍️ תרגילים: ייצוג טקסט
 
@@ -67,21 +67,19 @@ BoW למעשה מייצג אילו מילים מופיעות בטקסט ובאי
 
 ## סיכום
 
-עד כה, למדנו טכניקות שיכולות להוסיף משקל תדירות למילים שונות. עם זאת, הן אינן מסוגלות לייצג משמעות או סדר. כפי שאמר הבלשן המפורסם ג'. ר. פירת' בשנת 1935, "המשמעות המלאה של מילה היא תמיד תלויה בהקשר, ואין לקחת ברצינות כל מחקר של משמעות שאינו מתחשב בהקשר." נלמד בהמשך הקורס כיצד ללכוד מידע הקשרי מטקסט באמצעות מודלים של שפה.
+עד כה, למדנו טכניקות שיכולות להוסיף משקל תדירות למילים שונות. עם זאת, הן אינן מסוגלות לייצג משמעות או סדר. כפי שאמר הבלשן המפורסם ג'. ר. פירת' בשנת 1935, "המשמעות המלאה של מילה תמיד תלויה בהקשר, ואין לקחת ברצינות שום מחקר על משמעות מחוץ להקשר." נלמד בהמשך הקורס כיצד ללכוד מידע הקשרי מטקסט באמצעות מודלים שפתיים.
 
 ## 🚀 אתגר
 
-נסו תרגילים נוספים באמצעות bag-of-words ומודלים שונים של נתונים. ייתכן שתמצאו השראה בתחרות הזו ב-[Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
+נסו תרגילים נוספים באמצעות bag-of-words ומודלים נתונים שונים. ייתכן שתמצאו השראה בתחרות זו ב-[Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [שאלון אחרי ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/26)
+## [מבחן אחרי השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## סקירה ולימוד עצמי
 
-תרגלו את המיומנויות שלכם עם טכניקות של הטמעת טקסט ו-bag-of-words ב-[Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
+תרגלו את המיומנויות שלכם עם טכניקות הטמעת טקסט ו-bag-of-words ב-[Microsoft Learn](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste)
 
 ## [מטלה: מחברות](assignment.md)
 
 ---
 
-**כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.

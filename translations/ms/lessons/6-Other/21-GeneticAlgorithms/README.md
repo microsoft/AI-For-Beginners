@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "893aa368cb485da704b466a0f3775587",
-  "translation_date": "2025-08-29T11:44:38+00:00",
+  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
+  "translation_date": "2025-09-23T10:46:49+00:00",
   "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
   "language_code": "ms"
 }
@@ -22,25 +22,25 @@ Algoritma Genetik berasaskan idea berikut:
 
 Jika anda ingin melaksanakan Algoritma Genetik, anda memerlukan perkara berikut:
 
- * Mencari kaedah untuk mengekod penyelesaian masalah kita menggunakan **gen** g∈Γ
- * Pada set gen Γ, kita perlu mentakrifkan **fungsi kecergasan** fit: Γ→**R**. Nilai fungsi yang lebih kecil menunjukkan penyelesaian yang lebih baik.
- * Mentakrifkan mekanisme **crossover** untuk menggabungkan dua gen bagi mendapatkan penyelesaian baru yang sah crossover: Γ<sup>2</sub>→Γ.
- * Mentakrifkan mekanisme **mutasi** mutate: Γ→Γ.
+ * Mencari kaedah untuk mengekod penyelesaian masalah menggunakan **gen** g&in;&Gamma;
+ * Pada set gen &Gamma;, kita perlu mentakrifkan **fungsi kecergasan** fit: &Gamma;&rightarrow;**R**. Nilai fungsi yang lebih kecil menunjukkan penyelesaian yang lebih baik.
+ * Mentakrifkan mekanisme **crossover** untuk menggabungkan dua gen bersama-sama untuk mendapatkan penyelesaian baru yang sah crossover: &Gamma;<sup>2</sub>&rightarrow;&Gamma;.
+ * Mentakrifkan mekanisme **mutasi** mutate: &Gamma;&rightarrow;&Gamma;.
 
 Dalam banyak kes, crossover dan mutasi adalah algoritma yang agak mudah untuk memanipulasi gen sebagai jujukan angka atau vektor bit.
 
-Pelaksanaan khusus algoritma genetik boleh berbeza dari satu kes ke kes lain, tetapi struktur keseluruhannya adalah seperti berikut:
+Pelaksanaan spesifik algoritma genetik boleh berbeza-beza mengikut kes, tetapi struktur keseluruhannya adalah seperti berikut:
 
-1. Pilih populasi awal G⊂Γ
+1. Pilih populasi awal G&subset;&Gamma;
 2. Pilih secara rawak salah satu operasi yang akan dilakukan pada langkah ini: crossover atau mutasi
 3. **Crossover**:
-  * Pilih secara rawak dua gen g<sub>1</sub>, g<sub>2</sub> ∈ G
+  * Pilih secara rawak dua gen g<sub>1</sub>, g<sub>2</sub> &in; G
   * Kira crossover g=crossover(g<sub>1</sub>,g<sub>2</sub>)
   * Jika fit(g)<fit(g<sub>1</sub>) atau fit(g)<fit(g<sub>2</sub>) - gantikan gen yang sepadan dalam populasi dengan g.
-4. **Mutasi** - pilih gen rawak g∈G dan gantikannya dengan mutate(g)
-5. Ulang dari langkah 2, sehingga kita mendapat nilai fit yang cukup kecil, atau sehingga had bilangan langkah tercapai.
+4. **Mutasi** - pilih gen rawak g&in;G dan gantikannya dengan mutate(g)
+5. Ulang dari langkah 2, sehingga kita mendapat nilai fit yang cukup kecil, atau sehingga had pada bilangan langkah tercapai.
 
-## Tugas Biasa
+## Tugas Tipikal
 
 Tugas yang biasanya diselesaikan oleh Algoritma Genetik termasuk:
 
@@ -68,9 +68,9 @@ Algoritma Genetik digunakan untuk menyelesaikan banyak masalah, termasuk logisti
 
 ## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
-## Kajian & Pembelajaran Kendiri
+## Ulasan & Kajian Kendiri
 
-Tonton [video hebat ini](https://www.youtube.com/watch?v=qv6UVOQ0F44) yang membincangkan bagaimana komputer boleh belajar bermain Super Mario menggunakan rangkaian neural yang dilatih oleh algoritma genetik. Kita akan belajar lebih lanjut tentang komputer yang belajar bermain permainan seperti itu [dalam bahagian seterusnya](../22-DeepRL/README.md).
+Tonton [video hebat ini](https://www.youtube.com/watch?v=qv6UVOQ0F44) yang membincangkan bagaimana komputer boleh belajar bermain Super Mario menggunakan rangkaian neural yang dilatih oleh algoritma genetik. Kita akan belajar lebih lanjut tentang pembelajaran komputer untuk bermain permainan seperti itu [dalam bahagian seterusnya](../22-DeepRL/README.md).
 
 ## [Tugasan: Persamaan Diofantin](Diophantine.ipynb)
 
@@ -80,12 +80,10 @@ Matlamat anda adalah untuk menyelesaikan apa yang dipanggil **persamaan Diofanti
 
 Petunjuk:
 
-1. Anda boleh mempertimbangkan akar dalam selang [0;30]
+1. Anda boleh mempertimbangkan akar dalam julat [0;30]
 1. Sebagai gen, pertimbangkan untuk menggunakan senarai nilai akar
 
 Gunakan [Diophantine.ipynb](Diophantine.ipynb) sebagai titik permulaan.
 
 ---
 
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

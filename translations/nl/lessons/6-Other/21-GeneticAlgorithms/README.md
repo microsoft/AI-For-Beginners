@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "893aa368cb485da704b466a0f3775587",
-  "translation_date": "2025-08-28T19:14:32+00:00",
+  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
+  "translation_date": "2025-09-23T10:05:41+00:00",
   "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
   "language_code": "nl"
 }
@@ -11,56 +11,56 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
-**Genetische algoritmen** (GA) zijn gebaseerd op een **evolutionaire benadering** van AI, waarbij methoden van de evolutie van een populatie worden gebruikt om een optimale oplossing voor een gegeven probleem te vinden. Ze werden voorgesteld in 1975 door [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
+**Genetische Algoritmen** (GA) zijn gebaseerd op een **evolutionaire benadering** van AI, waarbij methoden van populatie-evolutie worden gebruikt om een optimale oplossing voor een bepaald probleem te vinden. Ze werden in 1975 voorgesteld door [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
-Genetische algoritmen zijn gebaseerd op de volgende ideeën:
+Genetische Algoritmen zijn gebaseerd op de volgende ideeën:
 
 * Geldige oplossingen voor het probleem kunnen worden weergegeven als **genen**
-* **Crossover** stelt ons in staat om twee oplossingen te combineren om een nieuwe geldige oplossing te verkrijgen
+* **Crossover** stelt ons in staat om twee oplossingen te combineren tot een nieuwe geldige oplossing
 * **Selectie** wordt gebruikt om meer optimale oplossingen te kiezen met behulp van een **fitnessfunctie**
-* **Mutaties** worden geïntroduceerd om optimalisatie te destabiliseren en ons uit een lokaal minimum te halen
+* **Mutaties** worden geïntroduceerd om de optimalisatie te verstoren en ons uit een lokaal minimum te halen
 
-Als je een genetisch algoritme wilt implementeren, heb je het volgende nodig:
+Als je een Genetisch Algoritme wilt implementeren, heb je het volgende nodig:
 
- * Een methode om de oplossingen van ons probleem te coderen met behulp van **genen** g∈Γ
- * Op de set van genen Γ moet je een **fitnessfunctie** definiëren fit: Γ→**R**. Kleinere functiewaarden komen overeen met betere oplossingen.
- * Een **crossover**-mechanisme definiëren om twee genen samen te combineren tot een nieuwe geldige oplossing crossover: Γ<sup>2</sub>→Γ.
- * Een **mutatie**-mechanisme definiëren mutate: Γ→Γ.
+ * Een methode om de oplossingen van ons probleem te coderen met behulp van **genen** g&in;&Gamma;
+ * Op de verzameling genen &Gamma; moeten we een **fitnessfunctie** definiëren fit: &Gamma;&rightarrow;**R**. Lagere functiewaarden komen overeen met betere oplossingen.
+ * Een **crossover**-mechanisme definiëren om twee genen te combineren tot een nieuwe geldige oplossing crossover: &Gamma;<sup>2</sub>&rightarrow;&Gamma;.
+ * Een **mutatie**-mechanisme definiëren mutate: &Gamma;&rightarrow;&Gamma;.
 
 In veel gevallen zijn crossover en mutatie vrij eenvoudige algoritmen om genen te manipuleren als numerieke reeksen of bitvectoren.
 
-De specifieke implementatie van een genetisch algoritme kan variëren van geval tot geval, maar de algemene structuur is als volgt:
+De specifieke implementatie van een genetisch algoritme kan per geval verschillen, maar de algemene structuur is als volgt:
 
-1. Selecteer een initiële populatie G⊂Γ
+1. Selecteer een initiële populatie G&subset;&Gamma;
 2. Selecteer willekeurig een van de operaties die in deze stap zullen worden uitgevoerd: crossover of mutatie
 3. **Crossover**:
-  * Selecteer willekeurig twee genen g<sub>1</sub>, g<sub>2</sub> ∈ G
+  * Selecteer willekeurig twee genen g<sub>1</sub>, g<sub>2</sub> &in; G
   * Bereken crossover g=crossover(g<sub>1</sub>,g<sub>2</sub>)
   * Als fit(g)<fit(g<sub>1</sub>) of fit(g)<fit(g<sub>2</sub>) - vervang het overeenkomstige gen in de populatie door g.
-4. **Mutatie** - selecteer een willekeurig gen g∈G en vervang het door mutate(g)
+4. **Mutatie** - selecteer een willekeurig gen g&in;G en vervang het door mutate(g)
 5. Herhaal vanaf stap 2, totdat we een voldoende kleine waarde van fit hebben bereikt, of totdat de limiet op het aantal stappen is bereikt.
 
 ## Typische Taken
 
-Taken die typisch worden opgelost door genetische algoritmen zijn onder andere:
+Taken die typisch worden opgelost door Genetische Algoritmen zijn onder andere:
 
 1. Optimalisatie van planningen
-1. Optimaal inpakken
-1. Optimaal snijden
-1. Versnellen van uitputtend zoeken
+1. Optimale verpakkingen
+1. Optimale snijpatronen
+1. Versnellen van uitputtende zoekmethoden
 
 ## ✍️ Oefeningen: Genetische Algoritmen
 
 Ga verder met leren in de volgende notebooks:
 
-Ga naar [deze notebook](Genetic.ipynb) om twee voorbeelden te zien van het gebruik van genetische algoritmen:
+Ga naar [dit notebook](Genetic.ipynb) om twee voorbeelden te zien van het gebruik van Genetische Algoritmen:
 
 1. Eerlijke verdeling van schatten
-1. 8-damesprobleem
+1. 8-Damesprobleem
 
 ## Conclusie
 
-Genetische algoritmen worden gebruikt om veel problemen op te lossen, waaronder logistieke en zoekproblemen. Het vakgebied is geïnspireerd door onderzoek dat onderwerpen uit de psychologie en informatica combineerde.
+Genetische Algoritmen worden gebruikt om veel problemen op te lossen, waaronder logistieke en zoekproblemen. Het vakgebied is geïnspireerd door onderzoek dat onderwerpen in de psychologie en informatica combineerde.
 
 ## 🚀 Uitdaging
 
@@ -68,24 +68,22 @@ Genetische algoritmen worden gebruikt om veel problemen op te lossen, waaronder 
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
-## Review & Zelfstudie
+## Herziening & Zelfstudie
 
-Bekijk [deze geweldige video](https://www.youtube.com/watch?v=qv6UVOQ0F44) waarin wordt uitgelegd hoe een computer kan leren Super Mario te spelen met behulp van neurale netwerken die zijn getraind door genetische algoritmen. We zullen meer leren over hoe computers leren om dergelijke spellen te spelen [in de volgende sectie](../22-DeepRL/README.md).
+Bekijk [deze geweldige video](https://www.youtube.com/watch?v=qv6UVOQ0F44) waarin wordt uitgelegd hoe een computer kan leren Super Mario te spelen met behulp van neurale netwerken die zijn getraind door genetische algoritmen. We zullen meer leren over hoe computers leren om dit soort spellen te spelen [in de volgende sectie](../22-DeepRL/README.md).
 
-## [Opdracht: Diophantine Vergelijking](Diophantine.ipynb)
+## [Opdracht: Diofantische Vergelijking](Diophantine.ipynb)
 
-Je doel is om de zogenaamde **Diophantine vergelijking** op te lossen - een vergelijking met gehele wortels. Bijvoorbeeld, beschouw de vergelijking a+2b+3c+4d=30. Je moet de gehele wortels vinden die aan deze vergelijking voldoen.
+Je doel is om de zogenaamde **Diofantische vergelijking** op te lossen - een vergelijking met gehele wortels. Overweeg bijvoorbeeld de vergelijking a+2b+3c+4d=30. Je moet de gehele wortels vinden die aan deze vergelijking voldoen.
 
-*Deze opdracht is geïnspireerd door [deze post](https://habr.com/post/128704/).*
+*Deze opdracht is geïnspireerd door [dit artikel](https://habr.com/post/128704/).*
 
 Hints:
 
 1. Je kunt wortels beschouwen in het interval [0;30]
-1. Gebruik als gen de lijst met wortelwaarden
+1. Gebruik als gen de lijst van wortelwaarden
 
 Gebruik [Diophantine.ipynb](Diophantine.ipynb) als startpunt.
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

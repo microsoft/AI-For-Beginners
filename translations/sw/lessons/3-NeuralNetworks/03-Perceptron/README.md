@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-25T21:01:25+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T11:04:25+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "sw"
 }
 -->
-# Utangulizi wa Mitandao ya Neural: Perceptron
+# Utangulizi wa Mitandao ya Neva: Perceptron
 
-## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/5)
+## [Jaribio la awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-Moja ya majaribio ya kwanza ya kutekeleza kitu kinachofanana na mtandao wa neural wa kisasa yalifanywa na Frank Rosenblatt kutoka Maabara ya Anga ya Cornell mwaka 1957. Ilikuwa ni utekelezaji wa vifaa vilivyoitwa "Mark-1", iliyoundwa kutambua maumbo ya kijiometri rahisi, kama vile pembetatu, miraba na miduara.
+Moja ya majaribio ya kwanza ya kutekeleza kitu kinachofanana na mtandao wa neva wa kisasa yalifanywa na Frank Rosenblatt kutoka Cornell Aeronautical Laboratory mwaka 1957. Ilikuwa ni utekelezaji wa vifaa vilivyoitwa "Mark-1", iliyoundwa kutambua maumbo ya kijiometri rahisi, kama vile pembetatu, mraba, na duara.
 
 |      |      |
 |--------------|-----------|
@@ -19,43 +19,43 @@ Moja ya majaribio ya kwanza ya kutekeleza kitu kinachofanana na mtandao wa neura
 
 > Picha [kutoka Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
-Picha ya ingizo iliwakilishwa na safu ya seli za picha 20x20, hivyo mtandao wa neural ulikuwa na viingizo 400 na pato moja la binary. Mtandao rahisi ulikuwa na neuron moja, pia inayoitwa **kitengo cha mantiki ya kizingiti**. Uzito wa mtandao wa neural ulifanya kazi kama potentiometer ambazo zilihitaji kurekebishwa kwa mikono wakati wa awamu ya mafunzo.
+Picha ya pembejeo iliwakilishwa na safu ya seli za picha 20x20, hivyo mtandao wa neva ulikuwa na pembejeo 400 na moja ya matokeo ya binary. Mtandao rahisi ulikuwa na neuron moja, pia inayoitwa **threshold logic unit**. Uzito wa mtandao wa neva ulifanya kazi kama potentiometers ambazo zilihitaji kurekebishwa kwa mikono wakati wa awamu ya mafunzo.
 
 > ✅ Potentiometer ni kifaa kinachoruhusu mtumiaji kurekebisha upinzani wa mzunguko.
 
-> The New York Times iliandika kuhusu perceptron wakati huo: *kiinitete cha kompyuta ya kielektroniki ambayo [Jeshi la Wanamaji] linatarajia itaweza kutembea, kuzungumza, kuona, kuandika, kujizalisha yenyewe na kufahamu uwepo wake.*
+> New York Times iliandika kuhusu perceptron wakati huo: *kiinitete cha kompyuta ya kielektroniki ambayo [Jeshi la Majini] linatarajia itaweza kutembea, kuzungumza, kuona, kuandika, kujizalisha yenyewe na kufahamu uwepo wake.*
 
 ## Mfano wa Perceptron
 
-Tuseme tuna vipengele N katika mfano wetu, ambapo vector ya ingizo itakuwa vector ya ukubwa N. Perceptron ni mfano wa **uainishaji wa binary**, yaani inaweza kutofautisha kati ya madarasa mawili ya data ya ingizo. Tutadhani kwamba kwa kila vector ya ingizo x, pato la perceptron yetu litakuwa aidha +1 au -1, kulingana na darasa. Pato litahesabiwa kwa kutumia fomula:
+Tuseme tuna vipengele N katika mfano wetu, ambapo vector ya pembejeo itakuwa vector ya ukubwa N. Perceptron ni mfano wa **uainishaji wa binary**, yaani inaweza kutofautisha kati ya madarasa mawili ya data ya pembejeo. Tutadhani kwamba kwa kila vector ya pembejeo x, matokeo ya perceptron yetu yatakuwa aidha +1 au -1, kulingana na darasa. Matokeo yatakokotolewa kwa kutumia fomula:
 
 y(x) = f(w<sup>T</sup>x)
 
-ambapo f ni kazi ya uanzishaji wa hatua
+ambapo f ni kazi ya hatua ya uanzishaji
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
 <img src="images/activation-func.png"/>
 
 ## Mafunzo ya Perceptron
 
-Ili kufundisha perceptron tunahitaji kupata vector ya uzito w ambayo inatofautisha kwa usahihi thamani nyingi, yaani inasababisha **kosa** dogo zaidi. Kosa hili E linafafanuliwa na **kigezo cha perceptron** kwa njia ifuatayo:
+Ili kufundisha perceptron tunahitaji kupata vector ya uzito w ambayo inatofautisha kwa usahihi data nyingi, yaani inasababisha **kosa** ndogo zaidi. Kosa hili E linafafanuliwa na **kigezo cha perceptron** kwa njia ifuatayo:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 ambapo:
 
-* jumla inachukuliwa kwa zile data za mafunzo i ambazo zinasababisha uainishaji usio sahihi
-* x<sub>i</sub> ni data ya ingizo, na t<sub>i</sub> ni aidha -1 au +1 kwa mifano hasi na chanya ipasavyo.
+* jumla inachukuliwa kwa pointi za data za mafunzo i ambazo zinasababisha uainishaji usio sahihi
+* x<sub>i</sub> ni data ya pembejeo, na t<sub>i</sub> ni aidha -1 au +1 kwa mifano hasi na chanya ipasavyo.
 
-Kigezo hiki kinachukuliwa kama kazi ya uzito w, na tunahitaji kukipunguza. Mara nyingi, njia inayoitwa **gradient descent** hutumika, ambapo tunaanza na uzito wa awali w<sup>(0)</sup>, na kisha kila hatua tunasasisha uzito kulingana na fomula:
+Kigezo hiki kinachukuliwa kama kazi ya uzito w, na tunahitaji kuipunguza. Mara nyingi, njia inayoitwa **gradient descent** hutumika, ambapo tunaanza na uzito wa awali w<sup>(0)</sup>, na kisha katika kila hatua tunasasisha uzito kulingana na fomula:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Hapa η ni kinachoitwa **kiwango cha kujifunza**, na ∇E(w) inaonyesha **gradienti** ya E. Baada ya kuhesabu gradienti, tunapata:
+Hapa &eta; ni kinachoitwa **kiwango cha kujifunza**, na &nabla;E(w) inaonyesha **gradient** ya E. Baada ya kukokotoa gradient, tunapata:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
-Algorithimu katika Python inaonekana hivi:
+Algoriti katika Python inaonekana kama hii:
 
 ```python
 def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
@@ -89,17 +89,17 @@ Ikiwa ungependa kujaribu kujenga perceptron yako mwenyewe, jaribu [maabara hii k
 
 ## Mapitio na Kujisomea
 
-Ili kuona jinsi tunavyoweza kutumia perceptron kutatua tatizo la mfano pamoja na matatizo ya maisha halisi, na kuendelea kujifunza - nenda kwenye daftari la [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb).
+Ili kuona jinsi tunavyoweza kutumia perceptron kutatua tatizo la mfano pamoja na matatizo ya maisha halisi, na kuendelea kujifunza - nenda kwenye daftari la [Perceptron](Perceptron.ipynb).
 
 Hapa kuna [makala ya kuvutia kuhusu perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590
 ) pia.
 
 ## [Kazi ya Nyumbani](lab/README.md)
 
-Katika somo hili, tumetekeleza perceptron kwa kazi ya uainishaji wa binary, na tumeitumia kutofautisha kati ya tarakimu mbili zilizoandikwa kwa mkono. Katika maabara hii, unaombwa kutatua tatizo la uainishaji wa tarakimu kikamilifu, yaani kubaini ni tarakimu gani inayowezekana zaidi kuendana na picha fulani.
+Katika somo hili, tumetekeleza perceptron kwa kazi ya uainishaji wa binary, na tumeitumia kutofautisha kati ya tarakimu mbili za maandishi ya mkono. Katika maabara hii, unahitajika kutatua tatizo la uainishaji wa tarakimu kikamilifu, yaani kuamua ni tarakimu gani inayowezekana kuendana na picha fulani.
 
 * [Maelekezo](lab/README.md)
-* [Daftari](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Daftari](lab/PerceptronMultiClass.ipynb)
 
-**Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+---
+
