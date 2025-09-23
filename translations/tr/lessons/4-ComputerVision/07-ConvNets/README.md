@@ -1,19 +1,19 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "088837b42b7d99198bf62db8a42411e0",
-  "translation_date": "2025-08-26T07:28:18+00:00",
+  "original_hash": "a560d5b845962cf33dc102266e409568",
+  "translation_date": "2025-09-23T08:38:27+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
   "language_code": "tr"
 }
 -->
-# Evrişimli Sinir Ağları
+# Evrişimsel Sinir Ağları
 
-Daha önce sinir ağlarının görüntülerle başa çıkmada oldukça iyi olduğunu görmüştük ve tek katmanlı bir algılayıcı bile MNIST veri setindeki el yazısı rakamları makul bir doğrulukla tanıyabiliyor. Ancak, MNIST veri seti oldukça özeldir ve tüm rakamlar görüntünün ortasına hizalanmıştır, bu da görevi daha basit hale getirir.
+Daha önce sinir ağlarının görüntülerle oldukça iyi başa çıktığını görmüştük; hatta tek katmanlı bir algılayıcı bile MNIST veri setindeki el yazısı rakamları makul bir doğrulukla tanıyabiliyor. Ancak, MNIST veri seti oldukça özeldir ve tüm rakamlar görüntünün ortasına hizalanmıştır, bu da görevi daha basit hale getirir.
 
 ## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
-Gerçek hayatta, bir görüntüdeki nesneleri tam olarak nerede olduklarına bakmaksızın tanıyabilmek isteriz. Bilgisayarla görme, genel sınıflandırmadan farklıdır çünkü bir görüntüde belirli bir nesneyi bulmaya çalışırken, görüntüyü tarar ve belirli **desenler** ve bunların kombinasyonlarını ararız. Örneğin, bir kedi ararken, önce bıyık oluşturabilecek yatay çizgiler arayabiliriz ve ardından belirli bir bıyık kombinasyonu bize bunun bir kedi resmi olduğunu söyleyebilir. Belirli desenlerin göreceli konumu ve varlığı önemlidir, ancak görüntüdeki tam konumu değil.
+Gerçek hayatta, bir görüntüdeki nesneleri tam olarak nerede olduklarına bakmaksızın tanıyabilmek isteriz. Bilgisayarla görme, genel sınıflandırmadan farklıdır çünkü bir görüntüde belirli bir nesneyi bulmaya çalışırken, belirli **desenleri** ve bunların kombinasyonlarını arayarak görüntüyü tararız. Örneğin, bir kedi ararken önce yatay çizgiler arayabiliriz, bu çizgiler bıyıkları oluşturabilir ve ardından belirli bir bıyık kombinasyonu bize bunun bir kedi resmi olduğunu söyleyebilir. Belirli desenlerin göreceli konumu ve varlığı önemlidir, ancak görüntüdeki tam konumu önemli değildir.
 
 Desenleri çıkarmak için **evrişimsel filtreler** kavramını kullanacağız. Bildiğiniz gibi, bir görüntü 2D bir matris veya renk derinliği olan bir 3D tensör olarak temsil edilir. Bir filtre uygulamak, nispeten küçük bir **filtre çekirdeği** matrisini alıp, orijinal görüntüdeki her bir piksel için komşu noktalarla ağırlıklı ortalamayı hesaplamak anlamına gelir. Bunu, filtre çekirdeği matrisindeki ağırlıklara göre tüm pikselleri ortalayan küçük bir pencerenin tüm görüntü üzerinde kayması gibi düşünebiliriz.
 
@@ -24,7 +24,9 @@ Desenleri çıkarmak için **evrişimsel filtreler** kavramını kullanacağız.
 
 Örneğin, MNIST rakamlarına 3x3 boyutunda dikey kenar ve yatay kenar filtreleri uygularsak, orijinal görüntümüzde dikey ve yatay kenarların olduğu yerlerde vurgular (örneğin, yüksek değerler) elde edebiliriz. Bu nedenle, bu iki filtre "kenarları aramak" için kullanılabilir. Benzer şekilde, diğer düşük seviyeli desenleri aramak için farklı filtreler tasarlayabiliriz:
 
-> [Leung-Malik Filtre Bankası](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) Görseli
+<img src="images/lmfilters.jpg" width="500" align="center"/>
+
+> Görsel: [Leung-Malik Filtre Bankası](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 
 Ancak, bazı desenleri çıkarmak için filtreleri manuel olarak tasarlayabileceğimiz gibi, ağı filtreleri otomatik olarak öğrenebilecek şekilde de tasarlayabiliriz. Bu, CNN'nin arkasındaki temel fikirlerden biridir.
 
@@ -34,22 +36,22 @@ CNN'lerin çalışma şekli şu önemli fikirlere dayanır:
 
 * Evrişimsel filtreler desenleri çıkarabilir.
 * Ağı, filtrelerin otomatik olarak eğitileceği şekilde tasarlayabiliriz.
-* Aynı yaklaşımı yalnızca orijinal görüntüde değil, yüksek seviyeli özelliklerde desenler bulmak için de kullanabiliriz. Böylece, CNN özellik çıkarımı, düşük seviyeli piksel kombinasyonlarından başlayarak, görüntü parçalarının daha yüksek seviyeli kombinasyonlarına kadar bir özellik hiyerarşisi üzerinde çalışır.
+* Aynı yaklaşımı yalnızca orijinal görüntüde değil, yüksek seviyeli özelliklerdeki desenleri bulmak için de kullanabiliriz. Böylece, CNN özellik çıkarımı, düşük seviyeli piksel kombinasyonlarından başlayarak, görüntü parçalarının daha yüksek seviyeli kombinasyonlarına kadar bir özellik hiyerarşisi üzerinde çalışır.
 
 ![Hiyerarşik Özellik Çıkarımı](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.tr.png)
 
 > Görsel: [Hislop-Lynch'in bir makalesinden](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), [araştırmalarına dayanarak](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
-## ✍️ Alıştırmalar: Evrişimli Sinir Ağları
+## ✍️ Alıştırmalar: Evrişimsel Sinir Ağları
 
-Evrişimli sinir ağlarının nasıl çalıştığını ve eğitilebilir filtrelere nasıl ulaşabileceğimizi keşfetmeye devam edelim. Bunun için ilgili defterler üzerinde çalışabilirsiniz:
+Evrişimsel sinir ağlarının nasıl çalıştığını ve eğitilebilir filtrelere nasıl ulaşabileceğimizi keşfetmeye devam edelim. Bunun için ilgili defterler üzerinde çalışabilirsiniz:
 
-* [Evrişimli Sinir Ağları - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
-* [Evrişimli Sinir Ağları - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
+* [Evrişimsel Sinir Ağları - PyTorch](ConvNetsPyTorch.ipynb)
+* [Evrişimsel Sinir Ağları - TensorFlow](ConvNetsTF.ipynb)
 
 ## Piramit Mimarisi
 
-Görüntü işleme için kullanılan çoğu CNN, sözde piramit mimarisini takip eder. Orijinal görüntülere uygulanan ilk evrişim katmanı genellikle nispeten az sayıda filtreye sahiptir (8-16), bu da yatay/dikey çizgiler gibi farklı piksel kombinasyonlarına karşılık gelir. Bir sonraki seviyede, ağın uzaysal boyutunu azaltır ve basit özelliklerin daha fazla olası kombinasyonuna karşılık gelen filtre sayısını artırırız. Her katmanda, son sınıflandırıcıya doğru ilerledikçe, görüntünün uzaysal boyutları azalır ve filtre sayısı artar.
+Görüntü işleme için kullanılan çoğu CNN, sözde piramit mimarisini takip eder. Orijinal görüntülere uygulanan ilk evrişim katmanı genellikle nispeten az sayıda filtreye (8-16) sahiptir ve bu filtreler yatay/dikey çizgiler gibi farklı piksel kombinasyonlarına karşılık gelir. Bir sonraki seviyede, ağın uzamsal boyutunu azaltır ve basit özelliklerin daha fazla olası kombinasyonuna karşılık gelen filtre sayısını artırırız. Her katmanda, son sınıflandırıcıya doğru ilerledikçe, görüntünün uzamsal boyutları azalır ve filtre sayısı artar.
 
 Örneğin, 2014 yılında ImageNet'in ilk 5 sınıflandırmasında %92.7 doğruluk elde eden VGG-16 ağının mimarisine bakalım:
 
@@ -63,5 +65,5 @@ Görüntü işleme için kullanılan çoğu CNN, sözde piramit mimarisini takip
 
 [En iyi bilinen CNN mimarileri hakkında çalışmaya devam edin](CNN_Architectures.md)
 
-**Feragatname**:  
-Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul edilmez.
+---
+

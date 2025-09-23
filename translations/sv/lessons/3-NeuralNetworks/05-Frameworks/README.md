@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2b544f20b796402507fb05a0df893323",
-  "translation_date": "2025-08-28T15:40:06+00:00",
+  "original_hash": "ddd216f558a255260a9374008002c971",
+  "translation_date": "2025-09-23T09:22:45+00:00",
   "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
   "language_code": "sv"
 }
@@ -11,8 +11,8 @@ CO_OP_TRANSLATOR_METADATA:
 
 Som vi redan har lärt oss, för att kunna träna neurala nätverk effektivt behöver vi göra två saker:
 
-* Arbeta med tensorer, t.ex. multiplicera, addera och beräkna funktioner som sigmoid eller softmax
-* Beräkna gradienter för alla uttryck för att kunna utföra gradientnedstigningsoptimering
+* Arbeta med tensorer, t.ex. multiplicera, addera och beräkna funktioner som sigmoid eller softmax.
+* Beräkna gradienter för alla uttryck för att kunna utföra gradientnedstigningsoptimering.
 
 ## [Förtest](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
@@ -20,27 +20,27 @@ Medan biblioteket `numpy` kan hantera den första delen, behöver vi en mekanism
 
 En annan viktig aspekt är att kunna utföra beräkningar på GPU eller andra specialiserade beräkningsenheter, som [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Träning av djupa neurala nätverk kräver *väldigt mycket* beräkningar, och att kunna parallellisera dessa beräkningar på GPU:er är mycket viktigt.
 
-> ✅ Termen 'parallellisera' betyder att fördela beräkningarna över flera enheter.
+> ✅ Begreppet 'parallellisera' betyder att fördela beräkningarna över flera enheter.
 
-För närvarande är de två mest populära ramverken för neurala nätverk: [TensorFlow](http://TensorFlow.org) och [PyTorch](https://pytorch.org/). Båda erbjuder ett låg-nivå API för att arbeta med tensorer på både CPU och GPU. Utöver låg-nivå API finns det också hög-nivå API, kallade [Keras](https://keras.io/) respektive [PyTorch Lightning](https://pytorchlightning.ai/).
+De två mest populära ramverken för neurala nätverk idag är: [TensorFlow](http://TensorFlow.org) och [PyTorch](https://pytorch.org/). Båda erbjuder ett låg-nivå API för att arbeta med tensorer på både CPU och GPU. Utöver låg-nivå API finns det också hög-nivå API, kallade [Keras](https://keras.io/) respektive [PyTorch Lightning](https://pytorchlightning.ai/).
 
 Låg-nivå API | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)
 -------------|-------------------------------------|--------------------------------
 Hög-nivå API | [Keras](https://keras.io/) | [PyTorch Lightning](https://pytorchlightning.ai/)
 
-**Låg-nivå API** i båda ramverken låter dig bygga så kallade **beräkningsgrafer**. Denna graf definierar hur man beräknar utdata (vanligtvis förlustfunktionen) med givna indata och kan skickas för beräkning på GPU, om det finns tillgängligt. Det finns funktioner för att differentiera denna beräkningsgraf och beräkna gradienter, som sedan kan användas för att optimera modellparametrar.
+**Låg-nivå API** i båda ramverken låter dig bygga så kallade **beräkningsgrafer**. Denna graf definierar hur man beräknar utdata (vanligtvis förlustfunktionen) med givna indata och kan skickas för beräkning på GPU, om sådan finns tillgänglig. Det finns funktioner för att differentiera denna beräkningsgraf och beräkna gradienter, som sedan kan användas för att optimera modellparametrar.
 
 **Hög-nivå API** betraktar i stort sett neurala nätverk som en **sekvens av lager**, vilket gör konstruktionen av de flesta neurala nätverk mycket enklare. Att träna modellen kräver vanligtvis att man förbereder data och sedan anropar en `fit`-funktion för att utföra jobbet.
 
-Hög-nivå API gör det möjligt att snabbt konstruera typiska neurala nätverk utan att behöva oroa sig för många detaljer. Samtidigt erbjuder låg-nivå API mycket mer kontroll över träningsprocessen och används därför ofta i forskning, när man arbetar med nya arkitekturer för neurala nätverk.
+Hög-nivå API gör det möjligt att snabbt konstruera typiska neurala nätverk utan att behöva oroa sig för många detaljer. Samtidigt erbjuder låg-nivå API mycket mer kontroll över träningsprocessen och används därför ofta inom forskning, när man arbetar med nya arkitekturer för neurala nätverk.
 
-Det är också viktigt att förstå att du kan använda båda API:erna tillsammans, t.ex. kan du utveckla din egen nätverkslagerarkitektur med låg-nivå API och sedan använda den i ett större nätverk som konstrueras och tränas med hög-nivå API. Eller så kan du definiera ett nätverk med hög-nivå API som en sekvens av lager och sedan använda din egen låg-nivå träningsloop för att utföra optimering. Båda API:erna använder samma grundläggande koncept och är designade för att fungera bra tillsammans.
+Det är också viktigt att förstå att du kan använda båda API:erna tillsammans, t.ex. kan du utveckla din egen nätverkslagerarkitektur med låg-nivå API och sedan använda den i ett större nätverk som konstrueras och tränas med hög-nivå API. Eller så kan du definiera ett nätverk med hög-nivå API som en sekvens av lager och sedan använda din egen låg-nivå träningsloop för att utföra optimering. Båda API:erna bygger på samma grundläggande koncept och är designade för att fungera bra tillsammans.
 
 ## Lärande
 
 I den här kursen erbjuder vi det mesta av innehållet både för PyTorch och TensorFlow. Du kan välja ditt föredragna ramverk och endast gå igenom motsvarande anteckningsböcker. Om du inte är säker på vilket ramverk du ska välja, läs några diskussioner på internet om **PyTorch vs. TensorFlow**. Du kan också titta på båda ramverken för att få en bättre förståelse.
 
-Där det är möjligt kommer vi att använda hög-nivå API för enkelhetens skull. Men vi anser att det är viktigt att förstå hur neurala nätverk fungerar från grunden, därför börjar vi med att arbeta med låg-nivå API och tensorer. Om du däremot vill komma igång snabbt och inte vill spendera mycket tid på att lära dig dessa detaljer, kan du hoppa över dem och gå direkt till anteckningsböckerna för hög-nivå API.
+Där det är möjligt kommer vi att använda hög-nivå API för enkelhetens skull. Men vi anser att det är viktigt att förstå hur neurala nätverk fungerar från grunden, så i början börjar vi med att arbeta med låg-nivå API och tensorer. Om du däremot vill komma igång snabbt och inte vill spendera mycket tid på att lära dig dessa detaljer, kan du hoppa över dem och gå direkt till anteckningsböckerna för hög-nivå API.
 
 ## ✍️ Övningar: Ramverk
 
@@ -54,7 +54,7 @@ Efter att ha bemästrat ramverken, låt oss repetera begreppet överanpassning.
 
 # Överanpassning
 
-Överanpassning är ett extremt viktigt begrepp inom maskininlärning, och det är mycket viktigt att förstå det rätt!
+Överanpassning är ett extremt viktigt koncept inom maskininlärning, och det är mycket viktigt att förstå det rätt!
 
 Tänk på följande problem med att approximera 5 punkter (representerade av `x` på graferna nedan):
 
@@ -64,10 +64,10 @@ Tänk på följande problem med att approximera 5 punkter (representerade av `x`
 Träningsfel = 5.3 | Träningsfel = 0
 Valideringsfel = 5.1 | Valideringsfel = 20
 
-* Till vänster ser vi en bra rak linje-approximation. Eftersom antalet parametrar är tillräckligt, fångar modellen korrekt upp punkternas fördelning.
-* Till höger är modellen för kraftfull. Eftersom vi bara har 5 punkter och modellen har 7 parametrar, kan den justera sig så att den passerar genom alla punkter, vilket gör att träningsfelet blir 0. Detta hindrar dock modellen från att förstå det korrekta mönstret i data, vilket gör att valideringsfelet blir mycket högt.
+* Till vänster ser vi en bra rak linje-approximation. Eftersom antalet parametrar är tillräckligt, fångar modellen korrekt punkternas fördelning.
+* Till höger är modellen för kraftfull. Eftersom vi bara har 5 punkter och modellen har 7 parametrar, kan den justeras så att den passerar genom alla punkter, vilket gör träningsfelet till 0. Detta hindrar dock modellen från att förstå det korrekta mönstret i data, vilket resulterar i ett mycket högt valideringsfel.
 
-Det är mycket viktigt att hitta en korrekt balans mellan modellens komplexitet (antalet parametrar) och antalet träningsprover.
+Det är mycket viktigt att hitta en korrekt balans mellan modellens komplexitet (antal parametrar) och antalet träningsprover.
 
 ## Varför överanpassning uppstår
 
@@ -77,7 +77,7 @@ Det är mycket viktigt att hitta en korrekt balans mellan modellens komplexitet 
 
 ## Hur man upptäcker överanpassning
 
-Som du kan se från grafen ovan kan överanpassning upptäckas genom ett mycket lågt träningsfel och ett högt valideringsfel. Normalt under träning ser vi att både tränings- och valideringsfel börjar minska, och sedan vid någon punkt kan valideringsfelet sluta minska och börja öka. Detta är ett tecken på överanpassning och en indikation på att vi förmodligen bör sluta träna vid denna punkt (eller åtminstone spara en ögonblicksbild av modellen).
+Som du kan se från grafen ovan kan överanpassning upptäckas genom ett mycket lågt träningsfel och ett högt valideringsfel. Normalt under träning ser vi både tränings- och valideringsfel minska, och sedan vid någon punkt kan valideringsfelet sluta minska och börja öka. Detta är ett tecken på överanpassning och en indikation på att vi förmodligen bör sluta träna vid denna punkt (eller åtminstone spara en ögonblicksbild av modellen).
 
 ![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.sv.png)
 
@@ -87,16 +87,16 @@ Om du märker att överanpassning uppstår kan du göra något av följande:
 
  * Öka mängden träningsdata
  * Minska modellens komplexitet
- * Använd någon [regulariseringsteknik](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), som [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), som vi kommer att gå igenom senare.
+ * Använd någon [regulariseringsteknik](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), som [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), vilket vi kommer att gå igenom senare.
 
 ## Överanpassning och Bias-Variance-avvägning
 
 Överanpassning är faktiskt ett fall av ett mer generellt problem inom statistik som kallas [Bias-Variance-avvägning](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Om vi betraktar möjliga felkällor i vår modell kan vi se två typer av fel:
 
-* **Biasfel** orsakas av att vår algoritm inte kan fånga relationen mellan träningsdata korrekt. Det kan bero på att vår modell inte är tillräckligt kraftfull (**underanpassning**).
+* **Bias-fel** orsakas av att vår algoritm inte kan fånga relationen mellan träningsdata korrekt. Det kan bero på att vår modell inte är tillräckligt kraftfull (**underanpassning**).
 * **Variansfel**, som orsakas av att modellen approximera brus i indata istället för meningsfulla relationer (**överanpassning**).
 
-Under träning minskar biasfelet (eftersom vår modell lär sig att approximera data), och variansfelet ökar. Det är viktigt att sluta träna - antingen manuellt (när vi upptäcker överanpassning) eller automatiskt (genom att införa regularisering) - för att förhindra överanpassning.
+Under träning minskar bias-fel (eftersom vår modell lär sig att approximera data), och variansfel ökar. Det är viktigt att sluta träna - antingen manuellt (när vi upptäcker överanpassning) eller automatiskt (genom att införa regularisering) - för att förhindra överanpassning.
 
 ## Slutsats
 
@@ -123,12 +123,10 @@ Ställ dig själv följande frågor:
 
 ## [Uppgift](lab/README.md)
 
-I detta labb ska du lösa två klassificeringsproblem med hjälp av enkla och flerskiktade fullt anslutna nätverk med PyTorch eller TensorFlow.
+I denna labb ska du lösa två klassificeringsproblem med hjälp av enkla och flerskiktade fullt anslutna nätverk med PyTorch eller TensorFlow.
 
 * [Instruktioner](lab/README.md)
-* [Notebook](lab/LabFrameworks.ipynb)
+* [Anteckningsbok](lab/LabFrameworks.ipynb)
 
 ---
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, vänligen notera att automatiska översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

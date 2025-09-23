@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f07c85bbf05a1f67505da98f4ecc124c",
-  "translation_date": "2025-08-28T15:26:18+00:00",
+  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
+  "translation_date": "2025-09-23T09:19:20+00:00",
   "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
   "language_code": "sv"
 }
@@ -11,9 +11,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 I föregående avsnitt lärde vi oss om **generativa modeller**: modeller som kan generera nya bilder som liknar de i träningsdatamängden. VAE var ett bra exempel på en generativ modell.
 
-## [Förtest](https://ff-quizzes.netlify.app/en/ai/quiz/19)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
-Men om vi försöker generera något riktigt meningsfullt, som en målning med rimlig upplösning, med VAE, kommer vi att märka att träningen inte konvergerar särskilt bra. För detta användningsfall bör vi lära oss om en annan arkitektur som är specifikt inriktad på generativa modeller - **Generativa Adversariella Nätverk**, eller GANs.
+Men om vi försöker generera något riktigt meningsfullt, som en målning med rimlig upplösning, med VAE, kommer vi att märka att träningen inte konvergerar särskilt bra. För detta användningsområde bör vi lära oss om en annan arkitektur som är specifikt inriktad på generativa modeller - **Generativa Adversariella Nätverk**, eller GANs.
 
 Huvudidén med en GAN är att ha två neurala nätverk som tränas mot varandra:
 
@@ -23,7 +23,7 @@ Huvudidén med en GAN är att ha två neurala nätverk som tränas mot varandra:
 
 > ✅ Lite vokabulär:
 > * **Generator** är ett nätverk som tar en slumpmässig vektor och producerar en bild som resultat.
-> * **Discriminator** är ett nätverk som tar en bild och ska avgöra om det är en riktig bild (från träningsdatamängden) eller om den genererades av en generator. Det är i grunden en bildklassificerare.
+> * **Discriminator** är ett nätverk som tar en bild och ska avgöra om det är en riktig bild (från träningsdatamängden) eller om den genererats av en generator. Det är i grunden en bildklassificerare.
 
 ### Discriminator
 
@@ -33,13 +33,13 @@ Discriminatorns arkitektur skiljer sig inte från ett vanligt bildklassificering
 
 En CNN-discriminator består av följande lager: flera konvolutioner + pooling (med minskande spatial storlek) och en eller flera helt anslutna lager för att få en "funktionsvektor", samt en slutlig binär klassificerare.
 
-> ✅ En 'pooling' i detta sammanhang är en teknik som minskar bildens storlek. "Pooling-lager minskar datans dimensioner genom att kombinera utdata från neuronkluster i ett lager till en enda neuron i nästa lager." - [källa](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
+> ✅ "Pooling" i detta sammanhang är en teknik som minskar bildens storlek. "Pooling-lager minskar datans dimensioner genom att kombinera utgångarna från neuronkluster i ett lager till en enda neuron i nästa lager." - [källa](https://wikipedia.org/wiki/Convolutional_neural_network#Pooling_layers)
 
 ### Generator
 
-En generator är något mer komplicerad. Du kan se den som en omvänd discriminator. Med start från en latent vektor (istället för en funktionsvektor) har den ett helt anslutet lager för att omvandla den till önskad storlek/form, följt av dekonvolutioner + uppskalning. Detta liknar *dekodern* i [autoencoder](../09-Autoencoders/README.md).
+En generator är något mer komplicerad. Du kan se den som en omvänd discriminator. Med start från en latent vektor (istället för en funktionsvektor) har den ett helt anslutet lager för att omvandla den till önskad storlek/form, följt av dekonvolutioner + uppskalning. Detta liknar *dekoder*-delen av [autoencoder](../09-Autoencoders/README.md).
 
-> ✅ Eftersom konvolutionslagret implementeras som ett linjärt filter som traverserar bilden, är dekonvolution i grunden liknande konvolution och kan implementeras med samma lagerlogik.
+> ✅ Eftersom konvolutionslagret implementeras som ett linjärt filter som traverserar bilden, är dekonvolution i princip liknande konvolution och kan implementeras med samma lagerlogik.
 
 <img src="images/gan_arch_detail.png" width="70%"/>
 
@@ -51,10 +51,10 @@ GANs kallas **adversariella** eftersom det pågår en ständig tävling mellan g
 
 Träningen sker i två steg:
 
-* **Träning av discriminatorn**. Denna uppgift är ganska enkel: vi genererar en batch av bilder med generatorn, märker dem som 0, vilket står för falska bilder, och tar en batch av bilder från indata-datamängden (med etikett 1, riktiga bilder). Vi får en *discriminatorförlust* och utför backpropagation.
-* **Träning av generatorn**. Detta är något mer komplicerat eftersom vi inte direkt vet det förväntade resultatet för generatorn. Vi tar hela GAN-nätverket som består av en generator följd av en discriminator, matar det med några slumpmässiga vektorer och förväntar oss att resultatet ska vara 1 (motsvarande riktiga bilder). Vi fryser sedan parametrarna för discriminatorn (vi vill inte att den ska tränas i detta steg) och utför backpropagation.
+* **Träning av discriminatorn**. Denna uppgift är ganska enkel: vi genererar en batch av bilder med generatorn, märker dem som 0 (vilket står för falska bilder), och tar en batch av bilder från inmatningsdatamängden (med etikett 1, riktiga bilder). Vi får en *discriminatorförlust* och utför backpropagation.
+* **Träning av generatorn**. Detta är något mer komplicerat eftersom vi inte direkt vet det förväntade resultatet för generatorn. Vi tar hela GAN-nätverket som består av en generator följt av en discriminator, matar det med några slumpmässiga vektorer och förväntar oss att resultatet ska vara 1 (motsvarande riktiga bilder). Vi fryser sedan parametrarna för discriminatorn (vi vill inte att den ska tränas i detta steg) och utför backpropagation.
 
-Under denna process minskar inte förlusterna för generatorn och discriminatorn särskilt mycket. I den ideala situationen bör de oscillera, vilket motsvarar att båda nätverken förbättrar sin prestanda.
+Under denna process går varken generatorns eller discriminatorns förluster ner särskilt mycket. I en idealisk situation bör de oscillera, vilket motsvarar att båda nätverken förbättrar sin prestanda.
 
 ## ✍️ Övningar: GANs
 
@@ -65,9 +65,9 @@ Under denna process minskar inte förlusterna för generatorn och discriminatorn
 
 GANs är kända för att vara särskilt svåra att träna. Här är några problem:
 
-* **Mode Collapse**. Detta innebär att generatorn lär sig att producera en framgångsrik bild som lurar discriminatorn, men inte en variation av olika bilder.
+* **Mode Collapse**. Med detta menas att generatorn lär sig att producera en framgångsrik bild som lurar discriminatorn, men inte en variation av olika bilder.
 * **Känslighet för hyperparametrar**. Ofta kan man se att en GAN inte konvergerar alls, och sedan plötsligt minskar inlärningshastigheten vilket leder till konvergens.
-* Att hålla en **balans** mellan generatorn och discriminatorn. I många fall kan discriminatorns förlust sjunka till noll relativt snabbt, vilket resulterar i att generatorn inte kan träna vidare. För att lösa detta kan vi försöka sätta olika inlärningshastigheter för generatorn och discriminatorn, eller hoppa över träningen av discriminatorn om förlusten redan är för låg.
+* Att hålla en **balans** mellan generatorn och discriminatorn. I många fall kan discriminatorns förlust sjunka till noll relativt snabbt, vilket resulterar i att generatorn inte kan träna vidare. För att övervinna detta kan vi försöka sätta olika inlärningshastigheter för generatorn och discriminatorn, eller hoppa över träningen av discriminatorn om förlusten redan är för låg.
 * Träning för **hög upplösning**. Detta problem liknar det med autoencoders och uppstår eftersom rekonstruktion av för många lager i ett konvolutionellt nätverk leder till artefakter. Problemet löses vanligtvis med så kallad **progressiv tillväxt**, där de första lagren tränas på lågupplösta bilder och sedan "låses upp" eller läggs till fler lager. En annan lösning är att lägga till extra kopplingar mellan lager och träna flera upplösningar samtidigt - se denna [Multi-Scale Gradient GANs-artikel](https://arxiv.org/abs/1903.06048) för detaljer.
 
 ## Stilöverföring
@@ -76,15 +76,15 @@ GANs är ett utmärkt sätt att generera konstnärliga bilder. En annan intressa
 
 Så här fungerar det:
 * Vi börjar med en slumpmässig brusbild (eller med en innehållsbild, men för förståelsens skull är det enklare att börja med slumpmässigt brus).
-* Vårt mål är att skapa en bild som är nära både innehållsbilden och stilbilden. Detta bestäms av två förlustfunktioner:
+* Vårt mål är att skapa en bild som ligger nära både innehållsbilden och stilbilden. Detta bestäms av två förlustfunktioner:
    - **Innehållsförlust** beräknas baserat på de funktioner som extraheras av CNN vid vissa lager från den aktuella bilden och innehållsbilden.
-   - **Stilförlust** beräknas mellan den aktuella bilden och stilbilden på ett smart sätt med hjälp av Gram-matriser (mer detaljer i [exempelfilen](StyleTransfer.ipynb)).
-* För att göra bilden mjukare och ta bort brus introducerar vi också **Variationsförlust**, som beräknar genomsnittligt avstånd mellan närliggande pixlar.
+   - **Stilförlust** beräknas mellan den aktuella bilden och stilbilden på ett smart sätt med hjälp av Gram-matriser (mer detaljer i [exempelnotebooken](StyleTransfer.ipynb)).
+* För att göra bilden mjukare och ta bort brus introducerar vi också **Variationsförlust**, som beräknar det genomsnittliga avståndet mellan närliggande pixlar.
 * Den huvudsakliga optimeringsloopen justerar den aktuella bilden med hjälp av gradientnedstigning (eller någon annan optimeringsalgoritm) för att minimera den totala förlusten, som är en viktad summa av alla tre förluster.
 
 ## ✍️ Exempel: [Stilöverföring](StyleTransfer.ipynb)
 
-## [Eftertest](https://ff-quizzes.netlify.app/en/ai/quiz/20)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Slutsats
 
@@ -108,5 +108,3 @@ Gå tillbaka till en av de två notebookarna som är kopplade till denna lektion
 
 ---
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

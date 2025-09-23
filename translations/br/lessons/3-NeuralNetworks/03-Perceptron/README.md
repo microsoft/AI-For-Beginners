@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-26T10:38:50+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T08:23:47+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "br"
 }
 -->
 # Introdução às Redes Neurais: Perceptron
 
-## [Quiz antes da aula](https://ff-quizzes.netlify.app/en/ai/quiz/5)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-Uma das primeiras tentativas de implementar algo semelhante a uma rede neural moderna foi feita por Frank Rosenblatt, do Laboratório Aeronáutico de Cornell, em 1957. Foi uma implementação em hardware chamada "Mark-1", projetada para reconhecer figuras geométricas primitivas, como triângulos, quadrados e círculos.
+Uma das primeiras tentativas de implementar algo semelhante a uma rede neural moderna foi realizada por Frank Rosenblatt, do Laboratório Aeronáutico de Cornell, em 1957. Foi uma implementação em hardware chamada "Mark-1", projetada para reconhecer figuras geométricas primitivas, como triângulos, quadrados e círculos.
 
 |      |      |
 |--------------|-----------|
@@ -23,7 +23,7 @@ Uma imagem de entrada era representada por uma matriz de fotocélulas de 20x20, 
 
 > ✅ Um potenciômetro é um dispositivo que permite ao usuário ajustar a resistência de um circuito.
 
-> O New York Times escreveu sobre o perceptron na época: *o embrião de um computador eletrônico que [a Marinha] espera que seja capaz de andar, falar, ver, escrever, se reproduzir e ter consciência de sua existência.*
+> O New York Times escreveu sobre o perceptron na época: *o embrião de um computador eletrônico que [a Marinha] espera que seja capaz de andar, falar, ver, escrever, reproduzir-se e estar consciente de sua existência.*
 
 ## Modelo de Perceptron
 
@@ -31,7 +31,7 @@ Suponha que temos N características em nosso modelo, caso em que o vetor de ent
 
 y(x) = f(w<sup>T</sup>x)
 
-onde f é uma função de ativação em degrau.
+onde f é uma função de ativação em degrau
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
 <img src="images/activation-func.png"/>
@@ -40,7 +40,7 @@ onde f é uma função de ativação em degrau.
 
 Para treinar um perceptron, precisamos encontrar um vetor de pesos w que classifique a maioria dos valores corretamente, ou seja, que resulte no menor **erro**. Este erro E é definido pelo **critério do perceptron** da seguinte maneira:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 onde:
 
@@ -49,11 +49,11 @@ onde:
 
 Este critério é considerado como uma função dos pesos w, e precisamos minimizá-lo. Frequentemente, é usado um método chamado **descida de gradiente**, no qual começamos com alguns pesos iniciais w<sup>(0)</sup>, e então, a cada passo, atualizamos os pesos de acordo com a fórmula:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Aqui, η é a chamada **taxa de aprendizado**, e ∇E(w) denota o **gradiente** de E. Após calcular o gradiente, obtemos:
+Aqui, &eta; é a chamada **taxa de aprendizado**, e &nabla;E(w) denota o **gradiente** de E. Após calcular o gradiente, obtemos:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 O algoritmo em Python se parece com isto:
 
@@ -79,26 +79,26 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## Conclusão
 
-Nesta lição, você aprendeu sobre o perceptron, que é um modelo de classificação binária, e como treiná-lo usando um vetor de pesos.
+Nesta aula, você aprendeu sobre o perceptron, que é um modelo de classificação binária, e como treiná-lo usando um vetor de pesos.
 
 ## 🚀 Desafio
 
 Se você quiser tentar construir seu próprio perceptron, experimente [este laboratório no Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), que utiliza o [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Quiz após a aula](https://ff-quizzes.netlify.app/en/ai/quiz/6)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Revisão e Autoestudo
 
-Para ver como podemos usar o perceptron para resolver um problema simples, bem como problemas da vida real, e para continuar aprendendo - acesse o notebook [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb).
+Para ver como podemos usar o perceptron para resolver um problema simples, bem como problemas da vida real, e para continuar aprendendo - acesse o notebook [Perceptron](Perceptron.ipynb).
 
 Aqui está um [artigo interessante sobre perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
 ## [Tarefa](lab/README.md)
 
-Nesta lição, implementamos um perceptron para uma tarefa de classificação binária e o usamos para classificar entre dois dígitos manuscritos. Neste laboratório, você é solicitado a resolver o problema de classificação de dígitos completamente, ou seja, determinar qual dígito é mais provável de corresponder a uma imagem dada.
+Nesta aula, implementamos um perceptron para uma tarefa de classificação binária e o usamos para classificar entre dois dígitos manuscritos. Neste laboratório, você será solicitado a resolver o problema de classificação de dígitos completamente, ou seja, determinar qual dígito é mais provável de corresponder a uma imagem dada.
 
 * [Instruções](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Notebook](lab/PerceptronMultiClass.ipynb)
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+---
+

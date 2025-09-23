@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
-  "translation_date": "2025-08-26T08:31:15+00:00",
+  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+  "translation_date": "2025-09-23T08:24:46+00:00",
   "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
   "language_code": "br"
 }
@@ -13,13 +13,13 @@ Embeddings semânticos, como Word2Vec e GloVe, são, na verdade, um primeiro pas
 
 ## [Pré-quiz da aula](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
-A ideia principal por trás da modelagem de linguagem é treiná-los em conjuntos de dados não rotulados de forma não supervisionada. Isso é importante porque temos uma enorme quantidade de texto não rotulado disponível, enquanto a quantidade de texto rotulado sempre será limitada pelo esforço necessário para rotular. Na maioria das vezes, podemos construir modelos de linguagem que conseguem **prever palavras ausentes** no texto, porque é fácil mascarar uma palavra aleatória no texto e usá-la como um exemplo de treinamento.
+A ideia principal por trás da modelagem de linguagem é treiná-los em conjuntos de dados não rotulados de forma não supervisionada. Isso é importante porque temos uma enorme quantidade de texto não rotulado disponível, enquanto a quantidade de texto rotulado sempre será limitada pelo esforço que podemos dedicar à rotulagem. Na maioria das vezes, podemos construir modelos de linguagem que conseguem **prever palavras ausentes** no texto, porque é fácil mascarar uma palavra aleatória no texto e usá-la como um exemplo de treinamento.
 
 ## Treinando Embeddings
 
 Nos nossos exemplos anteriores, usamos embeddings semânticos pré-treinados, mas é interessante ver como esses embeddings podem ser treinados. Existem várias ideias possíveis que podem ser utilizadas:
 
-* **Modelagem de linguagem N-Gram**, onde prevemos um token observando os N tokens anteriores (N-grama).
+* **Modelagem de linguagem N-Gram**, onde prevemos um token olhando para os N tokens anteriores (N-grama).
 * **Continuous Bag-of-Words** (CBoW), onde prevemos o token do meio $W_0$ em uma sequência de tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, onde prevemos um conjunto de tokens vizinhos {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} a partir do token do meio $W_0$.
 
@@ -27,12 +27,12 @@ Nos nossos exemplos anteriores, usamos embeddings semânticos pré-treinados, ma
 
 > Imagem retirada [deste artigo](https://arxiv.org/pdf/1301.3781.pdf)
 
-## ✍️ Notebooks de Exemplo: Treinando o modelo CBoW
+## ✍️ Exemplos de Notebooks: Treinando o modelo CBoW
 
 Continue seu aprendizado nos seguintes notebooks:
 
-* [Treinando CBoW Word2Vec com TensorFlow](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)
-* [Treinando CBoW Word2Vec com PyTorch](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb)
+* [Treinando CBoW Word2Vec com TensorFlow](CBoW-TF.ipynb)
+* [Treinando CBoW Word2Vec com PyTorch](CBoW-PyTorch.ipynb)
 
 ## Conclusão
 
@@ -48,7 +48,7 @@ Na lição anterior, vimos que embeddings de palavras funcionam como mágica! Ag
 
 ## 🚀 [Tarefa: Treinar Modelo Skip-Gram](lab/README.md)
 
-No laboratório, desafiamos você a modificar o código desta lição para treinar o modelo skip-gram em vez do CBoW. [Leia os detalhes](lab/README.md)
+No laboratório, desafiamos você a modificar o código desta lição para treinar um modelo skip-gram em vez de CBoW. [Leia os detalhes](lab/README.md)
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional feita por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+---
+

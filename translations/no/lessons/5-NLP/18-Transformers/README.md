@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7e617f0b8de85a43957a853aba09bfeb",
-  "translation_date": "2025-08-28T15:55:16+00:00",
+  "original_hash": "f335dfcb4a993920504c387973a36957",
+  "translation_date": "2025-09-23T09:46:06+00:00",
   "source_file": "lessons/5-NLP/18-Transformers/README.md",
   "language_code": "no"
 }
@@ -11,26 +11,26 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
-En av de viktigste problemene innen NLP er **maskinoversettelse**, en essensiell oppgave som ligger til grunn for verktøy som Google Translate. I denne delen skal vi fokusere på maskinoversettelse, eller mer generelt, på enhver *sekvens-til-sekvens*-oppgave (som også kalles **setningstransduksjon**).
+Et av de viktigste problemene innen NLP-feltet er **maskinoversettelse**, en essensiell oppgave som ligger til grunn for verktøy som Google Translate. I denne delen vil vi fokusere på maskinoversettelse, eller mer generelt, på enhver *sekvens-til-sekvens*-oppgave (som også kalles **setningstransduksjon**).
 
-Med RNN-er implementeres sekvens-til-sekvens med to rekurrente nettverk, der ett nettverk, **enkoderen**, komprimerer en inngangssekvens til en skjult tilstand, mens et annet nettverk, **dekoderen**, ruller ut denne skjulte tilstanden til et oversatt resultat. Det er et par problemer med denne tilnærmingen:
+Med RNN-er implementeres sekvens-til-sekvens med to rekurrente nettverk, hvor ett nettverk, **enkoderen**, komprimerer en inngangssekvens til en skjult tilstand, mens et annet nettverk, **dekoderen**, utvider denne skjulte tilstanden til et oversatt resultat. Det er et par problemer med denne tilnærmingen:
 
 * Den endelige tilstanden til enkodernettverket har vanskelig for å huske begynnelsen av en setning, noe som fører til dårlig modellkvalitet for lange setninger.
-* Alle ord i en sekvens har samme innvirkning på resultatet. I virkeligheten har imidlertid spesifikke ord i inngangssekvensen ofte mer innvirkning på sekvensielle utganger enn andre.
+* Alle ord i en sekvens har samme innvirkning på resultatet. I virkeligheten har imidlertid spesifikke ord i inngangssekvensen ofte større innvirkning på sekvensielle utganger enn andre.
 
-**Oppmerksomhetsmekanismer** gir en måte å vekte den kontekstuelle innvirkningen av hver inngangsvektor på hver utgangsprediksjon av RNN. Dette implementeres ved å lage snarveier mellom mellomliggende tilstander i inngangs-RNN og utgangs-RNN. På denne måten, når vi genererer utgangssymbolet y<sub>t</sub>, tar vi hensyn til alle skjulte inngangstilstander h<sub>i</sub>, med forskjellige vektkoeffisienter α<sub>t,i</sub>.
+**Oppmerksomhetsmekanismer** gir en måte å vekte den kontekstuelle innvirkningen av hver inngangsvektor på hver utgangsprediksjon av RNN. Dette implementeres ved å lage snarveier mellom mellomliggende tilstander i inngangs-RNN og utgangs-RNN. På denne måten, når vi genererer utgangssymbolet y<sub>t</sub>, tar vi hensyn til alle skjulte inngangstilstander h<sub>i</sub>, med forskjellige vektkoeffisienter &alpha;<sub>t,i</sub>.
 
 ![Bilde som viser en enkoder/dekoder-modell med et additivt oppmerksomhetslag](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.no.png)
 
 > Enkoder-dekoder-modellen med additiv oppmerksomhetsmekanisme i [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), sitert fra [denne bloggposten](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
-Oppmerksomhetsmatrisen {α<sub>i,j</sub>} representerer graden av innflytelse visse inngangsord har på genereringen av et gitt ord i utgangssekvensen. Nedenfor er et eksempel på en slik matrise:
+Oppmerksomhetsmatrisen {&alpha;<sub>i,j</sub>} representerer graden av innflytelse visse inngangsord har på genereringen av et gitt ord i utgangssekvensen. Nedenfor er et eksempel på en slik matrise:
 
 ![Bilde som viser et eksempel på justering funnet av RNNsearch-50, hentet fra Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.no.png)
 
 > Figur fra [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
-Oppmerksomhetsmekanismer er ansvarlige for mye av den nåværende eller nesten nåværende toppmoderne utviklingen innen NLP. Å legge til oppmerksomhet øker imidlertid antallet modellparametere betydelig, noe som førte til skaleringsproblemer med RNN-er. En viktig begrensning ved skalering av RNN-er er at den rekursive naturen til modellene gjør det utfordrende å batch-prosessere og parallellisere trening. I en RNN må hvert element i en sekvens behandles i sekvensiell rekkefølge, noe som betyr at det ikke kan parallelliseres enkelt.
+Oppmerksomhetsmekanismer er ansvarlige for mye av den nåværende eller nesten nåværende toppmoderne utviklingen innen NLP. Å legge til oppmerksomhet øker imidlertid antallet modellparametere betydelig, noe som førte til skaleringsproblemer med RNN-er. En viktig begrensning ved skalering av RNN-er er at den rekursive naturen til modellene gjør det utfordrende å batch-prosessere og parallellisere trening. I en RNN må hvert element i en sekvens behandles i sekvensiell rekkefølge, noe som betyr at det ikke enkelt kan parallelliseres.
 
 ![Enkoder Dekoder med Oppmerksomhet](../../../../../lessons/5-NLP/18-Transformers/images/EncDecAttention.gif)
 
@@ -40,17 +40,17 @@ Adopsjonen av oppmerksomhetsmekanismer kombinert med denne begrensningen førte 
 
 ## Transformermodeller
 
-En av hovedideene bak transformere er å unngå den sekvensielle naturen til RNN-er og å lage en modell som kan parallelliseres under trening. Dette oppnås ved å implementere to ideer:
+En av hovedideene bak transformere er å unngå den sekvensielle naturen til RNN-er og lage en modell som kan parallelliseres under trening. Dette oppnås ved å implementere to ideer:
 
 * posisjonskoding
 * bruk av selvoppmerksomhetsmekanisme for å fange mønstre i stedet for RNN-er (eller CNN-er) (det er derfor artikkelen som introduserer transformere heter *[Attention is all you need](https://arxiv.org/abs/1706.03762)*)
 
 ### Posisjonskoding/Embedding
 
-Ideen bak posisjonskoding er følgende. 
-1. Når vi bruker RNN-er, representeres den relative posisjonen til tokenene av antall steg, og trenger derfor ikke å representeres eksplisitt. 
-2. Når vi derimot bytter til oppmerksomhet, må vi vite de relative posisjonene til tokenene i en sekvens. 
-3. For å få posisjonskoding, utvider vi sekvensen av tokenene med en sekvens av tokenposisjoner i sekvensen (dvs. en sekvens av tall 0,1, ...).
+Ideen med posisjonskoding er som følger:
+1. Når man bruker RNN-er, representeres den relative posisjonen til tokenene av antall steg, og trenger derfor ikke å bli eksplisitt representert.
+2. Når vi derimot bytter til oppmerksomhet, må vi vite de relative posisjonene til tokenene i en sekvens.
+3. For å få posisjonskoding, utvider vi vår sekvens av token med en sekvens av tokenposisjoner i sekvensen (dvs. en sekvens av tall 0,1, ...).
 4. Vi blander deretter tokenposisjonen med en token-embedding-vektor. For å transformere posisjonen (heltall) til en vektor, kan vi bruke forskjellige tilnærminger:
 
 * Trenbar embedding, lik token-embedding. Dette er tilnærmingen vi vurderer her. Vi bruker embedding-lag på både tokenene og deres posisjoner, noe som resulterer i embedding-vektorer med samme dimensjoner, som vi deretter legger sammen.
@@ -60,19 +60,19 @@ Ideen bak posisjonskoding er følgende.
 
 > Bilde av forfatteren
 
-Resultatet vi får med posisjonsembedding inneholder både det originale tokenet og dets posisjon i en sekvens.
+Resultatet vi får med posisjonsembedding inkluderer både det originale tokenet og dets posisjon i en sekvens.
 
 ### Multi-Head Selvoppmerksomhet
 
-Deretter må vi fange noen mønstre i sekvensen vår. For å gjøre dette bruker transformere en **selvoppmerksomhetsmekanisme**, som i hovedsak er oppmerksomhet anvendt på samme sekvens som inngang og utgang. Å bruke selvoppmerksomhet lar oss ta hensyn til **kontekst** i setningen og se hvilke ord som er relaterte. For eksempel lar det oss se hvilke ord som refereres til av korreferanser, som *det*, og også ta konteksten i betraktning:
+Deretter må vi fange noen mønstre i vår sekvens. For å gjøre dette bruker transformere en **selvoppmerksomhetsmekanisme**, som i hovedsak er oppmerksomhet anvendt på samme sekvens som inngang og utgang. Å bruke selvoppmerksomhet lar oss ta hensyn til **kontekst** i setningen og se hvilke ord som er relaterte. For eksempel lar det oss se hvilke ord som refereres til av korreferanser, som *det*, og også ta konteksten i betraktning:
 
 ![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.no.png)
 
-> Bilde fra [Google Blogg](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
+> Bilde fra [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
 I transformere bruker vi **Multi-Head Attention** for å gi nettverket kraften til å fange flere forskjellige typer avhengigheter, f.eks. langvarige vs. kortvarige ordrelasjoner, korreferanse vs. noe annet, osv.
 
-[TensorFlow Notebook](TransformersTF.ipynb) inneholder flere detaljer om implementeringen av transformerlag.
+[TensorFlow Notebook](TransformersTF.ipynb) inneholder flere detaljer om implementeringen av transformer-lag.
 
 ### Enkoder-Dekoder Oppmerksomhet
 
@@ -85,7 +85,7 @@ Enkoder-dekoder oppmerksomhet er veldig lik oppmerksomhetsmekanismen som brukes 
 
 ![Animerte GIF som viser hvordan evalueringene utføres i transformermodeller.](../../../../../lessons/5-NLP/18-Transformers/images/transformer-animated-explanation.gif)
 
-Siden hver inngangsposisjon kartlegges uavhengig til hver utgangsposisjon, kan transformere parallellisere bedre enn RNN-er, noe som muliggjør mye større og mer uttrykksfulle språkmodeller. Hver oppmerksomhetshode kan brukes til å lære forskjellige relasjoner mellom ord som forbedrer oppgaver innen naturlig språkbehandling.
+Siden hver inngangsposisjon kartlegges uavhengig til hver utgangsposisjon, kan transformere parallellisere bedre enn RNN-er, noe som muliggjør mye større og mer uttrykksfulle språkmodeller. Hver oppmerksomhetshode kan brukes til å lære forskjellige relasjoner mellom ord som forbedrer nedstrøms oppgaver innen naturlig språkbehandling.
 
 ## BERT
 
@@ -110,7 +110,7 @@ I denne leksjonen lærte du om Transformere og Oppmerksomhetsmekanismer, alle es
 
 ## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
-## Gjennomgang & Selvstudium
+## Gjennomgang og Selvstudium
 
 * [Bloggpost](https://mchromiak.github.io/articles/2017/Sep/12/Transformer-Attention-is-all-you-need/), som forklarer den klassiske [Attention is all you need](https://arxiv.org/abs/1706.03762)-artikkelen om transformere.
 * [En serie bloggposter](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452) om transformere, som forklarer arkitekturen i detalj.
@@ -119,5 +119,3 @@ I denne leksjonen lærte du om Transformere og Oppmerksomhetsmekanismer, alle es
 
 ---
 
-**Ansvarsfraskrivelse**:  
-Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi streber etter nøyaktighet, vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.

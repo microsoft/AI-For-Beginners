@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
-  "translation_date": "2025-08-26T09:23:50+00:00",
+  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+  "translation_date": "2025-09-23T08:20:30+00:00",
   "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
   "language_code": "br"
 }
 -->
 # Detecção de Objetos
 
-Os modelos de classificação de imagens que abordamos até agora tomam uma imagem e produzem um resultado categórico, como a classe 'número' em um problema MNIST. No entanto, em muitos casos, não queremos apenas saber que uma imagem retrata objetos - queremos determinar sua localização exata. Este é exatamente o objetivo da **detecção de objetos**.
+Os modelos de classificação de imagens que abordamos até agora tomavam uma imagem e produziam um resultado categórico, como a classe 'número' em um problema MNIST. No entanto, em muitos casos, não queremos apenas saber que uma imagem retrata objetos - queremos determinar sua localização precisa. Este é exatamente o objetivo da **detecção de objetos**.
 
 ## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
@@ -27,7 +27,7 @@ Suponha que queremos encontrar um gato em uma imagem. Uma abordagem muito ingên
 
 ![Detecção Ingênua de Objetos](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.br.png)
 
-> *Imagem do [Notebook de Exercícios](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection-TF.ipynb)*
+> *Imagem do [Notebook de Exercícios](ObjectDetection-TF.ipynb)*
 
 No entanto, essa abordagem está longe de ser ideal, pois só permite que o algoritmo localize a caixa delimitadora do objeto de forma muito imprecisa. Para uma localização mais precisa, precisamos executar algum tipo de **regressão** para prever as coordenadas das caixas delimitadoras - e, para isso, precisamos de conjuntos de dados específicos.
 
@@ -52,9 +52,9 @@ Enquanto na classificação de imagens é fácil medir o desempenho do algoritmo
 
 ![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.br.png)
 
-> *Figura 2 deste [excelente post sobre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
+> *Figura 2 de [este excelente post sobre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
-A ideia é simples - dividimos a área de interseção entre duas figuras pela área de sua união. Para duas áreas idênticas, IoU seria 1, enquanto para áreas completamente separadas será 0. Caso contrário, variará de 0 a 1. Normalmente, consideramos apenas as caixas delimitadoras para as quais IoU está acima de um determinado valor.
+A ideia é simples - dividimos a área de interseção entre duas figuras pela área de sua união. Para duas áreas idênticas, o IoU seria 1, enquanto para áreas completamente disjuntas será 0. Caso contrário, variará de 0 a 1. Normalmente, consideramos apenas aquelas caixas delimitadoras para as quais o IoU está acima de um determinado valor.
 
 ### Precisão Média
 
@@ -62,13 +62,13 @@ Suponha que queremos medir o quão bem uma determinada classe de objetos $C$ é 
 
 1. Considere a curva de Precisão-Recall que mostra a precisão dependendo de um valor de limiar de detecção (de 0 a 1).
 2. Dependendo do limiar, detectaremos mais ou menos objetos na imagem, e diferentes valores de precisão e recall.
-3. A curva terá a seguinte aparência:
+3. A curva terá este formato:
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
 
 > *Imagem do [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
 
-A Precisão Média para uma classe $C$ é a área sob essa curva. Mais precisamente, o eixo Recall é normalmente dividido em 10 partes, e a Precisão é calculada como a média de todos esses pontos:
+A Precisão Média para uma classe $C$ é a área sob essa curva. Mais precisamente, o eixo de Recall é normalmente dividido em 10 partes, e a Precisão é calculada como a média de todos esses pontos:
 
 $$
 AP = {1\over11}\sum_{i=0}^{10}\mbox{Precision}(\mbox{Recall}={i\over10})
@@ -76,7 +76,7 @@ $$
 
 ### AP e IoU
 
-Consideramos apenas as detecções para as quais IoU está acima de um determinado valor. Por exemplo, no conjunto de dados PASCAL VOC, normalmente $\mbox{IoU Threshold} = 0.5$ é assumido, enquanto no COCO AP é medido para diferentes valores de $\mbox{IoU Threshold}$.
+Consideramos apenas aquelas detecções para as quais o IoU está acima de um determinado valor. Por exemplo, no conjunto de dados PASCAL VOC, normalmente $\mbox{IoU Threshold} = 0.5$ é assumido, enquanto no COCO o AP é medido para diferentes valores de $\mbox{IoU Threshold}$.
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecallIoU.png"/>
 
@@ -85,13 +85,13 @@ Consideramos apenas as detecções para as quais IoU está acima de um determina
 ### Precisão Média Global - mAP
 
 A principal métrica para Detecção de Objetos é chamada de **Precisão Média Global**, ou **mAP**. É o valor da Precisão Média, calculado como a média entre todas as classes de objetos, e às vezes também sobre $\mbox{IoU Threshold}$. Em mais detalhes, o processo de cálculo do **mAP** é descrito
-[neste post](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), e também [aqui com exemplos de código](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
+[neste post do blog](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), e também [aqui com exemplos de código](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
 
 ## Diferentes Abordagens para Detecção de Objetos
 
 Existem duas grandes classes de algoritmos de detecção de objetos:
 
-* **Redes de Proposta de Região** (R-CNN, Fast R-CNN, Faster R-CNN). A ideia principal é gerar **Regiões de Interesse** (ROI) e executar CNN sobre elas, procurando a ativação máxima. É um pouco semelhante à abordagem ingênua, com a exceção de que as ROIs são geradas de forma mais inteligente. Uma das principais desvantagens desses métodos é que eles são lentos, pois precisamos de muitas passagens do classificador CNN sobre a imagem.
+* **Redes de Proposta de Região** (R-CNN, Fast R-CNN, Faster R-CNN). A ideia principal é gerar **Regiões de Interesse** (ROI) e executar CNN sobre elas, procurando a ativação máxima. É um pouco semelhante à abordagem ingênua, com a exceção de que as ROIs são geradas de forma mais inteligente. Uma das principais desvantagens desses métodos é que eles são lentos, porque precisamos de muitas passagens do classificador CNN sobre a imagem.
 * Métodos de **uma única passagem** (YOLO, SSD, RetinaNet). Nessas arquiteturas, projetamos a rede para prever classes e ROIs em uma única passagem.
 
 ### R-CNN: CNN Baseada em Região
@@ -104,7 +104,7 @@ Existem duas grandes classes de algoritmos de detecção de objetos:
 
 ![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.br.png)
 
-> *Imagens deste [blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
+> *Imagens de [este blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
 ### F-RCNN - Fast R-CNN
 
@@ -127,8 +127,8 @@ A ideia principal dessa abordagem é usar uma rede neural para prever ROIs - a c
 Este algoritmo é ainda mais rápido que o Faster R-CNN. A ideia principal é a seguinte:
 
 1. Extraímos características usando ResNet-101.
-2. As características são processadas por **Position-Sensitive Score Map**. Cada objeto de $C$ classes é dividido em $k\times k$ regiões, e treinamos para prever partes dos objetos.
-3. Para cada parte das $k\times k$ regiões, todas as redes votam pelas classes de objetos, e a classe de objeto com o maior número de votos é selecionada.
+1. As características são processadas por **Position-Sensitive Score Map**. Cada objeto de $C$ classes é dividido em regiões $k\times k$, e treinamos para prever partes dos objetos.
+1. Para cada parte das regiões $k\times k$, todas as redes votam pelas classes de objetos, e a classe de objeto com o maior número de votos é selecionada.
 
 ![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.br.png)
 
@@ -157,7 +157,7 @@ YOLO é um algoritmo de uma única passagem em tempo real. A ideia principal é 
 
 Continue seu aprendizado no seguinte notebook:
 
-[ObjectDetection.ipynb](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)
+[ObjectDetection.ipynb](ObjectDetection.ipynb)
 
 ## Conclusão
 
@@ -174,7 +174,7 @@ Leia estes artigos e notebooks sobre YOLO e experimente por conta própria:
 
 ## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
-## Revisão e Estudo Individual
+## Revisão & Autoestudo
 
 * [Detecção de Objetos](https://tjmachinelearning.com/lectures/1718/obj/) por Nikhil Sardana
 * [Uma boa comparação de algoritmos de detecção de objetos](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
@@ -184,5 +184,5 @@ Leia estes artigos e notebooks sobre YOLO e experimente por conta própria:
 
 ## [Tarefa: Detecção de Objetos](lab/README.md)
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional feita por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+---
+
