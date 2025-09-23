@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "893aa368cb485da704b466a0f3775587",
-  "translation_date": "2025-08-28T15:02:28+00:00",
+  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
+  "translation_date": "2025-09-23T09:15:06+00:00",
   "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
   "language_code": "sv"
 }
@@ -11,66 +11,66 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
-**Genetiska Algoritmer** (GA) bygger på en **evolutionär metod** inom AI, där metoder för att utveckla en population används för att hitta en optimal lösning på ett givet problem. De föreslogs 1975 av [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
+**Genetiska algoritmer** (GA) bygger på en **evolutionär metod** inom AI, där metoder för att utveckla en population används för att hitta en optimal lösning för ett givet problem. De föreslogs 1975 av [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
-Genetiska Algoritmer bygger på följande idéer:
+Genetiska algoritmer baseras på följande idéer:
 
 * Giltiga lösningar på problemet kan representeras som **gener**
 * **Korsning** gör det möjligt att kombinera två lösningar för att få en ny giltig lösning
 * **Urval** används för att välja mer optimala lösningar med hjälp av en **fitnessfunktion**
 * **Mutationer** introduceras för att destabilisera optimeringen och ta oss ur lokala minima
 
-Om du vill implementera en Genetisk Algoritm behöver du följande:
+Om du vill implementera en genetisk algoritm behöver du följande:
 
- * En metod för att koda våra problemlösningar med hjälp av **gener** g∈Γ
- * På mängden gener Γ behöver vi definiera en **fitnessfunktion** fit: Γ→**R**. Lägre funktionsvärden motsvarar bättre lösningar.
- * Definiera en mekanism för **korsning** för att kombinera två gener och få en ny giltig lösning crossover: Γ<sup>2</sub>→Γ.
- * Definiera en mekanism för **mutation** mutate: Γ→Γ.
+ * Hitta ett sätt att koda våra problemlösningar med hjälp av **gener** g&in;&Gamma;
+ * På mängden gener &Gamma; behöver vi definiera en **fitnessfunktion** fit: &Gamma;&rightarrow;**R**. Mindre funktionsvärden motsvarar bättre lösningar.
+ * Definiera en **korsningsmekanism** för att kombinera två gener och få en ny giltig lösning crossover: &Gamma;<sup>2</sub>&rightarrow;&Gamma;.
+ * Definiera en **mutationsmekanism** mutate: &Gamma;&rightarrow;&Gamma;.
 
 I många fall är korsning och mutation ganska enkla algoritmer för att manipulera gener som numeriska sekvenser eller bitvektorer.
 
 Den specifika implementeringen av en genetisk algoritm kan variera från fall till fall, men den övergripande strukturen är följande:
 
-1. Välj en initial population G⊂Γ
-2. Välj slumpmässigt en av operationerna som ska utföras i detta steg: korsning eller mutation
+1. Välj en initial population G&subset;&Gamma;
+2. Välj slumpmässigt en av de operationer som ska utföras vid detta steg: korsning eller mutation
 3. **Korsning**:
-  * Välj slumpmässigt två gener g<sub>1</sub>, g<sub>2</sub> ∈ G
+  * Välj slumpmässigt två gener g<sub>1</sub>, g<sub>2</sub> &in; G
   * Beräkna korsning g=crossover(g<sub>1</sub>,g<sub>2</sub>)
   * Om fit(g)<fit(g<sub>1</sub>) eller fit(g)<fit(g<sub>2</sub>) - ersätt motsvarande gen i populationen med g.
-4. **Mutation** - välj en slumpmässig gen g∈G och ersätt den med mutate(g)
-5. Upprepa från steg 2 tills vi får ett tillräckligt lågt värde på fit, eller tills gränsen för antalet steg är nådd.
+4. **Mutation** - välj en slumpmässig gen g&in;G och ersätt den med mutate(g)
+5. Upprepa från steg 2 tills vi får ett tillräckligt litet värde på fit, eller tills gränsen för antalet steg har nåtts.
 
 ## Typiska Uppgifter
 
-Uppgifter som vanligtvis löses med Genetiska Algoritmer inkluderar:
+Uppgifter som vanligtvis löses med genetiska algoritmer inkluderar:
 
 1. Optimering av scheman
 1. Optimal packning
 1. Optimal skärning
-1. Snabbare uttömmande sökning
+1. Snabba upp uttömmande sökningar
 
 ## ✍️ Övningar: Genetiska Algoritmer
 
 Fortsätt ditt lärande i följande anteckningsböcker:
 
-Gå till [denna anteckningsbok](Genetic.ipynb) för att se två exempel på användning av Genetiska Algoritmer:
+Gå till [denna anteckningsbok](Genetic.ipynb) för att se två exempel på användning av genetiska algoritmer:
 
 1. Rättvis fördelning av skatt
 1. 8 drottningars problem
 
 ## Slutsats
 
-Genetiska Algoritmer används för att lösa många problem, inklusive logistik- och sökproblem. Fältet är inspirerat av forskning som förenade ämnen inom psykologi och datavetenskap.
+Genetiska algoritmer används för att lösa många problem, inklusive logistik och sökproblem. Fältet är inspirerat av forskning som kombinerade ämnen inom psykologi och datavetenskap.
 
 ## 🚀 Utmaning
 
-"Genetiska algoritmer är enkla att implementera, men deras beteende är svårt att förstå." [källa](https://wikipedia.org/wiki/Genetic_algorithm) Gör lite forskning för att hitta en implementering av en genetisk algoritm, till exempel för att lösa ett Sudoku-pussel, och förklara hur den fungerar som en skiss eller flödesschema.
+"Genetiska algoritmer är enkla att implementera, men deras beteende är svårt att förstå." [källa](https://wikipedia.org/wiki/Genetic_algorithm) Gör lite forskning för att hitta en implementering av en genetisk algoritm, som att lösa ett Sudoku-pussel, och förklara hur det fungerar som en skiss eller flödesschema.
 
 ## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Granskning & Självstudier
 
-Titta på [denna fantastiska video](https://www.youtube.com/watch?v=qv6UVOQ0F44) som pratar om hur datorer kan lära sig spela Super Mario med hjälp av neurala nätverk tränade av genetiska algoritmer. Vi kommer att lära oss mer om hur datorer lär sig spela spel som detta [i nästa avsnitt](../22-DeepRL/README.md).
+Titta på [denna fantastiska video](https://www.youtube.com/watch?v=qv6UVOQ0F44) som handlar om hur datorer kan lära sig spela Super Mario med hjälp av neurala nätverk tränade av genetiska algoritmer. Vi kommer att lära oss mer om hur datorer lär sig spela sådana spel [i nästa avsnitt](../22-DeepRL/README.md).
 
 ## [Uppgift: Diofantisk Ekvation](Diophantine.ipynb)
 
@@ -80,12 +80,10 @@ Ditt mål är att lösa den så kallade **Diofantiska ekvationen** - en ekvation
 
 Tips:
 
-1. Du kan överväga rötter i intervallet [0;30]
+1. Du kan överväga rötterna att vara i intervallet [0;30]
 1. Som en gen kan du använda listan över rotvärden
 
-Använd [Diophantine.ipynb](Diophantine.ipynb) som utgångspunkt.
+Använd [Diophantine.ipynb](Diophantine.ipynb) som startpunkt.
 
 ---
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiska översättningar kan innehålla fel eller inexaktheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

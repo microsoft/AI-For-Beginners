@@ -1,40 +1,40 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4bedc8e702db17260cfe824d58b6cfd4",
-  "translation_date": "2025-08-28T15:18:43+00:00",
+  "original_hash": "feeca98225cb420afc89415f24f63d92",
+  "translation_date": "2025-09-23T09:29:06+00:00",
   "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
   "language_code": "da"
 }
 -->
 # Introduktion til Computer Vision
 
-[Computer Vision](https://wikipedia.org/wiki/Computer_vision) er en disciplin, der har til formål at give computere en højere forståelse af digitale billeder. Dette er en ret bred definition, fordi *forståelse* kan betyde mange forskellige ting, herunder at finde et objekt på et billede (**objektdetektion**), forstå hvad der sker (**begivenhedsdetektion**), beskrive et billede med tekst eller rekonstruere en scene i 3D. Der er også særlige opgaver relateret til billeder af mennesker: alders- og følelsesvurdering, ansigtsdetektion og -identifikation samt 3D-positurvurdering, for blot at nævne nogle få.
+[Computer Vision](https://wikipedia.org/wiki/Computer_vision) er en disciplin, der har til formål at give computere en højere forståelse af digitale billeder. Dette er en bred definition, da *forståelse* kan betyde mange forskellige ting, herunder at finde et objekt på et billede (**objektdetektion**), forstå hvad der sker (**begivenhedsdetektion**), beskrive et billede med tekst eller rekonstruere en scene i 3D. Der er også særlige opgaver relateret til menneskelige billeder: alder- og følelsesestimering, ansigtsdetektion og -identifikation samt 3D-positur-estimering, for blot at nævne nogle få.
 
-## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/11)
+## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
-En af de simpleste opgaver inden for computer vision er **billedklassifikation**.
+En af de enkleste opgaver inden for computer vision er **billedklassifikation**.
 
-Computer vision betragtes ofte som en gren af AI. I dag løses de fleste computer vision-opgaver ved hjælp af neurale netværk. Vi vil lære mere om den særlige type neurale netværk, der bruges til computer vision, [convolutional neural networks](../07-ConvNets/README.md), i løbet af dette afsnit.
+Computer vision betragtes ofte som en gren af AI. I dag løses de fleste opgaver inden for computer vision ved hjælp af neurale netværk. Vi vil lære mere om den særlige type neurale netværk, der bruges til computer vision, [convolutional neural networks](../07-ConvNets/README.md), i denne sektion.
 
 Men før du sender et billede til et neuralt netværk, giver det i mange tilfælde mening at bruge nogle algoritmiske teknikker til at forbedre billedet.
 
 Der findes flere Python-biblioteker til billedbehandling:
 
 * **[imageio](https://imageio.readthedocs.io/en/stable/)** kan bruges til at læse/skrive forskellige billedformater. Det understøtter også ffmpeg, et nyttigt værktøj til at konvertere videorammer til billeder.
-* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (også kendt som PIL) er lidt mere kraftfuldt og understøtter også nogle billedmanipulationer som morfning, paletjusteringer og mere.
-* **[OpenCV](https://opencv.org/)** er et kraftfuldt billedbehandlingsbibliotek skrevet i C++, som er blevet den *de facto* standard for billedbehandling. Det har en praktisk Python-grænseflade.
-* **[dlib](http://dlib.net/)** er et C++-bibliotek, der implementerer mange maskinlæringsalgoritmer, herunder nogle af computer vision-algoritmerne. Det har også en Python-grænseflade og kan bruges til udfordrende opgaver som ansigts- og ansigtstrækdetektion.
+* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (også kendt som PIL) er lidt mere kraftfuldt og understøtter også nogle billedmanipulationer såsom morfning, paletjusteringer og mere.
+* **[OpenCV](https://opencv.org/)** er et kraftfuldt billedbehandlingsbibliotek skrevet i C++, som er blevet den *de facto* standard inden for billedbehandling. Det har en praktisk Python-grænseflade.
+* **[dlib](http://dlib.net/)** er et C++-bibliotek, der implementerer mange maskinlæringsalgoritmer, herunder nogle af Computer Vision-algoritmerne. Det har også en Python-grænseflade og kan bruges til udfordrende opgaver som ansigts- og ansigtslandmærkedetektion.
 
 ## OpenCV
 
-[OpenCV](https://opencv.org/) betragtes som den *de facto* standard for billedbehandling. Det indeholder mange nyttige algoritmer, implementeret i C++. Du kan også bruge OpenCV fra Python.
+[OpenCV](https://opencv.org/) betragtes som den *de facto* standard inden for billedbehandling. Det indeholder mange nyttige algoritmer, implementeret i C++. Du kan også bruge OpenCV fra Python.
 
-Et godt sted at lære OpenCV er [denne Learn OpenCV-kursus](https://learnopencv.com/getting-started-with-opencv/). I vores pensum er målet ikke at lære OpenCV, men at vise nogle eksempler på, hvornår det kan bruges, og hvordan.
+Et godt sted at lære OpenCV er [denne Learn OpenCV-kursus](https://learnopencv.com/getting-started-with-opencv/). I vores pensum er målet ikke at lære OpenCV, men at vise dig nogle eksempler på, hvornår det kan bruges, og hvordan.
 
 ### Indlæsning af billeder
 
-Billeder i Python kan bekvemt repræsenteres som NumPy-arrays. For eksempel vil gråtonede billeder med størrelsen 320x200 pixels blive gemt i et 200x320-array, og farvebilleder med samme dimension vil have formen 200x320x3 (for 3 farvekanaler). For at indlæse et billede kan du bruge følgende kode:
+Billeder i Python kan bekvemt repræsenteres af NumPy-arrays. For eksempel vil gråtonede billeder med en størrelse på 320x200 pixels blive gemt i et 200x320-array, og farvebilleder med samme dimension vil have formen 200x320x3 (for 3 farvekanaler). For at indlæse et billede kan du bruge følgende kode:
 
 ```python
 import cv2
@@ -43,13 +43,13 @@ import matplotlib.pyplot as plt
 im = cv2.imread('image.jpeg')
 plt.imshow(im)
 ```
-
-Traditionelt bruger OpenCV BGR (Blå-Grøn-Rød) kodning til farvebilleder, mens resten af Python-værktøjerne bruger den mere traditionelle RGB (Rød-Grøn-Blå). For at billedet skal se korrekt ud, skal du konvertere det til RGB-farverummet, enten ved at bytte dimensionerne i NumPy-arrayet eller ved at kalde en OpenCV-funktion:
+  
+Traditionelt bruger OpenCV BGR (Blå-Grøn-Rød) kodning til farvebilleder, mens resten af Python-værktøjerne bruger den mere traditionelle RGB (Rød-Grøn-Blå). For at billedet skal se korrekt ud, skal du konvertere det til RGB-farverummet, enten ved at bytte dimensioner i NumPy-arrayet eller ved at kalde en OpenCV-funktion:
 
 ```python
 im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 ```
-
+  
 Den samme `cvtColor`-funktion kan bruges til at udføre andre farverumstransformationer, såsom at konvertere et billede til gråtoner eller til HSV (Hue-Saturation-Value) farverummet.
 
 Du kan også bruge OpenCV til at indlæse video frame-for-frame - et eksempel er givet i øvelsen [OpenCV Notebook](OpenCV.ipynb).
@@ -58,44 +58,44 @@ Du kan også bruge OpenCV til at indlæse video frame-for-frame - et eksempel er
 
 Før du sender et billede til et neuralt netværk, kan det være en god idé at anvende flere forbehandlingsskridt. OpenCV kan gøre mange ting, herunder:
 
-* **Ændre størrelsen** på billedet ved hjælp af `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
+* **Ændre størrelse** på billedet ved hjælp af `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
 * **Sløre** billedet ved hjælp af `im = cv2.medianBlur(im,3)` eller `im = cv2.GaussianBlur(im, (3,3), 0)`
 * Ændring af **lysstyrke og kontrast** på billedet kan gøres ved hjælp af NumPy-arraymanipulationer, som beskrevet [i denne Stackoverflow-note](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
-* Brug af [thresholding](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) ved at kalde `cv2.threshold`/`cv2.adaptiveThreshold`-funktioner, hvilket ofte foretrækkes frem for at justere lysstyrke eller kontrast.
+* Brug af [thresholding](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) ved at kalde `cv2.threshold`/`cv2.adaptiveThreshold`-funktioner, hvilket ofte er at foretrække frem for at justere lysstyrke eller kontrast.
 * Anvendelse af forskellige [transformationer](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) på billedet:
-    - **[Affine transformationer](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** kan være nyttige, hvis du skal kombinere rotation, ændring af størrelse og skævhed på billedet, og du kender kilde- og destinationsplaceringen af tre punkter i billedet. Affine transformationer bevarer parallelle linjer.
-    - **[Perspektivtransformationer](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** kan være nyttige, når du kender kilde- og destinationspositionerne for 4 punkter i billedet. For eksempel, hvis du tager et billede af et rektangulært dokument med et smartphonekamera fra en vinkel og ønsker at lave et rektangulært billede af selve dokumentet.
+    - **[Affine transformationer](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** kan være nyttige, hvis du skal kombinere rotation, ændring af størrelse og skævhed på billedet, og du kender kilde- og destinationsplaceringen af tre punkter i billedet. Affine transformationer holder parallelle linjer parallelle.
+    - **[Perspektivtransformationer](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** kan være nyttige, når du kender kilde- og destinationspositionerne for 4 punkter i billedet. For eksempel, hvis du tager et billede af et rektangulært dokument med et smartphonekamera fra en vinkel, og du vil lave et rektangulært billede af selve dokumentet.
 * Forståelse af bevægelse i billedet ved hjælp af **[optisk flow](https://docs.opencv.org/4.5.5/d4/dee/tutorial_optical_flow.html)**.
 
 ## Eksempler på brug af Computer Vision
 
 I vores [OpenCV Notebook](OpenCV.ipynb) giver vi nogle eksempler på, hvornår computer vision kan bruges til at udføre specifikke opgaver:
 
-* **Forbehandling af et fotografi af en Braille-bog**. Vi fokuserer på, hvordan vi kan bruge thresholding, feature detection, perspektivtransformation og NumPy-manipulationer til at adskille individuelle Braille-symboler til yderligere klassifikation af et neuralt netværk.
+* **Forbehandling af et fotografi af en Braille-bog**. Vi fokuserer på, hvordan vi kan bruge thresholding, feature detection, perspektivtransformation og NumPy-manipulationer til at adskille individuelle Braille-symboler til videre klassifikation af et neuralt netværk.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.da.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.da.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.da.png)
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.da.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.da.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.da.png)  
 ----|-----|-----
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
-* **Detektion af bevægelse i video ved hjælp af rammeforskel**. Hvis kameraet er fast, bør rammerne fra kameraets feed være ret ens. Da rammer repræsenteres som arrays, vil vi blot ved at trække disse arrays for to på hinanden følgende rammer få pixelforskellen, som bør være lav for statiske rammer og blive højere, når der er betydelig bevægelse i billedet.
+* **Detektion af bevægelse i video ved hjælp af frame difference**. Hvis kameraet er fast, bør frames fra kameraets feed være ret ens. Da frames er repræsenteret som arrays, vil vi ved blot at trække disse arrays fra hinanden for to efterfølgende frames få pixel-forskellen, som bør være lav for statiske frames og blive højere, når der er betydelig bevægelse i billedet.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.da.png)
+![Billede af video frames og frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.da.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
-* **Detektion af bevægelse ved hjælp af optisk flow**. [Optisk flow](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) giver os mulighed for at forstå, hvordan individuelle pixels på videorammer bevæger sig. Der er to typer optisk flow:
+* **Detektion af bevægelse ved hjælp af optisk flow**. [Optisk flow](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) giver os mulighed for at forstå, hvordan individuelle pixels på video frames bevæger sig. Der er to typer optisk flow:
 
-   - **Tæt optisk flow** beregner vektorfeltet, der viser, hvor hver pixel bevæger sig hen.
-   - **Sparsomt optisk flow** er baseret på at tage nogle karakteristiske træk i billedet (f.eks. kanter) og bygge deres bane fra ramme til ramme.
+   - **Dense Optical Flow** beregner vektorfeltet, der viser, hvor hver pixel bevæger sig hen.
+   - **Sparse Optical Flow** er baseret på at tage nogle karakteristiske træk i billedet (f.eks. kanter) og bygge deres bane fra frame til frame.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.da.png)
+![Billede af optisk flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.da.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
 ## ✍️ Eksempel Notebooks: OpenCV [prøv OpenCV i aktion](OpenCV.ipynb)
 
-Lad os lave nogle eksperimenter med OpenCV ved at udforske [OpenCV Notebook](OpenCV.ipynb)
+Lad os lave nogle eksperimenter med OpenCV ved at udforske [OpenCV Notebook](OpenCV.ipynb).
 
 ## Konklusion
 
@@ -103,21 +103,19 @@ Nogle gange kan relativt komplekse opgaver som bevægelsesdetektion eller finger
 
 ## 🚀 Udfordring
 
-Se [denne video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) fra AI-showet for at lære om Cortic Tigers-projektet, og hvordan de byggede en blokbaseret løsning til at demokratisere computer vision-opgaver via en robot. Undersøg andre projekter som dette, der hjælper nye lærere med at komme i gang inden for feltet.
+Se [denne video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) fra AI-showet for at lære om Cortic Tigers-projektet og hvordan de byggede en blokbaseret løsning til at demokratisere computer vision-opgaver via en robot. Undersøg andre projekter som dette, der hjælper nye lærere med at komme ind i feltet.
 
-## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/12)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Gennemgang & Selvstudie
 
-Læs mere om optisk flow [i denne fantastiske tutorial](https://learnopencv.com/optical-flow-in-opencv/).
+Læs mere om optisk flow [i denne fremragende tutorial](https://learnopencv.com/optical-flow-in-opencv/).
 
 ## [Opgave](lab/README.md)
 
-I dette laboratorium skal du tage en video med simple bevægelser, og dit mål er at udtrække op/ned/venstre/højre bevægelser ved hjælp af optisk flow.
+I denne opgave skal du tage en video med simple gestusser, og dit mål er at udtrække op/ned/venstre/højre bevægelser ved hjælp af optisk flow.
 
 <img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
 
 ---
 
-**Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

@@ -1,19 +1,19 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "bd10f434e444bce61b7f97eeb1ff6a55",
-  "translation_date": "2025-08-26T06:58:16+00:00",
+  "original_hash": "6522312ff835796ca34136a9462fafb2",
+  "translation_date": "2025-09-23T08:35:38+00:00",
   "source_file": "lessons/5-NLP/19-NER/README.md",
   "language_code": "it"
 }
 -->
 # Riconoscimento delle Entità Nominate
 
-Fino ad ora, ci siamo concentrati principalmente su un compito di elaborazione del linguaggio naturale (NLP) - la classificazione. Tuttavia, ci sono anche altri compiti NLP che possono essere affrontati con le reti neurali. Uno di questi compiti è il **[Riconoscimento delle Entità Nominate](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), che si occupa di riconoscere entità specifiche all'interno di un testo, come luoghi, nomi di persone, intervalli di date e orari, formule chimiche e così via.
+Fino ad ora ci siamo concentrati principalmente su un compito di NLP - la classificazione. Tuttavia, ci sono anche altri compiti di NLP che possono essere affrontati con reti neurali. Uno di questi è il **[Riconoscimento delle Entità Nominate](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), che si occupa di riconoscere entità specifiche all'interno di un testo, come luoghi, nomi di persone, intervalli di date e orari, formule chimiche e così via.
 
 ## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
-## Esempio di utilizzo del NER
+## Esempio di Utilizzo del NER
 
 Supponiamo che tu voglia sviluppare un chatbot di linguaggio naturale, simile ad Amazon Alexa o Google Assistant. Il modo in cui funzionano i chatbot intelligenti è *comprendere* ciò che l'utente desidera facendo una classificazione del testo sulla frase di input. Il risultato di questa classificazione è il cosiddetto **intent**, che determina cosa dovrebbe fare il chatbot.
 
@@ -21,15 +21,15 @@ Supponiamo che tu voglia sviluppare un chatbot di linguaggio naturale, simile ad
 
 > Immagine dell'autore
 
-Tuttavia, un utente potrebbe fornire alcuni parametri come parte della frase. Ad esempio, quando chiede informazioni sul meteo, potrebbe specificare una località o una data. Un bot dovrebbe essere in grado di comprendere queste entità e riempire di conseguenza gli spazi dei parametri prima di eseguire l'azione. Ed è proprio qui che entra in gioco il NER.
+Tuttavia, un utente potrebbe fornire alcuni parametri come parte della frase. Ad esempio, quando chiede informazioni sul meteo, potrebbe specificare una località o una data. Un bot dovrebbe essere in grado di comprendere queste entità e riempire gli slot dei parametri di conseguenza prima di eseguire l'azione. Ed è proprio qui che entra in gioco il NER.
 
-> ✅ Un altro esempio potrebbe essere [l'analisi di articoli scientifici medici](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). Una delle principali cose da cercare sono termini medici specifici, come malattie e sostanze mediche. Mentre un piccolo numero di malattie può probabilmente essere estratto utilizzando una ricerca per sottostringhe, entità più complesse, come composti chimici e nomi di farmaci, richiedono un approccio più sofisticato.
+> ✅ Un altro esempio potrebbe essere [l'analisi di articoli scientifici medici](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). Una delle principali cose da cercare sono termini medici specifici, come malattie e sostanze mediche. Mentre un piccolo numero di malattie può probabilmente essere estratto utilizzando la ricerca per sottostringhe, entità più complesse, come composti chimici e nomi di farmaci, richiedono un approccio più sofisticato.
 
-## NER come classificazione dei token
+## NER come Classificazione dei Token
 
 I modelli NER sono essenzialmente **modelli di classificazione dei token**, perché per ciascuno dei token di input dobbiamo decidere se appartiene a un'entità o meno, e se sì - a quale classe di entità.
 
-Consideriamo il seguente titolo di un articolo:
+Considera il seguente titolo di un articolo:
 
 **Rigurgito della valvola tricuspide** e **carbonato di litio** **tossicità** in un neonato.
 
@@ -39,7 +39,7 @@ Le entità qui sono:
 * Carbonato di litio è una sostanza chimica (`CHEM`)
 * Tossicità è anch'essa una malattia (`DIS`)
 
-Nota che un'entità può estendersi su più token. E, come in questo caso, dobbiamo distinguere tra due entità consecutive. Pertanto, è comune utilizzare due classi per ciascuna entità - una che specifica il primo token dell'entità (spesso si utilizza il prefisso `B-`, per **b**eginning), e un'altra per la continuazione di un'entità (`I-`, per **i**nner token). Usiamo anche `O` come classe per rappresentare tutti gli altri token (**o**ther). Questo tipo di etichettatura dei token è chiamato [etichettatura BIO](https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)) (o IOB). Quando etichettato, il nostro titolo apparirà così:
+Nota che un'entità può estendersi su più token. E, come in questo caso, dobbiamo distinguere tra due entità consecutive. Pertanto, è comune utilizzare due classi per ogni entità - una che specifica il primo token dell'entità (spesso si usa il prefisso `B-`, per **inizio**), e un'altra - la continuazione di un'entità (`I-`, per **interno**). Usiamo anche `O` come classe per rappresentare tutti gli altri token. Questo tipo di tagging dei token è chiamato [BIO tagging](https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)) (o IOB). Quando taggato, il nostro titolo apparirà così:
 
 Token | Tag
 ------|-----
@@ -57,39 +57,39 @@ un | O
 neonato | O
 . | O
 
-Poiché dobbiamo costruire una corrispondenza uno-a-uno tra token e classi, possiamo addestrare un modello neurale **many-to-many** come mostrato in questa immagine:
+Poiché dobbiamo costruire una corrispondenza uno-a-uno tra token e classi, possiamo allenare un modello neurale **molti-a-molti** come mostrato in questa immagine:
 
 ![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.it.jpg)
 
 > *Immagine tratta da [questo post sul blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) di [Andrej Karpathy](http://karpathy.github.io/). I modelli di classificazione dei token NER corrispondono all'architettura di rete più a destra in questa immagine.*
 
-## Addestramento dei modelli NER
+## Allenamento dei modelli NER
 
-Poiché un modello NER è essenzialmente un modello di classificazione dei token, possiamo utilizzare le RNN che già conosciamo per questo compito. In questo caso, ogni blocco della rete ricorrente restituirà l'ID del token. Il seguente notebook di esempio mostra come addestrare un LSTM per la classificazione dei token.
+Poiché un modello NER è essenzialmente un modello di classificazione dei token, possiamo utilizzare le RNN che già conosciamo per questo compito. In questo caso, ogni blocco della rete ricorrente restituirà l'ID del token. Il seguente notebook di esempio mostra come allenare un LSTM per la classificazione dei token.
 
-## ✍️ Notebook di esempio: NER
+## ✍️ Notebook di Esempio: NER
 
-Continua il tuo apprendimento con il seguente notebook:
+Continua il tuo apprendimento nel seguente notebook:
 
-* [NER con TensorFlow](../../../../../lessons/5-NLP/19-NER/NER-TF.ipynb)
+* [NER con TensorFlow](NER-TF.ipynb)
 
 ## Conclusione
 
-Un modello NER è un **modello di classificazione dei token**, il che significa che può essere utilizzato per eseguire la classificazione dei token. Questo è un compito molto comune nell'NLP, utile per riconoscere entità specifiche all'interno di un testo, inclusi luoghi, nomi, date e altro.
+Un modello NER è un **modello di classificazione dei token**, il che significa che può essere utilizzato per eseguire la classificazione dei token. Questo è un compito molto comune in NLP, utile per riconoscere entità specifiche all'interno di un testo, inclusi luoghi, nomi, date e altro.
 
 ## 🚀 Sfida
 
-Completa l'esercizio collegato qui sotto per addestrare un modello di riconoscimento delle entità nominate per termini medici, quindi provalo su un dataset diverso.
+Completa l'esercizio collegato qui sotto per allenare un modello di riconoscimento delle entità nominate per termini medici, quindi prova a utilizzarlo su un dataset diverso.
 
 ## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
-## Revisione e studio autonomo
+## Revisione & Studio Autonomo
 
-Leggi il blog [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) e segui la sezione di letture aggiuntive in quell'articolo per approfondire le tue conoscenze.
+Leggi il blog [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) e segui la sezione di Ulteriori Letture in quell'articolo per approfondire la tua conoscenza.
 
 ## [Esercizio](lab/README.md)
 
-Nell'esercizio di questa lezione, dovrai addestrare un modello di riconoscimento delle entità mediche. Puoi iniziare con l'addestramento di un modello LSTM come descritto in questa lezione, e poi passare all'utilizzo del modello transformer BERT. Leggi [le istruzioni](lab/README.md) per ottenere tutti i dettagli.
+Nell'esercizio di questa lezione, dovrai allenare un modello di riconoscimento delle entità mediche. Puoi iniziare con l'allenamento di un modello LSTM come descritto in questa lezione, e procedere con l'utilizzo del modello transformer BERT. Leggi [le istruzioni](lab/README.md) per ottenere tutti i dettagli.
 
-**Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.
+---
+

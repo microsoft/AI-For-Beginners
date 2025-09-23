@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d9de7847385eeeda67cfdcce1640ab72",
-  "translation_date": "2025-08-28T15:52:33+00:00",
+  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
+  "translation_date": "2025-09-23T09:45:38+00:00",
   "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
   "language_code": "no"
 }
@@ -13,9 +13,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 Rekurrente nevrale nettverk (RNNs) og deres gatede cellevarianter som Long Short Term Memory Cells (LSTMs) og Gated Recurrent Units (GRUs) gir en mekanisme for språkmodellering ved at de kan lære ordrekkefølge og gi prediksjoner for neste ord i en sekvens. Dette gjør det mulig å bruke RNNs til **generative oppgaver**, som vanlig tekstgenerering, maskinoversettelse og til og med bildetekstgenerering.
 
-> ✅ Tenk på alle gangene du har dratt nytte av generative oppgaver, som tekstfullføring mens du skriver. Undersøk favorittapplikasjonene dine for å se om de har brukt RNNs.
+> ✅ Tenk på alle gangene du har dratt nytte av generative oppgaver, som tekstfullføring mens du skriver. Undersøk dine favorittapplikasjoner for å se om de har brukt RNNs.
 
-I RNN-arkitekturen vi diskuterte i forrige enhet, produserte hver RNN-enhet den neste skjulte tilstanden som et output. Men vi kan også legge til en annen output til hver rekurrente enhet, som lar oss generere en **sekvens** (som er like lang som den opprinnelige sekvensen). Videre kan vi bruke RNN-enheter som ikke tar imot input ved hvert steg, men bare tar en initial tilstandsvektor og deretter produserer en sekvens av outputs.
+I RNN-arkitekturen vi diskuterte i forrige enhet, produserte hver RNN-enhet den neste skjulte tilstanden som et output. Men vi kan også legge til en annen output til hver rekurrente enhet, som gjør det mulig å generere en **sekvens** (som er like lang som den opprinnelige sekvensen). Videre kan vi bruke RNN-enheter som ikke tar imot input ved hvert steg, men bare tar en initial tilstandsvektor og deretter produserer en sekvens av outputs.
 
 Dette åpner for ulike nevrale arkitekturer som vist i bildet nedenfor:
 
@@ -26,11 +26,11 @@ Dette åpner for ulike nevrale arkitekturer som vist i bildet nedenfor:
 * **En-til-en** er et tradisjonelt nevralt nettverk med én input og én output
 * **En-til-mange** er en generativ arkitektur som tar én input-verdi og genererer en sekvens av output-verdier. For eksempel, hvis vi ønsker å trene et **bildetekstnettverk** som genererer en tekstbeskrivelse av et bilde, kan vi ta et bilde som input, sende det gjennom en CNN for å få en skjult tilstand, og deretter la en rekurrent kjede generere tekst ord for ord.
 * **Mange-til-en** tilsvarer RNN-arkitekturer vi beskrev i forrige enhet, som tekstklassifisering.
-* **Mange-til-mange**, eller **sekvens-til-sekvens**, tilsvarer oppgaver som **maskinoversettelse**, der vi først lar en RNN samle all informasjon fra input-sekvensen inn i en skjult tilstand, og en annen RNN-kjede ruller ut denne tilstanden til output-sekvensen.
+* **Mange-til-mange**, eller **sekvens-til-sekvens**, tilsvarer oppgaver som **maskinoversettelse**, der vi først har en RNN som samler all informasjon fra input-sekvensen inn i den skjulte tilstanden, og en annen RNN-kjede som ruller ut denne tilstanden til output-sekvensen.
 
 I denne enheten vil vi fokusere på enkle generative modeller som hjelper oss med å generere tekst. For enkelhets skyld vil vi bruke tegnbasert tokenisering.
 
-Vi vil trene denne RNN-en til å generere tekst steg for steg. På hvert steg tar vi en sekvens av tegn med lengde `nchars` og ber nettverket generere det neste output-tegnet for hvert input-tegn:
+Vi vil trene denne RNN-en til å generere tekst steg for steg. På hvert steg tar vi en sekvens av tegn med lengde `nchars` og ber nettverket generere neste output-tegn for hvert input-tegn:
 
 ![Bilde som viser et eksempel på RNN-generering av ordet 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.no.png)
 
@@ -49,21 +49,21 @@ Fortsett læringen i følgende notatbøker:
 
 ## Myk tekstgenerering og temperatur
 
-Output fra hver RNN-celle er en sannsynlighetsfordeling av tegn. Hvis vi alltid velger tegnet med høyest sannsynlighet som det neste tegnet i generert tekst, kan teksten ofte bli "syklisk" mellom de samme tegnsekvensene igjen og igjen, som i dette eksempelet:
+Outputen fra hver RNN-celle er en sannsynlighetsfordeling av tegn. Hvis vi alltid velger tegnet med høyest sannsynlighet som neste tegn i generert tekst, kan teksten ofte bli "syklisk" mellom de samme tegnsekvensene igjen og igjen, som i dette eksempelet:
 
 ```
 today of the second the company and a second the company ...
 ```
 
-Men hvis vi ser på sannsynlighetsfordelingen for neste tegn, kan det være at forskjellen mellom de høyeste sannsynlighetene ikke er stor, f.eks. ett tegn kan ha sannsynlighet 0.2, et annet 0.19, osv. For eksempel, når vi ser etter neste tegn i sekvensen '*play*', kan neste tegn like gjerne være et mellomrom eller **e** (som i ordet *player*).
+Men hvis vi ser på sannsynlighetsfordelingen for neste tegn, kan det være at forskjellen mellom noen av de høyeste sannsynlighetene ikke er stor, f.eks. ett tegn kan ha sannsynlighet 0.2, et annet - 0.19, osv. For eksempel, når vi ser etter neste tegn i sekvensen '*play*', kan neste tegn like gjerne være et mellomrom eller **e** (som i ordet *player*).
 
-Dette leder oss til konklusjonen at det ikke alltid er "rettferdig" å velge tegnet med høyest sannsynlighet, fordi det å velge det nest høyeste fortsatt kan føre til meningsfull tekst. Det er mer fornuftig å **samle** tegn fra sannsynlighetsfordelingen gitt av nettverksoutput. Vi kan også bruke en parameter, **temperatur**, som vil jevne ut sannsynlighetsfordelingen hvis vi ønsker å legge til mer tilfeldighet, eller gjøre den brattere hvis vi vil holde oss mer til tegn med høyest sannsynlighet.
+Dette leder oss til konklusjonen at det ikke alltid er "rettferdig" å velge tegnet med høyest sannsynlighet, fordi det å velge det nest høyeste fortsatt kan føre til meningsfull tekst. Det er mer fornuftig å **samle** tegn fra sannsynlighetsfordelingen gitt av nettverksoutputen. Vi kan også bruke en parameter, **temperatur**, som vil jevne ut sannsynlighetsfordelingen hvis vi ønsker å legge til mer tilfeldighet, eller gjøre den brattere hvis vi vil holde oss mer til tegnene med høyest sannsynlighet.
 
 Utforsk hvordan denne myke tekstgenereringen er implementert i notatbøkene som er lenket ovenfor.
 
 ## Konklusjon
 
-Selv om tekstgenerering kan være nyttig i seg selv, kommer de største fordelene fra evnen til å generere tekst ved hjelp av RNNs fra en initial funksjonsvektor. For eksempel brukes tekstgenerering som en del av maskinoversettelse (sekvens-til-sekvens, i dette tilfellet brukes tilstandsvektoren fra *encoder* til å generere eller *dekode* den oversatte meldingen), eller til å generere tekstbeskrivelser av et bilde (i dette tilfellet kommer funksjonsvektoren fra CNN-ekstraktoren).
+Selv om tekstgenerering kan være nyttig i seg selv, kommer de største fordelene fra evnen til å generere tekst ved hjelp av RNNs fra en initial funksjonsvektor. For eksempel brukes tekstgenerering som en del av maskinoversettelse (sekvens-til-sekvens, i dette tilfellet brukes tilstandsvektoren fra *encoder* til å generere eller *dekode* den oversatte meldingen), eller til å generere tekstbeskrivelser av et bilde (i dette tilfellet vil funksjonsvektoren komme fra CNN-ekstraktoren).
 
 ## 🚀 Utfordring
 
@@ -73,7 +73,7 @@ Ta noen leksjoner på Microsoft Learn om dette emnet
 
 ## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
-## Gjennomgang og selvstudium
+## Gjennomgang & Selvstudium
 
 Her er noen artikler for å utvide kunnskapen din
 
@@ -82,9 +82,7 @@ Her er noen artikler for å utvide kunnskapen din
 
 ## [Oppgave](lab/README.md)
 
-Vi har sett hvordan man genererer tekst tegn for tegn. I laboratoriet vil du utforske tekstgenerering på ordnivå.
+Vi har sett hvordan man genererer tekst tegn-for-tegn. I laboratoriet vil du utforske tekstgenerering på ordnivå.
 
 ---
 
-**Ansvarsfraskrivelse**:  
-Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi streber etter nøyaktighet, vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.

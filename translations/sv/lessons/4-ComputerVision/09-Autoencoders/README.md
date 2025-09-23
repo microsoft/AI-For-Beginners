@@ -1,23 +1,23 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0b306c04f5337b6e7430e5c0b16bb5c0",
-  "translation_date": "2025-08-28T15:23:36+00:00",
+  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
+  "translation_date": "2025-09-23T09:18:34+00:00",
   "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
   "language_code": "sv"
 }
 -->
 # Autoencoders
 
-När man tränar CNNs är ett av problemen att vi behöver mycket märkt data. När det gäller bildklassificering måste vi dela upp bilder i olika klasser, vilket är en manuell process.
+När vi tränar CNNs är ett av problemen att vi behöver mycket märkt data. När det gäller bildklassificering måste vi dela upp bilder i olika klasser, vilket är en manuell process.
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
-Men vi kanske vill använda rå (omärkt) data för att träna CNN-funktionsextraktorer, vilket kallas **självövervakad inlärning**. Istället för etiketter använder vi träningsbilder som både nätverksinmatning och -utmatning. Huvudidén med **autoencoder** är att vi har ett **encoder-nätverk** som omvandlar inmatningsbilden till ett **latent utrymme** (vanligtvis bara en vektor av mindre storlek), och sedan ett **decoder-nätverk**, vars mål är att rekonstruera den ursprungliga bilden.
+Men vi kanske vill använda rå (omärkt) data för att träna CNN-funktionsextraktorer, vilket kallas **självövervakad inlärning**. Istället för etiketter använder vi träningsbilder som både nätverksinmatning och -utmatning. Huvudidén med en **autoencoder** är att vi har ett **encoder-nätverk** som omvandlar inmatningsbilden till någon **latent space** (vanligtvis är det bara en vektor av mindre storlek), och sedan ett **decoder-nätverk**, vars mål är att rekonstruera den ursprungliga bilden.
 
 > ✅ En [autoencoder](https://wikipedia.org/wiki/Autoencoder) är "en typ av artificiellt neuralt nätverk som används för att lära sig effektiva kodningar av omärkt data."
 
-Eftersom vi tränar en autoencoder för att fånga så mycket information som möjligt från den ursprungliga bilden för en korrekt rekonstruktion, försöker nätverket hitta den bästa **inbäddningen** av inmatningsbilder för att fånga dess innebörd.
+Eftersom vi tränar en autoencoder för att fånga så mycket information som möjligt från den ursprungliga bilden för en korrekt rekonstruktion, försöker nätverket hitta den bästa **embedding** av inmatningsbilder för att fånga dess betydelse.
 
 ![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.sv.jpg)
 
@@ -25,43 +25,43 @@ Eftersom vi tränar en autoencoder för att fånga så mycket information som m�
 
 ## Scenarier för att använda Autoencoders
 
-Även om det inte verkar användbart i sig att rekonstruera ursprungliga bilder, finns det några scenarier där autoencoders är särskilt användbara:
+Även om att rekonstruera ursprungliga bilder inte verkar användbart i sig självt, finns det några scenarier där autoencoders är särskilt användbara:
 
-* **Minska dimensionen på bilder för visualisering** eller **träna bildinbäddningar**. Autoencoders ger vanligtvis bättre resultat än PCA eftersom de tar hänsyn till bilders rumsliga natur och hierarkiska funktioner.
-* **Avlägsna brus**, dvs. ta bort brus från bilden. Eftersom brus innehåller mycket onödig information kan autoencodern inte passa allt i det relativt lilla latenta utrymmet och fångar därför bara den viktiga delen av bilden. När vi tränar brusreducerare börjar vi med ursprungliga bilder och använder bilder med artificiellt tillagt brus som inmatning för autoencodern.
+* **Minska dimensionen på bilder för visualisering** eller **träna bildembeddings**. Vanligtvis ger autoencoders bättre resultat än PCA, eftersom de tar hänsyn till bilders spatiala natur och hierarkiska funktioner.
+* **Denoising**, dvs. ta bort brus från bilden. Eftersom brus innehåller mycket onödig information kan autoencodern inte passa in allt i det relativt lilla latenta utrymmet, och fångar därför bara den viktiga delen av bilden. När vi tränar brusreducerare börjar vi med ursprungliga bilder och använder bilder med artificiellt tillagt brus som inmatning för autoencodern.
 * **Superupplösning**, öka bildens upplösning. Vi börjar med högupplösta bilder och använder bilden med lägre upplösning som autoencoderns inmatning.
 * **Generativa modeller**. När vi har tränat autoencodern kan den dekoderande delen användas för att skapa nya objekt från slumpmässiga latenta vektorer.
 
-## Variationsautoencoders (VAE)
+## Variational Autoencoders (VAE)
 
-Traditionella autoencoders reducerar dimensionen på inmatningsdata på något sätt och identifierar viktiga funktioner i inmatningsbilder. Men latenta vektorer är ofta svåra att tolka. Med andra ord, om vi tar MNIST-datasetet som exempel, är det inte lätt att avgöra vilka siffror som motsvarar olika latenta vektorer, eftersom närliggande latenta vektorer inte nödvändigtvis motsvarar samma siffror.
+Traditionella autoencoders minskar dimensionen på inmatningsdata på något sätt och identifierar viktiga funktioner i inmatningsbilder. Men latenta vektorer är ofta svåra att tolka. Med andra ord, om vi tar MNIST-datasetet som exempel, är det inte enkelt att avgöra vilka siffror som motsvarar olika latenta vektorer, eftersom närliggande latenta vektorer inte nödvändigtvis motsvarar samma siffror.
 
-För att träna *generativa* modeller är det däremot bättre att ha en förståelse för det latenta utrymmet. Denna idé leder oss till **variationsautoencoder** (VAE).
+För att träna *generativa* modeller är det däremot bättre att ha en viss förståelse för det latenta utrymmet. Denna idé leder oss till **variational autoencoder** (VAE).
 
-VAE är en autoencoder som lär sig att förutsäga *statistisk fördelning* av de latenta parametrarna, den så kallade **latenta fördelningen**. Till exempel kanske vi vill att latenta vektorer ska vara normalt fördelade med en viss medelvärde z<sub>mean</sub> och standardavvikelse z<sub>sigma</sub> (både medelvärde och standardavvikelse är vektorer med en viss dimension d). Encoder i VAE lär sig att förutsäga dessa parametrar, och sedan tar dekodern en slumpmässig vektor från denna fördelning för att rekonstruera objektet.
+VAE är en autoencoder som lär sig att förutsäga *statistisk fördelning* av de latenta parametrarna, den så kallade **latenta fördelningen**. Till exempel kanske vi vill att latenta vektorer ska vara normalt fördelade med en viss medelvärde z<sub>mean</sub> och standardavvikelse z<sub>sigma</sub> (både medelvärde och standardavvikelse är vektorer med en viss dimension d). Encoder i VAE lär sig att förutsäga dessa parametrar, och sedan tar decodern en slumpmässig vektor från denna fördelning för att rekonstruera objektet.
 
 Sammanfattningsvis:
 
- * Från inmatningsvektorn förutsäger vi `z_mean` och `z_log_sigma` (istället för att förutsäga standardavvikelsen direkt förutsäger vi dess logaritm)
+ * Från inmatningsvektorn förutsäger vi `z_mean` och `z_log_sigma` (istället för att förutsäga standardavvikelsen direkt, förutsäger vi dess logaritm)
  * Vi samplar en vektor `sample` från fördelningen N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
- * Dekodern försöker dekoda den ursprungliga bilden med `sample` som inmatningsvektor
+ * Decodern försöker avkoda den ursprungliga bilden med `sample` som inmatningsvektor
 
  <img src="images/vae.png" width="50%">
 
-> Bild från [denna blogpost](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) av Isaak Dykeman
+> Bild från [denna blogginlägg](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) av Isaak Dykeman
 
-Variationsautoencoders använder en komplex förlustfunktion som består av två delar:
+Variational autoencoders använder en komplex förlustfunktion som består av två delar:
 
 * **Rekonstruktionsförlust** är förlustfunktionen som visar hur nära en rekonstruerad bild är målet (det kan vara Mean Squared Error, eller MSE). Det är samma förlustfunktion som i vanliga autoencoders.
 * **KL-förlust**, som säkerställer att latenta variabelns fördelning förblir nära normalfördelning. Den baseras på begreppet [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) - en metrik för att uppskatta hur lika två statistiska fördelningar är.
 
-En viktig fördel med VAE är att de gör det relativt enkelt att generera nya bilder, eftersom vi vet vilken fördelning vi ska sampla latenta vektorer från. Till exempel, om vi tränar VAE med en 2D latent vektor på MNIST, kan vi sedan variera komponenterna i den latenta vektorn för att få olika siffror:
+En viktig fördel med VAEs är att de gör det relativt enkelt att generera nya bilder, eftersom vi vet vilken fördelning vi ska sampla latenta vektorer från. Till exempel, om vi tränar en VAE med en 2D latent vektor på MNIST, kan vi sedan variera komponenterna i den latenta vektorn för att få olika siffror:
 
 <img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
 
 > Bild av [Dmitry Soshnikov](http://soshnikov.com)
 
-Observera hur bilderna smälter samman när vi börjar sampla latenta vektorer från olika delar av det latenta parameterutrymmet. Vi kan också visualisera detta utrymme i 2D:
+Observera hur bilderna smälter samman när vi börjar få latenta vektorer från olika delar av det latenta parameterutrymmet. Vi kan också visualisera detta utrymme i 2D:
 
 <img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
 
@@ -88,7 +88,7 @@ I denna lektion lärde du dig om de olika typerna av autoencoders som finns till
 
 ## 🚀 Utmaning
 
-I denna lektion lärde du dig om att använda autoencoders för bilder. Men de kan också användas för musik! Kolla in Magenta-projektets [MusicVAE](https://magenta.tensorflow.org/music-vae)-projekt, som använder autoencoders för att lära sig rekonstruera musik. Gör några [experiment](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med detta bibliotek för att se vad du kan skapa.
+I denna lektion lärde du dig om att använda autoencoders för bilder. Men de kan också användas för musik! Kolla in Magenta-projektets [MusicVAE](https://magenta.tensorflow.org/music-vae)-projekt, som använder autoencoders för att lära sig att rekonstruera musik. Gör några [experiment](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med detta bibliotek för att se vad du kan skapa.
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
@@ -97,9 +97,9 @@ I denna lektion lärde du dig om att använda autoencoders för bilder. Men de k
 För referens, läs mer om autoencoders i dessa resurser:
 
 * [Bygga Autoencoders i Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
-* [Blogpost på NeuroHive](https://neurohive.io/ru/osnovy-data-science/variacionnyj-avtojenkoder-vae/)
-* [Variationsautoencoders Förklarade](https://kvfrans.com/variational-autoencoders-explained/)
-* [Villkorliga Variationsautoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
+* [Blogginlägg på NeuroHive](https://neurohive.io/ru/osnovy-data-science/variacionnyj-avtojenkoder-vae/)
+* [Variational Autoencoders Explained](https://kvfrans.com/variational-autoencoders-explained/)
+* [Conditional Variational Autoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
 ## Uppgift
 
@@ -107,5 +107,3 @@ I slutet av [denna notebook med TensorFlow](AutoencodersTF.ipynb) hittar du en '
 
 ---
 
-**Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, vänligen notera att automatiska översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på sitt originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
