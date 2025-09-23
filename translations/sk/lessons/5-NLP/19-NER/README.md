@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Doteraz sme sa väčšinou sústredili na jednu NLP úlohu - klasifikáciu. Existujú však aj iné NLP úlohy, ktoré je možné riešiť pomocou neurónových sietí. Jednou z týchto úloh je **[Rozpoznávanie pomenovaných entít](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ktoré sa zaoberá identifikáciou konkrétnych entít v texte, ako sú miesta, mená osôb, časové intervaly, chemické vzorce a podobne.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Príklad použitia NER
 
@@ -78,7 +78,7 @@ NER model je **model na klasifikáciu tokenov**, čo znamená, že ho možno pou
 
 Dokončite zadanie uvedené nižšie, aby ste vytrénovali model na rozpoznávanie pomenovaných entít pre lekárske termíny, a potom ho vyskúšajte na inom datasete.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Prehľad a samoštúdium
 

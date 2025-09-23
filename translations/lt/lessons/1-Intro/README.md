@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Piešinys sukurtas [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Prieš paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Dirbtinis intelektas** yra įdomi mokslinė disciplina, kuri tiria, kaip galime priversti kompiuterius demonstruoti intelektualų elgesį, pvz., atlikti tuos dalykus, kuriuos žmonės geba daryti geriausiai.
 
@@ -150,7 +150,7 @@ Per pastaruosius kelerius metus mes stebėjome didžiules sėkmes su dideliais k
 
 Pasidomėkite internete, kur, jūsų nuomone, AI yra efektyviausiai naudojamas. Ar tai žemėlapių programėlė, kalbos atpažinimo paslauga ar vaizdo žaidimas? Ištyrinėkite, kaip sistema buvo sukurta.
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Peržiūra ir savarankiškas mokymasis
 

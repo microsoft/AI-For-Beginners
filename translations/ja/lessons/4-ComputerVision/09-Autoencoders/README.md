@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNNをトレーニングする際の問題の一つは、大量のラベル付きデータが必要になることです。画像分類の場合、画像を異なるクラスに分ける必要があり、これは手作業で行う必要があります。
 
-## [事前講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [事前講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 しかし、CNNの特徴抽出器をトレーニングする際に、生データ（ラベルなしデータ）を使用したい場合があります。これを**自己教師あり学習**と呼びます。ラベルの代わりに、トレーニング画像をネットワークの入力と出力の両方として使用します。**オートエンコーダー**の主なアイデアは、入力画像を**潜在空間**（通常は小さなサイズのベクトル）に変換する**エンコーダーネットワーク**を持ち、その後、元の画像を再構築することを目指す**デコーダーネットワーク**を使用することです。
 
@@ -80,7 +80,7 @@ VAEの重要な利点の一つは、潜在ベクトルをサンプリングす�
 * **損失あり** - 再構築された画像は元の画像と同じではありません。損失の性質はトレーニング中に使用される*損失関数*によって定義されます。
 * **ラベルなしデータ**で動作します。
 
-## [事後講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [事後講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## 結論
 
@@ -90,7 +90,7 @@ VAEの重要な利点の一つは、潜在ベクトルをサンプリングす�
 
 このレッスンでは、画像にオートエンコーダーを使用する方法について学びました。しかし、音楽にも使用できます！Magentaプロジェクトの[MusicVAE](https://magenta.tensorflow.org/music-vae)プロジェクトをチェックしてみてください。このプロジェクトでは、オートエンコーダーを使用して音楽を再構築する方法を学習します。このライブラリを使用して[実験](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb)を行い、何が作れるか試してみてください。
 
-## [事後講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [事後講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## 復習と自己学習
 

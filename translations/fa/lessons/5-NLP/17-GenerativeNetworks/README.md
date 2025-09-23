@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # شبکه‌های مولد
 
-## [آزمون پیش از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [آزمون پیش از درس](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 شبکه‌های عصبی بازگشتی (RNNs) و انواع سلول‌های دروازه‌دار آن‌ها مانند سلول‌های حافظه بلندمدت (LSTMs) و واحدهای بازگشتی دروازه‌دار (GRUs) مکانیزمی برای مدل‌سازی زبان فراهم کردند که می‌توانند ترتیب کلمات را یاد بگیرند و پیش‌بینی‌هایی برای کلمه بعدی در یک دنباله ارائه دهند. این قابلیت به ما اجازه می‌دهد از RNNها برای **وظایف مولد** استفاده کنیم، مانند تولید متن معمولی، ترجمه ماشینی، و حتی توضیحات تصویری.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * تولید متن با [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [آزمون پس از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [آزمون پس از درس](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## مرور و مطالعه خودآموز
 

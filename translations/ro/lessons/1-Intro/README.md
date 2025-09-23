@@ -54,7 +54,7 @@ Anul | Paritate cu nivelul uman atins
 
 Fă un tur al internetului pentru a determina unde consideri că AI este utilizată cel mai eficient. Este într-o aplicație de hărți, un serviciu de conversie vorbire-text sau un joc video? Cercetează cum a fost construit sistemul.
 
-## [Chestionar post-lectură](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Chestionar post-lectură](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Recapitulare și studiu individual
 

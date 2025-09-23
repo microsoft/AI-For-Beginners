@@ -14,7 +14,7 @@ Tulad ng natutunan na natin, upang ma-train ang mga neural network nang epektibo
 * Mag-operate sa mga tensor, halimbawa, mag-multiply, mag-add, at mag-compute ng ilang mga function tulad ng sigmoid o softmax
 * Mag-compute ng gradients ng lahat ng expression, upang maisagawa ang gradient descent optimization
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Bagamat kaya ng `numpy` library ang unang bahagi, kailangan natin ng mekanismo upang mag-compute ng gradients. Sa [ating framework](../04-OwnFramework/OwnFramework.ipynb) na dinevelop natin sa nakaraang seksyon, kailangan nating mano-manong i-program ang lahat ng derivative functions sa loob ng `backward` method, na gumagawa ng backpropagation. Sa ideal na sitwasyon, ang isang framework ay dapat magbigay sa atin ng kakayahang mag-compute ng gradients ng *anumang expression* na maaari nating i-define.
 
@@ -106,7 +106,7 @@ Sa araling ito, natutunan mo ang mga pagkakaiba sa pagitan ng iba't ibang APIs p
 
 Sa mga kasamang notebook, makakakita ka ng 'tasks' sa ibaba; gawin ang mga notebook at kumpletuhin ang mga tasks.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Review at Pag-aaral sa Sarili
 

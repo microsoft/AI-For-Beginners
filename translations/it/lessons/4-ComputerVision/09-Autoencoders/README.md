@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Quando si addestrano le CNN, uno dei problemi è che abbiamo bisogno di molti dati etichettati. Nel caso della classificazione delle immagini, dobbiamo separare le immagini in diverse classi, il che richiede un lavoro manuale.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Tuttavia, potremmo voler utilizzare dati grezzi (non etichettati) per addestrare gli estrattori di caratteristiche delle CNN, il che viene chiamato **apprendimento auto-supervisionato**. Invece delle etichette, utilizzeremo le immagini di addestramento sia come input che come output della rete. L'idea principale dell'**autoencoder** è che avremo una **rete encoder** che converte l'immagine di input in uno **spazio latente** (normalmente è solo un vettore di dimensioni ridotte), e poi una **rete decoder**, il cui obiettivo sarà ricostruire l'immagine originale.
 
@@ -80,7 +80,7 @@ Scopri di più sugli autoencoder in questi notebook corrispondenti:
 * **Con perdita** - l'immagine ricostruita non è identica all'immagine originale. La natura della perdita è definita dalla *funzione di perdita* utilizzata durante l'addestramento.
 * Funziona su **dati non etichettati**
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Conclusione
 
@@ -90,7 +90,7 @@ In questa lezione, hai imparato i vari tipi di autoencoder disponibili per lo sc
 
 In questa lezione, hai imparato a utilizzare gli autoencoder per le immagini. Ma possono essere utilizzati anche per la musica! Dai un'occhiata al progetto [MusicVAE](https://magenta.tensorflow.org/music-vae) del progetto Magenta, che utilizza gli autoencoder per imparare a ricostruire la musica. Fai alcuni [esperimenti](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) con questa libreria per vedere cosa puoi creare.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Revisione & Studio Autonomo
 

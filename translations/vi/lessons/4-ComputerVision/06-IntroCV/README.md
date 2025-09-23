@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Thị giác Máy tính](https://wikipedia.org/wiki/Computer_vision) là một lĩnh vực nhằm giúp máy tính đạt được khả năng hiểu biết ở mức cao về hình ảnh kỹ thuật số. Đây là một định nghĩa khá rộng, bởi vì *hiểu biết* có thể mang nhiều ý nghĩa khác nhau, bao gồm việc tìm kiếm một đối tượng trong hình ảnh (**phát hiện đối tượng**), hiểu điều gì đang xảy ra (**phát hiện sự kiện**), mô tả hình ảnh bằng văn bản, hoặc tái tạo một cảnh trong không gian 3D. Ngoài ra còn có các nhiệm vụ đặc biệt liên quan đến hình ảnh con người: ước tính tuổi và cảm xúc, phát hiện và nhận diện khuôn mặt, và ước tính tư thế 3D, chỉ kể một vài ví dụ.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Một trong những nhiệm vụ đơn giản nhất của thị giác máy tính là **phân loại hình ảnh**.
 
@@ -105,7 +105,7 @@ Hãy thực hiện một số thí nghiệm với OpenCV bằng cách khám phá
 
 Xem [video này](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) từ chương trình AI để tìm hiểu về dự án Cortic Tigers và cách họ xây dựng một giải pháp dựa trên khối để phổ biến các nhiệm vụ thị giác máy tính thông qua robot. Hãy nghiên cứu thêm về các dự án khác như thế này giúp người học mới tiếp cận lĩnh vực này.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Ôn tập & Tự học
 

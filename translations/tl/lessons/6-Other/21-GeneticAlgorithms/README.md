@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mga Genetic Algorithm
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 Ang **Genetic Algorithms** (GA) ay batay sa isang **evolutionary approach** sa AI, kung saan ginagamit ang mga pamamaraan ng ebolusyon ng isang populasyon upang makuha ang pinakamainam na solusyon para sa isang partikular na problema. Iminungkahi ito noong 1975 ni [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Ang Genetic Algorithms ay ginagamit upang malutas ang maraming problema, kabilan
 
 "Ang genetic algorithms ay madaling i-implement, ngunit mahirap maintindihan ang kanilang pag-uugali." [source](https://wikipedia.org/wiki/Genetic_algorithm) Mag-research upang makahanap ng implementasyon ng genetic algorithm tulad ng paglutas ng Sudoku puzzle, at ipaliwanag kung paano ito gumagana gamit ang sketch o flowchart.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Review at Pag-aaral sa Sarili
 

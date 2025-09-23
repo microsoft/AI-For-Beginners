@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Daha önce, nesneleri *bounding box* tahminiyle görüntüde bulmamızı sağlayan Nesne Tespiti hakkında bilgi edinmiştik. Ancak, bazı görevlerde yalnızca bounding box'lara değil, daha hassas nesne konumlandırmasına da ihtiyaç duyarız. Bu göreve **segmentasyon** denir.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentasyon, **piksel sınıflandırması** olarak görülebilir; burada görüntünün **her bir** pikseli için sınıfını tahmin etmemiz gerekir (*arka plan* da sınıflardan biri olarak kabul edilir). İki ana segmentasyon algoritması vardır:
 
@@ -56,7 +56,7 @@ Aşağıdaki defterleri açarak farklı semantik segmentasyon mimarileri hakkın
 * [Semantik Segmentasyon Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantik Segmentasyon TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Sonuç
 

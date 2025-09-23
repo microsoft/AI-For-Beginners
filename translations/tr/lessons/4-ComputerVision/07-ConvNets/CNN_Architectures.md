@@ -59,7 +59,7 @@ Bu bölümde, bilgisayarla görme sinir ağlarının temel konseptini - evrişim
 
 Eşlik eden defterlerde, daha yüksek doğruluk elde etmenin yolları hakkında notlar bulunmaktadır. Daha yüksek doğruluk elde edip edemeyeceğinizi görmek için bazı deneyler yapın.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

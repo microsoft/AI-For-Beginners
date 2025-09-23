@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Potraga za umjetnom inteligencijom temelji se na traženju znanja kako bi se svijet razumio na način sličan ljudskom. Ali kako to postići?
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 U ranim danima razvoja umjetne inteligencije, popularan je bio pristup "odozgo prema dolje" za stvaranje inteligentnih sustava (o kojem smo govorili u prethodnoj lekciji). Ideja je bila izvući znanje od ljudi u oblik koji računalo može čitati, a zatim ga koristiti za automatsko rješavanje problema. Ovaj pristup temelji se na dva velika koncepta:
 
@@ -236,7 +236,7 @@ Danas se AI često smatra sinonimom za *strojno učenje* ili *neuronske mreže*.
 
 U bilježnici Ontologija obitelji povezanoj s ovom lekcijom, postoji prilika za eksperimentiranje s drugim obiteljskim odnosima. Pokušajte otkriti nove veze između ljudi u obiteljskom stablu.
 
-## [Post-predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Post-predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Pregled i samostalno učenje
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pagsasakatawan ng Teksto bilang Tensors
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Pag-uuri ng Teksto
 
@@ -73,7 +73,7 @@ Sa ngayon, pinag-aralan natin ang mga teknik na maaaring magdagdag ng frequency 
 
 Subukan ang iba pang mga ehersisyo gamit ang bag-of-words at iba't ibang data models. Maaaring ma-inspire ka ng [kompetisyon na ito sa Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Review at Pag-aaral sa Sarili
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mbinu za Uangalizi na Transformers
 
-## [Jaribio la awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Jaribio la awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Moja ya matatizo muhimu zaidi katika uwanja wa NLP ni **tafsiri ya mashine**, kazi muhimu inayotumika katika zana kama Google Translate. Katika sehemu hii, tutazingatia tafsiri ya mashine, au kwa ujumla zaidi, kazi yoyote ya *mlolongo-kwa-mlolongo* (ambayo pia inaitwa **sentence transduction**).
 
@@ -108,7 +108,7 @@ Katika somo hili umejifunza kuhusu Transformers na Mbinu za Uangalizi, zana muhi
 
 ## 🚀 Changamoto
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Mapitio na Kujisomea
 

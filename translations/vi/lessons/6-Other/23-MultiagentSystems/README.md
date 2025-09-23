@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Một trong những cách để đạt được trí tuệ là phương pháp **nổi bật** (hoặc **tương hỗ**), dựa trên thực tế rằng hành vi kết hợp của nhiều tác nhân tương đối đơn giản có thể dẫn đến hành vi tổng thể phức tạp hơn (hoặc thông minh hơn) của hệ thống nói chung. Về mặt lý thuyết, điều này dựa trên các nguyên tắc của [Trí Tuệ Tập Thể](https://en.wikipedia.org/wiki/Collective_intelligence), [Thuyết Nổi Bật](https://en.wikipedia.org/wiki/Global_brain) và [Điều Khiển Học Tiến Hóa](https://en.wikipedia.org/wiki/Global_brain), cho rằng các hệ thống cấp cao hơn đạt được một số giá trị gia tăng khi được kết hợp đúng cách từ các hệ thống cấp thấp hơn (còn gọi là *nguyên tắc chuyển đổi siêu hệ thống*).
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Hướng đi của **Hệ Thống Đa Tác Nhân** đã xuất hiện trong AI vào những năm 1990 như một phản ứng đối với sự phát triển của Internet và các hệ thống phân tán. Một trong những sách giáo khoa AI kinh điển, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), tập trung vào góc nhìn của AI cổ điển từ quan điểm của các hệ thống đa tác nhân.
 
@@ -152,7 +152,7 @@ Chúng đều tập trung vào hành vi đơn giản của từng tác nhân, v�
 
 Đưa bài học này vào thực tế và thử hình dung một hệ thống đa tác nhân có thể giải quyết một vấn đề. Ví dụ, một hệ thống đa tác nhân cần làm gì để tối ưu hóa tuyến đường xe buýt trường học? Nó có thể hoạt động như thế nào trong một tiệm bánh?
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Ôn Tập & Tự Học
 

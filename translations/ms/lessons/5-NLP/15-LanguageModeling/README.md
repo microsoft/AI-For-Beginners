@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pemerangkapan semantik, seperti Word2Vec dan GloVe, sebenarnya adalah langkah pertama ke arah **pemodelan bahasa** - mencipta model yang dapat *memahami* (atau *mewakili*) sifat bahasa.
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Idea utama di sebalik pemodelan bahasa adalah melatihnya menggunakan dataset tanpa label secara tidak diawasi. Ini penting kerana kita mempunyai sejumlah besar teks tanpa label yang tersedia, sementara jumlah teks berlabel sentiasa terhad oleh usaha yang diperlukan untuk melabelkannya. Selalunya, kita boleh membina model bahasa yang dapat **meramalkan perkataan yang hilang** dalam teks, kerana mudah untuk menyembunyikan satu perkataan secara rawak dalam teks dan menggunakannya sebagai sampel latihan.
 
@@ -38,7 +38,7 @@ Teruskan pembelajaran anda dalam notebook berikut:
 
 Dalam pelajaran sebelumnya, kita telah melihat bahawa pemerangkapan perkataan berfungsi seperti sihir! Kini kita tahu bahawa melatih pemerangkapan perkataan bukanlah tugas yang terlalu kompleks, dan kita seharusnya dapat melatih pemerangkapan perkataan kita sendiri untuk teks khusus domain jika diperlukan.
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Ulasan & Kajian Kendiri
 

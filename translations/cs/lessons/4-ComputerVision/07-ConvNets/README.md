@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Už jsme viděli, že neuronové sítě jsou poměrně dobré při práci s obrázky, a dokonce i jednovrstvý perceptron dokáže rozpoznat ručně psané číslice z datasetu MNIST s přiměřenou přesností. Dataset MNIST je však velmi specifický – všechna čísla jsou vycentrovaná uvnitř obrázku, což úlohu zjednodušuje.
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 V reálném světě chceme být schopni rozpoznat objekty na obrázku bez ohledu na jejich přesnou polohu. Počítačové vidění se liší od obecné klasifikace, protože když se snažíme najít určitý objekt na obrázku, prohledáváme obraz a hledáme specifické **vzory** a jejich kombinace. Například při hledání kočky bychom mohli nejprve hledat horizontální linie, které mohou tvořit vousky, a poté určitá kombinace vousků nám může říct, že se jedná o obrázek kočky. Relativní poloha a přítomnost určitých vzorů jsou důležité, nikoli jejich přesná poloha na obrázku.
 

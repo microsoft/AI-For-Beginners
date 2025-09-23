@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Τα μοντέλα ταξινόμησης εικόνων που έχουμε εξετάσει μέχρι τώρα λαμβάνουν μια εικόνα και παράγουν ένα κατηγορηματικό αποτέλεσμα, όπως η κατηγορία 'αριθμός' σε ένα πρόβλημα MNIST. Ωστόσο, σε πολλές περιπτώσεις δεν θέλουμε απλώς να γνωρίζουμε ότι μια εικόνα απεικονίζει αντικείμενα - θέλουμε να μπορούμε να προσδιορίσουμε την ακριβή τους θέση. Αυτό ακριβώς είναι το νόημα της **ανίχνευσης αντικειμένων**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Ανίχνευση Αντικειμένων](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.el.png)
 
@@ -172,7 +172,7 @@ $$
  * Yolo: [Υλοποίηση Keras](https://github.com/experiencor/keras-yolo2), [σημειωματάριο βήμα-βήμα](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Υλοποίηση Keras](https://github.com/experiencor/keras-yolo2), [σημειωματάριο βήμα-βήμα](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Ανασκόπηση & Αυτομελέτη
 

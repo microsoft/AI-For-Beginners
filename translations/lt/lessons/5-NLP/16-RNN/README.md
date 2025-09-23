@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurentiniai neuroniniai tinklai
 
-## [Prieš paskaitą: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Ankstesnėse dalyse naudojome turtingas semantines tekstų reprezentacijas ir paprastą linijinį klasifikatorių virš įterpimų. Ši architektūra padeda užfiksuoti bendrą žodžių prasmę sakinyje, tačiau ji neatsižvelgia į žodžių **tvarką**, nes įterpimų agregavimo operacija pašalina šią informaciją iš originalaus teksto. Kadangi šie modeliai negali modeliuoti žodžių tvarkos, jie negali spręsti sudėtingesnių ar dviprasmiškų užduočių, tokių kaip teksto generavimas ar klausimų atsakymas.
 
@@ -84,7 +84,7 @@ Perskaitykite literatūrą apie LSTM ir apsvarstykite jų taikymą:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Po paskaitos: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Apžvalga ir savarankiškas mokymasis
 

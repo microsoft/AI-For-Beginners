@@ -59,7 +59,7 @@ V tejto jednotke ste sa naučili hlavný koncept za neurónovými sieťami pre p
 
 V sprievodných notebookoch sú poznámky na spodku o tom, ako dosiahnuť vyššiu presnosť. Urobte niekoľko experimentov a zistite, či dokážete dosiahnuť vyššiu presnosť.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Prehľad a samostatné štúdium
 

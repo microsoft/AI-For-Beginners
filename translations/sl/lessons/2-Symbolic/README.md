@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Iskanje umetne inteligence temelji na iskanju znanja, da bi razumeli svet na podoben način, kot to počnejo ljudje. Toda kako to doseči?
 
-## [Predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 V zgodnjih dneh umetne inteligence je bil priljubljen pristop od zgoraj navzdol za ustvarjanje inteligentnih sistemov (o katerem smo govorili v prejšnji lekciji). Ideja je bila, da se znanje pridobi od ljudi v obliki, ki jo lahko razume računalnik, in nato uporabi za samodejno reševanje problemov. Ta pristop temelji na dveh velikih idejah:
 
@@ -236,7 +236,7 @@ Danes se umetna inteligenca pogosto obravnava kot sinonim za *strojno učenje* a
 
 V zvezku Ontologija družine, povezanem s to lekcijo, je priložnost za eksperimentiranje z drugimi družinskimi odnosi. Poskusite odkriti nove povezave med ljudmi v družinskem drevesu.
 
-## [Kvizi po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Pregled in samostojno učenje
 

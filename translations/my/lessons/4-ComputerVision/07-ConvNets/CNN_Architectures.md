@@ -59,7 +59,7 @@ MobileNet နှင့်ပတ်သက်သော [blog post](https://medium.
 
 ထည့်သွင်းထားသော notebooks တွင် တိကျမှုပိုမိုရရှိရန်အကြောင်းအရာများကို အောက်ဆုံးတွင် မှတ်ချက်ထားရှိထားသည်။ တိကျမှုပိုမိုရရှိနိုင်မည်ကို စမ်းသပ်ကြည့်ပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

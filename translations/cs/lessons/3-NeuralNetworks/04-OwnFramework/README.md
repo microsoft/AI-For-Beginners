@@ -19,7 +19,7 @@ V této části rozšíříme tento model na flexibilnější rámec, který ná
 
 Také vyvineme vlastní modulární rámec v Pythonu, který nám umožní vytvářet různé architektury neuronových sítí.
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalizace strojového učení
 
@@ -81,7 +81,7 @@ V přiloženém notebooku implementujete vlastní rámec pro vytváření a tré
 
 Pokračujte do notebooku [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) a projděte si ho.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Přehled & Samostudium
 

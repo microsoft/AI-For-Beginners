@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Daha önce sinir ağlarının görüntülerle başa çıkmada oldukça iyi olduğunu görmüştük ve tek katmanlı bir algılayıcı bile MNIST veri setindeki el yazısı rakamları makul bir doğrulukla tanıyabiliyor. Ancak, MNIST veri seti oldukça özeldir ve tüm rakamlar görüntünün ortasına hizalanmıştır, bu da görevi daha basit hale getirir.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Gerçek hayatta, bir görüntüdeki nesneleri tam olarak nerede olduklarına bakmaksızın tanıyabilmek isteriz. Bilgisayarla görme, genel sınıflandırmadan farklıdır çünkü bir görüntüde belirli bir nesneyi bulmaya çalışırken, görüntüyü tarar ve belirli **desenler** ve bunların kombinasyonlarını ararız. Örneğin, bir kedi ararken, önce bıyık oluşturabilecek yatay çizgiler arayabiliriz ve ardından belirli bir bıyık kombinasyonu bize bunun bir kedi resmi olduğunu söyleyebilir. Belirli desenlerin göreceli konumu ve varlığı önemlidir, ancak görüntüdeki tam konumu değil.
 

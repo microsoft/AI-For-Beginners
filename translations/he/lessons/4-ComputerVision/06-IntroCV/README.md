@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ראייה ממוחשבת](https://wikipedia.org/wiki/Computer_vision) היא תחום שמטרתו לאפשר למחשבים להבין ברמה גבוהה תמונות דיגיטליות. זו הגדרה רחבה למדי, מכיוון ש*הבנה* יכולה להתבטא בדרכים רבות, כמו זיהוי אובייקט בתמונה (**זיהוי אובייקטים**), הבנת מה שמתרחש (**זיהוי אירועים**), תיאור תמונה בטקסט, או שחזור סצנה בתלת-ממד. ישנן גם משימות מיוחדות הקשורות לתמונות של בני אדם: הערכת גיל ורגשות, זיהוי פנים וזיהוי זהות, והערכת תנוחה בתלת-ממד, לדוגמה.
 
-## [שאלון לפני ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 אחת המשימות הפשוטות ביותר בראייה ממוחשבת היא **סיווג תמונות**.
 
@@ -105,7 +105,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 צפו ב-[סרטון הזה](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) מתוך AI Show כדי ללמוד על פרויקט Cortic Tigers וכיצד הם בנו פתרון מבוסס בלוקים להנגשת משימות ראייה ממוחשבת באמצעות רובוט. בצעו מחקר על פרויקטים נוספים כמו זה שמסייעים למתחילים להיכנס לתחום.
 
-## [שאלון לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## סקירה ולימוד עצמי
 

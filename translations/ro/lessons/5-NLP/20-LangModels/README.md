@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 În toate sarcinile noastre anterioare, am antrenat o rețea neuronală pentru a îndeplini o anumită sarcină folosind un set de date etichetat. Cu modelele mari de tip transformer, precum BERT, folosim modelarea limbajului într-un mod auto-supervizat pentru a construi un model de limbaj, care este apoi specializat pentru o sarcină specifică printr-un antrenament suplimentar pe un domeniu specific. Totuși, s-a demonstrat că modelele mari de limbaj pot rezolva multe sarcini fără NICIUN antrenament specific pe domeniu. O familie de modele capabile să facă acest lucru se numește **GPT**: Transformer Generativ Pre-Antrenat.
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generarea de Text și Perplexitatea
 
@@ -58,7 +58,7 @@ Continuați învățarea cu următoarele notebook-uri:
 
 Noile modele generale de limbaj pre-antrenate nu doar modelează structura limbajului, ci conțin și o cantitate vastă de limbaj natural. Astfel, ele pot fi utilizate eficient pentru a rezolva unele sarcini NLP în setări zero-shot sau few-shot.
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Declinare de responsabilitate**:  
 Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

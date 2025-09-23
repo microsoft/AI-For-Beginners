@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pembelajaran penguatan (Reinforcement Learning atau RL) dianggap sebagai salah satu paradigma dasar dalam pembelajaran mesin, selain pembelajaran terawasi (supervised learning) dan pembelajaran tanpa pengawasan (unsupervised learning). Dalam pembelajaran terawasi, kita bergantung pada dataset dengan hasil yang sudah diketahui, sedangkan RL didasarkan pada **belajar dengan melakukan**. Sebagai contoh, ketika kita pertama kali melihat sebuah permainan komputer, kita mulai bermain meskipun tanpa mengetahui aturan, dan segera kita dapat meningkatkan kemampuan kita hanya melalui proses bermain dan menyesuaikan perilaku.
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Untuk melakukan RL, kita membutuhkan:
 
@@ -110,7 +110,7 @@ Kita telah belajar bagaimana melatih agen untuk mencapai hasil yang baik hanya d
 
 Jelajahi aplikasi yang tercantum di bagian 'Tugas RL Lainnya' dan coba implementasikan salah satunya!
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Tinjauan & Studi Mandiri
 

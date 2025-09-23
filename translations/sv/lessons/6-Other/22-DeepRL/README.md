@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Förstärkningsinlärning (RL) ses som ett av de grundläggande paradigmen inom maskininlärning, vid sidan av övervakad inlärning och oövervakad inlärning. Medan vi i övervakad inlärning förlitar oss på dataset med kända resultat, bygger RL på **att lära genom att göra**. Till exempel, när vi först ser ett datorspel börjar vi spela, även utan att känna till reglerna, och snart kan vi förbättra våra färdigheter bara genom att spela och anpassa vårt beteende.
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 För att utföra RL behöver vi:
 
@@ -110,7 +110,7 @@ Vi har nu lärt oss hur man tränar agenter att uppnå goda resultat bara genom 
 
 Utforska de applikationer som listas i avsnittet 'Andra RL-uppgifter' och försök implementera en!
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Granskning & Självstudier
 

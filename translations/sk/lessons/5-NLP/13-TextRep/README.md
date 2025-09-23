@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentácia textu ako tenzorov
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Klasifikácia textu
 
@@ -73,7 +73,7 @@ Doteraz sme študovali techniky, ktoré môžu pridať váhu frekvencie rôznym 
 
 Vyskúšajte ďalšie cvičenia s bag-of-words a rôznymi dátovými modelmi. Môžete sa inšpirovať touto [súťažou na Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Prehľad a samostatné štúdium
 

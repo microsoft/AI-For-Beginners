@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 अघिल्लो खण्डमा, हामीले **जेनेरेटिभ मोडेलहरू** को बारेमा सिक्यौं: यस्ता मोडेलहरू जसले प्रशिक्षण डेटासेटमा भएका छविहरू जस्तै नयाँ छविहरू सिर्जना गर्न सक्छ। VAE जेनेरेटिभ मोडेलको राम्रो उदाहरण थियो।
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 तर, यदि हामी कुनै अर्थपूर्ण कुरा, जस्तै उचित रिजोल्युसनको चित्र सिर्जना गर्न प्रयास गर्छौं भने, VAE प्रयोग गर्दा प्रशिक्षण राम्रोसँग सँग्लो हुँदैन। यस प्रयोगको लागि, हामीले जेनेरेटिभ मोडेलहरूका लागि विशेष रूपमा लक्षित अर्को आर्किटेक्चर सिक्नुपर्छ - **जेनेरेटिभ एड्भर्सेरियल नेटवर्कहरू**, वा GANs।
 
@@ -84,7 +84,7 @@ GANs कलात्मक छविहरू सिर्जना गर्न
 
 ## ✍️ उदाहरण: [शैली ट्रान्सफर](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## निष्कर्ष
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentacja tekstu jako tensory
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Klasyfikacja tekstu
 
@@ -73,7 +73,7 @@ Jak dotąd poznaliśmy techniki, które mogą dodać wagę częstotliwości do r
 
 Spróbuj innych ćwiczeń z użyciem bag-of-words i różnych modeli danych. Możesz zainspirować się tą [konkursem na Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Przegląd i samodzielna nauka
 

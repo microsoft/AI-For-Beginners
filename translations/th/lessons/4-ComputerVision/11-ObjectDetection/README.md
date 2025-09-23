@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 โมเดลการจำแนกภาพที่เราได้เรียนรู้มาก่อนหน้านี้จะรับภาพและให้ผลลัพธ์เป็นหมวดหมู่ เช่น คลาส 'ตัวเลข' ในปัญหา MNIST อย่างไรก็ตาม ในหลายกรณีเราไม่ได้ต้องการแค่รู้ว่าภาพนั้นมีวัตถุอยู่ แต่เราต้องการทราบตำแหน่งที่แน่นอนของวัตถุเหล่านั้น นี่คือจุดประสงค์ของ **การตรวจจับวัตถุ**
 
-## [แบบทดสอบก่อนเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![การตรวจจับวัตถุ](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.th.png)
 
@@ -172,7 +172,7 @@ YOLO เป็นอัลกอริทึมแบบเรียลไทม
  * Yolo: [การใช้งาน Keras](https://github.com/experiencor/keras-yolo2), [โน้ตบุ๊กแบบทีละขั้นตอน](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [การใช้งาน Keras](https://github.com/experiencor/keras-yolo2), [โน้ตบุ๊กแบบทีละขั้นตอน](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [แบบทดสอบหลังเรียน](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## ทบทวนและศึกษาด้วยตนเอง
 

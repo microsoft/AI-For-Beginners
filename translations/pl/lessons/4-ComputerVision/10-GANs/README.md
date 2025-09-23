@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 W poprzedniej sekcji poznaliśmy **modele generatywne**: modele, które potrafią generować nowe obrazy podobne do tych z zestawu treningowego. VAE był dobrym przykładem modelu generatywnego.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Jednakże, jeśli spróbujemy wygenerować coś naprawdę znaczącego, na przykład obraz w rozsądnej rozdzielczości, za pomocą VAE, zauważymy, że trening nie przebiega dobrze. W takim przypadku powinniśmy poznać inną architekturę, specjalnie zaprojektowaną dla modeli generatywnych - **Generative Adversarial Networks**, czyli GAN.
 
@@ -84,7 +84,7 @@ Jak to działa:
 
 ## ✍️ Przykład: [Style Transfer](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Podsumowanie
 

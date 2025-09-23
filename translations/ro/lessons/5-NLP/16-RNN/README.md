@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rețele Neuronale Recurente
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 În secțiunile anterioare, am utilizat reprezentări semantice bogate ale textului și un clasificator liniar simplu deasupra acestor embedding-uri. Această arhitectură captează sensul agregat al cuvintelor dintr-o propoziție, dar nu ia în considerare **ordinea** cuvintelor, deoarece operația de agregare deasupra embedding-urilor elimină această informație din textul original. Deoarece aceste modele nu pot modela ordonarea cuvintelor, ele nu pot rezolva sarcini mai complexe sau ambigue, cum ar fi generarea de text sau răspunsul la întrebări.
 
@@ -84,7 +84,7 @@ Citește literatură despre LSTM-uri și ia în considerare aplicațiile lor:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Recapitulare și Studiu Individual
 

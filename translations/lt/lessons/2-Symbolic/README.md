@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dirbtinio intelekto siekis grindžiamas žinių paieška, siekiant suprasti pasaulį taip, kaip tai daro žmonės. Bet kaip tai galima pasiekti?
 
-## [Prieš paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Ankstyvosiomis AI dienomis populiarus buvo aukštyn-nusileidžiantis požiūris į intelektualių sistemų kūrimą (aptartas ankstesnėje pamokoje). Idėja buvo išgauti žinias iš žmonių į mašinai suprantamą formą ir tada jas naudoti problemoms automatiškai spręsti. Šis požiūris buvo pagrįstas dviem pagrindinėmis idėjomis:
 
@@ -236,7 +236,7 @@ Išbandykite [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginner
 
 Šeimos Ontologijos užrašų knygelėje, susijusioje su šia pamoka, yra galimybė eksperimentuoti su kitais šeimos ryšiais. Pabandykite atrasti naujus ryšius tarp žmonių šeimos medyje.
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Apžvalga ir savarankiškas mokymasis
 

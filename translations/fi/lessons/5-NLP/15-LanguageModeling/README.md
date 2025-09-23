@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semanttiset upotukset, kuten Word2Vec ja GloVe, ovat itse asiassa ensimmäinen askel kohti **kielen mallintamista** - mallien luomista, jotka jollain tavalla *ymmärtävät* (tai *edustavat*) kielen luonnetta.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Kielen mallintamisen pääidea on niiden kouluttaminen merkitsemättömillä aineistoilla valvomattomalla tavalla. Tämä on tärkeää, koska meillä on valtavia määriä merkitsemätöntä tekstiä saatavilla, kun taas merkittyä tekstiä on aina rajallisesti sen mukaan, kuinka paljon aikaa voimme käyttää sen merkitsemiseen. Useimmiten voimme rakentaa kielimalleja, jotka voivat **ennustaa puuttuvia sanoja** tekstissä, koska on helppoa peittää satunnainen sana tekstissä ja käyttää sitä harjoitusnäytteenä.
 
@@ -38,7 +38,7 @@ Jatka oppimistasi seuraavissa vihkoissa:
 
 Edellisessä oppitunnissa näimme, että sanaupotukset toimivat kuin taikuutta! Nyt tiedämme, että sanaupotusten kouluttaminen ei ole kovin monimutkainen tehtävä, ja meidän pitäisi pystyä kouluttamaan omia sanaupotuksia erityisalojen teksteille tarvittaessa.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Kertaus ja itseopiskelu
 

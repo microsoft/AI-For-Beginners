@@ -54,7 +54,7 @@ Selama beberapa tahun terakhir, kita telah menyaksikan keberhasilan besar dengan
 
 Lakukan penelusuran di internet untuk menentukan, menurut pendapat Anda, di mana AI paling efektif digunakan. Apakah itu di aplikasi peta, layanan pengubah ucapan ke teks, atau video game? Teliti bagaimana sistem tersebut dibangun.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Tinjauan & Studi Mandiri
 

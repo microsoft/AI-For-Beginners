@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Tietokonenäkö](https://wikipedia.org/wiki/Computer_vision) on ala, jonka tavoitteena on mahdollistaa tietokoneiden korkeatasoinen ymmärrys digitaalisista kuvista. Tämä on melko laaja määritelmä, sillä *ymmärrys* voi tarkoittaa monia eri asioita, kuten objektin löytämistä kuvasta (**objektin tunnistus**), tapahtuman ymmärtämistä (**tapahtuman tunnistus**), kuvan kuvailemista tekstinä tai kohtauksen rekonstruointia 3D-muodossa. On myös erityisiä tehtäviä, jotka liittyvät ihmisten kuviin: iän ja tunteiden arviointi, kasvojen tunnistus ja identifiointi sekä 3D-asennon arviointi, muutamia mainitakseni.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Yksi tietokonenäön yksinkertaisimmista tehtävistä on **kuvien luokittelu**.
 
@@ -105,7 +105,7 @@ Joskus suhteellisen monimutkaiset tehtävät, kuten liikkeen tunnistus tai sorme
 
 Katso [tämä video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) AI Show'sta oppiaksesi Cortic Tigers -projektista ja siitä, miten he rakensivat lohkopohjaisen ratkaisun tietokonenäön tehtävien demokratisoimiseksi robotin avulla. Tee tutkimusta muista vastaavista projekteista, jotka auttavat uusia oppijoita pääsemään mukaan alalle.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Kertaus ja itseopiskelu
 

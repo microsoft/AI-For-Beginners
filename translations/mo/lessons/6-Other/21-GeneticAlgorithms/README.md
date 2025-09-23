@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 基因演算法
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **基因演算法** (GA) 是基於**演化方法**的人工智慧技術，透過模仿族群演化的方式來尋求特定問題的最佳解。此方法由 [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) 在1975年提出。
 
@@ -67,7 +67,7 @@ CO_OP_TRANSLATOR_METADATA:
 「基因演算法易於實現，但其行為難以理解。」[來源](https://wikipedia.org/wiki/Genetic_algorithm)  
 進行一些研究，找到基因演算法的實現範例，例如解數獨問題，並以草圖或流程圖的形式解釋其工作原理。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## 回顧與自學
 

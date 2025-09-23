@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 I alle vores tidligere opgaver trænede vi et neuralt netværk til at udføre en bestemt opgave ved hjælp af et mærket datasæt. Med store transformer-modeller, såsom BERT, bruger vi sprogmodellering på en selv-superviseret måde til at bygge en sprogmodel, som derefter specialiseres til en specifik downstream-opgave med yderligere domænespecifik træning. Det er dog blevet demonstreret, at store sprogmodeller også kan løse mange opgaver uden NOGEN domænespecifik træning. En familie af modeller, der kan gøre dette, kaldes **GPT**: Generative Pre-Trained Transformer.
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Tekstgenerering og perplexity
 
@@ -58,7 +58,7 @@ Fortsæt din læring i følgende notebooks:
 
 Nye generelle forudtrænede sprogmodeller modellerer ikke kun sprogets struktur, men indeholder også en enorm mængde naturligt sprog. Derfor kan de effektivt bruges til at løse nogle NLP-opgaver i zero-shot- eller few-shot-indstillinger.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

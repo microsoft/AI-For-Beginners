@@ -59,7 +59,7 @@ Tässä osiossa opit konvoluutioverkkojen pääperiaatteet, jotka ovat tietokone
 
 Mukana olevissa muistikirjoissa on alareunassa muistiinpanoja siitä, miten saavuttaa parempi tarkkuus. Tee kokeita nähdäksesi, voitko saavuttaa korkeamman tarkkuuden.
 
-## [Luennon jälkeinen kysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Luennon jälkeinen kysely](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Kertaus ja itseopiskelu
 

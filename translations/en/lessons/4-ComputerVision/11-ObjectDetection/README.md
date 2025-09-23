@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 The image classification models we have explored so far take an image and produce a categorical result, such as the class 'number' in the MNIST problem. However, in many cases, we don't just want to know that an image contains objects—we want to determine their exact location. This is the purpose of **object detection**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.en.png)
 
@@ -171,7 +171,7 @@ Read these articles and notebooks about YOLO and try them out:
  * YOLO: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Review & Self Study
 

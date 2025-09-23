@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # पाठलाई टेन्सरको रूपमा प्रतिनिधित्व गर्ने
 
-## [पूर्व-व्याख्यान क्विज](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [पूर्व-व्याख्यान क्विज](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## पाठ वर्गीकरण
 
@@ -75,7 +75,7 @@ BoWको समस्या भनेको केही सामान्य 
 
 ब्याग-अफ-वर्ड्स र विभिन्न डेटा मोडेलहरू प्रयोग गरेर केही अन्य अभ्यासहरू प्रयास गर्नुहोस्। तपाईंलाई यो [Kaggle प्रतियोगिता](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) बाट प्रेरणा मिल्न सक्छ।
 
-## [पश्च-व्याख्यान क्विज](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [पश्च-व्याख्यान क्विज](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## समीक्षा र आत्म-अध्ययन
 

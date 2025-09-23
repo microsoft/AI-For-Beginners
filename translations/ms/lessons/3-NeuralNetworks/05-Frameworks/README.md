@@ -14,7 +14,7 @@ Seperti yang telah kita pelajari, untuk melatih rangkaian neural dengan cekap, k
 * Beroperasi pada tensor, contohnya untuk mendarab, menambah, dan mengira beberapa fungsi seperti sigmoid atau softmax
 * Mengira kecerunan semua ekspresi, untuk melaksanakan pengoptimuman penurunan kecerunan
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Walaupun perpustakaan `numpy` boleh melakukan bahagian pertama, kita memerlukan mekanisme untuk mengira kecerunan. Dalam [rangka kerja kita](../04-OwnFramework/OwnFramework.ipynb) yang telah kita bangunkan dalam bahagian sebelumnya, kita perlu memprogramkan semua fungsi derivatif secara manual di dalam kaedah `backward`, yang melakukan backpropagation. Secara idealnya, rangka kerja harus memberi kita peluang untuk mengira kecerunan bagi *sebarang ekspresi* yang boleh kita tentukan.
 
@@ -106,7 +106,7 @@ Dalam pelajaran ini, anda telah mempelajari perbezaan antara pelbagai API untuk 
 
 Dalam buku nota yang disertakan, anda akan menemui 'tugas' di bahagian bawah; selesaikan buku nota tersebut dan lengkapkan tugas-tugasnya.
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Kajian & Pembelajaran Kendiri
 

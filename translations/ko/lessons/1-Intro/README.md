@@ -54,7 +54,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 인터넷을 탐색하며 AI가 가장 효과적으로 사용되고 있다고 생각되는 분야를 찾아보세요. 지도 앱, 음성-텍스트 변환 서비스, 비디오 게임 중 어디일까요? 해당 시스템이 어떻게 구축되었는지 조사해보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## 복습 및 자기 학습
 

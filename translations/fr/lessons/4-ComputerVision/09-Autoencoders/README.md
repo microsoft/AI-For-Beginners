@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Lors de l'entraînement des CNN, l'un des problèmes est que nous avons besoin de beaucoup de données étiquetées. Dans le cas de la classification d'images, nous devons séparer les images en différentes classes, ce qui demande un effort manuel.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Cependant, nous pourrions vouloir utiliser des données brutes (non étiquetées) pour entraîner des extracteurs de caractéristiques CNN, ce que l'on appelle **l'apprentissage auto-supervisé**. Au lieu d'utiliser des étiquettes, nous utilisons les images d'entraînement à la fois comme entrée et sortie du réseau. L'idée principale de l'**autoencodeur** est d'avoir un **réseau encodeur** qui convertit l'image d'entrée en un certain **espace latent** (généralement un vecteur de taille réduite), puis un **réseau décodeur**, dont l'objectif est de reconstruire l'image originale.
 
@@ -80,7 +80,7 @@ Apprenez-en davantage sur les autoencodeurs dans ces notebooks correspondants :
 * **Avec perte** - l'image reconstruite n'est pas identique à l'image originale. La nature de la perte est définie par la *fonction de perte* utilisée pendant l'entraînement.
 * Fonctionne sur des données **non étiquetées**
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Conclusion
 
@@ -90,7 +90,7 @@ Dans cette leçon, vous avez appris les différents types d'autoencodeurs dispon
 
 Dans cette leçon, vous avez appris à utiliser les autoencodeurs pour les images. Mais ils peuvent également être utilisés pour la musique ! Consultez le projet [MusicVAE](https://magenta.tensorflow.org/music-vae) du projet Magenta, qui utilise des autoencodeurs pour apprendre à reconstruire de la musique. Faites quelques [expériences](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) avec cette bibliothèque pour voir ce que vous pouvez créer.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Révision & Auto-apprentissage
 

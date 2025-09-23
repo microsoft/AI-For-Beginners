@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Jaringan Syaraf Rekuren
 
-## [Kuis Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Pada bagian sebelumnya, kita telah menggunakan representasi semantik teks yang kaya dan pengklasifikasi linear sederhana di atas embedding. Arsitektur ini menangkap makna agregat dari kata-kata dalam sebuah kalimat, tetapi tidak memperhitungkan **urutan** kata, karena operasi agregasi pada embedding menghilangkan informasi ini dari teks asli. Karena model ini tidak mampu memodelkan urutan kata, mereka tidak dapat menyelesaikan tugas yang lebih kompleks atau ambigu seperti pembuatan teks atau menjawab pertanyaan.
 
@@ -84,7 +84,7 @@ Baca beberapa literatur tentang LSTM dan pertimbangkan aplikasinya:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Kuis Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Tinjauan & Studi Mandiri
 

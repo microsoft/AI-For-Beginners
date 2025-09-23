@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਅਸੀਂ ਪਾਇਥਨ ਵਿੱਚ ਆਪਣਾ ਮੋਡੀਊਲਰ ਢਾਂਚਾ ਵੀ ਵਿਕਸਿਤ ਕਰਾਂਗੇ ਜੋ ਸਾਨੂੰ ਵੱਖ-ਵੱਖ ਨਿਊਰਲ ਨੈੱਟਵਰਕ ਆਰਕੀਟੈਕਚਰ ਬਣਾਉਣ ਦੀ ਆਗਿਆ ਦੇਵੇਗਾ।
 
-## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਦੀ ਫਾਰਮਲਾਈਜ਼ੇਸ਼ਨ
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) ਨੋਟਬੁੱਕ 'ਤੇ ਜਾਓ ਅਤੇ ਇਸਨੂੰ ਪੂਰਾ ਕਰੋ।
 
-## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ
 

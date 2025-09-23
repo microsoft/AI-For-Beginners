@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mga Generative na Network
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Ang Recurrent Neural Networks (RNNs) at ang mga gated cell variant nito tulad ng Long Short Term Memory Cells (LSTMs) at Gated Recurrent Units (GRUs) ay nagbibigay ng mekanismo para sa pagmomodelo ng wika dahil kaya nilang matutunan ang pagkakasunod-sunod ng mga salita at magbigay ng prediksyon para sa susunod na salita sa isang sequence. Dahil dito, magagamit natin ang RNNs para sa **generative tasks**, tulad ng ordinaryong text generation, machine translation, at maging sa image captioning.
 
@@ -71,7 +71,7 @@ Kumuha ng mga aralin sa Microsoft Learn tungkol sa paksang ito
 
 * Text Generation gamit ang [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Review at Pag-aaral sa Sarili
 

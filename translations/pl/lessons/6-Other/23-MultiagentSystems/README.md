@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Jednym z możliwych sposobów osiągnięcia inteligencji jest tak zwane podejście **emergentne** (lub **synergetyczne**), które opiera się na fakcie, że połączone zachowanie wielu stosunkowo prostych agentów może prowadzić do bardziej złożonego (lub inteligentnego) zachowania całego systemu. Teoretycznie opiera się to na zasadach [Inteligencji Kolektywnej](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentyzmu](https://en.wikipedia.org/wiki/Global_brain) i [Ewolucyjnej Cybernetyki](https://en.wikipedia.org/wiki/Global_brain), które zakładają, że systemy wyższego poziomu zyskują pewną wartość dodaną, gdy są odpowiednio połączone z systemami niższego poziomu (tak zwana *zasada przejścia metasystemowego*).
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Kierunek **Systemów Wieloagentowych** pojawił się w AI w latach 90. XX wieku jako odpowiedź na rozwój Internetu i systemów rozproszonych. Jednym z klasycznych podręczników AI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), skupia się na klasycznym podejściu AI z perspektywy systemów wieloagentowych.
 
@@ -152,7 +152,7 @@ Wszystkie skupiają się na prostszym zachowaniu pojedynczego agenta i osiągaj�
 
 Przenieś tę lekcję do rzeczywistego świata i spróbuj zaprojektować system wieloagentowy, który może rozwiązać problem. Co na przykład musiałby zrobić system wieloagentowy, aby zoptymalizować trasę szkolnego autobusu? Jak mógłby działać w piekarni?
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Przegląd i Samodzielna Nauka
 

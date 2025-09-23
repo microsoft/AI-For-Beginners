@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Генеративни мрежи
 
-## [Тест преди лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Рекурентните невронни мрежи (RNNs) и техните варианти с гейт клетки, като клетки с дългосрочна памет (LSTMs) и гейт рекурентни единици (GRUs), предоставят механизъм за моделиране на език, тъй като могат да научат реда на думите и да предсказват следващата дума в последователност. Това ни позволява да използваме RNNs за **генеративни задачи**, като обикновено генериране на текст, машинен превод и дори създаване на описания на изображения.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * Генериране на текст с [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Тест след лекцията](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Тест след лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Преглед и самостоятелно обучение
 

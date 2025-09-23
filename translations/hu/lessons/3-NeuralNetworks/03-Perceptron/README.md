@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés a neurális hálózatokba: Perceptron
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Az egyik első próbálkozás egy modern neurális hálózathoz hasonló rendszer megvalósítására Frank Rosenblatt nevéhez fűződik, aki 1957-ben a Cornell Aeronautical Laboratory-nál dolgozott. Ez egy hardveres megvalósítás volt, amelyet "Mark-1"-nek neveztek, és amelyet egyszerű geometriai alakzatok, például háromszögek, négyzetek és körök felismerésére terveztek.
 
@@ -85,7 +85,7 @@ Ebben a leckében megismerkedtél a perceptronnal, amely egy bináris osztályoz
 
 Ha szeretnéd kipróbálni egy saját perceptron létrehozását, próbáld ki [ezt a labort a Microsoft Learn oldalon](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), amely az [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) használatát mutatja be.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Áttekintés és önálló tanulás
 

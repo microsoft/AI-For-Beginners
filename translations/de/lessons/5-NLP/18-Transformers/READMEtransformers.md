@@ -1,6 +1,6 @@
 # Aufmerksamkeitsmechanismen und Transformer
 
-## [Vorlesungsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Vorlesungsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Eines der wichtigsten Probleme im Bereich der NLP ist die **maschinelle Übersetzung**, eine grundlegende Aufgabe, die Tools wie Google Translate zugrunde liegt. In diesem Abschnitt konzentrieren wir uns auf maschinelle Übersetzung oder, allgemeiner, auf jede *Sequenz-zu-Sequenz*-Aufgabe (die auch als **Satztransduktion** bezeichnet wird).
 
@@ -99,7 +99,7 @@ In dieser Lektion haben Sie über Transformer und Aufmerksamkeitsmechanismen gel
 
 ## 🚀 Herausforderung
 
-## [Nachlesequiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Nachlesequiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Überprüfung & Selbststudium
 

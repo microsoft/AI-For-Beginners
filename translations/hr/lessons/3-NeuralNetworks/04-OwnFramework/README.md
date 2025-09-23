@@ -19,7 +19,7 @@ U ovom dijelu proširit ćemo ovaj model u fleksibilniji okvir koji nam omoguću
 
 Također ćemo razviti vlastiti modularni okvir u Pythonu koji će nam omogućiti konstrukciju različitih arhitektura neuronskih mreža.
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalizacija strojnog učenja
 
@@ -81,7 +81,7 @@ U pratećoj bilježnici implementirat ćete vlastiti okvir za izgradnju i trenir
 
 Prijeđite na bilježnicu [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) i prođite kroz nju.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Pregled i samostalno učenje
 

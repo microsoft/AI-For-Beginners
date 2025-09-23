@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Cuando entrenamos clasificadores basados en BoW o TF/IDF, trabajamos con vectores de bolsa de palabras de alta dimensión con una longitud de `vocab_size`, y estábamos convirtiendo explícitamente de vectores de representación posicional de baja dimensión a representaciones dispersas de una sola posición activa (one-hot). Sin embargo, esta representación de una sola posición activa no es eficiente en términos de memoria. Además, cada palabra se trata de manera independiente, es decir, los vectores codificados en una sola posición activa no expresan ninguna similitud semántica entre palabras.
 
@@ -65,7 +65,7 @@ En esta lección, descubriste cómo construir y usar capas de embedding en Tenso
 
 Word2Vec se ha utilizado para algunas aplicaciones interesantes, incluyendo la generación de letras de canciones y poesía. Echa un vistazo a [este artículo](https://www.politetype.com/blog/word2vec-color-poems) que explica cómo el autor utilizó Word2Vec para generar poesía. Mira [este video de Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) también para descubrir una explicación diferente de esta técnica. Luego intenta aplicar estas técnicas a tu propio corpus de texto, quizás obtenido de Kaggle.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Revisión y Autoestudio
 

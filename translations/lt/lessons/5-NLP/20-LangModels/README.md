@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Visose ankstesnėse užduotyse mes treniravome neuroninį tinklą atlikti tam tikrą užduotį, naudodami pažymėtą duomenų rinkinį. Naudojant didelius transformatorių modelius, tokius kaip BERT, kalbos modeliavimas vykdomas savarankiškai prižiūrimu būdu, siekiant sukurti kalbos modelį, kuris vėliau specializuojamas konkrečiai užduočiai su papildomu domeno specifiniu mokymu. Tačiau buvo įrodyta, kad dideli kalbos modeliai gali išspręsti daugelį užduočių ir be JOKIO domeno specifinio mokymo. Modelių šeima, galinti tai padaryti, vadinama **GPT**: Generatyvus iš anksto apmokytas transformatorius.
 
-## [Prieš paskaitą skirtas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Prieš paskaitą skirtas testas](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Teksto generavimas ir sudėtingumas
 
@@ -58,7 +58,7 @@ Tęskite mokymąsi šiose užrašų knygelėse:
 
 Nauji bendrieji iš anksto apmokyti kalbos modeliai ne tik modeliuoja kalbos struktūrą, bet ir turi didžiulį natūralios kalbos žinių kiekį. Todėl jie gali būti efektyviai naudojami sprendžiant kai kurias NLP užduotis be mokymo arba su minimaliu mokymu.
 
-## [Po paskaitos skirtas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Po paskaitos skirtas testas](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

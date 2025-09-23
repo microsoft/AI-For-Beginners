@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Una de las posibles formas de lograr inteligencia es el enfoque llamado **emergente** (o **sinérgico**), que se basa en el hecho de que el comportamiento combinado de muchos agentes relativamente simples puede resultar en un comportamiento más complejo (o inteligente) del sistema en su conjunto. Teóricamente, esto se basa en los principios de [Inteligencia Colectiva](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentismo](https://en.wikipedia.org/wiki/Global_brain) y [Cibernética Evolutiva](https://en.wikipedia.org/wiki/Global_brain), que afirman que los sistemas de nivel superior obtienen algún tipo de valor añadido cuando se combinan adecuadamente a partir de sistemas de nivel inferior (el llamado *principio de transición de metasistema*).
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 La dirección de los **Sistemas Multi-Agente** surgió en la IA en la década de 1990 como respuesta al crecimiento de Internet y los sistemas distribuidos. Uno de los libros de texto clásicos de IA, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), se centra en la visión de la IA clásica desde el punto de vista de los sistemas multi-agente.
 
@@ -152,7 +152,7 @@ Todos tienden a centrarse en el comportamiento más simple de un agente individu
 
 Lleva esta lección al mundo real e intenta conceptualizar un sistema multi-agente que pueda resolver un problema. ¿Qué, por ejemplo, necesitaría hacer un sistema multi-agente para optimizar la ruta de un autobús escolar? ¿Cómo podría funcionar en una panadería?
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Revisión y Estudio Personal
 

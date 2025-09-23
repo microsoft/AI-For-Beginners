@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Генеративне мреже
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Рекурентне неуронске мреже (RNN) и њихове варијанте са "гейтованим" ћелијама, као што су Long Short Term Memory ћелије (LSTM) и Gated Recurrent Units (GRU), пружају механизам за моделирање језика јер могу да науче редослед речи и дају предвиђања за следећу реч у низу. Ово нам омогућава да користимо RNN за **генеративне задатке**, као што су обично генерисање текста, машинско превођење, па чак и генерисање описа слика.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * Генерисање текста са [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Квиз након предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Квиз након предавања](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Преглед и самостално учење
 

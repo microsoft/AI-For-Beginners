@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Eine der möglichen Methoden, Intelligenz zu erreichen, ist der sogenannte **emergente** (oder **synergetische**) Ansatz, der auf der Tatsache basiert, dass das kombinierte Verhalten vieler relativ einfacher Agenten zu einem insgesamt komplexeren (oder intelligenteren) Verhalten des Systems als Ganzes führen kann. Theoretisch basiert dies auf den Prinzipien der [kollektiven Intelligenz](https://en.wikipedia.org/wiki/Collective_intelligence), des [Emergentismus](https://en.wikipedia.org/wiki/Global_brain) und der [evolutionären Kybernetik](https://en.wikipedia.org/wiki/Global_brain), die besagen, dass höherstufige Systeme einen Mehrwert erhalten, wenn sie richtig aus niedrigeren Systemen kombiniert werden (das sogenannte *Prinzip des Übergangs zu Metasystemen*).
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Die Richtung der **Multi-Agenten-Systeme** entstand in den 1990er Jahren in der KI als Reaktion auf das Wachstum des Internets und verteilter Systeme. Eines der klassischen Lehrbücher der KI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), betrachtet die klassische KI aus der Perspektive von Multi-Agenten-Systemen.
 
@@ -152,7 +152,7 @@ Sie konzentrieren sich alle auf das einfachere Verhalten eines einzelnen Agenten
 
 Übertragen Sie diese Lektion in die reale Welt und versuchen Sie, ein Multi-Agenten-System zu konzeptualisieren, das ein Problem lösen kann. Was müsste ein Multi-Agenten-System beispielsweise tun, um eine Schulbusroute zu optimieren? Wie könnte es in einer Bäckerei funktionieren?
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Überprüfung & Selbststudium
 

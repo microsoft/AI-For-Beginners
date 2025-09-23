@@ -19,7 +19,7 @@ I denne seksjonen vil vi utvide denne modellen til et mer fleksibelt rammeverk s
 
 Vi vil også utvikle vårt eget modulære rammeverk i Python som lar oss konstruere ulike arkitekturer for nevrale nettverk.
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisering av maskinlæring
 
@@ -81,7 +81,7 @@ I den medfølgende notatboken vil du implementere ditt eget rammeverk for å byg
 
 Gå videre til [OwnFramework](OwnFramework.ipynb)-notatboken og arbeid deg gjennom den.
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Gjennomgang og selvstudium
 

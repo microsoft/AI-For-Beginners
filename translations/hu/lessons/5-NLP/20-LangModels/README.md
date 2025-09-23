@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Az eddigi feladataink során egy neurális hálót tanítottunk be egy adott feladat elvégzésére címkézett adathalmaz segítségével. Nagy transzformer modellek, mint például a BERT esetében, önfelügyelt nyelvi modellezést használunk egy nyelvi modell létrehozásához, amelyet aztán további, specifikus területekre irányuló képzéssel specializálunk konkrét feladatokra. Azonban bebizonyosodott, hogy a nagy nyelvi modellek számos feladatot képesek megoldani bármiféle területspecifikus képzés nélkül is. Az ilyen modellek családját **GPT**-nek, azaz Generatív Előre Trénelt Transzformernek nevezzük.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Szöveg Generálás és Perplexitás
 
@@ -58,7 +58,7 @@ Folytasd a tanulást az alábbi notebookokban:
 
 Az új általános előre trénelt nyelvi modellek nemcsak a nyelvi struktúrát modellezik, hanem hatalmas mennyiségű természetes nyelvet is tartalmaznak. Ezért hatékonyan használhatók bizonyos NLP feladatok megoldására nulla vagy kevés tanítással.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Felelősség kizárása**:  
 Ez a dokumentum az AI fordítási szolgáltatás [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével lett lefordítva. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az eredeti nyelvén tekintendő hiteles forrásnak. Fontos információk esetén javasolt professzionális emberi fordítást igénybe venni. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely a fordítás használatából eredhet.

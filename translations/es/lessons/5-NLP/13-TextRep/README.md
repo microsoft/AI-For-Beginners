@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representación de texto como tensores
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Clasificación de texto
 
@@ -73,7 +73,7 @@ Hasta ahora, hemos estudiado técnicas que pueden agregar peso de frecuencia a d
 
 Prueba algunos otros ejercicios utilizando bag-of-words y diferentes modelos de datos. Podrías inspirarte en esta [competencia en Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Revisión y autoestudio
 

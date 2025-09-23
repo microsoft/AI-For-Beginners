@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 实现智能的一种可能方法是所谓的**涌现**（或**协同**）方法，其基于这样一个事实：许多相对简单的智能体的组合行为可以导致整个系统表现出更复杂（或更智能）的行为。从理论上讲，这种方法基于[集体智能](https://en.wikipedia.org/wiki/Collective_intelligence)、[涌现论](https://en.wikipedia.org/wiki/Global_brain)和[进化控制论](https://en.wikipedia.org/wiki/Global_brain)的原则，这些理论认为，当低级系统被适当组合成高级系统时，会产生某种附加价值（即所谓的*元系统转变原则*）。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **多智能体系统**这一方向在1990年代因互联网和分布式系统的发展而在人工智能领域兴起。经典的人工智能教材之一[《人工智能：现代方法》](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach)从多智能体系统的角度探讨了经典人工智能的视角。
 
@@ -152,7 +152,7 @@ NetLogo 的世界由以下对象组成：
 
 将本课内容应用于现实世界，尝试构思一个可以解决问题的多智能体系统。例如，一个多智能体系统需要做些什么来优化校车路线？它如何在面包店中工作？
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## 复习与自学
 

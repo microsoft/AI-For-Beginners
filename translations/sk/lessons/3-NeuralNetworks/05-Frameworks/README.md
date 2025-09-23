@@ -14,7 +14,7 @@ Ako sme sa už naučili, na efektívne trénovanie neurónových sietí musíme 
 * Operovať s tenzormi, napr. násobiť, sčítať a počítať niektoré funkcie ako sigmoid alebo softmax
 * Počítať gradienty všetkých výrazov, aby sme mohli vykonávať optimalizáciu pomocou gradientného zostupu
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Kým knižnica `numpy` dokáže vykonávať prvú časť, potrebujeme mechanizmus na výpočet gradientov. V [našom frameworku](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), ktorý sme vyvinuli v predchádzajúcej sekcii, sme museli manuálne programovať všetky derivácie vo vnútri metódy `backward`, ktorá vykonáva spätnú propagáciu. Ideálne by mal framework umožniť výpočet gradientov *akéhokoľvek výrazu*, ktorý môžeme definovať.
 
@@ -106,7 +106,7 @@ V tejto lekcii ste sa naučili rozdiely medzi rôznymi API pre dva najpopulárne
 
 V sprievodných notebookoch nájdete 'úlohy' na konci; prejdite si notebooky a dokončite úlohy.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Prehľad & Samoštúdium
 

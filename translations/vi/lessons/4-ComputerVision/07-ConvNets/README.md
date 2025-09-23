@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Chúng ta đã thấy trước đây rằng mạng nơ-ron rất tốt trong việc xử lý hình ảnh, và thậm chí một perceptron một lớp cũng có thể nhận diện chữ số viết tay từ tập dữ liệu MNIST với độ chính xác khá cao. Tuy nhiên, tập dữ liệu MNIST rất đặc biệt, tất cả các chữ số đều được căn giữa trong hình ảnh, điều này làm cho nhiệm vụ trở nên đơn giản hơn.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Trong thực tế, chúng ta muốn có khả năng nhận diện các đối tượng trong một bức ảnh bất kể vị trí chính xác của chúng trong hình ảnh. Thị giác máy tính khác với phân loại thông thường, bởi vì khi chúng ta cố gắng tìm một đối tượng cụ thể trong hình ảnh, chúng ta sẽ quét hình ảnh để tìm kiếm các **mẫu** cụ thể và sự kết hợp của chúng. Ví dụ, khi tìm kiếm một con mèo, đầu tiên chúng ta có thể tìm các đường ngang, có thể tạo thành râu, và sau đó sự kết hợp nhất định của các râu có thể cho chúng ta biết rằng đó thực sự là hình ảnh của một con mèo. Vị trí tương đối và sự hiện diện của các mẫu nhất định là quan trọng, chứ không phải vị trí chính xác của chúng trong hình ảnh.
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Una dintre modalitățile posibile de a obține inteligență este abordarea așa-numită **emergentă** (sau **sinergică**), care se bazează pe faptul că comportamentul combinat al multor agenți relativ simpli poate duce la un comportament general mai complex (sau inteligent) al sistemului în ansamblu. Teoretic, aceasta se bazează pe principiile [Inteligenței Colective](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentismului](https://en.wikipedia.org/wiki/Global_brain) și [Ciberneticii Evolutive](https://en.wikipedia.org/wiki/Global_brain), care afirmă că sistemele de nivel superior dobândesc un fel de valoare adăugată atunci când sunt combinate corespunzător din sisteme de nivel inferior (așa-numitul *principiu al tranziției metasistemului*).
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Direcția **Sistemelor Multi-Agent** a apărut în AI în anii 1990 ca răspuns la creșterea Internetului și a sistemelor distribuite. Unul dintre manualele clasice de AI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), se concentrează pe perspectiva AI clasică din punctul de vedere al sistemelor multi-agent.
 
@@ -152,7 +152,7 @@ Toate tind să se concentreze pe comportamentul mai simplu al unui agent individ
 
 Aplicați această lecție în lumea reală și încercați să conceptualizați un sistem multi-agent care poate rezolva o problemă. Ce ar trebui să facă, de exemplu, un sistem multi-agent pentru a optimiza ruta unui autobuz școlar? Cum ar putea funcționa într-o brutărie?
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Revizuire și Studiu Individual
 

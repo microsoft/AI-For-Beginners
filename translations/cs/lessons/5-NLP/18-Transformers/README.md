@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mechanismy pozornosti a transformery
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Jedním z nejdůležitějších problémů v oblasti NLP je **strojový překlad**, což je klíčový úkol, na kterém stojí nástroje jako Google Překladač. V této sekci se zaměříme na strojový překlad, nebo obecněji na jakýkoli úkol typu *sekvence na sekvenci* (také nazývaný **převod vět**).
 
@@ -108,7 +108,7 @@ V této lekci jste se naučili o Transformerech a Mechanismech pozornosti, což 
 
 ## 🚀 Výzva
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Přehled a samostudium
 

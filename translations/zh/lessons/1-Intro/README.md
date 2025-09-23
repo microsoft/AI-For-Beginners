@@ -54,7 +54,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在互联网上进行探索，找出你认为人工智能最有效的应用领域。是地图应用程序、语音转文字服务，还是视频游戏？研究该系统是如何构建的。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## 复习与自学
 

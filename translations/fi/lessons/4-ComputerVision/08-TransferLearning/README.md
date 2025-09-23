@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Konvoluutionaalisten neuroverkkojen (CNN) kouluttaminen voi viedä paljon aikaa, ja siihen tarvitaan runsaasti dataa. Suuri osa ajasta kuluu kuitenkin parhaiden matalan tason suodattimien oppimiseen, joita verkko voi käyttää kuvioiden tunnistamiseen kuvista. Herää luonnollinen kysymys – voimmeko käyttää yhdellä aineistolla koulutettua neuroverkkoa ja mukauttaa sen luokittelemaan erilaisia kuvia ilman, että koko koulutusprosessia tarvitaan?
 
-## [Ennakkovisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Ennakkovisa](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Tätä lähestymistapaa kutsutaan **siirto-oppimiseksi**, koska siirrämme tietoa yhdestä neuroverkkon mallista toiseen. Siirto-oppimisessa aloitamme yleensä esikoulutetulla mallilla, joka on koulutettu suurella kuvadatasetillä, kuten **ImageNet**. Nämä mallit osaavat jo hyvin tunnistaa erilaisia piirteitä yleisistä kuvista, ja monissa tapauksissa pelkän luokittelijan rakentaminen näiden piirteiden päälle voi tuottaa hyviä tuloksia.
 
@@ -76,7 +76,7 @@ Siirto-oppimisen avulla voit nopeasti rakentaa luokittelijan mukautettuun objekt
 
 Mukana olevissa muistikirjoissa on huomioita siitä, kuinka siirto-oppiminen toimii parhaiten jossain määrin samankaltaisen koulutusdatan kanssa (esimerkiksi uusi eläinlaji). Tee kokeiluja täysin uusilla kuvatyypeillä nähdäksesi, kuinka hyvin tai huonosti siirto-oppimismallisi toimivat.
 
-## [Jälkivisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Jälkivisa](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Kertaus ja itseopiskelu
 

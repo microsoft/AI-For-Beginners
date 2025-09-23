@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 In al onze eerdere taken trainden we een neuraal netwerk om een bepaalde taak uit te voeren met behulp van een gelabelde dataset. Bij grote transformermodellen, zoals BERT, gebruiken we taalmodellering op een zelf-gestuurde manier om een taalmodel te bouwen, dat vervolgens wordt gespecialiseerd voor een specifieke downstream-taak met verdere domeinspecifieke training. Het is echter aangetoond dat grote taalmodellen ook veel taken kunnen oplossen zonder ENIGE domeinspecifieke training. Een familie van modellen die dat kan, wordt **GPT** genoemd: Generative Pre-Trained Transformer.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Tekstgeneratie en Perplexiteit
 
@@ -58,7 +58,7 @@ Ga verder met leren in de volgende notebooks:
 
 Nieuwe algemene voorgetrainde taalmodellen modelleren niet alleen de taalstructuur, maar bevatten ook een enorme hoeveelheid natuurlijke taal. Hierdoor kunnen ze effectief worden gebruikt om enkele NLP-taken op te lossen in zero-shot- of few-shot-instellingen.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 V prejšnjem poglavju smo spoznali **generativne modele**: modele, ki lahko ustvarijo nove slike, podobne tistim v učnem naboru podatkov. VAE je bil dober primer generativnega modela.
 
-## [Pre-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Če pa poskušamo ustvariti nekaj resnično smiselnega, na primer sliko z razumno ločljivostjo, z VAE, bomo opazili, da se učenje ne konvergira dobro. Za ta primer uporabe se moramo naučiti o drugi arhitekturi, ki je posebej namenjena generativnim modelom - **Generativne nasprotujoče si mreže** ali GAN-i.
 
@@ -84,7 +84,7 @@ Kako deluje:
 
 ## ✍️ Primer: [Prenos sloga](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Po-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Po-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Zaključek
 

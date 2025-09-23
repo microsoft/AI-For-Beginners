@@ -54,7 +54,7 @@ In den letzten Jahren haben wir große Erfolge mit großen Sprachmodellen wie BE
 
 Machen Sie eine Internetrecherche, um herauszufinden, wo KI Ihrer Meinung nach am effektivsten eingesetzt wird. Ist es in einer Karten-App, einem Sprach-zu-Text-Dienst oder einem Videospiel? Recherchieren Sie, wie das System aufgebaut wurde.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Rückblick & Selbststudium
 

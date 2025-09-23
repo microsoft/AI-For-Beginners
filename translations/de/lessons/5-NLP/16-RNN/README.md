@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurrente Neuronale Netze
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 In den vorherigen Abschnitten haben wir reichhaltige semantische Repräsentationen von Text und einen einfachen linearen Klassifikator auf den Einbettungen verwendet. Diese Architektur erfasst die aggregierte Bedeutung der Wörter in einem Satz, berücksichtigt jedoch nicht die **Reihenfolge** der Wörter, da die Aggregationsoperation auf den Einbettungen diese Information aus dem ursprünglichen Text entfernt hat. Da diese Modelle die Wortreihenfolge nicht modellieren können, sind sie nicht in der Lage, komplexere oder mehrdeutige Aufgaben wie Textgenerierung oder Beantwortung von Fragen zu lösen.
 
@@ -84,7 +84,7 @@ Lesen Sie einige Literatur über LSTMs und überlegen Sie sich deren Anwendungen
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Wiederholung & Selbststudium
 

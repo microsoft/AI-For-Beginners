@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Uno dei modi possibili per raggiungere l'intelligenza è il cosiddetto approccio **emergente** (o **sinergico**), basato sul fatto che il comportamento combinato di molti agenti relativamente semplici può portare a un comportamento complessivo più complesso (o intelligente) del sistema nel suo insieme. Teoricamente, ciò si basa sui principi dell'[Intelligenza Collettiva](https://en.wikipedia.org/wiki/Collective_intelligence), dell'[Emergentismo](https://en.wikipedia.org/wiki/Global_brain) e della [Cibernetica Evolutiva](https://en.wikipedia.org/wiki/Global_brain), che affermano che i sistemi di livello superiore acquisiscono un certo valore aggiunto quando vengono opportunamente combinati da sistemi di livello inferiore (il cosiddetto *principio della transizione del metasistema*).
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 La direzione dei **Sistemi Multi-Agente** è emersa nell'IA negli anni '90 come risposta alla crescita di Internet e dei sistemi distribuiti. Uno dei classici libri di testo sull'IA, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), si concentra sulla visione dell'IA classica dal punto di vista dei sistemi multi-agente.
 
@@ -152,7 +152,7 @@ Tendono tutti a concentrarsi sul comportamento più semplice di un singolo agent
 
 Porta questa lezione nel mondo reale e prova a concettualizzare un sistema multi-agente che possa risolvere un problema. Cosa, ad esempio, dovrebbe fare un sistema multi-agente per ottimizzare il percorso di uno scuolabus? Come potrebbe funzionare in una panetteria?
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Revisione e Studio Autonomo
 

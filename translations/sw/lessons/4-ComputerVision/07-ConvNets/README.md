@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tumeona hapo awali kwamba mitandao ya neural ni nzuri sana katika kushughulikia picha, na hata perceptron ya tabaka moja inaweza kutambua namba zilizoandikwa kwa mkono kutoka kwenye seti ya data ya MNIST kwa usahihi wa kuridhisha. Hata hivyo, seti ya data ya MNIST ni maalum sana, na namba zote ziko katikati ya picha, jambo ambalo hufanya kazi kuwa rahisi zaidi.
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Katika maisha halisi, tunataka kuwa na uwezo wa kutambua vitu kwenye picha bila kujali eneo lao halisi ndani ya picha. Maono ya kompyuta ni tofauti na uainishaji wa kawaida, kwa sababu tunapojaribu kutafuta kitu fulani kwenye picha, tunachanganua picha tukitafuta **mifumo** fulani na mchanganyiko wake. Kwa mfano, tunapotafuta paka, tunaweza kwanza kutafuta mistari ya mlalo, ambayo inaweza kuunda sharubu, na kisha mchanganyiko fulani wa sharubu unaweza kutuambia kwamba ni picha ya paka. Nafasi ya jamaa na uwepo wa mifumo fulani ni muhimu, na si nafasi yao halisi kwenye picha.
 

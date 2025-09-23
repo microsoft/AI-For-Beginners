@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 生成式網絡
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 循環神經網絡（RNN）及其門控單元變體，例如長短期記憶單元（LSTM）和門控循環單元（GRU），提供了一種語言建模的機制，能夠學習詞語的排列順序並預測序列中的下一個詞語。這使得我們可以使用 RNN 進行**生成式任務**，例如普通文本生成、機器翻譯，甚至是圖像描述。
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * 使用 [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) 進行文本生成
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## 回顧與自學
 

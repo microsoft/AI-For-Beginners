@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantiniai įterpiniai, tokie kaip Word2Vec ir GloVe, iš tiesų yra pirmasis žingsnis link **kalbos modeliavimo** – modelių kūrimo, kurie kažkaip *supranta* (arba *atspindi*) kalbos prigimtį.
 
-## [Prieš paskaitą vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Prieš paskaitą vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Pagrindinė kalbos modeliavimo idėja yra jų mokymas su nepažymėtais duomenų rinkiniais nesupervizuotu būdu. Tai svarbu, nes turime didžiulius kiekius nepažymėto teksto, tuo tarpu pažymėto teksto kiekis visada bus ribotas dėl pastangų, reikalingų jį pažymėti. Dažniausiai galime kurti kalbos modelius, kurie gali **prognozuoti trūkstamus žodžius** tekste, nes lengva atsitiktinai užmaskuoti žodį tekste ir naudoti jį kaip mokymo pavyzdį.
 
@@ -38,7 +38,7 @@ Tęskite mokymąsi šiuose užrašuose:
 
 Ankstesnėje pamokoje matėme, kad žodžių įterpiniai veikia kaip magija! Dabar žinome, kad žodžių įterpinių mokymas nėra labai sudėtinga užduotis, ir prireikus turėtume sugebėti apmokyti savo žodžių įterpinius specifiniam tekstui.
 
-## [Po paskaitos vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Po paskaitos vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Apžvalga ir savarankiškas mokymasis
 

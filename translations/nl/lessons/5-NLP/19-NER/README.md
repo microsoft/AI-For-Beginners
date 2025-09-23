@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tot nu toe hebben we ons voornamelijk gericht op één NLP-taak: classificatie. Er zijn echter ook andere NLP-taken die met neurale netwerken kunnen worden uitgevoerd. Een van die taken is **[Herkenning van benoemde entiteiten](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), waarbij specifieke entiteiten in tekst worden herkend, zoals plaatsen, persoonsnamen, datums, chemische formules, enzovoort.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Voorbeeld van het gebruik van NER
 
@@ -79,7 +79,7 @@ Een NER-model is een **tokenclassificatiemodel**, wat betekent dat het kan worde
 
 Voltooi de opdracht via de onderstaande link om een model voor herkenning van medische entiteiten te trainen en probeer het vervolgens op een andere dataset.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Review & Zelfstudie
 

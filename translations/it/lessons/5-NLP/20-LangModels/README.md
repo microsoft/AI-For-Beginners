@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 In tutti i nostri compiti precedenti, abbiamo addestrato una rete neurale per svolgere un determinato compito utilizzando un dataset etichettato. Con i grandi modelli transformer, come BERT, utilizziamo il modellamento del linguaggio in modalità auto-supervisionata per costruire un modello di linguaggio, che viene poi specializzato per compiti specifici downstream con ulteriore addestramento specifico per il dominio. Tuttavia, è stato dimostrato che i grandi modelli di linguaggio possono anche risolvere molti compiti senza ALCUN addestramento specifico per il dominio. Una famiglia di modelli in grado di fare ciò è chiamata **GPT**: Generative Pre-Trained Transformer.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generazione di Testo e Perplessità
 
@@ -58,7 +58,7 @@ Continua il tuo apprendimento nei seguenti notebook:
 
 I nuovi modelli di linguaggio pre-addestrati generali non solo modellano la struttura del linguaggio, ma contengono anche una vasta quantità di linguaggio naturale. Pertanto, possono essere utilizzati efficacemente per risolvere alcuni compiti di NLP in modalità zero-shot o few-shot.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Disclaimer (Avvertenza)**:  
 Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di tenere presente che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.

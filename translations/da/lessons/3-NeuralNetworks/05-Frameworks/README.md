@@ -14,7 +14,7 @@ Som vi allerede har lært, skal vi gøre to ting for effektivt at træne neurale
 * Arbejde med tensorer, f.eks. multiplicere, addere og beregne funktioner som sigmoid eller softmax
 * Beregne gradienter af alle udtryk for at udføre gradient descent-optimering
 
-## [Quiz før lektionen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Mens `numpy`-biblioteket kan håndtere den første del, har vi brug for en mekanisme til at beregne gradienter. I [vores rammeværk](../04-OwnFramework/OwnFramework.ipynb), som vi udviklede i det forrige afsnit, var vi nødt til manuelt at programmere alle afledte funktioner i `backward`-metoden, som udfører backpropagation. Ideelt set bør et rammeværk give os mulighed for at beregne gradienter af *ethvert udtryk*, vi kan definere.
 
@@ -106,7 +106,7 @@ I denne lektion lærte du om forskellene mellem de forskellige API'er for de to 
 
 I de tilhørende notebooks finder du 'opgaver' nederst; gennemgå notebooks og fuldfør opgaverne.
 
-## [Quiz efter lektionen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Gennemgang & Selvstudie
 

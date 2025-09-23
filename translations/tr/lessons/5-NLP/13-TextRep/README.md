@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Metni Tensörler Olarak Temsil Etme
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Metin Sınıflandırma
 
@@ -73,7 +73,7 @@ Aşağıdaki not defterlerinde öğrenmeye devam edin:
 
 Kelime torbası ve farklı veri modelleri kullanarak başka alıştırmalar yapmayı deneyin. Bu [Kaggle yarışması](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) size ilham verebilir.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

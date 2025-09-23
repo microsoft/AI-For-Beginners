@@ -54,7 +54,7 @@ Dalam beberapa tahun kebelakangan ini, kita telah menyaksikan kejayaan besar den
 
 Lakukan lawatan di internet untuk menentukan di mana, pada pendapat anda, AI digunakan dengan paling berkesan. Adakah ia dalam aplikasi Pemetaan, atau perkhidmatan ucapan-ke-teks, atau permainan video? Selidik bagaimana sistem tersebut dibangunkan.
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Ulasan & Kajian Kendiri
 

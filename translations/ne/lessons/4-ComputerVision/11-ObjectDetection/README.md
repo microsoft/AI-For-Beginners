@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 अहिलेसम्म हामीले प्रयोग गरेका छवि वर्गीकरण मोडेलहरूले एउटा छवि लिएर वर्गीय नतिजा उत्पादन गर्थे, जस्तै MNIST समस्यामा 'संख्या' वर्ग। तर, धेरै अवस्थामा हामीलाई केवल यो थाहा पाउन चाहिँदैन कि तस्बिरले वस्तुहरू देखाउँछ - हामीलाई तिनीहरूको ठ्याक्कै स्थान निर्धारण गर्न सक्षम हुन चाहिन्छ। यही नै **वस्तु पहिचान**को उद्देश्य हो।
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ne.png)
 
@@ -171,7 +171,7 @@ YOLO एक रियलटाइम एक-पास एल्गोरिद�
  * Yolo: [Keras Implementation](https://github.com/experiencor/keras-yolo2), [Step-by-Step Notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras Implementation](https://github.com/experiencor/keras-yolo2), [Step-by-Step Notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## समीक्षा र आत्म अध्ययन
 

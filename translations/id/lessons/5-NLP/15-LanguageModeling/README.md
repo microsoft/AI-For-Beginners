@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Embedding semantik, seperti Word2Vec dan GloVe, sebenarnya adalah langkah awal menuju **pemodelan bahasa** - menciptakan model yang dapat *memahami* (atau *merepresentasikan*) sifat bahasa.
 
-## [Kuis sebelum pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Kuis sebelum pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Ide utama di balik pemodelan bahasa adalah melatihnya pada dataset tanpa label secara tidak diawasi. Hal ini penting karena kita memiliki jumlah teks tanpa label yang sangat besar, sementara jumlah teks berlabel selalu terbatas oleh upaya yang dapat kita lakukan untuk memberi label. Sebagian besar waktu, kita dapat membangun model bahasa yang dapat **memprediksi kata yang hilang** dalam teks, karena mudah untuk menyembunyikan kata acak dalam teks dan menggunakannya sebagai sampel pelatihan.
 
@@ -38,7 +38,7 @@ Lanjutkan pembelajaran Anda melalui notebook berikut:
 
 Dalam pelajaran sebelumnya, kita telah melihat bahwa embedding kata bekerja seperti sihir! Sekarang kita tahu bahwa melatih embedding kata bukanlah tugas yang sangat kompleks, dan kita seharusnya dapat melatih embedding kata kita sendiri untuk teks spesifik domain jika diperlukan.
 
-## [Kuis setelah pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Tinjauan & Studi Mandiri
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 BoW သို့မဟုတ် TF/IDF အခြေခံထားသော classifier များကို သင်ကြားသင့်သောအခါတွင် `vocab_size` အရှည်ရှိသော အမြင့် dimension bag-of-words vectors များကို အသုံးပြုခဲ့ပြီး၊ အနိမ့် dimension positional representation vectors များမှ sparse one-hot representation သို့ အတိအကျပြောင်းလဲခဲ့သည်။ သို့သော် one-hot representation သည် memory ကို ထိရောက်စွာ အသုံးမပြုနိုင်ပါ။ ထို့အပြင်၊ စကားလုံးတစ်လုံးချင်းစီကို တစ်ခုချင်းစီ သီးခြားစီဆက်ဆံသည်၊ ဤအနေအထားတွင် one-hot encoded vectors များသည် စကားလုံးများအကြား semantic ဆက်စပ်မှုကို မဖော်ပြနိုင်ပါ။
 
@@ -65,7 +65,7 @@ Word2Vec ကဲ့သို့သော traditional pretrained embedding represe
 
 Word2Vec ကို သီချင်းစာသားများနှင့် ကဗျာများ ဖန်တီးရန် အပါအဝင် စိတ်ဝင်စားဖွယ် အပလီကေးရှင်းများအတွက် အသုံးပြုခဲ့သည်။ [ဤဆောင်းပါး](https://www.politetype.com/blog/word2vec-color-poems) ကို ကြည့်ရှုပါ၊ ၎င်းတွင် စာရေးသူသည် Word2Vec ကို အသုံးပြု၍ ကဗျာများ ဖန်တီးပုံကို ရှင်းလင်းဖော်ပြထားသည်။ [Dan Shiffmann ၏ ဤဗီဒီယို](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) ကိုလည်း ကြည့်ရှု၍ ဤနည်းလမ်း၏ အခြားရှင်းလင်းချက်တစ်ခုကို ရှာဖွေပါ။ ထို့နောက်၊ Kaggle မှ ရရှိနိုင်သော သင့်ကိုယ်ပိုင် စာသား corpus အပေါ်တွင် ဤနည်းလမ်းများကို လက်တွေ့အသုံးပြုကြည့်ပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

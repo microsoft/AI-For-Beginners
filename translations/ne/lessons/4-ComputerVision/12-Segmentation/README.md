@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हामीले पहिले **Object Detection** को बारेमा सिकेका थियौं, जसले हामीलाई तस्बिरमा वस्तुहरूको *bounding boxes* भविष्यवाणी गरेर तिनीहरूको स्थान पत्ता लगाउन मद्दत गर्दछ। तर, केही कार्यहरूको लागि हामीलाई केवल bounding boxes मात्र होइन, वस्तुको अझ सटीक स्थान पत्ता लगाउन आवश्यक हुन्छ। यस कार्यलाई **segmentation** भनिन्छ।
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentation लाई **pixel classification** को रूपमा हेर्न सकिन्छ, जहाँ तस्बिरको **प्रत्येक** पिक्सेलको वर्ग (*background* पनि एक वर्ग हो) भविष्यवाणी गर्नुपर्छ। मुख्य दुई प्रकारका segmentation एल्गोरिदमहरू छन्:
 
@@ -56,7 +56,7 @@ Segmentation मा प्रयोग हुने loss function विशे�
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## निष्कर्ष
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kufundisha CNNs kunaweza kuchukua muda mwingi, na data nyingi zinahitajika kwa kazi hiyo. Hata hivyo, muda mwingi hutumika kujifunza vichujio vya kiwango cha chini ambavyo mtandao unaweza kutumia kutoa mifumo kutoka kwenye picha. Swali la asili linajitokeza - je, tunaweza kutumia mtandao wa neva uliowekwa tayari kwenye seti moja ya data na kuubadilisha ili kuainisha picha tofauti bila kuhitaji mchakato kamili wa mafunzo?
 
-## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Mbinu hii inaitwa **uhamishaji wa kujifunza**, kwa sababu tunahamisha maarifa fulani kutoka kwa mfano mmoja wa mtandao wa neva kwenda mwingine. Katika uhamishaji wa kujifunza, mara nyingi tunaanza na mfano uliowekwa tayari, ambao umefundishwa kwenye seti kubwa ya data ya picha, kama vile **ImageNet**. Mifano hiyo tayari inaweza kufanya kazi nzuri ya kutoa vipengele tofauti kutoka kwa picha za jumla, na mara nyingi kujenga kionainishaji juu ya vipengele hivyo vilivyotolewa kunaweza kutoa matokeo mazuri.
 
@@ -76,7 +76,7 @@ Kwa kutumia uhamishaji wa kujifunza, unaweza kuunda haraka kionainishaji kwa kaz
 
 Katika daftari zinazohusiana, kuna maelezo chini kuhusu jinsi maarifa ya uhamishaji hufanya kazi vyema na data ya mafunzo inayofanana kiasi (aina mpya ya mnyama, labda). Fanya majaribio na aina mpya kabisa za picha ili kuona jinsi mifano yako ya maarifa ya uhamishaji inavyofanya kazi vizuri au vibaya.
 
-## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Mapitio na Kujisomea
 

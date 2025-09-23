@@ -1,6 +1,6 @@
 # Mécanismes d'Attention et Transformateurs
 
-## [Quiz pré-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Quiz pré-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 L'un des problèmes les plus importants dans le domaine du traitement du langage naturel (NLP) est **la traduction automatique**, une tâche essentielle qui sous-tend des outils tels que Google Translate. Dans cette section, nous nous concentrerons sur la traduction automatique, ou, plus généralement, sur toute tâche *séquence-à-séquence* (également appelée **transduction de phrases**).
 
@@ -99,7 +99,7 @@ Dans cette leçon, vous avez appris sur les Transformateurs et les Mécanismes d
 
 ## 🚀 Défi
 
-## [Quiz post-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Quiz post-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Révision et Auto-étude
 

@@ -14,7 +14,7 @@ Comme nous l'avons déjà appris, pour entraîner efficacement des réseaux de n
 * Travailler sur des tenseurs, par exemple pour multiplier, additionner et calculer certaines fonctions comme sigmoid ou softmax.
 * Calculer les gradients de toutes les expressions, afin d'effectuer l'optimisation par descente de gradient.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Bien que la bibliothèque `numpy` puisse gérer la première partie, nous avons besoin d'un mécanisme pour calculer les gradients. Dans [notre framework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) que nous avons développé dans la section précédente, nous avons dû programmer manuellement toutes les fonctions dérivées dans la méthode `backward`, qui effectue la rétropropagation. Idéalement, un framework devrait nous permettre de calculer les gradients de *n'importe quelle expression* que nous pouvons définir.
 
@@ -106,7 +106,7 @@ Dans cette leçon, vous avez appris les différences entre les diverses APIs des
 
 Dans les notebooks associés, vous trouverez des "tâches" en bas ; parcourez les notebooks et complétez les tâches.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Révision & Auto-apprentissage
 

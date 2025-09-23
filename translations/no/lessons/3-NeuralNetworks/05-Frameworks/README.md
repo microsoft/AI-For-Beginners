@@ -14,7 +14,7 @@ Som vi allerede har lært, for å kunne trene nevrale nettverk effektivt må vi 
 * Operere på tensorer, f.eks. multiplisere, legge til og beregne funksjoner som sigmoid eller softmax
 * Beregne gradienter av alle uttrykk for å utføre gradientnedstigningsoptimalisering
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Mens `numpy`-biblioteket kan håndtere den første delen, trenger vi en mekanisme for å beregne gradienter. I [vårt rammeverk](../04-OwnFramework/OwnFramework.ipynb) som vi utviklet i forrige seksjon, måtte vi manuelt programmere alle deriverte funksjoner inne i `backward`-metoden, som utfører tilbakepropagering. Ideelt sett bør et rammeverk gi oss muligheten til å beregne gradienter av *ethvert uttrykk* vi kan definere.
 
@@ -106,7 +106,7 @@ I denne leksjonen lærte du om forskjellene mellom de ulike API-ene for de to me
 
 I de medfølgende notatbøkene finner du 'oppgaver' nederst; arbeid gjennom notatbøkene og fullfør oppgavene.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Gjennomgang og selvstudium
 

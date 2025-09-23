@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatywne sieci
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rekurencyjne sieci neuronowe (RNN) oraz ich warianty z komórkami bramkowymi, takie jak komórki pamięci długoterminowej (LSTM) i jednostki rekurencyjne z bramkami (GRU), umożliwiają modelowanie języka, ponieważ potrafią uczyć się kolejności słów i przewidywać następne słowo w sekwencji. Dzięki temu możemy używać RNN do **zadań generatywnych**, takich jak generowanie tekstu, tłumaczenie maszynowe, a nawet opisywanie obrazów.
 
@@ -71,7 +71,7 @@ Weź udział w lekcjach na Microsoft Learn na ten temat
 
 * Generowanie tekstu w [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Przegląd i samodzielna nauka
 

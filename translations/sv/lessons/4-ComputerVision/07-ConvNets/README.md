@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vi har tidigare sett att neurala nätverk är ganska bra på att hantera bilder, och till och med en enkellagers perceptron kan känna igen handskrivna siffror från MNIST-datasetet med rimlig noggrannhet. MNIST-datasetet är dock väldigt speciellt, eftersom alla siffror är centrerade i bilden, vilket gör uppgiften enklare.
 
-## [Förhandsquiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Förhandsquiz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 I verkliga livet vill vi kunna känna igen objekt i en bild oavsett deras exakta position i bilden. Datorseende skiljer sig från generell klassificering, eftersom vi, när vi försöker hitta ett visst objekt i en bild, skannar bilden och letar efter specifika **mönster** och deras kombinationer. Till exempel, när vi letar efter en katt, kan vi först leta efter horisontella linjer som kan bilda morrhår, och sedan kan en viss kombination av morrhår indikera att det faktiskt är en bild av en katt. Den relativa positionen och förekomsten av vissa mönster är viktiga, inte deras exakta position i bilden.
 

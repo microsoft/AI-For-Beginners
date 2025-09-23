@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pencarian kecerdasan buatan adalah berdasarkan usaha untuk memahami dunia seperti manusia. Tetapi bagaimana cara untuk melakukannya?
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Pada zaman awal AI, pendekatan dari atas ke bawah untuk mencipta sistem pintar (dibincangkan dalam pelajaran sebelumnya) adalah popular. Idea ini adalah untuk mengekstrak pengetahuan daripada manusia ke dalam bentuk yang boleh dibaca oleh mesin, dan kemudian menggunakannya untuk menyelesaikan masalah secara automatik. Pendekatan ini berdasarkan dua idea besar:
 
@@ -236,7 +236,7 @@ Pada masa kini, AI sering dianggap sebagai sinonim untuk *Pembelajaran Mesin* at
 
 Dalam buku nota Ontologi Keluarga yang dikaitkan dengan pelajaran ini, terdapat peluang untuk bereksperimen dengan hubungan keluarga lain. Cuba temui sambungan baru antara individu dalam pokok keluarga.
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Kajian Semula & Kajian Kendiri
 

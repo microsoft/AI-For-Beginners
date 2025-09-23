@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 In all unseren bisherigen Aufgaben haben wir ein neuronales Netzwerk trainiert, um eine bestimmte Aufgabe mithilfe eines beschrifteten Datensatzes auszuführen. Mit großen Transformermodellen wie BERT verwenden wir Sprachmodellierung in selbstüberwachter Weise, um ein Sprachmodell zu erstellen, das anschließend durch weitere domänenspezifische Trainings für spezifische nachgelagerte Aufgaben spezialisiert wird. Es wurde jedoch gezeigt, dass große Sprachmodelle viele Aufgaben auch ohne jegliches domänenspezifisches Training lösen können. Eine Familie von Modellen, die dazu in der Lage ist, wird **GPT** genannt: Generative Pre-Trained Transformer.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Textgenerierung und Perplexität
 
@@ -58,7 +58,7 @@ Setzen Sie Ihr Lernen in den folgenden Notebooks fort:
 
 Neue allgemeine vortrainierte Sprachmodelle modellieren nicht nur die Sprachstruktur, sondern enthalten auch eine große Menge an natürlicher Sprache. Daher können sie effektiv verwendet werden, um einige NLP-Aufgaben in Zero-Shot- oder Few-Shot-Szenarien zu lösen.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Haftungsausschluss**:  
 Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, weisen wir darauf hin, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die aus der Nutzung dieser Übersetzung entstehen.

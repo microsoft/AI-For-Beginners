@@ -2,7 +2,7 @@
 
 Dans toutes nos tâches précédentes, nous avons entraîné un réseau de neurones pour accomplir une tâche spécifique en utilisant un ensemble de données étiquetées. Avec de grands modèles transformateurs, tels que BERT, nous utilisons la modélisation du langage de manière auto-supervisée pour construire un modèle linguistique, qui est ensuite spécialisé pour une tâche en aval spécifique grâce à un entraînement supplémentaire spécifique au domaine. Cependant, il a été démontré que les grands modèles de langage peuvent également résoudre de nombreuses tâches sans AUCUN entraînement spécifique au domaine. Une famille de modèles capables de le faire est appelée **GPT** : Transformateur Génératif Pré-entrainé.
 
-## [Quiz pré-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Quiz pré-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Génération de Texte et Perplexité
 
@@ -50,7 +50,7 @@ Poursuivez votre apprentissage dans les notebooks suivants :
 
 Les nouveaux modèles de langage pré-entraînés en général ne modélisent pas seulement la structure du langage, mais contiennent également une vaste quantité de langage naturel. Ainsi, ils peuvent être utilisés efficacement pour résoudre certaines tâches de traitement du langage naturel dans des contextes zéro-shot ou few-shot.
 
-## [Quiz post-conférence](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Quiz post-conférence](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Disclaimer**:  
 This document has been translated using machine-based AI translation services. While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.

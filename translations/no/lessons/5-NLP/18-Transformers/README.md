@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Oppmerksomhetsmekanismer og Transformere
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 En av de viktigste problemene innen NLP er **maskinoversettelse**, en essensiell oppgave som ligger til grunn for verktøy som Google Translate. I denne delen skal vi fokusere på maskinoversettelse, eller mer generelt, på enhver *sekvens-til-sekvens*-oppgave (som også kalles **setningstransduksjon**).
 
@@ -108,7 +108,7 @@ I denne leksjonen lærte du om Transformere og Oppmerksomhetsmekanismer, alle es
 
 ## 🚀 Utfordring
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Gjennomgang & Selvstudium
 

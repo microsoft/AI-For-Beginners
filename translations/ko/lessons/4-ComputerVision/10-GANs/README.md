@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이전 섹션에서는 **생성 모델**에 대해 배웠습니다. 생성 모델은 학습 데이터셋에 있는 이미지와 유사한 새로운 이미지를 생성할 수 있는 모델입니다. VAE는 생성 모델의 좋은 예시였습니다.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 하지만 VAE를 사용하여 합리적인 해상도의 그림과 같이 정말 의미 있는 것을 생성하려고 하면 학습이 잘 수렴하지 않는다는 것을 알게 됩니다. 이러한 경우에는 생성 모델에 특화된 또 다른 아키텍처인 **생성적 적대 신경망(GAN)**에 대해 배워야 합니다.
 
@@ -84,7 +84,7 @@ GAN은 예술적인 이미지를 생성하는 훌륭한 방법입니다. 또 다
 
 ## ✍️ 예제: [스타일 전이](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## 결론
 

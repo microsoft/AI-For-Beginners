@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatívne siete
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rekurentné neurónové siete (RNN) a ich varianty s bránkovými bunkami, ako sú Long Short Term Memory Cells (LSTM) a Gated Recurrent Units (GRU), poskytujú mechanizmus na modelovanie jazyka, pretože dokážu naučiť sa poradie slov a predpovedať nasledujúce slovo v sekvencii. To nám umožňuje používať RNN na **generatívne úlohy**, ako je generovanie bežného textu, strojový preklad a dokonca aj popisovanie obrázkov.
 
@@ -71,7 +71,7 @@ Absolvujte niektoré lekcie na Microsoft Learn na túto tému:
 
 * Generovanie textu s [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Prehľad a samoštúdium
 

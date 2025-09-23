@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kun koulutamme CNN-verkkoja, yksi ongelmista on, että tarvitsemme paljon merkittyä dataa. Kuvien luokittelussa tämä tarkoittaa, että kuvat on jaoteltava eri luokkiin, mikä vaatii manuaalista työtä.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Toisaalta voimme haluta käyttää raakadataa (ilman merkintöjä) CNN-ominaisuuksien oppimiseen, mitä kutsutaan **itseohjautuvaksi oppimiseksi**. Merkittyjen tietojen sijaan käytämme harjoituskuvia sekä verkon syötteenä että tulosteena. **Autokooderin** pääidea on, että meillä on **enkooderiverkko**, joka muuntaa syötekuvan johonkin **latenttitilaan** (yleensä pienemmän kokoiseen vektoriin), ja **dekooderiverkko**, jonka tehtävänä on rekonstruoida alkuperäinen kuva.
 
@@ -80,7 +80,7 @@ Opi lisää autokoodereista näissä vastaavissa muistikirjoissa:
 * **Häviöllinen** - rekonstruoitu kuva ei ole sama kuin alkuperäinen kuva. Häviön luonne määräytyy koulutuksessa käytetyn *häviöfunktion* mukaan.
 * Toimii **merkitsemättömällä datalla**
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Yhteenveto
 
@@ -90,7 +90,7 @@ Tässä oppitunnissa opit erilaisista autokooderityypeistä, joita tekoälytutki
 
 Tässä oppitunnissa opit käyttämään autokoodereita kuvien kanssa. Mutta niitä voidaan käyttää myös musiikkiin! Tutustu Magenta-projektin [MusicVAE](https://magenta.tensorflow.org/music-vae) -projektiin, joka käyttää autokoodereita musiikin rekonstruinnin oppimiseen. Tee [kokeiluja](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) tämän kirjaston kanssa nähdäksesi, mitä voit luoda.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Kertaus ja itseopiskelu
 

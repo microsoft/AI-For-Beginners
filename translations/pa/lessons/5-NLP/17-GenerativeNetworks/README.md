@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਜਨਰੇਟਿਵ ਨੈਟਵਰਕਸ
 
-## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 ਰਿਕਰੰਟ ਨਿਊਰਲ ਨੈਟਵਰਕਸ (RNNs) ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਗੇਟਡ ਸੈੱਲ ਵੈਰੀਐਂਟਸ ਜਿਵੇਂ ਕਿ ਲਾਂਗ ਸ਼ਾਰਟ ਟਰਮ ਮੈਮੋਰੀ ਸੈੱਲਜ਼ (LSTMs) ਅਤੇ ਗੇਟਡ ਰਿਕਰੰਟ ਯੂਨਿਟਸ (GRUs) ਨੇ ਭਾਸ਼ਾ ਮਾਡਲਿੰਗ ਲਈ ਇੱਕ ਮਕੈਨਿਜ਼ਮ ਪ੍ਰਦਾਨ ਕੀਤਾ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਸ਼ਬਦਾਂ ਦੀ ਕ੍ਰਮਵਾਰਤਾ ਸਿੱਖ ਸਕਦੇ ਹਨ ਅਤੇ ਕ੍ਰਮ ਵਿੱਚ ਅਗਲੇ ਸ਼ਬਦ ਦੀ ਭਵਿੱਖਵਾਣੀ ਕਰ ਸਕਦੇ ਹਨ। ਇਸ ਨਾਲ ਸਾਨੂੰ RNNs ਨੂੰ **ਜਨਰੇਟਿਵ ਕੰਮਾਂ** ਲਈ ਵਰਤਣ ਦੀ ਆਗਿਆ ਮਿਲਦੀ ਹੈ, ਜਿਵੇਂ ਕਿ ਆਮ ਪਾਠ ਜਨਰੇਸ਼ਨ, ਮਸ਼ੀਨ ਅਨੁਵਾਦ, ਅਤੇ ਇਮੇਜ ਕੈਪਸ਼ਨਿੰਗ।
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) ਨਾਲ ਪਾਠ ਜਨਰੇਸ਼ਨ
 
-## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ
 

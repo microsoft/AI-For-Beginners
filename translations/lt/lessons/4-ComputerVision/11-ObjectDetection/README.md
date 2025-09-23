@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vaizdų klasifikavimo modeliai, su kuriais dirbome iki šiol, paimdavo vaizdą ir pateikdavo kategorinį rezultatą, pavyzdžiui, klasę „skaičius“ MNIST užduotyje. Tačiau daugeliu atvejų mums nepakanka žinoti, kad paveikslėlyje yra objektų – mes norime nustatyti jų tikslią vietą. Būtent tai ir yra **objektų atpažinimo** esmė.
 
-## [Prieš paskaitą: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objektų atpažinimas](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.lt.png)
 
@@ -172,7 +172,7 @@ Perskaitykite šiuos straipsnius ir sąsiuvinius apie YOLO ir išbandykite juos 
  * Yolo: [Keras įgyvendinimas](https://github.com/experiencor/keras-yolo2), [žingsnis po žingsnio sąsiuvinis](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras įgyvendinimas](https://github.com/experiencor/keras-yolo2), [žingsnis po žingsnio sąsiuvinis](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Po paskaitos: testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Apžvalga ir savarankiškas mokymasis
 

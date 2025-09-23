@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN'leri eğitmek çok zaman alabilir ve bu görev için çok fazla veri gereklidir. Ancak, bu sürenin büyük bir kısmı, bir ağın görüntülerden desenler çıkarmak için kullanabileceği en iyi düşük seviyeli filtreleri öğrenmekle geçer. Doğal olarak şu soru ortaya çıkar: Bir veri kümesinde eğitilmiş bir sinir ağını kullanıp, tamamen yeni bir eğitim sürecine gerek kalmadan farklı görüntüleri sınıflandırmak için uyarlayabilir miyiz?
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Bu yaklaşım **transfer öğrenimi** olarak adlandırılır, çünkü bir sinir ağı modelinden diğerine bir miktar bilgi aktarırız. Transfer öğreniminde genellikle **ImageNet** gibi büyük bir görüntü veri kümesinde eğitilmiş bir önceden eğitilmiş modelle başlarız. Bu modeller, genel görüntülerden farklı özellikler çıkarmada zaten iyi bir iş çıkarabilir ve çoğu durumda bu çıkarılan özelliklerin üzerine bir sınıflandırıcı inşa etmek iyi sonuçlar verebilir.
 
@@ -76,7 +76,7 @@ Transfer öğrenimi kullanarak, özel bir nesne sınıflandırma görevi için h
 
 Eşlik eden not defterlerinde, transfer bilginin en iyi şekilde benzer eğitim verileriyle (örneğin yeni bir hayvan türü) çalıştığına dair notlar bulunmaktadır. Tamamen yeni türdeki görüntülerle biraz deney yaparak transfer bilgi modellerinizin ne kadar iyi veya kötü performans gösterdiğini görün.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

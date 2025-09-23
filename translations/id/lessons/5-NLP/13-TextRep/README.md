@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representasi Teks sebagai Tensor
 
-## [Kuis Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Klasifikasi Teks
 
@@ -73,7 +73,7 @@ Sejauh ini, kita telah mempelajari teknik-teknik yang dapat menambahkan bobot fr
 
 Cobalah beberapa latihan lain menggunakan bag-of-words dan model data yang berbeda. Anda mungkin terinspirasi oleh [kompetisi ini di Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Kuis Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Tinjauan & Studi Mandiri
 

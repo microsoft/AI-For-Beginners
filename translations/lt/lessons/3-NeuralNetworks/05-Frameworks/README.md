@@ -14,7 +14,7 @@ Kaip jau išmokome, norint efektyviai treniruoti neuroninius tinklus, reikia atl
 * Dirbti su tensoriais, pvz., dauginti, sudėti ir apskaičiuoti tam tikras funkcijas, tokias kaip sigmoidė ar softmax
 * Apskaičiuoti visų išraiškų gradientus, kad būtų galima atlikti gradientinio nusileidimo optimizaciją
 
-## [Prieš paskaitą atlikite testą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Prieš paskaitą atlikite testą](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Nors `numpy` biblioteka gali atlikti pirmąją dalį, mums reikia mechanizmo gradientams apskaičiuoti. [Mūsų karkase](../04-OwnFramework/OwnFramework.ipynb), kurį sukūrėme ankstesniame skyriuje, turėjome rankiniu būdu programuoti visas išvestines funkcijas `backward` metode, kuris atlieka atgalinį sklidimą. Idealiu atveju karkasas turėtų suteikti galimybę apskaičiuoti *bet kurios išraiškos* gradientus, kuriuos galime apibrėžti.
 
@@ -106,7 +106,7 @@ Treniravimo metu šališkumo klaida mažėja (kai mūsų modelis mokosi aproksim
 
 Pridedamuose užrašuose rasite „užduotis“ apačioje; peržiūrėkite užrašus ir atlikite užduotis.
 
-## [Po paskaitos atlikite testą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Po paskaitos atlikite testą](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Peržiūra ir savarankiškas mokymasis
 

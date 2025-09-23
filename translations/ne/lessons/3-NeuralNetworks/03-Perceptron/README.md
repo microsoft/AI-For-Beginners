@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # न्यूरल नेटवर्कको परिचय: पर्सेप्ट्रोन
 
-## [पूर्व-व्याख्यान प्रश्नोत्तरी](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [पूर्व-व्याख्यान प्रश्नोत्तरी](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 आधुनिक न्यूरल नेटवर्कको प्रारम्भिक प्रयासहरू मध्ये एक फ्र्यांक रोसेनब्लाटले 1957 मा कोर्नेल एरोनटिकल ल्याबोरेटरीमा गरेका थिए। यो "मार्क-१" नामक हार्डवेयर कार्यान्वयन थियो, जसले त्रिभुज, वर्ग, र वृतजस्ता साधारण ज्यामितीय आकृतिहरू चिन्न डिजाइन गरिएको थियो।
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 यदि तपाईं आफ्नो पर्सेप्ट्रोन बनाउन प्रयास गर्न चाहनुहुन्छ भने, [Microsoft Learn मा यो प्रयोगशाला](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) प्रयोग गर्नुहोस्, जसले [Azure ML डिजाइनर](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) प्रयोग गर्दछ।
 
-## [पश्च-व्याख्यान प्रश्नोत्तरी](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [पश्च-व्याख्यान प्रश्नोत्तरी](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## समीक्षा र आत्म-अध्ययन
 

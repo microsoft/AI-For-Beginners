@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我们之前学习了目标检测，它可以通过预测*边界框*来定位图像中的目标。然而，对于某些任务，我们不仅需要边界框，还需要更精确的目标定位。这项任务被称为**分割**。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 分割可以看作是**像素分类**，即对于图像中的**每个**像素，我们必须预测其类别（*背景*是其中一个类别）。主要有两种分割算法：
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [语义分割 Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [语义分割 TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## 总结
 

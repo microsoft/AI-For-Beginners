@@ -19,7 +19,7 @@ Sa seksyong ito, palalawakin natin ang modelong ito sa isang mas flexible na fra
 
 Bubuo rin tayo ng sarili nating modular framework sa Python na magpapahintulot sa atin na magdisenyo ng iba't ibang neural network architectures.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Pormalisasyon ng Machine Learning
 
@@ -81,7 +81,7 @@ Sa kalakip na notebook, ipapatupad mo ang sarili mong framework para sa pagbuo a
 
 Magpatuloy sa [OwnFramework](OwnFramework.ipynb) notebook at gawin ito.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Review at Pag-aaral sa Sarili
 

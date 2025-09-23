@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਟੈਕਸਟ ਨੂੰ ਟੈਂਸਰ ਵਜੋਂ ਦਰਸਾਉਣਾ
 
-## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## ਟੈਕਸਟ ਕਲਾਸੀਫਿਕੇਸ਼ਨ
 
@@ -73,7 +73,7 @@ BoW ਨਾਲ ਸਮੱਸਿਆ ਇਹ ਹੈ ਕਿ ਕੁਝ ਆਮ ਸ਼ਬ
 
 Bag-of-words ਅਤੇ ਵੱਖ-ਵੱਖ ਡਾਟਾ ਮਾਡਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕੁਝ ਹੋਰ ਅਭਿਆਸ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਤੁਸੀਂ ਇਸ [Kaggle ਮੁਕਾਬਲੇ](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) ਤੋਂ ਪ੍ਰੇਰਿਤ ਹੋ ਸਕਦੇ ਹੋ।
 
-## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ
 

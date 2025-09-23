@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Раније смо учили о детекцији објеката, која нам омогућава да лоцирамо објекте на слици предвиђањем њихових *ограничујућих оквира* (bounding boxes). Међутим, за неке задатке нам нису потребни само ограничујући оквири, већ и прецизнија локализација објеката. Овај задатак се назива **сегментација**.
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Сегментација се може посматрати као **класификација пиксела**, где за **сваки** пиксел слике морамо предвидети његову класу (*позадина* је једна од класа). Постоје два главна алгоритма за сегментацију:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Семантичка сегментација у Pytorch-у](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Семантичка сегментација у TensorFlow-у](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Квиз након предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Квиз након предавања](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Закључак
 

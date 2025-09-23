@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Računalni vid](https://wikipedia.org/wiki/Computer_vision) je disciplina čiji je cilj omogućiti računalima da steknu visok nivo razumijevanja digitalnih slika. Ovo je prilično široka definicija jer *razumijevanje* može značiti mnogo različitih stvari, uključujući pronalaženje objekta na slici (**detekcija objekata**), razumijevanje što se događa (**detekcija događaja**), opisivanje slike tekstom ili rekonstrukciju scene u 3D. Postoje i posebni zadaci vezani za slike ljudi: procjena dobi i emocija, detekcija i identifikacija lica te procjena 3D poze, da spomenemo samo neke.
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Jedan od najjednostavnijih zadataka računalnog vida je **klasifikacija slika**.
 
@@ -105,7 +105,7 @@ Ponekad se relativno složeni zadaci poput detekcije kretanja ili detekcije vrho
 
 Pogledajte [ovaj video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) iz AI showa kako biste saznali više o projektu Cortic Tigers i kako su izgradili rješenje temeljeno na blokovima za demokratizaciju zadataka računalnog vida putem robota. Istražite druge slične projekte koji pomažu novim učenicima da se uključe u ovo područje.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Pregled i samostalno učenje
 

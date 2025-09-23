@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetikus Algoritmusok
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 A **Genetikus Algoritmusok** (GA) egy **evolúciós megközelítésen** alapulnak a mesterséges intelligenciában, amely során egy populáció evolúciós módszereit használjuk egy adott probléma optimális megoldásának megtalálására. Az ötletet 1975-ben [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) javasolta.
 
@@ -66,7 +66,7 @@ A Genetikus Algoritmusokat számos probléma megoldására használják, beleér
 
 "A genetikus algoritmusok egyszerűen megvalósíthatók, de a viselkedésük nehezen érthető." [forrás](https://wikipedia.org/wiki/Genetic_algorithm) Kutass utána egy genetikus algoritmus megvalósításának, például egy Sudoku rejtvény megoldásának, és magyarázd el, hogyan működik, akár vázlatként, akár folyamatábraként.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Áttekintés és Önálló Tanulás
 

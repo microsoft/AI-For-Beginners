@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 생성 네트워크
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 순환 신경망(RNN)과 Long Short Term Memory Cells(LSTM), Gated Recurrent Units(GRU)와 같은 게이트 셀 변형은 단어 순서를 학습하고 시퀀스에서 다음 단어를 예측할 수 있는 언어 모델링 메커니즘을 제공합니다. 이를 통해 RNN을 **생성 작업**에 사용할 수 있으며, 일반적인 텍스트 생성, 기계 번역, 이미지 캡션 생성 등 다양한 작업에 활용할 수 있습니다.
 
@@ -71,7 +71,7 @@ Microsoft Learn에서 이 주제에 대한 강의를 들어보세요:
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)를 활용한 텍스트 생성
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## 복습 및 자기 학습
 

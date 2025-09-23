@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 In all our previous tasks, we trained a neural network to perform a specific task using a labeled dataset. With large transformer models like BERT, we use language modeling in a self-supervised manner to build a language model, which is then fine-tuned for specific downstream tasks with additional domain-specific training. However, it has been shown that large language models can also solve many tasks without ANY domain-specific training. A family of models capable of this is called **GPT**: Generative Pre-Trained Transformer.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Text Generation and Perplexity
 
@@ -58,7 +58,7 @@ Continue your learning with the following notebooks:
 
 New general pre-trained language models not only model the structure of language but also contain a vast amount of natural language knowledge. As a result, they can be effectively used to solve some NLP tasks in zero-shot or few-shot settings.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

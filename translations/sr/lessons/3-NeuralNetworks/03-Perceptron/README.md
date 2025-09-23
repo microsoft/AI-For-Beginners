@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Увод у неуронске мреже: Перцептрон
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Један од првих покушаја да се имплементира нешто слично модерној неуронској мрежи направио је Франк Розенблат из Корнел лабораторије за ваздухопловство 1957. године. То је била хардверска имплементација названа "Mark-1", дизајнирана да препозна примитивне геометријске фигуре, као што су троуглови, квадрати и кругови.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 Ако желите да покушате да направите свој перцептрон, пробајте [ову лабораторију на Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) која користи [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Квиз после предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Квиз после предавања](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Преглед и самостално учење
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mga Mekanismo ng Atensyon at Transformers
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Isa sa pinakamahalagang problema sa larangan ng NLP ay ang **machine translation**, isang mahalagang gawain na ginagamit sa mga tool tulad ng Google Translate. Sa seksyong ito, magtutuon tayo sa machine translation, o sa mas pangkalahatan, sa anumang *sequence-to-sequence* na gawain (na tinatawag ding **sentence transduction**).
 
@@ -108,7 +108,7 @@ Sa araling ito, natutunan mo ang tungkol sa Transformers at Attention Mechanisms
 
 ## 🚀 Hamon
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Review at Pag-aaral sa Sarili
 

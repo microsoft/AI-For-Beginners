@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hittills har vi mest fokuserat på en NLP-uppgift - klassificering. Men det finns också andra NLP-uppgifter som kan utföras med neurala nätverk. En av dessa uppgifter är **[Namngiven Entityigenkänning](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), som handlar om att identifiera specifika enheter i text, såsom platser, personnamn, tidsintervall, kemiska formler och så vidare.
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Exempel på användning av NER
 
@@ -79,7 +79,7 @@ En NER-modell är en **tokenklassificeringsmodell**, vilket innebär att den kan
 
 Slutför uppgiften som är länkad nedan för att träna en modell för namngiven entityigenkänning för medicinska termer, och testa den sedan på en annan dataset.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Granskning & Självstudier
 

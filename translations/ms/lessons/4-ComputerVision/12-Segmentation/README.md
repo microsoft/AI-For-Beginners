@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kita telah mempelajari tentang Pengesanan Objek sebelum ini, yang membolehkan kita mencari objek dalam imej dengan meramalkan *kotak sempadan* mereka. Walau bagaimanapun, untuk beberapa tugas, kita bukan sahaja memerlukan kotak sempadan tetapi juga penempatan objek yang lebih tepat. Tugas ini dipanggil **segmentasi**.
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentasi boleh dilihat sebagai **klasifikasi piksel**, di mana untuk **setiap** piksel dalam imej kita mesti meramalkan kelasnya (*latar belakang* menjadi salah satu kelas). Terdapat dua algoritma segmentasi utama:
 
@@ -56,7 +56,7 @@ Buka notebook di bawah untuk mengetahui lebih lanjut tentang pelbagai seni bina 
 * [Segmentasi Semantik Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Segmentasi Semantik TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Kesimpulan
 

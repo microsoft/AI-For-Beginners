@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Мы также разработаем собственный модульный фреймворк на Python, который позволит нам создавать различные архитектуры нейронных сетей.
 
-## [Квиз перед лекцией](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Квиз перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Формализация машинного обучения
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Перейдите к ноутбуку [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) и выполните задания.
 
-## [Квиз после лекции](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Квиз после лекции](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Обзор и самостоятельное изучение
 

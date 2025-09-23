@@ -54,7 +54,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在網路上進行探索，判斷您認為人工智慧在哪些領域最有效地被使用。是地圖應用程式、語音轉文字服務還是某款電子遊戲？研究該系統是如何構建的。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## 回顧與自學
 

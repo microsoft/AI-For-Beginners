@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurentné neurónové siete
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 V predchádzajúcich sekciách sme používali bohaté sémantické reprezentácie textu a jednoduchý lineárny klasifikátor nad embeddingmi. Táto architektúra zachytáva agregovaný význam slov vo vete, ale neberie do úvahy **poradie** slov, pretože operácia agregácie nad embeddingmi túto informáciu z pôvodného textu odstránila. Keďže tieto modely nedokážu modelovať poradie slov, nemôžu riešiť zložitejšie alebo nejednoznačné úlohy, ako je generovanie textu alebo odpovedanie na otázky.
 
@@ -84,7 +84,7 @@ Prečítajte si niektoré materiály o LSTM a zvážte ich aplikácie:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Prehľad a samostatné štúdium
 

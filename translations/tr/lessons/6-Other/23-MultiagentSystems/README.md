@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Zekayı elde etmenin olası yollarından biri, **ortaya çıkan** (veya **sinergik**) yaklaşım olarak adlandırılan yöntemdir. Bu yaklaşım, birçok nispeten basit ajanın birleşik davranışının, sistemin bir bütün olarak daha karmaşık (veya zeki) bir davranış sergilemesine yol açabileceği gerçeğine dayanır. Teorik olarak, bu yaklaşım [Kolektif Zeka](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentizm](https://en.wikipedia.org/wiki/Global_brain) ve [Evrimsel Sibernetik](https://en.wikipedia.org/wiki/Global_brain) ilkelerine dayanır. Bu ilkeler, alt düzey sistemlerin uygun şekilde birleştirildiğinde üst düzey sistemlerin bir tür ek değer kazandığını ifade eder (*metasistem geçişi ilkesi* olarak adlandırılır).
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **Çoklu Ajan Sistemleri** yönelimi, 1990'larda internetin ve dağıtık sistemlerin büyümesine yanıt olarak yapay zekâ alanında ortaya çıkmıştır. Klasik yapay zekâ ders kitaplarından biri olan [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), klasik yapay zekâya Çoklu Ajan Sistemleri perspektifinden bakar.
 
@@ -152,7 +152,7 @@ Hepsi, bireysel bir ajanın daha basit davranışına odaklanma eğilimindedir v
 
 Bu dersi gerçek dünyaya taşıyın ve bir sorunu çözebilecek bir çoklu ajan sistemi kavramsallaştırmaya çalışın. Örneğin, bir okul servisi rotasını optimize etmek için bir çoklu ajan sistemi ne yapmalıdır? Bir fırında nasıl çalışabilir?
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

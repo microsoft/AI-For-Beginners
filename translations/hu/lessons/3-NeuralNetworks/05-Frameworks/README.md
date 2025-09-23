@@ -14,7 +14,7 @@ Ahogy már megtanultuk, a neurális hálózatok hatékony tanításához két do
 * Tensorokon kell műveleteket végezni, például szorzás, összeadás, valamint bizonyos függvények, mint a sigmoid vagy softmax kiszámítása
 * Az összes kifejezés gradiensét ki kell számítani, hogy gradient descent optimalizációt végezhessünk
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Míg a `numpy` könyvtár képes az első részre, szükségünk van egy mechanizmusra a gradiens számításához. Az [általunk fejlesztett keretrendszerben](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), amelyet az előző szekcióban készítettünk, manuálisan kellett programoznunk az összes derivált függvényt a `backward` metódusban, amely a visszaterjesztést végzi. Ideális esetben egy keretrendszer lehetőséget kellene adjon arra, hogy *bármilyen kifejezés* gradiensét kiszámítsuk, amit definiálni tudunk.
 
@@ -106,7 +106,7 @@ Ebben a leckében megtanultad a két legnépszerűbb AI keretrendszer, a TensorF
 
 Az accompanying jegyzetfüzetekben 'feladatokat' találsz az alján; dolgozd át a jegyzetfüzeteket, és végezd el a feladatokat.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Áttekintés és önálló tanulás
 

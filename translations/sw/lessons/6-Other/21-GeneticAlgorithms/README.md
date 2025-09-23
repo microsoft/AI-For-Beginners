@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Algorithms za Kijenetiki
 
-## [Maswali ya awali ya mihadhara](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Maswali ya awali ya mihadhara](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Algorithms za Kijenetiki** (GA) zinategemea mbinu ya **mabadiliko ya kimaumbile** katika AI, ambapo mbinu za mabadiliko ya idadi ya watu zinatumika kupata suluhisho bora kwa tatizo fulani. Zilianzishwa mwaka 1975 na [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Algorithms za Kijenetiki zinatumika kutatua matatizo mengi, ikiwa ni pamoja na m
 
 "Algorithms za kijenetiki ni rahisi kutekeleza, lakini tabia zake ni ngumu kuelewa." [chanzo](https://wikipedia.org/wiki/Genetic_algorithm) Fanya utafiti ili kupata utekelezaji wa algorithm ya kijenetiki kama kutatua fumbo la Sudoku, na eleza jinsi inavyofanya kazi kwa mchoro au mtiririko wa hatua.
 
-## [Maswali ya baada ya mihadhara](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Maswali ya baada ya mihadhara](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Mapitio & Kujifunza Binafsi
 

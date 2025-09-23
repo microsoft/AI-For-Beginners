@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Prilikom treniranja CNN-ova, jedan od problema je što nam treba puno označenih podataka. U slučaju klasifikacije slika, moramo razdvojiti slike u različite klase, što zahtijeva ručni rad.
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Međutim, možda bismo željeli koristiti sirove (neoznačene) podatke za treniranje CNN ekstraktora značajki, što se naziva **samostalno učenje**. Umjesto oznaka, koristit ćemo slike za treniranje kao ulaz i izlaz mreže. Glavna ideja **autoenkodera** je da imamo **enkodersku mrežu** koja pretvara ulaznu sliku u neki **latentni prostor** (obično je to vektor manje dimenzije), a zatim **dekodersku mrežu**, čiji je cilj rekonstruirati izvornu sliku.
 
@@ -80,7 +80,7 @@ Saznajte više o autoenkoderima u ovim odgovarajućim bilježnicama:
 * **Gubitak informacija** - rekonstruirana slika nije ista kao izvorna slika. Priroda gubitka definirana je *funkcijom gubitka* korištenom tijekom treniranja.
 * Radi na **neoznačenim podacima**
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Zaključak
 
@@ -90,7 +90,7 @@ U ovoj lekciji naučili ste o različitim vrstama autoenkodera dostupnih AI znan
 
 U ovoj lekciji naučili ste o korištenju autoenkodera za slike. Ali oni se također mogu koristiti za glazbu! Pogledajte projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), koji koristi autoenkodere za učenje rekonstrukcije glazbe. Napravite nekoliko [eksperimenata](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) s ovom bibliotekom kako biste vidjeli što možete stvoriti.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Pregled i samostalno učenje
 

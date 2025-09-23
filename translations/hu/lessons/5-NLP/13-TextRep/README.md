@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Szöveg ábrázolása tenzorokként
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Szövegklasszifikáció
 
@@ -73,7 +73,7 @@ Eddig olyan technikákat tanulmányoztunk, amelyek súlyt adnak a különböző 
 
 Próbálj ki más gyakorlatokat a bag-of-words és különböző adatmodellek használatával. Inspirációt meríthetsz ebből a [Kaggle versenyből](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Áttekintés és önálló tanulás
 

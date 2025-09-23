@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Algoritmos Genéticos
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Algoritmos Genéticos** (AG) baseiam-se numa abordagem **evolutiva** para a IA, em que métodos de evolução de uma população são utilizados para obter uma solução ótima para um determinado problema. Foram propostos em 1975 por [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Os Algoritmos Genéticos são usados para resolver muitos problemas, incluindo p
 
 "Os algoritmos genéticos são simples de implementar, mas o seu comportamento é difícil de compreender." [fonte](https://wikipedia.org/wiki/Genetic_algorithm) Faça uma pesquisa para encontrar uma implementação de um algoritmo genético, como a resolução de um puzzle de Sudoku, e explique como funciona através de um esboço ou fluxograma.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Revisão e Autoestudo
 

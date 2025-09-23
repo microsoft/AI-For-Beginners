@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 همچنین چارچوب ماژولاری در پایتون توسعه خواهیم داد که به ما امکان می‌دهد معماری‌های مختلف شبکه عصبی را بسازیم.
 
-## [پیش‌آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [پیش‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## فرمالیزه کردن یادگیری ماشین
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 به نوت‌بوک [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) بروید و آن را بررسی کنید.
 
-## [پس‌آزمون](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [پس‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## مرور و مطالعه شخصی
 

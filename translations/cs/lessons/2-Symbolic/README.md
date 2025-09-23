@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hledání umělé inteligence je založeno na snaze o získání znalostí, aby bylo možné chápat svět podobně jako lidé. Ale jak toho dosáhnout?
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 V počátcích AI byl populární přístup shora dolů k vytváření inteligentních systémů (diskutovaný v předchozí lekci). Myšlenka spočívala v extrakci znalostí od lidí do nějaké strojově čitelné podoby, kterou by bylo možné automaticky využít k řešení problémů. Tento přístup byl založen na dvou hlavních myšlenkách:
 
@@ -236,7 +236,7 @@ Dnes je AI často považována za synonymum pro *strojové učení* nebo *neuron
 
 V notebooku Ontologie rodiny spojeném s touto lekcí máte možnost experimentovat s dalšími rodinnými vztahy. Pokuste se objevit nové spojení mezi lidmi v rodokmenu.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Přehled a samostudium
 

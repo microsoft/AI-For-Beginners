@@ -19,7 +19,7 @@ Dalam bahagian ini, kita akan memperluaskan model ini kepada rangka kerja yang l
 
 Kita juga akan membangunkan rangka kerja modular kita sendiri dalam Python yang membolehkan kita membina pelbagai seni bina rangkaian neural.
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisasi Pembelajaran Mesin
 
@@ -81,7 +81,7 @@ Dalam notebook yang disertakan, anda akan melaksanakan rangka kerja anda sendiri
 
 Teruskan ke notebook [OwnFramework](OwnFramework.ipynb) dan selesaikan latihan tersebut.
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Kajian & Pembelajaran Kendiri
 

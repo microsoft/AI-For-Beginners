@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Modeli za klasifikacijo slik, s katerimi smo se doslej ukvarjali, so obdelali sliko in podali kategorialni rezultat, kot je razred 'številka' v problemu MNIST. Vendar pa v mnogih primerih ne želimo le vedeti, da slika prikazuje objekte – želimo določiti njihovo natančno lokacijo. To je pravzaprav bistvo **prepoznavanja objektov**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Prepoznavanje objektov](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sl.png)
 
@@ -172,7 +172,7 @@ Preberite te članke in zvezke o YOLO ter jih preizkusite sami:
  * Yolo: [Keras implementacija](https://github.com/experiencor/keras-yolo2), [zvezek korak za korakom](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementacija](https://github.com/experiencor/keras-yolo2), [zvezek korak za korakom](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Pregled in samostojno učenje
 

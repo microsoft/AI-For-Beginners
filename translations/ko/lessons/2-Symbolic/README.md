@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 인공지능을 추구하는 과정은 인간처럼 세상을 이해하기 위한 지식을 탐구하는 데 기반을 둡니다. 하지만 이를 어떻게 구현할 수 있을까요?
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 AI 초기에는 지능형 시스템을 만드는 데 있어 상향식 접근법(이전 강의에서 논의됨)이 인기가 있었습니다. 사람들로부터 지식을 추출하여 기계가 읽을 수 있는 형태로 변환한 뒤, 이를 사용해 자동으로 문제를 해결하는 방식이었습니다. 이 접근법은 두 가지 주요 아이디어에 기반을 두고 있습니다:
 
@@ -236,7 +236,7 @@ Microsoft Research에서 시도한 한 사례는 [Microsoft Concept Graph](https
 
 이 강의와 관련된 Family Ontology 노트북에서 다른 가족 관계를 실험할 기회가 있습니다. 가족 트리에서 사람들 간의 새로운 연결을 발견해 보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## 복습 및 자기 학습
 

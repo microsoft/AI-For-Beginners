@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ယခင်က ကျွန်ုပ်တို့ handling လုပ်ခဲ့သော ပုံရိပ်အမျိုးအစားခွဲခြားမှုမော်ဒယ်များသည် ပုံရိပ်တစ်ခုကိုယူပြီး MNIST ပြဿနာတွင် 'number' အတန်းလိုမျိုး အမျိုးအစားရလဒ်တစ်ခုကိုထုတ်ပေးသည်။ သို့သော် အများသောအားဖြင့် ပုံရိပ်တွင် အရာဝတ္ထုများပါဝင်သည်ကိုသာမက၊ ၎င်းတို့၏တိကျသောတည်နေရာကိုသိလိုသည်။ **အရာဝတ္ထုရှာဖွေခြင်း**၏အဓိကရည်ရွယ်ချက်မှာ အတိအကျတည်နေရာကိုသတ်မှတ်နိုင်ရန်ဖြစ်သည်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.my.png)
 
@@ -171,7 +171,7 @@ YOLO အပေါ်ရှိဤဆောင်းပါးများနှင
  * Yolo: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Review & Self Study
 

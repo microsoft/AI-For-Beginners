@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Salah satu cara untuk mencapai kecerdasan adalah pendekatan yang disebut **emergent** (atau **sinergis**), yang didasarkan pada fakta bahwa perilaku gabungan dari banyak agen yang relatif sederhana dapat menghasilkan perilaku sistem secara keseluruhan yang lebih kompleks (atau cerdas). Secara teori, ini didasarkan pada prinsip [Kecerdasan Kolektif](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentisme](https://en.wikipedia.org/wiki/Global_brain), dan [Sibernetika Evolusioner](https://en.wikipedia.org/wiki/Global_brain), yang menyatakan bahwa sistem tingkat tinggi memperoleh semacam nilai tambah ketika dikombinasikan dengan benar dari sistem tingkat rendah (disebut *prinsip transisi metasistem*).
 
-## [Kuis Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Arah **Sistem Multi-Agen** muncul dalam AI pada tahun 1990-an sebagai respons terhadap pertumbuhan Internet dan sistem terdistribusi. Salah satu buku teks AI klasik, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), berfokus pada pandangan AI klasik dari sudut pandang sistem multi-agen.
 
@@ -152,7 +152,7 @@ Semua cenderung berfokus pada perilaku sederhana agen individu, dan mencapai per
 
 Bawa pelajaran ini ke dunia nyata dan coba konseptualisasikan sistem multi-agen yang dapat menyelesaikan masalah. Apa, misalnya, yang perlu dilakukan sistem multi-agen untuk mengoptimalkan rute bus sekolah? Bagaimana sistem ini dapat bekerja di sebuah toko roti?
 
-## [Kuis Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Tinjauan & Studi Mandiri
 

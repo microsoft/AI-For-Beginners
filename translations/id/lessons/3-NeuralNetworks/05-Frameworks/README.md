@@ -14,7 +14,7 @@ Seperti yang telah kita pelajari, untuk dapat melatih jaringan saraf secara efis
 * Mengoperasikan tensor, misalnya mengalikan, menjumlahkan, dan menghitung beberapa fungsi seperti sigmoid atau softmax
 * Menghitung gradien dari semua ekspresi, untuk melakukan optimasi penurunan gradien
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Meskipun pustaka `numpy` dapat melakukan bagian pertama, kita memerlukan mekanisme untuk menghitung gradien. Dalam [kerangka kerja kita](../04-OwnFramework/OwnFramework.ipynb) yang telah kita kembangkan di bagian sebelumnya, kita harus memprogram semua fungsi turunan secara manual di dalam metode `backward`, yang melakukan backpropagation. Idealnya, sebuah kerangka kerja harus memberi kita kesempatan untuk menghitung gradien dari *ekspresi apa pun* yang dapat kita definisikan.
 
@@ -106,7 +106,7 @@ Dalam pelajaran ini, Anda telah mempelajari perbedaan antara berbagai API untuk 
 
 Dalam notebook yang menyertai, Anda akan menemukan 'tugas' di bagian bawah; kerjakan notebook tersebut dan selesaikan tugasnya.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Tinjauan & Studi Mandiri
 

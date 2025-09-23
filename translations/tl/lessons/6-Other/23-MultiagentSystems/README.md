@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Isa sa mga posibleng paraan upang makamit ang katalinuhan ay ang tinatawag na **emergent** (o **synergetic**) na pamamaraan, na nakabatay sa katotohanan na ang pinagsamang kilos ng maraming simpleng ahente ay maaaring magresulta sa mas kumplikado (o matalino) na kilos ng sistema bilang kabuuan. Teoretikal, ito ay nakabatay sa mga prinsipyo ng [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain), at [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain), na nagsasabing ang mas mataas na antas ng mga sistema ay nakakakuha ng karagdagang halaga kapag maayos na pinagsama mula sa mas mababang antas ng mga sistema (tinatawag na *prinsipyo ng metasystem transition*).
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Ang direksyon ng **Multi-Agent Systems** ay lumitaw sa AI noong dekada 1990 bilang tugon sa paglago ng Internet at mga distributed systems. Isa sa mga klasikong aklat ng AI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), ay nakatuon sa pananaw ng klasikong AI mula sa perspektibo ng Multi-agent systems.
 
@@ -152,7 +152,7 @@ Ang mga ito ay karaniwang nakatuon sa mas simpleng kilos ng indibidwal na ahente
 
 Dalhin ang araling ito sa totoong mundo at subukang mag-konseptwalisa ng isang multi-agent system na maaaring lutasin ang isang problema. Ano, halimbawa, ang kailangang gawin ng isang multi-agent system upang i-optimize ang ruta ng school bus? Paano ito maaaring gumana sa isang panaderya?
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Review & Self Study
 

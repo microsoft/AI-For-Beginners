@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kita telah melihat sebelum ini bahawa rangkaian neural sangat baik dalam menangani imej, malah perceptron satu lapisan pun mampu mengenali angka tulisan tangan dari set data MNIST dengan ketepatan yang munasabah. Walau bagaimanapun, set data MNIST sangat istimewa, dan semua angka berada di tengah-tengah imej, yang menjadikan tugas ini lebih mudah.
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Dalam kehidupan sebenar, kita ingin dapat mengenali objek dalam gambar tanpa mengira lokasi tepatnya dalam imej. Penglihatan komputer berbeza daripada klasifikasi umum, kerana apabila kita cuba mencari objek tertentu dalam gambar, kita sedang mengimbas imej untuk mencari **corak** tertentu dan gabungannya. Sebagai contoh, apabila mencari kucing, kita mungkin mula mencari garisan mendatar, yang boleh membentuk misai, dan kemudian gabungan tertentu misai boleh memberitahu kita bahawa ia sebenarnya gambar kucing. Kedudukan relatif dan kehadiran corak tertentu adalah penting, dan bukan kedudukan tepatnya dalam imej.
 

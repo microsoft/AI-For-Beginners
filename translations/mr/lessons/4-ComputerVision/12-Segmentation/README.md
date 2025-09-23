@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 आम्ही यापूर्वी ऑब्जेक्ट डिटेक्शनबद्दल शिकले, ज्यामुळे आम्हाला प्रतिमेमधील वस्तूंचे स्थान त्यांच्या *bounding boxes* च्या अंदाजाने शोधता येते. परंतु, काही कार्यांसाठी आपल्याला फक्त bounding boxes पुरेसे नसून वस्तूंचे अधिक अचूक स्थान आवश्यक असते. या कार्याला **विभागणी** म्हणतात.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 विभागणीला **पिक्सेल वर्गीकरण** म्हणून पाहिले जाऊ शकते, जिथे प्रतिमेतील **प्रत्येक** पिक्सेलसाठी त्याचा वर्ग (*background* हा वर्गांपैकी एक आहे) अंदाज करणे आवश्यक असते. विभागणीसाठी दोन मुख्य अल्गोरिदम आहेत:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [Semantic Segmentation Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## निष्कर्ष
 

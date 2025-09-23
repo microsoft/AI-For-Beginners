@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Încorporările semantice, precum Word2Vec și GloVe, reprezintă de fapt un prim pas către **modelarea limbajului** - crearea unor modele care cumva *înțeleg* (sau *reprezintă*) natura limbajului.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Ideea principală din spatele modelării limbajului este antrenarea acestora pe seturi de date neetichetate într-un mod nesupravegheat. Acest lucru este important deoarece avem la dispoziție cantități uriașe de text neetichetat, în timp ce cantitatea de text etichetat va fi întotdeauna limitată de efortul pe care îl putem depune pentru etichetare. De cele mai multe ori, putem construi modele de limbaj care pot **prezice cuvinte lipsă** în text, deoarece este ușor să mascăm un cuvânt aleatoriu din text și să-l folosim ca exemplu de antrenament.
 
@@ -38,7 +38,7 @@ Continuă învățarea cu următoarele notebook-uri:
 
 În lecția anterioară am văzut că încorporările de cuvinte funcționează ca prin magie! Acum știm că antrenarea încorporărilor de cuvinte nu este o sarcină foarte complexă și ar trebui să putem antrena propriile încorporări pentru texte specifice unui domeniu, dacă este necesar.
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Recapitulare și Studiu Individual
 

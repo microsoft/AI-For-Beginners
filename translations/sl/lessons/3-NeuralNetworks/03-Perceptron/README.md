@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod v nevronske mreže: Perceptron
 
-## [Predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Eden prvih poskusov implementacije nečesa podobnega sodobni nevronski mreži je izvedel Frank Rosenblatt iz Cornell Aeronautical Laboratory leta 1957. Šlo je za strojno implementacijo, imenovano "Mark-1", zasnovano za prepoznavanje osnovnih geometrijskih oblik, kot so trikotniki, kvadrati in krogi.
 
@@ -85,7 +85,7 @@ V tej lekciji ste spoznali perceptron, ki je model za binarno klasifikacijo, in 
 
 Če želite poskusiti zgraditi svoj perceptron, poskusite [to delavnico na Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), ki uporablja [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Pregled in samostojno učenje
 

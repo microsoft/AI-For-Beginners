@@ -19,7 +19,7 @@ Nesta secção, iremos expandir este modelo para um framework mais flexível, pe
 
 Também iremos desenvolver o nosso próprio framework modular em Python que nos permitirá construir diferentes arquiteturas de redes neuronais.
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalização de Aprendizagem Automática
 
@@ -81,7 +81,7 @@ No notebook que acompanha, vais implementar o teu próprio framework para constr
 
 Segue para o notebook [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) e trabalha nele.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Revisão & Estudo Autónomo
 

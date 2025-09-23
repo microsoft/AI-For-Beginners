@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Dążenie do stworzenia sztucznej inteligencji opiera się na poszukiwaniu wiedzy, aby zrozumieć świat w sposób podobny do ludzi. Ale jak można to osiągnąć?
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 W początkowych dniach rozwoju AI popularne było podejście odgórne do tworzenia inteligentnych systemów (omówione w poprzedniej lekcji). Polegało ono na wydobywaniu wiedzy od ludzi w formie czytelnej dla maszyn, a następnie wykorzystywaniu jej do automatycznego rozwiązywania problemów. To podejście opierało się na dwóch kluczowych ideach:
 
@@ -236,7 +236,7 @@ Obecnie AI często jest utożsamiane z *uczeniem maszynowym* lub *sieciami neuro
 
 W notatniku Family Ontology związanym z tą lekcją istnieje możliwość eksperymentowania z innymi relacjami rodzinnymi. Spróbuj odkryć nowe powiązania między osobami w drzewie genealogicznym.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Przegląd i Samodzielna Nauka
 

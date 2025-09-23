@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 텍스트를 텐서로 표현하기
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## 텍스트 분류
 
@@ -73,7 +73,7 @@ BoW의 문제는 *and*, *is*와 같은 일반적인 단어가 대부분의 텍�
 
 Bag-of-Words와 다양한 데이터 모델을 사용하여 다른 연습을 시도해 보세요. 이 [Kaggle 대회](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)에서 영감을 받을 수 있습니다.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## 복습 및 자기 학습
 

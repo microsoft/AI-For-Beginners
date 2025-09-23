@@ -59,7 +59,7 @@ MobileNet yra modelių šeima, turinti sumažintą dydį, tinkama naudoti mobili
 
 Pridedamuose užrašų knygelėse apačioje yra pastabų apie tai, kaip pasiekti didesnį tikslumą. Atlikite eksperimentus ir pažiūrėkite, ar galite pasiekti didesnį tikslumą.
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Peržiūra ir savarankiškas mokymasis
 

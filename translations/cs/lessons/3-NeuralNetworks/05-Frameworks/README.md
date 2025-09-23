@@ -14,7 +14,7 @@ Jak jsme se již naučili, abychom mohli efektivně trénovat neuronové sítě,
 * Pracovat s tensory, např. násobit, sčítat a počítat některé funkce, jako je sigmoid nebo softmax
 * Počítat gradienty všech výrazů, abychom mohli provádět optimalizaci pomocí gradientního sestupu
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Zatímco knihovna `numpy` zvládne první část, potřebujeme nějaký mechanismus pro výpočet gradientů. V [našem frameworku](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb), který jsme vytvořili v předchozí sekci, jsme museli ručně programovat všechny derivace funkcí uvnitř metody `backward`, která provádí zpětnou propagaci. Ideálně by nám framework měl umožnit počítat gradienty *jakéhokoliv výrazu*, který můžeme definovat.
 
@@ -106,7 +106,7 @@ V této lekci jste se dozvěděli o rozdílech mezi různými API pro dva nejpop
 
 V přiložených noteboocích najdete na konci 'úkoly'; projděte si notebooky a splňte úkoly.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Přehled a samostudium
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Kuis Pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Kuis Pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Saat melatih classifier berdasarkan BoW atau TF/IDF, kita bekerja dengan vektor bag-of-words berdimensi tinggi dengan panjang `vocab_size`, dan secara eksplisit mengonversi dari vektor representasi posisi berdimensi rendah menjadi representasi one-hot yang jarang. Namun, representasi one-hot ini tidak efisien dalam penggunaan memori. Selain itu, setiap kata diperlakukan secara independen satu sama lain, yaitu vektor one-hot tidak mengekspresikan kesamaan semantik antara kata-kata.
 
@@ -65,7 +65,7 @@ Dalam pelajaran ini, Anda mempelajari cara membangun dan menggunakan lapisan emb
 
 Word2Vec telah digunakan untuk beberapa aplikasi menarik, termasuk menghasilkan lirik lagu dan puisi. Lihat [artikel ini](https://www.politetype.com/blog/word2vec-color-poems) yang menjelaskan bagaimana penulis menggunakan Word2Vec untuk menghasilkan puisi. Tonton juga [video ini oleh Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) untuk menemukan penjelasan berbeda tentang teknik ini. Kemudian coba terapkan teknik-teknik ini pada korpus teks Anda sendiri, mungkin bersumber dari Kaggle.
 
-## [Kuis Pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kuis Pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Tinjauan & Studi Mandiri
 

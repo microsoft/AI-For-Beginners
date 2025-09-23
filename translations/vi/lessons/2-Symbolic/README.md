@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hành trình tìm kiếm trí tuệ nhân tạo dựa trên việc khám phá tri thức, nhằm hiểu thế giới giống như cách con người làm. Nhưng làm thế nào để thực hiện điều này?
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Trong những ngày đầu của AI, cách tiếp cận từ trên xuống để tạo ra các hệ thống thông minh (được thảo luận trong bài học trước) rất phổ biến. Ý tưởng là trích xuất tri thức từ con người vào một dạng mà máy có thể đọc được, sau đó sử dụng nó để tự động giải quyết vấn đề. Cách tiếp cận này dựa trên hai ý tưởng lớn:
 
@@ -236,7 +236,7 @@ Ngày nay, AI thường được coi là đồng nghĩa với *Machine Learning*
 
 Trong notebook Family Ontology liên quan đến bài học này, có cơ hội để thử nghiệm với các mối quan hệ gia đình khác. Hãy thử khám phá các kết nối mới giữa các cá nhân trong cây gia đình.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Ôn tập & Tự học
 

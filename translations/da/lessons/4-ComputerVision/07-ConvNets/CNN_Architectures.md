@@ -59,7 +59,7 @@ I denne enhed har du lært hovedkonceptet bag neurale netværk til computer visi
 
 I de medfølgende notebooks er der noter nederst om, hvordan man opnår større nøjagtighed. Lav nogle eksperimenter for at se, om du kan opnå højere nøjagtighed.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Gennemgang & Selvstudie
 

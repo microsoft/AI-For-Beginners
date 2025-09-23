@@ -14,7 +14,7 @@ Como já aprendemos, para treinar redes neurais de forma eficiente, precisamos f
 * Operar com tensores, por exemplo, multiplicar, somar e calcular algumas funções como sigmoid ou softmax.
 * Calcular os gradientes de todas as expressões, para realizar a otimização por descida do gradiente.
 
-## [Pré-aula: Quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pré-aula: Quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Embora a biblioteca `numpy` possa realizar a primeira parte, precisamos de algum mecanismo para calcular os gradientes. No [nosso framework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) que desenvolvemos na seção anterior, tivemos que programar manualmente todas as funções derivadas dentro do método `backward`, que realiza a retropropagação. Idealmente, um framework deveria nos oferecer a possibilidade de calcular os gradientes de *qualquer expressão* que possamos definir.
 
@@ -106,7 +106,7 @@ Nesta lição, você aprendeu sobre as diferenças entre as várias APIs dos doi
 
 Nos notebooks que acompanham esta lição, você encontrará 'tarefas' no final; trabalhe nos notebooks e complete as tarefas.
 
-## [Pós-aula: Quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Pós-aula: Quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Revisão e Autoestudo
 

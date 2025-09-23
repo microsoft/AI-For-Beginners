@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ယနေ့အထိ ကျွန်ုပ်တို့သည် အဓိကအားဖြင့် NLP အလုပ်တစ်ခုဖြစ်သည့် အမျိုးအစားသတ်မှတ်ခြင်း (classification) ကိုသာ အာရုံစိုက်ခဲ့ပါသည်။ သို့သော်၊ နယူးရယ်နက်ဝက် (neural networks) များကို အသုံးပြု၍ ပြုလုပ်နိုင်သည့် အခြားသော NLP အလုပ်များလည်း ရှိပါသည်။ ထိုအလုပ်များထဲမှ တစ်ခုမှာ **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER) ဖြစ်ပြီး၊ ၎င်းသည် စာသားအတွင်းရှိ အထူးသတ်မှတ်ထားသော အရာများကို (ဥပမာ - နေရာများ၊ လူအမည်များ၊ ရက်စွဲ-အချိန်ကာလများ၊ ဓာတုဖော်မြူလာများ စသည်) ရှာဖွေသိရှိရန် အသုံးပြုသည်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## NER ကို အသုံးပြုသော ဥပမာ
 
@@ -80,7 +80,7 @@ NER မော်ဒယ်သည် **token classification မော်ဒယ်*
 
 ဆေးဘက်ဆိုင်ရာ စကားလုံးများအတွက် named entity recognition မော်ဒယ်တစ်ခုကို လေ့ကျင့်ရန် အောက်ပါ လုပ်ငန်းကို ပြီးမြောက်ပါ၊ ထို့နောက် အခြား dataset တစ်ခုတွင် စမ်းသပ်ကြည့်ပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

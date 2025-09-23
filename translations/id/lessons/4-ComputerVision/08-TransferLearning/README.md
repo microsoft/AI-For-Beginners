@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Melatih CNN dapat memakan banyak waktu, dan membutuhkan banyak data untuk melakukannya. Namun, sebagian besar waktu dihabiskan untuk mempelajari filter tingkat rendah terbaik yang dapat digunakan jaringan untuk mengekstrak pola dari gambar. Pertanyaan alami muncul - bisakah kita menggunakan jaringan neural yang telah dilatih pada satu dataset dan menyesuaikannya untuk mengklasifikasikan gambar yang berbeda tanpa memerlukan proses pelatihan penuh?
 
-## [Kuis Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Pendekatan ini disebut **transfer learning**, karena kita mentransfer sebagian pengetahuan dari satu model jaringan neural ke model lainnya. Dalam transfer learning, kita biasanya memulai dengan model pra-latih, yang telah dilatih pada dataset gambar besar, seperti **ImageNet**. Model-model tersebut sudah cukup baik dalam mengekstrak berbagai fitur dari gambar umum, dan dalam banyak kasus, hanya dengan membangun pengklasifikasi di atas fitur-fitur yang diekstrak tersebut dapat memberikan hasil yang baik.
 
@@ -76,7 +76,7 @@ Dengan menggunakan transfer learning, Anda dapat dengan cepat membuat pengklasif
 
 Dalam notebook yang menyertai, terdapat catatan di bagian bawah tentang bagaimana transfer knowledge bekerja paling baik dengan data pelatihan yang agak mirip (mungkin jenis hewan baru). Lakukan beberapa eksperimen dengan jenis gambar yang benar-benar baru untuk melihat seberapa baik atau buruk model transfer knowledge Anda bekerja.
 
-## [Kuis Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Tinjauan & Studi Mandiri
 

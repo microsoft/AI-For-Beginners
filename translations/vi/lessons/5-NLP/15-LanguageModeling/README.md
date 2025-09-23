@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Các biểu diễn ngữ nghĩa, như Word2Vec và GloVe, thực chất là bước đầu tiên hướng tới **mô hình ngôn ngữ** - tạo ra các mô hình có thể *hiểu* (hoặc *biểu diễn*) bản chất của ngôn ngữ.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Ý tưởng chính của mô hình ngôn ngữ là huấn luyện chúng trên các tập dữ liệu không gắn nhãn theo cách không giám sát. Điều này rất quan trọng vì chúng ta có một lượng lớn văn bản không gắn nhãn, trong khi lượng văn bản có gắn nhãn luôn bị giới hạn bởi công sức mà chúng ta có thể bỏ ra để gắn nhãn. Thông thường, chúng ta có thể xây dựng các mô hình ngôn ngữ có khả năng **dự đoán các từ bị thiếu** trong văn bản, bởi vì việc che đi một từ ngẫu nhiên trong văn bản và sử dụng nó làm mẫu huấn luyện là khá dễ dàng.
 
@@ -38,7 +38,7 @@ Tiếp tục học tập với các notebook sau:
 
 Trong bài học trước, chúng ta đã thấy rằng các biểu diễn từ hoạt động như một phép màu! Giờ đây, chúng ta biết rằng việc huấn luyện các biểu diễn từ không phải là một nhiệm vụ quá phức tạp, và chúng ta hoàn toàn có thể tự huấn luyện các biểu diễn từ cho văn bản thuộc lĩnh vực cụ thể nếu cần.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Ôn tập & Tự học
 

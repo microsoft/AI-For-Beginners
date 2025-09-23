@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 これまで扱ってきた画像分類モデルは、画像を入力として受け取り、MNIST問題における「数字」クラスのようなカテゴリカルな結果を出力していました。しかし、多くの場合、画像に物体が写っていることを知るだけでなく、その正確な位置を特定したいと考えます。それがまさに**オブジェクト検出**の目的です。
 
-## [事前クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![オブジェクト検出](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ja.png)
 
@@ -171,7 +171,7 @@ YOLOはリアルタイムのワンパスアルゴリズムです。主なアイ�
  * YOLO: [Keras 実装](https://github.com/experiencor/keras-yolo2), [ステップバイステップノートブック](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Keras 実装](https://github.com/experiencor/keras-yolo2), [ステップバイステップノートブック](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [事後クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [事後クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## 復習と自己学習
 

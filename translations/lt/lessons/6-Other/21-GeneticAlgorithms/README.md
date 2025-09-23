@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetiniai algoritmai
 
-## [Klausimynas prieš paskaitą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetiniai algoritmai** (GA) yra pagrįsti **evoliuciniu požiūriu** į dirbtinį intelektą, kuriame naudojami populiacijos evoliucijos metodai, siekiant rasti optimalią sprendimo problemą. Jie buvo pasiūlyti 1975 m. [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetiniai algoritmai naudojami spręsti daugelį problemų, įskaitant logistik
 
 "Genetiniai algoritmai yra paprasti įgyvendinti, tačiau jų elgesį sunku suprasti." [šaltinis](https://wikipedia.org/wiki/Genetic_algorithm) Atlikite tyrimą, kad rastumėte genetinio algoritmo įgyvendinimą, pavyzdžiui, sprendžiant Sudoku galvosūkį, ir paaiškinkite, kaip jis veikia eskizu arba srauto schema.
 
-## [Klausimynas po paskaitos](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Klausimynas po paskaitos](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Apžvalga ir savarankiškas mokymasis
 

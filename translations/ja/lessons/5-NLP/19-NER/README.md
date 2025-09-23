@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 これまでのところ、主に1つのNLPタスク、つまり分類に集中してきました。しかし、ニューラルネットワークを使用して達成できる他のNLPタスクも存在します。その1つが**[固有表現認識](https://wikipedia.org/wiki/Named-entity_recognition)**（NER）で、これはテキスト内の特定のエンティティ（場所、人名、日時、化学式など）を認識することを扱います。
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## NERの使用例
 
@@ -79,7 +79,7 @@ NERモデルは**トークン分類モデル**であり、トークン分類を�
 
 以下の課題を完了して、医療用語の固有表現認識モデルをトレーニングし、別のデータセットで試してみてください。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## 復習と自己学習
 

@@ -19,7 +19,7 @@ Bu bölümde, bu modeli daha esnek bir çerçeveye genişleteceğiz ve böylece:
 
 Ayrıca, farklı sinir ağı mimarileri oluşturabilmemizi sağlayacak kendi modüler Python çerçevemizi geliştireceğiz.
 
-## [Ders Öncesi Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Makine Öğreniminin Formalizasyonu
 
@@ -81,7 +81,7 @@ Eşlik eden notebook'ta, çok katmanlı algılayıcılar oluşturmak ve eğitmek
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) notebook'una geçin ve üzerinde çalışın.
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

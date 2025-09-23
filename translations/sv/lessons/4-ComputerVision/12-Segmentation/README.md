@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vi har tidigare lärt oss om Objektidentifiering, som gör det möjligt att lokalisera objekt i en bild genom att förutsäga deras *begränsningsramar*. Men för vissa uppgifter behöver vi inte bara begränsningsramar, utan också mer exakt objektlokalisering. Denna uppgift kallas **segmentering**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentering kan ses som **pixelklassificering**, där vi för **varje** pixel i bilden måste förutsäga dess klass (*bakgrund* är en av klasserna). Det finns två huvudsakliga segmenteringsalgoritmer:
 
@@ -56,7 +56,7 @@ Vi kommer att träna en modell för att segmentera vilken nevus som helst från 
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Slutsats
 

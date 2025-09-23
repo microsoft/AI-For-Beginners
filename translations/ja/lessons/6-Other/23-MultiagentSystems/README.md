@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 知能を実現する方法の一つとして、**創発的**（または**相乗的**）アプローチがあります。このアプローチは、多くの比較的単純なエージェントの結合された行動が、システム全体としてより複雑（または知的）な行動を生み出す可能性があるという事実に基づいています。理論的には、これは[集合知](https://en.wikipedia.org/wiki/Collective_intelligence)、[創発主義](https://en.wikipedia.org/wiki/Global_brain)、および[進化的サイバネティクス](https://en.wikipedia.org/wiki/Global_brain)の原則に基づいており、これらは、低レベルのシステムを適切に組み合わせることで高レベルのシステムが何らかの付加価値を得る（いわゆる*メタシステム移行の原則*）と述べています。
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **マルチエージェントシステム**の方向性は、1990年代にインターネットと分散システムの成長に応じてAIの分野で登場しました。古典的なAIの教科書の一つである[Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach)は、マルチエージェントシステムの観点から古典的なAIを捉えています。
 

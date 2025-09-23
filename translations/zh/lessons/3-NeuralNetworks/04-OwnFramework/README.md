@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我们还将使用 Python 开发自己的模块化框架，以便构建不同的神经网络架构。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## 机器学习的形式化定义
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 请前往 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) 笔记本并完成相关内容。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## 复习与自学
 

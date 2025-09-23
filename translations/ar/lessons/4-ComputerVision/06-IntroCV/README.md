@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [رؤية الحاسوب](https://wikipedia.org/wiki/Computer_vision) هي مجال يهدف إلى تمكين الحواسيب من فهم الصور الرقمية على مستوى عالٍ. هذا تعريف واسع جدًا، لأن *الفهم* يمكن أن يعني أشياء مختلفة، مثل العثور على كائن في صورة (**اكتشاف الكائنات**)، فهم ما يحدث (**اكتشاف الأحداث**)، وصف الصورة بالنص، أو إعادة بناء مشهد ثلاثي الأبعاد. هناك أيضًا مهام خاصة تتعلق بصور البشر: تقدير العمر والمشاعر، اكتشاف وتحديد الوجوه، وتقدير الوضعية ثلاثية الأبعاد، على سبيل المثال.
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 واحدة من أبسط مهام رؤية الحاسوب هي **تصنيف الصور**.
 
@@ -105,7 +105,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 شاهد [هذا الفيديو](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) من برنامج AI Show لتتعرف على مشروع Cortic Tigers وكيف قاموا ببناء حل قائم على الكتل لتبسيط مهام رؤية الحاسوب عبر روبوت. قم ببعض البحث عن مشاريع أخرى مشابهة تساعد في إدخال المتعلمين الجدد إلى هذا المجال.
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## المراجعة والدراسة الذاتية
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hanggang ngayon, karamihan sa ating pokus ay nasa isang NLP task - ang classification. Gayunpaman, may iba pang mga NLP task na maaaring magawa gamit ang neural networks. Isa sa mga task na ito ay ang **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), na tumutukoy sa pagkilala ng mga partikular na entidad sa loob ng teksto, tulad ng mga lugar, pangalan ng tao, mga petsa, chemical formula, at iba pa.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Halimbawa ng Paggamit ng NER
 
@@ -80,7 +80,7 @@ Ang isang NER model ay isang **token classification model**, na nangangahulugang
 
 Kumpletuhin ang assignment na naka-link sa ibaba upang mag-train ng named entity recognition model para sa mga medikal na termino, pagkatapos subukan ito sa ibang dataset.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Review & Self Study
 

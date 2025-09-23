@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ما قبلاً درباره تشخیص اشیا یاد گرفتیم، که به ما امکان می‌دهد اشیا را در تصویر با پیش‌بینی *جعبه‌های محدودکننده* مکان‌یابی کنیم. با این حال، برای برخی وظایف، تنها جعبه‌های محدودکننده کافی نیستند و به مکان‌یابی دقیق‌تر اشیا نیاز داریم. این وظیفه **بخش‌بندی** نامیده می‌شود.
 
-## [پرسش‌نامه پیش از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [پرسش‌نامه پیش از درس](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 بخش‌بندی را می‌توان به عنوان **طبقه‌بندی پیکسل‌ها** در نظر گرفت، به این معنا که برای **هر** پیکسل تصویر باید کلاس آن را پیش‌بینی کنیم (*پس‌زمینه* یکی از کلاس‌ها است). دو الگوریتم اصلی برای بخش‌بندی وجود دارد:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [بخش‌بندی معنایی با Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [بخش‌بندی معنایی با TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [پرسش‌نامه پس از درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [پرسش‌نامه پس از درس](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## نتیجه‌گیری
 

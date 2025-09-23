@@ -59,7 +59,7 @@ I denna enhet har du lärt dig huvudkonceptet bakom neurala nätverk för dators
 
 I de medföljande anteckningsböckerna finns det anteckningar längst ner om hur man kan uppnå högre noggrannhet. Gör några experiment för att se om du kan uppnå högre noggrannhet.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Granskning & Självstudier
 

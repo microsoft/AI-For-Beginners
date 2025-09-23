@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Os modelos de classificação de imagens que abordamos até agora tomam uma imagem e produzem um resultado categórico, como a classe 'número' em um problema MNIST. No entanto, em muitos casos, não queremos apenas saber que uma imagem retrata objetos - queremos determinar sua localização exata. Este é exatamente o objetivo da **detecção de objetos**.
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Detecção de Objetos](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.br.png)
 
@@ -172,7 +172,7 @@ Leia estes artigos e notebooks sobre YOLO e experimente por conta própria:
  * YOLO: [Implementação em Keras](https://github.com/experiencor/keras-yolo2), [notebook passo a passo](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Implementação em Keras](https://github.com/experiencor/keras-yolo2), [notebook passo a passo](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Revisão e Estudo Individual
 

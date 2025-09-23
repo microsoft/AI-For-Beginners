@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ٹیکسٹ کو ٹینسرز کے طور پر پیش کرنا
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## ٹیکسٹ کی درجہ بندی
 
@@ -73,7 +73,7 @@ BoW کا مسئلہ یہ ہے کہ کچھ عام الفاظ، جیسے *and*، *
 
 بیگ آف ورڈز اور مختلف ڈیٹا ماڈلز کا استعمال کرتے ہوئے کچھ دیگر مشقیں آزمائیں۔ آپ اس [کگل مقابلے](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) سے متاثر ہو سکتے ہیں۔
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## جائزہ اور خود مطالعہ
 

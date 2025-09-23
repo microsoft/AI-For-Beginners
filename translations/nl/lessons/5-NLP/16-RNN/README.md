@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Recurrent Neural Networks
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 In eerdere secties hebben we gebruik gemaakt van rijke semantische representaties van tekst en een eenvoudige lineaire classifier bovenop de embeddings. Wat deze architectuur doet, is de geaggregeerde betekenis van woorden in een zin vastleggen, maar het houdt geen rekening met de **volgorde** van woorden, omdat de aggregatiebewerking bovenop de embeddings deze informatie uit de oorspronkelijke tekst verwijdert. Omdat deze modellen niet in staat zijn om de volgorde van woorden te modelleren, kunnen ze geen complexere of dubbelzinnige taken oplossen, zoals tekstgeneratie of vraag-antwoord systemen.
 
@@ -84,7 +84,7 @@ Lees enkele literatuur over LSTMs en overweeg hun toepassingen:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Review & Zelfstudie
 

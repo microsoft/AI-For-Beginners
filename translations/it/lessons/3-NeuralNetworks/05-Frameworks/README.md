@@ -14,7 +14,7 @@ Come abbiamo già appreso, per addestrare reti neurali in modo efficiente dobbia
 * Operare sui tensori, ad esempio moltiplicare, sommare e calcolare alcune funzioni come sigmoid o softmax.
 * Calcolare i gradienti di tutte le espressioni, per eseguire l'ottimizzazione tramite discesa del gradiente.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Mentre la libreria `numpy` può occuparsi della prima parte, abbiamo bisogno di un meccanismo per calcolare i gradienti. Nel [nostro framework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) che abbiamo sviluppato nella sezione precedente, abbiamo dovuto programmare manualmente tutte le funzioni derivate all'interno del metodo `backward`, che esegue la retropropagazione. Idealmente, un framework dovrebbe offrirci la possibilità di calcolare i gradienti di *qualsiasi espressione* che possiamo definire.
 
@@ -106,7 +106,7 @@ In questa lezione, hai appreso le differenze tra le varie API dei due framework 
 
 Nei notebook allegati, troverai dei 'compiti' alla fine; lavora attraverso i notebook e completa i compiti.
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Revisione e Studio Autonomo
 

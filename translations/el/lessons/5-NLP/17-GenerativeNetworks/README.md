@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Γενετικά Δίκτυα
 
-## [Προ-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Τα Επαναλαμβανόμενα Νευρωνικά Δίκτυα (RNNs) και οι παραλλαγές τους με πύλες, όπως τα Long Short Term Memory Cells (LSTMs) και τα Gated Recurrent Units (GRUs), παρέχουν έναν μηχανισμό για τη μοντελοποίηση γλώσσας, καθώς μπορούν να μάθουν τη σειρά των λέξεων και να προβλέψουν την επόμενη λέξη σε μια ακολουθία. Αυτό μας επιτρέπει να χρησιμοποιούμε τα RNNs για **γενετικές εργασίες**, όπως η δημιουργία κειμένου, η μηχανική μετάφραση και ακόμη και η λεζάντα εικόνων.
 
@@ -71,7 +71,7 @@ today of the second the company and a second the company ...
 
 * Δημιουργία Κειμένου με [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Μετά-διάλεξης κουίζ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Μετά-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Ανασκόπηση & Αυτομελέτη
 

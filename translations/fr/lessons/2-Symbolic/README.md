@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 La quête de l'intelligence artificielle repose sur une recherche de connaissances, pour comprendre le monde de manière similaire aux humains. Mais comment peut-on s'y prendre pour y parvenir ?
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Aux débuts de l'IA, l'approche descendante pour créer des systèmes intelligents (discutée dans la leçon précédente) était populaire. L'idée était d'extraire les connaissances des humains dans un format lisible par une machine, puis de les utiliser pour résoudre automatiquement des problèmes. Cette approche reposait sur deux grandes idées :
 
@@ -236,7 +236,7 @@ De nos jours, l'IA est souvent considérée comme un synonyme de *Machine Learni
 
 Dans le notebook Family Ontology associé à cette leçon, il y a une opportunité d'expérimenter avec d'autres relations familiales. Essayez de découvrir de nouvelles connexions entre les personnes de l'arbre généalogique.
 
-## [Quiz post-cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz post-cours](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Révision et auto-apprentissage
 

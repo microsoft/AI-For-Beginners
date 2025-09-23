@@ -14,7 +14,7 @@ Kuten olemme jo oppineet, neuroverkkojen tehokkaaseen kouluttamiseen tarvitaan k
 * Kyky käsitellä tensoreita, esimerkiksi kertoa, laskea yhteen ja laskea joitakin funktioita, kuten sigmoid tai softmax
 * Kyky laskea kaikkien lausekkeiden gradientit, jotta voidaan suorittaa gradienttilaskeuman optimointi
 
-## [Esiluentavisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Esiluentavisa](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Vaikka `numpy`-kirjasto pystyy suorittamaan ensimmäisen osan, tarvitsemme mekanismin gradienttien laskemiseen. [Oma kehyksemme](../04-OwnFramework/OwnFramework.ipynb), jonka kehitimme edellisessä osiossa, vaati, että kaikki derivaattafunktiot ohjelmoitiin manuaalisesti `backward`-metodissa, joka suorittaa takapropagaation. Ihanteellisesti kehys antaisi meille mahdollisuuden laskea gradientit *mille tahansa lausekkeelle*, jonka voimme määritellä.
 
@@ -106,7 +106,7 @@ Tässä oppitunnissa opit kahden suosituimman tekoälykehyksen, TensorFlow'n ja 
 
 Mukana olevissa muistikirjoissa löydät 'tehtäviä' alareunasta; käy läpi muistikirjat ja suorita tehtävät.
 
-## [Jälkiluentavisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Jälkiluentavisa](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Kertaus ja itseopiskelu
 

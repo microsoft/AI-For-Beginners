@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Een van de mogelijke manieren om intelligentie te bereiken is de zogenaamde **emergente** (of **synergetische**) benadering, die gebaseerd is op het feit dat het gecombineerde gedrag van veel relatief eenvoudige agenten kan resulteren in een algeheel complexer (of intelligenter) gedrag van het systeem als geheel. Theoretisch is dit gebaseerd op de principes van [Collectieve Intelligentie](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentisme](https://en.wikipedia.org/wiki/Global_brain) en [Evolutionaire Cybernetica](https://en.wikipedia.org/wiki/Global_brain), die stellen dat systemen op een hoger niveau een soort toegevoegde waarde verkrijgen wanneer ze op de juiste manier worden gecombineerd vanuit systemen op een lager niveau (het zogenaamde *principe van metasysteemtransitie*).
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 De richting van **Multi-Agent Systemen** ontstond in AI in de jaren 1990 als reactie op de groei van het internet en gedistribueerde systemen. Een van de klassieke AI-handboeken, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), richt zich op het perspectief van klassieke AI vanuit het oogpunt van multi-agent systemen.
 
@@ -152,7 +152,7 @@ Ze richten zich allemaal op het eenvoudigere gedrag van een individuele agent en
 
 Breng deze les naar de echte wereld en probeer een multi-agent systeem te conceptualiseren dat een probleem kan oplossen. Wat zou een multi-agent systeem bijvoorbeeld moeten doen om een schoolbusroute te optimaliseren? Hoe zou het kunnen werken in een bakkerij?
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Review & Zelfstudie
 

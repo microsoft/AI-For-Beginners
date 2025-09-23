@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang pag-train ng CNNs ay maaaring tumagal ng mahabang oras, at nangangailangan ng maraming data para sa gawain na ito. Gayunpaman, karamihan sa oras ay ginugugol sa pag-aaral ng pinakamahusay na low-level filters na magagamit ng network upang makuha ang mga pattern mula sa mga imahe. Isang natural na tanong ang lumalabas - maaari ba nating gamitin ang isang neural network na na-train sa isang dataset at i-adapt ito upang mag-classify ng ibang mga imahe nang hindi kinakailangan ang buong proseso ng pag-train?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Ang approach na ito ay tinatawag na **transfer learning**, dahil inililipat natin ang ilang kaalaman mula sa isang neural network model patungo sa iba. Sa transfer learning, karaniwang nagsisimula tayo sa isang pre-trained model, na na-train na sa isang malaking image dataset, tulad ng **ImageNet**. Ang mga modelong ito ay mahusay na sa pagkuha ng iba't ibang features mula sa mga generic na imahe, at sa maraming kaso, ang pagbuo ng isang classifier sa ibabaw ng mga extracted features na ito ay maaaring magbigay ng magandang resulta.
 
@@ -76,7 +76,7 @@ Sa paggamit ng transfer learning, mabilis kang makakabuo ng isang classifier par
 
 Sa mga kasamang notebooks, may mga tala sa ibaba tungkol sa kung paano pinakamahusay na gumagana ang transfer knowledge sa medyo magkatulad na training data (halimbawa, isang bagong uri ng hayop). Subukan ang pag-eksperimento sa ganap na bagong uri ng mga imahe upang makita kung gaano kahusay o kahina ang performance ng iyong transfer knowledge models.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Review at Pag-aaral sa Sarili
 

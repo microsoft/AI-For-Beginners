@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Thuật toán Di truyền
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Thuật toán Di truyền** (GA) dựa trên cách tiếp cận **tiến hóa** trong AI, trong đó các phương pháp tiến hóa của một quần thể được sử dụng để tìm ra giải pháp tối ưu cho một vấn đề cụ thể. Thuật toán này được đề xuất vào năm 1975 bởi [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Thuật toán Di truyền được sử dụng để giải quyết nhiều vấ
 
 "Thuật toán di truyền dễ triển khai, nhưng hành vi của chúng rất khó hiểu." [nguồn](https://wikipedia.org/wiki/Genetic_algorithm) Hãy nghiên cứu để tìm một triển khai của thuật toán di truyền, chẳng hạn như giải bài toán Sudoku, và giải thích cách nó hoạt động dưới dạng phác thảo hoặc sơ đồ luồng.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Ôn tập & Tự học
 

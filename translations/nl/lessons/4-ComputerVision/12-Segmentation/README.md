@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 We hebben eerder geleerd over Objectdetectie, waarmee we objecten in een afbeelding kunnen lokaliseren door hun *omsluitende kaders* te voorspellen. Voor sommige taken hebben we echter niet alleen omsluitende kaders nodig, maar ook een nauwkeurigere lokalisatie van objecten. Deze taak wordt **segmentatie** genoemd.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentatie kan worden gezien als **pixelclassificatie**, waarbij we voor **elke** pixel in de afbeelding de klasse moeten voorspellen (*achtergrond* is een van de klassen). Er zijn twee hoofdtypen segmentatie-algoritmen:
 
@@ -56,7 +56,7 @@ Open de onderstaande notebooks om meer te leren over verschillende semantische s
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Conclusie
 

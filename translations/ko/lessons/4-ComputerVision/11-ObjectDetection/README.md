@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 지금까지 다룬 이미지 분류 모델은 이미지를 입력받아 MNIST 문제에서 '숫자'와 같은 범주형 결과를 출력했습니다. 하지만 많은 경우, 단순히 사진에 객체가 있다는 것을 아는 것만으로는 충분하지 않습니다. 우리는 객체의 정확한 위치를 파악하고 싶어합니다. 이것이 바로 **객체 탐지**의 핵심입니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![객체 탐지](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ko.png)
 
@@ -171,7 +171,7 @@ YOLO에 대한 다음 글과 노트북을 읽고 직접 시도해 보세요:
  * YOLO: [Keras 구현](https://github.com/experiencor/keras-yolo2), [단계별 노트북](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Keras 구현](https://github.com/experiencor/keras-yolo2), [단계별 노트북](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## 복습 및 자기 학습
 

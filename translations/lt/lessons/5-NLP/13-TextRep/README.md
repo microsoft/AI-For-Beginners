@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Teksto atvaizdavimas kaip tensoriai
 
-## [Prieš paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Teksto klasifikavimas
 
@@ -73,7 +73,7 @@ Iki šiol išnagrinėjome metodus, kurie gali pridėti dažnio svorį skirtingie
 
 Išbandykite kitus pratimus, naudodami žodžių maišą ir skirtingus duomenų modelius. Jus gali įkvėpti šis [Kaggle konkursas](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Po paskaitos testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Peržiūra ir savarankiškas mokymasis
 

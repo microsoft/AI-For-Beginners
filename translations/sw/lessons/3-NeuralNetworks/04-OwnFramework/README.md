@@ -19,7 +19,7 @@ Katika sehemu hii tutapanua mfano huu kuwa mfumo wenye kubadilika zaidi, unaotuw
 
 Pia tutaendeleza mfumo wetu wa modular kwa kutumia Python ambao utaturuhusu kujenga usanifu tofauti wa mitandao ya neural.
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Urasmishaji wa Kujifunza kwa Mashine
 
@@ -81,7 +81,7 @@ Katika daftari linaloambatana, utatekeleza mfumo wako wa kujenga na kufundisha p
 
 Endelea kwenye [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) daftari na uifanyie kazi.
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Mapitio na Kujisomea
 

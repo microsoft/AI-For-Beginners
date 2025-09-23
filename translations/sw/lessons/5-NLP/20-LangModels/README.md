@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Katika kazi zetu zote za awali, tulikuwa tunafundisha mtandao wa neva kufanya kazi fulani kwa kutumia seti ya data yenye lebo. Kwa miundo mikubwa ya transformer, kama BERT, tunatumia uundaji wa lugha kwa njia ya kujifunza binafsi ili kujenga mfano wa lugha, ambao baadaye unataalam kwa kazi maalum za chini kwa mafunzo zaidi ya kikoa maalum. Hata hivyo, imeonyeshwa kuwa miundo mikubwa ya lugha inaweza pia kutatua kazi nyingi bila mafunzo yoyote maalum ya kikoa. Familia ya miundo inayoweza kufanya hivyo inaitwa **GPT**: Generative Pre-Trained Transformer.
 
-## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Uundaji wa Maandishi na Perplexity
 
@@ -59,7 +59,7 @@ Endelea kujifunza katika daftari zifuatazo:
 
 Miundo mipya ya lugha iliyofunzwa kabla haifanyi tu uundaji wa muundo wa lugha, bali pia ina kiasi kikubwa cha lugha ya asili. Kwa hivyo, inaweza kutumika kwa ufanisi kutatua baadhi ya kazi za NLP katika mipangilio ya zero-shop au few-shot.
 
-## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Kanusho**:  
 Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

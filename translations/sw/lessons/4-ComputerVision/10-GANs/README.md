@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Katika sehemu iliyopita, tulijifunza kuhusu **miundo ya kizazi**: miundo inayoweza kuzalisha picha mpya zinazofanana na zile zilizopo kwenye seti ya mafunzo. VAE ilikuwa mfano mzuri wa muundo wa kizazi.
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Hata hivyo, tukijaribu kuzalisha kitu chenye maana zaidi, kama mchoro wa kiwango cha azimio la kuridhisha, kwa kutumia VAE, tutaona kuwa mafunzo hayafikii lengo vizuri. Kwa matumizi haya, tunapaswa kujifunza kuhusu usanifu mwingine unaolenga hasa miundo ya kizazi - **Mitandao ya Kizazi ya Kifedhuli**, au GANs.
 
@@ -84,7 +84,7 @@ Jinsi inavyofanya kazi ni kama ifuatavyo:
 
 ## ✍️ Mfano: [Uhamishaji wa Mtindo](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Hitimisho
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 I modelli di classificazione delle immagini che abbiamo trattato finora prendevano un'immagine e producevano un risultato categorico, come la classe 'numero' in un problema MNIST. Tuttavia, in molti casi non vogliamo solo sapere che un'immagine ritrae degli oggetti, ma desideriamo anche determinare la loro posizione precisa. Questo è esattamente l'obiettivo del **rilevamento degli oggetti**.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Rilevamento degli Oggetti](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.it.png)
 
@@ -172,7 +172,7 @@ Leggi questi articoli e notebook su YOLO e prova a utilizzarli tu stesso:
  * YOLO: [Implementazione Keras](https://github.com/experiencor/keras-yolo2), [notebook passo-passo](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Implementazione Keras](https://github.com/experiencor/keras-yolo2), [notebook passo-passo](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Revisione e Studio Autonomo
 

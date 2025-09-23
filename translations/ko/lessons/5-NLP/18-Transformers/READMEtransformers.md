@@ -1,6 +1,6 @@
 # 주의 메커니즘과 트랜스포머
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 자연어 처리(NLP) 분야에서 가장 중요한 문제 중 하나는 **기계 번역**으로, Google Translate와 같은 도구의 기초가 되는 필수 작업입니다. 이 섹션에서는 기계 번역, 또는 더 일반적으로는 모든 *시퀀스-투-시퀀스* 작업(이 작업은 **문장 전이**라고도 불림)에 초점을 맞출 것입니다.
 
@@ -99,7 +99,7 @@ RNN을 사용하면 시퀀스-투-시퀀스는 두 개의 순환 네트워크로
 
 ## 🚀 도전
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## 복습 및 자습
 

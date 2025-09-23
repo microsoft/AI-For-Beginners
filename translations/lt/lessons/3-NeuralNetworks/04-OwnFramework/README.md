@@ -19,7 +19,7 @@ Ankstesniame skyriuje sužinojote apie paprasčiausią neuroninio tinklo modelį
 
 Taip pat sukursime savo modulinę sistemą Python kalboje, kuri leis mums konstruoti įvairias neuroninių tinklų architektūras.
 
-## [Prieš paskaitą vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Prieš paskaitą vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Mašininio mokymosi formalizavimas
 
@@ -81,7 +81,7 @@ Pridedamoje užrašų knygelėje įgyvendinsite savo sistemą daugiasluoksnių p
 
 Pereikite prie [OwnFramework](OwnFramework.ipynb) užrašų knygelės ir dirbkite su ja.
 
-## [Po paskaitos vykdomas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Po paskaitos vykdomas testas](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Apžvalga ir savarankiškas mokymasis
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 語意嵌入（例如 Word2Vec 和 GloVe）實際上是邁向**語言建模**的第一步——建立能夠以某種方式*理解*（或*表示*）語言特性的模型。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 語言建模的核心理念是以無監督的方式在未標註的數據集上進行訓練。這很重要，因為我們擁有大量未標註的文本，而標註文本的數量則受限於我們能投入的標註工作量。通常，我們可以建立能夠**預測缺失詞**的語言模型，因為在文本中隨機遮蔽一個詞並將其作為訓練樣本是相對容易的。
 
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在上一課中，我們看到詞嵌入的效果就像魔法一樣！現在我們知道，訓練詞嵌入並不是一項非常複雜的任務，如果需要，我們應該能夠為特定領域的文本訓練自己的詞嵌入。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## 回顧與自學
 

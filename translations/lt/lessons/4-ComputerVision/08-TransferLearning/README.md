@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN mokymas gali užtrukti daug laiko, o tam reikia daug duomenų. Tačiau didžioji dalis laiko skiriama geriausių žemo lygio filtrų mokymuisi, kuriuos tinklas gali naudoti norėdamas išgauti vaizdų raštus. Kyla natūralus klausimas – ar galime naudoti neuroninį tinklą, apmokytą viename duomenų rinkinyje, ir pritaikyti jį skirtingų vaizdų klasifikavimui, nereikalaujant pilno mokymo proceso?
 
-## [Prieš paskaitą viktorina](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Prieš paskaitą viktorina](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Šis metodas vadinamas **perkėlimo mokymusi**, nes mes perkeliam tam tikras žinias iš vieno neuroninio tinklo modelio į kitą. Perkėlimo mokymesi paprastai pradedame nuo iš anksto apmokyto modelio, kuris buvo apmokytas naudojant didelį vaizdų duomenų rinkinį, pvz., **ImageNet**. Šie modeliai jau gerai išgauna įvairias savybes iš bendrinių vaizdų, ir daugeliu atvejų tiesiog sukūrus klasifikatorių ant šių išgautų savybių galima pasiekti gerą rezultatą.
 
@@ -76,7 +76,7 @@ Naudodami perkėlimo mokymąsi, galite greitai sukurti klasifikatorių pagal už
 
 Pridedamose užrašų knygelėse yra pastabų apačioje apie tai, kaip perkėlimo žinios geriausiai veikia su šiek tiek panašiais mokymo duomenimis (galbūt naujo tipo gyvūnu). Atlikite eksperimentus su visiškai naujais vaizdų tipais, kad pamatytumėte, kaip gerai ar prastai veikia jūsų perkėlimo žinių modeliai.
 
-## [Po paskaitos viktorina](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Po paskaitos viktorina](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Apžvalga ir savarankiškas mokymasis
 

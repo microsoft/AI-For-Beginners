@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 En la sección anterior, aprendimos sobre los **modelos generativos**: modelos que pueden generar nuevas imágenes similares a las del conjunto de datos de entrenamiento. VAE fue un buen ejemplo de un modelo generativo.
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Sin embargo, si intentamos generar algo realmente significativo, como una pintura con una resolución razonable, usando VAE, veremos que el entrenamiento no converge bien. Para este caso de uso, debemos aprender sobre otra arquitectura específicamente orientada a modelos generativos: las **Redes Generativas Antagónicas**, o GANs.
 
@@ -84,7 +84,7 @@ El funcionamiento es el siguiente:
 
 ## ✍️ Ejemplo: [Transferencia de estilo](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Conclusión
 

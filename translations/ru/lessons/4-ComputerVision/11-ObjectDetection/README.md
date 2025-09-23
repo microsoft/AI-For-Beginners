@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Модели классификации изображений, с которыми мы работали до сих пор, принимали изображение и выдавали категориальный результат, например, класс "цифра" в задаче MNIST. Однако во многих случаях нам недостаточно просто знать, что на изображении есть объекты — мы хотим определить их точное местоположение. Именно этим занимается **обнаружение объектов**.
 
-## [Тест перед лекцией](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Обнаружение объектов](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ru.png)
 
@@ -172,7 +172,7 @@ YOLO — это алгоритм реального времени с одним
  * YOLO: [Реализация на Keras](https://github.com/experiencor/keras-yolo2), [пошаговая тетрадь](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Реализация на Keras](https://github.com/experiencor/keras-yolo2), [пошаговая тетрадь](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Тест после лекции](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Тест после лекции](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Обзор и самостоятельное изучение
 

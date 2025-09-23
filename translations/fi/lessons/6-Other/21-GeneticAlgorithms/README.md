@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Geneettiset algoritmit
 
-## [Ennakkovisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Ennakkovisa](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Geneettiset algoritmit** (GA) perustuvat **evolutionääriseen lähestymistapaan** tekoälyssä, jossa populaation evoluutiomenetelmiä käytetään optimaalisen ratkaisun löytämiseksi tiettyyn ongelmaan. Ne esiteltiin vuonna 1975 [John Henry Hollandin](https://wikipedia.org/wiki/John_Henry_Holland) toimesta.
 
@@ -66,7 +66,7 @@ Geneettisiä algoritmeja käytetään monien ongelmien ratkaisemiseen, mukaan lu
 
 "Geneettiset algoritmit ovat yksinkertaisia toteuttaa, mutta niiden käyttäytymistä on vaikea ymmärtää." [lähde](https://wikipedia.org/wiki/Genetic_algorithm) Tee tutkimusta löytääksesi geneettisen algoritmin toteutuksen, kuten Sudoku-pulman ratkaisemisen, ja selitä, miten se toimii luonnoksena tai vuokaaviona.
 
-## [Jälkivisa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Jälkivisa](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Kertaus ja itseopiskelu
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 L'entraînement des CNN peut prendre beaucoup de temps, et une grande quantité de données est nécessaire pour cette tâche. Cependant, une grande partie du temps est consacrée à l'apprentissage des meilleurs filtres de bas niveau qu'un réseau peut utiliser pour extraire des motifs à partir d'images. Une question naturelle se pose : peut-on utiliser un réseau neuronal entraîné sur un ensemble de données et l'adapter pour classer des images différentes sans nécessiter un processus d'entraînement complet ?
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Cette approche est appelée **apprentissage par transfert**, car nous transférons une partie des connaissances d'un modèle de réseau neuronal à un autre. Dans l'apprentissage par transfert, nous commençons généralement par un modèle pré-entraîné, qui a été entraîné sur un grand ensemble de données d'images, comme **ImageNet**. Ces modèles sont déjà capables d'extraire efficacement différentes caractéristiques d'images génériques, et dans de nombreux cas, construire simplement un classificateur sur ces caractéristiques extraites peut donner de bons résultats.
 
@@ -76,7 +76,7 @@ Grâce à l'apprentissage par transfert, vous pouvez rapidement créer un classi
 
 Dans les notebooks associés, des notes en bas expliquent que l'apprentissage par transfert fonctionne mieux avec des données d'entraînement quelque peu similaires (un nouveau type d'animal, par exemple). Faites des expérimentations avec des types d'images complètement nouveaux pour voir à quel point vos modèles d'apprentissage par transfert fonctionnent bien ou mal.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Révision et auto-apprentissage
 

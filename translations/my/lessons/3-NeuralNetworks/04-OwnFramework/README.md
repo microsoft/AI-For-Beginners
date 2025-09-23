@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ထို့အပြင် Python တွင် မိမိကိုယ်တိုင် modular framework တစ်ခုကို ဖွံ့ဖြိုးတိုးတက်စေပြီး၊ နယူးရယ်နက်ဝက် architecture များကို တည်ဆောက်နိုင်စေမည်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Machine Learning ကို တိကျစွာ ဖော်ပြခြင်း
 
@@ -82,7 +82,7 @@ Gradient descent algorithm သည် အတူတူပင်ရှိနေသ�
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) notebook သို့ သွားပြီး အလုပ်လုပ်ပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Review & Self Study
 

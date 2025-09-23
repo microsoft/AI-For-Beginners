@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Mifano ya uainishaji wa picha tuliyoshughulikia hadi sasa ilichukua picha na kutoa matokeo ya kategoria, kama darasa 'nambari' katika tatizo la MNIST. Hata hivyo, katika hali nyingi hatutaki tu kujua kwamba picha inaonyesha vitu - tunataka kuweza kubaini eneo lao halisi. Hili ndilo hasa lengo la **utambuzi wa vitu**.
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Utambuzi wa Vitu](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sw.png)
 
@@ -172,7 +172,7 @@ Soma makala na daftari hizi kuhusu YOLO na ujaribu mwenyewe:
  * Yolo: [Utekelezaji wa Keras](https://github.com/experiencor/keras-yolo2), [daftari la hatua kwa hatua](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Utekelezaji wa Keras](https://github.com/experiencor/keras-yolo2), [daftari la hatua kwa hatua](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Mapitio na Kujisomea
 

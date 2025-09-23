@@ -208,7 +208,7 @@ GROUP BY ?eyeColorLabel
 
 在与本课相关的家庭本体笔记本中，有机会尝试其他家庭关系。试着发现家谱中人与人之间的新连接。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## 复习与自学
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 循環神經網路
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 在之前的章節中，我們使用了豐富的文本語義表示以及嵌入層之上的簡單線性分類器。這種架構的作用是捕捉句子中單詞的整體意義，但它並未考慮單詞的**順序**，因為嵌入層上的聚合操作移除了原始文本中的這種信息。由於這些模型無法建模單詞的順序，因此無法解決更複雜或更具歧義的任務，例如文本生成或問題回答。
 
@@ -84,7 +84,7 @@ LSTM 網路的組織方式與 RNN 類似，但有兩個狀態在層與層之間�
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## 回顧與自學
 

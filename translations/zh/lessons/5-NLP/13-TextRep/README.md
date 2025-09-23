@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 将文本表示为张量
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## 文本分类
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 尝试使用词袋模型和不同的数据模型完成其他练习。你可以从这个 [Kaggle 比赛](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) 中获得灵感。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## 复习与自学
 

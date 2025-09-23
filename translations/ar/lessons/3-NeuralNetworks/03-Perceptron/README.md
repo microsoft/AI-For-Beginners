@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مقدمة إلى الشبكات العصبية: بيرسيبترون
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 أحد أولى المحاولات لتطبيق شيء مشابه للشبكات العصبية الحديثة قام بها فرانك روزنبلات من مختبر كورنيل للطيران في عام 1957. كان ذلك عبارة عن تطبيق مادي يُسمى "Mark-1"، صُمم للتعرف على الأشكال الهندسية البدائية، مثل المثلثات والمربعات والدوائر.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 إذا كنت ترغب في محاولة بناء بيرسيبترون خاص بك، جرب [هذا المختبر على Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) الذي يستخدم [مصمم Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## المراجعة والدراسة الذاتية
 

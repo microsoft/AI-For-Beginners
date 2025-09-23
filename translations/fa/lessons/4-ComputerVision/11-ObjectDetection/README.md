@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 مدل‌های دسته‌بندی تصویر که تاکنون با آن‌ها کار کرده‌ایم، یک تصویر را گرفته و یک نتیجه‌ی دسته‌بندی، مانند کلاس "عدد" در مسئله‌ی MNIST، تولید می‌کردند. اما در بسیاری از موارد، ما فقط نمی‌خواهیم بدانیم که یک تصویر اشیاء را نشان می‌دهد - بلکه می‌خواهیم مکان دقیق آن‌ها را نیز تعیین کنیم. این دقیقاً هدف **تشخیص اشیاء** است.
 
-## [پیش‌سوالات درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [پیش‌سوالات درس](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![تشخیص اشیاء](../../../../../lessons/4-ComputerVision/11-ObjectDetection/images/Screen_Shot_2016-11-17_at_11.14.54_AM.png)
 
@@ -171,7 +171,7 @@ YOLO یک الگوریتم یک‌مرحله‌ای بلادرنگ است. ای�
  * YOLO: [پیاده‌سازی Keras](https://github.com/experiencor/keras-yolo2)، [دفترچه گام‌به‌گام](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [پیاده‌سازی Keras](https://github.com/experiencor/keras-yolo2)، [دفترچه گام‌به‌گام](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [پس‌سوالات درس](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [پس‌سوالات درس](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## مرور و مطالعه شخصی
 

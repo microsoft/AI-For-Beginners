@@ -2,7 +2,7 @@
 
 En todas nuestras tareas anteriores, entrenábamos una red neuronal para realizar una tarea específica utilizando un conjunto de datos etiquetados. Con modelos de transformador grandes, como BERT, utilizamos el modelado del lenguaje de manera auto-supervisada para construir un modelo de lenguaje, que luego se especializa para tareas específicas de acuerdo con un entrenamiento adicional en dominios específicos. Sin embargo, se ha demostrado que los grandes modelos de lenguaje también pueden resolver muchas tareas sin NINGÚN entrenamiento específico de dominio. Una familia de modelos capaces de hacer esto se llama **GPT**: Transformador Generativo Preentrenado.
 
-## [Cuestionario previo a la conferencia](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Cuestionario previo a la conferencia](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generación de Texto y Perplejidad
 
@@ -49,7 +49,7 @@ Continúa tu aprendizaje en los siguientes cuadernos:
 
 Los nuevos modelos de lenguaje preentrenados generales no solo modelan la estructura del lenguaje, sino que también contienen una gran cantidad de lenguaje natural. Por lo tanto, pueden ser utilizados de manera efectiva para resolver algunas tareas de PLN en configuraciones de cero disparos o pocos disparos.
 
-## [Cuestionario posterior a la conferencia](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Cuestionario posterior a la conferencia](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Descargo de responsabilidad**:  
 Este documento ha sido traducido utilizando servicios de traducción automática basados en IA. Si bien nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o malas interpretaciones que surjan del uso de esta traducción.

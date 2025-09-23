@@ -59,7 +59,7 @@ Ebben az egységben megismerte a számítógépes látás neurális hálózatain
 
 A mellékelt jegyzetfüzetekben vannak megjegyzések az alján arról, hogyan lehet nagyobb pontosságot elérni. Végezzen kísérleteket, hogy megnézze, el tud-e érni magasabb pontosságot.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Áttekintés és önálló tanulás
 

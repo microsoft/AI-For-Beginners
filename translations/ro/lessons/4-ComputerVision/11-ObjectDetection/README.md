@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Modelele de clasificare a imaginilor pe care le-am abordat până acum au luat o imagine și au produs un rezultat categoric, cum ar fi clasa „număr” într-o problemă MNIST. Totuși, în multe cazuri, nu dorim doar să știm că o imagine prezintă obiecte - vrem să putem determina locația lor exactă. Acesta este exact scopul **detectării obiectelor**.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Detectarea Obiectelor](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ro.png)
 
@@ -172,7 +172,7 @@ Citește aceste articole și notebook-uri despre YOLO și încearcă-le singur:
  * Yolo: [Implementare Keras](https://github.com/experiencor/keras-yolo2), [notebook pas cu pas](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Implementare Keras](https://github.com/experiencor/keras-yolo2), [notebook pas cu pas](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Recapitulare & Studiu Individual
 

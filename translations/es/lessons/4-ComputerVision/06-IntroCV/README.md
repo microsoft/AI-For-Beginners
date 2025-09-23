@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Visión por Computadora](https://wikipedia.org/wiki/Computer_vision) es una disciplina cuyo objetivo es permitir que las computadoras obtengan una comprensión de alto nivel de las imágenes digitales. Esta es una definición bastante amplia, ya que *comprender* puede significar muchas cosas, incluyendo encontrar un objeto en una imagen (**detección de objetos**), entender qué está sucediendo (**detección de eventos**), describir una imagen en texto o reconstruir una escena en 3D. También hay tareas especiales relacionadas con imágenes humanas: estimación de edad y emociones, detección e identificación de rostros, y estimación de poses en 3D, por nombrar algunas.
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Una de las tareas más simples de la visión por computadora es la **clasificación de imágenes**.
 
@@ -105,7 +105,7 @@ A veces, tareas relativamente complejas como la detección de movimiento o la de
 
 Mira [este video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) del AI Show para aprender sobre el proyecto Cortic Tigers y cómo construyeron una solución basada en bloques para democratizar las tareas de visión por computadora mediante un robot. Investiga otros proyectos como este que ayudan a nuevos aprendices a iniciarse en el campo.
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Revisión y Autoestudio
 

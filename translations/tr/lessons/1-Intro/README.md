@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Çizim notu: [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Yapay Zeka**, bilgisayarların insanlara özgü yetenekleri sergilemesini, yani insanların iyi olduğu şeyleri yapmasını sağlayan heyecan verici bir bilim dalıdır.
 
@@ -133,7 +133,7 @@ Son birkaç yılda, BERT ve GPT-3 gibi büyük dil modelleriyle büyük başarı
 
 İnternette bir tur yaparak, AI'nin en etkili şekilde nerede kullanıldığını belirleyin. Bir haritalama uygulamasında mı, bir konuşmadan metne hizmette mi yoksa bir video oyununda mı? Sistemin nasıl inşa edildiğini araştırın.
 
-## [Ders sonrası test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Ders sonrası test](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 

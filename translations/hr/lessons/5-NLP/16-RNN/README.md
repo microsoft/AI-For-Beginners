@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rekurentne neuronske mreže
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 U prethodnim odjeljcima koristili smo bogate semantičke reprezentacije teksta i jednostavan linearni klasifikator na vrhu ugrađenih vektora. Ova arhitektura hvata agregirano značenje riječi u rečenici, ali ne uzima u obzir **redoslijed** riječi, jer operacija agregacije na vrhu ugrađenih vektora uklanja ovu informaciju iz izvornog teksta. Budući da ovi modeli ne mogu modelirati redoslijed riječi, nisu sposobni riješiti složenije ili dvosmislene zadatke poput generiranja teksta ili odgovaranja na pitanja.
 
@@ -84,7 +84,7 @@ Pročitajte literaturu o LSTM-ovima i razmotrite njihove primjene:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Pregled i samostalno učenje
 

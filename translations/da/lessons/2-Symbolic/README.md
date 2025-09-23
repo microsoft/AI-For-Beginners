@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Jagten på kunstig intelligens handler om at finde viden og forstå verden på samme måde som mennesker gør. Men hvordan kan man gøre dette?
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 I AI's tidlige dage var den top-down tilgang til at skabe intelligente systemer (diskuteret i den forrige lektion) populær. Ideen var at udtrække viden fra mennesker i en maskinlæsbar form og derefter bruge den til automatisk at løse problemer. Denne tilgang var baseret på to store idéer:
 
@@ -236,7 +236,7 @@ I dag bliver AI ofte betragtet som synonymt med *Machine Learning* eller *Neural
 
 I Family Ontology-notebooken, der er tilknyttet denne lektion, er der mulighed for at eksperimentere med andre familierelationer. Prøv at opdage nye forbindelser mellem personer i familietræet.
 
-## [Quiz efter lektionen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Gennemgang & Selvstudie
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 人工知能の探求は、世界を人間のように理解するための知識の探求に基づいています。しかし、これをどのように実現するのでしょうか？
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 AIの初期には、インテリジェントシステムを作成するためのトップダウンアプローチ（前回のレッスンで説明）が主流でした。このアイデアは、人々から知識を抽出して機械が読み取れる形式に変換し、それを使って自動的に問題を解決するというものでした。このアプローチは、以下の2つの大きなアイデアに基づいています：
 
@@ -236,7 +236,7 @@ GROUP BY ?eyeColorLabel
 
 このレッスンに関連するFamily Ontologyノートブックでは、他の家族関係を試す機会があります。家系図内の人々の間に新しいつながりを発見してみてください。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## 復習と自己学習
 

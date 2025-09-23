@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ہم Python میں اپنا ایک ماڈیولر فریم ورک بھی تیار کریں گے جو ہمیں مختلف نیورل نیٹ ورک آرکیٹیکچرز بنانے کی اجازت دے گا۔
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## مشین لرننگ کی رسمی وضاحت
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) نوٹ بک پر جائیں اور اس پر کام کریں۔
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## جائزہ اور خود مطالعہ
 

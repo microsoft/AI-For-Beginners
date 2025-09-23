@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Când antrenăm CNN-uri, una dintre probleme este că avem nevoie de o cantitate mare de date etichetate. În cazul clasificării imaginilor, trebuie să separăm imaginile în clase diferite, ceea ce necesită un efort manual.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Totuși, am putea dori să folosim date brute (neetichetate) pentru a antrena extractoare de caracteristici CNN, ceea ce se numește **învățare auto-supervizată**. În loc de etichete, vom folosi imaginile de antrenament atât ca intrare, cât și ca ieșire pentru rețea. Ideea principală a unui **autoencoder** este că vom avea o **rețea encoder** care transformă imaginea de intrare într-un spațiu **latent** (de obicei, este doar un vector de dimensiune mai mică), apoi o **rețea decoder**, al cărei scop este să reconstruiască imaginea originală.
 
@@ -80,7 +80,7 @@ Aflați mai multe despre autoencodere în aceste notebook-uri corespunzătoare:
 * **Pierdere de informație** - imaginea reconstruită nu este aceeași cu imaginea originală. Natura pierderii este definită de *funcția de pierdere* utilizată în timpul antrenamentului.
 * Funcționează pe **date neetichetate**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Concluzie
 
@@ -90,7 +90,7 @@ Aflați mai multe despre autoencodere în aceste notebook-uri corespunzătoare:
 
 În această lecție, ați învățat despre utilizarea autoencoderelor pentru imagini. Dar ele pot fi folosite și pentru muzică! Consultați proiectul Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), care folosește autoencodere pentru a învăța să reconstruiască muzică. Faceți câteva [experimente](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) cu această bibliotecă pentru a vedea ce puteți crea.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Recapitulare & Studiu Individual
 

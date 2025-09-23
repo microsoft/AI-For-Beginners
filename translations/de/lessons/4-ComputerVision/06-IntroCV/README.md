@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) ist ein Fachgebiet, dessen Ziel es ist, Computern ein hochgradiges Verständnis digitaler Bilder zu ermöglichen. Dies ist eine recht breite Definition, da *Verständnis* viele verschiedene Dinge bedeuten kann, wie z. B. das Finden eines Objekts auf einem Bild (**Objekterkennung**), das Verstehen, was passiert (**Ereigniserkennung**), das Beschreiben eines Bildes in Text oder die Rekonstruktion einer Szene in 3D. Es gibt auch spezielle Aufgaben im Zusammenhang mit menschlichen Bildern: Alter- und Emotionserkennung, Gesichtserkennung und -identifikation sowie 3D-Pose-Schätzung, um nur einige zu nennen.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Eine der einfachsten Aufgaben von Computer Vision ist die **Bildklassifikation**.
 
@@ -105,7 +105,7 @@ Manchmal können relativ komplexe Aufgaben wie Bewegungserkennung oder Fingerspi
 
 Sehen Sie sich [dieses Video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) aus der AI-Show an, um mehr über das Cortic Tigers-Projekt zu erfahren und wie sie eine blockbasierte Lösung entwickelt haben, um Computer-Vision-Aufgaben über einen Roboter zu demokratisieren. Recherchieren Sie weitere Projekte wie dieses, die neuen Lernenden den Einstieg in das Fachgebiet erleichtern.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Überprüfung & Selbststudium
 

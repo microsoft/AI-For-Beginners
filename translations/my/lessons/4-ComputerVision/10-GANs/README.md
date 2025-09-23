@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 မကြာသေးမီကပိုင်းတွင် **generative models** အကြောင်းကိုလေ့လာခဲ့ပါသည်။ Generative models ဆိုသည်မှာ သင်ကြားမှု dataset ထဲရှိပုံများနှင့်တူသော ပုံအသစ်များကို ဖန်တီးနိုင်သော မော်ဒယ်များဖြစ်သည်။ VAE သည် generative model တစ်ခုအနေဖြင့် ကောင်းမွန်သော ဥပမာတစ်ခုဖြစ်သည်။
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 သို့သော် VAE ကို အသုံးပြု၍ အဓိပ္ပါယ်ရှိသော ပုံများကို သင့်တင့်သော resolution ဖြင့် ဖန်တီးရန်ကြိုးစားပါက သင်ကြားမှုသည် ကောင်းစွာမရောက်ရှိနိုင်ပါ။ ဒီလိုအခြေအနေတွင် generative models အတွက် အထူးသီးသန့်ဖန်တီးထားသော architecture တစ်ခုဖြစ်သည့် **Generative Adversarial Networks** (GANs) အကြောင်းကို လေ့လာရမည်ဖြစ်သည်။
 
@@ -85,7 +85,7 @@ GANs သည် အနုပညာပုံများ ဖန်တီးရန�
 
 ## ✍️ Example: [Style Transfer](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## နိဂုံး
 

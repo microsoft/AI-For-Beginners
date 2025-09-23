@@ -59,7 +59,7 @@ En esta unidad, has aprendido el concepto principal detrás de las redes neurona
 
 En los cuadernos adjuntos, hay notas al final sobre cómo obtener mayor precisión. Realiza algunos experimentos para ver si puedes lograr una mayor precisión.
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Revisión y Autoestudio
 

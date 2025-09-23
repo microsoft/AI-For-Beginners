@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN'leri (Convolutional Neural Networks) eğitirken karşılaşılan sorunlardan biri, çok fazla etiketlenmiş veriye ihtiyaç duymamızdır. Görüntü sınıflandırma durumunda, görüntüleri farklı sınıflara ayırmamız gerekir ve bu manuel bir çabadır.
 
-## [Ders Öncesi Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Ancak, CNN özellik çıkarıcılarını eğitmek için ham (etiketlenmemiş) verileri kullanmak isteyebiliriz; bu, **kendinden denetimli öğrenme** (self-supervised learning) olarak adlandırılır. Etiketler yerine, eğitim görüntülerini hem ağ girişi hem de çıkışı olarak kullanacağız. **Otomatik kodlayıcı** (autoencoder) fikrinin temelinde, bir **kodlayıcı ağ** (encoder network) ile giriş görüntüsünü bir **gizli uzaya** (latent space) dönüştürmek (genellikle daha küçük boyutlu bir vektördür) ve ardından **kod çözücü ağ** (decoder network) ile orijinal görüntüyü yeniden oluşturmak yer alır.
 
@@ -80,7 +80,7 @@ Otomatik kodlayıcılar hakkında daha fazla bilgi edinmek için şu not defterl
 * **Kayıplı** - yeniden oluşturulan görüntü, orijinal görüntüyle aynı değildir. Kayıp türü, eğitim sırasında kullanılan *kayıp fonksiyonu* ile tanımlanır.
 * **Etiketlenmemiş veri** üzerinde çalışır.
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Sonuç
 
@@ -90,7 +90,7 @@ Bu derste, bir AI bilim insanının kullanabileceği çeşitli otomatik kodlayı
 
 Bu derste, görüntüler için otomatik kodlayıcıların kullanımını öğrendiniz. Ancak, bunlar müzik için de kullanılabilir! Magenta projesinin [MusicVAE](https://magenta.tensorflow.org/music-vae) projesine göz atın; bu proje, müziği yeniden oluşturmayı öğrenmek için otomatik kodlayıcıları kullanır. Bu kütüphane ile bazı [deneyler](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) yaparak neler yaratabileceğinizi görün.
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

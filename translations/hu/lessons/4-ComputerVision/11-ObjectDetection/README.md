@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Az eddig tárgyalt képosztályozási modellek egy képet vettek alapul, és egy kategóriát eredményeztek, például az 'szám' osztályt egy MNIST problémában. Azonban sok esetben nem elég tudni, hogy egy kép tárgyakat ábrázol - szeretnénk meghatározni azok pontos helyét is. Ez az **objektumfelismerés** lényege.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objektumfelismerés](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.hu.png)
 
@@ -172,7 +172,7 @@ Olvasd el ezeket a cikkeket és jegyzetfüzeteket a YOLO-ról, és próbáld ki 
  * Yolo: [Keras implementáció](https://github.com/experiencor/keras-yolo2), [lépésről lépésre jegyzetfüzet](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras implementáció](https://github.com/experiencor/keras-yolo2), [lépésről lépésre jegyzetfüzet](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Áttekintés és önálló tanulás
 

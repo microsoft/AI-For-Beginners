@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 循环神经网络
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 在之前的章节中，我们使用了丰富的文本语义表示，并在嵌入层之上应用了一个简单的线性分类器。这种架构能够捕捉句子中单词的整体意义，但它没有考虑单词的**顺序**，因为嵌入层上的聚合操作会丢失原始文本中的顺序信息。由于这些模型无法建模单词的顺序，它们无法解决更复杂或更模糊的任务，例如文本生成或问答。
 
@@ -83,7 +83,7 @@ LSTM 网络的组织方式与 RNN 类似，但有两个状态会在层与层之�
 - [网格长短时记忆](https://arxiv.org/pdf/1507.01526v1.pdf)
 - [展示、关注和讲述：带视觉注意力的神经图像字幕生成](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## 复习与自学
 

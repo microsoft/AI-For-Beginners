@@ -59,7 +59,7 @@ Katika somo hili, umejifunza dhana kuu nyuma ya mitandao ya neva ya maono ya kom
 
 Katika daftari zinazofuatana, kuna maelezo chini kuhusu jinsi ya kupata usahihi mkubwa zaidi. Fanya majaribio ili kuona kama unaweza kufanikisha usahihi wa juu zaidi.
 
-## [Jaribio baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Jaribio baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Mapitio na Kujisomea
 

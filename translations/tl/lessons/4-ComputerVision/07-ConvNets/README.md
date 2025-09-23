@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Nakita na natin dati na mahusay ang mga neural network sa pagproseso ng mga imahe, at kahit ang isang layer na perceptron ay kayang makilala ang mga nakasulat na numero mula sa MNIST dataset nang may sapat na katumpakan. Gayunpaman, ang MNIST dataset ay espesyal dahil lahat ng numero ay nakasentro sa loob ng imahe, na nagpapadali sa gawain.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 Sa totoong buhay, nais nating makilala ang mga bagay sa isang larawan kahit saan man ito eksaktong nakalagay sa imahe. Ang computer vision ay naiiba sa pangkalahatang klasipikasyon, dahil kapag sinusubukan nating hanapin ang isang partikular na bagay sa larawan, sinusuri natin ang imahe upang hanapin ang mga tiyak na **pattern** at ang kanilang mga kombinasyon. Halimbawa, kapag naghahanap ng pusa, maaaring una nating hanapin ang mga pahalang na linya na maaaring bumuo ng mga bigote, at pagkatapos ay ang tiyak na kombinasyon ng mga bigote ang magsasabi sa atin na ito ay larawan ng isang pusa. Ang relatibong posisyon at presensya ng mga tiyak na pattern ay mahalaga, at hindi ang eksaktong posisyon nito sa imahe.
 

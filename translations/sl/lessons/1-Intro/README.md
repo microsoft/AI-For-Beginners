@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Skica avtorja [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Predavanje - kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Predavanje - kviz](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Umetna inteligenca** je vznemirljiva znanstvena disciplina, ki preučuje, kako lahko računalnike naučimo, da izkazujejo inteligentno vedenje, npr. opravljajo naloge, v katerih so ljudje dobri.
 
@@ -151,7 +151,7 @@ V zadnjih nekaj letih smo bili priča velikim uspehom z velikimi jezikovnimi mod
 
 Raziskujte po internetu in ugotovite, kje se po vašem mnenju umetna inteligenca najbolj učinkovito uporablja. Je to v aplikaciji za kartiranje, storitvi za pretvorbo govora v besedilo ali videoigri? Raziščite, kako je bil sistem zgrajen.
 
-## [Kvizi po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Pregled in samostojno učenje
 

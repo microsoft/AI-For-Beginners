@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Üretken Ağlar
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Tekrarlayan Sinir Ağları (RNN'ler) ve Uzun Kısa Süreli Bellek Hücreleri (LSTM'ler) ile Gated Recurrent Units (GRU'ler) gibi kapılı hücre varyantları, dil modelleme için bir mekanizma sağlar. Bu mekanizma, kelime sıralamasını öğrenebilir ve bir dizideki bir sonraki kelime için tahminler sunabilir. Bu, RNN'lerin **üretken görevler** için kullanılmasını sağlar; örneğin, sıradan metin üretimi, makine çevirisi ve hatta görüntü açıklaması.
 
@@ -71,7 +71,7 @@ Bu konuyla ilgili Microsoft Learn'de bazı dersler alın:
 
 * [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) ile Metin Üretimi
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Γενετικοί Αλγόριθμοι
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 Οι **Γενετικοί Αλγόριθμοι** (GA) βασίζονται σε μια **εξελικτική προσέγγιση** στην Τεχνητή Νοημοσύνη, όπου χρησιμοποιούνται μέθοδοι εξέλιξης ενός πληθυσμού για την επίτευξη μιας βέλτιστης λύσης σε ένα δεδομένο πρόβλημα. Προτάθηκαν το 1975 από τον [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "Οι γενετικοί αλγόριθμοι είναι απλοί στην υλοποίηση, αλλά η συμπεριφορά τους είναι δύσκολο να κατανοηθεί." [πηγή](https://wikipedia.org/wiki/Genetic_algorithm) Κάντε κάποια έρευνα για να βρείτε μια υλοποίηση γενετικού αλγορίθμου, όπως η επίλυση ενός παζλ Sudoku, και εξηγήστε πώς λειτουργεί με τη μορφή σκίτσου ή διαγράμματος ροής.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Ανασκόπηση & Αυτομελέτη
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CNN(합성곱 신경망)을 훈련할 때, 문제 중 하나는 많은 양의 라벨링된 데이터가 필요하다는 점입니다. 이미지 분류의 경우, 이미지를 서로 다른 클래스에 나누는 작업이 필요하며, 이는 수작업으로 이루어집니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 하지만, CNN 특징 추출기를 훈련하기 위해 라벨이 없는 원시 데이터(비라벨링 데이터)를 사용하고 싶을 수도 있습니다. 이를 **자기 지도 학습(self-supervised learning)**이라고 합니다. 라벨 대신, 훈련 이미지를 네트워크의 입력과 출력으로 사용합니다. **오토인코더(autoencoder)**의 주요 아이디어는 입력 이미지를 **잠재 공간(latent space)**으로 변환하는 **인코더 네트워크**와, 원본 이미지를 재구성하는 것을 목표로 하는 **디코더 네트워크**를 사용하는 것입니다.
 
@@ -80,7 +80,7 @@ VAE의 중요한 장점 중 하나는 잠재 벡터를 샘플링할 분포를 �
 * **손실 발생** - 재구성된 이미지는 원본 이미지와 동일하지 않습니다. 손실의 성격은 훈련 중 사용된 *손실 함수*에 의해 정의됩니다.
 * **비라벨링 데이터**에서 작동
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## 결론
 
@@ -90,7 +90,7 @@ VAE의 중요한 장점 중 하나는 잠재 벡터를 샘플링할 분포를 �
 
 이 강의에서는 이미지에 오토인코더를 사용하는 방법을 배웠습니다. 하지만 오토인코더는 음악에도 사용할 수 있습니다! Magenta 프로젝트의 [MusicVAE](https://magenta.tensorflow.org/music-vae)를 확인해보세요. 이 프로젝트는 오토인코더를 사용하여 음악을 재구성하는 방법을 학습합니다. 이 라이브러리를 사용하여 [실험](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb)을 진행하며 무엇을 만들 수 있는지 확인해보세요.
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## 복습 및 자기 학습
 

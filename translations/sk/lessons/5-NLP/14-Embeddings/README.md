@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vstavané reprezentácie (Embeddings)
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Pri trénovaní klasifikátorov založených na BoW alebo TF/IDF sme pracovali s vysokodimenzionálnymi vektormi bag-of-words s dĺžkou `vocab_size` a explicitne sme prevádzali nízkodimenzionálne pozičné reprezentácie na riedke one-hot reprezentácie. Táto one-hot reprezentácia však nie je pamäťovo efektívna. Navyše, každé slovo je spracované nezávisle od ostatných, t. j. one-hot kódované vektory nevyjadrujú žiadnu sémantickú podobnosť medzi slovami.
 
@@ -65,7 +65,7 @@ V tejto lekcii ste sa naučili, ako vytvárať a používať vstavané vrstvy v 
 
 Word2Vec bol použitý na niektoré zaujímavé aplikácie, vrátane generovania textov piesní a poézie. Pozrite si [tento článok](https://www.politetype.com/blog/word2vec-color-poems), ktorý popisuje, ako autor použil Word2Vec na generovanie poézie. Pozrite si aj [toto video od Dana Shiffmanna](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), kde nájdete iné vysvetlenie tejto techniky. Potom sa pokúste aplikovať tieto techniky na svoj vlastný textový korpus, možno získaný z Kaggle.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Prehľad a samostatné štúdium
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mewakili Teks sebagai Tensor
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Pengelasan Teks
 
@@ -73,7 +73,7 @@ Setakat ini, kita telah mengkaji teknik yang boleh menambah berat frekuensi kepa
 
 Cuba beberapa latihan lain menggunakan bag-of-words dan model data yang berbeza. Anda mungkin mendapat inspirasi daripada [pertandingan ini di Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Ulasan & Kajian Kendiri
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tumejifunza awali kuhusu Utambuzi wa Vitu, ambao hutuwezesha kutambua vitu kwenye picha kwa kutabiri *mipaka ya vitu* yao. Hata hivyo, kwa baadhi ya kazi hatuhitaji tu mipaka ya vitu, bali pia utambuzi wa vitu kwa usahihi zaidi. Kazi hii inaitwa **ugawaji**.
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Ugawaji unaweza kuonekana kama **utambuzi wa pikseli**, ambapo kwa **kila** pikseli ya picha tunapaswa kutabiri darasa lake (*mandharinyuma* ikiwa mojawapo ya madarasa). Kuna mbinu kuu mbili za ugawaji:
 
@@ -56,7 +56,7 @@ Fungua daftari zilizo hapa chini ili kujifunza zaidi kuhusu usanifu tofauti wa u
 * [Ugawaji wa Kisemantiki Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Ugawaji wa Kisemantiki TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Hitimisho
 

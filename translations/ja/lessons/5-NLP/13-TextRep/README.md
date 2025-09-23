@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # テキストをテンソルとして表現する
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## テキスト分類
 
@@ -73,7 +73,7 @@ BoWはテキスト内にどの単語がどの程度出現するかを表し、�
 
 Bag-of-Wordsや異なるデータモデルを使用した他の演習を試してみてください。この[Kaggleのコンペティション](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)からインスピレーションを得るかもしれません。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## 復習と自己学習
 

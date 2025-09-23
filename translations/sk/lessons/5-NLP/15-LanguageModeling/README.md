@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Sémantické vektory, ako Word2Vec a GloVe, sú v skutočnosti prvým krokom k **jazykovému modelovaniu** – vytváraniu modelov, ktoré nejako *rozumejú* (alebo *reprezentujú*) podstatu jazyka.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Hlavnou myšlienkou jazykového modelovania je ich trénovanie na neoznačených dátach v nesupervidovanom režime. To je dôležité, pretože máme k dispozícii obrovské množstvo neoznačeného textu, zatiaľ čo množstvo označeného textu je vždy obmedzené úsilím, ktoré môžeme venovať jeho označovaniu. Najčastejšie môžeme vytvoriť jazykové modely, ktoré dokážu **predpovedať chýbajúce slová** v texte, pretože je jednoduché náhodne vynechať slovo v texte a použiť ho ako tréningový vzor.
 
@@ -38,7 +38,7 @@ Pokračujte vo svojom učení pomocou nasledujúcich notebookov:
 
 V predchádzajúcej lekcii sme videli, že vektory slov fungujú ako kúzlo! Teraz vieme, že trénovanie vektorov slov nie je veľmi zložitá úloha, a mali by sme byť schopní trénovať vlastné vektory slov pre text špecifický pre danú oblasť, ak to bude potrebné.
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Prehľad a samostatné štúdium
 

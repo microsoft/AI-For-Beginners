@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pembenaman
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Semasa melatih pengklasifikasi berdasarkan BoW atau TF/IDF, kita bekerja dengan vektor bag-of-words berdimensi tinggi dengan panjang `vocab_size`, dan kita secara eksplisit menukar daripada vektor perwakilan posisi berdimensi rendah kepada perwakilan one-hot yang jarang. Walau bagaimanapun, perwakilan one-hot ini tidak cekap dari segi memori. Selain itu, setiap perkataan dianggap secara bebas antara satu sama lain, iaitu vektor one-hot yang dikodkan tidak menyatakan sebarang persamaan semantik antara perkataan.
 
@@ -65,7 +65,7 @@ Dalam pelajaran ini, anda telah mempelajari cara membina dan menggunakan lapisan
 
 Word2Vec telah digunakan untuk beberapa aplikasi menarik, termasuk menjana lirik lagu dan puisi. Lihat [artikel ini](https://www.politetype.com/blog/word2vec-color-poems) yang menerangkan bagaimana penulis menggunakan Word2Vec untuk menjana puisi. Tonton juga [video ini oleh Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) untuk penjelasan lain tentang teknik ini. Kemudian cuba gunakan teknik ini pada korpus teks anda sendiri, mungkin daripada sumber seperti Kaggle.
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Kajian & Pembelajaran Kendiri
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Az előző részben megismerkedtünk a **generatív modellekkel**: olyan modellekkel, amelyek képesek új képeket generálni, amelyek hasonlóak a tanító adathalmazban lévőkhöz. A VAE egy jó példa volt a generatív modellre.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Azonban, ha valami igazán jelentős dolgot szeretnénk generálni, például egy festményt megfelelő felbontásban, a VAE-vel azt tapasztaljuk, hogy a tanítás nem konvergál jól. Ehhez az esethez meg kell ismerkednünk egy másik architektúrával, amelyet kifejezetten generatív modellekhez terveztek - **Generatív Adverzális Hálózatokkal**, vagy GAN-ekkel.
 
@@ -84,7 +84,7 @@ A működése a következő:
 
 ## ✍️ Példa: [Stílusátvitel](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Összegzés
 

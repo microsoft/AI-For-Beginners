@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Treniranje CNN-a može zahtijevati puno vremena i veliku količinu podataka. Međutim, većina vremena troši se na učenje najboljih niskorazinskih filtera koje mreža može koristiti za izdvajanje uzoraka iz slika. Postavlja se prirodno pitanje - možemo li koristiti neuronsku mrežu treniranu na jednom skupu podataka i prilagoditi je za klasifikaciju različitih slika bez potrebe za potpunim procesom treniranja?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Ovaj pristup naziva se **prijenos učenja**, jer prenosimo dio znanja iz jednog modela neuronske mreže u drugi. Kod prijenosa učenja obično počinjemo s predtreniranim modelom, koji je treniran na nekom velikom skupu slika, poput **ImageNet**. Ti modeli već dobro obavljaju posao izdvajanja različitih značajki iz generičkih slika, a u mnogim slučajevima samo izgradnja klasifikatora na temelju tih izdvojenih značajki može dati dobre rezultate.
 
@@ -76,7 +76,7 @@ Koristeći prijenos učenja, možete brzo sastaviti klasifikator za zadatak klas
 
 U pripadajućim bilježnicama postoje bilješke na dnu o tome kako prijenos znanja najbolje funkcionira s donekle sličnim podacima za treniranje (možda nova vrsta životinje). Eksperimentirajte s potpuno novim vrstama slika kako biste vidjeli koliko dobro ili loše vaši modeli prijenosa znanja funkcioniraju.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Pregled i samostalno učenje
 

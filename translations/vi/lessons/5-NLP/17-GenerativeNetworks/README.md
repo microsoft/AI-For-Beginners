@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mạng tạo sinh
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Mạng nơ-ron hồi quy (RNN) và các biến thể tế bào có cổng của nó như Tế bào Bộ nhớ Ngắn Dài (LSTM) và Đơn vị Hồi quy Có cổng (GRU) cung cấp một cơ chế để mô hình hóa ngôn ngữ, vì chúng có thể học cách sắp xếp từ và đưa ra dự đoán cho từ tiếp theo trong một chuỗi. Điều này cho phép chúng ta sử dụng RNN cho các **nhiệm vụ tạo sinh**, chẳng hạn như tạo văn bản thông thường, dịch máy, và thậm chí là chú thích hình ảnh.
 
@@ -71,7 +71,7 @@ Học một số bài học trên Microsoft Learn về chủ đề này
 
 * Tạo văn bản với [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Ôn tập & Tự học
 

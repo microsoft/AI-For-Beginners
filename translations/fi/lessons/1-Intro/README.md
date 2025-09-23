@@ -54,7 +54,7 @@ Viime vuosina olemme nähneet suuria edistysaskeleita suurten kielimallien, kute
 
 Tutki internetiä ja päätä, missä mielestäsi tekoälyä käytetään tehokkaimmin. Onko se karttasovelluksessa, puheesta tekstiksi -palvelussa vai videopelissä? Tutki, miten järjestelmä on rakennettu.
 
-## [Luennon jälkeinen kysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Luennon jälkeinen kysely](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Kertaus ja itseopiskelu
 

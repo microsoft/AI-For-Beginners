@@ -59,7 +59,7 @@ U ovoj jedinici ste naučili glavne koncepte iza neuronskih mreža za računalni
 
 U pratećim bilježnicama postoje bilješke na dnu o tome kako postići veću točnost. Napravite nekoliko eksperimenata kako biste vidjeli možete li postići veću točnost.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Pregled i samostalno učenje
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generative Netzwerke
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rekurrente Neuronale Netzwerke (RNNs) und ihre Varianten mit Gated Cells wie Long Short Term Memory Cells (LSTMs) und Gated Recurrent Units (GRUs) bieten einen Mechanismus für Sprachmodellierung, da sie die Wortreihenfolge lernen und Vorhersagen für das nächste Wort in einer Sequenz treffen können. Dies ermöglicht es uns, RNNs für **generative Aufgaben** zu nutzen, wie z. B. die Generierung von gewöhnlichem Text, maschinelle Übersetzung und sogar Bildbeschreibungen.
 
@@ -71,7 +71,7 @@ Nimm an einigen Lektionen auf Microsoft Learn zu diesem Thema teil:
 
 * Textgenerierung mit [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Rückblick & Selbststudium
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wir haben zuvor über Objekterkennung gelernt, die es uns ermöglicht, Objekte in einem Bild durch Vorhersage ihrer *Bounding Boxes* zu lokalisieren. Für einige Aufgaben benötigen wir jedoch nicht nur Bounding Boxes, sondern auch eine präzisere Objektlokalisierung. Diese Aufgabe nennt man **Segmentierung**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentierung kann als **Pixelklassifikation** betrachtet werden, bei der für **jeden** Pixel des Bildes seine Klasse vorhergesagt werden muss (*Hintergrund* ist dabei eine der Klassen). Es gibt zwei Hauptalgorithmen für die Segmentierung:
 
@@ -56,7 +56,7 @@ Wir werden ein Modell trainieren, um jeden Nävus vom Hintergrund zu segmentiere
 * [Semantische Segmentierung Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantische Segmentierung TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Fazit
 

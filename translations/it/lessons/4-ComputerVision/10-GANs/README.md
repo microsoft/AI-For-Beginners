@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Nella sezione precedente, abbiamo imparato a conoscere i **modelli generativi**: modelli in grado di generare nuove immagini simili a quelle presenti nel dataset di addestramento. Un esempio di modello generativo è il VAE.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Tuttavia, se proviamo a generare qualcosa di veramente significativo, come un dipinto ad alta risoluzione, utilizzando un VAE, noteremo che l'addestramento non converge bene. Per questo caso d'uso, dobbiamo imparare un'altra architettura specificamente progettata per i modelli generativi: le **Reti Generative Avversarie**, o GAN.
 
@@ -84,7 +84,7 @@ Il funzionamento è il seguente:
 
 ## ✍️ Esempio: [Trasferimento di Stile](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Conclusione
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Recurrent Neural Networks
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 W poprzednich sekcjach korzystaliśmy z bogatych semantycznych reprezentacji tekstu oraz prostego klasyfikatora liniowego na bazie osadzeń. Taka architektura pozwala uchwycić zagregowane znaczenie słów w zdaniu, ale nie uwzględnia **kolejności** słów, ponieważ operacja agregacji na osadzeniach usuwa tę informację z oryginalnego tekstu. Z tego powodu modele te nie są w stanie modelować kolejności słów, co uniemożliwia im rozwiązywanie bardziej złożonych lub niejednoznacznych zadań, takich jak generowanie tekstu czy odpowiadanie na pytania.
 
@@ -84,7 +84,7 @@ Przeczytaj literaturę na temat LSTM i rozważ ich zastosowania:
 - [Show, Attend and Tell: Neural Image Caption
 Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Przegląd i samodzielna nauka
 

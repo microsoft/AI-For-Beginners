@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A busca pela inteligência artificial baseia-se na procura por conhecimento, para compreender o mundo de forma semelhante aos humanos. Mas como podemos fazer isso?
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Nos primeiros dias da IA, a abordagem de cima para baixo para criar sistemas inteligentes (discutida na lição anterior) era popular. A ideia era extrair o conhecimento das pessoas para uma forma legível por máquinas e, em seguida, usá-lo para resolver problemas automaticamente. Esta abordagem baseava-se em duas grandes ideias:
 
@@ -236,7 +236,7 @@ Hoje em dia, a IA é frequentemente considerada sinónimo de *Machine Learning* 
 
 No notebook da Ontologia Familiar associado a esta lição, há uma oportunidade de experimentar outras relações familiares. Tente descobrir novas conexões entre pessoas na árvore genealógica.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Revisão e Autoestudo
 

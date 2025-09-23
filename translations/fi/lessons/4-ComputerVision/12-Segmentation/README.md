@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Olemme aiemmin oppineet objektien tunnistamisesta, jonka avulla voimme paikantaa objektit kuvasta ennustamalla niiden *rajauslaatikot*. Joissakin tehtävissä emme kuitenkaan tarvitse pelkästään rajauslaatikoita, vaan myös tarkempaa objektien paikannusta. Tätä tehtävää kutsutaan **segmentoinniksi**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentointia voidaan pitää **pikseliluokitteluna**, jossa jokaiselle kuvan **pikselille** täytyy ennustaa sen luokka (*tausta* on yksi luokista). Segmentointialgoritmeja on kaksi päätyyppiä:
 
@@ -56,7 +56,7 @@ Avaa alla olevat muistikirjat oppiaksesi lisää erilaisista semanttisen segment
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Yhteenveto
 

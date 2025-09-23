@@ -54,7 +54,7 @@ Tijekom posljednjih nekoliko godina svjedočili smo velikim uspjesima s velikim 
 
 Provedite istraživanje na internetu kako biste utvrdili gdje se, prema vašem mišljenju, umjetna inteligencija najefikasnije koristi. Je li to u aplikaciji za mapiranje, nekoj usluzi za pretvaranje govora u tekst ili videoigri? Istražite kako je sustav izgrađen.
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Pregled i samostalno učenje
 

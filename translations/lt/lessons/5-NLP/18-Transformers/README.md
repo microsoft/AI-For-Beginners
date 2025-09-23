@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Dėmesio mechanizmai ir transformatoriai
 
-## [Prieš paskaitą skirtas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Prieš paskaitą skirtas testas](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Vienas svarbiausių NLP (natūralios kalbos apdorojimo) srities uždavinių yra **mašininis vertimas**, esminė užduotis, kurią atlieka tokie įrankiai kaip „Google Translate“. Šioje dalyje mes sutelksime dėmesį į mašininį vertimą arba, plačiau kalbant, į bet kokią *sekos į seką* užduotį (dar vadinamą **sakinių transformacija**).
 
@@ -108,7 +108,7 @@ Tęskite mokymąsi šiose užrašų knygelėse:
 
 ## 🚀 Iššūkis
 
-## [Po paskaitos skirtas testas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Po paskaitos skirtas testas](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Peržiūra ir savarankiškas mokymasis
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Strävan efter artificiell intelligens bygger på en jakt efter kunskap, att förstå världen på ett sätt som liknar hur människor gör det. Men hur kan man gå tillväga för att uppnå detta?
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Under AI:s tidiga dagar var den top-down-metoden för att skapa intelligenta system (diskuterad i föregående lektion) populär. Idén var att extrahera kunskap från människor till en maskinläsbar form och sedan använda den för att automatiskt lösa problem. Denna metod baserades på två stora idéer:
 
@@ -236,7 +236,7 @@ Nuförtiden anses AI ofta vara synonymt med *maskininlärning* eller *neurala n�
 
 I Family Ontology-notebooken som är kopplad till denna lektion finns det en möjlighet att experimentera med andra familjerelationer. Försök att upptäcka nya kopplingar mellan personer i släktträdet.
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Granskning & Självstudier
 

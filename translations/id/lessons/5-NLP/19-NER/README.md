@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Hingga saat ini, kita sebagian besar telah berfokus pada satu tugas NLP - klasifikasi. Namun, ada juga tugas-tugas NLP lainnya yang dapat diselesaikan dengan jaringan saraf. Salah satu tugas tersebut adalah **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), yang bertujuan mengenali entitas tertentu dalam teks, seperti lokasi, nama orang, rentang waktu, rumus kimia, dan sebagainya.
 
-## [Kuis sebelum kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Kuis sebelum kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Contoh Penggunaan NER
 
@@ -80,7 +80,7 @@ Model NER adalah **model klasifikasi token**, yang berarti dapat digunakan untuk
 
 Selesaikan tugas yang ditautkan di bawah ini untuk melatih model pengenalan entitas bernama untuk istilah medis, lalu coba pada dataset yang berbeda.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Tinjauan & Studi Mandiri
 

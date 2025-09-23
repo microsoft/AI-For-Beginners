@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 În secțiunea anterioară, am învățat despre **modelele generative**: modele care pot genera imagini noi similare cu cele din setul de date de antrenament. VAE a fost un exemplu bun de model generativ.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Totuși, dacă încercăm să generăm ceva cu adevărat semnificativ, cum ar fi o pictură la o rezoluție rezonabilă, folosind VAE, vom observa că antrenamentul nu converge bine. Pentru acest caz de utilizare, ar trebui să învățăm despre o altă arhitectură specifică modelelor generative - **Rețele Generative Adversariale**, sau GAN-uri.
 
@@ -84,7 +84,7 @@ Cum funcționează:
 
 ## ✍️ Exemplu: [Transfer de stil](../../../../../lessons/4-ComputerVision/10-GANs/StyleTransfer.ipynb)
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Concluzie
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Penglihatan Komputer](https://wikipedia.org/wiki/Computer_vision) adalah satu bidang yang bertujuan untuk membolehkan komputer memahami imej digital pada tahap tinggi. Ini adalah definisi yang agak luas kerana *memahami* boleh bermaksud pelbagai perkara, termasuk mencari objek dalam gambar (**pengesanan objek**), memahami apa yang sedang berlaku (**pengesanan peristiwa**), menerangkan gambar dalam bentuk teks, atau membina semula pemandangan dalam 3D. Terdapat juga tugas khas berkaitan imej manusia: anggaran umur dan emosi, pengesanan dan pengecaman wajah, serta anggaran pose 3D, untuk menyebut beberapa contoh.
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Salah satu tugas paling mudah dalam penglihatan komputer ialah **pengelasan imej**.
 
@@ -105,7 +105,7 @@ Kadangkala, tugas yang agak kompleks seperti pengesanan pergerakan atau pengesan
 
 Tonton [video ini](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) dari rancangan AI untuk mengetahui tentang projek Cortic Tigers dan bagaimana mereka membina penyelesaian berasaskan blok untuk mendemokrasikan tugas penglihatan komputer melalui robot. Lakukan penyelidikan tentang projek lain seperti ini yang membantu pelajar baru dalam bidang ini.
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Kajian Semula & Kajian Kendiri
 

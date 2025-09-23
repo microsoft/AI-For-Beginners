@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatív hálózatok
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 A Rekurrens Neurális Hálózatok (RNN-ek) és azok kapuzott cellaváltozatai, mint például a Long Short Term Memory Cells (LSTM-ek) és a Gated Recurrent Units (GRU-k), lehetőséget biztosítanak a nyelvi modellezésre, mivel képesek megtanulni a szavak sorrendjét, és előre jelezni a következő szót egy sorozatban. Ez lehetővé teszi, hogy az RNN-eket **generatív feladatokra** használjuk, például egyszerű szöveggenerálásra, gépi fordításra, sőt akár képaláírások készítésére is.
 
@@ -71,7 +71,7 @@ Vegyél részt néhány Microsoft Learn leckén ebben a témában:
 
 * Szöveggenerálás [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste) segítségével
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Áttekintés és önálló tanulás
 

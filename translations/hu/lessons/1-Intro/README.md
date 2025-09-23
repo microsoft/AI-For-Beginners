@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Sketchnote készítette: [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Mesterséges Intelligencia** egy izgalmas tudományág, amely azt vizsgálja, hogyan lehet számítógépeket intelligens viselkedésre bírni, például olyan dolgokra, amelyekben az emberek jók.
 
@@ -143,7 +143,7 @@ Az elmúlt néhány évben hatalmas sikereket láthattunk a nagy nyelvi modellek
 
 Tegyél egy internetes körutat, hogy meghatározd, véleményed szerint hol használják az AI-t a leghatékonyabban. Egy térképező alkalmazásban, egy beszéd-szöveg szolgáltatásban vagy egy videojátékban? Kutasd fel, hogyan építették fel a rendszert.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Áttekintés és Önálló Tanulás
 

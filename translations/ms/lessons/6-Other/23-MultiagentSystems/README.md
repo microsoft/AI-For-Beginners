@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Salah satu cara untuk mencapai kecerdasan adalah melalui pendekatan **emergent** (atau **sinergi**), yang berdasarkan fakta bahawa gabungan tingkah laku banyak ejen yang agak mudah boleh menghasilkan tingkah laku sistem keseluruhan yang lebih kompleks (atau pintar). Secara teori, ini berdasarkan prinsip [Kecerdasan Kolektif](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentisme](https://en.wikipedia.org/wiki/Global_brain) dan [Sibernetik Evolusi](https://en.wikipedia.org/wiki/Global_brain), yang menyatakan bahawa sistem tahap tinggi memperoleh nilai tambah apabila digabungkan dengan betul daripada sistem tahap rendah (dikenali sebagai *prinsip peralihan metasistem*).
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Arah **Sistem Multi-Ejen** muncul dalam AI pada tahun 1990-an sebagai tindak balas kepada pertumbuhan Internet dan sistem teragih. Salah satu buku teks AI klasik, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), memberi tumpuan kepada pandangan AI klasik dari sudut pandangan sistem multi-ejen.
 
@@ -152,7 +152,7 @@ Kesemuanya cenderung memberi tumpuan kepada tingkah laku individu ejen yang lebi
 
 Bawa pelajaran ini ke dunia nyata dan cuba konseptualisasikan sistem multi-ejen yang boleh menyelesaikan masalah. Apa, sebagai contoh, yang perlu dilakukan oleh sistem multi-ejen untuk mengoptimumkan laluan bas sekolah? Bagaimana ia boleh berfungsi di sebuah kedai roti?
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Ulasan & Kajian Kendiri
 

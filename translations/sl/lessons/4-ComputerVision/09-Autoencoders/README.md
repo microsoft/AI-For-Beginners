@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pri treniranju CNN-jev je ena izmed težav, da potrebujemo veliko označenih podatkov. Pri klasifikaciji slik moramo slike razvrstiti v različne razrede, kar zahteva ročno delo.
 
-## [Pre-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Vendar pa bi morda želeli uporabiti surove (neoznačene) podatke za treniranje CNN ekstraktorjev značilnosti, kar imenujemo **samostojno učenje**. Namesto oznak bomo uporabili slike za treniranje kot vhod in izhod mreže. Glavna ideja **avtoenkoderja** je, da imamo **kodirno mrežo**, ki vhodno sliko pretvori v nek **latentni prostor** (običajno je to vektor manjših dimenzij), nato pa **dekodirno mrežo**, katere cilj je rekonstruirati izvirno sliko.
 
@@ -80,7 +80,7 @@ Več o avtoenkoderjih se naučite v teh priloženih zvezkih:
 * **Izgubni** - rekonstruirana slika ni enaka izvirni sliki. Narava izgube je določena z *funkcijo izgube*, uporabljeno med treniranjem.
 * Deluje na **neoznačenih podatkih**
 
-## [Post-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Zaključek
 
@@ -90,7 +90,7 @@ V tej lekciji ste se naučili o različnih vrstah avtoenkoderjev, ki so na voljo
 
 V tej lekciji ste se naučili o uporabi avtoenkoderjev za slike. Vendar pa jih lahko uporabimo tudi za glasbo! Oglejte si projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), ki uporablja avtoenkoderje za učenje rekonstrukcije glasbe. Izvedite nekaj [eksperimentov](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) s to knjižnico, da vidite, kaj lahko ustvarite.
 
-## [Post-učni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-učni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Pregled in samostojno učenje
 

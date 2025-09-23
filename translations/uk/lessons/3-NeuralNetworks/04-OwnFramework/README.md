@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ми також розробимо власну модульну структуру на Python, яка дозволить нам створювати різні архітектури нейронних мереж.
 
-## [Тест перед лекцією](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Формалізація машинного навчання
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Перейдіть до [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) ноутбука і виконайте завдання.
 
-## [Тест після лекції](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Тест після лекції](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Огляд і самостійне навчання
 

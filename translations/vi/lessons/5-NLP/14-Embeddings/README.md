@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Nhúng (Embeddings)
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Khi huấn luyện các bộ phân loại dựa trên BoW hoặc TF/IDF, chúng ta làm việc với các vector túi từ (bag-of-words) có chiều cao với độ dài `vocab_size`, và chúng ta đã chuyển đổi rõ ràng từ các vector biểu diễn vị trí có chiều thấp sang biểu diễn one-hot thưa thớt. Tuy nhiên, biểu diễn one-hot này không tiết kiệm bộ nhớ. Ngoài ra, mỗi từ được xử lý độc lập với nhau, tức là các vector mã hóa one-hot không thể hiện bất kỳ sự tương đồng ngữ nghĩa nào giữa các từ.
 
@@ -65,7 +65,7 @@ Trong bài học này, bạn đã khám phá cách xây dựng và sử dụng c
 
 Word2Vec đã được sử dụng cho một số ứng dụng thú vị, bao gồm tạo lời bài hát và thơ. Hãy xem [bài viết này](https://www.politetype.com/blog/word2vec-color-poems) để tìm hiểu cách tác giả sử dụng Word2Vec để tạo thơ. Xem [video này của Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) để khám phá một cách giải thích khác về kỹ thuật này. Sau đó, hãy thử áp dụng các kỹ thuật này vào tập văn bản của riêng bạn, có thể lấy từ Kaggle.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Ôn tập & Tự học
 

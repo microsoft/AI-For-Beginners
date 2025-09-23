@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Prej smo videli, da so nevronske mreže precej dobre pri obdelavi slik, celo enoslojni perceptron lahko z razumno natančnostjo prepozna ročno napisane številke iz podatkovne zbirke MNIST. Vendar je podatkovna zbirka MNIST zelo posebna, saj so vse številke centrirane znotraj slike, kar nalogo poenostavi.
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 V resničnem življenju želimo prepoznati predmete na sliki ne glede na njihovo natančno lokacijo na sliki. Računalniški vid se razlikuje od splošne klasifikacije, saj pri iskanju določenega predmeta na sliki pregledujemo sliko in iščemo specifične **vzorce** ter njihove kombinacije. Na primer, pri iskanju mačke najprej iščemo horizontalne črte, ki lahko tvorijo brke, nato pa določena kombinacija brkov lahko nakazuje, da gre za sliko mačke. Relativna pozicija in prisotnost določenih vzorcev sta pomembni, ne pa njihova natančna lokacija na sliki.
 

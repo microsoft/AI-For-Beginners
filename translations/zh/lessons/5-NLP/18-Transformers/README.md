@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 注意力机制与Transformer
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 在自然语言处理（NLP）领域中，**机器翻译**是一个非常重要的问题，它是支持像Google翻译这样的工具的核心任务。在本节中，我们将重点讨论机器翻译，或者更广泛地说，任何*序列到序列*任务（也称为**句子转换**）。
 
@@ -108,7 +108,7 @@ Transformer的核心思想之一是避免RNN的顺序特性，创建一个在训
 
 ## 🚀 挑战
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## 复习与自学
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Die Bildklassifikationsmodelle, die wir bisher behandelt haben, nahmen ein Bild und lieferten ein kategorisches Ergebnis, wie beispielsweise die Klasse "Zahl" in einem MNIST-Problem. In vielen Fällen möchten wir jedoch nicht nur wissen, dass ein Bild Objekte darstellt – wir möchten auch deren genaue Position bestimmen können. Genau darum geht es bei der **Objekterkennung**.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Objekterkennung](../../../../../lessons/4-ComputerVision/11-ObjectDetection/images/Screen_Shot_2016-11-17_at_11.14.54_AM.png)
 
@@ -172,7 +172,7 @@ Lesen Sie diese Artikel und Notebooks über YOLO und probieren Sie sie selbst au
  * Yolo: [Keras-Implementierung](https://github.com/experiencor/keras-yolo2), [Schritt-für-Schritt-Notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras-Implementierung](https://github.com/experiencor/keras-yolo2), [Schritt-für-Schritt-Notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Überprüfung & Selbststudium
 

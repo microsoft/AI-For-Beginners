@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Algoritmi Genetici
 
-## [Chestionar înainte de curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Algoritmii Genetici** (AG) se bazează pe o **abordare evolutivă** a inteligenței artificiale, în care metodele de evoluție a unei populații sunt utilizate pentru a obține o soluție optimă pentru o problemă dată. Aceștia au fost propuși în 1975 de [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Algoritmii Genetici sunt utilizați pentru a rezolva multe probleme, inclusiv pr
 
 "Algoritmii genetici sunt simpli de implementat, dar comportamentul lor este dificil de înțeles." [sursa](https://wikipedia.org/wiki/Genetic_algorithm) Fă câteva cercetări pentru a găsi o implementare a unui algoritm genetic, cum ar fi rezolvarea unui puzzle Sudoku, și explică cum funcționează sub forma unei schițe sau a unui diagram de flux.
 
-## [Chestionar după curs](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Chestionar după curs](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Recapitulare și Studiu Individual
 

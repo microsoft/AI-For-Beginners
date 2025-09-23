@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Bugüne kadar ele aldığımız görüntü sınıflandırma modelleri, bir görüntüyü alıp MNIST problemindeki 'sayı' sınıfı gibi kategorik bir sonuç üretmiştir. Ancak, birçok durumda bir resmin nesneleri tasvir ettiğini bilmek yeterli değildir - nesnelerin tam konumlarını belirlemek isteriz. İşte **nesne tespiti** tam olarak bu noktada devreye girer.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Nesne Tespiti](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.tr.png)
 
@@ -171,7 +171,7 @@ YOLO ile ilgili bu makaleleri ve not defterlerini okuyun ve kendiniz deneyin:
  * Yolo: [Keras uygulaması](https://github.com/experiencor/keras-yolo2), [adım adım not defteri](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras uygulaması](https://github.com/experiencor/keras-yolo2), [adım adım not defteri](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantične vektorske predstavitve, kot sta Word2Vec in GloVe, so pravzaprav prvi korak k **modeliranju jezika** – ustvarjanju modelov, ki na nek način *razumejo* (ali *predstavljajo*) naravo jezika.
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Glavna ideja modeliranja jezika je, da jih učimo na nenalepčenih podatkovnih zbirkah na nenadzorovan način. To je pomembno, ker imamo na voljo ogromne količine nenalepčenega besedila, medtem ko je količina nalepčenega besedila vedno omejena z vloženim trudom za označevanje. Najpogosteje lahko zgradimo jezikovne modele, ki lahko **napovedujejo manjkajoče besede** v besedilu, saj je enostavno naključno besedo v besedilu zakriti in jo uporabiti kot učni vzorec.
 
@@ -38,7 +38,7 @@ Nadaljujte z učenjem v naslednjih zvezkih:
 
 V prejšnji lekciji smo videli, da vektorske predstavitve besed delujejo skoraj čarobno! Zdaj vemo, da učenje vektorskih predstavitev besed ni zelo zapletena naloga, in če je potrebno, lahko sami naučimo svoje vektorske predstavitve za besedila iz specifičnih domen.
 
-## [Naknadni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Naknadni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Pregled in samostojno učenje
 

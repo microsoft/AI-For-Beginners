@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Når man træner CNN'er, er en af udfordringerne, at vi har brug for en stor mængde mærkede data. I tilfælde af billedklassifikation skal vi adskille billeder i forskellige klasser, hvilket kræver manuel indsats.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Vi kan dog ønske at bruge rå (umærkede) data til at træne CNN-featureekstraktorer, hvilket kaldes **selv-supervised learning**. I stedet for labels bruger vi træningsbilleder som både netværksinput og output. Hovedideen med en **autoencoder** er, at vi har et **encoder-netværk**, der konverterer inputbilledet til et **latent rum** (normalt er det blot en vektor af mindre størrelse), og derefter et **decoder-netværk**, hvis mål er at rekonstruere det originale billede.
 
@@ -80,7 +80,7 @@ Lær mere om autoencodere i disse tilhørende notebooks:
 * **Tabsgivende** - det rekonstruerede billede er ikke det samme som det originale billede. Naturen af tabet defineres af den *tabfunktion*, der bruges under træningen.
 * Fungerer på **umærkede data**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Konklusion
 
@@ -90,7 +90,7 @@ I denne lektion lærte du om de forskellige typer autoencodere, der er tilgænge
 
 I denne lektion lærte du om brugen af autoencodere til billeder. Men de kan også bruges til musik! Tjek Magenta-projektets [MusicVAE](https://magenta.tensorflow.org/music-vae) projekt, som bruger autoencodere til at lære at rekonstruere musik. Lav nogle [eksperimenter](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) med dette bibliotek for at se, hvad du kan skabe.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Gennemgang & Selvstudie
 

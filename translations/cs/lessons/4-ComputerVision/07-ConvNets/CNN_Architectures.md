@@ -59,7 +59,7 @@ V této kapitole jste se naučili hlavní koncept za neuronovými sítěmi pro p
 
 V přiložených noteboocích jsou poznámky na konci o tom, jak dosáhnout vyšší přesnosti. Udělejte několik experimentů a zjistěte, zda můžete dosáhnout vyšší přesnosti.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Přehled & Samostudium
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Представление текста в виде тензоров
 
-## [Тест перед лекцией](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Классификация текста
 
@@ -73,7 +73,7 @@ BoW по сути показывает, какие слова встречают
 
 Попробуйте выполнить другие упражнения, используя мешок слов и различные модели данных. Возможно, вас вдохновит [этот конкурс на Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Тест после лекции](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Тест после лекции](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Обзор и самостоятельное изучение
 

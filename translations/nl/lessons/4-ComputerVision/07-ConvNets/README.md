@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 We hebben eerder gezien dat neurale netwerken behoorlijk goed zijn in het verwerken van afbeeldingen, en zelfs een perceptron met één laag kan handgeschreven cijfers uit de MNIST-dataset met redelijke nauwkeurigheid herkennen. De MNIST-dataset is echter heel bijzonder, omdat alle cijfers gecentreerd zijn in de afbeelding, wat de taak eenvoudiger maakt.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 In het echte leven willen we objecten in een afbeelding kunnen herkennen, ongeacht hun exacte locatie in de afbeelding. Computervisie verschilt van generieke classificatie, omdat we bij het zoeken naar een bepaald object in een afbeelding de afbeelding scannen op zoek naar specifieke **patronen** en hun combinaties. Bijvoorbeeld, bij het zoeken naar een kat kunnen we eerst zoeken naar horizontale lijnen die snorharen vormen, en vervolgens kan een bepaalde combinatie van snorharen ons vertellen dat het daadwerkelijk een afbeelding van een kat is. De relatieve positie en aanwezigheid van bepaalde patronen zijn belangrijk, en niet hun exacte positie in de afbeelding.
 

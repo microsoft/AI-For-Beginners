@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Algoritma Genetik
 
-## [Kuiz pra-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Algoritma Genetik** (GA) berasaskan pendekatan **evolusi** dalam AI, di mana kaedah evolusi populasi digunakan untuk mendapatkan penyelesaian optimum bagi sesuatu masalah. Ia dicadangkan pada tahun 1975 oleh [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Algoritma Genetik digunakan untuk menyelesaikan banyak masalah, termasuk logisti
 
 "Algoritma genetik mudah dilaksanakan, tetapi tingkah lakunya sukar difahami." [sumber](https://wikipedia.org/wiki/Genetic_algorithm) Lakukan sedikit penyelidikan untuk mencari pelaksanaan algoritma genetik seperti menyelesaikan teka-teki Sudoku, dan terangkan bagaimana ia berfungsi dalam bentuk lakaran atau carta alir.
 
-## [Kuiz pasca-kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Kajian & Pembelajaran Kendiri
 

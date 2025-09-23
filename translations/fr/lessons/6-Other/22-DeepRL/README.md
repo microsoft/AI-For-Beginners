@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 L'apprentissage par renforcement (RL) est considéré comme l'un des paradigmes fondamentaux de l'apprentissage automatique, aux côtés de l'apprentissage supervisé et non supervisé. Alors que dans l'apprentissage supervisé, nous nous appuyons sur un ensemble de données avec des résultats connus, le RL repose sur **l'apprentissage par l'expérience**. Par exemple, lorsque nous découvrons un jeu vidéo pour la première fois, nous commençons à jouer, même sans connaître les règles, et nous améliorons rapidement nos compétences simplement en jouant et en ajustant notre comportement.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Pour effectuer du RL, nous avons besoin de :
 
@@ -110,7 +110,7 @@ Nous avons maintenant appris à entraîner des agents pour obtenir de bons résu
 
 Explorez les applications listées dans la section "Autres tâches en RL" et essayez d'en implémenter une !
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Révision et Auto-Étude
 

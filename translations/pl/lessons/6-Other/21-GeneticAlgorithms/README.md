@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Algorytmy Genetyczne
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Algorytmy Genetyczne** (GA) opierają się na **ewolucyjnym podejściu** do sztucznej inteligencji, w którym wykorzystuje się metody ewolucji populacji do uzyskania optymalnego rozwiązania dla danego problemu. Zostały zaproponowane w 1975 roku przez [Johna Henry'ego Hollanda](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Algorytmy Genetyczne są wykorzystywane do rozwiązywania wielu problemów, w ty
 
 "Algorytmy genetyczne są proste w implementacji, ale ich zachowanie jest trudne do zrozumienia." [źródło](https://wikipedia.org/wiki/Genetic_algorithm) Przeprowadź badania, aby znaleźć implementację algorytmu genetycznego, na przykład rozwiązującego łamigłówkę Sudoku, i wyjaśnij, jak działa w formie szkicu lub schematu blokowego.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Przegląd i Samodzielna Nauka
 

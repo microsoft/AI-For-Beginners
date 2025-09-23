@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # نیورل نیٹ ورکس کا تعارف: پرسیپٹرون
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 جدید نیورل نیٹ ورک جیسی کسی چیز کو نافذ کرنے کی پہلی کوششوں میں سے ایک 1957 میں کارنیل ایئروناٹیکل لیبارٹری کے فرینک روزن بلیٹ نے کی تھی۔ یہ ایک ہارڈویئر نفاذ تھا جسے "مارک-1" کہا جاتا تھا، جو بنیادی جیومیٹرک اشکال جیسے مثلث، مربع اور دائرے کو پہچاننے کے لیے ڈیزائن کیا گیا تھا۔
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 اگر آپ اپنا پرسیپٹرون بنانا چاہتے ہیں، تو [Microsoft Learn پر یہ لیب](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) آزمائیں، جو [Azure ML ڈیزائنر](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) کا استعمال کرتی ہے۔
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## جائزہ اور خود مطالعہ
 

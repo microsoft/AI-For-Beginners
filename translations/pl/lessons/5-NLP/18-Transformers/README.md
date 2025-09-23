@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mechanizmy uwagi i modele Transformer
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Jednym z najważniejszych problemów w dziedzinie NLP jest **tłumaczenie maszynowe**, kluczowe zadanie, które stanowi podstawę narzędzi takich jak Google Translate. W tej sekcji skupimy się na tłumaczeniu maszynowym, a bardziej ogólnie na każdym zadaniu typu *sequence-to-sequence* (nazywanym również **transdukcją zdań**).
 
@@ -108,7 +108,7 @@ W tej lekcji dowiedziałeś się o Transformerach i Mechanizmach Uwagi, które s
 
 ## 🚀 Wyzwanie
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Przegląd i Samodzielna Nauka
 

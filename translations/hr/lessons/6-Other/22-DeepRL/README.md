@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pojačano učenje (RL) smatra se jednim od osnovnih paradigmi strojnog učenja, uz nadzirano učenje i nenadzirano učenje. Dok se u nadziranom učenju oslanjamo na skup podataka s poznatim ishodima, RL se temelji na **učenju kroz rad**. Na primjer, kada prvi put vidimo računalnu igru, počinjemo igrati, čak i bez poznavanja pravila, i ubrzo poboljšavamo svoje vještine samo kroz proces igranja i prilagođavanja ponašanja.
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Za provođenje RL-a potrebni su nam:
 
@@ -110,7 +110,7 @@ Sada smo naučili kako trenirati agente da postignu dobre rezultate samo pružan
 
 Istražite primjene navedene u odjeljku 'Ostali RL zadaci' i pokušajte implementirati jednu!
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Pregled i samostalno učenje
 

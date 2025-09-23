@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantische embeddings, zoals Word2Vec en GloVe, vormen eigenlijk een eerste stap richting **taalmodellering** - het creëren van modellen die op een bepaalde manier de aard van taal *begrijpen* (of *weergeven*).
 
-## [Quiz vóór de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Quiz vóór de les](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Het belangrijkste idee achter taalmodellering is om modellen te trainen op niet-gelabelde datasets op een onbegeleide manier. Dit is belangrijk omdat we enorme hoeveelheden niet-gelabelde tekst beschikbaar hebben, terwijl de hoeveelheid gelabelde tekst altijd beperkt zal zijn door de inspanning die nodig is om deze te labelen. Meestal kunnen we taalmodellen bouwen die **ontbrekende woorden** in de tekst kunnen voorspellen, omdat het eenvoudig is om een willekeurig woord in een tekst te maskeren en dit als trainingsvoorbeeld te gebruiken.
 
@@ -38,7 +38,7 @@ Ga verder met leren in de volgende notebooks:
 
 In de vorige les hebben we gezien dat woordembeddings bijna magisch werken! Nu weten we dat het trainen van woordembeddings geen heel complexe taak is, en we zouden in staat moeten zijn om onze eigen woordembeddings te trainen voor domeinspecifieke teksten indien nodig.
 
-## [Quiz na de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Herhaling & Zelfstudie
 

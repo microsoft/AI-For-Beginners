@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਜੈਨੇਟਿਕ ਐਲਗੋਰਿਦਮ
 
-## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **ਜੈਨੇਟਿਕ ਐਲਗੋਰਿਦਮ** (GA) ਇੱਕ **ਵਿਕਾਸੀ ਦ੍ਰਿਸ਼ਟੀਕੋਣ** 'ਤੇ ਆਧਾਰਿਤ AI ਪদ্ধਤੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਇੱਕ ਸਮੱਸਿਆ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਹੱਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਜਨਸੰਖਿਆ ਦੇ ਵਿਕਾਸ ਦੇ ਤਰੀਕੇ ਵਰਤੇ ਜਾਂਦੇ ਹਨ। ਇਹ 1975 ਵਿੱਚ [ਜੌਨ ਹੈਨਰੀ ਹੌਲੈਂਡ](https://wikipedia.org/wiki/John_Henry_Holland) ਦੁਆਰਾ ਪ੍ਰਸਤਾਵਿਤ ਕੀਤੇ ਗਏ ਸਨ।
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "ਜੈਨੇਟਿਕ ਐਲਗੋਰਿਦਮ ਲਾਗੂ ਕਰਨ ਲਈ ਸਧਾਰਨ ਹਨ, ਪਰ ਉਨ੍ਹਾਂ ਦੇ ਵਿਹਾਰ ਨੂੰ ਸਮਝਣਾ ਮੁਸ਼ਕਲ ਹੈ।" [ਸਰੋਤ](https://wikipedia.org/wiki/Genetic_algorithm)। ਜੈਨੇਟਿਕ ਐਲਗੋਰਿਦਮ ਦੇ ਲਾਗੂ ਕਰਨ ਦਾ ਕੋਈ ਉਦਾਹਰਨ ਲੱਭੋ, ਜਿਵੇਂ ਕਿ ਸੁਡੋਕੂ ਪਜ਼ਲ ਹੱਲ ਕਰਨਾ, ਅਤੇ ਇਸ ਦੇ ਕੰਮ ਕਰਨ ਦੇ ਤਰੀਕੇ ਨੂੰ ਸਕੈਚ ਜਾਂ ਫਲੋਚਾਰਟ ਵਜੋਂ ਵਿਆਖਿਆ ਕਰੋ।
 
-## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [ਪੋਸਟ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ
 

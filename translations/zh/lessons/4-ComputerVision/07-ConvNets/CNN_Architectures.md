@@ -59,7 +59,7 @@ MobileNet 是一系列适合移动设备的小型模型。如果资源有限，�
 
 在配套的笔记本中，底部有关于如何获得更高准确率的提示。尝试进行一些实验，看看是否可以实现更高的准确率。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## 复习与自学
 

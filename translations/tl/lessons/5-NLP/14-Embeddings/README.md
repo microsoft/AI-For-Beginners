@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Embeddings
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Kapag nagsasanay ng mga classifier gamit ang BoW o TF/IDF, gumagamit tayo ng high-dimensional bag-of-words vectors na may haba na `vocab_size`, at tahasang kinokonvert mula sa low-dimensional positional representation vectors patungo sa sparse one-hot representation. Gayunpaman, ang one-hot representation na ito ay hindi memory-efficient. Bukod dito, ang bawat salita ay itinuturing na hiwalay sa isa't isa, ibig sabihin, ang one-hot encoded vectors ay hindi nagpapakita ng anumang semantikong pagkakatulad sa pagitan ng mga salita.
 
@@ -65,7 +65,7 @@ Sa araling ito, natuklasan mo kung paano bumuo at gumamit ng embedding layers sa
 
 Ang Word2Vec ay ginamit para sa ilang mga kawili-wiling aplikasyon, kabilang ang pagbuo ng mga liriko ng kanta at tula. Tingnan ang [artikulong ito](https://www.politetype.com/blog/word2vec-color-poems) na nagpapaliwanag kung paano ginamit ng may-akda ang Word2Vec upang bumuo ng tula. Panoorin din ang [video na ito ni Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) upang matuklasan ang ibang paliwanag ng teknik na ito. Pagkatapos, subukang i-apply ang mga teknik na ito sa sarili mong text corpus, marahil mula sa Kaggle.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Review & Self Study
 

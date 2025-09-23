@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Wakati wa kufundisha CNNs, mojawapo ya changamoto ni kwamba tunahitaji data nyingi iliyo na lebo. Katika hali ya uainishaji wa picha, tunahitaji kutenganisha picha katika madarasa tofauti, jambo ambalo linahitaji juhudi za mikono.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Hata hivyo, tunaweza kutaka kutumia data ghafi (isiyo na lebo) kwa mafunzo ya CNN feature extractors, ambayo inaitwa **kujifunza kwa kujisimamia**. Badala ya lebo, tutatumia picha za mafunzo kama pembejeo na matokeo ya mtandao. Wazo kuu la **autoencoder** ni kwamba tutakuwa na **encoder network** inayobadilisha picha ya pembejeo kuwa **latent space** fulani (kawaida ni vector ya ukubwa mdogo), kisha **decoder network**, ambayo lengo lake litakuwa kurejesha picha ya asili.
 
@@ -80,7 +80,7 @@ Jifunze zaidi kuhusu autoencoders katika daftari hizi zinazohusiana:
 * **Lossy** - picha iliyojengwa upya si sawa na picha ya asili. Asili ya hasara inafafanuliwa na *loss function* iliyotumika wakati wa mafunzo.
 * Inafanya kazi na **data isiyo na lebo**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Hitimisho
 
@@ -90,7 +90,7 @@ Katika somo hili, umejifunza kuhusu aina mbalimbali za autoencoders zinazopatika
 
 Katika somo hili, umejifunza kuhusu kutumia autoencoders kwa picha. Lakini zinaweza pia kutumika kwa muziki! Angalia mradi wa Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), ambao hutumia autoencoders kujifunza kurejesha muziki. Fanya [majaribio](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) na maktaba hii ili kuona unachoweza kuunda.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Mapitio & Kujisomea
 

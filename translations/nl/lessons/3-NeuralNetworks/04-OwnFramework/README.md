@@ -19,7 +19,7 @@ In deze sectie breiden we dit model uit naar een flexibeler framework, waarmee w
 
 We zullen ook ons eigen modulaire framework in Python ontwikkelen, waarmee we verschillende architecturen van neurale netwerken kunnen bouwen.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisatie van Machine Learning
 
@@ -81,7 +81,7 @@ In het bijbehorende notebook implementeer je je eigen framework voor het bouwen 
 
 Ga verder naar het [OwnFramework](OwnFramework.ipynb) notebook en werk het door.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Review & Zelfstudie
 

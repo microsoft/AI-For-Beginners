@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rangkaian Generatif
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rangkaian Neural Berulang (RNN) dan varian sel berpintunya seperti Sel Memori Jangka Panjang (LSTM) dan Unit Berulang Berpintu (GRU) menyediakan mekanisme untuk pemodelan bahasa kerana ia boleh mempelajari susunan perkataan dan memberikan ramalan untuk perkataan seterusnya dalam satu urutan. Ini membolehkan kita menggunakan RNN untuk **tugas generatif**, seperti penjanaan teks biasa, terjemahan mesin, dan juga kapsyen imej.
 
@@ -71,7 +71,7 @@ Ambil beberapa pelajaran di Microsoft Learn mengenai topik ini
 
 * Penjanaan Teks dengan [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Ulasan & Kajian Kendiri
 

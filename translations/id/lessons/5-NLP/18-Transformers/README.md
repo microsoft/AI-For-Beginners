@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mekanisme Perhatian dan Transformer
 
-## [Kuis Pra-Pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Kuis Pra-Pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Salah satu masalah paling penting dalam domain NLP adalah **penerjemahan mesin**, sebuah tugas esensial yang mendasari alat seperti Google Translate. Dalam bagian ini, kita akan fokus pada penerjemahan mesin, atau lebih umum lagi, pada tugas *sequence-to-sequence* (yang juga disebut **transduksi kalimat**).
 
@@ -108,7 +108,7 @@ Dalam pelajaran ini, Anda telah mempelajari tentang Transformer dan Mekanisme Pe
 
 ## 🚀 Tantangan
 
-## [Kuis Pasca-Pelajaran](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Tinjauan & Studi Mandiri
 

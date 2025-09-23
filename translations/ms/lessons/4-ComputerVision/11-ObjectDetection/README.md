@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Model klasifikasi imej yang telah kita pelajari sebelum ini mengambil imej dan menghasilkan keputusan kategori, seperti kelas 'nombor' dalam masalah MNIST. Walau bagaimanapun, dalam banyak kes, kita bukan sahaja ingin mengetahui bahawa gambar menggambarkan objek - kita juga ingin menentukan lokasi tepat objek tersebut. Inilah tujuan utama **pengesanan objek**.
 
-## [Kuiz Pra-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Pengesanan Objek](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ms.png)
 
@@ -172,7 +172,7 @@ Baca artikel dan notebook ini tentang YOLO dan cuba sendiri:
  * Yolo: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah demi langkah](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Implementasi Keras](https://github.com/experiencor/keras-yolo2), [notebook langkah demi langkah](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Kuiz Pasca-Kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Ulasan & Kajian Kendiri
 

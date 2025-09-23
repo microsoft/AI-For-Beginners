@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 埋め込み
 
-## [事前講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [事前講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 BoWやTF/IDFに基づく分類器をトレーニングする際、高次元の`vocab_size`長のバッグオブワードベクトルを操作し、低次元の位置表現ベクトルからスパースなワンホット表現に明示的に変換していました。しかし、このワンホット表現はメモリ効率が良くありません。また、各単語は互いに独立して扱われ、ワンホットエンコードされたベクトルは単語間の意味的な類似性を表現しません。
 
@@ -65,7 +65,7 @@ Word2Vecのような従来の事前トレーニング済み埋め込み表現の
 
 Word2Vecは、歌詞や詩の生成など、興味深いアプリケーションに使用されています。[この記事](https://www.politetype.com/blog/word2vec-color-poems)では、著者がWord2Vecを使用して詩を生成する方法を説明しています。また、[Dan Shiffmannによるこの動画](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain)も視聴して、この技術の別の説明を発見してください。その後、Kaggleなどから取得した独自のテキストコーパスにこれらの技術を適用してみてください。
 
-## [事後講義クイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [事後講義クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## 復習と自己学習
 

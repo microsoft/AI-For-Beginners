@@ -19,7 +19,7 @@ In diesem Abschnitt erweitern wir dieses Modell zu einem flexibleren Framework, 
 
 Wir werden außerdem unser eigenes modulares Framework in Python entwickeln, mit dem wir verschiedene Architekturen neuronaler Netze erstellen können.
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalisierung des maschinellen Lernens
 
@@ -81,7 +81,7 @@ Im begleitenden Notebook wirst du dein eigenes Framework zur Erstellung und zum 
 
 Gehe zum [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) Notebook und arbeite es durch.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Rückblick & Selbststudium
 

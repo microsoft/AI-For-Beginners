@@ -54,7 +54,7 @@ In recent years, we've seen significant advancements with large language models 
 
 Explore the internet to identify where, in your opinion, AI is being used most effectively. Is it in a mapping application, a speech-to-text service, or a video game? Investigate how the system was developed.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Review & Self Study
 

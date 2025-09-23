@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mitandao ya Kizazi
 
-## [Jaribio la Kabla ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Mitandao ya Neural Inayojirudia (RNNs) na aina zake kama vile Long Short Term Memory Cells (LSTMs) na Gated Recurrent Units (GRUs) zilitoa njia ya kuunda mifano ya lugha kwa kuwa zinaweza kujifunza mpangilio wa maneno na kutoa utabiri wa neno linalofuata katika mfuatano. Hii inatuwezesha kutumia RNNs kwa **kazi za kizazi**, kama vile utengenezaji wa maandishi ya kawaida, tafsiri ya mashine, na hata uundaji wa maelezo ya picha.
 
@@ -71,7 +71,7 @@ Chukua masomo fulani kwenye Microsoft Learn kuhusu mada hii:
 
 * Kizazi cha Maandishi na [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Jaribio la Baada ya Somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Mapitio na Kujisomea
 

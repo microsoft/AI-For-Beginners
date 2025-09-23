@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Jusqu'à présent, nous nous sommes principalement concentrés sur une tâche de traitement du langage naturel (NLP) : la classification. Cependant, il existe d'autres tâches NLP qui peuvent être accomplies avec des réseaux neuronaux. L'une de ces tâches est la **[reconnaissance d'entités nommées](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), qui consiste à identifier des entités spécifiques dans un texte, comme des lieux, des noms de personnes, des intervalles de temps, des formules chimiques, etc.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Exemple d'utilisation de la NER
 
@@ -82,7 +82,7 @@ Un modèle NER est un **modèle de classification de tokens**, ce qui signifie q
 
 Réalisez l'exercice ci-dessous pour entraîner un modèle de reconnaissance d'entités nommées pour des termes médicaux, puis testez-le sur un autre jeu de données.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Révision et auto-apprentissage
 

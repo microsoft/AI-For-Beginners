@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Natutuhan na natin ang tungkol sa Object Detection, na nagbibigay-daan sa atin upang mahanap ang mga bagay sa isang imahe sa pamamagitan ng paghula ng kanilang *bounding boxes*. Gayunpaman, para sa ilang mga gawain, hindi lamang bounding boxes ang kailangan natin, kundi mas eksaktong lokasyon ng mga bagay. Ang gawaing ito ay tinatawag na **segmentasyon**.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Ang segmentasyon ay maaaring tingnan bilang **pixel classification**, kung saan para sa **bawat** pixel ng imahe, kailangan nating hulaan ang klase nito (*background* bilang isa sa mga klase). Mayroong dalawang pangunahing algorithm para sa segmentasyon:
 
@@ -56,7 +56,7 @@ Buksan ang mga notebook sa ibaba upang matuto pa tungkol sa iba't ibang semantic
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Konklusyon
 

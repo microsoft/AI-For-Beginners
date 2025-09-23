@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetski algoritmi
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetski algoritmi** (GA) temelje se na **evolucijskom pristupu** umjetnoj inteligenciji, gdje se metode evolucije populacije koriste za pronalaženje optimalnog rješenja za određeni problem. Predložio ih je 1975. godine [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetski algoritmi koriste se za rješavanje mnogih problema, uključujući logi
 
 "Genetski algoritmi su jednostavni za implementaciju, ali njihovo ponašanje je teško razumjeti." [izvor](https://wikipedia.org/wiki/Genetic_algorithm) Provedite istraživanje kako biste pronašli implementaciju genetskog algoritma, poput rješavanja Sudoku zagonetke, i objasnite kako funkcionira kao skica ili dijagram toka.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Pregled i samostalno učenje
 

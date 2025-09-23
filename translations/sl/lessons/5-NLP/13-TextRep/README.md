@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Predstavljanje besedila kot tenzorjev
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Razvrščanje besedila
 
@@ -73,7 +73,7 @@ Do sedaj smo preučili tehnike, ki lahko dodajo frekvenčno težo različnim bes
 
 Preizkusite nekaj drugih vaj z uporabo vreče besed in različnih podatkovnih modelov. Navdih lahko najdete v tem [tekmovanju na Kagglu](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Naknadni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Naknadni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Pregled in samostojno učenje
 

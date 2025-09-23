@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 In de vorige sectie hebben we geleerd over **generatieve modellen**: modellen die nieuwe afbeeldingen kunnen genereren die lijken op de afbeeldingen in de trainingsdataset. VAE was een goed voorbeeld van een generatief model.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/110)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/19)
 
 Als we echter proberen iets echt betekenisvols te genereren, zoals een schilderij met een redelijke resolutie, met VAE, zullen we zien dat de training niet goed convergeert. Voor dit gebruiksdoel moeten we leren over een andere architectuur die specifiek gericht is op generatieve modellen - **Generatieve Adversariële Netwerken**, of GANs.
 
@@ -84,7 +84,7 @@ Hoe het werkt:
 
 ## ✍️ Voorbeeld: [Stijltransfer](StyleTransfer.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/210)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/20)
 
 ## Conclusie
 

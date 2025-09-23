@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Învățarea prin recompensă (RL) este considerată unul dintre paradigmele de bază ale învățării automate, alături de învățarea supravegheată și nesupravegheată. În timp ce în învățarea supravegheată ne bazăm pe un set de date cu rezultate cunoscute, RL se bazează pe **învățarea prin acțiune**. De exemplu, atunci când vedem pentru prima dată un joc pe calculator, începem să jucăm, chiar dacă nu cunoaștem regulile, și în scurt timp ne îmbunătățim abilitățile doar prin procesul de joc și ajustarea comportamentului.
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Pentru a realiza RL, avem nevoie de:
 
@@ -110,7 +110,7 @@ Am învățat acum cum să antrenăm agenți pentru a obține rezultate bune doa
 
 Explorați aplicațiile enumerate în secțiunea 'Alte Sarcini RL' și încercați să implementați una!
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Recapitulare și Studiu Individual
 

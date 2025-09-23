@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) is een discipline die tot doel heeft computers een hoog niveau van begrip van digitale beelden te geven. Dit is een vrij brede definitie, omdat *begrip* veel verschillende dingen kan betekenen, zoals het vinden van een object op een afbeelding (**objectdetectie**), begrijpen wat er gebeurt (**evenementdetectie**), een afbeelding in tekst beschrijven, of een scène in 3D reconstrueren. Er zijn ook speciale taken die te maken hebben met menselijke beelden: schatting van leeftijd en emoties, gezichtsdetectie en -identificatie, en 3D-houdingsschatting, om er een paar te noemen.
 
-## [Quiz voorafgaand aan de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz voorafgaand aan de les](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Een van de eenvoudigste taken van computer vision is **beeldclassificatie**.
 
@@ -105,7 +105,7 @@ Soms kunnen relatief complexe taken zoals bewegingsdetectie of vingertopdetectie
 
 Bekijk [deze video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) van de AI-show om meer te leren over het Cortic Tigers-project en hoe zij een blokgebaseerde oplossing hebben gebouwd om computer vision-taken te democratiseren via een robot. Doe wat onderzoek naar andere projecten zoals deze die nieuwe leerlingen helpen in het veld te stappen.
 
-## [Quiz na de les](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Herziening & Zelfstudie
 

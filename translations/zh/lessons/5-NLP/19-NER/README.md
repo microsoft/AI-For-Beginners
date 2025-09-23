@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 到目前为止，我们主要集中在一个自然语言处理任务——分类。然而，还有其他可以通过神经网络完成的自然语言处理任务。其中一个任务是**[命名实体识别](https://wikipedia.org/wiki/Named-entity_recognition)** (NER)，它处理识别文本中的特定实体，例如地点、人物姓名、日期时间区间、化学公式等。
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## 使用 NER 的示例
 
@@ -80,7 +80,7 @@ NER 模型是一种**标记分类模型**，这意味着它可以用于执行标
 
 完成以下链接的作业，训练一个用于医学术语的命名实体识别模型，然后尝试在不同的数据集上应用它。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## 复习与自学
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 지능을 달성하는 가능한 방법 중 하나는 **발현적**(또는 **시너지적**) 접근법으로, 이는 비교적 간단한 여러 에이전트의 결합된 행동이 시스템 전체적으로 더 복잡하거나 지능적인 행동을 만들어낼 수 있다는 사실에 기반합니다. 이론적으로, 이는 [집단 지능](https://en.wikipedia.org/wiki/Collective_intelligence), [발현주의](https://en.wikipedia.org/wiki/Global_brain), [진화적 사이버네틱스](https://en.wikipedia.org/wiki/Global_brain)의 원칙에 기반하며, 상위 시스템이 하위 시스템을 적절히 결합했을 때 추가적인 가치를 얻는다는 (*메타시스템 전환의 원칙*) 개념을 포함합니다.
 
-## [강의 전 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 **다중 에이전트 시스템**의 방향은 1990년대 인터넷과 분산 시스템의 성장에 대한 응답으로 AI에서 등장했습니다. 고전적인 AI 교과서 중 하나인 [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach)는 다중 에이전트 시스템 관점에서 고전적인 AI를 다룹니다.
 
@@ -153,7 +153,7 @@ Flocking 예제를 실행하고 행동을 관찰할 수 있습니다. 또한 *�
 
 이 수업을 실제 세계에 적용하여 문제를 해결할 수 있는 다중 에이전트 시스템을 구상해보세요. 예를 들어, 학교 버스 경로를 최적화하기 위해 다중 에이전트 시스템이 무엇을 해야 할까요? 빵집에서는 어떻게 작동할 수 있을까요?
 
-## [강의 후 퀴즈](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## 복습 및 자기 학습
 

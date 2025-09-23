@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pri vseh naših prejšnjih nalogah smo učili nevronsko mrežo za izvajanje določene naloge z uporabo označenega nabora podatkov. Pri velikih transformacijskih modelih, kot je BERT, uporabljamo jezikovno modeliranje na samonadzorovan način za gradnjo jezikovnega modela, ki ga nato s specifičnim usposabljanjem za določeno področje prilagodimo za specifične naloge. Vendar pa je bilo dokazano, da lahko veliki jezikovni modeli rešujejo številne naloge tudi brez kakršnega koli usposabljanja za določeno področje. Družina modelov, ki to omogoča, se imenuje **GPT**: Generativni vnaprej naučeni transformator.
 
-## [Pred-predavanjski kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Pred-predavanjski kviz](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generiranje besedila in zapletenost
 
@@ -58,7 +58,7 @@ Nadaljujte z učenjem v naslednjih beležnicah:
 
 Novi splošni vnaprej naučeni jezikovni modeli ne modelirajo le jezikovne strukture, temveč vsebujejo tudi ogromno naravnega jezika. Zato jih je mogoče učinkovito uporabiti za reševanje nekaterih nalog obdelave naravnega jezika v nastavitvah brez primerov (zero-shot) ali z malo primeri (few-shot).
 
-## [Po-predavanjski kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Po-predavanjski kviz](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Omejitev odgovornosti**:  
 Ta dokument je bil preveden z uporabo storitve AI za prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki izhajajo iz uporabe tega prevoda.

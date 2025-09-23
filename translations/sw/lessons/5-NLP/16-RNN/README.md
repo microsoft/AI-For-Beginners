@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mitandao ya Neural ya Kurudiarudia
 
-## [Jaribio la kabla ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/116)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
 Katika sehemu zilizopita, tumekuwa tukitumia uwakilishi wa maana tajiri wa maandishi na mklasifaya rahisi ya mstari juu ya embeddings. Hii usanifu hufanya kazi ya kunasa maana iliyojumlishwa ya maneno katika sentensi, lakini haizingatii **mpangilio** wa maneno, kwa sababu operesheni ya kujumuisha juu ya embeddings huondoa taarifa hii kutoka kwa maandishi ya awali. Kwa sababu mifano hii haiwezi kuiga mpangilio wa maneno, haziwezi kutatua kazi ngumu zaidi au zenye utata kama vile uzalishaji wa maandishi au kujibu maswali.
 
@@ -83,7 +83,7 @@ Soma baadhi ya fasihi kuhusu LSTM na zingatia matumizi yake:
 - [Grid Long Short-Term Memory](https://arxiv.org/pdf/1507.01526v1.pdf)
 - [Onyesha, Hudhuria na Hadithi: Kizazi cha Maelezo ya Picha ya Neural na Umakini wa Kijisura](https://arxiv.org/pdf/1502.03044v2.pdf)
 
-## [Jaribio la baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/216)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/32)
 
 ## Mapitio na Kujisomea
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Jedným z možných spôsobov dosiahnutia inteligencie je takzvaný **emergentný** (alebo **synergický**) prístup, ktorý je založený na skutočnosti, že kombinované správanie mnohých relatívne jednoduchých agentov môže viesť k celkovo zložitejšiemu (alebo inteligentnejšiemu) správaniu systému ako celku. Teoreticky je to založené na princípoch [kolektívnej inteligencie](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentizmu](https://en.wikipedia.org/wiki/Global_brain) a [evolučnej kybernetiky](https://en.wikipedia.org/wiki/Global_brain), ktoré tvrdia, že systémy na vyššej úrovni získavajú určitú pridanú hodnotu, keď sú správne kombinované zo systémov na nižšej úrovni (takzvaný *princíp prechodu metasystému*).
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 Smer **Multi-Agent Systems** sa objavil v oblasti AI v 90. rokoch ako odpoveď na rast internetu a distribuovaných systémov. Jedna z klasických učebníc AI, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), sa zameriava na pohľad klasickej AI z perspektívy multi-agentových systémov.
 
@@ -152,7 +152,7 @@ Všetky sa zameriavajú na jednoduchšie správanie jednotlivého agenta a dosah
 
 Preneste túto lekciu do reálneho sveta a skúste konceptualizovať multi-agentový systém, ktorý dokáže vyriešiť problém. Čo by napríklad musel multi-agentový systém robiť, aby optimalizoval trasu školského autobusu? Ako by mohol fungovať v pekárni?
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Prehľad a samostatné štúdium
 

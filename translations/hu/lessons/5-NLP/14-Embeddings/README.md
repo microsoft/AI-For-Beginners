@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Beágyazások
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Amikor BoW vagy TF/IDF alapú osztályozókat tanítottunk, magas dimenziós szavak zsákja vektorokkal dolgoztunk, amelyek hossza `vocab_size`, és kifejezetten alacsony dimenziós pozíciós reprezentációs vektorokat alakítottunk át ritka egyhot reprezentációvá. Ez az egyhot reprezentáció azonban nem memóriahatékony. Ezenkívül minden szót egymástól függetlenül kezelünk, azaz az egyhot kódolt vektorok nem fejeznek ki semmilyen szemantikai hasonlóságot a szavak között.
 
@@ -65,7 +65,7 @@ Ebben a leckében felfedezted, hogyan lehet beágyazási rétegeket építeni é
 
 A Word2Vec-et néhány érdekes alkalmazásra használták, például dalok szövegének és költészet generálására. Nézd meg [ezt a cikket](https://www.politetype.com/blog/word2vec-color-poems), amely bemutatja, hogyan használta a szerző a Word2Vec-et költészet generálására. Nézd meg [Dan Shiffmann videóját](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) is, hogy felfedezz egy másik magyarázatot erre a technikára. Ezután próbáld meg alkalmazni ezeket a technikákat saját szövegkorpuszodra, amelyet például Kaggle-ről szerezhetsz be.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Áttekintés és önálló tanulás
 

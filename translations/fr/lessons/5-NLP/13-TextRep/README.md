@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Représenter le texte sous forme de tenseurs
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Classification de texte
 
@@ -73,7 +73,7 @@ Jusqu'à présent, nous avons étudié des techniques qui peuvent ajouter un poi
 
 Essayez d'autres exercices en utilisant le sac de mots et différents modèles de données. Vous pourriez être inspiré par cette [compétition sur Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Révision et auto-apprentissage
 

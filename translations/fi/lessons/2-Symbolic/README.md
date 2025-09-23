@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tekoälyn tavoite perustuu tiedon etsintään, pyrkimykseen ymmärtää maailmaa samalla tavalla kuin ihmiset. Mutta miten tämä voidaan toteuttaa?
 
-## [Ennakkokysely ennen luentoa](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Ennakkokysely ennen luentoa](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 Tekoälyn alkuvaiheessa suosittiin ylhäältä alas -lähestymistapaa älykkäiden järjestelmien luomisessa (käsitelty edellisessä oppitunnissa). Ajatuksena oli siirtää ihmisten tieto koneelle koneen ymmärtämässä muodossa ja käyttää sitä ongelmien automaattiseen ratkaisemiseen. Tämä lähestymistapa perustui kahteen suureen ideaan:
 
@@ -236,7 +236,7 @@ Nykyään tekoälyä pidetään usein *koneoppimisen* tai *neuroverkkojen* synon
 
 Family Ontology -muistikirjassa, joka liittyy tähän oppituntiin, on mahdollisuus kokeilla muita perhesuhteita. Yritä löytää uusia yhteyksiä ihmisten välillä sukupuussa.
 
-## [Luennon jälkeinen kysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Luennon jälkeinen kysely](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Kertaus ja itseopiskelu
 

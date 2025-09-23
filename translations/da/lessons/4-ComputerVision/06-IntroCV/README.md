@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) er en disciplin, der har til formål at give computere en højere forståelse af digitale billeder. Dette er en ret bred definition, fordi *forståelse* kan betyde mange forskellige ting, herunder at finde et objekt på et billede (**objektdetektion**), forstå hvad der sker (**begivenhedsdetektion**), beskrive et billede med tekst eller rekonstruere en scene i 3D. Der er også særlige opgaver relateret til billeder af mennesker: alders- og følelsesvurdering, ansigtsdetektion og -identifikation samt 3D-positurvurdering, for blot at nævne nogle få.
 
-## [Quiz før forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 En af de simpleste opgaver inden for computer vision er **billedklassifikation**.
 
@@ -105,7 +105,7 @@ Nogle gange kan relativt komplekse opgaver som bevægelsesdetektion eller finger
 
 Se [denne video](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) fra AI-showet for at lære om Cortic Tigers-projektet, og hvordan de byggede en blokbaseret løsning til at demokratisere computer vision-opgaver via en robot. Undersøg andre projekter som dette, der hjælper nye lærere med at komme i gang inden for feltet.
 
-## [Quiz efter forelæsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Gennemgang & Selvstudie
 

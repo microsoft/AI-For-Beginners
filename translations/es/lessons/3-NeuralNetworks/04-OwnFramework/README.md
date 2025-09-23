@@ -19,7 +19,7 @@ En esta sección, extenderemos este modelo a un marco más flexible, permitiénd
 
 También desarrollaremos nuestro propio marco modular en Python que nos permitirá construir diferentes arquitecturas de redes neuronales.
 
-## [Cuestionario previo a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## Formalización del Aprendizaje Automático
 
@@ -81,7 +81,7 @@ En el notebook adjunto, implementarás tu propio marco para construir y entrenar
 
 Continúa con el notebook [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) y trabaja en él.
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Revisión y Autoestudio
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducción a Redes Neuronales: Perceptrón
 
-## [Cuestionario previo a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Uno de los primeros intentos de implementar algo similar a una red neuronal moderna fue realizado por Frank Rosenblatt del Laboratorio Aeronáutico de Cornell en 1957. Fue una implementación de hardware llamada "Mark-1", diseñada para reconocer figuras geométricas primitivas, como triángulos, cuadrados y círculos.
 
@@ -85,7 +85,7 @@ En esta lección, aprendiste sobre un perceptrón, que es un modelo de clasifica
 
 Si deseas intentar construir tu propio perceptrón, prueba [este laboratorio en Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), que utiliza el [diseñador de Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Repaso y Autoestudio
 

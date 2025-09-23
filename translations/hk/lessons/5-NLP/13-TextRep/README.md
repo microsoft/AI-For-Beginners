@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 將文字表示為張量
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## 文字分類
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 嘗試使用詞袋模型和不同的數據模型進行其他練習。你可以參考這個 [Kaggle 比賽](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words) 獲得靈感。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## 回顧與自學
 

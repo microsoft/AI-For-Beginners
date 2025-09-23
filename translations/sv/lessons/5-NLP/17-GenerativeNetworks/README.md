@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generativa nätverk
 
-## [Quiz före föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Recurrent Neural Networks (RNNs) och deras varianter med grindade celler, såsom Long Short Term Memory Cells (LSTMs) och Gated Recurrent Units (GRUs), erbjuder en mekanism för språkmodellering genom att de kan lära sig ordordning och ge förutsägelser för nästa ord i en sekvens. Detta gör det möjligt att använda RNNs för **generativa uppgifter**, såsom vanlig textgenerering, maskinöversättning och till och med bildbeskrivning.
 
@@ -71,7 +71,7 @@ Ta några lektioner på Microsoft Learn om detta ämne:
 
 * Textgenerering med [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Quiz efter föreläsningen](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Granskning & Självstudier
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetic Algorithms
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetic Algorithms** (GA) are based on an **evolutionary approach** to AI, where methods inspired by the evolution of a population are used to find an optimal solution to a given problem. They were introduced in 1975 by [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetic Algorithms are used to solve a variety of problems, including logistics 
 
 "Genetic algorithms are simple to implement, but their behavior is difficult to understand." [source](https://wikipedia.org/wiki/Genetic_algorithm) Research an implementation of a genetic algorithm, such as solving a Sudoku puzzle, and explain how it works using a sketch or flowchart.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Review & Self Study
 

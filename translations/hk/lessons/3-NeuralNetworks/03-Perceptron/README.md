@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 神經網絡簡介：感知器
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 1957年，康奈爾航空實驗室的Frank Rosenblatt首次嘗試實現類似現代神經網絡的模型。他設計了一個名為"Mark-1"的硬件系統，用於識別基本幾何圖形，例如三角形、正方形和圓形。
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 如果你想嘗試自己構建感知器，可以參考[Microsoft Learn上的這個實驗](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste)，它使用了[Azure ML設計器](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste)。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## 回顧與自學
 

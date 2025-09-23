@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Korábban láttuk, hogy a neurális hálók elég jól kezelik a képeket, és még egy egyrétegű perceptron is képes az MNIST adathalmazon található kézzel írt számjegyeket elfogadható pontossággal felismerni. Azonban az MNIST adathalmaz különleges, mivel az összes számjegy középre van igazítva a képen, ami egyszerűbbé teszi a feladatot.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 A való életben azt szeretnénk, hogy képesek legyünk felismerni tárgyakat egy képen, függetlenül azok pontos helyzetétől a képen belül. A számítógépes látás különbözik az általános osztályozástól, mert amikor egy adott tárgyat keresünk a képen, a képet pásztázzuk, hogy bizonyos **mintázatokat** és azok kombinációit keressük. Például, ha egy macskát keresünk, először vízszintes vonalakat kereshetünk, amelyek bajuszokat alkothatnak, majd bizonyos bajuszkombinációk alapján megállapíthatjuk, hogy valóban egy macska képe van előttünk. A mintázatok relatív helyzete és jelenléte fontos, nem pedig azok pontos helyzete a képen.
 

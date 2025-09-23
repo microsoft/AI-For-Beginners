@@ -208,7 +208,7 @@ Saat ini, AI sering dianggap sebagai sinonim untuk *Machine Learning* atau *Neur
 
 Dalam notebook Ontologi Keluarga yang terkait dengan pelajaran ini, ada kesempatan untuk bereksperimen dengan hubungan keluarga lainnya. Cobalah untuk menemukan koneksi baru antara orang-orang dalam pohon keluarga.
 
-## [Kuis setelah kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Kuis setelah kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Tinjauan & Studi Mandiri
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rappresentare il Testo come Tensors
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Classificazione del Testo
 
@@ -73,7 +73,7 @@ Finora, abbiamo studiato tecniche che possono aggiungere peso di frequenza a div
 
 Prova altri esercizi utilizzando bag-of-words e diversi modelli di dati. Potresti trovare ispirazione in questa [competizione su Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Revisione & Studio Autonomo
 

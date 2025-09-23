@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # न्यूरल नेटवर्क्सची ओळख: परसेप्ट्रॉन
 
-## [पूर्व-व्याख्यान प्रश्नमंजुषा](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [पूर्व-व्याख्यान प्रश्नमंजुषा](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 आधुनिक न्यूरल नेटवर्कसारखे काहीतरी तयार करण्याचा पहिला प्रयत्न 1957 मध्ये कॉर्नेल एरोनॉटिकल लॅबोरेटरीचे फ्रँक रोझनब्लाट यांनी केला. हे हार्डवेअर आधारित मॉडेल होते ज्याला "मार्क-1" असे नाव देण्यात आले होते, ज्याचा उद्देश त्रिकोण, चौकोन आणि वर्तुळ यांसारख्या प्राथमिक भूमितीय आकृत्या ओळखणे होता.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 जर तुम्हाला स्वतःचा परसेप्ट्रॉन तयार करण्याचा प्रयत्न करायचा असेल, तर [Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) वरील [या प्रयोगशाळेचा](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) प्रयत्न करा, ज्यामध्ये [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) वापरला जातो.
 
-## [व्याख्यानानंतरची प्रश्नमंजुषा](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [व्याख्यानानंतरची प्रश्नमंजुषा](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## पुनरावलोकन आणि स्व-अभ्यास
 

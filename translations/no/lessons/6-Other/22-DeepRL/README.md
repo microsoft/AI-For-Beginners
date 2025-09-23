@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Forsterkningslæring (RL) regnes som en av de grunnleggende paradigmer innen maskinlæring, ved siden av veiledet læring og uveiledet læring. Mens vi i veiledet læring baserer oss på datasett med kjente utfall, er RL basert på **læring gjennom handling**. For eksempel, når vi ser et dataspill for første gang, begynner vi å spille, selv uten å kjenne reglene, og snart blir vi bedre bare ved å spille og justere oppførselen vår.
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 For å utføre RL trenger vi:
 
@@ -110,7 +110,7 @@ Vi har nå lært hvordan vi kan trene agenter til å oppnå gode resultater bare
 
 Utforsk applikasjonene som er oppført i delen 'Andre RL-oppgaver' og prøv å implementere en!
 
-## [Quiz etter forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Quiz etter forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Gjennomgang og selvstudium
 

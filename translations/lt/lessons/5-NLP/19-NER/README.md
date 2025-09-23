@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Iki šiol daugiausia dėmesio skyrėme vienai NLP užduočiai – klasifikacijai. Tačiau yra ir kitų NLP užduočių, kurias galima atlikti naudojant neuroninius tinklus. Viena iš tokių užduočių yra **[Pavadinimų atpažinimas](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), kuris susijęs su specifinių objektų atpažinimu tekste, tokių kaip vietovės, asmenų vardai, datos ir laiko intervalai, cheminės formulės ir pan.
 
-## [Prieš paskaitą: klausimynas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Prieš paskaitą: klausimynas](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## NER naudojimo pavyzdys
 
@@ -77,7 +77,7 @@ NER modelis yra **žodžių klasifikavimo modelis**, kuris gali būti naudojamas
 
 Atlikite žemiau pateiktą užduotį, kad ištreniruotumėte medicininių terminų atpažinimo modelį, o tada išbandykite jį su kitu duomenų rinkiniu.
 
-## [Po paskaitos: klausimynas](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Po paskaitos: klausimynas](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Peržiūra ir savarankiškas mokymasis
 

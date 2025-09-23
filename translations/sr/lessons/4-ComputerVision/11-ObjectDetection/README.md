@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Модели за класификацију слика које смо до сада обрађивали узимају слику и производе категоријски резултат, као што је класа 'број' у проблему MNIST. Међутим, у многим случајевима не желимо само да знамо да слика приказује објекте - желимо да можемо да одредимо њихову прецизну локацију. Управо то је суштина **детекције објеката**.
 
-## [Квиз пре предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Детекција објеката](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sr.png)
 
@@ -172,7 +172,7 @@ YOLO је алгоритам за реално време са једним пр
  * Yolo: [Keras имплементација](https://github.com/experiencor/keras-yolo2), [радна свеска корак по корак](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * Yolo v2: [Keras имплементација](https://github.com/experiencor/keras-yolo2), [радна свеска корак по корак](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [Квиз после предавања](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [Квиз после предавања](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Преглед и самостално учење
 

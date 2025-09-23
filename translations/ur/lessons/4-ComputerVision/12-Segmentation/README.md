@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ہم نے پہلے آبجیکٹ ڈیٹیکشن کے بارے میں سیکھا تھا، جو ہمیں تصویر میں موجود اشیاء کو ان کے *باؤنڈنگ باکسز* کی پیش گوئی کے ذریعے تلاش کرنے کی اجازت دیتا ہے۔ تاہم، کچھ کاموں کے لیے ہمیں صرف باؤنڈنگ باکسز کی ضرورت نہیں ہوتی بلکہ اشیاء کی زیادہ درست لوکلائزیشن کی ضرورت ہوتی ہے۔ اس کام کو **تقسیم** کہا جاتا ہے۔
 
-## [لیکچر سے پہلے کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 تقسیم کو **پکسل کی درجہ بندی** کے طور پر دیکھا جا سکتا ہے، جہاں تصویر کے **ہر** پکسل کے لیے ہمیں اس کی کلاس کی پیش گوئی کرنی ہوتی ہے (*بیک گراؤنڈ* بھی ایک کلاس ہوتی ہے)۔ تقسیم کے دو اہم الگورتھم ہیں:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [سیمینٹک تقسیم پائی ٹارچ](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [سیمینٹک تقسیم ٹینسر فلو](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [لیکچر کے بعد کا کوئز](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [لیکچر کے بعد کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## نتیجہ
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Dikkat Mekanizmaları ve Transformerlar
 
-## [Ders Öncesi Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP alanındaki en önemli problemlerden biri, Google Translate gibi araçların temelini oluşturan **makine çevirisi**dir. Bu bölümde, makine çevirisine ya da daha genel olarak herhangi bir *diziden-diziye* (sequence-to-sequence) göreve (bu aynı zamanda **cümle dönüşümü** olarak da adlandırılır) odaklanacağız.
 
@@ -108,7 +108,7 @@ Bu derste Transformerlar ve Dikkat Mekanizmaları hakkında bilgi edindiniz; bun
 
 ## 🚀 Meydan Okuma
 
-## [Ders Sonrası Testi](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## İnceleme ve Kendi Kendine Çalışma
 

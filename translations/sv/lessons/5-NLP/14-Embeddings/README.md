@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Inbäddningar
 
-## [Quiz före föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Quiz före föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 När vi tränade klassificerare baserade på BoW eller TF/IDF arbetade vi med högdimensionella bag-of-words-vektorer med längden `vocab_size`, och vi konverterade explicit från lågdimensionella positionsrepresentationsvektorer till glesa one-hot-representationer. Denna one-hot-representation är dock inte minneseffektiv. Dessutom behandlas varje ord oberoende av varandra, dvs. one-hot-kodade vektorer uttrycker ingen semantisk likhet mellan ord.
 
@@ -65,7 +65,7 @@ I denna lektion upptäckte du hur man bygger och använder inbäddningslager i T
 
 Word2Vec har använts för några intressanta tillämpningar, inklusive att generera sångtexter och poesi. Ta en titt på [denna artikel](https://www.politetype.com/blog/word2vec-color-poems) som går igenom hur författaren använde Word2Vec för att generera poesi. Titta också på [denna video av Dan Shiffmann](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain) för att upptäcka en annan förklaring av denna teknik. Försök sedan att tillämpa dessa tekniker på din egen textkorpus, kanske hämtad från Kaggle.
 
-## [Quiz efter föreläsning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Quiz efter föreläsning](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Granskning & Självstudier
 

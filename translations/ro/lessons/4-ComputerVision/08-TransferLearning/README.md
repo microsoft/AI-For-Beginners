@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Antrenarea CNN-urilor poate dura mult timp și necesită o cantitate mare de date. Totuși, o mare parte din timp este petrecut în învățarea celor mai bune filtre de nivel scăzut pe care o rețea le poate folosi pentru a extrage modele din imagini. O întrebare naturală apare - putem folosi o rețea neuronală antrenată pe un set de date și să o adaptăm pentru a clasifica imagini diferite fără a necesita un proces complet de antrenare?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Această abordare se numește **învățare prin transfer**, deoarece transferăm o parte din cunoștințele unui model de rețea neuronală către altul. În învățarea prin transfer, de obicei începem cu un model pre-antrenat, care a fost antrenat pe un set mare de imagini, cum ar fi **ImageNet**. Aceste modele pot deja să extragă caracteristici diferite din imagini generice, iar în multe cazuri, construirea unui clasificator pe baza acestor caracteristici extrase poate oferi un rezultat bun.
 
@@ -76,7 +76,7 @@ Folosind învățarea prin transfer, puteți crea rapid un clasificator pentru o
 
 În caietele însoțitoare, există note la final despre cum funcționează cel mai bine transferul de cunoștințe cu date de antrenament oarecum similare (poate un nou tip de animal). Faceți câteva experimente cu tipuri complet noi de imagini pentru a vedea cât de bine sau prost performează modelele de transfer de cunoștințe.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Recapitulare și Studiu Individual
 

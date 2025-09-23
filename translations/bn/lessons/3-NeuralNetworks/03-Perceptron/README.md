@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # নিউরাল নেটওয়ার্কের পরিচিতি: পারসেপট্রন
 
-## [পূর্ব-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 আধুনিক নিউরাল নেটওয়ার্কের মতো কিছু তৈরি করার প্রথম প্রচেষ্টা করেছিলেন ফ্র্যাঙ্ক রোজেনব্লাট, কর্নেল এরোনটিক্যাল ল্যাবরেটরির একজন বিজ্ঞানী, ১৯৫৭ সালে। এটি একটি হার্ডওয়্যার ইমপ্লিমেন্টেশন ছিল, যার নাম ছিল "মার্ক-১", যা প্রাথমিক জ্যামিতিক আকার যেমন ত্রিভুজ, বর্গক্ষেত্র এবং বৃত্ত চিনতে ডিজাইন করা হয়েছিল।
 
@@ -84,7 +84,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 আপনি যদি নিজের পারসেপট্রন তৈরি করতে চান, তবে [Microsoft Learn-এর এই ল্যাবটি](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) চেষ্টা করুন, যা [Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste) ব্যবহার করে।
 
-## [পোস্ট-লেকচার কুইজ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [পোস্ট-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## পর্যালোচনা ও স্ব-অধ্যয়ন
 

@@ -59,7 +59,7 @@ In dieser Einheit haben Sie das Hauptkonzept hinter neuronalen Netzwerken für C
 
 In den begleitenden Notebooks gibt es am Ende Hinweise darauf, wie man eine höhere Genauigkeit erzielen kann. Führen Sie einige Experimente durch, um zu sehen, ob Sie eine höhere Genauigkeit erreichen können.
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Überprüfung & Selbststudium
 

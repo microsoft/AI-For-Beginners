@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Uwakilishi wa semantiki, kama Word2Vec na GloVe, kwa kweli ni hatua ya kwanza kuelekea **uundaji wa lugha** - kuunda mifano inayoweza *kuelewa* (au *kuwakilisha*) asili ya lugha.
 
-## [Maswali ya awali ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Maswali ya awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Wazo kuu nyuma ya uundaji wa lugha ni kuifundisha kwenye seti za data zisizo na lebo kwa njia isiyo ya kusimamiwa. Hili ni muhimu kwa sababu tuna kiasi kikubwa cha maandishi yasiyo na lebo yanayopatikana, wakati kiasi cha maandishi yaliyo na lebo daima kitakuwa kidogo kutokana na juhudi tunazoweza kutumia katika kuweka lebo. Mara nyingi, tunaweza kujenga mifano ya lugha inayoweza **kutabiri maneno yanayokosekana** katika maandishi, kwa sababu ni rahisi kuficha neno la bahati nasibu katika maandishi na kulitumia kama sampuli ya mafunzo.
 
@@ -38,7 +38,7 @@ Endelea kujifunza katika noti zifuatazo:
 
 Katika somo la awali tuliona kwamba uwakilishi wa maneno hufanya kazi kama uchawi! Sasa tunajua kwamba kufundisha uwakilishi wa maneno si kazi ngumu sana, na tunapaswa kuwa na uwezo wa kufundisha uwakilishi wetu wa maneno kwa maandishi maalum ya kikoa ikiwa inahitajika.
 
-## [Maswali ya baada ya somo](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Mapitio na Kujifunza Binafsi
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Anteriormente hemos aprendido sobre la Detección de Objetos, que nos permite localizar objetos en una imagen prediciendo sus *cajas delimitadoras*. Sin embargo, para algunas tareas no solo necesitamos cajas delimitadoras, sino también una localización más precisa de los objetos. Esta tarea se llama **segmentación**.
 
-## [Cuestionario previo a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 La segmentación puede considerarse como **clasificación de píxeles**, donde para **cada** píxel de la imagen debemos predecir su clase (*fondo* siendo una de las clases). Existen dos principales algoritmos de segmentación:
 
@@ -56,7 +56,7 @@ Abre los siguientes notebooks para aprender más sobre diferentes arquitecturas 
 * [Segmentación Semántica Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Segmentación Semántica TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Conclusión
 

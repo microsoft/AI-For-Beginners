@@ -208,7 +208,7 @@ Sa kasalukuyan, ang AI ay madalas na itinuturing na kasingkahulugan ng *Machine 
 
 Sa Family Ontology notebook na kaugnay ng araling ito, may pagkakataon kang mag-eksperimento sa iba pang mga relasyon ng pamilya. Subukang tuklasin ang mga bagong koneksyon sa pagitan ng mga tao sa family tree.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Review at Pag-aaral sa Sarili
 

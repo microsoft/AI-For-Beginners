@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဂျင်နက်တစ် အယ်လ်ဂိုရီသမ်များ
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **ဂျင်နက်တစ် အယ်လ်ဂိုရီသမ်များ** (GA) သည် **အဆင့်ဆင့်တိုးတက်မှုနည်းလမ်း** အပေါ် အခြေခံထားပြီး၊ လူ့အဖွဲ့အစည်း၏ တိုးတက်မှုနည်းလမ်းများကို အသုံးပြုကာ ပေးထားသော ပြဿနာတစ်ခုအတွက် အကောင်းဆုံးဖြေရှင်းချက်ကို ရယူရန် အသုံးပြုသည်။ ၎င်းကို 1975 ခုနှစ်တွင် [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) မှ တင်ပြခဲ့သည်။
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 "ဂျင်နက်တစ် အယ်လ်ဂိုရီသမ်များကို အကောင်အထည်ဖော်ရန် လွယ်ကူသော်လည်း၊ ၎င်း၏ အပြုအမူကို နားလည်ရန် ခက်ခဲသည်။" [ရင်းမြစ်](https://wikipedia.org/wiki/Genetic_algorithm) ဂျင်နက်တစ် အယ်လ်ဂိုရီသမ်တစ်ခု (ဥပမာ- Sudoku ပြဿနာကို ဖြေရှင်းခြင်း) ကို ရှာဖွေပြီး၊ ၎င်း၏ လုပ်ဆောင်ပုံကို အကြမ်းဖျဉ်း သို့မဟုတ် flowchart အဖြစ် ရှင်းပြပါ။
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 

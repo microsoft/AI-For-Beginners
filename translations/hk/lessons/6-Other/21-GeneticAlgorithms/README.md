@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 遺傳算法
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **遺傳算法**（Genetic Algorithms, GA）基於一種**進化式方法**來解決人工智能問題，通過模擬群體進化的方式來尋找給定問題的最佳解。這一方法由 [John Henry Holland](https://wikipedia.org/wiki/John_Henry_Holland) 在1975年提出。
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 「遺傳算法易於實現，但其行為難以理解。」[來源](https://wikipedia.org/wiki/Genetic_algorithm) 請進行一些研究，找到一個遺傳算法的實現，例如解數獨問題，並用草圖或流程圖解釋其工作原理。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## 回顧與自學
 

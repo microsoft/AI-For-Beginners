@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Önceki tüm görevlerimizde, etiketlenmiş bir veri kümesi kullanarak belirli bir görevi yerine getirmek için bir sinir ağı eğitiyorduk. BERT gibi büyük transformer modelleriyle, dil modellemesini kendi kendine denetimli bir şekilde kullanarak bir dil modeli oluşturuyoruz ve ardından bu modeli belirli bir alt görev için alanına özel eğitimle özelleştiriyoruz. Ancak, büyük dil modellerinin herhangi bir alanına özel eğitim olmadan birçok görevi çözebileceği gösterilmiştir. Bu tür görevleri gerçekleştirebilen model ailesine **GPT** (Generative Pre-Trained Transformer) adı verilir.
 
-## [Ders Öncesi Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Metin Üretimi ve Karmaşıklık (Perplexity)
 
@@ -58,7 +58,7 @@ Aşağıdaki notebook'larda öğrenmeye devam edin:
 
 Yeni genel önceden eğitilmiş dil modelleri yalnızca dil yapısını modellemekle kalmaz, aynı zamanda büyük miktarda doğal dil bilgisi içerir. Bu nedenle, bazı NLP görevlerini sıfır atış (zero-shot) veya az atış (few-shot) ayarlarında etkili bir şekilde çözmek için kullanılabilirler.
 
-## [Ders Sonrası Test](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Feragatname**:  
 Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı bir yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel bir insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

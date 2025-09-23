@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genetické algoritmy
 
-## [Kvíz před přednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/121)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/41)
 
 **Genetické algoritmy** (GA) jsou založeny na **evolučním přístupu** k AI, při kterém se využívají metody evoluce populace k nalezení optimálního řešení daného problému. Byly navrženy v roce 1975 [Johnem Henry Hollandem](https://wikipedia.org/wiki/John_Henry_Holland).
 
@@ -66,7 +66,7 @@ Genetické algoritmy se používají k řešení mnoha problémů, včetně logi
 
 "Genetické algoritmy jsou jednoduché na implementaci, ale jejich chování je obtížné pochopit." [zdroj](https://wikipedia.org/wiki/Genetic_algorithm) Proveďte výzkum a najděte implementaci genetického algoritmu, například pro řešení Sudoku, a vysvětlete, jak funguje pomocí náčrtu nebo diagramu.
 
-## [Kvíz po přednášce](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/221)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ai/quiz/42)
 
 ## Přehled a samostudium
 

@@ -14,7 +14,7 @@ Kao što smo već naučili, da bismo učinkovito trenirali neuronske mreže, mor
 * Raditi s tenzorima, npr. množiti, zbrajati i izračunavati funkcije poput sigmoid ili softmax
 * Izračunati gradijente svih izraza kako bismo mogli provesti optimizaciju gradijentnog spuštanja
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Iako biblioteka `numpy` može obaviti prvi dio, potrebna nam je neka metoda za izračunavanje gradijenata. U [našem okviru](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) koji smo razvili u prethodnom dijelu morali smo ručno programirati sve funkcije derivacija unutar metode `backward`, koja provodi povratnu propagaciju. Idealno, okvir bi nam trebao omogućiti izračunavanje gradijenata *bilo kojeg izraza* koji možemo definirati.
 
@@ -106,7 +106,7 @@ U ovoj lekciji naučili ste o razlikama između različitih API-ja za dva najpop
 
 U pratećim bilježnicama pronaći ćete 'zadaci' na dnu; prođite kroz bilježnice i dovršite zadatke.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Pregled i samostalno učenje
 

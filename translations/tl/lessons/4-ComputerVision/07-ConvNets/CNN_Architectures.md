@@ -59,7 +59,7 @@ Sa unit na ito, natutunan mo ang pangunahing konsepto sa likod ng computer visio
 
 Sa mga kasamang notebooks, may mga tala sa ibaba tungkol sa kung paano makakamit ang mas mataas na katumpakan. Subukan ang ilang eksperimento upang makita kung kaya mong makamit ang mas mataas na katumpakan.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Review at Pag-aaral ng Sarili
 

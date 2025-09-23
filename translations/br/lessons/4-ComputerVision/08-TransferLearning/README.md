@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Treinar redes neurais convolucionais (CNNs) pode levar muito tempo e requer uma grande quantidade de dados. No entanto, grande parte do tempo é gasto aprendendo os melhores filtros de baixo nível que uma rede pode usar para extrair padrões de imagens. Surge então uma pergunta natural: podemos usar uma rede neural treinada em um conjunto de dados e adaptá-la para classificar imagens diferentes sem precisar de um processo completo de treinamento?
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/108)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/15)
 
 Essa abordagem é chamada de **aprendizado por transferência**, porque transferimos algum conhecimento de um modelo de rede neural para outro. No aprendizado por transferência, geralmente começamos com um modelo pré-treinado, que foi treinado em um grande conjunto de dados de imagens, como o **ImageNet**. Esses modelos já conseguem extrair diferentes características de imagens genéricas, e em muitos casos, apenas construir um classificador em cima dessas características extraídas pode gerar bons resultados.
 
@@ -76,7 +76,7 @@ Usando o aprendizado por transferência, você pode rapidamente montar um classi
 
 Nos notebooks que acompanham, há notas no final sobre como o aprendizado por transferência funciona melhor com dados de treinamento um pouco semelhantes (talvez um novo tipo de animal). Faça alguns experimentos com tipos completamente novos de imagens para ver quão bem ou mal seus modelos de aprendizado por transferência se saem.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Revisão e Autoestudo
 

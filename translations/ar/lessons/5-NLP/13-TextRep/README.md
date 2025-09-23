@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # تمثيل النصوص كموترات
 
-## [اختبار ما قبل المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## تصنيف النصوص
 
@@ -73,7 +73,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 جرّب بعض التمارين الأخرى باستخدام حقيبة الكلمات ونماذج بيانات مختلفة. قد تستوحي من هذه [المسابقة على Kaggle](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words)
 
-## [اختبار ما بعد المحاضرة](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [اختبار ما بعد المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## المراجعة والدراسة الذاتية
 

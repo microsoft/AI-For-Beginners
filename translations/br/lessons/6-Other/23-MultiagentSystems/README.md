@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Uma das formas possíveis de alcançar inteligência é a chamada abordagem **emergente** (ou **sinergética**), que se baseia no fato de que o comportamento combinado de muitos agentes relativamente simples pode resultar em um comportamento geral mais complexo (ou inteligente) do sistema como um todo. Teoricamente, isso se baseia nos princípios de [Inteligência Coletiva](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentismo](https://en.wikipedia.org/wiki/Global_brain) e [Cibernética Evolutiva](https://en.wikipedia.org/wiki/Global_brain), que afirmam que sistemas de nível superior ganham algum tipo de valor agregado quando são devidamente combinados a partir de sistemas de nível inferior (o chamado *princípio da transição de metasistema*).
 
-## [Quiz pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 A direção dos **Sistemas Multiagentes** surgiu na IA na década de 1990 como uma resposta ao crescimento da Internet e dos sistemas distribuídos. Um dos livros clássicos de IA, [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach), foca na visão da IA clássica do ponto de vista dos sistemas multiagentes.
 
@@ -152,7 +152,7 @@ Eles tendem a focar no comportamento mais simples de um agente individual e alca
 
 Leve esta lição para o mundo real e tente conceituar um sistema multiagente que possa resolver um problema. O que, por exemplo, um sistema multiagente precisaria fazer para otimizar a rota de um ônibus escolar? Como ele poderia funcionar em uma padaria?
 
-## [Quiz pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/223)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/46)
 
 ## Revisão e Autoestudo
 

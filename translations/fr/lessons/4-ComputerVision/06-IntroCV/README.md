@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [La vision par ordinateur](https://wikipedia.org/wiki/Computer_vision) est une discipline dont le but est de permettre aux ordinateurs de comprendre les images numériques à un niveau élevé. Cette définition est assez large, car *comprendre* peut signifier de nombreuses choses, notamment trouver un objet sur une image (**détection d'objet**), comprendre ce qui se passe (**détection d'événements**), décrire une image en texte ou reconstruire une scène en 3D. Il existe également des tâches spécifiques liées aux images humaines : estimation de l'âge et des émotions, détection et identification de visages, et estimation de la pose en 3D, pour n'en citer que quelques-unes.
 
-## [Quiz avant le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 L'une des tâches les plus simples de la vision par ordinateur est **la classification d'images**.
 
@@ -105,7 +105,7 @@ Parfois, des tâches relativement complexes telles que la détection de mouvemen
 
 Regardez [cette vidéo](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) de l'AI Show pour en apprendre davantage sur le projet Cortic Tigers et comment ils ont construit une solution basée sur des blocs pour démocratiser les tâches de vision par ordinateur via un robot. Faites des recherches sur d'autres projets similaires qui aident à initier de nouveaux apprenants dans ce domaine.
 
-## [Quiz après le cours](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Révision & Auto-apprentissage
 

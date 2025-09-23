@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Semantiska inbäddningar, såsom Word2Vec och GloVe, är faktiskt ett första steg mot **språkmodellering** – att skapa modeller som på något sätt *förstår* (eller *representerar*) språkets natur.
 
-## [Förtest-quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/115)
+## [Förtest-quiz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
 Huvudidén bakom språkmodellering är att träna modeller på oetiketterade dataset på ett oövervakat sätt. Detta är viktigt eftersom vi har enorma mängder oetiketterad text tillgänglig, medan mängden etiketterad text alltid skulle vara begränsad av den tid och ansträngning vi kan lägga på att skapa etiketter. Oftast kan vi bygga språkmodeller som kan **förutsäga saknade ord** i texten, eftersom det är enkelt att maskera ett slumpmässigt ord i texten och använda det som ett träningsprov.
 
@@ -38,7 +38,7 @@ Fortsätt ditt lärande i följande notebooks:
 
 I den föregående lektionen såg vi att ordbäddningar fungerar som magi! Nu vet vi att träning av ordbäddningar inte är en särskilt komplex uppgift, och vi bör kunna träna våra egna ordbäddningar för textsamlingar inom specifika domäner om det behövs.
 
-## [Eftertest-quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/215)
+## [Eftertest-quiz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
 ## Granskning & Självstudier
 

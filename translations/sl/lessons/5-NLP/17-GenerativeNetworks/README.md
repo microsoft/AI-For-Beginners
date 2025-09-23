@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generativne mreže
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Rekurentne nevronske mreže (RNN) in njihove različice z zapornimi celicami, kot so dolgotrajne kratkoročne spominske celice (LSTM) in zaporne rekurentne enote (GRU), omogočajo modeliranje jezika, saj se lahko naučijo zaporedja besed in napovedujejo naslednjo besedo v zaporedju. To nam omogoča uporabo RNN za **generativne naloge**, kot so običajno generiranje besedila, strojno prevajanje in celo opisovanje slik.
 
@@ -71,7 +71,7 @@ Opravite nekaj lekcij na Microsoft Learn na to temo
 
 * Generiranje besedila s [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Naknadni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Naknadni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Pregled in samostojno učenje
 

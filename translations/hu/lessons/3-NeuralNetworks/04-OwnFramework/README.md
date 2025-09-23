@@ -19,7 +19,7 @@ Ebben a részben kiterjesztjük ezt a modellt egy rugalmasabb keretrendszerré, 
 
 Ezenkívül kifejlesztünk egy saját moduláris keretrendszert Pythonban, amely lehetővé teszi számunkra különböző neurális hálózati architektúrák létrehozását.
 
-## [Előadás előtti kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## A gépi tanulás formalizálása
 
@@ -81,7 +81,7 @@ A mellékelt notebookban megvalósítod saját keretrendszeredet többrétegű p
 
 Haladj tovább az [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) notebookhoz, és dolgozd át.
 
-## [Előadás utáni kvíz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [Előadás utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## Áttekintés és önálló tanulás
 

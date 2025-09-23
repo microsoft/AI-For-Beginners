@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 手繪筆記由 [Tomomi Imura](https://twitter.com/girlie_mac) 提供
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **人工智慧**是一門令人興奮的科學學科，研究如何讓電腦展現出智能行為，例如執行人類擅長的事情。
 
@@ -151,7 +151,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 瀏覽互聯網，找出你認為人工智慧最有效的應用場景。是地圖應用程式、語音轉文字服務還是某款電子遊戲？研究該系統是如何構建的。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## 回顧與自學
 

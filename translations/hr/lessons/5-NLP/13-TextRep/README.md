@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Predstavljanje teksta kao tenzora
 
-## [Kviz prije predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/113)
+## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/25)
 
 ## Klasifikacija teksta
 
@@ -73,7 +73,7 @@ Do sada smo proučavali tehnike koje mogu dodati težinu frekvencijama različit
 
 Isprobajte neke druge vježbe koristeći bag-of-words i različite modele podataka. Možete se inspirirati ovim [natjecanjem na Kaggleu](https://www.kaggle.com/competitions/word2vec-nlp-tutorial/overview/part-1-for-beginners-bag-of-words).
 
-## [Kviz nakon predavanja](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/213)
+## [Kviz nakon predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/26)
 
 ## Pregled i samostalno učenje
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wprowadzenie do sieci neuronowych: Perceptron
 
-## [Quiz przed wykładem](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 Jedną z pierwszych prób stworzenia czegoś na wzór współczesnej sieci neuronowej podjął Frank Rosenblatt z Cornell Aeronautical Laboratory w 1957 roku. Była to implementacja sprzętowa o nazwie "Mark-1", zaprojektowana do rozpoznawania prostych figur geometrycznych, takich jak trójkąty, kwadraty i koła.
 
@@ -85,7 +85,7 @@ W tej lekcji nauczyłeś się, czym jest perceptron, czyli model klasyfikacji bi
 
 Jeśli chcesz spróbować stworzyć własny perceptron, wypróbuj [to laboratorium na Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste), które korzysta z [projektanta Azure ML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## Przegląd i samodzielna nauka
 

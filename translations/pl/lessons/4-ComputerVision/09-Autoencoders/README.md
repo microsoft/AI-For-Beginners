@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Podczas trenowania CNN, jednym z problemów jest potrzeba dużej ilości danych oznaczonych. W przypadku klasyfikacji obrazów musimy ręcznie przyporządkować obrazy do różnych klas, co wymaga sporego wysiłku.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/109)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
 Możemy jednak chcieć wykorzystać surowe (nieoznaczone) dane do trenowania ekstraktorów cech CNN, co nazywa się **uczeniem samonadzorowanym**. Zamiast etykiet, użyjemy obrazów treningowych zarówno jako wejścia, jak i wyjścia sieci. Główna idea **autoenkodera** polega na tym, że mamy **sieć enkodera**, która przekształca obraz wejściowy w pewną **przestrzeń latentną** (zwykle jest to wektor o mniejszym rozmiarze), a następnie **sieć dekodera**, której celem jest odtworzenie oryginalnego obrazu.
 
@@ -80,7 +80,7 @@ Dowiedz się więcej o autoenkoderach w tych odpowiednich notatnikach:
 * **Stratne** - odtworzony obraz nie jest identyczny z oryginalnym obrazem. Charakter strat jest definiowany przez *funkcję straty* używaną podczas treningu.
 * Działa na **danych nieoznaczonych**
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/209)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## Podsumowanie
 
@@ -90,7 +90,7 @@ W tej lekcji dowiedziałeś się o różnych typach autoenkoderów dostępnych d
 
 W tej lekcji dowiedziałeś się o używaniu autoenkoderów do obrazów. Ale można je również używać do muzyki! Sprawdź projekt Magenta [MusicVAE](https://magenta.tensorflow.org/music-vae), który wykorzystuje autoenkodery do nauki odtwarzania muzyki. Przeprowadź kilka [eksperymentów](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) z tą biblioteką, aby zobaczyć, co możesz stworzyć.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/208)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
 
 ## Przegląd i Samodzielna Nauka
 

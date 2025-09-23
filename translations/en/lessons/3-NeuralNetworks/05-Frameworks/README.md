@@ -14,7 +14,7 @@ As we’ve already learned, to efficiently train neural networks, we need to do 
 * Perform operations on tensors, such as multiplication, addition, and computing functions like sigmoid or softmax.
 * Compute gradients for all expressions to enable gradient descent optimization.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 While the `numpy` library can handle the first task, we need a mechanism to compute gradients. In [our framework](../04-OwnFramework/OwnFramework.ipynb) developed in the previous section, we manually programmed all derivative functions in the `backward` method for backpropagation. Ideally, a framework should allow us to compute gradients for *any expression* we define.
 
@@ -106,7 +106,7 @@ In this lesson, you learned about the differences between the APIs of the two mo
 
 In the accompanying notebooks, you’ll find 'tasks' at the bottom. Work through the notebooks and complete the tasks.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Review & Self Study
 

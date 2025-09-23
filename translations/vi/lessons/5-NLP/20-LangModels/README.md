@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Trong tất cả các nhiệm vụ trước đây, chúng ta đã huấn luyện một mạng nơ-ron để thực hiện một nhiệm vụ nhất định bằng cách sử dụng tập dữ liệu có nhãn. Với các mô hình transformer lớn, như BERT, chúng ta sử dụng mô hình ngôn ngữ theo cách tự giám sát để xây dựng một mô hình ngôn ngữ, sau đó được chuyên biệt hóa cho các nhiệm vụ cụ thể với việc huấn luyện thêm theo từng lĩnh vực. Tuy nhiên, đã được chứng minh rằng các mô hình ngôn ngữ lớn cũng có thể giải quyết nhiều nhiệm vụ mà không cần bất kỳ huấn luyện nào theo từng lĩnh vực. Một nhóm các mô hình có khả năng làm điều này được gọi là **GPT**: Generative Pre-Trained Transformer.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Sinh Văn Bản và Độ Phức Tạp
 
@@ -58,7 +58,7 @@ Tiếp tục học tập trong các notebook sau:
 
 Các mô hình ngôn ngữ được huấn luyện trước mới không chỉ mô hình hóa cấu trúc ngôn ngữ, mà còn chứa một lượng lớn ngôn ngữ tự nhiên. Do đó, chúng có thể được sử dụng hiệu quả để giải quyết một số nhiệm vụ NLP trong các thiết lập zero-shot hoặc few-shot.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

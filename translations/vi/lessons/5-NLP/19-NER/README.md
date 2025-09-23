@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Cho đến nay, chúng ta chủ yếu tập trung vào một nhiệm vụ NLP - phân loại. Tuy nhiên, còn có nhiều nhiệm vụ NLP khác có thể được thực hiện bằng mạng nơ-ron. Một trong những nhiệm vụ đó là **[Nhận diện Thực thể Được đặt tên](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), nhiệm vụ này liên quan đến việc nhận diện các thực thể cụ thể trong văn bản, chẳng hạn như địa điểm, tên người, khoảng thời gian, công thức hóa học, v.v.
 
-## [Câu hỏi trước bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Ví dụ về việc sử dụng NER
 
@@ -80,7 +80,7 @@ Mô hình NER là một **mô hình phân loại token**, nghĩa là nó có th�
 
 Hoàn thành bài tập được liên kết dưới đây để huấn luyện một mô hình nhận diện thực thể được đặt tên cho các thuật ngữ y tế, sau đó thử nghiệm nó trên một tập dữ liệu khác.
 
-## [Câu hỏi sau bài giảng](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Ôn tập & Tự học
 

@@ -14,7 +14,7 @@ Așa cum am învățat deja, pentru a putea antrena rețele neurale eficient, tr
 * Să operăm pe tensori, de exemplu să înmulțim, să adunăm și să calculăm funcții precum sigmoid sau softmax
 * Să calculăm derivatele tuturor expresiilor, pentru a efectua optimizarea prin gradient descent
 
-## [Chestionar înainte de lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/105)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Deși biblioteca `numpy` poate face prima parte, avem nevoie de un mecanism pentru a calcula derivatele. În [frameworkul nostru](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) pe care l-am dezvoltat în secțiunea anterioară, a trebuit să programăm manual toate funcțiile derivate în metoda `backward`, care realizează backpropagation. Ideal, un framework ar trebui să ne ofere posibilitatea de a calcula derivatele pentru *orice expresie* pe care o putem defini.
 
@@ -106,7 +106,7 @@ Overfitting-ul este de fapt un caz al unei probleme mai generale în statistică
 
 În notebook-urile însoțitoare, veți găsi 'sarcini' la final; parcurgeți notebook-urile și completați sarcinile.
 
-## [Chestionar după lecție](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/205)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Recapitulare & Studiu Individual
 

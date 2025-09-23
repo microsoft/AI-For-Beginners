@@ -1,6 +1,6 @@
 # Dikkat Mekanizmaları ve Transformerlar
 
-## [Ders öncesi quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Ders öncesi quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 NLP alanındaki en önemli problemlerden biri **makine çevirisi**dir; bu, Google Translate gibi araçların temelini oluşturan önemli bir görevdir. Bu bölümde, makine çevirisine, daha genel olarak ise herhangi bir *dizi-dizi* görevine (bu göreve **cümle dönüştürme** de denir) odaklanacağız.
 
@@ -99,7 +99,7 @@ Bu derste, NLP araç kutusundaki tüm temel araçlar olan Transformerlar ve Dikk
 
 ## 🚀 Zorluk
 
-## [Ders sonrası quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Ders sonrası quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Gözden Geçirme & Kendi Kendine Çalışma
 

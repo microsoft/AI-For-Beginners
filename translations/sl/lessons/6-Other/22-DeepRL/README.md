@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Okrepitevno učenje (RL) velja za enega osnovnih paradigm strojnega učenja, poleg nadzorovanega in nenadzorovanega učenja. Medtem ko se pri nadzorovanem učenju zanašamo na podatkovne nabore z znanimi rezultati, je RL osnovano na **učenju skozi izkušnje**. Na primer, ko prvič vidimo računalniško igro, začnemo igrati, četudi ne poznamo pravil, in kmalu izboljšamo svoje sposobnosti zgolj z igranjem in prilagajanjem svojega vedenja.
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 Za izvajanje RL potrebujemo:
 
@@ -110,7 +110,7 @@ Zdaj smo se naučili, kako trenirati agente, da dosežejo dobre rezultate zgolj 
 
 Raziskujte aplikacije, navedene v razdelku 'Drugi RL nalogi', in poskusite implementirati eno!
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Pregled in samostojno učenje
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Predtým sme sa naučili o detekcii objektov, ktorá nám umožňuje lokalizovať objekty na obrázku predpovedaním ich *ohraničujúcich boxov*. Pre niektoré úlohy však nestačia len ohraničujúce boxy, ale potrebujeme presnejšiu lokalizáciu objektov. Táto úloha sa nazýva **segmentácia**.
 
-## [Kvíz pred prednáškou](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 Segmentáciu môžeme vnímať ako **klasifikáciu pixelov**, kde pre **každý** pixel obrázka musíme predpovedať jeho triedu (*pozadie* je jednou z tried). Existujú dva hlavné algoritmy segmentácie:
 
@@ -56,7 +56,7 @@ Otvorte nižšie uvedené notebooky, aby ste sa dozvedeli viac o rôznych archit
 * [Semantická segmentácia Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Semantická segmentácia TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Kvíz po prednáške](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Záver
 

@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Vi har tidligere sett at nevrale nettverk er ganske gode til å håndtere bilder, og til og med et ett-lags perseptron kan gjenkjenne håndskrevne sifre fra MNIST-datasettet med rimelig nøyaktighet. MNIST-datasettet er imidlertid veldig spesielt, og alle sifrene er sentrert i bildet, noe som gjør oppgaven enklere.
 
-## [Quiz før forelesning](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/107)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
 I virkeligheten ønsker vi å kunne gjenkjenne objekter i et bilde uavhengig av deres eksakte plassering i bildet. Datamaskinsyn skiller seg fra generell klassifisering, fordi når vi prøver å finne et bestemt objekt i bildet, skanner vi bildet på jakt etter spesifikke **mønstre** og deres kombinasjoner. For eksempel, når vi ser etter en katt, kan vi først se etter horisontale linjer som kan danne værhår, og deretter kan en viss kombinasjon av værhår fortelle oss at det faktisk er et bilde av en katt. Relativ posisjon og tilstedeværelse av visse mønstre er viktig, og ikke deres eksakte plassering i bildet.
 

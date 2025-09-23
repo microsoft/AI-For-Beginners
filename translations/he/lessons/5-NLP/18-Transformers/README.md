@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מנגנוני קשב ומודלים של טרנספורמרים
 
-## [שאלון לפני השיעור](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [שאלון לפני השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 אחת הבעיות החשובות ביותר בתחום עיבוד השפה הטבעית (NLP) היא **תרגום מכונה**, משימה חיונית שעומדת בבסיס כלים כמו Google Translate. בחלק זה נתמקד בתרגום מכונה, או באופן כללי יותר, בכל משימה של *רצף-לרצף* (המכונה גם **שינוי משפטים**).
 
@@ -108,7 +108,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 🚀 אתגר
 
-## [שאלון לאחר השיעור](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [שאלון לאחר השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## סקירה ולימוד עצמי
 

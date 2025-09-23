@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Generatyviniai tinklai
 
-## [Klausimynas prieš paskaitą](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/117)
+## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/33)
 
 Pasikartojančių neuroninių tinklų (RNN) ir jų vartų ląstelių variantai, tokie kaip ilgos trumpos atminties ląstelės (LSTM) ir vartų pasikartojančios vienetai (GRU), suteikė mechanizmą kalbos modeliavimui, nes jie gali išmokti žodžių tvarką ir pateikti prognozes apie kitą žodį sekoje. Tai leidžia mums naudoti RNN **generatyvinėms užduotims**, tokioms kaip paprastas teksto generavimas, mašininis vertimas ir net vaizdų aprašymas.
 
@@ -71,7 +71,7 @@ Pasimokykite apie šią temą Microsoft Learn platformoje:
 
 * Teksto generavimas su [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/6-generative-networks/?WT.mc_id=academic-77998-cacaste)/[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-tensorflow/5-generative-networks/?WT.mc_id=academic-77998-cacaste)
 
-## [Klausimynas po paskaitos](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/217)
+## [Klausimynas po paskaitos](https://ff-quizzes.netlify.app/en/ai/quiz/34)
 
 ## Apžvalga ir savarankiškas mokymasis
 

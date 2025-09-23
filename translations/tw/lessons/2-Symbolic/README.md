@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 人工智慧的追求基於對知識的探索，目的是讓機器能像人類一樣理解世界。但該如何實現這一目標呢？
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 在人工智慧的早期，採用自上而下的方法來創建智能系統（在上一課中討論過）非常流行。其核心思想是將人類的知識提取成機器可讀的形式，然後用它來自動解決問題。這種方法基於兩個重要概念：
 
@@ -236,7 +236,7 @@ GROUP BY ?eyeColorLabel
 
 在與本課程相關的家庭本體筆記本中，有機會嘗試其他家庭關係。試著發現家譜中人物之間的新連接。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## 回顧與自學
 

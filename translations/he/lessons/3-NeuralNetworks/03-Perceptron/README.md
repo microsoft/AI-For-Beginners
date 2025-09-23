@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מבוא לרשתות נוירונים: פרספטרון
 
-## [שאלון לפני השיעור](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [שאלון לפני השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 אחת הניסיונות הראשונים ליישם משהו דומה לרשת נוירונים מודרנית נעשתה על ידי פרנק רוזנבלט ממעבדת האווירונאוטיקה של קורנל בשנת 1957. זה היה יישום חומרה שנקרא "Mark-1", שתוכנן לזהות צורות גיאומטריות פשוטות, כמו משולשים, ריבועים ועיגולים.
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 אם תרצו לנסות לבנות פרספטרון משלכם, נסו [את המעבדה הזו ב-Microsoft Learn](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste) שמשתמשת ב-[Azure ML designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste).
 
-## [שאלון אחרי השיעור](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [שאלון אחרי השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## סקירה ולימוד עצמי
 

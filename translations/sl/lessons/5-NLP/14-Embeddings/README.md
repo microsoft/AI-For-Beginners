@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vdelave
 
-## [Predavanje kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/114)
+## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/27)
 
 Pri treniranju klasifikatorjev, ki temeljijo na BoW ali TF/IDF, smo delali z visoko-dimenzionalnimi vektorji vreče besed dolžine `vocab_size`, pri čemer smo izrecno pretvarjali nizko-dimenzionalne vektorje pozicijske reprezentacije v redke eno-vroče (one-hot) reprezentacije. Ta eno-vroča reprezentacija pa ni učinkovita glede porabe pomnilnika. Poleg tega se vsaka beseda obravnava neodvisno od drugih, tj. eno-vroče kodirani vektorji ne izražajo nobene semantične podobnosti med besedami.
 
@@ -65,7 +65,7 @@ V tej lekciji ste odkrili, kako zgraditi in uporabljati plasti za vdelavo v Tens
 
 Word2Vec je bil uporabljen za nekatere zanimive aplikacije, vključno z ustvarjanjem pesmi in poezije. Oglejte si [ta članek](https://www.politetype.com/blog/word2vec-color-poems), ki opisuje, kako je avtor uporabil Word2Vec za ustvarjanje poezije. Oglejte si tudi [ta video Dana Shiffmanna](https://www.youtube.com/watch?v=LSS_bos_TPI&ab_channel=TheCodingTrain), da odkrijete drugačno razlago te tehnike. Nato poskusite te tehnike uporabiti na svojem besedilnem korpusu, morda pridobljenem s Kaggle.
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/214)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/28)
 
 ## Pregled in samostojno učenje
 

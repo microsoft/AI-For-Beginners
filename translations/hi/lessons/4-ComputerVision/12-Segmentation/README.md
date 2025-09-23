@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हमने पहले ऑब्जेक्ट डिटेक्शन के बारे में सीखा था, जो हमें *बाउंडिंग बॉक्सेस* की भविष्यवाणी करके इमेज में ऑब्जेक्ट्स को लोकेट करने की अनुमति देता है। हालांकि, कुछ कार्यों के लिए हमें केवल बाउंडिंग बॉक्सेस की आवश्यकता नहीं होती, बल्कि ऑब्जेक्ट्स का अधिक सटीक स्थानीयकरण चाहिए। इस कार्य को **विभाजन (Segmentation)** कहा जाता है।
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 विभाजन को **पिक्सल वर्गीकरण** के रूप में देखा जा सकता है, जहां इमेज के **प्रत्येक** पिक्सल के लिए हमें उसका वर्ग (*पृष्ठभूमि* भी एक वर्ग है) की भविष्यवाणी करनी होती है। विभाजन के दो मुख्य प्रकार हैं:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [सामान्य विभाजन PyTorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [सामान्य विभाजन TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## निष्कर्ष
 

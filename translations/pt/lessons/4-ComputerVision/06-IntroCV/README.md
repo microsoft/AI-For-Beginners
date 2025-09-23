@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Visão Computacional](https://wikipedia.org/wiki/Computer_vision) é uma disciplina cujo objetivo é permitir que os computadores compreendam imagens digitais em alto nível. Esta é uma definição bastante ampla, pois *compreender* pode significar muitas coisas, incluindo encontrar um objeto numa imagem (**detecção de objetos**), entender o que está a acontecer (**detecção de eventos**), descrever uma imagem em texto ou reconstruir uma cena em 3D. Existem também tarefas específicas relacionadas a imagens humanas: estimativa de idade e emoções, deteção e identificação de rostos, e estimativa de pose 3D, para citar algumas.
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/106)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Uma das tarefas mais simples da visão computacional é a **classificação de imagens**.
 
@@ -105,7 +105,7 @@ Por vezes, tarefas relativamente complexas, como deteção de movimento ou dete�
 
 Assista a [este vídeo](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) do AI Show para aprender sobre o projeto Cortic Tigers e como eles construíram uma solução baseada em blocos para democratizar tarefas de visão computacional através de um robô. Pesquise outros projetos como este que ajudam novos aprendizes a entrar na área.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/206)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## Revisão & Autoestudo
 

@@ -59,7 +59,7 @@ W tej jednostce nauczyłeś się głównej koncepcji stojącej za sieciami neuro
 
 W dołączonych notatnikach znajdują się uwagi na końcu dotyczące uzyskania większej dokładności. Przeprowadź eksperymenty, aby sprawdzić, czy możesz osiągnąć wyższą dokładność.
 
-## [Quiz po wykładzie](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Przegląd i Samodzielna Nauka
 

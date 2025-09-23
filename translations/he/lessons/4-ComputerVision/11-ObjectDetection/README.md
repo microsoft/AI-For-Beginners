@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 מודלי סיווג תמונות שעסקנו בהם עד כה לקחו תמונה והפיקו תוצאה קטגורית, כמו הקטגוריה 'מספר' בבעיה של MNIST. עם זאת, במקרים רבים אנחנו לא רוצים רק לדעת שתמונה מציגה אובייקטים - אנחנו רוצים להיות מסוגלים לקבוע את המיקום המדויק שלהם. זה בדיוק הנושא של **זיהוי אובייקטים**.
 
-## [מבחן מקדים להרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [מבחן מקדים להרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![זיהוי אובייקטים](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.he.png)
 
@@ -172,7 +172,7 @@ YOLO הוא אלגוריתם מעבר יחיד בזמן אמת. הרעיון ה�
  * YOLO: [מימוש ב-Keras](https://github.com/experiencor/keras-yolo2), [מחברת שלב-אחר-שלב](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [מימוש ב-Keras](https://github.com/experiencor/keras-yolo2), [מחברת שלב-אחר-שלב](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [מבחן לאחר ההרצאה](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [מבחן לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## סקירה ולימוד עצמי
 

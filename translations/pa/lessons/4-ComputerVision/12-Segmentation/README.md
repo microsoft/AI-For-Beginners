@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਅਸੀਂ ਪਹਿਲਾਂ Object Detection ਬਾਰੇ ਸਿੱਖਿਆ ਹੈ, ਜੋ ਸਾਨੂੰ ਚਿੱਤਰ ਵਿੱਚ ਵਸਤੂਆਂ ਨੂੰ ਲੱਭਣ ਲਈ ਉਨ੍ਹਾਂ ਦੇ *bounding boxes* ਦੀ ਭਵਿੱਖਵਾਣੀ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ। ਹਾਲਾਂਕਿ, ਕੁਝ ਕੰਮਾਂ ਲਈ ਸਾਨੂੰ ਸਿਰਫ਼ bounding boxes ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ, ਸਗੋਂ ਵਸਤੂਆਂ ਦੀ ਹੋਰ ਸਹੀ ਸਥਿਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਇਸ ਕੰਮ ਨੂੰ **ਸੈਗਮੈਂਟੇਸ਼ਨ** ਕਿਹਾ ਜਾਂਦਾ ਹੈ।
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 ਸੈਗਮੈਂਟੇਸ਼ਨ ਨੂੰ **ਪਿਕਸਲ ਕਲਾਸੀਫਿਕੇਸ਼ਨ** ਵਜੋਂ ਦੇਖਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਜਿੱਥੇ **ਹਰ** ਪਿਕਸਲ ਲਈ ਸਾਨੂੰ ਇਸ ਦੀ ਕਲਾਸ ਦੀ ਭਵਿੱਖਵਾਣੀ ਕਰਨੀ ਪੈਂਦੀ ਹੈ (*ਪਿਛੋਕੜ* ਵੀ ਇੱਕ ਕਲਾਸ ਹੈ)। ਸੈਗਮੈਂਟੇਸ਼ਨ ਦੇ ਦੋ ਮੁੱਖ ਐਲਗੋਰਿਥਮ ਹਨ:
 
@@ -56,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [ਸੈਮੈਂਟਿਕ ਸੈਗਮੈਂਟੇਸ਼ਨ Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [ਸੈਮੈਂਟਿਕ ਸੈਗਮੈਂਟੇਸ਼ਨ TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## ਨਿਸ਼ਕਰਸ਼
 

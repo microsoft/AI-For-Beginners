@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們還將在 Python 中開發自己的模塊化框架，讓我們能夠構建不同的神經網絡架構。
 
-## [課前測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## 機器學習的形式化
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 前往 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb) 筆記本並完成其中的內容。
 
-## [課後測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## 回顧與自學
 

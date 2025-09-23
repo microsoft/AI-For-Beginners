@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Até agora, temos nos concentrado principalmente em uma tarefa de PLN - classificação. No entanto, existem outras tarefas de PLN que podem ser realizadas com redes neurais. Uma dessas tarefas é o **[Reconhecimento de Entidades Nomeadas](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), que lida com o reconhecimento de entidades específicas dentro de um texto, como lugares, nomes de pessoas, intervalos de data e hora, fórmulas químicas, entre outros.
 
-## [Questionário pré-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Exemplo de Uso do NER
 
@@ -81,7 +81,7 @@ Um modelo de NER é um **modelo de classificação de tokens**, o que significa 
 
 Complete a tarefa vinculada abaixo para treinar um modelo de reconhecimento de entidades nomeadas para termos médicos e, em seguida, experimente em um conjunto de dados diferente.
 
-## [Questionário pós-aula](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Revisão e Autoestudo
 

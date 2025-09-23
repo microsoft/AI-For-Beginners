@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kaikissa aiemmissa tehtävissämme olemme kouluttaneet neuroverkkoa suorittamaan tietyn tehtävän käyttäen merkittyä tietojoukkoa. Suurten transformer-mallien, kuten BERT, avulla käytämme kielen mallinnusta itseohjautuvassa muodossa rakentaaksemme kielimallin, joka sitten erikoistetaan tiettyyn jälkikäteen tehtävään lisäkoulutuksella, joka keskittyy tiettyyn alaan. On kuitenkin osoitettu, että suuret kielimallit voivat ratkaista monia tehtäviä ilman MITÄÄN alakohtaista koulutusta. Malliperhe, joka pystyy tähän, tunnetaan nimellä **GPT**: Generative Pre-Trained Transformer.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Tekstintuotanto ja hämmennys (perplexity)
 
@@ -58,7 +58,7 @@ Jatka oppimista seuraavissa vihkoissa:
 
 Uudet yleiset esikoulutetut kielimallit eivät ainoastaan mallinna kielen rakennetta, vaan sisältävät myös valtavan määrän luonnollista kieltä. Näin ollen niitä voidaan tehokkaasti käyttää joidenkin NLP-tehtävien ratkaisemiseen nolla- tai vähäisellä koulutuksella.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 ---
 

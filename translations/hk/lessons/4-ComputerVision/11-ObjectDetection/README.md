@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們之前處理的影像分類模型，會接收一張圖片並產生一個分類結果，例如在 MNIST 問題中分類為「數字」的類別。然而，在許多情況下，我們不僅僅想知道圖片中有什麼物件，還希望能夠確定它們的精確位置。這正是**物件偵測**的目的。
 
-## [課前小測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/111)
+## [課前小測驗](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![物件偵測](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.hk.png)
 
@@ -171,7 +171,7 @@ YOLO 是一種實時單次通過的演算法。主要想法如下：
  * YOLO: [Keras 實現](https://github.com/experiencor/keras-yolo2)，[逐步筆記本](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
  * YOLO v2: [Keras 實現](https://github.com/experiencor/keras-yolo2)，[逐步筆記本](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
-## [課後小測驗](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/211)
+## [課後小測驗](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## 複習與自學
 

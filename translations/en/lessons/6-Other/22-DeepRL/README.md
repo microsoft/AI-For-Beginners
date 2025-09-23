@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Reinforcement learning (RL) is considered one of the fundamental machine learning paradigms, alongside supervised learning and unsupervised learning. While supervised learning relies on datasets with known outcomes, RL is based on **learning through experience**. For instance, when we first encounter a computer game, we start playing without knowing the rules, and over time, we improve our skills simply by playing and adjusting our actions.
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/122)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/43)
 
 To perform RL, we need:
 
@@ -110,7 +110,7 @@ We have learned how to train agents to achieve good results by providing them wi
 
 Explore the applications mentioned in the 'Other RL Tasks' section and try implementing one!
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/222)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/44)
 
 ## Review & Self Study
 

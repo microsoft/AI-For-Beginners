@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 また、Pythonで独自のモジュール型フレームワークを開発し、さまざまなニューラルネットワークアーキテクチャを構築できるようにします。
 
-## [講義前のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/104)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/7)
 
 ## 機械学習の形式化
 
@@ -81,7 +81,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [OwnFramework](../../../../../lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)ノートブックに進み、作業を進めてください。
 
-## [講義後のクイズ](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/204)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/8)
 
 ## 復習と自己学習
 

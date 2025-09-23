@@ -1,6 +1,6 @@
 # Mekanismer för uppmärksamhet och Transformatorer
 
-## [För-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [För-lärare quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Ett av de mest betydelsefulla problemen inom NLP-området är **maskinöversättning**, en grundläggande uppgift som ligger till grund för verktyg som Google Translate. I denna sektion kommer vi att fokusera på maskinöversättning, eller mer generellt, på vilken *sekvens-till-sekvens* uppgift som helst (vilket också kallas **meningstransduktion**).
 
@@ -99,7 +99,7 @@ I denna lektion lärde du dig om transformatorer och uppmärksamhetsmekanismer, 
 
 ## 🚀 Utmaning
 
-## [Efter-lärare quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Efter-lärare quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Granskning & Självstudie
 

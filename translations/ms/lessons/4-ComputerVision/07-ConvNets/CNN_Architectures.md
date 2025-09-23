@@ -59,7 +59,7 @@ Dalam unit ini, anda telah mempelajari konsep utama di sebalik rangkaian neural 
 
 Dalam notebook yang disertakan, terdapat nota di bahagian bawah tentang cara untuk mendapatkan ketepatan yang lebih tinggi. Lakukan beberapa eksperimen untuk melihat jika anda boleh mencapai ketepatan yang lebih tinggi.
 
-## [Kuiz selepas kuliah](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/207)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/14)
 
 ## Kajian & Pembelajaran Kendiri
 

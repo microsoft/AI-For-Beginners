@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 En todas nuestras tareas anteriores, entrenábamos una red neuronal para realizar una tarea específica utilizando un conjunto de datos etiquetado. Con modelos transformadores grandes, como BERT, utilizamos el modelado de lenguaje de manera auto-supervisada para construir un modelo de lenguaje, que luego se especializa en tareas específicas con entrenamiento adicional en dominios específicos. Sin embargo, se ha demostrado que los modelos de lenguaje grandes también pueden resolver muchas tareas sin NINGÚN entrenamiento específico de dominio. Una familia de modelos capaz de hacer esto se llama **GPT**: Generative Pre-Trained Transformer.
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/39)
 
 ## Generación de Texto y Perplejidad
 
@@ -58,7 +58,7 @@ Continúa tu aprendizaje en los siguientes notebooks:
 
 Los nuevos modelos de lenguaje preentrenados generales no solo modelan la estructura del lenguaje, sino que también contienen una gran cantidad de lenguaje natural. Por lo tanto, pueden ser utilizados de manera efectiva para resolver algunas tareas de procesamiento de lenguaje natural en configuraciones de cero o pocas muestras.
 
-## [Cuestionario posterior a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
+## [Cuestionario posterior a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/40)
 
 **Descargo de responsabilidad**:  
 Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

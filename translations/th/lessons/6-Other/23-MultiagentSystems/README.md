@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 หนึ่งในวิธีที่เป็นไปได้ในการสร้างความฉลาดคือแนวทางที่เรียกว่า **emergent** (หรือ **synergetic**) ซึ่งอิงจากข้อเท็จจริงที่ว่าพฤติกรรมรวมของตัวแทนที่ค่อนข้างเรียบง่ายจำนวนมากสามารถนำไปสู่พฤติกรรมที่ซับซ้อน (หรือฉลาด) ของระบบโดยรวมได้ ในเชิงทฤษฎี แนวคิดนี้อิงจากหลักการของ [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) และ [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain) ซึ่งระบุว่าระบบในระดับที่สูงขึ้นจะได้รับคุณค่าเพิ่มเติมบางอย่างเมื่อถูกรวมกันอย่างเหมาะสมจากระบบในระดับที่ต่ำกว่า (เรียกว่า *หลักการของ metasystem transition*)
 
-## [แบบทดสอบก่อนการบรรยาย](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/123)
+## [แบบทดสอบก่อนการบรรยาย](https://ff-quizzes.netlify.app/en/ai/quiz/45)
 
 แนวทางของ **ระบบหลายตัวแทน** เริ่มปรากฏในสาขาปัญญาประดิษฐ์ (AI) ในช่วงปี 1990 เพื่อตอบสนองต่อการเติบโตของอินเทอร์เน็ตและระบบแบบกระจาย หนึ่งในตำราคลาสสิกของ AI อย่าง [Artificial Intelligence: A Modern Approach](https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach) มุ่งเน้นมุมมองของ AI แบบดั้งเดิมจากมุมมองของระบบหลายตัวแทน
 

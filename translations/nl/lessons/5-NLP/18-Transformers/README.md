@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Aandachtsmechanismen en Transformers
 
-## [Pre-lezing quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Pre-lezing quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Een van de belangrijkste problemen binnen het NLP-domein is **machinetranslatie**, een essentiële taak die ten grondslag ligt aan tools zoals Google Translate. In deze sectie richten we ons op machinetranslatie, of meer algemeen, op elke *sequence-to-sequence* taak (ook wel **zinstransductie** genoemd).
 
@@ -108,7 +108,7 @@ In deze les heb je geleerd over Transformers en Aandachtsmechanismen, allemaal e
 
 ## 🚀 Uitdaging
 
-## [Post-lezing quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Post-lezing quiz](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Review & Zelfstudie
 

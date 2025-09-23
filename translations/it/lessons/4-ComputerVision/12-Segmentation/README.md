@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Abbiamo già imparato a conoscere il Rilevamento degli Oggetti, che ci permette di individuare gli oggetti in un'immagine prevedendo i loro *bounding box*. Tuttavia, per alcuni compiti non ci bastano solo i bounding box, ma abbiamo bisogno di una localizzazione più precisa degli oggetti. Questo compito si chiama **segmentazione**.
 
-## [Quiz pre-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/112)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
 La segmentazione può essere vista come una **classificazione dei pixel**, in cui per **ogni** pixel dell'immagine dobbiamo prevedere la sua classe (*sfondo* essendo una delle classi). Esistono due principali algoritmi di segmentazione:
 
@@ -56,7 +56,7 @@ Apri i notebook qui sotto per saperne di più sulle diverse architetture di segm
 * [Segmentazione Semantica Pytorch](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb)
 * [Segmentazione Semantica TensorFlow](../../../../../lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)
 
-## [Quiz post-lezione](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/212)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/24)
 
 ## Conclusione
 

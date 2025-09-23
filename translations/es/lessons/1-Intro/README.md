@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > Dibujo por [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## [Cuestionario previo a la clase](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/101)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
 **Inteligencia Artificial** es una disciplina científica fascinante que estudia cómo podemos hacer que las computadoras exhiban un comportamiento inteligente, es decir, que realicen aquellas cosas en las que los seres humanos somos buenos.
 
@@ -151,7 +151,7 @@ En los últimos años hemos sido testigos de grandes éxitos con modelos de leng
 
 Haz un recorrido por internet para determinar dónde, en tu opinión, se utiliza la IA de manera más efectiva. ¿Es en una aplicación de mapas, algún servicio de conversión de voz a texto o un videojuego? Investiga cómo se construyó el sistema.
 
-## [Cuestionario posterior a la lección](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/201)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Revisión y autoestudio
 

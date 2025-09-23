@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 神经网络简介：感知机
 
-## [课前测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/103)
+## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
 1957年，康奈尔航空实验室的Frank Rosenblatt首次尝试实现类似现代神经网络的模型。这是一种名为“Mark-1”的硬件实现，设计用于识别简单的几何图形，例如三角形、正方形和圆形。
 
@@ -85,7 +85,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 如果你想尝试构建自己的感知机，可以试试[Microsoft Learn上的这个实验](https://docs.microsoft.com/en-us/azure/machine-learning/component-reference/two-class-averaged-perceptron?WT.mc_id=academic-77998-cacaste)，它使用了[Azure ML设计器](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer?WT.mc_id=academic-77998-cacaste)。
 
-## [课后测验](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/203)
+## [课后测验](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
 ## 复习与自学
 

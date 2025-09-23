@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Aufmerksamkeitsmechanismen und Transformer
 
-## [Quiz vor der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/118)
+## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/35)
 
 Eines der wichtigsten Probleme im Bereich der NLP ist die **maschinelle Übersetzung**, eine wesentliche Aufgabe, die Tools wie Google Translate zugrunde liegt. In diesem Abschnitt konzentrieren wir uns auf die maschinelle Übersetzung oder allgemeiner auf jede *Sequence-to-Sequence*-Aufgabe (auch **Satztransduktion** genannt).
 
@@ -108,7 +108,7 @@ In dieser Lektion haben Sie Transformer und Aufmerksamkeitsmechanismen kennengel
 
 ## 🚀 Herausforderung
 
-## [Quiz nach der Vorlesung](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/218)
+## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/36)
 
 ## Überprüfung & Selbststudium
 

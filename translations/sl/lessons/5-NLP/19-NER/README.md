@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Do sedaj smo se večinoma osredotočali na eno nalogo NLP - klasifikacijo. Vendar pa obstajajo tudi druge naloge NLP, ki jih je mogoče doseči z nevronskimi mrežami. Ena od teh nalog je **[Prepoznavanje imenovanih entitet](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ki se ukvarja s prepoznavanjem specifičnih entitet v besedilu, kot so kraji, imena oseb, časovni intervali, kemijske formule in podobno.
 
-## [Predhodni kviz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Primer uporabe NER
 
@@ -78,7 +78,7 @@ Model NER je **model klasifikacije tokenov**, kar pomeni, da ga lahko uporabimo 
 
 Dokončajte nalogo, povezano spodaj, da trenirate model za prepoznavanje imenovanih entitet za medicinske izraze, nato pa ga preizkusite na drugem naboru podatkov.
 
-## [Kviz po predavanju](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Pregled in samostojno učenje
 

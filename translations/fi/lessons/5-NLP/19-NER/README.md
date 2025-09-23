@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tähän asti olemme keskittyneet pääasiassa yhteen NLP-tehtävään - luokitteluun. On kuitenkin olemassa myös muita NLP-tehtäviä, joita voidaan toteuttaa neuroverkoilla. Yksi näistä tehtävistä on **[nimettyjen entiteettien tunnistus](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), joka keskittyy tunnistamaan tekstistä tiettyjä entiteettejä, kuten paikkoja, henkilön nimiä, päivämäärä- ja aikavälejä, kemiallisia kaavoja ja niin edelleen.
 
-## [Ennakkokysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/119)
+## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/37)
 
 ## Esimerkki NER:n käytöstä
 
@@ -77,7 +77,7 @@ NER-malli on **tokeniluokittelumalli**, mikä tarkoittaa, että sitä voidaan k�
 
 Suorita alla linkitetty tehtävä, jossa koulutat nimettyjen entiteettien tunnistusmallin lääketieteellisiä termejä varten, ja kokeile sitä sitten eri datasetillä.
 
-## [Jälkikysely](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/219)
+## [Jälkikysely](https://ff-quizzes.netlify.app/en/ai/quiz/38)
 
 ## Kertaus ja itseopiskelu
 
