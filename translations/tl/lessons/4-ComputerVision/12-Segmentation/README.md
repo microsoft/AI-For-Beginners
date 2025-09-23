@@ -1,57 +1,57 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d7f8a25ff13cfe9f4cd671cc23351fad",
-  "translation_date": "2025-08-28T02:33:16+00:00",
+  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
+  "translation_date": "2025-09-23T06:55:26+00:00",
   "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
   "language_code": "tl"
 }
 -->
-# Segmentasyon
+# Segmentation
 
-Natutuhan na natin ang tungkol sa Object Detection, na nagbibigay-daan sa atin upang mahanap ang mga bagay sa isang imahe sa pamamagitan ng paghula ng kanilang *bounding boxes*. Gayunpaman, para sa ilang mga gawain, hindi lamang bounding boxes ang kailangan natin, kundi mas eksaktong lokasyon ng mga bagay. Ang gawaing ito ay tinatawag na **segmentasyon**.
+Natutuhan na natin ang tungkol sa Object Detection, na nagbibigay-daan sa atin upang matukoy ang mga bagay sa larawan sa pamamagitan ng pag-predict ng kanilang *bounding boxes*. Gayunpaman, para sa ilang mga gawain, hindi lang bounding boxes ang kailangan natin, kundi mas tiyak na lokasyon ng mga bagay. Ang gawaing ito ay tinatawag na **segmentation**.
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/23)
 
-Ang segmentasyon ay maaaring tingnan bilang **pixel classification**, kung saan para sa **bawat** pixel ng imahe, kailangan nating hulaan ang klase nito (*background* bilang isa sa mga klase). Mayroong dalawang pangunahing algorithm para sa segmentasyon:
+Ang segmentation ay maaaring tingnan bilang **pixel classification**, kung saan para sa **bawat** pixel ng larawan, kailangan nating i-predict ang klase nito (*background* bilang isa sa mga klase). Mayroong dalawang pangunahing uri ng segmentation algorithms:
 
-* **Semantic segmentation** ay nagsasabi lamang ng klase ng pixel, at hindi gumagawa ng pagkakaiba sa pagitan ng iba't ibang bagay na nasa parehong klase.
-* **Instance segmentation** ay naghahati ng mga klase sa iba't ibang mga instance.
+* **Semantic segmentation** na nagsasabi lamang ng klase ng pixel, ngunit hindi nito pinag-iiba ang iba't ibang bagay na nasa parehong klase.
+* **Instance segmentation** na naghahati ng mga klase sa iba't ibang instances.
 
-Halimbawa, sa instance segmentation, ang mga tupa ay itinuturing na magkakaibang mga bagay, ngunit sa semantic segmentation, ang lahat ng tupa ay kinakatawan ng iisang klase.
+Halimbawa, sa instance segmentation, ang mga tupa ay magkakaibang bagay, ngunit sa semantic segmentation, ang lahat ng tupa ay kinakatawan ng isang klase.
 
 <img src="images/instance_vs_semantic.jpeg" width="50%">
 
 > Larawan mula sa [blog post na ito](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
-May iba't ibang neural architectures para sa segmentasyon, ngunit lahat sila ay may parehong istruktura. Sa isang paraan, ito ay kahalintulad sa autoencoder na natutunan mo na dati, ngunit sa halip na i-deconstruct ang orihinal na imahe, ang layunin natin ay i-deconstruct ang isang **mask**. Kaya, ang isang segmentation network ay may mga sumusunod na bahagi:
+May iba't ibang neural architectures para sa segmentation, ngunit pare-pareho ang kanilang istruktura. Sa isang paraan, ito ay katulad ng autoencoder na natutunan mo dati, ngunit sa halip na i-deconstruct ang orihinal na larawan, ang layunin natin ay i-deconstruct ang isang **mask**. Kaya, ang segmentation network ay may mga sumusunod na bahagi:
 
-* **Encoder** na kumukuha ng mga feature mula sa input na imahe.
-* **Decoder** na nagta-transform ng mga feature na iyon sa **mask image**, na may parehong laki at bilang ng mga channel na tumutugma sa bilang ng mga klase.
+* **Encoder** na kumukuha ng mga features mula sa input image
+* **Decoder** na nagta-transform ng mga features na iyon sa **mask image**, na may parehong laki at bilang ng channels na tumutugma sa bilang ng mga klase.
 
 <img src="images/segm.png" width="80%">
 
 > Larawan mula sa [publikasyong ito](https://arxiv.org/pdf/2001.05566.pdf)
 
-Dapat nating bigyang-diin ang loss function na ginagamit para sa segmentasyon. Kapag gumagamit ng klasikong autoencoders, kailangan nating sukatin ang pagkakapareho sa pagitan ng dalawang imahe, at maaari nating gamitin ang mean square error (MSE) para dito. Sa segmentasyon, ang bawat pixel sa target mask image ay kumakatawan sa numero ng klase (one-hot-encoded sa ikatlong dimensyon), kaya kailangan nating gumamit ng loss functions na partikular para sa classification - cross-entropy loss, na ina-average sa lahat ng pixel. Kung ang mask ay binary - ginagamit ang **binary cross-entropy loss** (BCE).
+Dapat nating bigyang-pansin ang loss function na ginagamit para sa segmentation. Kapag gumagamit ng classical autoencoders, kailangan nating sukatin ang pagkakatulad sa pagitan ng dalawang larawan, at maaari nating gamitin ang mean square error (MSE) para dito. Sa segmentation, ang bawat pixel sa target mask image ay kumakatawan sa numero ng klase (one-hot-encoded sa third dimension), kaya kailangan nating gumamit ng loss functions na partikular para sa classification - cross-entropy loss, na averaged sa lahat ng pixels. Kung ang mask ay binary - **binary cross-entropy loss** (BCE) ang ginagamit.
 
-> ✅ Ang one-hot encoding ay isang paraan upang i-encode ang class label sa isang vector na ang haba ay katumbas ng bilang ng mga klase. Tingnan ang [artikulong ito](https://datagy.io/sklearn-one-hot-encode/) tungkol sa teknik na ito.
+> ✅ Ang One-hot encoding ay isang paraan upang i-encode ang class label sa isang vector na may haba na katumbas ng bilang ng mga klase. Tingnan ang [artikulong ito](https://datagy.io/sklearn-one-hot-encode/) tungkol sa teknik na ito.
 
-## Segmentasyon para sa Medical Imaging
+## Segmentation para sa Medical Imaging
 
-Sa araling ito, makikita natin ang segmentasyon sa aksyon sa pamamagitan ng pagsasanay ng network upang makilala ang human nevi (kilala rin bilang moles) sa mga medical images. Gagamitin natin ang <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> Database</a> ng mga dermoscopy images bilang pinagmulan ng imahe. Ang dataset na ito ay naglalaman ng 200 imahe ng tatlong klase: typical nevus, atypical nevus, at melanoma. Ang lahat ng mga imahe ay mayroon ding kaukulang **mask** na nagbabalangkas sa nevus.
+Sa araling ito, makikita natin ang segmentation sa aksyon sa pamamagitan ng pag-train ng network upang makilala ang human nevi (kilala rin bilang moles) sa mga medical images. Gagamitin natin ang <a href="https://www.fc.up.pt/addi/ph2%20database.html">PH<sup>2</sup> Database</a> ng dermoscopy images bilang pinagmulan ng mga larawan. Ang dataset na ito ay naglalaman ng 200 larawan ng tatlong klase: typical nevus, atypical nevus, at melanoma. Ang lahat ng larawan ay mayroon ding kaukulang **mask** na naglalarawan sa nevus.
 
-> ✅ Ang teknik na ito ay partikular na angkop para sa ganitong uri ng medical imaging, ngunit ano pa kayang mga totoong aplikasyon ang naiisip mo?
+> ✅ Ang teknik na ito ay partikular na angkop para sa ganitong uri ng medical imaging, ngunit anong iba pang mga aplikasyon sa totoong mundo ang naiisip mo?
 
 <img alt="navi" src="images/navi.png"/>
 
 > Larawan mula sa PH<sup>2</sup> Database
 
-Magsasanay tayo ng isang modelo upang i-segment ang anumang nevus mula sa background nito.
+Magte-train tayo ng model upang i-segment ang anumang nevus mula sa background nito.
 
 ## ✍️ Mga Ehersisyo: Semantic Segmentation
 
-Buksan ang mga notebook sa ibaba upang matuto pa tungkol sa iba't ibang semantic segmentation architectures, magsanay sa paggamit ng mga ito, at makita ang mga ito sa aksyon.
+Buksan ang mga notebooks sa ibaba upang matuto pa tungkol sa iba't ibang semantic segmentation architectures, magsanay sa paggamit ng mga ito, at makita ang mga ito sa aksyon.
 
 * [Semantic Segmentation Pytorch](SemanticSegmentationPytorch.ipynb)
 * [Semantic Segmentation TensorFlow](SemanticSegmentationTF.ipynb)
@@ -60,21 +60,19 @@ Buksan ang mga notebook sa ibaba upang matuto pa tungkol sa iba't ibang semantic
 
 ## Konklusyon
 
-Ang segmentasyon ay isang napakalakas na teknik para sa image classification, na lumalampas sa bounding boxes patungo sa pixel-level classification. Ito ay isang teknik na ginagamit sa medical imaging, bukod sa iba pang mga aplikasyon.
+Ang segmentation ay isang napakalakas na teknik para sa image classification, na lumalampas sa bounding boxes patungo sa pixel-level classification. Ito ay isang teknik na ginagamit sa medical imaging, bukod sa iba pang mga aplikasyon.
 
 ## 🚀 Hamon
 
-Ang body segmentation ay isa lamang sa mga karaniwang gawain na maaari nating gawin gamit ang mga imahe ng tao. Ang iba pang mahahalagang gawain ay kinabibilangan ng **skeleton detection** at **pose detection**. Subukan ang [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) library upang makita kung paano magagamit ang pose detection.
+Ang body segmentation ay isa lamang sa mga karaniwang gawain na maaari nating gawin gamit ang mga larawan ng tao. Ang iba pang mahalagang gawain ay kinabibilangan ng **skeleton detection** at **pose detection**. Subukan ang [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) library upang makita kung paano magagamit ang pose detection.
 
 ## Review at Pag-aaral sa Sarili
 
-Ang [artikulong ito sa Wikipedia](https://wikipedia.org/wiki/Image_segmentation) ay nagbibigay ng magandang pangkalahatang-ideya ng iba't ibang aplikasyon ng teknik na ito. Alamin pa ang tungkol sa mga subdomain ng Instance segmentation at Panoptic segmentation sa larangang ito.
+Ang [artikulo sa Wikipedia](https://wikipedia.org/wiki/Image_segmentation) ay nag-aalok ng magandang overview ng iba't ibang aplikasyon ng teknik na ito. Matuto pa nang mag-isa tungkol sa mga subdomain ng Instance segmentation at Panoptic segmentation sa larangang ito.
 
-## [Takdang Aralin](lab/README.md)
+## [Assignment](lab/README.md)
 
 Sa lab na ito, subukan ang **human body segmentation** gamit ang [Segmentation Full Body MADS Dataset](https://www.kaggle.com/datasets/tapakah68/segmentation-full-body-mads-dataset) mula sa Kaggle.
 
 ---
 
-**Paunawa**:  
-Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, tandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang katutubong wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na dulot ng paggamit ng pagsasaling ito.
