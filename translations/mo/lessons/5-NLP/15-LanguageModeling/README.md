@@ -1,29 +1,29 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
-  "translation_date": "2025-08-26T08:29:44+00:00",
+  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+  "translation_date": "2025-09-23T08:12:23+00:00",
   "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
   "language_code": "mo"
 }
 -->
 # 語言建模
 
-語意嵌入（如 Word2Vec 和 GloVe）實際上是邁向**語言建模**的第一步——建立某種程度上能*理解*（或*表示*）語言本質的模型。
+語意嵌入（如 Word2Vec 和 GloVe）實際上是邁向**語言建模**的第一步——創建某種*理解*（或*表示*）語言本質的模型。
 
 ## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
-語言建模的核心理念是以無監督的方式在未標註的數據集上進行訓練。這點非常重要，因為我們擁有大量未標註的文本，而標註文本的數量則始終受限於我們能投入的標註工作量。通常，我們可以構建能夠**預測文本中缺失單詞**的語言模型，因為隨機遮蔽文本中的某個單詞並將其作為訓練樣本是一件相對簡單的事情。
+語言建模的核心思想是以無監督的方式在未標註的數據集上進行訓練。這點非常重要，因為我們擁有大量未標註的文本，而標註文本的數量則始終受限於我們能投入的標註工作量。通常，我們可以構建能夠**預測缺失單詞**的語言模型，因為在文本中隨機遮蔽一個單詞並將其作為訓練樣本是非常簡單的。
 
 ## 訓練嵌入
 
-在之前的例子中，我們使用了預訓練的語意嵌入，但了解這些嵌入是如何訓練的也很有趣。有幾種可能的想法可以用來訓練嵌入：
+在之前的例子中，我們使用了預訓練的語意嵌入，但了解這些嵌入是如何訓練的也很有趣。有幾種可能的思路可以用來訓練嵌入：
 
-* **N-Gram** 語言建模：通過觀察前 N 個詞元（N-gram）來預測當前詞元。
-* **連續詞袋模型**（CBoW）：在詞元序列 $W_{-N}$, ..., $W_N$ 中，預測中間的詞元 $W_0$。
-* **Skip-gram**：從中間詞元 $W_0$ 預測一組相鄰的詞元 {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}。
+* **N-Gram** 語言建模：通過查看前 N 個標記來預測當前標記（N-gram）。
+* **連續詞袋模型**（CBoW）：在標記序列 $W_{-N}$, ..., $W_N$ 中預測中間的標記 $W_0$。
+* **Skip-gram**：從中間標記 $W_0$ 預測一組相鄰的標記 {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}。
 
-![來自於將單詞轉換為向量的論文中的圖片](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.mo.png)
+![來自將單詞轉換為向量的論文的圖片](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.mo.png)
 
 > 圖片來源：[這篇論文](https://arxiv.org/pdf/1301.3781.pdf)
 
@@ -31,8 +31,8 @@ CO_OP_TRANSLATOR_METADATA:
 
 繼續學習以下筆記本中的內容：
 
-* [使用 TensorFlow 訓練 CBoW Word2Vec](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)
-* [使用 PyTorch 訓練 CBoW Word2Vec](../../../../../lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb)
+* [使用 TensorFlow 訓練 CBoW Word2Vec](CBoW-TF.ipynb)
+* [使用 PyTorch 訓練 CBoW Word2Vec](CBoW-PyTorch.ipynb)
 
 ## 結論
 
@@ -42,13 +42,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 回顧與自學
 
-* [PyTorch 官方語言建模教學](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html)。
-* [TensorFlow 官方訓練 Word2Vec 模型教學](https://www.TensorFlow.org/tutorials/text/word2vec)。
+* [PyTorch 官方語言建模教程](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html)。
+* [TensorFlow 官方訓練 Word2Vec 模型教程](https://www.TensorFlow.org/tutorials/text/word2vec)。
 * 使用 **gensim** 框架僅需幾行代碼即可訓練最常用的嵌入，詳情請參考[此文檔](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html)。
 
 ## 🚀 [作業：訓練 Skip-Gram 模型](lab/README.md)
 
-在實驗中，我們挑戰你修改本課的代碼，將 CBoW 模型改為 Skip-Gram 模型進行訓練。[閱讀詳情](lab/README.md)
+在實驗中，我們挑戰你修改本課的代碼來訓練 Skip-Gram 模型，而非 CBoW 模型。[閱讀詳情](lab/README.md)
 
-**免責聲明**：  
-本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於關鍵資訊，建議使用專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或誤釋不承擔責任。
+---
+
