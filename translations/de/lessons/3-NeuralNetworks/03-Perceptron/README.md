@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-24T09:40:50+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T12:21:52+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "de"
 }
 -->
-# Einführung in Neuronale Netze: Perzeptron
+# Einführung in Neuronale Netzwerke: Perzeptron
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-Einer der ersten Versuche, etwas Ähnliches wie ein modernes neuronales Netz zu implementieren, wurde 1957 von Frank Rosenblatt vom Cornell Aeronautical Laboratory unternommen. Es handelte sich um eine Hardware-Implementierung namens "Mark-1", die entwickelt wurde, um primitive geometrische Figuren wie Dreiecke, Quadrate und Kreise zu erkennen.
+Einer der ersten Versuche, etwas Ähnliches wie ein modernes neuronales Netzwerk zu implementieren, wurde 1957 von Frank Rosenblatt vom Cornell Aeronautical Laboratory unternommen. Es handelte sich um eine Hardware-Implementierung namens "Mark-1", die darauf ausgelegt war, primitive geometrische Figuren wie Dreiecke, Quadrate und Kreise zu erkennen.
 
 |      |      |
 |--------------|-----------|
@@ -19,15 +19,15 @@ Einer der ersten Versuche, etwas Ähnliches wie ein modernes neuronales Netz zu 
 
 > Bilder [von Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
-Ein Eingabebild wurde durch ein 20x20-Photodioden-Array dargestellt, sodass das neuronale Netz 400 Eingaben und eine binäre Ausgabe hatte. Ein einfaches Netzwerk bestand aus einem Neuron, das auch als **Schwellenwert-Logikeinheit** bezeichnet wird. Die Gewichte des neuronalen Netzes wirkten wie Potentiometer, die während der Trainingsphase manuell angepasst werden mussten.
+Ein Eingabebild wurde durch ein 20x20-Fotodiodenarray dargestellt, sodass das neuronale Netzwerk 400 Eingaben und einen binären Ausgang hatte. Ein einfaches Netzwerk enthielt einen Neuron, auch **Schwellenwert-Logikeinheit** genannt. Die Gewichte des neuronalen Netzwerks fungierten wie Potentiometer, die während der Trainingsphase manuell eingestellt werden mussten.
 
-> ✅ Ein Potentiometer ist ein Gerät, das es dem Benutzer ermöglicht, den Widerstand eines Stromkreises einzustellen.
+> ✅ Ein Potentiometer ist ein Gerät, das es dem Benutzer ermöglicht, den Widerstand eines Stromkreises anzupassen.
 
 > Die New York Times schrieb damals über das Perzeptron: *der Embryo eines elektronischen Computers, von dem [die Marine] erwartet, dass er laufen, sprechen, sehen, schreiben, sich selbst reproduzieren und sich seiner Existenz bewusst sein wird.*
 
 ## Perzeptron-Modell
 
-Angenommen, wir haben N Merkmale in unserem Modell, dann wäre der Eingabevektor ein Vektor der Größe N. Ein Perzeptron ist ein Modell zur **binären Klassifikation**, d.h. es kann zwischen zwei Klassen von Eingabedaten unterscheiden. Wir nehmen an, dass für jeden Eingabevektor x die Ausgabe unseres Perzeptrons entweder +1 oder -1 ist, abhängig von der Klasse. Die Ausgabe wird mit der folgenden Formel berechnet:
+Angenommen, wir haben N Merkmale in unserem Modell, in diesem Fall wäre der Eingabevektor ein Vektor der Größe N. Ein Perzeptron ist ein Modell zur **binären Klassifikation**, d.h. es kann zwischen zwei Klassen von Eingabedaten unterscheiden. Wir nehmen an, dass für jeden Eingabevektor x die Ausgabe unseres Perzeptrons entweder +1 oder -1 ist, je nach Klasse. Die Ausgabe wird mit der Formel berechnet:
 
 y(x) = f(w<sup>T</sup>x)
 
@@ -40,22 +40,22 @@ wobei f eine Stufenaktivierungsfunktion ist.
 
 Um ein Perzeptron zu trainieren, müssen wir einen Gewichtsvektor w finden, der die meisten Werte korrekt klassifiziert, d.h. den kleinsten **Fehler** ergibt. Dieser Fehler E wird durch das **Perzeptron-Kriterium** wie folgt definiert:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 wobei:
 
-* die Summe über jene Trainingsdatenpunkte i gebildet wird, die zu einer falschen Klassifikation führen
+* die Summe über die Trainingsdatenpunkte i genommen wird, die zu einer falschen Klassifikation führen
 * x<sub>i</sub> die Eingabedaten sind und t<sub>i</sub> entweder -1 oder +1 für negative bzw. positive Beispiele ist.
 
-Dieses Kriterium wird als Funktion der Gewichte w betrachtet, und wir müssen es minimieren. Oft wird eine Methode namens **Gradientenabstieg** verwendet, bei der wir mit einigen Anfangsgewichten w<sup>(0)</sup> beginnen und dann in jedem Schritt die Gewichte nach der Formel aktualisieren:
+Dieses Kriterium wird als Funktion der Gewichte w betrachtet, und wir müssen es minimieren. Oft wird eine Methode namens **Gradientenabstieg** verwendet, bei der wir mit einigen Anfangsgewichten w<sup>(0)</sup> beginnen und die Gewichte bei jedem Schritt gemäß der Formel aktualisieren:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Hierbei ist η die sogenannte **Lernrate**, und ∇E(w) bezeichnet den **Gradienten** von E. Nachdem wir den Gradienten berechnet haben, erhalten wir:
+Hier ist &eta; die sogenannte **Lernrate**, und &nabla;E(w) bezeichnet den **Gradienten** von E. Nachdem wir den Gradienten berechnet haben, erhalten wir:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
-Der Algorithmus in Python sieht so aus:
+Der Algorithmus in Python sieht wie folgt aus:
 
 ```python
 def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
@@ -79,7 +79,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
 
 ## Fazit
 
-In dieser Lektion haben Sie ein Perzeptron kennengelernt, ein Modell zur binären Klassifikation, und wie man es mit einem Gewichtsvektor trainiert.
+In dieser Lektion haben Sie etwas über das Perzeptron gelernt, ein Modell zur binären Klassifikation, und wie man es durch die Verwendung eines Gewichtsvektors trainiert.
 
 ## 🚀 Herausforderung
 
@@ -89,7 +89,7 @@ Wenn Sie versuchen möchten, Ihr eigenes Perzeptron zu erstellen, probieren Sie 
 
 ## Rückblick & Selbststudium
 
-Um zu sehen, wie wir ein Perzeptron verwenden können, um ein einfaches Problem sowie reale Probleme zu lösen, und um weiterzulernen, gehen Sie zum [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)-Notebook.
+Um zu sehen, wie wir das Perzeptron verwenden können, um ein Spielzeugproblem sowie reale Probleme zu lösen, und um weiter zu lernen, gehen Sie zum [Perceptron](Perceptron.ipynb)-Notebook.
 
 Hier ist ein interessanter [Artikel über Perzeptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
@@ -98,7 +98,7 @@ Hier ist ein interessanter [Artikel über Perzeptrons](https://towardsdatascienc
 In dieser Lektion haben wir ein Perzeptron für eine binäre Klassifikationsaufgabe implementiert und es verwendet, um zwischen zwei handgeschriebenen Ziffern zu klassifizieren. In diesem Lab sollen Sie das Problem der Ziffernklassifikation vollständig lösen, d.h. bestimmen, welche Ziffer am wahrscheinlichsten zu einem gegebenen Bild gehört.
 
 * [Anleitung](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Notebook](lab/PerceptronMultiClass.ipynb)
 
-**Haftungsausschluss**:  
-Dieses Dokument wurde mit dem KI-Übersetzungsdienst [Co-op Translator](https://github.com/Azure/co-op-translator) übersetzt. Obwohl wir uns um Genauigkeit bemühen, beachten Sie bitte, dass automatisierte Übersetzungen Fehler oder Ungenauigkeiten enthalten können. Das Originaldokument in seiner ursprünglichen Sprache sollte als maßgebliche Quelle betrachtet werden. Für kritische Informationen wird eine professionelle menschliche Übersetzung empfohlen. Wir übernehmen keine Haftung für Missverständnisse oder Fehlinterpretationen, die sich aus der Nutzung dieser Übersetzung ergeben.
+---
+

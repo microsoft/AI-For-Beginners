@@ -1,74 +1,74 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
-  "translation_date": "2025-08-25T22:48:25+00:00",
+  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+  "translation_date": "2025-09-23T15:16:34+00:00",
   "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
   "language_code": "my"
 }
 -->
-# အရာဝတ္ထုရှာဖွေခြင်း
+# Object Detection
 
-ယခင်က ကျွန်ုပ်တို့ handling လုပ်ခဲ့သော ပုံရိပ်အမျိုးအစားခွဲခြားမှုမော်ဒယ်များသည် ပုံရိပ်တစ်ခုကိုယူပြီး MNIST ပြဿနာတွင် 'number' အတန်းလိုမျိုး အမျိုးအစားရလဒ်တစ်ခုကိုထုတ်ပေးသည်။ သို့သော် အများသောအားဖြင့် ပုံရိပ်တွင် အရာဝတ္ထုများပါဝင်သည်ကိုသာမက၊ ၎င်းတို့၏တိကျသောတည်နေရာကိုသိလိုသည်။ **အရာဝတ္ထုရှာဖွေခြင်း**၏အဓိကရည်ရွယ်ချက်မှာ အတိအကျတည်နေရာကိုသတ်မှတ်နိုင်ရန်ဖြစ်သည်။
+ယခင်က ကျွန်တော်တို့ handling လုပ်ခဲ့တဲ့ image classification models တွေဟာ ပုံတစ်ပုံကိုယူပြီး categorical ရလဒ်တစ်ခုထုတ်ပေးခဲ့ပါတယ်၊ ဥပမာ MNIST ပြဿနာမှာ 'number' class တစ်ခုလိုပါပဲ။ သို့သော် အများဆုံးအခြေအနေတွေမှာ ပုံတစ်ပုံမှာ object တွေရှိတယ်ဆိုတာကိုသိရုံမကဘဲ၊ အဲ့ဒီ object တွေရှိတဲ့တိကျတဲ့နေရာကိုသိချင်ပါတယ်။ ဒါဟာ **object detection** ရဲ့အဓိကရည်ရွယ်ချက်ပဲဖြစ်ပါတယ်။
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
 ![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.my.png)
 
-> ပုံရိပ် [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/) မှ
+> ပုံကို [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/) မှရယူထားသည်။
 
-## အရာဝတ္ထုရှာဖွေခြင်းအတွက် ရိုးရိုးရှင်းရှင်းနည်းလမ်း
+## Object Detection အတွက် Naive Approach
 
-ပုံရိပ်တစ်ခုတွင် ကြောင်ကိုရှာဖွေလိုသည်ဟုယူဆပါက၊ အရာဝတ္ထုရှာဖွေခြင်းအတွက် ရိုးရိုးရှင်းရှင်းနည်းလမ်းမှာ အောက်ပါအတိုင်းဖြစ်နိုင်သည်-
+ပုံတစ်ပုံမှာ ကြောင်တစ်ကောင်ကိုရှာဖွေချင်တယ်လို့ယူဆရင်၊ object detection အတွက် naive approach တစ်ခုက အောက်ပါအတိုင်းဖြစ်နိုင်ပါတယ်-
 
-1. ပုံရိပ်ကို အပိုင်းအခြားများအဖြစ်ခွဲခြားပါ။
-2. တစ်ခုချင်းစီအပေါ် ပုံရိပ်အမျိုးအစားခွဲခြားမှုကို run လုပ်ပါ။
-3. activation အဆင့်မြင့်သော အပိုင်းများကို အဆိုပါအရာဝတ္ထုပါဝင်သည်ဟုယူဆနိုင်သည်။
+1. ပုံကို tiles အများကြီးအဖြစ်ခွဲခြားပါ။
+2. တစ်ခုချင်းစီ tile တွေမှာ image classification ကို run လုပ်ပါ။
+3. activation အဆင့်မြင့်တဲ့ tiles တွေကို object ရှိတယ်လို့ယူဆနိုင်ပါတယ်။
 
 ![Naive Object Detection](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.my.png)
 
-> *ပုံရိပ် [Exercise Notebook](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection-TF.ipynb) မှ*
+> *ပုံကို [Exercise Notebook](ObjectDetection-TF.ipynb) မှရယူထားသည်*
 
-သို့သော်၊ ဤနည်းလမ်းသည် အလွန်မကျွမ်းကျင်သောနည်းလမ်းဖြစ်ပြီး အရာဝတ္ထု၏ bounding box ကိုတိကျစွာသတ်မှတ်ရန်မလွယ်ကူပါ။ တိကျသောတည်နေရာကိုသတ်မှတ်ရန် **regression** တစ်ခုကို run လုပ်ရန်လိုအပ်ပြီး၊ ၎င်းအတွက် dataset အထူးတစ်ခုလိုအပ်သည်။
+သို့သော် ဒီနည်းလမ်းက အလွန်မကျွမ်းကျင်တဲ့နည်းလမ်းဖြစ်ပြီး၊ object's bounding box ကိုတိကျစွာသတ်မှတ်နိုင်ခြင်းမရှိပါဘူး။ ပိုမိုတိကျတဲ့နေရာကိုသတ်မှတ်ဖို့ **regression** တစ်ခု run လုပ်ဖို့လိုအပ်ပြီး၊ bounding box တွေရဲ့ coordinates ကို predict လုပ်ဖို့အတွက် dataset အထူးလိုအပ်ပါတယ်။
 
-## အရာဝတ္ထုရှာဖွေခြင်းအတွက် Regression
+## Regression for Object Detection
 
-[ဤ blog post](https://towardsdatascience.com/object-detection-with-neural-networks-a4e2c46b4491) တွင် shape detection အပေါ် gentle introduction တစ်ခုပါဝင်သည်။
+[ဒီ blog post](https://towardsdatascience.com/object-detection-with-neural-networks-a4e2c46b4491) မှာ shapes တွေကို detect လုပ်တဲ့အကြောင်းအရာကို gentle introduction အနေနဲ့ဖော်ပြထားပါတယ်။
 
-## အရာဝတ္ထုရှာဖွေခြင်းအတွက် Dataset များ
+## Object Detection အတွက် Datasets
 
-ဤအလုပ်အတွက် dataset များကိုတွေ့နိုင်ပါသည်-
+ဒီ task အတွက် dataset အမျိုးမျိုးတွေကိုတွေ့နိုင်ပါတယ်-
 
-* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 အတန်းများ
-* [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 အတန်းများ၊ bounding boxes နှင့် segmentation masks
+* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
+* [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classes, bounding boxes နှင့် segmentation masks
 
 ![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.my.jpg)
 
-## အရာဝတ္ထုရှာဖွေခြင်း Metrics
+## Object Detection Metrics
 
 ### Intersection over Union
 
-ပုံရိပ်အမျိုးအစားခွဲခြားမှုအတွက် algorithm ၏စွမ်းဆောင်ရည်ကိုတိုင်းတာရန်လွယ်ကူသော်လည်း၊ အရာဝတ္ထုရှာဖွေခြင်းတွင် အတန်း၏တိကျမှုနှင့် bounding box တည်နေရာ၏တိကျမှုကိုတိုင်းတာရန်လိုအပ်သည်။ ၎င်းအတွက် **Intersection over Union** (IoU) ကိုအသုံးပြုသည်၊ ၎င်းသည် box နှစ်ခု (သို့မဟုတ် arbitrary areas နှစ်ခု) overlap ဖြစ်မှုကိုတိုင်းတာသည်။
+Image classification အတွက် algorithm ရဲ့ performance ကိုတိုင်းတာရလွယ်ကူသလို၊ object detection အတွက် class ရဲ့တိကျမှုနှင့် bounding box ရဲ့တိကျမှုကိုတိုင်းတာဖို့လိုအပ်ပါတယ်။ Bounding box ရဲ့တိကျမှုကိုတိုင်းတာဖို့ **Intersection over Union** (IoU) ကိုသုံးပါတယ်၊ ဒါဟာ box နှစ်ခု (သို့မဟုတ် arbitrary areas နှစ်ခု) overlap ဖြစ်ပုံကိုတိုင်းတာပေးပါတယ်။
 
 ![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.my.png)
 
-> *ပုံရိပ် [IoU အပေါ် blog post](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) မှ*
+> *ပုံကို [IoU အကြောင်း blog post](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) မှရယူထားသည်*
 
-အဓိကအကြောင်းအရာမှာ ရှုထောင့်နှစ်ခု၏ intersection ကို union ဖြင့်စား၍ IoU ကိုရရှိသည်။ identical areas အတွက် IoU သည် 1 ဖြစ်ပြီး၊ completely disjointed areas အတွက် 0 ဖြစ်သည်။ အခြားသောအခြေအနေများတွင် 0 မှ 1 အတွင်းရှိသည်။ IoU သတ်မှတ်ချက်တစ်ခုအထက်ရှိ bounding boxes များကိုသာယူဆပါသည်။
+အကြောင်းအရာကရိုးရှင်းပါတယ် - figures နှစ်ခုရဲ့ intersection area ကို union area နဲ့စားခွဲပါတယ်။ identical areas နှစ်ခုအတွက် IoU က 1 ဖြစ်ပြီး၊ completely disjointed areas အတွက် 0 ဖြစ်ပါတယ်။ အခြားအခြေအနေတွေမှာ 0 မှ 1 အတွင်း variation ဖြစ်ပါတယ်။ IoU တန်ဖိုးတစ်ခုထက်ကြီးတဲ့ bounding boxes တွေကိုသာ typically consider လုပ်ပါတယ်။
 
 ### Average Precision
 
-အတန်း $C$ တစ်ခုကိုဘယ်လောက်ကောင်းကောင်းသိရှိနိုင်သည်ကိုတိုင်းတာလိုပါက **Average Precision** metrics ကိုအသုံးပြုသည်၊ ၎င်းကိုအောက်ပါအတိုင်းတွက်ချက်သည်-
+Class $C$ တစ်ခုကိုဘယ်လောက်ကောင်းကောင်း detect လုပ်နိုင်တယ်ဆိုတာတိုင်းတာချင်တယ်ဆိုရင် **Average Precision** metrics ကိုသုံးပါတယ်၊ calculation နည်းလမ်းကအောက်ပါအတိုင်းဖြစ်ပါတယ်-
 
-1. Precision-Recall curve သည် detection threshold value (0 မှ 1) အပေါ်တွင်တိကျမှုကိုပြသည်။
-2. Threshold အပေါ်မူတည်၍ ပုံရိပ်တွင် detection object များနှင့် precision နှင့် recall တန်ဖိုးများကိုရရှိသည်။
-3. Curve သည် အောက်ပါပုံစံဖြစ်သည်-
+1. Precision-Recall curve ကို threshold value (0 မှ 1) အပေါ်မူတည်ပြီး accuracy ကိုပြသပါ။
+2. Threshold အပေါ်မူတည်ပြီး ပုံထဲမှာ detect လုပ်နိုင်တဲ့ object အရေအတွက်ကွဲပြားမှု၊ precision နှင့် recall values ကွဲပြားမှုရှိပါမယ်။
+3. Curve ကအောက်ပါအတိုင်းဖြစ်ပါမယ်-
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
 
-> *ပုံရိပ် [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop) မှ*
+> *ပုံကို [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop) မှရယူထားသည်*
 
-အတန်း $C$ အတွက် Average Precision သည် curve အောက်ရှိဧရိယာဖြစ်သည်။ Recall axis ကို 10 အပိုင်းခွဲပြီး Precision ကိုအပိုင်းများအားလုံးတွင်ပျမ်းမျှတွက်ချက်သည်-
+Class $C$ အတွက် Average Precision က curve ရဲ့ area ဖြစ်ပါတယ်။ Recall axis ကို typically 10 parts ခွဲပြီး Precision ကိုအဲ့ဒီ points တွေမှာ average လုပ်ပါတယ်-
 
 $$
 AP = {1\over11}\sum_{i=0}^{10}\mbox{Precision}(\mbox{Recall}={i\over10})
@@ -76,75 +76,75 @@ $$
 
 ### AP နှင့် IoU
 
-IoU သတ်မှတ်ချက်တစ်ခုအထက်ရှိ detection များကိုသာယူဆပါသည်။ ဥပမာ၊ PASCAL VOC dataset တွင် $\mbox{IoU Threshold} = 0.5$ ကိုယူဆပြီး၊ COCO တွင် AP ကို $\mbox{IoU Threshold}$ တန်ဖိုးများအတွက်တိုင်းတာသည်။
+IoU တန်ဖိုးတစ်ခုထက်ကြီးတဲ့ detections တွေကိုသာ consider လုပ်ပါမယ်။ ဥပမာ PASCAL VOC dataset မှာ typically $\mbox{IoU Threshold} = 0.5$ ကိုယူဆပြီး၊ COCO မှာ $\mbox{IoU Threshold}$ values များစွာအတွက် AP ကိုတိုင်းတာပါတယ်။
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecallIoU.png"/>
 
-> *ပုံရိပ် [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop) မှ*
+> *ပုံကို [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop) မှရယူထားသည်*
 
 ### Mean Average Precision - mAP
 
-အရာဝတ္ထုရှာဖွေခြင်းအတွက် အဓိက metric သည် **Mean Average Precision** (mAP) ဖြစ်သည်။ ၎င်းသည် Average Precision တန်ဖိုးကို အတန်းအားလုံးနှင့် $\mbox{IoU Threshold}$ အပေါ်ပျမ်းမျှတွက်ချက်ထားသောတန်ဖိုးဖြစ်သည်။ **mAP** တွက်ချက်မှုလုပ်ငန်းစဉ်ကို [ဤ blog post](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3) တွင်အသေးစိတ်ဖော်ပြထားပြီး၊ [code samples](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734) တွင်လည်းပါဝင်သည်။
+Object Detection အတွက်အဓိက metric ကို **Mean Average Precision** (mAP) လို့ခေါ်ပါတယ်။ ဒါဟာ Average Precision ရဲ့တန်ဖိုးဖြစ်ပြီး၊ object classes အားလုံးအတွက် average လုပ်ထားတာဖြစ်ပါတယ်၊ တစ်ခါတစ်ရံ $\mbox{IoU Threshold}$ အပေါ်လည်း average လုပ်ထားပါတယ်။ **mAP** ကိုတွက်ချက်နည်းလမ်းကို [ဒီ blog post](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3) မှာဖော်ပြထားပြီး၊ [code samples](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734) နဲ့လည်းဖော်ပြထားပါတယ်။
 
-## အရာဝတ္ထုရှာဖွေခြင်းနည်းလမ်းများ
+## Object Detection အတွက် နည်းလမ်းများ
 
-အရာဝတ္ထုရှာဖွေခြင်း algorithm များကို အောက်ပါ broad classes နှစ်ခုအဖြစ်ခွဲခြားနိုင်သည်-
+Object detection algorithms တွေကို broad classes နှစ်ခုအဖြစ်ခွဲခြားနိုင်ပါတယ်-
 
-* **Region Proposal Networks** (R-CNN, Fast R-CNN, Faster R-CNN) - အဓိကအကြောင်းအရာမှာ **Regions of Interests** (ROI) များကို generate လုပ်ပြီး CNN ကို run လုပ်ခြင်းဖြစ်သည်။ ဤနည်းလမ်းသည် ရိုးရိုးနည်းလမ်းနှင့်ဆင်တူသော်လည်း ROI များကိုပိုကျွမ်းကျင်စွာ generate လုပ်သည်။ drawback အဓိကမှာ CNN classifier ကို image အပေါ် pass များစွာ run လုပ်ရန်လိုအပ်သောကြောင့် နှေးကွေးသည်။
-* **One-pass** (YOLO, SSD, RetinaNet) methods - ဤ architecture များတွင် network ကို class နှင့် ROI များကို pass တစ်ခုတည်းတွင် predict လုပ်ရန် design လုပ်ထားသည်။
+* **Region Proposal Networks** (R-CNN, Fast R-CNN, Faster R-CNN). အဓိကအကြောင်းအရာက **Regions of Interests** (ROI) တွေကို generate လုပ်ပြီး CNN ကို run လုပ်တာဖြစ်ပါတယ်၊ maximum activation ရှာဖွေဖို့။ Naive approach နဲ့တူပေမယ့် ROIs တွေကိုပိုမိုကျွမ်းကျင်စွာ generate လုပ်ပါတယ်။ ဒီနည်းလမ်းရဲ့အဓိက drawback က အလွန်နှေးကွေးတယ်၊ image အပေါ် CNN classifier ကို passes အများကြီး run လုပ်ရလို့။
+* **One-pass** (YOLO, SSD, RetinaNet) methods. ဒီ architectures တွေမှာ network ကို classes နှင့် ROIs ကိုတစ်ခါတည်း predict လုပ်ဖို့ design လုပ်ထားပါတယ်။
 
 ### R-CNN: Region-Based CNN
 
-[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) သည် [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) ကိုအသုံးပြု၍ ROI regions များ၏ hierarchical structure ကို generate လုပ်ပြီး၊ CNN feature extractors နှင့် SVM-classifiers ကိုအသုံးပြု၍ object class ကိုသတ်မှတ်သည်။ linear regression ကို bounding box coordinates ကိုသတ်မှတ်ရန်အသုံးပြုသည်။ [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
+[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) က [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) ကိုသုံးပြီး ROI regions တွေကို hierarchical structure အဖြစ် generate လုပ်ပါတယ်၊ အဲ့ဒီ regions တွေကို CNN feature extractors နှင့် SVM-classifiers တွေက object class ကိုသတ်မှတ်ဖို့၊ linear regression က *bounding box* coordinates ကိုသတ်မှတ်ဖို့သုံးပါတယ်။ [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
 ![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.my.png)
 
-> *ပုံရိပ် van de Sande et al. ICCV’11*
+> *ပုံကို van de Sande et al. ICCV’11 မှရယူထားသည်*
 
 ![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.my.png)
 
-> *ပုံရိပ် [ဤ blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) မှ*
+> *ပုံကို [ဒီ blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) မှရယူထားသည်*
 
 ### F-RCNN - Fast R-CNN
 
-ဤနည်းလမ်းသည် R-CNN နှင့်ဆင်တူသော်လည်း convolution layers apply လုပ်ပြီးနောက် regions များကိုသတ်မှတ်သည်။
+ဒီနည်းလမ်းက R-CNN နဲ့တူပေမယ့် regions တွေကို convolution layers apply လုပ်ပြီးမှသတ်မှတ်ပါတယ်။
 
 ![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.my.png)
 
-> ပုံရိပ် [Official Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
+> ပုံကို [Official Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015 မှရယူထားသည်။
 
 ### Faster R-CNN
 
-ဤနည်းလမ်း၏အဓိကအကြောင်းအရာမှာ neural network ကိုအသုံးပြု၍ ROIs ကို predict လုပ်ခြင်းဖြစ်သည်။ *Region Proposal Network* ဟုခေါ်သည်။ [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
+ဒီနည်းလမ်းရဲ့အဓိကအကြောင်းအရာက neural network ကိုသုံးပြီး ROIs ကို predict လုပ်တာဖြစ်ပါတယ် - *Region Proposal Network* လို့ခေါ်ပါတယ်။ [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
 ![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.my.png)
 
-> ပုံရိပ် [Official Paper](https://arxiv.org/pdf/1506.01497.pdf) မှ
+> ပုံကို [Official Paper](https://arxiv.org/pdf/1506.01497.pdf) မှရယူထားသည်။
 
 ### R-FCN: Region-Based Fully Convolutional Network
 
-ဤ algorithm သည် Faster R-CNN ထက်ပိုမြန်သည်။ အဓိကအကြောင်းအရာမှာ-
+ဒီ algorithm က Faster R-CNN ထက်ပိုမိုမြန်ဆန်ပါတယ်။ အဓိကအကြောင်းအရာက-
 
-1. ResNet-101 ကိုအသုံးပြု၍ features များကို extract လုပ်သည်။
-2. Features များကို **Position-Sensitive Score Map** ဖြင့် process လုပ်သည်။ $C$ အတန်းများမှ object တစ်ခုကို $k\times k$ regions ဖြင့်ခွဲခြားပြီး၊ object parts များကို predict လုပ်ရန် training လုပ်သည်။
-3. $k\times k$ regions မှ part တစ်ခုစီအတွက် network များသည် object classes အတွက် vote လုပ်ပြီး၊ အများဆုံး vote ရရှိသော object class ကိုရွေးချယ်သည်။
+1. ResNet-101 ကိုသုံးပြီး features တွေကို extract လုပ်ပါ။
+2. Features တွေကို **Position-Sensitive Score Map** မှာ process လုပ်ပါ။ $C$ classes ထဲက object တစ်ခုစီကို $k\times k$ regions တွေခွဲပြီး၊ object parts တွေကို predict လုပ်ဖို့ training လုပ်ပါတယ်။
+3. $k\times k$ regions ထဲက part တစ်ခုစီအတွက် networks အားလုံးက object classes အတွက် vote လုပ်ပြီး၊ maximum vote ရတဲ့ object class ကိုရွေးချယ်ပါတယ်။
 
 ![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.my.png)
 
-> ပုံရိပ် [Official Paper](https://arxiv.org/abs/1605.06409) မှ
+> ပုံကို [Official Paper](https://arxiv.org/abs/1605.06409) မှရယူထားသည်။
 
 ### YOLO - You Only Look Once
 
-YOLO သည် realtime one-pass algorithm ဖြစ်သည်။ အဓိကအကြောင်းအရာမှာ-
+YOLO က realtime one-pass algorithm ဖြစ်ပါတယ်။ အဓိကအကြောင်းအရာက-
 
- * ပုံရိပ်ကို $S\times S$ regions အဖြစ်ခွဲခြားသည်။
- * Region တစ်ခုစီအတွက် **CNN** သည် $n$ အရာဝတ္ထုများ၊ *bounding box* coordinates နှင့် *confidence*=*probability* * IoU ကို predict လုပ်သည်။
+ * ပုံကို $S\times S$ regions တွေခွဲပါ။
+ * Region တစ်ခုစီအတွက် **CNN** က $n$ possible objects, *bounding box* coordinates နှင့် *confidence*=*probability* * IoU ကို predict လုပ်ပါတယ်။
 
  ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.my.png)
 
-> ပုံရိပ် [Official Paper](https://arxiv.org/abs/1506.02640) မှ
+> ပုံကို [Official Paper](https://arxiv.org/abs/1506.02640) မှရယူထားသည်။
 
-### အခြားသော Algorithm များ
+### အခြားနည်းလမ်းများ
 
 * RetinaNet: [Official Paper](https://arxiv.org/abs/1708.02002)
    - [PyTorch Implementation in Torchvision](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html)
@@ -152,36 +152,36 @@ YOLO သည် realtime one-pass algorithm ဖြစ်သည်။ အဓိက
    - [Object Detection with RetinaNet](https://keras.io/examples/vision/retinanet/) in Keras Samples
 * SSD (Single Shot Detector): [Official Paper](https://arxiv.org/abs/1512.02325)
 
-## ✍️ အလုပ်များ: အရာဝတ္ထုရှာဖွေခြင်း
+## ✍️ Exercises: Object Detection
 
-အောက်ပါ notebook တွင် သင်ကြားမှုကိုဆက်လက်လေ့လာပါ-
+အောက်ပါ notebook မှာ သင့်ရဲ့လေ့လာမှုကိုဆက်လက်လုပ်ဆောင်ပါ-
 
-[ObjectDetection.ipynb](../../../../../lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)
+[ObjectDetection.ipynb](ObjectDetection.ipynb)
 
-## နိဂုံး
+## Conclusion
 
-ဤသင်ခန်းစာတွင် အရာဝတ္ထုရှာဖွေခြင်းကိုအကွာအဝေးရှိသောနည်းလမ်းများဖြင့်လေ့လာခဲ့ပါသည်။
+ဒီသင်ခန်းစာမှာ object detection ကိုအမျိုးမျိုးသောနည်းလမ်းများဖြင့် accomplish လုပ်နိုင်ပုံကို whirlwind tour အနေနဲ့လေ့လာခဲ့ပါတယ်။
 
-## 🚀 စိန်ခေါ်မှု
+## 🚀 Challenge
 
-YOLO အပေါ်ရှိဤဆောင်းပါးများနှင့် notebook များကိုဖတ်ရှုပြီး ကိုယ်တိုင်စမ်းသပ်ပါ-
+YOLO အကြောင်းအရာများနှင့် notebooks တွေကိုဖတ်ရှုပြီး ကိုယ်တိုင်စမ်းသပ်ကြည့်ပါ-
 
-* [Good blog post](https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/) describing YOLO
- * [Official site](https://pjreddie.com/darknet/yolo/)
- * Yolo: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
- * Yolo v2: [Keras implementation](https://github.com/experiencor/keras-yolo2), [step-by-step notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
+* [YOLO ကိုဖော်ပြထားတဲ့ blog post](https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/)
+ * [Official Site](https://pjreddie.com/darknet/yolo/)
+ * Yolo: [Keras Implementation](https://github.com/experiencor/keras-yolo2), [Step-by-Step Notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
+ * Yolo v2: [Keras Implementation](https://github.com/experiencor/keras-yolo2), [Step-by-Step Notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
 ## Review & Self Study
 
 * [Object Detection](https://tjmachinelearning.com/lectures/1718/obj/) by Nikhil Sardana
-* [A good comparison of object detection algorithms](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
-* [Review of Deep Learning Algorithms for Object Detection](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
-* [A Step-by-Step Introduction to the Basic Object Detection Algorithms](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
-* [Implementation of Faster R-CNN in Python for Object Detection](https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/)
+* [Object Detection Algorithms တွေကိုနှိုင်းယှဉ်ထားတဲ့ blog post](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
+* [Deep Learning Algorithms for Object Detection ကို Review လုပ်ထားတဲ့ blog post](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
+* [Basic Object Detection Algorithms အကြောင်း Step-by-Step Introduction](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
+* [Python မှာ Faster R-CNN ကို Object Detection အတွက် Implementation လုပ်ပုံ](https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/)
 
 ## [Assignment: Object Detection](lab/README.md)
 
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူလဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူက ဘာသာပြန်မှုကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+---
+

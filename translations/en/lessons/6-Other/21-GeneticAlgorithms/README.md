@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "893aa368cb485da704b466a0f3775587",
-  "translation_date": "2025-08-31T17:30:30+00:00",
+  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
+  "translation_date": "2025-09-23T11:42:56+00:00",
   "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
   "language_code": "en"
 }
@@ -22,27 +22,27 @@ Genetic Algorithms are built on the following principles:
 
 To implement a Genetic Algorithm, you need the following:
 
- * A method to encode problem solutions as **genes** g∈Γ.
- * A **fitness function** fit: Γ→**R** defined on the set of genes Γ. Smaller function values correspond to better solutions.
- * A **crossover** mechanism to combine two genes into a new valid solution: crossover: Γ<sup>2</sub>→Γ.
- * A **mutation** mechanism: mutate: Γ→Γ.
+ * A method to encode problem solutions as **genes** g&in;&Gamma;.
+ * A **fitness function** fit: &Gamma;&rightarrow;**R** defined on the set of genes &Gamma;. Smaller values of the function correspond to better solutions.
+ * A **crossover** mechanism to combine two genes into a new valid solution: crossover: &Gamma;<sup>2</sub>&rightarrow;&Gamma;.
+ * A **mutation** mechanism: mutate: &Gamma;&rightarrow;&Gamma;.
 
 In many cases, crossover and mutation are relatively simple algorithms that manipulate genes as numeric sequences or bit vectors.
 
 The specific implementation of a genetic algorithm can vary, but the general structure is as follows:
 
-1. Select an initial population G⊂Γ.
+1. Select an initial population G&subset;&Gamma;.
 2. Randomly choose one of the operations to perform at this step: crossover or mutation.
 3. **Crossover**:
-  * Randomly select two genes g<sub>1</sub>, g<sub>2</sub> ∈ G.
+  * Randomly select two genes g<sub>1</sub>, g<sub>2</sub> &in; G.
   * Compute crossover g=crossover(g<sub>1</sub>,g<sub>2</sub>).
   * If fit(g)<fit(g<sub>1</sub>) or fit(g)<fit(g<sub>2</sub>), replace the corresponding gene in the population with g.
-4. **Mutation**: Select a random gene g∈G and replace it with mutate(g).
+4. **Mutation**: Select a random gene g&in;G and replace it with mutate(g).
 5. Repeat from step 2 until a sufficiently small value of fit is achieved, or until the step limit is reached.
 
 ## Typical Tasks
 
-Tasks commonly solved by Genetic Algorithms include:
+Genetic Algorithms are commonly used to solve tasks such as:
 
 1. Schedule optimization
 1. Optimal packing
@@ -53,14 +53,14 @@ Tasks commonly solved by Genetic Algorithms include:
 
 Continue your learning in the following notebooks:
 
-Check out [this notebook](Genetic.ipynb) to explore two examples of using Genetic Algorithms:
+Visit [this notebook](Genetic.ipynb) to explore two examples of using Genetic Algorithms:
 
 1. Fair division of treasure
 1. 8 Queens Problem
 
 ## Conclusion
 
-Genetic Algorithms are used to solve a variety of problems, including logistics and search challenges. The field is inspired by research that combines ideas from Psychology and Computer Science.
+Genetic Algorithms are applied to solve a variety of problems, including logistics and search challenges. This field is inspired by research that combines ideas from Psychology and Computer Science.
 
 ## 🚀 Challenge
 
@@ -80,12 +80,10 @@ Your task is to solve a **Diophantine equation**—an equation with integer solu
 
 Hints:
 
-1. You can assume the solutions are in the interval [0;30].
-1. Use a list of root values as the gene representation.
+1. You can assume the roots are in the interval [0;30].
+1. Use a list of root values as a gene.
 
 Start with [Diophantine.ipynb](Diophantine.ipynb).
 
 ---
 
-**Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.

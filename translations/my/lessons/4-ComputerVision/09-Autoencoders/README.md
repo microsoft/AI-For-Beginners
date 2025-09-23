@@ -1,109 +1,94 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0b306c04f5337b6e7430e5c0b16bb5c0",
-  "translation_date": "2025-08-25T22:32:54+00:00",
+  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
+  "translation_date": "2025-09-23T15:17:12+00:00",
   "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
   "language_code": "my"
 }
 -->
-# Autoencoders
+# အော်တိုအင်ကိုဒါများ
 
-CNN များကိုလေ့ကျင့်ရာတွင် အဓိကပြဿနာတစ်ခုမှာ အမှတ်အသားပြုထားသော ဒေတာများအများကြီးလိုအပ်သည်။ ဥပမာအားဖြင့် ပုံများကို အမျိုးအစားအလိုက်ခွဲခြားရန် လိုအပ်ပြီး၊ ၎င်းသည်လူ့အင်အားဖြင့် လုပ်ဆောင်ရမည့်အလုပ်ဖြစ်သည်။
+CNN များကို လေ့ကျင့်ရာတွင် တစ်ခုသော ပြဿနာမှာ အမှတ်အသားပြုထားသော ဒေတာများ များစွာ လိုအပ်သည်။ ပုံရိပ်များကို အမျိုးအစားအလိုက် ခွဲခြားရန် လိုအပ်သောအခါ၊ ၎င်းသည် လက်ဖြင့်လုပ်ဆောင်ရသော အလုပ်ဖြစ်သည်။
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
-သို့သော်၊ CNN feature extractors များကိုလေ့ကျင့်ရန် အမှတ်အသားမပြုထားသော (raw) ဒေတာများကို အသုံးပြုလိုနိုင်သည်။ ၎င်းကို **self-supervised learning** ဟုခေါ်သည်။ အမှတ်အသားများအစား၊ ပုံများကို network input နှင့် output အဖြစ်အသုံးပြုမည်ဖြစ်သည်။ **autoencoder** ၏ အဓိကအကြောင်းအရာမှာ **encoder network** တစ်ခုကို အသုံးပြု၍ input ပုံကို **latent space** (အများအားဖြင့် အရွယ်အစားသေးငယ်သော vector) တစ်ခုအဖြစ် ပြောင်းလဲပြီး၊ **decoder network** သည် မူရင်းပုံကို ပြန်လည်ဖန်တီးရန် ရည်ရွယ်ထားသည်။
+သို့သော်၊ CNN feature extractors များကို လေ့ကျင့်ရန် အမှတ်အသားမပြုထားသော (raw) ဒေတာများကို အသုံးပြုလိုနိုင်သည်။ ၎င်းကို **self-supervised learning** ဟုခေါ်သည်။ အမှတ်အသားများအစား၊ လေ့ကျင့်ပုံရိပ်များကို ကွန်ယက်၏ input နှင့် output အဖြစ် အသုံးပြုမည်ဖြစ်သည်။ **Autoencoder** ၏ အဓိကအကြံဉာဏ်မှာ **encoder network** တစ်ခုဖြင့် input ပုံရိပ်ကို **latent space** (အများအားဖြင့် သေးငယ်သော အရွယ်အစားရှိသော ဗက်တာတစ်ခု) သို့ ပြောင်းလဲပြီး၊ ၎င်းကို ပြန်လည်ဖန်တီးရန် **decoder network** ကို အသုံးပြုမည်ဖြစ်သည်။
 
-> ✅ [autoencoder](https://wikipedia.org/wiki/Autoencoder) သည် "အမှတ်အသားမပြုထားသော ဒေတာများကို ထိရောက်စွာ encode လုပ်ရန် လေ့လာသည့် artificial neural network အမျိုးအစားတစ်ခုဖြစ်သည်။"
+> ✅ [autoencoder](https://wikipedia.org/wiki/Autoencoder) သည် "အမှတ်အသားမပြုထားသော ဒေတာများ၏ ထိရောက်သော coding များကို သင်ယူရန် အသုံးပြုသော အတုနယူးရယ်ကွန်ယက်တစ်မျိုး" ဖြစ်သည်။
 
-autoencoder ကို accurate reconstruction ရရှိရန် မူရင်းပုံမှ အချက်အလက်များကို အများဆုံးဖမ်းယူရန် လေ့ကျင့်နေသောကြောင့်၊ network သည် input ပုံများ၏ အဓိပ္ပါယ်ကို ဖမ်းယူရန် အကောင်းဆုံး **embedding** ကို ရှာဖွေသည်။
+Autoencoder ကို မူရင်းပုံရိပ်မှ အချက်အလက်များကို အများဆုံး ဖမ်းယူရန် လေ့ကျင့်နေသောကြောင့်၊ ကွန်ယက်သည် input ပုံရိပ်များ၏ အဓိပ္ပါယ်ကို ဖမ်းယူရန် အကောင်းဆုံး **embedding** ကို ရှာဖွေသည်။
 
 ![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.my.jpg)
 
-> ပုံကို [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html) မှရယူသည်
+> ပုံရိပ် - [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 
-## Autoencoders အသုံးပြုနိုင်သောအခြေအနေများ
+## Autoencoders အသုံးပြုနိုင်သည့် အခွင့်အရေးများ
 
-မူရင်းပုံများကို ပြန်လည်ဖန်တီးခြင်းသည် ကိုယ်တိုင်အသုံးဝင်သည်ဟု မထင်ရသော်လည်း၊ autoencoders အထူးအသုံးဝင်သော အခြေအနေများ ရှိသည်။
+မူရင်းပုံရိပ်များကို ပြန်လည်ဖန်တီးခြင်းသည် ကိုယ်တိုင် အသုံးဝင်သည်မဟုတ်သော်လည်း၊ အောက်ပါအခြေအနေများတွင် autoencoders များသည် အထူးအသုံးဝင်သည် -
 
-* **ပုံများ၏ dimension ကို လျှော့ချခြင်း** သို့မဟုတ် **image embeddings များကို လေ့ကျင့်ခြင်း**။ Autoencoders များသည် PCA ထက် ပိုမိုကောင်းမွန်သောရလဒ်များပေးနိုင်သည်၊ အကြောင်းမှာ ၎င်းသည် ပုံများ၏ spatial nature နှင့် hierarchical features များကို ထည့်သွင်းစဉ်းစားသောကြောင့်ဖြစ်သည်။
-* **Denoising**၊ ပုံမှ ဆူညံသံကို ဖယ်ရှားခြင်း။ ဆူညံသံသည် အသုံးမဝင်သော အချက်အလက်များစွာကို ပါဝင်သောကြောင့် autoencoder သည် ၎င်းအား latent space သေးငယ်သောနေရာတွင် အားလုံးကို fit လုပ်၍မရနိုင်ပါ၊ ထို့ကြောင့် ပုံ၏ အရေးပါသောအပိုင်းကိုသာ ဖမ်းယူသည်။ Denoisers များကို လေ့ကျင့်ရာတွင် မူရင်းပုံများကို စတင်အသုံးပြုပြီး၊ ဆူညံသံ artificial ထည့်သွင်းထားသောပုံများကို autoencoder input အဖြစ်အသုံးပြုသည်။
-* **Super-resolution**၊ ပုံ၏ resolution ကို မြှင့်တင်ခြင်း။ Resolution မြင့်သောပုံများကို စတင်အသုံးပြုပြီး၊ resolution နိမ့်သောပုံကို autoencoder input အဖြစ်အသုံးပြုသည်။
-* **Generative models**။ autoencoder ကို လေ့ကျင့်ပြီးနောက်၊ decoder အပိုင်းကို random latent vectors မှ စတင်၍ object အသစ်များဖန်တီးရန် အသုံးပြုနိုင်သည်။
+* **ပုံရိပ်များ၏ dimension ကို လျှော့ချခြင်း** သို့မဟုတ် **image embeddings များကို လေ့ကျင့်ခြင်း**။ Autoencoders များသည် PCA ထက် ပိုမိုကောင်းမွန်သော ရလဒ်များပေးနိုင်သည်၊ အကြောင်းမှာ ၎င်းသည် ပုံရိပ်များ၏ နေရာကျမှုနှင့် အဆင့်ဆင့် features များကို ထည့်သွင်းစဉ်းစားသောကြောင့်ဖြစ်သည်။
+* **ဆူညံသံဖယ်ရှားခြင်း**၊ ပုံရိပ်မှ ဆူညံသံကို ဖယ်ရှားခြင်း။ ဆူညံသံသည် အသုံးမဝင်သော အချက်အလက်များစွာ ပါရှိသောကြောင့် autoencoder သည် ၎င်းအား သေးငယ်သော latent space တွင် အားလုံးကို ထည့်မရနိုင်ပါ၊ ထို့ကြောင့် ပုံရိပ်၏ အရေးကြီးသော အပိုင်းကိုသာ ဖမ်းယူသည်။ Denoisers များကို လေ့ကျင့်ရာတွင် မူရင်းပုံရိပ်များကို စတင်ပြီး၊ ဆူညံသံကို အတုထည့်သွင်းထားသော ပုံရိပ်များကို autoencoder input အဖြစ် အသုံးပြုသည်။
+* **Super-resolution**၊ ပုံရိပ်၏ resolution ကို မြှင့်တင်ခြင်း။ မြင့်မားသော resolution ပုံရိပ်များကို စတင်ပြီး၊ resolution နိမ့်သော ပုံရိပ်ကို autoencoder input အဖြစ် အသုံးပြုသည်။
+* **Generative models**။ Autoencoder ကို လေ့ကျင့်ပြီးနောက်၊ decoder အပိုင်းကို အသုံးပြု၍ random latent vectors များမှ စတင်ကာ အသစ်သော objects များကို ဖန်တီးနိုင်သည်။
 
 ## Variational Autoencoders (VAE)
 
-Traditional autoencoders များသည် input data ၏ dimension ကို လျှော့ချပြီး၊ input ပုံများ၏ အရေးပါသော features များကို ရှာဖွေသည်။ သို့သော် latent vectors များသည် အဓိပ္ပါယ်မရှိသောအခါများရှိသည်။ ဥပမာအားဖြင့် MNIST dataset ကိုယူကာ၊ latent vectors များနှင့် digit များကို ဆက်စပ်စဉ်းစားရန် မလွယ်ကူပါ၊ အနီးစပ်ဆုံး latent vectors များသည် တူညီသော digit များကို မဖြစ်စေပါ။
+ရိုးရိုး autoencoders များသည် input ဒေတာ၏ dimension ကို တစ်နည်းနည်းဖြင့် လျှော့ချပြီး၊ input ပုံရိပ်များ၏ အရေးကြီးသော features များကို ရှာဖွေသည်။ သို့သော် latent vectors များသည် အဓိပ္ပါယ်မရှိသော အခါများစွာ ရှိသည်။ ဥပမာအားဖြင့် MNIST dataset ကို ယူပါက၊ latent vectors များနှင့် digit များကို ခွဲခြားရန် မလွယ်ကူပါ၊ အနီးကပ်သော latent vectors များသည် တူညီသော digit များကို မဖြစ်မနေ ကိုယ်စားပြုမည်မဟုတ်ပါ။
 
-Generative models များကို လေ့ကျင့်ရန် latent space ကို နားလည်ရန် ပိုမိုကောင်းမွန်သည်။ ဤအကြောင်းအရာသည် **variational auto-encoder** (VAE) သို့ ဦးတည်စေသည်။
+တစ်ဖက်တွင်၊ *generative* models များကို လေ့ကျင့်ရန် latent space ကို နားလည်ရန် ပိုမိုကောင်းမွန်သည်။ ၎င်းအကြံဉာဏ်သည် **variational auto-encoder** (VAE) သို့ ဦးတည်စေသည်။
 
-VAE သည် latent parameters ၏ *statistical distribution* ကို ခန့်မှန်းရန် လေ့ကျင့်သော autoencoder ဖြစ်ပြီး၊ ၎င်းကို **latent distribution** ဟုခေါ်သည်။ ဥပမာအားဖြင့် latent vectors များကို z<sub>mean</sub> နှင့် z<sub>sigma</sub> (mean နှင့် standard deviation သည် dimensionality d ရှိသော vectors ဖြစ်သည်) ဖြင့် normal distribution အတိုင်း ခန့်မှန်းလိုနိုင်သည်။ VAE ၏ encoder သည် ၎င်း parameters များကို ခန့်မှန်းပြီး၊ decoder သည် ဤ distribution မှ random vector ကိုယူကာ object ကို ပြန်လည်ဖန်တီးသည်။
+VAE သည် latent parameters များ၏ *statistical distribution* ကို ခန့်မှန်းရန် သင်ယူသော autoencoder ဖြစ်သည်။ ဥပမာအားဖြင့် latent vectors များကို z<sub>mean</sub> နှင့် z<sub>sigma</sub> (mean နှင့် standard deviation တို့သည် dimensionality d ရှိသော ဗက်တာများဖြစ်သည်) ဖြင့် သာမန်အားဖြင့် ဖြန့်ဖြူးထားရန် လိုအပ်သည်။ VAE ၏ encoder သည် ၎င်း parameters များကို ခန့်မှန်းရန် သင်ယူပြီး၊ decoder သည် ၎င်း distribution မှ random vector တစ်ခုကို ယူ၍ object ကို ပြန်လည်ဖန်တီးသည်။
 
-အကျဉ်းချုပ်အားဖြင့် -
+အကျဉ်းချုပ် -
 
- * Input vector မှ `z_mean` နှင့် `z_log_sigma` ကို ခန့်မှန်းသည် (standard deviation ကို ခန့်မှန်းခြင်းမဟုတ်ဘဲ၊ ၎င်း၏ logarithm ကို ခန့်မှန်းသည်)
- * Distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)) မှ `sample` vector ကို ရွေးချယ်သည်
- * Decoder သည် `sample` ကို input vector အဖြစ်အသုံးပြုကာ မူရင်းပုံကို ပြန်လည်ဖန်တီးရန် ကြိုးစားသည်
+ * Input vector မှ z_mean နှင့် z_log_sigma ကို ခန့်မှန်းသည် (standard deviation ကို မဟုတ်ဘဲ၊ ၎င်း၏ logarithm ကို ခန့်မှန်းသည်)
+ * Distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)) မှ sample vector ကို ယူသည်
+ * Decoder သည် sample ကို input vector အဖြစ် အသုံးပြု၍ မူရင်းပုံရိပ်ကို ပြန်လည်ဖန်တီးရန် ကြိုးစားသည်
 
  <img src="images/vae.png" width="50%">
 
-> ပုံကို [Isaak Dykeman](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) ၏ blog post မှရယူသည်
+> ပုံရိပ် - [Isaak Dykeman ၏ ဘလော့](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
-Variational auto-encoders တွင် loss function အစိတ်အပိုင်းနှစ်ခုပါဝင်သည် -
+Variational auto-encoders တွင် loss function အစိတ်အပိုင်းနှစ်ခုပါဝင်သော ရှုပ်ထွေးသော loss function ကို အသုံးပြုသည် -
 
-* **Reconstruction loss** သည် target နှင့် ပြန်လည်ဖန်တီးထားသောပုံ၏ နီးစပ်မှုကို ပြသသော loss function ဖြစ်သည် (Mean Squared Error, MSE ဖြစ်နိုင်သည်)။ ၎င်းသည် normal autoencoders တွင် အသုံးပြုသော loss function နှင့် တူသည်။
-* **KL loss** သည် latent variable distributions ကို normal distribution နှင့် နီးစပ်စေသည်။ ၎င်းသည် [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) အပေါ် အခြေခံသည် - statistical distributions နှစ်ခု၏ တူညီမှုကို ခန့်မှန်းရန် metric တစ်ခုဖြစ်သည်။
+* **Reconstruction loss** သည် ပြန်လည်ဖန်တီးထားသော ပုံရိပ်နှင့် ရည်မှန်းထားသော ပုံရိပ်အကြား ဘယ်လောက်နီးကပ်သည်ကို ပြသသော loss function ဖြစ်သည် (Mean Squared Error, MSE ဖြစ်နိုင်သည်)။ ၎င်းသည် ရိုးရိုး autoencoders များတွင် အသုံးပြုသော loss function နှင့် တူသည်။
+* **KL loss** သည် latent variable distributions ကို သာမန် distribution နှင့် နီးကပ်နေစေရန် သေချာစေသည်။ ၎င်းသည် [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) အပေါ် အခြေခံသည် - နှစ်ခုသော statistical distributions များ ဘယ်လောက်တူညီသည်ကို ခန့်မှန်းရန် metric တစ်ခုဖြစ်သည်။
 
-VAE ၏ အရေးပါသောအားသာချက်တစ်ခုမှာ latent vectors ကို sample လုပ်ရန် distribution ကို သိရှိထားသောကြောင့် ပုံအသစ်များကို လွယ်ကူစွာ ဖန်တီးနိုင်သည်။ ဥပမာအားဖြင့် MNIST dataset ကို 2D latent vector ဖြင့် VAE ကို လေ့ကျင့်ပါက latent vector ၏ components များကို ပြောင်းလဲကာ digit များကို ရနိုင်သည် -
+VAE များ၏ အရေးကြီးသော အားသာချက်တစ်ခုမှာ latent vectors များကို sample လုပ်ရန် distribution ကို သိရှိထားသောကြောင့် အသစ်သော ပုံရိပ်များကို အလွယ်တကူ ဖန်တီးနိုင်ခြင်းဖြစ်သည်။ ဥပမာအားဖြင့် MNIST dataset ကို 2D latent vector ဖြင့် VAE ကို လေ့ကျင့်ပါက၊ latent vector ၏ components များကို အပြောင်းအလဲလုပ်၍ အမျိုးမျိုးသော digit များကို ရနိုင်သည် -
 
 <img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
 
-> ပုံကို [Dmitry Soshnikov](http://soshnikov.com) မှရယူသည်
+> ပုံရိပ် - [Dmitry Soshnikov](http://soshnikov.com)
 
-latent parameter space ၏ အခြားအစိတ်အပိုင်းများမှ latent vectors များကို ရယူသောအခါ၊ ပုံများသည် တစ်ခုနှင့်တစ်ခု ပေါင်းစပ်နေသည်ကို တွေ့နိုင်သည်။ ဤ space ကို 2D အနေနှင့် visualization ပြုလုပ်နိုင်သည် -
+latent parameter space ၏ အခြားသော အပိုင်းများမှ latent vectors များကို ရယူသည့်အခါ၊ ပုံရိပ်များသည် အချင်းချင်း ပေါင်းစည်းနေသည်ကို တွေ့နိုင်သည်။ ၎င်း space ကို 2D တွင်လည်း မြင်နိုင်သည် -
 
 <img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
 
-> ပုံကို [Dmitry Soshnikov](http://soshnikov.com) မှရယူသည်
+> ပုံရိပ် - [Dmitry Soshnikov](http://soshnikov.com)
 
-## ✍️ Exercises: Autoencoders
+## ✍️ လေ့ကျင့်မှုများ: Autoencoders
 
-Autoencoders အကြောင်းကို အောက်ပါ notebooks များတွင် ပိုမိုလေ့လာပါ -
+Autoencoders များအကြောင်း ပိုမိုလေ့လာရန် အောက်ပါ notebooks များကို ကြည့်ပါ -
 
-* [Autoencoders in TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)
-* [Autoencoders in PyTorch](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb)
+* [TensorFlow တွင် Autoencoders](AutoencodersTF.ipynb)
+* [PyTorch တွင် Autoencoders](AutoEncodersPyTorch.ipynb)
 
-## Autoencoders ၏ Properties
+## Autoencoders ၏ အင်္ဂါရပ်များ
 
-* **Data Specific** - ၎င်းသည် လေ့ကျင့်ထားသော ပုံအမျိုးအစားများတွင်သာ ကောင်းမွန်စွာ အလုပ်လုပ်သည်။ ဥပမာအားဖြင့် flower များအပေါ် super-resolution network ကို လေ့ကျင့်ပါက portrait များအပေါ် ကောင်းမွန်စွာ အလုပ်မလုပ်နိုင်ပါ။ ၎င်းသည် training dataset မှ features များကို အသုံးပြုကာ resolution မြင့်သောပုံကို ဖန်တီးသောကြောင့်ဖြစ်သည်။
-* **Lossy** - ပြန်လည်ဖန်တီးထားသောပုံသည် မူရင်းပုံနှင့် တူညီမှုမရှိပါ။ Loss ၏ nature ကို training အတွင်း အသုံးပြုသော *loss function* က သတ်မှတ်သည်။
+* **Data Specific** - ၎င်းတို့သည် လေ့ကျင့်ထားသော ပုံရိပ်အမျိုးအစားများတွင်သာ ကောင်းစွာ အလုပ်လုပ်သည်။ ဥပမာအားဖြင့် ပန်းပုံရိပ်များအတွက် super-resolution network ကို လေ့ကျင့်ပါက၊ ၎င်းသည် ပုံရိပ်များတွင် ကောင်းစွာ အလုပ်မလုပ်နိုင်ပါ။
+* **Lossy** - ပြန်လည်ဖန်တီးထားသော ပုံရိပ်သည် မူရင်းပုံရိပ်နှင့် တူညီမှုမရှိပါ။ Loss ၏ အမျိုးအစားသည် လေ့ကျင့်စဉ်တွင် အသုံးပြုသော *loss function* အပေါ် မူတည်သည်။
 * **Unlabeled data** တွင် အလုပ်လုပ်သည်။
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/18)
 
 ## အကျဉ်းချုပ်
 
-ဤသင်ခန်းစာတွင် autoencoders ၏ အမျိုးအစားများနှင့် ၎င်းတို့ကို AI scientist အနေဖြင့် ဘယ်လိုအသုံးပြုရမည်ကို သင်လေ့လာခဲ့သည်။ ၎င်းတို့ကို ဘယ်လိုတည်ဆောက်ရမည်၊ ပုံများကို ပြန်လည်ဖန်တီးရန် ဘယ်လိုအသုံးပြုရမည်ကိုလည်း သင်လေ့လာခဲ့သည်။ VAE နှင့် ၎င်းကို အသုံးပြုကာ ပုံအသစ်များဖန်တီးရန် ဘယ်လိုလုပ်ရမည်ကိုလည်း သင်လေ့လာခဲ့သည်။
+ဒီသင်ခန်းစာတွင် AI သိပ္ပံပညာရှင်များအတွက် ရရှိနိုင်သော autoencoders များအကြောင်း သင်လေ့လာခဲ့သည်။ ၎င်းတို့ကို ဘယ်လိုတည်ဆောက်ရမည်၊ ပုံရိပ်များကို ပြန်လည်ဖန်တီးရန် ဘယ်လိုအသုံးပြုရမည်ကို သင်လေ့လာခဲ့သည်။ သင်သည် VAE နှင့် ၎င်းကို အသစ်သော ပုံရိပ်များ ဖန်တီးရန် ဘယ်လိုအသုံးပြုရမည်ကိုလည်း သင်ယူခဲ့သည်။
 
-## 🚀 Challenge
+## 🚀 စိန်ခေါ်မှု
 
-ဤသင်ခန်းစာတွင် autoencoders ကို ပုံများအတွက် အသုံးပြုခြင်းကို သင်လေ့လာခဲ့သည်။ သို့သော်၊ ၎င်းတို့ကို ဂီတအတွက်လည်း အသုံးပြုနိုင်သည်! Magenta project ၏ [MusicVAE](https://magenta.tensorflow.org/music-vae) ကို ကြည့်ရှုပါ၊ autoencoders ကို အသုံးပြုကာ ဂီတကို ပြန်လည်ဖန်တီးရန် လေ့လာထားသည်။ ဤ library ကို အသုံးပြုကာ [အတွေ့အကြုံများ](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicVAE.ipynb) လုပ်ဆောင်ပြီး၊ သင်ဖန်တီးနိုင်သည့်အရာများကို ကြည့်ရှုပါ။
+ဒီသင်ခန်းစာတွင် သင်သည် ပုံရိပ်များအတွက် autoencoders အသုံးပြုခြင်းအကြောင်း သင်ယူခဲ့သည်။ သို့သော် ၎င်းတို့ကို တေးဂီတအတွက်လည်း အသုံးပြုနိုင်သည်! Magenta project ၏ [MusicVAE](https://magenta.tensorflow.org/music-vae) ကို ကြည့်ပါ၊ ၎င်းသည် autoencoders များကို အသုံးပြု၍ တေးဂီတကို ပြန်လည်ဖန်တီးရန် သင်ယူသည်။ [ဒီ library](https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/Multitrack_MusicV
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/16)
+---
 
-## Review & Self Study
-
-Autoencoders အကြောင်းကို အောက်ပါ resources များတွင် ပိုမိုလေ့လာပါ -
-
-* [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
-* [Blog post on NeuroHive](https://neurohive.io/ru/osnovy-data-science/variacionnyj-avtojenkoder-vae/)
-* [Variational Autoencoders Explained](https://kvfrans.com/variational-autoencoders-explained/)
-* [Conditional Variational Autoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
-
-## Assignment
-
-[AutoencodersTF.ipynb](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb) notebook ၏ အဆုံးတွင် 'task' ရှိသည် - ၎င်းကို သင်၏ assignment အဖြစ် အသုံးပြုပါ။
-
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်ခြင်းတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူက ဘာသာပြန်ခြင်းကို အကြံပြုပါသည်။ ဤဘာသာပြန်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

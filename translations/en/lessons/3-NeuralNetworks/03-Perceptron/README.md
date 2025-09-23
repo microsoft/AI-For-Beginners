@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-31T17:50:10+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T11:51:39+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "en"
 }
@@ -19,7 +19,7 @@ One of the earliest attempts to create something resembling a modern neural netw
 
 > Images [from Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
-The input image was represented by a 20x20 array of photocells, meaning the neural network had 400 inputs and one binary output. The simple network consisted of one neuron, also known as a **threshold logic unit**. The weights of the neural network functioned like potentiometers, which had to be manually adjusted during the training process.
+The input image was represented by a 20x20 array of photocells, meaning the neural network had 400 inputs and one binary output. This simple network consisted of a single neuron, also known as a **threshold logic unit**. The weights of the neural network acted like potentiometers, which had to be manually adjusted during the training process.
 
 > ✅ A potentiometer is a device that allows the user to adjust the resistance in a circuit.
 
@@ -40,20 +40,20 @@ where f is a step activation function.
 
 To train a perceptron, we need to find a weight vector w that correctly classifies most of the data points, minimizing the **error**. This error E is defined by the **perceptron criterion** as follows:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 where:
 
 * The sum is taken over the training data points i that are misclassified.
 * x<sub>i</sub> represents the input data, and t<sub>i</sub> is either -1 or +1 for negative and positive examples, respectively.
 
-This criterion is treated as a function of the weights w, and our goal is to minimize it. A common method used for this is **gradient descent**, where we start with an initial weight vector w<sup>(0)</sup> and update the weights at each step using the formula:
+This criterion is treated as a function of the weights w, and our goal is to minimize it. A common method used for this is **gradient descent**, where we start with some initial weights w<sup>(0)</sup> and update them at each step using the formula:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Here, η is the **learning rate**, and ∇E(w) represents the **gradient** of E. After calculating the gradient, the update formula becomes:
+Here, &eta; is the **learning rate**, and &nabla;E(w) represents the **gradient** of E. After calculating the gradient, the update formula becomes:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 The algorithm in Python looks like this:
 
@@ -77,6 +77,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
     return weights
 ```
 
+
 ## Conclusion
 
 In this lesson, you learned about the perceptron, a binary classification model, and how to train it using a weight vector.
@@ -89,7 +90,7 @@ If you'd like to try building your own perceptron, check out [this lab on Micros
 
 ## Review & Self Study
 
-To explore how perceptrons can be used to solve both simple and real-world problems, and to continue learning, check out the [Perceptron](Perceptron.ipynb) notebook.
+To explore how perceptrons can be used to solve both toy problems and real-world challenges, and to continue learning, check out the [Perceptron](Perceptron.ipynb) notebook.
 
 Here's an interesting [article about perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
@@ -102,5 +103,3 @@ In this lesson, we implemented a perceptron for a binary classification task and
 
 ---
 
-**Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.

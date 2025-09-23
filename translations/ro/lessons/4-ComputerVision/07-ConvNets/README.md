@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "088837b42b7d99198bf62db8a42411e0",
-  "translation_date": "2025-08-25T22:52:17+00:00",
+  "original_hash": "a560d5b845962cf33dc102266e409568",
+  "translation_date": "2025-09-23T14:14:29+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
   "language_code": "ro"
 }
@@ -13,7 +13,7 @@ Am văzut anterior că rețelele neuronale sunt destul de bune la procesarea ima
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
-În viața reală, ne dorim să putem recunoaște obiecte într-o imagine, indiferent de locația lor exactă în cadrul imaginii. Viziunea computerizată este diferită de clasificarea generică, deoarece atunci când încercăm să găsim un anumit obiect într-o imagine, scanăm imaginea căutând **tipare** specifice și combinațiile acestora. De exemplu, când căutăm o pisică, mai întâi putem căuta linii orizontale, care pot forma mustăți, iar apoi o anumită combinație de mustăți ne poate indica faptul că este, de fapt, o imagine cu o pisică. Poziția relativă și prezența anumitor tipare sunt importante, nu poziția lor exactă în imagine.
+În viața reală, ne dorim să putem recunoaște obiecte într-o imagine, indiferent de locația lor exactă în cadrul imaginii. Viziunea computerizată este diferită de clasificarea generică, deoarece atunci când încercăm să găsim un anumit obiect într-o imagine, scanăm imaginea căutând **tipare** specifice și combinațiile acestora. De exemplu, când căutăm o pisică, mai întâi putem căuta linii orizontale, care pot forma mustăți, iar apoi o anumită combinație de mustăți ne poate spune că este de fapt o imagine cu o pisică. Poziția relativă și prezența anumitor tipare sunt importante, nu poziția lor exactă în imagine.
 
 Pentru a extrage tipare, vom folosi noțiunea de **filtre convoluționale**. După cum știți, o imagine este reprezentată printr-o matrice 2D sau un tensor 3D cu adâncime de culoare. Aplicarea unui filtru înseamnă că luăm o matrice relativ mică numită **kernel de filtru**, iar pentru fiecare pixel din imaginea originală calculăm media ponderată cu punctele vecine. Putem privi acest proces ca o fereastră mică care alunecă peste întreaga imagine și calculează media tuturor pixelilor conform greutăților din matricea kernelului de filtru.
 
@@ -24,9 +24,11 @@ Pentru a extrage tipare, vom folosi noțiunea de **filtre convoluționale**. Dup
 
 De exemplu, dacă aplicăm filtre pentru margini verticale și orizontale de 3x3 pe cifrele MNIST, putem obține evidențieri (de exemplu, valori mari) acolo unde există margini verticale și orizontale în imaginea originală. Astfel, aceste două filtre pot fi utilizate pentru a "căuta" margini. În mod similar, putem proiecta diferite filtre pentru a căuta alte tipare de nivel scăzut:
 
-> Imaginea [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+<img src="images/lmfilters.jpg" width="500" align="center"/>
 
-Totuși, deși putem proiecta manual filtrele pentru a extrage anumite tipare, putem proiecta și rețeaua astfel încât să învețe tiparele automat. Aceasta este una dintre ideile principale din spatele CNN.
+> Imagine a [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
+
+Totuși, deși putem proiecta manual filtrele pentru a extrage anumite tipare, putem de asemenea proiecta rețeaua astfel încât să învețe tiparele automat. Aceasta este una dintre ideile principale din spatele CNN.
 
 ## Idei principale din spatele CNN
 
@@ -42,14 +44,14 @@ Modul în care funcționează CNN-urile se bazează pe următoarele idei importa
 
 ## ✍️ Exerciții: Rețele Neuronale Convoluționale
 
-Să continuăm explorarea modului în care funcționează rețelele neuronale convoluționale și cum putem obține filtre antrenabile, lucrând prin notebook-urile corespunzătoare:
+Să continuăm explorarea modului în care funcționează rețelele neuronale convoluționale și cum putem obține filtre antrenabile, lucrând prin caietele corespunzătoare:
 
-* [Rețele Neuronale Convoluționale - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
-* [Rețele Neuronale Convoluționale - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
+* [Rețele Neuronale Convoluționale - PyTorch](ConvNetsPyTorch.ipynb)
+* [Rețele Neuronale Convoluționale - TensorFlow](ConvNetsTF.ipynb)
 
 ## Arhitectura Piramidală
 
-Majoritatea CNN-urilor utilizate pentru procesarea imaginilor urmează o așa-numită arhitectură piramidală. Primul strat convoluțional aplicat imaginilor originale are, de obicei, un număr relativ mic de filtre (8-16), care corespund diferitelor combinații de pixeli, cum ar fi linii orizontale/verticale sau trăsături. La nivelul următor, reducem dimensiunea spațială a rețelei și creștem numărul de filtre, ceea ce corespunde mai multor combinații posibile de caracteristici simple. Cu fiecare strat, pe măsură ce ne apropiem de clasificatorul final, dimensiunile spațiale ale imaginii scad, iar numărul de filtre crește.
+Majoritatea CNN-urilor utilizate pentru procesarea imaginilor urmează o așa-numită arhitectură piramidală. Primul strat convoluțional aplicat imaginilor originale are de obicei un număr relativ mic de filtre (8-16), care corespund diferitelor combinații de pixeli, cum ar fi linii orizontale/verticale sau trăsături. La nivelul următor, reducem dimensiunea spațială a rețelei și creștem numărul de filtre, ceea ce corespunde mai multor combinații posibile de caracteristici simple. Cu fiecare strat, pe măsură ce ne apropiem de clasificatorul final, dimensiunile spațiale ale imaginii scad, iar numărul de filtre crește.
 
 Ca exemplu, să analizăm arhitectura VGG-16, o rețea care a obținut o acuratețe de 92.7% în clasificarea top-5 din ImageNet în 2014:
 
@@ -63,5 +65,5 @@ Ca exemplu, să analizăm arhitectura VGG-16, o rețea care a obținut o acurate
 
 [Continuă studiul despre cele mai cunoscute arhitecturi CNN](CNN_Architectures.md)
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+---
+

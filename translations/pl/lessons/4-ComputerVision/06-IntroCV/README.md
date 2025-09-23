@@ -1,28 +1,28 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4bedc8e702db17260cfe824d58b6cfd4",
-  "translation_date": "2025-08-24T10:32:05+00:00",
+  "original_hash": "feeca98225cb420afc89415f24f63d92",
+  "translation_date": "2025-09-23T13:52:01+00:00",
   "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
   "language_code": "pl"
 }
 -->
-# Wprowadzenie do Wizji Komputerowej
+# Wprowadzenie do wizji komputerowej
 
-[Wizja komputerowa](https://wikipedia.org/wiki/Computer_vision) to dziedzina, której celem jest umożliwienie komputerom uzyskania wysokopoziomowego zrozumienia obrazów cyfrowych. Jest to dość szeroka definicja, ponieważ *zrozumienie* może oznaczać wiele różnych rzeczy, w tym znalezienie obiektu na zdjęciu (**detekcja obiektów**), zrozumienie, co się dzieje (**detekcja zdarzeń**), opisanie obrazu w formie tekstu czy rekonstrukcję sceny w 3D. Istnieją również specjalne zadania związane z obrazami ludzi: szacowanie wieku i emocji, detekcja i identyfikacja twarzy oraz estymacja pozycji w 3D, żeby wymienić tylko kilka.
+[Wizja komputerowa](https://wikipedia.org/wiki/Computer_vision) to dziedzina, której celem jest umożliwienie komputerom uzyskania wysokopoziomowego zrozumienia obrazów cyfrowych. Jest to dość szeroka definicja, ponieważ *zrozumienie* może oznaczać wiele różnych rzeczy, takich jak znalezienie obiektu na zdjęciu (**detekcja obiektów**), zrozumienie, co się dzieje (**detekcja zdarzeń**), opisanie obrazu w formie tekstu czy rekonstrukcja sceny w 3D. Istnieją również specjalne zadania związane z obrazami ludzi: szacowanie wieku i emocji, detekcja i identyfikacja twarzy oraz estymacja pozycji 3D, by wymienić tylko kilka.
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 Jednym z najprostszych zadań wizji komputerowej jest **klasyfikacja obrazów**.
 
-Wizja komputerowa często jest uważana za gałąź sztucznej inteligencji. Obecnie większość zadań związanych z wizją komputerową jest rozwiązywana za pomocą sieci neuronowych. W tej sekcji dowiemy się więcej o specjalnym typie sieci neuronowych używanych w wizji komputerowej, [konwolucyjnych sieciach neuronowych](../07-ConvNets/README.md).
+Wizja komputerowa często jest uważana za gałąź sztucznej inteligencji. Obecnie większość zadań związanych z wizją komputerową jest rozwiązywana za pomocą sieci neuronowych. W tej sekcji dowiemy się więcej o specjalnym typie sieci neuronowych stosowanych w wizji komputerowej, [konwolucyjnych sieciach neuronowych](../07-ConvNets/README.md).
 
-Jednak zanim przekażesz obraz do sieci neuronowej, w wielu przypadkach warto zastosować pewne algorytmiczne techniki, aby poprawić jakość obrazu.
+Jednak zanim przekażesz obraz do sieci neuronowej, w wielu przypadkach warto zastosować pewne techniki algorytmiczne, aby poprawić jakość obrazu.
 
 Istnieje kilka bibliotek Python dostępnych do przetwarzania obrazów:
 
-* **[imageio](https://imageio.readthedocs.io/en/stable/)** może być używana do odczytu/zapisu różnych formatów obrazów. Obsługuje również ffmpeg, przydatne narzędzie do konwersji klatek wideo na obrazy.
-* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (znana również jako PIL) jest nieco bardziej zaawansowana i obsługuje manipulacje obrazami, takie jak morfing, dostosowanie palety i inne.
+* **[imageio](https://imageio.readthedocs.io/en/stable/)** może być używane do odczytu/zapisu różnych formatów obrazów. Obsługuje również ffmpeg, przydatne narzędzie do konwersji klatek wideo na obrazy.
+* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (znane również jako PIL) jest nieco bardziej zaawansowane i obsługuje manipulacje obrazami, takie jak morfowanie, dostosowanie palety i inne.
 * **[OpenCV](https://opencv.org/)** to potężna biblioteka do przetwarzania obrazów napisana w C++, która stała się standardem w tej dziedzinie. Posiada wygodny interfejs w Pythonie.
 * **[dlib](http://dlib.net/)** to biblioteka C++, która implementuje wiele algorytmów uczenia maszynowego, w tym niektóre algorytmy wizji komputerowej. Posiada również interfejs w Pythonie i może być używana do trudnych zadań, takich jak detekcja twarzy i punktów charakterystycznych twarzy.
 
@@ -34,7 +34,7 @@ Dobrym miejscem do nauki OpenCV jest [kurs Learn OpenCV](https://learnopencv.com
 
 ### Ładowanie obrazów
 
-Obrazy w Pythonie można wygodnie reprezentować za pomocą tablic NumPy. Na przykład obrazy w skali szarości o rozmiarze 320x200 pikseli byłyby przechowywane w tablicy 200x320, a kolorowe obrazy o tych samych wymiarach miałyby kształt 200x320x3 (dla 3 kanałów kolorów). Aby załadować obraz, możesz użyć następującego kodu:
+Obrazy w Pythonie można wygodnie reprezentować za pomocą tablic NumPy. Na przykład obrazy w skali szarości o rozmiarze 320x200 pikseli byłyby przechowywane w tablicy 200x320, a obrazy kolorowe o tych samych wymiarach miałyby kształt 200x320x3 (dla 3 kanałów kolorów). Aby załadować obraz, możesz użyć następującego kodu:
 
 ```python
 import cv2
@@ -52,50 +52,50 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 Ta sama funkcja `cvtColor` może być używana do wykonywania innych transformacji przestrzeni kolorów, takich jak konwersja obrazu na skalę szarości lub na przestrzeń HSV (Hue-Saturation-Value).
 
-Możesz również użyć OpenCV do ładowania wideo klatka po klatce - przykład znajduje się w ćwiczeniu [OpenCV Notebook](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb).
+Możesz również użyć OpenCV do ładowania klatek wideo jedna po drugiej - przykład znajduje się w ćwiczeniu [OpenCV Notebook](OpenCV.ipynb).
 
 ### Przetwarzanie obrazów
 
-Przed przekazaniem obrazu do sieci neuronowej możesz chcieć zastosować kilka kroków wstępnego przetwarzania. OpenCV oferuje wiele możliwości, w tym:
+Przed przekazaniem obrazu do sieci neuronowej możesz chcieć zastosować kilka kroków wstępnego przetwarzania. OpenCV umożliwia wiele operacji, w tym:
 
 * **Zmiana rozmiaru** obrazu za pomocą `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
 * **Rozmycie** obrazu za pomocą `im = cv2.medianBlur(im,3)` lub `im = cv2.GaussianBlur(im, (3,3), 0)`
 * Zmiana **jasności i kontrastu** obrazu może być wykonana za pomocą manipulacji tablicami NumPy, jak opisano [w tej notatce na Stackoverflow](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
 * Użycie [progowania](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) przez wywołanie funkcji `cv2.threshold`/`cv2.adaptiveThreshold`, co często jest preferowane w stosunku do regulacji jasności lub kontrastu.
-* Zastosowanie różnych [transformacji](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) obrazu:
+* Zastosowanie różnych [transformacji](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) do obrazu:
     - **[Transformacje afiniczne](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** mogą być przydatne, jeśli potrzebujesz połączyć obrót, zmianę rozmiaru i pochylanie obrazu, a znasz lokalizację źródłową i docelową trzech punktów na obrazie. Transformacje afiniczne zachowują równoległość linii.
     - **[Transformacje perspektywiczne](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** mogą być przydatne, gdy znasz pozycje źródłowe i docelowe 4 punktów na obrazie. Na przykład, jeśli robisz zdjęcie prostokątnego dokumentu za pomocą kamery smartfona pod pewnym kątem i chcesz uzyskać prostokątny obraz samego dokumentu.
 * Zrozumienie ruchu wewnątrz obrazu za pomocą **[optycznego przepływu](https://docs.opencv.org/4.5.5/d4/dee/tutorial_optical_flow.html)**.
 
-## Przykłady użycia wizji komputerowej
+## Przykłady zastosowania wizji komputerowej
 
-W naszym [OpenCV Notebook](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb) przedstawiamy kilka przykładów, kiedy wizja komputerowa może być używana do wykonywania konkretnych zadań:
+W naszym [OpenCV Notebook](OpenCV.ipynb) przedstawiamy kilka przykładów, kiedy wizja komputerowa może być użyta do wykonania konkretnych zadań:
 
 * **Wstępne przetwarzanie fotografii książki Braille'a**. Skupiamy się na tym, jak można użyć progowania, detekcji cech, transformacji perspektywicznej i manipulacji NumPy, aby oddzielić pojedyncze symbole Braille'a do dalszej klasyfikacji przez sieć neuronową.
 
-![Obraz Braille'a](../../../../../lessons/4-ComputerVision/06-IntroCV/data/braille.jpeg) | ![Obraz Braille'a po przetworzeniu](../../../../../lessons/4-ComputerVision/06-IntroCV/images/braille-result.png) | ![Symbole Braille'a](../../../../../lessons/4-ComputerVision/06-IntroCV/images/braille-symbols.png)
+![Obraz Braille'a](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.pl.jpeg) | ![Obraz Braille'a po przetworzeniu](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.pl.png) | ![Symbole Braille'a](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.pl.png)
 ----|-----|-----
 
-> Obraz z [OpenCV.ipynb](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)
+> Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 
-* **Detekcja ruchu w wideo za pomocą różnicy klatek**. Jeśli kamera jest nieruchoma, to klatki z jej strumienia powinny być dość podobne do siebie. Ponieważ klatki są reprezentowane jako tablice, wystarczy odjąć te tablice dla dwóch kolejnych klatek, aby uzyskać różnicę pikseli, która powinna być niska dla statycznych klatek, a wyższa, gdy w obrazie występuje znaczący ruch.
+* **Detekcja ruchu w wideo za pomocą różnicy klatek**. Jeśli kamera jest nieruchoma, klatki z jej strumienia powinny być dość podobne do siebie. Ponieważ klatki są reprezentowane jako tablice, wystarczy odjąć te tablice dla dwóch kolejnych klatek, aby uzyskać różnicę pikseli, która powinna być niska dla statycznych klatek, a wyższa, gdy w obrazie występuje znaczący ruch.
 
-![Obraz klatek wideo i różnic klatek](../../../../../lessons/4-ComputerVision/06-IntroCV/images/frame-difference.png)
+![Obraz klatek wideo i różnic klatek](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.pl.png)
 
-> Obraz z [OpenCV.ipynb](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)
+> Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detekcja ruchu za pomocą optycznego przepływu**. [Optyczny przepływ](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) pozwala zrozumieć, jak poszczególne piksele na klatkach wideo się poruszają. Istnieją dwa rodzaje optycznego przepływu:
 
-   - **Gęsty optyczny przepływ** oblicza pole wektorowe, które pokazuje dla każdego piksela, gdzie się porusza.
+   - **Gęsty optyczny przepływ** oblicza pole wektorowe, które pokazuje, gdzie każdy piksel się porusza.
    - **Rzadki optyczny przepływ** opiera się na wybraniu charakterystycznych cech obrazu (np. krawędzi) i budowaniu ich trajektorii od klatki do klatki.
 
-![Obraz optycznego przepływu](../../../../../lessons/4-ComputerVision/06-IntroCV/images/optical.png)
+![Obraz optycznego przepływu](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.pl.png)
 
-> Obraz z [OpenCV.ipynb](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)
+> Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 
-## ✍️ Przykładowe Notatniki: OpenCV [wypróbuj OpenCV w działaniu](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)
+## ✍️ Przykładowe Notatniki: OpenCV [wypróbuj OpenCV w działaniu](OpenCV.ipynb)
 
-Przeprowadźmy kilka eksperymentów z OpenCV, eksplorując [OpenCV Notebook](../../../../../lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb).
+Zróbmy kilka eksperymentów z OpenCV, eksplorując [OpenCV Notebook](OpenCV.ipynb)
 
 ## Podsumowanie
 
@@ -117,5 +117,5 @@ W tym laboratorium nagrasz wideo z prostymi gestami, a Twoim celem będzie wyodr
 
 <img src="images/palm-movement.png" width="30%" alt="Klatka ruchu dłoni"/>
 
-**Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż staramy się zapewnić dokładność, prosimy mieć na uwadze, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+---
+

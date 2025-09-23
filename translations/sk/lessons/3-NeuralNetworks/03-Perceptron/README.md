@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-25T23:57:14+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T14:08:49+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "sk"
 }
@@ -19,7 +19,7 @@ Jedným z prvých pokusov o implementáciu niečoho podobného moderným neurón
 
 > Obrázky [z Wikipédie](https://en.wikipedia.org/wiki/Perceptron)
 
-Vstupný obraz bol reprezentovaný maticou 20x20 fotobuniek, takže neurónová sieť mala 400 vstupov a jeden binárny výstup. Jednoduchá sieť obsahovala jeden neurón, nazývaný tiež **jednotka prahovej logiky**. Váhy neurónovej siete fungovali ako potenciometre, ktoré bolo potrebné manuálne nastaviť počas fázy učenia.
+Vstupný obraz bol reprezentovaný mriežkou 20x20 fotobuniek, takže neurónová sieť mala 400 vstupov a jeden binárny výstup. Jednoduchá sieť obsahovala jeden neurón, nazývaný tiež **jednotka logického prahu**. Váhy neurónovej siete fungovali ako potenciometre, ktoré bolo potrebné manuálne nastaviť počas fázy učenia.
 
 > ✅ Potenciometer je zariadenie, ktoré umožňuje používateľovi nastaviť odpor v obvode.
 
@@ -27,7 +27,7 @@ Vstupný obraz bol reprezentovaný maticou 20x20 fotobuniek, takže neurónová 
 
 ## Model perceptronu
 
-Predpokladajme, že máme N vlastností v našom modeli, v takom prípade by vstupný vektor bol vektor veľkosti N. Perceptron je model **binárnej klasifikácie**, t.j. dokáže rozlíšiť medzi dvoma triedami vstupných údajov. Predpokladáme, že pre každý vstupný vektor x bude výstup nášho perceptronu buď +1 alebo -1, v závislosti od triedy. Výstup sa vypočíta pomocou vzorca:
+Predpokladajme, že máme N vlastností v našom modeli, v takom prípade by vstupný vektor mal veľkosť N. Perceptron je model **binárnej klasifikácie**, t.j. dokáže rozlišovať medzi dvoma triedami vstupných údajov. Predpokladáme, že pre každý vstupný vektor x bude výstup nášho perceptronu buď +1 alebo -1, v závislosti od triedy. Výstup sa vypočíta pomocou vzorca:
 
 y(x) = f(w<sup>T</sup>x)
 
@@ -40,20 +40,20 @@ kde f je aktivačná funkcia typu krok.
 
 Na tréning perceptronu potrebujeme nájsť vektor váh w, ktorý klasifikuje väčšinu hodnôt správne, t.j. vedie k najmenšej **chybe**. Táto chyba E je definovaná **kritériom perceptronu** nasledovne:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 kde:
 
 * súčet sa berie na tých tréningových dátových bodoch i, ktoré vedú k nesprávnej klasifikácii
 * x<sub>i</sub> je vstupný údaj a t<sub>i</sub> je buď -1 alebo +1 pre negatívne a pozitívne príklady.
 
-Toto kritérium sa považuje za funkciu váh w, ktorú potrebujeme minimalizovať. Často sa používa metóda nazývaná **gradientný zostup**, pri ktorej začíname s nejakými počiatočnými váhami w<sup>(0)</sup>, a potom v každom kroku aktualizujeme váhy podľa vzorca:
+Toto kritérium sa považuje za funkciu váh w, ktorú potrebujeme minimalizovať. Často sa používa metóda nazývaná **gradientný zostup**, pri ktorej začíname s počiatočnými váhami w<sup>(0)</sup> a potom v každom kroku aktualizujeme váhy podľa vzorca:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Tu η je tzv. **rýchlosť učenia** a ∇E(w) označuje **gradient** E. Po výpočte gradientu dostaneme:
+Tu &eta; je tzv. **rýchlosť učenia** a &nabla;E(w) označuje **gradient** E. Po výpočte gradientu dostaneme:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 Algoritmus v Pythone vyzerá takto:
 
@@ -89,7 +89,7 @@ Ak si chcete vyskúšať vytvoriť vlastný perceptron, skúste [tento lab na Mi
 
 ## Prehľad a samostatné štúdium
 
-Ak chcete vidieť, ako môžeme použiť perceptron na riešenie jednoduchého problému, ako aj reálnych problémov, a pokračovať v učení, prejdite na [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb) notebook.
+Ak chcete vidieť, ako môžeme použiť perceptron na riešenie jednoduchého problému, ako aj reálnych problémov, a pokračovať v učení, prejdite na [Perceptron](Perceptron.ipynb) notebook.
 
 Tu je zaujímavý [článok o perceptronoch](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
@@ -98,7 +98,7 @@ Tu je zaujímavý [článok o perceptronoch](https://towardsdatascience.com/what
 V tejto lekcii sme implementovali perceptron pre úlohu binárnej klasifikácie a použili sme ho na klasifikáciu medzi dvoma ručne písanými číslicami. V tomto laboratóriu máte za úlohu vyriešiť problém klasifikácie číslic úplne, t.j. určiť, ktorá číslica najpravdepodobnejšie zodpovedá danému obrázku.
 
 * [Pokyny](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Notebook](lab/PerceptronMultiClass.ipynb)
 
-**Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+---
+

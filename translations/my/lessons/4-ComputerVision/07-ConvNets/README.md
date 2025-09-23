@@ -1,67 +1,69 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "088837b42b7d99198bf62db8a42411e0",
-  "translation_date": "2025-08-25T22:54:11+00:00",
+  "original_hash": "a560d5b845962cf33dc102266e409568",
+  "translation_date": "2025-09-23T15:14:13+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
   "language_code": "my"
 }
 -->
 # Convolutional Neural Networks
 
-ယခင်က ကျွန်ုပ်တို့မြင်ခဲ့သည့်အတိုင်း နယူးရယ်နက်ဝက်များသည် ပုံများကို ကိုင်တွယ်ရာတွင် အတော်လေးကောင်းမွန်ပြီး MNIST ဒေတာစနစ်မှ လက်ဖြင့်ရေးသားထားသော ဂဏန်းများကိုတောင် တစ်လွှာပဲရှိသော perceptron ဖြင့် တော်တော်လေးတိကျစွာ မှတ်မိနိုင်သည်။ သို့သော် MNIST ဒေတာစနစ်သည် အထူးသဖြင့် ဂဏန်းများအားလုံးကို ပုံ၏အလယ်တွင်ထားရှိထားသောကြောင့် အလုပ်ကို ပိုမိုလွယ်ကူစေသည်။
+မကြာသေးမီက ကျွန်တော်တို့ neural networks တွေဟာ ပုံတွေကို ကောင်းကောင်းကိုင်တွယ်နိုင်ပြီး၊ တစ်လွှာတည်းသော perceptron ကတောင် MNIST dataset ထဲက လက်ရေးအက္ခရာဂဏန်းတွေကို တော်တော်လေးတိကျမှုရှိရှိနဲ့ မှတ်မိနိုင်တယ်ဆိုတာကို မြင်ခဲ့ပါတယ်။ သို့သော်လည်း MNIST dataset ဟာ အထူးတလည်ဖြစ်ပြီး၊ အက္ခရာဂဏန်းတွေဟာ ပုံထဲမှာ အလယ်မှာထားရှိထားတာကြောင့် အလုပ်ကို ပိုမိုလွယ်ကူစေပါတယ်။
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/13)
 
-အမှန်တကယ်ဘဝတွင် ပုံ၏တိကျသောတည်နေရာမဟုတ်ဘဲ ပုံတစ်ပုံတွင် အရာဝတ္ထုများကို မှတ်မိနိုင်စေရန်လိုအပ်သည်။ ကွန်ပျူတာမြင်ကြည့်မှုသည် အထွေထွေခွဲခြားမှုနှင့်ကွဲပြားပြီး ပုံတစ်ပုံတွင် အရာဝတ္ထုတစ်ခုကို ရှာဖွေရာတွင် အချို့သော **ပုံစံများ** နှင့် ၎င်းတို့၏ပေါင်းစည်းမှုများကို ရှာဖွေရန် ပုံကို စစ်ဆေးနေသည်။ ဥပမာအားဖြင့် ကြောင်တစ်ကောင်ကို ရှာဖွေရာတွင် အရင်ဆုံး အလျားလိုက်လိုင်းများကို ရှာဖွေပြီး ၎င်းတို့သည် ကြောင်၏မုတ်ဆိတ်ဖြစ်နိုင်သည်ဟု သတ်မှတ်နိုင်သည်။ ထို့နောက် မုတ်ဆိတ်ပုံစံတစ်ခုတည်းဖြင့် ၎င်းသည် ကြောင်ပုံတစ်ပုံဖြစ်ကြောင်း ပြောနိုင်သည်။ ပုံတစ်ပုံတွင် တိကျသောတည်နေရာထက် ပုံစံတစ်ခု၏ ဆက်စပ်မှုနှင့် ရှိနေမှုသည် အရေးကြီးသည်။
+အမှန်တကယ်မှာတော့ ပုံထဲမှာ အရာဝတ္ထုတွေကို သူ့နေရာတိကျမှုမဟုတ်ဘဲ မှတ်မိနိုင်ဖို့လိုပါတယ်။ Computer vision ဟာ အထွေထွေ classification နဲ့ ကွဲပြားပါတယ်၊ အကြောင်းကတော့ ပုံထဲမှာ အတိအကျအရာဝတ္ထုတစ်ခုကို ရှာဖွေနေတဲ့အခါမှာ အထူး **patterns** တွေကို ရှာဖွေနေပြီး၊ အဲဒီ patterns တွေကို ပေါင်းစပ်ထားတာကို ရှာဖွေနေပါတယ်။ ဥပမာ၊ ကြောင်ကို ရှာဖွေနေတဲ့အခါမှာ အရင်ဆုံး horizontal lines တွေကို ရှာဖွေနိုင်ပြီး၊ အဲဒီ horizontal lines တွေက whiskers ဖြစ်နိုင်ပြီး၊ whiskers တွေကို ပေါင်းစပ်ထားတဲ့အခါ ကြောင်ပုံတစ်ပုံဖြစ်တယ်ဆိုတာကို သိနိုင်ပါတယ်။ Relative position နဲ့ patterns တစ်ချို့ရဲ့ ရှိမှုက အရေးကြီးပါတယ်၊ သူ့နေရာတိကျမှုကတော့ မဟုတ်ပါဘူး။
 
-ပုံစံများကို ထုတ်ယူရန် **convolutional filters** ၏အယူအဆကို အသုံးပြုမည်ဖြစ်သည်။ သင်သိသည့်အတိုင်း ပုံတစ်ပုံကို 2D-မက်ထရစ် သို့မဟုတ် အရောင်အနက်ရှိသော 3D-တန်ဆာဖြင့် ကိုယ်စားပြုသည်။ filter ကို အသုံးပြုခြင်းသည် အလွန်သေးငယ်သော **filter kernel** မက်ထရစ်ကို ယူပြီး မူလပုံ၏ တစ်ခုချင်းစီ pixel အတွက် အနီးအနားရှိအချက်အလက်များနှင့်အတူ အလေးချိန်ပျမ်းမျှကိုတွက်ချက်ခြင်းဖြစ်သည်။ ၎င်းကို ပုံတစ်ပုံလုံးပေါ်တွင် သေးငယ်သောပြတင်းပေါက်တစ်ခုကဲ့သို့ လှိမ့်ပြီး filter kernel မက်ထရစ်ရှိ အလေးချိန်များအတိုင်း pixel အားလုံးကို ပျမ်းမျှစေသည်ဟု မြင်နိုင်သည်။
+Patterns တွေကို ရှာဖွေဖို့ **convolutional filters** ဆိုတဲ့ အယူအဆကို အသုံးပြုပါမယ်။ သင်သိပြီးသားဖြစ်တဲ့အတိုင်း၊ ပုံတစ်ပုံဟာ 2D-matrix, ဒါမှမဟုတ် color depth ပါတဲ့ 3D-tensor အနေနဲ့ ဖော်ပြထားပါတယ်။ Filter ကို အသုံးပြုတဲ့အခါမှာ **filter kernel** matrix လေးတစ်ခုကို ယူပြီး၊ မူရင်းပုံထဲက pixel တစ်ခုစီအတွက် အနီးအနားမှာရှိတဲ့ point တွေနဲ့ weighted average ကိုတွက်ချက်ပါတယ်။ ဒါကို ပုံတစ်ပုံလုံးကို sliding လုပ်ပြီး၊ filter kernel matrix ထဲက weight တွေအတိုင်း pixel တွေကို averaging လုပ်နေတဲ့ window လေးတစ်ခုလိုမျိုး မြင်နိုင်ပါတယ်။
 
 ![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.my.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.my.png)
 ----|----
 
-> ပုံ - Dmitry Soshnikov
+> Image by Dmitry Soshnikov
 
-ဥပမာအားဖြင့် MNIST ဂဏန်းများတွင် 3x3 vertical edge နှင့် horizontal edge filters ကို အသုံးပြုပါက မူလပုံတွင် အလျားလိုက်နှင့် အနံလိုက်အနားများရှိရာနေရာများကို ထင်ရှားစေမည် (ဥပမာ- အမြင့်တန်ဖိုးများ)။ ထို့ကြောင့် ၎င်း filter နှစ်ခုကို အနားများကို "ရှာဖွေ" ရန် အသုံးပြုနိုင်သည်။ ထို့နောက် အခြားအနိမ့်အဆင့်ပုံစံများကို ရှာဖွေရန် filter များကိုလည်း ဒီဇိုင်းဆွဲနိုင်သည်။
+ဥပမာ၊ MNIST digits တွေကို 3x3 vertical edge နဲ့ horizontal edge filters တွေကို အသုံးပြုရင်၊ မူရင်းပုံထဲမှာ vertical နဲ့ horizontal edges ရှိတဲ့နေရာတွေမှာ highlight (ဥပမာ high values) တွေကို ရနိုင်ပါတယ်။ ဒါကြောင့် အဲဒီ filter နှစ်ခုကို edges တွေကို "ရှာဖွေ"ဖို့ အသုံးပြုနိုင်ပါတယ်။ အဲဒီလိုပဲ၊ အခြား low-level patterns တွေကို ရှာဖွေဖို့ filter တွေကို design လုပ်နိုင်ပါတယ်။
 
-> [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) ၏ပုံ
+<img src="images/lmfilters.jpg" width="500" align="center"/>
 
-သို့သော် ပုံစံများကို လက်ဖြင့် filter များဖြင့် ထုတ်ယူနိုင်သလို၊ နက်ဝက်ကို ပုံစံများကို အလိုအလျောက် သင်ယူနိုင်စေရန် ဒီဇိုင်းဆွဲနိုင်သည်။ ၎င်းသည် CNN ၏ အဓိကအယူအဆတစ်ခုဖြစ်သည်။
+> Image of [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 
-## CNN ၏ အဓိကအယူအဆများ
+သို့သော်လည်း၊ patterns တွေကို manually design လုပ်နိုင်သလို၊ network ကို design လုပ်တဲ့အခါမှာ patterns တွေကို အလိုအလျောက် သင်ယူနိုင်အောင်လည်း ပြုလုပ်နိုင်ပါတယ်။ ဒါဟာ CNN ရဲ့ အဓိကအယူအဆတစ်ခုဖြစ်ပါတယ်။
 
-CNN များအလုပ်လုပ်ပုံသည် အောက်ပါအရေးကြီးသောအယူအဆများအပေါ် အခြေခံသည်-
+## Main ideas behind CNN
 
-* Convolutional filters များသည် ပုံစံများကို ထုတ်ယူနိုင်သည်။
-* Filter များကို အလိုအလျောက် သင်ယူနိုင်စေရန် နက်ဝက်ကို ဒီဇိုင်းဆွဲနိုင်သည်။
-* မူလပုံတွင်သာမက အဆင့်မြင့် features တွင်လည်း ပုံစံများကို ရှာဖွေရန် အလားတူနည်းလမ်းကို အသုံးပြုနိုင်သည်။ ထို့ကြောင့် CNN feature extraction သည် အနိမ့်အဆင့် pixel ပေါင်းစည်းမှုမှ စ၍ ပုံ၏ အဆင့်မြင့်အစိတ်အပိုင်းများအထိ feature များ၏ အဆင့်လိုက်အဆင့်လိုက်အဆောက်အအုံအပေါ် အလုပ်လုပ်သည်။
+CNN တွေဟာ အောက်ပါ အရေးကြီးတဲ့ အယူအဆတွေကို အခြေခံပြီး အလုပ်လုပ်ပါတယ်-
+
+* Convolutional filters တွေက patterns တွေကို ရှာဖွေနိုင်တယ်
+* Filters တွေကို အလိုအလျောက် သင်ယူနိုင်အောင် network ကို design လုပ်နိုင်တယ်
+* မူရင်းပုံထဲမှာသာမက၊ high-level features တွေထဲမှာ patterns တွေကို ရှာဖွေနိုင်ဖို့ အတူတူပုံစံကို အသုံးပြုနိုင်တယ်။ ဒါကြောင့် CNN feature extraction ဟာ low-level pixel combinations တွေကနေ စပြီး၊ ပုံရဲ့ အပိုင်းပိုင်းတွေကို ပေါင်းစပ်ထားတဲ့ higher-level features တွေထိ hierarchy အတိုင်း အလုပ်လုပ်ပါတယ်။
 
 ![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.my.png)
 
-> ပုံ - [Hislop-Lynch ၏စာတမ်း](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) မှ၊ [၎င်းတို့၏သုတေသန](https://dl.acm.org/doi/abs/10.1145/1553374.1553453) အပေါ်အခြေခံ
+> Image from [a paper by Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), based on [their research](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
-## ✍️ လေ့ကျင့်မှုများ: Convolutional Neural Networks
+## ✍️ Exercises: Convolutional Neural Networks
 
-Convolutional neural networks များအလုပ်လုပ်ပုံနှင့် trainable filters များကို မည်သို့ရရှိနိုင်သည်ကို ဆက်လက်လေ့လာရန် အောက်ပါ notebooks များကို အသုံးပြုပါ-
+Convolutional neural networks တွေ ဘယ်လိုအလုပ်လုပ်တယ်ဆိုတာနဲ့၊ trainable filters တွေကို ဘယ်လိုရနိုင်တယ်ဆိုတာကို notebooks တွေကို အသုံးပြုပြီး ဆက်လက်လေ့လာကြမယ်-
 
-* [Convolutional Neural Networks - PyTorch](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb)
-* [Convolutional Neural Networks - TensorFlow](../../../../../lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)
+* [Convolutional Neural Networks - PyTorch](ConvNetsPyTorch.ipynb)
+* [Convolutional Neural Networks - TensorFlow](ConvNetsTF.ipynb)
 
 ## Pyramid Architecture
 
-ပုံများကို ကိုင်တွယ်ရာတွင် အသုံးပြုသော CNN များအများစုသည် "pyramid architecture" ဟုခေါ်သောဖွဲ့စည်းပုံကို လိုက်နာသည်။ မူလပုံများတွင် ပထမဆုံး convolutional layer သည် အလွန်နည်းသော filter များ (8-16) ကိုသာ ရှိပြီး ၎င်းတို့သည် အလျားလိုက်/အနံလိုက်လိုင်းများကဲ့သို့သော pixel ပေါင်းစည်းမှုများကို ကိုယ်စားပြုသည်။ နောက်အဆင့်တွင် နက်ဝက်၏ အကျယ်အဝန်းကို လျှော့ချပြီး filter များ၏အရေအတွက်ကို တိုးမြှင့်သည်။ ၎င်းသည် ရိုးရှင်းသော feature များ၏ ပေါင်းစည်းမှုများကို ပိုမိုဖြစ်စေသည်။ အလွှာတိုင်းတွင် နောက်ဆုံး classifier သို့ ရောက်သည့်အခါ ပုံ၏ အကျယ်အဝန်းသည် လျှော့ချပြီး filter များ၏အရေအတွက်သည် တိုးပွားသည်။
+ပုံတွေကို ကိုင်တွယ်တဲ့ CNN တွေဟာ အများအားဖြင့် pyramid architecture ဆိုတဲ့ပုံစံကို လိုက်နာပါတယ်။ မူရင်းပုံတွေကို အသုံးပြုတဲ့ ပထမဆုံး convolutional layer ဟာ filters အနည်းငယ် (8-16) ပါဝင်ပြီး၊ horizontal/vertical lines of strokes လို pixel combinations တွေကို ကိုင်တွယ်ပါတယ်။ နောက်တစ်ဆင့်မှာတော့ network ရဲ့ spatial dimension ကို လျှော့ချပြီး၊ filters အရေအတွက်ကို တိုးမြှင့်ပါတယ်၊ ဒါဟာ simple features တွေကို ပေါင်းစပ်ထားတဲ့ combination တွေကို ပိုမိုရနိုင်စေပါတယ်။ Layer တစ်ခုစီမှာ၊ final classifier ကို ရောက်တဲ့အထိ၊ ပုံရဲ့ spatial dimensions တွေ လျှော့ချပြီး၊ filters အရေအတွက်ကို တိုးမြှင့်ပါတယ်။
 
-ဥပမာအားဖြင့် 2014 ခုနှစ်တွင် ImageNet ၏ top-5 classification တွင် 92.7% တိကျမှုရရှိခဲ့သော VGG-16 ၏ဖွဲ့စည်းပုံကို ကြည့်ပါ-
+ဥပမာအနေနဲ့၊ VGG-16 ရဲ့ architecture ကို ကြည့်ကြမယ်၊ ဒီ network ဟာ 2014 မှာ ImageNet ရဲ့ top-5 classification မှာ 92.7% accuracy ရရှိခဲ့ပါတယ်-
 
 ![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.my.jpg)
 
 ![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.my.jpg)
 
-> ပုံ - [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
+> Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
-## အကောင်းဆုံးလူသိများသော CNN ဖွဲ့စည်းပုံများ
+## Best-Known CNN Architectures
 
-[အကောင်းဆုံးလူသိများသော CNN ဖွဲ့စည်းပုံများအကြောင်း ဆက်လက်လေ့လာပါ](CNN_Architectures.md)
+[Best-known CNN architectures တွေကို ဆက်လက်လေ့လာပါ](CNN_Architectures.md)
 
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေပါသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရ အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွဲအချော်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+---
+

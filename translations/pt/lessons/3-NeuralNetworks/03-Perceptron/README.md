@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c37770bba4fff3c71dc00eb261ee61b",
-  "translation_date": "2025-08-24T09:04:56+00:00",
+  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+  "translation_date": "2025-09-23T13:45:35+00:00",
   "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
   "language_code": "pt"
 }
@@ -11,19 +11,19 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/5)
 
-Uma das primeiras tentativas de implementar algo semelhante a uma rede neuronal moderna foi realizada por Frank Rosenblatt, do Laboratório Aeronáutico de Cornell, em 1957. Foi uma implementação em hardware chamada "Mark-1", projetada para reconhecer figuras geométricas primitivas, como triângulos, quadrados e círculos.
+Uma das primeiras tentativas de implementar algo semelhante a uma rede neuronal moderna foi realizada por Frank Rosenblatt, do Cornell Aeronautical Laboratory, em 1957. Tratava-se de uma implementação em hardware chamada "Mark-1", projetada para reconhecer figuras geométricas primitivas, como triângulos, quadrados e círculos.
 
 |      |      |
 |--------------|-----------|
 |<img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='O Perceptron Mark 1' />|
 
-> Imagens [da Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
+> Imagens [da Wikipédia](https://en.wikipedia.org/wiki/Perceptron)
 
-Uma imagem de entrada era representada por uma matriz de fotocélulas de 20x20, então a rede neuronal tinha 400 entradas e uma saída binária. Uma rede simples continha um único neurónio, também chamado de **unidade lógica de limiar**. Os pesos da rede neuronal funcionavam como potenciômetros que precisavam ser ajustados manualmente durante a fase de treino.
+Uma imagem de entrada era representada por uma matriz de fotocélulas de 20x20, de modo que a rede neuronal tinha 400 entradas e uma saída binária. Uma rede simples continha um único neurónio, também chamado de **unidade lógica de limiar**. Os pesos da rede neuronal funcionavam como potenciômetros que precisavam ser ajustados manualmente durante a fase de treino.
 
 > ✅ Um potenciômetro é um dispositivo que permite ao utilizador ajustar a resistência de um circuito.
 
-> O New York Times escreveu sobre o perceptron na época: *o embrião de um computador eletrónico que [a Marinha] espera que seja capaz de andar, falar, ver, escrever, reproduzir-se e estar consciente da sua existência.*
+> O New York Times escreveu sobre o perceptron na época: *o embrião de um computador eletrónico que [a Marinha] espera que seja capaz de andar, falar, ver, escrever, reproduzir-se e ter consciência da sua existência.*
 
 ## Modelo de Perceptron
 
@@ -40,20 +40,20 @@ onde f é uma função de ativação em degrau.
 
 Para treinar um perceptron, precisamos encontrar um vetor de pesos w que classifique a maioria dos valores corretamente, ou seja, que resulte no menor **erro**. Este erro E é definido pelo **critério do perceptron** da seguinte forma:
 
-E(w) = -∑w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
+E(w) = -&sum;w<sup>T</sup>x<sub>i</sub>t<sub>i</sub>
 
 onde:
 
-* a soma é feita sobre os pontos de dados de treino i que resultam numa classificação incorreta
+* a soma é feita sobre os pontos de dados de treino i que resultam numa classificação errada;
 * x<sub>i</sub> é o dado de entrada, e t<sub>i</sub> é -1 ou +1 para exemplos negativos e positivos, respetivamente.
 
-Este critério é considerado como uma função dos pesos w, e precisamos minimizá-lo. Frequentemente, utiliza-se um método chamado **descida do gradiente**, no qual começamos com alguns pesos iniciais w<sup>(0)</sup>, e depois, a cada passo, atualizamos os pesos de acordo com a fórmula:
+Este critério é considerado como uma função dos pesos w, e precisamos minimizá-lo. Muitas vezes, utiliza-se um método chamado **descida do gradiente**, no qual começamos com alguns pesos iniciais w<sup>(0)</sup> e, em cada passo, atualizamos os pesos de acordo com a fórmula:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> - η∇E(w)
+w<sup>(t+1)</sup> = w<sup>(t)</sup> - &eta;&nabla;E(w)
 
-Aqui, η é a chamada **taxa de aprendizagem**, e ∇E(w) denota o **gradiente** de E. Após calcular o gradiente, obtemos:
+Aqui, &eta; é a chamada **taxa de aprendizagem**, e &nabla;E(w) denota o **gradiente** de E. Após calcularmos o gradiente, obtemos:
 
-w<sup>(t+1)</sup> = w<sup>(t)</sup> + ∑ηx<sub>i</sub>t<sub>i</sub>
+w<sup>(t+1)</sup> = w<sup>(t)</sup> + &sum;&eta;x<sub>i</sub>t<sub>i</sub>
 
 O algoritmo em Python é assim:
 
@@ -77,6 +77,7 @@ def train(positive_examples, negative_examples, num_iterations = 100, eta = 1):
     return weights
 ```
 
+
 ## Conclusão
 
 Nesta lição, aprendeste sobre o perceptron, que é um modelo de classificação binária, e como treiná-lo utilizando um vetor de pesos.
@@ -87,18 +88,18 @@ Se quiseres tentar construir o teu próprio perceptron, experimenta [este labora
 
 ## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ai/quiz/6)
 
-## Revisão e Estudo Individual
+## Revisão e Autoestudo
 
-Para ver como podemos usar o perceptron para resolver um problema simples, bem como problemas da vida real, e para continuar a aprender, consulta o notebook [Perceptron](../../../../../lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb).
+Para ver como podemos usar o perceptron para resolver um problema simples, bem como problemas do mundo real, e para continuar a aprender, consulta o caderno [Perceptron](Perceptron.ipynb).
 
-Aqui está um [artigo interessante sobre perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
+Aqui está também um [artigo interessante sobre perceptrons](https://towardsdatascience.com/what-is-a-perceptron-basics-of-neural-networks-c4cfea20c590).
 
 ## [Tarefa](lab/README.md)
 
-Nesta lição, implementámos um perceptron para uma tarefa de classificação binária e utilizámo-lo para classificar entre dois dígitos manuscritos. Neste laboratório, és convidado a resolver o problema de classificação de dígitos por completo, ou seja, determinar qual dígito é mais provável de corresponder a uma imagem dada.
+Nesta lição, implementámos um perceptron para uma tarefa de classificação binária e utilizámo-lo para classificar entre dois dígitos manuscritos. Neste laboratório, és desafiado a resolver o problema de classificação de dígitos por completo, ou seja, determinar qual o dígito mais provável correspondente a uma imagem dada.
 
 * [Instruções](lab/README.md)
-* [Notebook](../../../../../lessons/3-NeuralNetworks/03-Perceptron/lab/PerceptronMultiClass.ipynb)
+* [Caderno](lab/PerceptronMultiClass.ipynb)
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.
+---
+

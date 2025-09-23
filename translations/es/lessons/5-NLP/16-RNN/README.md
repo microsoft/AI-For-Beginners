@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "58bf4adb210aab53e8f78c8082040e7c",
-  "translation_date": "2025-08-24T09:11:52+00:00",
+  "original_hash": "e2273cc150380a5e191903cea858f021",
+  "translation_date": "2025-09-23T12:14:08+00:00",
   "source_file": "lessons/5-NLP/16-RNN/README.md",
   "language_code": "es"
 }
@@ -11,17 +11,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/31)
 
-En secciones anteriores, hemos estado utilizando representaciones semánticas ricas de texto y un clasificador lineal simple sobre las incrustaciones. Lo que hace esta arquitectura es capturar el significado agregado de las palabras en una oración, pero no toma en cuenta el **orden** de las palabras, ya que la operación de agregación sobre las incrustaciones elimina esta información del texto original. Debido a que estos modelos no pueden modelar el orden de las palabras, no pueden resolver tareas más complejas o ambiguas como la generación de texto o la respuesta a preguntas.
+En secciones anteriores, hemos estado utilizando representaciones semánticas enriquecidas de texto y un clasificador lineal simple sobre las incrustaciones. Lo que hace esta arquitectura es capturar el significado agregado de las palabras en una oración, pero no toma en cuenta el **orden** de las palabras, ya que la operación de agregación sobre las incrustaciones elimina esta información del texto original. Debido a que estos modelos no pueden modelar el orden de las palabras, no pueden resolver tareas más complejas o ambiguas como la generación de texto o la respuesta a preguntas.
 
 Para capturar el significado de una secuencia de texto, necesitamos usar otra arquitectura de red neuronal, llamada **red neuronal recurrente**, o RNN. En una RNN, pasamos nuestra oración a través de la red un símbolo a la vez, y la red produce un **estado**, que luego pasamos nuevamente a la red junto con el siguiente símbolo.
 
-![RNN](../../../../../lessons/5-NLP/16-RNN/images/rnn.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.es.png)
 
 > Imagen del autor
 
-Dada la secuencia de entrada de tokens X<sub>0</sub>,...,X<sub>n</sub>, la RNN crea una secuencia de bloques de red neuronal y entrena esta secuencia de extremo a extremo utilizando retropropagación. Cada bloque de red toma un par (X<sub>i</sub>,S<sub>i</sub>) como entrada y produce S<sub>i+1</sub> como resultado. El estado final S<sub>n</sub> o (salida Y<sub>n</sub>) pasa a un clasificador lineal para producir el resultado. Todos los bloques de red comparten los mismos pesos y se entrenan de extremo a extremo utilizando una sola pasada de retropropagación.
+Dada la secuencia de entrada de tokens X<sub>0</sub>,...,X<sub>n</sub>, la RNN crea una secuencia de bloques de red neuronal y entrena esta secuencia de extremo a extremo utilizando retropropagación. Cada bloque de red toma un par (X<sub>i</sub>,S<sub>i</sub>) como entrada y produce S<sub>i+1</sub> como resultado. El estado final S<sub>n</sub> o (salida Y<sub>n</sub>) se pasa a un clasificador lineal para producir el resultado. Todos los bloques de red comparten los mismos pesos y se entrenan de extremo a extremo utilizando una sola pasada de retropropagación.
 
-Debido a que los vectores de estado S<sub>0</sub>,...,S<sub>n</sub> se pasan a través de la red, esta es capaz de aprender las dependencias secuenciales entre palabras. Por ejemplo, cuando la palabra *no* aparece en algún lugar de la secuencia, puede aprender a negar ciertos elementos dentro del vector de estado, lo que resulta en negación.
+Debido a que los vectores de estado S<sub>0</sub>,...,S<sub>n</sub> se pasan a través de la red, esta es capaz de aprender las dependencias secuenciales entre palabras. Por ejemplo, cuando la palabra *no* aparece en algún lugar de la secuencia, puede aprender a negar ciertos elementos dentro del vector de estado, resultando en una negación.
 
 > ✅ Dado que los pesos de todos los bloques de RNN en la imagen anterior son compartidos, la misma imagen puede representarse como un solo bloque (a la derecha) con un bucle de retroalimentación recurrente, que pasa el estado de salida de la red nuevamente a la entrada.
 
@@ -29,48 +29,48 @@ Debido a que los vectores de estado S<sub>0</sub>,...,S<sub>n</sub> se pasan a t
 
 Veamos cómo está organizada una célula RNN simple. Acepta el estado anterior S<sub>i-1</sub> y el símbolo actual X<sub>i</sub> como entradas, y debe producir el estado de salida S<sub>i</sub> (y, a veces, también estamos interesados en alguna otra salida Y<sub>i</sub>, como en el caso de redes generativas).
 
-Una célula RNN simple tiene dos matrices de pesos internas: una transforma un símbolo de entrada (llamémosla W) y otra transforma un estado de entrada (H). En este caso, la salida de la red se calcula como σ(W×X<sub>i</sub>+H×S<sub>i-1</sub>+b), donde σ es la función de activación y b es un sesgo adicional.
+Una célula RNN simple tiene dos matrices de pesos internas: una transforma un símbolo de entrada (llamémosla W) y otra transforma un estado de entrada (H). En este caso, la salida de la red se calcula como &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), donde &sigma; es la función de activación y b es un sesgo adicional.
 
 <img alt="Anatomía de una célula RNN" src="images/rnn-anatomy.png" width="50%"/>
 
 > Imagen del autor
 
-En muchos casos, los tokens de entrada se pasan a través de la capa de incrustación antes de ingresar a la RNN para reducir la dimensionalidad. En este caso, si la dimensión de los vectores de entrada es *emb_size* y el vector de estado es *hid_size*, el tamaño de W es *emb_size*×*hid_size*, y el tamaño de H es *hid_size*×*hid_size*.
+En muchos casos, los tokens de entrada se pasan a través de la capa de incrustación antes de ingresar a la RNN para reducir la dimensionalidad. En este caso, si la dimensión de los vectores de entrada es *emb_size*, y el vector de estado es *hid_size*, el tamaño de W es *emb_size*&times;*hid_size*, y el tamaño de H es *hid_size*&times;*hid_size*.
 
 ## Memoria a Largo y Corto Plazo (LSTM)
 
-Uno de los principales problemas de las RNN clásicas es el llamado problema de **gradientes que se desvanecen**. Debido a que las RNN se entrenan de extremo a extremo en una sola pasada de retropropagación, tienen dificultad para propagar el error a las primeras capas de la red, y por lo tanto, la red no puede aprender relaciones entre tokens distantes. Una de las formas de evitar este problema es introducir **gestión explícita del estado** utilizando los llamados **puertas**. Hay dos arquitecturas bien conocidas de este tipo: **Memoria a Largo y Corto Plazo** (LSTM) y **Unidad de Relevo con Puerta** (GRU).
+Uno de los principales problemas de las RNN clásicas es el llamado problema de **gradientes que se desvanecen**. Debido a que las RNN se entrenan de extremo a extremo en una sola pasada de retropropagación, tienen dificultades para propagar el error a las primeras capas de la red, y por lo tanto, la red no puede aprender relaciones entre tokens distantes. Una de las formas de evitar este problema es introducir **gestión explícita del estado** utilizando los llamados **puertas**. Hay dos arquitecturas bien conocidas de este tipo: **Memoria a Largo y Corto Plazo** (LSTM) y **Unidad de Relevo con Puerta** (GRU).
 
 ![Imagen mostrando un ejemplo de célula de memoria a largo y corto plazo](../../../../../lessons/5-NLP/16-RNN/images/long-short-term-memory-cell.svg)
 
 > Fuente de la imagen por determinar
 
-La red LSTM está organizada de manera similar a la RNN, pero hay dos estados que se pasan de capa a capa: el estado actual C y el vector oculto H. En cada unidad, el vector oculto H<sub>i</sub> se concatena con la entrada X<sub>i</sub>, y controlan lo que sucede con el estado C a través de **puertas**. Cada puerta es una red neuronal con activación sigmoide (salida en el rango [0,1]), que puede considerarse como una máscara bit a bit cuando se multiplica por el vector de estado. Hay las siguientes puertas (de izquierda a derecha en la imagen anterior):
+La red LSTM está organizada de manera similar a la RNN, pero hay dos estados que se pasan de capa a capa: el estado real C y el vector oculto H. En cada unidad, el vector oculto H<sub>i</sub> se concatena con la entrada X<sub>i</sub>, y controlan lo que sucede con el estado C a través de **puertas**. Cada puerta es una red neuronal con activación sigmoide (salida en el rango [0,1]), que puede considerarse como una máscara de bits cuando se multiplica por el vector de estado. Las puertas son las siguientes (de izquierda a derecha en la imagen anterior):
 
 * La **puerta de olvido** toma un vector oculto y determina qué componentes del vector C necesitamos olvidar y cuáles pasar.
 * La **puerta de entrada** toma información de los vectores de entrada y ocultos e inserta esta información en el estado.
 * La **puerta de salida** transforma el estado a través de una capa lineal con activación *tanh*, luego selecciona algunos de sus componentes utilizando un vector oculto H<sub>i</sub> para producir un nuevo estado C<sub>i+1</sub>.
 
-Los componentes del estado C pueden considerarse como algunas banderas que pueden activarse o desactivarse. Por ejemplo, cuando encontramos un nombre *Alice* en la secuencia, podemos asumir que se refiere a un personaje femenino y activar la bandera en el estado que indica que tenemos un sustantivo femenino en la oración. Cuando más adelante encontramos frases como *y Tom*, activaremos la bandera que indica que tenemos un sustantivo plural. Así, manipulando el estado, podemos supuestamente realizar un seguimiento de las propiedades gramaticales de las partes de la oración.
+Los componentes del estado C pueden considerarse como algunas banderas que pueden activarse o desactivarse. Por ejemplo, cuando encontramos un nombre como *Alice* en la secuencia, podríamos asumir que se refiere a un personaje femenino y activar la bandera en el estado que indica que tenemos un sustantivo femenino en la oración. Cuando más adelante encontramos frases como *y Tom*, activaremos la bandera que indica que tenemos un sustantivo plural. Así, manipulando el estado, podemos supuestamente realizar un seguimiento de las propiedades gramaticales de las partes de la oración.
 
-> ✅ Un recurso excelente para entender los detalles internos de LSTM es este gran artículo [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) de Christopher Olah.
+> ✅ Un excelente recurso para entender los detalles internos de LSTM es este gran artículo [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) de Christopher Olah.
 
 ## RNN Bidireccionales y Multicapa
 
-Hemos discutido redes recurrentes que operan en una dirección, desde el inicio de una secuencia hasta el final. Parece natural, porque se asemeja a la forma en que leemos y escuchamos el habla. Sin embargo, dado que en muchos casos prácticos tenemos acceso aleatorio a la secuencia de entrada, podría tener sentido realizar cálculos recurrentes en ambas direcciones. Estas redes se llaman **RNN bidireccionales**. Al trabajar con una red bidireccional, necesitaríamos dos vectores de estado oculto, uno para cada dirección.
+Hemos discutido redes recurrentes que operan en una dirección, desde el inicio de una secuencia hasta el final. Esto parece natural, ya que se asemeja a la forma en que leemos y escuchamos el habla. Sin embargo, dado que en muchos casos prácticos tenemos acceso aleatorio a la secuencia de entrada, podría tener sentido realizar cálculos recurrentes en ambas direcciones. Estas redes se llaman **RNN bidireccionales**. Al trabajar con una red bidireccional, necesitaríamos dos vectores de estado oculto, uno para cada dirección.
 
 Una red recurrente, ya sea unidireccional o bidireccional, captura ciertos patrones dentro de una secuencia y puede almacenarlos en un vector de estado o pasarlos a la salida. Al igual que con las redes convolucionales, podemos construir otra capa recurrente sobre la primera para capturar patrones de nivel superior y construir a partir de los patrones de bajo nivel extraídos por la primera capa. Esto nos lleva a la noción de una **RNN multicapa**, que consiste en dos o más redes recurrentes, donde la salida de la capa anterior se pasa a la siguiente capa como entrada.
 
-![Imagen mostrando una RNN multicapa de memoria a largo y corto plazo](../../../../../lessons/5-NLP/16-RNN/images/multi-layer-lstm.jpg)
+![Imagen mostrando una RNN multicapa de memoria a largo y corto plazo](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.es.jpg)
 
-*Imagen de [este maravilloso artículo](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) de Fernando López*
+*Imagen tomada de [este maravilloso artículo](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) de Fernando López*
 
 ## ✍️ Ejercicios: Incrustaciones
 
 Continúa tu aprendizaje en los siguientes cuadernos:
 
-* [RNNs con PyTorch](../../../../../lessons/5-NLP/16-RNN/RNNPyTorch.ipynb)
-* [RNNs con TensorFlow](../../../../../lessons/5-NLP/16-RNN/RNNTF.ipynb)
+* [RNNs con PyTorch](RNNPyTorch.ipynb)
+* [RNNs con TensorFlow](RNNTF.ipynb)
 
 ## Conclusión
 
@@ -92,5 +92,5 @@ Generation with Visual Attention](https://arxiv.org/pdf/1502.03044v2.pdf)
 
 ## [Asignación: Cuadernos](assignment.md)
 
-**Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+---
+
