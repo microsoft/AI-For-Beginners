@@ -53,7 +53,7 @@ jobs:
           # IMPORTANT: Set your target languages here (REQUIRED CONFIGURATION)
           # =====================================================================
           # Example: Translate to Spanish, French, German. Add -y to auto-confirm.
-          # translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
+          translate -l "all" -y  # <--- MODIFY THIS LINE with your desired languages
           # translate -l "ar bn bg br cs da de el es fa fi" -nb 
           # translate -l "fr he hi hr hu id it ja" -nb
           # translate -l "ko lt mo ms mr my ne nl no pa pl" -nb
@@ -65,7 +65,7 @@ jobs:
           # translate -l "br it tr el th sv da no" -y
           # translate -l "el th" -y
           # translate -l "sv da no" -y
-          translate -l "fi nl he vi id ms sw hu cs" -y
+          # translate -l "fi nl he vi id ms sw hu cs" -y
           # translate -l "vi id ms" -y
           # translate -l "sw hu cs" -y
           # translate -l "sk ro bg sr" -y
