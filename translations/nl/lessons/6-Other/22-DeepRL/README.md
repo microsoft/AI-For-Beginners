@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dbacf9b1915612981d76059678e563e5",
-  "translation_date": "2025-08-28T19:17:46+00:00",
+  "original_hash": "04395657fc01648f8f70484d0e55ab67",
+  "translation_date": "2025-09-23T10:06:24+00:00",
   "source_file": "lessons/6-Other/22-DeepRL/README.md",
   "language_code": "nl"
 }
@@ -16,21 +16,21 @@ Reinforcement learning (RL) wordt gezien als een van de fundamentele machine lea
 Om RL uit te voeren, hebben we nodig:
 
 * Een **omgeving** of **simulator** die de regels van het spel bepaalt. We moeten experimenten kunnen uitvoeren in de simulator en de resultaten kunnen observeren.
-* Een **beloningsfunctie** die aangeeft hoe succesvol ons experiment was. In het geval van leren om een computerspel te spelen, zou de beloning onze eindscore zijn.
+* Een **beloningsfunctie**, die aangeeft hoe succesvol ons experiment was. In het geval van leren om een computerspel te spelen, zou de beloning onze eindscore zijn.
 
-Op basis van de beloningsfunctie moeten we ons gedrag kunnen aanpassen en onze vaardigheden verbeteren, zodat we de volgende keer beter spelen. Het belangrijkste verschil tussen andere soorten machine learning en RL is dat we bij RL meestal pas weten of we winnen of verliezen als we het spel hebben voltooid. We kunnen dus niet zeggen of een bepaalde zet op zichzelf goed is of niet - we ontvangen pas een beloning aan het einde van het spel.
+Op basis van de beloningsfunctie moeten we ons gedrag kunnen aanpassen en onze vaardigheden verbeteren, zodat we de volgende keer beter spelen. Het belangrijkste verschil tussen andere soorten machine learning en RL is dat we bij RL meestal pas weten of we winnen of verliezen als het spel voorbij is. We kunnen dus niet zeggen of een bepaalde zet op zichzelf goed of slecht is - we ontvangen pas een beloning aan het einde van het spel.
 
-Tijdens RL voeren we meestal veel experimenten uit. Bij elk experiment moeten we een balans vinden tussen het volgen van de optimale strategie die we tot nu toe hebben geleerd (**exploitatie**) en het verkennen van nieuwe mogelijke staten (**exploratie**).
+Tijdens RL voeren we meestal veel experimenten uit. Bij elk experiment moeten we een balans vinden tussen het volgen van de optimale strategie die we tot nu toe hebben geleerd (**exploitation**) en het verkennen van nieuwe mogelijke staten (**exploration**).
 
 ## OpenAI Gym
 
-Een geweldig hulpmiddel voor RL is de [OpenAI Gym](https://gym.openai.com/) - een **simulatieomgeving** die veel verschillende omgevingen kan simuleren, van Atari-spellen tot de fysica achter het balanceren van een paal. Het is een van de meest populaire simulatieomgevingen voor het trainen van reinforcement learning-algoritmen en wordt onderhouden door [OpenAI](https://openai.com/).
+Een geweldig hulpmiddel voor RL is de [OpenAI Gym](https://gym.openai.com/) - een **simulatieomgeving** die veel verschillende omgevingen kan simuleren, van Atari-spellen tot de fysica achter het balanceren van een paal. Het is een van de meest populaire simulatieomgevingen voor het trainen van reinforcement learning-algoritmes en wordt onderhouden door [OpenAI](https://openai.com/).
 
 > **Note**: Je kunt alle beschikbare omgevingen van OpenAI Gym [hier](https://gym.openai.com/envs/#classic_control) bekijken.
 
 ## CartPole Balanceren
 
-We hebben allemaal moderne balancerende apparaten gezien, zoals de *Segway* of *Gyroscooters*. Ze kunnen automatisch balanceren door hun wielen aan te passen op basis van een signaal van een versnellingsmeter of gyroscoop. In deze sectie leren we hoe we een vergelijkbaar probleem kunnen oplossen: het balanceren van een paal. Het lijkt op een situatie waarin een circusartiest een paal op zijn hand moet balanceren - maar dit paalbalanceren gebeurt alleen in 1D.
+We hebben allemaal moderne balancerende apparaten gezien, zoals de *Segway* of *Gyroscooters*. Ze kunnen automatisch balanceren door hun wielen aan te passen op basis van een signaal van een versnellingsmeter of gyroscoop. In deze sectie leren we hoe we een vergelijkbaar probleem kunnen oplossen: het balanceren van een paal. Dit lijkt op een situatie waarin een circusartiest een paal op zijn hand moet balanceren - maar dit paalbalanceren gebeurt alleen in 1D.
 
 Een vereenvoudigde versie van balanceren staat bekend als het **CartPole**-probleem. In de CartPole-wereld hebben we een horizontale slider die naar links of rechts kan bewegen, en het doel is om een verticale paal bovenop de slider te balanceren terwijl deze beweegt.
 
@@ -54,7 +54,7 @@ while not done:
 print(f"Total reward: {total_reward}")
 ```
 
-Elke omgeving kan op exact dezelfde manier worden benaderd:
+Elke omgeving kan op dezelfde manier worden benaderd:
 * `env.reset` start een nieuw experiment
 * `env.step` voert een simulatiestap uit. Het ontvangt een **actie** uit de **actie-ruimte** en retourneert een **observatie** (uit de observatieruimte), evenals een beloning en een beëindigingsvlag.
 
@@ -62,17 +62,17 @@ In het bovenstaande voorbeeld voeren we bij elke stap een willekeurige actie uit
 
 ![non-balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-nobalance.gif)
 
-Het doel van een RL-algoritme is om een model te trainen - het zogenaamde **beleid** π - dat de actie retourneert in reactie op een gegeven staat. We kunnen beleid ook als probabilistisch beschouwen, bijvoorbeeld voor elke staat *s* en actie *a* retourneert het de waarschijnlijkheid π(*a*|*s*) dat we *a* moeten nemen in staat *s*.
+Het doel van een RL-algoritme is om een model te trainen - het zogenaamde **beleid** &pi; - dat de actie retourneert in reactie op een gegeven staat. We kunnen beleid ook als probabilistisch beschouwen, bijvoorbeeld voor elke staat *s* en actie *a* retourneert het de waarschijnlijkheid &pi;(*a*|*s*) dat we *a* moeten nemen in staat *s*.
 
-## Policy Gradients Algoritme
+## Policy Gradients Algorithm
 
-De meest voor de hand liggende manier om een beleid te modelleren is door een neuraal netwerk te maken dat staten als invoer neemt en bijbehorende acties retourneert (of liever de waarschijnlijkheden van alle acties). In zekere zin zou het vergelijkbaar zijn met een normale classificatietaak, met een groot verschil - we weten van tevoren niet welke acties we bij elke stap moeten nemen.
+De meest voor de hand liggende manier om een beleid te modelleren is door een neuraal netwerk te maken dat staten als input neemt en bijbehorende acties retourneert (of liever de waarschijnlijkheden van alle acties). In zekere zin zou het vergelijkbaar zijn met een normale classificatietaak, met een groot verschil - we weten van tevoren niet welke acties we bij elke stap moeten nemen.
 
-Het idee hier is om die waarschijnlijkheden te schatten. We bouwen een vector van **cumulatieve beloningen** die onze totale beloning bij elke stap van het experiment laat zien. We passen ook **beloningskorting** toe door eerdere beloningen te vermenigvuldigen met een coëfficiënt γ=0.99, om de rol van eerdere beloningen te verminderen. Vervolgens versterken we die stappen langs het experimentpad die grotere beloningen opleveren.
+Het idee hier is om die waarschijnlijkheden te schatten. We bouwen een vector van **cumulatieve beloningen** die onze totale beloning bij elke stap van het experiment laat zien. We passen ook **beloningskorting** toe door eerdere beloningen te vermenigvuldigen met een coëfficiënt &gamma;=0.99, om de rol van eerdere beloningen te verminderen. Vervolgens versterken we die stappen langs het experimentpad die grotere beloningen opleveren.
 
 > Leer meer over het Policy Gradient-algoritme en zie het in actie in het [voorbeeldnotebook](CartPole-RL-TF.ipynb).
 
-## Actor-Critic Algoritme
+## Actor-Critic Algorithm
 
 Een verbeterde versie van de Policy Gradients-aanpak wordt **Actor-Critic** genoemd. Het belangrijkste idee hierachter is dat het neurale netwerk wordt getraind om twee dingen te retourneren:
 
@@ -83,7 +83,7 @@ In zekere zin lijkt deze architectuur op een [GAN](../../4-ComputerVision/10-GAN
 
 Omdat we zowel de echte cumulatieve beloningen als de resultaten die door de critic worden geretourneerd tijdens het experiment kennen, is het relatief eenvoudig om een verliesfunctie te bouwen die het verschil tussen hen minimaliseert. Dat zou ons **critic loss** geven. We kunnen **actor loss** berekenen door dezelfde aanpak te gebruiken als in het policy gradient-algoritme.
 
-Na het uitvoeren van een van deze algoritmen, kunnen we verwachten dat onze CartPole zich zo gedraagt:
+Na het uitvoeren van een van deze algoritmes kunnen we verwachten dat onze CartPole zich zo gedraagt:
 
 ![a balancing cartpole](../../../../../lessons/6-Other/22-DeepRL/images/cartpole-balance.gif)
 
@@ -98,13 +98,13 @@ Ga verder met leren in de volgende notebooks:
 
 Reinforcement Learning is tegenwoordig een snel groeiend onderzoeksgebied. Enkele interessante voorbeelden van reinforcement learning zijn:
 
-* Een computer leren **Atari-spellen** te spelen. Het uitdagende deel van dit probleem is dat we geen eenvoudige staat hebben die wordt weergegeven als een vector, maar eerder een screenshot - en we moeten de CNN gebruiken om deze schermafbeelding om te zetten in een featurevector of om beloningsinformatie te extraheren. Atari-spellen zijn beschikbaar in de Gym.
+* Een computer leren **Atari-spellen** te spelen. Het uitdagende deel van dit probleem is dat we geen eenvoudige staat hebben die wordt weergegeven als een vector, maar eerder een screenshot - en we moeten de CNN gebruiken om dit schermbeeld om te zetten in een featurevector of om beloningsinformatie te extraheren. Atari-spellen zijn beschikbaar in de Gym.
 * Een computer leren bordspellen te spelen, zoals Schaken en Go. Onlangs zijn state-of-the-art programma's zoals **Alpha Zero** vanaf nul getraind door twee agenten tegen elkaar te laten spelen en bij elke stap te verbeteren.
-* In de industrie wordt RL gebruikt om controlesystemen te creëren vanuit simulatie. Een service genaamd [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) is speciaal hiervoor ontworpen.
+* In de industrie wordt RL gebruikt om controlesystemen te creëren vanuit simulatie. Een dienst genaamd [Bonsai](https://azure.microsoft.com/services/project-bonsai/?WT.mc_id=academic-77998-cacaste) is speciaal hiervoor ontworpen.
 
 ## Conclusie
 
-We hebben nu geleerd hoe we agenten kunnen trainen om goede resultaten te behalen door hen simpelweg een beloningsfunctie te geven die de gewenste staat van het spel definieert, en door hen de mogelijkheid te geven om intelligent de zoekruimte te verkennen. We hebben met succes twee algoritmen geprobeerd en een goed resultaat behaald in een relatief korte tijd. Dit is echter slechts het begin van je reis in RL, en je zou zeker moeten overwegen om een aparte cursus te volgen als je dieper wilt graven.
+We hebben nu geleerd hoe we agenten kunnen trainen om goede resultaten te behalen door hen alleen een beloningsfunctie te geven die de gewenste staat van het spel definieert, en door hen de mogelijkheid te geven om intelligent de zoekruimte te verkennen. We hebben met succes twee algoritmes geprobeerd en een goed resultaat behaald in een relatief korte tijd. Dit is echter slechts het begin van je reis in RL, en je zou zeker moeten overwegen om een aparte cursus te volgen als je dieper wilt graven.
 
 ## 🚀 Uitdaging
 
@@ -124,5 +124,3 @@ Je doel tijdens deze opdracht is om een andere Gym-omgeving te trainen - [Mounta
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

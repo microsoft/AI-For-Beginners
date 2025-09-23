@@ -1,29 +1,29 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
-  "translation_date": "2025-08-28T20:00:08+00:00",
+  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+  "translation_date": "2025-09-23T10:13:09+00:00",
   "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
   "language_code": "nl"
 }
 -->
 # Taalmodellering
 
-Semantische embeddings, zoals Word2Vec en GloVe, vormen eigenlijk een eerste stap richting **taalmodellering** - het creëren van modellen die op een bepaalde manier de aard van taal *begrijpen* (of *weergeven*).
+Semantische embeddings, zoals Word2Vec en GloVe, zijn eigenlijk een eerste stap richting **taalmodellering** - het creëren van modellen die op een bepaalde manier de aard van de taal *begrijpen* (of *representeren*).
 
-## [Quiz vóór de les](https://ff-quizzes.netlify.app/en/ai/quiz/29)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
-Het belangrijkste idee achter taalmodellering is om modellen te trainen op niet-gelabelde datasets op een onbegeleide manier. Dit is belangrijk omdat we enorme hoeveelheden niet-gelabelde tekst beschikbaar hebben, terwijl de hoeveelheid gelabelde tekst altijd beperkt zal zijn door de inspanning die nodig is om deze te labelen. Meestal kunnen we taalmodellen bouwen die **ontbrekende woorden** in de tekst kunnen voorspellen, omdat het eenvoudig is om een willekeurig woord in een tekst te maskeren en dit als trainingsvoorbeeld te gebruiken.
+Het belangrijkste idee achter taalmodellering is dat ze worden getraind op niet-gelabelde datasets op een ongesuperviseerde manier. Dit is belangrijk omdat we enorme hoeveelheden niet-gelabelde tekst beschikbaar hebben, terwijl de hoeveelheid gelabelde tekst altijd beperkt zal zijn door de inspanning die we kunnen besteden aan het labelen. Meestal kunnen we taalmodellen bouwen die **ontbrekende woorden** in de tekst voorspellen, omdat het eenvoudig is om een willekeurig woord in de tekst te maskeren en dit te gebruiken als trainingsvoorbeeld.
 
 ## Embeddings trainen
 
-In onze eerdere voorbeelden hebben we gebruik gemaakt van voorgetrainde semantische embeddings, maar het is interessant om te zien hoe deze embeddings getraind kunnen worden. Er zijn verschillende mogelijke ideeën die kunnen worden gebruikt:
+In onze eerdere voorbeelden hebben we gebruik gemaakt van vooraf getrainde semantische embeddings, maar het is interessant om te zien hoe die embeddings kunnen worden getraind. Er zijn verschillende ideeën die kunnen worden gebruikt:
 
-* **N-Gram** taalmodellering, waarbij we een token voorspellen door te kijken naar de N voorgaande tokens (N-gram).
-* **Continuous Bag-of-Words** (CBoW), waarbij we de middelste token $W_0$ voorspellen in een reeks tokens $W_{-N}$, ..., $W_N$.
-* **Skip-gram**, waarbij we een set van naburige tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} voorspellen vanuit de middelste token $W_0$.
+* **N-Gram** taalmodellering, waarbij we een token voorspellen door naar N voorgaande tokens te kijken (N-gram).
+* **Continuous Bag-of-Words** (CBoW), waarbij we het middelste token $W_0$ voorspellen in een reeks tokens $W_{-N}$, ..., $W_N$.
+* **Skip-gram**, waarbij we een set van naburige tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} voorspellen vanuit het middelste token $W_0$.
 
-![afbeelding uit een paper over het omzetten van woorden naar vectoren](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.nl.png)
+![afbeelding uit paper over het converteren van woorden naar vectoren](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.nl.png)
 
 > Afbeelding uit [deze paper](https://arxiv.org/pdf/1301.3781.pdf)
 
@@ -36,15 +36,15 @@ Ga verder met leren in de volgende notebooks:
 
 ## Conclusie
 
-In de vorige les hebben we gezien dat woordembeddings bijna magisch werken! Nu weten we dat het trainen van woordembeddings geen heel complexe taak is, en we zouden in staat moeten zijn om onze eigen woordembeddings te trainen voor domeinspecifieke teksten indien nodig.
+In de vorige les hebben we gezien dat woordembeddings werken als magie! Nu weten we dat het trainen van woordembeddings geen erg complexe taak is, en we zouden in staat moeten zijn om onze eigen woordembeddings te trainen voor domeinspecifieke tekst indien nodig.
 
-## [Quiz na de les](https://ff-quizzes.netlify.app/en/ai/quiz/30)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
-## Herhaling & Zelfstudie
+## Review & Zelfstudie
 
-* [Officiële PyTorch-tutorial over taalmodellering](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
-* [Officiële TensorFlow-tutorial over het trainen van een Word2Vec-model](https://www.TensorFlow.org/tutorials/text/word2vec).
-* Het gebruik van het **gensim**-framework om de meest gebruikte embeddings te trainen in slechts een paar regels code wordt beschreven [in deze documentatie](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* [Officiële PyTorch tutorial over taalmodellering](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* [Officiële TensorFlow tutorial over het trainen van een Word2Vec-model](https://www.TensorFlow.org/tutorials/text/word2vec).
+* Het gebruik van het **gensim** framework om de meest gebruikte embeddings te trainen in slechts een paar regels code wordt beschreven [in deze documentatie](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
 
 ## 🚀 [Opdracht: Train Skip-Gram Model](lab/README.md)
 
@@ -52,5 +52,3 @@ In het lab dagen we je uit om de code uit deze les aan te passen om een skip-gra
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

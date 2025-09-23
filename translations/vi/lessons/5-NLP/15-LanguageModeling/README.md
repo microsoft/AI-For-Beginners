@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
-  "translation_date": "2025-08-29T12:43:01+00:00",
+  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+  "translation_date": "2025-09-23T10:34:29+00:00",
   "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
   "language_code": "vi"
 }
@@ -13,7 +13,7 @@ Các biểu diễn ngữ nghĩa, như Word2Vec và GloVe, thực chất là bư�
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/29)
 
-Ý tưởng chính của mô hình ngôn ngữ là huấn luyện chúng trên các tập dữ liệu không gắn nhãn theo cách không giám sát. Điều này rất quan trọng vì chúng ta có một lượng lớn văn bản không gắn nhãn, trong khi lượng văn bản có gắn nhãn luôn bị giới hạn bởi công sức mà chúng ta có thể bỏ ra để gắn nhãn. Thông thường, chúng ta có thể xây dựng các mô hình ngôn ngữ có khả năng **dự đoán các từ bị thiếu** trong văn bản, bởi vì việc che đi một từ ngẫu nhiên trong văn bản và sử dụng nó làm mẫu huấn luyện là khá dễ dàng.
+Ý tưởng chính đằng sau mô hình ngôn ngữ là huấn luyện chúng trên các tập dữ liệu không gán nhãn theo cách không giám sát. Điều này quan trọng vì chúng ta có một lượng lớn văn bản không gán nhãn, trong khi lượng văn bản có gán nhãn luôn bị giới hạn bởi công sức mà chúng ta có thể bỏ ra để gán nhãn. Thông thường, chúng ta có thể xây dựng các mô hình ngôn ngữ có khả năng **dự đoán từ bị thiếu** trong văn bản, bởi vì việc che giấu một từ ngẫu nhiên trong văn bản và sử dụng nó làm mẫu huấn luyện là rất dễ dàng.
 
 ## Huấn luyện Biểu diễn
 
@@ -29,14 +29,14 @@ Trong các ví dụ trước, chúng ta đã sử dụng các biểu diễn ng�
 
 ## ✍️ Ví dụ Notebook: Huấn luyện mô hình CBoW
 
-Tiếp tục học tập với các notebook sau:
+Tiếp tục học tập qua các notebook sau:
 
 * [Huấn luyện CBoW Word2Vec với TensorFlow](CBoW-TF.ipynb)
 * [Huấn luyện CBoW Word2Vec với PyTorch](CBoW-PyTorch.ipynb)
 
 ## Kết luận
 
-Trong bài học trước, chúng ta đã thấy rằng các biểu diễn từ hoạt động như một phép màu! Giờ đây, chúng ta biết rằng việc huấn luyện các biểu diễn từ không phải là một nhiệm vụ quá phức tạp, và chúng ta hoàn toàn có thể tự huấn luyện các biểu diễn từ cho văn bản thuộc lĩnh vực cụ thể nếu cần.
+Trong bài học trước, chúng ta đã thấy rằng các biểu diễn từ hoạt động như một phép màu! Giờ đây, chúng ta biết rằng việc huấn luyện các biểu diễn từ không phải là một nhiệm vụ quá phức tạp, và chúng ta có thể tự huấn luyện các biểu diễn từ cho văn bản chuyên ngành nếu cần.
 
 ## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/30)
 
@@ -44,7 +44,7 @@ Trong bài học trước, chúng ta đã thấy rằng các biểu diễn từ 
 
 * [Hướng dẫn chính thức của PyTorch về Mô hình Ngôn ngữ](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
 * [Hướng dẫn chính thức của TensorFlow về huấn luyện mô hình Word2Vec](https://www.TensorFlow.org/tutorials/text/word2vec).
-* Sử dụng framework **gensim** để huấn luyện các biểu diễn phổ biến nhất chỉ với vài dòng mã được mô tả [trong tài liệu này](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* Sử dụng framework **gensim** để huấn luyện các biểu diễn phổ biến nhất chỉ trong vài dòng mã được mô tả [trong tài liệu này](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
 
 ## 🚀 [Bài tập: Huấn luyện Mô hình Skip-Gram](lab/README.md)
 
@@ -52,5 +52,3 @@ Trong phòng thí nghiệm, chúng tôi thách thức bạn chỉnh sửa mã t�
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với các thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.

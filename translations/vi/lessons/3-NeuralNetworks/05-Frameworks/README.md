@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2b544f20b796402507fb05a0df893323",
-  "translation_date": "2025-08-29T12:36:29+00:00",
+  "original_hash": "ddd216f558a255260a9374008002c971",
+  "translation_date": "2025-09-23T10:33:45+00:00",
   "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
   "language_code": "vi"
 }
@@ -14,15 +14,15 @@ Như chúng ta đã học, để có thể huấn luyện mạng neural một c�
 * Thao tác trên các tensor, ví dụ như nhân, cộng, và tính các hàm như sigmoid hoặc softmax
 * Tính gradient của tất cả các biểu thức, để thực hiện tối ưu hóa bằng phương pháp gradient descent
 
-## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/9)
+## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/9)
 
 Mặc dù thư viện `numpy` có thể thực hiện phần đầu tiên, chúng ta cần một cơ chế để tính gradient. Trong [framework của chúng ta](../04-OwnFramework/OwnFramework.ipynb) mà chúng ta đã phát triển ở phần trước, chúng ta phải tự lập trình tất cả các hàm đạo hàm bên trong phương thức `backward`, phương thức thực hiện backpropagation. Lý tưởng nhất, một framework nên cho phép chúng ta tính gradient của *bất kỳ biểu thức nào* mà chúng ta có thể định nghĩa.
 
-Một điều quan trọng khác là khả năng thực hiện tính toán trên GPU, hoặc bất kỳ đơn vị tính toán chuyên dụng nào khác, chẳng hạn như [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Việc huấn luyện mạng neural sâu đòi hỏi *rất nhiều* tính toán, và khả năng phân phối các tính toán này trên GPU là rất quan trọng.
+Một điều quan trọng khác là khả năng thực hiện các tính toán trên GPU, hoặc bất kỳ đơn vị tính toán chuyên dụng nào khác, chẳng hạn như [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit). Việc huấn luyện mạng neural sâu đòi hỏi *rất nhiều* tính toán, và khả năng phân phối các tính toán này trên GPU là rất quan trọng.
 
 > ✅ Thuật ngữ 'parallelize' có nghĩa là phân phối các tính toán trên nhiều thiết bị.
 
-Hiện tại, hai framework mạng neural phổ biến nhất là: [TensorFlow](http://TensorFlow.org) và [PyTorch](https://pytorch.org/). Cả hai đều cung cấp API cấp thấp để thao tác với các tensor trên cả CPU và GPU. Ngoài API cấp thấp, còn có API cấp cao, lần lượt được gọi là [Keras](https://keras.io/) và [PyTorch Lightning](https://pytorchlightning.ai/).
+Hiện tại, hai framework mạng neural phổ biến nhất là: [TensorFlow](http://TensorFlow.org) và [PyTorch](https://pytorch.org/). Cả hai đều cung cấp API cấp thấp để thao tác với các tensor trên cả CPU và GPU. Ngoài API cấp thấp, còn có API cấp cao, được gọi là [Keras](https://keras.io/) và [PyTorch Lightning](https://pytorchlightning.ai/) tương ứng.
 
 API cấp thấp | [TensorFlow](http://TensorFlow.org) | [PyTorch](https://pytorch.org/)
 --------------|-------------------------------------|--------------------------------
@@ -34,19 +34,19 @@ API cấp cao   | [Keras](https://keras.io/) | [PyTorch Lightning](https://pytor
 
 API cấp cao cho phép bạn xây dựng các mạng neural điển hình rất nhanh chóng mà không cần lo lắng về nhiều chi tiết. Đồng thời, API cấp thấp cung cấp nhiều quyền kiểm soát hơn đối với quá trình huấn luyện, và do đó chúng được sử dụng nhiều trong nghiên cứu, khi bạn đang làm việc với các kiến trúc mạng neural mới.
 
-Điều quan trọng cần hiểu là bạn có thể sử dụng cả hai API cùng nhau, ví dụ: bạn có thể phát triển kiến trúc lớp mạng của riêng mình bằng API cấp thấp, sau đó sử dụng nó bên trong mạng lớn hơn được xây dựng và huấn luyện bằng API cấp cao. Hoặc bạn có thể định nghĩa một mạng bằng API cấp cao như một chuỗi các lớp, sau đó sử dụng vòng lặp huấn luyện cấp thấp của riêng bạn để thực hiện tối ưu hóa. Cả hai API đều sử dụng các khái niệm cơ bản giống nhau, và chúng được thiết kế để hoạt động tốt cùng nhau.
+Điều quan trọng cần hiểu là bạn có thể sử dụng cả hai API cùng nhau, ví dụ: bạn có thể phát triển kiến trúc lớp mạng của riêng mình bằng API cấp thấp, và sau đó sử dụng nó bên trong mạng lớn hơn được xây dựng và huấn luyện bằng API cấp cao. Hoặc bạn có thể định nghĩa một mạng bằng API cấp cao như một chuỗi các lớp, và sau đó sử dụng vòng lặp huấn luyện cấp thấp của riêng bạn để thực hiện tối ưu hóa. Cả hai API đều sử dụng các khái niệm cơ bản giống nhau, và chúng được thiết kế để hoạt động tốt cùng nhau.
 
 ## Học tập
 
 Trong khóa học này, chúng tôi cung cấp hầu hết nội dung cho cả PyTorch và TensorFlow. Bạn có thể chọn framework ưa thích của mình và chỉ học qua các notebook tương ứng. Nếu bạn không chắc chắn nên chọn framework nào, hãy đọc một số thảo luận trên internet về **PyTorch vs. TensorFlow**. Bạn cũng có thể xem qua cả hai framework để hiểu rõ hơn.
 
-Khi có thể, chúng tôi sẽ sử dụng API cấp cao để đơn giản hóa. Tuy nhiên, chúng tôi tin rằng việc hiểu cách mạng neural hoạt động từ cơ bản là rất quan trọng, do đó ban đầu chúng tôi bắt đầu làm việc với API cấp thấp và các tensor. Tuy nhiên, nếu bạn muốn bắt đầu nhanh và không muốn dành nhiều thời gian để học các chi tiết này, bạn có thể bỏ qua và đi thẳng vào các notebook API cấp cao.
+Khi có thể, chúng tôi sẽ sử dụng API cấp cao để đơn giản hóa. Tuy nhiên, chúng tôi tin rằng việc hiểu cách mạng neural hoạt động từ cơ bản là rất quan trọng, do đó ban đầu chúng tôi bắt đầu bằng cách làm việc với API cấp thấp và các tensor. Tuy nhiên, nếu bạn muốn bắt đầu nhanh và không muốn dành nhiều thời gian để học các chi tiết này, bạn có thể bỏ qua phần đó và đi thẳng vào các notebook API cấp cao.
 
 ## ✍️ Bài tập: Frameworks
 
 Tiếp tục học tập trong các notebook sau:
 
-API cấp thấp | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](IntroPyTorch.ipynb)
+API cấp thấp | [Notebook TensorFlow+Keras](IntroKerasTF.ipynb) | [PyTorch](IntroPyTorch.ipynb)
 --------------|-------------------------------------|--------------------------------
 API cấp cao   | [Keras](IntroKeras.ipynb) | *PyTorch Lightning*
 
@@ -64,10 +64,10 @@ Hãy xem xét vấn đề sau đây về việc xấp xỉ 5 điểm (được b
 Lỗi huấn luyện = 5.3 | Lỗi huấn luyện = 0
 Lỗi kiểm định = 5.1 | Lỗi kiểm định = 20
 
-* Ở bên trái, chúng ta thấy một đường thẳng xấp xỉ tốt. Vì số lượng tham số là phù hợp, mô hình hiểu đúng phân bố điểm.
+* Ở bên trái, chúng ta thấy một đường thẳng xấp xỉ tốt. Vì số lượng tham số là phù hợp, mô hình hiểu đúng về phân bố điểm.
 * Ở bên phải, mô hình quá mạnh. Vì chúng ta chỉ có 5 điểm và mô hình có 7 tham số, nó có thể điều chỉnh để đi qua tất cả các điểm, làm cho lỗi huấn luyện bằng 0. Tuy nhiên, điều này ngăn mô hình hiểu đúng mẫu dữ liệu, dẫn đến lỗi kiểm định rất cao.
 
-Điều rất quan trọng là phải đạt được sự cân bằng đúng giữa độ phức tạp của mô hình (số lượng tham số) và số lượng mẫu huấn luyện.
+Điều rất quan trọng là đạt được sự cân bằng đúng giữa độ phức tạp của mô hình (số lượng tham số) và số lượng mẫu huấn luyện.
 
 ## Tại sao overfitting xảy ra
 
@@ -89,14 +89,14 @@ Nếu bạn thấy rằng overfitting xảy ra, bạn có thể làm một trong
  * Giảm độ phức tạp của mô hình
  * Sử dụng một số [kỹ thuật regularization](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md), chẳng hạn như [Dropout](../../4-ComputerVision/08-TransferLearning/TrainingTricks.md#Dropout), mà chúng ta sẽ xem xét sau.
 
-## Overfitting và Bias-Variance Tradeoff
+## Overfitting và Sự đánh đổi Bias-Variance
 
-Overfitting thực chất là một trường hợp của vấn đề tổng quát hơn trong thống kê gọi là [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Nếu chúng ta xem xét các nguồn lỗi có thể xảy ra trong mô hình của mình, chúng ta có thể thấy hai loại lỗi:
+Overfitting thực chất là một trường hợp của một vấn đề tổng quát hơn trong thống kê gọi là [Sự đánh đổi Bias-Variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff). Nếu chúng ta xem xét các nguồn lỗi có thể có trong mô hình của mình, chúng ta có thể thấy hai loại lỗi:
 
-* **Lỗi bias** gây ra bởi thuật toán của chúng ta không thể nắm bắt đúng mối quan hệ giữa dữ liệu huấn luyện. Nó có thể xuất phát từ việc mô hình của chúng ta không đủ mạnh (**underfitting**).
-* **Lỗi variance**, gây ra bởi mô hình xấp xỉ nhiễu trong dữ liệu đầu vào thay vì mối quan hệ có ý nghĩa (**overfitting**).
+* **Lỗi Bias** gây ra bởi thuật toán của chúng ta không thể nắm bắt đúng mối quan hệ giữa dữ liệu huấn luyện. Nó có thể xuất phát từ việc mô hình của chúng ta không đủ mạnh (**underfitting**).
+* **Lỗi Variance**, gây ra bởi mô hình xấp xỉ nhiễu trong dữ liệu đầu vào thay vì mối quan hệ có ý nghĩa (**overfitting**).
 
-Trong quá trình huấn luyện, lỗi bias giảm (khi mô hình của chúng ta học cách xấp xỉ dữ liệu), và lỗi variance tăng. Điều quan trọng là phải dừng huấn luyện - hoặc thủ công (khi chúng ta phát hiện overfitting) hoặc tự động (bằng cách áp dụng regularization) - để ngăn chặn overfitting.
+Trong quá trình huấn luyện, lỗi bias giảm (khi mô hình của chúng ta học cách xấp xỉ dữ liệu), và lỗi variance tăng. Điều quan trọng là dừng huấn luyện - hoặc thủ công (khi chúng ta phát hiện overfitting) hoặc tự động (bằng cách áp dụng regularization) - để ngăn chặn overfitting.
 
 ## Kết luận
 
@@ -106,7 +106,7 @@ Trong bài học này, bạn đã học về sự khác biệt giữa các API k
 
 Trong các notebook đi kèm, bạn sẽ tìm thấy 'nhiệm vụ' ở cuối; hãy làm việc qua các notebook và hoàn thành các nhiệm vụ.
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/10)
+## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/10)
 
 ## Ôn tập & Tự học
 
@@ -121,14 +121,12 @@ Hãy tự hỏi bản thân các câu hỏi sau:
 - Sự khác biệt giữa TensorFlow và PyTorch là gì?
 - Sự khác biệt giữa overfitting và underfitting là gì?
 
-## [Assignment](lab/README.md)
+## [Bài tập](lab/README.md)
 
-Trong bài lab này, bạn được yêu cầu giải quyết hai bài toán phân loại bằng cách sử dụng mạng fully-connected đơn lớp và đa lớp với PyTorch hoặc TensorFlow.
+Trong bài thực hành này, bạn được yêu cầu giải quyết hai bài toán phân loại bằng cách sử dụng mạng fully-connected đơn lớp và đa lớp với PyTorch hoặc TensorFlow.
 
 * [Hướng dẫn](lab/README.md)
 * [Notebook](lab/LabFrameworks.ipynb)
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với các thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.

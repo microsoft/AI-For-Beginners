@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0b306c04f5337b6e7430e5c0b16bb5c0",
-  "translation_date": "2025-08-25T20:53:09+00:00",
+  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
+  "translation_date": "2025-09-23T11:01:02+00:00",
   "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
   "language_code": "sw"
 }
 -->
 # Autoencoders
 
-Wakati wa kufundisha CNNs, mojawapo ya changamoto ni kwamba tunahitaji data nyingi iliyo na lebo. Katika hali ya uainishaji wa picha, tunahitaji kutenganisha picha katika madarasa tofauti, jambo ambalo linahitaji juhudi za mikono.
+Wakati wa kufundisha CNNs, mojawapo ya changamoto ni kwamba tunahitaji data nyingi yenye lebo. Katika hali ya uainishaji wa picha, tunahitaji kutenganisha picha katika madarasa tofauti, jambo ambalo linahitaji juhudi za mikono.
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/17)
 
-Hata hivyo, tunaweza kutaka kutumia data ghafi (isiyo na lebo) kwa mafunzo ya CNN feature extractors, ambayo inaitwa **kujifunza kwa kujisimamia**. Badala ya lebo, tutatumia picha za mafunzo kama pembejeo na matokeo ya mtandao. Wazo kuu la **autoencoder** ni kwamba tutakuwa na **encoder network** inayobadilisha picha ya pembejeo kuwa **latent space** fulani (kawaida ni vector ya ukubwa mdogo), kisha **decoder network**, ambayo lengo lake litakuwa kurejesha picha ya asili.
+Hata hivyo, tunaweza kutaka kutumia data ghafi (isiyo na lebo) kwa kufundisha CNN feature extractors, jambo ambalo linaitwa **kujifunza kwa kujisimamia**. Badala ya lebo, tutatumia picha za mafunzo kama pembejeo na matokeo ya mtandao. Wazo kuu la **autoencoder** ni kwamba tutakuwa na **encoder network** inayobadilisha picha ya pembejeo kuwa **latent space** fulani (kawaida ni vector ya ukubwa mdogo), kisha **decoder network**, ambayo lengo lake litakuwa kurejesha picha ya asili.
 
-> ✅ [Autoencoder](https://wikipedia.org/wiki/Autoencoder) ni "aina ya mtandao wa neva wa bandia unaotumika kujifunza njia bora za kuweka data isiyo na lebo."
+> ✅ [Autoencoder](https://wikipedia.org/wiki/Autoencoder) ni "aina ya mtandao wa neva bandia unaotumika kujifunza coding bora za data isiyo na lebo."
 
 Kwa kuwa tunafundisha autoencoder ili kunasa taarifa nyingi kutoka kwenye picha ya asili iwezekanavyo kwa ajili ya ujenzi sahihi, mtandao unajaribu kupata **embedding** bora ya picha za pembejeo ili kunasa maana yake.
 
@@ -38,13 +38,13 @@ Autoencoders za jadi hupunguza vipimo vya data ya pembejeo kwa namna fulani, iki
 
 Kwa upande mwingine, ili kufundisha *generative* models ni bora kuwa na uelewa fulani wa latent space. Wazo hili linatupeleka kwenye **variational auto-encoder** (VAE).
 
-VAE ni autoencoder inayojifunza kutabiri *statistical distribution* ya vigezo vya latent, inayoitwa **latent distribution**. Kwa mfano, tunaweza kutaka latent vectors zisambazwe kawaida na wastani fulani z<sub>mean</sub> na mkengeuko wa kawaida z<sub>sigma</sub> (wote wastani na mkengeuko wa kawaida ni vectors za vipimo fulani d). Encoder katika VAE hujifunza kutabiri vigezo hivyo, kisha decoder huchukua vector ya nasibu kutoka kwenye usambazaji huu ili kurejesha kitu.
+VAE ni autoencoder inayojifunza kutabiri *statistical distribution* ya vigezo vya latent, inayoitwa **latent distribution**. Kwa mfano, tunaweza kutaka latent vectors kusambazwa kawaida na wastani fulani z<sub>mean</sub> na mkengeuko wa kawaida z<sub>sigma</sub> (wastani na mkengeuko wa kawaida ni vectors za ukubwa fulani d). Encoder katika VAE hujifunza kutabiri vigezo hivyo, kisha decoder huchukua vector ya nasibu kutoka kwenye usambazaji huu ili kurejesha kitu.
 
 Kwa muhtasari:
 
  * Kutoka vector ya pembejeo, tunatabiri `z_mean` na `z_log_sigma` (badala ya kutabiri mkengeuko wa kawaida yenyewe, tunatabiri logarithm yake)
  * Tunachukua vector `sample` kutoka kwenye usambazaji N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
- * Decoder inajaribu kurejesha picha ya asili kwa kutumia `sample` kama vector ya pembejeo
+ * Decoder hujaribu kurejesha picha ya asili kwa kutumia `sample` kama vector ya pembejeo
 
  <img src="images/vae.png" width="50%">
 
@@ -55,13 +55,13 @@ Variational auto-encoders hutumia loss function ngumu inayojumuisha sehemu mbili
 * **Reconstruction loss** ni loss function inayonyesha jinsi picha iliyojengwa upya ilivyo karibu na lengo (inaweza kuwa Mean Squared Error, au MSE). Ni loss function sawa na ile ya autoencoders za kawaida.
 * **KL loss**, ambayo inahakikisha kwamba usambazaji wa latent variable unakaribia usambazaji wa kawaida. Inategemea dhana ya [Kullback-Leibler divergence](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained) - kipimo cha kutathmini jinsi usambazaji wa takwimu mbili unavyofanana.
 
-Faida moja muhimu ya VAEs ni kwamba zinaturuhusu kuunda picha mpya kwa urahisi, kwa sababu tunajua usambazaji kutoka ambapo tunachukua latent vectors. Kwa mfano, tukifundisha VAE na latent vector ya 2D kwenye MNIST, tunaweza kubadilisha vipengele vya latent vector ili kupata namba tofauti:
+Faida moja muhimu ya VAEs ni kwamba zinaturuhusu kuunda picha mpya kwa urahisi, kwa sababu tunajua usambazaji wa kuchukua latent vectors. Kwa mfano, tukifundisha VAE na latent vector ya 2D kwenye MNIST, tunaweza kubadilisha vipengele vya latent vector ili kupata namba tofauti:
 
 <img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
-Angalia jinsi picha zinavyoungana, tunapoanza kupata latent vectors kutoka sehemu tofauti za latent parameter space. Tunaweza pia kuona anga hii kwa 2D:
+Angalia jinsi picha zinavyoungana, tunapoanza kuchukua latent vectors kutoka sehemu tofauti za latent parameter space. Tunaweza pia kuona anga hii kwa 2D:
 
 <img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
 
@@ -71,12 +71,12 @@ Angalia jinsi picha zinavyoungana, tunapoanza kupata latent vectors kutoka sehem
 
 Jifunze zaidi kuhusu autoencoders katika daftari hizi zinazohusiana:
 
-* [Autoencoders katika TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)
-* [Autoencoders katika PyTorch](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb)
+* [Autoencoders katika TensorFlow](AutoencodersTF.ipynb)
+* [Autoencoders katika PyTorch](AutoEncodersPyTorch.ipynb)
 
 ## Sifa za Autoencoders
 
-* **Data Specific** - zinafanya kazi vizuri tu na aina ya picha ambazo zimefundishwa nazo. Kwa mfano, tukifundisha mtandao wa super-resolution kwenye maua, hautafanya kazi vizuri kwenye picha za watu. Hii ni kwa sababu mtandao unaweza kutoa picha ya azimio la juu kwa kuchukua maelezo mazuri kutoka vipengele vilivyojifunzwa kutoka dataset ya mafunzo.
+* **Data Specific** - zinafanya kazi vizuri tu na aina ya picha ambazo zimefundishwa nazo. Kwa mfano, tukifundisha mtandao wa super-resolution kwenye maua, hautafanya kazi vizuri kwenye picha za watu. Hii ni kwa sababu mtandao unaweza kutoa picha ya azimio la juu kwa kuchukua maelezo mazuri kutoka kwa vipengele vilivyojifunza kutoka dataset ya mafunzo.
 * **Lossy** - picha iliyojengwa upya si sawa na picha ya asili. Asili ya hasara inafafanuliwa na *loss function* iliyotumika wakati wa mafunzo.
 * Inafanya kazi na **data isiyo na lebo**
 
@@ -101,9 +101,9 @@ Kwa marejeleo, soma zaidi kuhusu autoencoders katika rasilimali hizi:
 * [Variational Autoencoders Explained](https://kvfrans.com/variational-autoencoders-explained/)
 * [Conditional Variational Autoencoders](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
-## Kazi
+## Kazi ya Nyumbani
 
-Mwisho wa [daftari hili linalotumia TensorFlow](../../../../../lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb), utapata 'kazi' - tumia hii kama jukumu lako.
+Mwisho wa [daftari hili linalotumia TensorFlow](AutoencodersTF.ipynb), utapata 'kazi' - tumia hii kama kazi yako ya nyumbani.
 
-**Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati asilia katika lugha yake ya asili inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+---
+

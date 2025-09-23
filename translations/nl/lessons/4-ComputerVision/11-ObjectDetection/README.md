@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d85c8b08f6d1b48fd7f35b99f93c1138",
-  "translation_date": "2025-08-28T19:32:13+00:00",
+  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+  "translation_date": "2025-09-23T10:08:15+00:00",
   "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
   "language_code": "nl"
 }
 -->
 # Objectdetectie
 
-De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbeelding en produceerden een categorisch resultaat, zoals de klasse 'nummer' in een MNIST-probleem. Echter, in veel gevallen willen we niet alleen weten dat een afbeelding objecten toont - we willen ook hun exacte locatie kunnen bepalen. Dit is precies het doel van **objectdetectie**.
+De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbeelding en produceerden een categorisch resultaat, zoals de klasse 'nummer' in een MNIST-probleem. Echter, in veel gevallen willen we niet alleen weten dat een afbeelding objecten toont - we willen ook hun exacte locatie bepalen. Dit is precies het doel van **objectdetectie**.
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
@@ -17,19 +17,19 @@ De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbe
 
 > Afbeelding van [YOLO v2 website](https://pjreddie.com/darknet/yolov2/)
 
-## Een naïeve benadering van objectdetectie
+## Een eenvoudige aanpak voor objectdetectie
 
-Stel dat we een kat op een afbeelding willen vinden, een zeer eenvoudige benadering van objectdetectie zou als volgt zijn:
+Stel dat we een kat op een afbeelding willen vinden, een zeer eenvoudige aanpak voor objectdetectie zou als volgt zijn:
 
 1. Verdeel de afbeelding in een aantal tegels.
 2. Voer beeldclassificatie uit op elke tegel.
-3. De tegels die resulteren in voldoende hoge activatie kunnen worden beschouwd als tegels die het betreffende object bevatten.
+3. De tegels die een voldoende hoge activatie opleveren, kunnen worden beschouwd als tegels die het betreffende object bevatten.
 
-![Naïeve objectdetectie](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.nl.png)
+![Eenvoudige objectdetectie](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.nl.png)
 
 > *Afbeelding uit [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
-Deze aanpak is echter verre van ideaal, omdat het algoritme alleen in staat is om de begrenzingskaders van het object zeer onnauwkeurig te lokaliseren. Voor een nauwkeurigere locatie moeten we een vorm van **regressie** uitvoeren om de coördinaten van begrenzingskaders te voorspellen - en daarvoor hebben we specifieke datasets nodig.
+Deze aanpak is echter verre van ideaal, omdat het algoritme de begrenzingskaders van het object slechts zeer onnauwkeurig kan bepalen. Voor een nauwkeurigere locatie moeten we een vorm van **regressie** uitvoeren om de coördinaten van begrenzingskaders te voorspellen - en daarvoor hebben we specifieke datasets nodig.
 
 ## Regressie voor objectdetectie
 
@@ -54,21 +54,21 @@ Bij beeldclassificatie is het eenvoudig om te meten hoe goed het algoritme prest
 
 > *Figuur 2 uit [deze uitstekende blogpost over IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
-Het idee is simpel - we delen het overlappingsgebied tussen twee figuren door het gebied van hun unie. Voor twee identieke gebieden zou IoU 1 zijn, terwijl voor volledig gescheiden gebieden het 0 zal zijn. Anders varieert het van 0 tot 1. We beschouwen doorgaans alleen die begrenzingskaders waarvoor IoU boven een bepaalde waarde ligt.
+Het idee is simpel - we delen het gebied van de overlap tussen twee figuren door het gebied van hun unie. Voor twee identieke gebieden zou IoU 1 zijn, terwijl voor volledig gescheiden gebieden IoU 0 is. Anders varieert het van 0 tot 1. We beschouwen doorgaans alleen die begrenzingskaders waarvoor IoU boven een bepaalde waarde ligt.
 
 ### Gemiddelde precisie
 
-Stel dat we willen meten hoe goed een bepaalde klasse van objecten $C$ wordt herkend. Om dit te meten gebruiken we de **Gemiddelde Precisie**-metrics, die als volgt wordt berekend:
+Stel dat we willen meten hoe goed een bepaalde klasse van objecten $C$ wordt herkend. Om dit te meten gebruiken we de **Gemiddelde Precisie**-metric, die als volgt wordt berekend:
 
 1. Beschouw de Precision-Recall-curve die de nauwkeurigheid toont afhankelijk van een detectiedrempelwaarde (van 0 tot 1).
-2. Afhankelijk van de drempelwaarde zullen er meer of minder objecten in de afbeelding worden gedetecteerd, en verschillende waarden van precisie en recall.
-3. De curve zal er als volgt uitzien:
+2. Afhankelijk van de drempelwaarde worden meer of minder objecten gedetecteerd in de afbeelding, met verschillende waarden voor precisie en recall.
+3. De curve ziet er als volgt uit:
 
 <img src="https://github.com/shwars/NeuroWorkshop/raw/master/images/ObjDetectionPrecisionRecall.png"/>
 
 > *Afbeelding van [NeuroWorkshop](http://github.com/shwars/NeuroWorkshop)*
 
-De gemiddelde precisie voor een bepaalde klasse $C$ is het gebied onder deze curve. Meer precies wordt de Recall-as doorgaans verdeeld in 10 delen, en wordt de precisie gemiddeld over al deze punten:
+De gemiddelde precisie voor een bepaalde klasse $C$ is het gebied onder deze curve. Meer precies, de Recall-as wordt doorgaans verdeeld in 10 delen, en de precisie wordt gemiddeld over al deze punten:
 
 $$
 AP = {1\over11}\sum_{i=0}^{10}\mbox{Precision}(\mbox{Recall}={i\over10})
@@ -87,11 +87,11 @@ We beschouwen alleen die detecties waarvoor IoU boven een bepaalde waarde ligt. 
 De belangrijkste metric voor objectdetectie wordt **Gemiddelde Gemiddelde Precisie**, of **mAP**, genoemd. Dit is de waarde van de gemiddelde precisie, gemiddeld over alle objectklassen, en soms ook over $\mbox{IoU Threshold}$. Het proces van het berekenen van **mAP** wordt in meer detail beschreven
 [in deze blogpost](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), en ook [hier met codevoorbeelden](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
 
-## Verschillende benaderingen van objectdetectie
+## Verschillende benaderingen voor objectdetectie
 
-Er zijn twee brede klassen van objectdetectie-algoritmen:
+Er zijn twee brede categorieën van objectdetectie-algoritmen:
 
-* **Region Proposal Networks** (R-CNN, Fast R-CNN, Faster R-CNN). Het belangrijkste idee is om **Regions of Interests** (ROI) te genereren en CNN eroverheen te laten lopen, op zoek naar maximale activatie. Het lijkt een beetje op de naïeve benadering, met als uitzondering dat ROI's op een slimmere manier worden gegenereerd. Een van de grootste nadelen van dergelijke methoden is dat ze traag zijn, omdat we veel passes van de CNN-classificator over de afbeelding nodig hebben.
+* **Region Proposal Networks** (R-CNN, Fast R-CNN, Faster R-CNN). Het belangrijkste idee is om **Regions of Interest** (ROI) te genereren en CNN eroverheen te laten lopen, op zoek naar maximale activatie. Het lijkt een beetje op de eenvoudige aanpak, met als uitzondering dat ROI's op een slimmere manier worden gegenereerd. Een van de grootste nadelen van dergelijke methoden is dat ze traag zijn, omdat we veel passes van de CNN-classificator over de afbeelding nodig hebben.
 * **One-pass** (YOLO, SSD, RetinaNet) methoden. In deze architecturen ontwerpen we het netwerk om zowel klassen als ROI's in één keer te voorspellen.
 
 ### R-CNN: Region-Based CNN
@@ -136,10 +136,10 @@ Dit algoritme is zelfs sneller dan Faster R-CNN. Het belangrijkste idee is als v
 
 ### YOLO - You Only Look Once
 
-YOLO is een realtime één-pass algoritme. Het belangrijkste idee is als volgt:
+YOLO is een realtime one-pass algoritme. Het belangrijkste idee is als volgt:
 
  * De afbeelding wordt verdeeld in $S\times S$ regio's.
- * Voor elke regio voorspelt **CNN** $n$ mogelijke objecten, *begrenzingskader*-coördinaten en *confidence*=*probability* * IoU.
+ * Voor elke regio voorspelt **CNN** $n$ mogelijke objecten, *begrenzingskader*-coördinaten en *vertrouwen*=*waarschijnlijkheid* * IoU.
 
  ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.nl.png)
 
@@ -148,8 +148,8 @@ YOLO is een realtime één-pass algoritme. Het belangrijkste idee is als volgt:
 ### Andere algoritmen
 
 * RetinaNet: [officiële paper](https://arxiv.org/abs/1708.02002)
-   - [PyTorch Implementatie in Torchvision](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html)
-   - [Keras Implementatie](https://github.com/fizyr/keras-retinanet)
+   - [PyTorch-implementatie in Torchvision](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html)
+   - [Keras-implementatie](https://github.com/fizyr/keras-retinanet)
    - [Objectdetectie met RetinaNet](https://keras.io/examples/vision/retinanet/) in Keras Samples
 * SSD (Single Shot Detector): [officiële paper](https://arxiv.org/abs/1512.02325)
 
@@ -167,10 +167,10 @@ In deze les heb je een snelle rondleiding gekregen langs de verschillende manier
 
 Lees deze artikelen en notebooks over YOLO en probeer ze zelf uit:
 
-* [Goede blogpost](https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/) die YOLO beschrijft
+* [Goede blogpost](https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/) over YOLO
  * [Officiële site](https://pjreddie.com/darknet/yolo/)
- * Yolo: [Keras implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
- * Yolo v2: [Keras implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
+ * Yolo: [Keras-implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/basic-yolo-keras/blob/master/Yolo%20Step-by-Step.ipynb)
+ * Yolo v2: [Keras-implementatie](https://github.com/experiencor/keras-yolo2), [stap-voor-stap notebook](https://github.com/experiencor/keras-yolo2/blob/master/Yolo%20Step-by-Step.ipynb)
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/22)
 
@@ -178,7 +178,7 @@ Lees deze artikelen en notebooks over YOLO en probeer ze zelf uit:
 
 * [Objectdetectie](https://tjmachinelearning.com/lectures/1718/obj/) door Nikhil Sardana
 * [Een goede vergelijking van objectdetectie-algoritmen](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
-* [Review van Deep Learning-algoritmen voor objectdetectie](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
+* [Review van deep learning-algoritmen voor objectdetectie](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
 * [Een stapsgewijze introductie tot de basisobjectdetectie-algoritmen](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
 * [Implementatie van Faster R-CNN in Python voor objectdetectie](https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/)
 
@@ -186,5 +186,3 @@ Lees deze artikelen en notebooks over YOLO en probeer ze zelf uit:
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

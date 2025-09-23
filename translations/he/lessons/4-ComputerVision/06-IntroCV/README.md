@@ -1,40 +1,40 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4bedc8e702db17260cfe824d58b6cfd4",
-  "translation_date": "2025-08-28T19:30:42+00:00",
+  "original_hash": "feeca98225cb420afc89415f24f63d92",
+  "translation_date": "2025-09-23T10:17:33+00:00",
   "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
   "language_code": "he"
 }
 -->
 # מבוא לראייה ממוחשבת
 
-[ראייה ממוחשבת](https://wikipedia.org/wiki/Computer_vision) היא תחום שמטרתו לאפשר למחשבים להבין ברמה גבוהה תמונות דיגיטליות. זו הגדרה רחבה למדי, מכיוון ש*הבנה* יכולה להתבטא בדרכים רבות, כמו זיהוי אובייקט בתמונה (**זיהוי אובייקטים**), הבנת מה שמתרחש (**זיהוי אירועים**), תיאור תמונה בטקסט, או שחזור סצנה בתלת-ממד. ישנן גם משימות מיוחדות הקשורות לתמונות של בני אדם: הערכת גיל ורגשות, זיהוי פנים וזיהוי זהות, והערכת תנוחה בתלת-ממד, לדוגמה.
+[ראייה ממוחשבת](https://wikipedia.org/wiki/Computer_vision) היא תחום שמטרתו לאפשר למחשבים להבין ברמה גבוהה תמונות דיגיטליות. זו הגדרה רחבה למדי, כי *הבנה* יכולה להתייחס לדברים רבים, כולל זיהוי אובייקט בתמונה (**זיהוי אובייקטים**), הבנת מה מתרחש (**זיהוי אירועים**), תיאור תמונה בטקסט, או שחזור סצנה בתלת-ממד. יש גם משימות מיוחדות הקשורות לתמונות של בני אדם: הערכת גיל ורגשות, זיהוי פנים וזיהוי זהות, והערכת תנוחה בתלת-ממד, בין היתר.
 
 ## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/11)
 
 אחת המשימות הפשוטות ביותר בראייה ממוחשבת היא **סיווג תמונות**.
 
-ראייה ממוחשבת נחשבת לעיתים קרובות לענף של בינה מלאכותית. כיום, רוב המשימות בתחום זה נפתרות באמצעות רשתות נוירונים. נלמד יותר על סוג מיוחד של רשתות נוירונים המשמשות לראייה ממוחשבת, [רשתות נוירונים קונבולוציוניות](../07-ConvNets/README.md), במהלך חלק זה.
+ראייה ממוחשבת נחשבת לעיתים קרובות כענף של בינה מלאכותית. כיום, רוב המשימות בתחום זה נפתרות באמצעות רשתות נוירונים. נלמד יותר על סוג מיוחד של רשתות נוירונים המשמשות לראייה ממוחשבת, [רשתות נוירונים קונבולוציוניות](../07-ConvNets/README.md), לאורך החלק הזה.
 
-עם זאת, לפני שמעבירים תמונה לרשת נוירונים, במקרים רבים יש היגיון להשתמש בטכניקות אלגוריתמיות לשיפור התמונה.
+עם זאת, לפני שמעבירים תמונה לרשת נוירונים, במקרים רבים יש הגיון להשתמש בטכניקות אלגוריתמיות לשיפור התמונה.
 
 ישנן מספר ספריות Python זמינות לעיבוד תמונה:
 
-* **[imageio](https://imageio.readthedocs.io/en/stable/)** משמשת לקריאה/כתיבה של פורמטים שונים של תמונות. היא גם תומכת ב-ffmpeg, כלי שימושי להמרת פריימים של וידאו לתמונות.
-* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (המוכרת גם כ-PIL) היא חזקה יותר, ותומכת גם במניפולציות על תמונות כמו עיוותים, התאמות פלטה, ועוד.
-* **[OpenCV](https://opencv.org/)** היא ספריית עיבוד תמונה חזקה שנכתבה ב-C++, והפכה לסטנדרט דה-פקטו לעיבוד תמונה. יש לה ממשק נוח ב-Python.
-* **[dlib](http://dlib.net/)** היא ספריית C++ שמיישמת אלגוריתמים רבים של למידת מכונה, כולל כמה אלגוריתמים של ראייה ממוחשבת. יש לה גם ממשק Python, והיא יכולה לשמש למשימות מאתגרות כמו זיהוי פנים ונקודות ציון בפנים.
+* **[imageio](https://imageio.readthedocs.io/en/stable/)** יכולה לשמש לקריאה/כתיבה של פורמטים שונים של תמונות. היא גם תומכת ב-ffmpeg, כלי שימושי להמרת פריימים של וידאו לתמונות.
+* **[Pillow](https://pillow.readthedocs.io/en/stable/index.html)** (המוכרת גם כ-PIL) היא חזקה יותר, ותומכת גם במניפולציות תמונה כמו עיוותים, התאמות פלטה, ועוד.
+* **[OpenCV](https://opencv.org/)** היא ספריית עיבוד תמונה חזקה שנכתבה ב-C++, והפכה לסטנדרט *דה פקטו* לעיבוד תמונה. יש לה ממשק נוח ב-Python.
+* **[dlib](http://dlib.net/)** היא ספריית C++ שמיישמת אלגוריתמים רבים של למידת מכונה, כולל כמה אלגוריתמים של ראייה ממוחשבת. יש לה גם ממשק Python, וניתן להשתמש בה למשימות מאתגרות כמו זיהוי פנים ונקודות ציון בפנים.
 
 ## OpenCV
 
-[OpenCV](https://opencv.org/) נחשבת לסטנדרט דה-פקטו לעיבוד תמונה. היא מכילה הרבה אלגוריתמים שימושיים, המיושמים ב-C++. ניתן להשתמש ב-OpenCV גם מ-Python.
+[OpenCV](https://opencv.org/) נחשבת לסטנדרט *דה פקטו* לעיבוד תמונה. היא מכילה הרבה אלגוריתמים שימושיים, שמיושמים ב-C++. ניתן להשתמש ב-OpenCV גם מ-Python.
 
-מקום טוב ללמוד על OpenCV הוא [הקורס הזה](https://learnopencv.com/getting-started-with-opencv/). בתוכנית הלימודים שלנו, המטרה היא לא ללמוד OpenCV, אלא להראות דוגמאות לשימושים שלה וכיצד ניתן להשתמש בה.
+מקום טוב ללמוד על OpenCV הוא [הקורס Learn OpenCV](https://learnopencv.com/getting-started-with-opencv/). בתוכנית הלימודים שלנו, המטרה היא לא ללמוד OpenCV, אלא להראות לכם כמה דוגמאות שבהן ניתן להשתמש בה, וכיצד.
 
 ### טעינת תמונות
 
-תמונות ב-Python מיוצגות בצורה נוחה על ידי מערכים של NumPy. לדוגמה, תמונות בגווני אפור בגודל 320x200 פיקסלים יאוחסנו במערך בגודל 200x320, ותמונות צבעוניות באותו גודל יהיו בעלות צורה של 200x320x3 (עבור 3 ערוצי צבע). כדי לטעון תמונה, ניתן להשתמש בקוד הבא:
+תמונות ב-Python מיוצגות בצורה נוחה באמצעות מערכים של NumPy. לדוגמה, תמונות בגווני אפור בגודל 320x200 פיקסלים יאוחסנו במערך בגודל 200x320, ותמונות צבעוניות באותו גודל יהיו בעלות צורה של 200x320x3 (עבור 3 ערוצי צבע). כדי לטעון תמונה, ניתן להשתמש בקוד הבא:
 
 ```python
 import cv2
@@ -44,50 +44,50 @@ im = cv2.imread('image.jpeg')
 plt.imshow(im)
 ```
 
-באופן מסורתי, OpenCV משתמשת בקידוד BGR (כחול-ירוק-אדום) לתמונות צבע, בעוד שאר הכלים ב-Python משתמשים בקידוד RGB (אדום-ירוק-כחול) המסורתי יותר. כדי שהתמונה תיראה נכון, יש להמיר אותה למרחב הצבעים RGB, או על ידי החלפת ממדים במערך NumPy, או על ידי קריאה לפונקציה של OpenCV:
+באופן מסורתי, OpenCV משתמש בקידוד BGR (כחול-ירוק-אדום) לתמונות צבעוניות, בעוד שאר הכלים ב-Python משתמשים בקידוד RGB (אדום-ירוק-כחול) המסורתי יותר. כדי שהתמונה תיראה נכון, יש להמיר אותה למרחב הצבעים RGB, או על ידי החלפת ממדים במערך NumPy, או על ידי קריאה לפונקציה של OpenCV:
 
 ```python
 im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 ```
 
-אותה פונקציה `cvtColor` יכולה לשמש גם לביצוע המרות אחרות של מרחבי צבע, כמו המרת תמונה לגווני אפור או למרחב הצבעים HSV (גוון-רוויה-ערך).
+אותה פונקציה `cvtColor` יכולה לשמש לביצוע המרות אחרות של מרחבי צבע, כמו המרת תמונה לגווני אפור או למרחב הצבעים HSV (גוון-רוויה-ערך).
 
 ניתן גם להשתמש ב-OpenCV לטעינת פריימים של וידאו אחד-אחד - דוגמה לכך ניתנת בתרגיל [OpenCV Notebook](OpenCV.ipynb).
 
 ### עיבוד תמונה
 
-לפני שמעבירים תמונה לרשת נוירונים, ייתכן שתרצו לבצע מספר שלבי עיבוד מקדים. OpenCV יכולה לבצע פעולות רבות, כולל:
+לפני שמעבירים תמונה לרשת נוירונים, ייתכן שתרצו לבצע מספר שלבי עיבוד מקדימים. OpenCV יכולה לבצע דברים רבים, כולל:
 
 * **שינוי גודל** התמונה באמצעות `im = cv2.resize(im, (320,200),interpolation=cv2.INTER_LANCZOS)`
 * **טשטוש** התמונה באמצעות `im = cv2.medianBlur(im,3)` או `im = cv2.GaussianBlur(im, (3,3), 0)`
 * שינוי **בהירות וניגודיות** של התמונה ניתן לבצע באמצעות מניפולציות על מערכי NumPy, כפי שמתואר [בהערה הזו ב-Stackoverflow](https://stackoverflow.com/questions/39308030/how-do-i-increase-the-contrast-of-an-image-in-python-opencv).
-* שימוש ב-[סף](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) על ידי קריאה לפונקציות `cv2.threshold`/`cv2.adaptiveThreshold`, שלעיתים קרובות עדיף על התאמת בהירות או ניגודיות.
-* יישום [שינויים גיאומטריים](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) שונים על התמונה:
-    - **[שינויים אפיניים](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** יכולים להיות שימושיים אם צריך לשלב סיבוב, שינוי גודל ועיוות בתמונה, ויודעים את מיקום המקור והיעד של שלוש נקודות בתמונה. שינויים אפיניים שומרים על קווים מקבילים.
-    - **[שינויים פרספקטיביים](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** יכולים להיות שימושיים כאשר יודעים את מיקום המקור והיעד של 4 נקודות בתמונה. לדוגמה, אם מצלמים מסמך מלבני באמצעות מצלמת סמארטפון מזווית מסוימת, ורוצים ליצור תמונה מלבנית של המסמך עצמו.
+* שימוש ב-[סף](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html) על ידי קריאה לפונקציות `cv2.threshold`/`cv2.adaptiveThreshold`, שלעיתים עדיף על התאמת בהירות או ניגודיות.
+* יישום [טרנספורמציות שונות](https://docs.opencv.org/4.5.5/da/d6e/tutorial_py_geometric_transformations.html) על התמונה:
+    - **[טרנספורמציות אפיניות](https://docs.opencv.org/4.5.5/d4/d61/tutorial_warp_affine.html)** יכולות להיות שימושיות אם צריך לשלב סיבוב, שינוי גודל ועיוות בתמונה, וידועים מיקומי המקור והיעד של שלוש נקודות בתמונה. טרנספורמציות אפיניות שומרות על קווים מקבילים.
+    - **[טרנספורמציות פרספקטיבה](https://medium.com/analytics-vidhya/opencv-perspective-transformation-9edffefb2143)** יכולות להיות שימושיות כאשר ידועים מיקומי המקור והיעד של 4 נקודות בתמונה. לדוגמה, אם מצלמים תמונה של מסמך מלבני באמצעות מצלמת סמארטפון מזווית מסוימת, ורוצים ליצור תמונה מלבנית של המסמך עצמו.
 * הבנת תנועה בתוך התמונה באמצעות **[זרימה אופטית](https://docs.opencv.org/4.5.5/d4/dee/tutorial_optical_flow.html)**.
 
 ## דוגמאות לשימוש בראייה ממוחשבת
 
-ב-[OpenCV Notebook](OpenCV.ipynb) שלנו, אנו מציגים דוגמאות לשימוש בראייה ממוחשבת לביצוע משימות ספציפיות:
+ב-[OpenCV Notebook](OpenCV.ipynb) שלנו, אנו מציגים כמה דוגמאות לשימוש בראייה ממוחשבת לביצוע משימות ספציפיות:
 
-* **עיבוד מקדים של צילום של ספר ברייל**. אנו מתמקדים כיצד ניתן להשתמש בסף, זיהוי מאפיינים, שינוי פרספקטיבה ומניפולציות NumPy כדי להפריד סמלי ברייל בודדים לסיווג נוסף על ידי רשת נוירונים.
+* **עיבוד מקדים של צילום ספר ברייל**. אנו מתמקדים כיצד ניתן להשתמש בסף, זיהוי תכונות, טרנספורמציית פרספקטיבה ומניפולציות NumPy כדי להפריד סמלי ברייל בודדים לסיווג נוסף על ידי רשת נוירונים.
 
 ![תמונה של ברייל](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.he.jpeg) | ![תמונה מעובדת של ברייל](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.he.png) | ![סמלי ברייל](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.he.png)
 ----|-----|-----
 
 > תמונה מתוך [OpenCV.ipynb](OpenCV.ipynb)
 
-* **זיהוי תנועה בווידאו באמצעות הפרש פריימים**. אם המצלמה קבועה, אז הפריימים מהמצלמה אמורים להיות דומים זה לזה. מכיוון שפריימים מיוצגים כמערכים, על ידי חיסור המערכים של שני פריימים עוקבים נקבל את ההפרש בפיקסלים, שאמור להיות נמוך עבור פריימים סטטיים, ולהיות גבוה יותר כאשר יש תנועה משמעותית בתמונה.
+* **זיהוי תנועה בווידאו באמצעות הבדל פריימים**. אם המצלמה קבועה, אז הפריימים מהמצלמה צריכים להיות די דומים זה לזה. מכיוון שפריימים מיוצגים כמערכים, פשוט על ידי חיסור המערכים של שני פריימים עוקבים נקבל את ההבדל בפיקסלים, שאמור להיות נמוך עבור פריימים סטטיים, ולהפוך לגבוה יותר כאשר יש תנועה משמעותית בתמונה.
 
-![תמונה של פריימים והפרשי פריימים](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.he.png)
+![תמונה של פריימים בווידאו והבדלי פריימים](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.he.png)
 
 > תמונה מתוך [OpenCV.ipynb](OpenCV.ipynb)
 
 * **זיהוי תנועה באמצעות זרימה אופטית**. [זרימה אופטית](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html) מאפשרת להבין כיצד פיקסלים בודדים בפריימים של וידאו נעים. ישנם שני סוגים של זרימה אופטית:
 
    - **זרימה אופטית צפופה** מחשבת את שדה הווקטורים שמראה לכל פיקסל לאן הוא נע.
-   - **זרימה אופטית דלילה** מבוססת על זיהוי מאפיינים ייחודיים בתמונה (למשל, קצוות), ובניית מסלול התנועה שלהם מפריים לפריים.
+   - **זרימה אופטית דלילה** מבוססת על לקיחת תכונות ייחודיות בתמונה (למשל, קצוות), ובניית מסלולן מפריים לפריים.
 
 ![תמונה של זרימה אופטית](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.he.png)
 
@@ -95,29 +95,27 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 ## ✍️ מחברות לדוגמה: OpenCV [נסו את OpenCV בפעולה](OpenCV.ipynb)
 
-בואו נעשה ניסויים עם OpenCV על ידי חקירת [OpenCV Notebook](OpenCV.ipynb).
+בואו נעשה כמה ניסויים עם OpenCV על ידי חקר [OpenCV Notebook](OpenCV.ipynb)
 
 ## סיכום
 
-לעיתים, משימות מורכבות יחסית כמו זיהוי תנועה או זיהוי קצות אצבעות יכולות להיפתר אך ורק באמצעות ראייה ממוחשבת. לכן, חשוב מאוד להכיר את הטכניקות הבסיסיות של ראייה ממוחשבת, ואת מה שספריות כמו OpenCV יכולות לעשות.
+לפעמים, משימות יחסית מורכבות כמו זיהוי תנועה או זיהוי קצה אצבע יכולות להיפתר אך ורק באמצעות ראייה ממוחשבת. לכן, חשוב מאוד להכיר את הטכניקות הבסיסיות של ראייה ממוחשבת, ומה ספריות כמו OpenCV יכולות לעשות.
 
 ## 🚀 אתגר
 
-צפו ב-[סרטון הזה](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) מתוך AI Show כדי ללמוד על פרויקט Cortic Tigers וכיצד הם בנו פתרון מבוסס בלוקים להנגשת משימות ראייה ממוחשבת באמצעות רובוט. בצעו מחקר על פרויקטים נוספים כמו זה שמסייעים למתחילים להיכנס לתחום.
+צפו [בסרטון הזה](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-ai-competition--grand-prize-winners--cortic-tigers--episode-32?WT.mc_id=academic-77998-cacaste) מתוך תוכנית AI Show כדי ללמוד על פרויקט Cortic Tigers וכיצד הם בנו פתרון מבוסס בלוקים להנגשת משימות ראייה ממוחשבת באמצעות רובוט. בצעו מחקר על פרויקטים נוספים כמו זה שמסייעים למתחילים להיכנס לתחום.
 
 ## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/12)
 
 ## סקירה ולימוד עצמי
 
-קראו עוד על זרימה אופטית [במדריך המצוין הזה](https://learnopencv.com/optical-flow-in-opencv/).
+קראו עוד על זרימה אופטית [במדריך הנהדר הזה](https://learnopencv.com/optical-flow-in-opencv/).
 
 ## [משימה](lab/README.md)
 
 במעבדה זו, תצלמו וידאו עם מחוות פשוטות, והמטרה שלכם היא לחלץ תנועות למעלה/למטה/שמאלה/ימינה באמצעות זרימה אופטית.
 
-<img src="images/palm-movement.png" width="30%" alt="תנועת כף יד"/>
+<img src="images/palm-movement.png" width="30%" alt="פריים תנועת כף יד"/>
 
 ---
 
-**כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "31b46ba1f3aa78578134d4829f88be53",
-  "translation_date": "2025-08-29T11:58:58+00:00",
+  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+  "translation_date": "2025-09-23T10:54:49+00:00",
   "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
   "language_code": "ms"
 }
@@ -19,7 +19,7 @@ Idea utama di sebalik pemodelan bahasa adalah melatihnya menggunakan dataset tan
 
 Dalam contoh sebelumnya, kita menggunakan pemerangkapan semantik yang telah dilatih, tetapi menarik untuk melihat bagaimana pemerangkapan tersebut boleh dilatih. Terdapat beberapa idea yang boleh digunakan:
 
-* Pemodelan bahasa **N-Gram**, di mana kita meramalkan token dengan melihat N token sebelumnya (N-gram).
+* **Pemodelan bahasa N-Gram**, di mana kita meramalkan satu token dengan melihat N token sebelumnya (N-gram).
 * **Continuous Bag-of-Words** (CBoW), di mana kita meramalkan token tengah $W_0$ dalam urutan token $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, di mana kita meramalkan satu set token berdekatan {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} daripada token tengah $W_0$.
 
@@ -52,5 +52,3 @@ Dalam makmal, kami mencabar anda untuk mengubah kod daripada pelajaran ini untuk
 
 ---
 
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
