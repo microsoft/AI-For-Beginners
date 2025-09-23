@@ -59,10 +59,10 @@ jobs:
           # translate -l "ko lt mo ms mr my ne nl no pa pl" -nb
           # translate -l "pt ro ru sk sl sr sv sw" -nb  
           # translate -l  "th tl tr tw uk ur vi zh hk" -nb
-          translate -l "ar ur tl mr ne pa bn ru mo" -y
+          # translate -l "ar ur tl mr ne pa bn ru mo" -y
           # translate -l "mr ne pa" -y
           # translate -l "bn ru mo" -y
-          # translate -l "br it tr el th sv da no" -y
+          translate -l "br it tr el th sv da no" -y
           # translate -l "el th" -y
           # translate -l "sv da no" -y
           # translate -l "fi nl he vi id ms sw hu cs" -y
