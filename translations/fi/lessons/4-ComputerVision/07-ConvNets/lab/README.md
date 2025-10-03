@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
-  "translation_date": "2025-08-28T19:25:54+00:00",
+  "original_hash": "b70fcf7fcee862990f848c679090943f",
+  "translation_date": "2025-10-03T14:55:46+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
   "language_code": "fi"
 }
@@ -13,13 +13,13 @@ Lab-tehtävä [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-
 
 ## Tehtävä
 
-Kuvittele, että sinun täytyy kehittää sovellus lemmikkien hoitopaikalle kaikkien lemmikkien luetteloimista varten. Yksi tällaisen sovelluksen hienoista ominaisuuksista olisi rodun automaattinen tunnistaminen valokuvasta. Tämä voidaan onnistuneesti toteuttaa käyttämällä neuroverkkoja.
+Kuvittele, että sinun täytyy kehittää sovellus lemmikkien hoitolalle kaikkien lemmikkien luetteloimiseen. Yksi tällaisen sovelluksen hienoista ominaisuuksista olisi rodun automaattinen tunnistaminen valokuvasta. Tämä voidaan onnistuneesti toteuttaa käyttämällä neuroverkkoja.
 
-Sinun täytyy kouluttaa konvoluutio-neuroverkko luokittelemaan eri kissojen ja koirien rodut käyttäen **Pet Faces** -datakokonaisuutta.
+Sinun tulee kouluttaa konvoluutio-neuroverkko luokittelemaan eri kissojen ja koirien rodut käyttäen **Pet Faces** -datakokonaisuutta.
 
 ## Datakokonaisuus
 
-Käytämme **Pet Faces** -datakokonaisuutta, joka on johdettu [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) lemmikkien datakokonaisuudesta. Se sisältää 35 eri koirien ja kissojen rotua.
+Käytämme [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) -datakokonaisuutta, joka sisältää kuvia 37 eri koira- ja kissarodusta.
 
 ![Datakokonaisuus, jonka kanssa työskentelemme](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fi.png)
 
@@ -31,15 +31,17 @@ Ladataksesi datakokonaisuuden, käytä tätä koodinpätkää:
 !rm images.tar.gz
 ```
 
+**Huom:** Oxford-IIIT Pet Dataset -kuvat on järjestetty tiedostonimen mukaan (esim. `Abyssinian_1.jpg`, `Bengal_2.jpg`). Notebook sisältää koodin, joka järjestää nämä kuvat rotukohtaisiin alikansioihin helpottamaan luokittelua.
+
 ## Aloitus Notebook
 
-Aloita lab-työskentely avaamalla [PetFaces.ipynb](PetFaces.ipynb)
+Aloita lab-tehtävä avaamalla [PetFaces.ipynb](PetFaces.ipynb)
 
-## Lopputulos
+## Oppimiskokemus
 
-Olet ratkaissut suhteellisen monimutkaisen kuvaluokittelutehtävän alusta asti! Luokkia oli melko paljon, ja silti onnistuit saavuttamaan kohtuullisen tarkkuuden! On myös järkevää mitata top-k tarkkuutta, koska on helppo sekoittaa joitakin luokkia, jotka eivät ole selvästi erilaisia edes ihmisille.
+Olet ratkaissut suhteellisen monimutkaisen kuvaluokittelutehtävän alusta alkaen! Luokkia oli melko paljon, ja silti pystyit saavuttamaan kohtuullisen tarkkuuden! On myös järkevää mitata top-k-tarkkuutta, koska joidenkin luokkien erottaminen voi olla vaikeaa jopa ihmisille, jos erot eivät ole selkeitä.
 
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäinen asiakirja sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
