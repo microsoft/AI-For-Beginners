@@ -7,10 +7,15 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #    && apt-get -y install libgl1
 
-# Copy environment.yml (if found) to a temp location so we update the environment. Also
-# copy "noop.txt" so the COPY instruction does not fail if no environment.yml exists.
-COPY .devcontainer/environment.yml* .devcontainer/requirements.txt /tmp/conda-tmp/
-RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bin/conda env update -n base -f /tmp/conda-tmp/environment.yml; fi \
+# Copy requirements.txt to a temp location for package installation
+COPY .devcontainer/requirements.txt /tmp/conda-tmp/
+# Install packages using conda and pip directly to avoid hanging on environment solving
+RUN umask 0002 \
+    && /opt/conda/bin/conda install -y -c conda-forge -c pytorch -c defaults \
+        python pip ipykernel ipython ipywidgets jupyter matplotlib=3.9 numpy=1.26 \
+        requests=2.32 scikit-learn scipy=1.13 opencv setuptools \
+        pytorch torchtext torchvision torchdata \
+    && /opt/conda/bin/pip install --no-cache-dir -r /tmp/conda-tmp/requirements.txt \
     && rm -rf /tmp/conda-tmp
 
 # [Optional] Uncomment to install a different version of Python than the default
