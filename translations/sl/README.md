@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T09:01:29+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T11:20:30+00:00",
   "source_file": "README.md",
   "language_code": "sl"
 }
@@ -27,9 +27,9 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | AI za začetnike - _Sketchnote avtorice [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Raziskujte svet **umetne inteligence** (AI) z našim 12-tedenskim kurikulumom, ki vključuje 24 lekcij! Vsebuje praktične lekcije, kvize in laboratorijske vaje. Kurikulum je prijazen začetnikom in zajema orodja, kot sta TensorFlow in PyTorch, ter etiko v AI.
+Raziskujte svet **umetne inteligence** (AI) z našim 12-tedenskim kurikulumom, ki vključuje 24 lekcij! Vsebuje praktične lekcije, kvize in laboratorijske vaje. Kurikulum je prijazen začetnikom in pokriva orodja, kot sta TensorFlow in PyTorch, ter etiko v AI.
 
-### 🌐 Večjezična podpora
+### 🌐 Podpora za več jezikov
 
 #### Podprto prek GitHub Action (samodejno in vedno posodobljeno)
 
@@ -46,17 +46,17 @@ Raziskujte svet **umetne inteligence** (AI) z našim 12-tedenskim kurikulumom, k
 
 V tem kurikulumu se boste naučili:
 
-* Različne pristope k umetni inteligenci, vključno z "dobrim starim" simbolnim pristopom z **predstavitvijo znanja** in sklepanjem ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* Različne pristope k umetni inteligenci, vključno z "dobrim starim" simbolnim pristopom z **reprezentacijo znanja** in sklepanjem ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
 * **Nevronske mreže** in **globoko učenje**, ki sta jedro sodobne umetne inteligence. Koncepte teh pomembnih tem bomo ponazorili s kodo v dveh najbolj priljubljenih ogrodjih - [TensorFlow](http://Tensorflow.org) in [PyTorch](http://pytorch.org).
-* **Nevronske arhitekture** za delo s slikami in besedilom. Pokrili bomo nedavne modele, vendar morda nekoliko manj najnovejše.
-* Manj priljubljene pristope k umetni inteligenci, kot so **genetski algoritmi** in **večagentni sistemi**.
+* **Nevronske arhitekture** za delo s slikami in besedilom. Pokrili bomo nedavne modele, vendar morda ne bomo zajeli najnovejših dosežkov.
+* Manj priljubljene pristope AI, kot so **genetski algoritmi** in **sistemi z več agenti**.
 
 Kaj ne bomo pokrili v tem kurikulumu:
 
 > [Vse dodatne vire za ta tečaj najdete v naši zbirki Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
 * Poslovne primere uporabe **AI v poslovanju**. Razmislite o tečaju [Uvod v AI za poslovne uporabnike](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) na Microsoft Learn ali [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), razvit v sodelovanju z [INSEAD](https://www.insead.edu/).
-* **Klasično strojno učenje**, ki je dobro opisano v našem [kurikulumu Strojno učenje za začetnike](http://github.com/Microsoft/ML-for-Beginners).
+* **Klasično strojno učenje**, ki je dobro opisano v našem kurikulumu [Strojno učenje za začetnike](http://github.com/Microsoft/ML-for-Beginners).
 * Praktične aplikacije AI, zgrajene z uporabo **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Za to priporočamo, da začnete z moduli Microsoft Learn za [vizijo](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [obdelavo naravnega jezika](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generativno AI z Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** in druge.
 * Specifična ML **oblaka ogrodja**, kot so [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ali [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Razmislite o uporabi učnih poti [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) in [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
 * **Pogovorna AI** in **klepetalni roboti**. Obstaja ločena učna pot [Ustvarite pogovorne AI rešitve](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), prav tako pa si lahko ogledate [ta blog prispevek](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) za več podrobnosti.
@@ -72,11 +72,11 @@ Za uvod v teme _AI v oblaku_ razmislite o učni poti [Začnite z umetno intelige
 | I  |               [**Uvod v AI**](./lessons/1-Intro/README.md)      | | |
 | 01  |       [Uvod in zgodovina AI](./lessons/1-Intro/README.md)       |           -                            | -  |
 | II |              **Simbolna AI**              |
-| 02  |       [Predstavitev znanja in ekspertni sistemi](./lessons/2-Symbolic/README.md)       |            [Ekspertni sistemi](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologija](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Konceptni graf](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| 02  |       [Reprezentacija znanja in ekspertni sistemi](./lessons/2-Symbolic/README.md)       |            [Ekspertni sistemi](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologija](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Konceptni graf](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
 | III |                        [**Uvod v nevronske mreže**](./lessons/3-NeuralNetworks/README.md) |||
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Zvezek](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Laboratorij](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
 | 04  |                   [Večplastni perceptron in ustvarjanje lastnega ogrodja](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Zvezek](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Laboratorij](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
-| 05  |            [Uvod v ogrodja (PyTorch/TensorFlow) in prenaučenje](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| 05  |            [Uvod v ogrodja (PyTorch/TensorFlow) in prenaučenost](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorij](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Računalniški vid**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Raziskovanje računalniškega vida na Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Uvod v računalniški vid. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Zvezek](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Laboratorij](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Konvolucijske nevronske mreže](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Arhitekture CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Laboratorij](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
@@ -112,35 +112,48 @@ Za uvod v teme _AI v oblaku_ razmislite o učni poti [Začnite z umetno intelige
 
 ## Začetek
 
-- Ustvarili smo [lekcijo za nastavitev](./lessons/0-course-setup/setup.md), ki vam bo pomagala pri nastavitvi razvojnega okolja. - Za učitelje smo pripravili tudi [lekcijo za nastavitev učnega načrta](./lessons/0-course-setup/for-teachers.md)!
-- Kako [zagnati kodo v VSCode ali Codepace](./lessons/0-course-setup/how-to-run.md)
+### 🎯 Nov v umetni inteligenci? Začnite tukaj!
+
+Če ste popolnoma novi v umetni inteligenci in želite hitre, praktične primere, si oglejte naše [**Primeri za začetnike**](./examples/README.md)! Ti vključujejo:
+
+- 🌟 **Pozdrav svetu umetne inteligence** - Vaš prvi program umetne inteligence (prepoznavanje vzorcev)
+- 🧠 **Preprosta nevronska mreža** - Zgradite nevronsko mrežo iz nič  
+- 🖼️ **Razvrščevalnik slik** - Razvrščajte slike s podrobnimi komentarji
+- 💬 **Sentiment besedila** - Analizirajte pozitivno/negativno besedilo
+
+Ti primeri so zasnovani tako, da vam pomagajo razumeti koncepte umetne inteligence, preden se poglobite v celoten učni načrt.
+
+### 📚 Nastavitev celotnega učnega načrta
+
+- Ustvarili smo [lekcijo za nastavitev](./lessons/0-course-setup/setup.md), ki vam pomaga pri nastavitvi razvojnega okolja. - Za učitelje smo pripravili tudi [lekcijo za nastavitev učnega načrta](./lessons/0-course-setup/for-teachers.md)!
+- Kako [Zagnati kodo v VSCode ali Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Sledite tem korakom:
 
 Forkajte repozitorij: Kliknite na gumb "Fork" v zgornjem desnem kotu te strani.
 
 Klonirajte repozitorij: `git clone https://github.com/microsoft/AI-For-Beginners.git`
-
-Ne pozabite označiti (🌟) tega repozitorija, da ga boste lažje našli kasneje.
+Ne pozabite označiti (🌟) tega repozitorija, da ga boste kasneje lažje našli.
 
 ## Spoznajte druge učence
 
-Pridružite se našemu [uradnemu AI Discord strežniku](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), da spoznate in se povežete z drugimi učenci, ki obiskujejo ta tečaj, ter dobite podporo.
+Pridružite se našemu [uradnemu AI Discord strežniku](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), da spoznate in se povežete z drugimi učenci, ki obiskujejo ta tečaj, ter prejmete podporo.
 
-Če imate povratne informacije o izdelku ali vprašanja med gradnjo, obiščite naš [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+Če imate povratne informacije o izdelku ali vprašanja med gradnjo, obiščite naš [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
 
-## Kvizi 
-> **Opomba o kvizih**: Vsi kvizi so shranjeni v mapi Quiz-app v etc\quiz-app ali [na spletu tukaj](https://ff-quizzes.netlify.app/). Povezani so znotraj lekcij, aplikacijo za kvize pa lahko zaženete lokalno ali jo namestite na Azure; sledite navodilom v mapi `quiz-app`. Postopoma se lokalizirajo.
+## Kvizi
+
+> **Opomba o kvizih**: Vsi kvizi so v mapi Quiz-app v etc\quiz-app ali [na voljo tukaj](https://ff-quizzes.netlify.app/). Povezave do njih so vključene v lekcije. Aplikacijo za kvize lahko zaženete lokalno ali jo namestite na Azure; sledite navodilom v mapi `quiz-app`. Postopoma se lokalizirajo.
 
 ## Potrebujemo pomoč
 
-Imate predloge ali ste našli napake v črkovanju ali kodi? Odprite težavo ali ustvarite pull request.
+Imate predloge ali ste našli pravopisne ali programske napake? Odprite težavo ali ustvarite zahtevo za združitev.
 
 ## Posebna zahvala
 
 * **✍️ Glavni avtor:** [Dmitry Soshnikov](http://soshnikov.com), doktor znanosti
-* **🔥 Urednica:** [Jen Looper](https://twitter.com/jenlooper), doktor znanosti
-* **🎨 Ilustratorka sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **🔥 Urednica:** [Jen Looper](https://twitter.com/jenlooper), doktorica znanosti
+* **🎨 Ilustratorka skic:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Ustvarjalka kvizov:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Glavni sodelavci:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
@@ -155,17 +168,17 @@ Naša ekipa ustvarja tudi druge učne načrte! Oglejte si:
 - [Umetna inteligenca za začetnike](https://aka.ms/ai-beginners)
 - [Podatkovna znanost za začetnike](https://aka.ms/datascience-beginners)
 - [Strojno učenje za začetnike](https://aka.ms/ml-beginners)
-- [Kibernetska varnost za začetnike](https://github.com/microsoft/Security-101) 
+- [Kibernetska varnost za začetnike](https://github.com/microsoft/Security-101)
 - [Spletni razvoj za začetnike](https://aka.ms/webdev-beginners)
 - [IoT za začetnike](https://aka.ms/iot-beginners)
 - [XR razvoj za začetnike](https://github.com/microsoft/xr-development-for-beginners)
-- [Obvladovanje GitHub Copilot za agentno uporabo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [Obvladovanje GitHub Copilot za razvijalce C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Izberi svojo Copilot pustolovščino](https://github.com/microsoft/CopilotAdventures)
+- [Obvladovanje GitHub Copilota za agentno uporabo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [Obvladovanje GitHub Copilota za razvijalce C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Izberite svojo Copilot pustolovščino](https://github.com/microsoft/CopilotAdventures)
 
 ## Pomoč
 
-Če se zataknete ali imate vprašanja o gradnji aplikacij z umetno inteligenco, se pridružite:
+Če se zataknete ali imate kakršna koli vprašanja o gradnji AI aplikacij, se pridružite:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
@@ -176,4 +189,4 @@ Naša ekipa ustvarja tudi druge učne načrte! Oglejte si:
 ---
 
 **Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve AI za prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku naj se šteje za avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne odgovarjamo za morebitna nesporazumevanja ali napačne razlage, ki izhajajo iz uporabe tega prevoda.
+Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatski prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T08:25:28+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T11:01:46+00:00",
   "source_file": "README.md",
   "language_code": "fi"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | Tekoäly aloittelijoille - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Tutustu **tekoälyn** (AI) maailmaan 12 viikon ja 24 oppitunnin opetussuunnitelmamme avulla! Se sisältää käytännön oppitunteja, kyselyitä ja laboratorioharjoituksia. Opetussuunnitelma on suunniteltu aloittelijoille ja kattaa työkaluja, kuten TensorFlow ja PyTorch, sekä tekoälyn eettisiä näkökulmia.  
+Tutustu **tekoälyn** (AI) maailmaan 12 viikon ja 24 oppitunnin opetussuunnitelmamme avulla! Se sisältää käytännön oppitunteja, testejä ja laboratorioharjoituksia. Opetussuunnitelma on suunniteltu aloittelijoille ja kattaa työkaluja kuten TensorFlow ja PyTorch sekä tekoälyn eettisiä näkökulmia.  
 
 ### 🌐 Monikielinen tuki  
 
@@ -48,35 +48,35 @@ Tässä opetussuunnitelmassa opit:
 
 * Erilaisia lähestymistapoja tekoälyyn, mukaan lukien "vanha kunnon" symbolinen lähestymistapa **tiedon esittämiseen** ja päättelyyn ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Neuroverkot** ja **syväoppiminen**, jotka ovat modernin tekoälyn ytimessä. Havainnollistamme näitä tärkeitä aiheita koodin avulla kahdessa suosituimmassa kehitysalustassa - [TensorFlow](http://Tensorflow.org) ja [PyTorch](http://pytorch.org).  
-* **Neuroarkkitehtuurit** kuvien ja tekstin käsittelyyn. Käymme läpi uusimpia malleja, mutta emme välttämättä kata aivan viimeisintä huipputeknologiaa.  
+* **Neuroverkkoarkkitehtuurit** kuvien ja tekstin käsittelyyn. Käymme läpi viimeaikaisia malleja, mutta emme välttämättä käsittele aivan viimeisimpiä innovaatioita.  
 * Vähemmän tunnettuja tekoälymenetelmiä, kuten **geneettiset algoritmit** ja **moniagenttijärjestelmät**.  
 
 Mitä emme käsittele tässä opetussuunnitelmassa:  
 
-> [Löydä kaikki lisäresurssit tähän kurssiin Microsoft Learn -kokoelmastamme](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
+> [Löydä kaikki lisäresurssit tälle kurssille Microsoft Learn -kokoelmastamme](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* **Tekoälyn liiketoimintatapaukset**. Suosittelemme tutustumaan [Johdatus tekoälyyn liiketoiminnan käyttäjille](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) -oppimispolkuun Microsoft Learnissa tai [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), joka on kehitetty yhteistyössä [INSEAD](https://www.insead.edu/):n kanssa.  
+* **Tekoälyn liiketoimintatapaukset**. Suosittelemme tutustumaan [Johdatus tekoälyyn liiketoiminnan käyttäjille](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) oppimispolkuun Microsoft Learnissa tai [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), joka on kehitetty yhteistyössä [INSEAD](https://www.insead.edu/):n kanssa.  
 * **Klassinen koneoppiminen**, joka on hyvin kuvattu [Koneoppiminen aloittelijoille -opetussuunnitelmassamme](http://github.com/Microsoft/ML-for-Beginners).  
-* Käytännön tekoälysovellukset, jotka on rakennettu **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** avulla. Suosittelemme aloittamaan Microsoft Learnin moduuleista, kuten [näkö](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [luonnollinen kielen käsittely](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generatiivinen tekoäly Azure OpenAI -palvelulla](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ja muut.  
-* Tietyt ML **pilvialustat**, kuten [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) tai [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Suosittelemme käyttämään [Rakenna ja operoi koneoppimisratkaisuja Azure Machine Learningilla](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ja [Rakenna ja operoi koneoppimisratkaisuja Azure Databricksilla](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) -oppimispolkuja.  
-* **Keskustelu-AI** ja **chatbotit**. Erillinen [Luo keskustelu-AI-ratkaisuja](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) -oppimispolku on saatavilla, ja voit myös viitata [tähän blogikirjoitukseen](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) saadaksesi lisätietoja.  
-* **Syvä matematiikka** syväoppimisen taustalla. Suosittelemme [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) -kirjaa Ian Goodfellowilta, Yoshua Bengiolta ja Aaron Courvillelta, joka on myös saatavilla verkossa osoitteessa [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Käytännön tekoälysovellukset, jotka on rakennettu **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** avulla. Suosittelemme aloittamaan Microsoft Learnin moduuleista, kuten [näkö](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [luonnollisen kielen käsittely](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generatiivinen tekoäly Azure OpenAI -palvelulla](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ja muut.  
+* Tietyt ML **pilvialustat**, kuten [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) tai [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Suosittelemme oppimispolkuja [Rakenna ja operoi koneoppimisratkaisuja Azure Machine Learningilla](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ja [Rakenna ja operoi koneoppimisratkaisuja Azure Databricksilla](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* **Keskustelutekoäly** ja **chatbotit**. Tähän on erillinen [Luo keskustelutekoälyratkaisuja](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) oppimispolku, ja voit myös viitata [tähän blogikirjoitukseen](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) saadaksesi lisätietoja.  
+* **Syväoppimisen matematiikka**. Suosittelemme [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) -kirjaa Ian Goodfellowilta, Yoshua Bengiolta ja Aaron Courvillelta, joka on saatavilla myös verkossa osoitteessa [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Jos haluat lempeän johdannon _tekoäly pilvessä_ -aiheisiin, harkitse [Johdatus tekoälyyn Azurella](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) -oppimispolkua.  
+Jos haluat lempeän johdannon _tekoäly pilvessä_ -aiheisiin, harkitse [Johdatus tekoälyyn Azurella](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) oppimispolkua.  
 
 # Sisältö  
 
-|     |                                                                 Oppitunnin linkki                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
+|     |                                                                 Oppitunnin linkki                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Laboratorio                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
-| 0  |                                 [Kurssin asennus](./lessons/0-course-setup/setup.md)                                 |                      [Asenna kehitysympäristösi](./lessons/0-course-setup/how-to-run.md)                       |   |  
+| 0  |                                 [Kurssin aloitus](./lessons/0-course-setup/setup.md)                                 |                      [Kehitysympäristön asennus](./lessons/0-course-setup/how-to-run.md)                       |   |  
 | I  |               [**Johdatus tekoälyyn**](./lessons/1-Intro/README.md)      | | |  
 | 01  |       [Johdatus ja tekoälyn historia](./lessons/1-Intro/README.md)       |           -                            | -  |  
 | II |              **Symbolinen tekoäly**              |  
 | 02  |       [Tiedon esittäminen ja asiantuntijajärjestelmät](./lessons/2-Symbolic/README.md)       |            [Asiantuntijajärjestelmät](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologia](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Käsitekaavio](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
 | III |                        [**Johdatus neuroverkkoihin**](./lessons/3-NeuralNetworks/README.md) |||  
-| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
-| 04  |                   [Monikerroksinen perceptron ja oman kehitysalustan luominen](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
-| 05  |            [Johdatus kehyksiin (PyTorch/TensorFlow) ja ylioppiminen](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Muistikirja](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Laboratorio](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
+| 04  |                   [Monikerroksinen perceptron ja oman kehyksen luominen](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Muistikirja](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Laboratorio](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
+| 05  |            [Johdatus kehyksiin (PyTorch/TensorFlow) ja ylikoulutus](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Tietokonenäkö**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Tutustu tietokonenäköön Microsoft Azuren avulla](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Johdatus tietokonenäköön. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Konvoluutioneuroverkot](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [CNN-arkkitehtuurit](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
@@ -92,7 +92,7 @@ Jos haluat lempeän johdannon _tekoäly pilvessä_ -aiheisiin, harkitse [Johdatu
 | 16  |            [Toistuvat neuroverkot](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
 | 17  |            [Generatiiviset toistuvat verkot](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformerit. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Nimeettyjen entiteettien tunnistus](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
+| 19  |            [Nimien tunnistus (NER)](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
 | 20  |            [Suuret kielimallit, kehotteiden ohjelmointi ja vähäisten esimerkkien tehtävät](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Muut tekoälytekniikat** || |
 | 21  |            [Geneettiset algoritmit](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Notebook](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
@@ -107,32 +107,45 @@ Jos haluat lempeän johdannon _tekoäly pilvessä_ -aiheisiin, harkitse [Johdatu
 
 * Ennakkolukemista
 * Suoritettavia Jupyter Notebooks -tiedostoja, jotka ovat usein kehyskohtaisia (**PyTorch** tai **TensorFlow**). Suoritettava notebook sisältää myös paljon teoreettista materiaalia, joten aiheen ymmärtämiseksi sinun tulee käydä läpi vähintään yksi versio notebookista (joko PyTorch tai TensorFlow).
-* **Labit**, jotka ovat saatavilla joillekin aiheille, antavat sinulle mahdollisuuden soveltaa oppimaasi materiaalia tiettyyn ongelmaan.
+* **Labit**, jotka ovat saatavilla joillekin aiheille ja antavat sinulle mahdollisuuden soveltaa oppimaasi materiaalia tiettyyn ongelmaan.
 * Joissakin osioissa on linkkejä [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) -moduuleihin, jotka käsittelevät aiheeseen liittyviä teemoja.
 
 ## Aloittaminen
+
+### 🎯 Uusi tekoälyssä? Aloita tästä!
+
+Jos olet täysin uusi tekoälyssä ja haluat nopeita, käytännönläheisiä esimerkkejä, tutustu [**Aloittelijaystävällisiin esimerkkeihin**](./examples/README.md)! Näihin kuuluu:
+
+- 🌟 **Hello AI World** - Ensimmäinen tekoälyohjelmasi (kuvion tunnistus)
+- 🧠 **Yksinkertainen neuroverkko** - Rakenna neuroverkko alusta alkaen  
+- 🖼️ **Kuvien luokittelu** - Luokittele kuvia yksityiskohtaisilla kommenteilla
+- 💬 **Tekstin sentimentti** - Analysoi positiivista/negatiivista tekstiä
+
+Nämä esimerkit on suunniteltu auttamaan sinua ymmärtämään tekoälyn peruskäsitteitä ennen kuin sukellat koko opetussuunnitelmaan.
+
+### 📚 Koko opetussuunnitelman asennus
 
 - Olemme luoneet [asennusoppitunnin](./lessons/0-course-setup/setup.md) auttaaksemme sinua kehitysympäristön asennuksessa. - Opettajille olemme luoneet myös [opetussuunnitelman asennusoppitunnin](./lessons/0-course-setup/for-teachers.md)!
 - Kuinka [Suorittaa koodi VSCode:ssa tai Codepacessa](./lessons/0-course-setup/how-to-run.md)
 
 Seuraa näitä vaiheita:
 
-Haarauta arkisto: Klikkaa "Fork"-painiketta tämän sivun oikeassa yläkulmassa.
+Forkkaa repositorio: Klikkaa "Fork"-painiketta tämän sivun oikeassa yläkulmassa.
 
-Kloonaa arkisto: `git clone https://github.com/microsoft/AI-For-Beginners.git`
-
-Älä unohda tähdittää (🌟) tätä arkistoa, jotta löydät sen helpommin myöhemmin.
+Kloonaa repositorio: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Älä unohda tähdittää (🌟) tätä repositoriota, jotta löydät sen helpommin myöhemmin.
 
 ## Tapaa muita oppijoita
 
-Liity [viralliselle AI Discord-palvelimellemme](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) tavata ja verkostoitua muiden kurssia suorittavien oppijoiden kanssa sekä saada tukea.
+Liity [viralliselle AI Discord-palvelimellemme](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) tutustuaksesi ja verkostoituaksesi muiden kurssia suorittavien oppijoiden kanssa sekä saadaksesi tukea.
 
-Jos sinulla on tuotepalautetta tai kysymyksiä rakentamisen aikana, käy [Azure AI Foundry Developer Forumilla](https://aka.ms/foundry/forum)
+Jos sinulla on tuotepalautetta tai kysymyksiä rakentamisen aikana, vieraile [Azure AI Foundry Developer Forumilla](https://aka.ms/foundry/forum).
 
 ## Visailut
-> **Huomio visailuista**: Kaikki visailut löytyvät Quiz-app-kansiosta polusta etc\quiz-app, tai [Verkossa Täällä](https://ff-quizzes.netlify.app/). Ne on linkitetty oppituntien sisällä, ja visailusovellusta voi käyttää paikallisesti tai julkaista Azureen; seuraa ohjeita `quiz-app`-kansiossa. Visailut lokalisoidaan vähitellen.
 
-## Apua Kaivataan
+> **Huomio visailuista**: Kaikki visailut löytyvät Quiz-app-kansiosta polusta etc\quiz-app, tai [Online Täältä](https://ff-quizzes.netlify.app/). Ne on linkitetty oppituntien sisällä, ja visailusovellusta voi ajaa paikallisesti tai julkaista Azureen; seuraa ohjeita `quiz-app`-kansiossa. Visailut lokalisoidaan vähitellen.
+
+## Apua kaivataan
 
 Onko sinulla ehdotuksia tai oletko löytänyt kirjoitus- tai koodivirheitä? Luo issue tai tee pull request.
 
@@ -144,32 +157,32 @@ Onko sinulla ehdotuksia tai oletko löytänyt kirjoitus- tai koodivirheitä? Luo
 * **✅ Visailujen luoja:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Keskeiset avustajat:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Muut Opetusohjelmat
+## Muut opetusohjelmat
 
-Tiimimme tuottaa myös muita opetusohjelmia! Tutustu:
+Tiimimme tuottaa muita opetusohjelmia! Tutustu:
 
-- [Generatiivinen AI Aloittelijoille](https://aka.ms/genai-beginners)
-- [Generatiivinen AI Aloittelijoille .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generatiivinen AI aloittelijoille](https://aka.ms/genai-beginners)
+- [Generatiivinen AI aloittelijoille .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generatiivinen AI JavaScriptillä](https://github.com/microsoft/generative-ai-with-javascript)
 - [Generatiivinen AI Javalla](https://github.com/microsoft/Generative-AI-for-beginners-java)
-- [AI Aloittelijoille](https://aka.ms/ai-beginners)
-- [Data-analytiikka Aloittelijoille](https://aka.ms/datascience-beginners)
-- [ML Aloittelijoille](https://aka.ms/ml-beginners)
-- [Kyberturvallisuus Aloittelijoille](https://github.com/microsoft/Security-101) 
-- [Web-kehitys Aloittelijoille](https://aka.ms/webdev-beginners)
-- [IoT Aloittelijoille](https://aka.ms/iot-beginners)
-- [XR-kehitys Aloittelijoille](https://github.com/microsoft/xr-development-for-beginners)
-- [GitHub Copilotin Hallinta Agenttikäyttöön](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
-- [GitHub Copilotin Hallinta C#/.NET-kehittäjille](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Valitse Oma Copilot-seikkailusi](https://github.com/microsoft/CopilotAdventures)
+- [AI aloittelijoille](https://aka.ms/ai-beginners)
+- [Data Science aloittelijoille](https://aka.ms/datascience-beginners)
+- [ML aloittelijoille](https://aka.ms/ml-beginners)
+- [Kyberturvallisuus aloittelijoille](https://github.com/microsoft/Security-101) 
+- [Web-kehitys aloittelijoille](https://aka.ms/webdev-beginners)
+- [IoT aloittelijoille](https://aka.ms/iot-beginners)
+- [XR-kehitys aloittelijoille](https://github.com/microsoft/xr-development-for-beginners)
+- [GitHub Copilotin hallitseminen agenttipohjaiseen käyttöön](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [GitHub Copilotin hallitseminen C#/.NET-kehittäjille](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Valitse oma Copilot-seikkailusi](https://github.com/microsoft/CopilotAdventures)
 
-## Apua Saatavilla
+## Apua saatavilla
 
 Jos jäät jumiin tai sinulla on kysymyksiä AI-sovellusten rakentamisesta, liity:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
-Jos sinulla on tuotepalautetta tai virheitä rakentamisen aikana, käy:
+Jos sinulla on tuotepalautetta tai virheitä rakentamisen aikana, vieraile:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 

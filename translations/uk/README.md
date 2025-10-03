@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T09:06:09+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T11:23:03+00:00",
   "source_file": "README.md",
   "language_code": "uk"
 }
@@ -21,11 +21,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
 
-# Штучний інтелект для початківців - навчальна програма  
+# Штучний інтелект для початківців - Навчальна програма  
 
 |![Скетчнот від @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.uk.png)|  
 |:---:|  
-| AI For Beginners - _Скетчнот від [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+| Штучний інтелект для початківців - _Скетчнот від [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
 Досліджуйте світ **Штучного інтелекту** (AI) за допомогою нашої 12-тижневої навчальної програми, що складається з 24 уроків! Вона включає практичні заняття, тести та лабораторні роботи. Програма розрахована на початківців і охоплює інструменти, такі як TensorFlow і PyTorch, а також етику в AI.  
 
@@ -48,7 +48,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * Різні підходи до Штучного інтелекту, включаючи "старий добрий" символічний підхід із **Представленням знань** та логікою ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Нейронні мережі** та **Глибоке навчання**, які є основою сучасного AI. Ми пояснимо концепції цих важливих тем за допомогою коду в двох найпопулярніших фреймворках - [TensorFlow](http://Tensorflow.org) та [PyTorch](http://pytorch.org).  
-* **Нейронні архітектури** для роботи з зображеннями та текстом. Ми розглянемо сучасні моделі, хоча вони можуть бути трохи застарілими порівняно з найновішими розробками.  
+* **Нейронні архітектури** для роботи з зображеннями та текстом. Ми розглянемо сучасні моделі, хоча деякі з них можуть бути не найновішими.  
 * Менш популярні підходи до AI, такі як **Генетичні алгоритми** та **Системи з багатьма агентами**.  
 
 Що ми не будемо охоплювати в цій навчальній програмі:  
@@ -56,13 +56,13 @@ CO_OP_TRANSLATOR_METADATA:
 > [Знайдіть усі додаткові ресурси для цього курсу в нашій колекції Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
 * Бізнес-кейси використання **AI у бізнесі**. Рекомендуємо пройти навчальний шлях [Вступ до AI для бізнес-користувачів](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) на Microsoft Learn або [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), розроблений у співпраці з [INSEAD](https://www.insead.edu/).  
-* **Класичне машинне навчання**, яке добре описане в нашій навчальній програмі [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
-* Практичні застосування AI, побудовані за допомогою **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Для цього рекомендуємо почати з модулів Microsoft Learn для [зору](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [обробки природної мови](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Генеративного AI з Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** та інших.  
-* Специфічні ML **хмарні фреймворки**, такі як [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) або [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Рекомендуємо пройти навчальні шляхи [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) та [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **Розмовний AI** та **чат-боти**. Є окремий навчальний шлях [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), а також можна звернутися до [цієї статті](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) для отримання додаткової інформації.  
-* **Глибока математика**, що лежить в основі глибокого навчання. Для цього рекомендуємо книгу [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) авторів Іана Гудфеллоу, Йошуа Бенджіо та Аарона Курвіля, яка також доступна онлайн за адресою [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* **Класичне машинне навчання**, яке добре описане в нашій навчальній програмі [Машинне навчання для початківців](http://github.com/Microsoft/ML-for-Beginners).  
+* Практичні застосування AI, побудовані за допомогою **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Для цього рекомендуємо почати з модулів Microsoft Learn для [комп'ютерного зору](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [обробки природної мови](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Генеративного AI з Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** та інших.  
+* Специфічні ML **хмарні фреймворки**, такі як [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) або [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Рекомендуємо пройти навчальні шляхи [Створення та управління рішеннями машинного навчання з Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) та [Створення та управління рішеннями машинного навчання з Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* **Розмовний AI** та **чат-боти**. Є окремий навчальний шлях [Створення рішень розмовного AI](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), а також можна звернутися до [цієї статті](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) для отримання додаткової інформації.  
+* **Глибока математика** глибокого навчання. Для цього рекомендуємо книгу [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) авторів Іана Гудфеллоу, Йошуа Бенджіо та Аарона Курвіля, яка також доступна онлайн за адресою [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Для м'якого вступу до тем _AI у хмарі_ рекомендуємо пройти навчальний шлях [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
+Для м'якого вступу до тем _AI у хмарі_ рекомендуємо пройти навчальний шлях [Початок роботи зі штучним інтелектом на Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
 # Зміст  
 
@@ -77,11 +77,11 @@ CO_OP_TRANSLATOR_METADATA:
 | 03  |                [Перцептрон](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Ноутбук](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Лабораторна робота](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
 | 04  |                   [Багатошаровий перцептрон та створення власного фреймворку](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Ноутбук](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Лабораторна робота](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
 | 05  |            [Вступ до фреймворків (PyTorch/TensorFlow) та перенавчання](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторна робота](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
-| IV  |            [**Комп'ютерне бачення**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Дослідження комп'ютерного бачення на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [Вступ до комп'ютерного бачення. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Ноутбук](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Лабораторна робота](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| IV  |            [**Комп'ютерний зір**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Дослідження комп'ютерного зору на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [Вступ до комп'ютерного зору. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Ноутбук](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Лабораторна робота](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Згорткові нейронні мережі](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Архітектури CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
 | 08  |            [Попередньо навчені мережі та перенесення навчання](./lessons/4-ComputerVision/08-TransferLearning/README.md) та [Трюки навчання](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
-| 09  |            [Автокодувальники та VAE](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
+| 09  |            [Автокодери та VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
 | 10  |            [Генеративні змагальні мережі та перенесення художнього стилю](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Виявлення об'єктів](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Семантична сегментація. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
@@ -106,47 +106,60 @@ CO_OP_TRANSLATOR_METADATA:
 ## Кожен урок містить
 
 * Матеріали для попереднього читання
-* Виконувані Jupyter Notebooks, які часто специфічні для фреймворку (**PyTorch** або **TensorFlow**). Виконуваний ноутбук також містить багато теоретичного матеріалу, тому для розуміння теми необхідно пройти хоча б одну версію ноутбука (або PyTorch, або TensorFlow).
-* **Лабораторні роботи**, доступні для деяких тем, які дають можливість застосувати матеріал, який ви вивчили, до конкретної задачі.
+* Виконувані Jupyter Notebooks, які часто специфічні для фреймворку (**PyTorch** або **TensorFlow**). Виконуваний ноутбук також містить багато теоретичного матеріалу, тому для розуміння теми потрібно пройти хоча б одну версію ноутбука (PyTorch або TensorFlow).
+* **Лабораторні роботи**, доступні для деяких тем, які дають можливість застосувати отримані знання до конкретної задачі.
 * Деякі розділи містять посилання на модулі [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum), які охоплюють пов'язані теми.
 
 ## Початок роботи
 
-- Ми створили [урок налаштування](./lessons/0-course-setup/setup.md), щоб допомогти вам налаштувати середовище розробки. - Для викладачів ми також створили [урок налаштування навчальної програми](./lessons/0-course-setup/for-teachers.md)!
-- Як [запустити код у VSCode або Codepace](./lessons/0-course-setup/how-to-run.md)
+### 🎯 Новачок у AI? Почніть тут!
 
-Виконайте ці кроки:
+Якщо ви абсолютно новачок у AI і хочете швидко ознайомитися з практичними прикладами, перегляньте наші [**Приклади для початківців**](./examples/README.md)! Вони включають:
 
-Форкніть репозиторій: Натисніть кнопку "Fork" у верхньому правому куті цієї сторінки.
+- 🌟 **Привіт, AI світ** - Ваша перша програма AI (розпізнавання шаблонів)
+- 🧠 **Проста нейронна мережа** - Створіть нейронну мережу з нуля  
+- 🖼️ **Класифікатор зображень** - Класифікуйте зображення з детальними коментарями
+- 💬 **Аналіз тексту** - Аналізуйте позитивний/негативний текст
 
-Клонуйте репозиторій: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Ці приклади створені для того, щоб допомогти вам зрозуміти концепції AI перед тим, як зануритися в повний навчальний план.
 
+### 📚 Налаштування повного навчального плану
+
+- Ми створили [урок з налаштування](./lessons/0-course-setup/setup.md), щоб допомогти вам налаштувати середовище розробки. - Для викладачів ми також створили [урок з налаштування навчального плану](./lessons/0-course-setup/for-teachers.md)!
+- Як [Запустити код у VSCode або Codepace](./lessons/0-course-setup/how-to-run.md)
+
+Виконайте наступні кроки:
+
+Форк репозиторію: Натисніть кнопку "Fork" у верхньому правому куті цієї сторінки.
+
+Клонування репозиторію: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 Не забудьте поставити зірочку (🌟) цьому репозиторію, щоб легше знайти його пізніше.
 
-## Знайомтеся з іншими учнями
+## Знайомтеся з іншими учасниками
 
-Приєднуйтесь до нашого [офіційного AI Discord сервера](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), щоб познайомитися та спілкуватися з іншими учнями, які проходять цей курс, і отримати підтримку.
+Приєднуйтесь до нашого [офіційного AI Discord-сервера](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), щоб познайомитися та налагодити зв’язки з іншими учасниками курсу, а також отримати підтримку.
 
-Якщо у вас є відгуки про продукт або питання під час створення, відвідайте наш [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+Якщо у вас є відгуки про продукт або запитання під час створення, відвідайте наш [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
 
 ## Тести
-> **Примітка щодо вікторин**: Усі вікторини знаходяться в папці Quiz-app у etc\quiz-app, або [Онлайн тут](https://ff-quizzes.netlify.app/). Вони пов’язані з уроками, додаток для вікторин можна запускати локально або розгортати на Azure; дотримуйтесь інструкцій у папці `quiz-app`. Вікторини поступово локалізуються.
+
+> **Примітка щодо тестів**: Усі тести знаходяться в папці Quiz-app у etc\quiz-app або [онлайн тут](https://ff-quizzes.netlify.app/). Вони пов’язані з уроками, і додаток для тестів можна запускати локально або розгортати в Azure; дотримуйтесь інструкцій у папці `quiz-app`. Тести поступово локалізуються.
 
 ## Потрібна допомога
 
-Є пропозиції чи знайшли орфографічні або кодові помилки? Створіть issue або pull request.
+Є пропозиції або знайшли орфографічні чи кодові помилки? Створіть issue або pull request.
 
 ## Особлива подяка
 
 * **✍️ Основний автор:** [Дмитро Сошников](http://soshnikov.com), PhD
 * **🔥 Редактор:** [Джен Лупер](https://twitter.com/jenlooper), PhD
 * **🎨 Ілюстратор скетчнотів:** [Томомі Імура](https://twitter.com/girlie_mac)
-* **✅ Автор вікторин:** [Латіфа Белло](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **✅ Автор тестів:** [Латіфа Белло](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Основні учасники:** [Євгеній Піщик](https://github.com/Pe4enIks)
 
-## Інші навчальні програми
+## Інші навчальні матеріали
 
-Наша команда створює інші навчальні програми! Ознайомтеся з:
+Наша команда створює інші навчальні матеріали! Ознайомтеся з:
 
 - [Генеративний AI для початківців](https://aka.ms/genai-beginners)
 - [Генеративний AI для початківців .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
@@ -161,7 +174,7 @@ CO_OP_TRANSLATOR_METADATA:
 - [Розробка XR для початківців](https://github.com/microsoft/xr-development-for-beginners)
 - [Опанування GitHub Copilot для агентного використання](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Опанування GitHub Copilot для розробників C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Вибери свою пригоду з Copilot](https://github.com/microsoft/CopilotAdventures)
+- [Виберіть свою пригоду з Copilot](https://github.com/microsoft/CopilotAdventures)
 
 ## Отримання допомоги
 
@@ -176,4 +189,4 @@ CO_OP_TRANSLATOR_METADATA:
 ---
 
 **Відмова від відповідальності**:  
-Цей документ був перекладений за допомогою сервісу автоматичного перекладу [Co-op Translator](https://github.com/Azure/co-op-translator). Хоча ми прагнемо до точності, звертаємо вашу увагу, що автоматичні переклади можуть містити помилки або неточності. Оригінальний документ на його рідній мові слід вважати авторитетним джерелом. Для критично важливої інформації рекомендується професійний людський переклад. Ми не несемо відповідальності за будь-які непорозуміння або неправильні тлумачення, що виникли внаслідок використання цього перекладу.
+Цей документ було перекладено за допомогою сервісу автоматичного перекладу [Co-op Translator](https://github.com/Azure/co-op-translator). Хоча ми прагнемо до точності, звертаємо вашу увагу, що автоматичні переклади можуть містити помилки або неточності. Оригінальний документ на його рідній мові слід вважати авторитетним джерелом. Для критичної інформації рекомендується професійний людський переклад. Ми не несемо відповідальності за будь-які непорозуміння або неправильні тлумачення, що виникли внаслідок використання цього перекладу.
