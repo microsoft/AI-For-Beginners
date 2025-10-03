@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
-  "translation_date": "2025-08-25T22:57:52+00:00",
+  "original_hash": "b70fcf7fcee862990f848c679090943f",
+  "translation_date": "2025-10-03T14:56:53+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
   "language_code": "hu"
 }
@@ -13,17 +13,17 @@ Laborfeladat az [AI for Beginners Curriculum](https://github.com/microsoft/ai-fo
 
 ## Feladat
 
-Képzeld el, hogy egy alkalmazást kell fejlesztened egy kisállat óvoda számára, amely katalogizálja az összes háziállatot. Az alkalmazás egyik nagyszerű funkciója az lenne, hogy egy fénykép alapján automatikusan felismeri a fajtát. Ez sikeresen megvalósítható neurális hálózatok segítségével.
+Képzeld el, hogy egy alkalmazást kell fejlesztened egy kisállat óvoda számára, amely katalogizálja az összes háziállatot. Az alkalmazás egyik nagyszerű funkciója az lenne, hogy automatikusan felismeri a fajtát egy fénykép alapján. Ez sikeresen megvalósítható neurális hálózatok segítségével.
 
-Egy konvolúciós neurális hálózatot kell betanítanod, amely képes különböző macska- és kutyafajtákat osztályozni a **Pet Faces** adatbázis segítségével.
+Egy konvolúciós neurális hálózatot kell betanítanod, amely képes különböző macska- és kutyafajták osztályozására a **Pet Faces** adathalmaz segítségével.
 
-## Az Adatbázis
+## Az adathalmaz
 
-A **Pet Faces** adatbázist fogjuk használni, amely az [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) kisállat adatbázisból származik. Ez 35 különböző kutya- és macskafajtát tartalmaz.
+Az [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) adathalmazt fogjuk használni, amely 37 különböző kutya- és macskafajta képeit tartalmazza.
 
-![Az adatbázis, amellyel dolgozni fogunk](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.hu.png)
+![Az adathalmaz, amellyel dolgozni fogunk](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.hu.png)
 
-Az adatbázis letöltéséhez használd az alábbi kódrészletet:
+Az adathalmaz letöltéséhez használd az alábbi kódrészletet:
 
 ```python
 !wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
@@ -31,13 +31,17 @@ Az adatbázis letöltéséhez használd az alábbi kódrészletet:
 !rm images.tar.gz
 ```
 
-## Induló Jegyzetfüzet
+**Megjegyzés:** Az Oxford-IIIT Pet Dataset képei fájlnév szerint vannak rendezve (pl. `Abyssinian_1.jpg`, `Bengal_2.jpg`). A notebook tartalmaz kódot, amely segít ezeket a képeket fajtaspecifikus alkönyvtárakba rendezni az egyszerűbb osztályozás érdekében.
 
-Kezdd a labort a [PetFaces.ipynb](../../../../../../lessons/4-ComputerVision/07-ConvNets/lab/PetFaces.ipynb) megnyitásával.
+## Induló notebook
+
+Kezdd el a labort a [PetFaces.ipynb](PetFaces.ipynb) megnyitásával.
 
 ## Tanulság
 
-Egy viszonylag összetett problémát oldottál meg, amely a képosztályozásról szólt, teljesen az alapoktól! Rengeteg osztály volt, és mégis sikerült elfogadható pontosságot elérned! Érdemes megmérni a top-k pontosságot is, mivel könnyű összekeverni néhány olyan osztályt, amelyek még az emberek számára sem különböztethetők meg egyértelműen.
+Egy viszonylag összetett problémát oldottál meg, amely a képosztályozásról szól, teljesen az alapoktól! Rengeteg osztály volt, és mégis sikerült elfogadható pontosságot elérned! Érdemes lehet a top-k pontosságot is mérni, mivel könnyű összekeverni néhány osztályt, amelyek még az emberek számára sem különböztethetők meg egyértelműen.
 
-**Felelősség kizárása**:  
-Ez a dokumentum az AI fordítási szolgáltatás, a [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével lett lefordítva. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az eredeti nyelvén tekintendő hiteles forrásnak. Kritikus információk esetén javasolt professzionális emberi fordítást igénybe venni. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely a fordítás használatából eredhet.
+---
+
+**Felelősségi nyilatkozat**:  
+Ez a dokumentum az [Co-op Translator](https://github.com/Azure/co-op-translator) AI fordítási szolgáltatás segítségével került lefordításra. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az eredeti nyelvén tekintendő hiteles forrásnak. Fontos információk esetén javasolt professzionális emberi fordítást igénybe venni. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely a fordítás használatából eredhet.

@@ -1,29 +1,29 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
-  "translation_date": "2025-08-24T20:52:03+00:00",
+  "original_hash": "b70fcf7fcee862990f848c679090943f",
+  "translation_date": "2025-10-03T14:51:48+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
   "language_code": "fr"
 }
 -->
-# Classification des visages d'animaux de compagnie
+# Classification des visages d'animaux
 
-Devoir de laboratoire tiré du [programme AI for Beginners](https://github.com/microsoft/ai-for-beginners).
+Travail pratique issu du [Curriculum AI pour débutants](https://github.com/microsoft/ai-for-beginners).
 
 ## Tâche
 
-Imaginez que vous devez développer une application pour une garderie pour animaux afin de cataloguer tous les animaux. L'une des fonctionnalités intéressantes d'une telle application serait de reconnaître automatiquement la race à partir d'une photographie. Cela peut être réalisé avec succès en utilisant des réseaux neuronaux.
+Imaginez que vous devez développer une application pour une garderie d'animaux afin de cataloguer tous les animaux. L'une des fonctionnalités intéressantes de cette application serait de découvrir automatiquement la race à partir d'une photographie. Cela peut être réalisé avec succès en utilisant des réseaux neuronaux.
 
-Vous devez entraîner un réseau neuronal convolutif pour classer différentes races de chats et de chiens en utilisant le dataset **Pet Faces**.
+Vous devez entraîner un réseau neuronal convolutif pour classifier différentes races de chats et de chiens en utilisant le dataset **Pet Faces**.
 
 ## Le Dataset
 
-Nous utiliserons le dataset **Pet Faces**, dérivé du dataset [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pour animaux. Il contient 35 races différentes de chiens et de chats.
+Nous utiliserons le [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), qui contient des images de 37 races différentes de chiens et de chats.
 
-![Dataset que nous allons utiliser](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fr.png)
+![Dataset avec lequel nous travaillerons](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fr.png)
 
-Pour télécharger le dataset, utilisez cet extrait de code :
+Pour télécharger le dataset, utilisez ce fragment de code :
 
 ```python
 !wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
@@ -31,13 +31,17 @@ Pour télécharger le dataset, utilisez cet extrait de code :
 !rm images.tar.gz
 ```
 
-## Démarrage du Notebook
+**Remarque :** Les images du Oxford-IIIT Pet Dataset sont organisées par nom de fichier (par exemple, `Abyssinian_1.jpg`, `Bengal_2.jpg`). Le notebook inclut du code pour organiser ces images dans des sous-répertoires spécifiques à chaque race afin de faciliter la classification.
 
-Commencez le laboratoire en ouvrant [PetFaces.ipynb](../../../../../../lessons/4-ComputerVision/07-ConvNets/lab/PetFaces.ipynb)
+## Notebook de départ
+
+Commencez le travail pratique en ouvrant [PetFaces.ipynb](PetFaces.ipynb)
 
 ## Résultat
 
-Vous avez résolu un problème relativement complexe de classification d'images à partir de zéro ! Il y avait un grand nombre de classes, et vous avez tout de même réussi à obtenir une précision raisonnable ! Il est également pertinent de mesurer la précision top-k, car il est facile de confondre certaines classes qui ne sont pas clairement distinctes, même pour des êtres humains.
+Vous avez résolu un problème relativement complexe de classification d'images à partir de zéro ! Il y avait un grand nombre de classes, et vous avez tout de même réussi à obtenir une précision raisonnable ! Il est également pertinent de mesurer la précision top-k, car il est facile de confondre certaines classes qui ne sont pas clairement distinctes, même pour les êtres humains.
+
+---
 
 **Avertissement** :  
 Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

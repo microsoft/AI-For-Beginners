@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f3d2cee9cb3c52160419e560c57a690e",
-  "translation_date": "2025-08-28T19:26:02+00:00",
+  "original_hash": "b70fcf7fcee862990f848c679090943f",
+  "translation_date": "2025-10-03T14:55:55+00:00",
   "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
   "language_code": "nl"
 }
 -->
 # Classificatie van Huisdiergezichten
 
-Labopdracht uit de [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
+Labopdracht uit [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).
 
 ## Taak
 
@@ -19,11 +19,11 @@ Je moet een convolutioneel neuraal netwerk trainen om verschillende rassen van k
 
 ## De Dataset
 
-We zullen de **Pet Faces** dataset gebruiken, afgeleid van de [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) huisdieren-dataset. Deze bevat 35 verschillende rassen van honden en katten.
+We gebruiken de [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), die afbeeldingen bevat van 37 verschillende rassen van honden en katten.
 
 ![Dataset waarmee we werken](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.nl.png)
 
-Gebruik de volgende codefragment om de dataset te downloaden:
+Om de dataset te downloaden, gebruik deze codefragment:
 
 ```python
 !wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
@@ -31,15 +31,17 @@ Gebruik de volgende codefragment om de dataset te downloaden:
 !rm images.tar.gz
 ```
 
+**Opmerking:** De afbeeldingen in de Oxford-IIIT Pet Dataset zijn georganiseerd op bestandsnaam (bijv. `Abyssinian_1.jpg`, `Bengal_2.jpg`). Het notebook bevat code om deze afbeeldingen te organiseren in ras-specifieke submappen voor eenvoudigere classificatie.
+
 ## Start Notebook
 
-Begin het lab door [PetFaces.ipynb](PetFaces.ipynb) te openen.
+Begin de labopdracht door [PetFaces.ipynb](PetFaces.ipynb) te openen.
 
 ## Belangrijkste Leerpunten
 
-Je hebt een relatief complex probleem van beeldclassificatie vanaf nul opgelost! Er waren behoorlijk veel klassen, en je hebt toch een redelijke nauwkeurigheid weten te behalen! Het is ook logisch om de top-k nauwkeurigheid te meten, omdat het gemakkelijk is om sommige klassen te verwarren die zelfs voor mensen niet duidelijk verschillend zijn.
+Je hebt een relatief complex probleem van beeldclassificatie vanaf nul opgelost! Er waren behoorlijk veel klassen, en je hebt toch een redelijke nauwkeurigheid weten te behalen! Het is ook zinvol om de top-k nauwkeurigheid te meten, omdat het gemakkelijk is om sommige klassen te verwarren die zelfs voor mensen niet duidelijk verschillend zijn.
 
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we ons best doen voor nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
