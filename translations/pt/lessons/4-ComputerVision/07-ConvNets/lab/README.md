@@ -26,9 +26,9 @@ Vamos utilizar o dataset **Pet Faces**, derivado do dataset de animais de estima
 Para descarregar o dataset, utilize este trecho de código:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Notebook Inicial

@@ -10,17 +10,19 @@ You need to train a convolutional neural network to classify different breeds of
 
 ## The Dataset
 
-We will use the **Pet Faces** dataset, derived from [Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/) pets dataset. It contains 35 different breeds of dogs and cats.
+We will use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images of 37 different breeds of dogs and cats.
 
 ![Dataset we will deal with](images/data.png)
 
 To download the dataset, use this code snippet:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
+
+**Note:** The Oxford-IIIT Pet Dataset images are organized by filename (e.g., `Abyssinian_1.jpg`, `Bengal_2.jpg`). The notebook includes code to organize these images into breed-specific subdirectories for easier classification.
 
 ## Stating Notebook
 

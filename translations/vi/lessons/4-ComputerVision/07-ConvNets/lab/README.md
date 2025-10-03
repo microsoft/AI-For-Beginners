@@ -26,9 +26,9 @@ Chúng ta sẽ sử dụng bộ dữ liệu **Pet Faces**, được lấy từ b
 Để tải bộ dữ liệu, hãy sử dụng đoạn mã sau:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Bắt đầu với Notebook
