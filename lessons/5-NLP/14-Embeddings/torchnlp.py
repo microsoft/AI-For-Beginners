@@ -30,7 +30,11 @@ def encode(x,voc=None,unk=0,tokenizer=tokenizer):
     if v in stoi_hash.keys():
         stoi = stoi_hash[v]
     else:
-        stoi = v.get_stoi()
+        # Handle both vocab.vocab objects (with get_stoi() method) and GloVe objects (with stoi attribute)
+        if hasattr(v, 'get_stoi'):
+            stoi = v.get_stoi()
+        else:
+            stoi = v.stoi
         stoi_hash[v]=stoi        
     return [stoi.get(s,unk) for s in tokenizer(x)]
 
