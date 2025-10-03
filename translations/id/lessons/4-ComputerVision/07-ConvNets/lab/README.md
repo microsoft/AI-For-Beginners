@@ -26,9 +26,9 @@ Kita akan menggunakan dataset **Pet Faces**, yang berasal dari dataset hewan pel
 Untuk mengunduh dataset, gunakan cuplikan kode berikut:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Memulai Notebook

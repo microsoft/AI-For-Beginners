@@ -26,9 +26,9 @@ Bir evcil hayvan yuvası için tüm evcil hayvanları kataloglayacak bir uygulam
 Veri kümesini indirmek için şu kod parçasını kullanın:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Başlangıç Not Defteri

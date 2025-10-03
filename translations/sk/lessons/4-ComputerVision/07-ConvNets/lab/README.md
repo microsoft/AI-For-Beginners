@@ -26,9 +26,9 @@ Použijeme dataset **Pet Faces**, ktorý je odvodený z datasetu domácich milá
 Na stiahnutie datasetu použite tento úryvok kódu:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## Začiatok práce s notebookom

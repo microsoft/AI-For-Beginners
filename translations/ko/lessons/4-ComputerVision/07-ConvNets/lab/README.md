@@ -26,9 +26,9 @@ CO_OP_TRANSLATOR_METADATA:
 데이터셋을 다운로드하려면 아래 코드 스니펫을 사용하세요:
 
 ```python
-!wget https://mslearntensorflowlp.blob.core.windows.net/data/petfaces.tar.gz
-!tar xfz petfaces.tar.gz
-!rm petfaces.tar.gz
+!wget https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
+!tar xfz images.tar.gz
+!rm images.tar.gz
 ```
 
 ## 시작 노트북
