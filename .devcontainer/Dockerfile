@@ -12,7 +12,7 @@ COPY .devcontainer/requirements.txt /tmp/conda-tmp/
 # Install packages using conda and pip directly to avoid hanging on environment solving
 RUN umask 0002 \
     && /opt/conda/bin/conda install -y -c conda-forge -c pytorch -c defaults \
-        ipykernel ipython ipywidgets jupyter matplotlib=3.9 numpy=1.26 \
+        python pip ipykernel ipython ipywidgets jupyter matplotlib=3.9 numpy=1.26 \
         requests=2.32 scikit-learn scipy=1.13 opencv setuptools \
         pytorch torchtext torchvision torchdata \
     && /opt/conda/bin/pip install --no-cache-dir -r /tmp/conda-tmp/requirements.txt \
