@@ -1,46 +1,46 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T08:06:42+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T10:50:51+00:00",
   "source_file": "README.md",
   "language_code": "it"
 }
 -->
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
+[![Licenza GitHub](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
+[![Contributori GitHub](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
+[![Problemi GitHub](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
+[![Pull Request GitHub](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
+[![Osservatori GitHub](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
+[![Fork GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
+[![Stelle GitHub](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)  
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
 
-# Intelligenza Artificiale per Principianti - Un Curriculum  
+# Intelligenza Artificiale per Principianti - Un Curriculum
 
 |![Sketchnote di @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.it.png)|  
 |:---:|  
 | AI For Beginners - _Sketchnote di [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Esplora il mondo dell'**Intelligenza Artificiale** (AI) con il nostro curriculum di 12 settimane e 24 lezioni! Include lezioni pratiche, quiz e laboratori. Il curriculum è adatto ai principianti e copre strumenti come TensorFlow e PyTorch, oltre a trattare l'etica nell'AI.  
+Esplora il mondo dell'**Intelligenza Artificiale** (AI) con il nostro curriculum di 12 settimane e 24 lezioni! Include lezioni pratiche, quiz e laboratori. Il curriculum è adatto ai principianti e copre strumenti come TensorFlow e PyTorch, oltre a trattare l'etica nell'AI.
 
-### 🌐 Supporto Multilingue  
+### 🌐 Supporto Multilingue
 
-#### Supportato tramite GitHub Action (Automatizzato e Sempre Aggiornato)  
+#### Supportato tramite GitHub Action (Automatizzato e Sempre Aggiornato)
 
 [Francese](../fr/README.md) | [Spagnolo](../es/README.md) | [Tedesco](../de/README.md) | [Russo](../ru/README.md) | [Arabo](../ar/README.md) | [Persiano (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Cinese (Semplificato)](../zh/README.md) | [Cinese (Tradizionale, Macao)](../mo/README.md) | [Cinese (Tradizionale, Hong Kong)](../hk/README.md) | [Cinese (Tradizionale, Taiwan)](../tw/README.md) | [Giapponese](../ja/README.md) | [Coreano](../ko/README.md) | [Hindi](../hi/README.md) | [Bengalese](../bn/README.md) | [Marathi](../mr/README.md) | [Nepalese](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portoghese (Portogallo)](../pt/README.md) | [Portoghese (Brasile)](../br/README.md) | [Italiano](./README.md) | [Polacco](../pl/README.md) | [Turco](../tr/README.md) | [Greco](../el/README.md) | [Thailandese](../th/README.md) | [Svedese](../sv/README.md) | [Danese](../da/README.md) | [Norvegese](../no/README.md) | [Finlandese](../fi/README.md) | [Olandese](../nl/README.md) | [Ebraico](../he/README.md) | [Vietnamita](../vi/README.md) | [Indonesiano](../id/README.md) | [Malese](../ms/README.md) | [Tagalog (Filippino)](../tl/README.md) | [Swahili](../sw/README.md) | [Ungherese](../hu/README.md) | [Ceco](../cs/README.md) | [Slovacco](../sk/README.md) | [Rumeno](../ro/README.md) | [Bulgaro](../bg/README.md) | [Serbo (Cirillico)](../sr/README.md) | [Croato](../hr/README.md) | [Sloveno](../sl/README.md) | [Ucraino](../uk/README.md) | [Birmano (Myanmar)](../my/README.md)  
 
-**Se desideri supportare ulteriori lingue, l'elenco delle lingue disponibili è [qui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**Se desideri supportare ulteriori lingue, l'elenco delle lingue supportate è disponibile [qui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
 
 ## Unisciti alla Comunità  
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
 
-## Cosa imparerai  
+## Cosa imparerai
 
 **[Mappa mentale del corso](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
@@ -48,7 +48,7 @@ In questo curriculum, imparerai:
 
 * Diversi approcci all'Intelligenza Artificiale, inclusi il "vecchio e caro" approccio simbolico con **Rappresentazione della Conoscenza** e ragionamento ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Reti Neurali** e **Deep Learning**, che sono al centro dell'AI moderna. Illustreremo i concetti dietro questi argomenti importanti utilizzando codice nei due framework più popolari - [TensorFlow](http://Tensorflow.org) e [PyTorch](http://pytorch.org).  
-* **Architetture Neurali** per lavorare con immagini e testo. Copriremo modelli recenti, anche se potremmo non trattare gli ultimi sviluppi.  
+* **Architetture Neurali** per lavorare con immagini e testo. Copriremo modelli recenti, anche se potremmo non trattare lo stato dell'arte.  
 * Approcci meno popolari all'AI, come **Algoritmi Genetici** e **Sistemi Multi-Agente**.  
 
 Cosa non copriremo in questo curriculum:  
@@ -64,7 +64,7 @@ Cosa non copriremo in questo curriculum:
 
 Per un'introduzione semplice ai temi di _AI nel Cloud_, puoi considerare di seguire il percorso di apprendimento [Introduzione all'intelligenza artificiale su Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
-# Contenuti  
+# Contenuti
 
 |     |                                                                 Link alla Lezione                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
@@ -107,10 +107,23 @@ Per un'introduzione semplice ai temi di _AI nel Cloud_, puoi considerare di segu
 
 * Materiale di lettura preliminare
 * Notebook Jupyter eseguibili, spesso specifici per il framework (**PyTorch** o **TensorFlow**). Il notebook eseguibile include anche molto materiale teorico, quindi per comprendere l'argomento è necessario seguire almeno una versione del notebook (PyTorch o TensorFlow).
-* **Laboratori** disponibili per alcuni argomenti, che ti offrono l'opportunità di applicare il materiale appreso a un problema specifico.
+* **Laboratori** disponibili per alcuni argomenti, che ti danno l'opportunità di applicare il materiale appreso a un problema specifico.
 * Alcune sezioni contengono link ai moduli [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) che trattano argomenti correlati.
 
 ## Per iniziare
+
+### 🎯 Nuovo all'AI? Inizia qui!
+
+Se sei completamente nuovo all'AI e vuoi esempi pratici e veloci, dai un'occhiata ai nostri [**Esempi per Principianti**](./examples/README.md)! Questi includono:
+
+- 🌟 **Hello AI World** - Il tuo primo programma AI (riconoscimento di pattern)
+- 🧠 **Rete Neurale Semplice** - Costruisci una rete neurale da zero  
+- 🖼️ **Classificatore di Immagini** - Classifica immagini con commenti dettagliati
+- 💬 **Sentiment del Testo** - Analizza testo positivo/negativo
+
+Questi esempi sono progettati per aiutarti a comprendere i concetti di AI prima di immergerti nel curriculum completo.
+
+### 📚 Configurazione del Curriculum Completo
 
 - Abbiamo creato una [lezione di configurazione](./lessons/0-course-setup/setup.md) per aiutarti a configurare il tuo ambiente di sviluppo. - Per gli educatori, abbiamo creato anche una [lezione di configurazione del curriculum](./lessons/0-course-setup/for-teachers.md)!
 - Come [Eseguire il codice in VSCode o Codepace](./lessons/0-course-setup/how-to-run.md)
@@ -119,34 +132,34 @@ Segui questi passaggi:
 
 Fork del Repository: Clicca sul pulsante "Fork" in alto a destra in questa pagina.
 
-Clona il Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
-
-Non dimenticare di aggiungere una stella (🌟) a questo repository per trovarlo più facilmente in seguito.
+Clone del Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Non dimenticare di aggiungere una stella (🌟) a questo repository per trovarlo più facilmente in futuro.
 
 ## Incontra altri studenti
 
-Unisciti al nostro [server Discord ufficiale sull'AI](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) per incontrare e fare networking con altri studenti che seguono questo corso e ottenere supporto.
+Unisciti al nostro [server ufficiale Discord AI](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) per incontrare e fare networking con altri studenti che seguono questo corso e ricevere supporto.
 
-Se hai feedback sul prodotto o domande durante la costruzione, visita il nostro [Forum degli Sviluppatori di Azure AI Foundry](https://aka.ms/foundry/forum)
+Se hai feedback sui prodotti o domande durante la costruzione, visita il nostro [Forum degli sviluppatori di Azure AI Foundry](https://aka.ms/foundry/forum).
 
-## Quiz 
-> **Una nota sui quiz**: Tutti i quiz si trovano nella cartella Quiz-app in etc\quiz-app, oppure [Online Qui](https://ff-quizzes.netlify.app/). Sono collegati all'interno delle lezioni. L'app dei quiz può essere eseguita localmente o distribuita su Azure; segui le istruzioni nella cartella `quiz-app`. La localizzazione è in corso.
+## Quiz
 
-## Cerchiamo Aiuto
+> **Nota sui quiz**: Tutti i quiz si trovano nella cartella Quiz-app in etc\quiz-app, oppure [Online Qui](https://ff-quizzes.netlify.app/). Sono collegati all'interno delle lezioni. L'app dei quiz può essere eseguita localmente o distribuita su Azure; segui le istruzioni nella cartella `quiz-app`. La localizzazione è in corso.
 
-Hai suggerimenti o hai trovato errori di ortografia o nel codice? Apri un issue o crea una pull request.
+## Aiuto richiesto
 
-## Ringraziamenti Speciali
+Hai suggerimenti o hai trovato errori di ortografia o nel codice? Apri un problema o crea una pull request.
 
-* **✍️ Autore Principale:** [Dmitry Soshnikov](http://soshnikov.com), PhD
+## Ringraziamenti speciali
+
+* **✍️ Autore principale:** [Dmitry Soshnikov](http://soshnikov.com), PhD
 * **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD
-* **🎨 Illustratore di Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
-* **✅ Creatrice dei Quiz:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Contributori Principali:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+* **🎨 Illustratore di sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **✅ Creatore dei quiz:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **🙏 Collaboratori principali:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Altri Corsi
+## Altri curricula
 
-Il nostro team produce altri corsi! Dai un'occhiata a:
+Il nostro team produce altri curricula! Dai un'occhiata:
 
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
@@ -163,17 +176,17 @@ Il nostro team produce altri corsi! Dai un'occhiata a:
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
 
-## Ottenere Aiuto
+## Ottenere aiuto
 
-Se hai difficoltà o domande sulla creazione di app AI, unisciti a:
+Se ti blocchi o hai domande sulla creazione di app AI, unisciti a:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
-Se hai feedback sui prodotti o riscontri errori durante la creazione, visita:
+Se hai feedback sui prodotti o errori durante la costruzione, visita:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
-**Disclaimer (Avvertenza)**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatizzate possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

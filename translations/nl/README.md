@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T08:27:58+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T11:02:51+00:00",
   "source_file": "README.md",
   "language_code": "nl"
 }
@@ -75,7 +75,7 @@ Voor een eenvoudige introductie tot _AI in de Cloud_ kun je overwegen de leerrou
 | 02  |       [Kennisrepresentatie en Expertsystemen](./lessons/2-Symbolic/README.md)       |            [Expertsystemen](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologie](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Concept Graph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
 | III |                        [**Introductie tot Neurale Netwerken**](./lessons/3-NeuralNetworks/README.md) |||
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
-| 04  |                   [Multi-Layered Perceptron en het creëren van ons eigen framework](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 04  |                   [Multi-layered Perceptron en het creëren van ons eigen framework](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Introductie tot Frameworks (PyTorch/TensorFlow) en Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Computer Vision**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Ontdek Computer Vision op Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Introductie tot Computer Vision. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
@@ -101,40 +101,53 @@ Voor een eenvoudige introductie tot _AI in de Cloud_ kun je overwegen de leerrou
 | VII |            **AI Ethiek** | | |
 | 24  |            [AI Ethiek en Verantwoordelijke AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Principes van Verantwoordelijke AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Extra's** | | |
-| 25  |            [Multi-Modal Netwerken, CLIP en VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
+| 25  |            [Multi-Modale Netwerken, CLIP en VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
 ## Elke les bevat
 
 * Voorbereidend leesmateriaal
-* Uitvoerbare Jupyter Notebooks, vaak specifiek voor het framework (**PyTorch** of **TensorFlow**). Het uitvoerbare notebook bevat ook veel theoretisch materiaal, dus om het onderwerp te begrijpen moet je minstens één versie van het notebook doorlopen (PyTorch of TensorFlow).
-* **Labs** beschikbaar voor sommige onderwerpen, waarmee je de kans krijgt om het geleerde toe te passen op een specifiek probleem.
+* Uitvoerbare Jupyter Notebooks, vaak specifiek voor het framework (**PyTorch** of **TensorFlow**). De uitvoerbare notebook bevat ook veel theoretisch materiaal, dus om het onderwerp te begrijpen moet je minstens één versie van de notebook doorlopen (PyTorch of TensorFlow).
+* **Labs** beschikbaar voor sommige onderwerpen, waarmee je de kans krijgt om het geleerde materiaal toe te passen op een specifiek probleem.
 * Sommige secties bevatten links naar [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules die gerelateerde onderwerpen behandelen.
 
 ## Aan de slag
 
-- We hebben een [setup-les](./lessons/0-course-setup/setup.md) gemaakt om je te helpen bij het opzetten van je ontwikkelomgeving. - Voor docenten hebben we ook een [curricula-setup-les](./lessons/0-course-setup/for-teachers.md) gemaakt!
+### 🎯 Nieuw in AI? Begin hier!
+
+Als je helemaal nieuw bent in AI en snel praktische voorbeelden wilt zien, bekijk dan onze [**Toegankelijke Voorbeelden**](./examples/README.md)! Deze omvatten:
+
+- 🌟 **Hello AI World** - Je eerste AI-programma (patroonherkenning)
+- 🧠 **Eenvoudig Neuraal Netwerk** - Bouw een neuraal netwerk vanaf nul  
+- 🖼️ **Beeldclassifier** - Classificeer afbeeldingen met gedetailleerde uitleg
+- 💬 **Tekstsentiment** - Analyseer positieve/negatieve tekst
+
+Deze voorbeelden zijn ontworpen om je te helpen AI-concepten te begrijpen voordat je aan de volledige curriculum begint.
+
+### 📚 Volledige Curriculum Setup
+
+- We hebben een [setup-les](./lessons/0-course-setup/setup.md) gemaakt om je te helpen bij het instellen van je ontwikkelomgeving. - Voor docenten hebben we ook een [curriculum setup-les](./lessons/0-course-setup/for-teachers.md) gemaakt!
 - Hoe je [de code uitvoert in VSCode of een Codespace](./lessons/0-course-setup/how-to-run.md)
 
 Volg deze stappen:
 
-Fork de repository: Klik op de "Fork"-knop rechtsboven op deze pagina.
+Fork de Repository: Klik op de "Fork"-knop rechtsboven op deze pagina.
 
-Clone de repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Clone de Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Vergeet niet om deze repo te sterren (🌟) zodat je hem later makkelijker kunt terugvinden.
 
-Vergeet niet om deze repo te sterren (🌟) zodat je hem later makkelijker kunt vinden.
-
-## Ontmoet andere leerlingen
+## Ontmoet andere Leerlingen
 
 Word lid van onze [officiële AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) om andere leerlingen te ontmoeten en te netwerken die deze cursus volgen, en om ondersteuning te krijgen.
 
-Als je feedback over producten hebt of vragen hebt tijdens het bouwen, bezoek dan ons [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+Als je feedback over producten hebt of vragen tijdens het bouwen, bezoek dan ons [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
 
-## Quizzen 
+## Quizzen
+
 > **Een opmerking over quizzen**: Alle quizzen zijn te vinden in de Quiz-app map in etc\quiz-app, of [Online Hier](https://ff-quizzes.netlify.app/). Ze zijn gekoppeld vanuit de lessen. De quiz-app kan lokaal worden uitgevoerd of worden gedeployed naar Azure; volg de instructies in de `quiz-app` map. Ze worden geleidelijk gelokaliseerd.
 
 ## Hulp Gezocht
 
-Heb je suggesties of heb je spelfouten of codefouten gevonden? Maak een issue aan of maak een pull request.
+Heb je suggesties of spelling- of codefouten gevonden? Maak een issue aan of dien een pull request in.
 
 ## Speciale Dank
 
@@ -144,9 +157,9 @@ Heb je suggesties of heb je spelfouten of codefouten gevonden? Maak een issue aa
 * **✅ Quizmaker:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Kernbijdragers:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Andere Leermaterialen
+## Andere Curriculum
 
-Ons team produceert ook andere leermaterialen! Bekijk:
+Ons team produceert ook andere curriculum! Bekijk:
 
 - [Generatieve AI voor Beginners](https://aka.ms/genai-beginners)
 - [Generatieve AI voor Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
@@ -165,15 +178,15 @@ Ons team produceert ook andere leermaterialen! Bekijk:
 
 ## Hulp Krijgen
 
-Als je vastloopt of vragen hebt over het bouwen van AI-apps, sluit je aan bij:
+Als je vastloopt of vragen hebt over het bouwen van AI-apps, word lid van:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
-Als je productfeedback hebt of fouten tegenkomt tijdens het bouwen, bezoek:
+Als je feedback over producten hebt of fouten tegenkomt tijdens het bouwen, bezoek dan:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

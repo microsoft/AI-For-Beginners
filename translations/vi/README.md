@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
-  "translation_date": "2025-10-03T08:32:22+00:00",
+  "original_hash": "0ff47c5596afbd32ef2cb6bd68d08c54",
+  "translation_date": "2025-10-03T11:04:58+00:00",
   "source_file": "README.md",
   "language_code": "vi"
 }
@@ -21,13 +21,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
 
-# Trí tuệ nhân tạo cho người mới bắt đầu - Một chương trình học  
+# Trí Tuệ Nhân Tạo cho Người Mới Bắt Đầu - Một Chương Trình Học  
 
-|![Sketchnote của @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.vi.png)|  
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.vi.png)|  
 |:---:|  
-| AI For Beginners - _Sketchnote của [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+| AI For Beginners - _Sketchnote bởi [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Khám phá thế giới **Trí tuệ nhân tạo** (AI) với chương trình học kéo dài 12 tuần, gồm 24 bài học của chúng tôi! Chương trình bao gồm các bài học thực hành, bài kiểm tra và phòng thí nghiệm. Nội dung thân thiện với người mới bắt đầu và bao gồm các công cụ như TensorFlow và PyTorch, cũng như các vấn đề đạo đức trong AI.  
+Khám phá thế giới **Trí Tuệ Nhân Tạo** (AI) với chương trình học kéo dài 12 tuần, gồm 24 bài học! Chương trình bao gồm các bài học thực hành, bài kiểm tra và phòng thí nghiệm. Nội dung thân thiện với người mới bắt đầu và bao gồm các công cụ như TensorFlow và PyTorch, cũng như các vấn đề đạo đức trong AI.  
 
 ### 🌐 Hỗ trợ đa ngôn ngữ  
 
@@ -46,23 +46,23 @@ Khám phá thế giới **Trí tuệ nhân tạo** (AI) với chương trình h�
 
 Trong chương trình này, bạn sẽ học:  
 
-* Các cách tiếp cận khác nhau đối với Trí tuệ nhân tạo, bao gồm phương pháp biểu tượng "cổ điển" với **Biểu diễn tri thức** và suy luận ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Mạng nơ-ron** và **Học sâu**, là cốt lõi của AI hiện đại. Chúng tôi sẽ minh họa các khái niệm đằng sau những chủ đề quan trọng này bằng mã trong hai framework phổ biến nhất - [TensorFlow](http://Tensorflow.org) và [PyTorch](http://pytorch.org).  
-* **Kiến trúc mạng nơ-ron** để làm việc với hình ảnh và văn bản. Chúng tôi sẽ đề cập đến các mô hình gần đây nhưng có thể chưa bao quát được những mô hình tiên tiến nhất.  
-* Các cách tiếp cận AI ít phổ biến hơn, như **Thuật toán di truyền** và **Hệ thống đa tác nhân**.  
+* Các cách tiếp cận khác nhau đối với Trí Tuệ Nhân Tạo, bao gồm phương pháp biểu tượng "cổ điển" với **Biểu diễn Kiến Thức** và suy luận ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* **Mạng Neural** và **Học Sâu**, là cốt lõi của AI hiện đại. Chúng tôi sẽ minh họa các khái niệm đằng sau những chủ đề quan trọng này bằng mã trong hai framework phổ biến nhất - [TensorFlow](http://Tensorflow.org) và [PyTorch](http://pytorch.org).  
+* **Kiến trúc Neural** để làm việc với hình ảnh và văn bản. Chúng tôi sẽ đề cập đến các mô hình gần đây nhưng có thể chưa bao quát được những mô hình tiên tiến nhất.  
+* Các cách tiếp cận AI ít phổ biến hơn, như **Thuật toán Di truyền** và **Hệ thống Đa Tác nhân**.  
 
 Những gì chúng tôi sẽ không đề cập trong chương trình này:  
 
 > [Tìm tất cả các tài nguyên bổ sung cho khóa học này trong bộ sưu tập Microsoft Learn của chúng tôi](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Các trường hợp kinh doanh sử dụng **AI trong kinh doanh**. Hãy cân nhắc tham gia lộ trình học [Giới thiệu về AI cho người dùng doanh nghiệp](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) trên Microsoft Learn, hoặc [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), được phát triển hợp tác với [INSEAD](https://www.insead.edu/).  
-* **Học máy cổ điển**, được mô tả chi tiết trong chương trình học [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
-* Các ứng dụng AI thực tế được xây dựng bằng **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Để học về chủ đề này, chúng tôi khuyến nghị bạn bắt đầu với các module Microsoft Learn về [thị giác](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [xử lý ngôn ngữ tự nhiên](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI với Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** và các chủ đề khác.  
-* Các framework **Cloud ML** cụ thể, như [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), hoặc [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Hãy cân nhắc sử dụng lộ trình học [Xây dựng và vận hành các giải pháp học máy với Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) và [Xây dựng và vận hành các giải pháp học máy với Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **AI hội thoại** và **Chat Bots**. Có một lộ trình học riêng [Tạo các giải pháp AI hội thoại](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), và bạn cũng có thể tham khảo [bài viết blog này](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) để biết thêm chi tiết.  
-* **Toán học chuyên sâu** đằng sau học sâu. Để học về chủ đề này, chúng tôi khuyến nghị cuốn sách [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) của Ian Goodfellow, Yoshua Bengio và Aaron Courville, cũng có sẵn trực tuyến tại [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Các trường hợp sử dụng **AI trong Kinh doanh**. Hãy xem xét tham gia lộ trình học [Giới thiệu về AI cho người dùng doanh nghiệp](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) trên Microsoft Learn, hoặc [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), được phát triển cùng với [INSEAD](https://www.insead.edu/).  
+* **Học Máy Cổ Điển**, được mô tả chi tiết trong [Chương trình Học Máy cho Người Mới Bắt Đầu](http://github.com/Microsoft/ML-for-Beginners).  
+* Các ứng dụng AI thực tế được xây dựng bằng **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Để bắt đầu, chúng tôi khuyến nghị các module Microsoft Learn về [thị giác](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [xử lý ngôn ngữ tự nhiên](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI Tạo Sinh với Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** và các chủ đề khác.  
+* Các **Framework ML trên Cloud** cụ thể, như [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), hoặc [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Hãy xem xét sử dụng lộ trình học [Xây dựng và vận hành giải pháp học máy với Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) và [Xây dựng và vận hành giải pháp học máy với Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* **AI Hội thoại** và **Chat Bots**. Có một lộ trình học riêng [Tạo giải pháp AI hội thoại](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), và bạn cũng có thể tham khảo [bài viết blog này](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) để biết thêm chi tiết.  
+* **Toán học chuyên sâu** đằng sau học sâu. Để tìm hiểu, chúng tôi khuyến nghị cuốn sách [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) của Ian Goodfellow, Yoshua Bengio và Aaron Courville, cũng có sẵn trực tuyến tại [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Để có một giới thiệu nhẹ nhàng về các chủ đề _AI trên Cloud_, bạn có thể cân nhắc tham gia lộ trình học [Bắt đầu với trí tuệ nhân tạo trên Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
+Để có một giới thiệu nhẹ nhàng về các chủ đề _AI trên Cloud_, bạn có thể xem xét tham gia lộ trình học [Bắt đầu với trí tuệ nhân tạo trên Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
 # Nội dung  
 
@@ -71,18 +71,18 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 | 0  |                                 [Cài đặt khóa học](./lessons/0-course-setup/setup.md)                                 |                      [Cài đặt môi trường phát triển của bạn](./lessons/0-course-setup/how-to-run.md)                       |   |  
 | I  |               [**Giới thiệu về AI**](./lessons/1-Intro/README.md)      | | |  
 | 01  |       [Giới thiệu và lịch sử AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
-| II |              **AI biểu tượng**              |  
-| 02  |       [Biểu diễn tri thức và hệ chuyên gia](./lessons/2-Symbolic/README.md)       |            [Hệ chuyên gia](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Đồ thị khái niệm](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
-| III |                        [**Giới thiệu về mạng nơ-ron**](./lessons/3-NeuralNetworks/README.md) |||  
+| II |              **AI Biểu Tượng**              |  
+| 02  |       [Biểu diễn Kiến Thức và Hệ thống Chuyên gia](./lessons/2-Symbolic/README.md)       |            [Hệ thống Chuyên gia](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Biểu đồ Khái niệm](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
+| III |                        [**Giới thiệu về Mạng Neural**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Phòng thí nghiệm](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
-| 04  |                   [Perceptron nhiều lớp và tạo framework của riêng chúng ta](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Phòng thí nghiệm](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
+| 04  |                   [Perceptron Đa Lớp và Tạo Framework của riêng chúng ta](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Phòng thí nghiệm](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
 | 05  |            [Giới thiệu về Frameworks (PyTorch/TensorFlow) và Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Thị giác máy tính**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Khám phá Thị giác máy tính trên Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Giới thiệu về Thị giác máy tính. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Mạng Neural Tích chập](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Kiến trúc CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [Mạng đã được huấn luyện trước và Học chuyển tiếp](./lessons/4-ComputerVision/08-TransferLearning/README.md) và [Các mẹo huấn luyện](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 08  |            [Mạng đã được huấn luyện và Học chuyển giao](./lessons/4-ComputerVision/08-TransferLearning/README.md) và [Các mẹo huấn luyện](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoencoders và VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Mạng Đối kháng Sinh tạo & Chuyển đổi Phong cách Nghệ thuật](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 10  |            [Mạng Đối kháng Sinh và Chuyển đổi Phong cách Nghệ thuật](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Phát hiện đối tượng](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Phân đoạn ngữ nghĩa. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Xử lý ngôn ngữ tự nhiên**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Khám phá Xử lý ngôn ngữ tự nhiên trên Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
@@ -90,7 +90,7 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 | 14  |            [Nhúng từ ngữ nghĩa. Word2Vec và GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
 | 15  |            [Mô hình ngôn ngữ. Huấn luyện nhúng của riêng bạn](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Mạng Neural Hồi quy](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Mạng Hồi quy Sinh tạo](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 17  |            [Mạng Hồi quy Sinh](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
 | 19  |            [Nhận diện Thực thể Được đặt tên](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
 | 20  |            [Mô hình Ngôn ngữ Lớn, Lập trình Prompt và Nhiệm vụ Few-Shot](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
@@ -112,7 +112,20 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 
 ## Bắt đầu
 
-- Chúng tôi đã tạo một [bài học thiết lập](./lessons/0-course-setup/setup.md) để giúp bạn thiết lập môi trường phát triển. - Đối với giáo viên, chúng tôi cũng đã tạo một [bài học thiết lập giáo trình](./lessons/0-course-setup/for-teachers.md)!
+### 🎯 Mới với AI? Bắt đầu từ đây!
+
+Nếu bạn hoàn toàn mới với AI và muốn có các ví dụ thực hành nhanh, hãy xem [**Các ví dụ thân thiện với người mới bắt đầu**](./examples/README.md)! Bao gồm:
+
+- 🌟 **Hello AI World** - Chương trình AI đầu tiên của bạn (nhận diện mẫu)
+- 🧠 **Mạng Neural Đơn giản** - Xây dựng mạng neural từ đầu  
+- 🖼️ **Phân loại hình ảnh** - Phân loại hình ảnh với các chú thích chi tiết
+- 💬 **Phân tích cảm xúc văn bản** - Phân tích văn bản tích cực/tiêu cực
+
+Các ví dụ này được thiết kế để giúp bạn hiểu các khái niệm AI trước khi đi sâu vào chương trình học đầy đủ.
+
+### 📚 Thiết lập chương trình học đầy đủ
+
+- Chúng tôi đã tạo một [bài học thiết lập](./lessons/0-course-setup/setup.md) để giúp bạn thiết lập môi trường phát triển. - Đối với giáo viên, chúng tôi cũng đã tạo một [bài học thiết lập chương trình học](./lessons/0-course-setup/for-teachers.md)!
 - Cách [Chạy mã trong VSCode hoặc Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Thực hiện các bước sau:
@@ -120,33 +133,33 @@ Thực hiện các bước sau:
 Fork Repository: Nhấn vào nút "Fork" ở góc trên bên phải của trang này.
 
 Clone Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Đừng quên gắn sao (🌟) cho repo này để dễ dàng tìm lại sau.
 
-Đừng quên đánh dấu sao (🌟) repo này để dễ tìm lại sau.
-
-## Gặp gỡ các học viên khác
+## Gặp gỡ các Học viên khác
 
 Tham gia [máy chủ Discord AI chính thức](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) của chúng tôi để gặp gỡ và kết nối với các học viên khác đang tham gia khóa học này và nhận hỗ trợ.
 
-Nếu bạn có phản hồi sản phẩm hoặc câu hỏi trong quá trình xây dựng, hãy truy cập [Diễn đàn Nhà phát triển Azure AI Foundry](https://aka.ms/foundry/forum)
+Nếu bạn có phản hồi về sản phẩm hoặc câu hỏi trong quá trình xây dựng, hãy truy cập [Diễn đàn Nhà phát triển Azure AI Foundry](https://aka.ms/foundry/forum).
 
-## Câu hỏi kiểm tra
-> **Lưu ý về các bài kiểm tra**: Tất cả các bài kiểm tra đều nằm trong thư mục Quiz-app tại etc\quiz-app, hoặc [Trực tuyến tại đây](https://ff-quizzes.netlify.app/). Chúng được liên kết từ trong các bài học, ứng dụng kiểm tra có thể chạy cục bộ hoặc triển khai lên Azure; hãy làm theo hướng dẫn trong thư mục `quiz-app`. Các bài kiểm tra đang dần được bản địa hóa.
+## Câu hỏi trắc nghiệm
+
+> **Lưu ý về câu hỏi trắc nghiệm**: Tất cả các câu hỏi trắc nghiệm được chứa trong thư mục Quiz-app tại etc\quiz-app, hoặc [Trực tuyến tại đây](https://ff-quizzes.netlify.app/). Chúng được liên kết từ trong các bài học, ứng dụng câu hỏi trắc nghiệm có thể chạy cục bộ hoặc triển khai lên Azure; hãy làm theo hướng dẫn trong thư mục `quiz-app`. Các câu hỏi đang dần được bản địa hóa.
 
 ## Cần sự giúp đỡ
 
-Bạn có đề xuất hoặc phát hiện lỗi chính tả hay lỗi mã? Hãy tạo một issue hoặc pull request.
+Bạn có đề xuất hoặc phát hiện lỗi chính tả hay lỗi mã? Hãy tạo một issue hoặc gửi pull request.
 
-## Cảm ơn đặc biệt
+## Lời cảm ơn đặc biệt
 
 * **✍️ Tác giả chính:** [Dmitry Soshnikov](http://soshnikov.com), Tiến sĩ
 * **🔥 Biên tập viên:** [Jen Looper](https://twitter.com/jenlooper), Tiến sĩ
 * **🎨 Minh họa Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
-* **✅ Người tạo bài kiểm tra:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **✅ Người tạo câu hỏi trắc nghiệm:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Các cộng tác viên chính:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
 ## Các chương trình học khác
 
-Nhóm của chúng tôi sản xuất các chương trình học khác! Hãy xem:
+Nhóm của chúng tôi còn sản xuất các chương trình học khác! Hãy xem qua:
 
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
