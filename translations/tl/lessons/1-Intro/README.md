@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c84b280e654e05ed658023021a6a975",
-  "translation_date": "2025-09-23T06:57:23+00:00",
+  "original_hash": "06ca1b0138e65b964481ae83275b270e",
+  "translation_date": "2025-10-03T08:40:53+00:00",
   "source_file": "lessons/1-Intro/README.md",
   "language_code": "tl"
 }
@@ -15,52 +15,52 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/1)
 
-**Artificial Intelligence** ay isang kapanapanabik na larangan ng agham na nag-aaral kung paano natin magagawang magpakita ng matalinong pag-uugali ang mga computer, halimbawa, gawin ang mga bagay na mahusay gawin ng tao.
+**Artificial Intelligence** ay isang kapanapanabik na larangan ng agham na nag-aaral kung paano natin magagawang magpakita ng matalinong pag-uugali ang mga computer, halimbawa, gawin ang mga bagay na mahusay gawin ng mga tao.
 
-Noong una, ang mga computer ay naimbento ni [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) upang mag-operate sa mga numero gamit ang isang malinaw na proseso - isang algorithm. Ang mga modernong computer, kahit na mas advanced kaysa sa orihinal na modelo noong ika-19 na siglo, ay sumusunod pa rin sa parehong ideya ng kontroladong pagkalkula. Kaya't posible na i-program ang isang computer upang gawin ang isang bagay kung alam natin ang eksaktong pagkakasunod-sunod ng mga hakbang na kailangan upang makamit ang layunin.
+Noong una, ang mga computer ay naimbento ni [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) upang mag-operate sa mga numero gamit ang isang malinaw na proseso - isang algorithm. Ang mga modernong computer, kahit na mas advanced kaysa sa orihinal na modelo na iminungkahi noong ika-19 na siglo, ay sumusunod pa rin sa parehong ideya ng kontroladong mga kalkulasyon. Kaya't posible na i-program ang isang computer upang gawin ang isang bagay kung alam natin ang eksaktong pagkakasunod-sunod ng mga hakbang na kailangan nating gawin upang makamit ang layunin.
 
 ![Larawan ng isang tao](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.tl.png)
 
 > Larawan ni [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
-> ✅ Ang pagtukoy sa edad ng isang tao mula sa kanyang larawan ay isang gawain na hindi maaaring i-program nang malinaw, dahil hindi natin alam kung paano natin nakukuha ang numero sa ating isipan kapag ginagawa natin ito.
+> ✅ Ang pagtukoy sa edad ng isang tao mula sa kanyang larawan ay isang gawain na hindi maaaring i-program nang malinaw, dahil hindi natin alam kung paano tayo nakakapag-isip ng numero sa ating isipan kapag ginagawa natin ito.
 
 ---
 
-May mga gawain, gayunpaman, na hindi natin alam kung paano eksaktong lutasin. Halimbawa, ang pagtukoy sa edad ng isang tao mula sa kanyang larawan. Natutunan natin itong gawin dahil nakakita na tayo ng maraming halimbawa ng mga tao sa iba't ibang edad, ngunit hindi natin maipaliwanag nang malinaw kung paano natin ito ginagawa, o ma-program ang computer upang gawin ito. Ito ang uri ng gawain na interesado ang **Artificial Intelligence** (AI).
+May mga gawain, gayunpaman, na hindi natin alam kung paano eksaktong lutasin. Isipin ang pagtukoy sa edad ng isang tao mula sa kanyang larawan. Natutunan natin itong gawin dahil nakakita na tayo ng maraming halimbawa ng mga tao sa iba't ibang edad, ngunit hindi natin maipaliwanag nang malinaw kung paano natin ito ginagawa, o maiprogram ang computer upang gawin ito. Ito ang eksaktong uri ng gawain na interesado ang **Artificial Intelligence** (AI).
 
 ✅ Mag-isip ng ilang gawain na maaari mong ipasa sa isang computer na makikinabang mula sa AI. Isaalang-alang ang mga larangan ng pananalapi, medisina, at sining - paano nakikinabang ang mga larangang ito mula sa AI ngayon?
 
-## Mahina na AI vs. Malakas na AI
+## Mahinang AI vs. Malakas na AI
 
-Mahina na AI | Malakas na AI
+Mahinang AI | Malakas na AI
 ---------------------------------------|-------------------------------------
-Ang Mahina na AI ay tumutukoy sa mga sistema ng AI na idinisenyo at sinanay para sa isang tiyak na gawain o isang makitid na hanay ng mga gawain.|Ang Malakas na AI, o Artificial General Intelligence (AGI), ay tumutukoy sa mga sistema ng AI na may antas ng katalinuhan at pag-unawa na katulad ng tao.
-Ang mga sistemang ito ng AI ay hindi pangkalahatang matalino; mahusay sila sa pagsasagawa ng isang paunang natukoy na gawain ngunit kulang sa tunay na pag-unawa o kamalayan.|Ang mga sistemang ito ng AI ay may kakayahang magsagawa ng anumang intelektwal na gawain na kaya ng tao, umangkop sa iba't ibang larangan, at nagtataglay ng anyo ng kamalayan o sariling kamalayan.
-Halimbawa ng Mahina na AI ay ang mga virtual assistant tulad ng Siri o Alexa, mga algorithm ng rekomendasyon na ginagamit ng mga streaming service, at mga chatbot na idinisenyo para sa mga tiyak na gawain sa serbisyo sa customer.|Ang pagkamit ng Malakas na AI ay isang pangmatagalang layunin ng pananaliksik sa AI at mangangailangan ng pagbuo ng mga sistema ng AI na maaaring mag-isip, matuto, umunawa, at umangkop sa iba't ibang gawain at konteksto.
-Ang Mahina na AI ay lubos na dalubhasa at walang kakayahan sa kognitibong katulad ng tao o pangkalahatang kakayahan sa paglutas ng problema sa labas ng makitid nitong larangan.|Ang Malakas na AI ay kasalukuyang isang teoretikal na konsepto, at wala pang sistema ng AI ang umabot sa antas na ito ng pangkalahatang katalinuhan.
+Ang Mahinang AI ay tumutukoy sa mga sistema ng AI na idinisenyo at sinanay para sa isang tiyak na gawain o isang makitid na hanay ng mga gawain.|Ang Malakas na AI, o Artificial General Intelligence (AGI), ay tumutukoy sa mga sistema ng AI na may antas ng katalinuhan at pag-unawa na katulad ng tao.
+Ang mga sistemang ito ng AI ay hindi pangkalahatang matalino; mahusay sila sa pagsasagawa ng isang paunang natukoy na gawain ngunit kulang sa tunay na pag-unawa o kamalayan.|Ang mga sistemang ito ng AI ay may kakayahang magsagawa ng anumang intelektwal na gawain na kayang gawin ng tao, mag-adapt sa iba't ibang larangan, at magkaroon ng anyo ng kamalayan o sariling kamalayan.
+Halimbawa ng Mahinang AI ay ang mga virtual assistant tulad ng Siri o Alexa, mga algorithm ng rekomendasyon na ginagamit ng mga streaming service, at mga chatbot na idinisenyo para sa mga tiyak na gawain sa serbisyo sa customer.|Ang pagkamit ng Malakas na AI ay isang pangmatagalang layunin ng pananaliksik sa AI at mangangailangan ng pagbuo ng mga sistema ng AI na maaaring mag-isip, matuto, umunawa, at mag-adapt sa iba't ibang gawain at konteksto.
+Ang Mahinang AI ay lubos na dalubhasa at walang kakayahan sa kognitibong katulad ng tao o pangkalahatang kakayahan sa paglutas ng problema sa labas ng makitid nitong larangan.|Ang Malakas na AI ay kasalukuyang isang teoretikal na konsepto, at wala pang sistema ng AI ang umabot sa antas na ito ng pangkalahatang katalinuhan.
 
 Para sa karagdagang impormasyon, tingnan ang **[Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
 
-## Ang Depinisyon ng Katalinuhan at ang Turing Test
+## Ang Kahulugan ng Katalinuhan at ang Turing Test
 
-Isa sa mga problema kapag pinag-uusapan ang terminong **[Katalinuhan](https://en.wikipedia.org/wiki/Intelligence)** ay wala itong malinaw na depinisyon. Maaaring sabihin ng iba na ang katalinuhan ay konektado sa **abstraktong pag-iisip**, o sa **sariling kamalayan**, ngunit hindi natin ito maipaliwanag nang maayos.
+Isa sa mga problema kapag pinag-uusapan ang terminong **[Katalinuhan](https://en.wikipedia.org/wiki/Intelligence)** ay wala itong malinaw na kahulugan. Maaaring sabihin ng iba na ang katalinuhan ay konektado sa **abstraktong pag-iisip**, o sa **sariling kamalayan**, ngunit hindi natin ito maipaliwanag nang maayos.
 
 ![Larawan ng Pusa](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.tl.jpg)
 
 > [Larawan](https://unsplash.com/photos/75715CVEJhI) ni [Amber Kipp](https://unsplash.com/@sadmax) mula sa Unsplash
 
-Upang makita ang kalabuan ng terminong *katalinuhan*, subukang sagutin ang tanong: "Ang pusa ba ay matalino?". Iba't ibang tao ang may iba't ibang sagot sa tanong na ito, dahil walang pangkalahatang tinatanggap na pagsusulit upang patunayan kung tama o hindi ang pahayag. At kung sa tingin mo meron - subukang ipasa ang iyong pusa sa isang IQ test...
+Upang makita ang kalabuan ng terminong *katalinuhan*, subukang sagutin ang tanong: "Ang pusa ba ay matalino?". Iba't ibang tao ang may iba't ibang sagot sa tanong na ito, dahil walang pangkalahatang tinatanggap na pagsusulit upang patunayan kung totoo o hindi ang pahayag. At kung sa tingin mo meron - subukang ipasa ang iyong pusa sa isang IQ test...
 
-✅ Mag-isip ng isang minuto kung paano mo idinedefine ang katalinuhan. Ang uwak ba na kayang lutasin ang isang maze upang makakuha ng pagkain ay matalino? Ang bata ba ay matalino?
+✅ Mag-isip ng isang minuto kung paano mo tinutukoy ang katalinuhan. Ang uwak ba na kayang lutasin ang isang maze upang makakuha ng pagkain ay matalino? Ang bata ba ay matalino?
 
 ---
 
-Kapag pinag-uusapan ang AGI, kailangan natin ng paraan upang matukoy kung nakagawa na tayo ng tunay na matalinong sistema. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) ay nagmungkahi ng isang paraan na tinatawag na **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, na nagsisilbing depinisyon ng katalinuhan. Ang pagsusulit ay naghahambing ng isang sistema sa isang bagay na likas na matalino - isang tunay na tao, at dahil ang anumang awtomatikong paghahambing ay maaaring lampasan ng isang computer program, gumagamit tayo ng isang tao bilang tagapagtanong. Kaya, kung ang isang tao ay hindi kayang makilala ang pagkakaiba sa pagitan ng isang tunay na tao at isang sistema ng computer sa text-based na pag-uusap - ang sistema ay itinuturing na matalino.
+Kapag pinag-uusapan ang AGI, kailangan nating magkaroon ng paraan upang malaman kung nakagawa tayo ng tunay na matalinong sistema. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) ay nagmungkahi ng isang paraan na tinatawag na **[Turing Test](https://en.wikipedia.org/wiki/Turing_test)**, na nagsisilbing kahulugan ng katalinuhan. Ang pagsusulit ay naghahambing ng isang sistema sa isang bagay na likas na matalino - isang tunay na tao, at dahil ang anumang awtomatikong paghahambing ay maaaring lampasan ng isang programa ng computer, gumagamit tayo ng isang tao bilang tagapagtanong. Kaya, kung ang isang tao ay hindi makilala ang pagkakaiba sa pagitan ng isang tunay na tao at isang sistema ng computer sa text-based na pag-uusap - ang sistema ay itinuturing na matalino.
 
-> Ang isang chatbot na tinatawag na [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), na binuo sa St. Petersburg, ay halos pumasa sa Turing test noong 2014 gamit ang isang matalinong personalidad na trick. Inanunsyo nito na ito ay isang 13-taong gulang na batang Ukrainian, na nagpapaliwanag sa kakulangan ng kaalaman at ilang mga pagkakaiba sa teksto. Ang bot ay nakumbinsi ang 30% ng mga hukom na ito ay tao pagkatapos ng 5 minutong pag-uusap, isang sukatan na pinaniniwalaan ni Turing na maaaring maabot ng isang makina pagsapit ng 2000. Gayunpaman, dapat maunawaan na hindi ito nangangahulugan na nakagawa na tayo ng matalinong sistema, o na ang sistema ng computer ay nalinlang ang tagapagtanong na tao - hindi nalinlang ng sistema ang mga tao, kundi ang mga tagalikha ng bot!
+> Ang isang chat-bot na tinatawag na [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), na binuo sa St. Petersburg, ay halos pumasa sa Turing test noong 2014 gamit ang isang matalinong trick sa personalidad. Inanunsyo nito na ito ay isang 13-taong gulang na batang Ukrainian, na nagpapaliwanag sa kakulangan ng kaalaman at ilang mga pagkakaiba sa teksto. Ang bot ay nakumbinsi ang 30% ng mga hukom na ito ay tao pagkatapos ng 5 minutong pag-uusap, isang sukatan na pinaniniwalaan ni Turing na maaaring maabot ng isang makina pagsapit ng 2000. Gayunpaman, dapat maunawaan na hindi ito nagpapahiwatig na nakagawa tayo ng matalinong sistema, o na ang sistema ng computer ay nalinlang ang tagapagtanong na tao - hindi nalinlang ng sistema ang mga tao, kundi ang mga tagalikha ng bot!
 
-✅ Nalinlang ka na ba ng isang chatbot na iniisip mong tao ang kausap mo? Paano ka nito nakumbinsi?
+✅ Nalinlang ka na ba ng isang chat bot na isipin na nakikipag-usap ka sa isang tao? Paano ka nito nakumbinsi?
 
 ## Iba't Ibang Diskarte sa AI
 
@@ -72,7 +72,7 @@ May dalawang posibleng diskarte sa problemang ito:
 
 Diskarteng Top-down (Symbolic Reasoning) | Diskarteng Bottom-up (Neural Networks)
 ---------------------------------------|-------------------------------------
-Ang diskarte ng top-down ay nagmomodelo sa paraan ng pangangatwiran ng tao upang lutasin ang problema. Kasama rito ang pagkuha ng **kaalaman** mula sa tao, at pagre-representa nito sa isang porma na nababasa ng computer. Kailangan din nating bumuo ng paraan upang i-modelo ang **pangangatwiran** sa loob ng computer. | Ang diskarte ng bottom-up ay nagmomodelo sa istruktura ng utak ng tao, na binubuo ng napakaraming simpleng unit na tinatawag na **neurons**. Ang bawat neuron ay kumikilos tulad ng isang weighted average ng mga input nito, at maaari nating sanayin ang network ng neurons upang lutasin ang mga kapaki-pakinabang na problema sa pamamagitan ng pagbibigay ng **training data**.
+Ang diskarte ng top-down ay nagmo-modelo sa paraan ng pangangatwiran ng isang tao upang lutasin ang problema. Kasama rito ang pagkuha ng **kaalaman** mula sa tao, at pagrepresenta nito sa isang porma na mababasa ng computer. Kailangan din nating bumuo ng paraan upang i-modelo ang **pangangatwiran** sa loob ng computer. | Ang diskarte ng bottom-up ay nagmo-modelo sa istruktura ng utak ng tao, na binubuo ng napakaraming simpleng yunit na tinatawag na **neurons**. Ang bawat neuron ay kumikilos tulad ng isang weighted average ng mga input nito, at maaari nating sanayin ang network ng neurons upang lutasin ang mga kapaki-pakinabang na problema sa pamamagitan ng pagbibigay ng **training data**.
 
 Mayroon ding ilang iba pang posibleng diskarte sa katalinuhan:
 
@@ -86,13 +86,13 @@ Pag-aaralan natin ang mga diskarteng ito sa susunod na bahagi ng kurso, ngunit s
 
 Sa **diskarteng top-down**, sinusubukan nating i-modelo ang ating pangangatwiran. Dahil kaya nating sundan ang ating mga iniisip kapag tayo ay nangangatwiran, maaari nating subukang gawing pormal ang prosesong ito at i-program ito sa loob ng computer. Ito ay tinatawag na **symbolic reasoning**.
 
-Ang mga tao ay may mga patakaran sa kanilang isipan na gumagabay sa kanilang proseso ng paggawa ng desisyon. Halimbawa, kapag ang isang doktor ay nag-diagnose ng pasyente, maaaring mapansin niya na ang tao ay may lagnat, kaya't maaaring may pamamaga sa loob ng katawan. Sa pamamagitan ng paglalapat ng malaking hanay ng mga patakaran sa isang tiyak na problema, maaaring makabuo ang doktor ng panghuling diagnosis.
+Ang mga tao ay may mga patakaran sa kanilang isipan na gumagabay sa kanilang proseso ng paggawa ng desisyon. Halimbawa, kapag ang isang doktor ay nag-diagnose ng pasyente, maaaring mapansin niya na ang tao ay may lagnat, at kaya't maaaring may pamamaga sa loob ng katawan. Sa pamamagitan ng paglalapat ng malaking hanay ng mga patakaran sa isang tiyak na problema, maaaring makabuo ang doktor ng panghuling diagnosis.
 
-Ang diskarteng ito ay lubos na nakasalalay sa **knowledge representation** at **reasoning**. Ang pagkuha ng kaalaman mula sa isang eksperto ay maaaring ang pinakamahirap na bahagi, dahil sa maraming kaso, ang doktor ay maaaring hindi alam kung bakit siya nakabuo ng partikular na diagnosis. Minsan ang solusyon ay basta na lang lumilitaw sa kanyang isipan nang walang malinaw na pag-iisip. Ang ilang mga gawain, tulad ng pagtukoy sa edad ng isang tao mula sa larawan, ay hindi maaaring bawasan sa simpleng pagmamanipula ng kaalaman.
+Ang diskarteng ito ay lubos na nakasalalay sa **knowledge representation** at **reasoning**. Ang pagkuha ng kaalaman mula sa isang dalubhasang tao ay maaaring ang pinakamahirap na bahagi, dahil sa maraming kaso, ang doktor ay hindi alam kung bakit siya nakabuo ng partikular na diagnosis. Minsan ang solusyon ay bigla na lang lumilitaw sa kanyang isipan nang walang malinaw na pag-iisip. Ang ilang mga gawain, tulad ng pagtukoy sa edad ng isang tao mula sa larawan, ay hindi maaaring bawasan sa simpleng pagmamanipula ng kaalaman.
 
 ### Diskarteng Bottom-Up
 
-Sa kabilang banda, maaari nating subukang i-modelo ang pinakasimpleng elemento sa loob ng ating utak – ang neuron. Maaari tayong bumuo ng tinatawag na **artificial neural network** sa loob ng computer, at pagkatapos ay subukang turuan ito na lutasin ang mga problema sa pamamagitan ng pagbibigay ng mga halimbawa. Ang prosesong ito ay katulad ng kung paano natututo ang isang bagong silang na sanggol tungkol sa kanyang paligid sa pamamagitan ng pagmamasid.
+Sa kabilang banda, maaari nating subukang i-modelo ang pinakasimpleng elemento sa loob ng ating utak – ang neuron. Maaari tayong bumuo ng tinatawag na **artificial neural network** sa loob ng computer, at pagkatapos ay subukang turuan ito na lutasin ang mga problema sa pamamagitan ng pagbibigay ng mga halimbawa. Ang prosesong ito ay katulad ng kung paano natututo ang isang bagong silang na bata tungkol sa kanyang paligid sa pamamagitan ng pagmamasid.
 
 ✅ Mag-research ng kaunti kung paano natututo ang mga sanggol. Ano ang mga pangunahing elemento ng utak ng sanggol?
 
@@ -102,34 +102,34 @@ Sa kabilang banda, maaari nating subukang i-modelo ang pinakasimpleng elemento s
 
 ## Maikling Kasaysayan ng AI
 
-Ang Artificial Intelligence ay nagsimula bilang isang larangan noong kalagitnaan ng ika-20 siglo. Sa simula, ang symbolic reasoning ay ang nangingibabaw na diskarte, at nagresulta ito sa ilang mahahalagang tagumpay, tulad ng mga expert systems – mga computer program na kayang kumilos bilang eksperto sa ilang limitadong larangan ng problema. Gayunpaman, kalaunan ay naging malinaw na ang ganitong diskarte ay hindi mahusay sa pag-scale. Ang pagkuha ng kaalaman mula sa isang eksperto, pagre-representa nito sa computer, at pagpapanatili ng kaalaman na tumpak ay naging napakakomplikado at masyadong mahal upang maging praktikal sa maraming kaso. Ito ang nagresulta sa tinatawag na [AI Winter](https://en.wikipedia.org/wiki/AI_winter) noong dekada 1970.
+Ang Artificial Intelligence ay nagsimula bilang isang larangan noong kalagitnaan ng ika-20 siglo. Sa simula, ang symbolic reasoning ay isang pangunahing diskarte, at nagresulta ito sa ilang mahahalagang tagumpay, tulad ng mga expert systems – mga programang computer na kayang kumilos bilang eksperto sa ilang limitadong larangan ng problema. Gayunpaman, kalaunan ay naging malinaw na ang ganitong diskarte ay hindi madaling ma-scale. Ang pagkuha ng kaalaman mula sa isang eksperto, pagrepresenta nito sa computer, at pagpapanatili ng kaalaman na tumpak ay naging napakakomplikado at masyadong mahal upang maging praktikal sa maraming kaso. Ito ang nagdulot ng tinatawag na [AI Winter](https://en.wikipedia.org/wiki/AI_winter) noong dekada 1970.
 
-<img alt="Maikling Kasaysayan ng AI" src="images/history-of-ai.png" width="70%"/>
+<img alt="Maikling Kasaysayan ng AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.tl.png" width="70%"/>
 
 > Larawan ni [Dmitry Soshnikov](http://soshnikov.com)
 
-Habang lumilipas ang panahon, naging mas mura ang mga computing resources, at mas maraming data ang naging available, kaya't ang mga diskarte sa neural network ay nagsimulang magpakita ng mahusay na pagganap sa pakikipagkumpitensya sa mga tao sa maraming larangan, tulad ng computer vision o pag-unawa sa pagsasalita. Sa nakaraang dekada, ang terminong Artificial Intelligence ay kadalasang ginagamit bilang kasingkahulugan ng Neural Networks, dahil karamihan sa mga tagumpay ng AI na naririnig natin ay batay dito.
+Habang lumilipas ang panahon, ang mga mapagkukunan ng computing ay naging mas mura, at mas maraming data ang naging magagamit, kaya't ang mga diskarte sa neural network ay nagsimulang magpakita ng mahusay na pagganap sa pakikipagkumpitensya sa mga tao sa maraming larangan, tulad ng computer vision o pag-unawa sa pagsasalita. Sa nakaraang dekada, ang terminong Artificial Intelligence ay kadalasang ginagamit bilang kasingkahulugan ng Neural Networks, dahil karamihan sa mga tagumpay ng AI na naririnig natin ay batay dito.
 
-Makikita natin kung paano nagbago ang mga diskarte, halimbawa, sa paglikha ng chess-playing computer program:
+Makikita natin kung paano nagbago ang mga diskarte, halimbawa, sa paglikha ng programang computer na naglalaro ng chess:
 
-* Ang mga maagang chess program ay batay sa search – sinusubukan ng programa na tantyahin ang mga posibleng galaw ng kalaban para sa isang tiyak na bilang ng susunod na mga galaw, at pinipili ang pinakamainam na galaw batay sa pinakamainam na posisyon na maaaring makamit sa ilang galaw. Nagresulta ito sa pagbuo ng tinatawag na [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
-* Ang mga search strategy ay mahusay sa pagtatapos ng laro, kung saan ang search space ay limitado sa maliit na bilang ng mga posibleng galaw. Gayunpaman, sa simula ng laro, ang search space ay napakalaki, at ang algorithm ay maaaring mapabuti sa pamamagitan ng pag-aaral mula sa mga umiiral na laban sa pagitan ng mga manlalaro ng tao. Ang mga kasunod na eksperimento ay gumamit ng tinatawag na [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), kung saan ang programa ay naghahanap ng mga kaso sa knowledge base na napakalapit sa kasalukuyang posisyon sa laro.
-* Ang mga modernong programa na nananalo laban sa mga manlalaro ng tao ay batay sa neural networks at [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), kung saan natututo ang mga programa na maglaro sa pamamagitan lamang ng paglalaro ng mahabang panahon laban sa kanilang sarili at pag-aaral mula sa kanilang sariling mga pagkakamali – tulad ng ginagawa ng tao kapag natututo maglaro ng chess. Gayunpaman, ang isang computer program ay maaaring maglaro ng mas maraming laro sa mas maikling panahon, kaya't mas mabilis itong natututo.
+* Ang mga maagang programa sa chess ay batay sa paghahanap – ang programa ay tahasang sinusubukang tantyahin ang mga posibleng galaw ng kalaban para sa isang tiyak na bilang ng mga susunod na galaw, at pinipili ang pinakamainam na galaw batay sa pinakamainam na posisyon na maaaring makamit sa ilang galaw. Nagresulta ito sa pagbuo ng tinatawag na [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) search algorithm.
+* Ang mga diskarte sa paghahanap ay mahusay na gumagana sa pagtatapos ng laro, kung saan ang search space ay limitado sa maliit na bilang ng mga posibleng galaw. Gayunpaman, sa simula ng laro, ang search space ay napakalaki, at ang algorithm ay maaaring mapabuti sa pamamagitan ng pag-aaral mula sa mga umiiral na laban sa pagitan ng mga manlalaro ng tao. Ang mga kasunod na eksperimento ay gumamit ng tinatawag na [case-based reasoning](https://en.wikipedia.org/wiki/Case-based_reasoning), kung saan ang programa ay naghahanap ng mga kaso sa knowledge base na napakalapit sa kasalukuyang posisyon sa laro.
+* Ang mga modernong programa na nananalo laban sa mga manlalaro ng tao ay batay sa neural networks at [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning), kung saan ang mga programa ay natututo maglaro sa pamamagitan lamang ng paglalaro ng mahabang panahon laban sa kanilang sarili at pag-aaral mula sa kanilang sariling mga pagkakamali – tulad ng ginagawa ng mga tao kapag natututo maglaro ng chess. Gayunpaman, ang isang programang computer ay maaaring maglaro ng mas maraming laro sa mas maikling panahon, kaya't mas mabilis itong natututo.
 
 ✅ Mag-research ng kaunti tungkol sa iba pang mga laro na nilalaro ng AI.
 
-Katulad nito, makikita natin kung paano nagbago ang diskarte sa paglikha ng “talking programs” (na maaaring pumasa sa Turing test):
+Katulad nito, makikita natin kung paano nagbago ang diskarte sa paglikha ng “mga programang nagsasalita” (na maaaring pumasa sa Turing test):
 
 * Ang mga maagang programa ng ganitong uri tulad ng [Eliza](https://en.wikipedia.org/wiki/ELIZA), ay batay sa napakasimpleng mga panuntunan sa gramatika at ang muling pagbuo ng input na pangungusap sa isang tanong.
-* Ang mga modernong assistant, tulad ng Cortana, Siri o Google Assistant ay lahat hybrid systems na gumagamit ng Neural networks upang i-convert ang pagsasalita sa teksto at kilalanin ang ating layunin, at pagkatapos ay gumamit ng ilang pangangatwiran o malinaw na mga algorithm upang maisagawa ang kinakailangang mga aksyon.
-* Sa hinaharap, maaari nating asahan ang isang kumpletong neural-based na modelo upang pamahalaan ang dialogue nang mag-isa. Ang kamakailang GPT at [Turing-NLG](https://turing.microsoft.com/) na pamilya ng neural networks ay nagpapakita ng mahusay na tagumpay sa larangang ito.
+* Ang mga modernong assistant, tulad ng Cortana, Siri o Google Assistant ay lahat ng hybrid systems na gumagamit ng Neural networks upang i-convert ang pagsasalita sa teksto at kilalanin ang ating layunin, at pagkatapos ay gumamit ng ilang pangangatwiran o tahasang mga algorithm upang maisagawa ang kinakailangang mga aksyon.
+* Sa hinaharap, maaari nating asahan ang isang kumpletong neural-based na modelo upang pamahalaan ang pag-uusap nang mag-isa. Ang kamakailang GPT at [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) na pamilya ng neural networks ay nagpapakita ng mahusay na tagumpay sa larangang ito.
 
-<img alt="ebolusyon ng Turing test" src="images/turing-test-evol.png" width="70%"/>
+<img alt="ebolusyon ng Turing test" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.tl.png" width="70%"/>
 > Larawan ni Dmitry Soshnikov, [larawan](https://unsplash.com/photos/r8LmVbUKgns) ni [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Kamakailang Pananaliksik sa AI
 
-Ang malaking pag-usbong ng pananaliksik sa neural network ay nagsimula noong 2010, nang ang malalaking pampublikong dataset ay naging available. Isang malaking koleksyon ng mga larawan na tinatawag na [ImageNet](https://en.wikipedia.org/wiki/ImageNet), na naglalaman ng humigit-kumulang 14 milyong annotated na mga larawan, ang nagbigay-daan sa [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
+Ang malaking pag-usbong ng pananaliksik sa neural network ay nagsimula noong 2010, nang ang malalaking pampublikong dataset ay nagsimulang maging available. Isang malaking koleksyon ng mga larawan na tinatawag na [ImageNet](https://en.wikipedia.org/wiki/ImageNet), na naglalaman ng humigit-kumulang 14 milyong annotated na mga larawan, ang nagbigay-daan sa [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
 
 ![ILSVRC Accuracy](../../../../lessons/1-Intro/images/ilsvrc.gif)
 
@@ -152,7 +152,7 @@ Sa nakalipas na ilang taon, nasaksihan natin ang malalaking tagumpay sa malalaki
 
 ## 🚀 Hamon
 
-Maglibot sa internet upang tukuyin, sa iyong opinyon, kung saan pinaka-epektibong ginagamit ang AI. Ito ba ay sa isang Mapping app, o sa isang speech-to-text service, o sa isang video game? Saliksikin kung paano binuo ang sistema.
+Maglibot sa internet upang tukuyin kung saan, sa iyong opinyon, pinaka-epektibong ginagamit ang AI. Ito ba ay sa isang Mapping app, o sa isang speech-to-text service, o sa isang video game? Saliksikin kung paano binuo ang sistema.
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
@@ -164,3 +164,5 @@ Balikan ang kasaysayan ng AI at ML sa pamamagitan ng pagbabasa ng [araling ito](
 
 ---
 
+**Paunawa**:  
+Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, mangyaring tandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang katutubong wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na dulot ng paggamit ng pagsasaling ito.

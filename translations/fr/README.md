@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2c8099af824bae942ca6ea7e53284770",
-  "translation_date": "2025-09-07T13:23:09+00:00",
+  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
+  "translation_date": "2025-10-03T07:20:49+00:00",
   "source_file": "README.md",
   "language_code": "fr"
 }
@@ -23,19 +23,19 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Intelligence Artificielle pour Débutants - Un Programme
 
-|![Sketchnote par @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.fr.png)|  
+|![Illustration par @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.fr.png)|  
 |:---:|  
-| AI Pour Débutants - _Sketchnote par [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+| AI pour Débutants - _Illustration par [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Explorez le monde de l'**Intelligence Artificielle** (IA) avec notre programme de 12 semaines et 24 leçons ! Il inclut des leçons pratiques, des quiz et des laboratoires. Ce programme est adapté aux débutants et couvre des outils comme TensorFlow et PyTorch, ainsi que des questions d'éthique en IA.  
+Explorez le monde de l'**Intelligence Artificielle** (IA) avec notre programme de 12 semaines et 24 leçons ! Il inclut des cours pratiques, des quiz et des laboratoires. Ce programme est adapté aux débutants et couvre des outils comme TensorFlow et PyTorch, ainsi que des questions d'éthique en IA.  
 
-### 🌐 Support Multilingue  
+### 🌐 Support Multilingue
 
-#### Supporté via GitHub Action (Automatisé et Toujours à Jour)  
+#### Pris en charge via GitHub Action (Automatisé et Toujours à Jour)
 
 [Français](./README.md) | [Espagnol](../es/README.md) | [Allemand](../de/README.md) | [Russe](../ru/README.md) | [Arabe](../ar/README.md) | [Persan (Farsi)](../fa/README.md) | [Ourdou](../ur/README.md) | [Chinois (Simplifié)](../zh/README.md) | [Chinois (Traditionnel, Macao)](../mo/README.md) | [Chinois (Traditionnel, Hong Kong)](../hk/README.md) | [Chinois (Traditionnel, Taïwan)](../tw/README.md) | [Japonais](../ja/README.md) | [Coréen](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Népalais](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugais (Portugal)](../pt/README.md) | [Portugais (Brésil)](../br/README.md) | [Italien](../it/README.md) | [Polonais](../pl/README.md) | [Turc](../tr/README.md) | [Grec](../el/README.md) | [Thaï](../th/README.md) | [Suédois](../sv/README.md) | [Danois](../da/README.md) | [Norvégien](../no/README.md) | [Finnois](../fi/README.md) | [Néerlandais](../nl/README.md) | [Hébreu](../he/README.md) | [Vietnamien](../vi/README.md) | [Indonésien](../id/README.md) | [Malais](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hongrois](../hu/README.md) | [Tchèque](../cs/README.md) | [Slovaque](../sk/README.md) | [Roumain](../ro/README.md) | [Bulgare](../bg/README.md) | [Serbe (Cyrillique)](../sr/README.md) | [Croate](../hr/README.md) | [Slovène](../sl/README.md) | [Ukrainien](../uk/README.md) | [Birman (Myanmar)](../my/README.md)  
 
-**Si vous souhaitez ajouter des langues supplémentaires, les langues supportées sont listées [ici](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**Si vous souhaitez ajouter des langues supplémentaires, les langues prises en charge sont listées [ici](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
 
 ## Rejoignez la Communauté  
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
@@ -46,9 +46,9 @@ Explorez le monde de l'**Intelligence Artificielle** (IA) avec notre programme d
 
 Dans ce programme, vous apprendrez :  
 
-* Différentes approches de l'Intelligence Artificielle, y compris l'approche symbolique "classique" avec la **Représentation des Connaissances** et le raisonnement ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* Les **Réseaux Neuronaux** et l'**Apprentissage Profond**, qui sont au cœur de l'IA moderne. Nous illustrerons les concepts derrière ces sujets importants avec du code dans deux des frameworks les plus populaires - [TensorFlow](http://Tensorflow.org) et [PyTorch](http://pytorch.org).  
-* Les **Architectures Neuronales** pour travailler avec les images et le texte. Nous couvrirons des modèles récents, mais il se peut que nous ne soyons pas totalement à jour avec les dernières avancées.  
+* Différentes approches de l'Intelligence Artificielle, y compris l'approche symbolique classique avec la **Représentation des Connaissances** et le raisonnement ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* Les **Réseaux Neuronaux** et le **Deep Learning**, qui sont au cœur de l'IA moderne. Nous illustrerons les concepts derrière ces sujets importants avec du code dans deux des frameworks les plus populaires - [TensorFlow](http://Tensorflow.org) et [PyTorch](http://pytorch.org).  
+* Les **Architectures Neuronales** pour travailler avec les images et les textes. Nous couvrirons des modèles récents, mais il se peut que nous ne soyons pas totalement à jour avec les dernières avancées.  
 * Des approches moins populaires de l'IA, comme les **Algorithmes Génétiques** et les **Systèmes Multi-Agents**.  
 
 Ce que nous ne couvrirons pas dans ce programme :  
@@ -56,11 +56,11 @@ Ce que nous ne couvrirons pas dans ce programme :
 > [Retrouvez toutes les ressources supplémentaires pour ce cours dans notre collection Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
 * Les cas d'utilisation de l'**IA en Entreprise**. Pensez à suivre le parcours d'apprentissage [Introduction à l'IA pour les utilisateurs professionnels](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) sur Microsoft Learn, ou [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), développé en collaboration avec [INSEAD](https://www.insead.edu/).  
-* L'**Apprentissage Automatique Classique**, qui est bien décrit dans notre programme [Machine Learning pour Débutants](http://github.com/Microsoft/ML-for-Beginners).  
-* Les applications pratiques de l'IA construites avec **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Pour cela, nous vous recommandons de commencer par les modules Microsoft Learn pour [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [traitement du langage naturel](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[IA Générative avec Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** et autres.  
-* Les **Frameworks Cloud ML** spécifiques, comme [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), ou [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Pensez à utiliser les parcours d'apprentissage [Créer et exploiter des solutions d'apprentissage automatique avec Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) et [Créer et exploiter des solutions d'apprentissage automatique avec Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* Le **Machine Learning Classique**, qui est bien décrit dans notre [Programme Machine Learning pour Débutants](http://github.com/Microsoft/ML-for-Beginners).  
+* Les applications pratiques d'IA construites avec **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Pour cela, nous vous recommandons de commencer par les modules Microsoft Learn pour [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [traitement du langage naturel](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[IA Générative avec Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** et autres.  
+* Les **Frameworks Cloud ML** spécifiques, comme [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), ou [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Pensez à utiliser les parcours d'apprentissage [Créer et exploiter des solutions de machine learning avec Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) et [Créer et exploiter des solutions de machine learning avec Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
 * L'**IA Conversationnelle** et les **Chat Bots**. Il existe un parcours d'apprentissage séparé [Créer des solutions d'IA conversationnelle](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), et vous pouvez également consulter [cet article de blog](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) pour plus de détails.  
-* Les **Mathématiques Approfondies** derrière l'apprentissage profond. Pour cela, nous vous recommandons [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) par Ian Goodfellow, Yoshua Bengio et Aaron Courville, également disponible en ligne à [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Les **Mathématiques Approfondies** derrière le deep learning. Pour cela, nous recommandons [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) par Ian Goodfellow, Yoshua Bengio et Aaron Courville, également disponible en ligne à [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
 Pour une introduction douce aux sujets _IA dans le Cloud_, vous pouvez envisager de suivre le parcours d'apprentissage [Commencer avec l'intelligence artificielle sur Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
@@ -82,13 +82,13 @@ Pour une introduction douce aux sujets _IA dans le Cloud_, vous pouvez envisager
 | 07  |            [Réseaux neuronaux convolutionnels](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Architectures CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
 | 08  |            [Réseaux pré-entraînés et apprentissage par transfert](./lessons/4-ComputerVision/08-TransferLearning/README.md) et [Astuces d'entraînement](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoencodeurs et VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Réseaux antagonistes génératifs et transfert de style artistique](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 10  |            [Réseaux antagonistes génératifs & transfert de style artistique](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Détection d'objets](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Segmentation sémantique. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Traitement du langage naturel**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Explorer le traitement du langage naturel sur Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
 | 13  |            [Représentation de texte. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
 | 14  |            [Embeddings sémantiques de mots. Word2Vec et GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Modélisation de langage. Entraînez vos propres embeddings](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 15  |            [Modélisation de langage. Entraîner vos propres embeddings](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Réseaux neuronaux récurrents](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
 | 17  |            [Réseaux récurrents génératifs](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
@@ -99,15 +99,15 @@ Pour une introduction douce aux sujets _IA dans le Cloud_, vous pouvez envisager
 | 22  |            [Apprentissage par renforcement profond](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
 | 23  |            [Systèmes multi-agents](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **Éthique de l'IA** | | |
-| 24  |            [Éthique de l'IA et IA responsable](./lessons/7-Ethics/README.md)             |           [Microsoft Learn : Principes d'IA responsable](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| 24  |            [Éthique de l'IA et IA responsable](./lessons/7-Ethics/README.md)             |           [Microsoft Learn : Principes de l'IA responsable](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Extras** | | |
 | 25  |            [Réseaux multi-modaux, CLIP et VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
 ## Chaque leçon contient
 
 * Du matériel de pré-lecture
-* Des notebooks Jupyter exécutables, souvent spécifiques au framework (**PyTorch** ou **TensorFlow**). Le notebook exécutable contient également beaucoup de contenu théorique, donc pour comprendre le sujet, vous devez parcourir au moins une version du notebook (PyTorch ou TensorFlow).
-* **Labs** disponibles pour certains sujets, qui vous donnent l'opportunité d'appliquer le contenu appris à un problème spécifique.
+* Des notebooks Jupyter exécutables, souvent spécifiques au framework (**PyTorch** ou **TensorFlow**). Le notebook exécutable contient également beaucoup de contenu théorique, donc pour comprendre le sujet, il est nécessaire de parcourir au moins une version du notebook (PyTorch ou TensorFlow).
+* **Labs** disponibles pour certains sujets, qui vous permettent d'appliquer les connaissances acquises à un problème spécifique.
 * Certaines sections contiennent des liens vers des modules [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) qui couvrent des sujets connexes.
 
 ## Pour commencer
@@ -125,12 +125,13 @@ N'oubliez pas d'ajouter une étoile (🌟) à ce dépôt pour le retrouver plus 
 
 ## Rencontrez d'autres apprenants
 
-Rejoignez notre [serveur Discord officiel sur l'IA](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) pour rencontrer et réseauter avec d'autres apprenants suivant ce cours et obtenir du soutien.
+Rejoignez notre [serveur Discord officiel sur l'IA](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) pour rencontrer et échanger avec d'autres apprenants suivant ce cours et obtenir du soutien.
 
-Si vous avez des retours sur le produit ou des questions pendant la construction, visitez notre [forum des développeurs Azure AI Foundry](https://aka.ms/foundry/forum)
+Si vous avez des retours sur le produit ou des questions pendant votre apprentissage, visitez notre [forum des développeurs Azure AI Foundry](https://aka.ms/foundry/forum)
 
-## Quiz
-> **Une note sur les quiz** : Tous les quiz se trouvent dans le dossier Quiz-app dans etc\quiz-app, ou [En ligne ici](https://ff-quizzes.netlify.app/). Ils sont liés depuis les leçons. L'application de quiz peut être exécutée localement ou déployée sur Azure ; suivez les instructions dans le dossier `quiz-app`. Ils sont progressivement localisés.
+## Quiz 
+> **Une note sur les quiz** : Tous les quiz se trouvent dans le dossier Quiz-app situé dans etc\quiz-app, ou [En ligne ici](https://ff-quizzes.netlify.app/). Ils sont liés aux leçons, et l'application de quiz peut être exécutée localement ou déployée sur Azure ; suivez les instructions dans le dossier `quiz-app`. Ils sont progressivement localisés.
+
 ## Besoin d'aide
 
 Vous avez des suggestions ou avez trouvé des erreurs de code ou d'orthographe ? Ouvrez une issue ou créez une pull request.
@@ -145,7 +146,7 @@ Vous avez des suggestions ou avez trouvé des erreurs de code ou d'orthographe ?
 
 ## Autres programmes
 
-Notre équipe produit d'autres programmes ! Découvrez :
+Notre équipe produit d'autres programmes éducatifs ! Découvrez :
 
 - [IA générative pour débutants](https://aka.ms/genai-beginners)  
 - [IA générative pour débutants .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
@@ -160,9 +161,19 @@ Notre équipe produit d'autres programmes ! Découvrez :
 - [Développement XR pour débutants](https://github.com/microsoft/xr-development-for-beginners)  
 - [Maîtriser GitHub Copilot pour une utilisation agentique](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
 - [Maîtriser GitHub Copilot pour les développeurs C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
-- [Choisissez votre propre aventure avec Copilot](https://github.com/microsoft/CopilotAdventures)  
+- [Choisissez votre propre aventure Copilot](https://github.com/microsoft/CopilotAdventures)  
+
+## Obtenir de l'aide
+
+Si vous êtes bloqué ou avez des questions sur la création d'applications d'IA, rejoignez :
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Si vous avez des retours sur les produits ou rencontrez des erreurs lors de la création, visitez :
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 **Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de faire appel à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
