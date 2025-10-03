@@ -1,48 +1,48 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:33:34+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:49:48+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "no"
 }
 -->
-# Introduksjon til Nevrale Nettverk
+# Introduksjon til nevrale nettverk
 
-![Oppsummering av innholdet i Intro Neural Networks i en skisse](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.no.png)
+![Oppsummering av innholdet i Intro Neural Networks i en tegning](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.no.png)
 
-Som vi diskuterte i introduksjonen, er en av måtene å oppnå intelligens på å trene en **datamodell** eller en **kunstig hjerne**. Siden midten av det 20. århundre har forskere prøvd ulike matematiske modeller, og i de senere år har denne retningen vist seg å være svært vellykket. Slike matematiske modeller av hjernen kalles **nevrale nettverk**.
+Som vi diskuterte i introduksjonen, er en av måtene å oppnå intelligens på å trene en **datamodell** eller en **kunstig hjerne**. Siden midten av 1900-tallet har forskere prøvd ulike matematiske modeller, og i de senere år har denne retningen vist seg å være svært vellykket. Slike matematiske modeller av hjernen kalles **nevrale nettverk**.
 
-> Noen ganger kalles nevrale nettverk *Artificial Neural Networks*, ANNs, for å indikere at vi snakker om modeller, ikke ekte nettverk av nevroner.
+> Noen ganger kalles nevrale nettverk for *Artificial Neural Networks*, ANNs, for å indikere at vi snakker om modeller, ikke ekte nettverk av nevroner.
 
 ## Maskinlæring
 
-Nevrale nettverk er en del av en større disiplin kalt **Maskinlæring**, som har som mål å bruke data til å trene datamodeller som kan løse problemer. Maskinlæring utgjør en stor del av Kunstig Intelligens, men vi dekker ikke klassisk ML i dette pensumet.
+Nevrale nettverk er en del av en større disiplin kalt **maskinlæring**, som har som mål å bruke data til å trene datamodeller som kan løse problemer. Maskinlæring utgjør en stor del av kunstig intelligens, men vi dekker ikke klassisk maskinlæring i dette pensumet.
 
 > Besøk vårt separate **[Maskinlæring for nybegynnere](http://github.com/microsoft/ml-for-beginners)** pensum for å lære mer om klassisk maskinlæring.
 
-I maskinlæring antar vi at vi har et datasett med eksempler **X**, og tilsvarende utgangsverdier **Y**. Eksempler er ofte N-dimensjonale vektorer som består av **egenskaper**, og utgangsverdiene kalles **etiketter**.
+I maskinlæring antar vi at vi har et datasett med eksempler **X**, og tilsvarende utgangsverdier **Y**. Eksempler er ofte N-dimensjonale vektorer som består av **funksjoner**, og utganger kalles **etiketter**.
 
 Vi vil se på de to vanligste problemene innen maskinlæring:
 
-* **Klassifisering**, der vi må klassifisere et innobjekt i to eller flere klasser.
-* **Regresjon**, der vi må forutsi et numerisk tall for hver av inngangsprøvene.
+* **Klassifisering**, der vi må klassifisere et inngangsobjekt i to eller flere klasser.
+* **Regresjon**, der vi må forutsi en numerisk verdi for hver av inngangsprøvene.
 
-> Når vi representerer innganger og utganger som tensorer, er inngangsdataene en matrise av størrelse M×N, der M er antall prøver og N er antall egenskaper. Utgangsetiketter Y er en vektor av størrelse M.
+> Når vi representerer innganger og utganger som tensorer, er inngangsdataene en matrise av størrelse M&times;N, der M er antall prøver og N er antall funksjoner. Utgangsetiketter Y er en vektor av størrelse M.
 
 I dette pensumet vil vi kun fokusere på modeller for nevrale nettverk.
 
 ## En modell av et nevron
 
-Fra biologien vet vi at hjernen vår består av nerveceller, hver av dem har flere "innganger" (aksoner) og en utgang (dendritt). Aksoner og dendritter kan lede elektriske signaler, og forbindelser mellom aksoner og dendritter kan ha ulike grader av ledningsevne (styrt av nevromediatorer).
+Fra biologien vet vi at hjernen vår består av nerveceller (nevroner), som hver har flere "innganger" (dendritter) og en enkelt "utgang" (akson). Både dendritter og aksoner kan lede elektriske signaler, og forbindelsene mellom dem — kjent som synapser — kan ha varierende grad av ledningsevne, som reguleres av nevrotransmittere.
 
 ![Modell av et nevron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.no.jpg) | ![Modell av et nevron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.no.png)
 ----|----
-Ekte nevron *([Bilde](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) fra Wikipedia)* | Kunstig nevron *(Bilde av forfatter)*
+Ekte nevron *([Bilde](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) fra Wikipedia)* | Kunstig nevron *(Bilde av forfatteren)*
 
 Dermed inneholder den enkleste matematiske modellen av et nevron flere innganger X<sub>1</sub>, ..., X<sub>N</sub> og en utgang Y, samt en serie vekter W<sub>1</sub>, ..., W<sub>N</sub>. En utgang beregnes som:
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.no.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 der f er en ikke-lineær **aktiveringsfunksjon**.
 
@@ -59,4 +59,4 @@ I denne seksjonen skal vi lære om:
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi streber etter nøyaktighet, vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for eventuelle misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.
+Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi tilstreber nøyaktighet, vennligst vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på dets opprinnelige språk bør betraktes som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for eventuelle misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.

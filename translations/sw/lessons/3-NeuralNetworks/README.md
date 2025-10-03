@@ -1,62 +1,62 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:35:23+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:51:53+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "sw"
 }
 -->
-# Utangulizi wa Mitandao ya Neural
+# Utangulizi wa Mitandao ya Neva
 
-![Muhtasari wa maudhui ya Utangulizi wa Mitandao ya Neural katika mchoro](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sw.png)
+![Muhtasari wa maudhui ya Utangulizi wa Mitandao ya Neva katika mchoro](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sw.png)
 
-Kama tulivyojadili katika utangulizi, mojawapo ya njia za kufanikisha akili ni kufundisha **mfano wa kompyuta** au **ubongo wa bandia**. Tangu katikati ya karne ya 20, watafiti walijaribu mifano mbalimbali ya kihesabu, hadi miaka ya hivi karibuni ambapo mwelekeo huu ulithibitisha kuwa na mafanikio makubwa. Mifano hii ya kihesabu ya ubongo inaitwa **mitandao ya neural**.
+Kama tulivyojadili katika utangulizi, mojawapo ya njia za kufanikisha akili ni kufundisha **mfano wa kompyuta** au **ubongo bandia**. Tangu katikati ya karne ya 20, watafiti walijaribu mifano mbalimbali ya kihisabati, hadi miaka ya hivi karibuni ambapo mwelekeo huu ulionekana kufanikiwa sana. Mifano hii ya kihisabati ya ubongo inaitwa **mitandao ya neva**.
 
-> Wakati mwingine mitandao ya neural huitwa *Mitandao ya Neural ya Bandia*, ANNs, ili kuonyesha kwamba tunazungumzia mifano, si mitandao halisi ya neurons.
+> Wakati mwingine mitandao ya neva huitwa *Mitandao ya Neva Bandia*, ANNs, ili kuonyesha kuwa tunazungumzia mifano, si mitandao halisi ya neva.
 
 ## Kujifunza kwa Mashine
 
-Mitandao ya Neural ni sehemu ya taaluma kubwa inayoitwa **Kujifunza kwa Mashine**, ambayo lengo lake ni kutumia data kufundisha mifano ya kompyuta inayoweza kutatua matatizo. Kujifunza kwa Mashine ni sehemu kubwa ya Akili Bandia, hata hivyo, hatutashughulikia ML ya kawaida katika mtaala huu.
+Mitandao ya Neva ni sehemu ya taaluma kubwa inayoitwa **Kujifunza kwa Mashine**, ambayo inalenga kutumia data kufundisha mifano ya kompyuta inayoweza kutatua matatizo. Kujifunza kwa Mashine ni sehemu kubwa ya Akili Bandia, hata hivyo, hatutashughulikia Kujifunza kwa Mashine kwa njia ya kawaida katika mtaala huu.
 
-> Tembelea mtaala wetu tofauti wa **[Kujifunza kwa Mashine kwa Kompyuta za Kuanza](http://github.com/microsoft/ml-for-beginners)** ili kujifunza zaidi kuhusu Kujifunza kwa Mashine ya kawaida.
+> Tembelea mtaala wetu tofauti wa **[Kujifunza kwa Mashine kwa Kompyuta za Kuanza](http://github.com/microsoft/ml-for-beginners)** ili kujifunza zaidi kuhusu Kujifunza kwa Mashine kwa njia ya kawaida.
 
-Katika Kujifunza kwa Mashine, tunadhani kwamba tuna seti ya data ya mifano **X**, na thamani za matokeo zinazolingana **Y**. Mifano mara nyingi ni vekta za N-dimensional zinazojumuisha **vipengele**, na matokeo huitwa **lebo**.
+Katika Kujifunza kwa Mashine, tunadhani kuwa tuna seti fulani ya data ya mifano **X**, na thamani za matokeo zinazolingana **Y**. Mifano mara nyingi ni vekta za N-dimensional zinazojumuisha **vipengele**, na matokeo huitwa **lebo**.
 
 Tutazingatia matatizo mawili ya kawaida ya kujifunza kwa mashine:
 
-* **Uainishaji**, ambapo tunahitaji kuainisha kitu cha pembejeo katika darasa mbili au zaidi.
-* **Urejeshaji**, ambapo tunahitaji kutabiri namba ya nambari kwa kila sampuli ya pembejeo.
+* **Uainishaji**, ambapo tunahitaji kuainisha kitu cha ingizo katika madarasa mawili au zaidi.
+* **Urejeshaji**, ambapo tunahitaji kutabiri namba ya nambari kwa kila sampuli ya ingizo.
 
-> Wakati wa kuwakilisha pembejeo na matokeo kama tensors, seti ya data ya pembejeo ni matriki ya ukubwa M×N, ambapo M ni idadi ya sampuli na N ni idadi ya vipengele. Lebo za matokeo Y ni vekta ya ukubwa M.
+> Wakati wa kuwakilisha viingizo na matokeo kama tensors, seti ya data ya ingizo ni matriki ya ukubwa M&times;N, ambapo M ni idadi ya sampuli na N ni idadi ya vipengele. Lebo za matokeo Y ni vekta ya ukubwa M.
 
-Katika mtaala huu, tutazingatia tu mifano ya mitandao ya neural.
+Katika mtaala huu, tutazingatia tu mifano ya mitandao ya neva.
 
-## Mfano wa Neuron
+## Mfano wa Neva
 
-Kutoka kwa biolojia tunajua kwamba ubongo wetu unajumuisha seli za neural, kila moja ikiwa na "pembejeo" nyingi (axons), na matokeo (dendrite). Axons na dendrites zinaweza kuendesha ishara za umeme, na miunganisho kati ya axons na dendrites inaweza kuonyesha viwango tofauti vya upitishaji (vinavyodhibitiwa na neuromediators).
+Kutoka kwa biolojia, tunajua kuwa ubongo wetu unajumuisha seli za neva (neuroni), kila moja ikiwa na "viingizo" vingi (dendriti) na "matokeo" moja (aksoni). Dendriti na aksoni zote mbili zinaweza kusafirisha ishara za umeme, na miunganisho kati yao — inayojulikana kama sinapsi — inaweza kuonyesha viwango tofauti vya usafirishaji, ambavyo vinadhibitiwa na nyurotransmita.
 
-![Mfano wa Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sw.jpg) | ![Mfano wa Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sw.png)
+![Mfano wa Neva](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sw.jpg) | ![Mfano wa Neva](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sw.png)
 ----|----
-Neuron Halisi *([Picha](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) kutoka Wikipedia)* | Neuron ya Bandia *(Picha na Mwandishi)*
+Neva Halisi *([Picha](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) kutoka Wikipedia)* | Neva Bandia *(Picha na Mwandishi)*
 
-Kwa hivyo, mfano rahisi wa kihesabu wa neuron una pembejeo kadhaa X<sub>1</sub>, ..., X<sub>N</sub> na matokeo Y, na mfululizo wa uzito W<sub>1</sub>, ..., W<sub>N</sub>. Matokeo yanahesabiwa kama:
+Kwa hivyo, mfano rahisi wa kihisabati wa neva una viingizo kadhaa X<sub>1</sub>, ..., X<sub>N</sub> na matokeo Y, na mfululizo wa uzito W<sub>1</sub>, ..., W<sub>N</sub>. Matokeo huhesabiwa kama:
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sw.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 ambapo f ni **kazi ya uanzishaji** isiyo ya mstari.
 
-> Mifano ya awali ya neuron ilielezewa katika karatasi ya kawaida [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) na Warren McCullock na Walter Pitts mwaka 1943. Donald Hebb katika kitabu chake "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" alipendekeza njia ambazo mitandao hiyo inaweza kufundishwa.
+> Mifano ya awali ya neva ilielezewa katika karatasi ya kihistoria [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf) na Warren McCullock na Walter Pitts mwaka 1943. Donald Hebb katika kitabu chake "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" alipendekeza jinsi mitandao hiyo inaweza kufundishwa.
 
 ## Katika Sehemu Hii
 
 Katika sehemu hii tutajifunza kuhusu:
-* [Perceptron](03-Perceptron/README.md), mojawapo ya mifano ya awali ya mitandao ya neural kwa uainishaji wa darasa mbili
-* [Mitandao ya Tabaka Nyingi](04-OwnFramework/README.md) na daftari lililopangwa [jinsi ya kujenga mfumo wetu wenyewe](04-OwnFramework/OwnFramework.ipynb)
-* [Mifumo ya Mitandao ya Neural](05-Frameworks/README.md), na daftari hizi: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) na [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
-* [Overfitting](../../../../lessons/3-NeuralNetworks/05-Frameworks)
+* [Perceptron](03-Perceptron/README.md), mojawapo ya mifano ya awali ya mitandao ya neva kwa uainishaji wa madarasa mawili
+* [Mitandao ya Tabaka Nyingi](04-OwnFramework/README.md) na daftari lililoambatanishwa [jinsi ya kujenga mfumo wetu wenyewe](04-OwnFramework/OwnFramework.ipynb)
+* [Mifumo ya Mitandao ya Neva](05-Frameworks/README.md), na madaftari haya: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) na [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
+* [Kuzidisha Mafunzo](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutokuelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

@@ -1,19 +1,19 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:37:21+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:54:11+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "sl"
 }
 -->
 # Uvod v nevronske mreže
 
-![Povzetek vsebine o uvodu v nevronske mreže v skici](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sl.png)
+![Povzetek vsebine uvoda v nevronske mreže v skici](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sl.png)
 
-Kot smo že omenili v uvodu, je eden od načinov za dosego inteligence treniranje **računalniškega modela** ali **umetnih možganov**. Od sredine 20. stoletja so raziskovalci preizkušali različne matematične modele, dokler se v zadnjih letih ta smer ni izkazala za izjemno uspešno. Takšni matematični modeli možganov se imenujejo **nevronske mreže**.
+Kot smo razpravljali v uvodu, je eden od načinov za dosego inteligence treniranje **računalniškega modela** ali **umetnih možganov**. Od sredine 20. stoletja so raziskovalci preizkušali različne matematične modele, dokler se v zadnjih letih ta smer ni izkazala za izjemno uspešno. Takšni matematični modeli možganov se imenujejo **nevronske mreže**.
 
-> Včasih se nevronske mreže imenujejo *Umetne nevronske mreže* (Artificial Neural Networks, ANNs), da bi poudarili, da govorimo o modelih, ne o resničnih mrežah nevronov.
+> Včasih se nevronske mreže imenujejo *Umetne nevronske mreže* (Artificial Neural Networks, ANNs), da bi poudarili, da govorimo o modelih, ne o pravih mrežah nevronov.
 
 ## Strojno učenje
 
@@ -21,28 +21,28 @@ Nevronske mreže so del širše discipline, imenovane **Strojno učenje**, kater
 
 > Obiščite naš ločen učni načrt **[Strojno učenje za začetnike](http://github.com/microsoft/ml-for-beginners)**, da se naučite več o klasičnem strojnem učenju.
 
-V strojnem učenju predpostavljamo, da imamo nek nabor podatkov primerov **X** in ustrezne izhodne vrednosti **Y**. Primeri so pogosto N-dimenzionalni vektorji, ki vsebujejo **značilnosti**, medtem ko se izhodi imenujejo **oznake**.
+Pri strojnem učenju predpostavljamo, da imamo nek nabor podatkov primerov **X** in ustrezne izhodne vrednosti **Y**. Primeri so pogosto N-dimenzionalni vektorji, ki vsebujejo **značilnosti**, izhodi pa se imenujejo **oznake**.
 
 Obravnavali bomo dve najpogostejši težavi strojnega učenja:
 
 * **Klasifikacija**, kjer moramo razvrstiti vhodni objekt v dva ali več razredov.
 * **Regresija**, kjer moramo za vsak vhodni vzorec napovedati številčno vrednost.
 
-> Pri predstavljanju vhodov in izhodov kot tenzorjev je vhodni nabor podatkov matrika velikosti M×N, kjer je M število vzorcev, N pa število značilnosti. Izhodne oznake Y so vektor velikosti M.
+> Pri predstavljanju vhodov in izhodov kot tenzorjev je vhodni nabor podatkov matrika velikosti M&times;N, kjer je M število vzorcev, N pa število značilnosti. Izhodne oznake Y so vektor velikosti M.
 
 V tem učnem načrtu se bomo osredotočili le na modele nevronskih mrež.
 
 ## Model nevrona
 
-Iz biologije vemo, da naš možgani sestavljajo nevronske celice, od katerih ima vsaka več "vhodov" (aksonov) in en izhod (dendrit). Aksoni in dendriti lahko prenašajo električne signale, povezave med aksoni in dendriti pa lahko kažejo različne stopnje prevodnosti (ki jih nadzorujejo nevromediatorji).
+Iz biologije vemo, da naši možgani sestojijo iz nevralnih celic (nevronov), od katerih ima vsaka več "vhodov" (dendritov) in en "izhod" (akson). Tako dendriti kot aksoni lahko prenašajo električne signale, povezave med njimi — znane kot sinapse — pa lahko kažejo različne stopnje prevodnosti, ki jih uravnavajo nevrotransmiterji.
 
 ![Model nevrona](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sl.jpg) | ![Model nevrona](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sl.png)
 ----|----
-Resnični nevron *([Slika](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iz Wikipedije)* | Umetni nevron *(Slika avtorja)*
+Pravi nevron *([Slika](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iz Wikipedije)* | Umetni nevron *(Slika avtorja)*
 
 Tako najpreprostejši matematični model nevrona vsebuje več vhodov X<sub>1</sub>, ..., X<sub>N</sub> in en izhod Y ter vrsto uteži W<sub>1</sub>, ..., W<sub>N</sub>. Izhod se izračuna kot:
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kjer je f neka nelinearna **aktivacijska funkcija**.
 
@@ -52,11 +52,11 @@ kjer je f neka nelinearna **aktivacijska funkcija**.
 
 V tem poglavju se bomo naučili o:
 * [Perceptronu](03-Perceptron/README.md), enem najzgodnejših modelov nevronskih mrež za klasifikacijo z dvema razredoma
-* [Večplastnih mrežah](04-OwnFramework/README.md) z ustreznim zvezkom [kako zgraditi svoj okvir](04-OwnFramework/OwnFramework.ipynb)
+* [Večplastnih mrežah](04-OwnFramework/README.md) z dodatnim zvezkom [kako zgraditi svoj okvir](04-OwnFramework/OwnFramework.ipynb)
 * [Okvirih nevronskih mrež](05-Frameworks/README.md), z naslednjimi zvezki: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) in [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
 * [Prenaučenju](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
 ---
 
-**Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
+**Izjava o omejitvi odgovornosti**:  
+Ta dokument je bil preveden z uporabo storitve za strojno prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo strokovno človeško prevajanje. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
