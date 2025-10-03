@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:26:59+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:41:07+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "fr"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ![Résumé du contenu d'introduction aux réseaux neuronaux sous forme de dessin](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.fr.png)
 
-Comme nous l'avons vu dans l'introduction, l'une des façons d'atteindre l'intelligence est d'entraîner un **modèle informatique** ou un **cerveau artificiel**. Depuis le milieu du 20ᵉ siècle, les chercheurs ont expérimenté différents modèles mathématiques, jusqu'à ce que cette approche s'avère extrêmement fructueuse ces dernières années. Ces modèles mathématiques du cerveau sont appelés **réseaux neuronaux**.
+Comme nous l'avons vu dans l'introduction, l'une des façons d'atteindre l'intelligence est d'entraîner un **modèle informatique** ou un **cerveau artificiel**. Depuis le milieu du XXe siècle, les chercheurs ont expérimenté différents modèles mathématiques, jusqu'à ce que cette approche s'avère extrêmement fructueuse ces dernières années. Ces modèles mathématiques du cerveau sont appelés **réseaux neuronaux**.
 
 > Parfois, les réseaux neuronaux sont appelés *Réseaux Neuronaux Artificiels* (ANNs), pour indiquer qu'il s'agit de modèles et non de réseaux réels de neurones.
 
@@ -23,26 +23,26 @@ Les réseaux neuronaux font partie d'une discipline plus large appelée **Appren
 
 En apprentissage automatique, nous supposons que nous disposons d'un ensemble de données d'exemples **X**, et de valeurs de sortie correspondantes **Y**. Les exemples sont souvent des vecteurs N-dimensionnels composés de **caractéristiques**, et les sorties sont appelées **étiquettes**.
 
-Nous examinerons les deux problèmes d'apprentissage automatique les plus courants :
+Nous examinerons les deux problèmes les plus courants en apprentissage automatique :
 
 * **Classification**, où nous devons classer un objet d'entrée dans deux classes ou plus.
-* **Régression**, où nous devons prédire une valeur numérique pour chaque échantillon d'entrée.
+* **Régression**, où nous devons prédire une valeur numérique pour chacun des échantillons d'entrée.
 
-> Lorsqu'on représente les entrées et les sorties sous forme de tenseurs, l'ensemble de données d'entrée est une matrice de taille M×N, où M est le nombre d'échantillons et N est le nombre de caractéristiques. Les étiquettes de sortie **Y** sont un vecteur de taille M.
+> Lorsqu'on représente les entrées et les sorties sous forme de tenseurs, l'ensemble de données d'entrée est une matrice de taille M&times;N, où M est le nombre d'échantillons et N est le nombre de caractéristiques. Les étiquettes de sortie **Y** sont un vecteur de taille M.
 
 Dans ce programme, nous nous concentrerons uniquement sur les modèles de réseaux neuronaux.
 
 ## Un modèle de neurone
 
-En biologie, nous savons que notre cerveau est constitué de cellules neuronales, chacune ayant plusieurs "entrées" (axones) et une sortie (dendrite). Les axones et les dendrites peuvent conduire des signaux électriques, et les connexions entre axones et dendrites peuvent présenter différents degrés de conductivité (contrôlés par des neuromédiateurs).
+En biologie, nous savons que notre cerveau est constitué de cellules neuronales (neurones), chacune ayant plusieurs "entrées" (dendrites) et une seule "sortie" (axone). Les dendrites et les axones peuvent conduire des signaux électriques, et les connexions entre eux — appelées synapses — peuvent présenter des degrés de conductivité variables, régulés par des neurotransmetteurs.
 
 ![Modèle d'un neurone](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.fr.jpg) | ![Modèle d'un neurone](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.fr.png)
 ----|----
 Neurone réel *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) de Wikipédia)* | Neurone artificiel *(Image par l'auteur)*
 
-Ainsi, le modèle mathématique le plus simple d'un neurone contient plusieurs entrées X<sub>1</sub>, ..., X<sub>N</sub> et une sortie Y, ainsi qu'une série de poids W<sub>1</sub>, ..., W<sub>N</sub>. La sortie est calculée comme suit :
+Ainsi, le modèle mathématique le plus simple d'un neurone contient plusieurs entrées X<sub>1</sub>, ..., X<sub>N</sub> et une sortie Y, ainsi qu'une série de poids W<sub>1</sub>, ..., W<sub>N</sub>. Une sortie est calculée comme suit :
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.fr.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 où **f** est une **fonction d'activation** non linéaire.
 
@@ -59,4 +59,4 @@ Dans cette section, nous allons apprendre :
 ---
 
 **Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.

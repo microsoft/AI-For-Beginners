@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:31:39+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:47:05+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "br"
 }
@@ -11,38 +11,38 @@ CO_OP_TRANSLATOR_METADATA:
 
 ![Resumo do conteúdo de Introdução às Redes Neurais em um desenho](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.br.png)
 
-Como discutimos na introdução, uma das formas de alcançar inteligência é treinar um **modelo de computador** ou um **cérebro artificial**. Desde meados do século XX, pesquisadores experimentaram diferentes modelos matemáticos, até que, nos últimos anos, essa abordagem se mostrou extremamente bem-sucedida. Esses modelos matemáticos do cérebro são chamados de **redes neurais**.
+Como discutimos na introdução, uma das formas de alcançar inteligência é treinar um **modelo computacional** ou um **cérebro artificial**. Desde meados do século XX, pesquisadores experimentaram diferentes modelos matemáticos, até que, nos últimos anos, essa abordagem se mostrou extremamente bem-sucedida. Esses modelos matemáticos do cérebro são chamados de **redes neurais**.
 
 > Às vezes, redes neurais são chamadas de *Redes Neurais Artificiais*, ou ANNs, para indicar que estamos falando de modelos, e não de redes reais de neurônios.
 
 ## Aprendizado de Máquina
 
-Redes Neurais fazem parte de uma disciplina maior chamada **Aprendizado de Máquina**, cujo objetivo é usar dados para treinar modelos de computador capazes de resolver problemas. O Aprendizado de Máquina constitui uma grande parte da Inteligência Artificial, no entanto, não abordamos o aprendizado de máquina clássico neste currículo.
+Redes Neurais fazem parte de uma disciplina maior chamada **Aprendizado de Máquina**, cujo objetivo é usar dados para treinar modelos computacionais capazes de resolver problemas. O Aprendizado de Máquina constitui uma grande parte da Inteligência Artificial, porém, não abordamos o aprendizado de máquina clássico neste currículo.
 
 > Visite nosso currículo separado **[Aprendizado de Máquina para Iniciantes](http://github.com/microsoft/ml-for-beginners)** para aprender mais sobre Aprendizado de Máquina clássico.
 
-No Aprendizado de Máquina, assumimos que temos algum conjunto de dados de exemplos **X**, e valores de saída correspondentes **Y**. Os exemplos geralmente são vetores N-dimensionais que consistem em **características**, e as saídas são chamadas de **rótulos**.
+No Aprendizado de Máquina, assumimos que temos algum conjunto de dados de exemplos **X** e valores de saída correspondentes **Y**. Os exemplos geralmente são vetores N-dimensionais que consistem em **características**, e as saídas são chamadas de **rótulos**.
 
 Consideraremos os dois problemas mais comuns de aprendizado de máquina:
 
 * **Classificação**, onde precisamos classificar um objeto de entrada em duas ou mais classes.
-* **Regressão**, onde precisamos prever um valor numérico para cada uma das amostras de entrada.
+* **Regressão**, onde precisamos prever um número numérico para cada uma das amostras de entrada.
 
-> Ao representar entradas e saídas como tensores, o conjunto de dados de entrada é uma matriz de tamanho M×N, onde M é o número de amostras e N é o número de características. Os rótulos de saída Y são o vetor de tamanho M.
+> Ao representar entradas e saídas como tensores, o conjunto de dados de entrada é uma matriz de tamanho M&times;N, onde M é o número de amostras e N é o número de características. Os rótulos de saída Y são o vetor de tamanho M.
 
 Neste currículo, focaremos apenas em modelos de redes neurais.
 
 ## Um Modelo de Neurônio
 
-Na biologia, sabemos que nosso cérebro é composto por células neurais, cada uma delas tendo múltiplas "entradas" (axônios) e uma saída (dendrito). Axônios e dendritos podem conduzir sinais elétricos, e as conexões entre axônios e dendritos podem apresentar diferentes graus de condutividade (controlados por neurotransmissores).
+Na biologia, sabemos que nosso cérebro é composto por células neurais (neurônios), cada uma delas tendo múltiplas "entradas" (dendritos) e uma única "saída" (axônio). Tanto os dendritos quanto os axônios podem conduzir sinais elétricos, e as conexões entre eles — conhecidas como sinapses — podem apresentar diferentes graus de condutividade, que são regulados por neurotransmissores.
 
 ![Modelo de um Neurônio](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.br.jpg) | ![Modelo de um Neurônio](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.br.png)
 ----|----
 Neurônio Real *([Imagem](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) da Wikipedia)* | Neurônio Artificial *(Imagem do Autor)*
 
-Assim, o modelo matemático mais simples de um neurônio contém várias entradas X<sub>1</sub>, ..., X<sub>N</sub> e uma saída Y, além de uma série de pesos W<sub>1</sub>, ..., W<sub>N</sub>. A saída é calculada como:
+Assim, o modelo matemático mais simples de um neurônio contém várias entradas X<sub>1</sub>, ..., X<sub>N</sub> e uma saída Y, e uma série de pesos W<sub>1</sub>, ..., W<sub>N</sub>. A saída é calculada como:
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.br.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 onde f é alguma **função de ativação** não linear.
 
@@ -59,4 +59,4 @@ Nesta seção, aprenderemos sobre:
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.

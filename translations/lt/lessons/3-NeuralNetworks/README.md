@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5abc5f7978919be90cd313f0c20e8228",
-  "translation_date": "2025-09-07T14:38:11+00:00",
+  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+  "translation_date": "2025-10-03T12:55:16+00:00",
   "source_file": "lessons/3-NeuralNetworks/README.md",
   "language_code": "lt"
 }
@@ -11,52 +11,52 @@ CO_OP_TRANSLATOR_METADATA:
 
 ![Santrauka apie neuroninių tinklų įvadą piešinyje](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.lt.png)
 
-Kaip aptarėme įvade, vienas iš būdų pasiekti intelektą yra treniruoti **kompiuterinį modelį** arba **dirbtines smegenis**. Nuo XX a. vidurio mokslininkai bandė įvairius matematinius modelius, kol pastaraisiais metais ši kryptis tapo itin sėkminga. Tokie smegenų matematiniai modeliai vadinami **neuroniniais tinklais**.
+Kaip aptarėme įvade, vienas iš būdų pasiekti intelektą yra treniruoti **kompiuterinį modelį** arba **dirbtinį smegenų modelį**. Nuo XX amžiaus vidurio mokslininkai bandė įvairius matematinius modelius, kol pastaraisiais metais šis metodas pasirodė itin sėkmingas. Tokie smegenų matematiniai modeliai vadinami **neuroniniais tinklais**.
 
-> Kartais neuroniniai tinklai vadinami *Dirbtiniais neuroniniais tinklais* (angl. Artificial Neural Networks, ANNs), siekiant pabrėžti, kad kalbame apie modelius, o ne apie tikrus neuronų tinklus.
+> Kartais neuroniniai tinklai vadinami *Dirbtiniais Neuroniniais Tinklais* (ANN), siekiant pabrėžti, kad kalbame apie modelius, o ne tikrus neuronų tinklus.
 
 ## Mašininis mokymasis
 
-Neuroniniai tinklai yra platesnės disciplinos, vadinamos **Mašininiu mokymusi**, dalis. Jos tikslas – naudoti duomenis kompiuteriniams modeliams treniruoti, kad jie galėtų spręsti problemas. Mašininis mokymasis sudaro didelę dalį Dirbtinio intelekto, tačiau šiame kurse klasikinio mašininio mokymosi neaptarsime.
+Neuroniniai tinklai yra didesnės disciplinos, vadinamos **Mašininiu mokymusi**, dalis, kurios tikslas yra naudoti duomenis kompiuterinių modelių mokymui, kad jie galėtų spręsti problemas. Mašininis mokymasis sudaro didelę dirbtinio intelekto dalį, tačiau šioje mokymo programoje klasikinio mašininio mokymosi neaptariame.
 
-> Apsilankykite mūsų atskirame kurse **[Mašininis mokymasis pradedantiesiems](http://github.com/microsoft/ml-for-beginners)**, kad sužinotumėte daugiau apie klasikinį mašininį mokymąsi.
+> Apsilankykite mūsų atskiroje **[Mašininio mokymosi pradedantiesiems](http://github.com/microsoft/ml-for-beginners)** mokymo programoje, kad sužinotumėte daugiau apie klasikinį mašininį mokymąsi.
 
-Mašininiame mokymesi daroma prielaida, kad turime tam tikrą pavyzdžių duomenų rinkinį **X** ir atitinkamas išėjimo reikšmes **Y**. Pavyzdžiai dažnai yra N-dimensijų vektoriai, sudaryti iš **savybių**, o išėjimai vadinami **žymėmis**.
+Mašininiame mokymesi daroma prielaida, kad turime tam tikrą pavyzdžių duomenų rinkinį **X** ir atitinkamas išvesties reikšmes **Y**. Pavyzdžiai dažnai yra N-dimensiniai vektoriai, sudaryti iš **savybių**, o išvestys vadinamos **etiketėmis**.
 
-Mes nagrinėsime dvi dažniausiai pasitaikančias mašininio mokymosi problemas:
+Mes apsvarstysime dvi dažniausiai pasitaikančias mašininio mokymosi problemas:
 
-* **Klasifikacija**, kai reikia priskirti įvesties objektą vienai iš dviejų ar daugiau klasių.
-* **Regresija**, kai reikia prognozuoti skaitinę reikšmę kiekvienam įvesties pavyzdžiui.
+* **Klasifikacija**, kur reikia klasifikuoti įvesties objektą į dvi ar daugiau klasių.
+* **Regresija**, kur reikia numatyti skaitinę reikšmę kiekvienam įvesties pavyzdžiui.
 
-> Kai įvestys ir išėjimai pateikiami kaip tensoriai, įvesties duomenų rinkinys yra M×N dydžio matrica, kur M – pavyzdžių skaičius, o N – savybių skaičius. Išėjimo žymės Y yra M dydžio vektorius.
+> Kai įvestys ir išvestys pateikiamos kaip tensoriai, įvesties duomenų rinkinys yra M&times;N dydžio matrica, kur M yra pavyzdžių skaičius, o N yra savybių skaičius. Išvesties etiketės Y yra M dydžio vektorius.
 
-Šiame kurse dėmesį sutelksime tik į neuroninių tinklų modelius.
+Šioje mokymo programoje mes sutelksime dėmesį tik į neuroninių tinklų modelius.
 
 ## Neurono modelis
 
-Iš biologijos žinome, kad mūsų smegenys sudarytos iš neuroninių ląstelių, kurių kiekviena turi kelis „įėjimus“ (aksonus) ir vieną išėjimą (dendritą). Aksonai ir dendritai gali perduoti elektrinius signalus, o jungtys tarp aksonų ir dendritų gali turėti skirtingą laidumą (kontroliuojamą neuromediatoriais).
+Iš biologijos žinome, kad mūsų smegenys susideda iš neuroninių ląstelių (neuronų), kiekviena iš jų turi kelis "įėjimus" (dendritus) ir vieną "išėjimą" (aksoną). Tiek dendritai, tiek aksonai gali perduoti elektrinius signalus, o jungtys tarp jų — vadinamos sinapsėmis — gali turėti skirtingą laidumą, kurį reguliuoja neurotransmiteriai.
 
 ![Neurono modelis](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.lt.jpg) | ![Neurono modelis](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.lt.png)
 ----|----
-Tikras neuronas *([Vaizdas](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iš Vikipedijos)* | Dirbtinis neuronas *(Autoriaus vaizdas)*
+Tikras neuronas *([Vaizdas](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iš Vikipedijos)* | Dirbtinis neuronas *(Vaizdas autoriaus)*
 
-Taigi, paprasčiausias neurono matematinis modelis turi kelis įėjimus X<sub>1</sub>, ..., X<sub>N</sub>, vieną išėjimą Y ir svorių rinkinį W<sub>1</sub>, ..., W<sub>N</sub>. Išėjimas apskaičiuojamas taip:
+Taigi, paprasčiausias matematinis neurono modelis turi kelis įėjimus X<sub>1</sub>, ..., X<sub>N</sub> ir vieną išėjimą Y, bei svorių seriją W<sub>1</sub>, ..., W<sub>N</sub>. Išėjimas apskaičiuojamas taip:
 
-<img src="images/netout.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.lt.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kur f yra tam tikra nelinijinė **aktyvavimo funkcija**.
 
-> Ankstyvieji neurono modeliai buvo aprašyti klasikiniame straipsnyje [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf), kurį 1943 m. parašė Warren McCullock ir Walter Pitts. Donald Hebb savo knygoje "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" pasiūlė, kaip šiuos tinklus galima treniruoti.
+> Ankstyvieji neurono modeliai buvo aprašyti klasikiniame straipsnyje [A logical calculus of the ideas immanent in nervous activity](https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf), kurį 1943 m. parašė Warren McCullock ir Walter Pitts. Donald Hebb savo knygoje "[The Organization of Behavior: A Neuropsychological Theory](https://books.google.com/books?id=VNetYrB8EBoC)" pasiūlė būdą, kaip šiuos tinklus galima treniruoti.
 
 ## Šiame skyriuje
 
 Šiame skyriuje sužinosime apie:
-* [Perceptroną](03-Perceptron/README.md), vieną iš ankstyviausių neuroninių tinklų modelių, skirtų dviejų klasių klasifikacijai
-* [Daugiasluoksnius tinklus](04-OwnFramework/README.md) su susietu užrašų knygele [kaip sukurti savo sistemą](04-OwnFramework/OwnFramework.ipynb)
+* [Perceptroną](03-Perceptron/README.md), vieną iš ankstyviausių dviejų klasių klasifikacijos neuroninių tinklų modelių
+* [Daugiasluoksnius tinklus](04-OwnFramework/README.md) su susietu užrašų knygeliu [kaip sukurti savo sistemą](04-OwnFramework/OwnFramework.ipynb)
 * [Neuroninių tinklų sistemas](05-Frameworks/README.md), su šiomis užrašų knygelėmis: [PyTorch](05-Frameworks/IntroPyTorch.ipynb) ir [Keras/Tensorflow](05-Frameworks/IntroKerasTF.ipynb)
-* [Perdidelį pritaikymą](../../../../lessons/3-NeuralNetworks/05-Frameworks)
+* [Perteklinio mokymosi problemą](../../../../lessons/3-NeuralNetworks/05-Frameworks)
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
+**Atsakomybės atsisakymas**:  
+Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar neteisingus aiškinimus, kylančius dėl šio vertimo naudojimo.
