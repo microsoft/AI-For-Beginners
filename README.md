@@ -104,6 +104,19 @@ For a gentle introduction to _AI in the Cloud_ topics you may consider taking th
 
 ## Getting Started
 
+### 🎯 New to AI? Start Here!
+
+If you're completely new to AI and want quick, hands-on examples, check out our [**Beginner-Friendly Examples**](./examples/README.md)! These include:
+
+- 🌟 **Hello AI World** - Your first AI program (pattern recognition)
+- 🧠 **Simple Neural Network** - Build a neural network from scratch  
+- 🖼️ **Image Classifier** - Classify images with detailed comments
+- 💬 **Text Sentiment** - Analyze positive/negative text
+
+These examples are designed to help you understand AI concepts before diving into the full curriculum.
+
+### 📚 Full Curriculum Setup
+
 - We have created a [setup lesson](./lessons/0-course-setup/setup.md) to help you with setting up your development environment. - For Educators, we have created a [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for you too!
 - How to [Run the code in a VSCode or a Codepace](./lessons/0-course-setup/how-to-run.md)
 
