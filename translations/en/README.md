@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2c8099af824bae942ca6ea7e53284770",
-  "translation_date": "2025-09-07T13:22:03+00:00",
+  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
+  "translation_date": "2025-10-03T07:18:52+00:00",
   "source_file": "README.md",
   "language_code": "en"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Dive into the fascinating world of **Artificial Intelligence** (AI) with this 12-week, 24-lesson curriculum! It includes hands-on lessons, quizzes, and labs. Designed for beginners, it covers tools like TensorFlow and PyTorch, along with discussions on AI ethics.  
+Dive into the world of **Artificial Intelligence** (AI) with our 12-week, 24-lesson curriculum! It includes hands-on lessons, quizzes, and labs. This beginner-friendly curriculum covers tools like TensorFlow and PyTorch, as well as discussions on AI ethics.  
 
 ### 🌐 Multi-Language Support  
 
@@ -35,7 +35,7 @@ Dive into the fascinating world of **Artificial Intelligence** (AI) with this 12
 
 [French](../fr/README.md) | [Spanish](../es/README.md) | [German](../de/README.md) | [Russian](../ru/README.md) | [Arabic](../ar/README.md) | [Persian (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Portuguese (Brazil)](../br/README.md) | [Italian](../it/README.md) | [Polish](../pl/README.md) | [Turkish](../tr/README.md) | [Greek](../el/README.md) | [Thai](../th/README.md) | [Swedish](../sv/README.md) | [Danish](../da/README.md) | [Norwegian](../no/README.md) | [Finnish](../fi/README.md) | [Dutch](../nl/README.md) | [Hebrew](../he/README.md) | [Vietnamese](../vi/README.md) | [Indonesian](../id/README.md) | [Malay](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hungarian](../hu/README.md) | [Czech](../cs/README.md) | [Slovak](../sk/README.md) | [Romanian](../ro/README.md) | [Bulgarian](../bg/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Croatian](../hr/README.md) | [Slovenian](../sl/README.md) | [Ukrainian](../uk/README.md) | [Burmese (Myanmar)](../my/README.md)  
 
-**If you'd like additional languages supported, check out the list [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**If you'd like additional languages supported, check the list [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
 
 ## Join the Community  
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
@@ -44,23 +44,23 @@ Dive into the fascinating world of **Artificial Intelligence** (AI) with this 12
 
 **[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-This curriculum will teach you:  
+In this curriculum, you will explore:  
 
-* Various approaches to Artificial Intelligence, including the classic symbolic approach with **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Neural Networks** and **Deep Learning**, the foundation of modern AI. You'll learn the concepts behind these topics using code in two popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).  
+* Various approaches to Artificial Intelligence, including the "classic" symbolic approach with **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* **Neural Networks** and **Deep Learning**, the foundation of modern AI. We'll explain these concepts using code in two popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).  
 * **Neural Architectures** for processing images and text. While we’ll cover recent models, we may not delve into the latest advancements.  
-* Less common AI methods, such as **Genetic Algorithms** and **Multi-Agent Systems**.  
+* Less common AI techniques, such as **Genetic Algorithms** and **Multi-Agent Systems**.  
 
 What this curriculum does not cover:  
 
-> [Find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
+> [Find additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
 * Business applications of **AI in Business**. For this, consider the [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path on Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), developed in collaboration with [INSEAD](https://www.insead.edu/).  
 * **Classic Machine Learning**, which is thoroughly covered in our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
 * Practical AI applications using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. For this, start with Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)**, and more.  
 * Specific ML **Cloud Frameworks**, such as [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Consider the learning paths [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **Conversational AI** and **Chat Bots**. For this, explore the [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path or refer to [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more details.  
-* **Advanced Mathematics** behind deep learning. For this, we recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville, which is also available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* **Conversational AI** and **Chat Bots**. For this, refer to the [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path or [this blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more details.  
+* **Advanced Mathematics** behind deep learning. For this, we recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville, available online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
 For a beginner-friendly introduction to _AI in the Cloud_, consider the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.  
 
@@ -106,46 +106,48 @@ For a beginner-friendly introduction to _AI in the Cloud_, consider the [Get sta
 ## Each lesson contains
 
 * Pre-reading material
-* Executable Jupyter Notebooks, which are often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook also contains a lot of theoretical material, so to understand the topic you need to go through at least one version of the notebook (either PyTorch or TensorFlow).
-* **Labs** available for some topics, which give you an opportunity to try applying the material you have learned to a specific problem.
-* Some sections contain links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules that cover related topics.
+* Executable Jupyter Notebooks, often tailored to the framework (**PyTorch** or **TensorFlow**). These notebooks also include substantial theoretical content, so to fully grasp the topic, you should review at least one version of the notebook (either PyTorch or TensorFlow).
+* **Labs** available for certain topics, providing hands-on opportunities to apply the concepts learned to specific problems.
+* Some sections include links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules that cover related topics.
 
 ## Getting Started
 
-- We have created a [setup lesson](./lessons/0-course-setup/setup.md) to help you with setting up your development environment. - For Educators, we have created a [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for you too!
-- How to [Run the code in a VSCode or a Codepace](./lessons/0-course-setup/how-to-run.md)
+- We’ve created a [setup lesson](./lessons/0-course-setup/setup.md) to assist you in setting up your development environment. 
+- For educators, there’s a [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) available as well!
+- Learn how to [Run the code in VSCode or Codespaces](./lessons/0-course-setup/how-to-run.md).
 
 Follow these steps:
 
-Fork the Repository: Click on the "Fork" button at the top-right corner of this page.
+Fork the Repository: Click the "Fork" button at the top-right corner of this page.
 
 Clone the Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Don't forget to star (🌟) this repo to find it easier later.
+Don’t forget to star (🌟) this repository to make it easier to find later.
 
 ## Meet other Learners
 
-Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) to meet and network with other learners taking this course and get support.
+Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) to connect and network with other learners taking this course and to get support.
 
-If you have product feedback or questions whilst building visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+If you have product feedback or questions while building, visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
 
-## Quizzes
-> **A note about quizzes**: All quizzes are located in the Quiz-app folder in etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/). They are linked within the lessons. The quiz app can be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is being done gradually.
+## Quizzes 
+> **A note about quizzes**: All quizzes are located in the Quiz-app folder under etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/). They are linked within the lessons. The quiz app can be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is being done gradually.
+
 ## Help Wanted
 
-Do you have suggestions or have you found spelling or code errors? Feel free to open an issue or submit a pull request.
+Do you have suggestions or have you found spelling or code errors? Feel free to raise an issue or create a pull request.
 
 ## Special Thanks
 
 * **✍️ Primary Author:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
 * **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD  
-* **🎨 Sketchnote Illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)  
+* **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)  
 * **✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
 * **🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
 
 ## Other Curricula
 
-Our team creates other learning materials! Check out:
+Our team develops other curricula! Check out:
 
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)  
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
@@ -158,11 +160,21 @@ Our team creates other learning materials! Check out:
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)  
 - [IoT for Beginners](https://aka.ms/iot-beginners)  
 - [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)  
-- [Mastering GitHub Copilot for Agentic Use](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
+- [Mastering GitHub Copilot for Agentic use](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)  
+
+## Getting Help
+
+If you’re stuck or have questions about building AI apps, join:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+If you have product feedback or encounter errors while building, visit:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 **Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.

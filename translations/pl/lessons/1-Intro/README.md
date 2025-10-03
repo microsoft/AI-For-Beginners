@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0c84b280e654e05ed658023021a6a975",
-  "translation_date": "2025-09-23T13:55:43+00:00",
+  "original_hash": "06ca1b0138e65b964481ae83275b270e",
+  "translation_date": "2025-10-03T08:10:39+00:00",
   "source_file": "lessons/1-Intro/README.md",
   "language_code": "pl"
 }
@@ -23,11 +23,11 @@ Pierwotnie komputery zostały wynalezione przez [Charlesa Babbage'a](https://en.
 
 > Zdjęcie autorstwa [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
-> ✅ Określenie wieku osoby na podstawie jej zdjęcia to zadanie, którego nie da się zaprogramować wprost, ponieważ nie wiemy, jak dochodzimy do liczby w naszej głowie, gdy to robimy.
+> ✅ Określenie wieku osoby na podstawie jej zdjęcia to zadanie, którego nie można zaprogramować wprost, ponieważ nie wiemy, jak dochodzimy do liczby w naszej głowie, gdy to robimy.
 
 ---
 
-Są jednak zadania, których rozwiązania nie znamy wprost. Rozważmy określenie wieku osoby na podstawie jej zdjęcia. W jakiś sposób uczymy się to robić, ponieważ widzieliśmy wiele przykładów ludzi w różnym wieku, ale nie potrafimy dokładnie wyjaśnić, jak to robimy, ani zaprogramować komputera, aby to zrobił. To właśnie tego rodzaju zadania interesują **sztuczną inteligencję** (w skrócie AI).
+Istnieją jednak zadania, których rozwiązania nie znamy wprost. Weźmy na przykład określenie wieku osoby na podstawie jej zdjęcia. W jakiś sposób uczymy się to robić, ponieważ widzieliśmy wiele przykładów ludzi w różnym wieku, ale nie potrafimy wyjaśnić, jak to robimy, ani zaprogramować komputera, aby to zrobił. To właśnie tego rodzaju zadania interesują **sztuczną inteligencję** (w skrócie AI).
 
 ✅ Pomyśl o zadaniach, które można by przekazać komputerowi, aby skorzystać z AI. Rozważ dziedziny takie jak finanse, medycyna i sztuka – jak te dziedziny korzystają dziś z AI?
 
@@ -35,16 +35,16 @@ Są jednak zadania, których rozwiązania nie znamy wprost. Rozważmy określeni
 
 Słaba AI | Silna AI
 ---------------------------------------|-------------------------------------
-Słaba AI odnosi się do systemów AI zaprojektowanych i trenowanych do wykonywania określonego zadania lub wąskiego zestawu zadań.|Silna AI, czyli Ogólna Sztuczna Inteligencja (AGI), odnosi się do systemów AI o inteligencji i zrozumieniu na poziomie człowieka.
-Te systemy AI nie są ogólnie inteligentne; doskonale radzą sobie z wykonywaniem zdefiniowanego zadania, ale brakuje im prawdziwego zrozumienia czy świadomości.|Te systemy AI mają zdolność wykonywania dowolnych intelektualnych zadań, które potrafi człowiek, adaptacji do różnych dziedzin oraz posiadania formy świadomości czy samoświadomości.
+Słaba AI odnosi się do systemów AI zaprojektowanych i trenowanych do wykonywania określonego zadania lub wąskiego zestawu zadań.|Silna AI, czyli Ogólna Sztuczna Inteligencja (AGI), odnosi się do systemów AI o inteligencji i zrozumieniu na poziomie ludzkim.
+Te systemy AI nie są ogólnie inteligentne; doskonale radzą sobie z wykonywaniem zdefiniowanego zadania, ale brakuje im prawdziwego zrozumienia lub świadomości.|Te systemy AI mają zdolność wykonywania dowolnych intelektualnych zadań, które może wykonać człowiek, adaptacji do różnych dziedzin oraz posiadania formy świadomości lub samoświadomości.
 Przykłady słabej AI to wirtualni asystenci, tacy jak Siri czy Alexa, algorytmy rekomendacji używane przez serwisy streamingowe oraz chatboty zaprojektowane do określonych zadań obsługi klienta.|Osiągnięcie silnej AI jest długoterminowym celem badań nad AI i wymagałoby opracowania systemów AI, które potrafią rozumować, uczyć się, rozumieć i adaptować w szerokim zakresie zadań i kontekstów.
 Słaba AI jest wysoce wyspecjalizowana i nie posiada zdolności poznawczych podobnych do ludzkich ani ogólnych zdolności rozwiązywania problemów poza swoją wąską dziedziną.|Silna AI jest obecnie koncepcją teoretyczną i żaden system AI nie osiągnął tego poziomu ogólnej inteligencji.
 
-Więcej informacji znajdziesz w artykule **[Ogólna Sztuczna Inteligencja](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
+Więcej informacji znajdziesz w **[Ogólna Sztuczna Inteligencja](https://en.wikipedia.org/wiki/Artificial_general_intelligence)** (AGI).
 
 ## Definicja inteligencji i test Turinga
 
-Jednym z problemów związanych z terminem **[inteligencja](https://en.wikipedia.org/wiki/Intelligence)** jest brak jasnej definicji tego pojęcia. Można argumentować, że inteligencja jest związana z **myśleniem abstrakcyjnym** lub **samoświadomością**, ale nie potrafimy jej właściwie zdefiniować.
+Jednym z problemów związanych z terminem **[inteligencja](https://en.wikipedia.org/wiki/Intelligence)** jest brak jasnej definicji tego pojęcia. Można argumentować, że inteligencja wiąże się z **myśleniem abstrakcyjnym** lub **samoświadomością**, ale nie potrafimy jej właściwie zdefiniować.
 
 ![Zdjęcie kota](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.pl.jpg)
 
@@ -52,13 +52,13 @@ Jednym z problemów związanych z terminem **[inteligencja](https://en.wikipedia
 
 Aby zobaczyć, jak niejednoznaczny jest termin *inteligencja*, spróbuj odpowiedzieć na pytanie: "Czy kot jest inteligentny?". Różni ludzie mają różne odpowiedzi na to pytanie, ponieważ nie ma uniwersalnie akceptowanego testu, który mógłby udowodnić, że twierdzenie jest prawdziwe lub fałszywe. A jeśli uważasz, że taki test istnieje – spróbuj przeprowadzić swojego kota przez test IQ...
 
-✅ Zastanów się przez chwilę, jak definiujesz inteligencję. Czy wrona, która potrafi rozwiązać labirynt, aby zdobyć jedzenie, jest inteligentna? Czy dziecko jest inteligentne?
+✅ Zastanów się przez chwilę, jak definiujesz inteligencję. Czy wrona, która potrafi rozwiązać labirynt, aby dostać się do jedzenia, jest inteligentna? Czy dziecko jest inteligentne?
 
 ---
 
-Mówiąc o AGI, musimy mieć sposób na określenie, czy stworzyliśmy naprawdę inteligentny system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) zaproponował metodę zwaną **[testem Turinga](https://en.wikipedia.org/wiki/Turing_test)**, która jednocześnie działa jako definicja inteligencji. Test porównuje dany system z czymś z natury inteligentnym – prawdziwym człowiekiem, a ponieważ każda automatyczna porównywarka może zostać oszukana przez program komputerowy, używamy ludzkiego sędziego. Jeśli człowiek nie jest w stanie odróżnić prawdziwej osoby od systemu komputerowego w dialogu tekstowym – system uznaje się za inteligentny.
+Mówiąc o AGI, musimy mieć sposób na określenie, czy stworzyliśmy naprawdę inteligentny system. [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) zaproponował metodę zwaną **[testem Turinga](https://en.wikipedia.org/wiki/Turing_test)**, która jednocześnie działa jako definicja inteligencji. Test porównuje dany system z czymś z natury inteligentnym – prawdziwym człowiekiem, a ponieważ każda automatyczna porównywarka może zostać oszukana przez program komputerowy, używamy ludzkiego interrogatora. Jeśli człowiek nie jest w stanie odróżnić prawdziwej osoby od systemu komputerowego w dialogu tekstowym – system uznaje się za inteligentny.
 
-> Chatbot o nazwie [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), opracowany w Petersburgu, w 2014 roku prawie przeszedł test Turinga, stosując sprytny trik osobowościowy. Z góry ogłosił, że jest 13-letnim ukraińskim chłopcem, co tłumaczyło brak wiedzy i pewne nieścisłości w tekście. Bot przekonał 30% sędziów, że jest człowiekiem po 5-minutowym dialogu, co według Turinga miało być możliwe do osiągnięcia przez maszynę do roku 2000. Jednak należy zrozumieć, że to nie oznacza, że stworzyliśmy inteligentny system, ani że system komputerowy oszukał ludzkiego sędziego – to twórcy bota oszukali ludzi, a nie sam system!
+> Chatbot o nazwie [Eugene Goostman](https://en.wikipedia.org/wiki/Eugene_Goostman), opracowany w Petersburgu, w 2014 roku prawie przeszedł test Turinga, stosując sprytny trik osobowości. Z góry ogłosił, że jest 13-letnim ukraińskim chłopcem, co tłumaczyłoby brak wiedzy i pewne nieścisłości w tekście. Bot przekonał 30% sędziów, że jest człowiekiem po 5-minutowym dialogu, co według Turinga miało być możliwe do osiągnięcia przez maszynę do roku 2000. Jednak należy zrozumieć, że to nie oznacza, że stworzyliśmy inteligentny system, ani że system komputerowy oszukał ludzkiego interrogatora – to nie system oszukał ludzi, lecz twórcy bota!
 
 ✅ Czy kiedykolwiek chatbot oszukał Cię, że rozmawiasz z człowiekiem? Jak Cię przekonał?
 
@@ -66,19 +66,19 @@ Mówiąc o AGI, musimy mieć sposób na określenie, czy stworzyliśmy naprawdę
 
 Jeśli chcemy, aby komputer zachowywał się jak człowiek, musimy w jakiś sposób odwzorować w komputerze nasz sposób myślenia. W konsekwencji musimy spróbować zrozumieć, co sprawia, że człowiek jest inteligentny.
 
-> Aby zaprogramować inteligencję w maszynie, musimy zrozumieć, jak działają nasze własne procesy podejmowania decyzji. Jeśli trochę się zastanowisz, zauważysz, że niektóre procesy zachodzą podświadomie – np. potrafimy odróżnić kota od psa bez zastanawiania się – podczas gdy inne wymagają rozumowania.
+> Aby zaprogramować inteligencję w maszynie, musimy zrozumieć, jak działają nasze własne procesy podejmowania decyzji. Jeśli trochę się zastanowisz, zauważysz, że niektóre procesy zachodzą podświadomie – np. potrafimy odróżnić kota od psa bez zastanawiania się nad tym – podczas gdy inne wymagają rozumowania.
 
 Istnieją dwa możliwe podejścia do tego problemu:
 
 Podejście odgórne (symboliczne rozumowanie) | Podejście oddolne (sieci neuronowe)
 ---------------------------------------|-------------------------------------
-Podejście odgórne modeluje sposób, w jaki człowiek rozumuje, aby rozwiązać problem. Polega na wydobywaniu **wiedzy** od człowieka i reprezentowaniu jej w formie czytelnej dla komputera. Musimy również opracować sposób modelowania **rozumowania** w komputerze. | Podejście oddolne modeluje strukturę ludzkiego mózgu, składającego się z ogromnej liczby prostych jednostek zwanych **neuronami**. Każdy neuron działa jak ważona średnia swoich wejść, a sieć neuronów można nauczyć rozwiązywania użytecznych problemów, dostarczając **dane treningowe**.
+Podejście odgórne modeluje sposób, w jaki człowiek rozumuje, aby rozwiązać problem. Polega na wydobywaniu **wiedzy** od człowieka i reprezentowaniu jej w formie czytelnej dla komputera. Musimy również opracować sposób modelowania **rozumowania** w komputerze. | Podejście oddolne modeluje strukturę ludzkiego mózgu, składającego się z ogromnej liczby prostych jednostek zwanych **neuronami**. Każdy neuron działa jak średnia ważona swoich wejść, a sieć neuronów można nauczyć rozwiązywania użytecznych problemów, dostarczając **dane treningowe**.
 
 Istnieją również inne możliwe podejścia do inteligencji:
 
-* **Emergentne**, **synergetyczne** lub **wieloczynnikowe podejście** opiera się na fakcie, że złożone inteligentne zachowanie może wynikać z interakcji dużej liczby prostych agentów. Według [cybernetyki ewolucyjnej](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), inteligencja może *wyłaniać się* z prostszego, reaktywnego zachowania w procesie *przejścia do metasystemu*.
+* **Emergentne**, **synergetyczne** lub **wieloagentowe podejście** opiera się na fakcie, że złożone inteligentne zachowanie może wynikać z interakcji dużej liczby prostych agentów. Według [cybernetyki ewolucyjnej](https://en.wikipedia.org/wiki/Global_brain#Evolutionary_cybernetics), inteligencja może *wyłaniać się* z prostszego, reaktywnego zachowania w procesie *przejścia metasystemowego*.
 
-* **Podejście ewolucyjne**, czyli **algorytmy genetyczne**, to proces optymalizacji oparty na zasadach ewolucji.
+* **Ewolucyjne podejście**, czyli **algorytm genetyczny**, to proces optymalizacji oparty na zasadach ewolucji.
 
 Rozważymy te podejścia później w kursie, ale teraz skupimy się na dwóch głównych kierunkach: odgórnym i oddolnym.
 
@@ -94,37 +94,37 @@ To podejście opiera się w dużej mierze na **reprezentacji wiedzy** i **rozumo
 
 Alternatywnie, możemy spróbować modelować najprostsze elementy naszego mózgu – neuron. Możemy skonstruować tzw. **sztuczną sieć neuronową** w komputerze, a następnie próbować nauczyć ją rozwiązywania problemów, dostarczając jej przykłady. Ten proces jest podobny do tego, jak noworodek uczy się o swoim otoczeniu, dokonując obserwacji.
 
-✅ Zrób małe badanie na temat tego, jak uczą się niemowlęta. Jakie są podstawowe elementy mózgu dziecka?
+✅ Zrób małe badanie na temat tego, jak uczą się niemowlęta. Jakie są podstawowe elementy mózgu niemowlęcia?
 
 > | A co z ML?         |      |
 > |--------------|-----------|
-> | Część sztucznej inteligencji, która opiera się na uczeniu się komputera rozwiązywania problemu na podstawie danych, nazywa się **uczeniem maszynowym**. Nie będziemy rozważać klasycznego uczenia maszynowego w tym kursie – odsyłamy Cię do osobnego programu [Uczenie Maszynowe dla Początkujących](http://aka.ms/ml-beginners). |   ![ML dla początkujących](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.pl.png)    |
+> | Część sztucznej inteligencji, która opiera się na nauce komputera rozwiązywania problemu na podstawie danych, nazywa się **uczeniem maszynowym**. Nie będziemy rozważać klasycznego uczenia maszynowego w tym kursie – odsyłamy Cię do osobnego programu [Uczenie Maszynowe dla Początkujących](http://aka.ms/ml-beginners). |   ![ML dla początkujących](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.pl.png)    |
 
 ## Krótka historia AI
 
-Sztuczna inteligencja jako dziedzina rozpoczęła się w połowie XX wieku. Początkowo podejście symboliczne było dominujące i doprowadziło do wielu ważnych sukcesów, takich jak systemy ekspertowe – programy komputerowe, które potrafiły działać jako ekspert w ograniczonych dziedzinach problemowych. Jednak szybko okazało się, że takie podejście nie jest skalowalne. Wydobycie wiedzy od eksperta, reprezentowanie jej w komputerze i utrzymanie tej bazy wiedzy w aktualności okazało się bardzo skomplikowane i zbyt kosztowne w wielu przypadkach. Doprowadziło to do tzw. [zimy AI](https://en.wikipedia.org/wiki/AI_winter) w latach 70.
+Sztuczna inteligencja jako dziedzina rozpoczęła się w połowie XX wieku. Początkowo dominowało podejście symboliczne, które doprowadziło do wielu ważnych sukcesów, takich jak systemy ekspertowe – programy komputerowe, które potrafiły działać jako ekspert w ograniczonych dziedzinach problemowych. Jednak szybko okazało się, że takie podejście nie jest skalowalne. Wydobycie wiedzy od eksperta, reprezentowanie jej w komputerze i utrzymanie bazy wiedzy w aktualnym stanie okazało się bardzo skomplikowane i zbyt kosztowne, aby było praktyczne w wielu przypadkach. Doprowadziło to do tzw. [zimy AI](https://en.wikipedia.org/wiki/AI_winter) w latach 70.
 
-<img alt="Krótka historia AI" src="images/history-of-ai.png" width="70%"/>
+<img alt="Krótka historia AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.pl.png" width="70%"/>
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
-Z czasem zasoby obliczeniowe stały się tańsze, a dostępnych danych było coraz więcej, więc podejścia oparte na sieciach neuronowych zaczęły wykazywać świetne wyniki w rywalizacji z ludźmi w wielu dziedzinach, takich jak rozpoznawanie obrazów czy rozumienie mowy. W ostatniej dekadzie termin sztuczna inteligencja był najczęściej używany jako synonim sieci neuronowych, ponieważ większość sukcesów AI, o których słyszymy, opiera się na nich.
+Z czasem zasoby obliczeniowe stały się tańsze, a dostępnych danych było więcej, więc podejścia oparte na sieciach neuronowych zaczęły wykazywać świetne wyniki w rywalizacji z ludźmi w wielu dziedzinach, takich jak rozpoznawanie obrazów czy rozumienie mowy. W ostatniej dekadzie termin sztuczna inteligencja był najczęściej używany jako synonim sieci neuronowych, ponieważ większość sukcesów AI, o których słyszymy, opiera się na nich.
 
 Możemy zaobserwować, jak zmieniały się podejścia, na przykład w tworzeniu programu komputerowego grającego w szachy:
 
-* Wczesne programy szachowe opierały się na wyszukiwaniu – program explicite próbował oszacować możliwe ruchy przeciwnika na określoną liczbę kolejnych ruchów i wybierał optymalny ruch na podstawie najlepszej pozycji, którą można osiągnąć w kilku ruchach. Doprowadziło to do opracowania tzw. algorytmu wyszukiwania [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning).
-* Strategie wyszukiwania dobrze sprawdzają się pod koniec gry, gdzie przestrzeń wyszukiwania jest ograniczona przez niewielką liczbę możliwych ruchów. Jednak na początku gry przestrzeń wyszukiwania jest ogromna, a algorytm można ulepszyć, ucząc się na podstawie istniejących meczów między ludzkimi graczami. Kolejne eksperymenty wykorzystywały tzw. [rozumowanie oparte na przypadkach](https://en.wikipedia.org/wiki/Case-based_reasoning), gdzie program szukał przypadków w bazie wiedzy bardzo podobnych do obecnej pozycji w grze.
-* Współczesne programy, które wygrywają z ludzkimi graczami, opierają się na sieciach neuronowych i [uczeniu przez wzmacnianie](https://en.wikipedia.org/wiki/Reinforcement_learning), gdzie programy uczą się grać wyłącznie poprzez długotrwałe granie przeciwko sobie i uczenie się na własnych błędach – podobnie jak ludzie uczą się grać w szachy. Jednak program komputerowy może rozegrać znacznie więcej gier w znacznie krótszym czasie, dzięki czemu może uczyć się znacznie szybciej.
+* Wczesne programy szachowe opierały się na wyszukiwaniu – program explicite próbował oszacować możliwe ruchy przeciwnika na określoną liczbę kolejnych ruchów i wybierał optymalny ruch na podstawie optymalnej pozycji, którą można osiągnąć w kilku ruchach. Doprowadziło to do opracowania tzw. algorytmu wyszukiwania [alpha-beta pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning).
+* Strategie wyszukiwania dobrze sprawdzają się pod koniec gry, gdy przestrzeń wyszukiwania jest ograniczona przez niewielką liczbę możliwych ruchów. Jednak na początku gry przestrzeń wyszukiwania jest ogromna, a algorytm można ulepszyć, ucząc się na podstawie istniejących meczów między ludzkimi graczami. Kolejne eksperymenty wykorzystywały tzw. [rozumowanie oparte na przypadkach](https://en.wikipedia.org/wiki/Case-based_reasoning), gdzie program szukał przypadków w bazie wiedzy bardzo podobnych do obecnej pozycji w grze.
+* Współczesne programy, które wygrywają z ludzkimi graczami, opierają się na sieciach neuronowych i [uczeniu przez wzmacnianie](https://en.wikipedia.org/wiki/Reinforcement_learning), gdzie programy uczą się grać wyłącznie poprzez długotrwałe granie przeciwko sobie i uczenie się na własnych błędach – podobnie jak ludzie uczą się grać w szachy. Jednak program komputerowy może rozegrać znacznie więcej gier w znacznie krótszym czasie, a zatem może uczyć się znacznie szybciej.
 
-✅ Zrób małe badanie na temat innych gier, w które grały systemy AI.
+✅ Zrób małe badanie na temat innych gier, w które grała AI.
 
 Podobnie możemy zobaczyć, jak zmieniało się podejście do tworzenia „programów mówiących” (które mogłyby przejść test Turinga):
 
-* Wczesne programy tego typu, takie jak [Eliza](https://en.wikipedia.org/wiki/ELIZA), opierały się na bardzo prostych regułach gramatycznych i przekształcaniu zdania wejściowego w pytanie.
-* Współczesne asystenty, takie jak Cortana, Siri czy Google Assistant, to hybrydowe systemy, które wykorzystują sieci neuronowe do konwersji mowy na tekst i rozpoznawania naszych intencji, a następnie stosują pewne rozumowanie lub explicite algorytmy do wykonywania wymaganych działań.
-* W przyszłości możemy spodziewać się pełnego modelu opartego na sieciach neuronowych, który samodzielnie obsłuży dialog. Ostatnie sieci neuronowe z rodziny GPT i [Turing-NLG](https://turing.microsoft.com/) wykazują wielkie sukcesy w tym zakresie.
+* Wczesne programy tego rodzaju, takie jak [Eliza](https://en.wikipedia.org/wiki/ELIZA), opierały się na bardzo prostych regułach gramatycznych i przekształcaniu zdania wejściowego w pytanie.
+* Współczesne asystenty, takie jak Cortana, Siri czy Google Assistant, to wszystkie systemy hybrydowe, które wykorzystują sieci neuronowe do konwersji mowy na tekst i rozpoznawania naszych intencji, a następnie stosują pewne rozumowanie lub explicite algorytmy do wykonywania wymaganych działań.
+* W przyszłości możemy oczekiwać pełnego modelu opartego na sieciach neuronowych, który samodzielnie obsłuży dialog. Ostatnie sieci neuronowe GPT i [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) wykazują wielkie sukcesy w tym zakresie.
 
-<img alt="Ewolucja testu Turinga" src="images/turing-test-evol.png" width="70%"/>
+<img alt="Ewolucja testu Turinga" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.pl.png" width="70%"/>
 > Zdjęcie autorstwa Dmitry Soshnikov, [fotografia](https://unsplash.com/photos/r8LmVbUKgns) autorstwa [Mariny Abrosimovej](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Najnowsze badania nad AI
@@ -135,7 +135,7 @@ Ogromny wzrost badań nad sieciami neuronowymi rozpoczął się około 2010 roku
 
 > Zdjęcie autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
-W 2012 roku [konwolucyjne sieci neuronowe](../4-ComputerVision/07-ConvNets/README.md) po raz pierwszy zostały użyte w klasyfikacji obrazów, co doprowadziło do znaczącego spadku błędów klasyfikacji (z prawie 30% do 16,4%). W 2015 roku architektura ResNet opracowana przez Microsoft Research [osiągnęła dokładność na poziomie ludzkim](https://doi.org/10.1109/ICCV.2015.123).
+W 2012 roku [konwolucyjne sieci neuronowe](../4-ComputerVision/07-ConvNets/README.md) zostały po raz pierwszy użyte w klasyfikacji obrazów, co doprowadziło do znaczącego spadku błędów klasyfikacji (z prawie 30% do 16,4%). W 2015 roku architektura ResNet opracowana przez Microsoft Research [osiągnęła dokładność na poziomie ludzkim](https://doi.org/10.1109/ICCV.2015.123).
 
 Od tego czasu sieci neuronowe wykazały bardzo skuteczne działanie w wielu zadaniach:
 
@@ -148,19 +148,21 @@ Rok | Osiągnięcie parytetu z człowiekiem
 2018 | [Automatyczne tłumaczenie maszynowe](https://arxiv.org/abs/1803.05567) (z chińskiego na angielski)
 2020 | [Generowanie podpisów do obrazów](https://arxiv.org/abs/2009.13682)
 
-W ostatnich latach byliśmy świadkami ogromnych sukcesów dużych modeli językowych, takich jak BERT i GPT-3. Stało się to głównie dzięki temu, że dostępne są ogromne ilości ogólnych danych tekstowych, które pozwalają na trenowanie modeli w celu uchwycenia struktury i znaczenia tekstów, ich wstępne trenowanie na ogólnych zbiorach tekstów, a następnie specjalizowanie tych modeli do bardziej specyficznych zadań. Więcej o [przetwarzaniu języka naturalnego](../5-NLP/README.md) dowiemy się później w tym kursie.
+W ciągu ostatnich kilku lat byliśmy świadkami ogromnych sukcesów dużych modeli językowych, takich jak BERT i GPT-3. Stało się to głównie dzięki temu, że dostępne są ogromne ilości ogólnych danych tekstowych, które pozwalają na trenowanie modeli w celu uchwycenia struktury i znaczenia tekstów, ich wstępne trenowanie na ogólnych zbiorach tekstów, a następnie specjalizowanie tych modeli do bardziej specyficznych zadań. Więcej o [przetwarzaniu języka naturalnego](../5-NLP/README.md) dowiemy się później w tym kursie.
 
 ## 🚀 Wyzwanie
 
-Przejrzyj internet, aby określić, gdzie Twoim zdaniem AI jest najskuteczniej wykorzystywane. Czy jest to aplikacja do mapowania, usługa zamiany mowy na tekst, czy może gra wideo? Zbadaj, jak został zbudowany ten system.
+Przejrzyj internet, aby określić, gdzie według Ciebie AI jest najskuteczniej wykorzystywane. Czy jest to aplikacja do mapowania, usługa zamiany mowy na tekst, czy może gra wideo? Zbadaj, jak został zbudowany ten system.
 
 ## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ai/quiz/2)
 
 ## Przegląd i samodzielna nauka
 
-Przejrzyj historię AI i ML, czytając [tę lekcję](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Wybierz jeden element ze sketchnote na początku tej lekcji lub tej tutaj i zbadaj go bardziej szczegółowo, aby zrozumieć kontekst kulturowy, który wpłynął na jego rozwój.
+Przejrzyj historię AI i ML, czytając [tę lekcję](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Wybierz jeden element ze sketchnote na początku tej lekcji lub tej i zbadaj go bardziej szczegółowo, aby zrozumieć kontekst kulturowy, który wpłynął na jego rozwój.
 
 **Zadanie**: [Game Jam](assignment.md)
 
 ---
 
+**Zastrzeżenie**:  
+Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż dokładamy wszelkich starań, aby tłumaczenie było precyzyjne, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego języku źródłowym powinien być uznawany za autorytatywne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.

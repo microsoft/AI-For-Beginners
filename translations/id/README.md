@@ -1,81 +1,81 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2c8099af824bae942ca6ea7e53284770",
-  "translation_date": "2025-09-07T14:01:09+00:00",
+  "original_hash": "1cf5aa6795d3147fb82dbc4ab0ea15cb",
+  "translation_date": "2025-10-03T08:35:01+00:00",
   "source_file": "README.md",
   "language_code": "id"
 }
 -->
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
+[![Lisensi GitHub](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
+[![Kontributor GitHub](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
+[![Masalah GitHub](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
+[![Permintaan Tarik GitHub](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)  
-[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
+[![Pengamat GitHub](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
+[![Fork GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
+[![Bintang GitHub](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
+[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)  
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
 
-# Kecerdasan Buatan untuk Pemula - Kurikulum  
+# Kecerdasan Buatan untuk Pemula - Kurikulum
 
-|![Sketchnote oleh @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.id.png)|  
-|:---:|  
-| AI untuk Pemula - _Sketchnote oleh [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+|![Sketchnote oleh @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.id.png)|
+|:---:|
+| AI Untuk Pemula - _Sketchnote oleh [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Jelajahi dunia **Kecerdasan Buatan** (AI) dengan kurikulum 12 minggu dan 24 pelajaran kami! Kurikulum ini mencakup pelajaran praktis, kuis, dan laboratorium. Materi ini ramah pemula dan mencakup alat seperti TensorFlow dan PyTorch, serta etika dalam AI.  
+Jelajahi dunia **Kecerdasan Buatan** (AI) dengan kurikulum 12 minggu dan 24 pelajaran kami! Kurikulum ini mencakup pelajaran praktis, kuis, dan laboratorium. Dirancang untuk pemula, kurikulum ini mencakup alat seperti TensorFlow dan PyTorch, serta etika dalam AI.
 
-### 🌐 Dukungan Multi-Bahasa  
+### 🌐 Dukungan Multi-Bahasa
 
-#### Didukung melalui GitHub Action (Otomatis & Selalu Terbaru)  
+#### Didukung melalui GitHub Action (Otomatis & Selalu Terbaru)
 
-[French](../fr/README.md) | [Spanish](../es/README.md) | [German](../de/README.md) | [Russian](../ru/README.md) | [Arabic](../ar/README.md) | [Persian (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Portuguese (Brazil)](../br/README.md) | [Italian](../it/README.md) | [Polish](../pl/README.md) | [Turkish](../tr/README.md) | [Greek](../el/README.md) | [Thai](../th/README.md) | [Swedish](../sv/README.md) | [Danish](../da/README.md) | [Norwegian](../no/README.md) | [Finnish](../fi/README.md) | [Dutch](../nl/README.md) | [Hebrew](../he/README.md) | [Vietnamese](../vi/README.md) | [Indonesian](./README.md) | [Malay](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hungarian](../hu/README.md) | [Czech](../cs/README.md) | [Slovak](../sk/README.md) | [Romanian](../ro/README.md) | [Bulgarian](../bg/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Croatian](../hr/README.md) | [Slovenian](../sl/README.md) | [Ukrainian](../uk/README.md) | [Burmese (Myanmar)](../my/README.md)  
+[French](../fr/README.md) | [Spanish](../es/README.md) | [German](../de/README.md) | [Russian](../ru/README.md) | [Arabic](../ar/README.md) | [Persian (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Portuguese (Brazil)](../br/README.md) | [Italian](../it/README.md) | [Polish](../pl/README.md) | [Turkish](../tr/README.md) | [Greek](../el/README.md) | [Thai](../th/README.md) | [Swedish](../sv/README.md) | [Danish](../da/README.md) | [Norwegian](../no/README.md) | [Finnish](../fi/README.md) | [Dutch](../nl/README.md) | [Hebrew](../he/README.md) | [Vietnamese](../vi/README.md) | [Indonesian](./README.md) | [Malay](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hungarian](../hu/README.md) | [Czech](../cs/README.md) | [Slovak](../sk/README.md) | [Romanian](../ro/README.md) | [Bulgarian](../bg/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Croatian](../hr/README.md) | [Slovenian](../sl/README.md) | [Ukrainian](../uk/README.md) | [Burmese (Myanmar)](../my/README.md)
 
-**Jika Anda ingin menambahkan bahasa terjemahan lainnya, daftar bahasa yang didukung tersedia [di sini](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**Jika Anda ingin mendukung bahasa tambahan, daftar bahasa yang didukung tersedia [di sini](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-## Bergabung dengan Komunitas  
-[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)  
+## Bergabung dengan Komunitas
+[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
 
-## Apa yang Akan Anda Pelajari  
+## Apa yang akan Anda pelajari
 
-**[Peta Pikiran Kursus](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
+**[Peta Pikiran Kursus](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-Dalam kurikulum ini, Anda akan mempelajari:  
+Dalam kurikulum ini, Anda akan mempelajari:
 
-* Pendekatan berbeda terhadap Kecerdasan Buatan, termasuk pendekatan simbolik "lama" dengan **Representasi Pengetahuan** dan penalaran ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Jaringan Saraf** dan **Deep Learning**, yang menjadi inti dari AI modern. Kami akan mengilustrasikan konsep-konsep di balik topik penting ini menggunakan kode dalam dua kerangka kerja paling populer - [TensorFlow](http://Tensorflow.org) dan [PyTorch](http://pytorch.org).  
-* **Arsitektur Jaringan Saraf** untuk bekerja dengan gambar dan teks. Kami akan membahas model-model terbaru, meskipun mungkin tidak mencakup yang paling mutakhir.  
-* Pendekatan AI yang kurang populer, seperti **Algoritma Genetik** dan **Sistem Multi-Agen**.  
+* Pendekatan berbeda terhadap Kecerdasan Buatan, termasuk pendekatan simbolik "lama" dengan **Representasi Pengetahuan** dan penalaran ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Jaringan Neural** dan **Pembelajaran Mendalam**, yang menjadi inti dari AI modern. Kami akan menjelaskan konsep-konsep penting ini menggunakan kode dalam dua kerangka kerja paling populer - [TensorFlow](http://Tensorflow.org) dan [PyTorch](http://pytorch.org).
+* **Arsitektur Neural** untuk bekerja dengan gambar dan teks. Kami akan membahas model terbaru, meskipun mungkin sedikit kurang dalam hal teknologi terkini.
+* Pendekatan AI yang kurang populer, seperti **Algoritma Genetik** dan **Sistem Multi-Agen**.
 
-Apa yang tidak akan kami bahas dalam kurikulum ini:  
+Apa yang tidak akan kami bahas dalam kurikulum ini:
 
-> [Temukan semua sumber tambahan untuk kursus ini di koleksi Microsoft Learn kami](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
+> [Temukan semua sumber tambahan untuk kursus ini dalam koleksi Microsoft Learn kami](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* Kasus bisnis penggunaan **AI dalam Bisnis**. Pertimbangkan untuk mengambil jalur pembelajaran [Pengenalan AI untuk pengguna bisnis](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) di Microsoft Learn, atau [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), yang dikembangkan bekerja sama dengan [INSEAD](https://www.insead.edu/).  
-* **Machine Learning Klasik**, yang dijelaskan dengan baik dalam [Kurikulum Machine Learning untuk Pemula](http://github.com/Microsoft/ML-for-Beginners).  
-* Aplikasi AI praktis yang dibangun menggunakan **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Untuk ini, kami merekomendasikan Anda memulai dengan modul Microsoft Learn untuk [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI dengan Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** dan lainnya.  
-* Kerangka kerja **Cloud ML** tertentu, seperti [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), atau [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Pertimbangkan untuk menggunakan jalur pembelajaran [Bangun dan operasikan solusi machine learning dengan Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) dan [Bangun dan Operasikan Solusi Machine Learning dengan Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **AI Percakapan** dan **Chat Bot**. Ada jalur pembelajaran terpisah [Buat solusi AI percakapan](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), dan Anda juga dapat merujuk ke [posting blog ini](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) untuk detail lebih lanjut.  
-* **Matematika Mendalam** di balik deep learning. Untuk ini, kami merekomendasikan [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) oleh Ian Goodfellow, Yoshua Bengio, dan Aaron Courville, yang juga tersedia online di [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Kasus bisnis penggunaan **AI dalam Bisnis**. Pertimbangkan untuk mengikuti jalur pembelajaran [Pengantar AI untuk pengguna bisnis](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) di Microsoft Learn, atau [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), yang dikembangkan bekerja sama dengan [INSEAD](https://www.insead.edu/).
+* **Pembelajaran Mesin Klasik**, yang dijelaskan dengan baik dalam [Kurikulum Pembelajaran Mesin untuk Pemula](http://github.com/Microsoft/ML-for-Beginners).
+* Aplikasi AI praktis yang dibangun menggunakan **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Untuk ini, kami merekomendasikan Anda memulai dengan modul Microsoft Learn untuk [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI dengan Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** dan lainnya.
+* Kerangka kerja **Cloud ML** tertentu, seperti [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), atau [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Pertimbangkan untuk menggunakan jalur pembelajaran [Bangun dan operasikan solusi pembelajaran mesin dengan Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) dan [Bangun dan Operasikan Solusi Pembelajaran Mesin dengan Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
+* **AI Percakapan** dan **Chat Bots**. Ada jalur pembelajaran terpisah [Buat solusi AI percakapan](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), dan Anda juga dapat merujuk ke [posting blog ini](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) untuk detail lebih lanjut.
+* **Matematika Mendalam** di balik pembelajaran mendalam. Untuk ini, kami merekomendasikan buku [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) oleh Ian Goodfellow, Yoshua Bengio, dan Aaron Courville, yang juga tersedia online di [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-Untuk pengenalan yang lebih ringan tentang topik _AI di Cloud_, Anda dapat mempertimbangkan untuk mengambil jalur pembelajaran [Memulai dengan kecerdasan buatan di Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
+Untuk pengenalan yang lebih ringan tentang topik _AI di Cloud_, Anda dapat mempertimbangkan untuk mengikuti jalur pembelajaran [Memulai dengan kecerdasan buatan di Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).
 
-# Konten  
+# Konten
 
-|     |                                                                 Tautan Pelajaran                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
-| :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
-| 0  |                                 [Pengaturan Kursus](./lessons/0-course-setup/setup.md)                                 |                      [Siapkan Lingkungan Pengembangan Anda](./lessons/0-course-setup/how-to-run.md)                       |   |  
-| I  |               [**Pengenalan AI**](./lessons/1-Intro/README.md)      | | |  
-| 01  |       [Pengenalan dan Sejarah AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
-| II |              **AI Simbolik**              |  
-| 02  |       [Representasi Pengetahuan dan Sistem Pakar](./lessons/2-Symbolic/README.md)       |            [Sistem Pakar](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologi](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Grafik Konsep](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
-| III |                        [**Pengenalan Jaringan Saraf**](./lessons/3-NeuralNetworks/README.md) |||  
-| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |  
-| 04  |                   [Perceptron Berlapis dan Membuat Kerangka Kerja Sendiri](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |  
+|     |                                                                 Tautan Pelajaran                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
+| 0  |                                 [Pengaturan Kursus](./lessons/0-course-setup/setup.md)                                 |                      [Siapkan Lingkungan Pengembangan Anda](./lessons/0-course-setup/how-to-run.md)                       |   |
+| I  |               [**Pengantar AI**](./lessons/1-Intro/README.md)      | | |
+| 01  |       [Pengantar dan Sejarah AI](./lessons/1-Intro/README.md)       |           -                            | -  |
+| II |              **AI Simbolik**              |
+| 02  |       [Representasi Pengetahuan dan Sistem Pakar](./lessons/2-Symbolic/README.md)       |            [Sistem Pakar](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologi](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Grafik Konsep](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| III |                        [**Pengantar Jaringan Neural**](./lessons/3-NeuralNetworks/README.md) |||
+| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
+| 04  |                   [Perceptron Berlapis dan Membuat Kerangka Kerja Sendiri](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Pengantar Framework (PyTorch/TensorFlow) dan Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Computer Vision**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Eksplorasi Computer Vision di Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Pengantar Computer Vision. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
@@ -90,7 +90,7 @@ Untuk pengenalan yang lebih ringan tentang topik _AI di Cloud_, Anda dapat mempe
 | 14  |            [Embedding Kata Semantik. Word2Vec dan GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
 | 15  |            [Pemodelan Bahasa. Melatih Embedding Anda Sendiri](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Recurrent Neural Networks](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Jaringan Rekurens Generatif](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
 | 19  |            [Named Entity Recognition](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
 | 20  |            [Model Bahasa Besar, Pemrograman Prompt, dan Tugas Few-Shot](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
@@ -105,8 +105,8 @@ Untuk pengenalan yang lebih ringan tentang topik _AI di Cloud_, Anda dapat mempe
 
 ## Setiap pelajaran mencakup
 
-* Materi pra-pembacaan
-* Jupyter Notebook yang dapat dijalankan, sering kali spesifik untuk framework (**PyTorch** atau **TensorFlow**). Notebook yang dapat dijalankan juga berisi banyak materi teoretis, jadi untuk memahami topik tersebut, Anda perlu membaca setidaknya satu versi notebook (baik PyTorch atau TensorFlow).
+* Materi pra-pembelajaran
+* Jupyter Notebook yang dapat dijalankan, sering kali spesifik untuk framework (**PyTorch** atau **TensorFlow**). Notebook yang dapat dijalankan juga berisi banyak materi teoretis, jadi untuk memahami topik ini Anda perlu membaca setidaknya satu versi notebook (baik PyTorch atau TensorFlow).
 * **Lab** tersedia untuk beberapa topik, yang memberi Anda kesempatan untuk mencoba menerapkan materi yang telah Anda pelajari pada masalah tertentu.
 * Beberapa bagian berisi tautan ke modul [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) yang mencakup topik terkait.
 
@@ -129,11 +129,12 @@ Bergabunglah dengan [server Discord AI resmi kami](https://aka.ms/genai-discord?
 
 Jika Anda memiliki umpan balik produk atau pertanyaan saat membangun, kunjungi [Forum Pengembang Azure AI Foundry](https://aka.ms/foundry/forum)
 
-## Kuis
-> **Catatan tentang kuis**: Semua kuis terdapat di folder Quiz-app dalam etc\quiz-app, atau [Online Di Sini](https://ff-quizzes.netlify.app/). Kuis tersebut terhubung dari dalam pelajaran, aplikasi kuis dapat dijalankan secara lokal atau di-deploy ke Azure; ikuti petunjuk di folder `quiz-app`. Kuis tersebut secara bertahap sedang dilokalisasi.
+## Kuis 
+> **Catatan tentang kuis**: Semua kuis terdapat di folder Quiz-app dalam etc\quiz-app, atau [Online di sini](https://ff-quizzes.netlify.app/). Kuis ini terhubung dari dalam pelajaran, aplikasi kuis dapat dijalankan secara lokal atau di-deploy ke Azure; ikuti petunjuk di folder `quiz-app`. Kuis ini secara bertahap sedang dilokalisasi.
+
 ## Bantuan Dibutuhkan
 
-Apakah Anda memiliki saran atau menemukan kesalahan ejaan atau kode? Ajukan masalah atau buat pull request.
+Apakah Anda memiliki saran atau menemukan kesalahan ejaan atau kode? Buat issue atau buat pull request.
 
 ## Terima Kasih Khusus
 
@@ -155,14 +156,24 @@ Tim kami juga membuat kurikulum lainnya! Lihat:
 - [Data Science untuk Pemula](https://aka.ms/datascience-beginners)
 - [ML untuk Pemula](https://aka.ms/ml-beginners)
 - [Keamanan Siber untuk Pemula](https://github.com/microsoft/Security-101) 
-- [Pengembangan Web untuk Pemula](https://aka.ms/webdev-beginners)
+- [Web Dev untuk Pemula](https://aka.ms/webdev-beginners)
 - [IoT untuk Pemula](https://aka.ms/iot-beginners)
 - [Pengembangan XR untuk Pemula](https://github.com/microsoft/xr-development-for-beginners)
 - [Menguasai GitHub Copilot untuk Penggunaan Agen](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Menguasai GitHub Copilot untuk Pengembang C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Pilih Petualangan Copilot Anda Sendiri](https://github.com/microsoft/CopilotAdventures)
 
+## Mendapatkan Bantuan
+
+Jika Anda mengalami kesulitan atau memiliki pertanyaan tentang membangun aplikasi AI, bergabunglah:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Jika Anda memiliki masukan produk atau menemukan kesalahan saat membangun, kunjungi:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berusaha untuk memberikan hasil yang akurat, harap diingat bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang otoritatif. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diketahui bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang otoritatif. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau interpretasi yang keliru yang timbul dari penggunaan terjemahan ini.
