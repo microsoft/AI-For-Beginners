@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "486d43e16c4fcaa2acc169fc47623db1",
-  "translation_date": "2025-10-11T10:20:25+00:00",
+  "original_hash": "abbf9f213283263059a138bc8b84edda",
+  "translation_date": "2025-10-24T08:50:18+00:00",
   "source_file": "README.md",
   "language_code": "de"
 }
 -->
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub Lizenz](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
+[![GitHub Mitwirkende](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
+[![GitHub Probleme](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
+[![GitHub Pull-Requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
+[![PRs Willkommen](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
+[![GitHub Beobachter](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
+[![GitHub Forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
+[![GitHub Sterne](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -25,59 +25,59 @@ CO_OP_TRANSLATOR_METADATA:
 
 |![Sketchnote von @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.de.png)|
 |:---:|
-| KI für Anfänger - _Sketchnote von [@girlie_mac](https://twitter.com/girlie_mac)_ |
+| AI For Beginners - _Sketchnote von [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Entdecke die Welt der **Künstlichen Intelligenz** (KI) mit unserem 12-wöchigen Lehrplan, der aus 24 Lektionen besteht! Er enthält praktische Übungen, Quizfragen und Labore. Der Lehrplan ist anfängerfreundlich und behandelt Tools wie TensorFlow und PyTorch sowie ethische Aspekte der KI.
+Entdecken Sie die Welt der **Künstlichen Intelligenz** (KI) mit unserem 12-wöchigen Lehrplan, der aus 24 Lektionen besteht! Er enthält praktische Lektionen, Quizfragen und Labore. Der Lehrplan ist anfängerfreundlich und behandelt Tools wie TensorFlow und PyTorch sowie ethische Aspekte der KI.
 
-### 🌐 Mehrsprachige Unterstützung
+### 🌐 Unterstützung für mehrere Sprachen
 
 #### Unterstützt durch GitHub Action (Automatisch & Immer aktuell)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabisch](../ar/README.md) | [Bengalisch](../bn/README.md) | [Bulgarisch](../bg/README.md) | [Birmanisch (Myanmar)](../my/README.md) | [Chinesisch (vereinfacht)](../zh/README.md) | [Chinesisch (traditionell, Hongkong)](../hk/README.md) | [Chinesisch (traditionell, Macau)](../mo/README.md) | [Chinesisch (traditionell, Taiwan)](../tw/README.md) | [Kroatisch](../hr/README.md) | [Tschechisch](../cs/README.md) | [Dänisch](../da/README.md) | [Niederländisch](../nl/README.md) | [Estnisch](../et/README.md) | [Finnisch](../fi/README.md) | [Französisch](../fr/README.md) | [Deutsch](./README.md) | [Griechisch](../el/README.md) | [Hebräisch](../he/README.md) | [Hindi](../hi/README.md) | [Ungarisch](../hu/README.md) | [Indonesisch](../id/README.md) | [Italienisch](../it/README.md) | [Japanisch](../ja/README.md) | [Koreanisch](../ko/README.md) | [Litauisch](../lt/README.md) | [Malaiisch](../ms/README.md) | [Marathi](../mr/README.md) | [Nepalesisch](../ne/README.md) | [Norwegisch](../no/README.md) | [Persisch (Farsi)](../fa/README.md) | [Polnisch](../pl/README.md) | [Portugiesisch (Brasilien)](../br/README.md) | [Portugiesisch (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Rumänisch](../ro/README.md) | [Russisch](../ru/README.md) | [Serbisch (kyrillisch)](../sr/README.md) | [Slowakisch](../sk/README.md) | [Slowenisch](../sl/README.md) | [Spanisch](../es/README.md) | [Swahili](../sw/README.md) | [Schwedisch](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Thai](../th/README.md) | [Türkisch](../tr/README.md) | [Ukrainisch](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamesisch](../vi/README.md)
+[Arabisch](../ar/README.md) | [Bengalisch](../bn/README.md) | [Bulgarisch](../bg/README.md) | [Burmesisch (Myanmar)](../my/README.md) | [Chinesisch (Vereinfacht)](../zh/README.md) | [Chinesisch (Traditionell, Hongkong)](../hk/README.md) | [Chinesisch (Traditionell, Macau)](../mo/README.md) | [Chinesisch (Traditionell, Taiwan)](../tw/README.md) | [Kroatisch](../hr/README.md) | [Tschechisch](../cs/README.md) | [Dänisch](../da/README.md) | [Niederländisch](../nl/README.md) | [Estnisch](../et/README.md) | [Finnisch](../fi/README.md) | [Französisch](../fr/README.md) | [Deutsch](./README.md) | [Griechisch](../el/README.md) | [Hebräisch](../he/README.md) | [Hindi](../hi/README.md) | [Ungarisch](../hu/README.md) | [Indonesisch](../id/README.md) | [Italienisch](../it/README.md) | [Japanisch](../ja/README.md) | [Koreanisch](../ko/README.md) | [Litauisch](../lt/README.md) | [Malaiisch](../ms/README.md) | [Marathi](../mr/README.md) | [Nepalesisch](../ne/README.md) | [Norwegisch](../no/README.md) | [Persisch (Farsi)](../fa/README.md) | [Polnisch](../pl/README.md) | [Portugiesisch (Brasilien)](../br/README.md) | [Portugiesisch (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Rumänisch](../ro/README.md) | [Russisch](../ru/README.md) | [Serbisch (Kyrillisch)](../sr/README.md) | [Slowakisch](../sk/README.md) | [Slowenisch](../sl/README.md) | [Spanisch](../es/README.md) | [Swahili](../sw/README.md) | [Schwedisch](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Thai](../th/README.md) | [Türkisch](../tr/README.md) | [Ukrainisch](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamesisch](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Falls du zusätzliche Übersetzungen wünschst, findest du die unterstützten Sprachen [hier](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Falls Sie zusätzliche Übersetzungen wünschen, finden Sie die unterstützten Sprachen [hier](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-## Werde Teil der Community
+## Treten Sie der Community bei
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
 
-## Was du lernen wirst
+## Was Sie lernen werden
 
 **[Mindmap des Kurses](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-In diesem Lehrplan wirst du lernen:
+In diesem Lehrplan lernen Sie:
 
 * Verschiedene Ansätze der Künstlichen Intelligenz, einschließlich des "klassischen" symbolischen Ansatzes mit **Wissensrepräsentation** und Schlussfolgerung ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
 * **Neuronale Netzwerke** und **Deep Learning**, die das Herzstück moderner KI bilden. Wir veranschaulichen die Konzepte hinter diesen wichtigen Themen mit Code in zwei der beliebtesten Frameworks - [TensorFlow](http://Tensorflow.org) und [PyTorch](http://pytorch.org).
-* **Neuronale Architekturen** für die Arbeit mit Bildern und Text. Wir behandeln aktuelle Modelle, auch wenn wir möglicherweise nicht die neuesten Entwicklungen abdecken.
-* Weniger verbreitete KI-Ansätze wie **Genetische Algorithmen** und **Multi-Agenten-Systeme**.
+* **Neuronale Architekturen** für die Arbeit mit Bildern und Text. Wir behandeln aktuelle Modelle, könnten jedoch bei den neuesten Entwicklungen etwas hinterherhinken.
+* Weniger populäre KI-Ansätze wie **Genetische Algorithmen** und **Multi-Agenten-Systeme**.
 
 Was wir in diesem Lehrplan nicht behandeln:
 
-> [Finde alle zusätzlichen Ressourcen für diesen Kurs in unserer Microsoft Learn Sammlung](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+> [Finden Sie alle zusätzlichen Ressourcen für diesen Kurs in unserer Microsoft Learn Sammlung](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* Geschäftsanwendungen von **KI in Unternehmen**. Ziehe in Betracht, den Lernpfad [Einführung in KI für Geschäftsanwender](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) auf Microsoft Learn oder die [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), die in Zusammenarbeit mit [INSEAD](https://www.insead.edu/) entwickelt wurde, zu absolvieren.
-* **Klassisches Machine Learning**, das in unserem [Machine Learning für Anfänger Lehrplan](http://github.com/Microsoft/ML-for-Beginners) gut beschrieben ist.
-* Praktische KI-Anwendungen, die mit **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** erstellt wurden. Dafür empfehlen wir, mit den Modulen auf Microsoft Learn für [Vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [Natural Language Processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative KI mit Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** und anderen zu beginnen.
-* Spezifische ML **Cloud-Frameworks**, wie [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) oder [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Ziehe in Betracht, die Lernpfade [Erstellen und Betreiben von Machine Learning-Lösungen mit Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) und [Erstellen und Betreiben von Machine Learning-Lösungen mit Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) zu nutzen.
-* **Konversationelle KI** und **Chatbots**. Es gibt einen separaten Lernpfad [Erstellen von konversationellen KI-Lösungen](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), und du kannst auch [diesen Blogbeitrag](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) für weitere Details nutzen.
+* Geschäftsanwendungen von **KI in Unternehmen**. Ziehen Sie in Betracht, den Lernpfad [Einführung in KI für Geschäftsanwender](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) auf Microsoft Learn oder die [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), die in Zusammenarbeit mit [INSEAD](https://www.insead.edu/) entwickelt wurde, zu absolvieren.
+* **Klassisches maschinelles Lernen**, das in unserem [Maschinelles Lernen für Anfänger Lehrplan](http://github.com/Microsoft/ML-for-Beginners) gut beschrieben ist.
+* Praktische KI-Anwendungen, die mit **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** erstellt wurden. Dafür empfehlen wir, mit den Microsoft Learn Modulen für [Vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [Natural Language Processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative KI mit Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** und anderen zu beginnen.
+* Spezifische ML **Cloud-Frameworks**, wie [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) oder [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Ziehen Sie in Betracht, die Lernpfade [Maschinelle Lernlösungen mit Azure Machine Learning erstellen und betreiben](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) und [Maschinelle Lernlösungen mit Azure Databricks erstellen und betreiben](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) zu nutzen.
+* **Konversationelle KI** und **Chatbots**. Es gibt einen separaten Lernpfad [Konversationelle KI-Lösungen erstellen](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), und Sie können auch [diesen Blogbeitrag](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) für weitere Details konsultieren.
 * **Tiefe Mathematik** hinter Deep Learning. Dafür empfehlen wir [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) von Ian Goodfellow, Yoshua Bengio und Aaron Courville, das auch online verfügbar ist unter [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-Für eine sanfte Einführung in _KI in der Cloud_ kannst du den Lernpfad [Einführung in künstliche Intelligenz auf Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) in Betracht ziehen.
+Für eine sanfte Einführung in _KI in der Cloud_ Themen können Sie den Lernpfad [Einführung in künstliche Intelligenz auf Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) in Betracht ziehen.
 
 # Inhalt
 
-|     |                                                                 Lektionen-Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
+|     |                                                                 Link zur Lektion                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
-| 0  |                                 [Kurs-Setup](./lessons/0-course-setup/setup.md)                                 |                      [Einrichtung deiner Entwicklungsumgebung](./lessons/0-course-setup/how-to-run.md)                       |   |
+| 0  |                                 [Kurs Setup](./lessons/0-course-setup/setup.md)                                 |                      [Einrichtung Ihrer Entwicklungsumgebung](./lessons/0-course-setup/how-to-run.md)                       |   |
 | I  |               [**Einführung in KI**](./lessons/1-Intro/README.md)      | | |
 | 01  |       [Einführung und Geschichte der KI](./lessons/1-Intro/README.md)       |           -                            | -  |
 | II |              **Symbolische KI**              |
 | 02  |       [Wissensrepräsentation und Expertensysteme](./lessons/2-Symbolic/README.md)       |            [Expertensysteme](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologie](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Konzeptgraph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
 | III |                        [**Einführung in neuronale Netzwerke**](./lessons/3-NeuralNetworks/README.md) |||
 | 03  |                [Perzeptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
-| 04  |                   [Mehrschichtige Perzeptrons und Erstellen eines eigenen Frameworks](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 04  |                   [Mehrschichtiger Perzeptron und Erstellung eines eigenen Frameworks](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Einführung in Frameworks (PyTorch/TensorFlow) und Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Computer Vision**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Erkunde Computer Vision auf Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
 | 06  |            [Einführung in Computer Vision. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
@@ -108,27 +108,27 @@ Für eine sanfte Einführung in _KI in der Cloud_ kannst du den Lernpfad [Einfü
 ## Jede Lektion enthält
 
 * Vorbereitendes Lesematerial
-* Ausführbare Jupyter-Notebooks, die oft spezifisch für das Framework (**PyTorch** oder **TensorFlow**) sind. Das ausführbare Notebook enthält auch viele theoretische Inhalte, daher ist es wichtig, mindestens eine Version des Notebooks (entweder PyTorch oder TensorFlow) durchzugehen, um das Thema zu verstehen.
-* **Labs**, die für einige Themen verfügbar sind und die Möglichkeit bieten, das Gelernte auf ein spezifisches Problem anzuwenden.
+* Ausführbare Jupyter Notebooks, die oft spezifisch für das Framework (**PyTorch** oder **TensorFlow**) sind. Das ausführbare Notebook enthält auch viele theoretische Inhalte, daher ist es wichtig, mindestens eine Version des Notebooks (entweder PyTorch oder TensorFlow) durchzugehen, um das Thema zu verstehen.
+* **Labs**, die für einige Themen verfügbar sind und Ihnen die Möglichkeit geben, das Gelernte auf ein spezifisches Problem anzuwenden.
 * Einige Abschnitte enthalten Links zu [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)-Modulen, die verwandte Themen behandeln.
 
 ## Erste Schritte
 
-### 🎯 Neu in KI? Hier starten!
+### 🎯 Neu in der KI? Hier starten!
 
 Wenn Sie ganz neu in der KI sind und schnelle, praktische Beispiele suchen, schauen Sie sich unsere [**Einsteigerfreundlichen Beispiele**](./examples/README.md) an! Diese beinhalten:
 
-- 🌟 **Hello AI World** - Ihr erstes KI-Programm (Mustererkennung)
-- 🧠 **Einfaches Neuronales Netzwerk** - Erstellen Sie ein neuronales Netzwerk von Grund auf  
-- 🖼️ **Bildklassifikator** - Klassifizieren Sie Bilder mit ausführlichen Kommentaren
-- 💬 **Textsentiment** - Analysieren Sie positive/negative Texte
+- 🌟 **Hallo KI-Welt** - Ihr erstes KI-Programm (Mustererkennung)
+- 🧠 **Einfaches neuronales Netzwerk** - Erstellen Sie ein neuronales Netzwerk von Grund auf  
+- 🖼️ **Bildklassifikator** - Klassifizieren Sie Bilder mit detaillierten Kommentaren
+- 💬 **Textstimmung** - Analysieren Sie positive/negative Texte
 
 Diese Beispiele sind darauf ausgelegt, Ihnen KI-Konzepte näherzubringen, bevor Sie in den vollständigen Lehrplan eintauchen.
 
-### 📚 Vollständige Lehrplan-Einrichtung
-- Wir haben eine [Setup-Lektion](./lessons/0-course-setup/setup.md) erstellt, um Ihnen bei der Einrichtung Ihrer Entwicklungsumgebung zu helfen.  
+### 📚 Einrichtung des vollständigen Lehrplans
+- Wir haben eine [Setup-Lektion](./lessons/0-course-setup/setup.md) erstellt, um Ihnen beim Einrichten Ihrer Entwicklungsumgebung zu helfen.  
 - Für Lehrkräfte haben wir ebenfalls eine [Curricula-Setup-Lektion](./lessons/0-course-setup/for-teachers.md) erstellt!  
-- Wie man [den Code in VSCode oder Codepace ausführt](./lessons/0-course-setup/how-to-run.md)  
+- Wie man [den Code in VSCode oder einem Codespace ausführt](./lessons/0-course-setup/how-to-run.md)  
 
 Folgen Sie diesen Schritten:
 
@@ -138,11 +138,11 @@ Repository klonen: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
 Vergessen Sie nicht, dieses Repository mit einem Stern (🌟) zu markieren, um es später leichter zu finden.
 
-## Treffen Sie andere Lernende
+## Andere Lernende kennenlernen
 
-Treten Sie unserem [offiziellen AI Discord-Server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) bei, um andere Lernende kennenzulernen, sich zu vernetzen und Unterstützung zu erhalten.
+Treten Sie unserem [offiziellen AI Discord-Server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) bei, um andere Lernende dieses Kurses zu treffen, sich zu vernetzen und Unterstützung zu erhalten.
 
-Wenn Sie Produktfeedback oder Fragen beim Bauen haben, besuchen Sie unser [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
+Wenn Sie Produktfeedback oder Fragen beim Erstellen haben, besuchen Sie unser [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum).
 
 ## Quizfragen
 
@@ -155,7 +155,7 @@ Haben Sie Vorschläge oder Rechtschreib- oder Codefehler gefunden? Erstellen Sie
 ## Besonderer Dank
 
 * **✍️ Hauptautor:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
-* **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD  
+* **🔥 Herausgeber:** [Jen Looper](https://twitter.com/jenlooper), PhD  
 * **🎨 Sketchnote-Illustratorin:** [Tomomi Imura](https://twitter.com/girlie_mac)  
 * **✅ Quiz-Erstellerin:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
 * **🙏 Hauptbeitragende:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
@@ -164,20 +164,37 @@ Haben Sie Vorschläge oder Rechtschreib- oder Codefehler gefunden? Erstellen Sie
 
 Unser Team erstellt weitere Curricula! Schauen Sie sich diese an:
 
-- [Generative AI für Anfänger](https://aka.ms/genai-beginners)  
-- [Generative AI für Anfänger .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)  
-- [Generative AI mit JavaScript](https://github.com/microsoft/generative-ai-with-javascript)  
-- [Generative AI mit Java](https://github.com/microsoft/Generative-AI-for-beginners-java)  
-- [AI für Anfänger](https://aka.ms/ai-beginners)  
-- [Data Science für Anfänger](https://aka.ms/datascience-beginners)  
-- [ML für Anfänger](https://aka.ms/ml-beginners)  
-- [Cybersecurity für Anfänger](https://github.com/microsoft/Security-101)  
-- [Webentwicklung für Anfänger](https://aka.ms/webdev-beginners)  
-- [IoT für Anfänger](https://aka.ms/iot-beginners)  
-- [XR-Entwicklung für Anfänger](https://github.com/microsoft/xr-development-for-beginners)  
-- [Mastering GitHub Copilot für Agentic-Nutzung](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)  
-- [Mastering GitHub Copilot für C#/.NET-Entwickler](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)  
+### Azure / Edge / MCP / Agents  
+[![AZD für Anfänger](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Edge AI für Anfänger](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![MCP für Anfänger](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI Agents für Anfänger](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)  
+
+---
+
+### Generative AI Serie  
+[![Generative AI für Anfänger](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)  
+
+---
+
+### Kernlernen  
+[![ML für Anfänger](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Data Science für Anfänger](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI für Anfänger](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Cybersecurity für Anfänger](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)  
+[![Webentwicklung für Anfänger](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)  
+[![IoT für Anfänger](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)  
+[![XR-Entwicklung für Anfänger](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)  
+
+---
+
+### Copilot Serie  
+[![Copilot für KI-gestütztes Pair Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)  
+[![Copilot für C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)  
+[![Copilot Abenteuer](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
 
 ## Hilfe erhalten
 
@@ -185,7 +202,7 @@ Wenn Sie nicht weiterkommen oder Fragen zum Erstellen von KI-Anwendungen haben, 
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
-Wenn Sie Produktfeedback oder Fehler beim Bauen haben, besuchen Sie:
+Wenn Sie Produktfeedback oder Fehler beim Erstellen haben, besuchen Sie:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
