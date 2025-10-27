@@ -91,7 +91,8 @@ For a gentle introduction to _AI in the Cloud_ topics you may consider taking th
 | VI |            **Other AI Techniques** || |
 | 21  |            [Genetic Algorithms](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Notebook](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
 | 22  |            [Deep Reinforcement Learning](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
-| 23  |            [Multi-Agent Systems](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
+| 23  |            [Deep Q-Networks](./lessons/6-Other/23-DeepQN/README.md)             |           [PyTorch](./lessons/6-Other/23-DeepQN/DQN-Pong-PyTorch.ipynb)            | |
+| 24  |            [Multi-Agent Systems](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **AI Ethics** | | |
 | 24  |            [AI Ethics and Responsible AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Responsible AI Principles](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Extras** | | |

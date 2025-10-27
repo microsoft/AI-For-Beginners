@@ -85,6 +85,12 @@ Continue your learning in the following notebooks:
 * [RL in TensorFlow](CartPole-RL-TF.ipynb)
 * [RL in PyTorch](CartPole-RL-PyTorch.ipynb)
 
+## Deep Q-Networks (DQN)
+
+A more modern and powerful approach to reinforcement learning is the **Deep Q-Network (DQN)**. DQN uses a deep neural network to approximate the Q-function, which represents the expected total future reward for taking a certain action in a given state. This allows it to handle large state spaces, such as those in Atari games.
+
+> Learn more about DQN and see how to implement it to play Atari Pong in the [next lesson](../23-DeepQN/README.md).
+
 ## Other RL Tasks
 
 Reinforcement Learning nowadays is a fast growing field of research. Some of the interesting examples of reinforcement learning are:
