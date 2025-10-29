@@ -2,7 +2,7 @@ gensim==4.3.3
 gym==0.26.2
 huggingface==0.0.1
 imageio==2.35.0
-keras==3.11.3
+keras==3.12.0
 nltk==3.8.1
 pandas==2.2.2
 pillow==10.4.0
