@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T19:58:47+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T14:40:19+00:00",
   "source_file": "README.md",
   "language_code": "vi"
 }
@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 [![Chào mừng PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
 [![Người theo dõi GitHub](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
-[![Fork GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
+[![Forks GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
 [![Sao GitHub](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)  
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
@@ -37,7 +37,7 @@ Khám phá thế giới **Trí tuệ nhân tạo** (AI) với chương trình h�
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](./README.md)  
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->  
 
-**Nếu bạn muốn có thêm các ngôn ngữ dịch, danh sách các ngôn ngữ được hỗ trợ có tại [đây](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
+**Nếu bạn muốn có thêm ngôn ngữ dịch, danh sách các ngôn ngữ được hỗ trợ có tại [đây](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
 
 ## Tham gia cộng đồng  
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
@@ -48,7 +48,7 @@ Khám phá thế giới **Trí tuệ nhân tạo** (AI) với chương trình h�
 
 Trong chương trình này, bạn sẽ học:  
 
-* Các cách tiếp cận khác nhau với Trí tuệ nhân tạo, bao gồm cách tiếp cận biểu tượng "cổ điển" với **Biểu diễn tri thức** và lý luận ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* Các cách tiếp cận khác nhau với Trí tuệ nhân tạo, bao gồm cách tiếp cận biểu tượng "cổ điển" với **Biểu diễn tri thức** và suy luận ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Mạng nơ-ron** và **Học sâu**, là cốt lõi của AI hiện đại. Chúng tôi sẽ minh họa các khái niệm đằng sau những chủ đề quan trọng này bằng mã trong hai framework phổ biến nhất - [TensorFlow](http://Tensorflow.org) và [PyTorch](http://pytorch.org).  
 * **Kiến trúc nơ-ron** để làm việc với hình ảnh và văn bản. Chúng tôi sẽ đề cập đến các mô hình gần đây nhưng có thể chưa bao quát được những mô hình tiên tiến nhất.  
 * Các cách tiếp cận AI ít phổ biến hơn, như **Thuật toán di truyền** và **Hệ thống đa tác nhân**.  
@@ -57,9 +57,9 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 
 > [Tìm tất cả tài nguyên bổ sung cho khóa học này trong bộ sưu tập Microsoft Learn của chúng tôi](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Các trường hợp sử dụng **AI trong kinh doanh**. Hãy cân nhắc tham gia lộ trình học [Giới thiệu về AI cho người dùng kinh doanh](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) trên Microsoft Learn, hoặc [Trường Kinh doanh AI](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), được phát triển cùng với [INSEAD](https://www.insead.edu/).  
+* Các trường hợp sử dụng **AI trong kinh doanh**. Hãy cân nhắc tham gia lộ trình học [Giới thiệu về AI cho người dùng kinh doanh](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) trên Microsoft Learn, hoặc [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), được phát triển cùng với [INSEAD](https://www.insead.edu/).  
 * **Học máy cổ điển**, được mô tả chi tiết trong [Chương trình học Học máy cho người mới bắt đầu](http://github.com/Microsoft/ML-for-Beginners).  
-* Ứng dụng AI thực tế được xây dựng bằng **[Dịch vụ nhận thức](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Để bắt đầu, chúng tôi khuyến nghị các module Microsoft Learn về [thị giác](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [xử lý ngôn ngữ tự nhiên](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI tạo sinh với Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** và các module khác.  
+* Ứng dụng AI thực tế được xây dựng bằng **[Dịch vụ nhận thức](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Để bắt đầu, bạn có thể tham khảo các module Microsoft Learn về [thị giác](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [xử lý ngôn ngữ tự nhiên](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI tạo sinh với Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** và các module khác.  
 * Các **Framework đám mây ML** cụ thể, như [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), hoặc [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Hãy cân nhắc sử dụng lộ trình học [Xây dựng và vận hành giải pháp học máy với Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) và [Xây dựng và vận hành giải pháp học máy với Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
 * **AI hội thoại** và **Chat Bots**. Có một lộ trình học riêng [Tạo giải pháp AI hội thoại](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), và bạn cũng có thể tham khảo [bài viết blog này](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) để biết thêm chi tiết.  
 * **Toán học chuyên sâu** đằng sau học sâu. Để tìm hiểu thêm, chúng tôi khuyến nghị cuốn sách [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) của Ian Goodfellow, Yoshua Bengio và Aaron Courville, cũng có sẵn trực tuyến tại [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
@@ -74,13 +74,13 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 | I  |               [**Giới thiệu về AI**](./lessons/1-Intro/README.md)      | | |  
 | 01  |       [Giới thiệu và Lịch sử AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
 | II |              **AI biểu tượng**              |  
-| 02  |       [Biểu diễn tri thức và Hệ thống chuyên gia](./lessons/2-Symbolic/README.md)       |            [Hệ thống chuyên gia](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Đồ thị khái niệm](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
+| 02  |       [Biểu diễn tri thức và Hệ chuyên gia](./lessons/2-Symbolic/README.md)       |            [Hệ chuyên gia](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Đồ thị khái niệm](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
 | III |                        [**Giới thiệu về Mạng nơ-ron**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
 | 04  |                   [Perceptron Nhiều Lớp và Tạo Framework của Riêng Chúng Ta](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
-| 05  |            [Giới thiệu về Frameworks (PyTorch/TensorFlow) và Hiện Tượng Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| 05  |            [Giới Thiệu Frameworks (PyTorch/TensorFlow) và Hiện Tượng Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
 | IV  |            [**Thị Giác Máy Tính**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Khám Phá Thị Giác Máy Tính trên Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [Giới thiệu về Thị Giác Máy Tính. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| 06  |            [Giới Thiệu về Thị Giác Máy Tính. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Notebook](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Mạng Nơ-ron Tích Chập](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Kiến Trúc CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
 | 08  |            [Mạng Đã Được Huấn Luyện và Học Chuyển Giao](./lessons/4-ComputerVision/08-TransferLearning/README.md) và [Các Mẹo Huấn Luyện](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoencoders và VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
@@ -109,12 +109,12 @@ Những gì chúng tôi sẽ không đề cập trong chương trình này:
 
 * Tài liệu đọc trước
 * Các Jupyter Notebook có thể thực thi, thường được thiết kế riêng cho từng framework (**PyTorch** hoặc **TensorFlow**). Notebook này cũng chứa nhiều tài liệu lý thuyết, vì vậy để hiểu chủ đề, bạn cần xem qua ít nhất một phiên bản của notebook (dùng PyTorch hoặc TensorFlow).
-* **Labs** có sẵn cho một số chủ đề, giúp bạn có cơ hội áp dụng những gì đã học vào một vấn đề cụ thể.
+* **Labs** có sẵn cho một số chủ đề, giúp bạn có cơ hội áp dụng kiến thức đã học vào một vấn đề cụ thể.
 * Một số phần có liên kết đến các module [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) bao quát các chủ đề liên quan.
 
 ## Bắt Đầu
 
-### 🎯 Mới Bắt Đầu Với AI? Bắt Đầu Từ Đây!
+### 🎯 Mới Bắt Đầu Với AI? Bắt Đầu Tại Đây!
 
 Nếu bạn hoàn toàn mới với AI và muốn có các ví dụ thực hành nhanh chóng, hãy xem [**Các Ví Dụ Dành Cho Người Mới Bắt Đầu**](./examples/README.md)! Bao gồm:
 
@@ -136,13 +136,13 @@ Fork kho lưu trữ: Nhấn vào nút "Fork" ở góc trên bên phải của tr
 
 Clone kho lưu trữ: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Đừng quên gắn sao (🌟) cho kho lưu trữ này để dễ dàng tìm lại sau.
+Đừng quên gắn sao (🌟) kho lưu trữ này để dễ dàng tìm lại sau.
 
 ## Gặp gỡ các học viên khác
 
 Tham gia [máy chủ Discord AI chính thức](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) của chúng tôi để gặp gỡ và kết nối với các học viên khác đang tham gia khóa học này và nhận hỗ trợ.
 
-Nếu bạn có phản hồi về sản phẩm hoặc câu hỏi trong quá trình xây dựng, hãy truy cập [Diễn đàn Nhà phát triển Azure AI Foundry](https://aka.ms/foundry/forum)
+Nếu bạn có phản hồi về sản phẩm hoặc câu hỏi trong khi xây dựng, hãy truy cập [Diễn đàn Nhà phát triển Azure AI Foundry](https://aka.ms/foundry/forum)
 
 ## Câu hỏi trắc nghiệm
 
@@ -150,7 +150,7 @@ Nếu bạn có phản hồi về sản phẩm hoặc câu hỏi trong quá trì
 
 ## Cần sự giúp đỡ
 
-Bạn có đề xuất hoặc phát hiện lỗi chính tả hay mã? Hãy tạo một issue hoặc pull request.
+Bạn có đề xuất hoặc phát hiện lỗi chính tả hay lỗi mã? Hãy tạo một issue hoặc pull request.
 
 ## Lời cảm ơn đặc biệt
 
@@ -164,16 +164,22 @@ Bạn có đề xuất hoặc phát hiện lỗi chính tả hay mã? Hãy tạo
 
 Nhóm của chúng tôi sản xuất các chương trình học khác! Hãy xem qua:
 
-### Azure / Edge / MCP / Agents
-[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+### LangChain
+[![LangChain4j cho người mới bắt đầu](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js cho người mới bắt đầu](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 
 ---
 
-### Chuỗi AI Tạo sinh
-[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Azure / Edge / MCP / Agents
+[![AZD cho người mới bắt đầu](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI cho người mới bắt đầu](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP cho người mới bắt đầu](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents cho người mới bắt đầu](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Chuỗi Generative AI
+[![Generative AI cho người mới bắt đầu](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
@@ -181,24 +187,24 @@ Nhóm của chúng tôi sản xuất các chương trình học khác! Hãy xem 
 ---
 
 ### Học tập cốt lõi
-[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ML cho người mới bắt đầu](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Khoa học dữ liệu cho người mới bắt đầu](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI cho người mới bắt đầu](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![An ninh mạng cho người mới bắt đầu](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Phát triển Web cho người mới bắt đầu](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT cho người mới bắt đầu](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Phát triển XR cho người mới bắt đầu](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### Chuỗi Copilot
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot cho lập trình cặp AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot cho C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Cuộc phiêu lưu với Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 
 ## Nhận hỗ trợ
 
-Nếu bạn gặp khó khăn hoặc có bất kỳ câu hỏi nào về việc xây dựng ứng dụng AI. Hãy tham gia cùng các học viên khác và các nhà phát triển có kinh nghiệm trong các cuộc thảo luận về MCP. Đây là một cộng đồng hỗ trợ, nơi các câu hỏi được chào đón và kiến thức được chia sẻ tự do.
+Nếu bạn gặp khó khăn hoặc có bất kỳ câu hỏi nào về việc xây dựng ứng dụng AI, hãy tham gia cùng các học viên khác và các nhà phát triển có kinh nghiệm trong các cuộc thảo luận về MCP. Đây là một cộng đồng hỗ trợ, nơi các câu hỏi được chào đón và kiến thức được chia sẻ tự do.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -210,5 +216,5 @@ Nếu bạn có phản hồi về sản phẩm hoặc gặp lỗi trong quá tr�
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp của con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

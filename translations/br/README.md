@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T19:38:31+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T14:21:00+00:00",
   "source_file": "README.md",
   "language_code": "br"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | AI Para Iniciantes - _Sketchnote por [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Explore o mundo da **Inteligência Artificial** (IA) com nosso currículo de 12 semanas e 24 aulas! Ele inclui lições práticas, questionários e laboratórios. O currículo é amigável para iniciantes e aborda ferramentas como TensorFlow e PyTorch, além de ética em IA.  
+Explore o mundo da **Inteligência Artificial** (IA) com nosso currículo de 12 semanas e 24 aulas! Ele inclui lições práticas, questionários e laboratórios. O currículo é voltado para iniciantes e aborda ferramentas como TensorFlow e PyTorch, além de ética em IA.  
 
 ### 🌐 Suporte Multilíngue  
 
@@ -59,8 +59,8 @@ O que não será abordado neste currículo:
 
 * Casos de uso de **IA nos Negócios**. Considere fazer o caminho de aprendizado [Introdução à IA para usuários de negócios](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) no Microsoft Learn, ou [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), desenvolvido em cooperação com [INSEAD](https://www.insead.edu/).  
 * **Aprendizado de Máquina Clássico**, que está bem descrito em nosso [Currículo de Aprendizado de Máquina para Iniciantes](http://github.com/Microsoft/ML-for-Beginners).  
-* Aplicações práticas de IA construídas usando **[Serviços Cognitivos](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Para isso, recomendamos começar com os módulos do Microsoft Learn para [visão](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [processamento de linguagem natural](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[IA Generativa com Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** e outros.  
-* Frameworks específicos de ML **na Nuvem**, como [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ou [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Considere usar os caminhos de aprendizado [Construir e operar soluções de aprendizado de máquina com Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) e [Construir e operar soluções de aprendizado de máquina com Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* Aplicações práticas de IA construídas usando **[Serviços Cognitivos](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Para isso, recomendamos começar com os módulos do Microsoft Learn para [visão](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [processamento de linguagem natural](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[IA Generativa com o Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** e outros.  
+* Frameworks específicos de ML **na Nuvem**, como [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ou [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Considere usar os caminhos de aprendizado [Construir e operar soluções de aprendizado de máquina com o Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) e [Construir e operar soluções de aprendizado de máquina com o Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
 * **IA Conversacional** e **Chat Bots**. Há um caminho de aprendizado separado [Criar soluções de IA conversacional](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), e você também pode consultar [este post no blog](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) para mais detalhes.  
 * **Matemática Avançada** por trás do aprendizado profundo. Para isso, recomendamos [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) de Ian Goodfellow, Yoshua Bengio e Aaron Courville, que também está disponível online em [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
@@ -144,9 +144,9 @@ Junte-se ao nosso [servidor oficial de Discord de IA](https://aka.ms/genai-disco
 
 Se você tiver feedback sobre o produto ou dúvidas enquanto estiver desenvolvendo, visite nosso [Fórum de Desenvolvedores do Azure AI Foundry](https://aka.ms/foundry/forum)
 
-## Questionários
+## Questionários 
 
-> **Uma nota sobre os questionários**: Todos os questionários estão contidos na pasta Quiz-app em etc\quiz-app, ou [Online Aqui](https://ff-quizzes.netlify.app/). Eles estão vinculados dentro das lições, o aplicativo de questionário pode ser executado localmente ou implantado no Azure; siga as instruções na pasta `quiz-app`. Eles estão sendo gradualmente localizados.
+> **Uma nota sobre os questionários**: Todos os questionários estão contidos na pasta Quiz-app em etc\quiz-app, ou [Online Aqui](https://ff-quizzes.netlify.app/). Eles estão vinculados dentro das lições e o aplicativo de questionário pode ser executado localmente ou implantado no Azure; siga as instruções na pasta `quiz-app`. Eles estão sendo gradualmente localizados.
 
 ## Ajuda Necessária
 
@@ -156,7 +156,7 @@ Você tem sugestões ou encontrou erros de ortografia ou código? Abra uma issue
 
 * **✍️ Autor Principal:** [Dmitry Soshnikov](http://soshnikov.com), PhD
 * **🔥 Editora:** [Jen Looper](https://twitter.com/jenlooper), PhD
-* **🎨 Ilustradora de Sketchnotes:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **🎨 Ilustradora de Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Criadora de Questionários:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Contribuidores Principais:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
@@ -164,9 +164,15 @@ Você tem sugestões ou encontrou erros de ortografia ou código? Abra uma issue
 
 Nossa equipe produz outros currículos! Confira:
 
+### LangChain
+[![LangChain4j para Iniciantes](https://img.shields.io/badge/LangChain4j%20para%20Iniciantes-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js para Iniciantes](https://img.shields.io/badge/LangChain.js%20para%20Iniciantes-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
+
 ### Azure / Edge / MCP / Agentes
 [![AZD para Iniciantes](https://img.shields.io/badge/AZD%20para%20Iniciantes-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge IA para Iniciantes](https://img.shields.io/badge/Edge%20IA%20para%20Iniciantes-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI para Iniciantes](https://img.shields.io/badge/Edge%20AI%20para%20Iniciantes-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP para Iniciantes](https://img.shields.io/badge/MCP%20para%20Iniciantes-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Agentes de IA para Iniciantes](https://img.shields.io/badge/Agentes%20de%20IA%20para%20Iniciantes-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
@@ -180,7 +186,7 @@ Nossa equipe produz outros currículos! Confira:
 
 ---
 
-### Aprendizado Essencial
+### Aprendizado Central
 [![ML para Iniciantes](https://img.shields.io/badge/ML%20para%20Iniciantes-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Ciência de Dados para Iniciantes](https://img.shields.io/badge/Ciência%20de%20Dados%20para%20Iniciantes-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![IA para Iniciantes](https://img.shields.io/badge/IA%20para%20Iniciantes-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -210,5 +216,5 @@ Se você tiver feedback sobre o produto ou erros durante o desenvolvimento, visi
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Aviso Legal**:  
-Este documento foi traduzido usando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional humana. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional humana. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

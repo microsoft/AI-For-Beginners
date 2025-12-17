@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:17:33+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T14:56:17+00:00",
   "source_file": "README.md",
   "language_code": "sr"
 }
@@ -49,7 +49,7 @@ CO_OP_TRANSLATOR_METADATA:
 У овом курикулуму ћете научити:  
 
 * Различите приступе вештачкој интелигенцији, укључујући "добри стари" симболички приступ са **репрезентацијом знања** и резоновањем ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Неуронске мреже** и **дубоко учење**, који су у срцу модерне AI. Илустроваћемо концепте иза ових важних тема користећи код у два најпопуларнија оквира - [TensorFlow](http://Tensorflow.org) и [PyTorch](http://pytorch.org).  
+* **Неуронске мреже** и **дубоко учење**, који су у срцу модерне вештачке интелигенције. Илустроваћемо концепте иза ових важних тема користећи код у два најпопуларнија оквира - [TensorFlow](http://Tensorflow.org) и [PyTorch](http://pytorch.org).  
 * **Неуронске архитектуре** за рад са сликама и текстом. Покрићемо новије моделе, али можда нећемо обухватити најсавременије.  
 * Мање популарне AI приступе, као што су **генетски алгоритми** и **системи са више агената**.  
 
@@ -79,18 +79,18 @@ CO_OP_TRANSLATOR_METADATA:
 | 03  |                [Перцептрон](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Бележница](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Лабораторија](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
 | 04  |                   [Вишеслојни Перцептрон и креирање сопственог оквира](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Бележница](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Лабораторија](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Увод у оквире (PyTorch/TensorFlow) и пренапрегнутост](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторија](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
-| IV  |            [**Компјутерски вид**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Истражите компјутерски вид на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [Увод у компјутерски вид. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Бележница](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Лабораторија](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| IV  |            [**Рачунарски вид**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Истражите рачунарски вид на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [Увод у рачунарски вид. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Бележница](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Лабораторија](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
 | 07  |            [Конволуционе неуронске мреже](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Архитектуре CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Лабораторија](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [Унапред обучене мреже и трансфер учења](./lessons/4-ComputerVision/08-TransferLearning/README.md) и [Трикови за тренинг](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторија](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
-| 09  |            [Аутоенкодери и Варијациони аутоенкодери (VAEs)](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Генеративне противничке мреже (GANs) и пренос уметничког стила](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 08  |            [Унапред обучене мреже и трансфер учење](./lessons/4-ComputerVision/08-TransferLearning/README.md) и [Трикови за обуку](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторија](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 09  |            [Аутоенкодери и ВАЕ](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
+| 10  |            [Генеративне адверзаријалне мреже и пренос уметничког стила](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Детекција објеката](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Лабораторија](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Семантичка сегментација. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Обрада природног језика**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Истражите обраду природног језика на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
 | 13  |            [Репрезентација текста. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Семантички уграђивања речи. Word2Vec и GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Моделирање језика. Тренинг сопствених уграђивања](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Лабораторија](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 14  |            [Семантички уграђени модели речи. Word2Vec и GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Моделирање језика. Обука сопствених уграђених модела](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Лабораторија](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Рекурентне неуронске мреже](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
 | 17  |            [Генеративне рекурентне мреже](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Лабораторија](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Трансформери. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
@@ -107,9 +107,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Свака лекција садржи
 
-* Материјал за предчитање
-* Извршиве Jupyter бележнице, које су често специфичне за оквир (**PyTorch** или **TensorFlow**). Извршива бележница такође садржи доста теоријског материјала, па да бисте разумели тему, потребно је да прођете бар једну верзију бележнице (било PyTorch или TensorFlow).
-* **Лабораторије** доступне за неке теме, које вам пружају прилику да примените материјал који сте научили на одређени проблем.
+* Материјал за претходно читање
+* Извршиве Jupyter бележнице, које су често специфичне за оквир (**PyTorch** или **TensorFlow**). Извршива бележница такође садржи доста теоријског материјала, тако да је за разумевање теме потребно проћи барем једну верзију бележнице (било PyTorch или TensorFlow).
+* **Лабораторије** доступне за неке теме, које вам пружају прилику да примените научени материјал на одређени проблем.
 * Неке секције садрже линкове ка [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) модулима који покривају повезане теме.
 
 ## Почетак
@@ -119,7 +119,7 @@ CO_OP_TRANSLATOR_METADATA:
 Ако сте потпуно нови у вештачкој интелигенцији и желите брзе, практичне примере, погледајте наше [**Примере за почетнике**](./examples/README.md)! Они укључују:
 
 - 🌟 **Здраво, свет вештачке интелигенције** - Ваш први програм вештачке интелигенције (препознавање образаца)
-- 🧠 **Једноставна неуронска мрежа** - Направите неуронску мрежу од нуле  
+- 🧠 **Једноставна неуронска мрежа** - Изградите неуронску мрежу од нуле  
 - 🖼️ **Класификатор слика** - Класификујте слике са детаљним коментарима
 - 💬 **Анализа текста** - Анализирајте позитиван/негативан текст
 
@@ -144,13 +144,13 @@ Fork-ујте репозиторијум: Кликните на дугме "Fork
 
 Ако имате повратне информације о производу или питања током изградње, посетите наш [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
-## Квизови 
+## Квизови
 
 > **Напомена о квизовима**: Сви квизови се налазе у фасцикли Quiz-app у etc\quiz-app, или [онлајн овде](https://ff-quizzes.netlify.app/). Они су повезани унутар лекција, а апликација за квиз може се покренути локално или поставити на Azure; пратите упутства у фасцикли `quiz-app`. Постепено се локализују.
 
 ## Потребна помоћ
 
-Имате предлоге или сте пронашли правописне или кодне грешке? Отворите проблем или направите pull захтев.
+Имате предлоге или сте пронашли правописне или кодне грешке? Отворите питање или направите pull request.
 
 ## Посебна захвалност
 
@@ -158,17 +158,23 @@ Fork-ујте репозиторијум: Кликните на дугме "Fork
 * **🔥 Уредник:** [Џен Лупер](https://twitter.com/jenlooper), PhD
 * **🎨 Илустратор скица:** [Томоми Имура](https://twitter.com/girlie_mac)
 * **✅ Креатор квизова:** [Латифа Бело](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Главни сарадници:** [Јевгениј Пишчик](https://github.com/Pe4enIks)
+* **🙏 Главни сарадници:** [Евгениј Пишчик](https://github.com/Pe4enIks)
 
 ## Остали курикулуми
 
 Наш тим производи и друге курикулуме! Погледајте:
 
+### LangChain
+[![LangChain4j за почетнике](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js за почетнике](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
+
 ### Azure / Edge / MCP / Агенти
 [![AZD за почетнике](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI за почетнике](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP за почетнике](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Агенти за почетнике](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI агенти за почетнике](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
@@ -198,7 +204,7 @@ Fork-ујте репозиторијум: Кликните на дугме "Fork
 
 ## Добијање помоћи
 
-Ако запнете или имате било каква питања о изградњи AI апликација, придружите се другим учесницима и искусним програмерима у дискусијама о MCP. То је подржавајућа заједница где су питања добродошла, а знање се слободно дели.
+Ако запнете или имате било каква питања око изградње AI апликација, придружите се другим учесницима и искусним програмерима у дискусијама о MCP. То је подржавајућа заједница где су питања добродошла, а знање се слободно дели.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -210,5 +216,5 @@ Fork-ујте репозиторијум: Кликните на дугме "Fork
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Одрицање од одговорности**:  
-Овај документ је преведен помоћу услуге за превођење вештачке интелигенције [Co-op Translator](https://github.com/Azure/co-op-translator). Иако настојимо да обезбедимо тачност, молимо вас да имате у виду да аутоматски преводи могу садржати грешке или нетачности. Оригинални документ на изворном језику треба сматрати меродавним извором. За критичне информације препоручује се професионални превод од стране људи. Не преузимамо одговорност за било каква погрешна тумачења или неспоразуме који могу настати услед коришћења овог превода.
+Овај документ је преведен коришћењем услуге за превођење помоћу вештачке интелигенције [Co-op Translator](https://github.com/Azure/co-op-translator). Иако се трудимо да обезбедимо тачност, молимо вас да имате у виду да аутоматски преводи могу садржати грешке или нетачности. Оригинални документ на изворном језику треба сматрати ауторитативним извором. За критичне информације препоручује се професионални превод од стране људи. Не сносимо одговорност за било каква погрешна тумачења или неспоразуме који могу произаћи из коришћења овог превода.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

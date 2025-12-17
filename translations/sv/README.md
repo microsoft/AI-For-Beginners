@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T19:49:00+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T14:30:45+00:00",
   "source_file": "README.md",
   "language_code": "sv"
 }
@@ -50,7 +50,7 @@ I denna kursplan kommer du att lära dig:
 
 * Olika tillvägagångssätt för Artificiell Intelligens, inklusive det "gamla goda" symboliska tillvägagångssättet med **Kunskapsrepresentation** och resonemang ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
 * **Neurala Nätverk** och **Djupinlärning**, som är kärnan i modern AI. Vi kommer att illustrera koncepten bakom dessa viktiga ämnen med kod i två av de mest populära ramverken - [TensorFlow](http://Tensorflow.org) och [PyTorch](http://pytorch.org).  
-* **Neurala Arkitekturer** för att arbeta med bilder och text. Vi kommer att täcka aktuella modeller men kanske inte de allra senaste.  
+* **Neurala Arkitekturer** för att arbeta med bilder och text. Vi kommer att täcka moderna modeller men kanske inte de allra senaste.  
 * Mindre populära AI-metoder, såsom **Genetiska Algoritmer** och **Multi-Agent System**.  
 
 Vad vi inte kommer att täcka i denna kursplan:  
@@ -61,7 +61,7 @@ Vad vi inte kommer att täcka i denna kursplan:
 * **Klassisk Maskininlärning**, som är väl beskriven i vår [Maskininlärning för Nybörjare Kursplan](http://github.com/Microsoft/ML-for-Beginners).  
 * Praktiska AI-applikationer byggda med **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. För detta rekommenderar vi att du börjar med moduler på Microsoft Learn för [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [naturlig språkbehandling](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generativ AI med Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** och andra.  
 * Specifika ML **Molnramverk**, såsom [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), eller [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Överväg att använda [Bygg och driv maskininlärningslösningar med Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) och [Bygg och driv maskininlärningslösningar med Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) lärvägar.  
-* **Konverserande AI** och **Chatbots**. Det finns en separat [Skapa konverserande AI-lösningar](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) lärväg, och du kan också hänvisa till [detta blogginlägg](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) för mer detaljer.  
+* **Konversations-AI** och **Chattbotar**. Det finns en separat [Skapa konversations-AI-lösningar](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) lärväg, och du kan också hänvisa till [detta blogginlägg](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) för mer detaljer.  
 * **Djup Matematik** bakom djupinlärning. För detta skulle vi rekommendera [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) av Ian Goodfellow, Yoshua Bengio och Aaron Courville, som också är tillgänglig online på [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
 För en mjuk introduktion till _AI i Molnet_-ämnen kan du överväga att ta [Kom igång med artificiell intelligens på Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) lärväg.  
@@ -84,7 +84,7 @@ För en mjuk introduktion till _AI i Molnet_-ämnen kan du överväga att ta [Ko
 | 07  |            [Konvolutionella Neurala Nätverk](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [CNN Arkitekturer](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
 | 08  |            [Förtränade Nätverk och Transfer Learning](./lessons/4-ComputerVision/08-TransferLearning/README.md) och [Träningstips](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoenkodare och VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Generativa Adversariella Nätverk & Konstnärlig Stilöverföring](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 10  |            [Generativa Adversariella Nätverk & Artistisk Stilöverföring](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
 | 11  |            [Objektdetektering](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Semantisk Segmentering. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Naturlig Språkbehandling**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Utforska Naturlig Språkbehandling på Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
@@ -101,7 +101,7 @@ För en mjuk introduktion till _AI i Molnet_-ämnen kan du överväga att ta [Ko
 | 22  |            [Djup Förstärkningsinlärning](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
 | 23  |            [Multi-Agent System](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **AI Etik** | | |
-| 24  |            [AI Etik och Ansvarsfull AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Principer för Ansvarsfull AI](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| 24  |            [AI Etik och Ansvarsfull AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Ansvarsfull AI-principer](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Extras** | | |
 | 25  |            [Multi-Modala Nätverk, CLIP och VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
@@ -121,34 +121,34 @@ Om du är helt ny på AI och vill ha snabba, praktiska exempel, kolla in våra [
 - 🌟 **Hello AI World** - Ditt första AI-program (mönsterigenkänning)
 - 🧠 **Enkel Neuralt Nätverk** - Bygg ett neuralt nätverk från grunden  
 - 🖼️ **Bildklassificerare** - Klassificera bilder med detaljerade kommentarer
-- 💬 **Textkänsla** - Analysera positiv/negativ text
+- 💬 **Textanalys av känslor** - Analysera positiv/negativ text
 
-Dessa exempel är utformade för att hjälpa dig förstå AI-koncept innan du går vidare till hela kursplanen.
+Dessa exempel är utformade för att hjälpa dig förstå AI-koncept innan du dyker in i hela kursplanen.
 
-### 📚 Fullständig kursplan
+### 📚 Fullständig kursplan och installation
 
-- Vi har skapat en [introduktionslektion](./lessons/0-course-setup/setup.md) för att hjälpa dig med att ställa in din utvecklingsmiljö. - För lärare har vi också skapat en [kursplanintroduktion](./lessons/0-course-setup/for-teachers.md)!
-- Hur man [kör koden i VSCode eller Codepace](./lessons/0-course-setup/how-to-run.md)
+- Vi har skapat en [introduktionslektion](./lessons/0-course-setup/setup.md) för att hjälpa dig med att ställa in din utvecklingsmiljö. - För lärare har vi också skapat en [kursplaninstallation](./lessons/0-course-setup/for-teachers.md)!
+- Hur man [kör koden i VSCode eller en Codespace](./lessons/0-course-setup/how-to-run.md)
 
 Följ dessa steg:
 
-Forka repot: Klicka på "Fork"-knappen längst upp till höger på denna sida.
+Forka Repositoriet: Klicka på "Fork"-knappen längst upp till höger på denna sida.
 
-Klona repot: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Klona Repositoriet: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
 Glöm inte att stjärnmärka (🌟) detta repo för att lättare hitta det senare.
 
 ## Träffa andra deltagare
 
-Gå med i vår [officiella AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) för att träffa och nätverka med andra deltagare som tar denna kurs och få stöd.
+Gå med i vår [officiella AI Discord-server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) för att träffa och nätverka med andra deltagare som går denna kurs och få stöd.
 
-Om du har produktfeedback eller frågor under byggandet, besök vårt [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+Om du har produktfeedback eller frågor medan du bygger, besök vårt [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Quiz
 
-> **En notering om quiz**: Alla quiz finns i Quiz-app-mappen i etc\quiz-app, eller [Online Här](https://ff-quizzes.netlify.app/) De är länkade från lektionerna och quiz-appen kan köras lokalt eller distribueras till Azure; följ instruktionerna i `quiz-app`-mappen. De lokaliseras gradvis.
+> **En notis om quiz**: Alla quiz finns i mappen Quiz-app i etc\quiz-app, eller [Online Här](https://ff-quizzes.netlify.app/). De är länkade från lektionerna och quiz-appen kan köras lokalt eller distribueras till Azure; följ instruktionerna i `quiz-app`-mappen. De lokaliseras gradvis.
 
-## Hjälp sökes
+## Hjälp önskas
 
 Har du förslag eller hittat stavfel eller kodfel? Skapa ett ärende eller en pull request.
 
@@ -163,6 +163,12 @@ Har du förslag eller hittat stavfel eller kodfel? Skapa ett ärende eller en pu
 ## Andra kursplaner
 
 Vårt team producerar andra kursplaner! Kolla in:
+
+### LangChain
+[![LangChain4j för nybörjare](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js för nybörjare](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agenter
 [![AZD för nybörjare](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -202,7 +208,7 @@ Om du fastnar eller har frågor om att bygga AI-appar. Gå med andra deltagare o
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Om du har produktfeedback eller fel under byggandet, besök:
+Om du har produktfeedback eller stöter på fel medan du bygger, besök:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -210,5 +216,5 @@ Om du har produktfeedback eller fel under byggandet, besök:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör det noteras att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess ursprungliga språk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

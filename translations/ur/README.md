@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T19:15:09+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T13:59:07+00:00",
   "source_file": "README.md",
   "language_code": "ur"
 }
@@ -21,20 +21,20 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
 
-# مصنوعی ذہانت کے لیے ابتدائی رہنما - ایک نصاب  
+# مصنوعی ذہانت برائے ابتدائی افراد - ایک نصاب  
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ur.png)|  
+|![اسکیچ نوٹ از @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ur.png)|  
 |:---:|  
-| مصنوعی ذہانت کے لیے ابتدائی رہنما - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |  
+| مصنوعی ذہانت برائے ابتدائی افراد - _اسکیچ نوٹ از [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-**مصنوعی ذہانت** (AI) کی دنیا کو دریافت کریں ہمارے 12 ہفتوں کے 24 اسباق پر مشتمل نصاب کے ساتھ! اس میں عملی اسباق، کوئز اور لیبز شامل ہیں۔ یہ نصاب ابتدائی افراد کے لیے موزوں ہے اور TensorFlow اور PyTorch جیسے ٹولز کے ساتھ ساتھ AI میں اخلاقیات کا احاطہ کرتا ہے۔  
+**مصنوعی ذہانت** (AI) کی دنیا کو دریافت کریں ہمارے 12 ہفتوں کے، 24 اسباق پر مشتمل نصاب کے ساتھ! اس میں عملی اسباق، کوئز اور لیبز شامل ہیں۔ یہ نصاب ابتدائی افراد کے لیے موزوں ہے اور TensorFlow اور PyTorch جیسے ٹولز کے ساتھ ساتھ AI میں اخلاقیات کا احاطہ کرتا ہے۔  
 
-### 🌐 کثیر زبان کی حمایت  
+### 🌐 کثیر لسانی معاونت  
 
-#### GitHub Action کے ذریعے معاون (خودکار اور ہمیشہ تازہ ترین)  
+#### GitHub ایکشن کے ذریعے معاون (خودکار اور ہمیشہ تازہ ترین)  
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->  
-[عربی](../ar/README.md) | [بنگالی](../bn/README.md) | [بلغاریائی](../bg/README.md) | [برمی (میانمار)](../my/README.md) | [چینی (سادہ)](../zh/README.md) | [چینی (روایتی، ہانگ کانگ)](../hk/README.md) | [چینی (روایتی، مکاؤ)](../mo/README.md) | [چینی (روایتی، تائیوان)](../tw/README.md) | [کروشین](../hr/README.md) | [چیک](../cs/README.md) | [ڈینش](../da/README.md) | [ڈچ](../nl/README.md) | [ایسٹونین](../et/README.md) | [فنش](../fi/README.md) | [فرانسیسی](../fr/README.md) | [جرمن](../de/README.md) | [یونانی](../el/README.md) | [عبرانی](../he/README.md) | [ہندی](../hi/README.md) | [ہنگریائی](../hu/README.md) | [انڈونیشیائی](../id/README.md) | [اطالوی](../it/README.md) | [جاپانی](../ja/README.md) | [کنڑ](../kn/README.md) | [کوریائی](../ko/README.md) | [لتھوانیائی](../lt/README.md) | [ملائی](../ms/README.md) | [ملیالم](../ml/README.md) | [مراٹھی](../mr/README.md) | [نیپالی](../ne/README.md) | [نائجیرین پیجن](../pcm/README.md) | [نارویجین](../no/README.md) | [فارسی (ایرانی)](../fa/README.md) | [پولش](../pl/README.md) | [پرتگالی (برازیل)](../br/README.md) | [پرتگالی (پرتگال)](../pt/README.md) | [پنجابی (گرمکھی)](../pa/README.md) | [رومانیائی](../ro/README.md) | [روسی](../ru/README.md) | [سربیائی (سیریلک)](../sr/README.md) | [سلوواک](../sk/README.md) | [سلووینیائی](../sl/README.md) | [ہسپانوی](../es/README.md) | [سواحلی](../sw/README.md) | [سویڈش](../sv/README.md) | [ٹیگالوگ (فلپینی)](../tl/README.md) | [تمل](../ta/README.md) | [تیلگو](../te/README.md) | [تھائی](../th/README.md) | [ترکی](../tr/README.md) | [یوکرینی](../uk/README.md) | [اردو](./README.md) | [ویتنامی](../vi/README.md)  
+[عربی](../ar/README.md) | [بنگالی](../bn/README.md) | [بلغاریائی](../bg/README.md) | [برمی (میانمار)](../my/README.md) | [چینی (سادہ)](../zh/README.md) | [چینی (روایتی، ہانگ کانگ)](../hk/README.md) | [چینی (روایتی، مکاؤ)](../mo/README.md) | [چینی (روایتی، تائیوان)](../tw/README.md) | [کروشین](../hr/README.md) | [چیک](../cs/README.md) | [ڈینش](../da/README.md) | [ڈچ](../nl/README.md) | [ایسٹونین](../et/README.md) | [فنش](../fi/README.md) | [فرانسیسی](../fr/README.md) | [جرمن](../de/README.md) | [یونانی](../el/README.md) | [عبرانی](../he/README.md) | [ہندی](../hi/README.md) | [ہنگریائی](../hu/README.md) | [انڈونیشیائی](../id/README.md) | [اطالوی](../it/README.md) | [جاپانی](../ja/README.md) | [کنڑ](../kn/README.md) | [کوریائی](../ko/README.md) | [لیتھوینین](../lt/README.md) | [ملائی](../ms/README.md) | [ملیالم](../ml/README.md) | [مراٹھی](../mr/README.md) | [نیپالی](../ne/README.md) | [نائجیرین پیجن](../pcm/README.md) | [نارویجین](../no/README.md) | [فارسی](../fa/README.md) | [پولش](../pl/README.md) | [پرتگالی (برازیل)](../br/README.md) | [پرتگالی (پرتگال)](../pt/README.md) | [پنجابی (گرمکھی)](../pa/README.md) | [رومانیائی](../ro/README.md) | [روسی](../ru/README.md) | [سربیائی (سیریلیک)](../sr/README.md) | [سلوواک](../sk/README.md) | [سلووینیائی](../sl/README.md) | [ہسپانوی](../es/README.md) | [سواحلی](../sw/README.md) | [سویڈش](../sv/README.md) | [ٹیگالوگ (فلپائنی)](../tl/README.md) | [تمل](../ta/README.md) | [تیلگو](../te/README.md) | [تھائی](../th/README.md) | [ترکی](../tr/README.md) | [یوکرینی](../uk/README.md) | [اردو](./README.md) | [ویتنامی](../vi/README.md)  
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->  
 
 **اگر آپ اضافی زبانوں میں ترجمہ چاہتے ہیں تو معاون زبانوں کی فہرست [یہاں](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) موجود ہے۔**  
@@ -46,10 +46,10 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[کورس کا مائنڈ میپ](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-اس نصاب میں آپ سیکھیں گے:  
+اس نصاب میں، آپ سیکھیں گے:  
 
-* مصنوعی ذہانت کے مختلف طریقے، جن میں "پرانا اچھا" علامتی طریقہ شامل ہے جس میں **علم کی نمائندگی** اور استدلال ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)) شامل ہیں۔  
-* **نیورل نیٹ ورکس** اور **ڈیپ لرننگ**، جو جدید AI کا مرکز ہیں۔ ہم ان اہم موضوعات کے پیچھے تصورات کو دو مشہور فریم ورک - [TensorFlow](http://Tensorflow.org) اور [PyTorch](http://pytorch.org) میں کوڈ کے ذریعے واضح کریں گے۔  
+* مصنوعی ذہانت کے مختلف طریقے، جن میں "پرانا" علامتی طریقہ شامل ہے جس میں **علم کی نمائندگی** اور استدلال ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)) شامل ہیں۔  
+* **نیورل نیٹ ورکس** اور **ڈیپ لرننگ**، جو جدید AI کا مرکز ہیں۔ ہم ان اہم موضوعات کے تصورات کو دو مشہور فریم ورک - [TensorFlow](http://Tensorflow.org) اور [PyTorch](http://pytorch.org) میں کوڈ کے ذریعے واضح کریں گے۔  
 * **نیورل آرکیٹیکچرز** جو تصاویر اور متن کے ساتھ کام کرتے ہیں۔ ہم حالیہ ماڈلز کا احاطہ کریں گے لیکن جدید ترین میں کچھ کمی ہو سکتی ہے۔  
 * کم مقبول AI طریقے، جیسے **جینیٹک الگورتھمز** اور **ملٹی ایجنٹ سسٹمز**۔  
 
@@ -57,20 +57,20 @@ CO_OP_TRANSLATOR_METADATA:
 
 > [اس کورس کے تمام اضافی وسائل ہماری Microsoft Learn کلیکشن میں تلاش کریں](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* **AI کو کاروبار میں استعمال کرنے کے کاروباری کیسز**۔ [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ یا [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum)، جو [INSEAD](https://www.insead.edu/) کے تعاون سے تیار کی گئی ہے، لینے پر غور کریں۔  
+* **کاروبار میں AI کے استعمال کے کیسز**۔ Microsoft Learn پر [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) یا [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum) لینے پر غور کریں، جو [INSEAD](https://www.insead.edu/) کے تعاون سے تیار کیا گیا ہے۔  
 * **کلاسک مشین لرننگ**، جو ہمارے [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners) میں اچھی طرح بیان کی گئی ہے۔  
-* **Cognitive Services** کا استعمال کرتے ہوئے عملی AI ایپلیکیشنز۔ اس کے لیے، ہم تجویز کرتے ہیں کہ آپ Microsoft Learn کے ماڈیولز کے ساتھ شروع کریں جیسے [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum)، [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum)، **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** اور دیگر۔  
-* مخصوص ML **Cloud Frameworks**، جیسے [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum)، [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum)، یا [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)۔ [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) اور [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ لینے پر غور کریں۔  
-* **Conversational AI** اور **Chat Bots**۔ ایک الگ [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ موجود ہے، اور آپ مزید تفصیل کے لیے [اس بلاگ پوسٹ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) کا حوالہ دے سکتے ہیں۔  
-* **ڈیپ لرننگ کے پیچھے گہری ریاضی**۔ اس کے لیے، ہم تجویز کریں گے [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) از ایان گڈفیلو، یوشوا بینگیو اور ایرن کورویل، جو آن لائن بھی دستیاب ہے [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)۔  
+* **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** کا استعمال کرتے ہوئے عملی AI ایپلیکیشنز۔ اس کے لیے، ہم تجویز کرتے ہیں کہ آپ Microsoft Learn کے ماڈیولز سے آغاز کریں جیسے [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum)، [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum)، **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** اور دیگر۔  
+* مخصوص ML **کلاؤڈ فریم ورک**، جیسے [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum)، [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum)، یا [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)۔ [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) اور [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھز استعمال کرنے پر غور کریں۔  
+* **مکالماتی AI** اور **چیٹ بوٹس**۔ اس کے لیے ایک علیحدہ [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ موجود ہے، اور آپ مزید تفصیل کے لیے [اس بلاگ پوسٹ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) کا حوالہ دے سکتے ہیں۔  
+* **ڈیپ لرننگ کے پیچھے گہری ریاضی**۔ اس کے لیے، ہم تجویز کرتے ہیں [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) از ایان گڈفیلو، یوشوا بینگیو اور آرون کورویل، جو آن لائن بھی دستیاب ہے [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)۔  
 
-AI in the Cloud کے موضوعات پر نرم تعارف کے لیے آپ [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ لینے پر غور کر سکتے ہیں۔  
+کلاؤڈ میں _AI_ کے موضوعات کا نرم تعارف حاصل کرنے کے لیے آپ [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) لرننگ پاتھ لینے پر غور کر سکتے ہیں۔  
 
 # مواد  
 
 |     |                                                                 سبق کا لنک                                                                  |                                           PyTorch/Keras/TensorFlow                                          | لیب                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
-| 0  |                                 [کورس سیٹ اپ](./lessons/0-course-setup/setup.md)                                 |                      [اپنے ڈیولپمنٹ ماحول کو سیٹ اپ کریں](./lessons/0-course-setup/how-to-run.md)                       |   |  
+| 0  |                                 [کورس سیٹ اپ](./lessons/0-course-setup/setup.md)                                 |                      [اپنا ڈیولپمنٹ ماحول سیٹ اپ کریں](./lessons/0-course-setup/how-to-run.md)                       |   |  
 | I  |               [**مصنوعی ذہانت کا تعارف**](./lessons/1-Intro/README.md)      | | |  
 | 01  |       [مصنوعی ذہانت کا تعارف اور تاریخ](./lessons/1-Intro/README.md)       |           -                            | -  |  
 | II |              **علامتی AI**              |  
@@ -107,7 +107,7 @@ AI in the Cloud کے موضوعات پر نرم تعارف کے لیے آپ [Get
 
 ## ہر سبق میں شامل ہے
 
-* پہلے سے پڑھنے کا مواد  
+* پیشگی مطالعہ کا مواد  
 * قابل عمل Jupyter نوٹ بکس، جو اکثر فریم ورک (**PyTorch** یا **TensorFlow**) کے لیے مخصوص ہوتی ہیں۔ قابل عمل نوٹ بک میں بہت سا نظریاتی مواد بھی شامل ہوتا ہے، لہذا موضوع کو سمجھنے کے لیے آپ کو کم از کم نوٹ بک کے ایک ورژن (PyTorch یا TensorFlow) سے گزرنا ہوگا۔  
 * **لیبز** کچھ موضوعات کے لیے دستیاب ہیں، جو آپ کو سیکھے گئے مواد کو کسی خاص مسئلے پر لاگو کرنے کا موقع فراہم کرتی ہیں۔  
 * کچھ سیکشنز میں [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) ماڈیولز کے لنکس شامل ہیں جو متعلقہ موضوعات کا احاطہ کرتے ہیں۔
@@ -119,11 +119,11 @@ AI in the Cloud کے موضوعات پر نرم تعارف کے لیے آپ [Get
 اگر آپ AI میں بالکل نئے ہیں اور فوری، عملی مثالیں چاہتے ہیں، تو ہمارے [**ابتدائی دوستانہ مثالیں**](./examples/README.md) دیکھیں! ان میں شامل ہیں:
 
 - 🌟 **ہیلو AI ورلڈ** - آپ کا پہلا AI پروگرام (پیٹرن کی پہچان)  
-- 🧠 **سادہ نیورل نیٹ ورک** - شروع سے ایک نیورل نیٹ ورک بنائیں  
+- 🧠 **سادہ نیورل نیٹ ورک** - شروع سے نیورل نیٹ ورک بنائیں  
 - 🖼️ **امیج کلاسیفائر** - تفصیلی تبصروں کے ساتھ تصاویر کو کلاسیفائی کریں  
 - 💬 **متن کا جذباتی تجزیہ** - مثبت/منفی متن کا تجزیہ کریں
 
-یہ مثالیں آپ کو AI کے تصورات کو سمجھنے میں مدد دینے کے لیے بنائی گئی ہیں، تاکہ آپ مکمل نصاب میں داخل ہونے سے پہلے تیار ہو سکیں۔
+یہ مثالیں آپ کو AI کے تصورات کو سمجھنے میں مدد دینے کے لیے بنائی گئی ہیں تاکہ آپ مکمل نصاب میں داخل ہونے سے پہلے تیار ہو سکیں۔
 
 ### 📚 مکمل نصاب کی ترتیب
 
@@ -132,17 +132,17 @@ AI in the Cloud کے موضوعات پر نرم تعارف کے لیے آپ [Get
 
 ان مراحل کی پیروی کریں:
 
-ریپوزٹری کو فورک کریں: اس صفحے کے اوپر دائیں کونے میں "Fork" بٹن پر کلک کریں۔
+ریپوزیٹری کو فورک کریں: اس صفحے کے اوپر دائیں کونے میں "Fork" بٹن پر کلک کریں۔
 
-ریپوزٹری کو کلون کریں: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+ریپوزیٹری کو کلون کریں: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-اس ریپوزٹری کو بعد میں آسانی سے تلاش کرنے کے لیے اسے اسٹار (🌟) دینا نہ بھولیں۔
+اس ریپو کو بعد میں آسانی سے تلاش کرنے کے لیے اسے اسٹار (🌟) دینا نہ بھولیں۔
 
 ## دیگر سیکھنے والوں سے ملیں
 
 ہمارے [سرکاری AI ڈسکارڈ سرور](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) میں شامل ہوں تاکہ اس کورس کو لینے والے دیگر سیکھنے والوں سے ملاقات کریں اور نیٹ ورکنگ کریں اور مدد حاصل کریں۔
 
-اگر آپ کو پروڈکٹ کے بارے میں رائے یا سوالات ہوں تو ہمارے [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) پر جائیں۔
+اگر آپ کو پروڈکٹ کے بارے میں کوئی رائے یا سوالات ہوں تو ہمارے [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) پر جائیں۔
 
 ## کوئزز
 
@@ -158,47 +158,53 @@ AI in the Cloud کے موضوعات پر نرم تعارف کے لیے آپ [Get
 * **🔥 ایڈیٹر:** [جین لوپر](https://twitter.com/jenlooper), پی ایچ ڈی
 * **🎨 اسکیچ نوٹ مصور:** [تومومی ایمورا](https://twitter.com/girlie_mac)
 * **✅ کوئز تخلیق کار:** [لطیفہ بیلو](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 بنیادی شراکت دار:** [ایوگینی پشچک](https://github.com/Pe4enIks)
+* **🙏 بنیادی شراکت دار:** [ایوگینی پیشچک](https://github.com/Pe4enIks)
 
 ## دیگر نصاب
 
 ہماری ٹیم دیگر نصاب بھی تیار کرتی ہے! دیکھیں:
 
+### لینگ چین
+[![LangChain4j ابتدائیوں کے لیے](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js ابتدائیوں کے لیے](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
+
 ### Azure / Edge / MCP / ایجنٹس
-[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD ابتدائیوں کے لیے](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI ابتدائیوں کے لیے](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP ابتدائیوں کے لیے](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI ایجنٹس ابتدائیوں کے لیے](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### جنریٹیو AI سیریز
-[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+[![جنریٹیو AI ابتدائیوں کے لیے](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![جنریٹیو AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![جنریٹیو AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![جنریٹیو AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### بنیادی تعلیم
-[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ML ابتدائیوں کے لیے](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![ڈیٹا سائنس ابتدائیوں کے لیے](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI ابتدائیوں کے لیے](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![سائبر سیکیورٹی ابتدائیوں کے لیے](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![ویب ڈیولپمنٹ ابتدائیوں کے لیے](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT ابتدائیوں کے لیے](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR ڈیولپمنٹ ابتدائیوں کے لیے](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### کوپائلٹ سیریز
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![کوپائلٹ برائے AI جوڑی پروگرامنگ](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![کوپائلٹ برائے C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![کوپائلٹ ایڈونچر](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 
 ## مدد حاصل کریں
 
-اگر آپ کسی مسئلے میں پھنس جائیں یا AI ایپس بنانے کے بارے میں کوئی سوال ہو۔ ساتھی سیکھنے والوں اور تجربہ کار ڈویلپرز کے ساتھ MCP پر گفتگو میں شامل ہوں۔ یہ ایک معاون کمیونٹی ہے جہاں سوالات کا خیرمقدم کیا جاتا ہے اور علم آزادانہ طور پر شیئر کیا جاتا ہے۔
+اگر آپ کسی مسئلے میں پھنس جائیں یا AI ایپس بنانے کے بارے میں کوئی سوال ہو۔ دیگر سیکھنے والوں اور تجربہ کار ڈویلپرز کے ساتھ MCP پر گفتگو میں شامل ہوں۔ یہ ایک معاون کمیونٹی ہے جہاں سوالات کا خیرمقدم کیا جاتا ہے اور علم آزادانہ طور پر شیئر کیا جاتا ہے۔
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 

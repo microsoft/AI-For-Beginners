@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:34:14+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T15:08:53+00:00",
   "source_file": "README.md",
   "language_code": "pcm"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Make we waka enter di world of **Artificial Intelligence** (AI) wit dis 12-week, 24-lesson curriculum! E get practical lessons, quizzes, and labs. Di curriculum dey easy for beginners and e go teach tools like TensorFlow and PyTorch, plus di ethics wey dey AI.
+Make we waka inside di world of **Artificial Intelligence** (AI) wit dis 12-week, 24-lesson curriculum! E get practical lessons, quizzes, and labs. Di curriculum dey easy for beginners and e go teach tools like TensorFlow and PyTorch, plus di ethics wey dey AI.
 
 ### 🌐 Multi-Language Support
 
@@ -37,7 +37,7 @@ Make we waka enter di world of **Artificial Intelligence** (AI) wit dis 12-week,
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](./README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**If you wan make we add more translations, di languages wey we fit support dey [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**If you wan make we add more translations, di languages wey we fit support dey listed [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 ## Join di Community
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
@@ -57,14 +57,14 @@ Wetin we no go cover for dis curriculum:
 
 > [Find all extra resources for dis course for our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* How **AI dey work for Business**. You fit check [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path for Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), wey dem do wit [INSEAD](https://www.insead.edu/).
+* How **AI dey work for Business**. If you wan learn dis one, try [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path for Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), wey dem develop wit [INSEAD](https://www.insead.edu/).
 * **Classic Machine Learning**, wey dem explain well for our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).
-* How to use **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** for practical AI. For dis one, we suggest make you start wit Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** and others.
-* Specific ML **Cloud Frameworks**, like [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). You fit check [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) learning paths.
-* **Conversational AI** and **Chat Bots**. Dem get separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path, and you fit also check [dis blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more gist.
-* **Deep Mathematics** wey dey behind deep learning. For dis one, we suggest [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, wey dey online for [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+* How to use **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** for practical AI. For dis one, we recommend make you start wit Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** and others.
+* Specific ML **Cloud Frameworks**, like [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). You fit try [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) learning paths.
+* **Conversational AI** and **Chat Bots**. Dere dey separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path, and you fit also check [dis blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more info.
+* **Deep Mathematics** wey dey behind deep learning. For dis one, we recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, wey dey online for [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-For small intro to _AI for di Cloud_ topics, you fit check [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.
+If you wan soft introduction to _AI for di Cloud_ topics, you fit try [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.
 
 # Content
 
@@ -107,14 +107,14 @@ For small intro to _AI for di Cloud_ topics, you fit check [Get started with art
 
 ## Wetin dey inside each lesson
 
-* Material wey you go read before class
-* Jupyter Notebooks wey you fit run, and dem dey specific to framework (**PyTorch** or **TensorFlow**). Di notebook wey you fit run get plenty theory inside, so to sabi di topic well, you go need read at least one version of di notebook (either PyTorch or TensorFlow).
-* **Labs** dey for some topics, wey go give you chance to try wetin you don learn for one specific problem.
-* Some sections get links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules wey dey cover related topics.
+* Pre-reading material wey go help you understand di topic.
+* Jupyter Notebooks wey you fit run, dem dey specific to di framework (**PyTorch** or **TensorFlow**). Di notebook get plenty theory inside, so to sabi di topic well, you go need read at least one version of di notebook (either PyTorch or TensorFlow).
+* **Labs** dey for some topics, wey go give you chance to try wetin you don learn for real-life problem.
+* Some sections get links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules wey dey related to di topic.
 
 ## How to Start
 
-### 🎯 You be new person for AI? Start from here!
+### 🎯 You be newbie for AI? Start from here!
 
 If AI be new thing for you and you wan see quick, hands-on examples, check our [**Beginner-Friendly Examples**](./examples/README.md)! E include:
 
@@ -127,7 +127,7 @@ Dis examples go help you sabi AI concepts before you start di full curriculum.
 
 ### 📚 Full Curriculum Setup
 
-- We don create one [setup lesson](./lessons/0-course-setup/setup.md) to help you arrange your development environment. - For Teachers, we also get [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for una!
+- We don create one [setup lesson](./lessons/0-course-setup/setup.md) to guide you on how to set up your development environment. - For Teachers, we also get one [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for una!
 - How to [Run di code for VSCode or Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Follow dis steps:
@@ -136,7 +136,7 @@ Fork di Repository: Click di "Fork" button wey dey di top-right corner of dis pa
 
 Clone di Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-No forget to star (🌟) dis repo so you go fit find am later.
+No forget to star (🌟) dis repo so you fit find am easy later.
 
 ## Meet other Learners
 
@@ -146,7 +146,7 @@ If you get product feedback or questions while you dey build, visit our [Azure A
 
 ## Quizzes 
 
-> **A note about quizzes**: All di quizzes dey inside di Quiz-app folder for etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/) Dem dey linked from di lessons, di quiz app fit run locally or you fit deploy am to Azure; follow di instruction wey dey di `quiz-app` folder. Dem dey gradually localize am.
+> **A note about quizzes**: All quizzes dey inside di Quiz-app folder for etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/) Dem dey linked from di lessons, di quiz app fit run locally or you fit deploy am to Azure; follow di instruction wey dey di `quiz-app` folder. Dem dey gradually localize am.
 
 ## Help Wanted
 
@@ -163,6 +163,12 @@ You get suggestions or you see spelling or code errors? Raise an issue or create
 ## Other Curricula
 
 Our team dey produce other curricula! Check dem out:
+
+### LangChain
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agents
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -198,7 +204,7 @@ Our team dey produce other curricula! Check dem out:
 
 ## Getting Help
 
-If you dey stuck or you get any questions about how to build AI apps. Join other learners and experienced developers to discuss MCP. Na supportive community wey dey welcome questions and dey share knowledge freely.
+If you dey stuck or you get any questions about how to build AI apps. Join other learners and experienced developers to discuss MCP. E be supportive community wey dey welcome questions and dey share knowledge freely.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -210,5 +216,5 @@ If you get product feedback or errors while you dey build, visit:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Disclaimer**:  
-Dis dokyument don use AI transleto service [Co-op Translator](https://github.com/Azure/co-op-translator) do di translation. Even as we dey try make am accurate, abeg sabi say machine translation fit get mistake or no dey correct well. Di original dokyument for im native language na di main source wey you go trust. For important mata, e better make professional human transleto check am. We no go fit take blame for any misunderstanding or wrong interpretation wey fit happen because you use dis translation.
+Dis docu don use AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator) take translate am. Even though we dey try make e accurate, abeg sabi say automated translation fit get mistake or no correct well. Di original docu for di native language na di main correct source. For important information, e better make una use professional human translation. We no go fit take blame for any misunderstanding or wrong interpretation wey fit happen because of dis translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
