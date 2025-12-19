@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:04:19+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T14:44:36+00:00",
   "source_file": "README.md",
   "language_code": "tl"
 }
@@ -27,9 +27,9 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | AI Para sa mga Baguhan - _Sketchnote ni [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Tuklasin ang mundo ng **Artipisyal na Intelihensiya** (AI) gamit ang aming 12-linggong, 24-araling kurikulum! Kasama dito ang mga praktikal na leksyon, pagsusulit, at mga laboratoryo. Ang kurikulum ay madaling maunawaan para sa mga baguhan at sumasaklaw sa mga tool tulad ng TensorFlow at PyTorch, pati na rin ang etika sa AI.  
+Tuklasin ang mundo ng **Artipisyal na Intelihensiya** (AI) gamit ang aming 12-linggong, 24-aralin na kurikulum! Kasama dito ang mga praktikal na aralin, pagsusulit, at mga laboratoryo. Ang kurikulum ay madaling maunawaan para sa mga baguhan at sumasaklaw sa mga tool tulad ng TensorFlow at PyTorch, pati na rin ang etika sa AI.  
 
-### 🌐 Suporta sa Iba't Ibang Wika  
+### 🌐 Suporta sa Maraming Wika  
 
 #### Sinusuportahan sa pamamagitan ng GitHub Action (Awtomatiko at Laging Napapanahon)  
 
@@ -42,40 +42,40 @@ Tuklasin ang mundo ng **Artipisyal na Intelihensiya** (AI) gamit ang aming 12-li
 ## Sumali sa Komunidad  
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
 
-## Ano ang Matututuhan Mo  
+## Ano ang Matututunan Mo  
 
 **[Mindmap ng Kurso](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-Sa kurikulum na ito, matututuhan mo:  
+Sa kurikulum na ito, matututunan mo:  
 
-* Iba't ibang paraan sa Artipisyal na Intelihensiya, kabilang ang "lumang paraan" na simbolikong paraan gamit ang **Knowledge Representation** at pangangatwiran ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Neural Networks** at **Deep Learning**, na siyang sentro ng modernong AI. Ipapakita namin ang mga konsepto sa likod ng mga mahahalagang paksang ito gamit ang code sa dalawang pinakapopular na framework - [TensorFlow](http://Tensorflow.org) at [PyTorch](http://pytorch.org).  
+* Iba't ibang mga pamamaraan sa Artipisyal na Intelihensiya, kabilang ang "lumang paraan" na simbolikong diskarte gamit ang **Knowledge Representation** at pangangatwiran ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* **Neural Networks** at **Deep Learning**, na siyang sentro ng modernong AI. Ipapakita namin ang mga konsepto sa likod ng mga mahahalagang paksa gamit ang code sa dalawang pinakasikat na framework - [TensorFlow](http://Tensorflow.org) at [PyTorch](http://pytorch.org).  
 * **Neural Architectures** para sa pagproseso ng mga imahe at teksto. Tatalakayin namin ang mga kamakailang modelo ngunit maaaring kulang sa pinakabagong teknolohiya.  
-* Hindi gaanong popular na mga paraan ng AI, tulad ng **Genetic Algorithms** at **Multi-Agent Systems**.  
+* Mas hindi sikat na mga diskarte sa AI, tulad ng **Genetic Algorithms** at **Multi-Agent Systems**.  
 
 Ano ang hindi namin tatalakayin sa kurikulum na ito:  
 
 > [Hanapin ang lahat ng karagdagang mapagkukunan para sa kursong ito sa aming Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Mga kaso ng negosyo sa paggamit ng **AI sa Negosyo**. Isaalang-alang ang pagkuha ng [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path sa Microsoft Learn, o [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), na binuo kasama ang [INSEAD](https://www.insead.edu/).  
-* **Classic Machine Learning**, na mahusay na ipinaliwanag sa aming [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
-* Praktikal na aplikasyon ng AI gamit ang **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Para dito, inirerekomenda naming magsimula sa mga module ng Microsoft Learn para sa [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** at iba pa.  
+* Mga kaso sa negosyo ng paggamit ng **AI sa Negosyo**. Isaalang-alang ang pagkuha ng [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path sa Microsoft Learn, o [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), na binuo sa pakikipagtulungan sa [INSEAD](https://www.insead.edu/).  
+* **Classic Machine Learning**, na mahusay na nailarawan sa aming [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).  
+* Praktikal na aplikasyon ng AI na binuo gamit ang **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Para dito, inirerekumenda namin na magsimula sa mga module ng Microsoft Learn para sa [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** at iba pa.  
 * Mga partikular na ML **Cloud Frameworks**, tulad ng [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), o [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Isaalang-alang ang paggamit ng [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) at [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) learning paths.  
 * **Conversational AI** at **Chat Bots**. May hiwalay na [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path, at maaari ka ring sumangguni sa [blog post na ito](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) para sa higit pang detalye.  
-* **Malalim na Matematika** sa likod ng deep learning. Para dito, inirerekomenda namin ang [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) nina Ian Goodfellow, Yoshua Bengio at Aaron Courville, na makukuha rin online sa [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* **Malalim na Matematika** sa likod ng deep learning. Para dito, inirerekumenda namin ang [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) ni Ian Goodfellow, Yoshua Bengio at Aaron Courville, na makukuha rin online sa [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Para sa isang magaan na pagpapakilala sa mga paksang _AI sa Cloud_, maaari mong isaalang-alang ang pagkuha ng [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.  
+Para sa banayad na pagpapakilala sa mga paksa ng _AI sa Cloud_, maaari mong isaalang-alang ang pagkuha ng [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.  
 
 # Nilalaman  
 
 |     |                                                                 Link ng Aralin                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
-| 0  |                                 [Pag-setup ng Kurso](./lessons/0-course-setup/setup.md)                                 |                      [I-setup ang Iyong Development Environment](./lessons/0-course-setup/how-to-run.md)                       |   |  
-| I  |               [**Panimula sa AI**](./lessons/1-Intro/README.md)      | | |  
-| 01  |       [Panimula at Kasaysayan ng AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
+| 0  |                                 [Setup ng Kurso](./lessons/0-course-setup/setup.md)                                 |                      [I-setup ang Iyong Development Environment](./lessons/0-course-setup/how-to-run.md)                       |   |  
+| I  |               [**Introduksyon sa AI**](./lessons/1-Intro/README.md)      | | |  
+| 01  |       [Introduksyon at Kasaysayan ng AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
 | II |              **Simbolikong AI**              |  
 | 02  |       [Knowledge Representation at Expert Systems](./lessons/2-Symbolic/README.md)       |            [Expert Systems](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Concept Graph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
-| III |                        [**Panimula sa Neural Networks**](./lessons/3-NeuralNetworks/README.md) |||  
+| III |                        [**Introduksyon sa Neural Networks**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
 | 04  |                   [Multi-Layered Perceptron at Paglikha ng Sariling Framework](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Intro sa Frameworks (PyTorch/TensorFlow) at Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
@@ -108,26 +108,26 @@ Para sa isang magaan na pagpapakilala sa mga paksang _AI sa Cloud_, maaari mong 
 ## Bawat Aralin ay Naglalaman ng
 
 * Mga materyal na babasahin bago magsimula
-* Mga executable na Jupyter Notebooks, na madalas na partikular sa framework (**PyTorch** o **TensorFlow**). Ang executable notebook ay naglalaman din ng maraming teoretikal na materyal, kaya upang maunawaan ang paksa, kailangan mong dumaan sa kahit isang bersyon ng notebook (PyTorch o TensorFlow).
-* **Labs** na magagamit para sa ilang mga paksa, na nagbibigay sa iyo ng pagkakataon na subukan ang paglalapat ng mga natutunan sa isang partikular na problema.
+* Mga executable na Jupyter Notebooks, na kadalasang partikular sa framework (**PyTorch** o **TensorFlow**). Ang executable notebook ay naglalaman din ng maraming teoretikal na materyal, kaya upang maunawaan ang paksa, kailangan mong dumaan sa kahit isang bersyon ng notebook (PyTorch o TensorFlow).
+* **Labs** na magagamit para sa ilang mga paksa, na nagbibigay ng pagkakataon na subukan ang paglalapat ng mga natutunan sa isang partikular na problema.
 * Ang ilang mga seksyon ay naglalaman ng mga link sa [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules na sumasaklaw sa mga kaugnay na paksa.
 
 ## Pagsisimula
 
-### 🎯 Bago sa AI? Dito Magsimula!
+### 🎯 Bago sa AI? Simulan Dito!
 
 Kung ikaw ay ganap na bago sa AI at nais ng mabilis, hands-on na mga halimbawa, tingnan ang aming [**Mga Halimbawa para sa Baguhan**](./examples/README.md)! Kasama dito ang:
 
 - 🌟 **Hello AI World** - Ang iyong unang AI program (pattern recognition)
 - 🧠 **Simple Neural Network** - Gumawa ng neural network mula sa simula  
 - 🖼️ **Image Classifier** - Mag-classify ng mga imahe na may detalyadong mga komento
-- 💬 **Text Sentiment** - Suriin ang positibo/negatibong teksto
+- 💬 **Sentimyento ng Teksto** - Suriin ang positibo/negatibong teksto
 
 Ang mga halimbawang ito ay idinisenyo upang matulungan kang maunawaan ang mga konsepto ng AI bago sumabak sa buong kurikulum.
 
 ### 📚 Pagsasaayos ng Buong Kurikulum
 
-- Gumawa kami ng [aralin sa pagsasaayos](./lessons/0-course-setup/setup.md) upang matulungan ka sa pag-set up ng iyong development environment. - Para sa mga guro, gumawa rin kami ng [aralin sa pagsasaayos ng kurikulum](./lessons/0-course-setup/for-teachers.md)!
+- Nilikha namin ang isang [aralin sa pagsasaayos](./lessons/0-course-setup/setup.md) upang matulungan kang i-set up ang iyong development environment. - Para sa mga Guro, mayroon din kaming [aralin sa pagsasaayos ng kurikulum](./lessons/0-course-setup/for-teachers.md) para sa inyo!
 - Paano [Patakbuhin ang code sa VSCode o Codepace](./lessons/0-course-setup/how-to-run.md)
 
 Sundin ang mga hakbang na ito:
@@ -136,21 +136,21 @@ I-fork ang Repository: I-click ang "Fork" na button sa kanang-itaas na bahagi ng
 
 I-clone ang Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Huwag kalimutang i-star (🌟) ang repo na ito para mas madali mo itong mahanap sa hinaharap.
+Huwag kalimutang i-star (🌟) ang repo na ito upang mas madali mo itong mahanap sa susunod.
 
-## Makipagkilala sa Iba Pang Mga Nag-aaral
+## Makipagkilala sa Iba Pang Mga Mag-aaral
 
-Sumali sa aming [opisyal na AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) upang makipag-network sa iba pang mga nag-aaral na kumukuha ng kursong ito at makakuha ng suporta.
+Sumali sa aming [opisyal na AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) upang makipagkilala at makipag-network sa iba pang mga mag-aaral na kumukuha ng kursong ito at makakuha ng suporta.
 
 Kung mayroon kang feedback sa produkto o mga tanong habang gumagawa, bisitahin ang aming [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Mga Quiz
 
-> **Isang paalala tungkol sa mga quiz**: Ang lahat ng quiz ay matatagpuan sa Quiz-app folder sa etc\quiz-app, o [Online Dito](https://ff-quizzes.netlify.app/) Ang mga ito ay naka-link mula sa loob ng mga aralin. Ang quiz app ay maaaring patakbuhin nang lokal o i-deploy sa Azure; sundin ang mga tagubilin sa `quiz-app` folder. Ang mga ito ay unti-unting nilolokal.
+> **Isang paalala tungkol sa mga quiz**: Ang lahat ng mga quiz ay matatagpuan sa Quiz-app folder sa etc\quiz-app, o [Online Dito](https://ff-quizzes.netlify.app/) Ang mga ito ay naka-link mula sa loob ng mga aralin. Ang quiz app ay maaaring patakbuhin nang lokal o i-deploy sa Azure; sundin ang mga tagubilin sa `quiz-app` folder. Unti-unti itong nilolokal.
 
-## Tulong na Kailangan
+## Kailangan ng Tulong
 
-May mga mungkahi o nakakita ng mga maling spelling o code? Mag-raise ng issue o gumawa ng pull request.
+Mayroon ka bang mga mungkahi o nakakita ng mga pagkakamali sa spelling o code? Mag-raise ng isyu o gumawa ng pull request.
 
 ## Espesyal na Pasasalamat
 
@@ -158,47 +158,53 @@ May mga mungkahi o nakakita ng mga maling spelling o code? Mag-raise ng issue o 
 * **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD
 * **🎨 Sketchnote Illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Tagalikha ng Quiz:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Pangunahing Mga Kontribyutor:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+* **🙏 Pangunahing Kontribyutor:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
 ## Iba Pang Kurikulum
 
-Ang aming team ay gumagawa ng iba pang kurikulum! Tingnan:
+Ang aming koponan ay gumagawa rin ng iba pang mga kurikulum! Tingnan:
+
+### LangChain
+[![LangChain4j para sa mga Baguhan](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js para sa mga Baguhan](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agents
-[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD para sa mga Baguhan](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI para sa mga Baguhan](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP para sa mga Baguhan](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents para sa mga Baguhan](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### Generative AI Series
-[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Generative AI para sa mga Baguhan](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
 
-### Core Learning
-[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Pangunahing Pag-aaral
+[![ML para sa mga Baguhan](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science para sa mga Baguhan](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI para sa mga Baguhan](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Cybersecurity para sa mga Baguhan](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Web Dev para sa mga Baguhan](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT para sa mga Baguhan](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Pag-develop ng XR para sa mga Baguhan](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### Copilot Series
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot para sa AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot para sa C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 
 ## Pagkuha ng Tulong
 
-Kung ikaw ay nahihirapan o may mga tanong tungkol sa paggawa ng AI apps. Sumali sa mga kapwa nag-aaral at mga bihasang developer sa mga talakayan tungkol sa MCP. Ito ay isang suportadong komunidad kung saan ang mga tanong ay malugod na tinatanggap at ang kaalaman ay malayang ibinabahagi.
+Kung ikaw ay nahihirapan o may mga tanong tungkol sa paggawa ng AI apps. Sumali sa mga kapwa mag-aaral at mga bihasang developer sa mga talakayan tungkol sa MCP. Ito ay isang suportadong komunidad kung saan ang mga tanong ay malugod na tinatanggap at ang kaalaman ay malayang ibinabahagi.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -210,5 +216,5 @@ Kung mayroon kang feedback sa produkto o mga error habang gumagawa, bisitahin:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Paunawa**:  
-Ang dokumentong ito ay isinalin gamit ang AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Bagamat sinisikap naming maging tumpak, mangyaring tandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang katutubong wika ang dapat ituring na opisyal na pinagmulan. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na dulot ng paggamit ng pagsasaling ito.
+Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagamat sinisikap naming maging tumpak, pakitandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa orihinal nitong wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na dulot ng paggamit ng pagsasaling ito.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

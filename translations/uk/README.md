@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:25:45+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T15:02:34+00:00",
   "source_file": "README.md",
   "language_code": "uk"
 }
 -->
-[![Ліцензія GitHub](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
-[![Учасники GitHub](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
-[![Проблеми GitHub](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
-[![Запити на злиття GitHub](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
+[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
-[![Спостерігачі GitHub](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
-[![Форки GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
-[![Зірки GitHub](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)  
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
 
@@ -27,14 +27,14 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|  
 | Штучний інтелект для початківців - _Скетчнот від [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-Досліджуйте світ **Штучного інтелекту** (AI) за допомогою нашої 12-тижневої програми з 24 уроків! Вона включає практичні заняття, тести та лабораторні роботи. Програма розрахована на початківців і охоплює інструменти, такі як TensorFlow і PyTorch, а також етику в AI.  
+Досліджуйте світ **Штучного інтелекту** (ШІ) з нашою 12-тижневою навчальною програмою, що складається з 24 уроків! Вона включає практичні заняття, тести та лабораторні роботи. Програма розрахована на початківців і охоплює інструменти, такі як TensorFlow і PyTorch, а також етику в ШІ.  
 
-### 🌐 Підтримка багатомовності  
+### 🌐 Підтримка багатьох мов  
 
 #### Підтримується через GitHub Action (автоматично та завжди актуально)  
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->  
-[Арабська](../ar/README.md) | [Бенгальська](../bn/README.md) | [Болгарська](../bg/README.md) | [Бірманська (М'янма)](../my/README.md) | [Китайська (спрощена)](../zh/README.md) | [Китайська (традиційна, Гонконг)](../hk/README.md) | [Китайська (традиційна, Макао)](../mo/README.md) | [Китайська (традиційна, Тайвань)](../tw/README.md) | [Хорватська](../hr/README.md) | [Чеська](../cs/README.md) | [Данська](../da/README.md) | [Голландська](../nl/README.md) | [Естонська](../et/README.md) | [Фінська](../fi/README.md) | [Французька](../fr/README.md) | [Німецька](../de/README.md) | [Грецька](../el/README.md) | [Іврит](../he/README.md) | [Гінді](../hi/README.md) | [Угорська](../hu/README.md) | [Індонезійська](../id/README.md) | [Італійська](../it/README.md) | [Японська](../ja/README.md) | [Каннада](../kn/README.md) | [Корейська](../ko/README.md) | [Литовська](../lt/README.md) | [Малайська](../ms/README.md) | [Малаялам](../ml/README.md) | [Маратхі](../mr/README.md) | [Непальська](../ne/README.md) | [Нігерійський піджин](../pcm/README.md) | [Норвезька](../no/README.md) | [Перська (фарсі)](../fa/README.md) | [Польська](../pl/README.md) | [Португальська (Бразилія)](../br/README.md) | [Португальська (Португалія)](../pt/README.md) | [Пенджабі (Гурмухі)](../pa/README.md) | [Румунська](../ro/README.md) | [Російська](../ru/README.md) | [Сербська (кирилиця)](../sr/README.md) | [Словацька](../sk/README.md) | [Словенська](../sl/README.md) | [Іспанська](../es/README.md) | [Суахілі](../sw/README.md) | [Шведська](../sv/README.md) | [Тагальська (філіппінська)](../tl/README.md) | [Тамільська](../ta/README.md) | [Телугу](../te/README.md) | [Тайська](../th/README.md) | [Турецька](../tr/README.md) | [Українська](./README.md) | [Урду](../ur/README.md) | [В'єтнамська](../vi/README.md)  
+[Арабська](../ar/README.md) | [Бенгальська](../bn/README.md) | [Болгарська](../bg/README.md) | [Бірманська (М'янма)](../my/README.md) | [Китайська (спрощена)](../zh/README.md) | [Китайська (традиційна, Гонконг)](../hk/README.md) | [Китайська (традиційна, Макао)](../mo/README.md) | [Китайська (традиційна, Тайвань)](../tw/README.md) | [Хорватська](../hr/README.md) | [Чеська](../cs/README.md) | [Данська](../da/README.md) | [Голландська](../nl/README.md) | [Естонська](../et/README.md) | [Фінська](../fi/README.md) | [Французька](../fr/README.md) | [Німецька](../de/README.md) | [Грецька](../el/README.md) | [Іврит](../he/README.md) | [Гінді](../hi/README.md) | [Угорська](../hu/README.md) | [Індонезійська](../id/README.md) | [Італійська](../it/README.md) | [Японська](../ja/README.md) | [Каннада](../kn/README.md) | [Корейська](../ko/README.md) | [Литовська](../lt/README.md) | [Малайська](../ms/README.md) | [Малаялам](../ml/README.md) | [Маратхі](../mr/README.md) | [Непальська](../ne/README.md) | [Нігерійський піджин](../pcm/README.md) | [Норвезька](../no/README.md) | [Перська (фарсі)](../fa/README.md) | [Польська](../pl/README.md) | [Португальська (Бразилія)](../br/README.md) | [Португальська (Португалія)](../pt/README.md) | [Панджабі (Гурмухі)](../pa/README.md) | [Румунська](../ro/README.md) | [Російська](../ru/README.md) | [Сербська (кирилиця)](../sr/README.md) | [Словацька](../sk/README.md) | [Словенська](../sl/README.md) | [Іспанська](../es/README.md) | [Суахілі](../sw/README.md) | [Шведська](../sv/README.md) | [Тагальська (філіппінська)](../tl/README.md) | [Тамільська](../ta/README.md) | [Телугу](../te/README.md) | [Тайська](../th/README.md) | [Турецька](../tr/README.md) | [Українська](./README.md) | [Урду](../ur/README.md) | [В'єтнамська](../vi/README.md)  
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->  
 
 **Якщо ви хочете додати інші переклади, список підтримуваних мов доступний [тут](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**  
@@ -42,38 +42,38 @@ CO_OP_TRANSLATOR_METADATA:
 ## Приєднуйтесь до спільноти  
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
 
-## Що ви дізнаєтесь  
+## Чого ви навчитеся  
 
 **[Ментальна карта курсу](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-У цій навчальній програмі ви дізнаєтесь:  
+У цій навчальній програмі ви дізнаєтеся:  
 
-* Різні підходи до Штучного інтелекту, включаючи "старий добрий" символічний підхід із **Представленням знань** та логікою ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
-* **Нейронні мережі** та **Глибоке навчання**, які є основою сучасного AI. Ми ілюструємо концепції цих важливих тем за допомогою коду в двох найпопулярніших фреймворках - [TensorFlow](http://Tensorflow.org) та [PyTorch](http://pytorch.org).  
+* Різні підходи до Штучного інтелекту, включаючи "старий добрий" символічний підхід із **Представленням знань** і логікою ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).  
+* **Нейронні мережі** та **Глибоке навчання**, які є основою сучасного ШІ. Ми пояснимо концепції цих важливих тем за допомогою коду в двох найпопулярніших фреймворках - [TensorFlow](http://Tensorflow.org) і [PyTorch](http://pytorch.org).  
 * **Нейронні архітектури** для роботи із зображеннями та текстом. Ми розглянемо сучасні моделі, хоча вони можуть бути трохи застарілими.  
-* Менш популярні підходи до AI, такі як **Генетичні алгоритми** та **Системи з багатьма агентами**.  
+* Менш популярні підходи до ШІ, такі як **Генетичні алгоритми** та **Системи з багатьма агентами**.  
 
-Що ми не охоплюємо в цій навчальній програмі:  
+Що ми не будемо охоплювати в цій навчальній програмі:  
 
 > [Знайдіть усі додаткові ресурси для цього курсу в нашій колекції Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* Бізнес-кейси використання **AI у бізнесі**. Рекомендуємо пройти навчальний шлях [Вступ до AI для бізнес-користувачів](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) на Microsoft Learn або [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), розроблений у співпраці з [INSEAD](https://www.insead.edu/).  
+* Бізнес-кейси використання **ШІ в бізнесі**. Рекомендуємо пройти навчальний шлях [Вступ до ШІ для бізнес-користувачів](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) на Microsoft Learn або [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), розроблений у співпраці з [INSEAD](https://www.insead.edu/).  
 * **Класичне машинне навчання**, яке добре описане в нашій [Навчальній програмі з машинного навчання для початківців](http://github.com/Microsoft/ML-for-Beginners).  
-* Практичні застосування AI, побудовані за допомогою **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Для цього рекомендуємо почати з модулів Microsoft Learn для [комп'ютерного зору](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [обробки природної мови](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Генеративного AI з Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** та інших.  
-* Конкретні **хмарні фреймворки ML**, такі як [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) або [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Рекомендуємо пройти навчальні шляхи [Створення та управління рішеннями машинного навчання з Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) та [Створення та управління рішеннями машинного навчання з Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
-* **Розмовний AI** та **чат-боти**. Є окремий навчальний шлях [Створення рішень розмовного AI](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), а також можна звернутися до [цієї статті](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) для отримання додаткової інформації.  
-* **Глибока математика** глибокого навчання. Для цього рекомендуємо книгу [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) авторів Іана Гудфеллоу, Йошуа Бенджіо та Аарона Курвіля, яка також доступна онлайн за посиланням [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
+* Практичні застосування ШІ, створені за допомогою **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Для цього рекомендуємо почати з модулів Microsoft Learn для [комп'ютерного зору](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [обробки природної мови](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Генеративного ШІ з Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** та інших.  
+* Конкретні **хмарні фреймворки для машинного навчання**, такі як [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) або [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Рекомендуємо використовувати навчальні шляхи [Створення та управління рішеннями машинного навчання з Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) та [Створення та управління рішеннями машинного навчання з Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).  
+* **Розмовний ШІ** та **чат-боти**. Є окремий навчальний шлях [Створення рішень для розмовного ШІ](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), а також можна звернутися до [цієї статті](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) для отримання додаткової інформації.  
+* **Глибока математика** глибокого навчання. Для цього рекомендуємо книгу [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) авторів Ієна Гудфеллоу, Йошуа Бенджіо та Аарона Курвіля, яка також доступна онлайн за посиланням [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).  
 
-Для м'якого вступу до тем _AI у хмарі_ можна пройти навчальний шлях [Початок роботи зі штучним інтелектом на Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
+Для м'якого вступу до тем _ШІ в хмарі_ можна розглянути навчальний шлях [Початок роботи зі штучним інтелектом на Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).  
 
 # Зміст  
 
 |     |                                                                 Посилання на урок                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Лабораторна робота                                                            |  
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
 | 0  |                                 [Налаштування курсу](./lessons/0-course-setup/setup.md)                                 |                      [Налаштування середовища розробки](./lessons/0-course-setup/how-to-run.md)                       |   |  
-| I  |               [**Вступ до AI**](./lessons/1-Intro/README.md)      | | |  
-| 01  |       [Вступ та історія AI](./lessons/1-Intro/README.md)       |           -                            | -  |  
-| II |              **Символічний AI**              |  
+| I  |               [**Вступ до ШІ**](./lessons/1-Intro/README.md)      | | |  
+| 01  |       [Вступ та історія ШІ](./lessons/1-Intro/README.md)       |           -                            | -  |  
+| II |              **Символічний ШІ**              |  
 | 02  |       [Представлення знань та експертні системи](./lessons/2-Symbolic/README.md)       |            [Експертні системи](./lessons/2-Symbolic/Animals.ipynb) /  [Онтологія](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Граф концептів](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
 | III |                        [**Вступ до нейронних мереж**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Перцептрон](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Ноутбук](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Лабораторна робота](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
@@ -85,7 +85,7 @@ CO_OP_TRANSLATOR_METADATA:
 | 08  |            [Попередньо навчені мережі та перенесення навчання](./lessons/4-ComputerVision/08-TransferLearning/README.md) та [Трюки навчання](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Автокодувальники та VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
 | 10  |            [Генеративні змагальні мережі та перенесення художнього стилю](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
-| 11  |            [Розпізнавання об'єктів](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
+| 11  |            [Виявлення об'єктів](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Лабораторна робота](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Семантична сегментація. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
 | V  |            [**Обробка природної мови**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Дослідження обробки природної мови на Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
 | 13  |            [Представлення тексту. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
@@ -138,52 +138,58 @@ CO_OP_TRANSLATOR_METADATA:
 
 Не забудьте додати зірочку (🌟) цьому репозиторію, щоб легше знайти його пізніше.
 
-## Познайомтеся з іншими учнями
+## Знайомтеся з іншими учнями
 
-Приєднуйтесь до нашого [офіційного AI Discord-сервера](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), щоб познайомитися та спілкуватися з іншими учнями, які проходять цей курс, і отримувати підтримку.
+Приєднуйтесь до нашого [офіційного AI Discord-сервера](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), щоб знайомитися та спілкуватися з іншими учнями, які проходять цей курс, і отримувати підтримку.
 
 Якщо у вас є відгуки про продукт або питання під час створення, відвідайте наш [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
-## Тести
+## Вікторини 
 
-> **Примітка про тести**: Усі тести знаходяться в папці Quiz-app у etc\quiz-app або [онлайн тут](https://ff-quizzes.netlify.app/). Вони пов’язані з уроками, і додаток для тестів можна запускати локально або розгортати в Azure; дотримуйтесь інструкцій у папці `quiz-app`. Вони поступово локалізуються.
+> **Примітка про вікторини**: Усі вікторини знаходяться в папці Quiz-app у etc\quiz-app, або [онлайн тут](https://ff-quizzes.netlify.app/). Вони пов'язані з уроками, і додаток для вікторин можна запускати локально або розгортати в Azure; дотримуйтесь інструкцій у папці `quiz-app`. Вікторини поступово локалізуються.
 
 ## Потрібна допомога
 
-У вас є пропозиції або ви знайшли орфографічні чи кодові помилки? Створіть issue або pull request.
+Є пропозиції або знайшли орфографічні чи кодові помилки? Створіть issue або pull request.
 
 ## Особлива подяка
 
-* **✍️ Основний автор:** [Дмитро Сошніков](http://soshnikov.com), PhD
+* **✍️ Основний автор:** [Дмитро Сошников](http://soshnikov.com), PhD
 * **🔥 Редактор:** [Джен Лупер](https://twitter.com/jenlooper), PhD
 * **🎨 Ілюстратор скетчнотів:** [Томомі Імура](https://twitter.com/girlie_mac)
-* **✅ Автор тестів:** [Латіфа Белло](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **✅ Автор вікторин:** [Латіфа Белло](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Основні учасники:** [Євгеній Піщик](https://github.com/Pe4enIks)
 
 ## Інші курси
 
-Наша команда створює й інші курси! Ознайомтеся:
+Наша команда створює інші навчальні матеріали! Ознайомтеся:
 
-### Azure / Edge / MCP / Агенти
-[![AZD для початківців](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI для початківців](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP для початківців](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Агенти ШІ для початківців](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+### LangChain
+[![LangChain4j для початківців](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js для початківців](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 
 ---
 
-### Серія про генеративний ШІ
-[![Генеративний ШІ для початківців](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Генеративний ШІ (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Генеративний ШІ (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Генеративний ШІ (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+### Azure / Edge / MCP / Agents
+[![AZD для початківців](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI для початківців](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP для початківців](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents для початківців](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Серія Генеративного AI
+[![Генеративний AI для початківців](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Генеративний AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![Генеративний AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![Генеративний AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
 
 ### Основне навчання
-[![Машинне навчання для початківців](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Наука про дані для початківців](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![ШІ для початківців](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![ML для початківців](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science для початківців](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI для початківців](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Кібербезпека для початківців](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Веб-розробка для початківців](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT для початківців](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
@@ -191,14 +197,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-### Серія про Copilot
-[![Copilot для парного програмування з ШІ](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+### Серія Copilot
+[![Copilot для парного програмування з AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot для C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Пригоди з Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 
 ## Отримання допомоги
 
-Якщо ви застрягли або маєте питання щодо створення додатків з ШІ, приєднуйтесь до обговорень з іншими учнями та досвідченими розробниками про MCP. Це підтримуюча спільнота, де вітаються питання та вільно ділиться знаннями.
+Якщо ви застрягли або маєте питання щодо створення AI-додатків, приєднуйтесь до обговорень MCP з іншими учнями та досвідченими розробниками. Це підтримуюча спільнота, де питання вітаються, а знання діляться вільно.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -210,5 +216,5 @@ CO_OP_TRANSLATOR_METADATA:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Відмова від відповідальності**:  
-Цей документ був перекладений за допомогою сервісу автоматичного перекладу [Co-op Translator](https://github.com/Azure/co-op-translator). Хоча ми прагнемо до точності, будь ласка, майте на увазі, що автоматичні переклади можуть містити помилки або неточності. Оригінальний документ на його рідній мові слід вважати авторитетним джерелом. Для критичної інформації рекомендується професійний людський переклад. Ми не несемо відповідальності за будь-які непорозуміння або неправильні тлумачення, що виникають внаслідок використання цього перекладу.
+Цей документ було перекладено за допомогою сервісу автоматичного перекладу [Co-op Translator](https://github.com/Azure/co-op-translator). Хоча ми прагнемо до точності, звертаємо вашу увагу, що автоматичні переклади можуть містити помилки або неточності. Оригінальний документ на його рідній мові слід вважати авторитетним джерелом. Для критично важливої інформації рекомендується професійний людський переклад. Ми не несемо відповідальності за будь-які непорозуміння або неправильні тлумачення, що виникли внаслідок використання цього перекладу.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -1,81 +1,81 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:22:57+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T15:00:49+00:00",
   "source_file": "README.md",
   "language_code": "my"
 }
 -->
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)  
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)  
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)  
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
-[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)  
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)  
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)  
+[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)  
 
-[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
 
-# Artificial Intelligence for Beginners - A Curriculum
+# စတင်သူများအတွက် အတုအယောင် ဉာဏ်ရည် - သင်ရိုးညွှန်းတမ်း  
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.my.png)|
-|:---:|
-| AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.my.png)|  
+|:---:|  
+| စတင်သူများအတွက် AI - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |  
 
-**Artificial Intelligence** (AI) အကြောင်းကို ၁၂ ပတ်၊ ၂၄ သင်ခန်းစာများဖြင့် လေ့လာပါ။ သင်ခန်းစာများ၊ မေးခွန်းများနှင့် လက်တွေ့လေ့ကျင့်ခန်းများ ပါဝင်ပြီး စတင်လေ့လာသူများအတွက် သင့်တော်သည်။ TensorFlow နှင့် PyTorch ကိရိယာများအပြင် AI အကျင့်သိက္ခာများကိုလည်း လွှမ်းခြုံထားသည်။
+**Artificial Intelligence** (AI) ၏ ကမ္ဘာကို ၁၂ ပတ်၊ ၂၄ သင်ခန်းစာပါသော သင်ရိုးညွှန်းတမ်းဖြင့် လေ့လာလိုက်ပါ။ ၎င်းတွင် လက်တွေ့သင်ခန်းစာများ၊ စမ်းမေးခွန်းများနှင့် လက်တွေ့စမ်းသပ်ခန်းများ ပါဝင်သည်။ သင်ရိုးညွှန်းတမ်းသည် စတင်သူများအတွက် သင့်တော်ပြီး TensorFlow နှင့် PyTorch ကဲ့သို့သော ကိရိယာများနှင့် AI ၏ သမာသိဒ္ဓိများကိုလည်း ဖော်ပြထားသည်။  
 
-### 🌐 ဘာသာစကားများအထောက်အပံ့
+### 🌐 ဘာသာစကားများအထောက်အပံ့  
 
-#### GitHub Action မှတဆင့် အလိုအလျောက် (အမြဲနောက်ဆုံးပေါ်)
+#### GitHub Action မှတဆင့် ထောက်ပံ့ထားသည် (အလိုအလျောက်နှင့် အမြဲနောက်ဆုံးအခြေအနေ)  
 
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->  
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)  
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->  
 
-**အပိုဘာသာစကားများထည့်သွင်းလိုပါက [ဒီမှာ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ရှာဖွေပါ**
+**ထပ်မံသော ဘာသာစကားများကို ထည့်သွင်းလိုပါက [ဒီမှာ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ကြည့်ပါ**  
 
-## အသိုင်းအဝိုင်းနှင့် ပူးပေါင်းပါ
-[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+## အသိုင်းအဝိုင်းနှင့် ပူးပေါင်းပါ  
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
 
-## သင်လေ့လာမည့်အရာများ
+## သင်လေ့လာမည့်အရာများ  
 
-**[သင်ခန်းစာ၏ Mindmap](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[သင်တန်း၏ Mindmap](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**  
 
-ဒီသင်ခန်းစာတွင် သင်လေ့လာမည့်အရာများမှာ -
+ဒီသင်ရိုးညွှန်းတမ်းတွင် သင်လေ့လာမည့်အရာများမှာ-  
 
-* **Artificial Intelligence** အမျိုးမျိုးသောနည်းလမ်းများ၊ **Knowledge Representation** နှင့် reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)) အပါအဝင် "ရိုးရိုးရှင်းရှင်း" symbolic နည်းလမ်း။
-* **Neural Networks** နှင့် **Deep Learning**၊ ယခုခေတ် AI ၏ အခြေခံဖြစ်သည်။ TensorFlow နှင့် PyTorch ကဲ့သို့ framework နှစ်ခုကို အသုံးပြု၍ အဓိကအကြောင်းအရာများကို code ဖြင့် ရှင်းလင်းပြသမည်။
-* **Neural Architectures** ကို ရုပ်ပုံများနှင့် စာသားများနှင့်အလုပ်လုပ်ရန် အသုံးပြုခြင်း။ နောက်ဆုံးပေါ်မော်ဒယ်များကို လွှမ်းခြုံမည်ဖြစ်သော်လည်း state-of-the-art အပိုင်းတွင် အနည်းငယ်မလုံလောက်နိုင်ပါ။
-* **Genetic Algorithms** နှင့် **Multi-Agent Systems** ကဲ့သို့ နည်းနည်းနောက်ကျသော AI နည်းလမ်းများ။
+* **Artificial Intelligence** ၏ အမျိုးမျိုးသော နည်းလမ်းများ၊ အထူးသဖြင့် **Knowledge Representation** နှင့် **reasoning** ကို အသုံးပြုသော "ရိုးရာ" သင်္ချာနည်းလမ်း ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence))  
+* **Neural Networks** နှင့် **Deep Learning**၊ ယနေ့ခေတ် AI ၏ အခြေခံဖြစ်သော နည်းလမ်းများ။ ဒီအကြောင်းအရာများကို [TensorFlow](http://Tensorflow.org) နှင့် [PyTorch](http://pytorch.org) တို့တွင် ကုဒ်ဖြင့် ရှင်းပြမည်။  
+* ပုံနှင့် စာသားများအတွက် **Neural Architectures**။ နောက်ဆုံးပေါ် မော်ဒယ်များကို ဖော်ပြမည်ဖြစ်သော်လည်း အချို့နည်းနည်း နောက်ကျနိုင်သည်။  
+* နည်းနည်းသာ လူသိများသော AI နည်းလမ်းများ၊ **Genetic Algorithms** နှင့် **Multi-Agent Systems** ကဲ့သို့သော နည်းလမ်းများ။  
 
-ဒီသင်ခန်းစာတွင် မလွှမ်းခြုံထားသောအရာများ -
+ဒီသင်ရိုးညွှန်းတမ်းတွင် မပါဝင်မည့်အရာများ-  
 
-> [ဒီသင်ခန်းစာအတွက် အပိုအရင်းအမြစ်များကို Microsoft Learn collection တွင် ရှာဖွေပါ](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+> [ဒီသင်တန်းအတွက် အပိုအရင်းအမြစ်များကို Microsoft Learn collection တွင် ရှာဖွေပါ](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)  
 
-* **AI in Business** ကို အသုံးပြုခြင်းဆိုင်ရာ စီးပွားရေးအခွင့်အလမ်းများ။ [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်း သို့မဟုတ် [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum) ကို INSEAD နှင့် ပူးပေါင်းဖွံ့ဖြိုးထားသည်။
-* **Classic Machine Learning**၊ [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners) တွင် ကောင်းစွာဖော်ပြထားသည်။
-* **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ကို အသုံးပြု၍ Practical AI applications တည်ဆောက်ခြင်း။ [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** စသည်တို့ဖြင့် Microsoft Learn modules ကို စတင်ပါ။
-* **Cloud Frameworks** ML အထူးသီးသန့်များ၊ [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), သို့မဟုတ် [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum) ကဲ့သို့။ [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) နှင့် [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းများကို စတင်ပါ။
-* **Conversational AI** နှင့် **Chat Bots**။ [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်း သို့မဟုတ် [ဒီ blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) ကို အသေးစိတ်အချက်အလက်များအတွက် ရှာဖွေပါ။
-* **Deep Mathematics** deep learning အတွက်။ [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio နှင့် Aaron Courville ကို အကြံပြုပါသည်၊ [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) တွင်လည်း ရရှိနိုင်ပါသည်။
+* **AI in Business** ကို အသုံးပြုသော စီးပွားရေးအမှုအကွက်များ။ [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်း သို့မဟုတ် [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum) ကို လေ့လာပါ။  
+* **Classic Machine Learning**၊ [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners) တွင် ကောင်းစွာ ဖော်ပြထားသည်။  
+* **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ကို အသုံးပြု၍ တည်ဆောက်ထားသော လက်တွေ့ AI အပလီကေးရှင်းများ။  
+* **Cloud Frameworks** များ၊ [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum) ကဲ့သို့သော။  
+* **Conversational AI** နှင့် **Chat Bots**။ [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းကို ကြည့်ပါ။  
+* **Deep Mathematics**၊ [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) ကို အကြံပြုပါ။  
 
-_AI in the Cloud_ အကြောင်းကို သက်သာသောနည်းလမ်းဖြင့် စတင်လေ့လာလိုပါက [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းကို စတင်ပါ။
+Cloud အပေါ် AI ကို နူးညံ့စွာ စတင်လေ့လာလိုပါက [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းကို စတင်ပါ။  
 
-# အကြောင်းအရာ
+# အကြောင်းအရာ  
 
-|     |                                                                 သင်ခန်းစာလင့်ခ်                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
-| :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
-| 0  |                                 [သင်ခန်းစာ Setup](./lessons/0-course-setup/setup.md)                                 |                      [သင့် Development Environment ကို Setup လုပ်ပါ](./lessons/0-course-setup/how-to-run.md)                       |   |
-| I  |               [**AI အကျဉ်းချုပ်**](./lessons/1-Intro/README.md)      | | |
-| 01  |       [AI ၏ အကျဉ်းချုပ်နှင့် သမိုင်းကြောင်း](./lessons/1-Intro/README.md)       |           -                            | -  |
-| II |              **Symbolic AI**              |
-| 02  |       [Knowledge Representation နှင့် Expert Systems](./lessons/2-Symbolic/README.md)       |            [Expert Systems](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Concept Graph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
-| III |                        [**Neural Networks အကျဉ်းချုပ်**](./lessons/3-NeuralNetworks/README.md) |||
+|     |                                                                 သင်ခန်းစာလင့်ခ်                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |  
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |  
+| 0  |                                 [သင်တန်း Setup](./lessons/0-course-setup/setup.md)                                 |                      [သင့် Development Environment ကို Setup ပြုလုပ်ပါ](./lessons/0-course-setup/how-to-run.md)                       |   |  
+| I  |               [**AI အကြောင်းအကျဉ်း**](./lessons/1-Intro/README.md)      | | |  
+| 01  |       [AI ၏ အကျဉ်းချုပ်နှင့် သမိုင်းကြောင်း](./lessons/1-Intro/README.md)       |           -                            | -  |  
+| II |              **Symbolic AI**              |  
+| 02  |       [Knowledge Representation နှင့် Expert Systems](./lessons/2-Symbolic/README.md)       |            [Expert Systems](./lessons/2-Symbolic/Animals.ipynb) /  [Ontology](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Concept Graph](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |  
+| III |                        [**Neural Networks အကြောင်းအကျဉ်း**](./lessons/3-NeuralNetworks/README.md) |||  
 | 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Notebook](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
 | 04  |                   [Multi-Layered Perceptron နှင့် ကိုယ်ပိုင် Framework တည်ဆောက်ခြင်း](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Notebook](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
 | 05  |            [Frameworks (PyTorch/TensorFlow) နှင့် Overfitting အကြောင်းမိတ်ဆက်](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
@@ -108,27 +108,27 @@ _AI in the Cloud_ အကြောင်းကို သက်သာသောန�
 ## သင်ခန်းစာတိုင်းတွင် ပါဝင်သည်
 
 * ကြိုတင်ဖတ်ရှုရန် အကြောင်းအရာများ
-* **PyTorch** သို့မဟုတ် **TensorFlow** Framework အတွက် သီးသန့်ရေးသားထားသော Jupyter Notebooks များ။ ထို Notebooks များတွင် သီအိုရီဆိုင်ရာ အကြောင်းအရာများလည်း ပါဝင်ပြီး သင်ခန်းစာကို နားလည်ရန်အတွက် Notebook တစ်ခု (PyTorch သို့မဟုတ် TensorFlow) ကို အနည်းဆုံး လေ့လာဖတ်ရှုရန် လိုအပ်ပါသည်။
-* အချို့သော အခန်းများတွင် **Labs** ပါဝင်ပြီး သင်လေ့လာခဲ့သော အကြောင်းအရာများကို သတ်မှတ်ထားသော ပြဿနာတစ်ခုတွင် လက်တွေ့အသုံးချနိုင်စေသည်။
-* အချို့သော အပိုင်းများတွင် [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) တွင် ဆက်စပ်သော အကြောင်းအရာများကို လေ့လာနိုင်သော လင့်များ ပါဝင်သည်။
+* **PyTorch** သို့မဟုတ် **TensorFlow** Framework အတွက် သီးသန့်ဖြစ်သော Jupyter Notebooks များ။ ထို Notebook များတွင် သီအိုရီဆိုင်ရာ အကြောင်းအရာများလည်း ပါဝင်ပြီး သင်ခန်းစာကို နားလည်ရန်အတွက် Notebook တစ်ခု (PyTorch သို့မဟုတ် TensorFlow) ကို အနည်းဆုံး လေ့လာရမည်။
+* **Labs** များသည် အချို့သော အကြောင်းအရာများအတွက် ရရှိနိုင်ပြီး သင်လေ့လာထားသော အကြောင်းအရာများကို သတ်မှတ်ပြဿနာတစ်ခုတွင် လက်တွေ့အသုံးချရန် အခွင့်အလမ်းပေးသည်။
+* အချို့သော အပိုင်းများတွင် [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) တွင် ဆက်စပ်အကြောင်းအရာများကို လေ့လာရန် လင့်ခ်များ ပါဝင်သည်။
 
 ## စတင်ရန်
 
-### 🎯 AI အသစ်စတင်လေ့လာသူများအတွက်!
+### 🎯 AI အသစ်စတင်သူများအတွက်! ဒီနေရာမှ စတင်ပါ!
 
-သင် AI အကြောင်းကို လုံးဝအသစ်ဖြစ်ပြီး လက်တွေ့ လေ့လာမှုများကို စတင်လိုပါက [**Beginner-Friendly Examples**](./examples/README.md) ကို ကြည့်ပါ! ထိုအထဲတွင် ပါဝင်သည်မှာ -
+သင် AI အကြောင်းကို လုံးဝအသစ်ဖြစ်ပြီး လက်တွေ့လုပ်ဆောင်နိုင်သော ဥပမာများကို လိုအပ်ပါက [**Beginner-Friendly Examples**](./examples/README.md) ကို ကြည့်ပါ! ထိုအတွင်းတွင် ပါဝင်သည်မှာ -
 
 - 🌟 **Hello AI World** - သင့်ရဲ့ ပထမဆုံး AI အစီအစဉ် (pattern recognition)
 - 🧠 **ရိုးရှင်းသော Neural Network** - ကိုယ်ပိုင် Neural Network တစ်ခု တည်ဆောက်ခြင်း  
 - 🖼️ **Image Classifier** - ပုံများကို အမျိုးအစားခွဲခြားခြင်း (အသေးစိတ်မှတ်ချက်များပါဝင်သည်)
 - 💬 **စာသားခံစားချက်** - အပြုသဘော/အပြစ်သဘောစာသားများကို ခွဲခြားစစ်ဆေးပါ
 
-ဤဥပမာများသည် သင်၏ AI အကြောင်းအရာများကို နားလည်ရန် အကူအညီပေးရန် ရည်ရွယ်ထားပြီး အတန်းအစုံကို စတင်မတိုင်မီ သင်ယူနိုင်စေရန်ဖြစ်သည်။
+ဤဥပမာများသည် သင်၏ AI အကြောင်းအရာများကို နားလည်ရန် အကူအညီပေးရန် ရည်ရွယ်ထားပြီး အတန်းအစုံကို စတင်မတိုင်မီဖြစ်ပါသည်။
 
 ### 📚 အတန်းအစုံ စတင်ခြင်း
 
-- သင်၏ ဖွံ့ဖြိုးရေးပတ်ဝန်းကျင်ကို စတင်ဖွဲ့စည်းရန်အတွက် [စတင်သင်ခန်းစာ](./lessons/0-course-setup/setup.md) တစ်ခုကို ဖန်တီးထားပါသည်။ - ဆရာ/ဆရာမများအတွက်လည်း [သင်ရိုးဖွဲ့စည်းမှု သင်ခန်းစာ](./lessons/0-course-setup/for-teachers.md) တစ်ခုကို ဖန်တီးထားပါသည်။
-- [VSCode သို့မဟုတ် Codepace တွင် ကုဒ်ကို အလုပ်လုပ်စေခြင်း](./lessons/0-course-setup/how-to-run.md) နည်းလမ်း
+- သင်၏ ဖွံ့ဖြိုးရေးပတ်ဝန်းကျင်ကို စတင်ဖွဲ့စည်းရန်အတွက် [စတင်သင်ခန်းစာ](./lessons/0-course-setup/setup.md) တစ်ခုကို ဖန်တီးထားပါသည်။ - ဆရာများအတွက်လည်း [သင်ရိုးညွှန်းတန်း စတင်သင်ခန်းစာ](./lessons/0-course-setup/for-teachers.md) တစ်ခုကို ဖန်တီးထားပါသည်။
+- [VSCode သို့မဟုတ် Codepace တွင် ကုဒ်ကို အလုပ်လုပ်ရန်](./lessons/0-course-setup/how-to-run.md) နည်းလမ်း
 
 ဤအဆင့်များကို လိုက်နာပါ-
 
@@ -136,21 +136,21 @@ Repository ကို Fork လုပ်ပါ- ဤစာမျက်နှာ၏ 
 
 Repository ကို Clone လုပ်ပါ- `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-ဤ repo ကို နောက်မှ လွယ်ကူစွာ ရှာဖွေရန်အတွက် star (🌟) လုပ်ရန် မမေ့ပါနှင့်။
+ဤ repo ကို နောက်မှ လွယ်ကူစွာ ရှာဖွေရန်အတွက် star (🌟) ထားရန် မမေ့ပါနှင့်။
 
 ## အခြား သင်ယူသူများနှင့် တွေ့ဆုံပါ
 
-ဤသင်တန်းကို လေ့လာနေသော အခြား သင်ယူသူများနှင့် တွေ့ဆုံပြီး ဆက်သွယ်ရန်နှင့် အကူအညီရရန် [တရားဝင် AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) ကို ဝင်ပါ။
+ဤသင်တန်းကို လေ့လာနေသော အခြား သင်ယူသူများနှင့် တွေ့ဆုံရန်နှင့် အကူအညီရရန် [တရားဝင် AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) ကို ဝင်ပါ။
 
-ထုတ်ကုန်အကြံပြုချက်များ သို့မဟုတ် တည်ဆောက်နေစဉ် မေးခွန်းများရှိပါက [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) သို့ သွားပါ။
+ထုတ်ကုန်အကြံပြုချက်များ သို့မဟုတ် ဖန်တီးနေစဉ် မေးခွန်းများရှိပါက [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) သို့ သွားပါ။
 
-## မေးခွန်းများ 
+## မေးခွန်းများ
 
-> **မေးခွန်းများအကြောင်း မှတ်ချက်**: မေးခွန်းအားလုံးကို Quiz-app ဖိုလ်ဒါ etc\quiz-app တွင် သို့မဟုတ် [အွန်လိုင်းတွင်](https://ff-quizzes.netlify.app/) တွေ့နိုင်ပါသည်။ မေးခွန်းများကို သင်ခန်းစာများတွင် ချိတ်ဆက်ထားပြီး quiz app ကို ဒေသတွင်းတွင် အလုပ်လုပ်စေခြင်း သို့မဟုတ် Azure သို့ တင်သွင်းနိုင်ပါသည်။ `quiz-app` ဖိုလ်ဒါတွင် လမ်းညွှန်ချက်များကို လိုက်နာပါ။ မေးခွန်းများကို တဖြည်းဖြည်း ဒေသခံပြုလုပ်နေပါသည်။
+> **မေးခွန်းများအကြောင်း မှတ်ချက်**: မေးခွန်းအားလုံးကို Quiz-app ဖိုလ်ဒါ etc\quiz-app တွင် သို့မဟုတ် [အွန်လိုင်းတွင်](https://ff-quizzes.netlify.app/) တွေ့နိုင်ပါသည်။ မေးခွန်းများကို သင်ခန်းစာများတွင် ချိတ်ဆက်ထားပြီး quiz app ကို ဒေသတွင်းတွင် အလုပ်လုပ်စေခြင်း သို့မဟုတ် Azure သို့ တင်နိုင်ပါသည်။ `quiz-app` ဖိုလ်ဒါတွင် လမ်းညွှန်ချက်များကို လိုက်နာပါ။ မေးခွန်းများကို တဖြည်းဖြည်း ဒေသခံပြုလုပ်နေပါသည်။
 
 ## အကူအညီလိုအပ်သည်
 
-အကြံပြုချက်များရှိပါသလား သို့မဟုတ် စာလုံးပေါင်း သို့မဟုတ် ကုဒ်အမှားများကို ရှာဖွေတွေ့ရှိပါသလား? Issue တစ်ခုကို ထူထောင်ပါ သို့မဟုတ် pull request တစ်ခုကို ဖန်တီးပါ။
+အကြံပြုချက်များရှိပါသလား သို့မဟုတ် စာလုံးပေါင်း သို့မဟုတ် ကုဒ်အမှားများကို ရှာဖွေပါသလား? Issue တစ်ခုကို ထူထောင်ပါ သို့မဟုတ် pull request တစ်ခုကို ဖန်တီးပါ။
 
 ## အထူးကျေးဇူးတင်ပါသည်
 
@@ -160,9 +160,15 @@ Repository ကို Clone လုပ်ပါ- `git clone https://github.com/mic
 * **✅ မေးခွန်းဖန်တီးသူ:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 အဓိကပံ့ပိုးသူများ:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## အခြား သင်ရိုးများ
+## အခြား သင်ရိုးညွှန်းတန်းများ
 
-ကျွန်ုပ်တို့၏အဖွဲ့သည် အခြား သင်ရိုးများကိုလည်း ထုတ်လုပ်ပါသည်။ ကြည့်ပါ-
+ကျွန်ုပ်တို့၏အဖွဲ့သည် အခြား သင်ရိုးညွှန်းတန်းများကိုလည်း ထုတ်လုပ်ပါသည်။ ကြည့်ပါ-
+
+### LangChain
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agents
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -198,17 +204,17 @@ Repository ကို Clone လုပ်ပါ- `git clone https://github.com/mic
 
 ## အကူအညီရယူခြင်း
 
-AI အက်ပ်များ တည်ဆောက်ရာတွင် အခက်အခဲရှိပါက သို့မဟုတ် မေးခွန်းများရှိပါက MCP အကြောင်းအရာများကို ဆွေးနွေးရန် fellow learners နှင့် အတွေ့အကြုံရှိ ဖွံ့ဖြိုးရေးသူများနှင့် ပူးပေါင်းပါ။ ဤသည်မှာ မေးခွန်းများကို ကြိုဆိုပြီး အသိပညာကို လွတ်လပ်စွာ မျှဝေသော ပံ့ပိုးမှုရှိသော အသိုင်းအဝိုင်းဖြစ်သည်။
+AI အက်ပ်များ ဖန်တီးရာတွင် အခက်အခဲရှိပါက သို့မဟုတ် မေးခွန်းများရှိပါက MCP အကြောင်းအရာများကို ဆွေးနွေးရန် fellow learners နှင့် အတွေ့အကြုံရှိ ဖွံ့ဖြိုးရေးသူများနှင့် ပူးပေါင်းပါ။ ဤသည်မှာ မေးခွန်းများကို ကြိုဆိုပြီး အသိပညာကို လွတ်လပ်စွာ မျှဝေသော ပံ့ပိုးမှုရှိသော အသိုင်းအဝိုင်းဖြစ်ပါသည်။
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-ထုတ်ကုန်အကြံပြုချက်များ သို့မဟုတ် တည်ဆောက်နေစဉ် အမှားများရှိပါက-
+ထုတ်ကုန်အကြံပြုချက်များ သို့မဟုတ် ဖန်တီးစဉ် အမှားများရှိပါက-
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတရ အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူက ဘာသာပြန်မှုကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+**ဝန်ခံချက်**:  
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက်ဘာသာပြန်ခြင်းတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူလဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတည်သော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော နားလည်မှုမှားများ သို့မဟုတ် အဓိပ္ပါယ်မှားများအတွက် ကျွန်ုပ်တို့ တာဝန်မယူပါ။
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

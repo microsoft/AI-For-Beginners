@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "52a6a6a14341e1cc2546c2bc17ba7e32",
-  "translation_date": "2025-12-12T20:32:03+00:00",
+  "original_hash": "37ee7f47d982b98152785f96eefd5ffc",
+  "translation_date": "2025-12-17T15:07:06+00:00",
   "source_file": "README.md",
   "language_code": "et"
 }
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Tehisintellekt algajatele - _Sketchnote autorilt [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Avasta **tehisintellekti** (AI) maailma meie 12-nädalase, 24-õppetunniga õppekava abil! See sisaldab praktilisi tunde, teste ja laboreid. Õppekava on algajasõbralik ja hõlmab tööriistu nagu TensorFlow ja PyTorch ning käsitleb ka AI eetikat.
+Avasta **tehisintellekti** (AI) maailma meie 12-nädalase, 24-õppetunniga õppekava abil! See sisaldab praktilisi tunde, teste ja laboreid. Õppekava on algajasõbralik ja hõlmab tööriistu nagu TensorFlow ja PyTorch ning ka AI eetikat.
 
 ### 🌐 Mitmekeelne tugi
 
@@ -37,7 +37,7 @@ Avasta **tehisintellekti** (AI) maailma meie 12-nädalase, 24-õppetunniga õppe
 [Araabia](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgaaria](../bg/README.md) | [Birma (Myanmar)](../my/README.md) | [Hiina (lihtsustatud)](../zh/README.md) | [Hiina (traditsiooniline, Hongkong)](../hk/README.md) | [Hiina (traditsiooniline, Macau)](../mo/README.md) | [Hiina (traditsiooniline, Taiwan)](../tw/README.md) | [Horvaatia](../hr/README.md) | [Tšehhi](../cs/README.md) | [Taani](../da/README.md) | [Hollandi](../nl/README.md) | [Eesti](./README.md) | [Soome](../fi/README.md) | [Prantsuse](../fr/README.md) | [Saksa](../de/README.md) | [Kreeka](../el/README.md) | [Heebrea](../he/README.md) | [Hindi](../hi/README.md) | [Ungari](../hu/README.md) | [Indoneesia](../id/README.md) | [Itaalia](../it/README.md) | [Jaapani](../ja/README.md) | [Kannada](../kn/README.md) | [Korea](../ko/README.md) | [Leedu](../lt/README.md) | [Malai](../ms/README.md) | [Malajalami](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigeeria pidgin](../pcm/README.md) | [Norra](../no/README.md) | [Pärsia (Farsi)](../fa/README.md) | [Poola](../pl/README.md) | [Portugali (Brasiilia)](../br/README.md) | [Portugali (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Rumeenia](../ro/README.md) | [Vene](../ru/README.md) | [Serbia (kirillitsa)](../sr/README.md) | [Slovaki](../sk/README.md) | [Sloveeni](../sl/README.md) | [Hispaania](../es/README.md) | [Suahiili](../sw/README.md) | [Rootsi](../sv/README.md) | [Tagalogi (Filipiinid)](../tl/README.md) | [Tamili](../ta/README.md) | [Telugu](../te/README.md) | [Tai](../th/README.md) | [Türgi](../tr/README.md) | [Ukraina](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnami](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Kui soovite lisada täiendavaid tõlkeid, on toetatud keeled loetletud [siin](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Kui soovite lisada täiendavaid tõlkeid, toetatud keeled on loetletud [siin](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 ## Liitu kogukonnaga
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
@@ -48,23 +48,23 @@ Avasta **tehisintellekti** (AI) maailma meie 12-nädalase, 24-õppetunniga õppe
 
 Selles õppekavas õpid:
 
-* Erinevaid lähenemisviise tehisintellektile, sealhulgas "vana hea" sümboolse lähenemisega **teadmiste esitus** ja järeldamine ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
-* **Neuraalvõrgud** ja **sügavõpe**, mis on kaasaegse AI tuumaks. Selgitame nende oluliste teemade kontseptsioone koodiga kahes populaarseimas raamistikus - [TensorFlow](http://Tensorflow.org) ja [PyTorch](http://pytorch.org).
-* **Neuraalsed arhitektuurid** piltide ja tekstiga töötamiseks. Käsitleme hiljutisi mudeleid, kuid võib-olla jääme veidi maha tipptasemest.
-* Vähem levinud AI lähenemisviise, nagu **geneetilised algoritmid** ja **mitmeagendilised süsteemid**.
+* Erinevaid lähenemisi tehisintellektile, sealhulgas "vana hea" sümboolse lähenemisega **teadmiste esitus** ja järeldamine ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Neuraalvõrgud** ja **sügavõpe**, mis on kaasaegse AI tuum. Selgitame nende oluliste teemade kontseptsioone koodiga kahes populaarseimas raamistikus - [TensorFlow](http://Tensorflow.org) ja [PyTorch](http://pytorch.org).
+* **Neuraalsed arhitektuurid** piltide ja tekstiga töötamiseks. Käsitleme hiljutisi mudeleid, kuid võime jääda veidi maha tipptasemest.
+* Vähem tuntud AI lähenemised, nagu **geneetilised algoritmid** ja **mitmeagendilised süsteemid**.
 
 Mida me selles õppekavas ei käsitle:
 
 > [Leia kõik täiendavad ressursid selle kursuse jaoks meie Microsoft Learn kogumikust](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* **AI ärikasutuse** ärijuhtumid. Soovitame läbida [Sissejuhatus AI-sse ärikasutajatele](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) õpitee Microsoft Learnis või [AI ärikool](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), mis on välja töötatud koostöös [INSEAD](https://www.insead.edu/).
+* **AI ärikasutuse** ärijuhtumid. Soovitame võtta [Sissejuhatus AI-sse ärikasutajatele](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) õpitee Microsoft Learnis või [AI ärikool](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), mis on välja töötatud koostöös [INSEAD](https://www.insead.edu/).
 * **Klassikaline masinõpe**, mis on hästi kirjeldatud meie [Masinõpe algajatele õppekavas](http://github.com/Microsoft/ML-for-Beginners).
 * Praktilised AI rakendused, mis on loodud **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** abil. Selleks soovitame alustada Microsoft Learni moodulitega [visioon](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [loomuliku keele töötlemine](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generatiivne AI Azure OpenAI teenusega](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ja teised.
 * Spetsiifilised ML **pilveraamistikud**, nagu [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) või [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Soovitame kasutada [Ehita ja halda masinõppe lahendusi Azure Machine Learninguga](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ja [Ehita ja halda masinõppe lahendusi Azure Databricksiga](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) õpiteid.
-* **Vestlus-AI** ja **vestlusrobotid**. Selle jaoks on eraldi [Loo vestlus-AI lahendusi](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) õpitee, samuti võite viidata [sellele blogipostitusele](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) lisateabe saamiseks.
-* **Sügav matemaatika** sügavõppe taga. Selleks soovitame Ian Goodfellow, Yoshua Bengio ja Aaron Courville'i raamatut [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618), mis on saadaval ka veebis aadressil [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+* **Vestlus-AI** ja **vestlusrobotid**. Selle jaoks on eraldi [Loo vestlus-AI lahendusi](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) õpitee ja lisainfot leiad ka [sellest blogipostitusest](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/).
+* **Sügav matemaatika** sügavõppe taga. Selleks soovitame raamatut [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) autoritelt Ian Goodfellow, Yoshua Bengio ja Aaron Courville, mis on saadaval ka veebis [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-Õrnaks sissejuhatuseks _AI pilves_ teemadesse võite kaaluda [Sissejuhatus tehisintellekti Azure'is](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) õpitee läbimist.
+Õrnaks sissejuhatuseks _AI pilves_ teemadesse võid kaaluda [Sissejuhatus tehisintellekti Azure'is](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) õpitee läbimist.
 
 # Sisu
 
@@ -116,18 +116,18 @@ Mida me selles õppekavas ei käsitle:
 
 ### 🎯 Uus tehisintellektis? Alusta siit!
 
-Kui oled tehisintellektis täiesti algaja ja soovid kiireid praktilisi näiteid, vaata meie [**Algajasõbralikke näiteid**](./examples/README.md)! Need sisaldavad:
+Kui oled tehisintellektis täiesti uus ja soovid kiireid praktilisi näiteid, vaata meie [**Algajasõbralikke näiteid**](./examples/README.md)! Need sisaldavad:
 
 - 🌟 **Tere, tehisintellekti maailm** - Sinu esimene tehisintellekti programm (mustrimärkimine)
 - 🧠 **Lihtne närvivõrk** - Loo närvivõrk nullist  
 - 🖼️ **Pildiklassifikaator** - Klassifitseeri pilte koos üksikasjalike kommentaaridega
-- 💬 **Teksti meeleolu** - Analüüsi positiivset/negatiivset teksti
+- 💬 **Teksti sentiment** - Analüüsi positiivset/negatiivset teksti
 
-Need näited on loodud selleks, et aidata sul mõista tehisintellekti kontseptsioone enne, kui sukeldud täies mahus õppekavasse.
+Need näited on loodud selleks, et aidata sul mõista AI kontseptsioone enne, kui sukeldud täies mahus õppekavasse.
 
 ### 📚 Täieliku õppekava seadistamine
 
-- Oleme loonud [seadistamise õppetunni](./lessons/0-course-setup/setup.md), et aidata sul arenduskeskkonda seadistada. - Õpetajatele oleme loonud ka [õppekava seadistamise õppetunni](./lessons/0-course-setup/for-teachers.md)!
+- Oleme loonud [seadistamise tunni](./lessons/0-course-setup/setup.md), et aidata sind arenduskeskkonna seadistamisel. - Õpetajatele oleme loonud [õppekava seadistamise tunni](./lessons/0-course-setup/for-teachers.md) ka!
 - Kuidas [koodi käivitada VSCode'is või Codespaces'is](./lessons/0-course-setup/how-to-run.md)
 
 Järgi neid samme:
@@ -136,33 +136,39 @@ Forki repositoorium: Klõpsa selle lehe paremas ülanurgas nupul "Fork".
 
 Klooni repositoorium: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Ära unusta sellele repositooriumile tärni (🌟) lisada, et seda hiljem lihtsamini leida.
+Ära unusta tähistada (🌟) seda repositooriumi, et hiljem oleks lihtsam leida.
 
 ## Kohtu teiste õppijatega
 
-Liitu meie [ametliku AI Discord serveriga](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), et kohtuda ja suhelda teiste selle kursuse õppijatega ning saada tuge.
+Liitu meie [ametliku AI Discord serveriga](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), et kohtuda ja suhelda teiste õppijatega, kes seda kursust läbivad, ning saada tuge.
 
 Kui sul on toote tagasisidet või küsimusi ehitamise ajal, külasta meie [Azure AI Foundry arendajate foorumit](https://aka.ms/foundry/forum).
 
 ## Viktoriinid
 
-> **Märkus viktoriinide kohta**: Kõik viktoriinid asuvad kaustas Quiz-app, teekonnas etc\quiz-app, või [veebis siin](https://ff-quizzes.netlify.app/). Need on seotud õppetundidega ja viktoriinirakendust saab käivitada kohapeal või juurutada Azure'is; järgige juhiseid kaustas `quiz-app`. Viktoriinid lokaliseeritakse järk-järgult.
+> **Märkus viktoriinide kohta**: Kõik viktoriinid asuvad kaustas Quiz-app, teekonnas etc\quiz-app, või [veebis siin](https://ff-quizzes.netlify.app/). Need on seotud tundidega ja viktoriinirakendust saab käivitada kohapeal või Azure'is; järgige juhiseid kaustas `quiz-app`. Viktoriinid lokaliseeritakse järk-järgult.
 
-## Vajame abi
+## Abi otsitakse
 
 Kas sul on ettepanekuid või leidsid kirjavigu või koodivigu? Tõsta probleem või loo pull request.
 
-## Erilised tänud
+## Eriline tänu
 
 * **✍️ Peamine autor:** [Dmitry Soshnikov](http://soshnikov.com), PhD
 * **🔥 Toimetaja:** [Jen Looper](https://twitter.com/jenlooper), PhD
 * **🎨 Illustratsioonide autor:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Viktoriinide looja:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Põhikontribuuteerijad:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+* **🙏 Põhikontribuendid:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Teised õppekavad
+## Muud õppekavad
 
-Meie meeskond toodab ka teisi õppekavasid! Vaata:
+Meie tiim toodab ka teisi õppekavasid! Vaata:
+
+### LangChain
+[![LangChain4j algajatele](https://img.shields.io/badge/LangChain4j%20algajatele-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js algajatele](https://img.shields.io/badge/LangChain.js%20algajatele-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agendid
 [![AZD algajatele](https://img.shields.io/badge/AZD%20algajatele-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -184,7 +190,7 @@ Meie meeskond toodab ka teisi õppekavasid! Vaata:
 [![ML algajatele](https://img.shields.io/badge/ML%20algajatele-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Andmeteadus algajatele](https://img.shields.io/badge/Andmeteadus%20algajatele-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI algajatele](https://img.shields.io/badge/AI%20algajatele-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Küberkaitse algajatele](https://img.shields.io/badge/Küberkaitse%20algajatele-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Küberturvalisus algajatele](https://img.shields.io/badge/Küberturvalisus%20algajatele-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Veebiarendus algajatele](https://img.shields.io/badge/Veebiarendus%20algajatele-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT algajatele](https://img.shields.io/badge/IoT%20algajatele-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
 [![XR arendus algajatele](https://img.shields.io/badge/XR%20arendus%20algajatele-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -202,7 +208,7 @@ Kui jääd hätta või sul on küsimusi AI rakenduste loomise kohta, liitu teist
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Kui sul on toote tagasisidet või vigu ehitamise ajal, külasta:
+Kui sul on toote tagasisidet või ehitamise ajal vigu, külasta:
 
 [![Microsoft Foundry arendajate foorum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_arendajate_foorum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -210,5 +216,5 @@ Kui sul on toote tagasisidet või vigu ehitamise ajal, külasta:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Lahtiütlus**:  
-See dokument on tõlgitud AI tõlketeenuse [Co-op Translator](https://github.com/Azure/co-op-translator) abil. Kuigi püüame tagada täpsust, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algses keeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valesti tõlgenduste eest.
+See dokument on tõlgitud AI tõlketeenuse [Co-op Translator](https://github.com/Azure/co-op-translator) abil. Kuigi püüame tagada täpsuse, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algkeeles tuleks lugeda autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valede tõlgenduste eest.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
