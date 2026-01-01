@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Квиз перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Обнаружение объектов](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ru.png)
+![Обнаружение объектов](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.ru.png)
 
 > Изображение с [веб-сайта YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. Запустить классификацию изображений для каждой плитки.
 3. Те плитки, которые дают достаточно высокую активацию, можно считать содержащими искомый объект.
 
-![Простое обнаружение объектов](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.ru.png)
+![Простое обнаружение объектов](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.ru.png)
 
 > *Изображение из [учебной тетради](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) — 20 классов.
 * [COCO](http://cocodataset.org/#home) — Common Objects in Context. 80 классов, ограничивающие рамки и маски сегментации.
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.ru.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.ru.jpg)
 
 ## Метрики для обнаружения объектов
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Если для классификации изображений легко измерить, насколько хорошо работает алгоритм, то для обнаружения объектов нужно оценивать как правильность класса, так и точность предсказанных координат ограничивающей рамки. Для последнего используется метрика **Пересечение над объединением** (IoU), которая измеряет, насколько хорошо две рамки (или две произвольные области) перекрываются.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.ru.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.ru.png)
 
 > *Рисунок 2 из [этого отличного блога о IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -97,11 +97,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) использует [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) для генерации иерархической структуры регионов ROI, которые затем проходят через CNN для извлечения признаков, SVM-классификаторы для определения класса объекта и линейную регрессию для определения координат *ограничивающей рамки*. [Официальная статья](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.ru.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.ru.png)
 
 > *Изображение из van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.ru.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.ru.png)
 
 > *Изображения из [этого блога](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -109,7 +109,7 @@ $$
 
 Этот подход похож на R-CNN, но регионы определяются после применения сверточных слоев.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.ru.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.ru.png)
 
 > Изображение из [официальной статьи](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -117,7 +117,7 @@ $$
 
 Основная идея этого подхода заключается в использовании нейронной сети для предсказания ROI — так называемой *сети предложений регионов* (Region Proposal Network). [Статья](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.ru.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.ru.png)
 
 > Изображение из [официальной статьи](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -129,7 +129,7 @@ $$
 2. Признаки обрабатываются **Position-Sensitive Score Map**. Каждый объект из $C$ классов делится на $k\times k$ регионов, и сеть обучается предсказывать части объектов.
 3. Для каждой части из $k\times k$ регионов все сети голосуют за классы объектов, и выбирается класс объекта с максимальным количеством голосов.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.ru.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.ru.png)
 
 > Изображение из [официальной статьи](https://arxiv.org/abs/1605.06409)
 
@@ -140,7 +140,7 @@ YOLO — это алгоритм реального времени с одним
  * Изображение делится на $S\times S$ регионы.
  * Для каждого региона **CNN** предсказывает $n$ возможных объектов, координаты *ограничивающей рамки* и *уверенность*=*вероятность* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.ru.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.ru.png)
 
 > Изображение из [официальной статьи](https://arxiv.org/abs/1506.02640)
 

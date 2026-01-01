@@ -56,7 +56,7 @@ novorodenca | O
 
 Keďže potrebujeme vytvoriť jednoznačnú korešpondenciu medzi tokenmi a triedami, môžeme trénovať pravú **mnoho-na-mnoho** neurónovú sieť z tohto obrázku:
 
-![Obrázok zobrazujúci bežné vzory rekurentných neurónových sietí.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sk.jpg)
+![Obrázok zobrazujúci bežné vzory rekurentných neurónových sietí.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sk.jpg)
 
 > *Obrázok z [tohto blogového príspevku](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) od [Andreja Karpathyho](http://karpathy.github.io/). Modely klasifikácie tokenov NER zodpovedajú najpravšej architektúre siete na tomto obrázku.*
 

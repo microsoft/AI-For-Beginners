@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do neurónových sietí
 
-![Zhrnutie obsahu Úvodu do neurónových sietí v kresbe](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sk.png)
+![Zhrnutie obsahu Úvodu do neurónových sietí v kresbe](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.sk.png)
 
 Ako sme si povedali v úvode, jedným zo spôsobov, ako dosiahnuť inteligenciu, je trénovať **počítačový model** alebo **umelý mozog**. Od polovice 20. storočia vedci skúšali rôzne matematické modely, až kým sa v posledných rokoch tento smer neukázal ako mimoriadne úspešný. Takéto matematické modely mozgu sa nazývajú **neurónové siete**.
 
@@ -36,13 +36,13 @@ V tomto kurze sa zameriame iba na modely neurónových sietí.
 
 Z biológie vieme, že náš mozog pozostáva z neurónových buniek (neurónov), pričom každý z nich má viacero "vstupov" (dendritov) a jeden "výstup" (axon). Dendrity aj axóny môžu viesť elektrické signály a spojenia medzi nimi — známe ako synapsie — môžu vykazovať rôzne stupne vodivosti, ktoré sú regulované neurotransmitermi.
 
-![Model neurónu](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sk.jpg) | ![Model neurónu](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sk.png)
+![Model neurónu](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.sk.jpg) | ![Model neurónu](../../../../translated_images/artneuron.1a5daa88d20ebe6f.sk.png)
 ----|----
 Skutočný neurón *([Obrázok](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) z Wikipédie)* | Umelý neurón *(Obrázok od autora)*
 
 Najjednoduchší matematický model neurónu teda obsahuje niekoľko vstupov X<sub>1</sub>, ..., X<sub>N</sub> a jeden výstup Y, a sériu váh W<sub>1</sub>, ..., W<sub>N</sub>. Výstup sa vypočíta ako:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sk.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.sk.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kde f je nejaká nelineárna **aktivačná funkcia**.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod v nevronske mreže
 
-![Povzetek vsebine uvoda v nevronske mreže v skici](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sl.png)
+![Povzetek vsebine uvoda v nevronske mreže v skici](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.sl.png)
 
 Kot smo razpravljali v uvodu, je eden od načinov za dosego inteligence treniranje **računalniškega modela** ali **umetnih možganov**. Od sredine 20. stoletja so raziskovalci preizkušali različne matematične modele, dokler se v zadnjih letih ta smer ni izkazala za izjemno uspešno. Takšni matematični modeli možganov se imenujejo **nevronske mreže**.
 
@@ -36,13 +36,13 @@ V tem učnem načrtu se bomo osredotočili le na modele nevronskih mrež.
 
 Iz biologije vemo, da naši možgani sestojijo iz nevralnih celic (nevronov), od katerih ima vsaka več "vhodov" (dendritov) in en "izhod" (akson). Tako dendriti kot aksoni lahko prenašajo električne signale, povezave med njimi — znane kot sinapse — pa lahko kažejo različne stopnje prevodnosti, ki jih uravnavajo nevrotransmiterji.
 
-![Model nevrona](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sl.jpg) | ![Model nevrona](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sl.png)
+![Model nevrona](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.sl.jpg) | ![Model nevrona](../../../../translated_images/artneuron.1a5daa88d20ebe6f.sl.png)
 ----|----
 Pravi nevron *([Slika](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iz Wikipedije)* | Umetni nevron *(Slika avtorja)*
 
 Tako najpreprostejši matematični model nevrona vsebuje več vhodov X<sub>1</sub>, ..., X<sub>N</sub> in en izhod Y ter vrsto uteži W<sub>1</sub>, ..., W<sub>N</sub>. Izhod se izračuna kot:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.sl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kjer je f neka nelinearna **aktivacijska funkcija**.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Компьютерное зрение
 
-![Резюме по теме "Компьютерное зрение" в виде рисунка](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.ru.png)
+![Резюме по теме "Компьютерное зрение" в виде рисунка](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ru.png)
 
 В этом разделе мы изучим:
 

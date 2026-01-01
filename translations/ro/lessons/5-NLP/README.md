@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Procesarea Limbajului Natural
 
-![Rezumat al sarcinilor NLP într-un desen](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.ro.png)
+![Rezumat al sarcinilor NLP într-un desen](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.ro.png)
 
 În această secțiune, ne vom concentra pe utilizarea Rețelelor Neuronale pentru a rezolva sarcini legate de **Procesarea Limbajului Natural (NLP)**. Există multe probleme NLP pe care ne dorim ca calculatoarele să le poată rezolva:
 
