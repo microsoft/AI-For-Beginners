@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Рачунарски вид
 
-![Резиме садржаја о рачунарском виду у виду цртежа](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.sr.png)
+![Резиме садржаја о рачунарском виду у виду цртежа](../../../../translated_images/ai-computervision.6506ebebac3fbf76.sr.png)
 
 У овом делу ћемо научити о:
 

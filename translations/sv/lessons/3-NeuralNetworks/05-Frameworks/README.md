@@ -58,7 +58,7 @@ Efter att ha bemästrat ramverken, låt oss repetera begreppet överanpassning.
 
 Tänk på följande problem med att approximera 5 punkter (representerade av `x` på graferna nedan):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.sv.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.sv.jpg)
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.sv.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.sv.jpg)
 -------------------------|--------------------------
 **Linjär modell, 2 parametrar** | **Icke-linjär modell, 7 parametrar**
 Träningsfel = 5.3 | Träningsfel = 0
@@ -79,7 +79,7 @@ Det är mycket viktigt att hitta en korrekt balans mellan modellens komplexitet 
 
 Som du kan se från grafen ovan kan överanpassning upptäckas genom ett mycket lågt träningsfel och ett högt valideringsfel. Normalt under träning ser vi både tränings- och valideringsfel minska, och sedan vid någon punkt kan valideringsfelet sluta minska och börja öka. Detta är ett tecken på överanpassning och en indikation på att vi förmodligen bör sluta träna vid denna punkt (eller åtminstone spara en ögonblicksbild av modellen).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.sv.png)
+![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.sv.png)
 
 ## Hur man förhindrar överanpassning
 

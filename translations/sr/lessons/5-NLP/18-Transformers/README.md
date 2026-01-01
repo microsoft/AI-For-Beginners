@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **Механизми пажње** пружају начин за одређивање тежине контекстуалног утицаја сваког улазног вектора на сваку предикцију излазног РНМ-а. Ово се имплементира стварањем пречица између међустојања улазног РНМ-а и излазног РНМ-а. На овај начин, када генеришемо излазни симбол y<sub>t</sub>, узимамо у обзир сва улазна скривена стања h<sub>i</sub>, са различитим тежинским коефицијентима &alpha;<sub>t,i</sub>.
 
-![Слика која приказује енкодер/декодер модел са адитивним слојем пажње](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.sr.png)
+![Слика која приказује енкодер/декодер модел са адитивним слојем пажње](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.sr.png)
 
 > Енкодер-декодер модел са адитивним механизмом пажње у [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), цитиран из [овог блога](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Матрица пажње {&alpha;<sub>i,j</sub>} представља степен у којем одређене улазне речи утичу на генерисање одређене речи у излазној секвенци. Испод је пример такве матрице:
 
-![Слика која приказује пример поравнања пронађеног помоћу RNNsearch-50, преузета из Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.sr.png)
+![Слика која приказује пример поравнања пронађеног помоћу RNNsearch-50, преузета из Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.sr.png)
 
 > Фигура из [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Сл.3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Следеће, потребно је ухватити неке обрасце унутар наше секвенце. Да бисмо то урадили, трансформери користе механизам **само-пажње**, који је у суштини пажња примењена на исту секвенцу као улаз и излаз. Примена само-пажње омогућава нам да узмемо у обзир **контекст** унутар реченице и видимо које речи су међусобно повезане. На пример, омогућава нам да видимо на које речи се односе кореференце, као што је *оно*, и такође узмемо у обзир контекст:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.sr.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.sr.png)
 
 > Слика из [Google блога](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **BERT** (Bidirectional Encoder Representations from Transformers) је веома велика трансформер мрежа са више слојева, са 12 слојева за *BERT-base* и 24 за *BERT-large*. Модел се прво претходно тренира на великом корпусу текстуалних података (Wikipedia + књиге) користећи ненадгледано учење (предвиђање маскираних речи у реченици). Током претходног тренинга, модел апсорбује значајне нивое разумевања језика, који се затим могу искористити са другим скуповима података кроз фино подешавање. Овај процес се назива **трансфер учење**.
 
-![слика са http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.sr.png)
+![слика са http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.sr.png)
 
 > Слика [извор](http://jalammar.github.io/illustrated-bert/)
 

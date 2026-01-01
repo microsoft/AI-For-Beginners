@@ -23,7 +23,7 @@ I våra tidigare exempel använde vi förtränade semantiska inbäddningar, men 
 * **Continuous Bag-of-Words** (CBoW), där vi förutspår den mittersta token $W_0$ i en sekvens av tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, där vi förutspår en uppsättning närliggande tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} från den mittersta token $W_0$.
 
-![bild från artikel om att konvertera ord till vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sv.png)
+![bild från artikel om att konvertera ord till vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sv.png)
 
 > Bild från [denna artikel](https://arxiv.org/pdf/1301.3781.pdf)
 

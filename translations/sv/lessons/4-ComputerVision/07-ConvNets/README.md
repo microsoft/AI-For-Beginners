@@ -17,7 +17,7 @@ I verkligheten vill vi kunna känna igen objekt på en bild oavsett deras exakta
 
 För att extrahera mönster kommer vi att använda begreppet **konvolutionella filter**. Som du vet representeras en bild av en 2D-matris eller en 3D-tensor med färgdjup. Att applicera ett filter innebär att vi tar en relativt liten **filterkärna**-matris, och för varje pixel i den ursprungliga bilden beräknar vi det viktade medelvärdet med angränsande punkter. Vi kan se detta som ett litet fönster som glider över hela bilden och jämnar ut alla pixlar enligt vikterna i filterkärnan.
 
-![Vertikalt kantfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.sv.png) | ![Horisontellt kantfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.sv.png)
+![Vertikalt kantfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356.sv.png) | ![Horisontellt kantfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.sv.png)
 ----|----
 
 > Bild av Dmitry Soshnikov
@@ -38,7 +38,7 @@ Så här fungerar CNN baserat på följande viktiga idéer:
 * Vi kan designa nätverket så att filtren tränas automatiskt
 * Vi kan använda samma metod för att hitta mönster i hög-nivå egenskaper, inte bara i den ursprungliga bilden. Således arbetar CNN med en hierarki av egenskaper, från låg-nivå pixelkombinationer till högre nivå kombinationer av bilddelar.
 
-![Hierarkisk egenskapsutvinning](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.sv.png)
+![Hierarkisk egenskapsutvinning](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.sv.png)
 
 > Bild från [en artikel av Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), baserad på [deras forskning](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ De flesta CNN som används för bildbehandling följer en så kallad pyramidarki
 
 Som exempel, låt oss titta på arkitekturen för VGG-16, ett nätverk som uppnådde 92,7% noggrannhet i ImageNet's topp-5 klassificering år 2014:
 
-![ImageNet-lager](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.sv.jpg)
+![ImageNet-lager](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.sv.jpg)
 
-![ImageNet-pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.sv.jpg)
+![ImageNet-pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.sv.jpg)
 
 > Bild från [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
