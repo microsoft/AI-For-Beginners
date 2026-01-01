@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentarea Cunoașterii și Sisteme Expert
 
-![Rezumat al conținutului AI simbolic](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.ro.png)
+![Rezumat al conținutului AI simbolic](../../../../translated_images/ai-symbolic.715a30cb610411a6.ro.png)
 
 > Sketchnote de [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ De cele mai multe ori, nu definim strict cunoașterea, ci o aliniem cu alte conc
 
 Astfel, problema **reprezentării cunoașterii** este de a găsi o modalitate eficientă de a reprezenta cunoașterea într-un computer sub formă de date, pentru a o face utilizabilă automat. Acest lucru poate fi văzut ca un spectru:
 
-![Spectrul reprezentării cunoașterii](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.ro.png)
+![Spectrul reprezentării cunoașterii](../../../../translated_images/knowledge-spectrum.b60df631852c0217.ro.png)
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaxă Bloc | Indentare | | |
 
 Unul dintre succesele timpurii ale AI simbolic au fost așa-numitele **sisteme expert** - sisteme de computer concepute să acționeze ca un expert într-un domeniu limitat de probleme. Acestea se bazau pe o **bază de cunoaștere** extrasă de la unul sau mai mulți experți umani și conțineau un **motor de inferență** care efectua raționamente pe baza acesteia.
 
-![Arhitectura umană](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.ro.png) | ![Sistem bazat pe cunoaștere](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.ro.png)
+![Arhitectura umană](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.ro.png) | ![Sistem bazat pe cunoaștere](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.ro.png)
 ---------------------------------------------|------------------------------------------------
 Structura simplificată a sistemului neural uman | Arhitectura unui sistem bazat pe cunoaștere
 
@@ -106,7 +106,7 @@ Sistemele expert sunt construite similar cu sistemul de raționament uman, care 
 
 Ca exemplu, să luăm în considerare următorul sistem expert de determinare a unui animal pe baza caracteristicilor sale fizice:
 
-![Arbore AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.ro.png)
+![Arbore AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.ro.png)
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 

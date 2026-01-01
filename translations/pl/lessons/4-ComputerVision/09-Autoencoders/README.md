@@ -19,7 +19,7 @@ Możemy jednak chcieć wykorzystać surowe (nieoznaczone) dane do trenowania eks
 
 Ponieważ trenujemy autoenkoder, aby uchwycić jak najwięcej informacji z oryginalnego obrazu w celu dokładnej rekonstrukcji, sieć stara się znaleźć najlepsze **osadzenie** obrazów wejściowych, aby uchwycić ich znaczenie.
 
-![Schemat Autoenkodera](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.pl.jpg)
+![Schemat Autoenkodera](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.pl.jpg)
 
 > Obraz z [blogu Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

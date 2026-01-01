@@ -19,7 +19,7 @@ So, di embedding layer go take one word as input, and e go produce output vector
 
 If we use embedding layer as di first layer for our classifier network, we fit change from bag-of-words to **embedding bag** model. For here, we go first convert each word for our text into di embedding wey match am, then we go calculate one aggregate function like `sum`, `average` or `max` for all di embeddings.  
 
-![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.pcm.png)
+![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.pcm.png)
 
 > Image by di author
 
@@ -40,7 +40,7 @@ To do dis, we need to pre-train our embedding model on big text collection in on
 
 CBoW dey faster, but skip-gram dey slow small, though e dey represent words wey no dey common better.
 
-![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.pcm.png)
+![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pcm.png)
 
 > Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
 

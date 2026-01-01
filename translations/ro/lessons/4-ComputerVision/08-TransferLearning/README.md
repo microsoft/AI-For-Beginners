@@ -29,7 +29,7 @@ Atât Keras, cât și PyTorch conțin funcții pentru a încărca cu ușurință
 
 Iată caracteristici extrase dintr-o imagine cu o pisică de către rețeaua VGG-16:
 
-![Caracteristici extrase de VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.ro.png)
+![Caracteristici extrase de VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.ro.png)
 
 ## Setul de Date Pisici vs. Câini
 
@@ -48,19 +48,19 @@ Rețeaua neuronală pre-antrenată conține diferite modele în "creierul" său,
 
 O abordare pe care o putem adopta este să începem cu o imagine aleatorie și apoi să folosim tehnica de optimizare **gradient descent** pentru a ajusta acea imagine astfel încât rețeaua să înceapă să creadă că este o pisică.
 
-![Buclă de Optimizare a Imaginilor](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.ro.png)
+![Buclă de Optimizare a Imaginilor](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.ro.png)
 
 Totuși, dacă facem acest lucru, vom obține ceva foarte asemănător cu un zgomot aleatoriu. Acest lucru se întâmplă deoarece *există multe moduri prin care rețeaua poate crede că imaginea de intrare este o pisică*, inclusiv unele care nu au sens vizual. Deși aceste imagini conțin multe modele tipice pentru o pisică, nu există nimic care să le constrângă să fie distincte vizual.
 
 Pentru a îmbunătăți rezultatul, putem adăuga un alt termen în funcția de pierdere, numit **pierdere de variație**. Este o metrică care arată cât de similari sunt pixelii vecini ai imaginii. Minimizarea pierderii de variație face imaginea mai netedă și elimină zgomotul - dezvăluind astfel modele mai atractive vizual. Iată un exemplu de astfel de imagini "ideale", care sunt clasificate ca pisică și ca zebră cu o probabilitate mare:
 
-![Pisică Ideală](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.ro.png) | ![Zebră Ideală](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.ro.png)
+![Pisică Ideală](../../../../../translated_images/ideal-cat.203dd4597643d6b0.ro.png) | ![Zebră Ideală](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.ro.png)
 -----|-----
  *Pisică Ideală* | *Zebră Ideală*
 
 O abordare similară poate fi utilizată pentru a efectua așa-numitele **atacuri adversariale** asupra unei rețele neuronale. Să presupunem că dorim să păcălim o rețea neuronală și să facem un câine să arate ca o pisică. Dacă luăm imaginea unui câine, care este recunoscută de rețea ca fiind un câine, putem apoi să o ajustăm puțin folosind optimizarea gradient descent, până când rețeaua începe să o clasifice ca fiind o pisică:
 
-![Imaginea unui Câine](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.ro.png) | ![Imaginea unui câine clasificat ca pisică](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.ro.png)
+![Imaginea unui Câine](../../../../../translated_images/original-dog.8f68a67d2fe0911f.ro.png) | ![Imaginea unui câine clasificat ca pisică](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.ro.png)
 -----|-----
 *Imagine originală a unui câine* | *Imaginea unui câine clasificat ca pisică*
 

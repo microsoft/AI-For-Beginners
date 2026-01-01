@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introdução às Redes Neuronais
 
-![Resumo do conteúdo de Introdução às Redes Neuronais em um desenho](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.pt.png)
+![Resumo do conteúdo de Introdução às Redes Neuronais em um desenho](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.pt.png)
 
 Como discutimos na introdução, uma das formas de alcançar inteligência é treinar um **modelo computacional** ou um **cérebro artificial**. Desde meados do século XX, os investigadores experimentaram diferentes modelos matemáticos, até que, nos últimos anos, esta abordagem provou ser extremamente bem-sucedida. Esses modelos matemáticos do cérebro são chamados de **redes neuronais**.
 
@@ -36,13 +36,13 @@ Neste currículo, focar-nos-emos apenas em modelos de redes neuronais.
 
 Na biologia, sabemos que o nosso cérebro é composto por células neuronais (neurónios), cada uma delas com múltiplas "entradas" (dendritos) e uma única "saída" (axónio). Tanto os dendritos como os axónios podem conduzir sinais elétricos, e as conexões entre eles — conhecidas como sinapses — podem apresentar diferentes graus de condutividade, que são regulados por neurotransmissores.
 
-![Modelo de um Neurónio](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.pt.jpg) | ![Modelo de um Neurónio](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.pt.png)
+![Modelo de um Neurónio](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.pt.jpg) | ![Modelo de um Neurónio](../../../../translated_images/artneuron.1a5daa88d20ebe6f.pt.png)
 ----|----
 Neurónio Real *([Imagem](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) da Wikipédia)* | Neurónio Artificial *(Imagem do Autor)*
 
 Assim, o modelo matemático mais simples de um neurónio contém várias entradas X<sub>1</sub>, ..., X<sub>N</sub> e uma saída Y, e uma série de pesos W<sub>1</sub>, ..., W<sub>N</sub>. A saída é calculada como:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.pt.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.pt.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 onde **f** é uma **função de ativação** não linear.
 
