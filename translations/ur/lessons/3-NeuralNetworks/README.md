@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # نیورل نیٹ ورکس کا تعارف
 
-![نیورل نیٹ ورکس کے تعارف کا خلاصہ ایک خاکے میں](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.ur.png)
+![نیورل نیٹ ورکس کے تعارف کا خلاصہ ایک خاکے میں](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.ur.png)
 
 جیسا کہ ہم نے تعارف میں بات کی تھی، ذہانت حاصل کرنے کے طریقوں میں سے ایک یہ ہے کہ ایک **کمپیوٹر ماڈل** یا **مصنوعی دماغ** کو تربیت دی جائے۔ بیسویں صدی کے وسط سے، محققین نے مختلف ریاضیاتی ماڈلز آزمائے، اور حالیہ برسوں میں یہ سمت بہت کامیاب ثابت ہوئی۔ دماغ کے ان ریاضیاتی ماڈلز کو **نیورل نیٹ ورکس** کہا جاتا ہے۔
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 حیاتیات سے، ہم جانتے ہیں کہ ہمارا دماغ نیورل سیلز (نیورونز) پر مشتمل ہوتا ہے، جن میں سے ہر ایک کے پاس متعدد "ان پٹس" (ڈینڈریٹس) اور ایک "آؤٹ پٹ" (ایکسون) ہوتا ہے۔ ڈینڈریٹس اور ایکسون دونوں برقی سگنلز منتقل کر سکتے ہیں، اور ان کے درمیان کنکشنز — جنہیں سیناپسز کہا جاتا ہے — مختلف درجات کی کنڈکٹویٹی ظاہر کر سکتے ہیں، جو نیوروٹرانسمیٹرز کے ذریعے منظم کی جاتی ہیں۔
 
-![نیورون کا ماڈل](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.ur.jpg) | ![نیورون کا ماڈل](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.ur.png)
+![نیورون کا ماڈل](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.ur.jpg) | ![نیورون کا ماڈل](../../../../translated_images/artneuron.1a5daa88d20ebe6f.ur.png)
 ----|----
 حقیقی نیورون *([تصویر](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) ویکیپیڈیا سے)* | مصنوعی نیورون *(تصویر مصنف کی طرف سے)*
 
 لہٰذا، نیورون کا سب سے سادہ ریاضیاتی ماڈل کئی ان پٹس X<sub>1</sub>, ..., X<sub>N</sub> اور ایک آؤٹ پٹ Y پر مشتمل ہوتا ہے، اور ایک سلسلہ وزن W<sub>1</sub>, ..., W<sub>N</sub>۔ آؤٹ پٹ کا حساب درج ذیل طریقے سے کیا جاتا ہے:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.ur.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.ur.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 جہاں f کوئی غیر خطی **ایکٹیویشن فنکشن** ہے۔
 

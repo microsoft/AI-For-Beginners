@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 پیٹرنز نکالنے کے لیے، ہم **کنولوشنل فلٹرز** کا تصور استعمال کریں گے۔ جیسا کہ آپ جانتے ہیں، ایک تصویر کو 2D-میٹرکس یا رنگ کی گہرائی کے ساتھ 3D-ٹینسر کے طور پر ظاہر کیا جاتا ہے۔ فلٹر لگانے کا مطلب یہ ہے کہ ہم ایک نسبتاً چھوٹا **فلٹر کرنل** میٹرکس لیتے ہیں، اور اصل تصویر کے ہر پکسل کے لیے ہم پڑوسی پوائنٹس کے ساتھ وزنی اوسط کا حساب لگاتے ہیں۔ ہم اسے اس طرح دیکھ سکتے ہیں جیسے ایک چھوٹی ونڈو پوری تصویر پر سلائیڈ کر رہی ہو، اور فلٹر کرنل میٹرکس میں وزن کے مطابق تمام پکسلز کو اوسط کر رہی ہو۔
 
-![عمودی کنارے فلٹر](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.ur.png) | ![افقی کنارے فلٹر](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.ur.png)
+![عمودی کنارے فلٹر](../../../../../translated_images/filter-vert.b7148390ca0bc356.ur.png) | ![افقی کنارے فلٹر](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.ur.png)
 ----|----
 
 > تصویر: دمتری سوشنیکوف
@@ -38,7 +38,7 @@ CNN کے کام کرنے کا طریقہ درج ذیل اہم خیالات پر 
 * ہم نیٹ ورک کو اس طرح ڈیزائن کر سکتے ہیں کہ فلٹرز خود بخود تربیت حاصل کریں
 * ہم اسی طریقے کو اعلی سطحی خصوصیات میں پیٹرنز تلاش کرنے کے لیے استعمال کر سکتے ہیں، نہ صرف اصل تصویر میں۔ اس طرح CNN خصوصیات نکالنے کا کام خصوصیات کی ایک درجہ بندی پر کرتا ہے، جو کم سطحی پکسل امتزاج سے شروع ہو کر تصویر کے حصوں کے اعلی سطحی امتزاج تک جاتا ہے۔
 
-![درجہ بندی خصوصیات نکالنا](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.ur.png)
+![درجہ بندی خصوصیات نکالنا](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.ur.png)
 
 > تصویر: [ہسلپ-لنچ کے مقالے](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) سے، [ان کی تحقیق](https://dl.acm.org/doi/abs/10.1145/1553374.1553453) پر مبنی
 
@@ -55,9 +55,9 @@ CNN کے کام کرنے کا طریقہ درج ذیل اہم خیالات پر 
 
 ایک مثال کے طور پر، آئیے VGG-16 کی آرکیٹیکچر کو دیکھیں، ایک نیٹ ورک جس نے 2014 میں ImageNet کے ٹاپ-5 درجہ بندی میں 92.7% درستگی حاصل کی:
 
-![ImageNet لیئرز](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.ur.jpg)
+![ImageNet لیئرز](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ur.jpg)
 
-![ImageNet پیرامڈ](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.ur.jpg)
+![ImageNet پیرامڈ](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ur.jpg)
 
 > تصویر: [ریسرچ گیٹ](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) سے
 

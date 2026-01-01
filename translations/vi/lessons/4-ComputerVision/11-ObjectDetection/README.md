@@ -13,7 +13,7 @@ Các mô hình phân loại hình ảnh mà chúng ta đã làm việc trước 
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Phát Hiện Đối Tượng](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.vi.png)
+![Phát Hiện Đối Tượng](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.vi.png)
 
 > Hình ảnh từ [trang web YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Giả sử chúng ta muốn tìm một con mèo trong một bức ảnh, một c
 2. Chạy phân loại hình ảnh trên từng ô.
 3. Những ô có kết quả kích hoạt đủ cao có thể được coi là chứa đối tượng cần tìm.
 
-![Phát Hiện Đối Tượng Đơn Giản](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.vi.png)
+![Phát Hiện Đối Tượng Đơn Giản](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.vi.png)
 
 > *Hình ảnh từ [Notebook Bài Tập](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Bạn có thể gặp các tập dữ liệu sau cho nhiệm vụ này:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 lớp
 * [COCO](http://cocodataset.org/#home) - Các Đối Tượng Thông Thường Trong Ngữ Cảnh. 80 lớp, hộp bao và mặt nạ phân đoạn
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.vi.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.vi.jpg)
 
 ## Các Chỉ Số Đánh Giá Phát Hiện Đối Tượng
 
@@ -50,7 +50,7 @@ Bạn có thể gặp các tập dữ liệu sau cho nhiệm vụ này:
 
 Trong khi đối với phân loại hình ảnh, việc đo lường hiệu suất của thuật toán khá dễ dàng, thì đối với phát hiện đối tượng, chúng ta cần đo lường cả độ chính xác của lớp, cũng như độ chính xác của vị trí hộp bao được suy ra. Đối với yếu tố sau, chúng ta sử dụng chỉ số **Intersection over Union** (IoU), đo lường mức độ chồng lấp giữa hai hộp (hoặc hai khu vực bất kỳ).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.vi.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.vi.png)
 
 > *Hình 2 từ [bài viết blog xuất sắc về IoU này](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Có hai loại thuật toán phát hiện đối tượng chính:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) sử dụng [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) để tạo ra cấu trúc phân cấp của các vùng ROI, sau đó được đưa qua các bộ trích xuất đặc trưng CNN và các bộ phân loại SVM để xác định lớp đối tượng, và hồi quy tuyến tính để xác định tọa độ *hộp bao*. [Bài báo chính thức](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.vi.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.vi.png)
 
 > *Hình ảnh từ van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.vi.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.vi.png)
 
 > *Hình ảnh từ [bài blog này](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Có hai loại thuật toán phát hiện đối tượng chính:
 
 Phương pháp này tương tự như R-CNN, nhưng các vùng được xác định sau khi các lớp tích chập đã được áp dụng.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.vi.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.vi.png)
 
 > Hình ảnh từ [Bài báo chính thức](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Phương pháp này tương tự như R-CNN, nhưng các vùng được xác đ�
 
 Ý tưởng chính của phương pháp này là sử dụng mạng nơ-ron để dự đoán các ROI - được gọi là *Mạng Đề Xuất Vùng* (Region Proposal Network). [Bài báo](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.vi.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.vi.png)
 
 > Hình ảnh từ [bài báo chính thức](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Thuật toán này thậm chí còn nhanh hơn Faster R-CNN. Ý tưởng chính 
 2. Các đặc trưng được xử lý bởi **Bản Đồ Điểm Nhạy Cảm Vị Trí**. Mỗi đối tượng từ $C$ lớp được chia thành các vùng $k\times k$, và chúng ta huấn luyện để dự đoán các phần của đối tượng.
 3. Đối với mỗi phần từ các vùng $k\times k$, tất cả các mạng bỏ phiếu cho các lớp đối tượng, và lớp đối tượng có số phiếu cao nhất được chọn.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.vi.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.vi.png)
 
 > Hình ảnh từ [bài báo chính thức](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO là một thuật toán một lần duy nhất thời gian thực. Ý tư�
  * Hình ảnh được chia thành các vùng $S\times S$.
  * Đối với mỗi vùng, **CNN** dự đoán $n$ đối tượng có thể, tọa độ *hộp bao* và *độ tin cậy* = *xác suất* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.vi.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.vi.png)
 
 > Hình ảnh từ [bài báo chính thức](https://arxiv.org/abs/1506.02640)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Комп'ютерний зір
 
-![Резюме матеріалів про комп'ютерний зір у вигляді малюнка](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.uk.png)
+![Резюме матеріалів про комп'ютерний зір у вигляді малюнка](../../../../translated_images/ai-computervision.6506ebebac3fbf76.uk.png)
 
 У цьому розділі ми дізнаємося про:
 
