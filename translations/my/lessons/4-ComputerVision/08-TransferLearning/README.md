@@ -29,7 +29,7 @@ Keras နှင့် PyTorch တို့တွင် ImageNet ပုံမျ�
 
 VGG-16 network မှ ကြောင်ပုံတစ်ပုံမှ ထုတ်ယူထားသော sample feature များကို အောက်တွင် ဖော်ပြထားသည်-
 
-![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.my.png)
+![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.my.png)
 
 ## Cats vs. Dogs Dataset
 
@@ -48,19 +48,19 @@ Pre-trained neural network တွင် ၎င်း၏ *brain* အတွင်�
 
 တစ်ခုသော နည်းလမ်းကို အသုံးပြုနိုင်သည်မှာ random image တစ်ပုံကို စတင်ပြီး၊ **gradient descent optimization** နည်းလမ်းကို အသုံးပြု၍ ၎င်းပုံကို network သည် ၎င်းကို ကြောင်ဟု ထင်ရအောင် ပြောင်းလဲရန် ကြိုးစားခြင်းဖြစ်သည်။
 
-![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.my.png)
+![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.my.png)
 
 သို့သော် ဤနည်းလမ်းကို အသုံးပြုပါက random noise ကဲ့သို့သော အရာတစ်ခုကို ရရှိမည်ဖြစ်သည်။ အကြောင်းမှာ *network ကို input image ကို ကြောင်ဟု ထင်ရအောင် ပြုလုပ်ရန် နည်းလမ်းများစွာရှိသည်*၊ ၎င်းတို့အနက် visual sense မရှိသော အရာများပါဝင်သည်။ ဤပုံများတွင် ကြောင်အတွက် အထူးသက်သက် pattern များစွာပါဝင်သော်လည်း၊ visually distinctive ဖြစ်ရန် အကန့်အသတ်မရှိပါ။
 
 ရလဒ်ကို တိုးတက်စေရန် loss function တွင် **variation loss** ဟုခေါ်သော term တစ်ခုကို ထည့်သွင်းနိုင်သည်။ ၎င်းသည် ပုံ၏ အနီးအနား pixel များ၏ တူညီမှုကို ပြသသော metric ဖြစ်သည်။ Variation loss ကို လျှော့ချခြင်းဖြင့် ပုံကို ပိုမိုချောမွေ့စေပြီး၊ noise ကို ဖယ်ရှားနိုင်သည် - visual pattern များကို ပိုမိုရှင်းလင်းစွာ ဖော်ပြနိုင်သည်။ အောက်တွင် ကြောင်နှင့် zebra အဖြစ် classified ဖြစ်သော "ideal" ပုံများကို ဖော်ပြထားသည်-
 
-![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.my.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.my.png)
+![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0.my.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.my.png)
 -----|-----
  *Ideal Cat* | *Ideal Zebra*
 
 အလားတူနည်းလမ်းကို neural network တွင် **adversarial attacks** ပြုလုပ်ရန် အသုံးပြုနိုင်သည်။ ကြောင်ကဲ့သို့သော ပုံကို ဖန်တီးရန် ကြိုးစားပါက၊ ကြောင်ဟု network မှ ခွဲခြားထားသော ကြောင်ပုံကို gradient descent optimization အသုံးပြု၍ network သည် ၎င်းကို ကြောင်ဟု ထင်ရအောင် ပြောင်းလဲနိုင်သည်-
 
-![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.my.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.my.png)
+![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f.my.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.my.png)
 -----|-----
 *Original picture of a dog* | *Picture of a dog classified as a cat*
 

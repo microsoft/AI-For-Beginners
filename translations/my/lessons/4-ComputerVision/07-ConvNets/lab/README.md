@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ကျွန်ုပ်တို့သည် [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ကို အသုံးပြုမည်ဖြစ်ပြီး၊ ၎င်းတွင် ခွေးနှင့် ကြောင်အမျိုးအစား ၃၇ မျိုး၏ ဓာတ်ပုံများ ပါဝင်ပါသည်။
 
-![ကျွန်ုပ်တို့ကို ကိုင်တွယ်ရမည့် Dataset](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.my.png)
+![ကျွန်ုပ်တို့ကို ကိုင်တွယ်ရမည့် Dataset](../../../../../../translated_images/data.50b2a9d5484bdbf0.my.png)
 
 Dataset ကို download လုပ်ရန် အောက်ပါ code snippet ကို အသုံးပြုပါ:
 
