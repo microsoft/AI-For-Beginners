@@ -15,7 +15,7 @@ Sa mga nakaraang seksyon, gumamit tayo ng mas mayamang semantic na representasyo
 
 Upang makuha ang kahulugan ng pagkakasunod-sunod ng teksto, kailangan nating gumamit ng ibang arkitektura ng neural network, na tinatawag na **recurrent neural network**, o RNN. Sa RNN, ipinapasa natin ang ating pangungusap sa network nang paisa-isang simbolo, at ang network ay gumagawa ng isang **estado**, na pagkatapos ay ipinapasa natin muli sa network kasama ang susunod na simbolo.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.tl.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.tl.png)
 
 > Larawan mula sa may-akda
 
@@ -61,7 +61,7 @@ Napag-usapan natin ang mga recurrent networks na gumagana sa isang direksyon, mu
 
 Ang isang Recurrent network, alinman sa one-directional o bidirectional, ay kumukuha ng ilang patterns sa loob ng isang sequence, at maaaring i-store ang mga ito sa isang state vector o ipasa sa output. Tulad ng convolutional networks, maaari tayong bumuo ng isa pang recurrent layer sa ibabaw ng una upang makuha ang mas mataas na level na patterns at bumuo mula sa low-level patterns na nakuha ng unang layer. Ito ay humahantong sa konsepto ng isang **multi-layer RNN** na binubuo ng dalawa o higit pang recurrent networks, kung saan ang output ng nakaraang layer ay ipinapasa sa susunod na layer bilang input.
 
-![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.tl.jpg)
+![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.tl.jpg)
 
 *Larawan mula sa [napakagandang post na ito](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) ni Fernando López*
 

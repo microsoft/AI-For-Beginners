@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CLIP 的主要理念是能夠比較文本提示與圖像，並確定圖像與提示的匹配程度。
 
-![CLIP 架構](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.tw.png)
+![CLIP 架構](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.tw.png)
 
 > *圖片來自[這篇博客文章](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CLIP 模型/庫可以從 [OpenAI GitHub](https://github.com/openai/CLIP) 獲取�
 
 假設我們需要將圖像分類為貓、狗和人類。在這種情況下，我們可以給模型一張圖像，以及一系列文本提示：“*一張貓的圖片*”、“*一張狗的圖片*”、“*一張人類的圖片*”。在結果的 3 個概率向量中，我們只需選擇值最高的索引。
 
-![CLIP 用於圖像分類](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.tw.png)
+![CLIP 用於圖像分類](../../../../../translated_images/clip-class.3af42ef0b2b19369.tw.png)
 
 > *圖片來自[這篇博客文章](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ VQGAN 與普通 [GAN](../../4-ComputerVision/10-GANs/README.md) 的主要區別�
 
 VQGAN 與傳統 GAN 的一個重要區別在於，後者可以從任何輸入向量生成一張像樣的圖像，而 VQGAN 可能生成一張不連貫的圖像。因此，我們需要進一步引導圖像創建過程，而這可以通過 CLIP 完成。
 
-![VQGAN+CLIP 架構](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.tw.png)
+![VQGAN+CLIP 架構](../../../../../translated_images/vqgan.5027fe05051dfa31.tw.png)
 
 為了生成與文本提示相對應的圖像，我們從一些隨機編碼向量開始，將其傳遞給 VQGAN 以生成圖像。然後使用 CLIP 生成一個損失函數，該函數顯示圖像與文本提示的匹配程度。目標是最小化這個損失，通過反向傳播調整輸入向量參數。
 
 一個實現 VQGAN+CLIP 的優秀庫是 [Pixray](http://github.com/pixray/pixray)
 
-![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.tw.png) |  ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.tw.png) | ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.tw.png)
+![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.tw.png) |  ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.tw.png) | ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.tw.png)
 ----|----|----
 由提示 *一幅年輕男性文學教師手持書本的水彩特寫肖像* 生成的圖片 | 由提示 *一幅年輕女性計算機科學教師手持電腦的油畫特寫肖像* 生成的圖片 | 由提示 *一幅年長男性數學教師站在黑板前的油畫特寫肖像* 生成的圖片
 

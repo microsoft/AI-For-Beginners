@@ -19,7 +19,7 @@ Bu nedenle, gömülü temsil katmanı bir kelimeyi giriş olarak alır ve belirl
 
 Sınıflandırıcı ağımızda ilk katman olarak bir gömülü temsil katmanı kullanarak, kelime torbasından **gömülü torba** modeline geçebiliriz. Bu modelde, önce metnimizdeki her kelimeyi ilgili gömülü temsile dönüştürürüz ve ardından bu gömülü temsillerin tümü üzerinde `sum`, `average` veya `max` gibi bir toplama fonksiyonu hesaplarız.
 
-![Beş kelimelik bir dizinin gömülü temsil sınıflandırıcısını gösteren görsel.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.tr.png)
+![Beş kelimelik bir dizinin gömülü temsil sınıflandırıcısını gösteren görsel.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.tr.png)
 
 > Görsel yazar tarafından oluşturulmuştur
 
@@ -40,7 +40,7 @@ Bunu yapmak için, gömülü temsil modelimizi büyük bir metin koleksiyonu üz
 
 CBoW daha hızlıdır, ancak atlama-gram daha yavaş olmasına rağmen nadir kelimeleri temsil etmede daha iyi bir iş çıkarır.
 
-![Kelimeyi vektöre dönüştürmek için kullanılan CBoW ve Skip-Gram algoritmalarını gösteren görsel.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.tr.png)
+![Kelimeyi vektöre dönüştürmek için kullanılan CBoW ve Skip-Gram algoritmalarını gösteren görsel.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.tr.png)
 
 > Görsel [bu makaleden](https://arxiv.org/pdf/1301.3781.pdf) alınmıştır
 

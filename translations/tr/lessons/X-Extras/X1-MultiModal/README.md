@@ -15,7 +15,7 @@ Transformer modellerinin NLP görevlerini çözmedeki başarısından sonra, ayn
 
 CLIP'in temel fikri, metin istemlerini bir görüntüyle karşılaştırabilmek ve görüntünün istemle ne kadar iyi eşleştiğini belirlemektir.
 
-![CLIP Mimari](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.tr.png)
+![CLIP Mimari](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.tr.png)
 
 > *Resim [bu blog yazısından](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Bu model önceden eğitildikten sonra, bir grup görüntü ve bir grup metin ist
 
 Diyelim ki görüntüleri kediler, köpekler ve insanlar arasında sınıflandırmamız gerekiyor. Bu durumda, modele bir görüntü ve bir dizi metin istemi verebiliriz: "*bir kedi resmi*", "*bir köpek resmi*", "*bir insan resmi*". Sonuçta elde edilen 3 olasılık vektöründe en yüksek değere sahip indeksi seçmemiz yeterlidir.
 
-![CLIP ile Görüntü Sınıflandırma](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.tr.png)
+![CLIP ile Görüntü Sınıflandırma](../../../../../translated_images/clip-class.3af42ef0b2b19369.tr.png)
 
 > *Resim [bu blog yazısından](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ VQGAN hakkında daha fazla bilgi edinmek için [Taming Transformers](https://com
 
 VQGAN ile geleneksel GAN arasındaki önemli farklardan biri, geleneksel GAN'ın herhangi bir giriş vektöründen düzgün bir görüntü üretebilmesi, ancak VQGAN'ın tutarlı bir görüntü üretme olasılığının düşük olmasıdır. Bu nedenle, görüntü oluşturma sürecini daha fazla yönlendirmemiz gerekir ve bu CLIP kullanılarak yapılabilir.
 
-![VQGAN+CLIP Mimari](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.tr.png)
+![VQGAN+CLIP Mimari](../../../../../translated_images/vqgan.5027fe05051dfa31.tr.png)
 
 Bir metin istemine karşılık gelen bir görüntü oluşturmak için, rastgele bir kodlama vektörüyle başlarız ve bu vektör VQGAN'dan geçirilerek bir görüntü oluşturulur. Daha sonra CLIP, görüntünün metin istemine ne kadar iyi uyduğunu gösteren bir kayıp fonksiyonu üretmek için kullanılır. Amaç, bu kaybı minimize etmek ve geri yayılım kullanarak giriş vektör parametrelerini ayarlamaktır.
 
 VQGAN+CLIP'i uygulayan harika bir kütüphane [Pixray](http://github.com/pixray/pixray)'dir.
 
-![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.tr.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.tr.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.tr.png)
+![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.tr.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.tr.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.tr.png)
 ----|----|----
 *Edebiyat öğretmeni olan genç bir erkeğin kitapla yakın çekim suluboya portresi* isteminden üretilen resim | *Bilgisayar bilimi öğretmeni olan genç bir kadının bilgisayarla yakın çekim yağlı boya portresi* isteminden üretilen resim | *Matematik öğretmeni olan yaşlı bir erkeğin kara tahta önünde yakın çekim yağlı boya portresi* isteminden üretilen resim
 

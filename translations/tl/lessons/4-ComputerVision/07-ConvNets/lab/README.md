@@ -21,7 +21,7 @@ Kailangan mong sanayin ang isang convolutional neural network upang uriin ang ib
 
 Gagamitin natin ang [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), na naglalaman ng mga larawan ng 37 iba't ibang lahi ng aso at pusa.
 
-![Dataset na gagamitin natin](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.tl.png)
+![Dataset na gagamitin natin](../../../../../../translated_images/data.50b2a9d5484bdbf0.tl.png)
 
 Upang i-download ang dataset, gamitin ang code snippet na ito:
 
