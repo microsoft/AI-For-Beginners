@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introductie tot AI
 
-![Samenvatting van de inhoud van de introductie van AI in een schets](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.nl.png)
+![Samenvatting van de inhoud van de introductie van AI in een schets](../../../../translated_images/ai-intro.bf28d1ac4235881c.nl.png)
 
 > Sketchnote door [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Oorspronkelijk werden computers uitgevonden door [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) om met cijfers te werken volgens een goed gedefinieerde procedure - een algoritme. Moderne computers, hoewel aanzienlijk geavanceerder dan het oorspronkelijke model dat in de 19e eeuw werd voorgesteld, volgen nog steeds hetzelfde idee van gecontroleerde berekeningen. Het is dus mogelijk om een computer te programmeren om iets te doen als we de exacte reeks stappen kennen die nodig zijn om het doel te bereiken.
 
-![Foto van een persoon](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.nl.png)
+![Foto van een persoon](../../../../translated_images/dsh_age.d212a30d4e54fb5f.nl.png)
 
 > Foto door [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Voor meer informatie, zie **[Algemene Kunstmatige Intelligentie](https://en.wiki
 
 Een van de problemen bij het omgaan met de term **[Intelligentie](https://en.wikipedia.org/wiki/Intelligence)** is dat er geen duidelijke definitie van deze term is. Men kan stellen dat intelligentie verbonden is met **abstract denken**, of met **zelfbewustzijn**, maar we kunnen het niet goed definiëren.
 
-![Foto van een kat](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.nl.jpg)
+![Foto van een kat](../../../../translated_images/photo-cat.8c8e8fb760ffe457.nl.jpg)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) door [Amber Kipp](https://unsplash.com/@sadmax) van Unsplash
 
@@ -98,13 +98,13 @@ Alternatief kunnen we proberen de eenvoudigste elementen in ons brein te modelle
 
 > | Wat betreft ML?         |      |
 > |--------------|-----------|
-> | Een onderdeel van Kunstmatige Intelligentie dat gebaseerd is op het leren van een computer om een probleem op te lossen op basis van bepaalde data wordt **Machine Learning** genoemd. We zullen klassieke machine learning niet behandelen in deze cursus - we verwijzen je naar een aparte [Machine Learning voor Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML voor Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.nl.png)    |
+> | Een onderdeel van Kunstmatige Intelligentie dat gebaseerd is op het leren van een computer om een probleem op te lossen op basis van bepaalde data wordt **Machine Learning** genoemd. We zullen klassieke machine learning niet behandelen in deze cursus - we verwijzen je naar een aparte [Machine Learning voor Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML voor Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.nl.png)    |
 
 ## Een korte geschiedenis van AI
 
 Kunstmatige Intelligentie begon als een vakgebied in het midden van de twintigste eeuw. Aanvankelijk was symbolisch redeneren een veelgebruikte benadering, en dit leidde tot een aantal belangrijke successen, zoals expertsystemen – computerprogramma's die als expert konden optreden in enkele beperkte probleemdomeinen. Het werd echter al snel duidelijk dat deze benadering niet goed schaalbaar is. Het extraheren van kennis van een expert, het representeren ervan in een computer en het nauwkeurig houden van die kennisbank blijkt een zeer complexe taak te zijn, en te duur om in veel gevallen praktisch te zijn. Dit leidde tot de zogenaamde [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in de jaren '70.
 
-<img alt="Korte geschiedenis van AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.nl.png" width="70%"/>
+<img alt="Korte geschiedenis van AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.nl.png" width="70%"/>
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Evenzo kunnen we zien hoe de benadering van het creëren van "sprekende programm
 * Moderne assistenten, zoals Cortana, Siri of Google Assistant, zijn allemaal hybride systemen die neurale netwerken gebruiken om spraak om te zetten in tekst en onze intentie te herkennen, en vervolgens enige redenering of expliciete algoritmen gebruiken om de vereiste acties uit te voeren.
 * In de toekomst kunnen we een volledig neurale model verwachten dat zelf een dialoog kan afhandelen. De recente GPT- en [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) familie van neurale netwerken tonen hierin grote successen.
 
-<img alt="de evolutie van de Turing-test" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.nl.png" width="70%"/>
+<img alt="de evolutie van de Turing-test" src="../../../../translated_images/turing-test-evol.4184696701293ead.nl.png" width="70%"/>
 > Afbeelding door Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) door [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recente AI-onderzoeken
