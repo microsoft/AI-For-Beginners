@@ -15,7 +15,7 @@ Baada ya mafanikio ya mifano ya transformer katika kutatua kazi za NLP, usanifu 
 
 Wazo kuu la CLIP ni kuwa na uwezo wa kulinganisha maelezo ya maandishi na picha na kuamua jinsi picha inavyolingana na maelezo hayo.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.sw.png)
+![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.sw.png)
 
 > *Picha kutoka [blogu hii](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Mara tu mfano huu unapokuwa umefunzwa, tunaweza kuupa kundi la picha na kundi la
 
 Tuseme tunahitaji kuainisha picha kati ya, kwa mfano, paka, mbwa na binadamu. Katika hali hii, tunaweza kuupa mfano picha, na mfululizo wa maelezo ya maandishi: "*picha ya paka*", "*picha ya mbwa*", "*picha ya binadamu*". Katika vekta inayotokana ya uwezekano 3 tunahitaji tu kuchagua faharasa yenye thamani ya juu zaidi.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.sw.png)
+![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.sw.png)
 
 > *Picha kutoka [blogu hii](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Jifunze zaidi kuhusu VQGAN kwenye tovuti ya [Taming Transformers](https://compvi
 
 Moja ya tofauti muhimu kati ya VQGAN na GAN ya jadi ni kwamba ya mwisho inaweza kuzalisha picha nzuri kutoka kwa vekta yoyote ya pembejeo, wakati VQGAN ina uwezekano wa kuzalisha picha ambayo haitakuwa thabiti. Kwa hivyo, tunahitaji kuongoza zaidi mchakato wa uundaji wa picha, na hilo linaweza kufanywa kwa kutumia CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.sw.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.sw.png)
 
 Ili kuzalisha picha inayolingana na maelezo ya maandishi, tunaanza na vekta ya usimbaji wa nasibu ambayo inapitia VQGAN ili kuzalisha picha. Kisha CLIP hutumika kuzalisha kazi ya hasara inayonyesha jinsi picha inavyolingana na maelezo ya maandishi. Lengo basi ni kupunguza hasara hii, kwa kutumia kurudi nyuma ili kurekebisha vigezo vya vekta ya pembejeo.
 
 Maktaba nzuri inayotekeleza VQGAN+CLIP ni [Pixray](http://github.com/pixray/pixray)
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.sw.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.sw.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.sw.png)
+![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.sw.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.sw.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.sw.png)
 ----|----|----
 Picha iliyozalishwa kutoka maelezo *a closeup watercolor portrait of young male teacher of literature with a book* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of young female teacher of computer science with a computer* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 

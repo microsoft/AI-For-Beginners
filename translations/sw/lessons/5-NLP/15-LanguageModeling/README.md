@@ -23,7 +23,7 @@ Katika mifano yetu ya awali, tulitumia uwakilishi wa semantiki uliokwisha fundis
 * **Mfuko Endelevu wa Maneno** (CBoW), ambapo tunatabiri tokeni ya katikati $W_0$ katika mlolongo wa tokeni $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, ambapo tunatabiri seti ya tokeni za jirani {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} kutoka tokeni ya katikati $W_0$.
 
-![picha kutoka karatasi kuhusu kubadilisha maneno kuwa vekta](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sw.png)
+![picha kutoka karatasi kuhusu kubadilisha maneno kuwa vekta](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sw.png)
 
 > Picha kutoka [karatasi hii](https://arxiv.org/pdf/1301.3781.pdf)
 

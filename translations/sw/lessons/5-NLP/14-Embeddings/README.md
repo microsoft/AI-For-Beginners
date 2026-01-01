@@ -19,7 +19,7 @@ Kwa hivyo, safu ya embedding itachukua neno kama ingizo, na kutoa vector ya mato
 
 Kwa kutumia safu ya embedding kama safu ya kwanza katika mtandao wetu wa classifier, tunaweza kubadilisha kutoka bag-of-words kwenda kwenye **embedding bag** model, ambapo tunabadilisha kila neno katika maandishi yetu kuwa embedding inayolingana, kisha tunahesabu kazi ya jumla juu ya embeddings hizo zote, kama vile `sum`, `average` au `max`.  
 
-![Picha inayoonyesha classifier ya embedding kwa maneno matano ya mfululizo.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.sw.png)
+![Picha inayoonyesha classifier ya embedding kwa maneno matano ya mfululizo.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.sw.png)
 
 > Picha na mwandishi
 
@@ -40,7 +40,7 @@ Ili kufanya hivyo, tunahitaji kufundisha awali (pre-train) mfano wetu wa embeddi
 
 CBoW ni ya haraka, wakati skip-gram ni ya polepole, lakini inafanya kazi bora ya kuwakilisha maneno yasiyo ya kawaida.
 
-![Picha inayoonyesha CBoW na Skip-Gram algorithms za kubadilisha maneno kuwa vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sw.png)
+![Picha inayoonyesha CBoW na Skip-Gram algorithms za kubadilisha maneno kuwa vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sw.png)
 
 > Picha kutoka [karatasi hii](https://arxiv.org/pdf/1301.3781.pdf)
 
