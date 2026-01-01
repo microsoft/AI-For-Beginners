@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Xử lý Ngôn ngữ Tự nhiên
 
-![Tóm tắt các nhiệm vụ NLP trong một hình vẽ](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.vi.png)
+![Tóm tắt các nhiệm vụ NLP trong một hình vẽ](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.vi.png)
 
 Trong phần này, chúng ta sẽ tập trung vào việc sử dụng Mạng Nơ-ron để xử lý các nhiệm vụ liên quan đến **Xử lý Ngôn ngữ Tự nhiên (NLP)**. Có rất nhiều vấn đề NLP mà chúng ta muốn máy tính có thể giải quyết:
 
