@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Χρησιμοποιώντας ένα επίπεδο ενσωμάτωσης ως το πρώτο επίπεδο στο δίκτυο ταξινόμησής μας, μπορούμε να μεταβούμε από ένα μοντέλο bag-of-words σε ένα μοντέλο **embedding bag**, όπου πρώτα μετατρέπουμε κάθε λέξη στο κείμενό μας στην αντίστοιχη ενσωμάτωσή της και στη συνέχεια υπολογίζουμε κάποια συνάρτηση συσσωμάτωσης πάνω σε όλες αυτές τις ενσωματώσεις, όπως `sum`, `average` ή `max`.  
 
-![Εικόνα που δείχνει έναν ταξινομητή ενσωμάτωσης για πέντε λέξεις ακολουθίας.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.el.png)
+![Εικόνα που δείχνει έναν ταξινομητή ενσωμάτωσης για πέντε λέξεις ακολουθίας.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.el.png)
 
 > Εικόνα από τον συγγραφέα
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το CBoW είναι ταχύτερο, ενώ το skip-gram είναι πιο αργό, αλλά αποδίδει καλύτερα στην αναπαράσταση σπάνιων λέξεων.
 
-![Εικόνα που δείχνει τους αλγορίθμους CBoW και Skip-Gram για τη μετατροπή λέξεων σε διανύσματα.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.el.png)
+![Εικόνα που δείχνει τους αλγορίθμους CBoW και Skip-Gram για τη μετατροπή λέξεων σε διανύσματα.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.el.png)
 
 > Εικόνα από [αυτό το άρθρο](https://arxiv.org/pdf/1301.3781.pdf)
 

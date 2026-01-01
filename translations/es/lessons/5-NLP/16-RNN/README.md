@@ -15,7 +15,7 @@ En secciones anteriores, hemos estado utilizando representaciones semánticas en
 
 Para capturar el significado de una secuencia de texto, necesitamos usar otra arquitectura de red neuronal, llamada **red neuronal recurrente**, o RNN. En una RNN, pasamos nuestra oración a través de la red un símbolo a la vez, y la red produce un **estado**, que luego pasamos nuevamente a la red junto con el siguiente símbolo.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.es.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.es.png)
 
 > Imagen del autor
 
@@ -61,7 +61,7 @@ Hemos discutido redes recurrentes que operan en una dirección, desde el inicio 
 
 Una red recurrente, ya sea unidireccional o bidireccional, captura ciertos patrones dentro de una secuencia y puede almacenarlos en un vector de estado o pasarlos a la salida. Al igual que con las redes convolucionales, podemos construir otra capa recurrente sobre la primera para capturar patrones de nivel superior y construir a partir de los patrones de bajo nivel extraídos por la primera capa. Esto nos lleva a la noción de una **RNN multicapa**, que consiste en dos o más redes recurrentes, donde la salida de la capa anterior se pasa a la siguiente capa como entrada.
 
-![Imagen mostrando una RNN multicapa de memoria a largo y corto plazo](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.es.jpg)
+![Imagen mostrando una RNN multicapa de memoria a largo y corto plazo](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.es.jpg)
 
 *Imagen tomada de [este maravilloso artículo](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) de Fernando López*
 

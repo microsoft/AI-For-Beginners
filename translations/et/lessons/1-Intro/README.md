@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sissejuhatus tehisintellekti
 
-![Sissejuhatuse kokkuvõte tehisintellekti teemal doodle'is](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.et.png)
+![Sissejuhatuse kokkuvõte tehisintellekti teemal doodle'is](../../../../translated_images/ai-intro.bf28d1ac4235881c.et.png)
 
 > Sketchnote autor: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Algselt leiutas [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) arvutid, et need töötleksid numbreid kindla protseduuri ehk algoritmi järgi. Kaasaegsed arvutid, kuigi palju arenenumad kui 19. sajandil välja pakutud mudel, järgivad endiselt sama ideed kontrollitud arvutustest. Seega on võimalik programmeerida arvutit midagi tegema, kui me teame täpset sammude jada, mida eesmärgi saavutamiseks vaja on.
 
-![Foto inimesest](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.et.png)
+![Foto inimesest](../../../../translated_images/dsh_age.d212a30d4e54fb5f.et.png)
 
 > Foto autor: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Lisateabe saamiseks vaata **[Üldine tehisintellekt](https://en.wikipedia.org/wi
 
 Üks probleem **[intelligentsuse](https://en.wikipedia.org/wiki/Intelligence)** mõistega tegelemisel on see, et sellel puudub selge määratlus. Võib väita, et intelligentsus on seotud **abstraktse mõtlemise** või **eneseteadvusega**, kuid me ei suuda seda korralikult defineerida.
 
-![Foto kassist](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.et.jpg)
+![Foto kassist](../../../../translated_images/photo-cat.8c8e8fb760ffe457.et.jpg)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) autor: [Amber Kipp](https://unsplash.com/@sadmax) Unsplashist
 
@@ -98,13 +98,13 @@ Teise võimalusena võime proovida modelleerida meie aju kõige lihtsamaid eleme
 
 > | Aga ML?         |      |
 > |--------------|-----------|
-> | Tehisintellekti osa, mis põhineb arvuti õppimisel probleemi lahendamiseks andmete põhjal, nimetatakse **masinõppeks**. Me ei käsitle selles kursuses klassikalist masinõpet – soovitame tutvuda eraldi [Masinõppe algajatele](http://aka.ms/ml-beginners) õppekavaga. |   ![ML algajatele](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.et.png)    |
+> | Tehisintellekti osa, mis põhineb arvuti õppimisel probleemi lahendamiseks andmete põhjal, nimetatakse **masinõppeks**. Me ei käsitle selles kursuses klassikalist masinõpet – soovitame tutvuda eraldi [Masinõppe algajatele](http://aka.ms/ml-beginners) õppekavaga. |   ![ML algajatele](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.et.png)    |
 
 ## Lühike ülevaade TI ajaloost
 
 Tehisintellekt kui valdkond sai alguse 20. sajandi keskel. Alguses oli sümboolne arutlemine valdav lähenemine ja see tõi kaasa mitmeid olulisi edusamme, näiteks ekspertsüsteemid – arvutiprogrammid, mis suutsid tegutseda eksperdina mõnes piiratud probleemivaldkonnas. Kuid peagi sai selgeks, et selline lähenemine ei ole hästi skaleeritav. Teadmiste eraldamine eksperdilt, nende esitamine arvutis ja teadmistebaasi täpsuse säilitamine osutus väga keeruliseks ja paljudel juhtudel liiga kulukaks. See viis nn [TI talveni](https://en.wikipedia.org/wiki/AI_winter) 1970. aastatel.
 
-<img alt="TI ajaloo lühikokkuvõte" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.et.png" width="70%"/>
+<img alt="TI ajaloo lühikokkuvõte" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.et.png" width="70%"/>
 
 > Pildi autor: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Samamoodi näeme, kuidas lähenemine "rääkivate programmide" (mis võiksid lä
 * Kaasaegsed assistendid, nagu Cortana, Siri või Google Assistant, on kõik hübriidsüsteemid, mis kasutavad närvivõrke kõne tekstiks teisendamiseks ja meie kavatsuste tuvastamiseks ning seejärel rakendavad mõningaid arutlusi või selgesõnalisi algoritme vajalike toimingute tegemiseks.
 * Tulevikus võime oodata täielikult närvivõrkudel põhinevat mudelit, mis suudab dialoogi iseseisvalt hallata. Hiljutised GPT ja [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) närvivõrkude perekonnad näitavad selles valdkonnas suurt edu.
 
-<img alt="Turingi testi areng" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.et.png" width="70%"/>
+<img alt="Turingi testi areng" src="../../../../translated_images/turing-test-evol.4184696701293ead.et.png" width="70%"/>
 > Pilt Dmitry Soshnikovilt, [foto](https://unsplash.com/photos/r8LmVbUKgns) autoriks [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Viimased tehisintellekti uuringud

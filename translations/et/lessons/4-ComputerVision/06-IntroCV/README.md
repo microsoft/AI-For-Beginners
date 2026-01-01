@@ -73,14 +73,14 @@ Meie [OpenCV Notebook](OpenCV.ipynb) näitab mõningaid näiteid, millal arvutin
 
 * **Pildi eeltöötlus Braille'i raamatu fotol**. Keskendume sellele, kuidas kasutada läve määramist, tunnuste tuvastamist, perspektiiviteisendust ja NumPy manipuleerimist, et eraldada individuaalsed Braille'i sümbolid edasiseks klassifitseerimiseks närvivõrgu abil.
 
-![Braille'i pilt](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.et.jpeg) | ![Braille'i pilt eeltöödeldud](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.et.png) | ![Braille'i sümbolid](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.et.png)
+![Braille'i pilt](../../../../../translated_images/braille.341962ff76b1bd70.et.jpeg) | ![Braille'i pilt eeltöödeldud](../../../../../translated_images/braille-result.46530fea020b03c7.et.png) | ![Braille'i sümbolid](../../../../../translated_images/braille-symbols.0159185ab69d5339.et.png)
 ----|-----|-----
 
 > Pilt [OpenCV.ipynb](OpenCV.ipynb) failist
 
 * **Liikumise tuvastamine videos kaadrite erinevuse abil**. Kui kaamera on fikseeritud, peaksid kaadrid kaamera voos olema üksteisega üsna sarnased. Kuna kaadreid esitatakse massiividena, siis lihtsalt lahutades need massiivid kahe järjestikuse kaadri jaoks saame pikslite erinevuse, mis peaks olema madal staatiliste kaadrite puhul ja muutuma suuremaks, kui pildil toimub märkimisväärne liikumine.
 
-![Kaadrite ja kaadrite erinevuste pilt](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.et.png)
+![Kaadrite ja kaadrite erinevuste pilt](../../../../../translated_images/frame-difference.706f805491a0883c.et.png)
 
 > Pilt [OpenCV.ipynb](OpenCV.ipynb) failist
 
@@ -89,7 +89,7 @@ Meie [OpenCV Notebook](OpenCV.ipynb) näitab mõningaid näiteid, millal arvutin
    - **Tihe optiline vool** arvutab vektorvälja, mis näitab iga piksli liikumissuunda.
    - **Hõre optiline vool** põhineb mõningate eristuvate tunnuste (nt servade) võtmisele pildil ja nende trajektoori ehitamisele kaadrist kaadrisse.
 
-![Optilise voolu pilt](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.et.png)
+![Optilise voolu pilt](../../../../../translated_images/optical.1f4a94464579a83a.et.png)
 
 > Pilt [OpenCV.ipynb](OpenCV.ipynb) failist
 
@@ -115,7 +115,7 @@ Loe rohkem optilise voolu kohta [selles suurepärases juhendis](https://learnope
 
 Selles laboris teete video lihtsate žestidega ja teie eesmärk on optilise voolu abil tuvastada üles/alla/vasakule/paremale liikumised.
 
-<img src="../../../../../translated_images/palm-movement.341495f0e9c47da39cc1f99626822a1d20203aa33ff89a86a068f14bea133e84.et.png" width="30%" alt="Käe liikumise kaader"/>
+<img src="../../../../../translated_images/palm-movement.341495f0e9c47da3.et.png" width="30%" alt="Käe liikumise kaader"/>
 
 ---
 

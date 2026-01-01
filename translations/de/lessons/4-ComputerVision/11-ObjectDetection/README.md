@@ -13,7 +13,7 @@ Die Bildklassifizierungsmodelle, die wir bisher behandelt haben, nahmen ein Bild
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objekterkennung](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.de.png)
+![Objekterkennung](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.de.png)
 
 > Bild von der [YOLO v2 Webseite](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Angenommen, wir wollten eine Katze auf einem Bild finden, dann wäre ein sehr na
 2. Führe eine Bildklassifikation auf jeder Kachel durch.
 3. Die Kacheln, die eine ausreichend hohe Aktivierung zeigen, können als die Kacheln betrachtet werden, die das gesuchte Objekt enthalten.
 
-![Naive Objekterkennung](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.de.png)
+![Naive Objekterkennung](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.de.png)
 
 > *Bild aus dem [Übungsnotebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Für diese Aufgabe könnten Sie auf die folgenden Datensätze stoßen:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 Klassen
 * [COCO](http://cocodataset.org/#home) – Common Objects in Context. 80 Klassen, Begrenzungsboxen und Segmentierungsmasken
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.de.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.de.jpg)
 
 ## Metriken für Objekterkennung
 
@@ -50,7 +50,7 @@ Für diese Aufgabe könnten Sie auf die folgenden Datensätze stoßen:
 
 Während es bei der Bildklassifikation einfach ist, die Leistung des Algorithmus zu messen, müssen wir bei der Objekterkennung sowohl die Richtigkeit der Klasse als auch die Genauigkeit der vorhergesagten Position der Begrenzungsbox messen. Für Letzteres verwenden wir die sogenannte **Intersection over Union** (IoU), die misst, wie gut sich zwei Boxen (oder zwei beliebige Bereiche) überlappen.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.de.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.de.png)
 
 > *Abbildung 2 aus [diesem ausgezeichneten Blogbeitrag über IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Es gibt zwei Hauptklassen von Objekterkennungsalgorithmen:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) verwendet [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf), um eine hierarchische Struktur von ROI-Regionen zu generieren, die dann durch CNN-Feature-Extraktoren und SVM-Klassifikatoren geleitet werden, um die Objektklasse zu bestimmen, sowie durch lineare Regression, um die *Koordinaten der Begrenzungsbox* zu bestimmen. [Offizielles Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.de.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.de.png)
 
 > *Bild von van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.de.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.de.png)
 
 > *Bilder aus [diesem Blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Es gibt zwei Hauptklassen von Objekterkennungsalgorithmen:
 
 Dieser Ansatz ähnelt R-CNN, aber die Regionen werden definiert, nachdem die Convolution-Schichten angewendet wurden.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.de.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.de.png)
 
 > Bild aus [dem offiziellen Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Dieser Ansatz ähnelt R-CNN, aber die Regionen werden definiert, nachdem die Con
 
 Die Hauptidee dieses Ansatzes ist die Verwendung eines neuronalen Netzwerks zur Vorhersage von ROIs – des sogenannten *Region Proposal Network*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.de.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.de.png)
 
 > Bild aus [dem offiziellen Paper](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Dieser Algorithmus ist sogar schneller als Faster R-CNN. Die Hauptidee ist folge
 2. Die Features werden durch **Position-Sensitive Score Map** verarbeitet. Jedes Objekt aus $C$ Klassen wird in $k\times k$ Regionen unterteilt, und wir trainieren, um Teile von Objekten vorherzusagen.
 3. Für jeden Teil aus den $k\times k$ Regionen stimmen alle Netzwerke für Objektklassen ab, und die Objektklasse mit der maximalen Stimmenanzahl wird ausgewählt.
 
-![r-fcn Bild](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.de.png)
+![r-fcn Bild](../../../../../translated_images/r-fcn.13eb88158b99a3da.de.png)
 
 > Bild aus [dem offiziellen Paper](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO ist ein Echtzeit-One-Pass-Algorithmus. Die Hauptidee ist folgende:
  * Das Bild wird in $S\times S$ Regionen unterteilt.
  * Für jede Region sagt **CNN** $n$ mögliche Objekte, *Koordinaten der Begrenzungsbox* und *Confidence*=*Wahrscheinlichkeit* * IoU voraus.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.de.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.de.png)
 
 > Bild aus [dem offiziellen Paper](https://arxiv.org/abs/1506.02640)
 
