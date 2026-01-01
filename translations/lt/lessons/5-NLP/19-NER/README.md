@@ -55,7 +55,7 @@ naujagimiui | O
 
 Kadangi reikia sukurti vienas prie vieno atitikimą tarp žodžių ir klasių, galime treniruoti tinkamą **daugelio prie daugelio** neuroninio tinklo modelį pagal šį paveikslą:
 
-![Vaizdas, rodantis įprastus pasikartojančių neuroninių tinklų modelius.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.lt.jpg)
+![Vaizdas, rodantis įprastus pasikartojančių neuroninių tinklų modelius.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.lt.jpg)
 
 > *Vaizdas iš [šio tinklaraščio įrašo](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autoriaus [Andrejaus Karpathy](http://karpathy.github.io/). NER žodžių klasifikacijos modeliai atitinka dešiniausią tinklo architektūrą šiame paveikslėlyje.*
 

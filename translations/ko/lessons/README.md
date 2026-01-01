@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 개요
 
-![낙서로 그린 개요](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ko.png)
+![낙서로 그린 개요](../../../translated_images/ai-overview.0857791951d19500.ko.png)
 
 > 스케치노트: [Tomomi Imura](https://twitter.com/girlie_mac)
 

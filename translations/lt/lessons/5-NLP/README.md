@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Natūralios kalbos apdorojimas
 
-![NLP užduočių santrauka piešinyje](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.lt.png)
+![NLP užduočių santrauka piešinyje](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.lt.png)
 
 Šiame skyriuje mes sutelksime dėmesį į neuroninių tinklų naudojimą užduotims, susijusioms su **natūralios kalbos apdorojimu (NLP)**. Yra daugybė NLP problemų, kurias norime, kad kompiuteriai galėtų išspręsti:
 

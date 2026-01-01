@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 컴퓨터 비전
 
-![컴퓨터 비전 내용 요약을 담은 스케치](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.ko.png)
+![컴퓨터 비전 내용 요약을 담은 스케치](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ko.png)
 
 이 섹션에서는 다음 내용을 학습합니다:
 
