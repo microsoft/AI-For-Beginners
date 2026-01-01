@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 โดยการใช้เลเยอร์การฝังข้อมูลเป็นเลเยอร์แรกในเครือข่ายจำแนกประเภทของเรา เราสามารถเปลี่ยนจากโมเดลถุงคำไปเป็น **embedding bag** ซึ่งเราจะเปลี่ยนคำแต่ละคำในข้อความของเราให้เป็นการฝังข้อมูลที่สอดคล้องกัน และคำนวณฟังก์ชันรวมบางอย่างจากการฝังข้อมูลเหล่านั้น เช่น `sum`, `average` หรือ `max`
 
-![ภาพแสดงตัวอย่างการจำแนกประเภทด้วยการฝังข้อมูลสำหรับคำในลำดับห้าคำ](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.th.png)
+![ภาพแสดงตัวอย่างการจำแนกประเภทด้วยการฝังข้อมูลสำหรับคำในลำดับห้าคำ](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.th.png)
 
 > ภาพโดยผู้เขียน
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW ทำงานได้เร็วกว่า ในขณะที่ skip-gram ทำงานช้ากว่า แต่สามารถแสดงคำที่ไม่ค่อยปรากฏได้ดีกว่า
 
-![ภาพแสดงทั้งอัลกอริทึม CBoW และ Skip-Gram ในการแปลงคำเป็นเวกเตอร์](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.th.png)
+![ภาพแสดงทั้งอัลกอริทึม CBoW และ Skip-Gram ในการแปลงคำเป็นเวกเตอร์](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.th.png)
 
 > ภาพจาก [เอกสารนี้](https://arxiv.org/pdf/1301.3781.pdf)
 
