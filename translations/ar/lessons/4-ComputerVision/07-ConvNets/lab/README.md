@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 سنستخدم [مجموعة بيانات الحيوانات الأليفة من أكسفورد-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/)، والتي تحتوي على صور لـ 37 سلالة مختلفة من الكلاب والقطط.
 
-![مجموعة البيانات التي سنتعامل معها](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.ar.png)
+![مجموعة البيانات التي سنتعامل معها](../../../../../../translated_images/data.50b2a9d5484bdbf0.ar.png)
 
 لتحميل مجموعة البيانات، استخدم هذا المقتطف البرمجي:
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 الفكرة الرئيسية لـ CLIP هي القدرة على مقارنة النصوص التوضيحية مع الصور وتحديد مدى تطابق الصورة مع النص.
 
-![بنية CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.ar.png)
+![بنية CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.ar.png)
 
 > *الصورة مأخوذة من [هذه المقالة](https://openai.com/blog/clip/)*
 
@@ -31,7 +31,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 لنفترض أننا بحاجة إلى تصنيف الصور بين، على سبيل المثال، القطط، الكلاب والبشر. في هذه الحالة، يمكننا إعطاء النموذج صورة وسلسلة من النصوص التوضيحية: "*صورة لقط*", "*صورة لكلب*", "*صورة لإنسان*". في المتجه الناتج الذي يحتوي على 3 احتمالات، نحتاج فقط إلى اختيار المؤشر الذي يحتوي على أعلى قيمة.
 
-![CLIP لتصنيف الصور](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.ar.png)
+![CLIP لتصنيف الصور](../../../../../translated_images/clip-class.3af42ef0b2b19369.ar.png)
 
 > *الصورة مأخوذة من [هذه المقالة](https://openai.com/blog/clip/)*
 
@@ -55,13 +55,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 أحد الفروقات المهمة بين VQGAN وGAN التقليدية هو أن الأخيرة يمكنها إنتاج صورة جيدة من أي متجه مدخلات، بينما من المحتمل أن ينتج VQGAN صورة غير متماسكة. لذلك، نحتاج إلى توجيه عملية إنشاء الصورة بشكل أكبر، ويمكن القيام بذلك باستخدام CLIP.
 
-![بنية VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.ar.png)
+![بنية VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.ar.png)
 
 لإنشاء صورة تتوافق مع نص توضيحي، نبدأ بمتجه ترميز عشوائي يتم تمريره عبر VQGAN لإنتاج صورة. ثم يتم استخدام CLIP لإنتاج دالة خسارة تُظهر مدى تطابق الصورة مع النص التوضيحي. الهدف بعد ذلك هو تقليل هذه الخسارة باستخدام الانتشار العكسي لتعديل معلمات متجه المدخلات.
 
 مكتبة رائعة تنفذ VQGAN+CLIP هي [Pixray](http://github.com/pixray/pixray).
 
-![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.ar.png) |  ![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.ar.png) | ![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.ar.png)
+![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.ar.png) |  ![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.ar.png) | ![صورة تم إنتاجها بواسطة Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.ar.png)
 ----|----|----
 صورة تم إنشاؤها من النص *صورة قريبة بالألوان المائية لمعلم شاب للأدب يحمل كتابًا* | صورة تم إنشاؤها من النص *صورة قريبة بالزيت لمُدرسة شابة لعلوم الحاسوب مع جهاز كمبيوتر* | صورة تم إنشاؤها من النص *صورة قريبة بالزيت لمعلم مسن للرياضيات أمام السبورة*
 
