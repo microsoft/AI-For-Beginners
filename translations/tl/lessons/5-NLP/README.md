@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Natural Language Processing
 
-![Buod ng mga gawain sa NLP sa isang doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.tl.png)
+![Buod ng mga gawain sa NLP sa isang doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.tl.png)
 
 Sa seksyong ito, magtutuon tayo sa paggamit ng Neural Networks upang harapin ang mga gawain na may kaugnayan sa **Natural Language Processing (NLP)**. Maraming mga problema sa NLP na nais nating masolusyunan ng mga computer:
 

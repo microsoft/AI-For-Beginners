@@ -19,7 +19,7 @@ Tekrarlayan Sinir Ağları (RNN'ler) ve Uzun Kısa Süreli Bellek Hücreleri (LS
 
 Bu, aşağıdaki resimde gösterilen farklı sinir ağı mimarilerini mümkün kılar:
 
-![Yaygın tekrarlayan sinir ağı desenlerini gösteren bir resim.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.tr.jpg)
+![Yaygın tekrarlayan sinir ağı desenlerini gösteren bir resim.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.tr.jpg)
 
 > Resim, [Andrej Karpaty](http://karpathy.github.io/) tarafından yazılan [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) blog yazısından alınmıştır.
 
@@ -32,7 +32,7 @@ Bu birimde, metin üretmemize yardımcı olan basit üretici modeller üzerine o
 
 Bu RNN'yi adım adım metin üretmek için eğiteceğiz. Her adımda, `nchars` uzunluğunda bir karakter dizisi alacağız ve ağdan her giriş karakteri için bir sonraki çıktı karakterini üretmesini isteyeceğiz:
 
-![RNN'nin 'HELLO' kelimesini üretme örneğini gösteren bir resim.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.tr.png)
+![RNN'nin 'HELLO' kelimesini üretme örneğini gösteren bir resim.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.tr.png)
 
 Metin üretirken (çıkarsama sırasında), bazı **başlangıç** verileriyle başlarız. Bu veri RNN hücrelerinden geçirilerek ara durumu oluşturur ve ardından üretim başlar. Her seferinde bir karakter üretiriz ve durumu ve üretilen karakteri bir sonraki karakteri üretmek için başka bir RNN hücresine geçiririz. Bu işlem yeterli sayıda karakter üretilene kadar devam eder.
 

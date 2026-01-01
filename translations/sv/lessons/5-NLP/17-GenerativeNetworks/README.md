@@ -19,7 +19,7 @@ I RNN-arkitekturen som vi diskuterade i föregående enhet, producerade varje RN
 
 Detta möjliggör olika neurala arkitekturer som visas i bilden nedan:
 
-![Bild som visar vanliga mönster för återkommande neurala nätverk.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sv.jpg)
+![Bild som visar vanliga mönster för återkommande neurala nätverk.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sv.jpg)
 
 > Bild från blogginlägget [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) av [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ I denna enhet kommer vi att fokusera på enkla generativa modeller som hjälper 
 
 Vi kommer att träna denna RNN att generera text steg för steg. Vid varje steg tar vi en sekvens av tecken med längden `nchars` och ber nätverket att generera nästa outputtecken för varje inputtecken:
 
-![Bild som visar ett exempel på RNN-generering av ordet 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.sv.png)
+![Bild som visar ett exempel på RNN-generering av ordet 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.sv.png)
 
 När vi genererar text (under inferens), börjar vi med en **prompt**, som passeras genom RNN-celler för att generera dess mellanliggande tillstånd, och sedan börjar genereringen från detta tillstånd. Vi genererar ett tecken i taget och skickar tillståndet och det genererade tecknet till en annan RNN-cell för att generera nästa, tills vi har genererat tillräckligt många tecken.
 

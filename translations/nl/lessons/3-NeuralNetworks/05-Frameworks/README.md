@@ -58,7 +58,7 @@ Overfitting is een uiterst belangrijk concept in machine learning, en het is ess
 
 Bekijk het volgende probleem van het benaderen van 5 punten (weergegeven door `x` op de grafieken hieronder):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.nl.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.nl.jpg)
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.nl.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.nl.jpg)
 -------------------------|--------------------------
 **Lineair model, 2 parameters** | **Niet-lineair model, 7 parameters**
 Trainingsfout = 5.3 | Trainingsfout = 0
@@ -79,7 +79,7 @@ Het is erg belangrijk om een juiste balans te vinden tussen de rijkdom van het m
 
 Zoals je kunt zien op de bovenstaande grafiek, kan overfitting worden gedetecteerd door een zeer lage trainingsfout en een hoge validatiefout. Normaal gesproken zien we tijdens het trainen zowel de trainings- als validatiefouten afnemen, en op een gegeven moment kan de validatiefout stoppen met afnemen en beginnen te stijgen. Dit is een teken van overfitting en een indicatie dat we waarschijnlijk op dit punt moeten stoppen met trainen (of op zijn minst een snapshot van het model moeten maken).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.nl.png)
+![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.nl.png)
 
 ## Hoe overfitting te voorkomen
 

@@ -59,7 +59,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 نظرًا لأننا بحاجة إلى بناء تطابق واحد لواحد بين الرموز والفئات، يمكننا تدريب نموذج شبكة عصبية **كثيرة إلى كثيرة** من الصورة التالية:
 
-![صورة تظهر أنماط الشبكات العصبية المتكررة الشائعة.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ar.jpg)
+![صورة تظهر أنماط الشبكات العصبية المتكررة الشائعة.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ar.jpg)
 
 > *الصورة مأخوذة من [هذه المقالة](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) بواسطة [أندريه كارباتي](http://karpathy.github.io/). نماذج تصنيف الرموز لـ NER تتوافق مع بنية الشبكة الموجودة في أقصى اليمين في هذه الصورة.*
 

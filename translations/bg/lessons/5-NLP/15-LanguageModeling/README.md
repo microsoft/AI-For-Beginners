@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Непрекъсната торба с думи** (CBoW), когато предсказваме средния токен $W_0$ в последователност от токени $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, където предсказваме набор от съседни токени {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} от средния токен $W_0$.
 
-![изображение от статия за преобразуване на думи във вектори](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.bg.png)
+![изображение от статия за преобразуване на думи във вектори](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.bg.png)
 
 > Изображение от [тази статия](https://arxiv.org/pdf/1301.3781.pdf)
 

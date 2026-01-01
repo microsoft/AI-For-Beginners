@@ -23,7 +23,7 @@ Eelnevates näidetes kasutasime eelnevalt treenitud semantilisi vektoreid, kuid 
 * **Järjepidev sõnakott** (CBoW), kus ennustame keskmist tokenit $W_0$ tokenite järjestuses $W_{-N}$, ..., $W_N$.
 * **Skip-gramm**, kus ennustame keskmise tokeni $W_0$ põhjal naabertokenite komplekti {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}.
 
-![pilt artiklist, mis käsitleb sõnade teisendamist vektoriteks](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.et.png)
+![pilt artiklist, mis käsitleb sõnade teisendamist vektoriteks](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.et.png)
 
 > Pilt [sellest artiklist](https://arxiv.org/pdf/1301.3781.pdf)
 

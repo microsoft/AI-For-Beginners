@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เราจะใช้ [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ซึ่งมีภาพของสุนัขและแมวจาก 37 สายพันธุ์ที่แตกต่างกัน
 
-![ชุดข้อมูลที่เราจะใช้](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.th.png)
+![ชุดข้อมูลที่เราจะใช้](../../../../../../translated_images/data.50b2a9d5484bdbf0.th.png)
 
 เพื่อดาวน์โหลดชุดข้อมูล ให้ใช้โค้ดนี้:
 

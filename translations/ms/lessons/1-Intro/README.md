@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengenalan kepada AI
 
-![Ringkasan kandungan Pengenalan AI dalam bentuk doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.ms.png)
+![Ringkasan kandungan Pengenalan AI dalam bentuk doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c.ms.png)
 
 > Sketchnote oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pada asalnya, komputer dicipta oleh [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) untuk beroperasi pada nombor mengikut prosedur yang jelas - iaitu algoritma. Komputer moden, walaupun jauh lebih maju daripada model asal yang dicadangkan pada abad ke-19, masih mengikuti idea yang sama iaitu pengiraan terkawal. Oleh itu, adalah mungkin untuk memprogram komputer untuk melakukan sesuatu jika kita tahu urutan langkah yang tepat yang perlu dilakukan untuk mencapai matlamat tersebut.
 
-![Foto seorang individu](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.ms.png)
+![Foto seorang individu](../../../../translated_images/dsh_age.d212a30d4e54fb5f.ms.png)
 
 > Foto oleh [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Untuk maklumat lanjut, rujuk **[Artificial General Intelligence](https://en.wiki
 
 Salah satu masalah apabila berurusan dengan istilah **[Kecerdasan](https://en.wikipedia.org/wiki/Intelligence)** ialah tiada definisi yang jelas untuk istilah ini. Ada yang berpendapat bahawa kecerdasan berkaitan dengan **pemikiran abstrak**, atau **kesedaran diri**, tetapi kita tidak dapat mendefinisikannya dengan tepat.
 
-![Foto seekor kucing](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.ms.jpg)
+![Foto seekor kucing](../../../../translated_images/photo-cat.8c8e8fb760ffe457.ms.jpg)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) oleh [Amber Kipp](https://unsplash.com/@sadmax) dari Unsplash
 
@@ -98,13 +98,13 @@ Sebaliknya, kita boleh cuba memodelkan elemen paling mudah dalam otak kita – i
 
 > | Bagaimana dengan ML?         |      |
 > |--------------|-----------|
-> | Bahagian Kecerdasan Buatan yang berdasarkan komputer belajar untuk menyelesaikan masalah berdasarkan beberapa data dipanggil **Pembelajaran Mesin**. Kita tidak akan mempertimbangkan pembelajaran mesin klasik dalam kursus ini - kita merujuk anda kepada kurikulum [Machine Learning for Beginners](http://aka.ms/ml-beginners) yang berasingan. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.ms.png)    |
+> | Bahagian Kecerdasan Buatan yang berdasarkan komputer belajar untuk menyelesaikan masalah berdasarkan beberapa data dipanggil **Pembelajaran Mesin**. Kita tidak akan mempertimbangkan pembelajaran mesin klasik dalam kursus ini - kita merujuk anda kepada kurikulum [Machine Learning for Beginners](http://aka.ms/ml-beginners) yang berasingan. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.ms.png)    |
 
 ## Sejarah Ringkas AI
 
 Kecerdasan Buatan bermula sebagai satu bidang pada pertengahan abad ke-20. Pada mulanya, pendekatan penaakulan simbolik adalah pendekatan yang dominan, dan ia membawa kepada beberapa kejayaan penting, seperti sistem pakar – program komputer yang mampu bertindak sebagai pakar dalam beberapa domain masalah yang terhad. Walau bagaimanapun, tidak lama kemudian menjadi jelas bahawa pendekatan sedemikian tidak berskala dengan baik. Mengekstrak pengetahuan daripada pakar, mewakilkannya dalam komputer, dan memastikan pangkalan pengetahuan itu tepat ternyata menjadi tugas yang sangat kompleks, dan terlalu mahal untuk praktikal dalam banyak kes. Ini membawa kepada apa yang dipanggil [AI Winter](https://en.wikipedia.org/wiki/AI_winter) pada tahun 1970-an.
 
-<img alt="Sejarah Ringkas AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.ms.png" width="70%"/>
+<img alt="Sejarah Ringkas AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.ms.png" width="70%"/>
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Begitu juga, kita boleh melihat bagaimana pendekatan terhadap mencipta “progra
 * Pembantu moden, seperti Cortana, Siri atau Google Assistant semuanya adalah sistem hibrid yang menggunakan rangkaian neural untuk menukar pertuturan kepada teks dan mengenali niat kita, dan kemudian menggunakan beberapa penaakulan atau algoritma eksplisit untuk melaksanakan tindakan yang diperlukan.
 * Pada masa depan, kita mungkin menjangkakan model berasaskan neural sepenuhnya untuk mengendalikan dialog dengan sendirinya. Keluarga GPT dan [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) rangkaian neural baru-baru ini menunjukkan kejayaan besar dalam hal ini.
 
-<img alt="evolusi ujian Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.ms.png" width="70%"/>
+<img alt="evolusi ujian Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.ms.png" width="70%"/>
 > Gambar oleh Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) oleh [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Penyelidikan AI Terkini

@@ -19,7 +19,7 @@ V architektúre RNN, ktorú sme preberali v predchádzajúcej jednotke, každá 
 
 To umožňuje rôzne neurónové architektúry, ktoré sú znázornené na obrázku nižšie:
 
-![Obrázok zobrazujúci bežné vzory rekurentných neurónových sietí.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sk.jpg)
+![Obrázok zobrazujúci bežné vzory rekurentných neurónových sietí.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sk.jpg)
 
 > Obrázok z blogového príspevku [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) od [Andreja Karpatyho](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ V tejto jednotke sa zameriame na jednoduché generatívne modely, ktoré nám po
 
 Budeme trénovať túto RNN na generovanie textu krok za krokom. Na každom kroku vezmeme sekvenciu znakov dĺžky `nchars` a požiadame sieť, aby pre každý vstupný znak vygenerovala ďalší výstupný znak:
 
-![Obrázok zobrazujúci príklad generovania slova 'HELLO' pomocou RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.sk.png)
+![Obrázok zobrazujúci príklad generovania slova 'HELLO' pomocou RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.sk.png)
 
 Pri generovaní textu (počas inferencie) začíname s nejakým **podnetom**, ktorý prechádza cez RNN bunky na generovanie jeho medzistavu, a potom z tohto stavu začína generovanie. Generujeme jeden znak naraz a stav spolu s vygenerovaným znakom posielame ďalšej RNN bunke na generovanie ďalšieho znaku, až kým nevygenerujeme dostatok znakov.
 

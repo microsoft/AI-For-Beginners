@@ -60,7 +60,7 @@ nouveau-né | O
 
 Puisque nous devons établir une correspondance un-à-un entre les tokens et les classes, nous pouvons entraîner un modèle neuronal **many-to-many** (plusieurs-à-plusieurs) à partir de cette image :
 
-![Image montrant les architectures courantes des réseaux neuronaux récurrents.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.fr.jpg)
+![Image montrant les architectures courantes des réseaux neuronaux récurrents.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.fr.jpg)
 
 > *Image tirée de [cet article de blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) par [Andrej Karpathy](http://karpathy.github.io/). Les modèles de classification de tokens NER correspondent à l'architecture de réseau située à l'extrême droite de cette image.*
 

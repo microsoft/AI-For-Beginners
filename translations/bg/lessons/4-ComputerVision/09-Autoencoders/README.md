@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Тъй като обучаваме автоенкодера да улавя максимално много информация от оригиналното изображение за точна реконструкция, мрежата се опитва да намери най-доброто **вграждане** на входните изображения, за да улови тяхното значение.
 
-![Диаграма на автоенкодер](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.bg.jpg)
+![Диаграма на автоенкодер](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.bg.jpg)
 
 > Изображение от [Keras блог](https://blog.keras.io/building-autoencoders-in-keras.html)
 

@@ -15,7 +15,7 @@ NLP အလုပ်များကို ဖြေရှင်းရန် trans
 
 CLIP ၏ အဓိကအကြောင်းအရာမှာ စာသား prompt များနှင့် ပုံတစ်ပုံကို နှိုင်းယှဉ်ပြီး ပုံသည် prompt နှင့် ဘယ်လောက်တိကျမှုရှိသည်ကို သတ်မှတ်နိုင်ရန်ဖြစ်သည်။
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.my.png)
+![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.my.png)
 
 > *ဤ blog post မှ ပုံ [ဒီမှာ](https://openai.com/blog/clip/)*
 
@@ -31,7 +31,7 @@ CLIP မော်ဒယ်/စာကြည့်တိုက်ကို [OpenAI
 
 ဥပမာအားဖြင့် ပုံများကို ကြောင်၊ ခွေး၊ လူတို့အကြား ခွဲခြားရန် လိုအပ်သည်ဟု ယူဆပါစို့။ ဤအခါတွင် မော်ဒယ်ကို ပုံတစ်ပုံနှင့် စာသား prompt များ "*a picture of a cat*", "*a picture of a dog*", "*a picture of a human*" တို့ကို ပေးပါ။ 3 probabilities ရလဒ် vector တွင် အမြင့်ဆုံးတန်ဖိုးရှိသော index ကို ရွေးချယ်ရမည်ဖြစ်သည်။
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.my.png)
+![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.my.png)
 
 > *ဤ blog post မှ ပုံ [ဒီမှာ](https://openai.com/blog/clip/)*
 
@@ -55,13 +55,13 @@ VQGAN အကြောင်းကို [Taming Transformers](https://compvis.gi
 
 VQGAN နှင့် ရိုးရာ GAN အကြား အရေးကြီးသော ကွာခြားချက်တစ်ခုမှာ၊ နောက်ဆုံးပုံကို မည်သည့် input vector မှမဆို ရိုးရာ GAN သည် သင့်တော်သောပုံကို ဖန်တီးနိုင်သော်လည်း၊ VQGAN သည် coherence မရှိသောပုံကို ဖန်တီးနိုင်သည်။ ထို့ကြောင့် ပုံဖန်တီးမှုလုပ်ငန်းစဉ်ကို CLIP ကို အသုံးပြု၍ ထပ်မံလမ်းညွှန်ရန် လိုအပ်သည်။
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.my.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.my.png)
 
 စာသား prompt နှင့် ကိုက်ညီသော ပုံတစ်ပုံကို ဖန်တီးရန်၊ random encoding vector တစ်ခုဖြင့် စတင်ပြီး၊ ၎င်းကို VQGAN မှတဆင့် ပုံတစ်ပုံထုတ်လုပ်သည်။ ထို့နောက် CLIP ကို loss function တစ်ခုဖန်တီးရန် အသုံးပြုသည်။ ၎င်းသည် ပုံသည် စာသား prompt နှင့် ဘယ်လောက်ကိုက်ညီသည်ကို ပြသသည်။ ထို့နောက် loss ကို အနည်းဆုံးဖြစ်အောင်လုပ်ရန်၊ back propagation ကို အသုံးပြု၍ input vector parameters များကို ပြင်ဆင်သည်။
 
 VQGAN+CLIP ကို အကောင်အထည်ဖော်ထားသော စာကြည့်တိုက်တစ်ခုမှာ [Pixray](http://github.com/pixray/pixray) ဖြစ်သည်။
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.my.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.my.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.my.png)
+![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.my.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.my.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.my.png)
 ----|----|----
 Prompt *a closeup watercolor portrait of young male teacher of literature with a book* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of young female teacher of computer science with a computer* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard* မှ ဖန်တီးထားသော ပုံ
 

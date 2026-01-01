@@ -56,7 +56,7 @@ novorojenčku | O
 
 Ker moramo vzpostaviti enako razmerje med tokeni in razredi, lahko iz te slike treniramo desno **mnogokratno-mnogokratno** nevronsko mrežo:
 
-![Slika prikazuje običajne vzorce rekurzivnih nevronskih mrež.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.sl.jpg)
+![Slika prikazuje običajne vzorce rekurzivnih nevronskih mrež.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sl.jpg)
 
 > *Slika iz [tega bloga](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) avtorja [Andreja Karpathyja](http://karpathy.github.io/). Modeli klasifikacije tokenov NER ustrezajo desni arhitekturi mreže na tej sliki.*
 

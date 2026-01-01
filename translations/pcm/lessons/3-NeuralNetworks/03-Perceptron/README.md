@@ -15,7 +15,7 @@ One of di first try wey dem do to create somtin wey resemble modern neural netwo
 
 |      |      |
 |--------------|-----------|
-|<img src='../../../../../translated_images/Rosenblatt-wikipedia.294821b285ac796d2281a556fe3de9a7aa328e34cdd25f3ac9deefa0982ea2df.pcm.jpg' alt='Frank Rosenblatt'/> | <img src='../../../../../translated_images/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9fb32bab6ae07e40faa202be1935c0fbd8c2bc2600a87bcb1.pcm.jpg' alt='The Mark 1 Perceptron' />|
+|<img src='../../../../../translated_images/Rosenblatt-wikipedia.294821b285ac796d.pcm.jpg' alt='Frank Rosenblatt'/> | <img src='../../../../../translated_images/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.pcm.jpg' alt='The Mark 1 Perceptron' />|
 
 > Images [from Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
@@ -34,7 +34,7 @@ y(x) = f(w<sup>T</sup>x)
 where f na step activation function
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
-<img src="../../../../../translated_images/activation-func.b4924007c7ce77648d4b1dd3e81c689453204902c096c626735c7b53688cdc63.pcm.png"/>
+<img src="../../../../../translated_images/activation-func.b4924007c7ce7764.pcm.png"/>
 
 ## Training the Perceptron
 

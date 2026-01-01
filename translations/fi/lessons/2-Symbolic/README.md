@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tiedon esittäminen ja asiantuntijajärjestelmät
 
-![Symbolisen tekoälyn sisällön yhteenveto](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.fi.png)
+![Symbolisen tekoälyn sisällön yhteenveto](../../../../translated_images/ai-symbolic.715a30cb610411a6.fi.png)
 
 > Sketchnote: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Usein emme määrittele tietoa tarkasti, vaan yhdistämme sen muihin siihen liit
 
 Näin ollen **tiedon esittämisen** ongelma on löytää tehokas tapa esittää tieto tietokoneessa datan muodossa, jotta sitä voidaan käyttää automaattisesti. Tämä voidaan nähdä spektrinä:
 
-![Tiedon esittämisen spektri](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.fi.png)
+![Tiedon esittämisen spektri](../../../../translated_images/knowledge-spectrum.b60df631852c0217.fi.png)
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Lohkorakenne | Sisennys | | |
 
 Symbolisen tekoälyn varhaisia menestyksiä olivat niin sanotut **asiantuntijajärjestelmät** - tietokonejärjestelmät, jotka suunniteltiin toimimaan asiantuntijana jollakin rajatulla ongelma-alueella. Ne perustuivat **tietokantaan**, joka oli kerätty yhdeltä tai useammalta ihmisasiantuntijalta, ja ne sisälsivät **päättelymoottorin**, joka suoritti päättelyä sen pohjalta.
 
-![Ihmisen arkkitehtuuri](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.fi.png) | ![Tietopohjaisen järjestelmän arkkitehtuuri](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.fi.png)
+![Ihmisen arkkitehtuuri](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.fi.png) | ![Tietopohjaisen järjestelmän arkkitehtuuri](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.fi.png)
 ---------------------------------------------|------------------------------------------------
 Ihmisen hermojärjestelmän yksinkertaistettu rakenne | Tietopohjaisen järjestelmän arkkitehtuuri
 
@@ -106,7 +106,7 @@ Asiantuntijajärjestelmät rakennetaan ihmisen päättelyjärjestelmän tapaan, 
 
 Esimerkiksi tarkastellaan seuraavaa asiantuntijajärjestelmää, joka määrittää eläimen sen fyysisten ominaisuuksien perusteella:
 
-![AND-OR-puu](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.fi.png)
+![AND-OR-puu](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.fi.png)
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 

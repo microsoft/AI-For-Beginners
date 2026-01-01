@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 自然言語処理
 
-![NLPタスクの概要を示すイラスト](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.ja.png)
+![NLPタスクの概要を示すイラスト](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.ja.png)
 
 このセクションでは、**自然言語処理 (NLP)** に関連するタスクを扱うためにニューラルネットワークを使用する方法に焦点を当てます。コンピュータに解決してほしい多くのNLP問題があります。
 

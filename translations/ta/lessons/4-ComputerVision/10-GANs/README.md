@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GAN-இன் முக்கிய யோசனை இரண்டு நரம்பியல் நெட்வொர்க்குகளை ஒன்றுக்கொன்று எதிராகப் பயிற்சி செய்யும் முறையாகும்:
 
-<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d698a91f7668017d8e09b81c5d8e7cc99bdb23979d90a0c475e.ta.png" width="70%"/>
+<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d69.ta.png" width="70%"/>
 
 > படம்: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +41,7 @@ GAN-இன் முக்கிய யோசனை இரண்டு நரம
 
 > ✅ கான்வல்யூஷன் அடுக்கு ஒரு நேரியல் வடிகட்டி படத்தைச் சுற்றி செயல்படுவதால், டிகான்வல்யூஷன் அடிப்படையில் கான்வல்யூஷனுக்கு ஒத்ததாகும், மற்றும் அதே அடுக்கு தர்க்கத்தைப் பயன்படுத்தி செயல்படுத்தலாம்.
 
-<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543170264fe07e516683ac3e5bb699392c35449e99590a11063.ta.png" width="70%"/>
+<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543.ta.png" width="70%"/>
 
 > படம்: [Dmitry Soshnikov](http://soshnikov.com)
 

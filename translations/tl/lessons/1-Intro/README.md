@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panimula sa AI
 
-![Buod ng nilalaman ng Panimula sa AI sa isang doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.tl.png)
+![Buod ng nilalaman ng Panimula sa AI sa isang doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c.tl.png)
 
 > Sketchnote ni [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Noong una, ang mga computer ay naimbento ni [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) upang mag-operate sa mga numero gamit ang isang malinaw na proseso - isang algorithm. Ang mga modernong computer, kahit na mas advanced kaysa sa orihinal na modelo noong ika-19 na siglo, ay sumusunod pa rin sa parehong ideya ng kontroladong pagkalkula. Kaya't posible na i-program ang isang computer upang gawin ang isang bagay kung alam natin ang eksaktong pagkakasunod-sunod ng mga hakbang na kailangan upang makamit ang layunin.
 
-![Larawan ng isang tao](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.tl.png)
+![Larawan ng isang tao](../../../../translated_images/dsh_age.d212a30d4e54fb5f.tl.png)
 
 > Larawan ni [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Para sa karagdagang impormasyon, tingnan ang **[Artificial General Intelligence]
 
 Isa sa mga problema sa pagharap sa terminong **[Katalinuhan](https://en.wikipedia.org/wiki/Intelligence)** ay walang malinaw na depinisyon ng terminong ito. Maaaring sabihin ng iba na ang katalinuhan ay konektado sa **abstraktong pag-iisip**, o sa **sariling kamalayan**, ngunit hindi natin ito maipaliwanag nang maayos.
 
-![Larawan ng Pusa](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.tl.jpg)
+![Larawan ng Pusa](../../../../translated_images/photo-cat.8c8e8fb760ffe457.tl.jpg)
 
 > [Larawan](https://unsplash.com/photos/75715CVEJhI) ni [Amber Kipp](https://unsplash.com/@sadmax) mula sa Unsplash
 
@@ -98,13 +98,13 @@ Sa kabilang banda, maaari nating subukang i-modelo ang pinakasimpleng elemento s
 
 > | Paano naman ang ML?         |      |
 > |--------------|-----------|
-> | Ang bahagi ng Artificial Intelligence na batay sa pag-aaral ng computer upang lutasin ang problema batay sa ilang data ay tinatawag na **Machine Learning**. Hindi natin tatalakayin ang klasikong machine learning sa kursong ito - tinutukoy namin kayo sa hiwalay na [Machine Learning for Beginners](http://aka.ms/ml-beginners) na kurikulum. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.tl.png)    |
+> | Ang bahagi ng Artificial Intelligence na batay sa pag-aaral ng computer upang lutasin ang problema batay sa ilang data ay tinatawag na **Machine Learning**. Hindi natin tatalakayin ang klasikong machine learning sa kursong ito - tinutukoy namin kayo sa hiwalay na [Machine Learning for Beginners](http://aka.ms/ml-beginners) na kurikulum. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.tl.png)    |
 
 ## Maikling Kasaysayan ng AI
 
 Ang Artificial Intelligence ay nagsimula bilang isang larangan noong kalagitnaan ng ikadalawampung siglo. Sa simula, ang symbolic reasoning ay isang pangunahing diskarte, at nagresulta ito sa ilang mahahalagang tagumpay, tulad ng mga expert systems – mga programang computer na kayang kumilos bilang eksperto sa ilang limitadong larangan ng problema. Gayunpaman, kalaunan ay naging malinaw na ang ganitong diskarte ay hindi masyadong epektibo. Ang pagkuha ng kaalaman mula sa isang eksperto, pagrepresenta nito sa computer, at pagpapanatili ng kaalaman na tumpak ay naging napakakomplikado at masyadong mahal upang maging praktikal sa maraming kaso. Ito ang nagresulta sa tinatawag na [AI Winter](https://en.wikipedia.org/wiki/AI_winter) noong dekada 1970.
 
-<img alt="Maikling Kasaysayan ng AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.tl.png" width="70%"/>
+<img alt="Maikling Kasaysayan ng AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.tl.png" width="70%"/>
 
 > Larawan ni [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Katulad nito, makikita natin kung paano nagbago ang diskarte sa paglikha ng “m
 * Ang mga modernong assistant, tulad ng Cortana, Siri o Google Assistant ay lahat ng hybrid systems na gumagamit ng Neural networks upang i-convert ang pagsasalita sa teksto at kilalanin ang ating intensyon, at pagkatapos ay gumamit ng ilang pangangatwiran o tahasang algorithm upang maisagawa ang mga kinakailangang aksyon.
 * Sa hinaharap, maaari nating asahan ang isang kumpletong neural-based na modelo upang pangasiwaan ang pag-uusap nang mag-isa. Ang kamakailang GPT at [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) na pamilya ng neural networks ay nagpapakita ng mahusay na tagumpay sa larangang ito.
 
-<img alt="ebolusyon ng Turing test" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.tl.png" width="70%"/>
+<img alt="ebolusyon ng Turing test" src="../../../../translated_images/turing-test-evol.4184696701293ead.tl.png" width="70%"/>
 > Larawan ni Dmitry Soshnikov, [larawan](https://unsplash.com/photos/r8LmVbUKgns) ni [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Kamakailang Pananaliksik sa AI

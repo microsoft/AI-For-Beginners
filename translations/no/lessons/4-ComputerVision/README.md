@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Datamaskinsyn
 
-![Sammendrag av innholdet om datamaskinsyn i en skisse](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.no.png)
+![Sammendrag av innholdet om datamaskinsyn i en skisse](../../../../translated_images/ai-computervision.6506ebebac3fbf76.no.png)
 
 I denne delen skal vi lære om:
 

@@ -34,7 +34,7 @@ You don see modern balancing devices like *Segway* or *Gyroscooters* before? Dem
 
 Simplified version of balancing na **CartPole** problem. For CartPole world, we get horizontal slider wey fit move left or right, and di goal na to balance vertical pole on top di slider as e dey move.
 
-<img alt="a cartpole" src="../../../../../translated_images/cartpole.f52a67f27e058170c25efc1bca8375b60906570ea757fe8d7ef04ae8e53df29d.pcm.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/cartpole.f52a67f27e058170.pcm.png" width="200"/>
 
 To create and use dis environment, we need small Python code:
 

@@ -29,7 +29,7 @@ Hem Keras hem de PyTorch, yaygın mimariler için önceden eğitilmiş sinir ağ
 
 İşte VGG-16 ağı tarafından bir kedi resminden çıkarılan örnek özellikler:
 
-![VGG-16 tarafından çıkarılan özellikler](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.tr.png)
+![VGG-16 tarafından çıkarılan özellikler](../../../../../translated_images/features.6291f9c7ba3a0b95.tr.png)
 
 ## Kediler ve Köpekler Veri Kümesi
 
@@ -48,19 +48,19 @@ Transfer öğrenimini ilgili not defterlerinde nasıl çalıştığını göreli
 
 Alabileceğimiz bir yaklaşım, rastgele bir görüntüyle başlamak ve ardından **gradyan iniş optimizasyonu** tekniğini kullanarak bu görüntüyü ağın bir kedi olduğunu düşünmesini sağlayacak şekilde ayarlamaktır.
 
-![Görüntü Optimizasyon Döngüsü](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.tr.png)
+![Görüntü Optimizasyon Döngüsü](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.tr.png)
 
 Ancak bunu yaparsak, rastgele bir gürültüye çok benzeyen bir şey elde ederiz. Bunun nedeni, *ağın giriş görüntüsünü bir kedi olarak düşünmesini sağlamanın birçok yolu olmasıdır*, bunların bazıları görsel olarak mantıklı değildir. Bu görüntüler kediye özgü birçok desen içerirken, görsel olarak ayırt edici olmalarını sağlayacak bir kısıtlama yoktur.
 
 Sonucu iyileştirmek için kayıp fonksiyonuna **varyasyon kaybı** adı verilen başka bir terim ekleyebiliriz. Bu, görüntünün komşu piksellerinin ne kadar benzer olduğunu gösteren bir metriktir. Varyasyon kaybını minimize etmek, görüntüyü daha düzgün hale getirir ve gürültüyü ortadan kaldırır - böylece daha görsel olarak çekici desenler ortaya çıkar. İşte yüksek olasılıkla kedi ve zebra olarak sınıflandırılan bu "ideal" görüntülere bir örnek:
 
-![İdeal Kedi](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.tr.png) | ![İdeal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.tr.png)
+![İdeal Kedi](../../../../../translated_images/ideal-cat.203dd4597643d6b0.tr.png) | ![İdeal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.tr.png)
 -----|-----
  *İdeal Kedi* | *İdeal Zebra*
 
 Benzer bir yaklaşım, sinir ağına karşı **adversaryal saldırılar** gerçekleştirmek için kullanılabilir. Diyelim ki bir sinir ağını kandırmak ve bir köpeği kedi gibi göstermek istiyoruz. Eğer ağ tarafından köpek olarak tanınan bir köpek görüntüsü alırsak, bunu biraz ayarlayarak gradyan iniş optimizasyonu kullanabiliriz, ta ki ağ bunu kedi olarak sınıflandırana kadar:
 
-![Köpek Resmi](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.tr.png) | ![Kedi olarak sınıflandırılan köpek resmi](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.tr.png)
+![Köpek Resmi](../../../../../translated_images/original-dog.8f68a67d2fe0911f.tr.png) | ![Kedi olarak sınıflandırılan köpek resmi](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.tr.png)
 -----|-----
 *Orijinal köpek resmi* | *Kedi olarak sınıflandırılan köpek resmi*
 

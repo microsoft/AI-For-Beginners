@@ -17,7 +17,7 @@ A valóságban azt szeretnénk, hogy képesek legyünk felismerni tárgyakat egy
 
 A mintázatok kinyeréséhez a **konvolúciós szűrők** fogalmát használjuk. Mint tudjuk, egy kép egy 2D-mátrixként vagy egy színes mélységgel rendelkező 3D-tenzorként van ábrázolva. Egy szűrő alkalmazása azt jelenti, hogy veszünk egy viszonylag kicsi **szűrőmag** mátrixot, és az eredeti kép minden egyes pixelénél kiszámítjuk a súlyozott átlagot a szomszédos pontokkal. Ezt úgy képzelhetjük el, mint egy kis ablakot, amely végigcsúszik az egész képen, és az összes pixelt az ablakban lévő súlyok szerint átlagolja.
 
-![Függőleges él szűrő](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.hu.png) | ![Vízszintes él szűrő](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.hu.png)
+![Függőleges él szűrő](../../../../../translated_images/filter-vert.b7148390ca0bc356.hu.png) | ![Vízszintes él szűrő](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.hu.png)
 ----|----
 
 > Kép: Dmitry Soshnikov
@@ -38,7 +38,7 @@ A CNN-ek működése a következő fontos ötleteken alapul:
 * A hálózatot úgy tervezhetjük meg, hogy a szűrők automatikusan tanuljanak.
 * Ugyanezt a megközelítést használhatjuk magas szintű jellemzők mintázatainak megtalálására is, nem csak az eredeti képen. Így a CNN jellemzők kinyerése egy hierarchikus folyamatban működik, az alacsony szintű pixelkombinációktól kezdve a kép részeinek magasabb szintű kombinációjáig.
 
-![Hierarchikus jellemzők kinyerése](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.hu.png)
+![Hierarchikus jellemzők kinyerése](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.hu.png)
 
 > Kép a [Hislop-Lynch tanulmányból](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), az [ő kutatásuk alapján](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ A legtöbb képfeldolgozásra használt CNN az úgynevezett piramis architektúr
 
 Példaként nézzük meg a VGG-16 architektúráját, amely 92,7%-os pontosságot ért el az ImageNet top-5 osztályozásában 2014-ben:
 
-![ImageNet Rétegek](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.hu.jpg)
+![ImageNet Rétegek](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.hu.jpg)
 
-![ImageNet Piramis](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.hu.jpg)
+![ImageNet Piramis](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.hu.jpg)
 
 > Kép a [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) oldalról
 

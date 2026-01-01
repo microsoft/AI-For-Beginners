@@ -13,7 +13,7 @@ Modely pro klasifikaci obrázků, se kterými jsme se dosud zabývali, přijíma
 
 ## [Kvíz před lekcí](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detekce objektů](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.cs.png)
+![Detekce objektů](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.cs.png)
 
 > Obrázek z [webu YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Předpokládejme, že chceme najít kočku na obrázku. Velmi naivní přístup 
 2. Proveďte klasifikaci obrázků na každé dlaždici.
 3. Dlaždice, které vykazují dostatečně vysokou aktivaci, lze považovat za obsahující hledaný objekt.
 
-![Naivní detekce objektů](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.cs.png)
+![Naivní detekce objektů](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.cs.png)
 
 > *Obrázek z [cvičebního notebooku](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Můžete narazit na následující datové sady pro tento úkol:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 tříd
 * [COCO](http://cocodataset.org/#home) – Common Objects in Context. 80 tříd, ohraničující rámečky a segmentační masky
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.cs.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.cs.jpg)
 
 ## Metriky pro detekci objektů
 
@@ -50,7 +50,7 @@ Můžete narazit na následující datové sady pro tento úkol:
 
 Zatímco u klasifikace obrázků je snadné měřit, jak dobře algoritmus funguje, u detekce objektů musíme měřit jak správnost třídy, tak přesnost určené polohy ohraničujícího rámečku. Pro druhé zmíněné používáme tzv. **Průnik přes sjednocení** (IoU), který měří, jak dobře se dva rámečky (nebo dvě libovolné oblasti) překrývají.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.cs.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.cs.png)
 
 > *Obrázek 2 z [tohoto skvělého blogového příspěvku o IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Existují dvě široké kategorie algoritmů pro detekci objektů:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) používá [Selektivní vyhledávání](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) k vytvoření hierarchické struktury oblastí ROI, které jsou následně zpracovány extraktory funkcí CNN a klasifikátory SVM k určení třídy objektu, a lineární regresí k určení souřadnic *ohraničujícího rámečku*. [Oficiální článek](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.cs.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.cs.png)
 
 > *Obrázek od van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.cs.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.cs.png)
 
 > *Obrázky z [tohoto blogu](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Existují dvě široké kategorie algoritmů pro detekci objektů:
 
 Tento přístup je podobný R-CNN, ale oblasti jsou definovány po aplikaci konvolučních vrstev.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.cs.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.cs.png)
 
 > Obrázek z [oficiálního článku](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Tento přístup je podobný R-CNN, ale oblasti jsou definovány po aplikaci konv
 
 Hlavní myšlenkou tohoto přístupu je použití neuronové sítě k předpovědi ROI – tzv. *Region Proposal Network*. [Článek](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.cs.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.cs.png)
 
 > Obrázek z [oficiálního článku](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Tento algoritmus je ještě rychlejší než Faster R-CNN. Hlavní myšlenka je 
 2. Funkce jsou zpracovány pomocí **Position-Sensitive Score Map**. Každý objekt z $C$ tříd je rozdělen na $k\times k$ oblasti a trénujeme na předpověď částí objektů.
 3. Pro každou část z $k\times k$ oblastí všechny sítě hlasují pro třídy objektů a třída objektu s maximálním počtem hlasů je vybrána.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.cs.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.cs.png)
 
 > Obrázek z [oficiálního článku](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO je algoritmus pro detekci v reálném čase s jedním průchodem. Hlavní m
  * Obrázek je rozdělen na $S\times S$ oblasti.
  * Pro každou oblast **CNN** předpovídá $n$ možných objektů, souřadnice *ohraničujícího rámečku* a *důvěru*=*pravděpodobnost* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.cs.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.cs.png)
 
 > Obrázek z [oficiálního článku](https://arxiv.org/abs/1506.02640)
 

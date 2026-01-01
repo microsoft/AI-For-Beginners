@@ -58,7 +58,7 @@ infant | O
 
 Omdat we een één-op-één-correspondentie tussen tokens en klassen moeten opbouwen, kunnen we een rechtse **veel-op-veel** neurale netwerkmodel trainen zoals in deze afbeelding:
 
-![Afbeelding die veelvoorkomende patronen van recurrente neurale netwerken toont.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.nl.jpg)
+![Afbeelding die veelvoorkomende patronen van recurrente neurale netwerken toont.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.nl.jpg)
 
 > *Afbeelding uit [deze blogpost](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) door [Andrej Karpathy](http://karpathy.github.io/). NER-tokenclassificatiemodellen komen overeen met de rechtse netwerkarchitectuur op deze afbeelding.*
 

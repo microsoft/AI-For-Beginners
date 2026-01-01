@@ -17,7 +17,7 @@ But, if we wan generate something wey really make sense, like painting wey get b
 
 Di main idea for GAN na to get two neural networks wey go dey train against each other:
 
-<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d698a91f7668017d8e09b81c5d8e7cc99bdb23979d90a0c475e.pcm.png" width="70%"/>
+<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d69.pcm.png" width="70%"/>
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +41,7 @@ Generator small tricky pass. You fit see am as reversed discriminator. E dey sta
 
 > ✅ Because convolution layer dey work like linear filter wey dey waka through di image, deconvolution dey similar to convolution, and we fit implement am using di same layer logic.
 
-<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543170264fe07e516683ac3e5bb699392c35449e99590a11063.pcm.png" width="70%"/>
+<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543.pcm.png" width="70%"/>
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -13,7 +13,7 @@ Model klasifikasi imej yang telah kita pelajari sebelum ini mengambil imej dan m
 
 ## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Pengesanan Objek](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ms.png)
+![Pengesanan Objek](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.ms.png)
 
 > Imej dari [laman web YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Jika kita ingin mencari seekor kucing dalam gambar, pendekatan naif untuk penges
 2. Jalankan klasifikasi imej pada setiap jubin.
 3. Jubin yang menghasilkan pengaktifan yang cukup tinggi boleh dianggap mengandungi objek yang dicari.
 
-![Pengesanan Objek Naif](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.ms.png)
+![Pengesanan Objek Naif](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.ms.png)
 
 > *Imej dari [Buku Latihan](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Anda mungkin akan menemui dataset berikut untuk tugas ini:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 kelas
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 kelas, kotak sempadan dan topeng segmentasi
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.ms.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.ms.jpg)
 
 ## Metrik Pengesanan Objek
 
@@ -50,7 +50,7 @@ Anda mungkin akan menemui dataset berikut untuk tugas ini:
 
 Untuk klasifikasi imej, mudah untuk mengukur sejauh mana algoritma berfungsi, tetapi untuk pengesanan objek kita perlu mengukur kedua-dua ketepatan kelas dan ketepatan lokasi kotak sempadan yang diramalkan. Untuk yang terakhir, kita menggunakan **Intersection over Union** (IoU), yang mengukur sejauh mana dua kotak (atau dua kawasan arbitrari) bertindih.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.ms.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.ms.png)
 
 > *Rajah 2 dari [blog post yang sangat baik tentang IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Terdapat dua kelas utama algoritma pengesanan objek:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) menggunakan [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) untuk menghasilkan struktur hierarki kawasan ROI, yang kemudian dilalui oleh pengekstrak ciri CNN dan pengklasifikasi SVM untuk menentukan kelas objek, dan regresi linear untuk menentukan koordinat *kotak sempadan*. [Kertas Rasmi](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.ms.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.ms.png)
 
 > *Imej dari van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.ms.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.ms.png)
 
 > *Imej dari [blog ini](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -110,7 +110,7 @@ Terdapat dua kelas utama algoritma pengesanan objek:
 
 Pendekatan ini serupa dengan R-CNN, tetapi kawasan ditentukan selepas lapisan konvolusi diterapkan.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.ms.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.ms.png)
 
 > Imej dari [Kertas Rasmi](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Pendekatan ini serupa dengan R-CNN, tetapi kawasan ditentukan selepas lapisan ko
 
 Idea utama pendekatan ini adalah menggunakan rangkaian neural untuk meramalkan ROI - yang dipanggil *Region Proposal Network*. [Kertas](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.ms.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.ms.png)
 
 > Imej dari [kertas rasmi](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Algoritma ini lebih pantas daripada Faster R-CNN. Idea utama adalah seperti beri
 1. Ciri-ciri diproses oleh **Position-Sensitive Score Map**. Setiap objek dari $C$ kelas dibahagikan kepada $k\times k$ kawasan, dan kita melatih untuk meramalkan bahagian objek.
 1. Untuk setiap bahagian dari $k\times k$ kawasan, semua rangkaian mengundi untuk kelas objek, dan kelas objek dengan undian maksimum dipilih.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.ms.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.ms.png)
 
 > Imej dari [kertas rasmi](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO adalah algoritma satu-laluan masa nyata. Idea utama adalah seperti berikut:
  * Imej dibahagikan kepada $S\times S$ kawasan.
  * Untuk setiap kawasan, **CNN** meramalkan $n$ objek yang mungkin, koordinat *kotak sempadan* dan *confidence*=*probability* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.ms.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.ms.png)
 
 > Imej dari [kertas rasmi](https://arxiv.org/abs/1506.02640)
 

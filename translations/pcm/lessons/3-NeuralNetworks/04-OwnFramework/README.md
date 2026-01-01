@@ -65,7 +65,7 @@ Di gradient descent algorithm go still dey di same, but e go hard to calculate g
 
 Notice say di left-most part of all di expressions dey di same, so we fit calculate derivatives well starting from di loss function and go "backwards" through di computational graph. So di method of training multi-layered perceptron na **backpropagation**, or 'backprop'.
 
-<img alt="compute graph" src="../../../../../translated_images/ComputeGraphGrad.4626252c0de035075e5cd2b7f71b776d5e3e8f64f2dc472b4420d3fdfaf53ba8.pcm.png"/>
+<img alt="compute graph" src="../../../../../translated_images/ComputeGraphGrad.4626252c0de03507.pcm.png"/>
 
 > TODO: image citation
 

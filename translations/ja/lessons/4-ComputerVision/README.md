@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # コンピュータビジョン
 
-![コンピュータビジョンの内容をまとめたイラスト](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.ja.png)
+![コンピュータビジョンの内容をまとめたイラスト](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ja.png)
 
 このセクションでは以下について学びます:
 

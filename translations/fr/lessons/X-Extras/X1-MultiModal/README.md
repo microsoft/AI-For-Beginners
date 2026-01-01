@@ -15,7 +15,7 @@ Après le succès des modèles transformateurs pour résoudre des tâches de tra
 
 L'idée principale de CLIP est de pouvoir comparer des descriptions textuelles avec une image et déterminer à quel point l'image correspond à la description.
 
-![Architecture CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.fr.png)
+![Architecture CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.fr.png)
 
 > *Image tirée de [cet article de blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Une fois ce modèle pré-entraîné, nous pouvons lui fournir un lot d'images et
 
 Supposons que nous devons classer des images entre, par exemple, des chats, des chiens et des humains. Dans ce cas, nous pouvons donner au modèle une image et une série de descriptions textuelles : "*une image d'un chat*", "*une image d'un chien*", "*une image d'un humain*". Dans le vecteur résultant de 3 probabilités, il suffit de sélectionner l'indice avec la valeur la plus élevée.
 
-![CLIP pour la Classification d'Images](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.fr.png)
+![CLIP pour la Classification d'Images](../../../../../translated_images/clip-class.3af42ef0b2b19369.fr.png)
 
 > *Image tirée de [cet article de blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Apprenez-en davantage sur VQGAN sur le site [Taming Transformers](https://compvi
 
 Une des différences importantes entre VQGAN et les GAN traditionnels est que ces derniers peuvent produire une image correcte à partir de n'importe quel vecteur d'entrée, tandis que VQGAN est susceptible de produire une image incohérente. Ainsi, nous devons guider davantage le processus de création d'image, ce qui peut être fait en utilisant CLIP.
 
-![Architecture VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.fr.png)
+![Architecture VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.fr.png)
 
 Pour générer une image correspondant à une description textuelle, nous commençons par un vecteur d'encodage aléatoire qui est passé à travers VQGAN pour produire une image. Ensuite, CLIP est utilisé pour produire une fonction de perte qui montre à quel point l'image correspond à la description textuelle. L'objectif est alors de minimiser cette perte, en utilisant la rétropropagation pour ajuster les paramètres du vecteur d'entrée.
 
 Une excellente bibliothèque qui implémente VQGAN+CLIP est [Pixray](http://github.com/pixray/pixray).
 
-![Image produite par Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.fr.png) |  ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.fr.png) | ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.fr.png)
+![Image produite par Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.fr.png) |  ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.fr.png) | ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.fr.png)
 ----|----|----
 Image générée à partir de la description *un portrait en gros plan à l'aquarelle d'un jeune professeur de littérature avec un livre* | Image générée à partir de la description *un portrait en gros plan à l'huile d'une jeune professeure d'informatique avec un ordinateur* | Image générée à partir de la description *un portrait en gros plan à l'huile d'un vieux professeur de mathématiques devant un tableau noir*
 

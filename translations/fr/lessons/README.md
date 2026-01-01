@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vue d'ensemble
 
-![Vue d'ensemble dans un croquis](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.fr.png)
+![Vue d'ensemble dans un croquis](../../../translated_images/ai-overview.0857791951d19500.fr.png)
 
 > Croquis par [Tomomi Imura](https://twitter.com/girlie_mac)
 

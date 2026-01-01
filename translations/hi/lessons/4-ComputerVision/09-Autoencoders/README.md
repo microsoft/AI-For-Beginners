@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 चूंकि हम ऑटोएन्कोडर को मूल इमेज से अधिकतम जानकारी को कैप्चर करने के लिए ट्रेन कर रहे हैं ताकि सटीक पुनर्निर्माण हो सके, नेटवर्क इनपुट इमेज का सबसे अच्छा **एम्बेडिंग** खोजने की कोशिश करता है।
 
-![ऑटोएन्कोडर डायग्राम](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.hi.jpg)
+![ऑटोएन्कोडर डायग्राम](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.hi.jpg)
 
 > इमेज [Keras ब्लॉग](https://blog.keras.io/building-autoencoders-in-keras.html) से
 

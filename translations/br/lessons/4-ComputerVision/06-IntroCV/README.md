@@ -73,14 +73,14 @@ Em nosso [OpenCV Notebook](OpenCV.ipynb), damos alguns exemplos de quando a vis�
 
 * **Pré-processamento de uma fotografia de um livro em Braille**. Focamos em como podemos usar limiarização, detecção de características, transformação de perspectiva e manipulações NumPy para separar símbolos individuais em Braille para posterior classificação por uma rede neural.
 
-![Imagem Braille](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.br.jpeg) | ![Imagem Braille Pré-processada](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.br.png) | ![Símbolos Braille](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.br.png)
+![Imagem Braille](../../../../../translated_images/braille.341962ff76b1bd70.br.jpeg) | ![Imagem Braille Pré-processada](../../../../../translated_images/braille-result.46530fea020b03c7.br.png) | ![Símbolos Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.br.png)
 ----|-----|-----
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detectando movimento em vídeo usando diferença de quadros**. Se a câmera estiver fixa, os quadros do feed da câmera devem ser bastante semelhantes entre si. Como os quadros são representados como arrays, apenas subtraindo esses arrays de dois quadros subsequentes obteremos a diferença de pixels, que deve ser baixa para quadros estáticos e se tornar maior quando houver movimento substancial na imagem.
 
-![Imagem de quadros de vídeo e diferenças de quadros](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.br.png)
+![Imagem de quadros de vídeo e diferenças de quadros](../../../../../translated_images/frame-difference.706f805491a0883c.br.png)
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Em nosso [OpenCV Notebook](OpenCV.ipynb), damos alguns exemplos de quando a vis�
    - **Fluxo Óptico Denso** calcula o campo vetorial que mostra para cada pixel onde ele está se movendo.
    - **Fluxo Óptico Esparso** é baseado em pegar algumas características distintivas na imagem (por exemplo, bordas) e construir sua trajetória de quadro a quadro.
 
-![Imagem de Fluxo Óptico](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.br.png)
+![Imagem de Fluxo Óptico](../../../../../translated_images/optical.1f4a94464579a83a.br.png)
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 

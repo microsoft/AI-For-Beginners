@@ -15,7 +15,7 @@ Po úspěchu modelů transformerů při řešení úloh NLP byly stejné nebo po
 
 Hlavní myšlenkou CLIP je schopnost porovnávat textové výzvy s obrázkem a určit, jak dobře obrázek odpovídá dané výzvě.
 
-![CLIP Architektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.cs.png)
+![CLIP Architektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.cs.png)
 
 > *Obrázek z [tohoto blogového příspěvku](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Jakmile je model předtrénován, můžeme mu předložit dávku obrázků a tex
 
 Předpokládejme, že potřebujeme klasifikovat obrázky například na kočky, psy a lidi. V tomto případě můžeme modelu předložit obrázek a sérii textových výzev: "*obrázek kočky*", "*obrázek psa*", "*obrázek člověka*". Ve výsledném vektoru s 3 pravděpodobnostmi stačí vybrat index s nejvyšší hodnotou.
 
-![CLIP pro Klasifikaci Obrázků](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.cs.png)
+![CLIP pro Klasifikaci Obrázků](../../../../../translated_images/clip-class.3af42ef0b2b19369.cs.png)
 
 > *Obrázek z [tohoto blogového příspěvku](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Více o VQGAN se dozvíte na webu [Taming Transformers](https://compvis.github.i
 
 Jedním z důležitých rozdílů mezi VQGAN a tradičním GAN je, že tradiční GAN může vytvořit slušný obrázek z jakéhokoli vstupního vektoru, zatímco VQGAN pravděpodobně vytvoří obrázek, který nebude koherentní. Proto je třeba dále řídit proces tvorby obrázku, což lze provést pomocí CLIP.
 
-![VQGAN+CLIP Architektura](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.cs.png)
+![VQGAN+CLIP Architektura](../../../../../translated_images/vqgan.5027fe05051dfa31.cs.png)
 
 Pro generování obrázku odpovídajícího textové výzvě začneme s nějakým náhodným kódovacím vektorem, který je předán přes VQGAN k vytvoření obrázku. Poté je použit CLIP k vytvoření ztrátové funkce, která ukazuje, jak dobře obrázek odpovídá textové výzvě. Cílem je minimalizovat tuto ztrátu pomocí zpětné propagace k úpravě parametrů vstupního vektoru.
 
 Skvělá knihovna, která implementuje VQGAN+CLIP, je [Pixray](http://github.com/pixray/pixray).
 
-![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.cs.png) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.cs.png) | ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.cs.png)
+![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.cs.png) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.cs.png) | ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.cs.png)
 ----|----|----
 Obrázek vytvořený na základě výzvy *detailní akvarelový portrét mladého učitele literatury s knihou* | Obrázek vytvořený na základě výzvy *detailní olejový portrét mladé učitelky informatiky s počítačem* | Obrázek vytvořený na základě výzvy *detailní olejový portrét starého učitele matematiky před tabulí*
 

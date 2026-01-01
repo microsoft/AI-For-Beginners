@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **การประมวลผลภาพถ่ายของหนังสือเบรลล์** เรามุ่งเน้นที่การใช้ thresholding, การตรวจจับคุณลักษณะ, การแปลงมุมมอง และการปรับอาร์เรย์ NumPy เพื่อแยกสัญลักษณ์เบรลล์แต่ละตัวสำหรับการจำแนกผลลัพธ์โดยเครือข่ายประสาทเทียม
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.th.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.th.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.th.png)
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.th.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.th.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.th.png)
 ----|-----|-----
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 
 * **การตรวจจับการเคลื่อนไหวในวิดีโอโดยใช้ความแตกต่างของเฟรม** หากกล้องอยู่ในตำแหน่งคงที่ เฟรมจากกล้องควรมีความคล้ายคลึงกันมาก โดยเฟรมที่แสดงผลเป็นอาร์เรย์ เพียงแค่ลบอาร์เรย์ของเฟรมสองเฟรมที่ต่อเนื่องกัน คุณจะได้ความแตกต่างของพิกเซล ซึ่งควรต่ำสำหรับเฟรมที่นิ่ง และสูงขึ้นเมื่อมีการเคลื่อนไหวในภาพ
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.th.png)
+![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.th.png)
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **Dense Optical Flow** คำนวณสนามเวกเตอร์ที่แสดงว่าพิกเซลแต่ละตัวเคลื่อนที่ไปที่ใด
    - **Sparse Optical Flow** ใช้คุณลักษณะเด่นในภาพ (เช่น ขอบ) และสร้างเส้นทางการเคลื่อนที่ของมันจากเฟรมหนึ่งไปยังอีกเฟรมหนึ่ง
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.th.png)
+![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.th.png)
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panimula sa Neural Networks
 
-![Buod ng nilalaman ng Intro Neural Networks sa isang doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.tl.png)
+![Buod ng nilalaman ng Intro Neural Networks sa isang doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.tl.png)
 
 Tulad ng tinalakay natin sa panimula, isa sa mga paraan upang makamit ang katalinuhan ay ang pagsasanay ng isang **modelo ng computer** o isang **artipisyal na utak**. Simula noong kalagitnaan ng ika-20 siglo, sinubukan ng mga mananaliksik ang iba't ibang mga matematikal na modelo, hanggang sa mga nakaraang taon kung saan ang direksyong ito ay napatunayang napaka-epektibo. Ang ganitong mga matematikal na modelo ng utak ay tinatawag na **neural networks**.
 
@@ -36,13 +36,13 @@ Sa kurikulum na ito, magtutuon lamang tayo sa mga modelo ng neural network.
 
 Mula sa biology, alam natin na ang ating utak ay binubuo ng mga neural cells (neurons), bawat isa ay may maraming "inputs" (dendrites) at isang "output" (axon). Parehong dendrites at axons ay maaaring magdala ng mga signal na elektrikal, at ang mga koneksyon sa pagitan nila — na kilala bilang synapses — ay maaaring magpakita ng iba't ibang antas ng conductivity, na kinokontrol ng mga neurotransmitters.
 
-![Modelo ng Isang Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.tl.jpg) | ![Modelo ng Isang Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.tl.png)
+![Modelo ng Isang Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.tl.jpg) | ![Modelo ng Isang Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.tl.png)
 ----|----
 Tunay na Neuron *([Larawan](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) mula sa Wikipedia)* | Artipisyal na Neuron *(Larawan ng May-akda)*
 
 Kaya, ang pinakasimpleng matematikal na modelo ng isang neuron ay naglalaman ng ilang inputs X<sub>1</sub>, ..., X<sub>N</sub> at isang output Y, at isang serye ng mga weights W<sub>1</sub>, ..., W<sub>N</sub>. Ang output ay kinakalkula bilang:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.tl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.tl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kung saan ang f ay isang non-linear na **activation function**.
 

@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ఇది క్రింది చిత్రంలో చూపిన వివిధ న్యూరల్ ఆర్కిటెక్చర్లకు అవకాశం ఇస్తుంది:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.te.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.te.jpg)
 
 > చిత్రం బ్లాగ్ పోస్ట్ [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) నుండి [Andrej Karpaty](http://karpathy.github.io/) రచయిత
 
@@ -32,11 +32,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 మనం ఈ RNNను దశలవారీగా టెక్స్ట్ ఉత్పత్తి చేయడానికి శిక్షణ ఇస్తాము. ప్రతి దశలో, `nchars` పొడవు కలిగిన క్యారెక్టర్ల సీక్వెన్స్ తీసుకుని, ప్రతి ఇన్‌పుట్ క్యారెక్టర్ కోసం తదుపరి అవుట్‌పుట్ క్యారెక్టర్‌ను నెట్‌వర్క్ ఉత్పత్తి చేయమని అడుగుతాము:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.te.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.te.png)
 
 టెక్స్ట్ ఉత్పత్తి (ఇన్ఫరెన్స్ సమయంలో) చేస్తున్నప్పుడు, మనం కొన్ని **ప్రాంప్ట్**తో ప్రారంభిస్తాము, ఇది RNN సెల్స్ ద్వారా మధ్యవర్తి స్టేట్‌ను ఉత్పత్తి చేయడానికి పంపబడుతుంది, ఆ తర్వాత ఆ స్టేట్ నుండి ఉత్పత్తి ప్రారంభమవుతుంది. ఒక్కో క్యారెక్టర్‌ను ఒకేసారి ఉత్పత్తి చేసి, ఆ స్టేట్ మరియు ఉత్పత్తి చేసిన క్యారెక్టర్‌ను మరొక RNN సెల్‌కు పంపించి తదుపరి క్యారెక్టర్‌ను ఉత్పత్తి చేస్తాము, అవసరమైనంత క్యారెక్టర్లు ఉత్పత్తి అయ్యేవరకు.
 
-<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eeab36f83885ba6b5bf56265698de5ddbd8648dc3653e1f0b9b.te.png" width="60%"/>
+<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eea.te.png" width="60%"/>
 
 > చిత్రం రచయిత
 

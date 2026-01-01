@@ -58,7 +58,7 @@ Overfitting သည် machine learning တွင် အလွန်အရေး�
 
 အောက်ပါ 5 dots (graph ပေါ်တွင် `x` ဖြင့် ဖော်ပြထားသည်) ကို approximation လုပ်ရန် ပြဿနာကို စဉ်းစားပါ-
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.my.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.my.jpg)
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.my.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.my.jpg)
 -------------------------|--------------------------
 **Linear model, 2 parameters** | **Non-linear model, 7 parameters**
 Training error = 5.3 | Training error = 0
@@ -79,7 +79,7 @@ Model ၏ richness (parameter အရေအတွက်) နှင့် training
 
 အထက်ပါ graph မှာမြင်နိုင်သည့်အတိုင်း overfitting ကို training error အလွန်နည်းပြီး validation error အလွန်မြင့်ခြင်းဖြင့် ရှာဖွေနိုင်သည်။ Training အတွင်း training error နှင့် validation error နှစ်ခုစလုံး လျော့နည်းလာပြီး validation error သည် တစ်ချိန်တွင် လျော့နည်းမှုရပ်ပြီး မြင့်တက်လာနိုင်သည်။ ဤအချိန်သည် overfitting ဖြစ်နေသည်ဟု သက်သေပြသည်။ Training ကို ရပ်တန့်ရန် သို့မဟုတ် model ၏ snapshot ကို သိမ်းဆည်းရန် အချိန်ဖြစ်သည်။
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.my.png)
+![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.my.png)
 
 ## How to prevent overfitting
 

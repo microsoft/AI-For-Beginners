@@ -17,7 +17,7 @@ Im echten Leben möchten wir Objekte auf einem Bild unabhängig von ihrer genaue
 
 Um Muster zu extrahieren, verwenden wir den Begriff der **Faltung (Convolutional Filters)**. Wie du weißt, wird ein Bild durch eine 2D-Matrix oder einen 3D-Tensor mit Farbtiefe dargestellt. Das Anwenden eines Filters bedeutet, dass wir eine relativ kleine **Filterkern**-Matrix nehmen und für jedes Pixel im Originalbild den gewichteten Durchschnitt mit benachbarten Punkten berechnen. Man kann sich das wie ein kleines Fenster vorstellen, das über das gesamte Bild gleitet und alle Pixel gemäß den Gewichten in der Filterkern-Matrix mittelt.
 
-![Vertikaler Kantenfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.de.png) | ![Horizontaler Kantenfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.de.png)
+![Vertikaler Kantenfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356.de.png) | ![Horizontaler Kantenfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.de.png)
 ----|----
 
 > Bild von Dmitry Soshnikov
@@ -38,7 +38,7 @@ Die Funktionsweise von CNNs basiert auf den folgenden wichtigen Konzepten:
 * Wir können das Netzwerk so gestalten, dass die Filter automatisch trainiert werden.
 * Wir können denselben Ansatz verwenden, um Muster in hochrangigen Merkmalen zu finden, nicht nur im Originalbild. Die Merkmalsextraktion in CNNs arbeitet also mit einer Hierarchie von Merkmalen, beginnend mit einfachen Pixelkombinationen bis hin zu komplexeren Kombinationen von Bildteilen.
 
-![Hierarchische Merkmalsextraktion](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.de.png)
+![Hierarchische Merkmalsextraktion](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.de.png)
 
 > Bild aus [einem Paper von Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), basierend auf [ihrer Forschung](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Die meisten CNNs, die für die Bildverarbeitung verwendet werden, folgen einer s
 
 Als Beispiel betrachten wir die Architektur von VGG-16, einem Netzwerk, das 2014 eine Genauigkeit von 92,7 % in der Top-5-Klassifikation von ImageNet erreichte:
 
-![ImageNet-Schichten](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.de.jpg)
+![ImageNet-Schichten](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.de.jpg)
 
-![ImageNet-Pyramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.de.jpg)
+![ImageNet-Pyramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.de.jpg)
 
 > Bild von [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **مکانیزم‌های توجه** راهی برای وزن‌دهی تأثیر متنی هر بردار ورودی بر هر پیش‌بینی خروجی RNN فراهم می‌کنند. این روش با ایجاد میانبرهایی بین حالت‌های میانی RNN ورودی و RNN خروجی پیاده‌سازی می‌شود. به این ترتیب، هنگام تولید نماد خروجی y<sub>t</sub>، تمام حالت‌های مخفی ورودی h<sub>i</sub> را با ضرایب وزنی مختلف &alpha;<sub>t,i</sub> در نظر می‌گیریم.
 
-![تصویری از مدل رمزگذار/رمزگشا با لایه توجه جمعی](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.fa.png)
+![تصویری از مدل رمزگذار/رمزگشا با لایه توجه جمعی](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.fa.png)
 
 > مدل رمزگذار-رمزگشا با مکانیزم توجه جمعی در [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)، نقل شده از [این پست وبلاگ](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 ماتریس توجه {&alpha;<sub>i,j</sub>} نشان‌دهنده درجه‌ای است که کلمات خاص ورودی در تولید یک کلمه خاص در توالی خروجی نقش دارند. در زیر نمونه‌ای از چنین ماتریسی آورده شده است:
 
-![تصویری از نمونه هم‌ترازی که توسط RNNsearch-50 پیدا شده است، گرفته شده از Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.fa.png)
+![تصویری از نمونه هم‌ترازی که توسط RNNsearch-50 پیدا شده است، گرفته شده از Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.fa.png)
 
 > تصویر از [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (شکل 3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 سپس، باید برخی الگوها را در توالی خود شناسایی کنیم. برای این کار، ترانسفورمرها از مکانیزم **توجه به خود** استفاده می‌کنند، که اساساً توجهی است که به همان توالی به عنوان ورودی و خروجی اعمال می‌شود. اعمال توجه به خود به ما اجازه می‌دهد **زمینه** را در جمله در نظر بگیریم و ببینیم کدام کلمات به هم مرتبط هستند. به عنوان مثال، این امکان را فراهم می‌کند که ببینیم کدام کلمات توسط ارجاعات مانند *آن* اشاره شده‌اند و همچنین زمینه را در نظر بگیریم:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.fa.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.fa.png)
 
 > تصویر از [وبلاگ گوگل](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **BERT** (نمایش‌های رمزگذار دوطرفه از ترانسفورمرها) یک شبکه ترانسفورمر چندلایه بسیار بزرگ است که دارای 12 لایه برای *BERT-base* و 24 لایه برای *BERT-large* است. این مدل ابتدا بر روی یک مجموعه داده بزرگ متنی (ویکی‌پدیا + کتاب‌ها) با استفاده از آموزش بدون نظارت (پیش‌بینی کلمات ماسک‌شده در یک جمله) پیش‌آموزش داده می‌شود. در طول پیش‌آموزش، مدل سطوح قابل توجهی از درک زبان را جذب می‌کند که سپس می‌توان با مجموعه داده‌های دیگر از طریق تنظیم دقیق استفاده کرد. این فرآیند **یادگیری انتقالی** نامیده می‌شود.
 
-![تصویر از http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.fa.png)
+![تصویر از http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.fa.png)
 
 > تصویر [منبع](http://jalammar.github.io/illustrated-bert/)
 

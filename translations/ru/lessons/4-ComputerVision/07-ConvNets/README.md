@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Для извлечения шаблонов мы будем использовать понятие **свёрточных фильтров**. Как вы знаете, изображение представлено в виде двумерной матрицы или трёхмерного тензора с глубиной цвета. Применение фильтра означает, что мы берём относительно небольшую матрицу **ядра фильтра** и для каждого пикселя исходного изображения вычисляем взвешенное среднее с соседними точками. Это можно представить как небольшое окно, скользящее по всему изображению и усредняющее все пиксели в соответствии с весами в матрице ядра фильтра.
 
-![Фильтр вертикальных краёв](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.ru.png) | ![Фильтр горизонтальных краёв](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.ru.png)
+![Фильтр вертикальных краёв](../../../../../translated_images/filter-vert.b7148390ca0bc356.ru.png) | ![Фильтр горизонтальных краёв](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.ru.png)
 ----|----
 
 > Изображение Дмитрия Сошникова
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Мы можем спроектировать сеть так, чтобы фильтры обучались автоматически
 * Мы можем использовать тот же подход для поиска шаблонов в высокоуровневых признаках, а не только в исходном изображении. Таким образом, извлечение признаков в CNN работает на иерархии признаков, начиная с низкоуровневых комбинаций пикселей и заканчивая высокоуровневыми комбинациями частей изображения.
 
-![Иерархическое извлечение признаков](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.ru.png)
+![Иерархическое извлечение признаков](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.ru.png)
 
 > Изображение из [статьи Хислопа-Линча](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), основанное на [их исследовании](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 В качестве примера давайте рассмотрим архитектуру VGG-16, сети, которая достигла точности 92.7% в топ-5 классификации ImageNet в 2014 году:
 
-![Слои ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.ru.jpg)
+![Слои ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ru.jpg)
 
-![Пирамида ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.ru.jpg)
+![Пирамида ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ru.jpg)
 
 > Изображение с [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

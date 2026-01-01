@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 یک شبکه است که در سال ۲۰۱۴ به دقت ۹۲.۷٪ در طبقه‌بندی ImageNet در پنج کلاس برتر دست یافت. ساختار لایه‌های آن به شکل زیر است:
 
-![لایه‌های ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.fa.jpg)
+![لایه‌های ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.fa.jpg)
 
 همان‌طور که می‌بینید، VGG از یک معماری هرمی سنتی پیروی می‌کند که شامل توالی لایه‌های کانولوشن و پولینگ است.
 
-![هرم ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.fa.jpg)
+![هرم ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.fa.jpg)
 
 > تصویر از [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

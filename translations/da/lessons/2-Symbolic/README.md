@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Videnrepræsentation og Ekspertsystemer
 
-![Oversigt over Symbolsk AI-indhold](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.da.png)
+![Oversigt over Symbolsk AI-indhold](../../../../translated_images/ai-symbolic.715a30cb610411a6.da.png)
 
 > Sketchnote af [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Ofte definerer vi ikke viden strengt, men vi relaterer det til andre begreber ve
 
 Problemet med **videnrepræsentation** er derfor at finde en effektiv måde at repræsentere viden i en computer i form af data, så den kan bruges automatisk. Dette kan ses som et spektrum:
 
-![Spektrum for videnrepræsentation](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.da.png)
+![Spektrum for videnrepræsentation](../../../../translated_images/knowledge-spectrum.b60df631852c0217.da.png)
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blok-syntaks | Indrykning | | |
 
 En af de tidlige succeser inden for symbolsk AI var de såkaldte **ekspertsystemer** - computersystemer designet til at fungere som en ekspert inden for et begrænset problemområde. De var baseret på en **vidensbase** udtrukket fra en eller flere menneskelige eksperter og indeholdt en **slutningsmotor**, der udførte ræsonnement ovenpå den.
 
-![Menneskelig Arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.da.png) | ![Videnbaseret System](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.da.png)
+![Menneskelig Arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.da.png) | ![Videnbaseret System](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.da.png)
 ---------------------------------------------|------------------------------------------------
 Forenklet struktur af et menneskeligt neuralt system | Arkitektur af et videnbaseret system
 
@@ -106,7 +106,7 @@ Ekspertsystemer er bygget som det menneskelige ræsonnementsystem, der indeholde
 
 Som et eksempel kan vi overveje følgende ekspertsystem til at bestemme et dyr baseret på dets fysiske egenskaber:
 
-![AND-OR Træ](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.da.png)
+![AND-OR Træ](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.da.png)
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -19,7 +19,7 @@ We willen echter mogelijk ruwe (ongelabelde) data gebruiken om CNN-feature extra
 
 Omdat we een autoencoder trainen om zoveel mogelijk informatie uit de originele afbeelding vast te leggen voor een nauwkeurige reconstructie, probeert het netwerk de beste **embedding** van invoerafbeeldingen te vinden om de betekenis vast te leggen.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.nl.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.nl.jpg)
 
 > Afbeelding van [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Computer Vision
 
-![Oversigt over Computer Vision-indhold i en doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.da.png)
+![Oversigt over Computer Vision-indhold i en doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76.da.png)
 
 I denne sektion vil vi lære om:
 

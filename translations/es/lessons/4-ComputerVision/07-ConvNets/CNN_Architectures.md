@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 es una red que alcanzó un 92.7% de precisión en la clasificación top-5 de ImageNet en 2014. Tiene la siguiente estructura de capas:
 
-![Capas de ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.es.jpg)
+![Capas de ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.es.jpg)
 
 Como puedes ver, VGG sigue una arquitectura piramidal tradicional, que es una secuencia de capas de convolución y agrupamiento.
 
-![Pirámide de ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.es.jpg)
+![Pirámide de ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.es.jpg)
 
 > Imagen de [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

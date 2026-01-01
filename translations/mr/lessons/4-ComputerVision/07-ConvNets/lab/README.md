@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 आम्ही [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) वापरणार आहोत, ज्यामध्ये 37 वेगवेगळ्या जातींच्या कुत्र्यांच्या आणि मांजरींच्या प्रतिमा आहेत.
 
-![आपण हाताळत असलेला डेटासेट](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.mr.png)
+![आपण हाताळत असलेला डेटासेट](../../../../../../translated_images/data.50b2a9d5484bdbf0.mr.png)
 
 डेटासेट डाउनलोड करण्यासाठी, हा कोड स्निपेट वापरा:
 

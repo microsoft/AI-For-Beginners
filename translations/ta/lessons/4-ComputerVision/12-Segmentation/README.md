@@ -20,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 உதாரணமாக, instance segmentation-இல் இந்த ஆடுகள் வேறு பொருட்களாகக் கருதப்படும், ஆனால் semantic segmentation-இல் அனைத்து ஆடுகளும் ஒரே வகையாகக் கருதப்படும்.
 
-<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd450cdef4caaed2d4dd9c6c3b671e0c65d8aef312758ebb7b89.ta.jpeg" width="50%">
+<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd45.ta.jpeg" width="50%">
 
 > படம் [இந்த வலைப்பதிவில் இருந்து](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Encoder** உள்ளீடு படத்திலிருந்து அம்சங்களை எடுக்கிறது
 * **Decoder** அந்த அம்சங்களை **mask image**-ஆக மாற்றுகிறது, இதன் அளவு மற்றும் சேனல்கள் வகைகளின் எண்ணிக்கைக்கு இணையாக இருக்கும்.
 
-<img src="../../../../../translated_images/segm.92442f2cb42ff4fa650fee858a3a02f55cf46825d9602115130e9e95a52a8526.ta.png" width="80%">
+<img src="../../../../../translated_images/segm.92442f2cb42ff4fa.ta.png" width="80%">
 
 > படம் [இந்த வெளியீட்டில் இருந்து](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ இந்த தொழில்நுட்பம் இந்த வகை மருத்துவ படங்களுக்கு மிகவும் பொருத்தமானது, ஆனால் மற்ற எந்த உண்மையான பயன்பாடுகளை நீங்கள் கற்பனை செய்ய முடியும்?
 
-<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea593fa03a2491f2ba1b25c62c97b33c692bcf01917a1f333f.ta.png"/>
+<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea.ta.png"/>
 
 > படம் PH<sup>2</sup> Database-இல் இருந்து
 

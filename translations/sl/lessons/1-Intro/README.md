@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod v umetno inteligenco
 
-![Povzetek vsebine uvoda v umetno inteligenco v skici](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.sl.png)
+![Povzetek vsebine uvoda v umetno inteligenco v skici](../../../../translated_images/ai-intro.bf28d1ac4235881c.sl.png)
 
 > Skica avtorja [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Računalnike je prvotno izumil [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) za obdelavo števil po natančno določenem postopku – algoritmu. Sodobni računalniki, čeprav bistveno naprednejši od prvotnega modela iz 19. stoletja, še vedno sledijo isti ideji nadzorovanih izračunov. Tako je mogoče programirati računalnik za izvedbo naloge, če poznamo natančen zaporedje korakov, potrebnih za dosego cilja.
 
-![Fotografija osebe](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.sl.png)
+![Fotografija osebe](../../../../translated_images/dsh_age.d212a30d4e54fb5f.sl.png)
 
 > Fotografija avtorja [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Za več informacij glejte **[Splošna umetna inteligenca](https://en.wikipedia.o
 
 Ena od težav pri obravnavi izraza **[inteligenca](https://en.wikipedia.org/wiki/Intelligence)** je, da ni jasne definicije tega pojma. Nekateri trdijo, da je inteligenca povezana z **abstraktnim razmišljanjem** ali **samozavedanjem**, vendar je ne moremo ustrezno opredeliti.
 
-![Fotografija mačke](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.sl.jpg)
+![Fotografija mačke](../../../../translated_images/photo-cat.8c8e8fb760ffe457.sl.jpg)
 
 > [Fotografija](https://unsplash.com/photos/75715CVEJhI) avtorja [Amber Kipp](https://unsplash.com/@sadmax) iz Unsplash
 
@@ -98,13 +98,13 @@ Alternativno lahko poskusimo modelirati najpreprostejše elemente v naših možg
 
 > | Kaj pa ML?         |      |
 > |--------------|-----------|
-> | Del umetne inteligence, ki temelji na tem, da se računalnik nauči reševati problem na podlagi nekaterih podatkov, se imenuje **strojno učenje**. Klasičnega strojnega učenja v tem tečaju ne bomo obravnavali – napotujemo vas na ločen učni načrt [Strojno učenje za začetnike](http://aka.ms/ml-beginners). |   ![ML za začetnike](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.sl.png)    |
+> | Del umetne inteligence, ki temelji na tem, da se računalnik nauči reševati problem na podlagi nekaterih podatkov, se imenuje **strojno učenje**. Klasičnega strojnega učenja v tem tečaju ne bomo obravnavali – napotujemo vas na ločen učni načrt [Strojno učenje za začetnike](http://aka.ms/ml-beginners). |   ![ML za začetnike](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.sl.png)    |
 
 ## Kratka zgodovina umetne inteligence
 
 Umetna inteligenca se je kot področje začela sredi dvajsetega stoletja. Sprva je bil simbolični pristop prevladujoč in je prinesel številne pomembne uspehe, kot so ekspertni sistemi – računalniški programi, ki so lahko delovali kot strokovnjaki na nekaterih omejenih problematičnih področjih. Vendar se je kmalu izkazalo, da tak pristop ni dobro skalabilen. Pridobivanje znanja od strokovnjaka, njegovo predstavljanje v računalniku in ohranjanje točnosti baze znanja se je izkazalo za zelo zapleteno nalogo in predrago za praktično uporabo v mnogih primerih. To je privedlo do tako imenovane [zime umetne inteligence](https://en.wikipedia.org/wiki/AI_winter) v 70. letih.
 
-<img alt="Kratka zgodovina umetne inteligence" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.sl.png" width="70%"/>
+<img alt="Kratka zgodovina umetne inteligence" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.sl.png" width="70%"/>
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Podobno lahko vidimo, kako se je spreminjal pristop k ustvarjanju "govorečih pr
 * Sodobni asistenti, kot so Cortana, Siri ali Google Assistant, so vsi hibridni sistemi, ki uporabljajo nevronske mreže za pretvorbo govora v besedilo in prepoznavanje našega namena, nato pa uporabijo nekaj razmišljanja ali eksplicitnih algoritmov za izvedbo zahtevanih dejanj.
 * V prihodnosti lahko pričakujemo popoln model, ki temelji na nevronskih mrežah, za samostojno obravnavo dialoga. Nedavne družine nevronskih mrež GPT in [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) kažejo velik uspeh pri tem.
 
-<img alt="evolucija Turingovega testa" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.sl.png" width="70%"/>
+<img alt="evolucija Turingovega testa" src="../../../../translated_images/turing-test-evol.4184696701293ead.sl.png" width="70%"/>
 > Slika Dmitry Soshnikov, [fotografija](https://unsplash.com/photos/r8LmVbUKgns) avtorja [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nedavne raziskave na področju umetne inteligence

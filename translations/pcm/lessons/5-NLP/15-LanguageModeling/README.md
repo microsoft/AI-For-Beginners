@@ -23,7 +23,7 @@ For di examples wey we don do before, we use pre-trained semantic embeddings, bu
 * **Continuous Bag-of-Words** (CBoW), wey mean say we go predict di middle token $W_0$ for one token sequence $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, wey mean say we go predict set of neighboring tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} from di middle token $W_0$.
 
-![image from paper on converting words to vectors](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.pcm.png)
+![image from paper on converting words to vectors](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pcm.png)
 
 > Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
 

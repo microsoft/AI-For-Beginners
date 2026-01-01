@@ -21,7 +21,7 @@ Egy konvolúciós neurális hálózatot kell betanítanod, amely képes különb
 
 Az [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) adathalmazt fogjuk használni, amely 37 különböző kutya- és macskafajta képeit tartalmazza.
 
-![Az adathalmaz, amellyel dolgozni fogunk](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.hu.png)
+![Az adathalmaz, amellyel dolgozni fogunk](../../../../../../translated_images/data.50b2a9d5484bdbf0.hu.png)
 
 Az adathalmaz letöltéséhez használd az alábbi kódrészletet:
 

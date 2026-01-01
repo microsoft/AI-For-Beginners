@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Computer Vision
 
-![Buod ng nilalaman ng Computer Vision sa isang doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.tl.png)
+![Buod ng nilalaman ng Computer Vision sa isang doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76.tl.png)
 
 Sa seksyong ito, matututo tayo tungkol sa:
 

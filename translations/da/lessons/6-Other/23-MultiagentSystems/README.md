@@ -70,7 +70,7 @@ Du kan åbne en af modellerne, for eksempel **Biology &rightarrow; Flocking**.
 
 Efter åbning af modellen kommer du til NetLogos hovedskærm. Her er en eksempelmodel, der beskriver populationen af ulve og får, givet begrænsede ressourcer (græs).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.da.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.da.png)
 
 > Skærmbillede af Dmitry Soshnikov
 

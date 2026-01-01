@@ -23,7 +23,7 @@ In onze eerdere voorbeelden hebben we gebruik gemaakt van vooraf getrainde seman
 * **Continuous Bag-of-Words** (CBoW), waarbij we het middelste token $W_0$ voorspellen in een reeks tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, waarbij we een set van naburige tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} voorspellen vanuit het middelste token $W_0$.
 
-![afbeelding uit paper over het converteren van woorden naar vectoren](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.nl.png)
+![afbeelding uit paper over het converteren van woorden naar vectoren](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.nl.png)
 
 > Afbeelding uit [deze paper](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Penglihatan Komputer
 
-![Ringkasan kandungan Penglihatan Komputer dalam bentuk doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.ms.png)
+![Ringkasan kandungan Penglihatan Komputer dalam bentuk doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ms.png)
 
 Dalam bahagian ini, kita akan mempelajari tentang:
 

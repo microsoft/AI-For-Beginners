@@ -20,13 +20,13 @@ Mit RNNs wird Sequence-to-Sequence durch zwei rekurrente Netzwerke implementiert
 
 **Aufmerksamkeitsmechanismen** bieten eine Möglichkeit, den kontextuellen Einfluss jedes Eingabevektors auf jede Ausgabewahrscheinlichkeit des RNN zu gewichten. Dies wird durch die Erstellung von Abkürzungen zwischen den Zwischenzuständen des Eingabe-RNN und des Ausgabe-RNN umgesetzt. Auf diese Weise berücksichtigen wir beim Generieren des Ausgabesymbols y<sub>t</sub> alle versteckten Eingabezustände h<sub>i</sub>, mit unterschiedlichen Gewichtungskoeffizienten &alpha;<sub>t,i</sub>.
 
-![Bild zeigt ein Encoder/Decoder-Modell mit einer additiven Aufmerksamkeits-Schicht](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.de.png)
+![Bild zeigt ein Encoder/Decoder-Modell mit einer additiven Aufmerksamkeits-Schicht](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.de.png)
 
 > Das Encoder-Decoder-Modell mit additivem Aufmerksamkeitsmechanismus aus [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), zitiert aus [diesem Blogbeitrag](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Die Aufmerksamkeitsmatrix {&alpha;<sub>i,j</sub>} repräsentiert den Grad, in dem bestimmte Eingabewörter bei der Generierung eines bestimmten Wortes in der Ausgabesequenz eine Rolle spielen. Unten ist ein Beispiel für eine solche Matrix:
 
-![Bild zeigt eine Beispielausrichtung, gefunden von RNNsearch-50, entnommen aus Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.de.png)
+![Bild zeigt eine Beispielausrichtung, gefunden von RNNsearch-50, entnommen aus Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.de.png)
 
 > Abbildung aus [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Das Ergebnis, das wir mit Positionskodierung erhalten, bettet sowohl das ursprü
 
 Als Nächstes müssen wir einige Muster innerhalb unserer Sequenz erfassen. Um dies zu tun, verwenden Transformer einen **Self-Attention**-Mechanismus, der im Wesentlichen Aufmerksamkeit ist, die auf dieselbe Sequenz als Eingabe und Ausgabe angewendet wird. Die Anwendung von Self-Attention ermöglicht es uns, den **Kontext** innerhalb des Satzes zu berücksichtigen und zu sehen, welche Wörter miteinander in Beziehung stehen. Zum Beispiel ermöglicht es uns zu sehen, auf welche Wörter durch Koreferenzen wie *es* verwiesen wird, und auch den Kontext zu berücksichtigen:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.de.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.de.png)
 
 > Bild aus dem [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Da jede Eingabeposition unabhängig von jeder Ausgabeposition abgebildet wird, k
 
 **BERT** (Bidirectional Encoder Representations from Transformers) ist ein sehr großes mehrschichtiges Transformer-Netzwerk mit 12 Schichten für *BERT-base* und 24 für *BERT-large*. Das Modell wird zunächst auf einem großen Textkorpus (Wikipedia + Bücher) mit unüberwachtem Training (Vorhersage maskierter Wörter in einem Satz) vortrainiert. Während des Vortrainings nimmt das Modell ein erhebliches Maß an Sprachverständnis auf, das dann mit anderen Datensätzen durch Feintuning genutzt werden kann. Dieser Prozess wird als **Transfer Learning** bezeichnet.
 
-![Bild von http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.de.png)
+![Bild von http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.de.png)
 
 > Bild [Quelle](http://jalammar.github.io/illustrated-bert/)
 

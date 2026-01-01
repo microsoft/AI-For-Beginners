@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מבוא לבינה מלאכותית
 
-![סיכום תוכן מבוא לבינה מלאכותית בציור](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.he.png)
+![סיכום תוכן מבוא לבינה מלאכותית בציור](../../../../translated_images/ai-intro.bf28d1ac4235881c.he.png)
 
 > ציור מאת [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 במקור, מחשבים הומצאו על ידי [צ'ארלס בבג'](https://en.wikipedia.org/wiki/Charles_Babbage) כדי לפעול על מספרים לפי תהליך מוגדר היטב - אלגוריתם. מחשבים מודרניים, למרות שהם מתקדמים בהרבה מהמודל המקורי שהוצע במאה ה-19, עדיין פועלים על פי אותו רעיון של חישובים מבוקרים. לכן, ניתן לתכנת מחשב לבצע משהו אם אנו יודעים את רצף הצעדים המדויק שעלינו לבצע כדי להשיג את המטרה.
 
-![תמונה של אדם](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.he.png)
+![תמונה של אדם](../../../../translated_images/dsh_age.d212a30d4e54fb5f.he.png)
 
 > תמונה מאת [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 אחת הבעיות בהתמודדות עם המונח **[אינטליגנציה](https://en.wikipedia.org/wiki/Intelligence)** היא שאין הגדרה ברורה למונח זה. ניתן לטעון שאינטליגנציה קשורה ל**חשיבה מופשטת**, או ל**מודעות עצמית**, אך איננו יכולים להגדיר אותה כראוי.
 
-![תמונה של חתול](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.he.jpg)
+![תמונה של חתול](../../../../translated_images/photo-cat.8c8e8fb760ffe457.he.jpg)
 
 > [תמונה](https://unsplash.com/photos/75715CVEJhI) מאת [Amber Kipp](https://unsplash.com/@sadmax) מ-Unsplash
 
@@ -98,13 +98,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 > | מה לגבי ML?         |      |
 > |--------------|-----------|
-> | חלק מהבינה המלאכותית המבוסס על למידת מחשב לפתור בעיה על סמך נתונים מסוימים נקרא **למידת מכונה**. לא נעסוק בלמידת מכונה קלאסית בקורס זה - אנו מפנים אתכם לתוכנית הלימודים הנפרדת [למידת מכונה למתחילים](http://aka.ms/ml-beginners). |   ![ML למתחילים](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.he.png)    |
+> | חלק מהבינה המלאכותית המבוסס על למידת מחשב לפתור בעיה על סמך נתונים מסוימים נקרא **למידת מכונה**. לא נעסוק בלמידת מכונה קלאסית בקורס זה - אנו מפנים אתכם לתוכנית הלימודים הנפרדת [למידת מכונה למתחילים](http://aka.ms/ml-beginners). |   ![ML למתחילים](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.he.png)    |
 
 ## היסטוריה קצרה של בינה מלאכותית
 
 בינה מלאכותית החלה כתחום באמצע המאה ה-20. בתחילה, גישת ההסקה הסימבולית הייתה הגישה השלטת, והיא הובילה למספר הצלחות חשובות, כמו מערכות מומחה – תוכניות מחשב שיכלו לפעול כמומחה בתחומים מוגבלים. עם זאת, עד מהרה התברר שגישה זו אינה מתאימה להרחבה. חילוץ הידע ממומחה, ייצוגו במחשב, ושמירה על בסיס הידע מדויק מתבררים כמשימה מורכבת מאוד ויקרה מדי במקרים רבים. זה הוביל למה שנקרא [חורף הבינה המלאכותית](https://en.wikipedia.org/wiki/AI_winter) בשנות ה-70.
 
-<img alt="היסטוריה קצרה של AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.he.png" width="70%"/>
+<img alt="היסטוריה קצרה של AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.he.png" width="70%"/>
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ CO_OP_TRANSLATOR_METADATA:
 * עוזרים מודרניים, כמו Cortana, Siri או Google Assistant הם כולם מערכות היברידיות שמשתמשות ברשתות נוירונים כדי להמיר דיבור לטקסט ולהבין את כוונתנו, ואז משתמשות בהסקה או באלגוריתמים מפורשים כדי לבצע פעולות נדרשות.
 * בעתיד, אנו עשויים לצפות למודל מבוסס רשת נוירונים מלא שיטפל בדיאלוג בעצמו. משפחת הרשתות הנוירוניות GPT ו-[Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) מראה הצלחות גדולות בתחום זה.
 
-<img alt="התפתחות מבחן טיורינג" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.he.png" width="70%"/>
+<img alt="התפתחות מבחן טיורינג" src="../../../../translated_images/turing-test-evol.4184696701293ead.he.png" width="70%"/>
 > תמונה מאת דמיטרי סושניקוב, [תמונה](https://unsplash.com/photos/r8LmVbUKgns) מאת [מרינה אברוסימובה](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## מחקר AI עדכני

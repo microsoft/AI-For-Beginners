@@ -23,7 +23,7 @@ I våre tidligere eksempler brukte vi forhåndstrente semantiske embeddinger, me
 * **Continuous Bag-of-Words** (CBoW), der vi forutsier det midterste tokenet $W_0$ i en sekvens av token $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, der vi forutsier et sett av nabotoken {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} fra det midterste tokenet $W_0$.
 
-![bilde fra artikkel om konvertering av ord til vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.no.png)
+![bilde fra artikkel om konvertering av ord til vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.no.png)
 
 > Bilde fra [denne artikkelen](https://arxiv.org/pdf/1301.3781.pdf)
 

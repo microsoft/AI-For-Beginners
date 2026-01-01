@@ -20,13 +20,13 @@ Dengan RNN, urutan-ke-urutan dilaksanakan oleh dua rangkaian berulang, di mana s
 
 **Mekanisme Perhatian** menyediakan cara untuk memberi berat kepada kesan kontekstual setiap vektor input terhadap setiap ramalan output RNN. Cara ia dilaksanakan adalah dengan mencipta pintasan antara keadaan perantaraan RNN input dan RNN output. Dengan cara ini, apabila menghasilkan simbol output y<sub>t</sub>, kita akan mengambil kira semua keadaan tersembunyi input h<sub>i</sub>, dengan pekali berat yang berbeza &alpha;<sub>t,i</sub>.
 
-![Imej menunjukkan model encoder/decoder dengan lapisan perhatian tambahan](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.ms.png)
+![Imej menunjukkan model encoder/decoder dengan lapisan perhatian tambahan](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.ms.png)
 
 > Model encoder-decoder dengan mekanisme perhatian tambahan dalam [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), dipetik daripada [blog post ini](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matriks perhatian {&alpha;<sub>i,j</sub>} akan mewakili tahap di mana perkataan input tertentu memainkan peranan dalam penjanaan perkataan tertentu dalam urutan output. Berikut adalah contoh matriks sedemikian:
 
-![Imej menunjukkan penjajaran sampel yang ditemui oleh RNNsearch-50, diambil daripada Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.ms.png)
+![Imej menunjukkan penjajaran sampel yang ditemui oleh RNNsearch-50, diambil daripada Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.ms.png)
 
 > Rajah daripada [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Rajah 3)
 
@@ -66,7 +66,7 @@ Hasil yang kita peroleh dengan pemadanan kedudukan menggabungkan kedua-dua token
 
 Seterusnya, kita perlu menangkap beberapa corak dalam urutan kita. Untuk melakukan ini, transformer menggunakan mekanisme **perhatian kendiri**, yang pada dasarnya adalah perhatian yang diterapkan pada urutan yang sama sebagai input dan output. Menerapkan perhatian kendiri membolehkan kita mengambil kira **konteks** dalam ayat, dan melihat perkataan mana yang saling berkaitan. Sebagai contoh, ia membolehkan kita melihat perkataan mana yang dirujuk oleh koreferensi, seperti *ia*, dan juga mengambil kira konteks:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.ms.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.ms.png)
 
 > Imej daripada [Blog Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Oleh kerana setiap kedudukan input dipetakan secara bebas ke setiap kedudukan ou
 
 **BERT** (Bidirectional Encoder Representations from Transformers) ialah rangkaian transformer berlapis besar dengan 12 lapisan untuk *BERT-base*, dan 24 untuk *BERT-large*. Model ini mula-mula dilatih awal pada korpus teks yang besar (WikiPedia + buku) menggunakan latihan tanpa pengawasan (meramalkan perkataan yang disembunyikan dalam ayat). Semasa latihan awal, model menyerap tahap pemahaman bahasa yang ketara yang kemudiannya boleh dimanfaatkan dengan set data lain menggunakan penalaan halus. Proses ini dipanggil **pembelajaran pemindahan**.
 
-![gambar dari http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.ms.png)
+![gambar dari http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.ms.png)
 
 > Sumber imej [di sini](http://jalammar.github.io/illustrated-bert/)
 

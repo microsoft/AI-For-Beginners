@@ -15,7 +15,7 @@ Matapos ang tagumpay ng mga transformer model sa paglutas ng mga gawain sa NLP, 
 
 Ang pangunahing ideya ng CLIP ay ang kakayahang ihambing ang mga text prompt sa isang imahe at tukuyin kung gaano kahusay na tumutugma ang imahe sa prompt.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.tl.png)
+![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.tl.png)
 
 > *Larawan mula sa [blog post na ito](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kapag ang modelong ito ay na-pretrain na, maaari nating bigyan ito ng batch ng m
 
 Halimbawa, kailangan nating i-classify ang mga imahe sa pagitan ng, sabihin nating, pusa, aso, at tao. Sa kasong ito, maaari nating bigyan ang modelo ng isang imahe, at isang serye ng mga text prompt: "*isang larawan ng pusa*", "*isang larawan ng aso*", "*isang larawan ng tao*". Sa resultang vector ng 3 probabilidad, pipiliin lang natin ang index na may pinakamataas na halaga.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.tl.png)
+![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.tl.png)
 
 > *Larawan mula sa [blog post na ito](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Alamin ang higit pa tungkol sa VQGAN sa [Taming Transformers](https://compvis.gi
 
 Isa sa mga mahalagang pagkakaiba ng VQGAN sa tradisyunal na GAN ay ang huli ay kayang gumawa ng disenteng imahe mula sa anumang input vector, habang ang VQGAN ay malamang na makagawa ng imahe na hindi coherent. Kaya, kailangan nating gabayan pa ang proseso ng paggawa ng imahe, at magagawa ito gamit ang CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.tl.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.tl.png)
 
 Upang makabuo ng isang imahe na tumutugma sa isang text prompt, nagsisimula tayo sa isang random encoding vector na ipinapasa sa VQGAN upang makabuo ng isang imahe. Pagkatapos, ginagamit ang CLIP upang makabuo ng isang loss function na nagpapakita kung gaano kahusay na tumutugma ang imahe sa text prompt. Ang layunin ay i-minimize ang loss na ito, gamit ang back propagation upang ayusin ang mga parameter ng input vector.
 
 Isang mahusay na library na nagpapatupad ng VQGAN+CLIP ay ang [Pixray](http://github.com/pixray/pixray).
 
-![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.tl.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.tl.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.tl.png)
+![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.tl.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.tl.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.tl.png)
 ----|----|----
 Larawang ginawa mula sa prompt *isang closeup watercolor portrait ng batang lalaking guro ng panitikan na may hawak na libro* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng batang babaeng guro ng computer science na may hawak na computer* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng matandang lalaking guro ng matematika sa harap ng blackboard*
 

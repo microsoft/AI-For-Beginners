@@ -15,7 +15,7 @@ Po úspechu transformerových modelov pri riešení úloh spracovania prirodzen�
 
 Hlavnou myšlienkou CLIP je schopnosť porovnávať textové podnety s obrázkom a určiť, ako dobre obrázok zodpovedá danému podnetu.
 
-![Architektúra CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.sk.png)
+![Architektúra CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.sk.png)
 
 > *Obrázok z [tohto blogového príspevku](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Po predtrénovaní modelu mu môžeme poskytnúť dávku obrázkov a dávku text
 
 Predpokladajme, že potrebujeme klasifikovať obrázky, napríklad medzi mačkami, psami a ľuďmi. V tomto prípade môžeme modelu poskytnúť obrázok a sériu textových podnetov: "*obrázok mačky*", "*obrázok psa*", "*obrázok človeka*". Vo výslednom vektore s 3 pravdepodobnosťami stačí vybrať index s najvyššou hodnotou.
 
-![CLIP pre klasifikáciu obrázkov](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.sk.png)
+![CLIP pre klasifikáciu obrázkov](../../../../../translated_images/clip-class.3af42ef0b2b19369.sk.png)
 
 > *Obrázok z [tohto blogového príspevku](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Viac o VQGAN sa dozviete na webovej stránke [Taming Transformers](https://compv
 
 Jedným z dôležitých rozdielov medzi VQGAN a tradičným GAN je, že tradičný GAN dokáže vytvoriť slušný obrázok z akéhokoľvek vstupného vektora, zatiaľ čo VQGAN pravdepodobne vytvorí obrázok, ktorý nebude koherentný. Preto je potrebné ďalej usmerňovať proces tvorby obrázka, čo sa dá dosiahnuť pomocou CLIP.
 
-![Architektúra VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.sk.png)
+![Architektúra VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.sk.png)
 
 Na generovanie obrázka zodpovedajúceho textovému podnetu začíname s náhodným kódovacím vektorom, ktorý prechádza cez VQGAN a vytvára obrázok. Potom sa použije CLIP na vytvorenie stratovej funkcie, ktorá ukazuje, ako dobre obrázok zodpovedá textovému podnetu. Cieľom je minimalizovať túto stratu pomocou spätného šírenia na úpravu parametrov vstupného vektora.
 
 Skvelá knižnica, ktorá implementuje VQGAN+CLIP, je [Pixray](http://github.com/pixray/pixray).
 
-![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.sk.png) |  ![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.sk.png) | ![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.sk.png)
+![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.sk.png) |  ![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.sk.png) | ![Obrázok vytvorený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.sk.png)
 ----|----|----
 Obrázok vytvorený z podnetu *detailný akvarelový portrét mladého učiteľa literatúry s knihou* | Obrázok vytvorený z podnetu *detailný olejový portrét mladej učiteľky informatiky s počítačom* | Obrázok vytvorený z podnetu *detailný olejový portrét starého učiteľa matematiky pred tabuľou*
 

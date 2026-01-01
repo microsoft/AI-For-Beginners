@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representasyon ng Kaalaman at Mga Ekspertong Sistema
 
-![Buod ng Nilalaman ng Symbolic AI](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.tl.png)
+![Buod ng Nilalaman ng Symbolic AI](../../../../translated_images/ai-symbolic.715a30cb610411a6.tl.png)
 
 > Sketchnote ni [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Kadalasan, hindi natin mahigpit na tinutukoy ang kaalaman, ngunit iniuugnay nati
 
 Kaya, ang problema ng **representasyon ng kaalaman** ay ang paghahanap ng epektibong paraan upang kumatawan sa kaalaman sa loob ng isang kompyuter sa anyo ng data, upang magamit ito nang awtomatiko. Ito ay maaaring makita bilang isang spectrum:
 
-![Spectrum ng Representasyon ng Kaalaman](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.tl.png)
+![Spectrum ng Representasyon ng Kaalaman](../../../../translated_images/knowledge-spectrum.b60df631852c0217.tl.png)
 
 > Larawan ni [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 Isa sa mga maagang tagumpay ng symbolic AI ay ang tinatawag na **mga ekspertong sistema** - mga sistema ng kompyuter na idinisenyo upang kumilos bilang isang eksperto sa ilang limitadong domain ng problema. Ang mga ito ay nakabatay sa isang **knowledge base** na kinuha mula sa isa o higit pang mga eksperto, at naglalaman ng isang **inference engine** na gumagawa ng pangangatwiran sa ibabaw nito.
 
-![Arkitektura ng Tao](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.tl.png) | ![Sistema na Batay sa Kaalaman](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.tl.png)
+![Arkitektura ng Tao](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.tl.png) | ![Sistema na Batay sa Kaalaman](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.tl.png)
 ---------------------------------------------|------------------------------------------------
 Pinadaling istruktura ng neural system ng tao | Arkitektura ng sistema na batay sa kaalaman
 
@@ -106,7 +106,7 @@ Ang mga ekspertong sistema ay binuo tulad ng sistema ng pangangatwiran ng tao, n
 
 Bilang halimbawa, isaalang-alang natin ang sumusunod na ekspertong sistema ng pagtukoy ng isang hayop batay sa mga pisikal na katangian nito:
 
-![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.tl.png)
+![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.tl.png)
 
 > Larawan ni [Dmitry Soshnikov](http://soshnikov.com)
 

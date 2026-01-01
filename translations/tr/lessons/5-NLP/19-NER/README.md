@@ -57,7 +57,7 @@ bebekte | O
 
 Tokenler ve sınıflar arasında birebir bir ilişki kurmamız gerektiğinden, bu resimden **çoktan-çoka** bir sinir ağı modeli eğitebiliriz:
 
-![Yaygın tekrarlayan sinir ağı desenlerini gösteren bir görsel.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.tr.jpg)
+![Yaygın tekrarlayan sinir ağı desenlerini gösteren bir görsel.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.tr.jpg)
 
 > *Görsel, [Andrej Karpathy](http://karpathy.github.io/) tarafından yazılmış [bu blog yazısından](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) alınmıştır. NER token sınıflandırma modelleri, bu resimdeki en sağdaki ağ mimarisine karşılık gelir.*
 

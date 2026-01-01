@@ -58,7 +58,7 @@ infant | O
 
 토큰과 클래스 간의 일대일 대응을 구축해야 하므로, 아래 그림에서 보이는 것처럼 **다대다** 신경망 모델을 훈련할 수 있습니다:
 
-![일반적인 순환 신경망 패턴을 보여주는 이미지.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ko.jpg)
+![일반적인 순환 신경망 패턴을 보여주는 이미지.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ko.jpg)
 
 > *이미지 출처: [Andrej Karpathy](http://karpathy.github.io/)의 [블로그 글](http://karpathy.github.io/2015/05/21/rnn-effectiveness/). NER 토큰 분류 모델은 이 그림의 가장 오른쪽 네트워크 아키텍처에 해당합니다.*
 

@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Користићемо [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), који садржи слике 37 различитих раса паса и мачака.
 
-![Скуп података са којим ћемо радити](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.sr.png)
+![Скуп података са којим ћемо радити](../../../../../../translated_images/data.50b2a9d5484bdbf0.sr.png)
 
 Да бисте преузели скуп података, користите овај код:
 

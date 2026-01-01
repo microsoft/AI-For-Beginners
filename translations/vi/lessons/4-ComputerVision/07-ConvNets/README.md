@@ -17,7 +17,7 @@ Trong thực tế, chúng ta muốn có khả năng nhận diện các đối t�
 
 Để trích xuất các mẫu, chúng ta sẽ sử dụng khái niệm **bộ lọc tích chập**. Như bạn đã biết, một hình ảnh được biểu diễn bằng một ma trận 2D, hoặc một tensor 3D với độ sâu màu. Việc áp dụng một bộ lọc có nghĩa là chúng ta lấy một ma trận **hạt nhân bộ lọc** tương đối nhỏ, và đối với mỗi điểm ảnh trong hình ảnh gốc, chúng ta tính trung bình có trọng số với các điểm lân cận. Chúng ta có thể hình dung điều này như một cửa sổ nhỏ trượt qua toàn bộ hình ảnh, và tính trung bình tất cả các điểm ảnh theo các trọng số trong ma trận hạt nhân bộ lọc.
 
-![Bộ lọc cạnh dọc](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.vi.png) | ![Bộ lọc cạnh ngang](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.vi.png)
+![Bộ lọc cạnh dọc](../../../../../translated_images/filter-vert.b7148390ca0bc356.vi.png) | ![Bộ lọc cạnh ngang](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.vi.png)
 ----|----
 
 > Hình ảnh của Dmitry Soshnikov
@@ -38,7 +38,7 @@ Cách hoạt động của CNN dựa trên các ý tưởng quan trọng sau:
 * Chúng ta có thể thiết kế mạng theo cách mà các bộ lọc được huấn luyện tự động
 * Chúng ta có thể sử dụng cùng một phương pháp để tìm các mẫu trong các đặc trưng cấp cao, không chỉ trong hình ảnh gốc. Do đó, việc trích xuất đặc trưng của CNN hoạt động trên một hệ thống phân cấp các đặc trưng, bắt đầu từ các tổ hợp điểm ảnh cấp thấp, cho đến các tổ hợp cấp cao hơn của các phần trong hình ảnh.
 
-![Trích xuất đặc trưng phân cấp](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.vi.png)
+![Trích xuất đặc trưng phân cấp](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.vi.png)
 
 > Hình ảnh từ [một bài báo của Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), dựa trên [nghiên cứu của họ](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Hầu hết các CNN được sử dụng để xử lý hình ảnh đều tuâ
 
 Ví dụ, hãy xem kiến trúc của VGG-16, một mạng đạt được độ chính xác 92.7% trong phân loại top-5 của ImageNet vào năm 2014:
 
-![Các lớp của ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.vi.jpg)
+![Các lớp của ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.vi.jpg)
 
-![Kim tự tháp của ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.vi.jpg)
+![Kim tự tháp của ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.vi.jpg)
 
 > Hình ảnh từ [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

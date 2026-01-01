@@ -19,7 +19,7 @@ CNN을 훈련할 때, 문제 중 하나는 많은 라벨링된 데이터가 필�
 
 오토인코더를 훈련하여 원본 이미지의 정보를 최대한 많이 캡처하여 정확히 재구성하려고 할 때, 네트워크는 입력 이미지를 가장 잘 표현할 수 있는 **임베딩**을 찾으려고 합니다.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.ko.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.ko.jpg)
 
 > 이미지 출처: [Keras 블로그](https://blog.keras.io/building-autoencoders-in-keras.html)
 

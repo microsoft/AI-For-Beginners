@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 지식 표현과 전문가 시스템
 
-![Symbolic AI 내용 요약](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.ko.png)
+![Symbolic AI 내용 요약](../../../../translated_images/ai-symbolic.715a30cb610411a6.ko.png)
 
 > 스케치노트 제공: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Symbolic AI에서 중요한 개념 중 하나는 **지식**입니다. 지식을 
 
 따라서 **지식 표현**의 문제는 컴퓨터 내부에서 데이터를 통해 지식을 효과적으로 표현하여 자동으로 사용할 수 있도록 하는 방법을 찾는 것입니다. 이는 다음과 같은 스펙트럼으로 볼 수 있습니다:
 
-![지식 표현 스펙트럼](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.ko.png)
+![지식 표현 스펙트럼](../../../../translated_images/knowledge-spectrum.b60df631852c0217.ko.png)
 
 > 이미지 제공: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Is-A | Untyped-Language | | |
 
 Symbolic AI의 초기 성공 사례 중 하나는 **전문가 시스템**이라 불리는 컴퓨터 시스템이었습니다. 이는 제한된 문제 영역에서 전문가처럼 행동하도록 설계되었습니다. 이러한 시스템은 인간 전문가로부터 추출된 **지식 기반**과 이를 기반으로 추론을 수행하는 **추론 엔진**을 포함하고 있었습니다.
 
-![인간 구조](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.ko.png) | ![지식 기반 시스템](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.ko.png)
+![인간 구조](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.ko.png) | ![지식 기반 시스템](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.ko.png)
 ----------------------------------|--------------------------------------
 인간 신경 시스템의 단순화된 구조 | 지식 기반 시스템의 구조
 
@@ -106,7 +106,7 @@ Symbolic AI의 초기 성공 사례 중 하나는 **전문가 시스템**이라 
 
 예를 들어, 동물의 신체적 특성을 기반으로 동물을 결정하는 다음 전문가 시스템을 고려해 보겠습니다:
 
-![AND-OR 트리](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.ko.png)
+![AND-OR 트리](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.ko.png)
 
 > 이미지 제공: [Dmitry Soshnikov](http://soshnikov.com)
 

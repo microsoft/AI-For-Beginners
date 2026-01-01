@@ -58,7 +58,7 @@ infant | O
 
 किनकि हामीले टोकनहरू र वर्गहरू बीच एक-देखि-एक सम्बन्ध निर्माण गर्नुपर्छ, हामी यस चित्रबाट सही **many-to-many** न्यूरल नेटवर्क मोडेल प्रशिक्षण गर्न सक्छौं:
 
-![सामान्य पुनरावर्ती न्यूरल नेटवर्क ढाँचाहरू देखाउने छवि।](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ne.jpg)
+![सामान्य पुनरावर्ती न्यूरल नेटवर्क ढाँचाहरू देखाउने छवि।](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ne.jpg)
 
 > *[Andrej Karpathy](http://karpathy.github.io/) द्वारा [यो ब्लग पोस्ट](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) बाट छवि। NER टोकन वर्गीकरण मोडेलहरू यस चित्रको दायाँ-तर्फको नेटवर्क आर्किटेक्चरसँग मेल खान्छ।*
 

@@ -29,7 +29,7 @@ Både Keras og PyTorch indeholder funktioner til nemt at indlæse forudtrænede 
 
 Her er eksempler på funktioner udtrukket fra et billede af en kat ved hjælp af VGG-16-netværket:
 
-![Funktioner udtrukket af VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.da.png)
+![Funktioner udtrukket af VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.da.png)
 
 ## Datasæt: Katte vs. Hunde
 
@@ -48,19 +48,19 @@ Et forudtrænet neuralt netværk indeholder forskellige mønstre i sin *hjerne*,
 
 En tilgang, vi kan tage, er at starte med et tilfældigt billede og derefter bruge **gradient descent-optimering** til at justere billedet på en sådan måde, at netværket begynder at tro, at det er en kat.
 
-![Billedoptimeringsloop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.da.png)
+![Billedoptimeringsloop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.da.png)
 
 Hvis vi gør dette, vil vi dog få noget, der minder meget om tilfældig støj. Dette skyldes, at *der er mange måder at få netværket til at tro, at inputbilledet er en kat*, herunder nogle, der ikke giver mening visuelt. Selvom disse billeder indeholder mange mønstre, der er typiske for en kat, er der intet, der tvinger dem til at være visuelt genkendelige.
 
 For at forbedre resultatet kan vi tilføje et andet led til tab-funktionen, som kaldes **variationstab**. Det er en måling, der viser, hvor ens nabopixels i billedet er. Ved at minimere variationstabet bliver billedet glattere og fjerner støj – hvilket afslører mere visuelt tiltalende mønstre. Her er et eksempel på sådanne "ideelle" billeder, der klassificeres som henholdsvis kat og zebra med høj sandsynlighed:
 
-![Ideel Kat](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.da.png) | ![Ideel Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.da.png)
+![Ideel Kat](../../../../../translated_images/ideal-cat.203dd4597643d6b0.da.png) | ![Ideel Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.da.png)
 -----|-----
  *Ideel Kat* | *Ideel Zebra*
 
 En lignende tilgang kan bruges til at udføre såkaldte **adversarielle angreb** på et neuralt netværk. Antag, at vi vil narre et neuralt netværk og få en hund til at ligne en kat. Hvis vi tager et billede af en hund, som netværket genkender som en hund, kan vi justere det lidt ved hjælp af gradient descent-optimering, indtil netværket begynder at klassificere det som en kat:
 
-![Billede af en Hund](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.da.png) | ![Billede af en hund klassificeret som en kat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.da.png)
+![Billede af en Hund](../../../../../translated_images/original-dog.8f68a67d2fe0911f.da.png) | ![Billede af en hund klassificeret som en kat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.da.png)
 -----|-----
 *Originalt billede af en hund* | *Billede af en hund klassificeret som en kat*
 

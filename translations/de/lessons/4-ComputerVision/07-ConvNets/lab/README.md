@@ -21,7 +21,7 @@ Sie müssen ein konvolutionales neuronales Netzwerk trainieren, um verschiedene 
 
 Wir verwenden den [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), der Bilder von 37 verschiedenen Hunde- und Katzenrassen enthält.
 
-![Datensatz, mit dem wir arbeiten werden](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.de.png)
+![Datensatz, mit dem wir arbeiten werden](../../../../../../translated_images/data.50b2a9d5484bdbf0.de.png)
 
 Um den Datensatz herunterzuladen, verwenden Sie diesen Code-Schnipsel:
 

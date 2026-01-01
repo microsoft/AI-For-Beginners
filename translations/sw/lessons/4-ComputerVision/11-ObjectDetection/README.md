@@ -13,7 +13,7 @@ Mifano ya uainishaji wa picha tuliyojifunza hadi sasa ilichukua picha na kutoa m
 
 ## [Jaribio la awali la somo](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Utambuzi wa Vitu](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.sw.png)
+![Utambuzi wa Vitu](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.sw.png)
 
 > Picha kutoka [tovuti ya YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Tukidhani tunataka kutambua paka kwenye picha, njia rahisi ya utambuzi wa vitu i
 2. Fanya uainishaji wa picha kwenye kila kigae.
 3. Vigae vile vinavyotoa matokeo ya juu vya kutosha vinaweza kuchukuliwa kuwa na kitu kinachotafutwa.
 
-![Utambuzi Rahisi wa Vitu](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.sw.png)
+![Utambuzi Rahisi wa Vitu](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.sw.png)
 
 > *Picha kutoka [Daftari la Mazoezi](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Unaweza kukutana na seti zifuatazo za data kwa kazi hii:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - madarasa 20
 * [COCO](http://cocodataset.org/#home) - Vitu vya Kawaida katika Muktadha. Madarasa 80, maboksi ya mipaka na maski za kugawanya
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.sw.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.sw.jpg)
 
 ## Vipimo vya Utambuzi wa Vitu
 
@@ -50,7 +50,7 @@ Unaweza kukutana na seti zifuatazo za data kwa kazi hii:
 
 Wakati kwa uainishaji wa picha ni rahisi kupima jinsi algorithimu inavyofanya kazi, kwa utambuzi wa vitu tunahitaji kupima usahihi wa darasa, pamoja na usahihi wa eneo la boksi lililotabiriwa. Kwa hili la mwisho, tunatumia kipimo kinachoitwa **Muingiliano juu ya Muungano** (IoU), ambacho hupima jinsi maboksi mawili (au maeneo mawili yoyote) yanavyofanana.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.sw.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.sw.png)
 
 > *Mchoro wa 2 kutoka [blogu hii bora kuhusu IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Kuna makundi mawili makuu ya algorithimu za utambuzi wa vitu:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) hutumia [Utafutaji wa Kuchagua](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) kuzalisha muundo wa kihierarkia wa maeneo ya ROI, ambayo kisha hupitishwa kupitia viondoa sifa vya CNN na vianuai vya SVM ili kubaini darasa la kitu, na usawazishaji wa mstari ili kubaini m coordinates ya *maboksi ya mipaka*. [Karatasi Rasmi](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.sw.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.sw.png)
 
 > *Picha kutoka van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.sw.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.sw.png)
 
 > *Picha kutoka [blogu hii](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -110,7 +110,7 @@ Kuna makundi mawili makuu ya algorithimu za utambuzi wa vitu:
 
 Mbinu hii ni sawa na R-CNN, lakini maeneo hufafanuliwa baada ya tabaka za convolution kutumika.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.sw.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.sw.png)
 
 > Picha kutoka [Karatasi Rasmi](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Mbinu hii ni sawa na R-CNN, lakini maeneo hufafanuliwa baada ya tabaka za convol
 
 Wazo kuu la mbinu hii ni kutumia mtandao wa neva kutabiri ROI - kinachoitwa *Mtandao wa Mapendekezo ya Maeneo*. [Karatasi](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.sw.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.sw.png)
 
 > Picha kutoka [karatasi rasmi](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Algorithimu hii ni ya haraka zaidi kuliko Faster R-CNN. Wazo kuu ni kama ifuatav
 2. Sifa zinashughulikiwa na **Ramani ya Alama Inayozingatia Nafasi**. Kila kitu kutoka $C$ madarasa hugawanywa kwa maeneo $k\times k$, na tunafundisha kutabiri sehemu za vitu.
 3. Kwa kila sehemu kutoka maeneo $k\times k$ mitandao yote hupiga kura kwa madarasa ya vitu, na darasa la kitu lenye kura nyingi zaidi huchaguliwa.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.sw.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.sw.png)
 
 > Picha kutoka [karatasi rasmi](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO ni algorithimu ya wakati halisi ya kupita mara moja. Wazo kuu ni kama ifuat
  * Picha inagawanywa katika maeneo $S\times S$.
  * Kwa kila eneo, **CNN** inatabiri vitu $n$ vinavyowezekana, m coordinates ya *maboksi ya mipaka* na *uhakika*=*uwezekano* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.sw.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.sw.png)
 
 > Picha kutoka [karatasi rasmi](https://arxiv.org/abs/1506.02640)
 

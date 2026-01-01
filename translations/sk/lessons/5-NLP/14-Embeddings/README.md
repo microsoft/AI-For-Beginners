@@ -19,7 +19,7 @@ Vstavaná vrstva (embedding layer) teda prijíma slovo ako vstup a produkuje vý
 
 Použitím vstavanej vrstvy ako prvej vrstvy v našej klasifikačnej sieti môžeme prejsť z modelu bag-of-words na model **embedding bag**, kde najprv každé slovo v texte prevedieme na zodpovedajúcu vstavanú reprezentáciu a potom vypočítame nejakú agregačnú funkciu nad všetkými týmito reprezentáciami, ako napríklad `sum`, `average` alebo `max`.
 
-![Obrázok zobrazujúci klasifikátor s použitím vstavaných reprezentácií pre päť slov v sekvencii.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.sk.png)
+![Obrázok zobrazujúci klasifikátor s použitím vstavaných reprezentácií pre päť slov v sekvencii.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.sk.png)
 
 > Obrázok od autora
 
@@ -40,7 +40,7 @@ Na to potrebujeme predtrénovať náš model vstavaných reprezentácií na veľ
 
 CBoW je rýchlejší, zatiaľ čo skip-gram je pomalší, ale lepšie reprezentuje zriedkavé slová.
 
-![Obrázok zobrazujúci algoritmy CBoW a Skip-Gram na konverziu slov na vektory.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.sk.png)
+![Obrázok zobrazujúci algoritmy CBoW a Skip-Gram na konverziu slov na vektory.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sk.png)
 
 > Obrázok z [tohto článku](https://arxiv.org/pdf/1301.3781.pdf)
 

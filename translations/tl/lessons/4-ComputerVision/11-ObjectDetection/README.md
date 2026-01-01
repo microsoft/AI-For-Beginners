@@ -13,7 +13,7 @@ Ang mga modelo ng image classification na ating tinalakay hanggang ngayon ay tum
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Pag-detect ng Objekto](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.tl.png)
+![Pag-detect ng Objekto](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.tl.png)
 
 > Larawan mula sa [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Kung nais nating hanapin ang isang pusa sa isang larawan, ang isang napakasimple
 2. Patakbuhin ang image classification sa bawat tile.
 3. Ang mga tile na may sapat na mataas na activation ay maaaring ituring na naglalaman ng hinahanap na objekto.
 
-![Simpleng Pag-detect ng Objekto](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.tl.png)
+![Simpleng Pag-detect ng Objekto](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.tl.png)
 
 > *Larawan mula sa [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Maaaring makatagpo ka ng mga sumusunod na dataset para sa gawaing ito:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 klase
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 klase, bounding boxes, at segmentation masks
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.tl.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.tl.jpg)
 
 ## Mga Sukatan para sa Pag-detect ng Objekto
 
@@ -50,7 +50,7 @@ Maaaring makatagpo ka ng mga sumusunod na dataset para sa gawaing ito:
 
 Habang madali ang pagsukat ng performance ng algorithm sa image classification, sa pag-detect ng objekto kailangan nating sukatin ang tamang klase pati na rin ang eksaktong lokasyon ng inferred bounding box. Para sa huli, ginagamit natin ang tinatawag na **Intersection over Union** (IoU), na sumusukat kung gaano kahusay ang overlap ng dalawang kahon (o dalawang arbitrary na lugar).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.tl.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.tl.png)
 
 > *Figure 2 mula sa [napakagandang blog post na ito tungkol sa IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ May dalawang malawak na klase ng mga algorithm sa pag-detect ng objekto:
 
 Ang [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) ay gumagamit ng [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) upang makabuo ng hierarchical structure ng mga ROI region, na pagkatapos ay ipinapasa sa CNN feature extractors at SVM-classifiers upang matukoy ang klase ng objekto, at linear regression upang matukoy ang mga coordinate ng *bounding box*. [Opisyal na Papel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.tl.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.tl.png)
 
 > *Larawan mula kay van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.tl.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.tl.png)
 
 > *Mga larawan mula sa [blog na ito](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -110,7 +110,7 @@ Ang [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) ay gu
 
 Ang pamamaraang ito ay katulad ng R-CNN, ngunit ang mga region ay tinutukoy pagkatapos ma-apply ang convolution layers.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.tl.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.tl.png)
 
 > Larawan mula sa [Opisyal na Papel](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Ang pamamaraang ito ay katulad ng R-CNN, ngunit ang mga region ay tinutukoy pagk
 
 Ang pangunahing ideya ng pamamaraang ito ay ang paggamit ng neural network upang mahulaan ang mga ROI - tinatawag na *Region Proposal Network*. [Papel](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.tl.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.tl.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Ang algorithm na ito ay mas mabilis pa kaysa sa Faster R-CNN. Ang pangunahing id
 1. Ang mga feature ay pinoproseso ng **Position-Sensitive Score Map**. Ang bawat objekto mula sa $C$ klase ay hinahati sa $k\times k$ na mga region, at sinasanay upang mahulaan ang mga bahagi ng mga objekto.
 1. Para sa bawat bahagi mula sa $k\times k$ na mga region, lahat ng network ay bumoboto para sa klase ng objekto, at ang klase ng objekto na may pinakamataas na boto ang pinipili.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.tl.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.tl.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ Ang YOLO ay isang realtime one-pass algorithm. Ang pangunahing ideya ay ang sumu
  * Ang larawan ay hinahati sa $S\times S$ na mga region.
  * Para sa bawat region, **CNN** ay hinuhulaan ang $n$ posibleng mga objekto, *bounding box* coordinates, at *confidence*=*probability* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.tl.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.tl.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/abs/1506.02640)
 

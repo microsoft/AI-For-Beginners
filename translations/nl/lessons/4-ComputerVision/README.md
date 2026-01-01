@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Computer Vision
 
-![Samenvatting van Computer Vision-inhoud in een schets](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.nl.png)
+![Samenvatting van Computer Vision-inhoud in een schets](../../../../translated_images/ai-computervision.6506ebebac3fbf76.nl.png)
 
 In deze sectie leren we over:
 

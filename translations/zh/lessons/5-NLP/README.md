@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 自然语言处理
 
-![NLP任务总结图](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.zh.png)
+![NLP任务总结图](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.zh.png)
 
 在本节中，我们将重点使用神经网络来处理与**自然语言处理 (NLP)**相关的任务。我们希望计算机能够解决许多NLP问题：
 

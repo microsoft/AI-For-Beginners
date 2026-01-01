@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 计算机视觉
 
-![计算机视觉内容总结涂鸦](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.zh.png)
+![计算机视觉内容总结涂鸦](../../../../translated_images/ai-computervision.6506ebebac3fbf76.zh.png)
 
 在本节中，我们将学习以下内容：
 

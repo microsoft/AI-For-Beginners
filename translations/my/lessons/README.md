@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # အကျဉ်းချုပ်
 
-![အကျဉ်းချုပ်ကို ရေးဆွဲထားသော ပုံ](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.my.png)
+![အကျဉ်းချုပ်ကို ရေးဆွဲထားသော ပုံ](../../../translated_images/ai-overview.0857791951d19500.my.png)
 
 > [Tomomi Imura](https://twitter.com/girlie_mac) မှ ရေးဆွဲထားသော Sketchnote
 

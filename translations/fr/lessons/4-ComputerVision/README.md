@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vision par ordinateur
 
-![Résumé du contenu sur la vision par ordinateur sous forme de dessin](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.fr.png)
+![Résumé du contenu sur la vision par ordinateur sous forme de dessin](../../../../translated_images/ai-computervision.6506ebebac3fbf76.fr.png)
 
 Dans cette section, nous allons apprendre :
 

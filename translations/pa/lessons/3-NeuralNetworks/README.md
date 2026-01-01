@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਨਿਊਰਲ ਨੈੱਟਵਰਕਸ ਦਾ ਪਰਿਚਯ
 
-![ਨਿਊਰਲ ਨੈੱਟਵਰਕਸ ਸਮੱਗਰੀ ਦਾ ਸਾਰ](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.pa.png)
+![ਨਿਊਰਲ ਨੈੱਟਵਰਕਸ ਸਮੱਗਰੀ ਦਾ ਸਾਰ](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.pa.png)
 
 ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਪਰਿਚਯ ਵਿੱਚ ਚਰਚਾ ਕੀਤੀ ਸੀ, ਬੁੱਧੀ ਪ੍ਰਾਪਤ ਕਰਨ ਦੇ ਤਰੀਕਿਆਂ ਵਿੱਚੋਂ ਇੱਕ ਤਰੀਕਾ **ਕੰਪਿਊਟਰ ਮਾਡਲ** ਜਾਂ ਇੱਕ **ਕ੍ਰਿਤ੍ਰਿਮ ਦਿਮਾਗ** ਨੂੰ ਸਿਖਲਾਈ ਦੇਣਾ ਹੈ। 20ਵੀਂ ਸਦੀ ਦੇ ਮੱਧ ਤੋਂ, ਖੋਜਕਰਤਾਵਾਂ ਨੇ ਵੱਖ-ਵੱਖ ਗਣਿਤ ਮਾਡਲਾਂ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ, ਜਦੋਂ ਤੱਕ ਕਿ ਹਾਲੀਆ ਸਾਲਾਂ ਵਿੱਚ ਇਹ ਦਿਸ਼ਾ ਬਹੁਤ ਸਫਲ ਸਾਬਤ ਨਹੀਂ ਹੋਈ। ਦਿਮਾਗ ਦੇ ਅਜਿਹੇ ਗਣਿਤ ਮਾਡਲਾਂ ਨੂੰ **ਨਿਊਰਲ ਨੈੱਟਵਰਕਸ** ਕਿਹਾ ਜਾਂਦਾ ਹੈ।
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਜੀਵ ਵਿਗਿਆਨ ਤੋਂ, ਅਸੀਂ ਜਾਣਦੇ ਹਾਂ ਕਿ ਸਾਡਾ ਦਿਮਾਗ ਨਿਊਰਲ ਸੈਲ (ਨਿਊਰੋਨ) ਤੋਂ ਬਣਿਆ ਹੁੰਦਾ ਹੈ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਹਰ ਇੱਕ ਦੇ ਕਈ "ਇਨਪੁੱਟ" (ਡੈਂਡਰਾਈਟਸ) ਅਤੇ ਇੱਕ "ਆਉਟਪੁੱਟ" (ਐਕਸੋਨ) ਹੁੰਦੇ ਹਨ। ਡੈਂਡਰਾਈਟਸ ਅਤੇ ਐਕਸੋਨ ਦੋਵੇਂ ਬਿਜਲਈ ਸੰਕੇਤਾਂ ਨੂੰ ਚਲਾਉਣ ਦੇ ਯੋਗ ਹੁੰਦੇ ਹਨ, ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਵਿਚਕਾਰ ਦੇ ਸੰਪਰਕ — ਜਿਨ੍ਹਾਂ ਨੂੰ ਸਿਨੈਪਸ ਕਿਹਾ ਜਾਂਦਾ ਹੈ — ਵੱਖ-ਵੱਖ ਪੱਧਰ ਦੀ ਚਾਲਕਤਾ ਦਿਖਾ ਸਕਦੇ ਹਨ, ਜੋ ਨਿਊਰੋਟ੍ਰਾਂਸਮੀਟਰਾਂ ਦੁਆਰਾ ਨਿਯੰਤਰਿਤ ਹੁੰਦੀ ਹੈ।
 
-![ਨਿਊਰੋਨ ਦਾ ਮਾਡਲ](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.pa.jpg) | ![ਨਿਊਰੋਨ ਦਾ ਮਾਡਲ](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.pa.png)
+![ਨਿਊਰੋਨ ਦਾ ਮਾਡਲ](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.pa.jpg) | ![ਨਿਊਰੋਨ ਦਾ ਮਾਡਲ](../../../../translated_images/artneuron.1a5daa88d20ebe6f.pa.png)
 ----|----
 ਅਸਲੀ ਨਿਊਰੋਨ *([ਵਿਕੀਪੀਡੀਆ ਤੋਂ ਚਿੱਤਰ](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg))* | ਕ੍ਰਿਤ੍ਰਿਮ ਨਿਊਰੋਨ *(ਲੇਖਕ ਦੁਆਰਾ ਚਿੱਤਰ)*
 
 ਇਸ ਤਰ੍ਹਾਂ, ਨਿਊਰੋਨ ਦਾ ਸਭ ਤੋਂ ਸਧਾਰਨ ਗਣਿਤ ਮਾਡਲ ਕਈ ਇਨਪੁੱਟ X<sub>1</sub>, ..., X<sub>N</sub> ਅਤੇ ਇੱਕ ਆਉਟਪੁੱਟ Y, ਅਤੇ ਕਈ ਵਜ਼ਨ W<sub>1</sub>, ..., W<sub>N</sub> ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ। ਆਉਟਪੁੱਟ ਇਸ ਤਰ੍ਹਾਂ ਗਣਨਾ ਕੀਤੀ ਜਾਂਦੀ ਹੈ:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.pa.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.pa.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 ਜਿੱਥੇ f ਕੁਝ ਗੈਰ-ਰੇਖਿਕ **ਐਕਟੀਵੇਸ਼ਨ ਫੰਕਸ਼ਨ** ਹੈ।
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Преглед
 
-![Преглед в рисунка](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.bg.png)
+![Преглед в рисунка](../../../translated_images/ai-overview.0857791951d19500.bg.png)
 
 > Рисунка от [Tomomi Imura](https://twitter.com/girlie_mac)
 

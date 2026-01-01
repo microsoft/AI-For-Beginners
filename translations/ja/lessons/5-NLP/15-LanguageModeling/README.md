@@ -23,7 +23,7 @@ Word2VecやGloVeのようなセマンティック埋め込みは、実際には*
 * **Continuous Bag-of-Words** (CBoW)：トークン列$W_{-N}$, ..., $W_N$の中間トークン$W_0$を予測する。
 * **Skip-gram**：中間トークン$W_0$から、隣接するトークンの集合{$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}を予測する。
 
-![単語をベクトルに変換するアルゴリズムに関する論文の画像](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.ja.png)
+![単語をベクトルに変換するアルゴリズムに関する論文の画像](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ja.png)
 
 > 画像出典：[この論文](https://arxiv.org/pdf/1301.3781.pdf)
 

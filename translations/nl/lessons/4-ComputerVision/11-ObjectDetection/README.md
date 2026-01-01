@@ -13,7 +13,7 @@ De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbe
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objectdetectie](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.nl.png)
+![Objectdetectie](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.nl.png)
 
 > Afbeelding van [YOLO v2 website](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Stel dat we een kat op een afbeelding willen vinden, een zeer eenvoudige aanpak 
 2. Voer beeldclassificatie uit op elke tegel.
 3. De tegels die een voldoende hoge activatie opleveren, kunnen worden beschouwd als tegels die het betreffende object bevatten.
 
-![Eenvoudige objectdetectie](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.nl.png)
+![Eenvoudige objectdetectie](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.nl.png)
 
 > *Afbeelding uit [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Je kunt de volgende datasets tegenkomen voor deze taak:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 klassen
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 klassen, begrenzingskaders en segmentatiemaskers
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.nl.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.nl.jpg)
 
 ## Objectdetectie-metrics
 
@@ -50,7 +50,7 @@ Je kunt de volgende datasets tegenkomen voor deze taak:
 
 Bij beeldclassificatie is het eenvoudig om te meten hoe goed het algoritme presteert, maar bij objectdetectie moeten we zowel de juistheid van de klasse als de precisie van de voorspelde locatie van het begrenzingskader meten. Voor dat laatste gebruiken we de zogenaamde **Intersection over Union** (IoU), die meet hoe goed twee kaders (of twee willekeurige gebieden) overlappen.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.nl.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.nl.png)
 
 > *Figuur 2 uit [deze uitstekende blogpost over IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Er zijn twee brede categorieën van objectdetectie-algoritmen:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) gebruikt [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) om een hiërarchische structuur van ROI-regio's te genereren, die vervolgens door CNN-feature extractors en SVM-classificators worden geleid om de objectklasse te bepalen, en lineaire regressie om de coördinaten van *begrenzingskaders* te bepalen. [Officiële paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.nl.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.nl.png)
 
 > *Afbeelding van van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.nl.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.nl.png)
 
 > *Afbeeldingen uit [deze blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Er zijn twee brede categorieën van objectdetectie-algoritmen:
 
 Deze aanpak lijkt op R-CNN, maar regio's worden gedefinieerd nadat convolutielagen zijn toegepast.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.nl.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.nl.png)
 
 > Afbeelding uit [de officiële paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Deze aanpak lijkt op R-CNN, maar regio's worden gedefinieerd nadat convolutielag
 
 Het belangrijkste idee van deze aanpak is om een neuraal netwerk te gebruiken om ROI's te voorspellen - de zogenaamde *Region Proposal Network*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.nl.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.nl.png)
 
 > Afbeelding uit [de officiële paper](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Dit algoritme is zelfs sneller dan Faster R-CNN. Het belangrijkste idee is als v
 2. Features worden verwerkt door **Position-Sensitive Score Map**. Elk object uit $C$ klassen wordt verdeeld in $k\times k$ regio's, en we trainen om delen van objecten te voorspellen.
 3. Voor elk deel uit $k\times k$ regio's stemmen alle netwerken op objectklassen, en de objectklasse met de meeste stemmen wordt geselecteerd.
 
-![r-fcn afbeelding](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.nl.png)
+![r-fcn afbeelding](../../../../../translated_images/r-fcn.13eb88158b99a3da.nl.png)
 
 > Afbeelding uit [officiële paper](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO is een realtime one-pass algoritme. Het belangrijkste idee is als volgt:
  * De afbeelding wordt verdeeld in $S\times S$ regio's.
  * Voor elke regio voorspelt **CNN** $n$ mogelijke objecten, *begrenzingskader*-coördinaten en *vertrouwen*=*waarschijnlijkheid* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.nl.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.nl.png)
 
 > Afbeelding uit [officiële paper](https://arxiv.org/abs/1506.02640)
 

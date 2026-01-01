@@ -23,7 +23,7 @@ Ideea principală din spatele modelării limbajului este antrenarea acestora pe 
 * **Continuous Bag-of-Words** (CBoW), când prezicem tokenul din mijloc $W_0$ într-o secvență de tokeni $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, unde prezicem un set de tokeni vecini {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} pornind de la tokenul din mijloc $W_0$.
 
-![imagine dintr-un articol despre convertirea cuvintelor în vectori](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.ro.png)
+![imagine dintr-un articol despre convertirea cuvintelor în vectori](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ro.png)
 
 > Imagine din [acest articol](https://arxiv.org/pdf/1301.3781.pdf)
 

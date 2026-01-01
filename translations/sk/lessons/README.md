@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prehľad
 
-![Prehľad v kresbe](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.sk.png)
+![Prehľad v kresbe](../../../translated_images/ai-overview.0857791951d19500.sk.png)
 
 > Kresba od [Tomomi Imura](https://twitter.com/girlie_mac)
 

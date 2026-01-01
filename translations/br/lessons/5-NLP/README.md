@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Processamento de Linguagem Natural
 
-![Resumo das tarefas de PLN em um desenho](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.br.png)
+![Resumo das tarefas de PLN em um desenho](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.br.png)
 
 Nesta seção, vamos focar no uso de Redes Neurais para lidar com tarefas relacionadas ao **Processamento de Linguagem Natural (PLN)**. Existem muitos problemas de PLN que queremos que os computadores sejam capazes de resolver:
 

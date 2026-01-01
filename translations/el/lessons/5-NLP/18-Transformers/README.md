@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Οι **Μηχανισμοί Προσοχής** παρέχουν έναν τρόπο να δίνεται βάρος στην επίδραση κάθε εισαγωγικού διανύσματος στο κάθε αποτέλεσμα πρόβλεψης του RNN. Αυτό υλοποιείται δημιουργώντας συντομεύσεις μεταξύ των ενδιάμεσων καταστάσεων του εισαγωγικού RNN και του εξαγωγικού RNN. Με αυτόν τον τρόπο, κατά τη δημιουργία του εξαγωγικού συμβόλου y<sub>t</sub>, λαμβάνουμε υπόψη όλες τις κρυφές καταστάσεις εισόδου h<sub>i</sub>, με διαφορετικούς συντελεστές βάρους &alpha;<sub>t,i</sub>.
 
-![Εικόνα που δείχνει ένα μοντέλο encoder/decoder με ένα πρόσθετο επίπεδο προσοχής](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.el.png)
+![Εικόνα που δείχνει ένα μοντέλο encoder/decoder με ένα πρόσθετο επίπεδο προσοχής](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.el.png)
 
 > Το μοντέλο encoder-decoder με μηχανισμό πρόσθετης προσοχής στο [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), από [αυτό το blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Ο πίνακας προσοχής {&alpha;<sub>i,j</sub>} αντιπροσωπεύει τον βαθμό στον οποίο συγκεκριμένες λέξεις εισόδου συμβάλλουν στη δημιουργία μιας δεδομένης λέξης στην εξαγωγική ακολουθία. Παρακάτω είναι ένα παράδειγμα ενός τέτοιου πίνακα:
 
-![Εικόνα που δείχνει ένα δείγμα ευθυγράμμισης που βρέθηκε από το RNNsearch-50, από Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.el.png)
+![Εικόνα που δείχνει ένα δείγμα ευθυγράμμισης που βρέθηκε από το RNNsearch-50, από Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.el.png)
 
 > Εικόνα από [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Στη συνέχεια, πρέπει να ανιχνεύσουμε κάποια μοτίβα μέσα στην ακολουθία μας. Για να το κάνουμε αυτό, οι transformers χρησιμοποιούν έναν μηχανισμό **αυτοπροσοχής**, που είναι ουσιαστικά προσοχή εφαρμοσμένη στην ίδια ακολουθία ως είσοδος και έξοδος. Η εφαρμογή αυτοπροσοχής μας επιτρέπει να λαμβάνουμε υπόψη το **πλαίσιο** μέσα στην πρόταση και να βλέπουμε ποιες λέξεις σχετίζονται μεταξύ τους. Για παράδειγμα, μας επιτρέπει να δούμε ποιες λέξεις αναφέρονται από συνυποδηλώσεις, όπως *αυτό*, και να λαμβάνουμε υπόψη το πλαίσιο:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.el.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.el.png)
 
 > Εικόνα από το [Blog της Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το **BERT** (Bidirectional Encoder Representations from Transformers) είναι ένα πολύ μεγάλο πολυεπίπεδο δίκτυο transformer με 12 επίπεδα για το *BERT-base* και 24 για το *BERT-large*. Το μοντέλο εκπαιδεύεται αρχικά σε ένα μεγάλο σώμα δεδομένων κειμένου (WikiPedia + βιβλία) χρησιμοποιώντας μη επιβλεπόμενη εκπαίδευση (πρόβλεψη λέξεων που έχουν καλυφθεί σε μια πρόταση). Κατά τη διάρκεια της αρχικής εκπαίδευσης, το μοντέλο απορροφά σημαντικά επίπεδα κατανόησης της γλώσσας, τα οποία μπορούν στη συνέχεια να αξιοποιηθούν με άλλα σύνολα δεδομένων μέσω της προσαρμογής. Αυτή η διαδικασία ονομάζεται **μεταφορά μάθησης**.
 
-![εικόνα από http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.el.png)
+![εικόνα από http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.el.png)
 
 > Εικόνα [πηγή](http://jalammar.github.io/illustrated-bert/)
 

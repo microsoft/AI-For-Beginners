@@ -70,7 +70,7 @@ ask turtles [
 
 ماڈل کھولنے کے بعد، آپ کو نیٹ لوگو کے مرکزی اسکرین پر لے جایا جاتا ہے۔ یہاں ایک نمونہ ماڈل ہے جو بھیڑیوں اور بھیڑوں کی آبادی کو محدود وسائل (گھاس) کے ساتھ بیان کرتا ہے۔
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.ur.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.ur.png)
 
 > دمتری سوشنیکوف کے ذریعہ اسکرین شاٹ
 

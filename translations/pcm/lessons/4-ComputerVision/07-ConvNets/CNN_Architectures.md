@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 na network wey get 92.7% accuracy for ImageNet top-5 classification for 2014. E get dis kain layer structure:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.pcm.jpg)
+![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.pcm.jpg)
 
 As you fit see, VGG dey follow traditional pyramid architecture, wey be sequence of convolution-pooling layers.
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.pcm.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.pcm.jpg)
 
 > Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 
@@ -25,7 +25,7 @@ As you fit see, VGG dey follow traditional pyramid architecture, wey be sequence
 
 ResNet na family of models wey Microsoft Research propose for 2015. Di main idea for ResNet na to use **residual blocks**:
 
-<img src="../../../../../translated_images/resnet-block.aba4ccbcc094443477d7bee189d44fed695c852d710a702462d6b809155d959a.pcm.png" width="300"/>
+<img src="../../../../../translated_images/resnet-block.aba4ccbcc0944434.pcm.png" width="300"/>
 
 > Image from [this paper](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +37,7 @@ You fit also think say dis network fit adjust di complexity to di dataset. For d
 
 Google Inception architecture carry dis idea go one step further, and build each network layer as combination of different paths:
 
-<img src="../../../../../translated_images/inception.a6605b85bcbc6f52490ec55e68109dd41924cba9d7e1007453b4cdf554199c8d.pcm.png" width="400"/>
+<img src="../../../../../translated_images/inception.a6605b85bcbc6f52.pcm.png" width="400"/>
 
 > Image from [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

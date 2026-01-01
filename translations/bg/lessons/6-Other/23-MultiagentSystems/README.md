@@ -70,7 +70,7 @@ ask turtles [
 
 След като отворите модела, ще бъдете отведени до основния екран на NetLogo. Ето примерен модел, който описва популацията на вълци и овце, при наличието на ограничени ресурси (трева).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.bg.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.bg.png)
 
 > Екранна снимка от Дмитрий Сошников
 

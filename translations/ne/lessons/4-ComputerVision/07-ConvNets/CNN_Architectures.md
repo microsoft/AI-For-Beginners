@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 एक नेटवर्क हो जसले २०१४ मा ImageNet टप-५ वर्गीकरणमा ९२.७% शुद्धता प्राप्त गर्यो। यसको लेयर संरचना निम्नानुसार छ:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.ne.jpg)
+![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ne.jpg)
 
 जस्तो कि तपाईं देख्न सक्नुहुन्छ, VGG ले परम्परागत पिरामिड आर्किटेक्चर अनुसरण गर्दछ, जुन कनभोल्युसन-पूलिङ लेयरहरूको क्रम हो।
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.ne.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ne.jpg)
 
 > [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) बाट छवि
 

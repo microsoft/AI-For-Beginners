@@ -19,7 +19,7 @@ Die Einbettungsschicht würde also ein Wort als Eingabe nehmen und einen Ausgabe
 
 Durch die Verwendung einer Einbettungsschicht als erste Schicht in unserem Klassifikator-Netzwerk können wir von einem Bag-of-Words-Modell zu einem **Embedding-Bag-Modell** wechseln, bei dem wir zunächst jedes Wort in unserem Text in die entsprechende Einbettung umwandeln und dann eine Aggregatfunktion über alle diese Einbettungen berechnen, wie z. B. `sum`, `average` oder `max`.
 
-![Bild zeigt einen Einbettungsklassifikator für fünf Sequenzwörter.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.de.png)
+![Bild zeigt einen Einbettungsklassifikator für fünf Sequenzwörter.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.de.png)
 
 > Bild vom Autor
 
@@ -40,7 +40,7 @@ Um dies zu erreichen, müssen wir unser Einbettungsmodell auf einer großen Text
 
 CBoW ist schneller, während Skip-Gram langsamer ist, aber eine bessere Darstellung von seltenen Wörtern liefert.
 
-![Bild zeigt sowohl CBoW- als auch Skip-Gram-Algorithmen zur Umwandlung von Wörtern in Vektoren.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.de.png)
+![Bild zeigt sowohl CBoW- als auch Skip-Gram-Algorithmen zur Umwandlung von Wörtern in Vektoren.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.de.png)
 
 > Bild aus [diesem Paper](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -13,7 +13,7 @@ Modelele de clasificare a imaginilor pe care le-am abordat până acum au luat o
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detectarea Obiectelor](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.ro.png)
+![Detectarea Obiectelor](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.ro.png)
 
 > Imagine de pe [site-ul YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Presupunând că dorim să găsim o pisică într-o imagine, o abordare foarte n
 2. Aplicăm clasificarea imaginilor pe fiecare secțiune.
 3. Secțiunile care generează o activare suficient de mare pot fi considerate ca conținând obiectul în cauză.
 
-![Detectare Naivă a Obiectelor](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.ro.png)
+![Detectare Naivă a Obiectelor](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.ro.png)
 
 > *Imagine din [Notebook-ul de exerciții](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Este posibil să întâlniți următoarele seturi de date pentru această sarcin
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 clase
 * [COCO](http://cocodataset.org/#home) - Obiecte Comune în Context. 80 clase, casete de delimitare și măști de segmentare
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.ro.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.ro.jpg)
 
 ## Metrice pentru Detectarea Obiectelor
 
@@ -50,7 +50,7 @@ Este posibil să întâlniți următoarele seturi de date pentru această sarcin
 
 În timp ce pentru clasificarea imaginilor este ușor să măsurăm cât de bine performează algoritmul, pentru detectarea obiectelor trebuie să măsurăm atât corectitudinea clasei, cât și precizia locației casetei de delimitare inferate. Pentru aceasta din urmă, folosim așa-numita **Intersecția peste Uniune** (IoU), care măsoară cât de bine se suprapun două casete (sau două zone arbitrare).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.ro.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.ro.png)
 
 > *Figura 2 din [acest articol excelent despre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Există două clase largi de algoritmi de detectare a obiectelor:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) folosește [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) pentru a genera o structură ierarhică de regiuni ROI, care sunt apoi trecute prin extractoare de caracteristici CNN și clasificatoare SVM pentru a determina clasa obiectului, și regresie liniară pentru a determina coordonatele *casetei de delimitare*. [Lucrare oficială](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.ro.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.ro.png)
 
 > *Imagine de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.ro.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.ro.png)
 
 > *Imagini din [acest blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Există două clase largi de algoritmi de detectare a obiectelor:
 
 Această abordare este similară cu R-CNN, dar regiunile sunt definite după ce straturile de convoluție au fost aplicate.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.ro.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.ro.png)
 
 > Imagine din [Lucrarea Oficială](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Această abordare este similară cu R-CNN, dar regiunile sunt definite după ce 
 
 Ideea principală a acestei abordări este de a folosi o rețea neuronală pentru a prezice ROI-urile - așa-numita *Rețea de Propunere a Regiunilor*. [Lucrare](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.ro.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.ro.png)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Acest algoritm este chiar mai rapid decât Faster R-CNN. Ideea principală este 
 2. Caracteristicile sunt procesate de **Position-Sensitive Score Map**. Fiecare obiect din $C$ clase este împărțit în regiuni $k\times k$, și antrenăm pentru a prezice părți ale obiectelor.
 3. Pentru fiecare parte din regiunile $k\times k$, toate rețelele votează pentru clasele de obiecte, iar clasa de obiect cu votul maxim este selectată.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.ro.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.ro.png)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO este un algoritm în timp real, cu o singură trecere. Ideea principală es
  * Imaginea este împărțită în regiuni $S\times S$.
  * Pentru fiecare regiune, **CNN** prezice $n$ obiecte posibile, coordonatele *casetei de delimitare* și *încrederea*=*probabilitatea* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.ro.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.ro.png)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/abs/1506.02640)
 

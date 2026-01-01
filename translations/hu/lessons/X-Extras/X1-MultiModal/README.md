@@ -15,7 +15,7 @@ A transzformer modellek sikerét követően az NLP feladatok megoldásában, has
 
 A CLIP fő ötlete, hogy képes legyen összehasonlítani szöveges utasításokat egy képpel, és meghatározni, mennyire felel meg a kép az utasításnak.
 
-![CLIP Architektúra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.hu.png)
+![CLIP Architektúra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.hu.png)
 
 > *Kép [ebből a blogbejegyzésből](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Miután a modellt betanították, megadhatunk neki egy batch képet és egy batc
 
 Tegyük fel, hogy képeket kell osztályoznunk például macskák, kutyák és emberek között. Ebben az esetben megadhatjuk a modellnek a képet, és egy sor szöveges utasítást: "*egy macska képe*", "*egy kutya képe*", "*egy ember képe*". A kapott 3 valószínűségi vektorban csak ki kell választanunk a legmagasabb értékű indexet.
 
-![CLIP Képosztályozáshoz](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.hu.png)
+![CLIP Képosztályozáshoz](../../../../../translated_images/clip-class.3af42ef0b2b19369.hu.png)
 
 > *Kép [ebből a blogbejegyzésből](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ További információ a VQGAN-ról a [Taming Transformers](https://compvis.githu
 
 A VQGAN és a hagyományos GAN egyik fontos különbsége, hogy az utóbbi bármilyen bemeneti vektorból képes elfogadható képet előállítani, míg a VQGAN valószínűleg nem koherens képet hoz létre. Ezért tovább kell irányítanunk a képalkotási folyamatot, amit a CLIP segítségével tehetünk meg.
 
-![VQGAN+CLIP Architektúra](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.hu.png)
+![VQGAN+CLIP Architektúra](../../../../../translated_images/vqgan.5027fe05051dfa31.hu.png)
 
 Ahhoz, hogy egy szöveges utasításhoz illeszkedő képet generáljunk, egy véletlenszerű kódoló vektorral kezdünk, amelyet a VQGAN-on keresztül egy képpé alakítunk. Ezután a CLIP-et használjuk egy veszteségfüggvény előállítására, amely megmutatja, mennyire felel meg a kép a szöveges utasításnak. A cél ennek a veszteségnek a minimalizálása, a visszaterjesztés segítségével a bemeneti vektor paramétereinek módosításával.
 
 Egy nagyszerű könyvtár, amely megvalósítja a VQGAN+CLIP-et, a [Pixray](http://github.com/pixray/pixray).
 
-![Pixray által készített kép](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.hu.png) |  ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.hu.png) | ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.hu.png)
+![Pixray által készített kép](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.hu.png) |  ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.hu.png) | ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.hu.png)
 ----|----|----
 Kép generálva az *egy fiatal irodalomtanár akvarell portréja könyvvel* utasítás alapján | Kép generálva az *egy fiatal női informatikatanár olajportréja számítógéppel* utasítás alapján | Kép generálva az *egy idős matematikatanár olajportréja táblával* utasítás alapján
 

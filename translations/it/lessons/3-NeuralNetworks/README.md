@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduzione alle Reti Neurali
 
-![Riassunto del contenuto di Introduzione alle Reti Neurali in uno schizzo](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.it.png)
+![Riassunto del contenuto di Introduzione alle Reti Neurali in uno schizzo](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.it.png)
 
 Come discusso nell'introduzione, uno dei modi per raggiungere l'intelligenza è addestrare un **modello informatico** o un **cervello artificiale**. Dalla metà del XX secolo, i ricercatori hanno sperimentato diversi modelli matematici, finché negli ultimi anni questa direzione si è dimostrata estremamente promettente. Questi modelli matematici del cervello sono chiamati **reti neurali**.
 
@@ -36,13 +36,13 @@ In questo curriculum, ci concentreremo solo sui modelli di reti neurali.
 
 Dalla biologia, sappiamo che il nostro cervello è composto da cellule neurali (neuroni), ciascuna delle quali ha molteplici "input" (dendriti) e un singolo "output" (assone). Sia i dendriti che gli assoni possono condurre segnali elettrici, e le connessioni tra di loro — note come sinapsi — possono mostrare diversi gradi di conduttività, regolati dai neurotrasmettitori.
 
-![Modello di un Neurone](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.it.jpg) | ![Modello di un Neurone](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.it.png)
+![Modello di un Neurone](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.it.jpg) | ![Modello di un Neurone](../../../../translated_images/artneuron.1a5daa88d20ebe6f.it.png)
 ----|----
 Neurone Reale *([Immagine](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) da Wikipedia)* | Neurone Artificiale *(Immagine dell'autore)*
 
 Pertanto, il modello matematico più semplice di un neurone contiene diversi input X<sub>1</sub>, ..., X<sub>N</sub> e un output Y, e una serie di pesi W<sub>1</sub>, ..., W<sub>N</sub>. L'output viene calcolato come:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.it.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.it.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 dove f è una **funzione di attivazione** non lineare.
 

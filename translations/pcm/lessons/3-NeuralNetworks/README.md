@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to Neural Networks
 
-![Summary of Intro Neural Networks content in a doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.pcm.png)
+![Summary of Intro Neural Networks content in a doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.pcm.png)
 
 As we don talk for di introduction, one way wey we fit take achieve intelligence na to train one **computer model** or one **artificial brain**. Since di middle of 20th century, researchers don dey try different mathematical models, until recent years wey dis direction don show say e dey very successful. Dis kind mathematical models of di brain dem dey call am **neural networks**.
 
@@ -36,13 +36,13 @@ For dis curriculum, we go only focus on neural network models.
 
 For biology, we sabi say our brain dey made up of neural cells (neurons), and each of dem get plenty "inputs" (dendrites) and one "output" (axon). Both dendrites and axons fit carry electrical signals, and di connections between dem — wey dem dey call synapses — fit get different levels of conductivity, wey neurotransmitters dey control.
 
-![Model of a Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.pcm.jpg) | ![Model of a Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.pcm.png)
+![Model of a Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.pcm.jpg) | ![Model of a Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.pcm.png)
 ----|----
 Real Neuron *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) from Wikipedia)* | Artificial Neuron *(Image by Author)*
 
 So, di simplest mathematical model of a neuron get plenty inputs X<sub>1</sub>, ..., X<sub>N</sub> and one output Y, plus weights W<sub>1</sub>, ..., W<sub>N</sub>. Di output na:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.pcm.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.pcm.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 where f na one non-linear **activation function**.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentacja wiedzy i systemy ekspertowe
 
-![Podsumowanie treści o Symbolicznym AI](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.pl.png)
+![Podsumowanie treści o Symbolicznym AI](../../../../translated_images/ai-symbolic.715a30cb610411a6.pl.png)
 
 > Sketchnote autorstwa [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Najczęściej nie definiujemy wiedzy w sposób ścisły, ale zestawiamy ją z in
 
 Problem **reprezentacji wiedzy** polega więc na znalezieniu skutecznego sposobu reprezentowania wiedzy w komputerze w formie danych, aby była automatycznie użyteczna. Można to postrzegać jako spektrum:
 
-![Spektrum reprezentacji wiedzy](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.pl.png)
+![Spektrum reprezentacji wiedzy](../../../../translated_images/knowledge-spectrum.b60df631852c0217.pl.png)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Składnia blokowa | Wcięcia | | |
 
 Jednym z wczesnych sukcesów symbolicznego AI były tzw. **systemy ekspertowe** - systemy komputerowe zaprojektowane do działania jako ekspert w ograniczonej dziedzinie problemowej. Opierały się na **bazie wiedzy** wydobytej od jednego lub więcej ludzkich ekspertów i zawierały **silnik wnioskowania**, który wykonywał wnioskowanie na jej podstawie.
 
-![Architektura człowieka](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.pl.png) | ![System oparty na wiedzy](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.pl.png)
+![Architektura człowieka](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.pl.png) | ![System oparty na wiedzy](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.pl.png)
 ---------------------------------------------|------------------------------------------------
 Uproszczona struktura ludzkiego układu nerwowego | Architektura systemu opartego na wiedzy
 
@@ -106,7 +106,7 @@ Systemy ekspertowe są zbudowane podobnie jak system wnioskowania człowieka, kt
 
 Na przykład rozważmy następujący system ekspertowy do określania zwierzęcia na podstawie jego cech fizycznych:
 
-![Drzewo AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.pl.png)
+![Drzewo AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.pl.png)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 

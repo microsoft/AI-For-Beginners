@@ -19,7 +19,7 @@ Dans l'architecture RNN que nous avons abordée dans l'unité précédente, chaq
 
 Cela permet différentes architectures neuronales, illustrées dans l'image ci-dessous :
 
-![Image montrant des modèles courants de réseaux neuronaux récurrents.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.fr.jpg)
+![Image montrant des modèles courants de réseaux neuronaux récurrents.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.fr.jpg)
 
 > Image tirée de l'article de blog [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) par [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Dans cette unité, nous nous concentrerons sur des modèles génératifs simples
 
 Nous entraînerons ce RNN à générer du texte étape par étape. À chaque étape, nous prendrons une séquence de caractères de longueur `nchars` et demanderons au réseau de générer le caractère suivant pour chaque caractère d'entrée :
 
-![Image montrant un exemple de génération du mot 'HELLO' par un RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.fr.png)
+![Image montrant un exemple de génération du mot 'HELLO' par un RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.fr.png)
 
 Lors de la génération de texte (pendant l'inférence), nous commençons par une **invite**, qui est passée à travers les cellules RNN pour générer son état intermédiaire, puis la génération commence à partir de cet état. Nous générons un caractère à la fois, et passons l'état et le caractère généré à une autre cellule RNN pour générer le suivant, jusqu'à ce que nous ayons généré suffisamment de caractères.
 

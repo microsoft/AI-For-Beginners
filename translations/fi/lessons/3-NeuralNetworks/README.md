@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Johdanto neuroverkkoihin
 
-![Yhteenveto neuroverkkojen sisällöstä piirroksena](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.fi.png)
+![Yhteenveto neuroverkkojen sisällöstä piirroksena](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.fi.png)
 
 Kuten keskustelimme johdannossa, yksi tapa saavuttaa älykkyyttä on kouluttaa **tietokonemalli** tai **keinotekoinen aivot**. 1900-luvun puolivälistä lähtien tutkijat kokeilivat erilaisia matemaattisia malleja, kunnes viime vuosina tämä suunta osoittautui erittäin menestyksekkääksi. Näitä aivojen matemaattisia malleja kutsutaan **neuroverkoiksi**.
 
@@ -36,13 +36,13 @@ Tässä oppimateriaalissa keskitymme vain neuroverkkopohjaisiin malleihin.
 
 Biologiasta tiedämme, että aivomme koostuvat hermosoluista (neuroneista), joilla jokaisella on useita "syötteitä" (dendriittejä) ja yksi "tulos" (aksoni). Sekä dendriitit että aksonit voivat johtaa sähköisiä signaaleja, ja niiden väliset yhteydet — synapsit — voivat osoittaa vaihtelevaa johtavuutta, jota säätelevät välittäjäaineet.
 
-![Neuronin malli](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.fi.jpg) | ![Neuronin malli](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.fi.png)
+![Neuronin malli](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.fi.jpg) | ![Neuronin malli](../../../../translated_images/artneuron.1a5daa88d20ebe6f.fi.png)
 ----|----
 Oikea neuroni *([Kuva](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) Wikipediasta)* | Keinotekoinen neuroni *(Kuva tekijältä)*
 
 Näin ollen yksinkertaisin matemaattinen malli neuronista sisältää useita syötteitä X<sub>1</sub>, ..., X<sub>N</sub> ja yhden tuloksen Y sekä joukon painoja W<sub>1</sub>, ..., W<sub>N</sub>. Tulos lasketaan seuraavasti:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.fi.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.fi.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 missä f on jokin epälineaarinen **aktivointifunktio**.
 

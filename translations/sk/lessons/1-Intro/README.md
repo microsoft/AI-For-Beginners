@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do umelej inteligencie
 
-![Zhrnutie obsahu Úvodu do umelej inteligencie v kresbe](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.sk.png)
+![Zhrnutie obsahu Úvodu do umelej inteligencie v kresbe](../../../../translated_images/ai-intro.bf28d1ac4235881c.sk.png)
 
 > Kresba od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pôvodne boli počítače vynájdené [Charlesom Babbageom](https://en.wikipedia.org/wiki/Charles_Babbage) na prácu s číslami podľa presne definovaného postupu – algoritmu. Moderné počítače, hoci sú oveľa pokročilejšie ako pôvodný model navrhnutý v 19. storočí, stále fungujú na rovnakom princípe riadených výpočtov. Preto je možné naprogramovať počítač na vykonanie úlohy, ak poznáme presnú postupnosť krokov potrebných na dosiahnutie cieľa.
 
-![Fotografia osoby](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.sk.png)
+![Fotografia osoby](../../../../translated_images/dsh_age.d212a30d4e54fb5f.sk.png)
 
 > Fotografia od [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Viac informácií nájdete v článku **[Artificial General Intelligence](https:
 
 Jedným z problémov pri zaoberaní sa pojmom **[inteligencia](https://en.wikipedia.org/wiki/Intelligence)** je, že neexistuje jasná definícia tohto pojmu. Dá sa argumentovať, že inteligencia súvisí s **abstraktným myslením** alebo so **sebauvedomením**, ale nemôžeme ju presne definovať.
 
-![Fotografia mačky](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.sk.jpg)
+![Fotografia mačky](../../../../translated_images/photo-cat.8c8e8fb760ffe457.sk.jpg)
 
 > [Fotografia](https://unsplash.com/photos/75715CVEJhI) od [Amber Kipp](https://unsplash.com/@sadmax) z Unsplash
 
@@ -98,13 +98,13 @@ Alternatívne môžeme skúsiť modelovať najjednoduchšie prvky v našom mozgu
 
 > | Čo tak ML?         |      |
 > |--------------|-----------|
-> | Časť umelej inteligencie, ktorá je založená na tom, že počítač sa učí riešiť problém na základe niektorých dát, sa nazýva **strojové učenie**. V tomto kurze sa nebudeme zaoberať klasickým strojovým učením – odkazujeme vás na samostatný [kurz Strojové učenie pre začiatočníkov](http://aka.ms/ml-beginners). |   ![ML pre začiatočníkov](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.sk.png)    |
+> | Časť umelej inteligencie, ktorá je založená na tom, že počítač sa učí riešiť problém na základe niektorých dát, sa nazýva **strojové učenie**. V tomto kurze sa nebudeme zaoberať klasickým strojovým učením – odkazujeme vás na samostatný [kurz Strojové učenie pre začiatočníkov](http://aka.ms/ml-beginners). |   ![ML pre začiatočníkov](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.sk.png)    |
 
 ## Stručná história AI
 
 Umelá inteligencia vznikla ako oblasť v polovici 20. storočia. Spočiatku bol symbolický prístup dominantný a viedol k niekoľkým dôležitým úspechom, ako napríklad expertné systémy – počítačové programy, ktoré dokázali pôsobiť ako odborníci v niektorých obmedzených problémových oblastiach. Avšak čoskoro sa ukázalo, že tento prístup nie je dobre škálovateľný. Extrahovanie vedomostí od experta, ich reprezentácia v počítači a udržiavanie tejto databázy vedomostí presnej sa ukázalo byť veľmi zložitou úlohou a príliš nákladnou na to, aby bola praktická v mnohých prípadoch. To viedlo k takzvanej [AI zime](https://en.wikipedia.org/wiki/AI_winter) v 70. rokoch.
 
-<img alt="Stručná história AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.sk.png" width="70%"/>
+<img alt="Stručná história AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.sk.png" width="70%"/>
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Podobne môžeme vidieť, ako sa prístup k vytváraniu „hovoriacich programov
 * Moderní asistenti, ako Cortana, Siri alebo Google Assistant, sú všetci hybridné systémy, ktoré používajú neurónové siete na prevod reči na text a rozpoznanie nášho zámeru, a potom využívajú nejaké uvažovanie alebo explicitné algoritmy na vykonanie požadovaných akcií.
 * V budúcnosti môžeme očakávať kompletný model založený na neurónových sieťach, ktorý bude sám zvládať dialóg. Nedávne GPT a [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) rodiny neurónových sietí ukazujú veľký úspech v tomto smere.
 
-<img alt="evolúcia Turingovho testu" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.sk.png" width="70
+<img alt="evolúcia Turingovho testu" src="../../../../translated_images/turing-test-evol.4184696701293ead.sk.png" width="70
 > Obrázok od Dmitry Soshnikov, [fotografia](https://unsplash.com/photos/r8LmVbUKgns) od [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nedávny výskum v oblasti AI

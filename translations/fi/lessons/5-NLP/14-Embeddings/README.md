@@ -19,7 +19,7 @@ Upotuskerros ottaa sanan syötteenä ja tuottaa ulostulovektorin, jonka pituus o
 
 Käyttämällä upotuskerrosta luokittelijaverkkomme ensimmäisenä kerroksena voimme siirtyä bag-of-words-mallista **embedding bag** -malliin, jossa ensin muutamme tekstimme jokaisen sanan vastaavaksi upotukseksi ja laskemme sitten jonkin aggregaattifunktion näiden upotusten yli, kuten `sum`, `average` tai `max`.
 
-![Kuva, joka näyttää upotusluokittelijan viidelle sanajonon sanalle.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.fi.png)
+![Kuva, joka näyttää upotusluokittelijan viidelle sanajonon sanalle.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.fi.png)
 
 > Kuva tekijältä
 
@@ -40,7 +40,7 @@ Tämän saavuttamiseksi meidän täytyy esikouluttaa upotusmallimme suurella tek
 
 CBoW on nopeampi, kun taas skip-gram on hitaampi, mutta se edustaa harvinaisia sanoja paremmin.
 
-![Kuva, joka näyttää sekä CBoW- että Skip-Gram-algoritmit sanojen muuntamiseksi vektoreiksi.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.fi.png)
+![Kuva, joka näyttää sekä CBoW- että Skip-Gram-algoritmit sanojen muuntamiseksi vektoreiksi.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.fi.png)
 
 > Kuva [tästä artikkelista](https://arxiv.org/pdf/1301.3781.pdf)
 

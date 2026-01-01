@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Žinių Atvaizdavimas ir Ekspertinės Sistemos
 
-![Santrauka apie simbolinį AI](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.lt.png)
+![Santrauka apie simbolinį AI](../../../../translated_images/ai-symbolic.715a30cb610411a6.lt.png)
 
 > Sketchnote sukūrė [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Dažniausiai mes griežtai neapibrėžiame žinių, bet jas susiejame su kitais 
 
 Taigi, **žinių atvaizdavimo** problema yra rasti efektyvų būdą atvaizduoti žinias kompiuteryje duomenų forma, kad jos būtų automatiškai naudojamos. Tai galima laikyti spektru:
 
-![Žinių atvaizdavimo spektras](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.lt.png)
+![Žinių atvaizdavimo spektras](../../../../translated_images/knowledge-spectrum.b60df631852c0217.lt.png)
 
 > Vaizdas sukurtas [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blokų sintaksė | Įtraukimas | | |
 
 Vienas iš ankstyvųjų simbolinio AI pasiekimų buvo vadinamosios **ekspertinės sistemos** - kompiuterinės sistemos, sukurtos veikti kaip ekspertas tam tikroje ribotoje problemų srityje. Jos buvo pagrįstos **žinių baze**, išgauta iš vieno ar daugiau žmonių ekspertų, ir turėjo **išvadų variklį**, kuris atliko tam tikrą samprotavimą remdamasis šia baze.
 
-![Žmogaus architektūra](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.lt.png) | ![Žinių pagrindu veikianti sistema](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.lt.png)
+![Žmogaus architektūra](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.lt.png) | ![Žinių pagrindu veikianti sistema](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.lt.png)
 ---------------------------------------------|------------------------------------------------
 Supaprastinta žmogaus nervų sistemos struktūra | Žinių pagrindu veikiančios sistemos architektūra
 
@@ -106,7 +106,7 @@ Ekspertinės sistemos yra sukurtos panašiai kaip žmogaus samprotavimo sistema,
 
 Kaip pavyzdį, apsvarstykime šią ekspertinę sistemą, skirtą gyvūnui nustatyti pagal jo fizines charakteristikas:
 
-![AND-OR medis](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.lt.png)
+![AND-OR medis](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.lt.png)
 
 > Vaizdas sukurtas [Dmitry Soshnikov](http://soshnikov.com)
 

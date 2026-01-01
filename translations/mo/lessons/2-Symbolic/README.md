@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 知識表示與專家系統
 
-![象徵式 AI 內容摘要](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.mo.png)
+![象徵式 AI 內容摘要](../../../../translated_images/ai-symbolic.715a30cb610411a6.mo.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 因此，**知識表示**的問題是找到某種有效的方法，將知識以數據的形式表示在計算機中，使其能夠自動使用。這可以看作是一個光譜：
 
-![知識表示光譜](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.mo.png)
+![知識表示光譜](../../../../translated_images/knowledge-spectrum.b60df631852c0217.mo.png)
 
 > 圖片由 [Dmitry Soshnikov](http://soshnikov.com) 提供
 
@@ -94,7 +94,7 @@ Python | 區塊語法 | 縮排
 
 象徵式 AI 的早期成功之一是所謂的**專家系統**——設計用於在某些有限問題領域中充當專家的計算機系統。它們基於從一位或多位人類專家提取的**知識庫**，並包含一個在其上執行推理的**推理引擎**。
 
-![人類架構](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.mo.png) | ![基於知識的系統架構](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.mo.png)
+![人類架構](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.mo.png) | ![基於知識的系統架構](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.mo.png)
 ----------------------------------|----------------------------------------
 人類神經系統的簡化結構          | 基於知識的系統的架構
 
@@ -106,7 +106,7 @@ Python | 區塊語法 | 縮排
 
 例如，讓我們考慮以下基於動物物理特徵的專家系統：
 
-![AND-OR 樹](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.mo.png)
+![AND-OR 樹](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.mo.png)
 
 > 圖片由 [Dmitry Soshnikov](http://soshnikov.com) 提供
 

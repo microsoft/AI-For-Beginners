@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Prezentare generală
 
-![Prezentare generală într-un desen](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ro.png)
+![Prezentare generală într-un desen](../../../translated_images/ai-overview.0857791951d19500.ro.png)
 
 > Notiță ilustrată de [Tomomi Imura](https://twitter.com/girlie_mac)
 

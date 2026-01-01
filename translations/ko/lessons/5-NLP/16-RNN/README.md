@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 텍스트 시퀀스의 의미를 포착하려면 **순환 신경망**(Recurrent Neural Network, RNN)이라는 다른 신경망 아키텍처를 사용해야 합니다. RNN에서는 문장을 네트워크에 한 번에 하나의 기호씩 전달하고, 네트워크는 **상태**를 생성하며, 이를 다음 기호와 함께 네트워크에 다시 전달합니다.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.ko.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.ko.png)
 
 > 저자 제공 이미지
 
@@ -61,7 +61,7 @@ LSTM 네트워크는 RNN과 유사하게 구성되지만, 레이어 간에 전�
 
 순환 네트워크는 단일 방향이든 양방향이든 시퀀스 내 특정 패턴을 캡처하고 이를 상태 벡터에 저장하거나 출력으로 전달할 수 있습니다. 합성곱 네트워크와 마찬가지로 첫 번째 레이어에서 추출한 저수준 패턴을 기반으로 더 높은 수준의 패턴을 캡처하기 위해 첫 번째 레이어 위에 또 다른 순환 레이어를 구축할 수 있습니다. 이는 **다층 RNN**의 개념으로 이어지며, 두 개 이상의 순환 네트워크로 구성되며 이전 레이어의 출력이 다음 레이어의 입력으로 전달됩니다.
 
-![다층 장단기 메모리 RNN을 보여주는 이미지](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.ko.jpg)
+![다층 장단기 메모리 RNN을 보여주는 이미지](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.ko.jpg)
 
 *Fernando López의 [이 훌륭한 글](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3)에서 가져온 그림*
 

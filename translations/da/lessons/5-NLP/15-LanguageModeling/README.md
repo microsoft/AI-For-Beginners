@@ -23,7 +23,7 @@ I vores tidligere eksempler brugte vi fortrænede semantiske indlejringer, men d
 * **Continuous Bag-of-Words** (CBoW), hvor vi forudsiger det midterste token $W_0$ i en token-sekvens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, hvor vi forudsiger et sæt af nabotokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} ud fra det midterste token $W_0$.
 
-![billede fra artikel om konvertering af ord til vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.da.png)
+![billede fra artikel om konvertering af ord til vektorer](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.da.png)
 
 > Billede fra [denne artikel](https://arxiv.org/pdf/1301.3781.pdf)
 

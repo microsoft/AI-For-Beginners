@@ -58,7 +58,7 @@ L'overfitting è un concetto estremamente importante nel machine learning, ed è
 
 Considera il seguente problema di approssimazione di 5 punti (rappresentati da `x` nei grafici sottostanti):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.it.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.it.jpg)
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.it.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.it.jpg)
 -------------------------|--------------------------
 **Modello lineare, 2 parametri** | **Modello non lineare, 7 parametri**
 Errore di training = 5.3 | Errore di training = 0
@@ -79,7 +79,7 @@ Errore di validazione = 5.1 | Errore di validazione = 20
 
 Come puoi vedere dal grafico sopra, l'overfitting può essere rilevato da un errore di training molto basso e un errore di validazione molto alto. Normalmente durante l'allenamento vedremo sia l'errore di training che quello di validazione iniziare a diminuire, e poi a un certo punto l'errore di validazione potrebbe smettere di diminuire e iniziare a salire. Questo sarà un segnale di overfitting e un indicatore che probabilmente dovremmo interrompere l'allenamento a questo punto (o almeno fare uno snapshot del modello).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.it.png)
+![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.it.png)
 
 ## Come prevenire l'overfitting
 

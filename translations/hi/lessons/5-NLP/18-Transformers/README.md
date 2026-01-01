@@ -20,13 +20,13 @@ RNNs के साथ, सीक्वेंस-टू-सीक्वेंस 
 
 **ध्यान तंत्र** प्रत्येक इनपुट वेक्टर के संदर्भ प्रभाव को प्रत्येक आउटपुट भविष्यवाणी पर वेटिंग प्रदान करने का एक तरीका है। इसे लागू करने का तरीका यह है कि इनपुट RNN और आउटपुट RNN की मध्यवर्ती अवस्थाओं के बीच शॉर्टकट बनाए जाते हैं। इस प्रकार, जब आउटपुट प्रतीक y<sub>t</sub> उत्पन्न किया जाता है, तो हम सभी इनपुट हिडन स्टेट्स h<sub>i</sub> को विभिन्न वेट कोएफिशिएंट्स &alpha;<sub>t,i</sub> के साथ ध्यान में रखते हैं।
 
-![एन्कोडर/डिकोडर मॉडल जिसमें एडिटिव ध्यान लेयर है](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.hi.png)
+![एन्कोडर/डिकोडर मॉडल जिसमें एडिटिव ध्यान लेयर है](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.hi.png)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) में एडिटिव ध्यान तंत्र के साथ एन्कोडर-डिकोडर मॉडल, [इस ब्लॉग पोस्ट](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html) से लिया गया।
 
 ध्यान मैट्रिक्स {&alpha;<sub>i,j</sub>} यह दर्शाता है कि आउटपुट सीक्वेंस में दिए गए शब्द के निर्माण में कुछ इनपुट शब्दों की भूमिका कितनी है। नीचे एक उदाहरण दिया गया है:
 
-![Bahdanau - arviz.org से लिया गया RNNsearch-50 द्वारा पाया गया एक नमूना संरेखण](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.hi.png)
+![Bahdanau - arviz.org से लिया गया RNNsearch-50 द्वारा पाया गया एक नमूना संरेखण](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.hi.png)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) से चित्र (Fig.3)
 
@@ -66,7 +66,7 @@ RNNs के साथ, सीक्वेंस-टू-सीक्वेंस 
 
 अब हमें अपने सीक्वेंस के भीतर कुछ पैटर्न कैप्चर करने की आवश्यकता है। ऐसा करने के लिए, ट्रांसफॉर्मर्स **सेल्फ-अटेंशन** तंत्र का उपयोग करते हैं, जो मूल रूप से इनपुट और आउटपुट के रूप में एक ही सीक्वेंस पर लागू ध्यान है। सेल्फ-अटेंशन लागू करने से हमें वाक्य के भीतर **संदर्भ** को ध्यान में रखने और यह देखने की अनुमति मिलती है कि कौन से शब्द आपस में संबंधित हैं। उदाहरण के लिए, यह हमें यह देखने की अनुमति देता है कि कौन से शब्द *it* जैसे कोरफेरेंस द्वारा संदर्भित हैं, और संदर्भ को ध्यान में रखता है:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.hi.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.hi.png)
 
 > [Google ब्लॉग](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html) से छवि
 
@@ -91,7 +91,7 @@ RNNs के साथ, सीक्वेंस-टू-सीक्वेंस 
 
 **BERT** (Bidirectional Encoder Representations from Transformers) एक बहुत बड़ा मल्टी लेयर ट्रांसफॉर्मर नेटवर्क है जिसमें *BERT-base* के लिए 12 लेयर और *BERT-large* के लिए 24 लेयर हैं। मॉडल को पहले एक बड़े टेक्स्ट डेटा कॉर्पस (WikiPedia + किताबें) पर अनसुपरवाइज्ड ट्रेनिंग (वाक्य में मास्क किए गए शब्दों की भविष्यवाणी) का उपयोग करके प्री-ट्रेन किया जाता है। प्री-ट्रेनिंग के दौरान मॉडल महत्वपूर्ण स्तर की भाषा समझ को अवशोषित करता है, जिसे फिर अन्य डेटासेट्स के साथ फाइन ट्यूनिंग का उपयोग करके लाभ उठाया जा सकता है। इस प्रक्रिया को **ट्रांसफर लर्निंग** कहा जाता है।
 
-![चित्र http://jalammar.github.io/illustrated-bert/ से](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.hi.png)
+![चित्र http://jalammar.github.io/illustrated-bert/ से](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.hi.png)
 
 > छवि [स्रोत](http://jalammar.github.io/illustrated-bert/)
 

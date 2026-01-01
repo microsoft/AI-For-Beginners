@@ -21,7 +21,7 @@ Vaš zadatak je trenirati konvolucijsku neuronsku mrežu za klasifikaciju razli�
 
 Koristit ćemo [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), koji sadrži slike 37 različitih pasmina pasa i mačaka.
 
-![Skup podataka s kojim ćemo raditi](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.hr.png)
+![Skup podataka s kojim ćemo raditi](../../../../../../translated_images/data.50b2a9d5484bdbf0.hr.png)
 
 Za preuzimanje skupa podataka, koristite ovaj isječak koda:
 

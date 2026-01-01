@@ -19,7 +19,7 @@ A beágyazási réteg tehát egy szót vesz bemenetként, és egy meghatározott
 
 Ha a beágyazási réteget használjuk osztályozó hálózatunk első rétegeként, akkor a szavak zsákja modellről áttérhetünk az **embedding bag** modellre, ahol először minden szót a megfelelő beágyazásra alakítunk, majd valamilyen aggregált függvényt számítunk ki az összes beágyazás felett, például `sum`, `average` vagy `max`.
 
-![Kép, amely egy beágyazási osztályozót mutat öt szekvencia szóra.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.hu.png)
+![Kép, amely egy beágyazási osztályozót mutat öt szekvencia szóra.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.hu.png)
 
 > Kép a szerzőtől
 
@@ -40,7 +40,7 @@ Ehhez elő kell tanítanunk a beágyazási modellünket egy nagy szöveggyűjtem
 
 A CBoW gyorsabb, míg a skip-gram lassabb, de jobban reprezentálja a ritka szavakat.
 
-![Kép, amely a CBoW és Skip-Gram algoritmusokat mutatja a szavak vektorokká alakításához.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.hu.png)
+![Kép, amely a CBoW és Skip-Gram algoritmusokat mutatja a szavak vektorokká alakításához.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.hu.png)
 
 > Kép ebből a [tanulmányból](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visão Geral
 
-![Visão Geral em um rabisco](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.br.png)
+![Visão Geral em um rabisco](../../../translated_images/ai-overview.0857791951d19500.br.png)
 
 > Rabisco por [Tomomi Imura](https://twitter.com/girlie_mac)
 

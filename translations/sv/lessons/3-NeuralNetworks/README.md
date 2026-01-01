@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till neurala nätverk
 
-![Sammanfattning av innehållet i Introduktion till neurala nätverk i en skiss](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sv.png)
+![Sammanfattning av innehållet i Introduktion till neurala nätverk i en skiss](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.sv.png)
 
 Som vi diskuterade i introduktionen är ett av sätten att uppnå intelligens att träna en **datormodell** eller en **artificiell hjärna**. Sedan mitten av 1900-talet har forskare testat olika matematiska modeller, och på senare år har denna riktning visat sig vara mycket framgångsrik. Sådana matematiska modeller av hjärnan kallas **neurala nätverk**.
 
@@ -36,13 +36,13 @@ I denna kursplan kommer vi endast att fokusera på modeller för neurala nätver
 
 Från biologin vet vi att vår hjärna består av nervceller (neuroner), var och en med flera "ingångar" (dendriter) och en enda "utgång" (axon). Både dendriter och axoner kan leda elektriska signaler, och kopplingarna mellan dem — kända som synapser — kan uppvisa varierande grad av ledningsförmåga, som regleras av neurotransmittorer.
 
-![Modell av en neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sv.jpg) | ![Modell av en neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sv.png)
+![Modell av en neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.sv.jpg) | ![Modell av en neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.sv.png)
 ----|----
 Verklig neuron *([Bild](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) från Wikipedia)* | Artificiell neuron *(Bild av författaren)*
 
 Således innehåller den enklaste matematiska modellen av en neuron flera ingångar X<sub>1</sub>, ..., X<sub>N</sub> och en utgång Y, samt en serie vikter W<sub>1</sub>, ..., W<sub>N</sub>. En utgång beräknas som:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sv.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.sv.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 där f är någon icke-linjär **aktiveringsfunktion**.
 

@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 మీరు అమెజాన్ అలెక్సా లేదా గూగుల్ అసిస్టెంట్ లాంటి సహజ భాషా చాట్ బాట్‌ను అభివృద్ధి చేయాలనుకుంటున్నారని ఊహించుకోండి. తెలివైన చాట్ బాట్లు పనిచేసే విధానం ఏమిటంటే, వినియోగదారు ఏమి కోరుకుంటున్నాడో అర్థం చేసుకోవడం కోసం ఇన్‌పుట్ వాక్యంపై టెక్స్ట్ వర్గీకరణ చేస్తాయి. ఈ వర్గీకరణ ఫలితం **ఇంటెంట్** అని పిలవబడుతుంది, ఇది చాట్ బాట్ ఏం చేయాలో నిర్ణయిస్తుంది.
 
-<img alt="Bot NER" src="../../../../../translated_images/bot-ner.4b09235dbb0ad2754ec1f54c8c797f902cbb0b45ac90b0cfc8287343cef8df2f.te.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/bot-ner.4b09235dbb0ad275.te.png" width="50%"/>
 
 > చిత్రాన్ని రచయిత అందించారు
 
@@ -58,7 +58,7 @@ infant | O
 
 టోకెన్లు మరియు తరగతుల మధ్య ఒకటి-కోటి అనుసంధానం అవసరం కాబట్టి, ఈ చిత్రంలో చూపినట్లుగా ఒక కుడి వైపు **బహుళ-కు-బహుళ** న్యూరల్ నెట్‌వర్క్ మోడల్‌ను శిక్షణ ఇవ్వవచ్చు:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.te.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.te.jpg)
 
 > *చిత్రం [ఈ బ్లాగ్ పోస్ట్](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) నుండి, రచయిత [అండ్రేజ్ కార్పతి](http://karpathy.github.io/). NER టోకెన్ వర్గీకరణ మోడల్స్ ఈ చిత్రంలో కుడి వైపు నెట్‌వర్క్ నిర్మాణానికి సరిపోతాయి.*
 

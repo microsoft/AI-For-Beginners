@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **ਬ੍ਰੇਲ ਬੁੱਕ ਦੀ ਤਸਵੀਰ ਦੀ ਪ੍ਰੀ-ਪ੍ਰੋਸੈਸਿੰਗ**। ਅਸੀਂ ਧਿਆਨ ਦਿੰਦੇ ਹਾਂ ਕਿ ਕਿਵੇਂ ਅਸੀਂ thresholding, feature detection, perspective transformation ਅਤੇ NumPy ਮੈਨਿਪੂਲੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵਿਅਕਤੀਗਤ ਬ੍ਰੇਲ ਚਿੰਨ੍ਹਾਂ ਨੂੰ neural network ਦੁਆਰਾ ਹੋਰ ਵਰਗੀਕਰਨ ਲਈ ਵੱਖ ਕਰ ਸਕਦੇ ਹਾਂ।
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.pa.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.pa.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.pa.png)
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.pa.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.pa.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.pa.png)
 ----|-----|-----
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 
 * **ਫਰੇਮ ਡਿਫਰੈਂਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵੀਡੀਓ ਵਿੱਚ ਗਤੀ ਪਛਾਣਣਾ**। ਜੇਕਰ ਕੈਮਰਾ ਸਥਿਰ ਹੈ, ਤਾਂ ਕੈਮਰੇ ਫੀਡ ਤੋਂ ਫਰੇਮ ਇੱਕ ਦੂਜੇ ਨਾਲ ਕਾਫ਼ੀ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ। ਕਿਉਂਕਿ ਫਰੇਮ ਐਰੇ ਵਜੋਂ ਦਰਸਾਏ ਜਾਂਦੇ ਹਨ, ਸਿਰਫ਼ ਉਹਨਾਂ ਐਰੇਜ਼ ਨੂੰ ਦੋ ਲਗਾਤਾਰ ਫਰੇਮਾਂ ਲਈ ਘਟਾ ਕੇ ਅਸੀਂ ਪਿਕਸਲ ਡਿਫਰੈਂਸ ਪ੍ਰਾਪਤ ਕਰਾਂਗੇ, ਜੋ ਸਥਿਰ ਫਰੇਮਾਂ ਲਈ ਘੱਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਚਿੱਤਰ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਗਤੀ ਹੋਣ 'ਤੇ ਵਧ ਜਾਵੇਗਾ।
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.pa.png)
+![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.pa.png)
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 
@@ -89,7 +89,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **Dense Optical Flow** ਹਰ ਪਿਕਸਲ ਲਈ ਵੇਕਟਰ ਫੀਲਡ ਦੀ ਗਣਨਾ ਕਰਦਾ ਹੈ ਜੋ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਇਹ ਕਿੱਥੇ ਹਿਲ ਰਿਹਾ ਹੈ।
    - **Sparse Optical Flow** ਚਿੱਤਰ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ ਲੱਛਣ (ਜਿਵੇਂ ਕਿ edges) ਲੈਣ 'ਤੇ ਅਧਾਰਿਤ ਹੁੰਦਾ ਹੈ, ਅਤੇ ਫਰੇਮ ਤੋਂ ਫਰੇਮ ਤੱਕ ਉਹਨਾਂ ਦੀ ਰਾਹ ਬਣਾਉਂਦਾ ਹੈ।
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.pa.png)
+![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.pa.png)
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 

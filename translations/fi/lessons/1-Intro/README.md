@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Johdanto tekoälyyn
 
-![Yhteenveto tekoälyn johdannon sisällöstä piirroksena](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.fi.png)
+![Yhteenveto tekoälyn johdannon sisällöstä piirroksena](../../../../translated_images/ai-intro.bf28d1ac4235881c.fi.png)
 
 > Piirros: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Alun perin tietokoneet keksittiin [Charles Babbagen](https://en.wikipedia.org/wiki/Charles_Babbage) toimesta käsittelemään numeroita ennalta määritellyn menettelyn - algoritmin - mukaisesti. Vaikka modernit tietokoneet ovat huomattavasti kehittyneempiä kuin 1800-luvulla ehdotettu alkuperäinen malli, ne noudattavat yhä samaa ohjattujen laskentojen periaatetta. Näin ollen tietokone voidaan ohjelmoida tekemään jotain, jos tiedämme tarkalleen, mitä vaiheita tavoitteen saavuttamiseksi tarvitaan.
 
-![Henkilön valokuva](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.fi.png)
+![Henkilön valokuva](../../../../translated_images/dsh_age.d212a30d4e54fb5f.fi.png)
 
 > Kuva: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Lisätietoja löytyy **[Artificial General Intelligence](https://en.wikipedia.or
 
 Yksi ongelma käsiteltäessä termiä **[älykkyys](https://en.wikipedia.org/wiki/Intelligence)** on, ettei sille ole selkeää määritelmää. Voidaan väittää, että älykkyys liittyy **abstraktiin ajatteluun** tai **itsetietoisuuteen**, mutta emme pysty määrittelemään sitä kunnolla.
 
-![Kissan valokuva](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.fi.jpg)
+![Kissan valokuva](../../../../translated_images/photo-cat.8c8e8fb760ffe457.fi.jpg)
 
 > [Kuva](https://unsplash.com/photos/75715CVEJhI) [Amber Kipp](https://unsplash.com/@sadmax) Unsplashista
 
@@ -98,13 +98,13 @@ Vaihtoehtoisesti voimme yrittää mallintaa aivojemme yksinkertaisimpia elementt
 
 > | Entä koneoppiminen?         |      |
 > |--------------|-----------|
-> | Tekoälyn osa-alue, jossa tietokone oppii ratkaisemaan ongelman jonkin datan perusteella, kutsutaan **koneoppimiseksi**. Emme käsittele perinteistä koneoppimista tässä kurssissa – suosittelemme erillistä [Koneoppiminen aloittelijoille](http://aka.ms/ml-beginners) -opetussuunnitelmaa. |   ![Koneoppiminen aloittelijoille](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.fi.png)    |
+> | Tekoälyn osa-alue, jossa tietokone oppii ratkaisemaan ongelman jonkin datan perusteella, kutsutaan **koneoppimiseksi**. Emme käsittele perinteistä koneoppimista tässä kurssissa – suosittelemme erillistä [Koneoppiminen aloittelijoille](http://aka.ms/ml-beginners) -opetussuunnitelmaa. |   ![Koneoppiminen aloittelijoille](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.fi.png)    |
 
 ## Lyhyt katsaus tekoälyn historiaan
 
 Tekoäly syntyi tieteenalana 1900-luvun puolivälissä. Aluksi symbolinen järkeily oli vallitseva lähestymistapa, ja se johti useisiin merkittäviin saavutuksiin, kuten asiantuntijajärjestelmiin – tietokoneohjelmiin, jotka pystyivät toimimaan asiantuntijana tietyillä rajatuilla ongelma-alueilla. Pian kuitenkin huomattiin, että tällainen lähestymistapa ei skaalaudu hyvin. Tiedon kerääminen asiantuntijalta, sen esittäminen tietokoneessa ja tietokannan pitäminen ajan tasalla osoittautui erittäin monimutkaiseksi ja liian kalliiksi monissa tapauksissa. Tämä johti niin sanottuun [tekoälytalveen](https://en.wikipedia.org/wiki/AI_winter) 1970-luvulla.
 
-<img alt="Tekoälyn historian lyhyt katsaus" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.fi.png" width="70%"/>
+<img alt="Tekoälyn historian lyhyt katsaus" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.fi.png" width="70%"/>
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Samoin voimme nähdä, kuinka lähestymistapa "puhuvien ohjelmien" (jotka saatta
 * Modernit avustajat, kuten Cortana, Siri tai Google Assistant, ovat kaikki hybridijärjestelmiä, jotka käyttävät neuroverkkoja muuntamaan puheen tekstiksi ja tunnistamaan tarkoituksemme, ja sitten hyödyntävät järkeilyä tai eksplisiittisiä algoritmeja suorittaakseen tarvittavat toiminnot.
 * Tulevaisuudessa voimme odottaa täysin neuroverkkoihin perustuvaa mallia, joka käsittelee dialogia itsenäisesti. Viimeaikaiset GPT- ja [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) -neuroverkkojen perheet osoittavat suurta menestystä tässä.
 
-<img alt="Turingin testin kehitys" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.fi.png" width="70%"/>
+<img alt="Turingin testin kehitys" src="../../../../translated_images/turing-test-evol.4184696701293ead.fi.png" width="70%"/>
 > Kuva: Dmitry Soshnikov, [valokuva](https://unsplash.com/photos/r8LmVbUKgns) [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Viimeaikainen tekoälytutkimus

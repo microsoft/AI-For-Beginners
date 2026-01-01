@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Continuous Bag-of-Words** (CBoW)، جہاں ہم ٹوکن سیکوئنس $W_{-N}$, ..., $W_N$ میں درمیانی ٹوکن $W_0$ کی پیش گوئی کرتے ہیں۔
 * **Skip-gram**، جہاں ہم درمیانی ٹوکن $W_0$ سے پڑوسی ٹوکنز {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} کی پیش گوئی کرتے ہیں۔
 
-![الفاظ کو ویکٹرز میں تبدیل کرنے کے لیے پیپر سے تصویر](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.ur.png)
+![الفاظ کو ویکٹرز میں تبدیل کرنے کے لیے پیپر سے تصویر](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ur.png)
 
 > تصویر [اس پیپر](https://arxiv.org/pdf/1301.3781.pdf) سے لی گئی ہے۔
 

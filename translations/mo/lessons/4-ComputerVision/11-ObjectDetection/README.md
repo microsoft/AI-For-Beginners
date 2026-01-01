@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![物件偵測](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.mo.png)
+![物件偵測](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.mo.png)
 
 > 圖片來源：[YOLO v2 網站](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. 對每個區塊進行影像分類。
 3. 將分類結果中激活值足夠高的區塊視為包含目標物件的區域。
 
-![簡單的物件偵測](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.mo.png)
+![簡單的物件偵測](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.mo.png)
 
 > *圖片來源：[練習筆記本](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 包含 20 個類別
 * [COCO](http://cocodataset.org/#home) - 常見物件的上下文。包含 80 個類別、邊界框和分割遮罩
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.mo.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.mo.jpg)
 
 ## 物件偵測的評估指標
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 對於影像分類來說，衡量演算法的表現相對簡單；但對於物件偵測，我們需要同時衡量類別的正確性以及推測邊界框位置的精確性。後者使用所謂的**交集比聯集**（IoU）來衡量，這是一種用來評估兩個框（或任意兩個區域）重疊程度的方法。
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.mo.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.mo.png)
 
 > *圖片來源：[這篇優秀的 IoU 部落格文章](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) 使用 [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) 生成層次結構的 ROI 區域，然後通過 CNN 特徵提取器和 SVM 分類器來確定物件類別，並通過線性迴歸確定*邊界框*座標。[官方論文](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.mo.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.mo.png)
 
 > *圖片來源：van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.mo.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.mo.png)
 
 > *圖片來源：[這篇部落格](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 這種方法與 R-CNN 類似，但區域是在卷積層應用之後定義的。
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.mo.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.mo.png)
 
 > 圖片來源：[官方論文](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)，[arXiv](https://arxiv.org/pdf/1504.08083.pdf)，2015
 
@@ -118,7 +118,7 @@ $$
 
 這種方法的主要思想是使用神經網路來預測 ROI，即所謂的*區域提議網路*。[論文](https://arxiv.org/pdf/1506.01497.pdf)，2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.mo.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.mo.png)
 
 > 圖片來源：[官方論文](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. 特徵經過**位置敏感分數圖**處理。每個來自 $C$ 類別的物件被劃分為 $k\times k$ 區域，並訓練網路預測物件的部分。
 3. 對於 $k\times k$ 區域中的每個部分，所有網路對物件類別進行投票，選擇得票最多的物件類別。
 
-![r-fcn 圖片](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.mo.png)
+![r-fcn 圖片](../../../../../translated_images/r-fcn.13eb88158b99a3da.mo.png)
 
 > 圖片來源：[官方論文](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO 是一種實時的單次通過演算法。主要思想如下：
  * 將圖片劃分為 $S\times S$ 區域。
  * 對於每個區域，**CNN** 預測 $n$ 個可能的物件、*邊界框*座標以及*置信度*=*概率* * IoU。
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.mo.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.mo.png)
 
 > 圖片來源：[官方論文](https://arxiv.org/abs/1506.02640)
 

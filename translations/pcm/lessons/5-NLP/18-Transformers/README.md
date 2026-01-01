@@ -20,13 +20,13 @@ With RNNs, sequence-to-sequence dey work with two recurrent networks. One networ
 
 **Attention Mechanisms** dey help to give weight to how each input vector go affect each output prediction of the RNN. E dey work by creating shortcuts between intermediate states of the input RNN and the output RNN. So, when we dey generate output symbol y<sub>t</sub>, we go consider all input hidden states h<sub>i</sub>, with different weight coefficients &alpha;<sub>t,i</sub>.
 
-![Image showing an encoder/decoder model with an additive attention layer](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.pcm.png)
+![Image showing an encoder/decoder model with an additive attention layer](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.pcm.png)
 
 > The encoder-decoder model with additive attention mechanism in [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cited from [this blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 The attention matrix {&alpha;<sub>i,j</sub>} go show how much certain input words dey contribute to the generation of one word for the output sequence. Example of dis matrix dey below:
 
-![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.pcm.png)
+![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.pcm.png)
 
 > Figure from [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -56,7 +56,7 @@ The idea of positional encoding be like dis:
 * Trainable embedding, like token embedding. Na dis approach we go use here. We go apply embedding layers for both tokens and their positions, wey go give embedding vectors of the same dimensions, then we go add dem together.
 * Fixed position encoding function, as dem propose for the original paper.
 
-<img src="../../../../../translated_images/pos-embedding.e41ce9b6cf6078afd28da02f27e33ac7026ed4c156491df7ad9aa96be7c194bb.pcm.png" width="50%"/>
+<img src="../../../../../translated_images/pos-embedding.e41ce9b6cf6078af.pcm.png" width="50%"/>
 
 > Image by the author
 
@@ -66,7 +66,7 @@ The result wey we go get with positional embedding go combine the original token
 
 Next, we need to capture some patterns inside our sequence. To do dis, transformers dey use **self-attention** mechanism, wey be attention wey dem apply to the same sequence as input and output. Self-attention dey help us consider **context** inside sentence, and see how words dey relate. For example, e dey help us see how words dey refer to coreferences like *it*, and also consider the context:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.pcm.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.pcm.png)
 
 > Image from the [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Because each input position dey map independently to each output position, trans
 
 **BERT** (Bidirectional Encoder Representations from Transformers) na very big multi-layer transformer network with 12 layers for *BERT-base*, and 24 for *BERT-large*. The model dey first pre-train on large corpus of text data (WikiPedia + books) using unsupervised training (predicting masked words for sentence). During pre-training, the model dey learn plenty language understanding wey fit help am perform well with other datasets when we fine-tune am. Dis process na **transfer learning**.
 
-![picture from http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.pcm.png)
+![picture from http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.pcm.png)
 
 > Image [source](http://jalammar.github.io/illustrated-bert/)
 

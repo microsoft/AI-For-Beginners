@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Непрерывный мешок слов** (Continuous Bag-of-Words, CBoW), когда мы предсказываем центральный токен $W_0$ в последовательности токенов $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, где мы предсказываем набор соседних токенов {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} на основе центрального токена $W_0$.
 
-![изображение из статьи о преобразовании слов в векторы](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.ru.png)
+![изображение из статьи о преобразовании слов в векторы](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ru.png)
 
 > Изображение из [этой статьи](https://arxiv.org/pdf/1301.3781.pdf)
 

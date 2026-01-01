@@ -15,7 +15,7 @@ I de tidligere afsnit har vi brugt rige semantiske repræsentationer af tekst og
 
 For at fange betydningen af tekstsekvenser skal vi bruge en anden neural netværksarkitektur, som kaldes et **rekurrent neuralt netværk**, eller RNN. I RNN sender vi vores sætning gennem netværket én symbol ad gangen, og netværket producerer en **tilstand**, som vi derefter sender tilbage til netværket sammen med det næste symbol.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.da.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.da.png)
 
 > Billede af forfatteren
 
@@ -61,7 +61,7 @@ Vi har diskuteret rekurrente netværk, der opererer i én retning, fra begyndels
 
 Et rekurrent netværk, enten én-retnings eller bidirektionelt, fanger visse mønstre inden for en sekvens og kan gemme dem i en tilstandsvektor eller sende dem til output. Ligesom med konvolutionelle netværk kan vi bygge et andet rekurrent lag oven på det første for at fange højere niveau mønstre og bygge videre på lav-niveau mønstre, der er udtrukket af det første lag. Dette fører os til begrebet **flerlags RNN**, som består af to eller flere rekurrente netværk, hvor output fra det foregående lag sendes til det næste lag som input.
 
-![Billede der viser et flerlags long-short-term-memory RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.da.jpg)
+![Billede der viser et flerlags long-short-term-memory RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.da.jpg)
 
 *Billede fra [denne vidunderlige artikel](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) af Fernando López*
 

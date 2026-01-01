@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |      |      |
 |--------------|-----------|
-|<img src='../../../../../translated_images/Rosenblatt-wikipedia.294821b285ac796d2281a556fe3de9a7aa328e34cdd25f3ac9deefa0982ea2df.ta.jpg' alt='ஃப்ராங்க் ரோசன்பிளாட்'/> | <img src='../../../../../translated_images/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9fb32bab6ae07e40faa202be1935c0fbd8c2bc2600a87bcb1.ta.jpg' alt='மார்க் 1 பெர்செப்ட்ரான்' />|
+|<img src='../../../../../translated_images/Rosenblatt-wikipedia.294821b285ac796d.ta.jpg' alt='ஃப்ராங்க் ரோசன்பிளாட்'/> | <img src='../../../../../translated_images/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.ta.jpg' alt='மார்க் 1 பெர்செப்ட்ரான்' />|
 
 > படங்கள் [விக்கிபீடியாவில் இருந்து](https://en.wikipedia.org/wiki/Perceptron)
 
@@ -34,7 +34,7 @@ y(x) = f(w<sup>T</sup>x)
 இங்கு f என்பது ஒரு படி செயல்பாட்டு செயல்பாடு
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
-<img src="../../../../../translated_images/activation-func.b4924007c7ce77648d4b1dd3e81c689453204902c096c626735c7b53688cdc63.ta.png"/>
+<img src="../../../../../translated_images/activation-func.b4924007c7ce7764.ta.png"/>
 
 ## பெர்செப்ட்ரானை பயிற்சி செய்வது
 

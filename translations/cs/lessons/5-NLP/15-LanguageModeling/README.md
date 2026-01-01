@@ -23,7 +23,7 @@ V našich předchozích příkladech jsme používali předtrénované sémantic
 * **Continuous Bag-of-Words** (CBoW), kdy předpovídáme prostřední token $W_0$ v sekvenci tokenů $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, kde předpovídáme sadu sousedních tokenů {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} na základě prostředního tokenu $W_0$.
 
-![obrázek z článku o převodu slov na vektory](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.cs.png)
+![obrázek z článku o převodu slov na vektory](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.cs.png)
 
 > Obrázek z [tohoto článku](https://arxiv.org/pdf/1301.3781.pdf)
 

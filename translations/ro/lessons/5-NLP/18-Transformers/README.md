@@ -20,13 +20,13 @@ Cu RNN-uri, sarcinile de tip sequence-to-sequence sunt implementate prin două r
 
 **Mecanismele de Atenție** oferă o modalitate de a pondera impactul contextual al fiecărui vector de intrare asupra fiecărei predicții de ieșire a RNN-ului. Modul în care este implementat constă în crearea unor scurtături între stările intermediare ale RNN-ului de intrare și RNN-ul de ieșire. Astfel, atunci când generăm simbolul de ieșire y<sub>t</sub>, vom lua în considerare toate stările ascunse de intrare h<sub>i</sub>, cu diferiți coeficienți de greutate &alpha;<sub>t,i</sub>.
 
-![Imagine care arată un model encoder/decoder cu un strat de atenție aditiv](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.ro.png)
+![Imagine care arată un model encoder/decoder cu un strat de atenție aditiv](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.ro.png)
 
 > Modelul encoder-decoder cu mecanism de atenție aditiv din [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citat din [acest articol de blog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matricea de atenție {&alpha;<sub>i,j</sub>} ar reprezenta gradul în care anumite cuvinte de intrare contribuie la generarea unui cuvânt dat în secvența de ieșire. Mai jos este un exemplu al unei astfel de matrice:
 
-![Imagine care arată o aliniere exemplară găsită de RNNsearch-50, preluată din Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.ro.png)
+![Imagine care arată o aliniere exemplară găsită de RNNsearch-50, preluată din Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.ro.png)
 
 > Figură din [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Rezultatul pe care îl obținem cu încorporarea pozițională încorporează at
 
 Următorul pas este capturarea unor tipare în cadrul secvenței noastre. Pentru a face acest lucru, transformerele folosesc un mecanism de **auto-atenție**, care este, în esență, atenție aplicată aceleași secvențe ca intrare și ieșire. Aplicarea auto-atenției ne permite să luăm în considerare **contextul** din propoziție și să vedem care cuvinte sunt inter-relaționate. De exemplu, ne permite să vedem care cuvinte sunt referite prin coreferințe, cum ar fi *it*, și să luăm contextul în considerare:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.ro.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.ro.png)
 
 > Imagine din [Blogul Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Deoarece fiecare poziție de intrare este mapată independent la fiecare poziți
 
 **BERT** (Bidirectional Encoder Representations from Transformers) este o rețea transformer foarte mare, cu mai multe straturi: 12 straturi pentru *BERT-base* și 24 pentru *BERT-large*. Modelul este mai întâi pre-antrenat pe un corpus mare de date text (Wikipedia + cărți) folosind antrenare nesupravegheată (prezicerea cuvintelor mascate într-o propoziție). În timpul pre-antrenării, modelul dobândește niveluri semnificative de înțelegere a limbajului, care pot fi apoi utilizate cu alte seturi de date prin ajustare fină. Acest proces se numește **învățare transferabilă**.
 
-![imagine de pe http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.ro.png)
+![imagine de pe http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.ro.png)
 
 > Imagine [sursă](http://jalammar.github.io/illustrated-bert/)
 

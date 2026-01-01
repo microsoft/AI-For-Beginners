@@ -19,7 +19,7 @@ Es kann jedoch sinnvoll sein, rohe (nicht gelabelte) Daten für das Training von
 
 Da wir einen Autoencoder trainieren, um so viele Informationen wie möglich aus dem ursprünglichen Bild zu erfassen, um eine genaue Rekonstruktion zu ermöglichen, versucht das Netzwerk, die beste **Einbettung** der Eingabebilder zu finden, um deren Bedeutung zu erfassen.
 
-![AutoEncoder Diagramm](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.de.jpg)
+![AutoEncoder Diagramm](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.de.jpg)
 
 > Bild von [Keras Blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 
