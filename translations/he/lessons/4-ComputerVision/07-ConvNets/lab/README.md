@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 נשתמש ב-[מאגר הנתונים של Oxford-IIIT Pet](https://www.robots.ox.ac.uk/~vgg/data/pets/), המכיל תמונות של 37 גזעים שונים של כלבים וחתולים.
 
-![מאגר הנתונים שבו נעסוק](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.he.png)
+![מאגר הנתונים שבו נעסוק](../../../../../../translated_images/data.50b2a9d5484bdbf0.he.png)
 
 כדי להוריד את מאגר הנתונים, השתמשו בקטע הקוד הבא:
 

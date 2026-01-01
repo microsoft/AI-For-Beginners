@@ -19,7 +19,7 @@ Ainsi, la couche d'embedding prendrait un mot en entrée et produirait un vecteu
 
 En utilisant une couche d'embedding comme première couche dans notre réseau de classification, nous pouvons passer d'un modèle bag-of-words à un modèle **embedding bag**, où nous convertissons d'abord chaque mot de notre texte en son embedding correspondant, puis calculons une fonction d'agrégation sur tous ces embeddings, comme `sum`, `average` ou `max`.
 
-![Image montrant un classificateur basé sur des embeddings pour une séquence de cinq mots.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.fr.png)
+![Image montrant un classificateur basé sur des embeddings pour une séquence de cinq mots.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.fr.png)
 
 > Image par l'auteur
 
@@ -40,7 +40,7 @@ Pour cela, nous devons préentraîner notre modèle d'embedding sur une grande c
 
 CBoW est plus rapide, tandis que skip-gram est plus lent, mais représente mieux les mots peu fréquents.
 
-![Image montrant les algorithmes CBoW et Skip-Gram pour convertir des mots en vecteurs.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.fr.png)
+![Image montrant les algorithmes CBoW et Skip-Gram pour convertir des mots en vecteurs.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.fr.png)
 
 > Image tirée de [cet article](https://arxiv.org/pdf/1301.3781.pdf)
 

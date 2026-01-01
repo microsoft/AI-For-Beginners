@@ -21,7 +21,7 @@ Vous devez entraîner un réseau neuronal convolutif pour classifier différente
 
 Nous utiliserons le [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), qui contient des images de 37 races différentes de chiens et de chats.
 
-![Dataset avec lequel nous travaillerons](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fr.png)
+![Dataset avec lequel nous travaillerons](../../../../../../translated_images/data.50b2a9d5484bdbf0.fr.png)
 
 Pour télécharger le dataset, utilisez ce fragment de code :
 

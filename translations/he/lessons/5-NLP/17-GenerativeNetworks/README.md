@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 זה מאפשר ארכיטקטורות עצביות שונות, כפי שמוצג בתמונה הבאה:
 
-![תמונה המציגה דפוסים נפוצים של רשתות עצביות חוזרות.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.he.jpg)
+![תמונה המציגה דפוסים נפוצים של רשתות עצביות חוזרות.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.he.jpg)
 
 > תמונה מתוך פוסט הבלוג [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) מאת [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 נאמן את ה-RNN הזה ליצירת טקסט שלב אחר שלב. בכל שלב, ניקח רצף של תווים באורך `nchars`, ונבקש מהרשת לייצר את התו הבא עבור כל תו קלט:
 
-![תמונה המציגה דוגמה ליצירת המילה 'HELLO' באמצעות RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.he.png)
+![תמונה המציגה דוגמה ליצירת המילה 'HELLO' באמצעות RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.he.png)
 
 בעת יצירת טקסט (בזמן הסקת מסקנות), נתחיל עם **הנחיה** כלשהי, שתועבר דרך תאי RNN כדי ליצור את מצב הביניים שלה, ואז מהמצב הזה מתחילה היצירה. ניצור תו אחד בכל פעם, ונעביר את המצב ואת התו שנוצר לתא RNN נוסף כדי ליצור את הבא, עד שניצור מספיק תווים.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ייצוג ידע ומערכות מומחה
 
-![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.he.png)
+![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6.he.png)
 
 > סקיצה מאת [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לכן, הבעיה של **ייצוג ידע** היא למצוא דרך יעילה לייצג ידע בתוך מחשב בצורה של נתונים, כדי להפוך אותו לשימושי באופן אוטומטי. ניתן לראות זאת כספקטרום:
 
-![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.he.png)
+![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217.he.png)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 אחד ההישגים הראשונים של AI סמלי היו מערכות מומחה - מערכות מחשב שנועדו לפעול כמומחה בתחום בעיה מוגבל. הן התבססו על **בסיס ידע** שהופק ממומחים אנושיים, וכללו **מנוע הסקה** שביצע הסקת מסקנות על בסיסו.
 
-![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.he.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.he.png)
+![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.he.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.he.png)
 ---------------------------------------------|------------------------------------------------
 מבנה מפושט של מערכת עצבית אנושית | ארכיטקטורה של מערכת מבוססת ידע
 
@@ -106,7 +106,7 @@ Block Syntax | Indent | | |
 
 לדוגמה, נבחן את מערכת המומחה הבאה לקביעת בעל חיים על בסיס מאפייניו הפיזיים:
 
-![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.he.png)
+![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.he.png)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 這使得不同的神經架構成為可能，如下圖所示：
 
-![展示常見循環神經網絡模式的圖片。](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.hk.jpg)
+![展示常見循環神經網絡模式的圖片。](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hk.jpg)
 
 > 圖片來自 [Andrej Karpaty](http://karpathy.github.io/) 的博客文章 [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們將訓練這個 RNN 逐步生成文本。在每一步中，我們將取一個長度為 `nchars` 的字符序列，並要求網絡為每個輸入字符生成下一個輸出字符：
 
-![展示 RNN 生成單詞 'HELLO' 的示例圖片。](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.hk.png)
+![展示 RNN 生成單詞 'HELLO' 的示例圖片。](../../../../../translated_images/rnn-generate.56c54afb52f9781d.hk.png)
 
 在生成文本（推理過程中）時，我們從某個**提示**開始，將其通過 RNN 單元生成中間狀態，然後從該狀態開始生成。我們一次生成一個字符，並將狀態和生成的字符傳遞給另一個 RNN 單元以生成下一個字符，直到生成足夠的字符。
 
