@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **কন্টিনিউয়াস ব্যাগ-অফ-ওয়ার্ডস** (CBoW), যেখানে আমরা একটি টোকেন সিকোয়েন্স $W_{-N}$, ..., $W_N$ এর মধ্যে $W_0$ টোকেন পূর্বানুমান করি।
 * **স্কিপ-গ্রাম**, যেখানে আমরা মধ্যবর্তী টোকেন $W_0$ থেকে পার্শ্ববর্তী টোকেনগুলোর সেট {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} পূর্বানুমান করি।
 
-![শব্দকে ভেক্টরে রূপান্তর করার পেপারের ছবি](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.bn.png)
+![শব্দকে ভেক্টরে রূপান্তর করার পেপারের ছবি](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.bn.png)
 
 > ছবি [এই পেপার](https://arxiv.org/pdf/1301.3781.pdf) থেকে
 
