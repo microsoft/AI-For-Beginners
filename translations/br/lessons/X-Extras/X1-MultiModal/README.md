@@ -15,7 +15,7 @@ Após o sucesso dos modelos transformers na resolução de tarefas de PLN, as me
 
 A ideia principal do CLIP é ser capaz de comparar descrições textuais com uma imagem e determinar o quão bem a imagem corresponde à descrição.
 
-![Arquitetura do CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.br.png)
+![Arquitetura do CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.br.png)
 
 > *Imagem retirada [deste post no blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Uma vez que este modelo é pré-treinado, podemos fornecer a ele um lote de imag
 
 Suponha que precisamos classificar imagens entre, por exemplo, gatos, cachorros e humanos. Nesse caso, podemos fornecer ao modelo uma imagem e uma série de descrições textuais: "*uma foto de um gato*", "*uma foto de um cachorro*", "*uma foto de um humano*". No vetor resultante de 3 probabilidades, basta selecionar o índice com o maior valor.
 
-![CLIP para Classificação de Imagens](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.br.png)
+![CLIP para Classificação de Imagens](../../../../../translated_images/clip-class.3af42ef0b2b19369.br.png)
 
 > *Imagem retirada [deste post no blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Saiba mais sobre o VQGAN no site [Taming Transformers](https://compvis.github.io
 
 Uma das diferenças importantes entre o VQGAN e um GAN tradicional é que o último pode produzir uma imagem decente a partir de qualquer vetor de entrada, enquanto o VQGAN provavelmente produzirá uma imagem incoerente. Assim, precisamos orientar ainda mais o processo de criação da imagem, e isso pode ser feito usando o CLIP.
 
-![Arquitetura VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.br.png)
+![Arquitetura VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.br.png)
 
 Para gerar uma imagem correspondente a uma descrição textual, começamos com algum vetor de codificação aleatório que é passado pelo VQGAN para produzir uma imagem. Em seguida, o CLIP é usado para produzir uma função de perda que mostra o quão bem a imagem corresponde à descrição textual. O objetivo, então, é minimizar essa perda, usando retropropagação para ajustar os parâmetros do vetor de entrada.
 
 Uma ótima biblioteca que implementa o VQGAN+CLIP é o [Pixray](http://github.com/pixray/pixray).
 
-![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.br.png) |  ![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.br.png) | ![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.br.png)
+![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.br.png) |  ![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.br.png) | ![Imagem gerada pelo Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.br.png)
 ----|----|----
 Imagem gerada a partir da descrição *um retrato em aquarela de um jovem professor de literatura com um livro* | Imagem gerada a partir da descrição *um retrato a óleo de uma jovem professora de ciência da computação com um computador* | Imagem gerada a partir da descrição *um retrato a óleo de um velho professor de matemática em frente a um quadro-negro*
 

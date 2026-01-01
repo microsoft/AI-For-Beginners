@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Naturlig Sprogbehandling
 
-![Oversigt over NLP-opgaver i en doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.da.png)
+![Oversigt over NLP-opgaver i en doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.da.png)
 
 I denne sektion vil vi fokusere på at bruge neurale netværk til at håndtere opgaver relateret til **naturlig sprogbehandling (NLP)**. Der er mange NLP-problemer, som vi ønsker, at computere skal kunne løse:
 

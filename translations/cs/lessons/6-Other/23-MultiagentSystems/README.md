@@ -70,7 +70,7 @@ Můžete otevřít jeden z modelů, například **Biology &rightarrow; Flocking*
 
 Po otevření modelu se dostanete na hlavní obrazovku NetLogo. Zde je ukázkový model, který popisuje populaci vlků a ovcí, vzhledem k omezeným zdrojům (tráva).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.cs.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.cs.png)
 
 > Screenshot od Dmitry Soshnikov
 
