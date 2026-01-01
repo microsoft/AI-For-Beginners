@@ -20,13 +20,13 @@ RNNを使用したシーケンス間変換は、2つのリカレントネット�
 
 **注意機構**は、RNNの各出力予測に対する各入力ベクトルの文脈的な影響を重み付けする手段を提供します。これを実現する方法は、入力RNNの中間状態と出力RNNの間にショートカットを作成することです。この方法では、出力記号y<sub>t</sub>を生成する際に、異なる重み係数&alpha;<sub>t,i</sub>を用いてすべての入力隠れ状態h<sub>i</sub>を考慮します。
 
-![エンコーダ/デコーダモデルと加法型注意層を示す画像](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.ja.png)
+![エンコーダ/デコーダモデルと加法型注意層を示す画像](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.ja.png)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)の加法型注意機構を持つエンコーダ-デコーダモデル。引用元：[このブログ記事](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 注意行列{&alpha;<sub>i,j</sub>}は、出力シーケンス内の特定の単語の生成において、入力単語がどの程度関与しているかを表します。以下はそのような行列の例です：
 
-![BahdanauによるRNNsearch-50のサンプルアラインメントを示す画像](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.ja.png)
+![BahdanauによるRNNsearch-50のサンプルアラインメントを示す画像](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.ja.png)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)からの図（Fig.3）
 
@@ -66,7 +66,7 @@ RNNを使用したシーケンス間変換は、2つのリカレントネット�
 
 次に、シーケンス内のパターンを捉える必要があります。これを行うために、トランスフォーマーは**自己注意**機構を使用します。これは入力と出力が同じシーケンスに対して適用される注意です。自己注意を適用することで、文内の**文脈**を考慮し、どの単語が相互に関連しているかを確認できます。例えば、*it*のような共参照が指す単語を確認したり、文脈を考慮することができます：
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.ja.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.ja.png)
 
 > [Googleのブログ](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)からの画像
 
@@ -91,7 +91,7 @@ RNNを使用したシーケンス間変換は、2つのリカレントネット�
 
 **BERT**（Bidirectional Encoder Representations from Transformers）は非常に大規模な多層トランスフォーマーネットワークで、*BERT-base*では12層、*BERT-large*では24層を持ちます。このモデルはまず、WikiPediaや書籍などの大規模なテキストデータコーパスで教師なし学習（文中のマスクされた単語を予測する）を使用して事前学習されます。事前学習中にモデルは言語理解の重要なレベルを吸収し、その後他のデータセットで微調整することで活用できます。このプロセスは**転移学習**と呼ばれます。
 
-![http://jalammar.github.io/illustrated-bert/からの画像](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.ja.png)
+![http://jalammar.github.io/illustrated-bert/からの画像](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.ja.png)
 
 > 画像の[出典](http://jalammar.github.io/illustrated-bert/)
 

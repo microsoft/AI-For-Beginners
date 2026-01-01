@@ -19,7 +19,7 @@ Tuttavia, potremmo voler utilizzare dati grezzi (non etichettati) per allenare g
 
 Poiché stiamo allenando un autoencoder per catturare quante più informazioni possibili dall'immagine originale per una ricostruzione accurata, la rete cerca di trovare il miglior **embedding** delle immagini di input per catturarne il significato.
 
-![Diagramma AutoEncoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.it.jpg)
+![Diagramma AutoEncoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.it.jpg)
 
 > Immagine dal [blog di Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

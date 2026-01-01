@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pemrosesan Bahasa Alami
 
-![Ringkasan tugas NLP dalam bentuk doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.id.png)
+![Ringkasan tugas NLP dalam bentuk doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.id.png)
 
 Di bagian ini, kita akan fokus pada penggunaan Jaringan Saraf untuk menangani tugas-tugas yang berkaitan dengan **Pemrosesan Bahasa Alami (Natural Language Processing/NLP)**. Ada banyak masalah NLP yang ingin kita selesaikan dengan bantuan komputer:
 

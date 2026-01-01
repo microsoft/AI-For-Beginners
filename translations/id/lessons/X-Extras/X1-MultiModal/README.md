@@ -15,7 +15,7 @@ Setelah keberhasilan model transformer dalam menyelesaikan tugas NLP, arsitektur
 
 Ide utama dari CLIP adalah untuk dapat membandingkan teks dengan gambar dan menentukan seberapa baik gambar tersebut sesuai dengan teks.
 
-![Arsitektur CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.id.png)
+![Arsitektur CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.id.png)
 
 > *Gambar dari [blog ini](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Setelah model ini dilatih sebelumnya, kita dapat memberikannya batch gambar dan 
 
 Misalkan kita perlu mengklasifikasikan gambar antara, misalnya, kucing, anjing, dan manusia. Dalam kasus ini, kita dapat memberikan model sebuah gambar, dan serangkaian teks: "*gambar seekor kucing*", "*gambar seekor anjing*", "*gambar seorang manusia*". Dalam vektor hasil dengan 3 probabilitas, kita hanya perlu memilih indeks dengan nilai tertinggi.
 
-![CLIP untuk Klasifikasi Gambar](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.id.png)
+![CLIP untuk Klasifikasi Gambar](../../../../../translated_images/clip-class.3af42ef0b2b19369.id.png)
 
 > *Gambar dari [blog ini](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Pelajari lebih lanjut tentang VQGAN di situs web [Taming Transformers](https://c
 
 Salah satu perbedaan penting antara VQGAN dan GAN tradisional adalah bahwa GAN tradisional dapat menghasilkan gambar yang cukup baik dari vektor input apa pun, sementara VQGAN cenderung menghasilkan gambar yang tidak koheren. Oleh karena itu, kita perlu membimbing lebih lanjut proses pembuatan gambar, dan itu dapat dilakukan menggunakan CLIP.
 
-![Arsitektur VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.id.png)
+![Arsitektur VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.id.png)
 
 Untuk menghasilkan gambar yang sesuai dengan teks, kita mulai dengan vektor encoding acak yang diteruskan melalui VQGAN untuk menghasilkan gambar. Kemudian CLIP digunakan untuk menghasilkan fungsi loss yang menunjukkan seberapa baik gambar sesuai dengan teks. Tujuannya adalah meminimalkan loss ini, menggunakan backpropagation untuk menyesuaikan parameter vektor input.
 
 Pustaka hebat yang mengimplementasikan VQGAN+CLIP adalah [Pixray](http://github.com/pixray/pixray).
 
-![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.id.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.id.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.id.png)
+![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.id.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.id.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.id.png)
 ----|----|----
 Gambar yang dihasilkan dari teks *a closeup watercolor portrait of young male teacher of literature with a book* | Gambar yang dihasilkan dari teks *a closeup oil portrait of young female teacher of computer science with a computer* | Gambar yang dihasilkan dari teks *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
