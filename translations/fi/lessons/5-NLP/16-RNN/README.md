@@ -15,7 +15,7 @@ Aiemmissa osioissa olemme käyttäneet tekstin semanttisia esityksiä ja yksinke
 
 Tekstijonon merkityksen vangitsemiseksi meidän on käytettävä toisenlaista neuronaaliverkkoarkkitehtuuria, jota kutsutaan **toistuvaksi neuronaaliverkoksi** eli RNN:ksi. RNN:ssä syötämme lauseen verkon läpi yksi symboli kerrallaan, ja verkko tuottaa jonkin **tilan**, jonka syötämme verkkoon uudelleen seuraavan symbolin kanssa.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.fi.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.fi.png)
 
 > Kuva: kirjoittaja
 
@@ -61,7 +61,7 @@ Olemme käsitelleet toistuvia verkkoja, jotka toimivat yhteen suuntaan, jaksosta
 
 Toistuva verkko, joko yksisuuntainen tai kaksisuuntainen, tunnistaa tiettyjä kuvioita jaksossa ja voi tallentaa ne tilavektoriin tai välittää ulostuloon. Kuten konvoluutiokerroksissa, voimme rakentaa toisen toistuvan kerroksen ensimmäisen päälle tunnistaaksemme korkeamman tason kuvioita ja rakentaaksemme matalan tason kuvioista, jotka ensimmäinen kerros on tunnistanut. Tämä johtaa käsitteeseen **monikerroksinen RNN**, joka koostuu kahdesta tai useammasta toistuvasta verkosta, joissa edellisen kerroksen ulostulo syötetään seuraavaan kerrokseen.
 
-![Kuva, joka esittää monikerroksisen pitkäkestoisen muistiyksikön RNN:n](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.fi.jpg)
+![Kuva, joka esittää monikerroksisen pitkäkestoisen muistiyksikön RNN:n](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.fi.jpg)
 
 *Kuva [tästä upeasta artikkelista](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) kirjoittanut Fernando López*
 

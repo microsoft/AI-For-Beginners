@@ -15,7 +15,7 @@ Eelnevates osades oleme kasutanud tekstide rikkalikke semantilisi esitusi ja lih
 
 Tekstijärjestuse tähenduse tabamiseks peame kasutama teistsugust neuraalvõrgu arhitektuuri, mida nimetatakse **korduvaks neuraalvõrguks** ehk RNN-iks. RNN-is edastame oma lause läbi võrgu ühe sümboli kaupa, ja võrk genereerib mingi **oleku**, mille edastame võrku uuesti koos järgmise sümboliga.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.et.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.et.png)
 
 > Pilt autori poolt
 
@@ -31,7 +31,7 @@ Vaatame, kuidas lihtne RNN-rakk on üles ehitatud. See võtab sisendiks eelneva 
 
 Lihtsal RNN-rakul on kaks kaalusid sisaldavat maatriksit: üks teisendab sisendsümbolit (nimetame seda W-ks) ja teine teisendab sisendolekut (H). Sellisel juhul arvutatakse võrgu väljund valemiga &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), kus &sigma; on aktivatsioonifunktsioon ja b on täiendav nihe.
 
-<img alt="RNN-raku anatoomia" src="../../../../../translated_images/rnn-anatomy.79ee3f3920b3294bd52e9543ef36102dbca3cecf6d4d78d8c63bf0bbc95fdc90.et.png" width="50%"/>
+<img alt="RNN-raku anatoomia" src="../../../../../translated_images/rnn-anatomy.79ee3f3920b3294b.et.png" width="50%"/>
 
 > Pilt autori poolt
 
@@ -61,7 +61,7 @@ Oleme arutanud korduvaid võrke, mis töötavad ühes suunas, järjestuse alguse
 
 Korduv võrk, olgu see ühesuunaline või kahepoolne, tabab teatud mustreid järjestuses ja suudab neid salvestada olekuvektorisse või edastada väljundisse. Nagu konvolutsioonivõrkude puhul, saame ehitada teise korduva kihi esimese peale, et tabada kõrgema taseme mustreid ja ehitada madalama taseme mustritest, mida esimene kiht eraldas. See viib meid **mitmekihilise RNN-i** mõisteni, mis koosneb kahest või enamast korduvast võrgust, kus eelmise kihi väljund edastatakse järgmisele kihile sisendiks.
 
-![Pilt, mis näitab mitmekihilist pikaajalise lühimälu RNN-i](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.et.jpg)
+![Pilt, mis näitab mitmekihilist pikaajalise lühimälu RNN-i](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.et.jpg)
 
 *Pilt [sellest suurepärasest postitusest](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) autorilt Fernando López*
 

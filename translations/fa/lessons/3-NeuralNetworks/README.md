@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مقدمه‌ای بر شبکه‌های عصبی
 
-![خلاصه‌ای از محتوای مقدمه شبکه‌های عصبی در یک طرح](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.fa.png)
+![خلاصه‌ای از محتوای مقدمه شبکه‌های عصبی در یک طرح](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.fa.png)
 
 همان‌طور که در مقدمه بحث کردیم، یکی از راه‌های دستیابی به هوش، آموزش یک **مدل کامپیوتری** یا یک **مغز مصنوعی** است. از اواسط قرن بیستم، پژوهشگران مدل‌های ریاضی مختلفی را امتحان کردند تا اینکه در سال‌های اخیر این مسیر به موفقیت چشمگیری دست یافت. این مدل‌های ریاضی مغز را **شبکه‌های عصبی** می‌نامند.
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 از زیست‌شناسی می‌دانیم که مغز ما از سلول‌های عصبی (نورون‌ها) تشکیل شده است، که هر کدام دارای چندین "ورودی" (دندریت‌ها) و یک "خروجی" (آکسون) هستند. هم دندریت‌ها و هم آکسون‌ها می‌توانند سیگنال‌های الکتریکی را منتقل کنند، و اتصالات بین آن‌ها — که به عنوان سیناپس شناخته می‌شوند — می‌توانند درجات مختلفی از رسانایی را نشان دهند که توسط انتقال‌دهنده‌های عصبی تنظیم می‌شوند.
 
-![مدل یک نورون](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.fa.jpg) | ![مدل یک نورون](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.fa.png)
+![مدل یک نورون](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.fa.jpg) | ![مدل یک نورون](../../../../translated_images/artneuron.1a5daa88d20ebe6f.fa.png)
 ----|----
 نورون واقعی *([تصویر](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) از ویکی‌پدیا)* | نورون مصنوعی *(تصویر توسط نویسنده)*
 
 بنابراین، ساده‌ترین مدل ریاضی یک نورون شامل چندین ورودی X<sub>1</sub>, ..., X<sub>N</sub> و یک خروجی Y، و مجموعه‌ای از وزن‌ها W<sub>1</sub>, ..., W<sub>N</sub> است. خروجی به صورت زیر محاسبه می‌شود:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.fa.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.fa.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 که در آن f یک **تابع فعال‌سازی** غیرخطی است.
 

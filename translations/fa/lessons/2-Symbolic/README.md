@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # نمایش دانش و سیستم‌های خبره
 
-![خلاصه‌ای از محتوای هوش مصنوعی نمادین](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.fa.png)
+![خلاصه‌ای از محتوای هوش مصنوعی نمادین](../../../../translated_images/ai-symbolic.715a30cb610411a6.fa.png)
 
 > یادداشت تصویری توسط [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 بنابراین، مسئله **نمایش دانش** یافتن راهی مؤثر برای نمایش دانش در داخل یک کامپیوتر به شکل داده است، به طوری که بتوان از آن به صورت خودکار استفاده کرد. این مسئله را می‌توان به صورت یک طیف مشاهده کرد:
 
-![طیف نمایش دانش](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.fa.png)
+![طیف نمایش دانش](../../../../translated_images/knowledge-spectrum.b60df631852c0217.fa.png)
 
 > تصویر توسط [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 یکی از موفقیت‌های اولیه هوش مصنوعی نمادین، **سیستم‌های خبره** بود - سیستم‌های کامپیوتری که طراحی شده بودند تا به عنوان یک متخصص در یک حوزه محدود عمل کنند. این سیستم‌ها بر اساس یک **پایگاه دانش** استخراج شده از یک یا چند متخصص انسانی بودند و شامل یک **موتور استنتاج** بودند که بر اساس آن استدلال انجام می‌داد.
 
-![معماری انسان](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.fa.png) | ![سیستم مبتنی بر دانش](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.fa.png)  
+![معماری انسان](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.fa.png) | ![سیستم مبتنی بر دانش](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.fa.png)  
 ---------------------------------------------|------------------------------------------------  
 ساختار ساده‌شده سیستم عصبی انسان | معماری یک سیستم مبتنی بر دانش  
 
@@ -106,7 +106,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 به عنوان مثال، بیایید سیستم خبره‌ای را در نظر بگیریم که بر اساس ویژگی‌های فیزیکی یک حیوان را تعیین می‌کند:
 
-![درخت AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.fa.png)
+![درخت AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.fa.png)
 
 > تصویر توسط [Dmitry Soshnikov](http://soshnikov.com)
 

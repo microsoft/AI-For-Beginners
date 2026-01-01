@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **کیسه کلمات پیوسته** (CBoW)، که در آن توکن میانی $W_0$ را در یک دنباله توکن $W_{-N}$, ..., $W_N$ پیش‌بینی می‌کنیم.
 * **Skip-gram**، که در آن مجموعه‌ای از توکن‌های همسایه {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} را از توکن میانی $W_0$ پیش‌بینی می‌کنیم.
 
-![تصویر از مقاله‌ای درباره تبدیل کلمات به بردارها](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.fa.png)
+![تصویر از مقاله‌ای درباره تبدیل کلمات به بردارها](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.fa.png)
 
 > تصویر از [این مقاله](https://arxiv.org/pdf/1301.3781.pdf)
 

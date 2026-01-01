@@ -13,7 +13,7 @@ Kuvien luokittelumallit, joita olemme tähän mennessä käsitelleet, ottavat ku
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objektien tunnistus](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.fi.png)
+![Objektien tunnistus](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.fi.png)
 
 > Kuva [YOLO v2 -verkkosivustolta](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Oletetaan, että haluaisimme löytää kissan kuvasta. Hyvin yksinkertainen läh
 2. Suorita kuvien luokittelu jokaiselle ruudulle.
 3. Ruudut, jotka tuottavat riittävän korkean aktivoinnin, voidaan katsoa sisältävän kyseisen objektin.
 
-![Naiivi objektien tunnistus](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.fi.png)
+![Naiivi objektien tunnistus](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.fi.png)
 
 > *Kuva [harjoitusmuistiosta](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Tässä tehtävässä saatat törmätä seuraaviin tietoaineistoihin:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 luokkaa
 * [COCO](http://cocodataset.org/#home) – Common Objects in Context. 80 luokkaa, rajauslaatikot ja segmentointimaskit
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.fi.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.fi.jpg)
 
 ## Objektien tunnistuksen mittarit
 
@@ -50,7 +50,7 @@ Tässä tehtävässä saatat törmätä seuraaviin tietoaineistoihin:
 
 Kuvien luokittelussa algoritmin suorituskyvyn mittaaminen on helppoa, mutta objektien tunnistuksessa meidän täytyy mitata sekä luokan oikeellisuus että ennustetun rajauslaatikon sijainnin tarkkuus. Jälkimmäistä varten käytämme niin kutsuttua **Intersection over Union** (IoU) -mittaria, joka mittaa, kuinka hyvin kaksi laatikkoa (tai kaksi satunnaista aluetta) menevät päällekkäin.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.fi.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.fi.png)
 
 > *Kuva 2 [tästä erinomaisesta IoU-blogikirjoituksesta](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Objektien tunnistusalgoritmit voidaan jakaa kahteen pääluokkaan:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) käyttää [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) -menetelmää luomaan hierarkkisen rakenteen ROI-alueista, jotka sitten syötetään CNN-ominaisuuksien erottimiin ja SVM-luokittelijoihin objektin luokan määrittämiseksi, sekä lineaariseen regressioon *rajauslaatikon* koordinaattien määrittämiseksi. [Virallinen artikkeli](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.fi.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.fi.png)
 
 > *Kuva van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.fi.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.fi.png)
 
 > *Kuvat [tästä blogista](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Objektien tunnistusalgoritmit voidaan jakaa kahteen pääluokkaan:
 
 Tämä lähestymistapa on samanlainen kuin R-CNN, mutta alueet määritellään vasta konvoluutiokerrosten soveltamisen jälkeen.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.fi.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.fi.png)
 
 > Kuva [virallisesta artikkelista](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Tämä lähestymistapa on samanlainen kuin R-CNN, mutta alueet määritellään 
 
 Tämän lähestymistavan pääidea on käyttää neuroverkkoa ennustamaan ROI:t – niin kutsuttu *Region Proposal Network*. [Artikkeli](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.fi.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.fi.png)
 
 > Kuva [virallisesta artikkelista](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Tämä algoritmi on jopa nopeampi kuin Faster R-CNN. Pääidea on seuraava:
 2. Ominaisuudet käsitellään **Position-Sensitive Score Map** -kartalla. Jokainen objekti luokasta $C$ jaetaan $k\times k$ alueisiin, ja verkkoa koulutetaan ennustamaan objektien osia.
 3. Jokaiselle osalle $k\times k$ alueista kaikki verkot äänestävät objektin luokista, ja eniten ääniä saanut luokka valitaan.
 
-![r-fcn kuva](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.fi.png)
+![r-fcn kuva](../../../../../translated_images/r-fcn.13eb88158b99a3da.fi.png)
 
 > Kuva [virallisesta artikkelista](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO on reaaliaikainen yhden passin algoritmi. Pääidea on seuraava:
  * Kuva jaetaan $S\times S$ alueisiin.
  * Jokaiselle alueelle **CNN** ennustaa $n$ mahdollista objektia, *rajauslaatikon* koordinaatit ja *luottamus*=*todennäköisyys* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.fi.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.fi.png)
 
 > Kuva [virallisesta artikkelista](https://arxiv.org/abs/1506.02640)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Loodusliku keele töötlemine
 
-![NLP ülesannete kokkuvõte visandis](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.et.png)
+![NLP ülesannete kokkuvõte visandis](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.et.png)
 
 Selles osas keskendume **loodusliku keele töötlemise (NLP)** ülesannete lahendamisele, kasutades tehisnärvivõrke. On palju NLP probleeme, mida soovime, et arvutid suudaksid lahendada:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction à l'IA
 
-![Résumé du contenu de l'introduction à l'IA sous forme de dessin](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.fr.png)
+![Résumé du contenu de l'introduction à l'IA sous forme de dessin](../../../../translated_images/ai-intro.bf28d1ac4235881c.fr.png)
 
 > Sketchnote par [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 À l'origine, les ordinateurs ont été inventés par [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) pour manipuler des nombres en suivant une procédure bien définie - un algorithme. Les ordinateurs modernes, bien qu'extrêmement plus avancés que le modèle initial proposé au XIXe siècle, suivent toujours le même principe de calculs contrôlés. Ainsi, il est possible de programmer un ordinateur pour accomplir une tâche si nous connaissons la séquence exacte d'étapes nécessaires pour atteindre l'objectif.
 
-![Photo d'une personne](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.fr.png)
+![Photo d'une personne](../../../../translated_images/dsh_age.d212a30d4e54fb5f.fr.png)
 
 > Photo par [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Pour plus d'informations, consultez **[Intelligence Artificielle Générale](htt
 
 L'un des problèmes liés au terme **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** est qu'il n'existe pas de définition claire de ce terme. On peut soutenir que l'intelligence est liée à la **pensée abstraite** ou à la **conscience de soi**, mais nous ne pouvons pas la définir correctement.
 
-![Photo d'un chat](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.fr.jpg)
+![Photo d'un chat](../../../../translated_images/photo-cat.8c8e8fb760ffe457.fr.jpg)
 
 > [Photo](https://unsplash.com/photos/75715CVEJhI) par [Amber Kipp](https://unsplash.com/@sadmax) sur Unsplash
 
@@ -98,13 +98,13 @@ Alternativement, nous pouvons essayer de modéliser les éléments les plus simp
 
 > | Et le ML ?         |      |
 > |--------------|-----------|
-> | Une partie de l'intelligence artificielle basée sur l'apprentissage par ordinateur pour résoudre un problème à partir de données est appelée **Machine Learning**. Nous n'aborderons pas l'apprentissage automatique classique dans ce cours - nous vous renvoyons à un programme séparé [Machine Learning pour débutants](http://aka.ms/ml-beginners). |   ![ML pour débutants](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.fr.png)    |
+> | Une partie de l'intelligence artificielle basée sur l'apprentissage par ordinateur pour résoudre un problème à partir de données est appelée **Machine Learning**. Nous n'aborderons pas l'apprentissage automatique classique dans ce cours - nous vous renvoyons à un programme séparé [Machine Learning pour débutants](http://aka.ms/ml-beginners). |   ![ML pour débutants](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.fr.png)    |
 
 ## Un bref historique de l'IA
 
 L'intelligence artificielle a été lancée en tant que domaine au milieu du XXe siècle. Initialement, le raisonnement symbolique était l'approche dominante, et cela a conduit à un certain nombre de succès importants, tels que les systèmes experts – des programmes informatiques capables d'agir comme un expert dans certains domaines problématiques limités. Cependant, il est vite devenu évident que cette approche ne s'adapte pas bien. Extraire les connaissances d'un expert, les représenter dans un ordinateur et maintenir cette base de connaissances précise s'avère être une tâche très complexe et trop coûteuse pour être pratique dans de nombreux cas. Cela a conduit à ce qu'on appelle l'[hiver de l'IA](https://en.wikipedia.org/wiki/AI_winter) dans les années 1970.
 
-<img alt="Bref historique de l'IA" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.fr.png" width="70%"/>
+<img alt="Bref historique de l'IA" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.fr.png" width="70%"/>
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ De même, nous pouvons voir comment l'approche pour créer des "programmes parla
 * Les assistants modernes, tels que Cortana, Siri ou Google Assistant, sont tous des systèmes hybrides qui utilisent des réseaux neuronaux pour convertir la parole en texte et reconnaître notre intention, puis emploient un raisonnement ou des algorithmes explicites pour effectuer les actions requises.
 * À l'avenir, nous pouvons nous attendre à un modèle entièrement basé sur les réseaux neuronaux pour gérer le dialogue par lui-même. Les récents réseaux neuronaux de la famille GPT et [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) montrent de grands succès dans ce domaine.
 
-<img alt="l'évolution du test de Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.fr.png" width="70%"/>
+<img alt="l'évolution du test de Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.fr.png" width="70%"/>
 > Image par Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) par [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recherche récente en IA
