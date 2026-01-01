@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Predstavljanje znanja i ekspertni sustavi
 
-![Sažetak sadržaja o simboličkoj umjetnoj inteligenciji](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.hr.png)
+![Sažetak sadržaja o simboličkoj umjetnoj inteligenciji](../../../../translated_images/ai-symbolic.715a30cb610411a6.hr.png)
 
 > Sketchnote autorice [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Najčešće ne definiramo strogo znanje, već ga povezujemo s drugim srodnim poj
 
 Dakle, problem **predstavljanja znanja** je pronaći učinkovit način za predstavljanje znanja unutar računala u obliku podataka kako bi se ono moglo automatski koristiti. To se može promatrati kao spektar:
 
-![Spektar predstavljanja znanja](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.hr.png)
+![Spektar predstavljanja znanja](../../../../translated_images/knowledge-spectrum.b60df631852c0217.hr.png)
 
 > Slika autora [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaksa bloka | Uvlačenje | | |
 
 Jedan od ranih uspjeha simboličke umjetne inteligencije bili su tzv. **ekspertni sustavi** - računalni sustavi dizajnirani da djeluju kao stručnjaci u nekom ograničenom problematičnom području. Temeljili su se na **bazi znanja** izvučenoj od jednog ili više ljudskih stručnjaka i sadržavali su **mehanizam zaključivanja** koji je provodio zaključivanje na temelju te baze.
 
-![Ljudska arhitektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.hr.png) | ![Arhitektura sustava temeljenog na znanju](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.hr.png)
+![Ljudska arhitektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.hr.png) | ![Arhitektura sustava temeljenog na znanju](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.hr.png)
 ---------------------------------------------|------------------------------------------------
 Pojednostavljena struktura ljudskog živčanog sustava | Arhitektura sustava temeljenog na znanju
 
@@ -106,7 +106,7 @@ Ekspertni sustavi izgrađeni su poput ljudskog sustava zaključivanja, koji sadr
 
 Kao primjer, razmotrimo sljedeći ekspertni sustav za određivanje životinje na temelju njezinih fizičkih karakteristika:
 
-![AND-OR stablo](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.hr.png)
+![AND-OR stablo](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.hr.png)
 
 > Slika autora [Dmitry Soshnikov](http://soshnikov.com)
 

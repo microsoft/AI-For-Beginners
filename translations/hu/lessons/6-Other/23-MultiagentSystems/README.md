@@ -70,7 +70,7 @@ Megnyithatsz egy modellt, például **Biology &rightarrow; Flocking**.
 
 A modell megnyitása után a NetLogo fő képernyőjére kerülsz. Itt egy minta modell látható, amely a farkasok és juhok populációját írja le véges erőforrások (fű) mellett.
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.hu.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.hu.png)
 
 > Dmitry Soshnikov által készített képernyőkép
 

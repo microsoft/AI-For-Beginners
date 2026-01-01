@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés a mesterséges intelligenciába
 
-![A mesterséges intelligencia bevezetésének összefoglalása egy rajzban](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.hu.png)
+![A mesterséges intelligencia bevezetésének összefoglalása egy rajzban](../../../../translated_images/ai-intro.bf28d1ac4235881c.hu.png)
 
 > Rajz: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Eredetileg a számítógépeket [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) találta fel, hogy számokkal dolgozzanak egy jól meghatározott eljárás – algoritmus – alapján. A modern számítógépek, bár jelentősen fejlettebbek, mint a 19. században javasolt eredeti modell, még mindig ugyanazt az irányított számítási elvet követik. Ezért lehetséges egy számítógépet programozni, hogy valamit elvégezzen, ha pontosan ismerjük a cél eléréséhez szükséges lépések sorrendjét.
 
-![Egy személy fotója](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.hu.png)
+![Egy személy fotója](../../../../translated_images/dsh_age.d212a30d4e54fb5f.hu.png)
 
 > Fotó: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ További információért lásd **[Mesterséges általános intelligencia](https
 
 Az egyik probléma az **[intelligencia](https://en.wikipedia.org/wiki/Intelligence)** kifejezéssel kapcsolatban az, hogy nincs egyértelmű definíciója. Egyesek szerint az intelligencia kapcsolódik az **absztrakt gondolkodáshoz**, vagy az **önismerethez**, de nem tudjuk megfelelően meghatározni.
 
-![Macska fotója](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.hu.jpg)
+![Macska fotója](../../../../translated_images/photo-cat.8c8e8fb760ffe457.hu.jpg)
 
 > [Fotó](https://unsplash.com/photos/75715CVEJhI) készítette [Amber Kipp](https://unsplash.com/@sadmax) az Unsplash-en
 
@@ -98,13 +98,13 @@ Alternatívaként megpróbálhatjuk modellezni az agyunk legegyszerűbb elemeit 
 
 > | Mi a helyzet az ML-lel?         |      |
 > |--------------|-----------|
-> | A mesterséges intelligencia azon része, amely a számítógép tanulásán alapul, hogy egy problémát megoldjon bizonyos adatok alapján, **gépi tanulásnak** nevezzük. Ebben a kurzusban nem foglalkozunk a klasszikus gépi tanulással – erre külön [Gépi tanulás kezdőknek](http://aka.ms/ml-beginners) tananyagot ajánlunk. |   ![ML kezdőknek](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.hu.png)    |
+> | A mesterséges intelligencia azon része, amely a számítógép tanulásán alapul, hogy egy problémát megoldjon bizonyos adatok alapján, **gépi tanulásnak** nevezzük. Ebben a kurzusban nem foglalkozunk a klasszikus gépi tanulással – erre külön [Gépi tanulás kezdőknek](http://aka.ms/ml-beginners) tananyagot ajánlunk. |   ![ML kezdőknek](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.hu.png)    |
 
 ## A mesterséges intelligencia rövid története
 
 A mesterséges intelligencia mint terület a huszadik század közepén indult. Kezdetben a szimbolikus érvelés volt az uralkodó megközelítés, és számos fontos sikert eredményezett, például szakértői rendszereket – számítógépes programokat, amelyek képesek voltak szakértőként működni bizonyos korlátozott problématerületeken. Azonban hamar világossá vált, hogy ez a megközelítés nem skálázható jól. A tudás kinyerése egy szakértőtől, annak számítógépes ábrázolása és a tudásbázis pontosan tartása rendkívül összetett feladatnak bizonyult, és sok esetben túl drága volt ahhoz, hogy gyakorlati legyen. Ez az úgynevezett [MI télhez](https://en.wikipedia.org/wiki/AI_winter) vezetett az 1970-es években.
 
-<img alt="A mesterséges intelligencia rövid története" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.hu.png" width="70%"/>
+<img alt="A mesterséges intelligencia rövid története" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.hu.png" width="70%"/>
 
 > Kép: [Dmitry Soshnikov](http://soshnikov.com)
 

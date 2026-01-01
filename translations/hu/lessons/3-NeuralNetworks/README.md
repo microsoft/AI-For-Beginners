@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés a neurális hálózatokba
 
-![Összefoglaló a neurális hálózatok bevezetőjének tartalmáról egy rajzban](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.hu.png)
+![Összefoglaló a neurális hálózatok bevezetőjének tartalmáról egy rajzban](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.hu.png)
 
 Ahogy a bevezetőben tárgyaltuk, az intelligencia egyik elérési módja egy **számítógépes modell** vagy egy **mesterséges agy** tanítása. A 20. század közepe óta a kutatók különböző matematikai modelleket próbáltak ki, míg az utóbbi években ez az irány rendkívül sikeresnek bizonyult. Az agy ilyen matematikai modelljeit **neurális hálózatoknak** nevezzük.
 
@@ -36,13 +36,13 @@ Ebben a tananyagban kizárólag neurális hálózati modellekre fogunk összpont
 
 A biológiából tudjuk, hogy az agyunk neurális sejtekből (neuronokból) áll, amelyek mindegyike több "bemenettel" (dendritek) és egyetlen "kimenettel" (axon) rendelkezik. Mind a dendritek, mind az axonok képesek elektromos jeleket vezetni, és a köztük lévő kapcsolatok — szinapszisok — különböző vezetőképességet mutathatnak, amelyeket neurotranszmitterek szabályoznak.
 
-![Neuron modellje](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.hu.jpg) | ![Neuron modellje](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.hu.png)
+![Neuron modellje](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.hu.jpg) | ![Neuron modellje](../../../../translated_images/artneuron.1a5daa88d20ebe6f.hu.png)
 ----|----
 Valódi neuron *([Kép](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) a Wikipédiáról)* | Mesterséges neuron *(Kép a szerzőtől)*
 
 Így a neuron legegyszerűbb matematikai modellje több bemenetet tartalmaz X<sub>1</sub>, ..., X<sub>N</sub>, egy kimenetet Y, valamint egy sor súlyt W<sub>1</sub>, ..., W<sub>N</sub>. A kimenet a következőképpen számítható:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.hu.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.hu.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 ahol f egy nemlineáris **aktivációs függvény**.
 

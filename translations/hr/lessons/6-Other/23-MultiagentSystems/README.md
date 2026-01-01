@@ -70,7 +70,7 @@ Možete otvoriti jedan od modela, na primjer **Biology &rightarrow; Flocking**.
 
 Nakon otvaranja modela, dolazite na glavni ekran NetLoga. Evo uzorka modela koji opisuje populaciju vukova i ovaca, s obzirom na ograničene resurse (trava).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.hr.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.hr.png)
 
 > Snimka zaslona Dmitryja Soshnikova
 
