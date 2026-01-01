@@ -17,14 +17,14 @@ For real life, we go wan sabi recognize objects for picture no matter where dem 
 
 To fit extract patterns, we go use di idea of **convolutional filters**. As you sabi, image na 2D-matrix, or 3D-tensor wey get color depth. To apply filter mean say we go carry small **filter kernel** matrix, and for each pixel for di original image, we go calculate di weighted average with di points wey dey near am. We fit see am like small window wey dey slide for di whole image, dey average all di pixels based on di weights for di filter kernel matrix.
 
-![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.pcm.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.pcm.png)
+![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356.pcm.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.pcm.png)
 ----|----
 
 > Image by Dmitry Soshnikov
 
 Example, if we apply 3x3 vertical edge and horizontal edge filters to MNIST digits, we fit highlight (like high values) where vertical and horizontal edges dey for di original image. So, di two filters fit dey use to "find" edges. Di same way, we fit design different filters to find other low-level patterns:
 
-<img src="../../../../../translated_images/lmfilters.ea9e4868a82cf74cdca05121b1128f0122297cf2879501cd06956beb88ff96a2.pcm.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/lmfilters.ea9e4868a82cf74c.pcm.jpg" width="500" align="center"/>
 
 > Image of [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 
@@ -38,7 +38,7 @@ Di way CNNs dey work na based on di following important ideas:
 * We fit design di network make e train di filters by itself
 * We fit use di same method to find patterns for high-level features, no be only for di original image. So CNN feature extraction dey work for hierarchy of features, from low-level pixel combinations, reach higher level combination of picture parts.
 
-![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.pcm.png)
+![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.pcm.png)
 
 > Image from [a paper by Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), based on [their research](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Most CNNs wey dem dey use for image processing dey follow wetin dem dey call pyr
 
 Example, make we look di architecture of VGG-16, one network wey achieve 92.7% accuracy for ImageNet's top-5 classification for 2014:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.pcm.jpg)
+![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.pcm.jpg)
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.pcm.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.pcm.jpg)
 
 > Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

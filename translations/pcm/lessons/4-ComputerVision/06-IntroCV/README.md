@@ -73,14 +73,14 @@ For our [OpenCV Notebook](OpenCV.ipynb), we show some examples of how computer v
 
 * **Pre-processing photograph of Braille book**. We dey focus on how we fit use thresholding, feature detection, perspective transformation and NumPy manipulations to separate Braille symbols for classification by neural network.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.pcm.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.pcm.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.pcm.png)
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.pcm.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.pcm.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.pcm.png)
 ----|-----|-----
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detecting motion for video using frame difference**. If camera no dey move, di frames from di camera feed suppose dey similar. Since frames dey as arrays, if you subtract di arrays for two frames wey follow each other, you go get di pixel difference, wey suppose dey small for static frames, and go big if motion dey for di image.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.pcm.png)
+![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.pcm.png)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ For our [OpenCV Notebook](OpenCV.ipynb), we show some examples of how computer v
    - **Dense Optical Flow** dey calculate vector field wey show where each pixel dey move go.
    - **Sparse Optical Flow** dey use some special features for di image (like edges), and e dey build their movement from frame to frame.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.pcm.png)
+![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.pcm.png)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -115,7 +115,7 @@ Read more about optical flow [for dis better tutorial](https://learnopencv.com/o
 
 For dis lab, you go take video wey get simple gestures, and your work na to find up/down/left/right movements using optical flow.
 
-<img src="../../../../../translated_images/palm-movement.341495f0e9c47da39cc1f99626822a1d20203aa33ff89a86a068f14bea133e84.pcm.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/palm-movement.341495f0e9c47da3.pcm.png" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

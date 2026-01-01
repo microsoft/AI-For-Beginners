@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Knowledge Representation and Expert Systems
 
-![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.pcm.png)
+![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6.pcm.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -35,13 +35,13 @@ Most times, we no dey define knowledge strictly, but we dey align am with other 
 * **Knowledge** na di information wey don enter our world model. For example, once we sabi wetin computer be, we go start get idea of how e dey work, how much e go cost, and wetin we fit use am do. Dis network of connected ideas na di knowledge wey we get.
 * **Wisdom** na di next level of how we sabi di world, e dey represent *meta-knowledge*, like how and when we suppose use di knowledge.
 
-<img src="../../../../translated_images/DIKW_Pyramid.94126f7d2bd8db5be71c6f1658b94bd3c85342e3cb827913b556b0414d358340.pcm.png" width="30%"/>
+<img src="../../../../translated_images/DIKW_Pyramid.94126f7d2bd8db5b.pcm.png" width="30%"/>
 
 *Image [from Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), By Longlivetheux - Own work, CC BY-SA 4.0*
 
 So, di problem of **knowledge representation** na to find better way to represent knowledge inside computer as data, so e go fit dey useful automatically. We fit see am as spectrum:
 
-![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.pcm.png)
+![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217.pcm.png)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 One of di early success of symbolic AI na di **expert systems** - computer systems wey dem design to act like expert for some small problem area. Dem dey base on **knowledge base** wey dem collect from one or more human experts, and dem get **inference engine** wey dey perform reasoning on top.
 
-![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.pcm.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.pcm.png)
+![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.pcm.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.pcm.png)
 ---------------------------------------------|------------------------------------------------
 Simplified structure of a human neural system | Architecture of a knowledge-based system
 
@@ -106,7 +106,7 @@ Expert systems dey build like human reasoning system, wey get **short-term memor
 
 Example, make we look di expert system wey dey determine animal based on di physical characteristics:
 
-![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.pcm.png)
+![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.pcm.png)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -175,7 +175,7 @@ One main idea for Semantic Web na di idea of **Ontology**. E mean say you go fit
 
 For Semantic Web, all di representation na based on triplets. Each object and each relation get im own unique URI. For example, if we wan talk say na Dmitry Soshnikov develop dis AI Curriculum on Jan 1st, 2022 - na di triplets we fit use be dis:
 
-<img src="../../../../translated_images/triplet.4b9b332587593298b31846eb5cf341d8f7e48da76e6692dbb7cf0fcf2fd5ab38.pcm.png" width="30%"/>
+<img src="../../../../translated_images/triplet.4b9b332587593298.pcm.png" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
@@ -186,7 +186,7 @@ http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/cre
 
 If di case complex pass dis one, and we wan define list of creators, we fit use some data structures wey RDF define.
 
-<img src="../../../../translated_images/triplet-complex.32094972c7b4441b844bd85e683ba8eedc08af12177160f11584452698f29ace.pcm.png" width="40%"/>
+<img src="../../../../translated_images/triplet-complex.32094972c7b4441b.pcm.png" width="40%"/>
 
 > Diagrams wey dey above na by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -210,7 +210,7 @@ GROUP BY ?eyeColorLabel
 
 > ✅ If you wan try build your own ontologies, or open di ones wey don already dey, one better visual ontology editor dey wey dem dey call [Protégé](https://protege.stanford.edu/). You fit download am, or use am online.
 
-<img src="../../../../translated_images/protege.274177ceeac13b38094bc425073776bb0d2525620ad6261b9d9760ebd2a8e322.pcm.png" width="70%"/>
+<img src="../../../../translated_images/protege.274177ceeac13b38.pcm.png" width="70%"/>
 
 *Web Protégé editor dey open with di Romanov Family ontology. Screenshot by Dmitry Soshnikov*
 
