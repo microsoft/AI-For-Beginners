@@ -169,7 +169,7 @@ In the semantic web, all representations are based on triplets. Each object and 
 <img src="images/triplet.png" width="30%"/>
 
 ```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
+http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
