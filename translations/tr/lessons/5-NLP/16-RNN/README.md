@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Metin dizisinin anlamını yakalamak için, **tekrarlayan sinir ağı** veya RNN adı verilen başka bir sinir ağı mimarisi kullanmamız gerekir. RNN'de, cümlemizi ağdan bir sembol biriminde geçiririz ve ağ bir **durum** üretir, bu durumu bir sonraki sembolle birlikte tekrar ağa geçiririz.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.tr.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.tr.png)
 
 > Görsel yazar tarafından oluşturulmuştur
 
@@ -61,7 +61,7 @@ Durum C'nin bileşenleri, açılıp kapatılabilen bayraklar olarak düşünüle
 
 Tek yönlü veya çift yönlü bir tekrarlayan ağ, bir dizideki belirli kalıpları yakalar ve bunları bir durum vektörüne depolayabilir veya çıktıya aktarabilir. Konvolüsyonel ağlarda olduğu gibi, ilk katman tarafından çıkarılan düşük seviyeli kalıplardan daha yüksek seviyeli kalıpları yakalamak ve inşa etmek için ilk katmanın üzerine başka bir tekrarlayan katman inşa edebiliriz. Bu bizi, önceki katmanın çıktısının bir sonraki katmana giriş olarak geçtiği iki veya daha fazla tekrarlayan ağdan oluşan bir **çok katmanlı RNN** kavramına götürür.
 
-![Çok katmanlı uzun kısa süreli bellek RNN'yi gösteren görsel](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.tr.jpg)
+![Çok katmanlı uzun kısa süreli bellek RNN'yi gösteren görsel](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.tr.jpg)
 
 *[Bu harika yazıdan](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) Fernando López tarafından alınmıştır.*
 

@@ -19,7 +19,7 @@ Cependant, nous pourrions vouloir utiliser des données brutes (non annotées) p
 
 Étant donné que nous entraînons un autoencodeur pour capturer autant d'informations que possible de l'image originale afin de la reconstruire avec précision, le réseau cherche à trouver la meilleure **représentation** des images d'entrée pour en saisir le sens.
 
-![Diagramme Autoencodeur](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.fr.jpg)
+![Diagramme Autoencodeur](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.fr.jpg)
 
 > Image tirée du [blog Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

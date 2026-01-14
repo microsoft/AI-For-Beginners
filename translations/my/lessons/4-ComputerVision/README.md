@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ကွန်ပျူတာမြင်ကြည့်မှု
 
-![ကွန်ပျူတာမြင်ကြည့်မှုအကြောင်းအရာကို ရေးဆွဲထားသောပုံ](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.my.png)
+![ကွန်ပျူတာမြင်ကြည့်မှုအကြောင်းအရာကို ရေးဆွဲထားသောပုံ](../../../../translated_images/ai-computervision.6506ebebac3fbf76.my.png)
 
 ဤအပိုင်းတွင် ကျွန်ုပ်တို့ သင်ယူမည့်အကြောင်းအရာများမှာ -
 

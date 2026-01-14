@@ -21,7 +21,7 @@ Bạn cần huấn luyện một mạng nơ-ron tích chập để phân loại 
 
 Chúng ta sẽ sử dụng [Bộ Dữ Liệu Thú Cưng Oxford-IIIT](https://www.robots.ox.ac.uk/~vgg/data/pets/), bộ dữ liệu này chứa hình ảnh của 37 giống loài chó và mèo khác nhau.
 
-![Bộ dữ liệu chúng ta sẽ làm việc](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.vi.png)
+![Bộ dữ liệu chúng ta sẽ làm việc](../../../../../../translated_images/data.50b2a9d5484bdbf0.vi.png)
 
 Để tải bộ dữ liệu, sử dụng đoạn mã sau:
 

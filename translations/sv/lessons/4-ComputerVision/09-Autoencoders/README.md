@@ -19,7 +19,7 @@ Men vi kanske vill använda rå (omärkt) data för att träna CNN-funktionsextr
 
 Eftersom vi tränar en autoencoder för att fånga så mycket information som möjligt från den ursprungliga bilden för en korrekt rekonstruktion, försöker nätverket hitta den bästa **embedding** av inmatningsbilder för att fånga dess betydelse.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.sv.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.sv.jpg)
 
 > Bild från [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

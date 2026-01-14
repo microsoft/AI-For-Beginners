@@ -19,7 +19,7 @@ RNN arhitektuuris, mida käsitlesime eelmises üksuses, genereeris iga RNN üksu
 
 See võimaldab erinevaid närvivõrgu arhitektuure, mida on näidatud alloleval pildil:
 
-![Pilt, mis näitab korduvate närvivõrkude levinud mustreid.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.et.jpg)
+![Pilt, mis näitab korduvate närvivõrkude levinud mustreid.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.et.jpg)
 
 > Pilt blogipostitusest [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autorilt [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,11 +32,11 @@ Selles üksuses keskendume lihtsatele generatiivsetele mudelitele, mis aitavad m
 
 Treename selle RNN-i teksti genereerimiseks samm-sammult. Igal sammul võtame tähemärkide järjestuse pikkusega `nchars` ja palume võrgul genereerida järgmise väljundtähemärgi iga sisendtähemärgi jaoks:
 
-![Pilt, mis näitab RNN-i näidet sõna 'HELLO' genereerimisel.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.et.png)
+![Pilt, mis näitab RNN-i näidet sõna 'HELLO' genereerimisel.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.et.png)
 
 Teksti genereerimisel (järeldamisel) alustame mõne **alguspunktiga**, mis edastatakse RNN rakkude kaudu, et genereerida selle vaheolek, ja seejärel algab genereerimine sellest olekust. Genereerime ühe tähemärgi korraga ja edastame oleku ja genereeritud tähemärgi järgmisele RNN rakule, et genereerida järgmine, kuni oleme genereerinud piisavalt tähemärke.
 
-<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eeab36f83885ba6b5bf56265698de5ddbd8648dc3653e1f0b9b.et.png" width="60%"/>
+<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eea.et.png" width="60%"/>
 
 > Pilt autorilt
 

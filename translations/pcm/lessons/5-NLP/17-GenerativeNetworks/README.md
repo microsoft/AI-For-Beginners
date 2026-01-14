@@ -19,7 +19,7 @@ For di RNN architecture wey we discuss for di last unit, each RNN unit dey produ
 
 Dis one dey allow different neural architectures wey dem show for di picture below:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.pcm.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.pcm.jpg)
 
 > Image from blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,11 +32,11 @@ For dis unit, we go focus on simple generative models wey go help us generate te
 
 We go train dis RNN to generate text step by step. For each step, we go take sequence of characters wey get length `nchars`, then ask di network to generate di next output character for each input character:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.pcm.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.pcm.png)
 
 When we dey generate text (during inference), we go start with one **prompt**, wey we go pass through RNN cells to generate di intermediate state, then from di state, di generation go start. We go generate one character at a time, then pass di state and di generated character to another RNN cell to generate di next one, until we generate enough characters.
 
-<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eeab36f83885ba6b5bf56265698de5ddbd8648dc3653e1f0b9b.pcm.png" width="60%"/>
+<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eea.pcm.png" width="60%"/>
 
 > Image by di author
 

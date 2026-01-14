@@ -13,7 +13,7 @@ Modeli za klasifikaciju slika s kojima smo se dosad susretali uzimaju sliku i pr
 
 ## [Prethodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detekcija objekata](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.hr.png)
+![Detekcija objekata](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.hr.png)
 
 > Slika s [YOLO v2 web stranice](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Pretpostavimo da želimo pronaći mačku na slici. Vrlo naivan pristup detekciji
 2. Provoditi klasifikaciju slike na svakoj pločici.
 3. Pločice koje rezultiraju dovoljno visokom aktivacijom mogu se smatrati da sadrže traženi objekt.
 
-![Naivna detekcija objekata](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.hr.png)
+![Naivna detekcija objekata](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.hr.png)
 
 > *Slika iz [vježbenice](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Možete naići na sljedeće skupove podataka za ovu zadaću:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 klasa
 * [COCO](http://cocodataset.org/#home) – Uobičajeni objekti u kontekstu. 80 klasa, okviri i maske za segmentaciju
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.hr.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.hr.jpg)
 
 ## Metrike za detekciju objekata
 
@@ -50,7 +50,7 @@ Možete naići na sljedeće skupove podataka za ovu zadaću:
 
 Dok je za klasifikaciju slika lako izmjeriti koliko dobro algoritam radi, za detekciju objekata moramo mjeriti i točnost klase, kao i preciznost lokacije predviđenog okvira. Za ovo drugo koristimo metodu **Presjek kroz uniju** (IoU), koja mjeri koliko se dobro dva okvira (ili dva proizvoljna područja) preklapaju.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.hr.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.hr.png)
 
 > *Slika 2 iz [ovog izvrsnog blog posta o IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Postoje dvije široke kategorije algoritama za detekciju objekata:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) koristi [Selektivno pretraživanje](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) za generiranje hijerarhijske strukture ROI regija, koje se zatim prosljeđuju kroz CNN ekstraktore značajki i SVM klasifikatore za određivanje klase objekta, te linearnu regresiju za određivanje koordinata *okvira*. [Službeni rad](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.hr.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.hr.png)
 
 > *Slika iz van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.hr.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.hr.png)
 
 > *Slike iz [ovog bloga](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Postoje dvije široke kategorije algoritama za detekciju objekata:
 
 Ovaj pristup je sličan R-CNN-u, ali regije se definiraju nakon što su primijenjeni slojevi konvolucije.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.hr.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.hr.png)
 
 > Slika iz [službenog rada](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Ovaj pristup je sličan R-CNN-u, ali regije se definiraju nakon što su primijen
 
 Glavna ideja ovog pristupa je korištenje neuronske mreže za predviđanje ROI – takozvane *Mreže za predlaganje regija*. [Rad](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.hr.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.hr.png)
 
 > Slika iz [službenog rada](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Ovaj algoritam je čak brži od Faster R-CNN-a. Glavna ideja je sljedeća:
 2. Značajke se obrađuju pomoću **Pozicijski osjetljive mape rezultata**. Svaki objekt iz $C$ klasa dijeli se na $k\times k$ regije, i treniramo mrežu da predviđa dijelove objekata.
 3. Za svaki dio iz $k\times k$ regija sve mreže glasaju za klase objekata, a klasa objekta s najviše glasova se odabire.
 
-![r-fcn slika](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.hr.png)
+![r-fcn slika](../../../../../translated_images/r-fcn.13eb88158b99a3da.hr.png)
 
 > Slika iz [službenog rada](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO je algoritam za detekciju u stvarnom vremenu s jednim prolazom. Glavna idej
  * Slika se dijeli na $S\times S$ regije.
  * Za svaku regiju, **CNN** predviđa $n$ mogućih objekata, koordinate *okvira* i *povjerenje*=*vjerojatnost* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.hr.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.hr.png)
 
 > Slika iz [službenog rada](https://arxiv.org/abs/1506.02640)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Traitement du Langage Naturel
 
-![Résumé des tâches NLP dans un croquis](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.fr.png)
+![Résumé des tâches NLP dans un croquis](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.fr.png)
 
 Dans cette section, nous allons nous concentrer sur l'utilisation des réseaux neuronaux pour traiter des tâches liées au **Traitement du Langage Naturel (NLP)**. Il existe de nombreux problèmes NLP que nous souhaitons que les ordinateurs soient capables de résoudre :
 

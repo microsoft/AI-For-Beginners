@@ -58,7 +58,7 @@ infant | O
 
 چونکہ ہمیں ٹوکنز اور کلاسز کے درمیان ایک سے ایک مطابقت پیدا کرنی ہوتی ہے، ہم اس تصویر سے ایک دائیں طرف **کئی سے کئی** نیورل نیٹ ورک ماڈل بنا سکتے ہیں:
 
-![تصویر جو عام recurrent neural network patterns کو دکھاتی ہے۔](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ur.jpg)
+![تصویر جو عام recurrent neural network patterns کو دکھاتی ہے۔](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ur.jpg)
 
 > *تصویر [اس بلاگ پوسٹ](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) سے لی گئی ہے، جو [Andrej Karpathy](http://karpathy.github.io/) کی جانب سے ہے۔ NER ٹوکن درجہ بندی ماڈلز اس تصویر میں دائیں طرف کے نیٹ ورک آرکیٹیکچر سے مطابقت رکھتے ہیں۔*
 

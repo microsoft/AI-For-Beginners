@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # കമ്പ്യൂട്ടർ വിഷൻ
 
-![കമ്പ്യൂട്ടർ വിഷൻ ഉള്ളടക്കത്തിന്റെ സംഗ്രഹം ഒരു ഡ്രോയിങ്ങിൽ](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.ml.png)
+![കമ്പ്യൂട്ടർ വിഷൻ ഉള്ളടക്കത്തിന്റെ സംഗ്രഹം ഒരു ഡ്രോയിങ്ങിൽ](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ml.png)
 
 ഈ വിഭാഗത്തിൽ നാം പഠിക്കാനിരിക്കുന്നവ:
 

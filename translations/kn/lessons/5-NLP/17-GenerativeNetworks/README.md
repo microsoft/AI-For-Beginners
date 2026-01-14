@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಇದು ಕೆಳಗಿನ ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿದಂತೆ ವಿಭಿನ್ನ ನ್ಯೂರಲ್ ವಾಸ್ತುಶಿಲ್ಪಗಳಿಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.kn.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.kn.jpg)
 
 > ಚಿತ್ರವು [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ಬ್ಲಾಗ್ ಪೋಸ್ಟ್‌ನಿಂದ [Andrej Karpaty](http://karpathy.github.io/) ಅವರಿಂದ
 
@@ -32,11 +32,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 ನಾವು ಈ RNN ಅನ್ನು ಹಂತ ಹಂತವಾಗಿ ಪಠ್ಯ ರಚಿಸಲು ತರಬೇತುಗೊಳಿಸುವೆವು. ಪ್ರತಿ ಹಂತದಲ್ಲಿ, ನಾವು `nchars` ಉದ್ದದ ಅಕ್ಷರ ಸರಣಿಯನ್ನು ತೆಗೆದು, ಪ್ರತಿ ಇನ್‌ಪುಟ್ ಅಕ್ಷರಕ್ಕೆ ಮುಂದಿನ ಔಟ್‌ಪುಟ್ ಅಕ್ಷರವನ್ನು ರಚಿಸಲು ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಕೇಳುತ್ತೇವೆ:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.kn.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.kn.png)
 
 ಪಠ್ಯ ರಚಿಸುವಾಗ (ಇನ್ಫರೆನ್ಸ್ ಸಮಯದಲ್ಲಿ), ನಾವು ಕೆಲವು **ಪ್ರಾಂಪ್ಟ್**ನಿಂದ ಪ್ರಾರಂಭಿಸುತ್ತೇವೆ, ಅದನ್ನು RNN ಸೆಲ್‌ಗಳ ಮೂಲಕ ಹೋದರೆ ಮಧ್ಯಂತರ ಸ್ಥಿತಿಯನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ಆ ಸ್ಥಿತಿಯಿಂದ ರಚನೆ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ನಾವು ಒಂದೊಂದು ಅಕ್ಷರವನ್ನು ರಚಿಸಿ, ಆ ಸ್ಥಿತಿಯನ್ನು ಮತ್ತು ರಚಿಸಿದ ಅಕ್ಷರವನ್ನು ಮತ್ತೊಂದು RNN ಸೆಲ್‌ಗೆ ನೀಡುತ್ತೇವೆ ಮುಂದಿನ ಅಕ್ಷರವನ್ನು ರಚಿಸಲು, ಇದನ್ನು ಬೇಕಾದಷ್ಟು ಅಕ್ಷರಗಳು ರಚಿಸುವವರೆಗೆ ಮುಂದುವರಿಸುತ್ತೇವೆ.
 
-<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eeab36f83885ba6b5bf56265698de5ddbd8648dc3653e1f0b9b.kn.png" width="60%"/>
+<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eea.kn.png" width="60%"/>
 
 > ಚಿತ್ರ ಲೇಖಕರಿಂದ
 

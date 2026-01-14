@@ -70,7 +70,7 @@ Vous pouvez ouvrir l'un des modèles, par exemple **Biology &rightarrow; Flockin
 
 Après avoir ouvert le modèle, vous êtes dirigé vers l'écran principal de NetLogo. Voici un exemple de modèle qui décrit la population de loups et de moutons, compte tenu de ressources limitées (herbe).
 
-![Écran principal de NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.fr.png)
+![Écran principal de NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.fr.png)
 
 > Capture d'écran par Dmitry Soshnikov
 

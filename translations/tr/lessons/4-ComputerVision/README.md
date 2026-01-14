@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bilgisayarlı Görü
 
-![Bilgisayarlı Görü içeriğinin bir çizim özeti](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.tr.png)
+![Bilgisayarlı Görü içeriğinin bir çizim özeti](../../../../translated_images/ai-computervision.6506ebebac3fbf76.tr.png)
 
 Bu bölümde şunları öğreneceğiz:
 

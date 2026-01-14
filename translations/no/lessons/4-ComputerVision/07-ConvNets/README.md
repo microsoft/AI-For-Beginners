@@ -17,7 +17,7 @@ I virkeligheten ønsker vi å kunne gjenkjenne objekter på et bilde uavhengig a
 
 For å trekke ut mønstre, vil vi bruke begrepet **konvolusjonsfiltre**. Som du vet, er et bilde representert av en 2D-matrise, eller en 3D-tensor med fargedybde. Å bruke et filter betyr at vi tar en relativt liten **filterkjerne**-matrise, og for hver piksel i det originale bildet beregner vi det vektede gjennomsnittet med nabopunktene. Vi kan se på dette som et lite vindu som glir over hele bildet og jevner ut alle pikslene i henhold til vektene i filterkjernematrisen.
 
-![Vertikalt kantfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356ddc7e55555d2481819c1e86ddde9dce4db5e71a69d6f887f.no.png) | ![Horisontalt kantfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946efbe201a7fe3ca95abb3364e266e6fd90820cb893b4d3a6dda.no.png)
+![Vertikalt kantfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356.no.png) | ![Horisontalt kantfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.no.png)
 ----|----
 
 > Bilde av Dmitry Soshnikov
@@ -38,7 +38,7 @@ Måten CNN-er fungerer på er basert på følgende viktige ideer:
 * Vi kan designe nettverket slik at filtrene trenes automatisk
 * Vi kan bruke samme tilnærming for å finne mønstre i høyere nivå-funksjoner, ikke bare i det originale bildet. Dermed fungerer CNN-funksjonsekstraksjon på en hierarki av funksjoner, fra lavnivå pikselkombinasjoner til høyere nivå kombinasjoner av bildeelementer.
 
-![Hierarkisk funksjonsekstraksjon](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb643fde3032b81b2940e3cf8be842e29afac3f482725ba7f95c.no.png)
+![Hierarkisk funksjonsekstraksjon](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.no.png)
 
 > Bilde fra [en artikkel av Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), basert på [deres forskning](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ De fleste CNN-er som brukes til bildebehandling følger en såkalt pyramidearkit
 
 Som et eksempel, la oss se på arkitekturen til VGG-16, et nettverk som oppnådde 92,7 % nøyaktighet i ImageNet's topp-5 klassifisering i 2014:
 
-![ImageNet-lag](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.no.jpg)
+![ImageNet-lag](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.no.jpg)
 
-![ImageNet-pyramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.no.jpg)
+![ImageNet-pyramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.no.jpg)
 
 > Bilde fra [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

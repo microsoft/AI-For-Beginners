@@ -21,7 +21,7 @@ Sinun tulee kouluttaa konvoluutio-neuroverkko luokittelemaan eri kissojen ja koi
 
 Käytämme [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) -datakokonaisuutta, joka sisältää kuvia 37 eri koira- ja kissarodusta.
 
-![Datakokonaisuus, jonka kanssa työskentelemme](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.fi.png)
+![Datakokonaisuus, jonka kanssa työskentelemme](../../../../../../translated_images/data.50b2a9d5484bdbf0.fi.png)
 
 Ladataksesi datakokonaisuuden, käytä tätä koodinpätkää:
 

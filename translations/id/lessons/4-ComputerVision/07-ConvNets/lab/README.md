@@ -21,7 +21,7 @@ Anda perlu melatih jaringan saraf konvolusi untuk mengklasifikasikan berbagai ra
 
 Kita akan menggunakan [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), yang berisi gambar dari 37 ras anjing dan kucing yang berbeda.
 
-![Dataset yang akan kita gunakan](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.id.png)
+![Dataset yang akan kita gunakan](../../../../../../translated_images/data.50b2a9d5484bdbf0.id.png)
 
 Untuk mengunduh dataset, gunakan cuplikan kode berikut:
 

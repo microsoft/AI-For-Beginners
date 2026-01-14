@@ -15,7 +15,7 @@ Na het succes van transformer-modellen voor het oplossen van NLP-taken, zijn dez
 
 Het belangrijkste idee van CLIP is om tekstprompts te kunnen vergelijken met een afbeelding en te bepalen hoe goed de afbeelding overeenkomt met de prompt.
 
-![CLIP Architectuur](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.nl.png)
+![CLIP Architectuur](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.nl.png)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Zodra dit model is voorgetraind, kunnen we het een batch afbeeldingen en een bat
 
 Stel dat we afbeeldingen moeten classificeren tussen bijvoorbeeld katten, honden en mensen. In dit geval kunnen we het model een afbeelding geven en een reeks tekstprompts: "*een afbeelding van een kat*", "*een afbeelding van een hond*", "*een afbeelding van een mens*". In de resulterende vector van 3 waarschijnlijkheden hoeven we alleen de index met de hoogste waarde te selecteren.
 
-![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.nl.png)
+![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/clip-class.3af42ef0b2b19369.nl.png)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Meer informatie over VQGAN vind je op de [Taming Transformers](https://compvis.g
 
 Een belangrijk verschil tussen VQGAN en traditionele GAN is dat de laatste een behoorlijke afbeelding kan produceren vanuit elke invoervector, terwijl VQGAN waarschijnlijk een afbeelding produceert die niet coherent is. Daarom moeten we het proces van afbeeldingcreatie verder sturen, en dat kan worden gedaan met behulp van CLIP.
 
-![VQGAN+CLIP Architectuur](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.nl.png)
+![VQGAN+CLIP Architectuur](../../../../../translated_images/vqgan.5027fe05051dfa31.nl.png)
 
 Om een afbeelding te genereren die overeenkomt met een tekstprompt, beginnen we met een willekeurige coderingsvector die door VQGAN wordt doorgegeven om een afbeelding te produceren. Vervolgens wordt CLIP gebruikt om een verliesfunctie te produceren die aangeeft hoe goed de afbeelding overeenkomt met de tekstprompt. Het doel is dan om dit verlies te minimaliseren, door middel van backpropagation om de parameters van de invoervector aan te passen.
 
 Een geweldige bibliotheek die VQGAN+CLIP implementeert is [Pixray](http://github.com/pixray/pixray).
 
-![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.nl.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.nl.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.nl.png)
+![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.nl.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.nl.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.nl.png)
 ----|----|----
 Afbeelding gegenereerd vanuit prompt *een close-up aquarelportret van een jonge mannelijke leraar literatuur met een boek* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een jonge vrouwelijke leraar informatica met een computer* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een oude mannelijke leraar wiskunde voor een schoolbord*
 

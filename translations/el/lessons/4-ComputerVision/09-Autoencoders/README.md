@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Καθώς εκπαιδεύουμε έναν αυτόματο κωδικοποιητή για να συλλάβει όσο το δυνατόν περισσότερες πληροφορίες από την αρχική εικόνα για ακριβή ανακατασκευή, το δίκτυο προσπαθεί να βρει την καλύτερη **ενσωμάτωση** των εικόνων εισόδου για να αποτυπώσει το νόημα.
 
-![Διάγραμμα Αυτόματου Κωδικοποιητή](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.el.jpg)
+![Διάγραμμα Αυτόματου Κωδικοποιητή](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.el.jpg)
 
 > Εικόνα από το [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

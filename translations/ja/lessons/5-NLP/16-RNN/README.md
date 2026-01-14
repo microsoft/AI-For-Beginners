@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 テキストシーケンスの意味を捉えるためには、**リカレントニューラルネットワーク**（RNN）と呼ばれる別のニューラルネットワークアーキテクチャを使用する必要があります。RNNでは、文をネットワークに1つずつシンボルを通し、ネットワークは**状態**を生成します。この状態を次のシンボルとともに再びネットワークに渡します。
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.ja.png)
+![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.ja.png)
 
 > 著者による画像
 
@@ -61,7 +61,7 @@ LSTMネットワークはRNNと似た構成ですが、層から層へ渡され�
 
 リカレントネットワークは、1方向または双方向のいずれであっても、シーケンス内の特定のパターンを捉え、それを状態ベクトルに保存するか、出力に渡すことができます。畳み込みネットワークと同様に、最初の層によって抽出された低レベルのパターンから構築し、高レベルのパターンを捉えるために、最初の層の上に別のリカレント層を構築することができます。これにより、**多層RNN**の概念に至ります。これは2つ以上のリカレントネットワークで構成され、前の層の出力が次の層の入力として渡されます。
 
-![多層長短期記憶RNNを示す画像](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.ja.jpg)
+![多層長短期記憶RNNを示す画像](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.ja.jpg)
 
 *Fernando Lópezによる[この素晴らしい投稿](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3)からの画像*
 

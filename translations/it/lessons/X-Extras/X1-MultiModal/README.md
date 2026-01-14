@@ -15,7 +15,7 @@ Dopo il successo dei modelli transformer per risolvere compiti di NLP, le stesse
 
 L'idea principale di CLIP è quella di confrontare i prompt testuali con un'immagine e determinare quanto bene l'immagine corrisponda al prompt.
 
-![Architettura CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.it.png)
+![Architettura CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.it.png)
 
 > *Immagine tratta da [questo post sul blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Una volta che questo modello è stato pre-addestrato, possiamo fornire un batch 
 
 Supponiamo di dover classificare immagini tra, ad esempio, gatti, cani e esseri umani. In questo caso, possiamo fornire al modello un'immagine e una serie di prompt testuali: "*una foto di un gatto*", "*una foto di un cane*", "*una foto di un essere umano*". Nel vettore risultante di 3 probabilità, dobbiamo semplicemente selezionare l'indice con il valore più alto.
 
-![CLIP per la Classificazione delle Immagini](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.it.png)
+![CLIP per la Classificazione delle Immagini](../../../../../translated_images/clip-class.3af42ef0b2b19369.it.png)
 
 > *Immagine tratta da [questo post sul blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Scopri di più su VQGAN sul sito web [Taming Transformers](https://compvis.githu
 
 Una delle differenze importanti tra VQGAN e i GAN tradizionali è che questi ultimi possono produrre un'immagine decente da qualsiasi vettore di input, mentre VQGAN è più propenso a produrre un'immagine incoerente. Pertanto, è necessario guidare ulteriormente il processo di creazione dell'immagine, e questo può essere fatto utilizzando CLIP.
 
-![Architettura VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.it.png)
+![Architettura VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.it.png)
 
 Per generare un'immagine corrispondente a un prompt testuale, iniziamo con un vettore di codifica casuale che viene passato attraverso VQGAN per produrre un'immagine. Successivamente, CLIP viene utilizzato per produrre una funzione di perdita che mostra quanto bene l'immagine corrisponda al prompt testuale. L'obiettivo è quindi minimizzare questa perdita, utilizzando la retropropagazione per regolare i parametri del vettore di input.
 
 Una grande libreria che implementa VQGAN+CLIP è [Pixray](http://github.com/pixray/pixray).
 
-![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.it.png) |  ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.it.png) | ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.it.png)
+![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.it.png) |  ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.it.png) | ![Immagine prodotta da Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.it.png)
 ----|----|----
 Immagine generata dal prompt *un ritratto ravvicinato ad acquerello di un giovane insegnante di letteratura con un libro* | Immagine generata dal prompt *un ritratto ravvicinato a olio di una giovane insegnante di informatica con un computer* | Immagine generata dal prompt *un ritratto ravvicinato a olio di un anziano insegnante di matematica davanti a una lavagna*
 

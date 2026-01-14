@@ -57,7 +57,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 از آنجا که باید یک تطابق یک‌به‌یک بین توکن‌ها و کلاس‌ها ایجاد کنیم، می‌توانیم یک مدل شبکه عصبی **چند-به-چند** از تصویر زیر آموزش دهیم:
 
-![تصویری که الگوهای رایج شبکه عصبی بازگشتی را نشان می‌دهد.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.fa.jpg)
+![تصویری که الگوهای رایج شبکه عصبی بازگشتی را نشان می‌دهد.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.fa.jpg)
 
 > *تصویر از [این پست وبلاگ](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) توسط [آندری کارپاتی](http://karpathy.github.io/). مدل‌های طبقه‌بندی توکن NER با معماری شبکه سمت راست در این تصویر مطابقت دارند.*
 

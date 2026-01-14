@@ -19,7 +19,7 @@ Vi kan imidlertid ønske å bruke rå (umerkede) data for å trene CNN-funksjons
 
 Siden vi trener en autoencoder til å fange så mye informasjon som mulig fra det originale bildet for nøyaktig rekonstruksjon, prøver nettverket å finne den beste **embedding** av input-bilder for å fange meningen.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.no.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.no.jpg)
 
 > Bilde fra [Keras-blogg](https://blog.keras.io/building-autoencoders-in-keras.html)
 

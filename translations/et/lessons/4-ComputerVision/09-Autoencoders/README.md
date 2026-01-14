@@ -19,7 +19,7 @@ Siiski võime soovida kasutada toorandmeid (märgistamata) CNN-i funktsioonide e
 
 Kuna treenime autoenkoodrit, et haarata võimalikult palju teavet algsest pildist täpseks taastamiseks, püüab võrk leida parima **sisendpiltide representatsiooni**, et tabada nende tähendus.
 
-![Autoenkoodri skeem](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.et.jpg)
+![Autoenkoodri skeem](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.et.jpg)
 
 > Pilt [Kerase blogist](https://blog.keras.io/building-autoencoders-in-keras.html)
 
@@ -46,7 +46,7 @@ Kokkuvõtteks:
  * Valime vektori `sample` jaotusest N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Dekooder püüab dekodeerida algset pilti, kasutades `sample` sisendvektorina
 
- <img src="../../../../../translated_images/vae.464c465a5b6a9e253be65a8cb3be1724832cbde57ece3912ddc962b199472a89.et.png" width="50%">
+ <img src="../../../../../translated_images/vae.464c465a5b6a9e25.et.png" width="50%">
 
 > Pilt [sellest blogipostitusest](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) autorilt Isaak Dykeman
 
@@ -57,13 +57,13 @@ Variatsioonilised autoenkoodrid kasutavad keerulist kaotusefunktsiooni, mis koos
 
 Üks oluline eelis VAE-de puhul on see, et need võimaldavad meil suhteliselt lihtsalt uusi pilte genereerida, kuna teame, millist jaotust latentvektorite valimiseks kasutada. Näiteks kui treenime VAE-d 2D latentvektoriga MNIST andmestikul, saame seejärel muuta latentvektori komponente, et saada erinevaid numbreid:
 
-<img alt="vaemnist" src="../../../../../translated_images/vaemnist.cab9e602dc08dc5066ce14e005889d6b53ca5bcaf16e35c28dbf8cd40c304de1.et.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/vaemnist.cab9e602dc08dc50.et.png" width="50%"/>
 
 > Pilt autorilt [Dmitry Soshnikov](http://soshnikov.com)
 
 Vaadake, kuidas pildid sulanduvad üksteisesse, kui hakkame saama latentvektoreid latentparameetrite ruumi erinevatest osadest. Samuti saame visualiseerida seda ruumi 2D-s:
 
-<img alt="vaemnist cluster" src="../../../../../translated_images/vaemnist-diag.694315f775d5d666b02fb54f8fc7c64db65a9d126a16c2fdb8683cf9726f9ff5.et.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/vaemnist-diag.694315f775d5d666.et.png" width="50%"/> 
 
 > Pilt autorilt [Dmitry Soshnikov](http://soshnikov.com)
 

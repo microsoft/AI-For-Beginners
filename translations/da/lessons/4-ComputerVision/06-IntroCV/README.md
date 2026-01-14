@@ -73,14 +73,14 @@ I vores [OpenCV Notebook](OpenCV.ipynb) giver vi nogle eksempler på, hvornår c
 
 * **Forbehandling af et fotografi af en Braille-bog**. Vi fokuserer på, hvordan vi kan bruge thresholding, feature detection, perspektivtransformation og NumPy-manipulationer til at adskille individuelle Braille-symboler til videre klassifikation af et neuralt netværk.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.da.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.da.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.da.png)  
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.da.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.da.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.da.png)  
 ----|-----|-----
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detektion af bevægelse i video ved hjælp af frame difference**. Hvis kameraet er fast, bør frames fra kameraets feed være ret ens. Da frames er repræsenteret som arrays, vil vi ved blot at trække disse arrays fra hinanden for to efterfølgende frames få pixel-forskellen, som bør være lav for statiske frames og blive højere, når der er betydelig bevægelse i billedet.
 
-![Billede af video frames og frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.da.png)
+![Billede af video frames og frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.da.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ I vores [OpenCV Notebook](OpenCV.ipynb) giver vi nogle eksempler på, hvornår c
    - **Dense Optical Flow** beregner vektorfeltet, der viser, hvor hver pixel bevæger sig hen.
    - **Sparse Optical Flow** er baseret på at tage nogle karakteristiske træk i billedet (f.eks. kanter) og bygge deres bane fra frame til frame.
 
-![Billede af optisk flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.da.png)
+![Billede af optisk flow](../../../../../translated_images/optical.1f4a94464579a83a.da.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 

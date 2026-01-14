@@ -23,7 +23,7 @@ Dalam contoh sebelumnya, kita menggunakan embedding semantik yang sudah dilatih 
 * **Continuous Bag-of-Words** (CBoW), di mana kita memprediksi token tengah $W_0$ dalam urutan token $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, di mana kita memprediksi sekumpulan token tetangga {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} dari token tengah $W_0$.
 
-![gambar dari makalah tentang mengonversi kata menjadi vektor](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.id.png)
+![gambar dari makalah tentang mengonversi kata menjadi vektor](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.id.png)
 
 > Gambar dari [makalah ini](https://arxiv.org/pdf/1301.3781.pdf)
 

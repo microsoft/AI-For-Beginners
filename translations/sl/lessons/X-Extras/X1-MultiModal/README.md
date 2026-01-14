@@ -15,7 +15,7 @@ Po uspehu modelov transformatorjev pri reševanju nalog NLP so bile iste ali pod
 
 Glavna ideja CLIP je primerjati besedilne pozive s sliko in ugotoviti, kako dobro slika ustreza pozivu.
 
-![CLIP Arhitektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.sl.png)
+![CLIP Arhitektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.sl.png)
 
 > *Slika iz [tega blog prispevka](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Ko je model predhodno treniran, mu lahko podamo paket slik in paket besedilnih p
 
 Recimo, da moramo razvrstiti slike med, na primer, mačke, pse in ljudi. V tem primeru lahko modelu podamo sliko in serijo besedilnih pozivov: "*slika mačke*", "*slika psa*", "*slika človeka*". V nastalem vektorju s tremi verjetnostmi moramo le izbrati indeks z najvišjo vrednostjo.
 
-![CLIP za razvrščanje slik](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.sl.png)
+![CLIP za razvrščanje slik](../../../../../translated_images/clip-class.3af42ef0b2b19369.sl.png)
 
 > *Slika iz [tega blog prispevka](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Več o VQGAN si lahko preberete na spletni strani [Taming Transformers](https://
 
 Ena pomembna razlika med VQGAN in tradicionalnim GAN je, da slednji lahko ustvari spodobno sliko iz katerega koli vhodnega vektorja, medtem ko VQGAN verjetno ustvari sliko, ki ni koherentna. Zato moramo dodatno usmerjati proces ustvarjanja slike, kar lahko storimo z uporabo CLIP.
 
-![VQGAN+CLIP Arhitektura](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.sl.png)
+![VQGAN+CLIP Arhitektura](../../../../../translated_images/vqgan.5027fe05051dfa31.sl.png)
 
 Za generiranje slike, ki ustreza besedilnemu pozivu, začnemo z naključnim kodirnim vektorjem, ki ga posredujemo VQGAN za ustvarjanje slike. Nato uporabimo CLIP za ustvarjanje funkcije izgube, ki kaže, kako dobro slika ustreza besedilnemu pozivu. Cilj je nato minimizirati to izgubo z uporabo povratnega razširjanja za prilagoditev parametrov vhodnega vektorja.
 
 Odlična knjižnica, ki implementira VQGAN+CLIP, je [Pixray](http://github.com/pixray/pixray).
 
-![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.sl.png) |  ![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.sl.png) | ![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.sl.png)
+![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.sl.png) |  ![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.sl.png) | ![Slika, ustvarjena s Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.sl.png)
 ----|----|----
 Slika, ustvarjena iz poziva *bližnji akvarelni portret mladega učitelja književnosti z knjigo* | Slika, ustvarjena iz poziva *bližnji oljni portret mlade učiteljice računalništva z računalnikom* | Slika, ustvarjena iz poziva *bližnji oljni portret starega učitelja matematike pred tablo*
 

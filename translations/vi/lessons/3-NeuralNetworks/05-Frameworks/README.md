@@ -58,7 +58,7 @@ Overfitting là một khái niệm cực kỳ quan trọng trong học máy, và
 
 Hãy xem xét vấn đề sau đây về việc xấp xỉ 5 điểm (được biểu diễn bằng `x` trên các đồ thị dưới đây):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.vi.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.vi.jpg)
+![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.vi.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.vi.jpg)
 -------------------------|--------------------------
 **Mô hình tuyến tính, 2 tham số** | **Mô hình phi tuyến, 7 tham số**
 Lỗi huấn luyện = 5.3 | Lỗi huấn luyện = 0
@@ -79,7 +79,7 @@ Lỗi kiểm định = 5.1 | Lỗi kiểm định = 20
 
 Như bạn có thể thấy từ đồ thị trên, overfitting có thể được phát hiện bằng lỗi huấn luyện rất thấp và lỗi kiểm định rất cao. Thông thường trong quá trình huấn luyện, chúng ta sẽ thấy cả lỗi huấn luyện và lỗi kiểm định bắt đầu giảm, và sau đó tại một thời điểm nào đó lỗi kiểm định có thể ngừng giảm và bắt đầu tăng. Đây sẽ là dấu hiệu của overfitting, và là chỉ báo rằng chúng ta nên dừng huấn luyện tại thời điểm này (hoặc ít nhất là lưu lại trạng thái của mô hình).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.vi.png)
+![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.vi.png)
 
 ## Cách ngăn chặn overfitting
 

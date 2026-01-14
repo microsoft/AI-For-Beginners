@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เนื่องจากเรากำลังฝึกออโตเอนโคเดอร์เพื่อจับข้อมูลจากภาพต้นฉบับให้ได้มากที่สุดเพื่อการสร้างใหม่ที่แม่นยำ เครือข่ายจึงพยายามค้นหา **การฝังตัว** ที่ดีที่สุดของภาพอินพุตเพื่อจับความหมายของภาพ
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.th.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.th.jpg)
 
 > ภาพจาก [บล็อก Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Безперервний мішок слів** (CBoW), коли ми передбачаємо середній токен $W_0$ у послідовності токенів $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, де ми передбачаємо набір сусідніх токенів {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} на основі середнього токена $W_0$.
 
-![зображення з наукової статті про перетворення слів у вектори](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.uk.png)
+![зображення з наукової статті про перетворення слів у вектори](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.uk.png)
 
 > Зображення з [цієї статті](https://arxiv.org/pdf/1301.3781.pdf)
 

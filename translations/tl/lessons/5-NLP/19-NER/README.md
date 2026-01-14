@@ -58,7 +58,7 @@ infant | O
 
 Dahil kailangan nating bumuo ng one-to-one na kaugnayan sa pagitan ng mga token at klase, maaari tayong mag-train ng tamang **many-to-many** neural network model mula sa larawang ito:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.tl.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.tl.jpg)
 
 > *Larawan mula sa [blog post na ito](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ni [Andrej Karpathy](http://karpathy.github.io/). Ang mga NER token classification models ay tumutugma sa pinakakanan na network architecture sa larawang ito.*
 

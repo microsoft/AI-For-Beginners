@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مقدمة في الشبكات العصبية
 
-![ملخص محتوى مقدمة الشبكات العصبية في رسم توضيحي](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.ar.png)
+![ملخص محتوى مقدمة الشبكات العصبية في رسم توضيحي](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.ar.png)
 
 كما ناقشنا في المقدمة، إحدى الطرق لتحقيق الذكاء هي تدريب **نموذج حاسوبي** أو **دماغ اصطناعي**. منذ منتصف القرن العشرين، حاول الباحثون استخدام نماذج رياضية مختلفة، حتى أثبت هذا الاتجاه نجاحًا كبيرًا في السنوات الأخيرة. تُعرف هذه النماذج الرياضية للدماغ باسم **الشبكات العصبية**.
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 من علم الأحياء، نعلم أن دماغنا يتكون من خلايا عصبية (الخلايا العصبية)، لكل منها عدة "مدخلات" (التشعبات) ومخرج واحد (المحور العصبي). يمكن لكل من التشعبات والمحاور العصبية نقل إشارات كهربائية، والروابط بينها — المعروفة باسم المشابك العصبية — يمكن أن تظهر درجات متفاوتة من التوصيل، والتي يتم تنظيمها بواسطة الناقلات العصبية.
 
-![نموذج الخلية العصبية](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.ar.jpg) | ![نموذج الخلية العصبية](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.ar.png)
+![نموذج الخلية العصبية](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.ar.jpg) | ![نموذج الخلية العصبية](../../../../translated_images/artneuron.1a5daa88d20ebe6f.ar.png)
 ----|----
 خلية عصبية حقيقية *([الصورة](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) من ويكيبيديا)* | خلية عصبية اصطناعية *(الصورة بواسطة المؤلف)*
 
 لذلك، فإن أبسط نموذج رياضي للخلية العصبية يحتوي على عدة مدخلات X<sub>1</sub>, ..., X<sub>N</sub> ومخرج Y، وسلسلة من الأوزان W<sub>1</sub>, ..., W<sub>N</sub>. يتم حساب المخرج كالتالي:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.ar.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.ar.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 حيث f هي **دالة التنشيط** غير الخطية.
 

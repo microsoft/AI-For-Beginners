@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giới thiệu về Mạng Nơ-ron
 
-![Tóm tắt nội dung Giới thiệu Mạng Nơ-ron trong một hình vẽ](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.vi.png)
+![Tóm tắt nội dung Giới thiệu Mạng Nơ-ron trong một hình vẽ](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.vi.png)
 
 Như chúng ta đã thảo luận trong phần giới thiệu, một trong những cách để đạt được trí tuệ là huấn luyện một **mô hình máy tính** hoặc một **bộ não nhân tạo**. Từ giữa thế kỷ 20, các nhà nghiên cứu đã thử nghiệm nhiều mô hình toán học khác nhau, cho đến những năm gần đây, hướng đi này đã chứng minh được sự thành công vượt bậc. Những mô hình toán học của bộ não này được gọi là **mạng nơ-ron**.
 
@@ -36,13 +36,13 @@ Trong chương trình này, chúng ta sẽ chỉ tập trung vào các mô hình
 
 Từ sinh học, chúng ta biết rằng bộ não của chúng ta bao gồm các tế bào thần kinh (nơ-ron), mỗi tế bào có nhiều "đầu vào" (dendrite) và một "đầu ra" (axon). Cả dendrite và axon đều có thể dẫn truyền tín hiệu điện, và các kết nối giữa chúng — được gọi là synapse — có thể thể hiện các mức độ dẫn truyền khác nhau, được điều chỉnh bởi các chất dẫn truyền thần kinh.
 
-![Mô hình của một Nơ-ron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.vi.jpg) | ![Mô hình của một Nơ-ron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.vi.png)
+![Mô hình của một Nơ-ron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.vi.jpg) | ![Mô hình của một Nơ-ron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.vi.png)
 ----|----
 Nơ-ron Thực *([Hình ảnh](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) từ Wikipedia)* | Nơ-ron Nhân Tạo *(Hình ảnh của Tác giả)*
 
 Do đó, mô hình toán học đơn giản nhất của một nơ-ron bao gồm nhiều đầu vào X<sub>1</sub>, ..., X<sub>N</sub> và một đầu ra Y, cùng một loạt các trọng số W<sub>1</sub>, ..., W<sub>N</sub>. Đầu ra được tính toán như sau:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.vi.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.vi.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 trong đó f là một **hàm kích hoạt** phi tuyến.
 

@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 با استفاده از یک لایه تعبیه به‌عنوان اولین لایه در شبکه دسته‌بند خود، می‌توانیم از مدل کیسه کلمات به مدل **کیسه تعبیه‌ها** تغییر دهیم، جایی که ابتدا هر کلمه در متن خود را به تعبیه مربوطه تبدیل می‌کنیم و سپس یک تابع تجمعی مانند `sum`، `average` یا `max` را بر روی تمام این تعبیه‌ها محاسبه می‌کنیم.
 
-![تصویری که یک دسته‌بند تعبیه برای پنج کلمه دنباله را نشان می‌دهد.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.fa.png)
+![تصویری که یک دسته‌بند تعبیه برای پنج کلمه دنباله را نشان می‌دهد.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.fa.png)
 
 > تصویر توسط نویسنده
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW سریع‌تر است، در حالی که اسکیپ‌گرام کندتر است اما در نمایش کلمات نادر بهتر عمل می‌کند.
 
-![تصویری که الگوریتم‌های CBoW و اسکیپ‌گرام را برای تبدیل کلمات به بردارها نشان می‌دهد.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.fa.png)
+![تصویری که الگوریتم‌های CBoW و اسکیپ‌گرام را برای تبدیل کلمات به بردارها نشان می‌دهد.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.fa.png)
 
 > تصویر از [این مقاله](https://arxiv.org/pdf/1301.3781.pdf)
 

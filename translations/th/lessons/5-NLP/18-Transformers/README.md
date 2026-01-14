@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **กลไก Attention** ให้วิธีการในการถ่วงน้ำหนักผลกระทบเชิงบริบทของแต่ละเวกเตอร์ข้อมูลเข้าในแต่ละการทำนายผลลัพธ์ของ RNN วิธีการนี้ถูกดำเนินการโดยการสร้างทางลัดระหว่างสถานะกลางของ RNN ข้อมูลเข้าและ RNN ข้อมูลออก ด้วยวิธีนี้ เมื่อสร้างสัญลักษณ์ผลลัพธ์ y<sub>t</sub> เราจะพิจารณาสถานะ hidden ทั้งหมด h<sub>i</sub> ของข้อมูลเข้า โดยมีค่าสัมประสิทธิ์น้ำหนักที่แตกต่างกัน &alpha;<sub>t,i</sub>
 
-![ภาพแสดงโมเดล encoder/decoder พร้อมชั้น attention แบบ additive](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.th.png)
+![ภาพแสดงโมเดล encoder/decoder พร้อมชั้น attention แบบ additive](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.th.png)
 
 > โมเดล encoder-decoder พร้อมกลไก attention แบบ additive ใน [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) อ้างอิงจาก [บล็อกโพสต์นี้](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 เมทริกซ์ attention {&alpha;<sub>i,j</sub>} จะเป็นตัวแทนระดับที่คำบางคำในข้อมูลเข้ามีบทบาทในการสร้างคำที่กำหนดในลำดับผลลัพธ์ ด้านล่างเป็นตัวอย่างของเมทริกซ์ดังกล่าว:
 
-![ภาพแสดงการจัดแนวตัวอย่างที่พบโดย RNNsearch-50 จาก Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.th.png)
+![ภาพแสดงการจัดแนวตัวอย่างที่พบโดย RNNsearch-50 จาก Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.th.png)
 
 > ภาพจาก [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ต่อไป เราจำเป็นต้องจับรูปแบบบางอย่างในลำดับของเรา เพื่อทำสิ่งนี้ Transformers ใช้กลไก **self-attention** ซึ่งเป็น Attention ที่นำไปใช้กับลำดับเดียวกันทั้งข้อมูลเข้าและข้อมูลออก การใช้ self-attention ช่วยให้เราพิจารณา **บริบท** ภายในประโยค และดูว่าคำใดมีความสัมพันธ์กัน ตัวอย่างเช่น มันช่วยให้เราเห็นว่าคำใดถูกอ้างถึงโดยคำสรรพนาม เช่น *it* และยังพิจารณาบริบทด้วย:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.th.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.th.png)
 
 > ภาพจาก [บล็อกของ Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Encoder-decoder attention มีความคล้ายคลึงกับ
 
 **BERT** (Bidirectional Encoder Representations from Transformers) เป็นเครือข่าย Transformer ขนาดใหญ่มากที่มีหลายชั้น โดยมี 12 ชั้นสำหรับ *BERT-base* และ 24 ชั้นสำหรับ *BERT-large* โมเดลนี้ถูกฝึกเบื้องต้นด้วยชุดข้อมูลข้อความขนาดใหญ่ (WikiPedia + หนังสือ) โดยใช้การฝึกแบบไม่ต้องมีการกำกับดูแล (การทำนายคำที่ถูกปิดบังในประโยค) ในระหว่างการฝึกเบื้องต้น โมเดลจะดูดซับความเข้าใจภาษาระดับสูง ซึ่งสามารถนำไปใช้กับชุดข้อมูลอื่นๆ ผ่านการปรับแต่งเพิ่มเติม กระบวนการนี้เรียกว่า **transfer learning**
 
-![ภาพจาก http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.th.png)
+![ภาพจาก http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.th.png)
 
 > ภาพ [แหล่งที่มา](http://jalammar.github.io/illustrated-bert/)
 

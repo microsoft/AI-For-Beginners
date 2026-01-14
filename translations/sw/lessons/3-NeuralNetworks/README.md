@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Utangulizi wa Mitandao ya Neva
 
-![Muhtasari wa maudhui ya Utangulizi wa Mitandao ya Neva katika mchoro](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.sw.png)
+![Muhtasari wa maudhui ya Utangulizi wa Mitandao ya Neva katika mchoro](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.sw.png)
 
 Kama tulivyojadili katika utangulizi, mojawapo ya njia za kufanikisha akili ni kufundisha **mfano wa kompyuta** au **ubongo bandia**. Tangu katikati ya karne ya 20, watafiti walijaribu mifano mbalimbali ya kihisabati, hadi miaka ya hivi karibuni ambapo mwelekeo huu ulionekana kufanikiwa sana. Mifano hii ya kihisabati ya ubongo inaitwa **mitandao ya neva**.
 
@@ -36,13 +36,13 @@ Katika mtaala huu, tutazingatia tu mifano ya mitandao ya neva.
 
 Kutoka kwa biolojia, tunajua kuwa ubongo wetu unajumuisha seli za neva (neuroni), kila moja ikiwa na "viingizo" vingi (dendriti) na "matokeo" moja (aksoni). Dendriti na aksoni zote mbili zinaweza kusafirisha ishara za umeme, na miunganisho kati yao — inayojulikana kama sinapsi — inaweza kuonyesha viwango tofauti vya usafirishaji, ambavyo vinadhibitiwa na nyurotransmita.
 
-![Mfano wa Neva](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.sw.jpg) | ![Mfano wa Neva](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.sw.png)
+![Mfano wa Neva](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.sw.jpg) | ![Mfano wa Neva](../../../../translated_images/artneuron.1a5daa88d20ebe6f.sw.png)
 ----|----
 Neva Halisi *([Picha](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) kutoka Wikipedia)* | Neva Bandia *(Picha na Mwandishi)*
 
 Kwa hivyo, mfano rahisi wa kihisabati wa neva una viingizo kadhaa X<sub>1</sub>, ..., X<sub>N</sub> na matokeo Y, na mfululizo wa uzito W<sub>1</sub>, ..., W<sub>N</sub>. Matokeo huhesabiwa kama:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.sw.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.sw.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 ambapo f ni **kazi ya uanzishaji** isiyo ya mstari.
 

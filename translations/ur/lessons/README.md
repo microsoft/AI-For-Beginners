@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # جائزہ
 
-![ڈوڈل میں جائزہ](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ur.png)
+![ڈوڈل میں جائزہ](../../../translated_images/ai-overview.0857791951d19500.ur.png)
 
 > اسکیچ نوٹ از [Tomomi Imura](https://twitter.com/girlie_mac)
 

@@ -15,7 +15,7 @@ NLP ടാസ്കുകൾ പരിഹരിക്കുന്നതിന്
 
 CLIP-ന്റെ പ്രധാന ആശയം ഒരു ടെക്സ്റ്റ് പ്രോംപ്റ്റും ഒരു ചിത്രവും താരതമ്യം ചെയ്ത് ചിത്രം പ്രോംപ്റ്റിനോട് എത്രത്തോളം പൊരുത്തപ്പെടുന്നു എന്ന് നിർണ്ണയിക്കാനാകുക എന്നതാണ്.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.ml.png)
+![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.ml.png)
 
 > *ഈ ചിത്രം [ഈ ബ്ലോഗ് പോസ്റ്റിൽ നിന്നാണ്](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CLIP മോഡൽ/ലൈബ്രറി [OpenAI GitHub](https://github.com/opena
 
 ഉദാഹരണത്തിന്, പൂച്ചകൾ, നായകൾ, മനുഷ്യർ എന്നിങ്ങനെ ചിത്രങ്ങൾ വർഗ്ഗീകരിക്കേണ്ടതുണ്ടെങ്കിൽ, മോഡലിന് ഒരു ചിത്രം നൽകുകയും, "*ഒരു പൂച്ചയുടെ ചിത്രം*", "*ഒരു നായയുടെ ചിത്രം*", "*ഒരു മനുഷ്യന്റെ ചിത്രം*" എന്നിങ്ങനെ ടെക്സ്റ്റ് പ്രോംപ്റ്റുകൾ നൽകുകയും ചെയ്യാം. 3 പ്രോബബിലിറ്റികളുള്ള വെക്ടറിൽ ഏറ്റവും ഉയർന്ന മൂല്യമുള്ള ഇൻഡക്സ് തിരഞ്ഞെടുക്കുക മതി.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.ml.png)
+![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.ml.png)
 
 > *ഈ ചിത്രം [ഈ ബ്ലോഗ് പോസ്റ്റിൽ നിന്നാണ്](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ VQGAN-നെ കുറിച്ച് കൂടുതൽ അറിയാൻ [Tam
 
 VQGAN-നും പരമ്പരാഗത GAN-നും ഇടയിലെ പ്രധാന വ്യത്യാസം, GAN ഏതെങ്കിലും ഇൻപുട്ട് വെക്ടറിൽ നിന്ന് നല്ല ചിത്രം സൃഷ്ടിക്കാമെങ്കിലും, VQGAN സൃഷ്ടിക്കുന്ന ചിത്രം സുസംയോജിതമല്ലായിരിക്കാം. അതിനാൽ, ചിത്രം സൃഷ്ടിക്കൽ പ്രക്രിയ കൂടുതൽ മാർഗ്ഗനിർദ്ദേശം ആവശ്യമാണ്, അത് CLIP ഉപയോഗിച്ച് സാധ്യമാക്കാം.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.ml.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.ml.png)
 
 ഒരു ടെക്സ്റ്റ് പ്രോംപ്റ്റിനോട് പൊരുത്തമുള്ള ചിത്രം സൃഷ്ടിക്കാൻ, ആദ്യം ഒരു യാദൃച്ഛിക എൻകോഡിംഗ് വെക്ടർ എടുത്ത് VQGAN വഴി ചിത്രം സൃഷ്ടിക്കുന്നു. തുടർന്ന് CLIP ഉപയോഗിച്ച് ചിത്രം പ്രോംപ്റ്റിനോട് എത്രത്തോളം പൊരുത്തപ്പെടുന്നു എന്ന് കാണിക്കുന്ന ലോസ് ഫംഗ്ഷൻ നിർമ്മിക്കുന്നു. ഈ ലോസ് കുറയ്ക്കാൻ ബാക്ക് പ്രൊപ്പഗേഷൻ ഉപയോഗിച്ച് ഇൻപുട്ട് വെക്ടർ പാരാമീറ്ററുകൾ ക്രമീകരിക്കുന്നു.
 
 VQGAN+CLIP നടപ്പിലാക്കുന്ന മികച്ച ലൈബ്രറിയാണ് [Pixray](http://github.com/pixray/pixray)
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.ml.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.ml.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.ml.png)
+![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.ml.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.ml.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.ml.png)
 ----|----|----
 *ഒരു പുസ്തകമുള്ള സാഹിത്യ അധ്യാപകനായ യുവ പുരുഷന്റെ ക്ലോസ്അപ്പ് വാട്ടർകോളർ പോർട്രെയിറ്റ്* എന്ന പ്രോംപ്റ്റിൽ നിന്നുള്ള ചിത്രം | *ഒരു കമ്പ്യൂട്ടർ ഉള്ള യുവ വനിതാ കമ്പ്യൂട്ടർ സയൻസ് അധ്യാപകന്റെ ക്ലോസ്അപ്പ് ഓയിൽ പോർട്രെയിറ്റ്* എന്ന പ്രോംപ്റ്റിൽ നിന്നുള്ള ചിത്രം | *ബ്ലാക്ക്ബോർഡിന് മുന്നിലുള്ള പ്രായമായ പുരുഷ ഗണിത അധ്യാപകന്റെ ക്ലോസ്അപ്പ് ഓയിൽ പോർട്രെയിറ്റ്* എന്ന പ്രോംപ്റ്റിൽ നിന്നുള്ള ചിത്രം
 

@@ -73,14 +73,14 @@ Sa aming [OpenCV Notebook](OpenCV.ipynb), nagbibigay kami ng ilang mga halimbawa
 
 * **Pre-processing ng larawan ng isang Braille book**. Nakatuon kami sa kung paano namin magagamit ang thresholding, feature detection, perspective transformation, at NumPy manipulations upang paghiwalayin ang mga indibidwal na Braille symbols para sa karagdagang classification ng isang neural network.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.tl.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.tl.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.tl.png)
+![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.tl.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.tl.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.tl.png)
 ----|-----|-----
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Pagtuklas ng galaw sa video gamit ang frame difference**. Kung ang camera ay nakapirmi, ang mga frame mula sa camera feed ay dapat medyo magkatulad sa isa't isa. Dahil ang mga frame ay kinakatawan bilang arrays, sa pamamagitan lamang ng pagbabawas ng mga arrays para sa dalawang magkasunod na frame ay makakakuha tayo ng pixel difference, na dapat mababa para sa static frames, at magiging mas mataas kapag may makabuluhang galaw sa imahe.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.tl.png)
+![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.tl.png)
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Sa aming [OpenCV Notebook](OpenCV.ipynb), nagbibigay kami ng ilang mga halimbawa
    - **Dense Optical Flow** ay kinakalkula ang vector field na nagpapakita kung saan gumagalaw ang bawat pixel
    - **Sparse Optical Flow** ay batay sa pagkuha ng ilang natatanging features sa imahe (hal. edges), at pagbuo ng kanilang trajectory mula frame to frame.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.tl.png)
+![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.tl.png)
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 

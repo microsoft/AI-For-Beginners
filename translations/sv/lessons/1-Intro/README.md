@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till AI
 
-![Sammanfattning av innehållet i Introduktion till AI i en skiss](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.sv.png)
+![Sammanfattning av innehållet i Introduktion till AI i en skiss](../../../../translated_images/ai-intro.bf28d1ac4235881c.sv.png)
 
 > Skiss av [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ursprungligen uppfanns datorer av [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) för att arbeta med siffror enligt en väl definierad procedur - en algoritm. Moderna datorer, även om de är betydligt mer avancerade än den ursprungliga modellen som föreslogs på 1800-talet, följer fortfarande samma idé om kontrollerade beräkningar. Därför är det möjligt att programmera en dator att göra något om vi vet den exakta sekvensen av steg som behövs för att uppnå målet.
 
-![Foto av en person](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.sv.png)
+![Foto av en person](../../../../translated_images/dsh_age.d212a30d4e54fb5f.sv.png)
 
 > Foto av [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ För mer information, se **[Artificiell General Intelligens](https://en.wikipedi
 
 Ett av problemen med att hantera termen **[intelligens](https://en.wikipedia.org/wiki/Intelligence)** är att det inte finns någon tydlig definition av termen. Man kan argumentera för att intelligens är kopplad till **abstrakt tänkande** eller **självmedvetenhet**, men vi kan inte definiera det ordentligt.
 
-![Foto av en katt](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.sv.jpg)
+![Foto av en katt](../../../../translated_images/photo-cat.8c8e8fb760ffe457.sv.jpg)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) av [Amber Kipp](https://unsplash.com/@sadmax) från Unsplash
 
@@ -98,13 +98,13 @@ Alternativt kan vi försöka modellera de enklaste elementen i vår hjärna – 
 
 > | Vad sägs om ML?         |      |
 > |--------------|-----------|
-> | En del av artificiell intelligens som bygger på att datorn lär sig att lösa ett problem baserat på viss data kallas **Machine Learning**. Vi kommer inte att behandla klassisk maskininlärning i denna kurs - vi hänvisar dig till en separat [Machine Learning for Beginners](http://aka.ms/ml-beginners) läroplan. |   ![ML för nybörjare](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.sv.png)    |
+> | En del av artificiell intelligens som bygger på att datorn lär sig att lösa ett problem baserat på viss data kallas **Machine Learning**. Vi kommer inte att behandla klassisk maskininlärning i denna kurs - vi hänvisar dig till en separat [Machine Learning for Beginners](http://aka.ms/ml-beginners) läroplan. |   ![ML för nybörjare](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.sv.png)    |
 
 ## En kort historia om AI
 
 Artificiell intelligens startade som ett område i mitten av 1900-talet. Ursprungligen var symboliskt resonemang en dominerande ansats, och det ledde till ett antal viktiga framgångar, såsom expertsystem – datorprogram som kunde agera som en expert inom vissa begränsade problemområden. Men det blev snart klart att en sådan ansats inte skalar bra. Att extrahera kunskap från en expert, representera den i en dator och hålla den kunskapsbasen korrekt visade sig vara en mycket komplex uppgift och för dyr för att vara praktisk i många fall. Detta ledde till den så kallade [AI-vintern](https://en.wikipedia.org/wiki/AI_winter) på 1970-talet.
 
-<img alt="Kort historia om AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.sv.png" width="70%"/>
+<img alt="Kort historia om AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.sv.png" width="70%"/>
 
 > Bild av [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ På samma sätt kan vi se hur ansatsen för att skapa "talande program" (som kan
 * Moderna assistenter, såsom Cortana, Siri eller Google Assistant, är alla hybridsystem som använder neurala nätverk för att konvertera tal till text och känna igen vår avsikt, och sedan använder vissa resonemang eller explicita algoritmer för att utföra nödvändiga åtgärder.
 * I framtiden kan vi förvänta oss en komplett neuralbaserad modell som hanterar dialoger själv. Den senaste GPT- och [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft)-familjen av neurala nätverk visar stor framgång i detta.
 
-<img alt="Turing-testets utveckling" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.sv.png" width="70%"/>
+<img alt="Turing-testets utveckling" src="../../../../translated_images/turing-test-evol.4184696701293ead.sv.png" width="70%"/>
 > Bild av Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) av [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Senaste AI-forskningen

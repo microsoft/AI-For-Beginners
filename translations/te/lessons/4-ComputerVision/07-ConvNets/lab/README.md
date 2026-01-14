@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 మేము [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ఉపయోగించబోతున్నాము, ఇది 37 వేర్వేరు జాతుల కుక్కలు మరియు పిల్లుల చిత్రాలను కలిగి ఉంది.
 
-![మేము ఉపయోగించబోయే డేటాసెట్](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.te.png)
+![మేము ఉపయోగించబోయే డేటాసెట్](../../../../../../translated_images/data.50b2a9d5484bdbf0.te.png)
 
 డేటాసెట్‌ను డౌన్లోడ్ చేసుకోవడానికి, ఈ కోడ్ స్నిపెట్ ఉపయోగించండి:
 

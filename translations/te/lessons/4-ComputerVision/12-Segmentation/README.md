@@ -20,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ఇన్స్టాన్స్ విభజనలో, ఈ గొర్రెలు వేర్వేరు ఆబ్జెక్టులు, కానీ సెమాంటిక్ విభజనలో అన్ని గొర్రెలు ఒకే వర్గంగా చూపబడతాయి.
 
-<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd450cdef4caaed2d4dd9c6c3b671e0c65d8aef312758ebb7b89.te.jpeg" width="50%">
+<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd45.te.jpeg" width="50%">
 
 > చిత్రం [ఈ బ్లాగ్ పోస్ట్](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) నుండి
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **ఎంకోడర్** ఇన్‌పుట్ చిత్రంలో నుండి ఫీచర్లను తీసుకుంటుంది
 * **డీకోడర్** ఆ ఫీచర్లను **మాస్క్ చిత్రం**గా మార్చుతుంది, అదే పరిమాణం మరియు వర్గాల సంఖ్యకు సరిపోయే ఛానెల్‌లతో.
 
-<img src="../../../../../translated_images/segm.92442f2cb42ff4fa650fee858a3a02f55cf46825d9602115130e9e95a52a8526.te.png" width="80%">
+<img src="../../../../../translated_images/segm.92442f2cb42ff4fa.te.png" width="80%">
 
 > చిత్రం [ఈ ప్రచురణ](https://arxiv.org/pdf/2001.05566.pdf) నుండి
 
@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ ఈ సాంకేతికత ఈ రకమైన వైద్య చిత్రీకరణకు చాలా అనుకూలంగా ఉంటుంది, కానీ మీరు మరే ఇతర వాస్తవ ప్రపంచ అనువర్తనాలను ఊహించగలరా?
 
-<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea593fa03a2491f2ba1b25c62c97b33c692bcf01917a1f333f.te.png"/>
+<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea.te.png"/>
 
 > చిత్రం PH<sup>2</sup> డేటాబేస్ నుండి
 

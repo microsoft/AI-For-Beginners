@@ -70,7 +70,7 @@ Voit avata yhden malleista, esimerkiksi **Biology &rightarrow; Flocking**.
 
 Kun avaat mallin, sinut ohjataan NetLogon pääruutuun. Tässä on esimerkkimalli, joka kuvaa susien ja lampaiden populaatiota rajallisten resurssien (ruohon) avulla.
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.fi.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.fi.png)
 
 > Kuvakaappaus Dmitry Soshnikovilta
 

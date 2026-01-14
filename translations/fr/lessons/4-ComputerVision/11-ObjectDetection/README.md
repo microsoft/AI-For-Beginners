@@ -13,7 +13,7 @@ Les modèles de classification d'images que nous avons abordés jusqu'à présen
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Détection d'objets](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.fr.png)
+![Détection d'objets](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.fr.png)
 
 > Image tirée du [site web YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Supposons que nous voulions trouver un chat sur une image. Une approche très na
 2. Effectuer une classification d'image sur chaque carreau.
 3. Les carreaux qui produisent une activation suffisamment élevée peuvent être considérés comme contenant l'objet en question.
 
-![Détection naïve d'objets](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.fr.png)
+![Détection naïve d'objets](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.fr.png)
 
 > *Image tirée du [cahier d'exercices](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Vous pourriez rencontrer les jeux de données suivants pour cette tâche :
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classes, boîtes englobantes et masques de segmentation
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.fr.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.fr.jpg)
 
 ## Métriques de détection d'objets
 
@@ -50,7 +50,7 @@ Vous pourriez rencontrer les jeux de données suivants pour cette tâche :
 
 Alors que pour la classification d'images, il est facile de mesurer la performance de l'algorithme, pour la détection d'objets, nous devons mesurer à la fois la justesse de la classe et la précision de la localisation de la boîte englobante inférée. Pour cette dernière, nous utilisons ce qu'on appelle **Intersection over Union** (IoU), qui mesure à quel point deux boîtes (ou deux zones arbitraires) se chevauchent.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.fr.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.fr.png)
 
 > *Figure 2 tirée de [cet excellent article de blog sur IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Il existe deux grandes catégories d'algorithmes de détection d'objets :
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) utilise [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) pour générer une structure hiérarchique de régions ROI, qui sont ensuite passées par des extracteurs de caractéristiques CNN et des classificateurs SVM pour déterminer la classe de l'objet, et une régression linéaire pour déterminer les coordonnées de la *boîte englobante*. [Article officiel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.fr.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.fr.png)
 
 > *Image tirée de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.fr.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.fr.png)
 
 > *Images tirées de [cet article de blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Il existe deux grandes catégories d'algorithmes de détection d'objets :
 
 Cette approche est similaire à R-CNN, mais les régions sont définies après l'application des couches de convolution.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.fr.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.fr.png)
 
 > Image tirée de [l'article officiel](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Cette approche est similaire à R-CNN, mais les régions sont définies après l
 
 L'idée principale de cette approche est d'utiliser un réseau neuronal pour prédire les ROI - le *Réseau de propositions de régions*. [Article](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.fr.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.fr.png)
 
 > Image tirée de [l'article officiel](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Cet algorithme est encore plus rapide que Faster R-CNN. L'idée principale est l
 1. Les caractéristiques sont traitées par une **carte de score sensible à la position**. Chaque objet des $C$ classes est divisé en $k\times k$ régions, et nous entraînons le réseau à prédire des parties d'objets.
 1. Pour chaque partie des $k\times k$ régions, tous les réseaux votent pour les classes d'objets, et la classe d'objet avec le vote maximum est sélectionnée.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.fr.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.fr.png)
 
 > Image tirée de [l'article officiel](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO est un algorithme en temps réel en un seul passage. L'idée principale est
  * L'image est divisée en $S\times S$ régions.
  * Pour chaque région, **CNN** prédit $n$ objets possibles, les coordonnées de la *boîte englobante* et la *confiance*=*probabilité* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.fr.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.fr.png)
 
 > Image tirée de [l'article officiel](https://arxiv.org/abs/1506.02640)
 

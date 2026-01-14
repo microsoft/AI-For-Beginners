@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 एक नेटवर्क है जिसने 2014 में ImageNet टॉप-5 क्लासिफिकेशन में 92.7% सटीकता हासिल की। इसका लेयर स्ट्रक्चर निम्नलिखित है:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.hi.jpg)
+![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.hi.jpg)
 
 जैसा कि आप देख सकते हैं, VGG एक पारंपरिक पिरामिड आर्किटेक्चर का अनुसरण करता है, जो कि कॉन्वोल्यूशन-पूलिंग लेयर्स का अनुक्रम है।
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.hi.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.hi.jpg)
 
 > चित्र [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) से लिया गया है
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visione Artificiale
 
-![Riassunto dei contenuti sulla Visione Artificiale in uno schizzo](../../../../translated_images/ai-computervision.6506ebebac3fbf76cdb78989d7d3dfea87e88285c0feaade53aa7804a22b248f.it.png)
+![Riassunto dei contenuti sulla Visione Artificiale in uno schizzo](../../../../translated_images/ai-computervision.6506ebebac3fbf76.it.png)
 
 In questa sezione impareremo:
 

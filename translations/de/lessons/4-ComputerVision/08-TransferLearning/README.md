@@ -29,7 +29,7 @@ Sowohl Keras als auch PyTorch enthalten Funktionen, um vortrainierte neuronale N
 
 Hier sind Beispielmerkmale, die von einem Bild einer Katze durch das VGG-16-Netzwerk extrahiert wurden:
 
-![Merkmale extrahiert von VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.de.png)
+![Merkmale extrahiert von VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.de.png)
 
 ## Cats vs. Dogs Datensatz
 
@@ -48,19 +48,19 @@ Ein vortrainiertes neuronales Netzwerk enthält verschiedene Muster in seinem *G
 
 Ein Ansatz, den wir verfolgen können, besteht darin, mit einem zufälligen Bild zu beginnen und dann die Technik der **Gradientenabstiegsoptimierung** zu verwenden, um dieses Bild so anzupassen, dass das Netzwerk denkt, es sei eine Katze.
 
-![Bildoptimierungsschleife](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.de.png)
+![Bildoptimierungsschleife](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.de.png)
 
 Wenn wir dies jedoch tun, erhalten wir etwas, das einem zufälligen Rauschen sehr ähnlich ist. Dies liegt daran, dass *es viele Möglichkeiten gibt, das Netzwerk glauben zu lassen, dass das Eingabebild eine Katze ist*, einschließlich solcher, die visuell keinen Sinn ergeben. Während diese Bilder viele für eine Katze typische Muster enthalten, gibt es nichts, das sie visuell unterscheidbar macht.
 
 Um das Ergebnis zu verbessern, können wir einen weiteren Term in die Verlustfunktion einfügen, der als **Variationsverlust** bezeichnet wird. Dies ist eine Metrik, die zeigt, wie ähnlich benachbarte Pixel des Bildes sind. Die Minimierung des Variationsverlusts macht das Bild glatter und beseitigt Rauschen – wodurch visuell ansprechendere Muster sichtbar werden. Hier ist ein Beispiel für solche "idealen" Bilder, die mit hoher Wahrscheinlichkeit als Katze bzw. Zebra klassifiziert werden:
 
-![Ideale Katze](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.de.png) | ![Ideales Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.de.png)
+![Ideale Katze](../../../../../translated_images/ideal-cat.203dd4597643d6b0.de.png) | ![Ideales Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.de.png)
 -----|-----
 *Ideale Katze* | *Ideales Zebra*
 
 Ein ähnlicher Ansatz kann verwendet werden, um sogenannte **adversariale Angriffe** auf ein neuronales Netzwerk durchzuführen. Angenommen, wir möchten ein neuronales Netzwerk täuschen und einen Hund wie eine Katze aussehen lassen. Wenn wir das Bild eines Hundes nehmen, das vom Netzwerk als Hund erkannt wird, können wir es mit Hilfe der Gradientenabstiegsoptimierung so lange leicht anpassen, bis das Netzwerk es als Katze klassifiziert:
 
-![Bild eines Hundes](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.de.png) | ![Bild eines Hundes, der als Katze klassifiziert wird](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.de.png)
+![Bild eines Hundes](../../../../../translated_images/original-dog.8f68a67d2fe0911f.de.png) | ![Bild eines Hundes, der als Katze klassifiziert wird](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.de.png)
 -----|-----
 *Originalbild eines Hundes* | *Bild eines Hundes, der als Katze klassifiziert wird*
 

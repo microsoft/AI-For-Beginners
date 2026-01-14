@@ -15,7 +15,7 @@ Po transformatorių modelių sėkmės sprendžiant NLP užduotis, tos pačios ar
 
 Pagrindinė CLIP idėja yra gebėjimas palyginti tekstinius užklausimus su vaizdu ir nustatyti, kaip gerai vaizdas atitinka užklausimą.
 
-![CLIP Architektūra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be1c38e2bc6100fd3cc257c33cda4692b301be91f791b13ea7.lt.png)
+![CLIP Architektūra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.lt.png)
 
 > *Paveikslėlis iš [šio tinklaraščio įrašo](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kai modelis yra iš anksto apmokytas, galime jam pateikti vaizdų paketą ir tek
 
 Tarkime, mums reikia klasifikuoti vaizdus, pavyzdžiui, į kategorijas: katės, šunys ir žmonės. Tokiu atveju galime modeliui pateikti vaizdą ir seriją tekstinių užklausų: "*katės paveikslas*", "*šuns paveikslas*", "*žmogaus paveikslas*". Gautame 3 tikimybių vektoriuje tiesiog reikia pasirinkti indeksą su didžiausia reikšme.
 
-![CLIP vaizdų klasifikavimui](../../../../../translated_images/clip-class.3af42ef0b2b19369a633df5f20ddf4f5a01d6c8ffa181e9d3a0572c19f919f72.lt.png)
+![CLIP vaizdų klasifikavimui](../../../../../translated_images/clip-class.3af42ef0b2b19369.lt.png)
 
 > *Paveikslėlis iš [šio tinklaraščio įrašo](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Daugiau apie VQGAN sužinokite [Taming Transformers](https://compvis.github.io/t
 
 Vienas svarbus skirtumas tarp VQGAN ir tradicinio GAN yra tas, kad pastarasis gali sukurti padorų vaizdą iš bet kokio įvesties vektoriaus, o VQGAN greičiausiai sukurs vaizdą, kuris nebus nuoseklus. Todėl reikia papildomai vadovauti vaizdo kūrimo procesui, ir tai galima padaryti naudojant CLIP.
 
-![VQGAN+CLIP Architektūra](../../../../../translated_images/vqgan.5027fe05051dfa3101950cfa930303f66e6478b9bd273e83766731796e462d9b.lt.png)
+![VQGAN+CLIP Architektūra](../../../../../translated_images/vqgan.5027fe05051dfa31.lt.png)
 
 Norint sugeneruoti vaizdą, atitinkantį tekstinę užklausą, pradedame nuo atsitiktinio kodavimo vektoriaus, kuris perduodamas per VQGAN, kad būtų sukurtas vaizdas. Tada CLIP naudojamas nuostolių funkcijai sukurti, kuri parodo, kaip gerai vaizdas atitinka tekstinę užklausą. Tikslas yra sumažinti šiuos nuostolius, naudojant atgalinį sklidimą, kad būtų koreguojami įvesties vektoriaus parametrai.
 
 Puiki biblioteka, įgyvendinanti VQGAN+CLIP, yra [Pixray](http://github.com/pixray/pixray).
 
-![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d09dc96de938b9f95bde8a7e1c721f48f286a7795bf16d56c7.lt.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a439077e1c32cc8afdf714e634fe24dc78dc5aa45fd2f560b0ed5.lt.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683b9d36a613b364deb7454760cd39205623fc1e3938fa133c0.lt.png)
+![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.lt.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.lt.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.lt.png)
 ----|----|----
 Vaizdas sukurtas pagal užklausą *artimas akvarelės portretas jauno literatūros mokytojo su knyga* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas jaunos kompiuterių mokslų mokytojos su kompiuteriu* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas seno matematikos mokytojo priešais lentą*
 

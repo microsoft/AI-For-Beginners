@@ -19,7 +19,7 @@ Az előző egységben tárgyalt RNN architektúrában minden RNN egység a köve
 
 Ez különböző neurális architektúrákat tesz lehetővé, amelyeket az alábbi képen láthatunk:
 
-![Kép, amely a rekurrens neurális hálózatok gyakori mintázatait mutatja.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.hu.jpg)
+![Kép, amely a rekurrens neurális hálózatok gyakori mintázatait mutatja.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hu.jpg)
 
 > Kép Andrej Karpaty [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) című blogbejegyzéséből [Andrej Karpaty](http://karpathy.github.io/) által
 
@@ -32,7 +32,7 @@ Ebben az egységben egyszerű generatív modellekre fogunk összpontosítani, am
 
 Ezt az RNN-t arra fogjuk tanítani, hogy lépésről lépésre generáljon szöveget. Minden lépésben egy `nchars` hosszúságú karakter sorozatot veszünk, és megkérjük a hálózatot, hogy generálja a következő kimeneti karaktert minden bemeneti karakterhez:
 
-![Kép, amely az 'HELLO' szó RNN általi generálását mutatja.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.hu.png)
+![Kép, amely az 'HELLO' szó RNN általi generálását mutatja.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.hu.png)
 
 Szöveg generálásakor (következtetés során) egy **indítószöveggel** kezdünk, amelyet RNN cellákon keresztül adunk át, hogy előállítsuk annak köztes állapotát, majd ebből az állapotból kezdődik a generálás. Egy karaktert generálunk egyszerre, és az állapotot és a generált karaktert átadjuk egy másik RNN cellának, hogy generálja a következőt, amíg elegendő karaktert nem generálunk.
 

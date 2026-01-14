@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kunskapsrepresentation och Expertsystem
 
-![Sammanfattning av Symbolisk AI-innehåll](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.sv.png)
+![Sammanfattning av Symbolisk AI-innehåll](../../../../translated_images/ai-symbolic.715a30cb610411a6.sv.png)
 
 > Sketchnote av [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Oftast definierar vi inte strikt vad kunskap är, utan vi relaterar den till and
 
 Således är problemet med **kunskapsrepresentation** att hitta ett effektivt sätt att representera kunskap i en dator i form av data, för att göra den automatiskt användbar. Detta kan ses som ett spektrum:
 
-![Spektrum för kunskapsrepresentation](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.sv.png)
+![Spektrum för kunskapsrepresentation](../../../../translated_images/knowledge-spectrum.b60df631852c0217.sv.png)
 
 > Bild av [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blocksyntax | Indragning | | |
 
 En av de tidiga framgångarna med symbolisk AI var de så kallade **expertsystemen** - datorsystem som designades för att agera som experter inom ett begränsat problemområde. De baserades på en **kunskapsbas** som extraherades från en eller flera mänskliga experter och innehöll en **slutsatsmotor** som utförde resonerande ovanpå den.
 
-![Mänsklig arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.sv.png) | ![Kunskapsbaserat system](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.sv.png)
+![Mänsklig arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.sv.png) | ![Kunskapsbaserat system](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.sv.png)
 ---------------------------------------------|------------------------------------------------
 Förenklad struktur av ett mänskligt nervsystem | Arkitektur av ett kunskapsbaserat system
 
@@ -106,7 +106,7 @@ Expertsystem är byggda som det mänskliga resoneringssystemet, som innehåller 
 
 Som ett exempel, låt oss överväga följande expertsystem för att bestämma ett djur baserat på dess fysiska egenskaper:
 
-![AND-OR-träd](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.sv.png)
+![AND-OR-träd](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.sv.png)
 
 > Bild av [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -17,7 +17,7 @@ Kui aga proovime luua midagi tõeliselt tähenduslikku, näiteks maali mõistlik
 
 GAN-i peamine idee on kasutada kahte närvivõrku, mis treenivad üksteise vastu:
 
-<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d698a91f7668017d8e09b81c5d8e7cc99bdb23979d90a0c475e.et.png" width="70%"/>
+<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d69.et.png" width="70%"/>
 
 > Pilt: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +41,7 @@ Generaator on veidi keerulisem. Seda võib pidada pööratud diskrimineerijaks. 
 
 > ✅ Kuna konvolutsioonikiht rakendatakse lineaarse filtrina, mis liigub üle pildi, on dekonvolutsioon sisuliselt sarnane konvolutsiooniga ja seda saab rakendada sama kihi loogikaga.
 
-<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543170264fe07e516683ac3e5bb699392c35449e99590a11063.et.png" width="70%"/>
+<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543.et.png" width="70%"/>
 
 > Pilt: [Dmitry Soshnikov](http://soshnikov.com)
 

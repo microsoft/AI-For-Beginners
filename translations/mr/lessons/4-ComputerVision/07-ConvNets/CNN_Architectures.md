@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 हा एक नेटवर्क आहे ज्याने 2014 मध्ये ImageNet टॉप-5 वर्गीकरणात 92.7% अचूकता मिळवली. यामध्ये खालील स्तर रचना आहे:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51baeaab3e768567d921e5d54befa46e1e642616c5458c934028.mr.jpg)
+![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.mr.jpg)
 
 जसे तुम्ही पाहू शकता, VGG पारंपरिक पिरॅमिड आर्किटेक्चरचे अनुसरण करते, जे कन्व्होल्यूशन-पूलिंग स्तरांचा क्रम आहे.
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49fdaa786e3f3a975b3f22615efd13efb19c5d22f12e01451a1.mr.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.mr.jpg)
 
 > प्रतिमा [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) वरून घेतलेली आहे.
 

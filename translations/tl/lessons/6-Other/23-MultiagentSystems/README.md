@@ -70,7 +70,7 @@ Maaari mong buksan ang isa sa mga modelo, halimbawa **Biology &rightarrow; Flock
 
 Pagkatapos buksan ang modelo, dadalhin ka sa pangunahing screen ng NetLogo. Narito ang isang sample na modelo na naglalarawan sa populasyon ng mga lobo at tupa, na may limitadong resources (damo).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.tl.png)
+![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.tl.png)
 
 > Screenshot ni Dmitry Soshnikov
 

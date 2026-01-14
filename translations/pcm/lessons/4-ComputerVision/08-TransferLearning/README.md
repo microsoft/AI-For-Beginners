@@ -29,7 +29,7 @@ Both Keras and PyTorch get functions wey make am easy to load pre-trained neural
 
 See example of features wey VGG-16 network extract from cat picture:
 
-![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.pcm.png)
+![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.pcm.png)
 
 ## Cats vs. Dogs Dataset
 
@@ -48,19 +48,19 @@ Pre-trained neural network get different patterns for inside e *brain*, includin
 
 One way we fit try na to start with random image, then use **gradient descent optimization** technique to adjust di image so di network go dey think say na cat.
 
-![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.pcm.png)
+![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.pcm.png)
 
 But if we do am like dis, wetin we go get go dey like random noise. Dis na because *plenty ways dey to make network think say di input image na cat*, including some wey no go make sense for eye. Even though di images get plenty patterns wey dey typical for cat, nothing dey hold dem to look clear.
 
 To make di result better, we fit add another term for di loss function, wey dem dey call **variation loss**. Na metric wey dey show how similar di neighboring pixels of di image be. If we minimize variation loss, e go make di image smooth, and remove noise - so we go fit see di patterns well. See example of dis kain "ideal" images wey dem classify as cat and zebra with high probability:
 
-![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.pcm.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.pcm.png)
+![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0.pcm.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.pcm.png)
 -----|-----
  *Ideal Cat* | *Ideal Zebra*
 
 We fit use similar method to do wetin dem dey call **adversarial attacks** for neural network. Imagine say we wan confuse di neural network make e think say dog be cat. If we carry dog image wey di network recognize as dog, we fit adjust am small small with gradient descent optimization, until di network go dey classify am as cat:
 
-![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.pcm.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.pcm.png)
+![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f.pcm.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.pcm.png)
 -----|-----
 *Original picture of a dog* | *Picture of a dog classified as a cat*
 

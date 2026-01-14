@@ -11,13 +11,13 @@ Avec les RNN, la séquence à séquence est mise en œuvre par deux réseaux ré
 
 Les **Mécanismes d'Attention** fournissent un moyen de pondérer l'impact contextuel de chaque vecteur d'entrée sur chaque prédiction de sortie du RNN. La manière dont cela est mis en œuvre consiste à créer des raccourcis entre les états intermédiaires du RNN d'entrée et le RNN de sortie. De cette manière, lors de la génération du symbole de sortie y<sub>t</sub>, nous prendrons en compte tous les états cachés d'entrée h<sub>i</sub>, avec des coefficients de poids différents α<sub>t,i</sub>.
 
-![Image montrant un modèle encodeur/décodeur avec une couche d'attention additive](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.fr.png)
+![Image montrant un modèle encodeur/décodeur avec une couche d'attention additive](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.fr.png)
 
 > Le modèle encodeur-décodeur avec mécanisme d'attention additive dans [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cité dans [cet article de blog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 La matrice d'attention {α<sub>i,j</sub>} représenterait le degré auquel certains mots d'entrée jouent dans la génération d'un mot donné dans la séquence de sortie. Voici un exemple d'une telle matrice :
 
-![Image montrant un alignement d'exemple trouvé par RNNsearch-50, tiré de Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.fr.png)
+![Image montrant un alignement d'exemple trouvé par RNNsearch-50, tiré de Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.fr.png)
 
 > Figure de [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -57,7 +57,7 @@ Le résultat que nous obtenons avec l'embedding positionnel intègre à la fois 
 
 Ensuite, nous devons capturer certains motifs au sein de notre séquence. Pour ce faire, les transformateurs utilisent un mécanisme d'**auto-attention**, qui est essentiellement une attention appliquée à la même séquence en tant qu'entrée et sortie. L'application de l'auto-attention nous permet de prendre en compte le **contexte** au sein de la phrase, et de voir quels mots sont inter-reliés. Par exemple, cela nous permet de voir quels mots sont référencés par des coréférences, telles que *il*, et également de prendre en compte le contexte :
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.fr.png)
+![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.fr.png)
 
 > Image du [Blog de Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -82,7 +82,7 @@ Puisque chaque position d'entrée est mappée indépendamment à chaque position
 
 **BERT** (Représentations Encodeur Bidirectionnelles à partir de Transformateurs) est un très grand réseau de transformateurs multicouches avec 12 couches pour *BERT-base*, et 24 pour *BERT-large*. Le modèle est d'abord pré-entraîné sur un grand corpus de données textuelles (WikiPedia + livres) en utilisant un entraînement non supervisé (prédiction de mots masqués dans une phrase). Pendant le pré-entraînement, le modèle absorbe des niveaux significatifs de compréhension linguistique qui peuvent ensuite être exploités avec d'autres ensembles de données en utilisant un ajustement fin. Ce processus est appelé **apprentissage par transfert**.
 
-![image de http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.fr.png)
+![image de http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.fr.png)
 
 > Image [source](http://jalammar.github.io/illustrated-bert/)
 

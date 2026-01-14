@@ -58,7 +58,7 @@ Ylikoulutus on erittäin tärkeä käsite koneoppimisessa, ja on erittäin tärk
 
 Tarkastellaan seuraavaa ongelmaa, jossa pyritään approksimoimaan 5 pistettä (esitettynä `x`-merkeillä alla olevissa kaavioissa):
 
-![lineaarinen](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.fi.jpg) | ![ylikoulutus](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.fi.jpg)
+![lineaarinen](../../../../../translated_images/overfit1.f24b71c6f652e59e.fi.jpg) | ![ylikoulutus](../../../../../translated_images/overfit2.131f5800ae10ca5e.fi.jpg)
 -------------------------|--------------------------
 **Lineaarinen malli, 2 parametria** | **Ei-lineaarinen malli, 7 parametria**
 Koulutusvirhe = 5.3 | Koulutusvirhe = 0
@@ -79,7 +79,7 @@ On erittäin tärkeää löytää oikea tasapaino mallin monimutkaisuuden (param
 
 Kuten yllä olevasta kaaviosta näkyy, ylikoulutus voidaan havaita erittäin pienestä koulutusvirheestä ja suuresta validointivirheestä. Normaalisti koulutuksen aikana näemme sekä koulutus- että validointivirheiden alkavan pienentyä, ja jossain vaiheessa validointivirhe saattaa lakata pienentymästä ja alkaa kasvaa. Tämä on merkki ylikoulutuksesta ja indikaattori siitä, että koulutus pitäisi todennäköisesti lopettaa tässä vaiheessa (tai ainakin tehdä mallista tilannekuva).
 
-![ylikoulutus](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.fi.png)
+![ylikoulutus](../../../../../translated_images/Overfitting.408ad91cd90b4371.fi.png)
 
 ## Miten ylikoulutusta estetään
 

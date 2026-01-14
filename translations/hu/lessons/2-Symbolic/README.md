@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tudásábrázolás és szakértői rendszerek
 
-![A szimbolikus AI tartalmának összefoglalása](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.hu.png)
+![A szimbolikus AI tartalmának összefoglalása](../../../../translated_images/ai-symbolic.715a30cb610411a6.hu.png)
 
 > Sketchnote készítette: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Leggyakrabban nem határozzuk meg szigorúan a tudást, hanem más kapcsolódó 
 
 Így a **tudásábrázolás** problémája az, hogy hatékony módot találjunk a tudás számítógépen belüli adatként való ábrázolására, hogy automatikusan használható legyen. Ez egy spektrumként értelmezhető:
 
-![Tudásábrázolási spektrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.hu.png)
+![Tudásábrázolási spektrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217.hu.png)
 
 > Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blokk szintaxis | Indent |             |             |
 
 A szimbolikus AI korai sikerei közé tartoztak az úgynevezett **szakértői rendszerek** - olyan számítógépes rendszerek, amelyeket arra terveztek, hogy egy korlátozott problématerületen szakértőként működjenek. Ezek egy **tudásbázison** alapultak, amelyet egy vagy több emberi szakértőtől nyertek ki, és tartalmaztak egy **következtető motort**, amely ezen tudás alapján végzett következtetéseket.
 
-![Emberi architektúra](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.hu.png) | ![Tudásalapú rendszer](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.hu.png)
+![Emberi architektúra](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.hu.png) | ![Tudásalapú rendszer](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.hu.png)
 ---------------------------------------------|------------------------------------------------
 Az emberi idegrendszer egyszerűsített szerkezete | Tudásalapú rendszer architektúrája
 
@@ -106,7 +106,7 @@ A szakértői rendszerek felépítése hasonló az emberi következtetési rends
 
 Példaként vegyük a következő szakértői rendszert, amely egy állatot határoz meg fizikai jellemzői alapján:
 
-![AND-OR fa](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.hu.png)
+![AND-OR fa](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.hu.png)
 
 > Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -73,14 +73,14 @@ In unserem [OpenCV Notebook](OpenCV.ipynb) geben wir einige Beispiele, wann Comp
 
 * **Vorverarbeitung eines Fotos eines Braille-Buchs**. Wir konzentrieren uns darauf, wie wir Thresholding, Merkmalserkennung, perspektivische Transformation und NumPy-Manipulationen verwenden können, um einzelne Braille-Symbole für die weitere Klassifikation durch ein neuronales Netzwerk zu trennen.
 
-![Braille Bild](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.de.jpeg) | ![Braille Bild vorverarbeitet](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.de.png) | ![Braille Symbole](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.de.png)
+![Braille Bild](../../../../../translated_images/braille.341962ff76b1bd70.de.jpeg) | ![Braille Bild vorverarbeitet](../../../../../translated_images/braille-result.46530fea020b03c7.de.png) | ![Braille Symbole](../../../../../translated_images/braille-symbols.0159185ab69d5339.de.png)
 ----|-----|-----
 
 > Bild aus [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Bewegungserkennung in Videos durch Frame-Differenz**. Wenn die Kamera fixiert ist, sollten die Frames des Kamerafeeds ziemlich ähnlich zueinander sein. Da Frames als Arrays dargestellt werden, erhalten wir durch das Subtrahieren dieser Arrays für zwei aufeinanderfolgende Frames die Pixelunterschiede, die bei statischen Frames gering sein sollten und bei erheblicher Bewegung im Bild höher werden.
 
-![Bild von Video-Frames und Frame-Differenzen](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.de.png)
+![Bild von Video-Frames und Frame-Differenzen](../../../../../translated_images/frame-difference.706f805491a0883c.de.png)
 
 > Bild aus [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ In unserem [OpenCV Notebook](OpenCV.ipynb) geben wir einige Beispiele, wann Comp
    - **Dichter Optischer Fluss** berechnet das Vektorfeld, das zeigt, wohin sich jeder Pixel bewegt.
    - **Spärlicher Optischer Fluss** basiert darauf, einige markante Merkmale im Bild (z. B. Kanten) zu nehmen und deren Trajektorie von Frame zu Frame zu erstellen.
 
-![Bild des Optischen Flusses](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.de.png)
+![Bild des Optischen Flusses](../../../../../translated_images/optical.1f4a94464579a83a.de.png)
 
 > Bild aus [OpenCV.ipynb](OpenCV.ipynb)
 

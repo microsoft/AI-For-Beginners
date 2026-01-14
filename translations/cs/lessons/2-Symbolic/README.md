@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentace znalostí a expertní systémy
 
-![Shrnutí obsahu Symbolické AI](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.cs.png)
+![Shrnutí obsahu Symbolické AI](../../../../translated_images/ai-symbolic.715a30cb610411a6.cs.png)
 
 > Sketchnote od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Znalosti často nedefinujeme striktně, ale porovnáváme je s jinými souvisej�
 
 Problém **reprezentace znalostí** tedy spočívá v nalezení efektivního způsobu, jak reprezentovat znalosti uvnitř počítače ve formě dat, aby byly automaticky použitelné. To lze chápat jako spektrum:
 
-![Spektrum reprezentace znalostí](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.cs.png)
+![Spektrum reprezentace znalostí](../../../../translated_images/knowledge-spectrum.b60df631852c0217.cs.png)
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Bloková syntaxe | Odsazení | | |
 
 Jedním z raných úspěchů symbolické AI byly tzv. **expertní systémy** - počítačové systémy navržené tak, aby fungovaly jako expert v omezené oblasti problémů. Byly založeny na **bázi znalostí** získané od jednoho nebo více lidských expertů a obsahovaly **inferenční stroj**, který na ní prováděl usuzování.
 
-![Lidská architektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.cs.png) | ![Systém založený na znalostech](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.cs.png)
+![Lidská architektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.cs.png) | ![Systém založený na znalostech](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.cs.png)
 ---------------------------------------------|------------------------------------------------
 Zjednodušená struktura lidského nervového systému | Architektura systému založeného na znalostech
 
@@ -106,7 +106,7 @@ Expertní systémy jsou postaveny podobně jako lidský systém usuzování, kte
 
 Jako příklad si vezměme následující expertní systém určování zvířete na základě jeho fyzických charakteristik:
 
-![AND-OR strom](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.cs.png)
+![AND-OR strom](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.cs.png)
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 

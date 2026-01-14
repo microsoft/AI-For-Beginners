@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 우리는 [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)을 사용할 것입니다. 이 데이터셋은 37가지 다른 품종의 개와 고양이 이미지를 포함하고 있습니다.
 
-![우리가 다룰 데이터셋](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.ko.png)
+![우리가 다룰 데이터셋](../../../../../../translated_images/data.50b2a9d5484bdbf0.ko.png)
 
 데이터셋을 다운로드하려면 아래 코드 스니펫을 사용하세요:
 

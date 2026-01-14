@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 神经网络简介
 
-![神经网络内容总结涂鸦](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.zh.png)
+![神经网络内容总结涂鸦](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.zh.png)
 
 正如我们在介绍中讨论的那样，实现智能的一种方法是训练一个**计算机模型**或一个**人工大脑**。自20世纪中期以来，研究人员尝试了各种数学模型，直到近年来，这一方向取得了巨大的成功。这些大脑的数学模型被称为**神经网络**。
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 从生物学中我们知道，大脑由神经细胞（神经元）组成，每个神经元有多个“输入”（树突）和一个“输出”（轴突）。树突和轴突都可以传导电信号，它们之间的连接——称为突触——可以表现出不同程度的导电性，这种导电性由神经递质调节。
 
-![神经元模型](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.zh.jpg) | ![神经元模型](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.zh.png)
+![神经元模型](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.zh.jpg) | ![神经元模型](../../../../translated_images/artneuron.1a5daa88d20ebe6f.zh.png)
 ----|----
 真实神经元 *（[图片](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg)来自维基百科）* | 人工神经元 *（作者提供图片）*
 
 因此，神经元的最简单数学模型包含若干输入 X<sub>1</sub>, ..., X<sub>N</sub> 和一个输出 Y，以及一系列权重 W<sub>1</sub>, ..., W<sub>N</sub>。输出的计算公式为：
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.zh.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.zh.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 其中 f 是某种非线性的**激活函数**。
 

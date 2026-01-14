@@ -13,7 +13,7 @@ Los modelos de clasificación de imágenes que hemos tratado hasta ahora toman u
 
 ## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detección de Objetos](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.es.png)
+![Detección de Objetos](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.es.png)
 
 > Imagen de [sitio web de YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Supongamos que queremos encontrar un gato en una imagen. Un enfoque muy ingenuo 
 2. Ejecutar clasificación de imágenes en cada sección.
 3. Las secciones que resulten en una activación suficientemente alta pueden considerarse que contienen el objeto en cuestión.
 
-![Detección Ingenua de Objetos](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.es.png)
+![Detección Ingenua de Objetos](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.es.png)
 
 > *Imagen del [Cuaderno de Ejercicios](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Es posible que encuentres los siguientes conjuntos de datos para esta tarea:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 clases
 * [COCO](http://cocodataset.org/#home) - Objetos Comunes en Contexto. 80 clases, cuadros delimitadores y máscaras de segmentación.
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.es.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.es.jpg)
 
 ## Métricas de Detección de Objetos
 
@@ -50,7 +50,7 @@ Es posible que encuentres los siguientes conjuntos de datos para esta tarea:
 
 Mientras que para la clasificación de imágenes es fácil medir qué tan bien funciona el algoritmo, para la detección de objetos necesitamos medir tanto la corrección de la clase como la precisión de la ubicación inferida del cuadro delimitador. Para esto último, usamos la llamada **Intersección sobre Unión** (IoU), que mide qué tan bien se superponen dos cuadros (o dos áreas arbitrarias).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.es.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.es.png)
 
 > *Figura 2 de [este excelente artículo sobre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Existen dos grandes clases de algoritmos de detección de objetos:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) utiliza [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) para generar una estructura jerárquica de regiones ROI, que luego se pasan por extractores de características CNN y clasificadores SVM para determinar la clase del objeto, y regresión lineal para determinar las coordenadas del *cuadro delimitador*. [Artículo Oficial](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.es.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.es.png)
 
 > *Imagen de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.es.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.es.png)
 
 > *Imágenes de [este artículo](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Existen dos grandes clases de algoritmos de detección de objetos:
 
 Este enfoque es similar a R-CNN, pero las regiones se definen después de que se han aplicado las capas de convolución.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.es.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.es.png)
 
 > Imagen del [Artículo Oficial](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Este enfoque es similar a R-CNN, pero las regiones se definen después de que se
 
 La idea principal de este enfoque es usar una red neuronal para predecir las ROI, llamada *Red de Propuesta de Regiones*. [Artículo](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.es.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.es.png)
 
 > Imagen del [Artículo Oficial](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Este algoritmo es incluso más rápido que Faster R-CNN. La idea principal es la
 1. Las características se procesan mediante **Position-Sensitive Score Map**. Cada objeto de $C$ clases se divide en regiones de $k\times k$, y entrenamos para predecir partes de objetos.
 1. Para cada parte de las regiones de $k\times k$, todas las redes votan por las clases de objetos, y se selecciona la clase de objeto con el voto máximo.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.es.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.es.png)
 
 > Imagen del [Artículo Oficial](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO es un algoritmo de una sola pasada en tiempo real. La idea principal es la 
  * La imagen se divide en regiones de $S\times S$.
  * Para cada región, **CNN** predice $n$ posibles objetos, las coordenadas del *cuadro delimitador* y la *confianza*=*probabilidad* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.es.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.es.png)
 
 > Imagen del [Artículo Oficial](https://arxiv.org/abs/1506.02640)
 

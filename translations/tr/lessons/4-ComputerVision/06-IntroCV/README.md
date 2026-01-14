@@ -73,14 +73,14 @@ Bir görüntüyü sinir ağına beslemeden önce, birkaç ön işleme adımı uy
 
 * **Braille kitabının bir fotoğrafını ön işleme**. Eşikleme, özellik tespiti, perspektif dönüşümü ve NumPy manipülasyonlarını kullanarak bireysel Braille sembollerini bir sinir ağı tarafından daha fazla sınıflandırma için ayırmaya odaklanıyoruz.
 
-![Braille Görüntüsü](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.tr.jpeg) | ![Braille Görüntüsü Ön İşlenmiş](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.tr.png) | ![Braille Sembolleri](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.tr.png)
+![Braille Görüntüsü](../../../../../translated_images/braille.341962ff76b1bd70.tr.jpeg) | ![Braille Görüntüsü Ön İşlenmiş](../../../../../translated_images/braille-result.46530fea020b03c7.tr.png) | ![Braille Sembolleri](../../../../../translated_images/braille-symbols.0159185ab69d5339.tr.png)
 ----|-----|-----
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 
 * **Video içinde hareketi kare farkı kullanarak tespit etme**. Kamera sabit ise, kamera akışından gelen kareler birbirine oldukça benzer olmalıdır. Kareler diziler olarak temsil edildiğinden, iki ardışık kare için bu dizileri çıkararak piksel farkını elde edebiliriz; bu fark statik kareler için düşük olmalı ve görüntüde önemli bir hareket olduğunda artmalıdır.
 
-![Video kareleri ve kare farkları görüntüsü](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.tr.png)
+![Video kareleri ve kare farkları görüntüsü](../../../../../translated_images/frame-difference.706f805491a0883c.tr.png)
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 
@@ -89,7 +89,7 @@ Bir görüntüyü sinir ağına beslemeden önce, birkaç ön işleme adımı uy
    - **Yoğun Optik Akış**, her pikselin nereye hareket ettiğini gösteren vektör alanını hesaplar.
    - **Seyrek Optik Akış**, görüntüdeki bazı belirgin özellikleri (örneğin kenarları) alır ve bunların kareden kareye olan hareket yolunu oluşturur.
 
-![Optik Akış Görüntüsü](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.tr.png)
+![Optik Akış Görüntüsü](../../../../../translated_images/optical.1f4a94464579a83a.tr.png)
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 

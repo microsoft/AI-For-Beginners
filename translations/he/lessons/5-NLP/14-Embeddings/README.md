@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 על ידי שימוש בשכבת הטמעות כשכבה הראשונה ברשת המסווג שלנו, נוכל לעבור מתיק מילים למודל **תיק הטמעות** (embedding bag), שבו אנו קודם ממירים כל מילה בטקסט שלנו להטמעה המתאימה, ואז מחשבים פונקציית צבירה כלשהי על כל ההטמעות הללו, כמו `sum`, `average` או `max`.
 
-![תמונה המציגה מסווג הטמעות עבור חמש מילים ברצף.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.he.png)
+![תמונה המציגה מסווג הטמעות עבור חמש מילים ברצף.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.he.png)
 
 > תמונה מאת המחבר
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW מהיר יותר, בעוד ש-skip-gram איטי יותר, אך עושה עבודה טובה יותר בייצוג מילים נדירות.
 
-![תמונה המציגה את האלגוריתמים CBoW ו-Skip-Gram להמרת מילים לוקטורים.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.he.png)
+![תמונה המציגה את האלגוריתמים CBoW ו-Skip-Gram להמרת מילים לוקטורים.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.he.png)
 
 > תמונה מתוך [המאמר הזה](https://arxiv.org/pdf/1301.3781.pdf)
 

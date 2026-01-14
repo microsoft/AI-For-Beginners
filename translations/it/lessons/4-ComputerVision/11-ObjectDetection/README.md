@@ -13,7 +13,7 @@ I modelli di classificazione delle immagini che abbiamo trattato finora prendeva
 
 ## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Rilevamento degli Oggetti](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.it.png)
+![Rilevamento degli Oggetti](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.it.png)
 
 > Immagine dal [sito web di YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Supponendo di voler trovare un gatto in un'immagine, un approccio molto semplice
 2. Eseguire la classificazione delle immagini su ciascun riquadro.
 3. I riquadri che producono un'attivazione sufficientemente alta possono essere considerati contenere l'oggetto in questione.
 
-![Rilevamento Naïf](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.it.png)
+![Rilevamento Naïf](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.it.png)
 
 > *Immagine dal [Notebook di Esercizi](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Potresti imbatterti nei seguenti dataset per questo compito:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classi
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classi, riquadri delimitatori e maschere di segmentazione
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.it.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.it.jpg)
 
 ## Metriche per il Rilevamento degli Oggetti
 
@@ -50,7 +50,7 @@ Potresti imbatterti nei seguenti dataset per questo compito:
 
 Mentre per la classificazione delle immagini è facile misurare quanto bene l'algoritmo performa, per il rilevamento degli oggetti dobbiamo misurare sia la correttezza della classe, sia la precisione della posizione del riquadro delimitatore inferito. Per quest'ultimo, utilizziamo la cosiddetta **Intersezione su Unione** (IoU), che misura quanto bene due riquadri (o due aree arbitrarie) si sovrappongono.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.it.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.it.png)
 
 > *Figura 2 da [questo eccellente post sul blog su IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Esistono due grandi classi di algoritmi di rilevamento degli oggetti:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) utilizza [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) per generare una struttura gerarchica di regioni ROI, che vengono poi passate attraverso estrattori di caratteristiche CNN e classificatori SVM per determinare la classe dell'oggetto, e regressione lineare per determinare le coordinate del *riquadro delimitatore*. [Paper ufficiale](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.it.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.it.png)
 
 > *Immagine da van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.it.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.it.png)
 
 > *Immagini da [questo blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -110,7 +110,7 @@ Esistono due grandi classi di algoritmi di rilevamento degli oggetti:
 
 Questo approccio è simile a R-CNN, ma le regioni vengono definite dopo che i livelli di convoluzione sono stati applicati.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.it.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.it.png)
 
 > Immagine dal [Paper ufficiale](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Questo approccio è simile a R-CNN, ma le regioni vengono definite dopo che i li
 
 L'idea principale di questo approccio è utilizzare una rete neurale per prevedere le ROI - la cosiddetta *Rete di Proposta di Regione*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.it.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.it.png)
 
 > Immagine dal [Paper ufficiale](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Questo algoritmo è ancora più veloce di Faster R-CNN. L'idea principale è la 
 1. Le caratteristiche vengono elaborate da **Position-Sensitive Score Map**. Ogni oggetto delle classi $C$ è suddiviso in regioni $k\times k$, e si addestra per prevedere parti degli oggetti.
 1. Per ogni parte delle regioni $k\times k$ tutte le reti votano per le classi degli oggetti, e la classe dell'oggetto con il massimo voto viene selezionata.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.it.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.it.png)
 
 > Immagine dal [Paper ufficiale](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO è un algoritmo in tempo reale a passaggio unico. L'idea principale è la s
  * L'immagine è suddivisa in regioni $S\times S$
  * Per ogni regione, **CNN** prevede $n$ oggetti possibili, le coordinate del *riquadro delimitatore* e la *confidence*=*probabilità* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.it.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.it.png)
 
 > Immagine dal [Paper ufficiale](https://arxiv.org/abs/1506.02640)
 

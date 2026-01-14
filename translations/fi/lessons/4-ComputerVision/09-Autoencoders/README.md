@@ -19,7 +19,7 @@ Voimme kuitenkin haluta käyttää raakadataa (merkitsemätöntä) CNN-ominaisuu
 
 Koska koulutamme autokooderia tallentamaan mahdollisimman paljon alkuperäisen kuvan informaatiota tarkkaa rekonstruointia varten, verkko pyrkii löytämään parhaan **upotuksen** syötekuville merkityksen tallentamiseksi.
 
-![Autokooderin kaavio](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.fi.jpg)
+![Autokooderin kaavio](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.fi.jpg)
 
 > Kuva [Keras-blogista](https://blog.keras.io/building-autoencoders-in-keras.html)
 

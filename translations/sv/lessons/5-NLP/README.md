@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Naturlig Språkbearbetning
 
-![Sammanfattning av NLP-uppgifter i en skiss](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.sv.png)
+![Sammanfattning av NLP-uppgifter i en skiss](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.sv.png)
 
 I den här delen kommer vi att fokusera på att använda neurala nätverk för att hantera uppgifter relaterade till **naturlig språkbearbetning (NLP)**. Det finns många NLP-problem som vi vill att datorer ska kunna lösa:
 

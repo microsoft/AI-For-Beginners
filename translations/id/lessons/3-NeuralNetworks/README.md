@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengantar Jaringan Neural
 
-![Ringkasan konten pengantar Jaringan Neural dalam bentuk doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.id.png)
+![Ringkasan konten pengantar Jaringan Neural dalam bentuk doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.id.png)
 
 Seperti yang telah kita bahas dalam pengantar, salah satu cara untuk mencapai kecerdasan adalah dengan melatih **model komputer** atau **otak buatan**. Sejak pertengahan abad ke-20, para peneliti mencoba berbagai model matematika, hingga beberapa tahun terakhir arah ini terbukti sangat berhasil. Model matematika otak ini disebut **jaringan neural**.
 
@@ -36,13 +36,13 @@ Dalam kurikulum ini, kita hanya akan fokus pada model jaringan neural.
 
 Dari biologi, kita tahu bahwa otak kita terdiri dari sel-sel neural (neuron), masing-masing memiliki beberapa "input" (dendrit) dan satu "output" (akson). Baik dendrit maupun akson dapat menghantarkan sinyal listrik, dan koneksi di antara mereka — yang dikenal sebagai sinaps — dapat menunjukkan tingkat konduktivitas yang bervariasi, yang diatur oleh neurotransmiter.
 
-![Model Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.id.jpg) | ![Model Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.id.png)
+![Model Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.id.jpg) | ![Model Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.id.png)
 ----|----
 Neuron Asli *([Gambar](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) dari Wikipedia)* | Neuron Buatan *(Gambar oleh Penulis)*
 
 Dengan demikian, model matematika paling sederhana dari neuron memiliki beberapa input X<sub>1</sub>, ..., X<sub>N</sub> dan satu output Y, serta serangkaian bobot W<sub>1</sub>, ..., W<sub>N</sub>. Output dihitung sebagai:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.id.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/netout.1eb15eb76fd76731.id.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 di mana f adalah beberapa **fungsi aktivasi** non-linear.
 

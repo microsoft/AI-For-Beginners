@@ -23,7 +23,7 @@ Ankstesniuose pavyzdžiuose naudojome iš anksto apmokytus semantinius įterpini
 * **Nuolatinis žodžių maišas** (CBoW), kai prognozuojame vidurinį žodį $W_0$ žodžių sekoje $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, kai prognozuojame kaimyninių žodžių rinkinį {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} iš vidurinio žodžio $W_0$.
 
-![vaizdas iš straipsnio apie žodžių konvertavimą į vektorius](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.lt.png)
+![vaizdas iš straipsnio apie žodžių konvertavimą į vektorius](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.lt.png)
 
 > Vaizdas iš [šio straipsnio](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -19,7 +19,7 @@ Dalam seni bina RNN yang kita bincangkan dalam unit sebelumnya, setiap unit RNN 
 
 Ini membolehkan pelbagai seni bina neural yang ditunjukkan dalam gambar di bawah:
 
-![Imej menunjukkan corak rangkaian neural berulang yang biasa.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.ms.jpg)
+![Imej menunjukkan corak rangkaian neural berulang yang biasa.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ms.jpg)
 
 > Imej daripada blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) oleh [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Dalam unit ini, kita akan memberi tumpuan kepada model generatif mudah yang memb
 
 Kita akan melatih RNN ini untuk menjana teks langkah demi langkah. Pada setiap langkah, kita akan mengambil urutan aksara sepanjang `nchars`, dan meminta rangkaian untuk menghasilkan aksara output seterusnya untuk setiap aksara input:
 
-![Imej menunjukkan contoh penjanaan RNN untuk perkataan 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.ms.png)
+![Imej menunjukkan contoh penjanaan RNN untuk perkataan 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.ms.png)
 
 Semasa menjana teks (semasa inferens), kita bermula dengan beberapa **prompt**, yang dilalui melalui sel RNN untuk menghasilkan keadaan perantaraannya, dan kemudian daripada keadaan ini penjanaan bermula. Kita menjana satu aksara pada satu masa, dan menghantar keadaan dan aksara yang dijana kepada sel RNN lain untuk menjana aksara seterusnya, sehingga kita menjana aksara yang mencukupi.
 

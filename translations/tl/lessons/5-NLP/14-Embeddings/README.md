@@ -19,7 +19,7 @@ Ang embedding layer ay kukuha ng isang salita bilang input, at magbibigay ng out
 
 Sa paggamit ng embedding layer bilang unang layer sa ating classifier network, maaari tayong lumipat mula sa bag-of-words patungo sa **embedding bag** model, kung saan una nating kino-convert ang bawat salita sa ating teksto sa kaukulang embedding, at pagkatapos ay kinakalkula ang ilang aggregate function sa lahat ng mga embedding na iyon, tulad ng `sum`, `average`, o `max`.
 
-![Larawan na nagpapakita ng isang embedding classifier para sa limang sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.tl.png)
+![Larawan na nagpapakita ng isang embedding classifier para sa limang sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.tl.png)
 
 > Larawan mula sa may-akda
 
@@ -40,7 +40,7 @@ Upang magawa ito, kailangan nating i-pre-train ang ating embedding model sa isan
 
 Mas mabilis ang CBoW, habang ang skip-gram ay mas mabagal, ngunit mas mahusay sa pagrepresenta ng mga bihirang salita.
 
-![Larawan na nagpapakita ng parehong CBoW at Skip-Gram algorithms upang i-convert ang mga salita sa vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.tl.png)
+![Larawan na nagpapakita ng parehong CBoW at Skip-Gram algorithms upang i-convert ang mga salita sa vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.tl.png)
 
 > Larawan mula sa [papel na ito](https://arxiv.org/pdf/1301.3781.pdf)
 

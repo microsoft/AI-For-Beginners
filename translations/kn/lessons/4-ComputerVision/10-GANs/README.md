@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GANನ ಮುಖ್ಯ ಕಲ್ಪನೆ ಎರಡು ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಪರಸ್ಪರ ಎದುರಾಗಿ ತರಬೇತಿಗೊಳಿಸುವುದು:
 
-<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d698a91f7668017d8e09b81c5d8e7cc99bdb23979d90a0c475e.kn.png" width="70%"/>
+<img src="../../../../../translated_images/gan_architecture.8f3a5ab62b8d5d69.kn.png" width="70%"/>
 
 > ಚಿತ್ರ: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +41,7 @@ CNN ಡಿಸ್ಕ್ರಿಮಿನೇಟರ್‌ನಲ್ಲಿ ಹಲವಾ
 
 > ✅ ಕನ್ವಲ್ಯೂಷನ್ ಪದರವು ಚಿತ್ರವನ್ನು ತಲುಪುವ ರೇಖೀಯ ಫಿಲ್ಟರ್ ಆಗಿರುವುದರಿಂದ, ಡಿಕನ್ವಲ್ಯೂಷನ್ ಮೂಲತಃ ಕನ್ವಲ್ಯೂಷನ್‌ಗೆ ಸಮಾನವಾಗಿದ್ದು, ಅದೇ ಪದರ ಲಾಜಿಕ್ ಬಳಸಿ ಅನುಷ್ಠಾನಗೊಳ್ಳಬಹುದು.
 
-<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543170264fe07e516683ac3e5bb699392c35449e99590a11063.kn.png" width="70%"/>
+<img src="../../../../../translated_images/gan_arch_detail.46b95fd366f8e543.kn.png" width="70%"/>
 
 > ಚಿತ್ರ: [Dmitry Soshnikov](http://soshnikov.com)
 

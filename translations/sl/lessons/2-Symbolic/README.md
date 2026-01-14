@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Predstavitev znanja in ekspertni sistemi
 
-![Povzetek vsebine simbolne umetne inteligence](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.sl.png)
+![Povzetek vsebine simbolne umetne inteligence](../../../../translated_images/ai-symbolic.715a30cb610411a6.sl.png)
 
 > Sketchnote avtorja [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Najpogosteje znanja ne definiramo strogo, ampak ga uskladimo z drugimi povezanim
 
 Tako je problem **predstavitve znanja** najti učinkovit način za predstavitev znanja znotraj računalnika v obliki podatkov, da bi bilo samodejno uporabno. To lahko vidimo kot spekter:
 
-![Spekter predstavitve znanja](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.sl.png)
+![Spekter predstavitve znanja](../../../../translated_images/knowledge-spectrum.b60df631852c0217.sl.png)
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blok-sintaksa | Zamik | | |
 
 Eden zgodnjih uspehov simbolne umetne inteligence so bili tako imenovani **ekspertni sistemi** - računalniški sistemi, zasnovani za delovanje kot strokovnjak na omejenem področju problemov. Temeljili so na **bazi znanja**, pridobljeni od enega ali več človeških strokovnjakov, in vsebovali **inferenčni mehanizem**, ki je izvajal razmišljanje na podlagi te baze.
 
-![Človeška arhitektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.sl.png) | ![Arhitektura sistema, ki temelji na znanju](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.sl.png)
+![Človeška arhitektura](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.sl.png) | ![Arhitektura sistema, ki temelji na znanju](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.sl.png)
 ---------------------------------------------|------------------------------------------------
 Poenostavljena struktura človeškega nevronskega sistema | Arhitektura sistema, ki temelji na znanju
 
@@ -106,7 +106,7 @@ Ekspertni sistemi so zgrajeni podobno kot človeški sistem razmišljanja, ki vs
 
 Kot primer si poglejmo naslednji ekspertni sistem za določanje živali na podlagi njihovih fizičnih značilnosti:
 
-![AND-OR drevo](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.sl.png)
+![AND-OR drevo](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.sl.png)
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 

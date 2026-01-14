@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.my.png)
+![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.my.png)
 
 > ပုံကို [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/) မှရယူထားသည်။
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. တစ်ခုချင်းစီ tile တွေမှာ image classification ကို run လုပ်ပါ။
 3. activation အဆင့်မြင့်တဲ့ tiles တွေကို object ရှိတယ်လို့ယူဆနိုင်ပါတယ်။
 
-![Naive Object Detection](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.my.png)
+![Naive Object Detection](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.my.png)
 
 > *ပုံကို [Exercise Notebook](ObjectDetection-TF.ipynb) မှရယူထားသည်*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classes, bounding boxes နှင့် segmentation masks
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.my.jpg)
+![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.my.jpg)
 
 ## Object Detection Metrics
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Image classification အတွက် algorithm ရဲ့ performance ကိုတိုင်းတာရလွယ်ကူသလို၊ object detection အတွက် class ရဲ့တိကျမှုနှင့် bounding box ရဲ့တိကျမှုကိုတိုင်းတာဖို့လိုအပ်ပါတယ်။ Bounding box ရဲ့တိကျမှုကိုတိုင်းတာဖို့ **Intersection over Union** (IoU) ကိုသုံးပါတယ်၊ ဒါဟာ box နှစ်ခု (သို့မဟုတ် arbitrary areas နှစ်ခု) overlap ဖြစ်ပုံကိုတိုင်းတာပေးပါတယ်။
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.my.png)
+![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.my.png)
 
 > *ပုံကို [IoU အကြောင်း blog post](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) မှရယူထားသည်*
 
@@ -97,11 +97,11 @@ Object detection algorithms တွေကို broad classes နှစ်ခု�
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) က [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) ကိုသုံးပြီး ROI regions တွေကို hierarchical structure အဖြစ် generate လုပ်ပါတယ်၊ အဲ့ဒီ regions တွေကို CNN feature extractors နှင့် SVM-classifiers တွေက object class ကိုသတ်မှတ်ဖို့၊ linear regression က *bounding box* coordinates ကိုသတ်မှတ်ဖို့သုံးပါတယ်။ [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.my.png)
+![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.my.png)
 
 > *ပုံကို van de Sande et al. ICCV’11 မှရယူထားသည်*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.my.png)
+![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.my.png)
 
 > *ပုံကို [ဒီ blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e) မှရယူထားသည်*
 
@@ -109,7 +109,7 @@ Object detection algorithms တွေကို broad classes နှစ်ခု�
 
 ဒီနည်းလမ်းက R-CNN နဲ့တူပေမယ့် regions တွေကို convolution layers apply လုပ်ပြီးမှသတ်မှတ်ပါတယ်။
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.my.png)
+![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.my.png)
 
 > ပုံကို [Official Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015 မှရယူထားသည်။
 
@@ -117,7 +117,7 @@ Object detection algorithms တွေကို broad classes နှစ်ခု�
 
 ဒီနည်းလမ်းရဲ့အဓိကအကြောင်းအရာက neural network ကိုသုံးပြီး ROIs ကို predict လုပ်တာဖြစ်ပါတယ် - *Region Proposal Network* လို့ခေါ်ပါတယ်။ [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.my.png)
+![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.my.png)
 
 > ပုံကို [Official Paper](https://arxiv.org/pdf/1506.01497.pdf) မှရယူထားသည်။
 
@@ -129,7 +129,7 @@ Object detection algorithms တွေကို broad classes နှစ်ခု�
 2. Features တွေကို **Position-Sensitive Score Map** မှာ process လုပ်ပါ။ $C$ classes ထဲက object တစ်ခုစီကို $k\times k$ regions တွေခွဲပြီး၊ object parts တွေကို predict လုပ်ဖို့ training လုပ်ပါတယ်။
 3. $k\times k$ regions ထဲက part တစ်ခုစီအတွက် networks အားလုံးက object classes အတွက် vote လုပ်ပြီး၊ maximum vote ရတဲ့ object class ကိုရွေးချယ်ပါတယ်။
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.my.png)
+![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.my.png)
 
 > ပုံကို [Official Paper](https://arxiv.org/abs/1605.06409) မှရယူထားသည်။
 
@@ -140,7 +140,7 @@ YOLO က realtime one-pass algorithm ဖြစ်ပါတယ်။ အဓိက
  * ပုံကို $S\times S$ regions တွေခွဲပါ။
  * Region တစ်ခုစီအတွက် **CNN** က $n$ possible objects, *bounding box* coordinates နှင့် *confidence*=*probability* * IoU ကို predict လုပ်ပါတယ်။
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.my.png)
+ ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.my.png)
 
 > ပုံကို [Official Paper](https://arxiv.org/abs/1506.02640) မှရယူထားသည်။
 

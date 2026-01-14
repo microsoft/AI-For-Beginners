@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 概要
 
-![概要のイラスト](../../../translated_images/ai-overview.0857791951d19500d0ef8b803d77110c738dcafc52306e6d68724742cd4af167.ja.png)
+![概要のイラスト](../../../translated_images/ai-overview.0857791951d19500.ja.png)
 
 > スケッチノート作成者：[Tomomi Imura](https://twitter.com/girlie_mac)
 

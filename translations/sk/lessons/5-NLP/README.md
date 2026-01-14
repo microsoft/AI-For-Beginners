@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Spracovanie prirodzeného jazyka
 
-![Zhrnutie úloh NLP v kresbe](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.sk.png)
+![Zhrnutie úloh NLP v kresbe](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.sk.png)
 
 V tejto sekcii sa zameriame na používanie neurónových sietí na riešenie úloh súvisiacich so **spracovaním prirodzeného jazyka (NLP)**. Existuje mnoho problémov v oblasti NLP, ktoré by sme chceli, aby počítače dokázali vyriešiť:
 

@@ -70,7 +70,7 @@ Puoi aprire uno dei modelli, ad esempio **Biology &rightarrow; Flocking**.
 
 Dopo aver aperto il modello, verrai portato alla schermata principale di NetLogo. Ecco un esempio di modello che descrive la popolazione di lupi e pecore, date risorse finite (erba).
 
-![Schermata Principale di NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3cab22ec0b148e64193d0b979b055285bef329d5e3d6958c5.it.png)
+![Schermata Principale di NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.it.png)
 
 > Screenshot di Dmitry Soshnikov
 

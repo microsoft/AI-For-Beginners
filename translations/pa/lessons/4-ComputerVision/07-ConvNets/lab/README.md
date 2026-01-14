@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਅਸੀਂ [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ਦੀ ਵਰਤੋਂ ਕਰਾਂਗੇ, ਜਿਸ ਵਿੱਚ ਕੁੱਤਿਆਂ ਅਤੇ ਬਿੱਲੀਆਂ ਦੀਆਂ 37 ਵੱਖ-ਵੱਖ ਬਰੀਡਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਸ਼ਾਮਲ ਹਨ।
 
-![ਜਿਸ ਡੇਟਾ ਨਾਲ ਅਸੀਂ ਕੰਮ ਕਰਨ ਜਾ ਰਹੇ ਹਾਂ](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.pa.png)
+![ਜਿਸ ਡੇਟਾ ਨਾਲ ਅਸੀਂ ਕੰਮ ਕਰਨ ਜਾ ਰਹੇ ਹਾਂ](../../../../../../translated_images/data.50b2a9d5484bdbf0.pa.png)
 
 ਡੇਟਾਸੈਟ ਡਾਊਨਲੋਡ ਕਰਨ ਲਈ, ਇਸ ਕੋਡ ਸਨਿੱਪਟ ਦੀ ਵਰਤੋਂ ਕਰੋ:
 

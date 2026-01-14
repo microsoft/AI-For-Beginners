@@ -19,7 +19,7 @@ Quindi, il livello di embedding prenderebbe una parola come input e produrrebbe 
 
 Utilizzando un livello di embedding come primo livello nella nostra rete di classificazione, possiamo passare da un modello bag-of-words a un modello **embedding bag**, dove prima convertiamo ogni parola nel nostro testo nel corrispondente embedding, e poi calcoliamo una funzione aggregata su tutti questi embedding, come `sum`, `average` o `max`.  
 
-![Immagine che mostra un classificatore embedding per cinque parole di una sequenza.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.it.png)
+![Immagine che mostra un classificatore embedding per cinque parole di una sequenza.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.it.png)
 
 > Immagine dell'autore
 
@@ -40,7 +40,7 @@ Per fare ciò, dobbiamo pre-addestrare il nostro modello di embedding su una gra
 
 CBoW è più veloce, mentre skip-gram è più lento, ma rappresenta meglio le parole meno frequenti.
 
-![Immagine che mostra gli algoritmi CBoW e Skip-Gram per convertire parole in vettori.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.it.png)
+![Immagine che mostra gli algoritmi CBoW e Skip-Gram per convertire parole in vettori.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.it.png)
 
 > Immagine tratta da [questo articolo](https://arxiv.org/pdf/1301.3781.pdf)
 
