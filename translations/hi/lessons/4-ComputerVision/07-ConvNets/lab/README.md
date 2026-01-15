@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हम [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) का उपयोग करेंगे, जिसमें कुत्तों और बिल्लियों की 37 विभिन्न नस्लों की छवियां शामिल हैं।
 
-![हम जिस डेटासेट पर काम करेंगे](../../../../../../translated_images/data.50b2a9d5484bdbf0.hi.png)
+![हम जिस डेटासेट पर काम करेंगे](../../../../../../translated_images/hi/data.50b2a9d5484bdbf0.png)
 
 डेटासेट डाउनलोड करने के लिए, इस कोड स्निपेट का उपयोग करें:
 

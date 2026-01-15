@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 သည် 2014 ခုနှစ်တွင် ImageNet top-5 classification တွင် 92.7% တိကျမှုရရှိခဲ့သော network တစ်ခုဖြစ်သည်။ ၎င်းတွင် အောက်ပါ layer အဆောက်အအုံပါရှိသည်-
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.my.jpg)
+![ImageNet Layers](../../../../../translated_images/my/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 VGG သည် convolution-pooling layers များ၏ အစဉ်အတိုင်း pyramid architecture ကို လိုက်နာသည်ကို သင်တွေ့နိုင်ပါသည်။
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.my.jpg)
+![ImageNet Pyramid](../../../../../translated_images/my/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) မှရရှိသော ပုံ
 

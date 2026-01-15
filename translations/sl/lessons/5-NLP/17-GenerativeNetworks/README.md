@@ -19,7 +19,7 @@ V arhitekturi RNN, ki smo jo obravnavali v prejšnji enoti, je vsaka enota RNN p
 
 To omogoča različne nevronske arhitekture, prikazane na spodnji sliki:
 
-![Slika, ki prikazuje pogoste vzorce rekurentnih nevronskih mrež.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sl.jpg)
+![Slika, ki prikazuje pogoste vzorce rekurentnih nevronskih mrež.](../../../../../translated_images/sl/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > Slika iz blog objave [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) avtorja [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ V tej enoti se bomo osredotočili na preproste generativne modele, ki nam pomaga
 
 To RNN bomo trenirali za generiranje besedila korak za korakom. Na vsakem koraku bomo vzeli zaporedje znakov dolžine `nchars` in mreži naročili, naj za vsak vhodni znak ustvari naslednji izhodni znak:
 
-![Slika, ki prikazuje primer generiranja besede 'HELLO' z RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.sl.png)
+![Slika, ki prikazuje primer generiranja besede 'HELLO' z RNN.](../../../../../translated_images/sl/rnn-generate.56c54afb52f9781d.png)
 
 Pri generiranju besedila (med inferenco) začnemo z nekim **pozivom**, ki ga prenesemo skozi RNN celice za generiranje vmesnega stanja, nato pa se začne generiranje. Generiramo en znak naenkrat, stanje in generirani znak pa prenesemo v drugo RNN celico za generiranje naslednjega, dokler ne generiramo dovolj znakov.
 

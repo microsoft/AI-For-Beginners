@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Přehled
 
-![Přehled v kresbě](../../../translated_images/ai-overview.0857791951d19500.cs.png)
+![Přehled v kresbě](../../../translated_images/cs/ai-overview.0857791951d19500.png)
 
 > Sketchnote od [Tomomi Imura](https://twitter.com/girlie_mac)
 

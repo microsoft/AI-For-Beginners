@@ -73,14 +73,14 @@ I vores [OpenCV Notebook](OpenCV.ipynb) giver vi nogle eksempler på, hvornår c
 
 * **Forbehandling af et fotografi af en Braille-bog**. Vi fokuserer på, hvordan vi kan bruge thresholding, feature detection, perspektivtransformation og NumPy-manipulationer til at adskille individuelle Braille-symboler til videre klassifikation af et neuralt netværk.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.da.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.da.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.da.png)  
+![Braille Image](../../../../../translated_images/da/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/da/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/da/braille-symbols.0159185ab69d5339.png)  
 ----|-----|-----
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detektion af bevægelse i video ved hjælp af frame difference**. Hvis kameraet er fast, bør frames fra kameraets feed være ret ens. Da frames er repræsenteret som arrays, vil vi ved blot at trække disse arrays fra hinanden for to efterfølgende frames få pixel-forskellen, som bør være lav for statiske frames og blive højere, når der er betydelig bevægelse i billedet.
 
-![Billede af video frames og frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.da.png)
+![Billede af video frames og frame differences](../../../../../translated_images/da/frame-difference.706f805491a0883c.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ I vores [OpenCV Notebook](OpenCV.ipynb) giver vi nogle eksempler på, hvornår c
    - **Dense Optical Flow** beregner vektorfeltet, der viser, hvor hver pixel bevæger sig hen.
    - **Sparse Optical Flow** er baseret på at tage nogle karakteristiske træk i billedet (f.eks. kanter) og bygge deres bane fra frame til frame.
 
-![Billede af optisk flow](../../../../../translated_images/optical.1f4a94464579a83a.da.png)
+![Billede af optisk flow](../../../../../translated_images/da/optical.1f4a94464579a83a.png)
 
 > Billede fra [OpenCV.ipynb](OpenCV.ipynb)
 

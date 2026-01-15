@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # בינה מלאכותית למתחילים - תוכנית לימודים
 
-|![רישום סכמטי מאת @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.he.png)|
+|![רישום סכמטי מאת @girlie_mac https://twitter.com/girlie_mac](../../translated_images/he/ai-overview.0857791951d19500.png)|
 |:---:|
 | בינה מלאכותית למתחילים - _רישום סכמטי מאת [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

@@ -23,7 +23,7 @@ Dalam contoh sebelumnya, kita menggunakan pemerangkapan semantik yang telah dila
 * **Continuous Bag-of-Words** (CBoW), di mana kita meramalkan token tengah $W_0$ dalam urutan token $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, di mana kita meramalkan satu set token berdekatan {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} daripada token tengah $W_0$.
 
-![imej daripada kertas kerja tentang menukar perkataan kepada vektor](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ms.png)
+![imej daripada kertas kerja tentang menukar perkataan kepada vektor](../../../../../translated_images/ms/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Imej daripada [kertas kerja ini](https://arxiv.org/pdf/1301.3781.pdf)
 

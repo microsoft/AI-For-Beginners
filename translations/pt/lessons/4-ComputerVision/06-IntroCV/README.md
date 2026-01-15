@@ -73,14 +73,14 @@ No nosso [OpenCV Notebook](OpenCV.ipynb), damos alguns exemplos de quando a vis�
 
 * **Pré-processamento de uma fotografia de um livro em Braille**. Focamos em como podemos usar thresholding, deteção de características, transformação de perspetiva e manipulações NumPy para separar símbolos individuais em Braille para posterior classificação por uma rede neuronal.
 
-![Imagem Braille](../../../../../translated_images/braille.341962ff76b1bd70.pt.jpeg) | ![Imagem Braille Pré-processada](../../../../../translated_images/braille-result.46530fea020b03c7.pt.png) | ![Símbolos Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.pt.png)
+![Imagem Braille](../../../../../translated_images/pt/braille.341962ff76b1bd70.jpeg) | ![Imagem Braille Pré-processada](../../../../../translated_images/pt/braille-result.46530fea020b03c7.png) | ![Símbolos Braille](../../../../../translated_images/pt/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Deteção de movimento em vídeo usando diferença de frames**. Se a câmara estiver fixa, os frames do feed da câmara devem ser bastante semelhantes entre si. Como os frames são representados como arrays, apenas subtraindo esses arrays de dois frames subsequentes obteremos a diferença de pixels, que deve ser baixa para frames estáticos e tornar-se maior quando houver movimento substancial na imagem.
 
-![Imagem de frames de vídeo e diferenças de frames](../../../../../translated_images/frame-difference.706f805491a0883c.pt.png)
+![Imagem de frames de vídeo e diferenças de frames](../../../../../translated_images/pt/frame-difference.706f805491a0883c.png)
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ No nosso [OpenCV Notebook](OpenCV.ipynb), damos alguns exemplos de quando a vis�
    - **Fluxo Ótico Denso** calcula o campo vetorial que mostra para cada pixel onde ele está a mover-se.
    - **Fluxo Ótico Esparso** baseia-se em tomar algumas características distintivas na imagem (por exemplo, bordas) e construir a sua trajetória de frame para frame.
 
-![Imagem de Fluxo Ótico](../../../../../translated_images/optical.1f4a94464579a83a.pt.png)
+![Imagem de Fluxo Ótico](../../../../../translated_images/pt/optical.1f4a94464579a83a.png)
 
 > Imagem de [OpenCV.ipynb](OpenCV.ipynb)
 

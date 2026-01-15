@@ -21,7 +21,7 @@ Unahitaji kufundisha mtandao wa neva wa convolutional ili kuainisha aina tofauti
 
 Tutatumia [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), ambayo ina picha za aina 37 tofauti za mbwa na paka.
 
-![Dataset tutakayoshughulikia](../../../../../../translated_images/data.50b2a9d5484bdbf0.sw.png)
+![Dataset tutakayoshughulikia](../../../../../../translated_images/sw/data.50b2a9d5484bdbf0.png)
 
 Ili kupakua dataset, tumia kipande hiki cha msimbo:
 

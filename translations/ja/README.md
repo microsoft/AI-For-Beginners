@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # 初心者向け人工知能 - カリキュラム
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.ja.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ja/ai-overview.0857791951d19500.png)|
 |:---:|
 | 初心者向けAI - _スケッチノート [@girlie_mac](https://twitter.com/girlie_mac)による_ |
 

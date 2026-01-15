@@ -21,7 +21,7 @@ Je moet een convolutioneel neuraal netwerk trainen om verschillende rassen van k
 
 We gebruiken de [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), die afbeeldingen bevat van 37 verschillende rassen van honden en katten.
 
-![Dataset waarmee we werken](../../../../../../translated_images/data.50b2a9d5484bdbf0.nl.png)
+![Dataset waarmee we werken](../../../../../../translated_images/nl/data.50b2a9d5484bdbf0.png)
 
 Om de dataset te downloaden, gebruik deze codefragment:
 

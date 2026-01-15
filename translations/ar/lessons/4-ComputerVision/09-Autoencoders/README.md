@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 بما أننا نقوم بتدريب الشبكة العصبية التلقائية لالتقاط أكبر قدر ممكن من المعلومات من الصورة الأصلية لإعادة البناء بدقة، تحاول الشبكة العثور على أفضل **تمثيل** للصور المدخلة لالتقاط المعنى.
 
-![مخطط الشبكة العصبية التلقائية](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.ar.jpg)
+![مخطط الشبكة العصبية التلقائية](../../../../../translated_images/ar/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > الصورة من [مدونة Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

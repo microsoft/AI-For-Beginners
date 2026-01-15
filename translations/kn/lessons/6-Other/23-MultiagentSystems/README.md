@@ -60,7 +60,7 @@ ask turtles [
 
 ನೆಟ್‌ಲೋಗೋದಲ್ಲಿ ಒಂದು ಅದ್ಭುತ ವಿಷಯವೆಂದರೆ, ನೀವು ಪ್ರಯತ್ನಿಸಬಹುದಾದ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಮಾದರಿಗಳ ಗ್ರಂಥಾಲಯವಿದೆ. **File → Models Library** ಗೆ ಹೋಗಿ, ಮತ್ತು ನೀವು ಅನೇಕ ವರ್ಗಗಳ ಮಾದರಿಗಳನ್ನು ಆಯ್ಕೆಮಾಡಬಹುದು.
 
-<img alt="NetLogo Models Library" src="../../../../../translated_images/NetLogo-ModelLib.efe023afb4763c05.kn.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/kn/NetLogo-ModelLib.efe023afb4763c05.png" width="60%"/>
 
 > ಡಿಮಿಟ್ರಿ ಸೋಶ್ನಿಕೋವ್ ಅವರ ಮಾದರಿ ಗ್ರಂಥಾಲಯದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್
 
@@ -70,7 +70,7 @@ ask turtles [
 
 ಮಾದರಿಯನ್ನು ತೆರೆಯುವ ನಂತರ, ನೀವು ಮುಖ್ಯ ನೆಟ್‌ಲೋಗೋ ಪರದೆಗೆ ಹೋಗುತ್ತೀರಿ. ಇಲ್ಲಿ ನಾಯಿ ಮತ್ತು ಕುರಿಗಳ ಜನಸಂಖ್ಯೆಯನ್ನು ವಿವರಿಸುವ ಮಾದರಿ ಇದೆ, ನಿರ್ದಿಷ್ಟ ಸಂಪನ್ಮೂಲಗಳ (ಹುಲ್ಲು)ೊಂದಿಗೆ.
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.kn.png)
+![NetLogo Main Screen](../../../../../translated_images/kn/NetLogo-Main.32653711ec1a01b3.png)
 
 > ಡಿಮಿಟ್ರಿ ಸೋಶ್ನಿಕೋವ್ ಅವರ ಸ್ಕ್ರೀನ್‌ಶಾಟ್
 

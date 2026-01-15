@@ -17,7 +17,7 @@ Am văzut anterior că rețelele neuronale sunt destul de bune la procesarea ima
 
 Pentru a extrage tipare, vom folosi noțiunea de **filtre convoluționale**. După cum știți, o imagine este reprezentată printr-o matrice 2D sau un tensor 3D cu adâncime de culoare. Aplicarea unui filtru înseamnă că luăm o matrice relativ mică numită **kernel de filtru**, iar pentru fiecare pixel din imaginea originală calculăm media ponderată cu punctele vecine. Putem privi acest proces ca o fereastră mică care alunecă peste întreaga imagine și calculează media tuturor pixelilor conform greutăților din matricea kernelului de filtru.
 
-![Filtru pentru margini verticale](../../../../../translated_images/filter-vert.b7148390ca0bc356.ro.png) | ![Filtru pentru margini orizontale](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.ro.png)
+![Filtru pentru margini verticale](../../../../../translated_images/ro/filter-vert.b7148390ca0bc356.png) | ![Filtru pentru margini orizontale](../../../../../translated_images/ro/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > Imagine de Dmitry Soshnikov
@@ -38,7 +38,7 @@ Modul în care funcționează CNN-urile se bazează pe următoarele idei importa
 * Putem proiecta rețeaua astfel încât filtrele să fie antrenate automat
 * Putem folosi aceeași abordare pentru a găsi tipare în caracteristici de nivel înalt, nu doar în imaginea originală. Astfel, extragerea caracteristicilor prin CNN funcționează pe o ierarhie de caracteristici, începând de la combinații de pixeli de nivel scăzut, până la combinații de nivel înalt ale părților imaginii.
 
-![Extragerea ierarhică a caracteristicilor](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.ro.png)
+![Extragerea ierarhică a caracteristicilor](../../../../../translated_images/ro/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > Imagine din [un articol de Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), bazat pe [cercetarea lor](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Majoritatea CNN-urilor utilizate pentru procesarea imaginilor urmează o așa-nu
 
 Ca exemplu, să analizăm arhitectura VGG-16, o rețea care a obținut o acuratețe de 92.7% în clasificarea top-5 din ImageNet în 2014:
 
-![Straturi ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ro.jpg)
+![Straturi ImageNet](../../../../../translated_images/ro/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![Piramida ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ro.jpg)
+![Piramida ImageNet](../../../../../translated_images/ro/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Imagine de pe [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -21,7 +21,7 @@ Vaším úkolem je natrénovat konvoluční neuronovou síť, která bude klasif
 
 Použijeme [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), který obsahuje obrázky 37 různých plemen psů a koček.
 
-![Dataset, se kterým budeme pracovat](../../../../../../translated_images/data.50b2a9d5484bdbf0.cs.png)
+![Dataset, se kterým budeme pracovat](../../../../../../translated_images/cs/data.50b2a9d5484bdbf0.png)
 
 Pro stažení datasetu použijte tento kód:
 

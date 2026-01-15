@@ -20,13 +20,13 @@ With RNNs, sequence-to-sequence tasks are implemented using two recurrent networ
 
 **Attention Mechanisms** address these issues by assigning different weights to the contextual impact of each input vector on each output prediction of the RNN. This is achieved by creating shortcuts between intermediate states of the input RNN and the output RNN. When generating output symbol y<sub>t</sub>, all input hidden states h<sub>i</sub> are considered, with varying weight coefficients &alpha;<sub>t,i</sub>.
 
-![Image showing an encoder/decoder model with an additive attention layer](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.en.png)
+![Image showing an encoder/decoder model with an additive attention layer](../../../../../translated_images/en/encoder-decoder-attention.7a726296894fb567aa2898c94b17b3289087f6705c11907df8301df9e5eeb3de.png)
 
 > The encoder-decoder model with additive attention mechanism in [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cited from [this blog post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 The attention matrix {&alpha;<sub>i,j</sub>} represents the extent to which specific input words contribute to the generation of a particular word in the output sequence. Below is an example of such a matrix:
 
-![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.en.png)
+![Image showing a sample alignment found by RNNsearch-50, taken from Bahdanau - arviz.org](../../../../../translated_images/en/bahdanau-fig3.09ba2d37f202a6af11de6c82d2d197830ba5f4528d9ea430eb65fd3a75065973.png)
 
 > Figure from [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ The result of positional embedding combines both the original token and its posi
 
 Next, we need to identify patterns within the sequence. Transformers achieve this using a **self-attention** mechanism, which applies attention to the same sequence for both input and output. Self-attention allows the model to consider **context** within the sentence and identify interrelated words. For example, it can determine which words are referenced by pronouns like *it* and incorporate the surrounding context:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.en.png)
+![](../../../../../translated_images/en/CoreferenceResolution.861924d6d384a7d68d8d0039d06a71a151f18a796b8b1330239d3590bd4947eb.png)
 
 > Image from the [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Since each input position is mapped independently to each output position, trans
 
 **BERT** (Bidirectional Encoder Representations from Transformers) is a large multi-layer transformer network with 12 layers for *BERT-base* and 24 layers for *BERT-large*. The model is first pre-trained on a large corpus of text data (Wikipedia + books) using unsupervised training (predicting masked words in a sentence). During pre-training, the model acquires significant language understanding, which can then be leveraged for other datasets through fine-tuning. This process is known as **transfer learning**.
 
-![picture from http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.en.png)
+![picture from http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/en/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362e39ee4381aab7cad06b5465a0b5f053a0f2aa05fbe14e746.png)
 
 > Image [source](http://jalammar.github.io/illustrated-bert/)
 

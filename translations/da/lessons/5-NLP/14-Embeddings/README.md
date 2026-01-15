@@ -19,7 +19,7 @@ Så indlejringslaget vil tage et ord som input og producere en outputvektor med 
 
 Ved at bruge et indlejringslag som det første lag i vores klassifikationsnetværk kan vi skifte fra en bag-of-words til en **embedding bag** model, hvor vi først konverterer hvert ord i vores tekst til den tilsvarende indlejring og derefter beregner en aggregeringsfunktion over alle disse indlejringer, såsom `sum`, `average` eller `max`.
 
-![Billede, der viser en indlejringsklassifikator for fem sekvensord.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.da.png)
+![Billede, der viser en indlejringsklassifikator for fem sekvensord.](../../../../../translated_images/da/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > Billede af forfatteren
 
@@ -40,7 +40,7 @@ For at gøre dette skal vi fortræne vores indlejringsmodel på en stor samling 
 
 CBoW er hurtigere, mens skip-gram er langsommere, men gør et bedre arbejde med at repræsentere sjældne ord.
 
-![Billede, der viser både CBoW og Skip-Gram algoritmer til at konvertere ord til vektorer.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.da.png)
+![Billede, der viser både CBoW og Skip-Gram algoritmer til at konvertere ord til vektorer.](../../../../../translated_images/da/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Billede fra [denne artikel](https://arxiv.org/pdf/1301.3781.pdf)
 

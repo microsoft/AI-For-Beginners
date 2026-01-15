@@ -73,14 +73,14 @@ In our [OpenCV Notebook](OpenCV.ipynb), we provide examples of how computer visi
 
 * **Preprocessing a photograph of a Braille book**. This example demonstrates how thresholding, feature detection, perspective transformation, and NumPy manipulations can be used to isolate individual Braille symbols for further classification by a neural network.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.en.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.en.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.en.png)
+![Braille Image](../../../../../translated_images/en/braille.341962ff76b1bd7044409371d3de09ced5028132aef97344ea4b7468c1208126.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/en/braille-result.46530fea020b03c76aac532d7d6eeef7f6fb35b55b1001cd21627907dabef3ed.png) | ![Braille Symbols](../../../../../translated_images/en/braille-symbols.0159185ab69d533909dc4d7d26a1971b51401c6a80eb3a5584f250ea880af88b.png)
 ----|-----|-----
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detecting motion in video using frame difference**. If the camera is stationary, frames from the camera feed should be quite similar. Since frames are represented as arrays, subtracting the arrays of two consecutive frames will reveal pixel differences. These differences will be minimal for static frames and more pronounced when there is significant motion in the image.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.en.png)
+![Image of video frames and frame differences](../../../../../translated_images/en/frame-difference.706f805491a0883c938e16447bf5eb2f7d69e812c7f743cbe7d7c7645168f81f.png)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ In our [OpenCV Notebook](OpenCV.ipynb), we provide examples of how computer visi
    - **Dense Optical Flow** calculates a vector field showing the movement of each pixel.
    - **Sparse Optical Flow** focuses on distinctive features in the image (e.g., edges) and tracks their movement across frames.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.en.png)
+![Image of Optical Flow](../../../../../translated_images/en/optical.1f4a94464579a83a10784f3c07fe7228514714b96782edf50e70ccd59d2d8c4f.png)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 

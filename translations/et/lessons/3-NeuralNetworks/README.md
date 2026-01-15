@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sissejuhatus tehisnärvivõrkudesse
 
-![Kokkuvõte tehisnärvivõrkude sissejuhatuse sisust doodle'is](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.et.png)
+![Kokkuvõte tehisnärvivõrkude sissejuhatuse sisust doodle'is](../../../../translated_images/et/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 Nagu me arutasime sissejuhatuses, on üks viis intelligentsuse saavutamiseks treenida **arvutimudelit** või **tehisaju**. Alates 20. sajandi keskpaigast on teadlased katsetanud erinevaid matemaatilisi mudeleid, kuni viimastel aastatel osutus see suund väga edukaks. Selliseid aju matemaatilisi mudeleid nimetatakse **närvivõrkudeks**.
 
@@ -36,13 +36,13 @@ Selles õppekavas keskendume ainult närvivõrkude mudelitele.
 
 Bioloogiast teame, et meie aju koosneb närvirakkudest (neuronitest), millest igaühel on mitu "sisendit" (dendriidid) ja üks "väljund" (akson). Nii dendriidid kui aksonid suudavad juhtida elektrilisi signaale ning nende vahelised ühendused — sünapsid — võivad näidata erinevat juhtivust, mida reguleerivad neurotransmitterid.
 
-![Neuroni mudel](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.et.jpg) | ![Neuroni mudel](../../../../translated_images/artneuron.1a5daa88d20ebe6f.et.png)
+![Neuroni mudel](../../../../translated_images/et/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Neuroni mudel](../../../../translated_images/et/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 Päris neuron *([Pilt](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) Wikipediast)* | Tehisneuron *(Pilt autorilt)*
 
 Seega sisaldab neuroni lihtsaim matemaatiline mudel mitut sisendit X<sub>1</sub>, ..., X<sub>N</sub> ja ühte väljundit Y ning mitmeid kaale W<sub>1</sub>, ..., W<sub>N</sub>. Väljund arvutatakse järgmiselt:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.et.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/et/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kus f on mingi mittelineaarne **aktiveerimisfunktsioon**.
 

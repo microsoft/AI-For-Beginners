@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ढाँचाहरू निकाल्न, हामी **कन्भोल्युसनल फिल्टरहरू** को धारणा प्रयोग गर्नेछौं। तपाईंलाई थाहा छ, छवि 2D-म्याट्रिक्स वा रंग गहिराइ भएको 3D-टेन्सरद्वारा प्रतिनिधित्व गरिन्छ। फिल्टर लागू गर्नुको मतलब हामी सानो **फिल्टर कर्नेल** म्याट्रिक्स लिन्छौं, र मूल छविको प्रत्येक पिक्सेलको लागि हामी छिमेकी बिन्दुहरूसँग तौलित औसत गणना गर्छौं। हामी यसलाई सानो झ्यालले सम्पूर्ण छविमा स्लाइड गर्दै, र फिल्टर कर्नेल म्याट्रिक्समा तौलहरू अनुसार सबै पिक्सेलहरू औसत गर्दै हेर्न सक्छौं।
 
-![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356.ne.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.ne.png)
+![Vertical Edge Filter](../../../../../translated_images/ne/filter-vert.b7148390ca0bc356.png) | ![Horizontal Edge Filter](../../../../../translated_images/ne/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > छवि: दिमित्री सोश्निकोभ
@@ -38,7 +38,7 @@ CNN काम गर्ने तरिका निम्न महत्त्
 * हामी नेटवर्कलाई यसरी डिजाइन गर्न सक्छौं कि फिल्टरहरू स्वचालित रूपमा प्रशिक्षित हुन्छन्
 * हामी मूल छविमा मात्र होइन, उच्च-स्तरका विशेषताहरूमा ढाँचाहरू फेला पार्न उस्तै दृष्टिकोण प्रयोग गर्न सक्छौं। यसरी CNN विशेषता निकाल्ने काम विशेषताको पदानुक्रममा हुन्छ, तल्लो-स्तरका पिक्सेल संयोजनबाट सुरु गर्दै, चित्रका भागहरूको उच्च-स्तर संयोजनसम्म।
 
-![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.ne.png)
+![Hierarchical Feature Extraction](../../../../../translated_images/ne/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > छवि: [Hislop-Lynch को पेपर](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) बाट, [तिनीहरूको अनुसन्धान](https://dl.acm.org/doi/abs/10.1145/1553374.1553453) मा आधारित
 
@@ -55,9 +55,9 @@ CNN काम गर्ने तरिका निम्न महत्त्
 
 उदाहरणका लागि, VGG-16 को आर्किटेक्चरलाई हेरौं, जसले 2014 मा ImageNet को शीर्ष-5 वर्गीकरणमा 92.7% शुद्धता प्राप्त गर्यो:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ne.jpg)
+![ImageNet Layers](../../../../../translated_images/ne/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ne.jpg)
+![ImageNet Pyramid](../../../../../translated_images/ne/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > छवि: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) बाट
 

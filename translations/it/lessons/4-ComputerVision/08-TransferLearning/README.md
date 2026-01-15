@@ -29,7 +29,7 @@ Sia Keras che PyTorch contengono funzioni per caricare facilmente i pesi di reti
 
 Ecco alcune caratteristiche estratte da un'immagine di un gatto dalla rete VGG-16:
 
-![Caratteristiche estratte da VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.it.png)
+![Caratteristiche estratte da VGG-16](../../../../../translated_images/it/features.6291f9c7ba3a0b95.png)
 
 ## Dataset Gatti vs. Cani
 
@@ -48,19 +48,19 @@ Una rete neurale pre-addestrata contiene diversi schemi all'interno del suo *cer
 
 Un approccio che possiamo adottare è partire da un'immagine casuale e poi cercare di utilizzare la tecnica di **ottimizzazione con discesa del gradiente** per modificare quell'immagine in modo tale che la rete inizi a pensare che sia un gatto.
 
-![Ciclo di Ottimizzazione dell'Immagine](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.it.png)
+![Ciclo di Ottimizzazione dell'Immagine](../../../../../translated_images/it/ideal-cat-loop.999fbb8ff306e044.png)
 
 Tuttavia, se facciamo questo, otterremo qualcosa di molto simile a un rumore casuale. Questo perché *ci sono molti modi per far pensare alla rete che l'immagine di input sia un gatto*, inclusi alcuni che non hanno senso visivamente. Sebbene queste immagini contengano molti schemi tipici di un gatto, non c'è nulla che le vincoli a essere visivamente distintive.
 
 Per migliorare il risultato, possiamo aggiungere un altro termine alla funzione di perdita, chiamato **variation loss**. È una metrica che mostra quanto sono simili i pixel vicini dell'immagine. Minimizzare la variation loss rende l'immagine più liscia e elimina il rumore, rivelando così schemi più visivamente piacevoli. Ecco un esempio di queste immagini "ideali", classificate come gatto e zebra con alta probabilità:
 
-![Gatto Ideale](../../../../../translated_images/ideal-cat.203dd4597643d6b0.it.png) | ![Zebra Ideale](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.it.png)
+![Gatto Ideale](../../../../../translated_images/it/ideal-cat.203dd4597643d6b0.png) | ![Zebra Ideale](../../../../../translated_images/it/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
  *Gatto Ideale* | *Zebra Ideale*
 
 Un approccio simile può essere utilizzato per eseguire i cosiddetti **attacchi avversari** su una rete neurale. Supponiamo di voler ingannare una rete neurale e far sembrare un cane un gatto. Se prendiamo l'immagine di un cane, che è riconosciuta dalla rete come un cane, possiamo modificarla leggermente utilizzando l'ottimizzazione con discesa del gradiente, fino a quando la rete inizia a classificarla come un gatto:
 
-![Immagine di un Cane](../../../../../translated_images/original-dog.8f68a67d2fe0911f.it.png) | ![Immagine di un cane classificata come gatto](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.it.png)
+![Immagine di un Cane](../../../../../translated_images/it/original-dog.8f68a67d2fe0911f.png) | ![Immagine di un cane classificata come gatto](../../../../../translated_images/it/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Immagine originale di un cane* | *Immagine di un cane classificata come gatto*
 

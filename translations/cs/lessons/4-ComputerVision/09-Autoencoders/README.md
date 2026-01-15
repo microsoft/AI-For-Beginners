@@ -19,7 +19,7 @@ Nicméně bychom mohli chtít použít surová (neoznačená) data pro trénová
 
 Protože trénujeme autoenkodér, aby zachytil co nejvíce informací z původního obrázku pro přesnou rekonstrukci, síť se snaží najít nejlepší **embedding** vstupních obrázků, aby zachytila jejich význam.
 
-![Schéma Autoenkodéru](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.cs.jpg)
+![Schéma Autoenkodéru](../../../../../translated_images/cs/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > Obrázek z [blogu Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

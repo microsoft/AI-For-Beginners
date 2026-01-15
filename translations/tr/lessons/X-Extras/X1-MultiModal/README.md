@@ -15,7 +15,7 @@ Transformer modellerinin NLP görevlerini çözmedeki başarısından sonra, ayn
 
 CLIP'in temel fikri, metin istemlerini bir görüntüyle karşılaştırabilmek ve görüntünün istemle ne kadar iyi eşleştiğini belirlemektir.
 
-![CLIP Mimari](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.tr.png)
+![CLIP Mimari](../../../../../translated_images/tr/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Resim [bu blog yazısından](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Bu model önceden eğitildikten sonra, bir grup görüntü ve bir grup metin ist
 
 Diyelim ki görüntüleri kediler, köpekler ve insanlar arasında sınıflandırmamız gerekiyor. Bu durumda, modele bir görüntü ve bir dizi metin istemi verebiliriz: "*bir kedi resmi*", "*bir köpek resmi*", "*bir insan resmi*". Sonuçta elde edilen 3 olasılık vektöründe en yüksek değere sahip indeksi seçmemiz yeterlidir.
 
-![CLIP ile Görüntü Sınıflandırma](../../../../../translated_images/clip-class.3af42ef0b2b19369.tr.png)
+![CLIP ile Görüntü Sınıflandırma](../../../../../translated_images/tr/clip-class.3af42ef0b2b19369.png)
 
 > *Resim [bu blog yazısından](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ VQGAN hakkında daha fazla bilgi edinmek için [Taming Transformers](https://com
 
 VQGAN ile geleneksel GAN arasındaki önemli farklardan biri, geleneksel GAN'ın herhangi bir giriş vektöründen düzgün bir görüntü üretebilmesi, ancak VQGAN'ın tutarlı bir görüntü üretme olasılığının düşük olmasıdır. Bu nedenle, görüntü oluşturma sürecini daha fazla yönlendirmemiz gerekir ve bu CLIP kullanılarak yapılabilir.
 
-![VQGAN+CLIP Mimari](../../../../../translated_images/vqgan.5027fe05051dfa31.tr.png)
+![VQGAN+CLIP Mimari](../../../../../translated_images/tr/vqgan.5027fe05051dfa31.png)
 
 Bir metin istemine karşılık gelen bir görüntü oluşturmak için, rastgele bir kodlama vektörüyle başlarız ve bu vektör VQGAN'dan geçirilerek bir görüntü oluşturulur. Daha sonra CLIP, görüntünün metin istemine ne kadar iyi uyduğunu gösteren bir kayıp fonksiyonu üretmek için kullanılır. Amaç, bu kaybı minimize etmek ve geri yayılım kullanarak giriş vektör parametrelerini ayarlamaktır.
 
 VQGAN+CLIP'i uygulayan harika bir kütüphane [Pixray](http://github.com/pixray/pixray)'dir.
 
-![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.tr.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.tr.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.tr.png)
+![Pixray tarafından üretilen resim](../../../../../translated_images/tr/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/tr/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/tr/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 *Edebiyat öğretmeni olan genç bir erkeğin kitapla yakın çekim suluboya portresi* isteminden üretilen resim | *Bilgisayar bilimi öğretmeni olan genç bir kadının bilgisayarla yakın çekim yağlı boya portresi* isteminden üretilen resim | *Matematik öğretmeni olan yaşlı bir erkeğin kara tahta önünde yakın çekim yağlı boya portresi* isteminden üretilen resim
 
@@ -75,7 +75,7 @@ CLIP'ten farklı olarak, DALL-E hem metni hem de görüntüyü bir dizi token ol
 DALL-E 1 ve 2 arasındaki temel fark, DALL-E 2'nin daha gerçekçi görüntüler ve sanat eserleri üretmesidir.
 
 DALL-E ile görüntü oluşturma örnekleri:
-![Pixray tarafından üretilen resim](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.tr.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.tr.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.tr.png)
+![Pixray tarafından üretilen resim](../../../../../translated_images/tr/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Pixray tarafından üretilen resim](../../../../../translated_images/tr/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Pixray tarafından üretilen resim](../../../../../translated_images/tr/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 *Edebiyat öğretmeni olan genç bir erkeğin kitapla yakın çekim suluboya portresi* isteminden üretilen resim | *Bilgisayar bilimi öğretmeni olan genç bir kadının bilgisayarla yakın çekim yağlı boya portresi* isteminden üretilen resim | *Matematik öğretmeni olan yaşlı bir erkeğin kara tahta önünde yakın çekim yağlı boya portresi* isteminden üretilen resim
 

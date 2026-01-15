@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Umělá inteligence pro začátečníky - Kurz
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.cs.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/cs/ai-overview.0857791951d19500.png)|
 |:---:|
 | Umělá inteligence pro začátečníky - _sketchnote od [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

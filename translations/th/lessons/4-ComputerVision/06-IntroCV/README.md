@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **การประมวลผลภาพถ่ายของหนังสือเบรลล์** เรามุ่งเน้นที่การใช้ thresholding, การตรวจจับคุณลักษณะ, การแปลงมุมมอง และการปรับอาร์เรย์ NumPy เพื่อแยกสัญลักษณ์เบรลล์แต่ละตัวสำหรับการจำแนกผลลัพธ์โดยเครือข่ายประสาทเทียม
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.th.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.th.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.th.png)
+![Braille Image](../../../../../translated_images/th/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/th/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/th/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 
 * **การตรวจจับการเคลื่อนไหวในวิดีโอโดยใช้ความแตกต่างของเฟรม** หากกล้องอยู่ในตำแหน่งคงที่ เฟรมจากกล้องควรมีความคล้ายคลึงกันมาก โดยเฟรมที่แสดงผลเป็นอาร์เรย์ เพียงแค่ลบอาร์เรย์ของเฟรมสองเฟรมที่ต่อเนื่องกัน คุณจะได้ความแตกต่างของพิกเซล ซึ่งควรต่ำสำหรับเฟรมที่นิ่ง และสูงขึ้นเมื่อมีการเคลื่อนไหวในภาพ
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.th.png)
+![Image of video frames and frame differences](../../../../../translated_images/th/frame-difference.706f805491a0883c.png)
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **Dense Optical Flow** คำนวณสนามเวกเตอร์ที่แสดงว่าพิกเซลแต่ละตัวเคลื่อนที่ไปที่ใด
    - **Sparse Optical Flow** ใช้คุณลักษณะเด่นในภาพ (เช่น ขอบ) และสร้างเส้นทางการเคลื่อนที่ของมันจากเฟรมหนึ่งไปยังอีกเฟรมหนึ่ง
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.th.png)
+![Image of Optical Flow](../../../../../translated_images/th/optical.1f4a94464579a83a.png)
 
 > ภาพจาก [OpenCV.ipynb](OpenCV.ipynb)
 

@@ -73,14 +73,14 @@ Nel nostro [OpenCV Notebook](OpenCV.ipynb), forniamo alcuni esempi di quando la 
 
 * **Pre-elaborazione di una fotografia di un libro in Braille**. Ci concentriamo su come possiamo utilizzare thresholding, rilevamento delle caratteristiche, trasformazione prospettica e manipolazioni NumPy per separare i singoli simboli Braille per una successiva classificazione tramite una rete neurale.
 
-![Immagine Braille](../../../../../translated_images/braille.341962ff76b1bd70.it.jpeg) | ![Immagine Braille Pre-elaborata](../../../../../translated_images/braille-result.46530fea020b03c7.it.png) | ![Simboli Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.it.png)
+![Immagine Braille](../../../../../translated_images/it/braille.341962ff76b1bd70.jpeg) | ![Immagine Braille Pre-elaborata](../../../../../translated_images/it/braille-result.46530fea020b03c7.png) | ![Simboli Braille](../../../../../translated_images/it/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Immagine da [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Rilevamento del movimento in video utilizzando la differenza tra fotogrammi**. Se la fotocamera è fissa, i fotogrammi del feed della fotocamera dovrebbero essere abbastanza simili tra loro. Poiché i fotogrammi sono rappresentati come array, semplicemente sottraendo questi array per due fotogrammi consecutivi otterremo la differenza dei pixel, che dovrebbe essere bassa per fotogrammi statici e diventare più alta quando c'è un movimento sostanziale nell'immagine.
 
-![Immagine dei fotogrammi video e differenze tra fotogrammi](../../../../../translated_images/frame-difference.706f805491a0883c.it.png)
+![Immagine dei fotogrammi video e differenze tra fotogrammi](../../../../../translated_images/it/frame-difference.706f805491a0883c.png)
 
 > Immagine da [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Nel nostro [OpenCV Notebook](OpenCV.ipynb), forniamo alcuni esempi di quando la 
    - **Dense Optical Flow** calcola il campo vettoriale che mostra per ogni pixel dove si sta muovendo.
    - **Sparse Optical Flow** si basa sull'individuazione di alcune caratteristiche distintive nell'immagine (ad esempio, bordi) e sulla costruzione della loro traiettoria da fotogramma a fotogramma.
 
-![Immagine di Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.it.png)
+![Immagine di Optical Flow](../../../../../translated_images/it/optical.1f4a94464579a83a.png)
 
 > Immagine da [OpenCV.ipynb](OpenCV.ipynb)
 

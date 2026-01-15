@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การแทนความรู้และระบบผู้เชี่ยวชาญ
 
-![สรุปเนื้อหา Symbolic AI](../../../../translated_images/ai-symbolic.715a30cb610411a6.th.png)
+![สรุปเนื้อหา Symbolic AI](../../../../translated_images/th/ai-symbolic.715a30cb610411a6.png)
 
 > ภาพสเก็ตโน้ตโดย [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ดังนั้น ปัญหาของ **การแทนความรู้** คือการหาวิธีที่มีประสิทธิภาพในการแทนความรู้ภายในคอมพิวเตอร์ในรูปแบบของข้อมูล เพื่อให้สามารถใช้งานได้โดยอัตโนมัติ สิ่งนี้สามารถมองได้ว่าเป็นสเปกตรัม:
 
-![สเปกตรัมการแทนความรู้](../../../../translated_images/knowledge-spectrum.b60df631852c0217.th.png)
+![สเปกตรัมการแทนความรู้](../../../../translated_images/th/knowledge-spectrum.b60df631852c0217.png)
 
 > ภาพโดย [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 หนึ่งในความสำเร็จแรกๆ ของ Symbolic AI คือ **ระบบผู้เชี่ยวชาญ (Expert Systems)** - ระบบคอมพิวเตอร์ที่ถูกออกแบบมาให้ทำหน้าที่เป็นผู้เชี่ยวชาญในโดเมนปัญหาที่จำกัด ระบบเหล่านี้มีพื้นฐานมาจาก **ฐานความรู้ (Knowledge Base)** ที่ดึงมาจากผู้เชี่ยวชาญมนุษย์ และมี **เครื่องมืออนุมาน (Inference Engine)** ที่ทำการให้เหตุผลบนฐานความรู้นั้น
 
-![โครงสร้างระบบประสาทมนุษย์](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.th.png) | ![โครงสร้างระบบที่ใช้ความรู้](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.th.png)
+![โครงสร้างระบบประสาทมนุษย์](../../../../translated_images/th/arch-human.5d4d35f1bba3ab1c.png) | ![โครงสร้างระบบที่ใช้ความรู้](../../../../translated_images/th/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 โครงสร้างระบบประสาทมนุษย์แบบง่าย | โครงสร้างของระบบที่ใช้ความรู้
 
@@ -106,7 +106,7 @@ Block Syntax | Indent | | |
 
 ตัวอย่างเช่น ลองพิจารณาระบบผู้เชี่ยวชาญที่ใช้ในการระบุสัตว์ตามลักษณะทางกายภาพ:
 
-![ต้นไม้ AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.th.png)
+![ต้นไม้ AND-OR](../../../../translated_images/th/AND-OR-Tree.5592d2c70187f283.png)
 
 > ภาพโดย [Dmitry Soshnikov](http://soshnikov.com)
 

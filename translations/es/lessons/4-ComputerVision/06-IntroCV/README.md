@@ -73,14 +73,14 @@ En nuestro [OpenCV Notebook](OpenCV.ipynb), damos algunos ejemplos de cuándo la
 
 * **Preprocesar una fotografía de un libro en Braille**. Nos enfocamos en cómo podemos usar umbralización, detección de características, transformación de perspectiva y manipulaciones de NumPy para separar símbolos individuales de Braille para su posterior clasificación por una red neuronal.
 
-![Imagen Braille](../../../../../translated_images/braille.341962ff76b1bd70.es.jpeg) | ![Imagen Braille Preprocesada](../../../../../translated_images/braille-result.46530fea020b03c7.es.png) | ![Símbolos Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.es.png)
+![Imagen Braille](../../../../../translated_images/es/braille.341962ff76b1bd70.webp) | ![Imagen Braille Preprocesada](../../../../../translated_images/es/braille-result.46530fea020b03c7.webp) | ![Símbolos Braille](../../../../../translated_images/es/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Imagen de [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detectar movimiento en video usando diferencia de fotogramas**. Si la cámara está fija, los fotogramas del feed de la cámara deberían ser bastante similares entre sí. Dado que los fotogramas se representan como arreglos, simplemente al restar esos arreglos de dos fotogramas consecutivos obtendremos la diferencia de píxeles, que debería ser baja para fotogramas estáticos y aumentar cuando haya un movimiento sustancial en la imagen.
 
-![Imagen de fotogramas de video y diferencias de fotogramas](../../../../../translated_images/frame-difference.706f805491a0883c.es.png)
+![Imagen de fotogramas de video y diferencias de fotogramas](../../../../../translated_images/es/frame-difference.706f805491a0883c.webp)
 
 > Imagen de [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ En nuestro [OpenCV Notebook](OpenCV.ipynb), damos algunos ejemplos de cuándo la
    - **Flujo Óptico Denso** calcula el campo vectorial que muestra para cada píxel hacia dónde se está moviendo.
    - **Flujo Óptico Escaso** se basa en tomar algunas características distintivas en la imagen (por ejemplo, bordes) y construir su trayectoria de fotograma a fotograma.
 
-![Imagen de Flujo Óptico](../../../../../translated_images/optical.1f4a94464579a83a.es.png)
+![Imagen de Flujo Óptico](../../../../../translated_images/es/optical.1f4a94464579a83a.webp)
 
 > Imagen de [OpenCV.ipynb](OpenCV.ipynb)
 

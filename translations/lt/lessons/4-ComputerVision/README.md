@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kompiuterinis matymas
 
-![Kompiuterinio matymo turinio santrauka piešinyje](../../../../translated_images/ai-computervision.6506ebebac3fbf76.lt.png)
+![Kompiuterinio matymo turinio santrauka piešinyje](../../../../translated_images/lt/ai-computervision.6506ebebac3fbf76.png)
 
 Šiame skyriuje sužinosime apie:
 

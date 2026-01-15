@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 adalah rangkaian yang mencapai ketepatan 92.7% dalam klasifikasi top-5 ImageNet pada tahun 2014. Ia mempunyai struktur lapisan seperti berikut:
 
-![Lapisan ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ms.jpg)
+![Lapisan ImageNet](../../../../../translated_images/ms/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 Seperti yang anda lihat, VGG mengikuti senibina piramid tradisional, iaitu urutan lapisan penumpuan dan pengumpulan.
 
-![Piramid ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ms.jpg)
+![Piramid ImageNet](../../../../../translated_images/ms/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Imej daripada [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

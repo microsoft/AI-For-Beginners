@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Tehisintellekt algajatele - õppekava
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.et.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/et/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI algajatele - _Sketchnote autor [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

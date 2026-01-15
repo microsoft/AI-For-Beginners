@@ -21,7 +21,7 @@ Bir evcil hayvan yuvası için tüm evcil hayvanları kataloglamak amacıyla bir
 
 [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) veri setini kullanacağız. Bu veri seti, 37 farklı köpek ve kedi cinsine ait görüntüler içerir.
 
-![Çalışacağımız veri seti](../../../../../../translated_images/data.50b2a9d5484bdbf0.tr.png)
+![Çalışacağımız veri seti](../../../../../../translated_images/tr/data.50b2a9d5484bdbf0.png)
 
 Veri setini indirmek için şu kod parçacığını kullanın:
 

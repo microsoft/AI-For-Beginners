@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pregled
 
-![Pregled v skici](../../../translated_images/ai-overview.0857791951d19500.sl.png)
+![Pregled v skici](../../../translated_images/sl/ai-overview.0857791951d19500.png)
 
 > Skica avtorja [Tomomi Imura](https://twitter.com/girlie_mac)
 

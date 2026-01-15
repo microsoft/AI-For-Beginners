@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducere în Rețele Neuronale
 
-![Rezumat al conținutului despre Introducerea în Rețele Neuronale într-un desen](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.ro.png)
+![Rezumat al conținutului despre Introducerea în Rețele Neuronale într-un desen](../../../../translated_images/ro/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 Așa cum am discutat în introducere, una dintre modalitățile de a obține inteligență este să antrenăm un **model computerizat** sau un **creier artificial**. Începând cu mijlocul secolului al XX-lea, cercetătorii au încercat diferite modele matematice, până când, în ultimii ani, această direcție s-a dovedit a fi extrem de eficientă. Aceste modele matematice ale creierului sunt numite **rețele neuronale**.
 
@@ -36,13 +36,13 @@ Vom analiza cele mai comune două probleme din Învățarea Automată:
 
 Din biologie, știm că creierul nostru este format din celule neuronale (neuroni), fiecare având multiple "intrări" (dendrite) și o singură "ieșire" (axon). Atât dendritele, cât și axonii pot conduce semnale electrice, iar conexiunile dintre ele — cunoscute sub numele de sinapse — pot prezenta grade variate de conductivitate, care sunt reglate de neurotransmițători.
 
-![Model al unui Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.ro.jpg) | ![Model al unui Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.ro.png)
+![Model al unui Neuron](../../../../translated_images/ro/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Model al unui Neuron](../../../../translated_images/ro/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 Neuron Real *([Imagine](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) de pe Wikipedia)* | Neuron Artificial *(Imagine de Autor)*
 
 Astfel, cel mai simplu model matematic al unui neuron conține mai multe intrări X<sub>1</sub>, ..., X<sub>N</sub> și o ieșire Y, precum și o serie de ponderi W<sub>1</sub>, ..., W<sub>N</sub>. Ieșirea este calculată astfel:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.ro.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/ro/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 unde f este o **funcție de activare** neliniară.
 

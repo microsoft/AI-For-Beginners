@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # ਸ਼ੁਰੂਆਤੀ ਲਈ ਕৃত੍ਰਿਮ ਬੁੱਧੀ - ਇੱਕ ਕੋਰਸ
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.pa.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/pa/ai-overview.0857791951d19500.png)|
 |:---:|
 |ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ [@girlie_mac](https://twitter.com/girlie_mac) ਵੱਲੋਂ ਕਿਰਿਆ ਗਿਆ AI For Beginners - _ਸਕੈਚਨੋਟ_ |
 

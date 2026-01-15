@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **預處理盲文書的照片**。我們專注於如何使用閾值處理、特徵檢測、透視變換和 NumPy 操作來分離單個盲文符號，以便進一步由神經網路進行分類。
 
-![盲文影像](../../../../../translated_images/braille.341962ff76b1bd70.mo.jpeg) | ![盲文影像預處理結果](../../../../../translated_images/braille-result.46530fea020b03c7.mo.png) | ![盲文符號](../../../../../translated_images/braille-symbols.0159185ab69d5339.mo.png)  
+![盲文影像](../../../../../translated_images/mo/braille.341962ff76b1bd70.jpeg) | ![盲文影像預處理結果](../../../../../translated_images/mo/braille-result.46530fea020b03c7.png) | ![盲文符號](../../../../../translated_images/mo/braille-symbols.0159185ab69d5339.png)  
 ----|-----|-----  
 
 > 圖片來自 [OpenCV.ipynb](OpenCV.ipynb)
 
 * **使用幀差檢測影片中的運動**。如果相機固定，則來自相機的幀應該彼此非常相似。由於幀表示為陣列，只需對兩個連續幀的陣列進行相減，我們就能得到像素差異，靜態幀的差異應該很低，而當影像中有顯著運動時，差異會變高。
 
-![影片幀和幀差的影像](../../../../../translated_images/frame-difference.706f805491a0883c.mo.png)  
+![影片幀和幀差的影像](../../../../../translated_images/mo/frame-difference.706f805491a0883c.png)  
 
 > 圖片來自 [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -88,7 +88,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **密集光流** 計算顯示每個像素移動方向的向量場  
    - **稀疏光流** 基於提取影像中的一些顯著特徵（例如邊緣），並從幀到幀構建它們的軌跡。  
 
-![光流影像](../../../../../translated_images/optical.1f4a94464579a83a.mo.png)  
+![光流影像](../../../../../translated_images/mo/optical.1f4a94464579a83a.png)  
 
 > 圖片來自 [OpenCV.ipynb](OpenCV.ipynb)
 

@@ -29,7 +29,7 @@ Keras 和 PyTorch 都包含了方便的函數，可以輕鬆加載一些常見�
 
 以下是 VGG-16 網路從一張貓的圖片中提取的特徵示例：
 
-![VGG-16 提取的特徵](../../../../../translated_images/features.6291f9c7ba3a0b95.tw.png)
+![VGG-16 提取的特徵](../../../../../translated_images/tw/features.6291f9c7ba3a0b95.png)
 
 ## 貓與狗數據集
 
@@ -48,19 +48,19 @@ Keras 和 PyTorch 都包含了方便的函數，可以輕鬆加載一些常見�
 
 我們可以採取的一種方法是從一張隨機圖像開始，然後嘗試使用**梯度下降優化**技術調整該圖像，使得網路認為它是一隻貓。
 
-![圖像優化循環](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.tw.png)
+![圖像優化循環](../../../../../translated_images/tw/ideal-cat-loop.999fbb8ff306e044.png)
 
 然而，如果我們這樣做，我們會得到一些非常接近隨機噪聲的東西。這是因為*有很多方法可以讓網路認為輸入圖像是一隻貓*，其中一些方法在視覺上並不合理。雖然這些圖像包含了許多典型於貓的模式，但並沒有任何約束使它們在視覺上具有辨識度。
 
 為了改善結果，我們可以在損失函數中添加另一個項，稱為**變異損失**。這是一種衡量圖像中相鄰像素相似程度的指標。最小化變異損失可以使圖像更平滑，並消除噪聲——從而揭示出更具視覺吸引力的模式。以下是一些這樣的「理想」圖像的例子，它們被高概率地分類為貓和斑馬：
 
-![理想貓](../../../../../translated_images/ideal-cat.203dd4597643d6b0.tw.png) | ![理想斑馬](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.tw.png)
+![理想貓](../../../../../translated_images/tw/ideal-cat.203dd4597643d6b0.png) | ![理想斑馬](../../../../../translated_images/tw/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
 *理想貓* | *理想斑馬*
 
 類似的方法可以用來對神經網路進行所謂的**對抗性攻擊**。假設我們想要欺騙神經網路，讓一隻狗看起來像一隻貓。如果我們拿一張狗的圖片，該圖片被網路識別為狗，然後稍微調整它，使用梯度下降優化，直到網路開始將其分類為貓：
 
-![狗的圖片](../../../../../translated_images/original-dog.8f68a67d2fe0911f.tw.png) | ![被分類為貓的狗圖片](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.tw.png)
+![狗的圖片](../../../../../translated_images/tw/original-dog.8f68a67d2fe0911f.png) | ![被分類為貓的狗圖片](../../../../../translated_images/tw/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *原始狗圖片* | *被分類為貓的狗圖片*
 

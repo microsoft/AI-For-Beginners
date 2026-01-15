@@ -19,7 +19,7 @@ Så, inbäddningslagret skulle ta ett ord som indata och producera en utdata-vek
 
 Genom att använda ett inbäddningslager som det första lagret i vårt klassificeringsnätverk kan vi byta från en bag-of-words till en **embedding bag**-modell, där vi först konverterar varje ord i vår text till motsvarande inbäddning och sedan beräknar någon aggregeringsfunktion över alla dessa inbäddningar, såsom `sum`, `average` eller `max`.  
 
-![Bild som visar en inbäddningsklassificerare för fem sekvensord.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.sv.png)
+![Bild som visar en inbäddningsklassificerare för fem sekvensord.](../../../../../translated_images/sv/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > Bild av författaren
 
@@ -40,7 +40,7 @@ För att göra detta behöver vi förträna vår inbäddningsmodell på en stor 
 
 CBoW är snabbare, medan skip-gram är långsammare men gör ett bättre jobb med att representera sällsynta ord.
 
-![Bild som visar både CBoW- och Skip-Gram-algoritmer för att konvertera ord till vektorer.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sv.png)
+![Bild som visar både CBoW- och Skip-Gram-algoritmer för att konvertera ord till vektorer.](../../../../../translated_images/sv/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Bild från [denna artikel](https://arxiv.org/pdf/1301.3781.pdf)
 

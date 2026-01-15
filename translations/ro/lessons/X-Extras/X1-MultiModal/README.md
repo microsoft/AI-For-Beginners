@@ -15,7 +15,7 @@ După succesul modelelor transformer în rezolvarea sarcinilor NLP, aceleași sa
 
 Ideea principală a CLIP este de a putea compara descrieri textuale cu o imagine și de a determina cât de bine corespunde imaginea descrierii.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.ro.png)
+![CLIP Architecture](../../../../../translated_images/ro/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Imagine din [acest articol](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Odată ce acest model este pre-antrenat, putem să-i oferim un lot de imagini ș
 
 Să presupunem că trebuie să clasificăm imagini între, să zicem, pisici, câini și oameni. În acest caz, putem oferi modelului o imagine și o serie de descrieri textuale: "*o imagine cu o pisică*", "*o imagine cu un câine*", "*o imagine cu un om*". În vectorul rezultat de 3 probabilități, trebuie doar să selectăm indexul cu cea mai mare valoare.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.ro.png)
+![CLIP for Image Classification](../../../../../translated_images/ro/clip-class.3af42ef0b2b19369.png)
 
 > *Imagine din [acest articol](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Aflați mai multe despre VQGAN pe site-ul [Taming Transformers](https://compvis.
 
 Una dintre diferențele importante între VQGAN și GAN-ul tradițional este că cel din urmă poate produce o imagine decentă din orice vector de intrare, în timp ce VQGAN este probabil să producă o imagine incoerentă. Astfel, trebuie să ghidăm procesul de creare a imaginii, iar acest lucru poate fi realizat folosind CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.ro.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/ro/vqgan.5027fe05051dfa31.png)
 
 Pentru a genera o imagine corespunzătoare unei descrieri textuale, începem cu un vector de codificare aleatoriu care este transmis prin VQGAN pentru a produce o imagine. Apoi, CLIP este utilizat pentru a produce o funcție de pierdere care arată cât de bine corespunde imaginea descrierii textuale. Scopul este de a minimiza această pierdere, utilizând backpropagation pentru a ajusta parametrii vectorului de intrare.
 
 O bibliotecă excelentă care implementează VQGAN+CLIP este [Pixray](http://github.com/pixray/pixray).
 
-![Imagine produsă de Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.ro.png) |  ![Imagine produsă de Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.ro.png) | ![Imagine produsă de Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.ro.png)
+![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Imagine generată din descrierea *un portret în acuarelă, prim-plan, al unui tânăr profesor de literatură cu o carte* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unei tinere profesoare de informatică cu un computer* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unui profesor bătrân de matematică în fața unei table negre*
 
@@ -75,7 +75,7 @@ Spre deosebire de CLIP, DALL-E primește atât textul, cât și imaginea ca un f
 Principala diferență între DALL-E 1 și 2 este că aceasta generează imagini și artă mai realiste.
 
 Exemple de imagini generate cu DALL-E:
-![Imagine produsă de Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.ro.png) |  ![Imagine produsă de Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.ro.png) | ![Imagine produsă de Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.ro.png)
+![Imagine produsă de Pixray](../../../../../translated_images/ro/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Imagine produsă de Pixray](../../../../../translated_images/ro/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Imagine produsă de Pixray](../../../../../translated_images/ro/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Imagine generată din descrierea *un portret în acuarelă, prim-plan, al unui tânăr profesor de literatură cu o carte* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unei tinere profesoare de informatică cu un computer* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unui profesor bătrân de matematică în fața unei table negre*
 

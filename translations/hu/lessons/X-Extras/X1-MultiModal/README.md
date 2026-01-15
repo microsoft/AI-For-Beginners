@@ -15,7 +15,7 @@ A transzformer modellek sikerét követően az NLP feladatok megoldásában, has
 
 A CLIP fő ötlete, hogy képes legyen összehasonlítani szöveges utasításokat egy képpel, és meghatározni, mennyire felel meg a kép az utasításnak.
 
-![CLIP Architektúra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.hu.png)
+![CLIP Architektúra](../../../../../translated_images/hu/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Kép [ebből a blogbejegyzésből](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Miután a modellt betanították, megadhatunk neki egy batch képet és egy batc
 
 Tegyük fel, hogy képeket kell osztályoznunk például macskák, kutyák és emberek között. Ebben az esetben megadhatjuk a modellnek a képet, és egy sor szöveges utasítást: "*egy macska képe*", "*egy kutya képe*", "*egy ember képe*". A kapott 3 valószínűségi vektorban csak ki kell választanunk a legmagasabb értékű indexet.
 
-![CLIP Képosztályozáshoz](../../../../../translated_images/clip-class.3af42ef0b2b19369.hu.png)
+![CLIP Képosztályozáshoz](../../../../../translated_images/hu/clip-class.3af42ef0b2b19369.png)
 
 > *Kép [ebből a blogbejegyzésből](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ További információ a VQGAN-ról a [Taming Transformers](https://compvis.githu
 
 A VQGAN és a hagyományos GAN egyik fontos különbsége, hogy az utóbbi bármilyen bemeneti vektorból képes elfogadható képet előállítani, míg a VQGAN valószínűleg nem koherens képet hoz létre. Ezért tovább kell irányítanunk a képalkotási folyamatot, amit a CLIP segítségével tehetünk meg.
 
-![VQGAN+CLIP Architektúra](../../../../../translated_images/vqgan.5027fe05051dfa31.hu.png)
+![VQGAN+CLIP Architektúra](../../../../../translated_images/hu/vqgan.5027fe05051dfa31.png)
 
 Ahhoz, hogy egy szöveges utasításhoz illeszkedő képet generáljunk, egy véletlenszerű kódoló vektorral kezdünk, amelyet a VQGAN-on keresztül egy képpé alakítunk. Ezután a CLIP-et használjuk egy veszteségfüggvény előállítására, amely megmutatja, mennyire felel meg a kép a szöveges utasításnak. A cél ennek a veszteségnek a minimalizálása, a visszaterjesztés segítségével a bemeneti vektor paramétereinek módosításával.
 
 Egy nagyszerű könyvtár, amely megvalósítja a VQGAN+CLIP-et, a [Pixray](http://github.com/pixray/pixray).
 
-![Pixray által készített kép](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.hu.png) |  ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.hu.png) | ![Pixray által készített kép](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.hu.png)
+![Pixray által készített kép](../../../../../translated_images/hu/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray által készített kép](../../../../../translated_images/hu/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray által készített kép](../../../../../translated_images/hu/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Kép generálva az *egy fiatal irodalomtanár akvarell portréja könyvvel* utasítás alapján | Kép generálva az *egy fiatal női informatikatanár olajportréja számítógéppel* utasítás alapján | Kép generálva az *egy idős matematikatanár olajportréja táblával* utasítás alapján
 
@@ -75,7 +75,7 @@ A CLIP-től eltérően a DALL-E egyszerre kapja meg a szöveget és a képet egy
 A DALL.E 1 és 2 közötti fő különbség, hogy a második verzió valósághűbb képeket és művészeti alkotásokat generál.
 
 Példák a DALL-E által generált képekre:
-![DALL-E által készített kép](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.hu.png) |  ![DALL-E által készített kép](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.hu.png) | ![DALL-E által készített kép](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.hu.png)
+![DALL-E által készített kép](../../../../../translated_images/hu/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![DALL-E által készített kép](../../../../../translated_images/hu/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![DALL-E által készített kép](../../../../../translated_images/hu/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Kép generálva az *egy fiatal irodalomtanár akvarell portréja könyvvel* utasítás alapján | Kép generálva az *egy fiatal női informatikatanár olajportréja számítógéppel* utasítás alapján | Kép generálva az *egy idős matematikatanár olajportréja táblával* utasítás alapján
 

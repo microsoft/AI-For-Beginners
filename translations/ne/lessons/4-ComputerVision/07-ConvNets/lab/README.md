@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हामी [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) प्रयोग गर्नेछौं, जसमा कुकुर र बिरालोका ३७ विभिन्न प्रजातिहरूका छविहरू समावेश छन्।
 
-![हामीले प्रयोग गर्ने डेटासेट](../../../../../../translated_images/data.50b2a9d5484bdbf0.ne.png)
+![हामीले प्रयोग गर्ने डेटासेट](../../../../../../translated_images/ne/data.50b2a9d5484bdbf0.png)
 
 डेटासेट डाउनलोड गर्न, यो कोड स्निपेट प्रयोग गर्नुहोस्:
 

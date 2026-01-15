@@ -15,7 +15,7 @@ Po transformatorių modelių sėkmės sprendžiant NLP užduotis, tos pačios ar
 
 Pagrindinė CLIP idėja yra gebėjimas palyginti tekstinius užklausimus su vaizdu ir nustatyti, kaip gerai vaizdas atitinka užklausimą.
 
-![CLIP Architektūra](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.lt.png)
+![CLIP Architektūra](../../../../../translated_images/lt/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Paveikslėlis iš [šio tinklaraščio įrašo](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kai modelis yra iš anksto apmokytas, galime jam pateikti vaizdų paketą ir tek
 
 Tarkime, mums reikia klasifikuoti vaizdus, pavyzdžiui, į kategorijas: katės, šunys ir žmonės. Tokiu atveju galime modeliui pateikti vaizdą ir seriją tekstinių užklausų: "*katės paveikslas*", "*šuns paveikslas*", "*žmogaus paveikslas*". Gautame 3 tikimybių vektoriuje tiesiog reikia pasirinkti indeksą su didžiausia reikšme.
 
-![CLIP vaizdų klasifikavimui](../../../../../translated_images/clip-class.3af42ef0b2b19369.lt.png)
+![CLIP vaizdų klasifikavimui](../../../../../translated_images/lt/clip-class.3af42ef0b2b19369.png)
 
 > *Paveikslėlis iš [šio tinklaraščio įrašo](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Daugiau apie VQGAN sužinokite [Taming Transformers](https://compvis.github.io/t
 
 Vienas svarbus skirtumas tarp VQGAN ir tradicinio GAN yra tas, kad pastarasis gali sukurti padorų vaizdą iš bet kokio įvesties vektoriaus, o VQGAN greičiausiai sukurs vaizdą, kuris nebus nuoseklus. Todėl reikia papildomai vadovauti vaizdo kūrimo procesui, ir tai galima padaryti naudojant CLIP.
 
-![VQGAN+CLIP Architektūra](../../../../../translated_images/vqgan.5027fe05051dfa31.lt.png)
+![VQGAN+CLIP Architektūra](../../../../../translated_images/lt/vqgan.5027fe05051dfa31.png)
 
 Norint sugeneruoti vaizdą, atitinkantį tekstinę užklausą, pradedame nuo atsitiktinio kodavimo vektoriaus, kuris perduodamas per VQGAN, kad būtų sukurtas vaizdas. Tada CLIP naudojamas nuostolių funkcijai sukurti, kuri parodo, kaip gerai vaizdas atitinka tekstinę užklausą. Tikslas yra sumažinti šiuos nuostolius, naudojant atgalinį sklidimą, kad būtų koreguojami įvesties vektoriaus parametrai.
 
 Puiki biblioteka, įgyvendinanti VQGAN+CLIP, yra [Pixray](http://github.com/pixray/pixray).
 
-![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.lt.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.lt.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.lt.png)
+![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Vaizdas sukurtas pagal užklausą *artimas akvarelės portretas jauno literatūros mokytojo su knyga* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas jaunos kompiuterių mokslų mokytojos su kompiuteriu* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas seno matematikos mokytojo priešais lentą*
 
@@ -75,7 +75,7 @@ Skirtingai nei CLIP, DALL-E gauna tiek tekstą, tiek vaizdą kaip vieną žeton�
 Pagrindinis skirtumas tarp DALL-E 1 ir 2 yra tas, kad pastarasis generuoja realistiškesnius vaizdus ir meną.
 
 DALL-E vaizdų generavimo pavyzdžiai:
-![Vaizdas sukurtas Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.lt.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.lt.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.lt.png)
+![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Vaizdas sukurtas Pixray](../../../../../translated_images/lt/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Vaizdas sukurtas pagal užklausą *artimas akvarelės portretas jauno literatūros mokytojo su knyga* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas jaunos kompiuterių mokslų mokytojos su kompiuteriu* | Vaizdas sukurtas pagal užklausą *artimas aliejinis portretas seno matematikos mokytojo priešais lentą*
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Oversigt
 
-![Oversigt i en doodle](../../../translated_images/ai-overview.0857791951d19500.da.png)
+![Oversigt i en doodle](../../../translated_images/da/ai-overview.0857791951d19500.png)
 
 > Sketchnote af [Tomomi Imura](https://twitter.com/girlie_mac)
 

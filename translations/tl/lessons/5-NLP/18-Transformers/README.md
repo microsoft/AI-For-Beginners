@@ -20,13 +20,13 @@ Sa RNNs, ang sequence-to-sequence ay ipinatutupad gamit ang dalawang recurrent n
 
 Ang **Attention Mechanisms** ay nagbibigay ng paraan upang timbangin ang contextual na epekto ng bawat input vector sa bawat output prediction ng RNN. Ang paraan ng pagpapatupad nito ay sa pamamagitan ng paglikha ng mga shortcut sa pagitan ng mga intermediate states ng input RNN at output RNN. Sa ganitong paraan, kapag gumagawa ng output symbol y<sub>t</sub>, isasaalang-alang natin ang lahat ng input hidden states h<sub>i</sub>, na may iba't ibang weight coefficients &alpha;<sub>t,i</sub>.
 
-![Larawan na nagpapakita ng encoder/decoder model na may additive attention layer](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.tl.png)
+![Larawan na nagpapakita ng encoder/decoder model na may additive attention layer](../../../../../translated_images/tl/encoder-decoder-attention.7a726296894fb567.png)
 
 > Ang encoder-decoder model na may additive attention mechanism sa [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), mula sa [blog post na ito](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Ang attention matrix {&alpha;<sub>i,j</sub>} ay kumakatawan sa antas kung paano ang ilang input words ay may papel sa pagbuo ng isang partikular na salita sa output sequence. Narito ang isang halimbawa ng ganitong matrix:
 
-![Larawan na nagpapakita ng sample alignment na natagpuan ng RNNsearch-50, mula sa Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.tl.png)
+![Larawan na nagpapakita ng sample alignment na natagpuan ng RNNsearch-50, mula sa Bahdanau - arviz.org](../../../../../translated_images/tl/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > Larawan mula sa [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Ang resulta na nakukuha natin sa positional embedding ay nag-e-embed sa parehong
 
 Susunod, kailangan nating makuha ang ilang mga pattern sa loob ng ating sequence. Upang gawin ito, gumagamit ang transformers ng **self-attention** mechanism, na mahalagang atensyon na inilapat sa parehong sequence bilang input at output. Ang pag-aapply ng self-attention ay nagbibigay-daan sa atin na isaalang-alang ang **context** sa loob ng pangungusap, at makita kung aling mga salita ang magkakaugnay. Halimbawa, pinapayagan tayo nitong makita kung aling mga salita ang tinutukoy ng mga coreferences, tulad ng *it*, at isaalang-alang din ang konteksto:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.tl.png)
+![](../../../../../translated_images/tl/CoreferenceResolution.861924d6d384a7d6.png)
 
 > Larawan mula sa [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Dahil ang bawat input position ay na-map nang independyente sa bawat output posi
 
 Ang **BERT** (Bidirectional Encoder Representations from Transformers) ay isang napakalaking multi-layer transformer network na may 12 layers para sa *BERT-base*, at 24 para sa *BERT-large*. Ang modelo ay unang pre-trained sa isang malaking corpus ng text data (WikiPedia + mga libro) gamit ang unsupervised training (pagpredikta ng mga masked words sa isang pangungusap). Sa panahon ng pre-training, ang modelo ay sumisipsip ng makabuluhang antas ng pag-unawa sa wika na maaaring magamit sa iba pang mga dataset gamit ang fine tuning. Ang prosesong ito ay tinatawag na **transfer learning**.
 
-![larawan mula sa http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.tl.png)
+![larawan mula sa http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/tl/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > Larawan [source](http://jalammar.github.io/illustrated-bert/)
 

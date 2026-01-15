@@ -15,7 +15,7 @@ Matapos ang tagumpay ng mga transformer model sa paglutas ng mga gawain sa NLP, 
 
 Ang pangunahing ideya ng CLIP ay ang kakayahang ihambing ang mga text prompt sa isang imahe at tukuyin kung gaano kahusay na tumutugma ang imahe sa prompt.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.tl.png)
+![CLIP Architecture](../../../../../translated_images/tl/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Larawan mula sa [blog post na ito](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kapag ang modelong ito ay na-pretrain na, maaari nating bigyan ito ng batch ng m
 
 Halimbawa, kailangan nating i-classify ang mga imahe sa pagitan ng, sabihin nating, pusa, aso, at tao. Sa kasong ito, maaari nating bigyan ang modelo ng isang imahe, at isang serye ng mga text prompt: "*isang larawan ng pusa*", "*isang larawan ng aso*", "*isang larawan ng tao*". Sa resultang vector ng 3 probabilidad, pipiliin lang natin ang index na may pinakamataas na halaga.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.tl.png)
+![CLIP for Image Classification](../../../../../translated_images/tl/clip-class.3af42ef0b2b19369.png)
 
 > *Larawan mula sa [blog post na ito](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Alamin ang higit pa tungkol sa VQGAN sa [Taming Transformers](https://compvis.gi
 
 Isa sa mga mahalagang pagkakaiba ng VQGAN sa tradisyunal na GAN ay ang huli ay kayang gumawa ng disenteng imahe mula sa anumang input vector, habang ang VQGAN ay malamang na makagawa ng imahe na hindi coherent. Kaya, kailangan nating gabayan pa ang proseso ng paggawa ng imahe, at magagawa ito gamit ang CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.tl.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/tl/vqgan.5027fe05051dfa31.png)
 
 Upang makabuo ng isang imahe na tumutugma sa isang text prompt, nagsisimula tayo sa isang random encoding vector na ipinapasa sa VQGAN upang makabuo ng isang imahe. Pagkatapos, ginagamit ang CLIP upang makabuo ng isang loss function na nagpapakita kung gaano kahusay na tumutugma ang imahe sa text prompt. Ang layunin ay i-minimize ang loss na ito, gamit ang back propagation upang ayusin ang mga parameter ng input vector.
 
 Isang mahusay na library na nagpapatupad ng VQGAN+CLIP ay ang [Pixray](http://github.com/pixray/pixray).
 
-![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.tl.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.tl.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.tl.png)
+![Larawang ginawa ng Pixray](../../../../../translated_images/tl/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/tl/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/tl/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Larawang ginawa mula sa prompt *isang closeup watercolor portrait ng batang lalaking guro ng panitikan na may hawak na libro* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng batang babaeng guro ng computer science na may hawak na computer* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng matandang lalaking guro ng matematika sa harap ng blackboard*
 
@@ -75,7 +75,7 @@ Hindi tulad ng CLIP, ang DALL-E ay tumatanggap ng parehong teksto at imahe bilan
 Ang pangunahing pagkakaiba ng DALL.E 1 at 2 ay ang kakayahan nitong makabuo ng mas makatotohanang mga imahe at sining.
 
 Mga halimbawa ng image generation gamit ang DALL-E:
-![Larawang ginawa ng Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.tl.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.tl.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.tl.png)
+![Larawang ginawa ng Pixray](../../../../../translated_images/tl/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Larawang ginawa ng Pixray](../../../../../translated_images/tl/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Larawang ginawa ng Pixray](../../../../../translated_images/tl/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Larawang ginawa mula sa prompt *isang closeup watercolor portrait ng batang lalaking guro ng panitikan na may hawak na libro* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng batang babaeng guro ng computer science na may hawak na computer* | Larawang ginawa mula sa prompt *isang closeup oil portrait ng matandang lalaking guro ng matematika sa harap ng blackboard*
 

@@ -58,7 +58,7 @@ infant | O
 
 Deoarece trebuie să construim o corespondență unu-la-unu între token-uri și clase, putem antrena un model neuronal **many-to-many** din această imagine:
 
-![Imagine care arată modele comune de rețele neuronale recurente.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ro.jpg)
+![Imagine care arată modele comune de rețele neuronale recurente.](../../../../../translated_images/ro/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > *Imagine din [acest articol de blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) de [Andrej Karpathy](http://karpathy.github.io/). Modelele de clasificare de token-uri NER corespund arhitecturii de rețea din partea dreaptă a imaginii.*
 

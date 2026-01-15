@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Thị giác Máy tính
 
-![Tóm tắt nội dung Thị giác Máy tính dưới dạng hình vẽ](../../../../translated_images/ai-computervision.6506ebebac3fbf76.vi.png)
+![Tóm tắt nội dung Thị giác Máy tính dưới dạng hình vẽ](../../../../translated_images/vi/ai-computervision.6506ebebac3fbf76.png)
 
 Trong phần này, chúng ta sẽ tìm hiểu về:
 

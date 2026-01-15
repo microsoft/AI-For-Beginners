@@ -73,14 +73,14 @@ Mūsų [OpenCV Notebook](OpenCV.ipynb) pateikiame keletą pavyzdžių, kada komp
 
 * **Brailio knygos nuotraukos išankstinis apdorojimas**. Mes sutelkiame dėmesį į tai, kaip galima naudoti slenksčio nustatymą, funkcijų aptikimą, perspektyvos transformaciją ir NumPy manipuliacijas, kad atskirtume atskirus Brailio simbolius tolimesnei klasifikacijai neuroniniu tinklu.
 
-![Brailio vaizdas](../../../../../translated_images/braille.341962ff76b1bd70.lt.jpeg) | ![Brailio vaizdas apdorotas](../../../../../translated_images/braille-result.46530fea020b03c7.lt.png) | ![Brailio simboliai](../../../../../translated_images/braille-symbols.0159185ab69d5339.lt.png)
+![Brailio vaizdas](../../../../../translated_images/lt/braille.341962ff76b1bd70.jpeg) | ![Brailio vaizdas apdorotas](../../../../../translated_images/lt/braille-result.46530fea020b03c7.png) | ![Brailio simboliai](../../../../../translated_images/lt/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Vaizdas iš [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Judėjimo aptikimas vaizdo įraše naudojant kadrų skirtumą**. Jei kamera yra fiksuota, tuomet kadrai iš kameros turėtų būti gana panašūs vienas į kitą. Kadangi kadrai atvaizduojami kaip masyvai, tiesiog atimant šiuos masyvus dviejų iš eilės einančių kadrų atveju gausime pikselių skirtumą, kuris turėtų būti mažas statiniams kadrams ir didėti, kai vaizde yra reikšmingas judėjimas.
 
-![Vaizdo kadrų ir kadrų skirtumų vaizdas](../../../../../translated_images/frame-difference.706f805491a0883c.lt.png)
+![Vaizdo kadrų ir kadrų skirtumų vaizdas](../../../../../translated_images/lt/frame-difference.706f805491a0883c.png)
 
 > Vaizdas iš [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Mūsų [OpenCV Notebook](OpenCV.ipynb) pateikiame keletą pavyzdžių, kada komp
    - **Tankus optinis srautas** apskaičiuoja vektorių lauką, kuris rodo, kur kiekvienas pikselis juda.
    - **Retas optinis srautas** remiasi tam tikrų išskirtinių vaizdo bruožų (pvz., kraštų) paėmimu ir jų trajektorijos kūrimu nuo kadro iki kadro.
 
-![Optinio srauto vaizdas](../../../../../translated_images/optical.1f4a94464579a83a.lt.png)
+![Optinio srauto vaizdas](../../../../../translated_images/lt/optical.1f4a94464579a83a.png)
 
 > Vaizdas iš [OpenCV.ipynb](OpenCV.ipynb)
 

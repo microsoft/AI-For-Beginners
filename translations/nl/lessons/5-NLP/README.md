@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Natuurlijke Taalverwerking
 
-![Samenvatting van NLP-taken in een schets](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.nl.png)
+![Samenvatting van NLP-taken in een schets](../../../../translated_images/nl/ai-nlp.b22dcb8ca4707cea.png)
 
 In deze sectie richten we ons op het gebruik van neurale netwerken om taken met betrekking tot **Natuurlijke Taalverwerking (NLP)** uit te voeren. Er zijn veel NLP-problemen die we willen dat computers kunnen oplossen:
 

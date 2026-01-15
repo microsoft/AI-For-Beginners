@@ -20,13 +20,13 @@ Dengan RNN, sequence-to-sequence diimplementasikan oleh dua jaringan berulang, d
 
 **Mekanisme Perhatian** memberikan cara untuk memberi bobot pada dampak kontekstual dari setiap vektor input terhadap setiap prediksi output dari RNN. Cara ini diimplementasikan dengan membuat jalur pintas antara keadaan menengah dari RNN input dan RNN output. Dengan cara ini, saat menghasilkan simbol output y<sub>t</sub>, kita akan mempertimbangkan semua keadaan tersembunyi input h<sub>i</sub>, dengan koefisien bobot yang berbeda &alpha;<sub>t,i</sub>.
 
-![Gambar menunjukkan model encoder/decoder dengan lapisan perhatian aditif](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.id.png)
+![Gambar menunjukkan model encoder/decoder dengan lapisan perhatian aditif](../../../../../translated_images/id/encoder-decoder-attention.7a726296894fb567.png)
 
 > Model encoder-decoder dengan mekanisme perhatian aditif dalam [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), dikutip dari [blog ini](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matriks perhatian {&alpha;<sub>i,j</sub>} akan mewakili tingkat di mana kata-kata tertentu dalam input berperan dalam menghasilkan kata tertentu dalam urutan output. Di bawah ini adalah contoh matriks semacam itu:
 
-![Gambar menunjukkan contoh alignment yang ditemukan oleh RNNsearch-50, diambil dari Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.id.png)
+![Gambar menunjukkan contoh alignment yang ditemukan oleh RNNsearch-50, diambil dari Bahdanau - arviz.org](../../../../../translated_images/id/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > Gambar dari [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Hasil yang kita dapatkan dengan embedding posisi menggabungkan token asli dan po
 
 Selanjutnya, kita perlu menangkap beberapa pola dalam urutan kita. Untuk melakukan ini, transformer menggunakan mekanisme **perhatian diri**, yang pada dasarnya adalah perhatian yang diterapkan pada urutan yang sama sebagai input dan output. Menerapkan perhatian diri memungkinkan kita mempertimbangkan **konteks** dalam kalimat, dan melihat kata-kata mana yang saling terkait. Misalnya, ini memungkinkan kita melihat kata-kata yang dirujuk oleh coreferensi, seperti *itu*, dan juga mempertimbangkan konteks:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.id.png)
+![](../../../../../translated_images/id/CoreferenceResolution.861924d6d384a7d6.png)
 
 > Gambar dari [Blog Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Karena setiap posisi input dipetakan secara independen ke setiap posisi output, 
 
 **BERT** (Bidirectional Encoder Representations from Transformers) adalah jaringan transformer multi-layer yang sangat besar dengan 12 lapisan untuk *BERT-base*, dan 24 untuk *BERT-large*. Model ini pertama kali dilatih pada korpus teks besar (WikiPedia + buku) menggunakan pelatihan tanpa pengawasan (memprediksi kata yang disembunyikan dalam sebuah kalimat). Selama pelatihan awal, model menyerap tingkat pemahaman bahasa yang signifikan yang kemudian dapat dimanfaatkan dengan dataset lain menggunakan fine tuning. Proses ini disebut **transfer learning**.
 
-![gambar dari http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.id.png)
+![gambar dari http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/id/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > Gambar [sumber](http://jalammar.github.io/illustrated-bert/)
 

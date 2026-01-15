@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengantar AI
 
-![Ringkasan konten Pengantar AI dalam bentuk doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c.id.png)
+![Ringkasan konten Pengantar AI dalam bentuk doodle](../../../../translated_images/id/ai-intro.bf28d1ac4235881c.png)
 
 > Sketchnote oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Awalnya, komputer ditemukan oleh [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) untuk mengolah angka dengan mengikuti prosedur yang terdefinisi dengan baik - sebuah algoritma. Komputer modern, meskipun jauh lebih canggih daripada model awal yang diusulkan pada abad ke-19, masih mengikuti ide yang sama tentang perhitungan terkontrol. Oleh karena itu, kita dapat memprogram komputer untuk melakukan sesuatu jika kita mengetahui urutan langkah-langkah yang tepat yang perlu dilakukan untuk mencapai tujuan.
 
-![Foto seseorang](../../../../translated_images/dsh_age.d212a30d4e54fb5f.id.png)
+![Foto seseorang](../../../../translated_images/id/dsh_age.d212a30d4e54fb5f.png)
 
 > Foto oleh [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Untuk informasi lebih lanjut, lihat **[Artificial General Intelligence](https://
 
 Salah satu masalah ketika membahas istilah **[Kecerdasan](https://en.wikipedia.org/wiki/Intelligence)** adalah tidak adanya definisi yang jelas untuk istilah ini. Seseorang dapat berargumen bahwa kecerdasan terkait dengan **pemikiran abstrak**, atau dengan **kesadaran diri**, tetapi kita tidak dapat mendefinisikannya dengan tepat.
 
-![Foto Kucing](../../../../translated_images/photo-cat.8c8e8fb760ffe457.id.jpg)
+![Foto Kucing](../../../../translated_images/id/photo-cat.8c8e8fb760ffe457.jpg)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) oleh [Amber Kipp](https://unsplash.com/@sadmax) dari Unsplash
 
@@ -98,13 +98,13 @@ Sebaliknya, kita dapat mencoba memodelkan elemen-elemen paling sederhana di dala
 
 > | Bagaimana dengan ML?         |      |
 > |--------------|-----------|
-> | Bagian dari Kecerdasan Buatan yang didasarkan pada komputer yang belajar menyelesaikan masalah berdasarkan beberapa data disebut **Machine Learning**. Kita tidak akan membahas pembelajaran mesin klasik dalam kursus ini - kami merujuk Anda ke kurikulum [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.id.png)    |
+> | Bagian dari Kecerdasan Buatan yang didasarkan pada komputer yang belajar menyelesaikan masalah berdasarkan beberapa data disebut **Machine Learning**. Kita tidak akan membahas pembelajaran mesin klasik dalam kursus ini - kami merujuk Anda ke kurikulum [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML for Beginners](../../../../translated_images/id/ml-for-beginners.9e4fed176fd5817d.png)    |
 
 ## Sejarah Singkat AI
 
 Kecerdasan Buatan dimulai sebagai sebuah bidang pada pertengahan abad ke-20. Awalnya, penalaran simbolik adalah pendekatan yang dominan, dan ini menghasilkan sejumlah keberhasilan penting, seperti sistem pakar – program komputer yang mampu bertindak sebagai ahli dalam beberapa domain masalah terbatas. Namun, segera menjadi jelas bahwa pendekatan semacam itu tidak dapat berkembang dengan baik. Mengekstraksi pengetahuan dari seorang ahli, merepresentasikannya di dalam komputer, dan menjaga basis pengetahuan tersebut tetap akurat ternyata menjadi tugas yang sangat kompleks, dan terlalu mahal untuk praktis dalam banyak kasus. Hal ini menyebabkan apa yang disebut [AI Winter](https://en.wikipedia.org/wiki/AI_winter) pada tahun 1970-an.
 
-<img alt="Sejarah Singkat AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.id.png" width="70%"/>
+<img alt="Sejarah Singkat AI" src="../../../../translated_images/id/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Demikian pula, kita dapat melihat bagaimana pendekatan terhadap pembuatan “pro
 * Asisten modern, seperti Cortana, Siri, atau Google Assistant semuanya adalah sistem hibrida yang menggunakan jaringan saraf untuk mengubah ucapan menjadi teks dan mengenali niat kita, lalu menggunakan beberapa penalaran atau algoritma eksplisit untuk melakukan tindakan yang diperlukan.
 * Di masa depan, kita mungkin mengharapkan model berbasis jaringan sepenuhnya untuk menangani dialog secara mandiri. Keluarga jaringan saraf GPT dan [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) baru-baru ini menunjukkan keberhasilan besar dalam hal ini.
 
-<img alt="evolusi Tes Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.id.png" width="70%"/>
+<img alt="evolusi Tes Turing" src="../../../../translated_images/id/turing-test-evol.4184696701293ead.png" width="70%"/>
 > Gambar oleh Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) oleh [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Penelitian AI Terkini

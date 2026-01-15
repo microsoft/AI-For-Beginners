@@ -15,7 +15,7 @@ V prejšnjih poglavjih smo uporabljali bogate semantične reprezentacije besedil
 
 Da bi zajeli pomen zaporedja besedila, moramo uporabiti drugo arhitekturo nevronske mreže, imenovano **rekurentna nevronska mreža** ali RNN. Pri RNN stavke pošiljamo skozi mrežo en simbol naenkrat, mreža pa ustvari neko **stanje**, ki ga nato ponovno pošljemo v mrežo skupaj z naslednjim simbolom.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.sl.png)
+![RNN](../../../../../translated_images/sl/rnn.27f5c29c53d727b5.png)
 
 > Slika avtorja
 
@@ -61,7 +61,7 @@ Razpravljali smo o rekurentnih mrežah, ki delujejo v eno smer, od začetka zapo
 
 Rekurentna mreža, bodisi enosmerna ali dvosmerna, zajame določene vzorce znotraj zaporedja in jih lahko shrani v vektorsko stanje ali prenese v izhod. Tako kot pri konvolucijskih mrežah lahko na prvo plast zgradimo drugo rekurentno plast, da zajamemo vzorce višje ravni in gradimo na nizkoročnih vzorcih, ki jih je zajela prva plast. To nas pripelje do pojma **večslojne RNN**, ki je sestavljena iz dveh ali več rekurentnih mrež, kjer se izhod prejšnje plasti prenese v naslednjo plast kot vhod.
 
-![Slika, ki prikazuje večslojno LSTM RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.sl.jpg)
+![Slika, ki prikazuje večslojno LSTM RNN](../../../../../translated_images/sl/multi-layer-lstm.dd975e29bb2a59fe.jpg)
 
 *Slika iz [tega čudovitega prispevka](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) avtorja Fernanda Lópeza*
 

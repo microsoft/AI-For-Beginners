@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Umjetna inteligencija za početnike - Nastavni plan
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.hr.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/hr/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI za početnike - _Sketchnote autora [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

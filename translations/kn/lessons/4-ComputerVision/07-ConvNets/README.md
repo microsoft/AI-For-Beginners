@@ -17,14 +17,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 ನಮೂನೆಗಳನ್ನು ಹೊರತೆಗೆಯಲು, ನಾವು **ಕನ್ವಲ್ಯೂಷನಲ್ ಫಿಲ್ಟರ್‌ಗಳು** ಎಂಬ ಕಲ್ಪನೆಯನ್ನು ಬಳಸುತ್ತೇವೆ. ನೀವು ತಿಳಿದಿರುವಂತೆ, ಚಿತ್ರವನ್ನು 2D-ಮ್ಯಾಟ್ರಿಕ್ಸ್ ಅಥವಾ ಬಣ್ಣ ಆಳದ 3D-ಟೆನ್ಸರ್ ಮೂಲಕ ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತದೆ. ಫಿಲ್ಟರ್ ಅನ್ವಯಿಸುವುದು ಎಂದರೆ, ನಾವು ಸಾಪೇಕ್ಷವಾಗಿ ಸಣ್ಣ **ಫಿಲ್ಟರ್ ಕರ್ಣಲ್** ಮ್ಯಾಟ್ರಿಕ್ಸ್ ತೆಗೆದುಕೊಳ್ಳುತ್ತೇವೆ, ಮತ್ತು ಮೂಲ ಚಿತ್ರದಲ್ಲಿನ ಪ್ರತಿ ಪಿಕ್ಸೆಲ್‌ಗೆ ಸಮೀಪದ ಬಿಂದುಗಳೊಂದಿಗೆ ತೂಕಿತ ಸರಾಸರಿಯನ್ನು ಲೆಕ್ಕಿಸುತ್ತೇವೆ. ಇದನ್ನು ನಾವು ಒಂದು ಸಣ್ಣ ಕಿಟಕಿ ಚಿತ್ರದ ಮೇಲೆ ಸ್ಲೈಡ್ ಆಗುತ್ತಾ, ಫಿಲ್ಟರ್ ಕರ್ಣಲ್ ಮ್ಯಾಟ್ರಿಕ್ಸ್‌ನ ತೂಕಗಳ ಪ್ರಕಾರ ಎಲ್ಲಾ ಪಿಕ್ಸೆಲ್‌ಗಳನ್ನು ಸರಾಸರಿಗೊಳಿಸುವಂತೆ ನೋಡಬಹುದು.
 
-![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356.kn.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.kn.png)
+![Vertical Edge Filter](../../../../../translated_images/kn/filter-vert.b7148390ca0bc356.png) | ![Horizontal Edge Filter](../../../../../translated_images/kn/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > ಚಿತ್ರ: Dmitry Soshnikov
 
 ಉದಾಹರಣೆಗೆ, ನಾವು 3x3 ಲಂಬ ಮತ್ತು ಆಡುವ ಎಡ್ಜ್ ಫಿಲ್ಟರ್‌ಗಳನ್ನು MNIST ಅಂಕಿಗಳ ಮೇಲೆ ಅನ್ವಯಿಸಿದರೆ, ಮೂಲ ಚಿತ್ರದಲ್ಲಿ ಲಂಬ ಮತ್ತು ಆಡುವ ಎಡ್ಜ್‌ಗಳಿರುವ ಸ್ಥಳಗಳಲ್ಲಿ ಹೈಲೈಟ್ಸ್ (ಹೆಚ್ಚಿನ ಮೌಲ್ಯಗಳು) ಸಿಗುತ್ತವೆ. ಆದ್ದರಿಂದ ಆ ಎರಡು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಎಡ್ಜ್‌ಗಳನ್ನು "ಹುಡುಕಲು" ಬಳಸಬಹುದು. ಹಾಗೆಯೇ, ನಾವು ಬೇರೆ ಕಡಿಮೆ ಮಟ್ಟದ ನಮೂನೆಗಳನ್ನು ಹುಡುಕಲು ವಿಭಿನ್ನ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು:
 
-<img src="../../../../../translated_images/lmfilters.ea9e4868a82cf74c.kn.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/kn/lmfilters.ea9e4868a82cf74c.jpg" width="500" align="center"/>
 
 > [Leung-Malik ಫಿಲ್ಟರ್ ಬ್ಯಾಂಕ್](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) ಚಿತ್ರ
 
@@ -38,7 +38,7 @@ CNNಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುವ ವಿಧಾನವು
 * ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತರಬೇತುಗೊಳಿಸುವಂತೆ ನೆಟ್‌ವರ್ಕ್ ವಿನ್ಯಾಸಗೊಳಿಸಬಹುದು
 * ನಾವು ಮೂಲ ಚಿತ್ರದಲ್ಲಿನ ಮಾತ್ರವಲ್ಲ, ಹೆಚ್ಚಿನ ಮಟ್ಟದ ವೈಶಿಷ್ಟ್ಯಗಳಲ್ಲಿ ನಮೂನೆಗಳನ್ನು ಹುಡುಕಲು ಇದೇ ವಿಧಾನವನ್ನು ಬಳಸಬಹುದು. ಆದ್ದರಿಂದ CNN ವೈಶಿಷ್ಟ್ಯ ಹೊರತೆಗೆಯುವಿಕೆ ಕಡಿಮೆ ಮಟ್ಟದ ಪಿಕ್ಸೆಲ್ ಸಂಯೋಜನೆಗಳಿಂದ ಪ್ರಾರಂಭಿಸಿ, ಚಿತ್ರ ಭಾಗಗಳ ಹೆಚ್ಚಿನ ಮಟ್ಟದ ಸಂಯೋಜನೆಗಳವರೆಗೆ ವೈಶಿಷ್ಟ್ಯಗಳ ಹಿರarchy ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.
 
-![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.kn.png)
+![Hierarchical Feature Extraction](../../../../../translated_images/kn/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > [Hislop-Lynch ಅವರ ಪೇಪರ್](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) ನಿಂದ ಚಿತ್ರ, ಅವರ [ಶೋಧನೆ](https://dl.acm.org/doi/abs/10.1145/1553374.1553453) ಆಧಾರಿತ
 
@@ -55,9 +55,9 @@ CNNಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುವ ವಿಧಾನವು
 
 ಉದಾಹರಣೆಗೆ, 2014 ರಲ್ಲಿ ImageNet ಟಾಪ್-5 ವರ್ಗೀಕರಣದಲ್ಲಿ 92.7% ನಿಖರತೆಯನ್ನು ಸಾಧಿಸಿದ VGG-16 ನೆಟ್‌ವರ್ಕ್‌ನ ವಾಸ್ತುಶಿಲ್ಪವನ್ನು ನೋಡೋಣ:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.kn.jpg)
+![ImageNet Layers](../../../../../translated_images/kn/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.kn.jpg)
+![ImageNet Pyramid](../../../../../translated_images/kn/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) ನಿಂದ ಚಿತ್ರ
 

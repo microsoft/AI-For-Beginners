@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einführung in KI
 
-![Zusammenfassung der Einführung in KI in einer Skizze](../../../../translated_images/ai-intro.bf28d1ac4235881c.de.png)
+![Zusammenfassung der Einführung in KI in einer Skizze](../../../../translated_images/de/ai-intro.bf28d1ac4235881c.webp)
 
 > Sketchnote von [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ursprünglich wurden Computer von [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) erfunden, um Zahlen nach einem klar definierten Verfahren – einem Algorithmus – zu verarbeiten. Moderne Computer, obwohl sie wesentlich fortschrittlicher sind als das ursprüngliche Modell aus dem 19. Jahrhundert, folgen immer noch derselben Idee kontrollierter Berechnungen. Daher ist es möglich, einen Computer so zu programmieren, dass er etwas tut, wenn wir die genaue Abfolge der Schritte kennen, die wir ausführen müssen, um das Ziel zu erreichen.
 
-![Foto einer Person](../../../../translated_images/dsh_age.d212a30d4e54fb5f.de.png)
+![Foto einer Person](../../../../translated_images/de/dsh_age.d212a30d4e54fb5f.webp)
 
 > Foto von [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Weitere Informationen finden Sie unter **[Allgemeine Künstliche Intelligenz](ht
 
 Eines der Probleme im Umgang mit dem Begriff **[Intelligenz](https://en.wikipedia.org/wiki/Intelligence)** ist, dass es keine klare Definition dieses Begriffs gibt. Man könnte argumentieren, dass Intelligenz mit **abstraktem Denken** oder **Selbstbewusstsein** verbunden ist, aber wir können sie nicht eindeutig definieren.
 
-![Foto einer Katze](../../../../translated_images/photo-cat.8c8e8fb760ffe457.de.jpg)
+![Foto einer Katze](../../../../translated_images/de/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) von [Amber Kipp](https://unsplash.com/@sadmax) auf Unsplash
 
@@ -98,13 +98,13 @@ Alternativ können wir versuchen, die einfachsten Elemente in unserem Gehirn zu 
 
 > | Was ist mit ML?         |      |
 > |--------------|-----------|
-> | Ein Teil der Künstlichen Intelligenz, der darauf basiert, dass Computer lernen, ein Problem anhand von Daten zu lösen, wird als **Maschinelles Lernen** bezeichnet. Wir werden klassisches maschinelles Lernen in diesem Kurs nicht behandeln – wir verweisen Sie auf den separaten [Maschinelles Lernen für Anfänger](http://aka.ms/ml-beginners)-Lehrplan. |   ![ML für Anfänger](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.de.png)    |
+> | Ein Teil der Künstlichen Intelligenz, der darauf basiert, dass Computer lernen, ein Problem anhand von Daten zu lösen, wird als **Maschinelles Lernen** bezeichnet. Wir werden klassisches maschinelles Lernen in diesem Kurs nicht behandeln – wir verweisen Sie auf den separaten [Maschinelles Lernen für Anfänger](http://aka.ms/ml-beginners)-Lehrplan. |   ![ML für Anfänger](../../../../translated_images/de/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Ein kurzer Überblick über die Geschichte der KI
 
 Künstliche Intelligenz wurde Mitte des 20. Jahrhunderts als Forschungsfeld begründet. Anfangs war symbolisches Denken der vorherrschende Ansatz, und es führte zu einer Reihe wichtiger Erfolge, wie z. B. Expertensysteme – Computerprogramme, die in der Lage waren, in begrenzten Problembereichen als Experte zu agieren. Es wurde jedoch bald klar, dass ein solcher Ansatz nicht gut skalierbar ist. Wissen von einem Experten zu extrahieren, es im Computer darzustellen und diese Wissensbasis aktuell zu halten, stellte sich als sehr komplexe Aufgabe heraus und war in vielen Fällen zu teuer, um praktikabel zu sein. Dies führte in den 1970er Jahren zum sogenannten [KI-Winter](https://en.wikipedia.org/wiki/AI_winter).
 
-<img alt="Kurze Geschichte der KI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.de.png" width="70%"/>
+<img alt="Kurze Geschichte der KI" src="../../../../translated_images/de/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Bild von [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Wir können beobachten, wie sich die Ansätze geändert haben, z. B. bei der Ent
 * Moderne Assistenten wie Cortana, Siri oder Google Assistant sind alle Hybridsysteme, die neuronale Netzwerke verwenden, um Sprache in Text umzuwandeln und unsere Absicht zu erkennen, und dann einige Schlussfolgerungen oder explizite Algorithmen anwenden, um die erforderlichen Aktionen auszuführen.
 * In der Zukunft können wir erwarten, dass ein vollständiges neuronales Modell den Dialog eigenständig handhabt. Die jüngsten GPT- und [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft)-Familien von neuronalen Netzwerken zeigen große Erfolge in diesem Bereich.
 
-<img alt="Die Entwicklung des Turing-Tests" src="../../../../translated_images/turing-test-evol.4184696701293ead.de.png" width="70%"/>
+<img alt="Die Entwicklung des Turing-Tests" src="../../../../translated_images/de/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Bild von Dmitry Soshnikov, [Foto](https://unsplash.com/photos/r8LmVbUKgns) von [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Aktuelle KI-Forschung

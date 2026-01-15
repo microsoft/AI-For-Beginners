@@ -19,7 +19,7 @@ CNNలను శిక్షణ ఇచ్చేటప్పుడు, ఒక స
 
 మనం అసలు చిత్రంలోని సమాచారాన్ని ఎక్కువగా పట్టు కోవడానికి ఆటోఎంకోడర్‌ను శిక్షణ ఇస్తున్నందున, నెట్‌వర్క్ ఇన్‌పుట్ చిత్రాల అర్థాన్ని పట్టు కోవడానికి ఉత్తమ **ఎంబెడ్డింగ్**ను కనుగొనడానికి ప్రయత్నిస్తుంది.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.te.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/te/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > చిత్రం [Keras బ్లాగ్](https://blog.keras.io/building-autoencoders-in-keras.html) నుండి
 
@@ -46,7 +46,7 @@ VAE అనేది లాటెంట్ పారామీటర్ల *సా
  * మనం N(z<sub>mean</sub>,exp(z<sub>log_sigma</sub>)) పంపిణీ నుండి ఒక `sample` వెక్టర్‌ను సాంపిల్ చేస్తాము
  * డీకోడర్ `sample`ని ఇన్‌పుట్ వెక్టర్‌గా ఉపయోగించి అసలు చిత్రాన్ని పునఃసృష్టించడానికి ప్రయత్నిస్తుంది
 
- <img src="../../../../../translated_images/vae.464c465a5b6a9e25.te.png" width="50%">
+ <img src="../../../../../translated_images/te/vae.464c465a5b6a9e25.png" width="50%">
 
 > చిత్రం [ఈ బ్లాగ్ పోస్ట్](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) నుండి, ఇసాక్ డైకెమన్
 
@@ -57,13 +57,13 @@ VAE అనేది లాటెంట్ పారామీటర్ల *సా
 
 VAEల ముఖ్యమైన లాభం ఏమిటంటే, మనకు లాటెంట్ వెక్టర్లను ఎక్కడి నుండి సాంపిల్ చేయాలో తెలుసు కాబట్టి, కొత్త చిత్రాలను సులభంగా సృష్టించవచ్చు. ఉదాహరణకు, 2D లాటెంట్ వెక్టర్‌తో MNISTపై VAE శిక్షణ ఇస్తే, మనం లాటెంట్ వెక్టర్ భాగాలను మార్చి వేర్వేరు అంకెలను పొందవచ్చు:
 
-<img alt="vaemnist" src="../../../../../translated_images/vaemnist.cab9e602dc08dc50.te.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/te/vaemnist.cab9e602dc08dc50.png" width="50%"/>
 
 > చిత్రం [డ్మిత్రి సోష్నికోవ్](http://soshnikov.com) ద్వారా
 
 లాటెంట్ పారామీటర్ స్పేస్ యొక్క వేర్వేరు భాగాల నుండి లాటెంట్ వెక్టర్లను పొందడం ప్రారంభించినప్పుడు చిత్రాలు ఎలా కలిసిపోతున్నాయో గమనించండి. మనం ఈ స్పేస్‌ను 2Dలో కూడా దృశ్యీకరించవచ్చు:
 
-<img alt="vaemnist cluster" src="../../../../../translated_images/vaemnist-diag.694315f775d5d666.te.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/te/vaemnist-diag.694315f775d5d666.png" width="50%"/> 
 
 > చిత్రం [డ్మిత్రి సోష్నికోవ్](http://soshnikov.com) ద్వారా
 

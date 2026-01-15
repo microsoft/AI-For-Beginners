@@ -15,7 +15,7 @@ Katika sehemu zilizopita, tumekuwa tukitumia uwakilishi wa kisemantiki wa maandi
 
 Ili kunasa maana ya mlolongo wa maandishi, tunahitaji kutumia usanifu mwingine wa mtandao wa neural, unaoitwa **mtandao wa neural unaojirudia**, au RNN. Katika RNN, tunapitisha sentensi yetu kupitia mtandao neno moja kwa wakati, na mtandao huzalisha hali fulani (**state**), ambayo tunapitisha tena kwenye mtandao pamoja na neno linalofuata.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.sw.png)
+![RNN](../../../../../translated_images/sw/rnn.27f5c29c53d727b5.png)
 
 > Picha na mwandishi
 
@@ -61,7 +61,7 @@ Tumeelezea mitandao ya kujirudia inayofanya kazi kwa mwelekeo mmoja, kutoka mwan
 
 Mtandao wa kujirudia, iwe wa mwelekeo mmoja au wa mwelekeo mbili, hunasa mifumo fulani ndani ya mlolongo, na inaweza kuihifadhi kwenye vekta ya hali au kuipitisha kwenye matokeo. Kama ilivyo kwa mitandao ya convolutional, tunaweza kujenga safu nyingine ya kujirudia juu ya ile ya kwanza ili kunasa mifumo ya kiwango cha juu na kujenga kutoka kwa mifumo ya kiwango cha chini iliyotolewa na safu ya kwanza. Hii inatupeleka kwenye dhana ya **RNN ya tabaka nyingi** ambayo inajumuisha mitandao miwili au zaidi ya kujirudia, ambapo matokeo ya safu ya awali hupitishwa kwa safu inayofuata kama pembejeo.
 
-![Picha inayoonyesha RNN ya tabaka nyingi ya kumbukumbu ya muda mrefu na mfupi](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.sw.jpg)
+![Picha inayoonyesha RNN ya tabaka nyingi ya kumbukumbu ya muda mrefu na mfupi](../../../../../translated_images/sw/multi-layer-lstm.dd975e29bb2a59fe.jpg)
 
 *Picha kutoka [makala hii nzuri](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) ya Fernando López*
 

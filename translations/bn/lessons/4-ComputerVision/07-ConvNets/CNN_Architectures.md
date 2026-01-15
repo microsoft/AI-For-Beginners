@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 একটি নেটওয়ার্ক যা ২০১৪ সালে ImageNet টপ-৫ শ্রেণীবিন্যাসে ৯২.৭% সঠিকতা অর্জন করেছিল। এর স্তর কাঠামো নিম্নরূপ:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.bn.jpg)
+![ImageNet Layers](../../../../../translated_images/bn/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 যেমনটি আপনি দেখতে পাচ্ছেন, VGG একটি ঐতিহ্যবাহী পিরামিড আর্কিটেকচার অনুসরণ করে, যা কনভোলিউশন-পুলিং স্তরের একটি ক্রম।
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.bn.jpg)
+![ImageNet Pyramid](../../../../../translated_images/bn/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > ছবি [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) থেকে
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Обзор
 
-![Обзор в виде рисунка](../../../translated_images/ai-overview.0857791951d19500.ru.png)
+![Обзор в виде рисунка](../../../translated_images/ru/ai-overview.0857791951d19500.webp)
 
 > Рисунок от [Tomomi Imura](https://twitter.com/girlie_mac)
 

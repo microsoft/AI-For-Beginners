@@ -19,7 +19,7 @@ RNN-arkkitehtuurissa, jota käsittelimme edellisessä osiossa, jokainen RNN-yksi
 
 Tämä mahdollistaa erilaiset neuroarkkitehtuurit, jotka näkyvät alla olevassa kuvassa:
 
-![Kuva, joka näyttää yleisiä toistuvien neuroverkkojen malleja.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.fi.jpg)
+![Kuva, joka näyttää yleisiä toistuvien neuroverkkojen malleja.](../../../../../translated_images/fi/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > Kuva blogikirjoituksesta [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) kirjoittanut [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Tässä osiossa keskitymme yksinkertaisiin generatiivisiin malleihin, jotka autt
 
 Koulutamme tämän RNN:n tuottamaan tekstiä askel askeleelta. Jokaisessa vaiheessa otamme `nchars`-pituisen merkkisekvenssin ja pyydämme verkkoa tuottamaan seuraavan ulostulomerkin jokaiselle syötemerkille:
 
-![Kuva, joka näyttää esimerkin RNN:n tuottamasta sanasta 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.fi.png)
+![Kuva, joka näyttää esimerkin RNN:n tuottamasta sanasta 'HELLO'.](../../../../../translated_images/fi/rnn-generate.56c54afb52f9781d.png)
 
 Kun tuotamme tekstiä (inferenssin aikana), aloitamme jollain **aloitustekstillä**, joka syötetään RNN-soluihin tuottamaan sen välimuistin, ja sitten tästä tilasta alkaa generointi. Tuotamme yhden merkin kerrallaan ja syötämme tilan ja tuotetun merkin seuraavaan RNN-soluun tuottamaan seuraavan, kunnes olemme tuottaneet tarpeeksi merkkejä.
 

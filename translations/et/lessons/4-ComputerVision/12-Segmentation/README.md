@@ -20,7 +20,7 @@ Segmenteerimist võib vaadelda kui **pikslite klassifikatsiooni**, kus **iga** p
 
 Instance segmenteerimise puhul on need lambad erinevad objektid, kuid semantilise segmenteerimise puhul esindavad kõik lambad ühte klassi.
 
-<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd45.et.jpeg" width="50%">
+<img src="../../../../../translated_images/et/instance_vs_semantic.eee9812bebf8cd45.jpeg" width="50%">
 
 > Pilt [sellest blogipostitusest](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +29,7 @@ Segmenteerimiseks on erinevaid närvivõrkude arhitektuure, kuid neil kõigil on
 * **Kodeerija** ekstraheerib sisendpildist omadused.
 * **Dekodeerija** teisendab need omadused **maskipildiks**, millel on sama suurus ja kanalite arv, mis vastab klasside arvule.
 
-<img src="../../../../../translated_images/segm.92442f2cb42ff4fa.et.png" width="80%">
+<img src="../../../../../translated_images/et/segm.92442f2cb42ff4fa.png" width="80%">
 
 > Pilt [sellest publikatsioonist](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +43,7 @@ Selles õppetükis näeme segmenteerimist tegevuses, treenides võrku inimeste n
 
 > ✅ See tehnika sobib eriti hästi sellist tüüpi meditsiiniliste piltide jaoks, kuid milliseid muid reaalse maailma rakendusi võiksite ette kujutada?
 
-<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea.et.png"/>
+<img alt="navi" src="../../../../../translated_images/et/navi.2f20b727910110ea.png"/>
 
 > Pilt PH<sup>2</sup> andmebaasist
 

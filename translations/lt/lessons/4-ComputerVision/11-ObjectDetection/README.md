@@ -13,7 +13,7 @@ Vaizdų klasifikavimo modeliai, su kuriais dirbome iki šiol, paimdavo vaizdą i
 
 ## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objektų atpažinimas](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.lt.png)
+![Objektų atpažinimas](../../../../../translated_images/lt/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
 
 > Vaizdas iš [YOLO v2 svetainės](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Tarkime, norime rasti katę paveikslėlyje. Labai naivus požiūris į objektų 
 2. Atlikti vaizdų klasifikavimą kiekvienoje plytelėje.
 3. Tos plytelės, kurios duoda pakankamai aukštą aktyvaciją, gali būti laikomos turinčiomis ieškomą objektą.
 
-![Naivus objektų atpažinimas](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.lt.png)
+![Naivus objektų atpažinimas](../../../../../translated_images/lt/naive-detection.e7f1ba220ccd08c6.png)
 
 > *Vaizdas iš [užduočių sąsiuvinio](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Galite susidurti su šiais duomenų rinkiniais:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 klasių
 * [COCO](http://cocodataset.org/#home) – Įprasti objektai kontekste. 80 klasių, ribų dėžutės ir segmentavimo kaukės
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.lt.jpg)
+![COCO](../../../../../translated_images/lt/coco-examples.71bc60380fa6cceb.jpg)
 
 ## Objektų atpažinimo metrikos
 
@@ -50,7 +50,7 @@ Galite susidurti su šiais duomenų rinkiniais:
 
 Vaizdų klasifikavimui lengva išmatuoti, kaip gerai veikia algoritmas, tačiau objektų atpažinimui reikia įvertinti tiek klasės teisingumą, tiek numatytos ribų dėžutės vietos tikslumą. Pastarajam naudojama vadinamoji **Sankirta per sąjungą** (IoU), kuri matuoja, kaip gerai sutampa dvi dėžutės (arba dvi savavališkos sritys).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.lt.png)
+![IoU](../../../../../translated_images/lt/iou_equation.9a4751d40fff4e11.png)
 
 > *2 paveikslas iš [puikaus tinklaraščio apie IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Yra dvi pagrindinės objektų atpažinimo algoritmų klasės:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) naudoja [Selektyvų paiešką](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf), kad sukurtų hierarchinę ROI regionų struktūrą, kuri vėliau perduodama per CNN funkcijų ištraukėjus ir SVM klasifikatorius, kad būtų nustatyta objekto klasė, o linijinė regresija naudojama *ribų dėžutės* koordinatėms nustatyti. [Oficialus straipsnis](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.lt.png)
+![RCNN](../../../../../translated_images/lt/rcnn1.cae407020dfb1d1f.png)
 
 > *Vaizdas iš van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.lt.png)
+![RCNN-1](../../../../../translated_images/lt/rcnn2.2d9530bb83516484.png)
 
 > *Vaizdai iš [šio tinklaraščio](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Yra dvi pagrindinės objektų atpažinimo algoritmų klasės:
 
 Šis metodas panašus į R-CNN, tačiau regionai apibrėžiami po konvoliucinių sluoksnių taikymo.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.lt.png)
+![FRCNN](../../../../../translated_images/lt/f-rcnn.3cda6d9bb4188875.png)
 
 > Vaizdas iš [oficialaus straipsnio](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Yra dvi pagrindinės objektų atpažinimo algoritmų klasės:
 
 Pagrindinė šio metodo idėja – naudoti neuroninį tinklą ROI prognozavimui – vadinamąjį *Regionų pasiūlymo tinklą*. [Straipsnis](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.lt.png)
+![FasterRCNN](../../../../../translated_images/lt/faster-rcnn.8d46c099b87ef30a.png)
 
 > Vaizdas iš [oficialaus straipsnio](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Pagrindinė šio metodo idėja – naudoti neuroninį tinklą ROI prognozavimui 
 2. Funkcijos apdorojamos **Pozicijos jautriu rezultatų žemėlapiu**. Kiekvienas objektas iš $C$ klasių padalijamas į $k\times k$ regionus, ir mes treniruojame tinklą prognozuoti objektų dalis.
 3. Kiekvienai daliai iš $k\times k$ regionų visi tinklai balsuoja už objektų klases, ir klasė su didžiausiu balsų skaičiumi yra pasirinkta.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.lt.png)
+![r-fcn image](../../../../../translated_images/lt/r-fcn.13eb88158b99a3da.png)
 
 > Vaizdas iš [oficialaus straipsnio](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO yra realaus laiko vieno perėjimo algoritmas. Pagrindinė idėja yra tokia:
  * Vaizdas padalijamas į $S\times S$ regionus.
  * Kiekvienam regionui **CNN** prognozuoja $n$ galimų objektų, *ribų dėžutės* koordinates ir *pasitikėjimą*=*tikimybę* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.lt.png)
+ ![YOLO](../../../../../translated_images/lt/yolo.a2648ec82ee8bb4e.png)
 
 > Vaizdas iš [oficialaus straipsnio](https://arxiv.org/abs/1506.02640)
 

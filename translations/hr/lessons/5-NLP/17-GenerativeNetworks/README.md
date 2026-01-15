@@ -19,7 +19,7 @@ U arhitekturi RNN-a koju smo raspravili u prethodnoj jedinici, svaka RNN jedinic
 
 To omogućuje različite neuronske arhitekture prikazane na slici ispod:
 
-![Slika koja prikazuje uobičajene uzorke rekurentnih neuronskih mreža.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hr.jpg)
+![Slika koja prikazuje uobičajene uzorke rekurentnih neuronskih mreža.](../../../../../translated_images/hr/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > Slika iz blog posta [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autora [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ U ovoj jedinici fokusirat ćemo se na jednostavne generativne modele koji nam po
 
 Trenirat ćemo ovaj RNN da generira tekst korak po korak. Na svakom koraku uzet ćemo niz znakova duljine `nchars` i tražiti od mreže da generira sljedeći izlazni znak za svaki ulazni znak:
 
-![Slika koja prikazuje primjer generiranja riječi 'HELLO' pomoću RNN-a.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.hr.png)
+![Slika koja prikazuje primjer generiranja riječi 'HELLO' pomoću RNN-a.](../../../../../translated_images/hr/rnn-generate.56c54afb52f9781d.png)
 
 Tijekom generiranja teksta (tijekom inferencije), počinjemo s nekim **poticajem**, koji se prosljeđuje kroz RNN ćelije kako bi se generiralo njegovo međustanje, a zatim iz tog stanja počinje generiranje. Generiramo jedan znak po jedan, prosljeđujemo stanje i generirani znak sljedećoj RNN ćeliji kako bismo generirali sljedeći znak, sve dok ne generiramo dovoljno znakova.
 

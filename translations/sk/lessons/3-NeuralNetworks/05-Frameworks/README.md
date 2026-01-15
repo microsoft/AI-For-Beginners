@@ -58,7 +58,7 @@ Pretrénovanie je mimoriadne dôležitý koncept v strojovom učení, a je veľm
 
 Zvážte nasledujúci problém aproximácie 5 bodov (reprezentovaných `x` na grafoch nižšie):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.sk.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.sk.jpg)
+![linear](../../../../../translated_images/sk/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/sk/overfit2.131f5800ae10ca5e.jpg)
 -------------------------|--------------------------
 **Lineárny model, 2 parametre** | **Nelineárny model, 7 parametrov**
 Chyba trénovania = 5.3 | Chyba trénovania = 0
@@ -79,7 +79,7 @@ Je veľmi dôležité nájsť správnu rovnováhu medzi bohatstvom modelu (poče
 
 Ako môžete vidieť na grafe vyššie, pretrénovanie možno detekovať veľmi nízkou chybou trénovania a vysokou chybou validácie. Normálne počas trénovania vidíme, že chyby trénovania aj validácie začínajú klesať, a potom v určitom bode chyba validácie môže prestať klesať a začať stúpať. Toto bude znak pretrénovania a indikátor, že by sme mali pravdepodobne zastaviť trénovanie (alebo aspoň urobiť snímku modelu).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.sk.png)
+![overfitting](../../../../../translated_images/sk/Overfitting.408ad91cd90b4371.png)
 
 ## Ako predísť pretrénovaniu
 

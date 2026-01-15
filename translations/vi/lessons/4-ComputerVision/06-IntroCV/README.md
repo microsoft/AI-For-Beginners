@@ -73,14 +73,14 @@ Trong [OpenCV Notebook](OpenCV.ipynb), chúng tôi đưa ra một số ví dụ 
 
 * **Tiền xử lý một bức ảnh của sách chữ Braille**. Chúng tôi tập trung vào cách sử dụng ngưỡng, phát hiện đặc điểm, biến đổi phối cảnh và thao tác NumPy để tách các ký hiệu Braille riêng lẻ để phân loại thêm bằng mạng nơ-ron.
 
-![Hình ảnh Braille](../../../../../translated_images/braille.341962ff76b1bd70.vi.jpeg) | ![Hình ảnh Braille đã tiền xử lý](../../../../../translated_images/braille-result.46530fea020b03c7.vi.png) | ![Ký hiệu Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.vi.png)
+![Hình ảnh Braille](../../../../../translated_images/vi/braille.341962ff76b1bd70.jpeg) | ![Hình ảnh Braille đã tiền xử lý](../../../../../translated_images/vi/braille-result.46530fea020b03c7.png) | ![Ký hiệu Braille](../../../../../translated_images/vi/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Hình ảnh từ [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Phát hiện chuyển động trong video bằng sự khác biệt giữa các khung hình**. Nếu camera cố định, thì các khung hình từ luồng camera sẽ khá giống nhau. Vì các khung hình được biểu diễn dưới dạng mảng, chỉ cần trừ các mảng của hai khung hình liên tiếp, chúng ta sẽ nhận được sự khác biệt pixel, điều này sẽ thấp đối với các khung hình tĩnh và trở nên cao hơn khi có chuyển động đáng kể trong hình ảnh.
 
-![Hình ảnh các khung hình video và sự khác biệt giữa các khung hình](../../../../../translated_images/frame-difference.706f805491a0883c.vi.png)
+![Hình ảnh các khung hình video và sự khác biệt giữa các khung hình](../../../../../translated_images/vi/frame-difference.706f805491a0883c.png)
 
 > Hình ảnh từ [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Trong [OpenCV Notebook](OpenCV.ipynb), chúng tôi đưa ra một số ví dụ 
    - **Dòng Quang học Dày đặc** tính toán trường vector cho thấy mỗi pixel đang di chuyển đến đâu.
    - **Dòng Quang học Thưa** dựa trên việc lấy một số đặc điểm nổi bật trong hình ảnh (ví dụ: các cạnh) và xây dựng quỹ đạo của chúng từ khung hình này sang khung hình khác.
 
-![Hình ảnh Dòng Quang học](../../../../../translated_images/optical.1f4a94464579a83a.vi.png)
+![Hình ảnh Dòng Quang học](../../../../../translated_images/vi/optical.1f4a94464579a83a.png)
 
 > Hình ảnh từ [OpenCV.ipynb](OpenCV.ipynb)
 

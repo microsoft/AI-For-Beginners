@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tiedon esittäminen ja asiantuntijajärjestelmät
 
-![Symbolisen tekoälyn sisällön yhteenveto](../../../../translated_images/ai-symbolic.715a30cb610411a6.fi.png)
+![Symbolisen tekoälyn sisällön yhteenveto](../../../../translated_images/fi/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Usein emme määrittele tietoa tarkasti, vaan yhdistämme sen muihin siihen liit
 
 Näin ollen **tiedon esittämisen** ongelma on löytää tehokas tapa esittää tieto tietokoneessa datan muodossa, jotta sitä voidaan käyttää automaattisesti. Tämä voidaan nähdä spektrinä:
 
-![Tiedon esittämisen spektri](../../../../translated_images/knowledge-spectrum.b60df631852c0217.fi.png)
+![Tiedon esittämisen spektri](../../../../translated_images/fi/knowledge-spectrum.b60df631852c0217.png)
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Lohkorakenne | Sisennys | | |
 
 Symbolisen tekoälyn varhaisia menestyksiä olivat niin sanotut **asiantuntijajärjestelmät** - tietokonejärjestelmät, jotka suunniteltiin toimimaan asiantuntijana jollakin rajatulla ongelma-alueella. Ne perustuivat **tietokantaan**, joka oli kerätty yhdeltä tai useammalta ihmisasiantuntijalta, ja ne sisälsivät **päättelymoottorin**, joka suoritti päättelyä sen pohjalta.
 
-![Ihmisen arkkitehtuuri](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.fi.png) | ![Tietopohjaisen järjestelmän arkkitehtuuri](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.fi.png)
+![Ihmisen arkkitehtuuri](../../../../translated_images/fi/arch-human.5d4d35f1bba3ab1c.png) | ![Tietopohjaisen järjestelmän arkkitehtuuri](../../../../translated_images/fi/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 Ihmisen hermojärjestelmän yksinkertaistettu rakenne | Tietopohjaisen järjestelmän arkkitehtuuri
 
@@ -106,7 +106,7 @@ Asiantuntijajärjestelmät rakennetaan ihmisen päättelyjärjestelmän tapaan, 
 
 Esimerkiksi tarkastellaan seuraavaa asiantuntijajärjestelmää, joka määrittää eläimen sen fyysisten ominaisuuksien perusteella:
 
-![AND-OR-puu](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.fi.png)
+![AND-OR-puu](../../../../translated_images/fi/AND-OR-Tree.5592d2c70187f283.png)
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 

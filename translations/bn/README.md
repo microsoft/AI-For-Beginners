@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # আর্টিফিশিয়াল ইন্টেলিজেন্স ফর বিগিনার্স - একটি কারিকুলাম
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.bn.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/bn/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _স্কেচনোট [@girlie_mac](https://twitter.com/girlie_mac) দ্বারা_ |
 

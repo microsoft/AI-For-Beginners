@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # கலை நுண்ணறிவு ஆரம்பக் கற்கைத் திட்டம்
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.ta.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ta/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _சித்திரக்குறிப்பு [@girlie_mac](https://twitter.com/girlie_mac) மூலம்_ |
 

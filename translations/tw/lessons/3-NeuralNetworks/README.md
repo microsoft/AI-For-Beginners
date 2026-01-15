@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 神經網路簡介
 
-![神經網路內容摘要的手繪圖](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.tw.png)
+![神經網路內容摘要的手繪圖](../../../../translated_images/tw/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 如我們在介紹中所討論的，實現智能的一種方法是訓練一個**計算機模型**或**人工大腦**。自20世紀中期以來，研究人員嘗試了不同的數學模型，直到最近這一方向證明非常成功。這些模仿大腦的數學模型被稱為**神經網路**。
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 從生物學中，我們知道大腦由神經細胞（神經元）組成，每個神經元有多個“輸入”（樹突）和一個“輸出”（軸突）。樹突和軸突都能傳導電信號，而它們之間的連接——稱為突觸——可以表現出不同程度的導電性，這些導電性由神經遞質調節。
 
-![神經元模型](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.tw.jpg) | ![神經元模型](../../../../translated_images/artneuron.1a5daa88d20ebe6f.tw.png)
+![神經元模型](../../../../translated_images/tw/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![神經元模型](../../../../translated_images/tw/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 真實神經元 *（[圖片](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) 來自維基百科）* | 人工神經元 *（作者提供圖片）*
 
 因此，神經元的最簡單數學模型包含幾個輸入 X<sub>1</sub>, ..., X<sub>N</sub> 和一個輸出 Y，以及一系列權重 W<sub>1</sub>, ..., W<sub>N</sub>。輸出計算公式為：
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.tw.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/tw/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 其中 f 是某種非線性的**激活函數**。
 

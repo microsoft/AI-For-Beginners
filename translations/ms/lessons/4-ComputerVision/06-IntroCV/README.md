@@ -73,14 +73,14 @@ Dalam [OpenCV Notebook](OpenCV.ipynb) kami, kami memberikan beberapa contoh di m
 
 * **Pra-pemprosesan gambar buku Braille**. Kami memberi tumpuan kepada bagaimana kami boleh menggunakan thresholding, pengesanan ciri, transformasi perspektif dan manipulasi NumPy untuk memisahkan simbol Braille individu untuk pengelasan selanjutnya oleh rangkaian neural.
 
-![Imej Braille](../../../../../translated_images/braille.341962ff76b1bd70.ms.jpeg) | ![Imej Braille Pra-pemprosesan](../../../../../translated_images/braille-result.46530fea020b03c7.ms.png) | ![Simbol Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.ms.png)
+![Imej Braille](../../../../../translated_images/ms/braille.341962ff76b1bd70.jpeg) | ![Imej Braille Pra-pemprosesan](../../../../../translated_images/ms/braille-result.46530fea020b03c7.png) | ![Simbol Braille](../../../../../translated_images/ms/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Imej dari [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Mengesan pergerakan dalam video menggunakan perbezaan bingkai**. Jika kamera tetap, maka bingkai dari suapan kamera seharusnya agak serupa antara satu sama lain. Oleh kerana bingkai diwakili sebagai array, hanya dengan menolak array tersebut untuk dua bingkai berturut-turut kita akan mendapat perbezaan piksel, yang seharusnya rendah untuk bingkai statik, dan menjadi lebih tinggi apabila terdapat pergerakan yang ketara dalam imej.
 
-![Imej bingkai video dan perbezaan bingkai](../../../../../translated_images/frame-difference.706f805491a0883c.ms.png)
+![Imej bingkai video dan perbezaan bingkai](../../../../../translated_images/ms/frame-difference.706f805491a0883c.png)
 
 > Imej dari [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Dalam [OpenCV Notebook](OpenCV.ipynb) kami, kami memberikan beberapa contoh di m
    - **Dense Optical Flow** mengira medan vektor yang menunjukkan untuk setiap piksel ke mana ia bergerak
    - **Sparse Optical Flow** berdasarkan mengambil beberapa ciri yang jelas dalam imej (contohnya, tepi), dan membina trajektori mereka dari bingkai ke bingkai.
 
-![Imej Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.ms.png)
+![Imej Optical Flow](../../../../../translated_images/ms/optical.1f4a94464579a83a.png)
 
 > Imej dari [OpenCV.ipynb](OpenCV.ipynb)
 

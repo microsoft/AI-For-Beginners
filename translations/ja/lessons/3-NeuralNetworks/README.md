@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ニューラルネットワーク入門
 
-![ニューラルネットワーク入門の内容をまとめたイラスト](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.ja.png)
+![ニューラルネットワーク入門の内容をまとめたイラスト](../../../../translated_images/ja/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 序章で述べたように、知能を実現する方法の一つは、**コンピュータモデル**や**人工の脳**を訓練することです。20世紀中頃から研究者たちはさまざまな数学的モデルを試みてきましたが、近年になってこの方向性が非常に成功を収めることが証明されました。このような脳の数学的モデルは**ニューラルネットワーク**と呼ばれます。
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 生物学から、私たちの脳はニューロン（神経細胞）で構成されており、それぞれが複数の「入力」（樹状突起）と1つの「出力」（軸索）を持っていることがわかっています。樹状突起と軸索は電気信号を伝達することができ、これらの間の接続—シナプスとして知られる—は、神経伝達物質によって調節されるさまざまな伝導度を示すことができます。
 
-![ニューロンのモデル](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.ja.jpg) | ![ニューロンのモデル](../../../../translated_images/artneuron.1a5daa88d20ebe6f.ja.png)
+![ニューロンのモデル](../../../../translated_images/ja/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![ニューロンのモデル](../../../../translated_images/ja/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 実際のニューロン *([画像](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) Wikipediaより)* | 人工ニューロン *(著者による画像)*
 
 したがって、ニューロンの最も単純な数学的モデルは、いくつかの入力X<sub>1</sub>, ..., X<sub>N</sub>と出力Y、および一連の重みW<sub>1</sub>, ..., W<sub>N</sub>を含みます。出力は次のように計算されます：
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.ja.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/ja/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 ここで、fは非線形の**活性化関数**です。
 

@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 37 வெவ்வேறு இனங்களுக்கான நாய்கள் மற்றும் பூனைகளின் படங்களை கொண்ட [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ஐ நாம் பயன்படுத்துவோம்.
 
-![நாம் கையாளும் தரவுத்தொகுப்பு](../../../../../../translated_images/data.50b2a9d5484bdbf0.ta.png)
+![நாம் கையாளும் தரவுத்தொகுப்பு](../../../../../../translated_images/ta/data.50b2a9d5484bdbf0.png)
 
 தரவுத்தொகுப்பைப் பதிவிறக்க, இந்தக் குறியீட்டு துண்டைப் பயன்படுத்தவும்:
 

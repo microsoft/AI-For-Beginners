@@ -13,7 +13,7 @@ Os modelos de classificação de imagens que abordámos até agora recebiam uma 
 
 ## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detecção de Objetos](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.pt.png)
+![Detecção de Objetos](../../../../../translated_images/pt/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
 
 > Imagem do [site YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Supondo que queremos encontrar um gato numa imagem, uma abordagem muito ingénua
 2. Executar a classificação de imagem em cada bloco.
 3. Os blocos que resultarem numa ativação suficientemente alta podem ser considerados como contendo o objeto em questão.
 
-![Detecção Ingénua de Objetos](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.pt.png)
+![Detecção Ingénua de Objetos](../../../../../translated_images/pt/naive-detection.e7f1ba220ccd08c6.png)
 
 > *Imagem do [Caderno de Exercícios](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Poderá encontrar os seguintes conjuntos de dados para esta tarefa:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Objetos Comuns em Contexto. 80 classes, caixas delimitadoras e máscaras de segmentação
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.pt.jpg)
+![COCO](../../../../../translated_images/pt/coco-examples.71bc60380fa6cceb.jpg)
 
 ## Métricas de Detecção de Objetos
 
@@ -50,7 +50,7 @@ Poderá encontrar os seguintes conjuntos de dados para esta tarefa:
 
 Enquanto na classificação de imagens é fácil medir o desempenho do algoritmo, na detecção de objetos precisamos de medir tanto a correção da classe como a precisão da localização da caixa delimitadora inferida. Para esta última, utilizamos a chamada **Interseção sobre União** (IoU), que mede o quão bem duas caixas (ou duas áreas arbitrárias) se sobrepõem.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.pt.png)
+![IoU](../../../../../translated_images/pt/iou_equation.9a4751d40fff4e11.png)
 
 > *Figura 2 de [este excelente artigo sobre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Existem duas grandes classes de algoritmos de detecção de objetos:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) utiliza [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) para gerar uma estrutura hierárquica de regiões ROI, que são então passadas por extratores de características CNN e classificadores SVM para determinar a classe do objeto, e regressão linear para determinar as coordenadas da *caixa delimitadora*. [Artigo Oficial](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.pt.png)
+![RCNN](../../../../../translated_images/pt/rcnn1.cae407020dfb1d1f.png)
 
 > *Imagem de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.pt.png)
+![RCNN-1](../../../../../translated_images/pt/rcnn2.2d9530bb83516484.png)
 
 > *Imagens de [este artigo](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Existem duas grandes classes de algoritmos de detecção de objetos:
 
 Esta abordagem é semelhante à R-CNN, mas as regiões são definidas após as camadas de convolução terem sido aplicadas.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.pt.png)
+![FRCNN](../../../../../translated_images/pt/f-rcnn.3cda6d9bb4188875.png)
 
 > Imagem do [Artigo Oficial](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Esta abordagem é semelhante à R-CNN, mas as regiões são definidas após as c
 
 A ideia principal desta abordagem é usar uma rede neural para prever ROIs - a chamada *Rede de Proposta de Região*. [Artigo](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.pt.png)
+![FasterRCNN](../../../../../translated_images/pt/faster-rcnn.8d46c099b87ef30a.png)
 
 > Imagem do [artigo oficial](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Este algoritmo é ainda mais rápido que o Faster R-CNN. A ideia principal é a 
 1. As características são processadas por **Position-Sensitive Score Map**. Cada objeto das classes $C$ é dividido em regiões $k\times k$, e treinamos para prever partes dos objetos.
 1. Para cada parte das regiões $k\times k$, todas as redes votam pelas classes de objetos, e a classe de objeto com o voto máximo é selecionada.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.pt.png)
+![r-fcn image](../../../../../translated_images/pt/r-fcn.13eb88158b99a3da.png)
 
 > Imagem do [artigo oficial](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO é um algoritmo de uma única passagem em tempo real. A ideia principal é 
  * A imagem é dividida em regiões $S\times S$.
  * Para cada região, **CNN** prevê $n$ objetos possíveis, coordenadas da *caixa delimitadora* e *confiança*=*probabilidade* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.pt.png)
+ ![YOLO](../../../../../translated_images/pt/yolo.a2648ec82ee8bb4e.png)
 
 > Imagem do [artigo oficial](https://arxiv.org/abs/1506.02640)
 

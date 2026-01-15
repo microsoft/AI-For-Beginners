@@ -58,7 +58,7 @@ Pretreniranje je iznimno važan koncept u strojnom učenju, i vrlo je važno raz
 
 Razmotrimo sljedeći problem aproksimacije 5 točaka (prikazanih kao `x` na grafovima dolje):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.hr.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.hr.jpg)
+![linear](../../../../../translated_images/hr/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/hr/overfit2.131f5800ae10ca5e.jpg)
 -------------------------|--------------------------
 **Linearni model, 2 parametra** | **Nelinearni model, 7 parametara**
 Pogreška na treningu = 5.3 | Pogreška na treningu = 0
@@ -79,7 +79,7 @@ Vrlo je važno pronaći ispravnu ravnotežu između složenosti modela (broja pa
 
 Kao što možete vidjeti na grafu iznad, pretreniranje se može otkriti vrlo niskom pogreškom na treningu i visokom pogreškom na validaciji. Obično tijekom treninga vidimo kako pogreške na treningu i validaciji počinju opadati, a zatim u nekom trenutku pogreška na validaciji prestaje opadati i počinje rasti. To će biti znak pretreniranja i pokazatelj da bismo trebali prestati trenirati u tom trenutku (ili barem napraviti snimku modela).
 
-![pretreniranje](../../../../../translated_images/Overfitting.408ad91cd90b4371.hr.png)
+![pretreniranje](../../../../../translated_images/hr/Overfitting.408ad91cd90b4371.png)
 
 ## Kako spriječiti pretreniranje
 

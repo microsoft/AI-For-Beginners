@@ -15,7 +15,7 @@ Setelah keberhasilan model transformer dalam menyelesaikan tugas NLP, arsitektur
 
 Ide utama dari CLIP adalah untuk dapat membandingkan teks dengan gambar dan menentukan seberapa baik gambar tersebut sesuai dengan teks.
 
-![Arsitektur CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.id.png)
+![Arsitektur CLIP](../../../../../translated_images/id/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Gambar dari [blog ini](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Setelah model ini dilatih sebelumnya, kita dapat memberikannya batch gambar dan 
 
 Misalkan kita perlu mengklasifikasikan gambar antara, misalnya, kucing, anjing, dan manusia. Dalam kasus ini, kita dapat memberikan model sebuah gambar, dan serangkaian teks: "*gambar seekor kucing*", "*gambar seekor anjing*", "*gambar seorang manusia*". Dalam vektor hasil dengan 3 probabilitas, kita hanya perlu memilih indeks dengan nilai tertinggi.
 
-![CLIP untuk Klasifikasi Gambar](../../../../../translated_images/clip-class.3af42ef0b2b19369.id.png)
+![CLIP untuk Klasifikasi Gambar](../../../../../translated_images/id/clip-class.3af42ef0b2b19369.png)
 
 > *Gambar dari [blog ini](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Pelajari lebih lanjut tentang VQGAN di situs web [Taming Transformers](https://c
 
 Salah satu perbedaan penting antara VQGAN dan GAN tradisional adalah bahwa GAN tradisional dapat menghasilkan gambar yang cukup baik dari vektor input apa pun, sementara VQGAN cenderung menghasilkan gambar yang tidak koheren. Oleh karena itu, kita perlu membimbing lebih lanjut proses pembuatan gambar, dan itu dapat dilakukan menggunakan CLIP.
 
-![Arsitektur VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.id.png)
+![Arsitektur VQGAN+CLIP](../../../../../translated_images/id/vqgan.5027fe05051dfa31.png)
 
 Untuk menghasilkan gambar yang sesuai dengan teks, kita mulai dengan vektor encoding acak yang diteruskan melalui VQGAN untuk menghasilkan gambar. Kemudian CLIP digunakan untuk menghasilkan fungsi loss yang menunjukkan seberapa baik gambar sesuai dengan teks. Tujuannya adalah meminimalkan loss ini, menggunakan backpropagation untuk menyesuaikan parameter vektor input.
 
 Pustaka hebat yang mengimplementasikan VQGAN+CLIP adalah [Pixray](http://github.com/pixray/pixray).
 
-![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.id.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.id.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.id.png)
+![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Gambar yang dihasilkan dari teks *a closeup watercolor portrait of young male teacher of literature with a book* | Gambar yang dihasilkan dari teks *a closeup oil portrait of young female teacher of computer science with a computer* | Gambar yang dihasilkan dari teks *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
@@ -75,7 +75,7 @@ Berbeda dengan CLIP, DALL-E menerima teks dan gambar sebagai satu aliran token u
 Perbedaan utama antara DALL-E 1 dan 2 adalah bahwa DALL-E 2 menghasilkan gambar dan seni yang lebih realistis.
 
 Contoh gambar yang dihasilkan dengan DALL-E:
-![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.id.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.id.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.id.png)
+![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/id/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Gambar yang dihasilkan dari teks *a closeup watercolor portrait of young male teacher of literature with a book* | Gambar yang dihasilkan dari teks *a closeup oil portrait of young female teacher of computer science with a computer* | Gambar yang dihasilkan dari teks *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 

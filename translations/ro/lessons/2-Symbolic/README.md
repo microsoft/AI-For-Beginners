@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentarea Cunoașterii și Sisteme Expert
 
-![Rezumat al conținutului AI simbolic](../../../../translated_images/ai-symbolic.715a30cb610411a6.ro.png)
+![Rezumat al conținutului AI simbolic](../../../../translated_images/ro/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote de [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ De cele mai multe ori, nu definim strict cunoașterea, ci o aliniem cu alte conc
 
 Astfel, problema **reprezentării cunoașterii** este de a găsi o modalitate eficientă de a reprezenta cunoașterea într-un computer sub formă de date, pentru a o face utilizabilă automat. Acest lucru poate fi văzut ca un spectru:
 
-![Spectrul reprezentării cunoașterii](../../../../translated_images/knowledge-spectrum.b60df631852c0217.ro.png)
+![Spectrul reprezentării cunoașterii](../../../../translated_images/ro/knowledge-spectrum.b60df631852c0217.png)
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaxă Bloc | Indentare | | |
 
 Unul dintre succesele timpurii ale AI simbolic au fost așa-numitele **sisteme expert** - sisteme de computer concepute să acționeze ca un expert într-un domeniu limitat de probleme. Acestea se bazau pe o **bază de cunoaștere** extrasă de la unul sau mai mulți experți umani și conțineau un **motor de inferență** care efectua raționamente pe baza acesteia.
 
-![Arhitectura umană](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.ro.png) | ![Sistem bazat pe cunoaștere](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.ro.png)
+![Arhitectura umană](../../../../translated_images/ro/arch-human.5d4d35f1bba3ab1c.png) | ![Sistem bazat pe cunoaștere](../../../../translated_images/ro/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 Structura simplificată a sistemului neural uman | Arhitectura unui sistem bazat pe cunoaștere
 
@@ -106,7 +106,7 @@ Sistemele expert sunt construite similar cu sistemul de raționament uman, care 
 
 Ca exemplu, să luăm în considerare următorul sistem expert de determinare a unui animal pe baza caracteristicilor sale fizice:
 
-![Arbore AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.ro.png)
+![Arbore AND-OR](../../../../translated_images/ro/AND-OR-Tree.5592d2c70187f283.png)
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 

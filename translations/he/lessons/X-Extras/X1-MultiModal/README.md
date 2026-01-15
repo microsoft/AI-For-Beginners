@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 הרעיון המרכזי של CLIP הוא היכולת להשוות בין טקסט לתמונה ולקבוע עד כמה התמונה מתאימה לטקסט.
 
-![ארכיטקטורת CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.he.png)
+![ארכיטקטורת CLIP](../../../../../translated_images/he/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *תמונה מתוך [הפוסט הזה](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 נניח שעלינו לסווג תמונות בין חתולים, כלבים ובני אדם. במקרה זה, ניתן להזין למודל תמונה וסדרה של טקסטים: "*תמונה של חתול*", "*תמונה של כלב*", "*תמונה של אדם*". בווקטור התוצאות של 3 ההסתברויות, נבחר את האינדקס עם הערך הגבוה ביותר.
 
-![CLIP לסיווג תמונות](../../../../../translated_images/clip-class.3af42ef0b2b19369.he.png)
+![CLIP לסיווג תמונות](../../../../../translated_images/he/clip-class.3af42ef0b2b19369.png)
 
 > *תמונה מתוך [הפוסט הזה](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 אחת ההבדלים החשובים בין VQGAN ל-GAN מסורתי היא שהאחרון יכול לייצר תמונה סבירה מכל וקטור קלט, בעוד ש-VQGAN עשוי לייצר תמונה שאינה קוהרנטית. לכן, יש להנחות את תהליך יצירת התמונה, וזה נעשה באמצעות CLIP.
 
-![ארכיטקטורת VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.he.png)
+![ארכיטקטורת VQGAN+CLIP](../../../../../translated_images/he/vqgan.5027fe05051dfa31.png)
 
 כדי ליצור תמונה שמתאימה לטקסט, מתחילים עם וקטור קידוד אקראי שמועבר דרך VQGAN ליצירת תמונה. לאחר מכן, CLIP משמש ליצירת פונקציית הפסד שמראה עד כמה התמונה מתאימה לטקסט. המטרה היא למזער את ההפסד הזה באמצעות back propagation כדי להתאים את פרמטרי וקטור הקלט.
 
 ספרייה מצוינת שמממשת VQGAN+CLIP היא [Pixray](http://github.com/pixray/pixray).
 
-![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.he.png) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.he.png) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.he.png)
+![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 תמונה שנוצרה מהטקסט *דיוקן בצבעי מים של מורה צעיר לספרות עם ספר* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה צעירה למדעי המחשב עם מחשב* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה מבוגר למתמטיקה מול לוח שחור*
 
@@ -75,7 +75,7 @@ DALL-E הוא גרסה של GPT-3 שאומנה ליצירת תמונות מטק�
 ההבדל המרכזי בין DALL-E 1 ל-DALL-E 2 הוא שגרסה 2 מייצרת תמונות ואמנות ריאליסטיות יותר.
 
 דוגמאות ליצירת תמונות עם DALL-E:
-![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.he.png) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.he.png) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.he.png)
+![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 תמונה שנוצרה מהטקסט *דיוקן בצבעי מים של מורה צעיר לספרות עם ספר* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה צעירה למדעי המחשב עם מחשב* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה מבוגר למתמטיקה מול לוח שחור*
 

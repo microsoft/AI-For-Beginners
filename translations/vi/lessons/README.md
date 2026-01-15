@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tổng quan
 
-![Tổng quan trong một hình vẽ minh họa](../../../translated_images/ai-overview.0857791951d19500.vi.png)
+![Tổng quan trong một hình vẽ minh họa](../../../translated_images/vi/ai-overview.0857791951d19500.png)
 
 > Hình minh họa bởi [Tomomi Imura](https://twitter.com/girlie_mac)
 

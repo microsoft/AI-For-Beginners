@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Genel Bakış
 
-![Bir çizimde genel bakış](../../../translated_images/ai-overview.0857791951d19500.tr.png)
+![Bir çizimde genel bakış](../../../translated_images/tr/ai-overview.0857791951d19500.png)
 
 > Çizim notu: [Tomomi Imura](https://twitter.com/girlie_mac)
 

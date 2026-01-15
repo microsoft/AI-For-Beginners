@@ -19,7 +19,7 @@ Embedding layer က စကားလုံးကို input အနေနဲ့ �
 
 Embedding layer ကို classifier network ရဲ့ ပထမဆုံး layer အနေနဲ့ အသုံးပြုခြင်းအားဖြင့်၊ bag-of-words model ကနေ **embedding bag** model သို့ ပြောင်းလဲနိုင်ပါတယ်။ ဒီမှာ စကားလုံးတစ်လုံးချင်းစီကို သက်ဆိုင်ရာ embedding သို့ ပြောင်းပြီး၊ အဲဒီ embeddings အားလုံးအပေါ်မှာ `sum`, `average` သို့မဟုတ် `max` ကဲ့သို့သော aggregate function တစ်ခုခုကို တွက်ချက်ပါမယ်။
 
-![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.my.png)
+![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/my/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > ပုံကို စာရေးသူမှ ဖန်တီးထားသည်
 
@@ -40,7 +40,7 @@ Embedding layer က စကားလုံးတွေကို vector representa
 
 CBoW က ပိုမြန်ပြီး၊ skip-gram က ပိုနှေးပေမယ့်၊ မကြာခဏ မတွေ့ရတဲ့ စကားလုံးတွေကို ပိုကောင်းစွာ ကိုယ်စားပြုနိုင်ပါတယ်။
 
-![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.my.png)
+![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/my/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > ပုံကို [ဒီစာတမ်း](https://arxiv.org/pdf/1301.3781.pdf) မှာ ရရှိခဲ့သည်
 

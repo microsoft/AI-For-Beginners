@@ -19,7 +19,7 @@ Katika usanifu wa RNN tuliojadili katika kitengo kilichopita, kila kitengo cha R
 
 Hii inaruhusu usanifu tofauti wa neural unaoonyeshwa kwenye picha hapa chini:
 
-![Picha inayoonyesha mifumo ya kawaida ya mitandao ya neural ya kurudia.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sw.jpg)
+![Picha inayoonyesha mifumo ya kawaida ya mitandao ya neural ya kurudia.](../../../../../translated_images/sw/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > Picha kutoka kwa chapisho la blogu [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) na [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Katika kitengo hiki, tutazingatia mifano rahisi ya kizazi inayotusaidia kuzalish
 
 Tutafundisha RNN hii kuzalisha maandishi hatua kwa hatua. Katika kila hatua, tutachukua mfululizo wa herufi za urefu `nchars`, na kuomba mtandao kuzalisha herufi inayofuata kwa kila herufi ya pembejeo:
 
-![Picha inayoonyesha mfano wa kizazi cha RNN wa neno 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.sw.png)
+![Picha inayoonyesha mfano wa kizazi cha RNN wa neno 'HELLO'.](../../../../../translated_images/sw/rnn-generate.56c54afb52f9781d.png)
 
 Wakati wa kuzalisha maandishi (wakati wa utabiri), tunaanza na **msukumo fulani**, ambao unapitia seli za RNN ili kuzalisha hali yake ya kati, na kisha kutoka hali hii kizazi kinaanza. Tunazalisha herufi moja kwa wakati, na kupitisha hali na herufi iliyozalishwa kwa seli nyingine ya RNN ili kuzalisha inayofuata, hadi tutakapozalisha herufi za kutosha.
 

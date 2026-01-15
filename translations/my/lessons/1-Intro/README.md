@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI အကြောင်းအကျဉ်း
 
-![AI အကြောင်းအကျဉ်းအကြောင်းအရာကို ရေးဆွဲထားသော ပုံ](../../../../translated_images/ai-intro.bf28d1ac4235881c.my.png)
+![AI အကြောင်းအကျဉ်းအကြောင်းအရာကို ရေးဆွဲထားသော ပုံ](../../../../translated_images/my/ai-intro.bf28d1ac4235881c.png)
 
 > [Tomomi Imura](https://twitter.com/girlie_mac) မှ Sketchnote
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 မူလကတော့ ကွန်ပျူတာတွေကို [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) က အလွန်သေချာတဲ့ နည်းလမ်းတစ်ခုဖြင့် နံပါတ်တွေကို လုပ်ဆောင်နိုင်ဖို့ တီထွင်ခဲ့တာပါ။ ယနေ့ခေတ်ကွန်ပျူတာတွေဟာ ၁၉ ရာစုက မူလပုံစံထက် အလွန်တိုးတက်လာပြီးသားဖြစ်ပေမယ့်လည်း ထိန်းချုပ်ထားတဲ့တွက်ချက်မှုတွေကို အခြေခံထားတဲ့ အယူအဆကိုပဲ ဆက်လက်လိုက်နာနေပါတယ်။ ဒါကြောင့် ရည်မှန်းချက်ကို ရရှိဖို့ လိုအပ်တဲ့ အဆင့်ဆင့်လုပ်ဆောင်မှုတွေကို သိထားရင် ကွန်ပျူတာကို အစီအစဉ်ရေးသားပြီး လုပ်ဆောင်နိုင်ပါတယ်။
 
-![လူတစ်ဦး၏ ဓာတ်ပုံ](../../../../translated_images/dsh_age.d212a30d4e54fb5f.my.png)
+![လူတစ်ဦး၏ ဓာတ်ပုံ](../../../../translated_images/my/dsh_age.d212a30d4e54fb5f.png)
 
 > [Vickie Soshnikova](http://twitter.com/vickievalerie) မှ ဓာတ်ပုံ
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** ဆိုတဲ့ စကားလုံးကို သုံးတဲ့အခါမှာ အဓိပ္ပါယ်ရှင်းလင်းမှုမရှိတာက ပြဿနာတစ်ခုဖြစ်ပါတယ်။ ဉာဏ်ရည်ဆိုတာ **အထွေထွေစဉ်းစားနိုင်စွမ်း** သို့မဟုတ် **ကိုယ့်ကိုယ်ကိုသိမြင်မှု** နဲ့ ဆက်စပ်နေတယ်လို့ ဆိုနိုင်ပေမယ့် အတိအကျ သတ်မှတ်လို့မရပါဘူး။
 
-![ကြောင်တစ်ကောင်ရဲ့ ဓာတ်ပုံ](../../../../translated_images/photo-cat.8c8e8fb760ffe457.my.jpg)
+![ကြောင်တစ်ကောင်ရဲ့ ဓာတ်ပုံ](../../../../translated_images/my/photo-cat.8c8e8fb760ffe457.jpg)
 
 > [Amber Kipp](https://unsplash.com/@sadmax) မှ [ဓာတ်ပုံ](https://unsplash.com/photos/75715CVEJhI) (Unsplash မှ)
 

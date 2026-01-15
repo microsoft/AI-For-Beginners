@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # ಹೊಸವರಿಗಾಗಿ искусственный ಬುದ್ಧಿಮತ್ತೆ - ಒಂದು ಪಠ್ಯಕ್ರಮ
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.kn.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/kn/ai-overview.0857791951d19500.png)|
 |:---:|
 | ಹೊಸವರಿಗಾಗಿ искусственный ಬುದ್ಧಿಮತ್ತೆ - _ಸ್ಕೆಎಚ್‌ನೋಟ್ [@girlie_mac](https://twitter.com/girlie_mac) ಅವರಿಂದ_ |
 

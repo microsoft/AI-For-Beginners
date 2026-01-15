@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಕಂಪ್ಯೂಟರ್ ವೀಕ್ಷಣೆ
 
-![ಕಂಪ್ಯೂಟರ್ ವೀಕ್ಷಣೆ ವಿಷಯದ ಸಾರಾಂಶ ಡೂಡಲ್‌ನಲ್ಲಿ](../../../../translated_images/ai-computervision.6506ebebac3fbf76.kn.png)
+![ಕಂಪ್ಯೂಟರ್ ವೀಕ್ಷಣೆ ವಿಷಯದ ಸಾರಾಂಶ ಡೂಡಲ್‌ನಲ್ಲಿ](../../../../translated_images/kn/ai-computervision.6506ebebac3fbf76.png)
 
 ಈ ವಿಭಾಗದಲ್ಲಿ ನಾವು ಕಲಿಯಲಿದ್ದೇವೆ:
 

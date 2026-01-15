@@ -15,7 +15,7 @@ Na het succes van transformer-modellen voor het oplossen van NLP-taken, zijn dez
 
 Het belangrijkste idee van CLIP is om tekstprompts te kunnen vergelijken met een afbeelding en te bepalen hoe goed de afbeelding overeenkomt met de prompt.
 
-![CLIP Architectuur](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.nl.png)
+![CLIP Architectuur](../../../../../translated_images/nl/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Zodra dit model is voorgetraind, kunnen we het een batch afbeeldingen en een bat
 
 Stel dat we afbeeldingen moeten classificeren tussen bijvoorbeeld katten, honden en mensen. In dit geval kunnen we het model een afbeelding geven en een reeks tekstprompts: "*een afbeelding van een kat*", "*een afbeelding van een hond*", "*een afbeelding van een mens*". In de resulterende vector van 3 waarschijnlijkheden hoeven we alleen de index met de hoogste waarde te selecteren.
 
-![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/clip-class.3af42ef0b2b19369.nl.png)
+![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/nl/clip-class.3af42ef0b2b19369.png)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Meer informatie over VQGAN vind je op de [Taming Transformers](https://compvis.g
 
 Een belangrijk verschil tussen VQGAN en traditionele GAN is dat de laatste een behoorlijke afbeelding kan produceren vanuit elke invoervector, terwijl VQGAN waarschijnlijk een afbeelding produceert die niet coherent is. Daarom moeten we het proces van afbeeldingcreatie verder sturen, en dat kan worden gedaan met behulp van CLIP.
 
-![VQGAN+CLIP Architectuur](../../../../../translated_images/vqgan.5027fe05051dfa31.nl.png)
+![VQGAN+CLIP Architectuur](../../../../../translated_images/nl/vqgan.5027fe05051dfa31.png)
 
 Om een afbeelding te genereren die overeenkomt met een tekstprompt, beginnen we met een willekeurige coderingsvector die door VQGAN wordt doorgegeven om een afbeelding te produceren. Vervolgens wordt CLIP gebruikt om een verliesfunctie te produceren die aangeeft hoe goed de afbeelding overeenkomt met de tekstprompt. Het doel is dan om dit verlies te minimaliseren, door middel van backpropagation om de parameters van de invoervector aan te passen.
 
 Een geweldige bibliotheek die VQGAN+CLIP implementeert is [Pixray](http://github.com/pixray/pixray).
 
-![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.nl.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.nl.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.nl.png)
+![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Afbeelding gegenereerd vanuit prompt *een close-up aquarelportret van een jonge mannelijke leraar literatuur met een boek* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een jonge vrouwelijke leraar informatica met een computer* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een oude mannelijke leraar wiskunde voor een schoolbord*
 
@@ -75,7 +75,7 @@ In tegenstelling tot CLIP ontvangt DALL-E zowel tekst als afbeelding als een enk
 Het belangrijkste verschil tussen DALL.E 1 en 2 is dat het meer realistische afbeeldingen en kunst genereert.
 
 Voorbeelden van afbeeldingsgeneraties met DALL-E:
-![Afbeelding gegenereerd door Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.nl.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.nl.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.nl.png)
+![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Afbeelding gegenereerd vanuit prompt *een close-up aquarelportret van een jonge mannelijke leraar literatuur met een boek* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een jonge vrouwelijke leraar informatica met een computer* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een oude mannelijke leraar wiskunde voor een schoolbord*
 

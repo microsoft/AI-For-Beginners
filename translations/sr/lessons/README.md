@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Преглед
 
-![Преглед у виду цртежа](../../../translated_images/ai-overview.0857791951d19500.sr.png)
+![Преглед у виду цртежа](../../../translated_images/sr/ai-overview.0857791951d19500.png)
 
 > Цртеж белешке од [Tomomi Imura](https://twitter.com/girlie_mac)
 

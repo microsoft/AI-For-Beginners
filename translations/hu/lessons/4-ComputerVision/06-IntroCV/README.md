@@ -73,14 +73,14 @@ Az [OpenCV Notebook](OpenCV.ipynb) példákban bemutatjuk, hogy a számítógép
 
 * **Egy Braille könyv fényképének előfeldolgozása**. Arra összpontosítunk, hogyan használhatjuk a küszöbérték alkalmazást, jellemzők detektálását, perspektíva transzformációt és NumPy manipulációkat az egyes Braille szimbólumok elkülönítésére, hogy azokat később neurális hálózat osztályozza.
 
-![Braille kép](../../../../../translated_images/braille.341962ff76b1bd70.hu.jpeg) | ![Braille kép előfeldolgozva](../../../../../translated_images/braille-result.46530fea020b03c7.hu.png) | ![Braille szimbólumok](../../../../../translated_images/braille-symbols.0159185ab69d5339.hu.png)
+![Braille kép](../../../../../translated_images/hu/braille.341962ff76b1bd70.jpeg) | ![Braille kép előfeldolgozva](../../../../../translated_images/hu/braille-result.46530fea020b03c7.png) | ![Braille szimbólumok](../../../../../translated_images/hu/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Kép az [OpenCV.ipynb](OpenCV.ipynb)-ből
 
 * **Mozgás detektálása videóban képkocka különbséggel**. Ha a kamera fix, akkor a kamera képkockái elég hasonlóak kell legyenek egymáshoz. Mivel a képkockák tömbként vannak ábrázolva, egyszerűen a két egymást követő képkocka tömbjeinek kivonásával megkapjuk a pixelkülönbséget, amely alacsony lesz statikus képkockák esetén, és magasabb lesz, ha jelentős mozgás van a képen.
 
-![Videó képkockák és képkocka különbségek képe](../../../../../translated_images/frame-difference.706f805491a0883c.hu.png)
+![Videó képkockák és képkocka különbségek képe](../../../../../translated_images/hu/frame-difference.706f805491a0883c.png)
 
 > Kép az [OpenCV.ipynb](OpenCV.ipynb)-ből
 
@@ -89,7 +89,7 @@ Az [OpenCV Notebook](OpenCV.ipynb) példákban bemutatjuk, hogy a számítógép
    - **Sűrű optikai áramlás** kiszámítja a vektormezőt, amely megmutatja, hogy minden pixel hova mozog
    - **Ritka optikai áramlás** az alapján működik, hogy néhány jellegzetes jellemzőt vesz a képen (pl. élek), és ezek pályáját építi fel képkockáról képkockára.
 
-![Optikai áramlás képe](../../../../../translated_images/optical.1f4a94464579a83a.hu.png)
+![Optikai áramlás képe](../../../../../translated_images/hu/optical.1f4a94464579a83a.png)
 
 > Kép az [OpenCV.ipynb](OpenCV.ipynb)-ből
 

@@ -13,7 +13,7 @@ Ang mga modelo ng image classification na ating tinalakay hanggang ngayon ay tum
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Pag-detect ng Objekto](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.tl.png)
+![Pag-detect ng Objekto](../../../../../translated_images/tl/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
 
 > Larawan mula sa [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Kung nais nating hanapin ang isang pusa sa isang larawan, ang isang napakasimple
 2. Patakbuhin ang image classification sa bawat tile.
 3. Ang mga tile na may sapat na mataas na activation ay maaaring ituring na naglalaman ng hinahanap na objekto.
 
-![Simpleng Pag-detect ng Objekto](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.tl.png)
+![Simpleng Pag-detect ng Objekto](../../../../../translated_images/tl/naive-detection.e7f1ba220ccd08c6.png)
 
 > *Larawan mula sa [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Maaaring makatagpo ka ng mga sumusunod na dataset para sa gawaing ito:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 klase
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 klase, bounding boxes, at segmentation masks
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.tl.jpg)
+![COCO](../../../../../translated_images/tl/coco-examples.71bc60380fa6cceb.jpg)
 
 ## Mga Sukatan para sa Pag-detect ng Objekto
 
@@ -50,7 +50,7 @@ Maaaring makatagpo ka ng mga sumusunod na dataset para sa gawaing ito:
 
 Habang madali ang pagsukat ng performance ng algorithm sa image classification, sa pag-detect ng objekto kailangan nating sukatin ang tamang klase pati na rin ang eksaktong lokasyon ng inferred bounding box. Para sa huli, ginagamit natin ang tinatawag na **Intersection over Union** (IoU), na sumusukat kung gaano kahusay ang overlap ng dalawang kahon (o dalawang arbitrary na lugar).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.tl.png)
+![IoU](../../../../../translated_images/tl/iou_equation.9a4751d40fff4e11.png)
 
 > *Figure 2 mula sa [napakagandang blog post na ito tungkol sa IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ May dalawang malawak na klase ng mga algorithm sa pag-detect ng objekto:
 
 Ang [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) ay gumagamit ng [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) upang makabuo ng hierarchical structure ng mga ROI region, na pagkatapos ay ipinapasa sa CNN feature extractors at SVM-classifiers upang matukoy ang klase ng objekto, at linear regression upang matukoy ang mga coordinate ng *bounding box*. [Opisyal na Papel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.tl.png)
+![RCNN](../../../../../translated_images/tl/rcnn1.cae407020dfb1d1f.png)
 
 > *Larawan mula kay van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.tl.png)
+![RCNN-1](../../../../../translated_images/tl/rcnn2.2d9530bb83516484.png)
 
 > *Mga larawan mula sa [blog na ito](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -110,7 +110,7 @@ Ang [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) ay gu
 
 Ang pamamaraang ito ay katulad ng R-CNN, ngunit ang mga region ay tinutukoy pagkatapos ma-apply ang convolution layers.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.tl.png)
+![FRCNN](../../../../../translated_images/tl/f-rcnn.3cda6d9bb4188875.png)
 
 > Larawan mula sa [Opisyal na Papel](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Ang pamamaraang ito ay katulad ng R-CNN, ngunit ang mga region ay tinutukoy pagk
 
 Ang pangunahing ideya ng pamamaraang ito ay ang paggamit ng neural network upang mahulaan ang mga ROI - tinatawag na *Region Proposal Network*. [Papel](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.tl.png)
+![FasterRCNN](../../../../../translated_images/tl/faster-rcnn.8d46c099b87ef30a.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Ang algorithm na ito ay mas mabilis pa kaysa sa Faster R-CNN. Ang pangunahing id
 1. Ang mga feature ay pinoproseso ng **Position-Sensitive Score Map**. Ang bawat objekto mula sa $C$ klase ay hinahati sa $k\times k$ na mga region, at sinasanay upang mahulaan ang mga bahagi ng mga objekto.
 1. Para sa bawat bahagi mula sa $k\times k$ na mga region, lahat ng network ay bumoboto para sa klase ng objekto, at ang klase ng objekto na may pinakamataas na boto ang pinipili.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.tl.png)
+![r-fcn image](../../../../../translated_images/tl/r-fcn.13eb88158b99a3da.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ Ang YOLO ay isang realtime one-pass algorithm. Ang pangunahing ideya ay ang sumu
  * Ang larawan ay hinahati sa $S\times S$ na mga region.
  * Para sa bawat region, **CNN** ay hinuhulaan ang $n$ posibleng mga objekto, *bounding box* coordinates, at *confidence*=*probability* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.tl.png)
+ ![YOLO](../../../../../translated_images/tl/yolo.a2648ec82ee8bb4e.png)
 
 > Larawan mula sa [opisyal na papel](https://arxiv.org/abs/1506.02640)
 

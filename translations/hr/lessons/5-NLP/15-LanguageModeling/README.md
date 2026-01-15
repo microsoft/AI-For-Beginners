@@ -23,7 +23,7 @@ U našim prethodnim primjerima koristili smo unaprijed trenirane semantičke ugr
 * **Kontinuirana vreća riječi** (CBoW), gdje predviđamo srednji token $W_0$ u nizu tokena $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, gdje predviđamo skup susjednih tokena {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} iz srednjeg tokena $W_0$.
 
-![slika iz rada o pretvaranju riječi u vektore](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.hr.png)
+![slika iz rada o pretvaranju riječi u vektore](../../../../../translated_images/hr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Slika iz [ovog rada](https://arxiv.org/pdf/1301.3781.pdf)
 

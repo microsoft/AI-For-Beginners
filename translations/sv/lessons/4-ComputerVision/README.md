@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Datorseende
 
-![Sammanfattning av innehållet om datorseende i en skiss](../../../../translated_images/ai-computervision.6506ebebac3fbf76.sv.png)
+![Sammanfattning av innehållet om datorseende i en skiss](../../../../translated_images/sv/ai-computervision.6506ebebac3fbf76.png)
 
 I den här delen kommer vi att lära oss om:
 

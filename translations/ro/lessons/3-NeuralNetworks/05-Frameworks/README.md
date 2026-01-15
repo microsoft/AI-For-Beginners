@@ -58,7 +58,7 @@ Overfitting este un concept extrem de important în învățarea automată și e
 
 Luați în considerare următoarea problemă de aproximare a 5 puncte (reprezentate de `x` pe graficele de mai jos):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.ro.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.ro.jpg)
+![linear](../../../../../translated_images/ro/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/ro/overfit2.131f5800ae10ca5e.jpg)
 -------------------------|--------------------------
 **Model liniar, 2 parametri** | **Model neliniar, 7 parametri**
 Eroare de antrenare = 5.3 | Eroare de antrenare = 0
@@ -79,7 +79,7 @@ Este foarte important să găsim un echilibru corect între complexitatea modelu
 
 Așa cum se vede din graficul de mai sus, overfitting poate fi detectat printr-o eroare de antrenare foarte mică și o eroare de validare mare. În mod normal, în timpul antrenării, vom vedea atât erorile de antrenare, cât și cele de validare începând să scadă, iar apoi, la un moment dat, eroarea de validare poate înceta să scadă și să înceapă să crească. Acesta va fi un semn de overfitting și un indicator că ar trebui să oprim antrenarea în acel moment (sau cel puțin să facem un snapshot al modelului).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.ro.png)
+![overfitting](../../../../../translated_images/ro/Overfitting.408ad91cd90b4371.png)
 
 ## Cum prevenim overfitting
 

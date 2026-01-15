@@ -19,7 +19,7 @@ Taigi, įterpimo sluoksnis priims žodį kaip įvestį ir pateiks išvesties vek
 
 Naudodami įterpimo sluoksnį kaip pirmąjį sluoksnį mūsų klasifikatoriaus tinkle, galime pereiti nuo žodžių maišo prie **įterpinių maišo** modelio, kuriame pirmiausia kiekvieną žodį mūsų tekste konvertuojame į atitinkamą įterpinį, o tada apskaičiuojame tam tikrą agregavimo funkciją visiems tiems įterpiniams, pvz., `sum`, `average` arba `max`.
 
-![Vaizdas, rodantis įterpinio klasifikatorių penkiems sekos žodžiams.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.lt.png)
+![Vaizdas, rodantis įterpinio klasifikatorių penkiems sekos žodžiams.](../../../../../translated_images/lt/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > Vaizdas sukurtas autoriaus
 
@@ -40,7 +40,7 @@ Norėdami tai pasiekti, turime iš anksto apmokyti savo įterpimo modelį didel�
 
 CBoW yra greitesnis, o praleidimo gramų modelis yra lėtesnis, tačiau geriau reprezentuoja retus žodžius.
 
-![Vaizdas, rodantis CBoW ir praleidimo gramų algoritmus žodžių konvertavimui į vektorius.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.lt.png)
+![Vaizdas, rodantis CBoW ir praleidimo gramų algoritmus žodžių konvertavimui į vektorius.](../../../../../translated_images/lt/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Vaizdas iš [šio straipsnio](https://arxiv.org/pdf/1301.3781.pdf)
 

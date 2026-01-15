@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ще използваме [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), който съдържа изображения на 37 различни породи кучета и котки.
 
-![Наборът от данни, с който ще работим](../../../../../../translated_images/data.50b2a9d5484bdbf0.bg.png)
+![Наборът от данни, с който ще работим](../../../../../../translated_images/bg/data.50b2a9d5484bdbf0.png)
 
 За да изтеглите набора от данни, използвайте този кодов фрагмент:
 

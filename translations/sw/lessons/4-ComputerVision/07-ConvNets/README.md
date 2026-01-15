@@ -17,7 +17,7 @@ Katika maisha halisi, tunataka kuwa na uwezo wa kutambua vitu kwenye picha bila 
 
 Ili kutoa mifumo, tutatumia dhana ya **vichujio vya convolutional**. Kama unavyojua, picha inawakilishwa na matriki ya 2D, au tensor ya 3D yenye kina cha rangi. Kutumia kichujio kunamaanisha kwamba tunachukua matriki ndogo ya **kernel ya kichujio**, na kwa kila pikseli kwenye picha ya awali tunahesabu wastani wa uzito na pointi za jirani. Tunaweza kuona hili kama dirisha dogo linalosonga juu ya picha nzima, na kujumlisha pikseli zote kulingana na uzito katika matriki ya kernel ya kichujio.
 
-![Kichujio cha Mstari Wima](../../../../../translated_images/filter-vert.b7148390ca0bc356.sw.png) | ![Kichujio cha Mstari Mlalo](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.sw.png)
+![Kichujio cha Mstari Wima](../../../../../translated_images/sw/filter-vert.b7148390ca0bc356.png) | ![Kichujio cha Mstari Mlalo](../../../../../translated_images/sw/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > Picha na Dmitry Soshnikov
@@ -38,7 +38,7 @@ Njia CNN zinavyofanya kazi inategemea mawazo muhimu yafuatayo:
 * Tunaweza kubuni mtandao kwa njia ambayo vichujio vinajifunza kiotomatiki
 * Tunaweza kutumia mbinu hiyo hiyo kutafuta mifumo kwenye vipengele vya kiwango cha juu, si tu kwenye picha ya awali. Kwa hivyo uchimbaji wa vipengele vya CNN hufanya kazi kwenye uhierakia wa vipengele, kuanzia mchanganyiko wa pikseli za kiwango cha chini, hadi mchanganyiko wa kiwango cha juu wa sehemu za picha.
 
-![Uchimbaji wa Vipengele vya Kihierakia](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.sw.png)
+![Uchimbaji wa Vipengele vya Kihierakia](../../../../../translated_images/sw/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > Picha kutoka [karatasi ya Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), kulingana na [utafiti wao](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CNN nyingi zinazotumika kwa usindikaji wa picha hufuata kile kinachoitwa muundo 
 
 Kwa mfano, hebu tuangalie muundo wa VGG-16, mtandao uliopata usahihi wa 92.7% katika uainishaji wa juu-5 wa ImageNet mwaka 2014:
 
-![Tabaka za ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.sw.jpg)
+![Tabaka za ImageNet](../../../../../translated_images/sw/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![Piramidi ya ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.sw.jpg)
+![Piramidi ya ImageNet](../../../../../translated_images/sw/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Picha kutoka [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

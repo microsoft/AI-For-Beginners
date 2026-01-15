@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CLIP 的主要理念是能夠比較文本提示與圖像，並判斷圖像與提示的匹配程度。
 
-![CLIP 架構](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.hk.png)
+![CLIP 架構](../../../../../translated_images/hk/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *圖片來源：[這篇博客文章](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CLIP 模型/庫可從 [OpenAI GitHub](https://github.com/openai/CLIP) 獲得。�
 
 假設我們需要將圖像分類為例如貓、狗和人。在這種情況下，我們可以向模型提供一張圖像，以及一系列文本提示：“*一張貓的照片*”、“*一張狗的照片*”、“*一張人的照片*”。在結果的三個概率向量中，我們只需選擇值最高的索引。
 
-![CLIP 用於圖像分類](../../../../../translated_images/clip-class.3af42ef0b2b19369.hk.png)
+![CLIP 用於圖像分類](../../../../../translated_images/hk/clip-class.3af42ef0b2b19369.png)
 
 > *圖片來源：[這篇博客文章](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ VQGAN 與普通 [GAN](../../4-ComputerVision/10-GANs/README.md) 的主要區別�
 
 VQGAN 與傳統 GAN 的一個重要區別是，後者可以從任何輸入向量生成一張像樣的圖像，而 VQGAN 則可能生成不連貫的圖像。因此，我們需要進一步引導圖像創建過程，這可以通過 CLIP 來完成。
 
-![VQGAN+CLIP 架構](../../../../../translated_images/vqgan.5027fe05051dfa31.hk.png)
+![VQGAN+CLIP 架構](../../../../../translated_images/hk/vqgan.5027fe05051dfa31.png)
 
 為了生成與文本提示相對應的圖像，我們首先使用一些隨機編碼向量，通過 VQGAN 生成一張圖像。然後使用 CLIP 生成損失函數，顯示圖像與文本提示的匹配程度。目標是最小化該損失，通過反向傳播調整輸入向量的參數。
 
 一個實現 VQGAN+CLIP 的優秀庫是 [Pixray](http://github.com/pixray/pixray)。
 
-![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.hk.png) |  ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.hk.png) | ![由 Pixray 生成的圖片](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.hk.png)
+![由 Pixray 生成的圖片](../../../../../translated_images/hk/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![由 Pixray 生成的圖片](../../../../../translated_images/hk/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![由 Pixray 生成的圖片](../../../../../translated_images/hk/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 根據提示 *一張年輕男性文學教師拿著書的水彩特寫肖像* 生成的圖片 | 根據提示 *一張年輕女性計算機科學教師拿著電腦的油畫特寫肖像* 生成的圖片 | 根據提示 *一張老年男性數學教師站在黑板前的油畫特寫肖像* 生成的圖片
 
@@ -75,7 +75,7 @@ DALL-E 是 GPT-3 的一個版本，訓練用於根據提示生成圖像。它擁
 DALL-E 1 和 DALL-E 2 的主要區別在於，後者能生成更逼真的圖像和藝術作品。
 
 以下是使用 DALL-E 生成的圖像示例：
-![由 DALL-E 生成的圖片](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.hk.png) |  ![由 DALL-E 生成的圖片](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.hk.png) | ![由 DALL-E 生成的圖片](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.hk.png)
+![由 DALL-E 生成的圖片](../../../../../translated_images/hk/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![由 DALL-E 生成的圖片](../../../../../translated_images/hk/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![由 DALL-E 生成的圖片](../../../../../translated_images/hk/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 根據提示 *一張年輕男性文學教師拿著書的水彩特寫肖像* 生成的圖片 | 根據提示 *一張年輕女性計算機科學教師拿著電腦的油畫特寫肖像* 生成的圖片 | 根據提示 *一張老年男性數學教師站在黑板前的油畫特寫肖像* 生成的圖片
 

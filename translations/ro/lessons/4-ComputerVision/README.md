@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Viziune Computerizată
 
-![Rezumat al conținutului despre Viziune Computerizată într-un desen](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ro.png)
+![Rezumat al conținutului despre Viziune Computerizată într-un desen](../../../../translated_images/ro/ai-computervision.6506ebebac3fbf76.png)
 
 În această secțiune vom învăța despre:
 

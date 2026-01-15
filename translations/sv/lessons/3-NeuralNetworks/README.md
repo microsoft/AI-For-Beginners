@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till neurala nätverk
 
-![Sammanfattning av innehållet i Introduktion till neurala nätverk i en skiss](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.sv.png)
+![Sammanfattning av innehållet i Introduktion till neurala nätverk i en skiss](../../../../translated_images/sv/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 Som vi diskuterade i introduktionen är ett av sätten att uppnå intelligens att träna en **datormodell** eller en **artificiell hjärna**. Sedan mitten av 1900-talet har forskare testat olika matematiska modeller, och på senare år har denna riktning visat sig vara mycket framgångsrik. Sådana matematiska modeller av hjärnan kallas **neurala nätverk**.
 
@@ -36,13 +36,13 @@ I denna kursplan kommer vi endast att fokusera på modeller för neurala nätver
 
 Från biologin vet vi att vår hjärna består av nervceller (neuroner), var och en med flera "ingångar" (dendriter) och en enda "utgång" (axon). Både dendriter och axoner kan leda elektriska signaler, och kopplingarna mellan dem — kända som synapser — kan uppvisa varierande grad av ledningsförmåga, som regleras av neurotransmittorer.
 
-![Modell av en neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.sv.jpg) | ![Modell av en neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.sv.png)
+![Modell av en neuron](../../../../translated_images/sv/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Modell av en neuron](../../../../translated_images/sv/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 Verklig neuron *([Bild](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) från Wikipedia)* | Artificiell neuron *(Bild av författaren)*
 
 Således innehåller den enklaste matematiska modellen av en neuron flera ingångar X<sub>1</sub>, ..., X<sub>N</sub> och en utgång Y, samt en serie vikter W<sub>1</sub>, ..., W<sub>N</sub>. En utgång beräknas som:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.sv.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/sv/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 där f är någon icke-linjär **aktiveringsfunktion**.
 

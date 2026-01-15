@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giới thiệu về AI
 
-![Tóm tắt nội dung Giới thiệu về AI trong một hình vẽ](../../../../translated_images/ai-intro.bf28d1ac4235881c.vi.png)
+![Tóm tắt nội dung Giới thiệu về AI trong một hình vẽ](../../../../translated_images/vi/ai-intro.bf28d1ac4235881c.png)
 
 > Hình vẽ bởi [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ban đầu, máy tính được phát minh bởi [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) để xử lý các con số theo một quy trình được định nghĩa rõ ràng - một thuật toán. Máy tính hiện đại, mặc dù tiên tiến hơn rất nhiều so với mô hình ban đầu được đề xuất vào thế kỷ 19, vẫn tuân theo ý tưởng về các tính toán có kiểm soát. Do đó, có thể lập trình một máy tính để thực hiện một việc gì đó nếu chúng ta biết chính xác chuỗi các bước cần thực hiện để đạt được mục tiêu.
 
-![Ảnh một người](../../../../translated_images/dsh_age.d212a30d4e54fb5f.vi.png)
+![Ảnh một người](../../../../translated_images/vi/dsh_age.d212a30d4e54fb5f.png)
 
 > Ảnh bởi [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ AI yếu rất chuyên biệt và không sở hữu khả năng nhận thức gi
 
 Một trong những vấn đề khi xử lý thuật ngữ **[Trí thông minh](https://en.wikipedia.org/wiki/Intelligence)** là không có định nghĩa rõ ràng cho thuật ngữ này. Một số người có thể cho rằng trí thông minh liên quan đến **tư duy trừu tượng**, hoặc đến **tự nhận thức**, nhưng chúng ta không thể định nghĩa nó một cách chính xác.
 
-![Ảnh một con mèo](../../../../translated_images/photo-cat.8c8e8fb760ffe457.vi.jpg)
+![Ảnh một con mèo](../../../../translated_images/vi/photo-cat.8c8e8fb760ffe457.jpg)
 
 > [Ảnh](https://unsplash.com/photos/75715CVEJhI) bởi [Amber Kipp](https://unsplash.com/@sadmax) từ Unsplash
 
@@ -98,13 +98,13 @@ Ngược lại, chúng ta có thể cố gắng mô phỏng các yếu tố đơ
 
 > | Còn về ML thì sao?         |      |
 > |--------------|-----------|
-> | Một phần của Trí tuệ Nhân tạo dựa trên việc máy tính học cách giải quyết vấn đề dựa trên một số dữ liệu được gọi là **Học máy**. Chúng ta sẽ không xem xét học máy cổ điển trong khóa học này - chúng tôi giới thiệu bạn đến chương trình học riêng [Học máy cho người mới bắt đầu](http://aka.ms/ml-beginners). |   ![Học máy cho người mới bắt đầu](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.vi.png)    |
+> | Một phần của Trí tuệ Nhân tạo dựa trên việc máy tính học cách giải quyết vấn đề dựa trên một số dữ liệu được gọi là **Học máy**. Chúng ta sẽ không xem xét học máy cổ điển trong khóa học này - chúng tôi giới thiệu bạn đến chương trình học riêng [Học máy cho người mới bắt đầu](http://aka.ms/ml-beginners). |   ![Học máy cho người mới bắt đầu](../../../../translated_images/vi/ml-for-beginners.9e4fed176fd5817d.png)    |
 
 ## Lịch sử ngắn gọn về AI
 
 Trí tuệ Nhân tạo được bắt đầu như một lĩnh vực vào giữa thế kỷ 20. Ban đầu, lý luận biểu tượng là cách tiếp cận phổ biến, và nó đã dẫn đến một số thành công quan trọng, chẳng hạn như các hệ thống chuyên gia – các chương trình máy tính có thể hoạt động như một chuyên gia trong một số lĩnh vực vấn đề hạn chế. Tuy nhiên, sớm nhận ra rằng cách tiếp cận này không mở rộng tốt. Việc trích xuất kiến thức từ một chuyên gia, biểu diễn nó trong máy tính, và giữ cho cơ sở kiến thức đó chính xác hóa ra là một nhiệm vụ rất phức tạp, và quá tốn kém để thực tế trong nhiều trường hợp. Điều này dẫn đến cái gọi là [Mùa đông AI](https://en.wikipedia.org/wiki/AI_winter) vào những năm 1970.
 
-<img alt="Lịch sử ngắn gọn về AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.vi.png" width="70%"/>
+<img alt="Lịch sử ngắn gọn về AI" src="../../../../translated_images/vi/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Tương tự, chúng ta có thể thấy cách tiếp cận đối với việc 
 * Các trợ lý hiện đại, chẳng hạn như Cortana, Siri hoặc Google Assistant đều là các hệ thống lai sử dụng Mạng nơ-ron để chuyển đổi giọng nói thành văn bản và nhận ra ý định của chúng ta, và sau đó sử dụng một số lý luận hoặc thuật toán rõ ràng để thực hiện các hành động cần thiết.
 * Trong tương lai, chúng ta có thể mong đợi một mô hình hoàn toàn dựa trên mạng nơ-ron để xử lý đối thoại một cách độc lập. Các mạng nơ-ron GPT gần đây và [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) cho thấy thành công lớn trong lĩnh vực này.
 
-<img alt="sự tiến hóa của bài kiểm tra Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.vi.png" width="70%"/>
+<img alt="sự tiến hóa của bài kiểm tra Turing" src="../../../../translated_images/vi/turing-test-evol.4184696701293ead.png" width="70%"/>
 > Hình ảnh của Dmitry Soshnikov, [ảnh](https://unsplash.com/photos/r8LmVbUKgns) bởi [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nghiên cứu AI gần đây

@@ -57,7 +57,7 @@ Säugling | O
 
 Da wir eine Eins-zu-Eins-Korrespondenz zwischen Tokens und Klassen herstellen müssen, können wir ein rechtsbasiertes **Many-to-Many**-Neuralnetzwerkmodell aus diesem Bild trainieren:
 
-![Bild zeigt gängige Muster von rekurrenten neuronalen Netzwerken.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.de.jpg)
+![Bild zeigt gängige Muster von rekurrenten neuronalen Netzwerken.](../../../../../translated_images/de/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Bild aus [diesem Blogbeitrag](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) von [Andrej Karpathy](http://karpathy.github.io/). NER-Token-Klassifikationsmodelle entsprechen der rechtsbasierten Netzwerkarchitektur auf diesem Bild.*
 

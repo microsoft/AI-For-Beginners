@@ -19,7 +19,7 @@ In der RNN-Architektur, die wir in der vorherigen Einheit besprochen haben, erze
 
 Dies ermöglicht verschiedene neuronale Architekturen, die im folgenden Bild dargestellt sind:
 
-![Bild zeigt gängige Muster von rekurrenten neuronalen Netzwerken.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.de.jpg)
+![Bild zeigt gängige Muster von rekurrenten neuronalen Netzwerken.](../../../../../translated_images/de/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Bild aus dem Blogpost [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) von [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ In dieser Einheit konzentrieren wir uns auf einfache generative Modelle, die uns
 
 Wir werden dieses RNN trainieren, um Text Schritt für Schritt zu generieren. Bei jedem Schritt nehmen wir eine Zeichenfolge der Länge `nchars` und bitten das Netzwerk, das nächste Ausgabesymbol für jedes Eingabesymbol zu generieren:
 
-![Bild zeigt ein Beispiel für die RNN-Generierung des Wortes 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.de.png)
+![Bild zeigt ein Beispiel für die RNN-Generierung des Wortes 'HELLO'.](../../../../../translated_images/de/rnn-generate.56c54afb52f9781d.webp)
 
 Bei der Textgenerierung (während der Inferenz) beginnen wir mit einem **Prompt**, der durch die RNN-Zellen geleitet wird, um seinen Zwischenzustand zu erzeugen, und dann beginnt die Generierung aus diesem Zustand. Wir generieren ein Zeichen nach dem anderen und übergeben den Zustand und das generierte Zeichen an eine andere RNN-Zelle, um das nächste zu generieren, bis wir genügend Zeichen erzeugt haben.
 

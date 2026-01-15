@@ -58,7 +58,7 @@ Az overfitting rendkívül fontos fogalom a gépi tanulásban, és nagyon fontos
 
 Vegyük például az alábbi problémát, amelyben 5 pontot próbálunk közelíteni (a grafikonokon `x` jelöli a pontokat):
 
-![lineáris](../../../../../translated_images/overfit1.f24b71c6f652e59e.hu.jpg) | ![overfitting](../../../../../translated_images/overfit2.131f5800ae10ca5e.hu.jpg)
+![lineáris](../../../../../translated_images/hu/overfit1.f24b71c6f652e59e.jpg) | ![overfitting](../../../../../translated_images/hu/overfit2.131f5800ae10ca5e.jpg)
 -------------------------|--------------------------
 **Lineáris modell, 2 paraméter** | **Nemlineáris modell, 7 paraméter**
 Tanítási hiba = 5.3 | Tanítási hiba = 0
@@ -79,7 +79,7 @@ Nagyon fontos megtalálni a megfelelő egyensúlyt a modell gazdagsága (paramé
 
 Ahogy a fenti grafikonon látható, az overfittinget nagyon alacsony tanítási hiba és magas validációs hiba jelezheti. Általában a tanítás során mind a tanítási, mind a validációs hibák csökkenni kezdenek, majd egy ponton a validációs hiba megállhat a csökkenésben, és növekedni kezdhet. Ez az overfitting jele, és annak indikátora, hogy valószínűleg abba kell hagynunk a tanítást (vagy legalábbis készítenünk kell egy pillanatképet a modellről).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.hu.png)
+![overfitting](../../../../../translated_images/hu/Overfitting.408ad91cd90b4371.png)
 
 ## Hogyan előzhető meg az overfitting?
 

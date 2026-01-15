@@ -15,7 +15,7 @@ NLP အလုပ်များကို ဖြေရှင်းရန် trans
 
 CLIP ၏ အဓိကအကြောင်းအရာမှာ စာသား prompt များနှင့် ပုံတစ်ပုံကို နှိုင်းယှဉ်ပြီး ပုံသည် prompt နှင့် ဘယ်လောက်တိကျမှုရှိသည်ကို သတ်မှတ်နိုင်ရန်ဖြစ်သည်။
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.my.png)
+![CLIP Architecture](../../../../../translated_images/my/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *ဤ blog post မှ ပုံ [ဒီမှာ](https://openai.com/blog/clip/)*
 
@@ -31,7 +31,7 @@ CLIP မော်ဒယ်/စာကြည့်တိုက်ကို [OpenAI
 
 ဥပမာအားဖြင့် ပုံများကို ကြောင်၊ ခွေး၊ လူတို့အကြား ခွဲခြားရန် လိုအပ်သည်ဟု ယူဆပါစို့။ ဤအခါတွင် မော်ဒယ်ကို ပုံတစ်ပုံနှင့် စာသား prompt များ "*a picture of a cat*", "*a picture of a dog*", "*a picture of a human*" တို့ကို ပေးပါ။ 3 probabilities ရလဒ် vector တွင် အမြင့်ဆုံးတန်ဖိုးရှိသော index ကို ရွေးချယ်ရမည်ဖြစ်သည်။
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.my.png)
+![CLIP for Image Classification](../../../../../translated_images/my/clip-class.3af42ef0b2b19369.png)
 
 > *ဤ blog post မှ ပုံ [ဒီမှာ](https://openai.com/blog/clip/)*
 
@@ -55,13 +55,13 @@ VQGAN အကြောင်းကို [Taming Transformers](https://compvis.gi
 
 VQGAN နှင့် ရိုးရာ GAN အကြား အရေးကြီးသော ကွာခြားချက်တစ်ခုမှာ၊ နောက်ဆုံးပုံကို မည်သည့် input vector မှမဆို ရိုးရာ GAN သည် သင့်တော်သောပုံကို ဖန်တီးနိုင်သော်လည်း၊ VQGAN သည် coherence မရှိသောပုံကို ဖန်တီးနိုင်သည်။ ထို့ကြောင့် ပုံဖန်တီးမှုလုပ်ငန်းစဉ်ကို CLIP ကို အသုံးပြု၍ ထပ်မံလမ်းညွှန်ရန် လိုအပ်သည်။
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.my.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/my/vqgan.5027fe05051dfa31.png)
 
 စာသား prompt နှင့် ကိုက်ညီသော ပုံတစ်ပုံကို ဖန်တီးရန်၊ random encoding vector တစ်ခုဖြင့် စတင်ပြီး၊ ၎င်းကို VQGAN မှတဆင့် ပုံတစ်ပုံထုတ်လုပ်သည်။ ထို့နောက် CLIP ကို loss function တစ်ခုဖန်တီးရန် အသုံးပြုသည်။ ၎င်းသည် ပုံသည် စာသား prompt နှင့် ဘယ်လောက်ကိုက်ညီသည်ကို ပြသသည်။ ထို့နောက် loss ကို အနည်းဆုံးဖြစ်အောင်လုပ်ရန်၊ back propagation ကို အသုံးပြု၍ input vector parameters များကို ပြင်ဆင်သည်။
 
 VQGAN+CLIP ကို အကောင်အထည်ဖော်ထားသော စာကြည့်တိုက်တစ်ခုမှာ [Pixray](http://github.com/pixray/pixray) ဖြစ်သည်။
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.my.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.my.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.my.png)
+![Picture produced by Pixray](../../../../../translated_images/my/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Picture produced by pixray](../../../../../translated_images/my/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Picture produced by Pixray](../../../../../translated_images/my/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Prompt *a closeup watercolor portrait of young male teacher of literature with a book* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of young female teacher of computer science with a computer* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard* မှ ဖန်တီးထားသော ပုံ
 
@@ -77,7 +77,7 @@ CLIP နှင့် မတူကွဲပြားသည်မှာ၊ DALL-E 
 DALL.E 1 နှင့် 2 အကြား အဓိကကွာခြားချက်မှာ၊ ၎င်းသည် ပိုမိုလက်တွေ့ကျသော ပုံများနှင့် အနုပညာကို ဖန်တီးနိုင်ခြင်းဖြစ်သည်။
 
 DALL-E ဖြင့် ဖန်တီးထားသော ပုံများ၏ ဥပမာများ:
-![Picture produced by Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.my.png) |  ![Picture produced by pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.my.png) | ![Picture produced by Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.my.png)
+![Picture produced by Pixray](../../../../../translated_images/my/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Picture produced by pixray](../../../../../translated_images/my/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Picture produced by Pixray](../../../../../translated_images/my/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Prompt *a closeup watercolor portrait of young male teacher of literature with a book* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of young female teacher of computer science with a computer* မှ ဖန်တီးထားသော ပုံ | Prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard* မှ ဖန်တီးထားသော ပုံ
 

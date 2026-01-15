@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Детекција објеката](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.sr.png)
+![Детекција објеката](../../../../../translated_images/sr/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
 
 > Слика са [YOLO v2 веб сајта](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. Покрените класификацију слике на свакој плочици.
 3. Плочице које резултирају довољно високом активацијом могу се сматрати да садрже тражени објекат.
 
-![Наивна детекција објеката](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.sr.png)
+![Наивна детекција објеката](../../../../../translated_images/sr/naive-detection.e7f1ba220ccd08c6.png)
 
 > *Слика из [радне свеске за вежбе](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 класа
 * [COCO](http://cocodataset.org/#home) - Уобичајени објекти у контексту. 80 класа, оквири и маске за сегментацију
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.sr.jpg)
+![COCO](../../../../../translated_images/sr/coco-examples.71bc60380fa6cceb.jpg)
 
 ## Метрике за детекцију објеката
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Док је за класификацију слика лако измерити колико добро алгоритам ради, за детекцију објеката морамо измерити и исправност класе, као и прецизност локације предвиђеног оквира. За ово друго користимо такозвани **Пресек преко уније** (IoU), који мери колико добро се два оквира (или две произвољне области) преклапају.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.sr.png)
+![IoU](../../../../../translated_images/sr/iou_equation.9a4751d40fff4e11.png)
 
 > *Фигура 2 из [овог одличног блог поста о IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) користи [Селективно претраживање](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) за генерисање хијерархијске структуре ROI региона, који се затим прослеђују кроз CNN екстракторе карактеристика и SVM класификаторе за одређивање класе објекта, и линеарну регресију за одређивање координата *оквира*. [Званични рад](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.sr.png)
+![RCNN](../../../../../translated_images/sr/rcnn1.cae407020dfb1d1f.png)
 
 > *Слика из ван де Санде и др. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.sr.png)
+![RCNN-1](../../../../../translated_images/sr/rcnn2.2d9530bb83516484.png)
 
 > *Слике из [овог блога](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 Овај приступ је сличан R-CNN-у, али региони се дефинишу након што су примењени слојеви конволуције.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.sr.png)
+![FRCNN](../../../../../translated_images/sr/f-rcnn.3cda6d9bb4188875.png)
 
 > Слика из [званичног рада](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ $$
 
 Главна идеја овог приступа је коришћење неуронске мреже за предвиђање ROI - такозване *мреже за предлог региона*. [Рад](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.sr.png)
+![FasterRCNN](../../../../../translated_images/sr/faster-rcnn.8d46c099b87ef30a.png)
 
 > Слика из [званичног рада](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. Карактеристике се обрађују помоћу **мапе оцена осетљивих на позицију**. Сваки објекат из $C$ класа се дели на $k\times k$ регије, и тренирамо мрежу да предвиђа делове објеката.
 3. За сваки део из $k\times k$ регија све мреже гласају за класе објеката, и класа објекта са максималним бројем гласова се бира.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.sr.png)
+![r-fcn image](../../../../../translated_images/sr/r-fcn.13eb88158b99a3da.png)
 
 > Слика из [званичног рада](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO је алгоритам за реално време са једним пр
  * Слика се дели на $S\times S$ регије.
  * За сваку регију, **CNN** предвиђа $n$ могућих објеката, координате *оквира* и *поузданост*=*вероватноћа* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.sr.png)
+ ![YOLO](../../../../../translated_images/sr/yolo.a2648ec82ee8bb4e.png)
 
 > Слика из [званичног рада](https://arxiv.org/abs/1506.02640)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಅವಲೋಕನ
 
-![ಡೂಡಲ್‌ನಲ್ಲಿ ಅವಲೋಕನ](../../../translated_images/ai-overview.0857791951d19500.kn.png)
+![ಡೂಡಲ್‌ನಲ್ಲಿ ಅವಲೋಕನ](../../../translated_images/kn/ai-overview.0857791951d19500.png)
 
 > ಸ್ಕೆಚ್‌ನೋಟ್ [ಟೊಮೊಮಿ ಇಮುರು](https://twitter.com/girlie_mac) ಅವರಿಂದ
 

@@ -15,7 +15,7 @@ Dans les sections précédentes, nous avons utilisé des représentations séman
 
 Pour capturer le sens d'une séquence de texte, nous devons utiliser une autre architecture de réseau de neurones, appelée **réseau de neurones récurrent**, ou RNN. Dans un RNN, nous faisons passer notre phrase à travers le réseau un symbole à la fois, et le réseau produit un certain **état**, que nous transmettons ensuite au réseau avec le symbole suivant.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.fr.png)
+![RNN](../../../../../translated_images/fr/rnn.27f5c29c53d727b5.webp)
 
 > Image par l'auteur
 
@@ -61,7 +61,7 @@ Nous avons discuté des réseaux récurrents qui fonctionnent dans une seule dir
 
 Un réseau récurrent, qu'il soit unidirectionnel ou bidirectionnel, capture certains motifs au sein d'une séquence et peut les stocker dans un vecteur d'état ou les transmettre en sortie. Comme pour les réseaux convolutionnels, nous pouvons construire une autre couche récurrente au-dessus de la première pour capturer des motifs de niveau supérieur et construire à partir des motifs de bas niveau extraits par la première couche. Cela nous mène à la notion de **RNN multicouche**, qui consiste en deux ou plusieurs réseaux récurrents, où la sortie de la couche précédente est transmise à la couche suivante comme entrée.
 
-![Image montrant un RNN LSTM multicouche](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.fr.jpg)
+![Image montrant un RNN LSTM multicouche](../../../../../translated_images/fr/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Image tirée de [cet excellent article](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) de Fernando López*
 

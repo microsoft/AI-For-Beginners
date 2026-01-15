@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **注意机制**提供了一种方法，可以对每个输入向量对RNN输出预测的上下文影响进行加权。其实现方式是创建输入RNN的中间状态与输出RNN之间的快捷路径。这样，在生成输出符号y<sub>t</sub>时，我们会考虑所有输入隐藏状态h<sub>i</sub>，并赋予不同的权重系数&alpha;<sub>t,i</sub>。
 
-![显示带有加性注意层的编码器/解码器模型的图像](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.zh.png)
+![显示带有加性注意层的编码器/解码器模型的图像](../../../../../translated_images/zh/encoder-decoder-attention.7a726296894fb567.png)
 
 > [Bahdanau等人，2015](https://arxiv.org/pdf/1409.0473.pdf)中的加性注意机制编码器-解码器模型，图片来源于[这篇博客](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 注意矩阵{&alpha;<sub>i,j</sub>}表示某些输入词在生成输出序列中某个词时的影响程度。下面是一个这样的矩阵示例：
 
-![显示由RNNsearch-50找到的样本对齐的图像，取自Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.zh.png)
+![显示由RNNsearch-50找到的样本对齐的图像，取自Bahdanau - arviz.org](../../../../../translated_images/zh/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > 图片来自[Bahdanau等人，2015](https://arxiv.org/pdf/1409.0473.pdf)（图3）
 
@@ -66,7 +66,7 @@ Transformer的核心思想之一是避免RNN的顺序处理特性，并创建一
 
 接下来，我们需要捕捉序列中的一些模式。为此，Transformer使用了**自注意机制**，即将注意机制同时应用于输入和输出的同一序列。应用自注意机制使我们能够考虑句子中的**上下文**，并查看哪些词是相互关联的。例如，它可以帮助我们识别代词*it*所指代的词，并考虑上下文：
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.zh.png)
+![](../../../../../translated_images/zh/CoreferenceResolution.861924d6d384a7d6.png)
 
 > 图片来源于[谷歌博客](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Transformer的核心思想之一是避免RNN的顺序处理特性，并创建一
 
 **BERT**（Bidirectional Encoder Representations from Transformers，双向编码器表示）是一个非常大的多层Transformer网络，*BERT-base*有12层，*BERT-large*有24层。模型首先在大规模文本数据（维基百科+书籍）上进行无监督训练（预测句子中的被遮蔽词）。在预训练过程中，模型吸收了大量的语言理解能力，这些能力可以通过微调其他数据集来利用。这一过程称为**迁移学习**。
 
-![图片来源于http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.zh.png)
+![图片来源于http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/zh/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > 图片[来源](http://jalammar.github.io/illustrated-bert/)
 

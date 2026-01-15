@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Akili Bandia kwa Komesheni - Mtaala
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.sw.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sw/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI Kwa Komesheni - _Sketchnote na [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

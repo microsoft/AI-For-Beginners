@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # अवलोकन
 
-![डुडलमा अवलोकन](../../../translated_images/ai-overview.0857791951d19500.ne.png)
+![डुडलमा अवलोकन](../../../translated_images/ne/ai-overview.0857791951d19500.png)
 
 > स्केच नोट [Tomomi Imura](https://twitter.com/girlie_mac) द्वारा
 

@@ -19,7 +19,7 @@ Dakle, sloj za ugrađivanje uzima riječ kao ulaz i proizvodi izlazni vektor odr
 
 Koristeći sloj za ugrađivanje kao prvi sloj u našoj mreži klasifikatora, možemo se prebaciti s modela vreće riječi na model **vreće ugrađivanja**, gdje prvo svaku riječ u našem tekstu pretvaramo u odgovarajuće ugrađivanje, a zatim izračunavamo neku agregatnu funkciju preko svih tih ugrađivanja, poput `sum`, `average` ili `max`.  
 
-![Slika koja prikazuje klasifikator ugrađivanja za pet riječi u nizu.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.hr.png)
+![Slika koja prikazuje klasifikator ugrađivanja za pet riječi u nizu.](../../../../../translated_images/hr/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > Slika autora
 
@@ -40,7 +40,7 @@ Da bismo to postigli, trebamo unaprijed trenirati naš model za ugrađivanje na 
 
 CBoW je brži, dok je skip-gram sporiji, ali bolje predstavlja rijetke riječi.
 
-![Slika koja prikazuje algoritme CBoW i Skip-Gram za pretvaranje riječi u vektore.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.hr.png)
+![Slika koja prikazuje algoritme CBoW i Skip-Gram za pretvaranje riječi u vektore.](../../../../../translated_images/hr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Slika iz [ovog rada](https://arxiv.org/pdf/1301.3781.pdf)
 

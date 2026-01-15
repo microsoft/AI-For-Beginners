@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Videnrepræsentation og Ekspertsystemer
 
-![Oversigt over Symbolsk AI-indhold](../../../../translated_images/ai-symbolic.715a30cb610411a6.da.png)
+![Oversigt over Symbolsk AI-indhold](../../../../translated_images/da/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote af [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Ofte definerer vi ikke viden strengt, men vi relaterer det til andre begreber ve
 
 Problemet med **videnrepræsentation** er derfor at finde en effektiv måde at repræsentere viden i en computer i form af data, så den kan bruges automatisk. Dette kan ses som et spektrum:
 
-![Spektrum for videnrepræsentation](../../../../translated_images/knowledge-spectrum.b60df631852c0217.da.png)
+![Spektrum for videnrepræsentation](../../../../translated_images/da/knowledge-spectrum.b60df631852c0217.png)
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blok-syntaks | Indrykning | | |
 
 En af de tidlige succeser inden for symbolsk AI var de såkaldte **ekspertsystemer** - computersystemer designet til at fungere som en ekspert inden for et begrænset problemområde. De var baseret på en **vidensbase** udtrukket fra en eller flere menneskelige eksperter og indeholdt en **slutningsmotor**, der udførte ræsonnement ovenpå den.
 
-![Menneskelig Arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.da.png) | ![Videnbaseret System](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.da.png)
+![Menneskelig Arkitektur](../../../../translated_images/da/arch-human.5d4d35f1bba3ab1c.png) | ![Videnbaseret System](../../../../translated_images/da/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 Forenklet struktur af et menneskeligt neuralt system | Arkitektur af et videnbaseret system
 
@@ -106,7 +106,7 @@ Ekspertsystemer er bygget som det menneskelige ræsonnementsystem, der indeholde
 
 Som et eksempel kan vi overveje følgende ekspertsystem til at bestemme et dyr baseret på dets fysiske egenskaber:
 
-![AND-OR Træ](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.da.png)
+![AND-OR Træ](../../../../translated_images/da/AND-OR-Tree.5592d2c70187f283.png)
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 

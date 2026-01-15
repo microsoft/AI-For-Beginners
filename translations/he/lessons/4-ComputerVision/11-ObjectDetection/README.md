@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [שאלון לפני השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![זיהוי אובייקטים](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.he.png)
+![זיהוי אובייקטים](../../../../../translated_images/he/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
 
 > תמונה מתוך [אתר YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. להריץ סיווג תמונה על כל אריח.
 3. אריחים שמפיקים הפעלה גבוהה מספיק יכולים להיחשב ככאלה שמכילים את האובייקט המדובר.
 
-![זיהוי נאיבי של אובייקטים](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.he.png)
+![זיהוי נאיבי של אובייקטים](../../../../../translated_images/he/naive-detection.e7f1ba220ccd08c6.png)
 
 > *תמונה מתוך [מחברת התרגילים](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 קטגוריות
 * [COCO](http://cocodataset.org/#home) - אובייקטים נפוצים בהקשר. 80 קטגוריות, תיבות גבול ומסכות סגמנטציה
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.he.jpg)
+![COCO](../../../../../translated_images/he/coco-examples.71bc60380fa6cceb.jpg)
 
 ## מדדים לזיהוי אובייקטים
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בעוד שבסיווג תמונות קל למדוד עד כמה האלגוריתם מצליח, בזיהוי אובייקטים עלינו למדוד גם את נכונות הקטגוריה וגם את דיוק מיקום תיבת הגבול שחוזה האלגוריתם. עבור האחרון, אנו משתמשים במדד שנקרא **חיתוך על איחוד** (IoU), שמודד עד כמה שתי תיבות (או שני אזורים שרירותיים) חופפים.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.he.png)
+![IoU](../../../../../translated_images/he/iou_equation.9a4751d40fff4e11.png)
 
 > *איור 2 מתוך [פוסט בלוג מצוין על IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) משתמשת ב-[חיפוש סלקטיבי](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) כדי ליצור מבנה היררכי של אזורי ROI, אשר מועברים לאחר מכן דרך מחלצי תכונות של CNN ומסווגי SVM כדי לקבוע את קטגוריית האובייקט, ורגרסיה ליניארית כדי לקבוע את קואורדינטות *תיבת הגבול*. [מאמר רשמי](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.he.png)
+![RCNN](../../../../../translated_images/he/rcnn1.cae407020dfb1d1f.png)
 
 > *תמונה מתוך van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.he.png)
+![RCNN-1](../../../../../translated_images/he/rcnn2.2d9530bb83516484.png)
 
 > *תמונות מתוך [הבלוג הזה](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 גישה זו דומה ל-R-CNN, אך האזורים מוגדרים לאחר יישום שכבות הקונבולוציה.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.he.png)
+![FRCNN](../../../../../translated_images/he/f-rcnn.3cda6d9bb4188875.png)
 
 > תמונה מתוך [המאמר הרשמי](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ $$
 
 הרעיון המרכזי בגישה זו הוא להשתמש ברשת עצבית כדי לנבא ROI - מה שנקרא *רשת הצעת אזורים*. [מאמר](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.he.png)
+![FasterRCNN](../../../../../translated_images/he/faster-rcnn.8d46c099b87ef30a.png)
 
 > תמונה מתוך [המאמר הרשמי](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. התכונות מעובדות על ידי **מפת ניקוד רגישה למיקום**. כל אובייקט מתוך $C$ קטגוריות מחולק ל-$k\times k$ אזורים, ואנו מאמנים לחזות חלקים של אובייקטים.
 3. עבור כל חלק מתוך $k\times k$ אזורים כל הרשתות מצביעות על קטגוריות אובייקטים, וקטגוריית האובייקט עם ההצבעה המקסימלית נבחרת.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.he.png)
+![r-fcn image](../../../../../translated_images/he/r-fcn.13eb88158b99a3da.png)
 
 > תמונה מתוך [המאמר הרשמי](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO הוא אלגוריתם בזמן אמת במעבר אחד. הרעיון ה�
  * התמונה מחולקת ל-$S\times S$ אזורים.
  * עבור כל אזור, **CNN** מנבא $n$ אובייקטים אפשריים, *קואורדינטות תיבת הגבול* ו-*ביטחון*=*הסתברות* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.he.png)
+ ![YOLO](../../../../../translated_images/he/yolo.a2648ec82ee8bb4e.png)
 
 > תמונה מתוך [המאמר הרשמי](https://arxiv.org/abs/1506.02640)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Utangulizi wa AI
 
-![Muhtasari wa maudhui ya Utangulizi wa AI katika mchoro](../../../../translated_images/ai-intro.bf28d1ac4235881c.sw.png)
+![Muhtasari wa maudhui ya Utangulizi wa AI katika mchoro](../../../../translated_images/sw/ai-intro.bf28d1ac4235881c.png)
 
 > Mchoro na [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Awali, kompyuta ziligunduliwa na [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) ili kufanya kazi na namba kwa kufuata utaratibu ulioelezwa vizuri - algorithimu. Kompyuta za kisasa, ingawa zimeendelea sana kuliko mfano wa awali uliopendekezwa katika karne ya 19, bado zinafuata wazo lile lile la hesabu zinazoongozwa. Kwa hivyo inawezekana kuipanga kompyuta kufanya jambo fulani ikiwa tunajua mlolongo halisi wa hatua tunazohitaji kuchukua ili kufanikisha lengo.
 
-![Picha ya mtu](../../../../translated_images/dsh_age.d212a30d4e54fb5f.sw.png)
+![Picha ya mtu](../../../../translated_images/sw/dsh_age.d212a30d4e54fb5f.png)
 
 > Picha na [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -45,7 +45,7 @@ Kwa maelezo zaidi rejelea **[Akili Bandia ya Kijumla](https://en.wikipedia.org/w
 
 Moja ya matatizo tunaposhughulikia neno **[Akili](https://en.wikipedia.org/wiki/Intelligence)** ni kwamba hakuna ufafanuzi wazi wa neno hili. Mtu anaweza kusema akili inahusiana na **fikra za dhahania**, au na **kujifahamu**, lakini hatuwezi kuifafanua ipasavyo.
 
-![Picha ya Paka](../../../../translated_images/photo-cat.8c8e8fb760ffe457.sw.jpg)
+![Picha ya Paka](../../../../translated_images/sw/photo-cat.8c8e8fb760ffe457.jpg)
 
 > [Picha](https://unsplash.com/photos/75715CVEJhI) na [Amber Kipp](https://unsplash.com/@sadmax) kutoka Unsplash
 
@@ -97,13 +97,13 @@ Vinginevyo, tunaweza kujaribu kuiga vipengele rahisi zaidi ndani ya ubongo wetu 
 
 > | Je, kuhusu ML?         |      |
 > |--------------|-----------|
-> | Sehemu ya Akili Bandia inayotegemea kompyuta kujifunza kutatua tatizo kwa msingi wa data fulani inaitwa **Machine Learning**. Hatutazingatia ujifunzaji wa mashine wa kawaida katika kozi hii - tunakuelekeza kwenye mtaala tofauti wa [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.sw.png)    |
+> | Sehemu ya Akili Bandia inayotegemea kompyuta kujifunza kutatua tatizo kwa msingi wa data fulani inaitwa **Machine Learning**. Hatutazingatia ujifunzaji wa mashine wa kawaida katika kozi hii - tunakuelekeza kwenye mtaala tofauti wa [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML for Beginners](../../../../translated_images/sw/ml-for-beginners.9e4fed176fd5817d.png)    |
 
 ## Historia Fupi ya AI
 
 Akili Bandia ilianza kama uwanja katikati ya karne ya ishirini. Awali, ufikiri wa kimaumbo ulikuwa njia maarufu, na ulisababisha mafanikio kadhaa muhimu, kama vile mifumo ya wataalamu – programu za kompyuta ambazo ziliweza kutenda kama mtaalamu katika baadhi ya maeneo ya tatizo yaliyopunguzwa. Hata hivyo, hivi karibuni ilibainika kuwa njia hiyo haipimi vizuri. Kutoa maarifa kutoka kwa mtaalamu, kuyaweka katika kompyuta, na kuweka msingi wa maarifa sahihi inageuka kuwa kazi ngumu sana, na ghali sana kuwa ya vitendo katika hali nyingi. Hii ilisababisha kile kinachoitwa [Majira ya Baridi ya AI](https://en.wikipedia.org/wiki/AI_winter) katika miaka ya 1970.
 
-<img alt="Historia Fupi ya AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.sw.png" width="70%"/>
+<img alt="Historia Fupi ya AI" src="../../../../translated_images/sw/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -123,7 +123,7 @@ Vivyo hivyo, tunaweza kuona jinsi mbinu za kuunda “programu zinazozungumza” 
 * Wasaidizi wa kisasa, kama Cortana, Siri au Google Assistant ni mifumo mseto inayotumia Mitandao ya Neva kubadilisha hotuba kuwa maandishi na kutambua nia yetu, na kisha kutumia baadhi ya ufikiri au algorithimu wazi kutekeleza vitendo vinavyohitajika.
 * Katika siku zijazo, tunaweza kutarajia mfano kamili unaotegemea neva kushughulikia mazungumzo yenyewe. Familia ya hivi karibuni ya mitandao ya neva ya GPT na [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) inaonyesha mafanikio makubwa katika hili.
 
-<img alt="mabadiliko ya mtihani wa Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.sw.png" width="70%"/>
+<img alt="mabadiliko ya mtihani wa Turing" src="../../../../translated_images/sw/turing-test-evol.4184696701293ead.png" width="70%"/>
 > Picha na Dmitry Soshnikov, [picha](https://unsplash.com/photos/r8LmVbUKgns) na [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Utafiti wa Hivi Karibuni wa AI

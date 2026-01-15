@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Učenie pre začiatočníkov v oblasti umelej inteligencie - Kurz
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.sk.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sk/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI pre začiatočníkov - _Sketchnote od [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

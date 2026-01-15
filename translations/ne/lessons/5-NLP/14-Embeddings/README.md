@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हाम्रो वर्गीकरणकर्ता नेटवर्कमा पहिलो लेयरको रूपमा एम्बेडिङ लेयर प्रयोग गरेर, हामी बाग-ऑफ-वर्ड्सबाट **embedding bag** मोडेलमा स्विच गर्न सक्छौं, जहाँ हामी हाम्रो पाठमा प्रत्येक शब्दलाई सम्बन्धित एम्बेडिङमा रूपान्तरण गर्छौं, र त्यसपछि ती सबै एम्बेडिङ्समा केही समग्र कार्य जस्तै `sum`, `average` वा `max` गणना गर्छौं।  
 
-![पाँच अनुक्रम शब्दहरूको लागि एम्बेडिङ वर्गीकरणकर्ताको छवि।](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.ne.png)
+![पाँच अनुक्रम शब्दहरूको लागि एम्बेडिङ वर्गीकरणकर्ताको छवि।](../../../../../translated_images/ne/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > लेखकद्वारा प्रदान गरिएको छवि
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW छिटो छ, जबकि स्किप-ग्राम ढिलो छ, तर दुर्लभ शब्दहरूको प्रतिनिधित्व गर्न राम्रो काम गर्छ।
 
-![शब्दहरूलाई भेक्टरमा रूपान्तरण गर्न CBoW र स्किप-ग्राम एल्गोरिदमहरूको छवि।](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ne.png)
+![शब्दहरूलाई भेक्टरमा रूपान्तरण गर्न CBoW र स्किप-ग्राम एल्गोरिदमहरूको छवि।](../../../../../translated_images/ne/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > [यस पेपर](https://arxiv.org/pdf/1301.3781.pdf) बाट लिइएको छवि
 

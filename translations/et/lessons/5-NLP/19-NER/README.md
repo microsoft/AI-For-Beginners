@@ -17,7 +17,7 @@ Siiani oleme peamiselt keskendunud ühele NLP ülesandele - klassifikatsioonile.
 
 Oletame, et soovite arendada loomuliku keele vestlusrobotit, sarnast Amazon Alexa või Google Assistantiga. Nutikad vestlusrobotid töötavad nii, et nad *mõistavad*, mida kasutaja tahab, tehes sisendlausele tekstiklassifikatsiooni. Selle klassifikatsiooni tulemus on nn **intent**, mis määrab, mida vestlusrobot peaks tegema.
 
-<img alt="Bot NER" src="../../../../../translated_images/bot-ner.4b09235dbb0ad275.et.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/et/bot-ner.4b09235dbb0ad275.png" width="50%"/>
 
 > Pilt autorilt
 
@@ -54,7 +54,7 @@ vastsündinul | O
 
 Kuna peame looma üks-ühele vastavuse tokenite ja klasside vahel, saame treenida parempoolse **mitme-mitme** närvivõrgu mudeli sellest pildist:
 
-![Pilt, mis näitab levinud korduvate närvivõrkude mustreid.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.et.jpg)
+![Pilt, mis näitab levinud korduvate närvivõrkude mustreid.](../../../../../translated_images/et/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > *Pilt [sellest blogipostitusest](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autorilt [Andrej Karpathy](http://karpathy.github.io/). NER tokenite klassifikatsioonimudelid vastavad parempoolsele võrgustiku arhitektuurile sellel pildil.*
 

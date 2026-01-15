@@ -15,7 +15,7 @@ Dalam bahagian sebelum ini, kita telah menggunakan representasi semantik teks ya
 
 Untuk menangkap makna urutan teks, kita perlu menggunakan seni bina rangkaian neural lain, yang dipanggil **rangkaian neural berulang**, atau RNN. Dalam RNN, kita lalui ayat kita melalui rangkaian satu simbol pada satu masa, dan rangkaian menghasilkan beberapa **keadaan**, yang kemudian kita lalui semula ke rangkaian bersama simbol seterusnya.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.ms.png)
+![RNN](../../../../../translated_images/ms/rnn.27f5c29c53d727b5.png)
 
 > Gambar oleh penulis
 
@@ -61,7 +61,7 @@ Kita telah membincangkan rangkaian berulang yang beroperasi dalam satu arah, dar
 
 Rangkaian berulang, sama ada satu arah atau dua arah, menangkap corak tertentu dalam urutan, dan boleh menyimpannya ke dalam vektor keadaan atau menghantarnya ke output. Seperti rangkaian konvolusi, kita boleh membina lapisan berulang lain di atas yang pertama untuk menangkap corak tahap lebih tinggi dan membina daripada corak tahap rendah yang diekstrak oleh lapisan pertama. Ini membawa kita kepada konsep **RNN berlapis** yang terdiri daripada dua atau lebih rangkaian berulang, di mana output lapisan sebelumnya dihantar ke lapisan seterusnya sebagai input.
 
-![Gambar menunjukkan RNN LSTM berlapis pelbagai](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.ms.jpg)
+![Gambar menunjukkan RNN LSTM berlapis pelbagai](../../../../../translated_images/ms/multi-layer-lstm.dd975e29bb2a59fe.jpg)
 
 *Gambar daripada [post yang hebat ini](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) oleh Fernando López*
 

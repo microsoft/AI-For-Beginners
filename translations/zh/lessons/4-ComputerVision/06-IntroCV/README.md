@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **对盲文书籍的照片进行预处理**。我们重点介绍如何使用阈值处理、特征检测、透视变换和NumPy操作来分离单个盲文符号，以便神经网络进一步分类。
 
-![盲文图像](../../../../../translated_images/braille.341962ff76b1bd70.zh.jpeg) | ![盲文图像预处理结果](../../../../../translated_images/braille-result.46530fea020b03c7.zh.png) | ![盲文符号](../../../../../translated_images/braille-symbols.0159185ab69d5339.zh.png)
+![盲文图像](../../../../../translated_images/zh/braille.341962ff76b1bd70.jpeg) | ![盲文图像预处理结果](../../../../../translated_images/zh/braille-result.46530fea020b03c7.png) | ![盲文符号](../../../../../translated_images/zh/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > 图片来源：[OpenCV.ipynb](OpenCV.ipynb)
 
 * **使用帧差检测视频中的运动**。如果摄像机是固定的，那么摄像机画面中的帧应该彼此非常相似。由于帧被表示为数组，只需对两个连续帧的数组进行减法运算，就可以得到像素差异，对于静态帧来说差异应该很小，而当图像中有显著运动时差异会变大。
 
-![视频帧和帧差异图像](../../../../../translated_images/frame-difference.706f805491a0883c.zh.png)
+![视频帧和帧差异图像](../../../../../translated_images/zh/frame-difference.706f805491a0883c.png)
 
 > 图片来源：[OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **密集光流**计算每个像素的运动向量场。
    - **稀疏光流**基于图像中的一些显著特征（例如边缘），并从帧到帧构建它们的轨迹。
 
-![光流图像](../../../../../translated_images/optical.1f4a94464579a83a.zh.png)
+![光流图像](../../../../../translated_images/zh/optical.1f4a94464579a83a.png)
 
 > 图片来源：[OpenCV.ipynb](OpenCV.ipynb)
 

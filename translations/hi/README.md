@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # शुरुआती लोगों के लिए आर्टिफिशियल इंटेलिजेंस - एक पाठ्यक्रम
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.hi.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/hi/ai-overview.0857791951d19500.png)|
 |:---:|
 | शुरुआत करने वालों के लिए AI - _स्केचनोट [@girlie_mac](https://twitter.com/girlie_mac) द्वारा_ |
 

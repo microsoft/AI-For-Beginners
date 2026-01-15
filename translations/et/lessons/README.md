@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ülevaade
 
-![Ülevaade visandina](../../../translated_images/ai-overview.0857791951d19500.et.png)
+![Ülevaade visandina](../../../translated_images/et/ai-overview.0857791951d19500.png)
 
 > Visandmärkmed autorilt [Tomomi Imura](https://twitter.com/girlie_mac)
 

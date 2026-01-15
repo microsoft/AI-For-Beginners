@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Artificiell intelligens för nybörjare - Ett läroprogram
 
-|![Sketchnote av @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.sv.png)|
+|![Sketchnote av @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sv/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI För Nybörjare - _Sketchnote av [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

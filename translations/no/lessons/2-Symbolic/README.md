@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kunnskapsrepresentasjon og ekspertsystemer
 
-![Oppsummering av Symbolic AI-innhold](../../../../translated_images/ai-symbolic.715a30cb610411a6.no.png)
+![Oppsummering av Symbolic AI-innhold](../../../../translated_images/no/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote av [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Ofte definerer vi ikke kunnskap strengt, men vi knytter det til andre relaterte 
 
 Dermed er problemet med **kunnskapsrepresentasjon** å finne en effektiv måte å representere kunnskap inne i en datamaskin i form av data, slik at den kan brukes automatisk. Dette kan sees som et spektrum:
 
-![Spektrum for kunnskapsrepresentasjon](../../../../translated_images/knowledge-spectrum.b60df631852c0217.no.png)
+![Spektrum for kunnskapsrepresentasjon](../../../../translated_images/no/knowledge-spectrum.b60df631852c0217.png)
 
 > Bilde av [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blokk-syntaks | Innrykk | | |
 
 En av de tidlige suksessene til symbolsk AI var de såkalte **ekspertsystemene** - datasystemer som var designet for å fungere som en ekspert innenfor et begrenset problemområde. De var basert på en **kunnskapsbase** hentet fra en eller flere menneskelige eksperter, og de inneholdt en **slutningsmotor** som utførte resonnering basert på denne kunnskapen.
 
-![Menneskelig arkitektur](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.no.png) | ![Kunnskapsbasert system](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.no.png)
+![Menneskelig arkitektur](../../../../translated_images/no/arch-human.5d4d35f1bba3ab1c.png) | ![Kunnskapsbasert system](../../../../translated_images/no/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 Forenklet struktur av et menneskelig nervesystem | Arkitektur av et kunnskapsbasert system
 
@@ -106,7 +106,7 @@ Ekspertsystemer er bygget som det menneskelige resonnanssystemet, som inneholder
 
 Som et eksempel, la oss se på følgende ekspertsystem for å bestemme et dyr basert på dets fysiske egenskaper:
 
-![AND-OR-tre](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.no.png)
+![AND-OR-tre](../../../../translated_images/no/AND-OR-Tree.5592d2c70187f283.png)
 
 > Bilde av [Dmitry Soshnikov](http://soshnikov.com)
 

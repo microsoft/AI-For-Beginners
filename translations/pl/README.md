@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Artificial Intelligence for Beginners - Program nauczania
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.pl.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/pl/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _Sketchnotka autorstwa [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 je sieť, ktorá dosiahla 92,7% presnosť v klasifikácii ImageNet top-5 v roku 2014. Má nasledujúcu štruktúru vrstiev:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.sk.jpg)
+![ImageNet Layers](../../../../../translated_images/sk/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 Ako môžete vidieť, VGG nasleduje tradičnú pyramídovú architektúru, ktorá je sekvenciou vrstiev konvolúcie a pooling.
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.sk.jpg)
+![ImageNet Pyramid](../../../../../translated_images/sk/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Obrázok z [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

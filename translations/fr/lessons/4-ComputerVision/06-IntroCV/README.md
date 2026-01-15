@@ -73,14 +73,14 @@ Dans notre [OpenCV Notebook](OpenCV.ipynb), nous donnons quelques exemples où l
 
 * **Prétraitement d'une photographie d'un livre en braille**. Nous nous concentrons sur la manière dont nous pouvons utiliser le seuil, la détection de caractéristiques, la transformation de perspective et les manipulations NumPy pour séparer les symboles individuels en braille pour une classification ultérieure par un réseau neuronal.
 
-![Image Braille](../../../../../translated_images/braille.341962ff76b1bd70.fr.jpeg) | ![Image Braille prétraitée](../../../../../translated_images/braille-result.46530fea020b03c7.fr.png) | ![Symboles Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.fr.png)
+![Image Braille](../../../../../translated_images/fr/braille.341962ff76b1bd70.webp) | ![Image Braille prétraitée](../../../../../translated_images/fr/braille-result.46530fea020b03c7.webp) | ![Symboles Braille](../../../../../translated_images/fr/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Image tirée de [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Détection de mouvement dans une vidéo à l'aide de la différence entre les images**. Si la caméra est fixe, les images du flux de la caméra devraient être assez similaires les unes aux autres. Étant donné que les images sont représentées sous forme de tableaux, en soustrayant simplement ces tableaux pour deux images consécutives, nous obtiendrons la différence de pixels, qui devrait être faible pour des images statiques, et devenir plus élevée lorsqu'il y a un mouvement substantiel dans l'image.
 
-![Image des images vidéo et des différences entre les images](../../../../../translated_images/frame-difference.706f805491a0883c.fr.png)
+![Image des images vidéo et des différences entre les images](../../../../../translated_images/fr/frame-difference.706f805491a0883c.webp)
 
 > Image tirée de [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Dans notre [OpenCV Notebook](OpenCV.ipynb), nous donnons quelques exemples où l
    - **Flux optique dense** calcule le champ vectoriel qui montre pour chaque pixel où il se déplace.
    - **Flux optique clairsemé** est basé sur la prise de certaines caractéristiques distinctives dans l'image (par exemple, les contours) et la construction de leur trajectoire d'une image à l'autre.
 
-![Image du flux optique](../../../../../translated_images/optical.1f4a94464579a83a.fr.png)
+![Image du flux optique](../../../../../translated_images/fr/optical.1f4a94464579a83a.webp)
 
 > Image tirée de [OpenCV.ipynb](OpenCV.ipynb)
 

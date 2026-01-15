@@ -58,7 +58,7 @@ infant | O
 
 מכיוון שעלינו לבנות התאמה של אחד-לאחד בין טוקנים לקטגוריות, נוכל לאמן מודל רשת עצבית **רב-לרב** מהתמונה הבאה:
 
-![תמונה המציגה דפוסים נפוצים של רשתות עצביות חוזרות.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.he.jpg)
+![תמונה המציגה דפוסים נפוצים של רשתות עצביות חוזרות.](../../../../../translated_images/he/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > *תמונה מתוך [פוסט הבלוג הזה](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) מאת [אנדריי קרפת'י](http://karpathy.github.io/). מודלים של סיווג טוקנים ב-NER תואמים לארכיטקטורת הרשת הימנית ביותר בתמונה זו.*
 

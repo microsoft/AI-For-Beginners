@@ -73,14 +73,14 @@ Dalam [OpenCV Notebook](OpenCV.ipynb), kami memberikan beberapa contoh kapan com
 
 * **Pra-pemrosesan foto buku Braille**. Kami fokus pada bagaimana kami dapat menggunakan thresholding, deteksi fitur, transformasi perspektif, dan manipulasi NumPy untuk memisahkan simbol Braille individu untuk klasifikasi lebih lanjut oleh jaringan saraf.
 
-![Gambar Braille](../../../../../translated_images/braille.341962ff76b1bd70.id.jpeg) | ![Gambar Braille yang Diproses](../../../../../translated_images/braille-result.46530fea020b03c7.id.png) | ![Simbol Braille](../../../../../translated_images/braille-symbols.0159185ab69d5339.id.png)
+![Gambar Braille](../../../../../translated_images/id/braille.341962ff76b1bd70.jpeg) | ![Gambar Braille yang Diproses](../../../../../translated_images/id/braille-result.46530fea020b03c7.png) | ![Simbol Braille](../../../../../translated_images/id/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Gambar dari [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Mendeteksi gerakan dalam video menggunakan perbedaan frame**. Jika kamera tetap, maka frame dari umpan kamera seharusnya cukup mirip satu sama lain. Karena frame direpresentasikan sebagai array, hanya dengan mengurangi array untuk dua frame berturut-turut kita akan mendapatkan perbedaan piksel, yang seharusnya rendah untuk frame statis, dan menjadi lebih tinggi ketika ada gerakan yang signifikan dalam gambar.
 
-![Gambar frame video dan perbedaan frame](../../../../../translated_images/frame-difference.706f805491a0883c.id.png)
+![Gambar frame video dan perbedaan frame](../../../../../translated_images/id/frame-difference.706f805491a0883c.png)
 
 > Gambar dari [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Dalam [OpenCV Notebook](OpenCV.ipynb), kami memberikan beberapa contoh kapan com
    - **Dense Optical Flow** menghitung medan vektor yang menunjukkan untuk setiap piksel ke mana ia bergerak.
    - **Sparse Optical Flow** didasarkan pada mengambil beberapa fitur khas dalam gambar (misalnya, tepi), dan membangun trajektorinya dari frame ke frame.
 
-![Gambar Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.id.png)
+![Gambar Optical Flow](../../../../../translated_images/id/optical.1f4a94464579a83a.png)
 
 > Gambar dari [OpenCV.ipynb](OpenCV.ipynb)
 

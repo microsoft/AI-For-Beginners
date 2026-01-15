@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 为了提取模式，我们将使用**卷积滤波器**的概念。正如你所知，图像可以用二维矩阵或带有颜色深度的三维张量来表示。应用滤波器意味着我们使用一个相对较小的**滤波核**矩阵，并对原始图像中的每个像素与其邻近点进行加权平均计算。我们可以将其视为一个小窗口在整个图像上滑动，并根据滤波核矩阵中的权重对所有像素进行平均。
 
-![垂直边缘滤波器](../../../../../translated_images/filter-vert.b7148390ca0bc356.zh.png) | ![水平边缘滤波器](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.zh.png)
+![垂直边缘滤波器](../../../../../translated_images/zh/filter-vert.b7148390ca0bc356.png) | ![水平边缘滤波器](../../../../../translated_images/zh/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > 图片来源：Dmitry Soshnikov
@@ -38,7 +38,7 @@ CNN 的工作方式基于以下重要思想：
 * 我们可以设计网络，使滤波器能够自动训练
 * 我们可以使用相同的方法来发现高级特征中的模式，而不仅仅是原始图像中的模式。因此，CNN 的特征提取在特征的层次结构中工作，从低级像素组合开始，到更高级的图像部分组合。
 
-![层次特征提取](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.zh.png)
+![层次特征提取](../../../../../translated_images/zh/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > 图片来源：[Hislop-Lynch 的论文](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d)，基于[他们的研究](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CNN 的工作方式基于以下重要思想：
 
 例如，让我们看看 VGG-16 的架构，这是一种在 2014 年 ImageNet 的 top-5 分类中实现了 92.7% 准确率的网络：
 
-![ImageNet 层次结构](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.zh.jpg)
+![ImageNet 层次结构](../../../../../translated_images/zh/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![ImageNet 金字塔](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.zh.jpg)
+![ImageNet 金字塔](../../../../../translated_images/zh/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > 图片来源：[Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

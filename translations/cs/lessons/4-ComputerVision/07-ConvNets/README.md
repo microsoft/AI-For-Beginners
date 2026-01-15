@@ -17,7 +17,7 @@ V reálném životě chceme být schopni rozpoznat objekty na obrázku bez ohled
 
 K extrakci vzorů použijeme koncept **konvolučních filtrů**. Jak víte, obrázek je reprezentován jako 2D-matice nebo 3D-tensor s barevnou hloubkou. Aplikace filtru znamená, že vezmeme relativně malou matici **filtračního jádra** a pro každý pixel v původním obrázku vypočítáme vážený průměr s okolními body. Můžeme si to představit jako malé okno, které se posouvá po celém obrázku a průměruje všechny pixely podle vah v matici filtračního jádra.
 
-![Vertikální filtr hran](../../../../../translated_images/filter-vert.b7148390ca0bc356.cs.png) | ![Horizontální filtr hran](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.cs.png)
+![Vertikální filtr hran](../../../../../translated_images/cs/filter-vert.b7148390ca0bc356.png) | ![Horizontální filtr hran](../../../../../translated_images/cs/filter-horiz.59b80ed4feb946ef.png)
 ----|----
 
 > Obrázek od Dmitry Soshnikov
@@ -38,7 +38,7 @@ Fungování CNN je založeno na následujících důležitých principech:
 * Síť můžeme navrhnout tak, aby se filtry učily automaticky
 * Stejný přístup můžeme použít k hledání vzorů ve vysokoúrovňových rysech, nejen v původním obrázku. Extrakce rysů pomocí CNN tedy funguje na hierarchii rysů, počínaje nízkoúrovňovými kombinacemi pixelů až po vysokoúrovňové kombinace částí obrázku.
 
-![Hierarchická extrakce rysů](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.cs.png)
+![Hierarchická extrakce rysů](../../../../../translated_images/cs/FeatureExtractionCNN.d9b456cbdae7cb64.png)
 
 > Obrázek z [práce Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), založené na [jejich výzkumu](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Většina CNN používaných pro zpracování obrázků následuje tzv. pyramido
 
 Jako příklad se podívejme na architekturu VGG-16, sítě, která dosáhla 92,7% přesnosti v top-5 klasifikaci ImageNetu v roce 2014:
 
-![Vrstvy ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.cs.jpg)
+![Vrstvy ImageNet](../../../../../translated_images/cs/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
-![Pyramida ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.cs.jpg)
+![Pyramida ImageNet](../../../../../translated_images/cs/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Obrázek z [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

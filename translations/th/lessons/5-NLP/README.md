@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การประมวลผลภาษาธรรมชาติ
 
-![ภาพสรุปงาน NLP ในรูปวาด](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.th.png)
+![ภาพสรุปงาน NLP ในรูปวาด](../../../../translated_images/th/ai-nlp.b22dcb8ca4707cea.png)
 
 ในส่วนนี้ เราจะมุ่งเน้นการใช้เครือข่ายประสาทเทียม (Neural Networks) เพื่อจัดการกับงานที่เกี่ยวข้องกับ **การประมวลผลภาษาธรรมชาติ (Natural Language Processing - NLP)** มีปัญหาหลายประเภทใน NLP ที่เราต้องการให้คอมพิวเตอร์สามารถแก้ไขได้:
 

@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Yeni Başlayanlar İçin Yapay Zeka - Bir Müfredat
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.tr.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/tr/ai-overview.0857791951d19500.png)|
 |:---:|
 | Yeni Başlayanlar İçin Yapay Zeka - _[@girlie_mac](https://twitter.com/girlie_mac) tarafından Sketchnote_ |
 

@@ -29,7 +29,7 @@ Zarówno Keras, jak i PyTorch zawierają funkcje umożliwiające łatwe ładowan
 
 Oto przykładowe cechy wyodrębnione z obrazu kota przez sieć VGG-16:
 
-![Cechy wyodrębnione przez VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.pl.png)
+![Cechy wyodrębnione przez VGG-16](../../../../../translated_images/pl/features.6291f9c7ba3a0b95.png)
 
 ## Zbiór danych Koty vs. Psy
 
@@ -48,19 +48,19 @@ Wstępnie wytrenowana sieć neuronowa zawiera różne wzorce w swoim *mózgu*, w
 
 Jednym z podejść, które możemy zastosować, jest rozpoczęcie od losowego obrazu, a następnie próba użycia techniki **optymalizacji metodą gradientu** w celu dostosowania tego obrazu w taki sposób, aby sieć zaczęła myśleć, że to kot.
 
-![Pętla optymalizacji obrazu](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.pl.png)
+![Pętla optymalizacji obrazu](../../../../../translated_images/pl/ideal-cat-loop.999fbb8ff306e044.png)
 
 Jednak jeśli to zrobimy, otrzymamy coś bardzo podobnego do losowego szumu. Dzieje się tak, ponieważ *istnieje wiele sposobów, aby sieć myślała, że obraz wejściowy to kot*, w tym takie, które nie mają sensu wizualnie. Chociaż te obrazy zawierają wiele wzorców typowych dla kota, nic nie zmusza ich do bycia wizualnie wyraźnymi.
 
 Aby poprawić wynik, możemy dodać kolejny składnik do funkcji straty, który nazywa się **stratą wariacji**. Jest to metryka pokazująca, jak podobne są sąsiadujące piksele obrazu. Minimalizowanie straty wariacji sprawia, że obraz staje się bardziej gładki i pozbywa się szumu - ujawniając bardziej atrakcyjne wizualnie wzorce. Oto przykład takich "idealnych" obrazów, które są klasyfikowane jako kot i jako zebra z dużym prawdopodobieństwem:
 
-![Idealny kot](../../../../../translated_images/ideal-cat.203dd4597643d6b0.pl.png) | ![Idealna zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.pl.png)
+![Idealny kot](../../../../../translated_images/pl/ideal-cat.203dd4597643d6b0.png) | ![Idealna zebra](../../../../../translated_images/pl/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
  *Idealny kot* | *Idealna zebra*
 
 Podobne podejście można zastosować do przeprowadzania tzw. **ataków adversarialnych** na sieć neuronową. Załóżmy, że chcemy oszukać sieć neuronową i sprawić, by pies wyglądał jak kot. Jeśli weźmiemy obraz psa, który jest rozpoznawany przez sieć jako pies, możemy go nieco zmodyfikować za pomocą optymalizacji metodą gradientu, aż sieć zacznie klasyfikować go jako kota:
 
-![Obraz psa](../../../../../translated_images/original-dog.8f68a67d2fe0911f.pl.png) | ![Obraz psa klasyfikowany jako kot](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.pl.png)
+![Obraz psa](../../../../../translated_images/pl/original-dog.8f68a67d2fe0911f.png) | ![Obraz psa klasyfikowany jako kot](../../../../../translated_images/pl/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Oryginalny obraz psa* | *Obraz psa klasyfikowany jako kot*
 

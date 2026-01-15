@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Kecerdasan Buatan untuk Pemula - Kurikulum
 
-|![Sketchnote oleh @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.id.png)|
+|![Sketchnote oleh @girlie_mac https://twitter.com/girlie_mac](../../translated_images/id/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI Untuk Pemula - _Sketchnote oleh [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

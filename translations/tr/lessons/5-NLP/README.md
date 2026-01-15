@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Doğal Dil İşleme
 
-![NLP görevlerinin bir çizimi](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.tr.png)
+![NLP görevlerinin bir çizimi](../../../../translated_images/tr/ai-nlp.b22dcb8ca4707cea.png)
 
 Bu bölümde, **Doğal Dil İşleme (NLP)** ile ilgili görevleri çözmek için Sinir Ağlarını kullanmaya odaklanacağız. Bilgisayarların çözmesini istediğimiz birçok NLP problemi bulunmaktadır:
 

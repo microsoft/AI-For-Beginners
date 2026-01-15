@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction aux réseaux neuronaux
 
-![Résumé du contenu d'introduction aux réseaux neuronaux sous forme de dessin](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.fr.png)
+![Résumé du contenu d'introduction aux réseaux neuronaux sous forme de dessin](../../../../translated_images/fr/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Comme nous l'avons vu dans l'introduction, l'une des façons d'atteindre l'intelligence est d'entraîner un **modèle informatique** ou un **cerveau artificiel**. Depuis le milieu du XXe siècle, les chercheurs ont expérimenté différents modèles mathématiques, jusqu'à ce que cette approche s'avère extrêmement fructueuse ces dernières années. Ces modèles mathématiques du cerveau sont appelés **réseaux neuronaux**.
 
@@ -36,13 +36,13 @@ Dans ce programme, nous nous concentrerons uniquement sur les modèles de résea
 
 En biologie, nous savons que notre cerveau est constitué de cellules neuronales (neurones), chacune ayant plusieurs "entrées" (dendrites) et une seule "sortie" (axone). Les dendrites et les axones peuvent conduire des signaux électriques, et les connexions entre eux — appelées synapses — peuvent présenter des degrés de conductivité variables, régulés par des neurotransmetteurs.
 
-![Modèle d'un neurone](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.fr.jpg) | ![Modèle d'un neurone](../../../../translated_images/artneuron.1a5daa88d20ebe6f.fr.png)
+![Modèle d'un neurone](../../../../translated_images/fr/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Modèle d'un neurone](../../../../translated_images/fr/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Neurone réel *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) de Wikipédia)* | Neurone artificiel *(Image par l'auteur)*
 
 Ainsi, le modèle mathématique le plus simple d'un neurone contient plusieurs entrées X<sub>1</sub>, ..., X<sub>N</sub> et une sortie Y, ainsi qu'une série de poids W<sub>1</sub>, ..., W<sub>N</sub>. Une sortie est calculée comme suit :
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.fr.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/fr/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 où **f** est une **fonction d'activation** non linéaire.
 

@@ -23,7 +23,7 @@ W naszych wcześniejszych przykładach korzystaliśmy z wstępnie wytrenowanych 
 * **Continuous Bag-of-Words** (CBoW), gdzie przewidujemy środkowy token $W_0$ w sekwencji tokenów $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, gdzie przewidujemy zestaw sąsiednich tokenów {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} na podstawie środkowego tokena $W_0$.
 
-![obraz z artykułu o konwersji słów na wektory](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pl.png)
+![obraz z artykułu o konwersji słów na wektory](../../../../../translated_images/pl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Obraz z [tego artykułu](https://arxiv.org/pdf/1301.3781.pdf)
 

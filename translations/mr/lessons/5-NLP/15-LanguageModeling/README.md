@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **कंटिन्युअस बॅग-ऑफ-वर्ड्स** (CBoW), जिथे आपण टोकन अनुक्रमातील मध्यवर्ती टोकन $W_0$ ची भविष्यवाणी करतो $W_{-N}$, ..., $W_N$.
 * **स्किप-ग्राम**, जिथे आपण मध्यवर्ती टोकन $W_0$ पासून शेजारील टोकनांचा संच {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} ची भविष्यवाणी करतो.
 
-![शब्दांना वेक्टरमध्ये रूपांतरित करण्यासाठी वापरलेले अल्गोरिदम](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.mr.png)
+![शब्दांना वेक्टरमध्ये रूपांतरित करण्यासाठी वापरलेले अल्गोरिदम](../../../../../translated_images/mr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > [या पेपरमधून](https://arxiv.org/pdf/1301.3781.pdf) घेतलेली प्रतिमा
 

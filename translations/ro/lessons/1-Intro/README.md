@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducere în Inteligența Artificială
 
-![Rezumat al conținutului Introducerii în AI într-un desen](../../../../translated_images/ai-intro.bf28d1ac4235881c.ro.png)
+![Rezumat al conținutului Introducerii în AI într-un desen](../../../../translated_images/ro/ai-intro.bf28d1ac4235881c.png)
 
 > Schiță de [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Inițial, computerele au fost inventate de [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) pentru a opera pe numere urmând o procedură bine definită - un algoritm. Computerele moderne, deși semnificativ mai avansate decât modelul original propus în secolul al XIX-lea, încă urmează aceeași idee de calcule controlate. Astfel, este posibil să programăm un computer să facă ceva dacă știm exact secvența de pași necesară pentru a atinge scopul.
 
-![Fotografie a unei persoane](../../../../translated_images/dsh_age.d212a30d4e54fb5f.ro.png)
+![Fotografie a unei persoane](../../../../translated_images/ro/dsh_age.d212a30d4e54fb5f.png)
 
 > Fotografie de [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Pentru mai multe informații, consultați **[Inteligența Artificială Generală
 
 Una dintre problemele legate de termenul **[Inteligență](https://en.wikipedia.org/wiki/Intelligence)** este că nu există o definiție clară a acestui termen. Se poate argumenta că inteligența este legată de **gândirea abstractă** sau de **auto-conștientizare**, dar nu o putem defini corect.
 
-![Fotografie a unei pisici](../../../../translated_images/photo-cat.8c8e8fb760ffe457.ro.jpg)
+![Fotografie a unei pisici](../../../../translated_images/ro/photo-cat.8c8e8fb760ffe457.jpg)
 
 > [Fotografie](https://unsplash.com/photos/75715CVEJhI) de [Amber Kipp](https://unsplash.com/@sadmax) de pe Unsplash
 
@@ -98,13 +98,13 @@ Alternativ, putem încerca să modelăm cele mai simple elemente din creierul no
 
 > | Ce ziceți de ML?         |      |
 > |--------------|-----------|
-> | O parte a Inteligenței Artificiale care se bazează pe învățarea computerului să rezolve o problemă pe baza unor date se numește **Învățare Automată**. Nu vom analiza învățarea automată clasică în acest curs - vă recomandăm un curriculum separat [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML pentru Începători](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.ro.png)    |
+> | O parte a Inteligenței Artificiale care se bazează pe învățarea computerului să rezolve o problemă pe baza unor date se numește **Învățare Automată**. Nu vom analiza învățarea automată clasică în acest curs - vă recomandăm un curriculum separat [Machine Learning for Beginners](http://aka.ms/ml-beginners). |   ![ML pentru Începători](../../../../translated_images/ro/ml-for-beginners.9e4fed176fd5817d.png)    |
 
 ## O Scurtă Istorie a AI
 
 Inteligența Artificială a început ca un domeniu la mijlocul secolului XX. Inițial, raționamentul simbolic a fost o abordare predominantă și a condus la o serie de succese importante, cum ar fi sistemele expert – programe de computer care puteau acționa ca un expert în unele domenii limitate de probleme. Cu toate acestea, a devenit curând clar că o astfel de abordare nu se scalează bine. Extragerea cunoștințelor de la un expert, reprezentarea lor într-un computer și menținerea bazei de cunoștințe exacte s-a dovedit a fi o sarcină foarte complexă și prea costisitoare pentru a fi practică în multe cazuri. Acest lucru a dus la așa-numita [Iarnă AI](https://en.wikipedia.org/wiki/AI_winter) în anii 1970.
 
-<img alt="Scurtă Istorie a AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.ro.png" width="70%"/>
+<img alt="Scurtă Istorie a AI" src="../../../../translated_images/ro/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Putem observa cum s-au schimbat abordările, de exemplu, în crearea unui progra
 * Asistenții moderni, cum ar fi Cortana, Siri sau Google Assistant, sunt toate sisteme hibride care folosesc rețele neuronale pentru a converti vorbirea în text și a recunoaște intenția noastră, iar apoi utilizează un raționament sau algoritmi expliciți pentru a efectua acțiunile necesare.
 * În viitor, ne putem aștepta la un model complet bazat pe rețele neuronale care să gestioneze dialogul de unul singur. Familiile recente de rețele neuronale GPT și [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) arată un mare succes în acest sens.
 
-<img alt="evoluția testului Turing" src="../../../../translated_images/turing-test-evol.4184696701293ead.ro.png" width="70%"/>
+<img alt="evoluția testului Turing" src="../../../../translated_images/ro/turing-test-evol.4184696701293ead.png" width="70%"/>
 > Imagine de Dmitry Soshnikov, [fotografie](https://unsplash.com/photos/r8LmVbUKgns) de [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Cercetări recente în domeniul AI

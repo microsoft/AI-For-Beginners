@@ -23,7 +23,7 @@ En nuestros ejemplos anteriores, utilizamos incrustaciones semánticas preentren
 * **Continuous Bag-of-Words** (CBoW), donde predecimos el token central $W_0$ en una secuencia de tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, donde predecimos un conjunto de tokens vecinos {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} a partir del token central $W_0$.
 
-![imagen del artículo sobre convertir palabras en vectores](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.es.png)
+![imagen del artículo sobre convertir palabras en vectores](../../../../../translated_images/es/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Imagen tomada de [este artículo](https://arxiv.org/pdf/1301.3781.pdf)
 

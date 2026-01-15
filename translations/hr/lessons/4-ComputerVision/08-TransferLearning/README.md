@@ -29,7 +29,7 @@ I Keras i PyTorch sadrže funkcije za jednostavno učitavanje unaprijed treniran
 
 Evo primjera značajki koje je VGG-16 mreža izdvojila iz slike mačke:
 
-![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.hr.png)
+![Features extracted by VGG-16](../../../../../translated_images/hr/features.6291f9c7ba3a0b95.png)
 
 ## Skup podataka Mačke vs. Psi
 
@@ -48,19 +48,19 @@ Unaprijed trenirana neuronska mreža sadrži različite uzorke unutar svog *mozg
 
 Jedan pristup koji možemo koristiti je započeti s nasumičnom slikom, a zatim pokušati koristiti tehniku **optimizacije gradijentnog spuštanja** kako bismo prilagodili tu sliku na način da mreža počne misliti da je to mačka.
 
-![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.hr.png)
+![Image Optimization Loop](../../../../../translated_images/hr/ideal-cat-loop.999fbb8ff306e044.png)
 
 Međutim, ako to učinimo, dobit ćemo nešto vrlo slično nasumičnom šumu. To je zato što *postoji mnogo načina da mreža pomisli da je ulazna slika mačka*, uključujući neke koji vizualno nemaju smisla. Iako te slike sadrže mnogo uzoraka tipičnih za mačku, ništa ih ne ograničava da budu vizualno prepoznatljive.
 
 Kako bismo poboljšali rezultat, možemo dodati još jedan član u funkciju gubitka, koji se naziva **gubitak varijacije**. To je metrika koja pokazuje koliko su slični susjedni pikseli slike. Minimiziranje gubitka varijacije čini sliku glađom i uklanja šum - otkrivajući tako vizualno privlačnije uzorke. Evo primjera takvih "idealnih" slika koje se klasificiraju kao mačka i zebra s visokom vjerojatnošću:
 
-![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0.hr.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.hr.png)
+![Ideal Cat](../../../../../translated_images/hr/ideal-cat.203dd4597643d6b0.png) | ![Ideal Zebra](../../../../../translated_images/hr/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
  *Idealna mačka* | *Idealna zebra*
 
 Sličan pristup može se koristiti za izvođenje takozvanih **adversarijalnih napada** na neuronsku mrežu. Pretpostavimo da želimo zavarati neuronsku mrežu i učiniti da pas izgleda kao mačka. Ako uzmemo sliku psa, koju mreža prepoznaje kao psa, možemo je malo prilagoditi koristeći optimizaciju gradijentnog spuštanja dok mreža ne počne klasificirati sliku kao mačku:
 
-![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f.hr.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.hr.png)
+![Picture of a Dog](../../../../../translated_images/hr/original-dog.8f68a67d2fe0911f.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/hr/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Izvorna slika psa* | *Slika psa klasificirana kao mačka*
 

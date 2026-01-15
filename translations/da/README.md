@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Kunstig intelligens for begyndere - Et pensum
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.da.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/da/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _Sketchnote af [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

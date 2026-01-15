@@ -25,7 +25,7 @@ Meie eesmärk on klassifitseerida uudisartikkel üheks kategooriaks, tuginedes t
 
 Kui tahame lahendada loomuliku keele töötlemise (NLP) ülesandeid närvivõrkudega, peame leidma viisi, kuidas teksti tensoritena esitada. Arvutid esindavad tekstimärke juba numbritena, mis kaardistuvad ekraanil olevate fontidega, kasutades kodeeringuid nagu ASCII või UTF-8.
 
-<img alt="Pilt, mis näitab skeemi, kuidas märk kaardistub ASCII ja binaarse esitusena" src="../../../../../translated_images/ascii-character-map.18ed6aa7f3b0a7ff.et.png" width="50%"/>
+<img alt="Pilt, mis näitab skeemi, kuidas märk kaardistub ASCII ja binaarse esitusena" src="../../../../../translated_images/et/ascii-character-map.18ed6aa7f3b0a7ff.png" width="50%"/>
 
 > [Pildi allikas](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +48,7 @@ Mõnel juhul võime kaaluda ka tri-grammide - kolme sõna kombinatsioonide - kas
 
 Tekstiklassifikatsiooni ülesannete lahendamisel peame suutma esitada teksti ühe fikseeritud suurusega vektorina, mida kasutame lõpliku tiheda klassifikaatori sisendina. Üks lihtsamaid viise seda teha on kombineerida kõik üksikud sõnaesitused, näiteks neid liites. Kui liidame iga sõna ühe-kuuma kodeeringud, saame sagedusvektori, mis näitab, mitu korda iga sõna tekstis esineb. Sellist teksti esitust nimetatakse **sõnakotiks** (BoW).
 
-<img src="../../../../../translated_images/bow.3811869cff59368d.et.png" width="90%"/>
+<img src="../../../../../translated_images/et/bow.3811869cff59368d.png" width="90%"/>
 
 > Pilt autori poolt
 

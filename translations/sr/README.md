@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Вештачка интелигенција за почетнике - Наставни програм
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.sr.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sr/ai-overview.0857791951d19500.png)|
 |:---:|
 | Вештачка интелигенција за почетнике - _Скетчнот од [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

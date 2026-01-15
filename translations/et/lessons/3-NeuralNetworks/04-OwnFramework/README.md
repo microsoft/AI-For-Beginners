@@ -65,7 +65,7 @@ Gradientlanguse algoritm jääb samaks, kuid gradientide arvutamine muutub keeru
 
 Pange tähele, et kõigi nende avaldiste vasakpoolne osa on sama, ja seega saame tuletised tõhusalt arvutada, alustades kaofunktsioonist ja liikudes "tagasi" läbi arvutusgraafi. Seetõttu nimetatakse mitmekihilise perceptroni treenimise meetodit **tagasilevikuks** ehk 'backprop'.
 
-<img alt="arvutusgraaf" src="../../../../../translated_images/ComputeGraphGrad.4626252c0de03507.et.png"/>
+<img alt="arvutusgraaf" src="../../../../../translated_images/et/ComputeGraphGrad.4626252c0de03507.png"/>
 
 > TODO: pildi viide
 

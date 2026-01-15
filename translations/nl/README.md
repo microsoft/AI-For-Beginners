@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Kunstmatige Intelligentie voor Beginners - Een Curriculum
 
-|![Sketchnote door @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.nl.png)|
+|![Sketchnote door @girlie_mac https://twitter.com/girlie_mac](../../translated_images/nl/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI Voor Beginners - _Sketchnote door [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

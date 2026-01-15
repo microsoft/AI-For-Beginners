@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to Neural Networks
 
-![Summary of Intro Neural Networks content in a doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.en.png)
+![Summary of Intro Neural Networks content in a doodle](../../../../translated_images/en/ai-neuralnetworks.1c687ae40bc86e834f497844866a26d3e0886650a67a4bbe29442e2f157d3b18.png)
 
 As discussed in the introduction, one way to achieve intelligence is by training a **computer model** or an **artificial brain**. Since the mid-20th century, researchers have experimented with various mathematical models, and in recent years, this approach has proven to be highly successful. These mathematical models of the brain are known as **neural networks**.
 
@@ -36,13 +36,13 @@ This curriculum focuses exclusively on neural network models.
 
 Biologically, we know that the brain is composed of neural cells (neurons), each with multiple "inputs" (dendrites) and a single "output" (axon). Both dendrites and axons transmit electrical signals, and the connections between them — called synapses — can vary in conductivity, regulated by neurotransmitters.
 
-![Model of a Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.en.jpg) | ![Model of a Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.en.png)
+![Model of a Neuron](../../../../translated_images/en/synapse-wikipedia.ed20a9e4726ea1c6a3ce8fec51c0b9bec6181946dca0fe4e829bc12fa3bacf01.jpg) | ![Model of a Neuron](../../../../translated_images/en/artneuron.1a5daa88d20ebe6f5824ddb89fba0bdaaf49f67e8230c1afbec42909df1fc17e.png)
 ----|----
 Real Neuron *([Image](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) from Wikipedia)* | Artificial Neuron *(Image by Author)*
 
 The simplest mathematical model of a neuron includes several inputs X<sub>1</sub>, ..., X<sub>N</sub>, an output Y, and a set of weights W<sub>1</sub>, ..., W<sub>N</sub>. The output is calculated as:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.en.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/en/netout.1eb15eb76fd767313e067719f400cec4b0e5090239c3e997c29f6789d4c3c263.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 where **f** is a non-linear **activation function**.
 

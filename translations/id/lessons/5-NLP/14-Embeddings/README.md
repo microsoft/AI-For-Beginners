@@ -19,7 +19,7 @@ Jadi, lapisan embedding akan mengambil sebuah kata sebagai input, dan menghasilk
 
 Dengan menggunakan lapisan embedding sebagai lapisan pertama dalam jaringan classifier kita, kita dapat beralih dari model bag-of-words ke model **embedding bag**, di mana kita pertama-tama mengonversi setiap kata dalam teks kita ke embedding yang sesuai, dan kemudian menghitung beberapa fungsi agregat dari semua embedding tersebut, seperti `sum`, `average`, atau `max`.  
 
-![Gambar menunjukkan classifier embedding untuk lima kata dalam urutan.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.id.png)
+![Gambar menunjukkan classifier embedding untuk lima kata dalam urutan.](../../../../../translated_images/id/embedding-classifier-example.b77f021a7ee67eee.png)
 
 > Gambar oleh penulis
 
@@ -40,7 +40,7 @@ Untuk mencapai itu, kita perlu melatih model embedding kita terlebih dahulu pada
 
 CBoW lebih cepat, sedangkan skip-gram lebih lambat, tetapi lebih baik dalam merepresentasikan kata-kata yang jarang muncul.
 
-![Gambar menunjukkan algoritma CBoW dan Skip-Gram untuk mengonversi kata-kata menjadi vektor.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.id.png)
+![Gambar menunjukkan algoritma CBoW dan Skip-Gram untuk mengonversi kata-kata menjadi vektor.](../../../../../translated_images/id/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Gambar dari [makalah ini](https://arxiv.org/pdf/1301.3781.pdf)
 

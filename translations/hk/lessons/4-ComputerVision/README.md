@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 電腦視覺
 
-![電腦視覺內容摘要的手繪圖](../../../../translated_images/ai-computervision.6506ebebac3fbf76.hk.png)
+![電腦視覺內容摘要的手繪圖](../../../../translated_images/hk/ai-computervision.6506ebebac3fbf76.png)
 
 在這部分，我們將學習以下內容：
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Υπολογιστική Όραση
 
-![Περίληψη του περιεχομένου της Υπολογιστικής Όρασης σε ένα σκίτσο](../../../../translated_images/ai-computervision.6506ebebac3fbf76.el.png)
+![Περίληψη του περιεχομένου της Υπολογιστικής Όρασης σε ένα σκίτσο](../../../../translated_images/el/ai-computervision.6506ebebac3fbf76.png)
 
 Σε αυτήν την ενότητα θα μάθουμε για:
 

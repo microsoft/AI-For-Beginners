@@ -19,7 +19,7 @@ Gayunpaman, maaaring gusto nating gamitin ang raw (unlabeled) na data para sa pa
 
 Dahil tina-train natin ang autoencoder upang makuha ang pinakamaraming impormasyon mula sa orihinal na imahe para sa tumpak na reconstruction, sinusubukan ng network na hanapin ang pinakamahusay na **embedding** ng input images upang makuha ang kahulugan nito.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.tl.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/tl/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > Imahe mula sa [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

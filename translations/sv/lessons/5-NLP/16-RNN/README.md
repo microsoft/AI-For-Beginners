@@ -15,7 +15,7 @@ I tidigare avsnitt har vi använt rika semantiska representationer av text och e
 
 För att fånga betydelsen av en textsekvens behöver vi använda en annan neural nätverksarkitektur, som kallas för ett **rekurrent neuralt nätverk**, eller RNN. I RNN skickar vi vår mening genom nätverket en symbol i taget, och nätverket producerar ett **tillstånd**, som vi sedan skickar tillbaka till nätverket tillsammans med nästa symbol.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.sv.png)
+![RNN](../../../../../translated_images/sv/rnn.27f5c29c53d727b5.png)
 
 > Bild av författaren
 
@@ -61,7 +61,7 @@ Vi har diskuterat rekurrenta nätverk som arbetar i en riktning, från början a
 
 Ett rekurrent nätverk, antingen enkelriktat eller bidirektionellt, fångar vissa mönster inom en sekvens och kan lagra dem i en tillståndsvektor eller skicka dem till utgången. Precis som med konvolutionella nätverk kan vi bygga ett annat rekurrent lager ovanpå det första för att fånga högre nivåmönster och bygga från lågnivåmönster som extraherats av det första lagret. Detta leder oss till begreppet **flerskiktat RNN**, som består av två eller fler rekurrenta nätverk, där utgången från det föregående lagret skickas till nästa lager som inmatning.
 
-![Bild som visar ett flerskiktat Long Short Term Memory-RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.sv.jpg)
+![Bild som visar ett flerskiktat Long Short Term Memory-RNN](../../../../../translated_images/sv/multi-layer-lstm.dd975e29bb2a59fe.jpg)
 
 *Bild från [detta fantastiska inlägg](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) av Fernando López*
 

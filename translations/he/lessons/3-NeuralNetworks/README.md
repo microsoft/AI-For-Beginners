@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מבוא לרשתות עצביות
 
-![סיכום תוכן מבוא לרשתות עצביות בציור](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.he.png)
+![סיכום תוכן מבוא לרשתות עצביות בציור](../../../../translated_images/he/ai-neuralnetworks.1c687ae40bc86e83.png)
 
 כפי שדיברנו במבוא, אחת הדרכים להשיג אינטליגנציה היא לאמן **מודל מחשב** או **מוח מלאכותי**. מאז אמצע המאה ה-20, חוקרים ניסו מודלים מתמטיים שונים, עד שבשנים האחרונות כיוון זה הוכיח את עצמו כהצלחה גדולה. מודלים מתמטיים כאלה של המוח נקראים **רשתות עצביות**.
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 מהביולוגיה אנו יודעים שהמוח שלנו מורכב מתאי עצב (נוירונים), שלכל אחד מהם יש מספר "קלטים" (דנדריטים) ו"פלט" אחד (אקסון). הן הדנדריטים והן האקסונים יכולים להוליך אותות חשמליים, והחיבורים ביניהם — הידועים כסינפסות — יכולים להציג דרגות שונות של מוליכות, שמוסדרות על ידי נוירוטרנסמיטורים.
 
-![מודל של נוירון](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.he.jpg) | ![מודל של נוירון](../../../../translated_images/artneuron.1a5daa88d20ebe6f.he.png)
+![מודל של נוירון](../../../../translated_images/he/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![מודל של נוירון](../../../../translated_images/he/artneuron.1a5daa88d20ebe6f.png)
 ----|----
 נוירון אמיתי *([תמונה](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) מוויקיפדיה)* | נוירון מלאכותי *(תמונה מאת המחבר)*
 
 לכן, המודל המתמטי הפשוט ביותר של נוירון מכיל מספר קלטים X<sub>1</sub>, ..., X<sub>N</sub> ופלט Y, וסדרה של משקלים W<sub>1</sub>, ..., W<sub>N</sub>. הפלט מחושב כך:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.he.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/he/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 כאשר f היא **פונקציית הפעלה** לא ליניארית.
 

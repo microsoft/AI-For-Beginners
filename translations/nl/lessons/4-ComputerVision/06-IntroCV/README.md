@@ -73,14 +73,14 @@ In ons [OpenCV Notebook](OpenCV.ipynb) geven we enkele voorbeelden van wanneer c
 
 * **Voorbewerking van een foto van een Braille-boek**. We richten ons op hoe we thresholding, kenmerkdetectie, perspectieftransformatie en NumPy-manipulaties kunnen gebruiken om individuele Braille-symbolen te scheiden voor verdere classificatie door een neuraal netwerk.
 
-![Braille Afbeelding](../../../../../translated_images/braille.341962ff76b1bd70.nl.jpeg) | ![Braille Afbeelding Voorbewerkt](../../../../../translated_images/braille-result.46530fea020b03c7.nl.png) | ![Braille Symbolen](../../../../../translated_images/braille-symbols.0159185ab69d5339.nl.png)
+![Braille Afbeelding](../../../../../translated_images/nl/braille.341962ff76b1bd70.jpeg) | ![Braille Afbeelding Voorbewerkt](../../../../../translated_images/nl/braille-result.46530fea020b03c7.png) | ![Braille Symbolen](../../../../../translated_images/nl/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > Afbeelding uit [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Beweging detecteren in video met behulp van frameverschillen**. Als de camera vast staat, zouden frames van de camerafeed vrij vergelijkbaar met elkaar moeten zijn. Omdat frames worden weergegeven als arrays, krijg je door die arrays van twee opeenvolgende frames van elkaar af te trekken het pixelverschil, dat laag zou moeten zijn voor statische frames, en hoger wordt zodra er aanzienlijke beweging in de afbeelding is.
 
-![Afbeelding van videoframes en frameverschillen](../../../../../translated_images/frame-difference.706f805491a0883c.nl.png)
+![Afbeelding van videoframes en frameverschillen](../../../../../translated_images/nl/frame-difference.706f805491a0883c.png)
 
 > Afbeelding uit [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ In ons [OpenCV Notebook](OpenCV.ipynb) geven we enkele voorbeelden van wanneer c
    - **Dense Optical Flow** berekent het vectorveld dat voor elke pixel laat zien waar deze naartoe beweegt.
    - **Sparse Optical Flow** is gebaseerd op het nemen van enkele onderscheidende kenmerken in de afbeelding (bijv. randen) en het opbouwen van hun traject van frame tot frame.
 
-![Afbeelding van Optische Stroom](../../../../../translated_images/optical.1f4a94464579a83a.nl.png)
+![Afbeelding van Optische Stroom](../../../../../translated_images/nl/optical.1f4a94464579a83a.png)
 
 > Afbeelding uit [OpenCV.ipynb](OpenCV.ipynb)
 

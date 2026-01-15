@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 چونکہ ہم آٹو اینکوڈر کو اصل تصویر سے زیادہ سے زیادہ معلومات حاصل کرنے کے لیے تربیت دے رہے ہیں تاکہ درست تعمیر نو ہو سکے، نیٹ ورک ان پٹ تصاویر کی بہترین **ایمبیڈنگ** تلاش کرنے کی کوشش کرتا ہے تاکہ معنی کو حاصل کیا جا سکے۔
 
-![آٹو اینکوڈر ڈایاگرام](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.ur.jpg)
+![آٹو اینکوڈر ڈایاگرام](../../../../../translated_images/ur/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > تصویر [Keras بلاگ](https://blog.keras.io/building-autoencoders-in-keras.html) سے لی گئی ہے
 

@@ -15,7 +15,7 @@ Etter suksessen med transformer-modeller for å løse NLP-oppgaver, har de samme
 
 Hovedideen med CLIP er å kunne sammenligne tekstbeskrivelser med et bilde og avgjøre hvor godt bildet samsvarer med beskrivelsen.
 
-![CLIP Arkitektur](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.no.png)
+![CLIP Arkitektur](../../../../../translated_images/no/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Bilde fra [denne bloggposten](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Når denne modellen er forhåndstrent, kan vi gi den en batch med bilder og en b
 
 Anta at vi må klassifisere bilder mellom for eksempel katter, hunder og mennesker. I dette tilfellet kan vi gi modellen et bilde og en serie tekstbeskrivelser: "*et bilde av en katt*", "*et bilde av en hund*", "*et bilde av et menneske*". I den resulterende vektoren med 3 sannsynligheter trenger vi bare å velge indeksen med høyest verdi.
 
-![CLIP for Bildeklassifisering](../../../../../translated_images/clip-class.3af42ef0b2b19369.no.png)
+![CLIP for Bildeklassifisering](../../../../../translated_images/no/clip-class.3af42ef0b2b19369.png)
 
 > *Bilde fra [denne bloggposten](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Lær mer om VQGAN på [Taming Transformers](https://compvis.github.io/taming-tra
 
 En av de viktige forskjellene mellom VQGAN og tradisjonelle GAN er at sistnevnte kan produsere et anstendig bilde fra hvilken som helst inputvektor, mens VQGAN sannsynligvis vil produsere et bilde som ikke er sammenhengende. Derfor må vi videre veilede bildeopprettingsprosessen, og det kan gjøres ved hjelp av CLIP.
 
-![VQGAN+CLIP Arkitektur](../../../../../translated_images/vqgan.5027fe05051dfa31.no.png)
+![VQGAN+CLIP Arkitektur](../../../../../translated_images/no/vqgan.5027fe05051dfa31.png)
 
 For å generere et bilde som samsvarer med en tekstbeskrivelse, starter vi med en tilfeldig kodingsvektor som sendes gjennom VQGAN for å produsere et bilde. Deretter brukes CLIP til å produsere en tapfunksjon som viser hvor godt bildet samsvarer med tekstbeskrivelsen. Målet er da å minimere dette tapet, ved hjelp av backpropagation for å justere inputvektorens parametere.
 
 Et flott bibliotek som implementerer VQGAN+CLIP er [Pixray](http://github.com/pixray/pixray).
 
-![Bilde produsert av Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.no.png) |  ![Bilde produsert av Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.no.png) | ![Bilde produsert av Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.no.png)
+![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Bilde generert fra beskrivelsen *et nærbilde akvarellportrett av ung mannlig lærer i litteratur med en bok* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av ung kvinnelig lærer i informatikk med en datamaskin* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av eldre mannlig lærer i matematikk foran en tavle*
 
@@ -75,7 +75,7 @@ I motsetning til CLIP mottar DALL-E både tekst og bilde som en enkelt strøm av
 Hovedforskjellen mellom DALL.E 1 og 2 er at den genererer mer realistiske bilder og kunst.
 
 Eksempler på bildegenerering med DALL-E:
-![Bilde produsert av Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.no.png) |  ![Bilde produsert av Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.no.png) | ![Bilde produsert av Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.no.png)
+![Bilde produsert av Pixray](../../../../../translated_images/no/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Bilde produsert av Pixray](../../../../../translated_images/no/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Bilde produsert av Pixray](../../../../../translated_images/no/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Bilde generert fra beskrivelsen *et nærbilde akvarellportrett av ung mannlig lærer i litteratur med en bok* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av ung kvinnelig lærer i informatikk med en datamaskin* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av eldre mannlig lærer i matematikk foran en tavle*
 

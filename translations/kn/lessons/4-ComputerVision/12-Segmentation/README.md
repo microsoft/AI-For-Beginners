@@ -20,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಘಟಕ ವಿಭಾಗೀಕರಣದಲ್ಲಿ, ಈ ಕುರಿಗಳು ವಿಭಿನ್ನ ವಸ್ತುಗಳಾಗಿವೆ, ಆದರೆ ಸಾಮಾನ್ಯ ವಿಭಾಗೀಕರಣದಲ್ಲಿ ಎಲ್ಲಾ ಕುರಿಗಳು ಒಂದೇ ವರ್ಗದಿಂದ ಪ್ರತಿನಿಧಿಸಲಾಗುತ್ತವೆ.
 
-<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd45.kn.jpeg" width="50%">
+<img src="../../../../../translated_images/kn/instance_vs_semantic.eee9812bebf8cd45.jpeg" width="50%">
 
 > ಚಿತ್ರ [ಈ ಬ್ಲಾಗ್ ಪೋಸ್ಟ್](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) ನಿಂದ
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **ಎನ್‌ಕೋಡರ್** ಇನ್‌ಪುಟ್ ಚಿತ್ರದಿಂದ ಲಕ್ಷಣಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ
 * **ಡಿಕೋಡರ್** ಆ ಲಕ್ಷಣಗಳನ್ನು **ಮಾಸ್ಕ್ ಚಿತ್ರ** ಆಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ, ಅದೇ ಗಾತ್ರ ಮತ್ತು ವರ್ಗಗಳ ಸಂಖ್ಯೆಗೆ ಹೊಂದಿಕೊಂಡ ಚಾನೆಲ್‌ಗಳೊಂದಿಗೆ.
 
-<img src="../../../../../translated_images/segm.92442f2cb42ff4fa.kn.png" width="80%">
+<img src="../../../../../translated_images/kn/segm.92442f2cb42ff4fa.png" width="80%">
 
 > ಚಿತ್ರ [ಈ ಪ್ರಕಟಣೆಯಿಂದ](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ ಈ ತಂತ್ರಜ್ಞಾನ ವೈದ್ಯಕೀಯ ಚಿತ್ರಣಕ್ಕೆ ವಿಶೇಷವಾಗಿ ಸೂಕ್ತವಾಗಿದೆ, ಆದರೆ ನೀವು ಇನ್ನೇನು ನೈಜ ಜಗತ್ತಿನ ಅನ್ವಯಗಳನ್ನು ಊಹಿಸಬಹುದು?
 
-<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea.kn.png"/>
+<img alt="navi" src="../../../../../translated_images/kn/navi.2f20b727910110ea.png"/>
 
 > ಚಿತ್ರ PH<sup>2</sup> ಡೇಟಾಬೇಸ್‌ನಿಂದ
 

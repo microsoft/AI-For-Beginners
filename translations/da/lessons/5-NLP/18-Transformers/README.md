@@ -20,13 +20,13 @@ Med RNN'er implementeres sekvens-til-sekvens med to rekurrente netværk, hvor de
 
 **Attention Mekanismer** giver en metode til at vægte den kontekstuelle indflydelse af hver inputvektor på hver outputforudsigelse i RNN. Dette implementeres ved at skabe genveje mellem de mellemliggende tilstande i input-RNN og output-RNN. På denne måde, når vi genererer outputsymbol y<sub>t</sub>, tager vi alle input skjulte tilstande h<sub>i</sub> i betragtning med forskellige vægtkoefficienter &alpha;<sub>t,i</sub>.
 
-![Billede, der viser en encoder/decoder-model med et additivt attention-lag](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.da.png)
+![Billede, der viser en encoder/decoder-model med et additivt attention-lag](../../../../../translated_images/da/encoder-decoder-attention.7a726296894fb567.png)
 
 > Encoder-decoder modellen med additiv attention mekanisme i [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citeret fra [denne blogpost](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Attention-matrixen {&alpha;<sub>i,j</sub>} repræsenterer graden af, hvor meget visse inputord spiller en rolle i genereringen af et givet ord i outputsekvensen. Nedenfor er et eksempel på en sådan matrix:
 
-![Billede, der viser en prøvejustering fundet af RNNsearch-50, taget fra Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.da.png)
+![Billede, der viser en prøvejustering fundet af RNNsearch-50, taget fra Bahdanau - arviz.org](../../../../../translated_images/da/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > Figur fra [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Resultatet, vi får med positionskodning, embedder både det originale token og 
 
 Dernæst skal vi fange nogle mønstre inden for vores sekvens. For at gøre dette bruger transformers en **self-attention** mekanisme, som i bund og grund er attention anvendt på den samme sekvens som input og output. Ved at anvende self-attention kan vi tage **kontekst** inden for sætningen i betragtning og se, hvilke ord der er relaterede. For eksempel giver det os mulighed for at se, hvilke ord der refereres til af coreferencer, såsom *det*, og også tage konteksten i betragtning:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.da.png)
+![](../../../../../translated_images/da/CoreferenceResolution.861924d6d384a7d6.png)
 
 > Billede fra [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Da hver inputposition uafhængigt kortlægges til hver outputposition, kan trans
 
 **BERT** (Bidirectional Encoder Representations from Transformers) er et meget stort multi-lags transformer-netværk med 12 lag for *BERT-base* og 24 for *BERT-large*. Modellen trænes først på en stor tekstkorpus (Wikipedia + bøger) ved hjælp af usuperviseret træning (forudsige maskerede ord i en sætning). Under pre-træning absorberer modellen betydelige niveauer af sprogforståelse, som derefter kan udnyttes med andre datasæt ved hjælp af finjustering. Denne proces kaldes **transfer learning**.
 
-![billede fra http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.da.png)
+![billede fra http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/da/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > Billede [kilde](http://jalammar.github.io/illustrated-bert/)
 

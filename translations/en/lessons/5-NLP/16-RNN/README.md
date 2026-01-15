@@ -15,7 +15,7 @@ In previous sections, we used rich semantic representations of text combined wit
 
 To understand the meaning of text sequences, we need a different neural network architecture called a **recurrent neural network** (RNN). In an RNN, we process a sentence one symbol at a time through the network, which produces a **state** that is then passed back into the network along with the next symbol.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.en.png)
+![RNN](../../../../../translated_images/en/rnn.27f5c29c53d727b546ad3961637a267f0fe9ec5ab01f2a26a853c92fcefbb574.png)
 
 > Image by the author
 
@@ -61,7 +61,7 @@ So far, we’ve discussed recurrent networks that process sequences in one direc
 
 A recurrent network, whether unidirectional or bidirectional, captures patterns within a sequence and stores them in a state vector or passes them to the output. Similar to convolutional networks, we can stack another recurrent layer on top of the first to capture higher-level patterns based on the low-level patterns extracted by the first layer. This leads to the concept of a **multi-layer RNN**, which consists of two or more recurrent networks, where the output of one layer serves as the input to the next.
 
-![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.en.jpg)
+![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/en/multi-layer-lstm.dd975e29bb2a59fe58b429db833932d734c81f211cad2783797a9608984acb8c.jpg)
 
 *Picture from [this wonderful post](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) by Fernando López*
 

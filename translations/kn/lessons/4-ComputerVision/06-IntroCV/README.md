@@ -73,14 +73,14 @@ OpenCV ಬಳಸಿ ವಿಡಿಯೋವನ್ನು ಫ್ರೇಮ್-ಬೈ-
 
 * **ಬ್ರೈಲ್ ಪುಸ್ತಕದ ಫೋಟೋವನ್ನು ಪೂರ್ವ-ಸಂಸ್ಕರಿಸುವುದು**. ನಾವು ಥ್ರೆಶೋಲ್ಡಿಂಗ್, ವೈಶಿಷ್ಟ್ಯ ಪತ್ತೆ, ಪರ್ಸ್ಪೆಕ್ಟಿವ್ ಪರಿವರ್ತನೆ ಮತ್ತು NumPy ಮ್ಯಾನಿಪ್ಯುಲೇಶನ್‌ಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಪ್ರತ್ಯೇಕ ಬ್ರೈಲ್ ಚಿಹ್ನೆಗಳನ್ನು neural network ಮೂಲಕ ವರ್ಗೀಕರಿಸಲು ಹೇಗೆ ಪ್ರಕ್ರಿಯೆ ಮಾಡಬಹುದು ಎಂಬುದರ ಮೇಲೆ ಗಮನಹರಿಸುತ್ತೇವೆ.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.kn.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.kn.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.kn.png)
+![Braille Image](../../../../../translated_images/kn/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/kn/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/kn/braille-symbols.0159185ab69d5339.png)
 ----|-----|-----
 
 > ಚಿತ್ರ [OpenCV.ipynb](OpenCV.ipynb) ನಿಂದ
 
 * **ವೀಡಿಯೋದಲ್ಲಿ ಚಲನವಲನ ಪತ್ತೆಹಚ್ಚುವುದು ಫ್ರೇಮ್ ವ್ಯತ್ಯಾಸ ಬಳಸಿ**. ಕ್ಯಾಮೆರಾ ಸ್ಥಿರವಾಗಿದ್ದರೆ, ಕ್ಯಾಮೆರಾ ಫೀಡ್‌ನ ಫ್ರೇಮ್‌ಗಳು ಪರಸ್ಪರ ಬಹಳ ಸಮಾನವಾಗಿರುತ್ತವೆ. ಫ್ರೇಮ್‌ಗಳು ಅರೆಗಳಾಗಿ ಪ್ರತಿನಿಧಿಸಲ್ಪಟ್ಟಿರುವುದರಿಂದ, ಎರಡು ಕ್ರಮಬದ್ಧ ಫ್ರೇಮ್‌ಗಳ ಅರೆಗಳನ್ನು ವಜಾ ಮಾಡಿದರೆ ಪಿಕ್ಸೆಲ್ ವ್ಯತ್ಯಾಸ ಸಿಗುತ್ತದೆ, ಇದು ಸ್ಥಿರ ಫ್ರೇಮ್‌ಗಳಿಗೆ ಕಡಿಮೆ ಮತ್ತು ಚಲನೆಯಾಗಿರುವ ಚಿತ್ರಗಳಿಗೆ ಹೆಚ್ಚು ಆಗುತ್ತದೆ.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.kn.png)
+![Image of video frames and frame differences](../../../../../translated_images/kn/frame-difference.706f805491a0883c.png)
 
 > ಚಿತ್ರ [OpenCV.ipynb](OpenCV.ipynb) ನಿಂದ
 
@@ -89,7 +89,7 @@ OpenCV ಬಳಸಿ ವಿಡಿಯೋವನ್ನು ಫ್ರೇಮ್-ಬೈ-
    - **Dense Optical Flow** ಪ್ರತಿ ಪಿಕ್ಸೆಲ್ ಯಾವ ಕಡೆಗೆ ಚಲಿಸುತ್ತಿದೆ ಎಂಬುದನ್ನು ತೋರಿಸುವ ವೆಕ್ಟರ್ ಕ್ಷೇತ್ರವನ್ನು ಲೆಕ್ಕಹಾಕುತ್ತದೆ
    - **Sparse Optical Flow** ಚಿತ್ರದಲ್ಲಿ ಕೆಲವು ವಿಶಿಷ್ಟ ಲಕ್ಷಣಗಳನ್ನು (ಉದಾ: ಅಂಚುಗಳು) ತೆಗೆದು, ಅವುಗಳ ಪಥವನ್ನು ಫ್ರೇಮ್‌ಗಳಿಂದ ಫ್ರೇಮ್‌ಗೆ ನಿರ್ಮಿಸುತ್ತದೆ.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.kn.png)
+![Image of Optical Flow](../../../../../translated_images/kn/optical.1f4a94464579a83a.png)
 
 > ಚಿತ್ರ [OpenCV.ipynb](OpenCV.ipynb) ನಿಂದ
 
@@ -115,7 +115,7 @@ AI ಶೋದಿಂದ [ಈ ವೀಡಿಯೋವನ್ನು](https://docs.micro
 
 ಈ ಪ್ರಯೋಗಶಾಲೆಯಲ್ಲಿ, ನೀವು ಸರಳ ಸಂಕೆತಗಳೊಂದಿಗೆ ಒಂದು ವೀಡಿಯೋ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಿ, ಮತ್ತು ನಿಮ್ಮ ಗುರಿ ಆಪ್ಟಿಕಲ್ ಫ್ಲೋ ಬಳಸಿ ಮೇಲಕ್ಕೆ/ಕೆಳಗೆ/ಎಡಕ್ಕೆ/ಬಲಕ್ಕೆ ಚಲನೆಗಳನ್ನು ಹೊರತೆಗೆಯುವುದು.
 
-<img src="../../../../../translated_images/palm-movement.341495f0e9c47da3.kn.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/kn/palm-movement.341495f0e9c47da3.png" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Огляд
 
-![Огляд у вигляді замальовки](../../../translated_images/ai-overview.0857791951d19500.uk.png)
+![Огляд у вигляді замальовки](../../../translated_images/uk/ai-overview.0857791951d19500.png)
 
 > Замальовка від [Tomomi Imura](https://twitter.com/girlie_mac)
 

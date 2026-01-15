@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 是一個在 2014 年 ImageNet top-5 分類中達到 92.7% 準確率的網路。它的層結構如下：
 
-![ImageNet 層結構](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.tw.jpg)
+![ImageNet 層結構](../../../../../translated_images/tw/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 如圖所示，VGG 採用了傳統的金字塔架構，也就是一系列的卷積-池化層。
 
-![ImageNet 金字塔](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.tw.jpg)
+![ImageNet 金字塔](../../../../../translated_images/tw/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > 圖片來源：[Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

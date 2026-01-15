@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # ആരംഭക്കാർക്കായി കൃത്രിമ ബുദ്ധിമുട്ട് - ഒരു പ്രോഗ്രാം
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.ml.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ml/ai-overview.0857791951d19500.png)|
 |:---:|
 | ആരംഭക്കാർക്കായുള്ള AI - _സ്കെച്ച് നോട്ടുകൾ [@girlie_mac](https://twitter.com/girlie_mac) തുടങ്ങിയവശേഷങ്ങൾ_ |
 

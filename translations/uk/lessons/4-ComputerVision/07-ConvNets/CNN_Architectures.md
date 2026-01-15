@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 — це мережа, яка досягла точності 92.7% у класифікації ImageNet top-5 у 2014 році. Вона має наступну структуру шарів:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.uk.jpg)
+![ImageNet Layers](../../../../../translated_images/uk/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 Як видно, VGG слідує традиційній пірамідальній архітектурі, яка є послідовністю шарів згортки та пулінгу.
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.uk.jpg)
+![ImageNet Pyramid](../../../../../translated_images/uk/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > Зображення з [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

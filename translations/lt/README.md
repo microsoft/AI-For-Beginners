@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Dirbtinis intelektas pradedantiesiems - mokymo programa
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.lt.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/lt/ai-overview.0857791951d19500.png)|
 |:---:|
 | Dirbtinis intelektas pradedantiesiems - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

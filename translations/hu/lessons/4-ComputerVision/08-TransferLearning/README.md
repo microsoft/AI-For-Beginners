@@ -29,7 +29,7 @@ Mind a Keras, mind a PyTorch tartalmaz funkciókat, amelyekkel könnyen betölth
 
 Íme egy példa a VGG-16 hálózat által egy macska képéből kinyert jellemzőkre:
 
-![A VGG-16 által kinyert jellemzők](../../../../../translated_images/features.6291f9c7ba3a0b95.hu.png)
+![A VGG-16 által kinyert jellemzők](../../../../../translated_images/hu/features.6291f9c7ba3a0b95.png)
 
 ## Macskák és kutyák adathalmaz
 
@@ -48,19 +48,19 @@ Egy előre betanított neurális hálózat különböző mintákat tartalmaz az 
 
 Egy megközelítés az lehet, hogy egy véletlenszerű képpel kezdünk, majd a **gradiens-deszcendens optimalizációs** technikát alkalmazzuk, hogy úgy módosítsuk a képet, hogy a hálózat elkezdje azt macskának gondolni.
 
-![Képoptimalizációs ciklus](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.hu.png)
+![Képoptimalizációs ciklus](../../../../../translated_images/hu/ideal-cat-loop.999fbb8ff306e044.png)
 
 Ha azonban ezt tesszük, akkor valami nagyon hasonlót kapunk, mint egy véletlenszerű zaj. Ennek oka, hogy *sokféleképpen lehet a hálózatot rávenni arra, hogy a bemeneti képet macskának gondolja*, beleértve olyanokat is, amelyek vizuálisan nem értelmezhetők. Bár ezek a képek sok, a macskákra jellemző mintát tartalmaznak, semmi sem kényszeríti őket arra, hogy vizuálisan megkülönböztethetők legyenek.
 
 Az eredmény javítása érdekében hozzáadhatunk egy másik tagot a veszteségfüggvényhez, amelyet **variációs veszteségnek** nevezünk. Ez egy olyan metrika, amely megmutatja, mennyire hasonlóak a kép szomszédos pixelei. A variációs veszteség minimalizálása simábbá teszi a képet, és megszabadítja a zajtól – így vizuálisan vonzóbb mintákat tár fel. Íme egy példa az ilyen "ideális" képekre, amelyeket nagy valószínűséggel macskának és zebrának osztályoznak:
 
-![Ideális macska](../../../../../translated_images/ideal-cat.203dd4597643d6b0.hu.png) | ![Ideális zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.hu.png)
+![Ideális macska](../../../../../translated_images/hu/ideal-cat.203dd4597643d6b0.png) | ![Ideális zebra](../../../../../translated_images/hu/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
 *Ideális macska* | *Ideális zebra*
 
 Hasonló megközelítést lehet alkalmazni úgynevezett **adverzális támadások** végrehajtására egy neurális hálózaton. Tegyük fel, hogy szeretnénk megtéveszteni egy neurális hálózatot, és egy kutyát macskának láttatni. Ha veszünk egy kutya képét, amelyet a hálózat kutyaként ismer fel, akkor azt egy kicsit módosíthatjuk a gradiens-deszcendens optimalizáció segítségével, amíg a hálózat macskaként nem kezdi osztályozni:
 
-![Kép egy kutyáról](../../../../../translated_images/original-dog.8f68a67d2fe0911f.hu.png) | ![Kép egy kutyáról, amelyet macskának osztályoznak](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.hu.png)
+![Kép egy kutyáról](../../../../../translated_images/hu/original-dog.8f68a67d2fe0911f.png) | ![Kép egy kutyáról, amelyet macskának osztályoznak](../../../../../translated_images/hu/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Eredeti kép egy kutyáról* | *Kép egy kutyáról, amelyet macskának osztályoznak*
 

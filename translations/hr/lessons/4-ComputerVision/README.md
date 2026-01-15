@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Računalni vid
 
-![Sažetak sadržaja o računalnom vidu u obliku crteža](../../../../translated_images/ai-computervision.6506ebebac3fbf76.hr.png)
+![Sažetak sadržaja o računalnom vidu u obliku crteža](../../../../translated_images/hr/ai-computervision.6506ebebac3fbf76.png)
 
 U ovom dijelu ćemo naučiti o:
 

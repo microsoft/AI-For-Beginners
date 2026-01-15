@@ -23,7 +23,7 @@ Nos nossos exemplos anteriores, usamos embeddings semânticos pré-treinados, ma
 * **Continuous Bag-of-Words** (CBoW), onde prevemos o token do meio $W_0$ em uma sequência de tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, onde prevemos um conjunto de tokens vizinhos {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} a partir do token do meio $W_0$.
 
-![imagem do artigo sobre conversão de palavras em vetores](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.br.png)
+![imagem do artigo sobre conversão de palavras em vetores](../../../../../translated_images/br/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > Imagem retirada [deste artigo](https://arxiv.org/pdf/1301.3781.pdf)
 

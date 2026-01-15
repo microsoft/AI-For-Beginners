@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Изкуствен интелект за начинаещи - Учебна програма
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.bg.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/bg/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

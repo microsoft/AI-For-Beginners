@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Τεχνητή Νοημοσύνη για Αρχάριους - Ένα Αναλυτικό Πρόγραμμα
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.el.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/el/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _Σημείωση σχεδίασης από [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 OpenAI పరిసరంలో [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) ను నియంత్రించడానికి RL ఏజెంట్‌ను శిక్షణ ఇవ్వడం మీ లక్ష్యం.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/mountaincar.f7b7a7f6d4f9933b.te.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/te/mountaincar.f7b7a7f6d4f9933b.png" width="300"/>
 
 ## పరిసరము
 

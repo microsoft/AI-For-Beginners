@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **连续词袋模型** (CBoW)，通过预测标记序列 $W_{-N}$, ..., $W_N$ 中的中间标记 $W_0$。
 * **Skip-gram**，通过中间标记 $W_0$ 来预测一组邻近标记 {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}。
 
-![论文中关于将单词转换为向量的算法示例](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.zh.png)
+![论文中关于将单词转换为向量的算法示例](../../../../../translated_images/zh/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > 图片来源于[这篇论文](https://arxiv.org/pdf/1301.3781.pdf)
 

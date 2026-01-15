@@ -20,13 +20,13 @@ U RNN je sekvence na sekvenci implementována dvěma rekurentními sítěmi, kde
 
 **Mechanismy pozornosti** poskytují způsob, jak vážit kontextuální vliv každého vstupního vektoru na každou výstupní predikci RNN. Implementuje se to vytvořením zkratek mezi mezistavy vstupní RNN a výstupní RNN. Tímto způsobem při generování výstupního symbolu y<sub>t</sub> zohledníme všechny skryté stavy vstupu h<sub>i</sub>, s různými váhovými koeficienty &alpha;<sub>t,i</sub>.
 
-![Obrázek zobrazující model enkodér/dekodér s vrstvou aditivní pozornosti](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.cs.png)
+![Obrázek zobrazující model enkodér/dekodér s vrstvou aditivní pozornosti](../../../../../translated_images/cs/encoder-decoder-attention.7a726296894fb567.png)
 
 > Model enkodér-dekodér s mechanismem aditivní pozornosti podle [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citováno z [tohoto blogového příspěvku](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matice pozornosti {&alpha;<sub>i,j</sub>} by reprezentovala míru, jakou určitá vstupní slova ovlivňují generování daného slova ve výstupní sekvenci. Níže je příklad takové matice:
 
-![Obrázek zobrazující vzorové zarovnání nalezené RNNsearch-50, převzato z Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.cs.png)
+![Obrázek zobrazující vzorové zarovnání nalezené RNNsearch-50, převzato z Bahdanau - arviz.org](../../../../../translated_images/cs/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > Obrázek z [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Obr.3)
 
@@ -66,7 +66,7 @@ Výsledek, který získáme s pozičním embeddingem, zahrnuje jak původní tok
 
 Dále potřebujeme zachytit určité vzorce v rámci naší sekvence. K tomu transformery používají mechanismus **vlastní pozornosti**, což je v podstatě pozornost aplikovaná na stejnou sekvenci jako vstup a výstup. Aplikace vlastní pozornosti nám umožňuje zohlednit **kontext** v rámci věty a vidět, která slova jsou vzájemně propojená. Například nám umožňuje vidět, na která slova odkazují koreference, jako *to*, a také zohlednit kontext:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.cs.png)
+![](../../../../../translated_images/cs/CoreferenceResolution.861924d6d384a7d6.png)
 
 > Obrázek z [Google Blogu](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Protože každá vstupní pozice je mapována nezávisle na každou výstupní p
 
 **BERT** (Bidirectional Encoder Representations from Transformers) je velmi velká vícevstvá síť transformeru s 12 vrstvami pro *BERT-base* a 24 pro *BERT-large*. Model je nejprve předtrénován na velkém korpusu textových dat (WikiPedia + knihy) pomocí nesupervizovaného tréninku (predikce maskovaných slov ve větě). Během předtrénování model absorbuje významné úrovně porozumění jazyku, které lze následně využít s jinými datovými sadami pomocí jemného ladění. Tento proces se nazývá **transfer learning**.
 
-![obrázek z http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.cs.png)
+![obrázek z http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/cs/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > Obrázek [zdroj](http://jalammar.github.io/illustrated-bert/)
 

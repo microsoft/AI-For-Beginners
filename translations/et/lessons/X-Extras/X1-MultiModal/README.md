@@ -15,7 +15,7 @@ Pärast transformer-mudelite edu NLP-ülesannete lahendamisel on sama või sarna
 
 CLIP-i peamine idee on võrrelda tekstilisi juhiseid pildiga ja määrata, kui hästi pilt vastab juhisele.
 
-![CLIP arhitektuur](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.et.png)
+![CLIP arhitektuur](../../../../../translated_images/et/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Pilt [sellest blogipostitusest](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kui mudel on eelnevalt treenitud, saame anda sellele pildipartii ja tekstiliste 
 
 Oletame, et peame klassifitseerima pilte näiteks kasside, koerte ja inimeste vahel. Sel juhul saame mudelile anda pildi ja rea tekstilisi juhiseid: "*kassi pilt*", "*koera pilt*", "*inimese pilt*". Kolme tõenäosuse vektoris peame lihtsalt valima indeksi, mille väärtus on kõige suurem.
 
-![CLIP pildiklassifikatsiooniks](../../../../../translated_images/clip-class.3af42ef0b2b19369.et.png)
+![CLIP pildiklassifikatsiooniks](../../../../../translated_images/et/clip-class.3af42ef0b2b19369.png)
 
 > *Pilt [sellest blogipostitusest](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Lisateavet VQGAN-i kohta leiate [Taming Transformers](https://compvis.github.io/
 
 Üks oluline erinevus VQGAN-i ja traditsioonilise GAN-i vahel on see, et viimane suudab genereerida korraliku pildi mis tahes sisendvektorist, samas kui VQGAN-i puhul on tõenäoline, et pilt ei ole koherentne. Seetõttu peame pildiloome protsessi täiendavalt suunama, mida saab teha CLIP-i abil.
 
-![VQGAN+CLIP arhitektuur](../../../../../translated_images/vqgan.5027fe05051dfa31.et.png)
+![VQGAN+CLIP arhitektuur](../../../../../translated_images/et/vqgan.5027fe05051dfa31.png)
 
 Tekstijuhisele vastava pildi genereerimiseks alustame juhusliku kodeerimisvektoriga, mis edastatakse VQGAN-ile, et luua pilt. Seejärel kasutatakse CLIP-i kaotusefunktsiooni loomiseks, mis näitab, kui hästi pilt vastab tekstilisele juhisele. Eesmärk on seejärel minimeerida kaotus, kasutades tagasipropageerimist sisendvektori parameetrite kohandamiseks.
 
 Suurepärane teek, mis rakendab VQGAN+CLIP-i, on [Pixray](http://github.com/pixray/pixray).
 
-![Pixray loodud pilt](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.et.png) |  ![Pixray loodud pilt](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.et.png) | ![Pixray loodud pilt](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.et.png)
+![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Pilt genereeritud juhisest *noore meesõpetaja lähivaade, akvarellportree, kirjanduse õpetaja, raamatuga* | Pilt genereeritud juhisest *noore naisõpetaja lähivaade, õliportree, arvutiteaduse õpetaja, arvutiga* | Pilt genereeritud juhisest *vana meesõpetaja lähivaade, õliportree, matemaatika õpetaja, tahvli ees*
 
@@ -75,7 +75,7 @@ Erinevalt CLIP-ist võtab DALL-E vastu nii teksti kui pilti ühe tokenite voona.
 Peamine erinevus DALL.E 1 ja 2 vahel on see, et viimane genereerib realistlikumaid pilte ja kunsti.
 
 Näited DALL-E abil genereeritud piltidest:
-![Pixray loodud pilt](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.et.png) |  ![Pixray loodud pilt](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.et.png) | ![Pixray loodud pilt](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.et.png)
+![Pixray loodud pilt](../../../../../translated_images/et/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Pixray loodud pilt](../../../../../translated_images/et/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Pixray loodud pilt](../../../../../translated_images/et/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Pilt genereeritud juhisest *noore meesõpetaja lähivaade, akvarellportree, kirjanduse õpetaja, raamatuga* | Pilt genereeritud juhisest *noore naisõpetaja lähivaade, õliportree, arvutiteaduse õpetaja, arvutiga* | Pilt genereeritud juhisest *vana meesõpetaja lähivaade, õliportree, matemaatika õpetaja, tahvli ees*
 

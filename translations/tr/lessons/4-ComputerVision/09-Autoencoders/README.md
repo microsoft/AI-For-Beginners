@@ -19,7 +19,7 @@ Ancak, CNN özellik çıkarıcılarını eğitmek için ham (etiketlenmemiş) ve
 
 Otomatik kodlayıcıyı, orijinal görüntüden mümkün olduğunca fazla bilgi yakalamak ve doğru bir şekilde yeniden oluşturmak için eğittiğimizden, ağ en iyi **gömülü temsili** bulmaya çalışır.
 
-![Otomatik Kodlayıcı Şeması](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.tr.jpg)
+![Otomatik Kodlayıcı Şeması](../../../../../translated_images/tr/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > Görsel [Keras blogundan](https://blog.keras.io/building-autoencoders-in-keras.html)
 

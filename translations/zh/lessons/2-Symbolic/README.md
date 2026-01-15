@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 知识表示与专家系统
 
-![符号 AI 内容摘要](../../../../translated_images/ai-symbolic.715a30cb610411a6.zh.png)
+![符号 AI 内容摘要](../../../../translated_images/zh/ai-symbolic.715a30cb610411a6.png)
 
 > [Tomomi Imura](https://twitter.com/girlie_mac) 的手绘笔记
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 因此，**知识表示**的问题是找到一种有效的方法，将知识以数据的形式表示在计算机中，使其能够自动使用。这可以看作是一个光谱：
 
-![知识表示光谱](../../../../translated_images/knowledge-spectrum.b60df631852c0217.zh.png)
+![知识表示光谱](../../../../translated_images/zh/knowledge-spectrum.b60df631852c0217.png)
 
 > 图片来源：[Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Python | 块语法 | 缩进
 
 符号 AI 的早期成功之一是所谓的**专家系统**——设计为在某些有限问题领域中充当专家的计算机系统。它们基于从一个或多个领域专家提取的**知识库**，并包含一个在其之上执行推理的**推理引擎**。
 
-![人类架构](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.zh.png) | ![基于知识的系统架构](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.zh.png)
+![人类架构](../../../../translated_images/zh/arch-human.5d4d35f1bba3ab1c.png) | ![基于知识的系统架构](../../../../translated_images/zh/arch-kbs.3ec5c150b09fa8da.png)
 ----------------------------------|----------------------------------------
 人类神经系统的简化结构         | 基于知识的系统的架构
 
@@ -106,7 +106,7 @@ Python | 块语法 | 缩进
 
 例如，让我们考虑以下基于动物物理特征的专家系统：
 
-![AND-OR 树](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.zh.png)
+![AND-OR 树](../../../../translated_images/zh/AND-OR-Tree.5592d2c70187f283.png)
 
 > 图片来源：[Dmitry Soshnikov](http://soshnikov.com)
 

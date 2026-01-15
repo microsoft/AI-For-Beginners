@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pemprosesan Bahasa Semula Jadi
 
-![Ringkasan tugas NLP dalam bentuk doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.ms.png)
+![Ringkasan tugas NLP dalam bentuk doodle](../../../../translated_images/ms/ai-nlp.b22dcb8ca4707cea.png)
 
 Dalam bahagian ini, kita akan memberi tumpuan kepada penggunaan Rangkaian Neural untuk menangani tugas-tugas berkaitan dengan **Pemprosesan Bahasa Semula Jadi (NLP)**. Terdapat banyak masalah NLP yang kita mahu komputer dapat selesaikan:
 

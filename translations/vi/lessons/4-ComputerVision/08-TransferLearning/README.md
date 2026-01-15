@@ -29,7 +29,7 @@ Cả Keras và PyTorch đều có các hàm để dễ dàng tải trọng số 
 
 Dưới đây là các đặc điểm mẫu được trích xuất từ một bức ảnh của một con mèo bởi mạng VGG-16:
 
-![Các đặc điểm được trích xuất bởi VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.vi.png)
+![Các đặc điểm được trích xuất bởi VGG-16](../../../../../translated_images/vi/features.6291f9c7ba3a0b95.png)
 
 ## Tập Dữ Liệu Mèo và Chó
 
@@ -48,19 +48,19 @@ Mạng nơ-ron đã được huấn luyện sẵn chứa các mẫu khác nhau b
 
 Một cách tiếp cận mà chúng ta có thể thực hiện là bắt đầu với một hình ảnh ngẫu nhiên, sau đó cố gắng sử dụng kỹ thuật **tối ưu hóa gradient descent** để điều chỉnh hình ảnh đó sao cho mạng bắt đầu nghĩ rằng đó là một con mèo.
 
-![Vòng lặp tối ưu hóa hình ảnh](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.vi.png)
+![Vòng lặp tối ưu hóa hình ảnh](../../../../../translated_images/vi/ideal-cat-loop.999fbb8ff306e044.png)
 
 Tuy nhiên, nếu chúng ta làm điều này, chúng ta sẽ nhận được một thứ rất giống với nhiễu ngẫu nhiên. Điều này là do *có nhiều cách để khiến mạng nghĩ rằng hình ảnh đầu vào là một con mèo*, bao gồm một số cách không có ý nghĩa về mặt thị giác. Mặc dù những hình ảnh này chứa nhiều mẫu đặc trưng cho một con mèo, nhưng không có gì ràng buộc chúng phải rõ ràng về mặt thị giác.
 
 Để cải thiện kết quả, chúng ta có thể thêm một thuật ngữ khác vào hàm mất mát, được gọi là **mất mát biến đổi**. Đây là một chỉ số cho thấy mức độ tương đồng giữa các pixel lân cận của hình ảnh. Việc giảm thiểu mất mát biến đổi làm cho hình ảnh mượt mà hơn và loại bỏ nhiễu - từ đó làm lộ ra các mẫu hấp dẫn hơn về mặt thị giác. Dưới đây là ví dụ về các hình ảnh "lý tưởng" như vậy, được phân loại là mèo và ngựa vằn với xác suất cao:
 
-![Mèo Lý Tưởng](../../../../../translated_images/ideal-cat.203dd4597643d6b0.vi.png) | ![Ngựa Vằn Lý Tưởng](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.vi.png)
+![Mèo Lý Tưởng](../../../../../translated_images/vi/ideal-cat.203dd4597643d6b0.png) | ![Ngựa Vằn Lý Tưởng](../../../../../translated_images/vi/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
  *Mèo Lý Tưởng* | *Ngựa Vằn Lý Tưởng*
 
 Cách tiếp cận tương tự có thể được sử dụng để thực hiện cái gọi là **tấn công đối kháng** trên mạng nơ-ron. Giả sử chúng ta muốn đánh lừa một mạng nơ-ron và làm cho một con chó trông giống như một con mèo. Nếu chúng ta lấy hình ảnh của một con chó, được mạng nhận diện là một con chó, chúng ta có thể điều chỉnh nó một chút bằng cách sử dụng tối ưu hóa gradient descent, cho đến khi mạng bắt đầu phân loại nó là một con mèo:
 
-![Hình ảnh của một con chó](../../../../../translated_images/original-dog.8f68a67d2fe0911f.vi.png) | ![Hình ảnh của một con chó được phân loại là mèo](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.vi.png)
+![Hình ảnh của một con chó](../../../../../translated_images/vi/original-dog.8f68a67d2fe0911f.png) | ![Hình ảnh của một con chó được phân loại là mèo](../../../../../translated_images/vi/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Hình ảnh gốc của một con chó* | *Hình ảnh của một con chó được phân loại là mèo*
 

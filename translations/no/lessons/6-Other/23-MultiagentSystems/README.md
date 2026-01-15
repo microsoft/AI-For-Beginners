@@ -70,7 +70,7 @@ Du kan åpne en av modellene, for eksempel **Biology &rightarrow; Flocking**.
 
 Etter å ha åpnet modellen, kommer du til hovedskjermen i NetLogo. Her er et eksempel på en modell som beskriver populasjonen av ulver og sauer, gitt begrensede ressurser (gress).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.no.png)
+![NetLogo Main Screen](../../../../../translated_images/no/NetLogo-Main.32653711ec1a01b3.png)
 
 > Skjermbilde av Dmitry Soshnikov
 

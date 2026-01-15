@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 నేచురల్ లాంగ్వేజ్ ప్రాసెసింగ్ (NLP) పనులను న్యూరల్ నెట్‌వర్క్‌లతో పరిష్కరించాలంటే, టెక్స్ట్‌ను టెన్సార్లుగా ప్రాతినిధ్యం వహించే విధానం అవసరం. కంప్యూటర్లు ఇప్పటికే ASCII లేదా UTF-8 వంటి ఎంకోడింగ్లను ఉపయోగించి స్క్రీన్‌పై ఫాంట్లకు మ్యాప్ అయ్యే సంఖ్యలుగా టెక్స్ట్ అక్షరాలను ప్రాతినిధ్యం వహిస్తాయి.
 
-<img alt="Image showing diagram mapping a character to an ASCII and binary representation" src="../../../../../translated_images/ascii-character-map.18ed6aa7f3b0a7ff.te.png" width="50%"/>
+<img alt="Image showing diagram mapping a character to an ASCII and binary representation" src="../../../../../translated_images/te/ascii-character-map.18ed6aa7f3b0a7ff.png" width="50%"/>
 
 > [చిత్ర మూలం](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +48,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 టెక్స్ట్ వర్గీకరణ వంటి పనులను పరిష్కరించేటప్పుడు, మనం ఒక స్థిర పరిమాణం వెక్టర్‌తో టెక్స్ట్‌ను ప్రాతినిధ్యం చేయగలగాలి, దీన్ని తుది డెన్స్ క్లాసిఫయర్‌కు ఇన్పుట్‌గా ఉపయోగిస్తాము. దీని కోసం ఒక సరళమైన మార్గం, ప్రతి పద ప్రాతినిధ్యాలను కలిపి, ఉదాహరణకు వాటిని జోడించడం. ప్రతి పదం వన్-హాట్ ఎంకోడింగ్‌లను జోడిస్తే, మనకు పదాల సంభావ్యతలను చూపించే ఫ్రీక్వెన్సీ వెక్టర్ వస్తుంది, అంటే ప్రతి పదం టెక్స్ట్‌లో ఎన్ని సార్లు వస్తుందో. ఈ విధంగా టెక్స్ట్ ప్రాతినిధ్యం **బ్యాగ్ ఆఫ్ వర్డ్స్** (BoW) అని పిలవబడుతుంది.
 
-<img src="../../../../../translated_images/bow.3811869cff59368d.te.png" width="90%"/>
+<img src="../../../../../translated_images/te/bow.3811869cff59368d.png" width="90%"/>
 
 > రచయితచే చిత్రీకరణ
 

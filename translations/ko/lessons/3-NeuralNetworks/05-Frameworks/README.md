@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 다음 그래프에서 5개의 점(`x`로 표시된 점)을 근사하는 문제를 고려해봅시다:
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.ko.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.ko.jpg)
+![linear](../../../../../translated_images/ko/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/ko/overfit2.131f5800ae10ca5e.jpg)
 -------------------------|--------------------------
 **선형 모델, 2개의 매개변수** | **비선형 모델, 7개의 매개변수**
 학습 오류 = 5.3 | 학습 오류 = 0
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 위 그래프에서 볼 수 있듯이, 과적합은 매우 낮은 학습 오류와 높은 검증 오류로 감지할 수 있습니다. 일반적으로 학습 중에는 학습 오류와 검증 오류가 모두 감소하다가, 어느 시점에서 검증 오류가 감소를 멈추고 증가하기 시작할 수 있습니다. 이는 과적합의 신호이며, 이 시점에서 학습을 멈추거나 모델의 스냅샷을 저장해야 한다는 표시입니다.
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.ko.png)
+![overfitting](../../../../../translated_images/ko/Overfitting.408ad91cd90b4371.png)
 
 ## 과적합을 방지하는 방법
 

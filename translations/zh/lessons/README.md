@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 概述
 
-![概述的手绘图](../../../translated_images/ai-overview.0857791951d19500.zh.png)
+![概述的手绘图](../../../translated_images/zh/ai-overview.0857791951d19500.png)
 
 > 手绘笔记由 [Tomomi Imura](https://twitter.com/girlie_mac) 提供
 

@@ -58,7 +58,7 @@ infant | O
 
 चूंकि हमें टोकन और वर्गों के बीच एक-से-एक पत्राचार बनाना है, हम इस चित्र से एक सही **कई-से-कई** तंत्रिका नेटवर्क मॉडल को प्रशिक्षित कर सकते हैं:
 
-![सामान्य पुनरावर्ती तंत्रिका नेटवर्क पैटर्न दिखाने वाली छवि।](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hi.jpg)
+![सामान्य पुनरावर्ती तंत्रिका नेटवर्क पैटर्न दिखाने वाली छवि।](../../../../../translated_images/hi/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > *[Andrej Karpathy](http://karpathy.github.io/) द्वारा [इस ब्लॉग पोस्ट](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) से छवि। NER टोकन वर्गीकरण मॉडल इस चित्र में सबसे दाईं ओर नेटवर्क आर्किटेक्चर से मेल खाते हैं।*
 

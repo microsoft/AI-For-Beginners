@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਜਦੋਂ ਅਸੀਂ ਆਟੋਇਨਕੋਡਰ ਨੂੰ ਮੂਲ ਚਿੱਤਰ ਤੋਂ ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਜਾਣਕਾਰੀ ਕੈਪਚਰ ਕਰ ਸਕਦੇ ਹਾਂ ਉਸ ਲਈ ਟ੍ਰੇਨ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਕਿ ਸਹੀ ਰੀਕੰਸਟ੍ਰਕਸ਼ਨ ਹੋ ਸਕੇ, ਨੈਟਵਰਕ ਇਨਪੁਟ ਚਿੱਤਰਾਂ ਦੀ **embedding** ਨੂੰ ਕੈਪਚਰ ਕਰਨ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਕੋਸ਼ਿਸ਼ ਕਰਦਾ ਹੈ।
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.pa.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/pa/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
 
 > ਚਿੱਤਰ [Keras ਬਲੌਗ](https://blog.keras.io/building-autoencoders-in-keras.html) ਤੋਂ
 

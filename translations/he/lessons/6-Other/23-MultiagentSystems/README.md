@@ -70,7 +70,7 @@ ask turtles [
 
 לאחר פתיחת המודל, תועברו למסך הראשי של NetLogo. הנה דוגמת מודל שמתאר את אוכלוסיית הזאבים והכבשים, בהתחשב במשאבים מוגבלים (דשא).
 
-![מסך ראשי של NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.he.png)
+![מסך ראשי של NetLogo](../../../../../translated_images/he/NetLogo-Main.32653711ec1a01b3.png)
 
 > צילום מסך מאת דמיטרי סושניקוב
 

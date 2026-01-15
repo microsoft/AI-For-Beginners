@@ -57,7 +57,7 @@ csecsemőben | O
 
 Mivel egy-egy megfeleltetést kell létrehoznunk a tokenek és osztályok között, egy **sok-sokhoz** neurális hálózati modellt tudunk tanítani az alábbi ábráról:
 
-![Kép, amely a gyakori rekurzív neurális hálózati mintákat mutatja.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hu.jpg)
+![Kép, amely a gyakori rekurzív neurális hálózati mintákat mutatja.](../../../../../translated_images/hu/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > *Kép [ebből a blogbejegyzésből](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) [Andrej Karpathy](http://karpathy.github.io/) tollából. A NER token klasszifikációs modellek megfelelnek az ábra jobb szélső hálózati architektúrájának.*
 

@@ -19,7 +19,7 @@ In de RNN-architectuur die we in de vorige eenheid hebben besproken, produceerde
 
 Dit maakt verschillende neurale architecturen mogelijk, zoals weergegeven in de onderstaande afbeelding:
 
-![Afbeelding met veelvoorkomende patronen van recurrente neurale netwerken.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.nl.jpg)
+![Afbeelding met veelvoorkomende patronen van recurrente neurale netwerken.](../../../../../translated_images/nl/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
 
 > Afbeelding uit de blogpost [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) door [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ In deze eenheid richten we ons op eenvoudige generatieve modellen die ons helpen
 
 We trainen deze RNN om tekst stap voor stap te genereren. Bij elke stap nemen we een reeks karakters van lengte `nchars` en vragen we het netwerk om het volgende uitvoerkarakter te genereren voor elk invoerkarakter:
 
-![Afbeelding met een voorbeeld van RNN-generatie van het woord 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.nl.png)
+![Afbeelding met een voorbeeld van RNN-generatie van het woord 'HELLO'.](../../../../../translated_images/nl/rnn-generate.56c54afb52f9781d.png)
 
 Bij het genereren van tekst (tijdens inferentie) beginnen we met een **prompt**, die door de RNN-cellen wordt doorgegeven om de tussenliggende toestand te genereren. Vanuit deze toestand begint de generatie. We genereren één karakter tegelijk en geven de toestand en het gegenereerde karakter door aan een andere RNN-cel om het volgende te genereren, totdat we genoeg karakters hebben gegenereerd.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representação de Conhecimento e Sistemas Especialistas
 
-![Resumo do conteúdo de IA Simbólica](../../../../translated_images/ai-symbolic.715a30cb610411a6.pt.png)
+![Resumo do conteúdo de IA Simbólica](../../../../translated_images/pt/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Na maioria das vezes, não definimos estritamente o conhecimento, mas alinhamos 
 
 Assim, o problema da **representação de conhecimento** é encontrar uma forma eficaz de representar o conhecimento dentro de um computador na forma de dados, para torná-lo automaticamente utilizável. Isso pode ser visto como um espectro:
 
-![Espectro de representação de conhecimento](../../../../translated_images/knowledge-spectrum.b60df631852c0217.pt.png)
+![Espectro de representação de conhecimento](../../../../translated_images/pt/knowledge-spectrum.b60df631852c0217.png)
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaxe de Bloco | Indentação | |
 
 Um dos primeiros sucessos da IA simbólica foram os chamados **sistemas especialistas** - sistemas computacionais projetados para atuar como especialistas em um domínio de problema limitado. Eles baseavam-se em uma **base de conhecimento** extraída de um ou mais especialistas humanos e continham um **motor de inferência** que realizava algum raciocínio sobre ela.
 
-![Arquitetura Humana](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.pt.png) | ![Sistema Baseado em Conhecimento](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.pt.png)  
+![Arquitetura Humana](../../../../translated_images/pt/arch-human.5d4d35f1bba3ab1c.png) | ![Sistema Baseado em Conhecimento](../../../../translated_images/pt/arch-kbs.3ec5c150b09fa8da.png)  
 ---------------------------------------------|------------------------------------------------  
 Estrutura simplificada do sistema neural humano | Arquitetura de um sistema baseado em conhecimento  
 
@@ -106,7 +106,7 @@ Os sistemas especialistas são construídos como o sistema de raciocínio humano
 
 Como exemplo, vamos considerar o seguinte sistema especialista para determinar um animal com base nas suas características físicas:
 
-![Árvore AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.pt.png)
+![Árvore AND-OR](../../../../translated_images/pt/AND-OR-Tree.5592d2c70187f283.png)
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 

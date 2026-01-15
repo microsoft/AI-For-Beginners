@@ -21,7 +21,7 @@ Vaša naloga je, da usposobite konvolucijsko nevronsko mrežo za razvrščanje r
 
 Uporabili bomo [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), ki vsebuje slike 37 različnih pasem psov in mačk.
 
-![Podatkovna zbirka, s katero bomo delali](../../../../../../translated_images/data.50b2a9d5484bdbf0.sl.png)
+![Podatkovna zbirka, s katero bomo delali](../../../../../../translated_images/sl/data.50b2a9d5484bdbf0.png)
 
 Za prenos podatkovne zbirke uporabite naslednji del kode:
 

@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 ایک نیٹ ورک ہے جس نے 2014 میں ImageNet کے ٹاپ-5 کلاسیفیکیشن میں 92.7% درستگی حاصل کی۔ اس کی درج ذیل لیئر ساخت ہے:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ur.jpg)
+![ImageNet Layers](../../../../../translated_images/ur/vgg-16-arch1.d901a5583b3a51ba.jpg)
 
 جیسا کہ آپ دیکھ سکتے ہیں، VGG ایک روایتی پیرامڈ آرکیٹیکچر کی پیروی کرتا ہے، جو کہ کنوولوشن-پولنگ لیئرز کی ترتیب ہے۔
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ur.jpg)
+![ImageNet Pyramid](../../../../../translated_images/ur/vgg-16-arch.64ff2137f50dd49f.jpg)
 
 > تصویر [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) سے لی گئی ہے۔
 

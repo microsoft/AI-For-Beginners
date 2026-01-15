@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # कम्प्युटर भिजन
 
-![कम्प्युटर भिजन सामग्रीको सारांश डुडलमा](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ne.png)
+![कम्प्युटर भिजन सामग्रीको सारांश डुडलमा](../../../../translated_images/ne/ai-computervision.6506ebebac3fbf76.png)
 
 यस खण्डमा हामी सिक्नेछौं:
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Компютърно зрение
 
-![Обобщение на съдържанието за компютърно зрение в рисунка](../../../../translated_images/ai-computervision.6506ebebac3fbf76.bg.png)
+![Обобщение на съдържанието за компютърно зрение в рисунка](../../../../translated_images/bg/ai-computervision.6506ebebac3fbf76.png)
 
 В тази секция ще научим за:
 

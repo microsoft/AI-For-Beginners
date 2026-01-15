@@ -70,7 +70,7 @@ Odprite enega od modelov, na primer **Biology &rightarrow; Flocking**.
 
 Ko odprete model, pridete na glavni zaslon NetLogo. Tukaj je primer modela, ki opisuje populacijo volkov in ovc ob omejenih virih (trava).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.sl.png)
+![NetLogo Main Screen](../../../../../translated_images/sl/NetLogo-Main.32653711ec1a01b3.png)
 
 > Posnetek zaslona avtorja Dmitry Soshnikov
 

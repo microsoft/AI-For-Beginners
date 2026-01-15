@@ -20,13 +20,13 @@ Kod RNN-ova, sekvenca-u-sekvencu se implementira pomoću dvije rekurentne mreže
 
 **Mehanizmi pažnje** omogućuju ponderiranje kontekstualnog utjecaja svakog ulaznog vektora na svaku izlaznu predikciju RNN-a. To se implementira stvaranjem prečaca između međustanja ulaznog RNN-a i izlaznog RNN-a. Na taj način, pri generiranju izlaznog simbola y<sub>t</sub>, uzet ćemo u obzir sva skrivena stanja ulaza h<sub>i</sub>, s različitim težinskim koeficijentima &alpha;<sub>t,i</sub>.
 
-![Slika koja prikazuje enkoder/dekoder model s aditivnim slojem pažnje](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.hr.png)
+![Slika koja prikazuje enkoder/dekoder model s aditivnim slojem pažnje](../../../../../translated_images/hr/encoder-decoder-attention.7a726296894fb567.png)
 
 > Enkoder-dekoder model s aditivnim mehanizmom pažnje u [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citirano iz [ovog blog posta](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matrica pažnje {&alpha;<sub>i,j</sub>} predstavlja stupanj u kojem određene ulazne riječi sudjeluju u generiranju određene riječi u izlaznoj sekvenci. Ispod je primjer takve matrice:
 
-![Slika koja prikazuje uzorak poravnanja pronađen od strane RNNsearch-50, preuzeto iz Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.hr.png)
+![Slika koja prikazuje uzorak poravnanja pronađen od strane RNNsearch-50, preuzeto iz Bahdanau - arviz.org](../../../../../translated_images/hr/bahdanau-fig3.09ba2d37f202a6af.png)
 
 > Slika iz [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Slika 3)
 
@@ -66,7 +66,7 @@ Rezultat koji dobivamo s pozicijskim ugrađivanjem uključuje i originalni token
 
 Zatim trebamo uhvatiti neke uzorke unutar naše sekvence. Da bismo to učinili, transformeri koriste mehanizam **samopozornosti**, koji je u osnovi pažnja primijenjena na istu sekvencu kao ulaz i izlaz. Primjena samopozornosti omogućuje nam uzimanje u obzir **konteksta** unutar rečenice i uvid u međusobne odnose između riječi. Na primjer, omogućuje nam da vidimo na koje riječi se odnose zamjenice poput *to*, i također uzimamo kontekst u obzir:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.hr.png)
+![](../../../../../translated_images/hr/CoreferenceResolution.861924d6d384a7d6.png)
 
 > Slika iz [Googleovog bloga](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Budući da se svaka ulazna pozicija neovisno mapira na svaku izlaznu poziciju, t
 
 **BERT** (Bidirectional Encoder Representations from Transformers) je vrlo velika višeslojna transformer mreža s 12 slojeva za *BERT-base*, i 24 za *BERT-large*. Model se prvo unaprijed trenira na velikom korpusu tekstualnih podataka (WikiPedia + knjige) koristeći nenadzirano učenje (predviđanje maskiranih riječi u rečenici). Tijekom unaprijed treniranja model usvaja značajne razine razumijevanja jezika koje se zatim mogu iskoristiti s drugim skupovima podataka pomoću finog podešavanja. Ovaj proces naziva se **transferno učenje**.
 
-![slika s http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.hr.png)
+![slika s http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/hr/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
 
 > Slika [izvor](http://jalammar.github.io/illustrated-bert/)
 

@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # 初學者的人工智慧課程
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.tw.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/tw/ai-overview.0857791951d19500.png)|
 |:---:|
 | AI For Beginners - _筆記速寫由 [@girlie_mac](https://twitter.com/girlie_mac) 提供_ |
 

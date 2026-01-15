@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Počítačové videnie
 
-![Zhrnutie obsahu o počítačovom videní v kresbe](../../../../translated_images/ai-computervision.6506ebebac3fbf76.sk.png)
+![Zhrnutie obsahu o počítačovom videní v kresbe](../../../../translated_images/sk/ai-computervision.6506ebebac3fbf76.png)
 
 V tejto sekcii sa naučíme:
 

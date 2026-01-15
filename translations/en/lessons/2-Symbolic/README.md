@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Knowledge Representation and Expert Systems
 
-![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.en.png)
+![Summary of Symbolic AI content](../../../../translated_images/en/ai-symbolic.715a30cb610411a6964d2e2f23f24364cb338a07cb4844c1f97084d366e586c3.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Typically, knowledge isn’t strictly defined but is aligned with related concep
 
 The challenge of **knowledge representation** is finding an effective way to encode knowledge in a computer as data, making it usable automatically. This can be visualized as a spectrum:
 
-![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.en.png)
+![Knowledge representation spectrum](../../../../translated_images/en/knowledge-spectrum.b60df631852c0217e941485b79c9eee40ebd574f15f18609cec5758fcb384bf3.png)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 One of the early achievements of symbolic AI was the development of **expert systems**—computer systems designed to act as experts in specific problem domains. These systems relied on a **knowledge base** extracted from human experts and an **inference engine** to perform reasoning.
 
-![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.en.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.en.png)
+![Human Architecture](../../../../translated_images/en/arch-human.5d4d35f1bba3ab1cdfda96af2f10b89574eb31e9796d0e3011cd9beda1c35112.png) | ![Knowledge-Based System](../../../../translated_images/en/arch-kbs.3ec5c150b09fa8dadc2beb0931a4983c9e2b03913a89eebcc103b5bb841b0212.png)
 ---------------------------------------------|------------------------------------------------
 Simplified structure of a human neural system | Architecture of a knowledge-based system
 
@@ -106,7 +106,7 @@ Expert systems are modeled after human reasoning, which involves **short-term me
 
 For example, consider an expert system designed to identify animals based on physical characteristics:
 
-![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.en.png)
+![AND-OR Tree](../../../../translated_images/en/AND-OR-Tree.5592d2c70187f283703c8e9c0d69d6a786eb370f4ace67f9a7aae5ada3d260b0.png)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 

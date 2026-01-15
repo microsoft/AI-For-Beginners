@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 আমরা [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) ব্যবহার করব, যেখানে ৩৭টি ভিন্ন জাতের কুকুর এবং বিড়ালের ছবি রয়েছে।
 
-![আমরা যে ডেটাসেট নিয়ে কাজ করব](../../../../../../translated_images/data.50b2a9d5484bdbf0.bn.png)
+![আমরা যে ডেটাসেট নিয়ে কাজ করব](../../../../../../translated_images/bn/data.50b2a9d5484bdbf0.png)
 
 ডেটাসেট ডাউনলোড করতে, এই কোড স্নিপেটটি ব্যবহার করুন:
 

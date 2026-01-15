@@ -29,7 +29,7 @@ Keras i PyTorch obsahují funkce pro snadné načtení předtrénovaných vah ne
 
 Zde jsou ukázkové rysy extrahované z obrázku kočky pomocí sítě VGG-16:
 
-![Rysy extrahované sítí VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.cs.png)
+![Rysy extrahované sítí VGG-16](../../../../../translated_images/cs/features.6291f9c7ba3a0b95.png)
 
 ## Dataset Kočky vs. Psi
 
@@ -48,19 +48,19 @@ Předtrénovaná neuronová síť obsahuje různé vzory uvnitř svého *mozku*,
 
 Jedním z přístupů, které můžeme použít, je začít s náhodným obrázkem a poté se pokusit pomocí techniky **optimalizace gradientního sestupu** upravit tento obrázek tak, aby si síť začala myslet, že je to kočka.
 
-![Optimalizační smyčka obrázku](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.cs.png)
+![Optimalizační smyčka obrázku](../../../../../translated_images/cs/ideal-cat-loop.999fbb8ff306e044.png)
 
 Pokud to však uděláme, obdržíme něco velmi podobného náhodnému šumu. To je proto, že *existuje mnoho způsobů, jak síť přimět myslet si, že vstupní obrázek je kočka*, včetně některých, které vizuálně nedávají smysl. Zatímco tyto obrázky obsahují mnoho vzorů typických pro kočku, nic je neomezuje, aby byly vizuálně rozlišitelné.
 
 Pro zlepšení výsledku můžeme do ztrátové funkce přidat další člen, který se nazývá **variation loss**. Je to metrika, která ukazuje, jak podobné jsou sousední pixely obrázku. Minimalizace variation loss činí obrázek hladším a zbavuje se šumu – tím odhaluje vizuálně přitažlivější vzory. Zde je příklad takových "ideálních" obrázků, které jsou klasifikovány jako kočka a jako zebra s vysokou pravděpodobností:
 
-![Ideální kočka](../../../../../translated_images/ideal-cat.203dd4597643d6b0.cs.png) | ![Ideální zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.cs.png)
+![Ideální kočka](../../../../../translated_images/cs/ideal-cat.203dd4597643d6b0.png) | ![Ideální zebra](../../../../../translated_images/cs/ideal-zebra.7f70e8b54ee15a7a.png)
 -----|-----
 *Ideální kočka* | *Ideální zebra*
 
 Podobný přístup lze použít k provádění tzv. **adversarial útoků** na neuronovou síť. Představme si, že chceme oklamat neuronovou síť a přimět ji, aby psa považovala za kočku. Pokud vezmeme obrázek psa, který je sítí rozpoznán jako pes, můžeme jej trochu upravit pomocí optimalizace gradientního sestupu, dokud síť nezačne klasifikovat obrázek jako kočku:
 
-![Obrázek psa](../../../../../translated_images/original-dog.8f68a67d2fe0911f.cs.png) | ![Obrázek psa klasifikovaný jako kočka](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.cs.png)
+![Obrázek psa](../../../../../translated_images/cs/original-dog.8f68a67d2fe0911f.png) | ![Obrázek psa klasifikovaný jako kočka](../../../../../translated_images/cs/adversarial-dog.d9fc7773b0142b89.png)
 -----|-----
 *Původní obrázek psa* | *Obrázek psa klasifikovaný jako kočka*
 

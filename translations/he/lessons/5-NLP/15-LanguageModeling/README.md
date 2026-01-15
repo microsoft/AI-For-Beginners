@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Continuous Bag-of-Words** (CBoW), שבו אנו חוזים את הטוקן האמצעי $W_0$ ברצף טוקנים $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, שבו אנו חוזים סט של טוקנים סמוכים {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} מתוך הטוקן האמצעי $W_0$.
 
-![תמונה מתוך מאמר על המרת מילים לווקטורים](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.he.png)
+![תמונה מתוך מאמר על המרת מילים לווקטורים](../../../../../translated_images/he/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
 
 > תמונה מתוך [המאמר הזה](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Η βασική ιδέα του CLIP είναι να μπορεί να συγκρίνει κείμενα με εικόνες και να καθορίζει πόσο καλά η εικόνα αντιστοιχεί στο κείμενο.
 
-![Αρχιτεκτονική CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.el.png)
+![Αρχιτεκτονική CLIP](../../../../../translated_images/el/clip-arch.b3dbf20b4e8ed8be.png)
 
 > *Εικόνα από [αυτήν την ανάρτηση στο blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ας υποθέσουμε ότι πρέπει να ταξινομήσουμε εικόνες μεταξύ, για παράδειγμα, γάτες, σκύλους και ανθρώπους. Σε αυτήν την περίπτωση, μπορούμε να δώσουμε στο μοντέλο μια εικόνα και μια σειρά από κείμενα: "*μια εικόνα μιας γάτας*", "*μια εικόνα ενός σκύλου*", "*μια εικόνα ενός ανθρώπου*". Στον προκύπτοντα διανυσματικό πίνακα με 3 πιθανότητες, απλώς πρέπει να επιλέξουμε τον δείκτη με τη μεγαλύτερη τιμή.
 
-![CLIP για Ταξινόμηση Εικόνων](../../../../../translated_images/clip-class.3af42ef0b2b19369.el.png)
+![CLIP για Ταξινόμηση Εικόνων](../../../../../translated_images/el/clip-class.3af42ef0b2b19369.png)
 
 > *Εικόνα από [αυτήν την ανάρτηση στο blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Μία από τις σημαντικές διαφορές μεταξύ VQGAN και παραδοσιακού GAN είναι ότι το τελευταίο μπορεί να παράγει μια αξιοπρεπή εικόνα από οποιοδήποτε διανυσματικό εισόδου, ενώ το VQGAN είναι πιθανό να παράγει μια εικόνα που δεν είναι συνεκτική. Επομένως, πρέπει να καθοδηγήσουμε περαιτέρω τη διαδικασία δημιουργίας εικόνας, και αυτό μπορεί να γίνει χρησιμοποιώντας το CLIP.
 
-![Αρχιτεκτονική VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.el.png)
+![Αρχιτεκτονική VQGAN+CLIP](../../../../../translated_images/el/vqgan.5027fe05051dfa31.png)
 
 Για να δημιουργήσουμε μια εικόνα που αντιστοιχεί σε ένα κείμενο, ξεκινάμε με κάποιο τυχαίο διανυσματικό κωδικοποίησης που περνάει μέσω του VQGAN για να παράγει μια εικόνα. Στη συνέχεια, το CLIP χρησιμοποιείται για να παράγει μια συνάρτηση απώλειας που δείχνει πόσο καλά η εικόνα αντιστοιχεί στο κείμενο. Ο στόχος είναι να ελαχιστοποιήσουμε αυτήν την απώλεια, χρησιμοποιώντας back propagation για να προσαρμόσουμε τις παραμέτρους του διανυσματικού εισόδου.
 
 Μια εξαιρετική βιβλιοθήκη που υλοποιεί το VQGAN+CLIP είναι το [Pixray](http://github.com/pixray/pixray).
 
-![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.el.png) |  ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.el.png) | ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.el.png)
+![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
 ----|----|----
 Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ακουαρέλα πορτραίτο ενός νεαρού άνδρα δασκάλου λογοτεχνίας με ένα βιβλίο* | Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ελαιογραφία πορτραίτο μιας νεαρής γυναίκας δασκάλας πληροφορικής με έναν υπολογιστή* | Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ελαιογραφία πορτραίτο ενός ηλικιωμένου άνδρα δασκάλου μαθηματικών μπροστά από έναν πίνακα*
 
@@ -75,7 +75,7 @@ CO_OP_TRANSLATOR_METADATA:
 Η κύρια διαφορά μεταξύ DALL-E 1 και 2 είναι ότι το δεύτερο δημιουργεί πιο ρεαλιστικές εικόνες και τέχνη.
 
 Παραδείγματα δημιουργίας εικόνων με το DALL-E:
-![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.el.png) |  ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.el.png) | ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.el.png)
+![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Εικόνα που δημιουργήθηκε από το Pixray](../../../../../translated_images/el/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ακουαρέλα πορτραίτο ενός νεαρού άνδρα δασκάλου λογοτεχνίας με ένα βιβλίο* | Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ελαιογραφία πορτραίτο μιας νεαρής γυναίκας δασκάλας πληροφορικής με έναν υπολογιστή* | Εικόνα που δημιουργήθηκε από το κείμενο *μια κοντινή ελαιογραφία πορτραίτο ενός ηλικιωμένου άνδρα δασκάλου μαθηματικών μπροστά από έναν πίνακα*
 

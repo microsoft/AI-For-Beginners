@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representasi Pengetahuan dan Sistem Pakar
 
-![Ringkasan konten AI simbolik](../../../../translated_images/ai-symbolic.715a30cb610411a6.id.png)
+![Ringkasan konten AI simbolik](../../../../translated_images/id/ai-symbolic.715a30cb610411a6.png)
 
 > Sketchnote oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Sering kali, kita tidak secara ketat mendefinisikan pengetahuan, tetapi kita men
 
 Dengan demikian, masalah **representasi pengetahuan** adalah menemukan cara yang efektif untuk merepresentasikan pengetahuan di dalam komputer dalam bentuk data, agar dapat digunakan secara otomatis. Ini dapat dilihat sebagai spektrum:
 
-![Spektrum representasi pengetahuan](../../../../translated_images/knowledge-spectrum.b60df631852c0217.id.png)
+![Spektrum representasi pengetahuan](../../../../translated_images/id/knowledge-spectrum.b60df631852c0217.png)
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaks Blok | Indentasi | | |
 
 Salah satu keberhasilan awal AI simbolik adalah **sistem pakar** - sistem komputer yang dirancang untuk bertindak sebagai pakar dalam domain masalah yang terbatas. Sistem ini didasarkan pada **basis pengetahuan** yang diekstraksi dari satu atau lebih pakar manusia, dan mereka memiliki **mesin inferensi** yang melakukan penalaran di atasnya.
 
-![Arsitektur Manusia](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.id.png) | ![Sistem Berbasis Pengetahuan](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.id.png)
+![Arsitektur Manusia](../../../../translated_images/id/arch-human.5d4d35f1bba3ab1c.png) | ![Sistem Berbasis Pengetahuan](../../../../translated_images/id/arch-kbs.3ec5c150b09fa8da.png)
 ---------------------------------------------|------------------------------------------------
 Struktur sederhana sistem saraf manusia       | Arsitektur sistem berbasis pengetahuan
 
@@ -106,7 +106,7 @@ Sistem pakar dibangun seperti sistem penalaran manusia, yang mengandung **memori
 
 Sebagai contoh, mari kita pertimbangkan sistem pakar berikut untuk menentukan hewan berdasarkan karakteristik fisiknya:
 
-![Pohon AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.id.png)
+![Pohon AND-OR](../../../../translated_images/id/AND-OR-Tree.5592d2c70187f283.png)
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 
