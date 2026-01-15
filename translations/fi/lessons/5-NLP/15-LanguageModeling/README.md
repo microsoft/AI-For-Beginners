@@ -23,7 +23,7 @@ Aiemmissa esimerkeissämme käytimme valmiiksi koulutettuja semanttisia upotuksi
 * **Continuous Bag-of-Words** (CBoW), jossa ennustamme keskimmäisen sanan $W_0$ sanajonossa $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, jossa ennustamme joukon naapurisanoja {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} keskimmäisestä sanasta $W_0$.
 
-![kuva paperista, jossa käsitellään sanojen muuntamista vektoreiksi](../../../../../translated_images/fi/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![kuva paperista, jossa käsitellään sanojen muuntamista vektoreiksi](../../../../../translated_images/fi/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Kuva [tästä paperista](https://arxiv.org/pdf/1301.3781.pdf)
 

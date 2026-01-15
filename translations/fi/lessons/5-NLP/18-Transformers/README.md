@@ -20,13 +20,13 @@ RNN:ien avulla sekvenssi-sekvenssi toteutetaan kahdella toistuvalla verkolla, jo
 
 **Huomiomekanismit** tarjoavat tavan painottaa kunkin syötevektorin kontekstuaalista vaikutusta RNN:n kunkin ennusteen kohdalla. Tämä toteutetaan luomalla oikoteitä syötteen RNN:n välitilojen ja tuloksen RNN:n välille. Näin ollen, kun tuotetaan ulostulosymbolia y<sub>t</sub>, otamme huomioon kaikki syötteen piilotilat h<sub>i</sub>, eri painokertoimilla &alpha;<sub>t,i</sub>.
 
-![Kuva, joka näyttää enkooderi/dekooderi-mallin additiivisella huomiokerroksella](../../../../../translated_images/fi/encoder-decoder-attention.7a726296894fb567.png)
+![Kuva, joka näyttää enkooderi/dekooderi-mallin additiivisella huomiokerroksella](../../../../../translated_images/fi/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Enkooderi-dekooderi-malli additiivisella huomiomekanismilla [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), lainattu [tästä blogikirjoituksesta](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Huomiomatriisi {&alpha;<sub>i,j</sub>} edustaa sitä, kuinka paljon tietyt syötteen sanat vaikuttavat tietyn sanan tuottamiseen ulostulosekvenssissä. Alla on esimerkki tällaisesta matriisista:
 
-![Kuva, joka näyttää esimerkkikohdistuksen RNNsearch-50:llä, otettu Bahdanau - arviz.org](../../../../../translated_images/fi/bahdanau-fig3.09ba2d37f202a6af.png)
+![Kuva, joka näyttää esimerkkikohdistuksen RNNsearch-50:llä, otettu Bahdanau - arviz.org](../../../../../translated_images/fi/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Kuva [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Tuloksena saadaan positionaalinen upotus, joka upottaa sekä alkuperäisen token
 
 Seuraavaksi täytyy tunnistaa kuvioita sekvenssissä. Tätä varten transformerit käyttävät **itsehuomiomekanismia**, joka on käytännössä huomio, joka kohdistetaan samaan sekvenssiin syötteenä ja tuloksena. Itsehuomion soveltaminen mahdollistaa **kontekstin** huomioimisen lauseessa ja sen, mitkä sanat liittyvät toisiinsa. Esimerkiksi se auttaa tunnistamaan, mihin sanat kuten *se* viittaavat, ja ottaa kontekstin huomioon:
 
-![](../../../../../translated_images/fi/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/fi/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Kuva [Googlen blogista](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Koska jokainen syötteen sijainti kartoitetaan itsenäisesti jokaiseen tuloksen 
 
 **BERT** (Bidirectional Encoder Representations from Transformers) on erittäin suuri monikerroksinen transformer-verkko, jossa on 12 kerrosta *BERT-base*-mallissa ja 24 kerrosta *BERT-large*-mallissa. Malli esikoulutetaan ensin suurella tekstikorpuksella (Wikipedia + kirjat) käyttämällä valvomatonta koulutusta (ennustamalla peitettyjä sanoja lauseessa). Esikoulutuksen aikana malli omaksuu merkittävän määrän kielen ymmärrystä, jota voidaan hyödyntää muilla aineistoilla hienosäädön avulla. Tätä prosessia kutsutaan **siirto-oppimiseksi**.
 
-![kuva osoitteesta http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/fi/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![kuva osoitteesta http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/fi/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Kuva [lähde](http://jalammar.github.io/illustrated-bert/)
 

@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Mesterséges intelligencia kezdőknek – Tananyag
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/hu/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/hu/ai-overview.0857791951d19500.webp)|
 |:---:|
 | Mesterséges intelligencia kezdőknek – _Vázlat [@girlie_mac](https://twitter.com/girlie_mac) tollából_ |
 

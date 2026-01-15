@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Προ-μάθημα κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Ανίχνευση Αντικειμένων](../../../../../translated_images/el/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![Ανίχνευση Αντικειμένων](../../../../../translated_images/el/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Εικόνα από [ιστοσελίδα YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. Εκτελέστε ταξινόμηση εικόνας σε κάθε πλακίδιο.
 3. Τα πλακίδια που δίνουν αρκετά υψηλή ενεργοποίηση μπορούν να θεωρηθούν ότι περιέχουν το αντικείμενο που αναζητούμε.
 
-![Αφελής Ανίχνευση Αντικειμένων](../../../../../translated_images/el/naive-detection.e7f1ba220ccd08c6.png)
+![Αφελής Ανίχνευση Αντικειμένων](../../../../../translated_images/el/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Εικόνα από [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 κατηγορίες
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 κατηγορίες, πλαίσια και μάσκες τμηματοποίησης
 
-![COCO](../../../../../translated_images/el/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/el/coco-examples.71bc60380fa6cceb.webp)
 
 ## Μετρικές Ανίχνευσης Αντικειμένων
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ενώ για την ταξινόμηση εικόνων είναι εύκολο να μετρήσουμε πόσο καλά αποδίδει ο αλγόριθμος, για την ανίχνευση αντικειμένων πρέπει να μετρήσουμε τόσο την ορθότητα της κατηγορίας όσο και την ακρίβεια της προβλεπόμενης θέσης του πλαισίου. Για το τελευταίο, χρησιμοποιούμε τη λεγόμενη **Intersection over Union** (IoU), η οποία μετρά πόσο καλά δύο πλαίσια (ή δύο αυθαίρετες περιοχές) επικαλύπτονται.
 
-![IoU](../../../../../translated_images/el/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/el/iou_equation.9a4751d40fff4e11.webp)
 
 > *Εικόνα 2 από [αυτό το εξαιρετικό άρθρο για το IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 Το [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) χρησιμοποιεί [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) για να δημιουργήσει ιεραρχική δομή περιοχών ROI, οι οποίες στη συνέχεια περνούν από εξαγωγείς χαρακτηριστικών CNN και ταξινομητές SVM για να προσδιοριστεί η κατηγορία του αντικειμένου, και γραμμική παλινδρόμηση για να προσδιοριστούν οι συντεταγμένες του *bounding box*. [Επίσημο Άρθρο](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/el/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/el/rcnn1.cae407020dfb1d1f.webp)
 
 > *Εικόνα από van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/el/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/el/rcnn2.2d9530bb83516484.webp)
 
 > *Εικόνες από [αυτό το άρθρο](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 Αυτή η προσέγγιση είναι παρόμοια με το R-CNN, αλλά οι περιοχές ορίζονται αφού έχουν εφαρμοστεί τα επίπεδα συνελικτικής.
 
-![FRCNN](../../../../../translated_images/el/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/el/f-rcnn.3cda6d9bb4188875.webp)
 
 > Εικόνα από [το Επίσημο Άρθρο](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ $$
 
 Η βασική ιδέα αυτής της προσέγγισης είναι να χρησιμοποιηθεί ένα νευρωνικό δίκτυο για να προβλέψει τα ROI - το λεγόμενο *Region Proposal Network*. [Άρθρο](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/el/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/el/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Εικόνα από [το επίσημο άρθρο](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 1. Τα χαρακτηριστικά επεξεργάζονται από **Position-Sensitive Score Map**. Κάθε αντικείμενο από $C$ κατηγορίες διαιρείται σε $k\times k$ περιοχές, και εκπαιδεύουμε το δίκτυο να προβλέπει μέρη αντικειμένων.
 1. Για κάθε μέρος από τις $k\times k$ περιοχές, όλα τα δίκτυα ψηφίζουν για τις κατηγορίες αντικειμένων, και η κατηγορία αντικειμένου με τη μέγιστη ψήφο επιλέγεται.
 
-![r-fcn image](../../../../../translated_images/el/r-fcn.13eb88158b99a3da.png)
+![r-fcn image](../../../../../translated_images/el/r-fcn.13eb88158b99a3da.webp)
 
 > Εικόνα από [επίσημο άρθρο](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ $$
  * Η εικόνα διαιρείται σε $S\times S$ περιοχές.
  * Για κάθε περιοχή, **CNN** προβλέπει $n$ πιθανά αντικείμενα, τις συντεταγμένες του *bounding box* και την *confidence*=*πιθανότητα* * IoU.
 
- ![YOLO](../../../../../translated_images/el/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/el/yolo.a2648ec82ee8bb4e.webp)
 
 > Εικόνα από [επίσημο άρθρο](https://arxiv.org/abs/1506.02640)
 

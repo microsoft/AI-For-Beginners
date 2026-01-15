@@ -58,7 +58,7 @@ Prenaučenje je izjemno pomemben koncept v strojnem učenju, zato je zelo pomemb
 
 Razmislimo o naslednjem problemu približevanja 5 točk (predstavljenih z `x` na spodnjih grafih):
 
-![linear](../../../../../translated_images/sl/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/sl/overfit2.131f5800ae10ca5e.jpg)
+![linear](../../../../../translated_images/sl/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/sl/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Linearen model, 2 parametra** | **Nelinearen model, 7 parametrov**
 Napaka pri učenju = 5.3 | Napaka pri učenju = 0
@@ -79,7 +79,7 @@ Zelo pomembno je najti pravo ravnovesje med kompleksnostjo modela (številom par
 
 Kot lahko vidite na zgornjem grafu, lahko prenaučenje zaznamo z zelo nizko napako pri učenju in visoko napako pri validaciji. Običajno med učenjem vidimo, da se napake pri učenju in validaciji zmanjšujejo, nato pa se v nekem trenutku napaka pri validaciji preneha zmanjševati in začne naraščati. To bo znak prenaučenja in indikator, da bi morali verjetno ustaviti učenje (ali vsaj narediti posnetek modela).
 
-![prenaučenje](../../../../../translated_images/sl/Overfitting.408ad91cd90b4371.png)
+![prenaučenje](../../../../../translated_images/sl/Overfitting.408ad91cd90b4371.webp)
 
 ## Kako preprečiti prenaučenje
 

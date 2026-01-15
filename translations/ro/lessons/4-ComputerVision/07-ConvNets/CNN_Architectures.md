@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 este o rețea care a atins o acuratețe de 92.7% în clasificarea top-5 ImageNet în 2014. Structura sa de straturi este următoarea:
 
-![Straturi ImageNet](../../../../../translated_images/ro/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![Straturi ImageNet](../../../../../translated_images/ro/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 După cum se poate observa, VGG urmează o arhitectură tradițională de tip piramidă, care constă într-o secvență de straturi de convoluție și pooling.
 
-![Piramida ImageNet](../../../../../translated_images/ro/vgg-16-arch.64ff2137f50dd49f.jpg)
+![Piramida ImageNet](../../../../../translated_images/ro/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Imagine de la [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

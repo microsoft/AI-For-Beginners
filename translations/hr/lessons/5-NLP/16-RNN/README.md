@@ -15,7 +15,7 @@ U prethodnim odjeljcima koristili smo bogate semantičke reprezentacije teksta i
 
 Kako bismo uhvatili značenje sekvenci teksta, trebamo koristiti drugu arhitekturu neuronske mreže, koja se naziva **rekurentna neuronska mreža** ili RNN. U RNN-u, rečenicu prosljeđujemo kroz mrežu jedan simbol po simbol, a mreža proizvodi određeno **stanje**, koje zatim ponovno prosljeđujemo mreži s idućim simbolom.
 
-![RNN](../../../../../translated_images/hr/rnn.27f5c29c53d727b5.png)
+![RNN](../../../../../translated_images/hr/rnn.27f5c29c53d727b5.webp)
 
 > Slika autora
 
@@ -61,7 +61,7 @@ Razgovarali smo o rekurentnim mrežama koje djeluju u jednom smjeru, od početka
 
 Rekurentna mreža, bilo jednosmjerna ili dvosmjerna, hvata određene uzorke unutar sekvence i može ih pohraniti u vektor stanja ili proslijediti u izlaz. Kao i kod konvolucijskih mreža, možemo izgraditi drugi rekurentni sloj na vrhu prvog kako bismo uhvatili uzorke višeg nivoa i izgradili na temelju uzoraka nižeg nivoa koje je izvukao prvi sloj. To nas dovodi do pojma **višeslojnog RNN-a**, koji se sastoji od dva ili više rekurentnih mreža, gdje se izlaz prethodnog sloja prosljeđuje sljedećem sloju kao ulaz.
 
-![Slika koja prikazuje višeslojni LSTM RNN](../../../../../translated_images/hr/multi-layer-lstm.dd975e29bb2a59fe.jpg)
+![Slika koja prikazuje višeslojni LSTM RNN](../../../../../translated_images/hr/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Slika iz [ovog izvrsnog posta](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) Fernanda Lópeza*
 

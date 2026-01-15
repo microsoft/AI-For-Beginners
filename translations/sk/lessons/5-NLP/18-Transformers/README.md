@@ -20,13 +20,13 @@ Pri RNN sa sekvencia na sekvenciu implementuje pomocou dvoch rekurentných siet�
 
 **Mechanizmy pozornosti** poskytujú spôsob váženia kontextového vplyvu každého vstupného vektora na každú výstupnú predikciu RNN. Implementuje sa to vytvorením skratiek medzi medzistavmi vstupného RNN a výstupného RNN. Týmto spôsobom, pri generovaní výstupného symbolu y<sub>t</sub>, zohľadníme všetky skryté stavy vstupu h<sub>i</sub>, s rôznymi váhovými koeficientmi &alpha;<sub>t,i</sub>.
 
-![Obrázok zobrazujúci model enkodér/dekodér s aditívnou vrstvou pozornosti](../../../../../translated_images/sk/encoder-decoder-attention.7a726296894fb567.png)
+![Obrázok zobrazujúci model enkodér/dekodér s aditívnou vrstvou pozornosti](../../../../../translated_images/sk/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Model enkodér-dekodér s aditívnym mechanizmom pozornosti podľa [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citované z [tohto blogového príspevku](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Maticu pozornosti {&alpha;<sub>i,j</sub>} by sme mohli interpretovať ako mieru, do akej určité vstupné slová ovplyvňujú generovanie daného slova vo výstupnej sekvencii. Nižšie je príklad takejto matice:
 
-![Obrázok zobrazujúci vzorové zarovnanie nájdené RNNsearch-50, prevzaté z Bahdanau - arviz.org](../../../../../translated_images/sk/bahdanau-fig3.09ba2d37f202a6af.png)
+![Obrázok zobrazujúci vzorové zarovnanie nájdené RNNsearch-50, prevzaté z Bahdanau - arviz.org](../../../../../translated_images/sk/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Obrázok z [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Obr.3)
 
@@ -66,7 +66,7 @@ Výsledok, ktorý získame s pozičným embeddingom, zahŕňa pôvodný token aj
 
 Ďalej potrebujeme zachytiť nejaké vzory v rámci našej sekvencie. Na tento účel transformery používajú mechanizmus **vlastnej pozornosti**, ktorý je v podstate pozornosť aplikovaná na tú istú sekvenciu ako vstup a výstup. Aplikovanie vlastnej pozornosti nám umožňuje zohľadniť **kontext** v rámci vety a vidieť, ktoré slová sú navzájom prepojené. Napríklad nám umožňuje vidieť, na ktoré slová odkazujú koreferencie, ako *to*, a tiež zohľadniť kontext:
 
-![](../../../../../translated_images/sk/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/sk/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Obrázok z [Google Blogu](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Keďže každá vstupná pozícia je nezávisle mapovaná na každú výstupnú 
 
 **BERT** (Bidirectional Encoder Representations from Transformers) je veľmi veľká viacvrstvová sieť transformera s 12 vrstvami pre *BERT-base* a 24 pre *BERT-large*. Model je najprv predtrénovaný na veľkom korpuse textových dát (WikiPedia + knihy) pomocou nesupervidovaného tréningu (predikcia maskovaných slov vo vete). Počas predtrénovania model absorbuje významné úrovne porozumenia jazyka, ktoré môžu byť následne využité s inými datasetmi pomocou jemného doladenia. Tento proces sa nazýva **transfer learning**.
 
-![obrázok z http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/sk/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![obrázok z http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/sk/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Obrázok [zdroj](http://jalammar.github.io/illustrated-bert/)
 

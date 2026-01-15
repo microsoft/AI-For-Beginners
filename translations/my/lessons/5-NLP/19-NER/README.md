@@ -58,7 +58,7 @@ infant | O
 
 Token နှင့် class များအကြား တစ်ခုချင်းစီကို တိုက်ရိုက်ဆက်စပ်မှုတစ်ခုတည်ဆောက်ရန် လိုအပ်သဖြင့်၊ ဒီပုံစံမှ **many-to-many** neural network model တစ်ခုကို တည်ဆောက်နိုင်ပါသည်။
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/my/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/my/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *ပုံကို [ဒီ blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) မှ [Andrej Karpathy](http://karpathy.github.io/) ရေးသားထားသည်။ NER token classification model များသည် ဒီပုံရဲ့ ညာဘက်ဆုံး network architecture ကို ကိုယ်စားပြုသည်။*
 

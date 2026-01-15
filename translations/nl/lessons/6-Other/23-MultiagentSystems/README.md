@@ -70,7 +70,7 @@ Je kunt een van de modellen openen, bijvoorbeeld **Biology &rightarrow; Flocking
 
 Na het openen van het model kom je op het hoofdscherm van NetLogo. Hier is een voorbeeldmodel dat de populatie van wolven en schapen beschrijft, gegeven eindige middelen (gras).
 
-![NetLogo Main Screen](../../../../../translated_images/nl/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/nl/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Screenshot door Dmitry Soshnikov
 

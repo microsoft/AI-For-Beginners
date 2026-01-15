@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 เป็นเครือข่ายที่ทำคะแนนความแม่นยำได้ถึง 92.7% ในการจัดประเภท ImageNet top-5 ในปี 2014 โดยมีโครงสร้างเลเยอร์ดังนี้:
 
-![ImageNet Layers](../../../../../translated_images/th/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/th/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 ดังที่คุณเห็น VGG ใช้สถาปัตยกรรมแบบพีระมิดดั้งเดิม ซึ่งเป็นลำดับของเลเยอร์คอนโวลูชันและพูลลิ่ง
 
-![ImageNet Pyramid](../../../../../translated_images/th/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/th/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > ภาพจาก [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

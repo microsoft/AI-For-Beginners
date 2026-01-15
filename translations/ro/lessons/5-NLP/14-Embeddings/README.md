@@ -19,7 +19,7 @@ Astfel, stratul de încapsulare ar lua un cuvânt ca intrare și ar produce un v
 
 Folosind un strat de încapsulare ca prim strat în rețeaua noastră de clasificare, putem trece de la un model bag-of-words la un model **embedding bag**, unde mai întâi convertim fiecare cuvânt din textul nostru în încapsularea corespunzătoare, și apoi calculăm o funcție agregată peste toate aceste încapsulări, cum ar fi `sum`, `average` sau `max`.
 
-![Imagine care arată un clasificator bazat pe încapsulări pentru cinci cuvinte dintr-o secvență.](../../../../../translated_images/ro/embedding-classifier-example.b77f021a7ee67eee.png)
+![Imagine care arată un clasificator bazat pe încapsulări pentru cinci cuvinte dintr-o secvență.](../../../../../translated_images/ro/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Imagine realizată de autor
 
@@ -40,7 +40,7 @@ Pentru a face acest lucru, trebuie să pre-antrenăm modelul de încapsulare pe 
 
 CBoW este mai rapid, în timp ce skip-gram este mai lent, dar face o treabă mai bună în reprezentarea cuvintelor rare.
 
-![Imagine care arată algoritmii CBoW și Skip-Gram pentru conversia cuvintelor în vectori.](../../../../../translated_images/ro/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Imagine care arată algoritmii CBoW și Skip-Gram pentru conversia cuvintelor în vectori.](../../../../../translated_images/ro/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Imagine din [acest articol](https://arxiv.org/pdf/1301.3781.pdf)
 

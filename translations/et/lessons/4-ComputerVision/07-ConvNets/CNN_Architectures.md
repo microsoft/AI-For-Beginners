@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 on võrk, mis saavutas 2014. aastal ImageNet top-5 klassifikatsioonis 92,7% täpsuse. Sellel on järgmine kihistruktuur:
 
-![ImageNet kihid](../../../../../translated_images/et/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet kihid](../../../../../translated_images/et/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Nagu näha, järgib VGG traditsioonilist püramiidstruktuuri, mis koosneb järjestikustest konvolutsiooni- ja koondamiskihidest.
 
-![ImageNet püramiid](../../../../../translated_images/et/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet püramiid](../../../../../translated_images/et/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Pilt [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) lehelt
 
@@ -25,7 +25,7 @@ Nagu näha, järgib VGG traditsioonilist püramiidstruktuuri, mis koosneb järje
 
 ResNet on mudelite perekond, mille Microsoft Research esitas 2015. aastal. ResNeti peamine idee on kasutada **jääkblokke**:
 
-<img src="../../../../../translated_images/et/resnet-block.aba4ccbcc0944434.png" width="300"/>
+<img src="../../../../../translated_images/et/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Pilt [sellest artiklist](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +37,7 @@ Seda võrku võib mõelda ka kui võimet kohandada oma keerukust vastavalt andme
 
 Google Inception arhitektuur viib selle idee veelgi kaugemale ja ehitab iga võrgu kihi mitme erineva tee kombinatsioonina:
 
-<img src="../../../../../translated_images/et/inception.a6605b85bcbc6f52.png" width="400"/>
+<img src="../../../../../translated_images/et/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Pilt [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) lehelt
 

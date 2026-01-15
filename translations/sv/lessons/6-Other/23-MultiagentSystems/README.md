@@ -70,7 +70,7 @@ Du kan öppna en av modellerna, till exempel **Biology &rightarrow; Flocking**.
 
 Efter att ha öppnat modellen tas du till huvudskärmen i NetLogo. Här är en exempelmodell som beskriver populationen av vargar och får, givet begränsade resurser (gräs).
 
-![NetLogo Main Screen](../../../../../translated_images/sv/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/sv/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Skärmdump av Dmitry Soshnikov
 

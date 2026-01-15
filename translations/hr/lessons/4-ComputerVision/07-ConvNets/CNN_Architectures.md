@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 je mreža koja je postigla 92.7% točnosti u ImageNet top-5 klasifikaciji 2014. godine. Ima sljedeću strukturu slojeva:
 
-![ImageNet Layers](../../../../../translated_images/hr/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/hr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Kao što možete vidjeti, VGG slijedi tradicionalnu piramidalnu arhitekturu, koja je niz slojeva konvolucije i pooling-a.
 
-![ImageNet Pyramid](../../../../../translated_images/hr/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/hr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Slika preuzeta s [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

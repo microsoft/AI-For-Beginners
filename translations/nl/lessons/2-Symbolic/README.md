@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kennisrepresentatie en Expertsystemen
 
-![Samenvatting van Symbolische AI-inhoud](../../../../translated_images/nl/ai-symbolic.715a30cb610411a6.png)
+![Samenvatting van Symbolische AI-inhoud](../../../../translated_images/nl/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote door [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Meestal definiëren we kennis niet strikt, maar brengen we het in lijn met ander
 
 Het probleem van **kennisrepresentatie** is dus om een effectieve manier te vinden om kennis binnen een computer in de vorm van data te representeren, zodat het automatisch bruikbaar is. Dit kan worden gezien als een spectrum:
 
-![Spectrum van kennisrepresentatie](../../../../translated_images/nl/knowledge-spectrum.b60df631852c0217.png)
+![Spectrum van kennisrepresentatie](../../../../translated_images/nl/knowledge-spectrum.b60df631852c0217.webp)
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blok-syntaxis | Inspringing | | |
 
 Een van de vroege successen van symbolische AI waren de zogenaamde **expertsystemen** - computersystemen die waren ontworpen om als expert te functioneren in een beperkt probleemgebied. Ze waren gebaseerd op een **kennisbasis** die was geëxtraheerd van een of meer menselijke experts, en ze bevatten een **inferentie-engine** die enige redenering uitvoerde bovenop deze basis.
 
-![Menselijke Architectuur](../../../../translated_images/nl/arch-human.5d4d35f1bba3ab1c.png) | ![Kennisgebaseerd Systeem](../../../../translated_images/nl/arch-kbs.3ec5c150b09fa8da.png)
+![Menselijke Architectuur](../../../../translated_images/nl/arch-human.5d4d35f1bba3ab1c.webp) | ![Kennisgebaseerd Systeem](../../../../translated_images/nl/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Vereenvoudigde structuur van een menselijk neuraal systeem | Architectuur van een kennisgebaseerd systeem
 
@@ -106,7 +106,7 @@ Expertsystemen zijn gebouwd zoals het menselijke redeneersysteem, dat **korteter
 
 Als voorbeeld bekijken we het volgende expertsysteem om een dier te bepalen op basis van zijn fysieke kenmerken:
 
-![AND-OR Boom](../../../../translated_images/nl/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR Boom](../../../../translated_images/nl/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 

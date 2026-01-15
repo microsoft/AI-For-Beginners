@@ -20,13 +20,13 @@ Med RNNs implementeras sekvens-till-sekvens med två rekurrenta nätverk, där e
 
 **Uppmärksamhetsmekanismer** ger ett sätt att vikta den kontextuella påverkan av varje inmatningsvektor på varje utgångsprediktion av RNN. Detta implementeras genom att skapa genvägar mellan mellanliggande tillstånd i inmatnings-RNN och utgångs-RNN. På detta sätt, när vi genererar utgångssymbolen y<sub>t</sub>, tar vi hänsyn till alla dolda inmatningstillstånd h<sub>i</sub>, med olika viktkoefficienter &alpha;<sub>t,i</sub>.
 
-![Bild som visar en kodare/avkodare-modell med ett additivt uppmärksamhetslager](../../../../../translated_images/sv/encoder-decoder-attention.7a726296894fb567.png)
+![Bild som visar en kodare/avkodare-modell med ett additivt uppmärksamhetslager](../../../../../translated_images/sv/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Kodare-avkodare-modellen med additiv uppmärksamhetsmekanism i [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citerad från [denna bloggpost](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Uppmärksamhetsmatrisen {&alpha;<sub>i,j</sub>} representerar graden av påverkan som vissa inmatningsord har på genereringen av ett givet ord i utgångssekvensen. Nedan är ett exempel på en sådan matris:
 
-![Bild som visar ett exempel på justering funnen av RNNsearch-50, hämtad från Bahdanau - arviz.org](../../../../../translated_images/sv/bahdanau-fig3.09ba2d37f202a6af.png)
+![Bild som visar ett exempel på justering funnen av RNNsearch-50, hämtad från Bahdanau - arviz.org](../../../../../translated_images/sv/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Figur från [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Resultatet vi får med positionsinbäddning inbäddar både den ursprungliga tok
 
 Nästa steg är att fånga vissa mönster inom vår sekvens. För att göra detta använder transformatorer en **självuppmärksamhetsmekanism**, som i grunden är uppmärksamhet applicerad på samma sekvens som inmatning och utgång. Att applicera självuppmärksamhet gör att vi kan ta hänsyn till **kontext** inom meningen och se vilka ord som är relaterade till varandra. Till exempel gör det att vi kan se vilka ord som refereras av korreferenser, såsom *det*, och också ta kontexten i beaktande:
 
-![](../../../../../translated_images/sv/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/sv/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Bild från [Google Blog](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Eftersom varje inmatningsposition mappas oberoende till varje utgångsposition k
 
 **BERT** (Bidirectional Encoder Representations from Transformers) är ett mycket stort flerskikts transformatornätverk med 12 lager för *BERT-base* och 24 för *BERT-large*. Modellen förtränas först på en stor textkorpus (Wikipedia + böcker) med hjälp av oövervakad träning (förutsäga maskerade ord i en mening). Under förträningen absorberar modellen betydande nivåer av språkförståelse som sedan kan utnyttjas med andra dataset genom finjustering. Denna process kallas **transfer learning**.
 
-![bild från http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/sv/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![bild från http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/sv/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Bild [källa](http://jalammar.github.io/illustrated-bert/)
 

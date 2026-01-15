@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # आढावा
 
-![डूडलमधील आढावा](../../../translated_images/mr/ai-overview.0857791951d19500.png)
+![डूडलमधील आढावा](../../../translated_images/mr/ai-overview.0857791951d19500.webp)
 
 > स्केच नोट: [Tomomi Imura](https://twitter.com/girlie_mac)
 

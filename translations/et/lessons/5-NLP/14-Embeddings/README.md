@@ -19,7 +19,7 @@ Sisestuskihi ülesanne on võtta sõna sisendina ja anda väljundvektor kindlaks
 
 Kasutades sisestuskihti meie klassifitseerimisvõrgu esimese kihina, saame liikuda sõnakotilt **sisestuskoti** mudelile, kus esmalt teisendame iga sõna meie tekstis vastavaks sisestuseks ja seejärel arvutame nende sisestuste üle mingi koondfunktsiooni, nagu `sum`, `average` või `max`.  
 
-![Pilt, mis näitab sisestuskihi klassifitseerijat viie järjestikuse sõna jaoks.](../../../../../translated_images/et/embedding-classifier-example.b77f021a7ee67eee.png)
+![Pilt, mis näitab sisestuskihi klassifitseerijat viie järjestikuse sõna jaoks.](../../../../../translated_images/et/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Pilt autori poolt
 
@@ -40,7 +40,7 @@ Selleks peame oma sisestusmudeli eelnevalt treenima suure tekstikogu peal spetsi
 
 CBoW on kiirem, samas kui hüppegramm on aeglasem, kuid teeb paremat tööd harvaesinevate sõnade esindamisel.
 
-![Pilt, mis näitab nii CBoW kui ka hüppegrammi algoritme sõnade vektoriteks teisendamiseks.](../../../../../translated_images/et/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Pilt, mis näitab nii CBoW kui ka hüppegrammi algoritme sõnade vektoriteks teisendamiseks.](../../../../../translated_images/et/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Pilt [sellest artiklist](https://arxiv.org/pdf/1301.3781.pdf)
 

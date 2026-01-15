@@ -58,7 +58,7 @@ Per didelis pritaikymas yra itin svarbi sąvoka mašininio mokymosi srityje, ir 
 
 Apsvarstykite šią problemą, kurioje reikia aproksimuoti 5 taškus (grafikuose pažymėtus `x`):
 
-![linear](../../../../../translated_images/lt/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/lt/overfit2.131f5800ae10ca5e.jpg)
+![linear](../../../../../translated_images/lt/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/lt/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Linijinis modelis, 2 parametrai** | **Nelinijinis modelis, 7 parametrai**
 Mokymo klaida = 5.3 | Mokymo klaida = 0
@@ -79,7 +79,7 @@ Labai svarbu rasti tinkamą pusiausvyrą tarp modelio sudėtingumo (parametrų s
 
 Kaip matote iš aukščiau pateikto grafiko, per didelį pritaikymą galima aptikti pagal labai mažą mokymo klaidą ir didelę validacijos klaidą. Paprastai mokymo metu matysime, kaip tiek mokymo, tiek validacijos klaidos pradeda mažėti, o tada tam tikru momentu validacijos klaida gali nustoti mažėti ir pradėti didėti. Tai bus per didelio pritaikymo ženklas ir indikatorius, kad turėtume sustabdyti mokymą (arba bent jau išsaugoti modelio būseną).
 
-![overfitting](../../../../../translated_images/lt/Overfitting.408ad91cd90b4371.png)
+![overfitting](../../../../../translated_images/lt/Overfitting.408ad91cd90b4371.webp)
 
 ## Kaip išvengti per didelio pritaikymo
 

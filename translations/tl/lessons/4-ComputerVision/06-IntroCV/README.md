@@ -73,14 +73,14 @@ Sa aming [OpenCV Notebook](OpenCV.ipynb), nagbibigay kami ng ilang mga halimbawa
 
 * **Pre-processing ng larawan ng isang Braille book**. Nakatuon kami sa kung paano namin magagamit ang thresholding, feature detection, perspective transformation, at NumPy manipulations upang paghiwalayin ang mga indibidwal na Braille symbols para sa karagdagang classification ng isang neural network.
 
-![Braille Image](../../../../../translated_images/tl/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/tl/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/tl/braille-symbols.0159185ab69d5339.png)
+![Braille Image](../../../../../translated_images/tl/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/tl/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/tl/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Pagtuklas ng galaw sa video gamit ang frame difference**. Kung ang camera ay nakapirmi, ang mga frame mula sa camera feed ay dapat medyo magkatulad sa isa't isa. Dahil ang mga frame ay kinakatawan bilang arrays, sa pamamagitan lamang ng pagbabawas ng mga arrays para sa dalawang magkasunod na frame ay makakakuha tayo ng pixel difference, na dapat mababa para sa static frames, at magiging mas mataas kapag may makabuluhang galaw sa imahe.
 
-![Image of video frames and frame differences](../../../../../translated_images/tl/frame-difference.706f805491a0883c.png)
+![Image of video frames and frame differences](../../../../../translated_images/tl/frame-difference.706f805491a0883c.webp)
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Sa aming [OpenCV Notebook](OpenCV.ipynb), nagbibigay kami ng ilang mga halimbawa
    - **Dense Optical Flow** ay kinakalkula ang vector field na nagpapakita kung saan gumagalaw ang bawat pixel
    - **Sparse Optical Flow** ay batay sa pagkuha ng ilang natatanging features sa imahe (hal. edges), at pagbuo ng kanilang trajectory mula frame to frame.
 
-![Image of Optical Flow](../../../../../translated_images/tl/optical.1f4a94464579a83a.png)
+![Image of Optical Flow](../../../../../translated_images/tl/optical.1f4a94464579a83a.webp)
 
 > Imahe mula sa [OpenCV.ipynb](OpenCV.ipynb)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Áttekintés
 
-![Áttekintés egy rajzban](../../../translated_images/hu/ai-overview.0857791951d19500.png)
+![Áttekintés egy rajzban](../../../translated_images/hu/ai-overview.0857791951d19500.webp)
 
 > Vázlatrajz: [Tomomi Imura](https://twitter.com/girlie_mac)
 

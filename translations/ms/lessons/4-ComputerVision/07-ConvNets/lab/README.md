@@ -21,7 +21,7 @@ Anda perlu melatih rangkaian neural konvolusi untuk mengklasifikasikan pelbagai 
 
 Kita akan menggunakan [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), yang mengandungi imej 37 baka anjing dan kucing yang berbeza.
 
-![Dataset yang akan kita gunakan](../../../../../../translated_images/ms/data.50b2a9d5484bdbf0.png)
+![Dataset yang akan kita gunakan](../../../../../../translated_images/ms/data.50b2a9d5484bdbf0.webp)
 
 Untuk memuat turun dataset, gunakan kod berikut:
 

@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ನೀವು ಅಮೆಜಾನ್ ಅಲೆಕ್ಸಾ ಅಥವಾ ಗೂಗಲ್ ಅಸಿಸ್ಟೆಂಟ್‌ನಂತೆ ನೈಸರ್ಗಿಕ ಭಾಷೆ ಚಾಟ್ ಬಾಟ್ ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ಬಯಸಿದರೆ, ಬುದ್ಧಿವಂತ ಚಾಟ್ ಬಾಟ್‌ಗಳು ಬಳಕೆದಾರನು ಏನು ಬಯಸುತ್ತಾನೆ ಎಂಬುದನ್ನು *ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು* ಇನ್‌ಪುಟ್ ವಾಕ್ಯದಲ್ಲಿ ಪಠ್ಯ ವರ್ಗೀಕರಣವನ್ನು ಮಾಡುತ್ತವೆ. ಈ ವರ್ಗೀಕರಣದ ಫಲಿತಾಂಶವನ್ನು **ಉದ್ದೇಶ** ಎಂದು ಕರೆಯುತ್ತಾರೆ, ಇದು ಚಾಟ್ ಬಾಟ್ ಏನು ಮಾಡಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ.
 
-<img alt="Bot NER" src="../../../../../translated_images/kn/bot-ner.4b09235dbb0ad275.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/kn/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > ಚಿತ್ರ ಲೇಖಕರಿಂದ
 
@@ -58,7 +58,7 @@ infant | O
 
 ಟೋಕನ್‌ಗಳು ಮತ್ತು ವರ್ಗಗಳ ನಡುವೆ ಒಂದರೊಂದರ ಹೊಂದಾಣಿಕೆಯನ್ನು ನಿರ್ಮಿಸಬೇಕಾಗಿರುವುದರಿಂದ, ಈ ಚಿತ್ರದಿಂದ ನಾವು ಬಲಭಾಗದ **ಬಹು-ದಿಂದ-ಬಹು** ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್ ಮಾದರಿಯನ್ನು ತರಬೇತುಗೊಳಿಸಬಹುದು:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/kn/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/kn/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *ಚಿತ್ರ [ಈ ಬ್ಲಾಗ್ ಪೋಸ್ಟ್](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ನಿಂದ [ಅಂದ್ರೇಜ್ ಕಾರ್ಪಥಿ](http://karpathy.github.io/) ಅವರಿಂದ. NER ಟೋಕನ್ ವರ್ಗೀಕರಣ ಮಾದರಿಗಳು ಈ ಚಿತ್ರದಲ್ಲಿ ಬಲಭಾಗದ ನೆಟ್‌ವರ್ಕ್ ವಾಸ್ತುಶಿಲ್ಪಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ.*
 

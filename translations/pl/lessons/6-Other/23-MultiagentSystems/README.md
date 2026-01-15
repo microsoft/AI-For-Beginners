@@ -70,7 +70,7 @@ Możesz otworzyć jeden z modeli, na przykład **Biology &rightarrow; Flocking**
 
 Po otwarciu modelu zostaniesz przeniesiony na główny ekran NetLogo. Oto przykładowy model opisujący populację wilków i owiec, biorąc pod uwagę ograniczone zasoby (trawę).
 
-![Główny ekran NetLogo](../../../../../translated_images/pl/NetLogo-Main.32653711ec1a01b3.png)
+![Główny ekran NetLogo](../../../../../translated_images/pl/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Zrzut ekranu autorstwa Dmitry Soshnikov
 

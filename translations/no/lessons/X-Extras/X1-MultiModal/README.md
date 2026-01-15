@@ -15,7 +15,7 @@ Etter suksessen med transformer-modeller for å løse NLP-oppgaver, har de samme
 
 Hovedideen med CLIP er å kunne sammenligne tekstbeskrivelser med et bilde og avgjøre hvor godt bildet samsvarer med beskrivelsen.
 
-![CLIP Arkitektur](../../../../../translated_images/no/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP Arkitektur](../../../../../translated_images/no/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Bilde fra [denne bloggposten](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Når denne modellen er forhåndstrent, kan vi gi den en batch med bilder og en b
 
 Anta at vi må klassifisere bilder mellom for eksempel katter, hunder og mennesker. I dette tilfellet kan vi gi modellen et bilde og en serie tekstbeskrivelser: "*et bilde av en katt*", "*et bilde av en hund*", "*et bilde av et menneske*". I den resulterende vektoren med 3 sannsynligheter trenger vi bare å velge indeksen med høyest verdi.
 
-![CLIP for Bildeklassifisering](../../../../../translated_images/no/clip-class.3af42ef0b2b19369.png)
+![CLIP for Bildeklassifisering](../../../../../translated_images/no/clip-class.3af42ef0b2b19369.webp)
 
 > *Bilde fra [denne bloggposten](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Lær mer om VQGAN på [Taming Transformers](https://compvis.github.io/taming-tra
 
 En av de viktige forskjellene mellom VQGAN og tradisjonelle GAN er at sistnevnte kan produsere et anstendig bilde fra hvilken som helst inputvektor, mens VQGAN sannsynligvis vil produsere et bilde som ikke er sammenhengende. Derfor må vi videre veilede bildeopprettingsprosessen, og det kan gjøres ved hjelp av CLIP.
 
-![VQGAN+CLIP Arkitektur](../../../../../translated_images/no/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP Arkitektur](../../../../../translated_images/no/vqgan.5027fe05051dfa31.webp)
 
 For å generere et bilde som samsvarer med en tekstbeskrivelse, starter vi med en tilfeldig kodingsvektor som sendes gjennom VQGAN for å produsere et bilde. Deretter brukes CLIP til å produsere en tapfunksjon som viser hvor godt bildet samsvarer med tekstbeskrivelsen. Målet er da å minimere dette tapet, ved hjelp av backpropagation for å justere inputvektorens parametere.
 
 Et flott bibliotek som implementerer VQGAN+CLIP er [Pixray](http://github.com/pixray/pixray).
 
-![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Bilde produsert av Pixray](../../../../../translated_images/no/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Bilde generert fra beskrivelsen *et nærbilde akvarellportrett av ung mannlig lærer i litteratur med en bok* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av ung kvinnelig lærer i informatikk med en datamaskin* | Bilde generert fra beskrivelsen *et nærbilde oljemaleriportrett av eldre mannlig lærer i matematikk foran en tavle*
 

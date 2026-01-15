@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang VGG-16 ay isang network na nakamit ang 92.7% na katumpakan sa ImageNet top-5 classification noong 2014. Ito ay may ganitong istruktura ng mga layer:
 
-![ImageNet Layers](../../../../../translated_images/tl/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/tl/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Tulad ng nakikita mo, sinusunod ng VGG ang tradisyunal na pyramid architecture, na isang sunod-sunod na convolution-pooling layers.
 
-![ImageNet Pyramid](../../../../../translated_images/tl/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/tl/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Larawan mula sa [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

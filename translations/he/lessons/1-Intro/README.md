@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # מבוא לבינה מלאכותית
 
-![סיכום תוכן מבוא לבינה מלאכותית בציור](../../../../translated_images/he/ai-intro.bf28d1ac4235881c.png)
+![סיכום תוכן מבוא לבינה מלאכותית בציור](../../../../translated_images/he/ai-intro.bf28d1ac4235881c.webp)
 
 > ציור מאת [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 במקור, מחשבים הומצאו על ידי [צ'ארלס בבג'](https://en.wikipedia.org/wiki/Charles_Babbage) כדי לפעול על מספרים לפי תהליך מוגדר היטב - אלגוריתם. מחשבים מודרניים, למרות שהם מתקדמים בהרבה מהמודל המקורי שהוצע במאה ה-19, עדיין פועלים על פי אותו רעיון של חישובים מבוקרים. לכן, ניתן לתכנת מחשב לבצע משהו אם אנו יודעים את רצף הצעדים המדויק שעלינו לבצע כדי להשיג את המטרה.
 
-![תמונה של אדם](../../../../translated_images/he/dsh_age.d212a30d4e54fb5f.png)
+![תמונה של אדם](../../../../translated_images/he/dsh_age.d212a30d4e54fb5f.webp)
 
 > תמונה מאת [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 אחת הבעיות בהתמודדות עם המונח **[אינטליגנציה](https://en.wikipedia.org/wiki/Intelligence)** היא שאין הגדרה ברורה למונח זה. ניתן לטעון שאינטליגנציה קשורה ל**חשיבה מופשטת**, או ל**מודעות עצמית**, אך איננו יכולים להגדיר אותה כראוי.
 
-![תמונה של חתול](../../../../translated_images/he/photo-cat.8c8e8fb760ffe457.jpg)
+![תמונה של חתול](../../../../translated_images/he/photo-cat.8c8e8fb760ffe457.webp)
 
 > [תמונה](https://unsplash.com/photos/75715CVEJhI) מאת [Amber Kipp](https://unsplash.com/@sadmax) מ-Unsplash
 
@@ -98,13 +98,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 > | מה לגבי ML?         |      |
 > |--------------|-----------|
-> | חלק מהבינה המלאכותית המבוסס על למידת מחשב לפתור בעיה על סמך נתונים מסוימים נקרא **למידת מכונה**. לא נעסוק בלמידת מכונה קלאסית בקורס זה - אנו מפנים אתכם לתוכנית הלימודים הנפרדת [למידת מכונה למתחילים](http://aka.ms/ml-beginners). |   ![ML למתחילים](../../../../translated_images/he/ml-for-beginners.9e4fed176fd5817d.png)    |
+> | חלק מהבינה המלאכותית המבוסס על למידת מחשב לפתור בעיה על סמך נתונים מסוימים נקרא **למידת מכונה**. לא נעסוק בלמידת מכונה קלאסית בקורס זה - אנו מפנים אתכם לתוכנית הלימודים הנפרדת [למידת מכונה למתחילים](http://aka.ms/ml-beginners). |   ![ML למתחילים](../../../../translated_images/he/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## היסטוריה קצרה של בינה מלאכותית
 
 בינה מלאכותית החלה כתחום באמצע המאה ה-20. בתחילה, גישת ההסקה הסימבולית הייתה הגישה השלטת, והיא הובילה למספר הצלחות חשובות, כמו מערכות מומחה – תוכניות מחשב שיכלו לפעול כמומחה בתחומים מוגבלים. עם זאת, עד מהרה התברר שגישה זו אינה מתאימה להרחבה. חילוץ הידע ממומחה, ייצוגו במחשב, ושמירה על בסיס הידע מדויק מתבררים כמשימה מורכבת מאוד ויקרה מדי במקרים רבים. זה הוביל למה שנקרא [חורף הבינה המלאכותית](https://en.wikipedia.org/wiki/AI_winter) בשנות ה-70.
 
-<img alt="היסטוריה קצרה של AI" src="../../../../translated_images/he/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
+<img alt="היסטוריה קצרה של AI" src="../../../../translated_images/he/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ CO_OP_TRANSLATOR_METADATA:
 * עוזרים מודרניים, כמו Cortana, Siri או Google Assistant הם כולם מערכות היברידיות שמשתמשות ברשתות נוירונים כדי להמיר דיבור לטקסט ולהבין את כוונתנו, ואז משתמשות בהסקה או באלגוריתמים מפורשים כדי לבצע פעולות נדרשות.
 * בעתיד, אנו עשויים לצפות למודל מבוסס רשת נוירונים מלא שיטפל בדיאלוג בעצמו. משפחת הרשתות הנוירוניות GPT ו-[Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) מראה הצלחות גדולות בתחום זה.
 
-<img alt="התפתחות מבחן טיורינג" src="../../../../translated_images/he/turing-test-evol.4184696701293ead.png" width="70%"/>
+<img alt="התפתחות מבחן טיורינג" src="../../../../translated_images/he/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > תמונה מאת דמיטרי סושניקוב, [תמונה](https://unsplash.com/photos/r8LmVbUKgns) מאת [מרינה אברוסימובה](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## מחקר AI עדכני

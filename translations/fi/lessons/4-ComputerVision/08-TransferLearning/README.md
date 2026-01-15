@@ -29,7 +29,7 @@ Sekä Keras että PyTorch sisältävät toimintoja, joilla voi helposti ladata e
 
 Tässä on esimerkki piirteistä, jotka VGG-16-verkko on tunnistanut kissan kuvasta:
 
-![Piirteet, jotka VGG-16 tunnisti](../../../../../translated_images/fi/features.6291f9c7ba3a0b95.png)
+![Piirteet, jotka VGG-16 tunnisti](../../../../../translated_images/fi/features.6291f9c7ba3a0b95.webp)
 
 ## Kissojen ja koirien datasetti
 
@@ -48,19 +48,19 @@ Esikoulutettu neuroverkko sisältää erilaisia kuvioita "aivoissaan", mukaan lu
 
 Yksi lähestymistapa on aloittaa satunnaisesta kuvasta ja yrittää käyttää **gradient descent -optimointitekniikkaa** säätämään kuvaa niin, että verkko alkaa ajatella sen olevan kissa.
 
-![Kuvan optimointisilmukka](../../../../../translated_images/fi/ideal-cat-loop.999fbb8ff306e044.png)
+![Kuvan optimointisilmukka](../../../../../translated_images/fi/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Jos teemme näin, saamme jotain hyvin satunnaisen kohinan kaltaista. Tämä johtuu siitä, että *on monia tapoja saada verkko ajattelemaan, että syötekuva on kissa*, mukaan lukien sellaisia, jotka eivät ole visuaalisesti järkeviä. Vaikka nämä kuvat sisältävät paljon kissalle tyypillisiä kuvioita, mikään ei rajoita niitä olemaan visuaalisesti erottuvia.
 
 Tuloksen parantamiseksi voimme lisätä toisen termin häviöfunktioon, jota kutsutaan **variation loss** -termiksi. Se on mittari, joka osoittaa, kuinka samanlaisia kuvan vierekkäiset pikselit ovat. Variation lossin minimointi tekee kuvasta tasaisemman ja poistaa kohinaa - paljastaen visuaalisesti miellyttävämpiä kuvioita. Tässä esimerkki tällaisista "ihanteellisista" kuvista, jotka luokitellaan kissaksi ja seepraksi suurella todennäköisyydellä:
 
-![Ihanteellinen kissa](../../../../../translated_images/fi/ideal-cat.203dd4597643d6b0.png) | ![Ihanteellinen seepra](../../../../../translated_images/fi/ideal-zebra.7f70e8b54ee15a7a.png)
+![Ihanteellinen kissa](../../../../../translated_images/fi/ideal-cat.203dd4597643d6b0.webp) | ![Ihanteellinen seepra](../../../../../translated_images/fi/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Ihanteellinen kissa* | *Ihanteellinen seepra*
 
 Samaa lähestymistapaa voidaan käyttää suorittamaan niin sanottuja **adversaarisia hyökkäyksiä** neuroverkkoon. Oletetaan, että haluamme huijata neuroverkkoa ja saada koiran näyttämään kissalta. Jos otamme koiran kuvan, jonka verkko tunnistaa koiraksi, voimme sitten säätää sitä hieman gradient descent -optimoinnin avulla, kunnes verkko alkaa luokitella sen kissaksi:
 
-![Koiran kuva](../../../../../translated_images/fi/original-dog.8f68a67d2fe0911f.png) | ![Kuva koirasta, joka luokitellaan kissaksi](../../../../../translated_images/fi/adversarial-dog.d9fc7773b0142b89.png)
+![Koiran kuva](../../../../../translated_images/fi/original-dog.8f68a67d2fe0911f.webp) | ![Kuva koirasta, joka luokitellaan kissaksi](../../../../../translated_images/fi/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Alkuperäinen kuva koirasta* | *Kuva koirasta, joka luokitellaan kissaksi*
 

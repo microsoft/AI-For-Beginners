@@ -15,7 +15,7 @@ Laboriülesanne [AI algajatele mõeldud õppekavast](https://aka.ms/ai-beginners
 
 Vaadake [seda videot](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4), kus inimese peopesa liigub vasakule/paremale/üles/alla stabiilse tausta ees.
 
-<img src="../../../../../../translated_images/et/palm-movement.341495f0e9c47da3.png" width="30%" alt="Peopesa liikumise kaader"/>
+<img src="../../../../../../translated_images/et/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Peopesa liikumise kaader"/>
 
 **Teie eesmärk** on kasutada optilist voolu, et määrata, millised video osad sisaldavad üles/alla/vasakule/paremale liikumisi.
 

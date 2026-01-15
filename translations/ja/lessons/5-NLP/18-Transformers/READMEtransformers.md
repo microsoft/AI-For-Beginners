@@ -11,13 +11,13 @@ RNNを使用したシーケンスからシーケンスの実装は、二つの�
 
 **注意機構**は、RNNの各出力予測に対する各入力ベクトルの文脈的影響を重み付けする手段を提供します。これは、入力RNNの中間状態と出力RNNの間にショートカットを作成することによって実装されます。この方法では、出力シンボルy<sub>t</sub>を生成する際に、異なる重み係数α<sub>t,i</sub>を持つすべての入力隠れ状態h<sub>i</sub>を考慮します。
 
-![加法注意層を持つエンコーダ/デコーダモデルの画像](../../../../../translated_images/ja/encoder-decoder-attention.7a726296894fb567.png)
+![加法注意層を持つエンコーダ/デコーダモデルの画像](../../../../../translated_images/ja/encoder-decoder-attention.7a726296894fb567.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)の加法注意機構を持つエンコーダ-デコーダモデル、[このブログ投稿](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)から引用
 
 注意行列 {α<sub>i,j</sub>} は、特定の入力単語が出力シーケンス内の特定の単語の生成にどの程度寄与しているかを表します。以下はそのような行列の例です：
 
-![RNNsearch-50によって見つかったサンプルアラインメントの画像、Bahdanau - arviz.orgから](../../../../../translated_images/ja/bahdanau-fig3.09ba2d37f202a6af.png)
+![RNNsearch-50によって見つかったサンプルアラインメントの画像、Bahdanau - arviz.orgから](../../../../../translated_images/ja/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)からの図（Fig.3）
 
@@ -57,7 +57,7 @@ RNNを使用したシーケンスからシーケンスの実装は、二つの�
 
 次に、シーケンス内のパターンをキャプチャする必要があります。これを行うために、トランスフォーマーは**自己注意**機構を使用します。これは基本的に、同じシーケンスに対して入力と出力に適用される注意です。自己注意を適用することで、文内の**コンテキスト**を考慮し、どの単語が相互関連しているかを確認できます。例えば、*it*のようなコリファレンスによって参照される単語を確認し、コンテキストも考慮に入れることができます：
 
-![](../../../../../translated_images/ja/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/ja/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > [Googleブログ](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)からの画像
 
@@ -82,7 +82,7 @@ RNNを使用したシーケンスからシーケンスの実装は、二つの�
 
 **BERT**（Bidirectional Encoder Representations from Transformers）は、*BERT-base*用の12層、*BERT-large*用の24層を持つ非常に大きなマルチレイヤートランスフォーマーネットワークです。このモデルは、無監督トレーニング（文中のマスクされた単語を予測）を使用して、大規模なテキストデータコーパス（WikiPedia + 書籍）で事前トレーニングされます。事前トレーニング中に、モデルは言語理解の重要なレベルを吸収し、その後ファインチューニングを使用して他のデータセットと活用できます。このプロセスは**転移学習**と呼ばれます。
 
-![http://jalammar.github.io/illustrated-bert/からの画像](../../../../../translated_images/ja/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![http://jalammar.github.io/illustrated-bert/からの画像](../../../../../translated_images/ja/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > 画像 [出典](http://jalammar.github.io/illustrated-bert/)
 

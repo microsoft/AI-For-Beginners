@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 നിങ്ങൾക്ക് ആമസോൺ അലക്സാ അല്ലെങ്കിൽ ഗൂഗിൾ അസിസ്റ്റന്റ് പോലുള്ള ഒരു നാച്ചുറൽ ലാംഗ്വേജ് ചാറ്റ് ബോട്ട് വികസിപ്പിക്കണമെന്ന് കരുതുക. ബുദ്ധിമുട്ടുള്ള ചാറ്റ് ബോട്ടുകൾ പ്രവർത്തിക്കുന്നത് ഉപയോക്താവ് എന്ത് ആഗ്രഹിക്കുന്നു എന്ന് *അർത്ഥമാക്കുന്നതിലൂടെ* ആണ്, ഇൻപുട്ട് വാക്യത്തിൽ ടെക്സ്റ്റ് ക്ലാസിഫിക്കേഷൻ നടത്തിയാണ് ഇത് സാധ്യമാകുന്നത്. ഈ ക്ലാസിഫിക്കേഷന്റെ ഫലം **ഇന്റന്റ്** എന്നറിയപ്പെടുന്നു, ഇത് ചാറ്റ് ബോട്ട് എന്ത് ചെയ്യണമെന്ന് നിർണ്ണയിക്കുന്നു.
 
-<img alt="Bot NER" src="../../../../../translated_images/ml/bot-ner.4b09235dbb0ad275.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/ml/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > ചിത്രകാരൻ: ലേഖകൻ
 
@@ -58,7 +58,7 @@ infant | O
 
 ടോക്കണുകളും ക്ലാസുകളും തമ്മിൽ ഒന്ന് ഒന്ന് പൊരുത്തപ്പെടുത്തേണ്ടതിനാൽ, ഈ ചിത്രത്തിൽ നിന്ന് ഒരു വലതുവശത്തെ **many-to-many** ന്യൂറൽ നെറ്റ്വർക്ക് മോഡൽ പരിശീലിപ്പിക്കാം:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/ml/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/ml/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *ചിത്രം [ഈ ബ്ലോഗ് പോസ്റ്റ്](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ൽ നിന്നുള്ളതാണ്, ലേഖകൻ [Andrej Karpathy](http://karpathy.github.io/). NER ടോക്കൺ ക്ലാസിഫിക്കേഷൻ മോഡലുകൾ ഈ ചിത്രത്തിലെ വലതുവശത്തെ നെറ്റ്വർക്ക് ആർക്കിടെക്ചറിനോട് പൊരുത്തപ്പെടുന്നു.*
 

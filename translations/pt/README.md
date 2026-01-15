@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Inteligência Artificial para Iniciantes - Um Currículo
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/pt/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/pt/ai-overview.0857791951d19500.webp)|
 |:---:|
 | Inteligência Artificial para Iniciantes - _Sketchnote por [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

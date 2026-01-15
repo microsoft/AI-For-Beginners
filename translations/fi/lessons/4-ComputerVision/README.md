@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tietokonenäkö
 
-![Yhteenveto tietokonenäön sisällöstä piirroksena](../../../../translated_images/fi/ai-computervision.6506ebebac3fbf76.png)
+![Yhteenveto tietokonenäön sisällöstä piirroksena](../../../../translated_images/fi/ai-computervision.6506ebebac3fbf76.webp)
 
 Tässä osiossa opimme seuraavista aiheista:
 

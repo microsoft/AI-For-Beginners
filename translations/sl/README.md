@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Umetna inteligenca za začetnike - učni načrt
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sl/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/sl/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI za začetnike - _Sketchnote avtorja [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

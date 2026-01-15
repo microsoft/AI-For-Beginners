@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tudásábrázolás és szakértői rendszerek
 
-![A szimbolikus AI tartalmának összefoglalása](../../../../translated_images/hu/ai-symbolic.715a30cb610411a6.png)
+![A szimbolikus AI tartalmának összefoglalása](../../../../translated_images/hu/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote készítette: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Leggyakrabban nem határozzuk meg szigorúan a tudást, hanem más kapcsolódó 
 
 Így a **tudásábrázolás** problémája az, hogy hatékony módot találjunk a tudás számítógépen belüli adatként való ábrázolására, hogy automatikusan használható legyen. Ez egy spektrumként értelmezhető:
 
-![Tudásábrázolási spektrum](../../../../translated_images/hu/knowledge-spectrum.b60df631852c0217.png)
+![Tudásábrázolási spektrum](../../../../translated_images/hu/knowledge-spectrum.b60df631852c0217.webp)
 
 > Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blokk szintaxis | Indent |             |             |
 
 A szimbolikus AI korai sikerei közé tartoztak az úgynevezett **szakértői rendszerek** - olyan számítógépes rendszerek, amelyeket arra terveztek, hogy egy korlátozott problématerületen szakértőként működjenek. Ezek egy **tudásbázison** alapultak, amelyet egy vagy több emberi szakértőtől nyertek ki, és tartalmaztak egy **következtető motort**, amely ezen tudás alapján végzett következtetéseket.
 
-![Emberi architektúra](../../../../translated_images/hu/arch-human.5d4d35f1bba3ab1c.png) | ![Tudásalapú rendszer](../../../../translated_images/hu/arch-kbs.3ec5c150b09fa8da.png)
+![Emberi architektúra](../../../../translated_images/hu/arch-human.5d4d35f1bba3ab1c.webp) | ![Tudásalapú rendszer](../../../../translated_images/hu/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Az emberi idegrendszer egyszerűsített szerkezete | Tudásalapú rendszer architektúrája
 
@@ -106,7 +106,7 @@ A szakértői rendszerek felépítése hasonló az emberi következtetési rends
 
 Példaként vegyük a következő szakértői rendszert, amely egy állatot határoz meg fizikai jellemzői alapján:
 
-![AND-OR fa](../../../../translated_images/hu/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR fa](../../../../translated_images/hu/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
 

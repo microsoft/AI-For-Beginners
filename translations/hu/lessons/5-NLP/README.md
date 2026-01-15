@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Természetes Nyelvfeldolgozás
 
-![Összefoglaló az NLP feladatokról egy rajzban](../../../../translated_images/hu/ai-nlp.b22dcb8ca4707cea.png)
+![Összefoglaló az NLP feladatokról egy rajzban](../../../../translated_images/hu/ai-nlp.b22dcb8ca4707cea.webp)
 
 Ebben a részben a neurális hálózatok használatára összpontosítunk, hogy megoldjuk a **természetes nyelvfeldolgozással (NLP)** kapcsolatos feladatokat. Számos NLP probléma van, amelyeket szeretnénk, ha a számítógépek meg tudnának oldani:
 

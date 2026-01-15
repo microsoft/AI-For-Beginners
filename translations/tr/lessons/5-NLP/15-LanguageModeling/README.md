@@ -23,7 +23,7 @@ Dil modellemesinin temel fikri, modelleri etiketlenmemiş veri kümeleri üzerin
 * **Continuous Bag-of-Words** (CBoW), burada bir token dizisindeki $W_{-N}$, ..., $W_N$ arasında ortadaki token $W_0$'ı tahmin ederiz.
 * **Skip-gram**, burada ortadaki token $W_0$'dan komşu tokenlerin bir setini {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} tahmin ederiz.
 
-![Kelimeyi vektöre dönüştürme algoritmalarına dair makaleden görsel](../../../../../translated_images/tr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Kelimeyi vektöre dönüştürme algoritmalarına dair makaleden görsel](../../../../../translated_images/tr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Görsel [bu makaleden](https://arxiv.org/pdf/1301.3781.pdf)
 

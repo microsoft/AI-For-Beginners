@@ -11,13 +11,13 @@ Com RNNs, a sequência-para-sequência é implementada por duas redes recorrente
 
 **Mecanismos de Atenção** fornecem um meio de ponderar o impacto contextual de cada vetor de entrada em cada previsão de saída da RNN. A forma como é implementado é criando atalhos entre estados intermediários da RNN de entrada e da RNN de saída. Dessa maneira, ao gerar o símbolo de saída y<sub>t</sub>, levaremos em conta todos os estados ocultos de entrada h<sub>i</sub>, com diferentes coeficientes de peso α<sub>t,i</sub>.
 
-![Imagem mostrando um modelo codificador/decodificador com uma camada de atenção aditiva](../../../../../translated_images/pt/encoder-decoder-attention.7a726296894fb567.png)
+![Imagem mostrando um modelo codificador/decodificador com uma camada de atenção aditiva](../../../../../translated_images/pt/encoder-decoder-attention.7a726296894fb567.webp)
 
 > O modelo codificador-decodificador com mecanismo de atenção aditiva em [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), citado a partir [deste post de blog](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 A matriz de atenção {α<sub>i,j</sub>} representaria o grau em que certas palavras de entrada desempenham na geração de uma palavra específica na sequência de saída. Abaixo está um exemplo de tal matriz:
 
-![Imagem mostrando um alinhamento de exemplo encontrado por RNNsearch-50, tirada de Bahdanau - arviz.org](../../../../../translated_images/pt/bahdanau-fig3.09ba2d37f202a6af.png)
+![Imagem mostrando um alinhamento de exemplo encontrado por RNNsearch-50, tirada de Bahdanau - arviz.org](../../../../../translated_images/pt/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Figura de [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -57,7 +57,7 @@ O resultado que obtemos com o embutimento posicional incorpora tanto o token ori
 
 Em seguida, precisamos capturar alguns padrões dentro da nossa sequência. Para fazer isso, os transformers usam um mecanismo de **autoatenção**, que é essencialmente atenção aplicada à mesma sequência como entrada e saída. A aplicação de autoatenção nos permite levar em conta o **contexto** dentro da sentença e ver quais palavras estão inter-relacionadas. Por exemplo, isso nos permite ver quais palavras são referidas por co-referências, como *isso*, e também levar o contexto em consideração:
 
-![](../../../../../translated_images/pt/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/pt/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Imagem do [Blog do Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -82,7 +82,7 @@ Como cada posição de entrada é mapeada independentemente para cada posição 
 
 **BERT** (Representações de Codificador Bidirecional de Transformers) é uma rede transformer multilayer muito grande com 12 camadas para *BERT-base* e 24 para *BERT-large*. O modelo é primeiro pré-treinado em um grande corpus de dados textuais (WikiPedia + livros) usando treinamento não supervisionado (previsão de palavras mascaradas em uma sentença). Durante o pré-treinamento, o modelo absorve níveis significativos de compreensão da linguagem, que podem ser aproveitados com outros conjuntos de dados usando ajuste fino. Este processo é chamado de **aprendizado por transferência**.
 
-![imagem de http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/pt/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![imagem de http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/pt/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Imagem [fonte](http://jalammar.github.io/illustrated-bert/)
 

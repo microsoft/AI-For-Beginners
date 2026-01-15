@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CLIP-এর মূল ধারণা হলো টেক্সট প্রম্পটের সাথে একটি ইমেজ তুলনা করা এবং নির্ধারণ করা যে ইমেজটি প্রম্পটের সাথে কতটা সঙ্গতিপূর্ণ।
 
-![CLIP আর্কিটেকচার](../../../../../translated_images/bn/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP আর্কিটেকচার](../../../../../translated_images/bn/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *ছবি [এই ব্লগ পোস্ট](https://openai.com/blog/clip/) থেকে নেওয়া হয়েছে*
 
@@ -31,7 +31,7 @@ CLIP মডেল/লাইব্রেরি [OpenAI GitHub](https://github.com
 
 ধরা যাক আমাদের ইমেজগুলোকে বিড়াল, কুকুর এবং মানুষের মধ্যে শ্রেণীবদ্ধ করতে হবে। এই ক্ষেত্রে, আমরা মডেলটিকে একটি ইমেজ এবং একটি সিরিজ টেক্সট প্রম্পট দিতে পারি: "*একটি বিড়ালের ছবি*", "*একটি কুকুরের ছবি*", "*একটি মানুষের ছবি*"। ফলাফল হিসেবে প্রাপ্ত ৩টি সম্ভাবনার ভেক্টরে আমরা সর্বোচ্চ মানের ইনডেক্সটি নির্বাচন করব।
 
-![ইমেজ ক্লাসিফিকেশনের জন্য CLIP](../../../../../translated_images/bn/clip-class.3af42ef0b2b19369.png)
+![ইমেজ ক্লাসিফিকেশনের জন্য CLIP](../../../../../translated_images/bn/clip-class.3af42ef0b2b19369.webp)
 
 > *ছবি [এই ব্লগ পোস্ট](https://openai.com/blog/clip/) থেকে নেওয়া হয়েছে*
 
@@ -55,13 +55,13 @@ VQGAN সম্পর্কে আরও জানতে [Taming Transformers](h
 
 VQGAN এবং সাধারণ GAN-এর মধ্যে একটি গুরুত্বপূর্ণ পার্থক্য হলো, সাধারণ GAN যেকোনো ইনপুট ভেক্টর থেকে একটি ভালো ইমেজ তৈরি করতে পারে, কিন্তু VQGAN সম্ভবত একটি অসঙ্গতিপূর্ণ ইমেজ তৈরি করবে। তাই, ইমেজ তৈরির প্রক্রিয়াকে আরও নির্দেশনা দিতে হবে, এবং এটি CLIP ব্যবহার করে করা যেতে পারে।
 
-![VQGAN+CLIP আর্কিটেকচার](../../../../../translated_images/bn/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP আর্কিটেকচার](../../../../../translated_images/bn/vqgan.5027fe05051dfa31.webp)
 
 টেক্সট প্রম্পটের সাথে সঙ্গতিপূর্ণ একটি ইমেজ তৈরি করতে, আমরা কিছু র্যান্ডম এনকোডিং ভেক্টর দিয়ে শুরু করি যা VQGAN-এর মাধ্যমে একটি ইমেজ তৈরি করে। তারপর CLIP ব্যবহার করে একটি লস ফাংশন তৈরি করা হয় যা দেখায় ইমেজটি টেক্সট প্রম্পটের সাথে কতটা সঙ্গতিপূর্ণ। এরপর লক্ষ্য হলো এই লসকে কমানো, ব্যাক প্রোপাগেশন ব্যবহার করে ইনপুট ভেক্টর প্যারামিটারগুলো সামঞ্জস্য করা।
 
 VQGAN+CLIP বাস্তবায়নের জন্য একটি চমৎকার লাইব্রেরি হলো [Pixray](http://github.com/pixray/pixray)
 
-![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Pixray দ্বারা তৈরি ছবি](../../../../../translated_images/bn/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 প্রম্পট থেকে তৈরি ছবি *একটি বই সহ তরুণ পুরুষ সাহিত্য শিক্ষকের একটি ক্লোজআপ জলরঙের প্রতিকৃতি* | প্রম্পট থেকে তৈরি ছবি *একটি কম্পিউটার সহ তরুণ নারী কম্পিউটার বিজ্ঞান শিক্ষকের একটি ক্লোজআপ তেল প্রতিকৃতি* | প্রম্পট থেকে তৈরি ছবি *একটি ব্ল্যাকবোর্ডের সামনে বৃদ্ধ পুরুষ গণিত শিক্ষকের একটি ক্লোজআপ তেল প্রতিকৃতি*
 

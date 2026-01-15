@@ -15,7 +15,7 @@ Ankstesnėse dalyse naudojome turtingas semantines teksto reprezentacijas ir pap
 
 Norint užfiksuoti teksto sekos prasmę, reikia naudoti kitą neuroninio tinklo architektūrą, vadinamą **rekurentiniais neuroniniais tinklais** (RNN). RNN tinkluose sakinį perduodame per tinklą po vieną simbolį, o tinklas generuoja tam tikrą **būseną**, kurią vėliau perduodame tinklui kartu su kitu simboliu.
 
-![RNN](../../../../../translated_images/lt/rnn.27f5c29c53d727b5.png)
+![RNN](../../../../../translated_images/lt/rnn.27f5c29c53d727b5.webp)
 
 > Vaizdas sukurtas autoriaus
 
@@ -61,7 +61,7 @@ Aptarėme rekurentinius tinklus, kurie veikia viena kryptimi, nuo sekos pradžio
 
 Rekurentinis tinklas, nesvarbu, ar vienkryptis, ar dvikryptis, užfiksuoja tam tikrus sekos modelius ir gali juos saugoti būsenos vektoriuje arba perduoti į išvestį. Kaip ir konvoliuciniuose tinkluose, galime sukurti kitą rekurentinį sluoksnį virš pirmojo, kad užfiksuotume aukštesnio lygio modelius ir sukurtume iš žemo lygio modelių, kuriuos ištraukė pirmasis sluoksnis. Tai veda mus prie **daugiasluoksnio RNN** sąvokos, kurią sudaro du ar daugiau rekurentinių tinklų, kur ankstesnio sluoksnio išvestis perduodama kitam sluoksniui kaip įvestis.
 
-![Vaizdas, rodantis daugiasluoksnį ilgalaikės trumpalaikės atminties RNN](../../../../../translated_images/lt/multi-layer-lstm.dd975e29bb2a59fe.jpg)
+![Vaizdas, rodantis daugiasluoksnį ilgalaikės trumpalaikės atminties RNN](../../../../../translated_images/lt/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Paveikslas iš [šio puikaus įrašo](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) Fernando López*
 

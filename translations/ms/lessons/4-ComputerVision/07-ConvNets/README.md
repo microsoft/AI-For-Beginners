@@ -17,7 +17,7 @@ Dalam kehidupan sebenar, kita ingin dapat mengenali objek dalam gambar tanpa men
 
 Untuk mengekstrak pola, kita akan menggunakan konsep **penapis konvolusi**. Seperti yang anda tahu, imej diwakili oleh matriks 2D, atau tensor 3D dengan kedalaman warna. Menggunakan penapis bermaksud kita mengambil matriks **kernel penapis** yang agak kecil, dan untuk setiap piksel dalam imej asal, kita mengira purata berwajaran dengan titik-titik jiran. Kita boleh melihat ini seperti tingkap kecil yang meluncur di seluruh imej, dan meratakan semua piksel mengikut berat dalam matriks kernel penapis.
 
-![Penapis Tepi Menegak](../../../../../translated_images/ms/filter-vert.b7148390ca0bc356.png) | ![Penapis Tepi Mendatar](../../../../../translated_images/ms/filter-horiz.59b80ed4feb946ef.png)
+![Penapis Tepi Menegak](../../../../../translated_images/ms/filter-vert.b7148390ca0bc356.webp) | ![Penapis Tepi Mendatar](../../../../../translated_images/ms/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Imej oleh Dmitry Soshnikov
@@ -38,7 +38,7 @@ Cara CNN berfungsi berdasarkan idea penting berikut:
 * Kita boleh mereka bentuk rangkaian sedemikian rupa sehingga penapis dilatih secara automatik
 * Kita boleh menggunakan pendekatan yang sama untuk mencari pola dalam ciri tahap tinggi, bukan hanya dalam imej asal. Oleh itu, pengekstrakan ciri CNN berfungsi pada hierarki ciri, bermula daripada gabungan piksel tahap rendah, sehingga gabungan tahap tinggi bahagian gambar.
 
-![Pengekstrakan Ciri Hierarki](../../../../../translated_images/ms/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Pengekstrakan Ciri Hierarki](../../../../../translated_images/ms/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Imej daripada [kertas kerja oleh Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), berdasarkan [penyelidikan mereka](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Kebanyakan CNN yang digunakan untuk pemprosesan imej mengikuti seni bina yang di
 
 Sebagai contoh, mari kita lihat seni bina VGG-16, rangkaian yang mencapai ketepatan 92.7% dalam klasifikasi top-5 ImageNet pada tahun 2014:
 
-![Lapisan ImageNet](../../../../../translated_images/ms/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![Lapisan ImageNet](../../../../../translated_images/ms/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Piramid ImageNet](../../../../../translated_images/ms/vgg-16-arch.64ff2137f50dd49f.jpg)
+![Piramid ImageNet](../../../../../translated_images/ms/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Imej daripada [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

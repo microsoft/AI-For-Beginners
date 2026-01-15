@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Continuous Bag-of-Words** (CBoW), όπου προβλέπουμε το μεσαίο σύμβολο $W_0$ σε μια ακολουθία συμβόλων $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, όπου προβλέπουμε ένα σύνολο γειτονικών συμβόλων {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} από το μεσαίο σύμβολο $W_0$.
 
-![εικόνα από άρθρο για τη μετατροπή λέξεων σε διανύσματα](../../../../../translated_images/el/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![εικόνα από άρθρο για τη μετατροπή λέξεων σε διανύσματα](../../../../../translated_images/el/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Εικόνα από [αυτό το άρθρο](https://arxiv.org/pdf/1301.3781.pdf)
 

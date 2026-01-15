@@ -57,7 +57,7 @@ spædbarn | O
 
 Da vi skal opbygge en én-til-én-korrespondance mellem tokens og klasser, kan vi træne en højreorienteret **mange-til-mange** neuralt netværksmodel fra dette billede:
 
-![Billede, der viser almindelige mønstre for rekurrente neurale netværk.](../../../../../translated_images/da/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Billede, der viser almindelige mønstre for rekurrente neurale netværk.](../../../../../translated_images/da/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Billede fra [denne blogpost](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) af [Andrej Karpathy](http://karpathy.github.io/). NER-tokenklassifikationsmodeller svarer til den højreorienterede netværksarkitektur på dette billede.*
 

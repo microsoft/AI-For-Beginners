@@ -21,7 +21,7 @@ Jums reikia išmokyti konvoliucinį neuroninį tinklą klasifikuoti skirtingas k
 
 Naudosime [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), kuriame yra 37 skirtingų šunų ir kačių veislių nuotraukos.
 
-![Duomenų rinkinys, su kuriuo dirbsime](../../../../../../translated_images/lt/data.50b2a9d5484bdbf0.png)
+![Duomenų rinkinys, su kuriuo dirbsime](../../../../../../translated_images/lt/data.50b2a9d5484bdbf0.webp)
 
 Norėdami atsisiųsti duomenų rinkinį, naudokite šį kodo fragmentą:
 

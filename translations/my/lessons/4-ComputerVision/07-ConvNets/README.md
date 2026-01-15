@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Patterns တွေကို ရှာဖွေဖို့ **convolutional filters** ဆိုတဲ့ အယူအဆကို အသုံးပြုပါမယ်။ သင်သိပြီးသားဖြစ်တဲ့အတိုင်း၊ ပုံတစ်ပုံဟာ 2D-matrix, ဒါမှမဟုတ် color depth ပါတဲ့ 3D-tensor အနေနဲ့ ဖော်ပြထားပါတယ်။ Filter ကို အသုံးပြုတဲ့အခါမှာ **filter kernel** matrix လေးတစ်ခုကို ယူပြီး၊ မူရင်းပုံထဲက pixel တစ်ခုစီအတွက် အနီးအနားမှာရှိတဲ့ point တွေနဲ့ weighted average ကိုတွက်ချက်ပါတယ်။ ဒါကို ပုံတစ်ပုံလုံးကို sliding လုပ်ပြီး၊ filter kernel matrix ထဲက weight တွေအတိုင်း pixel တွေကို averaging လုပ်နေတဲ့ window လေးတစ်ခုလိုမျိုး မြင်နိုင်ပါတယ်။
 
-![Vertical Edge Filter](../../../../../translated_images/my/filter-vert.b7148390ca0bc356.png) | ![Horizontal Edge Filter](../../../../../translated_images/my/filter-horiz.59b80ed4feb946ef.png)
+![Vertical Edge Filter](../../../../../translated_images/my/filter-vert.b7148390ca0bc356.webp) | ![Horizontal Edge Filter](../../../../../translated_images/my/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Image by Dmitry Soshnikov
@@ -38,7 +38,7 @@ CNN တွေဟာ အောက်ပါ အရေးကြီးတဲ့ အ�
 * Filters တွေကို အလိုအလျောက် သင်ယူနိုင်အောင် network ကို design လုပ်နိုင်တယ်
 * မူရင်းပုံထဲမှာသာမက၊ high-level features တွေထဲမှာ patterns တွေကို ရှာဖွေနိုင်ဖို့ အတူတူပုံစံကို အသုံးပြုနိုင်တယ်။ ဒါကြောင့် CNN feature extraction ဟာ low-level pixel combinations တွေကနေ စပြီး၊ ပုံရဲ့ အပိုင်းပိုင်းတွေကို ပေါင်းစပ်ထားတဲ့ higher-level features တွေထိ hierarchy အတိုင်း အလုပ်လုပ်ပါတယ်။
 
-![Hierarchical Feature Extraction](../../../../../translated_images/my/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Hierarchical Feature Extraction](../../../../../translated_images/my/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Image from [a paper by Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), based on [their research](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Convolutional neural networks တွေ ဘယ်လိုအလုပ်လု�
 
 ဥပမာအနေနဲ့၊ VGG-16 ရဲ့ architecture ကို ကြည့်ကြမယ်၊ ဒီ network ဟာ 2014 မှာ ImageNet ရဲ့ top-5 classification မှာ 92.7% accuracy ရရှိခဲ့ပါတယ်-
 
-![ImageNet Layers](../../../../../translated_images/my/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/my/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet Pyramid](../../../../../translated_images/my/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/my/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Image from [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

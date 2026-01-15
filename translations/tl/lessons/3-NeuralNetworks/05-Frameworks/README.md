@@ -58,7 +58,7 @@ Ang overfitting ay isang napakahalagang konsepto sa machine learning, at napakah
 
 Isaalang-alang ang sumusunod na problema ng pag-aapproximate sa 5 puntos (na kinakatawan ng `x` sa mga graph sa ibaba):
 
-![linear](../../../../../translated_images/tl/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/tl/overfit2.131f5800ae10ca5e.jpg)
+![linear](../../../../../translated_images/tl/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/tl/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Linear model, 2 parameters** | **Non-linear model, 7 parameters**
 Training error = 5.3 | Training error = 0
@@ -79,7 +79,7 @@ Napakahalaga na mahanap ang tamang balanse sa pagitan ng dami ng parameters ng m
 
 Tulad ng makikita mula sa graph sa itaas, ang overfitting ay maaaring matukoy sa pamamagitan ng napakababang training error, at mataas na validation error. Karaniwan sa panahon ng training, makikita natin ang parehong training at validation errors na nagsisimulang bumaba, at pagkatapos ay sa isang punto maaaring tumigil ang validation error sa pagbaba at magsimulang tumaas. Ito ang magiging senyales ng overfitting, at indikasyon na dapat nating itigil ang training sa puntong ito (o kahit papaano gumawa ng snapshot ng model).
 
-![overfitting](../../../../../translated_images/tl/Overfitting.408ad91cd90b4371.png)
+![overfitting](../../../../../translated_images/tl/Overfitting.408ad91cd90b4371.webp)
 
 ## Paano maiwasan ang overfitting
 

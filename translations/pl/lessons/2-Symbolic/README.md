@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentacja wiedzy i systemy ekspertowe
 
-![Podsumowanie treści o Symbolicznym AI](../../../../translated_images/pl/ai-symbolic.715a30cb610411a6.png)
+![Podsumowanie treści o Symbolicznym AI](../../../../translated_images/pl/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autorstwa [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Najczęściej nie definiujemy wiedzy w sposób ścisły, ale zestawiamy ją z in
 
 Problem **reprezentacji wiedzy** polega więc na znalezieniu skutecznego sposobu reprezentowania wiedzy w komputerze w formie danych, aby była automatycznie użyteczna. Można to postrzegać jako spektrum:
 
-![Spektrum reprezentacji wiedzy](../../../../translated_images/pl/knowledge-spectrum.b60df631852c0217.png)
+![Spektrum reprezentacji wiedzy](../../../../translated_images/pl/knowledge-spectrum.b60df631852c0217.webp)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Składnia blokowa | Wcięcia | | |
 
 Jednym z wczesnych sukcesów symbolicznego AI były tzw. **systemy ekspertowe** - systemy komputerowe zaprojektowane do działania jako ekspert w ograniczonej dziedzinie problemowej. Opierały się na **bazie wiedzy** wydobytej od jednego lub więcej ludzkich ekspertów i zawierały **silnik wnioskowania**, który wykonywał wnioskowanie na jej podstawie.
 
-![Architektura człowieka](../../../../translated_images/pl/arch-human.5d4d35f1bba3ab1c.png) | ![System oparty na wiedzy](../../../../translated_images/pl/arch-kbs.3ec5c150b09fa8da.png)
+![Architektura człowieka](../../../../translated_images/pl/arch-human.5d4d35f1bba3ab1c.webp) | ![System oparty na wiedzy](../../../../translated_images/pl/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Uproszczona struktura ludzkiego układu nerwowego | Architektura systemu opartego na wiedzy
 
@@ -106,7 +106,7 @@ Systemy ekspertowe są zbudowane podobnie jak system wnioskowania człowieka, kt
 
 Na przykład rozważmy następujący system ekspertowy do określania zwierzęcia na podstawie jego cech fizycznych:
 
-![Drzewo AND-OR](../../../../translated_images/pl/AND-OR-Tree.5592d2c70187f283.png)
+![Drzewo AND-OR](../../../../translated_images/pl/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 

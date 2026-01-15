@@ -13,7 +13,7 @@ Modelele de clasificare a imaginilor pe care le-am abordat până acum au luat o
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detectarea Obiectelor](../../../../../translated_images/ro/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![Detectarea Obiectelor](../../../../../translated_images/ro/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Imagine de pe [site-ul YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Presupunând că dorim să găsim o pisică într-o imagine, o abordare foarte n
 2. Aplicăm clasificarea imaginilor pe fiecare secțiune.
 3. Secțiunile care generează o activare suficient de mare pot fi considerate ca conținând obiectul în cauză.
 
-![Detectare Naivă a Obiectelor](../../../../../translated_images/ro/naive-detection.e7f1ba220ccd08c6.png)
+![Detectare Naivă a Obiectelor](../../../../../translated_images/ro/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Imagine din [Notebook-ul de exerciții](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Este posibil să întâlniți următoarele seturi de date pentru această sarcin
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 clase
 * [COCO](http://cocodataset.org/#home) - Obiecte Comune în Context. 80 clase, casete de delimitare și măști de segmentare
 
-![COCO](../../../../../translated_images/ro/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/ro/coco-examples.71bc60380fa6cceb.webp)
 
 ## Metrice pentru Detectarea Obiectelor
 
@@ -50,7 +50,7 @@ Este posibil să întâlniți următoarele seturi de date pentru această sarcin
 
 În timp ce pentru clasificarea imaginilor este ușor să măsurăm cât de bine performează algoritmul, pentru detectarea obiectelor trebuie să măsurăm atât corectitudinea clasei, cât și precizia locației casetei de delimitare inferate. Pentru aceasta din urmă, folosim așa-numita **Intersecția peste Uniune** (IoU), care măsoară cât de bine se suprapun două casete (sau două zone arbitrare).
 
-![IoU](../../../../../translated_images/ro/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/ro/iou_equation.9a4751d40fff4e11.webp)
 
 > *Figura 2 din [acest articol excelent despre IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Există două clase largi de algoritmi de detectare a obiectelor:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) folosește [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) pentru a genera o structură ierarhică de regiuni ROI, care sunt apoi trecute prin extractoare de caracteristici CNN și clasificatoare SVM pentru a determina clasa obiectului, și regresie liniară pentru a determina coordonatele *casetei de delimitare*. [Lucrare oficială](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/ro/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/ro/rcnn1.cae407020dfb1d1f.webp)
 
 > *Imagine de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/ro/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/ro/rcnn2.2d9530bb83516484.webp)
 
 > *Imagini din [acest blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Există două clase largi de algoritmi de detectare a obiectelor:
 
 Această abordare este similară cu R-CNN, dar regiunile sunt definite după ce straturile de convoluție au fost aplicate.
 
-![FRCNN](../../../../../translated_images/ro/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/ro/f-rcnn.3cda6d9bb4188875.webp)
 
 > Imagine din [Lucrarea Oficială](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Această abordare este similară cu R-CNN, dar regiunile sunt definite după ce 
 
 Ideea principală a acestei abordări este de a folosi o rețea neuronală pentru a prezice ROI-urile - așa-numita *Rețea de Propunere a Regiunilor*. [Lucrare](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/ro/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/ro/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Acest algoritm este chiar mai rapid decât Faster R-CNN. Ideea principală este 
 2. Caracteristicile sunt procesate de **Position-Sensitive Score Map**. Fiecare obiect din $C$ clase este împărțit în regiuni $k\times k$, și antrenăm pentru a prezice părți ale obiectelor.
 3. Pentru fiecare parte din regiunile $k\times k$, toate rețelele votează pentru clasele de obiecte, iar clasa de obiect cu votul maxim este selectată.
 
-![r-fcn image](../../../../../translated_images/ro/r-fcn.13eb88158b99a3da.png)
+![r-fcn image](../../../../../translated_images/ro/r-fcn.13eb88158b99a3da.webp)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO este un algoritm în timp real, cu o singură trecere. Ideea principală es
  * Imaginea este împărțită în regiuni $S\times S$.
  * Pentru fiecare regiune, **CNN** prezice $n$ obiecte posibile, coordonatele *casetei de delimitare* și *încrederea*=*probabilitatea* * IoU.
 
- ![YOLO](../../../../../translated_images/ro/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/ro/yolo.a2648ec82ee8bb4e.webp)
 
 > Imagine din [lucrarea oficială](https://arxiv.org/abs/1506.02640)
 

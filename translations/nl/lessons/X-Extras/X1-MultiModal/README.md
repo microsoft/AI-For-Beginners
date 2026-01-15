@@ -15,7 +15,7 @@ Na het succes van transformer-modellen voor het oplossen van NLP-taken, zijn dez
 
 Het belangrijkste idee van CLIP is om tekstprompts te kunnen vergelijken met een afbeelding en te bepalen hoe goed de afbeelding overeenkomt met de prompt.
 
-![CLIP Architectuur](../../../../../translated_images/nl/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP Architectuur](../../../../../translated_images/nl/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Zodra dit model is voorgetraind, kunnen we het een batch afbeeldingen en een bat
 
 Stel dat we afbeeldingen moeten classificeren tussen bijvoorbeeld katten, honden en mensen. In dit geval kunnen we het model een afbeelding geven en een reeks tekstprompts: "*een afbeelding van een kat*", "*een afbeelding van een hond*", "*een afbeelding van een mens*". In de resulterende vector van 3 waarschijnlijkheden hoeven we alleen de index met de hoogste waarde te selecteren.
 
-![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/nl/clip-class.3af42ef0b2b19369.png)
+![CLIP voor Afbeeldingsclassificatie](../../../../../translated_images/nl/clip-class.3af42ef0b2b19369.webp)
 
 > *Afbeelding uit [deze blogpost](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Meer informatie over VQGAN vind je op de [Taming Transformers](https://compvis.g
 
 Een belangrijk verschil tussen VQGAN en traditionele GAN is dat de laatste een behoorlijke afbeelding kan produceren vanuit elke invoervector, terwijl VQGAN waarschijnlijk een afbeelding produceert die niet coherent is. Daarom moeten we het proces van afbeeldingcreatie verder sturen, en dat kan worden gedaan met behulp van CLIP.
 
-![VQGAN+CLIP Architectuur](../../../../../translated_images/nl/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP Architectuur](../../../../../translated_images/nl/vqgan.5027fe05051dfa31.webp)
 
 Om een afbeelding te genereren die overeenkomt met een tekstprompt, beginnen we met een willekeurige coderingsvector die door VQGAN wordt doorgegeven om een afbeelding te produceren. Vervolgens wordt CLIP gebruikt om een verliesfunctie te produceren die aangeeft hoe goed de afbeelding overeenkomt met de tekstprompt. Het doel is dan om dit verlies te minimaliseren, door middel van backpropagation om de parameters van de invoervector aan te passen.
 
 Een geweldige bibliotheek die VQGAN+CLIP implementeert is [Pixray](http://github.com/pixray/pixray).
 
-![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Afbeelding gegenereerd door Pixray](../../../../../translated_images/nl/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Afbeelding gegenereerd vanuit prompt *een close-up aquarelportret van een jonge mannelijke leraar literatuur met een boek* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een jonge vrouwelijke leraar informatica met een computer* | Afbeelding gegenereerd vanuit prompt *een close-up olieverfportret van een oude mannelijke leraar wiskunde voor een schoolbord*
 

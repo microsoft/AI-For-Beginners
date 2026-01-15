@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # စက်မှုအသိပညာစနစ် အတွက် ရှေ့မီသူများ - သင်ရိုးညွှန်းတမ်း
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/my/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/my/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

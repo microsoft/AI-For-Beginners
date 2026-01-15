@@ -59,7 +59,7 @@ neonato | O
 
 Poiché dobbiamo costruire una corrispondenza uno-a-uno tra token e classi, possiamo allenare un modello neurale **molti-a-molti** come mostrato in questa immagine:
 
-![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/it/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/it/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Immagine tratta da [questo post sul blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) di [Andrej Karpathy](http://karpathy.github.io/). I modelli di classificazione dei token NER corrispondono all'architettura di rete più a destra in questa immagine.*
 

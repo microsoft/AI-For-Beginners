@@ -19,7 +19,7 @@ Sa RNN architecture na tinalakay natin sa nakaraang unit, bawat RNN unit ay guma
 
 Ito ay nagbibigay-daan para sa iba't ibang neural architectures na ipinapakita sa larawan sa ibaba:
 
-![Larawan na nagpapakita ng mga karaniwang pattern ng recurrent neural network.](../../../../../translated_images/tl/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Larawan na nagpapakita ng mga karaniwang pattern ng recurrent neural network.](../../../../../translated_images/tl/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Larawan mula sa blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ni [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Sa unit na ito, magpo-focus tayo sa simpleng generative models na tumutulong sa 
 
 Sasanayin natin ang RNN na ito upang mag-generate ng teksto hakbang-hakbang. Sa bawat hakbang, kukuha tayo ng isang sequence ng mga character na may haba na `nchars`, at hihilingin sa network na mag-generate ng susunod na output character para sa bawat input character:
 
-![Larawan na nagpapakita ng halimbawa ng RNN generation ng salitang 'HELLO'.](../../../../../translated_images/tl/rnn-generate.56c54afb52f9781d.png)
+![Larawan na nagpapakita ng halimbawa ng RNN generation ng salitang 'HELLO'.](../../../../../translated_images/tl/rnn-generate.56c54afb52f9781d.webp)
 
 Kapag nag-generate ng teksto (sa panahon ng inference), magsisimula tayo sa isang **prompt**, na ipapasa sa RNN cells upang mag-generate ng intermediate state nito, at pagkatapos mula sa state na ito magsisimula ang generation. Mag-generate tayo ng isang character sa bawat pagkakataon, at ipapasa ang state at ang generated character sa isa pang RNN cell upang mag-generate ng susunod, hanggang sa makabuo tayo ng sapat na mga character.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wprowadzenie do sieci neuronowych
 
-![Podsumowanie treści wprowadzających do sieci neuronowych w formie rysunku](../../../../translated_images/pl/ai-neuralnetworks.1c687ae40bc86e83.png)
+![Podsumowanie treści wprowadzających do sieci neuronowych w formie rysunku](../../../../translated_images/pl/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Jak omówiliśmy we wstępie, jednym ze sposobów osiągnięcia inteligencji jest trenowanie **modelu komputerowego** lub **sztucznego mózgu**. Od połowy XX wieku badacze próbowali różnych modeli matematycznych, aż w ostatnich latach ten kierunek okazał się niezwykle skuteczny. Takie matematyczne modele mózgu nazywane są **sieciami neuronowymi**.
 
@@ -36,13 +36,13 @@ W tym programie nauczania skupimy się wyłącznie na modelach sieci neuronowych
 
 Z biologii wiemy, że nasz mózg składa się z komórek nerwowych (neuronów), z których każda ma wiele "wejść" (dendrytów) i jedno "wyjście" (akson). Zarówno dendryty, jak i aksony mogą przewodzić sygnały elektryczne, a połączenia między nimi — znane jako synapsy — mogą wykazywać różne stopnie przewodnictwa, które są regulowane przez neuroprzekaźniki.
 
-![Model neuronu](../../../../translated_images/pl/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Model neuronu](../../../../translated_images/pl/artneuron.1a5daa88d20ebe6f.png)
+![Model neuronu](../../../../translated_images/pl/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Model neuronu](../../../../translated_images/pl/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Prawdziwy neuron *([Obraz](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) z Wikipedii)* | Sztuczny neuron *(Obraz autora)*
 
 Najprostszy matematyczny model neuronu zawiera kilka wejść X<sub>1</sub>, ..., X<sub>N</sub> oraz jedno wyjście Y, a także serię wag W<sub>1</sub>, ..., W<sub>N</sub>. Wyjście obliczane jest jako:
 
-<img src="../../../../translated_images/pl/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/pl/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 gdzie f jest pewną nieliniową **funkcją aktywacji**.
 

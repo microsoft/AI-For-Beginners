@@ -17,14 +17,14 @@ Päriselus tahame olla võimelised tuvastama objekte pildil sõltumata nende tä
 
 Mustrite leidmiseks kasutame **konvolutsioonifiltrite** mõistet. Nagu teate, on pilt esitatud 2D-maatriksina või 3D-tensorina koos värvisügavusega. Filtri rakendamine tähendab, et võtame suhteliselt väikese **filtrituuma** maatriksi ja arvutame iga originaalpildi pikseli jaoks kaalutud keskmise koos naaberpunktidega. Seda võib vaadelda kui väikest akent, mis libiseb üle kogu pildi ja keskmistab kõik pikslid vastavalt filtrituuma maatriksi kaaludele.
 
-![Vertikaalse serva filter](../../../../../translated_images/et/filter-vert.b7148390ca0bc356.png) | ![Horisontaalse serva filter](../../../../../translated_images/et/filter-horiz.59b80ed4feb946ef.png)
+![Vertikaalse serva filter](../../../../../translated_images/et/filter-vert.b7148390ca0bc356.webp) | ![Horisontaalse serva filter](../../../../../translated_images/et/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Pilt: Dmitry Soshnikov
 
 Näiteks, kui rakendame MNIST numbritele 3x3 vertikaalse ja horisontaalse serva filtreid, saame esile tõsta (nt kõrged väärtused) kohad, kus originaalpildil on vertikaalsed ja horisontaalsed servad. Seega saab neid kahte filtrit kasutada servade "otsimiseks". Samamoodi saame kujundada erinevaid filtreid, et otsida teisi madala taseme mustreid:
 
-<img src="../../../../../translated_images/et/lmfilters.ea9e4868a82cf74c.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/et/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Pilt: [Leung-Malik filtripank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 
@@ -38,7 +38,7 @@ CNN-i töö põhineb järgmistel olulistel ideedel:
 * Võrgu saab kujundada nii, et filtrid treenitakse automaatselt
 * Sama lähenemist saab kasutada mustrite leidmiseks kõrgetasemelistes omadustes, mitte ainult originaalpildil. Seega töötab CNN-i omaduste tuvastamine hierarhias, alustades madala taseme pikslikombinatsioonidest kuni kõrgema taseme pildiosade kombinatsioonideni.
 
-![Hierarhiline omaduste tuvastamine](../../../../../translated_images/et/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Hierarhiline omaduste tuvastamine](../../../../../translated_images/et/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Pilt: [Hislop-Lynchi artikkel](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), põhineb [nende uurimusel](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Enamik pilttöötluseks kasutatavaid CNN-e järgib nn püramiidset arhitektuuri.
 
 Näiteks vaatame VGG-16 arhitektuuri, võrku, mis saavutas 2014. aastal ImageNeti top-5 klassifikatsioonis 92,7% täpsuse:
 
-![ImageNeti kihid](../../../../../translated_images/et/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNeti kihid](../../../../../translated_images/et/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNeti püramiid](../../../../../translated_images/et/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNeti püramiid](../../../../../translated_images/et/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Pilt: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

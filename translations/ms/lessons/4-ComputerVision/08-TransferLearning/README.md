@@ -29,7 +29,7 @@ Kedua-dua Keras dan PyTorch mengandungi fungsi untuk memuatkan berat rangkaian n
 
 Berikut adalah contoh ciri-ciri yang diekstrak daripada gambar kucing oleh rangkaian VGG-16:
 
-![Ciri-ciri yang diekstrak oleh VGG-16](../../../../../translated_images/ms/features.6291f9c7ba3a0b95.png)
+![Ciri-ciri yang diekstrak oleh VGG-16](../../../../../translated_images/ms/features.6291f9c7ba3a0b95.webp)
 
 ## Dataset Kucing vs. Anjing
 
@@ -48,19 +48,19 @@ Rangkaian neural pra-latih mengandungi pelbagai corak dalam "otaknya", termasuk 
 
 Satu pendekatan yang boleh kita ambil adalah bermula dengan imej rawak, dan kemudian cuba menggunakan teknik **pengoptimuman penurunan kecerunan** untuk menyesuaikan imej tersebut sedemikian rupa sehingga rangkaian mula berfikir bahawa ia adalah kucing.
 
-![Gelung Pengoptimuman Imej](../../../../../translated_images/ms/ideal-cat-loop.999fbb8ff306e044.png)
+![Gelung Pengoptimuman Imej](../../../../../translated_images/ms/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Walau bagaimanapun, jika kita melakukan ini, kita akan mendapat sesuatu yang sangat mirip dengan bunyi rawak. Ini kerana *terdapat banyak cara untuk membuat rangkaian berfikir imej input adalah kucing*, termasuk beberapa yang tidak masuk akal secara visual. Walaupun imej-imej tersebut mengandungi banyak corak yang tipikal untuk kucing, tiada apa yang menghalang mereka daripada menjadi jelas secara visual.
 
 Untuk memperbaiki hasilnya, kita boleh menambah satu lagi istilah ke dalam fungsi kehilangan, yang dipanggil **kehilangan variasi**. Ia adalah metrik yang menunjukkan betapa serupa piksel-piksel yang bersebelahan dalam imej. Meminimumkan kehilangan variasi menjadikan imej lebih licin, dan menghilangkan bunyi - dengan itu mendedahkan corak yang lebih menarik secara visual. Berikut adalah contoh imej "ideal" seperti itu, yang diklasifikasikan sebagai kucing dan zebra dengan kebarangkalian tinggi:
 
-![Kucing Ideal](../../../../../translated_images/ms/ideal-cat.203dd4597643d6b0.png) | ![Zebra Ideal](../../../../../translated_images/ms/ideal-zebra.7f70e8b54ee15a7a.png)
+![Kucing Ideal](../../../../../translated_images/ms/ideal-cat.203dd4597643d6b0.webp) | ![Zebra Ideal](../../../../../translated_images/ms/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Kucing Ideal* | *Zebra Ideal*
 
 Pendekatan serupa boleh digunakan untuk melakukan apa yang dipanggil **serangan adversarial** pada rangkaian neural. Katakan kita ingin mengelirukan rangkaian neural dan membuat anjing kelihatan seperti kucing. Jika kita mengambil imej anjing, yang dikenali oleh rangkaian sebagai anjing, kita kemudian boleh mengubahnya sedikit menggunakan pengoptimuman penurunan kecerunan, sehingga rangkaian mula mengklasifikasikannya sebagai kucing:
 
-![Gambar Anjing](../../../../../translated_images/ms/original-dog.8f68a67d2fe0911f.png) | ![Gambar anjing yang diklasifikasikan sebagai kucing](../../../../../translated_images/ms/adversarial-dog.d9fc7773b0142b89.png)
+![Gambar Anjing](../../../../../translated_images/ms/original-dog.8f68a67d2fe0911f.webp) | ![Gambar anjing yang diklasifikasikan sebagai kucing](../../../../../translated_images/ms/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Gambar asal anjing* | *Gambar anjing yang diklasifikasikan sebagai kucing*
 

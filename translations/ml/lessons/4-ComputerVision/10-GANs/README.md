@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GAN-ന്റെ പ്രധാന ആശയം രണ്ട് ന്യൂറൽ നെറ്റ്വർക്കുകൾ തമ്മിൽ പരസ്പരം മത്സരിച്ച് പരിശീലിക്കപ്പെടുക എന്നതാണ്:
 
-<img src="../../../../../translated_images/ml/gan_architecture.8f3a5ab62b8d5d69.png" width="70%"/>
+<img src="../../../../../translated_images/ml/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > ചിത്രം: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +41,7 @@ CNN ഡിസ്ക്രിമിനേറ്റർ താഴെപ്പറയ
 
 > ✅ കോൺവല്യൂഷൻ ലെയർ ചിത്രം താണ്ടുന്ന ലീനിയർ ഫിൽട്ടറായതിനാൽ, ഡീകോൺവല്യൂഷൻ അടിസ്ഥാനപരമായി കോൺവല്യൂഷനോട് സമാനമാണ്, അതേ ലെയർ ലജിക് ഉപയോഗിച്ച് നടപ്പിലാക്കാം.
 
-<img src="../../../../../translated_images/ml/gan_arch_detail.46b95fd366f8e543.png" width="70%"/>
+<img src="../../../../../translated_images/ml/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > ചിത്രം: [Dmitry Soshnikov](http://soshnikov.com)
 

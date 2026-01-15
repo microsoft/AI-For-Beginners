@@ -21,7 +21,7 @@ Vašou úlohou je vytrénovať konvolučnú neurónovú sieť na klasifikáciu r
 
 Použijeme [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), ktorý obsahuje obrázky 37 rôznych plemien psov a mačiek.
 
-![Dataset, s ktorým budeme pracovať](../../../../../../translated_images/sk/data.50b2a9d5484bdbf0.png)
+![Dataset, s ktorým budeme pracovať](../../../../../../translated_images/sk/data.50b2a9d5484bdbf0.webp)
 
 Na stiahnutie datasetu použite tento kód:
 

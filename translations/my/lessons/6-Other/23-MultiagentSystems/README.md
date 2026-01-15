@@ -70,7 +70,7 @@ models တစ်ခုကို ဖွင့်နိုင်သည်၊ ဥ�
 
 model ကို ဖွင့်ပြီးနောက် NetLogo ၏ အဓိက screen သို့ ရောက်ရှိသည်။ ဤနေရာတွင် finite resources (grass) ရှိသော wolves နှင့် sheep ၏ population ကို ဖော်ပြသော sample model တစ်ခုကို တွေ့နိုင်သည်။
 
-![NetLogo Main Screen](../../../../../translated_images/my/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/my/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov ၏ screenshot
 

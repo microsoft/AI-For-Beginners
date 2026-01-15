@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 מכיוון שאנו מאמנים אוטואנקודר כדי ללכוד כמה שיותר מידע מהתמונה המקורית לצורך שחזור מדויק, הרשת מנסה למצוא את ה**הטמעה** הטובה ביותר של תמונות הקלט כדי ללכוד את המשמעות.
 
-![AutoEncoder Diagram](../../../../../translated_images/he/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/he/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > תמונה מתוך [בלוג Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

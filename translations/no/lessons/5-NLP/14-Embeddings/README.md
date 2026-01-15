@@ -19,7 +19,7 @@ Så, innebyggingslaget vil ta et ord som input og produsere en output-vektor med
 
 Ved å bruke et innebyggingslag som første lag i vårt klassifikatornettverk, kan vi bytte fra en bag-of-words til **embedding bag**-modell, hvor vi først konverterer hvert ord i teksten vår til tilsvarende innebygging, og deretter beregner en aggregatfunksjon over alle disse innebyggingene, som `sum`, `average` eller `max`.  
 
-![Bilde som viser en innebyggingsklassifikator for fem sekvensord.](../../../../../translated_images/no/embedding-classifier-example.b77f021a7ee67eee.png)
+![Bilde som viser en innebyggingsklassifikator for fem sekvensord.](../../../../../translated_images/no/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Bilde av forfatteren
 
@@ -40,7 +40,7 @@ For å oppnå dette må vi forhåndstrene innebyggingsmodellen vår på en stor 
 
 CBoW er raskere, mens skip-gram er tregere, men gjør en bedre jobb med å representere sjeldne ord.
 
-![Bilde som viser både CBoW- og Skip-Gram-algoritmer for å konvertere ord til vektorer.](../../../../../translated_images/no/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Bilde som viser både CBoW- og Skip-Gram-algoritmer for å konvertere ord til vektorer.](../../../../../translated_images/no/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Bilde fra [denne artikkelen](https://arxiv.org/pdf/1301.3781.pdf)
 

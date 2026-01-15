@@ -23,7 +23,7 @@ Semantic embeddings, Word2Vec နှင့် GloVe က **ဘာသာစကာ�
 * **Continuous Bag-of-Words** (CBoW)၊ token အစဉ် $W_{-N}$, ..., $W_N$ တွင် အလယ် token $W_0$ ကို ခန့်မှန်းခြင်း။
 * **Skip-gram**၊ အလယ် token $W_0$ မှ အနီးအနား token များ {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} ကို ခန့်မှန်းခြင်း။
 
-![image from paper on converting words to vectors](../../../../../translated_images/my/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![image from paper on converting words to vectors](../../../../../translated_images/my/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
 

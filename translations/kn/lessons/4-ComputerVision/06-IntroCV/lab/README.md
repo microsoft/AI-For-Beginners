@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ಈ ವೀಡಿಯೋ](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4) ಯನ್ನು ಪರಿಗಣಿಸಿ, ಇದರಲ್ಲಿ ಒಬ್ಬ ವ್ಯಕ್ತಿಯ ಹಸ್ತದ ತೊಡೆಯು ಸ್ಥಿರ ಹಿನ್ನೆಲೆಯ ಮೇಲೆ ಎಡಕ್ಕೆ/ಬಲಕ್ಕೆ/ಮೇಲಕ್ಕೆ/ಕೆಳಗೆ ಚಲಿಸುತ್ತದೆ.
 
-<img src="../../../../../../translated_images/kn/palm-movement.341495f0e9c47da3.png" width="30%" alt="ಹಸ್ತದ ಚಲನೆ ಫ್ರೇಮ್"/>
+<img src="../../../../../../translated_images/kn/palm-movement.341495f0e9c47da3.webp" width="30%" alt="ಹಸ್ತದ ಚಲನೆ ಫ್ರೇಮ್"/>
 
 **ನಿಮ್ಮ ಗುರಿ** ಆಪ್ಟಿಕಲ್ ಫ್ಲೋ ಬಳಸಿ ವೀಡಿಯೋದಲ್ಲಿ ಯಾವ ಭಾಗಗಳಲ್ಲಿ ಮೇಲಕ್ಕೆ/ಕೆಳಗೆ/ಎಡಕ್ಕೆ/ಬಲಕ್ಕೆ ಚಲನೆಗಳಿವೆ ಎಂದು ನಿರ್ಧರಿಸುವುದು.
 

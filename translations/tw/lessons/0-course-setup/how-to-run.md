@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-24T22:16:24+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-15T12:04:06+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "tw"
 }
 -->
 # 如何執行程式碼
 
-這份課程包含許多可執行的範例和實驗，您可能會希望執行它們。為了做到這一點，您需要能夠在課程提供的 Jupyter Notebook 中執行 Python 程式碼。以下是幾種執行程式碼的選項：
+本課程包含許多可執行的範例和實驗，你會想要運行這些範例。為此，你需要具備在本課程所提供的 Jupyter 筆記本中執行 Python 程式碼的能力。你有幾種選擇可以執行程式碼：
 
-## 在本地電腦上執行
+## 在你的電腦上本地執行
 
-若要在本地電腦上執行程式碼，您需要安裝某個版本的 Python。我個人推薦安裝 **[miniconda](https://conda.io/en/latest/miniconda.html)** —— 它是一個輕量級的安裝包，支援 `conda` 套件管理器，用於建立不同的 Python **虛擬環境**。
+若要在你的電腦本地運行程式碼，需要安裝 Python。一個建議是安裝 **[miniconda](https://conda.io/en/latest/miniconda.html)** — 它是一個相當輕量的安裝，支援 `conda` 套件管理工具來管理不同的 Python **虛擬環境**。
 
-安裝 miniconda 後，您需要克隆此課程的存儲庫並建立一個虛擬環境來使用：
+安裝 miniconda 之後，複製本儲存庫並建立一個虛擬環境來使用這門課程：
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,19 +24,19 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### 使用 Visual Studio Code 和 Python 擴展
+### 使用帶有 Python 擴充功能的 Visual Studio Code
 
-使用此課程的最佳方式可能是透過 [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) 搭配 [Python 擴展](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste) 開啟課程。
+本課程在使用 [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) 並安裝 [Python 擴充功能](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste) 時效果最佳。
 
-> **注意**：當您克隆並在 VS Code 中開啟目錄時，它會自動建議您安裝 Python 擴展。您還需要按照上述步驟安裝 miniconda。
+> **注意**：一旦你複製儲存庫並在 VS Code 中打開目錄，它會自動建議你安裝 Python 擴充功能。你還需要按上述說明安裝 miniconda。
 
-> **注意**：如果 VS Code 建議您在容器中重新開啟存儲庫，請拒絕此建議以使用本地的 Python 安裝。
+> **注意**：如果 VS Code 建議你在容器中重新打開儲存庫，你應該拒絕此建議以使用本地的 Python 安裝。
 
 ### 在瀏覽器中使用 Jupyter
 
-您也可以直接在瀏覽器中使用 Jupyter 環境。事實上，無論是傳統的 Jupyter 還是 Jupyter Hub，都提供了相當方便的開發環境，包括自動完成、程式碼高亮等功能。
+你也可以在自己的電腦瀏覽器中使用 Jupyter 環境。傳統的 Jupyter 和 JupyterHub 都提供方便的開發環境，具備自動完成、程式碼高亮等功能。
 
-若要在本地啟動 Jupyter，請進入課程目錄並執行以下指令：
+要在本地啟動 Jupyter，請前往課程目錄，並執行：
 
 ```bash
 jupyter notebook
@@ -45,33 +45,36 @@ jupyter notebook
 ```bash
 jupyterhub
 ```
-接著，您可以瀏覽任何 `.ipynb` 文件，開啟並開始工作。
+然後你可以瀏覽任何 `.ipynb` 檔案，打開它們並開始工作。
 
 ### 在容器中執行
 
-另一種替代 Python 安裝的方式是使用容器執行程式碼。由於我們的存儲庫包含特殊的 `.devcontainer` 資料夾，指示如何為此存儲庫建立容器，VS Code 會建議您在容器中重新開啟程式碼。這需要安裝 Docker，並且操作較為複雜，因此我們建議有經驗的使用者採用此方式。
+另一個替代 Python 安裝的選項是直接在容器中執行程式碼。由於我們的儲存庫提供了一個特殊的 `.devcontainer` 資料夾，指示如何為本儲存庫建構容器，VS Code 提供重新在容器中打開程式碼的功能。這需要安裝 Docker，流程也會較複雜，因此建議較有經驗的使用者採用此方案。
 
-## 在雲端執行
+## 在雲端運行
 
-如果您不想在本地安裝 Python，並且擁有一些雲端資源，另一個不錯的選擇是在雲端執行程式碼。以下是幾種方式：
+如果你不想在本地安裝 Python，並且有雲端資源可用，另一個好選擇是直接在雲端執行程式碼。有幾種方式可以做到：
 
-* 使用 **[GitHub Codespaces](https://github.com/features/codespaces)**，這是一個在 GitHub 上為您建立的虛擬環境，可透過 VS Code 的瀏覽器介面存取。如果您有 Codespaces 的使用權限，只需點擊存儲庫中的 **Code** 按鈕，啟動一個 Codespace，即可快速開始使用。
+* 使用 **[GitHub Codespaces](https://github.com/features/codespaces)**，這是在 GitHub 上為你建立的虛擬環境，可經由 VS Code 瀏覽器介面存取。如果你有 Codespaces 的權限，只需點擊儲存庫中的 **Code** 按鈕，啟動 codespace，馬上即可開始執行。
+* 使用 **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**。[Binder](https://mybinder.org) 提供免費的雲端運算資源，讓你可以測試 GitHub 上的程式碼。首頁有一個按鈕可直接開啟儲存庫於 Binder — 這會快速引導你到 Binder 網站，自動建構底層容器並啟動 Jupyter 網頁介面。
 
-* 使用 **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**。 [Binder](https://mybinder.org) 是一個免費的雲端計算資源，供像您這樣的使用者在 GitHub 上測試程式碼。首頁上有一個按鈕可以在 Binder 中開啟存儲庫——這會快速將您帶到 Binder 網站，並自動建立底層容器，無縫啟動 Jupyter 網頁介面。
+> **注意**：為防止濫用，Binder 對部分網路資源進行封鎖，這可能導致部分從公共網路下載模型和/或資料集的程式碼無法正常運作，你可能需找尋替代方案。此外，Binder 提供的運算資源相當基礎，訓練過程會較慢，尤其是後期更複雜的課程。
 
-> **注意**：為了防止濫用，Binder 對某些網路資源的存取進行了限制。這可能會導致某些程式碼無法正常運行，特別是那些需要從公共網路下載模型或數據集的程式碼。您可能需要尋找一些替代方案。此外，Binder 提供的計算資源相對基本，因此在後期更複雜的課程中，訓練速度可能會很慢。
+## 使用 GPU 雲端運行
 
-## 在雲端使用 GPU 執行
+在本課程後期，有些課程會非常受惠於 GPU 支援。例如，模型訓練否則會非常緩慢。以下是一些選項，特別是如果你透過 [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) 或機構有雲端存取權：
 
-課程中的某些後期課程會因 GPU 支援而受益匪淺，否則訓練速度可能會非常緩慢。如果您透過 [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) 或您的機構擁有雲端資源，以下是幾種選擇：
+* 建立 [資料科學虛擬機](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) 並透過 Jupyter 連線。你可以直接在機器上複製儲存庫並開始學習。NC 系列虛擬機支援 GPU。
 
-* 建立 [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste)，並透過 Jupyter 連接到該虛擬機器。您可以直接在機器上克隆存儲庫並開始學習。NC 系列虛擬機器支援 GPU。
+> **注意**：部分訂閱，包括 Azure for Students，預設不包含 GPU 支援。你可能需要透過技術支援申請額外的 GPU 核心。
 
-> **注意**：某些訂閱（包括 Azure for Students）並未預設提供 GPU 支援。您可能需要透過技術支援請求額外的 GPU 核心。
+* 建立 [Azure 機器學習工作區](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste)，然後使用其中的 Notebook 功能。[此影片](https://azure-for-academics.github.io/quickstart/azureml-papers/) 示範如何將儲存庫克隆到 Azure ML 筆記本並開始使用。
 
-* 建立 [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste)，然後使用其中的 Notebook 功能。[這段影片](https://azure-for-academics.github.io/quickstart/azureml-papers/) 介紹了如何將存儲庫克隆到 Azure ML Notebook 並開始使用。
+你也可以使用 Google Colab，該服務附帶部分免費的 GPU 支援，並上傳 Jupyter 筆記本，一筆一筆地執行。
 
-您也可以使用 Google Colab，它提供一些免費的 GPU 支援，並將 Jupyter Notebook 上傳到 Colab 中逐一執行。
+---
 
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **免責聲明**：  
-本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解釋概不負責。
+本文件係使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我們努力追求準確性，但請注意，自動翻譯可能包含錯誤或不精確之處。原始文件的母語版本應視為權威資料來源。對於重要資訊，建議採用專業人工翻譯。我們對因使用本翻譯所引起的任何誤解或誤譯不承擔任何責任。
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

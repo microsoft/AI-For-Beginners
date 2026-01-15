@@ -29,7 +29,7 @@ Keras na PyTorch zote zina kazi za kupakia kwa urahisi uzito wa mtandao wa neva 
 
 Hapa kuna vipengele vya mfano vilivyotolewa kutoka kwa picha ya paka na mtandao wa VGG-16:
 
-![Vipengele vilivyotolewa na VGG-16](../../../../../translated_images/sw/features.6291f9c7ba3a0b95.png)
+![Vipengele vilivyotolewa na VGG-16](../../../../../translated_images/sw/features.6291f9c7ba3a0b95.webp)
 
 ## Seti ya Data ya Paka na Mbwa
 
@@ -48,19 +48,19 @@ Mtandao wa neva uliyojifunza kabla una mifumo tofauti ndani ya "ubongo" wake, ik
 
 Njia moja tunayoweza kuchukua ni kuanza na picha ya nasibu, kisha kujaribu kutumia mbinu ya **ufanisi wa gradient descent** kurekebisha picha hiyo kwa namna ambayo mtandao unaanza kufikiria kuwa ni paka.
 
-![Mzunguko wa Uboreshaji wa Picha](../../../../../translated_images/sw/ideal-cat-loop.999fbb8ff306e044.png)
+![Mzunguko wa Uboreshaji wa Picha](../../../../../translated_images/sw/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Hata hivyo, tukifanya hivyo, tutapata kitu kinachofanana sana na kelele ya nasibu. Hii ni kwa sababu *kuna njia nyingi za kufanya mtandao kufikiria picha ya ingizo ni paka*, ikiwa ni pamoja na baadhi ambazo hazina maana kwa macho. Ingawa picha hizo zina mifumo mingi inayotambulika kwa paka, hakuna kitu kinachozuia kuwa tofauti kwa macho.
 
 Ili kuboresha matokeo, tunaweza kuongeza kipengele kingine kwenye kazi ya hasara, kinachoitwa **variation loss**. Ni kipimo kinachoonyesha jinsi pikseli za jirani za picha zinavyofanana. Kupunguza variation loss hufanya picha kuwa laini, na kuondoa kelele - hivyo kufichua mifumo inayovutia zaidi kwa macho. Hapa kuna mfano wa picha "bora" zinazotambuliwa kama paka na kama punda milia kwa uwezekano mkubwa:
 
-![Paka Bora](../../../../../translated_images/sw/ideal-cat.203dd4597643d6b0.png) | ![Punda Milia Bora](../../../../../translated_images/sw/ideal-zebra.7f70e8b54ee15a7a.png)
+![Paka Bora](../../../../../translated_images/sw/ideal-cat.203dd4597643d6b0.webp) | ![Punda Milia Bora](../../../../../translated_images/sw/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Paka Bora* | *Punda Milia Bora*
 
 Njia sawa inaweza kutumika kufanya kile kinachoitwa **mashambulizi ya kihasama** kwenye mtandao wa neva. Tuseme tunataka kudanganya mtandao wa neva na kufanya mbwa aonekane kama paka. Ikiwa tutachukua picha ya mbwa, ambayo inatambuliwa na mtandao kama mbwa, tunaweza kuirekebisha kidogo kwa kutumia ufanisi wa gradient descent, hadi mtandao uanze kuainisha kama paka:
 
-![Picha ya Mbwa](../../../../../translated_images/sw/original-dog.8f68a67d2fe0911f.png) | ![Picha ya mbwa inayotambuliwa kama paka](../../../../../translated_images/sw/adversarial-dog.d9fc7773b0142b89.png)
+![Picha ya Mbwa](../../../../../translated_images/sw/original-dog.8f68a67d2fe0911f.webp) | ![Picha ya mbwa inayotambuliwa kama paka](../../../../../translated_images/sw/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Picha ya asili ya mbwa* | *Picha ya mbwa inayotambuliwa kama paka*
 

@@ -17,7 +17,7 @@ A valóságban azt szeretnénk, hogy képesek legyünk felismerni tárgyakat egy
 
 A mintázatok kinyeréséhez a **konvolúciós szűrők** fogalmát használjuk. Mint tudjuk, egy kép egy 2D-mátrixként vagy egy színes mélységgel rendelkező 3D-tenzorként van ábrázolva. Egy szűrő alkalmazása azt jelenti, hogy veszünk egy viszonylag kicsi **szűrőmag** mátrixot, és az eredeti kép minden egyes pixelénél kiszámítjuk a súlyozott átlagot a szomszédos pontokkal. Ezt úgy képzelhetjük el, mint egy kis ablakot, amely végigcsúszik az egész képen, és az összes pixelt az ablakban lévő súlyok szerint átlagolja.
 
-![Függőleges él szűrő](../../../../../translated_images/hu/filter-vert.b7148390ca0bc356.png) | ![Vízszintes él szűrő](../../../../../translated_images/hu/filter-horiz.59b80ed4feb946ef.png)
+![Függőleges él szűrő](../../../../../translated_images/hu/filter-vert.b7148390ca0bc356.webp) | ![Vízszintes él szűrő](../../../../../translated_images/hu/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Kép: Dmitry Soshnikov
@@ -38,7 +38,7 @@ A CNN-ek működése a következő fontos ötleteken alapul:
 * A hálózatot úgy tervezhetjük meg, hogy a szűrők automatikusan tanuljanak.
 * Ugyanezt a megközelítést használhatjuk magas szintű jellemzők mintázatainak megtalálására is, nem csak az eredeti képen. Így a CNN jellemzők kinyerése egy hierarchikus folyamatban működik, az alacsony szintű pixelkombinációktól kezdve a kép részeinek magasabb szintű kombinációjáig.
 
-![Hierarchikus jellemzők kinyerése](../../../../../translated_images/hu/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Hierarchikus jellemzők kinyerése](../../../../../translated_images/hu/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Kép a [Hislop-Lynch tanulmányból](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), az [ő kutatásuk alapján](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ A legtöbb képfeldolgozásra használt CNN az úgynevezett piramis architektúr
 
 Példaként nézzük meg a VGG-16 architektúráját, amely 92,7%-os pontosságot ért el az ImageNet top-5 osztályozásában 2014-ben:
 
-![ImageNet Rétegek](../../../../../translated_images/hu/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Rétegek](../../../../../translated_images/hu/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet Piramis](../../../../../translated_images/hu/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Piramis](../../../../../translated_images/hu/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Kép a [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) oldalról
 

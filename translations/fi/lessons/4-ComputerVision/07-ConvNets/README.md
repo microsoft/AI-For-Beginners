@@ -17,7 +17,7 @@ Todellisessa elämässä haluamme pystyä tunnistamaan esineitä kuvasta niiden 
 
 Kuvioiden tunnistamiseen käytämme **konvoluutiokertoimia**. Kuten tiedät, kuva esitetään 2D-matriisina tai 3D-tensorina värisyvyyden kanssa. Suodattimen soveltaminen tarkoittaa, että otamme suhteellisen pienen **suodatinytimen** matriisin, ja alkuperäisen kuvan jokaiselle pikselille laskemme painotetun keskiarvon naapuripisteiden kanssa. Voimme ajatella tämän olevan kuin pieni ikkuna, joka liukuu koko kuvan yli ja tasoittaa kaikki pikselit suodatinytimen matriisin painojen mukaan.
 
-![Pystysuuntainen reunasuodatin](../../../../../translated_images/fi/filter-vert.b7148390ca0bc356.png) | ![Vaakasuuntainen reunasuodatin](../../../../../translated_images/fi/filter-horiz.59b80ed4feb946ef.png)
+![Pystysuuntainen reunasuodatin](../../../../../translated_images/fi/filter-vert.b7148390ca0bc356.webp) | ![Vaakasuuntainen reunasuodatin](../../../../../translated_images/fi/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Kuva: Dmitry Soshnikov
@@ -38,7 +38,7 @@ CNN:ien toiminta perustuu seuraaviin tärkeisiin ideoihin:
 * Voimme suunnitella verkon siten, että suodattimet koulutetaan automaattisesti
 * Voimme käyttää samaa lähestymistapaa löytääksemme kuvioita korkeamman tason ominaisuuksista, ei vain alkuperäisestä kuvasta. Näin CNN:n ominaisuuksien tunnistus toimii hierarkiana, alkaen matalan tason pikseliyhdistelmistä ja päätyen korkeamman tason kuvan osien yhdistelmiin.
 
-![Hierarkkinen ominaisuuksien tunnistus](../../../../../translated_images/fi/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Hierarkkinen ominaisuuksien tunnistus](../../../../../translated_images/fi/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Kuva [Hislop-Lynchin artikkelista](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), perustuen [heidän tutkimukseensa](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Useimmat kuvankäsittelyyn käytetyt CNN:t noudattavat niin sanottua pyramidirak
 
 Esimerkiksi tarkastellaan VGG-16-arkkitehtuuria, verkkoa, joka saavutti 92,7 % tarkkuuden ImageNetin top-5-luokittelussa vuonna 2014:
 
-![ImageNet-kerrokset](../../../../../translated_images/fi/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet-kerrokset](../../../../../translated_images/fi/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet-pyramidi](../../../../../translated_images/fi/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet-pyramidi](../../../../../translated_images/fi/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Kuva [Researchgate-sivustolta](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

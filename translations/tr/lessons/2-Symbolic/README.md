@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bilgi Temsili ve Uzman Sistemler
 
-![Sembolik AI içeriği özeti](../../../../translated_images/tr/ai-symbolic.715a30cb610411a6.png)
+![Sembolik AI içeriği özeti](../../../../translated_images/tr/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Sembolik AI'deki önemli kavramlardan biri **bilgi**dir. Bilgiyi *bilgi* veya *v
 
 Bu nedenle, **bilgi temsili** problemi, bilgiyi bir bilgisayar içinde veri şeklinde etkili bir şekilde temsil etmenin bir yolunu bulmaktır, böylece otomatik olarak kullanılabilir hale gelir. Bu bir spektrum olarak görülebilir:
 
-![Bilgi temsili spektrumu](../../../../translated_images/tr/knowledge-spectrum.b60df631852c0217.png)
+![Bilgi temsili spektrumu](../../../../translated_images/tr/knowledge-spectrum.b60df631852c0217.webp)
 
 > Resim: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Blok Sözdizimi | Girinti | | |
 
 Sembolik AI'nın erken başarılarından biri, **uzman sistemler** olarak adlandırılan sistemlerdi - belirli bir problem alanında uzman gibi davranmak üzere tasarlanmış bilgisayar sistemleri. Bu sistemler, bir veya daha fazla insan uzmandan çıkarılan bir **bilgi tabanı**na dayanıyordu ve bunun üzerinde akıl yürütme yapan bir **çıkarım motoru** içeriyordu.
 
-![İnsan Mimarisi](../../../../translated_images/tr/arch-human.5d4d35f1bba3ab1c.png) | ![Bilgi Tabanlı Sistem](../../../../translated_images/tr/arch-kbs.3ec5c150b09fa8da.png)
+![İnsan Mimarisi](../../../../translated_images/tr/arch-human.5d4d35f1bba3ab1c.webp) | ![Bilgi Tabanlı Sistem](../../../../translated_images/tr/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 İnsan sinir sisteminin basitleştirilmiş yapısı | Bilgi tabanlı sistemin mimarisi
 
@@ -106,7 +106,7 @@ Uzman sistemler, insan akıl yürütme sistemine benzer şekilde inşa edilir, b
 
 Örneğin, fiziksel özelliklere dayanarak bir hayvanı belirleyen bir uzman sistemini ele alalım:
 
-![AND-OR Ağacı](../../../../translated_images/tr/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR Ağacı](../../../../translated_images/tr/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Resim: [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introdução às Redes Neuronais
 
-![Resumo do conteúdo de Introdução às Redes Neuronais em um desenho](../../../../translated_images/pt/ai-neuralnetworks.1c687ae40bc86e83.png)
+![Resumo do conteúdo de Introdução às Redes Neuronais em um desenho](../../../../translated_images/pt/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Como discutimos na introdução, uma das formas de alcançar inteligência é treinar um **modelo computacional** ou um **cérebro artificial**. Desde meados do século XX, os investigadores experimentaram diferentes modelos matemáticos, até que, nos últimos anos, esta abordagem provou ser extremamente bem-sucedida. Esses modelos matemáticos do cérebro são chamados de **redes neuronais**.
 
@@ -36,13 +36,13 @@ Neste currículo, focar-nos-emos apenas em modelos de redes neuronais.
 
 Na biologia, sabemos que o nosso cérebro é composto por células neuronais (neurónios), cada uma delas com múltiplas "entradas" (dendritos) e uma única "saída" (axónio). Tanto os dendritos como os axónios podem conduzir sinais elétricos, e as conexões entre eles — conhecidas como sinapses — podem apresentar diferentes graus de condutividade, que são regulados por neurotransmissores.
 
-![Modelo de um Neurónio](../../../../translated_images/pt/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Modelo de um Neurónio](../../../../translated_images/pt/artneuron.1a5daa88d20ebe6f.png)
+![Modelo de um Neurónio](../../../../translated_images/pt/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Modelo de um Neurónio](../../../../translated_images/pt/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Neurónio Real *([Imagem](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) da Wikipédia)* | Neurónio Artificial *(Imagem do Autor)*
 
 Assim, o modelo matemático mais simples de um neurónio contém várias entradas X<sub>1</sub>, ..., X<sub>N</sub> e uma saída Y, e uma série de pesos W<sub>1</sub>, ..., W<sub>N</sub>. A saída é calculada como:
 
-<img src="../../../../translated_images/pt/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/pt/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 onde **f** é uma **função de ativação** não linear.
 

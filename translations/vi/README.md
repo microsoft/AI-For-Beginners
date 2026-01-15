@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Trí Tuệ Nhân Tạo Cho Người Mới Bắt Đầu - Một Chương Trình Học
 
-|![Sketchnote bởi @girlie_mac https://twitter.com/girlie_mac](../../translated_images/vi/ai-overview.0857791951d19500.png)|
+|![Sketchnote bởi @girlie_mac https://twitter.com/girlie_mac](../../translated_images/vi/ai-overview.0857791951d19500.webp)|
 |:---:|
 | Trí Tuệ Nhân Tạo Cho Người Mới Bắt Đầu - _Sketchnote bởi [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

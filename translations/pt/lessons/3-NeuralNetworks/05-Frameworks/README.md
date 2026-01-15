@@ -58,7 +58,7 @@ Overfitting é um conceito extremamente importante em aprendizagem automática, 
 
 Considere o seguinte problema de aproximar 5 pontos (representados por `x` nos gráficos abaixo):
 
-![linear](../../../../../translated_images/pt/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/pt/overfit2.131f5800ae10ca5e.jpg)
+![linear](../../../../../translated_images/pt/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/pt/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Modelo linear, 2 parâmetros** | **Modelo não-linear, 7 parâmetros**
 Erro de treino = 5.3 | Erro de treino = 0
@@ -79,7 +79,7 @@ Erro de validação = 5.1 | Erro de validação = 20
 
 Como pode ver no gráfico acima, o overfitting pode ser detetado por um erro de treino muito baixo e um erro de validação elevado. Normalmente, durante o treino, vemos tanto os erros de treino quanto de validação começarem a diminuir, e então, em algum momento, o erro de validação pode parar de diminuir e começar a aumentar. Este será um sinal de overfitting e um indicador de que provavelmente devemos parar o treino nesse ponto (ou pelo menos fazer um snapshot do modelo).
 
-![overfitting](../../../../../translated_images/pt/Overfitting.408ad91cd90b4371.png)
+![overfitting](../../../../../translated_images/pt/Overfitting.408ad91cd90b4371.webp)
 
 ## Como prevenir o overfitting
 

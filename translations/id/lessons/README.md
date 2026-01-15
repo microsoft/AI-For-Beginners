@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Gambaran Umum
 
-![Gambaran Umum dalam sebuah sketsa](../../../translated_images/id/ai-overview.0857791951d19500.png)
+![Gambaran Umum dalam sebuah sketsa](../../../translated_images/id/ai-overview.0857791951d19500.webp)
 
 > Sketsa oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 

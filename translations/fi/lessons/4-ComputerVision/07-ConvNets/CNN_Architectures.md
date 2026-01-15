@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 on verkko, joka saavutti 92,7 % tarkkuuden ImageNetin top-5-luokittelussa vuonna 2014. Sen kerrosrakenne on seuraava:
 
-![ImageNet Layers](../../../../../translated_images/fi/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/fi/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Kuten näet, VGG noudattaa perinteistä pyramidirakennetta, joka koostuu konvoluutio- ja pooling-kerrosten sarjasta.
 
-![ImageNet Pyramid](../../../../../translated_images/fi/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/fi/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Kuva [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) -sivustolta
 

@@ -75,14 +75,14 @@ OpenCV ကို အသုံးပြုပြီး ဗီဒီယို fram
 
 * **Braille စာအုပ်ရဲ့ ဓာတ်ပုံကို Pre-processing လုပ်ခြင်း**။ thresholding, feature detection, perspective transformation နဲ့ NumPy ကို ကိုင်တွယ်ခြင်းတို့ကို အသုံးပြုပြီး Braille အက္ခရာတစ်ခုချင်းစီကို neural network နဲ့ classification လုပ်ဖို့ ခွဲထုတ်ပေးနိုင်ပါတယ်။
 
-![Braille Image](../../../../../translated_images/my/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/my/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/my/braille-symbols.0159185ab69d5339.png)
+![Braille Image](../../../../../translated_images/my/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/my/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/my/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > [OpenCV.ipynb](OpenCV.ipynb) မှ ပုံရိပ်
 
 * **Frame difference ကို အသုံးပြုပြီး ဗီဒီယိုထဲမှာ လှုပ်ရှားမှုကို ရှာဖွေခြင်း**။ ကင်မရာက တည်နေရာမှာရှိရင် ကင်မရာ feed ရဲ့ frame တွေဟာ တူညီနေတတ်ပါတယ်။ Frame တွေကို array အနေနဲ့ ကိုယ်စားပြုထားတဲ့အတွက် frame 2 ခုကို လျော့ချက်လုပ်လိုက်ရင် pixel difference ကို ရရှိမှာဖြစ်ပြီး static frame တွေမှာ pixel difference နည်းနည်းရှိပြီး ပုံရိပ်ထဲမှာ လှုပ်ရှားမှုများလာတဲ့အခါ pixel difference ပိုများလာတတ်ပါတယ်။
 
-![Image of video frames and frame differences](../../../../../translated_images/my/frame-difference.706f805491a0883c.png)
+![Image of video frames and frame differences](../../../../../translated_images/my/frame-difference.706f805491a0883c.webp)
 
 > [OpenCV.ipynb](OpenCV.ipynb) မှ ပုံရိပ်
 
@@ -91,7 +91,7 @@ OpenCV ကို အသုံးပြုပြီး ဗီဒီယို fram
    - **Dense Optical Flow** က pixel တစ်ခုချင်းစီ ဘယ်နေရာကိုရွေ့လျားနေတယ်ဆိုတာကို ပြသတဲ့ vector field ကို တွက်ချက်ပေးပါတယ်။
    - **Sparse Optical Flow** က ပုံရိပ်ထဲမှာ အထူးသတ်မှတ်ချက်တွေ (ဥပမာ - အနားသတ်) ကို ရွေးပြီး frame-to-frame trajectory ကို တည်ဆောက်ပေးပါတယ်။
 
-![Image of Optical Flow](../../../../../translated_images/my/optical.1f4a94464579a83a.png)
+![Image of Optical Flow](../../../../../translated_images/my/optical.1f4a94464579a83a.webp)
 
 > [OpenCV.ipynb](OpenCV.ipynb) မှ ပုံရိပ်
 

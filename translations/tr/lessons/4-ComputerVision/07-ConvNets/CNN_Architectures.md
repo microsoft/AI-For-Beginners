@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16, 2014 yılında ImageNet top-5 sınıflandırmasında %92.7 doğruluk elde eden bir ağdır. Katman yapısı şu şekildedir:
 
-![ImageNet Katmanları](../../../../../translated_images/tr/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Katmanları](../../../../../translated_images/tr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Gördüğünüz gibi, VGG geleneksel bir piramit mimarisini takip eder; bu, bir dizi evrişim-havuzlama katmanıdır.
 
-![ImageNet Piramidi](../../../../../translated_images/tr/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Piramidi](../../../../../translated_images/tr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Görsel [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) kaynağından alınmıştır.
 

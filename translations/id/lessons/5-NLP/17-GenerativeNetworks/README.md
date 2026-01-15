@@ -19,7 +19,7 @@ Dalam arsitektur RNN yang kita bahas di unit sebelumnya, setiap unit RNN menghas
 
 Hal ini memungkinkan berbagai arsitektur neural yang ditunjukkan pada gambar di bawah:
 
-![Gambar menunjukkan pola umum jaringan neural rekuren.](../../../../../translated_images/id/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Gambar menunjukkan pola umum jaringan neural rekuren.](../../../../../translated_images/id/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Gambar dari blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) oleh [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ Di unit ini, kita akan fokus pada model generatif sederhana yang membantu kita m
 
 Kita akan melatih RNN ini untuk menghasilkan teks langkah demi langkah. Pada setiap langkah, kita akan mengambil urutan karakter dengan panjang `nchars`, dan meminta jaringan untuk menghasilkan karakter output berikutnya untuk setiap karakter input:
 
-![Gambar menunjukkan contoh RNN menghasilkan kata 'HELLO'.](../../../../../translated_images/id/rnn-generate.56c54afb52f9781d.png)
+![Gambar menunjukkan contoh RNN menghasilkan kata 'HELLO'.](../../../../../translated_images/id/rnn-generate.56c54afb52f9781d.webp)
 
 Saat menghasilkan teks (selama inferensi), kita mulai dengan beberapa **prompt**, yang dilewatkan melalui sel RNN untuk menghasilkan status intermediate-nya, dan kemudian dari status ini proses generasi dimulai. Kita menghasilkan satu karakter pada satu waktu, dan melewatkan status serta karakter yang dihasilkan ke sel RNN lainnya untuk menghasilkan karakter berikutnya, hingga kita menghasilkan cukup karakter.
 

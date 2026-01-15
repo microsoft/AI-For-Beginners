@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ہم [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) استعمال کریں گے، جس میں کتوں اور بلیوں کی 37 مختلف نسلوں کی تصاویر شامل ہیں۔
 
-![ہم جس ڈیٹا سیٹ سے نمٹیں گے](../../../../../../translated_images/ur/data.50b2a9d5484bdbf0.png)
+![ہم جس ڈیٹا سیٹ سے نمٹیں گے](../../../../../../translated_images/ur/data.50b2a9d5484bdbf0.webp)
 
 ڈیٹا سیٹ ڈاؤن لوڈ کرنے کے لیے، یہ کوڈ استعمال کریں:
 

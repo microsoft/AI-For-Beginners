@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 为了捕捉文本序列的意义，我们需要使用另一种神经网络架构，称为**循环神经网络**（Recurrent Neural Network，RNN）。在 RNN 中，我们将句子逐个符号输入网络，网络会生成某种**状态**，然后将该状态与下一个符号一起再次输入网络。
 
-![RNN](../../../../../translated_images/zh/rnn.27f5c29c53d727b5.png)
+![RNN](../../../../../translated_images/zh/rnn.27f5c29c53d727b5.webp)
 
 > 图片由作者提供
 
@@ -61,7 +61,7 @@ LSTM 网络的组织方式与 RNN 类似，但有两个状态会从层到层传�
 
 循环网络，无论是单向还是双向，都能捕捉序列中的某些模式，并将其存储到状态向量中或传递到输出中。与卷积网络类似，我们可以在第一层之上构建另一层循环网络，以捕捉更高级的模式，并从第一层提取的低级模式中构建。这引出了**多层 RNN** 的概念，它由两个或更多循环网络组成，其中前一层的输出作为输入传递到下一层。
 
-![显示多层长短时记忆 RNN 的图片](../../../../../translated_images/zh/multi-layer-lstm.dd975e29bb2a59fe.jpg)
+![显示多层长短时记忆 RNN 的图片](../../../../../translated_images/zh/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *图片来自 Fernando López 的[这篇精彩文章](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3)*
 

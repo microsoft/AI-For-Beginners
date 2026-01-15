@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ภาพรวม
 
-![ภาพรวมในรูปวาด](../../../translated_images/th/ai-overview.0857791951d19500.png)
+![ภาพรวมในรูปวาด](../../../translated_images/th/ai-overview.0857791951d19500.webp)
 
 > ภาพวาดโดย [Tomomi Imura](https://twitter.com/girlie_mac)
 

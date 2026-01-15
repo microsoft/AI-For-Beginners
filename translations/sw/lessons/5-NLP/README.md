@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Usindikaji wa Lugha Asilia
 
-![Muhtasari wa kazi za NLP katika mchoro](../../../../translated_images/sw/ai-nlp.b22dcb8ca4707cea.png)
+![Muhtasari wa kazi za NLP katika mchoro](../../../../translated_images/sw/ai-nlp.b22dcb8ca4707cea.webp)
 
 Katika sehemu hii, tutazingatia kutumia Mitandao ya Neural kushughulikia kazi zinazohusiana na **Usindikaji wa Lugha Asilia (NLP)**. Kuna matatizo mengi ya NLP ambayo tunataka kompyuta iweze kuyatatua:
 

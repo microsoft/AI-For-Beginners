@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Obrada Prirodnog Jezika
 
-![Sažetak NLP zadataka u crtežu](../../../../translated_images/hr/ai-nlp.b22dcb8ca4707cea.png)
+![Sažetak NLP zadataka u crtežu](../../../../translated_images/hr/ai-nlp.b22dcb8ca4707cea.webp)
 
 U ovom dijelu fokusirat ćemo se na korištenje neuronskih mreža za rješavanje zadataka povezanih s **Obradom Prirodnog Jezika (NLP)**. Postoji mnogo NLP problema koje želimo da računala mogu riješiti:
 

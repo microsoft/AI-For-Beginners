@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Штучний Інтелект для Початківців - Учбова Програма
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/uk/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/uk/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _Скетчнот від [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

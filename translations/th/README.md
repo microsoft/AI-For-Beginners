@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # ปัญญาประดิษฐ์สำหรับผู้เริ่มต้น - หลักสูตร
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/th/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/th/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _สเก็ตช์โน้ตโดย [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # नवशिक्यांसाठी कृत्रिम बुद्धिमत्ता - एक अभ्यासक्रम
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/mr/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/mr/ai-overview.0857791951d19500.webp)|
 |:---:|
 | नवशिक्यांसाठी कृत्रिम बुद्धिमत्ता - _स्केचनोट [@girlie_mac](https://twitter.com/girlie_mac) कडून_ |
 

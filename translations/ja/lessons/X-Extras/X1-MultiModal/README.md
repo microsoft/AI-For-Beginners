@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CLIPの主なアイデアは、テキストプロンプトと画像を比較し、画像がプロンプトにどれだけ対応しているかを判断できるようにすることです。
 
-![CLIP アーキテクチャ](../../../../../translated_images/ja/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP アーキテクチャ](../../../../../translated_images/ja/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *画像は[このブログ記事](https://openai.com/blog/clip/)から引用*
 
@@ -29,7 +29,7 @@ CLIPモデル/ライブラリは[OpenAI GitHub](https://github.com/openai/CLIP)�
 
 例えば、画像を猫、犬、人間に分類する必要があるとします。この場合、モデルに画像と一連のテキストプロンプト（例: "*a picture of a cat*"、"*a picture of a dog*"、"*a picture of a human*"）を与えます。結果として得られる3つの確率のベクトルの中で、最も高い値を持つインデックスを選択すればよいのです。
 
-![CLIPによる画像分類](../../../../../translated_images/ja/clip-class.3af42ef0b2b19369.png)
+![CLIPによる画像分類](../../../../../translated_images/ja/clip-class.3af42ef0b2b19369.webp)
 
 > *画像は[このブログ記事](https://openai.com/blog/clip/)から引用*
 
@@ -53,13 +53,13 @@ VQGANの詳細については、[Taming Transformers](https://compvis.github.io/
 
 VQGANと従来のGANの重要な違いの一つは、後者が任意の入力ベクトルから適切な画像を生成できるのに対し、VQGANは一貫性のない画像を生成する可能性が高いことです。そのため、画像生成プロセスをさらに誘導する必要があり、それがCLIPを使用して行われます。
 
-![VQGAN+CLIP アーキテクチャ](../../../../../translated_images/ja/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP アーキテクチャ](../../../../../translated_images/ja/vqgan.5027fe05051dfa31.webp)
 
 テキストプロンプトに対応する画像を生成するには、まずランダムなエンコーディングベクトルを用意し、それをVQGANに通して画像を生成します。その後、CLIPを使用して、画像がテキストプロンプトにどれだけ対応しているかを示す損失関数を生成します。その損失を最小化することを目指し、逆伝播を使用して入力ベクトルのパラメータを調整します。
 
 VQGAN+CLIPを実装した優れたライブラリとして[Pixray](http://github.com/pixray/pixray)があります。
 
-![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Pixrayによる生成画像](../../../../../translated_images/ja/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 プロンプト *a closeup watercolor portrait of young male teacher of literature with a book* から生成された画像 | プロンプト *a closeup oil portrait of young female teacher of computer science with a computer* から生成された画像 | プロンプト *a closeup oil portrait of old male teacher of mathematics in front of blackboard* から生成された画像
 

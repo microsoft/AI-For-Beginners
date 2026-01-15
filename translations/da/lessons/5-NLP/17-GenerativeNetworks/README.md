@@ -19,7 +19,7 @@ I RNN-arkitekturen, som vi diskuterede i den forrige enhed, producerede hver RNN
 
 Dette muliggør forskellige neurale arkitekturer, som vist på billedet nedenfor:
 
-![Billede, der viser almindelige mønstre for rekurrente neurale netværk.](../../../../../translated_images/da/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Billede, der viser almindelige mønstre for rekurrente neurale netværk.](../../../../../translated_images/da/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Billede fra blogindlægget [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) af [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ I denne enhed vil vi fokusere på simple generative modeller, der hjælper os me
 
 Vi vil træne denne RNN til at generere tekst trin for trin. Ved hvert trin tager vi en sekvens af tegn med længden `nchars` og beder netværket om at generere det næste outputtegn for hvert inputtegn:
 
-![Billede, der viser et eksempel på RNN-generering af ordet 'HELLO'.](../../../../../translated_images/da/rnn-generate.56c54afb52f9781d.png)
+![Billede, der viser et eksempel på RNN-generering af ordet 'HELLO'.](../../../../../translated_images/da/rnn-generate.56c54afb52f9781d.webp)
 
 Når vi genererer tekst (under inferens), starter vi med en **prompt**, som sendes gennem RNN-celler for at generere dens mellemliggende tilstand, og derefter starter genereringen fra denne tilstand. Vi genererer ét tegn ad gangen og sender tilstanden og det genererede tegn til en anden RNN-celle for at generere det næste, indtil vi har genereret nok tegn.
 

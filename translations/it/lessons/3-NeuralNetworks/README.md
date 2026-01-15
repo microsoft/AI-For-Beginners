@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduzione alle Reti Neurali
 
-![Riassunto del contenuto di Introduzione alle Reti Neurali in uno schizzo](../../../../translated_images/it/ai-neuralnetworks.1c687ae40bc86e83.png)
+![Riassunto del contenuto di Introduzione alle Reti Neurali in uno schizzo](../../../../translated_images/it/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Come discusso nell'introduzione, uno dei modi per raggiungere l'intelligenza è addestrare un **modello informatico** o un **cervello artificiale**. Dalla metà del XX secolo, i ricercatori hanno sperimentato diversi modelli matematici, finché negli ultimi anni questa direzione si è dimostrata estremamente promettente. Questi modelli matematici del cervello sono chiamati **reti neurali**.
 
@@ -36,13 +36,13 @@ In questo curriculum, ci concentreremo solo sui modelli di reti neurali.
 
 Dalla biologia, sappiamo che il nostro cervello è composto da cellule neurali (neuroni), ciascuna delle quali ha molteplici "input" (dendriti) e un singolo "output" (assone). Sia i dendriti che gli assoni possono condurre segnali elettrici, e le connessioni tra di loro — note come sinapsi — possono mostrare diversi gradi di conduttività, regolati dai neurotrasmettitori.
 
-![Modello di un Neurone](../../../../translated_images/it/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Modello di un Neurone](../../../../translated_images/it/artneuron.1a5daa88d20ebe6f.png)
+![Modello di un Neurone](../../../../translated_images/it/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Modello di un Neurone](../../../../translated_images/it/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Neurone Reale *([Immagine](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) da Wikipedia)* | Neurone Artificiale *(Immagine dell'autore)*
 
 Pertanto, il modello matematico più semplice di un neurone contiene diversi input X<sub>1</sub>, ..., X<sub>N</sub> e un output Y, e una serie di pesi W<sub>1</sub>, ..., W<sub>N</sub>. L'output viene calcolato come:
 
-<img src="../../../../translated_images/it/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/it/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 dove f è una **funzione di attivazione** non lineare.
 

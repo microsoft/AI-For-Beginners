@@ -70,7 +70,7 @@ Bir modeli açabilirsiniz, örneğin **Biology &rightarrow; Flocking**.
 
 Modeli açtıktan sonra, ana NetLogo ekranına yönlendirilirsiniz. İşte sınırlı kaynaklar (ot) göz önüne alındığında kurtlar ve koyunların popülasyonunu açıklayan örnek bir model.
 
-![NetLogo Ana Ekran](../../../../../translated_images/tr/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Ana Ekran](../../../../../translated_images/tr/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov tarafından ekran görüntüsü
 

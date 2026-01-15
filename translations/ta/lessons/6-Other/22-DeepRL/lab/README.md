@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 உங்கள் நோக்கம் OpenAI சூழலில் [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) ஐ கட்டுப்படுத்த RL முகவரை பயிற்சி செய்வதாகும்.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/ta/mountaincar.f7b7a7f6d4f9933b.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/ta/mountaincar.f7b7a7f6d4f9933b.webp" width="300"/>
 
 ## சூழல்
 

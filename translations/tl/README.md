@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Artificial Intelligence for Beginners - Isang Kurikulum
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/tl/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/tl/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _Sketchnote ni [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

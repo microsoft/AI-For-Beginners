@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rappresentazione della Conoscenza e Sistemi Esperti
 
-![Riepilogo del contenuto sull'IA simbolica](../../../../translated_images/it/ai-symbolic.715a30cb610411a6.png)
+![Riepilogo del contenuto sull'IA simbolica](../../../../translated_images/it/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote di [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Spesso non definiamo rigorosamente la conoscenza, ma la allineiamo ad altri conc
 
 Pertanto, il problema della **rappresentazione della conoscenza** è trovare un modo efficace per rappresentare la conoscenza all'interno di un computer sotto forma di dati, per renderla automaticamente utilizzabile. Questo può essere visto come uno spettro:
 
-![Spettro della rappresentazione della conoscenza](../../../../translated_images/it/knowledge-spectrum.b60df631852c0217.png)
+![Spettro della rappresentazione della conoscenza](../../../../translated_images/it/knowledge-spectrum.b60df631852c0217.webp)
 
 > Immagine di [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintassi Blocco | Indentazione | | |
 
 Uno dei primi successi dell'IA simbolica furono i cosiddetti **sistemi esperti** - sistemi informatici progettati per agire come esperti in un dominio di problemi limitato. Si basavano su una **base di conoscenza** estratta da uno o più esperti umani e contenevano un **motore di inferenza** che eseguiva un ragionamento su di essa.
 
-![Architettura umana](../../../../translated_images/it/arch-human.5d4d35f1bba3ab1c.png) | ![Sistema basato sulla conoscenza](../../../../translated_images/it/arch-kbs.3ec5c150b09fa8da.png)
+![Architettura umana](../../../../translated_images/it/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistema basato sulla conoscenza](../../../../translated_images/it/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Struttura semplificata del sistema neurale umano | Architettura di un sistema basato sulla conoscenza
 
@@ -106,7 +106,7 @@ I sistemi esperti sono costruiti come il sistema di ragionamento umano, che cont
 
 Come esempio, consideriamo il seguente sistema esperto per determinare un animale basandosi sulle sue caratteristiche fisiche:
 
-![Albero AND-OR](../../../../translated_images/it/AND-OR-Tree.5592d2c70187f283.png)
+![Albero AND-OR](../../../../translated_images/it/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Immagine di [Dmitry Soshnikov](http://soshnikov.com)
 

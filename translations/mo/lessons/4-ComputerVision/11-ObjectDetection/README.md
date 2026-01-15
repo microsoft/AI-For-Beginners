@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [課前測驗](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![物件偵測](../../../../../translated_images/mo/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![物件偵測](../../../../../translated_images/mo/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > 圖片來源：[YOLO v2 網站](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. 對每個區塊進行影像分類。
 3. 將分類結果中激活值足夠高的區塊視為包含目標物件的區域。
 
-![簡單的物件偵測](../../../../../translated_images/mo/naive-detection.e7f1ba220ccd08c6.png)
+![簡單的物件偵測](../../../../../translated_images/mo/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *圖片來源：[練習筆記本](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 包含 20 個類別
 * [COCO](http://cocodataset.org/#home) - 常見物件的上下文。包含 80 個類別、邊界框和分割遮罩
 
-![COCO](../../../../../translated_images/mo/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/mo/coco-examples.71bc60380fa6cceb.webp)
 
 ## 物件偵測的評估指標
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 對於影像分類來說，衡量演算法的表現相對簡單；但對於物件偵測，我們需要同時衡量類別的正確性以及推測邊界框位置的精確性。後者使用所謂的**交集比聯集**（IoU）來衡量，這是一種用來評估兩個框（或任意兩個區域）重疊程度的方法。
 
-![IoU](../../../../../translated_images/mo/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/mo/iou_equation.9a4751d40fff4e11.webp)
 
 > *圖片來源：[這篇優秀的 IoU 部落格文章](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) 使用 [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) 生成層次結構的 ROI 區域，然後通過 CNN 特徵提取器和 SVM 分類器來確定物件類別，並通過線性迴歸確定*邊界框*座標。[官方論文](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/mo/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/mo/rcnn1.cae407020dfb1d1f.webp)
 
 > *圖片來源：van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/mo/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/mo/rcnn2.2d9530bb83516484.webp)
 
 > *圖片來源：[這篇部落格](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 這種方法與 R-CNN 類似，但區域是在卷積層應用之後定義的。
 
-![FRCNN](../../../../../translated_images/mo/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/mo/f-rcnn.3cda6d9bb4188875.webp)
 
 > 圖片來源：[官方論文](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)，[arXiv](https://arxiv.org/pdf/1504.08083.pdf)，2015
 
@@ -118,7 +118,7 @@ $$
 
 這種方法的主要思想是使用神經網路來預測 ROI，即所謂的*區域提議網路*。[論文](https://arxiv.org/pdf/1506.01497.pdf)，2016
 
-![FasterRCNN](../../../../../translated_images/mo/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/mo/faster-rcnn.8d46c099b87ef30a.webp)
 
 > 圖片來源：[官方論文](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. 特徵經過**位置敏感分數圖**處理。每個來自 $C$ 類別的物件被劃分為 $k\times k$ 區域，並訓練網路預測物件的部分。
 3. 對於 $k\times k$ 區域中的每個部分，所有網路對物件類別進行投票，選擇得票最多的物件類別。
 
-![r-fcn 圖片](../../../../../translated_images/mo/r-fcn.13eb88158b99a3da.png)
+![r-fcn 圖片](../../../../../translated_images/mo/r-fcn.13eb88158b99a3da.webp)
 
 > 圖片來源：[官方論文](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO 是一種實時的單次通過演算法。主要思想如下：
  * 將圖片劃分為 $S\times S$ 區域。
  * 對於每個區域，**CNN** 預測 $n$ 個可能的物件、*邊界框*座標以及*置信度*=*概率* * IoU。
 
- ![YOLO](../../../../../translated_images/mo/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/mo/yolo.a2648ec82ee8bb4e.webp)
 
 > 圖片來源：[官方論文](https://arxiv.org/abs/1506.02640)
 

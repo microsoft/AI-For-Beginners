@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 היא רשת שהשיגה דיוק של 92.7% בסיווג ImageNet top-5 בשנת 2014. יש לה את מבנה השכבות הבא:
 
-![שכבות ImageNet](../../../../../translated_images/he/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![שכבות ImageNet](../../../../../translated_images/he/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 כפי שניתן לראות, VGG עוקבת אחר ארכיטקטורת פירמידה מסורתית, שהיא רצף של שכבות קונבולוציה-פולינג.
 
-![פירמידת ImageNet](../../../../../translated_images/he/vgg-16-arch.64ff2137f50dd49f.jpg)
+![פירמידת ImageNet](../../../../../translated_images/he/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > תמונה מ-[Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

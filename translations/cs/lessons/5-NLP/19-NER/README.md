@@ -56,7 +56,7 @@ novorozence | O
 
 Protože potřebujeme vytvořit jednoznačnou korespondenci mezi tokeny a třídami, můžeme trénovat pravostranný **many-to-many** model neuronové sítě podle tohoto obrázku:
 
-![Obrázek ukazující běžné vzory rekurentních neuronových sítí.](../../../../../translated_images/cs/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Obrázek ukazující běžné vzory rekurentních neuronových sítí.](../../../../../translated_images/cs/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Obrázek z [tohoto blogového příspěvku](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) od [Andreje Karpathyho](http://karpathy.github.io/). Modely pro klasifikaci tokenů v NER odpovídají pravostranné architektuře na tomto obrázku.*
 

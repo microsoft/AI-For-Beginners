@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [事前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![オブジェクト検出](../../../../../translated_images/ja/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![オブジェクト検出](../../../../../translated_images/ja/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > 画像出典: [YOLO v2 ウェブサイト](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. 各タイルに対して画像分類を実行する
 3. 十分に高い活性化を示したタイルを、対象の物体を含むとみなす
 
-![単純なオブジェクト検出](../../../../../translated_images/ja/naive-detection.e7f1ba220ccd08c6.png)
+![単純なオブジェクト検出](../../../../../translated_images/ja/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *画像出典: [演習ノートブック](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20クラス
 * [COCO](http://cocodataset.org/#home) - コンテキスト内の一般的な物体。80クラス、境界ボックスとセグメンテーションマスクを含む
 
-![COCO](../../../../../translated_images/ja/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/ja/coco-examples.71bc60380fa6cceb.webp)
 
 ## オブジェクト検出の評価指標
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 画像分類ではアルゴリズムの性能を測定するのは簡単ですが、オブジェクト検出ではクラスの正確性だけでなく、推定された境界ボックスの位置の精度も測定する必要があります。そのために使用されるのが**Intersection over Union** (IoU)です。これは、2つのボックス（または任意の領域）がどれだけ重なっているかを測定します。
 
-![IoU](../../../../../translated_images/ja/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/ja/iou_equation.9a4751d40fff4e11.webp)
 
 > *図2 出典: [IoUに関する優れたブログ記事](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -97,11 +97,11 @@ IoUが一定値以上の検出のみを考慮します。例えば、PASCAL VOC�
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf)は、[Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) を使用してROI領域の階層構造を生成します。それらはCNN特徴抽出器とSVM分類器を通じて物体クラスを決定し、線形回帰を使用して*境界ボックス*の座標を決定します。[公式論文](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/ja/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/ja/rcnn1.cae407020dfb1d1f.webp)
 
 > *画像出典: van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/ja/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/ja/rcnn2.2d9530bb83516484.webp)
 
 > *画像出典: [このブログ](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -109,7 +109,7 @@ IoUが一定値以上の検出のみを考慮します。例えば、PASCAL VOC�
 
 このアプローチはR-CNNに似ていますが、領域は畳み込み層が適用された後に定義されます。
 
-![FRCNN](../../../../../translated_images/ja/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/ja/f-rcnn.3cda6d9bb4188875.webp)
 
 > 画像出典: [公式論文](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -117,7 +117,7 @@ IoUが一定値以上の検出のみを考慮します。例えば、PASCAL VOC�
 
 このアプローチの主なアイデアは、ROIを予測するためにニューラルネットワークを使用することです。これを*領域提案ネットワーク* (Region Proposal Network) と呼びます。[論文](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/ja/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/ja/faster-rcnn.8d46c099b87ef30a.webp)
 
 > 画像出典: [公式論文](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -129,7 +129,7 @@ IoUが一定値以上の検出のみを考慮します。例えば、PASCAL VOC�
 1. 特徴は**位置感知スコアマップ**で処理されます。$C$クラスの各物体は$k\times k$領域に分割され、物体の部分を予測するように学習します。
 1. $k\times k$領域の各部分について、すべてのネットワークが物体クラスに投票し、最大票を得た物体クラスが選択されます。
 
-![r-fcn image](../../../../../translated_images/ja/r-fcn.13eb88158b99a3da.png)
+![r-fcn image](../../../../../translated_images/ja/r-fcn.13eb88158b99a3da.webp)
 
 > 画像出典: [公式論文](https://arxiv.org/abs/1605.06409)
 
@@ -140,7 +140,7 @@ YOLOはリアルタイムのワンパスアルゴリズムです。主なアイ�
  * 画像を$S\times S$領域に分割
  * 各領域について、**CNN**が$n$個の可能な物体、*境界ボックス*の座標、*信頼度*=*確率* * IoUを予測
 
- ![YOLO](../../../../../translated_images/ja/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/ja/yolo.a2648ec82ee8bb4e.webp)
 
 > 画像出典: [公式論文](https://arxiv.org/abs/1506.02640)
 

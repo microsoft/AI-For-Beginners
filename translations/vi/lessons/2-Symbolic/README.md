@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Đại diện Tri thức và Hệ thống Chuyên gia
 
-![Tóm tắt nội dung AI biểu tượng](../../../../translated_images/vi/ai-symbolic.715a30cb610411a6.png)
+![Tóm tắt nội dung AI biểu tượng](../../../../translated_images/vi/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote bởi [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Thông thường, chúng ta không định nghĩa tri thức một cách nghiêm
 
 Do đó, vấn đề của **đại diện tri thức** là tìm một cách hiệu quả để biểu diễn tri thức bên trong máy tính dưới dạng dữ liệu, để có thể sử dụng tự động. Điều này có thể được xem như một phổ:
 
-![Phổ đại diện tri thức](../../../../translated_images/vi/knowledge-spectrum.b60df631852c0217.png)
+![Phổ đại diện tri thức](../../../../translated_images/vi/knowledge-spectrum.b60df631852c0217.webp)
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Cú pháp khối | Thụt lề | | |
 
 Một trong những thành công ban đầu của AI biểu tượng là các **hệ thống chuyên gia** - các hệ thống máy tính được thiết kế để hoạt động như một chuyên gia trong một lĩnh vực vấn đề hạn chế. Chúng dựa trên một **cơ sở tri thức** được trích xuất từ một hoặc nhiều chuyên gia con người, và chứa một **động cơ suy luận** thực hiện một số lý luận dựa trên cơ sở đó.
 
-![Kiến trúc con người](../../../../translated_images/vi/arch-human.5d4d35f1bba3ab1c.png) | ![Hệ thống dựa trên tri thức](../../../../translated_images/vi/arch-kbs.3ec5c150b09fa8da.png)
+![Kiến trúc con người](../../../../translated_images/vi/arch-human.5d4d35f1bba3ab1c.webp) | ![Hệ thống dựa trên tri thức](../../../../translated_images/vi/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Cấu trúc đơn giản của hệ thần kinh con người | Kiến trúc của hệ thống dựa trên tri thức
 
@@ -106,7 +106,7 @@ Hệ thống chuyên gia được xây dựng giống như hệ thống lý lu�
 
 Ví dụ, hãy xem xét hệ thống chuyên gia sau đây để xác định một loài động vật dựa trên các đặc điểm vật lý của nó:
 
-![Cây AND-OR](../../../../translated_images/vi/AND-OR-Tree.5592d2c70187f283.png)
+![Cây AND-OR](../../../../translated_images/vi/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI 소개
 
-![AI 소개 내용 요약을 담은 스케치](../../../../translated_images/ko/ai-intro.bf28d1ac4235881c.png)
+![AI 소개 내용 요약을 담은 스케치](../../../../translated_images/ko/ai-intro.bf28d1ac4235881c.webp)
 
 > 스케치노트: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 원래 컴퓨터는 [찰스 배비지](https://en.wikipedia.org/wiki/Charles_Babbage)에 의해 명확히 정의된 절차, 즉 알고리즘을 따라 숫자를 처리하기 위해 발명되었습니다. 현대의 컴퓨터는 19세기에 제안된 원래 모델보다 훨씬 더 발전했지만, 여전히 제어된 계산이라는 동일한 아이디어를 따릅니다. 따라서 목표를 달성하기 위해 필요한 정확한 단계의 순서를 알고 있다면 컴퓨터를 프로그래밍하여 작업을 수행할 수 있습니다.
 
-![한 사람의 사진](../../../../translated_images/ko/dsh_age.d212a30d4e54fb5f.png)
+![한 사람의 사진](../../../../translated_images/ko/dsh_age.d212a30d4e54fb5f.webp)
 
 > 사진 제공: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[지능](https://en.wikipedia.org/wiki/Intelligence)**이라는 용어를 다룰 때의 문제 중 하나는 이 용어에 대한 명확한 정의가 없다는 점입니다. 지능이 **추상적 사고** 또는 **자기 인식**과 연결되어 있다고 주장할 수 있지만, 이를 제대로 정의할 수는 없습니다.
 
-![고양이 사진](../../../../translated_images/ko/photo-cat.8c8e8fb760ffe457.jpg)
+![고양이 사진](../../../../translated_images/ko/photo-cat.8c8e8fb760ffe457.webp)
 
 > [사진](https://unsplash.com/photos/75715CVEJhI) 제공: [Amber Kipp](https://unsplash.com/@sadmax) (Unsplash)
 
@@ -98,13 +98,13 @@ AGI에 대해 이야기할 때, 우리가 진정으로 지능적인 시스템을
 
 > | 기계 학습은?         |      |
 > |--------------|-----------|
-> | 일부 데이터를 기반으로 문제를 해결하도록 컴퓨터가 학습하는 인공지능의 한 부분을 **기계 학습**이라고 합니다. 이 강의에서는 고전적인 기계 학습을 다루지 않습니다. 별도의 [기계 학습 초보자용](http://aka.ms/ml-beginners) 커리큘럼을 참조하세요. |   ![기계 학습 초보자용](../../../../translated_images/ko/ml-for-beginners.9e4fed176fd5817d.png)    |
+> | 일부 데이터를 기반으로 문제를 해결하도록 컴퓨터가 학습하는 인공지능의 한 부분을 **기계 학습**이라고 합니다. 이 강의에서는 고전적인 기계 학습을 다루지 않습니다. 별도의 [기계 학습 초보자용](http://aka.ms/ml-beginners) 커리큘럼을 참조하세요. |   ![기계 학습 초보자용](../../../../translated_images/ko/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## AI의 간략한 역사
 
 인공지능은 20세기 중반에 하나의 분야로 시작되었습니다. 초기에는 기호적 추론이 우세한 접근법이었으며, 제한된 문제 영역에서 전문가처럼 행동할 수 있는 컴퓨터 프로그램인 전문가 시스템과 같은 중요한 성공을 거두었습니다. 그러나 곧 이러한 접근법이 잘 확장되지 않는다는 것이 명확해졌습니다. 전문가로부터 지식을 추출하고, 이를 컴퓨터에 표현하며, 지식 기반을 정확하게 유지하는 것은 매우 복잡하고 많은 경우 실용적이지 않을 정도로 비용이 많이 드는 작업임이 밝혀졌습니다. 이는 1970년대의 소위 [AI 겨울](https://en.wikipedia.org/wiki/AI_winter)로 이어졌습니다.
 
-<img alt="AI의 간략한 역사" src="../../../../translated_images/ko/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
+<img alt="AI의 간략한 역사" src="../../../../translated_images/ko/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > 이미지 제공: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ AGI에 대해 이야기할 때, 우리가 진정으로 지능적인 시스템을
 * Cortana, Siri, Google Assistant와 같은 현대의 비서는 모두 음성을 텍스트로 변환하고 우리의 의도를 인식하기 위해 신경망을 사용하는 하이브리드 시스템이며, 이후 필요한 작업을 수행하기 위해 일부 추론이나 명시적 알고리즘을 사용합니다.
 * 미래에는 대화 자체를 처리할 수 있는 완전한 신경망 기반 모델을 기대할 수 있습니다. 최근의 GPT 및 [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) 계열의 신경망은 이 분야에서 큰 성공을 보여주고 있습니다.
 
-<img alt="튜링 테스트의 진화" src="../../../../translated_images/ko/turing-test-evol.4184696701293ead.png" width="70%"/>
+<img alt="튜링 테스트의 진화" src="../../../../translated_images/ko/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > 이미지 제공: Dmitry Soshnikov, [사진](https://unsplash.com/photos/r8LmVbUKgns) 제공: [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## 최근 AI 연구

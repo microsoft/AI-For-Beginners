@@ -29,7 +29,7 @@ Tiek Keras, tiek PyTorch turi funkcijas, leidžiančias lengvai įkelti iš anks
 
 Štai pavyzdinės savybės, išgautos iš katės nuotraukos naudojant VGG-16 tinklą:
 
-![Savybės, išgautos naudojant VGG-16](../../../../../translated_images/lt/features.6291f9c7ba3a0b95.png)
+![Savybės, išgautos naudojant VGG-16](../../../../../translated_images/lt/features.6291f9c7ba3a0b95.webp)
 
 ## Kačių ir šunų duomenų rinkinys
 
@@ -48,19 +48,19 @@ Iš anksto apmokytas neuroninis tinklas savo „smegenyse“ turi įvairius šab
 
 Vienas iš būdų, kurį galime naudoti, yra pradėti nuo atsitiktinio vaizdo ir tada bandyti naudoti **gradientinio nusileidimo optimizavimo** techniką, kad pakoreguotume tą vaizdą taip, jog tinklas pradėtų manyti, kad tai yra katė.
 
-![Vaizdo optimizavimo ciklas](../../../../../translated_images/lt/ideal-cat-loop.999fbb8ff306e044.png)
+![Vaizdo optimizavimo ciklas](../../../../../translated_images/lt/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Tačiau, jei tai padarysime, gausime kažką labai panašaus į atsitiktinį triukšmą. Taip yra todėl, kad *yra daug būdų, kaip tinklas gali manyti, kad įvesties vaizdas yra katė*, įskaitant kai kuriuos, kurie vizualiai neturi prasmės. Nors tie vaizdai turi daug šablonų, būdingų katei, nėra nieko, kas juos apribotų vizualiai išskirtiniais.
 
 Norėdami pagerinti rezultatą, galime pridėti dar vieną terminą į nuostolių funkciją, vadinamą **variacijos nuostoliu**. Tai metrika, rodanti, kaip panašūs yra kaimyniniai vaizdo pikseliai. Mažinant variacijos nuostolį vaizdas tampa lygesnis ir atsikratoma triukšmo – taip atskleidžiami vizualiai patrauklesni šablonai. Štai pavyzdys tokių „idealių“ vaizdų, kurie su didele tikimybe klasifikuojami kaip katė ir kaip zebra:
 
-![Ideali katė](../../../../../translated_images/lt/ideal-cat.203dd4597643d6b0.png) | ![Ideali zebra](../../../../../translated_images/lt/ideal-zebra.7f70e8b54ee15a7a.png)
+![Ideali katė](../../../../../translated_images/lt/ideal-cat.203dd4597643d6b0.webp) | ![Ideali zebra](../../../../../translated_images/lt/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Ideali katė* | *Ideali zebra*
 
 Panašus metodas gali būti naudojamas atliekant vadinamuosius **priešiškus išpuolius** prieš neuroninį tinklą. Tarkime, norime apgauti neuroninį tinklą ir priversti šunį atrodyti kaip katę. Jei paimsime šuns vaizdą, kurį tinklas atpažįsta kaip šunį, galime šiek tiek jį pakoreguoti naudodami gradientinio nusileidimo optimizavimą, kol tinklas pradės jį klasifikuoti kaip katę:
 
-![Šuns nuotrauka](../../../../../translated_images/lt/original-dog.8f68a67d2fe0911f.png) | ![Šuns nuotrauka, klasifikuojama kaip katė](../../../../../translated_images/lt/adversarial-dog.d9fc7773b0142b89.png)
+![Šuns nuotrauka](../../../../../translated_images/lt/original-dog.8f68a67d2fe0911f.webp) | ![Šuns nuotrauka, klasifikuojama kaip katė](../../../../../translated_images/lt/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Originali šuns nuotrauka* | *Šuns nuotrauka, klasifikuojama kaip katė*
 

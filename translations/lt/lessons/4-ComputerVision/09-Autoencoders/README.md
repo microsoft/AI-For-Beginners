@@ -19,7 +19,7 @@ Tačiau galime norėti naudoti neapdorotus (nepažymėtus) duomenis CNN funkcij�
 
 Kadangi mokome autoenkoderį užfiksuoti kuo daugiau informacijos iš originalaus vaizdo, kad būtų galima tiksliai jį atkurti, tinklas stengiasi rasti geriausią **įterpimą** įvesties vaizdams, kad užfiksuotų jų prasmę.
 
-![Autoenkoderio schema](../../../../../translated_images/lt/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
+![Autoenkoderio schema](../../../../../translated_images/lt/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Vaizdas iš [Keras tinklaraščio](https://blog.keras.io/building-autoencoders-in-keras.html)
 

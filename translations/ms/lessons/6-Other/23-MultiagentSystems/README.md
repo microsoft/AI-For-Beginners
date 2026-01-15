@@ -70,7 +70,7 @@ Anda boleh membuka salah satu model, contohnya **Biology &rightarrow; Flocking**
 
 Selepas membuka model, anda akan dibawa ke skrin utama NetLogo. Berikut adalah contoh model yang menerangkan populasi serigala dan kambing, dengan sumber yang terhad (rumput).
 
-![NetLogo Main Screen](../../../../../translated_images/ms/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/ms/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Tangkapan skrin oleh Dmitry Soshnikov
 

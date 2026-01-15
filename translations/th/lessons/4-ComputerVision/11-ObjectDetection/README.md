@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![การตรวจจับวัตถุ](../../../../../translated_images/th/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![การตรวจจับวัตถุ](../../../../../translated_images/th/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > ภาพจาก [เว็บไซต์ YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. ใช้การจำแนกภาพในแต่ละส่วน
 3. ส่วนที่มีการกระตุ้นสูงพอสมควรสามารถพิจารณาได้ว่ามีวัตถุที่เราต้องการอยู่
 
-![การตรวจจับวัตถุแบบพื้นฐาน](../../../../../translated_images/th/naive-detection.e7f1ba220ccd08c6.png)
+![การตรวจจับวัตถุแบบพื้นฐาน](../../../../../translated_images/th/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *ภาพจาก [สมุดบันทึกการฝึกฝน](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 คลาส
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. มี 80 คลาส, กรอบวัตถุ และหน้ากากการแบ่งส่วน
 
-![COCO](../../../../../translated_images/th/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/th/coco-examples.71bc60380fa6cceb.webp)
 
 ## ตัวชี้วัดสำหรับการตรวจจับวัตถุ
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ในขณะที่การจำแนกภาพสามารถวัดผลได้ง่ายว่าประสิทธิภาพของอัลกอริทึมเป็นอย่างไร สำหรับการตรวจจับวัตถุ เราต้องวัดทั้งความถูกต้องของคลาส และความแม่นยำของตำแหน่งกรอบวัตถุที่คาดการณ์ได้ สำหรับอย่างหลัง เราใช้ตัวชี้วัดที่เรียกว่า **Intersection over Union** (IoU) ซึ่งวัดว่าพื้นที่สองส่วน (หรือพื้นที่ใดๆ) ซ้อนทับกันได้ดีเพียงใด
 
-![IoU](../../../../../translated_images/th/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/th/iou_equation.9a4751d40fff4e11.webp)
 
 > *รูปที่ 2 จาก [บทความที่ยอดเยี่ยมเกี่ยวกับ IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) ใช้ [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) เพื่อสร้างโครงสร้างลำดับชั้นของ ROI ซึ่งจะถูกส่งผ่าน CNN เพื่อดึงคุณลักษณะ และใช้ SVM-classifiers เพื่อกำหนดคลาสของวัตถุ และการถดถอยเชิงเส้นเพื่อกำหนดพิกัดของ *กรอบวัตถุ* [เอกสารอย่างเป็นทางการ](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/th/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/th/rcnn1.cae407020dfb1d1f.webp)
 
 > *ภาพจาก van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/th/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/th/rcnn2.2d9530bb83516484.webp)
 
 > *ภาพจาก [บทความนี้](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 วิธีนี้คล้ายกับ R-CNN แต่ ROI ถูกกำหนดหลังจากที่เลเยอร์คอนโวลูชันถูกประยุกต์ใช้แล้ว
 
-![FRCNN](../../../../../translated_images/th/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/th/f-rcnn.3cda6d9bb4188875.webp)
 
 > ภาพจาก [เอกสารอย่างเป็นทางการ](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ $$
 
 แนวคิดหลักของวิธีนี้คือการใช้เครือข่ายประสาทเพื่อทำนาย ROI ที่เรียกว่า *Region Proposal Network* [เอกสาร](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/th/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/th/faster-rcnn.8d46c099b87ef30a.webp)
 
 > ภาพจาก [เอกสารอย่างเป็นทางการ](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. คุณลักษณะถูกประมวลผลโดย **Position-Sensitive Score Map** วัตถุแต่ละตัวจาก $C$ คลาสถูกแบ่งออกเป็น $k\times k$ พื้นที่ และเราฝึกให้ทำนายส่วนต่างๆ ของวัตถุ
 3. สำหรับแต่ละส่วนจาก $k\times k$ พื้นที่ เครือข่ายทั้งหมดจะโหวตให้คลาสของวัตถุ และคลาสที่มีคะแนนโหวตสูงสุดจะถูกเลือก
 
-![r-fcn image](../../../../../translated_images/th/r-fcn.13eb88158b99a3da.png)
+![r-fcn image](../../../../../translated_images/th/r-fcn.13eb88158b99a3da.webp)
 
 > ภาพจาก [เอกสารอย่างเป็นทางการ](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO เป็นอัลกอริทึมแบบเรียลไทม
  * ภาพถูกแบ่งออกเป็น $S\times S$ พื้นที่
  * สำหรับแต่ละพื้นที่ **CNN** ทำนายวัตถุ $n$ ชนิด, พิกัด *กรอบวัตถุ* และ *ความมั่นใจ*=*ความน่าจะเป็น* * IoU
 
- ![YOLO](../../../../../translated_images/th/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/th/yolo.a2648ec82ee8bb4e.webp)
 
 > ภาพจาก [เอกสารอย่างเป็นทางการ](https://arxiv.org/abs/1506.02640)
 

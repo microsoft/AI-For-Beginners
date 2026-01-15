@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés a mesterséges intelligenciába
 
-![A mesterséges intelligencia bevezetésének összefoglalása egy rajzban](../../../../translated_images/hu/ai-intro.bf28d1ac4235881c.png)
+![A mesterséges intelligencia bevezetésének összefoglalása egy rajzban](../../../../translated_images/hu/ai-intro.bf28d1ac4235881c.webp)
 
 > Rajz: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Eredetileg a számítógépeket [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) találta fel, hogy számokkal dolgozzanak egy jól meghatározott eljárás – algoritmus – alapján. A modern számítógépek, bár jelentősen fejlettebbek, mint a 19. században javasolt eredeti modell, még mindig ugyanazt az irányított számítási elvet követik. Ezért lehetséges egy számítógépet programozni, hogy valamit elvégezzen, ha pontosan ismerjük a cél eléréséhez szükséges lépések sorrendjét.
 
-![Egy személy fotója](../../../../translated_images/hu/dsh_age.d212a30d4e54fb5f.png)
+![Egy személy fotója](../../../../translated_images/hu/dsh_age.d212a30d4e54fb5f.webp)
 
 > Fotó: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ További információért lásd **[Mesterséges általános intelligencia](https
 
 Az egyik probléma az **[intelligencia](https://en.wikipedia.org/wiki/Intelligence)** kifejezéssel kapcsolatban az, hogy nincs egyértelmű definíciója. Egyesek szerint az intelligencia kapcsolódik az **absztrakt gondolkodáshoz**, vagy az **önismerethez**, de nem tudjuk megfelelően meghatározni.
 
-![Macska fotója](../../../../translated_images/hu/photo-cat.8c8e8fb760ffe457.jpg)
+![Macska fotója](../../../../translated_images/hu/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Fotó](https://unsplash.com/photos/75715CVEJhI) készítette [Amber Kipp](https://unsplash.com/@sadmax) az Unsplash-en
 
@@ -98,13 +98,13 @@ Alternatívaként megpróbálhatjuk modellezni az agyunk legegyszerűbb elemeit 
 
 > | Mi a helyzet az ML-lel?         |      |
 > |--------------|-----------|
-> | A mesterséges intelligencia azon része, amely a számítógép tanulásán alapul, hogy egy problémát megoldjon bizonyos adatok alapján, **gépi tanulásnak** nevezzük. Ebben a kurzusban nem foglalkozunk a klasszikus gépi tanulással – erre külön [Gépi tanulás kezdőknek](http://aka.ms/ml-beginners) tananyagot ajánlunk. |   ![ML kezdőknek](../../../../translated_images/hu/ml-for-beginners.9e4fed176fd5817d.png)    |
+> | A mesterséges intelligencia azon része, amely a számítógép tanulásán alapul, hogy egy problémát megoldjon bizonyos adatok alapján, **gépi tanulásnak** nevezzük. Ebben a kurzusban nem foglalkozunk a klasszikus gépi tanulással – erre külön [Gépi tanulás kezdőknek](http://aka.ms/ml-beginners) tananyagot ajánlunk. |   ![ML kezdőknek](../../../../translated_images/hu/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## A mesterséges intelligencia rövid története
 
 A mesterséges intelligencia mint terület a huszadik század közepén indult. Kezdetben a szimbolikus érvelés volt az uralkodó megközelítés, és számos fontos sikert eredményezett, például szakértői rendszereket – számítógépes programokat, amelyek képesek voltak szakértőként működni bizonyos korlátozott problématerületeken. Azonban hamar világossá vált, hogy ez a megközelítés nem skálázható jól. A tudás kinyerése egy szakértőtől, annak számítógépes ábrázolása és a tudásbázis pontosan tartása rendkívül összetett feladatnak bizonyult, és sok esetben túl drága volt ahhoz, hogy gyakorlati legyen. Ez az úgynevezett [MI télhez](https://en.wikipedia.org/wiki/AI_winter) vezetett az 1970-es években.
 
-<img alt="A mesterséges intelligencia rövid története" src="../../../../translated_images/hu/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
+<img alt="A mesterséges intelligencia rövid története" src="../../../../translated_images/hu/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Kép: [Dmitry Soshnikov](http://soshnikov.com)
 

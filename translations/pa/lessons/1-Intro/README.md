@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI ਦਾ ਪਰਿਚਯ
 
-![AI ਸਮੱਗਰੀ ਦੇ ਪਰਿਚਯ ਦਾ ਡੂਡਲ ਵਿੱਚ ਸਾਰ](../../../../translated_images/pa/ai-intro.bf28d1ac4235881c.png)
+![AI ਸਮੱਗਰੀ ਦੇ ਪਰਿਚਯ ਦਾ ਡੂਡਲ ਵਿੱਚ ਸਾਰ](../../../../translated_images/pa/ai-intro.bf28d1ac4235881c.webp)
 
 > ਸਕੈਚਨੋਟ [ਟੋਮੋਮੀ ਇਮੁਰਾ](https://twitter.com/girlie_mac) ਦੁਆਰਾ
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਮੂਲ ਰੂਪ ਵਿੱਚ, ਕੰਪਿਊਟਰਾਂ ਨੂੰ [ਚਾਰਲਸ ਬੈਬੇਜ](https://en.wikipedia.org/wiki/Charles_Babbage) ਦੁਆਰਾ ਸੰਖਿਆਵਾਂ 'ਤੇ ਕੰਮ ਕਰਨ ਲਈ ਬਣਾਇਆ ਗਿਆ ਸੀ, ਇੱਕ ਸਪਸ਼ਟ ਤਰੀਕੇ - ਇੱਕ ਐਲਗੋਰਿਦਮ ਦੀ ਪਾਲਣਾ ਕਰਦੇ ਹੋਏ। ਆਧੁਨਿਕ ਕੰਪਿਊਟਰ, ਹਾਲਾਂਕਿ 19ਵੀਂ ਸਦੀ ਵਿੱਚ ਪ੍ਰਸਤਾਵਿਤ ਮੂਲ ਮਾਡਲ ਨਾਲੋਂ ਕਾਫ਼ੀ ਅਗਰਗਾਮੀ ਹਨ, ਫਿਰ ਵੀ ਨਿਯੰਤਰਿਤ ਗਣਨਾਵਾਂ ਦੇ ਇੱਕੋ ਹੀ ਵਿਚਾਰ ਦੀ ਪਾਲਣਾ ਕਰਦੇ ਹਨ। ਇਸ ਲਈ, ਇਹ ਸੰਭਵ ਹੈ ਕਿ ਕੰਪਿਊਟਰ ਨੂੰ ਕੁਝ ਕਰਨ ਲਈ ਪ੍ਰੋਗਰਾਮ ਕੀਤਾ ਜਾ ਸਕੇ ਜੇਕਰ ਅਸੀਂ ਉਹ ਸਪਸ਼ਟ ਕਦਮਾਂ ਦੀ ਲੜੀ ਜਾਣਦੇ ਹਾਂ ਜੋ ਲਕਸ਼ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕਰਨੇ ਹਨ।
 
-![ਇੱਕ ਵਿਅਕਤੀ ਦੀ ਤਸਵੀਰ](../../../../translated_images/pa/dsh_age.d212a30d4e54fb5f.png)
+![ਇੱਕ ਵਿਅਕਤੀ ਦੀ ਤਸਵੀਰ](../../../../translated_images/pa/dsh_age.d212a30d4e54fb5f.webp)
 
 > ਤਸਵੀਰ [ਵਿਕੀ ਸੋਸ਼ਨਿਕੋਵਾ](http://twitter.com/vickievalerie) ਦੁਆਰਾ
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** ਸ਼ਬਦ ਨਾਲ ਨਜਿੱਠਣ ਵੇਲੇ ਇੱਕ ਸਮੱਸਿਆ ਇਹ ਹੈ ਕਿ ਇਸ ਸ਼ਬਦ ਦੀ ਕੋਈ ਸਪਸ਼ਟ ਪਰਿਭਾਸ਼ਾ ਨਹੀਂ ਹੈ। ਕੋਈ ਦਲੀਲ ਕਰ ਸਕਦਾ ਹੈ ਕਿ ਬੁੱਧੀ **ਅਮੂਰ ਚਿੰਤਨ** ਜਾਂ **ਸਵੈ-ਜਾਗਰੂਕਤਾ** ਨਾਲ ਜੁੜੀ ਹੋਈ ਹੈ, ਪਰ ਅਸੀਂ ਇਸਨੂੰ ਢੰਗ ਨਾਲ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਕਰ ਸਕਦੇ।
 
-![ਬਿੱਲੀ ਦੀ ਤਸਵੀਰ](../../../../translated_images/pa/photo-cat.8c8e8fb760ffe457.jpg)
+![ਬਿੱਲੀ ਦੀ ਤਸਵੀਰ](../../../../translated_images/pa/photo-cat.8c8e8fb760ffe457.webp)
 
 > [ਤਸਵੀਰ](https://unsplash.com/photos/75715CVEJhI) [ਐਂਬਰ ਕਿਪ](https://unsplash.com/@sadmax) ਦੁਆਰਾ Unsplash ਤੋਂ
 

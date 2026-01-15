@@ -15,7 +15,7 @@ După succesul modelelor transformer în rezolvarea sarcinilor NLP, aceleași sa
 
 Ideea principală a CLIP este de a putea compara descrieri textuale cu o imagine și de a determina cât de bine corespunde imaginea descrierii.
 
-![CLIP Architecture](../../../../../translated_images/ro/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP Architecture](../../../../../translated_images/ro/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Imagine din [acest articol](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Odată ce acest model este pre-antrenat, putem să-i oferim un lot de imagini ș
 
 Să presupunem că trebuie să clasificăm imagini între, să zicem, pisici, câini și oameni. În acest caz, putem oferi modelului o imagine și o serie de descrieri textuale: "*o imagine cu o pisică*", "*o imagine cu un câine*", "*o imagine cu un om*". În vectorul rezultat de 3 probabilități, trebuie doar să selectăm indexul cu cea mai mare valoare.
 
-![CLIP for Image Classification](../../../../../translated_images/ro/clip-class.3af42ef0b2b19369.png)
+![CLIP for Image Classification](../../../../../translated_images/ro/clip-class.3af42ef0b2b19369.webp)
 
 > *Imagine din [acest articol](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Aflați mai multe despre VQGAN pe site-ul [Taming Transformers](https://compvis.
 
 Una dintre diferențele importante între VQGAN și GAN-ul tradițional este că cel din urmă poate produce o imagine decentă din orice vector de intrare, în timp ce VQGAN este probabil să producă o imagine incoerentă. Astfel, trebuie să ghidăm procesul de creare a imaginii, iar acest lucru poate fi realizat folosind CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/ro/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/ro/vqgan.5027fe05051dfa31.webp)
 
 Pentru a genera o imagine corespunzătoare unei descrieri textuale, începem cu un vector de codificare aleatoriu care este transmis prin VQGAN pentru a produce o imagine. Apoi, CLIP este utilizat pentru a produce o funcție de pierdere care arată cât de bine corespunde imaginea descrierii textuale. Scopul este de a minimiza această pierdere, utilizând backpropagation pentru a ajusta parametrii vectorului de intrare.
 
 O bibliotecă excelentă care implementează VQGAN+CLIP este [Pixray](http://github.com/pixray/pixray).
 
-![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Imagine produsă de Pixray](../../../../../translated_images/ro/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Imagine generată din descrierea *un portret în acuarelă, prim-plan, al unui tânăr profesor de literatură cu o carte* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unei tinere profesoare de informatică cu un computer* | Imagine generată din descrierea *un portret în ulei, prim-plan, al unui profesor bătrân de matematică în fața unei table negre*
 

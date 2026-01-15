@@ -19,7 +19,7 @@ Avšak, môžeme chcieť použiť surové (neoznačené) dáta na trénovanie CN
 
 Keďže trénujeme autoenkodér, aby zachytil čo najviac informácií z pôvodného obrázku na presnú rekonštrukciu, sieť sa snaží nájsť najlepšie **zobrazenie** vstupných obrázkov, aby zachytila ich význam.
 
-![Schéma Autoenkodéra](../../../../../translated_images/sk/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
+![Schéma Autoenkodéra](../../../../../translated_images/sk/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Obrázok z [blogu Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

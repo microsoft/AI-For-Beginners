@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 これにより、以下の図に示されるようなさまざまなニューラルアーキテクチャが可能になります：
 
-![一般的なリカレントニューラルネットワークのパターンを示す画像](../../../../../translated_images/ja/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![一般的なリカレントニューラルネットワークのパターンを示す画像](../../../../../translated_images/ja/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > 画像は [Andrej Karpaty](http://karpathy.github.io/) のブログ記事 [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) より引用
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 このRNNを訓練してステップごとにテキストを生成します。各ステップで、`nchars`の長さの文字列を取り、ネットワークに各入力文字に対して次の出力文字を生成させます：
 
-![単語 'HELLO' を生成するRNNの例を示す画像](../../../../../translated_images/ja/rnn-generate.56c54afb52f9781d.png)
+![単語 'HELLO' を生成するRNNの例を示す画像](../../../../../translated_images/ja/rnn-generate.56c54afb52f9781d.webp)
 
 テキスト生成（推論中）では、まず**プロンプト**を使用し、それをRNNセルに通して中間状態を生成します。その後、この状態から生成が始まります。1文字ずつ生成し、状態と生成された文字を次のRNNセルに渡して次の文字を生成します。このプロセスを繰り返して十分な文字数を生成します。
 

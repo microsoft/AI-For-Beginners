@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pangkalahatang-ideya
 
-![Pangkalahatang-ideya sa isang doodle](../../../translated_images/tl/ai-overview.0857791951d19500.png)
+![Pangkalahatang-ideya sa isang doodle](../../../translated_images/tl/ai-overview.0857791951d19500.webp)
 
 > Sketchnote ni [Tomomi Imura](https://twitter.com/girlie_mac)
 

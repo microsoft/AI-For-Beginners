@@ -17,7 +17,7 @@ Nella vita reale, vogliamo essere in grado di riconoscere oggetti in un'immagine
 
 Per estrarre schemi, utilizzeremo il concetto di **filtri convoluzionali**. Come sapete, un'immagine è rappresentata da una matrice 2D o da un tensore 3D con profondità di colore. Applicare un filtro significa prendere una matrice relativamente piccola chiamata **kernel del filtro**, e per ogni pixel dell'immagine originale calcolare la media ponderata con i punti vicini. Possiamo immaginare questo processo come una piccola finestra che scorre su tutta l'immagine, mediando tutti i pixel secondo i pesi nella matrice del kernel del filtro.
 
-![Filtro per bordi verticali](../../../../../translated_images/it/filter-vert.b7148390ca0bc356.png) | ![Filtro per bordi orizzontali](../../../../../translated_images/it/filter-horiz.59b80ed4feb946ef.png)
+![Filtro per bordi verticali](../../../../../translated_images/it/filter-vert.b7148390ca0bc356.webp) | ![Filtro per bordi orizzontali](../../../../../translated_images/it/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Immagine di Dmitry Soshnikov
@@ -38,7 +38,7 @@ Il funzionamento delle CNN si basa sulle seguenti idee fondamentali:
 * Possiamo progettare la rete in modo che i filtri vengano addestrati automaticamente
 * Possiamo utilizzare lo stesso approccio per trovare schemi in caratteristiche di alto livello, non solo nell'immagine originale. Pertanto, l'estrazione delle caratteristiche nelle CNN funziona su una gerarchia di caratteristiche, partendo da combinazioni di pixel di basso livello fino ad arrivare a combinazioni di alto livello di parti dell'immagine.
 
-![Estrazione gerarchica delle caratteristiche](../../../../../translated_images/it/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Estrazione gerarchica delle caratteristiche](../../../../../translated_images/it/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Immagine tratta da [un articolo di Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), basato sulla [loro ricerca](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ La maggior parte delle CNN utilizzate per l'elaborazione delle immagini segue un
 
 Ad esempio, osserviamo l'architettura di VGG-16, una rete che ha raggiunto il 92,7% di accuratezza nella classificazione top-5 di ImageNet nel 2014:
 
-![Strati di ImageNet](../../../../../translated_images/it/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![Strati di ImageNet](../../../../../translated_images/it/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Piramide di ImageNet](../../../../../translated_images/it/vgg-16-arch.64ff2137f50dd49f.jpg)
+![Piramide di ImageNet](../../../../../translated_images/it/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Immagine tratta da [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

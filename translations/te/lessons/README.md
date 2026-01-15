@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # అవలోకనం
 
-![డూడుల్‌లో అవలోకనం](../../../translated_images/te/ai-overview.0857791951d19500.png)
+![డూడుల్‌లో అవలోకనం](../../../translated_images/te/ai-overview.0857791951d19500.webp)
 
 > స్కెచ్‌నోట్: [టోమోమీ ఇమురా](https://twitter.com/girlie_mac)
 

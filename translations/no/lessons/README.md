@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Oversikt
 
-![Oversikt i en skisse](../../../translated_images/no/ai-overview.0857791951d19500.png)
+![Oversikt i en skisse](../../../translated_images/no/ai-overview.0857791951d19500.webp)
 
 > Skisse laget av [Tomomi Imura](https://twitter.com/girlie_mac)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pregled
 
-![Pregled u crtežu](../../../translated_images/hr/ai-overview.0857791951d19500.png)
+![Pregled u crtežu](../../../translated_images/hr/ai-overview.0857791951d19500.webp)
 
 > Crtež bilješki od [Tomomi Imura](https://twitter.com/girlie_mac)
 

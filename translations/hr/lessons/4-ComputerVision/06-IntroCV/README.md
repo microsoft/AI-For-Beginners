@@ -73,14 +73,14 @@ U našem [OpenCV Notebook](OpenCV.ipynb) dajemo neke primjere kada se računalni
 
 * **Predobrada fotografije Brailleove knjige**. Fokusiramo se na to kako možemo koristiti pragove, detekciju značajki, perspektivne transformacije i manipulacije NumPy nizovima kako bismo odvojili pojedinačne Brailleove simbole za daljnju klasifikaciju neuronskom mrežom.
 
-![Braille slika](../../../../../translated_images/hr/braille.341962ff76b1bd70.jpeg) | ![Predobrađena Braille slika](../../../../../translated_images/hr/braille-result.46530fea020b03c7.png) | ![Braille simboli](../../../../../translated_images/hr/braille-symbols.0159185ab69d5339.png)
+![Braille slika](../../../../../translated_images/hr/braille.341962ff76b1bd70.webp) | ![Predobrađena Braille slika](../../../../../translated_images/hr/braille-result.46530fea020b03c7.webp) | ![Braille simboli](../../../../../translated_images/hr/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Slika iz [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detekcija kretanja u videu pomoću razlike između okvira**. Ako je kamera fiksna, tada bi okviri iz videozapisa trebali biti prilično slični. Budući da su okviri predstavljeni kao nizovi, jednostavnim oduzimanjem tih nizova za dva uzastopna okvira dobit ćemo razliku piksela, koja bi trebala biti mala za statične okvire, a postati veća kada postoji značajno kretanje na slici.
 
-![Slika video okvira i razlika između okvira](../../../../../translated_images/hr/frame-difference.706f805491a0883c.png)
+![Slika video okvira i razlika između okvira](../../../../../translated_images/hr/frame-difference.706f805491a0883c.webp)
 
 > Slika iz [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ U našem [OpenCV Notebook](OpenCV.ipynb) dajemo neke primjere kada se računalni
    - **Gusti optički tok** izračunava vektorsko polje koje pokazuje za svaki piksel kamo se kreće
    - **Rijetki optički tok** temelji se na uzimanju nekih prepoznatljivih značajki na slici (npr. rubova) i praćenju njihove putanje od okvira do okvira.
 
-![Slika optičkog toka](../../../../../translated_images/hr/optical.1f4a94464579a83a.png)
+![Slika optičkog toka](../../../../../translated_images/hr/optical.1f4a94464579a83a.webp)
 
 > Slika iz [OpenCV.ipynb](OpenCV.ipynb)
 

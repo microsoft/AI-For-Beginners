@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Teadmiste esitus ja ekspertsüsteemid
 
-![Sümboolse AI sisu kokkuvõte](../../../../translated_images/et/ai-symbolic.715a30cb610411a6.png)
+![Sümboolse AI sisu kokkuvõte](../../../../translated_images/et/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autorilt [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -35,13 +35,13 @@ Enamasti me ei defineeri teadmisi rangelt, vaid seostame neid teiste seotud mõi
 * **Teadmised** on informatsioon, mis on integreeritud meie maailmamudelisse. Näiteks, kui õpime, mis on arvuti, hakkame mõistma, kuidas see töötab, kui palju see maksab ja milleks seda saab kasutada. See omavahel seotud mõistete võrgustik moodustab meie teadmised.
 * **Tarkus** on veel üks tasand meie arusaamisest maailmast ja esindab *meta-teadmisi*, näiteks arusaama, kuidas ja millal teadmisi kasutada.
 
-<img src="../../../../translated_images/et/DIKW_Pyramid.94126f7d2bd8db5b.png" width="30%"/>
+<img src="../../../../translated_images/et/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
 *Pilt [Wikipedia-st](https://commons.wikimedia.org/w/index.php?curid=37705247), autor Longlivetheux - Oma töö, CC BY-SA 4.0*
 
 Seega on **teadmiste esitamise** probleem leida tõhus viis teadmiste esitamiseks arvutis andmete kujul, et neid automaatselt kasutada. Seda võib vaadelda spektrina:
 
-![Teadmiste esitamise spekter](../../../../translated_images/et/knowledge-spectrum.b60df631852c0217.png)
+![Teadmiste esitamise spekter](../../../../translated_images/et/knowledge-spectrum.b60df631852c0217.webp)
 
 > Pilt autorilt [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Ploki süntaks | Taanded | | |
 
 Sümboolse AI varajased edusammud olid nn **ekspertsüsteemid** - arvutisüsteemid, mis olid loodud tegutsema eksperdina mõnes piiratud probleemivaldkonnas. Need põhinesid **teadmistebaasil**, mis oli saadud ühelt või mitmelt inimeksperdilt, ja sisaldasid **järeldusmootorit**, mis tegi selle põhjal järeldusi.
 
-![Inimese arhitektuur](../../../../translated_images/et/arch-human.5d4d35f1bba3ab1c.png) | ![Teadmistepõhise süsteemi arhitektuur](../../../../translated_images/et/arch-kbs.3ec5c150b09fa8da.png)
+![Inimese arhitektuur](../../../../translated_images/et/arch-human.5d4d35f1bba3ab1c.webp) | ![Teadmistepõhise süsteemi arhitektuur](../../../../translated_images/et/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Lihtsustatud inimese närvisüsteemi struktuur | Teadmistepõhise süsteemi arhitektuur
 
@@ -106,7 +106,7 @@ Ekspertsüsteemid on ehitatud nagu inimese järeldussüsteem, mis sisaldab **lü
 
 Näiteks vaatame järgmist ekspertsüsteemi, mis määrab looma füüsiliste omaduste põhjal:
 
-![AND-OR puu](../../../../translated_images/et/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR puu](../../../../translated_images/et/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Pilt autorilt [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -175,7 +175,7 @@ Semantilise veebi keskne mõiste on **ontoloogia**. See viitab probleemivaldkonn
 
 Semantilises veebis põhinevad kõik esitusviisid kolmikutel. Iga objekt ja iga seos on unikaalselt identifitseeritud URI abil. Näiteks, kui soovime väita, et see AI õppekava on koostanud Dmitry Soshnikov 1. jaanuaril 2022, siis siin on kolmikud, mida saame kasutada:
 
-<img src="../../../../translated_images/et/triplet.4b9b332587593298.png" width="30%"/>
+<img src="../../../../translated_images/et/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
@@ -186,7 +186,7 @@ http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/cre
 
 Keerukamal juhul, kui soovime määratleda loojate nimekirja, saame kasutada RDF-is määratletud andmestruktuure.
 
-<img src="../../../../translated_images/et/triplet-complex.32094972c7b4441b.png" width="40%"/>
+<img src="../../../../translated_images/et/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > Ülaltoodud diagrammid: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -210,7 +210,7 @@ GROUP BY ?eyeColorLabel
 
 > ✅ Kui soovite katsetada oma ontoloogiate loomist või olemasolevate avamist, on suurepärane visuaalne ontoloogia redaktor nimega [Protégé](https://protege.stanford.edu/). Laadige see alla või kasutage seda veebis.
 
-<img src="../../../../translated_images/et/protege.274177ceeac13b38.png" width="70%"/>
+<img src="../../../../translated_images/et/protege.274177ceeac13b38.webp" width="70%"/>
 
 *Web Protégé redaktor avatud Romanovite perekonna ontoloogiaga. Ekraanipilt: Dmitry Soshnikov*
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentace znalostí a expertní systémy
 
-![Shrnutí obsahu Symbolické AI](../../../../translated_images/cs/ai-symbolic.715a30cb610411a6.png)
+![Shrnutí obsahu Symbolické AI](../../../../translated_images/cs/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Znalosti často nedefinujeme striktně, ale porovnáváme je s jinými souvisej�
 
 Problém **reprezentace znalostí** tedy spočívá v nalezení efektivního způsobu, jak reprezentovat znalosti uvnitř počítače ve formě dat, aby byly automaticky použitelné. To lze chápat jako spektrum:
 
-![Spektrum reprezentace znalostí](../../../../translated_images/cs/knowledge-spectrum.b60df631852c0217.png)
+![Spektrum reprezentace znalostí](../../../../translated_images/cs/knowledge-spectrum.b60df631852c0217.webp)
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Bloková syntaxe | Odsazení | | |
 
 Jedním z raných úspěchů symbolické AI byly tzv. **expertní systémy** - počítačové systémy navržené tak, aby fungovaly jako expert v omezené oblasti problémů. Byly založeny na **bázi znalostí** získané od jednoho nebo více lidských expertů a obsahovaly **inferenční stroj**, který na ní prováděl usuzování.
 
-![Lidská architektura](../../../../translated_images/cs/arch-human.5d4d35f1bba3ab1c.png) | ![Systém založený na znalostech](../../../../translated_images/cs/arch-kbs.3ec5c150b09fa8da.png)
+![Lidská architektura](../../../../translated_images/cs/arch-human.5d4d35f1bba3ab1c.webp) | ![Systém založený na znalostech](../../../../translated_images/cs/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Zjednodušená struktura lidského nervového systému | Architektura systému založeného na znalostech
 
@@ -106,7 +106,7 @@ Expertní systémy jsou postaveny podobně jako lidský systém usuzování, kte
 
 Jako příklad si vezměme následující expertní systém určování zvířete na základě jeho fyzických charakteristik:
 
-![AND-OR strom](../../../../translated_images/cs/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR strom](../../../../translated_images/cs/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 

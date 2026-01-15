@@ -19,7 +19,7 @@ V architektuře RNN, kterou jsme probírali v předchozí kapitole, každá jedn
 
 To umožňuje různé neuronové architektury, jak je znázorněno na obrázku níže:
 
-![Obrázek zobrazující běžné vzory rekurentních neuronových sítí.](../../../../../translated_images/cs/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Obrázek zobrazující běžné vzory rekurentních neuronových sítí.](../../../../../translated_images/cs/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Obrázek z blogového příspěvku [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) od [Andreje Karpatyho](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ V této kapitole se zaměříme na jednoduché generativní modely, které nám 
 
 Tuto RNN budeme trénovat na generování textu krok za krokem. Na každém kroku vezmeme sekvenci znaků o délce `nchars` a požádáme síť, aby pro každý vstupní znak vygenerovala další výstupní znak:
 
-![Obrázek zobrazující příklad generování slova 'HELLO' pomocí RNN.](../../../../../translated_images/cs/rnn-generate.56c54afb52f9781d.png)
+![Obrázek zobrazující příklad generování slova 'HELLO' pomocí RNN.](../../../../../translated_images/cs/rnn-generate.56c54afb52f9781d.webp)
 
 Při generování textu (během inference) začínáme s nějakým **podnětem**, který je předán přes RNN buňky pro vytvoření mezistavu, a poté začíná samotné generování. Generujeme jeden znak po druhém a předáváme stav a vygenerovaný znak další RNN buňce, aby vygenerovala další znak, dokud nevygenerujeme dostatek znaků.
 

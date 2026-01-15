@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Apžvalga
 
-![Apžvalga piešinyje](../../../translated_images/lt/ai-overview.0857791951d19500.png)
+![Apžvalga piešinyje](../../../translated_images/lt/ai-overview.0857791951d19500.webp)
 
 > Piešinys sukurtas [Tomomi Imura](https://twitter.com/girlie_mac)
 

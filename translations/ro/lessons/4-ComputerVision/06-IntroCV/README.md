@@ -73,14 +73,14 @@ De asemenea, poți folosi OpenCV pentru a încărca cadre video unul câte unul 
 
 * **Preprocesarea unei fotografii a unei cărți Braille**. Ne concentrăm pe modul în care putem utiliza thresholding, detectarea caracteristicilor, transformarea de perspectivă și manipulările NumPy pentru a separa simbolurile individuale Braille pentru clasificarea ulterioară de către o rețea neuronală.
 
-![Imagine Braille](../../../../../translated_images/ro/braille.341962ff76b1bd70.jpeg) | ![Imagine Braille Preprocesată](../../../../../translated_images/ro/braille-result.46530fea020b03c7.png) | ![Simboluri Braille](../../../../../translated_images/ro/braille-symbols.0159185ab69d5339.png)
+![Imagine Braille](../../../../../translated_images/ro/braille.341962ff76b1bd70.webp) | ![Imagine Braille Preprocesată](../../../../../translated_images/ro/braille-result.46530fea020b03c7.webp) | ![Simboluri Braille](../../../../../translated_images/ro/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Imagine din [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detectarea mișcării în video folosind diferența dintre cadre**. Dacă camera este fixă, atunci cadrele din fluxul camerei ar trebui să fie destul de similare între ele. Deoarece cadrele sunt reprezentate ca matrice, doar prin scăderea acestor matrice pentru două cadre consecutive vom obține diferența de pixeli, care ar trebui să fie mică pentru cadre statice și să devină mai mare odată ce există o mișcare semnificativă în imagine.
 
-![Imagine a cadrelor video și diferențelor dintre cadre](../../../../../translated_images/ro/frame-difference.706f805491a0883c.png)
+![Imagine a cadrelor video și diferențelor dintre cadre](../../../../../translated_images/ro/frame-difference.706f805491a0883c.webp)
 
 > Imagine din [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ De asemenea, poți folosi OpenCV pentru a încărca cadre video unul câte unul 
    - **Flux Optic Dens** calculează câmpul vectorial care arată pentru fiecare pixel unde se mișcă.
    - **Flux Optic Rar** se bazează pe luarea unor caracteristici distinctive din imagine (de exemplu, margini) și construirea traiectoriei lor de la un cadru la altul.
 
-![Imagine a Fluxului Optic](../../../../../translated_images/ro/optical.1f4a94464579a83a.png)
+![Imagine a Fluxului Optic](../../../../../translated_images/ro/optical.1f4a94464579a83a.webp)
 
 > Imagine din [OpenCV.ipynb](OpenCV.ipynb)
 

@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 är ett nätverk som uppnådde 92,7% noggrannhet i ImageNet top-5 klassificering år 2014. Det har följande lagerstruktur:
 
-![ImageNet Layers](../../../../../translated_images/sv/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/sv/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Som du kan se följer VGG en traditionell pyramidarkitektur, vilket är en sekvens av konvolutions- och poolinglager.
 
-![ImageNet Pyramid](../../../../../translated_images/sv/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/sv/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Bild från [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Luonnollisen kielen käsittely
 
-![Yhteenveto NLP-tehtävistä doodlena](../../../../translated_images/fi/ai-nlp.b22dcb8ca4707cea.png)
+![Yhteenveto NLP-tehtävistä doodlena](../../../../translated_images/fi/ai-nlp.b22dcb8ca4707cea.webp)
 
 Tässä osiossa keskitymme käyttämään neuroverkkoja **luonnollisen kielen käsittelyyn (NLP)** liittyvien tehtävien ratkaisemiseen. On monia NLP-ongelmia, joita haluamme tietokoneiden pystyvän ratkaisemaan:
 

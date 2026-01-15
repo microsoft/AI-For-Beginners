@@ -19,7 +19,7 @@ Azonban előfordulhat, hogy nyers (címkézetlen) adatokat szeretnénk használn
 
 Mivel az autoenkódert arra tanítjuk, hogy minél több információt megőrizzen az eredeti képből a pontos rekonstrukció érdekében, a hálózat megpróbálja megtalálni a legjobb **beágyazást** a bemeneti képek jelentésének megragadásához.
 
-![Autoenkóder diagram](../../../../../translated_images/hu/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
+![Autoenkóder diagram](../../../../../translated_images/hu/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Kép a [Keras blogból](https://blog.keras.io/building-autoencoders-in-keras.html)
 

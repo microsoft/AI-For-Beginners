@@ -58,7 +58,7 @@ infant | O
 
 ਕਿਉਂਕਿ ਸਾਨੂੰ ਟੋਕਨਾਂ ਅਤੇ ਵਰਗਾਂ ਦੇ ਵਿਚਕਾਰ ਇੱਕ-ਤੋਂ-ਇੱਕ ਸੰਬੰਧ ਬਣਾਉਣਾ ਹੁੰਦਾ ਹੈ, ਅਸੀਂ ਇਸ ਤਸਵੀਰ ਤੋਂ ਇੱਕ ਸਹੀ **ਬਹੁਤ-ਤੋਂ-ਬਹੁਤ** ਨਰਲ ਨੈੱਟਵਰਕ ਮਾਡਲ ਨੂੰ ਟ੍ਰੇਨ ਕਰ ਸਕਦੇ ਹਾਂ:
 
-![ਸਧਾਰਨ ਰਿਕਰੰਟ ਨਰਲ ਨੈੱਟਵਰਕ ਪੈਟਰਨ ਦਿਖਾਉਂਦੀ ਤਸਵੀਰ।](../../../../../translated_images/pa/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![ਸਧਾਰਨ ਰਿਕਰੰਟ ਨਰਲ ਨੈੱਟਵਰਕ ਪੈਟਰਨ ਦਿਖਾਉਂਦੀ ਤਸਵੀਰ।](../../../../../translated_images/pa/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *ਤਸਵੀਰ [ਇਸ ਬਲੌਗ ਪੋਸਟ](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ਤੋਂ [Andrej Karpathy](http://karpathy.github.io/) ਦੁਆਰਾ। NER ਟੋਕਨ ਵਰਗੀਕਰਨ ਮਾਡਲ ਇਸ ਤਸਵੀਰ ਦੇ ਸੱਜੇ ਪਾਸੇ ਵਾਲੇ ਨੈੱਟਵਰਕ ਆਰਕੀਟੈਕਚਰ ਨਾਲ ਮਿਲਦੇ ਹਨ।*
 

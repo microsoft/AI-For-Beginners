@@ -58,7 +58,7 @@ Overfitting er et ekstremt vigtigt begreb inden for maskinlæring, og det er meg
 
 Overvej følgende problem med at approximere 5 punkter (repræsenteret ved `x` på graferne nedenfor):
 
-![linear](../../../../../translated_images/da/overfit1.f24b71c6f652e59e.jpg) | ![overfit](../../../../../translated_images/da/overfit2.131f5800ae10ca5e.jpg)
+![linear](../../../../../translated_images/da/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/da/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Lineær model, 2 parametre** | **Ikke-lineær model, 7 parametre**
 Træningsfejl = 5.3 | Træningsfejl = 0
@@ -79,7 +79,7 @@ Det er meget vigtigt at finde den rette balance mellem modellens kompleksitet (a
 
 Som du kan se på grafen ovenfor, kan overfitting opdages ved en meget lav træningsfejl og en høj valideringsfejl. Normalt under træning vil vi se både trænings- og valideringsfejl begynde at falde, og på et tidspunkt kan valideringsfejlen stoppe med at falde og begynde at stige. Dette vil være et tegn på overfitting og en indikator for, at vi sandsynligvis bør stoppe træningen på dette tidspunkt (eller i det mindste tage et snapshot af modellen).
 
-![overfitting](../../../../../translated_images/da/Overfitting.408ad91cd90b4371.png)
+![overfitting](../../../../../translated_images/da/Overfitting.408ad91cd90b4371.webp)
 
 ## Hvordan man forhindrer overfitting
 

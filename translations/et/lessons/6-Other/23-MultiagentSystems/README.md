@@ -60,7 +60,7 @@ NetLogo saate [alla laadida](https://ccl.northwestern.edu/netlogo/download.shtml
 
 NetLogo suurepärane omadus on see, et see sisaldab töötavate mudelite raamatukogu, mida saate proovida. Minge **File &rightarrow; Models Library**, ja teil on palju mudelikategooriaid, mille vahel valida.
 
-<img alt="NetLogo mudelite raamatukogu" src="../../../../../translated_images/et/NetLogo-ModelLib.efe023afb4763c05.png" width="60%"/>
+<img alt="NetLogo mudelite raamatukogu" src="../../../../../translated_images/et/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Mudelite raamatukogu ekraanipilt Dmitry Soshnikovilt
 
@@ -70,7 +70,7 @@ Saate avada ühe mudeli, näiteks **Biology &rightarrow; Flocking**.
 
 Pärast mudeli avamist jõuate NetLogo põhiekraanile. Siin on näidis, mis kirjeldab huntide ja lammaste populatsiooni piiratud ressursside (rohu) tingimustes.
 
-![NetLogo põhiekraan](../../../../../translated_images/et/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo põhiekraan](../../../../../translated_images/et/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Ekraanipilt Dmitry Soshnikovilt
 

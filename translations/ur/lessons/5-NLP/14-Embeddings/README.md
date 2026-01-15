@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ایمبیڈنگ لیئر کو ہمارے کلاسیفائر نیٹ ورک کی پہلی لیئر کے طور پر استعمال کرکے، ہم بیگ آف ورڈز ماڈل سے **ایمبیڈنگ بیگ** ماڈل میں تبدیل ہو سکتے ہیں، جہاں ہم پہلے اپنے متن کے ہر لفظ کو متعلقہ ایمبیڈنگ میں تبدیل کرتے ہیں، اور پھر ان تمام ایمبیڈنگز پر کوئی مجموعی فنکشن جیسے `sum`، `average` یا `max` کا حساب لگاتے ہیں۔
 
-![پانچ سیکوئنس الفاظ کے لیے ایک ایمبیڈنگ کلاسیفائر کی تصویر۔](../../../../../translated_images/ur/embedding-classifier-example.b77f021a7ee67eee.png)
+![پانچ سیکوئنس الفاظ کے لیے ایک ایمبیڈنگ کلاسیفائر کی تصویر۔](../../../../../translated_images/ur/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > تصویر مصنف کی جانب سے
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW تیز ہے، جبکہ اسکیپ-گرام سست ہے، لیکن کم استعمال ہونے والے الفاظ کی بہتر نمائندگی کرتا ہے۔
 
-![CBoW اور اسکیپ-گرام الگورتھمز کی تصویر جو الفاظ کو ویکٹرز میں تبدیل کرتے ہیں۔](../../../../../translated_images/ur/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![CBoW اور اسکیپ-گرام الگورتھمز کی تصویر جو الفاظ کو ویکٹرز میں تبدیل کرتے ہیں۔](../../../../../translated_images/ur/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > تصویر [اس مقالے](https://arxiv.org/pdf/1301.3781.pdf) سے
 

@@ -19,7 +19,7 @@ Vendar pa bi morda želeli uporabiti surove (neoznačene) podatke za treniranje 
 
 Ker treniramo avtoenkoder, da zajame čim več informacij iz izvirne slike za natančno rekonstrukcijo, mreža poskuša najti najboljšo **vgradnjo** vhodnih slik, da zajame njihov pomen.
 
-![Diagram avtoenkoderja](../../../../../translated_images/sl/autoencoder_schema.5e6fc9ad98a5eb61.jpg)
+![Diagram avtoenkoderja](../../../../../translated_images/sl/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Slika iz [Keras bloga](https://blog.keras.io/building-autoencoders-in-keras.html)
 

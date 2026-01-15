@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion til AI
 
-![Oversigt over introduktion til AI-indhold i en doodle](../../../../translated_images/da/ai-intro.bf28d1ac4235881c.png)
+![Oversigt over introduktion til AI-indhold i en doodle](../../../../translated_images/da/ai-intro.bf28d1ac4235881c.webp)
 
 > Sketchnote af [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Oprindeligt blev computere opfundet af [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) til at arbejde med tal ved at følge en veldefineret procedure - en algoritme. Moderne computere, selvom de er betydeligt mere avancerede end den oprindelige model foreslået i det 19. århundrede, følger stadig den samme idé om kontrollerede beregninger. Derfor er det muligt at programmere en computer til at udføre noget, hvis vi kender den præcise rækkefølge af trin, der skal til for at nå målet.
 
-![Foto af en person](../../../../translated_images/da/dsh_age.d212a30d4e54fb5f.png)
+![Foto af en person](../../../../translated_images/da/dsh_age.d212a30d4e54fb5f.webp)
 
 > Foto af [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ For mere information henvises til **[Artificial General Intelligence](https://en
 
 Et af problemerne ved at arbejde med begrebet **[Intelligens](https://en.wikipedia.org/wiki/Intelligence)** er, at der ikke findes en klar definition af dette begreb. Man kan argumentere for, at intelligens er forbundet med **abstrakt tænkning** eller **selvbevidsthed**, men vi kan ikke definere det præcist.
 
-![Foto af en kat](../../../../translated_images/da/photo-cat.8c8e8fb760ffe457.jpg)
+![Foto af en kat](../../../../translated_images/da/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) af [Amber Kipp](https://unsplash.com/@sadmax) fra Unsplash
 
@@ -98,13 +98,13 @@ Alternativt kan vi forsøge at modellere de simpleste elementer i vores hjerne �
 
 > | Hvad med ML?         |      |
 > |--------------|-----------|
-> | En del af Kunstig Intelligens, der er baseret på, at computeren lærer at løse et problem baseret på nogle data, kaldes **Machine Learning**. Vi vil ikke overveje klassisk machine learning i dette kursus - vi henviser dig til en separat [Machine Learning for Beginners](http://aka.ms/ml-beginners) læseplan. |   ![ML for Beginners](../../../../translated_images/da/ml-for-beginners.9e4fed176fd5817d.png)    |
+> | En del af Kunstig Intelligens, der er baseret på, at computeren lærer at løse et problem baseret på nogle data, kaldes **Machine Learning**. Vi vil ikke overveje klassisk machine learning i dette kursus - vi henviser dig til en separat [Machine Learning for Beginners](http://aka.ms/ml-beginners) læseplan. |   ![ML for Beginners](../../../../translated_images/da/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## En Kort Historie om AI
 
 Kunstig Intelligens blev startet som et felt i midten af det tyvende århundrede. Oprindeligt var symbolsk ræsonnement en fremherskende tilgang, og det førte til en række vigtige succeser, såsom ekspertsystemer – computerprogrammer, der kunne fungere som en ekspert inden for nogle begrænsede problemområder. Det blev dog hurtigt klart, at en sådan tilgang ikke skalerer godt. At udtrække viden fra en ekspert, repræsentere det i en computer og holde denne vidensbase nøjagtig viser sig at være en meget kompleks opgave og for dyr til at være praktisk i mange tilfælde. Dette førte til den såkaldte [AI-vinter](https://en.wikipedia.org/wiki/AI_winter) i 1970'erne.
 
-<img alt="Kort historie om AI" src="../../../../translated_images/da/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
+<img alt="Kort historie om AI" src="../../../../translated_images/da/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ På samme måde kan vi se, hvordan tilgangen til at skabe "talende programmer" (
 * Moderne assistenter, såsom Cortana, Siri eller Google Assistant, er alle hybride systemer, der bruger neurale netværk til at konvertere tale til tekst og genkende vores intention, og derefter anvender noget ræsonnement eller eksplicitte algoritmer til at udføre de nødvendige handlinger.
 * I fremtiden kan vi forvente en komplet neural-baseret model til at håndtere dialoger selvstændigt. De seneste GPT- og [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) familier af neurale netværk viser stor succes i dette.
 
-<img alt="Turing-testens udvikling" src="../../../../translated_images/da/turing-test-evol.4184696701293ead.png" width="70%"/>
+<img alt="Turing-testens udvikling" src="../../../../translated_images/da/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Billede af Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) af [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nyere AI-forskning

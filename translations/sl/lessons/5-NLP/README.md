@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Obdelava naravnega jezika
 
-![Povzetek nalog NLP v skici](../../../../translated_images/sl/ai-nlp.b22dcb8ca4707cea.png)
+![Povzetek nalog NLP v skici](../../../../translated_images/sl/ai-nlp.b22dcb8ca4707cea.webp)
 
 V tem poglavju se bomo osredotočili na uporabo nevronskih mrež za reševanje nalog, povezanih z **obdelavo naravnega jezika (NLP)**. Obstaja veliko NLP problemov, ki jih želimo, da jih računalniki rešujejo:
 

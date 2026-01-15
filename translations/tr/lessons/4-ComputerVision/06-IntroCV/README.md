@@ -73,14 +73,14 @@ Bir görüntüyü sinir ağına beslemeden önce, birkaç ön işleme adımı uy
 
 * **Braille kitabının bir fotoğrafını ön işleme**. Eşikleme, özellik tespiti, perspektif dönüşümü ve NumPy manipülasyonlarını kullanarak bireysel Braille sembollerini bir sinir ağı tarafından daha fazla sınıflandırma için ayırmaya odaklanıyoruz.
 
-![Braille Görüntüsü](../../../../../translated_images/tr/braille.341962ff76b1bd70.jpeg) | ![Braille Görüntüsü Ön İşlenmiş](../../../../../translated_images/tr/braille-result.46530fea020b03c7.png) | ![Braille Sembolleri](../../../../../translated_images/tr/braille-symbols.0159185ab69d5339.png)
+![Braille Görüntüsü](../../../../../translated_images/tr/braille.341962ff76b1bd70.webp) | ![Braille Görüntüsü Ön İşlenmiş](../../../../../translated_images/tr/braille-result.46530fea020b03c7.webp) | ![Braille Sembolleri](../../../../../translated_images/tr/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 
 * **Video içinde hareketi kare farkı kullanarak tespit etme**. Kamera sabit ise, kamera akışından gelen kareler birbirine oldukça benzer olmalıdır. Kareler diziler olarak temsil edildiğinden, iki ardışık kare için bu dizileri çıkararak piksel farkını elde edebiliriz; bu fark statik kareler için düşük olmalı ve görüntüde önemli bir hareket olduğunda artmalıdır.
 
-![Video kareleri ve kare farkları görüntüsü](../../../../../translated_images/tr/frame-difference.706f805491a0883c.png)
+![Video kareleri ve kare farkları görüntüsü](../../../../../translated_images/tr/frame-difference.706f805491a0883c.webp)
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 
@@ -89,7 +89,7 @@ Bir görüntüyü sinir ağına beslemeden önce, birkaç ön işleme adımı uy
    - **Yoğun Optik Akış**, her pikselin nereye hareket ettiğini gösteren vektör alanını hesaplar.
    - **Seyrek Optik Akış**, görüntüdeki bazı belirgin özellikleri (örneğin kenarları) alır ve bunların kareden kareye olan hareket yolunu oluşturur.
 
-![Optik Akış Görüntüsü](../../../../../translated_images/tr/optical.1f4a94464579a83a.png)
+![Optik Akış Görüntüsü](../../../../../translated_images/tr/optical.1f4a94464579a83a.webp)
 
 > Görüntü [OpenCV.ipynb](OpenCV.ipynb) dosyasından alınmıştır.
 

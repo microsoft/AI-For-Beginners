@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Континуирана врећа речи** (CBoW), где предвиђамо средишњи токен $W_0$ у низу токена $W_{-N}$, ..., $W_N$.
 * **Скип-грам**, где предвиђамо скуп суседних токена {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} на основу средишњег токена $W_0$.
 
-![слика из рада о претварању речи у векторе](../../../../../translated_images/sr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![слика из рада о претварању речи у векторе](../../../../../translated_images/sr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Слика из [овог рада](https://arxiv.org/pdf/1301.3781.pdf)
 

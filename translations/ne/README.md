@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # शुरुवातीहरूको लागि कृत्रिम बुद्धिमत्ता - एक पाठ्यक्रम
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ne/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ne/ai-overview.0857791951d19500.webp)|
 |:---:|
 | शुरुवातीहरूको लागि कृत्रिम बुद्धिमत्ता - _स्केन्चोटो द्वारा [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

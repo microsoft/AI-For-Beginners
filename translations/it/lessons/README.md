@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panoramica
 
-![Panoramica in uno schizzo](../../../translated_images/it/ai-overview.0857791951d19500.png)
+![Panoramica in uno schizzo](../../../translated_images/it/ai-overview.0857791951d19500.webp)
 
 > Schizzo di [Tomomi Imura](https://twitter.com/girlie_mac)
 

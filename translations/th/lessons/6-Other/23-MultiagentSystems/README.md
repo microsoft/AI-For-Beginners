@@ -70,7 +70,7 @@ ask turtles [
 
 หลังจากเปิดโมเดล คุณจะเข้าสู่หน้าจอหลักของ NetLogo นี่คือตัวอย่างโมเดลที่อธิบายประชากรของหมาป่าและแกะ โดยมีทรัพยากรจำกัด (หญ้า)
 
-![NetLogo Main Screen](../../../../../translated_images/th/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/th/NetLogo-Main.32653711ec1a01b3.webp)
 
 > ภาพหน้าจอโดย Dmitry Soshnikov
 

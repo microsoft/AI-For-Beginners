@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 โดยการใช้เลเยอร์การฝังข้อมูลเป็นเลเยอร์แรกในเครือข่ายจำแนกประเภทของเรา เราสามารถเปลี่ยนจากโมเดลถุงคำไปเป็น **embedding bag** ซึ่งเราจะเปลี่ยนคำแต่ละคำในข้อความของเราให้เป็นการฝังข้อมูลที่สอดคล้องกัน และคำนวณฟังก์ชันรวมบางอย่างจากการฝังข้อมูลเหล่านั้น เช่น `sum`, `average` หรือ `max`
 
-![ภาพแสดงตัวอย่างการจำแนกประเภทด้วยการฝังข้อมูลสำหรับคำในลำดับห้าคำ](../../../../../translated_images/th/embedding-classifier-example.b77f021a7ee67eee.png)
+![ภาพแสดงตัวอย่างการจำแนกประเภทด้วยการฝังข้อมูลสำหรับคำในลำดับห้าคำ](../../../../../translated_images/th/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > ภาพโดยผู้เขียน
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW ทำงานได้เร็วกว่า ในขณะที่ skip-gram ทำงานช้ากว่า แต่สามารถแสดงคำที่ไม่ค่อยปรากฏได้ดีกว่า
 
-![ภาพแสดงทั้งอัลกอริทึม CBoW และ Skip-Gram ในการแปลงคำเป็นเวกเตอร์](../../../../../translated_images/th/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![ภาพแสดงทั้งอัลกอริทึม CBoW และ Skip-Gram ในการแปลงคำเป็นเวกเตอร์](../../../../../translated_images/th/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > ภาพจาก [เอกสารนี้](https://arxiv.org/pdf/1301.3781.pdf)
 

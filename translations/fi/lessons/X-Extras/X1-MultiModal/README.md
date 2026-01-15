@@ -15,7 +15,7 @@ Transformer-mallien menestyksen jälkeen NLP-tehtävissä samoja tai samankaltai
 
 CLIP:n pääidea on kyky verrata tekstikehotteita kuvaan ja määrittää, kuinka hyvin kuva vastaa kehotetta.
 
-![CLIP-arkkitehtuuri](../../../../../translated_images/fi/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP-arkkitehtuuri](../../../../../translated_images/fi/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Kuva [tästä blogikirjoituksesta](https://openai.com/blog/clip/)*
 
@@ -31,7 +31,7 @@ Kun tämä malli on esikoulutettu, sille voidaan antaa erä kuvia ja tekstikehot
 
 Oletetaan, että meidän täytyy luokitella kuvia esimerkiksi kissoihin, koiriin ja ihmisiin. Tässä tapauksessa voimme antaa mallille kuvan ja sarjan tekstikehotteita: "*kuva kissasta*", "*kuva koirasta*", "*kuva ihmisestä*". Tuloksena olevasta kolmen todennäköisyyden vektorista valitsemme vain indeksin, jolla on korkein arvo.
 
-![CLIP kuvien luokitteluun](../../../../../translated_images/fi/clip-class.3af42ef0b2b19369.png)
+![CLIP kuvien luokitteluun](../../../../../translated_images/fi/clip-class.3af42ef0b2b19369.webp)
 
 > *Kuva [tästä blogikirjoituksesta](https://openai.com/blog/clip/)*
 
@@ -55,13 +55,13 @@ Lisätietoja VQGAN:sta löytyy [Taming Transformers](https://compvis.github.io/t
 
 Yksi tärkeä ero VQGAN:n ja perinteisen GAN:n välillä on, että jälkimmäinen voi tuottaa kelvollisen kuvan mistä tahansa syötevektorista, kun taas VQGAN todennäköisesti tuottaa kuvan, joka ei ole koherentti. Siksi kuvan luomisprosessia täytyy ohjata edelleen, ja tämä voidaan tehdä CLIP:llä.
 
-![VQGAN+CLIP-arkkitehtuuri](../../../../../translated_images/fi/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP-arkkitehtuuri](../../../../../translated_images/fi/vqgan.5027fe05051dfa31.webp)
 
 Tuottaaksemme kuvan, joka vastaa tekstikehotetta, aloitamme satunnaisella koodausvektorilla, joka syötetään VQGAN:lle kuvan tuottamiseksi. Sitten CLIP:ä käytetään tuottamaan tappiofunktio, joka osoittaa, kuinka hyvin kuva vastaa tekstikehotetta. Tavoitteena on minimoida tämä tappio käyttämällä takaisinkytkentää syötevektorin parametrien säätämiseen.
 
 Loistava kirjasto, joka toteuttaa VQGAN+CLIP:n, on [Pixray](http://github.com/pixray/pixray).
 
-![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Pixray:n tuottama kuva](../../../../../translated_images/fi/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Kuva, joka on tuotettu kehotteesta *a closeup watercolor portrait of young male teacher of literature with a book* | Kuva, joka on tuotettu kehotteesta *a closeup oil portrait of young female teacher of computer science with a computer* | Kuva, joka on tuotettu kehotteesta *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 

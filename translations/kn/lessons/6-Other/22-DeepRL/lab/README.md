@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ನಿಮ್ಮ ಗುರಿ RL ಏಜೆಂಟ್ ಅನ್ನು OpenAI ಪರಿಸರದಲ್ಲಿ [ಪರ್ವತ ಕಾರ್](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) ಅನ್ನು ನಿಯಂತ್ರಿಸಲು ತರಬೇತಿ ನೀಡುವುದು.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/kn/mountaincar.f7b7a7f6d4f9933b.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/kn/mountaincar.f7b7a7f6d4f9933b.webp" width="300"/>
 
 ## ಪರಿಸರ
 

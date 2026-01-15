@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # 초보자를 위한 인공 지능 - 커리큘럼
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ko/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ko/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _스케치노트 by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 

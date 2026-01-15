@@ -15,7 +15,7 @@ In de vorige secties hebben we gebruik gemaakt van rijke semantische representat
 
 Om de betekenis van een tekstsequentie vast te leggen, moeten we een andere neurale netwerkarchitectuur gebruiken, genaamd een **recurrent neural network**, of RNN. In een RNN sturen we onze zin één symbool tegelijk door het netwerk, en het netwerk produceert een **toestand**, die we vervolgens weer doorgeven aan het netwerk samen met het volgende symbool.
 
-![RNN](../../../../../translated_images/nl/rnn.27f5c29c53d727b5.png)
+![RNN](../../../../../translated_images/nl/rnn.27f5c29c53d727b5.webp)
 
 > Afbeelding door de auteur
 
@@ -61,7 +61,7 @@ We hebben recurrente netwerken besproken die in één richting werken, van het b
 
 Een recurrent netwerk, of het nu éénrichtings of bidirectioneel is, legt bepaalde patronen binnen een sequentie vast en kan deze opslaan in een toestandsvector of doorgeven aan de uitvoer. Net zoals bij convolutionele netwerken, kunnen we een andere recurrente laag bovenop de eerste bouwen om hogere niveau patronen vast te leggen en te bouwen op laag-niveau patronen die door de eerste laag zijn geëxtraheerd. Dit leidt ons naar het concept van een **multi-layer RNN**, die bestaat uit twee of meer recurrente netwerken, waarbij de uitvoer van de vorige laag wordt doorgegeven aan de volgende laag als invoer.
 
-![Afbeelding van een multilayer long-short-term-memory RNN](../../../../../translated_images/nl/multi-layer-lstm.dd975e29bb2a59fe.jpg)
+![Afbeelding van een multilayer long-short-term-memory RNN](../../../../../translated_images/nl/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Afbeelding uit [dit geweldige artikel](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) door Fernando López*
 

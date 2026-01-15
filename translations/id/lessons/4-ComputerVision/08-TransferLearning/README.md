@@ -29,7 +29,7 @@ Baik Keras maupun PyTorch memiliki fungsi untuk dengan mudah memuat bobot jaring
 
 Berikut adalah contoh fitur yang diekstrak dari gambar kucing oleh jaringan VGG-16:
 
-![Fitur yang diekstrak oleh VGG-16](../../../../../translated_images/id/features.6291f9c7ba3a0b95.png)
+![Fitur yang diekstrak oleh VGG-16](../../../../../translated_images/id/features.6291f9c7ba3a0b95.webp)
 
 ## Dataset Kucing vs. Anjing
 
@@ -48,19 +48,19 @@ Jaringan neural pra-latih mengandung berbagai pola di dalam "otaknya", termasuk 
 
 Salah satu pendekatan yang bisa kita ambil adalah memulai dengan gambar acak, lalu mencoba menggunakan teknik **optimisasi penurunan gradien** untuk menyesuaikan gambar tersebut sedemikian rupa sehingga jaringan mulai berpikir bahwa itu adalah kucing.
 
-![Loop Optimisasi Gambar](../../../../../translated_images/id/ideal-cat-loop.999fbb8ff306e044.png)
+![Loop Optimisasi Gambar](../../../../../translated_images/id/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Namun, jika kita melakukan ini, kita akan mendapatkan sesuatu yang sangat mirip dengan noise acak. Hal ini terjadi karena *ada banyak cara untuk membuat jaringan berpikir bahwa gambar input adalah kucing*, termasuk beberapa yang tidak masuk akal secara visual. Meskipun gambar-gambar tersebut mengandung banyak pola khas untuk kucing, tidak ada yang membatasi mereka untuk menjadi visual yang jelas.
 
 Untuk meningkatkan hasil, kita dapat menambahkan istilah lain ke dalam fungsi loss, yang disebut **variation loss**. Ini adalah metrik yang menunjukkan seberapa mirip piksel-piksel yang berdekatan dalam gambar. Meminimalkan variation loss membuat gambar lebih halus, dan menghilangkan noise - sehingga mengungkapkan pola yang lebih menarik secara visual. Berikut adalah contoh gambar "ideal" yang diklasifikasikan sebagai kucing dan zebra dengan probabilitas tinggi:
 
-![Kucing Ideal](../../../../../translated_images/id/ideal-cat.203dd4597643d6b0.png) | ![Zebra Ideal](../../../../../translated_images/id/ideal-zebra.7f70e8b54ee15a7a.png)
+![Kucing Ideal](../../../../../translated_images/id/ideal-cat.203dd4597643d6b0.webp) | ![Zebra Ideal](../../../../../translated_images/id/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Kucing Ideal* | *Zebra Ideal*
 
 Pendekatan serupa dapat digunakan untuk melakukan apa yang disebut **serangan adversarial** pada jaringan neural. Misalkan kita ingin mengelabui jaringan neural dan membuat gambar anjing terlihat seperti kucing. Jika kita mengambil gambar anjing, yang dikenali oleh jaringan sebagai anjing, kita kemudian dapat sedikit menyesuaikannya menggunakan optimisasi penurunan gradien, hingga jaringan mulai mengklasifikasikannya sebagai kucing:
 
-![Gambar Anjing](../../../../../translated_images/id/original-dog.8f68a67d2fe0911f.png) | ![Gambar anjing yang diklasifikasikan sebagai kucing](../../../../../translated_images/id/adversarial-dog.d9fc7773b0142b89.png)
+![Gambar Anjing](../../../../../translated_images/id/original-dog.8f68a67d2fe0911f.webp) | ![Gambar anjing yang diklasifikasikan sebagai kucing](../../../../../translated_images/id/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Gambar asli anjing* | *Gambar anjing yang diklasifikasikan sebagai kucing*
 

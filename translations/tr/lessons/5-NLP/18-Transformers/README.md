@@ -20,13 +20,13 @@ RNN'lerle diziden-diziye yaklaşımı, iki tekrarlayan ağ tarafından uygulanı
 
 **Dikkat Mekanizmaları**, RNN'nin her bir çıktı tahmininde her bir giriş vektörünün bağlamsal etkisini ağırlıklandırmanın bir yolunu sağlar. Bu, giriş RNN'nin ara durumları ile çıkış RNN arasında kısayollar oluşturarak uygulanır. Bu şekilde, çıktı sembolü y<sub>t</sub>'yi oluştururken, farklı ağırlık katsayıları &alpha;<sub>t,i</sub> ile tüm giriş gizli durumlarını h<sub>i</sub> dikkate alırız.
 
-![Eklenecek bir dikkat katmanı ile encoder/decoder modelini gösteren görsel](../../../../../translated_images/tr/encoder-decoder-attention.7a726296894fb567.png)
+![Eklenecek bir dikkat katmanı ile encoder/decoder modelini gösteren görsel](../../../../../translated_images/tr/encoder-decoder-attention.7a726296894fb567.webp)
 
 > [Bahdanau ve diğerleri, 2015](https://arxiv.org/pdf/1409.0473.pdf) tarafından önerilen eklemeli dikkat mekanizması ile encoder-decoder modeli, [bu blog yazısından](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html) alıntılanmıştır.
 
 Dikkat matrisi {&alpha;<sub>i,j</sub>} belirli giriş kelimelerinin çıktı dizisindeki bir kelimenin oluşturulmasında oynadığı rolü temsil eder. Aşağıda böyle bir matrisin örneği verilmiştir:
 
-![Bahdanau - arviz.org'dan alınan örnek hizalamayı gösteren görsel](../../../../../translated_images/tr/bahdanau-fig3.09ba2d37f202a6af.png)
+![Bahdanau - arviz.org'dan alınan örnek hizalamayı gösteren görsel](../../../../../translated_images/tr/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > [Bahdanau ve diğerleri, 2015](https://arxiv.org/pdf/1409.0473.pdf) (Şekil 3) tarafından önerilen şekil.
 
@@ -66,7 +66,7 @@ Pozisyonel gömme ile elde ettiğimiz sonuç, hem orijinal tokenı hem de dizide
 
 Sonraki adımda, dizimizdeki bazı desenleri yakalamamız gerekir. Bunu yapmak için transformerlar **kendine dikkat** mekanizmasını kullanır; bu, giriş ve çıkış olarak aynı diziye uygulanan dikkattir. Kendine dikkat uygulamak, cümle içindeki **bağlamı** dikkate almamızı ve hangi kelimelerin birbirleriyle ilişkili olduğunu görmemizi sağlar. Örneğin, *it* gibi zamirlerin hangi kelimelere atıfta bulunduğunu görmemizi ve bağlamı dikkate almamızı sağlar:
 
-![](../../../../../translated_images/tr/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/tr/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > [Google Blogundan](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html) alınan görsel.
 
@@ -91,7 +91,7 @@ Her giriş pozisyonu bağımsız olarak her çıkış pozisyonuna eşlendiğinde
 
 **BERT** (Bidirectional Encoder Representations from Transformers), *BERT-base* için 12 katman ve *BERT-large* için 24 katman içeren çok büyük bir çok katmanlı transformer ağıdır. Model, büyük bir metin veri kümesi (WikiPedia + kitaplar) üzerinde denetimsiz eğitim (bir cümledeki maskelenmiş kelimeleri tahmin etme) kullanılarak önceden eğitilir. Ön eğitim sırasında model, dil anlayışının önemli seviyelerini emer ve bu daha sonra diğer veri kümeleriyle ince ayar yapılarak kullanılabilir. Bu sürece **transfer öğrenme** denir.
 
-![http://jalammar.github.io/illustrated-bert/ adresinden alınan görsel](../../../../../translated_images/tr/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![http://jalammar.github.io/illustrated-bert/ adresinden alınan görsel](../../../../../translated_images/tr/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Görsel [kaynağı](http://jalammar.github.io/illustrated-bert/)
 

@@ -11,13 +11,13 @@ RNN을 사용하면 시퀀스-투-시퀀스는 두 개의 순환 네트워크로
 
 **주의 메커니즘**은 RNN의 각 출력 예측에 대한 각 입력 벡터의 맥락적 영향을 가중치로 조정하는 수단을 제공합니다. 이를 구현하는 방법은 입력 RNN의 중간 상태와 출력 RNN 사이에 단축 경로를 생성하는 것입니다. 이렇게 하면 출력 기호 y<sub>t</sub>를 생성할 때 모든 입력 숨겨진 상태 h<sub>i</sub>를 서로 다른 가중치 계수 α<sub>t,i</sub>와 함께 고려합니다.
 
-![인코더/디코더 모델과 추가적인 주의 레이어를 보여주는 이미지](../../../../../translated_images/ko/encoder-decoder-attention.7a726296894fb567.png)
+![인코더/디코더 모델과 추가적인 주의 레이어를 보여주는 이미지](../../../../../translated_images/ko/encoder-decoder-attention.7a726296894fb567.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)에서 인용된 추가적인 주의 메커니즘을 가진 인코더-디코더 모델, [이 블로그 게시물](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)에서 인용됨
 
 주의 행렬 {α<sub>i,j</sub>}는 특정 입력 단어가 출력 시퀀스의 주어진 단어 생성에 기여하는 정도를 나타냅니다. 아래는 이러한 행렬의 예입니다:
 
-![RNNsearch-50에 의해 발견된 샘플 정렬을 보여주는 이미지, Bahdanau - arviz.org에서 가져옴](../../../../../translated_images/ko/bahdanau-fig3.09ba2d37f202a6af.png)
+![RNNsearch-50에 의해 발견된 샘플 정렬을 보여주는 이미지, Bahdanau - arviz.org에서 가져옴](../../../../../translated_images/ko/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)에서의 그림 (Fig.3)
 
@@ -57,7 +57,7 @@ RNN을 사용하면 시퀀스-투-시퀀스는 두 개의 순환 네트워크로
 
 다음으로, 우리는 시퀀스 내에서 몇 가지 패턴을 포착해야 합니다. 이를 위해 트랜스포머는 **자기 주의** 메커니즘을 사용하며, 이는 기본적으로 입력과 출력으로 동일한 시퀀스에 적용되는 주의입니다. 자기 주의를 적용하면 문장 내의 **맥락**을 고려하고 어떤 단어가 서로 관련되어 있는지를 확인할 수 있습니다. 예를 들어, 이는 *it*와 같은 대명사가 지칭하는 단어를 확인하고 맥락을 고려할 수 있게 해줍니다:
 
-![](../../../../../translated_images/ko/CoreferenceResolution.861924d6d384a7d6.png)
+![](../../../../../translated_images/ko/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > [Google 블로그](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)에서의 이미지
 
@@ -82,7 +82,7 @@ RNN을 사용하면 시퀀스-투-시퀀스는 두 개의 순환 네트워크로
 
 **BERT** (Bidirectional Encoder Representations from Transformers)는 *BERT-base*의 경우 12층, *BERT-large*의 경우 24층으로 구성된 매우 큰 다층 트랜스포머 네트워크입니다. 이 모델은 먼저 대규모 텍스트 데이터(위키피디아 + 책)에서 비지도 학습(문장에서 마스킹된 단어 예측)을 사용하여 사전 훈련됩니다. 사전 훈련 동안 모델은 상당한 수준의 언어 이해를 흡수하며, 이는 이후 다른 데이터 세트와 함께 미세 조정하여 활용될 수 있습니다. 이 과정을 **전이 학습**이라고 합니다.
 
-![http://jalammar.github.io/illustrated-bert/에서 가져온 이미지](../../../../../translated_images/ko/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.png)
+![http://jalammar.github.io/illustrated-bert/에서 가져온 이미지](../../../../../translated_images/ko/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > 이미지 [출처](http://jalammar.github.io/illustrated-bert/)
 

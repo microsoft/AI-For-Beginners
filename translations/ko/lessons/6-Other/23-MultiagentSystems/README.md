@@ -70,7 +70,7 @@ NetLogo의 훌륭한 점은 작동하는 모델 라이브러리를 포함하고 
 
 모델을 열면 NetLogo의 주요 화면으로 이동합니다. 여기에는 유한한 자원(풀)을 고려한 늑대와 양의 개체군을 설명하는 샘플 모델이 있습니다.
 
-![NetLogo 주요 화면](../../../../../translated_images/ko/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo 주요 화면](../../../../../translated_images/ko/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov의 스크린샷
 

@@ -20,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ഇൻസ്റ്റൻസ് സെഗ്മെന്റേഷനിൽ, ഈ ആടുകൾ വ്യത്യസ്ത വസ്തുക്കളാണ്, എന്നാൽ സെമാന്റിക് സെഗ്മെന്റേഷനിൽ എല്ലാ ആടുകളും ഒരേ ക്ലാസ്സായി പ്രതിനിധീകരിക്കുന്നു.
 
-<img src="../../../../../translated_images/ml/instance_vs_semantic.eee9812bebf8cd45.jpeg" width="50%">
+<img src="../../../../../translated_images/ml/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > ചിത്രം [ഈ ബ്ലോഗ് പോസ്റ്റ്](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) നിന്നാണ്
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **എൻകോഡർ** ഇൻപുട്ട് ചിത്രത്തിൽ നിന്ന് ഫീച്ചറുകൾ എടുക്കുന്നു
 * **ഡികോഡർ** ആ ഫീച്ചറുകൾ **മാസ്‌ക് ചിത്രം** ആക്കുന്നു, അതിന്റെ വലിപ്പവും ചാനലുകളുടെ എണ്ണം ക്ലാസുകളുടെ എണ്ണം അനുസരിച്ചുള്ളതാണ്.
 
-<img src="../../../../../translated_images/ml/segm.92442f2cb42ff4fa.png" width="80%">
+<img src="../../../../../translated_images/ml/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > ചിത്രം [ഈ പ്രസിദ്ധീകരണം](https://arxiv.org/pdf/2001.05566.pdf) നിന്നാണ്
 
@@ -43,7 +43,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ ഈ സാങ്കേതികവിദ്യ ഈ തരത്തിലുള്ള മെഡിക്കൽ ഇമേജിംഗിന് പ്രത്യേകിച്ച് അനുയോജ്യമാണ്, എന്നാൽ മറ്റേതെങ്കിലും യാഥാർത്ഥ്യപ്രയോഗങ്ങൾ നിങ്ങൾക്ക് കാണാമോ?
 
-<img alt="navi" src="../../../../../translated_images/ml/navi.2f20b727910110ea.png"/>
+<img alt="navi" src="../../../../../translated_images/ml/navi.2f20b727910110ea.webp"/>
 
 > ചിത്രം PH<sup>2</sup> ഡാറ്റാബേസിൽ നിന്നാണ്
 

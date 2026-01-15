@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **ಕಂಟಿನ್ಯೂಯಸ್ ಬ್ಯಾಗ್-ಆಫ್-ವರ್ಡ್ಸ್** (CBoW), ಇಲ್ಲಿ ನಾವು ಟೋಕನ್ ಸರಣಿಯಲ್ಲಿ ಮಧ್ಯದ ಟೋಕನ್ $W_0$ ಅನ್ನು ಊಹಿಸುತ್ತೇವೆ $W_{-N}$, ..., $W_N$.
 * **ಸ್ಕಿಪ್-ಗ್ರಾಮ್**, ಇಲ್ಲಿ ನಾವು ಮಧ್ಯದ ಟೋಕನ್ $W_0$ ರಿಂದ ಸುತ್ತಲೂ ಇರುವ ಟೋಕನ್‌ಗಳ ಸಮೂಹ {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} ಅನ್ನು ಊಹಿಸುತ್ತೇವೆ.
 
-![ಪದಗಳನ್ನು ವೆಕ್ಟರ್‌ಗಳಿಗೆ ಪರಿವರ್ತಿಸುವ ಕುರಿತು ಪೇಪರ್‌ನ ಚಿತ್ರ](../../../../../translated_images/kn/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![ಪದಗಳನ್ನು ವೆಕ್ಟರ್‌ಗಳಿಗೆ ಪರಿವರ್ತಿಸುವ ಕುರಿತು ಪೇಪರ್‌ನ ಚಿತ್ರ](../../../../../translated_images/kn/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > ಚಿತ್ರ [ಈ ಪೇಪರ್](https://arxiv.org/pdf/1301.3781.pdf) ನಿಂದ
 

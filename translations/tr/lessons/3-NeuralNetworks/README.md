@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sinir Ağlarına Giriş
 
-![Sinir Ağlarına Giriş içeriğinin özetini gösteren bir çizim](../../../../translated_images/tr/ai-neuralnetworks.1c687ae40bc86e83.png)
+![Sinir Ağlarına Giriş içeriğinin özetini gösteren bir çizim](../../../../translated_images/tr/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Giriş bölümünde tartıştığımız gibi, zekaya ulaşmanın yollarından biri bir **bilgisayar modeli** veya bir **yapay beyin** eğitmekten geçer. 20. yüzyılın ortalarından itibaren araştırmacılar farklı matematiksel modeller denediler ve son yıllarda bu yaklaşım büyük ölçüde başarılı oldu. Beynin bu tür matematiksel modellerine **sinir ağları** denir.
 
@@ -36,13 +36,13 @@ Bu müfredatta yalnızca sinir ağı modellerine odaklanacağız.
 
 Biyolojiden biliyoruz ki beynimiz, her biri birden fazla "girişe" (dendritler) ve tek bir "çıkışa" (akson) sahip olan sinir hücrelerinden (nöronlar) oluşur. Hem dendritler hem de aksonlar elektrik sinyalleri iletebilir ve aralarındaki bağlantılar — sinapslar olarak bilinir — iletkenlik derecelerini değiştirebilir. Bu iletkenlik, nörotransmitterler tarafından düzenlenir.
 
-![Bir Nöron Modeli](../../../../translated_images/tr/synapse-wikipedia.ed20a9e4726ea1c6.jpg) | ![Bir Nöron Modeli](../../../../translated_images/tr/artneuron.1a5daa88d20ebe6f.png)
+![Bir Nöron Modeli](../../../../translated_images/tr/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Bir Nöron Modeli](../../../../translated_images/tr/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Gerçek Nöron *([Resim](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) Wikipedia'dan)* | Yapay Nöron *(Yazarın Görseli)*
 
 Dolayısıyla, bir nöronun en basit matematiksel modeli birkaç giriş X<sub>1</sub>, ..., X<sub>N</sub> ve bir çıkış Y ile bir dizi ağırlık W<sub>1</sub>, ..., W<sub>N</sub> içerir. Çıkış şu şekilde hesaplanır:
 
-<img src="../../../../translated_images/tr/netout.1eb15eb76fd76731.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/tr/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 burada f, bazı doğrusal olmayan **aktivasyon fonksiyonudur**.
 

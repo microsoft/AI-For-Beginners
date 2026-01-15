@@ -29,7 +29,7 @@ Parehong Keras at PyTorch ay may mga function upang madaling ma-load ang pre-tra
 
 Narito ang mga sample features na na-extract mula sa larawan ng isang pusa gamit ang VGG-16 network:
 
-![Features extracted by VGG-16](../../../../../translated_images/tl/features.6291f9c7ba3a0b95.png)
+![Features extracted by VGG-16](../../../../../translated_images/tl/features.6291f9c7ba3a0b95.webp)
 
 ## Dataset ng Cats vs. Dogs
 
@@ -48,19 +48,19 @@ Ang pre-trained neural network ay naglalaman ng iba't ibang patterns sa loob ng 
 
 Isang approach na maaari nating gawin ay magsimula sa isang random na imahe, at pagkatapos ay subukang gamitin ang **gradient descent optimization** technique upang i-adjust ang imahe na iyon sa paraang magsisimula ang network na isipin na ito ay isang pusa.
 
-![Image Optimization Loop](../../../../../translated_images/tl/ideal-cat-loop.999fbb8ff306e044.png)
+![Image Optimization Loop](../../../../../translated_images/tl/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Gayunpaman, kung gagawin natin ito, makakakuha tayo ng isang bagay na halos katulad ng random noise. Ito ay dahil *maraming paraan upang mag-isip ang network na ang input image ay isang pusa*, kabilang ang ilan na hindi makatuwiran sa visual. Bagama't ang mga imahe ay naglalaman ng maraming patterns na tipikal para sa isang pusa, walang anumang constraint upang maging visually distinctive ang mga ito.
 
 Upang mapabuti ang resulta, maaari tayong magdagdag ng isa pang term sa loss function, na tinatawag na **variation loss**. Ito ay isang metric na nagpapakita kung gaano kahawig ang mga magkatabing pixels ng imahe. Ang pag-minimize ng variation loss ay nagpapakinis sa imahe, at nag-aalis ng noise - kaya mas naipapakita ang mas visually appealing patterns. Narito ang halimbawa ng mga "ideal" na imahe, na na-classify bilang pusa at zebra na may mataas na probability:
 
-![Ideal Cat](../../../../../translated_images/tl/ideal-cat.203dd4597643d6b0.png) | ![Ideal Zebra](../../../../../translated_images/tl/ideal-zebra.7f70e8b54ee15a7a.png)
+![Ideal Cat](../../../../../translated_images/tl/ideal-cat.203dd4597643d6b0.webp) | ![Ideal Zebra](../../../../../translated_images/tl/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Ideal Cat* | *Ideal Zebra*
 
 Ang parehong approach ay maaaring gamitin upang magsagawa ng tinatawag na **adversarial attacks** sa isang neural network. Halimbawa, gusto nating linlangin ang isang neural network at gawing mukhang pusa ang isang aso. Kung kukunin natin ang imahe ng aso, na kinikilala ng network bilang aso, maaari natin itong i-tweak nang kaunti gamit ang gradient descent optimization, hanggang sa magsimulang i-classify ito ng network bilang pusa:
 
-![Picture of a Dog](../../../../../translated_images/tl/original-dog.8f68a67d2fe0911f.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/tl/adversarial-dog.d9fc7773b0142b89.png)
+![Picture of a Dog](../../../../../translated_images/tl/original-dog.8f68a67d2fe0911f.webp) | ![Picture of a dog classified as a cat](../../../../../translated_images/tl/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Orihinal na larawan ng aso* | *Larawan ng aso na na-classify bilang pusa*
 

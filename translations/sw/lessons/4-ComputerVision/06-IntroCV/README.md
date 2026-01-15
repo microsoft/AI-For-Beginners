@@ -73,14 +73,14 @@ Katika [OpenCV Notebook](OpenCV.ipynb) yetu, tunatoa mifano ya wakati uelewa wa 
 
 * **Usindikaji wa awali wa picha ya kitabu cha Braille**. Tunazingatia jinsi tunavyoweza kutumia thresholding, utambuzi wa vipengele, mabadiliko ya mtazamo na manipulations za NumPy kutenganisha alama za Braille kwa uainishaji zaidi na mtandao wa neva.
 
-![Braille Image](../../../../../translated_images/sw/braille.341962ff76b1bd70.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/sw/braille-result.46530fea020b03c7.png) | ![Braille Symbols](../../../../../translated_images/sw/braille-symbols.0159185ab69d5339.png)
+![Braille Image](../../../../../translated_images/sw/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/sw/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/sw/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Picha kutoka [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Kutambua harakati kwenye video kwa kutumia tofauti ya fremu**. Ikiwa kamera imetulia, basi fremu kutoka mlisho wa kamera zinapaswa kufanana sana. Kwa kuwa fremu zinawakilishwa kama safu, kwa kutoa tofauti ya safu hizo kwa fremu mbili mfululizo tutapata tofauti ya pikseli, ambayo inapaswa kuwa ndogo kwa fremu tuli, na kuwa kubwa zaidi mara kuna harakati kubwa kwenye picha.
 
-![Image of video frames and frame differences](../../../../../translated_images/sw/frame-difference.706f805491a0883c.png)
+![Image of video frames and frame differences](../../../../../translated_images/sw/frame-difference.706f805491a0883c.webp)
 
 > Picha kutoka [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ Katika [OpenCV Notebook](OpenCV.ipynb) yetu, tunatoa mifano ya wakati uelewa wa 
    - **Dense Optical Flow** huhesabu uwanja wa vekta unaoonyesha kwa kila pikseli inahama wapi.
    - **Sparse Optical Flow** inategemea kuchukua vipengele vya kipekee kwenye picha (mfano, kingo), na kujenga mwelekeo wake kutoka fremu hadi fremu.
 
-![Image of Optical Flow](../../../../../translated_images/sw/optical.1f4a94464579a83a.png)
+![Image of Optical Flow](../../../../../translated_images/sw/optical.1f4a94464579a83a.webp)
 
 > Picha kutoka [OpenCV.ipynb](OpenCV.ipynb)
 

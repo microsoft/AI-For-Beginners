@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Overzicht
 
-![Overzicht in een schets](../../../translated_images/nl/ai-overview.0857791951d19500.png)
+![Overzicht in een schets](../../../translated_images/nl/ai-overview.0857791951d19500.webp)
 
 > Schetsnotitie door [Tomomi Imura](https://twitter.com/girlie_mac)
 

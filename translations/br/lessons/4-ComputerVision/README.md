@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visão Computacional
 
-![Resumo do conteúdo de Visão Computacional em um desenho](../../../../translated_images/br/ai-computervision.6506ebebac3fbf76.png)
+![Resumo do conteúdo de Visão Computacional em um desenho](../../../../translated_images/br/ai-computervision.6506ebebac3fbf76.webp)
 
 Nesta seção, vamos aprender sobre:
 

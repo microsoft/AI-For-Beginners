@@ -15,7 +15,7 @@ Pärast transformer-mudelite edu NLP-ülesannete lahendamisel on sama või sarna
 
 CLIP-i peamine idee on võrrelda tekstilisi juhiseid pildiga ja määrata, kui hästi pilt vastab juhisele.
 
-![CLIP arhitektuur](../../../../../translated_images/et/clip-arch.b3dbf20b4e8ed8be.png)
+![CLIP arhitektuur](../../../../../translated_images/et/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Pilt [sellest blogipostitusest](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Kui mudel on eelnevalt treenitud, saame anda sellele pildipartii ja tekstiliste 
 
 Oletame, et peame klassifitseerima pilte näiteks kasside, koerte ja inimeste vahel. Sel juhul saame mudelile anda pildi ja rea tekstilisi juhiseid: "*kassi pilt*", "*koera pilt*", "*inimese pilt*". Kolme tõenäosuse vektoris peame lihtsalt valima indeksi, mille väärtus on kõige suurem.
 
-![CLIP pildiklassifikatsiooniks](../../../../../translated_images/et/clip-class.3af42ef0b2b19369.png)
+![CLIP pildiklassifikatsiooniks](../../../../../translated_images/et/clip-class.3af42ef0b2b19369.webp)
 
 > *Pilt [sellest blogipostitusest](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Lisateavet VQGAN-i kohta leiate [Taming Transformers](https://compvis.github.io/
 
 Üks oluline erinevus VQGAN-i ja traditsioonilise GAN-i vahel on see, et viimane suudab genereerida korraliku pildi mis tahes sisendvektorist, samas kui VQGAN-i puhul on tõenäoline, et pilt ei ole koherentne. Seetõttu peame pildiloome protsessi täiendavalt suunama, mida saab teha CLIP-i abil.
 
-![VQGAN+CLIP arhitektuur](../../../../../translated_images/et/vqgan.5027fe05051dfa31.png)
+![VQGAN+CLIP arhitektuur](../../../../../translated_images/et/vqgan.5027fe05051dfa31.webp)
 
 Tekstijuhisele vastava pildi genereerimiseks alustame juhusliku kodeerimisvektoriga, mis edastatakse VQGAN-ile, et luua pilt. Seejärel kasutatakse CLIP-i kaotusefunktsiooni loomiseks, mis näitab, kui hästi pilt vastab tekstilisele juhisele. Eesmärk on seejärel minimeerida kaotus, kasutades tagasipropageerimist sisendvektori parameetrite kohandamiseks.
 
 Suurepärane teek, mis rakendab VQGAN+CLIP-i, on [Pixray](http://github.com/pixray/pixray).
 
-![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Pixray loodud pilt](../../../../../translated_images/et/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Pilt genereeritud juhisest *noore meesõpetaja lähivaade, akvarellportree, kirjanduse õpetaja, raamatuga* | Pilt genereeritud juhisest *noore naisõpetaja lähivaade, õliportree, arvutiteaduse õpetaja, arvutiga* | Pilt genereeritud juhisest *vana meesõpetaja lähivaade, õliportree, matemaatika õpetaja, tahvli ees*
 

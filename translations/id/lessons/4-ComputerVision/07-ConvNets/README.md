@@ -17,7 +17,7 @@ Dalam kehidupan nyata, kita ingin dapat mengenali objek dalam gambar tanpa pedul
 
 Untuk mengekstrak pola, kita akan menggunakan konsep **filter konvolusi**. Seperti yang Anda ketahui, gambar direpresentasikan sebagai matriks 2D, atau tensor 3D dengan kedalaman warna. Menerapkan filter berarti kita mengambil matriks **filter kernel** yang relatif kecil, dan untuk setiap piksel dalam gambar asli kita menghitung rata-rata berbobot dengan titik-titik tetangga. Kita dapat melihat ini seperti jendela kecil yang meluncur di seluruh gambar, dan meratakan semua piksel sesuai dengan bobot dalam matriks filter kernel.
 
-![Filter Tepi Vertikal](../../../../../translated_images/id/filter-vert.b7148390ca0bc356.png) | ![Filter Tepi Horizontal](../../../../../translated_images/id/filter-horiz.59b80ed4feb946ef.png)
+![Filter Tepi Vertikal](../../../../../translated_images/id/filter-vert.b7148390ca0bc356.webp) | ![Filter Tepi Horizontal](../../../../../translated_images/id/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Gambar oleh Dmitry Soshnikov
@@ -38,7 +38,7 @@ Cara kerja CNN didasarkan pada ide-ide penting berikut:
 * Kita dapat merancang jaringan sedemikian rupa sehingga filter dilatih secara otomatis
 * Kita dapat menggunakan pendekatan yang sama untuk menemukan pola dalam fitur tingkat tinggi, bukan hanya dalam gambar asli. Dengan demikian, ekstraksi fitur CNN bekerja pada hierarki fitur, mulai dari kombinasi piksel tingkat rendah hingga kombinasi tingkat tinggi dari bagian gambar.
 
-![Ekstraksi Fitur Hierarkis](../../../../../translated_images/id/FeatureExtractionCNN.d9b456cbdae7cb64.png)
+![Ekstraksi Fitur Hierarkis](../../../../../translated_images/id/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Gambar dari [makalah oleh Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), berdasarkan [penelitian mereka](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Sebagian besar CNN yang digunakan untuk pemrosesan gambar mengikuti apa yang dis
 
 Sebagai contoh, mari kita lihat arsitektur VGG-16, sebuah jaringan yang mencapai akurasi 92.7% dalam klasifikasi top-5 ImageNet pada tahun 2014:
 
-![Lapisan ImageNet](../../../../../translated_images/id/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![Lapisan ImageNet](../../../../../translated_images/id/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Piramida ImageNet](../../../../../translated_images/id/vgg-16-arch.64ff2137f50dd49f.jpg)
+![Piramida ImageNet](../../../../../translated_images/id/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Gambar dari [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -13,7 +13,7 @@ Modele klasyfikacji obrazów, które omawialiśmy do tej pory, przyjmowały obra
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Wykrywanie Obiektów](../../../../../translated_images/pl/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.png)
+![Wykrywanie Obiektów](../../../../../translated_images/pl/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Obraz z [witryny YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Załóżmy, że chcemy znaleźć kota na zdjęciu. Bardzo naiwne podejście do w
 2. Uruchom klasyfikację obrazu na każdym kafelku.
 3. Kafelki, które dają wystarczająco wysoką aktywację, można uznać za zawierające poszukiwany obiekt.
 
-![Naiwne Wykrywanie Obiektów](../../../../../translated_images/pl/naive-detection.e7f1ba220ccd08c6.png)
+![Naiwne Wykrywanie Obiektów](../../../../../translated_images/pl/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Obraz z [notatnika ćwiczeniowego](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Możesz natknąć się na następujące zbiory danych do tego zadania:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 klas
 * [COCO](http://cocodataset.org/#home) – Common Objects in Context. 80 klas, ramki ograniczające i maski segmentacji
 
-![COCO](../../../../../translated_images/pl/coco-examples.71bc60380fa6cceb.jpg)
+![COCO](../../../../../translated_images/pl/coco-examples.71bc60380fa6cceb.webp)
 
 ## Metryki wykrywania obiektów
 
@@ -50,7 +50,7 @@ Możesz natknąć się na następujące zbiory danych do tego zadania:
 
 Podczas gdy w klasyfikacji obrazów łatwo jest zmierzyć, jak dobrze działa algorytm, w wykrywaniu obiektów musimy ocenić zarówno poprawność klasy, jak i precyzję lokalizacji przewidywanej ramki ograniczającej. Do tego ostatniego używamy tzw. **Intersection over Union** (IoU), które mierzy, jak dobrze dwie ramki (lub dwa dowolne obszary) się pokrywają.
 
-![IoU](../../../../../translated_images/pl/iou_equation.9a4751d40fff4e11.png)
+![IoU](../../../../../translated_images/pl/iou_equation.9a4751d40fff4e11.webp)
 
 > *Rysunek 2 z [tego doskonałego wpisu na blogu o IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Istnieją dwie główne klasy algorytmów wykrywania obiektów:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) wykorzystuje [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) do generowania hierarchicznej struktury regionów ROI, które następnie są przetwarzane przez ekstraktory cech CNN i klasyfikatory SVM w celu określenia klasy obiektu oraz regresję liniową w celu określenia współrzędnych *ramki ograniczającej*. [Oficjalny artykuł](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/pl/rcnn1.cae407020dfb1d1f.png)
+![RCNN](../../../../../translated_images/pl/rcnn1.cae407020dfb1d1f.webp)
 
 > *Obraz z van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/pl/rcnn2.2d9530bb83516484.png)
+![RCNN-1](../../../../../translated_images/pl/rcnn2.2d9530bb83516484.webp)
 
 > *Obrazy z [tego bloga](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Istnieją dwie główne klasy algorytmów wykrywania obiektów:
 
 To podejście jest podobne do R-CNN, ale regiony są definiowane po zastosowaniu warstw konwolucyjnych.
 
-![FRCNN](../../../../../translated_images/pl/f-rcnn.3cda6d9bb4188875.png)
+![FRCNN](../../../../../translated_images/pl/f-rcnn.3cda6d9bb4188875.webp)
 
 > Obraz z [oficjalnego artykułu](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ To podejście jest podobne do R-CNN, ale regiony są definiowane po zastosowaniu
 
 Główna idea tego podejścia polega na użyciu sieci neuronowej do przewidywania ROI – tzw. *Region Proposal Network*. [Artykuł](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/pl/faster-rcnn.8d46c099b87ef30a.png)
+![FasterRCNN](../../../../../translated_images/pl/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Obraz z [oficjalnego artykułu](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Ten algorytm jest jeszcze szybszy niż Faster R-CNN. Główna idea jest następu
 2. Cechy są przetwarzane przez **Position-Sensitive Score Map**. Każdy obiekt z $C$ klas jest dzielony na $k\times k$ regiony, a sieć jest trenowana do przewidywania części obiektów.
 3. Dla każdej części z $k\times k$ regionów wszystkie sieci głosują na klasy obiektów, a klasa z największą liczbą głosów jest wybierana.
 
-![r-fcn image](../../../../../translated_images/pl/r-fcn.13eb88158b99a3da.png)
+![r-fcn image](../../../../../translated_images/pl/r-fcn.13eb88158b99a3da.webp)
 
 > Obraz z [oficjalnego artykułu](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO to algorytm jednoprzebiegowy w czasie rzeczywistym. Główna idea jest nast
  * Obraz jest dzielony na $S\times S$ regiony.
  * Dla każdego regionu **CNN** przewiduje $n$ możliwych obiektów, współrzędne *ramki ograniczającej* oraz *pewność* = *prawdopodobieństwo* * IoU.
 
- ![YOLO](../../../../../translated_images/pl/yolo.a2648ec82ee8bb4e.png)
+ ![YOLO](../../../../../translated_images/pl/yolo.a2648ec82ee8bb4e.webp)
 
 > Obraz z [oficjalnego artykułu](https://arxiv.org/abs/1506.02640)
 

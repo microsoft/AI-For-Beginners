@@ -23,7 +23,7 @@ Trong các ví dụ trước, chúng ta đã sử dụng các biểu diễn ng�
 * **Continuous Bag-of-Words** (CBoW), khi chúng ta dự đoán token ở giữa $W_0$ trong một chuỗi token $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, nơi chúng ta dự đoán một tập hợp các token lân cận {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} từ token ở giữa $W_0$.
 
-![hình ảnh từ bài báo về chuyển đổi từ thành vector](../../../../../translated_images/vi/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![hình ảnh từ bài báo về chuyển đổi từ thành vector](../../../../../translated_images/vi/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Hình ảnh từ [bài báo này](https://arxiv.org/pdf/1301.3781.pdf)
 

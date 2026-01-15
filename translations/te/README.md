@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # ప్రారంభులకు ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ - ఒక పాఠ్యాంశం
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/te/ai-overview.0857791951d19500.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/te/ai-overview.0857791951d19500.webp)|
 |:---:|
 | ప్రారంభులకు AI - _[ @girlie_mac](https://twitter.com/girlie_mac) వారి స్కెచ్ నోటు_ |
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introdução à IA
 
-![Resumo do conteúdo de Introdução à IA em um doodle](../../../../translated_images/br/ai-intro.bf28d1ac4235881c.png)
+![Resumo do conteúdo de Introdução à IA em um doodle](../../../../translated_images/br/ai-intro.bf28d1ac4235881c.webp)
 
 > Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Originalmente, os computadores foram inventados por [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) para operar com números seguindo um procedimento bem definido - um algoritmo. Os computadores modernos, embora significativamente mais avançados que o modelo original proposto no século XIX, ainda seguem a mesma ideia de cálculos controlados. Assim, é possível programar um computador para fazer algo se soubermos a sequência exata de passos necessários para alcançar o objetivo.
 
-![Foto de uma pessoa](../../../../translated_images/br/dsh_age.d212a30d4e54fb5f.png)
+![Foto de uma pessoa](../../../../translated_images/br/dsh_age.d212a30d4e54fb5f.webp)
 
 > Foto por [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Para mais informações, consulte **[Inteligência Artificial Geral](https://en.
 
 Um dos problemas ao lidar com o termo **[Inteligência](https://en.wikipedia.org/wiki/Intelligence)** é que não há uma definição clara para esse termo. Pode-se argumentar que inteligência está conectada ao **pensamento abstrato** ou à **autoconsciência**, mas não conseguimos defini-la adequadamente.
 
-![Foto de um gato](../../../../translated_images/br/photo-cat.8c8e8fb760ffe457.jpg)
+![Foto de um gato](../../../../translated_images/br/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) por [Amber Kipp](https://unsplash.com/@sadmax) do Unsplash
 
@@ -98,13 +98,13 @@ Alternativamente, podemos tentar modelar os elementos mais simples dentro de nos
 
 > | E o ML?         |      |
 > |--------------|-----------|
-> | Parte da Inteligência Artificial que se baseia no aprendizado do computador para resolver um problema com base em alguns dados é chamada de **Machine Learning**. Não consideraremos o aprendizado de máquina clássico neste curso - recomendamos o currículo separado [Machine Learning para Iniciantes](http://aka.ms/ml-beginners). |   ![ML para Iniciantes](../../../../translated_images/br/ml-for-beginners.9e4fed176fd5817d.png)    |
+> | Parte da Inteligência Artificial que se baseia no aprendizado do computador para resolver um problema com base em alguns dados é chamada de **Machine Learning**. Não consideraremos o aprendizado de máquina clássico neste curso - recomendamos o currículo separado [Machine Learning para Iniciantes](http://aka.ms/ml-beginners). |   ![ML para Iniciantes](../../../../translated_images/br/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Um Breve Histórico da IA
 
 A Inteligência Artificial começou como um campo no meio do século XX. Inicialmente, o raciocínio simbólico era a abordagem predominante, e isso levou a uma série de sucessos importantes, como sistemas especialistas – programas de computador capazes de atuar como especialistas em alguns domínios de problemas limitados. No entanto, logo ficou claro que essa abordagem não escala bem. Extrair o conhecimento de um especialista, representá-lo em um computador e manter essa base de conhecimento precisa acaba sendo uma tarefa muito complexa e cara demais para ser prática em muitos casos. Isso levou ao chamado [Inverno da IA](https://en.wikipedia.org/wiki/AI_winter) na década de 1970.
 
-<img alt="Breve Histórico da IA" src="../../../../translated_images/br/history-of-ai.7e83efa70b537f5a.png" width="70%"/>
+<img alt="Breve Histórico da IA" src="../../../../translated_images/br/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Da mesma forma, podemos ver como a abordagem para criar “programas que falam�
 * Assistentes modernos, como Cortana, Siri ou Google Assistant, são todos sistemas híbridos que usam redes neurais para converter fala em texto e reconhecer nossa intenção, e então empregam algum raciocínio ou algoritmos explícitos para realizar as ações necessárias.
 * No futuro, podemos esperar um modelo completamente baseado em redes neurais para lidar com diálogos por conta própria. As recentes redes neurais da família GPT e [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) mostram grande sucesso nisso.
 
-<img alt="a evolução do teste de Turing" src="../../../../translated_images/br/turing-test-evol.4184696701293ead.png" width="70%"/>
+<img alt="a evolução do teste de Turing" src="../../../../translated_images/br/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Imagem de Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) por [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Pesquisas Recentes em IA

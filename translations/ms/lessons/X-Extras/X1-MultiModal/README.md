@@ -15,7 +15,7 @@ Selepas kejayaan model transformer dalam menyelesaikan tugas NLP, seni bina yang
 
 Idea utama CLIP adalah untuk membandingkan arahan teks dengan imej dan menentukan sejauh mana imej tersebut sesuai dengan arahan.
 
-![Seni Bina CLIP](../../../../../translated_images/ms/clip-arch.b3dbf20b4e8ed8be.png)
+![Seni Bina CLIP](../../../../../translated_images/ms/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Gambar dari [catatan blog ini](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Setelah model ini dilatih awal, kita boleh memberikannya sekumpulan imej dan sek
 
 Katakan kita perlu mengklasifikasikan imej antara, contohnya, kucing, anjing dan manusia. Dalam kes ini, kita boleh memberikan model imej, dan satu siri arahan teks: "*gambar seekor kucing*", "*gambar seekor anjing*", "*gambar seorang manusia*". Dalam vektor kebarangkalian yang dihasilkan, kita hanya perlu memilih indeks dengan nilai tertinggi.
 
-![CLIP untuk Klasifikasi Imej](../../../../../translated_images/ms/clip-class.3af42ef0b2b19369.png)
+![CLIP untuk Klasifikasi Imej](../../../../../translated_images/ms/clip-class.3af42ef0b2b19369.webp)
 
 > *Gambar dari [catatan blog ini](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Ketahui lebih lanjut tentang VQGAN di laman web [Taming Transformers](https://co
 
 Salah satu perbezaan penting antara VQGAN dan GAN tradisional ialah yang terakhir boleh menghasilkan imej yang baik daripada sebarang vektor input, manakala VQGAN cenderung menghasilkan imej yang tidak koheren. Oleh itu, kita perlu membimbing proses penciptaan imej dengan lebih lanjut, dan itu boleh dilakukan menggunakan CLIP.
 
-![Seni Bina VQGAN+CLIP](../../../../../translated_images/ms/vqgan.5027fe05051dfa31.png)
+![Seni Bina VQGAN+CLIP](../../../../../translated_images/ms/vqgan.5027fe05051dfa31.webp)
 
 Untuk menghasilkan imej yang sepadan dengan arahan teks, kita bermula dengan beberapa vektor pengekodan rawak yang dihantar melalui VQGAN untuk menghasilkan imej. Kemudian CLIP digunakan untuk menghasilkan fungsi kehilangan yang menunjukkan sejauh mana imej tersebut sesuai dengan arahan teks. Matlamatnya kemudian adalah untuk meminimumkan kehilangan ini, menggunakan propagasi balik untuk menyesuaikan parameter vektor input.
 
 Pustaka hebat yang melaksanakan VQGAN+CLIP ialah [Pixray](http://github.com/pixray/pixray).
 
-![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Gambar yang dihasilkan oleh Pixray](../../../../../translated_images/ms/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Gambar yang dihasilkan daripada arahan *potret closeup cat air guru lelaki muda dalam bidang kesusasteraan dengan sebuah buku* | Gambar yang dihasilkan daripada arahan *potret closeup minyak guru wanita muda dalam bidang sains komputer dengan sebuah komputer* | Gambar yang dihasilkan daripada arahan *potret closeup minyak guru lelaki tua dalam bidang matematik di hadapan papan hitam*
 

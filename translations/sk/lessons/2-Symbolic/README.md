@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Reprezentácia znalostí a expertné systémy
 
-![Zhrnutie obsahu Symbolickej AI](../../../../translated_images/sk/ai-symbolic.715a30cb610411a6.png)
+![Zhrnutie obsahu Symbolickej AI](../../../../translated_images/sk/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Najčastejšie znalosti striktne nedefinujeme, ale zosúladíme ich s inými pr�
 
 Problém **reprezentácie znalostí** teda spočíva v nájdení efektívneho spôsobu, ako reprezentovať znalosti v počítači vo forme údajov, aby boli automaticky použiteľné. To možno vnímať ako spektrum:
 
-![Spektrum reprezentácie znalostí](../../../../translated_images/sk/knowledge-spectrum.b60df631852c0217.png)
+![Spektrum reprezentácie znalostí](../../../../translated_images/sk/knowledge-spectrum.b60df631852c0217.webp)
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Bloková syntax | Odsadenie | | |
 
 Jedným z prvých úspechov symbolickej AI boli tzv. **expertné systémy** - počítačové systémy navrhnuté tak, aby fungovali ako odborník v obmedzenej oblasti problémov. Boli založené na **báze znalostí** extrahovanej od jedného alebo viacerých ľudských odborníkov a obsahovali **odvodzovací mechanizmus**, ktorý vykonával odvodzovanie na jej základe.
 
-![Štruktúra človeka](../../../../translated_images/sk/arch-human.5d4d35f1bba3ab1c.png) | ![Systém založený na znalostiach](../../../../translated_images/sk/arch-kbs.3ec5c150b09fa8da.png)
+![Štruktúra človeka](../../../../translated_images/sk/arch-human.5d4d35f1bba3ab1c.webp) | ![Systém založený na znalostiach](../../../../translated_images/sk/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Zjednodušená štruktúra ľudského nervového systému | Architektúra systému založeného na znalostiach
 
@@ -106,7 +106,7 @@ Expertné systémy sú postavené podobne ako systém ľudského odvodzovania, k
 
 Ako príklad si vezmime nasledujúci expertný systém na určenie zvieraťa na základe jeho fyzických charakteristík:
 
-![AND-OR strom](../../../../translated_images/sk/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR strom](../../../../translated_images/sk/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 

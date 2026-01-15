@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ייצוג ידע ומערכות מומחה
 
-![Summary of Symbolic AI content](../../../../translated_images/he/ai-symbolic.715a30cb610411a6.png)
+![Summary of Symbolic AI content](../../../../translated_images/he/ai-symbolic.715a30cb610411a6.webp)
 
 > סקיצה מאת [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לכן, הבעיה של **ייצוג ידע** היא למצוא דרך יעילה לייצג ידע בתוך מחשב בצורה של נתונים, כדי להפוך אותו לשימושי באופן אוטומטי. ניתן לראות זאת כספקטרום:
 
-![Knowledge representation spectrum](../../../../translated_images/he/knowledge-spectrum.b60df631852c0217.png)
+![Knowledge representation spectrum](../../../../translated_images/he/knowledge-spectrum.b60df631852c0217.webp)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Block Syntax | Indent | | |
 
 אחד ההישגים הראשונים של AI סמלי היו מערכות מומחה - מערכות מחשב שנועדו לפעול כמומחה בתחום בעיה מוגבל. הן התבססו על **בסיס ידע** שהופק ממומחים אנושיים, וכללו **מנוע הסקה** שביצע הסקת מסקנות על בסיסו.
 
-![Human Architecture](../../../../translated_images/he/arch-human.5d4d35f1bba3ab1c.png) | ![Knowledge-Based System](../../../../translated_images/he/arch-kbs.3ec5c150b09fa8da.png)
+![Human Architecture](../../../../translated_images/he/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../translated_images/he/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 מבנה מפושט של מערכת עצבית אנושית | ארכיטקטורה של מערכת מבוססת ידע
 
@@ -106,7 +106,7 @@ Block Syntax | Indent | | |
 
 לדוגמה, נבחן את מערכת המומחה הבאה לקביעת בעל חיים על בסיס מאפייניו הפיזיים:
 
-![AND-OR Tree](../../../../translated_images/he/AND-OR-Tree.5592d2c70187f283.png)
+![AND-OR Tree](../../../../translated_images/he/AND-OR-Tree.5592d2c70187f283.webp)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 

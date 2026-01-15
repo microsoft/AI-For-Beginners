@@ -71,7 +71,7 @@ NetLogo的一个优点是它包含一个可供尝试的工作模型库。进入*
 
 打开模型后，你会进入NetLogo的主界面。以下是一个描述狼和羊种群的示例模型，考虑到有限资源（草地）。
 
-![NetLogo主界面](../../../../../translated_images/zh/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo主界面](../../../../../translated_images/zh/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov提供的截图
 

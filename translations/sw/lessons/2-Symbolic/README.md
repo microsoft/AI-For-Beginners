@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uwakilishi wa Maarifa na Mifumo ya Wataalamu
 
-![Muhtasari wa maudhui ya AI ya Kimaandishi](../../../../translated_images/sw/ai-symbolic.715a30cb610411a6.png)
+![Muhtasari wa maudhui ya AI ya Kimaandishi](../../../../translated_images/sw/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote na [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +41,7 @@ Mara nyingi, hatufafanui maarifa kwa ukali, lakini tunayalinganisha na dhana nyi
 
 Kwa hivyo, tatizo la **uwakilishi wa maarifa** ni kutafuta njia bora ya kuwakilisha maarifa ndani ya kompyuta kwa njia ya data, ili yaweze kutumika kiotomatiki. Hili linaweza kuonekana kama wigo:
 
-![Wigo wa uwakilishi wa maarifa](../../../../translated_images/sw/knowledge-spectrum.b60df631852c0217.png)
+![Wigo wa uwakilishi wa maarifa](../../../../translated_images/sw/knowledge-spectrum.b60df631852c0217.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Syntax ya Block | Indent | | |
 
 Moja ya mafanikio ya awali ya AI ya kimaandishi yalikuwa mifumo ya **wataalamu** - mifumo ya kompyuta iliyoundwa kufanya kazi kama mtaalamu katika eneo fulani la tatizo. Ilitegemea **hifadhidata ya maarifa** iliyotolewa kutoka kwa mtaalamu mmoja au zaidi wa binadamu, na ilikuwa na **injini ya utoaji wa sababu** iliyofanya utoaji wa sababu juu yake.
 
-![Muundo wa Binadamu](../../../../translated_images/sw/arch-human.5d4d35f1bba3ab1c.png) | ![Mfumo Unaotegemea Maarifa](../../../../translated_images/sw/arch-kbs.3ec5c150b09fa8da.png)
+![Muundo wa Binadamu](../../../../translated_images/sw/arch-human.5d4d35f1bba3ab1c.webp) | ![Mfumo Unaotegemea Maarifa](../../../../translated_images/sw/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Muundo rahisi wa mfumo wa neva wa binadamu | Muundo wa mfumo unaotegemea maarifa
 
@@ -106,7 +106,7 @@ Mifumo ya wataalamu imejengwa kama mfumo wa utoaji wa sababu wa binadamu, ambao 
 
 Kwa mfano, hebu tuchunguze mfumo wa wataalamu wa kuamua mnyama kulingana na sifa zake za kimwili:
 
-![Mti wa AND-OR](../../../../translated_images/sw/AND-OR-Tree.5592d2c70187f283.png)
+![Mti wa AND-OR](../../../../translated_images/sw/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 

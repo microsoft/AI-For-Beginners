@@ -70,7 +70,7 @@ NetLogo-এর একটি চমৎকার দিক হলো এটি এ
 
 মডেলটি খোলার পরে, আপনি NetLogo-এর প্রধান স্ক্রিনে নিয়ে যাওয়া হবে। এখানে একটি নমুনা মডেল রয়েছে যা সীমিত সম্পদ (ঘাস) দেওয়া হলে নেকড়ে এবং ভেড়ার জনসংখ্যা বর্ণনা করে।
 
-![NetLogo Main Screen](../../../../../translated_images/bn/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/bn/NetLogo-Main.32653711ec1a01b3.webp)
 
 > দিমিত্রি সশনিকভের স্ক্রিনশট
 

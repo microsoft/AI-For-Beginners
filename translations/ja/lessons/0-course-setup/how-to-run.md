@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-24T21:19:32+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-15T12:09:55+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "ja"
 }
 -->
-# コードを実行する方法
+# コードの実行方法
 
-このカリキュラムには、実行可能な例やラボが多数含まれており、それらを実行したいと思うでしょう。そのためには、このカリキュラムの一部として提供されるJupyter NotebookでPythonコードを実行する環境が必要です。コードを実行するには、いくつかの選択肢があります。
+このカリキュラムには、多くの実行可能な例とラボが含まれており、それらを実行したいと思うでしょう。そのためには、このカリキュラムの一部として提供されるJupyterノートブックでPythonコードを実行する能力が必要です。コードを実行する方法はいくつかあります：
 
-## ローカル環境で実行する
+## お使いのコンピューターでローカルに実行する
 
-コードをローカル環境で実行するには、何らかのバージョンのPythonをインストールする必要があります。個人的には、**[miniconda](https://conda.io/en/latest/miniconda.html)** のインストールをお勧めします。これは軽量なインストールで、`conda`パッケージマネージャを使用してさまざまなPythonの**仮想環境**をサポートします。
+お使いのコンピューターでコードをローカルに実行するには、Pythonのインストールが必要です。おすすめの一つは**[miniconda](https://conda.io/en/latest/miniconda.html)**のインストールです。これは比較的軽量なインストールで、異なるPythonの**仮想環境**用の`conda`パッケージマネージャーをサポートします。
 
-minicondaをインストールした後、このコース用の仮想環境を作成するためにリポジトリをクローンし、以下を実行します：
+minicondaをインストールした後に、リポジトリをクローンし、このコース用に仮想環境を作成します：
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -26,51 +26,55 @@ conda activate ai4beg
 
 ### Python拡張機能を使ったVisual Studio Codeの利用
 
-おそらく、このカリキュラムを利用する最良の方法は、[Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste)と[Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste)を使って開くことです。
+このカリキュラムは、[Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste)で[Python拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste)を開いて使うのが最適です。
 
-> **Note**: リポジトリをクローンしてVS Codeでディレクトリを開くと、Python拡張機能のインストールを自動的に提案されます。また、上記のようにminicondaをインストールする必要があります。
+> **注意**: リポジトリをクローンしてVS Codeでディレクトリを開くと、自動的にPython拡張機能のインストールを提案されます。また、上記のようにminicondaもインストールしておく必要があります。
 
-> **Note**: VS Codeがリポジトリをコンテナで再オープンすることを提案した場合、ローカルのPythonインストールを使用するためにこれを拒否してください。
+> **注意**: VS Codeがリポジトリをコンテナで再オープンするよう提案してきた場合は、ローカルのPythonインストールを利用するためにこれを拒否してください。
 
-### ブラウザでJupyterを使用する
+### ブラウザーでのJupyterの使用
 
-ブラウザ上でJupyter環境を直接使用することもできます。実際、クラシックなJupyterやJupyter Hubは、オートコンプリートやコードのハイライトなど、非常に便利な開発環境を提供します。
+ご自身のコンピューターのブラウザーからJupyter環境を使うこともできます。従来のJupyterとJupyterHubの両方が、コード補完やコードのハイライトなど便利な開発環境を提供します。
 
-ローカルでJupyterを起動するには、コースのディレクトリに移動し、以下を実行します：
+ローカルでJupyterを開始するには、コースのディレクトリに移動して、以下を実行します：
 
 ```bash
 jupyter notebook
-```  
-または  
+```
+ または
 ```bash
 jupyterhub
-```  
-その後、任意の`.ipynb`ファイルに移動して開き、作業を開始できます。
+```
+`.ipynb`ファイルに移動して開き、作業を始めることができます。
 
-### コンテナで実行する
+### コンテナでの実行
 
-Pythonをインストールする代わりの方法として、コンテナ内でコードを実行することもできます。このリポジトリには、`.devcontainer`フォルダが含まれており、このリポジトリ用のコンテナを構築する方法が記載されています。そのため、VS Codeはコードをコンテナで再オープンすることを提案します。ただし、これにはDockerのインストールが必要で、より複雑になるため、経験豊富なユーザーにお勧めします。
+Pythonのインストールの代替案として、コードをコンテナで実行する方法があります。本リポジトリは、このリポジトリ用のコンテナ作成方法を指示する特別な`.devcontainer`フォルダーを提供しており、VS Codeはコードをコンテナで再オープンする機能を提供しています。これはDockerのインストールが必要で、より複雑になるため、経験豊富なユーザー向けをお勧めします。
 
-## クラウドで実行する
+## クラウドでの実行
 
-Pythonをローカルにインストールしたくない場合や、クラウドリソースにアクセスできる場合は、クラウドでコードを実行するのも良い選択肢です。以下の方法があります：
+Pythonをローカルにインストールしたくない場合やクラウドリソースにアクセスできる場合、クラウドでコードを実行する良い代替手段があります。いくつかの方法を紹介します：
 
-* **[GitHub Codespaces](https://github.com/features/codespaces)** を使用する方法。これはGitHub上で作成される仮想環境で、VS Codeのブラウザインターフェースを通じてアクセスできます。Codespacesにアクセスできる場合は、リポジトリの**Code**ボタンをクリックし、Codespaceを開始するだけで、すぐに実行を開始できます。
-* **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)** を使用する方法。[Binder](https://mybinder.org)は、GitHub上のコードを試すために提供される無料のクラウドコンピューティングリソースです。リポジトリのフロントページにあるボタンをクリックすると、Binderサイトに移動し、基盤となるコンテナを構築してJupyterのウェブインターフェースをシームレスに開始できます。
+* **[GitHub Codespaces](https://github.com/features/codespaces)**を利用する。これはGitHub上に用意された仮想環境で、VS Codeのブラウザーインターフェースからアクセス可能です。Codespacesにアクセスできる場合、リポジトリの**Code**ボタンをクリックしてCodespaceを開始し、すぐに作業を始められます。
+* **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**を利用する。[Binder](https://mybinder.org)は、GitHub上のコードを試すために無料でクラウドの計算資源を提供します。リポジトリのフロントページにあるボタンからBinderに移動でき、即座に基盤となるコンテナを構築してJupyterのウェブインターフェースをシームレスに開始します。
 
-> **Note**: 不正利用を防ぐため、Binderでは一部のウェブリソースへのアクセスが制限されています。これにより、モデルやデータセットをインターネットから取得するコードが動作しない場合があります。回避策を見つける必要があるかもしれません。また、Binderが提供する計算リソースは非常に基本的なものなので、特に後半の複雑なレッスンではトレーニングが遅くなる可能性があります。
+> **注意**: 不正使用防止のため、Binderは一部のウェブリソースへのアクセスをブロックしています。これにより、モデルやデータセットをパブリックインターネットから取得するコードの一部が動作しない場合があります。回避策を検討する必要があるかもしれません。また、Binderの提供する計算資源はかなり基本的なものなので、特に複雑な後のレッスンのトレーニングは遅くなります。
 
-## GPUを使用したクラウドでの実行
+## GPU付きクラウドでの実行
 
-このカリキュラムの後半のレッスンでは、GPUサポートがあると非常に便利です。GPUがないとトレーニングが非常に遅くなるためです。クラウドにアクセスできる場合（[Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste)や所属機関を通じて）、以下のオプションを検討できます：
+このカリキュラムの後半のレッスンではGPUサポートがあると大いに役立ちます。例えばモデルのトレーニングは、そうでないと非常に遅くなります。特に[Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste)や所属機関を通じてクラウドにアクセスできる場合、次のような選択肢があります：
 
-* [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste)を作成し、Jupyterを通じて接続します。その後、リポジトリをマシン上にクローンして学習を開始できます。NCシリーズのVMはGPUサポートがあります。
+* [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste)を作成し、Jupyterを通じて接続します。マシンにリポジトリをクローンして学習を始められます。NCシリーズVMはGPUサポートがあります。
 
-> **Note**: 一部のサブスクリプション（Azure for Studentsを含む）では、デフォルトでGPUサポートが提供されていません。追加のGPUコアをリクエストするために技術サポートに問い合わせる必要がある場合があります。
+> **注意**: Azure for Studentsを含む一部のサブスクリプションはGPUサポートを標準で提供していません。追加のGPUコアを技術サポートにリクエストする必要がある場合があります。
 
-* [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste)を作成し、そこでNotebook機能を使用します。[このビデオ](https://azure-for-academics.github.io/quickstart/azureml-papers/)では、Azure MLノートブックにリポジトリをクローンして使用を開始する方法を示しています。
+* [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste)を作成し、そこでノートブック機能を使用します。[このビデオ](https://azure-for-academics.github.io/quickstart/azureml-papers/)は、Azure MLノートブックにリポジトリをクローンして使い始める方法を示しています。
 
-また、Google Colabを使用することもできます。Google Colabは無料のGPUサポートを提供しており、Jupyter Notebookをアップロードして1つずつ実行することができます。
+またGoogle Colabも、無料のGPUサポートが付いており、Jupyterノートブックを一つずつアップロードして実行できます。
 
-**免責事項**:  
-この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があることをご承知おきください。元の言語で記載された文書が公式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳をお勧めします。本翻訳の使用に起因する誤解や誤認について、当方は一切の責任を負いません。
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**免責事項**：
+本書類はAI翻訳サービス「Co-op Translator」（https://github.com/Azure/co-op-translator）を使用して翻訳されています。正確性には努めておりますが、自動翻訳は誤りや不正確な部分を含む可能性があります。原文の言語による原文書が正式な情報源とみなされるべきです。重要な情報については、専門の人間翻訳を推奨します。本翻訳の利用によって生じたいかなる誤解や誤訳についても、当方は一切責任を負いかねます。
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

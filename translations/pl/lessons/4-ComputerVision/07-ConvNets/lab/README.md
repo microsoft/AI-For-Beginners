@@ -21,7 +21,7 @@ Twoim zadaniem jest wytrenowanie konwolucyjnej sieci neuronowej do klasyfikacji 
 
 Użyjemy [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), który zawiera obrazy 37 różnych ras psów i kotów.
 
-![Zestaw danych, z którym będziemy pracować](../../../../../../translated_images/pl/data.50b2a9d5484bdbf0.png)
+![Zestaw danych, z którym będziemy pracować](../../../../../../translated_images/pl/data.50b2a9d5484bdbf0.webp)
 
 Aby pobrać zestaw danych, użyj tego fragmentu kodu:
 

@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 là một mạng đạt độ chính xác 92.7% trong phân loại top-5 của ImageNet vào năm 2014. Nó có cấu trúc các lớp như sau:
 
-![ImageNet Layers](../../../../../translated_images/vi/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/vi/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Như bạn có thể thấy, VGG tuân theo kiến trúc hình kim tự tháp truyền thống, bao gồm một chuỗi các lớp tích chập và lớp pooling.
 
-![ImageNet Pyramid](../../../../../translated_images/vi/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/vi/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Hình ảnh từ [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

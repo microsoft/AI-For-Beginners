@@ -70,7 +70,7 @@ Poți deschide unul dintre modele, de exemplu **Biology &rightarrow; Flocking**.
 
 După ce deschizi modelul, vei fi dus la ecranul principal NetLogo. Iată un model exemplu care descrie populația de lupi și oi, având resurse finite (iarbă).
 
-![Ecranul principal NetLogo](../../../../../translated_images/ro/NetLogo-Main.32653711ec1a01b3.png)
+![Ecranul principal NetLogo](../../../../../translated_images/ro/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Captură de ecran de Dmitry Soshnikov
 

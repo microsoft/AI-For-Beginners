@@ -58,7 +58,7 @@ infant | O
 
 Karena kita perlu membangun korespondensi satu-ke-satu antara token dan kelas, kita dapat melatih model jaringan neural **many-to-many** yang paling kanan dari gambar ini:
 
-![Gambar menunjukkan pola umum jaringan neural berulang.](../../../../../translated_images/id/unreasonable-effectiveness-of-rnn.541ead816778f42d.jpg)
+![Gambar menunjukkan pola umum jaringan neural berulang.](../../../../../translated_images/id/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Gambar dari [blog post ini](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) oleh [Andrej Karpathy](http://karpathy.github.io/). Model klasifikasi token NER sesuai dengan arsitektur jaringan paling kanan pada gambar ini.*
 

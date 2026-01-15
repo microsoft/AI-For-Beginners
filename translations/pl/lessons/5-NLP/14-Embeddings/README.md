@@ -19,7 +19,7 @@ Warstwa osadzenia przyjmuje słowo jako wejście i generuje wektor wyjściowy o 
 
 Używając warstwy osadzenia jako pierwszej warstwy w naszej sieci klasyfikatora, możemy przejść od modelu bag-of-words do modelu **embedding bag**, gdzie najpierw konwertujemy każde słowo w naszym tekście na odpowiadające mu osadzenie, a następnie obliczamy pewną funkcję agregującą dla wszystkich tych osadzeń, taką jak `sum`, `average` lub `max`.
 
-![Obraz przedstawiający klasyfikator osadzeń dla pięciu słów w sekwencji.](../../../../../translated_images/pl/embedding-classifier-example.b77f021a7ee67eee.png)
+![Obraz przedstawiający klasyfikator osadzeń dla pięciu słów w sekwencji.](../../../../../translated_images/pl/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Obraz autorstwa autora
 
@@ -40,7 +40,7 @@ Aby to osiągnąć, musimy wstępnie wytrenować nasz model osadzenia na dużym 
 
 CBoW działa szybciej, podczas gdy skip-gram jest wolniejszy, ale lepiej reprezentuje rzadkie słowa.
 
-![Obraz przedstawiający algorytmy CBoW i Skip-Gram do konwersji słów na wektory.](../../../../../translated_images/pl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Obraz przedstawiający algorytmy CBoW i Skip-Gram do konwersji słów na wektory.](../../../../../translated_images/pl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Obraz z [tego artykułu](https://arxiv.org/pdf/1301.3781.pdf)
 

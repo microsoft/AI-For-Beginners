@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # மேலோட்டம்
 
-![ஒரு ஓவியத்தில் மேலோட்டம்](../../../translated_images/ta/ai-overview.0857791951d19500.png)
+![ஒரு ஓவியத்தில் மேலோட்டம்](../../../translated_images/ta/ai-overview.0857791951d19500.webp)
 
 > ஸ்கெட்ச் குறிப்பு: [Tomomi Imura](https://twitter.com/girlie_mac)
 

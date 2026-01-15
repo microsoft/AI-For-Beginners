@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 הרעיון המרכזי של CLIP הוא היכולת להשוות בין טקסט לתמונה ולקבוע עד כמה התמונה מתאימה לטקסט.
 
-![ארכיטקטורת CLIP](../../../../../translated_images/he/clip-arch.b3dbf20b4e8ed8be.png)
+![ארכיטקטורת CLIP](../../../../../translated_images/he/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *תמונה מתוך [הפוסט הזה](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 נניח שעלינו לסווג תמונות בין חתולים, כלבים ובני אדם. במקרה זה, ניתן להזין למודל תמונה וסדרה של טקסטים: "*תמונה של חתול*", "*תמונה של כלב*", "*תמונה של אדם*". בווקטור התוצאות של 3 ההסתברויות, נבחר את האינדקס עם הערך הגבוה ביותר.
 
-![CLIP לסיווג תמונות](../../../../../translated_images/he/clip-class.3af42ef0b2b19369.png)
+![CLIP לסיווג תמונות](../../../../../translated_images/he/clip-class.3af42ef0b2b19369.webp)
 
 > *תמונה מתוך [הפוסט הזה](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 אחת ההבדלים החשובים בין VQGAN ל-GAN מסורתי היא שהאחרון יכול לייצר תמונה סבירה מכל וקטור קלט, בעוד ש-VQGAN עשוי לייצר תמונה שאינה קוהרנטית. לכן, יש להנחות את תהליך יצירת התמונה, וזה נעשה באמצעות CLIP.
 
-![ארכיטקטורת VQGAN+CLIP](../../../../../translated_images/he/vqgan.5027fe05051dfa31.png)
+![ארכיטקטורת VQGAN+CLIP](../../../../../translated_images/he/vqgan.5027fe05051dfa31.webp)
 
 כדי ליצור תמונה שמתאימה לטקסט, מתחילים עם וקטור קידוד אקראי שמועבר דרך VQGAN ליצירת תמונה. לאחר מכן, CLIP משמש ליצירת פונקציית הפסד שמראה עד כמה התמונה מתאימה לטקסט. המטרה היא למזער את ההפסד הזה באמצעות back propagation כדי להתאים את פרמטרי וקטור הקלט.
 
 ספרייה מצוינת שמממשת VQGAN+CLIP היא [Pixray](http://github.com/pixray/pixray).
 
-![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.png) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.png) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.png)
+![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![תמונה שנוצרה על ידי Pixray](../../../../../translated_images/he/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 תמונה שנוצרה מהטקסט *דיוקן בצבעי מים של מורה צעיר לספרות עם ספר* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה צעירה למדעי המחשב עם מחשב* | תמונה שנוצרה מהטקסט *דיוקן בשמן של מורה מבוגר למתמטיקה מול לוח שחור*
 

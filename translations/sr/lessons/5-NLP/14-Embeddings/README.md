@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Коришћењем слоја угњеждења као првог слоја у нашој мрежи класификатора, можемо прећи са модела торбе речи на модел **торбе угњеждења**, где прво конвертујемо сваку реч у нашем тексту у одговарајуће угњеждење, а затим израчунавамо неку агрегатну функцију над свим тим угњеждењима, као што су `sum`, `average` или `max`.
 
-![Слика која приказује класификатор заснован на угњеждењима за пет речи у низу.](../../../../../translated_images/sr/embedding-classifier-example.b77f021a7ee67eee.png)
+![Слика која приказује класификатор заснован на угњеждењима за пет речи у низу.](../../../../../translated_images/sr/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Слика аутора
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW је бржи, док је скип-грам спорији, али боље представља ретке речи.
 
-![Слика која приказује алгоритме CBoW и Skip-Gram за конвертовање речи у векторе.](../../../../../translated_images/sr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.png)
+![Слика која приказује алгоритме CBoW и Skip-Gram за конвертовање речи у векторе.](../../../../../translated_images/sr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Слика из [овог рада](https://arxiv.org/pdf/1301.3781.pdf)
 

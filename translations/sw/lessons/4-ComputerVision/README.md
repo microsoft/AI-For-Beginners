@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Maono ya Kompyuta
 
-![Muhtasari wa maudhui ya Maono ya Kompyuta katika mchoro](../../../../translated_images/sw/ai-computervision.6506ebebac3fbf76.png)
+![Muhtasari wa maudhui ya Maono ya Kompyuta katika mchoro](../../../../translated_images/sw/ai-computervision.6506ebebac3fbf76.webp)
 
 Katika sehemu hii tutajifunza kuhusu:
 

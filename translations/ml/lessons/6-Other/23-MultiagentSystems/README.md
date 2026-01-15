@@ -61,7 +61,7 @@ ask turtles [
 
 നെറ്റ്‌ലോഗോയുടെ മികച്ച പ്രത്യേകത ഇതിൽ പ്രവർത്തനക്ഷമമായ മോഡലുകളുടെ ലൈബ്രറി ഉള്ളതാണ്. **File → Models Library** എന്ന വഴി പോകുക, അവിടെ നിരവധി മോഡൽ വിഭാഗങ്ങൾ തിരഞ്ഞെടുക്കാം.
 
-<img alt="NetLogo Models Library" src="../../../../../translated_images/ml/NetLogo-ModelLib.efe023afb4763c05.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/ml/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > മോഡൽ ലൈബ്രറിയുടെ സ്ക്രീൻഷോട്ട് - Dmitry Soshnikov
 
@@ -71,7 +71,7 @@ ask turtles [
 
 മോഡൽ തുറന്ന ശേഷം, നിങ്ങൾ പ്രധാന നെറ്റ്‌ലോഗോ സ്ക്രീനിലേക്ക് എത്തും. ഇവിടെ finite resources (പുല്ല്) ഉള്ള ഒരു വുൾഫ്-ഷീപ്പ് ജനസംഖ്യയെ വിവരിക്കുന്ന ഒരു മാതൃകയാണ്.
 
-![NetLogo Main Screen](../../../../../translated_images/ml/NetLogo-Main.32653711ec1a01b3.png)
+![NetLogo Main Screen](../../../../../translated_images/ml/NetLogo-Main.32653711ec1a01b3.webp)
 
 > സ്ക്രീൻഷോട്ട് - Dmitry Soshnikov
 

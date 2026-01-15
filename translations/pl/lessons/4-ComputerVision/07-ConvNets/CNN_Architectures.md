@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 to sieć, która osiągnęła 92,7% dokładności w klasyfikacji top-5 ImageNet w 2014 roku. Ma następującą strukturę warstw:
 
-![ImageNet Layers](../../../../../translated_images/pl/vgg-16-arch1.d901a5583b3a51ba.jpg)
+![ImageNet Layers](../../../../../translated_images/pl/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Jak widać, VGG stosuje tradycyjną architekturę piramidy, czyli sekwencję warstw konwolucyjnych i poolingowych.
 
-![ImageNet Pyramid](../../../../../translated_images/pl/vgg-16-arch.64ff2137f50dd49f.jpg)
+![ImageNet Pyramid](../../../../../translated_images/pl/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Obraz z [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

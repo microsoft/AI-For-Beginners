@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Muhtasari
 
-![Muhtasari katika mchoro](../../../translated_images/sw/ai-overview.0857791951d19500.png)
+![Muhtasari katika mchoro](../../../translated_images/sw/ai-overview.0857791951d19500.webp)
 
 > Mchoro wa maandishi na [Tomomi Imura](https://twitter.com/girlie_mac)
 

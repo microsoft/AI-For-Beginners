@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |      |      |
 |--------------|-----------|
-|<img src='../../../../../translated_images/et/Rosenblatt-wikipedia.294821b285ac796d.jpg' alt='Frank Rosenblatt'/> | <img src='../../../../../translated_images/et/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.jpg' alt='Mark 1 Perceptron' />|
+|<img src='../../../../../translated_images/et/Rosenblatt-wikipedia.294821b285ac796d.webp' alt='Frank Rosenblatt'/> | <img src='../../../../../translated_images/et/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.webp' alt='Mark 1 Perceptron' />|
 
 > Pildid [Wikipediast](https://en.wikipedia.org/wiki/Perceptron)
 
@@ -34,7 +34,7 @@ y(x) = f(w<sup>T</sup>x)
 kus f on astmelise aktiveerimise funktsioon
 
 <!-- img src="http://www.sciweavers.org/tex2img.php?eq=f%28x%29%20%3D%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%20%2B1%20%26%20x%20%5Cgeq%200%20%5C%5C%0A%20%20%20%20%20%20%20%20%20-1%20%26%20x%20%3C%200%0A%20%20%20%20%20%20%20%5Cend%7Bcases%7D%20%5C%5C%0A&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="f(x) = \begin{cases} +1 & x \geq 0 \\ -1 & x < 0 \end{cases} \\" width="154" height="50" / -->
-<img src="../../../../../translated_images/et/activation-func.b4924007c7ce7764.png"/>
+<img src="../../../../../translated_images/et/activation-func.b4924007c7ce7764.webp"/>
 
 ## Perceptroni treenimine
 
