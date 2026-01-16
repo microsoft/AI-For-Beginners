@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-29T12:16:25+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T03:40:24+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "vi"
 }
 -->
-# Cách Chạy Mã
+# Cách Chạy Mã Lệnh
 
-Chương trình học này chứa rất nhiều ví dụ và bài thực hành có thể chạy được mà bạn sẽ muốn thử nghiệm. Để làm điều này, bạn cần khả năng thực thi mã Python trong Jupyter Notebooks được cung cấp như một phần của chương trình học. Bạn có một số lựa chọn để chạy mã:
+Chương trình học này chứa nhiều ví dụ và bài thực hành có thể chạy được mà bạn sẽ muốn thử. Để làm điều này, bạn cần khả năng thực thi mã Python trong Jupyter Notebooks được cung cấp như một phần của chương trình học này. Bạn có một số lựa chọn để chạy mã:
 
 ## Chạy trên máy tính cá nhân
 
-Để chạy mã trên máy tính cá nhân, bạn cần cài đặt một phiên bản Python nào đó. Cá nhân tôi khuyên bạn nên cài đặt **[miniconda](https://conda.io/en/latest/miniconda.html)** - đây là một cài đặt nhẹ hỗ trợ trình quản lý gói `conda` cho các **môi trường ảo** Python khác nhau.
+Để chạy mã trên máy tính cá nhân, bạn cần cài đặt Python. Một gợi ý là cài **[miniconda](https://conda.io/en/latest/miniconda.html)** - đây là một bản cài đặt nhẹ hỗ trợ trình quản lý gói `conda` cho các **môi trường ảo** Python khác nhau.
 
-Sau khi cài đặt miniconda, bạn cần sao chép kho lưu trữ và tạo một môi trường ảo để sử dụng cho khóa học này:
+Sau khi cài miniconda, bạn clone kho và tạo môi trường ảo để dùng cho khóa học này:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,19 +24,19 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Sử dụng Visual Studio Code với Python Extension
+### Sử dụng Visual Studio Code với Phần mở rộng Python
 
-Có lẽ cách tốt nhất để sử dụng chương trình học là mở nó trong [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) với [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Chương trình học này sẽ sử dụng hiệu quả nhất khi mở trong [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) với [Phần mở rộng Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Lưu ý**: Khi bạn sao chép và mở thư mục trong VS Code, nó sẽ tự động gợi ý bạn cài đặt các tiện ích mở rộng Python. Bạn cũng cần cài đặt miniconda như đã mô tả ở trên.
+> **Lưu ý**: Khi bạn clone và mở thư mục trong VS Code, nó sẽ tự động gợi ý bạn cài đặt phần mở rộng Python. Bạn cũng cần phải cài miniconda như mô tả ở trên.
 
-> **Lưu ý**: Nếu VS Code gợi ý bạn mở lại kho lưu trữ trong container, bạn cần từ chối để sử dụng cài đặt Python cục bộ.
+> **Lưu ý**: Nếu VS Code gợi ý bạn mở lại kho trong container, bạn nên từ chối để sử dụng cài đặt Python cục bộ.
 
-### Sử dụng Jupyter trong Trình duyệt
+### Sử dụng Jupyter trên trình duyệt
 
-Bạn cũng có thể sử dụng môi trường Jupyter trực tiếp từ trình duyệt trên máy tính của mình. Thực tế, cả Jupyter cổ điển và Jupyter Hub đều cung cấp môi trường phát triển khá tiện lợi với tính năng tự động hoàn thành, tô sáng mã, v.v.
+Bạn cũng có thể sử dụng môi trường Jupyter từ trình duyệt trên máy cá nhân. Cả Jupyter truyền thống và JupyterHub đều cung cấp môi trường phát triển tiện lợi với tự động hoàn thành, tô sáng mã, v.v.
 
-Để khởi động Jupyter cục bộ, hãy vào thư mục của khóa học và thực thi:
+Để khởi động Jupyter trên máy, hãy chuyển đến thư mục của khóa học, và chạy:
 
 ```bash
 jupyter notebook
@@ -45,34 +45,36 @@ hoặc
 ```bash
 jupyterhub
 ```
-Sau đó, bạn có thể điều hướng đến bất kỳ tệp `.ipynb` nào, mở chúng và bắt đầu làm việc.
+Bạn sau đó có thể mở bất kỳ tập tin `.ipynb` nào để bắt đầu làm việc.
 
 ### Chạy trong container
 
-Một lựa chọn thay thế cho việc cài đặt Python là chạy mã trong container. Vì kho lưu trữ của chúng tôi chứa thư mục `.devcontainer` đặc biệt hướng dẫn cách xây dựng container cho kho này, VS Code sẽ đề xuất bạn mở lại mã trong container. Điều này sẽ yêu cầu cài đặt Docker và cũng phức tạp hơn, vì vậy chúng tôi khuyến nghị điều này cho những người dùng có kinh nghiệm hơn.
+Một lựa chọn thay thế cho việc cài đặt Python là chạy mã trong container. Vì kho của chúng tôi cung cấp thư mục `.devcontainer` đặc biệt hướng dẫn cách xây dựng container cho kho này, VS Code sẽ cung cấp tùy chọn mở lại mã trong container. Điều này yêu cầu cài Docker, và cũng phức tạp hơn, nên chúng tôi khuyến nghị cho người dùng có kinh nghiệm hơn.
 
-## Chạy trên Đám mây
+## Chạy trên điện toán đám mây
 
-Nếu bạn không muốn cài đặt Python cục bộ và có quyền truy cập vào một số tài nguyên đám mây - một lựa chọn tốt là chạy mã trên đám mây. Có một số cách bạn có thể làm điều này:
+Nếu bạn không muốn cài Python trên máy và có quyền truy cập một số tài nguyên đám mây - lựa chọn tốt là chạy mã trên đám mây. Có một số cách bạn có thể làm điều này:
 
-* Sử dụng **[GitHub Codespaces](https://github.com/features/codespaces)**, đây là một môi trường ảo được tạo cho bạn trên GitHub, có thể truy cập thông qua giao diện trình duyệt của VS Code. Nếu bạn có quyền truy cập vào Codespaces, bạn chỉ cần nhấp vào nút **Code** trong kho, bắt đầu một codespace và chạy ngay lập tức.
-* Sử dụng **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) là tài nguyên tính toán miễn phí được cung cấp trên đám mây cho những người như bạn để thử nghiệm một số mã trên GitHub. Có một nút ở trang đầu để mở kho lưu trữ trong Binder - điều này sẽ nhanh chóng đưa bạn đến trang Binder, nơi sẽ xây dựng container cơ bản và khởi động giao diện web Jupyter cho bạn một cách liền mạch.
+* Sử dụng **[GitHub Codespaces](https://github.com/features/codespaces)**, một môi trường ảo được tạo trên GitHub cho bạn, truy cập qua giao diện trình duyệt VS Code. Nếu bạn có quyền truy cập Codespaces, bạn chỉ cần bấm nút **Code** trong repo, khởi tạo một codespace và bắt đầu ngay lập tức.
+* Sử dụng **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) cung cấp tài nguyên tính toán miễn phí trên đám mây cho người dùng như bạn để thử mã trên GitHub. Có một nút ở trang đầu để mở kho trong Binder - điều này sẽ nhanh chóng đưa bạn đến trang Binder, nơi xây dựng một container bên dưới và khởi động giao diện web Jupyter cho bạn một cách liền mạch.
 
-> **Lưu ý**: Để ngăn chặn việc sử dụng sai mục đích, Binder đã chặn quyền truy cập vào một số tài nguyên web. Điều này có thể ngăn một số mã hoạt động, đặc biệt là mã tải mô hình và/hoặc tập dữ liệu từ Internet công cộng. Bạn có thể cần tìm một số giải pháp thay thế. Ngoài ra, tài nguyên tính toán được cung cấp bởi Binder khá cơ bản, vì vậy việc huấn luyện sẽ chậm, đặc biệt trong các bài học phức tạp hơn sau này.
+> **Lưu ý**: Để ngăn ngừa sử dụng sai mục đích, Binder chặn truy cập một số tài nguyên web. Điều này có thể làm một số mã không hoạt động vì phải lấy mô hình và/hoặc bộ dữ liệu từ Internet công cộng. Bạn có thể cần tìm cách giải quyết. Ngoài ra, tài nguyên tính toán do Binder cung cấp khá cơ bản, nên việc huấn luyện sẽ chậm, đặc biệt trong các bài học phức tạp hơn sau này.
 
-## Chạy trên Đám mây với GPU
+## Chạy trên đám mây với GPU
 
-Một số bài học sau trong chương trình học này sẽ được hưởng lợi rất nhiều từ việc hỗ trợ GPU, vì nếu không, việc huấn luyện sẽ rất chậm. Có một vài lựa chọn bạn có thể thực hiện, đặc biệt nếu bạn có quyền truy cập vào đám mây thông qua [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) hoặc thông qua tổ chức của bạn:
+Một số bài học sau trong chương trình sẽ rất cần GPU. Việc huấn luyện mô hình, ví dụ, có thể rất chậm nếu không có GPU. Có vài tùy chọn bạn có thể theo, nhất là nếu bạn có quyền truy cập đám mây thông qua [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), hoặc qua tổ chức của bạn:
 
-* Tạo [Máy Ảo Khoa Học Dữ Liệu](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) và kết nối với nó thông qua Jupyter. Sau đó, bạn có thể sao chép kho lưu trữ trực tiếp vào máy và bắt đầu học. Các máy ảo dòng NC có hỗ trợ GPU.
+* Tạo [Máy ảo Khoa học Dữ liệu](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) và kết nối đến nó qua Jupyter. Bạn có thể clone repo ngay lên máy và bắt đầu học. Máy ảo dòng NC có hỗ trợ GPU.
 
-> **Lưu ý**: Một số gói đăng ký, bao gồm Azure for Students, không cung cấp hỗ trợ GPU ngay lập tức. Bạn có thể cần yêu cầu thêm lõi GPU thông qua yêu cầu hỗ trợ kỹ thuật.
+> **Lưu ý**: Một số gói đăng ký, bao gồm Azure for Students, không cung cấp GPU mặc định. Bạn có thể cần gửi yêu cầu hỗ trợ kỹ thuật để nhận thêm lõi GPU.
 
-* Tạo [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) và sau đó sử dụng tính năng Notebook ở đó. [Video này](https://azure-for-academics.github.io/quickstart/azureml-papers/) hướng dẫn cách sao chép một kho lưu trữ vào notebook Azure ML và bắt đầu sử dụng.
+* Tạo [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) và sử dụng tính năng Notebook ở đó. [Video này](https://azure-for-academics.github.io/quickstart/azureml-papers/) hướng dẫn cách clone repo vào notebook Azure ML và bắt đầu sử dụng.
 
-Bạn cũng có thể sử dụng Google Colab, nơi cung cấp một số hỗ trợ GPU miễn phí, và tải lên các Jupyter Notebooks để thực thi từng cái một.
+Bạn cũng có thể sử dụng Google Colab, có hỗ trợ GPU miễn phí, và tải các Jupyter Notebooks lên đó để thực thi từng notebook một.
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn tham khảo chính thức. Đối với các thông tin quan trọng, chúng tôi khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Tuyên bố từ chối trách nhiệm**:
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ gốc nên được xem là nguồn tham khảo chính thức. Đối với những thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp do con người thực hiện. Chúng tôi không chịu trách nhiệm về bất kỳ sự hiểu lầm hay giải thích sai nào phát sinh từ việc sử dụng bản dịch này.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
