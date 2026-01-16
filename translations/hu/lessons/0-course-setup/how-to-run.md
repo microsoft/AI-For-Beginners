@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-26T00:34:49+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T04:46:36+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "hu"
 }
 -->
 # Hogyan futtassuk a kódot
 
-Ez a tananyag számos futtatható példát és labort tartalmaz, amelyeket érdemes kipróbálni. Ehhez szükséged lesz arra, hogy Python kódot tudj futtatni a tananyaghoz mellékelt Jupyter Notebookokban. Több lehetőséged is van a kód futtatására:
+Ez a tananyag rengeteg futtatható példát és laborokat tartalmaz, amelyeket érdemes lefuttatni. Ehhez szükség van arra, hogy Python kódot tudj végrehajtani a jupyter notebookokban, amelyek a tananyag részeként elérhetőek. Több lehetőséged is van a kód futtatására:
 
-## Futtatás helyben a számítógépeden
+## Lokálisan a saját számítógépeden
 
-Ahhoz, hogy a kódot helyben futtasd a számítógépeden, szükséged lesz valamilyen Python verzió telepítésére. Személy szerint a **[miniconda](https://conda.io/en/latest/miniconda.html)** telepítését ajánlom – ez egy viszonylag könnyű telepítés, amely támogatja a `conda` csomagkezelőt különböző Python **virtuális környezetekhez**.
+A kód lokális futtatásához Python telepítés szükséges a gépeden. Egy ajánlás a **[miniconda](https://conda.io/en/latest/miniconda.html)** telepítése – ez egy viszonylag könnyű telepítés, amely támogatja a `conda` csomagkezelőt különböző Python **virtuális környezetek** használatára.
 
-Miután telepítetted a minicondát, klónoznod kell a repót, és létre kell hoznod egy virtuális környezetet, amelyet a kurzushoz fogsz használni:
+Miután telepítetted a minicondát, klónozd a repozitóriumot, és hozz létre egy virtuális környezetet, amelyet ezen a tanfolyamon használni fogsz:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -26,51 +26,55 @@ conda activate ai4beg
 
 ### Visual Studio Code használata Python kiterjesztéssel
 
-Valószínűleg a legjobb módja a tananyag használatának, ha megnyitod [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) alkalmazásban a [Python kiterjesztéssel](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+A tananyagot a legjobban úgy használhatod, ha megnyitod [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) alkalmazásban, a [Python kiterjesztéssel](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Megjegyzés**: Miután klónoztad és megnyitottad a könyvtárat a VS Code-ban, az automatikusan javasolni fogja a Python kiterjesztések telepítését. A miniconda telepítésére is szükséged lesz, ahogy fentebb leírtuk.
+> **Megjegyzés**: Miután klónoztad és megnyitottad a mappát VS Code-ban, automatikusan javasolni fogja a Python kiterjesztések telepítését. A minconda telepítését is el kell végezned a fentiek szerint.
 
-> **Megjegyzés**: Ha a VS Code azt javasolja, hogy nyisd meg a repót konténerben, ezt el kell utasítanod, hogy a helyi Python telepítést használd.
+> **Megjegyzés**: Ha a VS Code felajánlja, hogy egy konténerben nyissa meg újra a repozitóriumot, akkor ezt el kell utasítanod, ha a helyi Python telepítést szeretnéd használni.
 
-### Jupyter használata a böngészőben
+### Jupyter használata böngészőben
 
-A Jupyter környezetet közvetlenül a böngészőből is használhatod a saját számítógépeden. Valójában mind a klasszikus Jupyter, mind a Jupyter Hub kényelmes fejlesztési környezetet biztosít automatikus kiegészítéssel, kódkiemeléssel stb.
+Használhatsz Jupyter környezetet is a böngészőből a saját számítógépeden. Mind a klasszikus Jupyter, mind a JupyterHub kényelmes fejlesztői környezetet nyújt automatikus kiegészítéssel, kódkiemeléssel stb.
 
-A Jupyter helyi indításához menj a kurzus könyvtárába, és futtasd az alábbi parancsot:
+A Jupyter lokális elindításához menj a tananyag könyvtárába, és futtasd:
 
 ```bash
 jupyter notebook
 ```
-vagy
+ vagy
 ```bash
 jupyterhub
 ```
-Ezután navigálhatsz bármely `.ipynb` fájlhoz, megnyithatod őket, és elkezdhetsz dolgozni.
+ Ezután tetszőleges `.ipynb` fájlra navigálhatsz, megnyithatod azokat és elkezdhetsz dolgozni.
 
-### Futtatás konténerben
+### Konténerben futtatás
 
-Egy alternatíva a Python telepítésére, ha a kódot konténerben futtatod. Mivel a repónk tartalmaz egy speciális `.devcontainer` mappát, amely leírja, hogyan építsünk konténert ehhez a repóhoz, a VS Code fel fogja ajánlani, hogy nyisd meg a kódot konténerben. Ehhez szükséged lesz a Docker telepítésére, és ez bonyolultabb is lehet, ezért inkább haladó felhasználóknak ajánljuk.
+A Python telepítés alternatívája lehet, hogy a kódot egy konténerben futtatod. Mivel a repozitórium tartalmaz egy speciális `.devcontainer` mappát, amely útmutatást ad egy konténer felépítéséhez, a VS Code lehetőséget nyújt arra, hogy a kódot konténerben nyisd meg újra. Ehhez Docker telepítés szükséges, és bonyolultabb is, ezért ezt inkább haladóbb felhasználóknak ajánljuk.
 
-## Futtatás a felhőben
+## Felhőben futtatás
 
-Ha nem szeretnél helyben Python-t telepíteni, és van hozzáférésed valamilyen felhőalapú erőforráshoz, egy jó alternatíva lehet a kód futtatása a felhőben. Több módja is van ennek:
+Ha nem szeretnéd helyben telepíteni a Pythont, és van hozzáférésed valamilyen felhő erőforráshoz – akkor jó alternatíva a kód futtatása a felhőben. Többféleképpen is megteheted ezt:
 
-* Használhatod a **[GitHub Codespaces](https://github.com/features/codespaces)** szolgáltatást, amely egy virtuális környezetet hoz létre számodra a GitHubon, és a VS Code böngészős felületén keresztül érhető el. Ha van hozzáférésed a Codespaces-hez, egyszerűen kattints a **Code** gombra a repóban, indíts el egy codespace-et, és máris kezdheted a munkát.
-* Használhatod a **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)** szolgáltatást. A [Binder](https://mybinder.org) ingyenes számítási erőforrásokat biztosít a felhőben, hogy kipróbálhass néhány kódot a GitHubon. Az első oldalon található egy gomb, amely megnyitja a repót a Binderben – ez gyorsan elvisz a Binder oldalára, amely felépíti az alapul szolgáló konténert, és zökkenőmentesen elindítja a Jupyter webes felületet.
+* Használhatod a **[GitHub Codespaces](https://github.com/features/codespaces)** szolgáltatást, amely egy virtuális környezet a GitHub-on, a VS Code böngészős felületén keresztül elérhető. Ha hozzáférsz Codespaces-hez, csak kattints a **Code** gombra a repóban, indíts el egy codespace-et és pillanatok alatt futtathatod a kódot.
+* Használhatod a **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)** szolgáltatást. A [Binder](https://mybinder.org) ingyenes számítási erőforrásokat biztosít a felhőben, hogy kipróbálhass kódokat a GitHub-ról. Van egy gomb a főoldalon, amely megnyitja a repót Binder-ben – ez gyorsan átvezet a Binder oldalra, amely felépíti a háttérben a konténert és elindít egy Jupyter webes felületet zökkenőmentesen.
 
-> **Megjegyzés**: A visszaélések megelőzése érdekében a Binder bizonyos webes erőforrásokhoz való hozzáférést blokkol. Ez megakadályozhatja, hogy néhány kód működjön, amely modelleket és/vagy adatokat tölt le a nyilvános internetről. Lehet, hogy kerülőutakat kell találnod. Emellett a Binder által biztosított számítási erőforrások meglehetősen alapvetőek, így a tanulás későbbi, összetettebb leckéiben a tréning lassú lesz.
+> **Megjegyzés**: A visszaélések elkerülése érdekében Binder korlátozott hozzáféréssel rendelkezik bizonyos webes erőforrásokhoz. Ez megakadályozhat bizonyos kódok működését, amelyek modelleket és/vagy adatállományokat töltenek le a nyilvános internetről. Lehet, hogy megoldásokat kell keresned. Emellett a Binder által nyújtott számítási erőforrások alapvetőek, így az edzések lassúak lesznek, főleg a későbbi, összetettebb leckék esetén.
 
-## Futtatás a felhőben GPU-val
+## Felhőben való futtatás GPU-val
 
-A tananyag néhány későbbi leckéje nagyban profitálna a GPU támogatásból, mert különben a tréning fájdalmasan lassú lesz. Néhány lehetőség áll rendelkezésedre, különösen, ha van hozzáférésed a felhőhöz, például az [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) vagy az intézményeden keresztül:
+A tananyag egyes későbbi leckéi nagyon profitálhatnak GPU támogatásból. Például a modell betanítása máskülönben fájdalmasan lassú lehet. Több lehetőség közül választhatsz, főleg ha hozzáférsz a felhőhöz az [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) segítségével, vagy az intézményeden keresztül:
 
-* Hozz létre egy [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) gépet, és csatlakozz hozzá Jupyteren keresztül. Ezután klónozhatod a repót közvetlenül a gépre, és elkezdheted a tanulást. Az NC-sorozatú virtuális gépek GPU támogatással rendelkeznek.
+* Hozz létre egy [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) virtuális gépet, és csatlakozz hozzá Jupyter segítségével. Ezt követően klónozhatod a repozitóriumot közvetlenül a gépre, és elkezdheted a tanulást. Az NC-sorozatú VM-ek támogatják a GPU-t.
 
-> **Megjegyzés**: Néhány előfizetés, beleértve az Azure for Students-t, alapértelmezés szerint nem biztosít GPU támogatást. Lehet, hogy további GPU magokat kell kérned technikai támogatási kérelem útján.
+> **Megjegyzés**: Egyes előfizetések, köztük az Azure for Students sem tartalmaznak GPU támogatást alapból. Ekkor további GPU magokat technikai támogatási kérelmen keresztül kell kérned.
 
-* Hozz létre egy [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) munkaterületet, majd használd ott a Notebook funkciót. [Ez a videó](https://azure-for-academics.github.io/quickstart/azureml-papers/) bemutatja, hogyan klónozhatsz egy repót az Azure ML notebookba, és hogyan kezdheted el használni.
+* Hozz létre egy [Azure Machine Learning Workspace-et](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste), majd használd a Notebook funkciót ott. [Ez a videó](https://azure-for-academics.github.io/quickstart/azureml-papers/) bemutatja, hogyan klónozz egy repót az Azure ML notebookba, és hogyan kezd el használni.
 
-Használhatod a Google Colabot is, amely némi ingyenes GPU támogatást biztosít, és feltöltheted oda a Jupyter Notebookokat, hogy egyenként futtasd őket.
+Használhatod a Google Colab-ot is, amely ingyenes GPU támogatással rendelkezik, és feltöltheted oda a Jupyter Notebookokat, hogy egyenként végrehajtsd őket.
 
-**Felelősség kizárása**:  
-Ez a dokumentum az AI fordítási szolgáltatás [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével lett lefordítva. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az eredeti nyelvén tekintendő hiteles forrásnak. Kritikus információk esetén javasolt professzionális emberi fordítást igénybe venni. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely a fordítás használatából eredhet.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Jogi nyilatkozat**:
+Ez a dokumentum az AI fordító szolgáltatás [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével készült. Bár az pontosságra törekszünk, kérjük, vegye figyelembe, hogy az automatikus fordítások tartalmazhatnak hibákat vagy pontatlanságokat. Az eredeti, anyanyelvi dokumentum tekintendő az illetékes forrásnak. Kritikus információk esetén professzionális, emberi fordítást javaslunk. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely ebből a fordításból ered.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
