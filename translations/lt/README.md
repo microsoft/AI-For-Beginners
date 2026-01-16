@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0dc6311637b811abb415a936669d7e76",
-  "translation_date": "2026-01-05T16:46:47+00:00",
+  "original_hash": "85102ce4bfab31103e99dc8ca2e2f181",
+  "translation_date": "2026-01-16T06:48:28+00:00",
   "source_file": "README.md",
   "language_code": "lt"
 }
@@ -23,29 +23,29 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Dirbtinis intelektas pradedantiesiems - mokymo programa
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/lt/ai-overview.0857791951d19500.webp)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../../../translated_images/lt/ai-overview.0857791951d19500.webp)|
 |:---:|
-| Dirbtinis intelektas pradedantiesiems - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
+| Dirbtinis intelektas pradedantiesiems - _Piešinys pagal [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Atraskite **dirbtinio intelekto** (DI) pasaulį su mūsų 12 savaičių, 24 pamokų mokymo programa! Joje yra praktiškų pamokų, testų ir laboratorinių darbų. Mokymo programa skirta pradedantiesiems ir apima tokius įrankius kaip TensorFlow ir PyTorch, taip pat etikos klausimus DI srityje.
+Išnagrinėkite **Dirbtinio intelekto** (DI) pasaulį su mūsų 12 savaičių, 24 pamokų mokymo programa! Ji apima praktines pamokas, testus ir laboratorinius darbus. Mokymo programa yra draugiška pradedantiesiems ir apima tokias priemones kaip TensorFlow ir PyTorch, taip pat etikos klausimus DI srityje.
 
 
-### 🌐 Daugialypė kalbų palaikymas
+### 🌐 Daugiakalbė palaikymas
 
-#### Palaikoma per GitHub Action (automatizuota ir visada atnaujinta)
+#### Palaikoma per GitHub Action (automatinis ir visada atnaujinamas)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](./README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **Pageidaujate klonuoti lokaliai?**
+> **Norite klonuoti vietoje?**
 
-> Šis saugykla apima daugiau nei 50 kalbų vertimų, kurie žymiai padidina atsisiuntimo dydį. Norėdami klonuoti be vertimų, naudokite sparse checkout:
+> Šis saugykla apima daugiau nei 50 kalbų vertimų, dėl ko smarkiai padidėja atsisiuntimo dydis. Norėdami klonuoti be vertimų, naudokite ribotą patikrinimą:
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
 > cd AI-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Tai suteiks jums viską, ko reikia kursui užbaigti, žymiai greičiau atsisiunčiant.
+> Tai suteikia viską, ko reikia kursui užbaigti, su daug greitesniu atsisiuntimu.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 **Jei norite, kad būtų palaikomos papildomos vertimų kalbos, jos yra išvardytos [čia](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
@@ -55,125 +55,125 @@ Atraskite **dirbtinio intelekto** (DI) pasaulį su mūsų 12 savaičių, 24 pamo
 
 ## Ko išmoksite
 
-**[Kurso protokolas](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[Kurso protų žemėlapis](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
 Šioje mokymo programoje išmoksite:
 
-* Skirtingus dirbtinio intelekto požiūrius, įskaitant „gerą seną“ simbolinį požiūrį su **žinių reprezentacija** ir loginio samprotavimo principais ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
-* **Neuroninius tinklus** ir **gilųjį mokymąsi**, kurie yra šiuolaikinio DI pagrindas. Demonstruosime svarbiausias šių temų sąvokas naudojant kodą dviejose populiariausiose aplinkose - [TensorFlow](http://Tensorflow.org) ir [PyTorch](http://pytorch.org).
-* **Neuronines architektūras**, skirtas darbui su vaizdais ir tekstu. Apžvelgsime naujausius modelius, nors gali būti, kad būsime šiek tiek atsiliekantys nuo naujausių technologijų.
+* Skirtingų dirbtinio intelekto požiūrių, įskaitant "senąjį gerą" simbolinį požiūrį su **žinių reprezentacija** ir samprotavimu ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Neuroninius tinklus** ir **gilųjį mokymąsi**, kurie yra šiuolaikinio DI pagrindas. Šias svarbias temas iliustruosime kodu dviem populiariausiais karkasais - [TensorFlow](http://Tensorflow.org) ir [PyTorch](http://pytorch.org).
+* **Neuronines architektūras**, skirtas darbui su vaizdais ir tekstu. Aptarsime naujausius modelius, tačiau gali būti šiek tiek trūkumų pažangiausių technologijų srityje.
 * Mažiau populiarius DI metodus, tokius kaip **genetiniai algoritmai** ir **daugiagentinės sistemos**.
 
-Ko mes neapimsime šioje mokymo programoje:
+Ko šioje mokymo programoje neapimsime:
 
-> [Raskite visas papildomas šio kurso medžiagas mūsų Microsoft Learn kolekcijoje](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+> [Raskite visus papildomus šios programos išteklius mūsų Microsoft Learn kolekcijoje](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* Verslo atvejų panaudojimą **DI versle**. Apsvarstykite galimybę pasirinkti [Dirbtinio intelekto įvadą verslo naudotojams](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) Microsoft Learn arba [DI verslo mokyklą](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), kurį sukūrė bendradarbiaujant su [INSEAD](https://www.insead.edu/).
-* **Klasikinį mašininį mokymąsi**, kuris gerai aprašytas mūsų [Mašininio mokymosi pradedantiesiems programoje](http://github.com/Microsoft/ML-for-Beginners).
-* Praktines DI taikymas, naudojant **[Kognityvines paslaugas](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Tam rekomenduojame pradėti su Microsoft Learn moduliais apie [vaizdus](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natūralios kalbos apdorojimą](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[generatyvinį DI su Azure OpenAI paslauga](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ir kitus.
-* Specifines ML **debesų sistemas**, tokias kaip [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) arba [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Apsvarstykite galimybę naudoti mokymosi kelius [Kurti ir valdyti mašininio mokymosi sprendimus su Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ir [Kurti ir valdyti mašininio mokymosi sprendimus su Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
-* **Pašnekovų DI** ir **pokalbių robotus**. Tam yra atskiras mokymosi kelias [Sukurti pašnekovų DI sprendimus](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), o taip pat galite pasiskaityti [šiame tinklaraščio įraše](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) dėl daugiau informacijos.
-* **Gilusis matematikas**, slypintis giliajame mokymesi. Tam rekomenduojame knygą [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) autoriai Ian Goodfellow, Yoshua Bengio ir Aaron Courville, kuri taip pat prieinama internete adresu [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+* Verslo atvejų, kaip naudoti **DI versle**. Apsvarstykite galimybę imtis [Įvado į DI verslo naudotojams](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) mokymosi takelio Microsoft Learn arba [DI verslo mokyklos](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), sukurtos bendradarbiaujant su [INSEAD](https://www.insead.edu/).
+* **Klasikinio mašininio mokymosi**, kuris išsamiai aprašytas mūsų [Mašininio mokymosi pradedantiesiems mokymo programoje](http://github.com/Microsoft/ML-for-Beginners).
+* Praktinių DI programų, sukurtų naudojant **[Kognityvines paslaugas](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Tam rekomenduojame pradėti nuo Microsoft Learn modulių apie [vaizdų atpažinimą](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natūralios kalbos apdorojimą](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generatyvinį DI su Azure OpenAI paslauga](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ir kitus dalykus.
+* Specifinių ML **debesijos karkasų**, tokių kaip [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) ar [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Rekomenduojama naudoti mokymosi takelius [Kurti ir valdyti mašininio mokymosi sprendimus su Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) bei [Kurti ir valdyti mašininio mokymosi sprendimus Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
+* **Pokalbinį DI** ir **pokalbių robotus**. Yra atskiras mokymosi takelis [Sukurti pokalbinio DI sprendimus](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), be to, galite pasiskaityti [šį tinklaraščio įrašą](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) plačiau.
+* **Giliąją matematiką**, slypinčią už giluminio mokymosi. Tam rekomenduojame [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) Ian Goodfellow, Yoshua Bengio ir Aaron Courville, kuri taip pat prieinama internete adresu [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-Norėdami švelnaus įvado į _DI debesų_ temas, galite apsvarstyti [Pradėti dirbtiniu intelektu Azure platformoje](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) mokymosi kelią.
+Norėdami švelnaus įvado į _DI debesyje_ temas, galite apsvarstyti [Pradėti dirbtinį intelektą Azure platformoje](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) mokymosi takelį.
 
 # Turinys
 
-|     |                                                                 Pamokos nuoroda                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Laboratorija                                                            |
+|     |                                                                 Pamokos Nuoroda                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Laboratorija                                                    |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
-| 0  |                                 [Kurso diegimas](./lessons/0-course-setup/setup.md)                                 |                      [Sukurti vystymo aplinką](./lessons/0-course-setup/how-to-run.md)                       |   |
+| 0  |                                 [Kurso Nustatymai](./lessons/0-course-setup/setup.md)                                 |                      [Nustatykite savo kūrimo aplinką](./lessons/0-course-setup/how-to-run.md)                       |   |
 | I  |               [**Įvadas į DI**](./lessons/1-Intro/README.md)      | | |
 | 01  |       [DI įvadas ir istorija](./lessons/1-Intro/README.md)       |           -                            | -  |
 | II |              **Simbolinis DI**              |
-| 02  |       [Žinių reprezentacija ir ekspertinės sistemos](./lessons/2-Symbolic/README.md)       |            [Ekspertinės sistemos](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologija](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Konceptų grafas](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| 02  |       [Žinių reprezentacija ir ekspertų sistemos](./lessons/2-Symbolic/README.md)       |            [Ekspertų sistemos](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologija](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Konceptų grafas](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
 | III |                        [**Įvadas į neuroninius tinklus**](./lessons/3-NeuralNetworks/README.md) |||
-| 03  |                [Perceptronas](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Užrašų knygelė](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Laboratorija](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
-| 04  |                   [Daugiasluoksnis perceptronas ir savo paties sistema](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Užrašų knygelė](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Laboratorija](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
-| 05  |            [Įvadas į sistemas (PyTorch/TensorFlow) ir perpratimas](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorija](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
-| IV  |            [**Kompiuterinė rega**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Tyrinėkite kompiuterinę regą Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [Įvadas į kompiuterinę regą. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Užrašų knygelė](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Laboratorija](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
-| 07  |            [Konvoliuciniai neuroniniai tinklai](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [CNN architektūros](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Laboratorija](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [Iš anksto apmokyti tinklai ir perdirbimo mokymasis](./lessons/4-ComputerVision/08-TransferLearning/README.md) ir [Mokymosi triukai](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorija](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
-| 09  |            [Autoenkoderiai ir VAE](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Generatyviniai priešpriešiniai tinklai ir meninio stiliaus perdavimas](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
-| 11  |            [Objektų aptikimas](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Laboratorija](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
+| 03  |                [Perceptronas](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Užrašų knygelė](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Laboratorinis darbas](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
+| 04  |                   [Daugiasluoksnis perceptronas ir savo Framework kūrimas](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Užrašų knygelė](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Laboratorinis darbas](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 05  |            [Įvadas į Framework’us (PyTorch/TensorFlow) ir perpanaudojimą](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorinis darbas](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| IV  |            [**Kompiuterinė rega**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Tyrinėkite Kompiuterinę regą Microsoft Azure platformoje](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [Įvadas į Kompiuterinę regą. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Užrašų knygelė](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Laboratorinis darbas](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| 07  |            [Konvoliuciniai neuroniniai tinklai](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Konvoliucinių tinklų architektūros](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Laboratorinis darbas](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
+| 08  |            [Iš anksto apmokyti tinklai ir perdavimo mokymasis](./lessons/4-ComputerVision/08-TransferLearning/README.md) ir [Mokymosi triukai](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Laboratorinis darbas](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 09  |            [Autoencoder’iai ir VAE](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
+| 10  |            [Generatyviniai priešiniai tinklai ir meninio stiliaus perkėlimas](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 11  |            [Objektų aptikimas](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Laboratorinis darbas](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
 | 12  |            [Semantinė segmentacija. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
-| V  |            [**Natūrali kalbos apdorojimas**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Tyrinėkite natūralios kalbos apdorojimą Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [Teksto atvaizdavimas. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Semantiniai žodžių įterpimai. Word2Vec ir GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Kalbos modeliavimas. Mokykite savo įterpimus](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Laboratorija](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
-| 16  |            [Rekurentiniai neuroniniai tinklai](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Generatyviniai rekurentiniai tinklai](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Laboratorija](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
-| 18  |            [Transformatoriai. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Pavadintų entitetų atpažinimas](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Laboratorija](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [Dideli kalbos modeliai, užklausų programavimas ir keletas užduočių](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| V  |            [**Natūralios kalbos apdorojimas**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Tyrinėkite natūralios kalbos apdorojimą Microsoft Azure platformoje](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
+| 13  |            [Teksto reprezentacija. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Semantinės žodžių įterptinės reprezentacijos. Word2Vec ir GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Kalbos modeliavimo pagrindai. Mokymasis savo įterptinių reprezentacijų](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Laboratorinis darbas](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [Pasikartojantys neuroniniai tinklai](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [Generatyviniai pasikartojantys tinklai](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Laboratorinis darbas](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 18  |            [Transformeriai. BERT](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
+| 19  |            [Pavadintųjų asmenų atpažinimas](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Laboratorinis darbas](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [Dideli kalbos modeliai, komandinė programavimo kalba ir mažo duomenų kiekio užduotys](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Kitos DI technikos** || |
 | 21  |            [Genetiniai algoritmai](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Užrašų knygelė](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
-| 22  |            [Gilus mokymasis su stiprinimu](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Laboratorija](./lessons/6-Other/22-DeepRL/lab/README.md) |
-| 23  |            [Daugiaveiksmai sistemos](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
-| VII |            **DI etika** | | |
+| 22  |            [Giluminis sustiprintinis mokymasis](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Laboratorinis darbas](./lessons/6-Other/22-DeepRL/lab/README.md) |
+| 23  |            [Daugiaprograminės agentų sistemos](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
+| VII |            **DIR Etika** | | |
 | 24  |            [DI etika ir atsakingas DI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Atsakingo DI principai](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
 | IX  |            **Papildoma medžiaga** | | |
 | 25  |            [Daugiapoliai tinklai, CLIP ir VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Užrašų knygelė](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
 ## Kiekviena pamoka apima
 
-* Medžiagą prieš skaitymą
-* Vykdomąsias Jupyter užrašų knygeles, kurios dažnai būna specifinės sistemai (**PyTorch** arba **TensorFlow**). Vykdoma užrašų knygelė taip pat turi daug teorinės medžiagos, todėl norint suprasti temą reikia pereiti bent vieną užrašų knygelės versiją (PyTorch arba TensorFlow).
-* **Laboratorijas** kai kurioms temoms, kurios suteikia galimybę išbandyti tai, ką išmokote, sprendžiant konkrečią problemą.
-* Kai kurios skiltys turi nuorodas į [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modulius, apimančius susijusias temas.
+* Išankstinę medžiagą skaitymui
+* Vykdomas Jupyter užrašų knygeles, kurios dažnai būna specifinės konkrečiam framework’ui (**PyTorch** arba **TensorFlow**). Vykdoma užrašų knygelė taip pat turi daug teorinės medžiagos, todėl, norint suprasti temą, reikia pereiti bent vieną šios užrašų knygelės versiją (arba PyTorch, arba TensorFlow).
+* Kai kurios temos turi **laboratorinius darbus**, kurie suteikia galimybę išbandyti įgytas žinias taikant jas konkrečioms problemoms.
+* Kai kurios skiltys turi nuorodas į [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modulius, kurie apima susijusias temas.
 
 ## Pradžia
 
-### 🎯 Naujas DI srityje? Pradėkite čia!
+### 🎯 Naujokas DI srityje? Pradėkite čia!
 
-Jeigu esate visiškai naujas DI srityje ir norite greitai, praktiškai pavyzdžių, peržiūrėkite mūsų [**Pradedančiųjų pavyzdžius**](./examples/README.md)! Juose yra:
+Jei visiškai nesate susipažinę su DI ir norite greitų, praktinių pavyzdžių, peržiūrėkite mūsų [**Pradedančiųjų pavyzdžius**](./examples/README.md)! Juose yra:
 
-- 🌟 **Sveikas DI pasauli!** - Jūsų pirmoji DI programa (šablonų atpažinimas)
-- 🧠 **Paprastas neuroninis tinklas** - Sukurkite neuroninį tinklą nuo nulio  
-- 🖼️ **Vaizdų klasifikatorius** - Klasifikuokite vaizdus su išsamiais komentarais
-- 💬 **Teksto nuotaika** - Analizuokite teigiamą/neigiamą tekstą
+- 🌟 **Sveikas, DI pasauli!** – Jūsų pirma DI programa (paternų atpažinimas)
+- 🧠 **Paprastas neuroninis tinklas** – Sukurkite neuroninį tinklą nuo nulio  
+- 🖼️ **Vaizdų klasifikatorius** – Klasifikuokite vaizdus su išsamiais komentarais
+- 💬 **Teksto nuotaika** - Analizuokite teigiamą/ neigiamą tekstą
 
-Šie pavyzdžiai sukurti tam, kad padėtų jums suprasti DI sąvokas prieš pradedant visą mokymo programą.
+Šie pavyzdžiai skirti padėti suprasti DI sąvokas prieš pradedant visą mokymo programą.
 
-### 📚 Visos programos nustatymas
+### 📚 Visos mokymo programos nustatymas
 
-- Mes sukūrėme [nustatymo pamoką](./lessons/0-course-setup/setup.md), kad padėtume jums paruošti vystymo aplinką. - Mokytojams taip pat sukūrėme [programos nustatymo pamoką](./lessons/0-course-setup/for-teachers.md)!
-- Kaip [paleisti kodą VSCode arba Codepace](./lessons/0-course-setup/how-to-run.md)
+- Mes sukūrėme [nustatymo pamoką](./lessons/0-course-setup/setup.md), kad padėtume jums sukurti savo kūrimo aplinką. - Mokytojams taip pat sukūrėme [mokymo programos nustatymo pamoką](./lessons/0-course-setup/for-teachers.md)!
+- Kaip [paleisti kodą VSCode arba Codespace](./lessons/0-course-setup/how-to-run.md)
 
-Sekite šiuos žingsnius:
+Vadovaukitės šiais žingsniais:
 
-Šaknis (fork) saugyklą: Spustelėkite mygtuką "Fork" viršutiniame dešiniajame šio puslapio kampe.
+Sukurkite šaką: Spustelėkite mygtuką „Fork“ šio puslapio viršutiniame dešiniajame kampe.
 
-Klonuokite saugyklą: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+Klonuokite repozitoriją: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Nepamirškite pažymėti (🌟) šį repo, kad vėliau būtų lengviau rasti.
+Neužmirškite pažymėti žvaigždute (🌟) šį repo, kad vėliau jį lengviau rastumėte.
 
-## Susipažinkite su kitais besimokančiais
+## Susipažinkite su kitais mokiniais
 
-Prisijunkite prie mūsų [oficialaus AI Discord serverio](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), kad susitiktumėte ir bendrautumėte su kitais šio kurso dalyviais bei gautumėte pagalbą.
+Prisijunkite prie mūsų [oficialaus DI Discord serverio](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum), kad susipažintumėte ir bendrautumėte su kitais šį kursą lankytais mokiniais ir gautumėte paramą.
 
-Jei turite produktų atsiliepimų ar klausimų kurdami, apsilankykite mūsų [Azure AI Foundry kūrėjų forume](https://aka.ms/foundry/forum)
+Jei turite atsiliepimų apie produktą ar klausimų statant, apsilankykite mūsų [Azure AI Foundry kūrėjų forume](https://aka.ms/foundry/forum)
 
 ## Testai
 
-> **Pastaba apie testus**: Visi testai yra Quiz-app aplanke etc\quiz-app, arba [internete čia](https://ff-quizzes.netlify.app/) Jie yra susieti pamokose, o quiz programėlę galima paleisti vietoje arba diegti į Azure; vadovaukitės nurodymais `quiz-app` aplanke. Jie palaipsniui lokalizuojami.
+> **Pastaba apie testus**: Visi testai yra saugomi Quiz-app aplanke etc\quiz-app, arba [internete čia](https://ff-quizzes.netlify.app/). Jie yra susieti su pamokomis, testų programėlę galima paleisti lokaliai arba išdiegti į Azure; sekite nurodymus `quiz-app` aplanke. Jie palaipsniui lokalizuojami.
 
 ## Reikalinga pagalba
 
-Turite pasiūlymų ar radote rašybos ar kodo klaidų? Pateikite problemą arba sukurkite pull request.
+Turite pasiūlymų arba radote rašybos ar kodo klaidų? Praneškite apie problemą arba pateikite pataisą.
 
-## Specialūs padėkos žodžiai
+## Specialūs dėkojimai
 
 * **✍️ Pagrindinis autorius:** [Dmitry Soshnikov](http://soshnikov.com), PhD
 * **🔥 Redaktorius:** [Jen Looper](https://twitter.com/jenlooper), PhD
-* **🎨 Sketchnote iliustratorė:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **🎨 Sąsiuvinio iliustratorė:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Testų kūrėja:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Pagrindiniai bendradarbiai:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Kitos programos
+## Kitos mokymo programos
 
-Mūsų komanda kuria ir kitas programas! Peržiūrėkite:
+Mūsų komanda kuria ir kitas mokymo programas! Peržiūrėkite:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -190,7 +190,7 @@ Mūsų komanda kuria ir kitas programas! Peržiūrėkite:
 
 ---
  
-### Generatyvinio DI serija
+### Generatyvinis DI serija
 [![Generatyvinis DI pradedantiesiems](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generatyvinis DI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generatyvinis DI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -203,25 +203,25 @@ Mūsų komanda kuria ir kitas programas! Peržiūrėkite:
 [![Duomenų mokslas pradedantiesiems](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![DI pradedantiesiems](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Kibernetinis saugumas pradedantiesiems](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Interneto kūrimas pradedantiesiems](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![Tinklalapių kūrimas pradedantiesiems](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT pradedantiesiems](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR plėtra pradedantiesiems](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR kūrimas pradedantiesiems](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Copilot serija
-[![Copilot dirbtinio intelekto porinio programavimo įrankiui](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot DI porinius programavimui](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot nuotykiai](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Pagalbos gavimas
+## Gaukite pagalbos
 
-Jei užstrigote ar turite klausimų apie DI programėlių kūrimą, prisijunkite prie kitų besimokančių ir patyrusių kūrėjų diskusijų apie MCP. Tai palaikanti bendruomenė, kur klausimai laukiami ir žinios dalijamos laisvai.
+Jei užstrigote arba turite klausimų apie DI programėlių kūrimą. Prisijunkite prie kitų mokinių ir patyrusių kūrėjų diskusijų apie MCP. Tai palaikanti bendruomenė, kurioje laukiami klausimai ir laisvai dalinamasi žiniomis.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Jei turite produktų atsiliepimų ar klaidų kūrimo metu, apsilankykite:
+Jei turite atsiliepimų apie produktą arba radote klaidų statant, apsilankykite:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -229,5 +229,5 @@ Jei turite produktų atsiliepimų ar klaidų kūrimo metu, apsilankykite:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Atsakomybės apribojimas**:
-Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors stengiamės užtikrinti tikslumą, atkreipkite dėmesį, kad automatizuoti vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Svarbios informacijos atvejais rekomenduojamas profesionalus žmogaus vertimas. Mes neatsakome už bet kokius nesusipratimus ar neteisingus aiškinimus, kilusius naudojant šį vertimą.
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors stengiamės užtikrinti tikslumą, prašome atkreipti dėmesį, kad automatizuoti vertimai gali turėti klaidų ar netikslumų. Pirminis dokumentas originalia kalba laikomas autoritetingu šaltiniu. Svarbiai informacijai rekomenduojama naudotis profesionalaus žmogaus vertimu. Mes neatsakome už jokią painiavą ar neteisingą interpretaciją, kylančią dėl šio vertimo naudojimo.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
