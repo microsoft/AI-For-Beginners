@@ -20,7 +20,7 @@ Segmentation fit be like **pixel classification**, wey mean say for **each** pix
 
 For instance segmentation, di sheep dem na different objects, but for semantic segmentation, all di sheep go dey under one class.
 
-<img src="../../../../../translated_images/instance_vs_semantic.eee9812bebf8cd45.pcm.jpeg" width="50%">
+<img src="../../../../../translated_images/pcm/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Image from [this blog post](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +29,7 @@ Different neural architectures dey for segmentation, but all of dem get di same 
 * **Encoder** dey extract features from di input image.
 * **Decoder** dey change di features into di **mask image**, wey get di same size and number of channels wey match di number of classes.
 
-<img src="../../../../../translated_images/segm.92442f2cb42ff4fa.pcm.png" width="80%">
+<img src="../../../../../translated_images/pcm/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Image from [this publication](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +43,7 @@ For dis lesson, we go see segmentation in action by training di network to recog
 
 > ✅ Dis technique dey very good for dis type of medical imaging, but which other real-world applications you fit think of?
 
-<img alt="navi" src="../../../../../translated_images/navi.2f20b727910110ea.pcm.png"/>
+<img alt="navi" src="../../../../../translated_images/pcm/navi.2f20b727910110ea.webp"/>
 
 > Image from di PH<sup>2</sup> Database
 

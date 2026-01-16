@@ -19,7 +19,7 @@ But, we fit wan use raw (unlabeled) data to train CNN feature extractors, wey de
 
 Since we dey train autoencoder to capture as much information from the original image as e fit for accurate reconstruction, the network go try find the best **embedding** of input images to capture the meaning.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.pcm.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/pcm/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Image from [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 
@@ -46,7 +46,7 @@ To summarize:
  * We go sample one vector `sample` from the distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * The decoder go try decode the original image using `sample` as input vector
 
- <img src="../../../../../translated_images/vae.464c465a5b6a9e25.pcm.png" width="50%">
+ <img src="../../../../../translated_images/pcm/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Image from [this blog post](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) by Isaak Dykeman
 
@@ -57,13 +57,13 @@ Variational auto-encoders dey use one complex loss function wey get two parts:
 
 One big advantage of VAEs be say e dey allow us generate new images easily, because we sabi the distribution wey we go sample latent vectors from. For example, if we train VAE with 2D latent vector on MNIST, we fit vary components of the latent vector to get different digits:
 
-<img alt="vaemnist" src="../../../../../translated_images/vaemnist.cab9e602dc08dc50.pcm.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/pcm/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 See as images dey blend into each other, as we dey get latent vectors from different parts of the latent parameter space. We fit also visualize this space for 2D:
 
-<img alt="vaemnist cluster" src="../../../../../translated_images/vaemnist-diag.694315f775d5d666.pcm.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/pcm/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 

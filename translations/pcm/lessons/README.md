@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Overview
 
-![Overview wey dem draw like doodle](../../../translated_images/ai-overview.0857791951d19500.pcm.png)
+![Overview wey dem draw like doodle](../../../translated_images/pcm/ai-overview.0857791951d19500.webp)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
