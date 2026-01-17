@@ -70,7 +70,7 @@ Galite atidaryti vieną iš modelių, pavyzdžiui, **Biology &rightarrow; Flocki
 
 Atidarius modelį, būsite nukreipti į pagrindinį NetLogo ekraną. Čia pateikiamas pavyzdinis modelis, aprašantis vilkų ir avių populiaciją, turint ribotus išteklius (žolę).
 
-![NetLogo Pagrindinis ekranas](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.lt.png)
+![NetLogo Pagrindinis ekranas](../../../../../translated_images/lt/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov ekrano kopija
 

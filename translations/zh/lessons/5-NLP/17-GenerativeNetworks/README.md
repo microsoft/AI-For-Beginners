@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 这使得可以构建不同的神经网络架构，如下图所示：
 
-![展示常见循环神经网络模式的图片。](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.zh.jpg)
+![展示常见循环神经网络模式的图片。](../../../../../translated_images/zh/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > 图片来源于 [Andrej Karpaty](http://karpathy.github.io/) 的博客文章 [循环神经网络的非凡有效性](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我们将训练这个 RNN 逐步生成文本。在每一步中，我们将取长度为 `nchars` 的字符序列，并要求网络为每个输入字符生成下一个输出字符：
 
-![展示 RNN 生成单词 'HELLO' 的示例图片。](../../../../../translated_images/rnn-generate.56c54afb52f9781d.zh.png)
+![展示 RNN 生成单词 'HELLO' 的示例图片。](../../../../../translated_images/zh/rnn-generate.56c54afb52f9781d.webp)
 
 在生成文本（推理阶段）时，我们从某个**提示**开始，将其传递给 RNN 单元以生成中间状态，然后从该状态开始生成。我们一次生成一个字符，并将状态和生成的字符传递给另一个 RNN 单元以生成下一个字符，直到生成足够的字符。
 

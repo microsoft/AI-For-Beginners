@@ -29,7 +29,7 @@ Nii Keras kui PyTorch sisaldavad funktsioone, mis võimaldavad hõlpsalt laadida
 
 Siin on näide omadustest, mille VGG-16 võrk kassipildilt tuvastas:
 
-![VGG-16 tuvastatud omadused](../../../../../translated_images/features.6291f9c7ba3a0b95.et.png)
+![VGG-16 tuvastatud omadused](../../../../../translated_images/et/features.6291f9c7ba3a0b95.webp)
 
 ## Kasside ja koerte andmestik
 
@@ -48,19 +48,19 @@ Eelnevalt treenitud närvivõrk sisaldab oma *ajus* erinevaid mustreid, sealhulg
 
 Üks lähenemine, mida saame kasutada, on alustada juhuslikust pildist ja seejärel proovida kasutada **gradientide optimeerimise** tehnikat, et kohandada seda pilti nii, et võrk hakkaks arvama, et see on kass.
 
-![Pildi optimeerimise tsükkel](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.et.png)
+![Pildi optimeerimise tsükkel](../../../../../translated_images/et/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Kui me seda teeme, saame tulemuseks midagi, mis on väga sarnane juhusliku müraga. See on tingitud sellest, et *on palju viise, kuidas panna võrk arvama, et sisendpilt on kass*, sealhulgas mõned, mis visuaalselt ei ole mõistlikud. Kuigi need pildid sisaldavad palju kassile tüüpilisi mustreid, pole midagi, mis sunniks neid olema visuaalselt eristatavad.
 
 Tulemuse parandamiseks saame lisada kaotuse funktsiooni teise termini, mida nimetatakse **variatsioonikaotuseks**. See on mõõdik, mis näitab, kui sarnased on pildi naaberpikslid. Variatsioonikaotuse minimeerimine muudab pildi sujuvamaks ja eemaldab müra – paljastades visuaalselt meeldivamad mustrid. Siin on näide sellistest "ideaalse" piltidest, mis klassifitseeritakse suure tõenäosusega kassiks ja sebraks:
 
-![Ideaalne kass](../../../../../translated_images/ideal-cat.203dd4597643d6b0.et.png) | ![Ideaalne sebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.et.png)
+![Ideaalne kass](../../../../../translated_images/et/ideal-cat.203dd4597643d6b0.webp) | ![Ideaalne sebra](../../../../../translated_images/et/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Ideaalne kass* | *Ideaalne sebra*
 
 Sarnast lähenemist saab kasutada nn **adversariaalsete rünnakute** läbiviimiseks närvivõrgule. Oletame, et tahame petta närvivõrku ja panna koera välja nägema nagu kass. Kui võtame koera pildi, mida võrk tuvastab koerana, saame seda veidi kohandada, kasutades gradientide optimeerimist, kuni võrk hakkab seda klassifitseerima kassina:
 
-![Koera pilt](../../../../../translated_images/original-dog.8f68a67d2fe0911f.et.png) | ![Koera pilt, mis klassifitseeritakse kassina](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.et.png)
+![Koera pilt](../../../../../translated_images/et/original-dog.8f68a67d2fe0911f.webp) | ![Koera pilt, mis klassifitseeritakse kassina](../../../../../translated_images/et/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Originaalne koera pilt* | *Koera pilt, mis klassifitseeritakse kassina*
 

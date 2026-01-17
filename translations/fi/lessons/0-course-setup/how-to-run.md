@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-28T19:19:29+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T02:59:25+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "fi"
 }
 -->
-# Kuinka suorittaa koodi
+# Kuinka Suorittaa Koodi
 
-Tämä opintokokonaisuus sisältää paljon suoritettavia esimerkkejä ja harjoituksia, joita haluat varmasti kokeilla. Jotta voit tehdä tämän, sinun täytyy pystyä suorittamaan Python-koodia Jupyter Notebooks -ympäristössä, joka on osa tätä opintokokonaisuutta. Sinulla on useita vaihtoehtoja koodin suorittamiseen:
+Tämä opetussuunnitelma sisältää paljon suoritettavia esimerkkejä ja labroja, joita haluat todennäköisesti suorittaa. Tätä varten sinun on pystyttävä suorittamaan Python-koodia Jupyter-muistikirjoissa, jotka kuuluvat osana tätä opetussuunnitelmaa. Koodin suorittamiseen on useita vaihtoehtoja:
 
-## Suorita paikallisesti omalla tietokoneellasi
+## Suorita paikallisesti tietokoneellasi
 
-Jos haluat suorittaa koodin paikallisesti omalla tietokoneellasi, sinun täytyy asentaa jokin versio Pythonista. Suosittelen henkilökohtaisesti asentamaan **[miniconda](https://conda.io/en/latest/miniconda.html)** - se on kevyt asennus, joka tukee `conda`-pakettien hallintaa eri Pythonin **virtuaaliympäristöille**.
+Jotta voit suorittaa koodin paikallisesti tietokoneellasi, tarvitset Python-asennuksen. Yksi suositus on asentaa **[miniconda](https://conda.io/en/latest/miniconda.html)** – se on melko kevyt asennus, joka tukee `conda`-paketinhallintaa erilaisille Pythonin **virtuaaliympäristöille**.
 
-Kun olet asentanut minicondan, sinun täytyy kloonata arkisto ja luoda virtuaaliympäristö, jota käytetään tässä kurssissa:
+Kun olet asentanut minicondan, kloonaa varasto ja luo virtuaaliympäristö tätä kurssia varten:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,56 +24,57 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Visual Studio Code Python-laajennuksella
+### Visual Studio Code ja Python-laajennus
 
-Todennäköisesti paras tapa käyttää opintokokonaisuutta on avata se [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) -ohjelmassa, jossa on [Python-laajennus](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Tätä opetussuunnitelmaa on parasta käyttää avaamalla se [Visual Studio Codessa](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) yhdessä [Python-laajennuksen](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste) kanssa.
 
-> **Huomio**: Kun kloonaat ja avaat hakemiston VS Code -ohjelmassa, se ehdottaa automaattisesti Python-laajennusten asentamista. Sinun täytyy myös asentaa miniconda yllä kuvatulla tavalla.
+> **Huomautus**: Kun kloonaat ja avaat hakemiston VS Codessa, se ehdottaa automaattisesti Python-laajennusten asentamista. Sinun on myös asennettava miniconda kuten yllä on kuvattu.
 
-> **Huomio**: Jos VS Code ehdottaa arkiston avaamista kontissa, sinun täytyy hylätä tämä ja käyttää paikallista Python-asennusta.
+> **Huomautus**: Jos VS Code ehdottaa varaston uudelleenavaamista säiliössä, sinun tulisi kieltäytyä tästä käyttääksesi paikallista Python-asennusta.
 
-### Jupyter-selaimen käyttö
+### Jupyterin käyttäminen selaimessa
 
-Voit myös käyttää Jupyter-ympäristöä suoraan selaimessa omalla tietokoneellasi. Itse asiassa sekä klassinen Jupyter että Jupyter Hub tarjoavat varsin kätevän kehitysympäristön automaattisen täydennyksen, koodin korostuksen jne. kanssa.
+Voit käyttää Jupyter-ympäristöä myös selaimella omalla tietokoneellasi. Sekä perinteinen Jupyter että JupyterHub tarjoavat kätevän kehitysympäristön automaattisen täydennyksen, koodin korostuksen jne. kanssa.
 
-Jotta voit käynnistää Jupyterin paikallisesti, siirry kurssin hakemistoon ja suorita:
+Käynnistääksesi Jupyterin paikallisesti, siirry kurssin hakemistoon ja suorita:
 
 ```bash
 jupyter notebook
-```  
-tai  
+```
+tai
 ```bash
 jupyterhub
-```  
-Tämän jälkeen voit navigoida mihin tahansa `.ipynb`-tiedostoon, avata sen ja aloittaa työskentelyn.
+```
+Sen jälkeen voit siirtyä mihin tahansa `.ipynb`-tiedostoon, avata ne ja aloittaa työskentelyn.
 
-### Suorittaminen kontissa
+### Suorittaminen säiliössä
 
-Vaihtoehtona Python-asennukselle voit suorittaa koodin kontissa. Koska arkistomme sisältää erityisen `.devcontainer`-kansion, joka ohjeistaa konttien rakentamista tätä arkistoa varten, VS Code tarjoaa mahdollisuuden avata koodi kontissa. Tämä vaatii Dockerin asennuksen ja on hieman monimutkaisempaa, joten suosittelemme tätä kokeneemmille käyttäjille.
+Yksi vaihtoehto Python-asennukselle on suorittaa koodi säiliössä. Koska varastomme sisältää erityisen `.devcontainer`-kansion, joka ohjeistaa, miten säiliö rakennetaan tälle repositoriolle, VS Code tarjoaa mahdollisuuden avata koodin uudelleen säiliössä. Tämä vaatii Dockerin asennuksen ja on myös monimutkaisempi, joten suosittelemme tätä kokeneemmille käyttäjille.
 
 ## Suorittaminen pilvessä
 
-Jos et halua asentaa Pythonia paikallisesti ja sinulla on pääsy pilvipalveluihin, hyvä vaihtoehto on suorittaa koodi pilvessä. Tässä on muutamia tapoja tehdä tämä:
+Jos et halua asentaa Pythonia paikallisesti, mutta sinulla on pääsy joihinkin pilviresursseihin, hyvä vaihtoehto on suorittaa koodi pilvessä. Tämä onnistuu monella tavalla:
 
-* Käyttämällä **[GitHub Codespaces](https://github.com/features/codespaces)**, joka on virtuaaliympäristö GitHubissa, ja se on käytettävissä VS Code -selaimen käyttöliittymän kautta. Jos sinulla on pääsy Codespacesiin, voit vain klikata **Code**-painiketta arkistossa, käynnistää Codespacesin ja aloittaa nopeasti.
+* Käyttämällä **[GitHub Codespaces](https://github.com/features/codespaces)** -ympäristöä, joka on sinulle luotu virtuaaliympäristö GitHubissa ja johon pääsee VS Code -selaimen kautta. Jos sinulla on pääsy Codespacesiin, voit vain klikata varastossa **Code**-painiketta, aloittaa codespacen ja päästä nopeasti alkuun.
+* Käyttämällä **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) tarjoaa ilmaisia pilvilaskentaresursseja ihmisille, jotka haluavat kokeilla jotain koodia GitHubissa. Etusivulla on painike, jolla voi avata repositorion Binderissä – tämä vie sinut nopeasti Binder-sivustolle, joka rakentaa taustalla säiliön ja käynnistää sinulle Jupyter-verkko-rajapinnan saumattomasti.
 
-* Käyttämällä **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) tarjoaa ilmaisia pilvilaskentaresursseja, joiden avulla voit testata GitHubissa olevaa koodia. Etusivulla on painike, jolla voit avata arkiston Binderissa - tämä vie sinut Binder-sivustolle, joka rakentaa taustalla olevan kontin ja käynnistää Jupyterin verkkokäyttöliittymän saumattomasti.
-
-> **Huomio**: Binder estää pääsyn joihinkin verkkoresursseihin väärinkäytön estämiseksi. Tämä saattaa estää koodin toiminnan, joka hakee malleja ja/tai datakokonaisuuksia julkisesta Internetistä. Saatat joutua etsimään kiertotapoja. Lisäksi Binderin tarjoamat laskentaresurssit ovat melko perustasoisia, joten koulutus on hidasta, erityisesti myöhemmissä monimutkaisemmissa oppitunneissa.
+> **Huomautus**: Väärinkäytösten estämiseksi Binderillä on estetty pääsy tiettyihin verkkoresursseihin. Tämä saattaa estää osaa koodista toimimasta, jos koodi hakee malleja ja/tai aineistoja julkisesta internetistä. Saatat tarvita kiertoteitä. Lisäksi Binderin tarjoamat laskentaresurssit ovat melko perustasoa, joten koulutus on hidasta, erityisesti myöhemmissä, vaativammissa leikkauksissa.
 
 ## Suorittaminen pilvessä GPU:n kanssa
 
-Jotkut tämän opintokokonaisuuden myöhemmistä oppitunneista hyötyvät suuresti GPU-tuesta, koska muuten koulutus on tuskallisen hidasta. Tässä on muutamia vaihtoehtoja, erityisesti jos sinulla on pääsy pilveen joko [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) -palvelun tai oppilaitoksesi kautta:
+Jotkut myöhemmistä tämän opetussuunnitelman oppitunneista hyötyvät suuresti GPU-tuesta. Mallin harjoittelu voi olla muuten tuskallisen hidasta. Vaihtoehtoja on muutamia, erityisesti jos sinulla on pääsy pilveen joko [Azure for Studentsin](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) kautta tai oppilaitoksesi kautta:
 
-* Luo [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ja yhdistä siihen Jupyterin kautta. Voit sitten kloonata arkiston suoraan koneelle ja aloittaa opiskelun. NC-sarjan virtuaalikoneet tukevat GPU:ta.
+* Luo [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ja yhdistä siihen Jupylerin kautta. Voit sitten kloonata repo suoraan koneelle ja aloittaa oppimisen. NC-sarjan virtuaalikoneissa on GPU-tuki.
 
-> **Huomio**: Jotkut tilaukset, mukaan lukien Azure for Students, eivät tarjoa GPU-tukea oletuksena. Saatat joutua pyytämään lisä-GPU-ytimiä teknisen tuen kautta.
+> **Huomautus**: Joihinkin tilauksiin, mukaan lukien Azure for Students, ei kuulu GPU-tukea oletuksena. Saatat joutua pyytämään lisä-GPU-ytimiä teknisen tuen pyynnöllä.
 
-* Luo [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) ja käytä siellä Notebook-ominaisuutta. [Tämä video](https://azure-for-academics.github.io/quickstart/azureml-papers/) näyttää, kuinka arkisto kloonataan Azure ML -muistikirjaan ja aloitetaan sen käyttö.
+* Luo [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) ja käytä siellä Notebook-ominaisuutta. [Tämä video](https://azure-for-academics.github.io/quickstart/azureml-papers/) näyttää, miten kloonataan repositorio Azure ML -muistikirjaan ja aloitetaan käyttö.
 
-Voit myös käyttää Google Colabia, joka tarjoaa jonkin verran ilmaista GPU-tukea, ja ladata Jupyter Notebooks -tiedostoja sinne suorittaaksesi ne yksi kerrallaan.
+Voit myös käyttää Google Colabia, joka sisältää jonkin verran ilmaista GPU-tukea, ja ladata Jupyter-muistikirjat sinne suorittaaksesi ne yksi kerrallaan.
 
 ---
 
-**Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vastuuvapauslauseke**:
+Tämä asiakirja on käännetty tekoälypohjaisella käännöspalvelulla [Co-op Translator](https://github.com/Azure/co-op-translator). Pyrimme tarkkuuteen, mutta ota huomioon, että automaattiset käännökset saattavat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäiskielellä tulee pitää virallisena lähteenä. Tärkeissä asioissa suositellaan ammattilaisen tekemää käännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinymmärryksistä tai tulkinnoista.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

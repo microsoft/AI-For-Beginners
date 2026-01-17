@@ -73,14 +73,14 @@ For our [OpenCV Notebook](OpenCV.ipynb), we show some examples of how computer v
 
 * **Pre-processing photograph of Braille book**. We dey focus on how we fit use thresholding, feature detection, perspective transformation and NumPy manipulations to separate Braille symbols for classification by neural network.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.pcm.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.pcm.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.pcm.png)
+![Braille Image](../../../../../translated_images/pcm/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/pcm/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/pcm/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detecting motion for video using frame difference**. If camera no dey move, di frames from di camera feed suppose dey similar. Since frames dey as arrays, if you subtract di arrays for two frames wey follow each other, you go get di pixel difference, wey suppose dey small for static frames, and go big if motion dey for di image.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.pcm.png)
+![Image of video frames and frame differences](../../../../../translated_images/pcm/frame-difference.706f805491a0883c.webp)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ For our [OpenCV Notebook](OpenCV.ipynb), we show some examples of how computer v
    - **Dense Optical Flow** dey calculate vector field wey show where each pixel dey move go.
    - **Sparse Optical Flow** dey use some special features for di image (like edges), and e dey build their movement from frame to frame.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.pcm.png)
+![Image of Optical Flow](../../../../../translated_images/pcm/optical.1f4a94464579a83a.webp)
 
 > Image from [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -115,7 +115,7 @@ Read more about optical flow [for dis better tutorial](https://learnopencv.com/o
 
 For dis lab, you go take video wey get simple gestures, and your work na to find up/down/left/right movements using optical flow.
 
-<img src="../../../../../translated_images/palm-movement.341495f0e9c47da3.pcm.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/pcm/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

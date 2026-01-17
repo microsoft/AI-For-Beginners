@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Yleiskatsaus
 
-![Yleiskatsaus piirroksena](../../../translated_images/ai-overview.0857791951d19500.fi.png)
+![Yleiskatsaus piirroksena](../../../translated_images/fi/ai-overview.0857791951d19500.webp)
 
 > Piirrosmuistiinpano: [Tomomi Imura](https://twitter.com/girlie_mac)
 

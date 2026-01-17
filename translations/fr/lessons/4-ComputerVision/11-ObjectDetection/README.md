@@ -13,7 +13,7 @@ Les modèles de classification d'images que nous avons abordés jusqu'à présen
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Détection d'objets](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.fr.png)
+![Détection d'objets](../../../../../translated_images/fr/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Image tirée du [site web YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Supposons que nous voulions trouver un chat sur une image. Une approche très na
 2. Effectuer une classification d'image sur chaque carreau.
 3. Les carreaux qui produisent une activation suffisamment élevée peuvent être considérés comme contenant l'objet en question.
 
-![Détection naïve d'objets](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.fr.png)
+![Détection naïve d'objets](../../../../../translated_images/fr/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Image tirée du [cahier d'exercices](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Vous pourriez rencontrer les jeux de données suivants pour cette tâche :
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classes, boîtes englobantes et masques de segmentation
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.fr.jpg)
+![COCO](../../../../../translated_images/fr/coco-examples.71bc60380fa6cceb.webp)
 
 ## Métriques de détection d'objets
 
@@ -50,7 +50,7 @@ Vous pourriez rencontrer les jeux de données suivants pour cette tâche :
 
 Alors que pour la classification d'images, il est facile de mesurer la performance de l'algorithme, pour la détection d'objets, nous devons mesurer à la fois la justesse de la classe et la précision de la localisation de la boîte englobante inférée. Pour cette dernière, nous utilisons ce qu'on appelle **Intersection over Union** (IoU), qui mesure à quel point deux boîtes (ou deux zones arbitraires) se chevauchent.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.fr.png)
+![IoU](../../../../../translated_images/fr/iou_equation.9a4751d40fff4e11.webp)
 
 > *Figure 2 tirée de [cet excellent article de blog sur IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Il existe deux grandes catégories d'algorithmes de détection d'objets :
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) utilise [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) pour générer une structure hiérarchique de régions ROI, qui sont ensuite passées par des extracteurs de caractéristiques CNN et des classificateurs SVM pour déterminer la classe de l'objet, et une régression linéaire pour déterminer les coordonnées de la *boîte englobante*. [Article officiel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.fr.png)
+![RCNN](../../../../../translated_images/fr/rcnn1.cae407020dfb1d1f.webp)
 
 > *Image tirée de van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.fr.png)
+![RCNN-1](../../../../../translated_images/fr/rcnn2.2d9530bb83516484.webp)
 
 > *Images tirées de [cet article de blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Il existe deux grandes catégories d'algorithmes de détection d'objets :
 
 Cette approche est similaire à R-CNN, mais les régions sont définies après l'application des couches de convolution.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.fr.png)
+![FRCNN](../../../../../translated_images/fr/f-rcnn.3cda6d9bb4188875.webp)
 
 > Image tirée de [l'article officiel](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Cette approche est similaire à R-CNN, mais les régions sont définies après l
 
 L'idée principale de cette approche est d'utiliser un réseau neuronal pour prédire les ROI - le *Réseau de propositions de régions*. [Article](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.fr.png)
+![FasterRCNN](../../../../../translated_images/fr/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Image tirée de [l'article officiel](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Cet algorithme est encore plus rapide que Faster R-CNN. L'idée principale est l
 1. Les caractéristiques sont traitées par une **carte de score sensible à la position**. Chaque objet des $C$ classes est divisé en $k\times k$ régions, et nous entraînons le réseau à prédire des parties d'objets.
 1. Pour chaque partie des $k\times k$ régions, tous les réseaux votent pour les classes d'objets, et la classe d'objet avec le vote maximum est sélectionnée.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.fr.png)
+![r-fcn image](../../../../../translated_images/fr/r-fcn.13eb88158b99a3da.webp)
 
 > Image tirée de [l'article officiel](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO est un algorithme en temps réel en un seul passage. L'idée principale est
  * L'image est divisée en $S\times S$ régions.
  * Pour chaque région, **CNN** prédit $n$ objets possibles, les coordonnées de la *boîte englobante* et la *confiance*=*probabilité* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.fr.png)
+ ![YOLO](../../../../../translated_images/fr/yolo.a2648ec82ee8bb4e.webp)
 
 > Image tirée de [l'article officiel](https://arxiv.org/abs/1506.02640)
 

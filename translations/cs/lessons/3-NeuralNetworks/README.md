@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do neuronových sítí
 
-![Shrnutí obsahu Úvodu do neuronových sítí v kresbě](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.cs.png)
+![Shrnutí obsahu Úvodu do neuronových sítí v kresbě](../../../../translated_images/cs/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Jak jsme si řekli v úvodu, jedním ze způsobů, jak dosáhnout inteligence, je trénovat **počítačový model** nebo **umělý mozek**. Od poloviny 20. století vědci zkoušeli různé matematické modely, až se v posledních letech ukázalo, že tento směr je velmi úspěšný. Tyto matematické modely mozku se nazývají **neuronové sítě**.
 
@@ -36,13 +36,13 @@ V tomto kurzu se zaměříme pouze na modely neuronových sítí.
 
 Z biologie víme, že náš mozek se skládá z nervových buněk (neuronů), z nichž každá má několik "vstupů" (dendritů) a jeden "výstup" (axon). Dendrity i axony mohou vést elektrické signály a spojení mezi nimi — známá jako synapse — mohou vykazovat různé stupně vodivosti, které jsou regulovány neurotransmitery.
 
-![Model neuronu](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.cs.jpg) | ![Model neuronu](../../../../translated_images/artneuron.1a5daa88d20ebe6f.cs.png)
+![Model neuronu](../../../../translated_images/cs/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Model neuronu](../../../../translated_images/cs/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Skutečný neuron *([Obrázek](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) z Wikipedie)* | Umělý neuron *(Obrázek od autora)*
 
 Nejjednodušší matematický model neuronu tedy obsahuje několik vstupů X<sub>1</sub>, ..., X<sub>N</sub> a jeden výstup Y, a řadu vah W<sub>1</sub>, ..., W<sub>N</sub>. Výstup se vypočítá jako:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.cs.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/cs/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kde f je nějaká nelineární **aktivační funkce**.
 

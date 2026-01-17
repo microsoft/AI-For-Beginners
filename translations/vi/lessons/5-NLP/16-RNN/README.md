@@ -15,7 +15,7 @@ Trong các phần trước, chúng ta đã sử dụng các biểu diễn ngữ 
 
 Để nắm bắt ý nghĩa của chuỗi văn bản, chúng ta cần sử dụng một kiến trúc mạng nơ-ron khác, được gọi là **mạng nơ-ron tái phục hồi**, hay RNN. Trong RNN, chúng ta đưa câu qua mạng từng ký hiệu một, và mạng sẽ tạo ra một **trạng thái**, sau đó chúng ta đưa trạng thái này vào mạng cùng với ký hiệu tiếp theo.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.vi.png)
+![RNN](../../../../../translated_images/vi/rnn.27f5c29c53d727b5.webp)
 
 > Hình ảnh của tác giả
 
@@ -61,7 +61,7 @@ Chúng ta đã thảo luận về các mạng tái phục hồi hoạt động t
 
 Một mạng tái phục hồi, dù là một chiều hay hai chiều, nắm bắt các mẫu nhất định trong một chuỗi và có thể lưu trữ chúng vào một vector trạng thái hoặc truyền vào đầu ra. Tương tự như các mạng tích chập, chúng ta có thể xây dựng một lớp tái phục hồi khác trên lớp đầu tiên để nắm bắt các mẫu cấp cao hơn và xây dựng từ các mẫu cấp thấp được trích xuất bởi lớp đầu tiên. Điều này dẫn đến khái niệm về một **RNN nhiều lớp**, bao gồm hai hoặc nhiều mạng tái phục hồi, trong đó đầu ra của lớp trước được truyền vào lớp tiếp theo làm đầu vào.
 
-![Hình ảnh minh họa một RNN LSTM nhiều lớp](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.vi.jpg)
+![Hình ảnh minh họa một RNN LSTM nhiều lớp](../../../../../translated_images/vi/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Hình ảnh từ [bài viết tuyệt vời này](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) của Fernando López*
 

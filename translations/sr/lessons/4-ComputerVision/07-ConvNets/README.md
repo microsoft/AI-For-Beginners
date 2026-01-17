@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Да бисмо извукли шаблоне, користићемо концепт **конволуционих филтера**. Као што знате, слика је представљена као 2D-матрица или 3D-тензор са дубином боје. Примена филтера значи да узимамо релативно малу матрицу **језгра филтера**, и за сваки пиксел у оригиналној слици израчунавамо пондерисани просек са суседним тачкама. Ово можемо замислити као мали прозор који клизи преко целе слике и израчунава просек свих пиксела према тежинама у матрици језгра филтера.
 
-![Филтер за вертикалне ивице](../../../../../translated_images/filter-vert.b7148390ca0bc356.sr.png) | ![Филтер за хоризонталне ивице](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.sr.png)
+![Филтер за вертикалне ивице](../../../../../translated_images/sr/filter-vert.b7148390ca0bc356.webp) | ![Филтер за хоризонталне ивице](../../../../../translated_images/sr/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Слика: Дмитриј Сошњиков
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Можемо дизајнирати мрежу тако да се филтери аутоматски тренирају
 * Можемо користити исти приступ за проналажење шаблона у карактеристикама високог нивоа, а не само у оригиналној слици. Тако екстракција карактеристика у CNN-у функционише на хијерархији карактеристика, почевши од комбинација пиксела ниског нивоа, па све до комбинација делова слике високог нивоа.
 
-![Хијерархијска екстракција карактеристика](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.sr.png)
+![Хијерархијска екстракција карактеристика](../../../../../translated_images/sr/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Слика из [рада Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), засновано на [њиховом истраживању](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 Као пример, погледајмо архитектуру VGG-16, мреже која је постигла 92.7% тачности у ImageNet топ-5 класификацији 2014. године:
 
-![Слојеви ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.sr.jpg)
+![Слојеви ImageNet](../../../../../translated_images/sr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Пирамида ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.sr.jpg)
+![Пирамида ImageNet](../../../../../translated_images/sr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Слика са [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

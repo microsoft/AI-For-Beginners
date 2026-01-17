@@ -60,7 +60,7 @@ You fit [download](https://ccl.northwestern.edu/netlogo/download.shtml) and inst
 
 One good thing about NetLogo na say e get one library of working models wey you fit try. Go **File &rightarrow; Models Library**, and you go see plenty categories of models to choose from.
 
-<img alt="NetLogo Models Library" src="../../../../../translated_images/NetLogo-ModelLib.efe023afb4763c05.pcm.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/pcm/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Screenshot of di models library by Dmitry Soshnikov
 
@@ -70,7 +70,7 @@ You fit open one of di models, like **Biology &rightarrow; Flocking**.
 
 After you open di model, you go see di main NetLogo screen. Here na sample model wey dey describe di population of wolves and sheep, wey dey depend on finite resources (grass).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.pcm.png)
+![NetLogo Main Screen](../../../../../translated_images/pcm/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Screenshot by Dmitry Soshnikov
 

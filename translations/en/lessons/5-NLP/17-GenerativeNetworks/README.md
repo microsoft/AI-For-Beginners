@@ -19,7 +19,7 @@ In the RNN architecture discussed in the previous unit, each RNN unit produced t
 
 This enables different neural architectures, as shown in the image below:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.en.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/en/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.jpg)
 
 > Image from the blog post [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpathy](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ In this unit, we will focus on simple generative models for text generation. For
 
 We will train an RNN to generate text step by step. At each step, we will take a sequence of characters of length `nchars` and ask the network to generate the next output character for each input character:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.en.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/en/rnn-generate.56c54afb52f9781d63a7c16ea9c1b86cb70e6e1eae6a742b56b7b37468576b17.png)
 
 When generating text (during inference), we start with a **prompt**, which is passed through RNN cells to generate its intermediate state. From this state, the generation begins. We generate one character at a time, passing the state and the generated character to another RNN cell to generate the next one, until we have generated enough characters.
 

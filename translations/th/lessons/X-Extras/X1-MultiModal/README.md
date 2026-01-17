@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 แนวคิดหลักของ CLIP คือการเปรียบเทียบข้อความ (text prompts) กับภาพ และประเมินว่าภาพนั้นสอดคล้องกับข้อความมากน้อยเพียงใด
 
-![สถาปัตยกรรม CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.th.png)
+![สถาปัตยกรรม CLIP](../../../../../translated_images/th/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *ภาพจาก [บทความนี้](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 สมมติว่าเราต้องการจำแนกภาพระหว่างแมว สุนัข และมนุษย์ ในกรณีนี้ เราสามารถให้โมเดลรับภาพและข้อความ เช่น "*ภาพของแมว*", "*ภาพของสุนัข*", "*ภาพของมนุษย์*" ในเวกเตอร์ผลลัพธ์ที่มีความน่าจะเป็น 3 ค่า เราเพียงแค่เลือกดัชนีที่มีค่ามากที่สุด
 
-![CLIP สำหรับการจำแนกภาพ](../../../../../translated_images/clip-class.3af42ef0b2b19369.th.png)
+![CLIP สำหรับการจำแนกภาพ](../../../../../translated_images/th/clip-class.3af42ef0b2b19369.webp)
 
 > *ภาพจาก [บทความนี้](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ CLIP ยังสามารถใช้สำหรับ **การสร้
 
 ความแตกต่างสำคัญระหว่าง VQGAN และ GAN ทั่วไปคือ GAN สามารถสร้างภาพที่ดีจากเวกเตอร์อินพุตใด ๆ ได้ แต่ VQGAN อาจสร้างภาพที่ไม่สอดคล้องกัน ดังนั้นเราจำเป็นต้องมีการชี้นำเพิ่มเติมในกระบวนการสร้างภาพ ซึ่งสามารถทำได้โดยใช้ CLIP
 
-![สถาปัตยกรรม VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.th.png)
+![สถาปัตยกรรม VQGAN+CLIP](../../../../../translated_images/th/vqgan.5027fe05051dfa31.webp)
 
 ในการสร้างภาพที่สอดคล้องกับข้อความ เราเริ่มต้นด้วยเวกเตอร์การเข้ารหัสแบบสุ่มที่ถูกส่งผ่าน VQGAN เพื่อสร้างภาพ จากนั้นใช้ CLIP เพื่อสร้างฟังก์ชันการสูญเสียที่แสดงว่าภาพสอดคล้องกับข้อความมากน้อยเพียงใด เป้าหมายคือการลดค่าฟังก์ชันการสูญเสียนี้โดยใช้การถ่ายทอดย้อนกลับ (back propagation) เพื่อปรับพารามิเตอร์ของเวกเตอร์อินพุต
 
 ไลบรารีที่ยอดเยี่ยมที่นำ VQGAN+CLIP มาใช้งานคือ [Pixray](http://github.com/pixray/pixray)
 
-![ภาพที่สร้างโดย Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.th.png) |  ![ภาพที่สร้างโดย Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.th.png) | ![ภาพที่สร้างโดย Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.th.png)
+![ภาพที่สร้างโดย Pixray](../../../../../translated_images/th/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![ภาพที่สร้างโดย Pixray](../../../../../translated_images/th/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![ภาพที่สร้างโดย Pixray](../../../../../translated_images/th/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำของครูหนุ่มสอนวรรณกรรมพร้อมหนังสือ* | ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำมันของครูสาวสอนวิทยาการคอมพิวเตอร์พร้อมคอมพิวเตอร์* | ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำมันของครูชายสูงวัยสอนคณิตศาสตร์หน้ากระดานดำ*
 
@@ -75,7 +75,7 @@ DALL-E เป็นเวอร์ชันของ GPT-3 ที่ถูกฝ
 ความแตกต่างหลักระหว่าง DALL-E 1 และ 2 คือ DALL-E 2 สามารถสร้างภาพและงานศิลปะที่สมจริงมากขึ้น
 
 ตัวอย่างการสร้างภาพด้วย DALL-E:
-![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.th.png) |  ![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.th.png) | ![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.th.png)
+![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/th/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/th/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![ภาพที่สร้างโดย DALL-E](../../../../../translated_images/th/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำของครูหนุ่มสอนวรรณกรรมพร้อมหนังสือ* | ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำมันของครูสาวสอนวิทยาการคอมพิวเตอร์พร้อมคอมพิวเตอร์* | ภาพที่สร้างจากข้อความ *ภาพเหมือนสีน้ำมันของครูชายสูงวัยสอนคณิตศาสตร์หน้ากระดานดำ*
 

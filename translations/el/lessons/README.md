@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Επισκόπηση
 
-![Επισκόπηση σε ένα σκίτσο](../../../translated_images/ai-overview.0857791951d19500.el.png)
+![Επισκόπηση σε ένα σκίτσο](../../../translated_images/el/ai-overview.0857791951d19500.webp)
 
 > Σκίτσο από την [Tomomi Imura](https://twitter.com/girlie_mac)
 

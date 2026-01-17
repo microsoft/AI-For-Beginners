@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **كيس الكلمات المستمر** (CBoW)، حيث نتوقع الرمز الأوسط $W_0$ في سلسلة الرموز $W_{-N}$, ..., $W_N$.
 * **Skip-gram**، حيث نتوقع مجموعة من الرموز المجاورة {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} من الرمز الأوسط $W_0$.
 
-![صورة من ورقة بحثية حول تحويل الكلمات إلى متجهات](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ar.png)
+![صورة من ورقة بحثية حول تحويل الكلمات إلى متجهات](../../../../../translated_images/ar/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > صورة مأخوذة من [هذه الورقة البحثية](https://arxiv.org/pdf/1301.3781.pdf)
 

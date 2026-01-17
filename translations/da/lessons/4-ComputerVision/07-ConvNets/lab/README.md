@@ -21,7 +21,7 @@ Du skal træne et konvolutionelt neuralt netværk til at klassificere forskellig
 
 Vi vil bruge [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), som indeholder billeder af 37 forskellige racer af hunde og katte.
 
-![Datasæt vi skal arbejde med](../../../../../../translated_images/data.50b2a9d5484bdbf0.da.png)
+![Datasæt vi skal arbejde med](../../../../../../translated_images/da/data.50b2a9d5484bdbf0.webp)
 
 For at downloade datasættet, brug denne kode:
 

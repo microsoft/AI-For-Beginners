@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Для вилучення шаблонів ми будемо використовувати поняття **конволюційних фільтрів**. Як вам відомо, зображення представляється у вигляді 2D-матриці або 3D-тензора з глибиною кольору. Застосування фільтра означає, що ми беремо відносно невелику матрицю **ядра фільтра**, і для кожного пікселя в оригінальному зображенні обчислюємо зважене середнє з сусідніми точками. Це можна уявити як невелике вікно, яке ковзає по всьому зображенню, усереднюючи всі пікселі відповідно до ваг у матриці ядра фільтра.
 
-![Фільтр вертикальних країв](../../../../../translated_images/filter-vert.b7148390ca0bc356.uk.png) | ![Фільтр горизонтальних країв](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.uk.png)
+![Фільтр вертикальних країв](../../../../../translated_images/uk/filter-vert.b7148390ca0bc356.webp) | ![Фільтр горизонтальних країв](../../../../../translated_images/uk/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Зображення Дмитра Сошникова
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Ми можемо спроєктувати мережу таким чином, щоб фільтри навчалися автоматично
 * Ми можемо використовувати той самий підхід для пошуку шаблонів у високорівневих ознаках, а не лише в оригінальному зображенні. Таким чином, вилучення ознак у CNN працює на ієрархії ознак, починаючи з низькорівневих комбінацій пікселів і до високорівневих комбінацій частин зображення.
 
-![Ієрархічне вилучення ознак](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.uk.png)
+![Ієрархічне вилучення ознак](../../../../../translated_images/uk/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Зображення з [статті Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), засноване на [їхньому дослідженні](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 Наприклад, давайте розглянемо архітектуру VGG-16, мережі, яка досягла 92.7% точності в топ-5 класифікації ImageNet у 2014 році:
 
-![Шари ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.uk.jpg)
+![Шари ImageNet](../../../../../translated_images/uk/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Піраміда ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.uk.jpg)
+![Піраміда ImageNet](../../../../../translated_images/uk/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Зображення з [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -20,13 +20,13 @@ RNN-idega rakendatakse järjestusest-järjestusse meetodit kahe korduva võrgu a
 
 **Tähelepanu mehhanismid** pakuvad võimalust kaaluda iga sisendvektori kontekstuaalset mõju RNN-i iga väljundprognoosi puhul. Seda rakendatakse, luues otseteid sisend-RNN-i vaheolekute ja väljund-RNN-i vahel. Sel viisil, kui genereerime väljundisümbolit y<sub>t</sub>, võtame arvesse kõiki sisendvarjatud olekuid h<sub>i</sub>, erinevate kaalukoefitsientidega &alpha;<sub>t,i</sub>.
 
-![Pilt, mis näitab kodeerija/dekodeerija mudelit koos aditiivse tähelepanu kihiga](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.et.png)
+![Pilt, mis näitab kodeerija/dekodeerija mudelit koos aditiivse tähelepanu kihiga](../../../../../translated_images/et/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Kodeerija-dekodeerija mudel aditiivse tähelepanu mehhanismiga [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), viidatud [sellest blogipostitusest](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Tähelepanu maatriks {&alpha;<sub>i,j</sub>} esindab, millises ulatuses teatud sisendsõnad mõjutavad antud sõna genereerimist väljundjärjestuses. Allpool on näide sellisest maatriksist:
 
-![Pilt, mis näitab näidisalini, mille leidis RNNsearch-50, võetud Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.et.png)
+![Pilt, mis näitab näidisalini, mille leidis RNNsearch-50, võetud Bahdanau - arviz.org](../../../../../translated_images/et/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Joonis [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Joonis 3)
 
@@ -56,7 +56,7 @@ Positsioonilise kodeerimise idee on järgmine.
 * Treenitav embedimine, sarnane tokeni embedimisele. See on lähenemine, mida siin kaalume. Rakendame embedimise kihid nii tokenitele kui ka nende positsioonidele, mille tulemuseks on sama mõõtmetega embedimise vektorid, mille me seejärel kokku liidame.
 * Fikseeritud positsioonilise kodeerimise funktsioon, nagu on välja pakutud algses artiklis.
 
-<img src="../../../../../translated_images/pos-embedding.e41ce9b6cf6078af.et.png" width="50%"/>
+<img src="../../../../../translated_images/et/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Pilt autorilt
 
@@ -66,7 +66,7 @@ Positsioonilise embedimise tulemusena saame vektori, mis sisaldab nii algset tok
 
 Järgmine samm on mustrite tuvastamine järjestuses. Selleks kasutavad transformerid **isetähelepanu** mehhanismi, mis on sisuliselt tähelepanu rakendamine samale järjestusele sisendi ja väljundina. Isetähelepanu rakendamine võimaldab meil arvestada **konteksti** lauses ja näha, millised sõnad on omavahel seotud. Näiteks võimaldab see meil näha, millistele sõnadele viitavad kooreferentsid, nagu *see*, ja arvestada konteksti:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.et.png)
+![](../../../../../translated_images/et/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Pilt [Google'i blogist](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Kuna iga sisendi positsioon kaardistatakse sõltumatult iga väljundi positsioon
 
 **BERT** (Bidirectional Encoder Representations from Transformers) on väga suur mitmekihiline transformer võrk, millel on 12 kihti *BERT-base* jaoks ja 24 kihti *BERT-large* jaoks. Mudel treenitakse esmalt suure tekstikorpuse (Wikipedia + raamatud) peal kasutades juhendamata treeningut (ennustades maskeeritud sõnu lauses). Treeningu käigus omandab mudel märkimisväärsel tasemel keele mõistmist, mida saab seejärel kasutada teiste andmekogumitega peenhäälestamise abil. Seda protsessi nimetatakse **ülekandeõppeks**.
 
-![pilt aadressilt http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.et.png)
+![pilt aadressilt http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/et/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Pildi [allikas](http://jalammar.github.io/illustrated-bert/)
 

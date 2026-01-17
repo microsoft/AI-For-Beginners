@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Arvutinägemine
 
-![Arvutinägemise sisu kokkuvõte visandina](../../../../translated_images/ai-computervision.6506ebebac3fbf76.et.png)
+![Arvutinägemise sisu kokkuvõte visandina](../../../../translated_images/et/ai-computervision.6506ebebac3fbf76.webp)
 
 Selles osas õpime:
 

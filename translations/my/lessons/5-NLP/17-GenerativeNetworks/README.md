@@ -19,7 +19,7 @@ Recurrent Neural Networks (RNNs) နှင့် Long Short Term Memory Cells (L
 
 ဤအရာသည် အောက်ပါပုံတွင် ဖော်ပြထားသော neural architectures များကို ဖန်တီးနိုင်စေသည်-
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.my.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/my/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > ပုံကို [Andrej Karpaty](http://karpathy.github.io/) ရဲ့ [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) ဆိုတဲ့ blog post မှရယူထားသည်။
 
@@ -32,7 +32,7 @@ Recurrent Neural Networks (RNNs) နှင့် Long Short Term Memory Cells (L
 
 ဤ RNN ကို စာသားကို အဆင့်ဆင့် ထုတ်လုပ်ရန် training လုပ်မည်။ အဆင့်တစ်ခုစီတွင် `nchars` အရှည်ရှိသော စာလုံးများ၏ sequence ကိုယူပြီး၊ input character တစ်ခုစီအတွက် နောက်ထွက် character ကို network မှ ထုတ်ပေးရန် မေးမြန်းမည်-
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.my.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/my/rnn-generate.56c54afb52f9781d.webp)
 
 စာသားထုတ်လုပ်ခြင်း (inference အတွင်း) တွင် **prompt** တစ်ခုကို RNN cells မှတဆင့် hidden state ကို ရယူပြီး၊ ထို့နောက် generation ကို စတင်မည်။ စာလုံးတစ်လုံးစီကို အဆင့်ဆင့် ထုတ်လုပ်ပြီး၊ state နှင့် ထုတ်လုပ်ထားသော စာလုံးကို နောက် RNN cell သို့ ပေးပို့ကာ နောက် character ကို ထုတ်လုပ်မည်။ ထိုနောက် လိုအပ်သော စာလုံးများကို ထုတ်လုပ်ပြီးမှ ရပ်မည်။
 

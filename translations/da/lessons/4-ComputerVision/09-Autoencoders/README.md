@@ -19,7 +19,7 @@ Vi kan dog ønske at bruge rå (umærkede) data til at træne CNN-featureekstrak
 
 Da vi træner en autoencoder til at fange så meget information som muligt fra det oprindelige billede for at opnå en præcis rekonstruktion, forsøger netværket at finde den bedste **indlejring** af inputbilleder for at fange meningen.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.da.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/da/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Billede fra [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

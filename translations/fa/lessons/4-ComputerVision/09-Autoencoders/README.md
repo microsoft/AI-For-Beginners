@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 از آنجا که ما اتوانکودر را برای گرفتن بیشترین اطلاعات از تصویر اصلی برای بازسازی دقیق آموزش می‌دهیم، شبکه تلاش می‌کند بهترین **تعبیر** از تصاویر ورودی را پیدا کند تا معنا را ثبت کند.
 
-![نمودار اتوانکودر](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.fa.jpg)
+![نمودار اتوانکودر](../../../../../translated_images/fa/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > تصویر از [وبلاگ Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

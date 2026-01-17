@@ -58,7 +58,7 @@ Le surapprentissage est un concept extrêmement important en apprentissage autom
 
 Considérons le problème suivant d'approximation de 5 points (représentés par des `x` sur les graphiques ci-dessous) :
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.fr.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.fr.jpg)
+![linear](../../../../../translated_images/fr/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/fr/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Modèle linéaire, 2 paramètres** | **Modèle non linéaire, 7 paramètres**
 Erreur d'entraînement = 5.3 | Erreur d'entraînement = 0
@@ -79,7 +79,7 @@ Il est crucial de trouver un équilibre correct entre la richesse du modèle (no
 
 Comme vous pouvez le voir sur le graphique ci-dessus, le surapprentissage peut être détecté par une erreur d'entraînement très faible et une erreur de validation élevée. Normalement, pendant l'entraînement, nous verrons les erreurs d'entraînement et de validation commencer à diminuer, puis à un certain moment, l'erreur de validation pourrait arrêter de diminuer et commencer à augmenter. Ce sera un signe de surapprentissage, et un indicateur que nous devrions probablement arrêter l'entraînement à ce moment-là (ou au moins faire une sauvegarde du modèle).
 
-![surapprentissage](../../../../../translated_images/Overfitting.408ad91cd90b4371.fr.png)
+![surapprentissage](../../../../../translated_images/fr/Overfitting.408ad91cd90b4371.webp)
 
 ## Comment prévenir le surapprentissage ?
 

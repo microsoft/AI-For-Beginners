@@ -19,7 +19,7 @@ Tako bi plast vdelave sprejela besedo kot vhod in ustvarila izhodni vektor dolo�
 
 Z uporabo plasti vdelave kot prve plasti v našem klasifikacijskem omrežju lahko preklopimo iz modela vreče besed na model **vreče vdelav**, kjer najprej vsako besedo v našem besedilu pretvorimo v ustrezno vdelavo, nato pa izračunamo neko agregatno funkcijo nad vsemi temi vdelavami, kot so `sum`, `average` ali `max`.  
 
-![Slika prikazuje klasifikator vdelav za pet besed v zaporedju.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.sl.png)
+![Slika prikazuje klasifikator vdelav za pet besed v zaporedju.](../../../../../translated_images/sl/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Slika avtorja
 
@@ -40,7 +40,7 @@ Da bi to dosegli, moramo naš model vdelave predhodno trenirati na veliki zbirki
 
 CBoW je hitrejši, medtem ko je preskok-gram počasnejši, vendar bolje predstavlja redke besede.
 
-![Slika prikazuje algoritma CBoW in Skip-Gram za pretvorbo besed v vektorje.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sl.png)
+![Slika prikazuje algoritma CBoW in Skip-Gram za pretvorbo besed v vektorje.](../../../../../translated_images/sl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Slika iz [tega članka](https://arxiv.org/pdf/1301.3781.pdf)
 

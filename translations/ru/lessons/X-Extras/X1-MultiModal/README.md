@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Основная идея CLIP заключается в способности сравнивать текстовые запросы с изображением и определять, насколько хорошо изображение соответствует запросу.
 
-![Архитектура CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.ru.png)
+![Архитектура CLIP](../../../../../translated_images/ru/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Изображение из [этой статьи](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Предположим, нам нужно классифицировать изображения, например, на кошек, собак и людей. В этом случае мы можем подать модели изображение и серию текстовых запросов: "*изображение кошки*", "*изображение собаки*", "*изображение человека*". В полученном векторе из 3 вероятностей нам нужно просто выбрать индекс с наибольшим значением.
 
-![CLIP для классификации изображений](../../../../../translated_images/clip-class.3af42ef0b2b19369.ru.png)
+![CLIP для классификации изображений](../../../../../translated_images/ru/clip-class.3af42ef0b2b19369.webp)
 
 > *Изображение из [этой статьи](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ CLIP также можно использовать для **генерации 
 
 Одно из важных отличий VQGAN от традиционного GAN заключается в том, что последний может создавать приличное изображение из любого входного вектора, тогда как VQGAN, скорее всего, создаст несогласованное изображение. Поэтому процесс создания изображения необходимо дополнительно направлять, и это можно сделать с помощью CLIP.
 
-![Архитектура VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.ru.png)
+![Архитектура VQGAN+CLIP](../../../../../translated_images/ru/vqgan.5027fe05051dfa31.webp)
 
 Чтобы сгенерировать изображение, соответствующее текстовому запросу, мы начинаем с некоторого случайного вектора кодирования, который передается через VQGAN для создания изображения. Затем CLIP используется для создания функции потерь, которая показывает, насколько хорошо изображение соответствует текстовому запросу. Цель состоит в минимизации этой функции потерь с использованием обратного распространения для корректировки параметров входного вектора.
 
 Отличная библиотека, реализующая VQGAN+CLIP, — это [Pixray](http://github.com/pixray/pixray).
 
-![Изображение, созданное Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.ru.png) |  ![Изображение, созданное Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.ru.png) | ![Изображение, созданное Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.ru.png)
+![Изображение, созданное Pixray](../../../../../translated_images/ru/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Изображение, созданное Pixray](../../../../../translated_images/ru/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Изображение, созданное Pixray](../../../../../translated_images/ru/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Изображение, созданное по запросу *акварельный портрет молодого учителя литературы с книгой крупным планом* | Изображение, созданное по запросу *масляный портрет молодой учительницы информатики с компьютером крупным планом* | Изображение, созданное по запросу *масляный портрет пожилого учителя математики на фоне доски крупным планом*
 
@@ -75,7 +75,7 @@ DALL-E — это версия GPT-3, обученная для генераци
 Основное отличие DALL-E 1 от DALL-E 2 заключается в том, что последняя генерирует более реалистичные изображения и произведения искусства.
 
 Примеры генерации изображений с помощью DALL-E:
-![Изображение, созданное DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.ru.png) |  ![Изображение, созданное DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.ru.png) | ![Изображение, созданное DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.ru.png)
+![Изображение, созданное DALL-E](../../../../../translated_images/ru/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Изображение, созданное DALL-E](../../../../../translated_images/ru/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Изображение, созданное DALL-E](../../../../../translated_images/ru/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Изображение, созданное по запросу *акварельный портрет молодого учителя литературы с книгой крупным планом* | Изображение, созданное по запросу *масляный портрет молодой учительницы информатики с компьютером крупным планом* | Изображение, созданное по запросу *масляный портрет пожилого учителя математики на фоне доски крупным планом*
 

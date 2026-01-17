@@ -56,7 +56,7 @@ lapsella | O
 
 Koska meidän täytyy rakentaa yksi-yhteen vastaavuus tokenien ja luokkien välillä, voimme kouluttaa oikeanpuoleisen **moni-moniin** neuroverkkopohjaisen mallin tästä kuvasta:
 
-![Kuva, joka esittää yleisiä toistuvien neuroverkkojen rakenteita.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.fi.jpg)
+![Kuva, joka esittää yleisiä toistuvien neuroverkkojen rakenteita.](../../../../../translated_images/fi/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Kuva [tästä blogikirjoituksesta](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) kirjoittajalta [Andrej Karpathy](http://karpathy.github.io/). NER token-luokittelumallit vastaavat oikeanpuoleista verkkoarkkitehtuuria tässä kuvassa.*
 

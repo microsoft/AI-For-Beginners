@@ -15,7 +15,7 @@ Transformer 모델이 NLP 작업을 해결하는 데 성공한 이후, 동일하
 
 CLIP의 주요 아이디어는 텍스트 프롬프트와 이미지를 비교하여 이미지가 프롬프트와 얼마나 잘 일치하는지 판단하는 것입니다.
 
-![CLIP 아키텍처](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.ko.png)
+![CLIP 아키텍처](../../../../../translated_images/ko/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *[이 블로그 글](https://openai.com/blog/clip/)에서 가져온 이미지*
 
@@ -31,7 +31,7 @@ CLIP 모델/라이브러리는 [OpenAI GitHub](https://github.com/openai/CLIP)�
 
 예를 들어, 고양이, 개, 인간을 분류해야 한다고 가정해 봅시다. 이 경우 모델에 이미지를 제공하고, "*고양이 사진*", "*개 사진*", "*인간 사진*"과 같은 일련의 텍스트 프롬프트를 제공합니다. 결과 벡터에서 가장 높은 값을 가진 인덱스를 선택하면 됩니다.
 
-![CLIP을 이용한 이미지 분류](../../../../../translated_images/clip-class.3af42ef0b2b19369.ko.png)
+![CLIP을 이용한 이미지 분류](../../../../../translated_images/ko/clip-class.3af42ef0b2b19369.webp)
 
 > *[이 블로그 글](https://openai.com/blog/clip/)에서 가져온 이미지*
 
@@ -55,13 +55,13 @@ VQGAN에 대해 더 알아보려면 [Taming Transformers](https://compvis.github
 
 VQGAN과 전통적인 GAN의 중요한 차이점 중 하나는 후자가 어떤 입력 벡터로도 괜찮은 이미지를 생성할 수 있는 반면, VQGAN은 일관성이 없는 이미지를 생성할 가능성이 높다는 점입니다. 따라서 이미지 생성 과정을 추가로 안내해야 하며, 이를 CLIP을 사용하여 수행할 수 있습니다.
 
-![VQGAN+CLIP 아키텍처](../../../../../translated_images/vqgan.5027fe05051dfa31.ko.png)
+![VQGAN+CLIP 아키텍처](../../../../../translated_images/ko/vqgan.5027fe05051dfa31.webp)
 
 텍스트 프롬프트에 해당하는 이미지를 생성하려면, 먼저 VQGAN을 통해 이미지를 생성하는 임의의 인코딩 벡터로 시작합니다. 그런 다음 CLIP을 사용하여 이미지가 텍스트 프롬프트와 얼마나 잘 일치하는지 보여주는 손실 함수를 생성합니다. 이후 목표는 이 손실을 최소화하는 것이며, 역전파를 사용하여 입력 벡터 매개변수를 조정합니다.
 
 VQGAN+CLIP을 구현한 훌륭한 라이브러리는 [Pixray](http://github.com/pixray/pixray)입니다.
 
-![Pixray로 생성된 이미지](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.ko.png) |  ![Pixray로 생성된 이미지](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.ko.png) | ![Pixray로 생성된 이미지](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.ko.png)
+![Pixray로 생성된 이미지](../../../../../translated_images/ko/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Pixray로 생성된 이미지](../../../../../translated_images/ko/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Pixray로 생성된 이미지](../../../../../translated_images/ko/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 프롬프트 *문학을 가르치는 젊은 남성 교사의 근접 수채화 초상화, 책을 들고 있음*으로 생성된 이미지 | 프롬프트 *컴퓨터 과학을 가르치는 젊은 여성 교사의 근접 유화 초상화, 컴퓨터와 함께 있음*으로 생성된 이미지 | 프롬프트 *수학을 가르치는 나이 든 남성 교사의 근접 유화 초상화, 칠판 앞에 있음*으로 생성된 이미지
 
@@ -77,7 +77,7 @@ CLIP과 달리, DALL-E는 텍스트와 이미지를 단일 토큰 스트림으�
 DALL-E 1과 2의 주요 차이점은 DALL-E 2가 더 현실적인 이미지와 예술 작품을 생성한다는 점입니다.
 
 DALL-E를 사용한 이미지 생성 예:
-![Pixray로 생성된 이미지](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.ko.png) |  ![Pixray로 생성된 이미지](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.ko.png) | ![Pixray로 생성된 이미지](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.ko.png)
+![Pixray로 생성된 이미지](../../../../../translated_images/ko/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Pixray로 생성된 이미지](../../../../../translated_images/ko/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Pixray로 생성된 이미지](../../../../../translated_images/ko/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 프롬프트 *문학을 가르치는 젊은 남성 교사의 근접 수채화 초상화, 책을 들고 있음*으로 생성된 이미지 | 프롬프트 *컴퓨터 과학을 가르치는 젊은 여성 교사의 근접 유화 초상화, 컴퓨터와 함께 있음*으로 생성된 이미지 | 프롬프트 *수학을 가르치는 나이 든 남성 교사의 근접 유화 초상화, 칠판 앞에 있음*으로 생성된 이미지
 

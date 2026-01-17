@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # അവലോകനം
 
-![ഒരു ഡ്രോയിങ്ങിൽ അവലോകനം](../../../translated_images/ai-overview.0857791951d19500.ml.png)
+![ഒരു ഡ്രോയിങ്ങിൽ അവലോകനം](../../../translated_images/ml/ai-overview.0857791951d19500.webp)
 
 > സ്കെച്ച്നോട്ട് [ടോമോമി ഇമുര](https://twitter.com/girlie_mac) എഴുതിയത്
 

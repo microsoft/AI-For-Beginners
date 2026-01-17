@@ -23,7 +23,7 @@ Word2Vec와 GloVe 같은 의미 임베딩은 사실 **언어 모델링**의 첫 
 * **연속적인 단어 묶음** (CBoW): 토큰 시퀀스 $W_{-N}$, ..., $W_N$에서 가운데 토큰 $W_0$을 예측하는 방식
 * **스킵그램**: 가운데 토큰 $W_0$에서 주변 토큰 {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}을 예측하는 방식
 
-![단어를 벡터로 변환하는 알고리즘에 대한 논문 이미지](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ko.png)
+![단어를 벡터로 변환하는 알고리즘에 대한 논문 이미지](../../../../../translated_images/ko/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > 이미지 출처: [이 논문](https://arxiv.org/pdf/1301.3781.pdf)
 

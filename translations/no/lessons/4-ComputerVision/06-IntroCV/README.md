@@ -73,14 +73,14 @@ I vår [OpenCV Notebook](OpenCV.ipynb) gir vi noen eksempler på når datamaskin
 
 * **Forhåndsbehandling av et fotografi av en Braille-bok**. Vi fokuserer på hvordan vi kan bruke terskling, funksjonsdeteksjon, perspektivtransformasjon og NumPy-manipulasjoner for å separere individuelle Braille-symboler for videre klassifisering av et nevralt nettverk.
 
-![Braille-bilde](../../../../../translated_images/braille.341962ff76b1bd70.no.jpeg) | ![Forhåndsbehandlet Braille-bilde](../../../../../translated_images/braille-result.46530fea020b03c7.no.png) | ![Braille-symboler](../../../../../translated_images/braille-symbols.0159185ab69d5339.no.png)
+![Braille-bilde](../../../../../translated_images/no/braille.341962ff76b1bd70.webp) | ![Forhåndsbehandlet Braille-bilde](../../../../../translated_images/no/braille-result.46530fea020b03c7.webp) | ![Braille-symboler](../../../../../translated_images/no/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Bilde fra [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Deteksjon av bevegelse i video ved hjelp av rammeforskjell**. Hvis kameraet er fast, bør rammer fra kamerafeeden være ganske like hverandre. Siden rammer er representert som arrays, vil vi ved å trekke fra disse arrayene for to påfølgende rammer få pikselforskjellen, som bør være lav for statiske rammer, og bli høyere når det er betydelig bevegelse i bildet.
 
-![Bilde av videorammer og rammeforskjeller](../../../../../translated_images/frame-difference.706f805491a0883c.no.png)
+![Bilde av videorammer og rammeforskjeller](../../../../../translated_images/no/frame-difference.706f805491a0883c.webp)
 
 > Bilde fra [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ I vår [OpenCV Notebook](OpenCV.ipynb) gir vi noen eksempler på når datamaskin
    - **Tett optisk flyt** beregner vektorfeltet som viser hvor hver piksel beveger seg.
    - **Sparsom optisk flyt** er basert på å ta noen distinkte funksjoner i bildet (f.eks. kanter) og bygge deres bane fra ramme til ramme.
 
-![Bilde av optisk flyt](../../../../../translated_images/optical.1f4a94464579a83a.no.png)
+![Bilde av optisk flyt](../../../../../translated_images/no/optical.1f4a94464579a83a.webp)
 
 > Bilde fra [OpenCV.ipynb](OpenCV.ipynb)
 

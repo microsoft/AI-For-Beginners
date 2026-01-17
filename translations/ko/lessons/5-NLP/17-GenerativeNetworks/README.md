@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이를 통해 아래 그림에 표시된 다양한 신경망 아키텍처를 구현할 수 있습니다:
 
-![일반적인 순환 신경망 패턴을 보여주는 이미지.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ko.jpg)
+![일반적인 순환 신경망 패턴을 보여주는 이미지.](../../../../../translated_images/ko/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > 이미지 출처: [Andrej Karpaty](http://karpathy.github.io/)의 블로그 게시물 [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이 RNN을 훈련시켜 단계별로 텍스트를 생성할 것입니다. 각 단계에서 `nchars` 길이의 문자 시퀀스를 받아 각 입력 문자에 대해 다음 출력 문자를 생성하도록 네트워크에 요청합니다:
 
-![단어 'HELLO'를 생성하는 RNN 예제를 보여주는 이미지.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.ko.png)
+![단어 'HELLO'를 생성하는 RNN 예제를 보여주는 이미지.](../../../../../translated_images/ko/rnn-generate.56c54afb52f9781d.webp)
 
 텍스트를 생성할 때(추론 중), **프롬프트**를 시작점으로 사용하여 RNN 셀을 통해 중간 상태를 생성한 후 이 상태에서 생성을 시작합니다. 한 번에 한 문자씩 생성하며, 상태와 생성된 문자를 다음 RNN 셀에 전달하여 다음 문자를 생성합니다. 이 과정을 필요한 문자 수만큼 반복합니다.
 

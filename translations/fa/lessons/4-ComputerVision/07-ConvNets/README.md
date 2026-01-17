@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 برای استخراج الگوها، از مفهوم **فیلترهای کانولوشنی** استفاده خواهیم کرد. همان‌طور که می‌دانید، یک تصویر به صورت یک ماتریس دو‌بعدی یا یک تنسور سه‌بعدی با عمق رنگ نمایش داده می‌شود. اعمال یک فیلتر به این معناست که یک ماتریس کوچک **هسته فیلتر** را می‌گیریم و برای هر پیکسل در تصویر اصلی میانگین وزنی را با نقاط همسایه محاسبه می‌کنیم. می‌توانیم این فرآیند را به صورت یک پنجره کوچک که روی کل تصویر حرکت می‌کند و تمام پیکسل‌ها را بر اساس وزن‌های موجود در ماتریس هسته فیلتر میانگین‌گیری می‌کند، تصور کنیم.
 
-![فیلتر لبه عمودی](../../../../../translated_images/filter-vert.b7148390ca0bc356.fa.png) | ![فیلتر لبه افقی](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.fa.png)
+![فیلتر لبه عمودی](../../../../../translated_images/fa/filter-vert.b7148390ca0bc356.webp) | ![فیلتر لبه افقی](../../../../../translated_images/fa/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > تصویر از دیمیتری سوشنیکوف
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * می‌توانیم شبکه را به گونه‌ای طراحی کنیم که فیلترها به صورت خودکار آموزش ببینند.
 * می‌توانیم از همین روش برای یافتن الگوها در ویژگی‌های سطح بالا، نه فقط در تصویر اصلی، استفاده کنیم. بنابراین استخراج ویژگی‌های CNN بر اساس سلسله مراتبی از ویژگی‌ها عمل می‌کند، از ترکیب‌های پیکسل سطح پایین تا ترکیب‌های سطح بالای بخش‌های تصویر.
 
-![استخراج ویژگی سلسله‌مراتبی](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.fa.png)
+![استخراج ویژگی سلسله‌مراتبی](../../../../../translated_images/fa/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > تصویر از [مقاله‌ای توسط هیسلوپ-لینچ](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d)، بر اساس [تحقیقات آن‌ها](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 به عنوان مثال، بیایید به معماری VGG-16 نگاه کنیم، شبکه‌ای که در سال ۲۰۱۴ به دقت ۹۲.۷٪ در طبقه‌بندی پنج‌تایی ImageNet دست یافت:
 
-![لایه‌های ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.fa.jpg)
+![لایه‌های ImageNet](../../../../../translated_images/fa/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![هرم ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.fa.jpg)
+![هرم ImageNet](../../../../../translated_images/fa/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > تصویر از [ریسرچ‌گیت](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

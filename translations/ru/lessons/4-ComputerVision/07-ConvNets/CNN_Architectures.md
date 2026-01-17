@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 — это сеть, которая достигла точности 92.7% в классификации ImageNet (top-5) в 2014 году. Она имеет следующую структуру слоев:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ru.jpg)
+![ImageNet Layers](../../../../../translated_images/ru/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Как видно, VGG следует традиционной пирамидальной архитектуре, представляющей собой последовательность слоев свертки и пуллинга.
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ru.jpg)
+![ImageNet Pyramid](../../../../../translated_images/ru/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Изображение с [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

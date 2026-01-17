@@ -19,7 +19,7 @@ BoW 또는 TF/IDF 기반의 분류기를 훈련할 때, 우리는 `vocab_size` �
 
 분류기 네트워크의 첫 번째 레이어로 임베딩 레이어를 사용하면 bag-of-words 모델에서 **embedding bag** 모델로 전환할 수 있습니다. 여기서 텍스트의 각 단어를 해당 임베딩으로 변환한 후, 이러한 모든 임베딩에 대해 `sum`, `average`, `max`와 같은 집계 함수를 계산합니다.
 
-![다섯 개의 시퀀스 단어에 대한 임베딩 분류기를 보여주는 이미지.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.ko.png)
+![다섯 개의 시퀀스 단어에 대한 임베딩 분류기를 보여주는 이미지.](../../../../../translated_images/ko/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > 작성자 제공 이미지
 
@@ -40,7 +40,7 @@ BoW 또는 TF/IDF 기반의 분류기를 훈련할 때, 우리는 `vocab_size` �
 
 CBoW는 더 빠르지만, skip-gram은 더 느리며 드문 단어를 더 잘 표현합니다.
 
-![단어를 벡터로 변환하는 CBoW와 Skip-Gram 알고리즘을 보여주는 이미지.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ko.png)
+![단어를 벡터로 변환하는 CBoW와 Skip-Gram 알고리즘을 보여주는 이미지.](../../../../../translated_images/ko/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > [이 논문](https://arxiv.org/pdf/1301.3781.pdf)에서 제공된 이미지
 

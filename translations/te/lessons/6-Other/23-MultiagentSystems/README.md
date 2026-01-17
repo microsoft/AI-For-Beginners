@@ -61,7 +61,7 @@ ask turtles [
 
 నెట్‌లాగోలో ఉన్న గొప్ప విషయం ఏమిటంటే, మీరు ప్రయత్నించగల పని చేసే మోడల్స్ లైబ్రరీ ఉంది. **File → Models Library**కి వెళ్లండి, మీరు ఎన్నుకోవడానికి అనేక మోడల్స్ వర్గాలు ఉంటాయి.
 
-<img alt="NetLogo Models Library" src="../../../../../translated_images/NetLogo-ModelLib.efe023afb4763c05.te.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/te/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > మోడల్స్ లైబ్రరీ స్క్రీన్‌షాట్ - Dmitry Soshnikov
 
@@ -71,7 +71,7 @@ ask turtles [
 
 మోడల్ తెరిచిన తర్వాత, మీరు ప్రధాన నెట్‌లాగో స్క్రీన్‌కు తీసుకువెళ్ళబడతారు. ఇక్కడ ఒక నమూనా మోడల్ ఉంది, ఇది పరిమిత వనరులు (గడ్డి) ఉన్నప్పుడు నక్కలు మరియు గొర్రెల జనాభాను వివరించేది.
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.te.png)
+![NetLogo Main Screen](../../../../../translated_images/te/NetLogo-Main.32653711ec1a01b3.webp)
 
 > స్క్రీన్‌షాట్ - Dmitry Soshnikov
 

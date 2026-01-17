@@ -15,7 +15,7 @@ Laboriülesanne [AI algajatele õppekavast](https://github.com/microsoft/ai-for-
 
 Sinu eesmärk on treenida RL-agent juhtima [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) OpenAI keskkonnas.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/mountaincar.f7b7a7f6d4f9933b.et.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/et/mountaincar.f7b7a7f6d4f9933b.webp" width="300"/>
 
 ## Keskkond
 

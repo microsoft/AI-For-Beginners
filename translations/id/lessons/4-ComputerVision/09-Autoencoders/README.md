@@ -19,7 +19,7 @@ Namun, kita mungkin ingin menggunakan data mentah (tidak berlabel) untuk melatih
 
 Karena kita melatih autoencoder untuk menangkap sebanyak mungkin informasi dari gambar asli agar dapat merekonstruksi dengan akurat, jaringan ini mencoba menemukan **embedding** terbaik dari gambar input untuk menangkap maknanya.
 
-![Diagram AutoEncoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.id.jpg)
+![Diagram AutoEncoder](../../../../../translated_images/id/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Gambar dari [blog Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

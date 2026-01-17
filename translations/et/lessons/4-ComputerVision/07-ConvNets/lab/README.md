@@ -21,7 +21,7 @@ Te peate treenima konvolutsioonilise närvivõrgu, et klassifitseerida erinevaid
 
 Me kasutame [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) andmestikku, mis sisaldab pilte 37 erinevast koerte ja kasside tõust.
 
-![Andmestik, millega töötame](../../../../../../translated_images/data.50b2a9d5484bdbf0.et.png)
+![Andmestik, millega töötame](../../../../../../translated_images/et/data.50b2a9d5484bdbf0.webp)
 
 Andmestiku allalaadimiseks kasutage järgmist koodilõiku:
 

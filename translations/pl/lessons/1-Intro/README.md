@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wprowadzenie do AI
 
-![Podsumowanie treści wprowadzenia do AI w formie rysunku](../../../../translated_images/ai-intro.bf28d1ac4235881c.pl.png)
+![Podsumowanie treści wprowadzenia do AI w formie rysunku](../../../../translated_images/pl/ai-intro.bf28d1ac4235881c.webp)
 
 > Rysunek odręczny autorstwa [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Pierwotnie komputery zostały wynalezione przez [Charlesa Babbage'a](https://en.wikipedia.org/wiki/Charles_Babbage), aby operować na liczbach zgodnie z dobrze zdefiniowaną procedurą – algorytmem. Współczesne komputery, choć znacznie bardziej zaawansowane niż pierwotny model zaproponowany w XIX wieku, nadal opierają się na tej samej idei kontrolowanych obliczeń. Dlatego możliwe jest zaprogramowanie komputera do wykonania czegoś, jeśli znamy dokładną sekwencję kroków potrzebnych do osiągnięcia celu.
 
-![Zdjęcie osoby](../../../../translated_images/dsh_age.d212a30d4e54fb5f.pl.png)
+![Zdjęcie osoby](../../../../translated_images/pl/dsh_age.d212a30d4e54fb5f.webp)
 
 > Zdjęcie autorstwa [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Więcej informacji znajdziesz w **[Ogólnej Sztucznej Inteligencji](https://en.w
 
 Jednym z problemów związanych z terminem **[Inteligencja](https://en.wikipedia.org/wiki/Intelligence)** jest brak jasnej definicji tego pojęcia. Można argumentować, że inteligencja jest związana z **myśleniem abstrakcyjnym** lub **samoświadomością**, ale nie potrafimy jej właściwie zdefiniować.
 
-![Zdjęcie kota](../../../../translated_images/photo-cat.8c8e8fb760ffe457.pl.jpg)
+![Zdjęcie kota](../../../../translated_images/pl/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Zdjęcie](https://unsplash.com/photos/75715CVEJhI) autorstwa [Amber Kipp](https://unsplash.com/@sadmax) z Unsplash
 
@@ -98,13 +98,13 @@ Alternatywnie, możemy spróbować modelować najprostsze elementy w naszym móz
 
 > | A co z ML?         |      |
 > |--------------|-----------|
-> | Część Sztucznej Inteligencji, która opiera się na uczeniu komputera rozwiązywania problemu na podstawie danych, nazywa się **Uczeniem Maszynowym**. Nie będziemy rozważać klasycznego uczenia maszynowego w tym kursie – odsyłamy Cię do osobnego programu [Uczenie Maszynowe dla Początkujących](http://aka.ms/ml-beginners). |   ![ML dla Początkujących](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.pl.png)    |
+> | Część Sztucznej Inteligencji, która opiera się na uczeniu komputera rozwiązywania problemu na podstawie danych, nazywa się **Uczeniem Maszynowym**. Nie będziemy rozważać klasycznego uczenia maszynowego w tym kursie – odsyłamy Cię do osobnego programu [Uczenie Maszynowe dla Początkujących](http://aka.ms/ml-beginners). |   ![ML dla Początkujących](../../../../translated_images/pl/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Krótka historia AI
 
 Sztuczna Inteligencja jako dziedzina rozpoczęła się w połowie XX wieku. Początkowo podejście symboliczne było dominujące i doprowadziło do wielu ważnych sukcesów, takich jak systemy ekspertowe – programy komputerowe, które były w stanie działać jako ekspert w ograniczonych dziedzinach problemowych. Jednak szybko stało się jasne, że takie podejście nie jest skalowalne. Wydobycie wiedzy od eksperta, reprezentowanie jej w komputerze i utrzymanie tej bazy wiedzy w aktualności okazuje się bardzo złożonym zadaniem i zbyt kosztownym, aby było praktyczne w wielu przypadkach. Doprowadziło to do tzw. [Zimy AI](https://en.wikipedia.org/wiki/AI_winter) w latach 70.
 
-<img alt="Krótka historia AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.pl.png" width="70%"/>
+<img alt="Krótka historia AI" src="../../../../translated_images/pl/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Podobnie możemy zobaczyć, jak zmieniało się podejście do tworzenia „progr
 * Współczesne asystenty, takie jak Cortana, Siri czy Google Assistant, to hybrydowe systemy, które wykorzystują sieci neuronowe do konwersji mowy na tekst i rozpoznawania naszych intencji, a następnie stosują pewne rozumowanie lub explicite algorytmy do wykonywania wymaganych działań.
 * W przyszłości możemy oczekiwać pełnego modelu opartego na sieciach neuronowych, który samodzielnie obsłuży dialog. Ostatnie sieci neuronowe GPT i [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) wykazują wielkie sukcesy w tym zakresie.
 
-<img alt="Ewolucja testu Turinga" src="../../../../translated_images/turing-test-evol.4184696701293ead.pl.png" width="70%"/>
+<img alt="Ewolucja testu Turinga" src="../../../../translated_images/pl/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Obraz autorstwa Dmitry Soshnikov, [zdjęcie](https://unsplash.com/photos/r8LmVbUKgns) autorstwa [Mariny Abrosimovej](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Ostatnie badania nad sztuczną inteligencją

@@ -1,116 +1,116 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7d097f7fda9166ead615e4c34552381b",
-  "translation_date": "2025-09-23T11:02:09+00:00",
+  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
+  "translation_date": "2026-01-16T04:21:13+00:00",
   "source_file": "lessons/2-Symbolic/README.md",
   "language_code": "sw"
 }
 -->
 # Uwakilishi wa Maarifa na Mifumo ya Wataalamu
 
-![Muhtasari wa maudhui ya AI ya Kimaandishi](../../../../translated_images/ai-symbolic.715a30cb610411a6.sw.png)
+![Muhtasari wa maudhui ya AI ya Ikoniki](../../../../../../translated_images/sw/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote na [Tomomi Imura](https://twitter.com/girlie_mac)
 
-Utafiti wa akili bandia unategemea kutafuta maarifa, ili kuelewa dunia kwa njia sawa na binadamu. Lakini unaweza kufanya hivyo vipi?
+Jitihada za akili bandia zinatokana na kutafuta maarifa, kuelewa dunia kama wanadamu wanavyofanya. Lakini unaweza kufanya hivyo vipi?
 
-## [Jaribio la awali la somo](https://ff-quizzes.netlify.app/en/ai/quiz/3)
+## [Mtihani wa kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
-Katika siku za mwanzo za AI, mbinu ya juu-chini ya kuunda mifumo yenye akili (ilijadiliwa katika somo lililopita) ilikuwa maarufu. Wazo lilikuwa ni kutoa maarifa kutoka kwa watu na kuyafanya yaweze kusomeka na mashine, kisha kuyatumia kutatua matatizo kiotomatiki. Mbinu hii ilitegemea mawazo mawili makubwa:
+Katika siku za mwanzo za AI, mbinu ya kutoka juu hadi chini ya kuunda mifumo ya akili (iliyokuwa imetajwa katika somo la awali) ilikuwa maarufu. Wazo lilikuwa kuchukua maarifa kutoka kwa watu na kuyahifadhi katika mfumo wa kusomwa na mashine, kisha kuyatumia kutatua matatizo kiotomatiki. Mbinu hii ilizingatia mawazo mawili makubwa:
 
 * Uwakilishi wa Maarifa
-* Utoaji wa Sababu
+* Kutoa Madai/Kuelewa (Reasoning)
 
 ## Uwakilishi wa Maarifa
 
-Moja ya dhana muhimu katika AI ya Kimaandishi ni **maarifa**. Ni muhimu kutofautisha maarifa na *taarifa* au *data*. Kwa mfano, mtu anaweza kusema kwamba vitabu vina maarifa, kwa sababu mtu anaweza kusoma vitabu na kuwa mtaalamu. Hata hivyo, kile ambacho vitabu vina ni kinachoitwa *data*, na kwa kusoma vitabu na kuunganisha data hii katika mfano wetu wa dunia tunabadilisha data hii kuwa maarifa.
+Moja ya dhana muhimu katika AI ya Ikoniki ni **maarifa**. Ni muhimu kutofautisha maarifa na *taarifa* au *data*. Kwa mfano, mtu anaweza kusema kwamba vitabu vina maarifa, kwa sababu mtu anaweza kusoma vitabu na kuwa mtaalamu. Hata hivyo, kile vitabu vinachonacho kinaitwa *data*, na kwa kusoma vitabu na kuingiza data hii katika mfano wetu wa dunia, tunabadilisha data kuwa maarifa.
 
-> ✅ **Maarifa** ni kitu kilicho ndani ya akili zetu na kinawakilisha uelewa wetu wa dunia. Yanapatikana kupitia mchakato wa **kujifunza** kwa bidii, ambao unajumuisha vipande vya taarifa tunazopokea katika mfano wetu wa dunia.
+> ✅ **Maarifa** ni kitu kilicho kichwani mwetu kinachoonyesha ufahamu wetu wa dunia. Yanapatikana kupitia mchakato wa **kujifunza** unaochukua vipande vya taarifa tunazopata na kuviunganisha katika mfano wetu wa dunia unaotumika.
 
-Mara nyingi, hatufafanui maarifa kwa ukali, lakini tunayalinganisha na dhana nyingine zinazohusiana kwa kutumia [Piramidi ya DIKW](https://en.wikipedia.org/wiki/DIKW_pyramid). Inajumuisha dhana zifuatazo:
+Mara nyingi, hatufafanui maarifa kwa ukamilifu, lakini tunayalinganisha na dhana nyingine zinazohusiana kwa kutumia [Piramidi ya DIKW](https://en.wikipedia.org/wiki/DIKW_pyramid). Ina dhana zifuatazo:
 
-* **Data** ni kitu kinachowakilishwa katika vyombo vya kimwili, kama maandishi yaliyoandikwa au maneno yaliyotamkwa. Data ipo bila kujali uwepo wa binadamu na inaweza kupitishwa kati ya watu.
-* **Taarifa** ni jinsi tunavyotafsiri data katika akili zetu. Kwa mfano, tunaposikia neno *kompyuta*, tunakuwa na uelewa fulani wa kile ilivyo.
-* **Maarifa** ni taarifa inayojumuishwa katika mfano wetu wa dunia. Kwa mfano, mara tu tunapojifunza kompyuta ni nini, tunaanza kuwa na mawazo kuhusu jinsi inavyofanya kazi, gharama yake, na matumizi yake. Mtandao huu wa dhana zinazohusiana huunda maarifa yetu.
-* **Hekima** ni kiwango kingine cha uelewa wetu wa dunia, na inawakilisha *maarifa ya meta*, yaani, dhana fulani kuhusu jinsi na wakati maarifa yanapaswa kutumika.
+* **Data** ni vitu vinavyowakilishwa katika vyombo vya kimwili, kama maandishi yaliyoandikwa au maneno yaliyosemwa. Data ipo huru bila kuhusiana na wanadamu na inaweza kupelekwa kati ya watu.
+* **Taarifa** ni jinsi tunavyotafsiri data kichwani mwetu. Kwa mfano, tunapomsikia neno *kompyuta*, tuna ufahamu fulani wa kinachomaanisha.
+* **Maarifa** ni taarifa zinazoingizwa katika mfano wetu wa dunia. Kwa mfano, tunapojifunza ni nini kompyuta, tunaanza kuwa na mawazo ya jinsi inavyofanya kazi, gharama zake, na matumizi yake. Mtandao huu wa dhana zinazohusiana huunda maarifa yetu.
+* **Hekima** ni ngazi nyingine ya ufahamu wetu wa dunia, na huwakilisha *meta-maarifa*, mfano. wazo fulani kuhusu jinsi na lini maarifa yanapaswa kutumiwa.
 
-<img src="images/DIKW_Pyramid.png" width="30%"/>
+<img src="../../../../translated_images/sw/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
-*Picha [kutoka Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), Na Longlivetheux - Kazi ya mwenyewe, CC BY-SA 4.0*
+*Picha [kutoka Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), Na Longlivetheux - Kazi binafsi, CC BY-SA 4.0*
 
-Kwa hivyo, tatizo la **uwakilishi wa maarifa** ni kutafuta njia bora ya kuwakilisha maarifa ndani ya kompyuta kwa njia ya data, ili yaweze kutumika kiotomatiki. Hili linaweza kuonekana kama wigo:
+Hivyo, tatizo la **uwakilishi wa maarifa** ni kupata njia madhubuti ya kuwakilisha maarifa ndani ya kompyuta katika mfumo wa data, ili yaweze kutumika kiotomatiki. Hii inaonekana kama spektra:
 
-![Wigo wa uwakilishi wa maarifa](../../../../translated_images/knowledge-spectrum.b60df631852c0217.sw.png)
+![Spektra ya uwakilishi wa maarifa](../../../../../../translated_images/sw/knowledge-spectrum.b60df631852c0217.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
-* Kushoto, kuna aina rahisi sana za uwakilishi wa maarifa ambazo zinaweza kutumika kwa ufanisi na kompyuta. Rahisi zaidi ni ya kialgorithimu, ambapo maarifa yanawakilishwa na programu ya kompyuta. Hata hivyo, hii si njia bora ya kuwakilisha maarifa, kwa sababu si rahisi kubadilika. Maarifa ndani ya akili zetu mara nyingi si ya kialgorithimu.
-* Kulia, kuna uwakilishi kama maandishi ya asili. Ni yenye nguvu zaidi, lakini haiwezi kutumika kwa utoaji wa sababu kiotomatiki.
+* Kushoto, kuna aina rahisi za uwakilishi wa maarifa ambazo kompyuta zinaweza kuzitumia kwa ufanisi. Rahisi zaidi ni ya algorithmic, ambapo maarifa yanawakilishwa na programu ya kompyuta. Hii, hata hivyo, si njia bora ya kuwakilisha maarifa, kwa sababu si rahisi kubadilika. Maarifa ya kichwani mwetu mara nyingi si algorithmic.
+* Kulia, kuna uwakilishi kama maandishi ya asili. Hii ni yenye nguvu zaidi, lakini haiwezi kutumika kwa kufikiri kwa kiotomatiki.
 
-> ✅ Fikiria kwa dakika moja jinsi unavyowakilisha maarifa katika akili yako na kuyabadilisha kuwa maelezo. Je, kuna muundo fulani unaokufaa kusaidia kukumbuka?
+> ✅ Fikiria kwa muda mfupi jinsi unavyo wakilisha maarifa kichwani mwako na kuyaandika kama noti. Kuna muundo maalum unaofaa kwako kusaidia kuhifadhi maarifa?
 
-## Uainishaji wa Uwakilishi wa Maarifa ya Kompyuta
+## Kushiriki Aina za Uwakilishi wa Maarifa ya Kompyuta
 
-Tunaweza kuainisha mbinu tofauti za uwakilishi wa maarifa ya kompyuta katika makundi yafuatayo:
+Tunaweza kugawanya njia mbalimbali za uwakilishi wa maarifa ya kompyuta katika makundi yafuatayo:
 
-* **Uwakilishi wa mtandao** unategemea ukweli kwamba tuna mtandao wa dhana zinazohusiana ndani ya akili zetu. Tunaweza kujaribu kuunda mtandao huo kama grafu ndani ya kompyuta - mtandao wa **semantic**.
+* **Uwakilishi wa mtandao** unategemea ukweli kwamba tunayo mtandao wa dhana zinazohusiana kichwani mwetu. Tunaweza kujaribu kuunda mitandao hiyo kama grafu chini ya kompyuta - inayoitwa **mtandao wa semantiki**.
 
-1. **Triplets za Kitu-Sifa-Thamani** au **jozi za sifa-thamani**. Kwa kuwa grafu inaweza kuwakilishwa ndani ya kompyuta kama orodha ya nodi na kingo, tunaweza kuwakilisha mtandao wa semantic kwa orodha ya triplets, zinazojumuisha vitu, sifa, na thamani. Kwa mfano, tunajenga triplets zifuatazo kuhusu lugha za programu:
+1. **Vitu-Sifa-Thamani triplets** au **vipengele-thamani**. Kwa kuwa grafu inaweza kuwakilishwa kwenye kompyuta kama orodha ya nodes na edges, tunaweza kuwakilisha mtandao wa semantiki kwa orodha ya triplets, zenye vitu, sifa, na thamani. Kwa mfano, tunajenga triplets zifuatazo kuhusu lugha za programu:
 
 Kitu | Sifa | Thamani
------|------|--------
+-------|-----------|------
 Python | ni | Lugha Isiyo na Aina
-Python | ilivumbuliwa-na | Guido van Rossum
-Python | syntax ya block | indentation
+Python | ilibuniwa-na | Guido van Rossum
+Python | sarufi-ya-kipande | uingizaji nafasi
 Lugha Isiyo na Aina | haina | ufafanuzi wa aina
 
-> ✅ Fikiria jinsi triplets zinavyoweza kutumika kuwakilisha aina nyingine za maarifa.
+> ✅ Fikiria jinsi triplets zinaweza kutumika kuwakilisha aina nyingine za maarifa.
 
-2. **Uwakilishi wa kihierarkia** unasisitiza ukweli kwamba mara nyingi tunaunda hierarkia ya vitu ndani ya akili zetu. Kwa mfano, tunajua kwamba kanari ni ndege, na ndege wote wana mabawa. Pia tuna wazo fulani kuhusu rangi ya kawaida ya kanari, na kasi yao ya kuruka.
+2. **Uwakilishi wa kihierarki** unaweka mkazo kuwa mara nyingi tunaunda hierarchy ya vitu kichwani mwetu. Kwa mfano, tunajua kwamba manyoya ni ndege, na ndege wote wana mabawa. Pia tuna wazo kuhusu rangi ya kawaida ya manyoya, na kasi yao ya kuruka.
 
-   - **Uwakilishi wa fremu** unategemea kuwakilisha kila kitu au darasa la vitu kama **fremu** inayojumuisha **slots**. Slots zinaweza kuwa na thamani za default, vizuizi vya thamani, au taratibu zilizohifadhiwa ambazo zinaweza kuitwa ili kupata thamani ya slot. Fremu zote zinaunda hierarkia sawa na hierarkia ya vitu katika lugha za programu za msingi wa vitu.
-   - **Matukio** ni aina maalum ya fremu zinazowakilisha hali ngumu zinazoweza kutokea kwa muda.
+   - **Uwakilishi wa fremu** unategemea kuwakilisha kila kitu au darasa la vitu kama **fremu** yenye **slots**. Slots zinaweza kuwa na thamani za msingi, vizuizi vya thamani, au taratibu za kuhifadhiwa zinazoweza kuitwa kupata thamani ya slot. Fremu zote huunda hierarchy kama ile ya vitu katika lugha za programu za kitu.
+   - **Skenario** ni aina maalum za fremu zinazowakilisha hali ngumu zinazoweza kutokea katika muda.
 
 **Python**
 
-Slot | Thamani | Thamani ya Default | Kipindi |
------|--------|--------------------|---------|
+Slot | Thamani | Thamani ya Msingi | Kipindi |
+-----|-------|---------------|----------|
 Jina | Python | | |
 Ni-A | Lugha Isiyo na Aina | | |
-Kesi ya Kigezo | | CamelCase | |
+Mfumo wa Variable | | CamelCase | |
 Urefu wa Programu | | | mistari 5-5000 |
-Syntax ya Block | Indent | | |
+Sarufi ya Kipande | Uingizaji nafasi | | |
 
-3. **Uwakilishi wa kiutaratibu** unategemea kuwakilisha maarifa kwa orodha ya vitendo vinavyoweza kutekelezwa wakati hali fulani inatokea.
-   - Sheria za uzalishaji ni kauli za ikiwa-basi zinazoturuhusu kutoa hitimisho. Kwa mfano, daktari anaweza kuwa na sheria inayosema kwamba **IWAPO** mgonjwa ana homa kali **AU** kiwango cha juu cha protini ya C-reactive katika kipimo cha damu **BASI** ana uvimbe. Mara tu tunapokutana na mojawapo ya hali hizo, tunaweza kutoa hitimisho kuhusu uvimbe, kisha kuitumia katika utoaji wa sababu zaidi.
-   - Algorithimu zinaweza kuzingatiwa kama aina nyingine ya uwakilishi wa kiutaratibu, ingawa karibu hazitumiki moja kwa moja katika mifumo inayotegemea maarifa.
+3. **Uwakilishi wa taratibu** unategemea kuwakilisha maarifa kwa orodha ya hatua zinazoweza kutekelezwa pale hali fulani inapotokea.
+   - Masharti ya uzalishaji ni msemo-la-kisha (if-then) unaoturuhusu kutoa hitimisho. Kwa mfano, daktari anaweza kuwa na sheria isemayo **KAMA** mgonjwa ana homa kali **AU** kiwango cha juu cha protini ya C-reactive kwenye mtihani wa damu **KWA HIVYO** ana maambukizi. Tukikutana na moja ya masharti, tunaweza kutoa hitimisho kuhusu maambukizi, kisha kuitumia katika fikra zaidi.
+   - Algorithm zinaweza kuzingatiwa kama njia nyingine ya uwakilishi wa taratibu, ingawa hazitumiki mara kwa mara moja kwa moja katika mifumo yenye maarifa.
 
-4. **Mantiki** ilipendekezwa awali na Aristotle kama njia ya kuwakilisha maarifa ya binadamu ya ulimwengu.
-   - Mantiki ya Prediketi kama nadharia ya hisabati ni tajiri sana kiasi kwamba haiwezi kuhesabiwa, kwa hivyo subset fulani ya hiyo kawaida hutumiwa, kama vile Horn clauses zinazotumiwa katika Prolog.
-   - Mantiki ya Maelezo ni familia ya mifumo ya kimantiki inayotumika kuwakilisha na kutoa sababu kuhusu hierarkia za vitu na uwakilishi wa maarifa uliosambazwa kama *semantic web*.
+4. **Mantiki** ilipendekezwa awali na Aristotle kama njia ya kuwakilisha maarifa ya binadamu kwa ujumla.
+   - Mantiki ya Prediketi kama nadharia ya hisabati ni pana mno kwa kuwa iweze kompyutwa, hivyo sehemu ya mantiki hutumika kama vile Horn clauses zinazotumika kwenye Prolog.
+   - Mantiki ya Maelezo ni familia ya mifumo ya mantiki inayotumika kuwakilisha na kutoa mantiki kuhusu hiari ya vitu na uwakilishi wa maarifa uliosambazwa kama *wavu wa semanti*.
 
 ## Mifumo ya Wataalamu
 
-Moja ya mafanikio ya awali ya AI ya kimaandishi yalikuwa mifumo ya **wataalamu** - mifumo ya kompyuta iliyoundwa kufanya kazi kama mtaalamu katika eneo fulani la tatizo. Ilitegemea **hifadhidata ya maarifa** iliyotolewa kutoka kwa mtaalamu mmoja au zaidi wa binadamu, na ilikuwa na **injini ya utoaji wa sababu** iliyofanya utoaji wa sababu juu yake.
+Moja ya mafanikio ya mwanzo ya AI ya Ikoniki ilikuwa mifumo inayoitwa **mifumo ya wataalamu** - mifumo ya kompyuta iliyotengenezwa kutenda kama mtaalamu katika eneo fulani la tatizo lililo wazi. Ilijengwa kwa msingi wa **hifadhidata ya maarifa** iliyochukuliwa kutoka kwa wataalamu mmoja au zaidi wa binadamu, na ilijumuisha **mashine ya hitimisho** iliyofanya fikra juu yake.
 
-![Muundo wa Binadamu](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.sw.png) | ![Mfumo Unaotegemea Maarifa](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.sw.png)
+![Mimino ya binadamu](../../../../../../translated_images/sw/arch-human.5d4d35f1bba3ab1c.webp) | ![Mfumo wenye maarifa](../../../../../../translated_images/sw/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
-Muundo rahisi wa mfumo wa neva wa binadamu | Muundo wa mfumo unaotegemea maarifa
+Muundo rahisi wa mfumo wa neva wa binadamu | Muundo wa mfumo wenye maarifa
 
-Mifumo ya wataalamu imejengwa kama mfumo wa utoaji wa sababu wa binadamu, ambao una **kumbukumbu ya muda mfupi** na **kumbukumbu ya muda mrefu**. Vivyo hivyo, katika mifumo inayotegemea maarifa tunatofautisha vipengele vifuatavyo:
+Mifumo ya wataalamu imejengwa kama mfumo wa fikra wa binadamu, wenye **kumbukumbu ya muda mfupi** na **kumbukumbu ya muda mrefu**. Vivyo hivyo, katika mifumo yenye maarifa tunatofautisha vipengele vifuatavyo:
 
-* **Kumbukumbu ya tatizo**: ina maarifa kuhusu tatizo linalosuluhishwa kwa sasa, yaani, joto au shinikizo la damu la mgonjwa, ikiwa ana uvimbe au la, nk. Maarifa haya pia huitwa **maarifa tuli**, kwa sababu yanajumuisha picha ya kile tunachojua kwa sasa kuhusu tatizo - hali ya tatizo.
-* **Hifadhidata ya maarifa**: inawakilisha maarifa ya muda mrefu kuhusu eneo la tatizo. Inatolewa kwa mikono kutoka kwa wataalamu wa binadamu, na haibadiliki kutoka ushauri mmoja hadi mwingine. Kwa sababu inaturuhusu kuvinjari kutoka hali moja ya tatizo hadi nyingine, pia inaitwa **maarifa yenye nguvu**.
-* **Injini ya utoaji wa sababu**: inaendesha mchakato mzima wa kutafuta katika nafasi ya hali ya tatizo, kuuliza maswali kwa mtumiaji inapohitajika. Pia inawajibika kwa kutafuta sheria sahihi za kutumika kwa kila hali.
+* **Kumbukumbu ya tatizo**: ina maarifa kuhusu tatizo linalotatuliwa kwa sasa, mfano joto au shinikizo la damu la mgonjwa, kama ana maambukizi au hapana n.k. Maarifa haya pia hujulikana kama **maarifa ya takatifu**, kwa kuwa ni picha ya hali ya tatizo kwa sasa - inayoitwa *hali ya tatizo*.
+* **Hifadhidata ya maarifa**: huwakilisha maarifa ya muda mrefu kuhusu eneo la tatizo. Huchukuliwa kwa mkono kutoka kwa wataalamu wa binadamu, na haibadiliki kati ya mazungumzo. Kwa sababu huturuhusu kuhamia kutoka hali moja ya tatizo hadi nyingine, pia hujulikana kama **maarifa ya mabadiliko**.
+* **Mashine ya hitimisho**: inaendesha mchakato mzima wa kutafuta katika chombo cha hali za tatizo, kuuliza maswali kwa mtumiaji inapohitajika. Pia inahusika na kupata sheria zinazofaa kutumika kwa kila hali.
 
-Kwa mfano, hebu tuchunguze mfumo wa wataalamu wa kuamua mnyama kulingana na sifa zake za kimwili:
+Kwa mfano, tuchukulie mfumo wa wataalamu wa kubaini mnyama kwa msingi wa sifa zake za kimwili:
 
-![Mti wa AND-OR](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.sw.png)
+![Mti wa AND-OR](../../../../../../translated_images/sw/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
-Mchoro huu unaitwa **mti wa AND-OR**, na ni uwakilishi wa kielelezo wa seti ya sheria za uzalishaji. Kuchora mti ni muhimu mwanzoni mwa kutoa maarifa kutoka kwa mtaalamu. Ili kuwakilisha maarifa ndani ya kompyuta ni rahisi zaidi kutumia sheria:
+Mchoro huu unaitwa **mti wa AND-OR**, na ni uwakilishi wa kielelezo wa seti ya sheria za uzalishaji. Kuchora mti ni muhimu mwanzoni mwa kuchukua maarifa kutoka kwa mtaalamu. Kuweka maarifa ndani ya kompyuta ni rahisi kutumia sheria:
 
 ```
 IF the animal eats meat
@@ -121,78 +121,78 @@ OR (animal has sharp teeth
 THEN the animal is a carnivore
 ```
 
-Unaweza kugundua kwamba kila hali upande wa kushoto wa sheria na kitendo ni kimsingi triplets za kitu-sifa-thamani (OAV). **Kumbukumbu ya kazi** ina seti ya triplets za OAV zinazolingana na tatizo linalosuluhishwa kwa sasa. **Injini ya sheria** hutafuta sheria ambazo hali yake imetimizwa na kuzitumia, ikiongeza triplet nyingine kwenye kumbukumbu ya kazi.
+Unaweza kuona kwamba kila hali upande wa kushoto wa sheria na kitendo ni kwa msingi wa triplets za kitu-sifa-thamani (OAV). **Kumbukumbu ya kazi** ina seti ya triplets za OAV zinazolingana na tatizo linalotatuliwa sasa. **Mashine ya sheria** hutafuta sheria ambazo hali yake imetimizwa na kuzitumia, na kuongeza triplet nyingine kwenye kumbukumbu ya kazi.
 
-> ✅ Andika mti wako wa AND-OR kuhusu mada unayoipenda!
+> ✅ Andika mti wako wa AND-OR kuhusu mada unayopenda!
 
-### Utoaji wa Sababu wa Mbele vs. Nyuma
+### Hitimisho la Mbele dhidi ya Hitimisho la Nyuma
 
-Mchakato ulioelezwa hapo juu unaitwa **utoaji wa sababu wa mbele**. Unaanzia na data fulani ya awali kuhusu tatizo inayopatikana katika kumbukumbu ya kazi, kisha inatekeleza mzunguko wa utoaji wa sababu kama ifuatavyo:
+Mchakato ulioelezwa hapo juu unaitwa **hitimisho la mbele**. Unaanzia na data ya awali kuhusu tatizo iliyopo kwenye kumbukumbu ya kazi, na kisha unatekeleza mzunguko wa tafakari ufuatao:
 
-1. Ikiwa sifa lengwa ipo katika kumbukumbu ya kazi - simama na toa matokeo
-2. Tafuta sheria zote ambazo hali yake imetimizwa kwa sasa - pata **seti ya migogoro** ya sheria.
-3. Fanya **utatuzi wa migogoro** - chagua sheria moja ambayo itatekelezwa katika hatua hii. Kunaweza kuwa na mikakati tofauti ya utatuzi wa migogoro:
-   - Chagua sheria ya kwanza inayotumika katika hifadhidata ya maarifa
-   - Chagua sheria ya nasibu
-   - Chagua sheria *maalum zaidi*, yaani, ile inayokidhi hali nyingi zaidi upande wa "kushoto" (LHS)
-4. Tumia sheria iliyochaguliwa na ingiza kipande kipya cha maarifa katika hali ya tatizo
-5. Rudia kutoka hatua ya 1.
+1. Ikiwa sifa lengwa ipo kwenye kumbukumbu ya kazi - simama na toa matokeo
+2. Tafuta sheria zote ambazo hali yake imetimizwa sasa - pata **seti ya migongano** ya sheria.
+3. Fanya **mgongano wa utatuzi** - chagua sheria moja itakayotekelezwa hatua hii. Kuna mikakati tofauti ya utatuzi:
+   - Chagua sheria inayoanza katika hifadhidata ya maarifa
+   - Chagua sheria kwa bahati nasibu
+   - Chagua sheria *ya kina zaidi*, yaani ile inayotimiza masharti mengi upande wa kushoto (LHS)
+4. Tekeleza sheria iliyochaguliwa na ongeza kipande kipya cha maarifa katika hali ya tatizo
+5. Rudia hatua ya 1.
 
-Hata hivyo, katika baadhi ya hali tunaweza kutaka kuanza na maarifa yasiyo kamili kuhusu tatizo, na kuuliza maswali ambayo yatatusaidia kufikia hitimisho. Kwa mfano, wakati wa kufanya uchunguzi wa matibabu, kwa kawaida hatufanyi uchambuzi wote wa matibabu mapema kabla ya kuanza kumchunguza mgonjwa. Badala yake, tunataka kufanya uchambuzi wakati uamuzi unahitaji kufanywa.
+Hata hivyo, katika baadhi ya hali tungependa kuanza na maarifa tupu kuhusu tatizo, na kuuliza maswali yatakayotusaidia kufikia hitimisho. Kwa mfano, tunapofanya uchunguzi wa matibabu, kawaida hatufanyi uchunguzi wote kabla ya kuanza kugundua mgonjwa. Tunapendelea kufanya uchunguzi pale tu kinapohitajika kufanya uamuzi.
 
-Mchakato huu unaweza kuigwa kwa kutumia **utoaji wa sababu wa nyuma**. Unachochewa na **lengo** - thamani ya sifa tunayotafuta:
+Mchakato huu unaweza kuigwa kwa kutumia **hitimisho la nyuma**. Unaendeshwa na **lengo** - thamani ya sifa tunayoiangalia:
 
-1. Chagua sheria zote zinazoweza kutupa thamani ya lengo (yaani, na lengo upande wa RHS ("upande wa kulia")) - seti ya migogoro
-1. Ikiwa hakuna sheria kwa sifa hii, au kuna sheria inayosema kwamba tunapaswa kuuliza thamani kutoka kwa mtumiaji - uliza, vinginevyo:
-1. Tumia mkakati wa utatuzi wa migogoro kuchagua sheria moja ambayo tutatumia kama *dhanio* - tutajaribu kuithibitisha
-1. Rudia mchakato kwa sifa zote katika LHS ya sheria, tukijaribu kuzithibitisha kama malengo
-1. Ikiwa wakati wowote mchakato unashindwa - tumia sheria nyingine katika hatua ya 3.
+1. Chagua sheria zote zinazoweza kutupa thamani ya lengo (yaani na lengo upande wa kulia (RHS)) - seti ya migongano
+1. Ikiwa hakuna sheria za sifa hii, au kuna sheria inayosema kwamba tunapaswa kuuliza thamani kutoka kwa mtumiaji - uliza, vinginevyo:
+1. Tumia mkakati wa utatuzi kuchagua sheria moja ambayo tutaitumia kama *nadharia* - tutajaribu kuthibitisha
+1. Rudia mchakato kwa sifa zote upande wa kushoto wa sheria, ukijaribu kuzithibitisha kama malengo
+1. Ikiwa mchakato unashindwa mahali popote - tumia sheria nyingine hatua ya 3.
 
-> ✅ Katika hali gani utoaji wa sababu wa mbele unafaa zaidi? Na vipi kuhusu utoaji wa sababu wa nyuma?
+> ✅ Katika hali gani hitimisho la mbele linafaa zaidi? Vipi kuhusu hitimisho la nyuma?
 
 ### Kutekeleza Mifumo ya Wataalamu
 
 Mifumo ya wataalamu inaweza kutekelezwa kwa kutumia zana tofauti:
 
-* Kuiandika moja kwa moja katika lugha ya programu ya kiwango cha juu. Hili si wazo bora, kwa sababu faida kuu ya mfumo unaotegemea maarifa ni kwamba maarifa yanatenganishwa na utoaji wa sababu, na mtaalamu wa eneo la tatizo anapaswa kuwa na uwezo wa kuandika sheria bila kuelewa maelezo ya mchakato wa utoaji wa sababu.
-* Kutumia **ganda la mifumo ya wataalamu**, yaani, mfumo ulioundwa mahsusi kujazwa na maarifa kwa kutumia lugha fulani ya uwakilishi wa maarifa.
+* Kuprogramu moja kwa moja kwa lugha ya programu ya kiwango cha juu. Hii si wazo nzuri, kwa sababu faida kuu ya mfumo wenye maarifa ni kwamba maarifa yamegawanyika na hitimisho, na mtaalamu wa eneo la tatizo anapaswa kuweza kuandika sheria bila kuelewa mchakato wa hitimisho
+* Kutumia **shell ya mfumo wa wataalamu**, yaani mfumo uliobuniwa mahsusi kuingizwa maarifa kwa kutumia lugha fulani ya uwakilishi wa maarifa.
 
-## ✍️ Zoezi: Utoaji wa Sababu wa Wanyama
+## ✍️ Zoefu: Hitimisho la Mnyama
 
-Tazama [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) kwa mfano wa kutekeleza mfumo wa wataalamu wa utoaji wa sababu wa mbele na wa nyuma.
+Angalia [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) kwa mfano wa kutekeleza hitimisho la mbele na la nyuma katika mfumo wa wataalamu.
 
-> **Note**: Mfano huu ni rahisi sana, na unatoa tu wazo la jinsi mfumo wa wataalamu unavyoonekana. Mara tu unapoanza kuunda mfumo kama huo, utaona tabia fulani ya *kiakili* kutoka kwake mara tu unapofikia idadi fulani ya sheria, karibu 200+. Wakati fulani, sheria zinakuwa ngumu sana kiasi kwamba huwezi kuzihifadhi zote akilini, na wakati huo unaweza kuanza kujiuliza kwa nini mfumo unafanya maamuzi fulani. Hata hivyo, sifa muhimu ya mifumo inayotegemea maarifa ni kwamba unaweza kila wakati *kufafanua* jinsi maamuzi yoyote yalivyofanywa.
+> **Kumbuka**: Mfano huu ni rahisi tu, na unatoa wazo la jinsi mfumo wa wataalamu unavyoonekana. Mara tu unapoanza kuunda mfumo kama huu, utaona tabia *mwerevu* kutoka kwake tu unapotumia sheria nyingi, takriban 200+. Katika hatua fulani, sheria zinakuwa changamano sana kuhifadhi zote akili, na wakati huu utaanza kuuliza ni kwa nini mfumo unafanya maamuzi fulani. Hata hivyo, sifa muhimu za mifumo yenye maarifa ni kwamba unaweza *kueleza* kwa usahihi jinsi maamuzi yoyote yalivyotolewa.
 
-## Ontolojia na Mtandao wa Semantic
+## Ontolojia na Wavu wa Semantiki
 
-Mwisho wa karne ya 20 kulikuwa na mpango wa kutumia uwakilishi wa maarifa kuandika rasilimali za mtandao, ili iwezekane kupata rasilimali zinazolingana na maswali maalum sana. Harakati hii ilitwa **Mtandao wa Semantic**, na ilitegemea dhana kadhaa:
+Mwisho wa karne ya 20 kulikuwepo na jitihada ya kutumia uwakilishi wa maarifa kuashiria rasilimali za mtandao, ili iwezekane kupata rasilimali zinazolingana na maswali maalum sana. Harakati hii ilijulikana kama **Wavu wa Semantiki**, na ilitegemea dhana kadhaa:
 
-- Uwakilishi maalum wa maarifa unaotegemea **[mantiki ya maelezo](https://en.wikipedia.org/wiki/Description_logic)** (DL). Inafanana na uwakilishi wa maarifa ya fremu, kwa sababu inajenga hierarkia ya vitu vyenye mali, lakini ina mantiki rasmi ya kimantiki na utoaji wa sababu. Kuna familia nzima ya DLs ambazo zinapima kati ya uelekezaji na ugumu wa kialgorithimu wa utoaji wa sababu.
-- Uwakilishi wa maarifa uliosambazwa, ambapo dhana zote zinawakilishwa na kitambulisho cha URI cha kimataifa, na kufanya iwezekane kuunda hierarkia za maarifa zinazovuka mtandao.
-- Familia ya lugha zinazotumia XML kwa maelezo ya maarifa: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+- Uwakilishi maalum wa maarifa unaotegemea **[mantiki za maelezo](https://en.wikipedia.org/wiki/Description_logic)** (DL). Inafanana na uwakilishi wa fremu wa maarifa, kwa kuwa huunda hierarchy ya vitu vyenye mali, lakini ina semantiki rasmi ya mantiki na hitimisho. Kuna familia nzima ya DL zinazopima kati ya uwezo wa kuelezea na ugumu wa algorithm wa hitimisho.
+- Uwakilishi wa maarifa uliosambazwa, ambapo dhana zote zina wakilishaji wa kipekee wa URI wa kimataifa, kuruhusu kuunda hierarchy za maarifa zinazovuka mtandao.
+- Familia ya lugha zinazotegemea XML kwa maelezo ya maarifa: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
 
-Dhana kuu katika Mtandao wa Semantiki ni dhana ya **Ontology**. Inahusu maelezo ya wazi ya eneo la tatizo kwa kutumia uwakilishi rasmi wa maarifa. Ontolojia rahisi inaweza kuwa tu hierarkia ya vitu katika eneo la tatizo, lakini ontolojia ngumu zaidi zitajumuisha sheria zinazoweza kutumika kwa hitimisho.
+Dhana kuu katika Wavuti ya Semantiki ni dhana ya **Ontolojia**. Inahusu ufafanuzi wazi wa eneo la tatizo kwa kutumia baadhi ya uwakilishi rasmi wa maarifa. Ontolojia rahisi inaweza kuwa msaada tu wa vitu katika eneo la tatizo, lakini ontolojia ngumu zaidi zitajumuisha sheria ambazo zinaweza kutumika kwa hitimisho.
 
-Katika mtandao wa semantiki, uwakilishi wote unategemea tripleti. Kila kitu na kila uhusiano hutambulishwa kipekee na URI. Kwa mfano, ikiwa tunataka kusema ukweli kwamba Mtaala huu wa AI umetengenezwa na Dmitry Soshnikov mnamo Januari 1, 2022 - hapa kuna tripleti tunazoweza kutumia:
+Katika wavuti ya semantiki, uwakilishi wote unatokana na tripleti. Kila kitu na kila uhusiano hutambulishwa kwa kipekee na URI. Kwa mfano, ikiwa tunataka kusema ukweli kwamba Mtaala huu wa AI umeandaliwa na Dmitry Soshnikov tarehe 1 Januari, 2022 - hapa ni tripleti tunazoweza kutumia:
 
-<img src="images/triplet.png" width="30%"/>
+<img src="../../../../translated_images/sw/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
+http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Hapa `http://www.example.com/terms/creation-date` na `http://purl.org/dc/elements/1.1/creator` ni URI zinazojulikana na kukubalika kimataifa kuelezea dhana za *muundaji* na *tarehe ya uundaji*.
+> ✅ Hapa `http://www.example.com/terms/creation-date` na `http://purl.org/dc/elements/1.1/creator` ni URI maarufu na zinazokubalika ulimwenguni kote kuelezea dhana za *muumba* na *tarehe ya uundaji*.
 
-Katika hali ngumu zaidi, ikiwa tunataka kufafanua orodha ya waundaji, tunaweza kutumia miundo ya data iliyofafanuliwa katika RDF.
+Katika kesi ngumu zaidi, ikiwa tunataka kufafanua orodha ya waumba, tunaweza kutumia baadhi ya miundo ya data iliyoainishwa katika RDF.
 
-<img src="images/triplet-complex.png" width="40%"/>
+<img src="../../../../translated_images/sw/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > Michoro hapo juu na [Dmitry Soshnikov](http://soshnikov.com)
 
-Maendeleo ya kujenga Mtandao wa Semantiki yalicheleweshwa kwa kiasi fulani na mafanikio ya injini za utafutaji na mbinu za usindikaji wa lugha asilia, ambazo huruhusu uchimbaji wa data iliyopangwa kutoka kwa maandishi. Hata hivyo, katika baadhi ya maeneo bado kuna juhudi kubwa za kudumisha ontolojia na hifadhidata za maarifa. Miradi michache inayostahili kutajwa:
+Maendeleo ya ujenzi wa Wavuti ya Semantiki yalimshwausha kidogo mafanikio ya injini za utafutaji na mbinu za usindikaji wa lugha ya asili, zinazoruhusu kutoa data iliyopangwa kutoka kwenye maandishi. Hata hivyo, katika maeneo fulani bado kuna juhudi kubwa za kudumisha ontolojia na misingi ya maarifa. Miradi michache inayostahili kutajwa:
 
-* [WikiData](https://wikidata.org/) ni mkusanyiko wa hifadhidata za maarifa zinazoweza kusomeka na mashine zinazohusiana na Wikipedia. Data nyingi hutolewa kutoka kwa *InfoBoxes* za Wikipedia, vipande vya maudhui yaliyopangwa ndani ya kurasa za Wikipedia. Unaweza [kuuliza](https://query.wikidata.org/) wikidata kwa kutumia SPARQL, lugha maalum ya maswali kwa Mtandao wa Semantiki. Hapa kuna mfano wa swali linaloonyesha rangi za macho maarufu zaidi miongoni mwa binadamu:
+* [WikiData](https://wikidata.org/) ni mkusanyiko wa misingi ya maarifa inayoeleweka na mashine inayohusishwa na Wikipedia. Zaidi ya data hupatikana kutoka *InfoBoxes* za Wikipedia, vipande vya maudhui yaliyopangwa ndani ya kurasa za Wikipedia. Unaweza [kuuliza](https://query.wikidata.org/) wikidata kwa kutumia SPARQL, lugha maalum ya kuuliza kwa Wavuti ya Semantiki. Hapa ni mfano wa kuuliza unaoonyesha rangi maarufu zaidi za macho miongoni mwa wanadamu:
 
 ```sparql
 #defaultView:BubbleChart
@@ -206,47 +206,52 @@ WHERE
 GROUP BY ?eyeColorLabel
 ```
 
-* [DBpedia](https://www.dbpedia.org/) ni juhudi nyingine inayofanana na WikiData.
+* [DBpedia](https://www.dbpedia.org/) ni jitihada nyingine inayofanana na WikiData.
 
-> ✅ Ikiwa unataka kujaribu kujenga ontolojia zako mwenyewe, au kufungua zilizopo, kuna mhariri mzuri wa ontolojia wa kuona unaoitwa [Protégé](https://protege.stanford.edu/). Pakua, au uitumie mtandaoni.
+> ✅ Ikiwa unataka kujaribu kujenga ontolojia zako mwenyewe, au kufungua ontolojia zilizopo, kuna mhariri mzuri wa ontolojia unaoitwa [Protégé](https://protege.stanford.edu/). Pakua au uvitumie mtandaoni.
 
-<img src="images/protege.png" width="70%"/>
+<img src="../../../../translated_images/sw/protege.274177ceeac13b38.webp" width="70%"/>
 
-*Mhariri wa Web Protégé ukiwa wazi na ontolojia ya Familia ya Romanov. Picha na Dmitry Soshnikov*
+*Mhariri wa Wavuti Protégé ulio wazi na ontolojia ya Familia ya Romanov. Picha ya skrini na Dmitry Soshnikov*
 
-## ✍️ Zoezi: Ontolojia ya Familia
+## ✍️ Zoefaa: Ontolojia ya Familia
 
-Tazama [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) kwa mfano wa kutumia mbinu za Mtandao wa Semantiki kufikiri kuhusu mahusiano ya kifamilia. Tutachukua mti wa familia unaowakilishwa katika muundo wa kawaida wa GEDCOM na ontolojia ya mahusiano ya kifamilia na kujenga grafu ya mahusiano yote ya kifamilia kwa seti fulani ya watu.
 
-## Microsoft Concept Graph
+Tazama [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) kwa mfano wa kutumia mbinu za Wavuti ya Semantiki kufikiria kuhusu mahusiano ya familia. Tutachukua mti wa familia uliowakilishwa kwa muundo wa kawaida wa GEDCOM na ontolojia ya mahusiano ya familia na kuunda grafu ya mahusiano yote ya familia kwa seti ya watu waliowekwa.
 
-Katika hali nyingi, ontolojia huundwa kwa uangalifu kwa mkono. Hata hivyo, inawezekana pia **kuchimba** ontolojia kutoka kwa data isiyo na muundo, kwa mfano, kutoka kwa maandishi ya lugha asilia.
+## Graph ya Dhana ya Microsoft
 
-Jaribio moja kama hilo lilifanywa na Microsoft Research, na kusababisha [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
+Katika hali nyingi, ontolojia huundwa kwa uangalifu kwa mkono. Hata hivyo, pia inawezekana **kuchimba** ontolojia kutoka kwa data isiyo na muundo, kwa mfano, kutoka kwa maandishi ya lugha ya asili.
 
-Ni mkusanyiko mkubwa wa vyombo vilivyowekwa pamoja kwa kutumia uhusiano wa urithi wa `is-a`. Inaruhusu kujibu maswali kama "Microsoft ni nini?" - jibu likiwa kitu kama "kampuni kwa uwezekano wa 0.87, na chapa kwa uwezekano wa 0.75".
+Jaribio kama hilo limefanywa na Microsoft Research, na kusababisha [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
 
-Grafu inapatikana ama kama REST API, au kama faili kubwa inayoweza kupakuliwa ya maandishi inayoorodhesha jozi zote za vyombo.
+Ni mkusanyiko mkubwa wa vitu vilivyofungwa pamoja kwa kutumia uhusiano wa urithi wa `is-a`. Inaruhusu kujibu maswali kama "Microsoft ni nini?" - jibu likiwa kama "kampuni kwa uwezekano wa 0.87, na chapa kwa uwezekano wa 0.75".
 
-## ✍️ Zoezi: Grafu ya Dhana
+Grafu inapatikana kama REST API, au kama faili kubwa la maandishi linaweza kupakuliwa linaloorodhesha jozi zote za vitu.
 
-Jaribu daftari la [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) ili kuona jinsi tunavyoweza kutumia Microsoft Concept Graph kuainisha makala za habari katika kategoria kadhaa.
+## ✍️ Zoefaa: Graph ya Dhana
+
+Jaribu daftari la [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) kuona jinsi tunavyoweza kutumia Microsoft Concept Graph kuunganisha makala za habari katika makundi kadhaa.
 
 ## Hitimisho
 
-Siku hizi, AI mara nyingi huchukuliwa kuwa sawa na *Machine Learning* au *Neural Networks*. Hata hivyo, binadamu pia huonyesha uwezo wa kufikiri kwa wazi, jambo ambalo kwa sasa halishughulikiwi na mitandao ya neva. Katika miradi halisi ya dunia, kufikiri kwa wazi bado hutumika kutekeleza kazi zinazohitaji maelezo, au uwezo wa kubadilisha tabia ya mfumo kwa njia inayodhibitiwa.
+Siku hizi, AI mara nyingi huonekana kama mfanano wa *Machine Learning* au *Neural Networks*. Hata hivyo, mwanadamu pia anaonyesha kufikiri wazi, jambo ambalo kwa sasa halijashughulikiwa na mitandao ya neva. Katika miradi halisi, kufikiri wazi bado kunatumika kufanya kazi zinazohitaji maelezo, au uwezo wa kubadilisha tabia ya mfumo kwa njia inayodhibitiwa.
 
 ## 🚀 Changamoto
 
-Katika daftari la Ontolojia ya Familia linalohusiana na somo hili, kuna fursa ya kujaribu mahusiano mengine ya kifamilia. Jaribu kugundua miunganisho mipya kati ya watu katika mti wa familia.
+Katika daftari la Ontolojia ya Familia linalohusiana na somo hili, kuna fursa ya kujaribu mahusiano mengine ya familia. Jaribu kugundua uhusiano mpya kati ya watu katika mti wa familia.
 
-## [Jaribio baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/4)
+## [Mtihani baada ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
-## Mapitio & Kujisomea
+## Mapitio & Kujifunza Binafsi
 
-Fanya utafiti kwenye mtandao ili kugundua maeneo ambapo binadamu wamejaribu kupima na kuweka maarifa katika mfumo. Angalia Taxonomy ya Bloom, na rudi nyuma kihistoria ili kujifunza jinsi binadamu walivyojaribu kuelewa dunia yao. Chunguza kazi ya Linnaeus ya kuunda mfumo wa viumbe, na angalia jinsi Dmitri Mendeleev alivyounda njia ya kuelezea na kuainisha vipengele vya kemikali. Je, unaweza kupata mifano mingine ya kuvutia?
+Fanya utafiti mtandaoni kugundua maeneo ambapo wanadamu wamejaribu kupima na kuweka kumbukumbu maarifa. Angalia Taxonomy ya Bloom, na rudi nyuma kihistoria kujifunza jinsi wanadamu walijaribu kuelewa dunia yao. Chunguza kazi ya Linnaeus kuunda taxonomy ya viumbe, na angalia jinsi Dmitri Mendeleev alivyounda njia ya kuelezea na kuorodhesha elementi za kemikali. Ni mifano gani mingine ya kuvutia unaweza kupata?
 
-**Kazi**: [Jenga Ontolojia](assignment.md)
+**Zoezi**: [Jenga Ontolojia](assignment.md)
 
 ---
 
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vikwazo**:
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Wakati tunajitahidi kuwa sahihi, tafadhali fahamu kuwa tafsiri za moja kwa moja zinaweza kuwa na makosa au upungufu wa usahihi. Hati ya asili katika lugha yake ya kienyeji inapaswa kuzingatiwa kama chanzo cha kimsingi. Kwa taarifa muhimu, tafsiri ya mtaalamu wa binadamu inashauriwa. Hatujawajibika kwa kutoelewana au tafsiri potofu zinazotokana na matumizi ya tafsiri hii.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

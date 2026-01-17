@@ -17,7 +17,7 @@ U stvarnom životu želimo biti u mogućnosti prepoznati objekte na slici bez ob
 
 Za izdvajanje uzoraka koristit ćemo pojam **konvolucijskih filtera**. Kao što znate, slika je predstavljena 2D-matricom ili 3D-tenzorom s dubinom boje. Primjena filtera znači da uzimamo relativno malu matricu **jezgre filtera** i za svaki piksel u originalnoj slici izračunavamo ponderirani prosjek s okolnim točkama. To možemo zamisliti kao mali prozor koji klizi preko cijele slike i izračunava prosjek svih piksela prema težinama u matrici jezgre filtera.
 
-![Vertikalni rubni filter](../../../../../translated_images/filter-vert.b7148390ca0bc356.hr.png) | ![Horizontalni rubni filter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.hr.png)
+![Vertikalni rubni filter](../../../../../translated_images/hr/filter-vert.b7148390ca0bc356.webp) | ![Horizontalni rubni filter](../../../../../translated_images/hr/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Slika: Dmitry Soshnikov
@@ -38,7 +38,7 @@ Način na koji CNN funkcionira temelji se na sljedećim važnim idejama:
 * Možemo dizajnirati mrežu na način da se filteri automatski treniraju
 * Možemo koristiti isti pristup za pronalaženje uzoraka u visokorazinskim značajkama, ne samo u originalnoj slici. Tako ekstrakcija značajki u CNN-u funkcionira na hijerarhiji značajki, počevši od niskorazinskih kombinacija piksela do visokorazinskih kombinacija dijelova slike.
 
-![Hijerarhijska ekstrakcija značajki](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.hr.png)
+![Hijerarhijska ekstrakcija značajki](../../../../../translated_images/hr/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Slika iz [rada Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), temeljenog na [njihovom istraživanju](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Većina CNN-a koji se koriste za obradu slika slijedi tzv. piramidalnu arhitektu
 
 Kao primjer, pogledajmo arhitekturu VGG-16, mreže koja je postigla 92.7% točnosti u ImageNet-ovoj top-5 klasifikaciji 2014. godine:
 
-![ImageNet slojevi](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.hr.jpg)
+![ImageNet slojevi](../../../../../translated_images/hr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet piramida](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.hr.jpg)
+![ImageNet piramida](../../../../../translated_images/hr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Slika: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

@@ -21,7 +21,7 @@ Your task is to train a convolutional neural network to classify different breed
 
 We will use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images of 37 different breeds of dogs and cats.
 
-![Dataset we will deal with](../../../../../../translated_images/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.en.png)
+![Dataset we will deal with](../../../../../../translated_images/en/data.50b2a9d5484bdbf0f52f5765b381cec9efe2bd296a98f007f90bedb6ac67f2a8.png)
 
 To download the dataset, use this code snippet:
 

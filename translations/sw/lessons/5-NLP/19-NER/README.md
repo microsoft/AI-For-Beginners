@@ -58,7 +58,7 @@ infant | O
 
 Kwa kuwa tunahitaji kujenga uhusiano wa moja kwa moja kati ya tokeni na madarasa, tunaweza kufundisha mfano wa mtandao wa neva wa **wengi-kwa-wengi** kutoka kwenye picha hii:
 
-![Picha inayoonyesha mifumo ya kawaida ya mitandao ya neva ya kurudia.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sw.jpg)
+![Picha inayoonyesha mifumo ya kawaida ya mitandao ya neva ya kurudia.](../../../../../translated_images/sw/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Picha kutoka [blogu hii](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) na [Andrej Karpathy](http://karpathy.github.io/). Mifano ya uainishaji wa tokeni ya NER inahusiana na usanifu wa mtandao wa kulia kabisa kwenye picha hii.*
 

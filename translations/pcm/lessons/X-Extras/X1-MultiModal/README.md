@@ -15,7 +15,7 @@ Afta transformer models don show say dem fit solve NLP tasks well, people don de
 
 Di main idea for CLIP na to fit compare text prompts wit image and check how di image match di prompt.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.pcm.png)
+![CLIP Architecture](../../../../../translated_images/pcm/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Picture from [this blog post](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Once dem don pre-train di model, we fit give am batch of images and batch of tex
 
 Suppose we wan classify images between, say, cats, dogs and humans. For dis case, we fit give di model one image, and series of text prompts: "*a picture of a cat*", "*a picture of a dog*", "*a picture of a human*". For di vector wey get 3 probabilities we go just pick di index wey get di highest value.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.pcm.png)
+![CLIP for Image Classification](../../../../../translated_images/pcm/clip-class.3af42ef0b2b19369.webp)
 
 > *Picture from [this blog post](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Learn more about VQGAN for di [Taming Transformers](https://compvis.github.io/ta
 
 One big difference between VQGAN and traditional GAN na say di traditional GAN fit produce better image from any input vector, but VQGAN fit produce image wey no go make sense. So, we need to guide di image creation process well, and CLIP fit help us do dis.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.pcm.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/pcm/vqgan.5027fe05051dfa31.webp)
 
 To generate image wey match text prompt, we go start wit random encoding vector wey go pass through VQGAN to produce image. Then CLIP go dey use to produce loss function wey go show how di image match di text prompt. Di goal na to reduce dis loss, using back propagation to adjust di input vector parameters.
 
 One better library wey dey implement VQGAN+CLIP na [Pixray](http://github.com/pixray/pixray)
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.pcm.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.pcm.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.pcm.png)
+![Picture produced by Pixray](../../../../../translated_images/pcm/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Picture produced by pixray](../../../../../translated_images/pcm/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Picture produced by Pixray](../../../../../translated_images/pcm/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Picture wey dem generate from prompt *a closeup watercolor portrait of young male teacher of literature with a book* | Picture wey dem generate from prompt *a closeup oil portrait of young female teacher of computer science with a computer* | Picture wey dem generate from prompt *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 

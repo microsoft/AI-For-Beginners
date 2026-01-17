@@ -15,7 +15,7 @@ Nas seções anteriores, utilizamos representações semânticas ricas de texto 
 
 Para capturar o significado de uma sequência de texto, precisamos usar outra arquitetura de rede neural, chamada de **rede neural recorrente**, ou RNN. Na RNN, passamos nossa frase pela rede um símbolo de cada vez, e a rede produz algum **estado**, que então passamos novamente para a rede junto com o próximo símbolo.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.br.png)
+![RNN](../../../../../translated_images/br/rnn.27f5c29c53d727b5.webp)
 
 > Imagem do autor
 
@@ -61,7 +61,7 @@ Discutimos redes recorrentes que operam em uma direção, do início de uma sequ
 
 Uma rede recorrente, seja unidirecional ou bidirecional, captura certos padrões dentro de uma sequência e pode armazená-los em um vetor de estado ou passá-los para a saída. Assim como nas redes convolucionais, podemos construir outra camada recorrente sobre a primeira para capturar padrões de nível superior e construir a partir dos padrões de baixo nível extraídos pela primeira camada. Isso nos leva à noção de uma **RNN multicamada**, que consiste em duas ou mais redes recorrentes, onde a saída da camada anterior é passada para a próxima camada como entrada.
 
-![Imagem mostrando uma RNN LSTM multicamada](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.br.jpg)
+![Imagem mostrando uma RNN LSTM multicamada](../../../../../translated_images/br/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Imagem retirada [deste post maravilhoso](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) de Fernando López*
 

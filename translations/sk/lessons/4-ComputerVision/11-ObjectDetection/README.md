@@ -13,7 +13,7 @@ Modely klasifikácie obrázkov, s ktorými sme sa doteraz zaoberali, brali obrá
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Detekcia objektov](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.sk.png)
+![Detekcia objektov](../../../../../translated_images/sk/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Obrázok zo stránky [YOLO v2](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Predpokladajme, že chceme nájsť mačku na obrázku. Veľmi naivný prístup k
 2. Spustiť klasifikáciu obrázkov na každej dlaždici.
 3. Dlaždice, ktoré majú dostatočne vysokú aktiváciu, môžeme považovať za obsahujúce hľadaný objekt.
 
-![Naivná detekcia objektov](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.sk.png)
+![Naivná detekcia objektov](../../../../../translated_images/sk/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Obrázok z [cvičebného notebooku](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Pri tejto úlohe sa môžete stretnúť s nasledujúcimi datasetmi:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 tried
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 tried, ohraničujúce rámy a segmentačné masky
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.sk.jpg)
+![COCO](../../../../../translated_images/sk/coco-examples.71bc60380fa6cceb.webp)
 
 ## Metriky detekcie objektov
 
@@ -50,7 +50,7 @@ Pri tejto úlohe sa môžete stretnúť s nasledujúcimi datasetmi:
 
 Zatiaľ čo pri klasifikácii obrázkov je jednoduché merať, ako dobre algoritmus funguje, pri detekcii objektov musíme merať správnosť triedy, ako aj presnosť polohy predpokladaného ohraničujúceho rámu. Na tento účel používame tzv. **Prienik cez zjednotenie** (IoU), ktorý meria, ako dobre sa dva rámy (alebo dve ľubovoľné oblasti) prekrývajú.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.sk.png)
+![IoU](../../../../../translated_images/sk/iou_equation.9a4751d40fff4e11.webp)
 
 > *Obrázok 2 z [tohto výborného blogového príspevku o IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Existujú dve hlavné triedy algoritmov detekcie objektov:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) používa [Selektívne vyhľadávanie](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) na generovanie hierarchickej štruktúry regiónov ROI, ktoré sú potom prechádzané extraktormi funkcií CNN a SVM klasifikátormi na určenie triedy objektu, a lineárnou regresiou na určenie súradníc *ohraničujúceho rámu*. [Oficiálny článok](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.sk.png)
+![RCNN](../../../../../translated_images/sk/rcnn1.cae407020dfb1d1f.webp)
 
 > *Obrázok od van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.sk.png)
+![RCNN-1](../../../../../translated_images/sk/rcnn2.2d9530bb83516484.webp)
 
 > *Obrázky z [tohto blogu](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Existujú dve hlavné triedy algoritmov detekcie objektov:
 
 Tento prístup je podobný R-CNN, ale regióny sú definované po aplikovaní konvolučných vrstiev.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.sk.png)
+![FRCNN](../../../../../translated_images/sk/f-rcnn.3cda6d9bb4188875.webp)
 
 > Obrázok z [oficiálneho článku](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Tento prístup je podobný R-CNN, ale regióny sú definované po aplikovaní ko
 
 Hlavnou myšlienkou tohto prístupu je použitie neurónovej siete na predpovedanie ROI - tzv. *Sieť na návrh regiónov*. [Článok](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.sk.png)
+![FasterRCNN](../../../../../translated_images/sk/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Obrázok z [oficiálneho článku](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Tento algoritmus je ešte rýchlejší ako Faster R-CNN. Hlavná myšlienka je n
 2. Funkcie sú spracované pomocou **Position-Sensitive Score Map**. Každý objekt z $C$ tried je rozdelený na $k\times k$ regióny, a trénujeme na predpovedanie častí objektov.
 3. Pre každú časť z $k\times k$ regiónov všetky siete hlasujú za triedy objektov, a trieda objektu s maximálnym počtom hlasov je vybraná.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.sk.png)
+![r-fcn image](../../../../../translated_images/sk/r-fcn.13eb88158b99a3da.webp)
 
 > Obrázok z [oficiálneho článku](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO je algoritmus na detekciu objektov v reálnom čase s jedným prechodom. Hl
  * Obrázok je rozdelený na $S\times S$ regióny.
  * Pre každý región **CNN** predpovedá $n$ možných objektov, *súradnice ohraničujúceho rámu* a *dôveru*=*pravdepodobnosť* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.sk.png)
+ ![YOLO](../../../../../translated_images/sk/yolo.a2648ec82ee8bb4e.webp)
 
 > Obrázok z [oficiálneho článku](https://arxiv.org/abs/1506.02640)
 

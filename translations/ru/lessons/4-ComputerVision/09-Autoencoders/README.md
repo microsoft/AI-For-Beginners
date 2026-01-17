@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Поскольку мы обучаем автоэнкодер захватывать как можно больше информации из исходного изображения для точного восстановления, сеть пытается найти наилучшее **встраивание** входных изображений, чтобы уловить их смысл.
 
-![Схема автоэнкодера](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.ru.jpg)
+![Схема автоэнкодера](../../../../../translated_images/ru/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Изображение из [блога Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

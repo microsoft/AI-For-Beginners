@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0dc6311637b811abb415a936669d7e76",
-  "translation_date": "2026-01-05T16:57:28+00:00",
+  "original_hash": "85102ce4bfab31103e99dc8ca2e2f181",
+  "translation_date": "2026-01-16T07:29:01+00:00",
   "source_file": "README.md",
   "language_code": "pcm"
 }
@@ -23,11 +23,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 # Artificial Intelligence for Beginners - A Curriculum
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../translated_images/ai-overview.0857791951d19500.pcm.png)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../../../translated_images/pcm/ai-overview.0857791951d19500.webp)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Explore di world of **Artificial Intelligence** (AI) wit our 12-week, 24-lesson curriculum! E get practical lessons, quizzes, and labs. Di curriculum easy for beginner and e cover tools like TensorFlow and PyTorch, plus ethics for AI
+Explore di world of **Artificial Intelligence** (AI) wit our 12-week, 24-lesson curriculum! E get practical lessons, quizzes, and labs. Di curriculum na beginner-friendly and e cover tools like TensorFlow and PyTorch, plus ethics for AI
 
 
 ### 🌐 Multi-Language Support
@@ -39,43 +39,43 @@ Explore di world of **Artificial Intelligence** (AI) wit our 12-week, 24-lesson 
 
 > **Prefer to Clone Locally?**
 
-> Dis repository get over 50 language translations wey full di download size. To clone without translations, use sparse checkout:
+> Dis repository get 50+ language translations wey full ground, na im dey make di download size big. If you want clone without translations, use sparse checkout:
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
 > cd AI-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Dis go give you everything wey you need complete di course but download go fast.
+> Dis go give you everything wey you need to complete di course wit much faster download.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**If you want additional translation language dem wey dey supported dey listed [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**If you want make dem add extra translation languages, dem list dey [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-## Join the Community
+## Join di Community
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 ## Wetin you go learn
 
 **[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-For dis curriculum, you go learn:
+For this curriculum, you go learn:
 
-* Different ways to take do Artificial Intelligence, including di "good old" symbolic style wit **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
-* **Neural Networks** and **Deep Learning**, wey be di core of modern AI. We go show di concepts behind dem important topics using code for two top framework - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).
-* **Neural Architectures** wey dey work with images and text. We go cover recent models but small kind lack latest state-of-the-art.
-* Less common AI methods, like **Genetic Algorithms** and **Multi-Agent Systems**.
+* Different ways to do Artificial Intelligence, including di "good old" symbolic way wit **Knowledge Representation** and reasoning ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Neural Networks** and **Deep Learning**, wey be di main tin for modern AI. We go show di concepts behind these important topics wit code for two popular frameworks - [TensorFlow](http://Tensorflow.org) and [PyTorch](http://pytorch.org).
+* **Neural Architectures** for work wit images and text. We go cover recent models but e fit no too strong for the newest ones.
+* Less popular AI ways, like **Genetic Algorithms** and **Multi-Agent Systems**.
 
-Wetin we no go cover for dis curriculum:
+Wetin we no go talk for dis curriculum:
 
 > [Find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* Business cases of using **AI in Business**. Abeg consider take [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path for Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), wey dem develop for cooperation wit [INSEAD](https://www.insead.edu/).
+* Business tins wey dey use **AI for Business**. Try check [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) learning path for Microsoft Learn, or [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), wey dem develop together wit [INSEAD](https://www.insead.edu/).
 * **Classic Machine Learning**, wey well explain for our [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners).
-* Practical AI applications wey dem build using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. For dis one, we recommend make you start with Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** and others.
-* Specific ML **Cloud Frameworks**, like [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Abeg try [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) learning paths.
-* **Conversational AI** and **Chat Bots**. E get separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path, and you fit also check [dis blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more detail.
-* **Deep Mathematics** behind deep learning. For dis one, we go recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, wey e also dey online for [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+* Practical AI work wey build using **[Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. For these, we advise say start wit Microsoft Learn modules for [vision](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [natural language processing](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Generative AI with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** and others.
+* Specific ML **Cloud Frameworks**, like [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), or [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Try use [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) and [Build and Operate Machine Learning Solutions with Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) learning paths.
+* **Conversational AI** and **Chat Bots**. Dem get separate [Create conversational AI solutions](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) learning path, plus you fit also check [dis blog post](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) for more info.
+* **Deep Mathematics** behind deep learning. For this one, we recommend [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) by Ian Goodfellow, Yoshua Bengio and Aaron Courville, wey also dey online at [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-For soft introduction to _AI for Cloud_ topics you fit consider take the [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.
+For soft soft introduction to _AI in the Cloud_ topics, you fit try di [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) Learning Path.
 
 # Content
 
@@ -119,49 +119,49 @@ For soft introduction to _AI for Cloud_ topics you fit consider take the [Get st
 ## Each lesson contains
 
 * Pre-reading material
-* Executable Jupyter Notebooks, wey dey often special for di framework (**PyTorch** or **TensorFlow**). Di executable notebook get plenti theoretical material too, so to understand di topic, you go need run at least one version of di notebook (either PyTorch or TensorFlow).
-* **Labs** wey dey available for some topics, wey go give you chance to try apply di material wey you don learn for particular problem.
-* Some sections dey get links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules wey dey cover related topics.
+* Executable Jupyter Notebooks, wey dey often specific to the framework (**PyTorch** or **TensorFlow**). The executable notebook sef get plenty theoretical material, so to understand the topic you need to go through at least one version of the notebook (either PyTorch or TensorFlow).
+* **Labs** wey dey available for some topics, wey go give you chance to try apply wetin you don learn for a specific problem.
+* Some sections get links to [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules wey cover related topics.
 
 ## Getting Started
 
 ### 🎯 New to AI? Start Here!
 
-If you never sabi AI at all and you want quick, hands-on examples, check out our [**Beginner-Friendly Examples**](./examples/README.md)! Dem get:
+If you dey completely new to AI and you want quick, hands-on examples, check out our [**Beginner-Friendly Examples**](./examples/README.md)! Dem include:
 
 - 🌟 **Hello AI World** - Your first AI program (pattern recognition)
 - 🧠 **Simple Neural Network** - Build neural network from scratch  
-- 🖼️ **Image Classifier** - Classify images with detailed comments
-- 💬 **Text Sentiment** - Analyze positive/negative text
+- 🖼️ **Image Classifier** - Classify images wit detailed comments
+- 💬 **Text Sentiment** - Analyse positive/negative text
 
-Dem design dis examples to help you sabi AI concepts before you dive inside the full curriculum.
+Dem examples dem design to help you sabi AI concepts before you go enter the full curriculum.
 
 ### 📚 Full Curriculum Setup
 
-- We don create one [setup lesson](./lessons/0-course-setup/setup.md) to help you set up your development environment. - For Educators, we don create one [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for you too!
-- How to [Run di code for VSCode or Codepace](./lessons/0-course-setup/how-to-run.md)
+- We don create [setup lesson](./lessons/0-course-setup/setup.md) to help you setup your development environment. - For Educators, we don create [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for una too!
+- How to [Run the code for VSCode or Codespace](./lessons/0-course-setup/how-to-run.md)
 
 Follow these steps:
 
-Fork the Repository: Click on di "Fork" button wey dey top-right corner of dis page.
+Fork the Repository: Click the "Fork" button for the top-right corner of dis page.
 
 Clone the Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-No forget to star (🌟) dis repo make e easy for you to find am later.
+No forget to star (🌟) dis repo so e go easy for you to find am later.
 
 ## Meet other Learners
 
-Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) to meet and network with other learners wey dey do dis course and get support.
+Join our [official AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) to meet and network wit other learners wey dey do dis course and get help.
 
-If you get product feedback or questions while you dey build visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
+If you get product feedback or questions as you dey build, visit our [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
 ## Quizzes 
 
-> **A note about quizzes**: All quizzes dey inside di Quiz-app folder for etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/) Dem link dem from inside the lessons. Di quiz app fit run locally or you fit deploy am go Azure; follow di instruction for di `quiz-app` folder. Dem dey slowly dey localize am.
+> **A note about quizzes**: All quizzes dey inside the Quiz-app folder for etc\quiz-app, or [Online Here](https://ff-quizzes.netlify.app/) Dem link from inside the lessons, the quiz app fit run locally or fit deploy for Azure; follow instruction wey dey the `quiz-app` folder. Dem dey slowly dey localize.
 
 ## Help Wanted
 
-You get suggestions or you see any spelling or code mistakes? Make you raise issue or create pull request.
+You get suggestions or you see spelling or code errors? Raise issue or create pull request.
 
 ## Special Thanks
 
@@ -217,7 +217,7 @@ Our team dey produce other curricula! Check am out:
 
 ## Getting Help
 
-If you jam problem or you get any question about building AI apps. Join fellow learners and experienced developers for discussions about MCP. Na supportive community wey questions dey welcome and knowledge dey share free.
+If you jam wall or get any question about building AI apps. Join other learners and experienced devs for talks about MCP. Na supportive community wey questions dey welcome and dem dey share knowledge freely.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -229,5 +229,5 @@ If you get product feedback or errors while you dey build, visit:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Disclaimer**:  
-Dis document don translate wit AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Even though we dey try make am accurate, abeg sabi say automated translation fit get some mistakes or no too correct. Di original document for im own language be di correct main source. For important info, e better make person wey sabi human translation do am. We no go take any blame if person misunderstand or misuse dis translation.
+Dis document na so AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator) translate am. Even though we dey try make am correct, abeg sabi say automated translations fit get errors or wahala. Make you always trust the original document wey dey the original language as the real correct source. If na important info, e better make person wey sabi do human translation help you. We no go take responsibility if any misunderstanding or wrong meaning show because of this translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

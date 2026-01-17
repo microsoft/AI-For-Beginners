@@ -1,116 +1,116 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7d097f7fda9166ead615e4c34552381b",
-  "translation_date": "2025-09-23T11:13:48+00:00",
+  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
+  "translation_date": "2026-01-16T04:48:37+00:00",
   "source_file": "lessons/2-Symbolic/README.md",
   "language_code": "hu"
 }
 -->
-# Tudásábrázolás és szakértői rendszerek
+# Tudásreprezentáció és szakértői rendszerek
 
-![A szimbolikus AI tartalmának összefoglalása](../../../../translated_images/ai-symbolic.715a30cb610411a6.hu.png)
+![A Szimbolikus MI tartalmának összefoglalása](../../../../../../translated_images/hu/ai-symbolic.715a30cb610411a6.webp)
 
-> Sketchnote készítette: [Tomomi Imura](https://twitter.com/girlie_mac)
+> Vázlatrajz készítője: [Tomomi Imura](https://twitter.com/girlie_mac)
 
-Az emberi intelligencia mesterséges megvalósításának célja a világ megértése, hasonlóan ahhoz, ahogyan az emberek teszik. De hogyan lehet ezt elérni?
+A mesterséges intelligencia keresése a tudás utáni kutatáson alapul, hogy hasonló módon értsük meg a világot, mint az emberek. De hogyan lehet ezt megvalósítani?
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
-Az AI korai időszakában népszerű volt az intelligens rendszerek létrehozásának felülről lefelé irányuló megközelítése (az előző leckében tárgyaltak szerint). Az ötlet az volt, hogy az emberek tudását gép által olvasható formába kell átültetni, majd ezt automatikusan problémák megoldására használni. Ez a megközelítés két nagy elképzelésen alapult:
+A MI korai napjaiban népszerű volt az intelligens rendszerek létrehozásának top-down (felülről lefelé) megközelítése (amelyet az előző órán tárgyaltunk). Az elképzelés az volt, hogy az emberektől kinyerjük a tudást egy gép által olvasható formába, majd azt automatikusan problémamegoldásra használjuk. Ez a megközelítés két nagy ötletre épült:
 
-* Tudásábrázolás
+* Tudásreprezentáció
 * Következtetés
 
-## Tudásábrázolás
+## Tudásreprezentáció
 
-A szimbolikus AI egyik fontos fogalma a **tudás**. Fontos megkülönböztetni a tudást az *információtól* vagy az *adattól*. Például mondhatjuk, hogy a könyvek tudást tartalmaznak, mert tanulmányozva őket szakértővé válhatunk. Azonban amit a könyvek tartalmaznak, valójában *adat*, és amikor elolvassuk őket, majd integráljuk ezt az adatot a világmodellünkbe, az adatot tudássá alakítjuk.
+A Szimbolikus MI egyik fontos fogalma a **tudás**. Fontos elkülöníteni a tudást az *információtól* vagy az *adatoktól*. Például azt mondhatjuk, hogy a könyvek tudást tartalmaznak, mert tanulmányozhatók és szakértővé válhatunk általuk. Valójában azonban a könyvekben található valójában *adat*, és az olvasásuk és e adatok integrálása a világmodellünkbe konvertálja ezt az adatot tudássá.
 
-> ✅ **Tudás** az, ami a fejünkben van, és a világ megértését képviseli. Aktív **tanulási** folyamat révén szerezzük meg, amely integrálja az általunk kapott információkat a világ aktív modelljébe.
+> ✅ **A tudás** olyan valami, ami a fejünkben van és a világ megértését képviseli. Egy aktív **tanulási** folyamat révén szerezhető meg, amely az általunk kapott információkat beépíti a világ aktív modelljébe.
 
-Leggyakrabban nem határozzuk meg szigorúan a tudást, hanem más kapcsolódó fogalmakkal hozzuk összefüggésbe a [DIKW piramis](https://en.wikipedia.org/wiki/DIKW_pyramid) segítségével. Ez a következő fogalmakat tartalmazza:
+Leggyakrabban nem határozzuk meg szigorúan a tudást, hanem a kapcsolódó fogalmakkal igazítjuk a [DIKW Piramis](https://en.wikipedia.org/wiki/DIKW_pyramid) segítségével. Ez a következő fogalmakat tartalmazza:
 
-* **Adat**: Fizikai médiában ábrázolt információ, például írott szöveg vagy beszélt szavak. Az adat függetlenül létezik az emberektől, és átadható közöttük.
-* **Információ**: Az adat értelmezése a fejünkben. Például, amikor meghalljuk a *számítógép* szót, van valamilyen elképzelésünk arról, hogy mi az.
-* **Tudás**: Az információ integrálása a világmodellünkbe. Például, ha megtanuljuk, mi az a számítógép, elkezdünk ötleteket alkotni arról, hogyan működik, mennyibe kerül, és mire használható. Ez az összefüggő fogalmak hálózata alkotja a tudásunkat.
-* **Bölcsesség**: Egy további szint a világ megértésében, amely a *meta-tudást* képviseli, például azt, hogy hogyan és mikor kell használni a tudást.
+* **Adat** valami, ami fizikai közegen van ábrázolva, például írott szöveg vagy beszélt szavak. Az adatok függetlenül léteznek az emberektől és átadhatók egymás között.
+* **Információ** az, ahogyan fejben értelmezzük az adatokat. Például amikor meghalljuk a *számítógép* szót, van valamilyen fogalmunk arról, hogy mi az.
+* **Tudás** amikor az információt beépítjük a világmodellünkbe. Például amikor megtanuljuk, mi a számítógép, elkezdünk ötleteket formálni arról, hogyan működik, mennyibe kerül, és mire használható. Ez az összefüggő fogalmak hálózata alkotja a tudásunkat.
+* **Bölcsesség** még egy magasabb szint a világ megértésében, és ez *meta-tudást* jelent, pl. egyfajta ismeretet arról, hogy hogy és mikor kell használni a tudást.
 
-<img src="images/DIKW_Pyramid.png" width="30%"/>
+<img src="../../../../translated_images/hu/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
-*Kép [a Wikipédiáról](https://commons.wikimedia.org/w/index.php?curid=37705247), Longlivetheux saját munkája, CC BY-SA 4.0*
+*Kép [a Wikipédiáról](https://commons.wikimedia.org/w/index.php?curid=37705247), készítő: Longlivetheux - Saját munka, CC BY-SA 4.0*
 
-Így a **tudásábrázolás** problémája az, hogy hatékony módot találjunk a tudás számítógépen belüli adatként való ábrázolására, hogy automatikusan használható legyen. Ez egy spektrumként értelmezhető:
+Így a **tudásreprezentáció** problémája az, hogy valamilyen hatékony módon ábrázoljuk a tudást a számítógépben adat formájában, hogy az automatikusan felhasználható legyen. Ezt egy spektrumnak tekinthetjük:
 
-![Tudásábrázolási spektrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217.hu.png)
+![Tudásreprezentáció spektrum](../../../../../../translated_images/hu/knowledge-spectrum.b60df631852c0217.webp)
 
-> Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
+> Kép készítője: [Dmitry Soshnikov](http://soshnikov.com)
 
-* A bal oldalon nagyon egyszerű tudásábrázolási típusok találhatók, amelyeket a számítógépek hatékonyan használhatnak. A legegyszerűbb az algoritmikus ábrázolás, amikor a tudást egy számítógépes program képviseli. Ez azonban nem a legjobb módja a tudás ábrázolásának, mert nem rugalmas. A fejünkben lévő tudás gyakran nem algoritmikus.
-* A jobb oldalon olyan ábrázolások találhatók, mint a természetes szöveg. Ez a legerősebb, de nem használható automatikus következtetésre.
+* Bal oldalon nagyon egyszerű tudásreprezentációs típusok vannak, amelyeket a számítógépek hatékonyan tudnak használni. A legegyszerűbb az algoritmikus, amikor a tudást egy számítógépes program képviseli. Ez azonban nem a legjobb mód a tudás ábrázolására, mert nem rugalmas. A fejünkben lévő tudás gyakran nem algoritmikus.
+* Jobb oldalon vannak az olyan ábrázolások, mint a természetes szöveg. Ez a legerősebb, de nem használható automatikus érveléshez.
 
-> ✅ Gondolkodj el egy percre azon, hogyan ábrázolod a tudást a fejedben, és hogyan alakítod jegyzetekké. Van-e olyan formátum, amely segíti a megjegyzést?
+> ✅ Gondolkozz egy percet arról, hogy te hogyan reprezentálod a tudást a fejedben, és hogyan alakítod át jegyzetekké. Van-e nálad hatékony formátum a jobb megtartás érdekében?
 
-## Számítógépes tudásábrázolások osztályozása
+## A számítógépes tudásreprezentációk osztályozása
 
-A számítógépes tudásábrázolási módszereket a következő kategóriákba sorolhatjuk:
+A különböző számítógépes tudásreprezentációs módszereket az alábbi kategóriákba sorolhatjuk:
 
-* **Hálózati ábrázolások**: Azon az elven alapulnak, hogy a fejünkben összefüggő fogalmak hálózata van. Megpróbálhatjuk ugyanazokat a hálózatokat reprodukálni egy gráfként a számítógépen belül - egy úgynevezett **szemantikus hálózatként**.
+* **Hálózati reprezentációk** az alapján, hogy van egy összekapcsolt fogalomhálózat a fejünkben. Ezt megpróbálhatjuk ugyanazt a hálózatot gráfként reprodukálni a számítógépben - egy úgynevezett **szemantikus hálózatot**.
 
-1. **Objektum-Attribútum-Érték hármasok** vagy **attribútum-érték párok**. Mivel egy gráf számítógépen belül ábrázolható csomópontok és élek listájaként, egy szemantikus hálózatot hármasok listájaként ábrázolhatunk, amelyek objektumokat, attribútumokat és értékeket tartalmaznak. Például a következő hármasokat építjük fel a programozási nyelvekről:
+1. **Objektum-Attribútum-Érték hármasok** vagy **attribútum-érték párok**. Mivel a gráfot a számítógép listaként tárolhatja csúcsokból és élekből, egy szemantikus hálózatot hármasok listájaként ábrázolhatunk, amelyek a következőket tartalmazzák: objektumok, attribútumok és értékek. Például a következő hármasokat építjük a programozási nyelvekről:
 
 Objektum | Attribútum | Érték
----------|-----------|------
-Python   | is        | Untyped-Language
-Python   | invented-by | Guido van Rossum
-Python   | block-syntax | indentation
+---------|------------|------
+Python   | is         | Untyped-Language
+Python   | invented-by| Guido van Rossum
+Python   | block-syntax| indentation
 Untyped-Language | doesn't have | type definitions
 
-> ✅ Gondold át, hogyan lehet hármasokat használni más típusú tudás ábrázolására.
+> ✅ Gondold át, hogyan lehetne a hármasokat más típusú tudás reprezentálására használni.
 
-2. **Hierarchikus ábrázolások**: Kiemelik azt a tényt, hogy gyakran hierarchiát hozunk létre az objektumok között a fejünkben. Például tudjuk, hogy a kanári egy madár, és minden madárnak van szárnya. Van elképzelésünk arról is, hogy milyen színű egy kanári általában, és milyen a repülési sebessége.
+2. **Hierarchikus reprezentációk** hangsúlyozzák, hogy gyakran hozunk létre hierarchiát a fejünkben lévő objektumokról. Például tudjuk, hogy a kanári madár, és minden madárnak vannak szárnyai. Van némi fogalmunk arról is, hogy a kanári általában milyen színű, és milyen a repülési sebessége.
 
-   - **Keretrendszer ábrázolás**: Minden objektumot vagy objektumosztályt egy **keretként** ábrázol, amely **helyeket** tartalmaz. A helyeknek lehetnek alapértelmezett értékei, értékmegkötései vagy tárolt eljárásai, amelyeket a hely értékének megszerzéséhez lehet hívni. Az összes keret hierarchiát alkot, hasonlóan az objektumorientált programozási nyelvek objektumhierarchiájához.
-   - **Forgatókönyvek**: Olyan speciális keretek, amelyek összetett helyzeteket ábrázolnak, amelyek időben kibontakozhatnak.
+   - **Keretrendszer (frame) reprezentáció** azon alapul, hogy az egyes objektumokat vagy objektumosztályokat **keretként (frame)** ábrázoljuk, amelyek **helyeket (slot)** tartalmaznak. A helyeknek lehetnek alapértelmezett értékei, érték megkötései vagy eljárások, amelyeket hívhatunk a hely értékének megszerzésére. Minden keret hierarchiát alkot, amely hasonló az objektum-orientált programozási nyelvek objektumhierarchiájához.
+   - **Forgatókönyvek (scenarios)** olyan speciális keretek, amelyek komplex helyzeteket ábrázolnak, amelyek időben kibontakozhatnak.
 
 **Python**
 
 Hely | Érték | Alapértelmezett érték | Intervallum |
------|-------|-----------------------|-------------|
-Név  | Python |                       |             |
-Is-A | Untyped-Language |             |             |
-Változó formátum | | CamelCase         |             |
-Program hossza | |                     | 5-5000 sor  |
-Blokk szintaxis | Indent |             |             |
+-----|-------|------------------------|-------------|
+Név  | Python | | |
+Is-A | Untyped-Language | | |
+Változó név forma | | CamelCase | |
+Program hossza | | | 5-5000 sor |
+Blokk szintaxis | Behúzás | | |
 
-3. **Procedurális ábrázolások**: A tudást olyan cselekvések listájaként ábrázolják, amelyeket bizonyos feltételek bekövetkezésekor lehet végrehajtani.
-   - Produkciós szabályok: Ha-akkor állítások, amelyek lehetővé teszik következtetések levonását. Például egy orvosnak lehet olyan szabálya, amely szerint **HA** a betegnek magas láza **VAGY** magas C-reaktív fehérje szintje van a vérvizsgálatban, **AKKOR** gyulladása van. Ha találkozunk valamelyik feltétellel, következtetést vonhatunk le a gyulladásról, majd ezt további következtetésekhez használhatjuk.
-   - Algoritmusok: Egy másik formája a procedurális ábrázolásnak, bár szinte soha nem használják őket közvetlenül tudásalapú rendszerekben.
+3. **Procedurális reprezentációk** azon alapulnak, hogy a tudást egy cselekvési lista formájában ábrázolják, amely végrehajtható, ha egy bizonyos feltétel teljesül.
+   - A termelési szabályok (production rules) ha-akkor állítások, amelyek lehetővé teszik a következtetés levonását. Például egy orvosnak lehet egy szabálya, amely így szól: **HA** a páciensnek magas láza **VAGY** magas a C-reaktív fehérje szint a vérvizsgálatban, **AKKOR** gyulladása van. Ha találkozunk az egyik feltétellel, megállapíthatjuk a gyulladást, majd ezt tovább felhasználhatjuk érvelésben.
+   - Az algoritmusok tekinthetők a procedurális reprezentáció egy másik formájának, bár szinte soha nem használják őket közvetlenül tudásalapú rendszerekben.
 
-4. **Logika**: Eredetileg Arisztotelész javasolta, mint az emberi tudás univerzális ábrázolásának módját.
-   - Predikátum logika: Matematikai elméletként túl gazdag ahhoz, hogy számítható legyen, ezért általában annak egy részhalmazát használják, például a Prologban használt Horn-klauzulákat.
-   - Leíró logika: Logikai rendszerek családja, amelyeket objektumok hierarchiájának ábrázolására és következtetésére használnak, például a *szemantikus web* elosztott tudásábrázolásában.
+4. **Logika** eredetileg Arisztotelész által javasolt módszer az egyetemes emberi tudás ábrázolására.
+   - A predikátumlogika matematikai elméletként túl gazdag ahhoz, hogy számítható legyen, ezért általában csak részhalmazát használják, például Horn-klauszulákat, amelyeket Prologban is használnak.
+   - A Deskriptív logika egy logikai rendszerek családja, amelyeket hierarchiák és elosztott tudás-reprezentációk, például a *szemantikus web* ábrázolására és következtetéshez használnak.
 
 ## Szakértői rendszerek
 
-A szimbolikus AI korai sikerei közé tartoztak az úgynevezett **szakértői rendszerek** - olyan számítógépes rendszerek, amelyeket arra terveztek, hogy egy korlátozott problématerületen szakértőként működjenek. Ezek egy **tudásbázison** alapultak, amelyet egy vagy több emberi szakértőtől nyertek ki, és tartalmaztak egy **következtető motort**, amely ezen tudás alapján végzett következtetéseket.
+A szimbolikus MI korai sikerei közé tartoztak az úgynevezett **szakértői rendszerek** - olyan számítógépes rendszerek, amelyeket úgy terveztek, hogy egy szűk problématerületen szakértőként működjenek. Ezek egy vagy több emberi szakértőtől kinyert **tudásbázison** alapultak, és tartalmaztak egy **következtető motort**, amely érvelést végzett.
 
-![Emberi architektúra](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.hu.png) | ![Tudásalapú rendszer](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.hu.png)
----------------------------------------------|------------------------------------------------
-Az emberi idegrendszer egyszerűsített szerkezete | Tudásalapú rendszer architektúrája
+![Emberi architektúra](../../../../../../translated_images/hu/arch-human.5d4d35f1bba3ab1c.webp) | ![Tudásalapú rendszer](../../../../../../translated_images/hu/arch-kbs.3ec5c150b09fa8da.webp)
+--------------------------------------------|---------------------------------------------
+Az emberi idegrendszer egyszerűsített szerkezete | Tudásalapú rendszer felépítése
 
-A szakértői rendszerek felépítése hasonló az emberi következtetési rendszerhez, amely tartalmaz **rövid távú memóriát** és **hosszú távú memóriát**. Hasonlóképpen, a tudásalapú rendszerekben megkülönböztetjük a következő komponenseket:
+A szakértői rendszerek úgy épülnek fel, mint az emberi érvelési rendszer, amely tartalmaz **rövid távú memóriát** és **hosszú távú memóriát**. Hasonlóképpen, a tudásalapú rendszerekben az alábbi komponenseket különböztetjük meg:
 
-* **Problémamemória**: Tartalmazza az aktuálisan megoldott problémával kapcsolatos tudást, például a beteg hőmérsékletét vagy vérnyomását, hogy van-e gyulladása, stb. Ezt a tudást **statikus tudásnak** is nevezik, mert az aktuális problémáról szóló pillanatképet tartalmazza - az úgynevezett *problémaállapotot*.
-* **Tudásbázis**: A problématerületről szóló hosszú távú tudást képviseli. Ezt manuálisan nyerik ki emberi szakértőktől, és nem változik konzultációról konzultációra. Mivel lehetővé teszi, hogy egyik problémaállapotból a másikba navigáljunk, **dinamikus tudásnak** is nevezik.
-* **Következtető motor**: Az egész folyamatot irányítja, amely során a problématerület állapotában keres, és szükség esetén kérdéseket tesz fel a felhasználónak. Felelős továbbá a megfelelő szabályok megtalálásáért, amelyeket az egyes állapotokra alkalmazni kell.
+* **Probléma memória**: tartalmazza az éppen megoldandó problémával kapcsolatos tudást, például a beteg hőmérsékletét, vérnyomását, gyulladását vagy sem. Ezt a tudást nevezzük **statikus tudásnak**, mert a probléma aktuális állapotának "pillanatképét" tartalmazza - az úgynevezett *probléma állapotot*.
+* **Tudásbázis**: egy probléma terület hosszú távú tudását képviseli. Manuálisan származik emberi szakértőktől, és nem változik konzultációról konzultációra. Mivel lehetővé teszi az egyik probléma állapotból a másikra való navigálást, ezért ezt **dinamikus tudásnak** is nevezik.
+* **Következtető motor**: összehangolja a problématérben való keresést, szükség esetén kérdéseket tesz fel a felhasználónak. Felelős a megfelelő szabályok megtalálásáért, amelyek minden állapotra alkalmazhatók.
 
-Példaként vegyük a következő szakértői rendszert, amely egy állatot határoz meg fizikai jellemzői alapján:
+Példaként tekintsük a következő szakértői rendszert, amely egy állat meghatározását végzi fizikai jellemzői alapján:
 
-![AND-OR fa](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.hu.png)
+![ÉS-VAGY fa](../../../../../../translated_images/hu/AND-OR-Tree.5592d2c70187f283.webp)
 
-> Kép készítette: [Dmitry Soshnikov](http://soshnikov.com)
+> Kép készítője: [Dmitry Soshnikov](http://soshnikov.com)
 
-Ez a diagram egy **AND-OR fa**, amely a produkciós szabályok grafikus ábrázolása. A fa rajzolása hasznos az elején, amikor a tudást kinyerjük a szakértőtől. A tudás számítógépen belüli ábrázolásához azonban kényelmesebb szabályokat használni:
+Ezt az ábrát **ÉS-VAGY fának** hívják, és egy termelési szabályrendszer grafikus ábrázolása. Egy fa rajzolása hasznos a tudás kinyerésének kezdetén a szakértőtől. A tudás számítógépes reprezentálásához azonban kényelmesebb szabályokat használni:
 
 ```
 IF the animal eats meat
@@ -121,69 +121,78 @@ OR (animal has sharp teeth
 THEN the animal is a carnivore
 ```
 
-Észreveheted, hogy minden feltétel a szabály bal oldalán és az akció lényegében objektum-attribútum-érték (OAV) hármas. A **munkamemória** tartalmazza az OAV hármasok halmazát, amelyek az aktuálisan megoldott problémának felelnek meg. A **szabálymotor** olyan szabályokat keres, amelyek feltételei teljesülnek, és alkalmazza őket, új hármasokat adva a munkamemóriához.
+Észreveheted, hogy a szabály bal oldalán lévő feltétel és a cselekvés lényegében objektum-attribútum-érték (OAV) hármasok. A **munkamemória** tartalmazza a jelenleg megoldandó problémának megfelelő OAV hármasok halmazát. Egy **szabálymotort** keres minden olyan szabályt, amelynek a feltétele teljesül, és alkalmazza azokat, új hármast adva a munkamemóriához.
 
-> ✅ Készíts saját AND-OR fát egy általad kedvelt témában!
+> ✅ Írj saját ÉS-VAGY fát egy számodra érdekes témáról!
 
-### Előre- és visszafelé következtetés
+### Előre- és Visszakövetkeztetés
 
-A fent leírt folyamatot **előre következtetésnek** nevezzük. Ez azzal kezdődik, hogy a munkamemóriában rendelkezésre áll némi kezdeti adat a problémáról, majd a következő következtetési ciklust hajtja végre:
+A fenti folyamatot **előrekövetkeztetésnek** nevezik. Kezd egy kezdeti adattal a munkamemóriában, majd az alábbi érvelési ciklust hajtja végre:
 
-1. Ha a célattribútum jelen van a munkamemóriában - állj meg, és add meg az eredményt
-2. Keress minden szabályt, amelynek feltételei jelenleg teljesülnek - hozz létre **konfliktushalmazt**.
-3. Végez **konfliktusfeloldást** - válassz egy szabályt, amelyet ebben a lépésben végrehajtasz. Különböző konfliktusfeloldási stratégiák lehetnek:
-   - Válaszd ki az első alkalmazható szabályt a tudásbázisban
+1. Ha a cél attribútum megtalálható a munkamemóriában – állj meg és add meg az eredményt
+2. Keresd meg az összes olyan szabályt, amelynek a feltétele jelenleg teljesül – kapj egy **konfliktus halmazt**.
+3. Végezz **konfliktusmegoldást** – válassz egy szabályt, amely végrehajtásra kerül ezen a lépésen. Különféle konfliktusmegoldási stratégiák létezhetnek:
+   - Válaszd az első alkalmazható szabályt a tudásbázisból
    - Válassz véletlenszerű szabályt
-   - Válassz egy *specifikusabb* szabályt, azaz azt, amely a legtöbb feltételt teljesíti a "bal oldalon" (LHS)
-4. Alkalmazd a kiválasztott szabályt, és adj hozzá új tudáselemet a problémaállapothoz
-5. Ismételd meg az 1. lépéstől.
+   - Válassz *specifikusabb* szabályt, azaz olyat, amely a legtöbb feltételnek megfelel a jobb oldalon (LHS)
+4. Alkalmazd a kiválasztott szabályt, és illessz be egy új tudásegységet a probléma állapotába
+5. Ismételd az 1. lépéstől.
 
-Bizonyos esetekben azonban előfordulhat, hogy üres tudással szeretnénk kezdeni a problémáról, és kérdéseket feltenni, amelyek segítenek eljutni a következtetéshez. Például orvosi diagnózis során általában nem végezzük el az összes orvosi elemzést előre, mielőtt elkezdenénk diagnosztizálni a beteget. Inkább akkor végezzük el az elemzéseket, amikor döntést kell hozni.
+Bizonyos esetekben azonban előfordulhat, hogy a probléma ismeretlen, és kérdéseket kell feltennünk, hogy következtetésekhez jussunk. Például orvosi diagnosztika során nem végezzük el előre az összes vizsgálatot, hanem inkább akkor kérünk vizsgálatokat, ha döntést kell hozni.
 
-Ez a folyamat **visszafelé következtetéssel** modellezhető. Ez a **cél** által vezérelt - az attribútumérték, amelyet keresünk:
+Ezt a folyamatot **visszakövetkeztetéssel** modellezhetjük. Ezt a **céltól** indítjuk – az attribútum értékét keressük:
 
-1. Válassz ki minden szabályt, amely megadhatja a cél értékét (azaz amelynek a cél a jobb oldalon (RHS) van) - konfliktushalmaz
-1. Ha nincs szabály erre az attribútumra, vagy van olyan szabály, amely szerint az értéket a felhasználótól kell kérni - kérdezd meg, különben:
-1. Használj konfliktusfeloldási stratégiát, hogy kiválassz egy szabályt, amelyet *hipotézisként* fogsz használni - megpróbáljuk bizonyítani
-1. Ismételten ismételd meg a folyamatot a szabály bal oldalán (LHS) lévő összes attribútumra, megpróbálva bizonyítani őket célként
-1. Ha bármelyik ponton a folyamat meghiúsul - használj másik szabályt a 3. lépésben.
+1. Válaszd ki az összes olyan szabályt, amely megadhatja a cél értékét (azaz a szabály jobb oldalán, RHS, ez a cél) – egy konfliktus halmaz.
+2. Ha nincs ilyen szabály, vagy van olyan szabály, amely azt mondja, hogy kérdezd meg a felhasználót, akkor kérdezd meg, különben:
+3. Konfliktusmegoldó stratégiával válassz egy szabályt, amelyet *feltételezésként* használunk – megpróbáljuk igazolni.
+4. Rekurzívan ismételd meg a folyamatot a szabály bal oldalán (LHS) lévő összes attribútumra, mint célokra.
+5. Ha bármikor a folyamat meghiúsul – lépj a 3. lépésben egy másik szabályra.
 
-> ✅ Milyen helyzetekben megfelelőbb az előre következtetés? És a visszafelé következtetés?
+> ✅ Milyen helyzetekben megfelelőbb az előrekövetkeztetés? És mikor a visszakövetkeztetés?
 
-### Szakértői rendszerek megvalósítása
+### Szakértői rendszerek implementálása
 
 A szakértői rendszerek különböző eszközökkel valósíthatók meg:
 
-* Közvetlen programozás valamilyen magas szintű programozási nyelven. Ez nem a legjobb ötlet, mert a tudásalapú rendszer fő előnye, hogy a tudás elkülönül a következtetéstől, és potenciálisan a problématerület szakértője képesnek kell lennie szabályokat írni anélkül, hogy megértené a következtetési folyamat részleteit.
-* **Szakértői rendszermag** használata, azaz olyan rendszer, amelyet kifejezetten arra terveztek, hogy tudással töltsék fel valamilyen tudásábrázolási nyelv segítségével.
+* Közvetlen programozás magas szintű programozási nyelven. Ez nem a legjobb ötlet, mert a tudásalapú rendszer fő előnye az, hogy a tudás szétválasztott a következtetéstől, és egy problématerület szakértője potenciálisan tud szabályokat írni anélkül, hogy értené a következtetési folyamat részleteit
+* **Szakértői rendszer héj** használata, vagyis egy olyan rendszer, amelyet kifejezetten arra terveztek, hogy tudásábrázolási nyelv segítségével könnyen tölthető legyen tudással.
 
 ## ✍️ Gyakorlat: Állati következtetés
 
-Lásd [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) példát az előre és visszafelé követ
-- XML-alapú nyelvek családja a tudás leírására: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+Lásd [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) példát az előre- és visszakövetkeztetéses szakértői rendszer implementálására.
 
-A Szemantikus Web egyik alapfogalma az **Ontológia**. Ez egy probléma területének formális tudásreprezentációval történő explicit specifikációjára utal. A legegyszerűbb ontológia lehet egy objektumok hierarchiája a probléma területén, de a bonyolultabb ontológiák szabályokat is tartalmaznak, amelyek következtetésekhez használhatók.
+> **Megjegyzés**: Ez a példa egyszerű, és csak bemutatja, hogyan néz ki egy szakértői rendszer. Ha elkezdesz egy ilyen rendszert létrehozni, akkor 200+ szabály körül kezded csak *intelligens* viselkedését észrevenni. Egy idő után a szabályok túl összetettek lesznek ahhoz, hogy fejben tartsd őket, és ebben a pontban felmerülhet a kérdés, hogy a rendszer miért hoz egyes döntéseket. Azonban a tudásalapú rendszerek fontos jellemzője, hogy mindig meg tudod magyarázni pontosan, hogyan hozott bármely döntést.
 
-A szemantikus webben minden reprezentáció tripleteken alapul. Minden objektumot és minden kapcsolatot egyedi URI-val azonosítanak. Például, ha azt szeretnénk kijelenteni, hogy ezt az AI Curriculumot Dmitry Soshnikov fejlesztette ki 2022. január 1-jén, akkor az alábbi tripleteket használhatjuk:
+## Ontológiák és a Szemantikus Web
 
-<img src="images/triplet.png" width="30%"/>
+A 20. század végén indult egy kezdeményezés, hogy a tudásreprezentációt használják az internetes erőforrások annotálására, hogy nagyon speciális lekérdezéseknek megfelelő erőforrásokat lehessen találni. Ezt a kezdeményezést **Szemantikus Webnek** nevezték, amely több fogalomra épült:
+
+- Egy speciális tudás-reprezentáció, amely a **[leíró logikákra](https://en.wikipedia.org/wiki/Description_logic)** (DL) alapul. Ez hasonló a keretrendszeres tudásreprezentációhoz, mert objektumhierarchiát épít tulajdonságokkal, de formális logikai szemantikája és következtetése van. Egy egész családja van DL-eknek, amelyek az expresszivitás és az algoritmikus következtetés komplexitása között egyensúlyoznak.
+- Elosztott tudás-reprezentáció, ahol minden fogalom globális URI azonosítóval rendelkezik, lehetővé téve hálózati tudáshierarchiák létrehozását, amelyek az interneten átnyúlnak.
+- Egy XML-alapú tudásleíró nyelvcsalád: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+
+A szemantikus web egyik alapvető fogalma az **ontológia**. Ez egy probléma-domainek kifejezett specifikációjára utal valamilyen formális tudás-reprezentáció használatával. A legegyszerűbb ontológia lehet csupán egy hierarchia az adott probléma-domén objektumaiból, de bonyolultabb ontológiák szabályokat is tartalmaznak, amelyeket következtetésre lehet alkalmazni.
+
+A szemantikus web esetén minden reprezentáció tripleteken alapul. Minden objektumot és minden relációt egyértelműen az URI azonosít. Például, ha közölni szeretnénk, hogy ezt az AI tananyagot Dmitry Soshnikov fejlesztette ki 2022. január 1-jén – itt vannak a használható tripletek:
+
+<img src="../../../../translated_images/hu/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
+http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Itt a `http://www.example.com/terms/creation-date` és a `http://purl.org/dc/elements/1.1/creator` néhány jól ismert és univerzálisan elfogadott URI, amelyek a *készítő* és a *létrehozás dátuma* fogalmakat fejezik ki.
+> ✅ Itt a `http://www.example.com/terms/creation-date` és a `http://purl.org/dc/elements/1.1/creator` jól ismert és általánosan elfogadott URI-k arra, hogy kifejezzük a *létrehozó* és a *létrehozás dátuma* fogalmát.
 
-Egy összetettebb esetben, ha egy készítők listáját szeretnénk meghatározni, akkor az RDF-ben definiált adatstruktúrákat használhatjuk.
+Bonyolultabb esetben, ha létrehozók listáját akarjuk definiálni, RDF-ben definiált adatstruktúrákat használhatunk.
 
-<img src="images/triplet-complex.png" width="40%"/>
+<img src="../../../../translated_images/hu/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
-> A fenti diagramok Dmitry Soshnikovtól származnak ([Dmitry Soshnikov](http://soshnikov.com)).
+> A fenti ábrák [Dmitry Soshnikov](http://soshnikov.com) munkái
 
-A Szemantikus Web építésének előrehaladását némileg lassította a keresőmotorok és a természetes nyelvi feldolgozási technikák sikere, amelyek lehetővé teszik a strukturált adatok kinyerését szövegből. Azonban bizonyos területeken még mindig jelentős erőfeszítések történnek ontológiák és tudásbázisok fenntartására. Néhány figyelemre méltó projekt:
+A szemantikus web kiépítésének előrehaladását némileg lassította a keresőmotorok és természetes nyelvfeldolgozó technikák sikere, amelyek lehetővé teszik a strukturált adatok kinyerését szövegből. Ugyanakkor bizonyos területeken még mindig jelentős erőfeszítések folynak az ontológiák és tudásbázisok karbantartására. Néhány figyelemre méltó projekt:
 
-* [WikiData](https://wikidata.org/) egy géppel olvasható tudásbázisok gyűjteménye, amely a Wikipédiához kapcsolódik. Az adatok nagy része a Wikipédia *InfoBoxokból* származik, amelyek strukturált tartalomdarabok a Wikipédia oldalain. A WikiData-t SPARQL-ban, a Szemantikus Web speciális lekérdező nyelvében lehet [lekérdezni](https://query.wikidata.org/). Íme egy példa lekérdezés, amely megjeleníti az emberek körében leggyakoribb szemszíneket:
+* A [WikiData](https://wikidata.org/) egy géppel olvasható tudásbázis gyűjtemény, amely a Wikipédiához kapcsolódik. Az adatok többsége a Wikipedia *Infó dobozaiból* származik, amelyek struktúrált tartalmi részek a Wikipédia oldalain. A wikidata lekérdezhető SPARQL nyelven a [query.wikidata.org](https://query.wikidata.org/) címen. Íme egy példa lekérdezés, ami az emberek leggyakoribb szemszínét mutatja:
 
 ```sparql
 #defaultView:BubbleChart
@@ -197,47 +206,51 @@ WHERE
 GROUP BY ?eyeColorLabel
 ```
 
-* [DBpedia](https://www.dbpedia.org/) egy másik, a WikiData-hoz hasonló kezdeményezés.
+* A [DBpedia](https://www.dbpedia.org/) egy másik, a WikiData-hoz hasonló kezdeményezés.
 
-> ✅ Ha szeretnél kísérletezni saját ontológiák létrehozásával vagy meglévők megnyitásával, van egy nagyszerű vizuális ontológia szerkesztő, a [Protégé](https://protege.stanford.edu/). Töltsd le, vagy használd online.
+> ✅ Ha szeretnéd kipróbálni saját ontológiák építését vagy meglévők megnyitását, van egy remek vizuális ontológia szerkesztő, a [Protégé](https://protege.stanford.edu/). Töltsd le, vagy használd online.
 
-<img src="images/protege.png" width="70%"/>
+<img src="../../../../translated_images/hu/protege.274177ceeac13b38.webp" width="70%"/>
 
-*Web Protégé szerkesztő megnyitva a Romanov család ontológiájával. Képernyőkép Dmitry Soshnikovtól*
+*Web Protégé szerkesztő megnyitva a Romanov Család ontológiájával. Képernyőkép Dmitry Soshnikovtól*
 
-## ✍️ Gyakorlat: Egy családi ontológia
+## ✍️ Gyakorlat: Családi Ontológia
 
-Nézd meg a [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) fájlt, amely példát mutat a Szemantikus Web technikák használatára családi kapcsolatok elemzéséhez. Egy közös GEDCOM formátumban ábrázolt családfát és egy családi kapcsolatok ontológiáját fogjuk használni, hogy egy adott személyek halmazára vonatkozóan felépítsük az összes családi kapcsolat gráfját.
+Nézd meg a [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) példáját, amely bemutatja, hogyan használhatók a szemantikus web technikák családi kapcsolatok következtetésére. Egy közönséges GEDCOM formátumban ábrázolt családfa és egy családi kapcsolatokra vonatkozó ontológia alapján felépítünk egy gráfot az adott egyének összes családi kapcsolatáról.
 
-## Microsoft Concept Graph
+## Microsoft Fogalomgráf
 
-A legtöbb esetben az ontológiákat gondosan kézzel készítik. Azonban lehetséges ontológiákat **kinyerni** strukturálatlan adatokból, például természetes nyelvi szövegekből.
+A legtöbb esetben az ontológiákat kézzel, gondosan hozzák létre. Ugyanakkor lehetséges ontológiák **kitermelése** is strukturálatlan adatokból, például természetes nyelvű szövegekből.
 
-Egy ilyen próbálkozást a Microsoft Research végezte, amelynek eredménye a [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
+Erre való kísérlet történt a Microsoft Research részéről, ennek eredménye a [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
 
-Ez egy nagy gyűjteménye az entitásoknak, amelyek `is-a` öröklődési kapcsolat alapján vannak csoportosítva. Lehetővé teszi olyan kérdések megválaszolását, mint például "Mi a Microsoft?" - a válasz valami olyasmi, mint "egy vállalat 0,87 valószínűséggel, és egy márka 0,75 valószínűséggel".
+Ez egy nagy gyűjteménye az entitásoknak, amelyeket `is-a` öröklődési kapcsolat használatával csoportosítottak össze. Lehetővé teszi olyan kérdések megválaszolását, mint például "Mi a Microsoft?" - amire a válasz valami olyasmi, hogy "egy vállalat 0,87 valószínűséggel, és egy márka 0,75 valószínűséggel".
 
-A Graph elérhető REST API-n keresztül, vagy egy nagy letölthető szövegfájlként, amely az összes entitáspárt felsorolja.
+A gráf elérhető REST API-ként vagy letölthető nagy méretű szöveges fájlként, amely minden entitáspárt felsorol.
 
-## ✍️ Gyakorlat: Egy fogalom gráf
+## ✍️ Gyakorlat: Fogalomgráf
 
-Próbáld ki az [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebookot, hogy láthasd, hogyan használhatjuk a Microsoft Concept Graph-ot hírcikkek több kategóriába történő csoportosítására.
+Próbáld ki a [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) jegyzetfüzetet, hogy láthasd, miként használhatjuk a Microsoft Concept Graph-ot hírek cikkek kategorizálására.
 
 ## Összegzés
 
-Manapság az AI-t gyakran a *gépi tanulás* vagy *neurális hálók* szinonimájaként emlegetik. Azonban az emberi lények explicit érvelést is mutatnak, ami olyasmi, amit jelenleg a neurális hálók nem kezelnek. Valós projektekben az explicit érvelést továbbra is használják olyan feladatok elvégzésére, amelyek magyarázatokat igényelnek, vagy amelyeknél a rendszer viselkedését kontrollált módon kell módosítani.
+Napjainkban az MI gyakran szinonimaként jelenik meg a *Gépi tanulásra* vagy a *Neuronhálókra*. Azonban az emberi lény explicit következtetéseket is végez, amit a neuronhálók jelenleg nem kezelnek. Valós projektekben az explicit következtetés továbbra is alkalmazásra kerül olyan feladatoknál, amelyek magyarázatot igényelnek, vagy amelyeknél kontrollált módon kell módosítani a rendszer viselkedését.
 
 ## 🚀 Kihívás
 
-A leckéhez kapcsolódó Family Ontology notebookban lehetőség van más családi kapcsolatokkal kísérletezni. Próbálj meg új kapcsolatokat felfedezni az emberek között a családfában.
+A Családi Ontológia jegyzetfüzetben lehetőség van kísérletezni további családi viszonyokkal. Próbálj meg új kapcsolatokat felfedezni az adott családfában lévő személyek között.
 
-## [Utólagos kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
+## [Óra utáni kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
-## Áttekintés és önálló tanulás
+## Áttekintés & Önkéntes tanulás
 
-Végezz kutatást az interneten, hogy felfedezd azokat a területeket, ahol az emberek megpróbálták kvantifikálni és kódolni a tudást. Nézd meg Bloom taxonómiáját, és menj vissza a történelemben, hogy megtudd, hogyan próbálták az emberek értelmezni a világukat. Fedezd fel Linnaeus munkáját az organizmusok taxonómiájának létrehozására, és figyeld meg, hogyan hozott létre Dmitrij Mengyelejev egy rendszert a kémiai elemek leírására és csoportosítására. Milyen más érdekes példákat találsz?
+Kutatásszerűen járj utána az interneten, hogy hol és hogyan próbálták az emberek mennyiségileg kifejezni és rendszerezni a tudást. Nézd meg Bloom Taxonómiáját, és utazz vissza a történelemben, hogy megismerd, miként próbálták az emberek megérteni világukat. Fedezd fel Linnaeus munkásságát az élőlények taxonómiájának megalkotásában, és figyeld meg, miként alkotta meg Dmitri Mendeleev a kémiai elemek leírásának és csoportosításának módszerét. Milyen más érdekes példákat találsz még?
 
-**Feladat**: [Ontológia létrehozása](assignment.md)
+**Feladat**: [Ontológia építése](assignment.md)
 
 ---
 
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Jogi Nyilatkozat**:
+Ezt a dokumentumot az AI fordítószolgáltatás, a [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével fordítottuk le. Habár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti, anyanyelvi dokumentum tekintendő hiteles forrásnak. Fontos információk esetén javasolt professzionális, emberi fordítás igénybevétele. Semmilyen felelősséget nem vállalunk a fordítás használatából eredő félreértésekért vagy téves értelmezésekért.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

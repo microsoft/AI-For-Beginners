@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Για να εξάγουμε μοτίβα, θα χρησιμοποιήσουμε την έννοια των **συνελικτικών φίλτρων**. Όπως γνωρίζετε, μια εικόνα αναπαρίσταται από έναν δισδιάστατο πίνακα ή έναν τρισδιάστατο τανυστή με βάθος χρώματος. Η εφαρμογή ενός φίλτρου σημαίνει ότι παίρνουμε έναν σχετικά μικρό πίνακα **πυρήνα φίλτρου**, και για κάθε pixel στην αρχική εικόνα υπολογίζουμε τον σταθμισμένο μέσο όρο με τα γειτονικά σημεία. Μπορούμε να το δούμε σαν ένα μικρό παράθυρο που γλιστρά πάνω από ολόκληρη την εικόνα, και εξομαλύνει όλα τα pixel σύμφωνα με τα βάρη στον πίνακα πυρήνα φίλτρου.
 
-![Φίλτρο Κάθετης Άκρης](../../../../../translated_images/filter-vert.b7148390ca0bc356.el.png) | ![Φίλτρο Οριζόντιας Άκρης](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.el.png)
+![Φίλτρο Κάθετης Άκρης](../../../../../translated_images/el/filter-vert.b7148390ca0bc356.webp) | ![Φίλτρο Οριζόντιας Άκρης](../../../../../translated_images/el/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Εικόνα από τον Dmitry Soshnikov
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Μπορούμε να σχεδιάσουμε το δίκτυο με τέτοιο τρόπο ώστε τα φίλτρα να εκπαιδεύονται αυτόματα
 * Μπορούμε να χρησιμοποιήσουμε την ίδια προσέγγιση για να βρούμε μοτίβα σε χαρακτηριστικά υψηλού επιπέδου, όχι μόνο στην αρχική εικόνα. Έτσι, η εξαγωγή χαρακτηριστικών από τα CNN λειτουργεί σε μια ιεραρχία χαρακτηριστικών, ξεκινώντας από συνδυασμούς pixel χαμηλού επιπέδου, μέχρι συνδυασμούς υψηλότερου επιπέδου τμημάτων της εικόνας.
 
-![Ιεραρχική Εξαγωγή Χαρακτηριστικών](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.el.png)
+![Ιεραρχική Εξαγωγή Χαρακτηριστικών](../../../../../translated_images/el/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Εικόνα από [μια εργασία των Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), βασισμένη στην [έρευνά τους](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ως παράδειγμα, ας δούμε την αρχιτεκτονική του VGG-16, ενός δικτύου που πέτυχε ακρίβεια 92.7% στην ταξινόμηση top-5 του ImageNet το 2014:
 
-![Στρώσεις ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.el.jpg)
+![Στρώσεις ImageNet](../../../../../translated_images/el/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![Πυραμίδα ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.el.jpg)
+![Πυραμίδα ImageNet](../../../../../translated_images/el/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Εικόνα από [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

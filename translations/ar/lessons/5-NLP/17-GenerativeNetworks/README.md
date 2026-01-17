@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 هذا يسمح ببنيات عصبية مختلفة كما هو موضح في الصورة أدناه:
 
-![صورة تظهر أنماط الشبكات العصبية المتكررة الشائعة.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ar.jpg)
+![صورة تظهر أنماط الشبكات العصبية المتكررة الشائعة.](../../../../../translated_images/ar/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > الصورة مأخوذة من منشور المدونة [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) بواسطة [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 سنقوم بتدريب RNN لتوليد النصوص خطوة بخطوة. في كل خطوة، سنأخذ تسلسلًا من الحروف بطول `nchars`، ونطلب من الشبكة توليد الحرف التالي لكل حرف إدخال:
 
-![صورة تظهر مثالًا لتوليد RNN لكلمة 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.ar.png)
+![صورة تظهر مثالًا لتوليد RNN لكلمة 'HELLO'.](../../../../../translated_images/ar/rnn-generate.56c54afb52f9781d.webp)
 
 عند توليد النصوص (أثناء الاستدلال)، نبدأ ببعض **المحفزات**، التي تمر عبر خلايا RNN لتوليد حالتها الوسيطة، ومن هذه الحالة يبدأ التوليد. نقوم بتوليد حرف واحد في كل مرة، ونمرر الحالة والحرف المُولد إلى خلية RNN أخرى لتوليد الحرف التالي، حتى يتم توليد عدد كافٍ من الحروف.
 

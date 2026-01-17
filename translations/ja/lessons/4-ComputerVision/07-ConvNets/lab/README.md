@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/) を使用します。このデータセットには、37種類の犬と猫の品種の画像が含まれています。
 
-![扱うデータセット](../../../../../../translated_images/data.50b2a9d5484bdbf0.ja.png)
+![扱うデータセット](../../../../../../translated_images/ja/data.50b2a9d5484bdbf0.webp)
 
 データセットをダウンロードするには、以下のコードスニペットを使用してください：
 

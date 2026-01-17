@@ -29,7 +29,7 @@ Both Keras and PyTorch provide functions to easily load pre-trained neural netwo
 
 Below are sample features extracted from a picture of a cat using the VGG-16 network:
 
-![Features extracted by VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.en.png)
+![Features extracted by VGG-16](../../../../../translated_images/en/features.6291f9c7ba3a0b951af88fc9864632b9115365410765680680d30c927dd67354.png)
 
 ## Cats vs. Dogs Dataset
 
@@ -48,19 +48,19 @@ A pre-trained neural network contains various patterns within its *brain*, inclu
 
 One approach is to start with a random image and use **gradient descent optimization** to adjust the image so that the network perceives it as a cat.
 
-![Image Optimization Loop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.en.png)
+![Image Optimization Loop](../../../../../translated_images/en/ideal-cat-loop.999fbb8ff306e044f997032f4eef9152b453e6a990e449bbfb107de2493cc37e.png)
 
 However, this process often results in images resembling random noise. This happens because *there are many ways to make the network think an input image is a cat*, including ways that are visually nonsensical. While these images contain patterns typical of a cat, they lack constraints to make them visually distinct.
 
 To improve the result, we can add another term to the loss function called **variation loss**. This metric measures how similar neighboring pixels in the image are. Minimizing variation loss smooths the image and reduces noise, revealing more visually appealing patterns. Below are examples of "ideal" images classified as a cat and a zebra with high confidence:
 
-![Ideal Cat](../../../../../translated_images/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.en.png) | ![Ideal Zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.en.png)
+![Ideal Cat](../../../../../translated_images/en/ideal-cat.203dd4597643d6b0bd73038b87f9c0464322725e3a06ab145d25d4a861c70592.png) | ![Ideal Zebra](../../../../../translated_images/en/ideal-zebra.7f70e8b54ee15a7a314000bb5df38a6cfe086ea04d60df4d3ef313d046b98a2b.png)
 -----|-----
  *Ideal Cat* | *Ideal Zebra*
 
 A similar approach can be used for **adversarial attacks** on a neural network. For instance, if we want to trick a neural network into classifying a dog as a cat, we can start with an image of a dog (recognized as a dog by the network) and tweak it slightly using gradient descent optimization until the network classifies it as a cat:
 
-![Picture of a Dog](../../../../../translated_images/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.en.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.en.png)
+![Picture of a Dog](../../../../../translated_images/en/original-dog.8f68a67d2fe0911f33041c0f7fce8aa4ea919f9d3917ec4b468298522aeb6356.png) | ![Picture of a dog classified as a cat](../../../../../translated_images/en/adversarial-dog.d9fc7773b0142b89752539bfbf884118de845b3851c5162146ea0b8809fc820f.png)
 -----|-----
 *Original picture of a dog* | *Picture of a dog classified as a cat*
 

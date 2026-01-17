@@ -19,7 +19,7 @@ Sin embargo, podríamos querer usar datos sin procesar (no etiquetados) para ent
 
 Dado que estamos entrenando un autoencoder para capturar la mayor cantidad de información posible de la imagen original para una reconstrucción precisa, la red intenta encontrar la mejor **representación** de las imágenes de entrada para capturar su significado.
 
-![Diagrama de AutoEncoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.es.jpg)
+![Diagrama de AutoEncoder](../../../../../translated_images/es/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Imagen de [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

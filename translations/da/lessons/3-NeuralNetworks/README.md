@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion til Neurale Netværk
 
-![Oversigt over indholdet i Intro Neural Networks i en doodle](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.da.png)
+![Oversigt over indholdet i Intro Neural Networks i en doodle](../../../../translated_images/da/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Som vi diskuterede i introduktionen, er en af måderne at opnå intelligens på at træne en **computermodel** eller en **kunstig hjerne**. Siden midten af det 20. århundrede har forskere prøvet forskellige matematiske modeller, indtil denne tilgang i de seneste år har vist sig at være enormt succesfuld. Sådanne matematiske modeller af hjernen kaldes **neurale netværk**.
 
@@ -36,13 +36,13 @@ I dette pensum vil vi kun fokusere på neurale netværksmodeller.
 
 Fra biologien ved vi, at vores hjerne består af nerveceller (neuroner), som hver har flere "inputs" (dendritter) og en enkelt "output" (axon). Både dendritter og axoner kan lede elektriske signaler, og forbindelserne mellem dem — kendt som synapser — kan udvise varierende grader af ledningsevne, som reguleres af neurotransmittere.
 
-![Model af en neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.da.jpg) | ![Model af en neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.da.png)
+![Model af en neuron](../../../../translated_images/da/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Model af en neuron](../../../../translated_images/da/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Ægte neuron *([Billede](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) fra Wikipedia)* | Kunstig neuron *(Billede af forfatteren)*
 
 Den simpleste matematiske model af en neuron indeholder således flere inputs X<sub>1</sub>, ..., X<sub>N</sub> og et output Y samt en række vægte W<sub>1</sub>, ..., W<sub>N</sub>. Et output beregnes som:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.da.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/da/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 hvor f er en ikke-lineær **aktiveringsfunktion**.
 

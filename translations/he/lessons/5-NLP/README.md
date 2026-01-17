@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # עיבוד שפה טבעית
 
-![סיכום משימות NLP בציור](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.he.png)
+![סיכום משימות NLP בציור](../../../../translated_images/he/ai-nlp.b22dcb8ca4707cea.webp)
 
 בפרק זה נתמקד בשימוש ברשתות נוירונים לטיפול במשימות הקשורות ל**עיבוד שפה טבעית (NLP)**. ישנם הרבה בעיות NLP שאנו רוצים שמחשבים יוכלו לפתור:
 

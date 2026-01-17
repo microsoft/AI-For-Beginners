@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # কম্পিউটার ভিশন
 
-![কম্পিউটার ভিশন বিষয়বস্তুর সারাংশ একটি ডুডলে](../../../../translated_images/ai-computervision.6506ebebac3fbf76.bn.png)
+![কম্পিউটার ভিশন বিষয়বস্তুর সারাংশ একটি ডুডলে](../../../../translated_images/bn/ai-computervision.6506ebebac3fbf76.webp)
 
 এই অংশে আমরা শিখব:
 

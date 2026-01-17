@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 以下の5つの点（グラフ上の`x`で表される）を近似する問題を考えてみましょう：
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.ja.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.ja.jpg)
+![linear](../../../../../translated_images/ja/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/ja/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **線形モデル、2つのパラメータ** | **非線形モデル、7つのパラメータ**
 学習誤差 = 5.3 | 学習誤差 = 0
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 上記のグラフからわかるように、過学習は非常に低い学習誤差と高い検証誤差によって検出できます。通常、学習中は学習誤差と検証誤差の両方が減少し始めますが、ある時点で検証誤差が減少を止めて上昇し始めることがあります。これが過学習の兆候であり、この時点で学習を停止するべき（または少なくともモデルのスナップショットを作成するべき）という指標になります。
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.ja.png)
+![overfitting](../../../../../translated_images/ja/Overfitting.408ad91cd90b4371.webp)
 
 ## 過学習を防ぐ方法
 

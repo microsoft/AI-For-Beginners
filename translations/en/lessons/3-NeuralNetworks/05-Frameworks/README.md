@@ -58,7 +58,7 @@ Overfitting is a crucial concept in machine learning, and it's essential to unde
 
 Consider the problem of approximating 5 data points (represented by `x` in the graphs below):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.en.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.en.jpg)
+![linear](../../../../../translated_images/en/overfit1.f24b71c6f652e59e6bed7245ffbeaecc3ba320e16e2221f6832b432052c4da43.jpg) | ![overfit](../../../../../translated_images/en/overfit2.131f5800ae10ca5e41d12a411f5f705d9ee38b1b10916f284b787028dd55cc1c.jpg)
 -------------------------|--------------------------
 **Linear model, 2 parameters** | **Non-linear model, 7 parameters**
 Training error = 5.3 | Training error = 0
@@ -79,7 +79,7 @@ Striking the right balance between model complexity (number of parameters) and t
 
 As shown in the graph above, overfitting can be identified by a very low training error and a high validation error. During training, both training and validation errors typically decrease initially. However, at some point, the validation error may stop decreasing and start increasing. This indicates overfitting and suggests that training should be stopped (or a snapshot of the model should be saved).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.en.png)
+![overfitting](../../../../../translated_images/en/Overfitting.408ad91cd90b4371d0a81f4287e1409c359751adeb1ae450332af50e84f08c3e.png)
 
 ## How to prevent overfitting
 

@@ -73,14 +73,14 @@ V našom [OpenCV Notebook](OpenCV.ipynb) uvádzame niekoľko príkladov, kedy sa
 
 * **Predspracovanie fotografie Braillovej knihy**. Zameriavame sa na to, ako môžeme použiť prahovanie, detekciu vlastností, perspektívnu transformáciu a manipuláciu s NumPy na oddelenie jednotlivých Braillových symbolov na ďalšiu klasifikáciu neurónovou sieťou.
 
-![Braillov obrázok](../../../../../translated_images/braille.341962ff76b1bd70.sk.jpeg) | ![Predspracovaný Braillov obrázok](../../../../../translated_images/braille-result.46530fea020b03c7.sk.png) | ![Braillove symboly](../../../../../translated_images/braille-symbols.0159185ab69d5339.sk.png)
+![Braillov obrázok](../../../../../translated_images/sk/braille.341962ff76b1bd70.webp) | ![Predspracovaný Braillov obrázok](../../../../../translated_images/sk/braille-result.46530fea020b03c7.webp) | ![Braillove symboly](../../../../../translated_images/sk/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Obrázok z [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detekcia pohybu vo videu pomocou rozdielu snímok**. Ak je kamera pevná, snímky z kamery by mali byť veľmi podobné. Keďže snímky sú reprezentované ako polia, jednoduchým odčítaním týchto polí pre dve po sebe idúce snímky získame rozdiel pixelov, ktorý by mal byť nízky pre statické snímky a vyšší, keď je v obrázku výrazný pohyb.
 
-![Obrázok video snímok a rozdielov snímok](../../../../../translated_images/frame-difference.706f805491a0883c.sk.png)
+![Obrázok video snímok a rozdielov snímok](../../../../../translated_images/sk/frame-difference.706f805491a0883c.webp)
 
 > Obrázok z [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ V našom [OpenCV Notebook](OpenCV.ipynb) uvádzame niekoľko príkladov, kedy sa
    - **Hustý optický tok** vypočíta vektorové pole, ktoré ukazuje, kam sa každý pixel pohybuje.
    - **Riedky optický tok** je založený na výbere niektorých výrazných vlastností na obrázku (napr. hrany) a budovaní ich trajektórie zo snímky na snímku.
 
-![Obrázok optického toku](../../../../../translated_images/optical.1f4a94464579a83a.sk.png)
+![Obrázok optického toku](../../../../../translated_images/sk/optical.1f4a94464579a83a.webp)
 
 > Obrázok z [OpenCV.ipynb](OpenCV.ipynb)
 

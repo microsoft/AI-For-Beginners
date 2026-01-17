@@ -20,13 +20,13 @@ RNN을 사용하면 시퀀스-투-시퀀스 작업은 두 개의 순환 신경�
 
 **어텐션 메커니즘**은 RNN의 각 출력 예측에 대해 각 입력 벡터의 맥락적 영향을 가중치로 부여하는 방법을 제공합니다. 이는 입력 RNN의 중간 상태와 출력 RNN 사이에 지름길을 만드는 방식으로 구현됩니다. 이렇게 하면 출력 심볼 y<sub>t</sub>를 생성할 때, 서로 다른 가중치 계수 &alpha;<sub>t,i</sub>를 사용하여 모든 입력 은닉 상태 h<sub>i</sub>를 고려하게 됩니다.
 
-![어텐션 레이어가 포함된 인코더/디코더 모델](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.ko.png)
+![어텐션 레이어가 포함된 인코더/디코더 모델](../../../../../translated_images/ko/encoder-decoder-attention.7a726296894fb567.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)의 어텐션 메커니즘이 포함된 인코더-디코더 모델. [이 블로그 글](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)에서 인용.
 
 어텐션 행렬 {&alpha;<sub>i,j</sub>}는 출력 시퀀스의 특정 단어를 생성하는 데 특정 입력 단어가 얼마나 중요한지를 나타냅니다. 아래는 이러한 행렬의 예입니다:
 
-![Bahdanau - arviz.org에서 가져온 RNNsearch-50의 샘플 정렬](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.ko.png)
+![Bahdanau - arviz.org에서 가져온 RNNsearch-50의 샘플 정렬](../../../../../translated_images/ko/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)에서 발췌 (그림 3)
 
@@ -66,7 +66,7 @@ RNN을 사용하면 시퀀스-투-시퀀스 작업은 두 개의 순환 신경�
 
 다음으로, 시퀀스 내에서 패턴을 캡처해야 합니다. 이를 위해 트랜스포머는 **셀프 어텐션** 메커니즘을 사용합니다. 이는 입력과 출력이 동일한 시퀀스에 어텐션을 적용하는 것입니다. 셀프 어텐션을 적용하면 문장 내 **맥락**을 고려하고, 어떤 단어들이 서로 관련이 있는지 확인할 수 있습니다. 예를 들어, *it*과 같은 대명사가 참조하는 단어를 확인하고, 맥락을 반영할 수 있습니다:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.ko.png)
+![](../../../../../translated_images/ko/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > [Google 블로그](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)에서 발췌.
 
@@ -91,7 +91,7 @@ RNN을 사용하면 시퀀스-투-시퀀스 작업은 두 개의 순환 신경�
 
 **BERT**(Bidirectional Encoder Representations from Transformers)는 매우 큰 다층 트랜스포머 네트워크로, *BERT-base*는 12개 층, *BERT-large*는 24개 층으로 구성됩니다. 이 모델은 대규모 텍스트 데이터(Wikipedia + 책) 코퍼스에서 비지도 학습(문장에서 마스킹된 단어 예측)을 통해 사전 학습됩니다. 사전 학습 동안 모델은 상당한 수준의 언어 이해를 흡수하며, 이후 다른 데이터셋에서 미세 조정을 통해 이를 활용할 수 있습니다. 이 과정을 **전이 학습**이라고 합니다.
 
-![http://jalammar.github.io/illustrated-bert/에서 가져온 그림](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.ko.png)
+![http://jalammar.github.io/illustrated-bert/에서 가져온 그림](../../../../../translated_images/ko/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > 이미지 [출처](http://jalammar.github.io/illustrated-bert/)
 

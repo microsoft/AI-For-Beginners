@@ -19,7 +19,7 @@ Totuși, s-ar putea să dorim să folosim date brute (neetichetate) pentru a ant
 
 Deoarece antrenăm un autoencoder pentru a captura cât mai multă informație din imaginea originală pentru o reconstrucție precisă, rețeaua încearcă să găsească cea mai bună **reprezentare** a imaginilor de intrare pentru a surprinde semnificația acestora.
 
-![Diagrama Autoencoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.ro.jpg)
+![Diagrama Autoencoder](../../../../../translated_images/ro/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Imagine de pe [blogul Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

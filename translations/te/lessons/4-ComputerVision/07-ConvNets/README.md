@@ -17,14 +17,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 నమూనాలను తీసుకోవడానికి, మనం **కన్వల్యూషనల్ ఫిల్టర్స్** అనే భావనను ఉపయోగిస్తాము. మీరు తెలుసుకున్నట్లుగా, చిత్రం 2D-మ్యాట్రిక్స్ లేదా రంగు లోతుతో 3D-టెన్సర్ ద్వారా ప్రాతినిధ్యం వహిస్తుంది. ఫిల్టర్ వర్తింపజేయడం అంటే, మనం తక్కువ పరిమాణం గల **ఫిల్టర్ కర్నెల్** మ్యాట్రిక్స్ తీసుకుని, అసలు చిత్రంలోని ప్రతి పిక్సెల్ కోసం పక్కనున్న పాయింట్లతో బరువు గల సగటును లెక్కించడం. దీన్ని ఒక చిన్న విండో మొత్తం చిత్రంపై స్లయిడ్ అవుతూ, ఫిల్టర్ కర్నెల్ మ్యాట్రిక్స్ లోని బరువుల ప్రకారం అన్ని పిక్సెల్స్ సగటు తీసుకోవడం లాగా చూడవచ్చు.
 
-![Vertical Edge Filter](../../../../../translated_images/filter-vert.b7148390ca0bc356.te.png) | ![Horizontal Edge Filter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.te.png)
+![Vertical Edge Filter](../../../../../translated_images/te/filter-vert.b7148390ca0bc356.webp) | ![Horizontal Edge Filter](../../../../../translated_images/te/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > చిత్రాన్ని Dmitry Soshnikov అందించారు
 
 ఉదాహరణకు, మనం MNIST అంకెలపై 3x3 నిలువు అంచు మరియు ఆడవారపు అంచు ఫిల్టర్స్ వర్తింపజేస్తే, అసలు చిత్రంలో నిలువు మరియు ఆడవారపు అంచులు ఉన్న చోట హైలైట్స్ (ఉదా: ఎక్కువ విలువలు) పొందవచ్చు. కాబట్టి ఆ రెండు ఫిల్టర్స్ అంచులను "వెతకడానికి" ఉపయోగించవచ్చు. అలాగే, మనం ఇతర తక్కువ స్థాయి నమూనాలను వెతకడానికి వివిధ ఫిల్టర్స్ రూపొందించవచ్చు:
 
-<img src="../../../../../translated_images/lmfilters.ea9e4868a82cf74c.te.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/te/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > [Leung-Malik ఫిల్టర్ బ్యాంక్](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) చిత్రం
 
@@ -38,7 +38,7 @@ CNNలు పనిచేసే విధానం ఈ క్రింది మ
 * ఫిల్టర్స్ స్వయంచాలకంగా శిక్షణ పొందేలా నెట్‌వర్క్‌ను రూపొందించవచ్చు
 * అసలు చిత్రంలో మాత్రమే కాకుండా, ఉన్నత స్థాయి లక్షణాలలో కూడా నమూనాలను కనుగొనడానికి అదే విధానాన్ని ఉపయోగించవచ్చు. కాబట్టి CNN లక్షణాల తీసుకోవడం తక్కువ స్థాయి పిక్సెల్ సంయోజనాల నుండి మొదలుకొని, చిత్ర భాగాల ఉన్నత స్థాయి సంయోజనాల వరకు లక్షణాల హైరార్కీపై పనిచేస్తుంది.
 
-![Hierarchical Feature Extraction](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.te.png)
+![Hierarchical Feature Extraction](../../../../../translated_images/te/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > [Hislop-Lynch పేపర్](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d) నుండి చిత్రం, వారి [గవేషణ](https://dl.acm.org/doi/abs/10.1145/1553374.1553453) ఆధారంగా
 
@@ -55,9 +55,9 @@ CNNలు పనిచేసే విధానం ఈ క్రింది మ
 
 ఉదాహరణకు, 2014లో ImageNet టాప్-5 వర్గీకరణలో 92.7% ఖచ్చితత్వం సాధించిన VGG-16 ఆర్కిటెక్చర్‌ను చూద్దాం:
 
-![ImageNet Layers](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.te.jpg)
+![ImageNet Layers](../../../../../translated_images/te/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet Pyramid](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.te.jpg)
+![ImageNet Pyramid](../../../../../translated_images/te/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493) నుండి చిత్రం
 

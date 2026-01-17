@@ -1,62 +1,62 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7d097f7fda9166ead615e4c34552381b",
-  "translation_date": "2025-11-18T18:33:25+00:00",
+  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
+  "translation_date": "2026-01-16T07:31:28+00:00",
   "source_file": "lessons/2-Symbolic/README.md",
   "language_code": "pcm"
 }
 -->
 # Knowledge Representation and Expert Systems
 
-![Summary of Symbolic AI content](../../../../translated_images/ai-symbolic.715a30cb610411a6.pcm.png)
+![Summary of Symbolic AI content](../../../../../../translated_images/pcm/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-Di waka for artificial intelligence na di search for knowledge, to sabi di world like how humans dey do am. But how pesin go fit do dis one?
+Di waka wey dem de find for artificial intelligence na based on search for knowledge, to make sense of di world like how humans de do am. But how you fit take do am?
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
-For di early days of AI, di top-down way to create intelligent systems (we talk am for di last lesson) dey popular. Di idea na to collect di knowledge wey dey people head put am for machine-readable form, den use am solve problems automatically. Dis way dey base on two big ideas:
+For di early days of AI, di top-down way of making intelligent systems (wey we talk for di previous lesson) de popular. Di idea na to comot knowledge from people enter some machine-readable form, then use am to automatically solve problems. Dis approach get two big ideas:
 
 * Knowledge Representation
 * Reasoning
 
 ## Knowledge Representation
 
-One important thing for Symbolic AI na **knowledge**. E dey important to sabi di difference between knowledge and *information* or *data*. For example, pesin fit talk say books get knowledge, because pesin fit study di books become expert. But wetin dey inside books na actually *data*, and as we dey read di books and put di data for our world model, na so we dey turn di data to knowledge.
+One of di important tins for Symbolic AI na **knowledge**. E important to know di difference between knowledge and *information* or *data*. For example, you fit talk sey books get knowledge, because person fit study books and become expert. But wetin books get na *data*, and by reading books and add dis data to our world model, we dey convert dat data to knowledge.
 
-> ✅ **Knowledge** na wetin dey our head wey show how we sabi di world. We dey get am through active **learning** process, wey dey join di information wey we collect into di model of di world wey dey our head.
+> ✅ **Knowledge** na wetin dey inside our head wey represent how we understand di world. E dey come through active **learning** process, wey join pieces of information wey we receive into our active model of di world.
 
-Most times, we no dey define knowledge strictly, but we dey align am with other related ideas using [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). Di pyramid get di following ideas:
+Most times, we no define knowledge sharp-sharp, but we dey relate am to other related concepts using [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid). E get dis tins:
 
-* **Data** na wetin dey physical media, like written text or spoken words. Data dey exist on its own, e no need human beings and e fit pass from one pesin to another.
-* **Information** na how we dey understand di data for our head. For example, if we hear di word *computer*, we go get some idea of wetin e mean.
-* **Knowledge** na di information wey don enter our world model. For example, once we sabi wetin computer be, we go start get idea of how e dey work, how much e go cost, and wetin we fit use am do. Dis network of connected ideas na di knowledge wey we get.
-* **Wisdom** na di next level of how we sabi di world, e dey represent *meta-knowledge*, like how and when we suppose use di knowledge.
+* **Data** na tins wey dem represent for physical media, like written text or spoken words. Data dey exist independent from people and fit pass from one person to another.
+* **Information** na how we take interpret data for our head. For example, when we hear di word *computer*, we get some understanding of wetin e be.
+* **Knowledge** na information wey don join our world model. For example, once we learn wetin computer be, we dey get some idea about how e dey work, how much e dey cost, and wetin e fit dey used for. Dis network of related concepts na our knowledge.
+* **Wisdom** na another level of our understanding of di world, and e mean *meta-knowledge*, eg. some understanding of how and when knowledge suppose dey used.
 
-<img src="../../../../translated_images/DIKW_Pyramid.94126f7d2bd8db5b.pcm.png" width="30%"/>
+<img src="../../../../translated_images/pcm/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
 *Image [from Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), By Longlivetheux - Own work, CC BY-SA 4.0*
 
-So, di problem of **knowledge representation** na to find better way to represent knowledge inside computer as data, so e go fit dey useful automatically. We fit see am as spectrum:
+So, di problem of **knowledge representation** na to find how to effectively represent knowledge inside computer as data, to make am automatically usable. E fit be like spectrum:
 
-![Knowledge representation spectrum](../../../../translated_images/knowledge-spectrum.b60df631852c0217.pcm.png)
+![Knowledge representation spectrum](../../../../../../translated_images/pcm/knowledge-spectrum.b60df631852c0217.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
-* For di left side, we get very simple types of knowledge representations wey computers fit use well. Di simplest one na algorithmic, where knowledge dey represented by computer program. But dis one no be di best way to represent knowledge, because e no dey flexible. Knowledge for our head no dey always follow algorithm.
-* For di right side, we get representations like natural text. E strong well, but e no fit dey used for automatic reasoning.
+* For di left, na simple types of knowledge representations wey computer fit use well. Di simplest one na algorithmic, wey mean knowledge dey inside computer program. But dis no be di best way to represent knowledge because e no flexible. Knowledge inside our head no too get algorithm.
+* For di right, na representations like natural text. E powerful pass, but you no fit use am for automatic reasoning.
 
-> ✅ Think small about how you dey represent knowledge for your head and turn am to notes. You get any format wey dey work well for you to help you remember?
+> ✅ Think small about how you de represent knowledge inside your head and how you take turn am to notes. You get one particular format wey dey help you remember well?
 
 ## Classifying Computer Knowledge Representations
 
-We fit divide di different computer knowledge representation methods into di following categories:
+We fit classify different computer knowledge representation methods into dis categories:
 
-* **Network representations** dey base on di fact say we get network of connected ideas for our head. We fit try reproduce di same network as graph inside computer - di one wey dem dey call **semantic network**.
+* **Network representations** dey based on di fact sey we get network of related concepts inside our head. We fit try reproduce di same networks as graph inside computer - na so called **semantic network**.
 
-1. **Object-Attribute-Value triplets** or **attribute-value pairs**. Since graph fit dey represented inside computer as list of nodes and edges, we fit represent semantic network as list of triplets, wey get objects, attributes, and values. For example, we fit build di following triplets about programming languages:
+1. **Object-Attribute-Value triplets** or **attribute-value pairs**. Because graph fit represent inside computer as list of nodes and edges, we fit represent semantic network by list of triplets, wey get objects, attributes, and values. For example, we go build dis triplets on programming languages:
 
 Object | Attribute | Value
 -------|-----------|------
@@ -65,12 +65,12 @@ Python | invented-by | Guido van Rossum
 Python | block-syntax | indentation
 Untyped-Language | doesn't have | type definitions
 
-> ✅ Think how triplets fit dey used to represent other types of knowledge.
+> ✅ Think how triplets fit take represent other kinds of knowledge.
 
-2. **Hierarchical representations** dey show say we dey often create hierarchy of objects for our head. For example, we sabi say canary na bird, and all birds get wings. We also get idea of di colour wey canary dey usually be, and di speed wey dem dey fly.
+2. **Hierarchical representations** emphasize sey we dey create hierarchy of objects inside our head. For example, we know sey canary na bird, and all birds get wings. We also get idea about wetin color canary usually be, and wetin their flight speed be.
 
-   - **Frame representation** dey base on di idea say we fit represent each object or class of objects as **frame** wey get **slots**. Slots fit get default values, value restrictions, or stored procedures wey fit dey called to get di value of di slot. All di frames dey form hierarchy like object hierarchy for object-oriented programming languages.
-   - **Scenarios** na special type of frames wey dey represent complex situations wey fit happen over time.
+   - **Frame representation** na to represent each object or class of object as **frame** wey get **slots**. Slots fit get default values, value restrictions, or stored procedures wey you fit call to get di slot value. All frames make hierarchy like object hierarchy for object-oriented programming languages.
+   - **Scenarios** na special frames wey represent complex situations wey fit happen over time.
 
 **Python**
 
@@ -82,35 +82,35 @@ Variable Case | | CamelCase | |
 Program Length | | | 5-5000 lines |
 Block Syntax | Indent | | |
 
-3. **Procedural representations** dey base on di idea say we fit represent knowledge as list of actions wey fit dey executed when certain condition happen.
-   - Production rules na if-then statements wey dey allow us draw conclusions. For example, doctor fit get rule wey talk say **IF** patient get high fever **OR** high level of C-reactive protein for blood test **THEN** e get inflammation. Once we see one of di conditions, we fit conclude say e get inflammation, and use am for further reasoning.
-   - Algorithms fit dey considered as another type of procedural representation, but dem no dey almost ever used directly for knowledge-based systems.
+3. **Procedural representations** dey based on representing knowledge as list of actions wey you fit do when condition happen.
+   - Production rules na if-then statements wey dey allow us draw conclusion. For example, doctor fit get rule sey **IF** patient get high fever **OR** high level of C-reactive protein for blood test **THEN** e get inflammation. Once one of condition show, we fit conclude inflammation dey, then use am for further reasoning.
+   - Algorithms fit be another kind procedural representation, although dem no dey use am direct for knowledge-based systems.
 
-4. **Logic** na wetin Aristotle propose as way to represent universal human knowledge.
-   - Predicate Logic as mathematical theory too rich to dey computable, so dem dey usually use subset of am, like Horn clauses wey dem dey use for Prolog.
-   - Descriptive Logic na family of logical systems wey dem dey use to represent and reason about hierarchies of objects distributed knowledge representations like *semantic web*.
+4. **Logic** Aristotle originally propose am as way to represent universal human knowledge.
+   - Predicate Logic as mathematical theory too rich to be computable, so dem dey use subset of am, like Horn clauses wey dem dey use for Prolog.
+   - Descriptive Logic na family of logical systems used to represent and reason about hierarchies of objects inside distributed knowledge representations like *semantic web*.
 
 ## Expert Systems
 
-One of di early success of symbolic AI na di **expert systems** - computer systems wey dem design to act like expert for some small problem area. Dem dey base on **knowledge base** wey dem collect from one or more human experts, and dem get **inference engine** wey dey perform reasoning on top.
+One of early successes of symbolic AI na the so-called **expert systems** - computer systems wey dem design to act like expert inside limited problem domain. Dem dey based on **knowledge base** wey dem comot from one or more human experts, and e get **inference engine** wey dey reason on top am.
 
-![Human Architecture](../../../../translated_images/arch-human.5d4d35f1bba3ab1c.pcm.png) | ![Knowledge-Based System](../../../../translated_images/arch-kbs.3ec5c150b09fa8da.pcm.png)
+![Human Architecture](../../../../../../translated_images/pcm/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../../../translated_images/pcm/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Simplified structure of a human neural system | Architecture of a knowledge-based system
 
-Expert systems dey build like human reasoning system, wey get **short-term memory** and **long-term memory**. For knowledge-based systems, we dey divide di components like dis:
+Expert systems be like human reasoning system, wey get **short-term memory** and **long-term memory**. Same way, for knowledge-based systems we get these components:
 
-* **Problem memory**: e dey hold di knowledge about di problem wey we dey solve now, like di temperature or blood pressure of patient, whether e get inflammation or not, etc. Dis knowledge na **static knowledge**, because e dey show snapshot of wetin we sabi about di problem - di *problem state*.
-* **Knowledge base**: e dey represent long-term knowledge about di problem area. Dem dey collect am manually from human experts, and e no dey change from one consultation to another. Because e dey help us move from one problem state to another, dem dey call am **dynamic knowledge**.
-* **Inference engine**: e dey control di whole process of searching di problem state space, dey ask user questions when e need. E dey also find di correct rules to apply for each state.
+* **Problem memory**: get knowledge about di problem wey dem dey try solve now, like temperature or blood pressure of patient, whether e get inflammation or no, etc. Dis knowledge also dey called **static knowledge**, because e show wetin we currently know about di problem - di so-called *problem state*.
+* **Knowledge base**: represent long-term knowledge about problem domain. E dey come from human experts manual, and no dey change from consultation to consultation. Because e allow us shift from one problem state to another, e also dey called **dynamic knowledge**.
+* **Inference engine**: na e dey control di whole process of searching problem state space, dey ask questions to user when necessary. E also dey responsible to find right rules to apply to each state.
 
-Example, make we look di expert system wey dey determine animal based on di physical characteristics:
+Example, make we check dis expert system for identifying animal based on physical characteristics:
 
-![AND-OR Tree](../../../../translated_images/AND-OR-Tree.5592d2c70187f283.pcm.png)
+![AND-OR Tree](../../../../../../translated_images/pcm/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
-Dis diagram na **AND-OR tree**, e dey show di graphical representation of set of production rules. To draw tree dey useful for di beginning when we dey collect knowledge from di expert. To represent di knowledge inside computer, e better to use rules:
+Dis diagram na **AND-OR tree**, and e be graphical representation of production rules set. To draw tree na better way when you dey comot knowledge from expert. But to represent knowledge inside computer, better to use rules:
 
 ```
 IF the animal eats meat
@@ -121,78 +121,78 @@ OR (animal has sharp teeth
 THEN the animal is a carnivore
 ```
 
-You fit notice say each condition for di left-hand-side of di rule and di action na basically object-attribute-value (OAV) triplets. **Working memory** dey hold di set of OAV triplets wey match di problem we dey solve now. **Rules engine** dey look for rules wey condition dey satisfied and apply dem, dey add another triplet to di working memory.
+You fit see sey each condition for left side of rule and action na object-attribute-value (OAV) triplets. **Working memory** get OAV triplets wey represent problem wey dem dey solve. **Rules engine** dey find rules wey condition don satisfy and e dey apply dem, dey add new triplet to working memory.
 
-> ✅ Try write your own AND-OR tree for any topic wey you like!
+> ✅ Make your own AND-OR tree on any topic wey you like!
 
 ### Forward vs. Backward Inference
 
-Di process wey we describe above na **forward inference**. E dey start with some initial data about di problem wey dey di working memory, den e dey follow dis reasoning loop:
+The process wey we talk about na **forward inference**. E start with initial data about problem wey dey working memory, then e dey do dis reasoning loop:
 
-1. If di target attribute dey di working memory - stop and give di result
-2. Look for all di rules wey condition dey satisfied - get **conflict set** of rules.
-3. Do **conflict resolution** - choose one rule wey go dey executed for dis step. Different conflict resolution strategies dey:
-   - Choose di first rule wey fit work for di knowledge base
-   - Choose random rule
-   - Choose di *more specific* rule, wey dey meet di most conditions for di "left-hand-side" (LHS)
-4. Apply di rule wey you choose and add new knowledge to di problem state
+1. If target attribute dey working memory - stop and give result
+2. Find all rules wey condition don satisfy - get **conflict set** of rules.
+3. Do **conflict resolution** - pick one rule wey go run now. Different conflict resolution strategies fit dey:
+   - Pick first applicable rule inside knowledge base
+   - Pick rule randomly
+   - Pick *more specific* rule, i.e. one wey meet most conditions for left side (LHS)
+4. Apply selected rule and add new knowledge to problem state
 5. Repeat from step 1.
 
-But sometimes we fit want start with empty knowledge about di problem, and dey ask questions wey go help us reach di conclusion. For example, for medical diagnosis, we no dey do all di medical tests before we start diagnose di patient. We go prefer do di tests when decision need to dey made.
+But sometimes, we fit wan start with empty knowledge about problem, then ask questions to help reach conclusion. For example, for medical diagnosis, we no dey do all medical tests before we start diagnosis. We like do test when decision must make.
 
-Dis process fit dey modeled using **backward inference**. E dey driven by di **goal** - di attribute value wey we dey find:
+Dis process fit model as **backward inference**. E dey driven by **goal** - di attribute value wey we want find:
 
-1. Choose all di rules wey fit give us di value of di goal (i.e. di goal dey di RHS ("right-hand-side")) - conflict set
-1. If no rules dey for dis attribute, or rule dey wey talk say we suppose ask di user - ask di user, if not:
-1. Use conflict resolution strategy to choose one rule wey we go use as *hypothesis* - we go try prove am
-1. Repeat di process for all di attributes for di LHS of di rule, dey try prove dem as goals
-1. If di process fail at any point - use another rule for step 3.
+1. Pick all rules wey fit give us goal value (i.e. goal dey RHS ("right-hand-side")) - conflict set
+1. If no rule for dis attribute, or one rule talk sey make we ask user for value - ask am, else:
+1. Use conflict resolution to pick one rule wey we go take as *hypothesis* - we go try prove am
+1. Recursively repeat process for all attributes for LHS of rule, try prove dem as goals
+1. If any time dis process fail - try another rule for step 3.
 
-> ✅ For which situations forward inference dey better? How about backward inference?
+> ✅ For which situations forward inference better? How about backward inference?
 
 ### Implementing Expert Systems
 
-We fit implement expert systems using different tools:
+Expert systems fit implement with different tools:
 
-* Program dem directly for some high level programming language. Dis no be di best idea, because di main advantage of knowledge-based system na say knowledge dey separate from inference, and di expert for di problem area suppose fit write rules without sabi di details of di inference process.
-* Use **expert systems shell**, i.e. system wey dem design specially to dey filled with knowledge using some knowledge representation language.
+* Programming dem direct with high-level programming language. But dis no be best idea because main advantage of knowledge-based system na separation of knowledge from inference, and person wey sabi problem domain fit write rules without understanding inference details
+* Use **expert systems shell**, i.e. system specially designed to be filled with knowledge with some knowledge representation language.
 
 ## ✍️ Exercise: Animal Inference
 
-Check [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) for example of how to implement forward and backward inference expert system.
+See [Animals.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/Animals.ipynb) for example wey show how to implement forward and backward inference expert system.
 
-> **Note**: Dis example dey simple, e just dey show how expert system dey look like. Once you start dey create dis kind system, you go only notice some *intelligent* behaviour from am once you get plenty rules, like 200+. At one point, di rules go too complex to keep all for mind, and na dat time you fit dey wonder why di system dey make some decisions. But di important thing about knowledge-based systems na say you fit always *explain* how di system make any decision.
+> **Note**: Dis example simple small, and e only show how expert system be like. When you start create system like dis, you go only notice some *intelligent* behavior once rules con reach around 200+. At some point, rules go too complex to remember all, and you fit start wonder why system dey make certain decisions. But important quality of knowledge-based systems na sey you fit *explain* clear how any decision dem make.
 
 ## Ontologies and the Semantic Web
 
-For di end of 20th century, dem start one initiative to use knowledge representation to mark Internet resources, so e go dey possible to find resources wey match very specific queries. Dis movement dem dey call **Semantic Web**, and e dey base on some ideas:
+By end of 20th century, dem start initiative to use knowledge representation to tag Internet resources, so e go possible to find resources wey match very specific queries. Dis movement na **Semantic Web**, and e get several concepts:
 
-- Special knowledge representation wey dey based on **[description logics](https://en.wikipedia.org/wiki/Description_logic)** (DL). E dey similar to frame knowledge representation, because e dey build hierarchy of objects with properties, but e get formal logical semantics and inference. Plenty DLs dey wey dey balance expressiveness and algorithmic complexity of inference.
-- Distributed knowledge representation, where all di ideas dey represented by global URI identifier, wey make am possible to create knowledge hierarchies wey dey spread across di internet.
-- One group of XML-based languages wey dem dey use for knowledge description: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
+- Special knowledge representation based on **[description logics](https://en.wikipedia.org/wiki/Description_logic)** (DL). E resemble frame knowledge representation, because e build hierarchy of objects with properties, but e get formal logical meaning and inference. DL na whole family wey balance expressiveness and algorithmic complexity of inference.
+- Distributed knowledge representation, wey make all concepts get global URI identifier, wey fit make knowledge hierarchies wey stretch all internet possible.
+- A family of XML-based languages for knowledge description: RDF (Resource Description Framework), RDFS (RDF Schema), OWL (Ontology Web Language).
 
-One main idea for Semantic Web na di idea of **Ontology**. E mean say you go fit describe one problem area well-well using formal knowledge representation. Di simplest ontology fit just be hierarchy of objects for one problem area, but di more complex ones go get rules wey dem fit use for inference.
+A core concept for Semantic Web na di concept of **Ontology**. E mean say na clear explanation of one problem area wit some formal knowledge representation. Di simplest ontology fit be just hierarchy of objects for di problem area, but more complex ontologies go include rules wey fit use do inference.
 
-For Semantic Web, all di representation na based on triplets. Each object and each relation get im own unique URI. For example, if we wan talk say na Dmitry Soshnikov develop dis AI Curriculum on Jan 1st, 2022 - na di triplets we fit use be dis:
+For di semantic web, all di representations dey base on triplets. Every object plus relation get unique URI wey identify am. For example, if we wan talk say dis AI Curriculum na Dmitry Soshnikov develop am for Jan 1st, 2022 - na dis triplets we fit use:
 
-<img src="../../../../translated_images/triplet.4b9b332587593298.pcm.png" width="30%"/>
+<img src="../../../../translated_images/pcm/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
+http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
-> ✅ Here `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator` na some well-known and universally accepted URIs to talk about di concepts of *creator* and *creation date*.
+> ✅ Here `http://www.example.com/terms/creation-date` and `http://purl.org/dc/elements/1.1/creator` na some well-known and universally accepted URIs wey dem dey use to express the concepts of *creator* and *creation date*.
 
-If di case complex pass dis one, and we wan define list of creators, we fit use some data structures wey RDF define.
+For one more complex case, if we wan define list of creators, we fit use some data structures wey RDF define.
 
-<img src="../../../../translated_images/triplet-complex.32094972c7b4441b.pcm.png" width="40%"/>
+<img src="../../../../translated_images/pcm/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > Diagrams wey dey above na by [Dmitry Soshnikov](http://soshnikov.com)
 
-Di progress to build Semantic Web slow small because search engines and natural language processing techniques don dey successful, and dem dey help extract structured data from text. But for some areas, people still dey try maintain ontologies and knowledge bases. Some projects wey worth to mention:
+Di progress to build Semantic Web slow small because search engines and natural language processing techniques don succeed well, wey dem dey use to take structured data come from text. But for some areas, dem still dey put plenty effort to maintain ontologies and knowledge bases. Some projects wey worth to mention be:
 
-* [WikiData](https://wikidata.org/) na collection of machine-readable knowledge bases wey dey linked with Wikipedia. Most of di data dem dey mine am from Wikipedia *InfoBoxes*, wey be structured content inside Wikipedia pages. You fit [query](https://query.wikidata.org/) wikidata with SPARQL, one special query language for Semantic Web. See one sample query wey dey show di most popular eye colors among humans:
+* [WikiData](https://wikidata.org/) na collection of machine readable knowledge bases wey dem link to Wikipedia. Most of the data na dem take comot from Wikipedia *InfoBoxes*, pieces of structured content wey dey inside Wikipedia pages. You fit [query](https://query.wikidata.org/) wikidata with SPARQL, one special query language for Semantic Web. Here be one sample query wey show di most popular eye colours for humans:
 
 ```sparql
 #defaultView:BubbleChart
@@ -206,51 +206,51 @@ WHERE
 GROUP BY ?eyeColorLabel
 ```
 
-* [DBpedia](https://www.dbpedia.org/) na another project wey be like WikiData.
+* [DBpedia](https://www.dbpedia.org/) na another project wey resemble WikiData.
 
-> ✅ If you wan try build your own ontologies, or open di ones wey don already dey, one better visual ontology editor dey wey dem dey call [Protégé](https://protege.stanford.edu/). You fit download am, or use am online.
+> ✅ If you want try build your own ontologies, or open existing ones, get one beta visual ontology editor wey dem call [Protégé](https://protege.stanford.edu/). Download am, or use am online.
 
-<img src="../../../../translated_images/protege.274177ceeac13b38.pcm.png" width="70%"/>
+<img src="../../../../translated_images/pcm/protege.274177ceeac13b38.webp" width="70%"/>
 
-*Web Protégé editor dey open with di Romanov Family ontology. Screenshot by Dmitry Soshnikov*
+*Web Protégé editor open with the Romanov Family ontology. Screenshot by Dmitry Soshnikov*
 
 ## ✍️ Exercise: A Family Ontology
 
-Check [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) to see example of how Semantic Web techniques fit help reason about family relationships. We go use family tree wey dey common GEDCOM format and one ontology of family relationships to build graph of all di family relationships for di people wey dem give.
+See [FamilyOntology.ipynb](https://github.com/Ezana135/AI-For-Beginners/blob/main/lessons/2-Symbolic/FamilyOntology.ipynb) for example of how Semantic Web techniques fit dey use reason about family relationships. We go take family tree wey show for common GEDCOM format and one ontology of family relationships to build graph of all family relationships for given set of people.
 
 ## Microsoft Concept Graph
 
-Most times, people dey carefully create ontologies by hand. But e still dey possible to **mine** ontologies from unstructured data, like natural language texts.
+For most cases, ontologies na dem dey carefully create by hand. But e possible to **mine** ontologies from unstructured data, example, from natural language texts.
 
-Microsoft Research try do one like dat, and e result to [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
+One attempt like dis na from Microsoft Research, wey produce [Microsoft Concept Graph](https://blogs.microsoft.com/ai/microsoft-researchers-release-graph-that-helps-machines-conceptualize/?WT.mc_id=academic-77998-cacaste).
 
-E be big collection of entities wey dem group together using `is-a` inheritance relationship. E fit answer questions like "Wetin be Microsoft?" - di answer fit be something like "a company with probability 0.87, and a brand with probability 0.75".
+Na large collection of entities grouped together using `is-a` inheritance relationship. E dey fit answer questions like "Wetyn be Microsoft?" - di answer fit be something like "na company with probability 0.87, and na brand with probability 0.75".
 
-Di Graph dey available as REST API, or as big downloadable text file wey list all di entity pairs.
+Di Graph dey available either as REST API, or as large text file wey you fit download wey list all entity pairs.
 
 ## ✍️ Exercise: A Concept Graph
 
-Try di [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebook to see how we fit use Microsoft Concept Graph to group news articles into different categories.
+Try the [MSConceptGraph.ipynb](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/2-Symbolic/MSConceptGraph.ipynb) notebook to see how we fit use Microsoft Concept Graph to group news articles inside several categories.
 
 ## Conclusion
 
-Nowadays, people dey see AI as di same thing with *Machine Learning* or *Neural Networks*. But human beings dey show explicit reasoning, and neural networks never sabi handle dat one. For real-world projects, explicit reasoning still dey useful to do tasks wey need explanation, or wey need make we fit control di system behavior.
+Nowadays, AI many people dey consider say e be synonym for *Machine Learning* or *Neural Networks*. But human being still dey do explicit reasoning, way neural networks never really handle yet. For real world projects, explicit reasoning still dey used to do tasks wey need explanation, or to fit change how system dey work for one controlled way.
 
 ## 🚀 Challenge
 
-For di Family Ontology notebook wey follow dis lesson, you fit try experiment with other family relations. Try discover new connections between people for di family tree.
+For the Family Ontology notebook wey relate to this lesson, you get chance to try other family relations. Try find new connections between people inside family tree.
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Review & Self Study
 
-Do small research online to find areas where humans don try quantify and codify knowledge. Check Bloom's Taxonomy, and go back to history to learn how humans don dey try understand di world. Look di work of Linnaeus to create taxonomy of organisms, and see how Dmitri Mendeleev create way to describe and group chemical elements. Wetin other interesting examples you fit find?
+Try find some research for internet about areas where humans try quantify and codify knowledge. Check Bloom's Taxonomy, and waka go back for history to learn how humans try make sense of dia world. Explore work of Linnaeus to create taxonomy of organisms, and observe how Dmitri Mendeleev take create way for chemical elements to be described and grouped. Wetin be other interesting examples you fit find?
 
 **Assignment**: [Build an Ontology](assignment.md)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Disclaimer**:  
-Dis dokyument don use AI transleshion service [Co-op Translator](https://github.com/Azure/co-op-translator) do di transleshion. Even though we dey try make am accurate, abeg make you sabi say automatik transleshion fit get mistake or no dey correct well. Di original dokyument for im native language na di main source wey you go fit trust. For important informashon, e good make you use professional human transleshion. We no go fit take blame for any misunderstanding or wrong meaning wey fit happen because you use dis transleshion.
+**Warning**:
+Dis document na im wey AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator) translate. Even though we try make am correct well well, abeg sabi say automatic translation fit get some errors or mistakes. The original document wey dem write for im own language na im get final correct info. If na serious matter, better make human professional translate am. We no go take blame if pesin no understand well or if dem use dis translation do mistake.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

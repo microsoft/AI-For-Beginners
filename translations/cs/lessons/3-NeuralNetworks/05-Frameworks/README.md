@@ -58,7 +58,7 @@ Přeučení je extrémně důležitý koncept v strojovém učení a je velmi d�
 
 Zvažte následující problém aproximace 5 bodů (reprezentovaných `x` na grafech níže):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.cs.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.cs.jpg)
+![linear](../../../../../translated_images/cs/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/cs/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Lineární model, 2 parametry** | **Nelineární model, 7 parametrů**
 Chyba trénování = 5.3 | Chyba trénování = 0
@@ -79,7 +79,7 @@ Je velmi důležité najít správnou rovnováhu mezi složitostí modelu (počt
 
 Jak můžete vidět z grafu výše, přeučení lze detekovat velmi nízkou chybou trénování a vysokou chybou validace. Během trénování obvykle vidíme, že chyby trénování i validace začínají klesat, a poté v určitém bodě může chyba validace přestat klesat a začít stoupat. To bude znakem přeučení a indikátorem, že bychom pravděpodobně měli v tomto bodě zastavit trénování (nebo alespoň vytvořit snímek modelu).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.cs.png)
+![overfitting](../../../../../translated_images/cs/Overfitting.408ad91cd90b4371.webp)
 
 ## Jak zabránit přeučení
 

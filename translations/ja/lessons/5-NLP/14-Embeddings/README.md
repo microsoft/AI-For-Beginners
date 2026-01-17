@@ -19,7 +19,7 @@ BoWやTF/IDFに基づく分類器を訓練する際、高次元の単語袋ベ�
 
 分類器ネットワークの最初の層として埋め込み層を使用することで、単語袋モデルから**埋め込み袋**モデルに切り替えることができます。このモデルでは、テキスト内の各単語を対応する埋め込みに変換し、それらの埋め込み全体に対して`sum`、`average`、`max`などの集約関数を計算します。
 
-![5つの単語シーケンスに対する埋め込み分類器を示す画像。](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.ja.png)
+![5つの単語シーケンスに対する埋め込み分類器を示す画像。](../../../../../translated_images/ja/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > 著者による画像
 
@@ -40,7 +40,7 @@ BoWやTF/IDFに基づく分類器を訓練する際、高次元の単語袋ベ�
 
 CBoWは高速ですが、スキップグラムは遅いものの、頻度の低い単語をより良く表現します。
 
-![単語をベクトルに変換するためのCBoWとスキップグラムアルゴリズムを示す画像。](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ja.png)
+![単語をベクトルに変換するためのCBoWとスキップグラムアルゴリズムを示す画像。](../../../../../translated_images/ja/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > [この論文](https://arxiv.org/pdf/1301.3781.pdf)からの画像
 

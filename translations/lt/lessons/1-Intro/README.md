@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Įvadas į dirbtinį intelektą
 
-![Santrauka apie dirbtinio intelekto įvadą piešinyje](../../../../translated_images/ai-intro.bf28d1ac4235881c.lt.png)
+![Santrauka apie dirbtinio intelekto įvadą piešinyje](../../../../translated_images/lt/ai-intro.bf28d1ac4235881c.webp)
 
 > Piešinys sukurtas [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Iš pradžių kompiuterius išrado [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage), kad jie galėtų atlikti skaičiavimus pagal aiškiai apibrėžtą procedūrą – algoritmą. Šiuolaikiniai kompiuteriai, nors ir gerokai pažangesni nei XIX amžiuje pasiūlytas modelis, vis dar remiasi ta pačia kontroliuojamų skaičiavimų idėja. Todėl galima užprogramuoti kompiuterį atlikti tam tikrą užduotį, jei žinome tikslų veiksmų seką, reikalingą tikslui pasiekti.
 
-![Asmens nuotrauka](../../../../translated_images/dsh_age.d212a30d4e54fb5f.lt.png)
+![Asmens nuotrauka](../../../../translated_images/lt/dsh_age.d212a30d4e54fb5f.webp)
 
 > Nuotrauka [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Daugiau informacijos rasite **[Dirbtinis bendrasis intelektas](https://en.wikipe
 
 Viena iš problemų, susijusių su terminu **[intelektas](https://en.wikipedia.org/wiki/Intelligence)**, yra ta, kad nėra aiškaus šio termino apibrėžimo. Galima teigti, kad intelektas susijęs su **abstrakčiu mąstymu** arba **savimone**, tačiau mes negalime jo tinkamai apibrėžti.
 
-![Katės nuotrauka](../../../../translated_images/photo-cat.8c8e8fb760ffe457.lt.jpg)
+![Katės nuotrauka](../../../../translated_images/lt/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Nuotrauka](https://unsplash.com/photos/75715CVEJhI) [Amber Kipp](https://unsplash.com/@sadmax) iš Unsplash
 
@@ -98,13 +98,13 @@ Kita vertus, galime pabandyti modeliuoti paprasčiausius mūsų smegenų element
 
 > | O kaip su ML?         |      |
 > |--------------|-----------|
-> | Dirbtinio intelekto dalis, pagrįsta kompiuterio mokymusi spręsti problemą remiantis tam tikrais duomenimis, vadinama **mašininiu mokymusi**. Šiame kurse neaptarsime klasikinio mašininio mokymosi – siūlome atskirą [Mašininio mokymosi pradedantiesiems](http://aka.ms/ml-beginners) mokymo programą. |   ![ML pradedantiesiems](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.lt.png)    |
+> | Dirbtinio intelekto dalis, pagrįsta kompiuterio mokymusi spręsti problemą remiantis tam tikrais duomenimis, vadinama **mašininiu mokymusi**. Šiame kurse neaptarsime klasikinio mašininio mokymosi – siūlome atskirą [Mašininio mokymosi pradedantiesiems](http://aka.ms/ml-beginners) mokymo programą. |   ![ML pradedantiesiems](../../../../translated_images/lt/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Trumpa DI istorija
 
 Dirbtinis intelektas kaip sritis pradėtas XX amžiaus viduryje. Iš pradžių simbolinis samprotavimas buvo vyraujantis požiūris, ir jis lėmė nemažai svarbių pasiekimų, tokių kaip ekspertų sistemos – kompiuterinės programos, galinčios veikti kaip ekspertas tam tikrose ribotose problemų srityse. Tačiau netrukus tapo aišku, kad toks požiūris nėra gerai pritaikomas. Žinių išgavimas iš eksperto, jų pateikimas kompiuteryje ir žinių bazės tikslumo palaikymas pasirodė esąs labai sudėtingas ir per brangus daugeliu atvejų. Tai lėmė vadinamąją [DI žiemą](https://en.wikipedia.org/wiki/AI_winter) 1970-aisiais.
 
-<img alt="Trumpa DI istorija" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.lt.png" width="70%"/>
+<img alt="Trumpa DI istorija" src="../../../../translated_images/lt/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Vaizdas sukurtas [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -15,7 +15,7 @@ W poprzednich sekcjach korzystaliśmy z bogatych semantycznych reprezentacji tek
 
 Aby uchwycić znaczenie sekwencji tekstu, musimy użyć innej architektury sieci neuronowej, zwanej **siecią neuronową rekurencyjną** (RNN). W RNN przekazujemy nasze zdanie przez sieć symbol po symbolu, a sieć generuje pewien **stan**, który następnie przekazujemy z kolejnym symbolem.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.pl.png)
+![RNN](../../../../../translated_images/pl/rnn.27f5c29c53d727b5.webp)
 
 > Obraz autorstwa autora
 
@@ -61,7 +61,7 @@ Omówiliśmy sieci rekurencyjne, które działają w jednym kierunku, od począt
 
 Sieć rekurencyjna, czy to jednokierunkowa, czy dwukierunkowa, wychwytuje pewne wzorce w sekwencji i może je przechowywać w wektorze stanu lub przekazywać na wyjście. Podobnie jak w przypadku sieci konwolucyjnych, możemy zbudować kolejną warstwę rekurencyjną na szczycie pierwszej, aby uchwycić wzorce wyższego poziomu i budować na bazie wzorców niskiego poziomu wyodrębnionych przez pierwszą warstwę. Prowadzi to do pojęcia **wielowarstwowego RNN**, który składa się z dwóch lub więcej sieci rekurencyjnych, gdzie wyjście poprzedniej warstwy jest przekazywane jako wejście do następnej warstwy.
 
-![Obraz przedstawiający wielowarstwowy LSTM RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.pl.jpg)
+![Obraz przedstawiający wielowarstwowy LSTM RNN](../../../../../translated_images/pl/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Obraz z [tego wspaniałego artykułu](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) autorstwa Fernando Lópeza*
 

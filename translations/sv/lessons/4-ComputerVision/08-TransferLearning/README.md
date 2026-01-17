@@ -29,7 +29,7 @@ Både Keras och PyTorch innehåller funktioner för att enkelt ladda förtränad
 
 Här är exempel på funktioner som extraherats från en bild av en katt med VGG-16-nätverket:
 
-![Funktioner extraherade av VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.sv.png)
+![Funktioner extraherade av VGG-16](../../../../../translated_images/sv/features.6291f9c7ba3a0b95.webp)
 
 ## Dataset för katter och hundar
 
@@ -48,19 +48,19 @@ Ett förtränat neuralt nätverk innehåller olika mönster i sitt *"hjärna"*, 
 
 En metod vi kan använda är att börja med en slumpmässig bild och sedan försöka använda **gradient descent-optimering** för att justera bilden så att nätverket börjar tro att det är en katt.
 
-![Bildoptimeringsloop](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.sv.png)
+![Bildoptimeringsloop](../../../../../translated_images/sv/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Om vi gör detta kommer vi dock att få något som liknar slumpmässigt brus. Detta beror på att *det finns många sätt att få nätverket att tro att inmatningsbilden är en katt*, inklusive sådana som inte är visuellt meningsfulla. Även om dessa bilder innehåller många mönster som är typiska för en katt, finns det inget som begränsar dem till att vara visuellt distinkta.
 
 För att förbättra resultatet kan vi lägga till en annan term i förlustfunktionen, kallad **variation loss**. Det är en metrik som visar hur lika angränsande pixlar i bilden är. Genom att minimera variation loss blir bilden mjukare och bruset försvinner - vilket avslöjar mer visuellt tilltalande mönster. Här är exempel på sådana "ideala" bilder som klassificeras som katt och zebra med hög sannolikhet:
 
-![Ideal katt](../../../../../translated_images/ideal-cat.203dd4597643d6b0.sv.png) | ![Ideal zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.sv.png)
+![Ideal katt](../../../../../translated_images/sv/ideal-cat.203dd4597643d6b0.webp) | ![Ideal zebra](../../../../../translated_images/sv/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Ideal katt* | *Ideal zebra*
 
 En liknande metod kan användas för att utföra så kallade **adversarial attacks** på ett neuralt nätverk. Anta att vi vill lura ett neuralt nätverk och få en hund att se ut som en katt. Om vi tar en bild av en hund som nätverket känner igen som en hund, kan vi sedan justera den lite med gradient descent-optimering tills nätverket börjar klassificera den som en katt:
 
-![Bild av en hund](../../../../../translated_images/original-dog.8f68a67d2fe0911f.sv.png) | ![Bild av en hund klassificerad som en katt](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.sv.png)
+![Bild av en hund](../../../../../translated_images/sv/original-dog.8f68a67d2fe0911f.webp) | ![Bild av en hund klassificerad som en katt](../../../../../translated_images/sv/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Originalbild av en hund* | *Bild av en hund klassificerad som en katt*
 

@@ -15,7 +15,7 @@ Az előző szekciókban gazdag szemantikai reprezentációkat használtunk a sz�
 
 Ahhoz, hogy a szövegszekvencia jelentését megragadjuk, egy másik neurális hálózati architektúrát kell használnunk, amelyet **rekurrens neurális hálózatnak** (RNN) nevezünk. Az RNN-ben mondatunkat egy szimbólumonként adjuk át a hálózaton, és a hálózat egy **állapotot** hoz létre, amelyet aztán a következő szimbólummal együtt újra átadunk a hálózatnak.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.hu.png)
+![RNN](../../../../../translated_images/hu/rnn.27f5c29c53d727b5.webp)
 
 > Kép a szerzőtől
 
@@ -61,7 +61,7 @@ Olyan rekurrens hálózatokat tárgyaltunk, amelyek egy irányban működnek, a 
 
 Egy rekurrens hálózat, akár egyirányú, akár kétirányú, bizonyos mintákat ragad meg egy szekvenciában, és ezeket az állapotvektorba menti vagy a kimenetbe továbbítja. Akárcsak a konvolúciós hálózatok esetében, egy másik rekurrens réteget építhetünk az első fölé, hogy magasabb szintű mintákat ragadjunk meg, és az első réteg által kinyert alacsony szintű mintákból építkezzünk. Ez vezet minket a **többrétegű RNN** fogalmához, amely két vagy több rekurrens hálózatból áll, ahol az előző réteg kimenete bemenetként kerül a következő rétegbe.
 
-![Többrétegű hosszú-rövid távú memória RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.hu.jpg)
+![Többrétegű hosszú-rövid távú memória RNN](../../../../../translated_images/hu/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Kép Fernando López [ezen csodálatos bejegyzéséből](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3)*
 

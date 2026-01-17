@@ -15,7 +15,7 @@ In den vorherigen Abschnitten haben wir reichhaltige semantische Repräsentation
 
 Um die Bedeutung einer Textsequenz zu erfassen, müssen wir eine andere Architektur für neuronale Netze verwenden, die als **rekurrentes neuronales Netz** oder RNN bezeichnet wird. Im RNN geben wir unseren Satz ein Symbol nach dem anderen durch das Netzwerk, und das Netzwerk erzeugt einen **Zustand**, den wir dann mit dem nächsten Symbol erneut in das Netzwerk einspeisen.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.de.png)
+![RNN](../../../../../translated_images/de/rnn.27f5c29c53d727b5.webp)
 
 > Bild vom Autor
 
@@ -61,7 +61,7 @@ Wir haben rekurrente Netzwerke besprochen, die in eine Richtung arbeiten, vom An
 
 Ein rekurrentes Netzwerk, sei es eindirektional oder bidirektional, erfasst bestimmte Muster innerhalb einer Sequenz und kann sie in einem Zustandsvektor speichern oder in die Ausgabe weitergeben. Wie bei konvolutionalen Netzwerken können wir eine weitere rekurrente Schicht auf die erste aufbauen, um höherstufige Muster zu erfassen und aus den niedrigstufigen Mustern zu bauen, die von der ersten Schicht extrahiert wurden. Dies führt uns zum Konzept eines **mehrschichtigen RNN**, das aus zwei oder mehr rekurrenten Netzwerken besteht, wobei die Ausgabe der vorherigen Schicht als Eingabe an die nächste Schicht weitergegeben wird.
 
-![Bild eines mehrschichtigen Long Short Term Memory-RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.de.jpg)
+![Bild eines mehrschichtigen Long Short Term Memory-RNN](../../../../../translated_images/de/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Bild aus [diesem wunderbaren Beitrag](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) von Fernando López*
 

@@ -73,14 +73,14 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 * **ਬ੍ਰੇਲ ਬੁੱਕ ਦੀ ਤਸਵੀਰ ਦੀ ਪ੍ਰੀ-ਪ੍ਰੋਸੈਸਿੰਗ**। ਅਸੀਂ ਧਿਆਨ ਦਿੰਦੇ ਹਾਂ ਕਿ ਕਿਵੇਂ ਅਸੀਂ thresholding, feature detection, perspective transformation ਅਤੇ NumPy ਮੈਨਿਪੂਲੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵਿਅਕਤੀਗਤ ਬ੍ਰੇਲ ਚਿੰਨ੍ਹਾਂ ਨੂੰ neural network ਦੁਆਰਾ ਹੋਰ ਵਰਗੀਕਰਨ ਲਈ ਵੱਖ ਕਰ ਸਕਦੇ ਹਾਂ।
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.pa.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.pa.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.pa.png)
+![Braille Image](../../../../../translated_images/pa/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/pa/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/pa/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 
 * **ਫਰੇਮ ਡਿਫਰੈਂਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵੀਡੀਓ ਵਿੱਚ ਗਤੀ ਪਛਾਣਣਾ**। ਜੇਕਰ ਕੈਮਰਾ ਸਥਿਰ ਹੈ, ਤਾਂ ਕੈਮਰੇ ਫੀਡ ਤੋਂ ਫਰੇਮ ਇੱਕ ਦੂਜੇ ਨਾਲ ਕਾਫ਼ੀ ਮਿਲਦੇ-ਜੁਲਦੇ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ। ਕਿਉਂਕਿ ਫਰੇਮ ਐਰੇ ਵਜੋਂ ਦਰਸਾਏ ਜਾਂਦੇ ਹਨ, ਸਿਰਫ਼ ਉਹਨਾਂ ਐਰੇਜ਼ ਨੂੰ ਦੋ ਲਗਾਤਾਰ ਫਰੇਮਾਂ ਲਈ ਘਟਾ ਕੇ ਅਸੀਂ ਪਿਕਸਲ ਡਿਫਰੈਂਸ ਪ੍ਰਾਪਤ ਕਰਾਂਗੇ, ਜੋ ਸਥਿਰ ਫਰੇਮਾਂ ਲਈ ਘੱਟ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਅਤੇ ਚਿੱਤਰ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਗਤੀ ਹੋਣ 'ਤੇ ਵਧ ਜਾਵੇਗਾ।
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.pa.png)
+![Image of video frames and frame differences](../../../../../translated_images/pa/frame-difference.706f805491a0883c.webp)
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 
@@ -89,7 +89,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
    - **Dense Optical Flow** ਹਰ ਪਿਕਸਲ ਲਈ ਵੇਕਟਰ ਫੀਲਡ ਦੀ ਗਣਨਾ ਕਰਦਾ ਹੈ ਜੋ ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ ਇਹ ਕਿੱਥੇ ਹਿਲ ਰਿਹਾ ਹੈ।
    - **Sparse Optical Flow** ਚਿੱਤਰ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ ਲੱਛਣ (ਜਿਵੇਂ ਕਿ edges) ਲੈਣ 'ਤੇ ਅਧਾਰਿਤ ਹੁੰਦਾ ਹੈ, ਅਤੇ ਫਰੇਮ ਤੋਂ ਫਰੇਮ ਤੱਕ ਉਹਨਾਂ ਦੀ ਰਾਹ ਬਣਾਉਂਦਾ ਹੈ।
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.pa.png)
+![Image of Optical Flow](../../../../../translated_images/pa/optical.1f4a94464579a83a.webp)
 
 > ਚਿੱਤਰ [OpenCV.ipynb](OpenCV.ipynb) ਤੋਂ
 

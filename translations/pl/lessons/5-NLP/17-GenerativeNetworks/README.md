@@ -19,7 +19,7 @@ W architekturze RNN, którą omawialiśmy w poprzedniej jednostce, każda jednos
 
 To umożliwia różne architektury sieci neuronowych, które przedstawiono na poniższym obrazku:
 
-![Obraz przedstawiający typowe wzorce rekurencyjnych sieci neuronowych.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.pl.jpg)
+![Obraz przedstawiający typowe wzorce rekurencyjnych sieci neuronowych.](../../../../../translated_images/pl/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Obraz z wpisu na blogu [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autorstwa [Andreja Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ W tej jednostce skupimy się na prostych modelach generatywnych, które pomagaj�
 
 Wytrenujemy tę RNN do generowania tekstu krok po kroku. Na każdym kroku weźmiemy sekwencję znaków o długości `nchars` i poprosimy sieć o wygenerowanie kolejnego znaku wyjściowego dla każdego znaku wejściowego:
 
-![Obraz przedstawiający przykład generowania słowa 'HELLO' przez RNN.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.pl.png)
+![Obraz przedstawiający przykład generowania słowa 'HELLO' przez RNN.](../../../../../translated_images/pl/rnn-generate.56c54afb52f9781d.webp)
 
 Podczas generowania tekstu (w trakcie inferencji) zaczynamy od jakiegoś **podpowiedzi** (prompt), która jest przepuszczana przez komórki RNN, aby wygenerować jej stan pośredni, a następnie z tego stanu rozpoczyna się generowanie. Generujemy jeden znak na raz, przekazujemy stan i wygenerowany znak do kolejnej komórki RNN, aby wygenerować następny znak, aż wygenerujemy wystarczającą liczbę znaków.
 

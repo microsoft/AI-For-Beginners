@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to AI
 
-![Summary of Introduction of AI content in a doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c.pcm.png)
+![Summary of Introduction of AI content in a doodle](../../../../translated_images/pcm/ai-intro.bf28d1ac4235881c.webp)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Before before, na [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) invent computer to dey work with numbers follow one clear process - wey dem dey call algorithm. Modern computer don advance pass the one wey dem propose for 19th century, but e still dey follow the same idea of controlled calculations. So e possible to program computer to do something if we sabi the exact steps wey we need to follow to reach the goal.
 
-![Photo of a person](../../../../translated_images/dsh_age.d212a30d4e54fb5f.pcm.png)
+![Photo of a person](../../../../translated_images/pcm/dsh_age.d212a30d4e54fb5f.webp)
 
 > Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -45,7 +45,7 @@ For more information check **[Artificial General Intelligence](https://en.wikipe
 
 One problem wey dey when we dey talk about **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** na say we no get clear definition of the word. Some people fit talk say intelligence dey connected to **abstract thinking**, or **self-awareness**, but we no fit define am well.
 
-![Photo of a Cat](../../../../translated_images/photo-cat.8c8e8fb760ffe457.pcm.jpg)
+![Photo of a Cat](../../../../translated_images/pcm/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
 
@@ -97,13 +97,13 @@ Another way na to model the simplest part of our brain – neuron. We fit build 
 
 > | Wetin about ML?         |      |
 > |--------------|-----------|
-> | Part of Artificial Intelligence wey dey base on computer learning to solve problem from data na **Machine Learning**. We no go talk about classical machine learning for this course - we dey refer you to separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.pcm.png)    |
+> | Part of Artificial Intelligence wey dey base on computer learning to solve problem from data na **Machine Learning**. We no go talk about classical machine learning for this course - we dey refer you to separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](../../../../translated_images/pcm/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## A Brief History of AI
 
 Artificial Intelligence start as field for middle of twentieth century. At first, symbolic reasoning na the main approach, and e lead to some important success, like expert systems – computer programs wey fit act like expert for small problem areas. But e later clear say this approach no dey scale well. To take knowledge from expert, put am inside computer, and keep the knowledgebase correct dey very hard, and e too expensive for many cases. This lead to [AI Winter](https://en.wikipedia.org/wiki/AI_winter) for 1970s.
 
-<img alt="Brief History of AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.pcm.png" width="70%"/>
+<img alt="Brief History of AI" src="../../../../translated_images/pcm/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -123,7 +123,7 @@ Same way, we fit see how approach for creating “talking programs” (wey fit p
 * Modern assistants like Cortana, Siri or Google Assistant na hybrid systems wey dey use Neural networks to change speech to text and understand wetin we want, then use reasoning or direct algorithms to do wetin we need.
 * For future, we fit expect complete neural-based model wey go handle talk by itself. The recent GPT and [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) family of neural networks dey show big success for this.
 
-<img alt="the Turing test's evolution" src="../../../../translated_images/turing-test-evol.4184696701293ead.pcm.png" width="70%"/>
+<img alt="the Turing test's evolution" src="../../../../translated_images/pcm/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Foto by Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recent AI Research

@@ -19,7 +19,7 @@ An embedding layer takes a word as input and produces an output vector of a spec
 
 By using an embedding layer as the first layer in our classifier network, we can transition from a bag-of-words model to an **embedding bag** model. Here, each word in the text is converted into its corresponding embedding, and an aggregate function, such as `sum`, `average`, or `max`, is applied to all those embeddings.
 
-![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.en.png)
+![Image showing an embedding classifier for five sequence words.](../../../../../translated_images/en/embedding-classifier-example.b77f021a7ee67eeec8e68bfe11636c5b97d6eaa067515a129bfb1d0034b1ac5b.png)
 
 > Image by the author
 
@@ -40,7 +40,7 @@ To achieve this, we need to pre-train our embedding model on a large text corpus
 
 CBoW is faster, while skip-gram is slower but performs better at representing infrequent words.
 
-![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.en.png)
+![Image showing both CBoW and Skip-Gram algorithms to convert words to vectors.](../../../../../translated_images/en/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6f0f5de66427e8a6eda63809356114e28fb1fa5f4a83ebda7.png)
 
 > Image from [this paper](https://arxiv.org/pdf/1301.3781.pdf)
 

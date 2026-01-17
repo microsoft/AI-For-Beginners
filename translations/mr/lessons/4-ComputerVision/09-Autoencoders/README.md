@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 आम्ही ऑटोएन्कोडरला मूळ प्रतिमेतील माहिती अचूक पुनर्रचना करण्यासाठी शक्य तितकी माहिती कॅप्चर करण्यासाठी प्रशिक्षण देत असल्याने, नेटवर्क इनपुट प्रतिमांचे सर्वोत्तम **एम्बेडिंग** शोधण्याचा प्रयत्न करते.
 
-![ऑटोएन्कोडर आकृती](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.mr.jpg)
+![ऑटोएन्कोडर आकृती](../../../../../translated_images/mr/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > प्रतिमा [Keras ब्लॉग](https://blog.keras.io/building-autoencoders-in-keras.html) मधून
 

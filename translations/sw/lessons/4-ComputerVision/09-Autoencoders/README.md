@@ -19,7 +19,7 @@ Hata hivyo, tunaweza kutaka kutumia data ghafi (isiyo na lebo) kwa kufundisha CN
 
 Kwa kuwa tunafundisha autoencoder ili kunasa taarifa nyingi kutoka kwenye picha ya asili iwezekanavyo kwa ajili ya ujenzi sahihi, mtandao unajaribu kupata **embedding** bora ya picha za pembejeo ili kunasa maana yake.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.sw.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/sw/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Picha kutoka [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

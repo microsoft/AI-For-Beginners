@@ -15,7 +15,7 @@ Nakon uspjeha transformera u rješavanju zadataka obrade prirodnog jezika (NLP),
 
 Glavna ideja CLIP-a je usporediti tekstualne upite sa slikom i odrediti koliko dobro slika odgovara upitu.
 
-![CLIP Arhitektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.hr.png)
+![CLIP Arhitektura](../../../../../translated_images/hr/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Slika iz [ovog blog posta](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Nakon što je ovaj model prethodno treniran, možemo mu dati batch slika i batch
 
 Pretpostavimo da trebamo klasificirati slike, primjerice, između mačaka, pasa i ljudi. U tom slučaju možemo modelu dati sliku i niz tekstualnih upita: "*slika mačke*", "*slika psa*", "*slika čovjeka*". U rezultirajućem vektoru s 3 vjerojatnosti samo trebamo odabrati indeks s najvećom vrijednošću.
 
-![CLIP za klasifikaciju slika](../../../../../translated_images/clip-class.3af42ef0b2b19369.hr.png)
+![CLIP za klasifikaciju slika](../../../../../translated_images/hr/clip-class.3af42ef0b2b19369.webp)
 
 > *Slika iz [ovog blog posta](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Više o VQGAN-u saznajte na web stranici [Taming Transformers](https://compvis.g
 
 Jedna od važnih razlika između VQGAN-a i tradicionalnog GAN-a je ta što potonji može proizvesti pristojnu sliku iz bilo kojeg ulaznog vektora, dok VQGAN vjerojatno neće proizvesti koherentnu sliku. Stoga je potrebno dodatno usmjeriti proces stvaranja slike, a to se može učiniti pomoću CLIP-a.
 
-![VQGAN+CLIP Arhitektura](../../../../../translated_images/vqgan.5027fe05051dfa31.hr.png)
+![VQGAN+CLIP Arhitektura](../../../../../translated_images/hr/vqgan.5027fe05051dfa31.webp)
 
 Za generiranje slike koja odgovara tekstualnom upitu, počinjemo s nekim nasumičnim vektorskim kodiranjem koje se prosljeđuje kroz VQGAN kako bi se proizvela slika. Zatim se CLIP koristi za stvaranje funkcije gubitka koja pokazuje koliko dobro slika odgovara tekstualnom upitu. Cilj je minimizirati taj gubitak koristeći backpropagation za prilagodbu parametara ulaznog vektora.
 
 Odlična biblioteka koja implementira VQGAN+CLIP je [Pixray](http://github.com/pixray/pixray).
 
-![Slika generirana Pixrayem](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.hr.png) |  ![Slika generirana Pixrayem](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.hr.png) | ![Slika generirana Pixrayem](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.hr.png)
+![Slika generirana Pixrayem](../../../../../translated_images/hr/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Slika generirana Pixrayem](../../../../../translated_images/hr/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Slika generirana Pixrayem](../../../../../translated_images/hr/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Slika generirana iz upita *bliski akvarelni portret mladog učitelja književnosti s knjigom* | Slika generirana iz upita *bliski uljani portret mlade učiteljice računalnih znanosti s računalom* | Slika generirana iz upita *bliski uljani portret starijeg učitelja matematike ispred ploče*
 
@@ -75,7 +75,7 @@ Za razliku od CLIP-a, DALL-E prima tekst i sliku kao jedinstveni niz tokena za s
 Glavna razlika između DALL-E 1 i 2 je ta što DALL-E 2 generira realističnije slike i umjetnička djela.
 
 Primjeri generiranja slika s DALL-E:
-![Slika generirana Pixrayem](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.hr.png) |  ![Slika generirana Pixrayem](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.hr.png) | ![Slika generirana Pixrayem](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.hr.png)
+![Slika generirana Pixrayem](../../../../../translated_images/hr/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Slika generirana Pixrayem](../../../../../translated_images/hr/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Slika generirana Pixrayem](../../../../../translated_images/hr/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Slika generirana iz upita *bliski akvarelni portret mladog učitelja književnosti s knjigom* | Slika generirana iz upita *bliski uljani portret mlade učiteljice računalnih znanosti s računalom* | Slika generirana iz upita *bliski uljani portret starijeg učitelja matematike ispred ploče*
 

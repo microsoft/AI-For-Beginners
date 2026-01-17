@@ -13,7 +13,7 @@ The image classification models we've explored so far take an image as input and
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.en.png)
+![Object Detection](../../../../../translated_images/en/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be1b905373ed9c858102c054b16e4595c76ec3f7bba0feb549.png)
 
 > Image from [YOLO v2 website](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Imagine we want to locate a cat in an image. A very simplistic approach to objec
 2. Perform image classification on each tile.
 3. Identify tiles with sufficiently high activation as containing the object of interest.
 
-![Naive Object Detection](../../../../../translated_images/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.en.png)
+![Naive Object Detection](../../../../../translated_images/en/naive-detection.e7f1ba220ccd08c68a2ea8e06a7ed75c3fcc738c2372f9e00b7f4299a8659c01.png)
 
 > *Image from [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Here are some commonly used datasets for object detection:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. Includes 80 classes, bounding boxes, and segmentation masks.
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.en.jpg)
+![COCO](../../../../../translated_images/en/coco-examples.71bc60380fa6cceb7caad48bd09e35b6028caabd363aa04fee89c414e0870e86.jpg)
 
 ## Object Detection Metrics
 
@@ -50,7 +50,7 @@ Here are some commonly used datasets for object detection:
 
 While evaluating image classification models is straightforward, object detection requires assessing both the accuracy of the predicted class and the precision of the bounding box location. For the latter, we use **Intersection over Union** (IoU), which measures the overlap between two bounding boxes (or areas).
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.en.png)
+![IoU](../../../../../translated_images/en/iou_equation.9a4751d40fff4e119ecd0a7bcca4e71ab1dc83e0d4f2a0d66ff0859736f593cf.png)
 
 > *Figure 2 from [this excellent blog post on IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -97,11 +97,11 @@ Object detection algorithms can be broadly categorized into two types:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) uses [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) to generate a hierarchical structure of ROIs. These ROIs are passed through CNN feature extractors and SVM classifiers to determine object classes, while linear regression predicts the *bounding box* coordinates. [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.en.png)
+![RCNN](../../../../../translated_images/en/rcnn1.cae407020dfb1d1fb572656e44f75cd6c512cc220591c116c506652c10e47f26.png)
 
 > *Image from van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.en.png)
+![RCNN-1](../../../../../translated_images/en/rcnn2.2d9530bb83516484ec65b250c22dbf37d3d23244f32864ebcb91d98fe7c3112c.png)
 
 > *Images from [this blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -109,7 +109,7 @@ Object detection algorithms can be broadly categorized into two types:
 
 This method is similar to R-CNN, but the regions are defined after applying convolutional layers.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.en.png)
+![FRCNN](../../../../../translated_images/en/f-rcnn.3cda6d9bb41888754037d2d9763e2298a96de5d9bc2a21db3147357aa5da9b1a.png)
 
 > Image from [the Official Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -117,7 +117,7 @@ This method is similar to R-CNN, but the regions are defined after applying conv
 
 This approach introduces a neural network to predict ROIs, known as the *Region Proposal Network*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.en.png)
+![FasterRCNN](../../../../../translated_images/en/faster-rcnn.8d46c099b87ef30ab2ea26dbc4bdd85b974a57ba8eb526f65dc4cd0a4711de30.png)
 
 > Image from [the official paper](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -129,7 +129,7 @@ This algorithm is faster than Faster R-CNN. The key idea is:
 2. Process features with a **Position-Sensitive Score Map**. Each object from $C$ classes is divided into $k\times k$ regions, and the network predicts parts of objects.
 3. For each part of the $k\times k$ regions, the networks vote for object classes, and the class with the highest vote is selected.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.en.png)
+![r-fcn image](../../../../../translated_images/en/r-fcn.13eb88158b99a3da50fa2787a6be5cb310d47f0e9655cc93a1090dc7aab338d1.png)
 
 > Image from [official paper](https://arxiv.org/abs/1605.06409)
 
@@ -140,7 +140,7 @@ YOLO is a real-time, one-pass algorithm. The main idea is:
 * Divide the image into $S\times S$ regions.
 * For each region, the **CNN** predicts $n$ possible objects, *bounding box* coordinates, and *confidence* = *probability* × IoU.
 
-![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.en.png)
+![YOLO](../../../../../translated_images/en/yolo.a2648ec82ee8bb4ea27537677adb482fd4b733ca1705c561b6a24a85102dced5.png)
 
 > Image from [official paper](https://arxiv.org/abs/1506.02640)
 

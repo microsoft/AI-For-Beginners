@@ -70,7 +70,7 @@ NetLogo的一大優勢是它包含一個可供試用的工作模型庫。進入*
 
 打開模型後，你會進入NetLogo的主屏幕。以下是一個描述狼和羊的種群模型，給定有限資源（草地）。
 
-![NetLogo主屏幕](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.hk.png)
+![NetLogo主屏幕](../../../../../translated_images/hk/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov提供的截圖
 

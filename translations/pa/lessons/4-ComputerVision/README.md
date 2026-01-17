@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਕੰਪਿਊਟਰ ਵਿਜ਼ਨ
 
-![ਕੰਪਿਊਟਰ ਵਿਜ਼ਨ ਸਮੱਗਰੀ ਦਾ ਇੱਕ ਡੂਡਲ ਵਿੱਚ ਸਾਰ](../../../../translated_images/ai-computervision.6506ebebac3fbf76.pa.png)
+![ਕੰਪਿਊਟਰ ਵਿਜ਼ਨ ਸਮੱਗਰੀ ਦਾ ਇੱਕ ਡੂਡਲ ਵਿੱਚ ਸਾਰ](../../../../translated_images/pa/ai-computervision.6506ebebac3fbf76.webp)
 
 ਇਸ ਭਾਗ ਵਿੱਚ ਅਸੀਂ ਸਿੱਖਾਂਗੇ:
 

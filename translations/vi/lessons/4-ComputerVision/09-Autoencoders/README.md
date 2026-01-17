@@ -19,7 +19,7 @@ Tuy nhiên, chúng ta có thể muốn sử dụng dữ liệu thô (không đư
 
 Vì chúng ta đang huấn luyện autoencoder để nắm bắt càng nhiều thông tin từ hình ảnh gốc càng tốt nhằm tái tạo chính xác, mạng cố gắng tìm **embedding** tốt nhất của hình ảnh đầu vào để nắm bắt ý nghĩa.
 
-![Sơ đồ AutoEncoder](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb61.vi.jpg)
+![Sơ đồ AutoEncoder](../../../../../translated_images/vi/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Hình ảnh từ [blog Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

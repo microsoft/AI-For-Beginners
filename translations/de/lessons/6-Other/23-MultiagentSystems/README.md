@@ -70,7 +70,7 @@ Sie können eines der Modelle öffnen, beispielsweise **Biologie &rightarrow; Fl
 
 Nach dem Öffnen des Modells gelangen Sie zum Hauptbildschirm von NetLogo. Hier ist ein Beispielmodell, das die Population von Wölfen und Schafen beschreibt, basierend auf begrenzten Ressourcen (Gras).
 
-![NetLogo Hauptbildschirm](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.de.png)
+![NetLogo Hauptbildschirm](../../../../../translated_images/de/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Screenshot von Dmitry Soshnikov
 

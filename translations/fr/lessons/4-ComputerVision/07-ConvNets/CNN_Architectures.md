@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 est un réseau qui a atteint une précision de 92,7 % dans la classification top-5 d'ImageNet en 2014. Il possède la structure de couches suivante :
 
-![Couches ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.fr.jpg)
+![Couches ImageNet](../../../../../translated_images/fr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Comme vous pouvez le voir, VGG suit une architecture pyramidale traditionnelle, qui est une séquence de couches de convolution et de pooling.
 
-![Pyramide ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.fr.jpg)
+![Pyramide ImageNet](../../../../../translated_images/fr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Image tirée de [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

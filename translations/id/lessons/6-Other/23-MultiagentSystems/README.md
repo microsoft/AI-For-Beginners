@@ -70,7 +70,7 @@ Anda dapat membuka salah satu model, misalnya **Biology &rightarrow; Flocking**.
 
 Setelah membuka model, Anda akan dibawa ke layar utama NetLogo. Berikut adalah contoh model yang menggambarkan populasi serigala dan domba, dengan sumber daya yang terbatas (rumput).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.id.png)
+![NetLogo Main Screen](../../../../../translated_images/id/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Tangkapan layar oleh Dmitry Soshnikov
 

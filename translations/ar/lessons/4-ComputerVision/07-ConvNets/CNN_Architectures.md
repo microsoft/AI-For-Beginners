@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 هي شبكة حققت دقة بنسبة 92.7% في تصنيف ImageNet top-5 في عام 2014. تحتوي على الهيكل الطبقي التالي:
 
-![طبقات ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.ar.jpg)
+![طبقات ImageNet](../../../../../translated_images/ar/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 كما ترى، تتبع VGG هيكل الهرم التقليدي، وهو عبارة عن سلسلة من طبقات الالتفاف والتجميع.
 
-![هرم ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.ar.jpg)
+![هرم ImageNet](../../../../../translated_images/ar/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > الصورة من [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

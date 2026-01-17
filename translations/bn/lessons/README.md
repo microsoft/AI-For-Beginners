@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # সংক্ষিপ্ত বিবরণ
 
-![ডুডলে সংক্ষিপ্ত বিবরণ](../../../translated_images/ai-overview.0857791951d19500.bn.png)
+![ডুডলে সংক্ষিপ্ত বিবরণ](../../../translated_images/bn/ai-overview.0857791951d19500.webp)
 
 > স্কেচনোট করেছেন [Tomomi Imura](https://twitter.com/girlie_mac)
 

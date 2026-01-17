@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การมองเห็นของคอมพิวเตอร์
 
-![สรุปเนื้อหาเกี่ยวกับการมองเห็นของคอมพิวเตอร์ในรูปวาด](../../../../translated_images/ai-computervision.6506ebebac3fbf76.th.png)
+![สรุปเนื้อหาเกี่ยวกับการมองเห็นของคอมพิวเตอร์ในรูปวาด](../../../../translated_images/th/ai-computervision.6506ebebac3fbf76.webp)
 
 ในส่วนนี้เราจะเรียนรู้เกี่ยวกับ:
 

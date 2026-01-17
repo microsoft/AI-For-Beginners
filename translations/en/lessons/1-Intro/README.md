@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to AI
 
-![Summary of Introduction of AI content in a doodle](../../../../translated_images/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.en.png)
+![Summary of Introduction of AI content in a doodle](../../../../translated_images/en/ai-intro.bf28d1ac4235881c096f0ffdb320ba4102940eafcca4e9d7a55a03914361f8f3.png)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to process numbers using a well-defined procedure—an algorithm. Modern computers, while far more advanced than Babbage's 19th-century model, still operate on the same principle of controlled computations. This means we can program a computer to perform a task if we know the exact sequence of steps required to achieve the goal.
 
-![Photo of a person](../../../../translated_images/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.en.png)
+![Photo of a person](../../../../translated_images/en/dsh_age.d212a30d4e54fb5f68b94a624aad64bc086124bcbbec9561ae5bd5da661e22d8.png)
 
 > Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ For more information, refer to **[Artificial General Intelligence](https://en.wi
 
 One challenge in discussing **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is the lack of a clear definition. Some argue intelligence is linked to **abstract thinking** or **self-awareness**, but it remains difficult to define.
 
-![Photo of a Cat](../../../../translated_images/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.en.jpg)
+![Photo of a Cat](../../../../translated_images/en/photo-cat.8c8e8fb760ffe45725c5b9f6b0d954e9bf114475c01c55adf0303982851b7eae.jpg)
 
 > [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
 
@@ -98,13 +98,13 @@ Alternatively, we can model the simplest elements of the human brain—a neuron.
 
 > | What about ML?         |      |
 > |--------------|-----------|
-> | Part of Artificial Intelligence that involves computers learning to solve problems using data is called **Machine Learning**. This course does not cover classical machine learning—we recommend the separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.en.png)    |
+> | Part of Artificial Intelligence that involves computers learning to solve problems using data is called **Machine Learning**. This course does not cover classical machine learning—we recommend the separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](../../../../translated_images/en/ml-for-beginners.9e4fed176fd5817d7d1f7d358302515186579cbf09b2a6c5bd8092b345da7f22.png)    |
 
 ## A Brief History of AI
 
 Artificial Intelligence emerged as a field in the mid-20th century. Initially, symbolic reasoning was the dominant approach, leading to significant achievements like expert systems—programs capable of acting as experts in specific domains. However, this approach proved difficult to scale. Extracting knowledge from experts, representing it in a computer, and maintaining an accurate knowledge base became too complex and costly for many applications, leading to the [AI Winter](https://en.wikipedia.org/wiki/AI_winter) in the 1970s.
 
-<img alt="Brief History of AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.en.png" width="70%"/>
+<img alt="Brief History of AI" src="../../../../translated_images/en/history-of-ai.7e83efa70b537f5a0264357672b0884cf3a220fbafe35c65d70b2c3805f7bf5e.png" width="70%"/>
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Similarly, the evolution of "talking programs" (potentially passing the Turing T
 * Modern assistants like Cortana, Siri, and Google Assistant are hybrid systems, using neural networks to convert speech to text, recognize intent, and employ reasoning or algorithms to perform tasks.
 * Future systems may rely entirely on neural models to handle dialogue. Recent neural networks like GPT and [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) have shown remarkable progress.
 
-<img alt="the Turing test's evolution" src="../../../../translated_images/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.en.png" width="70%"/>
+<img alt="the Turing test's evolution" src="../../../../translated_images/en/turing-test-evol.4184696701293ead6de6e6441a659c62f0b119b342456987f531005f43be0b6d.png" width="70%"/>
 > Image by Dmitry Soshnikov, [photo](https://unsplash.com/photos/r8LmVbUKgns) by [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Recent AI Research

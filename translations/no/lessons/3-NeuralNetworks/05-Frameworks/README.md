@@ -58,7 +58,7 @@ Overtilpasning er et ekstremt viktig konsept innen maskinlæring, og det er veld
 
 Tenk på følgende problem med å tilnærme 5 punkter (representert med `x` på grafene nedenfor):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.no.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.no.jpg)
+![linear](../../../../../translated_images/no/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/no/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Lineær modell, 2 parametere** | **Ikke-lineær modell, 7 parametere**
 Treningsfeil = 5.3 | Treningsfeil = 0
@@ -79,7 +79,7 @@ Det er veldig viktig å finne en riktig balanse mellom modellens kompleksitet (a
 
 Som du kan se fra grafen ovenfor, kan overtilpasning oppdages ved en veldig lav treningsfeil og en høy valideringsfeil. Normalt under trening vil vi se både trenings- og valideringsfeil begynne å avta, og deretter på et tidspunkt kan valideringsfeilen slutte å avta og begynne å stige. Dette vil være et tegn på overtilpasning og en indikator på at vi sannsynligvis bør stoppe treningen på dette punktet (eller i det minste ta et øyeblikksbilde av modellen).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.no.png)
+![overfitting](../../../../../translated_images/no/Overfitting.408ad91cd90b4371.webp)
 
 ## Hvordan forhindre overtilpasning
 

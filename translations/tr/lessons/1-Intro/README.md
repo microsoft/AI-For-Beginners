@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Yapay Zekaya Giriş
 
-![Yapay Zeka içeriğinin özetini gösteren bir çizim](../../../../translated_images/ai-intro.bf28d1ac4235881c.tr.png)
+![Yapay Zeka içeriğinin özetini gösteren bir çizim](../../../../translated_images/tr/ai-intro.bf28d1ac4235881c.webp)
 
 > Çizim: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Başlangıçta, bilgisayarlar [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) tarafından iyi tanımlanmış bir prosedürü - bir algoritmayı - takip ederek sayılar üzerinde işlem yapmak için icat edilmiştir. Modern bilgisayarlar, 19. yüzyılda önerilen orijinal modelden çok daha gelişmiş olmasına rağmen, hala kontrollü hesaplama fikrini takip etmektedir. Bu nedenle, bir hedefe ulaşmak için gereken adımların tam sırasını bildiğimiz sürece bir bilgisayarı bir şey yapması için programlamak mümkündür.
 
-![Bir kişinin fotoğrafı](../../../../translated_images/dsh_age.d212a30d4e54fb5f.tr.png)
+![Bir kişinin fotoğrafı](../../../../translated_images/tr/dsh_age.d212a30d4e54fb5f.webp)
 
 > Fotoğraf: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ Daha fazla bilgi için **[Yapay Genel Zeka](https://en.wikipedia.org/wiki/Artifi
 
 **[Zeka](https://en.wikipedia.org/wiki/Intelligence)** terimiyle uğraşırken karşılaşılan sorunlardan biri, bu terimin net bir tanımının olmamasıdır. Zekanın **soyut düşünce** veya **öz farkındalık** ile bağlantılı olduğunu iddia edebilirsiniz, ancak bunu doğru bir şekilde tanımlayamayız.
 
-![Bir kedinin fotoğrafı](../../../../translated_images/photo-cat.8c8e8fb760ffe457.tr.jpg)
+![Bir kedinin fotoğrafı](../../../../translated_images/tr/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Fotoğraf](https://unsplash.com/photos/75715CVEJhI): [Amber Kipp](https://unsplash.com/@sadmax) tarafından Unsplash'tan alınmıştır.
 
@@ -98,13 +98,13 @@ Alternatif olarak, beynimizdeki en basit öğeleri – bir nöronu – modelleme
 
 > | Peki ya ML?         |      |
 > |--------------|-----------|
-> | Bazı verilere dayanarak bir problemi çözmeyi öğrenen bilgisayar temelli yapay zeka kısmına **Makine Öğrenimi** denir. Bu kursta klasik makine öğrenimini ele almayacağız - sizi ayrı bir [Makine Öğrenimi için Başlangıç](http://aka.ms/ml-beginners) müfredatına yönlendiriyoruz. |   ![Başlangıç için ML](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.tr.png)    |
+> | Bazı verilere dayanarak bir problemi çözmeyi öğrenen bilgisayar temelli yapay zeka kısmına **Makine Öğrenimi** denir. Bu kursta klasik makine öğrenimini ele almayacağız - sizi ayrı bir [Makine Öğrenimi için Başlangıç](http://aka.ms/ml-beginners) müfredatına yönlendiriyoruz. |   ![Başlangıç için ML](../../../../translated_images/tr/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Yapay Zekanın Kısa Tarihi
 
 Yapay Zeka, yirminci yüzyılın ortalarında bir alan olarak başladı. Başlangıçta, sembolik akıl yürütme yaygın bir yaklaşımdı ve uzman sistemler gibi bazı sınırlı problem alanlarında uzman gibi davranabilen bilgisayar programları gibi önemli başarılara yol açtı. Ancak, bu yaklaşımın iyi ölçeklenmediği kısa sürede anlaşıldı. Bir uzmandan bilgi çıkarmak, bunu bir bilgisayarda temsil etmek ve bilgi tabanını doğru tutmak çok karmaşık bir görev ve birçok durumda pratik olmaktan çok pahalı olduğu ortaya çıktı. Bu, 1970'lerde [AI Kışı](https://en.wikipedia.org/wiki/AI_winter) olarak adlandırılan döneme yol açtı.
 
-<img alt="Yapay Zekanın Kısa Tarihi" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.tr.png" width="70%"/>
+<img alt="Yapay Zekanın Kısa Tarihi" src="../../../../translated_images/tr/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ Benzer şekilde, "konuşan programlar" (Turing testini geçebilecek türden) olu
 * Cortana, Siri veya Google Asistan gibi modern asistanlar, konuşmayı metne dönüştürmek ve niyetimizi tanımak için Sinir ağlarını kullanan ve ardından gerekli eylemleri gerçekleştirmek için bazı akıl yürütme veya açık algoritmalar kullanan hibrit sistemlerdir.
 * Gelecekte, diyaloğu tamamen kendi başına yönetebilecek tam bir sinir temelli model bekleyebiliriz. Son zamanlardaki GPT ve [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) sinir ağı ailesi bu konuda büyük başarılar göstermektedir.
 
-<img alt="Turing testinin evrimi" src="../../../../translated_images/turing-test-evol.4184696701293ead.tr.png" width="70%"/>
+<img alt="Turing testinin evrimi" src="../../../../translated_images/tr/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Görsel Dmitry Soshnikov tarafından, [fotoğraf](https://unsplash.com/photos/r8LmVbUKgns) [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto) tarafından, Unsplash
 
 ## Son Dönem AI Araştırmaları

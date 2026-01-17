@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # نظرة عامة
 
-![نظرة عامة في رسم توضيحي](../../../translated_images/ai-overview.0857791951d19500.ar.png)
+![نظرة عامة في رسم توضيحي](../../../translated_images/ar/ai-overview.0857791951d19500.webp)
 
 > رسم توضيحي بواسطة [Tomomi Imura](https://twitter.com/girlie_mac)
 

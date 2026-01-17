@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod u AI
 
-![Sažetak sadržaja uvoda u AI u obliku crteža](../../../../translated_images/ai-intro.bf28d1ac4235881c.hr.png)
+![Sažetak sadržaja uvoda u AI u obliku crteža](../../../../translated_images/hr/ai-intro.bf28d1ac4235881c.webp)
 
 > Crtež od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Izvorno, računala je izumio [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) kako bi radila s brojevima slijedeći dobro definirani postupak - algoritam. Moderna računala, iako znatno naprednija od originalnog modela predloženog u 19. stoljeću, i dalje slijede istu ideju kontroliranih izračuna. Stoga je moguće programirati računalo da nešto učini ako znamo točan slijed koraka koji trebamo poduzeti kako bismo postigli cilj.
 
-![Fotografija osobe](../../../../translated_images/dsh_age.d212a30d4e54fb5f.hr.png)
+![Fotografija osobe](../../../../translated_images/hr/dsh_age.d212a30d4e54fb5f.webp)
 
 > Fotografija od [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -45,7 +45,7 @@ Za više informacija pogledajte **[Umjetna Opća Inteligencija](https://en.wikip
 
 Jedan od problema pri bavljenju pojmom **[inteligencija](https://en.wikipedia.org/wiki/Intelligence)** jest taj što ne postoji jasna definicija ovog pojma. Može se tvrditi da je inteligencija povezana s **apstraktnim razmišljanjem** ili **samosviješću**, ali je ne možemo pravilno definirati.
 
-![Fotografija mačke](../../../../translated_images/photo-cat.8c8e8fb760ffe457.hr.jpg)
+![Fotografija mačke](../../../../translated_images/hr/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Fotografija](https://unsplash.com/photos/75715CVEJhI) od [Amber Kipp](https://unsplash.com/@sadmax) s Unsplash-a
 
@@ -97,13 +97,13 @@ Alternativno, možemo pokušati modelirati najjednostavnije elemente unutar naš
 
 > | Što je s ML?         |      |
 > |--------------|-----------|
-> | Dio umjetne inteligencije koji se temelji na učenju računala da riješi problem na temelju nekih podataka naziva se **strojno učenje**. Nećemo razmatrati klasično strojno učenje u ovom tečaju - upućujemo vas na zasebni kurikulum [Strojno učenje za početnike](http://aka.ms/ml-beginners). |   ![ML za početnike](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.hr.png)    |
+> | Dio umjetne inteligencije koji se temelji na učenju računala da riješi problem na temelju nekih podataka naziva se **strojno učenje**. Nećemo razmatrati klasično strojno učenje u ovom tečaju - upućujemo vas na zasebni kurikulum [Strojno učenje za početnike](http://aka.ms/ml-beginners). |   ![ML za početnike](../../../../translated_images/hr/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## Kratka povijest AI-a
 
 Umjetna inteligencija započela je kao područje sredinom dvadesetog stoljeća. U početku je simboličko zaključivanje bilo prevladavajući pristup, što je dovelo do brojnih važnih uspjeha, poput stručnih sustava – računalnih programa koji su mogli djelovati kao stručnjaci u nekim ograničenim domenama problema. Međutim, ubrzo je postalo jasno da se takav pristup ne skalira dobro. Izdvajanje znanja od stručnjaka, njegovo predstavljanje u računalu i održavanje te baze znanja točnom pokazalo se vrlo složenim zadatkom i preskupim za praktičnu primjenu u mnogim slučajevima. To je dovelo do takozvane [AI zime](https://en.wikipedia.org/wiki/AI_winter) 1970-ih.
 
-<img alt="Kratka povijest AI-a" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.hr.png" width="70%"/>
+<img alt="Kratka povijest AI-a" src="../../../../translated_images/hr/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Slika od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -123,7 +123,7 @@ Slično, možemo vidjeti kako se pristup stvaranju "govornih programa" (koji bi 
 * Moderni asistenti, poput Cortane, Siri ili Google Assistanta, svi su hibridni sustavi koji koriste neuronske mreže za pretvaranje govora u tekst i prepoznavanje naše namjere, a zatim koriste neko zaključivanje ili eksplicitne algoritme za obavljanje potrebnih radnji.
 * U budućnosti možemo očekivati potpuni model temeljen na neuronskim mrežama koji će samostalno upravljati dijalogom. Nedavne GPT i [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft) obitelji neuronskih mreža pokazuju veliki uspjeh u tome.
 
-<img alt="evolucija Turingovog testa" src="../../../../translated_images/turing-test-evol.4184696701293ead.hr.png" width="70%"/>
+<img alt="evolucija Turingovog testa" src="../../../../translated_images/hr/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Slika Dmitry Soshnikov, [fotografija](https://unsplash.com/photos/r8LmVbUKgns) od [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nedavna istraživanja u području umjetne inteligencije

@@ -15,7 +15,7 @@ For di sections wey don pass, we don dey use beta semantic representation of tex
 
 To fit capture di meaning of text sequence, we go need another neural network architecture, wey dem dey call **recurrent neural network**, or RNN. For RNN, we go pass our sentence through di network one symbol at a time, and di network go produce one **state**, wey we go pass back to di network again with di next symbol.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.pcm.png)
+![RNN](../../../../../translated_images/pcm/rnn.27f5c29c53d727b5.webp)
 
 > Image by di author
 
@@ -31,7 +31,7 @@ Make we see how simple RNN cell dey organized. E dey accept di previous state S<
 
 Simple RNN cell get two weight matrices inside: one dey transform input symbol (make we call am W), and another one dey transform input state (H). For dis case, di output of di network dey calculate as &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), where &sigma; na di activation function and b na additional bias.
 
-<img alt="RNN Cell Anatomy" src="../../../../../translated_images/rnn-anatomy.79ee3f3920b3294b.pcm.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/pcm/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Image by di author
 
@@ -61,7 +61,7 @@ We don talk about recurrent networks wey dey work for one direction, from di beg
 
 Recurrent network, whether na one-directional or bidirectional, dey capture some patterns inside sequence, and e fit store dem inside state vector or pass am into output. Just like convolutional networks, we fit build another recurrent layer on top di first one to capture higher level patterns and build from di low-level patterns wey di first layer extract. Dis one dey lead us to di idea of **multi-layer RNN** wey get two or more recurrent networks, where di output of di previous layer dey pass to di next layer as input.
 
-![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.pcm.jpg)
+![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/pcm/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Picture from [this wonderful post](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) by Fernando López*
 

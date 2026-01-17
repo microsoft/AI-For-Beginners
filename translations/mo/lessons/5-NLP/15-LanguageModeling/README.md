@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **連續詞袋模型**（CBoW）：在標記序列 $W_{-N}$, ..., $W_N$ 中預測中間的標記 $W_0$。
 * **Skip-gram**：從中間標記 $W_0$ 預測一組相鄰的標記 {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$}。
 
-![來自將單詞轉換為向量的論文的圖片](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.mo.png)
+![來自將單詞轉換為向量的論文的圖片](../../../../../translated_images/mo/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > 圖片來源：[這篇論文](https://arxiv.org/pdf/1301.3781.pdf)
 

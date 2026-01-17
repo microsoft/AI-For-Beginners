@@ -17,7 +17,7 @@ In het echte leven willen we objecten op een afbeelding kunnen herkennen, ongeac
 
 Om patronen te extraheren, maken we gebruik van het concept van **convolutionele filters**. Zoals je weet, wordt een afbeelding weergegeven door een 2D-matrix, of een 3D-tensor met kleurendiepte. Het toepassen van een filter betekent dat we een relatief kleine **filterkernel**-matrix nemen, en voor elke pixel in de originele afbeelding het gewogen gemiddelde berekenen met naburige punten. Dit kun je zien als een klein venster dat over de hele afbeelding schuift en alle pixels gemiddeld volgens de gewichten in de filterkernel-matrix.
 
-![Verticaal Randfilter](../../../../../translated_images/filter-vert.b7148390ca0bc356.nl.png) | ![Horizontaal Randfilter](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.nl.png)
+![Verticaal Randfilter](../../../../../translated_images/nl/filter-vert.b7148390ca0bc356.webp) | ![Horizontaal Randfilter](../../../../../translated_images/nl/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Afbeelding door Dmitry Soshnikov
@@ -38,7 +38,7 @@ De werking van CNN's is gebaseerd op de volgende belangrijke ideeën:
 * We kunnen het netwerk zo ontwerpen dat de filters automatisch worden getraind.
 * We kunnen dezelfde aanpak gebruiken om patronen te vinden in hoog-niveau kenmerken, niet alleen in de originele afbeelding. Hierdoor werkt de CNN-functie-extractie op een hiërarchie van kenmerken, beginnend bij laag-niveau pixelcombinaties tot hoog-niveau combinaties van afbeeldingsonderdelen.
 
-![Hiërarchische Functie-extractie](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.nl.png)
+![Hiërarchische Functie-extractie](../../../../../translated_images/nl/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Afbeelding uit [een paper van Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), gebaseerd op [hun onderzoek](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ De meeste CNN's die worden gebruikt voor beeldverwerking volgen een zogenaamde p
 
 Als voorbeeld bekijken we de architectuur van VGG-16, een netwerk dat in 2014 een nauwkeurigheid van 92,7% behaalde in de top-5 classificatie van ImageNet:
 
-![ImageNet Lagen](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.nl.jpg)
+![ImageNet Lagen](../../../../../translated_images/nl/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet Piramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.nl.jpg)
+![ImageNet Piramide](../../../../../translated_images/nl/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Afbeelding van [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

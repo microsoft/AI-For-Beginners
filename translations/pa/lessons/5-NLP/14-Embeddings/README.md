@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਐਮਬੈਡਿੰਗ ਲੇਅਰ ਨੂੰ ਸਾਡੇ ਕਲਾਸੀਫਾਇਰ ਨੈਟਵਰਕ ਵਿੱਚ ਪਹਿਲੇ ਲੇਅਰ ਵਜੋਂ ਵਰਤ ਕੇ, ਅਸੀਂ ਬੈਗ-ਆਫ-ਵਰਡਸ ਤੋਂ **embedding bag** ਮਾਡਲ ਵਿੱਚ ਸਵਿੱਚ ਕਰ ਸਕਦੇ ਹਾਂ, ਜਿੱਥੇ ਅਸੀਂ ਪਹਿਲਾਂ ਆਪਣੇ ਟੈਕਸਟ ਵਿੱਚ ਹਰ ਸ਼ਬਦ ਨੂੰ ਸੰਬੰਧਿਤ ਐਮਬੈਡਿੰਗ ਵਿੱਚ ਬਦਲਦੇ ਹਾਂ, ਅਤੇ ਫਿਰ ਸਾਰੇ ਐਮਬੈਡਿੰਗਸ 'ਤੇ ਕੁਝ ਸਮੁੱਚੇ ਫੰਕਸ਼ਨ ਦੀ ਗਣਨਾ ਕਰਦੇ ਹਾਂ, ਜਿਵੇਂ ਕਿ `sum`, `average` ਜਾਂ `max`।  
 
-![ਪੰਜ ਕ੍ਰਮ ਸ਼ਬਦਾਂ ਲਈ ਐਮਬੈਡਿੰਗ ਕਲਾਸੀਫਾਇਰ ਦਿਖਾਉਣ ਵਾਲੀ ਚਿੱਤਰ।](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.pa.png)
+![ਪੰਜ ਕ੍ਰਮ ਸ਼ਬਦਾਂ ਲਈ ਐਮਬੈਡਿੰਗ ਕਲਾਸੀਫਾਇਰ ਦਿਖਾਉਣ ਵਾਲੀ ਚਿੱਤਰ।](../../../../../translated_images/pa/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > ਲੇਖਕ ਦੁਆਰਾ ਚਿੱਤਰ
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW ਤੇਜ਼ ਹੈ, ਜਦਕਿ ਸਕਿਪ-ਗ੍ਰਾਮ ਹੌਲੀ ਹੈ, ਪਰ ਅਲਭ ਸ਼ਬਦਾਂ ਦੀ ਪ੍ਰਤੀਨਿਧੀ ਕਰਨ ਵਿੱਚ ਵਧੀਆ ਕੰਮ ਕਰਦਾ ਹੈ।
 
-![CBoW ਅਤੇ ਸਕਿਪ-ਗ੍ਰਾਮ ਅਲਗੋਰਿਥਮ ਦਿਖਾਉਣ ਵਾਲੀ ਚਿੱਤਰ।](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pa.png)
+![CBoW ਅਤੇ ਸਕਿਪ-ਗ੍ਰਾਮ ਅਲਗੋਰਿਥਮ ਦਿਖਾਉਣ ਵਾਲੀ ਚਿੱਤਰ।](../../../../../translated_images/pa/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > [ਇਸ ਪੇਪਰ](https://arxiv.org/pdf/1301.3781.pdf) ਤੋਂ ਚਿੱਤਰ
 

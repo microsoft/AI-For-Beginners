@@ -70,7 +70,7 @@ NetLogoの素晴らしい点は、試すことができる動作するモデル�
 
 モデルを開くと、NetLogoのメイン画面に移動します。ここでは、有限の資源（草）を考慮した狼と羊の個体数を記述するサンプルモデルを見てみましょう。
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.ja.png)
+![NetLogo Main Screen](../../../../../translated_images/ja/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikovによるスクリーンショット
 

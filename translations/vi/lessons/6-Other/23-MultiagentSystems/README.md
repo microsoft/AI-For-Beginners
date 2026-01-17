@@ -70,7 +70,7 @@ Bạn có thể mở một trong các mô hình, ví dụ **Biology &rightarrow;
 
 Sau khi mở mô hình, bạn sẽ được đưa đến màn hình chính của NetLogo. Đây là một mô hình mẫu mô tả dân số của sói và cừu, với các tài nguyên hữu hạn (cỏ).
 
-![Màn hình chính NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.vi.png)
+![Màn hình chính NetLogo](../../../../../translated_images/vi/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Ảnh chụp màn hình của Dmitry Soshnikov
 

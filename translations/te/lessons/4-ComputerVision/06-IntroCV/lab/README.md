@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ఈ వీడియో](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4)ను పరిశీలించండి, ఇందులో ఒక వ్యక్తి చేతి తలుపు స్థిరమైన నేపథ్యంపై ఎడమ/కుడి/పై/కింద కదులుతుంది.
 
-<img src="../../../../../../translated_images/palm-movement.341495f0e9c47da3.te.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../../translated_images/te/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 **మీ లక్ష్యం** ఆప్టికల్ ఫ్లో ఉపయోగించి వీడియోలో ఎక్కడ ఎడమ/కుడి/పై/కింద కదలికలు ఉన్నాయో గుర్తించడం.
 

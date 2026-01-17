@@ -21,7 +21,7 @@ Du behöver träna ett konvolutionellt neuralt nätverk för att klassificera ol
 
 Vi kommer att använda [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), som innehåller bilder av 37 olika raser av hundar och katter.
 
-![Datasetet vi kommer att arbeta med](../../../../../../translated_images/data.50b2a9d5484bdbf0.sv.png)
+![Datasetet vi kommer att arbeta med](../../../../../../translated_images/sv/data.50b2a9d5484bdbf0.webp)
 
 För att ladda ner datasetet, använd följande kodsnutt:
 

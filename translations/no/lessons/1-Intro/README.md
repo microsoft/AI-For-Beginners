@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduksjon til AI
 
-![Oppsummering av innholdet i Introduksjon til AI i en tegning](../../../../translated_images/ai-intro.bf28d1ac4235881c.no.png)
+![Oppsummering av innholdet i Introduksjon til AI i en tegning](../../../../translated_images/no/ai-intro.bf28d1ac4235881c.webp)
 
 > Tegning av [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Opprinnelig ble datamaskiner oppfunnet av [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) for å operere på tall ved å følge en veldefinert prosedyre – en algoritme. Moderne datamaskiner, selv om de er betydelig mer avanserte enn den opprinnelige modellen foreslått på 1800-tallet, følger fortsatt samme idé om kontrollerte beregninger. Dermed er det mulig å programmere en datamaskin til å gjøre noe hvis vi kjenner den nøyaktige sekvensen av trinn som må utføres for å oppnå målet.
 
-![Bilde av en person](../../../../translated_images/dsh_age.d212a30d4e54fb5f.no.png)
+![Bilde av en person](../../../../translated_images/no/dsh_age.d212a30d4e54fb5f.webp)
 
 > Foto av [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ For mer informasjon, se **[Artificial General Intelligence](https://en.wikipedia
 
 Et av problemene med begrepet **[intelligens](https://en.wikipedia.org/wiki/Intelligence)** er at det ikke finnes noen klar definisjon av dette begrepet. Man kan argumentere for at intelligens er knyttet til **abstrakt tenkning** eller **selvbevissthet**, men vi kan ikke definere det ordentlig.
 
-![Bilde av en katt](../../../../translated_images/photo-cat.8c8e8fb760ffe457.no.jpg)
+![Bilde av en katt](../../../../translated_images/no/photo-cat.8c8e8fb760ffe457.webp)
 
 > [Foto](https://unsplash.com/photos/75715CVEJhI) av [Amber Kipp](https://unsplash.com/@sadmax) fra Unsplash
 
@@ -98,13 +98,13 @@ Alternativt kan vi prøve å modellere de enkleste elementene i hjernen vår –
 
 > | Hva med ML?         |      |
 > |--------------|-----------|
-> | En del av kunstig intelligens som er basert på at datamaskiner lærer å løse et problem basert på noen data, kalles **maskinlæring**. Vi vil ikke gå inn på klassisk maskinlæring i dette kurset – vi henviser deg til et eget [Maskinlæring for nybegynnere](http://aka.ms/ml-beginners)-pensum. |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.no.png)    |
+> | En del av kunstig intelligens som er basert på at datamaskiner lærer å løse et problem basert på noen data, kalles **maskinlæring**. Vi vil ikke gå inn på klassisk maskinlæring i dette kurset – vi henviser deg til et eget [Maskinlæring for nybegynnere](http://aka.ms/ml-beginners)-pensum. |   ![ML for Beginners](../../../../translated_images/no/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## En Kort Historie om AI
 
 Kunstig intelligens startet som et felt på midten av det tjuende århundre. Opprinnelig var symbolsk resonnering en dominerende tilnærming, og det førte til en rekke viktige suksesser, som ekspertsystemer – dataprogrammer som kunne opptre som en ekspert innenfor noen begrensede problemområder. Det ble imidlertid raskt klart at en slik tilnærming ikke skalerer godt. Å trekke ut kunnskap fra en ekspert, representere det i en datamaskin og holde kunnskapsbasen nøyaktig viste seg å være en svært kompleks oppgave, og for kostbar til å være praktisk i mange tilfeller. Dette førte til den såkalte [AI-vinteren](https://en.wikipedia.org/wiki/AI_winter) på 1970-tallet.
 
-<img alt="Kort Historie om AI" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.no.png" width="70%"/>
+<img alt="Kort Historie om AI" src="../../../../translated_images/no/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > Bilde av [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -124,7 +124,7 @@ På samme måte kan vi se hvordan tilnærmingen til å lage "snakkende programme
 * Moderne assistenter, som Cortana, Siri eller Google Assistant, er alle hybridsystemer som bruker nevrale nettverk for å konvertere tale til tekst og gjenkjenne vår intensjon, og deretter benytter noe resonnering eller eksplisitte algoritmer for å utføre nødvendige handlinger.
 * I fremtiden kan vi forvente en komplett nevrale-basert modell som håndterer dialog helt på egen hånd. De nylige GPT- og [Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft)-familiene av nevrale nettverk viser stor suksess i dette.
 
-<img alt="Turing-testens utvikling" src="../../../../translated_images/turing-test-evol.4184696701293ead.no.png" width="70%"/>
+<img alt="Turing-testens utvikling" src="../../../../translated_images/no/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > Bilde av Dmitry Soshnikov, [foto](https://unsplash.com/photos/r8LmVbUKgns) av [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto), Unsplash
 
 ## Nyere AI-forskning
