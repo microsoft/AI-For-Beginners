@@ -21,7 +21,7 @@ You go need train one convolutional neural network to classify di different bree
 
 We go use di [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), wey get pictures of 37 different breeds of dogs and cats.
 
-![Dataset we go use](../../../../../../translated_images/data.50b2a9d5484bdbf0.pcm.png)
+![Dataset we go use](../../../../../../translated_images/pcm/data.50b2a9d5484bdbf0.webp)
 
 To download di dataset, use dis code snippet:
 

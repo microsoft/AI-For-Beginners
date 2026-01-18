@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-10-11T11:35:05+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T07:25:31+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "et"
 }
 -->
-# Koodi käivitamine
+# Kuidas Koodi Käivitada
 
-See õppekava sisaldab palju käivitatavaid näiteid ja laboreid, mida soovite proovida. Selleks on teil vaja võimalust käivitada Python-koodi Jupyter Notebookides, mis on osa sellest õppekavast. Koodi käivitamiseks on mitu võimalust:
+See õppekava sisaldab palju täidetavaid näiteid ja töötoad, mida soovite jooksutada. Selleks peate saama käivitada Python koodi Jupyter märkmikes, mis on selle õppekava osana esitatud. Koodi käivitamiseks on teil mitu võimalust:
 
-## Käivita kohalikult oma arvutis
+## Käivita lokaalselt oma arvutis
 
-Koodi kohalikuks käivitamiseks oma arvutis peate olema installinud mõne Python'i versiooni. Soovitan isiklikult installida **[miniconda](https://conda.io/en/latest/miniconda.html)** - see on kerge paigaldus, mis toetab `conda` paketihaldurit erinevate Python'i **virtuaalsete keskkondade** jaoks.
+Koodi käivitamiseks lokaalselt oma arvutis on vajalik Python'i paigaldus. Üks soovitus on installida **[miniconda](https://conda.io/en/latest/miniconda.html)** – see on üsna kerge paigaldus, mis toetab `conda` pakihaldurit erinevate Python'i **virtuaalsete keskkondade** jaoks.
 
-Pärast miniconda installimist peate kloonima repositooriumi ja looma virtuaalse keskkonna, mida kasutatakse selle kursuse jaoks:
+Pärast miniconda paigaldamist kloonige hoidla ja looge selle kursuse jaoks virtuaalne keskkond:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,55 +24,58 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Visual Studio Code'i kasutamine koos Python'i laiendusega
+### Kasutades Visual Studio Code koos Python laiendiga
 
-Tõenäoliselt on parim viis õppekava kasutamiseks avada see [Visual Studio Code'is](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) koos [Python'i laiendusega](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Seda õppekava on kõige parem kasutada, kui avate selle [Visual Studio Code’is](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) koos [Python laiendiga](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Märkus**: Kui kloonite ja avate kataloogi VS Code'is, soovitab see automaatselt Python'i laienduste installimist. Samuti peate installima miniconda, nagu eespool kirjeldatud.
+> **Märkus**: Kui kloonite ja avate kausta VS Code’is, soovitab see automaatselt paigaldada Python laiendused. Samuti peate paigaldama miniconda nagu eespool kirjeldatud.
 
-> **Märkus**: Kui VS Code soovitab teil repositooriumi konteineris uuesti avada, peate selle tagasi lükkama, et kasutada kohalikku Python'i installatsiooni.
+> **Märkus**: Kui VS Code soovitab teil hoidlale konteineris uuesti ligi pääseda, peaksite selle keelduma, et kasutada lokaalset Python'i paigaldust.
 
-### Jupyter'i kasutamine brauseris
+### Kasutades Jupyterit brauseris
 
-Samuti saate kasutada Jupyter'i keskkonda otse brauseris oma arvutis. Tegelikult pakuvad nii klassikaline Jupyter kui ka Jupyter Hub üsna mugavat arenduskeskkonda automaatse täiendamise, koodi esiletõstmise jms funktsioonidega.
+Võite kasutada ka Jupyter keskkonda brauserist oma arvutis. Nii klassikaline Jupyter kui ka JupyterHub pakuvad mugavat arenduskeskkonda automaatse täienduse, koodi esiletõstmise jms funktsioonidega.
 
-Jupyter'i kohalikuks käivitamiseks minge kursuse kataloogi ja käivitage:
+Jupyterit käivitamiseks lokaalselt minge kursuse kataloogi ning käivitage:
 
 ```bash
 jupyter notebook
 ```
-või
+ või  
 ```bash
 jupyterhub
 ```
-Seejärel saate liikuda mis tahes `.ipynb` failini, avada selle ja alustada tööd.
+  
+Seejärel saate minna mis tahes `.ipynb` faili juurde, avada selle ja alustada tööd.
 
 ### Käivitamine konteineris
 
-Alternatiiv Python'i installatsioonile oleks koodi käivitamine konteineris. Kuna meie repositoorium sisaldab spetsiaalset `.devcontainer` kausta, mis juhendab, kuidas selle repositooriumi jaoks konteinerit ehitada, pakub VS Code teile võimalust avada kood konteineris. See nõuab Docker'i installimist ja on ka keerulisem, seega soovitame seda kogenumatele kasutajatele.
+Üks alternatiiv Python'i paigaldamisele on koodi käivitamine konteineris. Kuna meie hoidla sisaldab spetsiaalset `.devcontainer` kausta, mis juhendab konteineri ehitamist selle hoidlaga, pakub VS Code võimalust hoidlale konteineris uuesti ligi pääseda. Selleks on vajalik Docker’i installatsioon ja see on ka keerulisem, seega soovitame seda rohkem kogenud kasutajatele.
 
 ## Käivitamine pilves
 
-Kui te ei soovi Python'i kohalikult installida ja teil on juurdepääs mõnele pilveressursile, siis hea alternatiiv oleks koodi käivitamine pilves. Selleks on mitu võimalust:
+Kui te ei soovi Pythonit lokaalselt paigaldada, kuid teil on ligipääs mõnele pilveteenusele, on hea alternatiiv koodi käivitamine pilvest. Seda saab teha mitmel viisil:
 
-* Kasutades **[GitHub Codespaces](https://github.com/features/codespaces)**, mis on GitHub'is loodud virtuaalne keskkond, millele pääseb ligi VS Code'i brauseriliidese kaudu. Kui teil on juurdepääs Codespaces'ile, saate lihtsalt klõpsata repositooriumis **Code** nupul, käivitada Codespace'i ja alustada tööd hetkega.
-* Kasutades **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) pakub tasuta pilvearvutusressursse, et testida GitHub'is olevat koodi. Esilehel on nupp, mis avab repositooriumi Binder'is - see viib teid kiiresti Binder'i saidile, mis ehitab aluseks oleva konteineri ja käivitab Jupyter'i veebiliidese sujuvalt.
+* Kasutades **[GitHub Codespaces](https://github.com/features/codespaces)**, mis on teile GitHubis loodav virtuaalne keskkond, mida pääseb ligi VS Code’i brauseri kaudu. Kui teil on Codespaces’i ligipääs, saate lihtsalt hoidla lehel vajutada nuppu **Code**, alustada codespace’i ning hakata kohe koodi jooksutama.
+* Kasutades **[Binderit](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) pakub tasuta arvutusressursse pilves, mis võimaldab teil GitHubi koodi mugavalt testida. Esilehel on nupp, mis avab hoidla Binderis – see viib teid rapidamente Binderi lehele, mis ehitab taustal konteineri ja käivitab teie jaoks sujuvalt Jupyter veebiliidese.
 
-> **Märkus**: Kuritarvituste vältimiseks on Binder'il juurdepääs mõnele veebiresursile blokeeritud. See võib takistada mõne koodi töötamist, mis laadib mudeleid ja/või andmekogumeid avalikust internetist. Võimalik, et peate leidma mõningaid lahendusi. Samuti on Binder'i pakutavad arvutusressursid üsna piiratud, mistõttu treenimine on aeglane, eriti hilisemates keerukamates tundides.
+> **Märkus**: Kuritarvituste vältimiseks on Binderi ligipääs mõnele veebiallikale piiratud. See võib takistada mõnel koodil toimimast, mis alla laadib mudeleid ja/või andmestasid avalikust internetist. Võite vajada mõnda lahendust nende piirangute vältimiseks. Samuti on Binderi pakutavad arvutusressursid üsna piiratud, mistõttu treeningud võivad olla aeglased, eriti hilisemates keerulisemates õppetundides.
 
-## Käivitamine pilves GPU-ga
+## Käivitamine pilves koos GPU-toega
 
-Mõned hilisemad õppetunnid selles õppekavas oleksid GPU toe korral palju tõhusamad, sest muidu on treenimine väga aeglane. Siin on mõned võimalused, mida saate kasutada, eriti kui teil on juurdepääs pilvele kas [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) kaudu või oma asutuse kaudu:
+Mõned õppetunnid selles õppekavas kasutaksid oluliselt GPU-d, mis muudab mudelite treenimise palju kiiremaks. GPU toe olemasolu on eriti kasulik. Mõned võimalused:
 
-* Looge [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ja ühendage sellega Jupyter'i kaudu. Seejärel saate repositooriumi otse masinasse kloonida ja õppimist alustada. NC-seeria virtuaalmasinatel on GPU tugi.
+* Loo [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ja ühenda sellega Jupyteri kaudu. Saate kloonida hoidla otse masinale ning alustada õppimist. NC-seeria VM-id toetavad GPU-d.
 
-> **Märkus**: Mõned tellimused, sealhulgas Azure for Students, ei paku GPU tuge vaikimisi. Võimalik, et peate tehnilise toe kaudu taotlema täiendavaid GPU tuumasid.
+> **Märkus**: Mõned tellimused, sh Azure for Students, ei paku vaikimisi GPU tuge. Võib-olla peate esitama tehnilise toe taotluse täiendavate GPU tuumade saamiseks.
 
-* Looge [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) ja kasutage seal Notebook'i funktsiooni. [See video](https://azure-for-academics.github.io/quickstart/azureml-papers/) näitab, kuidas kloonida repositoorium Azure ML Notebook'i ja seda kasutama hakata.
+* Loo [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) ja kasuta seal Jupyter märkmiku funktsiooni. [See video](https://azure-for-academics.github.io/quickstart/azureml-papers/) näitab, kuidas kloonida hoidla Azure ML märkmikku ja seda kasutada.
 
-Samuti saate kasutada Google Colab'i, mis pakub mõningast tasuta GPU tuge, ja laadida sinna Jupyter Notebook'e, et neid ükshaaval käivitada.
+Võite kasutada ka Google Colabit, mis pakub mõningast tasuta GPU tuge, ning üles laadida sinna Jupyteri märkmikud, mida sealt ükshaaval käivitada.
 
 ---
 
-**Lahtiütlus**:  
-See dokument on tõlgitud AI tõlketeenuse [Co-op Translator](https://github.com/Azure/co-op-translator) abil. Kuigi püüame tagada täpsust, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algses keeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valesti tõlgenduste eest.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vastutusest loobumine**:
+See dokument on tõlgitud kasutades AI tõlke teenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi püüame tagada täpsust, palun arvestage, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise info puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste ega valesti mõistmiste eest.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

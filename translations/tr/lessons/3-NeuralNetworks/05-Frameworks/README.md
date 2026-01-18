@@ -58,7 +58,7 @@ Aşırı öğrenme, makine öğreniminde son derece önemli bir kavramdır ve do
 
 Aşağıdaki 5 noktayı (grafiklerde `x` ile gösterilen) yaklaşık olarak tahmin etme problemini düşünün:
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.tr.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.tr.jpg)
+![linear](../../../../../translated_images/tr/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/tr/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Doğrusal model, 2 parametre** | **Doğrusal olmayan model, 7 parametre**
 Eğitim hatası = 5.3 | Eğitim hatası = 0
@@ -79,7 +79,7 @@ Modelin zenginliği (parametre sayısı) ile eğitim örneklerinin sayısı aras
 
 Yukarıdaki grafikten görebileceğiniz gibi, aşırı öğrenme çok düşük bir eğitim hatası ve yüksek bir doğrulama hatası ile tespit edilebilir. Normalde eğitim sırasında hem eğitim hem de doğrulama hatalarının azalmaya başladığını görürüz, ancak bir noktada doğrulama hatası azalmayı durdurabilir ve artmaya başlayabilir. Bu, aşırı öğrenmenin bir işareti ve eğitimi muhtemelen bu noktada durdurmamız gerektiğinin (veya en azından modelin bir anlık görüntüsünü almamız gerektiğinin) göstergesidir.
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.tr.png)
+![overfitting](../../../../../translated_images/tr/Overfitting.408ad91cd90b4371.webp)
 
 ## Aşırı Öğrenme Nasıl Önlenir?
 

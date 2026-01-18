@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 A VGG-16 egy hálózat, amely 2014-ben 92,7%-os pontosságot ért el az ImageNet top-5 osztályozásban. Az alábbi rétegstruktúrával rendelkezik:
 
-![ImageNet rétegek](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.hu.jpg)
+![ImageNet rétegek](../../../../../translated_images/hu/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Ahogy látható, a VGG egy hagyományos piramis architektúrát követ, amely egy konvolúciós és pooling rétegek sorozata.
 
-![ImageNet piramis](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.hu.jpg)
+![ImageNet piramis](../../../../../translated_images/hu/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Kép forrása: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

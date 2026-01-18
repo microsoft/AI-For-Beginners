@@ -19,7 +19,7 @@ Nell'architettura RNN discussa nell'unità precedente, ogni unità RNN produceva
 
 Questo consente diverse architetture neurali, come mostrato nell'immagine seguente:
 
-![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.it.jpg)
+![Immagine che mostra i modelli comuni di reti neurali ricorrenti.](../../../../../translated_images/it/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > Immagine tratta dal post del blog [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) di [Andrej Karpaty](http://karpathy.github.io/)
 
@@ -32,7 +32,7 @@ In questa unità, ci concentreremo su modelli generativi semplici che ci aiutano
 
 Addestreremo questa RNN per generare testo passo dopo passo. A ogni passo, prenderemo una sequenza di caratteri di lunghezza `nchars` e chiederemo alla rete di generare il carattere successivo per ciascun carattere di input:
 
-![Immagine che mostra un esempio di generazione RNN della parola 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.it.png)
+![Immagine che mostra un esempio di generazione RNN della parola 'HELLO'.](../../../../../translated_images/it/rnn-generate.56c54afb52f9781d.webp)
 
 Durante la generazione del testo (in fase di inferenza), iniziamo con un **prompt**, che viene passato attraverso le celle RNN per generare il suo stato intermedio, e da questo stato inizia la generazione. Generiamo un carattere alla volta, passando lo stato e il carattere generato a un'altra cella RNN per generare il successivo, fino a quando non abbiamo generato un numero sufficiente di caratteri.
 

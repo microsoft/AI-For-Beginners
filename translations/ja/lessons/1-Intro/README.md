@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AIの紹介
 
-![AIの紹介内容をまとめたスケッチノート](../../../../translated_images/ai-intro.bf28d1ac4235881c.ja.png)
+![AIの紹介内容をまとめたスケッチノート](../../../../translated_images/ja/ai-intro.bf28d1ac4235881c.webp)
 
 > スケッチノート: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 もともとコンピュータは、[チャールズ・バベッジ](https://en.wikipedia.org/wiki/Charles_Babbage)によって、明確に定義された手順（アルゴリズム）に従って数値を操作するために発明されました。現代のコンピュータは、19世紀に提案された元のモデルよりもはるかに高度ですが、依然として制御された計算という同じ考えに基づいています。そのため、目標を達成するために必要な手順を正確に知っていれば、コンピュータに何かをプログラムすることが可能です。
 
-![人物の写真](../../../../translated_images/dsh_age.d212a30d4e54fb5f.ja.png)
+![人物の写真](../../../../translated_images/ja/dsh_age.d212a30d4e54fb5f.webp)
 
 > 写真: [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **[知能](https://en.wikipedia.org/wiki/Intelligence)** という用語を扱う際の問題の1つは、この用語に明確な定義がないことです。知能は**抽象的思考**や**自己認識**に関連していると主張することができますが、それを適切に定義することはできません。
 
-![猫の写真](../../../../translated_images/photo-cat.8c8e8fb760ffe457.ja.jpg)
+![猫の写真](../../../../translated_images/ja/photo-cat.8c8e8fb760ffe457.webp)
 
 > [写真](https://unsplash.com/photos/75715CVEJhI): [Amber Kipp](https://unsplash.com/@sadmax) (Unsplashより)
 
@@ -98,13 +98,13 @@ AGIについて話すとき、私たちは本当に知能を持つシステム�
 
 > | 機械学習については？         |      |
 > |--------------|-----------|
-> | データに基づいて問題を解決する方法をコンピュータが学ぶ人工知能の一部は、**機械学習**と呼ばれます。このコースでは古典的な機械学習は扱いません。別のカリキュラム [Machine Learning for Beginners](http://aka.ms/ml-beginners) を参照してください。 |   ![ML for Beginners](../../../../translated_images/ml-for-beginners.9e4fed176fd5817d.ja.png)    |
+> | データに基づいて問題を解決する方法をコンピュータが学ぶ人工知能の一部は、**機械学習**と呼ばれます。このコースでは古典的な機械学習は扱いません。別のカリキュラム [Machine Learning for Beginners](http://aka.ms/ml-beginners) を参照してください。 |   ![ML for Beginners](../../../../translated_images/ja/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## AIの簡単な歴史
 
 人工知能は20世紀中頃に分野として始まりました。当初は記号的推論が主流のアプローチであり、専門家システムのような重要な成功を収めました。専門家システムは、限られた問題領域で専門家として行動できるコンピュータプログラムです。しかし、このアプローチがスケールしにくいことがすぐに明らかになりました。専門家から知識を抽出し、それをコンピュータに表現し、その知識ベースを正確に保つことは非常に複雑で、多くの場合実用的ではないほど高価な作業であることが判明しました。この結果、1970年代にいわゆる[AIの冬](https://en.wikipedia.org/wiki/AI_winter)が訪れました。
 
-<img alt="AIの簡単な歴史" src="../../../../translated_images/history-of-ai.7e83efa70b537f5a.ja.png" width="70%"/>
+<img alt="AIの簡単な歴史" src="../../../../translated_images/ja/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > 画像: [Dmitry Soshnikov](http://soshnikov.com)
 

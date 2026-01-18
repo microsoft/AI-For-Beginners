@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **آليات الانتباه** توفر وسيلة لتحديد وزن تأثير كل متجه إدخال على كل توقع مخرجات للشبكة العصبية المتكررة. يتم تنفيذ ذلك من خلال إنشاء اختصارات بين الحالات الوسيطة لشبكة الإدخال وشبكة المخرجات. بهذه الطريقة، عند إنشاء رمز المخرجات y<sub>t</sub>، سنأخذ في الاعتبار جميع الحالات المخفية للإدخال h<sub>i</sub>، مع معاملات وزن مختلفة &alpha;<sub>t,i</sub>.
 
-![صورة توضح نموذج المشفّر/المفكّك مع طبقة انتباه إضافية](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.ar.png)
+![صورة توضح نموذج المشفّر/المفكّك مع طبقة انتباه إضافية](../../../../../translated_images/ar/encoder-decoder-attention.7a726296894fb567.webp)
 
 > نموذج المشفّر-المفكّك مع آلية انتباه إضافية في [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)، مقتبس من [هذه المقالة](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 مصفوفة الانتباه {&alpha;<sub>i,j</sub>} تمثل درجة تأثير كلمات الإدخال على إنشاء كلمة معينة في تسلسل المخرجات. أدناه مثال على مثل هذه المصفوفة:
 
-![صورة توضح محاذاة نموذج RNNsearch-50، مأخوذة من Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.ar.png)
+![صورة توضح محاذاة نموذج RNNsearch-50، مأخوذة من Bahdanau - arviz.org](../../../../../translated_images/ar/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > الشكل من [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (الشكل 3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 بعد ذلك، نحتاج إلى التقاط بعض الأنماط داخل تسلسلنا. لتحقيق ذلك، تستخدم المحولات آلية **الانتباه الذاتي**، وهي في الأساس انتباه يتم تطبيقه على نفس التسلسل كمدخلات ومخرجات. تطبيق الانتباه الذاتي يسمح لنا بأخذ **السياق** داخل الجملة في الاعتبار، ورؤية الكلمات التي ترتبط ببعضها البعض. على سبيل المثال، يسمح لنا برؤية الكلمات التي تشير إليها الإشارات المرجعية مثل *it*، وأيضًا أخذ السياق في الاعتبار:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.ar.png)
+![](../../../../../translated_images/ar/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > الصورة من [مدونة Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **BERT** (تمثيلات المشفّر ثنائية الاتجاه من المحولات) هو شبكة محولات متعددة الطبقات كبيرة جدًا تحتوي على 12 طبقة لـ *BERT-base*، و24 طبقة لـ *BERT-large*. يتم تدريب النموذج أولاً على مجموعة كبيرة من بيانات النصوص (ويكيبيديا + الكتب) باستخدام التدريب غير المراقب (توقع الكلمات المخفية في الجملة). أثناء التدريب الأولي، يمتص النموذج مستويات كبيرة من فهم اللغة التي يمكن استخدامها لاحقًا مع مجموعات بيانات أخرى باستخدام التخصيص. تُعرف هذه العملية بـ **التعلم بالنقل**.
 
-![صورة من http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.ar.png)
+![صورة من http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/ar/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > الصورة [المصدر](http://jalammar.github.io/illustrated-bert/)
 

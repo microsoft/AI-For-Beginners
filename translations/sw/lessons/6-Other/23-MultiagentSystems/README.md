@@ -70,7 +70,7 @@ Unaweza kufungua mojawapo ya miundo, kwa mfano **Biology &rightarrow; Flocking**
 
 Baada ya kufungua mfano, unapelekwa kwenye skrini kuu ya NetLogo. Hapa kuna mfano wa mfano unaoelezea idadi ya mbwa mwitu na kondoo, kwa kuzingatia rasilimali finyu (nyasi).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.sw.png)
+![NetLogo Main Screen](../../../../../translated_images/sw/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Picha ya skrini na Dmitry Soshnikov
 

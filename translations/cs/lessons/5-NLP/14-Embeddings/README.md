@@ -19,7 +19,7 @@ Vrstva embedding tedy přijme slovo jako vstup a vytvoří výstupní vektor o s
 
 Použitím vrstvy embedding jako první vrstvy v naší klasifikační síti můžeme přejít od modelu bag-of-words k modelu **embedding bag**, kde nejprve převedeme každé slovo v textu na odpovídající embedding a poté vypočítáme nějakou agregační funkci nad všemi těmito embeddingy, například `sum`, `average` nebo `max`.
 
-![Obrázek znázorňující klasifikátor s embeddingy pro pět slov v sekvenci.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.cs.png)
+![Obrázek znázorňující klasifikátor s embeddingy pro pět slov v sekvenci.](../../../../../translated_images/cs/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Obrázek od autora
 
@@ -40,7 +40,7 @@ K tomu je třeba předtrénovat model embedding na velké kolekci textů specifi
 
 CBoW je rychlejší, zatímco skip-gram je pomalejší, ale lépe reprezentuje méně častá slova.
 
-![Obrázek znázorňující algoritmy CBoW a Skip-Gram pro převod slov na vektory.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.cs.png)
+![Obrázek znázorňující algoritmy CBoW a Skip-Gram pro převod slov na vektory.](../../../../../translated_images/cs/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Obrázek z [tohoto článku](https://arxiv.org/pdf/1301.3781.pdf)
 

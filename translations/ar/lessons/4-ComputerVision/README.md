@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # رؤية الحاسوب
 
-![ملخص محتوى رؤية الحاسوب في رسم توضيحي](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ar.png)
+![ملخص محتوى رؤية الحاسوب في رسم توضيحي](../../../../translated_images/ar/ai-computervision.6506ebebac3fbf76.webp)
 
 في هذا القسم سنتعلم عن:
 

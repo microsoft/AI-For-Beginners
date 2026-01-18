@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-26T00:35:12+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T04:54:29+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "cs"
 }
 -->
 # Jak spustit kód
 
-Tento kurz obsahuje mnoho spustitelných příkladů a cvičení, které budete chtít vyzkoušet. Abyste to mohli udělat, potřebujete možnost spouštět Python kód v Jupyter Noteboocích, které jsou součástí tohoto kurzu. Existuje několik možností, jak kód spustit:
+Tento kurz obsahuje spoustu spustitelných příkladů a laboratorních cvičení, která budete chtít spustit. K tomu je potřeba mít možnost spouštět Python kód v Jupyter Noteboocích poskytnutých jako součást tohoto kurzu. Pro spuštění kódu máte několik možností:
 
 ## Spuštění lokálně na vašem počítači
 
-Pro spuštění kódu lokálně na vašem počítači budete potřebovat nějakou verzi Pythonu. Osobně doporučuji nainstalovat **[miniconda](https://conda.io/en/latest/miniconda.html)** – jedná se o poměrně lehkou instalaci, která podporuje správce balíčků `conda` pro různé Python **virtuální prostředí**.
+Pro spuštění kódu lokálně na vašem počítači je potřeba mít nainstalovaný Python. Jedním z doporučení je instalace **[miniconda](https://conda.io/en/latest/miniconda.html)** – jedná se o poměrně lehkou instalaci, která podporuje správce balíčků `conda` pro různé Python **virtuální prostředí**.
 
-Po instalaci minicondy je potřeba naklonovat repozitář a vytvořit virtuální prostředí, které bude použito pro tento kurz:
+Po instalaci minicondy si klonujte repozitář a vytvořte virtuální prostředí, které budete používat pro tento kurz:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,19 +24,19 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Použití Visual Studio Code s rozšířením Python
+### Použití Visual Studio Code s Python rozšířením
 
-Pravděpodobně nejlepší způsob, jak využít tento kurz, je otevřít ho v [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) s [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Tento kurz je nejlepší používat, když jej otevřete v [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) s [Python rozšířením](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Note**: Jakmile naklonujete a otevřete adresář ve VS Code, automaticky vám bude navrženo nainstalovat rozšíření pro Python. Budete také muset nainstalovat miniconda, jak je popsáno výše.
+> **Poznámka**: Jakmile repozitář klonujete a otevřete ve VS Code, automaticky se vám nabídne instalace Python rozšíření. Také budete muset nainstalovat miniconda, jak je popsáno výše.
 
-> **Note**: Pokud vám VS Code navrhne znovu otevřít repozitář v kontejneru, je potřeba tuto možnost odmítnout a použít lokální instalaci Pythonu.
+> **Poznámka**: Pokud vám VS Code nabídne znovu otevřít repozitář v kontejneru, měli byste to zamítnout, pokud chcete používat lokální Python instalaci.
 
-### Použití Jupyteru v prohlížeči
+### Použití Jupyter v prohlížeči
 
-Jupyter prostředí můžete také používat přímo z prohlížeče na vašem počítači. Ve skutečnosti jak klasický Jupyter, tak Jupyter Hub poskytují velmi pohodlné vývojové prostředí s automatickým doplňováním, zvýrazněním kódu atd.
+Můžete také používat prostředí Jupyter přímo v prohlížeči na vašem počítači. Jak klasický Jupyter, tak JupyterHub poskytují pohodlné vývojové prostředí s automatickým dokončováním, zvýrazňováním kódu atd.
 
-Pro spuštění Jupyteru lokálně přejděte do adresáře kurzu a spusťte:
+Pro spuštění Jupyter lokálně přejděte do adresáře kurzu a spusťte:
 
 ```bash
 jupyter notebook
@@ -49,28 +49,32 @@ Poté můžete přejít k libovolnému souboru `.ipynb`, otevřít ho a začít 
 
 ### Spuštění v kontejneru
 
-Alternativou k instalaci Pythonu může být spuštění kódu v kontejneru. Jelikož náš repozitář obsahuje speciální složku `.devcontainer`, která určuje, jak vytvořit kontejner pro tento repozitář, VS Code vám nabídne znovu otevřít kód v kontejneru. To bude vyžadovat instalaci Dockeru a je také složitější, takže tuto možnost doporučujeme zkušenějším uživatelům.
+Jinou možností místo instalace Pythonu je spuštění kódu v kontejneru. Jelikož náš repozitář obsahuje speciální složku `.devcontainer`, která určuje, jak postavit kontejner pro tento repozitář, VS Code nabízí možnost znovu otevřít kód přímo v kontejneru. To ale vyžaduje instalaci Dockeru a je to složitější, takže toto doporučujeme spíše zkušenějším uživatelům.
 
 ## Spuštění v cloudu
 
-Pokud nechcete instalovat Python lokálně a máte přístup k nějakým cloudovým zdrojům, dobrou alternativou může být spuštění kódu v cloudu. Existuje několik způsobů, jak to udělat:
+Pokud nechcete Python instalovat lokálně a máte přístup k nějakým cloudovým zdrojům, dobrou alternativou je spuštění kódu v cloudu. Nabízí se několik variant:
 
-* Použití **[GitHub Codespaces](https://github.com/features/codespaces)**, což je virtuální prostředí vytvořené pro vás na GitHubu, přístupné přes rozhraní prohlížeče VS Code. Pokud máte přístup ke Codespaces, stačí kliknout na tlačítko **Code** v repozitáři, spustit codespace a začít pracovat během chvilky.
-* Použití **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) poskytuje zdarma výpočetní zdroje v cloudu pro uživatele, kteří chtějí vyzkoušet kód na GitHubu. Na úvodní stránce je tlačítko pro otevření repozitáře v Binderu – to vás rychle přesměruje na Binder, který vytvoří podkladový kontejner a bezproblémově spustí webové rozhraní Jupyteru.
+* Použít **[GitHub Codespaces](https://github.com/features/codespaces)**, což je virtuální prostředí vytvořené pro vás na GitHubu, přístupné přes VS Code v prohlížeči. Pokud máte přístup ke Codespaces, stačí kliknout na tlačítko **Code** v repozitáři, spustit Codespace a hned můžete začít.
+* Použít **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) nabízí zdarma výpočetní prostředky v cloudu, kde si můžete zkusit spustit nějaký kód z GitHubu. Na úvodní stránce je tlačítko pro otevření repozitáře v Binderu – to vás rychle převeze na stránku Binderu, která sestaví podkladový kontejner a bez problémů spustí webové rozhraní Jupyter.
 
-> **Note**: Aby se zabránilo zneužití, Binder má blokovaný přístup k některým webovým zdrojům. To může zabránit fungování některého kódu, který stahuje modely nebo datové sady z veřejného internetu. Možná budete muset najít nějaké alternativy. Také výpočetní zdroje poskytované Binderem jsou poměrně základní, takže trénování bude pomalé, zejména v pozdějších složitějších lekcích.
+> **Poznámka**: Pro zamezení zneužití má Binder blokovaný přístup k některým webovým zdrojům. Může se tak stát, že některé části kódu, které stahují modely nebo dataset z Internetu, nebudou fungovat. Budete si muset najít nějaké alternativy. Compute zdroje, které Binder poskytuje, jsou základní, takže trénování bude pomalé, zejména v pozdějších, složitějších lekcích.
 
 ## Spuštění v cloudu s GPU
 
-Některé z pozdějších lekcí v tomto kurzu by velmi těžily z podpory GPU, protože jinak bude trénování bolestivě pomalé. Existuje několik možností, které můžete využít, zejména pokud máte přístup k cloudu buď přes [Azure pro studenty](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), nebo přes vaši instituci:
+Některé pokročilejší lekce v tomto kurzu by velmi výrazně profitovaly z podpory GPU. Trénování modelů by jinak mohlo být bolestivě pomalé. Máte pár možností, zejména pokud máte přístup do cloudu přes [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) nebo přes vaši instituci:
 
-* Vytvořte [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) a připojte se k ní přes Jupyter. Poté můžete naklonovat repozitář přímo na stroj a začít se učit. NC-series VM mají podporu GPU.
+* Vytvořit [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) a připojit se k ní přes Jupyter. Pak si můžete přímo na této VM klonovat repozitář a začít se učit. NC série VM mají podporu GPU.
 
-> **Note**: Některé předplatné, včetně Azure pro studenty, neposkytují podporu GPU automaticky. Možná budete muset požádat o další GPU jádra prostřednictvím technické podpory.
+> **Poznámka**: Některé typy předplatného, včetně Azure for Students, GPU podporu hned v základu neposkytují. Může být potřeba požádat o další GPU jádra přes technickou podporu.
 
-* Vytvořte [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) a poté použijte funkci Notebook tam. [Toto video](https://azure-for-academics.github.io/quickstart/azureml-papers/) ukazuje, jak naklonovat repozitář do Azure ML notebooku a začít ho používat.
+* Vytvořit [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) a využít tamní funkci Notebooks. [Toto video](https://azure-for-academics.github.io/quickstart/azureml-papers/) ukazuje, jak klonovat repozitář do Azure ML notebooku a začít jej používat.
 
-Můžete také použít Google Colab, který nabízí určitou bezplatnou podporu GPU, a nahrát tam Jupyter Notebooky, abyste je mohli spouštět jeden po druhém.
+Můžete také využít Google Colab, který nabízí nějakou výpočetní kapacitu s GPU zdarma, a do něj nahrávat Jupyter Notebooky a spouštět je jednotlivě.
 
-**Prohlášení:**  
-Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). Ačkoli se snažíme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Prohlášení o vyloučení odpovědnosti**:  
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Originální dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro kritické informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoliv nepochopení nebo nesprávné výklady vyplývající z použití tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

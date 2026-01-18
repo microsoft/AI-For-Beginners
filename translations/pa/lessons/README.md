@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਝਲਕ
 
-![ਝਲਕ ਇੱਕ ਡੂਡਲ ਵਿੱਚ](../../../translated_images/ai-overview.0857791951d19500.pa.png)
+![ਝਲਕ ਇੱਕ ਡੂਡਲ ਵਿੱਚ](../../../translated_images/pa/ai-overview.0857791951d19500.webp)
 
 > ਸਕੈਚਨੋਟ [Tomomi Imura](https://twitter.com/girlie_mac) ਦੁਆਰਾ
 

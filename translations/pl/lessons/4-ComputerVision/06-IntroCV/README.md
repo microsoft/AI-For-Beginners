@@ -73,14 +73,14 @@ W naszym [OpenCV Notebook](OpenCV.ipynb) przedstawiamy kilka przykładów, kiedy
 
 * **Wstępne przetwarzanie fotografii książki Braille'a**. Skupiamy się na tym, jak można użyć progowania, detekcji cech, transformacji perspektywicznej i manipulacji NumPy, aby oddzielić pojedyncze symbole Braille'a do dalszej klasyfikacji przez sieć neuronową.
 
-![Obraz Braille'a](../../../../../translated_images/braille.341962ff76b1bd70.pl.jpeg) | ![Obraz Braille'a po przetworzeniu](../../../../../translated_images/braille-result.46530fea020b03c7.pl.png) | ![Symbole Braille'a](../../../../../translated_images/braille-symbols.0159185ab69d5339.pl.png)
+![Obraz Braille'a](../../../../../translated_images/pl/braille.341962ff76b1bd70.webp) | ![Obraz Braille'a po przetworzeniu](../../../../../translated_images/pl/braille-result.46530fea020b03c7.webp) | ![Symbole Braille'a](../../../../../translated_images/pl/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detekcja ruchu w wideo za pomocą różnicy klatek**. Jeśli kamera jest nieruchoma, klatki z jej strumienia powinny być dość podobne do siebie. Ponieważ klatki są reprezentowane jako tablice, wystarczy odjąć te tablice dla dwóch kolejnych klatek, aby uzyskać różnicę pikseli, która powinna być niska dla statycznych klatek, a wyższa, gdy w obrazie występuje znaczący ruch.
 
-![Obraz klatek wideo i różnic klatek](../../../../../translated_images/frame-difference.706f805491a0883c.pl.png)
+![Obraz klatek wideo i różnic klatek](../../../../../translated_images/pl/frame-difference.706f805491a0883c.webp)
 
 > Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ W naszym [OpenCV Notebook](OpenCV.ipynb) przedstawiamy kilka przykładów, kiedy
    - **Gęsty optyczny przepływ** oblicza pole wektorowe, które pokazuje, gdzie każdy piksel się porusza.
    - **Rzadki optyczny przepływ** opiera się na wybraniu charakterystycznych cech obrazu (np. krawędzi) i budowaniu ich trajektorii od klatki do klatki.
 
-![Obraz optycznego przepływu](../../../../../translated_images/optical.1f4a94464579a83a.pl.png)
+![Obraz optycznego przepływu](../../../../../translated_images/pl/optical.1f4a94464579a83a.webp)
 
 > Obraz z [OpenCV.ipynb](OpenCV.ipynb)
 

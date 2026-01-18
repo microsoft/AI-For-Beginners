@@ -57,7 +57,7 @@ barn | O
 
 Siden vi må bygge en én-til-én korrespondanse mellom tokens og klasser, kan vi trene en høyreorientert **mange-til-mange** nevralt nettverksmodell fra dette bildet:
 
-![Bilde som viser vanlige mønstre for rekurrente nevrale nettverk.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.no.jpg)
+![Bilde som viser vanlige mønstre for rekurrente nevrale nettverk.](../../../../../translated_images/no/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Bilde fra [denne bloggposten](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) av [Andrej Karpathy](http://karpathy.github.io/). NER-tokenklassifiseringsmodeller tilsvarer nettverksarkitekturen lengst til høyre på dette bildet.*
 

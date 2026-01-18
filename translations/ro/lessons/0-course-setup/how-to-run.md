@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7df19702b8d2d3f7c4238c51bec2c8fc",
-  "translation_date": "2025-08-26T00:35:53+00:00",
+  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+  "translation_date": "2026-01-16T05:26:25+00:00",
   "source_file": "lessons/0-course-setup/how-to-run.md",
   "language_code": "ro"
 }
 -->
-# Cum să rulezi codul
+# Cum să Rulați Codul
 
-Acest curs conține multe exemple executabile și laboratoare pe care vei dori să le rulezi. Pentru a face acest lucru, ai nevoie de posibilitatea de a executa cod Python în Jupyter Notebooks, care sunt furnizate ca parte a acestui curs. Ai mai multe opțiuni pentru a rula codul:
+Acest curriculum conține multe exemple și laboratoare executabile pe care veți dori să le rulați. Pentru a face acest lucru, aveți nevoie de posibilitatea de a executa cod Python în Jupyter Notebooks furnizate ca parte a acestui curriculum. Aveți mai multe opțiuni pentru a rula codul:
 
-## Rulează local pe computerul tău
+## Rulare locală pe calculatorul dvs.
 
-Pentru a rula codul local pe computerul tău, trebuie să ai instalată o versiune de Python. Personal, recomand instalarea **[miniconda](https://conda.io/en/latest/miniconda.html)** - este o instalare destul de ușoară care suportă managerul de pachete `conda` pentru diferite **medii virtuale** Python.
+Pentru a rula codul local pe calculatorul dvs., este necesară o instalare Python. O recomandare este să instalați **[miniconda](https://conda.io/en/latest/miniconda.html)** - este o instalare relativ ușoară care suportă managerul de pachete `conda` pentru diferite **medii virtuale** Python.
 
-După ce instalezi miniconda, trebuie să clonezi repository-ul și să creezi un mediu virtual care va fi folosit pentru acest curs:
+După ce instalați miniconda, clonați depozitul și creați un mediu virtual care să fie folosit pentru acest curs:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -24,53 +24,57 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Utilizarea Visual Studio Code cu extensia Python
+### Utilizarea Visual Studio Code cu Extensia Python
 
-Probabil cea mai bună metodă de a folosi acest curs este să-l deschizi în [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) cu [extensia Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Acest curriculum este cel mai bine folosit atunci când îl deschideți în [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) cu [Extensia Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Note**: După ce clonezi și deschizi directorul în VS Code, acesta îți va sugera automat să instalezi extensiile Python. De asemenea, va trebui să instalezi miniconda, așa cum este descris mai sus.
+> **Notă**: Odată ce clonați și deschideți directorul în VS Code, acesta vă va sugera automat să instalați extensiile pentru Python. Va trebui, de asemenea, să instalați miniconda așa cum este descris mai sus.
 
-> **Note**: Dacă VS Code îți sugerează să redeschizi repository-ul într-un container, trebuie să refuzi această opțiune pentru a folosi instalarea locală de Python.
+> **Notă**: Dacă VS Code vă sugerează să redeschideți depozitul într-un container, ar trebui să refuzați această opțiune pentru a folosi instalarea locală Python.
 
-### Utilizarea Jupyter în browser
+### Utilizarea Jupyter în Browser
 
-Poți folosi și mediul Jupyter direct din browser pe computerul tău. De fapt, atât Jupyter clasic, cât și Jupyter Hub oferă un mediu de dezvoltare destul de convenabil, cu completare automată, evidențiere a codului etc.
+Puteți, de asemenea, să folosiți un mediu Jupyter din browser pe propriul calculator. Atât Jupyter clasic, cât și JupyterHub oferă un mediu convenabil de dezvoltare cu completare automată, evidențierea codului, etc.
 
-Pentru a porni Jupyter local, mergi în directorul cursului și execută:
+Pentru a porni Jupyter local, navigați în directorul cursului și executați:
 
 ```bash
 jupyter notebook
-```  
-sau  
+```
+sau
 ```bash
 jupyterhub
-```  
-Apoi poți naviga la orice fișier `.ipynb`, să-l deschizi și să începi să lucrezi.
+```
+Apoi puteți naviga la oricare din fișierele `.ipynb`, să le deschideți și să începeți să lucrați.
 
-### Rularea într-un container
+### Rulare în container
 
-O alternativă la instalarea Python ar fi rularea codului într-un container. Deoarece repository-ul nostru conține un folder special `.devcontainer` care indică cum să construiești un container pentru acest repository, VS Code îți va oferi opțiunea de a redeschide codul într-un container. Acest lucru va necesita instalarea Docker și va fi mai complex, așa că recomandăm această opțiune utilizatorilor mai experimentați.
+O alternativă la instalarea Python ar fi să rulați codul într-un container. Deoarece depozitul nostru oferă un folder special `.devcontainer` care indică cum să construiți un container pentru acest repo, VS Code oferă oportunitatea de a redeschide codul în container. Aceasta va necesita instalarea Docker și ar fi mai complexă, așadar recomandăm acest lucru utilizatorilor mai experimentați.
 
-## Rularea în cloud
+## Rulare în Cloud
 
-Dacă nu dorești să instalezi Python local și ai acces la resurse cloud, o alternativă bună ar fi să rulezi codul în cloud. Există mai multe modalități de a face acest lucru:
+Dacă nu doriți să instalați Python local și aveți acces la unele resurse cloud – o alternativă bună este să rulați codul în cloud. Există mai multe moduri în care puteți face asta:
 
-* Utilizând **[GitHub Codespaces](https://github.com/features/codespaces)**, care este un mediu virtual creat pentru tine pe GitHub, accesibil prin interfața browserului VS Code. Dacă ai acces la Codespaces, poți pur și simplu să dai click pe butonul **Code** din repository, să pornești un codespace și să începi să lucrezi imediat.
-* Utilizând **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) oferă resurse de calcul gratuite în cloud pentru a testa codul de pe GitHub. Există un buton pe pagina principală pentru a deschide repository-ul în Binder - acest lucru te va duce rapid pe site-ul Binder, care va construi containerul subiacente și va porni interfața web Jupyter pentru tine fără probleme.
+* Utilizând **[GitHub Codespaces](https://github.com/features/codespaces)**, care este un mediu virtual creat pentru dvs. pe GitHub, accesibil printr-o interfață VS Code în browser. Dacă aveți acces la Codespaces, puteți face pur și simplu clic pe butonul **Code** din repo, începeți un codespace și porniți rapid.
+* Utilizând **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) oferă resurse de calcul gratuite furnizate în cloud pentru persoane ca dvs. să testeze cod de pe GitHub. Există un buton pe pagina principală pentru a deschide depozitul în Binder – asta vă va duce rapid pe site-ul Binder, care va construi un container de bază și va porni o interfață web Jupyter pentru dvs. fără probleme.
 
-> **Note**: Pentru a preveni utilizarea abuzivă, Binder are accesul la unele resurse web blocat. Acest lucru poate împiedica funcționarea unor coduri care descarcă modele și/sau seturi de date de pe Internet. Este posibil să fie nevoie să găsești soluții alternative. De asemenea, resursele de calcul oferite de Binder sunt destul de limitate, așa că antrenarea va fi lentă, mai ales în lecțiile mai complexe.
+> **Notă**: Pentru a preveni utilizarea neadecvată, Binder are acces blocat la unele resurse web. Acest lucru poate împiedica funcționarea unor coduri care descarcă modele și/sau seturi de date de pe Internetul public. Va trebui să găsiți unele soluții alternative. În plus, resursele de calcul oferite de Binder sunt destul de simple, deci antrenamentul va fi lent, mai ales în lecțiile mai complexe ulterioare.
 
-## Rularea în cloud cu GPU
+## Rulare în Cloud cu GPU
 
-Unele dintre lecțiile mai avansate din acest curs ar beneficia foarte mult de suportul GPU, deoarece altfel antrenarea va fi extrem de lentă. Există câteva opțiuni pe care le poți urma, mai ales dacă ai acces la cloud fie prin [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), fie prin instituția ta:
+Unele dintre lecțiile ulterioare din acest curriculum ar beneficia foarte mult de suport GPU. Antrenarea modelului, de exemplu, poate fi dureros de lentă altfel. Există câteva opțiuni pe care le puteți urma, mai ales dacă aveți acces la cloud prin [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) sau prin instituția dvs.:
 
-* Creează o [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) și conectează-te la ea prin Jupyter. Poți clona repository-ul direct pe mașină și să începi să înveți. Mașinile virtuale din seria NC au suport pentru GPU.
+* Creați [Mașină Virtuală pentru Data Science](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) și conectați-vă la ea prin Jupyter. Puteți apoi să clonați repo direct pe mașină și să începeți să învățați. Mașinile virtuale din seria NC au suport GPU.
 
-> **Note**: Unele abonamente, inclusiv Azure for Students, nu oferă suport pentru GPU implicit. Este posibil să fie nevoie să soliciți resurse GPU suplimentare printr-o cerere de suport tehnic.
+> **Notă**: Unele abonamente, inclusiv Azure for Students, nu oferă suport GPU din start. Este posibil să trebuiască să solicitați nuclee GPU suplimentare printr-o cerere de asistență tehnică.
 
-* Creează un [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) și folosește funcția Notebook de acolo. [Acest video](https://azure-for-academics.github.io/quickstart/azureml-papers/) arată cum să clonezi un repository în notebook-ul Azure ML și să începi să-l folosești.
+* Creați [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) și apoi folosiți funcția Notebook acolo. [Acest video](https://azure-for-academics.github.io/quickstart/azureml-papers/) arată cum să clonați un depozit într-un notebook Azure ML și să începeți să îl folosiți.
 
-De asemenea, poți folosi Google Colab, care oferă suport gratuit pentru GPU, și să încarci Jupyter Notebooks acolo pentru a le executa pe rând.
+De asemenea, puteți folosi Google Colab, care vine cu suport GPU gratuit și puteți încărca acolo Jupyter Notebooks pentru a le executa unul câte unul.
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Declinarea responsabilității**:  
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). În timp ce ne străduim pentru acuratețe, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa nativă trebuie considerat sursa autorizată. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist. Nu ne asumăm nicio responsabilitate pentru eventualele neînțelegeri sau interpretări greșite rezultate din utilizarea acestei traduceri.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

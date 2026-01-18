@@ -15,7 +15,7 @@ Lab Work wey come from [AI for Beginners Curriculum](https://github.com/microsof
 
 Your work na to train RL agent wey go control [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) for OpenAI Environment.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/mountaincar.f7b7a7f6d4f9933b.pcm.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/pcm/mountaincar.f7b7a7f6d4f9933b.webp" width="300"/>
 
 ## Di Environment
 

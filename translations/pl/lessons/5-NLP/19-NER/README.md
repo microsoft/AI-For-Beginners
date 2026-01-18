@@ -56,7 +56,7 @@ noworodka | O
 
 Ponieważ musimy zbudować jednoznaczną korespondencję między tokenami a klasami, możemy wytrenować odpowiedni model sieci neuronowej **wielu-do-wielu** z tego obrazu:
 
-![Obraz przedstawiający typowe wzorce sieci neuronowych rekurencyjnych.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.pl.jpg)
+![Obraz przedstawiający typowe wzorce sieci neuronowych rekurencyjnych.](../../../../../translated_images/pl/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Obraz z [tego wpisu na blogu](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autorstwa [Andreja Karpathy'ego](http://karpathy.github.io/). Modele klasyfikacji tokenów NER odpowiadają architekturze sieci po prawej stronie tego obrazu.*
 

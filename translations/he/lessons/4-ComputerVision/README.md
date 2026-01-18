@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ראייה ממוחשבת
 
-![סיכום תוכן ראייה ממוחשבת באיור](../../../../translated_images/ai-computervision.6506ebebac3fbf76.he.png)
+![סיכום תוכן ראייה ממוחשבת באיור](../../../../translated_images/he/ai-computervision.6506ebebac3fbf76.webp)
 
 בפרק זה נלמד על:
 

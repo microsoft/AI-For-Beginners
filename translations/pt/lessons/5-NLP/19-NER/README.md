@@ -58,7 +58,7 @@ infant | O
 
 Como precisamos construir uma correspondência um-para-um entre tokens e classes, podemos treinar um modelo de rede neural **muitos-para-muitos** da seguinte forma:
 
-![Imagem mostrando padrões comuns de redes neuronais recorrentes.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.pt.jpg)
+![Imagem mostrando padrões comuns de redes neuronais recorrentes.](../../../../../translated_images/pt/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Imagem retirada [deste artigo](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) por [Andrej Karpathy](http://karpathy.github.io/). Os modelos de classificação de tokens NER correspondem à arquitetura de rede mais à direita nesta imagem.*
 

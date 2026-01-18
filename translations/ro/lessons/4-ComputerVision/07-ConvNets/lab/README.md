@@ -21,7 +21,7 @@ Trebuie să antrenezi o rețea neuronală convoluțională pentru a clasifica di
 
 Vom folosi [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), care conține imagini ale 37 de rase diferite de câini și pisici.
 
-![Dataset-ul cu care vom lucra](../../../../../../translated_images/data.50b2a9d5484bdbf0.ro.png)
+![Dataset-ul cu care vom lucra](../../../../../../translated_images/ro/data.50b2a9d5484bdbf0.webp)
 
 Pentru a descărca dataset-ul, folosește acest fragment de cod:
 

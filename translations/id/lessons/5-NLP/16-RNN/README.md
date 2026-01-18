@@ -15,7 +15,7 @@ Pada bagian sebelumnya, kita telah menggunakan representasi semantik yang kaya d
 
 Untuk menangkap makna dari urutan teks, kita perlu menggunakan arsitektur jaringan saraf lain yang disebut **jaringan saraf rekurens**, atau RNN. Dalam RNN, kita melewatkan kalimat kita melalui jaringan satu simbol pada satu waktu, dan jaringan menghasilkan beberapa **state**, yang kemudian kita lewati kembali ke jaringan bersama simbol berikutnya.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.id.png)
+![RNN](../../../../../translated_images/id/rnn.27f5c29c53d727b5.webp)
 
 > Gambar oleh penulis
 
@@ -61,7 +61,7 @@ Kita telah membahas jaringan rekurens yang beroperasi dalam satu arah, dari awal
 
 Jaringan rekurens, baik satu arah maupun bidirectional, menangkap pola tertentu dalam urutan, dan dapat menyimpannya ke dalam vektor state atau melewatkannya ke output. Seperti pada jaringan konvolusi, kita dapat membangun lapisan rekurens lain di atas yang pertama untuk menangkap pola tingkat tinggi dan membangun dari pola tingkat rendah yang diekstraksi oleh lapisan pertama. Ini membawa kita pada konsep **RNN multilayer** yang terdiri dari dua atau lebih jaringan rekurens, di mana output dari lapisan sebelumnya dilewatkan ke lapisan berikutnya sebagai input.
 
-![Gambar menunjukkan RNN LSTM multilayer](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.id.jpg)
+![Gambar menunjukkan RNN LSTM multilayer](../../../../../translated_images/id/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Gambar dari [postingan luar biasa ini](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) oleh Fernando López*
 

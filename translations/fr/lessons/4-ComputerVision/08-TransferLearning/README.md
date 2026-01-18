@@ -29,7 +29,7 @@ Keras et PyTorch proposent des fonctions permettant de charger facilement les po
 
 Voici des exemples de caractéristiques extraites d'une image de chat par le réseau VGG-16 :
 
-![Caractéristiques extraites par VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.fr.png)
+![Caractéristiques extraites par VGG-16](../../../../../translated_images/fr/features.6291f9c7ba3a0b95.webp)
 
 ## Ensemble de données "Chats vs. Chiens"
 
@@ -48,19 +48,19 @@ Un réseau neuronal pré-entraîné contient différents motifs dans son *cervea
 
 Une approche consiste à partir d'une image aléatoire et à utiliser une technique d'optimisation par **descente de gradient** pour ajuster cette image de manière à ce que le réseau commence à penser qu'il s'agit d'un chat.
 
-![Boucle d'optimisation d'image](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.fr.png)
+![Boucle d'optimisation d'image](../../../../../translated_images/fr/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Cependant, si nous faisons cela, nous obtiendrons quelque chose qui ressemble beaucoup à un bruit aléatoire. Cela s'explique par le fait qu'*il existe de nombreuses façons de faire croire au réseau que l'image d'entrée est un chat*, y compris certaines qui n'ont aucun sens visuel. Bien que ces images contiennent de nombreux motifs typiques d'un chat, rien ne les contraint à être visuellement distinctives.
 
 Pour améliorer le résultat, nous pouvons ajouter un autre terme à la fonction de perte, appelé **perte de variation**. Il s'agit d'une métrique qui montre à quel point les pixels voisins de l'image sont similaires. Minimiser la perte de variation rend l'image plus lisse et élimine le bruit, révélant ainsi des motifs plus visuellement attrayants. Voici un exemple de telles images "idéales", classées comme chat et comme zèbre avec une forte probabilité :
 
-![Chat idéal](../../../../../translated_images/ideal-cat.203dd4597643d6b0.fr.png) | ![Zèbre idéal](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.fr.png)
+![Chat idéal](../../../../../translated_images/fr/ideal-cat.203dd4597643d6b0.webp) | ![Zèbre idéal](../../../../../translated_images/fr/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Chat idéal* | *Zèbre idéal*
 
 Une approche similaire peut être utilisée pour effectuer des **attaques adversariales** sur un réseau neuronal. Supposons que nous souhaitons tromper un réseau neuronal et faire en sorte qu'un chien ressemble à un chat. Si nous prenons une image de chien, reconnue par le réseau comme un chien, nous pouvons la modifier légèrement en utilisant l'optimisation par descente de gradient, jusqu'à ce que le réseau commence à la classer comme un chat :
 
-![Image d'un chien](../../../../../translated_images/original-dog.8f68a67d2fe0911f.fr.png) | ![Image d'un chien classée comme un chat](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.fr.png)
+![Image d'un chien](../../../../../translated_images/fr/original-dog.8f68a67d2fe0911f.webp) | ![Image d'un chien classée comme un chat](../../../../../translated_images/fr/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Image originale d'un chien* | *Image d'un chien classée comme un chat*
 

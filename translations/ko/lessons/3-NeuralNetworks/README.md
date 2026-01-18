@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 신경망 소개
 
-![신경망 소개 내용 요약을 담은 그림](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.ko.png)
+![신경망 소개 내용 요약을 담은 그림](../../../../translated_images/ko/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 소개에서 논의했듯이, 지능을 구현하는 방법 중 하나는 **컴퓨터 모델** 또는 **인공 두뇌**를 훈련시키는 것입니다. 20세기 중반부터 연구자들은 다양한 수학적 모델을 시도했으며, 최근 몇 년간 이 방향이 큰 성공을 거두었습니다. 이러한 두뇌의 수학적 모델을 **신경망**이라고 합니다.
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 생물학적으로 우리의 뇌는 신경 세포(뉴런)로 구성되어 있으며, 각 뉴런은 여러 개의 "입력"(수상돌기)과 하나의 "출력"(축삭)을 가지고 있습니다. 수상돌기와 축삭은 모두 전기 신호를 전달할 수 있으며, 이들 간의 연결(시냅스)은 신경전달물질에 의해 전도도가 조절될 수 있습니다.
 
-![뉴런 모델](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.ko.jpg) | ![뉴런 모델](../../../../translated_images/artneuron.1a5daa88d20ebe6f.ko.png)
+![뉴런 모델](../../../../translated_images/ko/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![뉴런 모델](../../../../translated_images/ko/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 실제 뉴런 *([이미지](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) 출처: 위키피디아)* | 인공 뉴런 *(이미지 제공: 저자)*
 
 따라서 뉴런의 가장 간단한 수학적 모델은 여러 입력 X<sub>1</sub>, ..., X<sub>N</sub>과 출력 Y, 그리고 일련의 가중치 W<sub>1</sub>, ..., W<sub>N</sub>을 포함합니다. 출력은 다음과 같이 계산됩니다:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.ko.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/ko/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 여기서 f는 비선형 **활성화 함수**입니다.
 

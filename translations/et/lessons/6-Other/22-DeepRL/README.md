@@ -34,7 +34,7 @@ T천en채oliselt olete n채inud kaasaegseid tasakaalustusseadmeid, nagu *Segway* v�
 
 Lihtsustatud versioon tasakaalustamisest on tuntud kui **CartPole** probleem. CartPole maailmas on meil horisontaalne liugur, mis saab liikuda vasakule v천i paremale, ja eesm채rk on tasakaalustada vertikaalne post liuguri peal, kui see liigub.
 
-<img alt="cartpole" src="../../../../../translated_images/cartpole.f52a67f27e058170.et.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/et/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Selle keskkonna loomiseks ja kasutamiseks on vaja paar rida Python koodi:
 

@@ -58,7 +58,7 @@ Overfitting adalah konsep yang sangat penting dalam pembelajaran mesin, dan sang
 
 Pertimbangkan masalah berikut dalam mendekati 5 titik (diwakili oleh `x` pada grafik di bawah):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.id.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.id.jpg)
+![linear](../../../../../translated_images/id/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/id/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Model linear, 2 parameter** | **Model non-linear, 7 parameter**
 Error pelatihan = 5.3 | Error pelatihan = 0
@@ -79,7 +79,7 @@ Sangat penting untuk menemukan keseimbangan yang tepat antara kompleksitas model
 
 Seperti yang dapat Anda lihat dari grafik di atas, overfitting dapat dideteksi dengan error pelatihan yang sangat rendah, dan error validasi yang tinggi. Biasanya selama pelatihan kita akan melihat error pelatihan dan validasi mulai menurun, dan kemudian pada suatu titik error validasi mungkin berhenti menurun dan mulai meningkat. Ini akan menjadi tanda overfitting, dan indikator bahwa kita mungkin harus menghentikan pelatihan pada titik ini (atau setidaknya membuat snapshot model).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.id.png)
+![overfitting](../../../../../translated_images/id/Overfitting.408ad91cd90b4371.webp)
 
 ## Cara mencegah overfitting
 

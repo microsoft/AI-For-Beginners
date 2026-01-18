@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Įvadas į neuroninius tinklus
 
-![Santrauka apie neuroninių tinklų įvadą piešinyje](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.lt.png)
+![Santrauka apie neuroninių tinklų įvadą piešinyje](../../../../translated_images/lt/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Kaip aptarėme įvade, vienas iš būdų pasiekti intelektą yra treniruoti **kompiuterinį modelį** arba **dirbtinį smegenų modelį**. Nuo XX amžiaus vidurio mokslininkai bandė įvairius matematinius modelius, kol pastaraisiais metais šis metodas pasirodė itin sėkmingas. Tokie smegenų matematiniai modeliai vadinami **neuroniniais tinklais**.
 
@@ -36,13 +36,13 @@ Mes apsvarstysime dvi dažniausiai pasitaikančias mašininio mokymosi problemas
 
 Iš biologijos žinome, kad mūsų smegenys susideda iš neuroninių ląstelių (neuronų), kiekviena iš jų turi kelis "įėjimus" (dendritus) ir vieną "išėjimą" (aksoną). Tiek dendritai, tiek aksonai gali perduoti elektrinius signalus, o jungtys tarp jų — vadinamos sinapsėmis — gali turėti skirtingą laidumą, kurį reguliuoja neurotransmiteriai.
 
-![Neurono modelis](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.lt.jpg) | ![Neurono modelis](../../../../translated_images/artneuron.1a5daa88d20ebe6f.lt.png)
+![Neurono modelis](../../../../translated_images/lt/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Neurono modelis](../../../../translated_images/lt/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Tikras neuronas *([Vaizdas](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) iš Vikipedijos)* | Dirbtinis neuronas *(Vaizdas autoriaus)*
 
 Taigi, paprasčiausias matematinis neurono modelis turi kelis įėjimus X<sub>1</sub>, ..., X<sub>N</sub> ir vieną išėjimą Y, bei svorių seriją W<sub>1</sub>, ..., W<sub>N</sub>. Išėjimas apskaičiuojamas taip:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.lt.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/lt/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 kur f yra tam tikra nelinijinė **aktyvavimo funkcija**.
 

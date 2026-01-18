@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Natural Language Processing
 
-![Summary of NLP tasks in a doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.en.png)
+![Summary of NLP tasks in a doodle](../../../../translated_images/en/ai-nlp.b22dcb8ca4707ceaee8576db1c5f4089c8cac2f454e9e03ea554f07fda4556b8.png)
 
 In this section, we will explore how Neural Networks can be used to tackle tasks related to **Natural Language Processing (NLP)**. There are numerous NLP challenges we aim for computers to solve:
 

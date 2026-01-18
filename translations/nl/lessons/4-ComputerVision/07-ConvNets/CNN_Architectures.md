@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 VGG-16 is een netwerk dat in 2014 een nauwkeurigheid van 92,7% behaalde in de ImageNet top-5 classificatie. Het heeft de volgende laagstructuur:
 
-![ImageNet Lagen](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.nl.jpg)
+![ImageNet Lagen](../../../../../translated_images/nl/vgg-16-arch1.d901a5583b3a51ba.webp)
 
 Zoals je kunt zien, volgt VGG een traditionele piramide-architectuur, wat een opeenvolging is van convolutie- en poolinglagen.
 
-![ImageNet Piramide](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.nl.jpg)
+![ImageNet Piramide](../../../../../translated_images/nl/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Afbeelding van [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

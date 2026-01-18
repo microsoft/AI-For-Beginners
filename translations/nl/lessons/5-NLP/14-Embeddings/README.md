@@ -19,7 +19,7 @@ De embeddinglaag neemt een woord als invoer en produceert een uitvoervector met 
 
 Door een embeddinglaag als eerste laag in ons classifier-netwerk te gebruiken, kunnen we overschakelen van een bag-of-words naar een **embedding bag** model, waarbij we eerst elk woord in onze tekst omzetten in de bijbehorende embedding, en vervolgens een aggregatiefunctie berekenen over al deze embeddings, zoals `sum`, `average` of `max`.
 
-![Afbeelding die een embedding classifier toont voor vijf woorden in een reeks.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.nl.png)
+![Afbeelding die een embedding classifier toont voor vijf woorden in een reeks.](../../../../../translated_images/nl/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Afbeelding door de auteur
 
@@ -40,7 +40,7 @@ Om dit te bereiken, moeten we ons embeddingmodel op een grote tekstcollectie op 
 
 CBoW is sneller, terwijl skip-gram langzamer is, maar beter presteert bij het representeren van zeldzame woorden.
 
-![Afbeelding die zowel de CBoW- als Skip-Gram-algoritmen toont om woorden naar vectoren te converteren.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.nl.png)
+![Afbeelding die zowel de CBoW- als Skip-Gram-algoritmen toont om woorden naar vectoren te converteren.](../../../../../translated_images/nl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Afbeelding uit [dit artikel](https://arxiv.org/pdf/1301.3781.pdf)
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducción a las Redes Neuronales
 
-![Resumen del contenido de Introducción a Redes Neuronales en un dibujo](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.es.png)
+![Resumen del contenido de Introducción a Redes Neuronales en un dibujo](../../../../translated_images/es/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Como discutimos en la introducción, una de las formas de lograr inteligencia es entrenar un **modelo computacional** o un **cerebro artificial**. Desde mediados del siglo XX, los investigadores han probado diferentes modelos matemáticos, hasta que en los últimos años esta dirección demostró ser enormemente exitosa. Estos modelos matemáticos del cerebro se llaman **redes neuronales**.
 
@@ -36,13 +36,13 @@ En este plan de estudios, nos centraremos únicamente en modelos de redes neuron
 
 De la biología, sabemos que nuestro cerebro está compuesto por células neuronales (neuronas), cada una de las cuales tiene múltiples "entradas" (dendritas) y una única "salida" (axón). Tanto las dendritas como los axones pueden conducir señales eléctricas, y las conexiones entre ellos — conocidas como sinapsis — pueden mostrar diferentes grados de conductividad, que son regulados por neurotransmisores.
 
-![Modelo de una Neurona](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.es.jpg) | ![Modelo de una Neurona](../../../../translated_images/artneuron.1a5daa88d20ebe6f.es.png)
+![Modelo de una Neurona](../../../../translated_images/es/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Modelo de una Neurona](../../../../translated_images/es/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Neurona Real *([Imagen](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) de Wikipedia)* | Neurona Artificial *(Imagen del Autor)*
 
 Por lo tanto, el modelo matemático más simple de una neurona contiene varias entradas X<sub>1</sub>, ..., X<sub>N</sub> y una salida Y, junto con una serie de pesos W<sub>1</sub>, ..., W<sub>N</sub>. La salida se calcula como:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.es.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/es/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 donde f es alguna **función de activación** no lineal.
 

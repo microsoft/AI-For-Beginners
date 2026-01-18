@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 باستخدام طبقة التضمين كطبقة أولى في شبكة المصنف الخاصة بنا، يمكننا الانتقال من نموذج حقيبة الكلمات إلى نموذج **حقيبة التضمينات**، حيث نقوم أولاً بتحويل كل كلمة في النص إلى التضمين المقابل لها، ثم نحسب دالة تجميعية على جميع هذه التضمينات، مثل `sum` أو `average` أو `max`.
 
-![صورة توضح مصنف التضمين لخمس كلمات في تسلسل.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.ar.png)
+![صورة توضح مصنف التضمين لخمس كلمات في تسلسل.](../../../../../translated_images/ar/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > الصورة بواسطة المؤلف
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW أسرع، بينما التخطي المستمر أبطأ ولكنه يقوم بتمثيل الكلمات النادرة بشكل أفضل.
 
-![صورة توضح كلا من خوارزميات CBoW و Skip-Gram لتحويل الكلمات إلى متجهات.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.ar.png)
+![صورة توضح كلا من خوارزميات CBoW و Skip-Gram لتحويل الكلمات إلى متجهات.](../../../../../translated_images/ar/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > الصورة من [هذه الورقة](https://arxiv.org/pdf/1301.3781.pdf)
 

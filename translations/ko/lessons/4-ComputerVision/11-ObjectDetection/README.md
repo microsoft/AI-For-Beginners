@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![객체 탐지](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.ko.png)
+![객체 탐지](../../../../../translated_images/ko/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > 이미지 출처: [YOLO v2 웹사이트](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. 각 타일에 대해 이미지 분류를 실행합니다.
 3. 충분히 높은 활성화를 보이는 타일은 해당 객체를 포함하고 있다고 간주합니다.
 
-![단순 객체 탐지](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.ko.png)
+![단순 객체 탐지](../../../../../translated_images/ko/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *이미지 출처: [실습 노트북](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20개의 클래스
 * [COCO](http://cocodataset.org/#home) - 컨텍스트 내 일반 객체. 80개의 클래스, 경계 상자 및 세분화 마스크 제공
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.ko.jpg)
+![COCO](../../../../../translated_images/ko/coco-examples.71bc60380fa6cceb.webp)
 
 ## 객체 탐지 평가 지표
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이미지 분류에서는 알고리즘의 성능을 측정하기 쉽지만, 객체 탐지에서는 클래스의 정확성과 예측된 경계 상자 위치의 정밀도를 모두 측정해야 합니다. 후자를 위해 **교집합 비율**(IoU)을 사용합니다. 이는 두 상자(또는 임의의 두 영역)가 얼마나 잘 겹치는지를 측정합니다.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.ko.png)
+![IoU](../../../../../translated_images/ko/iou_equation.9a4751d40fff4e11.webp)
 
 > *출처: [이 훌륭한 IoU 블로그 글](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -97,11 +97,11 @@ IoU가 특정 값 이상인 탐지만 고려합니다. 예를 들어, PASCAL VOC
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf)은 [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)를 사용하여 ROI 영역의 계층 구조를 생성합니다. 그런 다음 이를 CNN 특징 추출기와 SVM 분류기를 통해 객체 클래스를 결정하고, 선형 회귀를 통해 *경계 상자* 좌표를 결정합니다. [공식 논문](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.ko.png)
+![RCNN](../../../../../translated_images/ko/rcnn1.cae407020dfb1d1f.webp)
 
 > *이미지 출처: van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.ko.png)
+![RCNN-1](../../../../../translated_images/ko/rcnn2.2d9530bb83516484.webp)
 
 > *이미지 출처: [이 블로그](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -109,7 +109,7 @@ IoU가 특정 값 이상인 탐지만 고려합니다. 예를 들어, PASCAL VOC
 
 이 접근법은 R-CNN과 유사하지만, 영역이 합성곱 계층이 적용된 후에 정의됩니다.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.ko.png)
+![FRCNN](../../../../../translated_images/ko/f-rcnn.3cda6d9bb4188875.webp)
 
 > 이미지 출처: [공식 논문](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -117,7 +117,7 @@ IoU가 특정 값 이상인 탐지만 고려합니다. 예를 들어, PASCAL VOC
 
 이 접근법의 주요 아이디어는 ROI를 예측하기 위해 신경망을 사용하는 것입니다. 이를 *영역 제안 네트워크*라고 합니다. [논문](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.ko.png)
+![FasterRCNN](../../../../../translated_images/ko/faster-rcnn.8d46c099b87ef30a.webp)
 
 > 이미지 출처: [공식 논문](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -129,7 +129,7 @@ IoU가 특정 값 이상인 탐지만 고려합니다. 예를 들어, PASCAL VOC
 2. 특징은 **위치 민감 점수 맵**으로 처리됩니다. $C$ 클래스의 각 객체는 $k\times k$ 영역으로 나뉘며, 객체의 부분을 예측하도록 학습합니다.
 3. $k\times k$ 영역의 각 부분에 대해 모든 네트워크가 객체 클래스를 투표하며, 최대 투표를 받은 객체 클래스가 선택됩니다.
 
-![r-fcn 이미지](../../../../../translated_images/r-fcn.13eb88158b99a3da.ko.png)
+![r-fcn 이미지](../../../../../translated_images/ko/r-fcn.13eb88158b99a3da.webp)
 
 > 이미지 출처: [공식 논문](https://arxiv.org/abs/1605.06409)
 
@@ -140,7 +140,7 @@ YOLO는 실시간 한 번 처리 알고리즘입니다. 주요 아이디어는 �
  * 이미지를 $S\times S$ 영역으로 나눕니다.
  * 각 영역에 대해 **CNN**이 $n$개의 가능한 객체, *경계 상자* 좌표 및 *신뢰도*=*확률* * IoU를 예측합니다.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.ko.png)
+ ![YOLO](../../../../../translated_images/ko/yolo.a2648ec82ee8bb4e.webp)
 
 > 이미지 출처: [공식 논문](https://arxiv.org/abs/1506.02640)
 

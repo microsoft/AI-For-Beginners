@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Elaborazione del Linguaggio Naturale
 
-![Riepilogo dei compiti NLP in uno schizzo](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.it.png)
+![Riepilogo dei compiti NLP in uno schizzo](../../../../translated_images/it/ai-nlp.b22dcb8ca4707cea.webp)
 
 In questa sezione ci concentreremo sull'utilizzo delle reti neurali per gestire compiti legati all'**Elaborazione del Linguaggio Naturale (NLP)**. Ci sono molti problemi di NLP che vogliamo che i computer siano in grado di risolvere:
 

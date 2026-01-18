@@ -70,7 +70,7 @@ NetLogo को एक उत्कृष्ट पक्ष यो हो कि
 
 मोडेल खोलिसकेपछि, तपाईंलाई मुख्य NetLogo स्क्रिनमा लगिन्छ। यहाँ सीमित स्रोतहरू (घाँस) दिइएको भेडा र ब्वाँसोको जनसंख्यालाई वर्णन गर्ने नमूना मोडेल छ।
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.ne.png)
+![NetLogo Main Screen](../../../../../translated_images/ne/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Dmitry Soshnikov द्वारा स्क्रिनशट
 

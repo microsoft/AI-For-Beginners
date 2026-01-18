@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Számítógépes látás
 
-![A számítógépes látás tartalmának összefoglalása egy rajzban](../../../../translated_images/ai-computervision.6506ebebac3fbf76.hu.png)
+![A számítógépes látás tartalmának összefoglalása egy rajzban](../../../../translated_images/hu/ai-computervision.6506ebebac3fbf76.webp)
 
 Ebben a részben megtanuljuk:
 

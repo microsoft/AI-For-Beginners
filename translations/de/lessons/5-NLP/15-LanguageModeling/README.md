@@ -23,7 +23,7 @@ In unseren vorherigen Beispielen haben wir vortrainierte semantische Einbettunge
 * **Continuous Bag-of-Words** (CBoW), bei der wir das mittlere Token $W_0$ in einer Token-Sequenz $W_{-N}$, ..., $W_N$ vorhersagen.
 * **Skip-Gramm**, bei dem wir eine Menge benachbarter Tokens {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} aus dem mittleren Token $W_0$ vorhersagen.
 
-![Bild aus einer Arbeit über die Umwandlung von Wörtern in Vektoren](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.de.png)
+![Bild aus einer Arbeit über die Umwandlung von Wörtern in Vektoren](../../../../../translated_images/de/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Bild aus [dieser Arbeit](https://arxiv.org/pdf/1301.3781.pdf)
 

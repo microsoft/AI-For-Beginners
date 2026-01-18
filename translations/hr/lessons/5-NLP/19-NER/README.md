@@ -56,7 +56,7 @@ novorođenčeta | O
 
 Budući da trebamo izgraditi jedno-na-jedno korespondenciju između tokena i klasa, možemo trenirati desno **mnogostruko-na-mnogostruko** neuronski mrežni model iz ove slike:
 
-![Slika koja prikazuje uobičajene obrasce rekurentnih neuronskih mreža.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hr.jpg)
+![Slika koja prikazuje uobičajene obrasce rekurentnih neuronskih mreža.](../../../../../translated_images/hr/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Slika iz [ovog blog posta](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) autora [Andreja Karpathyja](http://karpathy.github.io/). NER modeli za klasifikaciju tokena odgovaraju desno najudaljenijoj arhitekturi mreže na ovoj slici.*
 

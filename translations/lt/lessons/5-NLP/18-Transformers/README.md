@@ -20,13 +20,13 @@ Naudojant RNN, sekos į seką užduotis įgyvendinama naudojant du rekursinius t
 
 **Dėmesio mechanizmai** suteikia galimybę įvertinti kiekvieno įvesties vektoriaus kontekstinį poveikį kiekvienai RNN išvesties prognozei. Tai įgyvendinama sukuriant trumpesnius ryšius tarp įvesties RNN tarpinių būsenų ir išvesties RNN. Tokiu būdu, generuojant išvesties simbolį y<sub>t</sub>, atsižvelgiama į visas įvesties paslėptas būsenas h<sub>i</sub>, su skirtingais svorio koeficientais &alpha;<sub>t,i</sub>.
 
-![Vaizdas, rodantis koduotojo/dekoduotojo modelį su papildomu dėmesio sluoksniu](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.lt.png)
+![Vaizdas, rodantis koduotojo/dekoduotojo modelį su papildomu dėmesio sluoksniu](../../../../../translated_images/lt/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Koduotojo-dekoduotojo modelis su papildomu dėmesio mechanizmu [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), cituota iš [šio tinklaraščio įrašo](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Dėmesio matrica {&alpha;<sub>i,j</sub>} atspindėtų, kokiu mastu tam tikri įvesties žodžiai dalyvauja generuojant tam tikrą žodį išvesties sekoje. Žemiau pateiktas tokios matricos pavyzdys:
 
-![Vaizdas, rodantis pavyzdinį suderinimą, rastą RNNsearch-50, paimta iš Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.lt.png)
+![Vaizdas, rodantis pavyzdinį suderinimą, rastą RNNsearch-50, paimta iš Bahdanau - arviz.org](../../../../../translated_images/lt/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Paveikslas iš [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Rezultatas, kurį gauname su poziciniu įterpimu, įterpia tiek originalų žeto
 
 Toliau mums reikia užfiksuoti tam tikrus modelius mūsų sekoje. Tam transformatoriai naudoja **savidėmesio** mechanizmą, kuris iš esmės yra dėmesys, taikomas tai pačiai sekai kaip įvestis ir išvestis. Taikant savidėmesį, galime atsižvelgti į **kontekstą** sakinyje ir pamatyti, kurie žodžiai yra tarpusavyje susiję. Pavyzdžiui, tai leidžia pamatyti, į ką nurodo koreferencijos, tokios kaip *tai*, ir taip pat atsižvelgti į kontekstą:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.lt.png)
+![](../../../../../translated_images/lt/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Vaizdas iš [Google tinklaraščio](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Kadangi kiekviena įvesties pozicija yra nepriklausomai susieta su kiekviena iš
 
 **BERT** (Bidirectional Encoder Representations from Transformers) yra labai didelis daugiasluoksnis transformatorių tinklas su 12 sluoksnių *BERT-base* ir 24 sluoksniais *BERT-large*. Modelis pirmiausia iš anksto apmokomas naudojant didelį tekstų korpusą (WikiPedia + knygos) taikant nesupervizuotą mokymą (prognozuojant užmaskuotus žodžius sakinyje). Per išankstinį mokymą modelis įgyja reikšmingą kalbos supratimą, kurį vėliau galima panaudoti su kitais duomenų rinkiniais taikant smulkų derinimą. Šis procesas vadinamas **perkėlimo mokymu**.
 
-![paveikslas iš http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.lt.png)
+![paveikslas iš http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/lt/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Vaizdo [šaltinis](http://jalammar.github.io/illustrated-bert/)
 

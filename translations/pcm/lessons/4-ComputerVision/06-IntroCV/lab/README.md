@@ -15,7 +15,7 @@ Lab Assignment from [AI for Beginners Curriculum](https://aka.ms/ai-beginners).
 
 Check [dis video](../../../../../../lessons/4-ComputerVision/06-IntroCV/lab/palm-movement.mp4), wey person palm dey move go left/right/up/down for stable background.
 
-<img src="../../../../../../translated_images/palm-movement.341495f0e9c47da3.pcm.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../../translated_images/pcm/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 **Your goal** na to use Optical Flow take know which part of di video get up/down/left/right movements.
 

@@ -58,7 +58,7 @@ infant | O
 
 Vì chúng ta cần xây dựng một sự tương ứng một-một giữa các token và các lớp, chúng ta có thể huấn luyện một mô hình mạng nơ-ron **nhiều-đến-nhiều** từ hình ảnh này:
 
-![Hình ảnh hiển thị các mẫu mạng nơ-ron hồi quy phổ biến.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.vi.jpg)
+![Hình ảnh hiển thị các mẫu mạng nơ-ron hồi quy phổ biến.](../../../../../translated_images/vi/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Hình ảnh từ [bài viết blog này](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) của [Andrej Karpathy](http://karpathy.github.io/). Các mô hình phân loại token NER tương ứng với kiến trúc mạng ở phía bên phải của hình ảnh này.*
 

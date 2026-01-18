@@ -23,7 +23,7 @@ V prejšnjih primerih smo uporabljali že vnaprej naučene semantične vektorske
 * **Neprekinjena vreča besed** (CBoW), kjer napovedujemo srednji token $W_0$ v zaporedju tokenov $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, kjer napovedujemo niz sosednjih tokenov {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} iz srednjega tokena $W_0$.
 
-![slika iz članka o pretvorbi besed v vektorje](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.sl.png)
+![slika iz članka o pretvorbi besed v vektorje](../../../../../translated_images/sl/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Slika iz [tega članka](https://arxiv.org/pdf/1301.3781.pdf)
 

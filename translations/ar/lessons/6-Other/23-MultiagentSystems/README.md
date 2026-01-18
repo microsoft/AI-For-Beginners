@@ -70,7 +70,7 @@ ask turtles [
 
 بعد فتح النموذج، يتم نقلك إلى الشاشة الرئيسية لـ NetLogo. هنا نموذج يصف سكان الذئاب والخراف، مع موارد محدودة (العشب).
 
-![الشاشة الرئيسية لـ NetLogo](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.ar.png)
+![الشاشة الرئيسية لـ NetLogo](../../../../../translated_images/ar/NetLogo-Main.32653711ec1a01b3.webp)
 
 > لقطة شاشة بواسطة Dmitry Soshnikov
 

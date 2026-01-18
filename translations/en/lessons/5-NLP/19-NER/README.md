@@ -58,7 +58,7 @@ infant | O
 
 To establish a one-to-one correspondence between tokens and classes, we can train a **many-to-many** neural network model, as shown in the following diagram:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.en.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/en/unreasonable-effectiveness-of-rnn.541ead816778f42dce6c42d8a56c184729aa2378d059b851be4ce12b993033df.jpg)
 
 > *Image from [this blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpathy](http://karpathy.github.io/). NER token classification models correspond to the right-most network architecture in this diagram.*
 

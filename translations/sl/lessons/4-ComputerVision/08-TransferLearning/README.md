@@ -29,7 +29,7 @@ Tako Keras kot PyTorch vsebujeta funkcije za enostavno nalaganje vnaprej naučen
 
 Tukaj so primeri značilnosti, izvlečenih iz slike mačke z mrežo VGG-16:
 
-![Značilnosti, izvlečene z VGG-16](../../../../../translated_images/features.6291f9c7ba3a0b95.sl.png)
+![Značilnosti, izvlečene z VGG-16](../../../../../translated_images/sl/features.6291f9c7ba3a0b95.webp)
 
 ## Nabor podatkov Mačke proti psom
 
@@ -48,19 +48,19 @@ Vnaprej naučena nevronska mreža vsebuje različne vzorce v svojem *možganu*, 
 
 Eden od pristopov, ki ga lahko uporabimo, je začeti z naključno sliko in nato poskusiti uporabiti tehniko **optimizacije z gradientnim spustom**, da prilagodimo to sliko tako, da mreža začne misliti, da je to mačka.
 
-![Zanka optimizacije slike](../../../../../translated_images/ideal-cat-loop.999fbb8ff306e044.sl.png)
+![Zanka optimizacije slike](../../../../../translated_images/sl/ideal-cat-loop.999fbb8ff306e044.webp)
 
 Če to storimo, bomo dobili nekaj, kar je zelo podobno naključnemu šumu. To je zato, ker *obstaja veliko načinov, kako mreži narediti vtis, da je vhodna slika mačka*, vključno z nekaterimi, ki vizualno nimajo smisla. Čeprav te slike vsebujejo veliko vzorcev, značilnih za mačko, ni ničesar, kar bi jih omejevalo, da bi bile vizualno prepoznavne.
 
 Za izboljšanje rezultata lahko v funkcijo izgube dodamo še en člen, imenovan **izguba variacije**. To je metrika, ki kaže, kako podobni so sosednji piksli slike. Zmanjšanje izgube variacije naredi sliko bolj gladko in odstrani šum – s tem razkrije bolj vizualno privlačne vzorce. Tukaj je primer takšnih "idealnih" slik, ki so z visoko verjetnostjo razvrščene kot mačka in zebra:
 
-![Idealna mačka](../../../../../translated_images/ideal-cat.203dd4597643d6b0.sl.png) | ![Idealna zebra](../../../../../translated_images/ideal-zebra.7f70e8b54ee15a7a.sl.png)
+![Idealna mačka](../../../../../translated_images/sl/ideal-cat.203dd4597643d6b0.webp) | ![Idealna zebra](../../../../../translated_images/sl/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Idealna mačka* | *Idealna zebra*
 
 Podoben pristop lahko uporabimo za izvajanje tako imenovanih **adversarnih napadov** na nevronsko mrežo. Recimo, da želimo zavajati nevronsko mrežo in narediti, da pes izgleda kot mačka. Če vzamemo sliko psa, ki jo mreža prepozna kot psa, jo lahko nato nekoliko prilagodimo z optimizacijo gradientnega spusta, dokler mreža ne začne razvrščati slike kot mačko:
 
-![Slika psa](../../../../../translated_images/original-dog.8f68a67d2fe0911f.sl.png) | ![Slika psa, razvrščena kot mačka](../../../../../translated_images/adversarial-dog.d9fc7773b0142b89.sl.png)
+![Slika psa](../../../../../translated_images/sl/original-dog.8f68a67d2fe0911f.webp) | ![Slika psa, razvrščena kot mačka](../../../../../translated_images/sl/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Izvirna slika psa* | *Slika psa, razvrščena kot mačka*
 

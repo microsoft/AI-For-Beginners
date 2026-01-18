@@ -58,7 +58,7 @@ infant | O
 
 เนื่องจากเราต้องสร้างความสัมพันธ์แบบหนึ่งต่อหนึ่งระหว่างโทเค็นและคลาส เราสามารถฝึกโมเดลเครือข่ายประสาทเทียมแบบ **many-to-many** ที่เหมาะสมจากภาพนี้:
 
-![ภาพแสดงรูปแบบเครือข่ายประสาทเทียมแบบ recurrent ทั่วไป](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.th.jpg)
+![ภาพแสดงรูปแบบเครือข่ายประสาทเทียมแบบ recurrent ทั่วไป](../../../../../translated_images/th/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *ภาพจาก [บล็อกโพสต์นี้](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) โดย [Andrej Karpathy](http://karpathy.github.io/) โมเดลการจัดประเภทโทเค็น NER สอดคล้องกับสถาปัตยกรรมเครือข่ายที่อยู่ทางขวาสุดในภาพนี้*
 

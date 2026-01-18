@@ -70,7 +70,7 @@ ask turtles [
 
 После открытия модели вы попадете на главный экран NetLogo. Вот пример модели, описывающей популяцию волков и овец при ограниченных ресурсах (трава).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.ru.png)
+![NetLogo Main Screen](../../../../../translated_images/ru/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Скриншот от Дмитрия Сошникова
 

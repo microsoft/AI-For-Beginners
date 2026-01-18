@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **Механізми уваги** забезпечують спосіб зважування контекстуального впливу кожного вхідного вектора на кожне передбачення виходу RNN. Це реалізується шляхом створення "коротких шляхів" між проміжними станами вхідної RNN та вихідної RNN. Таким чином, при генерації вихідного символу y<sub>t</sub>, ми враховуємо всі приховані стани h<sub>i</sub> вхідної мережі з різними коефіцієнтами ваги &alpha;<sub>t,i</sub>.
 
-![Зображення моделі кодер/декодер з додатковим шаром уваги](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.uk.png)
+![Зображення моделі кодер/декодер з додатковим шаром уваги](../../../../../translated_images/uk/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Модель кодер-декодер з механізмом додаткової уваги у [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), цитовано з [цього блогу](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Матриця уваги {&alpha;<sub>i,j</sub>} представляє ступінь, до якого певні слова у вході впливають на генерацію конкретного слова у вихідній послідовності. Нижче наведено приклад такої матриці:
 
-![Зображення прикладу вирівнювання, знайденого RNNsearch-50, взято з Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.uk.png)
+![Зображення прикладу вирівнювання, знайденого RNNsearch-50, взято з Bahdanau - arviz.org](../../../../../translated_images/uk/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Рисунок з [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Рис.3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Далі нам потрібно захопити певні шаблони в нашій послідовності. Для цього трансформери використовують механізм **самоуваги**, який, по суті, є увагою, застосованою до тієї ж послідовності як до входу, так і до виходу. Застосування самоуваги дозволяє враховувати **контекст** у реченні та бачити, які слова взаємопов'язані. Наприклад, це дозволяє бачити, до яких слів відносяться кореференції, такі як *це*, а також враховувати контекст:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.uk.png)
+![](../../../../../translated_images/uk/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Зображення з [блогу Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **BERT** (Bidirectional Encoder Representations from Transformers) — це дуже велика багатошарова трансформерна мережа з 12 шарами для *BERT-base* і 24 для *BERT-large*. Модель спочатку проходить попереднє навчання на великому корпусі текстових даних (WikiPedia + книги) за допомогою ненаглядуваного навчання (передбачення замаскованих слів у реченні). Під час попереднього навчання модель засвоює значний рівень розуміння мови, який потім можна використовувати з іншими наборами даних за допомогою тонкого налаштування. Цей процес називається **трансферним навчанням**.
 
-![зображення з http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.uk.png)
+![зображення з http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/uk/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Зображення [джерело](http://jalammar.github.io/illustrated-bert/)
 

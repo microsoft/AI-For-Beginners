@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 OpenAI പരിസ്ഥിതിയിൽ [Mountain Car](https://www.gymlibrary.ml/environments/classic_control/mountain_car/) നിയന്ത്രിക്കാൻ RL ഏജന്റിനെ പരിശീലിപ്പിക്കുക.
 
-<img alt="Mountain Car" src="../../../../../../translated_images/mountaincar.f7b7a7f6d4f9933b.ml.png" width="300"/>
+<img alt="Mountain Car" src="../../../../../../translated_images/ml/mountaincar.f7b7a7f6d4f9933b.webp" width="300"/>
 
 ## പരിസ്ഥിതി
 

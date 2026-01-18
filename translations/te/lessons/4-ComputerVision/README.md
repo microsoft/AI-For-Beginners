@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # కంప్యూటర్ విజన్
 
-![డూడిల్‌లో కంప్యూటర్ విజన్ విషయాల సారాంశం](../../../../translated_images/ai-computervision.6506ebebac3fbf76.te.png)
+![డూడిల్‌లో కంప్యూటర్ విజన్ విషయాల సారాంశం](../../../../translated_images/te/ai-computervision.6506ebebac3fbf76.webp)
 
 ఈ విభాగంలో మనం నేర్చుకోబోతున్నవి:
 

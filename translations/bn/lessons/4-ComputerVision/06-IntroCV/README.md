@@ -73,14 +73,14 @@ OpenCV ব্যবহার করে ভিডিও ফ্রেম-বাই
 
 * **ব্রেইল বইয়ের একটি ছবির প্রি-প্রসেসিং**। আমরা দেখিয়েছি কীভাবে থ্রেশহোল্ডিং, ফিচার ডিটেকশন, পার্সপেক্টিভ ট্রান্সফরমেশন এবং NumPy ম্যানিপুলেশন ব্যবহার করে ব্রেইল প্রতীকগুলোকে আলাদা করা যায়, যা পরে নিউরাল নেটওয়ার্ক দ্বারা শ্রেণীবদ্ধ করা হবে।
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.bn.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.bn.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.bn.png)
+![Braille Image](../../../../../translated_images/bn/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/bn/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/bn/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > ছবি [OpenCV.ipynb](OpenCV.ipynb) থেকে
 
 * **ভিডিওতে ফ্রেম ডিফারেন্স ব্যবহার করে গতিবিধি সনাক্তকরণ**। যদি ক্যামেরা স্থির থাকে, তাহলে ক্যামেরা ফিডের ফ্রেমগুলো একে অপরের সাথে বেশ মিল থাকবে। যেহেতু ফ্রেমগুলো অ্যারে হিসেবে উপস্থাপিত হয়, দুটি পরবর্তী ফ্রেমের জন্য সেই অ্যারেগুলোকে বিয়োগ করলেই আমরা পিক্সেল পার্থক্য পাব, যা স্থির ফ্রেমের জন্য কম হবে এবং ছবিতে উল্লেখযোগ্য গতিবিধি থাকলে বেশি হবে।
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.bn.png)
+![Image of video frames and frame differences](../../../../../translated_images/bn/frame-difference.706f805491a0883c.webp)
 
 > ছবি [OpenCV.ipynb](OpenCV.ipynb) থেকে
 
@@ -89,7 +89,7 @@ OpenCV ব্যবহার করে ভিডিও ফ্রেম-বাই
    - **ডেন্স অপটিক্যাল ফ্লো** প্রতিটি পিক্সেলের জন্য একটি ভেক্টর ক্ষেত্র গণনা করে যা দেখায় এটি কোথায় স্থানান্তরিত হচ্ছে।
    - **স্পার্স অপটিক্যাল ফ্লো** ছবিতে কিছু বৈশিষ্ট্যপূর্ণ বৈশিষ্ট্য (যেমন: প্রান্ত) গ্রহণ করে এবং ফ্রেম থেকে ফ্রেমে তাদের গতিপথ তৈরি করে।
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.bn.png)
+![Image of Optical Flow](../../../../../translated_images/bn/optical.1f4a94464579a83a.webp)
 
 > ছবি [OpenCV.ipynb](OpenCV.ipynb) থেকে
 

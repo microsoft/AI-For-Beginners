@@ -17,7 +17,7 @@ Gerçek hayatta, bir görüntüdeki nesneleri tam olarak nerede olduklarına bak
 
 Desenleri çıkarmak için **evrişimsel filtreler** kavramını kullanacağız. Bildiğiniz gibi, bir görüntü 2D bir matris veya renk derinliği olan bir 3D tensör olarak temsil edilir. Bir filtre uygulamak, nispeten küçük bir **filtre çekirdeği** matrisini alıp, orijinal görüntüdeki her bir piksel için komşu noktalarla ağırlıklı ortalamayı hesaplamak anlamına gelir. Bunu, filtre çekirdeği matrisindeki ağırlıklara göre tüm pikselleri ortalayan küçük bir pencerenin tüm görüntü üzerinde kayması gibi düşünebiliriz.
 
-![Dikey Kenar Filtresi](../../../../../translated_images/filter-vert.b7148390ca0bc356.tr.png) | ![Yatay Kenar Filtresi](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.tr.png)
+![Dikey Kenar Filtresi](../../../../../translated_images/tr/filter-vert.b7148390ca0bc356.webp) | ![Yatay Kenar Filtresi](../../../../../translated_images/tr/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > Görsel: Dmitry Soshnikov
@@ -38,7 +38,7 @@ CNN'lerin çalışma şekli şu önemli fikirlere dayanır:
 * Ağı, filtrelerin otomatik olarak eğitileceği şekilde tasarlayabiliriz.
 * Aynı yaklaşımı yalnızca orijinal görüntüde değil, yüksek seviyeli özelliklerdeki desenleri bulmak için de kullanabiliriz. Böylece, CNN özellik çıkarımı, düşük seviyeli piksel kombinasyonlarından başlayarak, görüntü parçalarının daha yüksek seviyeli kombinasyonlarına kadar bir özellik hiyerarşisi üzerinde çalışır.
 
-![Hiyerarşik Özellik Çıkarımı](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.tr.png)
+![Hiyerarşik Özellik Çıkarımı](../../../../../translated_images/tr/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > Görsel: [Hislop-Lynch'in bir makalesinden](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), [araştırmalarına dayanarak](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ Görüntü işleme için kullanılan çoğu CNN, sözde piramit mimarisini takip
 
 Örneğin, 2014 yılında ImageNet'in ilk 5 sınıflandırmasında %92.7 doğruluk elde eden VGG-16 ağının mimarisine bakalım:
 
-![ImageNet Katmanları](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.tr.jpg)
+![ImageNet Katmanları](../../../../../translated_images/tr/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet Piramidi](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.tr.jpg)
+![ImageNet Piramidi](../../../../../translated_images/tr/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > Görsel: [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

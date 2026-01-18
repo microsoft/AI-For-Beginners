@@ -57,7 +57,7 @@ barn | O
 
 Eftersom vi behöver bygga en en-till-en-korrespondens mellan tokens och klasser, kan vi träna en högerställd **många-till-många** neural nätverksmodell från denna bild:
 
-![Bild som visar vanliga återkommande neurala nätverksmönster.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.sv.jpg)
+![Bild som visar vanliga återkommande neurala nätverksmönster.](../../../../../translated_images/sv/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *Bild från [denna bloggpost](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) av [Andrej Karpathy](http://karpathy.github.io/). NER tokenklassificeringsmodeller motsvarar den högra nätverksarkitekturen på denna bild.*
 

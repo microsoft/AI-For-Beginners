@@ -58,7 +58,7 @@ Nadmierne dopasowanie to niezwykle ważne pojęcie w uczeniu maszynowym i bardzo
 
 Rozważmy następujący problem aproksymacji 5 punktów (reprezentowanych przez `x` na poniższych wykresach):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.pl.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.pl.jpg)
+![linear](../../../../../translated_images/pl/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/pl/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Model liniowy, 2 parametry** | **Model nieliniowy, 7 parametrów**
 Błąd treningowy = 5.3 | Błąd treningowy = 0
@@ -79,7 +79,7 @@ Bardzo ważne jest znalezienie odpowiedniej równowagi między złożonością m
 
 Jak widać na powyższym wykresie, nadmierne dopasowanie można wykryć po bardzo niskim błędzie treningowym i wysokim błędzie walidacyjnym. Zazwyczaj podczas treningu widzimy, że zarówno błędy treningowe, jak i walidacyjne zaczynają się zmniejszać, a następnie w pewnym momencie błąd walidacyjny może przestać się zmniejszać i zacząć rosnąć. To będzie oznaka nadmiernego dopasowania i wskazówka, że powinniśmy prawdopodobnie zatrzymać trening w tym momencie (lub przynajmniej zrobić migawkę modelu).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.pl.png)
+![overfitting](../../../../../translated_images/pl/Overfitting.408ad91cd90b4371.webp)
 
 ## Jak zapobiegać nadmiernemu dopasowaniu
 

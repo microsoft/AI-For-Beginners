@@ -20,13 +20,13 @@ Kwa kutumia RNNs, mlolongo-kwa-mlolongo unatekelezwa na mitandao miwili ya kurud
 
 **Mbinu za Uangalizi** hutoa njia ya kupima athari ya muktadha wa kila vector ya pembejeo kwenye kila utabiri wa matokeo wa RNN. Njia ya kutekeleza hii ni kwa kuunda njia za mkato kati ya hali za kati za RNN ya pembejeo na RNN ya matokeo. Kwa njia hii, tunapozalisha alama ya matokeo y<sub>t</sub>, tutazingatia hali zote za siri za pembejeo h<sub>i</sub>, kwa kutumia viwango tofauti vya uzito &alpha;<sub>t,i</sub>.
 
-![Picha inayoonyesha modeli ya encoder/decoder na safu ya uangalizi wa kuongeza](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.sw.png)
+![Picha inayoonyesha modeli ya encoder/decoder na safu ya uangalizi wa kuongeza](../../../../../translated_images/sw/encoder-decoder-attention.7a726296894fb567.webp)
 
 > Modeli ya encoder-decoder na mbinu ya uangalizi wa kuongeza katika [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), iliyotajwa kutoka [blogu hii](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 Matriki ya uangalizi {&alpha;<sub>i,j</sub>} ingeonyesha kiwango ambacho maneno fulani ya pembejeo yanachangia katika uzalishaji wa neno fulani katika mlolongo wa matokeo. Hapa chini kuna mfano wa matriki kama hiyo:
 
-![Picha inayoonyesha mpangilio wa mfano uliopatikana na RNNsearch-50, iliyochukuliwa kutoka Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.sw.png)
+![Picha inayoonyesha mpangilio wa mfano uliopatikana na RNNsearch-50, iliyochukuliwa kutoka Bahdanau - arviz.org](../../../../../translated_images/sw/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > Mchoro kutoka [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (Fig.3)
 
@@ -66,7 +66,7 @@ Matokeo tunayopata na embedding ya nafasi yanajumuisha tokeni asilia na nafasi y
 
 Kisha, tunahitaji kunasa mifumo fulani ndani ya mlolongo wetu. Ili kufanya hivyo, transformers hutumia mbinu ya **uangalizi wa kibinafsi**, ambayo kimsingi ni uangalizi unaotumika kwa mlolongo sawa kama pembejeo na matokeo. Kutumia uangalizi wa kibinafsi kunatuwezesha kuzingatia **muktadha** ndani ya sentensi, na kuona ni maneno gani yanayohusiana. Kwa mfano, inatuwezesha kuona ni maneno gani yanayorejelewa na marejeo, kama *it*, na pia kuzingatia muktadha:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.sw.png)
+![](../../../../../translated_images/sw/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > Picha kutoka [Blogu ya Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Kwa kuwa kila nafasi ya pembejeo inalinganishwa kwa uhuru na kila nafasi ya mato
 
 **BERT** (Bidirectional Encoder Representations from Transformers) ni mtandao mkubwa sana wa transformer wenye tabaka 12 kwa *BERT-base*, na 24 kwa *BERT-large*. Modeli hii kwanza inafundishwa awali kwenye hifadhidata kubwa ya maandishi (WikiPedia + vitabu) kwa kutumia mafunzo yasiyo ya kusimamiwa (kutabiri maneno yaliyofichwa katika sentensi). Wakati wa mafunzo ya awali, modeli inachukua viwango vikubwa vya uelewa wa lugha ambavyo vinaweza kutumika na hifadhidata nyingine kwa kutumia kurekebisha. Mchakato huu unaitwa **transfer learning**.
 
-![picha kutoka http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.sw.png)
+![picha kutoka http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/sw/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > Picha [chanzo](http://jalammar.github.io/illustrated-bert/)
 

@@ -23,7 +23,7 @@ Dans nos exemples précédents, nous avons utilisé des embeddings sémantiques 
 * **Continuous Bag-of-Words** (CBoW), où l'on prédit le token central $W_0$ dans une séquence de tokens $W_{-N}$, ..., $W_N$.
 * **Skip-gram**, où l'on prédit un ensemble de tokens voisins {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} à partir du token central $W_0$.
 
-![image tirée d'un article sur la conversion des mots en vecteurs](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.fr.png)
+![image tirée d'un article sur la conversion des mots en vecteurs](../../../../../translated_images/fr/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Image tirée de [cet article](https://arxiv.org/pdf/1301.3781.pdf)
 

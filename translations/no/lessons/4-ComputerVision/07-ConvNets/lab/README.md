@@ -21,7 +21,7 @@ Du må trene et konvolusjonsnevralt nettverk for å klassifisere forskjellige ra
 
 Vi skal bruke [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), som inneholder bilder av 37 forskjellige raser av hunder og katter.
 
-![Datasettet vi skal jobbe med](../../../../../../translated_images/data.50b2a9d5484bdbf0.no.png)
+![Datasettet vi skal jobbe med](../../../../../../translated_images/no/data.50b2a9d5484bdbf0.webp)
 
 For å laste ned datasettet, bruk denne kodebiten:
 

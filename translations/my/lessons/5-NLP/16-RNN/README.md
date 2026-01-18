@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 စာသားအစီအစဉ်၏ အဓိပ္ပါယ်ကို ဖမ်းဆီးရန် **recurrent neural network** (RNN) ဟုခေါ်သော neural network architecture တစ်ခုကို အသုံးပြုရန် လိုအပ်သည်။ RNN တွင် ကျွန်ုပ်တို့၏ စာကြောင်းကို network အတွင်းသို့ သင်္ကေတတစ်ခုစီဖြင့် ဖြတ်သွားပြီး network သည် **state** တစ်ခုကို ထုတ်လုပ်သည်၊ ထို့နောက် ကျွန်ုပ်တို့သည် နောက်ထပ်သင်္ကေတနှင့်အတူ network သို့ ပြန်လည်ပေးပို့သည်။
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.my.png)
+![RNN](../../../../../translated_images/my/rnn.27f5c29c53d727b5.webp)
 
 > ပုံကို စာရေးသူမှ ဖန်တီးသည်
 
@@ -61,7 +61,7 @@ State C ၏ components များကို flags အဖြစ် switch on န
 
 Recurrent network တစ်ခုသည် direction တစ်ခုဖြစ်စေ bidirectional ဖြစ်စေ sequence အတွင်း certain patterns များကို ဖမ်းဆီးပြီး state vector သို့မဟုတ် output သို့ ပေးပို့နိုင်သည်။ Convolutional networks များနှင့်တူပင်၊ ပထမ layer မှ low-level patterns များကို extract လုပ်ပြီး အဆင့်မြင့် patterns များကို ဖမ်းဆီးရန် ပထမ layer အပေါ်တွင် recurrent layer တစ်ခုတိုးတက်စေပြီး **multi-layer RNN** ကို ဖန်တီးနိုင်သည်။ Multi-layer RNN သည် recurrent networks နှစ်ခု သို့မဟုတ် အများကြီးပါဝင်ပြီး ယခင် layer ၏ output ကို နောက်တစ်ခု layer ၏ input အဖြစ် ပေးပို့သည်။
 
-![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.my.jpg)
+![Image showing a Multilayer long-short-term-memory- RNN](../../../../../translated_images/my/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Fernando López ရေးသားသော [this wonderful post](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) မှ ပုံ*
 

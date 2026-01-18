@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **ਕੰਟਿਨਿਊਅਸ ਬੈਗ-ਆਫ-ਵਰਡਸ** (CBoW), ਜਦੋਂ ਅਸੀਂ ਟੋਕਨ ਸੀਕਵੈਂਸ $W_{-N}$, ..., $W_N$ ਵਿੱਚ ਮੱਧਲੇ ਟੋਕਨ $W_0$ ਦੀ ਪੇਸ਼ਗੂਈ ਕਰਦੇ ਹਾਂ।
 * **ਸਕਿਪ-ਗ੍ਰਾਮ**, ਜਿੱਥੇ ਅਸੀਂ ਮੱਧਲੇ ਟੋਕਨ $W_0$ ਤੋਂ ਨੇੜਲੇ ਟੋਕਨਜ਼ {$W_{-N},\dots, W_{-1}, W_1,\dots, W_N$} ਦੀ ਪੇਸ਼ਗੂਈ ਕਰਦੇ ਹਾਂ।
 
-![ਸ਼ਬਦਾਂ ਨੂੰ ਵੈਕਟਰ ਵਿੱਚ ਬਦਲਣ ਲਈ ਪੇਪਰ ਤੋਂ ਚਿੱਤਰ](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pa.png)
+![ਸ਼ਬਦਾਂ ਨੂੰ ਵੈਕਟਰ ਵਿੱਚ ਬਦਲਣ ਲਈ ਪੇਪਰ ਤੋਂ ਚਿੱਤਰ](../../../../../translated_images/pa/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > ਚਿੱਤਰ [ਇਸ ਪੇਪਰ](https://arxiv.org/pdf/1301.3781.pdf) ਤੋਂ
 

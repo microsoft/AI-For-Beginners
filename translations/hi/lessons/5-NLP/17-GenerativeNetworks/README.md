@@ -19,7 +19,7 @@ Recurrent Neural Networks (RNNs) और उनके gated cell वेरिए�
 
 यह विभिन्न neural architectures की अनुमति देता है, जो नीचे दी गई तस्वीर में दिखाए गए हैं:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.hi.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/hi/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > चित्र ब्लॉग पोस्ट [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) से लिया गया है, लेखक [Andrej Karpaty](http://karpathy.github.io/)।
 
@@ -32,7 +32,7 @@ Recurrent Neural Networks (RNNs) और उनके gated cell वेरिए�
 
 हम इस RNN को टेक्स्ट step-by-step उत्पन्न करने के लिए प्रशिक्षित करेंगे। प्रत्येक चरण में, हम `nchars` लंबाई के characters का एक sequence लेंगे, और नेटवर्क से प्रत्येक इनपुट character के लिए अगला आउटपुट character उत्पन्न करने के लिए कहेंगे:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.hi.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/hi/rnn-generate.56c54afb52f9781d.webp)
 
 जब टेक्स्ट उत्पन्न किया जाता है (inference के दौरान), हम कुछ **prompt** के साथ शुरू करते हैं, जिसे RNN cells के माध्यम से पास किया जाता है ताकि इसका intermediate state उत्पन्न हो सके, और फिर इस state से जनरेशन शुरू होती है। हम एक बार में एक character उत्पन्न करते हैं, और state और उत्पन्न character को अगले RNN cell में पास करते हैं ताकि अगला character उत्पन्न हो सके, जब तक कि हम पर्याप्त characters उत्पन्न न कर लें।
 

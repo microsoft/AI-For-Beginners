@@ -15,7 +15,7 @@ V předchozích sekcích jsme používali bohaté sémantické reprezentace text
 
 Abychom zachytili význam textové sekvence, musíme použít jinou architekturu neuronové sítě, která se nazývá **rekurentní neuronová síť** (RNN). V RNN prochází věta sítí jeden symbol po druhém a síť produkuje nějaký **stav**, který se poté předává síti spolu s dalším symbolem.
 
-![RNN](../../../../../translated_images/rnn.27f5c29c53d727b5.cs.png)
+![RNN](../../../../../translated_images/cs/rnn.27f5c29c53d727b5.webp)
 
 > Obrázek od autora
 
@@ -61,7 +61,7 @@ Diskutovali jsme o rekurentních sítích, které fungují jedním směrem, od z
 
 Rekurentní síť, ať už jednosměrná nebo bidirekcionální, zachycuje určité vzory v sekvenci a může je uložit do stavového vektoru nebo předat do výstupu. Stejně jako u konvolučních sítí můžeme na první vrstvu postavit další rekurentní vrstvu, která zachytí vzory na vyšší úrovni a vytvoří vzory na nižší úrovni extrahované první vrstvou. To nás vede k pojmu **vícevrstvá RNN**, která se skládá ze dvou nebo více rekurentních sítí, kde výstup předchozí vrstvy je předán další vrstvě jako vstup.
 
-![Obrázek ukazující vícevrstvou LSTM RNN](../../../../../translated_images/multi-layer-lstm.dd975e29bb2a59fe.cs.jpg)
+![Obrázek ukazující vícevrstvou LSTM RNN](../../../../../translated_images/cs/multi-layer-lstm.dd975e29bb2a59fe.webp)
 
 *Obrázek z [tohoto skvělého příspěvku](https://towardsdatascience.com/from-a-lstm-cell-to-a-multilayer-lstm-network-with-pytorch-2899eb5696f3) od Fernanda Lópeze*
 

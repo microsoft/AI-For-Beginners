@@ -58,7 +58,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 考慮以下近似 5 個點的問題（圖中的 `x` 表示點）：
 
-![線性模型](../../../../../translated_images/overfit1.f24b71c6f652e59e.tw.jpg) | ![過擬合模型](../../../../../translated_images/overfit2.131f5800ae10ca5e.tw.jpg)
+![線性模型](../../../../../translated_images/tw/overfit1.f24b71c6f652e59e.webp) | ![過擬合模型](../../../../../translated_images/tw/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **線性模型，2 個參數** | **非線性模型，7 個參數**
 訓練誤差 = 5.3 | 訓練誤差 = 0
@@ -79,7 +79,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 從上圖可以看出，過擬合可以通過非常低的訓練誤差和非常高的驗證誤差來檢測。通常在訓練過程中，我們會看到訓練誤差和驗證誤差都開始下降，但在某個時候，驗證誤差可能停止下降並開始上升。這將是過擬合的跡象，表明我們應該停止訓練（或者至少保存模型的快照）。
 
-![過擬合圖示](../../../../../translated_images/Overfitting.408ad91cd90b4371.tw.png)
+![過擬合圖示](../../../../../translated_images/tw/Overfitting.408ad91cd90b4371.webp)
 
 ## 如何防止過擬合
 

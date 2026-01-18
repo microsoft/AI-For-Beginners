@@ -13,7 +13,7 @@ Pildiklassifikatsiooni mudelid, millega oleme seni tegelenud, võtsid pildi ja a
 
 ## [Eelloengu viktoriin](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objektide tuvastamine](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.et.png)
+![Objektide tuvastamine](../../../../../translated_images/et/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Pilt [YOLO v2 veebilehelt](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Oletame, et tahame leida kassi pildilt. Väga naiivne lähenemine objektide tuva
 2. Käivitame pildiklassifikatsiooni igal osal.
 3. Need osad, mis annavad piisavalt kõrge aktiveerimise, võib pidada objektiks, mida otsime.
 
-![Naivne objektide tuvastamine](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.et.png)
+![Naivne objektide tuvastamine](../../../../../translated_images/et/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Pilt [harjutuste märkmikust](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Selle ülesande jaoks võite kohata järgmisi andmekogumeid:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) – 20 klassi
 * [COCO](http://cocodataset.org/#home) – Tavalised objektid kontekstis. 80 klassi, piiritlevad kastid ja segmentatsioonimaskid
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.et.jpg)
+![COCO](../../../../../translated_images/et/coco-examples.71bc60380fa6cceb.webp)
 
 ## Objektide tuvastamise mõõdikud
 
@@ -50,7 +50,7 @@ Selle ülesande jaoks võite kohata järgmisi andmekogumeid:
 
 Kui pildiklassifikatsiooni puhul on lihtne mõõta, kui hästi algoritm töötab, siis objektide tuvastamise puhul peame mõõtma nii klassi õigsust kui ka tuvastatud piiritleva kasti asukoha täpsust. Viimase jaoks kasutame nn **ühisosa ja ühenduse suhet** (IoU), mis mõõdab, kui hästi kaks kasti (või kaks suvalist ala) kattuvad.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.et.png)
+![IoU](../../../../../translated_images/et/iou_equation.9a4751d40fff4e11.webp)
 
 > *Joonis 2 [sellest suurepärasest blogipostitusest IoU kohta](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Objektide tuvastamise algoritme on kahte laia klassi:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) kasutab [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf), et genereerida ROI piirkondade hierarhiline struktuur, mis seejärel läbib CNN-i funktsioonide ekstraktorid ja SVM-klassi määrajad, et määrata objekti klass, ning lineaarse regressiooni, et määrata *piiritleva kasti* koordinaadid. [Ametlik artikkel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.et.png)
+![RCNN](../../../../../translated_images/et/rcnn1.cae407020dfb1d1f.webp)
 
 > *Pilt van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.et.png)
+![RCNN-1](../../../../../translated_images/et/rcnn2.2d9530bb83516484.webp)
 
 > *Pildid [sellest blogist](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Objektide tuvastamise algoritme on kahte laia klassi:
 
 See lähenemine on sarnane R-CNN-iga, kuid piirkonnad määratakse pärast konvolutsioonikihtide rakendamist.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.et.png)
+![FRCNN](../../../../../translated_images/et/f-rcnn.3cda6d9bb4188875.webp)
 
 > Pilt [ametlikust artiklist](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ See lähenemine on sarnane R-CNN-iga, kuid piirkonnad määratakse pärast konvo
 
 Selle lähenemise peamine idee on kasutada närvivõrku ROIside ennustamiseks – nn *piirkonna ettepanekuvõrk*. [Artikkel](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.et.png)
+![FasterRCNN](../../../../../translated_images/et/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Pilt [ametlikust artiklist](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ See algoritm on isegi kiirem kui Faster R-CNN. Peamine idee on järgmine:
 2. Funktsioone töödeldakse **positsioonitundliku skoorikaardiga**. Iga objekt klassist $C$ jagatakse $k\times k$ piirkondadeks ja treenime ennustama objektide osi.
 3. Iga osa $k\times k$ piirkondadest hääletavad kõik võrgud objektiklasside eest ja maksimaalse häälega objektiklass valitakse.
 
-![r-fcn pilt](../../../../../translated_images/r-fcn.13eb88158b99a3da.et.png)
+![r-fcn pilt](../../../../../translated_images/et/r-fcn.13eb88158b99a3da.webp)
 
 > Pilt [ametlikust artiklist](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO on reaalajas ühe läbimise algoritm. Peamine idee on järgmine:
  * Pilt jagatakse $S\times S$ piirkondadeks.
  * Iga piirkonna jaoks ennustab **CNN** $n$ võimalikku objekti, *piiritleva kasti* koordinaate ja *usaldusväärsust*=*tõenäosust* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.et.png)
+ ![YOLO](../../../../../translated_images/et/yolo.a2648ec82ee8bb4e.webp)
 
 > Pilt [ametlikust artiklist](https://arxiv.org/abs/1506.02640)
 

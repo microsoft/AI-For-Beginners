@@ -13,7 +13,7 @@ Di image classification models we don deal wit before na to take one image and p
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Object Detection](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.pcm.png)
+![Object Detection](../../../../../translated_images/pcm/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Image from [YOLO v2 web site](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ If we wan find cat for one picture, one simple way to do object detection go be 
 2. Run image classification for each tile.
 3. Any tile wey get high activation fit mean say di object dey inside.
 
-![Naive Object Detection](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.pcm.png)
+![Naive Object Detection](../../../../../translated_images/pcm/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Image from [Exercise Notebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ You fit see dis datasets for dis kind task:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 classes
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 classes, bounding boxes and segmentation masks
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.pcm.jpg)
+![COCO](../../../../../translated_images/pcm/coco-examples.71bc60380fa6cceb.webp)
 
 ## Object Detection Metrics
 
@@ -50,7 +50,7 @@ You fit see dis datasets for dis kind task:
 
 For image classification, e dey easy to measure how di algorithm dey perform. But for object detection, we need to measure di class correctness and di bounding box location precision. For di bounding box, we dey use **Intersection over Union** (IoU), wey dey measure how two boxes (or areas) dey overlap.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.pcm.png)
+![IoU](../../../../../translated_images/pcm/iou_equation.9a4751d40fff4e11.webp)
 
 > *Figure 2 from [dis blog post on IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -97,11 +97,11 @@ We get two main types of object detection algorithms:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) dey use [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) to generate ROI regions, wey CNN go process to extract features. SVM-classifiers go determine di object class, and linear regression go predict di *bounding box* coordinates. [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.pcm.png)
+![RCNN](../../../../../translated_images/pcm/rcnn1.cae407020dfb1d1f.webp)
 
 > *Image from van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.pcm.png)
+![RCNN-1](../../../../../translated_images/pcm/rcnn2.2d9530bb83516484.webp)
 
 > *Images from [dis blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
 
@@ -109,7 +109,7 @@ We get two main types of object detection algorithms:
 
 Dis method dey similar to R-CNN, but e dey define regions after convolution layers don run.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.pcm.png)
+![FRCNN](../../../../../translated_images/pcm/f-rcnn.3cda6d9bb4188875.webp)
 
 > Image from [di Official Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -117,7 +117,7 @@ Dis method dey similar to R-CNN, but e dey define regions after convolution laye
 
 Dis method dey use neural network to predict ROIs - di *Region Proposal Network*. [Paper](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.pcm.png)
+![FasterRCNN](../../../../../translated_images/pcm/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Image from [di official paper](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -129,7 +129,7 @@ Dis algorithm dey faster pass Faster R-CNN. Di main idea be:
 2. Process di features wit **Position-Sensitive Score Map**. Each object from $C$ classes dey divide into $k\times k$ regions, and we dey train to predict di object parts.
 3. For each part, di network go vote for di object class, and di class wit di highest vote go dey selected.
 
-![r-fcn image](../../../../../translated_images/r-fcn.13eb88158b99a3da.pcm.png)
+![r-fcn image](../../../../../translated_images/pcm/r-fcn.13eb88158b99a3da.webp)
 
 > Image from [official paper](https://arxiv.org/abs/1605.06409)
 
@@ -140,7 +140,7 @@ YOLO na realtime one-pass algorithm. Di main idea be:
  * Divide di image into $S\times S$ regions.
  * For each region, **CNN** go predict $n$ possible objects, *bounding box* coordinates, and *confidence*=*probability* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.pcm.png)
+ ![YOLO](../../../../../translated_images/pcm/yolo.a2648ec82ee8bb4e.webp)
 
 > Image from [official paper](https://arxiv.org/abs/1506.02640)
 

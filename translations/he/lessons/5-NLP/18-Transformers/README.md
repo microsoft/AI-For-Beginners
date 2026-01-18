@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **מנגנוני קשב** מספקים דרך לשקלל את ההשפעה ההקשרית של כל וקטור קלט על כל תחזית פלט של ה-RNN. זה מיושם על ידי יצירת קיצורי דרך בין המצבים הביניים של ה-RNN הקלט לבין ה-RNN הפלט. כך, בעת יצירת סמל פלט y<sub>t</sub>, ניקח בחשבון את כל המצבים המוסתרים של הקלט h<sub>i</sub>, עם מקדמי משקל שונים &alpha;<sub>t,i</sub>.
 
-![תמונה המציגה מודל encoder/decoder עם שכבת קשב אדיטיבית](../../../../../translated_images/encoder-decoder-attention.7a726296894fb567.he.png)
+![תמונה המציגה מודל encoder/decoder עם שכבת קשב אדיטיבית](../../../../../translated_images/he/encoder-decoder-attention.7a726296894fb567.webp)
 
 > מודל ה-encoder-decoder עם מנגנון קשב אדיטיבי מתוך [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf), מצוטט מתוך [פוסט בבלוג זה](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 מטריצת הקשב {&alpha;<sub>i,j</sub>} מייצגת את המידה שבה מילים מסוימות בקלט משפיעות על יצירת מילה מסוימת בפלט. להלן דוגמה למטריצה כזו:
 
-![תמונה המציגה יישור דוגמה שנמצא על ידי RNNsearch-50, מתוך Bahdanau - arviz.org](../../../../../translated_images/bahdanau-fig3.09ba2d37f202a6af.he.png)
+![תמונה המציגה יישור דוגמה שנמצא על ידי RNNsearch-50, מתוך Bahdanau - arviz.org](../../../../../translated_images/he/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > איור מתוך [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (איור 3)
 
@@ -66,7 +66,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 כעת, עלינו לזהות תבניות בתוך הרצף שלנו. לשם כך, טרנספורמרים משתמשים במנגנון **קשב עצמי**, שהוא למעשה קשב המיושם על אותו רצף כקלט וכפלט. יישום קשב עצמי מאפשר לנו לקחת בחשבון **הקשר** בתוך המשפט ולראות אילו מילים קשורות זו לזו. לדוגמה, הוא מאפשר לנו לראות אילו מילים מתייחסות להן באמצעות התייחסויות כמו *it*, וגם לקחת את ההקשר בחשבון:
 
-![](../../../../../translated_images/CoreferenceResolution.861924d6d384a7d6.he.png)
+![](../../../../../translated_images/he/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > תמונה מתוך [הבלוג של Google](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 **BERT** (Bidirectional Encoder Representations from Transformers) הוא רשת טרנספורמרים גדולה מאוד עם 12 שכבות עבור *BERT-base*, ו-24 עבור *BERT-large*. המודל מאומן תחילה על מאגר טקסט גדול (ויקיפדיה + ספרים) באמצעות אימון לא מפוקח (חיזוי מילים מוסתרות במשפט). במהלך האימון הראשוני, המודל סופג רמות משמעותיות של הבנת שפה, שניתן לאחר מכן לנצל עם מערכי נתונים אחרים באמצעות כוונון עדין. תהליך זה נקרא **למידת העברה**.
 
-![תמונה מתוך http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.he.png)
+![תמונה מתוך http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/he/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > מקור התמונה [כאן](http://jalammar.github.io/illustrated-bert/)
 

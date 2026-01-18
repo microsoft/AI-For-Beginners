@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 자연어 처리
 
-![NLP 작업 요약 스케치](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.ko.png)
+![NLP 작업 요약 스케치](../../../../translated_images/ko/ai-nlp.b22dcb8ca4707cea.webp)
 
 이 섹션에서는 **자연어 처리(NLP)**와 관련된 작업을 처리하기 위해 신경망을 사용하는 방법에 대해 집중적으로 다룹니다. 컴퓨터가 해결할 수 있기를 바라는 많은 NLP 문제들이 있습니다:
 

@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們將使用 [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/)，該數據集包含 37 種不同品種的狗和貓的圖片。
 
-![我們將處理的數據集](../../../../../../translated_images/data.50b2a9d5484bdbf0.tw.png)
+![我們將處理的數據集](../../../../../../translated_images/tw/data.50b2a9d5484bdbf0.webp)
 
 要下載數據集，請使用以下程式碼片段：
 

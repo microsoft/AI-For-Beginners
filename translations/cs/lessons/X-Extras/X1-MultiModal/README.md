@@ -15,7 +15,7 @@ Po úspěchu modelů transformerů při řešení úloh NLP byly stejné nebo po
 
 Hlavní myšlenkou CLIP je schopnost porovnávat textové výzvy s obrázkem a určit, jak dobře obrázek odpovídá dané výzvě.
 
-![CLIP Architektura](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.cs.png)
+![CLIP Architektura](../../../../../translated_images/cs/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Obrázek z [tohoto blogového příspěvku](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Jakmile je model předtrénován, můžeme mu předložit dávku obrázků a tex
 
 Předpokládejme, že potřebujeme klasifikovat obrázky například na kočky, psy a lidi. V tomto případě můžeme modelu předložit obrázek a sérii textových výzev: "*obrázek kočky*", "*obrázek psa*", "*obrázek člověka*". Ve výsledném vektoru s 3 pravděpodobnostmi stačí vybrat index s nejvyšší hodnotou.
 
-![CLIP pro Klasifikaci Obrázků](../../../../../translated_images/clip-class.3af42ef0b2b19369.cs.png)
+![CLIP pro Klasifikaci Obrázků](../../../../../translated_images/cs/clip-class.3af42ef0b2b19369.webp)
 
 > *Obrázek z [tohoto blogového příspěvku](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Více o VQGAN se dozvíte na webu [Taming Transformers](https://compvis.github.i
 
 Jedním z důležitých rozdílů mezi VQGAN a tradičním GAN je, že tradiční GAN může vytvořit slušný obrázek z jakéhokoli vstupního vektoru, zatímco VQGAN pravděpodobně vytvoří obrázek, který nebude koherentní. Proto je třeba dále řídit proces tvorby obrázku, což lze provést pomocí CLIP.
 
-![VQGAN+CLIP Architektura](../../../../../translated_images/vqgan.5027fe05051dfa31.cs.png)
+![VQGAN+CLIP Architektura](../../../../../translated_images/cs/vqgan.5027fe05051dfa31.webp)
 
 Pro generování obrázku odpovídajícího textové výzvě začneme s nějakým náhodným kódovacím vektorem, který je předán přes VQGAN k vytvoření obrázku. Poté je použit CLIP k vytvoření ztrátové funkce, která ukazuje, jak dobře obrázek odpovídá textové výzvě. Cílem je minimalizovat tuto ztrátu pomocí zpětné propagace k úpravě parametrů vstupního vektoru.
 
 Skvělá knihovna, která implementuje VQGAN+CLIP, je [Pixray](http://github.com/pixray/pixray).
 
-![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.cs.png) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.cs.png) | ![Obrázek vytvořený Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.cs.png)
+![Obrázek vytvořený Pixray](../../../../../translated_images/cs/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/cs/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Obrázek vytvořený Pixray](../../../../../translated_images/cs/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Obrázek vytvořený na základě výzvy *detailní akvarelový portrét mladého učitele literatury s knihou* | Obrázek vytvořený na základě výzvy *detailní olejový portrét mladé učitelky informatiky s počítačem* | Obrázek vytvořený na základě výzvy *detailní olejový portrét starého učitele matematiky před tabulí*
 
@@ -75,7 +75,7 @@ Na rozdíl od CLIP přijímá DALL-E text i obrázek jako jeden tok tokenů pro 
 Hlavní rozdíl mezi DALL.E 1 a 2 je, že DALL.E 2 generuje realističtější obrázky a umění.
 
 Příklady generování obrázků pomocí DALL-E:
-![Obrázek vytvořený Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.cs.png) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.cs.png) | ![Obrázek vytvořený Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.cs.png)
+![Obrázek vytvořený Pixray](../../../../../translated_images/cs/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Obrázek vytvořený Pixray](../../../../../translated_images/cs/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Obrázek vytvořený Pixray](../../../../../translated_images/cs/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Obrázek vytvořený na základě výzvy *detailní akvarelový portrét mladého učitele literatury s knihou* | Obrázek vytvořený na základě výzvy *detailní olejový portrét mladé učitelky informatiky s počítačem* | Obrázek vytvořený na základě výzvy *detailní olejový portrét starého učitele matematiky před tabulí*
 

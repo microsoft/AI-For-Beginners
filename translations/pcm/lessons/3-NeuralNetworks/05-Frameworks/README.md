@@ -58,7 +58,7 @@ Overfitting na very important concept for machine learning, and e dey very impor
 
 Look this problem of trying to fit 5 dots (we dey represent with `x` for the graphs below):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.pcm.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.pcm.jpg)
+![linear](../../../../../translated_images/pcm/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/pcm/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Linear model, 2 parameters** | **Non-linear model, 7 parameters**
 Training error = 5.3 | Training error = 0
@@ -79,7 +79,7 @@ E dey very important to balance the model strength (number of parameters) and th
 
 As you see for the graph above, overfitting fit show when training error dey very low, but validation error dey high. Normally, during training, both training and validation errors go dey reduce, but at one point validation error fit stop to reduce and start to increase. This na sign of overfitting, and e mean say we suppose stop training for that point (or at least save the model snapshot).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.pcm.png)
+![overfitting](../../../../../translated_images/pcm/Overfitting.408ad91cd90b4371.webp)
 
 ## How to prevent overfitting
 

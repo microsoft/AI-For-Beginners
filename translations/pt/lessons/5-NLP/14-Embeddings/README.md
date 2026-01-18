@@ -19,7 +19,7 @@ Assim, a camada de embedding receberia uma palavra como entrada e produziria um 
 
 Ao usar uma camada de embedding como a primeira camada na nossa rede de classificação, podemos mudar de um modelo de bag-of-words para um modelo de **embedding bag**, onde primeiro convertemos cada palavra no nosso texto no embedding correspondente e, em seguida, calculamos alguma função agregada sobre todos esses embeddings, como `sum`, `average` ou `max`.  
 
-![Imagem mostrando um classificador de embedding para cinco palavras de sequência.](../../../../../translated_images/embedding-classifier-example.b77f021a7ee67eee.pt.png)
+![Imagem mostrando um classificador de embedding para cinco palavras de sequência.](../../../../../translated_images/pt/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > Imagem do autor
 
@@ -40,7 +40,7 @@ Para isso, precisamos de pré-treinar o nosso modelo de embedding numa grande co
 
 CBoW é mais rápido, enquanto skip-gram é mais lento, mas faz um trabalho melhor ao representar palavras menos frequentes.
 
-![Imagem mostrando os algoritmos CBoW e Skip-Gram para converter palavras em vetores.](../../../../../translated_images/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.pt.png)
+![Imagem mostrando os algoritmos CBoW e Skip-Gram para converter palavras em vetores.](../../../../../translated_images/pt/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > Imagem retirada [deste artigo](https://arxiv.org/pdf/1301.3781.pdf)
 

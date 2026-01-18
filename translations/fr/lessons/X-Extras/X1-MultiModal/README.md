@@ -15,7 +15,7 @@ Après le succès des modèles transformateurs pour résoudre des tâches de tra
 
 L'idée principale de CLIP est de pouvoir comparer des descriptions textuelles avec une image et déterminer à quel point l'image correspond à la description.
 
-![Architecture CLIP](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.fr.png)
+![Architecture CLIP](../../../../../translated_images/fr/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Image tirée de [cet article de blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Une fois ce modèle pré-entraîné, nous pouvons lui fournir un lot d'images et
 
 Supposons que nous devons classer des images entre, par exemple, des chats, des chiens et des humains. Dans ce cas, nous pouvons donner au modèle une image et une série de descriptions textuelles : "*une image d'un chat*", "*une image d'un chien*", "*une image d'un humain*". Dans le vecteur résultant de 3 probabilités, il suffit de sélectionner l'indice avec la valeur la plus élevée.
 
-![CLIP pour la Classification d'Images](../../../../../translated_images/clip-class.3af42ef0b2b19369.fr.png)
+![CLIP pour la Classification d'Images](../../../../../translated_images/fr/clip-class.3af42ef0b2b19369.webp)
 
 > *Image tirée de [cet article de blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Apprenez-en davantage sur VQGAN sur le site [Taming Transformers](https://compvi
 
 Une des différences importantes entre VQGAN et les GAN traditionnels est que ces derniers peuvent produire une image correcte à partir de n'importe quel vecteur d'entrée, tandis que VQGAN est susceptible de produire une image incohérente. Ainsi, nous devons guider davantage le processus de création d'image, ce qui peut être fait en utilisant CLIP.
 
-![Architecture VQGAN+CLIP](../../../../../translated_images/vqgan.5027fe05051dfa31.fr.png)
+![Architecture VQGAN+CLIP](../../../../../translated_images/fr/vqgan.5027fe05051dfa31.webp)
 
 Pour générer une image correspondant à une description textuelle, nous commençons par un vecteur d'encodage aléatoire qui est passé à travers VQGAN pour produire une image. Ensuite, CLIP est utilisé pour produire une fonction de perte qui montre à quel point l'image correspond à la description textuelle. L'objectif est alors de minimiser cette perte, en utilisant la rétropropagation pour ajuster les paramètres du vecteur d'entrée.
 
 Une excellente bibliothèque qui implémente VQGAN+CLIP est [Pixray](http://github.com/pixray/pixray).
 
-![Image produite par Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.fr.png) |  ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.fr.png) | ![Image produite par Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.fr.png)
+![Image produite par Pixray](../../../../../translated_images/fr/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Image produite par Pixray](../../../../../translated_images/fr/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Image produite par Pixray](../../../../../translated_images/fr/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Image générée à partir de la description *un portrait en gros plan à l'aquarelle d'un jeune professeur de littérature avec un livre* | Image générée à partir de la description *un portrait en gros plan à l'huile d'une jeune professeure d'informatique avec un ordinateur* | Image générée à partir de la description *un portrait en gros plan à l'huile d'un vieux professeur de mathématiques devant un tableau noir*
 
@@ -75,7 +75,7 @@ Contrairement à CLIP, DALL-E reçoit à la fois du texte et des images sous for
 La principale différence entre DALL-E 1 et 2 est que ce dernier génère des images et des œuvres d'art plus réalistes.
 
 Exemples de génération d'images avec DALL-E :
-![Image produite par DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.fr.png) |  ![Image produite par DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.fr.png) | ![Image produite par DALL-E](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.fr.png)
+![Image produite par DALL-E](../../../../../translated_images/fr/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Image produite par DALL-E](../../../../../translated_images/fr/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Image produite par DALL-E](../../../../../translated_images/fr/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Image générée à partir de la description *un portrait en gros plan à l'aquarelle d'un jeune professeur de littérature avec un livre* | Image générée à partir de la description *un portrait en gros plan à l'huile d'une jeune professeure d'informatique avec un ordinateur* | Image générée à partir de la description *un portrait en gros plan à l'huile d'un vieux professeur de mathématiques devant un tableau noir*
 

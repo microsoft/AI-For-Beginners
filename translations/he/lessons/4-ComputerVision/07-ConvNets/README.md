@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 כדי לחלץ תבניות, נשתמש במושג של **פילטרים קונבולוציוניים**. כפי שאתם יודעים, תמונה מיוצגת על ידי מטריצה דו-ממדית, או טנזור תלת-ממדי עם עומק צבע. החלת פילטר פירושה שאנחנו לוקחים מטריצת **ליבת פילטר** קטנה יחסית, ולכל פיקסל בתמונה המקורית מחשבים ממוצע משוקלל עם הנקודות השכנות. ניתן לראות זאת כמו חלון קטן שגולש על פני כל התמונה, וממוצע את כל הפיקסלים לפי המשקלים במטריצת ליבת הפילטר.
 
-![פילטר קצה אנכי](../../../../../translated_images/filter-vert.b7148390ca0bc356.he.png) | ![פילטר קצה אופקי](../../../../../translated_images/filter-horiz.59b80ed4feb946ef.he.png)
+![פילטר קצה אנכי](../../../../../translated_images/he/filter-vert.b7148390ca0bc356.webp) | ![פילטר קצה אופקי](../../../../../translated_images/he/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > תמונה מאת דמיטרי סושניקוב
@@ -38,7 +38,7 @@ CO_OP_TRANSLATOR_METADATA:
 * ניתן לעצב את הרשת כך שהפילטרים יותאמו באופן אוטומטי
 * ניתן להשתמש באותה גישה כדי למצוא תבניות בתכונות ברמה גבוהה, ולא רק בתמונה המקורית. כך, חילוץ התכונות ב-CNN עובד על היררכיה של תכונות, החל משילובי פיקסלים ברמה נמוכה ועד לשילובים ברמה גבוהה של חלקי תמונה.
 
-![חילוץ תכונות היררכי](../../../../../translated_images/FeatureExtractionCNN.d9b456cbdae7cb64.he.png)
+![חילוץ תכונות היררכי](../../../../../translated_images/he/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > תמונה מתוך [מאמר של Hislop-Lynch](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d), המבוסס על [המחקר שלהם](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 לדוגמה, בואו נסתכל על הארכיטקטורה של VGG-16, רשת שהשיגה דיוק של 92.7% בסיווג הטופ-5 של ImageNet בשנת 2014:
 
-![שכבות ImageNet](../../../../../translated_images/vgg-16-arch1.d901a5583b3a51ba.he.jpg)
+![שכבות ImageNet](../../../../../translated_images/he/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![פירמידת ImageNet](../../../../../translated_images/vgg-16-arch.64ff2137f50dd49f.he.jpg)
+![פירמידת ImageNet](../../../../../translated_images/he/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > תמונה מתוך [Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

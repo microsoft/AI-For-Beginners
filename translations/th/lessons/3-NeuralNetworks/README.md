@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # แนะนำเกี่ยวกับเครือข่ายประสาทเทียม
 
-![สรุปเนื้อหาเกี่ยวกับเครือข่ายประสาทเทียมในรูปวาด](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.th.png)
+![สรุปเนื้อหาเกี่ยวกับเครือข่ายประสาทเทียมในรูปวาด](../../../../translated_images/th/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 ตามที่เราได้พูดถึงในบทนำ หนึ่งในวิธีที่จะสร้างความฉลาดคือการฝึก **โมเดลคอมพิวเตอร์** หรือ **สมองเทียม** ตั้งแต่กลางศตวรรษที่ 20 นักวิจัยได้ลองใช้โมเดลทางคณิตศาสตร์ต่าง ๆ จนกระทั่งในช่วงไม่กี่ปีที่ผ่านมาแนวทางนี้ได้พิสูจน์แล้วว่าประสบความสำเร็จอย่างมาก โมเดลทางคณิตศาสตร์ของสมองเหล่านี้เรียกว่า **เครือข่ายประสาทเทียม**
 
@@ -36,13 +36,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 จากชีววิทยา เราทราบว่าสมองของเราประกอบด้วยเซลล์ประสาท (neurons) ซึ่งแต่ละเซลล์มี "อินพุต" หลายตัว (dendrites) และ "เอาต์พุต" หนึ่งตัว (axon) ทั้ง dendrites และ axons สามารถนำสัญญาณไฟฟ้าได้ และการเชื่อมต่อระหว่างพวกมัน — ที่เรียกว่า synapses — สามารถแสดงระดับการนำไฟฟ้าที่แตกต่างกัน ซึ่งถูกควบคุมโดยสารสื่อประสาท
 
-![โมเดลของเซลล์ประสาท](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.th.jpg) | ![โมเดลของเซลล์ประสาท](../../../../translated_images/artneuron.1a5daa88d20ebe6f.th.png)
+![โมเดลของเซลล์ประสาท](../../../../translated_images/th/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![โมเดลของเซลล์ประสาท](../../../../translated_images/th/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 เซลล์ประสาทจริง *([ภาพ](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) จาก Wikipedia)* | เซลล์ประสาทเทียม *(ภาพโดยผู้เขียน)*
 
 ดังนั้น โมเดลทางคณิตศาสตร์ที่ง่ายที่สุดของเซลล์ประสาทจะมีอินพุตหลายตัว X<sub>1</sub>, ..., X<sub>N</sub> และเอาต์พุต Y พร้อมกับชุดของน้ำหนัก W<sub>1</sub>, ..., W<sub>N</sub> เอาต์พุตจะถูกคำนวณเป็น:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.th.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/th/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 โดยที่ f คือ **ฟังก์ชันการกระตุ้น** ที่ไม่เป็นเชิงเส้น
 

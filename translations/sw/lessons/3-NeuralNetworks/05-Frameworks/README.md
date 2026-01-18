@@ -58,7 +58,7 @@ Overfitting ni dhana muhimu sana katika ujifunzaji wa mashine, na ni muhimu sana
 
 Fikiria tatizo lifuatalo la kukadiria alama 5 (zinazoonyeshwa na `x` kwenye grafu hapa chini):
 
-![linear](../../../../../translated_images/overfit1.f24b71c6f652e59e.sw.jpg) | ![overfit](../../../../../translated_images/overfit2.131f5800ae10ca5e.sw.jpg)
+![linear](../../../../../translated_images/sw/overfit1.f24b71c6f652e59e.webp) | ![overfit](../../../../../translated_images/sw/overfit2.131f5800ae10ca5e.webp)
 -------------------------|--------------------------
 **Modeli ya mstari, vigezo 2** | **Modeli isiyo ya mstari, vigezo 7**
 Makosa ya mafunzo = 5.3 | Makosa ya mafunzo = 0
@@ -79,7 +79,7 @@ Ni muhimu sana kupata usawa sahihi kati ya utajiri wa modeli (idadi ya vigezo) n
 
 Kama unavyoona kutoka kwenye grafu hapo juu, overfitting inaweza kugunduliwa kwa makosa ya mafunzo ya chini sana, na makosa ya uthibitishaji ya juu. Kawaida wakati wa mafunzo tutaona makosa ya mafunzo na uthibitishaji yakianza kupungua, na kisha wakati fulani makosa ya uthibitishaji yanaweza kuacha kupungua na kuanza kuongezeka. Hii itakuwa ishara ya overfitting, na kiashiria kwamba tunapaswa labda kuacha mafunzo wakati huo (au angalau kufanya nakala ya modeli).
 
-![overfitting](../../../../../translated_images/Overfitting.408ad91cd90b4371.sw.png)
+![overfitting](../../../../../translated_images/sw/Overfitting.408ad91cd90b4371.webp)
 
 ## Jinsi ya kuzuia overfitting
 

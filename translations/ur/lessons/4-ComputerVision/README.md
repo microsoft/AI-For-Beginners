@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # کمپیوٹر وژن
 
-![کمپیوٹر وژن کے مواد کا خلاصہ ایک خاکے میں](../../../../translated_images/ai-computervision.6506ebebac3fbf76.ur.png)
+![کمپیوٹر وژن کے مواد کا خلاصہ ایک خاکے میں](../../../../translated_images/ur/ai-computervision.6506ebebac3fbf76.webp)
 
 اس سیکشن میں ہم سیکھیں گے:
 

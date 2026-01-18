@@ -15,7 +15,7 @@ Baada ya mafanikio ya mifano ya transformer katika kutatua kazi za NLP, usanifu 
 
 Wazo kuu la CLIP ni kuwa na uwezo wa kulinganisha maelezo ya maandishi na picha na kuamua jinsi picha inavyolingana na maelezo hayo.
 
-![CLIP Architecture](../../../../../translated_images/clip-arch.b3dbf20b4e8ed8be.sw.png)
+![CLIP Architecture](../../../../../translated_images/sw/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Picha kutoka [blogu hii](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Mara tu mfano huu unapokuwa umefunzwa, tunaweza kuupa kundi la picha na kundi la
 
 Tuseme tunahitaji kuainisha picha kati ya, kwa mfano, paka, mbwa na binadamu. Katika hali hii, tunaweza kuupa mfano picha, na mfululizo wa maelezo ya maandishi: "*picha ya paka*", "*picha ya mbwa*", "*picha ya binadamu*". Katika vekta inayotokana ya uwezekano 3 tunahitaji tu kuchagua faharasa yenye thamani ya juu zaidi.
 
-![CLIP for Image Classification](../../../../../translated_images/clip-class.3af42ef0b2b19369.sw.png)
+![CLIP for Image Classification](../../../../../translated_images/sw/clip-class.3af42ef0b2b19369.webp)
 
 > *Picha kutoka [blogu hii](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Jifunze zaidi kuhusu VQGAN kwenye tovuti ya [Taming Transformers](https://compvi
 
 Moja ya tofauti muhimu kati ya VQGAN na GAN ya jadi ni kwamba ya mwisho inaweza kuzalisha picha nzuri kutoka kwa vekta yoyote ya pembejeo, wakati VQGAN ina uwezekano wa kuzalisha picha ambayo haitakuwa thabiti. Kwa hivyo, tunahitaji kuongoza zaidi mchakato wa uundaji wa picha, na hilo linaweza kufanywa kwa kutumia CLIP.
 
-![VQGAN+CLIP Architecture](../../../../../translated_images/vqgan.5027fe05051dfa31.sw.png)
+![VQGAN+CLIP Architecture](../../../../../translated_images/sw/vqgan.5027fe05051dfa31.webp)
 
 Ili kuzalisha picha inayolingana na maelezo ya maandishi, tunaanza na vekta ya usimbaji wa nasibu ambayo inapitia VQGAN ili kuzalisha picha. Kisha CLIP hutumika kuzalisha kazi ya hasara inayonyesha jinsi picha inavyolingana na maelezo ya maandishi. Lengo basi ni kupunguza hasara hii, kwa kutumia kurudi nyuma ili kurekebisha vigezo vya vekta ya pembejeo.
 
 Maktaba nzuri inayotekeleza VQGAN+CLIP ni [Pixray](http://github.com/pixray/pixray)
 
-![Picture produced by Pixray](../../../../../translated_images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.sw.png) |  ![Picture produced by pixray](../../../../../translated_images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.sw.png) | ![Picture produced by Pixray](../../../../../translated_images/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.sw.png)
+![Picture produced by Pixray](../../../../../translated_images/sw/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Picture produced by pixray](../../../../../translated_images/sw/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Picture produced by Pixray](../../../../../translated_images/sw/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Picha iliyozalishwa kutoka maelezo *a closeup watercolor portrait of young male teacher of literature with a book* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of young female teacher of computer science with a computer* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 
@@ -75,7 +75,7 @@ Tofauti na CLIP, DALL-E hupokea maandishi na picha kama mkondo mmoja wa tokeni k
 Tofauti kuu kati ya DALL.E 1 na 2, ni kwamba inazalisha picha na sanaa za kweli zaidi.
 
 Mifano ya uzalishaji wa picha na DALL-E:
-![Picture produced by Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.sw.png) |  ![Picture produced by pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.sw.png) | ![Picture produced by Pixray](../../../../../translated_images/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.sw.png)
+![Picture produced by Pixray](../../../../../translated_images/sw/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Picture produced by pixray](../../../../../translated_images/sw/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Picture produced by Pixray](../../../../../translated_images/sw/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Picha iliyozalishwa kutoka maelezo *a closeup watercolor portrait of young male teacher of literature with a book* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of young female teacher of computer science with a computer* | Picha iliyozalishwa kutoka maelezo *a closeup oil portrait of old male teacher of mathematics in front of blackboard*
 

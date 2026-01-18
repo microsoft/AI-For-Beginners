@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Computer Vision
 
-![Summary of Computer Vision content in a doodle](../../../../translated_images/ai-computervision.6506ebebac3fbf76.pcm.png)
+![Summary of Computer Vision content in a doodle](../../../../translated_images/pcm/ai-computervision.6506ebebac3fbf76.webp)
 
 For dis section, we go learn about:
 

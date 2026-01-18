@@ -73,14 +73,14 @@ I vår [OpenCV Notebook](OpenCV.ipynb) ger vi några exempel på när datorseend
 
 * **Förbehandling av ett fotografi av en Braille-bok**. Vi fokuserar på hur vi kan använda tröskling, funktionsdetektion, perspektivtransformation och NumPy-manipulationer för att separera individuella Braille-symboler för vidare klassificering av ett neuralt nätverk.
 
-![Braille Image](../../../../../translated_images/braille.341962ff76b1bd70.sv.jpeg) | ![Braille Image Pre-processed](../../../../../translated_images/braille-result.46530fea020b03c7.sv.png) | ![Braille Symbols](../../../../../translated_images/braille-symbols.0159185ab69d5339.sv.png)
+![Braille Image](../../../../../translated_images/sv/braille.341962ff76b1bd70.webp) | ![Braille Image Pre-processed](../../../../../translated_images/sv/braille-result.46530fea020b03c7.webp) | ![Braille Symbols](../../../../../translated_images/sv/braille-symbols.0159185ab69d5339.webp)
 ----|-----|-----
 
 > Bild från [OpenCV.ipynb](OpenCV.ipynb)
 
 * **Detektera rörelse i video med hjälp av bildruteskillnad**. Om kameran är fast, bör bildrutor från kameraflödet vara ganska lika varandra. Eftersom bildrutor representeras som arrayer, kan vi genom att subtrahera dessa arrayer för två efterföljande bildrutor få pixeldifferensen, som bör vara låg för statiska bildrutor och bli högre när det finns betydande rörelse i bilden.
 
-![Image of video frames and frame differences](../../../../../translated_images/frame-difference.706f805491a0883c.sv.png)
+![Image of video frames and frame differences](../../../../../translated_images/sv/frame-difference.706f805491a0883c.webp)
 
 > Bild från [OpenCV.ipynb](OpenCV.ipynb)
 
@@ -89,7 +89,7 @@ I vår [OpenCV Notebook](OpenCV.ipynb) ger vi några exempel på när datorseend
    - **Tätt optiskt flöde** beräknar vektorfältet som visar för varje pixel var den rör sig.
    - **Gles optiskt flöde** baseras på att ta några distinkta funktioner i bilden (t.ex. kanter) och bygga deras bana från bildruta till bildruta.
 
-![Image of Optical Flow](../../../../../translated_images/optical.1f4a94464579a83a.sv.png)
+![Image of Optical Flow](../../../../../translated_images/sv/optical.1f4a94464579a83a.webp)
 
 > Bild från [OpenCV.ipynb](OpenCV.ipynb)
 

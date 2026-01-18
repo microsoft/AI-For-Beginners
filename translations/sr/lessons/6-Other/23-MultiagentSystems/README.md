@@ -70,7 +70,7 @@ ask turtles [
 
 Након отварања модела, бићете пребачени на главни екран NetLogo-а. Ево примера модела који описује популацију вукова и оваца, уз ограничене ресурсе (трава).
 
-![NetLogo Main Screen](../../../../../translated_images/NetLogo-Main.32653711ec1a01b3.sr.png)
+![NetLogo Main Screen](../../../../../translated_images/sr/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Снимак екрана, Дмитриј Сошњиков
 

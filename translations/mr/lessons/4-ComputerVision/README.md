@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # संगणकीय दृष्टिकोन
 
-![संगणकीय दृष्टिकोन विषयाची रेखाचित्रात संक्षिप्त माहिती](../../../../translated_images/ai-computervision.6506ebebac3fbf76.mr.png)
+![संगणकीय दृष्टिकोन विषयाची रेखाचित्रात संक्षिप्त माहिती](../../../../translated_images/mr/ai-computervision.6506ebebac3fbf76.webp)
 
 या विभागात आपण शिकणार आहोत:
 

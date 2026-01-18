@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einführung in Neuronale Netzwerke
 
-![Zusammenfassung des Inhalts zu neuronalen Netzwerken in einer Skizze](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.de.png)
+![Zusammenfassung des Inhalts zu neuronalen Netzwerken in einer Skizze](../../../../translated_images/de/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Wie wir in der Einführung besprochen haben, besteht eine Möglichkeit, Intelligenz zu erreichen, darin, ein **Computermodell** oder ein **künstliches Gehirn** zu trainieren. Seit Mitte des 20. Jahrhunderts haben Forscher verschiedene mathematische Modelle ausprobiert, bis sich in den letzten Jahren dieser Ansatz als äußerst erfolgreich erwiesen hat. Solche mathematischen Modelle des Gehirns werden als **neuronale Netzwerke** bezeichnet.
 
@@ -36,13 +36,13 @@ In diesem Lehrplan konzentrieren wir uns ausschließlich auf Modelle neuronaler 
 
 Aus der Biologie wissen wir, dass unser Gehirn aus Nervenzellen (Neuronen) besteht, von denen jede mehrere "Eingänge" (Dendriten) und einen einzigen "Ausgang" (Axon) hat. Sowohl Dendriten als auch Axone können elektrische Signale leiten, und die Verbindungen zwischen ihnen — bekannt als Synapsen — können unterschiedliche Grade der Leitfähigkeit aufweisen, die durch Neurotransmitter reguliert werden.
 
-![Modell eines Neurons](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.de.jpg) | ![Modell eines Neurons](../../../../translated_images/artneuron.1a5daa88d20ebe6f.de.png)
+![Modell eines Neurons](../../../../translated_images/de/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Modell eines Neurons](../../../../translated_images/de/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Echtes Neuron *([Bild](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) von Wikipedia)* | Künstliches Neuron *(Bild vom Autor)*
 
 Das einfachste mathematische Modell eines Neurons enthält daher mehrere Eingänge X<sub>1</sub>, ..., X<sub>N</sub> und einen Ausgang Y sowie eine Reihe von Gewichten W<sub>1</sub>, ..., W<sub>N</sub>. Der Ausgang wird berechnet als:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.de.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/de/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 wobei **f** eine nichtlineare **Aktivierungsfunktion** ist.
 

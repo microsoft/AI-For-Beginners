@@ -57,7 +57,7 @@ Token | Tag
 
 トークンとクラスの1対1の対応を構築する必要があるため、この図から右端の**多対多**ニューラルネットワークモデルをトレーニングできます：
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ja.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/ja/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > *[Andrej Karpathy](http://karpathy.github.io/)による[このブログ記事](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)からの画像。NERトークン分類モデルは、この画像の右端のネットワークアーキテクチャに対応します。*
 

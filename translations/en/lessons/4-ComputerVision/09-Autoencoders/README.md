@@ -19,7 +19,7 @@ However, we might want to use raw (unlabeled) data to train CNN feature extracto
 
 By training an autoencoder to capture as much information as possible from the original image for accurate reconstruction, the network attempts to find the best **embedding** of the input images to represent their meaning.
 
-![AutoEncoder Diagram](../../../../../translated_images/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.en.jpg)
+![AutoEncoder Diagram](../../../../../translated_images/en/autoencoder_schema.5e6fc9ad98a5eb6197f3513cf3baf4dfbe1389a6ae74daebda64de9f1c99f142.jpg)
 
 > Image from [Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
 

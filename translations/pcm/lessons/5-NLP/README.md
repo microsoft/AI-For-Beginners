@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Natural Language Processing
 
-![Summary of NLP tasks in a doodle](../../../../translated_images/ai-nlp.b22dcb8ca4707cea.pcm.png)
+![Summary of NLP tasks in a doodle](../../../../translated_images/pcm/ai-nlp.b22dcb8ca4707cea.webp)
 
 For dis section, we go focus on how Neural Networks fit handle tasks wey relate to **Natural Language Processing (NLP)**. Plenty NLP problems dey wey we wan make computer sabi solve:
 

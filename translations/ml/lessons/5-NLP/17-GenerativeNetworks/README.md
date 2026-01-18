@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ഇത് താഴെ കാണുന്ന ചിത്രത്തിൽ കാണുന്ന വ്യത്യസ്ത ന്യൂറൽ ആർക്കിടെക്ചറുകൾക്ക് വഴിയൊരുക്കുന്നു:
 
-![Image showing common recurrent neural network patterns.](../../../../../translated_images/unreasonable-effectiveness-of-rnn.541ead816778f42d.ml.jpg)
+![Image showing common recurrent neural network patterns.](../../../../../translated_images/ml/unreasonable-effectiveness-of-rnn.541ead816778f42d.webp)
 
 > [Andrej Karpaty](http://karpathy.github.io/) എഴുതിയ [Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) എന്ന ബ്ലോഗ് പോസ്റ്റിൽ നിന്നുള്ള ചിത്രം
 
@@ -32,11 +32,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 നാം ഈ RNN ഓരോ ഘട്ടത്തിലും ടെക്സ്റ്റ് ജനറേറ്റ് ചെയ്യാൻ പരിശീലിപ്പിക്കും. ഓരോ ഘട്ടത്തിലും, നീളം `nchars` ഉള്ള കറക്റ്ററുകളുടെ ഒരു സീക്വൻസ് എടുത്ത്, ഓരോ ഇൻപുട്ട് കറക്റ്ററിനും അടുത്ത ഔട്ട്പുട്ട് കറക്റ്റർ ജനറേറ്റ് ചെയ്യാൻ നെറ്റ്വർക്കിനെ ചോദിക്കും:
 
-![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/rnn-generate.56c54afb52f9781d.ml.png)
+![Image showing an example RNN generation of the word 'HELLO'.](../../../../../translated_images/ml/rnn-generate.56c54afb52f9781d.webp)
 
 ടെക്സ്റ്റ് ജനറേറ്റ് ചെയ്യുമ്പോൾ (ഇൻഫറൻസ് സമയത്ത്), നാം ഒരു **പ്രോംപ്റ്റ്** ഉപയോഗിച്ച് തുടങ്ങുന്നു, അത് RNN സെല്ലുകൾ വഴി കടന്നുപോകുന്നു, ഇടക്കാല സ്റ്റേറ്റ് ഉത്പാദിപ്പിക്കുന്നു, തുടർന്ന് ആ സ്റ്റേറ്റിൽ നിന്നാണ് ജനറേഷൻ ആരംഭിക്കുന്നത്. ഓരോ കറക്റ്ററും ഒറ്റത്തവണയായി ജനറേറ്റ് ചെയ്ത്, സ്റ്റേറ്റ് കൂടാതെ ജനറേറ്റ് ചെയ്ത കറക്റ്റർ മറ്റൊരു RNN സെലിലേക്ക് നൽകുന്നു, അടുത്തത് ജനറേറ്റ് ചെയ്യാൻ, ആവശ്യമായ കറക്റ്ററുകൾ വരെ തുടരും.
 
-<img src="../../../../../translated_images/rnn-generate-inf.5168dc65e0370eea.ml.png" width="60%"/>
+<img src="../../../../../translated_images/ml/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > എഴുത്തുകാരന്റെ ചിത്രം
 

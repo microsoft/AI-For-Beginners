@@ -25,7 +25,7 @@ Our goal na to classify di news item into one of di categories based on di text.
 
 If we wan solve Natural Language Processing (NLP) tasks wit neural networks, we need way to represent text as tensors. Computers dey already represent text characters as numbers wey dey map to fonts for your screen using encodings like ASCII or UTF-8.
 
-<img alt="Image wey show diagram wey dey map one character to ASCII and binary representation" src="../../../../../translated_images/ascii-character-map.18ed6aa7f3b0a7ff.pcm.png" width="50%"/>
+<img alt="Image wey show diagram wey dey map one character to ASCII and binary representation" src="../../../../../translated_images/pcm/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Image source](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +48,7 @@ Sometimes, we fit use tri-grams -- combinations of three words -- too. Dis appro
 
 If we dey solve tasks like text classification, we need way to represent text as one fixed-size vector, wey we go use as input to di final dense classifier. One simple way na to combine all di individual word representations, like adding dem. If we add one-hot encodings of each word, we go get one vector of frequencies, wey go show how many times each word appear for di text. Dis representation of text na **bag of words** (BoW).
 
-<img src="../../../../../translated_images/bow.3811869cff59368d.pcm.png" width="90%"/>
+<img src="../../../../../translated_images/pcm/bow.3811869cff59368d.webp" width="90%"/>
 
 > Image by di author
 

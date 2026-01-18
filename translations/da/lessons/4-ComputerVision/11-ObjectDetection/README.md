@@ -13,7 +13,7 @@ De billedklassifikationsmodeller, vi hidtil har arbejdet med, tog et billede og 
 
 ## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![Objektgenkendelse](../../../../../translated_images/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.da.png)
+![Objektgenkendelse](../../../../../translated_images/da/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > Billede fra [YOLO v2 hjemmeside](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ Hvis vi antager, at vi vil finde en kat på et billede, kunne en meget naiv tilg
 2. Kør billedklassifikation på hver flise.
 3. De fliser, der resulterer i tilstrækkelig høj aktivering, kan betragtes som indeholdende det ønskede objekt.
 
-![Naiv objektgenkendelse](../../../../../translated_images/naive-detection.e7f1ba220ccd08c6.da.png)
+![Naiv objektgenkendelse](../../../../../translated_images/da/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *Billede fra [Øvelsesnotebook](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ Du kan støde på følgende datasæt til denne opgave:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 20 klasser
 * [COCO](http://cocodataset.org/#home) - Common Objects in Context. 80 klasser, afgrænsningsbokse og segmenteringsmasker
 
-![COCO](../../../../../translated_images/coco-examples.71bc60380fa6cceb.da.jpg)
+![COCO](../../../../../translated_images/da/coco-examples.71bc60380fa6cceb.webp)
 
 ## Metrikker for objektgenkendelse
 
@@ -50,7 +50,7 @@ Du kan støde på følgende datasæt til denne opgave:
 
 Mens det er nemt at måle, hvor godt en algoritme klarer sig i billedklassifikation, skal vi i objektgenkendelse måle både korrektheden af klassen og præcisionen af den forudsagte placering af afgrænsningsboksen. Til det sidste bruger vi den såkaldte **Intersection over Union** (IoU), som måler, hvor godt to bokse (eller to vilkårlige områder) overlapper.
 
-![IoU](../../../../../translated_images/iou_equation.9a4751d40fff4e11.da.png)
+![IoU](../../../../../translated_images/da/iou_equation.9a4751d40fff4e11.webp)
 
 > *Figur 2 fra [dette fremragende blogindlæg om IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ Der er to brede klasser af algoritmer til objektgenkendelse:
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) bruger [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) til at generere en hierarkisk struktur af ROI-regioner, som derefter sendes gennem CNN-featureekstraktorer og SVM-klassifikatorer for at bestemme objektklassen og lineær regression for at bestemme *afgrænsningsboksens* koordinater. [Officiel artikel](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/rcnn1.cae407020dfb1d1f.da.png)
+![RCNN](../../../../../translated_images/da/rcnn1.cae407020dfb1d1f.webp)
 
 > *Billede fra van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/rcnn2.2d9530bb83516484.da.png)
+![RCNN-1](../../../../../translated_images/da/rcnn2.2d9530bb83516484.webp)
 
 > *Billeder fra [denne blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ Der er to brede klasser af algoritmer til objektgenkendelse:
 
 Denne tilgang ligner R-CNN, men regioner defineres efter, at konvolutionslagene er blevet anvendt.
 
-![FRCNN](../../../../../translated_images/f-rcnn.3cda6d9bb4188875.da.png)
+![FRCNN](../../../../../translated_images/da/f-rcnn.3cda6d9bb4188875.webp)
 
 > Billede fra [den officielle artikel](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf), [arXiv](https://arxiv.org/pdf/1504.08083.pdf), 2015
 
@@ -118,7 +118,7 @@ Denne tilgang ligner R-CNN, men regioner defineres efter, at konvolutionslagene 
 
 Hovedideen med denne tilgang er at bruge et neuralt netværk til at forudsige ROIs – det såkaldte *Region Proposal Network*. [Artikel](https://arxiv.org/pdf/1506.01497.pdf), 2016
 
-![FasterRCNN](../../../../../translated_images/faster-rcnn.8d46c099b87ef30a.da.png)
+![FasterRCNN](../../../../../translated_images/da/faster-rcnn.8d46c099b87ef30a.webp)
 
 > Billede fra [den officielle artikel](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ Denne algoritme er endnu hurtigere end Faster R-CNN. Hovedideen er følgende:
 2. Features behandles af **Position-Sensitive Score Map**. Hvert objekt fra $C$ klasser opdeles i $k\times k$ regioner, og vi træner til at forudsige dele af objekter.
 3. For hver del fra $k\times k$ regioner stemmer alle netværk for objektklasser, og den objektklasse med flest stemmer vælges.
 
-![r-fcn billede](../../../../../translated_images/r-fcn.13eb88158b99a3da.da.png)
+![r-fcn billede](../../../../../translated_images/da/r-fcn.13eb88158b99a3da.webp)
 
 > Billede fra [officiel artikel](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO er en realtids one-pass algoritme. Hovedideen er følgende:
  * Billedet opdeles i $S\times S$ regioner.
  * For hver region forudsiger **CNN** $n$ mulige objekter, *afgrænsningsboksens* koordinater og *tillid*=*sandsynlighed* * IoU.
 
- ![YOLO](../../../../../translated_images/yolo.a2648ec82ee8bb4e.da.png)
+ ![YOLO](../../../../../translated_images/da/yolo.a2648ec82ee8bb4e.webp)
 
 > Billede fra [officiel artikel](https://arxiv.org/abs/1506.02640)
 

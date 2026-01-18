@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introductie tot Neurale Netwerken
 
-![Samenvatting van de inhoud van Intro Neural Networks in een schets](../../../../translated_images/ai-neuralnetworks.1c687ae40bc86e83.nl.png)
+![Samenvatting van de inhoud van Intro Neural Networks in een schets](../../../../translated_images/nl/ai-neuralnetworks.1c687ae40bc86e83.webp)
 
 Zoals we in de introductie hebben besproken, is een van de manieren om intelligentie te bereiken het trainen van een **computermodel** of een **kunstmatig brein**. Sinds het midden van de 20e eeuw hebben onderzoekers verschillende wiskundige modellen geprobeerd, totdat deze richting in de afgelopen jaren enorm succesvol bleek te zijn. Dergelijke wiskundige modellen van het brein worden **neurale netwerken** genoemd.
 
@@ -36,13 +36,13 @@ In dit curriculum richten we ons uitsluitend op neurale netwerkmodellen.
 
 Uit de biologie weten we dat ons brein bestaat uit neurale cellen (neuronen), die elk meerdere "inputs" (dendrieten) en een enkele "output" (axon) hebben. Zowel dendrieten als axonen kunnen elektrische signalen geleiden, en de verbindingen daartussen — bekend als synapsen — kunnen verschillende graden van geleiding vertonen, die worden gereguleerd door neurotransmitters.
 
-![Model van een Neuron](../../../../translated_images/synapse-wikipedia.ed20a9e4726ea1c6.nl.jpg) | ![Model van een Neuron](../../../../translated_images/artneuron.1a5daa88d20ebe6f.nl.png)
+![Model van een Neuron](../../../../translated_images/nl/synapse-wikipedia.ed20a9e4726ea1c6.webp) | ![Model van een Neuron](../../../../translated_images/nl/artneuron.1a5daa88d20ebe6f.webp)
 ----|----
 Echt Neuron *([Afbeelding](https://en.wikipedia.org/wiki/Synapse#/media/File:SynapseSchematic_lines.svg) van Wikipedia)* | Kunstmatig Neuron *(Afbeelding door Auteur)*
 
 Het eenvoudigste wiskundige model van een neuron bevat dus meerdere inputs X<sub>1</sub>, ..., X<sub>N</sub> en een output Y, en een reeks gewichten W<sub>1</sub>, ..., W<sub>N</sub>. Een output wordt berekend als:
 
-<img src="../../../../translated_images/netout.1eb15eb76fd76731.nl.png" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
+<img src="../../../../translated_images/nl/netout.1eb15eb76fd76731.webp" alt="Y = f\left(\sum_{i=1}^N X_iW_i\right)" width="131" height="53" align="center"/>
 
 waarbij f een niet-lineaire **activatiefunctie** is.
 
