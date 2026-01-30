@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T11:22:47+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "cs"
-}
--->
 # Předtrénované sítě a transfer learning
 
 Trénování CNN může být časově náročné a vyžaduje velké množství dat. Většina času je však věnována učení nejlepších nízkoúrovňových filtrů, které síť může použít k extrakci vzorů z obrázků. Nabízí se přirozená otázka – můžeme použít neuronovou síť natrénovanou na jednom datasetu a přizpůsobit ji k klasifikaci jiných obrázků bez nutnosti kompletního trénovacího procesu?

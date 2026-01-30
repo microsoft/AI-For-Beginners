@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T11:10:10+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "hu"
-}
--->
 # Konvolúciós Neurális Hálózatok
 
 Korábban láttuk, hogy a neurális hálózatok elég jól kezelik a képeket, és még egy egyrétegű perceptron is képes az MNIST adathalmaz kézzel írt számjegyeit elfogadható pontossággal felismerni. Azonban az MNIST adathalmaz különleges, mivel az összes számjegy középre van igazítva a képen, ami egyszerűbbé teszi a feladatot.
@@ -24,7 +15,7 @@ A mintázatok kinyeréséhez a **konvolúciós szűrők** fogalmát használjuk.
 
 Például, ha 3x3-as függőleges és vízszintes él szűrőket alkalmazunk az MNIST számjegyekre, kiemeléseket (pl. magas értékeket) kapunk ott, ahol az eredeti képen függőleges és vízszintes élek találhatók. Így ezek a szűrők használhatók az élek "keresésére". Hasonlóan, különböző szűrőket tervezhetünk más alacsony szintű mintázatok keresésére:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/hu/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Kép a [Leung-Malik szűrőbankról](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

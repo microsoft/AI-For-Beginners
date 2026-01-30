@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T22:00:01+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "cs"
-}
--->
 # Game Jam
 
 Hry jsou oblastí, která byla výrazně ovlivněna vývojem AI a ML. V tomto úkolu napište krátkou práci o hře, kterou máte rádi a která byla ovlivněna vývojem AI. Měla by to být dostatečně stará hra, aby byla ovlivněna několika typy počítačových zpracovatelských systémů. Dobrým příkladem je šachy nebo Go, ale podívejte se také na videohry jako Pong nebo Pac-Man. Napište esej, která pojednává o minulosti, současnosti a budoucnosti hry z pohledu AI.

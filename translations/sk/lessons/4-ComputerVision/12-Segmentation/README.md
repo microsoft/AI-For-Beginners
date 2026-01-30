@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T14:05:35+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "sk"
-}
--->
 # Segmentácia
 
 Predtým sme sa naučili o detekcii objektov, ktorá nám umožňuje lokalizovať objekty na obrázku predpovedaním ich *ohraničujúcich rámčekov*. Pre niektoré úlohy však nepotrebujeme len ohraničujúce rámčeky, ale aj presnejšiu lokalizáciu objektov. Táto úloha sa nazýva **segmentácia**.
@@ -20,7 +11,7 @@ Segmentáciu môžeme vnímať ako **klasifikáciu pixelov**, kde pre **každý*
 
 Pri inštančnej segmentácii sú tieto ovce rôzne objekty, ale pri semantickej segmentácii sú všetky ovce reprezentované jednou triedou.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/sk/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Obrázok z [tohto blogového príspevku](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Existujú rôzne neurónové architektúry pre segmentáciu, ale všetky majú r
 * **Kódovač (Encoder)** extrahuje črty z vstupného obrázka.
 * **Dekóder (Decoder)** transformuje tieto črty na **obrázok masky**, ktorý má rovnakú veľkosť a počet kanálov zodpovedajúci počtu tried.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/sk/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Obrázok z [tejto publikácie](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ V tejto lekcii uvidíme segmentáciu v praxi tým, že natrénujeme sieť na roz
 
 > ✅ Táto technika je obzvlášť vhodná pre tento typ medicínskeho zobrazovania, ale aké iné reálne aplikácie by ste si vedeli predstaviť?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/sk/navi.2f20b727910110ea.webp"/>
 
 > Obrázok z PH<sup>2</sup> databázy
 

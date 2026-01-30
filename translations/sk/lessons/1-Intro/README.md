@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T22:01:43+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "sk"
-}
--->
 # Úvod do umelej inteligencie
 
 ![Zhrnutie obsahu Úvodu do umelej inteligencie v kresbe](../../../../translated_images/sk/ai-intro.bf28d1ac4235881c.webp)

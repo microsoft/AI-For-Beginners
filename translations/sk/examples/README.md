@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:33:56+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "sk"
-}
--->
 # Príklady AI pre začiatočníkov
 
 Vitajte! Tento adresár obsahuje jednoduché, samostatné príklady, ktoré vám pomôžu začať s AI a strojovým učením. Každý príklad je navrhnutý tak, aby bol priateľský pre začiatočníkov, s podrobnými komentármi a krok za krokom vysvetleniami.

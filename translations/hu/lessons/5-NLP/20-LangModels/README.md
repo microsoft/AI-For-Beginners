@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T11:18:31+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "hu"
-}
--->
 # Előre Trénelt Nagy Nyelvi Modellek
 
 Az eddigi feladataink során mindig egy neurális hálót tanítottunk be egy adott feladat elvégzésére címkézett adathalmaz segítségével. A nagy transzformer modelleknél, mint például a BERT, nyelvi modellezést használunk önfelügyelt módon, hogy létrehozzunk egy nyelvi modellt, amelyet aztán további, specifikus domainre vonatkozó tréninggel specializálunk egy adott feladatra. Azonban bebizonyosodott, hogy a nagy nyelvi modellek számos feladatot képesek megoldani bármilyen domain-specifikus tréning nélkül is. Az ilyen modellek családját **GPT**-nek, azaz Generatív Előre Trénelt Transzformernek nevezzük.

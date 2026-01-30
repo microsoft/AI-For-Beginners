@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T14:03:03+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "sk"
-}
--->
 # Známe architektúry CNN
 
 ### VGG-16
@@ -25,7 +16,7 @@ Ako môžete vidieť, VGG nasleduje tradičnú pyramídovú architektúru, ktor�
 
 ResNet je rodina modelov navrhnutá Microsoft Research v roku 2015. Hlavnou myšlienkou ResNet je použitie **reziduálnych blokov**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/sk/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Obrázok z [tohto článku](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Môžete si tiež predstaviť túto sieť ako schopnú prispôsobiť svoju kompl
 
 Architektúra Google Inception posúva túto myšlienku o krok ďalej a buduje každú vrstvu siete ako kombináciu niekoľkých rôznych ciest:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/sk/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Obrázok z [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

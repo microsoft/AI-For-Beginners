@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:28:53+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "hu"
-}
--->
 # NetLogo Feladat
 
 Válassz egyet a NetLogo könyvtárában található modellek közül, és használd fel arra, hogy egy valós életbeli helyzetet a lehető legpontosabban szimulálj. Egy jó példa lehet, ha az Alternatív Vizualizációk mappában található Vírus modellt módosítod úgy, hogy bemutasd, hogyan használható a COVID-19 terjedésének modellezésére. Tudsz készíteni egy modellt, amely utánozza egy valódi vírus terjedését?

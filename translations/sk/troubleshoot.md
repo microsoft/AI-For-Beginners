@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:50:32+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "sk"
-}
--->
 # AI-For-Beginners Príručka na riešenie problémov
 
 Táto príručka vám pomôže vyriešiť bežné problémy, ktoré sa môžu vyskytnúť pri používaní alebo prispievaní do [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repozitára. Každý problém obsahuje pozadie, príznaky, vysvetlenia a postupné riešenia.

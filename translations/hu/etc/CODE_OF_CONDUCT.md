@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-26T00:44:21+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "hu"
-}
--->
 # Microsoft Nyílt Forráskódú Magatartási Kódex
 
 Ez a projekt elfogadta a [Microsoft Nyílt Forráskódú Magatartási Kódexét](https://opensource.microsoft.com/codeofconduct/).

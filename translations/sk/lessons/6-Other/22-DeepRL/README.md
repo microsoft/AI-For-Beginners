@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T14:02:13+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "sk"
-}
--->
 # Hlboké posilňovacie učenie
 
 Posilňovacie učenie (RL) je považované za jeden zo základných paradigmov strojového učenia, vedľa učenia s učiteľom a učenia bez učiteľa. Zatiaľ čo pri učení s učiteľom sa spoliehame na dataset so známymi výsledkami, RL je založené na **učení sa prostredníctvom skúseností**. Napríklad, keď prvýkrát vidíme počítačovú hru, začneme ju hrať, aj keď nepoznáme pravidlá, a čoskoro dokážeme zlepšiť svoje schopnosti len procesom hrania a prispôsobovania svojho správania.
@@ -34,7 +25,7 @@ Pravdepodobne ste už videli moderné balansovacie zariadenia, ako napríklad *S
 
 Zjednodušená verzia balansovania je známa ako problém **CartPole**. Vo svete CartPole máme horizontálny posúvač, ktorý sa môže pohybovať doľava alebo doprava, a cieľom je balansovať vertikálnu tyč na vrchu posúvača, keď sa pohybuje.
 
-<img alt="cartpole" src="images/cartpole.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/sk/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Na vytvorenie a použitie tohto prostredia potrebujeme niekoľko riadkov kódu v Pythone:
 

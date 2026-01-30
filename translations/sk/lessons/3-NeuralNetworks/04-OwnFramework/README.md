@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T14:08:26+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "sk"
-}
--->
 # Úvod do neurónových sietí. Viacvrstvový perceptron
 
 V predchádzajúcej sekcii ste sa naučili o najjednoduchšom modeli neurónovej siete – jednovrstvovom perceptrone, lineárnom modeli pre dvojtriednu klasifikáciu.
@@ -65,7 +56,7 @@ Algoritmus gradientného zostupu by zostal rovnaký, ale výpočet gradientov by
 
 Všimnite si, že ľavá časť všetkých týchto výrazov je rovnaká, a preto môžeme efektívne počítať derivácie začínajúc stratovou funkciou a postupovať "späť" cez výpočtový graf. Preto sa metóda tréningu viacvrstvového perceptronu nazýva **spätná propagácia**, alebo 'backprop'.
 
-<img alt="výpočtový graf" src="images/ComputeGraphGrad.png"/>
+<img alt="výpočtový graf" src="../../../../../translated_images/sk/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: citácia obrázku
 

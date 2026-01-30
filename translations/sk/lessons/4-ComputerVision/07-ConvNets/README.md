@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T14:02:46+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "sk"
-}
--->
 # Konvolučné neurónové siete
 
 Už sme videli, že neurónové siete sú veľmi dobré pri práci s obrázkami, a dokonca aj jednovrstvový perceptron dokáže rozpoznať ručne písané číslice z datasetu MNIST s primeranou presnosťou. Dataset MNIST je však veľmi špecifický, pretože všetky číslice sú centrované v obrázku, čo úlohu značne zjednodušuje.
@@ -24,7 +15,7 @@ Na extrakciu vzorov použijeme koncept **konvolučných filtrov**. Ako viete, ob
 
 Napríklad, ak aplikujeme 3x3 vertikálny a horizontálny filter hrán na číslice MNIST, môžeme získať zvýraznenia (napr. vysoké hodnoty) tam, kde sú vertikálne a horizontálne hrany v pôvodnom obrázku. Tieto dva filtre teda môžeme použiť na "hľadanie" hrán. Podobne môžeme navrhnúť rôzne filtre na hľadanie iných nízkoúrovňových vzorov:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/sk/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Obrázok [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T11:10:47+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "hu"
-}
--->
 # Előre betanított hálózatok és transzfer tanulás
 
 A CNN-ek (konvolúciós neurális hálózatok) betanítása sok időt vehet igénybe, és ehhez rengeteg adat szükséges. Az idő nagy részét azonban az alacsony szintű szűrők megtanulása teszi ki, amelyek segítségével a hálózat mintákat tud kinyerni a képekből. Felmerül a természetes kérdés: használhatunk-e egy másik adathalmazon betanított neurális hálózatot, és adaptálhatjuk-e azt más képek osztályozására anélkül, hogy teljes betanítási folyamatra lenne szükség?

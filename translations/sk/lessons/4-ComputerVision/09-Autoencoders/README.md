@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T14:05:01+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "sk"
-}
--->
 # Autoenkodéry
 
 Pri trénovaní CNN je jedným z problémov, že potrebujeme veľké množstvo označených dát. V prípade klasifikácie obrázkov musíme obrázky rozdeliť do rôznych tried, čo si vyžaduje manuálnu prácu.
@@ -46,7 +37,7 @@ Zhrnutie:
  * Vzorkujeme vektor `sample` z rozdelenia N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Dekodér sa snaží dekódovať pôvodný obrázok pomocou `sample` ako vstupného vektora
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/sk/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Obrázok z [tohto blogového príspevku](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) od Isaaka Dykemana
 
@@ -57,13 +48,13 @@ Variabilné autoenkodéry používajú komplexnú funkciu straty, ktorá pozost�
 
 Jednou z dôležitých výhod VAE je, že nám umožňujú generovať nové obrázky relatívne jednoducho, pretože vieme, z ktorého rozdelenia vzorkovať latentné vektory. Napríklad, ak trénujeme VAE s 2D latentným vektorom na MNIST, môžeme potom meniť komponenty latentného vektora, aby sme získali rôzne číslice:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/sk/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 
 Pozorujte, ako sa obrázky prelínajú, keď začíname získavať latentné vektory z rôznych častí latentného priestoru parametrov. Tento priestor môžeme tiež vizualizovať v 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/sk/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T11:12:20+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "hu"
-}
--->
 # Autoenkóderek
 
 Amikor CNN-eket (konvolúciós neurális hálózatokat) tanítunk, az egyik probléma az, hogy sok címkézett adatra van szükségünk. Képklasszifikáció esetén például manuálisan kell azonosítani és különböző osztályokba sorolni a képeket.
@@ -46,7 +37,7 @@ A VAE egy olyan autoenkóder, amely megtanulja a latens paraméterek **statiszti
  * Egy `sample` vektort mintázunk az N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)) eloszlásból
  * A dekóder megpróbálja dekódolni az eredeti képet a `sample` vektort bemenetként használva
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/hu/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Kép [Isaak Dykeman blogbejegyzéséből](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
@@ -57,13 +48,13 @@ A variációs autoenkóderek egy összetett veszteségfüggvényt használnak, a
 
 A VAE-k egyik fontos előnye, hogy viszonylag könnyen lehet új képeket generálni, mivel tudjuk, mely eloszlásból kell mintázni a latens vektorokat. Például, ha egy VAE-t tanítunk 2D latens vektorral az MNIST adathalmazon, akkor a latens vektor komponenseit változtatva különböző számjegyeket kapunk:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/hu/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Kép [Dmitry Soshnikovtól](http://soshnikov.com)
 
 Figyeljük meg, hogyan olvadnak össze a képek, ahogy a latens paramétertér különböző részeiből kezdünk latens vektorokat venni. Ezt a teret 2D-ben is vizualizálhatjuk:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/hu/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Kép [Dmitry Soshnikovtól](http://soshnikov.com)
 

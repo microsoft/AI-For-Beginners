@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T11:29:34+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "cs"
-}
--->
 # Mechanismy pozornosti a transformery
 
 ## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Myšlenka pozičního kódování je následující.
 * Trénovatelný embedding, podobně jako embedding tokenů. Tento přístup zde zvažujeme. Aplikujeme vrstvy embeddingu na tokeny i jejich pozice, což vede k embeddingovým vektorům stejných rozměrů, které poté sečteme.
 * Fixní funkce pozičního kódování, jak bylo navrženo v původním článku.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/cs/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Obrázek od autora
 

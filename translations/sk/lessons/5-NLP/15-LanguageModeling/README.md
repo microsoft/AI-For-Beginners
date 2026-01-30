@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T14:09:53+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "sk"
-}
--->
 # Jazykové modelovanie
 
 Sémantické vektory, ako Word2Vec a GloVe, sú v skutočnosti prvým krokom k **jazykovému modelovaniu** – vytváraniu modelov, ktoré nejako *rozumejú* (alebo *reprezentujú*) podstatu jazyka.

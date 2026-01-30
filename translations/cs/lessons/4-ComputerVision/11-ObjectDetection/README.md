@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T11:23:43+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "cs"
-}
--->
 # Detekce objektů
 
 Modely pro klasifikaci obrázků, se kterými jsme se dosud zabývali, přijímaly obrázek a produkovaly kategorický výsledek, například třídu 'číslo' v problému MNIST. V mnoha případech však nechceme jen vědět, že obrázek zobrazuje objekty – chceme být schopni určit jejich přesnou polohu. Přesně o tom je **detekce objektů**.

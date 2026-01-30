@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T11:09:36+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "hu"
-}
--->
 # Mély megerősítéses tanulás
 
 A megerősítéses tanulás (RL) az egyik alapvető gépi tanulási paradigma, a felügyelt tanulás és a nem felügyelt tanulás mellett. Míg a felügyelt tanulás során ismert eredményekkel rendelkező adathalmazra támaszkodunk, az RL a **cselekvés általi tanuláson** alapul. Például, amikor először látunk egy számítógépes játékot, elkezdünk játszani, még akkor is, ha nem ismerjük a szabályokat, és hamarosan képesek vagyunk javítani a képességeinket pusztán a játék és a viselkedésünk módosítása révén.
@@ -34,7 +25,7 @@ Valószínűleg mindannyian láttatok már modern egyensúlyozó eszközöket, m
 
 Az egyensúlyozás egyszerűsített változata **CartPole** problémaként ismert. A CartPole világban van egy vízszintes csúszka, amely balra vagy jobbra mozoghat, és a cél az, hogy egy függőleges rudat egyensúlyozzunk a csúszka tetején, miközben az mozog.
 
-<img alt="egy cartpole" src="images/cartpole.png" width="200"/>
+<img alt="egy cartpole" src="../../../../../translated_images/hu/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Ennek a környezetnek a létrehozásához és használatához néhány Python kódsorra van szükség:
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T11:20:12+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "hu"
-}
--->
 # Szöveg ábrázolása tenzorokként
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Célunk az lesz, hogy a híreket a szöveg alapján az egyik kategóriába sorol
 
 Ha neurális hálózatokkal szeretnénk megoldani természetes nyelvfeldolgozási (NLP) feladatokat, valamilyen módon a szöveget tenzorokként kell ábrázolnunk. A számítógépek már most is számokként ábrázolják a szöveges karaktereket, amelyek a képernyőn megjelenő betűtípusokhoz vannak hozzárendelve, például ASCII vagy UTF-8 kódolás segítségével.
 
-<img alt="Kép, amely egy karakter ASCII és bináris ábrázolását mutatja" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Kép, amely egy karakter ASCII és bináris ábrázolását mutatja" src="../../../../../translated_images/hu/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Kép forrása](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Bizonyos esetekben érdemes lehet tri-gramokat - három szóból álló kombiná
 
 Amikor olyan feladatokat oldunk meg, mint a szöveg osztályozása, képesnek kell lennünk a szöveget egy fix méretű vektorral ábrázolni, amelyet bemenetként használunk a végső sűrű osztályozóhoz. Az egyik legegyszerűbb módja ennek az, ha az egyes szavak ábrázolásait kombináljuk, például összeadjuk őket. Ha minden szó one-hot kódolását összeadjuk, egy gyakorisági vektort kapunk, amely megmutatja, hogy egy-egy szó hányszor fordul elő a szövegben. Az ilyen szövegábrázolást **bag-of-words**-nek (BoW) nevezzük.
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/hu/bow.3811869cff59368d.webp" width="90%"/>
 
 > Kép a szerzőtől
 

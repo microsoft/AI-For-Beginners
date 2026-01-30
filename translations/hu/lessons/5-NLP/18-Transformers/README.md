@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T11:17:48+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "hu"
-}
--->
 # Figyelem Mechanizmusok és Transzformerek
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ A pozíciós kódolás ötlete a következő:
 * Tanítható beágyazás, hasonlóan a token beágyazáshoz. Ezt a megközelítést vesszük figyelembe itt. Beágyazási rétegeket alkalmazunk mind a tokenekre, mind azok pozícióira, amelyek azonos dimenziójú beágyazási vektorokat eredményeznek, amelyeket ezután összeadunk.
 * Fix pozíciós kódoló függvény, ahogy azt az eredeti cikk javasolta.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/hu/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Kép a szerzőtől
 

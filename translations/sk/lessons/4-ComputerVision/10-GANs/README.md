@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T14:05:54+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "sk"
-}
--->
 # Generatívne Adverzárne Siete
 
 V predchádzajúcej sekcii sme sa naučili o **generatívnych modeloch**: modeloch, ktoré dokážu generovať nové obrázky podobné tým v tréningovej množine. VAE bol dobrým príkladom generatívneho modelu.
@@ -17,7 +8,7 @@ Ak sa však pokúsime generovať niečo naozaj zmysluplné, napríklad maľbu v 
 
 Hlavná myšlienka GAN je mať dve neurónové siete, ktoré sa budú trénovať proti sebe:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/sk/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generátor je o niečo zložitejší. Môžete ho považovať za obrátený disk
 
 > ✅ Keďže konvolučná vrstva je implementovaná ako lineárny filter prechádzajúci obrázkom, dekonvolúcia je v podstate podobná konvolúcii a môže byť implementovaná pomocou rovnakej logiky vrstvy.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/sk/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Obrázok od [Dmitry Soshnikov](http://soshnikov.com)
 

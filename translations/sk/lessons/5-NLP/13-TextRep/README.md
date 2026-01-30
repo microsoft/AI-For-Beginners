@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T14:12:19+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "sk"
-}
--->
 # Reprezentácia textu ako tenzorov
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Naším cieľom bude klasifikovať spravodajský článok do jednej z kategóri�
 
 Ak chceme riešiť úlohy spracovania prirodzeného jazyka (NLP) pomocou neurónových sietí, potrebujeme spôsob, ako reprezentovať text ako tenzory. Počítače už reprezentujú textové znaky ako čísla, ktoré mapujú na fonty na vašej obrazovke pomocou kódovaní, ako sú ASCII alebo UTF-8.
 
-<img alt="Obrázok zobrazujúci diagram mapovania znaku na ASCII a binárnu reprezentáciu" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Obrázok zobrazujúci diagram mapovania znaku na ASCII a binárnu reprezentáciu" src="../../../../../translated_images/sk/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Zdroj obrázku](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ V niektorých prípadoch môžeme zvážiť použitie tri-gramov -- kombinácií
 
 Pri riešení úloh, ako je klasifikácia textu, musíme byť schopní reprezentovať text jedným vektorom pevnej veľkosti, ktorý použijeme ako vstup pre konečný hustý klasifikátor. Jedným z najjednoduchších spôsobov, ako to urobiť, je kombinovať všetky individuálne reprezentácie slov, napr. ich sčítaním. Ak sčítame one-hot kódovania každého slova, skončíme s vektorom frekvencií, ktorý ukazuje, koľkokrát sa každé slovo objaví v texte. Takáto reprezentácia textu sa nazýva **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/sk/bow.3811869cff59368d.webp" width="90%"/>
 
 > Obrázok od autora
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-25T23:35:27+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "cs"
-}
--->
 ## Prostředí
 
 Prostředí Mountain Car zahrnuje auto uvězněné v údolí. Vaším cílem je vyskočit z údolí a dosáhnout vlajky. Akce, které můžete provádět, jsou zrychlení doleva, doprava nebo nedělat nic. Můžete pozorovat polohu auta na ose x a jeho rychlost.

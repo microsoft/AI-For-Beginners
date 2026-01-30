@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T14:11:16+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "sk"
-}
--->
 # Rekurentné neurónové siete
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Pozrime sa, ako je organizovaná jednoduchá bunka RNN. Prijíma predchádzajúc
 
 Jednoduchá bunka RNN má vo vnútri dve matice váh: jedna transformuje vstupný symbol (nazvime ju W) a druhá transformuje vstupný stav (H). V tomto prípade sa výstup siete vypočíta ako &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), kde &sigma; je aktivačná funkcia a b je dodatočná bias.
 
-<img alt="Anatómia bunky RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatómia bunky RNN" src="../../../../../translated_images/sk/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Obrázok od autora
 

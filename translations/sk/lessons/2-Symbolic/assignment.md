@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-26T00:33:53+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "sk"
-}
--->
 # Vytvorenie ontológie
 
 Vytvorenie znalostnej bázy spočíva v kategorizácii modelu, ktorý reprezentuje fakty o určitej téme. Vyberte si tému - napríklad osobu, miesto alebo vec - a potom vytvorte model tejto témy. Použite niektoré z techník a stratégií na tvorbu modelov, ktoré sú popísané v tejto lekcii. Príkladom by mohlo byť vytvorenie ontológie obývačky s nábytkom, osvetlením a podobne. Ako sa obývačka líši od kuchyne? Kúpeľne? Ako viete, že ide o obývačku a nie o jedáleň? Použite [Protégé](https://protege.stanford.edu/) na vytvorenie svojej ontológie.

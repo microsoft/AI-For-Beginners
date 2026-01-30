@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T11:30:46+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "cs"
-}
--->
 # Rekurentní neuronové sítě
 
 ## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Podívejme se, jak je organizována jednoduchá RNN buňka. Přijímá předchoz
 
 Jednoduchá RNN buňka má uvnitř dvě váhové matice: jedna transformuje vstupní symbol (nazvěme ji W) a druhá transformuje vstupní stav (H). V tomto případě se výstup sítě vypočítá jako &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), kde &sigma; je aktivační funkce a b je dodatečná bias.
 
-<img alt="Anatomie RNN buňky" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomie RNN buňky" src="../../../../../translated_images/cs/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Obrázek od autora
 

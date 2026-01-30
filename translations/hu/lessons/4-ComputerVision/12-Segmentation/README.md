@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T11:12:51+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "hu"
-}
--->
 # Szegmentáció
 
 Korábban már tanultunk az objektumfelismerésről, amely lehetővé teszi számunkra, hogy azonosítsuk az objektumok helyét a képen az *határoló dobozok* előrejelzésével. Azonban bizonyos feladatokhoz nemcsak határoló dobozokra van szükségünk, hanem pontosabb objektumlokalizációra is. Ezt a feladatot **szegmentációnak** nevezzük.
@@ -20,7 +11,7 @@ A szegmentációt tekinthetjük **pixelek osztályozásának**, ahol a kép **mi
 
 Például az instance szegmentáció esetében ezek a juhok különböző objektumok, míg a szemantikus szegmentáció esetében az összes juh egy osztályba tartozik.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/hu/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Kép ebből a [blogbejegyzésből](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Különböző neurális architektúrák léteznek a szegmentációhoz, de mindeg
 * **Kódoló**: kivonja a jellemzőket a bemeneti képből.
 * **Dekódoló**: ezeket a jellemzőket átalakítja a **maszk képpé**, amelynek mérete és csatornaszáma megegyezik az osztályok számával.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/hu/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Kép ebből a [publikációból](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Ebben a leckében a szegmentációt gyakorlatban is megfigyelhetjük, amikor a h
 
 > ✅ Ez a technika különösen alkalmas az ilyen típusú orvosi képalkotásra, de milyen más valós alkalmazásokat tudnál elképzelni?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/hu/navi.2f20b727910110ea.webp"/>
 
 > Kép a PH<sup>2</sup> adatbázisból
 
