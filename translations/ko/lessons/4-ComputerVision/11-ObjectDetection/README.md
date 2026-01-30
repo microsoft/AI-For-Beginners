@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T13:19:19+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "ko"
-}
--->
 # 객체 탐지
 
 지금까지 다룬 이미지 분류 모델은 이미지를 입력받아 MNIST 문제에서 '숫자' 클래스와 같은 범주형 결과를 출력했습니다. 하지만 많은 경우, 단순히 이미지에 객체가 있다는 것을 아는 것만으로는 충분하지 않습니다. 우리는 객체의 정확한 위치를 파악하고 싶어합니다. 이것이 바로 **객체 탐지**의 핵심입니다.

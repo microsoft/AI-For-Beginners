@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T13:20:12+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ko"
-}
--->
 # 세그멘테이션
 
 이전에 우리는 객체 감지(Object Detection)에 대해 배웠습니다. 객체 감지는 이미지에서 *바운딩 박스*를 예측하여 객체의 위치를 찾을 수 있게 해줍니다. 하지만 일부 작업에서는 바운딩 박스뿐만 아니라 더 정밀한 객체 위치 정보가 필요합니다. 이러한 작업을 **세그멘테이션(Segmentation)**이라고 합니다.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 예를 들어, 인스턴스 세그멘테이션에서는 이 양들이 서로 다른 객체로 구분되지만, 세맨틱 세그멘테이션에서는 모든 양이 하나의 클래스로 표현됩니다.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ko/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > 이미지 출처: [이 블로그 글](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **인코더(Encoder)**: 입력 이미지에서 특징을 추출합니다.
 * **디코더(Decoder)**: 추출된 특징을 **마스크 이미지**로 변환하며, 마스크 이미지는 원본 이미지와 동일한 크기를 가지며 클래스 수에 해당하는 채널을 포함합니다.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ko/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > 이미지 출처: [이 논문](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ 이 기술은 특히 이러한 유형의 의료 영상에 적합하지만, 다른 실생활 응용 사례를 상상해볼 수 있나요?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ko/navi.2f20b727910110ea.webp"/>
 
 > 이미지 출처: PH<sup>2</sup> 데이터베이스
 

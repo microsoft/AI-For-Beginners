@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T10:40:38+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "bn"
-}
--->
 সমস্ত পাঠক্রমের স্কেচনোটগুলি এখান থেকে ডাউনলোড করা যেতে পারে।
 
 🎨 তৈরি করেছেন: টোমোমি ইমুরা (টুইটার: [@girlie_mac](https://twitter.com/girlie_mac), গিটহাব: [girliemac](https://github.com/girliemac))

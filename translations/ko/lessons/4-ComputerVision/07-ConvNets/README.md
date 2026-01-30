@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T13:17:54+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "ko"
-}
--->
 # 컨볼루션 신경망
 
 이전에 신경망이 이미지를 처리하는 데 매우 효과적이며, 단일 계층 퍼셉트론조차도 MNIST 데이터셋의 손글씨 숫자를 합리적인 정확도로 인식할 수 있다는 것을 살펴보았습니다. 하지만 MNIST 데이터셋은 매우 특별하며, 모든 숫자가 이미지 중앙에 위치해 있어 작업이 더 간단해집니다.
@@ -24,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 예를 들어, MNIST 숫자에 3x3 수직 엣지 및 수평 엣지 필터를 적용하면 원본 이미지에서 수직 및 수평 엣지가 있는 부분을 강조 표시(예: 높은 값)할 수 있습니다. 따라서 이 두 필터는 엣지를 "찾는" 데 사용할 수 있습니다. 마찬가지로, 다른 저수준 패턴을 찾기 위해 다양한 필터를 설계할 수 있습니다:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/ko/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > 이미지 출처: [Leung-Malik 필터 뱅크](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

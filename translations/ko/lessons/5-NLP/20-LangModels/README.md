@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T13:24:44+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "ko"
-}
--->
 # 사전 학습된 대형 언어 모델
 
 이전의 모든 작업에서는 레이블이 지정된 데이터셋을 사용하여 특정 작업을 수행하도록 신경망을 훈련했습니다. BERT와 같은 대형 트랜스포머 모델에서는 자기 지도 학습 방식으로 언어 모델링을 사용하여 언어 모델을 구축한 후, 추가적인 도메인 특화 훈련을 통해 특정 다운스트림 작업에 맞게 전문화합니다. 하지만 대형 언어 모델이 도메인 특화 훈련 없이도 많은 작업을 해결할 수 있다는 것이 입증되었습니다. 이러한 작업을 수행할 수 있는 모델군을 **GPT**(Generative Pre-Trained Transformer)라고 합니다.

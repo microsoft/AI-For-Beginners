@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-24T21:38:25+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "ko"
-}
--->
 # Microsoft 오픈 소스 행동 강령
 
 이 프로젝트는 [Microsoft 오픈 소스 행동 강령](https://opensource.microsoft.com/codeofconduct/)을 채택했습니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-24T21:29:39+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "ko"
-}
--->
 # 할리우드 헤드 데이터셋을 이용한 머리 탐지
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)에서 제공하는 실습 과제입니다.

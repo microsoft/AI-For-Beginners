@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-24T10:01:13+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "hi"
-}
--->
 सभी पाठ्यक्रम के स्केच नोट्स यहां से डाउनलोड किए जा सकते हैं।
 
 🎨 बनाया गया: टोमोमी इमुरा (ट्विटर: [@girlie_mac](https://twitter.com/girlie_mac), गिटहब: [girliemac](https://github.com/girliemac))

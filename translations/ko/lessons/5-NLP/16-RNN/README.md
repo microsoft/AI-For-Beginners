@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T13:25:18+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ko"
-}
--->
 # 순환 신경망
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 간단한 RNN 셀은 내부에 두 개의 가중치 행렬을 가지고 있습니다. 하나는 입력 기호를 변환하고(W라고 부르겠습니다), 다른 하나는 입력 상태를 변환합니다(H). 이 경우 네트워크의 출력은 &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b)로 계산되며, 여기서 &sigma;는 활성화 함수이고 b는 추가적인 바이어스입니다.
 
-<img alt="RNN 셀 구조" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN 셀 구조" src="../../../../../translated_images/ko/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > 저자 제공 이미지
 

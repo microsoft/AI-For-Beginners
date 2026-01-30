@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-24T21:33:28+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "ko"
-}
--->
 # 멀티모달 네트워크
 
 Transformer 모델이 NLP 작업을 해결하는 데 성공한 이후, 동일하거나 유사한 아키텍처가 컴퓨터 비전 작업에도 적용되었습니다. 시각적 정보와 자연어 처리 능력을 *결합*하는 모델을 구축하려는 관심이 점점 커지고 있습니다. 이러한 시도 중 하나는 OpenAI에서 개발한 CLIP와 DALL.E입니다.

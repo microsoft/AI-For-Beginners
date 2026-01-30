@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-24T09:52:07+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "hi"
-}
--->
 # कंप्यूटर विज़न
 
 ![कंप्यूटर विज़न सामग्री का सारांश एक डूडल में](../../../../lessons/sketchnotes/ai-computervision.png)

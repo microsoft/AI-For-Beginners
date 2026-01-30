@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-08-24T21:26:47+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "ko"
-}
--->
 # NER
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)에서 제공하는 실습 과제입니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-24T21:25:38+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "ko"
-}
--->
 # Skip-Gram 모델 학습
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)에서 제공하는 실습 과제입니다.

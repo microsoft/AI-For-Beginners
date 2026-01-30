@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-24T21:32:55+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "ko"
-}
--->
 # NetLogo 과제
 
 NetLogo의 라이브러리에 있는 모델 중 하나를 선택하여 실제 상황을 최대한 가깝게 시뮬레이션하세요. 좋은 예로는 Alternative Visualizations 폴더에 있는 Virus 모델을 조정하여 COVID-19의 확산을 모델링하는 방법을 보여주는 것입니다. 실제 바이러스 확산을 모방하는 모델을 만들 수 있나요?

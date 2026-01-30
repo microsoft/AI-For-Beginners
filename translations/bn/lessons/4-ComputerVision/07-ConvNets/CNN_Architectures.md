@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T07:45:44+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "bn"
-}
--->
 # পরিচিত CNN আর্কিটেকচার
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 একটি নেটওয়ার্ক যা ২০১৪ সাল
 
 ResNet হলো Microsoft Research দ্বারা ২০১৫ সালে প্রস্তাবিত মডেলের একটি পরিবার। ResNet-এর মূল ধারণা হলো **residual blocks** ব্যবহার করা:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/bn/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > ছবি [এই গবেষণাপত্র](https://arxiv.org/pdf/1512.03385.pdf) থেকে
 
@@ -37,7 +28,7 @@ Identity pass-through ব্যবহারের কারণ হলো আম�
 
 Google Inception আর্কিটেকচার এই ধারণাকে আরও এক ধাপ এগিয়ে নিয়ে যায় এবং প্রতিটি নেটওয়ার্ক স্তরকে বিভিন্ন পথের সমন্বয়ে তৈরি করে:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/bn/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > ছবি [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) থেকে
 

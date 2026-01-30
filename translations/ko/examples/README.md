@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:28:24+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "ko"
-}
--->
 # 초보자를 위한 AI 예제
 
 환영합니다! 이 디렉토리에는 AI와 머신러닝을 시작하는 데 도움을 주기 위한 간단하고 독립적인 예제가 포함되어 있습니다. 각 예제는 초보자가 쉽게 이해할 수 있도록 상세한 주석과 단계별 설명을 제공합니다.

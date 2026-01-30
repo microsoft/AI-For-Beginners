@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-  "translation_date": "2025-08-26T10:46:05+00:00",
-  "source_file": "lessons/sketchnotes/LICENSE.md",
-  "language_code": "bn"
-}
--->
 অ্যাট্রিবিউশন-শেয়ারঅলাইক ৪.০ ইন্টারন্যাশনাল
 
 =======================================================================

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T07:52:55+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "bn"
-}
--->
 # অ্যাটেনশন মেকানিজম এবং ট্রান্সফর্মার
 
 ## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ RNN ব্যবহার করে সিকোয়েন্স-টু-সি
 * টোকেন এম্বেডিংয়ের মতো ট্রেনযোগ্য এম্বেডিং। এখানে আমরা এই পদ্ধতিটি বিবেচনা করি। আমরা টোকেন এবং তাদের অবস্থানের উপর এম্বেডিং লেয়ার প্রয়োগ করি, যার ফলে একই মাত্রার এম্বেডিং ভেক্টর তৈরি হয়, যা আমরা একসাথে যোগ করি।
 * মূল পত্রে প্রস্তাবিত স্থির অবস্থান এনকোডিং ফাংশন।
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/bn/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > লেখকের তৈরি চিত্র
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-08-24T21:28:36+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "ko"
-}
--->
 # 인간 신체 분할
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)에서 제공하는 실습 과제입니다.

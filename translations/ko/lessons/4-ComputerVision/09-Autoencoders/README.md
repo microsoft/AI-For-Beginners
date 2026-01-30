@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T13:19:48+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "ko"
-}
--->
 # 오토인코더
 
 CNN을 훈련할 때, 문제 중 하나는 많은 라벨링된 데이터가 필요하다는 점입니다. 이미지 분류의 경우, 이미지를 서로 다른 클래스에 나누는 작업이 수작업으로 이루어져야 합니다.
@@ -46,7 +37,7 @@ VAE는 잠재 매개변수의 *통계적 분포*를 예측하도록 학습하는
 * 분포 N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))에서 벡터 `sample`을 샘플링합니다.
 * 디코더는 `sample`을 입력 벡터로 사용하여 원본 이미지를 디코딩하려고 합니다.
 
-<img src="images/vae.png" width="50%">
+<img src="../../../../../translated_images/ko/vae.464c465a5b6a9e25.webp" width="50%">
 
 > 이미지 출처: [Isaak Dykeman의 블로그 글](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
@@ -57,13 +48,13 @@ VAE는 잠재 매개변수의 *통계적 분포*를 예측하도록 학습하는
 
 VAE의 중요한 장점 중 하나는 잠재 벡터를 샘플링할 분포를 알고 있기 때문에 새로운 이미지를 비교적 쉽게 생성할 수 있다는 점입니다. 예를 들어, MNIST 데이터셋에서 2D 잠재 벡터를 사용하여 VAE를 훈련하면, 잠재 벡터의 구성 요소를 변화시켜 서로 다른 숫자를 얻을 수 있습니다:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/ko/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 
 잠재 매개변수 공간의 다른 부분에서 잠재 벡터를 가져오면서 이미지가 서로 섞이는 과정을 관찰할 수 있습니다. 또한 이 공간을 2D로 시각화할 수도 있습니다:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/ko/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 

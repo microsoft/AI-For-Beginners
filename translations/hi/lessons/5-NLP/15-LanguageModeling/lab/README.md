@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-24T09:50:19+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "hi"
-}
--->
 # स्किप-ग्राम मॉडल का प्रशिक्षण
 
 [एआई फॉर बिगिनर्स करिकुलम](https://github.com/microsoft/ai-for-beginners) से लैब असाइनमेंट।

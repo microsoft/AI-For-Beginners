@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T13:30:45+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "hi"
-}
--->
 # विभाजन
 
 हमने पहले ऑब्जेक्ट डिटेक्शन के बारे में सीखा था, जो हमें *बाउंडिंग बॉक्सेस* की भविष्यवाणी करके इमेज में ऑब्जेक्ट्स को लोकेट करने की अनुमति देता है। हालांकि, कुछ कार्यों के लिए हमें केवल बाउंडिंग बॉक्सेस की आवश्यकता नहीं होती, बल्कि ऑब्जेक्ट्स का अधिक सटीक स्थानीयकरण चाहिए। इस कार्य को **विभाजन (Segmentation)** कहा जाता है।
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 उदाहरण के लिए, इंस्टेंस विभाजन में ये भेड़ें अलग-अलग ऑब्जेक्ट्स हैं, लेकिन सामान्य विभाजन में सभी भेड़ों को एक ही क्लास के रूप में दिखाया जाता है।
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/hi/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > इमेज [इस ब्लॉग पोस्ट](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) से ली गई है
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **एन्कोडर (Encoder)** इनपुट इमेज से फीचर्स निकालता है।
 * **डीकोडर (Decoder)** उन फीचर्स को **मास्क इमेज** में बदलता है, जिसका आकार और चैनल्स की संख्या क्लासेस की संख्या के अनुरूप होती है।
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/hi/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > इमेज [इस प्रकाशन](https://arxiv.org/pdf/2001.05566.pdf) से ली गई है
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ यह तकनीक इस प्रकार की मेडिकल इमेजिंग के लिए विशेष रूप से उपयुक्त है, लेकिन आप अन्य वास्तविक दुनिया के अनुप्रयोगों की कल्पना कैसे कर सकते हैं?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/hi/navi.2f20b727910110ea.webp"/>
 
 > इमेज PH<sup>2</sup> डेटाबेस से ली गई है
 

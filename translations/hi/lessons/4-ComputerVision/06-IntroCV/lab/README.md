@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-24T09:56:02+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "hi"
-}
--->
 # ऑप्टिकल फ्लो का उपयोग करके मूवमेंट का पता लगाना
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) से लैब असाइनमेंट।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-24T21:24:33+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "ko"
-}
--->
 # 과제: 노트북
 
 이 강의와 관련된 노트북(예: PyTorch 또는 TensorFlow 버전)을 사용하여, 자신의 데이터셋을 활용해 다시 실행해 보세요. Kaggle에서 가져온 데이터셋을 사용하고 출처를 명시하세요. 노트북을 재작성하여 자신의 발견 내용을 강조하세요. 다른 종류의 데이터셋을 시도하고, [이 Beatles 가사](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics)와 같은 텍스트를 사용하여 결과를 문서화해 보세요.

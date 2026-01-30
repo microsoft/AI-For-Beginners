@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T13:22:36+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ko"
-}
--->
 # 신경망 소개: 다층 퍼셉트론
 
 이전 섹션에서는 가장 간단한 신경망 모델인 단일 계층 퍼셉트론, 즉 선형 이진 분류 모델에 대해 배웠습니다.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 위 표현식의 가장 왼쪽 부분은 동일하므로, 손실 함수에서 시작하여 계산 그래프를 "역방향"으로 따라가며 도함수를 효과적으로 계산할 수 있습니다. 따라서 다층 퍼셉트론을 훈련하는 방법을 **역전파**(backpropagation) 또는 '백프롭'이라고 합니다.
 
-<img alt="계산 그래프" src="images/ComputeGraphGrad.png"/>
+<img alt="계산 그래프" src="../../../../../translated_images/ko/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: 이미지 출처
 

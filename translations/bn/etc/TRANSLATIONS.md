@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T11:18:17+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "bn"
-}
--->
 # পাঠগুলি অনুবাদ করে অবদান রাখুন
 
 আমরা এই পাঠ্যক্রমের পাঠগুলির জন্য অনুবাদকে স্বাগত জানাই!

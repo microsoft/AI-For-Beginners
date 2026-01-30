@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T13:20:26+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ko"
-}
--->
 # 생성적 적대 신경망 (Generative Adversarial Networks)
 
 이전 섹션에서는 **생성 모델**에 대해 배웠습니다. 생성 모델은 학습 데이터셋에 있는 이미지와 유사한 새로운 이미지를 생성할 수 있는 모델입니다. VAE는 생성 모델의 좋은 예시였습니다.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GAN의 주요 아이디어는 두 개의 신경망을 서로 경쟁하며 학습시키는 것입니다:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ko/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator는 약간 더 복잡합니다. 이를 Discriminator의 반대로 생�
 
 > ✅ 컨볼루션 레이어가 이미지를 따라 선형 필터로 구현되기 때문에, 디컨볼루션은 본질적으로 컨볼루션과 유사하며 동일한 레이어 로직을 사용하여 구현할 수 있습니다.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ko/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 

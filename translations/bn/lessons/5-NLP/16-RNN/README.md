@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T07:54:01+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "bn"
-}
--->
 # রিকারেন্ট নিউরাল নেটওয়ার্ক
 
 ## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 একটি সাধারণ RNN সেলের ভিতরে দুটি ওজন ম্যাট্রিক্স থাকে: একটি ইনপুট প্রতীককে রূপান্তরিত করে (চলুন একে W বলি), এবং অন্যটি ইনপুট স্টেটকে রূপান্তরিত করে (H)। এই ক্ষেত্রে নেটওয়ার্কের আউটপুট হিসাব করা হয় &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), যেখানে &sigma; হল অ্যাক্টিভেশন ফাংশন এবং b হল অতিরিক্ত বায়াস।
 
-<img alt="RNN সেলের গঠন" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN সেলের গঠন" src="../../../../../translated_images/bn/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > লেখকের তৈরি ছবি
 

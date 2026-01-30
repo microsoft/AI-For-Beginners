@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T13:18:28+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "ko"
-}
--->
 # 사전 학습된 네트워크와 전이 학습
 
 CNN을 훈련시키는 데는 많은 시간이 걸리며, 이를 위해 많은 데이터가 필요합니다. 하지만 대부분의 시간은 네트워크가 이미지를 통해 패턴을 추출할 수 있는 최적의 저수준 필터를 학습하는 데 소비됩니다. 여기서 자연스럽게 이런 질문이 떠오릅니다. 한 데이터셋에서 훈련된 신경망을 사용하여 완전한 훈련 과정 없이 다른 이미지를 분류하도록 적응시킬 수 있을까요?

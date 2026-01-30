@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-24T21:25:21+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "ko"
-}
--->
 # 과제: 노트북
 
 이 강의와 관련된 노트북( PyTorch 또는 TensorFlow 버전 중 하나)을 사용하여, 자신의 데이터셋으로 다시 실행해 보세요. 데이터셋은 Kaggle에서 가져온 것을 사용하고 출처를 명시하세요. 노트북을 다시 작성하여 자신의 발견 내용을 강조하세요. 예상치 못한 흥미로운 데이터셋을 시도해보세요. 예를 들어, NUFORC에서 제공하는 [UFO 목격 사례에 대한 데이터셋](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) 같은 것이 있습니다.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-24T09:50:28+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "hi"
-}
--->
 # असाइनमेंट: ट्रांसफॉर्मर्स
 
 HuggingFace पर ट्रांसफॉर्मर्स के साथ प्रयोग करें! उनकी साइट पर उपलब्ध विभिन्न मॉडलों के साथ काम करने के लिए दिए गए स्क्रिप्ट्स का उपयोग करें: https://huggingface.co/docs/transformers/run_scripts। उनके किसी एक डेटासेट को आज़माएं, फिर इस पाठ्यक्रम या Kaggle से अपना खुद का एक डेटासेट आयात करें और देखें कि क्या आप रोचक टेक्स्ट जनरेट कर सकते हैं। अपने निष्कर्षों के साथ एक नोटबुक तैयार करें।
