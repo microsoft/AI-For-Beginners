@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T06:04:58+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "hr"
-}
--->
 # Kako pokrenuti kod
 
 Ovaj nastavni plan sadrži mnogo izvršnih primjera i laboratorijskih vježbi koje želite pokrenuti. Da biste to učinili, morate imati mogućnost izvršavanja Python koda u Jupyter bilježnicama koje su dio ovog nastavnog plana. Imate nekoliko opcija za pokretanje koda:

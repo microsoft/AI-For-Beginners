@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T15:13:39+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "my"
-}
--->
 # အနက်ရှိုင်းသော Reinforcement Learning
 
 Reinforcement learning (RL) သည် supervised learning နှင့် unsupervised learning အနက် machine learning ရဲ့ အခြေခံ paradigm တစ်ခုအဖြစ် သတ်မှတ်ထားသည်။ Supervised learning တွင် ရလဒ်များကို သိရှိထားသော dataset ကို အခြေခံပြီး လေ့လာရသလို RL တွင် **လုပ်ဆောင်ခြင်းမှတစ်ဆင့် လေ့လာခြင်း** ကို အခြေခံသည်။ ဥပမာအားဖြင့် ပထမဆုံး computer game ကို မြင်တွေ့သောအခါ ကျွန်ုပ်တို့သည် အစပျိုးက စတင်ကစားပြီး game ရဲ့ rule များကို မသိရှိဘဲဖြစ်စေ ကစားရင်း ကျွန်ုပ်တို့၏ ကျွမ်းကျင်မှုကို တိုးတက်စေသည်။
@@ -34,7 +25,7 @@ Segway သို့မဟုတ် Gyroscooters ကဲ့သို့သော �
 
 Balancing ရဲ့ simplified version ကို **CartPole** problem ဟု သိထားသည်။ CartPole world တွင် horizontal slider တစ်ခုရှိပြီး left သို့မဟုတ် right သို့ ရွှေ့နိုင်သည်။ ၎င်း slider ရဲ့ အပေါ်တွင် vertical pole ကို balance လုပ်ရန် ရည်ရွယ်ထားသည်။
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/my/cartpole.f52a67f27e058170.webp" width="200"/>
 
 ဒီ environment ကို ဖန်တီးပြီး အသုံးပြုရန် Python code အချို့လိုအပ်သည် -
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-25T21:37:49+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "my"
-}
--->
 # အလုပ်ပေးချက်: နိုတ်ဘွတ်များ
 
 ဒီသင်ခန်းစာနှင့်ဆက်စပ်နေသော နိုတ်ဘွတ်များ (PyTorch version သို့မဟုတ် TensorFlow version) ကို သင့်ရဲ့ dataset ကို အသုံးပြုပြီး ပြန်လည်ရိုက်ပါ။ Kaggle မှ dataset တစ်ခုကို attribution ဖြင့် အသုံးပြုနိုင်ပါသည်။ သင့်ရဲ့ ရလဒ်များကို အထောက်အထားပြရန် နိုတ်ဘွတ်ကို ပြန်ရေးပါ။ အခြား dataset အမျိုးအစားတစ်ခုကို စမ်းသပ်ပြီး သင့်ရဲ့ ရလဒ်များကို documentation ဖြင့် မှတ်တမ်းတင်ပါ။ ဥပမာအားဖြင့် [ဒီ Kaggle ပြိုင်ပွဲ dataset (ရာသီဥတုနှင့်ပတ်သက်သော Twitter)](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv) ကို အသုံးပြုနိုင်ပါသည်။

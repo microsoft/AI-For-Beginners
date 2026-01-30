@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T15:26:49+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "my"
-}
--->
 # တိုကင်ဆာများကို Tensor အဖြစ်ဖော်ပြခြင်း
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Neural network များဖြင့် သဘာဝဘာသာစကားလုပ်ငန်းများ (NLP) ကို ဖြေရှင်းလိုပါက၊ စာသားကို tensor အဖြစ်ဖော်ပြရန် နည်းလမ်းတစ်ခုလိုအပ်သည်။ ကွန်ပျူတာများသည် ASCII သို့မဟုတ် UTF-8 ကဲ့သို့သော encoding များကို အသုံးပြု၍ စာသားအက္ခရာများကို နံပါတ်များအဖြစ် ဖော်ပြထားပြီး သင့် screen ပေါ်တွင် font များအဖြစ် ပြသထားသည်။
 
-<img alt="အက္ခရာကို ASCII နှင့် binary ဖော်ပြချက်များသို့ mapping ပြုလုပ်ထားသော diagram ကို ပြသထားသော ပုံ" src="images/ascii-character-map.png" width="50%"/>
+<img alt="အက္ခရာကို ASCII နှင့် binary ဖော်ပြချက်များသို့ mapping ပြုလုပ်ထားသော diagram ကို ပြသထားသော ပုံ" src="../../../../../translated_images/my/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [ပုံရင်းအရင်းအမြစ်](https://www.seobility.net/en/wiki/ASCII)
 
@@ -50,7 +41,7 @@ Neural network များဖြင့် သဘာဝဘာသာစကား�
 
 စာသားအမျိုးအစားခွဲခြင်းကဲ့သို့သော အလုပ်များကို ဖြေရှင်းရာတွင်၊ စာသားကို fixed-size vector တစ်ခုအဖြစ် ဖော်ပြနိုင်ရမည်။ ဤ vector ကို နောက်ဆုံး dense classifier သို့ input အဖြစ် အသုံးပြုမည်။ အလွယ်ဆုံးနည်းလမ်းတစ်ခုမှာ စကားလုံးတစ်ခုစီ၏ representation များကို ပေါင်းစည်းခြင်းဖြစ်သည်။ စကားလုံးတစ်ခုစီ၏ one-hot encoding များကို ပေါင်းစည်းပါက၊ စကားလုံးတစ်ခုစီသည် စာသားအတွင်း ရှိသောအကြိမ်ရေကို ဖော်ပြသော frequency vector ကို ရရှိမည်။ ဤ representation ကို **bag of words** (BoW) ဟုခေါ်သည်။
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/my/bow.3811869cff59368d.webp" width="90%"/>
 
 > ပုံရေးသားသူ
 

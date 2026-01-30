@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T15:04:51+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "sl"
-}
--->
 # Segmentacija
 
 Prej smo se učili o zaznavanju objektov, ki nam omogoča lociranje objektov na sliki z napovedovanjem njihovih *omejevalnih okvirjev*. Vendar pa za nekatere naloge ne potrebujemo le omejevalnih okvirjev, temveč tudi bolj natančno lokalizacijo objektov. Ta naloga se imenuje **segmentacija**.
@@ -20,7 +11,7 @@ Segmentacijo lahko obravnavamo kot **klasifikacijo pikslov**, kjer moramo za **v
 
 Pri segmentaciji instanc so te ovce različni objekti, medtem ko pri semantični segmentaciji vse ovce predstavljajo en razred.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/sl/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Slika iz [tega bloga](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Obstajajo različne nevronske arhitekture za segmentacijo, vendar imajo vse enak
 * **Kodirnik** izlušči značilnosti iz vhodne slike.
 * **Dekodirnik** pretvori te značilnosti v **sliko maske**, ki ima enako velikost in število kanalov, ki ustrezajo številu razredov.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/sl/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Slika iz [tega prispevka](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ V tej lekciji bomo videli segmentacijo v praksi, ko bomo trenirali omrežje za p
 
 > ✅ Ta tehnika je še posebej primerna za tovrstno medicinsko slikanje, vendar katere druge aplikacije v resničnem svetu si lahko zamislite?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/sl/navi.2f20b727910110ea.webp"/>
 
 > Slika iz PH<sup>2</sup> baze podatkov
 

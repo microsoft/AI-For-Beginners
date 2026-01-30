@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T14:49:30+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "hr"
-}
--->
 # Višeagentski sustavi
 
 Jedan od mogućih načina postizanja inteligencije je takozvani **emergentni** (ili **sinergijski**) pristup, koji se temelji na činjenici da kombinirano ponašanje mnogih relativno jednostavnih agenata može rezultirati ukupno složenijim (ili inteligentnijim) ponašanjem sustava u cjelini. Teoretski, ovo se temelji na principima [kolektivne inteligencije](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentizma](https://en.wikipedia.org/wiki/Global_brain) i [evolucijske kibernetike](https://en.wikipedia.org/wiki/Global_brain), koji tvrde da sustavi višeg nivoa dobivaju neku vrstu dodane vrijednosti kada se pravilno kombiniraju iz sustava nižeg nivoa (tzv. *princip prijelaza metasustava*).
@@ -60,7 +51,7 @@ Možete [preuzeti](https://ccl.northwestern.edu/netlogo/download.shtml) i instal
 
 Sjajna stvar kod NetLoga je da sadrži biblioteku radnih modela koje možete isprobati. Idite na **File &rightarrow; Models Library**, i imate mnogo kategorija modela za odabir.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/hr/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Snimka zaslona biblioteke modela Dmitryja Soshnikova
 

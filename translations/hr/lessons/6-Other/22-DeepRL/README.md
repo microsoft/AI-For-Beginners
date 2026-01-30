@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T14:50:11+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "hr"
-}
--->
 # Duboko pojačano učenje
 
 Pojačano učenje (RL) smatra se jednim od osnovnih paradigmi strojnog učenja, uz nadzirano učenje i nenadzirano učenje. Dok se u nadziranom učenju oslanjamo na skup podataka s poznatim ishodima, RL se temelji na **učenju kroz rad**. Na primjer, kada prvi put vidimo računalnu igru, počinjemo igrati, čak i bez poznavanja pravila, i ubrzo poboljšavamo svoje vještine samo kroz proces igranja i prilagođavanja ponašanja.
@@ -34,7 +25,7 @@ Vjerojatno ste svi vidjeli moderne uređaje za balansiranje poput *Segwaya* ili 
 
 Pojednostavljena verzija balansiranja poznata je kao problem **CartPole**. U svijetu CartPole-a imamo horizontalni klizač koji se može kretati lijevo ili desno, a cilj je balansirati vertikalni štap na vrhu klizača dok se kreće.
 
-<img alt="cartpole" src="images/cartpole.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/hr/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Za stvaranje i korištenje ovog okruženja potrebno je nekoliko linija Python koda:
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-25T23:15:43+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "my"
-}
--->
 # အနက်ရှိုင်းသော သင်ကြားမှု လေ့ကျင့်မှု နည်းလမ်းများ
 
 နယူးရယ်နက်ဝက်များ ပိုမိုနက်ရှိုင်းလာသည်နှင့်အမျှ၊ ၎င်းတို့ကို လေ့ကျင့်ခြင်းလုပ်ငန်းစဉ်သည် ပိုမိုခက်ခဲလာသည်။ အဓိကပြဿနာတစ်ခုမှာ [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) သို့မဟုတ် [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) ဖြစ်သည်။ [ဒီပို့စ်](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) သည် ၎င်းပြဿနာများအပေါ် အကျဉ်းချုပ်ကောင်းတစ်ခုကို ပေးသည်။

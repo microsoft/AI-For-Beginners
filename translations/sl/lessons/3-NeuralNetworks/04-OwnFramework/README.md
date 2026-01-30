@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T15:07:58+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "sl"
-}
--->
 # Uvod v nevronske mreže. Večplastni perceptron
 
 V prejšnjem poglavju ste spoznali najpreprostejši model nevronske mreže - enoplastni perceptron, linearen model za klasifikacijo dveh razredov.
@@ -65,7 +56,7 @@ Algoritem gradientnega spusta ostane enak, vendar je izračun gradientov bolj za
 
 Opazite, da je skrajno levi del vseh teh izrazov enak, zato lahko učinkovito izračunamo odvode, začenši s funkcijo izgube in gremo "nazaj" skozi računski graf. Zato se metoda učenja večplastnega perceptrona imenuje **povratno razširjanje** ali 'backprop'.
 
-<img alt="računski graf" src="images/ComputeGraphGrad.png"/>
+<img alt="računski graf" src="../../../../../translated_images/sl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: navedba vira slike
 

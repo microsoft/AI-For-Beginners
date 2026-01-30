@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:53:09+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "sl"
-}
--->
 # Vodnik za odpravljanje težav pri AI-For-Beginners
 
 Ta vodnik vam pomaga rešiti pogoste težave, ki se pojavijo pri uporabi ali prispevanju v repozitorij [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Vsaka težava vključuje ozadje, simptome, razlage in korake za rešitev.

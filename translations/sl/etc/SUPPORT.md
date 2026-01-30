@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-26T00:44:01+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "sl"
-}
--->
 # Podpora
 
 ## Kako prijaviti težave in dobiti pomoč  

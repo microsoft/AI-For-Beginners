@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T15:25:46+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "my"
-}
--->
 # Recurrent Neural Networks
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ State vectors S<sub>0</sub>,...,S<sub>n</sub> များကို network အ�
 
 ရိုးရှင်းသော RNN cell တစ်ခုတွင် weight matrices နှစ်ခုပါဝင်သည်- input symbol ကို transform လုပ်သော W နှင့် input state ကို transform လုပ်သော H တစ်ခု။ ဤအခြေအနေတွင် network ၏ output ကို &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) အဖြစ်တွက်ချက်သည်၊ &sigma; သည် activation function ဖြစ်ပြီး b သည် bias ဖြစ်သည်။
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/my/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > ပုံကို စာရေးသူမှ ဖန်တီးသည်
 

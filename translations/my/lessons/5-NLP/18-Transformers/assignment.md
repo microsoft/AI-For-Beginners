@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-25T22:05:50+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "my"
-}
--->
 # တာဝန်: Transformers
 
 HuggingFace တွင် Transformers ကို စမ်းသပ်ကြည့်ပါ! သူတို့၏ ဝက်ဘ်ဆိုဒ် https://huggingface.co/docs/transformers/run_scripts တွင် ရရှိနိုင်သော မော်ဒယ်များနှင့် အလုပ်လုပ်ရန် ပံ့ပိုးထားသော စာတမ်းများကို စမ်းသပ်ကြည့်ပါ။ သူတို့၏ ဒေတာစနစ်တစ်ခုကို စမ်းသပ်ပြီး၊ ထို့နောက် သင်၏ သင်ရိုးညွှန်းတစ်ခုမှ သို့မဟုတ် Kaggle မှ သင်၏ကိုယ်ပိုင် ဒေတာစနစ်တစ်ခုကို တင်သွင်းပြီး စိတ်ဝင်စားဖွယ် စာသားများကို ထုတ်လုပ်နိုင်မလား ကြည့်ပါ။ သင်၏ ရလဒ်များနှင့်အတူ notebook တစ်ခု ထုတ်လုပ်ပါ။

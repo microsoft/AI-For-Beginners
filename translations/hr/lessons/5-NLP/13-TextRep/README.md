@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T15:00:14+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "hr"
-}
--->
 # Predstavljanje teksta kao tenzora
 
 ## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Naš cilj bit će klasificirati vijest u jednu od kategorija na temelju teksta.
 
 Ako želimo rješavati zadatke obrade prirodnog jezika (NLP) pomoću neuronskih mreža, trebamo način za predstavljanje teksta kao tenzora. Računala već predstavljaju tekstualne znakove kao brojeve koji se mapiraju na fontove na vašem ekranu koristeći kodiranja poput ASCII ili UTF-8.
 
-<img alt="Slika koja prikazuje dijagram mapiranja znaka na ASCII i binarnu reprezentaciju" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Slika koja prikazuje dijagram mapiranja znaka na ASCII i binarnu reprezentaciju" src="../../../../../translated_images/hr/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Izvor slike](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ U nekim slučajevima možemo razmotriti korištenje tri-grama -- kombinacija tri
 
 Kod rješavanja zadataka poput klasifikacije teksta, trebamo biti u mogućnosti predstaviti tekst jednim vektorom fiksne veličine, koji ćemo koristiti kao ulaz za završni gusti klasifikator. Jedan od najjednostavnijih načina za to je kombiniranje svih pojedinačnih reprezentacija riječi, npr. njihovim zbrajanjem. Ako zbrojimo one-hot kodiranja svake riječi, dobit ćemo vektor frekvencija, koji pokazuje koliko se puta svaka riječ pojavljuje unutar teksta. Takva reprezentacija teksta naziva se **bag-of-words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/hr/bow.3811869cff59368d.webp" width="90%"/>
 
 > Slika autora
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T21:26:09+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "sl"
-}
--->
 # Etična in odgovorna umetna inteligenca
 
 Skoraj ste zaključili ta tečaj in upam, da zdaj jasno vidite, da je umetna inteligenca (UI) osnovana na številnih formalnih matematičnih metodah, ki nam omogočajo iskanje povezav v podatkih in učenje modelov za posnemanje določenih vidikov človeškega vedenja. V tem trenutku zgodovine umetno inteligenco obravnavamo kot zelo močno orodje za pridobivanje vzorcev iz podatkov in uporabo teh vzorcev za reševanje novih težav.

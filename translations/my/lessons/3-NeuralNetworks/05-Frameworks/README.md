@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T15:23:03+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "my"
-}
--->
 # Neural Network Frameworks
 
 ကျွန်ုပ်တို့သိရှိပြီးသားအတိုင်း၊ နယူးရယ်နက်ဝက်များကို ထိရောက်စွာလေ့ကျင့်နိုင်ရန်အတွက် အောက်ပါအရာနှစ်ခုကို လုပ်ဆောင်ရမည်ဖြစ်သည်-

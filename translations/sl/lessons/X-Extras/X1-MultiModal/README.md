@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:40:17+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "sl"
-}
--->
 # Multi-modalna omrežja
 
 Po uspehu modelov transformatorjev pri reševanju nalog NLP so bile iste ali podobne arhitekture uporabljene tudi za naloge računalniškega vida. Narašča zanimanje za gradnjo modelov, ki bi *združevali* sposobnosti vida in naravnega jezika. Eden takšnih poskusov je bil izveden s strani OpenAI, imenovan CLIP in DALL.E.

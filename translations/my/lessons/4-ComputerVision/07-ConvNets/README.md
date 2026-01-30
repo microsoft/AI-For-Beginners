@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T15:14:13+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "my"
-}
--->
 # Convolutional Neural Networks
 
 မကြာသေးမီက ကျွန်တော်တို့ neural networks တွေဟာ ပုံတွေကို ကောင်းကောင်းကိုင်တွယ်နိုင်ပြီး၊ တစ်လွှာတည်းသော perceptron ကတောင် MNIST dataset ထဲက လက်ရေးအက္ခရာဂဏန်းတွေကို တော်တော်လေးတိကျမှုရှိရှိနဲ့ မှတ်မိနိုင်တယ်ဆိုတာကို မြင်ခဲ့ပါတယ်။ သို့သော်လည်း MNIST dataset ဟာ အထူးတလည်ဖြစ်ပြီး၊ အက္ခရာဂဏန်းတွေဟာ ပုံထဲမှာ အလယ်မှာထားရှိထားတာကြောင့် အလုပ်ကို ပိုမိုလွယ်ကူစေပါတယ်။
@@ -24,7 +15,7 @@ Patterns တွေကို ရှာဖွေဖို့ **convolutional filte
 
 ဥပမာ၊ MNIST digits တွေကို 3x3 vertical edge နဲ့ horizontal edge filters တွေကို အသုံးပြုရင်၊ မူရင်းပုံထဲမှာ vertical နဲ့ horizontal edges ရှိတဲ့နေရာတွေမှာ highlight (ဥပမာ high values) တွေကို ရနိုင်ပါတယ်။ ဒါကြောင့် အဲဒီ filter နှစ်ခုကို edges တွေကို "ရှာဖွေ"ဖို့ အသုံးပြုနိုင်ပါတယ်။ အဲဒီလိုပဲ၊ အခြား low-level patterns တွေကို ရှာဖွေဖို့ filter တွေကို design လုပ်နိုင်ပါတယ်။
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/my/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Image of [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T15:03:07+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "sl"
-}
--->
 # Uvod v računalniški vid
 
 [Računalniški vid](https://wikipedia.org/wiki/Computer_vision) je področje, katerega cilj je omogočiti računalnikom, da pridobijo visok nivo razumevanja digitalnih slik. To je precej široka definicija, saj lahko *razumevanje* pomeni veliko različnih stvari, vključno z iskanjem objekta na sliki (**prepoznavanje objektov**), razumevanjem dogajanja (**prepoznavanje dogodkov**), opisovanjem slike z besedilom ali rekonstrukcijo prizora v 3D. Obstajajo tudi posebne naloge, povezane s človeškimi slikami: ocenjevanje starosti in čustev, prepoznavanje obrazov ter določanje 3D drže, če naštejemo le nekaj primerov.
@@ -115,7 +106,7 @@ Preberite več o optičnem toku [v tem odličnem vodiču](https://learnopencv.co
 
 V tej nalogi boste posneli video s preprostimi gestami, vaš cilj pa bo izluščiti premike gor/dol/levo/desno z uporabo optičnega toka.
 
-<img src="images/palm-movement.png" width="30%" alt="Okvir premika dlani"/>
+<img src="../../../../../translated_images/sl/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Okvir premika dlani"/>
 
 ---
 

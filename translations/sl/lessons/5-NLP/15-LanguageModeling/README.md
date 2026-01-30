@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T15:09:38+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "sl"
-}
--->
 # Jezikovno modeliranje
 
 Semantične vektorske predstavitve, kot sta Word2Vec in GloVe, so pravzaprav prvi korak k **jezikovnemu modeliranju** – ustvarjanju modelov, ki nekako *razumejo* (ali *predstavljajo*) naravo jezika.

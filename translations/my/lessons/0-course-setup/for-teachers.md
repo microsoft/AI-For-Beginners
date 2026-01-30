@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-26T00:40:07+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "my"
-}
--->
 # ဆရာများအတွက်
 
 ဒီသင်ရိုးကို သင့်အတန်းထဲမှာ အသုံးပြုချင်ပါသလား? ကျေးဇူးပြု၍ အသုံးပြုလိုက်ပါ။

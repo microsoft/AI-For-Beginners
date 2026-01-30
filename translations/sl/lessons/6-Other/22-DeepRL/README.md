@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T15:01:30+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "sl"
-}
--->
 # Globoko okrepljeno učenje
 
 Okrepljeno učenje (RL) velja za enega osnovnih paradigm strojnega učenja, poleg nadzorovanega in nenadzorovanega učenja. Medtem ko se pri nadzorovanem učenju zanašamo na podatkovne nabore z znanimi rezultati, je RL osnovano na **učenju skozi izkušnje**. Na primer, ko prvič vidimo računalniško igro, začnemo igrati, čeprav ne poznamo pravil, in kmalu izboljšamo svoje spretnosti zgolj z igranjem in prilagajanjem svojega vedenja.
@@ -34,7 +25,7 @@ Verjetno ste že videli sodobne naprave za uravnoteženje, kot so *Segway* ali *
 
 Poenostavljena različica uravnoteženja je znana kot problem **CartPole**. V svetu CartPole imamo horizontalni drsnik, ki se lahko premika levo ali desno, cilj pa je uravnotežiti navpični drog na vrhu drsnika med njegovim premikanjem.
 
-<img alt="cartpole" src="images/cartpole.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/sl/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Za ustvarjanje in uporabo tega okolja potrebujemo nekaj vrstic kode v Pythonu:
 

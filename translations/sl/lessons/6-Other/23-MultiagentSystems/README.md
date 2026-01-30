@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T15:00:55+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "sl"
-}
--->
 # Večagentni sistemi
 
 Eden od možnih načinov doseganja inteligence je tako imenovani **emergentni** (ali **sinergijski**) pristop, ki temelji na dejstvu, da lahko kombinirano vedenje mnogih relativno preprostih agentov privede do bolj kompleksnega (ali inteligentnega) vedenja sistema kot celote. Teoretično to temelji na principih [kolektivne inteligence](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentizma](https://en.wikipedia.org/wiki/Global_brain) in [evolucijske kibernetike](https://en.wikipedia.org/wiki/Global_brain), ki pravijo, da višjenivojski sistemi pridobijo določeno dodano vrednost, ko so pravilno sestavljeni iz nižjenivojskih sistemov (tako imenovani *princip prehoda metasistema*).
@@ -60,7 +51,7 @@ NetLogo lahko [prenesete](https://ccl.northwestern.edu/netlogo/download.shtml) i
 
 Odlična stvar pri NetLogo je, da vsebuje knjižnico delujočih modelov, ki jih lahko preizkusite. Pojdite na **File &rightarrow; Models Library**, kjer imate na voljo številne kategorije modelov.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/sl/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Posnetek zaslona knjižnice modelov avtorja Dmitry Soshnikov
 

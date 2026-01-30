@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:39:49+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "hr"
-}
--->
 # Multi-modalne mreže
 
 Nakon uspjeha transformera u rješavanju zadataka obrade prirodnog jezika (NLP), iste ili slične arhitekture primijenjene su na zadatke računalnog vida. Sve je veći interes za izgradnju modela koji bi *kombinirali* sposobnosti vida i prirodnog jezika. Jedan od takvih pokušaja napravio je OpenAI, a naziva se CLIP i DALL.E.

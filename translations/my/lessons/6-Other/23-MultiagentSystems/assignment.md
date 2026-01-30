@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:46+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "my"
-}
--->
 # NetLogo အလုပ်ပေးချက်
 
 NetLogo ရဲ့ စာကြည့်တိုက်ထဲမှာရှိတဲ့ မော်ဒယ်တစ်ခုကို ယူပြီး အမှန်တကယ်ဖြစ်ပျက်နေတဲ့ အခြေအနေတစ်ခုကို အနီးစပ်ဆုံး simulation လုပ်ပါ။ ကောင်းတဲ့ ဥပမာတစ်ခုက Alternative Visualizations ဖိုလ်ဒါထဲမှာရှိတဲ့ Virus မော်ဒယ်ကို COVID-19 ပျံ့နှံ့မှုကို မော်ဒယ်တစ်ခုအဖြစ် အသုံးပြုနိုင်ပုံကို ပြသဖို့ ပြင်ဆင်ခြင်းဖြစ်ပါတယ်။ အမှန်တကယ် ရောဂါပျံ့နှံ့မှုကို အတုယူတဲ့ မော်ဒယ်တစ်ခုကို တည်ဆောက်နိုင်ပါသလား?

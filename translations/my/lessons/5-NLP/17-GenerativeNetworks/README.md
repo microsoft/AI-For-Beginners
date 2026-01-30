@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T15:23:40+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "my"
-}
--->
 # Generative networks
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Recurrent Neural Networks (RNNs) နှင့် Long Short Term Memory Cells (L
 
 စာသားထုတ်လုပ်ခြင်း (inference အတွင်း) တွင် **prompt** တစ်ခုကို RNN cells မှတဆင့် hidden state ကို ရယူပြီး၊ ထို့နောက် generation ကို စတင်မည်။ စာလုံးတစ်လုံးစီကို အဆင့်ဆင့် ထုတ်လုပ်ပြီး၊ state နှင့် ထုတ်လုပ်ထားသော စာလုံးကို နောက် RNN cell သို့ ပေးပို့ကာ နောက် character ကို ထုတ်လုပ်မည်။ ထိုနောက် လိုအပ်သော စာလုံးများကို ထုတ်လုပ်ပြီးမှ ရပ်မည်။
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/my/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > ပုံကို စာရေးသူမှ ဖန်တီးထားသည်
 

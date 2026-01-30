@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-25T22:05:39+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "sl"
-}
--->
 # Naloga: Transformatorji
 
 Preizkusite transformatorje na HuggingFace! Poskusite nekaj skriptov, ki jih ponujajo za delo z različnimi modeli, ki so na voljo na njihovi strani: https://huggingface.co/docs/transformers/run_scripts. Preizkusite enega od njihovih naborov podatkov, nato pa uvozite enega svojega iz tega učnega načrta ali s Kaggle in preverite, ali lahko ustvarite zanimiva besedila. Pripravite beležnico s svojimi ugotovitvami.

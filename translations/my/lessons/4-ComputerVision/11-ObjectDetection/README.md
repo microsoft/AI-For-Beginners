@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T15:16:34+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "my"
-}
--->
 # Object Detection
 
 ယခင်က ကျွန်တော်တို့ handling လုပ်ခဲ့တဲ့ image classification models တွေဟာ ပုံတစ်ပုံကိုယူပြီး categorical ရလဒ်တစ်ခုထုတ်ပေးခဲ့ပါတယ်၊ ဥပမာ MNIST ပြဿနာမှာ 'number' class တစ်ခုလိုပါပဲ။ သို့သော် အများဆုံးအခြေအနေတွေမှာ ပုံတစ်ပုံမှာ object တွေရှိတယ်ဆိုတာကိုသိရုံမကဘဲ၊ အဲ့ဒီ object တွေရှိတဲ့တိကျတဲ့နေရာကိုသိချင်ပါတယ်။ ဒါဟာ **object detection** ရဲ့အဓိကရည်ရွယ်ချက်ပဲဖြစ်ပါတယ်။

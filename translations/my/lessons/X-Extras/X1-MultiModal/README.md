@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:41:01+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "my"
-}
--->
 # Multi-Modal Networks
 
 NLP အလုပ်များကို ဖြေရှင်းရန် transformer models အောင်မြင်ပြီးနောက်၊ အတူတူ သို့မဟုတ် ဆင်တူသော architecture များကို computer vision အလုပ်များတွင်လည်း အသုံးပြုလာကြသည်။ Vision နှင့် သဘာဝဘာသာစကားစွမ်းရည်များကို *ပေါင်းစပ်* လုပ်နိုင်မည့် မော်ဒယ်များကို တည်ဆောက်ရန် စိတ်ဝင်စားမှုများလာသည်။ OpenAI မှ CLIP နှင့် DALL.E ဟုခေါ်သော ကြိုးစားမှုတစ်ခုကို ပြုလုပ်ခဲ့သည်။

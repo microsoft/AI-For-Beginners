@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-25T21:43:16+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "my"
-}
--->
 # အလုပ်အမိန့်: နိုတ်ဘွတ်များ
 
 ဒီသင်ခန်းစာနှင့်ဆက်စပ်နေသော နိုတ်ဘွတ်များ (PyTorch version သို့မဟုတ် TensorFlow version) ကို သင့်ရဲ့ dataset ကို အသုံးပြုပြီး ပြန်လည်ရိုက်ပါ။ Kaggle က dataset တစ်ခုကို attribution ဖြင့် အသုံးပြုနိုင်ပါတယ်။ သင့်ရဲ့ ရလဒ်များကို အထောက်အထားပြရန် နိုတ်ဘွတ်ကို ပြန်ရေးပါ။ အခြား dataset အမျိုးအစားတစ်ခုကို စမ်းသပ်ပြီး သင့်ရဲ့ ရလဒ်များကို documentation ဖြင့် ဖော်ပြပါ။ ဥပမာ [ဒီ Beatles သီချင်းစာသားများ](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) ကဲ့သို့သော စာသားများကို အသုံးပြုနိုင်ပါတယ်။

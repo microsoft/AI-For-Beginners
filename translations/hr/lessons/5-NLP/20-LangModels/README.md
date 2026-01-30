@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T14:58:41+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "hr"
-}
--->
 # Pre-Trained Large Language Models
 
 U svim našim prethodnim zadacima trenirali smo neuronsku mrežu da obavlja određeni zadatak koristeći označene skupove podataka. Kod velikih transformacijskih modela, poput BERT-a, koristimo jezično modeliranje u samonadziranom načinu rada kako bismo izgradili jezični model, koji se zatim specijalizira za specifične zadatke uz dodatnu obuku prilagođenu domeni. Međutim, pokazalo se da veliki jezični modeli mogu riješiti mnoge zadatke i bez IKAKVE obuke prilagođene domeni. Obitelj modela sposobnih za to naziva se **GPT**: Generativni unaprijed trenirani transformator.

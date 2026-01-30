@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b70fcf7fcee862990f848c679090943f",
-  "translation_date": "2025-10-03T14:58:19+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
-  "language_code": "sl"
-}
--->
 # Razvrščanje obrazov hišnih ljubljenčkov
 
 Laboratorijska naloga iz [Učnega načrta za začetnike v AI](https://github.com/microsoft/ai-for-beginners).

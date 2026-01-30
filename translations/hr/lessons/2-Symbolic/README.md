@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T06:05:20+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "hr"
-}
--->
 # Predstavljanje znanja i stručni sustavi
 
-![Sažetak simboličke umjetne inteligencije](../../../../../../translated_images/hr/ai-symbolic.715a30cb610411a6.webp)
+![Sažetak simboličke umjetne inteligencije](../../../../translated_images/hr/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autora [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Najčešće ne definiramo strogo znanje, već ga usklađujemo s drugim povezanim
 
 Dakle, problem **predstavljanja znanja** je pronaći neki učinkovit način predstavljanja znanja unutar računala u obliku podataka kako bi bilo automatski upotrebljivo. To se može promatrati kao spektar:
 
-![Spektar predstavljanja znanja](../../../../../../translated_images/hr/knowledge-spectrum.b60df631852c0217.webp)
+![Spektar predstavljanja znanja](../../../../translated_images/hr/knowledge-spectrum.b60df631852c0217.webp)
 
 > Slika autora [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Sintaksa bloka | Indent | | |
 
 Jedan od ranih uspjeha simboličke AI bili su tzv. **stručni sustavi** - računalni sustavi dizajnirani da djeluju kao stručnjak u nekom ograničenom području problema. Temeljili su se na **bazi znanja** izvučenoj od jednog ili više ljudskih stručnjaka i sadržavali su **zaključni stroj** koji je vršio zaključivanje na temelju nje.
 
-![Ljudska arhitektura](../../../../../../translated_images/hr/arch-human.5d4d35f1bba3ab1c.webp) | ![Sustav temeljen na znanju](../../../../../../translated_images/hr/arch-kbs.3ec5c150b09fa8da.webp)
+![Ljudska arhitektura](../../../../translated_images/hr/arch-human.5d4d35f1bba3ab1c.webp) | ![Sustav temeljen na znanju](../../../../translated_images/hr/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Pojednostavljena struktura ljudskog živčanog sustava | Arhitektura sustava temeljenog na znanju
 
@@ -106,7 +97,7 @@ Stručni sustavi se grade poput ljudskog sustava zaključivanja, koji sadrži **
 
 Kao primjer, razmotrimo sljedeći stručni sustav za određivanje životinje na temelju fizičkih karakteristika:
 
-![AND-ILI stablo](../../../../../../translated_images/hr/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-ILI stablo](../../../../translated_images/hr/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Slika autora [Dmitry Soshnikov](http://soshnikov.com)
 

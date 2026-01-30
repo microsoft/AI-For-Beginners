@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T14:53:28+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "hr"
-}
--->
 # Generativne suparničke mreže
 
 U prethodnom dijelu naučili smo o **generativnim modelima**: modelima koji mogu generirati nove slike slične onima iz skupa za treniranje. VAE je bio dobar primjer generativnog modela.
@@ -17,7 +8,7 @@ Međutim, ako pokušamo generirati nešto zaista značajno, poput slike visoke r
 
 Glavna ideja GAN-a je imati dvije neuronske mreže koje se treniraju jedna protiv druge:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/hr/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Slika: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator je malo složeniji. Možete ga smatrati obrnutim diskriminatorom. Poč
 
 > ✅ Budući da je konvolucijski sloj implementiran kao linearni filter koji prolazi kroz sliku, dekonvolucija je u suštini slična konvoluciji i može se implementirati koristeći istu logiku sloja.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/hr/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Slika: [Dmitry Soshnikov](http://soshnikov.com)
 

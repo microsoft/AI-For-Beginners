@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T15:24:18+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "my"
-}
--->
 # အာရုံစိုက်မှု Mechanisms နှင့် Transformers
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Positional encoding ၏ အယူအဆမှာ အောက်ပါအတိ�
 * Token embedding ကဲ့သို့ trainable embedding ကို အသုံးပြုခြင်း။ ဒီနည်းလမ်းကို ဒီမှာ သုံးပါမည်။ Token နှင့် position နှစ်ခုစလုံးကို embedding layers တွင် ထည့်သွင်းပြီး၊ အချင်းချင်းတူညီသော dimension ရရှိသော embedding vectors ကို ထည့်ပေါင်းပါသည်။
 * Original paper တွင် အကြံပြုထားသော fixed position encoding function ကို အသုံးပြုခြင်း။
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/my/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > ပုံကို အတောအတွင်းရေးသားသူမှ ဖန်တီးထားသည်
 

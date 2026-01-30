@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T21:25:49+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "hr"
-}
--->
 # Etička i odgovorna umjetna inteligencija
 
 Skoro ste završili ovaj tečaj i nadam se da sada jasno vidite da se umjetna inteligencija temelji na nizu formalnih matematičkih metoda koje nam omogućuju pronalaženje odnosa u podacima i treniranje modela za repliciranje nekih aspekata ljudskog ponašanja. U ovom trenutku povijesti smatramo umjetnu inteligenciju vrlo moćnim alatom za izdvajanje uzoraka iz podataka i primjenu tih uzoraka za rješavanje novih problema.
