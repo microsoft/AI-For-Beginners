@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-25T21:54:42+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "sr"
-}
--->
 # Задатак: Бележнице
 
 Користећи бележнице повезане са овом лекцијом (било верзију за PyTorch или TensorFlow), поново их покрените користећи сопствени скуп података, можда онај са Kaggle-а, уз навођење извора. Препишите бележницу како бисте истакли сопствене налазе. Испробајте неке иновативне скупове података који би могли бити изненађујући, као што је [овај о виђењима НЛО-а](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) од NUFORC.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-08-25T23:49:01+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "ro"
-}
--->
 # Clasificarea MNIST cu Propriul Cadru
 
 Temă de laborator din [Curriculumul AI pentru Începători](https://github.com/microsoft/ai-for-beginners).

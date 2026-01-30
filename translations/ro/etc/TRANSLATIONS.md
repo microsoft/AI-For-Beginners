@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T00:45:53+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "ro"
-}
--->
 # Contribuie prin traducerea lecțiilor
 
 Salutăm traducerile pentru lecțiile din acest curriculum!

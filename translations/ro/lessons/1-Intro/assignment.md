@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T22:05:17+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "ro"
-}
--->
 # Game Jam
 
 Jocurile sunt un domeniu care a fost puternic influențat de dezvoltările în AI și ML. În această temă, scrie un scurt eseu despre un joc care îți place și care a fost influențat de evoluția AI. Ar trebui să fie un joc suficient de vechi pentru a fi fost influențat de mai multe tipuri de sisteme de procesare a computerelor. Un exemplu bun este Șahul sau Go, dar poți analiza și jocuri video precum Pong sau Pac-Man. Scrie un eseu care discută despre trecutul, prezentul și viitorul AI al jocului.

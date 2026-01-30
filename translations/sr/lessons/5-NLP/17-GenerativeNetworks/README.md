@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T14:46:00+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "sr"
-}
--->
 # Генеративне мреже
 
 ## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Када генеришемо текст (током инференције), почињемо са неким **подстицајем** (prompt), који се прослеђује кроз RNN ћелије да би се генерисало његово интермедијарно стање, а затим из тог стања почиње генерисање. Генеришемо један карактер у исто време и прослеђујемо стање и генерисани карактер следећој RNN ћелији да генерише следећи, све док не генеришемо довољно карактера.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/sr/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Слика аутора
 

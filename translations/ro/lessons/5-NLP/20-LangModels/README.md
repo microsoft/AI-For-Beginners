@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T14:22:44+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "ro"
-}
--->
 # Modele Mari de Limbaj Pre-Antrenate
 
 În toate sarcinile anterioare, am antrenat o rețea neuronală pentru a îndeplini o anumită sarcină folosind un set de date etichetat. Cu modele mari de tip transformer, precum BERT, utilizăm modelarea limbajului într-un mod auto-supervizat pentru a construi un model de limbaj, care este apoi specializat pentru o sarcină specifică prin antrenament suplimentar specific domeniului. Totuși, s-a demonstrat că modelele mari de limbaj pot rezolva multe sarcini fără NICIUN antrenament specific domeniului. O familie de modele capabile să facă acest lucru se numește **GPT**: Generative Pre-Trained Transformer.

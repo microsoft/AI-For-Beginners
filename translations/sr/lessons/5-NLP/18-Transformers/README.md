@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T14:46:35+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "sr"
-}
--->
 # Механизми пажње и Трансформери
 
 ## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Уграђивање које се тренира, слично уграђивању токена. Ово је приступ који овде разматрамо. Примењујемо слојеве уграђивања на токене и њихове позиције, што резултира векторима уграђивања истих димензија, које затим сабирамо.
 * Фиксна функција позиционог кодирања, како је предложено у оригиналном раду.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/sr/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Слика аутора
 

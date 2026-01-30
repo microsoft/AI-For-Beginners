@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T21:24:48+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "ro"
-}
--->
 # Inteligență Artificială Etică și Responsabilă
 
 Ai aproape terminat acest curs și sper că până acum ai înțeles clar că inteligența artificială (IA) se bazează pe o serie de metode matematice formale care ne permit să găsim relații în date și să antrenăm modele pentru a replica anumite aspecte ale comportamentului uman. În acest moment al istoriei, considerăm IA ca fiind un instrument foarte puternic pentru a extrage tipare din date și pentru a aplica aceste tipare în rezolvarea unor probleme noi.

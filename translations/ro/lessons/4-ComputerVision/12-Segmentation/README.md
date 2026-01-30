@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T14:17:23+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ro"
-}
--->
 # Segmentare
 
 Am învățat anterior despre Detectarea Obiectelor, care ne permite să localizăm obiectele din imagine prin prezicerea *cutiilor de delimitare*. Totuși, pentru unele sarcini nu avem nevoie doar de cutii de delimitare, ci și de o localizare mai precisă a obiectelor. Această sarcină se numește **segmentare**.
@@ -20,7 +11,7 @@ Segmentarea poate fi privită ca **clasificarea pixelilor**, în care pentru **f
 
 De exemplu, pentru segmentarea instanțelor, aceste oi sunt obiecte diferite, dar pentru segmentarea semantică toate oile sunt reprezentate de o singură clasă.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ro/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Imagine din [acest articol de blog](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Există diferite arhitecturi neuronale pentru segmentare, dar toate au aceeași 
 * **Encoder** extrage caracteristici din imaginea de intrare.
 * **Decoder** transformă aceste caracteristici în **imaginea măștii**, cu aceeași dimensiune și număr de canale corespunzător numărului de clase.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ro/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Imagine din [această publicație](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Trebuie să menționăm în mod special funcția de pierdere utilizată pentru s
 
 > ✅ Această tehnică este deosebit de potrivită pentru acest tip de imagistică medicală, dar ce alte aplicații din lumea reală ai putea imagina?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ro/navi.2f20b727910110ea.webp"/>
 
 > Imagine din Baza de Date PH<sup>2</sup>
 

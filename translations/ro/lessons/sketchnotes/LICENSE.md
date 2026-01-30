@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-  "translation_date": "2025-08-26T00:08:11+00:00",
-  "source_file": "lessons/sketchnotes/LICENSE.md",
-  "language_code": "ro"
-}
--->
 Drepturi, această licență se aplică și pentru baza de date respectivă, cu condiția să respectați condițiile stabilite în Secțiunea 3 (Attribution) și Secțiunea 3(b) (ShareAlike); și
 
   c. nu puteți aplica măsuri tehnologice eficiente sau impune alte restricții care să limiteze drepturile acordate de această licență asupra bazei de date.

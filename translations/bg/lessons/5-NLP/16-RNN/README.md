@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T14:35:13+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "bg"
-}
--->
 # Рекурентни невронни мрежи
 
 ## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Простата RNN клетка има две матрици на теглата вътре: едната трансформира входния символ (да я наречем W), а другата трансформира входното състояние (H). В този случай изходът на мрежата се изчислява като &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), където &sigma; е функцията на активация, а b е допълнителен bias.
 
-<img alt="Анатомия на RNN клетка" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Анатомия на RNN клетка" src="../../../../../translated_images/bg/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Изображение от автора
 

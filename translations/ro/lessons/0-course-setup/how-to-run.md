@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T05:26:25+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "ro"
-}
--->
 # Cum să Rulați Codul
 
 Acest curriculum conține multe exemple și laboratoare executabile pe care veți dori să le rulați. Pentru a face acest lucru, aveți nevoie de posibilitatea de a executa cod Python în Jupyter Notebooks furnizate ca parte a acestui curriculum. Aveți mai multe opțiuni pentru a rula codul:

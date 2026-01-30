@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-08-25T22:14:27+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "ro"
-}
--->
 # NER
 
 Temă de laborator din [Curriculum AI pentru Începători](https://github.com/microsoft/ai-for-beginners).

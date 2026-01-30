@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-25T23:35:40+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "ro"
-}
--->
 ## Mediul
 
 Mediul Mountain Car constă într-o mașină prinsă într-o vale. Scopul tău este să sari afară din vale și să ajungi la steag. Acțiunile pe care le poți efectua sunt accelerarea spre stânga, spre dreapta sau să nu faci nimic. Poți observa poziția mașinii de-a lungul axei x și viteza.

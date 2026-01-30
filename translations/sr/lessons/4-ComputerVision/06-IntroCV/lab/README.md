@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-25T23:05:37+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "sr"
-}
--->
 # Детекција покрета помоћу оптичког протока
 
 Задатак из [курикулума за почетнике у вештачкој интелигенцији](https://aka.ms/ai-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T14:33:47+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "bg"
-}
--->
 # Моделиране на език
 
 Семантичните вграждания, като Word2Vec и GloVe, всъщност са първа стъпка към **моделиране на език** - създаване на модели, които по някакъв начин *разбират* (или *представят*) природата на езика.

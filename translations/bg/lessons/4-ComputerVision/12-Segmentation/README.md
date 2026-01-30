@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T14:29:20+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "bg"
-}
--->
 # Сегментация
 
 По-рано научихме за Обектно откриване, което ни позволява да локализираме обекти в изображението чрез предсказване на техните *ограничителни кутии*. Въпреки това, за някои задачи не са достатъчни само ограничителните кутии, а е необходима по-прецизна локализация на обектите. Тази задача се нарича **сегментация**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 При сегментация на обекти тези овце са различни обекти, но при семантична сегментация всички овце са представени като един клас.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/bg/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Изображение от [този блог пост](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Енкодер** извлича характеристики от входното изображение.
 * **Декодер** преобразува тези характеристики в **маска изображение**, със същия размер и брой канали, съответстващи на броя на класовете.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/bg/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Изображение от [тази публикация](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Тази техника е особено подходяща за този тип медицински изображения, но какви други реални приложения можете да си представите?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/bg/navi.2f20b727910110ea.webp"/>
 
 > Изображение от PH<sup>2</sup> Database
 

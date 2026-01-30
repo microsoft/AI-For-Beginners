@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T14:24:55+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "bg"
-}
--->
 # Мултиагентни системи
 
 Един от възможните начини за постигане на интелигентност е така нареченият **емергентен** (или **синергетичен**) подход, който се основава на факта, че комбинираното поведение на много относително прости агенти може да доведе до по-сложно (или интелигентно) поведение на системата като цяло. Теоретично това се базира на принципите на [Колективна интелигентност](https://en.wikipedia.org/wiki/Collective_intelligence), [Емергентизъм](https://en.wikipedia.org/wiki/Global_brain) и [Еволюционна кибернетика](https://en.wikipedia.org/wiki/Global_brain), които твърдят, че системи на по-високо ниво придобиват някаква добавена стойност, когато са правилно комбинирани от системи на по-ниско ниво (така нареченият *принцип на преход към метасистема*).
@@ -60,7 +51,7 @@ ask turtles [
 
 Едно от страхотните неща в NetLogo е, че съдържа библиотека с работещи модели, които можете да опитате. Отидете на **File &rightarrow; Models Library**, и ще намерите много категории модели, от които да избирате.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/bg/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Екранна снимка на библиотеката с модели от Дмитрий Сошников
 

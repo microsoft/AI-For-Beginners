@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-25T21:37:25+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "sr"
-}
--->
 # Задатак: Бележнице
 
 Користећи бележнице повезане са овом лекцијом (било верзију за PyTorch или TensorFlow), поново их покрените користећи сопствени скуп података, можда онај са Kaggle-а, уз навођење извора. Препишите бележницу како бисте истакли сопствене налазе. Испробајте другачији тип скупа података и документујте своја запажања, користећи текст као што је [овај Kaggle скуп података о временским твитовима](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

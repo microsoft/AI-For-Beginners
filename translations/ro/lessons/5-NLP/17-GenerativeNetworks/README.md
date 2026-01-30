@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T14:21:44+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ro"
-}
--->
 # Rețele generative
 
 ## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Vom antrena acest RNN pentru a genera text pas cu pas. La fiecare pas, vom lua o
 
 Când generăm text (în timpul inferenței), începem cu un **prompt**, care este trecut prin celulele RNN pentru a genera starea intermediară, iar apoi, din această stare, începe generarea. Generăm un caracter pe rând și transmitem starea și caracterul generat unei alte celule RNN pentru a genera următorul, până când generăm suficiente caractere.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ro/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Imagine realizată de autor
 

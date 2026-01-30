@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T14:13:59+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "ro"
-}
--->
 # Învățare prin Recompensă Profundă
 
 Învățarea prin recompensă (RL) este considerată unul dintre paradigmele de bază ale învățării automate, alături de învățarea supravegheată și nesupravegheată. În timp ce în învățarea supravegheată ne bazăm pe un set de date cu rezultate cunoscute, RL se bazează pe **învățarea prin acțiune**. De exemplu, când vedem pentru prima dată un joc pe calculator, începem să jucăm, chiar dacă nu cunoaștem regulile, și în scurt timp ne putem îmbunătăți abilitățile doar prin procesul de joc și ajustarea comportamentului.
@@ -34,7 +25,7 @@ Probabil ați văzut cu toții dispozitive moderne de echilibrare, cum ar fi *Se
 
 O versiune simplificată a echilibrării este cunoscută sub numele de problema **CartPole**. În lumea CartPole, avem un slider orizontal care se poate mișca la stânga sau la dreapta, iar scopul este să echilibrăm un stâlp vertical deasupra sliderului în timp ce acesta se mișcă.
 
-<img alt="un cartpole" src="images/cartpole.png" width="200"/>
+<img alt="un cartpole" src="../../../../../translated_images/ro/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Pentru a crea și utiliza acest mediu, avem nevoie de câteva linii de cod Python:
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:34:10+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "ro"
-}
--->
 # Exemple de AI pentru Începători
 
 Bun venit! Acest director conține exemple simple și independente pentru a te ajuta să începi cu AI și învățarea automată. Fiecare exemplu este conceput să fie prietenos pentru începători, cu comentarii detaliate și explicații pas cu pas.

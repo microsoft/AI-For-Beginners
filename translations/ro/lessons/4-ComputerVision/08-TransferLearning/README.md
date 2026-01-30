@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T14:15:14+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "ro"
-}
--->
 # Rețele Pre-antrenate și Învățarea prin Transfer
 
 Antrenarea CNN-urilor poate dura mult timp și necesită o cantitate mare de date. Totuși, o mare parte din timp este petrecut în învățarea celor mai bune filtre de nivel scăzut pe care o rețea le poate folosi pentru a extrage modele din imagini. O întrebare naturală apare - putem folosi o rețea neuronală antrenată pe un set de date și să o adaptăm pentru a clasifica imagini diferite fără a necesita un proces complet de antrenare?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T14:13:10+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "ro"
-}
--->
 # Sisteme Multi-Agent
 
 Una dintre modalitățile posibile de a obține inteligență este abordarea așa-numită **emergentă** (sau **sinergică**), care se bazează pe faptul că comportamentul combinat al multor agenți relativ simpli poate duce la un comportament general mai complex (sau inteligent) al sistemului în ansamblu. Teoretic, aceasta se bazează pe principiile [Inteligenței Colective](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentismului](https://en.wikipedia.org/wiki/Global_brain) și [Ciberneticii Evolutive](https://en.wikipedia.org/wiki/Global_brain), care afirmă că sistemele de nivel superior obțin un fel de valoare adăugată atunci când sunt combinate corespunzător din sisteme de nivel inferior (așa-numitul *principiu al tranziției metasistemului*).
@@ -60,7 +51,7 @@ Poți [descărca](https://ccl.northwestern.edu/netlogo/download.shtml) și insta
 
 Un lucru grozav despre NetLogo este că conține o bibliotecă de modele funcționale pe care le poți încerca. Mergi la **File &rightarrow; Models Library**, și vei avea multe categorii de modele din care să alegi.
 
-<img alt="Biblioteca de modele NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="Biblioteca de modele NetLogo" src="../../../../../translated_images/ro/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > O captură de ecran a bibliotecii de modele de Dmitry Soshnikov
 

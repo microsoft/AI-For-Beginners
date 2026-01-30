@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
-  "translation_date": "2025-12-12T20:17:18+00:00",
-  "source_file": "lessons/0-course-setup/setup.md",
-  "language_code": "bg"
-}
--->
 # Започване с тази учебна програма
 
 ## Студент ли сте?

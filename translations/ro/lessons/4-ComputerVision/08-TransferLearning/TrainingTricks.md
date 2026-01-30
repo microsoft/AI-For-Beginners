@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-25T23:12:25+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ro"
-}
--->
 # Trucuri pentru antrenarea rețelelor neuronale profunde
 
 Pe măsură ce rețelele neuronale devin mai adânci, procesul de antrenare devine din ce în ce mai dificil. Una dintre principalele probleme este așa-numita [problemă a gradientului care dispare](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) sau [gradientul exploziv](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Acest articol](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) oferă o introducere bună în aceste probleme.

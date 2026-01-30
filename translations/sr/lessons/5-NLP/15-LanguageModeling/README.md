@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T14:46:23+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "sr"
-}
--->
 # Моделирање језика
 
 Семантички уграђени вектори, као што су Word2Vec и GloVe, представљају први корак ка **моделирању језика** – креирању модела који на неки начин *разумеју* (или *представљају*) природу језика.

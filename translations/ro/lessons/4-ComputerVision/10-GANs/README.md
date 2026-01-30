@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T14:17:41+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ro"
-}
--->
 # Rețele Generative Adversariale
 
 În secțiunea anterioară, am învățat despre **modele generative**: modele care pot genera imagini noi similare cu cele din setul de date de antrenament. VAE a fost un exemplu bun de model generativ.
@@ -17,7 +8,7 @@ Totuși, dacă încercăm să generăm ceva cu adevărat semnificativ, cum ar fi
 
 Ideea principală a unui GAN este să avem două rețele neuronale care vor fi antrenate una împotriva celeilalte:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ro/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Un Generator este puțin mai complicat. Îl puteți considera ca fiind un discri
 
 > ✅ Deoarece stratul de convoluție este implementat ca un filtru liniar care traversează imaginea, deconvoluția este esențial similară cu convoluția și poate fi implementată folosind aceeași logică de strat.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ro/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 

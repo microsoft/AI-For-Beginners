@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T14:16:53+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "ro"
-}
--->
 # Autoencodere
 
 Când antrenăm CNN-uri, una dintre probleme este că avem nevoie de o cantitate mare de date etichetate. În cazul clasificării imaginilor, trebuie să separăm imaginile în clase diferite, ceea ce presupune un efort manual.
@@ -46,7 +37,7 @@ Pe scurt:
  * Eșantionăm un vector `sample` din distribuția N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Decoderul încearcă să decodeze imaginea originală folosind `sample` ca vector de intrare
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/ro/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Imagine din [acest articol de blog](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) de Isaak Dykeman
 
@@ -57,13 +48,13 @@ Autoencoderele variaționale folosesc o funcție de pierdere complexă care cons
 
 Un avantaj important al VAE-urilor este că permit generarea de imagini noi relativ ușor, deoarece știm din ce distribuție să eșantionăm vectorii latenți. De exemplu, dacă antrenăm un VAE cu un vector latent 2D pe MNIST, putem varia componentele vectorului latent pentru a obține cifre diferite:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/ro/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 
 Observați cum imaginile se îmbină între ele, pe măsură ce începem să obținem vectori latenți din diferite porțiuni ale spațiului parametrilor latenți. Putem, de asemenea, să vizualizăm acest spațiu în 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/ro/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Imagine de [Dmitry Soshnikov](http://soshnikov.com)
 

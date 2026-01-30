@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T14:29:38+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "bg"
-}
--->
 # Генеративни състезателни мрежи
 
 В предишния раздел научихме за **генеративните модели**: модели, които могат да генерират нови изображения, подобни на тези в тренировъчния набор от данни. VAE беше добър пример за генеративен модел.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Основната идея на GAN е да има две невронни мрежи, които се обучават една срещу друга:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/bg/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Изображение от [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Тъй като конволюционният слой се реализира като линеен филтър, който преминава през изображението, деконволюцията е по същество подобна на конволюцията и може да бъде реализирана с помощта на същата логика на слоя.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/bg/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Изображение от [Dmitry Soshnikov](http://soshnikov.com)
 

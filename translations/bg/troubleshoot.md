@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:51:28+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "bg"
-}
--->
 # Ръководство за отстраняване на проблеми в AI-For-Beginners
 
 Това ръководство ще ви помогне да решите често срещани проблеми при използването или допринасянето към хранилището [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Всеки проблем включва информация за произхода, симптомите, обяснения и стъпка по стъпка решения.

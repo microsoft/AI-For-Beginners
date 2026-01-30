@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T14:22:19+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ro"
-}
--->
 # Mecanisme de Atenție și Transformere
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ideea codificării poziționale este următoarea.
 * Încorporare antrenabilă, similară cu încorporarea tokenilor. Aceasta este abordarea pe care o considerăm aici. Aplicăm straturi de încorporare atât pe tokeni, cât și pe pozițiile lor, rezultând vectori de încorporare de aceeași dimensiune, pe care îi adunăm.
 * Funcție fixă de codificare pozițională, așa cum este propusă în lucrarea originală.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ro/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Imagine de autor
 
