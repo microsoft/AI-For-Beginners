@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T15:42:22+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "lt"
-}
--->
 # Iš anksto apmokyti tinklai ir perkėlimo mokymasis
 
 CNN mokymas gali užtrukti daug laiko, o tam reikia daug duomenų. Tačiau didžioji dalis laiko praleidžiama mokantis geriausių žemo lygio filtrų, kuriuos tinklas gali naudoti norėdamas išgauti vaizdų šablonus. Kyla natūralus klausimas – ar galime naudoti neuroninį tinklą, apmokytą viename duomenų rinkinyje, ir pritaikyti jį kitų vaizdų klasifikavimui, nereikalaujant pilno mokymo proceso?

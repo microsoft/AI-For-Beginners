@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T15:42:03+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "lt"
-}
--->
 # Gerai žinomos CNN architektūros
 
 ### VGG-16
@@ -25,7 +16,7 @@ Kaip matote, VGG seka tradicinę piramidės architektūrą, kuri yra konvoliucin
 
 ResNet yra modelių šeima, kurią 2015 m. pasiūlė Microsoft Research. Pagrindinė ResNet idėja yra naudoti **likutinius blokus**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/lt/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Vaizdas iš [šio straipsnio](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Taip pat galite galvoti apie šį tinklą kaip apie gebantį prisitaikyti prie d
 
 Google Inception architektūra žengia dar vieną žingsnį į priekį ir kiekvieną tinklo sluoksnį kuria kaip kelių skirtingų kelių kombinaciją:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/lt/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Vaizdas iš [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-10-11T11:18:38+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ta"
-}
--->
 # ஆப்டிக்கல் ஃப்ளோவை பயன்படுத்தி இயக்கங்களை கண்டறிதல்
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) இல் இருந்து ஆய்வக பணிக்கான ஒதுக்கீடு.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T15:49:01+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "lt"
-}
--->
 # Kalbos modeliavimas
 
 Semantiniai įterpiniai, tokie kaip Word2Vec ir GloVe, iš tiesų yra pirmasis žingsnis link **kalbos modeliavimo** – modelių kūrimo, kurie kažkaip *supranta* (arba *atspindi*) kalbos prigimtį.

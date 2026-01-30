@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-10-11T11:22:03+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ta"
-}
--->
 # பகுப்பாய்வு
 
 முந்தைய பாடங்களில், பொருள் கண்டறிதல் பற்றி கற்றுக்கொண்டோம், இது படத்தில் உள்ள பொருட்களை *bounding boxes* மூலம் கண்டறிய உதவுகிறது. ஆனால், சில பணிகளுக்கு bounding boxes மட்டுமல்லாமல், மேலும் துல்லியமான பொருள் இடம்தெரிவும் தேவைப்படுகிறது. இந்த பணியை **பகுப்பாய்வு** என்று அழைக்கப்படுகிறது.

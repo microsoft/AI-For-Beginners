@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-25T21:37:43+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "uk"
-}
--->
 # Завдання: Ноутбуки
 
 Використовуючи ноутбуки, пов’язані з цим уроком (версія PyTorch або TensorFlow), запустіть їх з вашим власним набором даних, можливо, з Kaggle, використовуючи з дотриманням авторських прав. Перепишіть ноутбук, щоб підкреслити ваші власні висновки. Спробуйте інший тип набору даних і задокументуйте ваші спостереження, використовуючи текст, наприклад, [цей набір даних конкурсу Kaggle про твіти про погоду](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

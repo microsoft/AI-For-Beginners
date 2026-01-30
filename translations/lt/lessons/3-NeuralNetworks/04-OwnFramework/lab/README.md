@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-08-31T17:50:03+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "lt"
-}
--->
 # MNIST klasifikacija naudojant mūsų sukurtą sistemą
 
 Laboratorinis darbas iš [AI pradedantiesiems mokymo programos](https://github.com/microsoft/ai-for-beginners).

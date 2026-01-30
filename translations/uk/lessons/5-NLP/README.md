@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-25T21:30:36+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "uk"
-}
--->
 # Обробка природної мови
 
 ![Резюме задач NLP у вигляді малюнка](../../../../translated_images/uk/ai-nlp.b22dcb8ca4707cea.webp)

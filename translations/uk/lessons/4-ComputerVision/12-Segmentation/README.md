@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T15:32:00+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "uk"
-}
--->
 # Сегментація
 
 Раніше ми вивчали розпізнавання об'єктів, яке дозволяє знаходити об'єкти на зображенні, прогнозуючи їх *граничні рамки*. Однак для деяких завдань нам потрібна не тільки гранична рамка, але й більш точна локалізація об'єкта. Це завдання називається **сегментацією**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Наприклад, для сегментації об'єктів ці вівці є різними об'єктами, але для семантичної сегментації всі вівці представлені одним класом.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/uk/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Зображення з [цієї статті](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Енкодер** витягує ознаки з вхідного зображення.
 * **Декодер** перетворює ці ознаки у **зображення маски**, яке має той самий розмір і кількість каналів, що відповідає кількості класів.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/uk/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Зображення з [цієї публікації](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Ця техніка особливо підходить для такого типу медичних зображень, але які інші реальні застосування ви могли б уявити?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/uk/navi.2f20b727910110ea.webp"/>
 
 > Зображення з PH<sup>2</sup> Database
 

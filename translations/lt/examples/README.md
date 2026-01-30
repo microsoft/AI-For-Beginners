@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:35:44+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "lt"
-}
--->
 # Pradedančiųjų AI pavyzdžiai
 
 Sveiki! Šiame kataloge rasite paprastus, savarankiškus pavyzdžius, kurie padės jums pradėti dirbti su AI ir mašininio mokymosi technologijomis. Kiekvienas pavyzdys yra sukurtas taip, kad būtų draugiškas pradedantiesiems, su išsamiais komentarais ir žingsnis po žingsnio paaiškinimais.

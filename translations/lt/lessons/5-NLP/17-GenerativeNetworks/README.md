@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T15:48:27+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "lt"
-}
--->
 # Generatyviniai tinklai
 
 ## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Mes išmokysime šį RNN generuoti tekstą žingsnis po žingsnio. Kiekviename �
 
 Generuojant tekstą (inference metu), pradedame nuo tam tikro **pradžios taško**, kuris perduodamas per RNN ląsteles, kad būtų generuojama tarpinė būsena, o tada iš šios būsenos prasideda generavimas. Generuojame po vieną simbolį, perduodame būseną ir sugeneruotą simbolį kitai RNN ląstelei, kad sugeneruotume kitą, kol sugeneruojame pakankamai simbolių.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/lt/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Paveikslėlis autoriaus
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-10-11T11:22:39+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "ta"
-}
--->
 # மனித உடல் பிரிப்பு
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இலிருந்து ஆய்வகப் பணிக்கான ஒதுக்கீடு.

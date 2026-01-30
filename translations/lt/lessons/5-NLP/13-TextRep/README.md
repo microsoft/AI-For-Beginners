@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T15:51:18+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "lt"
-}
--->
 # Teksto atvaizdavimas kaip tensoriai
 
 ## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Mūsų tikslas bus klasifikuoti naujienų straipsnį į vieną iš kategorijų p
 
 Jei norime spręsti natūralios kalbos apdorojimo (NLP) užduotis naudojant neuroninius tinklus, mums reikia būdo, kaip tekstą paversti tensoriais. Kompiuteriai jau atvaizduoja tekstinius simbolius kaip skaičius, kurie ekrane susiejami su šriftais, naudojant tokius kodavimus kaip ASCII ar UTF-8.
 
-<img alt="Vaizdas, rodantis diagramą, kaip simbolis susiejamas su ASCII ir dvejetainiu atvaizdavimu" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Vaizdas, rodantis diagramą, kaip simbolis susiejamas su ASCII ir dvejetainiu atvaizdavimu" src="../../../../../translated_images/lt/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Vaizdo šaltinis](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Kai kuriais atvejais galime apsvarstyti tri-gramų – trijų žodžių kombinac
 
 Sprendžiant tokias užduotis kaip teksto klasifikavimas, mums reikia galimybės atvaizduoti tekstą vienu fiksuoto dydžio vektoriumi, kurį naudosime kaip įvestį galutiniam tankiam klasifikatoriui. Vienas paprasčiausių būdų tai padaryti yra sujungti visus atskirus žodžių atvaizdavimus, pvz., juos sudedant. Jei sudėsime kiekvieno žodžio vieno karšto kodavimą, gausime dažnių vektorių, kuris parodys, kiek kartų kiekvienas žodis pasirodo tekste. Toks teksto atvaizdavimas vadinamas **žodžių maišu** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/lt/bow.3811869cff59368d.webp" width="90%"/>
 
 > Vaizdas sukurtas autoriaus
 

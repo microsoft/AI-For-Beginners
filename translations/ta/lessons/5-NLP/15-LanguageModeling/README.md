@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-10-11T11:42:41+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ta"
-}
--->
 # மொழி மாதிரிகள்
 
 Word2Vec மற்றும் GloVe போன்ற அர்த்த அடிப்படையிலான எம்பெடிங்குகள் உண்மையில் **மொழி மாதிரிகளை உருவாக்குவதற்கான** முதல் படியாகும் - மொழியின் இயல்பை *புரிந்து கொள்ளும்* (அல்லது *படம்பிடிக்கும்*) மாதிரிகளை உருவாக்குவது.

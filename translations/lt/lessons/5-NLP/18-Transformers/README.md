@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T15:49:11+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "lt"
-}
--->
 # Dėmesio mechanizmai ir transformatoriai
 
 ## [Prieš paskaitą testas](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Pozicinio kodavimo idėja yra tokia:
 * Mokomasis įterpimas, panašus į žetono įterpimą. Tai metodas, kurį čia apsvarstysime. Mes taikome įterpimo sluoksnius tiek žetonams, tiek jų pozicijoms, gaudami vienodo dydžio įterpimo vektorius, kuriuos vėliau sudedame.
 * Fiksuota pozicijos kodavimo funkcija, kaip siūloma originaliame straipsnyje.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/lt/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Vaizdas autoriaus
 

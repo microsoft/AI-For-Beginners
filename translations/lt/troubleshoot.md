@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:54:51+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "lt"
-}
--->
 # AI-For-Beginners Trikčių Šalinimo Vadovas
 
 Šis vadovas padės išspręsti dažniausiai pasitaikančias problemas, susijusias su [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) saugyklos naudojimu ar prisidėjimu prie jos. Kiekviena problema apima kontekstą, simptomus, paaiškinimus ir žingsnis po žingsnio sprendimus.

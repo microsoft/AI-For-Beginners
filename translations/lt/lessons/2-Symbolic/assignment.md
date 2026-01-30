@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-31T17:46:20+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "lt"
-}
--->
 # Sukurkite Ontologiją
 
 Žinių bazės kūrimas yra susijęs su modelio, atspindinčio faktus apie tam tikrą temą, kategorizavimu. Pasirinkite temą – pavyzdžiui, asmenį, vietą ar daiktą – ir sukurkite tos temos modelį. Naudokite kai kuriuos šiame pamokoje aprašytus metodus ir modelio kūrimo strategijas. Pavyzdžiui, galite sukurti svetainės ontologiją su baldais, apšvietimu ir pan. Kuo svetainė skiriasi nuo virtuvės? Vonios kambario? Kaip atpažįstate, kad tai svetainė, o ne valgomasis? Naudokite [Protégé](https://protege.stanford.edu/) savo ontologijai sukurti.

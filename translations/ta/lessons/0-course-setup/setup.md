@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
-  "translation_date": "2025-12-12T20:31:37+00:00",
-  "source_file": "lessons/0-course-setup/setup.md",
-  "language_code": "ta"
-}
--->
 # இந்த பாடத்திட்டத்தை தொடங்குவது எப்படி
 
 ## நீங்கள் ஒரு மாணவரா?

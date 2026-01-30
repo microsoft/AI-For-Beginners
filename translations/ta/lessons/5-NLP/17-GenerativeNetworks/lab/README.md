@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
-  "translation_date": "2025-10-11T11:44:01+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
-  "language_code": "ta"
-}
--->
 # வார்த்தை மட்டத்திலான உரை உருவாக்கம் RNNகளைப் பயன்படுத்தி
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இலிருந்து ஆய்வக பணிக்குறிப்பு.

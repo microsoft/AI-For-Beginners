@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T15:32:32+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "uk"
-}
--->
 # Генеративні змагальні мережі
 
 У попередньому розділі ми дізналися про **генеративні моделі**: моделі, які можуть створювати нові зображення, схожі на ті, що є в навчальному наборі даних. VAE був гарним прикладом генеративної моделі.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Основна ідея GAN полягає в тому, щоб мати дві нейронні мережі, які будуть навчатися одна проти одної:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/uk/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Зображення від [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Оскільки згортковий шар реалізується як лінійний фільтр, що проходить через зображення, деконволюція по суті схожа на згортку і може бути реалізована за допомогою тієї ж логіки шару.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/uk/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Зображення від [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T06:50:56+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "lt"
-}
--->
 # Kaip paleisti kodą
 
 Ši mokymo programa apima daug vykdomų pavyzdžių ir laboratorinių darbų, kuriuos norėsite paleisti. Tam jums reikalinga galimybė vykdyti Python kodą Jupyter užrašinėse, pateiktose kaip šios mokymo programos dalis. Turite keletą galimybių kodui paleisti:

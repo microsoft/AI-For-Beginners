@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-10-11T11:30:57+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "ta"
-}
--->
 # எங்கள் சொந்த கட்டமைப்புடன் MNIST வகைப்பாடு
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இலிருந்து ஆய்வகப் பணிக்கான பணிக்குறிப்பு.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-10-11T11:32:03+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "ta"
-}
--->
 # நரம்பியல் நெட்வொர்க் கட்டமைப்புகள்
 
 நாம் ஏற்கனவே கற்றுக்கொண்டது போல, நரம்பியல் நெட்வொர்க்குகளை திறம்பட பயிற்சி செய்ய, இரண்டு முக்கியமான காரியங்களை செய்ய வேண்டும்:

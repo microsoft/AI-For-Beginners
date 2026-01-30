@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-10-11T11:47:07+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "ta"
-}
--->
 # NetLogo பணிக்குறிப்பு
 
 NetLogo நூலகத்தில் உள்ள மாடல்களில் ஒன்றை எடுத்து, அதை ஒரு உண்மையான வாழ்க்கை நிலையை όσοமையாக சிமுலேட் செய்யுங்கள். ஒரு நல்ல உதாரணம், Alternative Visualizations கோப்பகத்தில் உள்ள Virus மாடலை மாற்றி, COVID-19 பரவலை மாடலாக்க எப்படி பயன்படுத்தலாம் என்பதை காட்டுவது. நீங்கள் ஒரு உண்மையான வைரஸ் பரவலை ஒத்த மாடலை உருவாக்க முடியுமா?

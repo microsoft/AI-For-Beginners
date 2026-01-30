@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-10-11T11:51:49+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "ta"
-}
--->
 # ஆதரவு
 
 ## பிரச்சினைகளை பதிவு செய்வது மற்றும் உதவி பெறுவது எப்படி  
