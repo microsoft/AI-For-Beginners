@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-08-26T10:29:00+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "ur"
-}
--->
 # ایم این آئی ایس ٹی کی درجہ بندی اپنے فریم ورک کے ساتھ
 
 [ای آئی فار بیگنرز کریکولم](https://github.com/microsoft/ai-for-beginners) سے لیب اسائنمنٹ۔

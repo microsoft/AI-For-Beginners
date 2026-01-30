@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T06:43:52+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ur"
-}
--->
 # تقسیم
 
 ہم نے پہلے آبجیکٹ ڈیٹیکشن کے بارے میں سیکھا تھا، جو ہمیں تصویر میں اشیاء کو ان کے *باؤنڈنگ باکسز* کی پیش گوئی کے ذریعے تلاش کرنے کی اجازت دیتا ہے۔ تاہم، کچھ کاموں کے لیے ہمیں صرف باؤنڈنگ باکسز کی ضرورت نہیں ہوتی بلکہ اشیاء کی زیادہ درست لوکلائزیشن کی ضرورت ہوتی ہے۔ اس کام کو **تقسیم** کہا جاتا ہے۔
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 انسٹینس تقسیم کے لیے، یہ بھیڑیں مختلف اشیاء ہیں، لیکن سیمینٹک تقسیم کے لیے تمام بھیڑیں ایک کلاس کے طور پر دکھائی جاتی ہیں۔
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ur/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > تصویر [اس بلاگ پوسٹ](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) سے لی گئی ہے۔
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **اینکوڈر** ان پٹ تصویر سے فیچرز نکالتا ہے۔
 * **ڈی کوڈر** ان فیچرز کو **ماسک تصویر** میں تبدیل کرتا ہے، جس کا سائز اور چینلز کی تعداد کلاسز کی تعداد کے مطابق ہوتی ہے۔
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ur/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > تصویر [اس اشاعت](https://arxiv.org/pdf/2001.05566.pdf) سے لی گئی ہے۔
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ یہ تکنیک خاص طور پر اس قسم کی طبی امیجنگ کے لیے موزوں ہے، لیکن آپ اور کون سی حقیقی دنیا کی ایپلیکیشنز کا تصور کر سکتے ہیں؟
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ur/navi.2f20b727910110ea.webp"/>
 
 > تصویر PH<sup>2</sup> ڈیٹا بیس سے لی گئی ہے۔
 

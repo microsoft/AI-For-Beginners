@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T06:49:42+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ur"
-}
--->
 # ری کرنٹ نیورل نیٹ ورکس
 
 ## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ایک سادہ RNN سیل کے اندر دو وزن میٹرکس ہوتے ہیں: ایک ان پٹ علامت کو تبدیل کرتا ہے (اسے W کہتے ہیں)، اور دوسرا ان پٹ حالت کو تبدیل کرتا ہے (H)۔ اس صورت میں نیٹ ورک کا آؤٹ پٹ &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) کے طور پر حساب کیا جاتا ہے، جہاں &sigma; ایک ایکٹیویشن فنکشن ہے اور b اضافی بائس ہے۔
 
-<img alt="RNN سیل کی ساخت" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN سیل کی ساخت" src="../../../../../translated_images/ur/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > تصویر مصنف کی جانب سے
 

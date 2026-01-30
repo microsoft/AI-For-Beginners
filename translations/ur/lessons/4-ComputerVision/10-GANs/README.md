@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T06:44:09+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ur"
-}
--->
 # جنریٹو ایڈورسیریل نیٹ ورکس
 
 پچھلے حصے میں، ہم نے **جنریٹو ماڈلز** کے بارے میں سیکھا: ایسے ماڈلز جو تربیتی ڈیٹا سیٹ میں موجود تصاویر کے مشابہ نئی تصاویر بنا سکتے ہیں۔ VAE جنریٹو ماڈل کی ایک اچھی مثال تھی۔
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GAN کا بنیادی خیال یہ ہے کہ دو نیورل نیٹ ورکس ہوں گے جو ایک دوسرے کے خلاف تربیت دیے جائیں گے:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ur/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > تصویر: [دمیتری سوشنیکوف](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ GAN کا بنیادی خیال یہ ہے کہ دو نیورل نیٹ ورکس ہ
 
 > ✅ چونکہ کنوولوشن تہہ کو تصویر کے ذریعے ایک لکیری فلٹر کے طور پر نافذ کیا جاتا ہے، ڈی کنوولوشن بنیادی طور پر کنوولوشن جیسا ہی ہے، اور اسے اسی تہہ کی منطق کا استعمال کرتے ہوئے نافذ کیا جا سکتا ہے۔
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ur/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > تصویر: [دمیتری سوشنیکوف](http://soshnikov.com)
 

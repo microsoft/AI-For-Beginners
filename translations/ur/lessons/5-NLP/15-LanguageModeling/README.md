@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T06:48:22+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ur"
-}
--->
 # زبان ماڈلنگ
 
 سمینٹک ایمبیڈنگز، جیسے Word2Vec اور GloVe، دراصل **زبان ماڈلنگ** کی طرف پہلا قدم ہیں - ایسے ماڈلز بنانا جو کسی طرح زبان کی *فطرت کو سمجھتے* (یا *نمائندگی کرتے*) ہیں۔

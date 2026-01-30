@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:36:20+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ur"
-}
--->
 # AI-For-Beginners خرابیوں کو دور کرنے کی گائیڈ
 
 یہ گائیڈ آپ کو [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) ریپوزیٹری استعمال کرتے وقت یا اس میں تعاون کرتے وقت پیش آنے والے عام مسائل کو حل کرنے میں مدد فراہم کرتی ہے۔ ہر مسئلے میں پس منظر، علامات، وضاحتیں، اور مرحلہ وار حل شامل ہیں۔

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-26T08:17:38+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "ur"
-}
--->
 # اسائنمنٹ: نوٹ بکس
 
 اس سبق سے منسلک نوٹ بکس (چاہے وہ PyTorch ہو یا TensorFlow ورژن)، انہیں اپنے ڈیٹا سیٹ کے ساتھ دوبارہ چلائیں، شاید کوئی ایسا ڈیٹا سیٹ جو Kaggle سے لیا گیا ہو اور جس کا حوالہ دیا گیا ہو۔ نوٹ بک کو دوبارہ لکھیں تاکہ آپ کی اپنی دریافتوں کو اجاگر کیا جا سکے۔ کسی مختلف قسم کے ڈیٹا سیٹ کو آزمائیں اور اپنی دریافتوں کو دستاویزی شکل دیں، جیسے کہ [یہ Beatles کے گانے کے بول](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics)۔

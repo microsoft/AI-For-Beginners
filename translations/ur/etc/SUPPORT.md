@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-26T11:16:02+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "ur"
-}
--->
 # سپورٹ
 
 ## مسائل رپورٹ کرنے اور مدد حاصل کرنے کا طریقہ  

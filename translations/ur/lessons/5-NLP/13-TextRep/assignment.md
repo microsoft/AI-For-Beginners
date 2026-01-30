@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-26T08:28:26+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "ur"
-}
--->
 # اسائنمنٹ: نوٹ بکس
 
 اس سبق سے منسلک نوٹ بکس (چاہے وہ PyTorch ہو یا TensorFlow ورژن)، اپنے ڈیٹا سیٹ کے ساتھ دوبارہ چلائیں، شاید کوئی ایسا ڈیٹا سیٹ جو Kaggle سے لیا گیا ہو اور جس کا حوالہ دیا گیا ہو۔ نوٹ بک کو دوبارہ لکھیں تاکہ آپ کی اپنی دریافتوں کو اجاگر کیا جا سکے۔ کچھ منفرد ڈیٹا سیٹس آزمائیں جو حیران کن ثابت ہو سکتے ہیں، جیسے [یہ ایک UFO مشاہدات کے بارے میں](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) جو NUFORC سے ہے۔
