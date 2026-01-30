@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-29T12:16:06+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "vi"
-}
--->
 # Dành cho Giáo viên
 
 Bạn có muốn sử dụng chương trình học này trong lớp học của mình không? Hãy thoải mái sử dụng nhé!

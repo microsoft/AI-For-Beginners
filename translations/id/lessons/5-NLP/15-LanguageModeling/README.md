@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T10:44:09+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "id"
-}
--->
 # Pemodelan Bahasa
 
 Embedding semantik, seperti Word2Vec dan GloVe, sebenarnya adalah langkah awal menuju **pemodelan bahasa** - menciptakan model yang dapat *memahami* (atau *merepresentasikan*) sifat dari bahasa.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:47:49+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "id"
-}
--->
 # Panduan Pemecahan Masalah AI-For-Beginners
 
 Panduan ini membantu Anda mengatasi masalah umum yang sering terjadi saat menggunakan atau berkontribusi pada repositori [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Setiap masalah mencakup latar belakang, gejala, penjelasan, dan solusi langkah demi langkah.

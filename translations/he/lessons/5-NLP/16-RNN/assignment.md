@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-28T20:07:16+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "he"
-}
--->
 # משימה: מחברות
 
 באמצעות המחברות הקשורות לשיעור זה (בגרסת PyTorch או TensorFlow), הריצו אותן מחדש עם מערך נתונים משלכם, אולי כזה מ-Kaggle, תוך שימוש עם ייחוס מתאים. כתבו מחדש את המחברת כדי להדגיש את הממצאים שלכם. נסו סוג אחר של מערך נתונים ותעדו את הממצאים שלכם, באמצעות טקסט כמו [מערך הנתונים הזה מתחרות Kaggle על ציוצי מזג אוויר](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

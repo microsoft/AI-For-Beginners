@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-29T12:50:31+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "vi"
-}
--->
 # Bài tập: Sổ tay (Notebooks)
 
 Sử dụng các sổ tay liên quan đến bài học này (có thể là phiên bản PyTorch hoặc TensorFlow), chạy lại chúng với bộ dữ liệu của riêng bạn, có thể lấy từ Kaggle, và nhớ ghi nguồn. Viết lại sổ tay để làm nổi bật những phát hiện của bạn. Hãy thử sử dụng một số bộ dữ liệu sáng tạo có thể mang lại bất ngờ, chẳng hạn như [bộ dữ liệu về các lần nhìn thấy UFO này](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) từ NUFORC.

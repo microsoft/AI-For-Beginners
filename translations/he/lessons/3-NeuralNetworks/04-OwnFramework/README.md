@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:21:43+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "he"
-}
--->
 # מבוא לרשתות נוירונים. פרספטרון רב-שכבתי
 
 בפרק הקודם למדתם על מודל הרשת הנוירונית הפשוט ביותר - פרספטרון חד-שכבתי, מודל סיווג ליניארי לשתי קטגוריות.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 שימו לב שהחלק השמאלי ביותר של כל הביטויים הללו זהה, ולכן ניתן לחשב נגזרות בצורה יעילה על ידי התחלה מפונקציית הפסד והתקדמות "אחורה" דרך גרף החישוב. לכן שיטת האימון של פרספטרון רב-שכבתי נקראת **בקפרופגציה**, או 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/he/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: ציון מקור התמונה  
 

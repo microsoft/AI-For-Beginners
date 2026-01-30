@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:23:31+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "he"
-}
--->
 # מנגנוני קשב ומודלים של טרנספורמרים
 
 ## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * הטמעה ניתנת לאימון, בדומה להטמעת טוקנים. זו הגישה שנשקול כאן. אנו מיישמים שכבות הטמעה על גבי הטוקנים והמיקומים שלהם, ומקבלים וקטורי הטמעה באותם ממדים, אותם אנו מחברים יחד.
 * פונקציית קידוד מיקום קבועה, כפי שהוצע במאמר המקורי.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/he/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > תמונה מאת המחבר
 

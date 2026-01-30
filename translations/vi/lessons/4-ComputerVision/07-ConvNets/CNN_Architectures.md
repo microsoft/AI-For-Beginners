@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T10:27:20+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "vi"
-}
--->
 # Các Kiến Trúc CNN Nổi Tiếng
 
 ### VGG-16
@@ -25,7 +16,7 @@ Như bạn có thể thấy, VGG tuân theo kiến trúc hình kim tự tháp tr
 
 ResNet là một họ các mô hình được đề xuất bởi Microsoft Research vào năm 2015. Ý tưởng chính của ResNet là sử dụng **khối dư thừa**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/vi/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Hình ảnh từ [bài báo này](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Bạn cũng có thể nghĩ rằng mạng này có khả năng điều chỉnh �
 
 Kiến trúc Google Inception đưa ý tưởng này tiến xa hơn, và xây dựng mỗi lớp mạng như một sự kết hợp của nhiều đường dẫn khác nhau:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/vi/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Hình ảnh từ [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

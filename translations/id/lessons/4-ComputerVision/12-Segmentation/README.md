@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T10:40:25+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "id"
-}
--->
 # Segmentasi
 
 Kita sebelumnya telah mempelajari tentang Deteksi Objek, yang memungkinkan kita untuk menemukan objek dalam gambar dengan memprediksi *bounding boxes*-nya. Namun, untuk beberapa tugas, kita tidak hanya membutuhkan bounding boxes, tetapi juga pelokalan objek yang lebih presisi. Tugas ini disebut **segmentasi**.
@@ -20,7 +11,7 @@ Segmentasi dapat dilihat sebagai **klasifikasi piksel**, di mana untuk **setiap*
 
 Dalam segmentasi instance, domba-domba ini adalah objek yang berbeda, tetapi dalam segmentasi semantik semua domba direpresentasikan sebagai satu kelas.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/id/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Gambar dari [blog ini](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Ada berbagai arsitektur neural untuk segmentasi, tetapi semuanya memiliki strukt
 * **Encoder** mengekstrak fitur dari gambar input.
 * **Decoder** mengubah fitur tersebut menjadi **gambar mask**, dengan ukuran dan jumlah saluran yang sesuai dengan jumlah kelas.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/id/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Gambar dari [publikasi ini](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Dalam pelajaran ini, kita akan melihat segmentasi dalam aksi dengan melatih jari
 
 > ✅ Teknik ini sangat cocok untuk jenis pencitraan medis ini, tetapi aplikasi dunia nyata apa lagi yang dapat Anda bayangkan?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/id/navi.2f20b727910110ea.webp"/>
 
 > Gambar dari Database PH<sup>2</sup>
 

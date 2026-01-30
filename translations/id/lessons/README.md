@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
-  "translation_date": "2025-08-29T12:12:09+00:00",
-  "source_file": "lessons/README.md",
-  "language_code": "id"
-}
--->
 # Gambaran Umum
 
 ![Gambaran Umum dalam sebuah sketsa](../../../translated_images/id/ai-overview.0857791951d19500.webp)

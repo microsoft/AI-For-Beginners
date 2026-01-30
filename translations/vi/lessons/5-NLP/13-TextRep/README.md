@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:36:26+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "vi"
-}
--->
 # Đại diện Văn bản dưới dạng Tensors
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Mục tiêu của chúng ta là phân loại bài báo vào một trong các dan
 
 Nếu chúng ta muốn giải quyết các nhiệm vụ Xử lý Ngôn ngữ Tự nhiên (NLP) bằng mạng nơ-ron, chúng ta cần một cách để đại diện văn bản dưới dạng tensors. Máy tính đã đại diện các ký tự văn bản dưới dạng số, ánh xạ đến các phông chữ trên màn hình của bạn bằng các mã hóa như ASCII hoặc UTF-8.
 
-<img alt="Hình ảnh hiển thị sơ đồ ánh xạ một ký tự sang đại diện ASCII và nhị phân" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Hình ảnh hiển thị sơ đồ ánh xạ một ký tự sang đại diện ASCII và nhị phân" src="../../../../../translated_images/vi/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Nguồn hình ảnh](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Trong một số trường hợp, chúng ta có thể xem xét sử dụng tri-g
 
 Khi giải quyết các nhiệm vụ như phân loại văn bản, chúng ta cần có khả năng đại diện văn bản bằng một vector kích thước cố định, mà chúng ta sẽ sử dụng làm đầu vào cho bộ phân loại cuối cùng. Một trong những cách đơn giản nhất để làm điều đó là kết hợp tất cả các đại diện từ riêng lẻ, ví dụ bằng cách cộng chúng lại. Nếu chúng ta cộng các mã hóa one-hot của mỗi từ, chúng ta sẽ có một vector tần suất, cho thấy mỗi từ xuất hiện bao nhiêu lần trong văn bản. Cách đại diện văn bản này được gọi là **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/vi/bow.3811869cff59368d.webp" width="90%"/>
 
 > Hình ảnh của tác giả
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-29T12:31:52+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "id"
-}
--->
 # AI yang Etis dan Bertanggung Jawab
 
 Anda hampir menyelesaikan kursus ini, dan saya harap sekarang Anda sudah memahami bahwa AI didasarkan pada sejumlah metode matematika formal yang memungkinkan kita menemukan hubungan dalam data dan melatih model untuk meniru beberapa aspek perilaku manusia. Pada titik ini dalam sejarah, kita menganggap AI sebagai alat yang sangat kuat untuk mengekstrak pola dari data, dan menerapkan pola tersebut untuk menyelesaikan masalah baru.

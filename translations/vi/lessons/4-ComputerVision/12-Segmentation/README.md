@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T10:29:32+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "vi"
-}
--->
 # Phân đoạn
 
 Chúng ta đã học về Phát hiện Đối tượng, cho phép xác định vị trí các đối tượng trong hình ảnh bằng cách dự đoán *hộp giới hạn* của chúng. Tuy nhiên, đối với một số nhiệm vụ, chúng ta không chỉ cần hộp giới hạn mà còn cần định vị đối tượng chính xác hơn. Nhiệm vụ này được gọi là **phân đoạn**.
@@ -20,7 +11,7 @@ Phân đoạn có thể được xem như **phân loại điểm ảnh**, trong 
 
 Ví dụ, trong phân đoạn theo đối tượng, những con cừu này là các đối tượng khác nhau, nhưng trong phân đoạn ngữ nghĩa, tất cả các con cừu đều được biểu diễn bởi một lớp duy nhất.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/vi/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Hình ảnh từ [bài viết này](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Có nhiều kiến trúc mạng thần kinh khác nhau cho phân đoạn, nhưng
 * **Encoder** trích xuất các đặc trưng từ hình ảnh đầu vào.
 * **Decoder** chuyển đổi các đặc trưng đó thành **hình ảnh mặt nạ**, với kích thước và số lượng kênh tương ứng với số lượng lớp.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/vi/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Hình ảnh từ [ấn phẩm này](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Trong bài học này, chúng ta sẽ thấy phân đoạn hoạt động bằng
 
 > ✅ Kỹ thuật này đặc biệt phù hợp với loại hình ảnh y tế này, nhưng bạn có thể hình dung những ứng dụng thực tế nào khác?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/vi/navi.2f20b727910110ea.webp"/>
 
 > Hình ảnh từ Cơ sở dữ liệu PH<sup>2</sup>
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T10:44:46+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "id"
-}
--->
 # Model Bahasa Besar yang Telah Dilatih Sebelumnya
 
 Dalam semua tugas sebelumnya, kita melatih jaringan neural untuk melakukan tugas tertentu menggunakan dataset berlabel. Dengan model transformer besar, seperti BERT, kita menggunakan pemodelan bahasa secara mandiri untuk membangun model bahasa, yang kemudian disesuaikan untuk tugas spesifik dengan pelatihan lebih lanjut yang sesuai dengan domain. Namun, telah terbukti bahwa model bahasa besar juga dapat menyelesaikan banyak tugas tanpa pelatihan khusus domain. Keluarga model yang mampu melakukan hal tersebut disebut **GPT**: Generative Pre-Trained Transformer.

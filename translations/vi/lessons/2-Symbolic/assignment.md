@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-29T12:31:21+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "vi"
-}
--->
 # Xây dựng một Ontology
 
 Xây dựng một cơ sở tri thức là việc phân loại một mô hình đại diện cho các sự thật về một chủ đề. Hãy chọn một chủ đề - như một người, một địa điểm, hoặc một vật - và sau đó xây dựng một mô hình về chủ đề đó. Sử dụng một số kỹ thuật và chiến lược xây dựng mô hình được mô tả trong bài học này. Một ví dụ có thể là tạo một ontology về phòng khách với đồ nội thất, đèn, v.v. Phòng khách khác với nhà bếp như thế nào? Phòng tắm thì sao? Làm thế nào để bạn biết đó là phòng khách chứ không phải phòng ăn? Sử dụng [Protégé](https://protege.stanford.edu/) để xây dựng ontology của bạn.

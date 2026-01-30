@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-28T19:31:31+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "he"
-}
--->
 # זיהוי תנועות באמצעות זרימה אופטית
 
 מטלת מעבדה מתוך [תוכנית הלימודים למתחילים ב-AI](https://aka.ms/ai-beginners).

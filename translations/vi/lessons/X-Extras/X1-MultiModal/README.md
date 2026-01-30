@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-29T12:17:33+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "vi"
-}
--->
 # Mạng Đa Phương Thức
 
 Sau thành công của các mô hình transformer trong việc giải quyết các nhiệm vụ NLP, các kiến trúc tương tự đã được áp dụng cho các nhiệm vụ thị giác máy tính. Ngày càng có nhiều sự quan tâm đến việc xây dựng các mô hình có thể *kết hợp* khả năng xử lý hình ảnh và ngôn ngữ tự nhiên. Một trong những nỗ lực đó được thực hiện bởi OpenAI, được gọi là CLIP và DALL.E.

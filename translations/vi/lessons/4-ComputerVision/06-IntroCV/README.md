@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T10:27:56+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "vi"
-}
--->
 # Giới thiệu về Thị giác Máy tính
 
 [Thị giác Máy tính](https://wikipedia.org/wiki/Computer_vision) là một lĩnh vực nhằm giúp máy tính đạt được khả năng hiểu biết ở mức cao về hình ảnh kỹ thuật số. Đây là một định nghĩa khá rộng, bởi vì *hiểu biết* có thể mang nhiều ý nghĩa khác nhau, bao gồm việc tìm một đối tượng trong hình ảnh (**phát hiện đối tượng**), hiểu điều gì đang xảy ra (**phát hiện sự kiện**), mô tả hình ảnh bằng văn bản, hoặc tái tạo một cảnh trong không gian 3D. Ngoài ra còn có các nhiệm vụ đặc biệt liên quan đến hình ảnh con người: ước tính tuổi và cảm xúc, phát hiện và nhận diện khuôn mặt, và ước tính tư thế 3D, chỉ là một vài ví dụ.
@@ -115,7 +106,7 @@ Xem [video này](https://docs.microsoft.com/shows/ai-show/ai-show--2021-opencv-a
 
 Trong bài thực hành này, bạn sẽ quay một video với các cử chỉ đơn giản, và mục tiêu của bạn là trích xuất các chuyển động lên/xuống/trái/phải bằng dòng quang học.
 
-<img src="images/palm-movement.png" width="30%" alt="Khung hình chuyển động lòng bàn tay"/>
+<img src="../../../../../translated_images/vi/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Khung hình chuyển động lòng bàn tay"/>
 
 ---
 

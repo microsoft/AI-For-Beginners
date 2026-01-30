@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T10:26:00+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "vi"
-}
--->
 # Hệ Thống Đa Tác Nhân
 
 Một trong những cách để đạt được trí tuệ là phương pháp **nổi bật** (hoặc **tương hỗ**), dựa trên thực tế rằng hành vi kết hợp của nhiều tác nhân tương đối đơn giản có thể dẫn đến hành vi tổng thể phức tạp hơn (hoặc thông minh hơn) của hệ thống nói chung. Về lý thuyết, điều này dựa trên các nguyên tắc của [Trí tuệ Tập thể](https://en.wikipedia.org/wiki/Collective_intelligence), [Thuyết Nổi bật](https://en.wikipedia.org/wiki/Global_brain) và [Điều khiển học Tiến hóa](https://en.wikipedia.org/wiki/Global_brain), cho rằng các hệ thống cấp cao hơn đạt được một giá trị gia tăng nào đó khi được kết hợp đúng cách từ các hệ thống cấp thấp hơn (còn gọi là *nguyên tắc chuyển đổi siêu hệ thống*).
@@ -60,7 +51,7 @@ Bạn có thể [tải xuống](https://ccl.northwestern.edu/netlogo/download.sh
 
 Một điều tuyệt vời về NetLogo là nó chứa một thư viện các mô hình hoạt động mà bạn có thể thử. Đi tới **File &rightarrow; Models Library**, và bạn có nhiều danh mục mô hình để lựa chọn.
 
-<img alt="Thư viện Mô Hình NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="Thư viện Mô Hình NetLogo" src="../../../../../translated_images/vi/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Ảnh chụp màn hình thư viện mô hình của Dmitry Soshnikov
 

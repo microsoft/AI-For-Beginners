@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T10:35:24+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "vi"
-}
--->
 # Nhận diện Thực thể Được đặt tên
 
 Cho đến nay, chúng ta chủ yếu tập trung vào một nhiệm vụ NLP - phân loại. Tuy nhiên, còn có nhiều nhiệm vụ NLP khác có thể được thực hiện bằng mạng nơ-ron. Một trong những nhiệm vụ đó là **[Nhận diện Thực thể Được đặt tên](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), nhiệm vụ này liên quan đến việc nhận diện các thực thể cụ thể trong văn bản, chẳng hạn như địa điểm, tên người, khoảng thời gian, công thức hóa học, và nhiều hơn nữa.
@@ -17,7 +8,7 @@ Cho đến nay, chúng ta chủ yếu tập trung vào một nhiệm vụ NLP - 
 
 Giả sử bạn muốn phát triển một chatbot ngôn ngữ tự nhiên, tương tự như Amazon Alexa hoặc Google Assistant. Cách các chatbot thông minh hoạt động là *hiểu* người dùng muốn gì bằng cách thực hiện phân loại văn bản trên câu đầu vào. Kết quả của việc phân loại này là cái gọi là **ý định**, xác định chatbot nên làm gì.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/vi/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Hình ảnh của tác giả
 

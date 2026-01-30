@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T03:45:50+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "id"
-}
--->
 # Representasi Pengetahuan dan Sistem Pakar
 
-![Ringkasan konten AI Simbolik](../../../../../../translated_images/id/ai-symbolic.715a30cb610411a6.webp)
+![Ringkasan konten AI Simbolik](../../../../translated_images/id/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Sering kali, kita tidak mendefinisikan pengetahuan secara ketat, tetapi menyelar
 
 Dengan demikian, masalah **representasi pengetahuan** adalah menemukan cara efektif untuk merepresentasikan pengetahuan di dalam komputer dalam bentuk data, agar dapat digunakan secara otomatis. Ini dapat dilihat sebagai spektrum:
 
-![Spektrum representasi pengetahuan](../../../../../../translated_images/id/knowledge-spectrum.b60df631852c0217.webp)
+![Spektrum representasi pengetahuan](../../../../translated_images/id/knowledge-spectrum.b60df631852c0217.webp)
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Sintaks Blok | Inden | | |
 
 Salah satu keberhasilan awal AI simbolik adalah yang disebut **sistem pakar**—sistem komputer yang dirancang untuk bertindak sebagai ahli dalam domain masalah terbatas. Sistem ini didasarkan pada **basis pengetahuan** yang diambil dari satu atau lebih ahli manusia, dan mereka memiliki **mesin inferensi** yang melakukan penalaran di atasnya.
 
-![Arsitektur Manusia](../../../../../../translated_images/id/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistem Berbasis Pengetahuan](../../../../../../translated_images/id/arch-kbs.3ec5c150b09fa8da.webp)
+![Arsitektur Manusia](../../../../translated_images/id/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistem Berbasis Pengetahuan](../../../../translated_images/id/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Struktur sederhana sistem saraf manusia | Arsitektur sistem berbasis pengetahuan
 
@@ -106,7 +97,7 @@ Sistem pakar dibangun seperti sistem penalaran manusia, yang berisi **memori jan
 
 Sebagai contoh, mari kita lihat sistem pakar berikut untuk menentukan hewan berdasarkan karakteristik fisiknya:
 
-![Pohon AND-OR](../../../../../../translated_images/id/AND-OR-Tree.5592d2c70187f283.webp)
+![Pohon AND-OR](../../../../translated_images/id/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 

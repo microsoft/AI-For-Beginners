@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:45:23+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "id"
-}
--->
 # Jaringan Saraf Rekurens
 
 ## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Mari kita lihat bagaimana sebuah sel RNN sederhana diorganisasi. Sel ini menerim
 
 Sebuah sel RNN sederhana memiliki dua matriks bobot di dalamnya: satu untuk mentransformasi simbol input (kita sebut W), dan satu lagi untuk mentransformasi state input (H). Dalam kasus ini, output jaringan dihitung sebagai &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), di mana &sigma; adalah fungsi aktivasi dan b adalah bias tambahan.
 
-<img alt="Anatomi Sel RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomi Sel RNN" src="../../../../../translated_images/id/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Gambar oleh penulis
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:47:31+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "vi"
-}
--->
 # Game Jam
 
 Trò chơi là một lĩnh vực đã chịu ảnh hưởng lớn từ sự phát triển của AI và ML. Trong bài tập này, hãy viết một bài luận ngắn về một trò chơi mà bạn yêu thích, đã bị ảnh hưởng bởi sự tiến hóa của AI. Đó nên là một trò chơi đủ cũ để đã trải qua ảnh hưởng từ nhiều loại hệ thống xử lý máy tính khác nhau. Một ví dụ hay là Cờ vua hoặc Cờ vây, nhưng cũng có thể xem xét các trò chơi điện tử như Pong hoặc Pac-Man. Hãy viết một bài luận thảo luận về quá khứ, hiện tại và tương lai AI của trò chơi đó.

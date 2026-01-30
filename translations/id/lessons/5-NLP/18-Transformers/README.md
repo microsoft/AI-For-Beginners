@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:44:19+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "id"
-}
--->
 # Mekanisme Perhatian dan Transformer
 
 ## [Kuis sebelum pelajaran](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ide dari encoding posisi adalah sebagai berikut.
 * Embedding yang dapat dilatih, mirip dengan embedding token. Ini adalah pendekatan yang kita pertimbangkan di sini. Kita menerapkan lapisan embedding di atas token dan posisinya, menghasilkan vektor embedding dengan dimensi yang sama, yang kemudian kita tambahkan bersama.
 * Fungsi encoding posisi tetap, seperti yang diusulkan dalam makalah asli.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/id/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Gambar oleh penulis
 

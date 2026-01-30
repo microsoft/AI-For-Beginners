@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-28T20:02:46+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "he"
-}
--->
 # משימה: Transformers
 
 התנסו ב-Transformers על HuggingFace! נסו כמה מהסקריפטים שהם מספקים כדי לעבוד עם המודלים השונים הזמינים באתר שלהם: https://huggingface.co/docs/transformers/run_scripts. נסו אחד מהמאגרי הנתונים שלהם, ולאחר מכן ייבאו אחד משלכם מתוך תוכנית הלימודים הזו או מתוך Kaggle ובדקו אם תוכלו ליצור טקסטים מעניינים. צרו מחברת עם הממצאים שלכם.

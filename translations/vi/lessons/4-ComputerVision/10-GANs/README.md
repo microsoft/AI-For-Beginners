@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T10:29:51+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "vi"
-}
--->
 # Mạng Generative Adversarial (GAN)
 
 Trong phần trước, chúng ta đã tìm hiểu về **mô hình sinh**: các mô hình có thể tạo ra hình ảnh mới tương tự như những hình ảnh trong tập dữ liệu huấn luyện. VAE là một ví dụ điển hình của mô hình sinh.
@@ -17,7 +8,7 @@ Tuy nhiên, nếu chúng ta cố gắng tạo ra thứ gì đó thực sự ý n
 
 Ý tưởng chính của GAN là có hai mạng nơ-ron được huấn luyện đối kháng lẫn nhau:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/vi/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator hơi phức tạp hơn một chút. Bạn có thể coi nó như là m
 
 > ✅ Vì lớp tích chập được triển khai như một bộ lọc tuyến tính quét qua hình ảnh, deconvolution về cơ bản tương tự như tích chập và có thể được triển khai bằng cùng logic lớp.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/vi/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:32:59+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "vi"
-}
--->
 # Giới thiệu về Mạng Neural. Perceptron Đa Tầng
 
 Trong phần trước, bạn đã tìm hiểu về mô hình mạng neural đơn giản nhất - perceptron một tầng, một mô hình phân loại hai lớp tuyến tính.
@@ -65,7 +56,7 @@ Thuật toán gradient descent vẫn giữ nguyên, nhưng việc tính toán gr
 
 Lưu ý rằng phần bên trái nhất của tất cả các biểu thức này là giống nhau, và do đó chúng ta có thể tính toán hiệu quả các đạo hàm bắt đầu từ hàm mất mát và đi "ngược lại" qua đồ thị tính toán. Vì vậy, phương pháp huấn luyện perceptron đa tầng được gọi là **backpropagation**, hay 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/vi/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: trích dẫn hình ảnh
 

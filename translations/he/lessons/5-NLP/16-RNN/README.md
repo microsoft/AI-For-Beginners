@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:24:33+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "he"
-}
--->
 # רשתות עצביות חוזרות
 
 ## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לתא RNN פשוט יש שני מטריצות משקל בפנים: אחת ממירה סמל קלט (נקרא לה W), ואחת ממירה מצב קלט (H). במקרה זה, הפלט של הרשת מחושב כ-&sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), כאשר &sigma; היא פונקציית האקטיבציה ו-b הוא הטיה נוספת.
 
-<img alt="אנטומיה של תא RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="אנטומיה של תא RNN" src="../../../../../translated_images/he/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > תמונה מאת המחבר
 

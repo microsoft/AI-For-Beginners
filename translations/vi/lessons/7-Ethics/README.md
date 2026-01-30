@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-29T12:31:34+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "vi"
-}
--->
 # AI Đạo Đức và Trách Nhiệm
 
 Bạn đã gần hoàn thành khóa học này, và tôi hy vọng rằng đến thời điểm này bạn đã thấy rõ rằng AI dựa trên một số phương pháp toán học chính thức cho phép chúng ta tìm ra mối quan hệ trong dữ liệu và huấn luyện các mô hình để tái tạo một số khía cạnh của hành vi con người. Tại thời điểm lịch sử này, chúng ta coi AI là một công cụ rất mạnh mẽ để trích xuất các mẫu từ dữ liệu và áp dụng các mẫu đó để giải quyết các vấn đề mới.

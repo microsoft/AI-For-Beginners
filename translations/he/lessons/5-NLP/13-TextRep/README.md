@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:25:24+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "he"
-}
--->
 # ייצוג טקסט כטנסורים
 
 ## [מבחן לפני השיעור](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 אם אנחנו רוצים לפתור משימות עיבוד שפה טבעית (NLP) באמצעות רשתות נוירונים, אנחנו צריכים דרך לייצג טקסט כטנסורים. מחשבים כבר מייצגים תווים טקסטואליים כמספרים שממופים לגופנים על המסך שלך באמצעות קידודים כמו ASCII או UTF-8.
 
-<img alt="תמונה המציגה דיאגרמה שממפה תו לייצוג ASCII ובינארי" src="images/ascii-character-map.png" width="50%"/>
+<img alt="תמונה המציגה דיאגרמה שממפה תו לייצוג ASCII ובינארי" src="../../../../../translated_images/he/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [מקור התמונה](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 כאשר פותרים משימות כמו סיווג טקסט, אנו צריכים להיות מסוגלים לייצג טקסט על ידי וקטור בגודל קבוע, אותו נשתמש כקלט למסווג הסופי הצפוף. אחת הדרכים הפשוטות לעשות זאת היא לשלב את כל ייצוגי המילים הבודדות, למשל על ידי חיבורם. אם נחבר את קידודי ה-one-hot של כל מילה, נקבל וקטור של תדירויות, שמראה כמה פעמים כל מילה מופיעה בתוך הטקסט. ייצוג כזה של טקסט נקרא **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/he/bow.3811869cff59368d.webp" width="90%"/>
 
 > תמונה מאת המחבר
 

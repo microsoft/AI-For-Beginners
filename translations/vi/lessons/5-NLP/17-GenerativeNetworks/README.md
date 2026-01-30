@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:34:11+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "vi"
-}
--->
 # Mạng tạo sinh
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Chúng ta sẽ huấn luyện RNN này để tạo văn bản từng bước. �
 
 Khi tạo văn bản (trong quá trình suy luận), chúng ta bắt đầu với một **gợi ý**, được truyền qua các tế bào RNN để tạo trạng thái trung gian của nó, và sau đó từ trạng thái này bắt đầu quá trình tạo. Chúng ta tạo từng ký tự một, và truyền trạng thái cùng ký tự vừa tạo vào một tế bào RNN khác để tạo ký tự tiếp theo, cho đến khi tạo đủ số ký tự.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/vi/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Hình ảnh của tác giả
 

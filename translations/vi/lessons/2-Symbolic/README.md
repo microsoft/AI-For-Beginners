@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T03:41:43+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "vi"
-}
--->
 # Đại diện tri thức và hệ chuyên gia
 
-![Tóm tắt nội dung AI ký hiệu](../../../../../../translated_images/vi/ai-symbolic.715a30cb610411a6.webp)
+![Tóm tắt nội dung AI ký hiệu](../../../../translated_images/vi/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote bởi [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Thông thường, chúng ta không định nghĩa tri thức một cách chặt 
 
 Do đó, vấn đề **đại diện tri thức** là tìm cách hiệu quả để biểu diễn tri thức bên trong máy tính dưới dạng dữ liệu, nhằm làm cho tri thức có thể sử dụng tự động. Điều này có thể xem như một phổ:
 
-![Phổ đại diện tri thức](../../../../../../translated_images/vi/knowledge-spectrum.b60df631852c0217.webp)
+![Phổ đại diện tri thức](../../../../translated_images/vi/knowledge-spectrum.b60df631852c0217.webp)
 
 > Hình bởi [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Cú pháp khối | Thụt lề |                  |        |
 
 Một trong những thành công đầu tiên của AI ký hiệu là các **hệ chuyên gia** - các hệ thống máy tính được thiết kế để đóng vai trò chuyên gia trong một lĩnh vực vấn đề giới hạn. Chúng dựa trên **cơ sở tri thức** trích xuất từ một hoặc nhiều chuyên gia con người, và có chứa **bộ suy luận** thực hiện suy luận dựa trên đó.
 
-![Cấu trúc hệ thần kinh con người](../../../../../../translated_images/vi/arch-human.5d4d35f1bba3ab1c.webp) | ![Hệ thống dựa trên tri thức](../../../../../../translated_images/vi/arch-kbs.3ec5c150b09fa8da.webp)
+![Cấu trúc hệ thần kinh con người](../../../../translated_images/vi/arch-human.5d4d35f1bba3ab1c.webp) | ![Hệ thống dựa trên tri thức](../../../../translated_images/vi/arch-kbs.3ec5c150b09fa8da.webp)
 --------------------------------------------------------|----------------------------------------------------
 Cấu trúc đơn giản của hệ thần kinh con người              | Kiến trúc hệ thống dựa trên tri thức
 
@@ -106,7 +97,7 @@ Hệ chuyên gia được xây dựng như hệ thống suy luận của con ng�
 
 Lấy ví dụ hệ chuyên gia xác định một con vật dựa trên đặc điểm thể chất:
 
-![Cây AND-OR](../../../../../../translated_images/vi/AND-OR-Tree.5592d2c70187f283.webp)
+![Cây AND-OR](../../../../translated_images/vi/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Hình bởi [Dmitry Soshnikov](http://soshnikov.com)
 

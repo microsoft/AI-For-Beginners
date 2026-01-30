@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
-  "translation_date": "2025-12-12T19:58:30+00:00",
-  "source_file": "lessons/0-course-setup/setup.md",
-  "language_code": "he"
-}
--->
 # התחלת עבודה עם תכנית הלימודים הזו
 
 ## האם אתה סטודנט?

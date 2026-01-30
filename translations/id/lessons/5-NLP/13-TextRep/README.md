@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:46:31+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "id"
-}
--->
 # Representasi Teks sebagai Tensor
 
 ## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Tujuan kita adalah mengklasifikasikan berita tersebut ke dalam salah satu katego
 
 Jika kita ingin menyelesaikan tugas Pemrosesan Bahasa Alami (NLP) dengan jaringan saraf, kita memerlukan cara untuk merepresentasikan teks sebagai tensor. Komputer sudah merepresentasikan karakter teks sebagai angka yang dipetakan ke font di layar Anda menggunakan encoding seperti ASCII atau UTF-8.
 
-<img alt="Gambar menunjukkan diagram pemetaan karakter ke representasi ASCII dan biner" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Gambar menunjukkan diagram pemetaan karakter ke representasi ASCII dan biner" src="../../../../../translated_images/id/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Sumber gambar](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Dalam beberapa kasus, kita mungkin mempertimbangkan menggunakan tri-gram -- komb
 
 Saat menyelesaikan tugas seperti klasifikasi teks, kita perlu dapat merepresentasikan teks dengan satu vektor berukuran tetap, yang akan kita gunakan sebagai input untuk pengklasifikasi padat akhir. Salah satu cara termudah untuk melakukannya adalah dengan menggabungkan semua representasi kata individu, misalnya dengan menambahkannya. Jika kita menambahkan one-hot encoding dari setiap kata, kita akan mendapatkan vektor frekuensi, yang menunjukkan berapa kali setiap kata muncul dalam teks. Representasi teks semacam ini disebut **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/id/bow.3811869cff59368d.webp" width="90%"/>
 
 > Gambar oleh penulis
 

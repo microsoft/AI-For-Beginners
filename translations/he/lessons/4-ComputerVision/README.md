@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-28T19:23:32+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "he"
-}
--->
 # ראייה ממוחשבת
 
 ![סיכום תוכן ראייה ממוחשבת באיור](../../../../translated_images/he/ai-computervision.6506ebebac3fbf76.webp)

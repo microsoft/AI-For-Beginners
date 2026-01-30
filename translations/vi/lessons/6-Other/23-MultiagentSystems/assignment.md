@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-29T12:14:28+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "vi"
-}
--->
 # Bài Tập NetLogo
 
 Hãy chọn một trong các mô hình trong thư viện của NetLogo và sử dụng nó để mô phỏng một tình huống thực tế một cách sát nhất có thể. Một ví dụ hay là điều chỉnh mô hình Virus trong thư mục Alternative Visualizations để cho thấy cách nó có thể được sử dụng để mô phỏng sự lây lan của COVID-19. Bạn có thể xây dựng một mô hình mô phỏng sự lây lan của virus trong thực tế không?

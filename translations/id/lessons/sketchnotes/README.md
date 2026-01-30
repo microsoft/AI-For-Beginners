@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-29T12:37:39+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "id"
-}
--->
 Semua sketchnote kurikulum dapat diunduh di sini.
 
 🎨 Dibuat oleh: Tomomi Imura (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T10:38:41+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "id"
-}
--->
 # Jaringan Pra-Latih dan Transfer Learning
 
 Melatih CNN bisa memakan waktu lama, dan membutuhkan banyak data untuk tugas tersebut. Namun, sebagian besar waktu dihabiskan untuk mempelajari filter tingkat rendah terbaik yang dapat digunakan jaringan untuk mengekstrak pola dari gambar. Pertanyaan alami muncul - bisakah kita menggunakan jaringan neural yang telah dilatih pada satu dataset dan mengadaptasinya untuk mengklasifikasikan gambar yang berbeda tanpa memerlukan proses pelatihan penuh?

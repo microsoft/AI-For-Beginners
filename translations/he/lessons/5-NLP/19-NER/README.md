@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T10:24:17+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "he"
-}
--->
 # זיהוי ישויות בשם
 
 עד כה, התמקדנו בעיקר במשימה אחת של עיבוד שפה טבעית (NLP) - סיווג. עם זאת, ישנן משימות נוספות שניתן לבצע באמצעות רשתות עצביות. אחת מהן היא **[זיהוי ישויות בשם](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), שעוסקת בזיהוי ישויות ספציפיות בטקסט, כמו מקומות, שמות אנשים, טווחי זמן, נוסחאות כימיות ועוד.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 נניח שברצונך לפתח צ'אטבוט בשפה טבעית, בדומה ל-Amazon Alexa או Google Assistant. הדרך שבה צ'אטבוטים חכמים עובדים היא *להבין* מה המשתמש רוצה על ידי ביצוע סיווג טקסט על המשפט שהוזן. תוצאת הסיווג היא מה שנקרא **כוונה** (intent), שמגדירה מה הצ'אטבוט צריך לעשות.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/he/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > תמונה מאת המחבר
 

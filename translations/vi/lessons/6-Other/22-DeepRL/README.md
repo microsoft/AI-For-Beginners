@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T10:26:40+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "vi"
-}
--->
 # Học Tăng Cường Sâu
 
 Học tăng cường (Reinforcement Learning - RL) được xem là một trong những mô hình học máy cơ bản, bên cạnh học có giám sát và học không giám sát. Trong khi học có giám sát dựa vào tập dữ liệu với kết quả đã biết, RL lại dựa trên **học thông qua hành động**. Ví dụ, khi lần đầu chơi một trò chơi máy tính, chúng ta bắt đầu chơi mà không biết luật, và sau đó cải thiện kỹ năng chỉ bằng cách chơi và điều chỉnh hành vi.
@@ -34,7 +25,7 @@ Chắc hẳn bạn đã từng thấy các thiết bị cân bằng hiện đạ
 
 Phiên bản đơn giản hóa của bài toán cân bằng được gọi là vấn đề **CartPole**. Trong thế giới CartPole, chúng ta có một thanh trượt ngang có thể di chuyển sang trái hoặc phải, và mục tiêu là cân bằng một cột thẳng đứng trên thanh trượt khi nó di chuyển.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/vi/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Để tạo và sử dụng môi trường này, chúng ta cần một vài dòng mã Python:
 

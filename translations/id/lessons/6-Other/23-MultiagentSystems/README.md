@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T10:37:04+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "id"
-}
--->
 # Sistem Multi-Agen
 
 Salah satu cara untuk mencapai kecerdasan adalah pendekatan yang disebut **emergent** (atau **sinergis**), yang didasarkan pada fakta bahwa perilaku gabungan dari banyak agen yang relatif sederhana dapat menghasilkan perilaku sistem secara keseluruhan yang lebih kompleks (atau cerdas). Secara teori, ini didasarkan pada prinsip [Kecerdasan Kolektif](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentisme](https://en.wikipedia.org/wiki/Global_brain), dan [Sibernetika Evolusioner](https://en.wikipedia.org/wiki/Global_brain), yang menyatakan bahwa sistem tingkat tinggi memperoleh nilai tambah tertentu ketika dikombinasikan dengan benar dari sistem tingkat rendah (disebut *prinsip transisi metasistem*).
@@ -60,7 +51,7 @@ Anda dapat [mengunduh](https://ccl.northwestern.edu/netlogo/download.shtml) dan 
 
 Hal yang hebat tentang NetLogo adalah ia memiliki perpustakaan model yang dapat Anda coba. Pergi ke **File &rightarrow; Models Library**, dan Anda memiliki banyak kategori model untuk dipilih.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/id/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Tangkapan layar perpustakaan model oleh Dmitry Soshnikov
 
