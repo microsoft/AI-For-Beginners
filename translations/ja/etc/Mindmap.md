@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f2f88dbd2debd38e26149b27b1fd272d",
-  "translation_date": "2025-08-24T21:21:01+00:00",
-  "source_file": "etc/Mindmap.md",
-  "language_code": "ja"
-}
--->
 # AI
 
 ## [AIの概要](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/1-Intro/README.md)

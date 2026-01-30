@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T12:11:14+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "ja"
-}
--->
 # 知識表現とエキスパートシステム
 
-![記号的AIの内容の概要](../../../../../../translated_images/ja/ai-symbolic.715a30cb610411a6.webp)
+![記号的AIの内容の概要](../../../../translated_images/ja/ai-symbolic.715a30cb610411a6.webp)
 
 > スケッチノート作成者：[Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ AIの初期には、インテリジェントシステムを作成するための
 
 したがって、**知識表現**の問題は、知識を自動的に利用可能にするために、コンピューター内でデータという形で効果的に表現する方法を見つけることです。これは次のようなスペクトルとして見ることができます：
 
-![知識表現のスペクトル](../../../../../../translated_images/ja/knowledge-spectrum.b60df631852c0217.webp)
+![知識表現のスペクトル](../../../../translated_images/ja/knowledge-spectrum.b60df631852c0217.webp)
 
 > 画像提供：[Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 記号的AIの初期の成功例の一つが**エキスパートシステム**です。これは限定された問題領域の専門家として振る舞うよう設計されたコンピューターシステムです。複数の人間専門家から抽出された**知識ベース**を基にし、その上で推論を行う**推論エンジン**を備えています。
 
-![人間の構造](../../../../../../translated_images/ja/arch-human.5d4d35f1bba3ab1c.webp) | ![知識ベースシステム](../../../../../../translated_images/ja/arch-kbs.3ec5c150b09fa8da.webp)
+![人間の構造](../../../../translated_images/ja/arch-human.5d4d35f1bba3ab1c.webp) | ![知識ベースシステム](../../../../translated_images/ja/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 人間の神経系の簡略化された構造 | 知識ベースシステムのアーキテクチャ
 
@@ -106,7 +97,7 @@ Block Syntax | Indent | | |
 
 例として、動物の身体的特徴から動物を決定する以下のエキスパートシステムを考えましょう：
 
-![AND-ORツリー](../../../../../../translated_images/ja/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-ORツリー](../../../../translated_images/ja/AND-OR-Tree.5592d2c70187f283.webp)
 
 > 画像提供：[Dmitry Soshnikov](http://soshnikov.com)
 

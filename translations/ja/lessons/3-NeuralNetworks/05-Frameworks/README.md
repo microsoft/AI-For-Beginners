@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T13:13:06+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "ja"
-}
--->
 # ニューラルネットワークフレームワーク
 
 すでに学んだように、ニューラルネットワークを効率的に学習させるためには、以下の2つのことを行う必要があります：

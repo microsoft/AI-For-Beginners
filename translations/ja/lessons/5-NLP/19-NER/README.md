@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T13:14:55+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "ja"
-}
--->
 # 固有表現認識
 
 これまでのところ、主に1つのNLPタスク、つまり分類に集中してきました。しかし、ニューラルネットワークを使用して達成できる他のNLPタスクもあります。その1つが**[固有表現認識](https://wikipedia.org/wiki/Named-entity_recognition)**（NER）です。これは、テキスト内の特定のエンティティ（場所、人名、日時、化学式など）を認識することを扱います。
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例えば、Amazon AlexaやGoogleアシスタントのような自然言語チャットボットを開発したいとします。インテリジェントなチャットボットが動作する仕組みは、入力された文に対してテキスト分類を行い、ユーザーが何を求めているのかを「理解」することです。この分類の結果が、チャットボットが何をすべきかを決定する**インテント**と呼ばれるものです。
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/ja/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > 著者による画像
 

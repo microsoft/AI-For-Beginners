@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-24T21:13:33+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "ja"
-}
--->
 # NetLogo課題
 
 NetLogoのライブラリにあるモデルの1つを選び、それを使って現実の状況をできるだけ正確にシミュレーションしてください。良い例としては、Alternative VisualizationsフォルダにあるVirusモデルを調整して、COVID-19の拡散をモデル化する方法を示すことが挙げられます。現実のウイルス拡散を模倣するモデルを作成できますか？

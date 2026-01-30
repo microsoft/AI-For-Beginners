@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:38:29+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ja"
-}
--->
 # AI-For-Beginners トラブルシューティングガイド
 
 このガイドは、[AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) リポジトリを使用または貢献する際に遭遇する一般的な問題を解決する方法を説明します。各問題には背景、症状、説明、そしてステップバイステップの解決策が含まれています。

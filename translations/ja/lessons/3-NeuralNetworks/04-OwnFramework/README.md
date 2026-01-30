@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T13:12:12+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ja"
-}
--->
 # ニューラルネットワーク入門: 多層パーセプトロン
 
 前のセクションでは、最も基本的なニューラルネットワークモデルである1層パーセプトロン（線形2クラス分類モデル）について学びました。
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 これらの式の左端部分はすべて同じであるため、損失関数から始めて計算グラフを「逆方向」にたどることで効率的に微分を計算できます。このため、多層パーセプトロンのトレーニング方法は**バックプロパゲーション**（バックプロップ）と呼ばれます。
 
-<img alt="計算グラフ" src="images/ComputeGraphGrad.png"/>
+<img alt="計算グラフ" src="../../../../../translated_images/ja/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: 画像の引用元
 

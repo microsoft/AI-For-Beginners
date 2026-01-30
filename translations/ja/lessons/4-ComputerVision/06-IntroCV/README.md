@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T13:07:28+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "ja"
-}
--->
 # コンピュータビジョンの概要
 
 [コンピュータビジョン](https://wikipedia.org/wiki/Computer_vision)は、コンピュータがデジタル画像を高レベルで理解できるようにすることを目的とした分野です。この定義は非常に広範であり、*理解*には多くの意味が含まれます。例えば、画像内の物体を見つける（**物体検出**）、何が起きているかを理解する（**イベント検出**）、画像をテキストで説明する、または3Dでシーンを再構築することなどです。さらに、人間の画像に関連する特別なタスクもあります。例えば、年齢や感情の推定、顔の検出と識別、3Dポーズ推定などです。
@@ -115,7 +106,7 @@ AIショーの[このビデオ](https://docs.microsoft.com/shows/ai-show/ai-show
 
 このラボでは、簡単なジェスチャーを含むビデオを撮影し、オプティカルフローを使用して上下左右の動きを抽出することを目指します。
 
-<img src="images/palm-movement.png" width="30%" alt="手の動きフレーム"/>
+<img src="../../../../../translated_images/ja/palm-movement.341495f0e9c47da3.webp" width="30%" alt="手の動きフレーム"/>
 
 ---
 

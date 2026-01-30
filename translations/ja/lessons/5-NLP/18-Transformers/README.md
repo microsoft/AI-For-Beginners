@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T13:14:05+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ja"
-}
--->
 # 注意機構とトランスフォーマー
 
 ## [講義前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ RNNを使用したシーケンス間変換は、2つのリカレントネット�
 * トークン埋め込みに似た学習可能な埋め込み。ここではこのアプローチを検討します。トークンとその位置の両方に埋め込み層を適用し、同じ次元の埋め込みベクトルを生成し、それらを加算します。
 * 元の論文で提案された固定位置エンコーディング関数。
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ja/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > 著者による画像
 

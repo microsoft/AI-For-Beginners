@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T13:06:26+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "ja"
-}
--->
 # 畳み込みニューラルネットワーク
 
 以前、ニューラルネットワークが画像処理に非常に優れていることを学びました。一層のパーセプトロンでも、MNISTデータセットの手書き数字をかなりの精度で認識できることが分かっています。ただし、MNISTデータセットは特別なもので、すべての数字が画像の中心に配置されているため、タスクが簡単になっています。
@@ -24,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例えば、MNISTの数字に3x3の垂直エッジフィルターと水平エッジフィルターを適用すると、元の画像の垂直および水平エッジがある場所でハイライト（例: 高い値）を得ることができます。このようにして、これら2つのフィルターを使用してエッジを「探す」ことができます。同様に、他の低レベルのパターンを探すためのフィルターを設計することも可能です。
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/ja/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > [Leung-Malikフィルターバンク](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)の画像
 

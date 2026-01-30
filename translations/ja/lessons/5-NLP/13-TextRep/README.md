@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T13:16:12+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ja"
-}
--->
 # テキストをテンソルとして表現する
 
 ## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ニューラルネットワークを使用して自然言語処理 (NLP) タスクを解決するには、テキストをテンソルとして表現する方法が必要です。コンピュータはすでにASCIIやUTF-8などのエンコーディングを使用して、画面上のフォントにマッピングされる数字として文字を表現しています。
 
-<img alt="文字をASCIIおよびバイナリ表現にマッピングする図を示す画像" src="images/ascii-character-map.png" width="50%"/>
+<img alt="文字をASCIIおよびバイナリ表現にマッピングする図を示す画像" src="../../../../../translated_images/ja/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [画像の出典](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 テキスト分類のようなタスクを解決する際には、固定サイズのベクトルでテキストを表現する必要があります。このベクトルを最終的な密な分類器への入力として使用します。最も簡単な方法の一つは、個々の単語表現を組み合わせることです。例えば、ワンホットエンコーディングを加算すると、各単語がテキスト内で何回出現するかを示す頻度ベクトルが得られます。このようなテキストの表現は**Bag-of-Words** (BoW) と呼ばれます。
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/ja/bow.3811869cff59368d.webp" width="90%"/>
 
 > 画像作成者
 

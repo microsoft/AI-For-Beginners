@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-24T21:11:58+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ja"
-}
--->
 # 深層学習のトレーニングのコツ
 
 ニューラルネットワークが深くなるにつれて、そのトレーニングプロセスはますます困難になります。主な問題の一つは、いわゆる[勾配消失](https://en.wikipedia.org/wiki/Vanishing_gradient_problem)や[勾配爆発](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.)です。[この投稿](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11)はこれらの問題についての良い導入を提供しています。
