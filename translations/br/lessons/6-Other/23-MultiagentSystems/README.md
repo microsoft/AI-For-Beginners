@@ -70,7 +70,7 @@ Você pode abrir um dos modelos, por exemplo **Biology &rightarrow; Flocking**.
 
 Após abrir o modelo, você será levado à tela principal do NetLogo. Aqui está um modelo de exemplo que descreve a população de lobos e ovelhas, considerando recursos finitos (grama).
 
-![Tela Principal do NetLogo](../../../../../translated_images/br/NetLogo-Main.32653711ec1a01b3.webp)
+![Tela Principal do NetLogo](../../../../../translated_images/pt-BR/NetLogo-Main.32653711ec1a01b3.webp)
 
 > Captura de tela por Dmitry Soshnikov
 

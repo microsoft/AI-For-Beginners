@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T12:11:37+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "es"
-}
--->
 # Introducción a Redes Neuronales. Perceptrón Multicapa
 
 En la sección anterior, aprendiste sobre el modelo de red neuronal más simple: el perceptrón de una sola capa, un modelo lineal de clasificación de dos clases.
@@ -65,7 +56,7 @@ El algoritmo de descenso de gradiente permanecería igual, pero sería más dif�
 
 Nota que la parte más a la izquierda de todas estas expresiones es la misma, y por lo tanto podemos calcular eficazmente las derivadas comenzando desde la función de pérdida y avanzando "hacia atrás" a través del gráfico computacional. Por lo tanto, el método de entrenamiento de un perceptrón multicapa se llama **retropropagación**, o 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/es/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: cita de la imagen
 

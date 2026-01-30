@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-24T21:00:07+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "fr"
-}
--->
 # Support
 
 ## Comment signaler des problèmes et obtenir de l'aide  

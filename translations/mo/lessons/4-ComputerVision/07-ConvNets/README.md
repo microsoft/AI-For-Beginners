@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 為了提取模式，我們將使用**卷積濾波器**的概念。正如你所知，圖像可以用二維矩陣或帶有色彩深度的三維張量來表示。應用濾波器意味著我們取一個相對較小的**濾波核**矩陣，並對原始圖像中的每個像素與其鄰近點進行加權平均。我們可以將其視為一個小窗口在整個圖像上滑動，並根據濾波核矩陣中的權重對所有像素進行平均。
 
-![垂直邊緣濾波器](../../../../../translated_images/mo/filter-vert.b7148390ca0bc356.webp) | ![水平邊緣濾波器](../../../../../translated_images/mo/filter-horiz.59b80ed4feb946ef.webp)
+![垂直邊緣濾波器](../../../../../translated_images/zh-MO/filter-vert.b7148390ca0bc356.webp) | ![水平邊緣濾波器](../../../../../translated_images/zh-MO/filter-horiz.59b80ed4feb946ef.webp)
 ----|----
 
 > 圖片來源：Dmitry Soshnikov
@@ -38,7 +38,7 @@ CNN 的工作方式基於以下重要思想：
 * 我們可以設計網絡，使濾波器能夠自動訓練
 * 我們可以使用相同的方法來在高層次特徵中找到模式，而不僅僅是在原始圖像中。因此，CNN 的特徵提取在特徵層次上工作，從低層次的像素組合開始，到更高層次的圖片部分組合。
 
-![層次特徵提取](../../../../../translated_images/mo/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
+![層次特徵提取](../../../../../translated_images/zh-MO/FeatureExtractionCNN.d9b456cbdae7cb64.webp)
 
 > 圖片來源：[Hislop-Lynch 的論文](https://www.semanticscholar.org/paper/Computer-vision-based-pedestrian-trajectory-Hislop-Lynch/26e6f74853fc9bbb7487b06dc2cf095d36c9021d)，基於[他們的研究](https://dl.acm.org/doi/abs/10.1145/1553374.1553453)
 
@@ -55,9 +55,9 @@ CNN 的工作方式基於以下重要思想：
 
 例如，讓我們看看 VGG-16 的架構，這是一個在 2014 年 ImageNet 的 top-5 分類中達到 92.7% 準確率的網絡：
 
-![ImageNet 層](../../../../../translated_images/mo/vgg-16-arch1.d901a5583b3a51ba.webp)
+![ImageNet 層](../../../../../translated_images/zh-MO/vgg-16-arch1.d901a5583b3a51ba.webp)
 
-![ImageNet 金字塔](../../../../../translated_images/mo/vgg-16-arch.64ff2137f50dd49f.webp)
+![ImageNet 金字塔](../../../../../translated_images/zh-MO/vgg-16-arch.64ff2137f50dd49f.webp)
 
 > 圖片來源：[Researchgate](https://www.researchgate.net/figure/Vgg16-model-structure-To-get-the-VGG-NIN-model-we-replace-the-2-nd-4-th-6-th-7-th_fig2_335194493)
 

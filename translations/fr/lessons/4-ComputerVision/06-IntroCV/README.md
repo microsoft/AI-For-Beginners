@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T11:56:49+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "fr"
-}
--->
 # Introduction à la vision par ordinateur
 
 [La vision par ordinateur](https://wikipedia.org/wiki/Computer_vision) est une discipline dont le but est de permettre aux ordinateurs de comprendre les images numériques à un niveau élevé. Cette définition est assez large, car *comprendre* peut signifier de nombreuses choses différentes, comme trouver un objet sur une image (**détection d'objet**), comprendre ce qui se passe (**détection d'événements**), décrire une image en texte ou reconstruire une scène en 3D. Il existe également des tâches spécifiques liées aux images humaines : estimation de l'âge et des émotions, détection et identification de visages, et estimation de la pose en 3D, pour n'en citer que quelques-unes.
@@ -115,7 +106,7 @@ Lisez davantage sur le flux optique [dans ce tutoriel excellent](https://learnop
 
 Dans ce laboratoire, vous prendrez une vidéo avec des gestes simples, et votre objectif sera d'extraire les mouvements haut/bas/gauche/droite en utilisant le flux optique.
 
-<img src="images/palm-movement.png" width="30%" alt="Image de mouvement de la paume"/>
+<img src="../../../../../translated_images/fr/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Image de mouvement de la paume"/>
 
 ---
 

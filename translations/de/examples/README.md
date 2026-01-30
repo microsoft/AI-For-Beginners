@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:26:30+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "de"
-}
--->
 # Anfängerfreundliche KI-Beispiele
 
 Willkommen! Dieses Verzeichnis enthält einfache, eigenständige Beispiele, die Ihnen den Einstieg in KI und maschinelles Lernen erleichtern sollen. Jedes Beispiel ist anfängerfreundlich gestaltet und enthält ausführliche Kommentare sowie Schritt-für-Schritt-Erklärungen.

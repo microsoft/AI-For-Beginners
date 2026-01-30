@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-24T09:27:33+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "es"
-}
--->
 # Cuestionarios
 
 Estos cuestionarios son los cuestionarios previos y posteriores a las lecciones del currículo de IA en https://aka.ms/ai-beginners

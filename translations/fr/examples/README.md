@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:26:04+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "fr"
-}
--->
 # Exemples d'IA pour Débutants
 
 Bienvenue ! Ce répertoire contient des exemples simples et autonomes pour vous aider à démarrer avec l'IA et l'apprentissage automatique. Chaque exemple est conçu pour être accessible aux débutants, avec des commentaires détaillés et des explications étape par étape.

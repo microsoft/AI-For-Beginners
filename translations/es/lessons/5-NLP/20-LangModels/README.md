@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T12:13:35+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "es"
-}
--->
 # Modelos de Lenguaje Grandes Preentrenados
 
 En todas nuestras tareas anteriores, entrenábamos una red neuronal para realizar una tarea específica utilizando un conjunto de datos etiquetado. Con modelos transformadores grandes, como BERT, utilizamos el modelado de lenguaje de manera auto-supervisada para construir un modelo de lenguaje, que luego se especializa en tareas específicas con entrenamiento adicional en dominios concretos. Sin embargo, se ha demostrado que los modelos de lenguaje grandes también pueden resolver muchas tareas sin necesidad de entrenamiento específico en un dominio. Una familia de modelos capaz de hacer esto se llama **GPT**: Transformador Generativo Preentrenado.

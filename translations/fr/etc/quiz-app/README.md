@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-24T21:01:05+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "fr"
-}
--->
 # Quiz
 
 Ces quiz sont les quiz pré- et post-cours pour le programme d'IA disponible sur https://aka.ms/ai-beginners

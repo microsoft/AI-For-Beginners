@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T12:14:55+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "es"
-}
--->
 # Representar texto como tensores
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Nuestro objetivo será clasificar el artículo de noticias en una de las categor
 
 Si queremos resolver tareas de Procesamiento de Lenguaje Natural (NLP) con redes neuronales, necesitamos una forma de representar el texto como tensores. Las computadoras ya representan caracteres textuales como números que se asignan a fuentes en tu pantalla utilizando codificaciones como ASCII o UTF-8.
 
-<img alt="Imagen que muestra un diagrama que mapea un carácter a una representación ASCII y binaria" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Imagen que muestra un diagrama que mapea un carácter a una representación ASCII y binaria" src="../../../../../translated_images/es/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Fuente de la imagen](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ En algunos casos, podemos considerar usar tri-gramas, combinaciones de tres pala
 
 Cuando resolvemos tareas como la clasificación de texto, necesitamos poder representar el texto mediante un vector de tamaño fijo, que utilizaremos como entrada para el clasificador denso final. Una de las formas más simples de hacerlo es combinar todas las representaciones individuales de palabras, por ejemplo, sumándolas. Si sumamos las codificaciones one-hot de cada palabra, terminaremos con un vector de frecuencias que muestra cuántas veces aparece cada palabra dentro del texto. Tal representación del texto se llama **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/es/bow.3811869cff59368d.webp" width="90%"/>
 
 > Imagen del autor
 

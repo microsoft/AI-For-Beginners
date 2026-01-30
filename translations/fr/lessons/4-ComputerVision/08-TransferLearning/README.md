@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T11:56:29+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "fr"
-}
--->
 # Réseaux pré-entraînés et apprentissage par transfert
 
 L'entraînement des CNN peut prendre beaucoup de temps et nécessite une grande quantité de données. Cependant, une grande partie du temps est consacrée à l'apprentissage des meilleurs filtres de bas niveau qu'un réseau peut utiliser pour extraire des motifs à partir d'images. Une question naturelle se pose : peut-on utiliser un réseau neuronal entraîné sur un ensemble de données et l'adapter pour classifier d'autres images sans nécessiter un processus d'entraînement complet ?

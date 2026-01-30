@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-24T09:26:49+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "es"
-}
--->
 # Código de Conducta de Código Abierto de Microsoft
 
 Este proyecto ha adoptado el [Código de Conducta de Código Abierto de Microsoft](https://opensource.microsoft.com/codeofconduct/).

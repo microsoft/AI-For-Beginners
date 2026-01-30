@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-24T09:23:26+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "es"
-}
--->
 Todas las notas visuales del plan de estudios se pueden descargar aquí.
 
 🎨 Creado por: Tomomi Imura (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

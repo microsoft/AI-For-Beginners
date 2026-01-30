@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 人工智能简介
 
-![人工智能内容简介的涂鸦](../../../../translated_images/zh/ai-intro.bf28d1ac4235881c.webp)
+![人工智能内容简介的涂鸦](../../../../translated_images/zh-CN/ai-intro.bf28d1ac4235881c.webp)
 
 > 涂鸦作者：[Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 最初，计算机是由[查尔斯·巴贝奇](https://en.wikipedia.org/wiki/Charles_Babbage)发明的，用于按照明确的程序（算法）对数字进行操作。尽管现代计算机比19世纪提出的原始模型先进得多，但它们仍然遵循受控计算的基本理念。因此，如果我们知道实现目标所需的确切步骤序列，就可以编程让计算机完成某项任务。
 
-![一个人的照片](../../../../translated_images/zh/dsh_age.d212a30d4e54fb5f.webp)
+![一个人的照片](../../../../translated_images/zh-CN/dsh_age.d212a30d4e54fb5f.webp)
 
 > 照片由 [Vickie Soshnikova](http://twitter.com/vickievalerie) 提供
 
@@ -46,7 +46,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在讨论**[智能](https://en.wikipedia.org/wiki/Intelligence)**这个术语时，一个问题是我们并没有对其明确的定义。有人认为智能与**抽象思维**或**自我意识**相关，但我们无法准确定义它。
 
-![一只猫的照片](../../../../translated_images/zh/photo-cat.8c8e8fb760ffe457.webp)
+![一只猫的照片](../../../../translated_images/zh-CN/photo-cat.8c8e8fb760ffe457.webp)
 
 > [照片](https://unsplash.com/photos/75715CVEJhI)由 [Amber Kipp](https://unsplash.com/@sadmax) 提供，来自Unsplash
 
@@ -98,13 +98,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 > | 那机器学习呢？         |      |
 > |--------------|-----------|
-> | 人工智能的一部分是基于计算机通过一些数据学习解决问题的，这被称为**机器学习**。我们不会在本课程中讨论经典的机器学习——请参考单独的[机器学习初学者课程](http://aka.ms/ml-beginners)。 |   ![机器学习初学者](../../../../translated_images/zh/ml-for-beginners.9e4fed176fd5817d.webp)    |
+> | 人工智能的一部分是基于计算机通过一些数据学习解决问题的，这被称为**机器学习**。我们不会在本课程中讨论经典的机器学习——请参考单独的[机器学习初学者课程](http://aka.ms/ml-beginners)。 |   ![机器学习初学者](../../../../translated_images/zh-CN/ml-for-beginners.9e4fed176fd5817d.webp)    |
 
 ## 人工智能简史
 
 人工智能作为一个领域始于20世纪中期。最初，符号推理是一种流行的方法，并取得了一些重要的成功，例如专家系统——能够在某些有限问题领域中充当专家的计算机程序。然而，很快就发现这种方法并不具有良好的扩展性。从专家那里提取知识、在计算机中表示这些知识并保持知识库的准确性，结果证明是一项非常复杂且在许多情况下成本过高的任务。这导致了20世纪70年代所谓的[人工智能寒冬](https://en.wikipedia.org/wiki/AI_winter)。
 
-<img alt="人工智能简史" src="../../../../translated_images/zh/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
+<img alt="人工智能简史" src="../../../../translated_images/zh-CN/history-of-ai.7e83efa70b537f5a.webp" width="70%"/>
 
 > 图片由 [Dmitry Soshnikov](http://soshnikov.com) 提供
 
@@ -124,7 +124,7 @@ CO_OP_TRANSLATOR_METADATA:
 * 现代助手，如Cortana、Siri或Google Assistant，都是混合系统，使用神经网络将语音转换为文本并识别我们的意图，然后采用一些推理或明确的算法来执行所需的操作。
 * 未来，我们可能会期待一个完全基于神经网络的模型能够自行处理对话。最近的GPT和[Turing-NLG](https://www.microsoft.com/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft)系列神经网络在这方面表现出色。
 
-<img alt="图灵测试的演变" src="../../../../translated_images/zh/turing-test-evol.4184696701293ead.webp" width="70%"/>
+<img alt="图灵测试的演变" src="../../../../translated_images/zh-CN/turing-test-evol.4184696701293ead.webp" width="70%"/>
 > 图片由 Dmitry Soshnikov 提供，[照片](https://unsplash.com/photos/r8LmVbUKgns)由 [Marina Abrosimova](https://unsplash.com/@abrosimova_marina_foto) 提供，来源于 Unsplash
 
 ## 最近的人工智能研究

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [课前测验](https://ff-quizzes.netlify.app/en/ai/quiz/21)
 
-![目标检测](../../../../../translated_images/zh/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
+![目标检测](../../../../../translated_images/zh-CN/Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp)
 
 > 图片来源：[YOLO v2 网站](https://pjreddie.com/darknet/yolov2/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 2. 对每个小块进行图像分类。
 3. 对于分类结果激活值足够高的小块，可以认为其中包含目标物体。
 
-![简单目标检测](../../../../../translated_images/zh/naive-detection.e7f1ba220ccd08c6.webp)
+![简单目标检测](../../../../../translated_images/zh-CN/naive-detection.e7f1ba220ccd08c6.webp)
 
 > *图片来源：[练习笔记本](ObjectDetection-TF.ipynb)*
 
@@ -42,7 +42,7 @@ CO_OP_TRANSLATOR_METADATA:
 * [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/) - 包含20个类别
 * [COCO](http://cocodataset.org/#home) - 常见物体上下文数据集。包含80个类别、边界框和分割掩码
 
-![COCO](../../../../../translated_images/zh/coco-examples.71bc60380fa6cceb.webp)
+![COCO](../../../../../translated_images/zh-CN/coco-examples.71bc60380fa6cceb.webp)
 
 ## 目标检测评估指标
 
@@ -50,7 +50,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 对于图像分类来说，评估算法性能相对简单；但对于目标检测，我们需要同时评估类别的正确性以及推断出的边界框位置的精确性。后者通常使用**交并比**（IoU）来衡量两个框（或任意两个区域）的重叠程度。
 
-![IoU](../../../../../translated_images/zh/iou_equation.9a4751d40fff4e11.webp)
+![IoU](../../../../../translated_images/zh-CN/iou_equation.9a4751d40fff4e11.webp)
 
 > *图片来源：[这篇关于IoU的优秀博客文章](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)*
 
@@ -98,11 +98,11 @@ $$
 
 [R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf)使用[选择性搜索](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)生成ROI区域的层次结构，然后通过CNN特征提取器和SVM分类器确定物体类别，并通过线性回归确定*边界框*坐标。[官方论文](https://arxiv.org/pdf/1506.01497v1.pdf)
 
-![RCNN](../../../../../translated_images/zh/rcnn1.cae407020dfb1d1f.webp)
+![RCNN](../../../../../translated_images/zh-CN/rcnn1.cae407020dfb1d1f.webp)
 
 > *图片来源：van de Sande et al. ICCV’11*
 
-![RCNN-1](../../../../../translated_images/zh/rcnn2.2d9530bb83516484.webp)
+![RCNN-1](../../../../../translated_images/zh-CN/rcnn2.2d9530bb83516484.webp)
 
 > *图片来源：[这篇博客](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
@@ -110,7 +110,7 @@ $$
 
 这种方法与R-CNN类似，但区域是在应用卷积层之后定义的。
 
-![FRCNN](../../../../../translated_images/zh/f-rcnn.3cda6d9bb4188875.webp)
+![FRCNN](../../../../../translated_images/zh-CN/f-rcnn.3cda6d9bb4188875.webp)
 
 > 图片来源：[官方论文](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)，[arXiv](https://arxiv.org/pdf/1504.08083.pdf)，2015
 
@@ -118,7 +118,7 @@ $$
 
 这种方法的核心思想是使用神经网络预测ROI——即所谓的*区域提议网络*。[论文](https://arxiv.org/pdf/1506.01497.pdf)，2016
 
-![FasterRCNN](../../../../../translated_images/zh/faster-rcnn.8d46c099b87ef30a.webp)
+![FasterRCNN](../../../../../translated_images/zh-CN/faster-rcnn.8d46c099b87ef30a.webp)
 
 > 图片来源：[官方论文](https://arxiv.org/pdf/1506.01497.pdf)
 
@@ -130,7 +130,7 @@ $$
 2. 特征通过**位置敏感得分图**处理。每个类别$C$的物体被划分为$k\times k$区域，并训练预测物体的各部分。
 3. 对于$k\times k$区域中的每个部分，所有网络对物体类别进行投票，选择投票最多的类别。
 
-![r-fcn image](../../../../../translated_images/zh/r-fcn.13eb88158b99a3da.webp)
+![r-fcn image](../../../../../translated_images/zh-CN/r-fcn.13eb88158b99a3da.webp)
 
 > 图片来源：[官方论文](https://arxiv.org/abs/1605.06409)
 
@@ -141,7 +141,7 @@ YOLO是一种实时单次检测算法。其核心思想如下：
  * 将图像划分为$S\times S$区域。
  * 对每个区域，**CNN**预测$n$个可能的物体、*边界框*坐标和*置信度*=*概率* * IoU。
 
- ![YOLO](../../../../../translated_images/zh/yolo.a2648ec82ee8bb4e.webp)
+ ![YOLO](../../../../../translated_images/zh-CN/yolo.a2648ec82ee8bb4e.webp)
 
 > 图片来源：[官方论文](https://arxiv.org/abs/1506.02640)
 

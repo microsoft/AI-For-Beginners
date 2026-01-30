@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T12:18:54+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "de"
-}
--->
 # Segmentierung
 
 Wir haben zuvor über Objekterkennung gelernt, die es uns ermöglicht, Objekte im Bild zu lokalisieren, indem ihre *begrenzenden Boxen* vorhergesagt werden. Für einige Aufgaben benötigen wir jedoch nicht nur begrenzende Boxen, sondern auch eine präzisere Objektlokalisierung. Diese Aufgabe nennt man **Segmentierung**.
@@ -20,7 +11,7 @@ Segmentierung kann als **Pixelklassifikation** betrachtet werden, wobei für **j
 
 Bei der Instanzsegmentierung sind diese Schafe unterschiedliche Objekte, aber bei der semantischen Segmentierung werden alle Schafe durch eine Klasse repräsentiert.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/de/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Bild aus [diesem Blogbeitrag](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Es gibt verschiedene neuronale Architekturen für die Segmentierung, aber sie ha
 * **Encoder** extrahiert Merkmale aus dem Eingabebild.
 * **Decoder** transformiert diese Merkmale in das **Maskenbild**, mit derselben Größe und einer Anzahl von Kanälen, die der Anzahl der Klassen entspricht.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/de/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Bild aus [dieser Publikation](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ In dieser Lektion werden wir die Segmentierung in Aktion sehen, indem wir ein Ne
 
 > ✅ Diese Technik ist besonders geeignet für diese Art der medizinischen Bildgebung, aber welche anderen Anwendungen in der realen Welt könnten Sie sich vorstellen?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/de/navi.2f20b727910110ea.webp"/>
 
 > Bild aus der PH<sup>2</sup>-Datenbank
 

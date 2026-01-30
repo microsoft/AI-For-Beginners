@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 自然語言處理
 
-![NLP 任務的手繪摘要](../../../../translated_images/mo/ai-nlp.b22dcb8ca4707cea.webp)
+![NLP 任務的手繪摘要](../../../../translated_images/zh-MO/ai-nlp.b22dcb8ca4707cea.webp)
 
 在本節中，我們將專注於使用神經網絡來處理與**自然語言處理 (NLP)** 相關的任務。我們希望計算機能夠解決許多 NLP 問題：
 

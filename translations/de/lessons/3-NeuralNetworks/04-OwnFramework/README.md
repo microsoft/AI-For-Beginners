@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T12:21:32+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "de"
-}
--->
 # Einführung in Neuronale Netze. Mehrschichtige Perzeptrons
 
 Im vorherigen Abschnitt hast du das einfachste Modell eines neuronalen Netzes kennengelernt – ein einlagiges Perzeptron, ein lineares Modell zur Klassifikation von zwei Klassen.
@@ -65,7 +56,7 @@ Der Algorithmus des Gradientenabstiegs bleibt derselbe, aber die Berechnung der 
 
 Beachte, dass der linke Teil all dieser Ausdrücke derselbe ist, und daher können wir die Ableitungen effektiv berechnen, indem wir von der Verlustfunktion ausgehend "rückwärts" durch den Berechnungsgraphen gehen. Daher wird die Methode zum Trainieren eines mehrschichtigen Perzeptrons als **Backpropagation** oder 'Backprop' bezeichnet.
 
-<img alt="Berechnungsgraph" src="images/ComputeGraphGrad.png"/>
+<img alt="Berechnungsgraph" src="../../../../../translated_images/de/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: Bildquelle angeben
 

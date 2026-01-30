@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-24T09:11:21+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "es"
-}
--->
 # IA Ética y Responsable
 
 Has casi terminado este curso, y espero que para ahora veas claramente que la IA se basa en una serie de métodos matemáticos formales que nos permiten encontrar relaciones en los datos y entrenar modelos para replicar algunos aspectos del comportamiento humano. En este momento de la historia, consideramos que la IA es una herramienta muy poderosa para extraer patrones de los datos y aplicar esos patrones para resolver nuevos problemas.

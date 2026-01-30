@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 知識表示與專家系統
 
-![Symbolic AI 內容摘要](../../../../../../translated_images/tw/ai-symbolic.715a30cb610411a6.webp)
+![Symbolic AI 內容摘要](../../../../../../translated_images/zh-TW/ai-symbolic.715a30cb610411a6.webp)
 
 > 筆記作者：[Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -35,13 +35,13 @@ CO_OP_TRANSLATOR_METADATA:
 * **知識（Knowledge）** 是將資訊整合到我們的世界模型中。例如，一旦學習到電腦是什麼，我們就開始瞭解它如何運作、價格多少、用途為何。這種相互關聯的概念網絡形成了我們的知識。
 * **智慧（Wisdom）** 是我們對世界理解的更高層次，代表*元知識*，例如有關知識應用的時機與方式的概念。
 
-<img src="../../../../translated_images/tw/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
+<img src="../../../../translated_images/zh-TW/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
 *圖片來源 [維基百科](https://commons.wikimedia.org/w/index.php?curid=37705247)，作者 Longlivetheux 自作，CC BY-SA 4.0*
 
 因此，**知識表示** 問題是尋找一些有效的方法來以資料形式在電腦內代表知識，使其可被自動使用。這可視為一個光譜：
 
-![知識表示光譜](../../../../../../translated_images/tw/knowledge-spectrum.b60df631852c0217.webp)
+![知識表示光譜](../../../../../../translated_images/zh-TW/knowledge-spectrum.b60df631852c0217.webp)
 
 > 圖片來源 [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Python | 區塊語法 | 縮排
 
 符號 AI 的早期成功之一是所謂的**專家系統** — 設計成在有限問題領域中，充當專家的電腦系統。它們基於由一人或多位專家提取的**知識庫**，並含有執行推理的**推理引擎**。
 
-![人類架構](../../../../../../translated_images/tw/arch-human.5d4d35f1bba3ab1c.webp) | ![知識基礎系統](../../../../../../translated_images/tw/arch-kbs.3ec5c150b09fa8da.webp)
+![人類架構](../../../../../../translated_images/zh-TW/arch-human.5d4d35f1bba3ab1c.webp) | ![知識基礎系統](../../../../../../translated_images/zh-TW/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 人類神經系統簡化結構 | 知識基礎系統架構
 
@@ -106,7 +106,7 @@ Python | 區塊語法 | 縮排
 
 以下為根據動物物理特徵判斷動物的專家系統示例：
 
-![AND-OR 樹](../../../../../../translated_images/tw/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR 樹](../../../../../../translated_images/zh-TW/AND-OR-Tree.5592d2c70187f283.webp)
 
 > 圖片來源 [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -175,7 +175,7 @@ THEN the animal is a carnivore
 
 在語義網中，所有表示均基於三元組。每個物件和每個關係均由 URI 唯一標識。例如，如果我們想要陳述這個 AI 課程是由 Dmitry Soshnikov 於 2022 年 1 月 1 日開發的事實——我們可以使用以下三元組：
 
-<img src="../../../../translated_images/tw/triplet.4b9b332587593298.webp" width="30%"/>
+<img src="../../../../translated_images/zh-TW/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
@@ -186,7 +186,7 @@ http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/cre
 
 在較複雜的情況下，如果我們想定義一個創建者列表，可以使用 RDF 中定義的一些資料結構。
 
-<img src="../../../../translated_images/tw/triplet-complex.32094972c7b4441b.webp" width="40%"/>
+<img src="../../../../translated_images/zh-TW/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > 上述圖由 [Dmitry Soshnikov](http://soshnikov.com) 製作
 
@@ -210,7 +210,7 @@ GROUP BY ?eyeColorLabel
 
 > ✅ 如果你想嘗試建立自己的本體，或者開啟現有的本體，可以使用一個很棒的視覺化本體編輯器 [Protégé](https://protege.stanford.edu/)。下載它或線上使用。
 
-<img src="../../../../translated_images/tw/protege.274177ceeac13b38.webp" width="70%"/>
+<img src="../../../../translated_images/zh-TW/protege.274177ceeac13b38.webp" width="70%"/>
 
 *Web Protégé 編輯器開啟羅曼諾夫家族本體。截圖由 Dmitry Soshnikov 提供*
 

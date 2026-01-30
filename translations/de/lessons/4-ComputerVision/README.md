@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-24T09:33:41+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "de"
-}
--->
 # Computer Vision
 
 ![Zusammenfassung der Inhalte zu Computer Vision in einer Skizze](../../../../lessons/sketchnotes/ai-computervision.png)

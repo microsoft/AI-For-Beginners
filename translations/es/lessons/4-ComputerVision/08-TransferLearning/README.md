@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T12:07:31+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "es"
-}
--->
 # Redes Pre-entrenadas y Aprendizaje por Transferencia
 
 Entrenar redes neuronales convolucionales (CNNs) puede llevar mucho tiempo y requiere una gran cantidad de datos. Sin embargo, gran parte del tiempo se invierte en aprender los mejores filtros de bajo nivel que una red puede usar para extraer patrones de las imágenes. Surge una pregunta natural: ¿podemos usar una red neuronal entrenada en un conjunto de datos y adaptarla para clasificar imágenes diferentes sin necesidad de un proceso completo de entrenamiento?

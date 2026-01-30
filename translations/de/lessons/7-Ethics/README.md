@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-24T09:29:15+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "de"
-}
--->
 # Ethische und verantwortungsvolle KI
 
 Sie haben diesen Kurs fast abgeschlossen, und ich hoffe, dass Sie mittlerweile klar erkennen, dass KI auf einer Reihe formaler mathematischer Methoden basiert, die es uns ermöglichen, Beziehungen in Daten zu finden und Modelle zu trainieren, um bestimmte Aspekte menschlichen Verhaltens nachzubilden. Zu diesem Zeitpunkt in der Geschichte betrachten wir KI als ein sehr mächtiges Werkzeug, um Muster aus Daten zu extrahieren und diese Muster anzuwenden, um neue Probleme zu lösen.

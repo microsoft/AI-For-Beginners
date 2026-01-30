@@ -11,13 +11,13 @@
 
 **注意力机制**提供了一种对每个输入向量在RNN每个输出预测中的上下文影响进行加权的方法。它的实现方式是创建输入RNN和输出RNN之间的中间状态的快捷方式。通过这种方式，在生成输出符号 y<sub>t</sub> 时，我们将考虑所有输入隐藏状态 h<sub>i</sub>，并使用不同的权重系数 α<sub>t,i</sub>。
 
-![展示带有加性注意力层的编码器/解码器模型的图像](../../../../../translated_images/zh/encoder-decoder-attention.7a726296894fb567.webp)
+![展示带有加性注意力层的编码器/解码器模型的图像](../../../../../translated_images/zh-CN/encoder-decoder-attention.7a726296894fb567.webp)
 
 > 该编码器-解码器模型与加性注意力机制见于 [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf)，引用自 [这篇博客文章](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 注意力矩阵 {α<sub>i,j</sub>} 表示某些输入单词在生成输出序列中给定单词的程度。以下是这样一个矩阵的示例：
 
-![展示由RNNsearch-50找到的示例对齐的图像，取自Bahdanau - arviz.org](../../../../../translated_images/zh/bahdanau-fig3.09ba2d37f202a6af.webp)
+![展示由RNNsearch-50找到的示例对齐的图像，取自Bahdanau - arviz.org](../../../../../translated_images/zh-CN/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > 图自 [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (图3)
 
@@ -57,7 +57,7 @@
 
 接下来，我们需要捕捉序列中的一些模式。为此，变换器使用**自注意力**机制，这本质上是对同一序列应用的注意力。应用自注意力使我们能够考虑句子中的**上下文**，并查看哪些单词是相互关联的。例如，它使我们能够看到哪些单词是由指代词（如 *它*）引用的，并且还考虑上下文：
 
-![](../../../../../translated_images/zh/CoreferenceResolution.861924d6d384a7d6.webp)
+![](../../../../../translated_images/zh-CN/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > 图自 [Google博客](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -82,7 +82,7 @@
 
 **BERT**（来自变换器的双向编码器表示）是一个非常大的多层变换器网络，其中 *BERT-base* 有12层，*BERT-large* 有24层。该模型首先在一个大型文本数据集（维基百科 + 书籍）上进行预训练，采用无监督训练（预测句子中被屏蔽的单词）。在预训练期间，模型吸收了显著的语言理解能力，这可以通过微调与其他数据集结合使用。这个过程被称为**迁移学习**。
 
-![图片来自 http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/zh/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
+![图片来自 http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/zh-CN/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > 图片 [来源](http://jalammar.github.io/illustrated-bert/)
 

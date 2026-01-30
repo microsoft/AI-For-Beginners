@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 由于我们训练自动编码器的目标是尽可能捕捉原始图像的信息以实现准确的重建，网络会尝试找到输入图像的最佳**嵌入**以捕捉其意义。
 
-![自动编码器示意图](../../../../../translated_images/zh/autoencoder_schema.5e6fc9ad98a5eb61.webp)
+![自动编码器示意图](../../../../../translated_images/zh-CN/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > 图片来源：[Keras 博客](https://blog.keras.io/building-autoencoders-in-keras.html)
 

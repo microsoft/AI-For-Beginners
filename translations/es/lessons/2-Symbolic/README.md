@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T10:47:28+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "es"
-}
--->
 # Representación del Conocimiento y Sistemas Expertos
 
-![Resumen del contenido de IA Simbólica](../../../../../../translated_images/es/ai-symbolic.715a30cb610411a6.webp)
+![Resumen del contenido de IA Simbólica](../../../../translated_images/es/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Generalmente, no definimos estrictamente el conocimiento, sino que lo alineamos 
 
 Así, el problema de la **representación del conocimiento** es hallar alguna forma efectiva de representar el conocimiento dentro de una computadora en forma de datos, para hacerlo automáticamente utilizable. Esto puede verse como un espectro:
 
-![Espectro de representación del conocimiento](../../../../../../translated_images/es/knowledge-spectrum.b60df631852c0217.webp)
+![Espectro de representación del conocimiento](../../../../translated_images/es/knowledge-spectrum.b60df631852c0217.webp)
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Sintaxis de bloques | Indentación | | |
 
 Uno de los primeros éxitos de la IA simbólica fueron los llamados **sistemas expertos**: sistemas computacionales diseñados para actuar como un experto en un dominio problemático limitado. Se basaban en una **base de conocimiento** extraída de uno o más expertos humanos, y contenían un **motor de inferencia** que realizaba razonamientos sobre ella.
 
-![Arquitectura humana](../../../../../../translated_images/es/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistema basado en conocimiento](../../../../../../translated_images/es/arch-kbs.3ec5c150b09fa8da.webp)
+![Arquitectura humana](../../../../translated_images/es/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistema basado en conocimiento](../../../../translated_images/es/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Estructura simplificada del sistema neural humano | Arquitectura de un sistema basado en conocimiento
 
@@ -106,7 +97,7 @@ Los sistemas expertos están construidos como el sistema de razonamiento humano,
 
 Como ejemplo, consideremos el siguiente sistema experto para determinar un animal según sus características físicas:
 
-![Árbol AND-OR](../../../../../../translated_images/es/AND-OR-Tree.5592d2c70187f283.webp)
+![Árbol AND-OR](../../../../translated_images/es/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 

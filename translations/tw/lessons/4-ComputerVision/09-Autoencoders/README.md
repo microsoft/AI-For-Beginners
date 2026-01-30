@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 由於我們訓練自動編碼器以捕捉原始圖像中的盡可能多的信息以進行準確重建，網絡會嘗試找到最佳的**嵌入**來捕捉輸入圖像的含義。
 
-![自動編碼器示意圖](../../../../../translated_images/tw/autoencoder_schema.5e6fc9ad98a5eb61.webp)
+![自動編碼器示意圖](../../../../../translated_images/zh-TW/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > 圖片來源：[Keras 博客](https://blog.keras.io/building-autoencoders-in-keras.html)
 

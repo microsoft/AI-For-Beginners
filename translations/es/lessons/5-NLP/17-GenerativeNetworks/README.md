@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T12:12:41+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "es"
-}
--->
 # Redes generativas
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Entrenaremos esta RNN para generar texto paso a paso. En cada paso, tomaremos un
 
 Cuando generamos texto (durante la inferencia), comenzamos con un **prompt**, que se pasa por las celdas RNN para generar su estado intermedio, y luego comienza la generación desde este estado. Generamos un carácter a la vez y pasamos el estado y el carácter generado a otra celda RNN para generar el siguiente, hasta que generemos suficientes caracteres.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/es/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Imagen del autor
 

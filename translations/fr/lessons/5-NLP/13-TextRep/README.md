@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T12:05:13+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "fr"
-}
--->
 # Représenter le texte sous forme de tenseurs
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Notre objectif sera de classer l'article dans l'une des catégories en fonction 
 
 Pour résoudre des tâches de traitement du langage naturel (NLP) avec des réseaux neuronaux, nous devons trouver un moyen de représenter le texte sous forme de tenseurs. Les ordinateurs représentent déjà les caractères textuels sous forme de nombres qui correspondent aux polices affichées sur votre écran, en utilisant des encodages tels que ASCII ou UTF-8.
 
-<img alt="Image montrant un diagramme qui associe un caractère à une représentation ASCII et binaire" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Image montrant un diagramme qui associe un caractère à une représentation ASCII et binaire" src="../../../../../translated_images/fr/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Source de l'image](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Dans certains cas, nous pouvons envisager d'utiliser des tri-grams -- des combin
 
 Pour résoudre des tâches comme la classification de texte, nous devons être capables de représenter le texte par un vecteur de taille fixe, que nous utiliserons comme entrée pour le classificateur dense final. Une des façons les plus simples de le faire est de combiner toutes les représentations individuelles des mots, par exemple en les additionnant. Si nous additionnons les encodages one-hot de chaque mot, nous obtiendrons un vecteur de fréquences, montrant combien de fois chaque mot apparaît dans le texte. Une telle représentation du texte est appelée **sac de mots** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/fr/bow.3811869cff59368d.webp" width="90%"/>
 
 > Image par l'auteur
 

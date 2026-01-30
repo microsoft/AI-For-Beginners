@@ -19,7 +19,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 通过在分类器网络中使用嵌入层作为第一层，我们可以从词袋模型切换到 **嵌入袋** 模型。在嵌入袋模型中，我们首先将文本中的每个单词转换为对应的嵌入，然后对所有这些嵌入计算某种聚合函数，例如 `sum`、`average` 或 `max`。
 
-![展示五个序列单词的嵌入分类器的图片。](../../../../../translated_images/zh/embedding-classifier-example.b77f021a7ee67eee.webp)
+![展示五个序列单词的嵌入分类器的图片。](../../../../../translated_images/zh-CN/embedding-classifier-example.b77f021a7ee67eee.webp)
 
 > 图片由作者提供
 
@@ -40,7 +40,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 CBoW 速度更快，而 Skip-Gram 虽然较慢，但在表示不常见单词方面表现更好。
 
-![展示 CBoW 和 Skip-Gram 算法将单词转换为向量的图片。](../../../../../translated_images/zh/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
+![展示 CBoW 和 Skip-Gram 算法将单词转换为向量的图片。](../../../../../translated_images/zh-CN/example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp)
 
 > 图片来源于 [这篇论文](https://arxiv.org/pdf/1301.3781.pdf)
 

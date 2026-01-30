@@ -15,7 +15,7 @@ Após o sucesso dos modelos transformers na resolução de tarefas de PLN, as me
 
 A ideia principal do CLIP é ser capaz de comparar descrições textuais com uma imagem e determinar o quão bem a imagem corresponde à descrição.
 
-![Arquitetura do CLIP](../../../../../translated_images/br/clip-arch.b3dbf20b4e8ed8be.webp)
+![Arquitetura do CLIP](../../../../../translated_images/pt-BR/clip-arch.b3dbf20b4e8ed8be.webp)
 
 > *Imagem retirada [deste post no blog](https://openai.com/blog/clip/)*
 
@@ -29,7 +29,7 @@ Uma vez que este modelo é pré-treinado, podemos fornecer a ele um lote de imag
 
 Suponha que precisamos classificar imagens entre, por exemplo, gatos, cachorros e humanos. Nesse caso, podemos fornecer ao modelo uma imagem e uma série de descrições textuais: "*uma foto de um gato*", "*uma foto de um cachorro*", "*uma foto de um humano*". No vetor resultante de 3 probabilidades, basta selecionar o índice com o maior valor.
 
-![CLIP para Classificação de Imagens](../../../../../translated_images/br/clip-class.3af42ef0b2b19369.webp)
+![CLIP para Classificação de Imagens](../../../../../translated_images/pt-BR/clip-class.3af42ef0b2b19369.webp)
 
 > *Imagem retirada [deste post no blog](https://openai.com/blog/clip/)*
 
@@ -53,13 +53,13 @@ Saiba mais sobre o VQGAN no site [Taming Transformers](https://compvis.github.io
 
 Uma das diferenças importantes entre o VQGAN e um GAN tradicional é que o último pode produzir uma imagem decente a partir de qualquer vetor de entrada, enquanto o VQGAN provavelmente produzirá uma imagem incoerente. Assim, precisamos orientar ainda mais o processo de criação da imagem, e isso pode ser feito usando o CLIP.
 
-![Arquitetura VQGAN+CLIP](../../../../../translated_images/br/vqgan.5027fe05051dfa31.webp)
+![Arquitetura VQGAN+CLIP](../../../../../translated_images/pt-BR/vqgan.5027fe05051dfa31.webp)
 
 Para gerar uma imagem correspondente a uma descrição textual, começamos com algum vetor de codificação aleatório que é passado pelo VQGAN para produzir uma imagem. Em seguida, o CLIP é usado para produzir uma função de perda que mostra o quão bem a imagem corresponde à descrição textual. O objetivo, então, é minimizar essa perda, usando retropropagação para ajustar os parâmetros do vetor de entrada.
 
 Uma ótima biblioteca que implementa o VQGAN+CLIP é o [Pixray](http://github.com/pixray/pixray).
 
-![Imagem gerada pelo Pixray](../../../../../translated_images/br/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Imagem gerada pelo Pixray](../../../../../translated_images/br/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Imagem gerada pelo Pixray](../../../../../translated_images/br/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
+![Imagem gerada pelo Pixray](../../../../../translated_images/pt-BR/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp) |  ![Imagem gerada pelo Pixray](../../../../../translated_images/pt-BR/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp) | ![Imagem gerada pelo Pixray](../../../../../translated_images/pt-BR/a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp)
 ----|----|----
 Imagem gerada a partir da descrição *um retrato em aquarela de um jovem professor de literatura com um livro* | Imagem gerada a partir da descrição *um retrato a óleo de uma jovem professora de ciência da computação com um computador* | Imagem gerada a partir da descrição *um retrato a óleo de um velho professor de matemática em frente a um quadro-negro*
 
@@ -75,7 +75,7 @@ Diferentemente do CLIP, o DALL-E recebe tanto texto quanto imagem como um único
 A principal diferença entre o DALL-E 1 e o 2 é que o último gera imagens e artes mais realistas.
 
 Exemplos de imagens geradas com o DALL-E:
-![Imagem gerada pelo DALL-E](../../../../../translated_images/br/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Imagem gerada pelo DALL-E](../../../../../translated_images/br/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Imagem gerada pelo DALL-E](../../../../../translated_images/br/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
+![Imagem gerada pelo DALL-E](../../../../../translated_images/pt-BR/DALL·E%202023-06-20%2015.56.56%20-%20a%20closeup%20watercolor%20portrait%20of%20young%20male%20teacher%20of%20literature%20with%20a%20book.6c235e8271d9ed10ce985d86aeb241a58518958647973af136912116b9518fce.png) |  ![Imagem gerada pelo DALL-E](../../../../../translated_images/pt-BR/DALL·E%202023-06-20%2015.57.43%20-%20a%20closeup%20oil%20portrait%20of%20young%20female%20teacher%20of%20computer%20science%20with%20a%20computer.f21dc4166340b6c8b4d1cb57efd1e22127407f9b28c9ac7afe11344065369e64.png) | ![Imagem gerada pelo DALL-E](../../../../../translated_images/pt-BR/DALL·E%202023-06-20%2015.58.42%20-%20%20a%20closeup%20oil%20portrait%20of%20old%20male%20teacher%20of%20mathematics%20in%20front%20of%20blackboard.d331c2dfbdc3f7c46aa65c0809066f5e7ed4b49609cd259852e760df21051e4a.png)
 ----|----|----
 Imagem gerada a partir da descrição *um retrato em aquarela de um jovem professor de literatura com um livro* | Imagem gerada a partir da descrição *um retrato a óleo de uma jovem professora de ciência da computação com um computador* | Imagem gerada a partir da descrição *um retrato a óleo de um velho professor de matemática em frente a um quadro-negro*
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T12:06:51+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "es"
-}
--->
 # Redes Neuronales Convolucionales
 
 Hemos visto anteriormente que las redes neuronales son bastante buenas para trabajar con imágenes, e incluso un perceptrón de una sola capa es capaz de reconocer dígitos escritos a mano del conjunto de datos MNIST con una precisión razonable. Sin embargo, el conjunto de datos MNIST es muy especial, ya que todos los dígitos están centrados dentro de la imagen, lo que simplifica la tarea.
@@ -24,7 +15,7 @@ Para extraer patrones, utilizaremos el concepto de **filtros convolucionales**. 
 
 Por ejemplo, si aplicamos filtros de borde vertical y horizontal de 3x3 a los dígitos de MNIST, podemos resaltar (por ejemplo, valores altos) donde hay bordes verticales y horizontales en nuestra imagen original. Por lo tanto, esos dos filtros pueden usarse para "buscar" bordes. De manera similar, podemos diseñar diferentes filtros para buscar otros patrones de bajo nivel:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/es/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Imagen del [Banco de Filtros Leung-Malik](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

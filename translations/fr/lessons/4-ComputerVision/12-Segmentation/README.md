@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T11:59:24+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "fr"
-}
--->
 # Segmentation
 
 Nous avons précédemment appris la détection d'objets, qui nous permet de localiser des objets dans une image en prédisant leurs *boîtes englobantes*. Cependant, pour certaines tâches, nous avons besoin d'une localisation d'objets plus précise que les simples boîtes englobantes. Cette tâche est appelée **segmentation**.
@@ -20,7 +11,7 @@ La segmentation peut être vue comme une **classification de pixels**, où pour 
 
 Par exemple, pour la segmentation par instance, ces moutons sont des objets distincts, tandis que pour la segmentation sémantique, tous les moutons sont représentés par une seule classe.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/fr/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Image tirée de [cet article de blog](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Il existe différentes architectures neuronales pour la segmentation, mais elles
 * **Encodeur** : extrait les caractéristiques de l'image d'entrée.
 * **Décodeur** : transforme ces caractéristiques en une **image de masque**, ayant la même taille et un nombre de canaux correspondant au nombre de classes.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/fr/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Image tirée de [cette publication](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Dans cette leçon, nous verrons la segmentation en action en entraînant un rés
 
 > ✅ Cette technique est particulièrement adaptée à ce type d'imagerie médicale, mais quelles autres applications réelles pourriez-vous imaginer ?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/fr/navi.2f20b727910110ea.webp"/>
 
 > Image tirée de la base de données PH<sup>2</sup>
 

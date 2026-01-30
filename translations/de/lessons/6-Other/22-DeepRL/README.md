@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T12:16:09+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "de"
-}
--->
 # Deep Reinforcement Learning
 
 Reinforcement Learning (RL) wird als eines der grundlegenden Paradigmen des maschinellen Lernens angesehen, neben überwachten und unüberwachten Lernen. Während wir beim überwachten Lernen auf Datensätze mit bekannten Ergebnissen angewiesen sind, basiert RL auf dem Prinzip des **Lernens durch Handeln**. Zum Beispiel: Wenn wir ein Computerspiel zum ersten Mal sehen, beginnen wir zu spielen, auch ohne die Regeln zu kennen, und verbessern unsere Fähigkeiten allein durch das Spielen und Anpassen unseres Verhaltens.
@@ -34,7 +25,7 @@ Ihr habt wahrscheinlich alle moderne Balanciergeräte wie den *Segway* oder *Gyr
 
 Eine vereinfachte Version des Balancierens ist als **CartPole**-Problem bekannt. In der CartPole-Welt haben wir einen horizontalen Schlitten, der sich nach links oder rechts bewegen kann, und das Ziel ist es, eine vertikale Stange oben auf dem Schlitten zu balancieren, während er sich bewegt.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/de/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Um diese Umgebung zu erstellen und zu nutzen, benötigen wir ein paar Zeilen Python-Code:
 

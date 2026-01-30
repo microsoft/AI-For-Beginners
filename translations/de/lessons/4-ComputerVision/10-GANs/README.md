@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T12:19:09+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "de"
-}
--->
 # Generative Adversarial Networks
 
 Im vorherigen Abschnitt haben wir über **generative Modelle** gelernt: Modelle, die neue Bilder erzeugen können, die den Bildern im Trainingsdatensatz ähneln. VAE war ein gutes Beispiel für ein generatives Modell.
@@ -17,7 +8,7 @@ Wenn wir jedoch versuchen, etwas wirklich Bedeutungsvolles zu erzeugen, wie ein 
 
 Die Hauptidee eines GANs besteht darin, zwei neuronale Netzwerke zu haben, die gegeneinander trainiert werden:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/de/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Bild von [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Ein Generator ist etwas komplizierter. Man kann ihn als umgekehrten Diskriminato
 
 > ✅ Da die Convolution-Schicht als linearer Filter implementiert ist, der das Bild durchläuft, ist Deconvolution im Wesentlichen ähnlich wie Convolution und kann mit derselben Schichtlogik implementiert werden.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/de/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Bild von [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T20:54:55+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "fr"
-}
--->
 ## L'Environnement
 
 L'environnement Mountain Car consiste en une voiture piégée dans une vallée. Votre objectif est de sortir de la vallée et d'atteindre le drapeau. Les actions que vous pouvez effectuer sont : accélérer vers la gauche, accélérer vers la droite, ou ne rien faire. Vous pouvez observer la position de la voiture sur l'axe x, ainsi que sa vitesse.

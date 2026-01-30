@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 知识表示与专家系统
 
-![符号人工智能内容摘要](../../../../../../translated_images/zh/ai-symbolic.715a30cb610411a6.webp)
+![符号人工智能内容摘要](../../../../../../translated_images/zh-CN/ai-symbolic.715a30cb610411a6.webp)
 
 > 草图由 [Tomomi Imura](https://twitter.com/girlie_mac) 绘制
 
@@ -35,13 +35,13 @@ CO_OP_TRANSLATOR_METADATA:
 * **知识**是信息被整合进我们的世界模型。例如，一旦我们了解计算机是什么，我们便开始对它的工作原理、价格及用途有一些想法。这些相互关联的概念网络构成了我们的知识。
 * **智慧**是我们对世界理解的更高层次，代表*元知识*，例如关于知识何时及如何使用的某种认知。
 
-<img src="../../../../translated_images/zh/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
+<img src="../../../../translated_images/zh-CN/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
 *图片来自[维基百科](https://commons.wikimedia.org/w/index.php?curid=37705247)，作者Longlivetheux，CC BY-SA 4.0*
 
 因此，**知识表示**的问题是找到一种有效方式，将知识以数据形式表示于计算机内部，使其能被自动使用。这可以看作一个光谱：
 
-![知识表示光谱](../../../../../../translated_images/zh/knowledge-spectrum.b60df631852c0217.webp)
+![知识表示光谱](../../../../../../translated_images/zh-CN/knowledge-spectrum.b60df631852c0217.webp)
 
 > 图片来自 [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Untyped-Language | doesn't have | type definitions
 
 符号人工智能的早期成功之一是所谓的**专家系统**——设计用来在有限问题领域充当专家的计算机系统。它们基于从一个或多个专家处提取的**知识库**，并包含一个在其上执行推理的**推理引擎**。
 
-![人类结构](../../../../../../translated_images/zh/arch-human.5d4d35f1bba3ab1c.webp) | ![基于知识的系统](../../../../../../translated_images/zh/arch-kbs.3ec5c150b09fa8da.webp)
+![人类结构](../../../../../../translated_images/zh-CN/arch-human.5d4d35f1bba3ab1c.webp) | ![基于知识的系统](../../../../../../translated_images/zh-CN/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 人类神经系统简化结构 | 基于知识的系统架构
 
@@ -106,7 +106,7 @@ Untyped-Language | doesn't have | type definitions
 
 例如，考虑一个基于动物物理特征决定动物种类的专家系统：
 
-![与-或树](../../../../../../translated_images/zh/AND-OR-Tree.5592d2c70187f283.webp)
+![与-或树](../../../../../../translated_images/zh-CN/AND-OR-Tree.5592d2c70187f283.webp)
 
 > 图片来自 [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -175,7 +175,7 @@ THEN the animal is a carnivore
 
 在语义网中，所有表示均基于三元组。每个对象和每个关系都由 URI 唯一标识。例如，如果我们想陈述这个 AI 课程是由 Dmitry Soshnikov 于 2022 年 1 月 1 日开发的事实——我们可以使用以下三元组：
 
-<img src="../../../../translated_images/zh/triplet.4b9b332587593298.webp" width="30%"/>
+<img src="../../../../translated_images/zh-CN/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
@@ -186,7 +186,7 @@ http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/cre
 
 在更复杂的情况下，如果我们想定义一个创建者列表，可以使用 RDF 中定义的一些数据结构。
 
-<img src="../../../../translated_images/zh/triplet-complex.32094972c7b4441b.webp" width="40%"/>
+<img src="../../../../translated_images/zh-CN/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > 上图由 [Dmitry Soshnikov](http://soshnikov.com) 绘制
 
@@ -210,7 +210,7 @@ GROUP BY ?eyeColorLabel
 
 > ✅ 如果你想试验构建自己的本体，或者打开已有本体，有一个很棒的图形化本体编辑器叫做 [Protégé](https://protege.stanford.edu/)。下载它，或者在线使用。
 
-<img src="../../../../translated_images/zh/protege.274177ceeac13b38.webp" width="70%"/>
+<img src="../../../../translated_images/zh-CN/protege.274177ceeac13b38.webp" width="70%"/>
 
 *Web Protégé 编辑器打开了罗曼诺夫家族的本体。截屏来自 Dmitry Soshnikov*
 

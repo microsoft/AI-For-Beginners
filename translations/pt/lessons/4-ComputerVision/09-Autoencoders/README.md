@@ -19,7 +19,7 @@ No entanto, podemos querer usar dados brutos (não etiquetados) para treinar ext
 
 Como estamos a treinar um autoencoder para capturar o máximo de informação possível da imagem original para uma reconstrução precisa, a rede tenta encontrar a melhor **representação** das imagens de entrada para captar o seu significado.
 
-![Diagrama de Autoencoder](../../../../../translated_images/pt/autoencoder_schema.5e6fc9ad98a5eb61.webp)
+![Diagrama de Autoencoder](../../../../../translated_images/pt-PT/autoencoder_schema.5e6fc9ad98a5eb61.webp)
 
 > Imagem retirada do [blog da Keras](https://blog.keras.io/building-autoencoders-in-keras.html)
 

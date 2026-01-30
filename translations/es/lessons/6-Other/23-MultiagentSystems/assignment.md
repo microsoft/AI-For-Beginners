@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-24T09:20:48+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "es"
-}
--->
 # Tarea de NetLogo
 
 Toma uno de los modelos de la biblioteca de NetLogo y úsalo para simular una situación de la vida real lo más fielmente posible. Un buen ejemplo sería ajustar el modelo Virus en la carpeta de Visualizaciones Alternativas para mostrar cómo puede usarse para modelar la propagación del COVID-19. ¿Puedes construir un modelo que imite la propagación viral en la vida real?

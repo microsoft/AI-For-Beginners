@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-24T09:29:31+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "de"
-}
--->
 # Verarbeitung natürlicher Sprache
 
 ![Zusammenfassung der NLP-Aufgaben in einer Skizze](../../../../lessons/sketchnotes/ai-nlp.png)

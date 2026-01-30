@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T12:16:35+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "de"
-}
--->
 # Convolutional Neural Networks
 
 Wir haben bereits gesehen, dass neuronale Netze recht gut mit Bildern umgehen können, und selbst ein Ein-Schicht-Perzeptron ist in der Lage, handgeschriebene Ziffern aus dem MNIST-Datensatz mit einer akzeptablen Genauigkeit zu erkennen. Der MNIST-Datensatz ist jedoch etwas Besonderes, da alle Ziffern zentriert im Bild dargestellt sind, was die Aufgabe vereinfacht.
@@ -24,7 +15,7 @@ Um Muster zu extrahieren, verwenden wir den Begriff der **Faltung (Convolutional
 
 Wenn wir beispielsweise 3x3-Filter für vertikale und horizontale Kanten auf die MNIST-Ziffern anwenden, können wir Bereiche hervorheben (z. B. hohe Werte), in denen es vertikale und horizontale Kanten im Originalbild gibt. Diese beiden Filter können also verwendet werden, um "nach" Kanten zu suchen. Ebenso können wir verschiedene Filter entwerfen, um nach anderen grundlegenden Mustern zu suchen:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/de/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Bild des [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

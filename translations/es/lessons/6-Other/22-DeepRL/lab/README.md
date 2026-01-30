@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T09:21:19+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "es"
-}
--->
 ## El Entorno
 
 El entorno Mountain Car consiste en un coche atrapado dentro de un valle. Tu objetivo es salir del valle y alcanzar la bandera. Las acciones que puedes realizar son acelerar hacia la izquierda, hacia la derecha o no hacer nada. Puedes observar la posición del coche a lo largo del eje x y su velocidad.

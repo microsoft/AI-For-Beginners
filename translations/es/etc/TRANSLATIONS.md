@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-24T09:26:55+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "es"
-}
--->
 # Contribuye traduciendo lecciones
 
 ¡Damos la bienvenida a las traducciones de las lecciones en este plan de estudios!

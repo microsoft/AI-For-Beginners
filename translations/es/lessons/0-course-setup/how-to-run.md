@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T10:47:10+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "es"
-}
--->
 # Cómo Ejecutar el Código
 
 Este plan de estudios contiene muchos ejemplos ejecutables y laboratorios que querrás ejecutar. Para hacerlo, necesitas la capacidad de ejecutar código Python en los Jupyter Notebooks proporcionados como parte de este plan de estudios. Tienes varias opciones para ejecutar el código:

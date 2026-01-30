@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T12:06:28+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "es"
-}
--->
 # Aprendizaje por Refuerzo Profundo
 
 El aprendizaje por refuerzo (RL, por sus siglas en inglés) se considera uno de los paradigmas básicos del aprendizaje automático, junto con el aprendizaje supervisado y el aprendizaje no supervisado. Mientras que en el aprendizaje supervisado dependemos de un conjunto de datos con resultados conocidos, el RL se basa en **aprender haciendo**. Por ejemplo, cuando vemos un videojuego por primera vez, comenzamos a jugar sin conocer las reglas, y pronto somos capaces de mejorar nuestras habilidades simplemente jugando y ajustando nuestro comportamiento.
@@ -34,7 +25,7 @@ Probablemente todos han visto dispositivos modernos de equilibrio como el *Segwa
 
 Una versión simplificada del equilibrio se conoce como el problema de **CartPole**. En el mundo de CartPole, tenemos un deslizador horizontal que puede moverse hacia la izquierda o hacia la derecha, y el objetivo es equilibrar un poste vertical sobre el deslizador mientras se mueve.
 
-<img alt="un cartpole" src="images/cartpole.png" width="200"/>
+<img alt="un cartpole" src="../../../../../translated_images/es/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Para crear y usar este entorno, necesitamos unas pocas líneas de código en Python:
 

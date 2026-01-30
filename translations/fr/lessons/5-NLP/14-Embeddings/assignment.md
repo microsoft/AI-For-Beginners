@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-24T20:46:35+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "fr"
-}
--->
 # Devoir : Notebooks
 
 En utilisant les notebooks associés à cette leçon (soit la version PyTorch, soit la version TensorFlow), exécutez-les à nouveau avec votre propre jeu de données, peut-être un provenant de Kaggle, en respectant les attributions. Réécrivez le notebook pour mettre en avant vos propres observations. Essayez un type de jeu de données différent et documentez vos conclusions, en utilisant par exemple du texte comme [ces paroles des Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

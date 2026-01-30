@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 # 初学者人工智能课程
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../../../translated_images/zh/ai-overview.0857791951d19500.webp)|
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](../../../../translated_images/zh-CN/ai-overview.0857791951d19500.webp)|
 |:---:|
 | 初学者人工智能 - _由[@girlie_mac](https://twitter.com/girlie_mac) 绘制的手绘笔记_ |
 

@@ -21,7 +21,7 @@ Você precisa treinar uma rede neural convolucional para classificar diferentes 
 
 Usaremos o [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), que contém imagens de 37 diferentes raças de cães e gatos.
 
-![Conjunto de dados com o qual trabalharemos](../../../../../../translated_images/br/data.50b2a9d5484bdbf0.webp)
+![Conjunto de dados com o qual trabalharemos](../../../../../../translated_images/pt-BR/data.50b2a9d5484bdbf0.webp)
 
 Para baixar o conjunto de dados, use este trecho de código:
 

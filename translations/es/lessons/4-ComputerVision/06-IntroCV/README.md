@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T12:07:54+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "es"
-}
--->
 # Introducción a la Visión por Computadora
 
 [Visión por Computadora](https://wikipedia.org/wiki/Computer_vision) es una disciplina cuyo objetivo es permitir que las computadoras comprendan imágenes digitales a un nivel avanzado. Esta es una definición bastante amplia, ya que *comprender* puede significar muchas cosas diferentes, como encontrar un objeto en una imagen (**detección de objetos**), entender qué está ocurriendo (**detección de eventos**), describir una imagen en texto o reconstruir una escena en 3D. También hay tareas específicas relacionadas con imágenes humanas: estimación de edad y emociones, detección e identificación de rostros, y estimación de poses en 3D, entre otras.
@@ -115,7 +106,7 @@ Lee más sobre flujo óptico [en este excelente tutorial](https://learnopencv.co
 
 En este laboratorio, tomarás un video con gestos simples, y tu objetivo será extraer movimientos hacia arriba/abajo/izquierda/derecha usando flujo óptico.
 
-<img src="images/palm-movement.png" width="30%" alt="Fotograma de Movimiento de Palma"/>
+<img src="../../../../../translated_images/es/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Fotograma de Movimiento de Palma"/>
 
 ---
 

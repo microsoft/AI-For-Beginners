@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T12:14:08+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "es"
-}
--->
 # Redes Neuronales Recurrentes
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Veamos cómo está organizada una célula RNN simple. Acepta el estado anterior 
 
 Una célula RNN simple tiene dos matrices de pesos internas: una transforma un símbolo de entrada (llamémosla W) y otra transforma un estado de entrada (H). En este caso, la salida de la red se calcula como &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), donde &sigma; es la función de activación y b es un sesgo adicional.
 
-<img alt="Anatomía de una célula RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomía de una célula RNN" src="../../../../../translated_images/es/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Imagen del autor
 

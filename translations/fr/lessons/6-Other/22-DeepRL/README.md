@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T11:55:29+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "fr"
-}
--->
 # Apprentissage par renforcement profond
 
 L'apprentissage par renforcement (RL) est considéré comme l'un des paradigmes fondamentaux de l'apprentissage automatique, aux côtés de l'apprentissage supervisé et non supervisé. Alors que l'apprentissage supervisé repose sur un ensemble de données avec des résultats connus, le RL est basé sur **l'apprentissage par l'expérience**. Par exemple, lorsque nous découvrons un jeu vidéo pour la première fois, nous commençons à jouer, même sans connaître les règles, et nous améliorons rapidement nos compétences simplement en jouant et en ajustant notre comportement.
@@ -34,7 +25,7 @@ Vous avez probablement déjà vu des dispositifs modernes d'équilibrage tels qu
 
 Une version simplifiée de l'équilibrage est connue sous le nom de problème **CartPole**. Dans le monde du CartPole, nous avons un curseur horizontal qui peut se déplacer à gauche ou à droite, et l'objectif est d'équilibrer un poteau vertical au-dessus du curseur pendant qu'il se déplace.
 
-<img alt="un CartPole" src="images/cartpole.png" width="200"/>
+<img alt="un CartPole" src="../../../../../translated_images/fr/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Pour créer et utiliser cet environnement, nous avons besoin de quelques lignes de code Python :
 

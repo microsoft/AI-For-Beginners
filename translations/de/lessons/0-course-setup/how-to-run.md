@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T10:52:10+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "de"
-}
--->
 # Wie man den Code ausführt
 
 Dieses Curriculum enthält viele ausführbare Beispiele und Labs, die Sie ausführen möchten. Um dies zu tun, benötigen Sie die Möglichkeit, Python-Code in Jupyter Notebooks auszuführen, die als Teil dieses Curriculums bereitgestellt werden. Sie haben mehrere Optionen, um den Code auszuführen:

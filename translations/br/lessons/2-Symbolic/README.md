@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Representação do Conhecimento e Sistemas Especialistas
 
-![Resumo do conteúdo de IA Simbólica](../../../../../../translated_images/br/ai-symbolic.715a30cb610411a6.webp)
+![Resumo do conteúdo de IA Simbólica](../../../../../../translated_images/pt-BR/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote por [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -35,13 +35,13 @@ Na maioria das vezes, não definimos conhecimento de forma estrita, mas o alinha
 * **Conhecimento** é a informação integrada em nosso modelo do mundo. Por exemplo, uma vez que aprendemos o que é um computador, começamos a ter algumas ideias sobre como ele funciona, quanto custa e para que pode ser usado. Essa rede de conceitos inter-relacionados forma nosso conhecimento.
 * **Sabedoria** é ainda um nível a mais da nossa compreensão do mundo, e representa *meta-conhecimento*, por exemplo, alguma noção sobre como e quando o conhecimento deve ser usado.
 
-<img src="../../../../translated_images/br/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
+<img src="../../../../translated_images/pt-BR/DIKW_Pyramid.94126f7d2bd8db5b.webp" width="30%"/>
 
 *Imagem [da Wikipedia](https://commons.wikimedia.org/w/index.php?curid=37705247), Por Longlivetheux - Trabalho próprio, CC BY-SA 4.0*
 
 Assim, o problema da **representação do conhecimento** é encontrar algum meio eficaz para representar conhecimento dentro de um computador na forma de dados, para torná-lo automaticamente utilizável. Isso pode ser visto como um espectro:
 
-![Espectro de representação do conhecimento](../../../../../../translated_images/br/knowledge-spectrum.b60df631852c0217.webp)
+![Espectro de representação do conhecimento](../../../../../../translated_images/pt-BR/knowledge-spectrum.b60df631852c0217.webp)
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +94,7 @@ Sintaxe de Bloco | Indentação | | |
 
 Um dos primeiros sucessos da IA simbólica foram os chamados **sistemas especialistas** - sistemas computacionais desenhados para atuar como um especialista em algum domínio de problema limitado. Eles foram baseados em uma **base de conhecimento** extraída de um ou mais especialistas humanos, e continham um **motor de inferência** que realizava algum raciocínio sobre ela.
 
-![Arquitetura Humana](../../../../../../translated_images/br/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistema Baseado em Conhecimento](../../../../../../translated_images/br/arch-kbs.3ec5c150b09fa8da.webp)
+![Arquitetura Humana](../../../../../../translated_images/pt-BR/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistema Baseado em Conhecimento](../../../../../../translated_images/pt-BR/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Estrutura simplificada do sistema neural humano | Arquitetura de um sistema baseado em conhecimento
 
@@ -106,7 +106,7 @@ Sistemas especialistas são construídos como o sistema de raciocínio humano, q
 
 Como exemplo, vamos considerar o seguinte sistema especialista para determinar um animal com base em suas características físicas:
 
-![Árvore AND-OR](../../../../../../translated_images/br/AND-OR-Tree.5592d2c70187f283.webp)
+![Árvore AND-OR](../../../../../../translated_images/pt-BR/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Imagem por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -175,7 +175,7 @@ Um conceito central na Web Semântica é o conceito de **Ontologia**. Refere-se 
 
 Na web semântica, todas as representações são baseadas em tripletas. Cada objeto e cada relação são identificados unicamente pela URI. Por exemplo, se quisermos afirmar o fato de que este Currículo de IA foi desenvolvido por Dmitry Soshnikov em 1º de janeiro de 2022 - aqui estão as tripletas que podemos usar:
 
-<img src="../../../../translated_images/br/triplet.4b9b332587593298.webp" width="30%"/>
+<img src="../../../../translated_images/pt-BR/triplet.4b9b332587593298.webp" width="30%"/>
 
 ```
 http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
@@ -186,7 +186,7 @@ http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/cre
 
 Em um caso mais complexo, se quisermos definir uma lista de criadores, podemos usar algumas estruturas de dados definidas em RDF.
 
-<img src="../../../../translated_images/br/triplet-complex.32094972c7b4441b.webp" width="40%"/>
+<img src="../../../../translated_images/pt-BR/triplet-complex.32094972c7b4441b.webp" width="40%"/>
 
 > Diagramas acima por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -210,7 +210,7 @@ GROUP BY ?eyeColorLabel
 
 > ✅ Se você quiser experimentar criar suas próprias ontologias, ou abrir as existentes, existe um ótimo editor visual de ontologias chamado [Protégé](https://protege.stanford.edu/). Faça o download ou use online.
 
-<img src="../../../../translated_images/br/protege.274177ceeac13b38.webp" width="70%"/>
+<img src="../../../../translated_images/pt-BR/protege.274177ceeac13b38.webp" width="70%"/>
 
 *Editor Web Protégé aberto com a ontologia da Família Romanov. Captura de tela por Dmitry Soshnikov*
 

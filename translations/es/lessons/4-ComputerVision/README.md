@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-24T09:15:28+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "es"
-}
--->
 # Visión por Computadora
 
 ![Resumen del contenido de Visión por Computadora en un dibujo](../../../../lessons/sketchnotes/ai-computervision.png)

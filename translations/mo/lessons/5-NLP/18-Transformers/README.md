@@ -20,13 +20,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 **注意力機制**提供了一種方法，能夠對每個輸入向量對 RNN 每個輸出預測的上下文影響進行加權。其實現方式是通過在輸入 RNN 的中間狀態與輸出 RNN 之間創建捷徑。這樣，在生成輸出符號 y<sub>t</sub> 時，我們會考慮所有輸入隱藏狀態 h<sub>i</sub>，並賦予不同的權重係數 &alpha;<sub>t,i</sub>。
 
-![顯示具有加性注意力層的編碼器/解碼器模型的圖片](../../../../../translated_images/mo/encoder-decoder-attention.7a726296894fb567.webp)
+![顯示具有加性注意力層的編碼器/解碼器模型的圖片](../../../../../translated_images/zh-MO/encoder-decoder-attention.7a726296894fb567.webp)
 
 > [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) 中的加性注意力機制編碼器-解碼器模型，圖片來源於[這篇博客文章](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 注意力矩陣 {&alpha;<sub>i,j</sub>} 表示某些輸入詞在生成輸出序列中特定詞時所起的作用程度。以下是一個這樣的矩陣示例：
 
-![顯示 RNNsearch-50 發現的樣本對齊的圖片，取自 Bahdanau - arviz.org](../../../../../translated_images/mo/bahdanau-fig3.09ba2d37f202a6af.webp)
+![顯示 RNNsearch-50 發現的樣本對齊的圖片，取自 Bahdanau - arviz.org](../../../../../translated_images/zh-MO/bahdanau-fig3.09ba2d37f202a6af.webp)
 
 > 圖片來自 [Bahdanau et al., 2015](https://arxiv.org/pdf/1409.0473.pdf) (圖3)
 
@@ -66,7 +66,7 @@ Transformer 的核心思想之一是避免 RNN 的序列性質，並創建一個
 
 接下來，我們需要捕捉序列中的一些模式。為此，Transformer 使用了**自注意力**機制，這本質上是將注意力應用於相同的輸入和輸出序列。應用自注意力使我們能夠考慮句子中的**上下文**，並查看哪些詞是相互關聯的。例如，它可以幫助我們理解哪些詞是由代詞（如 *it*）指代的，並考慮上下文：
 
-![](../../../../../translated_images/mo/CoreferenceResolution.861924d6d384a7d6.webp)
+![](../../../../../translated_images/zh-MO/CoreferenceResolution.861924d6d384a7d6.webp)
 
 > 圖片來自 [Google 博客](https://research.googleblog.com/2017/08/transformer-novel-neural-network.html)
 
@@ -91,7 +91,7 @@ Transformer 的核心思想之一是避免 RNN 的序列性質，並創建一個
 
 **BERT**（Bidirectional Encoder Representations from Transformers）是一個非常大的多層 Transformer 網路，*BERT-base* 有 12 層，*BERT-large* 有 24 層。該模型首先在大規模文本語料庫（維基百科 + 書籍）上進行無監督訓練（預測句子中的遮蔽詞）。在預訓練過程中，模型吸收了大量的語言理解能力，這些能力可以通過微調其他數據集來利用。這個過程稱為**遷移學習**。
 
-![圖片來自 http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/mo/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
+![圖片來自 http://jalammar.github.io/illustrated-bert/](../../../../../translated_images/zh-MO/jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp)
 
 > 圖片 [來源](http://jalammar.github.io/illustrated-bert/)
 

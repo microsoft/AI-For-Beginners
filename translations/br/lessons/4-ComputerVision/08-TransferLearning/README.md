@@ -29,7 +29,7 @@ Tanto o Keras quanto o PyTorch possuem funções para carregar facilmente pesos 
 
 Aqui estão características extraídas de uma imagem de um gato pela rede VGG-16:
 
-![Características extraídas pelo VGG-16](../../../../../translated_images/br/features.6291f9c7ba3a0b95.webp)
+![Características extraídas pelo VGG-16](../../../../../translated_images/pt-BR/features.6291f9c7ba3a0b95.webp)
 
 ## Conjunto de Dados de Gatos vs. Cachorros
 
@@ -48,19 +48,19 @@ Uma rede neural pré-treinada contém diferentes padrões em seu *cérebro*, inc
 
 Uma abordagem que podemos adotar é começar com uma imagem aleatória e, em seguida, tentar usar a técnica de **otimização por descida de gradiente** para ajustar essa imagem de forma que a rede comece a pensar que é um gato.
 
-![Loop de Otimização de Imagem](../../../../../translated_images/br/ideal-cat-loop.999fbb8ff306e044.webp)
+![Loop de Otimização de Imagem](../../../../../translated_images/pt-BR/ideal-cat-loop.999fbb8ff306e044.webp)
 
 No entanto, se fizermos isso, receberemos algo muito semelhante a um ruído aleatório. Isso ocorre porque *existem muitas maneiras de fazer a rede pensar que a imagem de entrada é um gato*, incluindo algumas que não fazem sentido visualmente. Embora essas imagens contenham muitos padrões típicos de um gato, não há nada que as restrinja a serem visualmente distintas.
 
 Para melhorar o resultado, podemos adicionar outro termo à função de perda, chamado de **perda de variação**. É uma métrica que mostra quão semelhantes são os pixels vizinhos da imagem. Minimizar a perda de variação torna a imagem mais suave e elimina o ruído, revelando padrões mais visualmente atraentes. Aqui está um exemplo de tais imagens "ideais", classificadas como gato e zebra com alta probabilidade:
 
-![Gato Ideal](../../../../../translated_images/br/ideal-cat.203dd4597643d6b0.webp) | ![Zebra Ideal](../../../../../translated_images/br/ideal-zebra.7f70e8b54ee15a7a.webp)
+![Gato Ideal](../../../../../translated_images/pt-BR/ideal-cat.203dd4597643d6b0.webp) | ![Zebra Ideal](../../../../../translated_images/pt-BR/ideal-zebra.7f70e8b54ee15a7a.webp)
 -----|-----
  *Gato Ideal* | *Zebra Ideal*
 
 Uma abordagem semelhante pode ser usada para realizar os chamados **ataques adversariais** em uma rede neural. Suponha que queremos enganar uma rede neural e fazer um cachorro parecer um gato. Se pegarmos a imagem de um cachorro, que é reconhecida pela rede como um cachorro, podemos ajustá-la um pouco usando otimização por descida de gradiente até que a rede comece a classificá-la como um gato:
 
-![Imagem de um Cachorro](../../../../../translated_images/br/original-dog.8f68a67d2fe0911f.webp) | ![Imagem de um cachorro classificada como gato](../../../../../translated_images/br/adversarial-dog.d9fc7773b0142b89.webp)
+![Imagem de um Cachorro](../../../../../translated_images/pt-BR/original-dog.8f68a67d2fe0911f.webp) | ![Imagem de um cachorro classificada como gato](../../../../../translated_images/pt-BR/adversarial-dog.d9fc7773b0142b89.webp)
 -----|-----
 *Imagem original de um cachorro* | *Imagem de um cachorro classificada como gato*
 
