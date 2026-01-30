@@ -1,0 +1,6 @@
+# Tarefa: Notebooks
+
+Utilizando os notebooks associados a esta lição (seja a versão em PyTorch ou TensorFlow), execute-os novamente usando o seu próprio conjunto de dados, talvez um do Kaggle, utilizado com a devida atribuição. Reescreva o notebook para destacar as suas próprias conclusões. Experimente um tipo diferente de conjunto de dados e documente as suas descobertas, utilizando texto como [este conjunto de dados de uma competição do Kaggle sobre tweets relacionados ao clima](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).
+
+**Aviso Legal**:  
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos pela precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
