@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-10-11T11:50:59+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "et"
-}
--->
 # Panusta tundide tõlkimisega
 
 Ootame selle õppekava tundide tõlkeid!

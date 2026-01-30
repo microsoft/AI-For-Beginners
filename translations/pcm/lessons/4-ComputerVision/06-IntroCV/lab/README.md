@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-11-18T18:14:38+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "pcm"
-}
--->
 # Detect Movements wit Optical Flow
 
 Lab Assignment from [AI for Beginners Curriculum](https://aka.ms/ai-beginners).

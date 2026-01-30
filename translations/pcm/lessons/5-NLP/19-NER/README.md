@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-11-18T18:40:02+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "pcm"
-}
--->
 # Named Entity Recognition
 
 So far, we don dey focus mostly on one NLP task - classification. But e get other NLP tasks wey neural networks fit do. One of dem na **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), wey dey help to sabi specific entities for text, like places, person names, date-time intervals, chemical formulae and so on.

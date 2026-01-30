@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
-  "translation_date": "2025-11-25T21:36:09+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
-  "language_code": "te"
-}
--->
 # న్యూరల్ నెట్‌వర్క్స్ పరిచయం: పర్సెప్ట్రాన్
 
 ## [పాఠం ముందు క్విజ్](https://ff-quizzes.netlify.app/en/ai/quiz/5)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-10-11T11:18:09+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "et"
-}
--->
 # Sissejuhatus arvutinägemisse
 
 [Arvutinägemine](https://wikipedia.org/wiki/Computer_vision) on valdkond, mille eesmärk on võimaldada arvutitel saavutada kõrgetasemeline arusaam digitaalsetest piltidest. See on üsna lai määratlus, kuna *arusaamine* võib tähendada mitmeid erinevaid asju, sealhulgas objekti leidmist pildilt (**objekti tuvastamine**), toimuvast aru saamist (**sündmuste tuvastamine**), pildi kirjeldamist tekstis või stseeni rekonstrueerimist 3D-s. Samuti on olemas eraldi ülesanded, mis on seotud inimeste piltidega: vanuse ja emotsioonide hindamine, näo tuvastamine ja identifitseerimine ning 3D poosi hindamine, kui nimetada vaid mõnda.

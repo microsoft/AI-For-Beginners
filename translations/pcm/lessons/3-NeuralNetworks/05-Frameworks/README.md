@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-11-18T18:29:12+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "pcm"
-}
--->
 # Neural Network Frameworks
 
 As we don learn already, to fit train neural networks well well, we need do two things:

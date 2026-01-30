@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-11-25T21:35:24+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "te"
-}
--->
 అన్ని పాఠ్యాంశాల స్కెచ్‌నోట్లు ఇక్కడ డౌన్లోడ్ చేసుకోవచ్చు.
 
 🎨 సృష్టికర్త: టోమోమీ ఇమురా (ట్విట్టర్: [@girlie_mac](https://twitter.com/girlie_mac), గిట్‌హబ్: [girliemac](https://github.com/girliemac))

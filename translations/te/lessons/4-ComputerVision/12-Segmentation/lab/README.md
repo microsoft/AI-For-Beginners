@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-11-25T22:47:00+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "te"
-}
--->
 # మానవ శరీర విభజన
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) నుండి ల్యాబ్ అసైన్‌మెంట్.

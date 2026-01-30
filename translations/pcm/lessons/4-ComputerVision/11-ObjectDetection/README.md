@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-11-18T18:19:31+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "pcm"
-}
--->
 # Object Detection
 
 Di image classification models we don deal wit before na to take one image and produce one categorical result, like di class 'number' for MNIST problem. But, for many cases, we no just wan sabi say di picture get objects - we wan fit know di exact place wey dem dey. Na wetin **object detection** dey do be dat.

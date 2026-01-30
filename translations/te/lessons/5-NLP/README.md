@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-11-25T21:12:36+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "te"
-}
--->
 # సహజ భాషా ప్రాసెసింగ్
 
 ![NLP పనుల సారాంశం ఒక డ్రాయింగ్‌లో](../../../../translated_images/te/ai-nlp.b22dcb8ca4707cea.webp)

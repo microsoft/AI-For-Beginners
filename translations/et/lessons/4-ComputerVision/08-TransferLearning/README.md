@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-10-11T11:20:09+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "et"
-}
--->
 # Eelnevalt treenitud võrgud ja ülekandeõpe
 
 CNN-ide treenimine võib võtta palju aega ja nõuda suurt hulka andmeid. Suur osa ajast kulub aga parimate madala taseme filtrite õppimisele, mida võrk saab kasutada mustrite tuvastamiseks piltidelt. Tekib loomulik küsimus – kas saaksime kasutada ühel andmestikul treenitud närvivõrku ja kohandada seda erinevate piltide klassifitseerimiseks ilma täieliku treenimisprotsessita?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-11-18T18:22:28+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "pcm"
-}
--->
 # Convolutional Neural Networks
 
 We don see before say neural networks dey good wella for handling images, even one-layer perceptron fit sabi recognize handwritten digits from MNIST dataset with beta accuracy. But MNIST dataset dey special, all di digits dey center for di image, wey make di work easy.

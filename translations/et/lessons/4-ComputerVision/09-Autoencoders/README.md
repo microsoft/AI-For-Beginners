@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-10-11T11:24:53+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "et"
-}
--->
 # Autoenkoodrid
 
 CNN-ide treenimisel on üheks probleemiks see, et vajame palju märgistatud andmeid. Näiteks pildiklassifikatsiooni puhul peame pildid jagama erinevatesse klassidesse, mis on käsitsi tehtav töö.

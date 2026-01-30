@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-11-18T18:30:26+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "pcm"
-}
--->
 # Multi-Modal Networks
 
 Afta transformer models don show say dem fit solve NLP tasks well, people don dey use di same or similar architecture for computer vision tasks. Pipo dey show interest for how dem go fit build models wey go *combine* vision and natural language sabi. One of di try wey OpenAI do na CLIP and DALL.E.

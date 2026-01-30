@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-25T20:52:23+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "te"
-}
--->
 # AI పరిచయం
 
 ![AI పరిచయ విషయాల సారాంశం ఒక డ్రాయింగ్‌లో](../../../../translated_images/te/ai-intro.bf28d1ac4235881c.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
-  "translation_date": "2025-11-18T18:28:01+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
-  "language_code": "pcm"
-}
--->
 # Introduction to Neural Networks: Perceptron
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/5)

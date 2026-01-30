@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-10-11T11:26:10+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "et"
-}
--->
 # Konvolutsioonilised närvivõrgud
 
 Oleme varem näinud, et närvivõrgud on üsna head piltidega töötamisel ja isegi ühekihiline perceptron suudab MNIST andmestikus käsitsi kirjutatud numbreid mõistliku täpsusega ära tunda. Kuid MNIST andmestik on väga eriline, kuna kõik numbrid on pildi keskel, mis teeb ülesande lihtsamaks.

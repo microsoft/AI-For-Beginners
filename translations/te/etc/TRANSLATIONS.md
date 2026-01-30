@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-11-25T20:30:41+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "te"
-}
--->
 # పాఠాలు అనువదించడం ద్వారా సహకరించండి
 
 ఈ పాఠ్యాంశంలో ఉన్న పాఠాల అనువాదాలను మేము స్వాగతిస్తున్నాము!

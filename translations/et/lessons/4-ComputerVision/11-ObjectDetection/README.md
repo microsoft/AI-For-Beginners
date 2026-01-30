@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-10-11T11:23:28+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "et"
-}
--->
 # Objektide tuvastamine
 
 Pildiklassifikatsiooni mudelid, millega oleme seni tegelenud, võtsid pildi ja andsid kategoorilise tulemuse, näiteks klassi 'number' MNIST-probleemis. Kuid paljudel juhtudel ei taha me lihtsalt teada, et pilt kujutab objekte – me tahame määrata nende täpse asukoha. Just seda eesmärki täidab **objektide tuvastamine**.

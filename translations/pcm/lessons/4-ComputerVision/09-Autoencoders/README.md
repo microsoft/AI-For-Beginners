@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-11-18T18:21:02+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "pcm"
-}
--->
 # Autoencoders
 
 Wen we dey train CNNs, one wahala wey dey be say we need plenty labeled data. For image classification, we go need separate images into different classes, and na manual work.

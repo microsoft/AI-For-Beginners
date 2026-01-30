@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T07:25:31+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "et"
-}
--->
 # Kuidas Koodi Käivitada
 
 See õppekava sisaldab palju täidetavaid näiteid ja töötoad, mida soovite jooksutada. Selleks peate saama käivitada Python koodi Jupyter märkmikes, mis on selle õppekava osana esitatud. Koodi käivitamiseks on teil mitu võimalust:

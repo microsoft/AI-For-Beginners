@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-10-11T11:46:31+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "et"
-}
--->
 # Multiagent süsteemid
 
 Üks võimalik viis intelligentsuse saavutamiseks on nn **emergentne** (või **sünergeetiline**) lähenemine, mis põhineb faktil, et paljude suhteliselt lihtsate agentide kombineeritud käitumine võib viia süsteemi kui terviku keerukama (või intelligentsema) käitumiseni. Teoreetiliselt põhineb see [kollektiivse intelligentsuse](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentismi](https://en.wikipedia.org/wiki/Global_brain) ja [evolutsioonilise küberneetika](https://en.wikipedia.org/wiki/Global_brain) põhimõtetel, mis väidavad, et kõrgema taseme süsteemid saavutavad teatud lisaväärtuse, kui need on õigesti kombineeritud madalama taseme süsteemidest (nn *metasüsteemi ülemineku põhimõte*).

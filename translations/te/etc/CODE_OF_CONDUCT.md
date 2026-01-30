@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-11-25T20:21:56+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "te"
-}
--->
 # మైక్రోసాఫ్ట్ ఓపెన్ సోర్స్ కోడ్ ఆఫ్ కండక్ట్
 
 ఈ ప్రాజెక్ట్ [మైక్రోసాఫ్ట్ ఓపెన్ సోర్స్ కోడ్ ఆఫ్ కండక్ట్](https://opensource.microsoft.com/codeofconduct/)ని అనుసరిస్తుంది.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-11-18T18:49:10+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "pcm"
-}
--->
 # Train Mountain Car to Escape
 
 Lab Work wey come from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

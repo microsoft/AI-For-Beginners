@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T07:31:28+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "pcm"
-}
--->
 # Knowledge Representation and Expert Systems
 
-![Summary of Symbolic AI content](../../../../../../translated_images/pcm/ai-symbolic.715a30cb610411a6.webp)
+![Summary of Symbolic AI content](../../../../translated_images/pcm/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Most times, we no define knowledge sharp-sharp, but we dey relate am to other re
 
 So, di problem of **knowledge representation** na to find how to effectively represent knowledge inside computer as data, to make am automatically usable. E fit be like spectrum:
 
-![Knowledge representation spectrum](../../../../../../translated_images/pcm/knowledge-spectrum.b60df631852c0217.webp)
+![Knowledge representation spectrum](../../../../translated_images/pcm/knowledge-spectrum.b60df631852c0217.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 One of early successes of symbolic AI na the so-called **expert systems** - computer systems wey dem design to act like expert inside limited problem domain. Dem dey based on **knowledge base** wey dem comot from one or more human experts, and e get **inference engine** wey dey reason on top am.
 
-![Human Architecture](../../../../../../translated_images/pcm/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../../../translated_images/pcm/arch-kbs.3ec5c150b09fa8da.webp)
+![Human Architecture](../../../../translated_images/pcm/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../translated_images/pcm/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Simplified structure of a human neural system | Architecture of a knowledge-based system
 
@@ -106,7 +97,7 @@ Expert systems be like human reasoning system, wey get **short-term memory** and
 
 Example, make we check dis expert system for identifying animal based on physical characteristics:
 
-![AND-OR Tree](../../../../../../translated_images/pcm/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR Tree](../../../../translated_images/pcm/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 

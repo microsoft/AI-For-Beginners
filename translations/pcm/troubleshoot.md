@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-11-18T18:12:07+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "pcm"
-}
--->
 # AI-For-Beginners Troubleshooting Guide
 
 Dis guide go help you solve common wahala wey fit happen when you dey use or dey contribute to di [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repository. Each problem get background, symptoms, explanation, and step-by-step solution.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-10-11T11:40:44+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "et"
-}
--->
 # Ülesanne: Märkmikud
 
 Kasutades selle õppetunni juurde kuuluvaid märkmikke (kas PyTorch või TensorFlow versiooni), käivitage need uuesti, kasutades oma andmekogumit, näiteks Kaggle'ist pärit andmeid, millele viitate korrektselt. Kirjutage märkmik ümber, et rõhutada omaenda järeldusi. Proovige teistsugust andmekogumit ja dokumenteerige oma järeldused, kasutades näiteks [neid Beatlesi laulusõnu](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

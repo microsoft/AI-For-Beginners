@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-11-18T18:13:27+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "pcm"
-}
--->
 # Computer Vision
 
 ![Summary of Computer Vision content in a doodle](../../../../translated_images/pcm/ai-computervision.6506ebebac3fbf76.webp)

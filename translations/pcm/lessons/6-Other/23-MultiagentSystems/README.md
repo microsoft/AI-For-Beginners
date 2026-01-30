@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-11-18T18:46:50+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "pcm"
-}
--->
 # Multi-Agent Systems
 
 One way wey people fit take achieve intelligence na wetin dem dey call **emergent** (or **synergetic**) approach. Dis one dey base on di fact say di combined behavior of plenty simple agents fit result for di overall more complex (or intelligent) behavior of di system as one whole. For theory, e dey base on di principles of [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) and [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain), wey talk say higher-level systems dey gain extra value if dem combine well from lower-level systems (wetin dem dey call *principle of metasystem transition*).

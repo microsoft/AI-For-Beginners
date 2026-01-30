@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-11-18T18:42:53+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "pcm"
-}
--->
 # Pre-Trained Large Language Models
 
 For all di tasks wey we don do before, we dey train neural network to do one kain task wey dey use labeled dataset. But wit big transformer models like BERT, we dey use language modelling for self-supervised way to build language model, wey we go later train for specific downstream task wit domain-specific training. E don show say big language models fit solve plenty tasks even witout ANY domain-specific training. Di models wey fit do dis kain thing na dem we dey call **GPT**: Generative Pre-Trained Transformer.

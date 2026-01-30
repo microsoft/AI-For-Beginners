@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-10-11T11:42:01+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "et"
-}
--->
 # Nimega Entiteetide Tuvastamine
 
 Siiani oleme peamiselt keskendunud ühele NLP ülesandele - klassifikatsioonile. Kuid on ka teisi NLP ülesandeid, mida saab lahendada närvivõrkude abil. Üks neist ülesannetest on **[Nimega Entiteetide Tuvastamine](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), mis tegeleb konkreetsete entiteetide tuvastamisega tekstis, nagu näiteks kohad, isikunimed, kuupäevad ja ajavahemikud, keemilised valemid jne.

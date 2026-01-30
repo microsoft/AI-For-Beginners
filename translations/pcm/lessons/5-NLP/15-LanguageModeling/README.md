@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-11-18T18:41:06+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "pcm"
-}
--->
 # Language Modeling
 
 Semantic embeddings like Word2Vec and GloVe na di first step wey dey lead to **language modeling** - wey mean say we dey create models wey fit *understand* (or *represent*) how language dey work.

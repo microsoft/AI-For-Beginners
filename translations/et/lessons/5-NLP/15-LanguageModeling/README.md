@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-10-11T11:42:54+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "et"
-}
--->
 # Keelemudelid
 
 Semantilised vektorid, nagu Word2Vec ja GloVe, on tegelikult esimene samm **keelemudelite** suunas – mudelite loomine, mis mingil moel *mõistavad* (või *esindavad*) keele olemust.
