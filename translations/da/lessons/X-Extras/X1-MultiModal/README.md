@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-28T15:10:45+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "da"
-}
--->
 # Multi-Modal Netværk
 
 Efter succesen med transformer-modeller til løsning af NLP-opgaver, er de samme eller lignende arkitekturer blevet anvendt til computer vision-opgaver. Der er en stigende interesse i at bygge modeller, der kan *kombinere* vision og naturlige sprogfunktioner. En af disse forsøg blev gjort af OpenAI, og det kaldes CLIP og DALL.E.

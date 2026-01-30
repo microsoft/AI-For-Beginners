@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:31:15+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "sv"
-}
--->
 # Nybörjarvänliga AI-exempel
 
 Välkommen! Den här katalogen innehåller enkla, fristående exempel för att hjälpa dig komma igång med AI och maskininlärning. Varje exempel är utformat för att vara nybörjarvänligt med detaljerade kommentarer och steg-för-steg-förklaringar.

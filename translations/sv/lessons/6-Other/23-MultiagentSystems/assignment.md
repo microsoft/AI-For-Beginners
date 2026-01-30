@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-28T15:05:46+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "sv"
-}
--->
 # NetLogo-uppgift
 
 Ta en av modellerna i NetLogos bibliotek och använd den för att simulera en verklig situation så nära som möjligt. Ett bra exempel skulle vara att justera Virus-modellen i mappen Alternative Visualizations för att visa hur den kan användas för att modellera spridningen av COVID-19. Kan du skapa en modell som efterliknar en verklig virusspridning?

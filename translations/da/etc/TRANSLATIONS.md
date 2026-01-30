@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-28T16:06:05+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "da"
-}
--->
 # Bidrag ved at oversætte lektioner
 
 Vi byder velkommen til oversættelser af lektionerne i dette pensum!

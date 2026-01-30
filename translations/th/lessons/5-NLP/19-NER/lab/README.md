@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-08-29T09:23:40+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "th"
-}
--->
 # การรู้จำชื่อเฉพาะ (NER)
 
 การบ้านจาก [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)

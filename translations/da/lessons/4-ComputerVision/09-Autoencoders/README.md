@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T09:30:20+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "da"
-}
--->
 # Autoencodere
 
 Når vi træner CNN'er, er en af udfordringerne, at vi har brug for en stor mængde mærkede data. I tilfælde af billedklassifikation skal vi opdele billeder i forskellige klasser, hvilket kræver manuelt arbejde.
@@ -46,7 +37,7 @@ Opsummeret:
  * Vi sampler en vektor `sample` fra fordelingen N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)).
  * Decoderen forsøger at dekode det oprindelige billede ved hjælp af `sample` som inputvektor.
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/da/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Billede fra [denne blogpost](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) af Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variationsautoencodere bruger en kompleks tab-funktion, der består af to dele:
 
 En vigtig fordel ved VAE'er er, at de gør det relativt nemt at generere nye billeder, fordi vi ved, hvilken fordeling vi skal sample latente vektorer fra. For eksempel, hvis vi træner en VAE med en 2D latent vektor på MNIST, kan vi derefter variere komponenterne i den latente vektor for at få forskellige cifre:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/da/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 
 Bemærk, hvordan billederne flyder ind i hinanden, når vi begynder at tage latente vektorer fra forskellige dele af det latente parameter-rum. Vi kan også visualisere dette rum i 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/da/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 

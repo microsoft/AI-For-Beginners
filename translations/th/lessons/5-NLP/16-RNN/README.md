@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T09:13:46+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "th"
-}
--->
 # เครือข่ายประสาทแบบวนซ้ำ
 
 ## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เซลล์ RNN แบบง่ายมีเมทริกซ์ weights สองตัวภายใน: ตัวหนึ่งแปลงสัญลักษณ์อินพุต (เรียกว่า W) และอีกตัวหนึ่งแปลงสถานะอินพุต (H) ในกรณีนี้ ผลลัพธ์ของเครือข่ายจะถูกคำนวณเป็น &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) โดยที่ &sigma; คือฟังก์ชันการกระตุ้น และ b คือ bias เพิ่มเติม
 
-<img alt="โครงสร้างเซลล์ RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="โครงสร้างเซลล์ RNN" src="../../../../../translated_images/th/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > ภาพโดยผู้เขียน
 

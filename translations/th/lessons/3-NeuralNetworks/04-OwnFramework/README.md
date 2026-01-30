@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T09:10:35+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "th"
-}
--->
 # บทนำเกี่ยวกับ Neural Networks: Multi-Layered Perceptron
 
 ในส่วนก่อนหน้านี้ คุณได้เรียนรู้เกี่ยวกับโมเดลเครือข่ายประสาทที่ง่ายที่สุด - one-layered perceptron ซึ่งเป็นโมเดลการจำแนกประเภทสองคลาสแบบเชิงเส้น
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 โปรดทราบว่าส่วนที่อยู่ทางซ้ายสุดของนิพจน์ทั้งหมดนั้นเหมือนกัน และดังนั้นเราสามารถคำนวณอนุพันธ์ได้อย่างมีประสิทธิภาพโดยเริ่มจากฟังก์ชัน loss และย้อนกลับ "ย้อนกลับ" ผ่านกราฟการคำนวณ ดังนั้นวิธีการฝึกอบรม multi-layered perceptron จึงเรียกว่า **backpropagation** หรือ 'backprop'
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/th/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: อ้างอิงภาพ
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-28T15:31:12+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "sv"
-}
--->
 # Etisk och Ansvarsfull AI
 
 Du har nästan avslutat den här kursen, och jag hoppas att du nu tydligt ser att AI bygger på ett antal formella matematiska metoder som gör det möjligt för oss att hitta samband i data och träna modeller för att efterlikna vissa aspekter av mänskligt beteende. Vid denna tidpunkt i historien betraktar vi AI som ett mycket kraftfullt verktyg för att extrahera mönster från data och tillämpa dessa mönster för att lösa nya problem.

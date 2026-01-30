@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-29T09:31:30+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "th"
-}
--->
 # การมีส่วนร่วม
 
 โครงการนี้ยินดีต้อนรับการมีส่วนร่วมและข้อเสนอแนะ การมีส่วนร่วมส่วนใหญ่ต้องการให้คุณยอมรับ Contributor License Agreement (CLA) เพื่อยืนยันว่าคุณมีสิทธิ์ และได้มอบสิทธิ์ให้เราใช้ผลงานของคุณ สำหรับรายละเอียดเพิ่มเติม โปรดเยี่ยมชม https://cla.microsoft.com

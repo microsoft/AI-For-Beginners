@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:32:40+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "sv"
-}
--->
 # Speljam
 
 Spel är ett område som har påverkats starkt av utvecklingen inom AI och ML. I denna uppgift ska du skriva en kort uppsats om ett spel som du gillar och som har påverkats av AI:s utveckling. Det bör vara ett tillräckligt gammalt spel för att ha påverkats av flera typer av databehandlingssystem. Ett bra exempel är schack eller Go, men titta också på videospel som Pong eller Pac-Man. Skriv en uppsats som diskuterar spelets förflutna, nutid och AI-framtid.

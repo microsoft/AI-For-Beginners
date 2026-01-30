@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T09:06:37+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "th"
-}
--->
 # การแบ่งส่วนภาพ
 
 เราได้เรียนรู้เกี่ยวกับการตรวจจับวัตถุ (Object Detection) ซึ่งช่วยให้เราสามารถระบุตำแหน่งของวัตถุในภาพโดยการทำนาย *กรอบสี่เหลี่ยม* (bounding boxes) ของวัตถุ อย่างไรก็ตาม สำหรับบางงาน เราไม่ได้ต้องการแค่กรอบสี่เหลี่ยม แต่ต้องการการระบุตำแหน่งของวัตถุที่แม่นยำยิ่งขึ้น งานนี้เรียกว่า **การแบ่งส่วนภาพ** (segmentation)
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 สำหรับ Instance segmentation แกะเหล่านี้ถือเป็นวัตถุที่แตกต่างกัน แต่สำหรับ Semantic segmentation แกะทั้งหมดจะถูกแทนด้วยคลาสเดียวกัน
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/th/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > ภาพจาก [บทความนี้](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Encoder** สกัดคุณลักษณะจากภาพต้นฉบับ
 * **Decoder** แปลงคุณลักษณะเหล่านั้นให้เป็น **ภาพหน้ากาก** (mask image) ที่มีขนาดและจำนวนช่องสัญญาณเท่ากับจำนวนคลาส
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/th/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > ภาพจาก [งานวิจัยนี้](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ เทคนิคนี้เหมาะสมอย่างยิ่งสำหรับการถ่ายภาพทางการแพทย์ประเภทนี้ แต่คุณสามารถจินตนาการถึงการใช้งานในโลกจริงอื่น ๆ ได้หรือไม่?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/th/navi.2f20b727910110ea.webp"/>
 
 > ภาพจากฐานข้อมูล PH<sup>2</sup>
 

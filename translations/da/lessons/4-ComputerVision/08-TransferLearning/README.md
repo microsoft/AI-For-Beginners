@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T09:28:36+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "da"
-}
--->
 # Forudtrænede Netværk og Transfer Learning
 
 Træning af CNN'er kan tage meget tid, og der kræves en stor mængde data til denne opgave. Meget af tiden bruges dog på at lære de bedste lavniveau-filtre, som et netværk kan bruge til at udtrække mønstre fra billeder. Et naturligt spørgsmål opstår: Kan vi bruge et neuralt netværk, der er trænet på ét datasæt, og tilpasse det til at klassificere andre billeder uden at skulle gennemgå en fuld træningsproces?

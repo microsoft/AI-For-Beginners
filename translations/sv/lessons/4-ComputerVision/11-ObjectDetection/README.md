@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T09:17:55+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "sv"
-}
--->
 # Objektigenkänning
 
 De bildklassificeringsmodeller vi har arbetat med hittills tar en bild och producerar ett kategoriskt resultat, som klassen 'nummer' i ett MNIST-problem. Men i många fall vill vi inte bara veta att en bild föreställer objekt - vi vill kunna bestämma deras exakta position. Det är precis detta som är syftet med **objektigenkänning**.

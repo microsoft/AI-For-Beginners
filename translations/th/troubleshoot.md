@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:44:29+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "th"
-}
--->
 # คู่มือแก้ปัญหา AI-For-Beginners
 
 คู่มือนี้ช่วยคุณแก้ไขปัญหาทั่วไปที่พบเมื่อใช้งานหรือมีส่วนร่วมใน [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repository แต่ละปัญหาจะมีข้อมูลพื้นฐาน อาการ สาเหตุ และวิธีแก้ไขทีละขั้นตอน

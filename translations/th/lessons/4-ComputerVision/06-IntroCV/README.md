@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T09:04:26+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "th"
-}
--->
 # บทนำสู่การมองเห็นด้วยคอมพิวเตอร์
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) เป็นสาขาหนึ่งที่มีเป้าหมายเพื่อให้คอมพิวเตอร์สามารถเข้าใจภาพดิจิทัลในระดับสูงได้ คำว่า *เข้าใจ* ในที่นี้มีความหมายกว้างมาก เช่น การค้นหาวัตถุในภาพ (**object detection**), การเข้าใจเหตุการณ์ที่เกิดขึ้น (**event detection**), การอธิบายภาพด้วยข้อความ หรือการสร้างฉากในรูปแบบ 3D นอกจากนี้ยังมีงานเฉพาะที่เกี่ยวข้องกับภาพมนุษย์ เช่น การประมาณอายุและอารมณ์, การตรวจจับและระบุตัวตนใบหน้า, และการประมาณท่าทางในรูปแบบ 3D เป็นต้น
@@ -115,7 +106,7 @@ im = cv2.cvtColor(im,cv2.COLOR_BGR2RGB)
 
 ในห้องปฏิบัติการนี้ คุณจะถ่ายวิดีโอที่มีท่าทางง่าย ๆ และเป้าหมายของคุณคือการดึงการเคลื่อนไหวขึ้น/ลง/ซ้าย/ขวาโดยใช้ optical flow
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/th/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

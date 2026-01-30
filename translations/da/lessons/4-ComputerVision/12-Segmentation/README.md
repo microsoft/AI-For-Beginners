@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T09:30:50+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "da"
-}
--->
 # Segmentering
 
 Vi har tidligere lært om Objektgenkendelse, som giver os mulighed for at lokalisere objekter i et billede ved at forudsige deres *bounding boxes*. Men til nogle opgaver har vi ikke kun brug for bounding boxes, men også mere præcis objektlokalisering. Denne opgave kaldes **segmentering**.
@@ -20,7 +11,7 @@ Segmentering kan betragtes som **pixelklassificering**, hvor vi for **hver** pix
 
 Ved instance segmentering er disse får forskellige objekter, men ved semantisk segmentering repræsenteres alle får af én klasse.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/da/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Billede fra [denne blogpost](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Der findes forskellige neurale arkitekturer til segmentering, men de har alle sa
 * **Encoder** udtrækker features fra inputbilledet.
 * **Decoder** transformerer disse features til **maske-billedet**, med samme størrelse og antal kanaler svarende til antallet af klasser.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/da/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Billede fra [denne publikation](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ I denne lektion vil vi se segmentering i praksis ved at træne et netværk til a
 
 > ✅ Denne teknik er særligt velegnet til denne type medicinsk billedbehandling, men hvilke andre anvendelser i den virkelige verden kan du forestille dig?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/da/navi.2f20b727910110ea.webp"/>
 
 > Billede fra PH<sup>2</sup> Database
 

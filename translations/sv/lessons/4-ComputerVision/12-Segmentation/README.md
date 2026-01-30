@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T09:19:02+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "sv"
-}
--->
 # Segmentering
 
 Vi har tidigare lärt oss om objektigenkänning, som gör det möjligt att lokalisera objekt i en bild genom att förutsäga deras *begränsningsramar*. Men för vissa uppgifter behöver vi inte bara begränsningsramar, utan också mer exakt objektlokalisering. Denna uppgift kallas **segmentering**.
@@ -20,7 +11,7 @@ Segmentering kan ses som **pixelklassificering**, där vi för **varje** pixel i
 
 Vid instancesegmentering är dessa får olika objekt, men vid semantisk segmentering representeras alla får av en och samma klass.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/sv/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Bild från [denna bloggpost](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Det finns olika neurala arkitekturer för segmentering, men de har alla samma st
 * **Encoder** extraherar funktioner från inmatningsbilden.
 * **Decoder** omvandlar dessa funktioner till **maskbilden**, med samma storlek och antal kanaler som motsvarar antalet klasser.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/sv/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Bild från [denna publikation](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ I denna lektion kommer vi att se segmentering i praktiken genom att träna nätv
 
 > ✅ Denna teknik är särskilt lämplig för denna typ av medicinsk bildbehandling, men vilka andra verkliga tillämpningar kan du föreställa dig?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/sv/navi.2f20b727910110ea.webp"/>
 
 > Bild från PH<sup>2</sup>-databasen
 

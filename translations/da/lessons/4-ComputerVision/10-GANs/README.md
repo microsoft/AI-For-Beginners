@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T09:31:05+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "da"
-}
--->
 # Generative Adversarial Networks
 
 I den forrige sektion lærte vi om **generative modeller**: modeller, der kan generere nye billeder, der ligner dem i træningsdatasættet. VAE var et godt eksempel på en generativ model.
@@ -17,7 +8,7 @@ Men hvis vi forsøger at generere noget virkelig meningsfuldt, som et maleri i r
 
 Hovedideen bag en GAN er at have to neurale netværk, der trænes mod hinanden:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/da/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ En generator er lidt mere kompleks. Du kan betragte den som en omvendt discrimin
 
 > ✅ Fordi konvolutionslaget implementeres som et lineært filter, der bevæger sig hen over billedet, er dekonvolution i bund og grund det samme som konvolution og kan implementeres med samme laglogik.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/da/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Billede af [Dmitry Soshnikov](http://soshnikov.com)
 

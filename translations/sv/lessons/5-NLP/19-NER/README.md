@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T09:25:02+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "sv"
-}
--->
 # Namngiven Entityigenkänning
 
 Hittills har vi mest fokuserat på en NLP-uppgift - klassificering. Men det finns också andra NLP-uppgifter som kan lösas med neurala nätverk. En av dessa uppgifter är **[Namngiven Entityigenkänning](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), som handlar om att identifiera specifika entiteter i text, såsom platser, personnamn, tidsintervall, kemiska formler och så vidare.
@@ -17,7 +8,7 @@ Hittills har vi mest fokuserat på en NLP-uppgift - klassificering. Men det finn
 
 Anta att du vill utveckla en naturlig språkchatbot, liknande Amazon Alexa eller Google Assistant. Intelligenta chatbots fungerar genom att *förstå* vad användaren vill genom att utföra textklassificering på den inmatade meningen. Resultatet av denna klassificering är den så kallade **intentionen**, som avgör vad chatboten ska göra.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/sv/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Bild av författaren
 

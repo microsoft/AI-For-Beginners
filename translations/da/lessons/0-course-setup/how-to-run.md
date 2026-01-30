@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T02:27:08+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "da"
-}
--->
 # Sådan kører du koden
 
 Dette kursusindhold indeholder mange eksekverbare eksempler og laboratorier, som du vil ønske at køre. For at kunne gøre dette, har du brug for muligheden for at eksekvere Python-kode i Jupyter Notebooks, som leveres som en del af dette kursusindhold. Du har flere muligheder for at køre koden:

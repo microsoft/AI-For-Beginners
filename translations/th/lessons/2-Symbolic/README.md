@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T02:18:27+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "th"
-}
--->
 # การแทนความรู้และระบบผู้เชี่ยวชาญ
 
-![สรุปเนื้อหา AI เชิงสัญลักษณ์](../../../../../../translated_images/th/ai-symbolic.715a30cb610411a6.webp)
+![สรุปเนื้อหา AI เชิงสัญลักษณ์](../../../../translated_images/th/ai-symbolic.715a30cb610411a6.webp)
 
 > สเก็ตช์โน้ตโดย [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ดังนั้น ปัญหาเรื่อง **การแทนความรู้** คือการหาวิธีที่มีประสิทธิภาพในการแทนความรู้ภายในคอมพิวเตอร์ในรูปแบบข้อมูล เพื่อให้ใช้งานได้โดยอัตโนมัติ ซึ่งสามารถมองเห็นในรูปสเปกตรัมดังนี้:
 
-![สเปกตรัมการแทนความรู้](../../../../../../translated_images/th/knowledge-spectrum.b60df631852c0217.webp)
+![สเปกตรัมการแทนความรู้](../../../../translated_images/th/knowledge-spectrum.b60df631852c0217.webp)
 
 > ภาพโดย [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 ความสำเร็จในช่วงแรกของ AI เชิงสัญลักษณ์คือที่เรียกว่า **ระบบผู้เชี่ยวชาญ** - ระบบคอมพิวเตอร์ที่ออกแบบมาเพื่อทำหน้าที่เหมือนผู้เชี่ยวชาญในโดเมนปัญหาที่จำกัด พวกมันสร้างจาก **ฐานความรู้** ที่ดึงมาจากผู้เชี่ยวชาญคนหนึ่งหรือหลายคน และมี **เครื่องยนต์อนุมาน (inference engine)** ที่ทำการอนุมานบนฐานความรู้นั้น
 
-![โครงสร้างของมนุษย์](../../../../../../translated_images/th/arch-human.5d4d35f1bba3ab1c.webp) | ![ระบบฐานความรู้](../../../../../../translated_images/th/arch-kbs.3ec5c150b09fa8da.webp)
+![โครงสร้างของมนุษย์](../../../../translated_images/th/arch-human.5d4d35f1bba3ab1c.webp) | ![ระบบฐานความรู้](../../../../translated_images/th/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 โครงสร้างระบบประสาทมนุษย์ที่เรียบง่าย | สถาปัตยกรรมของระบบฐานความรู้
 
@@ -106,7 +97,7 @@ Block Syntax | Indent | | |
 
 ตัวอย่างของระบบผู้เชี่ยวชาญสำหรับการระบุสัตว์ตามลักษณะทางกายภาพ:
 
-![ต้นไม้ AND-OR](../../../../../../translated_images/th/AND-OR-Tree.5592d2c70187f283.webp)
+![ต้นไม้ AND-OR](../../../../translated_images/th/AND-OR-Tree.5592d2c70187f283.webp)
 
 > ภาพโดย [Dmitry Soshnikov](http://soshnikov.com)
 

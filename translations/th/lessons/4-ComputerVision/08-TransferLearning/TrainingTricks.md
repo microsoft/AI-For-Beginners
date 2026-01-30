@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-29T08:49:27+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "th"
-}
--->
 # เทคนิคการฝึกสอน Deep Learning
 
 เมื่อเครือข่ายประสาทเทียมมีความลึกมากขึ้น การฝึกสอนเครือข่ายเหล่านี้ก็จะยิ่งท้าทายมากขึ้น หนึ่งในปัญหาหลักคือปัญหาที่เรียกว่า [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) หรือ [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) [บทความนี้](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) อธิบายปัญหาเหล่านี้ได้อย่างดี

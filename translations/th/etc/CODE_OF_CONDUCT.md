@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-29T09:31:47+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "th"
-}
--->
 # หลักจรรยาบรรณของโค้ดโอเพ่นซอร์สของ Microsoft
 
 โครงการนี้ได้ยึดถือ [หลักจรรยาบรรณของโค้ดโอเพ่นซอร์สของ Microsoft](https://opensource.microsoft.com/codeofconduct/) 

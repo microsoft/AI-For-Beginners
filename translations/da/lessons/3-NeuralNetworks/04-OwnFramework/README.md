@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T09:33:13+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "da"
-}
--->
 # Introduktion til Neurale Netværk. Multi-Layered Perceptron
 
 I den forrige sektion lærte du om den simpleste model for neurale netværk - enlaget perceptron, en lineær to-klasse klassifikationsmodel.
@@ -65,7 +56,7 @@ Gradient descent-algoritmen forbliver den samme, men det bliver mere udfordrende
 
 Bemærk, at den venstre del af alle disse udtryk er den samme, og derfor kan vi effektivt beregne afledte ved at starte fra tab-funktionen og gå "baglæns" gennem beregningsgrafen. Derfor kaldes metoden til træning af et flerlaget perceptron for **backpropagation**, eller 'backprop'.
 
-<img alt="beregningsgraf" src="images/ComputeGraphGrad.png"/>
+<img alt="beregningsgraf" src="../../../../../translated_images/da/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: billedhenvisning
 

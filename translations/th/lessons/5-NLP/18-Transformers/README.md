@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T09:12:40+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "th"
-}
--->
 # กลไก Attention และ Transformers
 
 ## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * embedding ที่สามารถฝึกได้ คล้ายกับ embedding ของ token นี่คือวิธีที่เราพิจารณาในที่นี้ เราใช้ชั้น embedding กับทั้ง tokens และตำแหน่งของพวกมัน ซึ่งส่งผลให้ได้เวกเตอร์ embedding ที่มีมิติเดียวกัน จากนั้นเราจึงนำมาบวกกัน
 * ฟังก์ชัน encoding ตำแหน่งแบบคงที่ ตามที่เสนอในงานวิจัยต้นฉบับ
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/th/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > ภาพโดยผู้เขียน
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T09:36:15+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "da"
-}
--->
 # Rekurrente Neurale Netværk
 
 ## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Lad os se, hvordan en simpel RNN-celle er organiseret. Den accepterer den tidlig
 
 En simpel RNN-celle har to vægtmatricer indeni: én transformerer et inputsymbol (lad os kalde den W), og en anden transformerer en inputtilstand (H). I dette tilfælde beregnes netværkets output som &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), hvor &sigma; er aktiveringsfunktionen, og b er en ekstra bias.
 
-<img alt="RNN Celle Anatomi" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Celle Anatomi" src="../../../../../translated_images/da/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Billede af forfatteren
 

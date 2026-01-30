@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-29T09:21:20+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "th"
-}
--->
 # งาน: Transformers
 
 ทดลองใช้งาน Transformers บน HuggingFace! ลองใช้สคริปต์ที่พวกเขาให้มาเพื่อทำงานกับโมเดลต่างๆ ที่มีอยู่บนเว็บไซต์ของพวกเขา: https://huggingface.co/docs/transformers/run_scripts ลองใช้หนึ่งในชุดข้อมูลของพวกเขา จากนั้นนำเข้าชุดข้อมูลของคุณเองจากหลักสูตรนี้หรือจาก Kaggle แล้วดูว่าคุณสามารถสร้างข้อความที่น่าสนใจได้หรือไม่ สร้างโน้ตบุ๊กที่แสดงผลการทดลองของคุณ

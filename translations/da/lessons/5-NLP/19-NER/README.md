@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T09:35:57+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "da"
-}
--->
 # Navngiven Enhedsgenkendelse
 
 Indtil nu har vi primært fokuseret på én NLP-opgave - klassifikation. Men der findes også andre NLP-opgaver, som kan løses med neurale netværk. En af disse opgaver er **[Navngiven Enhedsgenkendelse](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), som handler om at genkende specifikke enheder i tekst, såsom steder, personnavne, dato-tidsintervaller, kemiske formler og så videre.
@@ -17,7 +8,7 @@ Indtil nu har vi primært fokuseret på én NLP-opgave - klassifikation. Men der
 
 Forestil dig, at du vil udvikle en chatbot, der fungerer som Amazon Alexa eller Google Assistant. Intelligente chatbots arbejder ved at *forstå*, hvad brugeren ønsker, ved at udføre tekstklassifikation på den indtastede sætning. Resultatet af denne klassifikation kaldes **intent**, som afgør, hvad chatbotten skal gøre.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/da/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Billede af forfatteren
 

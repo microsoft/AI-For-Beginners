@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T09:34:48+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "da"
-}
--->
 # Sproglig Modellering
 
 Semantiske indlejringer, såsom Word2Vec og GloVe, er faktisk et første skridt mod **sproglig modellering** - at skabe modeller, der på en eller anden måde *forstår* (eller *repræsenterer*) sprogets natur.
