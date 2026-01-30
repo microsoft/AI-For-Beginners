@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T10:08:15+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "nl"
-}
--->
 # Objectdetectie
 
 De beeldclassificatiemodellen die we tot nu toe hebben behandeld, namen een afbeelding en produceerden een categorisch resultaat, zoals de klasse 'nummer' in een MNIST-probleem. Echter, in veel gevallen willen we niet alleen weten dat een afbeelding objecten toont - we willen ook hun exacte locatie bepalen. Dit is precies het doel van **objectdetectie**.

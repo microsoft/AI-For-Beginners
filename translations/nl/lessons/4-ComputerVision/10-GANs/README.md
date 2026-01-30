@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T10:09:35+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "nl"
-}
--->
 # Generative Adversarial Networks
 
 In de vorige sectie hebben we geleerd over **generatieve modellen**: modellen die nieuwe afbeeldingen kunnen genereren die lijken op de afbeeldingen in de trainingsdataset. VAE was een goed voorbeeld van een generatief model.
@@ -17,7 +8,7 @@ Als we echter iets echt betekenisvols willen genereren, zoals een schilderij met
 
 Het belangrijkste idee van een GAN is om twee neurale netwerken te hebben die tegen elkaar worden getraind:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/nl/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Een Generator is iets ingewikkelder. Je kunt het beschouwen als een omgekeerde d
 
 > ✅ Omdat de convolutielaag wordt geïmplementeerd als een lineair filter dat over de afbeelding beweegt, is deconvolutie in wezen vergelijkbaar met convolutie en kan het worden geïmplementeerd met dezelfde laaglogica.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/nl/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 

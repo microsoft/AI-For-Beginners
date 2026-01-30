@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T10:06:24+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "nl"
-}
--->
 # Deep Reinforcement Learning
 
 Reinforcement learning (RL) wordt gezien als een van de fundamentele machine learning paradigma's, naast supervised learning en unsupervised learning. Terwijl we bij supervised learning vertrouwen op een dataset met bekende uitkomsten, is RL gebaseerd op **leren door te doen**. Bijvoorbeeld, wanneer we voor het eerst een computerspel zien, beginnen we te spelen, zelfs zonder de regels te kennen, en al snel verbeteren we onze vaardigheden simpelweg door te spelen en ons gedrag aan te passen.
@@ -34,7 +25,7 @@ We hebben allemaal moderne balancerende apparaten gezien, zoals de *Segway* of *
 
 Een vereenvoudigde versie van balanceren staat bekend als het **CartPole**-probleem. In de CartPole-wereld hebben we een horizontale slider die naar links of rechts kan bewegen, en het doel is om een verticale paal bovenop de slider te balanceren terwijl deze beweegt.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/nl/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Om deze omgeving te creëren en te gebruiken, hebben we een paar regels Python-code nodig:
 

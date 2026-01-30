@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-28T19:41:44+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "nl"
-}
--->
 # Ethische en Verantwoorde AI
 
 Je bent bijna klaar met deze cursus, en ik hoop dat je inmiddels duidelijk ziet dat AI gebaseerd is op een aantal formele wiskundige methoden die ons in staat stellen om relaties in data te vinden en modellen te trainen om bepaalde aspecten van menselijk gedrag na te bootsen. Op dit moment in de geschiedenis beschouwen we AI als een zeer krachtig hulpmiddel om patronen uit data te halen en deze patronen toe te passen om nieuwe problemen op te lossen.

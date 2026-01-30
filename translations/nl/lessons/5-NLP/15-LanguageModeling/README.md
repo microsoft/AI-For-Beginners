@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T10:13:09+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "nl"
-}
--->
 # Taalmodellering
 
 Semantische embeddings, zoals Word2Vec en GloVe, zijn eigenlijk een eerste stap richting **taalmodellering** - het creëren van modellen die op een bepaalde manier de aard van de taal *begrijpen* (of *representeren*).

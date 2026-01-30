@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T09:57:04+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "fi"
-}
--->
 # Johdanto tietokonenäköön
 
 [Tietokonenäkö](https://wikipedia.org/wiki/Computer_vision) on tieteenala, jonka tavoitteena on mahdollistaa tietokoneiden saavuttaa korkeatasoinen ymmärrys digitaalisista kuvista. Tämä on varsin laaja määritelmä, sillä *ymmärrys* voi tarkoittaa monia eri asioita, kuten esineen löytämistä kuvasta (**esineentunnistus**), tapahtuman ymmärtämistä (**tapahtumantunnistus**), kuvan kuvailemista tekstillä tai kohtauksen rekonstruointia 3D-muodossa. On myös erityisiä tehtäviä, jotka liittyvät ihmiskuvien käsittelyyn: iän ja tunteiden arviointi, kasvojen tunnistus ja identifiointi sekä 3D-asennon arviointi, muutamia mainitakseni.
@@ -115,7 +106,7 @@ Lue lisää optisesta virtauksesta [tästä erinomaisesta oppaasta](https://lear
 
 Tässä laboratoriossa otat videon, jossa on yksinkertaisia eleitä, ja tavoitteesi on tunnistaa ylös/alas/vasen/oikea-liikkeet optisen virtauksen avulla.
 
-<img src="images/palm-movement.png" width="30%" alt="Kämmenen liike"/>
+<img src="../../../../../translated_images/fi/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Kämmenen liike"/>
 
 ---
 

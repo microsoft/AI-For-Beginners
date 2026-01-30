@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-28T19:17:02+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "nl"
-}
--->
 # NetLogo Opdracht
 
 Neem een van de modellen uit de bibliotheek van NetLogo en gebruik het om een echte situatie zo nauwkeurig mogelijk te simuleren. Een goed voorbeeld zou zijn om het Virus-model in de map Alternative Visualizations aan te passen om te laten zien hoe het kan worden gebruikt om de verspreiding van COVID-19 te modelleren. Kun je een model bouwen dat de verspreiding van een virus in het echte leven nabootst?

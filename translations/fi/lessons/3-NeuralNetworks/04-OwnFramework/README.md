@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:01:32+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "fi"
-}
--->
 # Johdanto neuroverkkoihin. Monikerroksinen perceptron
 
 Edellisessä osiossa opit yksinkertaisimmasta neuroverkkonmallista – yksikerroksisesta perceptronista, joka on lineaarinen kahden luokan luokittelumalli.
@@ -65,7 +56,7 @@ Gradienttimenetelmä pysyy samana, mutta gradienttien laskeminen on monimutkaise
 
 Huomaa, että kaikkien näiden lausekkeiden vasemmanpuoleinen osa on sama, ja näin voimme tehokkaasti laskea derivaatat aloittaen tappiofunktiosta ja kulkemalla "taaksepäin" laskentakaavion läpi. Siksi monikerroksisen perceptronin koulutusmenetelmää kutsutaan **takaisinkuljetukseksi** tai 'backpropiksi'.
 
-<img alt="laskentakaavio" src="images/ComputeGraphGrad.png"/>
+<img alt="laskentakaavio" src="../../../../../translated_images/fi/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: kuvan lähde
 

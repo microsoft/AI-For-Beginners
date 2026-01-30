@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:02:43+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "fi"
-}
--->
 # Generatiiviset verkot
 
 ## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Koulutamme tämän RNN:n tuottamaan tekstiä askel askeleelta. Jokaisessa vaihee
 
 Kun tuotamme tekstiä (inferenssin aikana), aloitamme jollain **aloitustekstillä**, joka syötetään RNN-soluihin tuottamaan sen välimuistin, ja sitten tästä tilasta alkaa generointi. Tuotamme yhden merkin kerrallaan ja syötämme tilan ja tuotetun merkin seuraavaan RNN-soluun tuottamaan seuraavan, kunnes olemme tuottaneet tarpeeksi merkkejä.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/fi/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Kuva kirjoittajalta
 

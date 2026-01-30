@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T10:07:19+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "nl"
-}
--->
 # Voorgetrainde Netwerken en Transfer Learning
 
 Het trainen van CNN's kan veel tijd kosten en vereist een grote hoeveelheid data. Veel tijd wordt besteed aan het leren van de beste laag-niveau filters die een netwerk kan gebruiken om patronen uit afbeeldingen te halen. Een logische vraag is: kunnen we een neuraal netwerk dat op één dataset is getraind gebruiken en aanpassen om andere afbeeldingen te classificeren zonder een volledig trainingsproces?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:31:51+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "fi"
-}
--->
 # Aloittelijaystävällisiä AI-esimerkkejä
 
 Tervetuloa! Tämä hakemisto sisältää yksinkertaisia, itsenäisiä esimerkkejä, jotka auttavat sinua pääsemään alkuun tekoälyn ja koneoppimisen parissa. Jokainen esimerkki on suunniteltu aloitteleville käyttäjille, ja niissä on yksityiskohtaiset kommentit sekä vaiheittaiset selitykset.

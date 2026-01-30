@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T09:39:44+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "no"
-}
--->
 # Introduksjon til datamaskinsyn
 
 [Datamaskinsyn](https://wikipedia.org/wiki/Computer_vision) er et fagområde som har som mål å gi datamaskiner en høyere forståelse av digitale bilder. Dette er en ganske bred definisjon, fordi *forståelse* kan bety mange forskjellige ting, inkludert å finne et objekt på et bilde (**objektdeteksjon**), forstå hva som skjer (**hendelsesdeteksjon**), beskrive et bilde med tekst, eller rekonstruere en scene i 3D. Det finnes også spesielle oppgaver knyttet til bilder av mennesker: alders- og følelsesestimering, ansiktsdeteksjon og identifikasjon, samt 3D-posisjonsestimering, for å nevne noen.
@@ -115,7 +106,7 @@ Les mer om optisk flyt [i denne flotte veiledningen](https://learnopencv.com/opt
 
 I denne laben skal du ta en video med enkle bevegelser, og målet ditt er å trekke ut opp/ned/venstre/høyre bevegelser ved hjelp av optisk flyt.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/no/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

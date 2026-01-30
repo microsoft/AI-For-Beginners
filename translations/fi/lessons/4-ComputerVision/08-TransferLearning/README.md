@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T09:56:44+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "fi"
-}
--->
 # Esikoulutetut verkot ja siirtäminen oppiminen
 
 CNN:ien kouluttaminen voi viedä paljon aikaa, ja siihen tarvitaan runsaasti dataa. Suuri osa ajasta kuluu kuitenkin parhaita matalan tason suodattimia oppiessa, joita verkko voi käyttää kuvioiden tunnistamiseen kuvista. Luonnollinen kysymys herää - voimmeko käyttää yhdellä datasetillä koulutettua neuroverkkoa ja mukauttaa sen luokittelemaan erilaisia kuvia ilman täydellistä koulutusprosessia?

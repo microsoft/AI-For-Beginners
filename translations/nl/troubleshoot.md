@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:46:27+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "nl"
-}
--->
 # AI-For-Beginners Probleemoplossingsgids
 
 Deze gids helpt je bij het oplossen van veelvoorkomende problemen die je kunt tegenkomen bij het gebruik of bijdragen aan de [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repository. Elk probleem bevat achtergrondinformatie, symptomen, uitleg en stapsgewijze oplossingen.

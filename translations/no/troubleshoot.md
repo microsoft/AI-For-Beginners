@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:45:41+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "no"
-}
--->
 # AI-For-Beginners Feilsøkingsguide
 
 Denne guiden hjelper deg med å løse vanlige problemer som oppstår når du bruker eller bidrar til [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)-repositoryet. Hvert problem inkluderer bakgrunn, symptomer, forklaringer og trinnvise løsninger.

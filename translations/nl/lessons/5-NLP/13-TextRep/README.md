@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:14:53+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "nl"
-}
--->
 # Tekst Representeren als Tensors
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Ons doel is om het nieuwsitem te classificeren in een van de categorieën op bas
 
 Als we Natural Language Processing (NLP)-taken willen oplossen met neurale netwerken, hebben we een manier nodig om tekst als tensors te representeren. Computers representeren tekstuele karakters al als nummers die corresponderen met lettertypen op je scherm, door middel van coderingen zoals ASCII of UTF-8.
 
-<img alt="Afbeelding die een diagram toont dat een karakter koppelt aan een ASCII- en binaire representatie" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Afbeelding die een diagram toont dat een karakter koppelt aan een ASCII- en binaire representatie" src="../../../../../translated_images/nl/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Afbeeldingsbron](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ In sommige gevallen kunnen we overwegen om tri-grammen te gebruiken -- combinati
 
 Bij het oplossen van taken zoals tekstclassificatie moeten we tekst kunnen representeren door één vector van vaste grootte, die we gebruiken als invoer voor de uiteindelijke dense classifier. Een van de eenvoudigste manieren om dit te doen is door alle individuele woordrepresentaties te combineren, bijvoorbeeld door ze op te tellen. Als we de one-hot encodings van elk woord optellen, krijgen we een vector van frequenties, die laat zien hoe vaak elk woord voorkomt in de tekst. Zo'n representatie van tekst wordt **bag of words** (BoW) genoemd.
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/nl/bow.3811869cff59368d.webp" width="90%"/>
 
 > Afbeelding door de auteur
 

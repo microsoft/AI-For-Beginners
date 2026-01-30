@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T10:07:39+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "nl"
-}
--->
 # Introductie tot Computer Vision
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) is een vakgebied dat erop gericht is computers een hoog niveau van begrip van digitale afbeeldingen te geven. Dit is een vrij brede definitie, omdat *begrip* veel verschillende dingen kan betekenen, zoals het vinden van een object op een afbeelding (**objectdetectie**), begrijpen wat er gebeurt (**eventdetectie**), een afbeelding beschrijven in tekst, of een scène in 3D reconstrueren. Er zijn ook speciale taken die betrekking hebben op menselijke afbeeldingen: leeftijd- en emotie-inschatting, gezichtsdetectie en -identificatie, en 3D-houdingsinschatting, om er een paar te noemen.
@@ -115,7 +106,7 @@ Lees meer over optische stroom [in deze geweldige tutorial](https://learnopencv.
 
 In deze lab ga je een video maken met eenvoudige gebaren, en jouw doel is om op/neer/links/rechts bewegingen te extraheren met behulp van optische stroom.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/nl/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T09:46:06+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "no"
-}
--->
 # Oppmerksomhetsmekanismer og Transformere
 
 ## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ideen med posisjonskoding er som følger:
 * Trenbar embedding, lik token-embedding. Dette er tilnærmingen vi vurderer her. Vi bruker embedding-lag på både tokenene og deres posisjoner, noe som resulterer i embedding-vektorer med samme dimensjoner, som vi deretter legger sammen.
 * Fast posisjonskodingsfunksjon, som foreslått i den originale artikkelen.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/no/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Bilde av forfatteren
 

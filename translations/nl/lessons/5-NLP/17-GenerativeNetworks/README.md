@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:12:50+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "nl"
-}
--->
 # Generatieve netwerken
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ We trainen deze RNN om tekst stap voor stap te genereren. Bij elke stap nemen we
 
 Bij het genereren van tekst (tijdens inferentie) beginnen we met een **prompt**, die door de RNN-cellen wordt doorgegeven om de tussenliggende toestand te genereren. Vanuit deze toestand begint de generatie. We genereren één karakter tegelijk en geven de toestand en het gegenereerde karakter door aan een andere RNN-cel om het volgende te genereren, totdat we genoeg karakters hebben gegenereerd.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/nl/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Afbeelding door de auteur
 

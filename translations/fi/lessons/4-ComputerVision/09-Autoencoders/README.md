@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T09:58:20+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "fi"
-}
--->
 # Autokooderit
 
 Kun koulutetaan CNN-verkkoja, yksi ongelmista on, että tarvitsemme paljon merkittyä dataa. Kuvien luokittelussa meidän täytyy jakaa kuvat eri luokkiin, mikä vaatii manuaalista työtä.
@@ -46,7 +37,7 @@ Yhteenveto:
  * Otamme näytteen `sample` jakaumasta N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Dekooderi yrittää dekoodata alkuperäisen kuvan käyttäen `sample`-vektoria syötteenä
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/fi/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Kuva [tästä blogikirjoituksesta](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) kirjoittanut Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variatiiviset autokooderit käyttävät monimutkaista häviöfunktiota, joka koo
 
 Yksi tärkeä etu VAE:ssa on, että niiden avulla voidaan luoda uusia kuvia suhteellisen helposti, koska tiedämme, mistä jakaumasta voimme ottaa näytteitä latenttivektoreille. Esimerkiksi, jos koulutamme VAE:n 2D-latenttivektorilla MNIST-datasetilla, voimme sitten muuttaa latenttivektorin komponentteja saadaksemme eri numeroita:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/fi/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Kuva [Dmitry Soshnikovilta](http://soshnikov.com)
 
 Huomaa, kuinka kuvat sulautuvat toisiinsa, kun alamme saada latenttivektoreita eri osista latenttiparametritilaa. Voimme myös visualisoida tämän tilan 2D-muodossa:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/fi/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Kuva [Dmitry Soshnikovilta](http://soshnikov.com)
 

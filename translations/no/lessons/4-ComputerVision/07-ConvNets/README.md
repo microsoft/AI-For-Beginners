@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T09:38:44+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "no"
-}
--->
 # Konvolusjonelle Nevrale Nettverk
 
 Vi har tidligere sett at nevrale nettverk er ganske gode til å håndtere bilder, og til og med en ett-lags perceptron kan gjenkjenne håndskrevne sifre fra MNIST-datasettet med rimelig nøyaktighet. MNIST-datasettet er imidlertid veldig spesielt, og alle sifrene er sentrert i bildet, noe som gjør oppgaven enklere.
@@ -24,7 +15,7 @@ For å trekke ut mønstre, vil vi bruke begrepet **konvolusjonsfiltre**. Som du 
 
 For eksempel, hvis vi bruker 3x3 vertikale og horisontale kantfiltre på MNIST-sifrene, kan vi få fremhevinger (f.eks. høye verdier) der det er vertikale og horisontale kanter i vårt originale bilde. Dermed kan disse to filtrene brukes til å "se etter" kanter. På samme måte kan vi designe forskjellige filtre for å se etter andre lavnivåmønstre:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/no/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Bilde av [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

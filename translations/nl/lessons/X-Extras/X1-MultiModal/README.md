@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-28T19:22:03+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "nl"
-}
--->
 # Multi-Modale Netwerken
 
 Na het succes van transformer-modellen voor het oplossen van NLP-taken, zijn dezelfde of vergelijkbare architecturen toegepast op computervisie-taken. Er is een groeiende interesse in het bouwen van modellen die zowel visuele als natuurlijke taalvaardigheden kunnen *combineren*. Een van deze pogingen is gedaan door OpenAI en heet CLIP en DALL.E.

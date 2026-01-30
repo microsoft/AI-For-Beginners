@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-28T19:28:18+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "nl"
-}
--->
 # Deep Learning Training Tricks
 
 Naarmate neurale netwerken dieper worden, wordt het proces van hun training steeds uitdagender. Een groot probleem is het zogenaamde [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) of [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Deze post](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) geeft een goede introductie tot deze problemen.

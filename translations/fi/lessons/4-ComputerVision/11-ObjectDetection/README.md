@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T09:57:41+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "fi"
-}
--->
 # Objektien tunnistus
 
 Kuvien luokittelumallit, joita olemme tähän mennessä käsitelleet, ottavat kuvan ja tuottavat kategorisen tuloksen, kuten luokan 'numero' MNIST-ongelmassa. Monissa tapauksissa emme kuitenkaan halua vain tietää, että kuva esittää objekteja – haluamme pystyä määrittämään niiden tarkka sijainti. Juuri tähän **objektien tunnistus** keskittyy.

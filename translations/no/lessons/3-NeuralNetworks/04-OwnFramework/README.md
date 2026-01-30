@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T09:44:29+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "no"
-}
--->
 # Introduksjon til nevrale nettverk. Multi-lags perceptron
 
 I forrige seksjon lærte du om den enkleste modellen for nevrale nettverk – en én-lags perceptron, en lineær to-klasse klassifiseringsmodell.
@@ -65,7 +56,7 @@ Gradientnedstigningsalgoritmen vil forbli den samme, men det vil være mer utfor
 
 Merk at den venstre delen av alle disse uttrykkene er den samme, og dermed kan vi effektivt beregne derivertene ved å starte fra tapfunksjonen og gå "bakover" gjennom beregningsgrafen. Dermed kalles metoden for trening av en multi-lags perceptron **backpropagation**, eller 'backprop'.
 
-<img alt="beregningsgraf" src="images/ComputeGraphGrad.png"/>
+<img alt="beregningsgraf" src="../../../../../translated_images/no/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: bildehenvisning
 

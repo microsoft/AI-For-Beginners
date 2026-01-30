@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:13:18+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "nl"
-}
--->
 # Aandachtsmechanismen en Transformers
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Het idee van positionele codering is als volgt:
 * Trainbare embedding, vergelijkbaar met tokenembedding. Dit is de aanpak die we hier beschouwen. We passen embeddinglagen toe op zowel tokens als hun posities, wat resulteert in embeddingvectoren van dezelfde dimensies, die we vervolgens bij elkaar optellen.
 * Vaste positionele coderingsfunctie, zoals voorgesteld in het oorspronkelijke artikel.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/nl/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Afbeelding door de auteur
 

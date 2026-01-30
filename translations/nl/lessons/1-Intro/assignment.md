@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:42:25+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "nl"
-}
--->
 # Game Jam
 
 Games zijn een gebied dat sterk is beïnvloed door ontwikkelingen in AI en ML. In deze opdracht schrijf je een kort essay over een spel dat je leuk vindt en dat is beïnvloed door de evolutie van AI. Het moet een spel zijn dat oud genoeg is om beïnvloed te zijn door verschillende soorten computerverwerkende systemen. Een goed voorbeeld is schaken of Go, maar kijk ook eens naar videogames zoals Pong of Pac-Man. Schrijf een essay waarin je het verleden, heden en de AI-toekomst van het spel bespreekt.

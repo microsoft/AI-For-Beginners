@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T09:41:06+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "no"
-}
--->
 # Segmentering
 
 Vi har tidligere lært om objektdeteksjon, som lar oss lokalisere objekter i et bilde ved å forutsi deres *bounding boxes*. Men for noen oppgaver trenger vi ikke bare bounding boxes, men også mer presis objektlokalisering. Denne oppgaven kalles **segmentering**.
@@ -20,7 +11,7 @@ Segmentering kan sees på som **pikselklassifisering**, der vi for **hver** piks
 
 For instanssegmentering er disse sauene forskjellige objekter, men for semantisk segmentering representeres alle sauene av én klasse.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/no/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Bilde fra [denne bloggposten](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Det finnes ulike nevrale arkitekturer for segmentering, men de har alle samme st
 * **Encoder** trekker ut funksjoner fra inngangsbilde.
 * **Decoder** transformerer disse funksjonene til **maske-bildet**, med samme størrelse og antall kanaler som tilsvarer antall klasser.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/no/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Bilde fra [denne publikasjonen](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ I denne leksjonen skal vi se segmentering i praksis ved å trene et nettverk til
 
 > ✅ Denne teknikken er spesielt egnet for denne typen medisinsk bildediagnostikk, men hvilke andre virkelige applikasjoner kan du se for deg?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/no/navi.2f20b727910110ea.webp"/>
 
 > Bilde fra PH<sup>2</sup>-databasen
 

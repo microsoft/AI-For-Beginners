@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T09:38:25+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "no"
-}
--->
 # Dyp Forsterkningslæring
 
 Forsterkningslæring (RL) regnes som en av de grunnleggende paradigmer innen maskinlæring, ved siden av veiledet læring og uveiledet læring. Mens vi i veiledet læring baserer oss på datasett med kjente utfall, er RL basert på **læring gjennom handling**. For eksempel, når vi ser et dataspill for første gang, begynner vi å spille, selv uten å kjenne reglene, og snart blir vi bedre bare ved å spille og justere oppførselen vår.
@@ -34,7 +25,7 @@ Dere har sikkert sett moderne balanseringsenheter som *Segway* eller *Gyroscoote
 
 En forenklet versjon av balansering er kjent som **CartPole**-problemet. I CartPole-verdenen har vi en horisontal skyver som kan bevege seg til venstre eller høyre, og målet er å balansere en vertikal stang på toppen av skyveren mens den beveger seg.
 
-<img alt="en cartpole" src="images/cartpole.png" width="200"/>
+<img alt="en cartpole" src="../../../../../translated_images/no/cartpole.f52a67f27e058170.webp" width="200"/>
 
 For å opprette og bruke dette miljøet trenger vi noen få linjer med Python-kode:
 

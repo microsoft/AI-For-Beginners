@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:04:31+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "fi"
-}
--->
 # Toistuvat Neuronaaliverkot
 
 ## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Katsotaan, miten yksinkertainen RNN-solu on järjestetty. Se ottaa syötteenä e
 
 Yksinkertaisessa RNN-solussa on kaksi painomatriisia: yksi muuntaa syötesymbolin (kutsutaan sitä W:ksi) ja toinen muuntaa syötetilan (H). Tässä tapauksessa verkon ulostulo lasketaan kaavalla &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), missä &sigma; on aktivointifunktio ja b on lisäbias.
 
-<img alt="RNN-solun anatomia" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN-solun anatomia" src="../../../../../translated_images/fi/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Kuva: kirjoittaja
 

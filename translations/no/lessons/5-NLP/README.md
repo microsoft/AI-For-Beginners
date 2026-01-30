@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-28T15:51:26+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "no"
-}
--->
 # Naturlig Språkbehandling
 
 ![Oppsummering av NLP-oppgaver i en skisse](../../../../translated_images/no/ai-nlp.b22dcb8ca4707cea.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T09:56:27+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "fi"
-}
--->
 # Tunnetut CNN-arkkitehtuurit
 
 ### VGG-16
@@ -25,7 +16,7 @@ Kuten näet, VGG noudattaa perinteistä pyramidirakennetta, joka koostuu konvolu
 
 ResNet on Microsoft Researchin vuonna 2015 ehdottama malliperhe. ResNetin pääidea on käyttää **residuaalilohkoja**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/fi/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Kuva [tästä artikkelista](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Voit myös ajatella tätä verkkoa kykeneväksi mukauttamaan monimutkaisuutensa 
 
 Google Inception -arkkitehtuuri vie tämän idean askeleen pidemmälle ja rakentaa jokaisen verkon kerroksen useiden eri polkujen yhdistelmänä:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/fi/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Kuva [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) -sivustolta
 
