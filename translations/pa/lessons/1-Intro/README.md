@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T21:13:56+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "pa"
-}
--->
 # AI ਦਾ ਪਰਿਚਯ
 
 ![AI ਸਮੱਗਰੀ ਦੇ ਪਰਿਚਯ ਦਾ ਡੂਡਲ ਵਿੱਚ ਸਾਰ](../../../../translated_images/pa/ai-intro.bf28d1ac4235881c.webp)

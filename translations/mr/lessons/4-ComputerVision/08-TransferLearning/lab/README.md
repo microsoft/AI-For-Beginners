@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-26T09:53:03+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "mr"
-}
--->
 # ऑक्सफर्ड पाळीव प्राण्यांचे वर्गीकरण ट्रान्सफर लर्निंगचा वापर करून
 
 [AI फॉर बिगिनर्स करिक्युलम](https://github.com/microsoft/ai-for-beginners) मधील लॅब असाइनमेंट.

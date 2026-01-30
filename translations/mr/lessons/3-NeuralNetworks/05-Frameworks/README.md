@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T07:10:35+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "mr"
-}
--->
 # न्यूरल नेटवर्क फ्रेमवर्क्स
 
 आम्ही आधीच शिकलो आहोत की, न्यूरल नेटवर्क्स कार्यक्षमतेने प्रशिक्षण देण्यासाठी आपल्याला दोन गोष्टी कराव्या लागतात:

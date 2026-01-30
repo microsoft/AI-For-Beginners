@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T13:19:33+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "pa"
-}
--->
 # ਕੋਡ ਨੂੰ ਕਿਵੇਂ ਚਲਾਉਣਾ ਹੈ
 
 ਇਸ ਸਿੱਕਲ ਵਿੱਚ ਬਹੁਤ ਸਾਰੇ ਚਲਾਏ ਜਾ ਸਕਣ ਵਾਲੇ ਉਦਾਹਰਨਾਂ ਅਤੇ ਲੈਬ ਹਨ ਜੋ ਤੁਸੀਂ ਚਲਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਇਹ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਇਸ ਸਿੱਕਲ ਦੇ ਹਿੱਸੇ ਵਜੋਂ ਦਿੱਤੇ ਗਏ Jupyter Notebooks ਵਿੱਚ Python ਕੋਡ ਚਲਾਉਣ ਦੀ ਸਮਰੱਥਾ ਦੀ ਲੋੜ ਹੈ। ਕੋਡ ਚਲਾਉਣ ਲਈ ਤੁਹਾਡੇ ਕੋਲ ਕਈ ਵਿਕਲਪ ਹਨ:

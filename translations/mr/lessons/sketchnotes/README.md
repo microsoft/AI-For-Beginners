@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T10:40:45+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "mr"
-}
--->
 संपूर्ण अभ्यासक्रमाच्या स्केच नोट्स येथे डाउनलोड केल्या जाऊ शकतात.
 
 🎨 तयार केलेले: टोमोमी इमुरा (ट्विटर: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

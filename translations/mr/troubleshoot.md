@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:40:20+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "mr"
-}
--->
 # AI-For-Beginners समस्या निराकरण मार्गदर्शक
 
 ही मार्गदर्शिका [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) रेपॉझिटरी वापरताना किंवा योगदान देताना येणाऱ्या सामान्य समस्यांचे निराकरण करण्यात मदत करते. प्रत्येक समस्येसाठी पार्श्वभूमी, लक्षणे, स्पष्टीकरणे आणि चरण-दर-चरण उपाय दिले आहेत.

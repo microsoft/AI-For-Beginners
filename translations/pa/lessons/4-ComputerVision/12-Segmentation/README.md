@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T07:31:23+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "pa"
-}
--->
 # ਸੈਗਮੈਂਟੇਸ਼ਨ
 
 ਅਸੀਂ ਪਹਿਲਾਂ Object Detection ਬਾਰੇ ਸਿੱਖਿਆ ਸੀ, ਜੋ ਸਾਨੂੰ ਚਿੱਤਰ ਵਿੱਚ ਵਸਤੂਆਂ ਨੂੰ ਲੱਭਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ ਜਦੋਂ ਅਸੀਂ ਉਨ੍ਹਾਂ ਦੇ *bounding boxes* ਦੀ ਭਵਿੱਖਵਾਣੀ ਕਰਦੇ ਹਾਂ। ਹਾਲਾਂਕਿ, ਕੁਝ ਕੰਮਾਂ ਲਈ ਸਾਨੂੰ ਸਿਰਫ bounding boxes ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ, ਸਗੋਂ ਵਸਤੂਆਂ ਦੀ ਹੋਰ ਸਹੀ ਸਥਿਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਇਸ ਕੰਮ ਨੂੰ **ਸੈਗਮੈਂਟੇਸ਼ਨ** ਕਿਹਾ ਜਾਂਦਾ ਹੈ।
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਇੰਸਟੈਂਸ ਸੈਗਮੈਂਟੇਸ਼ਨ ਵਿੱਚ, ਇਹ ਭੇੜਾਂ ਵੱਖ-ਵੱਖ ਵਸਤੂਆਂ ਹਨ, ਪਰ ਸੈਮੈਂਟਿਕ ਸੈਗਮੈਂਟੇਸ਼ਨ ਵਿੱਚ ਸਾਰੀਆਂ ਭੇੜਾਂ ਨੂੰ ਇੱਕ ਕਲਾਸ ਵਜੋਂ ਦਰਸਾਇਆ ਜਾਂਦਾ ਹੈ।
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/pa/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > ਚਿੱਤਰ [ਇਸ ਬਲੌਗ ਪੋਸਟ](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) ਤੋਂ
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Encoder** ਇਨਪੁਟ ਚਿੱਤਰ ਤੋਂ ਫੀਚਰ ਕੱਢਦਾ ਹੈ।
 * **Decoder** ਉਹਨਾਂ ਫੀਚਰਾਂ ਨੂੰ **mask image** ਵਿੱਚ ਬਦਲਦਾ ਹੈ, ਜਿਸਦਾ ਆਕਾਰ ਅਤੇ ਚੈਨਲਾਂ ਦੀ ਗਿਣਤੀ ਕਲਾਸਾਂ ਦੀ ਗਿਣਤੀ ਦੇ ਅਨੁਸਾਰ ਹੁੰਦੀ ਹੈ।
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/pa/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > ਚਿੱਤਰ [ਇਸ ਪ੍ਰਕਾਸ਼ਨ](https://arxiv.org/pdf/2001.05566.pdf) ਤੋਂ
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ ਇਹ ਤਕਨੀਕ ਇਸ ਕਿਸਮ ਦੀ ਮੈਡੀਕਲ ਇਮੇਜਿੰਗ ਲਈ ਖਾਸ ਤੌਰ 'ਤੇ ਉਚਿਤ ਹੈ, ਪਰ ਤੁਸੀਂ ਹੋਰ ਕਿਹੜੇ ਹਕੀਕਤੀ-ਜਗਤ ਦੇ ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਕਲਪਨਾ ਕਰ ਸਕਦੇ ਹੋ?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/pa/navi.2f20b727910110ea.webp"/>
 
 > ਚਿੱਤਰ PH<sup>2</sup> ਡੇਟਾਬੇਸ ਤੋਂ
 

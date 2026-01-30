@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-26T08:32:16+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "mr"
-}
--->
 # स्किप-ग्राम मॉडेल प्रशिक्षण
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) मधील प्रयोगशाळा असाइनमेंट.

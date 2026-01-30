@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T07:23:02+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ne"
-}
--->
 # भाषा मोडेलिङ
 
 Word2Vec र GloVe जस्ता सेम्यान्टिक एम्बेडिङहरू वास्तवमा **भाषा मोडेलिङ** तर्फको पहिलो कदम हुन् - यस्तो मोडेलहरू बनाउने जसले कुनै प्रकारले भाषा को प्रकृति *बुझ्न* (वा *प्रतिनिधित्व गर्न*) सकून्।

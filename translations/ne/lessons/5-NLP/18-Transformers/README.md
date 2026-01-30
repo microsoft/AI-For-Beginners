@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T07:23:15+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ne"
-}
--->
 # ध्यान मेकानिज्म र ट्रान्सफर्मरहरू
 
 ## [पाठ अघि क्विज](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Positional encoding को विचार निम्नानुसार छ
 * टोकन embedding जस्तै trainable embedding। यो यहाँ हामीले विचार गरेको दृष्टिकोण हो। हामी टोकनहरू र तिनका स्थितिहरूमा embedding लेयरहरू लागू गर्छौं, जसले समान आयामका embedding भेक्टरहरू उत्पादन गर्छ, जुन हामीले एकसाथ थप्छौं।
 * मूल पेपरमा प्रस्ताव गरिएको fixed position encoding function।
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ne/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > लेखकद्वारा चित्र।
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:13:06+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "mr"
-}
--->
 # असाइनमेंट: नोटबुक्स
 
 या धड्याशी संबंधित नोटबुक्स (PyTorch किंवा TensorFlow आवृत्तीपैकी कोणतीही) वापरून, त्या तुमच्या स्वतःच्या डेटासेटसह पुन्हा चालवा, कदाचित Kaggle वरील एखाद्या डेटासेटचा वापर करून, योग्य श्रेय देऊन. तुमच्या स्वतःच्या निष्कर्षांना अधोरेखित करण्यासाठी नोटबुक पुन्हा लिहा. वेगळ्या प्रकारचा डेटासेट वापरून पहा आणि तुमचे निष्कर्ष दस्तऐवजीकरण करा, जसे की [हा Kaggle स्पर्धेचा डेटासेट हवामान ट्विट्सबद्दल](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

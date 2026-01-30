@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T07:02:39+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "mr"
-}
--->
 # मल्टी-एजंट सिस्टीम्स
 
 बुद्धिमत्ता मिळवण्याचा एक संभाव्य मार्ग म्हणजे **उत्पन्न** (किंवा **सहकार्यात्मक**) दृष्टिकोन, जो अशा तत्त्वावर आधारित आहे की अनेक तुलनेने साध्या एजंट्सच्या एकत्रित वर्तनामुळे संपूर्ण प्रणालीचे अधिक जटिल (किंवा बुद्धिमान) वर्तन होऊ शकते. सैद्धांतिकदृष्ट्या, हे [सामूहिक बुद्धिमत्ता](https://en.wikipedia.org/wiki/Collective_intelligence), [उत्पन्नवाद](https://en.wikipedia.org/wiki/Global_brain) आणि [विकसनशील सायबरनेटिक्स](https://en.wikipedia.org/wiki/Global_brain) च्या तत्त्वांवर आधारित आहे, जे असे म्हणतात की उच्च-स्तरीय प्रणालींना काही प्रकारचे अतिरिक्त मूल्य मिळते जेव्हा त्यांना योग्य प्रकारे कमी-स्तरीय प्रणालींमधून एकत्रित केले जाते (*मेटासिस्टम ट्रांझिशनचे तत्त्व*).
@@ -60,7 +51,7 @@ ask turtles [
 
 NetLogo ची एक उत्तम गोष्ट म्हणजे त्यात कार्यरत मॉडेल्सची लायब्ररी आहे जी तुम्ही वापरून पाहू शकता. **File &rightarrow; Models Library** वर जा, आणि तुम्हाला निवडण्यासाठी अनेक श्रेणीतील मॉडेल्स मिळतील.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/mr/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > मॉडेल्स लायब्ररीचा स्क्रीनशॉट - Dmitry Soshnikov
 

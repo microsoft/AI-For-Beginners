@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T07:12:34+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "mr"
-}
--->
 # नामित घटक ओळख (Named Entity Recognition)
 
 आत्तापर्यंत आपण मुख्यतः एका NLP कार्यावर - वर्गीकरणावर लक्ष केंद्रित केले आहे. परंतु, न्यूरल नेटवर्क्सच्या मदतीने इतरही NLP कार्ये साध्य करता येतात. त्यापैकी एक कार्य म्हणजे **[नामित घटक ओळख](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ज्यामध्ये मजकुरातील विशिष्ट घटक ओळखणे समाविष्ट आहे, जसे की ठिकाणे, व्यक्तींची नावे, दिनांक-वेळेचे कालखंड, रासायनिक सूत्रे इत्यादी.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 समजा, तुम्हाला Amazon Alexa किंवा Google Assistant सारखा नैसर्गिक भाषा चॅट बॉट विकसित करायचा आहे. हुशार चॅट बॉट्स कसे कार्य करतात? ते वापरकर्त्याला काय हवे आहे हे समजून घेण्यासाठी इनपुट वाक्यावर मजकूर वर्गीकरण करतात. या वर्गीकरणाचा परिणाम म्हणजे **उद्देश (intent)**, जो ठरवतो की चॅट बॉटने काय करावे.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/mr/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > लेखकाने तयार केलेली प्रतिमा
 

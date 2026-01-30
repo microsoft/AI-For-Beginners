@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T07:14:43+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "ne"
-}
--->
 # बहु-एजेन्ट प्रणालीहरू
 
 बुद्धिमत्ता प्राप्त गर्ने सम्भावित तरिकाहरू मध्ये एक **उत्पन्न** (वा **सिनर्जेटिक**) दृष्टिकोण हो, जुन धेरै सरल एजेन्टहरूको संयुक्त व्यवहारले प्रणालीको समग्रमा जटिल (वा बुद्धिमान) व्यवहार उत्पन्न गर्न सक्छ भन्ने तथ्यमा आधारित छ। सैद्धान्तिक रूपमा, यो [सामूहिक बुद्धिमत्ता](https://en.wikipedia.org/wiki/Collective_intelligence), [उत्पन्नवाद](https://en.wikipedia.org/wiki/Global_brain) र [विकासात्मक साइबरनेटिक्स](https://en.wikipedia.org/wiki/Global_brain) का सिद्धान्तहरूमा आधारित छ, जसले उच्च-स्तरीय प्रणालीहरूले तल्लो-स्तरीय प्रणालीहरूलाई सही तरिकाले संयोजन गर्दा थप मूल्य प्राप्त गर्छन् भन्ने कुरा बताउँछ (*मेटासिस्टम ट्रान्जिसनको सिद्धान्त* भनिन्छ)।
@@ -60,7 +51,7 @@ ask turtles [
 
 NetLogo को एक उत्कृष्ट पक्ष यो हो कि यसमा काम गर्ने मोडेलहरूको पुस्तकालय छ जुन तपाईं प्रयास गर्न सक्नुहुन्छ। **File &rightarrow; Models Library** मा जानुहोस्, र तपाईंले मोडेलहरूको धेरै श्रेणीहरू छनोट गर्न सक्नुहुन्छ।
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/ne/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Dmitry Soshnikov द्वारा मोडेल पुस्तकालयको स्क्रिनशट
 

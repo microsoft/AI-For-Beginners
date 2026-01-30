@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T07:06:59+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "mr"
-}
--->
 # विभागणी
 
 आम्ही यापूर्वी ऑब्जेक्ट डिटेक्शनबद्दल शिकले आहे, ज्यामुळे आम्हाला प्रतिमेमध्ये वस्तूंचे स्थान शोधता येते आणि त्यांच्या *bounding boxes* ची भविष्यवाणी करता येते. परंतु, काही कार्यांसाठी आपल्याला फक्त bounding boxes पुरेसे नसून वस्तूंचे अधिक अचूक स्थान आवश्यक असते. या कार्याला **विभागणी** म्हणतात.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 उदाहरणार्थ, इन्स्टन्स विभागणीसाठी या मेंढ्या वेगवेगळ्या वस्तू आहेत, परंतु सामान्य विभागणीसाठी सर्व मेंढ्या एकाच वर्गाने दर्शविल्या जातात.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/mr/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > प्रतिमा [या ब्लॉग पोस्टमधून](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **एन्कोडर** इनपुट प्रतिमेतून वैशिष्ट्ये काढतो.
 * **डीकोडर** त्या वैशिष्ट्यांना **मास्क प्रतिमेमध्ये** रूपांतरित करतो, ज्याचा आकार आणि चॅनेलची संख्या वर्गांच्या संख्येशी संबंधित असते.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/mr/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > प्रतिमा [या प्रकाशनातून](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ ही तंत्र वैद्यकीय प्रतिमांसाठी विशेषतः योग्य आहे, परंतु तुम्ही इतर कोणत्या वास्तविक-जगातील अनुप्रयोगांची कल्पना करू शकता?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/mr/navi.2f20b727910110ea.webp"/>
 
 > प्रतिमा PH<sup>2</sup> डेटाबेसमधून
 

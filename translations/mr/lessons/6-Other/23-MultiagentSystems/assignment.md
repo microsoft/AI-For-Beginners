@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-26T10:11:19+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "mr"
-}
--->
 # NetLogo असाइनमेंट
 
 NetLogo च्या लायब्ररीतील एका मॉडेलचा वापर करून वास्तविक जीवनातील परिस्थितीचे शक्य तितके जवळून अनुकरण करा. एक चांगले उदाहरण म्हणजे Alternative Visualizations फोल्डरमधील Virus मॉडेलमध्ये बदल करून ते COVID-19 च्या प्रसाराचे मॉडेल कसे बनवता येईल हे दाखवणे. तुम्ही वास्तविक जीवनातील व्हायरल प्रसाराचे अनुकरण करणारे मॉडेल तयार करू शकता का?

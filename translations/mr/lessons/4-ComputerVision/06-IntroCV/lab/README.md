@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-26T09:41:05+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "mr"
-}
--->
 # ऑप्टिकल फ्लो वापरून हालचाली शोधणे
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) मधील प्रयोग.

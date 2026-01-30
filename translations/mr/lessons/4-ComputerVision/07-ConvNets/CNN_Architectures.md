@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T07:04:18+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "mr"
-}
--->
 # प्रसिद्ध CNN आर्किटेक्चर्स
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 हा एक नेटवर्क आहे ज्याने 2014 म
 
 ResNet हे मॉडेल्सचे कुटुंब आहे, जे Microsoft Research ने 2015 मध्ये प्रस्तावित केले. ResNet चा मुख्य विचार म्हणजे **रेसिड्युअल ब्लॉक्स** वापरणे:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/mr/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > प्रतिमा [या पेपरमधून](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet हे मॉडेल्सचे कुटुंब आहे, जे M
 
 Google Inception आर्किटेक्चरने या कल्पनेला आणखी एक पाऊल पुढे नेले आहे आणि प्रत्येक नेटवर्क स्तराला अनेक वेगवेगळ्या मार्गांच्या संयोजनाने तयार केले आहे:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/mr/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > प्रतिमा [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) वरून घेतलेली आहे.
 

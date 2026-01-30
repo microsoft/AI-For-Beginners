@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-26T08:28:45+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "mr"
-}
--->
 # असाइनमेंट: नोटबुक्स
 
 या धड्याशी संबंधित नोटबुक्स (PyTorch किंवा TensorFlow आवृत्तीपैकी कोणतीही) वापरून, तुमचा स्वतःचा डेटासेट वापरून त्या पुन्हा चालवा, कदाचित Kaggle वरील एखादा डेटासेट, योग्य श्रेयासह वापरा. तुमच्या स्वतःच्या निष्कर्षांना अधोरेखित करण्यासाठी नोटबुक पुन्हा लिहा. काही नाविन्यपूर्ण डेटासेट वापरून पहा जे आश्चर्यकारक ठरू शकतात, जसे की NUFORC कडून [UFO sightings बद्दलचा हा डेटासेट](https://www.kaggle.com/datasets/NUFORC/ufo-sightings).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:13:21+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "pa"
-}
--->
 # ਅਸਾਈਨਮੈਂਟ: ਨੋਟਬੁੱਕਸ
 
 ਇਸ ਪਾਠ ਨਾਲ ਜੁੜੀਆਂ ਨੋਟਬੁੱਕਸ (ਚਾਹੇ PyTorch ਜਾਂ TensorFlow ਵਰਜਨ) ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਆਪਣੇ ਖੁਦ ਦੇ ਡਾਟਾਸੈਟ ਨਾਲ ਇਨ੍ਹਾਂ ਨੂੰ ਦੁਬਾਰਾ ਚਲਾਓ। ਸ਼ਾਇਦ ਕੋਈ ਡਾਟਾਸੈਟ Kaggle ਤੋਂ ਲਵੋ, ਜਿਸਦਾ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਹਵਾਲਾ ਦਿੱਤਾ ਗਿਆ ਹੋਵੇ। ਨੋਟਬੁੱਕ ਨੂੰ ਦੁਬਾਰਾ ਲਿਖੋ ਅਤੇ ਆਪਣੇ ਖੁਦ ਦੇ ਨਤੀਜੇ ਹਾਈਲਾਈਟ ਕਰੋ। ਕਿਸੇ ਵੱਖਰੇ ਕਿਸਮ ਦੇ ਡਾਟਾਸੈਟ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਅਤੇ ਆਪਣੇ ਨਤੀਜਿਆਂ ਨੂੰ ਦਸਤਾਵੇਜ਼ਬੱਧ ਕਰੋ, ਜਿਵੇਂ ਕਿ [ਇਹ Kaggle ਮੁਕਾਬਲੇ ਦਾ ਡਾਟਾਸੈਟ ਮੌਸਮ ਟਵੀਟਸ ਬਾਰੇ](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv)।

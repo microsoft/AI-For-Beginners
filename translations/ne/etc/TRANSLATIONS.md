@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T11:18:38+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "ne"
-}
--->
 # पाठहरू अनुवाद गरेर योगदान गर्नुहोस्
 
 हामी यस पाठ्यक्रमका पाठहरूको अनुवादलाई स्वागत गर्दछौं!

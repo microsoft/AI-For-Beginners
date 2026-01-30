@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-26T08:28:59+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "pa"
-}
--->
 # ਅਸਾਈਨਮੈਂਟ: ਨੋਟਬੁੱਕਸ
 
 ਇਸ ਪਾਠ ਨਾਲ ਸੰਬੰਧਿਤ ਨੋਟਬੁੱਕਸ (ਚਾਹੇ PyTorch ਜਾਂ TensorFlow ਵਰਜਨ) ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ, ਆਪਣੇ ਡਾਟਾਸੈੱਟ ਨਾਲ ਦੁਬਾਰਾ ਚਲਾਓ, ਸ਼ਾਇਦ Kaggle ਤੋਂ ਇੱਕ, ਜੋ ਸਹੀ ਸ਼੍ਰੇਯ ਦੇ ਨਾਲ ਵਰਤਿਆ ਗਿਆ ਹੋਵੇ। ਨੋਟਬੁੱਕ ਨੂੰ ਦੁਬਾਰਾ ਲਿਖੋ ਤਾਂ ਜੋ ਤੁਹਾਡੇ ਆਪਣੇ ਨਤੀਜੇ ਹਾਈਲਾਈਟ ਹੋਣ। ਕੁਝ ਨਵਾਟੀ ਡਾਟਾਸੈੱਟਸ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੋ ਹੈਰਾਨ ਕਰਨ ਵਾਲੇ ਸਾਬਤ ਹੋ ਸਕਦੇ ਹਨ, ਜਿਵੇਂ ਕਿ [ਇਹ UFO ਦੇ ਦ੍ਰਿਸ਼ਟਾਂਤਾਂ ਬਾਰੇ](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) NUFORC ਤੋਂ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T07:11:09+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "mr"
-}
--->
 # जनरेटिव नेटवर्क्स
 
 ## [पूर्व-व्याख्यान प्रश्नमंजूषा](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 मजकूर तयार करताना (इन्फरन्स दरम्यान), आम्ही काही **प्रॉम्प्ट** पासून सुरुवात करतो, जे RNN सेल्समधून पास होते आणि त्याचा इंटरमीडिएट स्टेट तयार होतो, आणि नंतर त्या स्टेटमधून निर्मिती सुरू होते. आम्ही एकावेळी एक कॅरेक्टर तयार करतो आणि स्टेट आणि तयार केलेला कॅरेक्टर पुढील RNN सेलला पास करतो, जोपर्यंत पुरेसे कॅरेक्टर्स तयार होत नाहीत.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/mr/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > लेखकाने तयार केलेली प्रतिमा
 

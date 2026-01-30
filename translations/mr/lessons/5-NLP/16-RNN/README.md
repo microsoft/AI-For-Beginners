@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T07:12:53+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "mr"
-}
--->
 # पुनरावृत्ती तंत्रिका नेटवर्क्स
 
 ## [पूर्व-व्याख्यान प्रश्नमंजुषा](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ X<sub>0</sub>,...,X<sub>n</sub> या इनपुट टोकन अनुक
 
 साध्या RNN सेलमध्ये दोन वजन मॅट्रिसेस असतात: एक इनपुट चिन्ह रूपांतरित करते (त्याला W म्हणूया), आणि दुसरे इनपुट स्थिती रूपांतरित करते (H). या प्रकरणात नेटवर्कचा आउटपुट &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) म्हणून गणना केला जातो, जिथे &sigma; सक्रियता फंक्शन आहे आणि b अतिरिक्त बायस आहे.
 
-<img alt="RNN सेल रचना" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN सेल रचना" src="../../../../../translated_images/mr/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > लेखकाने तयार केलेले चित्र
 

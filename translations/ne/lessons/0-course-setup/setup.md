@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
-  "translation_date": "2025-12-12T19:34:23+00:00",
-  "source_file": "lessons/0-course-setup/setup.md",
-  "language_code": "ne"
-}
--->
 # यो पाठ्यक्रमसँग सुरु गर्दै
 
 ## के तपाईं विद्यार्थी हुनुहुन्छ?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T07:15:50+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "ne"
-}
--->
 # प्रख्यात CNN आर्किटेक्चरहरू
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 एक नेटवर्क हो जसले २०१४ मा Imag
 
 ResNet माइक्रोसफ्ट रिसर्चद्वारा २०१५ मा प्रस्ताव गरिएको मोडेलहरूको परिवार हो। ResNet को मुख्य विचार **residual blocks** प्रयोग गर्नु हो:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/ne/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > [यस पेपर](https://arxiv.org/pdf/1512.03385.pdf) बाट छवि
 
@@ -37,7 +28,7 @@ Identity पास-थ्रु प्रयोग गर्ने कारण 
 
 Google Inception आर्किटेक्चरले यस विचारलाई अझ अगाडि बढाउँछ, र प्रत्येक नेटवर्क लेयरलाई विभिन्न पथहरूको संयोजनको रूपमा निर्माण गर्दछ:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/ne/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) बाट छवि
 

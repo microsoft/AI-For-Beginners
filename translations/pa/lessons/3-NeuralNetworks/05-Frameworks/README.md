@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T07:38:08+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "pa"
-}
--->
 # ਨਿਊਰਲ ਨੈਟਵਰਕ ਫ੍ਰੇਮਵਰਕਸ
 
 ਜਿਵੇਂ ਕਿ ਅਸੀਂ ਪਹਿਲਾਂ ਹੀ ਸਿੱਖ ਚੁੱਕੇ ਹਾਂ, ਨਿਊਰਲ ਨੈਟਵਰਕਸ ਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਟ੍ਰੇਨ ਕਰਨ ਲਈ ਸਾਨੂੰ ਦੋ ਗੱਲਾਂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ:

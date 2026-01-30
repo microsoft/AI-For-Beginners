@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T07:15:35+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "ne"
-}
--->
 # Convolutional Neural Networks
 
 हामीले पहिले देखिसकेका छौं कि न्युरल नेटवर्कहरू छविहरूसँग काम गर्न निकै राम्रो छन्, र एक तहको परसेप्ट्रोनले पनि MNIST डेटासेटबाट हस्तलेखन गरिएको अंकहरू उचित शुद्धतासँग चिन्हित गर्न सक्षम छ। तर, MNIST डेटासेट विशेष छ, र सबै अंकहरू छविको बीचमा केन्द्रित छन्, जसले कार्यलाई सरल बनाउँछ।
@@ -24,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 उदाहरणका लागि, यदि हामी 3x3 ठाडो किनारा र तेर्सो किनारा फिल्टरहरू MNIST अंकहरूमा लागू गर्छौं भने, हामी मूल छविमा ठाडो र तेर्सो किनाराहरू भएको ठाउँमा हाइलाइटहरू (जस्तै उच्च मानहरू) प्राप्त गर्न सक्छौं। त्यसैले ती दुई फिल्टरहरू किनाराहरू "खोज्न" प्रयोग गर्न सकिन्छ। यसैगरी, हामी अन्य तल्लो-स्तरका ढाँचाहरू खोज्न विभिन्न फिल्टरहरू डिजाइन गर्न सक्छौं:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/ne/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html) को छवि
 

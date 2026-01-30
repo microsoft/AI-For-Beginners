@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T07:41:24+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "pa"
-}
--->
 # ਰਿਕਰੰਟ ਨਿਊਰਲ ਨੈਟਵਰਕਸ
 
 ## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਇੱਕ ਸਧਾਰਨ RNN ਸੈਲ ਵਿੱਚ ਦੋ ਵਜ਼ਨ ਮੈਟ੍ਰਿਕਸ ਹੁੰਦੀਆਂ ਹਨ: ਇੱਕ ਇਨਪੁਟ ਚਿੰਨ੍ਹ ਨੂੰ ਰੂਪਾਂਤਰਿਤ ਕਰਦਾ ਹੈ (ਇਸਨੂੰ W ਕਹੀਏ), ਅਤੇ ਦੂਜਾ ਇਨਪੁਟ ਸਟੇਟ ਨੂੰ ਰੂਪਾਂਤਰਿਤ ਕਰਦਾ ਹੈ (H)। ਇਸ ਮਾਮਲੇ ਵਿੱਚ ਨੈਟਵਰਕ ਦਾ ਆਉਟਪੁਟ &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) ਵਜੋਂ ਗਣਨਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਜਿੱਥੇ &sigma; ਐਕਟੀਵੇਸ਼ਨ ਫੰਕਸ਼ਨ ਹੈ ਅਤੇ b ਵਾਧੂ ਬਾਇਸ ਹੈ।
 
-<img alt="RNN ਸੈਲ ਦੀ ਬਣਤਰ" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN ਸੈਲ ਦੀ ਬਣਤਰ" src="../../../../../translated_images/pa/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > ਲੇਖਕ ਦੁਆਰਾ ਚਿੱਤਰ
 

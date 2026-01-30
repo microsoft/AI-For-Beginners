@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T07:22:09+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "ne"
-}
--->
 # न्युरल नेटवर्क फ्रेमवर्कहरू
 
 जसरी हामीले पहिले नै सिकेका छौं, न्युरल नेटवर्कलाई प्रभावकारी रूपमा प्रशिक्षण गर्न हामीले दुई कुराहरू गर्नुपर्छ:

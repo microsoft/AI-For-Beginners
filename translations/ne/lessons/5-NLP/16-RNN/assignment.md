@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:13:13+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "ne"
-}
--->
 # असाइनमेन्ट: नोटबुकहरू
 
 यस पाठसँग सम्बन्धित नोटबुकहरू (PyTorch वा TensorFlow संस्करण), आफ्नो आफ्नै डाटासेट प्रयोग गरेर पुन: चलाउनुहोस्, सम्भवतः Kaggle बाट लिएको, जसलाई श्रेय दिइएको छ। नोटबुकलाई पुन: लेख्नुहोस् ताकि तपाईंका आफ्नै निष्कर्षहरूलाई जोड दिन सकियोस्। फरक प्रकारको डाटासेट प्रयास गर्नुहोस् र आफ्नो निष्कर्षहरूलाई दस्तावेज गर्नुहोस्, जस्तै [यो Kaggle प्रतिस्पर्धा डाटासेट मौसम सम्बन्धी ट्वीटहरूबारे](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv) प्रयोग गरेर।

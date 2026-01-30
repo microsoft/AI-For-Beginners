@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T07:24:14+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ne"
-}
--->
 # पुनरावर्ती न्यूरल नेटवर्कहरू
 
 ## [पूर्व-व्याख्यान प्रश्नोत्तरी](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 साधारण RNN सेलभित्र दुईवटा तौल म्याट्रिक्स हुन्छन्: एउटा इनपुट प्रतीकलाई रूपान्तरण गर्छ (यसलाई W भनौं), र अर्को इनपुट स्थितिलाई रूपान्तरण गर्छ (H)। यस अवस्थामा, नेटवर्कको आउटपुट &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) को रूपमा गणना गरिन्छ, जहाँ &sigma; सक्रियता प्रकार्य हो र b थप पूर्वाग्रह हो।
 
-<img alt="RNN सेलको संरचना" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN सेलको संरचना" src="../../../../../translated_images/ne/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > लेखकद्वारा तयार गरिएको छवि
 
