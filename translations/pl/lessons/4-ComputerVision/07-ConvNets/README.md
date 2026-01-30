@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T13:51:01+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "pl"
-}
--->
 # Konwolucyjne Sieci Neuronowe
 
 Wcześniej widzieliśmy, że sieci neuronowe całkiem dobrze radzą sobie z obrazami, a nawet perceptron jednopoziomowy potrafi rozpoznawać odręczne cyfry z zestawu danych MNIST z zadowalającą dokładnością. Jednak zestaw danych MNIST jest wyjątkowy, ponieważ wszystkie cyfry są wyśrodkowane na obrazie, co upraszcza zadanie.
@@ -24,7 +15,7 @@ Aby wyodrębnić wzory, użyjemy pojęcia **filtrów konwolucyjnych**. Jak wiado
 
 Na przykład, jeśli zastosujemy filtry krawędzi pionowych i poziomych o rozmiarze 3x3 do cyfr z MNIST, możemy uzyskać wyróżnienia (np. wysokie wartości) tam, gdzie w oryginalnym obrazie występują krawędzie pionowe i poziome. Te dwa filtry mogą być używane do "wyszukiwania" krawędzi. Podobnie, możemy zaprojektować różne filtry, aby wyszukiwać inne wzory niskiego poziomu:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/pl/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Obraz [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

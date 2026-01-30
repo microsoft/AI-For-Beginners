@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-24T10:51:59+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "pl"
-}
--->
 # Quizy
 
 Te quizy to quizy przed i po wykładach w ramach programu nauczania AI dostępnego na https://aka.ms/ai-beginners

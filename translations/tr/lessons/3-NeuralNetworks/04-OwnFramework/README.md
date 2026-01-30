@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T08:43:26+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "tr"
-}
--->
 # Sinir Ağlarına Giriş. Çok Katmanlı Perceptron
 
 Önceki bölümde, en basit sinir ağı modeli olan tek katmanlı perceptron, yani doğrusal iki sınıflı sınıflandırma modelini öğrendiniz.
@@ -65,7 +56,7 @@ Gradyan inişi algoritması aynı kalır, ancak gradyanları hesaplamak daha zor
 
 Dikkat edin, bu ifadelerin en sol kısmı aynıdır ve bu nedenle türevleri etkili bir şekilde kayıp fonksiyonundan başlayarak "geri" doğru hesaplayabiliriz. Bu nedenle, çok katmanlı perceptron eğitme yöntemi **geri yayılım** veya 'backprop' olarak adlandırılır.
 
-<img alt="hesaplama grafiği" src="images/ComputeGraphGrad.png"/>
+<img alt="hesaplama grafiği" src="../../../../../translated_images/tr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: görsel kaynağı
 

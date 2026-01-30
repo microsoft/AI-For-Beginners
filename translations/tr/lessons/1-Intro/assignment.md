@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:27:04+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "tr"
-}
--->
 # Oyun Maratonu
 
 Oyunlar, yapay zeka (AI) ve makine öğrenimi (ML) gelişmelerinden büyük ölçüde etkilenmiş bir alandır. Bu ödevde, yapay zekanın evrimiyle şekillenmiş bir oyun hakkında kısa bir makale yazın. Seçtiğiniz oyun, birden fazla bilgisayar işlem sistemi türünden etkilenmiş kadar eski bir oyun olmalıdır. İyi bir örnek Satranç veya Go olabilir, ancak Pong ya da Pac-Man gibi video oyunlarına da göz atabilirsiniz. Oyunun geçmişini, bugününü ve yapay zeka ile geleceğini tartışan bir makale yazın.

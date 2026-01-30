@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-29T09:31:53+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "el"
-}
--->
 # Κουίζ
 
 Αυτά τα κουίζ είναι τα κουίζ πριν και μετά τις διαλέξεις για το πρόγραμμα σπουδών AI στο https://aka.ms/ai-beginners

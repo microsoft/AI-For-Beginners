@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:43:37+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "tr"
-}
--->
 # AI-For-Beginners Sorun Giderme Kılavuzu
 
 Bu kılavuz, [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) deposunu kullanırken veya katkıda bulunurken karşılaşılan yaygın sorunları çözmenize yardımcı olur. Her sorun için arka plan bilgisi, belirtiler, açıklamalar ve adım adım çözümler sunulmaktadır.

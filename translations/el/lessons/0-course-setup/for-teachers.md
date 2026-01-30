@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-29T08:42:06+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "el"
-}
--->
 # Για Εκπαιδευτικούς
 
 Θα θέλατε να χρησιμοποιήσετε αυτό το πρόγραμμα σπουδών στην τάξη σας; Μη διστάσετε!

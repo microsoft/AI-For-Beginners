@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T08:53:31+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "el"
-}
--->
 # Γενετικοί Ανταγωνιστικοί Δίκτυα
 
 Στην προηγούμενη ενότητα, μάθαμε για τα **γενετικά μοντέλα**: μοντέλα που μπορούν να δημιουργήσουν νέες εικόνες παρόμοιες με αυτές του συνόλου εκπαίδευσης. Το VAE ήταν ένα καλό παράδειγμα γενετικού μοντέλου.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Η βασική ιδέα ενός GAN είναι να έχουμε δύο νευρωνικά δίκτυα που θα εκπαιδεύονται το ένα ενάντια στο άλλο:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/el/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Εικόνα από [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Επειδή το συνελικτικό επίπεδο υλοποιείται ως γραμμικό φίλτρο που διατρέχει την εικόνα, η αποσυνελικτική λειτουργία είναι ουσιαστικά παρόμοια με τη συνελικτική και μπορεί να υλοποιηθεί χρησιμοποιώντας την ίδια λογική επιπέδου.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/el/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Εικόνα από [Dmitry Soshnikov](http://soshnikov.com)
 

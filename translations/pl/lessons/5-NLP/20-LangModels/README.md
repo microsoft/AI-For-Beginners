@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T13:59:10+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "pl"
-}
--->
 # Wstępnie Wytrenowane Duże Modele Językowe
 
 We wszystkich naszych wcześniejszych zadaniach trenowaliśmy sieć neuronową, aby wykonywała określone zadanie, korzystając z oznaczonego zbioru danych. W przypadku dużych modeli transformatorowych, takich jak BERT, wykorzystujemy modelowanie języka w trybie samonadzorowanym, aby zbudować model językowy, który następnie jest specjalizowany do konkretnych zadań za pomocą dalszego treningu specyficznego dla danej dziedziny. Jednakże wykazano, że duże modele językowe mogą również rozwiązywać wiele zadań bez jakiegokolwiek treningu specyficznego dla dziedziny. Rodzina modeli zdolnych do tego nazywa się **GPT**: Generative Pre-Trained Transformer.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T07:22:50+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "tr"
-}
--->
 # Ödev: Transformers
 
 HuggingFace üzerinde Transformers ile deney yapın! Sitede mevcut olan çeşitli modellerle çalışmak için sağladıkları scriptlerden bazılarını deneyin: https://huggingface.co/docs/transformers/run_scripts. Onların sunduğu bir veri kümesini deneyin, ardından bu müfredattan veya Kaggle'dan kendi veri kümenizi içe aktarın ve ilginç metinler üretebilir misiniz bir bakın. Bulgularınızı içeren bir defter hazırlayın.

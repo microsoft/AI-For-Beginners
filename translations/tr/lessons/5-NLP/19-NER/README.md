@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T08:46:07+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "tr"
-}
--->
 # Adlandırılmış Varlık Tanıma
 
 Şimdiye kadar, çoğunlukla bir NLP görevi olan sınıflandırmaya odaklandık. Ancak, sinir ağlarıyla gerçekleştirilebilecek başka NLP görevleri de vardır. Bu görevlerden biri, metin içinde yer alan belirli varlıkları tanımayı içeren **[Adlandırılmış Varlık Tanıma](https://wikipedia.org/wiki/Named-entity_recognition)** (NER) işlemidir. Bu varlıklar arasında yerler, kişi isimleri, tarih-zaman aralıkları, kimyasal formüller ve daha fazlası bulunabilir.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Diyelim ki Amazon Alexa veya Google Asistan gibi bir doğal dil sohbet botu geliştirmek istiyorsunuz. Akıllı sohbet botlarının çalışma şekli, kullanıcının ne istediğini anlamak için girilen cümle üzerinde metin sınıflandırması yapmaktır. Bu sınıflandırmanın sonucu, sohbet botunun ne yapması gerektiğini belirleyen **niyet** olarak adlandırılır.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/tr/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Görsel yazar tarafından oluşturulmuştur
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-24T10:10:42+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "pl"
-}
--->
 # Etyka i Odpowiedzialna Sztuczna Inteligencja
 
 Jesteś już prawie na końcu tego kursu i mam nadzieję, że teraz wyraźnie widzisz, że sztuczna inteligencja opiera się na szeregu formalnych metod matematycznych, które pozwalają nam znajdować zależności w danych i trenować modele, aby odtwarzały pewne aspekty ludzkiego zachowania. W obecnym momencie historii uważamy AI za bardzo potężne narzędzie do wydobywania wzorców z danych i stosowania tych wzorców do rozwiązywania nowych problemów.

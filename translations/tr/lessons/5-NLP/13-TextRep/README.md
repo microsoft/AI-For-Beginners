@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T08:47:28+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "tr"
-}
--->
 # Metni Tensörler Olarak Temsil Etmek
 
 ## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Amacımız, metne dayanarak haber öğesini kategorilerden birine sınıflandır
 
 Doğal Dil İşleme (NLP) görevlerini sinir ağlarıyla çözmek istiyorsak, metni tensörler olarak temsil etmenin bir yoluna ihtiyacımız var. Bilgisayarlar zaten metinsel karakterleri, ekranınızdaki yazı tiplerine eşleyen ASCII veya UTF-8 gibi kodlamalar kullanarak sayılarla temsil eder.
 
-<img alt="Bir karakteri ASCII ve ikili temsil ile eşleyen diyagramı gösteren görüntü" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Bir karakteri ASCII ve ikili temsil ile eşleyen diyagramı gösteren görüntü" src="../../../../../translated_images/tr/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Görsel kaynağı](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Bazı durumlarda, üç kelimeden oluşan tri-gramlar kullanmayı düşünebiliri
 
 Metin sınıflandırma gibi görevleri çözerken, metni sabit boyutlu bir vektörle temsil edebilmemiz gerekir. Bu vektörü, son yoğun sınıflandırıcıya giriş olarak kullanacağız. Bunu yapmanın en basit yollarından biri, tüm bireysel kelime temsillerini birleştirmek, örneğin onları toplayarak. Her kelimenin tek sıcak kodlamalarını toplarsak, metin içinde her kelimenin kaç kez göründüğünü gösteren bir frekans vektörü elde ederiz. Bu tür bir metin temsili **kelime torbası** (BoW) olarak adlandırılır.
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/tr/bow.3811869cff59368d.webp" width="90%"/>
 
 > Görsel yazar tarafından oluşturulmuştur
 

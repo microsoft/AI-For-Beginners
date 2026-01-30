@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-29T09:21:11+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "el"
-}
--->
 # Ανάθεση: Transformers
 
 Πειραματιστείτε με τους Transformers στο HuggingFace! Δοκιμάστε κάποια από τα σενάρια που παρέχουν για να δουλέψετε με τα διάφορα μοντέλα που είναι διαθέσιμα στον ιστότοπό τους: https://huggingface.co/docs/transformers/run_scripts. Δοκιμάστε ένα από τα σύνολα δεδομένων τους και στη συνέχεια εισάγετε ένα δικό σας από αυτό το πρόγραμμα σπουδών ή από το Kaggle και δείτε αν μπορείτε να δημιουργήσετε ενδιαφέροντα κείμενα. Δημιουργήστε ένα notebook με τα ευρήματά σας.

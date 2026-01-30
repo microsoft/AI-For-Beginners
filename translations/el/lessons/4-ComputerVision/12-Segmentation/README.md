@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T08:53:08+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "el"
-}
--->
 # Τμηματοποίηση
 
 Έχουμε ήδη μάθει για την Ανίχνευση Αντικειμένων, η οποία μας επιτρέπει να εντοπίζουμε αντικείμενα στην εικόνα προβλέποντας τα *περιγράμματα* τους. Ωστόσο, για ορισμένες εργασίες δεν χρειαζόμαστε μόνο περιγράμματα, αλλά και πιο ακριβή εντοπισμό αντικειμένων. Αυτή η εργασία ονομάζεται **τμηματοποίηση**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Για την τμηματοποίηση παραδειγμάτων, αυτά τα πρόβατα είναι διαφορετικά αντικείμενα, αλλά για τη σημασιολογική τμηματοποίηση όλα τα πρόβατα αντιπροσωπεύονται από μία κατηγορία.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/el/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Εικόνα από [αυτήν την ανάρτηση στο blog](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Κωδικοποιητής** εξάγει χαρακτηριστικά από την είσοδο της εικόνας.
 * **Αποκωδικοποιητής** μετατρέπει αυτά τα χαρακτηριστικά στην **εικόνα μάσκας**, με το ίδιο μέγεθος και αριθμό καναλιών που αντιστοιχούν στον αριθμό των κατηγοριών.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/el/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Εικόνα από [αυτήν τη δημοσίευση](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Αυτή η τεχνική είναι ιδιαίτερα κατάλληλη για αυτόν τον τύπο ιατρικής απεικόνισης, αλλά ποιες άλλες εφαρμογές στον πραγματικό κόσμο μπορείτε να φανταστείτε;
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/el/navi.2f20b727910110ea.webp"/>
 
 > Εικόνα από τη Βάση Δεδομένων PH<sup>2</sup>
 

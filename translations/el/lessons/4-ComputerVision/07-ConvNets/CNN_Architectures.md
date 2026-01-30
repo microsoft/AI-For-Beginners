@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T08:50:15+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "el"
-}
--->
 # Γνωστές Αρχιτεκτονικές CNN
 
 ### VGG-16
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Το ResNet είναι μια οικογένεια μοντέλων που προτάθηκε από τη Microsoft Research το 2015. Η βασική ιδέα του ResNet είναι η χρήση **residual blocks**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/el/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Εικόνα από [αυτό το άρθρο](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Η αρχιτεκτονική Google Inception προχωρά αυτή την ιδέα ένα βήμα παραπέρα, και κατασκευάζει κάθε στρώση του δικτύου ως συνδυασμό πολλών διαφορετικών διαδρομών:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/el/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Εικόνα από [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

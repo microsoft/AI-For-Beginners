@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:30:39+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "tr"
-}
--->
 # Yeni Başlayanlar İçin AI Örnekleri
 
 Hoş geldiniz! Bu dizin, yapay zeka ve makine öğrenimine başlamak için basit, bağımsız örnekler içerir. Her örnek, ayrıntılı yorumlar ve adım adım açıklamalarla yeni başlayanlar için uygun şekilde tasarlanmıştır.

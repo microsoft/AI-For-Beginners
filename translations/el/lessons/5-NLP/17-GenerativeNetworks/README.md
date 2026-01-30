@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T08:57:58+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "el"
-}
--->
 # Γενετικά Δίκτυα
 
 ## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Κατά τη δημιουργία κειμένου (κατά την πρόβλεψη), ξεκινάμε με κάποιο **προτροπή**, η οποία περνά μέσα από τα RNN cells για να δημιουργήσει την ενδιάμεση κατάσταση, και στη συνέχεια από αυτή την κατάσταση ξεκινά η δημιουργία. Παράγουμε έναν χαρακτήρα τη φορά και περνάμε την κατάσταση και τον παραγόμενο χαρακτήρα σε άλλο RNN cell για να δημιουργήσουμε τον επόμενο, μέχρι να δημιουργήσουμε αρκετούς χαρακτήρες.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/el/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Εικόνα από τον συγγραφέα
 

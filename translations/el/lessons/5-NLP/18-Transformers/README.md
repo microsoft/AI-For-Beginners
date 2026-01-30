@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T08:58:37+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "el"
-}
--->
 # Μηχανισμοί Προσοχής και Transformers
 
 ## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Εκπαιδεύσιμη ενσωμάτωση, παρόμοια με την ενσωμάτωση token. Αυτή είναι η προσέγγιση που εξετάζουμε εδώ. Εφαρμόζουμε επίπεδα ενσωμάτωσης τόσο στα tokens όσο και στις θέσεις τους, με αποτέλεσμα διανύσματα ενσωμάτωσης των ίδιων διαστάσεων, τα οποία στη συνέχεια προσθέτουμε.
 * Σταθερή συνάρτηση κωδικοποίησης θέσης, όπως προτείνεται στο αρχικό άρθρο.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/el/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Εικόνα από τον συγγραφέα
 

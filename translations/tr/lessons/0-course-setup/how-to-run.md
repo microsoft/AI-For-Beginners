@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T14:33:23+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "tr"
-}
--->
 # Kodu Çalıştırma
 
 Bu müfredat, çalıştırmak isteyebileceğiniz birçok yürütülebilir örnek ve laboratuvar içerir. Bunu yapmak için, bu müfredatın parçası olarak sağlanan Jupyter Not defterlerinde Python kodu çalıştırma yeteneğine ihtiyacınız vardır. Kodu çalıştırmak için birkaç seçeneğiniz vardır:

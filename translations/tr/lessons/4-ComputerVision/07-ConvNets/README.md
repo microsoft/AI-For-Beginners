@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T08:38:27+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "tr"
-}
--->
 # Evrişimsel Sinir Ağları
 
 Daha önce sinir ağlarının görüntülerle oldukça iyi başa çıktığını görmüştük; hatta tek katmanlı bir algılayıcı bile MNIST veri setindeki el yazısı rakamları makul bir doğrulukla tanıyabiliyor. Ancak, MNIST veri seti oldukça özeldir ve tüm rakamlar görüntünün ortasına hizalanmıştır, bu da görevi daha basit hale getirir.
@@ -24,7 +15,7 @@ Desenleri çıkarmak için **evrişimsel filtreler** kavramını kullanacağız.
 
 Örneğin, MNIST rakamlarına 3x3 boyutunda dikey kenar ve yatay kenar filtreleri uygularsak, orijinal görüntümüzde dikey ve yatay kenarların olduğu yerlerde vurgular (örneğin, yüksek değerler) elde edebiliriz. Bu nedenle, bu iki filtre "kenarları aramak" için kullanılabilir. Benzer şekilde, diğer düşük seviyeli desenleri aramak için farklı filtreler tasarlayabiliriz:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/tr/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Görsel: [Leung-Malik Filtre Bankası](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

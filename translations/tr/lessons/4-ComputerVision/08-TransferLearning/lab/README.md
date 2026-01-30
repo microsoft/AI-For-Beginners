@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-26T07:31:24+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "tr"
-}
--->
 # Oxford Evcil Hayvanlarının Transfer Öğrenimi ile Sınıflandırılması
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) kapsamında bir laboratuvar görevi.

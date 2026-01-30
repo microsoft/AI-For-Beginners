@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-26T07:18:48+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "tr"
-}
--->
 # Etik ve Sorumlu Yapay Zeka
 
 Bu kursu neredeyse tamamladınız ve umarım şu ana kadar yapay zekanın, verilerdeki ilişkileri bulmamıza ve insan davranışının bazı yönlerini taklit eden modelleri eğitmemize olanak tanıyan bir dizi resmi matematiksel yönteme dayandığını açıkça görüyorsunuzdur. Tarihin bu noktasında, yapay zekayı verilerden desenler çıkarmak ve bu desenleri yeni problemleri çözmek için uygulamak adına çok güçlü bir araç olarak görüyoruz.

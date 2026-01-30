@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T10:38:32+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "pl"
-}
--->
 ## Środowisko
 
 Środowisko Mountain Car składa się z samochodu uwięzionego w dolinie. Twoim celem jest wyskoczyć z doliny i dotrzeć do flagi. Możesz wykonywać następujące akcje: przyspieszać w lewo, w prawo lub nic nie robić. Możesz obserwować pozycję samochodu na osi x oraz jego prędkość.

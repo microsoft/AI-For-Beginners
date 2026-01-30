@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-24T10:11:53+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "pl"
-}
--->
 # Przetwarzanie Języka Naturalnego
 
 ![Podsumowanie zadań NLP w formie rysunku](../../../../lessons/sketchnotes/ai-nlp.png)

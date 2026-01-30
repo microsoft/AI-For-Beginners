@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T08:45:19+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "tr"
-}
--->
 # Dikkat Mekanizmaları ve Transformerlar
 
 ## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Pozisyonel kodlama fikri şu şekildedir:
 * Token gömmeye benzer şekilde eğitilebilir gömme. Burada bu yaklaşımı ele alıyoruz. Hem tokenlar hem de pozisyonları üzerinde gömme katmanları uygularız, aynı boyutlarda gömme vektörleri elde ederiz ve bunları toplarız.
 * Orijinal makalede önerildiği gibi sabit pozisyon kodlama fonksiyonu.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/tr/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Görsel yazar tarafından oluşturulmuştur.
 

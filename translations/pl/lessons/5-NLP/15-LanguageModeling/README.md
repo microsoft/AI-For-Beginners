@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T13:58:26+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "pl"
-}
--->
 # Modelowanie języka
 
 Semantyczne osadzenia, takie jak Word2Vec i GloVe, są w rzeczywistości pierwszym krokiem w kierunku **modelowania języka** - tworzenia modeli, które w pewien sposób *rozumieją* (lub *reprezentują*) naturę języka.

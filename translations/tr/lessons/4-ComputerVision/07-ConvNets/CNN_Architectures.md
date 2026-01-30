@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T08:38:45+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "tr"
-}
--->
 # Bilinen CNN Mimarileri
 
 ### VGG-16
@@ -25,7 +16,7 @@ Gördüğünüz gibi, VGG geleneksel bir piramit mimarisini takip eder; bu, bir 
 
 ResNet, 2015 yılında Microsoft Research tarafından önerilen bir model ailesidir. ResNet'in ana fikri **artık blokları** kullanmaktır:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/tr/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Görsel [bu makaleden](https://arxiv.org/pdf/1512.03385.pdf) alınmıştır.
 
@@ -37,7 +28,7 @@ Bu ağı, veri setine göre karmaşıklığını ayarlayabilen bir yapı olarak 
 
 Google Inception mimarisi bu fikri bir adım ileri taşır ve her ağ katmanını birkaç farklı yolun birleşimi olarak oluşturur:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/tr/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Görsel [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) kaynağından alınmıştır.
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T13:58:05+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "pl"
-}
--->
 # Generatywne sieci
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Wytrenujemy tę RNN do generowania tekstu krok po kroku. Na każdym kroku weźmi
 
 Podczas generowania tekstu (w trakcie inferencji) zaczynamy od jakiegoś **podpowiedzi** (prompt), która jest przepuszczana przez komórki RNN, aby wygenerować jej stan pośredni, a następnie z tego stanu rozpoczyna się generowanie. Generujemy jeden znak na raz, przekazujemy stan i wygenerowany znak do kolejnej komórki RNN, aby wygenerować następny znak, aż wygenerujemy wystarczającą liczbę znaków.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/pl/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Obraz autorstwa autora
 

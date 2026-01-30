@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T08:39:01+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "tr"
-}
--->
 # Önceden Eğitilmiş Ağlar ve Transfer Öğrenimi
 
 CNN'leri eğitmek oldukça zaman alabilir ve bu görev için çok fazla veri gereklidir. Ancak, bu sürenin büyük bir kısmı, bir ağın görüntülerden desenler çıkarmak için kullanabileceği en iyi düşük seviyeli filtreleri öğrenmekle geçer. Doğal olarak şu soru ortaya çıkar: Bir veri kümesinde eğitilmiş bir sinir ağını alıp, tamamen yeni bir eğitim sürecine gerek kalmadan farklı görüntüleri sınıflandırmak için uyarlayabilir miyiz?

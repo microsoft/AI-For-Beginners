@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T08:38:00+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "tr"
-}
--->
 # Derin Pekiştirmeli Öğrenme
 
 Pekiştirmeli öğrenme (RL), denetimli öğrenme ve denetimsiz öğrenme ile birlikte temel makine öğrenimi paradigmalarından biri olarak görülür. Denetimli öğrenmede bilinen sonuçlara sahip bir veri setine dayanırken, RL **yaparak öğrenme** prensibine dayanır. Örneğin, bir bilgisayar oyununu ilk kez gördüğümüzde, kuralları bilmeden oynamaya başlarız ve sadece oynayarak ve davranışlarımızı ayarlayarak becerilerimizi geliştirebiliriz.
@@ -34,7 +25,7 @@ Muhtemelen hepiniz modern dengeleme cihazlarını, örneğin *Segway* veya *Gyro
 
 Dengelemenin basitleştirilmiş bir versiyonu **CartPole** problemi olarak bilinir. CartPole dünyasında, sola veya sağa hareket edebilen yatay bir kaydırıcıya sahibiz ve hedef, kaydırıcının üzerinde dikey bir direği dengede tutmaktır.
 
-<img alt="bir cartpole" src="images/cartpole.png" width="200"/>
+<img alt="bir cartpole" src="../../../../../translated_images/tr/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Bu ortamı oluşturmak ve kullanmak için birkaç satır Python koduna ihtiyacımız var:
 

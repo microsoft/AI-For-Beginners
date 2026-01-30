@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T13:53:49+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "pl"
-}
--->
 # Generative Adversarial Networks
 
 W poprzedniej sekcji poznaliśmy **modele generatywne**: modele, które potrafią generować nowe obrazy podobne do tych z zestawu treningowego. VAE był dobrym przykładem modelu generatywnego.
@@ -17,7 +8,7 @@ Jednakże, jeśli spróbujemy wygenerować coś naprawdę znaczącego, na przyk�
 
 Główna idea GAN polega na wykorzystaniu dwóch sieci neuronowych, które będą trenowane przeciwko sobie:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/pl/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator jest nieco bardziej skomplikowany. Można go traktować jako odwrócon
 
 > ✅ Ponieważ warstwa konwolucyjna jest implementowana jako filtr liniowy przesuwający się po obrazie, dekonwolucja jest zasadniczo podobna do konwolucji i może być zaimplementowana przy użyciu tej samej logiki warstwy.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/pl/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
