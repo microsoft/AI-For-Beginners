@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:54:57+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ms"
-}
--->
 # Mekanisme Perhatian dan Transformer
 
 ## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Idea pengekodan kedudukan adalah seperti berikut.
 * Pemadanan yang boleh dilatih, serupa dengan pemadanan token. Ini adalah pendekatan yang kita pertimbangkan di sini. Kita menggunakan lapisan pemadanan di atas kedua-dua token dan kedudukan mereka, menghasilkan vektor pemadanan dengan dimensi yang sama, yang kemudian kita tambahkan bersama.
 * Fungsi pengekodan kedudukan tetap, seperti yang dicadangkan dalam kertas asal.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ms/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Imej oleh penulis
 

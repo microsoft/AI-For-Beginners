@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T07:00:04+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Mekanismo ng Atensyon at Transformers
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ang ideya ng positional encoding ay ang mga sumusunod.
 * Trainable embedding, katulad ng token embedding. Ito ang pamamaraang isinasaalang-alang natin dito. Nag-a-apply tayo ng embedding layers sa parehong mga token at kanilang mga posisyon, na nagreresulta sa embedding vectors na may parehong dimensyon, na pagkatapos ay pinagsasama natin.
 * Fixed position encoding function, tulad ng iminungkahi sa orihinal na papel.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/tl/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Larawan ng may-akda
 

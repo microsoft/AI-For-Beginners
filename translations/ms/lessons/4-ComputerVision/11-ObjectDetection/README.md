@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T10:49:43+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "ms"
-}
--->
 # Pengesanan Objek
 
 Model klasifikasi imej yang telah kita pelajari sebelum ini mengambil imej dan menghasilkan keputusan kategori, seperti kelas 'nombor' dalam masalah MNIST. Walau bagaimanapun, dalam banyak kes, kita bukan sahaja ingin mengetahui bahawa gambar menggambarkan objek - kita juga ingin menentukan lokasi tepatnya. Inilah tujuan utama **pengesanan objek**.

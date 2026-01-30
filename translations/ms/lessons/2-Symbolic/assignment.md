@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-29T11:53:08+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "ms"
-}
--->
 # Membina Ontologi
 
 Membina pangkalan pengetahuan adalah tentang mengkategorikan model yang mewakili fakta mengenai sesuatu topik. Pilih satu topik - seperti seseorang, tempat, atau benda - dan kemudian bina model bagi topik tersebut. Gunakan beberapa teknik dan strategi pembinaan model yang diterangkan dalam pelajaran ini. Contohnya adalah mencipta ontologi bagi ruang tamu dengan perabot, lampu, dan sebagainya. Bagaimana ruang tamu berbeza daripada dapur? Bilik mandi? Bagaimana anda tahu ia adalah ruang tamu dan bukan ruang makan? Gunakan [Protégé](https://protege.stanford.edu/) untuk membina ontologi anda.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-28T02:29:00+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "tl"
-}
--->
 # Multi-Modal Networks
 
 Matapos ang tagumpay ng mga transformer model sa paglutas ng mga gawain sa NLP, ang parehong arkitektura o mga katulad nito ay inilapat sa mga gawain sa computer vision. Lumalago ang interes sa paggawa ng mga modelong *pinagsasama* ang kakayahan sa vision at natural language. Isa sa mga ganitong pagsubok ay ginawa ng OpenAI, na tinawag na CLIP at DALL.E.

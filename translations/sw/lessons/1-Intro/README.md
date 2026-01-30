@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T21:54:15+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "sw"
-}
--->
 # Utangulizi wa AI
 
 ![Muhtasari wa maudhui ya Utangulizi wa AI katika mchoro](../../../../translated_images/sw/ai-intro.bf28d1ac4235881c.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T11:05:48+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "sw"
-}
--->
 # Uundaji wa Lugha
 
 Uwakilishi wa semantiki, kama Word2Vec na GloVe, ni hatua ya kwanza kuelekea **uundaji wa lugha** - kuunda mifano inayoweza *kuelewa* (au *kuwakilisha*) asili ya lugha.

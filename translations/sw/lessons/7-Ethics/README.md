@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T20:47:57+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "sw"
-}
--->
 # AI ya Kimaadili na ya Kuwajibika
 
 U karibu kumaliza kozi hii, na natumai kwamba kufikia sasa unaelewa wazi kuwa AI inategemea mbinu kadhaa za kihisabati rasmi ambazo hutuwezesha kupata uhusiano katika data na kufundisha mifano kuiga baadhi ya tabia za binadamu. Katika hatua hii ya historia, tunachukulia AI kama chombo chenye nguvu sana cha kutoa mifumo kutoka kwa data, na kutumia mifumo hiyo kutatua matatizo mapya.

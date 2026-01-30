@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-28T02:46:47+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "tl"
-}
--->
 # Pag-aambag
 
 Ang proyektong ito ay tumatanggap ng mga ambag at mungkahi. Karamihan sa mga ambag ay nangangailangan sa iyo na sumang-ayon sa isang Contributor License Agreement (CLA) na nagsasaad na mayroon kang karapatan, at talagang ginagawa mo, na bigyan kami ng mga karapatan upang gamitin ang iyong ambag. Para sa mga detalye, bisitahin ang https://cla.microsoft.com.

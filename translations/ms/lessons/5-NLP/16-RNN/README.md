@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:55:59+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ms"
-}
--->
 # Rangkaian Neural Berulang
 
 ## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Mari kita lihat bagaimana sel RNN ringkas diatur. Ia menerima keadaan sebelumnya
 
 Sel RNN ringkas mempunyai dua matriks berat di dalamnya: satu mengubah simbol input (kita panggil ia W), dan satu lagi mengubah keadaan input (H). Dalam kes ini, output rangkaian dikira sebagai &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), di mana &sigma; adalah fungsi pengaktifan dan b adalah bias tambahan.
 
-<img alt="Anatomi Sel RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomi Sel RNN" src="../../../../../translated_images/ms/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Gambar oleh penulis
 

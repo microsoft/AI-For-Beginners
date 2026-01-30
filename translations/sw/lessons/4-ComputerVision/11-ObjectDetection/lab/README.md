@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-25T20:54:58+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "sw"
-}
--->
 # Utambuzi wa Vichwa kwa Kutumia Hollywood Heads Dataset
 
 Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).

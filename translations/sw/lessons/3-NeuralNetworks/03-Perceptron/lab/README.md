@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
-  "translation_date": "2025-08-29T12:04:56+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
-  "language_code": "sw"
-}
--->
 # Uainishaji wa Darasa Nyingi kwa Kutumia Perceptron
 
 Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).

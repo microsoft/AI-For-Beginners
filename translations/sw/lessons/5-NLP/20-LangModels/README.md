@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T11:06:28+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "sw"
-}
--->
 # Miundo Mikubwa ya Lugha Iliyofunzwa Kabla
 
 Katika kazi zetu zote za awali, tulikuwa tukifundisha mtandao wa neva kufanya kazi fulani kwa kutumia seti ya data yenye lebo. Kwa miundo mikubwa ya transformer, kama BERT, tunatumia uundaji wa lugha kwa njia ya kujifunza binafsi ili kujenga mfano wa lugha, ambao baadaye unataalamishwa kwa kazi maalum za chini kwa mafunzo zaidi ya kikoa maalum. Hata hivyo, imeonyeshwa kuwa miundo mikubwa ya lugha inaweza pia kutatua kazi nyingi bila mafunzo yoyote maalum ya kikoa. Familia ya miundo inayoweza kufanya hivyo inaitwa **GPT**: Generative Pre-Trained Transformer.

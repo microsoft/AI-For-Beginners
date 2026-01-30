@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T10:59:06+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "sw"
-}
--->
 # Miundo Maarufu ya CNN
 
 ### VGG-16
@@ -25,7 +16,7 @@ Kama unavyoona, VGG inafuata muundo wa jadi wa piramidi, ambao ni mfululizo wa t
 
 ResNet ni familia ya miundo iliyopendekezwa na Microsoft Research mwaka 2015. Wazo kuu la ResNet ni kutumia **residual blocks**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/sw/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Picha kutoka [karatasi hii](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Unaweza pia kufikiria mtandao huu kama unaoweza kurekebisha ugumu wake kulingana
 
 Muundo wa Google Inception unachukua wazo hili hatua moja mbele, na hujenga kila tabaka la mtandao kama mchanganyiko wa njia kadhaa tofauti:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/sw/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Picha kutoka [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

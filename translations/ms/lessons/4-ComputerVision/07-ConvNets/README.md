@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:48:21+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "ms"
-}
--->
 # Rangkaian Neural Konvolusi
 
 Kita telah melihat sebelum ini bahawa rangkaian neural sangat baik dalam mengendalikan imej, malah perceptron satu lapisan mampu mengenali angka tulisan tangan daripada dataset MNIST dengan ketepatan yang munasabah. Walau bagaimanapun, dataset MNIST sangat istimewa, di mana semua angka berada di tengah imej, menjadikan tugas ini lebih mudah.
@@ -24,7 +15,7 @@ Untuk mengekstrak pola, kita akan menggunakan konsep **penapis konvolusi**. Sepe
 
 Sebagai contoh, jika kita menggunakan penapis tepi menegak dan mendatar 3x3 pada angka MNIST, kita boleh mendapatkan sorotan (contohnya, nilai tinggi) di mana terdapat tepi menegak dan mendatar dalam imej asal kita. Oleh itu, kedua-dua penapis ini boleh digunakan untuk "mencari" tepi. Begitu juga, kita boleh mereka bentuk penapis yang berbeza untuk mencari pola tahap rendah yang lain:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/ms/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Imej daripada [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

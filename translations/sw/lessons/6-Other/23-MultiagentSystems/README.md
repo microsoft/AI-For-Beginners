@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T10:57:32+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "sw"
-}
--->
 # Mfumo wa Wakala Wengi
 
 Njia mojawapo ya kufanikisha akili ni mbinu inayoitwa **emergent** (au **synergetic**), ambayo inategemea ukweli kwamba tabia ya pamoja ya mawakala wengi wa kawaida inaweza kusababisha tabia ya jumla ya mfumo kuwa ngumu zaidi (au yenye akili). Kimsingi, hii inategemea kanuni za [Akili ya Pamoja](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) na [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain), ambazo zinasema kwamba mifumo ya kiwango cha juu hupata aina fulani ya thamani ya ziada inapounganishwa vizuri kutoka kwa mifumo ya kiwango cha chini (kanuni inayoitwa *metasystem transition*).
@@ -60,7 +51,7 @@ Unaweza [kupakua](https://ccl.northwestern.edu/netlogo/download.shtml) na kusaki
 
 Jambo zuri kuhusu NetLogo ni kwamba ina maktaba ya miundo inayofanya kazi ambayo unaweza kuijaribu. Nenda kwa **File &rightarrow; Models Library**, na una kategoria nyingi za miundo za kuchagua.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/sw/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Picha ya skrini ya maktaba ya miundo na Dmitry Soshnikov
 

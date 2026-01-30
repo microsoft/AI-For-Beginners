@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T11:04:05+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "sw"
-}
--->
 # Utangulizi wa Mitandao ya Neural. Multi-Layered Perceptron
 
 Katika sehemu iliyopita, ulijifunza kuhusu mfano rahisi wa mtandao wa neural - perceptron ya tabaka moja, mfano wa uainishaji wa tabaka mbili wa mstari.
@@ -65,7 +56,7 @@ Algorithimu ya gradient descent ingesalia ile ile, lakini ingekuwa ngumu zaidi k
 
 Kumbuka kwamba sehemu ya kushoto kabisa ya maelezo haya yote ni sawa, na hivyo tunaweza kuhesabu derivatives kwa ufanisi kuanzia kazi ya hasara na kwenda "nyuma" kupitia grafu ya hesabu. Hivyo mbinu ya kufundisha perceptron ya tabaka nyingi inaitwa **backpropagation**, au 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/sw/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: rejea ya picha
 

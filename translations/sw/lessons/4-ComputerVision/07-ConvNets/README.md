@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:58:45+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao ya Neural ya Convolutional
 
 Tumeona awali kwamba mitandao ya neural ni nzuri sana katika kushughulikia picha, na hata perceptron ya tabaka moja inaweza kutambua namba zilizoandikwa kwa mkono kutoka kwenye seti ya data ya MNIST kwa usahihi wa kuridhisha. Hata hivyo, seti ya data ya MNIST ni maalum sana, na namba zote ziko katikati ya picha, jambo ambalo hufanya kazi kuwa rahisi.
@@ -24,7 +15,7 @@ Ili kutoa mifumo, tutatumia dhana ya **vichujio vya convolutional**. Kama unavyo
 
 Kwa mfano, tukitumia vichujio vya mstari wima na mstari mlalo vya 3x3 kwenye namba za MNIST, tunaweza kupata sehemu zenye mwangaza (mfano, thamani za juu) ambapo kuna mistari wima na mlalo kwenye picha yetu ya awali. Kwa hivyo vichujio hivyo viwili vinaweza kutumika "kutafuta" mistari. Vivyo hivyo, tunaweza kubuni vichujio tofauti kutafuta mifumo mingine ya kiwango cha chini:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/sw/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Picha ya [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

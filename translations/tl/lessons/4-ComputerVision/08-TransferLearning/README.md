@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T06:53:09+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "tl"
-}
--->
 # Pre-trained Networks at Transfer Learning
 
 Ang pag-train ng CNNs ay maaaring tumagal ng mahabang oras, at nangangailangan ng maraming data para sa gawain na ito. Gayunpaman, karamihan sa oras ay ginugugol sa pag-aaral ng pinakamahusay na low-level filters na magagamit ng network upang makuha ang mga pattern mula sa mga imahe. Isang natural na tanong ang lumalabas - maaari ba nating gamitin ang isang neural network na na-train na sa isang dataset at i-adapt ito upang mag-classify ng ibang mga imahe nang hindi kinakailangan ang buong proseso ng pag-train?

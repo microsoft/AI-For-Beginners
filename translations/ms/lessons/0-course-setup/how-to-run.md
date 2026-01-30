@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:12:04+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "ms"
-}
--->
 # Cara Menjalankan Kod
 
 Kurikulum ini mengandungi banyak contoh dan makmal yang boleh dilaksanakan yang anda ingin jalankan. Untuk melakukan ini, anda memerlukan keupayaan untuk melaksanakan kod Python dalam Jupyter Notebooks yang disediakan sebagai sebahagian daripada kurikulum ini. Anda mempunyai beberapa pilihan untuk menjalankan kod:

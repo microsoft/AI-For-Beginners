@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T11:00:17+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "sw"
-}
--->
 # Utambuzi wa Vitu
 
 Mifano ya uainishaji wa picha tuliyojifunza hadi sasa ilichukua picha na kutoa matokeo ya kategoria, kama vile darasa 'namba' katika tatizo la MNIST. Hata hivyo, mara nyingi hatutaki tu kujua kwamba picha inaonyesha vitu - tunataka pia kujua mahali vilipo kwa usahihi. Hii ndiyo hasa dhumuni la **utambuzi wa vitu**.

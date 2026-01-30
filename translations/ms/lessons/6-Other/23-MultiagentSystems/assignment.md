@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-29T11:45:37+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "ms"
-}
--->
 # Tugasan NetLogo
 
 Ambil salah satu model dalam perpustakaan NetLogo dan gunakannya untuk mensimulasikan situasi kehidupan sebenar sebaik mungkin. Contoh yang baik adalah mengubah suai model Virus dalam folder Alternative Visualizations untuk menunjukkan bagaimana ia boleh digunakan untuk memodelkan penyebaran COVID-19. Bolehkah anda membina model yang meniru penyebaran virus dalam kehidupan sebenar?

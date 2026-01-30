@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-29T11:47:22+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "ms"
-}
--->
 # Penglihatan Komputer
 
 ![Ringkasan kandungan Penglihatan Komputer dalam bentuk doodle](../../../../translated_images/ms/ai-computervision.6506ebebac3fbf76.webp)

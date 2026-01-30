@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T04:12:20+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "ms"
-}
--->
 # Perwakilan Pengetahuan dan Sistem Pakar
 
-![Ringkasan kandungan AI Simbolik](../../../../../../translated_images/ms/ai-symbolic.715a30cb610411a6.webp)
+![Ringkasan kandungan AI Simbolik](../../../../translated_images/ms/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote oleh [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Kebiasaannya, kita tidak mendefinisikan pengetahuan secara ketat, tetapi kita me
 
 Jadi, masalah **perwakilan pengetahuan** adalah untuk mencari cara yang berkesan untuk mewakili pengetahuan di dalam komputer dalam bentuk data, supaya ia boleh digunakan secara automatik. Ini boleh dilihat sebagai spektrum:
 
-![Spektrum perwakilan pengetahuan](../../../../../../translated_images/ms/knowledge-spectrum.b60df631852c0217.webp)
+![Spektrum perwakilan pengetahuan](../../../../translated_images/ms/knowledge-spectrum.b60df631852c0217.webp)
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Sintaks Blok | Penjorokan | | |
 
 Salah satu kejayaan awal AI simbolik ialah yang dipanggil **sistem pakar** - sistem komputer yang direka untuk bertindak sebagai pakar dalam domain masalah terhad. Ia berdasarkan pada **pangkalan pengetahuan** yang diekstrak daripada satu atau lebih pakar manusia, dan mengandungi **enjin inferens** yang melakukan penalaran ke atasnya.
 
-![Seni bina manusia](../../../../../../translated_images/ms/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistem Berasaskan Pengetahuan](../../../../../../translated_images/ms/arch-kbs.3ec5c150b09fa8da.webp)
+![Seni bina manusia](../../../../translated_images/ms/arch-human.5d4d35f1bba3ab1c.webp) | ![Sistem Berasaskan Pengetahuan](../../../../translated_images/ms/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Struktur ringkas sistem saraf manusia | Seni bina sistem berasaskan pengetahuan
 
@@ -106,7 +97,7 @@ Sistem pakar dibina seperti sistem penalaran manusia, yang mengandungi **memori 
 
 Sebagai contoh, mari kita pertimbangkan sistem pakar berikut untuk menentukan haiwan berdasarkan ciri fizikalnya:
 
-![Pokok AND-OR](../../../../../../translated_images/ms/AND-OR-Tree.5592d2c70187f283.webp)
+![Pokok AND-OR](../../../../translated_images/ms/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 

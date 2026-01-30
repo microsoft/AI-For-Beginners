@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-08-29T11:51:33+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "ms"
-}
--->
 # Segmentasi Tubuh Manusia
 
 Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).

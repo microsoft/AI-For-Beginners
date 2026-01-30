@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-29T11:50:36+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "ms"
-}
--->
 # Pengesanan Kepala menggunakan Dataset Hollywood Heads
 
 Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://github.com/microsoft/ai-for-beginners).

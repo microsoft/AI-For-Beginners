@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-28T02:45:36+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "tl"
-}
--->
 # Takdang-Aralin: Mga Notebook
 
 Gamitin ang mga notebook na kaugnay ng araling ito (maaari ang bersyon ng PyTorch o TensorFlow), at patakbuhin muli ang mga ito gamit ang sarili mong dataset, marahil mula sa Kaggle, na ginamit nang may tamang pagkilala. Isulat muli ang notebook upang maipakita ang sarili mong mga natuklasan. Subukan ang ilang kakaibang dataset na maaaring magbigay ng nakakagulat na resulta, tulad ng [dataset na ito tungkol sa mga ulat ng UFO sightings](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) mula sa NUFORC.

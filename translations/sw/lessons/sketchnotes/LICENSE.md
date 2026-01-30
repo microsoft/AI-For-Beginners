@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-  "translation_date": "2025-08-25T21:03:06+00:00",
-  "source_file": "lessons/sketchnotes/LICENSE.md",
-  "language_code": "sw"
-}
--->
 Hati ya Utoaji wa Haki ya Kushiriki na Kurekebisha 4.0 Kimataifa
 
 Creative Commons Corporation ("Creative Commons") si kampuni ya sheria na haitoi huduma za kisheria au ushauri wa kisheria. Usambazaji wa leseni za umma za Creative Commons hauundi uhusiano wa wakili-mteja au uhusiano mwingine wowote. Creative Commons hutoa leseni zake na taarifa zinazohusiana kwa msingi wa "kama ilivyo". Creative Commons haitoi dhamana yoyote kuhusu leseni zake, nyenzo zozote zilizopewa leseni chini ya masharti na masharti yake, au taarifa zinazohusiana. Creative Commons inakanusha dhima yote kwa uharibifu unaotokana na matumizi yao kwa kiwango cha juu kinachowezekana.

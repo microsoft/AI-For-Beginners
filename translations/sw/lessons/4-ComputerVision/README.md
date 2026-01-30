@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-25T20:53:04+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "sw"
-}
--->
 # Maono ya Kompyuta
 
 ![Muhtasari wa maudhui ya Maono ya Kompyuta katika mchoro](../../../../translated_images/sw/ai-computervision.6506ebebac3fbf76.webp)

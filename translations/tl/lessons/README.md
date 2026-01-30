@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
-  "translation_date": "2025-08-28T02:26:15+00:00",
-  "source_file": "lessons/README.md",
-  "language_code": "tl"
-}
--->
 # Pangkalahatang-ideya
 
 ![Pangkalahatang-ideya sa isang doodle](../../../translated_images/tl/ai-overview.0857791951d19500.webp)

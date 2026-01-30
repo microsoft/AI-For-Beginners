@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T10:49:13+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "ms"
-}
--->
 # Pengenalan kepada Penglihatan Komputer
 
 [Penglihatan Komputer](https://wikipedia.org/wiki/Computer_vision) adalah satu bidang yang bertujuan untuk membolehkan komputer memahami imej digital pada tahap tinggi. Definisi ini agak luas kerana *memahami* boleh membawa pelbagai maksud, termasuk mencari objek dalam gambar (**pengesanan objek**), memahami apa yang sedang berlaku (**pengesanan peristiwa**), menerangkan gambar dalam bentuk teks, atau membina semula pemandangan dalam 3D. Terdapat juga tugas-tugas khas berkaitan imej manusia: anggaran umur dan emosi, pengesanan dan pengenalan wajah, serta anggaran pose 3D, antara lain.
@@ -115,7 +106,7 @@ Baca lebih lanjut tentang optical flow [dalam tutorial hebat ini](https://learno
 
 Dalam makmal ini, anda akan mengambil video dengan gerakan mudah, dan matlamat anda adalah untuk mengekstrak pergerakan atas/bawah/kiri/kanan menggunakan optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Bingkai Pergerakan Tapak Tangan"/>
+<img src="../../../../../translated_images/ms/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Bingkai Pergerakan Tapak Tangan"/>
 
 ---
 

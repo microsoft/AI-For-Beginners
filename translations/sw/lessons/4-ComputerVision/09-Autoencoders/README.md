@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T11:01:02+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "sw"
-}
--->
 # Autoencoders
 
 Wakati wa kufundisha CNNs, mojawapo ya changamoto ni kwamba tunahitaji data nyingi yenye lebo. Katika hali ya uainishaji wa picha, tunahitaji kutenganisha picha katika madarasa tofauti, jambo ambalo linahitaji juhudi za mikono.
@@ -46,7 +37,7 @@ Kwa muhtasari:
  * Tunachukua vector `sample` kutoka kwenye usambazaji N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Decoder hujaribu kurejesha picha ya asili kwa kutumia `sample` kama vector ya pembejeo
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/sw/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Picha kutoka [blog post hii](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) na Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variational auto-encoders hutumia loss function ngumu inayojumuisha sehemu mbili
 
 Faida moja muhimu ya VAEs ni kwamba zinaturuhusu kuunda picha mpya kwa urahisi, kwa sababu tunajua usambazaji wa kuchukua latent vectors. Kwa mfano, tukifundisha VAE na latent vector ya 2D kwenye MNIST, tunaweza kubadilisha vipengele vya latent vector ili kupata namba tofauti:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/sw/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
 Angalia jinsi picha zinavyoungana, tunapoanza kuchukua latent vectors kutoka sehemu tofauti za latent parameter space. Tunaweza pia kuona anga hii kwa 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/sw/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 

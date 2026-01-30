@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-25T20:51:36+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "sw"
-}
--->
 # Kazi: Transformers
 
 Fanya majaribio na Transformers kwenye HuggingFace! Jaribu baadhi ya skripti wanazotoa ili kufanya kazi na mifano mbalimbali inayopatikana kwenye tovuti yao: https://huggingface.co/docs/transformers/run_scripts. Jaribu mojawapo ya seti zao za data, kisha leta moja yako kutoka kwenye mtaala huu au kutoka Kaggle na uone kama unaweza kuzalisha maandishi ya kuvutia. Tengeneza daftari la maelezo na matokeo yako.

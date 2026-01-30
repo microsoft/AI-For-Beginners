@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T10:59:22+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao Iliyojifunza Kabla na Kujifunza kwa Uhamisho
 
 Kufundisha CNNs inaweza kuchukua muda mwingi, na data nyingi inahitajika kwa kazi hiyo. Hata hivyo, muda mwingi hutumika kujifunza vichujio vya kiwango cha chini ambavyo mtandao unaweza kutumia kutoa mifumo kutoka kwa picha. Swali la asili linatokea - je, tunaweza kutumia mtandao wa neva uliyojifunza kwenye seti moja ya data na kuubadilisha ili kuainisha picha tofauti bila kuhitaji mchakato kamili wa mafunzo?

@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T04:17:22+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "tl"
-}
--->
 # Knowledge Representation and Expert Systems
 
-![Summary of Symbolic AI content](../../../../../../translated_images/tl/ai-symbolic.715a30cb610411a6.webp)
+![Summary of Symbolic AI content](../../../../translated_images/tl/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Kadalasan, hindi natin mahigpit na tinutukoy ang kaalaman, ngunit nirerespeto it
 
 Kaya, ang problema ng **knowledge representation** ay ang paghahanap ng epektibong paraan upang ipakita ang kaalaman sa loob ng computer sa anyo ng data, upang magamit ito nang awtomatiko. Makikita ito bilang isang spectrum:
 
-![Knowledge representation spectrum](../../../../../../translated_images/tl/knowledge-spectrum.b60df631852c0217.webp)
+![Knowledge representation spectrum](../../../../translated_images/tl/knowledge-spectrum.b60df631852c0217.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 Isa sa mga unang tagumpay ng symbolic AI ay ang tinatawag na **expert systems** - mga computer system na idinisenyo upang kumilos bilang eksperto sa isang limitado na domain ng problema. Nakabatay ito sa isang **knowledge base** na nakuha mula sa isa o higit pang mga human expert, at naglalaman ng isang **inference engine** na nagsasagawa ng pangangatwiran dito.
 
-![Human Architecture](../../../../../../translated_images/tl/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../../../translated_images/tl/arch-kbs.3ec5c150b09fa8da.webp)
+![Human Architecture](../../../../translated_images/tl/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../translated_images/tl/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Pinadaling istruktura ng neural system ng tao | Arkitektura ng knowledge-based system
 
@@ -106,7 +97,7 @@ Ang mga expert system ay ginawa katulad ng sistema ng pag-iisip ng tao, na nagla
 
 Bilang halimbawa, isaalang-alang natin ang sumusunod na expert system para matukoy ang isang hayop base sa mga pisikal na katangian nito:
 
-![AND-OR Tree](../../../../../../translated_images/tl/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR Tree](../../../../translated_images/tl/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T20:59:33+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao ya Multi-Modal
 
 Baada ya mafanikio ya mifano ya transformer katika kutatua kazi za NLP, usanifu sawa au unaofanana umetumika katika kazi za maono ya kompyuta. Kuna shauku inayoongezeka ya kujenga mifano ambayo inaweza *kuunganisha* uwezo wa maono na lugha ya asili. Mojawapo ya majaribio hayo yalifanywa na OpenAI, na inaitwa CLIP na DALL.E.

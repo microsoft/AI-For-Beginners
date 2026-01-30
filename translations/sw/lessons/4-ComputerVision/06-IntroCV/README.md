@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T10:59:47+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "sw"
-}
--->
 # Utangulizi wa Uelewa wa Picha na Kompyuta
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) ni taaluma inayolenga kuwezesha kompyuta kupata uelewa wa kiwango cha juu wa picha za kidijitali. Hii ni tafsiri pana, kwa sababu *uelewa* unaweza kumaanisha mambo mengi tofauti, ikiwa ni pamoja na kutambua kitu kwenye picha (**utambuzi wa vitu**), kuelewa kinachotokea (**utambuzi wa matukio**), kuelezea picha kwa maandishi, au kujenga upya mandhari kwa 3D. Pia kuna kazi maalum zinazohusiana na picha za binadamu: makadirio ya umri na hisia, utambuzi wa uso na utambulisho, na makadirio ya mkao wa 3D, miongoni mwa mengine.
@@ -115,7 +106,7 @@ Soma zaidi kuhusu optical flow [katika mafunzo haya mazuri](https://learnopencv.
 
 Katika maabara hii, utachukua video yenye ishara rahisi, na lengo lako ni kutoa harakati za juu/chini/kushoto/kulia kwa kutumia optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/sw/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

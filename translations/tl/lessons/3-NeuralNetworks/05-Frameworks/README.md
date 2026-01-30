@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T06:58:58+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "tl"
-}
--->
 # Neural Network Frameworks
 
 Tulad ng natutunan na natin, upang ma-train ang neural networks nang epektibo, kailangan nating gawin ang dalawang bagay:

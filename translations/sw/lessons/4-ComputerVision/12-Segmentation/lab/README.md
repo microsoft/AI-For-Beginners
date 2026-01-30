@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-08-25T20:53:51+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "sw"
-}
--->
 # Usegaji wa Mwili wa Binadamu
 
 Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T06:54:49+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "tl"
-}
--->
 # Autoencoders
 
 Kapag nagte-train ng CNNs, isa sa mga problema ay kailangan natin ng maraming labeled na data. Sa kaso ng image classification, kailangan nating paghiwalayin ang mga imahe sa iba't ibang klase, na isang manu-manong gawain.
@@ -46,7 +37,7 @@ Sa kabuuan:
  * Kumukuha tayo ng vector `sample` mula sa distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Sinusubukan ng decoder na i-decode ang orihinal na imahe gamit ang `sample` bilang input vector
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/tl/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Imahe mula sa [blog post na ito](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) ni Isaak Dykeman
 
@@ -57,13 +48,13 @@ Ang Variational auto-encoders ay gumagamit ng isang komplikadong loss function n
 
 Isang mahalagang bentahe ng VAEs ay pinapayagan tayo nitong madaling makabuo ng mga bagong imahe, dahil alam natin kung aling distribution ang dapat pagkunan ng latent vectors. Halimbawa, kung magte-train tayo ng VAE na may 2D latent vector sa MNIST, maaari nating baguhin ang mga component ng latent vector upang makakuha ng iba't ibang digit:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/tl/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Imahe ni [Dmitry Soshnikov](http://soshnikov.com)
 
 Pansinin kung paano nagbiblend ang mga imahe sa isa't isa, habang nagsisimula tayong kumuha ng latent vectors mula sa iba't ibang bahagi ng latent parameter space. Maaari rin nating i-visualize ang space na ito sa 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/tl/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Imahe ni [Dmitry Soshnikov](http://soshnikov.com)
 

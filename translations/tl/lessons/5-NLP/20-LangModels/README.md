@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T07:00:29+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Pre-Trained na Malalaking Language Models
 
 Sa lahat ng ating mga nakaraang gawain, nagte-train tayo ng neural network upang maisagawa ang isang partikular na gawain gamit ang labeled dataset. Sa malalaking transformer models, tulad ng BERT, ginagamit natin ang language modelling sa self-supervised na paraan upang makabuo ng isang language model, na pagkatapos ay isinasapersonal para sa partikular na downstream task gamit ang karagdagang domain-specific na training. Gayunpaman, napatunayan na ang malalaking language models ay maaari ring magsagawa ng maraming gawain nang WALANG anumang domain-specific na training. Ang pamilya ng mga modelong may kakayahang gawin ito ay tinatawag na **GPT**: Generative Pre-Trained Transformer.

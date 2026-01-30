@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:33:09+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "sw"
-}
--->
 # Mifano ya AI kwa Wanaoanza
 
 Karibu! Hii ni orodha ya mifano rahisi, inayojitegemea ili kukusaidia kuanza na AI na ujifunzaji wa mashine. Kila mfano umeundwa kuwa rafiki kwa wanaoanza, ukiwa na maelezo ya kina na maelekezo ya hatua kwa hatua.

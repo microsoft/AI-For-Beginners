@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T10:53:58+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "ms"
-}
--->
 # Rangka Kerja Rangkaian Neural
 
 Seperti yang telah kita pelajari, untuk melatih rangkaian neural dengan cekap, kita perlu melakukan dua perkara:

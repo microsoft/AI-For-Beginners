@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T06:55:26+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "tl"
-}
--->
 # Segmentation
 
 Natutuhan na natin ang tungkol sa Object Detection, na nagbibigay-daan sa atin upang matukoy ang mga bagay sa larawan sa pamamagitan ng pag-predict ng kanilang *bounding boxes*. Gayunpaman, para sa ilang mga gawain, hindi lang bounding boxes ang kailangan natin, kundi mas tiyak na lokasyon ng mga bagay. Ang gawaing ito ay tinatawag na **segmentation**.
@@ -20,7 +11,7 @@ Ang segmentation ay maaaring tingnan bilang **pixel classification**, kung saan 
 
 Halimbawa, sa instance segmentation, ang mga tupa ay magkakaibang bagay, ngunit sa semantic segmentation, ang lahat ng tupa ay kinakatawan ng isang klase.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/tl/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Larawan mula sa [blog post na ito](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ May iba't ibang neural architectures para sa segmentation, ngunit pare-pareho an
 * **Encoder** na kumukuha ng mga features mula sa input image
 * **Decoder** na nagta-transform ng mga features na iyon sa **mask image**, na may parehong laki at bilang ng channels na tumutugma sa bilang ng mga klase.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/tl/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Larawan mula sa [publikasyong ito](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Sa araling ito, makikita natin ang segmentation sa aksyon sa pamamagitan ng pag-
 
 > ✅ Ang teknik na ito ay partikular na angkop para sa ganitong uri ng medical imaging, ngunit anong iba pang mga aplikasyon sa totoong mundo ang naiisip mo?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/tl/navi.2f20b727910110ea.webp"/>
 
 > Larawan mula sa PH<sup>2</sup> Database
 

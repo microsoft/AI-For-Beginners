@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-25T20:51:28+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "sw"
-}
--->
 # Kufundisha Mfano wa Skip-Gram
 
 Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).

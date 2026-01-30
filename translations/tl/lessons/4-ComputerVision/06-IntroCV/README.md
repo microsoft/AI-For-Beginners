@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T06:53:33+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "tl"
-}
--->
 # Panimula sa Computer Vision
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) ay isang disiplina na ang layunin ay bigyan ang mga computer ng kakayahang maunawaan ang mga digital na imahe sa mataas na antas. Medyo malawak ang depinisyon na ito dahil ang *pag-unawa* ay maaaring mangahulugan ng iba't ibang bagay, tulad ng paghahanap ng isang bagay sa larawan (**object detection**), pag-unawa sa nangyayari (**event detection**), paglalarawan ng larawan gamit ang teksto, o pagbuo ng eksena sa 3D. Mayroon ding mga espesyal na gawain na may kaugnayan sa mga larawan ng tao: pagtatantiya ng edad at emosyon, pagtuklas at pagkilala sa mukha, at pagtatantiya ng 3D pose, upang pangalanan ang ilan.
@@ -115,7 +106,7 @@ Magbasa pa tungkol sa optical flow [sa mahusay na tutorial na ito](https://learn
 
 Sa lab na ito, kukuha ka ng video na may simpleng gestures, at ang layunin mo ay kunin ang mga galaw na pataas/pababa/kaliwa/kanan gamit ang optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/tl/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

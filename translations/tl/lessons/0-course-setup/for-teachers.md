@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-28T02:28:13+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "tl"
-}
--->
 # Para sa mga Guro
 
 Gusto mo bang gamitin ang kurikulum na ito sa iyong klase? Huwag mag-atubiling gamitin ito!
