@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T08:02:39+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ru"
-}
--->
 # Моделирование языка
 
 Семантические векторы, такие как Word2Vec и GloVe, на самом деле являются первым шагом к **моделированию языка** — созданию моделей, которые каким-то образом *понимают* (или *представляют*) природу языка.

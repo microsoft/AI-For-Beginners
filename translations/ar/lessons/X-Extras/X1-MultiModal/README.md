@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-26T10:17:26+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "ar"
-}
--->
 # الشبكات متعددة الوسائط
 
 بعد نجاح نماذج المحولات (Transformers) في حل مهام معالجة اللغة الطبيعية (NLP)، تم تطبيق نفس البنى أو مشابهة لها على مهام رؤية الحاسوب. هناك اهتمام متزايد ببناء نماذج تجمع بين قدرات الرؤية واللغة الطبيعية. إحدى هذه المحاولات قامت بها OpenAI، وتُعرف بـ CLIP وDALL.E.

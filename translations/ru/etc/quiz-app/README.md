@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T06:52:44+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "ru"
-}
--->
 # Викторины
 
 Эти викторины являются предварительными и итоговыми тестами для учебной программы по искусственному интеллекту, доступной по адресу https://aka.ms/ai-beginners

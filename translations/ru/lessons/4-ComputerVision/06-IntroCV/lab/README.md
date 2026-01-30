@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-26T06:42:53+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ru"
-}
--->
 # Обнаружение движений с использованием оптического потока
 
 Лабораторное задание из [учебной программы "ИИ для начинающих"](https://aka.ms/ai-beginners).

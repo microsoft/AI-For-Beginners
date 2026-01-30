@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-26T06:52:09+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "ru"
-}
--->
 # Внесение изменений
 
 Этот проект приветствует вклад и предложения. Большинство изменений требуют, чтобы вы

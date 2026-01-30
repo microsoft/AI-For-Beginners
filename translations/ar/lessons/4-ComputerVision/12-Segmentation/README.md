@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T06:33:53+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ar"
-}
--->
 # التجزئة
 
 لقد تعلمنا سابقًا عن اكتشاف الكائنات، الذي يسمح لنا بتحديد مواقع الكائنات في الصورة من خلال التنبؤ بـ *الصناديق المحيطة*. ومع ذلك، لبعض المهام، لا نحتاج فقط إلى الصناديق المحيطة، بل نحتاج أيضًا إلى تحديد مواقع الكائنات بدقة أكبر. تُعرف هذه المهمة بـ **التجزئة**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 على سبيل المثال، في تجزئة الكائنات، تُعتبر هذه الأغنام كائنات مختلفة، ولكن في التجزئة الدلالية، تُعتبر جميع الأغنام ممثلة بفئة واحدة.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ar/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > الصورة مأخوذة من [هذه المقالة](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **المشفّر** يستخرج الميزات من الصورة المدخلة.
 * **المفكّك** يحوّل تلك الميزات إلى **صورة القناع**، بنفس الحجم وعدد القنوات التي تتوافق مع عدد الفئات.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ar/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > الصورة مأخوذة من [هذا المنشور](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ هذه التقنية مناسبة بشكل خاص لهذا النوع من التصوير الطبي، ولكن ما هي التطبيقات الواقعية الأخرى التي يمكنك تخيلها؟
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ar/navi.2f20b727910110ea.webp"/>
 
 > الصورة مأخوذة من قاعدة بيانات PH<sup>2</sup>
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-24T10:19:53+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "fa"
-}
--->
 # تکلیف: ترانسفورمرها
 
 با ترانسفورمرها در HuggingFace کار کنید! برخی از اسکریپت‌هایی که آن‌ها برای کار با مدل‌های مختلف در سایتشان ارائه می‌دهند را امتحان کنید: https://huggingface.co/docs/transformers/run_scripts. یکی از دیتاست‌های آن‌ها را امتحان کنید، سپس یکی از دیتاست‌های خودتان را از این دوره آموزشی یا از Kaggle وارد کنید و ببینید آیا می‌توانید متون جالبی تولید کنید. یک نوت‌بوک با یافته‌های خود تهیه کنید.

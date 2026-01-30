@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T12:27:18+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "fa"
-}
--->
 # معماری‌های معروف شبکه‌های عصبی کانولوشنی (CNN)
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 یک شبکه است که در سال ۲۰۱۴ به دقت ۹۲.۷٪ در
 
 ResNet خانواده‌ای از مدل‌ها است که توسط Microsoft Research در سال ۲۰۱۵ پیشنهاد شد. ایده اصلی ResNet استفاده از **بلوک‌های باقیمانده (residual blocks)** است:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/fa/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > تصویر از [این مقاله](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet خانواده‌ای از مدل‌ها است که توسط Microsoft R
 
 معماری Google Inception این ایده را یک قدم جلوتر می‌برد و هر لایه شبکه را به‌عنوان ترکیبی از چندین مسیر مختلف می‌سازد:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/fa/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > تصویر از [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

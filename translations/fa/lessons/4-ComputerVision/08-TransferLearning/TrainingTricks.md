@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-24T10:33:40+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "fa"
-}
--->
 # ترفندهای آموزش یادگیری عمیق
 
 با عمیق‌تر شدن شبکه‌های عصبی، فرآیند آموزش آن‌ها چالش‌برانگیزتر می‌شود. یکی از مشکلات اصلی، مسئله‌ی [گرادیان‌های ناپدیدشونده](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) یا [گرادیان‌های انفجاری](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) است. [این مطلب](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) مقدمه‌ی خوبی برای این مشکلات ارائه می‌دهد.

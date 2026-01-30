@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T12:34:04+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "fa"
-}
--->
 # مدل‌سازی زبان
 
 بردارهای معنایی، مانند Word2Vec و GloVe، در واقع اولین گام به سوی **مدل‌سازی زبان** هستند - ایجاد مدل‌هایی که به نوعی *ماهیت* یا *نمایش* زبان را درک کنند.

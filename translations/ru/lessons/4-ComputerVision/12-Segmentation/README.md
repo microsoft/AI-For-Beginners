@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T07:58:59+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ru"
-}
--->
 # Сегментация
 
 Ранее мы изучали обнаружение объектов, которое позволяет находить объекты на изображении, предсказывая их *ограничивающие рамки*. Однако для некоторых задач нам нужны не только рамки, но и более точная локализация объектов. Эта задача называется **сегментацией**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Для сегментации экземпляров эти овцы считаются разными объектами, но для семантической сегментации все овцы представлены одним классом.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ru/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Изображение из [этой статьи](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Энкодер** извлекает признаки из входного изображения.
 * **Декодер** преобразует эти признаки в **маску изображения**, с тем же размером и количеством каналов, соответствующих количеству классов.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ru/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Изображение из [этой публикации](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Этот метод особенно подходит для такого типа медицинской визуализации, но какие ещё реальные приложения вы могли бы представить?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ru/navi.2f20b727910110ea.webp"/>
 
 > Изображение из базы данных PH<sup>2</sup>
 

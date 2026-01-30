@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-24T10:37:15+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "fa"
-}
--->
 # تکلیف NetLogo
 
 یکی از مدل‌های موجود در کتابخانه NetLogo را انتخاب کنید و از آن برای شبیه‌سازی یک موقعیت واقعی تا حد امکان دقیق استفاده کنید. یک مثال خوب می‌تواند تغییر مدل Virus در پوشه Alternative Visualizations باشد تا نشان دهد چگونه می‌توان از آن برای مدل‌سازی گسترش COVID-19 استفاده کرد. آیا می‌توانید مدلی بسازید که گسترش واقعی یک ویروس را تقلید کند؟

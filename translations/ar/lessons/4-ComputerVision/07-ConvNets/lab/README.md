@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b70fcf7fcee862990f848c679090943f",
-  "translation_date": "2025-10-03T14:52:18+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
-  "language_code": "ar"
-}
--->
 # تصنيف وجوه الحيوانات الأليفة
 
 مهمة مختبر من [منهج الذكاء الاصطناعي للمبتدئين](https://github.com/microsoft/ai-for-beginners).

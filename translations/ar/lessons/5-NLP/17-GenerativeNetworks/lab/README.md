@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
-  "translation_date": "2025-08-26T08:22:36+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
-  "language_code": "ar"
-}
--->
 # إنشاء نص على مستوى الكلمات باستخدام الشبكات العصبية المتكررة
 
 مهمة عملية من [منهج الذكاء الاصطناعي للمبتدئين](https://github.com/microsoft/ai-for-beginners).

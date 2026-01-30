@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T08:02:50+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ru"
-}
--->
 # Механизмы внимания и трансформеры
 
 ## [Предлекционный тест](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Обучаемое встраивание, аналогичное встраиванию токенов. Это подход, который мы рассматриваем здесь. Мы применяем слои встраивания как к токенам, так и к их позициям, получая векторы встраивания одинаковых размеров, которые затем складываем.
 * Фиксированная функция позиционного кодирования, предложенная в оригинальной статье.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ru/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Изображение автора
 

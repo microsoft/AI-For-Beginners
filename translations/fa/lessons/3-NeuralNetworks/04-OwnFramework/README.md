@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T12:32:19+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "fa"
-}
--->
 # مقدمه‌ای بر شبکه‌های عصبی. پرسپترون چندلایه
 
 در بخش قبلی، شما با ساده‌ترین مدل شبکه عصبی - پرسپترون تک‌لایه، که یک مدل طبقه‌بندی خطی دوکلاسه است، آشنا شدید.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 توجه داشته باشید که بخش سمت چپ همه این عبارات یکسان است و بنابراین می‌توان مشتق‌ها را به طور مؤثر از تابع خطا شروع کرده و "به عقب" از طریق گراف محاسباتی محاسبه کرد. بنابراین روش آموزش پرسپترون چندلایه **پس‌انتشار** یا 'backprop' نامیده می‌شود.
 
-<img alt="گراف محاسباتی" src="images/ComputeGraphGrad.png"/>
+<img alt="گراف محاسباتی" src="../../../../../translated_images/fa/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: ذکر منبع تصویر
 

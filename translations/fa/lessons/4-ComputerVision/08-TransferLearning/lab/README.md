@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-24T10:34:57+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "fa"
-}
--->
 # طبقه‌بندی حیوانات خانگی آکسفورد با استفاده از یادگیری انتقالی
 
 تکلیف آزمایشگاهی از [برنامه درسی هوش مصنوعی برای مبتدیان](https://github.com/microsoft/ai-for-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T06:32:00+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "ar"
-}
--->
 # أشهر معماريات الشبكات العصبية التلافيفية (CNN)
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 هي شبكة حققت دقة بنسبة 92.7% في تصنيف ImageNet t
 
 ResNet هي عائلة من النماذج التي اقترحتها Microsoft Research في عام 2015. الفكرة الرئيسية لـ ResNet هي استخدام **الكتل المتبقية**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/ar/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > الصورة من [هذه الورقة البحثية](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet هي عائلة من النماذج التي اقترحتها Microsoft R
 
 معمارية Google Inception تأخذ هذه الفكرة خطوة أبعد، وتبني كل طبقة في الشبكة كمزيج من عدة مسارات مختلفة:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/ar/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > الصورة من [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

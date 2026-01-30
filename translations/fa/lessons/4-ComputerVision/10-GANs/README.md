@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T12:29:54+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "fa"
-}
--->
 # شبکه‌های مولد تخاصمی
 
 در بخش قبلی، درباره **مدل‌های مولد** یاد گرفتیم: مدل‌هایی که می‌توانند تصاویر جدیدی مشابه تصاویر موجود در مجموعه داده آموزشی تولید کنند. VAE نمونه خوبی از یک مدل مولد بود.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ایده اصلی GAN این است که دو شبکه عصبی داشته باشیم که در برابر یکدیگر آموزش داده شوند:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/fa/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > تصویر از [دمیتری سوشنیکوف](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ از آنجا که لایه کانولوشن به عنوان یک فیلتر خطی که تصویر را پیمایش می‌کند، پیاده‌سازی می‌شود، کانولوشن معکوس اساساً مشابه کانولوشن است و می‌تواند با استفاده از همان منطق لایه پیاده‌سازی شود.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/fa/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > تصویر از [دمیتری سوشنیکوف](http://soshnikov.com)
 

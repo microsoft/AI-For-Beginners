@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T06:37:21+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ar"
-}
--->
 # نمذجة اللغة
 
 التضمينات الدلالية، مثل Word2Vec وGloVe، تُعتبر في الواقع خطوة أولى نحو **نمذجة اللغة** - إنشاء نماذج تفهم (أو تمثل) طبيعة اللغة بطريقة ما.

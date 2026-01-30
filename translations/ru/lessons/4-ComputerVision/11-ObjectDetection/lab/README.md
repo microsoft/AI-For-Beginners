@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-26T06:41:22+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "ru"
-}
--->
 # Определение голов с использованием набора данных Hollywood Heads
 
 Лабораторное задание из [курса "Искусственный интеллект для начинающих"](https://github.com/microsoft/ai-for-beginners).

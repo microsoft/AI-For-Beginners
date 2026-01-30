@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T08:03:53+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ru"
-}
--->
 # Рекуррентные нейронные сети
 
 ## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Простая ячейка RNN имеет две матрицы весов внутри: одна преобразует входной символ (назовем ее W), а другая преобразует входное состояние (H). В этом случае выход сети вычисляется как &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), где &sigma; — это функция активации, а b — дополнительное смещение.
 
-<img alt="Анатомия ячейки RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Анатомия ячейки RNN" src="../../../../../translated_images/ru/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Изображение автора
 

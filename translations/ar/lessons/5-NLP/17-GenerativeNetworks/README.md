@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T06:37:06+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ar"
-}
--->
 # الشبكات التوليدية
 
 ## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 عند توليد النصوص (أثناء الاستدلال)، نبدأ ببعض **المحفزات**، التي تمر عبر خلايا RNN لتوليد حالتها الوسيطة، ومن هذه الحالة يبدأ التوليد. نقوم بتوليد حرف واحد في كل مرة، ونمرر الحالة والحرف المُولد إلى خلية RNN أخرى لتوليد الحرف التالي، حتى يتم توليد عدد كافٍ من الحروف.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ar/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > الصورة بواسطة المؤلف
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T12:34:18+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "fa"
-}
--->
 # مکانیزم‌های توجه و مدل‌های ترانسفورمر
 
 ## [پیش‌آزمون](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * تعبیه قابل آموزش، مشابه تعبیه توکن. این روش را در اینجا در نظر می‌گیریم. لایه‌های تعبیه را بر روی توکن‌ها و موقعیت‌های آن‌ها اعمال می‌کنیم، که منجر به بردارهای تعبیه با ابعاد یکسان می‌شود، و سپس آن‌ها را با هم جمع می‌کنیم.
 * تابع کدگذاری موقعیت ثابت، همانطور که در مقاله اصلی پیشنهاد شده است.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/fa/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > تصویر توسط نویسنده
 

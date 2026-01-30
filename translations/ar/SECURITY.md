@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
-  "translation_date": "2025-08-26T07:54:42+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "ar"
-}
--->
 ## الأمان
 
 تأخذ Microsoft أمان منتجاتنا وخدماتنا البرمجية على محمل الجد، بما في ذلك جميع مستودعات الشيفرة المصدرية التي تُدار من خلال منظماتنا على GitHub، والتي تشمل [Microsoft](https://github.com/Microsoft)، [Azure](https://github.com/Azure)، [DotNet](https://github.com/dotnet)، [AspNet](https://github.com/aspnet)، [Xamarin](https://github.com/xamarin)، و[منظماتنا على GitHub](https://opensource.microsoft.com/).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:35:00+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ru"
-}
--->
 # Руководство по устранению неполадок AI-For-Beginners
 
 Это руководство поможет вам решить распространенные проблемы, возникающие при использовании или внесении вклада в репозиторий [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Каждая проблема включает описание, симптомы, объяснения и пошаговые решения.

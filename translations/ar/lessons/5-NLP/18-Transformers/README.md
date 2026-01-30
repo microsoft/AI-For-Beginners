@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T06:37:33+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ar"
-}
--->
 # آليات الانتباه ونماذج المحولات
 
 ## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * تضمين قابل للتدريب، مشابه لتضمين الرموز. هذا هو النهج الذي نعتبره هنا. نطبق طبقات التضمين على كل من الرموز ومواضعها، مما ينتج عنه متجهات تضمين بنفس الأبعاد، والتي نضيفها معًا.
 * وظيفة تشفير المواضع الثابتة، كما هو مقترح في الورقة الأصلية.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ar/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > الصورة بواسطة المؤلف
 
