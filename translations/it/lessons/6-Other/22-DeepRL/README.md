@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T08:27:43+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "it"
-}
--->
 # Apprendimento per Rinforzo Profondo
 
 L'apprendimento per rinforzo (RL) è considerato uno dei paradigmi fondamentali del machine learning, accanto all'apprendimento supervisionato e non supervisionato. Mentre nell'apprendimento supervisionato ci basiamo su un dataset con risultati noti, l'RL si basa sul **learning by doing**. Ad esempio, quando vediamo per la prima volta un videogioco, iniziamo a giocare, anche senza conoscere le regole, e presto siamo in grado di migliorare le nostre abilità semplicemente giocando e adattando il nostro comportamento.
@@ -34,7 +25,7 @@ Probabilmente avete visto tutti dispositivi moderni di bilanciamento come il *Se
 
 Una versione semplificata del bilanciamento è nota come problema del **CartPole**. Nel mondo del CartPole, abbiamo un cursore orizzontale che può muoversi a sinistra o a destra, e l'obiettivo è bilanciare un'asta verticale sopra il cursore mentre si muove.
 
-<img alt="un cartpole" src="images/cartpole.png" width="200"/>
+<img alt="un cartpole" src="../../../../../translated_images/it/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Per creare e utilizzare questo ambiente, abbiamo bisogno di alcune righe di codice Python:
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T08:33:10+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "it"
-}
--->
 # Introduzione alle Reti Neurali. Perceptron Multistrato
 
 Nella sezione precedente, hai imparato il modello di rete neurale più semplice: il perceptron a uno strato, un modello lineare per la classificazione a due classi.
@@ -65,7 +56,7 @@ L'algoritmo di discesa del gradiente rimarrebbe lo stesso, ma sarebbe più diffi
 
 Nota che la parte più a sinistra di tutte queste espressioni è la stessa, e quindi possiamo calcolare efficacemente le derivate partendo dalla funzione di perdita e andando "indietro" attraverso il grafo computazionale. Pertanto, il metodo di addestramento di un perceptron multistrato è chiamato **backpropagation**, o 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/it/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: citazione immagine
 

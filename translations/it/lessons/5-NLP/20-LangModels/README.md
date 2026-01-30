@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T08:35:20+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "it"
-}
--->
 # Modelli di Linguaggio di Grandi Dimensioni Pre-Addestrati
 
 In tutti i nostri compiti precedenti, abbiamo addestrato una rete neurale per svolgere un determinato compito utilizzando un dataset etichettato. Con i grandi modelli transformer, come BERT, utilizziamo il modellamento del linguaggio in modalità auto-supervisionata per costruire un modello linguistico, che viene poi specializzato per compiti specifici con ulteriore addestramento specifico per il dominio. Tuttavia, è stato dimostrato che i grandi modelli di linguaggio possono anche risolvere molti compiti senza ALCUN addestramento specifico per il dominio. Una famiglia di modelli in grado di fare ciò è chiamata **GPT**: Generative Pre-Trained Transformer.

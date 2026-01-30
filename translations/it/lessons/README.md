@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
-  "translation_date": "2025-08-26T06:54:40+00:00",
-  "source_file": "lessons/README.md",
-  "language_code": "it"
-}
--->
 # Panoramica
 
 ![Panoramica in uno schizzo](../../../translated_images/it/ai-overview.0857791951d19500.webp)

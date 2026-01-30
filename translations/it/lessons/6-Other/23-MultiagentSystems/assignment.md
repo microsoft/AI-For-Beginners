@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-26T07:06:41+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "it"
-}
--->
 # Compito NetLogo
 
 Prendi uno dei modelli presenti nella libreria di NetLogo e usalo per simulare una situazione reale nel modo più accurato possibile. Un buon esempio potrebbe essere modificare il modello Virus nella cartella Alternative Visualizations per mostrare come possa essere utilizzato per modellare la diffusione del COVID-19. Riesci a creare un modello che imiti la diffusione virale nella vita reale?

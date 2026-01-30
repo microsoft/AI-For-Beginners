@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T08:34:51+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "it"
-}
--->
 # Meccanismi di Attenzione e Transformers
 
 ## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ L'idea della codifica posizionale è la seguente.
 * Embedding addestrabile, simile all'embedding dei token. Questo è l'approccio che consideriamo qui. Applichiamo strati di embedding sia sui token che sulle loro posizioni, ottenendo vettori di embedding delle stesse dimensioni, che poi sommiamo.
 * Funzione di codifica posizionale fissa, come proposto nel paper originale.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/it/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Immagine dell'autore
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T06:56:03+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "it"
-}
--->
 # Compito: Notebook
 
 Utilizzando i notebook associati a questa lezione (sia la versione PyTorch che quella TensorFlow), eseguili nuovamente utilizzando il tuo dataset, magari uno preso da Kaggle, utilizzato con attribuzione. Riscrivi il notebook per evidenziare le tue scoperte. Prova un tipo diverso di dataset e documenta le tue osservazioni, utilizzando un testo come [questo dataset di una competizione Kaggle sui tweet meteo](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-26T07:07:34+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "it"
-}
--->
 # Reti Multi-Modali
 
 Dopo il successo dei modelli transformer per risolvere compiti di NLP, le stesse o simili architetture sono state applicate ai compiti di visione artificiale. C'è un crescente interesse nel costruire modelli che *combinino* capacità di visione e linguaggio naturale. Uno di questi tentativi è stato fatto da OpenAI, ed è chiamato CLIP e DALL.E.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-26T06:54:45+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "it"
-}
--->
 # AI Etica e Responsabile
 
 Hai quasi terminato questo corso e spero che ormai tu abbia chiaramente compreso che l'AI si basa su una serie di metodi matematici formali che ci permettono di trovare relazioni nei dati e di addestrare modelli per replicare alcuni aspetti del comportamento umano. In questo momento storico, consideriamo l'AI uno strumento molto potente per estrarre schemi dai dati e applicarli per risolvere nuovi problemi.

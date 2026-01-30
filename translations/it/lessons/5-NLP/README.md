@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-26T06:55:02+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "it"
-}
--->
 # Elaborazione del Linguaggio Naturale
 
 ![Riepilogo dei compiti NLP in uno schizzo](../../../../translated_images/it/ai-nlp.b22dcb8ca4707cea.webp)

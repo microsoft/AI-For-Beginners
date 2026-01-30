@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-26T06:59:57+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "it"
-}
--->
 # Visione Artificiale
 
 ![Riassunto dei contenuti sulla Visione Artificiale in uno schizzo](../../../../translated_images/it/ai-computervision.6506ebebac3fbf76.webp)
