@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-11-25T21:10:58+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "ml"
-}
--->
 # കമ്പ്യൂട്ടർ വിഷൻ
 
 ![കമ്പ്യൂട്ടർ വിഷൻ ഉള്ളടക്കത്തിന്റെ സംഗ്രഹം ഒരു ഡ്രോയിങ്ങിൽ](../../../../translated_images/ml/ai-computervision.6506ebebac3fbf76.webp)

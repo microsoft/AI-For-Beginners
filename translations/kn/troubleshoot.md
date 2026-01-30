@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-11-25T20:20:15+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "kn"
-}
--->
 # AI-For-Beginners ಸಮಸ್ಯೆ ಪರಿಹಾರ ಮಾರ್ಗದರ್ಶಿ
 
 ಈ ಮಾರ್ಗದರ್ಶಿ [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) ರೆಪೊಸಿಟರಿಯನ್ನು ಬಳಸುವಾಗ ಅಥವಾ ಕೊಡುಗೆ ನೀಡುವಾಗ ಎದುರಾಗುವ ಸಾಮಾನ್ಯ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಪ್ರತಿ ಸಮಸ್ಯೆಗೆ ಹಿನ್ನೆಲೆ, ಲಕ್ಷಣಗಳು, ವಿವರಣೆಗಳು ಮತ್ತು ಹಂತ ಹಂತದ ಪರಿಹಾರಗಳು ನೀಡಲಾಗಿದೆ.

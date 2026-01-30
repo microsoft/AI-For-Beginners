@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-11-25T22:24:14+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "ml"
-}
--->
 # ഓട്ടോഎൻകോഡറുകൾ
 
 CNN-കൾ പരിശീലിപ്പിക്കുമ്പോൾ, ഒരു പ്രശ്നം നമ്മൾക്ക് വളരെ ലേബൽ ചെയ്ത ഡാറ്റ ആവശ്യമുള്ളതാണ്. ചിത്ര വർഗ്ഗീകരണത്തിന്റെ കാര്യത്തിൽ, ചിത്രങ്ങളെ വ്യത്യസ്ത ക്ലാസുകളായി വേർതിരിക്കേണ്ടതുണ്ട്, ഇത് ഒരു മാനുവൽ ശ്രമമാണ്.

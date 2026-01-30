@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-11-25T22:26:19+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "kn"
-}
--->
 # ಆಟೋಎನ್‌ಕೋಡರ್‌ಗಳು
 
 CNNಗಳನ್ನು ತರಬೇತುಗೊಳಿಸುವಾಗ, ಒಂದು ಸಮಸ್ಯೆ ಎಂದರೆ ನಮಗೆ ಬಹಳಷ್ಟು ಲೇಬಲ್ ಮಾಡಲಾದ ಡೇಟಾ ಬೇಕಾಗುತ್ತದೆ. ಚಿತ್ರ ವರ್ಗೀಕರಣದ ಸಂದರ್ಭದಲ್ಲಿ, ಚಿತ್ರಗಳನ್ನು ವಿಭಿನ್ನ ವರ್ಗಗಳಲ್ಲಿ ವಿಭಜಿಸುವುದು ಕೈಯಿಂದ ಮಾಡಬೇಕಾಗುತ್ತದೆ.

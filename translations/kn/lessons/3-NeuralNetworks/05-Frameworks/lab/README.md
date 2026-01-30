@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e452d897efb9a89700f41021834cf6e5",
-  "translation_date": "2025-11-25T21:54:44+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
-  "language_code": "kn"
-}
--->
 # PyTorch/TensorFlow ಬಳಸಿ ವರ್ಗೀಕರಣ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ನಿಂದ ಪ್ರಯೋಗಾಲಯ ಕಾರ್ಯ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-11-25T20:42:35+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "kn"
-}
--->
 # ಶಿಕ್ಷಕರಿಗಾಗಿ
 
 ನೀವು ಈ ಪಠ್ಯಕ್ರಮವನ್ನು ನಿಮ್ಮ ತರಗತಿಯಲ್ಲಿ ಬಳಸಲು ಇಚ್ಛಿಸುತ್ತೀರಾ? ದಯವಿಟ್ಟು ಮುಕ್ತವಾಗಿ ಬಳಸಿಕೊಳ್ಳಿ!

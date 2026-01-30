@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-11-25T22:54:24+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "kn"
-}
--->
 # ಅಸೈನ್‌ಮೆಂಟ್: ನೋಟ್ಬುಕ್‌ಗಳು
 
 ಈ ಪಾಠಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ನೋಟ್ಬುಕ್‌ಗಳನ್ನು (PyTorch ಅಥವಾ TensorFlow ಆವೃತ್ತಿ) ಬಳಸಿಕೊಂಡು, ನಿಮ್ಮ ಸ್ವಂತ ಡೇಟಾಸೆಟ್‌ನೊಂದಿಗೆ ಅವುಗಳನ್ನು ಮರುಚಲಾಯಿಸಿ, ಉದಾಹರಣೆಗೆ Kaggle ನಿಂದ ಒಂದು ಡೇಟಾಸೆಟ್, ಸರಿಯಾದ ಉಲ್ಲೇಖದೊಂದಿಗೆ. ನಿಮ್ಮ ಸ್ವಂತ ಕಂಡುಹಿಡಿತಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುವಂತೆ ನೋಟ್ಬುಕ್ ಅನ್ನು ಮರುಬರೆಯಿರಿ. ವಿಭಿನ್ನ ರೀತಿಯ ಡೇಟಾಸೆಟ್ ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಕಂಡುಹಿಡಿತಗಳನ್ನು ದಾಖಲಿಸಿ, ಉದಾಹರಣೆಗೆ [ಈ Beatles ಗೀತೆಗಳ ಪದ್ಯಗಳು](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) ಬಳಸಿ.

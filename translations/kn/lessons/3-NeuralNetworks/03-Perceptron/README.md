@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
-  "translation_date": "2025-11-25T21:37:48+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
-  "language_code": "kn"
-}
--->
 # ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಪರಿಚಯ: ಪರ್ಸೆಪ್ಟ್ರಾನ್
 
 ## [ಪೂರ್ವ-ಲೇಕ್ಚರ್ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ai/quiz/5)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-11-25T22:17:05+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ml"
-}
--->
 # ഡീപ് ലേണിംഗ് പരിശീലന തന്ത്രങ്ങൾ
 
 ന്യൂറൽ നെറ്റ്വർക്കുകൾ കൂടുതൽ ആഴത്തിൽ പോകുമ്പോൾ, അവയുടെ പരിശീലന പ്രക്രിയ കൂടുതൽ വെല്ലുവിളികളായിരിക്കും. പ്രധാന പ്രശ്നങ്ങളിൽ ഒന്നാണ്所谓 [വാനിഷിംഗ് ഗ്രാഡിയന്റുകൾ](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) അല്ലെങ്കിൽ [എക്സ്പ്ലോഡിംഗ് ഗ്രാഡിയന്റുകൾ](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) എന്ന പ്രശ്നം. [ഈ പോസ്റ്റ്](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ഈ പ്രശ്നങ്ങളെ കുറിച്ച് നല്ല പരിചയം നൽകുന്നു.

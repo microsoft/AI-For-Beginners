@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
-  "translation_date": "2025-11-25T20:13:21+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "kn"
-}
--->
 ## ಭದ್ರತೆ
 
 ಮೈಕ್ರೋಸಾಫ್ಟ್ ನಮ್ಮ ಸಾಫ್ಟ್‌ವೇರ್ ಉತ್ಪನ್ನಗಳು ಮತ್ತು ಸೇವೆಗಳ ಭದ್ರತೆಯನ್ನು ಗಂಭೀರವಾಗಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ, ಇದರಲ್ಲಿ ನಮ್ಮ GitHub ಸಂಸ್ಥೆಗಳ ಮೂಲಕ ನಿರ್ವಹಿಸಲ್ಪಡುವ ಎಲ್ಲಾ ಮೂಲ ಕೋಡ್ ಸಂಗ್ರಹಣೆಗಳು ಸೇರಿವೆ, ಅವುಗಳಲ್ಲಿ [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), ಮತ್ತು [ನಮ್ಮ GitHub ಸಂಸ್ಥೆಗಳು](https://opensource.microsoft.com/) ಸೇರಿವೆ.

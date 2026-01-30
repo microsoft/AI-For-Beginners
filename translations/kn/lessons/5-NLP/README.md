@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-11-25T21:16:26+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "kn"
-}
--->
 # ನೈಸರ್ಗಿಕ ಭಾಷಾ ಪ್ರಕ್ರಿಯೆ
 
 ![NLP ಕಾರ್ಯಗಳ ಸಾರಾಂಶವನ್ನು ಡೂಡಲ್‌ನಲ್ಲಿ](../../../../translated_images/kn/ai-nlp.b22dcb8ca4707cea.webp)

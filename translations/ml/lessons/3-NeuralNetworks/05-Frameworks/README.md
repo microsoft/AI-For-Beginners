@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-11-25T21:47:34+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "ml"
-}
--->
 # ന്യൂറൽ നെറ്റ്‌വർക്ക് ഫ്രെയിംവർക്കുകൾ
 
 നാം ഇതിനകം പഠിച്ചതുപോലെ, ന്യൂറൽ നെറ്റ്‌വർക്ക് ഫലപ്രദമായി പരിശീലിപ്പിക്കാൻ രണ്ട് കാര്യങ്ങൾ ചെയ്യേണ്ടതുണ്ട്:

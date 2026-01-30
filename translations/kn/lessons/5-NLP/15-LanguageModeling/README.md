@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-11-25T22:59:57+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "kn"
-}
--->
 # ಭಾಷಾ ಮಾದರೀಕರಣ
 
 ಶಬ್ದಾರ್ಥ ಸಂಯೋಜನೆಗಳು, ಉದಾಹರಣೆಗೆ Word2Vec ಮತ್ತು GloVe, ವಾಸ್ತವದಲ್ಲಿ **ಭಾಷಾ ಮಾದರೀಕರಣ**ದ ಮೊದಲ ಹಂತವಾಗಿದೆ - ಭಾಷೆಯ ಸ್ವಭಾವವನ್ನು ಹೇಗೆಂದರೆ *ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ* (ಅಥವಾ *ಪ್ರತಿನಿಧಿಸುವ*) ಮಾದರಿಗಳನ್ನು ರಚಿಸುವುದು.

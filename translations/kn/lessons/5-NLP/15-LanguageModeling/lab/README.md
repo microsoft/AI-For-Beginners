@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-11-25T23:22:05+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "kn"
-}
--->
 # ಸ್ಕಿಪ್-ಗ್ರಾಮ್ ಮಾದರಿಯನ್ನು ತರಬೇತಿ ಮಾಡುವುದು
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ನಿಂದ ಪ್ರಯೋಗಾಲಯದ ಕಾರ್ಯ.

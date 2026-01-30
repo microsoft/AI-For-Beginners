@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-11-25T23:06:27+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ml"
-}
--->
 # ജനറേറ്റീവ് നെറ്റ്വർക്കുകൾ
 
 ## [പ്രീ-ലെക്ചർ ക്വിസ്](https://ff-quizzes.netlify.app/en/ai/quiz/33)

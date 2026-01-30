@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-11-25T22:43:57+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "ml"
-}
--->
 # ട്രാൻസ്ഫർ ലേണിംഗ് ഉപയോഗിച്ച് ഓക്സ്ഫോർഡ് പെട്ടുകളുടെ വർഗ്ഗീകരണം
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ലെ ലാബ് അസൈൻമെന്റ്.

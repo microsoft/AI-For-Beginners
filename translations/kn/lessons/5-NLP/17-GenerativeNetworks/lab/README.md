@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
-  "translation_date": "2025-11-25T23:23:02+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
-  "language_code": "kn"
-}
--->
 # RNN ಗಳನ್ನು ಬಳಸಿ ಪದ ಮಟ್ಟದ ಪಠ್ಯ ರಚನೆ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ನಿಂದ ಪ್ರಯೋಗಾಲಯ ಕಾರ್ಯ.

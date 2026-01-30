@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
-  "translation_date": "2025-11-25T23:28:53+00:00",
-  "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
-  "language_code": "kn"
-}
--->
 # ಜನಿತಿಕ ಆಲ್ಗಾರಿದಮ್ಗಳು
 
 ## [ಪೂರ್ವ-ವಕ್ತೃ ಪ್ರಶ್ನೋತ್ತರ](https://ff-quizzes.netlify.app/en/ai/quiz/41)

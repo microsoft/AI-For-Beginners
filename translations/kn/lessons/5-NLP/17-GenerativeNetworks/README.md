@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-11-25T23:07:58+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "kn"
-}
--->
 # ಜನರೇಟಿವ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳು
 
 ## [ಪೂರ್ವ-ಲೆಕ್ಚರ್ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ai/quiz/33)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
-  "translation_date": "2025-11-25T22:58:04+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/README.md",
-  "language_code": "kn"
-}
--->
 # ಎम्बೆಡ್ಡಿಂಗ್ಸ್
 
 ## [ಪೂರ್ವ-ವ್ಯಾಖ್ಯಾನ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ai/quiz/27)

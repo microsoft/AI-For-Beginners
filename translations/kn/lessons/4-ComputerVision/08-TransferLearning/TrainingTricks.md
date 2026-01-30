@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-11-25T22:19:38+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "kn"
-}
--->
 # ಡೀಪ್ ಲರ್ನಿಂಗ್ ತರಬೇತಿ ತಂತ್ರಗಳು
 
 ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳು ಆಳವಾಗುತ್ತಿರೋಂತೆ, ಅವುಗಳ ತರಬೇತಿ ಪ್ರಕ್ರಿಯೆ ಹೆಚ್ಚು ಮತ್ತು ಹೆಚ್ಚು ಸವಾಲಿನಾಯಕವಾಗುತ್ತದೆ. ಒಂದು ಪ್ರಮುಖ ಸಮಸ್ಯೆ ಎಂದರೆ [ವ್ಯಾನಿಶಿಂಗ್ ಗ್ರೇಡಿಯಂಟ್ಸ್](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) ಅಥವಾ [ಎಕ್ಸ್‌ಪ್ಲೋಡಿಂಗ್ ಗ್ರೇಡಿಯಂಟ್ಸ್](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [ಈ ಪೋಸ್ಟ್](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ಆ ಸಮಸ್ಯೆಗಳ ಪರಿಚಯವನ್ನು ಚೆನ್ನಾಗಿ ನೀಡುತ್ತದೆ.

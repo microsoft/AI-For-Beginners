@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-11-25T23:01:11+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "kn"
-}
--->
 # ಅಸೈನ್‌ಮೆಂಟ್: ನೋಟ್ಬುಕ್ಸ್
 
 ಈ ಪಾಠಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ನೋಟ್ಬುಕ್ಸ್‌ಗಳನ್ನು (PyTorch ಅಥವಾ TensorFlow ಆವೃತ್ತಿ) ಬಳಸಿಕೊಂಡು, ನಿಮ್ಮ ಸ್ವಂತ ಡೇಟಾಸೆಟ್‌ನೊಂದಿಗೆ ಅವುಗಳನ್ನು ಮರುನಡೆಸಿರಿ, ಉದಾಹರಣೆಗೆ Kaggle ನಿಂದ ಒಂದು ಡೇಟಾಸೆಟ್, ಸರಿಯಾದ ಉಲ್ಲೇಖದೊಂದಿಗೆ. ನಿಮ್ಮ ಸ್ವಂತ ಕಂಡುಹಿಡಿತಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುವಂತೆ ನೋಟ್ಬುಕ್ ಅನ್ನು ಮರುಬರೆಯಿರಿ. ಬೇರೆ ರೀತಿಯ ಡೇಟಾಸೆಟ್ ಪ್ರಯತ್ನಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಕಂಡುಹಿಡಿತಗಳನ್ನು ದಾಖಲಿಸಿ, ಉದಾಹರಣೆಗೆ [ಈ Kaggle ಸ್ಪರ್ಧೆಯ ಡೇಟಾಸೆಟ್, ಹವಾಮಾನ ಟ್ವೀಟ್‌ಗಳ ಬಗ್ಗೆ](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv) ಎಂಬಂತೆ.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-  "translation_date": "2025-11-25T21:09:34+00:00",
-  "source_file": "lessons/3-NeuralNetworks/README.md",
-  "language_code": "kn"
-}
--->
 # ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಪರಿಚಯ
 
 ![ಡೂಡಲ್‌ನಲ್ಲಿ ಇಂಟ್ರೋ ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್ ವಿಷಯದ ಸಾರಾಂಶ](../../../../translated_images/kn/ai-neuralnetworks.1c687ae40bc86e83.webp)

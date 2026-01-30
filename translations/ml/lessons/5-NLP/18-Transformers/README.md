@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-11-25T23:12:38+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ml"
-}
--->
 # ശ്രദ്ധാ യന്ത്രങ്ങളും ട്രാൻസ്ഫോർമറുകളും
 
 ## [പ്രീ-ലെക്ചർ ക്വിസ്](https://ff-quizzes.netlify.app/en/ai/quiz/35)
