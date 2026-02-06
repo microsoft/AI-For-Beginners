@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-11-18T18:31:20+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "pcm"
-}
--->
 # Ethical and Responsible AI
 
 You don almost finish dis course, and I dey hope say by now you don sabi well well say AI na somtin wey base on plenty formal mathematical methods wey fit help us find relationship for data and train models to dey do some kain tins wey human beings dey do. For dis time wey we dey so, we dey see AI as one strong tool wey fit help us see pattern for data, and use dat pattern solve new problems.

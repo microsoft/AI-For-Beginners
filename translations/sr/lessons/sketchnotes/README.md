@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T00:02:15+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "sr"
-}
--->
 Све скице наставног плана могу се преузети овде.
 
 🎨 Креирала: Томоми Имура (Твитер: [@girlie_mac](https://twitter.com/girlie_mac), ГитХаб: [girliemac](https://github.com/girliemac))

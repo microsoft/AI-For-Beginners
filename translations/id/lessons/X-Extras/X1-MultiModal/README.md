@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-29T12:18:02+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "id"
-}
--->
 # Jaringan Multi-Modal
 
 Setelah keberhasilan model transformer dalam menyelesaikan tugas NLP, arsitektur yang sama atau serupa telah diterapkan pada tugas penglihatan komputer. Ada minat yang semakin besar untuk membangun model yang dapat *menggabungkan* kemampuan penglihatan dan bahasa alami. Salah satu upaya tersebut dilakukan oleh OpenAI, yang disebut CLIP dan DALL.E.

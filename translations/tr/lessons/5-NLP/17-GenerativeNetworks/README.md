@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T08:44:46+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "tr"
-}
--->
 # Üretici Ağlar
 
 ## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Bu RNN'yi adım adım metin üretmek için eğiteceğiz. Her adımda, `nchars` u
 
 Metin üretirken (çıkarsama sırasında), bazı **başlangıç** verileriyle başlarız. Bu veri RNN hücrelerinden geçirilerek ara durumu oluşturur ve ardından üretim başlar. Her seferinde bir karakter üretiriz ve durumu ve üretilen karakteri bir sonraki karakteri üretmek için başka bir RNN hücresine geçiririz. Bu işlem yeterli sayıda karakter üretilene kadar devam eder.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/tr/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Resim, yazar tarafından oluşturulmuştur.
 

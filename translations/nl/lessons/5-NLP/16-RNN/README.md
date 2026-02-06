@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:14:12+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "nl"
-}
--->
 # Recurrent Neural Networks
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Laten we eens kijken hoe een eenvoudige RNN-cel is georganiseerd. Het accepteert
 
 Een eenvoudige RNN-cel heeft twee gewichts-matrices binnenin: één transformeert een invoersymbool (laten we het W noemen), en een andere transformeert een invoertoestand (H). In dit geval wordt de uitvoer van het netwerk berekend als &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), waarbij &sigma; de activatiefunctie is en b een extra bias is.
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/nl/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Afbeelding door de auteur
 

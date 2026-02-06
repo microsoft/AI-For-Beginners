@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-10-11T11:50:48+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "ta"
-}
--->
 # பாடங்களை மொழிபெயர்த்து பங்களிக்கவும்
 
 இந்த பாடத்திட்டத்தில் உள்ள பாடங்களுக்கு மொழிபெயர்ப்புகளை வரவேற்கிறோம்!

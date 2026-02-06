@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T15:49:59+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "lt"
-}
--->
 # Pavadinimų atpažinimas
 
 Iki šiol daugiausia dėmesio skyrėme vienai NLP užduočiai – klasifikacijai. Tačiau yra ir kitų NLP užduočių, kurias galima atlikti naudojant neuroninius tinklus. Viena iš tokių užduočių yra **[Pavadinimų atpažinimas](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), kuris susijęs su specifinių objektų atpažinimu tekste, tokių kaip vietovės, asmenų vardai, datos ir laiko intervalai, cheminės formulės ir pan.
@@ -17,7 +8,7 @@ Iki šiol daugiausia dėmesio skyrėme vienai NLP užduočiai – klasifikacijai
 
 Tarkime, norite sukurti natūralios kalbos pokalbių robotą, panašų į Amazon Alexa ar Google Assistant. Išmanūs pokalbių robotai veikia taip, kad *supranta*, ko vartotojas nori, atlikdami teksto klasifikaciją pagal įvestą sakinį. Šios klasifikacijos rezultatas yra vadinamas **intencija**, kuri nurodo, ką pokalbių robotas turėtų atlikti.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/lt/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Vaizdas sukurtas autoriaus
 

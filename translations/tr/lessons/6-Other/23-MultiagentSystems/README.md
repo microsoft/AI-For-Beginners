@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T08:37:18+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "tr"
-}
--->
 # Çoklu-Ajan Sistemleri
 
 Zekayı elde etmenin olası yollarından biri, **ortaya çıkan** (veya **sinerjik**) yaklaşımdır. Bu yaklaşım, birçok nispeten basit ajanın birleşik davranışının, sistemin bir bütün olarak daha karmaşık (veya zeki) bir davranış sergilemesine yol açabileceği gerçeğine dayanır. Teorik olarak, bu yaklaşım [Kolektif Zeka](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentizm](https://en.wikipedia.org/wiki/Global_brain) ve [Evrimsel Sibernetik](https://en.wikipedia.org/wiki/Global_brain) ilkelerine dayanır. Bu ilkeler, üst düzey sistemlerin, alt düzey sistemlerin uygun şekilde birleştirilmesiyle bir tür ek değer kazandığını ifade eder (*metasistem geçişi ilkesi* olarak adlandırılır).
@@ -60,7 +51,7 @@ NetLogo'yu [indirip](https://ccl.northwestern.edu/netlogo/download.shtml) kurara
 
 NetLogo'nun harika bir özelliği, deneyebileceğiniz çalışan modellerin bulunduğu bir kütüphaneye sahip olmasıdır. **File &rightarrow; Models Library** seçeneğine gidin ve birçok model kategorisi arasından seçim yapabilirsiniz.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/tr/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Dmitry Soshnikov tarafından modeller kütüphanesi ekran görüntüsü
 

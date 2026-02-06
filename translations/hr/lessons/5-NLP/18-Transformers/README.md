@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T14:58:10+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "hr"
-}
--->
 # Mehanizmi pažnje i transformeri
 
 ## [Pre-kviz predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ideja pozicijskog kodiranja je sljedeća.
 * Ugrađivanje koje se trenira, slično ugrađivanju tokena. Ovo je pristup koji ovdje razmatramo. Primjenjujemo slojeve ugrađivanja na tokene i njihove pozicije, što rezultira vektorima ugrađivanja iste dimenzije, koje zatim zbrajamo.
 * Fiksna funkcija pozicijskog kodiranja, kako je predloženo u originalnom radu.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/hr/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Slika autora
 

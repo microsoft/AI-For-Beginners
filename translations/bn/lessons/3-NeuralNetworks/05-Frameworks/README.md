@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T07:51:43+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "bn"
-}
--->
 # নিউরাল নেটওয়ার্ক ফ্রেমওয়ার্ক
 
 আমরা ইতিমধ্যেই শিখেছি যে, নিউরাল নেটওয়ার্ক কার্যকরভাবে প্রশিক্ষণ দিতে হলে আমাদের দুটি কাজ করতে হবে:

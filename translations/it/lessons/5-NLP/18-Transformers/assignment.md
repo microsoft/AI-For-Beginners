@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T06:58:09+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "it"
-}
--->
 # Compito: Transformers
 
 Sperimenta con i Transformers su HuggingFace! Prova alcuni degli script che forniscono per lavorare con i vari modelli disponibili sul loro sito: https://huggingface.co/docs/transformers/run_scripts. Prova uno dei loro dataset, poi importa uno dei tuoi da questo curriculum o da Kaggle e verifica se riesci a generare testi interessanti. Produci un notebook con le tue scoperte.

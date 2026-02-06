@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T11:30:27+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "cs"
-}
--->
 # Rozpoznávání pojmenovaných entit
 
 Doposud jsme se převážně soustředili na jeden úkol v oblasti zpracování přirozeného jazyka (NLP) – klasifikaci. Existují však i další úkoly v NLP, které lze řešit pomocí neuronových sítí. Jedním z těchto úkolů je **[rozpoznávání pojmenovaných entit](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), které se zabývá identifikací konkrétních entit v textu, jako jsou místa, jména osob, časové intervaly, chemické vzorce a podobně.
@@ -17,7 +8,7 @@ Doposud jsme se převážně soustředili na jeden úkol v oblasti zpracování 
 
 Představte si, že chcete vytvořit chatbot pro přirozený jazyk, podobný Amazon Alexe nebo Google Asistentovi. Inteligentní chatboti fungují tak, že *rozumí* tomu, co uživatel chce, pomocí klasifikace textu na vstupní větě. Výsledkem této klasifikace je tzv. **záměr** (intent), který určuje, co by měl chatbot udělat.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/cs/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Obrázek od autora
 

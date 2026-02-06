@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T10:29:05+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "vi"
-}
--->
 # Autoencoders
 
 Khi huấn luyện CNN, một trong những vấn đề là chúng ta cần rất nhiều dữ liệu được gắn nhãn. Trong trường hợp phân loại hình ảnh, chúng ta cần phân chia hình ảnh thành các lớp khác nhau, điều này đòi hỏi sự nỗ lực thủ công.
@@ -46,7 +37,7 @@ Tóm lại:
  * Chúng ta lấy mẫu một vector `sample` từ phân phối N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Bộ giải mã cố gắng giải mã hình ảnh gốc bằng cách sử dụng `sample` làm vector đầu vào
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/vi/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Hình ảnh từ [bài viết blog này](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) của Isaak Dykeman
 
@@ -57,13 +48,13 @@ Autoencoders biến thể sử dụng một hàm mất mát phức tạp bao g�
 
 Một lợi thế quan trọng của VAEs là chúng cho phép chúng ta tạo ra hình ảnh mới một cách tương đối dễ dàng, vì chúng ta biết phân phối nào để lấy mẫu các vector tiềm ẩn. Ví dụ, nếu chúng ta huấn luyện VAE với vector tiềm ẩn 2D trên MNIST, chúng ta có thể thay đổi các thành phần của vector tiềm ẩn để tạo ra các chữ số khác nhau:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/vi/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 
 Quan sát cách các hình ảnh hòa trộn vào nhau, khi chúng ta bắt đầu lấy các vector tiềm ẩn từ các phần khác nhau của không gian tham số tiềm ẩn. Chúng ta cũng có thể trực quan hóa không gian này trong 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/vi/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Hình ảnh bởi [Dmitry Soshnikov](http://soshnikov.com)
 

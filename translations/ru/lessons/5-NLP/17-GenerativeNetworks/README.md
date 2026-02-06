@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T08:02:21+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ru"
-}
--->
 # Генеративные сети
 
 ## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 При генерации текста (во время инференса) мы начинаем с некоторого **запроса**, который передается через ячейки RNN для генерации промежуточного состояния, а затем из этого состояния начинается генерация. Мы генерируем по одному символу за раз, передаем состояние и сгенерированный символ в следующую ячейку RNN для генерации следующего символа, пока не будет сгенерировано достаточное количество символов.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ru/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Изображение автора
 

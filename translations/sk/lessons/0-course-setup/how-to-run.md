@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:57:59+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "sk"
-}
--->
 # Ako spustiť kód
 
 Tento učebný plán obsahuje veľa vykonateľných príkladov a laboratórií, ktoré by ste chceli spustiť. Aby ste to mohli urobiť, potrebujete možnosť vykonávať Python kód v Jupyter Notebookoch poskytovaných ako súčasť tohto učebného plánu. Máte niekoľko možností, ako spustiť kód:

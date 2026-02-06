@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-26T07:32:42+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "tr"
-}
--->
 # NetLogo Ödevi
 
 NetLogo'nun kütüphanesindeki modellerden birini alın ve bunu gerçek bir durumu olabildiğince yakından simüle etmek için kullanın. İyi bir örnek, Alternatif Görselleştirmeler klasöründeki Virüs modelini, COVID-19'un yayılmasını modellemek için nasıl kullanılabileceğini gösterecek şekilde uyarlamak olabilir. Gerçek hayattaki bir viral yayılımı taklit eden bir model oluşturabilir misiniz?

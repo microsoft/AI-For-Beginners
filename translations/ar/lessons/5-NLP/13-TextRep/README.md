@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T06:39:15+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ar"
-}
--->
 # تمثيل النصوص كموترات
 
 ## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 إذا أردنا حل مهام معالجة اللغة الطبيعية (NLP) باستخدام الشبكات العصبية، نحتاج إلى طريقة لتمثيل النصوص كموترات. الحواسيب بالفعل تمثل الأحرف النصية كأرقام تُعرض كخطوط على الشاشة باستخدام ترميزات مثل ASCII أو UTF-8.
 
-<img alt="صورة تظهر مخططًا يربط الحرف بتمثيل ASCII وثنائي" src="images/ascii-character-map.png" width="50%"/>
+<img alt="صورة تظهر مخططًا يربط الحرف بتمثيل ASCII وثنائي" src="../../../../../translated_images/ar/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [مصدر الصورة](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 عند حل مهام مثل تصنيف النصوص، نحتاج إلى تمثيل النص بواسطة متجه ثابت الحجم، والذي سنستخدمه كمدخل للمصنف النهائي الكثيف. إحدى أبسط الطرق للقيام بذلك هي دمج جميع تمثيلات الكلمات الفردية، على سبيل المثال، عن طريق جمعها. إذا جمعنا الترميزات الواحد لكل كلمة، سنحصل على متجه ترددات، يظهر عدد مرات ظهور كل كلمة داخل النص. يُعرف هذا التمثيل للنص باسم **حقيبة الكلمات** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/ar/bow.3811869cff59368d.webp" width="90%"/>
 
 > صورة من المؤلف
 

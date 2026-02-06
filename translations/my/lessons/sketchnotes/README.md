@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T00:02:36+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "my"
-}
--->
 အခြေခံသင်ခန်းစာများ၏ အကျဉ်းချုပ်များကို ဒီနေရာမှာ ဒေါင်းလုဒ်လုပ်နိုင်ပါတယ်။
 
 🎨 ဖန်တီးသူ - Tomomi Imura (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

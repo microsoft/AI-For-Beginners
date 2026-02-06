@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T09:12:27+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "th"
-}
--->
 # การสร้างแบบจำลองภาษา
 
 การฝังความหมาย เช่น Word2Vec และ GloVe ถือเป็นก้าวแรกในการสร้าง **แบบจำลองภาษา** - การสร้างโมเดลที่สามารถ *เข้าใจ* (หรือ *แสดงออก*) ลักษณะของภาษาได้ในบางรูปแบบ

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T07:09:50+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "mr"
-}
--->
 # न्यूरल नेटवर्क्सची ओळख. मल्टी-लेयर्ड परसेप्ट्रॉन
 
 मागील विभागात, तुम्ही सर्वात सोपा न्यूरल नेटवर्क मॉडेल - एक-स्तरीय परसेप्ट्रॉन, एक रेषीय दोन-वर्ग वर्गीकरण मॉडेल, याबद्दल शिकले.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 लक्षात घ्या की या सर्व अभिव्यक्तींचा डाव्या बाजूचा भाग समान आहे, आणि त्यामुळे आपण लॉस फंक्शनपासून सुरुवात करून "मागे" संगणकीय ग्राफद्वारे डेरिव्हेटिव्ह्ज प्रभावीपणे गणना करू शकतो. त्यामुळे मल्टी-लेयर्ड परसेप्ट्रॉन प्रशिक्षणाची पद्धत **backpropagation**, किंवा 'backprop' म्हणून ओळखली जाते.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/mr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: प्रतिमेचा संदर्भ
 

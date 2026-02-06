@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:17:01+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "tl"
-}
--->
 # Paano Patakbuhin ang Code
 
 Ang kurikulum na ito ay naglalaman ng maraming mga executable na halimbawa at mga lab na nais mong patakbuhin. Upang magawa ito, kailangan mong magkaroon ng kakayahang magpatakbo ng Python code sa Jupyter Notebooks na ibinigay bilang bahagi ng kurikulum na ito. Mayroon kang ilang mga pagpipilian para mapatakbo ang code:

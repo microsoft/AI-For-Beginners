@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T12:23:42+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "de"
-}
--->
 # Vorgefertigte große Sprachmodelle
 
 In all unseren bisherigen Aufgaben haben wir ein neuronales Netzwerk darauf trainiert, eine bestimmte Aufgabe mithilfe eines beschrifteten Datensatzes auszuführen. Bei großen Transformermodellen wie BERT verwenden wir Sprachmodellierung in selbstüberwachter Weise, um ein Sprachmodell zu erstellen, das anschließend durch weitere domänenspezifische Trainings für spezifische Downstream-Aufgaben spezialisiert wird. Es wurde jedoch gezeigt, dass große Sprachmodelle viele Aufgaben auch ohne jegliches domänenspezifisches Training lösen können. Eine Familie von Modellen, die dazu in der Lage ist, wird als **GPT** bezeichnet: Generative Pre-Trained Transformer.

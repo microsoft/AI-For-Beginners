@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:32:01+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "nl"
-}
--->
 # Beginner-Vriendelijke AI Voorbeelden
 
 Welkom! Deze map bevat eenvoudige, zelfstandige voorbeelden om je te helpen beginnen met AI en machine learning. Elk voorbeeld is ontworpen om toegankelijk te zijn voor beginners, met gedetailleerde opmerkingen en stapsgewijze uitleg.

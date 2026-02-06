@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-11-18T18:20:22+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "pcm"
-}
--->
 # Head Detection wit Hollywood Heads Dataset
 
 Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

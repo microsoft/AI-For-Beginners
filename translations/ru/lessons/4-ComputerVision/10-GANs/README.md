@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T07:59:14+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ru"
-}
--->
 # Генеративно-состязательные сети
 
 В предыдущем разделе мы узнали о **генеративных моделях**: моделях, которые могут создавать новые изображения, похожие на те, что находятся в обучающем наборе данных. VAE был хорошим примером генеративной модели.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Основная идея GAN заключается в использовании двух нейронных сетей, которые обучаются друг против друга:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ru/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Изображение от [Дмитрия Сошникова](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Поскольку сверточный слой реализован как линейный фильтр, проходящий по изображению, деконволюция по сути аналогична сверточной операции и может быть реализована с использованием той же логики слоя.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ru/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Изображение от [Дмитрия Сошникова](http://soshnikov.com)
 

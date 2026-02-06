@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
-  "translation_date": "2025-10-11T11:48:22+00:00",
-  "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
-  "language_code": "ta"
-}
--->
 # ஜெனடிக் அல்காரிதங்கள்
 
 ## [முன்-வகுப்பு வினாடி வினா](https://ff-quizzes.netlify.app/en/ai/quiz/41)

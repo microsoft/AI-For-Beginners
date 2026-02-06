@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:05+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "sk"
-}
--->
 # Úloha NetLogo
 
 Vyberte jeden z modelov v knižnici NetLogo a použite ho na simuláciu reálnej situácie čo najvernejšie. Dobrým príkladom by bolo upraviť model Vírus v priečinku Alternatívne vizualizácie tak, aby ukázal, ako môže byť použitý na modelovanie šírenia COVID-19. Dokážete vytvoriť model, ktorý napodobňuje reálne šírenie vírusu?

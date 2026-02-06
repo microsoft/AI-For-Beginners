@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T15:41:18+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "lt"
-}
--->
 # Giliojo stiprinamojo mokymosi pagrindai
 
 Stiprinamasis mokymasis (RL) laikomas vienu iš pagrindinių mašininio mokymosi paradigmų, greta mokymosi su mokytoju ir mokymosi be mokytojo. Mokymosi su mokytoju metu remiamės duomenų rinkiniu su žinomais rezultatais, o RL pagrįstas **mokymusi per veiksmą**. Pavyzdžiui, kai pirmą kartą matome kompiuterinį žaidimą, pradedame jį žaisti, net nežinodami taisyklių, ir greitai galime tobulinti savo įgūdžius tiesiog žaisdami ir koreguodami savo elgesį.
@@ -34,7 +25,7 @@ Tikriausiai visi esate matę modernius balansavimo įrenginius, tokius kaip *Seg
 
 Supaprastinta balansavimo versija vadinama **CartPole** problema. CartPole pasaulyje turime horizontalų slankiklį, kuris gali judėti į kairę arba į dešinę, o tikslas yra balansuoti vertikalų stulpelį ant slankiklio, kai jis juda.
 
-<img alt="cartpole" src="images/cartpole.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/lt/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Norint sukurti ir naudoti šią aplinką, reikia kelių Python kodo eilučių:
 

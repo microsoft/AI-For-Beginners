@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:49:30+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "hu"
-}
--->
 # AI-For-Beginners Hibaelhárítási Útmutató
 
 Ez az útmutató segít megoldani a gyakori problémákat, amelyek az [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repozitórium használata vagy hozzájárulása során merülhetnek fel. Minden probléma tartalmaz háttérinformációt, tüneteket, magyarázatokat és lépésről lépésre megoldásokat.

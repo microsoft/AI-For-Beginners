@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T14:00:39+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "pl"
-}
--->
 # Reprezentowanie tekstu jako tensory
 
 ## [Pre-quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Naszym celem będzie sklasyfikowanie artykułu prasowego do jednej z kategorii n
 
 Aby rozwiązywać zadania związane z przetwarzaniem języka naturalnego (NLP) za pomocą sieci neuronowych, musimy znaleźć sposób na reprezentowanie tekstu jako tensory. Komputery już teraz reprezentują znaki tekstowe jako liczby, które mapują na czcionki na ekranie, używając kodowań takich jak ASCII czy UTF-8.
 
-<img alt="Obraz przedstawiający diagram mapujący znak na reprezentację ASCII i binarną" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Obraz przedstawiający diagram mapujący znak na reprezentację ASCII i binarną" src="../../../../../translated_images/pl/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Źródło obrazu](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ W niektórych przypadkach możemy rozważyć użycie tri-gramów — kombinacji 
 
 Podczas rozwiązywania zadań takich jak klasyfikacja tekstu musimy być w stanie reprezentować tekst za pomocą jednego wektora o stałym rozmiarze, który będzie używany jako wejście do końcowego klasyfikatora gęstego. Jednym z najprostszych sposobów na to jest połączenie wszystkich indywidualnych reprezentacji słów, np. przez ich dodanie. Jeśli dodamy kodowania one-hot każdego słowa, otrzymamy wektor częstotliwości, pokazujący, ile razy każde słowo pojawia się w tekście. Taka reprezentacja tekstu nazywana jest **bag-of-words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/pl/bow.3811869cff59368d.webp" width="90%"/>
 
 > Obraz autorstwa autora
 

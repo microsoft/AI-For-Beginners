@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:23:00+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "he"
-}
--->
 # רשתות גנרטיביות
 
 ## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בעת יצירת טקסט (בזמן הסקת מסקנות), נתחיל עם **הנחיה** כלשהי, שתועבר דרך תאי RNN כדי ליצור את מצב הביניים שלה, ואז מהמצב הזה מתחילה היצירה. ניצור תו אחד בכל פעם, ונעביר את המצב ואת התו שנוצר לתא RNN נוסף כדי ליצור את הבא, עד שניצור מספיק תווים.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/he/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > תמונה מאת המחבר
 

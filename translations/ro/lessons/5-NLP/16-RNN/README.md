@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T14:23:20+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ro"
-}
--->
 # Rețele Neuronale Recurente
 
 ## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Să vedem cum este organizată o celulă RNN simplă. Aceasta acceptă starea an
 
 O celulă RNN simplă are două matrice de greutăți în interior: una transformă un simbol de intrare (să o numim W), iar cealaltă transformă o stare de intrare (H). În acest caz, ieșirea rețelei este calculată ca &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), unde &sigma; este funcția de activare și b este un bias suplimentar.
 
-<img alt="Anatomia unei celule RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomia unei celule RNN" src="../../../../../translated_images/ro/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Imagine realizată de autor
 

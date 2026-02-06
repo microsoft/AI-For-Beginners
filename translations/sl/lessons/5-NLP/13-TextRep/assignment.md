@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-25T21:54:55+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "sl"
-}
--->
 # Naloga: Zvezki
 
 Z uporabo zvezkov, povezanih s to lekcijo (bodisi PyTorch ali TensorFlow različice), jih ponovno zaženite z lastnim naborom podatkov, morda s Kaggle, uporabljenim z ustreznim navajanjem vira. Prepišite zvezek, da poudarite svoje ugotovitve. Preizkusite nekaj inovativnih naborov podatkov, ki bi lahko bili presenetljivi, na primer [ta o opažanjih NLP-jev](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) iz NUFORC.

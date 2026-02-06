@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:12:36+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "ar"
-}
--->
 # المهمة: دفاتر الملاحظات
 
 باستخدام دفاتر الملاحظات المرتبطة بهذه الدرس (سواء نسخة PyTorch أو TensorFlow)، قم بإعادة تشغيلها باستخدام مجموعة بيانات خاصة بك، ربما واحدة من Kaggle، مع الإشارة إلى المصدر. أعد كتابة دفتر الملاحظات لتسليط الضوء على استنتاجاتك الخاصة. جرب نوعًا مختلفًا من مجموعات البيانات ووثق استنتاجاتك، باستخدام نصوص مثل [مجموعة بيانات هذه المسابقة على Kaggle حول تغريدات الطقس](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

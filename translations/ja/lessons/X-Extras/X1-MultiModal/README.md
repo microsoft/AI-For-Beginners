@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-24T21:14:09+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "ja"
-}
--->
 # マルチモーダルネットワーク
 
 トランスフォーマーモデルがNLPタスクで成功を収めた後、同様のアーキテクチャがコンピュータビジョンタスクにも適用されるようになりました。視覚と言語の能力を*組み合わせる*モデルを構築することへの関心が高まっています。その試みの一つがOpenAIによるCLIPやDALL.Eです。

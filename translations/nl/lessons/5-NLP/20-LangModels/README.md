@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T10:13:37+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "nl"
-}
--->
 # Vooraf Getrainde Grote Taalmodellen
 
 Bij al onze eerdere taken trainden we een neuraal netwerk om een bepaalde taak uit te voeren met behulp van een gelabelde dataset. Met grote transformator-modellen, zoals BERT, gebruiken we taalmodellering op een zelf-superviserende manier om een taalmodel te bouwen, dat vervolgens wordt gespecialiseerd voor specifieke downstream-taken met verdere domeinspecifieke training. Het is echter aangetoond dat grote taalmodellen ook veel taken kunnen oplossen zonder ENIGE domeinspecifieke training. Een familie van modellen die daartoe in staat is, wordt **GPT** genoemd: Generative Pre-Trained Transformer.

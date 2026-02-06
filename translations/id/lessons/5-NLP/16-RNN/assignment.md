@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-29T12:48:32+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "id"
-}
--->
 # Tugas: Notebook
 
 Gunakan notebook yang terkait dengan pelajaran ini (baik versi PyTorch maupun TensorFlow), jalankan ulang menggunakan dataset Anda sendiri, mungkin dari Kaggle, dengan mencantumkan atribusi. Tulis ulang notebook tersebut untuk menyoroti temuan Anda sendiri. Cobalah jenis dataset yang berbeda dan dokumentasikan temuan Anda, menggunakan teks seperti [dataset kompetisi Kaggle tentang tweet cuaca ini](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

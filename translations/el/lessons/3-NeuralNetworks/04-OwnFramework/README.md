@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T08:56:25+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "el"
-}
--->
 # Εισαγωγή στα Νευρωνικά Δίκτυα. Πολυεπίπεδος Perceptron
 
 Στην προηγούμενη ενότητα, μάθατε για το πιο απλό μοντέλο νευρωνικού δικτύου - τον μονοεπίπεδο perceptron, ένα γραμμικό μοντέλο ταξινόμησης δύο κατηγοριών.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Σημειώστε ότι το αριστερότερο μέρος όλων αυτών των εκφράσεων είναι το ίδιο, και έτσι μπορούμε να υπολογίσουμε αποτελεσματικά τις παραγώγους ξεκινώντας από τη συνάρτηση απώλειας και πηγαίνοντας "προς τα πίσω" μέσω του γραφήματος υπολογισμού. Έτσι, η μέθοδος εκπαίδευσης ενός πολυεπίπεδου perceptron ονομάζεται **backpropagation**, ή 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/el/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: αναφορά εικόνας
 

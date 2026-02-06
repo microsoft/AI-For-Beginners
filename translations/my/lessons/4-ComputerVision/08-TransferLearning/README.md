@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T15:14:56+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "my"
-}
--->
 # Pre-trained Networks and Transfer Learning
 
 CNN များကို သင်ကြားရန် အချိန်များစွာ လိုအပ်ပြီး အချက်အလက်များစွာ လိုအပ်ပါသည်။ သို့သော် အချိန်အများစုမှာ ပုံများမှ pattern များကို ထုတ်ယူရန် အသုံးပြုနိုင်သော အနိမ့်အဆင့် filter များကို သင်ယူရန် အသုံးပြုသည်။ သဘာဝအတိုင်း မေးခွန်းတစ်ခု ထွက်ပေါ်လာသည် - တစ်ခုသော dataset တွင် သင်ကြားထားသော neural network ကို အသုံးပြု၍ အခြားပုံများကို အပြည့်အဝ သင်ကြားမှုမလိုအပ်ဘဲ ခွဲခြားနိုင်မည်လား?

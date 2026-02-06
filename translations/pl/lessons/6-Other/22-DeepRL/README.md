@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T13:50:30+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "pl"
-}
--->
 # Deep Reinforcement Learning
 
 Uczenie przez wzmacnianie (RL) jest uważane za jeden z podstawowych paradygmatów uczenia maszynowego, obok uczenia nadzorowanego i nienadzorowanego. Podczas gdy w uczeniu nadzorowanym opieramy się na zbiorze danych z określonymi wynikami, RL bazuje na **uczeniu się przez działanie**. Na przykład, gdy po raz pierwszy widzimy grę komputerową, zaczynamy grać, nawet nie znając zasad, a wkrótce jesteśmy w stanie poprawić swoje umiejętności dzięki samemu procesowi grania i dostosowywania swojego zachowania.
@@ -34,7 +25,7 @@ Prawdopodobnie wszyscy widzieliście nowoczesne urządzenia balansujące, takie 
 
 Uproszczona wersja balansowania jest znana jako problem **CartPole**. W świecie CartPole mamy poziomy suwak, który może poruszać się w lewo lub w prawo, a celem jest balansowanie pionowego drążka na szczycie suwaka podczas jego ruchu.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/pl/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Aby stworzyć i używać tego środowiska, potrzebujemy kilku linii kodu w Pythonie:
 

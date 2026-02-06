@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:39:51+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "bn"
-}
--->
 # AI-For-Beginners সমস্যার সমাধানের গাইড
 
 এই গাইডটি আপনাকে [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) রিপোজিটরি ব্যবহার বা এতে অবদান রাখার সময় সাধারণ সমস্যাগুলি সমাধান করতে সাহায্য করবে। প্রতিটি সমস্যার পেছনের কারণ, লক্ষণ, ব্যাখ্যা এবং ধাপে ধাপে সমাধান অন্তর্ভুক্ত রয়েছে।

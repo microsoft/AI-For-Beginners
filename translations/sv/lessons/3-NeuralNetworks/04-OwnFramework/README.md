@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T09:21:43+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "sv"
-}
--->
 # Introduktion till neurala nätverk. Flerlagers perceptron
 
 I föregående avsnitt lärde du dig om den enklaste modellen för neurala nätverk – en enlagers perceptron, en linjär tvåklassklassificeringsmodell.
@@ -65,7 +56,7 @@ Gradientnedstigningsalgoritmen förblir densamma, men det blir svårare att ber�
 
 Observera att den vänstra delen av alla dessa uttryck är densamma, och därför kan vi effektivt beräkna derivatorna genom att börja från förlustfunktionen och gå "bakåt" genom beräkningsgrafen. Därför kallas metoden för att träna ett flerlagers perceptron för **backpropagation**, eller 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/sv/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: bildcitering
 

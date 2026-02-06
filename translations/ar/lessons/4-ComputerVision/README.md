@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-26T09:02:20+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "ar"
-}
--->
 # رؤية الحاسوب
 
 ![ملخص محتوى رؤية الحاسوب في رسم توضيحي](../../../../translated_images/ar/ai-computervision.6506ebebac3fbf76.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-24T21:31:28+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ko"
-}
--->
 # 딥러닝 학습 팁
 
 신경망이 깊어질수록 학습 과정이 점점 더 어려워집니다. 주요 문제 중 하나는 [소실 기울기](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) 또는 [폭발 기울기](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.)입니다. [이 글](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11)은 이러한 문제에 대한 좋은 소개를 제공합니다.

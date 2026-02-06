@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T13:09:14+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ja"
-}
--->
 # セグメンテーション
 
 以前、物体検出について学びました。これは、画像内の物体をその*バウンディングボックス*を予測することで特定する方法です。しかし、いくつかのタスクではバウンディングボックスだけでなく、より正確な物体の位置情報が必要です。このタスクは**セグメンテーション**と呼ばれます。
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 例えば、インスタンスセグメンテーションではこれらの羊は異なる物体として扱われますが、セマンティックセグメンテーションではすべての羊が1つのクラスとして表されます。
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ja/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > 画像出典：[このブログ記事](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **エンコーダ**：入力画像から特徴を抽出します。
 * **デコーダ**：その特徴を**マスク画像**に変換します。このマスク画像は元の画像と同じサイズで、クラス数に対応するチャンネル数を持っています。
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ja/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > 画像出典：[この論文](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ この技術はこの種の医療画像に特に適していますが、他にどのような現実世界の応用が考えられるでしょうか？
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ja/navi.2f20b727910110ea.webp"/>
 
 > 画像出典：PH<sup>2</sup>データベース
 

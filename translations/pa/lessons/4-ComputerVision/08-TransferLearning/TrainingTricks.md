@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-26T09:50:45+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "pa"
-}
--->
 # ਡੀਪ ਲਰਨਿੰਗ ਟ੍ਰੇਨਿੰਗ ਟ੍ਰਿਕਸ
 
 ਜਿਵੇਂ ਨਿਊਰਲ ਨੈਟਵਰਕ ਗਹਿਰੇ ਹੁੰਦੇ ਹਨ, ਉਨ੍ਹਾਂ ਦੀ ਟ੍ਰੇਨਿੰਗ ਦੀ ਪ੍ਰਕਿਰਿਆ ਹੋਰ ਅਤੇ ਹੋਰ ਮੁਸ਼ਕਲ ਹੋ ਜਾਂਦੀ ਹੈ। ਇੱਕ ਵੱਡੀ ਸਮੱਸਿਆ [ਵੈਨਿਸਿੰਗ ਗ੍ਰੇਡੀਅੰਟ](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) ਜਾਂ [ਐਕਸਪਲੋਡਿੰਗ ਗ੍ਰੇਡੀਅੰਟ](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) ਹੈ। [ਇਹ ਪੋਸਟ](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ਉਨ੍ਹਾਂ ਸਮੱਸਿਆਵਾਂ ਬਾਰੇ ਚੰਗੀ ਜਾਣਕਾਰੀ ਦਿੰਦੀ ਹੈ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T09:15:24+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "sv"
-}
--->
 # Multi-Agent System
 
 Ett av de möjliga sätten att uppnå intelligens är den så kallade **emergenta** (eller **synergetiska**) metoden, som bygger på att det kombinerade beteendet hos många relativt enkla agenter kan resultera i ett mer komplext (eller intelligent) beteende hos systemet som helhet. Teoretiskt baseras detta på principerna för [Kollektiv Intelligens](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) och [Evolutionär Cybernetik](https://en.wikipedia.org/wiki/Global_brain), som hävdar att högre nivåers system får någon form av mervärde när de kombineras korrekt från lägre nivåers system (den så kallade *principen om metasystemövergång*).
@@ -60,7 +51,7 @@ Du kan [ladda ner](https://ccl.northwestern.edu/netlogo/download.shtml) och inst
 
 En fantastisk sak med NetLogo är att det innehåller ett bibliotek med fungerande modeller som du kan prova. Gå till **File &rightarrow; Models Library**, och du har många kategorier av modeller att välja mellan.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/sv/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > En skärmdump av modellbiblioteket av Dmitry Soshnikov
 

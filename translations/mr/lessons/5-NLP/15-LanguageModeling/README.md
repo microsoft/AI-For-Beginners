@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T07:11:31+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "mr"
-}
--->
 # भाषा मॉडेलिंग
 
 सामान्य अर्थाने एम्बेडिंग्ज, जसे Word2Vec आणि GloVe, हे **भाषा मॉडेलिंग**कडे जाण्याचा पहिला टप्पा आहेत - असे मॉडेल तयार करणे जे काही प्रमाणात भाषेची *समज* (किंवा *प्रतिनिधित्व*) करू शकतात.

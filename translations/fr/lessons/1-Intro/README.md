@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T20:30:45+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "fr"
-}
--->
 # Introduction à l'IA
 
 ![Résumé du contenu de l'introduction à l'IA sous forme de dessin](../../../../translated_images/fr/ai-intro.bf28d1ac4235881c.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T08:40:35+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "ur"
-}
--->
 # اسائنمنٹ: ٹرانسفارمرز
 
 HuggingFace پر ٹرانسفارمرز کے ساتھ تجربہ کریں! ان کے فراہم کردہ اسکرپٹس کو آزمائیں تاکہ ان کی ویب سائٹ پر دستیاب مختلف ماڈلز کے ساتھ کام کیا جا سکے: https://huggingface.co/docs/transformers/run_scripts۔ ان کے ڈیٹاسیٹس میں سے ایک آزمائیں، پھر اس نصاب یا Kaggle سے اپنا ڈیٹاسیٹ درآمد کریں اور دیکھیں کہ کیا آپ دلچسپ متن تیار کر سکتے ہیں۔ اپنی دریافتوں کے ساتھ ایک نوٹ بک تیار کریں۔

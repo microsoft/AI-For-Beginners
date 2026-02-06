@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T07:38:50+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "pa"
-}
--->
 # ਜਨਰੇਟਿਵ ਨੈਟਵਰਕਸ
 
 ## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਜਦੋਂ ਟੈਕਸਟ ਪੈਦਾ ਕਰਨਾ (ਇਨਫਰੈਂਸ ਦੌਰਾਨ), ਅਸੀਂ ਕੁਝ **ਪ੍ਰਾਂਪਟ** ਨਾਲ ਸ਼ੁਰੂ ਕਰਦੇ ਹਾਂ, ਜਿਸਨੂੰ RNN ਸੈਲਸ ਵਿੱਚੋਂ ਪਾਸ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਜੋ ਇਸਦਾ ਮੱਧਵਰਤੀ ਸਟੇਟ ਪੈਦਾ ਕੀਤਾ ਜਾ ਸਕੇ, ਅਤੇ ਫਿਰ ਇਸ ਸਟੇਟ ਤੋਂ ਜਨਰੇਸ਼ਨ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ। ਅਸੀਂ ਇੱਕ ਸਮੇਂ ਵਿੱਚ ਇੱਕ ਕਿਰਦਾਰ ਪੈਦਾ ਕਰਦੇ ਹਾਂ, ਅਤੇ ਸਟੇਟ ਅਤੇ ਪੈਦਾ ਕੀਤੇ ਕਿਰਦਾਰ ਨੂੰ ਅਗਲੇ RNN ਸੈਲ ਵਿੱਚ ਪਾਸ ਕਰਦੇ ਹਾਂ ਤਾਂ ਜੋ ਅਗਲਾ ਪੈਦਾ ਕੀਤਾ ਜਾ ਸਕੇ, ਜਦੋਂ ਤੱਕ ਅਸੀਂ ਕਾਫ਼ੀ ਕਿਰਦਾਰ ਪੈਦਾ ਨਹੀਂ ਕਰ ਲੈਂਦੇ।
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/pa/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > ਚਿੱਤਰ ਲੇਖਕ ਦੁਆਰਾ
 

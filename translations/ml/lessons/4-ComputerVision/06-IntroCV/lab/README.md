@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-11-25T22:41:02+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ml"
-}
--->
 # ഓപ്റ്റിക്കൽ ഫ്ലോ ഉപയോഗിച്ച് ചലനങ്ങൾ കണ്ടെത്തൽ
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) ലാബ് അസൈൻമെന്റ്.

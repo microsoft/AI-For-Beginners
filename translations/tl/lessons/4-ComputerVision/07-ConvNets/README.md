@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T06:52:36+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "tl"
-}
--->
 # Convolutional Neural Networks
 
 Nakita na natin dati na ang neural networks ay mahusay sa pagproseso ng mga imahe, at kahit ang isang layer na perceptron ay kayang kilalanin ang mga handwritten digits mula sa MNIST dataset na may makatwirang katumpakan. Gayunpaman, ang MNIST dataset ay espesyal, dahil lahat ng digits ay nakasentro sa loob ng imahe, na nagpapadali sa gawain.
@@ -24,7 +15,7 @@ Upang makuha ang mga pattern, gagamit tayo ng konsepto ng **convolutional filter
 
 Halimbawa, kung mag-aapply tayo ng 3x3 vertical edge at horizontal edge filters sa MNIST digits, makakakuha tayo ng mga highlight (hal. mataas na values) kung saan may mga vertical at horizontal edges sa orihinal na imahe. Kaya ang dalawang filters na ito ay maaaring gamitin upang "hanapin" ang mga edges. Katulad nito, maaari tayong magdisenyo ng iba't ibang filters upang hanapin ang iba pang low-level patterns:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/tl/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Larawan ng [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

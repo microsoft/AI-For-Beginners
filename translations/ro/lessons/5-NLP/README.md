@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-25T21:28:27+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "ro"
-}
--->
 # Procesarea Limbajului Natural
 
 ![Rezumat al sarcinilor NLP într-un desen](../../../../translated_images/ro/ai-nlp.b22dcb8ca4707cea.webp)

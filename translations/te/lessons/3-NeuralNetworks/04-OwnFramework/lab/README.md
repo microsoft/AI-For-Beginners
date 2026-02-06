@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-11-25T21:52:39+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "te"
-}
--->
 # మన స్వంత ఫ్రేమ్‌వర్క్‌తో MNIST వర్గీకరణ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) నుండి ల్యాబ్ అసైన్‌మెంట్.

@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T06:52:39+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "lt"
-}
--->
 # Žinių Atstovavimas ir Ekspertų Sistemos
 
-![Santrauka apie simbolinį DI turinį](../../../../../../translated_images/lt/ai-symbolic.715a30cb610411a6.webp)
+![Santrauka apie simbolinį DI turinį](../../../../translated_images/lt/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autorius [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Dažniausiai mes griežtai neapibrėžiame žinių, tačiau jas susiejame su kit
 
 Taigi, problema **žinių atstovavimas** reiškia efektyvų būdą reprezentuoti žinias kompiuterio viduje kaip duomenis, kad jos būtų automatiškai panaudojamos. Tai galima matyti kaip spektrą:
 
-![Žinių atstovavimo spektras](../../../../../../translated_images/lt/knowledge-spectrum.b60df631852c0217.webp)
+![Žinių atstovavimo spektras](../../../../translated_images/lt/knowledge-spectrum.b60df631852c0217.webp)
 
 > Paveikslėlis autorius [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Blokų sintaksė | Įtraukimas | | |
 
 Viena iš ankstyvųjų simbolinio DI sėkmių buvo vadinamosios **ekspertų sistemos** – kompiuterinės sistemos, sukurtos veikti kaip ekspertas tam tikroje ribotoje problemų srityje. Jos buvo pagrįstos iš vieno ar kelių žmogiškųjų ekspertų išgautomis **žinių bazėmis** ir turėjo **išvedimo variklį**, kuris atlikdavo tam tikrus samprotavimus.
 
-![Žmogaus architektūra](../../../../../../translated_images/lt/arch-human.5d4d35f1bba3ab1c.webp) | ![Žinių bazės sistema](../../../../../../translated_images/lt/arch-kbs.3ec5c150b09fa8da.webp)
+![Žmogaus architektūra](../../../../translated_images/lt/arch-human.5d4d35f1bba3ab1c.webp) | ![Žinių bazės sistema](../../../../translated_images/lt/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Supaprastinta žmogaus nervų sistemos struktūra | Žinių bazės sistemos architektūra
 
@@ -106,7 +97,7 @@ Ekspertų sistemos yra kuriamos panašiai kaip žmogaus mąstymo sistema, kuri t
 
 Pavyzdžiui, apsvarstykime ekspertų sistemą, kuri nustato gyvūną pagal jo fizines savybes:
 
-![AND-ARBO medis](../../../../../../translated_images/lt/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-ARBO medis](../../../../translated_images/lt/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Paveikslėlis autorius [Dmitry Soshnikov](http://soshnikov.com)
 

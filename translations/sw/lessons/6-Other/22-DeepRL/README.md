@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T10:58:17+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "sw"
-}
--->
 # Kujifunza Kuimarisha Kina (Deep Reinforcement Learning)
 
 Kujifunza kuimarisha (Reinforcement Learning - RL) ni mojawapo ya mifumo ya msingi ya kujifunza kwa mashine, sambamba na kujifunza kwa usimamizi (supervised learning) na kujifunza bila usimamizi (unsupervised learning). Wakati katika kujifunza kwa usimamizi tunategemea seti ya data yenye matokeo yanayojulikana, RL inategemea **kujifunza kwa kufanya**. Kwa mfano, tunapoona mchezo wa kompyuta kwa mara ya kwanza, tunaanza kucheza hata bila kujua sheria, na hivi karibuni tunaweza kuboresha ujuzi wetu kupitia mchakato wa kucheza na kurekebisha tabia zetu.
@@ -34,7 +25,7 @@ Labda umewahi kuona vifaa vya kisasa vya kusawazisha kama *Segway* au *Gyroscoot
 
 Toleo rahisi la kusawazisha linajulikana kama tatizo la **CartPole**. Katika ulimwengu wa CartPole, tuna slider ya mlalo inayoweza kusogea kushoto au kulia, na lengo ni kusawazisha nguzo wima juu ya slider inaposogea.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/sw/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Ili kuunda na kutumia mazingira haya, tunahitaji mistari michache ya msimbo wa Python:
 

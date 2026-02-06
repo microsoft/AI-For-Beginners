@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T09:59:02+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "fi"
-}
--->
 # Generatiiviset vastakkaiset verkot
 
 Edellisessä osiossa opimme **generatiivisista malleista**: malleista, jotka voivat luoda uusia kuvia, jotka muistuttavat koulutusdatan kuvia. VAE oli hyvä esimerkki generatiivisesta mallista.
@@ -17,7 +8,7 @@ Kuitenkin, jos yritämme luoda jotain todella merkityksellistä, kuten maalaukse
 
 GANin pääidea on käyttää kahta neuroverkkoa, jotka koulutetaan toisiaan vastaan:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/fi/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generaattori on hieman monimutkaisempi. Voit ajatella sen olevan käänteinen di
 
 > ✅ Koska konvoluutiokerros toteutetaan lineaarisena suodattimena, joka kulkee kuvan läpi, dekonvoluutio on pohjimmiltaan samanlainen kuin konvoluutio ja voidaan toteuttaa samalla kerroslogiikalla.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/fi/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Kuva: [Dmitry Soshnikov](http://soshnikov.com)
 

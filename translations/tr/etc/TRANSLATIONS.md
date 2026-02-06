@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T07:40:47+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "tr"
-}
--->
 # Dersleri Çevirerek Katkıda Bulunun
 
 Bu müfredattaki derslerin çevirilerini memnuniyetle karşılıyoruz!

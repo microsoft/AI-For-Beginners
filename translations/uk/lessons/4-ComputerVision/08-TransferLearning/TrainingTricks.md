@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-25T23:15:13+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "uk"
-}
--->
 # Трюки для тренування глибокого навчання
 
 Коли нейронні мережі стають глибшими, процес їхнього тренування стає дедалі складнішим. Однією з основних проблем є так звані [зникаючі градієнти](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) або [вибухаючі градієнти](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Ця стаття](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) дає гарне введення в ці проблеми.

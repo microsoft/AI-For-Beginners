@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T09:37:09+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "da"
-}
--->
 # Repræsentation af tekst som tensorer
 
 ## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Vores mål vil være at klassificere nyhedsartiklen i en af kategorierne baseret
 
 Hvis vi vil løse opgaver inden for Natural Language Processing (NLP) med neurale netværk, skal vi finde en måde at repræsentere tekst som tensorer. Computere repræsenterer allerede teksttegn som tal, der kortlægges til skrifttyper på din skærm ved hjælp af kodninger som ASCII eller UTF-8.
 
-<img alt="Billede, der viser diagrammet, der kortlægger et tegn til en ASCII- og binær repræsentation" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Billede, der viser diagrammet, der kortlægger et tegn til en ASCII- og binær repræsentation" src="../../../../../translated_images/da/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Billedkilde](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ I nogle tilfælde kan vi overveje at bruge tri-grams -- kombinationer af tre ord
 
 Når vi løser opgaver som tekstklassifikation, skal vi kunne repræsentere tekst med én vektor af fast størrelse, som vi vil bruge som input til den endelige tætte klassifikator. En af de enkleste måder at gøre dette på er at kombinere alle individuelle ordrepræsentationer, f.eks. ved at lægge dem sammen. Hvis vi lægger one-hot encodings af hvert ord sammen, ender vi med en vektor af frekvenser, der viser, hvor mange gange hvert ord optræder i teksten. En sådan repræsentation af tekst kaldes **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/da/bow.3811869cff59368d.webp" width="90%"/>
 
 > Billede af forfatteren
 

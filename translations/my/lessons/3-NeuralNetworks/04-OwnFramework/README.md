@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T15:22:12+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "my"
-}
--->
 # နယူးရယ်နက်ဝါ့ခ်များကို မိတ်ဆက်ခြင်း။ Multi-Layered Perceptron
 
 ယခင်အပိုင်းတွင် သင်သည် အလွယ်ဆုံး နယူးရယ်နက်ဝါ့ခ် မော်ဒယ် - တစ်လွှာတည်းရှိသော perceptron, linear two-class classification မော်ဒယ်ကို လေ့လာခဲ့ပါသည်။
@@ -66,7 +57,7 @@ Gradient descent algorithm သည် အတူတူပင်ဖြစ်သေ�
 
 ဤ expression များ၏ ဘယ်ဘက်ဆုံးအပိုင်းသည် အတူတူဖြစ်ပြီး loss function မှ စတင်၍ computational graph ကို "နောက်ပြန်" သွားသောအတိုင်း derivatives တွက်ချက်နိုင်သည်။ ထို့ကြောင့် multi-layered perceptron training နည်းလမ်းကို **backpropagation** သို့မဟုတ် 'backprop' ဟုခေါ်သည်။
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/my/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: image citation
 

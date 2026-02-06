@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T10:16:55+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "he"
-}
--->
 # ארכיטקטורות CNN ידועות
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 היא רשת שהשיגה דיוק של 92.7% בסיווג ImageNet top-
 
 ResNet היא משפחת מודלים שהוצעה על ידי Microsoft Research בשנת 2015. הרעיון המרכזי של ResNet הוא שימוש ב**בלוקים שאריתיים**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/he/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > תמונה מ-[המאמר הזה](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet היא משפחת מודלים שהוצעה על ידי Microsoft Researc
 
 ארכיטקטורת Google Inception לוקחת את הרעיון הזה צעד אחד קדימה, ובונה כל שכבת רשת כקומבינציה של מספר מסלולים שונים:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/he/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > תמונה מ-[Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-11-25T23:03:17+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "kn"
-}
--->
 # ಪುನರಾವರ್ತಿತ ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳು
 
 ## [ಪೂರ್ವ-ಲೇಕ್ಚರ್ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ai/quiz/31)

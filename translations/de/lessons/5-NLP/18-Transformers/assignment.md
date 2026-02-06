@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-24T09:32:15+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "de"
-}
--->
 # Aufgabe: Transformers
 
 Experimentiere mit Transformers auf HuggingFace! Probiere einige der Skripte aus, die sie bereitstellen, um mit den verschiedenen Modellen auf ihrer Website zu arbeiten: https://huggingface.co/docs/transformers/run_scripts. Teste eines ihrer Datensätze, importiere dann einen eigenen aus diesem Lehrplan oder von Kaggle und schau, ob du interessante Texte generieren kannst. Erstelle ein Notebook mit deinen Ergebnissen.

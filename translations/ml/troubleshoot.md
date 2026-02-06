@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-11-25T20:17:46+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ml"
-}
--->
 # AI-For-Beginners പ്രശ്നപരിഹാര ഗൈഡ്
 
 [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) റിപോസിറ്ററി ഉപയോഗിക്കുമ്പോഴോ സംഭാവന നൽകുമ്പോഴോ നേരിടുന്ന സാധാരണ പ്രശ്നങ്ങൾ പരിഹരിക്കാൻ ഈ ഗൈഡ് സഹായിക്കും. ഓരോ പ്രശ്നത്തിനും പശ്ചാത്തലം, ലക്ഷണങ്ങൾ, വിശദീകരണങ്ങൾ, ഘട്ടം ഘട്ടമായ പരിഹാരങ്ങൾ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്.

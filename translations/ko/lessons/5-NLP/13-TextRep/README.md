@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T13:26:08+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ko"
-}
--->
 # 텍스트를 텐서로 표현하기
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 신경망을 사용하여 자연어 처리(NLP) 작업을 해결하려면 텍스트를 텐서로 표현할 방법이 필요합니다. 컴퓨터는 이미 ASCII나 UTF-8과 같은 인코딩을 사용하여 화면의 글꼴에 매핑되는 숫자로 텍스트 문자를 표현합니다.
 
-<img alt="문자를 ASCII 및 이진 표현으로 매핑하는 다이어그램을 보여주는 이미지" src="images/ascii-character-map.png" width="50%"/>
+<img alt="문자를 ASCII 및 이진 표현으로 매핑하는 다이어그램을 보여주는 이미지" src="../../../../../translated_images/ko/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [이미지 출처](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 텍스트 분류와 같은 작업을 해결할 때, 우리는 텍스트를 고정 크기의 벡터로 표현할 수 있어야 하며, 이를 최종 밀집 분류기에 입력으로 사용할 것입니다. 이를 수행하는 가장 간단한 방법 중 하나는 개별 단어 표현을 결합하는 것입니다. 예를 들어, 각 단어의 원-핫 인코딩을 더하면 텍스트 내에서 각 단어가 나타나는 빈도를 보여주는 벡터를 얻게 됩니다. 이러한 텍스트 표현을 **Bag-of-Words**(BoW)라고 합니다.
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/ko/bow.3811869cff59368d.webp" width="90%"/>
 
 > 이미지 제공: 저자
 

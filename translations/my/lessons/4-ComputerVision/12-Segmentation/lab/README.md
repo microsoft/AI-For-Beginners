@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "365f0decfe0f47b460bbde8227c5009d",
-  "translation_date": "2025-08-25T22:38:00+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
-  "language_code": "my"
-}
--->
 # လူ့ခန္ဓာကိုယ် အပိုင်းခွဲခြားခြင်း
 
 လက်တွေ့လေ့ကျင့်ရေး အလုပ်စီမံကိန်း - [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) မှ။

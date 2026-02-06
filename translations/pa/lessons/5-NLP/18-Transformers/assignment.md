@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T08:41:10+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "pa"
-}
--->
 # ਅਸਾਈਨਮੈਂਟ: ਟ੍ਰਾਂਸਫਾਰਮਰਜ਼
 
 HuggingFace 'ਤੇ ਟ੍ਰਾਂਸਫਾਰਮਰਜ਼ ਨਾਲ ਅਨੁਭਵ ਕਰੋ! ਉਹਨਾਂ ਦੇ ਵੱਖ-ਵੱਖ ਮਾਡਲਾਂ ਨਾਲ ਕੰਮ ਕਰਨ ਲਈ ਉਪਲਬਧ ਸਕ੍ਰਿਪਟਾਂ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ: https://huggingface.co/docs/transformers/run_scripts। ਉਹਨਾਂ ਦੇ ਡੇਟਾਸੈਟਾਂ ਵਿੱਚੋਂ ਇੱਕ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਫਿਰ ਇਸ ਕੋਰਸ ਜਾਂ Kaggle ਤੋਂ ਆਪਣਾ ਡੇਟਾ ਆਯਾਤ ਕਰੋ ਅਤੇ ਵੇਖੋ ਕਿ ਕੀ ਤੁਸੀਂ ਦਿਲਚਸਪ ਟੈਕਸਟ ਜਨਰੇਟ ਕਰ ਸਕਦੇ ਹੋ। ਆਪਣੇ ਨਤੀਜਿਆਂ ਨਾਲ ਇੱਕ ਨੋਟਬੁੱਕ ਤਿਆਰ ਕਰੋ।

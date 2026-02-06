@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T07:18:07+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "ne"
-}
--->
 # सेग्मेन्टेसन
 
 हामीले पहिले **Object Detection** को बारेमा सिकेका थियौं, जसले हामीलाई तस्बिरमा वस्तुहरूको *bounding boxes* भविष्यवाणी गरेर तिनीहरूको स्थान पत्ता लगाउन मद्दत गर्छ। तर, केही कार्यहरूको लागि हामीलाई केवल bounding boxes मात्र होइन, वस्तुको अझै सटीक स्थान पत्ता लगाउन आवश्यक हुन्छ। यस कार्यलाई **सेग्मेन्टेसन** भनिन्छ।
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 उदाहरणका लागि, instance segmentation मा यी भेडाहरू अलग-अलग वस्तुहरू हुन्, तर semantic segmentation मा सबै भेडाहरू एउटै वर्गले प्रतिनिधित्व गरिन्छ।
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/ne/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > तस्बिर [यस ब्लग पोस्ट](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) बाट।
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Encoder** इनपुट तस्बिरबाट विशेषताहरू निकाल्छ।
 * **Decoder** ती विशेषताहरूलाई **mask image** मा रूपान्तरण गर्छ, जसको आकार र च्यानलहरूको संख्या वर्गहरूको संख्यालाई प्रतिनिधित्व गर्छ।
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/ne/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > तस्बिर [यस प्रकाशन](https://arxiv.org/pdf/2001.05566.pdf) बाट।
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ यो प्रविधि विशेष रूपमा यस प्रकारको मेडिकल इमेजिङका लागि उपयुक्त छ, तर तपाईं अन्य वास्तविक-जीवन अनुप्रयोगहरू के कल्पना गर्न सक्नुहुन्छ?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/ne/navi.2f20b727910110ea.webp"/>
 
 > तस्बिर PH<sup>2</sup> Database बाट।
 

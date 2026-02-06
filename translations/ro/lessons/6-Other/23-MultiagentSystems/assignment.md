@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:10+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "ro"
-}
--->
 # Tema NetLogo
 
 Alege unul dintre modelele din biblioteca NetLogo și folosește-l pentru a simula o situație din viața reală cât mai fidel posibil. Un exemplu bun ar fi să modifici modelul Virus din folderul Alternative Visualizations pentru a arăta cum poate fi utilizat pentru a modela răspândirea COVID-19. Poți construi un model care să imite răspândirea reală a unui virus?

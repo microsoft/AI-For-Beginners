@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-11-25T20:29:48+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "te"
-}
--->
 # మద్దతు
 
 ## సమస్యలను ఎలా నమోదు చేయాలి మరియు సహాయం పొందాలి  

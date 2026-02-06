@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-24T10:13:05+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "fa"
-}
--->
 # تکلیف: نوت‌بوک‌ها
 
 با استفاده از نوت‌بوک‌های مرتبط با این درس (نسخه PyTorch یا TensorFlow)، آن‌ها را با استفاده از دیتاست خودتان دوباره اجرا کنید، شاید یک دیتاست از Kaggle که با ذکر منبع استفاده شده باشد. نوت‌بوک را بازنویسی کنید تا یافته‌های خودتان را برجسته کنید. یک نوع دیتاست متفاوت را امتحان کنید و یافته‌های خود را مستند کنید، با استفاده از متنی مانند [این دیتاست مسابقه Kaggle درباره توییت‌های آب‌وهوایی](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv).

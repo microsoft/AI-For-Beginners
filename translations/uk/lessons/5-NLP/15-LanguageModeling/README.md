@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T15:37:33+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "uk"
-}
--->
 # Моделювання мови
 
 Семантичні векторні представлення, такі як Word2Vec і GloVe, насправді є першим кроком до **моделювання мови** — створення моделей, які певним чином *розуміють* (або *представляють*) природу мови.

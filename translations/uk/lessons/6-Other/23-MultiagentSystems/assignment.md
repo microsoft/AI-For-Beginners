@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:40+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "uk"
-}
--->
 # Завдання NetLogo
 
 Візьміть одну з моделей із бібліотеки NetLogo і використайте її для максимально точного моделювання реальної ситуації. Хорошим прикладом може бути модифікація моделі Virus у папці Alternative Visualizations, щоб показати, як її можна використовувати для моделювання поширення COVID-19. Чи можете ви створити модель, яка імітує реальне поширення вірусу?

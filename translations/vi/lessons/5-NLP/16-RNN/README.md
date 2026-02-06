@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T10:35:48+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "vi"
-}
--->
 # Mạng Nơ-ron Tái Phục Hồi
 
 ## [Câu hỏi kiểm tra trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Hãy xem cách một cell RNN đơn giản được tổ chức. Nó nhận tr�
 
 Một cell RNN đơn giản có hai ma trận trọng số bên trong: một ma trận biến đổi một ký hiệu đầu vào (gọi là W), và một ma trận khác biến đổi một trạng thái đầu vào (H). Trong trường hợp này, đầu ra của mạng được tính bằng &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), trong đó &sigma; là hàm kích hoạt và b là bias bổ sung.
 
-<img alt="Cấu trúc RNN Cell" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Cấu trúc RNN Cell" src="../../../../../translated_images/vi/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Hình ảnh của tác giả
 

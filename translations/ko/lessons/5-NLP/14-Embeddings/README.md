@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
-  "translation_date": "2025-09-23T13:25:50+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/README.md",
-  "language_code": "ko"
-}
--->
 # 임베딩
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/27)

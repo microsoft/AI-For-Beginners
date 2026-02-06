@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:35:07+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "da"
-}
--->
 # Spil Jam
 
 Spil er et område, der i høj grad er blevet påvirket af udviklingen inden for AI og ML. I denne opgave skal du skrive en kort opgave om et spil, som du kan lide, og som er blevet påvirket af AI's udvikling. Det skal være et spil, der er gammelt nok til at være blevet påvirket af flere typer computerbehandlingssystemer. Et godt eksempel er skak eller Go, men kig også på videospil som Pong eller Pac-Man. Skriv et essay, der diskuterer spillets fortid, nutid og AI-fremtid.

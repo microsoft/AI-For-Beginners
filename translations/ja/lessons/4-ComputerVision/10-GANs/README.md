@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T13:09:30+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ja"
-}
--->
 # 生成的敵対的ネットワーク（Generative Adversarial Networks）
 
 前のセクションでは、**生成モデル**について学びました。これらのモデルは、トレーニングデータセットに似た新しい画像を生成することができます。VAEは生成モデルの良い例でした。
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GANの主なアイデアは、2つのニューラルネットワークを互いに競わせながらトレーニングすることです。
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ja/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > 画像提供: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generatorは少し複雑です。Discriminatorを逆にしたものと考える�
 
 > ✅ 畳み込み層が画像を横断する線形フィルターとして実装されるため、逆畳み込みは本質的に畳み込みと似ており、同じ層ロジックを使用して実装できます。
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ja/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > 画像提供: [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-25T21:59:05+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "my"
-}
--->
 # Skip-Gram မော်ဒယ်ကို လေ့ကျင့်ခြင်း
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) မှ လက်တွေ့လေ့ကျင့်ရေးအလုပ်များ။

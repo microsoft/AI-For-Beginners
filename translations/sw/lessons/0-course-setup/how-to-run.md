@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:20:07+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "sw"
-}
--->
 # Jinsi ya Kuendesha Msimbo
 
 Mtaala huu una mifano mingi inayoweza kutekelezwa na maabara ambazo ungependa kuendesha. Ili kufanya hivi, unahitaji uwezo wa kutekeleza msimbo wa Python katika Jupyter Notebooks zinazotolewa kama sehemu ya mtaala huu. Una chaguzi kadhaa za kuendesha msimbo:

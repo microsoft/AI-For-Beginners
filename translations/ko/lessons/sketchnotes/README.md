@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-24T21:35:18+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "ko"
-}
--->
 모든 커리큘럼의 스케치노트를 여기에서 다운로드할 수 있습니다.
 
 🎨 제작: Tomomi Imura (트위터: [@girlie_mac](https://twitter.com/girlie_mac), 깃허브: [girliemac](https://github.com/girliemac))

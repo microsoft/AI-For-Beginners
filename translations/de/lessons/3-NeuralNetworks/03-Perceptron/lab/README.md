@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
-  "translation_date": "2025-08-31T15:37:43+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
-  "language_code": "de"
-}
--->
 # Mehrklassenklassifikation mit Perzeptron
 
 Laboraufgabe aus dem [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-31T17:33:23+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "lt"
-}
--->
 ## Aplinka
 
 Mountain Car aplinka susideda iš automobilio, įstrigusio slėnyje. Jūsų tikslas – iššokti iš slėnio ir pasiekti vėliavą. Veiksmai, kuriuos galite atlikti, yra pagreitėti į kairę, į dešinę arba nieko nedaryti. Galite stebėti automobilio padėtį x ašyje ir jo greitį.

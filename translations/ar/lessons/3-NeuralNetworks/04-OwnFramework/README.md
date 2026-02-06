@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T06:36:00+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ar"
-}
--->
 # مقدمة في الشبكات العصبية. الشبكة العصبية متعددة الطبقات
 
 في القسم السابق، تعلمت عن أبسط نموذج للشبكات العصبية - الشبكة العصبية ذات الطبقة الواحدة، وهو نموذج تصنيف خطي ثنائي الفئات.
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 لاحظ أن الجزء الأيسر من جميع هذه التعبيرات هو نفسه، وبالتالي يمكننا حساب المشتقات بشكل فعال بدءًا من دالة الخسارة والانتقال "للخلف" عبر الرسم البياني الحسابي. لذلك تُسمى طريقة تدريب الشبكة العصبية متعددة الطبقات **الانتشار العكسي** أو 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/ar/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: مصدر الصورة
 

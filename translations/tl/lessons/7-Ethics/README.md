@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-28T02:35:56+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "tl"
-}
--->
 # Etikal at Responsableng AI
 
 Malapit mo nang matapos ang kursong ito, at sana sa puntong ito ay malinaw na sa iyo na ang AI ay nakabatay sa iba't ibang pormal na matematikal na pamamaraan na nagbibigay-daan sa atin upang matuklasan ang mga relasyon sa datos at sanayin ang mga modelo upang gayahin ang ilang aspeto ng kilos ng tao. Sa kasalukuyang panahon, itinuturing natin ang AI bilang isang napakalakas na kasangkapan upang kumuha ng mga pattern mula sa datos, at gamitin ang mga pattern na ito upang lutasin ang mga bagong problema.

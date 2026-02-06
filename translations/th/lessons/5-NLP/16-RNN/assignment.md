@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-29T09:25:50+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "th"
-}
--->
 # งาน: สมุดบันทึก
 
 ใช้สมุดบันทึกที่เกี่ยวข้องกับบทเรียนนี้ (ไม่ว่าจะเป็นเวอร์ชัน PyTorch หรือ TensorFlow) รันใหม่โดยใช้ชุดข้อมูลของคุณเอง อาจเป็นชุดข้อมูลจาก Kaggle โดยให้เครดิตแหล่งที่มา เขียนสมุดบันทึกใหม่เพื่อเน้นผลการค้นพบของคุณเอง ลองใช้ชุดข้อมูลประเภทอื่นและบันทึกผลการค้นพบของคุณ โดยใช้ข้อความเช่น [ชุดข้อมูลการแข่งขัน Kaggle เกี่ยวกับทวีตสภาพอากาศนี้](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T11:13:18+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "hu"
-}
--->
 # Generatív Adverzális Hálózatok
 
 Az előző részben megismerkedtünk a **generatív modellekkel**: olyan modellekkel, amelyek képesek új képeket generálni, hasonlóan a tanító adathalmazban lévőkhöz. A VAE jó példája volt egy generatív modellnek.
@@ -17,7 +8,7 @@ Azonban, ha valami igazán jelentős dolgot szeretnénk generálni, például eg
 
 A GAN fő ötlete, hogy két neurális hálózatot tanítunk egymás ellen:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/hu/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Kép: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ A generátor valamivel bonyolultabb. Úgy tekinthetjük, mint egy fordított dis
 
 > ✅ Mivel a konvolúciós réteg lineáris szűrőként működik, amely végighalad a képen, a dekonvolúció lényegében hasonló a konvolúcióhoz, és ugyanazzal a réteglogikával megvalósítható.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/hu/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Kép: [Dmitry Soshnikov](http://soshnikov.com)
 

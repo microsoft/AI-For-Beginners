@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
-  "translation_date": "2025-11-18T18:42:46+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
-  "language_code": "pcm"
-}
--->
 # Word-level Text Generation wit RNNs
 
 Lab Assignment from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

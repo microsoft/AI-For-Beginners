@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T22:21:42+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "et"
-}
--->
 # Mängu Jam
 
 Mängud on valdkond, mida on tugevalt mõjutanud tehisintellekti ja masinõppe areng. Selles ülesandes kirjuta lühike essee mängust, mis sulle meeldib ja mida on mõjutanud tehisintellekti areng. See peaks olema piisavalt vana mäng, et seda oleks mõjutanud mitut tüüpi arvutitöötlussüsteemid. Hea näide on male või Go, aga vaata ka videomänge nagu Pong või Pac-Man. Kirjuta essee, mis käsitleb mängu minevikku, olevikku ja tehisintellekti tulevikku.

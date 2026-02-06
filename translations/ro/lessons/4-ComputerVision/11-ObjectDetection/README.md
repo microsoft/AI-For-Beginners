@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T14:16:12+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "ro"
-}
--->
 # Detectarea Obiectelor
 
 Modelele de clasificare a imaginilor pe care le-am abordat până acum au luat o imagine și au produs un rezultat categoric, cum ar fi clasa 'număr' într-o problemă MNIST. Totuși, în multe cazuri nu dorim doar să știm că o imagine conține obiecte - vrem să putem determina locația lor exactă. Acesta este scopul **detectării obiectelor**.

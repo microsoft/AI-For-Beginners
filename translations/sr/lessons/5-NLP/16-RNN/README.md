@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T14:47:46+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "sr"
-}
--->
 # Рекурентне неуронске мреже
 
 ## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Једноставна RNN ћелија има две матрице тежина унутар себе: једна трансформише улазни симбол (назовимо је W), а друга трансформише улазно стање (H). У овом случају излаз мреже се рачуна као &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), где је &sigma; активациона функција, а b је додатна пристрасност.
 
-<img alt="Анатомија RNN ћелије" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Анатомија RNN ћелије" src="../../../../../translated_images/sr/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Слика аутора
 

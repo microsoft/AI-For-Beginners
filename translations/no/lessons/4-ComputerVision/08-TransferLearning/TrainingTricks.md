@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-28T15:17:10+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "no"
-}
--->
 # Triks for Trening av Dype Nevrale Nettverk
 
 Etter hvert som nevrale nettverk blir dypere, blir treningsprosessen stadig mer utfordrende. Et stort problem er de såkalte [forsvinnende gradientene](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) eller [eksploderende gradientene](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Denne artikkelen](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) gir en god introduksjon til disse problemene.

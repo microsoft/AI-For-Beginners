@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-11-18T18:16:25+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "pcm"
-}
--->
 # Pre-trained Networks and Transfer Learning
 
 To train CNNs dey fit take plenty time, and e go need plenty data to do am. But most of di time, na to learn di best low-level filters wey network fit use to sabi patterns from images. Di question wey go come be - we fit use neural network wey dem don train for one dataset and adjust am to classify different images without to train am from scratch?

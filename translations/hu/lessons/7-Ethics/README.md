@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T21:23:45+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "hu"
-}
--->
 # Etikus és Felelős Mesterséges Intelligencia
 
 Majdnem befejezted ezt a kurzust, és remélem, hogy mostanra világosan látod, hogy a mesterséges intelligencia számos formális matematikai módszeren alapul, amelyek lehetővé teszik számunkra, hogy kapcsolatokat találjunk az adatokban, és modelleket képezzünk ki az emberi viselkedés bizonyos aspektusainak utánzására. A történelem ezen pontján a mesterséges intelligenciát egy nagyon erőteljes eszköznek tekintjük, amely segít mintázatokat kinyerni az adatokból, és ezeket a mintázatokat új problémák megoldására alkalmazni.

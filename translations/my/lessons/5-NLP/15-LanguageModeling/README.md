@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T15:24:05+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "my"
-}
--->
 # Language Modeling
 
 Semantic embeddings, Word2Vec နှင့် GloVe က **ဘာသာစကားမော်ဒယ်** ဖန်တီးခြင်းဆီသို့ ပထမအဆင့်အဖြစ် သွားရောက်နေသည်။ ၎င်းသည် ဘာသာစကား၏ သဘာဝကို *နားလည်* (သို့မဟုတ် *ကိုယ်စားပြု*) နိုင်သော မော်ဒယ်များ ဖန်တီးရန် ရည်ရွယ်သည်။

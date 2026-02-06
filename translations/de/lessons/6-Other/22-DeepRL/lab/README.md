@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T09:39:10+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "de"
-}
--->
 ## Die Umgebung
 
 Die Mountain Car-Umgebung besteht aus einem Auto, das in einem Tal gefangen ist. Dein Ziel ist es, aus dem Tal herauszuspringen und die Fahne zu erreichen. Die Aktionen, die du ausführen kannst, sind: nach links beschleunigen, nach rechts beschleunigen oder nichts tun. Du kannst die Position des Autos entlang der x-Achse und die Geschwindigkeit beobachten.

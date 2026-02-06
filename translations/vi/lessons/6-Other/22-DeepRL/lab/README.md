@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-29T12:15:53+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "vi"
-}
--->
 ## Môi trường
 
 Môi trường Mountain Car bao gồm một chiếc xe bị mắc kẹt trong một thung lũng. Mục tiêu của bạn là nhảy ra khỏi thung lũng và đến được lá cờ. Các hành động bạn có thể thực hiện là tăng tốc sang trái, sang phải, hoặc không làm gì cả. Bạn có thể quan sát vị trí của xe dọc theo trục x và vận tốc.

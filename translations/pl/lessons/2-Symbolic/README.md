@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T14:28:10+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "pl"
-}
--->
 # Reprezentacja Wiedzy i Systemy Eksperckie
 
-![Podsumowanie treści Symbolicznej AI](../../../../../../translated_images/pl/ai-symbolic.715a30cb610411a6.webp)
+![Podsumowanie treści Symbolicznej AI](../../../../translated_images/pl/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autorstwa [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Najczęściej nie definiujemy wiedzy ściśle, ale wyrównujemy ją z innymi pok
 
 Problematyka **reprezentacji wiedzy** polega zatem na znalezieniu skutecznego sposobu przedstawienia wiedzy w komputerze w formie danych, aby mogła być automatycznie wykorzystywana. Można to zobaczyć jako spektrum:
 
-![Spektrum reprezentacji wiedzy](../../../../../../translated_images/pl/knowledge-spectrum.b60df631852c0217.webp)
+![Spektrum reprezentacji wiedzy](../../../../translated_images/pl/knowledge-spectrum.b60df631852c0217.webp)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Składnia bloku | Wcięcie | | |
 
 Jednym z wczesnych sukcesów symbolicznej AI były tzw. **systemy eksperckie** - systemy komputerowe zaprojektowane do działania jako ekspert w ograniczonym obszarze problemowym. Opierały się na **bazie wiedzy** wydobytej od jednego lub więcej ekspertów oraz zawierały **silnik wnioskowania**, który wykonywał pewne rozumowania na jej podstawie.
 
-![Architektura ludzka](../../../../../../translated_images/pl/arch-human.5d4d35f1bba3ab1c.webp) | ![System oparty na wiedzy](../../../../../../translated_images/pl/arch-kbs.3ec5c150b09fa8da.webp)
+![Architektura ludzka](../../../../translated_images/pl/arch-human.5d4d35f1bba3ab1c.webp) | ![System oparty na wiedzy](../../../../translated_images/pl/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Uproszczona struktura ludzkiego systemu nerwowego | Architektura systemu opartego na wiedzy
 
@@ -106,7 +97,7 @@ Systemy eksperckie są budowane na wzór ludzkiego systemu rozumowania, który z
 
 Na przykład rozważmy system ekspercki do identyfikacji zwierzęcia na podstawie jego cech fizycznych:
 
-![Drzewo AND-OR](../../../../../../translated_images/pl/AND-OR-Tree.5592d2c70187f283.webp)
+![Drzewo AND-OR](../../../../translated_images/pl/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Obraz autorstwa [Dmitry Soshnikov](http://soshnikov.com)
 

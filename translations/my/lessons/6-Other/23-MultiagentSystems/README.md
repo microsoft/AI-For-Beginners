@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T15:12:50+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "my"
-}
--->
 # Multi-Agent Systems
 
 တစ်ခုတည်းသောနည်းလမ်းဖြင့် ဉာဏ်ရည်ရှိမှုကို ရရှိစေခြင်းသည် **ပေါ်ပေါက်မှု** (သို့မဟုတ် **synergetic**) နည်းလမ်းအပေါ် အခြေခံထားသည်။ ၎င်းသည် အလွန်ရိုးရှင်းသော agent များစွာ၏ ပေါင်းစပ်အပြုအမူသည် စနစ်တစ်ခုလုံး၏ ပိုမိုရှုပ်ထွေးသော (သို့မဟုတ် ဉာဏ်ရည်ရှိသော) အပြုအမူကို ဖြစ်ပေါ်စေသည်ဟု ဆိုသည်။ သီအိုရီအရ၊ ၎င်းသည် [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) နှင့် [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain) ၏ မူဝါဒများအပေါ် အခြေခံထားသည်။ ၎င်းတို့က အဆင့်မြင့်စနစ်များသည် အဆင့်နိမ့်စနစ်များမှ သင့်တော်စွာ ပေါင်းစည်းခြင်းဖြင့် တန်ဖိုးတစ်ခုခုကို ထပ်မံရရှိနိုင်သည်ဟု ဆိုသည် (*principle of metasystem transition* ဟုခေါ်သည်)။
@@ -60,7 +51,7 @@ NetLogo ကို [download](https://ccl.northwestern.edu/netlogo/download.shtml
 
 NetLogo ၏ အထူးကောင်းမွန်မှုမှာ ၎င်းတွင် စမ်းသပ်နိုင်သော working models များ library ပါဝင်သည်။ **File &rightarrow; Models Library** သို့ သွားပါ၊ ၎င်းတွင် models အမျိုးအစားများစွာ ရွေးချယ်နိုင်သည်။
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/my/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Dmitry Soshnikov ၏ models library screenshot
 

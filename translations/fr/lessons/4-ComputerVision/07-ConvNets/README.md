@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T11:55:55+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "fr"
-}
--->
 # Réseaux de Neurones Convolutionnels
 
 Nous avons vu précédemment que les réseaux de neurones sont assez performants pour traiter les images, et même un perceptron à une seule couche est capable de reconnaître les chiffres manuscrits du jeu de données MNIST avec une précision raisonnable. Cependant, le jeu de données MNIST est très particulier, car tous les chiffres y sont centrés dans l'image, ce qui simplifie la tâche.
@@ -24,7 +15,7 @@ Pour extraire ces motifs, nous utiliserons la notion de **filtres convolutionnel
 
 Par exemple, si nous appliquons des filtres de bord vertical et horizontal 3x3 aux chiffres du MNIST, nous obtenons des zones mises en évidence (par exemple, des valeurs élevées) là où se trouvent des bords verticaux et horizontaux dans notre image originale. Ainsi, ces deux filtres peuvent être utilisés pour "chercher" des bords. De la même manière, nous pouvons concevoir différents filtres pour détecter d'autres motifs de bas niveau :
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/fr/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Image de [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T10:04:10+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "fi"
-}
--->
 # Nimien tunnistus (Named Entity Recognition)
 
 Tähän mennessä olemme keskittyneet pääasiassa yhteen NLP-tehtävään - luokitteluun. On kuitenkin olemassa myös muita NLP-tehtäviä, joita voidaan toteuttaa neuroverkoilla. Yksi näistä tehtävistä on **[nimien tunnistus](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), joka keskittyy tunnistamaan tekstistä tiettyjä entiteettejä, kuten paikkoja, henkilön nimiä, päivämäärä- ja aikavälejä, kemiallisia kaavoja ja niin edelleen.
@@ -17,7 +8,7 @@ Tähän mennessä olemme keskittyneet pääasiassa yhteen NLP-tehtävään - luo
 
 Oletetaan, että haluat kehittää luonnollisen kielen chatbotin, joka on samanlainen kuin Amazon Alexa tai Google Assistant. Älykkäät chatbotit toimivat *ymmärtämällä* käyttäjän tarpeet tekemällä tekstiluokittelua syötteenä annettuun lauseeseen. Tämän luokittelun tuloksena saadaan niin sanottu **intentio**, joka määrittää, mitä chatbotin tulisi tehdä.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/fi/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Kuva: kirjoittaja
 

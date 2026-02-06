@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T13:15:14+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ja"
-}
--->
 # リカレントニューラルネットワーク
 
 ## [講義前クイズ](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 単純なRNNセルには内部に2つの重み行列があります。1つは入力シンボルを変換するもので（これをWと呼びます）、もう1つは入力状態を変換するものです（これをHと呼びます）。この場合、ネットワークの出力は &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) として計算されます。ここで &sigma; は活性化関数、b は追加のバイアスです。
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/ja/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > 著者による画像
 

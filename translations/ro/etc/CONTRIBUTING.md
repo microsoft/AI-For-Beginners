@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-26T00:47:33+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "ro"
-}
--->
 # Contribuții
 
 Acest proiect acceptă contribuții și sugestii. Majoritatea contribuțiilor necesită ca tu să

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T13:27:14+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "hi"
-}
--->
 # मल्टी-एजेंट सिस्टम्स
 
 बुद्धिमत्ता प्राप्त करने के संभावित तरीकों में से एक है **उभरता हुआ** (या **सिनर्जेटिक**) दृष्टिकोण, जो इस तथ्य पर आधारित है कि कई अपेक्षाकृत सरल एजेंटों का संयुक्त व्यवहार पूरे सिस्टम के अधिक जटिल (या बुद्धिमान) व्यवहार का परिणाम हो सकता है। सैद्धांतिक रूप से, यह [सामूहिक बुद्धिमत्ता](https://en.wikipedia.org/wiki/Collective_intelligence), [उभरतावाद](https://en.wikipedia.org/wiki/Global_brain) और [विकासवादी साइबरनेटिक्स](https://en.wikipedia.org/wiki/Global_brain) के सिद्धांतों पर आधारित है, जो कहते हैं कि उच्च-स्तरीय सिस्टम कुछ अतिरिक्त मूल्य प्राप्त करते हैं जब उन्हें सही तरीके से निम्न-स्तरीय सिस्टम से जोड़ा जाता है (जिसे *मेटासिस्टम ट्रांज़िशन का सिद्धांत* कहा जाता है)।
@@ -60,7 +51,7 @@ ask turtles [
 
 NetLogo की एक शानदार बात यह है कि इसमें काम करने वाले मॉडलों की एक लाइब्रेरी है जिसे आप आज़मा सकते हैं। **File &rightarrow; Models Library** पर जाएं, और आपके पास चुनने के लिए मॉडलों की कई श्रेणियां हैं।
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/hi/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > दिमित्री सोश्निकोव द्वारा मॉडल्स लाइब्रेरी का स्क्रीनशॉट
 

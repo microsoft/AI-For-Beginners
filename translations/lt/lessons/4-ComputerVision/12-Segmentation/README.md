@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T15:44:33+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "lt"
-}
--->
 # Segmentacija
 
 Anksčiau išmokome apie objektų aptikimą, kuris leidžia nustatyti objektų vietą vaizde, prognozuojant jų *ribinius langelius*. Tačiau kai kurioms užduotims mums reikia ne tik ribinių langelių, bet ir tikslesnės objektų lokalizacijos. Ši užduotis vadinama **segmentacija**.
@@ -20,7 +11,7 @@ Segmentaciją galima laikyti **pikselių klasifikacija**, kur kiekvienam vaizdo 
 
 Pavyzdžiui, objektų segmentacijoje šios avys yra skirtingi objektai, tačiau semantinėje segmentacijoje visos avys yra atvaizduojamos kaip viena klasė.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/lt/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Vaizdas iš [šio tinklaraščio įrašo](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Yra įvairių neuroninių architektūrų segmentacijai, tačiau jos visos turi t
 * **Enkoderis** išgauna savybes iš įvesties vaizdo.
 * **Dekoderis** transformuoja šias savybes į **kaukės vaizdą**, kurio dydis ir kanalų skaičius atitinka klasių skaičių.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/lt/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Vaizdas iš [šios publikacijos](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Ypatingai svarbu paminėti nuostolių funkciją, naudojamą segmentacijai. Naudo
 
 > ✅ Ši technika ypač tinkama tokio tipo medicininiam vaizdinimui, tačiau kokias kitas realaus pasaulio taikymo sritis galėtumėte įsivaizduoti?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/lt/navi.2f20b727910110ea.webp"/>
 
 > Vaizdas iš PH<sup>2</sup> duomenų bazės
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T10:18:34+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "he"
-}
--->
 # אוטואנקודרים
 
 בעת אימון רשתות CNN, אחת הבעיות היא הצורך בכמות גדולה של נתונים מתויגים. במקרה של סיווג תמונות, יש להפריד את התמונות לקבוצות שונות, מה שדורש מאמץ ידני.
@@ -46,7 +37,7 @@ VAE הוא אוטואנקודר שלומד לחזות *התפלגות סטטיס
 * אנו דוגמים וקטור `sample` מההתפלגות N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
 * המפענח מנסה לפענח את התמונה המקורית באמצעות `sample` כוקטור קלט
 
-<img src="images/vae.png" width="50%">
+<img src="../../../../../translated_images/he/vae.464c465a5b6a9e25.webp" width="50%">
 
 > תמונה מתוך [פוסט בבלוג](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) מאת Isaak Dykeman
 
@@ -57,13 +48,13 @@ VAE הוא אוטואנקודר שלומד לחזות *התפלגות סטטיס
 
 יתרון חשוב של VAEs הוא שהם מאפשרים לנו ליצור תמונות חדשות יחסית בקלות, מכיוון שאנו יודעים מאיזו התפלגות לדגום וקטורים לטנטיים. לדוגמה, אם נאמן VAE עם וקטור לטנטי דו-ממדי על MNIST, נוכל לשנות את רכיבי הוקטור הלטנטי כדי לקבל ספרות שונות:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/he/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
 שימו לב כיצד התמונות מתמזגות זו בזו, כאשר אנו מתחילים לקבל וקטורים לטנטיים מחלקים שונים של מרחב הפרמטרים הלטנטיים. ניתן גם להמחיש את המרחב הזה ב-2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/he/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 

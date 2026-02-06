@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:32:24+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "vi"
-}
--->
 # Các Ví dụ AI Dễ Hiểu
 
 Chào mừng bạn! Thư mục này chứa các ví dụ đơn giản, độc lập để giúp bạn bắt đầu với AI và học máy. Mỗi ví dụ được thiết kế thân thiện với người mới bắt đầu, kèm theo các bình luận chi tiết và hướng dẫn từng bước.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:11:46+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "nl"
-}
--->
 # Introductie tot Neurale Netwerken. Multi-Layered Perceptron
 
 In de vorige sectie heb je geleerd over het eenvoudigste model van een neuraal netwerk: de éénlaagse perceptron, een lineair tweeklassen-classificatiemodel.
@@ -65,7 +56,7 @@ Het gradient descent-algoritme blijft hetzelfde, maar het wordt moeilijker om de
 
 Merk op dat het meest linkse deel van al deze uitdrukkingen hetzelfde is, en dat we dus effectief de afgeleiden kunnen berekenen door te beginnen bij de verliesfunctie en "achterwaarts" door de computationele grafiek te gaan. Daarom wordt de methode voor het trainen van een multi-layered perceptron **backpropagation** genoemd, of 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/nl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: afbeelding bronvermelding
 

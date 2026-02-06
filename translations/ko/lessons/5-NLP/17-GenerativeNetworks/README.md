@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T13:23:37+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ko"
-}
--->
 # 생성 네트워크
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 텍스트를 생성할 때(추론 중), **프롬프트**를 시작점으로 사용하여 RNN 셀을 통해 중간 상태를 생성한 후 이 상태에서 생성을 시작합니다. 한 번에 한 문자씩 생성하며, 상태와 생성된 문자를 다음 RNN 셀에 전달하여 다음 문자를 생성합니다. 이 과정을 필요한 문자 수만큼 반복합니다.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ko/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > 이미지 출처: 작성자
 

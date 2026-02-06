@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T10:34:29+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "vi"
-}
--->
 # Mô hình Ngôn ngữ
 
 Các biểu diễn ngữ nghĩa, như Word2Vec và GloVe, thực chất là bước đầu tiên hướng tới **mô hình ngôn ngữ** - tạo ra các mô hình có thể *hiểu* (hoặc *biểu diễn*) bản chất của ngôn ngữ.

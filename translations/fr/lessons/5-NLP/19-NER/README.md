@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T12:04:16+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "fr"
-}
--->
 # Reconnaissance d'entités nommées
 
 Jusqu'à présent, nous nous sommes principalement concentrés sur une tâche de traitement du langage naturel (NLP) : la classification. Cependant, il existe d'autres tâches NLP qui peuvent être réalisées avec des réseaux neuronaux. L'une de ces tâches est la **[Reconnaissance d'entités nommées](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), qui consiste à identifier des entités spécifiques dans un texte, telles que des lieux, des noms de personnes, des intervalles de date-heure, des formules chimiques, etc.
@@ -17,7 +8,7 @@ Jusqu'à présent, nous nous sommes principalement concentrés sur une tâche de
 
 Supposons que vous souhaitiez développer un chatbot en langage naturel, similaire à Amazon Alexa ou Google Assistant. Les chatbots intelligents fonctionnent en *comprenant* ce que l'utilisateur veut grâce à la classification de texte sur la phrase d'entrée. Le résultat de cette classification est ce qu'on appelle **l'intention**, qui détermine ce que le chatbot doit faire.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/fr/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Image par l'auteur
 

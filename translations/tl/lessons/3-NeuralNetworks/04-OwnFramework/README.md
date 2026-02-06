@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T06:58:19+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "tl"
-}
--->
 # Panimula sa Neural Networks. Multi-Layered Perceptron
 
 Sa nakaraang seksyon, natutunan mo ang tungkol sa pinakasimpleng modelo ng neural network - ang one-layered perceptron, isang linear na modelo para sa two-class classification.
@@ -65,7 +56,7 @@ Mananatili ang gradient descent algorithm, ngunit magiging mas mahirap kalkulahi
 
 Pansinin na ang kaliwang bahagi ng lahat ng mga ekspresyon ay pareho, kaya't maaari nating epektibong kalkulahin ang derivatives simula sa loss function at magpatuloy "pabalik" sa computational graph. Kaya't ang paraan ng pag-train ng multi-layered perceptron ay tinatawag na **backpropagation**, o 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/tl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: citation ng imahe
 

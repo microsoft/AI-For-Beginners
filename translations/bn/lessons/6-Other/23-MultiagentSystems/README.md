@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T07:44:06+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "bn"
-}
--->
 # মাল্টি-এজেন্ট সিস্টেম
 
 বুদ্ধিমত্তা অর্জনের একটি সম্ভাব্য উপায় হলো **উদ্ভূত** (বা **সমন্বিত**) পদ্ধতি, যা এই ধারণার উপর ভিত্তি করে যে অনেক তুলনামূলকভাবে সহজ এজেন্টের সম্মিলিত আচরণ পুরো সিস্টেমের আরও জটিল (বা বুদ্ধিমান) আচরণ তৈরি করতে পারে। তাত্ত্বিকভাবে, এটি [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) এবং [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain) এর নীতির উপর ভিত্তি করে, যা বলে যে উচ্চ-স্তরের সিস্টেমগুলি নিম্ন-স্তরের সিস্টেমগুলি সঠিকভাবে একত্রিত হলে কিছু অতিরিক্ত মান অর্জন করে (*মেটাসিস্টেম ট্রানজিশনের নীতি* নামে পরিচিত)।
@@ -60,7 +51,7 @@ ask turtles [
 
 NetLogo-এর একটি চমৎকার দিক হলো এটি একটি কার্যকরী মডেলের লাইব্রেরি ধারণ করে যা আপনি চেষ্টা করতে পারেন। **File &rightarrow; Models Library** এ যান, এবং আপনার কাছে অনেক ক্যাটাগরির মডেল বেছে নেওয়ার সুযোগ থাকবে।
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/bn/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > দিমিত্রি সশনিকভের মডেল লাইব্রেরির স্ক্রিনশট
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T13:24:01+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ko"
-}
--->
 # 언어 모델링
 
 Word2Vec와 GloVe 같은 의미 임베딩은 사실 **언어 모델링**의 첫 단계입니다. 이는 언어의 본질을 *이해*하거나 (*표현*)하는 모델을 만드는 것을 목표로 합니다.

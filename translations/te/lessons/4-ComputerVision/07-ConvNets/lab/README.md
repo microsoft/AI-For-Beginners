@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b70fcf7fcee862990f848c679090943f",
-  "translation_date": "2025-11-25T22:41:51+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
-  "language_code": "te"
-}
--->
 # పెట్స్ ముఖాల వర్గీకరణ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) నుండి ల్యాబ్ అసైన్‌మెంట్.

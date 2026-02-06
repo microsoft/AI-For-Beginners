@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-11-18T18:14:02+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "pcm"
-}
--->
 # Introduction to Computer Vision
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) na area wey dey try make computer sabi wetin dey happen for digital pictures. Dis definition dey wide well-well, because *understanding* fit mean plenty things, like to find object for picture (**object detection**), sabi wetin dey happen (**event detection**), describe picture with text, or even build scene for 3D. E still get special work wey concern human pictures: age and emotion estimation, face detection and identification, and 3D pose estimation, among others.

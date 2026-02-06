@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-24T09:45:20+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "de"
-}
--->
 # Quizfragen
 
 Diese Quizfragen sind die Vor- und Nachbereitungsquizfragen für den KI-Lehrplan unter https://aka.ms/ai-beginners

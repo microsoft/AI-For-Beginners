@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T12:05:46+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "es"
-}
--->
 # Sistemas Multi-Agente
 
 Una de las posibles formas de lograr inteligencia es el enfoque llamado **emergente** (o **sinérgico**), que se basa en el hecho de que el comportamiento combinado de muchos agentes relativamente simples puede resultar en un comportamiento general más complejo (o inteligente) del sistema en su conjunto. Teóricamente, esto se basa en los principios de [Inteligencia Colectiva](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentismo](https://en.wikipedia.org/wiki/Global_brain) y [Cibernética Evolutiva](https://en.wikipedia.org/wiki/Global_brain), que afirman que los sistemas de nivel superior obtienen algún tipo de valor añadido cuando se combinan adecuadamente a partir de sistemas de nivel inferior (el llamado *principio de transición de metasistema*).
@@ -60,7 +51,7 @@ Puedes [descargar](https://ccl.northwestern.edu/netlogo/download.shtml) e instal
 
 Una gran ventaja de NetLogo es que contiene una biblioteca de modelos funcionales que puedes probar. Ve a **File &rightarrow; Models Library**, y tendrás muchas categorías de modelos para elegir.
 
-<img alt="Biblioteca de Modelos de NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="Biblioteca de Modelos de NetLogo" src="../../../../../translated_images/es/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Una captura de pantalla de la biblioteca de modelos por Dmitry Soshnikov
 

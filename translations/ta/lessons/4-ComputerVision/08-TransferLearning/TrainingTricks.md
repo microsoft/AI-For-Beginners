@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-10-11T11:20:32+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ta"
-}
--->
 # டீப் லெர்னிங் பயிற்சி முறைகள்
 
 நரம்பியல் நெட்வொர்க்குகள் ஆழமாக ஆழமாக செல்லும்போது, அவற்றின் பயிற்சி செயல்முறை மேலும் மேலும் சவாலாக மாறுகிறது. முக்கியமான பிரச்சினைகளில் ஒன்று [வெனிஷிங் கிரேடியண்ட்ஸ்](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) அல்லது [எக்ஸ்ப்ளோடிங் கிரேடியண்ட்ஸ்](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) எனப்படும் பிரச்சினைகள். [இந்த பதிவு](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) இந்த பிரச்சினைகளுக்கு ஒரு நல்ல அறிமுகத்தை வழங்குகிறது.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:03:21+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "fi"
-}
--->
 # Huomiomekanismit ja Transformerit
 
 ## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Positionaalisen koodauksen idea on seuraava.
 * Koulutettava upotus, kuten token-upotus. Tämä on lähestymistapa, jota tarkastelemme tässä. Sovellamme upotuskerroksia sekä tokeneihin että niiden sijainteihin, jolloin saadaan samankokoiset upotusvektorit, jotka sitten lisätään yhteen.
 * Kiinteä positionaalinen koodausfunktio, kuten alkuperäisessä paperissa ehdotettiin.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/fi/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Kuva kirjoittajalta
 

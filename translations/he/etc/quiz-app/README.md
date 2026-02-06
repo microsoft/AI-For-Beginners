@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-28T20:14:09+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "he"
-}
--->
 # חידונים
 
 החידונים האלו הם החידונים שלפני ואחרי ההרצאות בתוכנית הלימודים של AI בכתובת https://aka.ms/ai-beginners

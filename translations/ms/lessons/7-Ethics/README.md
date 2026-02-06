@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-29T11:53:14+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "ms"
-}
--->
 # AI Beretika dan Bertanggungjawab
 
 Anda hampir menyelesaikan kursus ini, dan saya berharap pada tahap ini anda sudah jelas bahawa AI berdasarkan beberapa kaedah matematik formal yang membolehkan kita mencari hubungan dalam data dan melatih model untuk meniru beberapa aspek tingkah laku manusia. Pada masa ini dalam sejarah, kita menganggap AI sebagai alat yang sangat berkuasa untuk mengekstrak corak daripada data, dan menerapkan corak tersebut untuk menyelesaikan masalah baharu.

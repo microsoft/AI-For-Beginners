@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:54:06+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "tl"
-}
--->
 # Game Jam
 
 Ang mga laro ay isang larangan na malaki ang naging impluwensya ng mga pag-unlad sa AI at ML. Sa gawaing ito, magsulat ng maikling papel tungkol sa isang larong gusto mo na naapektuhan ng ebolusyon ng AI. Dapat itong isang lumang laro na naapektuhan ng iba't ibang uri ng mga sistema ng pagpoproseso ng kompyuter. Isang magandang halimbawa ay Chess o Go, ngunit maaari ring tingnan ang mga video game tulad ng Pong o Pac-Man. Sumulat ng sanaysay na tatalakay sa nakaraan, kasalukuyan, at hinaharap ng AI sa larong ito.

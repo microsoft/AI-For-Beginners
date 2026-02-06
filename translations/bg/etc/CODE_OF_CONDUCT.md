@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-26T00:44:44+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "bg"
-}
--->
 # Кодекс за поведение на Microsoft за отворен код
 
 Този проект е приел [Кодекса за поведение на Microsoft за отворен код](https://opensource.microsoft.com/codeofconduct/).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:41:20+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "pa"
-}
--->
 # AI-For-Beginners Troubleshooting Guide
 
 ਇਹ ਗਾਈਡ ਤੁਹਾਨੂੰ [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) ਰਿਪੋਜ਼ਟਰੀ ਦੀ ਵਰਤੋਂ ਜਾਂ ਯੋਗਦਾਨ ਦੇਣ ਦੌਰਾਨ ਆਮ ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਹੱਲ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ। ਹਰ ਸਮੱਸਿਆ ਵਿੱਚ ਪਿਛੋਕੜ, ਲੱਛਣ, ਵਿਆਖਿਆਵਾਂ ਅਤੇ ਕਦਮ-ਦਰ-ਕਦਮ ਹੱਲ ਸ਼ਾਮਲ ਹਨ।

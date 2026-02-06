@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T13:18:11+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "ko"
-}
--->
 # 잘 알려진 CNN 아키텍처
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16은 2014년 ImageNet의 top-5 분류에서 92.7%의 정확도를 달성한
 
 ResNet은 2015년 Microsoft Research에서 제안한 모델 계열입니다. ResNet의 핵심 아이디어는 **잔차 블록(residual blocks)**을 사용하는 것입니다:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/ko/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > 이미지 출처: [이 논문](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet은 2015년 Microsoft Research에서 제안한 모델 계열입니다. Res
 
 Google Inception 아키텍처는 이 아이디어를 한 단계 더 발전시켜, 각 네트워크 계층을 여러 경로의 조합으로 구성합니다:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/ko/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > 이미지 출처: [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

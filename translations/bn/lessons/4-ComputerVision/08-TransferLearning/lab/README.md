@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-26T09:52:54+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "bn"
-}
--->
 # ট্রান্সফার লার্নিং ব্যবহার করে অক্সফোর্ড পেটসের শ্রেণীবিভাগ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) থেকে ল্যাব অ্যাসাইনমেন্ট।

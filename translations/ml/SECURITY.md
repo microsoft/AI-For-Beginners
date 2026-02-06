@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
-  "translation_date": "2025-11-25T20:12:52+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "ml"
-}
--->
 ## സുരക്ഷ
 
 മൈക്രോസോഫ്റ്റ് നമ്മുടെ സോഫ്റ്റ്‌വെയർ ഉൽപ്പന്നങ്ങളും സേവനങ്ങളും ഉൾപ്പെടെ, [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), കൂടാതെ [നമ്മുടെ GitHub സംഘടനകൾ](https://opensource.microsoft.com/) വഴി നിയന്ത്രിക്കുന്ന എല്ലാ സോഴ്‌സ് കോഡ് റിപോസിറ്ററികളും ഉൾപ്പെടെ, സുരക്ഷയെ ഗൗരവത്തോടെ കാണുന്നു.

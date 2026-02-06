@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T10:43:40+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "fr"
-}
--->
 # Représentation des Connaissances et Systèmes Experts
 
-![Résumé du contenu de l'IA symbolique](../../../../../../translated_images/fr/ai-symbolic.715a30cb610411a6.webp)
+![Résumé du contenu de l'IA symbolique](../../../../translated_images/fr/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote par [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Le plus souvent, nous ne définissons pas strictement la connaissance, mais nous
 
 Ainsi, le problème de la **représentation des connaissances** est de trouver un moyen efficace de représenter la connaissance à l'intérieur d'un ordinateur sous forme de données, afin de la rendre automatiquement utilisable. Ceci peut être vu comme un spectre :
 
-![Spectre de la représentation des connaissances](../../../../../../translated_images/fr/knowledge-spectrum.b60df631852c0217.webp)
+![Spectre de la représentation des connaissances](../../../../translated_images/fr/knowledge-spectrum.b60df631852c0217.webp)
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Syntaxe de bloc | Indentation | | |
 
 Un des premiers succès de l’IA symbolique fut les systèmes dits **experts** – des systèmes informatiques conçus pour agir en tant qu’expert dans un domaine de problème limité. Ils étaient basés sur une **base de connaissances** extraite de un ou plusieurs experts humains, et contenaient un **moteur d’inférence** qui effectuait un raisonnement sur cette base.
 
-![Architecture Humaine](../../../../../../translated_images/fr/arch-human.5d4d35f1bba3ab1c.webp) | ![Système à base de connaissances](../../../../../../translated_images/fr/arch-kbs.3ec5c150b09fa8da.webp)
+![Architecture Humaine](../../../../translated_images/fr/arch-human.5d4d35f1bba3ab1c.webp) | ![Système à base de connaissances](../../../../translated_images/fr/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Structure simplifiée du système neural humain | Architecture d’un système à base de connaissances
 
@@ -106,7 +97,7 @@ Les systèmes experts sont construits comme le système de raisonnement humain, 
 
 Par exemple, considérons le système expert suivant permettant de déterminer un animal en fonction de ses caractéristiques physiques :
 
-![Arbre ET-OU](../../../../../../translated_images/fr/AND-OR-Tree.5592d2c70187f283.webp)
+![Arbre ET-OU](../../../../translated_images/fr/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 

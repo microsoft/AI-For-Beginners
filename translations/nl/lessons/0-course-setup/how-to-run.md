@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T03:04:55+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "nl"
-}
--->
 # Hoe de code uit te voeren
 
 Dit curriculum bevat veel uitvoerbare voorbeelden en labs die je wilt uitvoeren. Om dit te doen, heb je de mogelijkheid nodig om Python-code uit te voeren in Jupyter Notebooks die als onderdeel van dit curriculum worden meegeleverd. Je hebt verschillende opties om de code uit te voeren:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-28T20:13:02+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "nl"
-}
--->
 # Bijdragen
 
 Dit project verwelkomt bijdragen en suggesties. Voor de meeste bijdragen moet je akkoord gaan met een Contributor License Agreement (CLA), waarin je verklaart dat je het recht hebt om, en daadwerkelijk doet, ons de rechten te geven om jouw bijdrage te gebruiken. Voor meer informatie, bezoek https://cla.microsoft.com.

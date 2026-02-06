@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:51:04+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ro"
-}
--->
 # Ghid de depanare AI-For-Beginners
 
 Acest ghid te ajută să rezolvi problemele comune întâlnite în utilizarea sau contribuția la repository-ul [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Fiecare problemă include context, simptome, explicații și soluții pas cu pas.

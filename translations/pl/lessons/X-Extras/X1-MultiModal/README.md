@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-24T10:39:09+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "pl"
-}
--->
 # Sieci Multi-Modalne
 
 Po sukcesie modeli transformerowych w rozwiązywaniu zadań NLP, podobne architektury zaczęto stosować w zadaniach związanych z wizją komputerową. Coraz większe zainteresowanie budzą modele, które *łączą* możliwości analizy obrazu i języka naturalnego. Jednym z takich podejść jest CLIP i DALL.E, opracowane przez OpenAI.

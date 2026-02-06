@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T09:27:53+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "da"
-}
--->
 # Konvolutionelle Neurale Netværk
 
 Vi har tidligere set, at neurale netværk er ret gode til at arbejde med billeder, og selv et enkeltlags perceptron kan genkende håndskrevne cifre fra MNIST-datasættet med rimelig nøjagtighed. Dog er MNIST-datasættet meget specielt, da alle cifre er centreret i billedet, hvilket gør opgaven enklere.
@@ -24,7 +15,7 @@ For at udtrække mønstre vil vi bruge begrebet **konvolutionelle filtre**. Som 
 
 For eksempel, hvis vi anvender 3x3 vertikale og horisontale kantfiltre på MNIST-cifre, kan vi fremhæve (f.eks. høje værdier), hvor der er vertikale og horisontale kanter i vores oprindelige billede. Disse to filtre kan således bruges til at "lede efter" kanter. På samme måde kan vi designe forskellige filtre til at finde andre lavniveau-mønstre:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/da/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Billede af [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

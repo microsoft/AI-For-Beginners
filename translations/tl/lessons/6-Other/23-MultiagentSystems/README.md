@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T06:51:21+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "tl"
-}
--->
 # Multi-Agent Systems
 
 Isa sa mga posibleng paraan ng pag-abot sa katalinuhan ay ang tinatawag na **emergent** (o **synergetic**) na pamamaraan, na nakabatay sa ideya na ang pinagsamang kilos ng maraming simpleng ahente ay maaaring magresulta sa mas kumplikado (o matalino) na kilos ng sistema bilang kabuuan. Teoretikal, ito ay nakabatay sa mga prinsipyo ng [Collective Intelligence](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain), at [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain), na nagsasabing ang mas mataas na antas ng mga sistema ay nakakakuha ng karagdagang halaga kapag maayos na pinagsama mula sa mas mababang antas ng mga sistema (tinatawag na *principle of metasystem transition*).
@@ -60,7 +51,7 @@ Maaari mong [i-download](https://ccl.northwestern.edu/netlogo/download.shtml) at
 
 Ang maganda sa NetLogo ay mayroon itong library ng mga gumaganang modelo na maaari mong subukan. Pumunta sa **File &rightarrow; Models Library**, at mayroon kang maraming kategorya ng mga modelo na mapagpipilian.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/tl/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Screenshot ng models library ni Dmitry Soshnikov
 

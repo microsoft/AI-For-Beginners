@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-24T10:29:07+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "fa"
-}
--->
 # تشخیص سر با استفاده از مجموعه داده Hollywood Heads
 
 تمرین آزمایشگاهی از [برنامه درسی AI for Beginners](https://github.com/microsoft/ai-for-beginners).

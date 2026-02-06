@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T15:44:06+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "lt"
-}
--->
 # Autoenkoderiai
 
 Mokant CNN, viena iš problemų yra ta, kad reikia daug pažymėtų duomenų. Vaizdų klasifikavimo atveju reikia rankiniu būdu suskirstyti vaizdus į skirtingas klases.
@@ -46,7 +37,7 @@ Apibendrinant:
  * Imame vektorių `sample` iš pasiskirstymo N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Dekoderis bando dekoduoti originalų vaizdą, naudodamas `sample` kaip įvesties vektorių
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/lt/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Vaizdas iš [šio tinklaraščio įrašo](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variaciniai autoenkoderiai naudoja sudėtingą nuostolių funkciją, kurią suda
 
 Vienas svarbus VAE privalumas yra tas, kad jie leidžia gana lengvai generuoti naujus vaizdus, nes žinome, iš kurio pasiskirstymo imti latentės vektorius. Pavyzdžiui, jei mokome VAE su 2D latentės vektoriumi MNIST duomenų rinkinyje, galime keisti latentės vektoriaus komponentus, kad gautume skirtingus skaitmenis:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/lt/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Vaizdas [Dmitrijaus Soshnikovo](http://soshnikov.com)
 
 Stebėkite, kaip vaizdai susilieja vienas su kitu, kai pradedame gauti latentės vektorius iš skirtingų latentės parametrų erdvės dalių. Taip pat galime vizualizuoti šią erdvę 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/lt/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Vaizdas [Dmitrijaus Soshnikovo](http://soshnikov.com)
 

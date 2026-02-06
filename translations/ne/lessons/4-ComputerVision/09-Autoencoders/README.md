@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T07:17:36+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "ne"
-}
--->
 # अटोएनकोडरहरू
 
 CNNs प्रशिक्षण गर्दा, एउटा समस्या यो हो कि हामीलाई धेरै लेबल गरिएको डाटा चाहिन्छ। छवि वर्गीकरणको अवस्थामा, हामीले छविहरूलाई विभिन्न वर्गहरूमा छुट्याउनुपर्छ, जुन एक म्यानुअल प्रयास हो।
@@ -46,7 +37,7 @@ VAE भनेको अटोएनकोडर हो जसले गुप्
  * हामी वितरण N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)) बाट `sample` भेक्टर लिन्छौं
  * डिकोडरले `sample` लाई इनपुट भेक्टरको रूपमा प्रयोग गरेर मूल छवि डिकोड गर्न प्रयास गर्छ
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/ne/vae.464c465a5b6a9e25.webp" width="50%">
 
 > छवि [यो ब्लग पोस्ट](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) बाट, लेखक: इसाक डाइकमन
 
@@ -57,13 +48,13 @@ VAE भनेको अटोएनकोडर हो जसले गुप्
 
 VAE को एउटा महत्त्वपूर्ण फाइदा यो हो कि यसले नयाँ छविहरू तुलनात्मक रूपमा सजिलै सिर्जना गर्न अनुमति दिन्छ, किनकि हामीलाई थाहा छ कुन वितरणबाट गुप्त भेक्टरहरू नमूना गर्नुपर्छ। उदाहरणका लागि, यदि हामीले MNIST मा 2D गुप्त भेक्टरको साथ VAE प्रशिक्षण गर्छौं भने, हामी गुप्त भेक्टरका घटकहरू फरक पारेर विभिन्न अंकहरू प्राप्त गर्न सक्छौं:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/ne/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > छवि [दिमित्री सश्निकोभ](http://soshnikov.com) द्वारा
 
 ध्यान दिनुहोस् कि छविहरू एकअर्कामा कसरी मिसिन्छन्, किनकि हामी गुप्त प्यारामिटर स्थानको विभिन्न भागहरूबाट गुप्त भेक्टरहरू प्राप्त गर्न थाल्छौं। हामी यस स्थानलाई 2D मा पनि दृश्यात्मक बनाउन सक्छौं:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/ne/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > छवि [दिमित्री सश्निकोभ](http://soshnikov.com) द्वारा
 

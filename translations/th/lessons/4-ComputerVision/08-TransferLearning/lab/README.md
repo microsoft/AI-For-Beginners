@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-29T08:50:50+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "th"
-}
--->
 # การจำแนกสัตว์เลี้ยงจาก Oxford ด้วย Transfer Learning
 
 งานในห้องปฏิบัติการจาก [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)

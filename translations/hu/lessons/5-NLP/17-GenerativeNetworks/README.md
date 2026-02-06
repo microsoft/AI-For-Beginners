@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T11:17:06+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "hu"
-}
--->
 # Generatív hálózatok
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Ezt az RNN-t arra fogjuk tanítani, hogy lépésről lépésre generáljon szöv
 
 Szöveg generálásakor (következtetés során) egy **indítószöveggel** kezdünk, amelyet RNN cellákon keresztül adunk át, hogy előállítsuk annak köztes állapotát, majd ebből az állapotból kezdődik a generálás. Egy karaktert generálunk egyszerre, és az állapotot és a generált karaktert átadjuk egy másik RNN cellának, hogy generálja a következőt, amíg elegendő karaktert nem generálunk.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/hu/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Kép a szerzőtől
 

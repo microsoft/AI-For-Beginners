@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:34:49+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "hr"
-}
--->
 # Primjeri umjetne inteligencije za početnike
 
 Dobrodošli! Ovaj direktorij sadrži jednostavne, samostalne primjere koji će vam pomoći da započnete s umjetnom inteligencijom i strojnim učenjem. Svaki primjer je osmišljen tako da bude prilagođen početnicima, uz detaljne komentare i objašnjenja korak po korak.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T13:58:43+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "pl"
-}
--->
 # Mechanizmy uwagi i modele Transformer
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Pomysł kodowania pozycji jest następujący:
 * Osadzanie uczone, podobne do osadzania tokenów. To podejście rozważamy tutaj. Nakładamy warstwy osadzania zarówno na tokeny, jak i ich pozycje, uzyskując wektory osadzania o tych samych wymiarach, które następnie dodajemy do siebie.
 * Funkcja kodowania pozycji stałej, jak zaproponowano w oryginalnym artykule.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/pl/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Obraz autorstwa autora
 

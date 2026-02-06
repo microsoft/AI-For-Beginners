@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T15:42:49+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "lt"
-}
--->
 # Įvadas į kompiuterinį matymą
 
 [Kompiuterinis matymas](https://wikipedia.org/wiki/Computer_vision) yra disciplina, kurios tikslas – suteikti kompiuteriams galimybę aukšto lygio suprasti skaitmeninius vaizdus. Tai gana plati apibrėžtis, nes *supratimas* gali reikšti daugybę skirtingų dalykų, įskaitant objekto radimą nuotraukoje (**objektų aptikimas**), supratimą, kas vyksta (**įvykių aptikimas**), nuotraukos aprašymą tekstu arba scenos rekonstrukciją 3D formatu. Taip pat yra specialių užduočių, susijusių su žmogaus vaizdais: amžiaus ir emocijų nustatymas, veido aptikimas ir identifikavimas, 3D pozos nustatymas ir kt.
@@ -115,7 +106,7 @@ Skaitykite daugiau apie optinį srautą [šiame puikiame vadove](https://learnop
 
 Šioje laboratorijoje turėsite vaizdo įrašą su paprastais gestais, o jūsų tikslas bus išgauti aukštyn/žemyn/kairėn/dešinėn judesius naudojant optinį srautą.
 
-<img src="images/palm-movement.png" width="30%" alt="Delno judesio kadras"/>
+<img src="../../../../../translated_images/lt/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Delno judesio kadras"/>
 
 ---
 

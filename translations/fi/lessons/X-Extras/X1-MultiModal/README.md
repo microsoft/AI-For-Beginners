@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-28T19:21:33+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "fi"
-}
--->
 # Monimodaaliset verkot
 
 Transformer-mallien menestyksen jälkeen NLP-tehtävissä samoja tai samankaltaisia arkkitehtuureja on alettu soveltaa myös tietokonenäkötehtäviin. Kasvava kiinnostus kohdistuu mallien rakentamiseen, jotka *yhdistävät* näkö- ja luonnollisen kielen käsittelyn kyvyt. Yksi tällainen yritys on OpenAI:n kehittämä CLIP ja DALL.E.

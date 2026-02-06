@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-24T21:23:09+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "ko"
-}
--->
 # 윤리적이고 책임 있는 AI
 
 이 과정을 거의 마쳤습니다. 이제 AI가 데이터를 통해 관계를 찾고 인간 행동의 일부를 재현하는 모델을 훈련시키는 여러 수학적 방법에 기반하고 있다는 것을 명확히 이해하셨기를 바랍니다. 현재 시점에서 AI는 데이터를 통해 패턴을 추출하고 새로운 문제를 해결하는 데 적용할 수 있는 매우 강력한 도구로 간주됩니다.

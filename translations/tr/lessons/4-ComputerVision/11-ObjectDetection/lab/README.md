@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-26T07:28:01+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "tr"
-}
--->
 # Hollywood Heads Veri Seti Kullanarak Kafa Tespiti
 
 [AI for Beginners Müfredatı](https://github.com/microsoft/ai-for-beginners) kapsamında bir laboratuvar çalışması.

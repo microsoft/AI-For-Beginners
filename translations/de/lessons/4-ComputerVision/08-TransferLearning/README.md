@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T12:17:16+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "de"
-}
--->
 # Vorgefertigte Netzwerke und Transfer-Learning
 
 Das Training von CNNs kann viel Zeit in Anspruch nehmen, und es wird eine große Menge an Daten dafür benötigt. Ein Großteil der Zeit wird jedoch darauf verwendet, die besten Low-Level-Filter zu lernen, die ein Netzwerk nutzen kann, um Muster aus Bildern zu extrahieren. Eine natürliche Frage stellt sich: Können wir ein neuronales Netzwerk, das auf einem Datensatz trainiert wurde, verwenden und anpassen, um andere Bilder zu klassifizieren, ohne den gesamten Trainingsprozess erneut durchlaufen zu müssen?

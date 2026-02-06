@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T09:23:48+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "sv"
-}
--->
 # Uppmärksamhetsmekanismer och Transformatorer
 
 ## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Idén med positionskodning är följande.
 * Träningsbar inbäddning, liknande tokeninbäddning. Detta är tillvägagångssättet vi överväger här. Vi applicerar inbäddningslager ovanpå både token och deras positioner, vilket resulterar i inbäddningsvektorer med samma dimensioner, som vi sedan lägger ihop.
 * Fast positionskodningsfunktion, som föreslogs i den ursprungliga artikeln.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/sv/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Bild av författaren
 

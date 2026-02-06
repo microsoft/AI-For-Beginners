@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-24T21:38:30+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "ko"
-}
--->
 # 수업 번역으로 기여하기
 
 이 커리큘럼의 수업 번역을 환영합니다!

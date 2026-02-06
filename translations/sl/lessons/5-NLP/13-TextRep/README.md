@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T15:11:57+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "sl"
-}
--->
 # Predstavljanje besedila kot tenzorjev
 
 ## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Naš cilj bo razvrstiti novico v eno od kategorij na podlagi besedila.
 
 Če želimo reševati naloge obdelave naravnega jezika (NLP) z nevronskimi mrežami, potrebujemo način za predstavljanje besedila kot tenzorjev. Računalniki že predstavljajo besedilne znake kot številke, ki se preslikajo v pisave na vašem zaslonu z uporabo kodiranj, kot sta ASCII ali UTF-8.
 
-<img alt="Slika prikazuje diagram, ki preslika znak v ASCII in binarno predstavitev" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Slika prikazuje diagram, ki preslika znak v ASCII in binarno predstavitev" src="../../../../../translated_images/sl/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Vir slike](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ V nekaterih primerih lahko razmislimo o uporabi tri-gramov -- kombinacij treh be
 
 Pri reševanju nalog, kot je razvrščanje besedila, moramo biti sposobni predstaviti besedilo z enim vektorjem fiksne velikosti, ki ga bomo uporabili kot vhod za končni gosti klasifikator. Eden najpreprostejših načinov za to je združiti vse posamezne predstavitve besed, npr. z njihovim seštevanjem. Če seštejemo enovrstične kodiranja vsake besede, bomo dobili vektor frekvenc, ki prikazuje, kolikokrat se vsaka beseda pojavi v besedilu. Takšna predstavitev besedila se imenuje **vreča besed** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/sl/bow.3811869cff59368d.webp" width="90%"/>
 
 > Slika avtorja
 

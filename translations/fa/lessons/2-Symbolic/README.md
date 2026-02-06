@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T11:02:58+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "fa"
-}
--->
 # نمایش دانش و سیستم‌های خبره
 
-![خلاصه محتوای هوش مصنوعی نمادین](../../../../../../translated_images/fa/ai-symbolic.715a30cb610411a6.webp)
+![خلاصه محتوای هوش مصنوعی نمادین](../../../../translated_images/fa/ai-symbolic.715a30cb610411a6.webp)
 
 > اسکچ‌نوت توسط [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 بنابراین، مسئله **نمایش دانش** یافتن روش موثری برای نمایش دانش درون رایانه به شکل داده است تا به صورت خودکار قابل استفاده باشد. این را می‌توان به صورت یک طیف دید:
 
-![نمایش دانش طیف](../../../../../../translated_images/fa/knowledge-spectrum.b60df631852c0217.webp)
+![نمایش دانش طیف](../../../../translated_images/fa/knowledge-spectrum.b60df631852c0217.webp)
 
 > تصویر توسط [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Python | نحو بلاک | تورفتگی
 
 یکی از موفقیت‌های اولیه هوش مصنوعی نمادین، سیستم‌های خبره نام داشتند - سیستم‌های کامپیوتری که برای عمل کردن به عنوان کارشناس در حوزه‌های محدود طراحی شده بودند. آنها بر پایه **پایگاه دانش** استخراج شده از یک یا چند متخصص انسانی ساخته شده بودند و دارای **موتور استنتاج** بودند که روی آن مقداری استدلال انجام می‌داد.
 
-![معماری انسان](../../../../../../translated_images/fa/arch-human.5d4d35f1bba3ab1c.webp) | ![سیستم مبتنی بر دانش](../../../../../../translated_images/fa/arch-kbs.3ec5c150b09fa8da.webp)
+![معماری انسان](../../../../translated_images/fa/arch-human.5d4d35f1bba3ab1c.webp) | ![سیستم مبتنی بر دانش](../../../../translated_images/fa/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 ساختار ساده‌شده سیستم عصبی انسان | معماری سیستم مبتنی بر دانش
 
@@ -106,7 +97,7 @@ Python | نحو بلاک | تورفتگی
 
 به عنوان مثال، سیستم خبره زیر را در نظر بگیرید که حیوانی را بر اساس ویژگی‌های فیزیکی‌اش تعیین می‌کند:
 
-![درخت AND-OR](../../../../../../translated_images/fa/AND-OR-Tree.5592d2c70187f283.webp)
+![درخت AND-OR](../../../../translated_images/fa/AND-OR-Tree.5592d2c70187f283.webp)
 
 > تصویر توسط [Dmitry Soshnikov](http://soshnikov.com)
 

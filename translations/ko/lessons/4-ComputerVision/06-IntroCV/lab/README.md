@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-24T21:31:01+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ko"
-}
--->
 # 광학 흐름을 사용한 움직임 감지
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners)에서 제공하는 실습 과제입니다.

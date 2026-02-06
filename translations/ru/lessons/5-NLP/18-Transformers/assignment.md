@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T06:37:39+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "ru"
-}
--->
 # Задание: Transformers
 
 Поработайте с Transformers на платформе HuggingFace! Попробуйте некоторые из скриптов, которые они предоставляют, чтобы работать с различными моделями, доступными на их сайте: https://huggingface.co/docs/transformers/run_scripts. Используйте один из их наборов данных, а затем импортируйте свой собственный из этой программы или с Kaggle и посмотрите, сможете ли вы сгенерировать интересные тексты. Создайте ноутбук с вашими результатами.

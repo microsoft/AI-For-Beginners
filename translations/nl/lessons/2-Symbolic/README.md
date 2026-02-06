@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T03:06:29+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "nl"
-}
--->
 # Kennisrepresentatie en Expert Systemen
 
-![Samenvatting van Symbolische AI-inhoud](../../../../../../translated_images/nl/ai-symbolic.715a30cb610411a6.webp)
+![Samenvatting van Symbolische AI-inhoud](../../../../translated_images/nl/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote door [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Meestal definiëren we kennis niet strikt, maar stemmen het af met andere gerela
 
 Dus, het probleem van **kennisrepresentatie** is het vinden van een effectieve manier om kennis binnen een computer te representeren in de vorm van data, om het automatisch bruikbaar te maken. Dit kan worden gezien als een spectrum:
 
-![Spectrum van kennisrepresentatie](../../../../../../translated_images/nl/knowledge-spectrum.b60df631852c0217.webp)
+![Spectrum van kennisrepresentatie](../../../../translated_images/nl/knowledge-spectrum.b60df631852c0217.webp)
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 Een van de vroege successen van symbolische AI waren zogenaamde **expert systemen** - computersystemen die ontworpen waren om als een expert te functioneren in een beperkt probleemdomein. Ze waren gebaseerd op een **kennisbasis** die werd geëxtraheerd van een of meerdere menselijke experts, en ze bevatten een **inference engine** die er bovenop redeneerde.
 
-![Menselijke Architectuur](../../../../../../translated_images/nl/arch-human.5d4d35f1bba3ab1c.webp) | ![Kennisgebaseerd Systeem](../../../../../../translated_images/nl/arch-kbs.3ec5c150b09fa8da.webp)
+![Menselijke Architectuur](../../../../translated_images/nl/arch-human.5d4d35f1bba3ab1c.webp) | ![Kennisgebaseerd Systeem](../../../../translated_images/nl/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Vereenvoudigde structuur van een menselijk neuronensysteem | Architectuur van een kennisgebaseerd systeem
 
@@ -106,7 +97,7 @@ Expert systemen zijn opgebouwd als het menselijke redeneringssysteem, dat een **
 
 Als voorbeeld nemen we het volgende expertsysteem om een dier te bepalen op basis van zijn fysieke kenmerken:
 
-![AND-OR Boom](../../../../../../translated_images/nl/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR Boom](../../../../translated_images/nl/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Afbeelding door [Dmitry Soshnikov](http://soshnikov.com)
 

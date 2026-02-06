@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T13:24:16+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ko"
-}
--->
 # 어텐션 메커니즘과 트랜스포머
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ RNN을 사용하면 시퀀스-투-시퀀스 작업은 두 개의 순환 신경�
 * 토큰 임베딩과 유사한 학습 가능한 임베딩. 여기서는 이 접근법을 고려합니다. 토큰과 그 위치 모두에 임베딩 레이어를 적용하여 동일한 차원의 임베딩 벡터를 생성한 후, 이를 더합니다.
 * 원 논문에서 제안된 고정 위치 인코딩 함수.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ko/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > 저자 제공 이미지
 

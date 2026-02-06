@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-10-11T11:34:31+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "ta"
-}
--->
 # ஆசிரியர்களுக்காக
 
 இந்த பாடத்திட்டத்தை உங்கள் வகுப்பறையில் பயன்படுத்த விரும்புகிறீர்களா? தயவுசெய்து பயன்படுத்துங்கள்!

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-08-25T20:52:02+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "sw"
-}
--->
 # NER
 
 Kazi ya Maabara kutoka [Mtaala wa AI kwa Kompyuta](https://github.com/microsoft/ai-for-beginners).

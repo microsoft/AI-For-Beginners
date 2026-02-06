@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T04:21:13+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "sw"
-}
--->
 # Uwakilishi wa Maarifa na Mifumo ya Wataalamu
 
-![Muhtasari wa maudhui ya AI ya Ikoniki](../../../../../../translated_images/sw/ai-symbolic.715a30cb610411a6.webp)
+![Muhtasari wa maudhui ya AI ya Ikoniki](../../../../translated_images/sw/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote na [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Mara nyingi, hatufafanui maarifa kwa ukamilifu, lakini tunayalinganisha na dhana
 
 Hivyo, tatizo la **uwakilishi wa maarifa** ni kupata njia madhubuti ya kuwakilisha maarifa ndani ya kompyuta katika mfumo wa data, ili yaweze kutumika kiotomatiki. Hii inaonekana kama spektra:
 
-![Spektra ya uwakilishi wa maarifa](../../../../../../translated_images/sw/knowledge-spectrum.b60df631852c0217.webp)
+![Spektra ya uwakilishi wa maarifa](../../../../translated_images/sw/knowledge-spectrum.b60df631852c0217.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Sarufi ya Kipande | Uingizaji nafasi | | |
 
 Moja ya mafanikio ya mwanzo ya AI ya Ikoniki ilikuwa mifumo inayoitwa **mifumo ya wataalamu** - mifumo ya kompyuta iliyotengenezwa kutenda kama mtaalamu katika eneo fulani la tatizo lililo wazi. Ilijengwa kwa msingi wa **hifadhidata ya maarifa** iliyochukuliwa kutoka kwa wataalamu mmoja au zaidi wa binadamu, na ilijumuisha **mashine ya hitimisho** iliyofanya fikra juu yake.
 
-![Mimino ya binadamu](../../../../../../translated_images/sw/arch-human.5d4d35f1bba3ab1c.webp) | ![Mfumo wenye maarifa](../../../../../../translated_images/sw/arch-kbs.3ec5c150b09fa8da.webp)
+![Mimino ya binadamu](../../../../translated_images/sw/arch-human.5d4d35f1bba3ab1c.webp) | ![Mfumo wenye maarifa](../../../../translated_images/sw/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Muundo rahisi wa mfumo wa neva wa binadamu | Muundo wa mfumo wenye maarifa
 
@@ -106,7 +97,7 @@ Mifumo ya wataalamu imejengwa kama mfumo wa fikra wa binadamu, wenye **kumbukumb
 
 Kwa mfano, tuchukulie mfumo wa wataalamu wa kubaini mnyama kwa msingi wa sifa zake za kimwili:
 
-![Mti wa AND-OR](../../../../../../translated_images/sw/AND-OR-Tree.5592d2c70187f283.webp)
+![Mti wa AND-OR](../../../../translated_images/sw/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 

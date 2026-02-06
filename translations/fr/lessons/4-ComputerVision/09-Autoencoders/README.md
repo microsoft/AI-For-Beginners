@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T11:57:45+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "fr"
-}
--->
 # Autoencodeurs
 
 Lors de l'entraînement des CNN, l'un des problèmes est que nous avons besoin de beaucoup de données annotées. Dans le cas de la classification d'images, il faut séparer les images en différentes classes, ce qui demande un effort manuel.
@@ -46,7 +37,7 @@ En résumé :
  * Nous échantillonnons un vecteur `sample` à partir de la distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Le décodeur essaie de décoder l'image originale en utilisant `sample` comme vecteur d'entrée
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/fr/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Image tirée de [cet article de blog](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) par Isaak Dykeman
 
@@ -57,13 +48,13 @@ Les autoencodeurs variationnels utilisent une fonction de perte complexe compos�
 
 Un avantage important des VAE est qu'ils permettent de générer de nouvelles images relativement facilement, car nous savons de quelle distribution échantillonner les vecteurs latents. Par exemple, si nous entraînons un VAE avec un vecteur latent 2D sur MNIST, nous pouvons ensuite varier les composantes du vecteur latent pour obtenir différents chiffres :
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/fr/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 
 Observez comment les images se fondent les unes dans les autres, à mesure que nous obtenons des vecteurs latents provenant de différentes parties de l'espace des paramètres latents. Nous pouvons également visualiser cet espace en 2D :
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/fr/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 

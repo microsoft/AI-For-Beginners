@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-26T00:44:14+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "my"
-}
--->
 # အထောက်အပံ့
 
 ## ပြဿနာများကို တင်ပြခြင်းနှင့် အကူအညီရယူရန်  

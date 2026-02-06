@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T10:51:00+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "ms"
-}
--->
 # Generative Adversarial Networks
 
 Dalam bahagian sebelumnya, kita telah mempelajari tentang **model generatif**: model yang boleh menghasilkan imej baru yang serupa dengan imej dalam dataset latihan. VAE adalah contoh yang baik bagi model generatif.
@@ -17,7 +8,7 @@ Namun, jika kita cuba menghasilkan sesuatu yang benar-benar bermakna, seperti lu
 
 Idea utama GAN adalah mempunyai dua rangkaian neural yang dilatih saling bersaing:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/ms/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator sedikit lebih rumit. Anda boleh menganggapnya sebagai discriminator ya
 
 > ✅ Oleh kerana lapisan konvolusi dilaksanakan sebagai penapis linear yang melintasi imej, dekonvolusi pada dasarnya serupa dengan konvolusi dan boleh dilaksanakan menggunakan logik lapisan yang sama.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/ms/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 

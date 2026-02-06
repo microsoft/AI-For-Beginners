@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-24T10:43:11+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "fa"
-}
--->
 تمام یادداشت‌های تصویری این برنامه درسی را می‌توانید از اینجا دانلود کنید.
 
 🎨 ساخته شده توسط: تومومی ایمورا (توییتر: [@girlie_mac](https://twitter.com/girlie_mac)، گیت‌هاب: [girliemac](https://github.com/girliemac))

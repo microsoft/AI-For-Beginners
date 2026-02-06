@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-26T08:05:24+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "ne"
-}
--->
 # प्राकृतिक भाषा प्रशोधन
 
 ![NLP कार्यहरूको सारांश](../../../../translated_images/ne/ai-nlp.b22dcb8ca4707cea.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T11:25:32+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "bn"
-}
--->
 # কুইজ
 
 এই কুইজগুলো AI কারিকুলামের প্রাক-লেকচার এবং পোস্ট-লেকচার কুইজ, যা পাওয়া যাবে https://aka.ms/ai-beginners এ।

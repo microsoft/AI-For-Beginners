@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-24T21:27:48+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "ko"
-}
--->
 # 컴퓨터 비전
 
 ![컴퓨터 비전 내용 요약을 담은 스케치](../../../../translated_images/ko/ai-computervision.6506ebebac3fbf76.webp)

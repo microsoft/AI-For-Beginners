@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T10:50:16+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "ms"
-}
--->
 # Autoencoders
 
 Semasa melatih CNN, salah satu masalahnya ialah kita memerlukan banyak data yang berlabel. Dalam kes klasifikasi imej, kita perlu memisahkan imej ke dalam kelas yang berbeza, yang memerlukan usaha manual.
@@ -46,7 +37,7 @@ Ringkasnya:
  * Kita mengambil sampel vektor `sample` daripada taburan N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Penyahkod cuba menyahkod imej asal menggunakan `sample` sebagai vektor input
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/ms/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Imej daripada [blog post ini](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) oleh Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variational auto-encoders menggunakan fungsi kehilangan kompleks yang terdiri da
 
 Satu kelebihan penting VAE ialah ia membolehkan kita menjana imej baharu dengan agak mudah, kerana kita tahu taburan mana yang perlu diambil sampel vektor laten. Sebagai contoh, jika kita melatih VAE dengan vektor laten 2D pada MNIST, kita boleh mengubah komponen vektor laten untuk mendapatkan digit yang berbeza:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/ms/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 
 Perhatikan bagaimana imej bercampur antara satu sama lain, apabila kita mula mendapatkan vektor laten daripada bahagian yang berbeza dalam ruang parameter laten. Kita juga boleh memvisualisasikan ruang ini dalam 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/ms/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Imej oleh [Dmitry Soshnikov](http://soshnikov.com)
 

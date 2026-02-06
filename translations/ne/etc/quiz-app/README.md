@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T11:26:12+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "ne"
-}
--->
 # क्विजहरू
 
 यी क्विजहरू AI पाठ्यक्रमको लागि प्रि-र पोस्ट-लेक्चर क्विजहरू हुन् जुन https://aka.ms/ai-beginners मा उपलब्ध छ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-10-11T11:52:25+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "et"
-}
--->
 # Viktoriinid
 
 Need viktoriinid on tehisintellekti õppekava eel- ja järeltestid aadressil https://aka.ms/ai-beginners

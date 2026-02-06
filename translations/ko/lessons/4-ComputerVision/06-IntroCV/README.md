@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T13:18:50+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "ko"
-}
--->
 # 컴퓨터 비전 소개
 
 [컴퓨터 비전](https://wikipedia.org/wiki/Computer_vision)은 디지털 이미지를 통해 컴퓨터가 고수준의 이해를 할 수 있도록 하는 학문입니다. 이 정의는 매우 광범위한데, *이해*라는 것이 사진에서 객체를 찾는 것(**객체 탐지**), 무슨 일이 일어나고 있는지 파악하는 것(**이벤트 탐지**), 사진을 텍스트로 설명하는 것, 또는 3D로 장면을 재구성하는 것 등 다양한 의미를 가질 수 있기 때문입니다. 사람의 이미지를 다루는 특별한 작업도 있습니다. 예를 들어, 나이와 감정 추정, 얼굴 탐지 및 식별, 3D 자세 추정 등이 있습니다.
@@ -115,7 +106,7 @@ AI 쇼의 [이 비디오](https://docs.microsoft.com/shows/ai-show/ai-show--2021
 
 이 실습에서는 간단한 제스처가 포함된 비디오를 촬영하고, 광학 흐름을 사용하여 위/아래/왼쪽/오른쪽 움직임을 추출하는 것이 목표입니다.
 
-<img src="images/palm-movement.png" width="30%" alt="손바닥 움직임 프레임"/>
+<img src="../../../../../translated_images/ko/palm-movement.341495f0e9c47da3.webp" width="30%" alt="손바닥 움직임 프레임"/>
 
 ---
 

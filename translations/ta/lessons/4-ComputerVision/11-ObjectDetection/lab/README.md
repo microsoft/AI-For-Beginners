@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-10-11T11:24:01+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "ta"
-}
--->
 # ஹாலிவுட் ஹெட்ஸ் டேட்டாசெட் பயன்படுத்தி தலை கண்டறிதல்
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இல் இருந்து ஆய்வகப் பணிக்கான ஒதுக்கீடு.

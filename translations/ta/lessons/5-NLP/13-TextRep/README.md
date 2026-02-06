@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-10-11T11:40:49+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ta"
-}
--->
 # டெக்ஸ்டை டென்சராக பிரதிநிதித்துவம் செய்யுதல்
 
 ## [முன்-வகுப்பு வினாடி வினா](https://ff-quizzes.netlify.app/en/ai/quiz/25)

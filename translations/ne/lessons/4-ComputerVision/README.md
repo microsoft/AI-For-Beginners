@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-08-26T09:03:02+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "ne"
-}
--->
 # कम्प्युटर भिजन
 
 ![कम्प्युटर भिजन सामग्रीको सारांश डुडलमा](../../../../translated_images/ne/ai-computervision.6506ebebac3fbf76.webp)

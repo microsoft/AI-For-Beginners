@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:28:09+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "ja"
-}
--->
 # 初心者向けAI例
 
 ようこそ！このディレクトリには、AIや機械学習を始めるためのシンプルで独立した例が含まれています。各例は初心者向けに設計されており、詳細なコメントやステップバイステップの説明が付いています。

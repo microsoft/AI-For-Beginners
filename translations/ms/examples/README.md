@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:32:48+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "ms"
-}
--->
 # Contoh AI Mesra Pemula
 
 Selamat datang! Direktori ini mengandungi contoh mudah dan berdiri sendiri untuk membantu anda memulakan dengan AI dan pembelajaran mesin. Setiap contoh direka untuk mesra pemula dengan komen terperinci dan penjelasan langkah demi langkah.

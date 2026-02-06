@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T14:57:29+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "hr"
-}
--->
 # Generativne mreže
 
 ## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Trenirat ćemo ovaj RNN da generira tekst korak po korak. Na svakom koraku uzet 
 
 Tijekom generiranja teksta (tijekom inferencije), počinjemo s nekim **poticajem**, koji se prosljeđuje kroz RNN ćelije kako bi se generiralo njegovo međustanje, a zatim iz tog stanja počinje generiranje. Generiramo jedan znak po jedan, prosljeđujemo stanje i generirani znak sljedećoj RNN ćeliji kako bismo generirali sljedeći znak, sve dok ne generiramo dovoljno znakova.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/hr/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Slika autora
 

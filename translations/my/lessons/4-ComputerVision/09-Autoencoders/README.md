@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T15:17:12+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "my"
-}
--->
 # အော်တိုအင်ကိုဒါများ
 
 CNN များကို လေ့ကျင့်ရာတွင် တစ်ခုသော ပြဿနာမှာ အမှတ်အသားပြုထားသော ဒေတာများ များစွာ လိုအပ်သည်။ ပုံရိပ်များကို အမျိုးအစားအလိုက် ခွဲခြားရန် လိုအပ်သောအခါ၊ ၎င်းသည် လက်ဖြင့်လုပ်ဆောင်ရသော အလုပ်ဖြစ်သည်။
@@ -46,7 +37,7 @@ VAE သည် latent parameters များ၏ *statistical distribution* က�
  * Distribution N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)) မှ sample vector ကို ယူသည်
  * Decoder သည် sample ကို input vector အဖြစ် အသုံးပြု၍ မူရင်းပုံရိပ်ကို ပြန်လည်ဖန်တီးရန် ကြိုးစားသည်
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/my/vae.464c465a5b6a9e25.webp" width="50%">
 
 > ပုံရိပ် - [Isaak Dykeman ၏ ဘလော့](https://ijdykeman.github.io/ml/2016/12/21/cvae.html)
 
@@ -57,13 +48,13 @@ Variational auto-encoders တွင် loss function အစိတ်အပို
 
 VAE များ၏ အရေးကြီးသော အားသာချက်တစ်ခုမှာ latent vectors များကို sample လုပ်ရန် distribution ကို သိရှိထားသောကြောင့် အသစ်သော ပုံရိပ်များကို အလွယ်တကူ ဖန်တီးနိုင်ခြင်းဖြစ်သည်။ ဥပမာအားဖြင့် MNIST dataset ကို 2D latent vector ဖြင့် VAE ကို လေ့ကျင့်ပါက၊ latent vector ၏ components များကို အပြောင်းအလဲလုပ်၍ အမျိုးမျိုးသော digit များကို ရနိုင်သည် -
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/my/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > ပုံရိပ် - [Dmitry Soshnikov](http://soshnikov.com)
 
 latent parameter space ၏ အခြားသော အပိုင်းများမှ latent vectors များကို ရယူသည့်အခါ၊ ပုံရိပ်များသည် အချင်းချင်း ပေါင်းစည်းနေသည်ကို တွေ့နိုင်သည်။ ၎င်း space ကို 2D တွင်လည်း မြင်နိုင်သည် -
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/my/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > ပုံရိပ် - [Dmitry Soshnikov](http://soshnikov.com)
 

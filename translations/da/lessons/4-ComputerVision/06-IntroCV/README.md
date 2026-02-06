@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T09:29:06+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "da"
-}
--->
 # Introduktion til Computer Vision
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) er en disciplin, der har til formål at give computere en højere forståelse af digitale billeder. Dette er en bred definition, da *forståelse* kan betyde mange forskellige ting, herunder at finde et objekt på et billede (**objektdetektion**), forstå hvad der sker (**begivenhedsdetektion**), beskrive et billede med tekst eller rekonstruere en scene i 3D. Der er også særlige opgaver relateret til menneskelige billeder: alder- og følelsesestimering, ansigtsdetektion og -identifikation samt 3D-positur-estimering, for blot at nævne nogle få.
@@ -115,7 +106,7 @@ Læs mere om optisk flow [i denne fremragende tutorial](https://learnopencv.com/
 
 I denne opgave skal du tage en video med simple gestusser, og dit mål er at udtrække op/ned/venstre/højre bevægelser ved hjælp af optisk flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/da/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-25T21:29:43+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "hr"
-}
--->
 # Obrada Prirodnog Jezika
 
 ![Sažetak NLP zadataka u crtežu](../../../../translated_images/hr/ai-nlp.b22dcb8ca4707cea.webp)

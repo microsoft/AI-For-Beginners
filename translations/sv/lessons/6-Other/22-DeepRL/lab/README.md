@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-28T15:07:34+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "sv"
-}
--->
 ## Miljön
 
 Mountain Car-miljön består av en bil som är fast i en dal. Målet är att hoppa ut ur dalen och nå flaggan. De handlingar du kan utföra är att accelerera åt vänster, åt höger eller att inte göra något alls. Du kan observera bilens position längs x-axeln och dess hastighet.

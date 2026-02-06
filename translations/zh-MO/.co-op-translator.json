@@ -1,0 +1,398 @@
+{
+  "AGENTS.md": {
+    "original_hash": "6b11a37115944252ab3ed04e358d830d",
+    "translation_date": "2025-10-03T09:14:22+00:00",
+    "source_file": "AGENTS.md",
+    "language_code": "zh-MO"
+  },
+  "README.md": {
+    "original_hash": "1984fc89dd304a8a33ab5584691a99aa",
+    "translation_date": "2026-01-30T01:16:52+00:00",
+    "source_file": "README.md",
+    "language_code": "zh-MO"
+  },
+  "SECURITY.md": {
+    "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
+    "translation_date": "2025-08-26T07:55:24+00:00",
+    "source_file": "SECURITY.md",
+    "language_code": "zh-MO"
+  },
+  "etc/CODE_OF_CONDUCT.md": {
+    "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
+    "translation_date": "2025-08-26T11:17:02+00:00",
+    "source_file": "etc/CODE_OF_CONDUCT.md",
+    "language_code": "zh-MO"
+  },
+  "etc/CONTRIBUTING.md": {
+    "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
+    "translation_date": "2025-08-26T11:19:34+00:00",
+    "source_file": "etc/CONTRIBUTING.md",
+    "language_code": "zh-MO"
+  },
+  "etc/Mindmap.md": {
+    "original_hash": "f2f88dbd2debd38e26149b27b1fd272d",
+    "translation_date": "2025-08-26T11:21:29+00:00",
+    "source_file": "etc/Mindmap.md",
+    "language_code": "zh-MO"
+  },
+  "etc/SUPPORT.md": {
+    "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
+    "translation_date": "2025-08-26T11:16:09+00:00",
+    "source_file": "etc/SUPPORT.md",
+    "language_code": "zh-MO"
+  },
+  "etc/TRANSLATIONS.md": {
+    "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
+    "translation_date": "2025-08-26T11:18:08+00:00",
+    "source_file": "etc/TRANSLATIONS.md",
+    "language_code": "zh-MO"
+  },
+  "etc/quiz-app/README.md": {
+    "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
+    "translation_date": "2025-08-26T11:25:13+00:00",
+    "source_file": "etc/quiz-app/README.md",
+    "language_code": "zh-MO"
+  },
+  "examples/README.md": {
+    "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
+    "translation_date": "2025-10-03T11:27:40+00:00",
+    "source_file": "examples/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/0-course-setup/for-teachers.md": {
+    "original_hash": "a094ef9927883de1cfcee51dbd143381",
+    "translation_date": "2025-08-26T11:11:56+00:00",
+    "source_file": "lessons/0-course-setup/for-teachers.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/0-course-setup/how-to-run.md": {
+    "original_hash": "a4717bd9103b9f6cd84d534b83534689",
+    "translation_date": "2026-01-15T11:56:17+00:00",
+    "source_file": "lessons/0-course-setup/how-to-run.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/0-course-setup/setup.md": {
+    "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
+    "translation_date": "2025-12-12T19:19:57+00:00",
+    "source_file": "lessons/0-course-setup/setup.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/1-Intro/README.md": {
+    "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
+    "translation_date": "2025-11-18T20:49:11+00:00",
+    "source_file": "lessons/1-Intro/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/1-Intro/assignment.md": {
+    "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
+    "translation_date": "2025-11-18T20:50:47+00:00",
+    "source_file": "lessons/1-Intro/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/2-Symbolic/README.md": {
+    "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
+    "translation_date": "2026-01-15T11:57:23+00:00",
+    "source_file": "lessons/2-Symbolic/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/2-Symbolic/assignment.md": {
+    "original_hash": "a057a8604f3976c3e309884453f1fad0",
+    "translation_date": "2025-08-26T11:06:54+00:00",
+    "source_file": "lessons/2-Symbolic/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/03-Perceptron/README.md": {
+    "original_hash": "c34cbba802058b6fa267e1a294d4e510",
+    "translation_date": "2025-09-23T08:11:17+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md": {
+    "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
+    "translation_date": "2025-08-29T07:06:01+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/04-OwnFramework/README.md": {
+    "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
+    "translation_date": "2025-09-23T08:10:56+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md": {
+    "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
+    "translation_date": "2025-08-26T10:29:08+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/05-Frameworks/README.md": {
+    "original_hash": "ddd216f558a255260a9374008002c971",
+    "translation_date": "2025-09-23T08:11:38+00:00",
+    "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md": {
+    "original_hash": "e452d897efb9a89700f41021834cf6e5",
+    "translation_date": "2025-08-26T10:35:08+00:00",
+    "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/3-NeuralNetworks/README.md": {
+    "original_hash": "f862a99d88088163df12270e2f2ad6c3",
+    "translation_date": "2025-10-03T12:43:12+00:00",
+    "source_file": "lessons/3-NeuralNetworks/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/06-IntroCV/README.md": {
+    "original_hash": "feeca98225cb420afc89415f24f63d92",
+    "translation_date": "2025-09-23T08:07:00+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/06-IntroCV/lab/README.md": {
+    "original_hash": "3d53d6409f80970f7281a45dee35328a",
+    "translation_date": "2025-08-26T09:40:48+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md": {
+    "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
+    "translation_date": "2025-09-23T08:06:23+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/07-ConvNets/README.md": {
+    "original_hash": "a560d5b845962cf33dc102266e409568",
+    "translation_date": "2025-09-23T08:06:06+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/07-ConvNets/lab/README.md": {
+    "original_hash": "b70fcf7fcee862990f848c679090943f",
+    "translation_date": "2025-10-03T14:52:50+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/08-TransferLearning/README.md": {
+    "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
+    "translation_date": "2025-09-23T08:06:37+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md": {
+    "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
+    "translation_date": "2025-08-26T09:47:22+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/08-TransferLearning/lab/README.md": {
+    "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
+    "translation_date": "2025-08-26T09:52:46+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/09-Autoencoders/README.md": {
+    "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
+    "translation_date": "2025-09-23T08:08:07+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/10-GANs/README.md": {
+    "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
+    "translation_date": "2025-09-23T08:08:45+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/11-ObjectDetection/README.md": {
+    "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
+    "translation_date": "2025-09-23T08:07:28+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md": {
+    "original_hash": "ad568d55ae65c856fe929fc2b278510a",
+    "translation_date": "2025-08-26T09:24:51+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/12-Segmentation/README.md": {
+    "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
+    "translation_date": "2025-09-23T08:08:30+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/12-Segmentation/lab/README.md": {
+    "original_hash": "365f0decfe0f47b460bbde8227c5009d",
+    "translation_date": "2025-08-26T09:12:11+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/4-ComputerVision/README.md": {
+    "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
+    "translation_date": "2025-08-26T09:02:40+00:00",
+    "source_file": "lessons/4-ComputerVision/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/13-TextRep/README.md": {
+    "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
+    "translation_date": "2025-09-23T08:14:51+00:00",
+    "source_file": "lessons/5-NLP/13-TextRep/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/13-TextRep/assignment.md": {
+    "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
+    "translation_date": "2025-08-26T08:28:32+00:00",
+    "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/14-Embeddings/README.md": {
+    "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
+    "translation_date": "2025-09-23T08:14:16+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/14-Embeddings/assignment.md": {
+    "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
+    "translation_date": "2025-08-26T08:17:44+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/15-LanguageModeling/README.md": {
+    "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
+    "translation_date": "2025-09-23T08:12:23+00:00",
+    "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/15-LanguageModeling/lab/README.md": {
+    "original_hash": "5130f01fdc5ebb83032b23d489027aac",
+    "translation_date": "2025-08-26T08:31:50+00:00",
+    "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/16-RNN/README.md": {
+    "original_hash": "e2273cc150380a5e191903cea858f021",
+    "translation_date": "2025-09-23T08:13:48+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/16-RNN/assignment.md": {
+    "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
+    "translation_date": "2025-08-26T08:12:51+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/17-GenerativeNetworks/README.md": {
+    "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
+    "translation_date": "2025-09-23T08:12:05+00:00",
+    "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/17-GenerativeNetworks/lab/README.md": {
+    "original_hash": "439e12796197a90e7623d4c9c057b9c2",
+    "translation_date": "2025-08-26T08:22:51+00:00",
+    "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/18-Transformers/README.md": {
+    "original_hash": "f335dfcb4a993920504c387973a36957",
+    "translation_date": "2025-09-23T08:12:37+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/18-Transformers/assignment.md": {
+    "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
+    "translation_date": "2025-08-26T08:40:43+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/19-NER/README.md": {
+    "original_hash": "6522312ff835796ca34136a9462fafb2",
+    "translation_date": "2025-09-23T08:13:29+00:00",
+    "source_file": "lessons/5-NLP/19-NER/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/19-NER/lab/README.md": {
+    "original_hash": "032bda5068f543d6c1fcb30c34231461",
+    "translation_date": "2025-08-26T08:50:12+00:00",
+    "source_file": "lessons/5-NLP/19-NER/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/20-LangModels/README.md": {
+    "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
+    "translation_date": "2025-09-23T08:13:06+00:00",
+    "source_file": "lessons/5-NLP/20-LangModels/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/5-NLP/README.md": {
+    "original_hash": "8ef02a9318257ea140ed3ed74442096d",
+    "translation_date": "2025-08-26T08:02:59+00:00",
+    "source_file": "lessons/5-NLP/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/6-Other/21-GeneticAlgorithms/README.md": {
+    "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
+    "translation_date": "2025-09-23T08:04:56+00:00",
+    "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/6-Other/22-DeepRL/README.md": {
+    "original_hash": "04395657fc01648f8f70484d0e55ab67",
+    "translation_date": "2025-09-23T08:05:44+00:00",
+    "source_file": "lessons/6-Other/22-DeepRL/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/6-Other/22-DeepRL/lab/README.md": {
+    "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
+    "translation_date": "2025-08-26T10:16:40+00:00",
+    "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/6-Other/23-MultiagentSystems/README.md": {
+    "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
+    "translation_date": "2025-09-23T08:05:09+00:00",
+    "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/6-Other/23-MultiagentSystems/assignment.md": {
+    "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
+    "translation_date": "2025-08-26T10:11:06+00:00",
+    "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/7-Ethics/README.md": {
+    "original_hash": "437c988596e751072e41a5aad3fcc5d9",
+    "translation_date": "2025-08-26T07:58:36+00:00",
+    "source_file": "lessons/7-Ethics/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/README.md": {
+    "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
+    "translation_date": "2025-08-26T07:57:15+00:00",
+    "source_file": "lessons/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/X-Extras/X1-MultiModal/README.md": {
+    "original_hash": "9c592c26aca16ca085d268c732284187",
+    "translation_date": "2025-08-26T10:18:27+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/sketchnotes/LICENSE.md": {
+    "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
+    "translation_date": "2025-08-26T10:44:54+00:00",
+    "source_file": "lessons/sketchnotes/LICENSE.md",
+    "language_code": "zh-MO"
+  },
+  "lessons/sketchnotes/README.md": {
+    "original_hash": "050b8bddebafba55b129414e6ab096ab",
+    "translation_date": "2025-08-26T10:40:32+00:00",
+    "source_file": "lessons/sketchnotes/README.md",
+    "language_code": "zh-MO"
+  },
+  "troubleshoot.md": {
+    "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
+    "translation_date": "2025-10-03T09:37:05+00:00",
+    "source_file": "troubleshoot.md",
+    "language_code": "zh-MO"
+  }
+}

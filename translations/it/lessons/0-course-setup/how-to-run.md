@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T14:20:38+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "it"
-}
--->
 # Come eseguire il codice
 
 Questo curriculum contiene molti esempi eseguibili e laboratori che vorresti eseguire. Per farlo, hai bisogno della capacità di eseguire codice Python nei Jupyter Notebook forniti come parte di questo curriculum. Hai diverse opzioni per eseguire il codice:

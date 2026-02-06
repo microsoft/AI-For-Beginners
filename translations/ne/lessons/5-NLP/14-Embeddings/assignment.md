@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-26T08:18:05+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "ne"
-}
--->
 # असाइनमेन्ट: नोटबुकहरू
 
 यस पाठसँग सम्बन्धित नोटबुकहरू (PyTorch वा TensorFlow संस्करण), आफ्नो आफ्नै डाटासेट प्रयोग गरेर पुन: चलाउनुहोस्, सम्भवतः Kaggle बाट लिएको, जसलाई श्रेय दिइएको छ। नोटबुकलाई पुन: लेख्नुहोस् ताकि तपाईंका आफ्नै निष्कर्षहरूलाई जोड दिन सकियोस्। फरक प्रकारको डाटासेट प्रयास गर्नुहोस् र आफ्नो निष्कर्षहरूलाई दस्तावेज गर्नुहोस्, जस्तै [यी Beatles गीतका शब्दहरू](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) प्रयोग गरेर।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T06:52:08+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "tl"
-}
--->
 # Deep Reinforcement Learning
 
 Ang Reinforcement Learning (RL) ay isa sa mga pangunahing paradigms ng machine learning, katabi ng supervised learning at unsupervised learning. Habang sa supervised learning ay umaasa tayo sa dataset na may mga kilalang resulta, ang RL ay nakabatay sa **pagkatuto sa pamamagitan ng paggawa**. Halimbawa, kapag unang beses nating nakita ang isang computer game, nagsisimula tayong maglaro kahit hindi alam ang mga patakaran, at sa kalaunan ay napapabuti natin ang ating kakayahan sa pamamagitan ng paglalaro at pag-aadjust ng ating mga kilos.
@@ -34,7 +25,7 @@ Marahil ay nakita na ninyo ang mga modernong balancing devices tulad ng *Segway*
 
 Ang isang pinasimpleng bersyon ng balancing ay kilala bilang **CartPole** problem. Sa mundo ng cartpole, mayroon tayong horizontal slider na maaaring gumalaw pakaliwa o pakanan, at ang layunin ay mag-balanse ng vertical pole sa ibabaw ng slider habang ito ay gumagalaw.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/tl/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Para gumawa at gumamit ng environment na ito, kailangan natin ng ilang linya ng Python code:
 

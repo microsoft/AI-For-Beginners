@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T15:03:45+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "sl"
-}
--->
 # Zaznavanje objektov
 
 Modeli za klasifikacijo slik, s katerimi smo se doslej ukvarjali, so vzeli sliko in podali kategorialni rezultat, na primer razred 'številka' v problemu MNIST. Vendar pa v mnogih primerih ne želimo le vedeti, da slika prikazuje objekte – želimo določiti njihovo natančno lokacijo. To je pravzaprav bistvo **zaznavanja objektov**.

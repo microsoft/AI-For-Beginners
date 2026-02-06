@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-11-25T22:14:30+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "te"
-}
--->
 # డీప్ లెర్నింగ్ శిక్షణ చిట్కాలు
 
 న్యూరల్ నెట్‌వర్క్లు లోతుగా మారుతున్న కొద్దీ, వాటి శిక్షణ ప్రక్రియ మరింత కష్టతరమవుతుంది. ఒక ప్రధాన సమస్యగా పిలవబడేది [వానిషింగ్ గ్రాడియెంట్స్](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) లేదా [ఎక్స్‌ప్లోడింగ్ గ్రాడియెంట్స్](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) సమస్య. [ఈ పోస్ట్](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ఆ సమస్యల గురించి మంచి పరిచయాన్ని ఇస్తుంది.

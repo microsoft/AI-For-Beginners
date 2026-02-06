@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T22:22:42+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "pcm"
-}
--->
 # Game Jam
 
 Games na one area wey AI and ML don really change well well. For dis assignment, make you write small paper about one game wey you like wey AI don help change as e dey grow. The game suppose don dey old well well so e fit don use different types of computer processing systems. Good example na Chess or Go, but you fit also check video games like pong or Pac-Man. Write essay wey go talk about how the game take start, how e dey now, and wetin AI fit do for am for future.

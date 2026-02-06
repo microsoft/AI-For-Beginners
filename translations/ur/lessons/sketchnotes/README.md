@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T10:40:26+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "ur"
-}
--->
 تمام نصاب کے خاکے یہاں سے ڈاؤنلوڈ کیے جا سکتے ہیں۔
 
 🎨 تخلیق کردہ: تومومی ایمورا (ٹویٹر: [@girlie_mac](https://twitter.com/girlie_mac), گٹ ہب: [girliemac](https://github.com/girliemac))

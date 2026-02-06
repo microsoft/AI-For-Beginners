@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T13:13:33+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ja"
-}
--->
 # 生成ネットワーク
 
 ## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 テキスト生成（推論中）では、まず**プロンプト**を使用し、それをRNNセルに通して中間状態を生成します。その後、この状態から生成が始まります。1文字ずつ生成し、状態と生成された文字を次のRNNセルに渡して次の文字を生成します。このプロセスを繰り返して十分な文字数を生成します。
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ja/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > 画像は著者によるもの
 

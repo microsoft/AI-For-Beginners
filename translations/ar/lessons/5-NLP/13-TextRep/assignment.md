@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-26T08:28:19+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "ar"
-}
--->
 # المهمة: دفاتر الملاحظات
 
 باستخدام دفاتر الملاحظات المرتبطة بهذه الدرس (سواء نسخة PyTorch أو TensorFlow)، قم بتشغيلها مرة أخرى باستخدام مجموعة بيانات خاصة بك، ربما واحدة من Kaggle، مع الإشارة إلى المصدر. أعد كتابة دفتر الملاحظات لتسليط الضوء على استنتاجاتك الخاصة. جرب بعض مجموعات البيانات المبتكرة التي قد تكون مفاجئة، مثل [هذه المجموعة عن مشاهدات الأجسام الطائرة المجهولة](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) من NUFORC.

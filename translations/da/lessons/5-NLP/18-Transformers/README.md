@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T09:35:02+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "da"
-}
--->
 # Attention Mekanismer og Transformers
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Idéen med positionskodning er følgende:
 * Trænbar embedding, svarende til token-embedding. Dette er den tilgang, vi overvejer her. Vi anvender embedding-lag oven på både tokens og deres positioner, hvilket resulterer i embedding-vektorer af samme dimensioner, som vi derefter lægger sammen.
 * Fast positionskodningsfunktion, som foreslået i det originale papir.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/da/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Billede af forfatteren
 

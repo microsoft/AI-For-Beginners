@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T11:07:54+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "sw"
-}
--->
 # Kuwakilisha Maandishi kama Tensors
 
 ## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Lengo letu litakuwa kuainisha kipengele cha habari katika mojawapo ya kategoria 
 
 Ikiwa tunataka kutatua kazi za Usindikaji wa Lugha Asilia (NLP) kwa kutumia mitandao ya neva, tunahitaji njia ya kuwakilisha maandishi kama tensors. Kompyuta tayari zinawakilisha herufi za maandishi kama namba zinazolingana na fonti kwenye skrini yako kwa kutumia encodings kama ASCII au UTF-8.
 
-<img alt="Picha inayoonyesha mchoro wa kuonyesha ramani ya herufi kwa uwakilishi wa ASCII na binary" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Picha inayoonyesha mchoro wa kuonyesha ramani ya herufi kwa uwakilishi wa ASCII na binary" src="../../../../../translated_images/sw/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Chanzo cha Picha](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Katika baadhi ya matukio, tunaweza kuzingatia kutumia tri-grams -- mchanganyiko 
 
 Tunapokuwa tunatatua kazi kama uainishaji wa maandishi, tunahitaji kuwakilisha maandishi kwa vector ya ukubwa wa kudumu, ambayo tutatumia kama ingizo kwa classifier ya mwisho yenye dense. Njia rahisi zaidi ya kufanya hivyo ni kuunganisha uwakilishi wa maneno ya mtu binafsi, kwa mfano kwa kuyaongeza. Ikiwa tunaongeza one-hot encodings za kila neno, tutapata vector ya frequencies, inayoonyesha mara ngapi kila neno linatokea ndani ya maandishi. Uwakilishi wa maandishi kama huu unaitwa **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/sw/bow.3811869cff59368d.webp" width="90%"/>
 
 > Picha na mwandishi
 

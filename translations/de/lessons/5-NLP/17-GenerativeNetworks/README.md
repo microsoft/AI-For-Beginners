@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T12:22:45+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "de"
-}
--->
 # Generative Netzwerke
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Wir werden dieses RNN trainieren, um Text Schritt für Schritt zu generieren. Be
 
 Bei der Textgenerierung (während der Inferenz) beginnen wir mit einem **Prompt**, der durch die RNN-Zellen geleitet wird, um seinen Zwischenzustand zu erzeugen, und dann beginnt die Generierung aus diesem Zustand. Wir generieren ein Zeichen nach dem anderen und übergeben den Zustand und das generierte Zeichen an eine andere RNN-Zelle, um das nächste zu generieren, bis wir genügend Zeichen erzeugt haben.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/de/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Bild vom Autor
 

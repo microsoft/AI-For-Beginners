@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-24T09:48:52+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "hi"
-}
--->
 # असाइनमेंट: नोटबुक्स
 
 इस पाठ से संबंधित नोटबुक्स (चाहे वह PyTorch संस्करण हो या TensorFlow संस्करण), अपने स्वयं के डेटा सेट का उपयोग करके पुनः चलाएं, शायद Kaggle से लिया गया हो, और उचित श्रेय के साथ उपयोग किया गया हो। नोटबुक को फिर से लिखें ताकि आपके अपने निष्कर्षों को उजागर किया जा सके। एक अलग प्रकार का डेटा सेट आज़माएं और अपने निष्कर्षों को दस्तावेज़ित करें, जैसे [ये Beatles गीत](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) का उपयोग करके।

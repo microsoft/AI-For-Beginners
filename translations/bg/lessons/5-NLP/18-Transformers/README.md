@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T14:33:59+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "bg"
-}
--->
 # Механизми за внимание и трансформери
 
 ## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Обучаемо вграждане, подобно на вграждането на токени. Това е подходът, който разглеждаме тук. Прилагаме слоеве за вграждане върху токените и техните позиции, което води до вектори за вграждане със същите размери, които след това събираме.
 * Функция за фиксирано позиционно кодиране, както е предложено в оригиналната статия.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/bg/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Изображение от автора
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-  "translation_date": "2025-08-24T10:45:40+00:00",
-  "source_file": "lessons/sketchnotes/LICENSE.md",
-  "language_code": "pl"
-}
--->
 Prawa, prawa te nie są licencjonowane na mocy tej Licencji Publicznej; oraz  
 
   c. nie możesz oferować ani nakładać żadnych dodatkowych lub odmiennych warunków, ani stosować Skutecznych Środków Technologicznych do Materiału Licencjonowanego, które ograniczałyby korzystanie z praw przyznanych na mocy tej Licencji Publicznej przez jakiegokolwiek odbiorcę Materiału Licencjonowanego.  

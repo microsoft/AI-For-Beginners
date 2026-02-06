@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T09:24:25+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "sv"
-}
--->
 # Förtränade stora språkmodeller
 
 I alla våra tidigare uppgifter har vi tränat ett neuralt nätverk för att utföra en viss uppgift med hjälp av en märkt dataset. Med stora transformer-modeller, såsom BERT, använder vi språkinlärning i självövervakad form för att bygga en språkmodell, som sedan specialiseras för specifika nedströmsuppgifter med ytterligare domänspecifik träning. Det har dock visat sig att stora språkmodeller också kan lösa många uppgifter utan någon domänspecifik träning. En familj av modeller som kan göra detta kallas **GPT**: Generative Pre-Trained Transformer.

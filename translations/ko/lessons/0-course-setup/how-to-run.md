@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T12:57:22+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "ko"
-}
--->
 # 코드 실행 방법
 
 이 커리큘럼에는 실행할 수 있는 많은 예제와 실습이 포함되어 있습니다. 이를 실행하려면 이 커리큘럼의 일부로 제공되는 Jupyter 노트북에서 Python 코드를 실행할 수 있어야 합니다. 코드를 실행하는 몇 가지 방법이 있습니다:

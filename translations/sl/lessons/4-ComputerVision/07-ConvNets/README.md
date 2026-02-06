@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T15:01:57+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "sl"
-}
--->
 # Konvolucijske nevronske mreže
 
 Že prej smo videli, da so nevronske mreže precej dobre pri obdelavi slik, in celo enoslojni perceptron je sposoben prepoznati ročno napisane številke iz podatkovne zbirke MNIST z razumno natančnostjo. Vendar pa je podatkovna zbirka MNIST zelo posebna, saj so vse številke centrirane znotraj slike, kar nalogo poenostavi.
@@ -24,7 +15,7 @@ Za ekstrakcijo vzorcev bomo uporabili koncept **konvolucijskih filtrov**. Kot ve
 
 Na primer, če uporabimo 3x3 filtre za navpične in vodoravne robove na številkah iz MNIST, lahko dobimo poudarke (npr. visoke vrednosti) tam, kjer so v izvirni sliki navpični in vodoravni robovi. Tako lahko ta dva filtra uporabimo za "iskanje" robov. Podobno lahko oblikujemo različne filtre za iskanje drugih nizkoročnih vzorcev:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/sl/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Slika: [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

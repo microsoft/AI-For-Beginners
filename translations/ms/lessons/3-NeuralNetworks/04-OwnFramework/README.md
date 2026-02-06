@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:53:21+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ms"
-}
--->
 # Pengenalan kepada Rangkaian Neural. Multi-Layered Perceptron
 
 Dalam bahagian sebelumnya, anda telah mempelajari model rangkaian neural yang paling mudah - perceptron satu lapisan, iaitu model klasifikasi linear dua kelas.
@@ -65,7 +56,7 @@ Algoritma penurunan gradien akan kekal sama, tetapi ia akan menjadi lebih sukar 
 
 Perhatikan bahawa bahagian paling kiri semua ungkapan tersebut adalah sama, dan oleh itu kita boleh mengira derivatif dengan berkesan bermula daripada fungsi kehilangan dan bergerak "ke belakang" melalui graf pengiraan. Oleh itu, kaedah latihan perceptron berbilang lapisan dipanggil **backpropagation**, atau 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/ms/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: rujukan imej
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "58a52f000089c1d8906a4daa4ab1169b",
-  "translation_date": "2025-11-25T21:11:23+00:00",
-  "source_file": "lessons/4-ComputerVision/README.md",
-  "language_code": "kn"
-}
--->
 # ಕಂಪ್ಯೂಟರ್ ವೀಕ್ಷಣೆ
 
 ![ಕಂಪ್ಯೂಟರ್ ವೀಕ್ಷಣೆ ವಿಷಯದ ಸಾರಾಂಶ ಡೂಡಲ್‌ನಲ್ಲಿ](../../../../translated_images/kn/ai-computervision.6506ebebac3fbf76.webp)

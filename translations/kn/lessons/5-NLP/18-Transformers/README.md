@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-11-25T23:14:32+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "kn"
-}
--->
 # ಗಮನ ಯಂತ್ರಗಳು ಮತ್ತು ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್‌ಗಳು
 
 ## [ಪೂರ್ವ-ವ್ಯಾಖ್ಯಾನ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ai/quiz/35)

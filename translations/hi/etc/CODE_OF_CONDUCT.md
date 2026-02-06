@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-08-24T10:06:08+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "hi"
-}
--->
 # Microsoft ओपन सोर्स आचार संहिता
 
 इस प्रोजेक्ट ने [Microsoft ओपन सोर्स आचार संहिता](https://opensource.microsoft.com/codeofconduct/) को अपनाया है।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T08:29:01+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "it"
-}
--->
 # Introduzione alla Visione Artificiale
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) è una disciplina il cui obiettivo è permettere ai computer di ottenere una comprensione di alto livello delle immagini digitali. Questa è una definizione piuttosto ampia, poiché *comprensione* può significare molte cose diverse, tra cui trovare un oggetto in un'immagine (**rilevamento di oggetti**), capire cosa sta accadendo (**rilevamento di eventi**), descrivere un'immagine in testo o ricostruire una scena in 3D. Ci sono anche compiti specifici legati alle immagini umane: stima dell'età e delle emozioni, rilevamento e identificazione del volto, e stima della posa 3D, solo per citarne alcuni.
@@ -115,7 +106,7 @@ Leggi di più sull'optical flow [in questo ottimo tutorial](https://learnopencv.
 
 In questo laboratorio, registrerai un video con gesti semplici, e il tuo obiettivo sarà estrarre movimenti su/giù/sinistra/destra utilizzando optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Fotogramma Movimento del Palmo"/>
+<img src="../../../../../translated_images/it/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Fotogramma Movimento del Palmo"/>
 
 ---
 

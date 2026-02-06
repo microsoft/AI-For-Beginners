@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T13:13:55+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "ja"
-}
--->
 # 言語モデル
 
 Word2VecやGloVeのようなセマンティック埋め込みは、実際には**言語モデル**への第一歩です。つまり、言語の性質を何らかの形で*理解*（または*表現*）するモデルを作成することです。

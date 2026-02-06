@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-11-18T18:44:40+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "pcm"
-}
--->
 # Recurrent Neural Networks
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-24T21:24:10+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "ko"
-}
--->
 # 과제: 노트북
 
 이 강의와 관련된 노트북(예: PyTorch 또는 TensorFlow 버전)을 사용하여, 여러분만의 데이터셋으로 다시 실행해 보세요. Kaggle에서 가져온 데이터셋을 사용하고 출처를 명시하세요. 노트북을 다시 작성하여 여러분의 발견을 강조하세요. 다른 종류의 데이터셋을 시도하고, [이 Kaggle 대회 데이터셋: 날씨 관련 트윗](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv)과 같은 텍스트를 사용하여 결과를 문서화하세요.

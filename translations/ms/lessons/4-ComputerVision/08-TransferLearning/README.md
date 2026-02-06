@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T10:48:52+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "ms"
-}
--->
 # Rangkaian Pra-latih dan Pembelajaran Pemindahan
 
 Melatih CNN boleh mengambil masa yang lama, dan memerlukan banyak data untuk tugas tersebut. Walau bagaimanapun, sebahagian besar masa dihabiskan untuk mempelajari penapis tahap rendah terbaik yang boleh digunakan oleh rangkaian untuk mengekstrak corak daripada imej. Satu persoalan semula jadi timbul - bolehkah kita menggunakan rangkaian neural yang telah dilatih pada satu dataset dan menyesuaikannya untuk mengklasifikasikan imej yang berbeza tanpa memerlukan proses latihan penuh?

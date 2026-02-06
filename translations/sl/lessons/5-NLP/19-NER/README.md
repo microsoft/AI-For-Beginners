@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T15:10:39+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "sl"
-}
--->
 # Prepoznavanje imenovanih entitet
 
 Do sedaj smo se večinoma osredotočali na eno nalogo NLP - klasifikacijo. Vendar pa obstajajo tudi druge naloge NLP, ki jih je mogoče doseči z nevronskimi mrežami. Ena od teh nalog je **[Prepoznavanje imenovanih entitet](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ki se ukvarja s prepoznavanjem specifičnih entitet v besedilu, kot so kraji, imena oseb, časovni intervali, kemijske formule in podobno.
@@ -17,7 +8,7 @@ Do sedaj smo se večinoma osredotočali na eno nalogo NLP - klasifikacijo. Venda
 
 Recimo, da želite razviti klepetalni bot, podoben Amazon Alexa ali Google Assistant. Inteligentni klepetalni boti delujejo tako, da *razumejo*, kaj uporabnik želi, s klasifikacijo besedila vhodnega stavka. Rezultat te klasifikacije je tako imenovani **namen**, ki določa, kaj naj klepetalni bot naredi.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/sl/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Slika avtorja
 

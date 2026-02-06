@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
-  "translation_date": "2025-09-23T06:47:05+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
-  "language_code": "ur"
-}
--->
 # نیورل نیٹ ورکس کا تعارف: پرسیپٹرون
 
 ## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/5)
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |      |      |
 |--------------|-----------|
-|<img src='images/Rosenblatt-wikipedia.jpg' alt='فرینک روزن بلیٹ'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='مارک 1 پرسیپٹرون' />|
+|<img src='../../../../../translated_images/ur/Rosenblatt-wikipedia.294821b285ac796d.webp' alt='فرینک روزن بلیٹ'/> | <img src='../../../../../translated_images/ur/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.webp' alt='مارک 1 پرسیپٹرون' />|
 
 > تصاویر [ویکیپیڈیا سے](https://en.wikipedia.org/wiki/Perceptron)
 
@@ -33,7 +24,7 @@ y(x) = f(w<sup>T</sup>x)
 
 جہاں f ایک اسٹیپ ایکٹیویشن فنکشن ہے
 
-<img src="images/activation-func.png"/>
+<img src="../../../../../translated_images/ur/activation-func.b4924007c7ce7764.webp"/>
 
 ## پرسیپٹرون کی تربیت
 

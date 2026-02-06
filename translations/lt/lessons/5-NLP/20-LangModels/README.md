@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T15:49:41+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "lt"
-}
--->
 # Iš anksto apmokyti dideli kalbos modeliai
 
 Visose ankstesnėse užduotyse mes treniravome neuroninius tinklus atlikti tam tikras užduotis, naudodami pažymėtus duomenų rinkinius. Naudojant didelius transformatorių modelius, tokius kaip BERT, kalbos modeliavimas vykdomas savarankiškai mokantis, siekiant sukurti kalbos modelį, kuris vėliau specializuojamas konkrečiai užduočiai, atliekant papildomą mokymą konkrečioje srityje. Tačiau buvo įrodyta, kad dideli kalbos modeliai gali spręsti daugelį užduočių be JOKIO specifinio mokymo. Modelių šeima, galinti tai atlikti, vadinama **GPT**: Generatyvus iš anksto apmokytas transformatorius.

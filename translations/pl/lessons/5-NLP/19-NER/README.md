@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T13:59:35+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "pl"
-}
--->
 # Rozpoznawanie nazwanych jednostek
 
 Do tej pory skupialiśmy się głównie na jednym zadaniu NLP - klasyfikacji. Jednak istnieją również inne zadania NLP, które można realizować za pomocą sieci neuronowych. Jednym z takich zadań jest **[Rozpoznawanie nazwanych jednostek](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), które polega na identyfikowaniu konkretnych jednostek w tekście, takich jak miejsca, imiona i nazwiska, przedziały czasowe, wzory chemiczne i inne.
@@ -17,7 +8,7 @@ Do tej pory skupialiśmy się głównie na jednym zadaniu NLP - klasyfikacji. Je
 
 Załóżmy, że chcesz stworzyć chatbot oparty na języku naturalnym, podobny do Amazon Alexa czy Google Assistant. Inteligentne chatboty działają w ten sposób, że *rozumieją*, czego użytkownik chce, poprzez klasyfikację tekstu w zdaniu wejściowym. Wynikiem tej klasyfikacji jest tak zwany **intencja**, która określa, co chatbot powinien zrobić.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/pl/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Obraz autorstwa autora
 

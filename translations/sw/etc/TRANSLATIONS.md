@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-25T21:06:24+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "sw"
-}
--->
 # Changia kwa kutafsiri masomo
 
 Tunakaribisha tafsiri za masomo katika mtaala huu!

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-31T18:04:31+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "lt"
-}
--->
 # Prisidėkite prie pamokų vertimo
 
 Mes laukiame pamokų vertimų šioje mokymo programoje!

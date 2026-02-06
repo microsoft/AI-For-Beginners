@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-29T12:51:44+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "vi"
-}
--->
 # Đóng góp bằng cách dịch các bài học
 
 Chúng tôi hoan nghênh các bản dịch cho các bài học trong chương trình giảng dạy này!

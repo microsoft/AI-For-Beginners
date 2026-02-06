@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T09:45:08+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "no"
-}
--->
 # Rammeverk for nevrale nettverk
 
 Som vi allerede har lært, for å kunne trene nevrale nettverk effektivt må vi gjøre to ting:

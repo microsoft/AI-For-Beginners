@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T12:23:12+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "de"
-}
--->
 # Aufmerksamkeitsmechanismen und Transformer
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Die Idee der Positionskodierung ist folgende:
 * Trainierbare Einbettung, ähnlich wie Token-Einbettung. Dies ist der Ansatz, den wir hier betrachten. Wir wenden Einbettungsschichten sowohl auf Tokens als auch auf ihre Positionen an, was zu Einbettungsvektoren mit denselben Dimensionen führt, die wir dann zusammen addieren.
 * Feste Positionskodierungsfunktion, wie im ursprünglichen Paper vorgeschlagen.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/de/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Bild vom Autor
 

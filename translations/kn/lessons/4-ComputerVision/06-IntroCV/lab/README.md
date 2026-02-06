@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-11-25T22:41:27+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "kn"
-}
--->
 # ಆಪ್ಟಿಕಲ್ ಫ್ಲೋ ಬಳಸಿ ಚಲನೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುವುದು
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) ನಿಂದ ಪ್ರಯೋಗಾಲಯ ಕಾರ್ಯ.

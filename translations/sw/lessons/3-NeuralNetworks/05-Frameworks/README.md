@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T11:04:47+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "sw"
-}
--->
 # Mfumo wa Mitandao ya Neural
 
 Kama tulivyojifunza tayari, ili kuweza kufundisha mitandao ya neural kwa ufanisi tunahitaji kufanya mambo mawili:

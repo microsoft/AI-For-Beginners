@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-11-18T18:36:11+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "pcm"
-}
--->
 # Attention Mechanisms and Transformers
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/35)

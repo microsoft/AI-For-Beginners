@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T15:41:50+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "lt"
-}
--->
 # Konvoliuciniai neuroniniai tinklai
 
 Anksčiau matėme, kad neuroniniai tinklai gana gerai dirba su vaizdais, ir net vieno sluoksnio perceptronas sugeba atpažinti ranka rašytus skaitmenis iš MNIST duomenų rinkinio su pakankamu tikslumu. Tačiau MNIST duomenų rinkinys yra labai specifinis – visi skaitmenys yra centruoti vaizde, todėl užduotis tampa paprastesnė.
@@ -24,7 +15,7 @@ Norėdami išgauti raštus, naudosime **konvoliucinių filtrų** sąvoką. Kaip 
 
 Pavyzdžiui, jei taikome 3x3 vertikalų ir horizontalų kraštų filtrus MNIST skaitmenims, galime išryškinti (pvz., gauti aukštas reikšmes) vietas, kuriose yra vertikalūs ir horizontalūs kraštai originaliame vaizde. Taigi šiuos du filtrus galima naudoti "ieškant" kraštų. Panašiai galime sukurti skirtingus filtrus, kad ieškotume kitų žemo lygio raštų:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/lt/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Vaizdas: [Leung-Malik filtrų rinkinys](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

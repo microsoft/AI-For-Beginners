@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T14:33:42+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "tr"
-}
--->
 # Bilgi Temsili ve Uzman Sistemler
 
-![Sembolik AI içeriğinin özeti](../../../../../../translated_images/tr/ai-symbolic.715a30cb610411a6.webp)
+![Sembolik AI içeriğinin özeti](../../../../translated_images/tr/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote [Tomomi Imura](https://twitter.com/girlie_mac) tarafından
 
@@ -41,7 +32,7 @@ Sembolik AI'deki önemli kavramlardan biri **bilgidir**. Bilgiyi *bilgi* veya *v
 
 Böylece, **bilgi temsili** problemi, bilgiyi otomatik olarak kullanılabilir hale getirmek için bilgisayar içinde etkili bir şekilde veri formunda temsil etme yollarını bulmaktır. Bu bir spektrum olarak görülebilir:
 
-![Bilgi temsili spektrumu](../../../../../../translated_images/tr/knowledge-spectrum.b60df631852c0217.webp)
+![Bilgi temsili spektrumu](../../../../translated_images/tr/knowledge-spectrum.b60df631852c0217.webp)
 
 > Görsel [Dmitry Soshnikov](http://soshnikov.com) tarafından
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 Sembolik AI'nin erken başarılarından biri olan **uzman sistemler**, sınırlı problem alanında bir uzman gibi davranmak üzere tasarlanmış bilgisayar sistemleridir. Bir veya daha fazla insan uzmandan çıkartılmış bir **bilgi tabanına** dayanır ve bunun üzerinde bazı akıl yürütme yapan bir **çıkarım motoruna** sahiptir.
 
-![İnsan Mimarisi](../../../../../../translated_images/tr/arch-human.5d4d35f1bba3ab1c.webp) | ![Bilgi Tabanlı Sistem](../../../../../../translated_images/tr/arch-kbs.3ec5c150b09fa8da.webp)
+![İnsan Mimarisi](../../../../translated_images/tr/arch-human.5d4d35f1bba3ab1c.webp) | ![Bilgi Tabanlı Sistem](../../../../translated_images/tr/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 İnsan sinir sisteminin sadeleştirilmiş yapısı | Bilgi tabanlı sistem mimarisi
 
@@ -106,7 +97,7 @@ Uzman sistemler, kısa dönem ve uzun dönem bellek içeren insan akıl yürütm
 
 Örnek olarak, bir hayvanın fiziksel özelliklerine dayanarak tanımlandığı aşağıdaki uzman sistemi düşünelim:
 
-![VEYA-VE ağacı](../../../../../../translated_images/tr/AND-OR-Tree.5592d2c70187f283.webp)
+![VEYA-VE ağacı](../../../../translated_images/tr/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Görsel [Dmitry Soshnikov](http://soshnikov.com) tarafından
 

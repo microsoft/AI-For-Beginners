@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-25T23:14:45+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "sl"
-}
--->
 # Triki za učenje globokega učenja
 
 Ko postajajo nevronske mreže globlje, postaja proces njihovega učenja vse bolj zahteven. Ena glavnih težav so tako imenovani [izginjajoči gradienti](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) ali [eksplodirajoči gradienti](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Ta objava](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ponuja dober uvod v te težave.

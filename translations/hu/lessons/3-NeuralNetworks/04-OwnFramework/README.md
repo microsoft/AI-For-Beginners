@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T11:15:47+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "hu"
-}
--->
 # Bevezetés a Neurális Hálózatokba. Többrétegű Perceptron
 
 Az előző részben megismerkedtél a legegyszerűbb neurális hálózati modellel - az egyrétegű perceptronnal, amely egy lineáris kétosztályos osztályozási modell.
@@ -65,7 +56,7 @@ A gradiens descent algoritmus ugyanaz marad, de a gradiensek kiszámítása bony
 
 Figyeljük meg, hogy ezeknek a kifejezéseknek a bal szélső része ugyanaz, így hatékonyan kiszámíthatjuk a deriváltakat a veszteségfüggvénytől kiindulva, "visszafelé" haladva a számítási gráfon. Ezért a többrétegű perceptron tanításának módszerét **backpropagationnek**, vagy röviden 'backprop'-nak nevezzük.
 
-<img alt="számítási gráf" src="images/ComputeGraphGrad.png"/>
+<img alt="számítási gráf" src="../../../../../translated_images/hu/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: kép forrásmegjelölés
 

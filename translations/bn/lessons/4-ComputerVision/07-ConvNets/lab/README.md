@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b70fcf7fcee862990f848c679090943f",
-  "translation_date": "2025-10-03T14:53:39+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
-  "language_code": "bn"
-}
--->
 # পোষা প্রাণীর মুখের শ্রেণীবিন্যাস
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) থেকে ল্যাব অ্যাসাইনমেন্ট।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T12:35:27+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "fa"
-}
--->
 # شبکه‌های عصبی بازگشتی
 
 ## [آزمون پیش از درس](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 یک سلول ساده RNN دارای دو ماتریس وزن داخلی است: یکی نماد ورودی را تبدیل می‌کند (آن را W می‌نامیم) و دیگری وضعیت ورودی را تبدیل می‌کند (H). در این حالت، خروجی شبکه به صورت &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) محاسبه می‌شود، که در آن &sigma; تابع فعال‌سازی و b بایاس اضافی است.
 
-<img alt="ساختار سلول RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="ساختار سلول RNN" src="../../../../../translated_images/fa/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > تصویر از نویسنده
 

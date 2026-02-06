@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-28T15:31:45+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "no"
-}
--->
 # Etisk og Ansvarlig AI
 
 Du er nesten ferdig med dette kurset, og jeg håper at du nå tydelig ser at AI er basert på en rekke formelle matematiske metoder som lar oss finne sammenhenger i data og trene modeller til å etterligne noen aspekter av menneskelig atferd. På dette tidspunktet i historien anser vi AI som et svært kraftig verktøy for å trekke ut mønstre fra data og bruke disse mønstrene til å løse nye problemer.

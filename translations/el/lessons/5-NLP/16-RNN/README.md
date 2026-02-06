@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T09:00:06+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "el"
-}
--->
 # Επαναλαμβανόμενα Νευρωνικά Δίκτυα
 
 ## [Προ-διάλεξης κουίζ](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ένα απλό κελί RNN έχει δύο πίνακες βαρών στο εσωτερικό του: ένας μετασχηματίζει ένα σύμβολο εισόδου (ας τον ονομάσουμε W) και ένας άλλος μετασχηματίζει μια κατάσταση εισόδου (H). Σε αυτή την περίπτωση, η έξοδος του δικτύου υπολογίζεται ως &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), όπου &sigma; είναι η συνάρτηση ενεργοποίησης και b είναι μια πρόσθετη προκατάληψη.
 
-<img alt="Ανατομία RNN Κελιού" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Ανατομία RNN Κελιού" src="../../../../../translated_images/el/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Εικόνα από τον συγγραφέα
 

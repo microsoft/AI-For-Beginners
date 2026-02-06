@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T12:24:58+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "de"
-}
--->
 # Darstellung von Text als Tensoren
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Unser Ziel wird es sein, den Nachrichtenartikel basierend auf dem Text einer der
 
 Um Aufgaben der natürlichen Sprachverarbeitung (NLP) mit neuronalen Netzwerken zu lösen, benötigen wir eine Methode, um Text als Tensoren darzustellen. Computer repräsentieren Textzeichen bereits als Zahlen, die mit Codierungen wie ASCII oder UTF-8 auf die Schriftarten auf Ihrem Bildschirm abgebildet werden.
 
-<img alt="Bild zeigt ein Diagramm, das ein Zeichen mit einer ASCII- und Binärdarstellung verknüpft" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Bild zeigt ein Diagramm, das ein Zeichen mit einer ASCII- und Binärdarstellung verknüpft" src="../../../../../translated_images/de/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Bildquelle](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ In einigen Fällen können wir auch die Verwendung von Tri-Grammen – Kombinati
 
 Bei Aufgaben wie der Textklassifikation müssen wir in der Lage sein, Text durch einen festen Vektor darzustellen, den wir als Eingabe für den abschließenden dichten Klassifikator verwenden. Eine der einfachsten Möglichkeiten, dies zu tun, besteht darin, alle individuellen Wortdarstellungen zu kombinieren, z. B. durch Addition. Wenn wir die One-Hot-Codierungen jedes Wortes addieren, erhalten wir einen Frequenzvektor, der zeigt, wie oft jedes Wort im Text vorkommt. Eine solche Darstellung von Text wird als **Bag-of-Words** (BoW) bezeichnet.
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/de/bow.3811869cff59368d.webp" width="90%"/>
 
 > Bild vom Autor
 

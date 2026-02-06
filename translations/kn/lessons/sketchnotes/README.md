@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-11-25T21:36:01+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "kn"
-}
--->
 ಎಲ್ಲಾ ಪಠ್ಯಕ್ರಮಗಳ ಸ್ಕೆಚ್‌ನೋಟ್ಗಳನ್ನು ಇಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.
 
 🎨 ರಚನೆ: ಟೊಮೊಮಿ ಇಮುರು (ಟ್ವಿಟ್ಟರ್: [@girlie_mac](https://twitter.com/girlie_mac), ಗಿಥಬ್: [girliemac](https://github.com/girliemac))

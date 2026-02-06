@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-26T09:41:14+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ne"
-}
--->
 # अप्टिकल फ्लो प्रयोग गरेर चाल पत्ता लगाउने
 
 [AI for Beginners Curriculum](https://aka.ms/ai-beginners) बाट ल्याब असाइनमेन्ट।

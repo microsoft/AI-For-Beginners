@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-28T15:07:40+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "da"
-}
--->
 ## Miljøet
 
 Mountain Car-miljøet består af en bil, der er fanget i en dal. Dit mål er at hoppe ud af dalen og nå flaget. De handlinger, du kan udføre, er at accelerere til venstre, til højre eller gøre ingenting. Du kan observere bilens position langs x-aksen og dens hastighed.

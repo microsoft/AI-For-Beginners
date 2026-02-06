@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-11T11:17:05+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "et"
-}
--->
 # Algajatele sobivad tehisintellekti näited
 
 Tere tulemast! See kataloog sisaldab lihtsaid ja iseseisvaid näiteid, mis aitavad sul alustada tehisintellekti ja masinõppega. Iga näide on loodud algajasõbralikuks, sisaldades üksikasjalikke kommentaare ja samm-sammulisi selgitusi.

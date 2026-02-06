@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-08-26T09:52:25+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "ar"
-}
--->
 # تصنيف حيوانات أكسفورد باستخدام التعلم بالنقل
 
 مهمة عملية من [منهج الذكاء الاصطناعي للمبتدئين](https://github.com/microsoft/ai-for-beginners).

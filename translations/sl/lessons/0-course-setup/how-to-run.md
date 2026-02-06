@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T06:10:42+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "sl"
-}
--->
 # Kako zagnati kodo
 
 Ta učni načrt vsebuje veliko izvajalnih primerov in laboratorijskih vaj, ki jih boste želeli zagnati. Da bi to naredili, morate imeti možnost izvajanja Python kode v Jupyter beležnicah, ki so vključene v ta učni načrt. Za izvajanje kode imate več možnosti:

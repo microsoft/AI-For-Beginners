@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T12:23:03+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "de"
-}
--->
 # Sprachmodellierung
 
 Semantische Einbettungen wie Word2Vec und GloVe sind tatsächlich ein erster Schritt in Richtung **Sprachmodellierung** – Modelle zu erstellen, die irgendwie die *Natur* der Sprache *verstehen* (oder *repräsentieren*).

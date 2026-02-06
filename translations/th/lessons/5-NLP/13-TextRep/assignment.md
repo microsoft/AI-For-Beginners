@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-29T09:28:31+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "th"
-}
--->
 # งาน: โน้ตบุ๊ก
 
 ใช้โน้ตบุ๊กที่เกี่ยวข้องกับบทเรียนนี้ (ไม่ว่าจะเป็นเวอร์ชัน PyTorch หรือ TensorFlow) รันใหม่โดยใช้ชุดข้อมูลของคุณเอง อาจจะเป็นชุดข้อมูลจาก Kaggle โดยให้เครดิตแหล่งที่มา เขียนโน้ตบุ๊กใหม่เพื่อเน้นผลการค้นพบของคุณเอง ลองใช้ชุดข้อมูลที่น่าสนใจและอาจทำให้ประหลาดใจ เช่น [ชุดข้อมูลเกี่ยวกับการพบเห็น UFO นี้](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) จาก NUFORC

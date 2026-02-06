@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T14:09:32+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "sk"
-}
--->
 # Generatívne siete
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Budeme trénovať túto RNN na generovanie textu krok za krokom. Na každom krok
 
 Pri generovaní textu (počas inferencie) začíname s nejakým **podnetom**, ktorý prechádza cez RNN bunky na generovanie jeho medzistavu, a potom z tohto stavu začína generovanie. Generujeme jeden znak naraz a stav spolu s vygenerovaným znakom posielame ďalšej RNN bunke na generovanie ďalšieho znaku, až kým nevygenerujeme dostatok znakov.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/sk/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Obrázok od autora
 

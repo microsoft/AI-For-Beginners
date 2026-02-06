@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-11-18T18:41:32+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "pcm"
-}
--->
 # Train Skip-Gram Model
 
 Lab Assignment wey come from [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

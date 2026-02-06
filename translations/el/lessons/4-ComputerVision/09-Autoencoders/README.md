@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T08:52:32+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "el"
-}
--->
 # Αυτόματοι Κωδικοποιητές
 
 Κατά την εκπαίδευση CNNs, ένα από τα προβλήματα είναι ότι χρειαζόμαστε πολλά δεδομένα με ετικέτες. Στην περίπτωση της ταξινόμησης εικόνων, πρέπει να διαχωρίσουμε τις εικόνες σε διαφορετικές κατηγορίες, κάτι που απαιτεί χειροκίνητη προσπάθεια.
@@ -46,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
  * Δειγματοληπτούμε ένα διάνυσμα `sample` από την κατανομή N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Ο αποκωδικοποιητής προσπαθεί να αποκωδικοποιήσει την αρχική εικόνα χρησιμοποιώντας το `sample` ως διάνυσμα εισόδου
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/el/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Εικόνα από [αυτό το άρθρο](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) του Isaak Dykeman
 
@@ -57,13 +48,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ένα σημαντικό πλεονέκτημα των VAEs είναι ότι μας επιτρέπουν να δημιουργούμε νέες εικόνες σχετικά εύκολα, επειδή γνωρίζουμε από ποια κατανομή να δειγματοληπτήσουμε λανθάνοντες διανύσματα. Για παράδειγμα, αν εκπαιδεύσουμε έναν VAE με 2D λανθάνον διάνυσμα στο MNIST, μπορούμε στη συνέχεια να μεταβάλλουμε τα συστατικά του λανθάνοντος διανύσματος για να πάρουμε διαφορετικούς αριθμούς:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/el/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Εικόνα από τον [Dmitry Soshnikov](http://soshnikov.com)
 
 Παρατηρήστε πώς οι εικόνες συγχωνεύονται μεταξύ τους, καθώς αρχίζουμε να παίρνουμε λανθάνοντες διανύσματα από διαφορετικά μέρη του λανθάνοντος χώρου παραμέτρων. Μπορούμε επίσης να οπτικοποιήσουμε αυτόν τον χώρο σε 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/el/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Εικόνα από τον [Dmitry Soshnikov](http://soshnikov.com)
 

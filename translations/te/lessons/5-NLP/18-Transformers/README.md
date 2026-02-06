@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-11-25T23:10:43+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "te"
-}
--->
 # అటెన్షన్ మెకానిజమ్స్ మరియు ట్రాన్స్‌ఫార్మర్స్
 
 ## [ప్రీ-లెక్చర్ క్విజ్](https://ff-quizzes.netlify.app/en/ai/quiz/35)

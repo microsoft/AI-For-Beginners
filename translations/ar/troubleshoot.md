@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:35:28+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ar"
-}
--->
 # دليل استكشاف الأخطاء وإصلاحها للمبتدئين في الذكاء الاصطناعي
 
 يساعدك هذا الدليل في حل المشكلات الشائعة التي قد تواجهها أثناء استخدام أو المساهمة في مستودع [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). يتضمن كل مشكلة خلفية، أعراض، تفسيرات، وحلول خطوة بخطوة.

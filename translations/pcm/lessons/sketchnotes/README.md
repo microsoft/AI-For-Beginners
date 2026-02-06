@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-11-18T18:25:49+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "pcm"
-}
--->
 All di curriculum sketchnotes fit download from here.
 
 🎨 Na Tomomi Imura create am (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-11-18T18:12:59+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "pcm"
-}
--->
 # Beginner-Friendly AI Examples
 
 Welcome! Dis directory get simple, standalone examples wey go help you start wit AI and machine learning. Each example dey designed make e easy for beginners wit detailed comments and step-by-step explanation.

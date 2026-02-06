@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-26T06:43:28+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ru"
-}
--->
 # Трюки для обучения глубоких нейронных сетей
 
 По мере увеличения глубины нейронных сетей процесс их обучения становится все более сложным. Одной из основных проблем являются так называемые [исчезающие градиенты](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) или [взрывающиеся градиенты](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Эта статья](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) дает хорошее введение в эти проблемы.

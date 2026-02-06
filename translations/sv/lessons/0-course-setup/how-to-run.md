@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T02:22:35+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "sv"
-}
--->
 # Hur man kör koden
 
 Detta kursmaterial innehåller många exekverbara exempel och labbar som du vill köra. För att göra detta behöver du möjligheten att köra Python-kod i Jupyter Notebook-filer som tillhandahålls som en del av detta kursmaterial. Du har flera alternativ för att köra koden:

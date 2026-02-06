@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T11:18:27+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "mr"
-}
--->
 # पाठांचे भाषांतर करून योगदान द्या
 
 आम्ही या अभ्यासक्रमातील पाठांसाठी भाषांतरांचे स्वागत करतो!

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-  "translation_date": "2025-11-25T21:08:13+00:00",
-  "source_file": "lessons/3-NeuralNetworks/README.md",
-  "language_code": "ml"
-}
--->
 # ന്യൂറൽ നെറ്റ്വർക്കുകളിലേക്ക് പരിചയം
 
 ![Intro Neural Networks ഉള്ളടക്കത്തിന്റെ ഒരു ഡൂഡിൽ സംഗ്രഹം](../../../../translated_images/ml/ai-neuralnetworks.1c687ae40bc86e83.webp)

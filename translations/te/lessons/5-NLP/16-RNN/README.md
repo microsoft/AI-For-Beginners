@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-11-25T23:01:20+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "te"
-}
--->
 # రికరెంట్ న్యూరల్ నెట్‌వర్క్స్
 
 ## [ప్రీ-లెక్చర్ క్విజ్](https://ff-quizzes.netlify.app/en/ai/quiz/31)

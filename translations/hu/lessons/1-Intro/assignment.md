@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:57:24+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "hu"
-}
--->
 # Játék Jam
 
 A játékok olyan területet képviselnek, amelyet jelentősen befolyásoltak az AI és ML fejlődései. Ebben a feladatban írj egy rövid dolgozatot egy olyan játékról, amelyet szeretsz, és amelyet az AI fejlődése befolyásolt. Olyan régi játéknak kell lennie, amelyet többféle számítógépes feldolgozási rendszer is érintett. Jó példa erre a sakk vagy a Go, de nézd meg például a videójátékokat, mint a pong vagy a Pac-Man. Írj egy esszét, amely tárgyalja a játék múltját, jelenét és AI által formált jövőjét.

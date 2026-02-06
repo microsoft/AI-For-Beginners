@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-10-11T11:44:32+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "et"
-}
--->
 # Eeltreenitud suured keelemudelid
 
 Kõikides meie varasemates ülesannetes treenisime närvivõrku, et see täidaks teatud ülesannet, kasutades märgistatud andmestikku. Suurte transformer-mudelite, nagu BERT, puhul kasutame keelemodelleerimist isejuhitud viisil, et luua keelemudel, mida seejärel spetsialiseeritakse konkreetsele ülesandele täiendava valdkonnapõhise treeninguga. Siiski on näidatud, et suured keelemudelid suudavad lahendada paljusid ülesandeid ka ILMA valdkonnapõhise treeninguta. Mudelite perekonda, mis seda suudavad, nimetatakse **GPT**: Generatiivne Eeltreenitud Transformer.

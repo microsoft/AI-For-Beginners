@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-11-25T21:45:30+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "te"
-}
--->
 # న్యూరల్ నెట్‌వర్క్ ఫ్రేమ్‌వర్క్స్
 
 మనం ఇప్పటికే నేర్చుకున్నట్లుగా, న్యూరల్ నెట్‌వర్క్స్‌ను సమర్థవంతంగా శిక్షణ ఇవ్వడానికి రెండు విషయాలు చేయాలి:

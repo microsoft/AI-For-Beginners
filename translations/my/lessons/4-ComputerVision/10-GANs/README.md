@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T15:18:19+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "my"
-}
--->
 # Generative Adversarial Networks
 
 ယခင်အပိုင်းတွင် **generative models** အကြောင်းကို လေ့လာခဲ့ပါသည်။ Generative models ဆိုသည်မှာ သင်ကြားမှု dataset ထဲရှိပုံများနှင့် ဆင်တူသော ပုံအသစ်များကို ဖန်တီးနိုင်သော မော်ဒယ်များဖြစ်သည်။ VAE သည် generative model တစ်ခုအနေဖြင့် ကောင်းမွန်သော ဥပမာတစ်ခုဖြစ်သည်။
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 GANs ၏ အဓိကအကြောင်းအရာမှာ နေရာတစ်ခုတွင် neural networks နှစ်ခုကို တစ်ခုနှင့်တစ်ခု ယှဉ်ပြိုင်၍ သင်ကြားခြင်းဖြစ်သည်။
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/my/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > ပုံကို [Dmitry Soshnikov](http://soshnikov.com) မှ ဖန်တီးထားသည်။
 
@@ -41,7 +32,7 @@ Generator သည် အနည်းငယ်ပိုမိုရှုပ်ထ
 
 > ✅ Convolution layer ကို linear filter အဖြစ် ပုံကို ဖြတ်သန်း၍ အကောင်အထည်ဖော်သည့်အတွက် deconvolution သည် convolution နှင့် ဆင်တူပြီး အတူတူသော layer logic ကို အသုံးပြု၍ အကောင်အထည်ဖော်နိုင်သည်။
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/my/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > ပုံကို [Dmitry Soshnikov](http://soshnikov.com) မှ ဖန်တီးထားသည်။
 

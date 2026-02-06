@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-28T19:41:27+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "fi"
-}
--->
 # Eettinen ja vastuullinen tekoäly
 
 Olet melkein suorittanut tämän kurssin, ja toivon, että tähän mennessä näet selvästi, että tekoäly perustuu useisiin muodollisiin matemaattisiin menetelmiin, jotka mahdollistavat suhteiden löytämisen datasta ja mallien kouluttamisen jäljittelemään joitakin ihmisen käyttäytymisen piirteitä. Tässä historian vaiheessa pidämme tekoälyä erittäin voimakkaana työkaluna, joka auttaa meitä löytämään kaavoja datasta ja soveltamaan niitä uusien ongelmien ratkaisemiseen.

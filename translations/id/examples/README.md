@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:32:36+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "id"
-}
--->
 # Contoh AI Ramah Pemula
 
 Selamat datang! Direktori ini berisi contoh sederhana dan mandiri untuk membantu Anda memulai dengan AI dan pembelajaran mesin. Setiap contoh dirancang agar mudah dipahami dengan komentar yang rinci dan penjelasan langkah demi langkah.

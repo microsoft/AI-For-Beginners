@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-11-18T18:18:55+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "pcm"
-}
--->
 # Segmentation
 
 We don learn before about Object Detection, wey dey help us find objects for image by predicting dia *bounding boxes*. But for some tasks, we no only need bounding boxes, we go need more accurate way to locate objects. Dis task na **segmentation**.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T14:41:23+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "sr"
-}
--->
 # Сегментација
 
 Раније смо учили о детекцији објеката, која нам омогућава да лоцирамо објекте на слици предвиђањем њихових *ограничених оквира*. Међутим, за неке задатке нам нису потребни само ограничени оквири, већ и прецизнија локализација објеката. Овај задатак се назива **сегментација**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 На пример, за инстант сегментацију, ове овце су различити објекти, али за семантичку сегментацију све овце су представљене као једна класа.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/sr/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Слика из [овог блога](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **Енкодер** извлачи карактеристике из улазне слике.
 * **Декодер** трансформише те карактеристике у **слику маске**, са истом величином и бројем канала који одговарају броју класа.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/sr/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Слика из [ове публикације](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ Ова техника је посебно погодна за ову врсту медицинских слика, али које друге примене у стварном свету можете замислити?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/sr/navi.2f20b727910110ea.webp"/>
 
 > Слика из PH<sup>2</sup> базе података
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-11-25T20:40:11+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "kn"
-}
--->
 # ಪ್ರಶ್ನೋತ್ತರಗಳು
 
 ಈ ಪ್ರಶ್ನೋತ್ತರಗಳು https://aka.ms/ai-beginners ನಲ್ಲಿ AI ಪಠ್ಯಕ್ರಮದ ಪೂರ್ವ ಮತ್ತು ನಂತರದ ಪ್ರಶ್ನೋತ್ತರಗಳಾಗಿವೆ

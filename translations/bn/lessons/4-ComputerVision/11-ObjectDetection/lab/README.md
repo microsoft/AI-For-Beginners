@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-26T09:25:03+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "bn"
-}
--->
 # হলিউড হেডস ডেটাসেট ব্যবহার করে হেড ডিটেকশন
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) থেকে ল্যাব অ্যাসাইনমেন্ট।

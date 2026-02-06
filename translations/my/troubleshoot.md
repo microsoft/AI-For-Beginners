@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:53:41+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "my"
-}
--->
 # AI-For-Beginners ပြဿနာဖြေရှင်းလမ်းညွှန်
 
 ဤလမ်းညွှန်သည် [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repository ကို အသုံးပြုခြင်း သို့မဟုတ် အထောက်အကူပြုခြင်းအတွင်း တွေ့ကြုံရသော ပုံမှန်ပြဿနာများကို ဖြေရှင်းရန် ကူညီပေးပါသည်။ ပြဿနာတစ်ခုစီတွင် နောက်ခံအချက်အလက်များ၊ ရောဂါလက္ခဏာများ၊ ရှင်းလင်းချက်များနှင့် အဆင့်လိုက်ဖြေရှင်းနည်းများ ပါဝင်သည်။

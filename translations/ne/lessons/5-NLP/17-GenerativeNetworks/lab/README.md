@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "439e12796197a90e7623d4c9c057b9c2",
-  "translation_date": "2025-08-26T08:23:15+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/lab/README.md",
-  "language_code": "ne"
-}
--->
 # शब्द-स्तर पाठ उत्पादन RNNs प्रयोग गरेर
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) बाट ल्याब असाइनमेन्ट।

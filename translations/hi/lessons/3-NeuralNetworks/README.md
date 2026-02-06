@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-  "translation_date": "2025-10-03T12:44:34+00:00",
-  "source_file": "lessons/3-NeuralNetworks/README.md",
-  "language_code": "hi"
-}
--->
 # न्यूरल नेटवर्क्स का परिचय
 
 ![न्यूरल नेटवर्क्स के परिचय की सामग्री का सारांश एक डूडल में](../../../../translated_images/hi/ai-neuralnetworks.1c687ae40bc86e83.webp)

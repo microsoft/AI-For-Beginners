@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T09:39:16+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "no"
-}
--->
 # Forhåndstrente nettverk og overføringslæring
 
 Å trene CNN-er kan ta mye tid, og det kreves store mengder data for denne oppgaven. Mye av tiden brukes imidlertid på å lære de beste lavnivåfiltrene som et nettverk kan bruke for å trekke ut mønstre fra bilder. Et naturlig spørsmål oppstår: Kan vi bruke et nevralt nettverk som er trent på ett datasett og tilpasse det til å klassifisere andre bilder uten å måtte gjennomføre en full treningsprosess?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-11-18T18:15:28+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "pcm"
-}
--->
 # Generative Adversarial Networks
 
 For di last section, we learn about **generative models**: models wey fit create new images wey resemble di ones wey dey di training dataset. VAE na one good example of generative model.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T11:06:45+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "sw"
-}
--->
 # Utambuzi wa Viumbe Vilivyotajwa
 
 Hadi sasa, tumekuwa tukijikita zaidi kwenye kazi moja ya NLP - uainishaji. Hata hivyo, kuna kazi nyingine za NLP ambazo zinaweza kufanikishwa kwa kutumia mitandao ya neva. Mojawapo ya kazi hizo ni **[Utambuzi wa Viumbe Vilivyotajwa](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), ambayo inahusika na kutambua viumbe maalum ndani ya maandishi, kama vile maeneo, majina ya watu, vipindi vya tarehe na muda, fomula za kemikali, na kadhalika.
@@ -17,7 +8,7 @@ Hadi sasa, tumekuwa tukijikita zaidi kwenye kazi moja ya NLP - uainishaji. Hata 
 
 Tuseme unataka kuunda roboti ya mazungumzo ya lugha asilia, sawa na Amazon Alexa au Google Assistant. Njia ambayo roboti za mazungumzo za akili hufanya kazi ni *kuelewa* kile mtumiaji anataka kwa kufanya uainishaji wa maandishi kwenye sentensi ya pembejeo. Matokeo ya uainishaji huu ni kile kinachoitwa **nia**, ambayo huamua roboti ya mazungumzo inapaswa kufanya nini.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/sw/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Picha na mwandishi
 

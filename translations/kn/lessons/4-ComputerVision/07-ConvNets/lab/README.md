@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b70fcf7fcee862990f848c679090943f",
-  "translation_date": "2025-11-25T22:42:55+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/README.md",
-  "language_code": "kn"
-}
--->
 # ಪೆಟ್ಸ್ ಮುಖಗಳ ವರ್ಗೀಕರಣ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ನಿಂದ ಪ್ರಯೋಗಾಲಯದ ಕಾರ್ಯ.

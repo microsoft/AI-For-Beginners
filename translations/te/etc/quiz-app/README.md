@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-11-25T20:37:21+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "te"
-}
--->
 # క్విజ్‌లు
 
 ఈ క్విజ్‌లు https://aka.ms/ai-beginners వద్ద ఉన్న AI పాఠ్యాంశం కోసం ప్రీ- మరియు పోస్ట్-లెక్చర్ క్విజ్‌లు.

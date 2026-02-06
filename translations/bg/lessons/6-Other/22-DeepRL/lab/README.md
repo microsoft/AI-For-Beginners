@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-25T23:35:46+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "bg"
-}
--->
 # Обучение на Mountain Car да избяга
 
 Задача от [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-24T10:14:07+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "fa"
-}
--->
 # تکلیف: دفترچه‌ها
 
 با استفاده از دفترچه‌های مرتبط با این درس (نسخه PyTorch یا TensorFlow)، آنها را با استفاده از مجموعه داده خودتان دوباره اجرا کنید، شاید یکی از مجموعه داده‌های Kaggle که با ذکر منبع استفاده شده باشد. دفترچه را بازنویسی کنید تا یافته‌های خودتان را برجسته کنید. یک نوع متفاوت از مجموعه داده را امتحان کنید و یافته‌های خود را مستند کنید، با استفاده از متنی مانند [این اشعار بیتلز](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

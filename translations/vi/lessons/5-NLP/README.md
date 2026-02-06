@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-29T12:41:19+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "vi"
-}
--->
 # Xử lý Ngôn ngữ Tự nhiên
 
 ![Tóm tắt các nhiệm vụ NLP trong một hình vẽ](../../../../translated_images/vi/ai-nlp.b22dcb8ca4707cea.webp)

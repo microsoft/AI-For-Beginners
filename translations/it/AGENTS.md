@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6b11a37115944252ab3ed04e358d830d",
-  "translation_date": "2025-10-03T09:20:14+00:00",
-  "source_file": "AGENTS.md",
-  "language_code": "it"
-}
--->
 # AGENTS.md
 
 ## Panoramica del Progetto

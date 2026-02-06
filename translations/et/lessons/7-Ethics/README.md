@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-10-11T11:34:16+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "et"
-}
--->
 # Eetiline ja vastutustundlik tehisintellekt
 
 Oled peaaegu lõpetanud selle kursuse, ja loodetavasti näed nüüd selgelt, et tehisintellekt põhineb mitmetel formaalsetel matemaatilistel meetoditel, mis võimaldavad meil leida seoseid andmetes ja treenida mudeleid, et jäljendada mõningaid inimkäitumise aspekte. Praegusel ajal peame tehisintellekti väga võimsaks tööriistaks, mis aitab andmetest mustreid välja tuua ja neid mustreid uute probleemide lahendamiseks rakendada.

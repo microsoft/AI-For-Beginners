@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T13:35:37+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "hi"
-}
--->
 # भाषा मॉडलिंग
 
 सिमेंटिक एम्बेडिंग्स, जैसे Word2Vec और GloVe, वास्तव में **भाषा मॉडलिंग** की दिशा में पहला कदम हैं - ऐसे मॉडल बनाना जो किसी तरह भाषा की प्रकृति को *समझते* (या *प्रतिनिधित्व करते*) हैं।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T14:52:10+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "hr"
-}
--->
 # Detekcija objekata
 
 Modeli za klasifikaciju slika s kojima smo se dosad susretali uzimaju sliku i proizvode kategorijski rezultat, poput klase 'broj' u MNIST problemu. Međutim, u mnogim slučajevima ne želimo samo znati da slika prikazuje objekte – želimo odrediti njihovu točnu lokaciju. Upravo to je cilj **detekcije objekata**.

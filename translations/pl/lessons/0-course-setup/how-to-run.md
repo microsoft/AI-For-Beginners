@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T14:27:45+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "pl"
-}
--->
 # Jak Uruchomić Kod
 
 Ten program nauczania zawiera wiele wykonalnych przykładów i laboratoriów, które będziesz chciał uruchomić. Aby to zrobić, musisz mieć możliwość wykonywania kodu Python w Jupyter Notebooks dostarczonych w ramach tego programu nauczania. Masz kilka opcji uruchamiania kodu:

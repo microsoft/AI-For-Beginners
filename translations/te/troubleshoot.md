@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-11-25T20:15:10+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "te"
-}
--->
 # AI-For-Beginners సమస్య పరిష్కార మార్గదర్శకం
 
 ఈ మార్గదర్శకం [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) రిపాజిటరీ ఉపయోగించేటప్పుడు లేదా దానిలో సహకరించేటప్పుడు ఎదురయ్యే సాధారణ సమస్యలను పరిష్కరించడంలో మీకు సహాయం చేస్తుంది. ప్రతి సమస్యకు నేపథ్యం, లక్షణాలు, వివరణలు మరియు దశల వారీ పరిష్కారాలు ఉన్నాయి.

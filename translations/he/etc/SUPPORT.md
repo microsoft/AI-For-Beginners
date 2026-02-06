@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-28T20:10:13+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "he"
-}
--->
 # תמיכה
 
 ## כיצד לדווח על בעיות ולקבל עזרה  

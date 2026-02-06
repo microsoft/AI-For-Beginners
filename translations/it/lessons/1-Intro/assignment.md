@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T21:21:55+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "it"
-}
--->
 # Game Jam
 
 I giochi sono un ambito che è stato fortemente influenzato dai progressi nell'IA e nel ML. In questo compito, scrivi un breve articolo su un gioco che ti piace e che è stato influenzato dall'evoluzione dell'IA. Dovrebbe essere un gioco abbastanza vecchio da essere stato influenzato da diversi tipi di sistemi di elaborazione informatica. Un buon esempio è il gioco degli Scacchi o il Go, ma considera anche videogiochi come Pong o Pac-Man. Scrivi un saggio che discuta il passato, il presente e il futuro dell'IA nel gioco.

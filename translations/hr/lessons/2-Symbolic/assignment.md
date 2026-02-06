@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-26T00:34:18+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "hr"
-}
--->
 # Izgradnja ontologije
 
 Izgradnja baze znanja temelji se na kategorizaciji modela koji predstavlja činjenice o nekoj temi. Odaberite temu - poput osobe, mjesta ili stvari - i zatim izradite model te teme. Koristite neke od tehnika i strategija izgradnje modela opisane u ovoj lekciji. Primjer bi bio stvaranje ontologije dnevne sobe s namještajem, rasvjetom i slično. Kako se dnevna soba razlikuje od kuhinje? Kupaonice? Kako znate da je to dnevna soba, a ne blagovaonica? Koristite [Protégé](https://protege.stanford.edu/) za izradu svoje ontologije.

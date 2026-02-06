@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:37:57+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "ro"
-}
--->
 # Rețele Multi-Modale
 
 După succesul modelelor transformer în rezolvarea sarcinilor NLP, aceleași sau arhitecturi similare au fost aplicate și în sarcinile de viziune computerizată. Există un interes tot mai mare în construirea de modele care să *combine* capabilitățile de viziune și limbaj natural. Unul dintre aceste eforturi a fost realizat de OpenAI și se numește CLIP și DALL.E.

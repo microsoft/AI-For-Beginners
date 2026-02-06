@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-24T09:19:25+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "es"
-}
--->
 # Trucos para el Entrenamiento de Redes Neuronales Profundas
 
 A medida que las redes neuronales se vuelven más profundas, el proceso de entrenamiento se vuelve cada vez más desafiante. Uno de los principales problemas son los llamados [gradientes que desaparecen](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) o [gradientes que explotan](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Este artículo](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ofrece una buena introducción a estos problemas.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:38:10+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "id"
-}
--->
 # Convolutional Neural Networks
 
 Kita telah melihat sebelumnya bahwa jaringan neural cukup baik dalam menangani gambar, bahkan perceptron satu lapis mampu mengenali angka tulisan tangan dari dataset MNIST dengan akurasi yang cukup baik. Namun, dataset MNIST sangatlah spesial, di mana semua angka sudah dipusatkan di dalam gambar, sehingga tugas menjadi lebih sederhana.
@@ -24,7 +15,7 @@ Untuk mengekstrak pola, kita akan menggunakan konsep **filter konvolusi**. Seper
 
 Sebagai contoh, jika kita menerapkan filter tepi vertikal dan horizontal 3x3 pada angka MNIST, kita dapat memperoleh sorotan (misalnya nilai tinggi) di mana terdapat tepi vertikal dan horizontal dalam gambar asli kita. Jadi, kedua filter tersebut dapat digunakan untuk "mencari" tepi. Demikian pula, kita dapat merancang filter berbeda untuk mencari pola tingkat rendah lainnya:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/id/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Gambar dari [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

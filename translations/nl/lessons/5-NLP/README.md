@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-08-28T19:57:15+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "nl"
-}
--->
 # Natuurlijke Taalverwerking
 
 ![Samenvatting van NLP-taken in een schets](../../../../translated_images/nl/ai-nlp.b22dcb8ca4707cea.webp)

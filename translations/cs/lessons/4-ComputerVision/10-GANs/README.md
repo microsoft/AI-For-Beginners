@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T11:25:04+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "cs"
-}
--->
 # Generativní adversariální sítě
 
 V předchozí části jsme se naučili o **generativních modelech**: modelech, které dokážou generovat nové obrázky podobné těm v trénovací sadě. VAE byl dobrým příkladem generativního modelu.
@@ -17,7 +8,7 @@ Pokud se však pokusíme generovat něco opravdu smysluplného, například malb
 
 Hlavní myšlenkou GAN je mít dvě neuronové sítě, které se budou trénovat proti sobě:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/cs/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generátor je o něco složitější. Můžete si ho představit jako obrácený
 
 > ✅ Protože je konvoluční vrstva implementována jako lineární filtr procházející obrázkem, dekonvoluce je v podstatě podobná konvoluci a může být implementována pomocí stejné logiky vrstvy.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/cs/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Obrázek od [Dmitry Soshnikov](http://soshnikov.com)
 

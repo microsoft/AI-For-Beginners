@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-29T12:45:13+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "vi"
-}
--->
 # Bài tập: Transformers
 
 Thử nghiệm với Transformers trên HuggingFace! Hãy thử một số script mà họ cung cấp để làm việc với các mô hình khác nhau có sẵn trên trang của họ: https://huggingface.co/docs/transformers/run_scripts. Thử một trong các bộ dữ liệu của họ, sau đó nhập một bộ dữ liệu của riêng bạn từ chương trình học này hoặc từ Kaggle và xem liệu bạn có thể tạo ra các văn bản thú vị không. Tạo một notebook với những phát hiện của bạn.

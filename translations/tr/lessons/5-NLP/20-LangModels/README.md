@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T08:45:46+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "tr"
-}
--->
 # Önceden Eğitilmiş Büyük Dil Modelleri
 
 Önceki tüm görevlerimizde, etiketlenmiş bir veri seti kullanarak belirli bir görevi yerine getirmek için bir sinir ağı eğitiyorduk. BERT gibi büyük transformer modelleriyle, dil modelleme işlemini kendi kendine denetimli bir şekilde kullanarak bir dil modeli oluşturuyoruz ve ardından bu modeli belirli bir alt görev için alanına özel eğitimle özelleştiriyoruz. Ancak, büyük dil modellerinin herhangi bir alanına özel eğitim olmadan birçok görevi çözebileceği gösterilmiştir. Bu tür görevleri gerçekleştirebilen model ailesine **GPT**: Generative Pre-Trained Transformer denir.

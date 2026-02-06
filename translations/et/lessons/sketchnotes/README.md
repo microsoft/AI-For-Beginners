@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-10-11T11:29:39+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "et"
-}
--->
 Kõik õppekava visandmärkmed saab alla laadida siit.
 
 🎨 Looja: Tomomi Imura (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:12:58+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "bn"
-}
--->
 # অ্যাসাইনমেন্ট: নোটবুক
 
 এই পাঠের সাথে সংযুক্ত নোটবুকগুলি (PyTorch বা TensorFlow সংস্করণ যেটি ব্যবহার করছেন), আপনার নিজের ডেটাসেট ব্যবহার করে পুনরায় চালান, সম্ভবত Kaggle থেকে নেওয়া একটি ডেটাসেট, যথাযথ স্বীকৃতির সাথে। নোটবুকটি পুনরায় লিখুন এবং আপনার নিজস্ব পর্যবেক্ষণগুলি তুলে ধরুন। একটি ভিন্ন ধরনের ডেটাসেট চেষ্টা করুন এবং আপনার পর্যবেক্ষণগুলি নথিভুক্ত করুন, যেমন [এই Kaggle প্রতিযোগিতার ডেটাসেট যা আবহাওয়া সম্পর্কিত টুইট নিয়ে](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv)।

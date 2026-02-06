@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T07:31:13+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "pcm"
-}
--->
 # How to Run the Code
 
 Dis curriculum get plenti executable examples and labs wey you go like run. To fit do dis, you need beta skill to execute Python code for Jupyter Notebooks wey dem provide as part of dis curriculum. You get plenty ways to run the code:

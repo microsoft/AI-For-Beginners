@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-10-11T11:38:10+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "ta"
-}
--->
 # இயற்கை மொழி செயலாக்கம்
 
 ![NLP பணிகளின் சுருக்கம் ஒரு ஓவியத்தில்](../../../../translated_images/ta/ai-nlp.b22dcb8ca4707cea.webp)

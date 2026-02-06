@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-11T11:16:09+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "et"
-}
--->
 # AI-For-Beginners Tõrkeotsingu Juhend
 
 See juhend aitab lahendada levinud probleeme, mis võivad tekkida [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) repositooriumi kasutamisel või sellele panustamisel. Iga probleem sisaldab tausta, sümptomeid, selgitusi ja samm-sammult lahendusi.

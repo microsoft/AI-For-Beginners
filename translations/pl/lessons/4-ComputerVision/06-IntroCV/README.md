@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T13:52:01+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "pl"
-}
--->
 # Wprowadzenie do wizji komputerowej
 
 [Wizja komputerowa](https://wikipedia.org/wiki/Computer_vision) to dziedzina, której celem jest umożliwienie komputerom uzyskania wysokopoziomowego zrozumienia obrazów cyfrowych. Jest to dość szeroka definicja, ponieważ *zrozumienie* może oznaczać wiele różnych rzeczy, takich jak znalezienie obiektu na zdjęciu (**detekcja obiektów**), zrozumienie, co się dzieje (**detekcja zdarzeń**), opisanie obrazu w formie tekstu czy rekonstrukcja sceny w 3D. Istnieją również specjalne zadania związane z obrazami ludzi: szacowanie wieku i emocji, detekcja i identyfikacja twarzy oraz estymacja pozycji 3D, by wymienić tylko kilka.
@@ -115,7 +106,7 @@ Przeczytaj więcej o optycznym przepływie [w tym świetnym tutorialu](https://l
 
 W tym laboratorium nagrasz wideo z prostymi gestami, a Twoim celem będzie wyodrębnienie ruchów góra/dół/lewo/prawo za pomocą optycznego przepływu.
 
-<img src="images/palm-movement.png" width="30%" alt="Klatka ruchu dłoni"/>
+<img src="../../../../../translated_images/pl/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Klatka ruchu dłoni"/>
 
 ---
 

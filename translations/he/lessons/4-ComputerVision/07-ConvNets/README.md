@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:16:34+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "he"
-}
--->
 # רשתות נוירונים קונבולוציוניות
 
 כבר ראינו בעבר שרשתות נוירונים טובות מאוד בעבודה עם תמונות, ואפילו פרספטרון בעל שכבה אחת מסוגל לזהות ספרות כתובות ביד מתוך מאגר הנתונים MNIST בדיוק סביר. עם זאת, מאגר הנתונים MNIST הוא מיוחד מאוד, וכל הספרות ממורכזות בתוך התמונה, מה שהופך את המשימה לפשוטה יותר.
@@ -24,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לדוגמה, אם ניישם פילטרים של קצה אנכי וקצה אופקי בגודל 3x3 על הספרות של MNIST, נוכל לקבל הדגשות (למשל, ערכים גבוהים) היכן שיש קצוות אנכיים ואופקיים בתמונה המקורית שלנו. כך ניתן להשתמש בשני הפילטרים הללו כדי "לחפש" קצוות. באופן דומה, ניתן לעצב פילטרים שונים כדי לחפש תבניות בסיסיות אחרות:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/he/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > תמונה של [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

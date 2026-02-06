@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T02:55:55+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "no"
-}
--->
 # Hvordan kjøre koden
 
 Dette pensumet inneholder mange kjørbare eksempler og laboratorier som du vil kjøre. For å gjøre dette trenger du muligheten til å kjøre Python-kode i Jupyter Notebooks som følger med i dette pensumet. Du har flere alternativer for å kjøre koden:

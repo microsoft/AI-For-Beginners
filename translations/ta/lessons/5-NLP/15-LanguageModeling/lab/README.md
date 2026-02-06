@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-10-11T11:43:05+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "ta"
-}
--->
 # ஸ்கிப்-கிராம் மாடலை பயிற்சி செய்யுதல்
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இல் இருந்து ஆய்வக பணிக்கான ஒதுக்கீடு.

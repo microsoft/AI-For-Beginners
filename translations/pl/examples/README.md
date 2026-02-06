@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:30:24+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "pl"
-}
--->
 # Przykłady AI dla Początkujących
 
 Witaj! Ten katalog zawiera proste, samodzielne przykłady, które pomogą Ci rozpocząć przygodę z AI i uczeniem maszynowym. Każdy przykład został zaprojektowany z myślą o początkujących, z dokładnymi komentarzami i wyjaśnieniami krok po kroku.

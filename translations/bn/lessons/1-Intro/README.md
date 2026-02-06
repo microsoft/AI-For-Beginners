@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T21:04:15+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "bn"
-}
--->
 # AI পরিচিতি
 
 ![AI পরিচিতির সামগ্রিক বিষয়বস্তুর একটি ডুডল](../../../../translated_images/bn/ai-intro.bf28d1ac4235881c.webp)

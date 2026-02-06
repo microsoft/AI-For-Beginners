@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T08:46:25+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "tr"
-}
--->
 # Tekrarlayan Sinir Ağları
 
 ## [Ders Öncesi Quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Basit bir RNN hücresinin nasıl organize edildiğini görelim. Önceki durum S<
 
 Basit bir RNN hücresinin içinde iki ağırlık matrisi vardır: biri bir giriş sembolünü dönüştürür (buna W diyelim), diğeri ise bir giriş durumunu dönüştürür (H). Bu durumda ağın çıktısı &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) olarak hesaplanır, burada &sigma; aktivasyon fonksiyonu ve b ek bir bias'tır.
 
-<img alt="RNN Hücresi Anatomisi" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Hücresi Anatomisi" src="../../../../../translated_images/tr/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Görsel yazar tarafından oluşturulmuştur
 

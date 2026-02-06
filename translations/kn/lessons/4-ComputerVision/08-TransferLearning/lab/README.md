@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7765935c35fcee69b9fe2d0cfd6963e2",
-  "translation_date": "2025-11-25T22:44:23+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/lab/README.md",
-  "language_code": "kn"
-}
--->
 # ಟ್ರಾನ್ಸ್‌ಫರ್ ಲರ್ನಿಂಗ್ ಬಳಸಿ ಆಕ್ಸ್ಫರ್ಡ್ ಪೆಟ್ಸ್ ವರ್ಗೀಕರಣ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ನಿಂದ ಲ್ಯಾಬ್ ಅಸೈನ್‌ಮೆಂಟ್.

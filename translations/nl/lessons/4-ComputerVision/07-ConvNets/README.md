@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:06:48+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "nl"
-}
--->
 # Convolutionele Neurale Netwerken
 
 We hebben eerder gezien dat neurale netwerken behoorlijk goed zijn in het verwerken van afbeeldingen, en zelfs een perceptron met één laag kan handgeschreven cijfers uit de MNIST-dataset met redelijke nauwkeurigheid herkennen. De MNIST-dataset is echter heel bijzonder, omdat alle cijfers gecentreerd zijn in de afbeelding, wat de taak eenvoudiger maakt.
@@ -24,7 +15,7 @@ Om patronen te extraheren, maken we gebruik van het concept van **convolutionele
 
 Als we bijvoorbeeld 3x3 verticale en horizontale randfilters toepassen op de MNIST-cijfers, kunnen we highlights (bijvoorbeeld hoge waarden) krijgen waar verticale en horizontale randen in onze originele afbeelding zijn. Deze twee filters kunnen dus worden gebruikt om "te zoeken naar" randen. Op dezelfde manier kunnen we verschillende filters ontwerpen om andere laag-niveau patronen te zoeken:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/nl/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Afbeelding van [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

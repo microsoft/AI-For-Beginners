@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-26T08:40:29+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "ar"
-}
--->
 # المهمة: المحولات
 
 جرّب العمل مع المحولات باستخدام HuggingFace! قم بتجربة بعض السكربتات التي يقدمونها للعمل مع النماذج المختلفة المتوفرة على موقعهم: https://huggingface.co/docs/transformers/run_scripts. جرّب أحد مجموعات البيانات الخاصة بهم، ثم قم باستيراد مجموعة بيانات خاصة بك من هذا المنهاج أو من Kaggle، وانظر إذا كان بإمكانك توليد نصوص مثيرة للاهتمام. قم بإعداد دفتر ملاحظات يحتوي على نتائجك.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-10-11T11:19:22+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "et"
-}
--->
 # Generatiivsed vastandlikud võrgud
 
 Eelmises osas õppisime **generatiivsete mudelite** kohta: mudelid, mis suudavad luua uusi pilte, mis sarnanevad treeningandmestikus olevatele. VAE oli hea näide generatiivsest mudelist.

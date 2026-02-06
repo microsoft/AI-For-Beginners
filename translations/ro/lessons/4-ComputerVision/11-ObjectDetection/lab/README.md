@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-25T22:49:55+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "ro"
-}
--->
 # Detectarea capetelor folosind Hollywood Heads Dataset
 
 Temă de laborator din [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

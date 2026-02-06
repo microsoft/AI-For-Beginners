@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:38:58+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "ko"
-}
--->
 # AI-For-Beginners 문제 해결 가이드
 
 이 가이드는 [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) 저장소를 사용하거나 기여하는 동안 발생할 수 있는 일반적인 문제를 해결하는 데 도움을 줍니다. 각 문제는 배경, 증상, 설명, 단계별 해결 방법을 포함합니다.

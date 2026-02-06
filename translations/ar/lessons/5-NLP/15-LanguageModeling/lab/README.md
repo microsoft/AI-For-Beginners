@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-26T08:31:32+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "ar"
-}
--->
 # تدريب نموذج Skip-Gram
 
 مهمة عملية من [منهج الذكاء الاصطناعي للمبتدئين](https://github.com/microsoft/ai-for-beginners).

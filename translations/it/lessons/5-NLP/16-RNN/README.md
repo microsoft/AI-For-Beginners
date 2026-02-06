@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T08:35:58+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "it"
-}
--->
 # Reti Neurali Ricorrenti
 
 ## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Vediamo come è organizzata una semplice cella RNN. Accetta lo stato precedente 
 
 Una semplice cella RNN ha due matrici di peso al suo interno: una trasforma un simbolo di input (chiamiamola W) e un'altra trasforma uno stato di input (H). In questo caso, l'output della rete è calcolato come &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), dove &sigma; è la funzione di attivazione e b è un bias aggiuntivo.
 
-<img alt="Anatomia della cella RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomia della cella RNN" src="../../../../../translated_images/it/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Immagine dell'autore
 

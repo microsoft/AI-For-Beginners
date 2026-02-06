@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T09:01:56+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "th"
-}
--->
 # ระบบหลายตัวแทน
 
 หนึ่งในวิธีที่เป็นไปได้ในการสร้างความฉลาดคือวิธีที่เรียกว่า **การเกิดขึ้นเอง** (หรือ **การทำงานร่วมกัน**) ซึ่งอิงจากข้อเท็จจริงที่ว่าพฤติกรรมรวมของตัวแทนที่ค่อนข้างเรียบง่ายจำนวนมากสามารถนำไปสู่พฤติกรรมที่ซับซ้อน (หรือฉลาด) มากขึ้นของระบบโดยรวมได้ ในเชิงทฤษฎี วิธีนี้อิงจากหลักการของ [ปัญญาร่วม](https://en.wikipedia.org/wiki/Collective_intelligence), [Emergentism](https://en.wikipedia.org/wiki/Global_brain) และ [Evolutionary Cybernetics](https://en.wikipedia.org/wiki/Global_brain) ซึ่งระบุว่าระบบระดับสูงจะได้รับคุณค่าเพิ่มเติมบางอย่างเมื่อมีการรวมกันอย่างเหมาะสมจากระบบระดับต่ำ (เรียกว่า *หลักการเปลี่ยนผ่านของเมตาซิสเต็ม*)
@@ -60,7 +51,7 @@ ask turtles [
 
 สิ่งที่ยอดเยี่ยมเกี่ยวกับ NetLogo คือมันมีห้องสมุดโมเดลที่ใช้งานได้ซึ่งคุณสามารถทดลองได้ ไปที่ **File &rightarrow; Models Library** และคุณมีหมวดหมู่โมเดลมากมายให้เลือก
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/th/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > ภาพหน้าจอของห้องสมุดโมเดลโดย Dmitry Soshnikov
 

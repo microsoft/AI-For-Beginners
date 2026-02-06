@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T13:05:13+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "ja"
-}
--->
 # マルチエージェントシステム
 
 知能を実現する方法の一つとして、**創発的**（または**相乗的**）アプローチがあります。このアプローチは、多くの比較的単純なエージェントの組み合わせた行動が、システム全体としてより複雑（または知的）な行動を生み出す可能性があるという事実に基づいています。理論的には、[集合知](https://en.wikipedia.org/wiki/Collective_intelligence)、[創発主義](https://en.wikipedia.org/wiki/Global_brain)、[進化的サイバネティクス](https://en.wikipedia.org/wiki/Global_brain)の原則に基づいており、これらは、低レベルのシステムを適切に組み合わせることで高レベルのシステムが付加価値を得る（いわゆる*メタシステム移行の原則*）と述べています。
@@ -60,7 +51,7 @@ NetLogoを[ダウンロード](https://ccl.northwestern.edu/netlogo/download.sht
 
 NetLogoの素晴らしい点は、試すことができる動作するモデルのライブラリが含まれていることです。**File &rightarrow; Models Library**に移動すると、多くのカテゴリのモデルを選択できます。
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/ja/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Dmitry Soshnikovによるモデルライブラリのスクリーンショット
 

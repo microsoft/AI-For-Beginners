@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T11:05:23+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao ya Kizazi
 
 ## [Jaribio la awali la somo](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Tutafundisha RNN hii kuzalisha maandishi hatua kwa hatua. Katika kila hatua, tut
 
 Wakati wa kuzalisha maandishi (wakati wa utabiri), tunaanza na **msukumo fulani**, ambao unapitia seli za RNN ili kuzalisha hali yake ya kati, na kisha kutoka hali hii kizazi kinaanza. Tunazalisha herufi moja kwa wakati, na kupitisha hali na herufi iliyozalishwa kwa seli nyingine ya RNN ili kuzalisha inayofuata, hadi tutakapozalisha herufi za kutosha.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/sw/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Picha na mwandishi
 

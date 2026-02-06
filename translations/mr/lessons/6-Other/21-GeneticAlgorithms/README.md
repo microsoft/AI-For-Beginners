@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
-  "translation_date": "2025-09-23T07:02:22+00:00",
-  "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
-  "language_code": "mr"
-}
--->
 # जनुकात्मक अल्गोरिदम
 
 ## [पूर्व-व्याख्यान प्रश्नमंजूषा](https://ff-quizzes.netlify.app/en/ai/quiz/41)

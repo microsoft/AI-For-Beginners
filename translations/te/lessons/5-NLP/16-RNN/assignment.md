@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-11-25T23:00:31+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "te"
-}
--->
 # అసైన్‌మెంట్: నోట్‌బుక్స్
 
 ఈ పాఠానికి సంబంధించిన నోట్‌బుక్స్‌ను (PyTorch లేదా TensorFlow వెర్షన్ ఏదైనా) ఉపయోగించి, మీ స్వంత డేటాసెట్‌తో మళ్లీ నడిపించండి, ఉదాహరణకు Kaggle నుండి ఒకటి, సరైన క్రెడిట్‌తో. మీ స్వంత పరిశీలనలను హైలైట్ చేయడానికి నోట్‌బుక్‌ను తిరిగి రాయండి. వేరే రకమైన డేటాసెట్‌ను ప్రయత్నించి, మీ పరిశీలనలను డాక్యుమెంట్ చేయండి, ఉదాహరణకు [ఈ Kaggle పోటీ డేటాసెట్ గురించి వాతావరణ ట్వీట్లు](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv) వంటి టెక్స్ట్ ఉపయోగించండి.

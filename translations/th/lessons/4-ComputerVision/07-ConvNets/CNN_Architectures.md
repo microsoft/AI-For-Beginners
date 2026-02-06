@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T09:03:36+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "th"
-}
--->
 # สถาปัตยกรรม CNN ที่เป็นที่รู้จัก
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 เป็นเครือข่ายที่ทำคะแนนค�
 
 ResNet เป็นตระกูลของโมเดลที่ถูกเสนอโดย Microsoft Research ในปี 2015 แนวคิดหลักของ ResNet คือการใช้ **residual blocks**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/th/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > ภาพจาก [this paper](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet เป็นตระกูลของโมเดลที่ถูก�
 
 สถาปัตยกรรม Google Inception นำแนวคิดนี้ไปอีกขั้น โดยสร้างแต่ละเลเยอร์ของเครือข่ายเป็นการผสมผสานของหลายเส้นทาง:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/th/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > ภาพจาก [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

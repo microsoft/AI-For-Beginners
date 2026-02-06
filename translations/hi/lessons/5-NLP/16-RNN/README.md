@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T13:36:59+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "hi"
-}
--->
 # पुनरावर्ती न्यूरल नेटवर्क्स
 
 ## [प्री-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 एक साधारण RNN सेल के अंदर दो वेट मैट्रिस होती हैं: एक इनपुट प्रतीक को ट्रांसफॉर्म करता है (इसे W कहते हैं), और दूसरा इनपुट स्थिति को ट्रांसफॉर्म करता है (H)। इस मामले में नेटवर्क का आउटपुट &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) के रूप में गणना किया जाता है, जहां &sigma; सक्रियण फ़ंक्शन है और b अतिरिक्त बायस है।
 
-<img alt="RNN सेल की संरचना" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN सेल की संरचना" src="../../../../../translated_images/hi/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > चित्र लेखक द्वारा
 

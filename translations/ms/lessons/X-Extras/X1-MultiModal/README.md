@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-29T11:46:59+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "ms"
-}
--->
 # Rangkaian Multi-Mod
 
 Selepas kejayaan model transformer dalam menyelesaikan tugas NLP, seni bina yang sama atau serupa telah digunakan untuk tugas penglihatan komputer. Terdapat minat yang semakin meningkat untuk membina model yang dapat *menggabungkan* keupayaan penglihatan dan bahasa semula jadi. Salah satu usaha tersebut dilakukan oleh OpenAI, dan ia dikenali sebagai CLIP dan DALL.E.

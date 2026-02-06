@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-11-25T22:22:10+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "te"
-}
--->
 # ఆటోఎంకోడర్స్
 
 CNNలను శిక్షణ ఇచ్చేటప్పుడు, ఒక సమస్య ఏమిటంటే మనకు చాలా లేబుల్ చేసిన డేటా అవసరం. చిత్రం వర్గీకరణ సందర్భంలో, మనం చిత్రాలను వేర్వేరు తరగతులుగా వర్గీకరించాలి, ఇది ఒక మానవీయ ప్రయత్నం.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-24T10:32:32+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "fa"
-}
--->
 # تشخیص حرکات با استفاده از Optical Flow
 
 تمرین آزمایشگاهی از [برنامه درسی AI برای مبتدیان](https://aka.ms/ai-beginners).

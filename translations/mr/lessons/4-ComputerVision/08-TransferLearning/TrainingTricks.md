@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-26T09:48:39+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "mr"
-}
--->
 # डीप लर्निंग प्रशिक्षण तंत्र
 
 जसे न्यूरल नेटवर्क्स अधिक खोलवर जातात, त्यांचे प्रशिक्षण अधिक आव्हानात्मक बनते. एक मोठी समस्या म्हणजे [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) किंवा [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [हा लेख](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) या समस्यांवर चांगले स्पष्टीकरण देतो.

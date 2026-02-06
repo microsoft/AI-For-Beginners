@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T09:15:59+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "sv"
-}
--->
 # Djup Förstärkningsinlärning
 
 Förstärkningsinlärning (RL) ses som en av de grundläggande paradigmerna inom maskininlärning, vid sidan av övervakad inlärning och oövervakad inlärning. Medan vi i övervakad inlärning förlitar oss på dataset med kända resultat, bygger RL på **att lära genom att göra**. Till exempel, när vi först ser ett datorspel börjar vi spela, även utan att känna till reglerna, och snart kan vi förbättra våra färdigheter bara genom att spela och justera vårt beteende.
@@ -34,7 +25,7 @@ Ni har förmodligen alla sett moderna balansapparater som *Segway* eller *Gyrosc
 
 En förenklad version av balansproblemet är känt som **CartPole**-problemet. I CartPole-världen har vi en horisontell slider som kan röra sig åt vänster eller höger, och målet är att balansera en vertikal stång ovanpå slidern medan den rör sig.
 
-<img alt="en cartpole" src="images/cartpole.png" width="200"/>
+<img alt="en cartpole" src="../../../../../translated_images/sv/cartpole.f52a67f27e058170.webp" width="200"/>
 
 För att skapa och använda denna miljö behöver vi några rader Python-kod:
 

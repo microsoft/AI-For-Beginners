@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-11-18T18:47:45+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "pcm"
-}
--->
 # NetLogo Assignment
 
 Pick one model wey dey NetLogo library and use am simulate one real-life situation as e fit reach. One better example na to adjust the Virus model wey dey Alternative Visualizations folder to show how e fit model how COVID-19 dey spread. You fit build one model wey go resemble how virus dey spread for real life?

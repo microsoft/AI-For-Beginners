@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6bbd632dfe6c62e5f66bb51fd78c174a",
-  "translation_date": "2025-09-23T09:15:06+00:00",
-  "source_file": "lessons/6-Other/21-GeneticAlgorithms/README.md",
-  "language_code": "sv"
-}
--->
 # Genetiska Algoritmer
 
 ## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ai/quiz/41)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "48fdd704d483e19bc3d7464074c9fcbe",
-  "translation_date": "2025-08-26T10:29:39+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md",
-  "language_code": "pa"
-}
--->
 # ਐਮਐਨਆਈਐਸਟੀ ਵਰਗੀਕਰਨ ਆਪਣੇ ਫਰੇਮਵਰਕ ਨਾਲ
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) ਤੋਂ ਲੈਬ ਅਸਾਈਨਮੈਂਟ।

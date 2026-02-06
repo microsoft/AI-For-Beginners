@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T06:59:32+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Generative na Network
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Sasanayin natin ang RNN na ito upang mag-generate ng teksto hakbang-hakbang. Sa 
 
 Kapag nag-generate ng teksto (sa panahon ng inference), magsisimula tayo sa isang **prompt**, na ipapasa sa RNN cells upang mag-generate ng intermediate state nito, at pagkatapos mula sa state na ito magsisimula ang generation. Mag-generate tayo ng isang character sa bawat pagkakataon, at ipapasa ang state at ang generated character sa isa pang RNN cell upang mag-generate ng susunod, hanggang sa makabuo tayo ng sapat na mga character.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/tl/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Larawan ng may-akda
 

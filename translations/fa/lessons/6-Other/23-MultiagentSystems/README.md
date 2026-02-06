@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T12:25:42+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "fa"
-}
--->
 # سیستم‌های چندعاملی
 
 یکی از روش‌های ممکن برای دستیابی به هوش، رویکردی است که به آن **پدیدارگرا** (یا **هم‌افزایی**) گفته می‌شود. این رویکرد بر این اصل استوار است که رفتار ترکیبی تعداد زیادی عامل نسبتاً ساده می‌تواند منجر به رفتار کلی پیچیده‌تر (یا هوشمندانه‌تر) سیستم به‌عنوان یک کل شود. از نظر تئوری، این رویکرد بر اصول [هوش جمعی](https://en.wikipedia.org/wiki/Collective_intelligence)، [پدیدارگرایی](https://en.wikipedia.org/wiki/Global_brain) و [سایبرنتیک تکاملی](https://en.wikipedia.org/wiki/Global_brain) استوار است که بیان می‌کنند سیستم‌های سطح بالاتر زمانی که به‌درستی از سیستم‌های سطح پایین‌تر ترکیب شوند، نوعی ارزش افزوده به دست می‌آورند (اصلی که به آن *اصل گذار به فرامجموعه* گفته می‌شود).
@@ -61,7 +52,7 @@ ask turtles [
 
 یکی از ویژگی‌های عالی NetLogo این است که شامل کتابخانه‌ای از مدل‌های آماده است که می‌توانید آن‌ها را امتحان کنید. به **File &rightarrow; Models Library** بروید و دسته‌بندی‌های مختلفی از مدل‌ها را انتخاب کنید.
 
-<img alt="کتابخانه مدل‌های NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="کتابخانه مدل‌های NetLogo" src="../../../../../translated_images/fa/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > تصویری از کتابخانه مدل‌ها توسط دیمیتری سوشنیکوف
 

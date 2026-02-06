@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T10:39:05+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "id"
-}
--->
 # Pengantar Computer Vision
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) adalah disiplin ilmu yang bertujuan untuk memungkinkan komputer memahami gambar digital pada tingkat tinggi. Definisi ini cukup luas, karena *pemahaman* dapat berarti banyak hal, termasuk menemukan objek dalam gambar (**deteksi objek**), memahami apa yang sedang terjadi (**deteksi peristiwa**), mendeskripsikan gambar dalam teks, atau merekonstruksi sebuah adegan dalam 3D. Ada juga tugas-tugas khusus terkait gambar manusia: estimasi usia dan emosi, deteksi dan identifikasi wajah, serta estimasi pose 3D, untuk menyebut beberapa contoh.
@@ -115,7 +106,7 @@ Baca lebih lanjut tentang optical flow [dalam tutorial hebat ini](https://learno
 
 Dalam lab ini, Anda akan merekam video dengan gerakan sederhana, dan tujuan Anda adalah mengekstrak gerakan atas/bawah/kiri/kanan menggunakan optical flow.
 
-<img src="images/palm-movement.png" width="30%" alt="Frame Gerakan Telapak Tangan"/>
+<img src="../../../../../translated_images/id/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Frame Gerakan Telapak Tangan"/>
 
 ---
 

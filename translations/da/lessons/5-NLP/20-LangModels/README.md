@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T09:35:38+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "da"
-}
--->
 # Forudtrænede Store Sproglige Modeller
 
 I alle vores tidligere opgaver har vi trænet et neuralt netværk til at udføre en bestemt opgave ved hjælp af et mærket datasæt. Med store transformer-modeller, såsom BERT, bruger vi sprogmodellering på en selv-superviseret måde til at bygge en sprogmodel, som derefter specialiseres til specifikke downstream-opgaver med yderligere domænespecifik træning. Det er dog blevet demonstreret, at store sproglige modeller også kan løse mange opgaver uden nogen form for domænespecifik træning. En familie af modeller, der kan gøre dette, kaldes **GPT**: Generative Pre-Trained Transformer.

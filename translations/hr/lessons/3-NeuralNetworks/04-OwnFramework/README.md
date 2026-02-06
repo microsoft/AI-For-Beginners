@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T14:56:13+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "hr"
-}
--->
 # Uvod u neuronske mreže. Višeslojni perceptron
 
 U prethodnom dijelu naučili ste o najjednostavnijem modelu neuronske mreže - jednoslojnom perceptronu, linearnom modelu za klasifikaciju s dvije klase.
@@ -65,7 +56,7 @@ Algoritam gradijentnog spuštanja ostaje isti, ali postaje teže izračunati gra
 
 Primijetite da je lijevi dio svih tih izraza isti, i stoga možemo učinkovito izračunavati derivacije počevši od funkcije gubitka i idući "unatrag" kroz računski graf. Stoga se metoda treniranja višeslojnog perceptrona naziva **povratna propagacija**, ili 'backprop'.
 
-<img alt="računski graf" src="images/ComputeGraphGrad.png"/>
+<img alt="računski graf" src="../../../../../translated_images/hr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: citiranje slike
 

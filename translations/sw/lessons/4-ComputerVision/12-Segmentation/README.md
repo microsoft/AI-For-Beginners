@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T11:01:28+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "sw"
-}
--->
 # Ugawaji
 
 Tumejifunza awali kuhusu Utambuzi wa Vitu, ambao hutuwezesha kutambua vitu kwenye picha kwa kutabiri *maboksi ya mipaka*. Hata hivyo, kwa baadhi ya kazi hatuhitaji tu maboksi ya mipaka, bali pia utambuzi wa vitu kwa usahihi zaidi. Kazi hii inaitwa **ugawaji**.
@@ -20,7 +11,7 @@ Ugawaji unaweza kuonekana kama **uainishaji wa pikseli**, ambapo kwa **kila** pi
 
 Kwa ugawaji wa mfano, kondoo hawa ni vitu tofauti, lakini kwa ugawaji wa kisemantiki kondoo wote wanawakilishwa na darasa moja.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/sw/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Picha kutoka [makala hii ya blogu](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Kuna usanifu tofauti wa neva kwa ugawaji, lakini zote zina muundo sawa. Kwa namn
 * **Encoder** huchukua vipengele kutoka kwenye picha ya ingizo.
 * **Decoder** hubadilisha vipengele hivyo kuwa **picha ya maski**, yenye ukubwa sawa na idadi ya njia zinazolingana na idadi ya madarasa.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/sw/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Picha kutoka [chapisho hili](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Katika somo hili, tutaona ugawaji ukifanya kazi kwa kufundisha mtandao kutambua 
 
 > ✅ Mbinu hii inafaa hasa kwa aina hii ya picha za matibabu, lakini ni matumizi gani mengine ya ulimwengu halisi unayoweza kufikiria?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/sw/navi.2f20b727910110ea.webp"/>
 
 > Picha kutoka Hifadhidata ya PH<sup>2</sup>
 

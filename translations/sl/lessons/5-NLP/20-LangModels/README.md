@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T15:10:22+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "sl"
-}
--->
 # Vnaprej naučeni veliki jezikovni modeli
 
 Pri vseh naših prejšnjih nalogah smo trenirali nevronsko mrežo za izvajanje določene naloge z uporabo označenega nabora podatkov. Pri velikih transformacijskih modelih, kot je BERT, uporabljamo jezikovno modeliranje na samonadzorovan način za izdelavo jezikovnega modela, ki ga nato specializiramo za specifične naloge z dodatnim usposabljanjem na področju specifičnih podatkov. Vendar pa je bilo dokazano, da lahko veliki jezikovni modeli rešujejo številne naloge tudi brez KAKRŠNEGA KOLI specifičnega usposabljanja. Družina modelov, ki to zmore, se imenuje **GPT**: Generativni vnaprej naučeni transformator.

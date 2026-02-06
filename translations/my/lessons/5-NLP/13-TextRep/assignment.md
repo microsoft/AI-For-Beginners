@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-25T21:55:08+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "my"
-}
--->
 # အလုပ်တာဝန်: Notebooks
 
 ဒီသင်ခန်းစာနဲ့ဆက်စပ်နေတဲ့ notebooks (PyTorch version ဒါမှမဟုတ် TensorFlow version) တွေကို သင့်ရဲ့ကိုယ်ပိုင်ဒေတာစနစ်နဲ့ ပြန်လည်အသုံးပြုပါ၊ ဥပမာ Kaggle ကနေရရှိတဲ့ ဒေတာတစ်ခုကို Attribution နဲ့အတူ အသုံးပြုနိုင်ပါတယ်။ သင့်ရဲ့ကိုယ်ပိုင် ရှာဖွေတွေ့ရှိချက်တွေကို အထောက်အထားပြဖို့ notebook ကို ပြန်ရေးဆွဲပါ။ အံ့သြဖွယ်ဖြစ်နိုင်တဲ့ ဒေတာစနစ်တွေကို စမ်းသပ်ကြည့်ပါ၊ ဥပမာ [UFO တွေ့မြင်မှုများအကြောင်း ဒီဒေတာ](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) NUFORC မှ ရရှိနိုင်ပါတယ်။

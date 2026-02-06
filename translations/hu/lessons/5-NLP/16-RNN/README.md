@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T11:19:18+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "hu"
-}
--->
 # Rekurrens Neurális Hálózatok
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Nézzük meg, hogyan van felépítve egy egyszerű RNN cella. Elfogadja az előz
 
 Egy egyszerű RNN cellának két súlymátrixa van: az egyik átalakítja a bemeneti szimbólumot (nevezzük W-nek), a másik pedig a bemeneti állapotot (H). Ebben az esetben a hálózat kimenete &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) formában számítódik ki, ahol &sigma; az aktivációs függvény, és b egy további bias.
 
-<img alt="RNN cella anatómiája" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN cella anatómiája" src="../../../../../translated_images/hu/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Kép a szerzőtől
 

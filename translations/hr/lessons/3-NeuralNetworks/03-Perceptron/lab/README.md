@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
-  "translation_date": "2025-08-30T07:06:15+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
-  "language_code": "hr"
-}
--->
 # Višeklasna klasifikacija s perceptronom
 
 Laboratorijska vježba iz [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners).

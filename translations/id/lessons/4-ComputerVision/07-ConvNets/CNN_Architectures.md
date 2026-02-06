@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T10:38:25+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "id"
-}
--->
 # Arsitektur CNN yang Terkenal
 
 ### VGG-16
@@ -25,7 +16,7 @@ Seperti yang dapat Anda lihat, VGG mengikuti arsitektur piramida tradisional, ya
 
 ResNet adalah keluarga model yang diusulkan oleh Microsoft Research pada tahun 2015. Ide utama dari ResNet adalah menggunakan **blok residual**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/id/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Gambar dari [makalah ini](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Anda juga dapat menganggap jaringan ini mampu menyesuaikan kompleksitasnya denga
 
 Arsitektur Google Inception membawa ide ini lebih jauh, dan membangun setiap lapisan jaringan sebagai kombinasi dari beberapa jalur berbeda:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/id/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Gambar dari [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

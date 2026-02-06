@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:34:33+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "de"
-}
--->
 # AI-For-Beginners Fehlerbehebungshandbuch
 
 Dieses Handbuch hilft Ihnen, häufige Probleme zu lösen, die beim Verwenden oder Beitragen zum [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)-Repository auftreten können. Jedes Problem enthält Hintergrundinformationen, Symptome, Erklärungen und Schritt-für-Schritt-Lösungen.

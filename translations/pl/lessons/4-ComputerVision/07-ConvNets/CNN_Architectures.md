@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T13:51:18+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "pl"
-}
--->
 # Znane Architektury CNN
 
 ### VGG-16
@@ -25,7 +16,7 @@ Jak widać, VGG stosuje tradycyjną architekturę piramidy, czyli sekwencję war
 
 ResNet to rodzina modeli zaproponowana przez Microsoft Research w 2015 roku. Główną ideą ResNet jest wykorzystanie **bloków resztkowych**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/pl/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Obraz z [tego artykułu](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Można również pomyśleć o tej sieci jako o zdolnej do dostosowania swojej z�
 
 Architektura Google Inception idzie o krok dalej i buduje każdą warstwę sieci jako kombinację kilku różnych ścieżek:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/pl/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Obraz z [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T22:11:50+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "sl"
-}
--->
 # Game Jam
 
 Igre so področje, ki je močno pod vplivom razvoja umetne inteligence (UI) in strojnega učenja (SU). V tej nalogi napišite kratko razpravo o igri, ki vam je všeč in ki je bila pod vplivom razvoja UI. Igra naj bo dovolj stara, da je bila pod vplivom več vrst računalniških procesnih sistemov. Dober primer sta šah ali Go, vendar si oglejte tudi video igre, kot sta Pong ali Pac-Man. Napišite esej, ki obravnava preteklost, sedanjost in prihodnost igre v povezavi z UI.

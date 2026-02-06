@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T14:24:14+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ro"
-}
--->
 # Reprezentarea textului ca tensori
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Obiectivul nostru va fi să clasificăm articolul de știri într-una dintre cat
 
 Dacă dorim să rezolvăm sarcini de Procesare a Limbajului Natural (NLP) cu rețele neuronale, avem nevoie de o modalitate de a reprezenta textul ca tensori. Calculatoarele deja reprezintă caracterele textuale ca numere care se mapează la fonturi pe ecranul tău, utilizând codificări precum ASCII sau UTF-8.
 
-<img alt="Imagine care arată o diagramă ce mapează un caracter la o reprezentare ASCII și binară" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Imagine care arată o diagramă ce mapează un caracter la o reprezentare ASCII și binară" src="../../../../../translated_images/ro/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Sursa imaginii](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Indiferent de reprezentare, mai întâi trebuie să convertim textul într-o sec
 
 Când rezolvăm sarcini precum clasificarea textului, trebuie să fim capabili să reprezentăm textul printr-un vector de dimensiune fixă, pe care îl vom utiliza ca intrare pentru clasificatorul dens final. Una dintre cele mai simple modalități de a face acest lucru este să combinăm toate reprezentările individuale ale cuvintelor, de exemplu, prin adunarea lor. Dacă adunăm codificările one-hot ale fiecărui cuvânt, vom obține un vector de frecvențe, care arată de câte ori apare fiecare cuvânt în text. O astfel de reprezentare a textului se numește **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/ro/bow.3811869cff59368d.webp" width="90%"/>
 
 > Imagine de autor
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T09:58:48+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "fi"
-}
--->
 # Segmentointi
 
 Olemme aiemmin oppineet objektien tunnistamisesta, joka mahdollistaa objektien paikantamisen kuvassa ennustamalla niiden *rajauslaatikot*. Joissakin tehtävissä emme kuitenkaan tarvitse pelkästään rajauslaatikoita, vaan myös tarkempaa objektien paikantamista. Tätä tehtävää kutsutaan **segmentoinniksi**.
@@ -20,7 +11,7 @@ Segmentointi voidaan nähdä **pikseliluokitteluna**, jossa jokaiselle kuvan pik
 
 Esimerkiksi instanssisegmentoinnissa nämä lampaat ovat eri objekteja, mutta semanttisessa segmentoinnissa kaikki lampaat kuuluvat yhteen luokkaan.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/fi/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Kuva [tästä blogikirjoituksesta](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Segmentointiin on olemassa erilaisia neuroverkkoarkkitehtuureja, mutta niillä k
 * **Kooderi** (Encoder) poimii piirteitä syötekuvasta.
 * **Dekooderi** (Decoder) muuntaa nämä piirteet **maskikuvaksi**, jonka koko ja kanavien määrä vastaavat luokkien määrää.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/fi/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Kuva [tästä julkaisusta](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ Tässä oppitunnissa näemme segmentoinnin käytännössä kouluttamalla verkkoa
 
 > ✅ Tämä tekniikka sopii erityisen hyvin tämän tyyppiseen lääketieteelliseen kuvantamiseen, mutta mitä muita tosielämän sovelluksia voisit kuvitella?
 
-<img alt="luomet" src="images/navi.png"/>
+<img alt="luomet" src="../../../../../translated_images/fi/navi.2f20b727910110ea.webp"/>
 
 > Kuva PH<sup>2</sup>-tietokannasta
 

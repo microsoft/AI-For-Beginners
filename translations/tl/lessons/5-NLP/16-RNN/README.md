@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T07:01:08+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "tl"
-}
--->
 # Recurrent Neural Networks
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Tingnan natin kung paano nakaayos ang isang simpleng RNN cell. Tumatanggap ito n
 
 Ang isang simpleng RNN cell ay may dalawang weight matrices sa loob: ang isa ay nagta-transform ng input symbol (tawagin natin itong W), at ang isa ay nagta-transform ng input state (H). Sa kasong ito, ang output ng network ay kinakalkula bilang &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), kung saan ang &sigma; ay ang activation function at ang b ay karagdagang bias.
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/tl/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Larawan mula sa may-akda
 

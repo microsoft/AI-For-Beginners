@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-11-25T22:53:48+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "te"
-}
--->
 # అసైన్‌మెంట్: నోట్‌బుక్స్
 
 ఈ పాఠానికి సంబంధించిన నోట్‌బుక్స్‌ను (PyTorch లేదా TensorFlow వెర్షన్ ఏదైనా) ఉపయోగించి, మీ స్వంత డేటాసెట్‌తో మళ్లీ రన్ చేయండి, ఉదాహరణకు Kaggle నుండి ఒకటి, సరైన క్రెడిట్‌తో. మీ స్వంత పరిశీలనలను హైలైట్ చేయడానికి నోట్‌బుక్‌ను తిరిగి రాయండి. వేరే రకమైన డేటాసెట్‌ను ప్రయత్నించి, మీ పరిశీలనలను డాక్యుమెంట్ చేయండి, ఉదాహరణకు [ఈ Beatles పాటల పదాలు](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics) వంటి టెక్స్ట్ ఉపయోగించి.

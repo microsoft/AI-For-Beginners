@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-26T09:25:17+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "mr"
-}
--->
 # हॉलिवूड हेड्स डेटासेट वापरून हेड डिटेक्शन
 
 [AI फॉर बिगिनर्स करिक्युलम](https://github.com/microsoft/ai-for-beginners) मधील लॅब असाइनमेंट.

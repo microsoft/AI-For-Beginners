@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-29T08:40:18+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "th"
-}
--->
 # งานมอบหมาย NetLogo
 
 เลือกหนึ่งในโมเดลจากคลังของ NetLogo และใช้มันจำลองสถานการณ์ในชีวิตจริงให้ใกล้เคียงที่สุด ตัวอย่างที่ดีคือการปรับแต่งโมเดล Virus ในโฟลเดอร์ Alternative Visualizations เพื่อแสดงให้เห็นว่ามันสามารถใช้จำลองการแพร่กระจายของ COVID-19 ได้หรือไม่ คุณสามารถสร้างโมเดลที่เลียนแบบการแพร่กระจายของไวรัสในชีวิตจริงได้หรือเปล่า?

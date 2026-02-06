@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
-  "translation_date": "2025-11-25T20:22:23+00:00",
-  "source_file": "etc/CODE_OF_CONDUCT.md",
-  "language_code": "ml"
-}
--->
 # മൈക്രോസോഫ്റ്റ് ഓപ്പൺ സോഴ്‌സ് പെരുമാറ്റ നയം
 
 ഈ പ്രോജക്ട് [മൈക്രോസോഫ്റ്റ് ഓപ്പൺ സോഴ്‌സ് പെരുമാറ്റ നയം](https://opensource.microsoft.com/codeofconduct/) സ്വീകരിച്ചിട്ടുണ്ട്.

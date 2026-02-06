@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c34cbba802058b6fa267e1a294d4e510",
-  "translation_date": "2025-09-23T06:58:42+00:00",
-  "source_file": "lessons/3-NeuralNetworks/03-Perceptron/README.md",
-  "language_code": "tl"
-}
--->
 # Panimula sa Neural Networks: Perceptron
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/5)
@@ -15,7 +6,7 @@ Isa sa mga unang pagsubok na lumikha ng isang bagay na katulad ng modernong neur
 
 |      |      |
 |--------------|-----------|
-|<img src='images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />|
+|<img src='../../../../../translated_images/tl/Rosenblatt-wikipedia.294821b285ac796d.webp' alt='Frank Rosenblatt'/> | <img src='../../../../../translated_images/tl/Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.webp' alt='The Mark 1 Perceptron' />|
 
 > Mga larawan [mula sa Wikipedia](https://en.wikipedia.org/wiki/Perceptron)
 
@@ -33,7 +24,7 @@ y(x) = f(w<sup>T</sup>x)
 
 kung saan ang f ay isang step activation function
 
-<img src="images/activation-func.png"/>
+<img src="../../../../../translated_images/tl/activation-func.b4924007c7ce7764.webp"/>
 
 ## Pagsasanay ng Perceptron
 

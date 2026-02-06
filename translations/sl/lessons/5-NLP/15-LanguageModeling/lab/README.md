@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5130f01fdc5ebb83032b23d489027aac",
-  "translation_date": "2025-08-25T21:58:47+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/lab/README.md",
-  "language_code": "sl"
-}
--->
 # Usposabljanje modela Skip-Gram
 
 Laboratorijska naloga iz [učnega načrta AI za začetnike](https://github.com/microsoft/ai-for-beginners).

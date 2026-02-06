@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T14:20:28+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ro"
-}
--->
 # Introducere în Rețele Neuronale. Perceptron Multi-Stratificat
 
 În secțiunea anterioară, ai învățat despre cel mai simplu model de rețea neuronală - perceptronul cu un singur strat, un model liniar de clasificare în două clase.
@@ -65,7 +56,7 @@ Algoritmul gradient descent ar rămâne același, dar ar fi mai dificil de calcu
 
 Observați că partea din stânga a tuturor acestor expresii este aceeași, și astfel putem calcula eficient derivatele începând de la funcția de pierdere și mergând "înapoi" prin graful computațional. Astfel, metoda de antrenare a unui perceptron multi-stratificat este numită **backpropagation**, sau 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/ro/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: citarea imaginii
 

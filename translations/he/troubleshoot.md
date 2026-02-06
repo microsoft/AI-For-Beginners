@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:46:53+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "he"
-}
--->
 # מדריך פתרון תקלות ל-AI-For-Beginners
 
 מדריך זה יעזור לכם לפתור בעיות נפוצות בעת שימוש או תרומה למאגר [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). כל בעיה כוללת רקע, תסמינים, הסברים ופתרונות שלב-אחר-שלב.

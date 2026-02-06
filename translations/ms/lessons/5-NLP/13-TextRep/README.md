@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:56:48+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "ms"
-}
--->
 # Mewakili Teks sebagai Tensor
 
 ## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Matlamat kita adalah untuk mengelaskan item berita ke dalam salah satu kategori 
 
 Jika kita ingin menyelesaikan tugas Pemprosesan Bahasa Semula Jadi (NLP) dengan rangkaian neural, kita memerlukan cara untuk mewakili teks sebagai tensor. Komputer sudah mewakili watak teks sebagai nombor yang memetakan kepada fon pada skrin anda menggunakan pengekodan seperti ASCII atau UTF-8.
 
-<img alt="Imej menunjukkan diagram pemetaan watak kepada perwakilan ASCII dan binari" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Imej menunjukkan diagram pemetaan watak kepada perwakilan ASCII dan binari" src="../../../../../translated_images/ms/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Sumber imej](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Dalam beberapa kes, kita mungkin mempertimbangkan untuk menggunakan tri-gram -- 
 
 Apabila menyelesaikan tugas seperti pengelasan teks, kita perlu dapat mewakili teks dengan satu vektor bersaiz tetap, yang akan kita gunakan sebagai input kepada pengelas padat akhir. Salah satu cara paling mudah untuk melakukannya adalah dengan menggabungkan semua perwakilan perkataan individu, contohnya dengan menambahnya. Jika kita menambah pengekodan satu-haba setiap perkataan, kita akan berakhir dengan vektor frekuensi, menunjukkan berapa kali setiap perkataan muncul dalam teks. Perwakilan teks seperti ini dipanggil **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/ms/bow.3811869cff59368d.webp" width="90%"/>
 
 > Imej oleh penulis
 

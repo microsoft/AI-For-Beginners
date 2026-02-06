@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T12:01:37+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "fr"
-}
--->
 # Introduction aux réseaux neuronaux. Perceptron multicouche
 
 Dans la section précédente, vous avez découvert le modèle de réseau neuronal le plus simple : le perceptron à une couche, un modèle de classification linéaire à deux classes.
@@ -65,7 +56,7 @@ L'algorithme de descente de gradient reste le même, mais le calcul des gradient
 
 Notez que la partie la plus à gauche de toutes ces expressions est la même, et nous pouvons donc calculer efficacement les dérivées en commençant par la fonction de perte et en remontant "en arrière" à travers le graphe computationnel. Ainsi, la méthode d'entraînement d'un perceptron multicouche est appelée **rétropropagation**, ou 'backprop'.
 
-<img alt="graphe de calcul" src="images/ComputeGraphGrad.png"/>
+<img alt="graphe de calcul" src="../../../../../translated_images/fr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO : citation de l'image
 

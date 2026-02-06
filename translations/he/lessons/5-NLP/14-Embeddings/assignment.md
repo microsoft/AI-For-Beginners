@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-28T20:08:32+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "he"
-}
--->
 # משימה: מחברות
 
 בעזרת המחברות הקשורות לשיעור זה (בגרסת PyTorch או TensorFlow), הריצו אותן מחדש עם מערך נתונים משלכם, אולי כזה שמצאתם ב-Kaggle, תוך ציון המקור. ערכו מחדש את המחברת כדי להדגיש את הממצאים שלכם. נסו סוג אחר של מערך נתונים ותעדו את הממצאים שלכם, תוך שימוש בטקסט כמו [מילות השירים של הביטלס](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

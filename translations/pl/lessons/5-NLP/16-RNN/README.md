@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T13:59:51+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "pl"
-}
--->
 # Sieci Neuronowe Rekurencyjne
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Przyjrzyjmy się, jak zorganizowana jest prosta komórka RNN. Przyjmuje ona popr
 
 Prosta komórka RNN ma wewnątrz dwie macierze wag: jedna przekształca symbol wejściowy (nazwijmy ją W), a druga przekształca stan wejściowy (H). W takim przypadku wyjście sieci obliczane jest jako &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), gdzie &sigma; to funkcja aktywacji, a b to dodatkowe przesunięcie.
 
-<img alt="Anatomia komórki RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomia komórki RNN" src="../../../../../translated_images/pl/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Obraz autorstwa autora
 

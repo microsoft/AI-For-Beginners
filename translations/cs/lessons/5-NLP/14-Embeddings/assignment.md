@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-25T21:42:27+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "cs"
-}
--->
 # Zadání: Notebooky
 
 Pomocí notebooků připojených k této lekci (buď ve verzi PyTorch, nebo TensorFlow) je spusťte znovu s použitím vlastního datasetu, například z Kaggle, s uvedením zdroje. Přepište notebook tak, aby zdůrazňoval vaše vlastní zjištění. Vyzkoušejte jiný typ datasetu a zdokumentujte svá zjištění, například pomocí textů, jako jsou [tyto texty písní Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

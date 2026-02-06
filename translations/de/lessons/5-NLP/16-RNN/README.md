@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T12:24:13+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "de"
-}
--->
 # Rekurrente Neuronale Netze
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Schauen wir uns an, wie eine einfache RNN-Zelle organisiert ist. Sie akzeptiert 
 
 Eine einfache RNN-Zelle hat zwei Gewichtsmatrizen: eine transformiert ein Eingabesymbol (wir nennen sie W), und eine andere transformiert einen Eingabezustand (H). In diesem Fall wird die Ausgabe des Netzwerks als &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b) berechnet, wobei &sigma; die Aktivierungsfunktion und b ein zusätzlicher Bias ist.
 
-<img alt="Anatomie einer RNN-Zelle" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomie einer RNN-Zelle" src="../../../../../translated_images/de/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Bild vom Autor
 

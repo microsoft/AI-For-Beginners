@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "178c0b5ee5395733eb18aec51e71a0a9",
-  "translation_date": "2025-09-23T15:02:41+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/README.md",
-  "language_code": "sl"
-}
--->
 # Vnaprej naučeni modeli in prenos učenja
 
 Učenje CNN-jev lahko zahteva veliko časa, poleg tega pa je za to nalogo potrebnih veliko podatkov. Velik del časa se porabi za učenje najboljših nizkoročnih filtrov, ki jih mreža lahko uporabi za prepoznavanje vzorcev iz slik. Pojavi se naravno vprašanje – ali lahko uporabimo nevronsko mrežo, naučeno na enem naboru podatkov, in jo prilagodimo za razvrščanje drugih slik, ne da bi morali izvesti celoten proces učenja?

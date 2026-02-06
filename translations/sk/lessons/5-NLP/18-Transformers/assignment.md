@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-25T22:05:09+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "sk"
-}
--->
 # Zadanie: Transformery
 
 Experimentujte s Transformerami na HuggingFace! Vyskúšajte niektoré zo skriptov, ktoré poskytujú na prácu s rôznymi modelmi dostupnými na ich stránke: https://huggingface.co/docs/transformers/run_scripts. Vyskúšajte jeden z ich datasetov, potom importujte jeden vlastný z tohto kurzu alebo z Kaggle a zistite, či dokážete generovať zaujímavé texty. Vytvorte notebook so svojimi zisteniami.

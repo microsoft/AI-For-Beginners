@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T12:13:13+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "es"
-}
--->
 # Mecanismos de Atención y Transformadores
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ La idea de la codificación posicional es la siguiente.
 * Embebido entrenable, similar al embebido de tokens. Este es el enfoque que consideramos aquí. Aplicamos capas de embebido tanto a los tokens como a sus posiciones, obteniendo vectores de embebido de las mismas dimensiones, que luego sumamos.
 * Función de codificación posicional fija, como se propone en el artículo original.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/es/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Imagen del autor
 

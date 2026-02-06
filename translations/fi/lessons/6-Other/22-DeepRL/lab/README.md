@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-28T19:18:37+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "fi"
-}
--->
 ## Ympäristö
 
 Mountain Car -ympäristö koostuu autosta, joka on jumissa laaksossa. Tavoitteesi on hypätä ulos laaksosta ja saavuttaa lippu. Voit suorittaa seuraavat toiminnot: kiihdyttää vasemmalle, kiihdyttää oikealle tai olla tekemättä mitään. Voit havainnoida auton sijaintia x-akselilla ja sen nopeutta.

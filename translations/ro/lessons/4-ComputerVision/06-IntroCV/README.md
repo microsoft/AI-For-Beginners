@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T14:15:40+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "ro"
-}
--->
 # Introducere în Viziunea Computațională
 
 [Viziunea Computațională](https://wikipedia.org/wiki/Computer_vision) este o disciplină al cărei scop este să permită calculatoarelor să obțină o înțelegere de nivel înalt a imaginilor digitale. Aceasta este o definiție destul de largă, deoarece *înțelegerea* poate însemna multe lucruri diferite, inclusiv identificarea unui obiect într-o imagine (**detectarea obiectelor**), înțelegerea a ceea ce se întâmplă (**detectarea evenimentelor**), descrierea unei imagini în text sau reconstruirea unei scene în 3D. Există, de asemenea, sarcini speciale legate de imaginile umane: estimarea vârstei și emoțiilor, detectarea și identificarea fețelor, și estimarea poziției 3D, printre altele.
@@ -115,7 +106,7 @@ Citește mai multe despre fluxul optic [în acest tutorial excelent](https://lea
 
 În acest laborator, vei filma un video cu gesturi simple, iar scopul tău este să extragi mișcările sus/jos/stânga/dreapta folosind flux optic.
 
-<img src="images/palm-movement.png" width="30%" alt="Cadru Mișcare Palmă"/>
+<img src="../../../../../translated_images/ro/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Cadru Mișcare Palmă"/>
 
 ---
 

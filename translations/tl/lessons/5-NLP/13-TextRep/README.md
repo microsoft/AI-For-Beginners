@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T07:01:59+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "tl"
-}
--->
 # Pagsasalarawan ng Teksto bilang Tensors
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Ang layunin natin ay uriin ang balita sa isa sa mga kategorya batay sa teksto.
 
 Kung nais nating lutasin ang mga gawain sa Natural Language Processing (NLP) gamit ang neural networks, kailangan natin ng paraan upang maipakita ang teksto bilang tensors. Ang mga computer ay kumakatawan na sa mga karakter ng teksto bilang mga numero na tumutugma sa mga font sa iyong screen gamit ang mga encoding tulad ng ASCII o UTF-8.
 
-<img alt="Larawan na nagpapakita ng diagram na nagmamapa ng isang karakter sa ASCII at binary na representasyon" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Larawan na nagpapakita ng diagram na nagmamapa ng isang karakter sa ASCII at binary na representasyon" src="../../../../../translated_images/tl/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Pinagmulan ng Larawan](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Sa ilang mga kaso, maaari rin nating isaalang-alang ang paggamit ng tri-grams --
 
 Kapag nilulutas ang mga gawain tulad ng pag-uuri ng teksto, kailangan nating maipakita ang teksto sa pamamagitan ng isang fixed-size na vector, na gagamitin natin bilang input sa panghuling dense classifier. Isa sa mga pinakasimpleng paraan upang gawin ito ay pagsamahin ang lahat ng indibidwal na representasyon ng salita, halimbawa sa pamamagitan ng pagdaragdag ng mga ito. Kung idaragdag natin ang one-hot encodings ng bawat salita, magkakaroon tayo ng vector ng mga frequency, na nagpapakita kung ilang beses lumitaw ang bawat salita sa loob ng teksto. Ang ganitong representasyon ng teksto ay tinatawag na **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/tl/bow.3811869cff59368d.webp" width="90%"/>
 
 > Larawan mula sa may-akda
 

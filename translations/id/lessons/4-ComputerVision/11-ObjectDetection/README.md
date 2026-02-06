@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T10:39:28+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "id"
-}
--->
 # Deteksi Objek
 
 Model klasifikasi gambar yang telah kita bahas sejauh ini mengambil gambar dan menghasilkan hasil kategoris, seperti kelas 'angka' dalam masalah MNIST. Namun, dalam banyak kasus, kita tidak hanya ingin mengetahui bahwa sebuah gambar menggambarkan objek - kita ingin menentukan lokasi mereka secara tepat. Inilah tujuan dari **deteksi objek**.

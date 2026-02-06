@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T09:17:24+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "sv"
-}
--->
 # Introduktion till datorseende
 
 [Computer Vision](https://wikipedia.org/wiki/Computer_vision) är ett område som syftar till att ge datorer en hög nivå av förståelse för digitala bilder. Detta är en ganska bred definition, eftersom *förståelse* kan innebära många olika saker, inklusive att hitta ett objekt på en bild (**objektdetektion**), förstå vad som händer (**händelsedetektion**), beskriva en bild i text eller rekonstruera en scen i 3D. Det finns också specifika uppgifter relaterade till bilder av människor: ålders- och känsloestimering, ansiktsdetektion och identifiering, samt 3D-positionsestimering, för att nämna några.
@@ -115,7 +106,7 @@ Läs mer om optiskt flöde [i denna utmärkta handledning](https://learnopencv.c
 
 I detta labb kommer du att ta en video med enkla gester, och ditt mål är att extrahera upp/ner/vänster/höger rörelser med hjälp av optiskt flöde.
 
-<img src="images/palm-movement.png" width="30%" alt="Palm Movement Frame"/>
+<img src="../../../../../translated_images/sv/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Palm Movement Frame"/>
 
 ---
 

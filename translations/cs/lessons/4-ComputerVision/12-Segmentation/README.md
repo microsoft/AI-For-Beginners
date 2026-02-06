@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T11:24:47+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "cs"
-}
--->
 # Segmentace
 
 Dříve jsme se naučili o detekci objektů, která nám umožňuje lokalizovat objekty na obrázku předpovědí jejich *ohraničujících rámečků*. Nicméně, pro některé úkoly nepotřebujeme pouze ohraničující rámečky, ale také přesnější lokalizaci objektů. Tento úkol se nazývá **segmentace**.
@@ -20,7 +11,7 @@ Segmentaci lze chápat jako **klasifikaci pixelů**, kdy pro **každý** pixel o
 
 Například u instance segmentace jsou tyto ovce různé objekty, ale u semantické segmentace jsou všechny ovce reprezentovány jednou třídou.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/cs/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Obrázek z [tohoto blogového příspěvku](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Existují různé neuronové architektury pro segmentaci, ale všechny mají ste
 * **Encoder** extrahuje vlastnosti z vstupního obrázku.
 * **Decoder** transformuje tyto vlastnosti do **obrázku masky**, který má stejnou velikost a počet kanálů odpovídající počtu tříd.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/cs/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Obrázek z [této publikace](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ V této lekci uvidíme segmentaci v praxi tím, že budeme trénovat síť na ro
 
 > ✅ Tato technika je obzvláště vhodná pro tento typ lékařského zobrazování, ale jaké další aplikace v reálném světě si dokážete představit?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/cs/navi.2f20b727910110ea.webp"/>
 
 > Obrázek z PH<sup>2</sup> databáze
 

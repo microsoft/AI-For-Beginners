@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T08:35:38+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "it"
-}
--->
 # Riconoscimento delle Entità Nominate
 
 Fino ad ora ci siamo concentrati principalmente su un compito di NLP - la classificazione. Tuttavia, ci sono anche altri compiti di NLP che possono essere affrontati con reti neurali. Uno di questi è il **[Riconoscimento delle Entità Nominate](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), che si occupa di riconoscere entità specifiche all'interno di un testo, come luoghi, nomi di persone, intervalli di date e orari, formule chimiche e così via.
@@ -17,7 +8,7 @@ Fino ad ora ci siamo concentrati principalmente su un compito di NLP - la classi
 
 Supponiamo che tu voglia sviluppare un chatbot di linguaggio naturale, simile ad Amazon Alexa o Google Assistant. Il modo in cui funzionano i chatbot intelligenti è *comprendere* ciò che l'utente desidera facendo una classificazione del testo sulla frase di input. Il risultato di questa classificazione è il cosiddetto **intent**, che determina cosa dovrebbe fare il chatbot.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/it/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Immagine dell'autore
 

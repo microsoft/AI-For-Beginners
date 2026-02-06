@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7b4e5b8956915870d0a0ed3cc5890042",
-  "translation_date": "2025-12-12T19:26:56+00:00",
-  "source_file": "lessons/0-course-setup/setup.md",
-  "language_code": "ko"
-}
--->
 # 이 커리큘럼 시작하기
 
 ## 학생이신가요?

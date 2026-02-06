@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T09:16:25+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "sv"
-}
--->
 # Konvolutionella neurala nätverk
 
 Vi har tidigare sett att neurala nätverk är ganska bra på att hantera bilder, och till och med en enkel lager-perceptron kan känna igen handskrivna siffror från MNIST-datasetet med rimlig noggrannhet. Men MNIST-datasetet är väldigt speciellt, eftersom alla siffror är centrerade i bilden, vilket gör uppgiften enklare.
@@ -24,7 +15,7 @@ För att extrahera mönster kommer vi att använda begreppet **konvolutionella f
 
 Till exempel, om vi applicerar 3x3 vertikala och horisontella kantfilter på MNIST-siffrorna, kan vi få framhöjningar (t.ex. höga värden) där det finns vertikala och horisontella kanter i vår ursprungliga bild. Således kan dessa två filter användas för att "leta efter" kanter. På samma sätt kan vi designa olika filter för att leta efter andra låg-nivå mönster:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/sv/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Bild av [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T10:47:45+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "ms"
-}
--->
 # Pembelajaran Pengukuhan Mendalam
 
 Pembelajaran pengukuhan (RL) dianggap sebagai salah satu paradigma asas pembelajaran mesin, selain pembelajaran diselia dan pembelajaran tanpa penyeliaan. Dalam pembelajaran diselia, kita bergantung pada dataset dengan hasil yang diketahui, manakala RL berasaskan **belajar melalui pengalaman**. Sebagai contoh, apabila kita pertama kali melihat permainan komputer, kita mula bermain walaupun tanpa mengetahui peraturannya, dan tidak lama kemudian kita dapat meningkatkan kemahiran kita hanya melalui proses bermain dan menyesuaikan tingkah laku kita.
@@ -34,7 +25,7 @@ Anda mungkin pernah melihat alat keseimbangan moden seperti *Segway* atau *Gyros
 
 Versi ringkas keseimbangan dikenali sebagai masalah **CartPole**. Dalam dunia cartpole, kita mempunyai slider mendatar yang boleh bergerak ke kiri atau kanan, dan matlamatnya adalah untuk menyeimbangkan tiang menegak di atas slider semasa ia bergerak.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/ms/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Untuk mencipta dan menggunakan persekitaran ini, kita memerlukan beberapa baris kod Python:
 

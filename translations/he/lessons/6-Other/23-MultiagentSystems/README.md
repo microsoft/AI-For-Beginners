@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T10:15:28+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "he"
-}
--->
 # מערכות רב-סוכנים
 
 אחת הדרכים האפשריות להשגת אינטליגנציה היא הגישה המכונה **מתהווה** (או **סינרגטית**), המבוססת על העובדה שהתנהגות משולבת של סוכנים פשוטים יחסית יכולה להוביל להתנהגות מורכבת יותר (או אינטליגנטית) של המערכת כולה. באופן תיאורטי, הדבר מבוסס על עקרונות של [אינטליגנציה קולקטיבית](https://en.wikipedia.org/wiki/Collective_intelligence), [מתהוות](https://en.wikipedia.org/wiki/Global_brain) ו[סייברנטיקה אבולוציונית](https://en.wikipedia.org/wiki/Global_brain), אשר טוענים שמערכות ברמה גבוהה יותר מקבלות ערך מוסף כאשר הן משולבות בצורה נכונה ממערכות ברמה נמוכה יותר (מה שמכונה *עקרון המעבר למטאסיסטם*).
@@ -60,7 +51,7 @@ ask turtles [
 
 אחד הדברים הנהדרים ב-NetLogo הוא שהיא מכילה ספריית מודלים פעילים שניתן לנסות. גשו ל-**File &rightarrow; Models Library**, ותמצאו קטגוריות רבות של מודלים לבחירה.
 
-<img alt="ספריית מודלים של NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="ספריית מודלים של NetLogo" src="../../../../../translated_images/he/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > צילום מסך של ספריית המודלים מאת דמיטרי סושניקוב
 

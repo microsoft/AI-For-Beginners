@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-08-24T10:22:44+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "fa"
-}
--->
 # تشخیص موجودیت‌های نام‌گذاری‌شده (NER)
 
 تمرین آزمایشگاهی از [برنامه درسی هوش مصنوعی برای مبتدیان](https://github.com/microsoft/ai-for-beginners).

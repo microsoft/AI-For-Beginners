@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
-  "translation_date": "2025-10-11T11:40:21+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/README.md",
-  "language_code": "et"
-}
--->
 # Sisestused
 
 ## [Eelloengu viktoriin](https://ff-quizzes.netlify.app/en/ai/quiz/27)

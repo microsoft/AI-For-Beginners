@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T06:59:53+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "tl"
-}
--->
 # Pagmomodelo ng Wika
 
 Ang mga semantic embeddings, tulad ng Word2Vec at GloVe, ay isang unang hakbang patungo sa **pagmomodelo ng wika** - ang paggawa ng mga modelo na sa isang paraan ay *nakakaintindi* (o *nagre-representa*) sa kalikasan ng wika.

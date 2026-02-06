@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T11:06:01+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "sw"
-}
--->
 # Mbinu za Uangalizi na Transformers
 
 ## [Jaribio la awali ya somo](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Wazo la usimbaji wa nafasi ni kama ifuatavyo.
 * Embedding inayoweza kufundishwa, sawa na embedding ya tokeni. Hii ndiyo mbinu tunayoangalia hapa. Tunatumia safu za embedding juu ya tokeni na nafasi zao, na kusababisha vector za embedding za vipimo sawa, ambazo tunaziongeza pamoja.  
 * Kazi ya usimbaji wa nafasi isiyobadilika, kama ilivyopendekezwa katika karatasi ya awali.  
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/sw/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Picha na mwandishi
 

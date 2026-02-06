@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T07:25:52+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "et"
-}
--->
 # Teadmus Representatsioon ja Ekspertsüsteemid
 
-![Sümboolse tehisintellekti sisu kokkuvõte](../../../../../../translated_images/et/ai-symbolic.715a30cb610411a6.webp)
+![Sümboolse tehisintellekti sisu kokkuvõte](../../../../translated_images/et/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote autor [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Tihti ei defineerita teadmust täpselt, vaid kooskõlastatakse see teiste seotud
 
 Seega seisneb **teadmiste representatsiooni** probleem selles, et leida mõni tõhus viis teadmiste esindamiseks arvutis andmete kujul, et neid saaks automaatselt kasutada. Seda võib vaadelda spektrina:
 
-![Teadmiste representatsiooni spekter](../../../../../../translated_images/et/knowledge-spectrum.b60df631852c0217.webp)
+![Teadmiste representatsiooni spekter](../../../../translated_images/et/knowledge-spectrum.b60df631852c0217.webp)
 
 > Pilt autor Dmitry Soshnikov [http://soshnikov.com](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Ploki Süntaks | Taandumine | | |
 
 Üks sümboolse tehisintellekti varajasi edusamme olid nn **ekspertsüsteemid** — arvutisüsteemid, mis olid loodud käituma nagu ekspert kitsas probleemivaldkonnas. Need põhinesid **teadmistebaasil**, mis oli kogutud ühelt või mitmelt inimeselt, ja sisaldasid **järeldusmootorit**, mis teostas järeldamist selle põhjal.
 
-![Inimese arhitektuur](../../../../../../translated_images/et/arch-human.5d4d35f1bba3ab1c.webp) | ![Teadmistepõhise süsteemi arhitektuur](../../../../../../translated_images/et/arch-kbs.3ec5c150b09fa8da.webp)
+![Inimese arhitektuur](../../../../translated_images/et/arch-human.5d4d35f1bba3ab1c.webp) | ![Teadmistepõhise süsteemi arhitektuur](../../../../translated_images/et/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Inimese närvisüsteemi lihtsustatud struktuur | Teadmistepõhise süsteemi arhitektuur
 
@@ -106,7 +97,7 @@ Ekspertsüsteemid on üles ehitatud inimese mõtlemise süsteemile sarnaselt, mi
 
 Näiteks oluline ekspert­süsteemi näide on looma määramine füüsiliste omaduste põhjal:
 
-![JA-VÕI puu](../../../../../../translated_images/et/AND-OR-Tree.5592d2c70187f283.webp)
+![JA-VÕI puu](../../../../translated_images/et/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Pilt autor Dmitry Soshnikov [http://soshnikov.com](http://soshnikov.com)
 

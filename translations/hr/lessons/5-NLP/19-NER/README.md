@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T14:59:00+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "hr"
-}
--->
 # Prepoznavanje imenovanih entiteta
 
 Do sada smo se uglavnom fokusirali na jedan NLP zadatak - klasifikaciju. Međutim, postoje i drugi NLP zadaci koji se mogu ostvariti pomoću neuronskih mreža. Jedan od tih zadataka je **[Prepoznavanje imenovanih entiteta](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), koji se bavi prepoznavanjem specifičnih entiteta unutar teksta, poput mjesta, imena osoba, vremenskih intervala, kemijskih formula i slično.
@@ -17,7 +8,7 @@ Do sada smo se uglavnom fokusirali na jedan NLP zadatak - klasifikaciju. Međuti
 
 Pretpostavimo da želite razviti chatbot za prirodni jezik, sličan Amazon Alexi ili Google Asistentu. Inteligentni chatboti funkcioniraju tako da *razumiju* što korisnik želi, koristeći klasifikaciju teksta na ulaznoj rečenici. Rezultat te klasifikacije je takozvani **intencija**, koja određuje što chatbot treba učiniti.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/hr/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Slika autora
 

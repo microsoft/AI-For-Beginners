@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T15:04:17+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "sl"
-}
--->
 # Avtoenkoderji
 
 Pri treniranju CNN-jev je ena od težav, da potrebujemo veliko označenih podatkov. Pri klasifikaciji slik moramo slike razvrstiti v različne razrede, kar zahteva ročno delo.
@@ -46,7 +37,7 @@ Povzetek:
  * Vzamemo vzorec `sample` iz porazdelitve N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
  * Dekodirnik poskuša dekodirati izvirno sliko z uporabo `sample` kot vhodnega vektorja
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/sl/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Slika iz [tega bloga](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) avtorja Isaaka Dykemana
 
@@ -57,13 +48,13 @@ Variacijski avtoenkoderji uporabljajo kompleksno funkcijo izgube, ki je sestavlj
 
 Ena pomembna prednost VAE-jev je, da omogočajo relativno enostavno generiranje novih slik, ker vemo, iz katere porazdelitve vzeti latentne vektorje. Na primer, če treniramo VAE z 2D latentnim vektorjem na MNIST, lahko nato spreminjamo komponente latentnega vektorja, da dobimo različne številke:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/sl/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 
 Opazite, kako se slike prelivajo ena v drugo, ko začnemo pridobivati latentne vektorje iz različnih delov latentnega prostora parametrov. Ta prostor lahko vizualiziramo tudi v 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/sl/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Slika avtorja [Dmitry Soshnikov](http://soshnikov.com)
 

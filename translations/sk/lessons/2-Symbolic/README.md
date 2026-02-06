@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T04:59:14+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "sk"
-}
--->
 # Reprezentácia znalostí a expertné systémy
 
-![Zhrnutie obsahu symbolickej AI](../../../../../../translated_images/sk/ai-symbolic.715a30cb610411a6.webp)
+![Zhrnutie obsahu symbolickej AI](../../../../translated_images/sk/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote od [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Najčastejšie neformálne definujeme znalosť, ale zladíme ju s inými súvisi
 
 Problém **reprezentácie znalostí** je teda nájsť efektívny spôsob, ako reprezentovať znalosti vo vnútri počítača vo forme dát, aby boli automaticky použiteľné. Dá sa to vidieť ako spektrum:
 
-![Spektrum reprezentácie znalostí](../../../../../../translated_images/sk/knowledge-spectrum.b60df631852c0217.webp)
+![Spektrum reprezentácie znalostí](../../../../translated_images/sk/knowledge-spectrum.b60df631852c0217.webp)
 
 > Obrázok od [Dmitryho Soshnikova](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Syntax bloku | Odsadenie | | |
 
 Jedným z prvých úspechov symbolickej AI boli takzvané **expertné systémy** – počítačové systémy navrhnuté tak, aby sa správali ako expert v obmedzenej problémovej oblasti. Boli založené na **znalostnej báze** extrahovanej od jedného alebo viacerých ľudských expertov a obsahovali **odvodzovací modul** vykonávajúci uvažovanie na jej základe.
 
-![Ľudská architektúra](../../../../../../translated_images/sk/arch-human.5d4d35f1bba3ab1c.webp) | ![Systém založený na znalostiach](../../../../../../translated_images/sk/arch-kbs.3ec5c150b09fa8da.webp)
+![Ľudská architektúra](../../../../translated_images/sk/arch-human.5d4d35f1bba3ab1c.webp) | ![Systém založený na znalostiach](../../../../translated_images/sk/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Zjednodušená štruktúra ľudského neurónového systému | Architektúra systému založeného na znalostiach
 
@@ -106,7 +97,7 @@ Expertné systémy sú postavené podobne ako ľudský uvažovací systém, ktor
 
 Ako príklad si vezmime expertný systém určujúci zviera na základe jeho fyzických vlastností:
 
-![AND-OR strom](../../../../../../translated_images/sk/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR strom](../../../../translated_images/sk/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Obrázok od [Dmitryho Soshnikova](http://soshnikov.com)
 

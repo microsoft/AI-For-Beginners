@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:35:15+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "my"
-}
--->
 # AI စတင်လေ့လာသူများအတွက် နမူနာများ
 
 ကြိုဆိုပါတယ်! ဒီ directory မှာ AI နဲ့ machine learning ကို စတင်လေ့လာဖို့အတွက် လွယ်ကူပြီး တစ်ခုချင်းစီ standalone နမူနာများ ပါဝင်ပါတယ်။ နမူနာတစ်ခုချင်းစီကို စတင်လေ့လာသူများအတွက် သက်သာစေဖို့ အကြောင်းအရာများကို အသေးစိတ် ရှင်းပြထားပြီး အဆင့်ဆင့် လမ်းညွှန်ချက်များ ပါဝင်ပါတယ်။

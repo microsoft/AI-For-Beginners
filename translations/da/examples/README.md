@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:31:26+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "da"
-}
--->
 # Begynder-venlige AI-eksempler
 
 Velkommen! Denne mappe indeholder enkle, selvstændige eksempler, der hjælper dig med at komme i gang med AI og maskinlæring. Hvert eksempel er designet til at være begyndervenligt med detaljerede kommentarer og trin-for-trin forklaringer.

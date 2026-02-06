@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T10:42:15+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "fr"
-}
--->
 # Comment exécuter le code
 
 Ce programme contient beaucoup d’exemples exécutables et de travaux pratiques que vous voudrez exécuter. Pour ce faire, vous avez besoin de pouvoir exécuter du code Python dans les notebooks Jupyter fournis dans le cadre de ce programme. Vous disposez de plusieurs options pour exécuter le code :

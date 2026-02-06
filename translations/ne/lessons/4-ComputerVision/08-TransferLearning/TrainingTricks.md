@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-26T09:49:36+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "ne"
-}
--->
 # डीप लर्निङ प्रशिक्षणका तरिकाहरू
 
 जति जति न्यूरल नेटवर्कहरू गहिरो हुँदै जान्छन्, तिनीहरूको प्रशिक्षण प्रक्रिया झन् चुनौतीपूर्ण बन्दै जान्छ। एउटा मुख्य समस्या भनेको [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) वा [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.) हो। [यो पोस्ट](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) ले यी समस्याहरूको राम्रो परिचय दिन्छ।

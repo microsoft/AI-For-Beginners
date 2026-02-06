@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-28T19:17:08+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "he"
-}
--->
 # משימת NetLogo
 
 קחו אחד מהמודלים בספריית NetLogo והשתמשו בו כדי לדמות מצב מציאותי בצורה הקרובה ביותר. דוגמה טובה תהיה לשנות את מודל הווירוס בתיקיית Alternative Visualizations כדי להראות כיצד ניתן להשתמש בו לדמות את התפשטות COVID-19. האם תוכלו לבנות מודל שמחקה התפשטות ויראלית במציאות?

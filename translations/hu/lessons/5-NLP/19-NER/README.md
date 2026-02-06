@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T11:18:54+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "hu"
-}
--->
 # Névelem Felismerés
 
 Eddig főként egy NLP feladatra, a klasszifikációra koncentráltunk. Azonban vannak más NLP feladatok is, amelyeket neurális hálózatokkal meg lehet oldani. Az egyik ilyen feladat a **[Névelem Felismerés](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), amely azzal foglalkozik, hogy azonosítsa a szövegben található konkrét entitásokat, például helyeket, személyneveket, dátum-idő intervallumokat, kémiai képleteket és így tovább.
@@ -17,7 +8,7 @@ Eddig főként egy NLP feladatra, a klasszifikációra koncentráltunk. Azonban 
 
 Tegyük fel, hogy egy természetes nyelvi chatbotot szeretnél fejleszteni, hasonlóan az Amazon Alexa vagy a Google Assistant megoldásaihoz. Az intelligens chatbotok úgy működnek, hogy *megértik*, mit szeretne a felhasználó, azáltal hogy szövegklasszifikációt végeznek a bemeneti mondaton. Ennek a klasszifikációnak az eredménye az úgynevezett **intenció**, amely meghatározza, mit kell tennie a chatbotnak.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/hu/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Kép a szerzőtől
 

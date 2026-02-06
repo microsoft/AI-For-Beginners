@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-  "translation_date": "2025-11-18T18:35:10+00:00",
-  "source_file": "lessons/5-NLP/README.md",
-  "language_code": "pcm"
-}
--->
 # Natural Language Processing
 
 ![Summary of NLP tasks in a doodle](../../../../translated_images/pcm/ai-nlp.b22dcb8ca4707cea.webp)

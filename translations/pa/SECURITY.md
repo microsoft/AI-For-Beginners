@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a583f49d359c7ebba61433e4dfcd05a9",
-  "translation_date": "2025-08-26T07:56:30+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "pa"
-}
--->
 ## ਸੁਰੱਖਿਆ
 
 ਮਾਈਕਰੋਸਾਫਟ ਆਪਣੇ ਸੌਫਟਵੇਅਰ ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਦੀ ਸੁਰੱਖਿਆ ਨੂੰ ਗੰਭੀਰਤਾ ਨਾਲ ਲੈਂਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ ਸਾਡੇ GitHub ਸੰਸਥਾਵਾਂ ਰਾਹੀਂ ਪ੍ਰਬੰਧਿਤ ਸਾਰੇ ਸਰੋਤ ਕੋਡ ਰਿਪੋਜ਼ਿਟਰੀ ਸ਼ਾਮਲ ਹਨ, ਜਿਵੇਂ ਕਿ [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), ਅਤੇ [ਸਾਡੀਆਂ GitHub ਸੰਸਥਾਵਾਂ](https://opensource.microsoft.com/)।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T13:16:50+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "ko"
-}
--->
 # 다중 에이전트 시스템
 
 지능을 구현하는 한 가지 방법은 **발현적**(또는 **시너지적**) 접근법으로, 이는 비교적 간단한 여러 에이전트의 결합된 행동이 시스템 전체적으로 더 복잡하거나 지능적인 행동을 만들어낼 수 있다는 사실에 기반합니다. 이론적으로 이는 [집단 지능](https://en.wikipedia.org/wiki/Collective_intelligence), [발현주의](https://en.wikipedia.org/wiki/Global_brain), [진화적 사이버네틱스](https://en.wikipedia.org/wiki/Global_brain)의 원칙에 기반하며, 상위 시스템이 하위 시스템을 적절히 결합했을 때 추가적인 가치를 얻는다는 (*메타시스템 전환 원칙*)을 주장합니다.
@@ -60,7 +51,7 @@ NetLogo를 [다운로드](https://ccl.northwestern.edu/netlogo/download.shtml)�
 
 NetLogo의 훌륭한 점은 작동하는 모델 라이브러리를 포함하고 있다는 것입니다. **File &rightarrow; Models Library**로 이동하면 다양한 모델 카테고리를 선택할 수 있습니다.
 
-<img alt="NetLogo 모델 라이브러리" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo 모델 라이브러리" src="../../../../../translated_images/ko/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Dmitry Soshnikov의 모델 라이브러리 스크린샷
 

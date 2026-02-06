@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-28T02:44:58+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "tl"
-}
--->
 # Asaynment: Mga Notebook
 
 Gamitin ang mga notebook na kaugnay ng araling ito (maaaring ang bersyon ng PyTorch o TensorFlow), at patakbuhin muli ang mga ito gamit ang sarili mong dataset, marahil mula sa Kaggle, na ginamit nang may tamang pagkilala. Isulat muli ang notebook upang maipakita ang sarili mong mga natuklasan. Subukan ang ibang uri ng dataset at idokumento ang iyong mga natuklasan, gamit ang teksto tulad ng [mga liriko ng Beatles na ito](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T15:47:13+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "lt"
-}
--->
 # Įvadas į neuroninius tinklus. Daugiasluoksnis perceptronas
 
 Ankstesniame skyriuje sužinojote apie paprasčiausią neuroninio tinklo modelį – vienasluoksnį perceptroną, kuris yra linijinis dviejų klasių klasifikavimo modelis.
@@ -65,7 +56,7 @@ Gradientinio nusileidimo algoritmas išliktų toks pat, tačiau gradientų skai�
 
 Atkreipkite dėmesį, kad kairiausia visų šių išraiškų dalis yra ta pati, todėl efektyviai galime apskaičiuoti išvestines, pradedant nuo nuostolių funkcijos ir einant "atgal" per skaičiavimo grafiką. Todėl daugiasluoksnio perceptrono mokymo metodas vadinamas **atgaliniu sklidimu** arba 'backprop'.
 
-<img alt="skaičiavimo grafikas" src="images/ComputeGraphGrad.png"/>
+<img alt="skaičiavimo grafikas" src="../../../../../translated_images/lt/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: paveikslėlio citata
 

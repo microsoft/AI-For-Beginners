@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ad568d55ae65c856fe929fc2b278510a",
-  "translation_date": "2025-08-24T09:17:32+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/lab/README.md",
-  "language_code": "es"
-}
--->
 # Detección de Cabezas usando el Conjunto de Datos Hollywood Heads
 
 Asignación de laboratorio del [Currículo de IA para Principiantes](https://github.com/microsoft/ai-for-beginners).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T07:16:47+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "it"
-}
--->
 # Quiz
 
 Questi quiz sono i quiz pre- e post-lezione per il curriculum di AI disponibile su https://aka.ms/ai-beginners

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:46:36+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "hu"
-}
--->
 # Hogyan futtassuk a kódot
 
 Ez a tananyag rengeteg futtatható példát és laborokat tartalmaz, amelyeket érdemes lefuttatni. Ehhez szükség van arra, hogy Python kódot tudj végrehajtani a jupyter notebookokban, amelyek a tananyag részeként elérhetőek. Több lehetőséged is van a kód futtatására:

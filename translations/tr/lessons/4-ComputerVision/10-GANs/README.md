@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T08:41:09+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "tr"
-}
--->
 # Üretici Çekişmeli Ağlar
 
 Önceki bölümde **üretici modelleri** öğrendik: eğitim veri setindeki görüntülere benzer yeni görüntüler üretebilen modeller. VAE, üretici model için iyi bir örnekti.
@@ -17,7 +8,7 @@ Ancak, VAE ile makul bir çözünürlükte anlamlı bir şey, örneğin bir tabl
 
 GAN'ın temel fikri, birbirine karşı eğitilecek iki sinir ağına sahip olmaktır:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/tr/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Bir CNN ayırt edici şu katmanlardan oluşur: birkaç konvolüsyon+havuzlama (a
 
 > ✅ Konvolüsyon katmanı bir görüntü üzerinde doğrusal bir filtre olarak uygulandığından, dekonvolüsyon temelde konvolüsyona benzer ve aynı katman mantığı kullanılarak uygulanabilir.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/tr/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Görsel: [Dmitry Soshnikov](http://soshnikov.com)
 

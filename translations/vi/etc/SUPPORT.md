@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-29T12:50:42+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "vi"
-}
--->
 # Hỗ trợ
 
 ## Cách báo cáo vấn đề và nhận trợ giúp  

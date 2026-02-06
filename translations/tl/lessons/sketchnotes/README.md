@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-28T02:39:18+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "tl"
-}
--->
 Ang lahat ng sketchnotes ng kurikulum ay maaaring ma-download dito.
 
 🎨 Ginawa ni: Tomomi Imura (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T06:30:40+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "ar"
-}
--->
 # الأنظمة متعددة الوكلاء
 
 إحدى الطرق الممكنة لتحقيق الذكاء هي النهج المعروف بـ **الظهور** (أو **التآزر**)، والذي يعتمد على حقيقة أن السلوك المشترك للعديد من الوكلاء البسيطين نسبيًا يمكن أن يؤدي إلى سلوك أكثر تعقيدًا (أو ذكاءً) للنظام ككل. نظريًا، يعتمد هذا على مبادئ [الذكاء الجماعي](https://en.wikipedia.org/wiki/Collective_intelligence)، [الظهورية](https://en.wikipedia.org/wiki/Global_brain)، و[السيبرنتيك التطوري](https://en.wikipedia.org/wiki/Global_brain)، التي تنص على أن الأنظمة ذات المستوى الأعلى تكتسب نوعًا من القيمة المضافة عند دمجها بشكل صحيح من أنظمة ذات مستوى أدنى (ما يسمى *مبدأ الانتقال بين الأنظمة*).
@@ -60,7 +51,7 @@ ask turtles [
 
 الشيء الرائع في NetLogo هو أنه يحتوي على مكتبة من النماذج الجاهزة التي يمكنك تجربتها. انتقل إلى **File &rightarrow; Models Library**، وستجد العديد من الفئات للاختيار من بينها.
 
-<img alt="مكتبة نماذج NetLogo" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="مكتبة نماذج NetLogo" src="../../../../../translated_images/ar/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > لقطة شاشة لمكتبة النماذج بواسطة Dmitry Soshnikov
 

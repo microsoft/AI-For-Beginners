@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T06:48:00+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ur"
-}
--->
 # جنریٹو نیٹ ورکس
 
 ## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 جب متن تخلیق کرتے ہیں (انفرنس کے دوران)، ہم کچھ **پرومپٹ** کے ساتھ شروع کرتے ہیں، جسے RNN سیلز کے ذریعے اس کی درمیانی حالت پیدا کرنے کے لیے پاس کیا جاتا ہے، اور پھر اس حالت سے تخلیق شروع ہوتی ہے۔ ہم ایک وقت میں ایک کریکٹر تخلیق کرتے ہیں، اور حالت اور تخلیق شدہ کریکٹر کو اگلے کریکٹر تخلیق کرنے کے لیے دوسرے RNN سیل کو پاس کرتے ہیں، جب تک کہ ہم کافی کریکٹرز تخلیق نہ کر لیں۔
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ur/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > تصویر مصنف کی جانب سے
 

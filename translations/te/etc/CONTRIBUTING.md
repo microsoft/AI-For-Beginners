@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-11-25T20:23:00+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "te"
-}
--->
 # సహకారం
 
 ఈ ప్రాజెక్ట్ సహకారాలు మరియు సూచనలను స్వాగతిస్తుంది. ఎక్కువ భాగం సహకారాలకు మీరు ఒక Contributor License Agreement (CLA) కు అంగీకరించాలి, ఇది మీరు మీ సహకారాన్ని ఉపయోగించుకునే హక్కులు కలిగి ఉన్నారని మరియు వాస్తవంగా వాటిని మాకు ఇస్తున్నారని ప్రకటిస్తుంది. వివరాలకు, https://cla.microsoft.com ను సందర్శించండి.

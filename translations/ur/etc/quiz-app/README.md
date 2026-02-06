@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T11:24:50+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "ur"
-}
--->
 # کوئزز
 
 یہ کوئزز AI نصاب کے لیے لیکچر سے پہلے اور بعد کے کوئزز ہیں، جو یہاں دستیاب ہیں: https://aka.ms/ai-beginners

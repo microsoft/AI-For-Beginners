@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T10:42:47+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "id"
-}
--->
 # Pengantar Jaringan Neural. Multi-Layered Perceptron
 
 Pada bagian sebelumnya, Anda telah mempelajari model jaringan neural paling sederhana - perceptron satu lapis, sebuah model klasifikasi linear dua kelas.
@@ -65,7 +56,7 @@ Algoritma gradient descent tetap sama, tetapi akan lebih sulit untuk menghitung 
 
 Perhatikan bahwa bagian paling kiri dari semua ekspresi tersebut adalah sama, sehingga kita dapat secara efektif menghitung turunan mulai dari fungsi kerugian dan bergerak "mundur" melalui grafik komputasi. Oleh karena itu, metode pelatihan perceptron multi-lapis disebut **backpropagation**, atau 'backprop'.
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/id/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: sitasi gambar
 

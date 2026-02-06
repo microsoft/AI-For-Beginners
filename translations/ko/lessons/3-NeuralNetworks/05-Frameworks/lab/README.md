@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e452d897efb9a89700f41021834cf6e5",
-  "translation_date": "2025-08-24T21:34:50+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
-  "language_code": "ko"
-}
--->
 # PyTorch/TensorFlow를 사용한 분류
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners)에서 제공하는 실습 과제입니다.

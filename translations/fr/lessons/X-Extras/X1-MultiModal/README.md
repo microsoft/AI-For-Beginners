@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-24T20:55:01+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "fr"
-}
--->
 # Réseaux Multi-Modalités
 
 Après le succès des modèles transformateurs pour résoudre des tâches de traitement du langage naturel (NLP), les mêmes architectures ou des architectures similaires ont été appliquées aux tâches de vision par ordinateur. Il y a un intérêt croissant pour la création de modèles qui *combinent* les capacités de vision et de langage naturel. Une des tentatives dans ce domaine a été réalisée par OpenAI, et elle s'appelle CLIP et DALL.E.

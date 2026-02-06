@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T09:11:23+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "th"
-}
--->
 # เฟรมเวิร์กของโครงข่ายประสาทเทียม
 
 จากที่เราได้เรียนรู้ไปแล้ว การฝึกโครงข่ายประสาทเทียมให้มีประสิทธิภาพนั้นต้องทำสองสิ่งนี้:

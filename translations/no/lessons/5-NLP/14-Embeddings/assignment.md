@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-28T16:02:07+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "no"
-}
--->
 # Oppgave: Notatbøker
 
 Bruk notatbøkene som er knyttet til denne leksjonen (enten PyTorch- eller TensorFlow-versjonen), og kjør dem på nytt med ditt eget datasett, kanskje et fra Kaggle, brukt med kildehenvisning. Skriv om notatboken for å fremheve dine egne funn. Prøv en annen type datasett og dokumenter funnene dine, ved å bruke tekst som [disse Beatles-tekstene](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

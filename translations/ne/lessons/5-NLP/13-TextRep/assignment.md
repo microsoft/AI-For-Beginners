@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-26T08:28:51+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "ne"
-}
--->
 # असाइनमेन्ट: नोटबुकहरू
 
 यस पाठसँग सम्बन्धित नोटबुकहरू (PyTorch वा TensorFlow संस्करणमध्ये कुनै एक), आफ्नै डाटासेट प्रयोग गरेर पुन: चलाउनुहोस्, सम्भवतः Kaggle बाट लिएको, जसलाई उचित श्रेय दिनुहोस्। आफ्नो निष्कर्षहरूलाई रेखांकित गर्न नोटबुकलाई पुन: लेख्नुहोस्। केही नवीन डाटासेटहरू प्रयास गर्नुहोस् जसले आश्चर्यजनक परिणाम दिन सक्छ, जस्तै [यो यूएफओ देखिएको घटनाहरूको बारेमा](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) NUFORC बाट।

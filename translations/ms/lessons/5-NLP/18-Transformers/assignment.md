@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "177f3ea3995d725e6f9f5c66af16edcd",
-  "translation_date": "2025-08-29T11:59:17+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/assignment.md",
-  "language_code": "ms"
-}
--->
 # Tugasan: Transformers
 
 Cuba bereksperimen dengan Transformers di HuggingFace! Cuba beberapa skrip yang mereka sediakan untuk bekerja dengan pelbagai model yang terdapat di laman mereka: https://huggingface.co/docs/transformers/run_scripts. Cuba salah satu set data mereka, kemudian import salah satu set data anda sendiri daripada kurikulum ini atau daripada Kaggle dan lihat jika anda boleh menghasilkan teks yang menarik. Hasilkan sebuah notebook dengan penemuan anda.

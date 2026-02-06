@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-11-25T20:31:21+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "ml"
-}
--->
 # പാഠങ്ങൾ വിവർത്തനം ചെയ്ത് സംഭാവന ചെയ്യുക
 
 ഈ പാഠ്യപദ്ധതിയിലെ പാഠങ്ങൾക്കായി വിവർത്തനങ്ങൾ സ്വാഗതം ചെയ്യുന്നു!

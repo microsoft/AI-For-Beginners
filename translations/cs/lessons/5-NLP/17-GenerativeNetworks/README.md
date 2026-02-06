@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T11:28:53+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "cs"
-}
--->
 # Generativní sítě
 
 ## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Tuto RNN budeme trénovat na generování textu krok za krokem. Na každém krok
 
 Při generování textu (během inference) začínáme s nějakým **podnětem**, který je předán přes RNN buňky pro vytvoření mezistavu, a poté začíná samotné generování. Generujeme jeden znak po druhém a předáváme stav a vygenerovaný znak další RNN buňce, aby vygenerovala další znak, dokud nevygenerujeme dostatek znaků.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/cs/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Obrázek od autora
 

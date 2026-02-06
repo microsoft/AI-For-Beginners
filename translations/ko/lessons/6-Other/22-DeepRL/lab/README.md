@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T21:33:23+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "ko"
-}
--->
 ## 환경
 
 Mountain Car 환경은 자동차가 계곡 안에 갇혀 있는 상황으로 구성됩니다. 목표는 계곡을 뛰어넘어 깃발에 도달하는 것입니다. 수행할 수 있는 행동은 왼쪽으로 가속, 오른쪽으로 가속, 또는 아무것도 하지 않는 것입니다. 자동차의 x축 위치와 속도를 관찰할 수 있습니다.

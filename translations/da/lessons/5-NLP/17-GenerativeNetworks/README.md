@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T09:34:27+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "da"
-}
--->
 # Generative netværk
 
 ## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Vi vil træne denne RNN til at generere tekst trin for trin. Ved hvert trin tage
 
 Når vi genererer tekst (under inferens), starter vi med en **prompt**, som sendes gennem RNN-celler for at generere dens mellemliggende tilstand, og derefter starter genereringen fra denne tilstand. Vi genererer ét tegn ad gangen og sender tilstanden og det genererede tegn til en anden RNN-celle for at generere det næste, indtil vi har genereret nok tegn.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/da/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Billede af forfatteren
 

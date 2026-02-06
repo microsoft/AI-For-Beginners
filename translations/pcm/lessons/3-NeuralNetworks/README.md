@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-  "translation_date": "2025-11-18T18:26:13+00:00",
-  "source_file": "lessons/3-NeuralNetworks/README.md",
-  "language_code": "pcm"
-}
--->
 # Introduction to Neural Networks
 
 ![Summary of Intro Neural Networks content in a doodle](../../../../translated_images/pcm/ai-neuralnetworks.1c687ae40bc86e83.webp)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:34+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "sl"
-}
--->
 # Naloga NetLogo
 
 Izberite enega od modelov iz knjižnice NetLogo in ga uporabite za čim bolj natančno simulacijo resnične situacije. Dober primer bi bil prilagoditev modela Virus v mapi Alternative Visualizations, da pokažete, kako ga je mogoče uporabiti za modeliranje širjenja COVID-19. Ali lahko ustvarite model, ki posnema širjenje virusa v resničnem življenju?

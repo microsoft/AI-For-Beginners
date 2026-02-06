@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-26T11:19:23+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "ur"
-}
--->
 # تعاون
 
 یہ منصوبہ تعاون اور تجاویز کا خیرمقدم کرتا ہے۔ زیادہ تر تعاون کے لیے آپ کو ایک Contributor License Agreement (CLA) سے اتفاق کرنا ہوگا، جس میں یہ اعلان کیا جاتا ہے کہ آپ کے پاس یہ حق ہے، اور آپ ہمیں اپنے تعاون کو استعمال کرنے کے حقوق دیتے ہیں۔ تفصیلات کے لیے، https://cla.microsoft.com ملاحظہ کریں۔

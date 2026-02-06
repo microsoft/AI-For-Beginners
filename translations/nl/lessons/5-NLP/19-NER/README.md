@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T10:13:54+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "nl"
-}
--->
 # Herkenning van Naam Entities
 
 Tot nu toe hebben we ons voornamelijk gericht op één NLP-taak: classificatie. Er zijn echter ook andere NLP-taken die met neurale netwerken kunnen worden uitgevoerd. Een van die taken is **[Herkenning van Naam Entities](https://wikipedia.org/wiki/Named-entity_recognition)** (NER), waarbij specifieke entiteiten in tekst worden herkend, zoals plaatsen, persoonsnamen, datums, chemische formules, enzovoort.
@@ -17,7 +8,7 @@ Tot nu toe hebben we ons voornamelijk gericht op één NLP-taak: classificatie. 
 
 Stel dat je een natuurlijke taal-chatbot wilt ontwikkelen, vergelijkbaar met Amazon Alexa of Google Assistant. Intelligente chatbots werken door te *begrijpen* wat de gebruiker wil via tekstclassificatie op de ingevoerde zin. Het resultaat van deze classificatie is de zogenaamde **intent**, die bepaalt wat de chatbot moet doen.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/nl/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > Afbeelding door de auteur
 

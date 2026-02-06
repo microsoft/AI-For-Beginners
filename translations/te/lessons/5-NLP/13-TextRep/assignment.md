@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-11-25T22:48:15+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "te"
-}
--->
 # అసైన్‌మెంట్: నోట్‌బుక్స్
 
 ఈ పాఠానికి సంబంధించిన నోట్‌బుక్స్‌ను (PyTorch లేదా TensorFlow వెర్షన్ ఏదైనా) ఉపయోగించి, మీ స్వంత డేటాసెట్‌తో మళ్లీ రన్ చేయండి, ఉదాహరణకు Kaggle నుండి ఒకటి, సరైన మూలాన్ని సూచిస్తూ. మీ స్వంత పరిశీలనలను హైలైట్ చేయడానికి నోట్‌బుక్‌ను తిరిగి రాయండి. ఆశ్చర్యకరంగా ఉండే కొత్త డేటాసెట్లను ప్రయత్నించండి, ఉదాహరణకు NUFORC నుండి [UFO సైట్‌యింగ్స్ గురించి ఈ డేటాసెట్](https://www.kaggle.com/datasets/NUFORC/ufo-sightings).

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-26T10:11:12+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "bn"
-}
--->
 # NetLogo অ্যাসাইনমেন্ট
 
 NetLogo-এর লাইব্রেরির একটি মডেল নিন এবং এটি ব্যবহার করে একটি বাস্তব জীবনের পরিস্থিতি যতটা সম্ভব ঘনিষ্ঠভাবে অনুকরণ করুন। একটি ভালো উদাহরণ হতে পারে Alternative Visualizations ফোল্ডারের Virus মডেলটি পরিবর্তন করা, যাতে এটি COVID-19-এর বিস্তার মডেল করতে কীভাবে ব্যবহার করা যেতে পারে তা দেখানো যায়। আপনি কি এমন একটি মডেল তৈরি করতে পারেন যা বাস্তব জীবনের ভাইরাসের বিস্তার অনুকরণ করে?

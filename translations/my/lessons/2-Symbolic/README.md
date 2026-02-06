@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T06:18:19+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "my"
-}
--->
 # အသိပညာ ကိုယ်စားပြုခြင်းနှင့် ကျွမ်းကျင်သူ စနစ်များ
 
-![Summary of Symbolic AI content](../../../../../../translated_images/my/ai-symbolic.715a30cb610411a6.webp)
+![Summary of Symbolic AI content](../../../../translated_images/my/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote ကို [Tomomi Imura](https://twitter.com/girlie_mac) က ဖန်တီးထားသည်။
 
@@ -42,7 +33,7 @@ Symbolic AI တွင် အရေးကြီးသော အယူအဆတစ
 
 ထို့ကြောင့် **အသိပညာ ကိုယ်စားပြုခြင်း** ပြဿနာမှာ ကွန်ပျူတာထဲတွင် ဒေတာ ပုံစံဖြင့် အသိပညာကို ထိရောက်စွာ ကိုယ်စားပြုနိုင်ရန် နည်းလမ်းတစ်ခု ရှာဖွေခြင်း ဖြစ်သည်။ ၎င်းကို အောက်ပါအတိုင်း အမျိုးအစားများဖြင့် ဖော်ပြနိုင်သည် -
 
-![Knowledge representation spectrum](../../../../../../translated_images/my/knowledge-spectrum.b60df631852c0217.webp)
+![Knowledge representation spectrum](../../../../translated_images/my/knowledge-spectrum.b60df631852c0217.webp)
 
 > ပုံကို [Dmitry Soshnikov](http://soshnikov.com) ဖန်တီးသည်
 
@@ -95,7 +86,7 @@ Block သဘောစနစ် | Indent | | |
 
 Symbolic AI ၏ အစောပိုင်း အောင်မြင်မှုတစ်ခုမှာ **ကျွမ်းကျင်သူစနစ်များ** ဖြစ်သည် - အခြေအနေ တစ်ခုပေါ်တွင် ကျွမ်းကျင်သူတစ်ယောက်ကဲ့သို့ အလုပ်လုပ်နိုင်သော ကွန်ပျူတာစနစ်များ ဖြစ်သည်။ ၎င်းတို့သည် လူကြီးကျွမ်းကျင်သူတစ်ဦး သို့မဟုတ် ရှုပ်ထွေးမှုတစ်ခုပေါ်အခြေခံ၍ နှစ်ဆစ်စုထားခြင်းဖြစ်သော **သိမြင်မှု ဘဏ် (knowledge base)** ပါဝင်ပြီး၊ ၎င်း အပေါ်တွင် အချို့ ထုတ်ဖော်စဉ်းစားမှု လုပ်ဆောင်သော **inference engine** ပါဝင်သည်။
 
-![Human Architecture](../../../../../../translated_images/my/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../../../translated_images/my/arch-kbs.3ec5c150b09fa8da.webp)
+![Human Architecture](../../../../translated_images/my/arch-human.5d4d35f1bba3ab1c.webp) | ![Knowledge-Based System](../../../../translated_images/my/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 လူမျိုးနာရးစနစ်၏ ရိုးရှင်းသည့် ဖွဲ့စည်းမှု | အသိပညာ အခြေပြုစနစ်၏ ဖွဲ့စည်းမှု
 
@@ -107,7 +98,7 @@ Symbolic AI ၏ အစောပိုင်း အောင်မြင်မှ
 
 ဥပမာ အဖြစ်၊ တိရစ္ဆာန်ကို ထူးခြားသော ရုပ်ပိုင်းဆိုင်ရာလက္ခဏာများအရ သတ်မှတ်ရန် ဤအောက်ပါ ကျွမ်းကျင်သူစနစ်ကို တွေးကြည့်ပါ -
 
-![AND-OR Tree](../../../../../../translated_images/my/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR Tree](../../../../translated_images/my/AND-OR-Tree.5592d2c70187f283.webp)
 
 > ပုံကို [Dmitry Soshnikov](http://soshnikov.com) ဖန်တီးသည်
 

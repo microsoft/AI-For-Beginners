@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-29T12:52:33+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "vi"
-}
--->
 # Câu hỏi trắc nghiệm
 
 Các câu hỏi trắc nghiệm này là bài kiểm tra trước và sau bài giảng trong chương trình học AI tại https://aka.ms/ai-beginners

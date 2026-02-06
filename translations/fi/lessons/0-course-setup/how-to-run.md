@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T02:59:25+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "fi"
-}
--->
 # Kuinka Suorittaa Koodi
 
 Tämä opetussuunnitelma sisältää paljon suoritettavia esimerkkejä ja labroja, joita haluat todennäköisesti suorittaa. Tätä varten sinun on pystyttävä suorittamaan Python-koodia Jupyter-muistikirjoissa, jotka kuuluvat osana tätä opetussuunnitelmaa. Koodin suorittamiseen on useita vaihtoehtoja:

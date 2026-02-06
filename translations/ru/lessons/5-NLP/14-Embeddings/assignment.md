@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-26T06:36:12+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "ru"
-}
--->
 # Задание: Ноутбуки
 
 Используя ноутбуки, связанные с этим уроком (либо версию на PyTorch, либо на TensorFlow), запустите их заново, применяя ваш собственный набор данных, возможно, взятый с Kaggle, с указанием авторства. Перепишите ноутбук, чтобы подчеркнуть ваши собственные выводы. Попробуйте другой тип набора данных и задокументируйте свои наблюдения, используя текст, например, [этих текстов песен Beatles](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

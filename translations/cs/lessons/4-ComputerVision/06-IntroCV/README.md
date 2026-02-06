@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T11:23:15+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "cs"
-}
--->
 # Úvod do počítačového vidění
 
 [Počítačové vidění](https://wikipedia.org/wiki/Computer_vision) je obor, jehož cílem je umožnit počítačům získat vysokou úroveň porozumění digitálním obrazům. Toto je poměrně široká definice, protože *porozumění* může znamenat mnoho různých věcí, včetně nalezení objektu na obrázku (**detekce objektů**), pochopení, co se děje (**detekce událostí**), popisu obrázku textem nebo rekonstrukce scény ve 3D. Existují také speciální úkoly související s lidskými obrazy: odhad věku a emocí, detekce a identifikace obličeje, odhad 3D pozice a další.
@@ -115,7 +106,7 @@ Přečtěte si více o optickém toku [v tomto skvělém tutoriálu](https://lea
 
 V tomto laboratorním cvičení pořídíte video s jednoduchými gesty a vaším cílem bude extrahovat pohyby nahoru/dolů/vlevo/vpravo pomocí optického toku.
 
-<img src="images/palm-movement.png" width="30%" alt="Snímek pohybu dlaně"/>
+<img src="../../../../../translated_images/cs/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Snímek pohybu dlaně"/>
 
 ---
 

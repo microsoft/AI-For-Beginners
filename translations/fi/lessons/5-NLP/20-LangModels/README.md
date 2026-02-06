@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T10:03:49+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "fi"
-}
--->
 # Esikoulutetut Suuret Kielenmallit
 
 Kaikissa aiemmissa tehtävissämme olemme kouluttaneet neuroverkkoa suorittamaan tietyn tehtävän käyttäen merkittyä aineistoa. Suurten transformer-mallien, kuten BERT:n, kohdalla käytämme kielenmallinnusta itseohjautuvassa muodossa rakentaaksemme kielenmallin, joka sitten erikoistetaan tiettyyn jatkotehtävään lisäkoulutuksella, joka keskittyy tiettyyn alaan. On kuitenkin osoitettu, että suuret kielenmallit voivat ratkaista monia tehtäviä myös ilman mitään alakohtaista koulutusta. Malliperhe, joka pystyy tähän, tunnetaan nimellä **GPT**: Generative Pre-Trained Transformer.

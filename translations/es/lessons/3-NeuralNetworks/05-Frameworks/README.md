@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T12:12:17+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "es"
-}
--->
 # Frameworks de Redes Neuronales
 
 Como ya hemos aprendido, para entrenar redes neuronales de manera eficiente necesitamos hacer dos cosas:

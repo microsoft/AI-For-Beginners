@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-28T02:46:37+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "tl"
-}
--->
 # Mag-ambag sa pamamagitan ng pagsasalin ng mga aralin
 
 Malugod naming tinatanggap ang mga pagsasalin para sa mga aralin sa kurikulum na ito!

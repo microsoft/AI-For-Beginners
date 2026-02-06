@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T10:40:04+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "id"
-}
--->
 # Autoencoder
 
 Saat melatih CNN, salah satu masalah yang dihadapi adalah kebutuhan akan banyak data berlabel. Dalam kasus klasifikasi gambar, kita perlu memisahkan gambar ke dalam berbagai kelas, yang memerlukan upaya manual.
@@ -46,7 +37,7 @@ Ringkasnya:
 * Kita mengambil sampel vektor `sample` dari distribusi N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>))
 * Decoder mencoba mendekode gambar asli menggunakan `sample` sebagai vektor input
 
-<img src="images/vae.png" width="50%">
+<img src="../../../../../translated_images/id/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Gambar dari [blog post ini](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) oleh Isaak Dykeman
 
@@ -57,13 +48,13 @@ Variational auto-encoder menggunakan fungsi loss yang kompleks yang terdiri dari
 
 Salah satu keuntungan penting dari VAE adalah memungkinkan kita untuk menghasilkan gambar baru dengan relatif mudah, karena kita tahu distribusi mana yang harus digunakan untuk mengambil sampel vektor laten. Sebagai contoh, jika kita melatih VAE dengan vektor laten 2D pada MNIST, kita kemudian dapat memvariasikan komponen vektor laten untuk mendapatkan digit yang berbeda:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/id/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 
 Perhatikan bagaimana gambar-gambar saling menyatu, saat kita mulai mendapatkan vektor laten dari bagian yang berbeda dari ruang parameter laten. Kita juga dapat memvisualisasikan ruang ini dalam 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/id/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Gambar oleh [Dmitry Soshnikov](http://soshnikov.com)
 

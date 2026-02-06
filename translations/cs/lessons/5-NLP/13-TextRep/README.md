@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T11:31:35+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "cs"
-}
--->
 # Reprezentace textu jako tenzory
 
 ## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Naším cílem bude klasifikovat zpravodajský článek do jedné z kategorií n
 
 Pokud chceme řešit úkoly z oblasti zpracování přirozeného jazyka (NLP) pomocí neuronových sítí, potřebujeme způsob, jak reprezentovat text jako tenzory. Počítače již reprezentují textové znaky jako čísla, která mapují na fonty na obrazovce pomocí kódování, jako je ASCII nebo UTF-8.
 
-<img alt="Obrázek zobrazující diagram mapující znak na ASCII a binární reprezentaci" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Obrázek zobrazující diagram mapující znak na ASCII a binární reprezentaci" src="../../../../../translated_images/cs/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Zdroj obrázku](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ V některých případech můžeme zvážit použití tri-gramů -- kombinací t
 
 Při řešení úkolů, jako je klasifikace textu, potřebujeme být schopni reprezentovat text jedním vektorem pevné velikosti, který použijeme jako vstup pro konečný hustý klasifikátor. Jedním z nejjednodušších způsobů, jak toho dosáhnout, je kombinovat všechny jednotlivé reprezentace slov, například jejich sečtením. Pokud sečteme jednorozměrné kódování každého slova, získáme vektor frekvencí, který ukazuje, kolikrát se každé slovo v textu objevuje. Taková reprezentace textu se nazývá **bag of words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/cs/bow.3811869cff59368d.webp" width="90%"/>
 
 > Obrázek od autora
 

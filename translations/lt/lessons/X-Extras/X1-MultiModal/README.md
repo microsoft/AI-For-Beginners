@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-31T17:35:04+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "lt"
-}
--->
 # Daugiarūšiai tinklai
 
 Po transformatorių modelių sėkmės sprendžiant NLP užduotis, tos pačios arba panašios architektūros buvo pritaikytos kompiuterinio matymo užduotims. Vis labiau domimasi modelių kūrimu, kurie galėtų *sujungti* matymo ir natūralios kalbos galimybes. Vienas iš tokių bandymų buvo atliktas OpenAI, ir jis vadinamas CLIP ir DALL.E.

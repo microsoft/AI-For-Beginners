@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T08:28:11+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "it"
-}
--->
 # Reti Neurali Convoluzionali
 
 Abbiamo visto in precedenza che le reti neurali sono piuttosto efficaci nel trattare le immagini, e persino un percettrone a un solo strato è in grado di riconoscere le cifre scritte a mano del dataset MNIST con una precisione ragionevole. Tuttavia, il dataset MNIST è molto particolare: tutte le cifre sono centrate all'interno dell'immagine, il che rende il compito più semplice.
@@ -24,7 +15,7 @@ Per estrarre schemi, utilizzeremo il concetto di **filtri convoluzionali**. Come
 
 Ad esempio, se applichiamo filtri per bordi verticali e orizzontali 3x3 alle cifre del dataset MNIST, possiamo evidenziare (ad esempio, ottenere valori alti) dove ci sono bordi verticali e orizzontali nell'immagine originale. Questi due filtri possono quindi essere utilizzati per "cercare" bordi. Allo stesso modo, possiamo progettare filtri diversi per cercare altri schemi di basso livello:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/it/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Immagine del [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

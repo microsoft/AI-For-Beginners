@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:44:06+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "el"
-}
--->
 # Οδηγός Αντιμετώπισης Προβλημάτων για το AI-For-Beginners
 
 Αυτός ο οδηγός σας βοηθά να επιλύσετε κοινά προβλήματα που προκύπτουν κατά τη χρήση ή τη συνεισφορά στο αποθετήριο [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Κάθε πρόβλημα περιλαμβάνει υπόβαθρο, συμπτώματα, εξηγήσεις και βήμα-βήμα λύσεις.

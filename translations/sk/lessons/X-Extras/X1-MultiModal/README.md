@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:37:27+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "sk"
-}
--->
 # Multi-modálne siete
 
 Po úspechu transformerových modelov pri riešení úloh spracovania prirodzeného jazyka (NLP) sa rovnaké alebo podobné architektúry začali aplikovať aj na úlohy počítačového videnia. Rastie záujem o vytváranie modelov, ktoré by *kombinovali* schopnosti videnia a spracovania prirodzeného jazyka. Jedným z takýchto pokusov je model od OpenAI nazývaný CLIP a DALL.E.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T10:34:39+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "vi"
-}
--->
 # Cơ chế Attention và Transformers
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Một trong những ý tưởng chính đằng sau transformers là tránh tính
 * Nhúng có thể huấn luyện, tương tự như nhúng token. Đây là cách tiếp cận chúng ta xem xét ở đây. Chúng ta áp dụng các lớp nhúng lên cả token và vị trí của chúng, tạo ra các vector nhúng có cùng kích thước, sau đó cộng chúng lại với nhau.
 * Hàm mã hóa vị trí cố định, như được đề xuất trong bài báo gốc.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/vi/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Hình ảnh của tác giả
 

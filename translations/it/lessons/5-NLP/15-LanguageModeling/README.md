@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T08:34:42+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "it"
-}
--->
 # Modellazione del Linguaggio
 
 Gli embedding semantici, come Word2Vec e GloVe, rappresentano in realtà un primo passo verso la **modellazione del linguaggio** - la creazione di modelli che in qualche modo *comprendono* (o *rappresentano*) la natura del linguaggio.

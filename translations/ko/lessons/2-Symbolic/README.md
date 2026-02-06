@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T12:57:43+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "ko"
-}
--->
 # 지식 표현 및 전문가 시스템
 
-![상징적 AI 콘텐츠 요약](../../../../../../translated_images/ko/ai-symbolic.715a30cb610411a6.webp)
+![상징적 AI 콘텐츠 요약](../../../../translated_images/ko/ai-symbolic.715a30cb610411a6.webp)
 
 > 스케치노트 작성자: [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ AI 초기에는 지능 시스템을 만들기 위한 탑다운 접근법(이전 
 
 따라서, **지식 표현** 문제는 지식을 컴퓨터 내부에 데이터 형태로 효과적으로 표현하여 자동으로 활용할 수 있도록 하는 방법을 찾는 문제로 볼 수 있습니다. 이는 다음과 같은 스펙트럼으로 나타낼 수 있습니다:
 
-![지식 표현 스펙트럼](../../../../../../translated_images/ko/knowledge-spectrum.b60df631852c0217.webp)
+![지식 표현 스펙트럼](../../../../translated_images/ko/knowledge-spectrum.b60df631852c0217.webp)
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 상징적 AI의 초기 성공 중 하나는 **전문가 시스템**이었습니다. 전문가 시스템은 제한된 문제 영역에서 전문가처럼 행동하도록 설계된 컴퓨터 시스템입니다. 이는 한 명 이상의 인간 전문가로부터 추출한 **지식 기반**을 바탕으로 하고, 그 위에서 추론을 수행하는 **추론 엔진**을 포함합니다.
 
-![인간 구조](../../../../../../translated_images/ko/arch-human.5d4d35f1bba3ab1c.webp) | ![지식 기반 시스템](../../../../../../translated_images/ko/arch-kbs.3ec5c150b09fa8da.webp)
+![인간 구조](../../../../translated_images/ko/arch-human.5d4d35f1bba3ab1c.webp) | ![지식 기반 시스템](../../../../translated_images/ko/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 간략화된 인간 신경 시스템 구조 | 지식 기반 시스템 아키텍처
 
@@ -106,7 +97,7 @@ Block Syntax | Indent | | |
 
 예를 들어, 동물의 신체 특성에 기반해 동물을 판별하는 전문가 시스템을 고려해보겠습니다:
 
-![AND-OR 트리](../../../../../../translated_images/ko/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR 트리](../../../../translated_images/ko/AND-OR-Tree.5592d2c70187f283.webp)
 
 > 이미지 출처: [Dmitry Soshnikov](http://soshnikov.com)
 

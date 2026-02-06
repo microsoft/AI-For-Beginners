@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-24T10:14:12+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "pl"
-}
--->
 # Zadanie: Notatniki
 
 Korzystając z notatników powiązanych z tą lekcją (zarówno w wersji PyTorch, jak i TensorFlow), uruchom je ponownie, używając własnego zestawu danych, na przykład z Kaggle, z odpowiednim przypisaniem źródła. Przepisz notatnik, aby podkreślić swoje własne wnioski. Spróbuj użyć innego rodzaju zestawu danych i udokumentuj swoje spostrzeżenia, korzystając z tekstów takich jak [te teksty piosenek Beatlesów](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

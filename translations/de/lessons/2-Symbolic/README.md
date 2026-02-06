@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T10:52:48+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "de"
-}
--->
 # Wissensrepräsentation und Expertensysteme
 
-![Zusammenfassung des symbolischen KI-Inhalts](../../../../../../translated_images/de/ai-symbolic.715a30cb610411a6.webp)
+![Zusammenfassung des symbolischen KI-Inhalts](../../../../translated_images/de/ai-symbolic.715a30cb610411a6.webp)
 
 > Sketchnote von [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ Meistens definieren wir Wissen nicht strikt, sondern ordnen es anderen verwandte
 
 Somit besteht das Problem der **Wissensrepräsentation** darin, eine effektive Methode zu finden, Wissen innerhalb eines Computers in Form von Daten so darzustellen, dass es automatisch nutzbar ist. Dies kann als Spektrum gesehen werden:
 
-![Spektrum der Wissensrepräsentation](../../../../../../translated_images/de/knowledge-spectrum.b60df631852c0217.webp)
+![Spektrum der Wissensrepräsentation](../../../../translated_images/de/knowledge-spectrum.b60df631852c0217.webp)
 
 > Bild von [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Blocksyntax | Einrückung | | |
 
 Einer der frühen Erfolge der symbolischen KI waren sogenannte **Expertensysteme** – Computersysteme, die entwickelt wurden, um als Experte in einem begrenzten Problembereich zu wirken. Sie basierten auf einer **Wissensbasis**, die von einem oder mehreren menschlichen Experten extrahiert wurde, und enthielten eine **Inferenzmaschine**, die darauf basierend Schlussfolgerungen zog.
 
-![Menschliche Architektur](../../../../../../translated_images/de/arch-human.5d4d35f1bba3ab1c.webp) | ![Wissensbasiertes System](../../../../../../translated_images/de/arch-kbs.3ec5c150b09fa8da.webp)
+![Menschliche Architektur](../../../../translated_images/de/arch-human.5d4d35f1bba3ab1c.webp) | ![Wissensbasiertes System](../../../../translated_images/de/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 Vereinfachte Struktur des menschlichen neuronalen Systems | Architektur eines wissensbasierten Systems
 
@@ -106,7 +97,7 @@ Expertensysteme sind ähnlich wie das menschliche Schlusssystem aufgebaut, das *
 
 Als Beispiel betrachten wir folgendes Expertensystem zur Bestimmung eines Tieres anhand seiner physischen Eigenschaften:
 
-![AND-OR-Baum](../../../../../../translated_images/de/AND-OR-Tree.5592d2c70187f283.webp)
+![AND-OR-Baum](../../../../translated_images/de/AND-OR-Tree.5592d2c70187f283.webp)
 
 > Bild von [Dmitry Soshnikov](http://soshnikov.com)
 

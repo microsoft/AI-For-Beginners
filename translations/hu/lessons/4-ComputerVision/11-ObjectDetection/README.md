@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T11:11:43+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "hu"
-}
--->
 # Objektumfelismerés
 
 Az eddig tárgyalt képosztályozási modellek egy képet vettek bemenetként, és egy kategóriát adtak eredményül, például az 'szám' osztályt az MNIST problémában. Azonban sok esetben nem elég, hogy tudjuk, egy kép tárgyakat ábrázol - szeretnénk meghatározni azok pontos helyét is. Ez az **objektumfelismerés** célja.

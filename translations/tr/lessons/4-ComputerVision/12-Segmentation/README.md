@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T08:40:53+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "tr"
-}
--->
 # Segmentasyon
 
 Daha önce, nesneleri *sınır kutuları* tahmin ederek görüntüde bulmamıza olanak tanıyan Nesne Tespiti hakkında bilgi edinmiştik. Ancak, bazı görevlerde yalnızca sınır kutularına değil, daha hassas nesne konumlandırmasına da ihtiyacımız olabilir. Bu görev **segmentasyon** olarak adlandırılır.
@@ -20,7 +11,7 @@ Segmentasyon, **piksel sınıflandırması** olarak görülebilir; burada görü
 
 Örneğin örnek segmentasyonunda bu koyunlar farklı nesneler olarak kabul edilir, ancak semantik segmentasyonda tüm koyunlar tek bir sınıf olarak temsil edilir.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/tr/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Görsel [bu blog yazısından](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) alınmıştır.
 
@@ -29,7 +20,7 @@ Segmentasyon için farklı sinir ağları mimarileri vardır, ancak hepsi aynı 
 * **Kodlayıcı**, giriş görüntüsünden özellikler çıkarır.
 * **Kod Çözücü**, bu özellikleri sınıfların sayısına karşılık gelen aynı boyutta ve kanallara sahip bir **maske görüntüsüne** dönüştürür.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/tr/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Görsel [bu yayından](https://arxiv.org/pdf/2001.05566.pdf) alınmıştır.
 
@@ -43,7 +34,7 @@ Bu derste, tıbbi görüntülerde insan nevilerini (ben olarak da bilinir) tanı
 
 > ✅ Bu teknik özellikle bu tür tıbbi görüntüleme için uygundur, ancak başka hangi gerçek dünya uygulamalarını hayal edebilirsiniz?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/tr/navi.2f20b727910110ea.webp"/>
 
 > Görsel PH<sup>2</sup> Veritabanından alınmıştır.
 

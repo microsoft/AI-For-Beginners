@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "847a587aa1b83f4d00858183ff3ed18a",
-  "translation_date": "2025-08-31T18:04:45+00:00",
-  "source_file": "etc/CONTRIBUTING.md",
-  "language_code": "lt"
-}
--->
 # Prisidėjimas
 
 Šis projektas laukia jūsų indėlio ir pasiūlymų. Dauguma indėlių reikalauja, kad jūs sutiktumėte su Bendradarbio Licencijos Sutartimi (CLA), kurioje patvirtinate, jog turite teisę suteikti mums teises naudoti jūsų indėlį. Daugiau informacijos rasite adresu https://cla.microsoft.com.

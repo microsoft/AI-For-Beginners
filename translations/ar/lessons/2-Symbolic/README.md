@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-15T10:59:34+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "ar"
-}
--->
 # تمثيل المعرفة والأنظمة الخبيرة
 
-![ملخص محتوى الذكاء الاصطناعي الرمزي](../../../../../../translated_images/ar/ai-symbolic.715a30cb610411a6.webp)
+![ملخص محتوى الذكاء الاصطناعي الرمزي](../../../../translated_images/ar/ai-symbolic.715a30cb610411a6.webp)
 
 > مخطط مرسوم بواسطة [تومومي إيمورا](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 وبالتالي، مشكلة **تمثيل المعرفة** هي إيجاد طريقة فعالة لتمثيل المعرفة داخل الحاسوب في شكل بيانات، لجعلها قابلة للاستخدام تلقائيًا. يمكن رؤية هذا كمجال:
 
-![طيف تمثيل المعرفة](../../../../../../translated_images/ar/knowledge-spectrum.b60df631852c0217.webp)
+![طيف تمثيل المعرفة](../../../../translated_images/ar/knowledge-spectrum.b60df631852c0217.webp)
 
 > صورة بواسطة [دميتري سوشنيكوف](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Block Syntax | Indent | | |
 
 كان من أوائل نجاحات الذكاء الاصطناعي الرمزي ما يسمى بـ **الأنظمة الخبيرة** - أنظمة حاسوبية صُممت لتعمل كخبير في مجال مشكلة محدد. كانت تعتمد على **قاعدة معرفة** مستخلصة من خبير واحد أو أكثر، وكانت تحتوي على **محرك استدلال** يقوم ببعض الاستدلالات فوقها.
 
-![الهيكل البشري](../../../../../../translated_images/ar/arch-human.5d4d35f1bba3ab1c.webp) | ![نظام قائم على المعرفة](../../../../../../translated_images/ar/arch-kbs.3ec5c150b09fa8da.webp)
+![الهيكل البشري](../../../../translated_images/ar/arch-human.5d4d35f1bba3ab1c.webp) | ![نظام قائم على المعرفة](../../../../translated_images/ar/arch-kbs.3ec5c150b09fa8da.webp)
 ---------------------------------------------|------------------------------------------------
 الهيكل المبسط للنظام العصبي البشري | بنية نظام قائم على المعرفة
 
@@ -106,7 +97,7 @@ Block Syntax | Indent | | |
 
 كمثال، لننظر في النظام الخبير التالي لتحديد حيوان بناءً على خصائصه الفيزيائية:
 
-![شجرة AND-OR](../../../../../../translated_images/ar/AND-OR-Tree.5592d2c70187f283.webp)
+![شجرة AND-OR](../../../../translated_images/ar/AND-OR-Tree.5592d2c70187f283.webp)
 
 > صورة بواسطة [دميتري سوشنيكوف](http://soshnikov.com)
 

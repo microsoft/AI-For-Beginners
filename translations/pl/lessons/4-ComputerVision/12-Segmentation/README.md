@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T13:53:29+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "pl"
-}
--->
 # Segmentacja
 
 Wcześniej nauczyliśmy się o Detekcji Obiektów, która pozwala na lokalizację obiektów na obrazie poprzez przewidywanie ich *ramki ograniczającej*. Jednak w niektórych zadaniach potrzebujemy nie tylko ramek ograniczających, ale także bardziej precyzyjnej lokalizacji obiektów. To zadanie nazywa się **segmentacją**.
@@ -20,7 +11,7 @@ Segmentację można postrzegać jako **klasyfikację pikseli**, gdzie dla **każ
 
 W przypadku segmentacji instancji te owce są różnymi obiektami, ale w segmentacji semantycznej wszystkie owce są reprezentowane jako jedna klasa.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/pl/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Obraz z [tego wpisu na blogu](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Istnieją różne architektury neuronowe do segmentacji, ale wszystkie mają pod
 * **Enkoder** wyodrębnia cechy z obrazu wejściowego.
 * **Dekoder** przekształca te cechy w **obraz maski**, o tym samym rozmiarze i liczbie kanałów odpowiadających liczbie klas.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/pl/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Obraz z [tej publikacji](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ W tej lekcji zobaczymy segmentację w praktyce, trenując sieć do rozpoznawania
 
 > ✅ Ta technika jest szczególnie odpowiednia dla tego typu obrazowania medycznego, ale jakie inne zastosowania w rzeczywistym świecie możesz sobie wyobrazić?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/pl/navi.2f20b727910110ea.webp"/>
 
 > Obraz z Bazy Danych PH<sup>2</sup>
 

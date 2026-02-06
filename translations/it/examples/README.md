@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:30:10+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "it"
-}
--->
 # Esempi di AI per Principianti
 
 Benvenuto! Questa directory contiene esempi semplici e autonomi per aiutarti a iniziare con l'intelligenza artificiale e il machine learning. Ogni esempio è progettato per essere adatto ai principianti, con commenti dettagliati e spiegazioni passo dopo passo.

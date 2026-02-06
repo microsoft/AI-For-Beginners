@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T07:28:22+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "pa"
-}
--->
 # ਪ੍ਰਸਿੱਧ CNN ਆਰਕੀਟੈਕਚਰਾਂ
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 ਇੱਕ ਨੈਟਵਰਕ ਹੈ ਜਿਸ ਨੇ 2014 ਵਿੱਚ Im
 
 ResNet ਮਾਈਕਰੋਸਾਫਟ ਰਿਸਰਚ ਦੁਆਰਾ 2015 ਵਿੱਚ ਪ੍ਰਸਤਾਵਿਤ ਮਾਡਲਾਂ ਦਾ ਇੱਕ ਪਰਿਵਾਰ ਹੈ। ResNet ਦਾ ਮੁੱਖ ਵਿਚਾਰ **ਰੈਜ਼ੀਡੂਅਲ ਬਲਾਕ** ਵਰਤਣਾ ਹੈ:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/pa/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > ਚਿੱਤਰ [ਇਸ ਪੇਪਰ](https://arxiv.org/pdf/1512.03385.pdf) ਤੋਂ
 
@@ -37,7 +28,7 @@ ResNet ਮਾਈਕਰੋਸਾਫਟ ਰਿਸਰਚ ਦੁਆਰਾ 2015 ਵ�
 
 Google Inception ਆਰਕੀਟੈਕਚਰ ਇਸ ਵਿਚਾਰ ਨੂੰ ਇੱਕ ਕਦਮ ਅੱਗੇ ਲੈ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਹਰ ਨੈਟਵਰਕ ਲੇਅਰ ਨੂੰ ਕਈ ਵੱਖ-ਵੱਖ ਪਾਥਾਂ ਦੇ ਸੰਯੋਜਨ ਵਜੋਂ ਬਣਾਉਂਦਾ ਹੈ:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/pa/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > ਚਿੱਤਰ [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454) ਤੋਂ
 

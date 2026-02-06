@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T15:43:25+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "lt"
-}
--->
 # Objektų atpažinimas
 
 Vaizdų klasifikavimo modeliai, su kuriais dirbome iki šiol, paimdavo vaizdą ir pateikdavo kategorinį rezultatą, pavyzdžiui, klasę „skaičius“ MNIST problemos atveju. Tačiau daugeliu atvejų mums nepakanka žinoti, kad paveikslėlyje yra objektų – norime nustatyti jų tikslią vietą. Būtent tai ir yra **objektų atpažinimo** esmė.

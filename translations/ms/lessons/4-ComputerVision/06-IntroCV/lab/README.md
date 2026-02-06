@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3d53d6409f80970f7281a45dee35328a",
-  "translation_date": "2025-08-29T11:49:46+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/lab/README.md",
-  "language_code": "ms"
-}
--->
 # Mengesan Pergerakan menggunakan Optical Flow
 
 Tugasan Makmal daripada [Kurikulum AI untuk Pemula](https://aka.ms/ai-beginners).

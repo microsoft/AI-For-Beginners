@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cdc1f2e631f055f3473b36d18e4760b3",
-  "translation_date": "2025-08-24T09:49:53+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
-  "language_code": "hi"
-}
--->
 # असाइनमेंट: नोटबुक्स
 
 इस पाठ से संबंधित नोटबुक्स (चाहे वह PyTorch संस्करण हो या TensorFlow संस्करण), उन्हें अपने स्वयं के डेटा सेट का उपयोग करके पुनः चलाएं, शायद Kaggle से लिया गया हो, और उचित श्रेय के साथ उपयोग किया गया हो। नोटबुक को फिर से लिखें ताकि आपके अपने निष्कर्षों को उजागर किया जा सके। कुछ नवीन डेटा सेट आज़माएं जो आश्चर्यजनक साबित हो सकते हैं, जैसे [यह यूएफओ देखे जाने के बारे में](https://www.kaggle.com/datasets/NUFORC/ufo-sightings) NUFORC से।

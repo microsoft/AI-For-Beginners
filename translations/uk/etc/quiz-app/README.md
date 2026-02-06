@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T00:55:20+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "uk"
-}
--->
 # Вікторини
 
 Ці вікторини є попередніми та підсумковими тестами для навчальної програми з ШІ за посиланням https://aka.ms/ai-beginners

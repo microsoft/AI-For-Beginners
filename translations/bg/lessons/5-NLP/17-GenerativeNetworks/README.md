@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T14:33:26+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "bg"
-}
--->
 # Генеративни мрежи
 
 ## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 При генериране на текст (по време на инференция) започваме с някакъв **подсказка**, която се предава през RNN клетките, за да генерира междинното си състояние, и след това от това състояние започва генерирането. Генерираме един символ наведнъж и предаваме състоянието и генерирания символ на друга RNN клетка, за да генерира следващия, докато генерираме достатъчно символи.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/bg/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Изображение от автора
 

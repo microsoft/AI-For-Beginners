@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:54:23+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "ms"
-}
--->
 # Rangkaian Generatif
 
 ## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Kita akan melatih RNN ini untuk menjana teks langkah demi langkah. Pada setiap l
 
 Semasa menjana teks (semasa inferens), kita bermula dengan beberapa **prompt**, yang dilalui melalui sel RNN untuk menghasilkan keadaan perantaraannya, dan kemudian daripada keadaan ini penjanaan bermula. Kita menjana satu aksara pada satu masa, dan menghantar keadaan dan aksara yang dijana kepada sel RNN lain untuk menjana aksara seterusnya, sehingga kita menjana aksara yang mencukupi.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/ms/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Imej oleh penulis
 

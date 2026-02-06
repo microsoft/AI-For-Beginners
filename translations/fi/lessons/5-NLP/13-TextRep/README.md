@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-09-23T10:05:19+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "fi"
-}
--->
 # Tekstin esittäminen tensoreina
 
 ## [Ennakkokysely](https://ff-quizzes.netlify.app/en/ai/quiz/25)
@@ -25,7 +16,7 @@ Tavoitteenamme on luokitella uutinen yhteen kategorioista tekstin perusteella.
 
 Jos haluamme ratkaista luonnollisen kielen käsittelyn (NLP) tehtäviä neuroverkoilla, meidän täytyy löytää tapa esittää teksti tensoreina. Tietokoneet esittävät tekstimerkit jo numeroina, jotka vastaavat näytöllä näkyviä fontteja, käyttäen esimerkiksi ASCII- tai UTF-8-koodauksia.
 
-<img alt="Kuva, joka näyttää kaavion, jossa merkki muunnetaan ASCII- ja binaarimuotoon" src="images/ascii-character-map.png" width="50%"/>
+<img alt="Kuva, joka näyttää kaavion, jossa merkki muunnetaan ASCII- ja binaarimuotoon" src="../../../../../translated_images/fi/ascii-character-map.18ed6aa7f3b0a7ff.webp" width="50%"/>
 
 > [Kuvan lähde](https://www.seobility.net/en/wiki/ASCII)
 
@@ -48,7 +39,7 @@ Joissakin tapauksissa voimme harkita tri-grammien - kolmen sanan yhdistelmien - 
 
 Kun ratkaistaan tehtäviä, kuten tekstin luokittelua, meidän täytyy pystyä esittämään teksti yhdellä kiinteän kokoisella vektorilla, jota käytämme syötteenä lopulliselle tiheälle luokittelijalle. Yksi yksinkertaisimmista tavoista tehdä tämä on yhdistää kaikki yksittäiset sanan esitykset, esimerkiksi lisäämällä ne yhteen. Jos lisäämme jokaisen sanan one-hot-koodaukset, päädymme frekvenssivektoriin, joka näyttää, kuinka monta kertaa kukin sana esiintyy tekstissä. Tällainen tekstin esitys kutsutaan **bag-of-words** (BoW).
 
-<img src="images/bow.png" width="90%"/>
+<img src="../../../../../translated_images/fi/bow.3811869cff59368d.webp" width="90%"/>
 
 > Kuva: kirjoittaja
 

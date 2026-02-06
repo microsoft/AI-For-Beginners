@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "fdfc08baee91e402938a2b1f94fe0949",
-  "translation_date": "2025-08-24T10:06:01+00:00",
-  "source_file": "etc/SUPPORT.md",
-  "language_code": "hi"
-}
--->
 # समर्थन
 
 ## समस्याएँ दर्ज करने और सहायता प्राप्त करने का तरीका  

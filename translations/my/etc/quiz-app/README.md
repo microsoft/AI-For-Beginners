@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-26T00:55:41+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "my"
-}
--->
 # မေးခွန်းများ
 
 ဒီမေးခွန်းများဟာ AI သင်ခန်းစာများအတွက် [!NOTE] သင်ခန်းစာမတိုင်မီနှင့်ပြီးနောက် မေးခွန်းများဖြစ်ပါတယ်။ https://aka.ms/ai-beginners မှာတွေ့နိုင်ပါတယ်။

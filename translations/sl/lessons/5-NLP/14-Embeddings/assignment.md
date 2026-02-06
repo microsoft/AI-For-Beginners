@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-25T21:43:04+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "sl"
-}
--->
 # Naloga: Zvezki
 
 Z uporabo zvezkov, povezanih s to lekcijo (bodisi različice PyTorch ali TensorFlow), jih ponovno zaženite z lastnim naborom podatkov, morda z enim izmed Kagglovih, uporabljenim z ustreznim navajanjem vira. Prepišite zvezek, da poudarite svoje ugotovitve. Preizkusite drugačen tip nabora podatkov in dokumentirajte svoje ugotovitve, z uporabo besedila, kot so [ti Beatlesovi verzi](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

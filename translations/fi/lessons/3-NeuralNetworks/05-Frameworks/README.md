@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ddd216f558a255260a9374008002c971",
-  "translation_date": "2025-09-23T10:02:17+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/README.md",
-  "language_code": "fi"
-}
--->
 # Neuroverkkojen Kehykset
 
 Kuten olemme jo oppineet, tehokkaan neuroverkkojen kouluttamisen kannalta meidän täytyy tehdä kaksi asiaa:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:42:41+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "it"
-}
--->
 # Guida alla Risoluzione dei Problemi di AI-For-Beginners
 
 Questa guida ti aiuta a risolvere i problemi comuni riscontrati durante l'utilizzo o il contributo al repository [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Ogni problema include contesto, sintomi, spiegazioni e soluzioni passo-passo.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T15:17:51+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "my"
-}
--->
 # အပိုင်းခွဲခြားခြင်း
 
 ယခင်က ကျွန်တော်တို့ Object Detection အကြောင်းကို လေ့လာခဲ့ပြီး၊ *bounding boxes* ကိုခန့်မှန်းခြင်းဖြင့် ပုံထဲမှာရှိတဲ့ objects တွေကို ရှာဖွေနိုင်ခဲ့ပါတယ်။ သို့သော် တချို့သောအလုပ်များအတွက် bounding boxes ပဲမဟုတ်ဘဲ၊ ပိုမိုတိကျတဲ့ object localization လည်းလိုအပ်ပါတယ်။ ဒီအလုပ်ကို **segmentation** လို့ခေါ်ပါတယ်။
@@ -20,7 +11,7 @@ Segmentation ကို **pixel classification** အနေနဲ့ကြည့�
 
 ဥပမာအားဖြင့် instance segmentation မှာ ဒီသိုးတွေက object အနေနဲ့ ခွဲခြားထားပြီး၊ semantic segmentation မှာတော့ သိုးအားလုံးကို class တစ်ခုအနေနဲ့သာ ဖော်ပြထားပါတယ်။
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/my/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > ပုံကို [ဒီ blog post](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) မှရယူထားပါသည်။
 
@@ -29,7 +20,7 @@ Segmentation အတွက် neural architectures မျိုးစုံရှ
 * **Encoder** က input image မှ feature တွေကို extract လုပ်ပေးပါတယ်။
 * **Decoder** က feature တွေကို **mask image** အဖြစ်ပြောင်းပေးပြီး၊ အရွယ်အစားတူညီပြီး channel အရေအတွက်က class အရေအတွက်နဲ့ကိုက်ညီပါတယ်။
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/my/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > ပုံကို [ဒီ publication](https://arxiv.org/pdf/2001.05566.pdf) မှရယူထားပါသည်။
 
@@ -43,7 +34,7 @@ Segmentation အတွက် အသုံးပြုတဲ့ loss function က
 
 > ✅ ဒီနည်းလမ်းက ဆေးဘက်ပုံရိပ်အမျိုးအစားအတွက် အထူးသင့်လျော်ပါတယ်၊ ဒါပေမယ့် သင်အခြားသော အကွက်များမှာလည်း အသုံးချနိုင်မယ့် နည်းလမ်းတွေကို စဉ်းစားနိုင်ပါသလား?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/my/navi.2f20b727910110ea.webp"/>
 
 > ပုံကို PH<sup>2</sup> Database မှရယူထားပါသည်။
 

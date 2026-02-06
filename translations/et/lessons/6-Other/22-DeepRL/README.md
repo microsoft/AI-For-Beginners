@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-10-11T11:47:44+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "et"
-}
--->
 # Sügav Tugevdusõpe
 
 Tugevdusõpe (RL) on üks põhilisi masinõppe paradigmasid, kõrvuti juhendatud ja juhendamata õppega. Kui juhendatud õppes tugineb õpe teadaolevate tulemustega andmekogule, siis RL põhineb **õppimisel läbi tegutsemise**. Näiteks, kui me esimest korda näeme arvutimängu, hakkame seda mängima, isegi kui me reegleid ei tea, ja peagi suudame oma oskusi parandada lihtsalt mängimise ja käitumise kohandamise kaudu.

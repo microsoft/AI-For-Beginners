@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-  "translation_date": "2025-10-03T12:42:41+00:00",
-  "source_file": "lessons/3-NeuralNetworks/README.md",
-  "language_code": "ur"
-}
--->
 # نیورل نیٹ ورکس کا تعارف
 
 ![نیورل نیٹ ورکس کے تعارف کا خلاصہ ایک خاکے میں](../../../../translated_images/ur/ai-neuralnetworks.1c687ae40bc86e83.webp)

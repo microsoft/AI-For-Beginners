@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-26T00:38:46+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "cs"
-}
--->
 # Pro pedagogy
 
 Chcete použít tento vzdělávací program ve své třídě? Klidně do toho!

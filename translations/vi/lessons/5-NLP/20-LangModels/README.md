@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T10:35:06+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "vi"
-}
--->
 # Các Mô Hình Ngôn Ngữ Lớn Được Huấn Luyện Trước
 
 Trong tất cả các nhiệm vụ trước đây, chúng ta đã huấn luyện một mạng nơ-ron để thực hiện một nhiệm vụ cụ thể bằng cách sử dụng tập dữ liệu có nhãn. Với các mô hình transformer lớn, như BERT, chúng ta sử dụng mô hình ngôn ngữ theo cách tự giám sát để xây dựng một mô hình ngôn ngữ, sau đó được chuyên biệt hóa cho các nhiệm vụ cụ thể với việc huấn luyện thêm theo từng lĩnh vực. Tuy nhiên, đã có minh chứng rằng các mô hình ngôn ngữ lớn cũng có thể giải quyết nhiều nhiệm vụ mà KHÔNG cần huấn luyện theo từng lĩnh vực. Một nhóm các mô hình có khả năng làm điều này được gọi là **GPT**: Generative Pre-Trained Transformer.

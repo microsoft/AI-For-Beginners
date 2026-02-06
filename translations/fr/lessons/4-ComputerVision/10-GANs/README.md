@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T11:59:37+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "fr"
-}
--->
 # Réseaux Adversaires Génératifs
 
 Dans la section précédente, nous avons appris à propos des **modèles génératifs** : des modèles capables de générer de nouvelles images similaires à celles du jeu de données d'entraînement. Le VAE était un bon exemple de modèle génératif.
@@ -17,7 +8,7 @@ Cependant, si nous essayons de générer quelque chose de vraiment significatif,
 
 L'idée principale d'un GAN est d'avoir deux réseaux neuronaux qui seront entraînés l'un contre l'autre :
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/fr/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Un générateur est légèrement plus complexe. Vous pouvez le considérer comme
 
 > ✅ Étant donné que la couche de convolution est implémentée comme un filtre linéaire parcourant l'image, la déconvolution est essentiellement similaire à la convolution et peut être mise en œuvre en utilisant la même logique de couche.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/fr/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Image par [Dmitry Soshnikov](http://soshnikov.com)
 

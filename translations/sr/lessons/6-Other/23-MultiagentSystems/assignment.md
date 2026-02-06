@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T23:29:23+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "sr"
-}
--->
 # Задатак за NetLogo
 
 Узмите један од модела из библиотеке NetLogo и користите га да симулирате стварну животну ситуацију што је могуће прецизније. Добар пример би био да прилагодите модел Virus из фасцикле Alternative Visualizations како бисте показали како се може користити за моделовање ширења COVID-19. Можете ли направити модел који опонаша стварно ширење вируса?

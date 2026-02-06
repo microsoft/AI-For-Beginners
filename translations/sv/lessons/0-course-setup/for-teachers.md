@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-08-28T15:07:54+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "sv"
-}
--->
 # För lärare
 
 Vill du använda detta kursmaterial i ditt klassrum? Varsågod!

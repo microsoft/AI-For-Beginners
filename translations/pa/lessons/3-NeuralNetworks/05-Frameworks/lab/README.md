@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e452d897efb9a89700f41021834cf6e5",
-  "translation_date": "2025-08-26T10:35:38+00:00",
-  "source_file": "lessons/3-NeuralNetworks/05-Frameworks/lab/README.md",
-  "language_code": "pa"
-}
--->
 # ਪਾਈਟਾਰਚ/ਟੈਂਸਰਫਲੋ ਨਾਲ ਵਰਗੀਕਰਨ
 
 [AI ਫਾਰ ਬਿਗਿਨਰਜ਼ ਕਰਿਕੁਲਮ](https://github.com/microsoft/ai-for-beginners) ਤੋਂ ਲੈਬ ਅਸਾਈਨਮੈਂਟ।

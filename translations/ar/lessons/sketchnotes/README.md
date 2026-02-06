@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T10:40:21+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "ar"
-}
--->
 يمكن تنزيل جميع ملاحظات الرسم الخاصة بالمناهج الدراسية من هنا.
 
 🎨 تم الإنشاء بواسطة: تومومي إيمورا (تويتر: [@girlie_mac](https://twitter.com/girlie_mac)، جيت هب: [girliemac](https://github.com/girliemac))

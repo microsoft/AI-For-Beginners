@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "38a1185ae3d54b180378bbd71ae3ef16",
-  "translation_date": "2025-09-23T09:54:34+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/README.md",
-  "language_code": "fi"
-}
--->
 # Multi-agenttijärjestelmät
 
 Yksi mahdollinen tapa saavuttaa älykkyyttä on niin sanottu **emergentti** (tai **synergeettinen**) lähestymistapa, joka perustuu siihen, että monien suhteellisen yksinkertaisten agenttien yhdistetty käyttäytyminen voi johtaa järjestelmän kokonaisvaltaisesti monimutkaisempaan (tai älykkäämpään) käyttäytymiseen. Teoreettisesti tämä perustuu [kollektiivisen älykkyyden](https://en.wikipedia.org/wiki/Collective_intelligence), [emergentismin](https://en.wikipedia.org/wiki/Global_brain) ja [evolutionaarisen kybernetiikan](https://en.wikipedia.org/wiki/Global_brain) periaatteisiin, jotka väittävät, että korkeamman tason järjestelmät saavat jonkinlaista lisäarvoa, kun ne yhdistetään asianmukaisesti alemman tason järjestelmistä (niin sanottu *metajärjestelmäsiirtymän periaate*).
@@ -60,7 +51,7 @@ Voit [ladata](https://ccl.northwestern.edu/netlogo/download.shtml) ja asentaa Ne
 
 NetLogon hienous on siinä, että se sisältää kirjaston toimivia malleja, joita voit kokeilla. Siirry **File &rightarrow; Models Library**, ja sinulla on monia mallikategorioita, joista valita.
 
-<img alt="NetLogo Models Library" src="images/NetLogo-ModelLib.png" width="60%"/>
+<img alt="NetLogo Models Library" src="../../../../../translated_images/fi/NetLogo-ModelLib.efe023afb4763c05.webp" width="60%"/>
 
 > Kuvakaappaus mallikirjastosta Dmitry Soshnikovilta
 

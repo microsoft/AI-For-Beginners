@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:47:20+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "vi"
-}
--->
 # Hướng Dẫn Khắc Phục Sự Cố AI-For-Beginners
 
 Hướng dẫn này giúp bạn giải quyết các vấn đề thường gặp khi sử dụng hoặc đóng góp vào kho lưu trữ [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Mỗi vấn đề bao gồm thông tin nền, triệu chứng, giải thích và các bước giải quyết cụ thể.

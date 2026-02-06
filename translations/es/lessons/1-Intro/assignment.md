@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a334df77a82aaaf2a29c77065d3e481e",
-  "translation_date": "2025-11-18T20:33:22+00:00",
-  "source_file": "lessons/1-Intro/assignment.md",
-  "language_code": "es"
-}
--->
 # Game Jam
 
 Los juegos son un área que ha sido fuertemente influenciada por los avances en IA y ML. En esta tarea, escribe un breve ensayo sobre un juego que te guste y que haya sido influenciado por la evolución de la IA. Debe ser un juego lo suficientemente antiguo como para haber sido influenciado por varios tipos de sistemas de procesamiento informático. Un buen ejemplo es el ajedrez o el Go, pero también considera videojuegos como Pong o Pac-Man. Escribe un ensayo que analice el pasado, presente y futuro de la IA en el juego.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T09:39:01+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "no"
-}
--->
 # Velkjente CNN-arkitekturer
 
 ### VGG-16
@@ -25,7 +16,7 @@ Som du kan se, følger VGG en tradisjonell pyramidearkitektur, som er en sekvens
 
 ResNet er en familie av modeller foreslått av Microsoft Research i 2015. Hovedideen bak ResNet er å bruke **residualblokker**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/no/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Bilde fra [denne artikkelen](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Du kan også tenke på dette nettverket som i stand til å justere kompleksitete
 
 Google Inception-arkitekturen tar denne ideen et steg videre og bygger hvert nettverkslag som en kombinasjon av flere forskjellige veier:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/no/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Bilde fra [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

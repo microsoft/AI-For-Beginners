@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-  "translation_date": "2025-10-11T11:27:12+00:00",
-  "source_file": "lessons/sketchnotes/LICENSE.md",
-  "language_code": "ta"
-}
--->
 அட்ரிப்யூஷன்-ஷேர் அலைக் 4.0 இன்டர்நேஷனல்
 
 =======================================================================

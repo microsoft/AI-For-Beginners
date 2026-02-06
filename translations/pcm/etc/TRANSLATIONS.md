@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-11-18T18:52:42+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "pcm"
-}
--->
 # Help us translate di lessons
 
 We go happy if you fit help us translate di lessons wey dey dis curriculum!

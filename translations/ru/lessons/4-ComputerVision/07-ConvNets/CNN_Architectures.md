@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T07:56:47+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "ru"
-}
--->
 # Известные архитектуры CNN
 
 ### VGG-16
@@ -25,7 +16,7 @@ VGG-16 — это сеть, которая достигла точности 92.
 
 ResNet — это семейство моделей, предложенных Microsoft Research в 2015 году. Основная идея ResNet заключается в использовании **остаточных блоков**:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/ru/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Изображение из [этой статьи](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ ResNet — это семейство моделей, предложенных Mi
 
 Архитектура Google Inception развивает эту идею дальше и строит каждый слой сети как комбинацию нескольких различных путей:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/ru/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Изображение с [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T10:19:03+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "he"
-}
--->
 # סגמנטציה
 
 למדנו בעבר על זיהוי אובייקטים, שמאפשר לנו לאתר אובייקטים בתמונה על ידי חיזוי *תיבות גבול*. עם זאת, עבור משימות מסוימות אנחנו לא רק צריכים תיבות גבול, אלא גם לוקליזציה מדויקת יותר של האובייקט. משימה זו נקראת **סגמנטציה**.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לדוגמה, בסגמנטציה של מופעים, הכבשים הללו הן אובייקטים שונים, אך בסגמנטציה סמנטית כל הכבשים מיוצגות כקטגוריה אחת.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/he/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > תמונה מתוך [הפוסט הזה](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **מקודד** שמחלץ תכונות מהתמונה המקורית.
 * **מפענח** שממיר את התכונות הללו לתוך **תמונת המסכה**, עם אותו גודל ומספר ערוצים התואם למספר הקטגוריות.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/he/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > תמונה מתוך [הפרסום הזה](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ טכניקה זו מתאימה במיוחד לסוג זה של הדמיה רפואית, אך אילו יישומים נוספים בעולם האמיתי אתם יכולים לדמיין?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/he/navi.2f20b727910110ea.webp"/>
 
 > תמונה מתוך מאגר PH<sup>2</sup>
 

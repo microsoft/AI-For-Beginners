@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-25T23:35:54+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "sr"
-}
--->
 # Тренирање планинског аутомобила да побегне
 
 Задатак из [Курикулума за почетнике у вештачкој интелигенцији](https://github.com/microsoft/ai-for-beginners).

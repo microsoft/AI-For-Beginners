@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-28T19:18:44+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "nl"
-}
--->
 ## De omgeving
 
 De Mountain Car-omgeving bestaat uit een auto die vastzit in een vallei. Je doel is om uit de vallei te springen en de vlag te bereiken. De acties die je kunt uitvoeren zijn versnellen naar links, versnellen naar rechts, of niets doen. Je kunt de positie van de auto langs de x-as en de snelheid waarnemen.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T11:07:06+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao ya Neural Inayojirudia
 
 ## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Tuangalie jinsi kiini rahisi cha RNN kinavyopangwa. Kinapokea hali ya awali S<su
 
 Kiini rahisi cha RNN kina matriki mawili ya uzito ndani yake: moja hubadilisha ishara ya pembejeo (tuiite W), na nyingine hubadilisha hali ya pembejeo (H). Katika hali hii, matokeo ya mtandao huhesabiwa kama &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), ambapo &sigma; ni kazi ya uanzishaji na b ni upendeleo wa ziada.
 
-<img alt="RNN Cell Anatomy" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN Cell Anatomy" src="../../../../../translated_images/sw/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Picha na mwandishi
 

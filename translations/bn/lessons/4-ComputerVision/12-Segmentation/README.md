@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T07:48:09+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "bn"
-}
--->
 # সেগমেন্টেশন
 
 আমরা আগেই অবজেক্ট ডিটেকশন সম্পর্কে শিখেছি, যা আমাদের ইমেজে অবজেক্টের অবস্থান নির্ধারণ করতে সাহায্য করে *বাউন্ডিং বক্স* প্রেডিক্ট করার মাধ্যমে। তবে, কিছু কাজের জন্য শুধুমাত্র বাউন্ডিং বক্স যথেষ্ট নয়; আমাদের আরও নির্ভুলভাবে অবজেক্টের অবস্থান নির্ধারণ করতে হয়। এই কাজটিকে **সেগমেন্টেশন** বলা হয়।
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 উদাহরণস্বরূপ, ইনস্ট্যান্স সেগমেন্টেশনে এই ভেড়াগুলো আলাদা অবজেক্ট হিসেবে গণ্য হয়, কিন্তু সেমান্টিক সেগমেন্টেশনে সব ভেড়া একটি ক্লাস হিসেবে দেখানো হয়।
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/bn/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > ছবি [এই ব্লগ পোস্ট](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50) থেকে নেওয়া হয়েছে
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **এনকোডার** ইনপুট ইমেজ থেকে ফিচার বের করে
 * **ডিকোডার** সেই ফিচারগুলোকে **মাস্ক ইমেজে** রূপান্তর করে, যার আকার এবং চ্যানেলের সংখ্যা ক্লাসের সংখ্যার সাথে মিলে যায়।
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/bn/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > ছবি [এই প্রকাশনা](https://arxiv.org/pdf/2001.05566.pdf) থেকে নেওয়া হয়েছে
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ এই পদ্ধতি মেডিকেল ইমেজিংয়ের জন্য বিশেষভাবে উপযুক্ত, তবে আপনি আর কী কী বাস্তব জীবনের প্রয়োগ কল্পনা করতে পারেন?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/bn/navi.2f20b727910110ea.webp"/>
 
 > ছবি PH<sup>2</sup> ডাটাবেস থেকে নেওয়া হয়েছে
 

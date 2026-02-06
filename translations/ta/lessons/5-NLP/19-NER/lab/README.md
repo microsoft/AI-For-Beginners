@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "032bda5068f543d6c1fcb30c34231461",
-  "translation_date": "2025-10-11T11:42:15+00:00",
-  "source_file": "lessons/5-NLP/19-NER/lab/README.md",
-  "language_code": "ta"
-}
--->
 # NER
 
 [AI for Beginners Curriculum](https://github.com/microsoft/ai-for-beginners) இல் இருந்து ஆய்வகப் பணிக்கான ஒதுக்கீடு.

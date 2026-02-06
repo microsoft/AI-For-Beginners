@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-10-11T11:22:22+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "et"
-}
--->
 # Segmenteerimine
 
 Oleme varem õppinud objektide tuvastamist, mis võimaldab meil leida objekte pildil, ennustades nende *piiravaid kaste*. Kuid mõnede ülesannete puhul ei vaja me ainult piiravaid kaste, vaid ka täpsemat objektide lokaliseerimist. Seda ülesannet nimetatakse **segmenteerimiseks**.

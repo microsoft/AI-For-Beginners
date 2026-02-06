@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T06:55:42+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "tl"
-}
--->
 # Generative Adversarial Networks
 
 Sa nakaraang seksyon, natutunan natin ang tungkol sa **generative models**: mga modelo na maaaring lumikha ng mga bagong imahe na kahawig ng mga nasa training dataset. Ang VAE ay isang magandang halimbawa ng generative model.
@@ -17,7 +8,7 @@ Gayunpaman, kung susubukan nating lumikha ng isang bagay na talagang makabuluhan
 
 Ang pangunahing ideya ng GAN ay ang pagkakaroon ng dalawang neural networks na magsasanay laban sa isa't isa:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/tl/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Larawan mula kay [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Ang Generator ay medyo mas komplikado. Maaari mo itong ituring na baliktad na di
 
 > ✅ Dahil ang convolution layer ay ipinatutupad bilang isang linear filter na naglalakbay sa imahe, ang deconvolution ay mahalagang katulad ng convolution, at maaaring ipatupad gamit ang parehong layer logic.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/tl/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Larawan mula kay [Dmitry Soshnikov](http://soshnikov.com)
 

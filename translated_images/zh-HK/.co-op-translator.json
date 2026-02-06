@@ -1,0 +1,722 @@
+{
+  "1200px-Girl_and_cat.89bd70951181e86a.webp": {
+    "original_hash": "aa8cdeaa9beaad5a06610236cf22f296",
+    "translation_date": "2026-01-15T12:20:06+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/1200px-Girl_and_cat.jpg",
+    "language_code": "zh-HK"
+  },
+  "AND-OR-Tree.5592d2c70187f283.webp": {
+    "original_hash": "2674b6cf8f768491c6b5a167f272a002",
+    "translation_date": "2026-01-15T12:28:24+00:00",
+    "source_file": "lessons/2-Symbolic/images/AND-OR-Tree.png",
+    "language_code": "zh-HK"
+  },
+  "ComputeGraph.463c9d8ebdcb2215.webp": {
+    "original_hash": "7af66742d6bede114f971689745bedf2",
+    "translation_date": "2026-01-15T12:33:06+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/images/ComputeGraph.png",
+    "language_code": "zh-HK"
+  },
+  "ComputeGraphGrad.4626252c0de03507.webp": {
+    "original_hash": "b0bf679245a237b1e7785ae2357a5376",
+    "translation_date": "2026-01-15T12:32:49+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/images/ComputeGraphGrad.png",
+    "language_code": "zh-HK"
+  },
+  "CoreferenceResolution.861924d6d384a7d6.webp": {
+    "original_hash": "25b5719ec70aaa44858076c16f7c208f",
+    "translation_date": "2026-01-15T12:38:11+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/CoreferenceResolution.png",
+    "language_code": "zh-HK"
+  },
+  "Cross-Entropy-Loss.dc7ba633d2467ef3.webp": {
+    "original_hash": "11dd0fd77a272755d0ef5db9f71217da",
+    "translation_date": "2026-01-15T12:32:59+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/images/Cross-Entropy-Loss.png",
+    "language_code": "zh-HK"
+  },
+  "DALL·E 2023-06-20 15.56.56 - a closeup watercolor portrait of young male teacher of literature with a book.56499a0c282407c9.webp": {
+    "original_hash": "dd063fda04db937ab7210064af9d6151",
+    "translation_date": "2026-01-15T12:34:05+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/DALL·E 2023-06-20 15.56.56 - a closeup watercolor portrait of young male teacher of literature with a book.png",
+    "language_code": "zh-HK"
+  },
+  "DALL·E 2023-06-20 15.57.43 - a closeup oil portrait of young female teacher of computer science with a computer.081e8aed073e2fbf.webp": {
+    "original_hash": "2cc9ab0daf8e1af7071fbc9eaf84970b",
+    "translation_date": "2026-01-15T12:34:09+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/DALL·E 2023-06-20 15.57.43 - a closeup oil portrait of young female teacher of computer science with a computer.png",
+    "language_code": "zh-HK"
+  },
+  "DALL·E 2023-06-20 15.58.42 -  a closeup oil portrait of old male teacher of mathematics in front of blackboard.534175cf58a361d9.webp": {
+    "original_hash": "e300d75d78f6050bc7b83df091f95775",
+    "translation_date": "2026-01-15T12:34:02+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/DALL·E 2023-06-20 15.58.42 -  a closeup oil portrait of old male teacher of mathematics in front of blackboard.png",
+    "language_code": "zh-HK"
+  },
+  "DIKW_Pyramid.94126f7d2bd8db5b.webp": {
+    "original_hash": "ad410ec7f25454482fd4516c4a46fc67",
+    "translation_date": "2026-01-15T12:27:20+00:00",
+    "source_file": "lessons/2-Symbolic/images/DIKW_Pyramid.png",
+    "language_code": "zh-HK"
+  },
+  "FeatureExtractionCNN.d9b456cbdae7cb64.webp": {
+    "original_hash": "c9bde577c8b279b5199a8b294ee9494f",
+    "translation_date": "2026-01-15T12:23:06+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/FeatureExtractionCNN.png",
+    "language_code": "zh-HK"
+  },
+  "Mark_I_perceptron_wikipedia.1f84eaa2d4b76ec9.webp": {
+    "original_hash": "2cc48ff435c89ca1e162872a42b4813c",
+    "translation_date": "2026-01-15T12:33:23+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/images/Mark_I_perceptron_wikipedia.jpg",
+    "language_code": "zh-HK"
+  },
+  "NetLogo-Main.32653711ec1a01b3.webp": {
+    "original_hash": "83a9fe96394620fc703a5f2de2d15ed1",
+    "translation_date": "2026-01-15T12:25:27+00:00",
+    "source_file": "lessons/6-Other/23-MultiagentSystems/images/NetLogo-Main.png",
+    "language_code": "zh-HK"
+  },
+  "NetLogo-ModelLib.efe023afb4763c05.webp": {
+    "original_hash": "edd5b28318e2f43274a4541408110fb9",
+    "translation_date": "2026-01-15T12:24:46+00:00",
+    "source_file": "lessons/6-Other/23-MultiagentSystems/images/NetLogo-ModelLib.png",
+    "language_code": "zh-HK"
+  },
+  "NeuroArch.4e17cdba5e445721.webp": {
+    "original_hash": "5a3b1a4c04e6b6b5a65574d5ea92a272",
+    "translation_date": "2026-01-15T12:32:40+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/images/NeuroArch.png",
+    "language_code": "zh-HK"
+  },
+  "ObjDetectionPrecisionRecall.d2ef5b6081a0b094.webp": {
+    "original_hash": "6704085c522f47ce42ad8402dafe6429",
+    "translation_date": "2026-01-15T12:20:42+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/ObjDetectionPrecisionRecall.png",
+    "language_code": "zh-HK"
+  },
+  "ObjDetectionPrecisionRecallIoU.96b4116fcd30ce5a.webp": {
+    "original_hash": "f31ea979f0ceabdf198899985ac84c37",
+    "translation_date": "2026-01-15T12:20:19+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/ObjDetectionPrecisionRecallIoU.png",
+    "language_code": "zh-HK"
+  },
+  "Overfitting.408ad91cd90b4371.webp": {
+    "original_hash": "82c3203fefc4ef74609e8ab61c1c683b",
+    "translation_date": "2026-01-15T12:32:23+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/Overfitting.png",
+    "language_code": "zh-HK"
+  },
+  "Rosenblatt-wikipedia.294821b285ac796d.webp": {
+    "original_hash": "c21d9b47d0106208a0f35a920d6bff66",
+    "translation_date": "2026-01-15T12:33:19+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/images/Rosenblatt-wikipedia.jpg",
+    "language_code": "zh-HK"
+  },
+  "Screen_Shot_2016-11-17_at_11.14.54_AM.b4bb3769353287be.webp": {
+    "original_hash": "456419e07e4f1b5ab90c6f6d36d9817a",
+    "translation_date": "2026-01-15T12:22:11+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/Screen_Shot_2016-11-17_at_11.14.54_AM.png",
+    "language_code": "zh-HK"
+  },
+  "a_closeup_oil_portrait_of_old_male_teacher_of_math.5362e67aa7fc2683.webp": {
+    "original_hash": "9c386a6fd2c04edbd78dc9d688b59872",
+    "translation_date": "2026-01-15T12:33:45+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/a_closeup_oil_portrait_of_old_male_teacher_of_math.png",
+    "language_code": "zh-HK"
+  },
+  "a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.e0b6495f210a4390.webp": {
+    "original_hash": "7064cd71a562523998203c756842c96d",
+    "translation_date": "2026-01-15T12:34:13+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/a_closeup_oil_portrait_of_young_female_teacher_of_computer_science_with_a_computer.png",
+    "language_code": "zh-HK"
+  },
+  "a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.2384968e9db8a0d0.webp": {
+    "original_hash": "ec89cbb600b14e86f353a347506554ba",
+    "translation_date": "2026-01-15T12:34:11+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/a_closeup_watercolor_portrait_of_young_male_teacher_of_literature_with_a_book.png",
+    "language_code": "zh-HK"
+  },
+  "aae.9d418a990fc75bf9.webp": {
+    "original_hash": "92f89b37641f659a7d25c91d13076f69",
+    "translation_date": "2026-01-15T12:17:15+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/images/aae.png",
+    "language_code": "zh-HK"
+  },
+  "activation-func.b4924007c7ce7764.webp": {
+    "original_hash": "8d357884343ec923611a319d4e910b99",
+    "translation_date": "2026-01-15T12:33:28+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/images/activation-func.png",
+    "language_code": "zh-HK"
+  },
+  "adversarial-dog.d9fc7773b0142b89.webp": {
+    "original_hash": "cf7a833a6f82bdf5049180a09f9bf8f6",
+    "translation_date": "2026-01-15T12:19:35+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/adversarial-dog.png",
+    "language_code": "zh-HK"
+  },
+  "ai-computervision.6506ebebac3fbf76.webp": {
+    "original_hash": "69793d04780af37a3f32c9aa5c2d1ad8",
+    "translation_date": "2026-01-15T12:14:12+00:00",
+    "source_file": "lessons/sketchnotes/ai-computervision.png",
+    "language_code": "zh-HK"
+  },
+  "ai-for-beginners.b354ca904b22cd70.webp": {
+    "original_hash": "4b6f076798ec72ec7736b2e9039730e3",
+    "translation_date": "2026-01-15T12:14:34+00:00",
+    "source_file": "lessons/sketchnotes/ai-for-beginners.png",
+    "language_code": "zh-HK"
+  },
+  "ai-intro.bf28d1ac4235881c.webp": {
+    "original_hash": "9d1e65416cc17cf9a373a1cff01f04a4",
+    "translation_date": "2026-01-15T12:15:47+00:00",
+    "source_file": "lessons/sketchnotes/ai-intro.png",
+    "language_code": "zh-HK"
+  },
+  "ai-neuralnetworks.1c687ae40bc86e83.webp": {
+    "original_hash": "6426ed635d4beb0ee499d634dfb61d65",
+    "translation_date": "2026-01-15T12:16:29+00:00",
+    "source_file": "lessons/sketchnotes/ai-neuralnetworks.png",
+    "language_code": "zh-HK"
+  },
+  "ai-nlp.b22dcb8ca4707cea.webp": {
+    "original_hash": "fc9259e7fd3bcbc2ce15909701a4c284",
+    "translation_date": "2026-01-15T12:12:43+00:00",
+    "source_file": "lessons/sketchnotes/ai-nlp.png",
+    "language_code": "zh-HK"
+  },
+  "ai-overview.0857791951d19500.webp": {
+    "original_hash": "7206f99da5c2b99d21581f946a660235",
+    "translation_date": "2026-01-15T12:15:03+00:00",
+    "source_file": "lessons/sketchnotes/ai-overview.png",
+    "language_code": "zh-HK"
+  },
+  "ai-symbolic.715a30cb610411a6.webp": {
+    "original_hash": "69d3628566f680ac8543651aa6fd520c",
+    "translation_date": "2026-01-15T12:13:27+00:00",
+    "source_file": "lessons/sketchnotes/ai-symbolic.png",
+    "language_code": "zh-HK"
+  },
+  "arch-human.5d4d35f1bba3ab1c.webp": {
+    "original_hash": "3b41c1a38a69fb1104f5ddc48163538d",
+    "translation_date": "2026-01-15T12:29:46+00:00",
+    "source_file": "lessons/2-Symbolic/images/arch-human.png",
+    "language_code": "zh-HK"
+  },
+  "arch-kbs.3ec5c150b09fa8da.webp": {
+    "original_hash": "f470e6ec071db529cd3149052cfeb8ff",
+    "translation_date": "2026-01-15T12:30:01+00:00",
+    "source_file": "lessons/2-Symbolic/images/arch-kbs.png",
+    "language_code": "zh-HK"
+  },
+  "artneuron.1a5daa88d20ebe6f.webp": {
+    "original_hash": "c2d8af8285e1eee1cf6c5ba4762f70ab",
+    "translation_date": "2026-01-15T12:32:10+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/artneuron.png",
+    "language_code": "zh-HK"
+  },
+  "ascii-character-map.18ed6aa7f3b0a7ff.webp": {
+    "original_hash": "afc5ff2601be320926d89f1ad897eda8",
+    "translation_date": "2026-01-15T12:35:21+00:00",
+    "source_file": "lessons/5-NLP/13-TextRep/images/ascii-character-map.png",
+    "language_code": "zh-HK"
+  },
+  "autoencoder_schema.5e6fc9ad98a5eb61.webp": {
+    "original_hash": "3fb68572368c18bc334ef8d6dec0fee5",
+    "translation_date": "2026-01-15T12:16:59+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/images/autoencoder_schema.jpg",
+    "language_code": "zh-HK"
+  },
+  "bag-of-words-example.606fc1738f1d7ba9.webp": {
+    "original_hash": "a8fa84622ff35939e498d06fac3fa515",
+    "translation_date": "2026-01-15T12:34:26+00:00",
+    "source_file": "lessons/5-NLP/13-TextRep/images/bag-of-words-example.png",
+    "language_code": "zh-HK"
+  },
+  "bahdanau-fig3.09ba2d37f202a6af.webp": {
+    "original_hash": "b5cfbb9cad3b0d3fbdcc63dcd2ed514f",
+    "translation_date": "2026-01-15T12:37:14+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/bahdanau-fig3.png",
+    "language_code": "zh-HK"
+  },
+  "bot-ner.4b09235dbb0ad275.webp": {
+    "original_hash": "5e61aca4f94182c7e7d509b8d2de3c9f",
+    "translation_date": "2026-01-15T12:38:38+00:00",
+    "source_file": "lessons/5-NLP/19-NER/images/bot-ner.png",
+    "language_code": "zh-HK"
+  },
+  "bow.3811869cff59368d.webp": {
+    "original_hash": "bfcb38af6b1cbc8c2e86101127b642ac",
+    "translation_date": "2026-01-15T12:34:56+00:00",
+    "source_file": "lessons/5-NLP/13-TextRep/images/bow.png",
+    "language_code": "zh-HK"
+  },
+  "braille-result.46530fea020b03c7.webp": {
+    "original_hash": "7c069b6ddda38dcd0b535a840b954ee1",
+    "translation_date": "2026-01-15T12:19:56+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/images/braille-result.png",
+    "language_code": "zh-HK"
+  },
+  "braille-symbols.0159185ab69d5339.webp": {
+    "original_hash": "5a7fddf66299dbb4eae490b631ee3a1c",
+    "translation_date": "2026-01-15T12:19:48+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/images/braille-symbols.png",
+    "language_code": "zh-HK"
+  },
+  "braille.341962ff76b1bd70.webp": {
+    "original_hash": "ef1d59d4fb17f1f019c18be162c5759a",
+    "translation_date": "2026-01-15T12:19:44+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/data/braille.jpeg",
+    "language_code": "zh-HK"
+  },
+  "cartpole.f52a67f27e058170.webp": {
+    "original_hash": "5399242e127ea1c18aa6ee405daecf51",
+    "translation_date": "2026-01-15T12:25:43+00:00",
+    "source_file": "lessons/6-Other/22-DeepRL/images/cartpole.png",
+    "language_code": "zh-HK"
+  },
+  "catsdogsdataset.a7aff8e6085fd3f0.webp": {
+    "original_hash": "3039ba35434f67e69ccbb44d9e6ee141",
+    "translation_date": "2026-01-15T12:19:40+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/catsdogsdataset.png",
+    "language_code": "zh-HK"
+  },
+  "clip-arch.b3dbf20b4e8ed8be.webp": {
+    "original_hash": "bdd1638453069a216e843e1a8fd70db0",
+    "translation_date": "2026-01-15T12:33:55+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/clip-arch.png",
+    "language_code": "zh-HK"
+  },
+  "clip-class.3af42ef0b2b19369.webp": {
+    "original_hash": "bdd1638453069a216e843e1a8fd70db0",
+    "translation_date": "2026-01-15T12:33:38+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/clip-class.png",
+    "language_code": "zh-HK"
+  },
+  "cnn-pyramid.85915455759ef0ce.webp": {
+    "original_hash": "7233ded4a920332806363d704bfb59a6",
+    "translation_date": "2026-01-15T12:22:50+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/cnn-pyramid.png",
+    "language_code": "zh-HK"
+  },
+  "coco-examples.71bc60380fa6cceb.webp": {
+    "original_hash": "bcfe5693147ca18d88cf43b1d2d5d6d7",
+    "translation_date": "2026-01-15T12:20:53+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/coco-examples.jpg",
+    "language_code": "zh-HK"
+  },
+  "convolutionExample.634615d5ff7081e0.webp": {
+    "original_hash": "5412e092848cb3cd4fa527aba3be0545",
+    "translation_date": "2026-01-15T12:23:44+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/convolutionExample.png",
+    "language_code": "zh-HK"
+  },
+  "data.50b2a9d5484bdbf0.webp": {
+    "original_hash": "e501593d25b15c8f8860fe11e3f1c4a7",
+    "translation_date": "2026-01-15T12:24:15+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/lab/images/data.png",
+    "language_code": "zh-HK"
+  },
+  "dcgan_generator.b500988ec2bc8ba5.webp": {
+    "original_hash": "a11642e50f68e41c69b1580c9b724ef1",
+    "translation_date": "2026-01-15T12:19:07+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/images/dcgan_generator.png",
+    "language_code": "zh-HK"
+  },
+  "dog-from-unsplash.426f9fbca2febc93.webp": {
+    "original_hash": "9669f6d7c9c8b74efdd1a82a262d1766",
+    "translation_date": "2026-01-15T12:19:26+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/dog-from-unsplash.jpg",
+    "language_code": "zh-HK"
+  },
+  "dsh_age.d212a30d4e54fb5f.webp": {
+    "original_hash": "61b9b2e2e29d9be9ae8f2edd8fa14ed4",
+    "translation_date": "2026-01-15T12:26:23+00:00",
+    "source_file": "lessons/1-Intro/images/dsh_age.png",
+    "language_code": "zh-HK"
+  },
+  "embedding-classifier-example.b77f021a7ee67eee.webp": {
+    "original_hash": "0c4233111f66d9c6925af5b97f9519a0",
+    "translation_date": "2026-01-15T12:39:22+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/images/embedding-classifier-example.png",
+    "language_code": "zh-HK"
+  },
+  "encoder-decoder-attention.7a726296894fb567.webp": {
+    "original_hash": "e0546cbc8252d764df7f7212b371f0ed",
+    "translation_date": "2026-01-15T12:36:33+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/encoder-decoder-attention.png",
+    "language_code": "zh-HK"
+  },
+  "example-algorithms-for-converting-words-to-vectors.fbe9207a726922f6.webp": {
+    "original_hash": "6e976f26b9bb4c7a021187e834132123",
+    "translation_date": "2026-01-15T12:39:46+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/images/example-algorithms-for-converting-words-to-vectors.png",
+    "language_code": "zh-HK"
+  },
+  "f-rcnn.3cda6d9bb4188875.webp": {
+    "original_hash": "fdafedad20701c95bdcf6bb923822ab1",
+    "translation_date": "2026-01-15T12:21:01+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/f-rcnn.png",
+    "language_code": "zh-HK"
+  },
+  "faster-rcnn.8d46c099b87ef30a.webp": {
+    "original_hash": "067e2ca96344fd6d0490e0530a922b36",
+    "translation_date": "2026-01-15T12:21:15+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/faster-rcnn.png",
+    "language_code": "zh-HK"
+  },
+  "favicon.37b561214b36d454.webp": {
+    "original_hash": "228faa6584f8ba1f7e9a75e3200112e9",
+    "translation_date": "2026-01-15T12:12:19+00:00",
+    "source_file": "images/favicon.png",
+    "language_code": "zh-HK"
+  },
+  "features.6291f9c7ba3a0b95.webp": {
+    "original_hash": "e2727bfacc1156e045d1879bbe86e189",
+    "translation_date": "2026-01-15T12:19:31+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/features.png",
+    "language_code": "zh-HK"
+  },
+  "filter-horiz.59b80ed4feb946ef.webp": {
+    "original_hash": "b081df9e2042850983a46ff817b88d55",
+    "translation_date": "2026-01-15T12:23:11+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/filter-horiz.png",
+    "language_code": "zh-HK"
+  },
+  "filter-vert.b7148390ca0bc356.webp": {
+    "original_hash": "bef527fda3ae7113ec9ebb3ab74a6298",
+    "translation_date": "2026-01-15T12:24:01+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/filter-vert.png",
+    "language_code": "zh-HK"
+  },
+  "frame-difference.706f805491a0883c.webp": {
+    "original_hash": "a141e72f08e1b8f7451392889af90072",
+    "translation_date": "2026-01-15T12:19:53+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/images/frame-difference.png",
+    "language_code": "zh-HK"
+  },
+  "gan_arch_detail.46b95fd366f8e543.webp": {
+    "original_hash": "ba3b25748ca02c3e725e9a1969ae5c5d",
+    "translation_date": "2026-01-15T12:18:51+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/images/gan_arch_detail.png",
+    "language_code": "zh-HK"
+  },
+  "gan_architecture.8f3a5ab62b8d5d69.webp": {
+    "original_hash": "4993c22b32d24c9d2d087645c2a90d81",
+    "translation_date": "2026-01-15T12:18:28+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/images/gan_architecture.png",
+    "language_code": "zh-HK"
+  },
+  "history-of-ai.7e83efa70b537f5a.webp": {
+    "original_hash": "644e648b98fcb10fb9713452ff02934d",
+    "translation_date": "2026-01-15T12:26:11+00:00",
+    "source_file": "lessons/1-Intro/images/history-of-ai.png",
+    "language_code": "zh-HK"
+  },
+  "ideal-cat-loop.999fbb8ff306e044.webp": {
+    "original_hash": "c54e983c591431338bf8ddac9ab8415b",
+    "translation_date": "2026-01-15T12:19:21+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/ideal-cat-loop.png",
+    "language_code": "zh-HK"
+  },
+  "ideal-cat.203dd4597643d6b0.webp": {
+    "original_hash": "5b44760be530a91be18a5cceebbc2cc3",
+    "translation_date": "2026-01-15T12:19:34+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/ideal-cat.png",
+    "language_code": "zh-HK"
+  },
+  "ideal-zebra.7f70e8b54ee15a7a.webp": {
+    "original_hash": "6944fb46795f714f0ce8e856c405498a",
+    "translation_date": "2026-01-15T12:19:13+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/ideal-zebra.png",
+    "language_code": "zh-HK"
+  },
+  "image.896e8254a2c60d45.webp": {
+    "original_hash": "0033165481f191386403b85801811833",
+    "translation_date": "2026-01-15T12:18:38+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/images/image.jpg",
+    "language_code": "zh-HK"
+  },
+  "inception.a6605b85bcbc6f52.webp": {
+    "original_hash": "ebf0f6b0257fffb906b532d86fce2a9c",
+    "translation_date": "2026-01-15T12:23:55+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/inception.png",
+    "language_code": "zh-HK"
+  },
+  "instance_vs_semantic.eee9812bebf8cd45.webp": {
+    "original_hash": "f21d7fdd7090fd9f8a3c1178a8521076",
+    "translation_date": "2026-01-15T12:17:25+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/images/instance_vs_semantic.jpeg",
+    "language_code": "zh-HK"
+  },
+  "iou_equation.9a4751d40fff4e11.webp": {
+    "original_hash": "0a27f4ab37ead8d77cdf94a0bbc99e4a",
+    "translation_date": "2026-01-15T12:20:48+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/iou_equation.png",
+    "language_code": "zh-HK"
+  },
+  "jalammarBERT-language-modeling-masked-lm.34f113ea5fec4362.webp": {
+    "original_hash": "47f7de9ada12b89dcfa75d81eb0aaf15",
+    "translation_date": "2026-01-15T12:36:56+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/jalammarBERT-language-modeling-masked-lm.png",
+    "language_code": "zh-HK"
+  },
+  "knowledge-spectrum.b60df631852c0217.webp": {
+    "original_hash": "71b049ee26a22a68996034585436ca59",
+    "translation_date": "2026-01-15T12:27:02+00:00",
+    "source_file": "lessons/2-Symbolic/images/knowledge-spectrum.png",
+    "language_code": "zh-HK"
+  },
+  "lmfilters.ea9e4868a82cf74c.webp": {
+    "original_hash": "aa029ea2c45afbac3026a0a558eeec43",
+    "translation_date": "2026-01-15T12:24:04+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/lmfilters.jpg",
+    "language_code": "zh-HK"
+  },
+  "ml-for-beginners.9e4fed176fd5817d.webp": {
+    "original_hash": "cd606a24083e039082b0486fc8382823",
+    "translation_date": "2026-01-15T12:25:50+00:00",
+    "source_file": "lessons/1-Intro/images/ml-for-beginners.png",
+    "language_code": "zh-HK"
+  },
+  "mountaincar.f7b7a7f6d4f9933b.webp": {
+    "original_hash": "61c868cc389dc92bd2b402ea490cd162",
+    "translation_date": "2026-01-15T12:25:46+00:00",
+    "source_file": "lessons/6-Other/22-DeepRL/lab/images/mountaincar.png",
+    "language_code": "zh-HK"
+  },
+  "multi-layer-lstm.dd975e29bb2a59fe.webp": {
+    "original_hash": "27b6355fd86c9e8e6d443015653be763",
+    "translation_date": "2026-01-15T12:35:33+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/images/multi-layer-lstm.jpg",
+    "language_code": "zh-HK"
+  },
+  "naive-detection.e7f1ba220ccd08c6.webp": {
+    "original_hash": "4c96961c12a09f8e055546ed2e7de470",
+    "translation_date": "2026-01-15T12:20:31+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/naive-detection.png",
+    "language_code": "zh-HK"
+  },
+  "navi.2f20b727910110ea.webp": {
+    "original_hash": "fd3a1b48f7317e152edb2d1d943da24e",
+    "translation_date": "2026-01-15T12:17:54+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/images/navi.png",
+    "language_code": "zh-HK"
+  },
+  "netout.1eb15eb76fd76731.webp": {
+    "original_hash": "187261e2b5036746ee9d9106b1f7df1b",
+    "translation_date": "2026-01-15T12:32:02+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/netout.png",
+    "language_code": "zh-HK"
+  },
+  "offset-sequence-representation.eb73fcefb29b46ee.webp": {
+    "original_hash": "52e7632a2b668957b903bb2607e953fe",
+    "translation_date": "2026-01-15T12:39:36+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/images/offset-sequence-representation.png",
+    "language_code": "zh-HK"
+  },
+  "optical.1f4a94464579a83a.webp": {
+    "original_hash": "1be97f7f2f58285c9960a90e5d5ae337",
+    "translation_date": "2026-01-15T12:20:03+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/images/optical.png",
+    "language_code": "zh-HK"
+  },
+  "original-dog.8f68a67d2fe0911f.webp": {
+    "original_hash": "3ed859629b4141f735fd0d3c1941f520",
+    "translation_date": "2026-01-15T12:19:43+00:00",
+    "source_file": "lessons/4-ComputerVision/08-TransferLearning/images/original-dog.png",
+    "language_code": "zh-HK"
+  },
+  "overfit.a0bd57f717c15769.webp": {
+    "original_hash": "810408efec3fc8cb44a2b4bc53466a6b",
+    "translation_date": "2026-01-15T12:33:13+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/images/overfit.png",
+    "language_code": "zh-HK"
+  },
+  "overfit1.f24b71c6f652e59e.webp": {
+    "original_hash": "76155698e85340d9dfff8e0a628d25c1",
+    "translation_date": "2026-01-15T12:32:32+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/overfit1.jpg",
+    "language_code": "zh-HK"
+  },
+  "overfit2.131f5800ae10ca5e.webp": {
+    "original_hash": "eb04381b2f222518ec400b98ebf441b2",
+    "translation_date": "2026-01-15T12:31:58+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/overfit2.jpg",
+    "language_code": "zh-HK"
+  },
+  "palm-movement.341495f0e9c47da3.webp": {
+    "original_hash": "100780b2e1d5adff2739adf58fc18404",
+    "translation_date": "2026-01-15T12:19:59+00:00",
+    "source_file": "lessons/4-ComputerVision/06-IntroCV/images/palm-movement.png",
+    "language_code": "zh-HK"
+  },
+  "photo-cat.8c8e8fb760ffe457.webp": {
+    "original_hash": "29d10fef28d240c48995ef9dd23e477a",
+    "translation_date": "2026-01-15T12:26:20+00:00",
+    "source_file": "lessons/1-Intro/images/photo-cat.jpg",
+    "language_code": "zh-HK"
+  },
+  "pos-embedding.e41ce9b6cf6078af.webp": {
+    "original_hash": "f0910082dcac063f3baae2e1f28b4e30",
+    "translation_date": "2026-01-15T12:37:35+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/pos-embedding.png",
+    "language_code": "zh-HK"
+  },
+  "protege.274177ceeac13b38.webp": {
+    "original_hash": "56d5a5aba9b9e89a927f7fdc42ba16f5",
+    "translation_date": "2026-01-15T12:31:19+00:00",
+    "source_file": "lessons/2-Symbolic/images/protege.png",
+    "language_code": "zh-HK"
+  },
+  "r-fcn.13eb88158b99a3da.webp": {
+    "original_hash": "38cd0e0105546e56fa17b711d445195f",
+    "translation_date": "2026-01-15T12:21:27+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/r-fcn.png",
+    "language_code": "zh-HK"
+  },
+  "rcnn1.cae407020dfb1d1f.webp": {
+    "original_hash": "9cf0ea86d9dadf06a31cd109efc49796",
+    "translation_date": "2026-01-15T12:21:07+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/rcnn1.png",
+    "language_code": "zh-HK"
+  },
+  "rcnn2.2d9530bb83516484.webp": {
+    "original_hash": "cc44ad151b6d88e2838db475e7ab5dff",
+    "translation_date": "2026-01-15T12:21:47+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/rcnn2.png",
+    "language_code": "zh-HK"
+  },
+  "resnet-block.aba4ccbcc0944434.webp": {
+    "original_hash": "cf2131c7cb1053d6d2559ef83df057a8",
+    "translation_date": "2026-01-15T12:22:25+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/resnet-block.png",
+    "language_code": "zh-HK"
+  },
+  "rnn-anatomy.79ee3f3920b3294b.webp": {
+    "original_hash": "cac3c7102f2bc410efd6230b3bc58c63",
+    "translation_date": "2026-01-15T12:35:48+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/images/rnn-anatomy.png",
+    "language_code": "zh-HK"
+  },
+  "rnn-generate-inf.5168dc65e0370eea.webp": {
+    "original_hash": "d3ed5c87de90c01b0b77ca02580b3707",
+    "translation_date": "2026-01-15T12:39:12+00:00",
+    "source_file": "lessons/5-NLP/17-GenerativeNetworks/images/rnn-generate-inf.png",
+    "language_code": "zh-HK"
+  },
+  "rnn-generate.56c54afb52f9781d.webp": {
+    "original_hash": "67332ada2d0603921bba37c06956c70e",
+    "translation_date": "2026-01-15T12:39:03+00:00",
+    "source_file": "lessons/5-NLP/17-GenerativeNetworks/images/rnn-generate.png",
+    "language_code": "zh-HK"
+  },
+  "rnn.27f5c29c53d727b5.webp": {
+    "original_hash": "bed0f1884d1a2c2620e6ba741af994b8",
+    "translation_date": "2026-01-15T12:36:10+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/images/rnn.png",
+    "language_code": "zh-HK"
+  },
+  "segm.92442f2cb42ff4fa.webp": {
+    "original_hash": "87d6cbfe87db8fd64b45fa75ba863e60",
+    "translation_date": "2026-01-15T12:18:04+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/images/segm.png",
+    "language_code": "zh-HK"
+  },
+  "segnet.87377542aa5a8b76.webp": {
+    "original_hash": "fa6d2d499aa2ae589a14caede7534561",
+    "translation_date": "2026-01-15T12:18:16+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/images/segnet.png",
+    "language_code": "zh-HK"
+  },
+  "style.5293e85e077ab22c.webp": {
+    "original_hash": "f797246177c68cc33bcdf7abae8c9b68",
+    "translation_date": "2026-01-15T12:18:35+00:00",
+    "source_file": "lessons/4-ComputerVision/10-GANs/images/style.jpg",
+    "language_code": "zh-HK"
+  },
+  "synapse-wikipedia.ed20a9e4726ea1c6.webp": {
+    "original_hash": "88212730ecd9b0c8b848c319951427d8",
+    "translation_date": "2026-01-15T12:31:51+00:00",
+    "source_file": "lessons/3-NeuralNetworks/images/synapse-wikipedia.jpg",
+    "language_code": "zh-HK"
+  },
+  "transformer-layer.905e14747ca4e7d5.webp": {
+    "original_hash": "dc9e2e401fa5e5c36a322b6721476ccd",
+    "translation_date": "2026-01-15T12:37:54+00:00",
+    "source_file": "lessons/5-NLP/18-Transformers/images/transformer-layer.png",
+    "language_code": "zh-HK"
+  },
+  "triplet-complex.32094972c7b4441b.webp": {
+    "original_hash": "56a2e05839a141c311db52655b37f8ad",
+    "translation_date": "2026-01-15T12:29:22+00:00",
+    "source_file": "lessons/2-Symbolic/images/triplet-complex.png",
+    "language_code": "zh-HK"
+  },
+  "triplet.4b9b332587593298.webp": {
+    "original_hash": "302e53ea355ffb556d99e3962d0a6516",
+    "translation_date": "2026-01-15T12:30:21+00:00",
+    "source_file": "lessons/2-Symbolic/images/triplet.png",
+    "language_code": "zh-HK"
+  },
+  "turing-test-evol.4184696701293ead.webp": {
+    "original_hash": "80d11b1074d61e5d6e4a207f72902e89",
+    "translation_date": "2026-01-15T12:26:36+00:00",
+    "source_file": "lessons/1-Intro/images/turing-test-evol.png",
+    "language_code": "zh-HK"
+  },
+  "unet.3adb555bf39d3657.webp": {
+    "original_hash": "49a151c11708ee9a3e94d21448146bf8",
+    "translation_date": "2026-01-15T12:17:45+00:00",
+    "source_file": "lessons/4-ComputerVision/12-Segmentation/images/unet.png",
+    "language_code": "zh-HK"
+  },
+  "unreasonable-effectiveness-of-rnn.541ead816778f42d.webp": {
+    "original_hash": "2a37bd4e9b12bcc19e045eaf22fea4e5",
+    "translation_date": "2026-01-15T12:38:54+00:00",
+    "source_file": "lessons/5-NLP/17-GenerativeNetworks/images/unreasonable-effectiveness-of-rnn.jpg",
+    "language_code": "zh-HK"
+  },
+  "vae.464c465a5b6a9e25.webp": {
+    "original_hash": "0b658c7862077e139162c756bcb98071",
+    "translation_date": "2026-01-15T12:16:49+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/images/vae.png",
+    "language_code": "zh-HK"
+  },
+  "vaemnist-diag.694315f775d5d666.webp": {
+    "original_hash": "0652f5a95005348c6b1533438103dfcf",
+    "translation_date": "2026-01-15T12:16:54+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/images/vaemnist-diag.png",
+    "language_code": "zh-HK"
+  },
+  "vaemnist.cab9e602dc08dc50.webp": {
+    "original_hash": "8159b2f649e6dd8efa071455d6f222b6",
+    "translation_date": "2026-01-15T12:17:05+00:00",
+    "source_file": "lessons/4-ComputerVision/09-Autoencoders/images/vaemnist.png",
+    "language_code": "zh-HK"
+  },
+  "vgg-16-arch.64ff2137f50dd49f.webp": {
+    "original_hash": "9fc348503d0ec03875e4b46f896f3aa9",
+    "translation_date": "2026-01-15T12:23:32+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/vgg-16-arch.jpg",
+    "language_code": "zh-HK"
+  },
+  "vgg-16-arch1.d901a5583b3a51ba.webp": {
+    "original_hash": "5b0f835d04dc20d097a0b89c88339966",
+    "translation_date": "2026-01-15T12:23:20+00:00",
+    "source_file": "lessons/4-ComputerVision/07-ConvNets/images/vgg-16-arch1.jpg",
+    "language_code": "zh-HK"
+  },
+  "vqgan.5027fe05051dfa31.webp": {
+    "original_hash": "845e5593c927fd3c3c125a90d0f8eb87",
+    "translation_date": "2026-01-15T12:34:17+00:00",
+    "source_file": "lessons/X-Extras/X1-MultiModal/images/vqgan.png",
+    "language_code": "zh-HK"
+  },
+  "yolo.a2648ec82ee8bb4e.webp": {
+    "original_hash": "e8835638234f5c21fcf36fdede6457f4",
+    "translation_date": "2026-01-15T12:21:35+00:00",
+    "source_file": "lessons/4-ComputerVision/11-ObjectDetection/images/yolo.png",
+    "language_code": "zh-HK"
+  }
+}

@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f9f06b266b8b2bfc6b8792ff2bb1bea4",
-  "translation_date": "2026-01-16T03:35:15+00:00",
-  "source_file": "lessons/2-Symbolic/README.md",
-  "language_code": "he"
-}
--->
 # ייצוג ידע ומערכות מומחים
 
-![תקציר של תוכן בינה מלאכותית סמנטית](../../../../../../translated_images/he/ai-symbolic.715a30cb610411a6.webp)
+![תקציר של תוכן בינה מלאכותית סמנטית](../../../../translated_images/he/ai-symbolic.715a30cb610411a6.webp)
 
 > סקצ'נוט מאת [Tomomi Imura](https://twitter.com/girlie_mac)
 
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 לכן, בעיית ה**ייצוג ידע** היא למצוא דרך יעילה לייצג ידע בתוך מחשב בצורת נתונים, כדי שניתן יהיה להשתמש בו באופן אוטומטי. זה ניתן לראות כספקטרום:
 
-![ספקטרום ייצוג ידע](../../../../../../translated_images/he/knowledge-spectrum.b60df631852c0217.webp)
+![ספקטרום ייצוג ידע](../../../../translated_images/he/knowledge-spectrum.b60df631852c0217.webp)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -94,7 +85,7 @@ Python | תחביר בלוקים | הזחה
 
 אחד ההצלחות המוקדמות של הבינה המלאכותית הסמלית היו מה שנקרא **מערכות מומחים** - מערכות מחשב שמטרתן לפעול כמומחים בתחום בעיה מוגבל. הן התבססו על **בסיס ידע** שחולץ מאחד או יותר מומחים אנושיים, והכילו **מנוע היסק** שביצע היסק על בסיס זה.
 
-![ארכיטקטורה אנושית](../../../../../../translated_images/he/arch-human.5d4d35f1bba3ab1c.webp) | ![מערכת מבוססת ידע](../../../../../../translated_images/he/arch-kbs.3ec5c150b09fa8da.webp)  
+![ארכיטקטורה אנושית](../../../../translated_images/he/arch-human.5d4d35f1bba3ab1c.webp) | ![מערכת מבוססת ידע](../../../../translated_images/he/arch-kbs.3ec5c150b09fa8da.webp)  
 ---------------------------------------------|------------------------------------------------  
 מבנה מפושט של מערכת עצבית אנושית  | ארכיטקטורה של מערכת מבוססת ידע  
 
@@ -106,7 +97,7 @@ Python | תחביר בלוקים | הזחה
 
 לדוגמה, נשקול את מערכת המומחה הבאה לקביעת חיה בהתבסס על התכונות הפיזיות שלה:
 
-![עץ AND-OR](../../../../../../translated_images/he/AND-OR-Tree.5592d2c70187f283.webp)
+![עץ AND-OR](../../../../translated_images/he/AND-OR-Tree.5592d2c70187f283.webp)
 
 > תמונה מאת [Dmitry Soshnikov](http://soshnikov.com)
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "51be6057374d01d70e07dd5ec88ebc0d",
-  "translation_date": "2025-09-23T10:43:50+00:00",
-  "source_file": "lessons/5-NLP/17-GenerativeNetworks/README.md",
-  "language_code": "id"
-}
--->
 # Jaringan Generatif
 
 ## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ai/quiz/33)
@@ -36,7 +27,7 @@ Kita akan melatih RNN ini untuk menghasilkan teks langkah demi langkah. Pada set
 
 Saat menghasilkan teks (selama inferensi), kita mulai dengan beberapa **prompt**, yang dilewatkan melalui sel RNN untuk menghasilkan status intermediate-nya, dan kemudian dari status ini proses generasi dimulai. Kita menghasilkan satu karakter pada satu waktu, dan melewatkan status serta karakter yang dihasilkan ke sel RNN lainnya untuk menghasilkan karakter berikutnya, hingga kita menghasilkan cukup karakter.
 
-<img src="images/rnn-generate-inf.png" width="60%"/>
+<img src="../../../../../translated_images/id/rnn-generate-inf.5168dc65e0370eea.webp" width="60%"/>
 
 > Gambar oleh penulis
 

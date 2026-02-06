@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "53faab85adfcebd8c10bcd71dc2fa557",
-  "translation_date": "2025-09-23T11:10:28+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md",
-  "language_code": "hu"
-}
--->
 # Jól ismert CNN architektúrák
 
 ### VGG-16
@@ -25,7 +16,7 @@ Ahogy látható, a VGG egy hagyományos piramis architektúrát követ, amely eg
 
 A ResNet egy modellekből álló család, amelyet a Microsoft Research javasolt 2015-ben. A ResNet fő ötlete az **reziduális blokkok** használata:
 
-<img src="images/resnet-block.png" width="300"/>
+<img src="../../../../../translated_images/hu/resnet-block.aba4ccbcc0944434.webp" width="300"/>
 
 > Kép forrása: [ez a tanulmány](https://arxiv.org/pdf/1512.03385.pdf)
 
@@ -37,7 +28,7 @@ Ezt a hálózatot úgy is elképzelhetjük, mint amely képes a komplexitását 
 
 A Google Inception architektúra ezt az ötletet egy lépéssel tovább viszi, és minden hálózati réteget több különböző útvonal kombinációjaként épít fel:
 
-<img src="images/inception.png" width="400"/>
+<img src="../../../../../translated_images/hu/inception.a6605b85bcbc6f52.webp" width="400"/>
 
 > Kép forrása: [Researchgate](https://www.researchgate.net/figure/Inception-module-with-dimension-reductions-left-and-schema-for-Inception-ResNet-v1_fig2_355547454)
 

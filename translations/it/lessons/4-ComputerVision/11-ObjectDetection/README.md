@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T08:29:30+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "it"
-}
--->
 # Rilevamento degli Oggetti
 
 I modelli di classificazione delle immagini che abbiamo trattato finora prendevano un'immagine e producevano un risultato categorico, come la classe 'numero' in un problema MNIST. Tuttavia, in molti casi non vogliamo solo sapere che un'immagine rappresenta degli oggetti - vogliamo essere in grado di determinare la loro posizione precisa. Questo è esattamente l'obiettivo del **rilevamento degli oggetti**.

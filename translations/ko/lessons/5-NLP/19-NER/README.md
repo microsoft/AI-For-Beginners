@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T13:25:02+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "ko"
-}
--->
 # 개체명 인식
 
 지금까지 우리는 주로 하나의 NLP 작업인 분류에 집중해 왔습니다. 하지만 신경망을 사용하여 수행할 수 있는 다른 NLP 작업들도 있습니다. 그 중 하나가 **[개체명 인식](https://wikipedia.org/wiki/Named-entity_recognition)**(NER)으로, 텍스트 내에서 장소, 사람 이름, 날짜-시간 간격, 화학식 등 특정 개체를 인식하는 작업을 다룹니다.
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Amazon Alexa나 Google Assistant와 같은 자연어 챗봇을 개발하고 싶다고 가정해 봅시다. 지능형 챗봇이 작동하는 방식은 입력 문장에 대해 텍스트 분류를 수행하여 사용자가 원하는 것을 *이해*하는 것입니다. 이 분류의 결과는 챗봇이 무엇을 해야 할지를 결정하는 **의도(intent)**입니다.
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/ko/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > 이미지 출처: 작성자
 

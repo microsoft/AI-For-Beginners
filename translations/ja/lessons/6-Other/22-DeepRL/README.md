@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T13:05:56+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "ja"
-}
--->
 # 深層強化学習
 
 強化学習（Reinforcement Learning, RL）は、教師あり学習や教師なし学習と並ぶ基本的な機械学習のパラダイムの一つとされています。教師あり学習では既知の結果を含むデータセットに依存しますが、RLは**実践を通じて学ぶ**ことに基づいています。例えば、初めてコンピュータゲームを見たとき、ルールを知らなくてもプレイを始め、プレイを繰り返しながら行動を調整することでスキルを向上させることができます。
@@ -34,7 +25,7 @@ RLにとって非常に便利なツールが[OpenAI Gym](https://gym.openai.com/
 
 簡略化されたバランス問題は**カートポール**問題として知られています。カートポールの世界では、左右に動く水平スライダーがあり、その上に垂直のポールをバランスさせるのが目標です。
 
-<img alt="カートポール" src="images/cartpole.png" width="200"/>
+<img alt="カートポール" src="../../../../../translated_images/ja/cartpole.f52a67f27e058170.webp" width="200"/>
 
 この環境を作成して使用するには、以下のような数行のPythonコードが必要です：
 

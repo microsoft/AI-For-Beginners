@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:49:04+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "sw"
-}
--->
 # Mwongozo wa Kutatua Matatizo ya AI-For-Beginners
 
 Mwongozo huu unakusaidia kutatua matatizo ya kawaida unayokutana nayo unapotumia au kuchangia kwenye [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) hifadhi. Kila tatizo lina maelezo ya msingi, dalili, maelezo, na hatua za kutatua.

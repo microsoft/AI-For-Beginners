@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T03:33:24+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "he"
-}
--->
 # כיצד להריץ את הקוד
 
 תכנית הלימודים הזו מכילה הרבה דוגמאות מעשיות ומעבדות שתרצו להריץ. כדי לעשות זאת, עליכם להיות מסוגלים להריץ קוד פייתון ב-Jupyter Notebooks המסופקים כחלק מתכנית הלימודים הזו. יש לכם כמה אפשרויות להרצת הקוד:

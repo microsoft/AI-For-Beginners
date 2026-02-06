@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-15T12:09:55+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "ja"
-}
--->
 # コードの実行方法
 
 このカリキュラムには、多くの実行可能な例とラボが含まれており、それらを実行したいと思うでしょう。そのためには、このカリキュラムの一部として提供されるJupyterノートブックでPythonコードを実行する能力が必要です。コードを実行する方法はいくつかあります：

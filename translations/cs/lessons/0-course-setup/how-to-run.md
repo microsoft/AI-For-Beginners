@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T04:54:29+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "cs"
-}
--->
 # Jak spustit kód
 
 Tento kurz obsahuje spoustu spustitelných příkladů a laboratorních cvičení, která budete chtít spustit. K tomu je potřeba mít možnost spouštět Python kód v Jupyter Noteboocích poskytnutých jako součást tohoto kurzu. Pro spuštění kódu máte několik možností:

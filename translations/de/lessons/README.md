@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
-  "translation_date": "2025-08-24T09:29:11+00:00",
-  "source_file": "lessons/README.md",
-  "language_code": "de"
-}
--->
 # Überblick
 
 ![Überblick in einer Kritzelei](../../../lessons/sketchnotes/ai-overview.png)

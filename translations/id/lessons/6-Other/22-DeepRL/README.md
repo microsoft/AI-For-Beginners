@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T10:37:41+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "id"
-}
--->
 # Pembelajaran Penguatan Mendalam
 
 Pembelajaran penguatan (Reinforcement Learning atau RL) dianggap sebagai salah satu paradigma dasar dalam pembelajaran mesin, selain pembelajaran terawasi dan pembelajaran tanpa pengawasan. Dalam pembelajaran terawasi, kita bergantung pada dataset dengan hasil yang sudah diketahui, sedangkan RL didasarkan pada **belajar dengan melakukan**. Misalnya, ketika kita pertama kali melihat sebuah permainan komputer, kita mulai bermain meskipun tidak tahu aturannya, dan segera kita dapat meningkatkan kemampuan kita hanya melalui proses bermain dan menyesuaikan perilaku.
@@ -34,7 +25,7 @@ Anda mungkin pernah melihat perangkat keseimbangan modern seperti *Segway* atau 
 
 Versi sederhana dari keseimbangan ini dikenal sebagai masalah **CartPole**. Dalam dunia CartPole, kita memiliki slider horizontal yang dapat bergerak ke kiri atau ke kanan, dan tujuannya adalah menyeimbangkan tiang vertikal di atas slider saat bergerak.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/id/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Untuk membuat dan menggunakan lingkungan ini, kita membutuhkan beberapa baris kode Python:
 

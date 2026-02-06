@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-25T21:24:08+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "cs"
-}
--->
 # Etická a odpovědná AI
 
 Tento kurz máte téměř za sebou a doufám, že nyní jasně vidíte, že AI je založena na řadě formálních matematických metod, které nám umožňují nacházet vztahy v datech a trénovat modely, aby napodobovaly některé aspekty lidského chování. V této fázi historie považujeme AI za velmi mocný nástroj pro extrakci vzorců z dat a jejich aplikaci na řešení nových problémů.

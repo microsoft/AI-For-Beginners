@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T13:17:29+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "ko"
-}
--->
 # 딥 강화 학습
 
 강화 학습(RL)은 지도 학습과 비지도 학습과 함께 기본적인 머신 러닝 패러다임 중 하나로 여겨집니다. 지도 학습에서는 결과가 알려진 데이터셋에 의존하는 반면, RL은 **직접 해보며 배우는 것**에 기반합니다. 예를 들어, 처음 컴퓨터 게임을 접했을 때 규칙을 몰라도 게임을 시작하고, 게임을 하면서 행동을 조정하는 과정을 통해 점점 실력을 향상시킬 수 있습니다.
@@ -34,7 +25,7 @@ RL을 위한 훌륭한 도구로 [OpenAI Gym](https://gym.openai.com/)이 있습
 
 균형 잡기의 간단한 버전은 **CartPole** 문제로 알려져 있습니다. CartPole 세계에서는 좌우로 움직일 수 있는 수평 슬라이더가 있으며, 목표는 슬라이더 위에 세워진 수직 막대를 균형 잡는 것입니다.
 
-<img alt="a cartpole" src="images/cartpole.png" width="200"/>
+<img alt="a cartpole" src="../../../../../translated_images/ko/cartpole.f52a67f27e058170.webp" width="200"/>
 
 이 환경을 생성하고 사용하는 데 필요한 Python 코드 몇 줄은 다음과 같습니다:
 

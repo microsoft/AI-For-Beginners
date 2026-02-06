@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T06:38:34+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ar"
-}
--->
 # الشبكات العصبية المتكررة
 
 ## [اختبار ما قبل المحاضرة](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 تحتوي خلية RNN بسيطة على مصفوفتين وزنيتين داخليًا: واحدة تحول رمز المدخل (دعونا نسميها W)، والأخرى تحول حالة المدخل (H). في هذه الحالة يتم حساب مخرج الشبكة كـ &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b)، حيث &sigma; هي دالة التنشيط وb هو انحياز إضافي.
 
-<img alt="تشريح خلية RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="تشريح خلية RNN" src="../../../../../translated_images/ar/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > الصورة من إعداد المؤلف
 

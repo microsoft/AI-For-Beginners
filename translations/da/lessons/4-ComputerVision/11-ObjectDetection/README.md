@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T09:29:37+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "da"
-}
--->
 # Objektgenkendelse
 
 De billedklassifikationsmodeller, vi hidtil har arbejdet med, tog et billede og producerede et kategorisk resultat, som f.eks. klassen 'nummer' i et MNIST-problem. Men i mange tilfælde ønsker vi ikke blot at vide, at et billede viser objekter – vi vil også kunne bestemme deres præcise placering. Det er netop formålet med **objektgenkendelse**.

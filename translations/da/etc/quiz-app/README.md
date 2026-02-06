@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-28T16:07:27+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "da"
-}
--->
 # Quizzer
 
 Disse quizzer er før- og efterforelæsningsquizzer for AI-læseplanen på https://aka.ms/ai-beginners

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T12:09:39+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "es"
-}
--->
 # Redes Generativas Antagónicas
 
 En la sección anterior, aprendimos sobre los **modelos generativos**: modelos que pueden generar nuevas imágenes similares a las del conjunto de datos de entrenamiento. VAE fue un buen ejemplo de un modelo generativo.
@@ -17,7 +8,7 @@ Sin embargo, si intentamos generar algo realmente significativo, como una pintur
 
 La idea principal de una GAN es tener dos redes neuronales que se entrenan una contra la otra:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/es/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Un Generador es un poco más complicado. Puedes considerarlo como un discriminad
 
 > ✅ Debido a que la capa de convolución se implementa como un filtro lineal que recorre la imagen, la deconvolución es esencialmente similar a la convolución y puede implementarse utilizando la misma lógica de capa.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/es/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 

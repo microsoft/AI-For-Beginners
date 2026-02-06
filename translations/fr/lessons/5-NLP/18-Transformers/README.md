@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T12:03:26+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "fr"
-}
--->
 # Mécanismes d'Attention et Transformers
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ L'idée de l'encodage positionnel est la suivante :
 * Embedding entraînable, similaire à l'embedding des tokens. C'est l'approche que nous considérons ici. Nous appliquons des couches d'embedding à la fois sur les tokens et leurs positions, ce qui donne des vecteurs d'embedding de mêmes dimensions, que nous additionnons ensuite.
 * Fonction d'encodage positionnel fixe, comme proposé dans l'article original.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/fr/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Image par l'auteur
 

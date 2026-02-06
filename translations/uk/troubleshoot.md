@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "8d9c5a4a7c7798d699672a22cb7fea86",
-  "translation_date": "2025-10-03T09:54:15+00:00",
-  "source_file": "troubleshoot.md",
-  "language_code": "uk"
-}
--->
 # Посібник з усунення несправностей AI-For-Beginners
 
 Цей посібник допоможе вам вирішити поширені проблеми, які виникають під час використання або внесення змін до репозиторію [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners). Кожна проблема містить опис, симптоми, пояснення та покрокові рішення.

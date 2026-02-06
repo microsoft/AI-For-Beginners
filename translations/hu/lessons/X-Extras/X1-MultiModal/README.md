@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-25T23:36:32+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "hu"
-}
--->
 # Multi-Modális Hálózatok
 
 A transzformer modellek sikerét követően az NLP feladatok megoldásában, hasonló architektúrákat kezdtek alkalmazni a számítógépes látás feladataira is. Egyre nagyobb az érdeklődés olyan modellek építése iránt, amelyek *kombinálják* a látás és a természetes nyelv feldolgozásának képességeit. Az egyik ilyen próbálkozás az OpenAI által készült CLIP és DALL.E.

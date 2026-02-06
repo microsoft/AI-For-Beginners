@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-24T21:14:04+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "ja"
-}
--->
 ## 環境
 
 Mountain Carの環境は、谷底に閉じ込められた車で構成されています。目標は谷を飛び越えて旗に到達することです。実行できるアクションは、左に加速する、右に加速する、または何もしないの3つです。観測できるのは、車のx軸上の位置と速度です。

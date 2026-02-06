@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T09:55:16+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "fi"
-}
--->
 # Syvävahvistusoppiminen
 
 Vahvistusoppiminen (RL) nähdään yhtenä koneoppimisen perusparadigmoista, yhdessä ohjatun oppimisen ja ohjaamattoman oppimisen kanssa. Siinä missä ohjatussa oppimisessa tukeudumme tunnettuja tuloksia sisältävään aineistoon, RL perustuu **oppimiseen tekemällä**. Esimerkiksi, kun näemme ensimmäistä kertaa tietokonepelin, alamme pelata sitä, vaikka emme tiedä sääntöjä, ja pian pystymme parantamaan taitojamme pelkästään pelaamalla ja mukauttamalla käyttäytymistämme.
@@ -34,7 +25,7 @@ Olette varmasti nähneet moderneja tasapainolaitteita, kuten *Segway* tai *Gyros
 
 Yksinkertaistettu versio tasapainottamisesta tunnetaan nimellä **CartPole-ongelma**. CartPole-maailmassa meillä on vaakasuuntainen liukusäädin, joka voi liikkua vasemmalle tai oikealle, ja tavoitteena on tasapainottaa pystysuora tanko liukusäätimen päällä sen liikkuessa.
 
-<img alt="cartpole" src="images/cartpole.png" width="200"/>
+<img alt="cartpole" src="../../../../../translated_images/fi/cartpole.f52a67f27e058170.webp" width="200"/>
 
 Tämän ympäristön luomiseen ja käyttämiseen tarvitsemme muutaman rivin Python-koodia:
 

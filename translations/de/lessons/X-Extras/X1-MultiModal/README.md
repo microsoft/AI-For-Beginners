@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-24T09:39:16+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "de"
-}
--->
 # Multi-Modale Netzwerke
 
 Nach dem Erfolg von Transformer-Modellen bei der Lösung von NLP-Aufgaben wurden ähnliche Architekturen auch auf Aufgaben der Computer Vision angewendet. Es gibt ein wachsendes Interesse daran, Modelle zu entwickeln, die Vision- und Sprachfähigkeiten *kombinieren*. Ein solcher Versuch wurde von OpenAI unternommen und nennt sich CLIP und DALL.E.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-11-25T23:02:18+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "ml"
-}
--->
 # റികറന്റ് ന്യൂറൽ നെറ്റ്വർക്കുകൾ
 
 ## [പ്രീ-ലെക്ചർ ക്വിസ്](https://ff-quizzes.netlify.app/en/ai/quiz/31)

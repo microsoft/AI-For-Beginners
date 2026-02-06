@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "789d6c3fb6fc7948a470b33078a5983a",
-  "translation_date": "2025-09-23T07:21:25+00:00",
-  "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/README.md",
-  "language_code": "ne"
-}
--->
 # न्युरल नेटवर्कको परिचय। मल्टि-लेयर्ड पर्सेप्ट्रोन
 
 अघिल्लो खण्डमा, तपाईंले सबैभन्दा सरल न्युरल नेटवर्क मोडेल - एक-स्तरीय पर्सेप्ट्रोन, एक रेखीय दुई-वर्ग वर्गीकरण मोडेलको बारेमा सिक्नुभयो।
@@ -65,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ध्यान दिनुहोस् कि यी सबै अभिव्यक्तिहरूको बाँया-पक्षीय भाग उस्तै छ, र यसरी हामी प्रभावकारी रूपमा लस फङ्सनबाट सुरु गरेर "पछाडि" कम्प्युटेशनल ग्राफ मार्फत डेरिभेटिभहरू गणना गर्न सक्छौं। यसरी मल्टि-लेयर्ड पर्सेप्ट्रोनको प्रशिक्षण विधिलाई **backpropagation**, वा 'backprop' भनिन्छ।
 
-<img alt="compute graph" src="images/ComputeGraphGrad.png"/>
+<img alt="compute graph" src="../../../../../translated_images/ne/ComputeGraphGrad.4626252c0de03507.webp"/>
 
 > TODO: चित्र स्रोत
 

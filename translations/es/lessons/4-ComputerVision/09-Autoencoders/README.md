@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "1b8d9e1b3a6f1daa864b1ff3dfc3076d",
-  "translation_date": "2025-09-23T12:08:58+00:00",
-  "source_file": "lessons/4-ComputerVision/09-Autoencoders/README.md",
-  "language_code": "es"
-}
--->
 # Autoencoders
 
 Al entrenar CNNs, uno de los problemas es que necesitamos una gran cantidad de datos etiquetados. En el caso de la clasificación de imágenes, debemos separar las imágenes en diferentes clases, lo cual requiere un esfuerzo manual.
@@ -46,7 +37,7 @@ En resumen:
  * Muestreamos un vector `sample` de la distribución N(z<sub>mean</sub>,exp(z<sub>log\_sigma</sub>)).
  * El decodificador intenta decodificar la imagen original usando `sample` como vector de entrada.
 
- <img src="images/vae.png" width="50%">
+ <img src="../../../../../translated_images/es/vae.464c465a5b6a9e25.webp" width="50%">
 
 > Imagen de [este blog](https://ijdykeman.github.io/ml/2016/12/21/cvae.html) por Isaak Dykeman
 
@@ -57,13 +48,13 @@ Los autoencoders variacionales utilizan una función de pérdida compleja que co
 
 Una ventaja importante de los VAEs es que nos permiten generar nuevas imágenes de manera relativamente sencilla, porque sabemos de qué distribución muestrear los vectores latentes. Por ejemplo, si entrenamos un VAE con un vector latente 2D en MNIST, luego podemos variar los componentes del vector latente para obtener diferentes dígitos:
 
-<img alt="vaemnist" src="images/vaemnist.png" width="50%"/>
+<img alt="vaemnist" src="../../../../../translated_images/es/vaemnist.cab9e602dc08dc50.webp" width="50%"/>
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 
 Observa cómo las imágenes se mezclan entre sí, a medida que comenzamos a obtener vectores latentes de diferentes partes del espacio de parámetros latentes. También podemos visualizar este espacio en 2D:
 
-<img alt="vaemnist cluster" src="images/vaemnist-diag.png" width="50%"/> 
+<img alt="vaemnist cluster" src="../../../../../translated_images/es/vaemnist-diag.694315f775d5d666.webp" width="50%"/> 
 
 > Imagen por [Dmitry Soshnikov](http://soshnikov.com)
 

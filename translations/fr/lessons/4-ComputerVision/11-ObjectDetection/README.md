@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d76a7eda28de5210c8b1ba50a6216c69",
-  "translation_date": "2025-09-23T11:57:14+00:00",
-  "source_file": "lessons/4-ComputerVision/11-ObjectDetection/README.md",
-  "language_code": "fr"
-}
--->
 # Détection d'objets
 
 Les modèles de classification d'images que nous avons abordés jusqu'à présent prenaient une image et produisaient un résultat catégorique, comme la classe 'nombre' dans un problème MNIST. Cependant, dans de nombreux cas, nous ne voulons pas seulement savoir qu'une image représente des objets - nous voulons pouvoir déterminer leur emplacement précis. C'est précisément l'objectif de la **détection d'objets**.

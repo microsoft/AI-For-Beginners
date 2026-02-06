@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-  "translation_date": "2025-10-03T11:32:56+00:00",
-  "source_file": "examples/README.md",
-  "language_code": "tl"
-}
--->
 # Mga Halimbawa ng AI para sa Baguhan
 
 Maligayang pagdating! Ang direktoryong ito ay naglalaman ng mga simpleng halimbawa na standalone upang matulungan kang magsimula sa AI at machine learning. Ang bawat halimbawa ay idinisenyo para sa mga baguhan na may detalyadong mga komento at hakbang-hakbang na paliwanag.

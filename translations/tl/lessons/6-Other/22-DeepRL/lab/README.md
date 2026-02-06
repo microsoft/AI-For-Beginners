@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-28T02:28:06+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "tl"
-}
--->
 ## Ang Kapaligiran
 
 Ang Mountain Car environment ay binubuo ng isang kotse na na-trap sa loob ng isang lambak. Ang layunin mo ay makalabas sa lambak at maabot ang bandila. Ang mga aksyon na maaari mong gawin ay magpabilis papunta sa kaliwa, sa kanan, o walang gawin. Maaari mong obserbahan ang posisyon ng kotse sa x-axis, at ang bilis nito.

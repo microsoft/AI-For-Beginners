@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6522312ff835796ca34136a9462fafb2",
-  "translation_date": "2025-09-23T15:25:20+00:00",
-  "source_file": "lessons/5-NLP/19-NER/README.md",
-  "language_code": "my"
-}
--->
 # Named Entity Recognition
 
 အခုအချိန်ထိ ကျွန်တော်တို့အဓိကထားပြီး လေ့လာခဲ့တာက NLP task တစ်ခုဖြစ်တဲ့ - classification ပဲဖြစ်ပါတယ်။ သို့သော် neural networks ကို အသုံးပြု၍ ပြုလုပ်နိုင်သော အခြားသော NLP task များလည်း ရှိပါသည်။ အဲဒီ task များထဲမှ တစ်ခုက **[Named Entity Recognition](https://wikipedia.org/wiki/Named-entity_recognition)** (NER) ဖြစ်ပြီး၊ စာသားထဲမှာ ရှိတဲ့ အထူး entity များကို ရှာဖွေသိရှိရန် အသုံးပြုသည်။ ဥပမာအားဖြင့် နေရာများ၊ လူအမည်များ၊ ရက်စွဲ-အချိန်ကာလများ၊ ဓာတုဖော်မြူလာများ စသည်တို့ဖြစ်ပါသည်။
@@ -17,7 +8,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ဥပမာအားဖြင့် Amazon Alexa သို့မဟုတ် Google Assistant ကဲ့သို့သော သဘာဝဘာသာစကား chat bot တစ်ခုကို ဖွံ့ဖြိုးတိုးတက်စေလိုသည်ဟု ဆိုပါစို့။ အတတ်နိုင်ဆုံး chat bot များသည် အသုံးပြုသူ၏လိုအပ်ချက်ကို *နားလည်*ရန် input စာကြောင်းအပေါ် text classification ပြုလုပ်ခြင်းဖြင့် အလုပ်လုပ်သည်။ အဲဒီ classification ရလဒ်ကို **intent** ဟုခေါ်ပြီး၊ chat bot သည် ဘာလုပ်ရမည်ကို သတ်မှတ်ပေးသည်။
 
-<img alt="Bot NER" src="images/bot-ner.png" width="50%"/>
+<img alt="Bot NER" src="../../../../../translated_images/my/bot-ner.4b09235dbb0ad275.webp" width="50%"/>
 
 > ပုံကိုရေးသားသူမှ
 

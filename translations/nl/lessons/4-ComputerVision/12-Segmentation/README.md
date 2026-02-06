@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T10:09:20+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "nl"
-}
--->
 # Segmentatie
 
 We hebben eerder geleerd over Objectdetectie, waarmee we objecten in een afbeelding kunnen lokaliseren door hun *omgrenzende kaders* te voorspellen. Voor sommige taken hebben we echter niet alleen omgrenzende kaders nodig, maar ook een nauwkeurigere objectlokalisatie. Deze taak wordt **segmentatie** genoemd.
@@ -20,7 +11,7 @@ Segmentatie kan worden gezien als **pixelclassificatie**, waarbij we voor **elke
 
 Bij instance segmentatie zijn deze schapen verschillende objecten, maar bij semantische segmentatie worden alle schapen weergegeven als één klasse.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/nl/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > Afbeelding afkomstig uit [deze blogpost](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ Er zijn verschillende neurale architecturen voor segmentatie, maar ze hebben all
 * **Encoder** haalt kenmerken uit de invoerafbeelding.
 * **Decoder** zet die kenmerken om in de **maskerafbeelding**, met dezelfde grootte en een aantal kanalen dat overeenkomt met het aantal klassen.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/nl/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > Afbeelding afkomstig uit [deze publicatie](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ In deze les zullen we segmentatie in actie zien door een netwerk te trainen om m
 
 > ✅ Deze techniek is bijzonder geschikt voor dit type medische beeldvorming, maar welke andere toepassingen in de echte wereld kun je je voorstellen?
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/nl/navi.2f20b727910110ea.webp"/>
 
 > Afbeelding afkomstig uit de PH<sup>2</sup> Database
 

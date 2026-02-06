@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T15:37:46+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "uk"
-}
--->
 # Механізми уваги та трансформери
 
 ## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 * Навчуване вбудовування, схоже на вбудовування токенів. Це підхід, який ми розглядаємо тут. Ми застосовуємо шари вбудовування як до токенів, так і до їх позицій, отримуючи вектори вбудовування однакових розмірів, які потім додаємо.
 * Фіксована функція позиційного кодування, як запропоновано в оригінальній статті.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/uk/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Зображення автора
 

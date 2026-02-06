@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a560d5b845962cf33dc102266e409568",
-  "translation_date": "2025-09-23T10:27:03+00:00",
-  "source_file": "lessons/4-ComputerVision/07-ConvNets/README.md",
-  "language_code": "vi"
-}
--->
 # Mạng Nơ-ron Tích Chập
 
 Chúng ta đã thấy trước đây rằng mạng nơ-ron rất tốt trong việc xử lý hình ảnh, và thậm chí một perceptron một lớp cũng có thể nhận diện chữ số viết tay từ tập dữ liệu MNIST với độ chính xác khá cao. Tuy nhiên, tập dữ liệu MNIST rất đặc biệt, vì tất cả các chữ số đều được căn giữa trong hình ảnh, điều này làm cho nhiệm vụ trở nên đơn giản hơn.
@@ -24,7 +15,7 @@ Trong thực tế, chúng ta muốn có khả năng nhận diện các đối t�
 
 Ví dụ, nếu chúng ta áp dụng các bộ lọc cạnh dọc và cạnh ngang 3x3 lên các chữ số MNIST, chúng ta có thể làm nổi bật (ví dụ: giá trị cao) những nơi có các cạnh dọc và ngang trong hình ảnh gốc. Do đó, hai bộ lọc này có thể được sử dụng để "tìm kiếm" các cạnh. Tương tự, chúng ta có thể thiết kế các bộ lọc khác để tìm kiếm các mẫu cấp thấp khác:
 
-<img src="images/lmfilters.jpg" width="500" align="center"/>
+<img src="../../../../../translated_images/vi/lmfilters.ea9e4868a82cf74c.webp" width="500" align="center"/>
 
 > Hình ảnh của [Leung-Malik Filter Bank](https://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html)
 

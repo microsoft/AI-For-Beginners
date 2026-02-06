@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T14:59:20+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "hr"
-}
--->
 # Rekurentne neuronske mreže
 
 ## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Pogledajmo kako je organizirana jednostavna RNN ćelija. Ona prihvaća prethodno
 
 Jednostavna RNN ćelija ima dvije matrice težina unutar sebe: jedna transformira ulazni simbol (nazovimo je W), a druga transformira ulazno stanje (H). U ovom slučaju izlaz mreže se računa kao &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), gdje je &sigma; funkcija aktivacije, a b dodatna pristranost.
 
-<img alt="Anatomija RNN ćelije" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Anatomija RNN ćelije" src="../../../../../translated_images/hr/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Slika autora
 

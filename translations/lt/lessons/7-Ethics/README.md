@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "437c988596e751072e41a5aad3fcc5d9",
-  "translation_date": "2025-08-31T17:46:37+00:00",
-  "source_file": "lessons/7-Ethics/README.md",
-  "language_code": "lt"
-}
--->
 # Etinis ir atsakingas dirbtinis intelektas
 
 Jūs beveik baigėte šį kursą, ir tikiuosi, kad dabar aiškiai matote, jog dirbtinis intelektas (DI) yra pagrįstas daugybe formalių matematinių metodų, leidžiančių mums rasti ryšius duomenyse ir mokyti modelius atkartoti tam tikrus žmogaus elgesio aspektus. Šiuo istorijos momentu DI laikomas labai galingu įrankiu, padedančiu išgauti duomenų šablonus ir pritaikyti juos naujų problemų sprendimui.

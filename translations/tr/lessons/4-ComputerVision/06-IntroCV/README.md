@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "feeca98225cb420afc89415f24f63d92",
-  "translation_date": "2025-09-23T08:39:22+00:00",
-  "source_file": "lessons/4-ComputerVision/06-IntroCV/README.md",
-  "language_code": "tr"
-}
--->
 # Bilgisayarlı Görüye Giriş
 
 [Bilgisayarlı Görü](https://wikipedia.org/wiki/Computer_vision), bilgisayarların dijital görüntüleri yüksek seviyede anlamasını sağlamayı amaçlayan bir disiplindir. Bu oldukça geniş bir tanımdır çünkü *anlama* birçok farklı şeyi ifade edebilir; bir resimdeki nesneyi bulmak (**nesne tespiti**), ne olduğunu anlamak (**olay tespiti**), bir resmi metinle açıklamak veya bir sahneyi 3D olarak yeniden oluşturmak gibi. İnsan görüntüleriyle ilgili özel görevler de vardır: yaş ve duygu tahmini, yüz tespiti ve tanımlama, 3D duruş tahmini gibi.
@@ -115,7 +106,7 @@ Optik akış hakkında daha fazla bilgi edinmek için [bu harika eğitimi](https
 
 Bu laboratuvarda, basit jestlerle bir video çekeceksiniz ve amacınız optik akış kullanarak yukarı/aşağı/sol/sağ hareketlerini çıkarmaktır.
 
-<img src="images/palm-movement.png" width="30%" alt="Avuç İçi Hareketi Kare"/>
+<img src="../../../../../translated_images/tr/palm-movement.341495f0e9c47da3.webp" width="30%" alt="Avuç İçi Hareketi Kare"/>
 
 ---
 

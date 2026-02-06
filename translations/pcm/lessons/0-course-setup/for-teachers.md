@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a094ef9927883de1cfcee51dbd143381",
-  "translation_date": "2025-11-18T18:31:56+00:00",
-  "source_file": "lessons/0-course-setup/for-teachers.md",
-  "language_code": "pcm"
-}
--->
 # For Educators
 
 You wan use dis curriculum for your classroom? Abeg feel free!

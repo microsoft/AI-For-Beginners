@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "97836d30a6bec736f8e3b4411c572bc2",
-  "translation_date": "2025-09-23T11:30:03+00:00",
-  "source_file": "lessons/5-NLP/20-LangModels/README.md",
-  "language_code": "cs"
-}
--->
 # Předtrénované velké jazykové modely
 
 Ve všech našich předchozích úlohách jsme trénovali neuronovou síť, aby vykonávala určitou úlohu pomocí označeného datového souboru. U velkých transformátorových modelů, jako je BERT, používáme jazykové modelování v samostatně řízeném režimu k vytvoření jazykového modelu, který je následně specializován na konkrétní úlohu pomocí dalšího tréninku zaměřeného na danou doménu. Bylo však prokázáno, že velké jazykové modely dokážou řešit mnoho úloh i bez jakéhokoliv tréninku zaměřeného na konkrétní doménu. Rodina modelů schopných tohoto výkonu se nazývá **GPT**: Generative Pre-Trained Transformer.

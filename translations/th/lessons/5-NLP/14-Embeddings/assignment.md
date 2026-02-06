@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-29T09:27:08+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "th"
-}
--->
 # งาน: สมุดบันทึก
 
 ใช้สมุดบันทึกที่เกี่ยวข้องกับบทเรียนนี้ (ไม่ว่าจะเป็นเวอร์ชัน PyTorch หรือ TensorFlow) รันใหม่โดยใช้ชุดข้อมูลของคุณเอง อาจเป็นชุดข้อมูลจาก Kaggle โดยให้เครดิตแหล่งที่มา เขียนสมุดบันทึกใหม่เพื่อเน้นผลการค้นพบของคุณเอง ลองใช้ชุดข้อมูลประเภทอื่นและบันทึกผลการค้นพบของคุณ โดยใช้ข้อความ เช่น [เนื้อเพลงของ Beatles เหล่านี้](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics)

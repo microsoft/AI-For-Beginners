@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-25T20:58:38+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "sw"
-}
--->
 # Kazi ya NetLogo
 
 Chukua mojawapo ya mifano katika maktaba ya NetLogo na uitumie kuiga hali halisi ya maisha kwa ukaribu iwezekanavyo. Mfano mzuri ungekuwa kurekebisha mfano wa Virus katika folda ya Alternative Visualizations ili kuonyesha jinsi unavyoweza kutumika kuiga kuenea kwa COVID-19. Je, unaweza kujenga mfano unaoiga kuenea kwa virusi halisi?

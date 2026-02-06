@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "9c592c26aca16ca085d268c732284187",
-  "translation_date": "2025-08-26T07:33:31+00:00",
-  "source_file": "lessons/X-Extras/X1-MultiModal/README.md",
-  "language_code": "tr"
-}
--->
 # Çok Modlu Ağlar
 
 Transformer modellerinin NLP görevlerini çözmedeki başarısından sonra, aynı veya benzer mimariler bilgisayar görme görevlerine uygulanmaya başlandı. Görme ve doğal dil yeteneklerini *birleştiren* modeller oluşturma konusunda artan bir ilgi var. Bu girişimlerden biri OpenAI tarafından gerçekleştirildi ve CLIP ile DALL.E olarak adlandırıldı.

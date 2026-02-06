@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7bd8dc72040e98e35e7225e34058cd4e",
-  "translation_date": "2025-08-29T12:15:59+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/lab/README.md",
-  "language_code": "id"
-}
--->
 ## Lingkungan
 
 Lingkungan Mountain Car terdiri dari sebuah mobil yang terjebak di dalam lembah. Tujuan Anda adalah melompat keluar dari lembah dan mencapai bendera. Tindakan yang dapat Anda lakukan adalah mempercepat ke kiri, ke kanan, atau tidak melakukan apa-apa. Anda dapat mengamati posisi mobil di sepanjang sumbu x, dan kecepatannya.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-10-11T11:29:34+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "ta"
-}
--->
 அனைத்து பாடத்திட்டத்தின் ஸ்கெட்ச் குறிப்புகளை இங்கே பதிவிறக்கம் செய்யலாம்.
 
 🎨 உருவாக்கியவர்: டொமோமி இமுரா (Twitter: [@girlie_mac](https://twitter.com/girlie_mac), GitHub: [girliemac](https://github.com/girliemac))

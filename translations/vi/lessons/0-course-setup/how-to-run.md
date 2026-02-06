@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-  "translation_date": "2026-01-16T03:40:24+00:00",
-  "source_file": "lessons/0-course-setup/how-to-run.md",
-  "language_code": "vi"
-}
--->
 # Cách Chạy Mã Lệnh
 
 Chương trình học này chứa nhiều ví dụ và bài thực hành có thể chạy được mà bạn sẽ muốn thử. Để làm điều này, bạn cần khả năng thực thi mã Python trong Jupyter Notebooks được cung cấp như một phần của chương trình học này. Bạn có một số lựa chọn để chạy mã:

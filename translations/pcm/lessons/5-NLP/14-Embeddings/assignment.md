@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-11-18T18:38:19+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "pcm"
-}
--->
 # Assignment: Notebooks
 
 Use di notebooks wey dem join wit dis lesson (whether na di PyTorch or di TensorFlow version), run dem again wit your own dataset, maybe one wey you fit collect from Kaggle, but make sure you give credit. Rewrite di notebook to show wetin you find out. Try one kain different dataset and write down wetin you discover, use text like [dis Beatles lyrics](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

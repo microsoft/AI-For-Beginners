@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "cf654ca60c7f86c8dad28596fb42994b",
-  "translation_date": "2025-08-24T10:37:21+00:00",
-  "source_file": "lessons/6-Other/23-MultiagentSystems/assignment.md",
-  "language_code": "pl"
-}
--->
 # Zadanie NetLogo
 
 Wybierz jeden z modeli z biblioteki NetLogo i użyj go do jak najdokładniejszego zasymulowania rzeczywistej sytuacji. Dobrym przykładem byłoby dostosowanie modelu Virus z folderu Alternative Visualizations, aby pokazać, jak można go wykorzystać do modelowania rozprzestrzeniania się COVID-19. Czy potrafisz stworzyć model, który odzwierciedla rzeczywiste rozprzestrzenianie się wirusa?

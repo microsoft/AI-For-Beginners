@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "050b8bddebafba55b129414e6ab096ab",
-  "translation_date": "2025-08-26T10:40:58+00:00",
-  "source_file": "lessons/sketchnotes/README.md",
-  "language_code": "pa"
-}
--->
 ਸਾਰੇ ਪਾਠਕ੍ਰਮ ਦੇ ਸਕੈਚਨੋਟ ਇੱਥੋਂ ਡਾਊਨਲੋਡ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ।
 
 🎨 ਬਣਾਇਆ ਗਿਆ: ਟੋਮੋਮੀ ਇਮੁਰਾ (ਟਵਿੱਟਰ: [@girlie_mac](https://twitter.com/girlie_mac), ਗਿਟਹੱਬ: [girliemac](https://github.com/girliemac))

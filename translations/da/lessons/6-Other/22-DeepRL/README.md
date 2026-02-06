@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-09-23T09:27:25+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "da"
-}
--->
 # Deep Reinforcement Learning
 
 Forstærkningslæring (RL) betragtes som en af de grundlæggende paradigmer inden for maskinlæring, ved siden af superviseret læring og usuperviseret læring. Mens vi i superviseret læring baserer os på datasæt med kendte resultater, er RL baseret på **at lære ved at gøre**. For eksempel, når vi ser et computerspil for første gang, begynder vi at spille, selv uden at kende reglerne, og snart bliver vi bedre, blot ved at spille og justere vores adfærd.
@@ -34,7 +25,7 @@ I har sikkert alle set moderne balanceringsenheder som *Segway* eller *Gyroscoot
 
 En forenklet version af balancering er kendt som **CartPole**-problemet. I CartPole-verdenen har vi en horisontal slider, der kan bevæge sig til venstre eller højre, og målet er at balancere en vertikal stang oven på slideren, mens den bevæger sig.
 
-<img alt="en cartpole" src="images/cartpole.png" width="200"/>
+<img alt="en cartpole" src="../../../../../translated_images/da/cartpole.f52a67f27e058170.webp" width="200"/>
 
 For at oprette og bruge dette miljø har vi brug for et par linjer Python-kode:
 

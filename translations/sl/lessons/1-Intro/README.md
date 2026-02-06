@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f57e8aa46141fd220b16ffed8f11aec7",
-  "translation_date": "2025-11-18T22:10:36+00:00",
-  "source_file": "lessons/1-Intro/README.md",
-  "language_code": "sl"
-}
--->
 # Uvod v umetno inteligenco
 
 ![Povzetek vsebine uvoda v umetno inteligenco v skici](../../../../translated_images/sl/ai-intro.bf28d1ac4235881c.webp)

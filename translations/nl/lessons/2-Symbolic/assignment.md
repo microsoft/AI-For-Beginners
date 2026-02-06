@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a057a8604f3976c3e309884453f1fad0",
-  "translation_date": "2025-08-28T19:41:16+00:00",
-  "source_file": "lessons/2-Symbolic/assignment.md",
-  "language_code": "nl"
-}
--->
 # Bouw een Ontologie
 
 Het bouwen van een kennisbank draait om het categoriseren van een model dat feiten over een onderwerp vertegenwoordigt. Kies een onderwerp - zoals een persoon, een plaats of een ding - en bouw vervolgens een model van dat onderwerp. Gebruik enkele van de technieken en strategieën voor modelbouw die in deze les worden beschreven. Een voorbeeld zou zijn het creëren van een ontologie van een woonkamer met meubels, verlichting, enzovoort. Hoe verschilt de woonkamer van de keuken? De badkamer? Hoe weet je dat het een woonkamer is en geen eetkamer? Gebruik [Protégé](https://protege.stanford.edu/) om je ontologie te bouwen.

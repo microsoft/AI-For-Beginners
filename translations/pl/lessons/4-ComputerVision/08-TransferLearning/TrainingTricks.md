@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-24T10:34:20+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "pl"
-}
--->
 # Triki w trenowaniu głębokich sieci neuronowych
 
 Wraz z pogłębianiem się sieci neuronowych, proces ich trenowania staje się coraz bardziej wymagający. Jednym z głównych problemów są tzw. [zanikające gradienty](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) lub [eksplodujące gradienty](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Ten artykuł](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) dobrze wprowadza w te zagadnienia.

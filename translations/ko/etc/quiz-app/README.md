@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-24T21:39:09+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "ko"
-}
--->
 # 퀴즈
 
 이 퀴즈는 https://aka.ms/ai-beginners 에서 제공하는 AI 커리큘럼의 강의 전후 퀴즈입니다.

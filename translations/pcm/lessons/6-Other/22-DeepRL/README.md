@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "04395657fc01648f8f70484d0e55ab67",
-  "translation_date": "2025-11-18T18:48:28+00:00",
-  "source_file": "lessons/6-Other/22-DeepRL/README.md",
-  "language_code": "pcm"
-}
--->
 # Deep Reinforcement Learning
 
 Reinforcement learning (RL) na one of di main machine learning methods, wey dey different from supervised learning and unsupervised learning. For supervised learning, we dey use dataset wey get known answers, but RL na **learning by doing**. For example, when we first see computer game, we go start to play am, even if we no sabi di rules, and soon we go dey improve our skills just by playing di game and changing how we dey behave.

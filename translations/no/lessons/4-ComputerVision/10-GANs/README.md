@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T09:41:22+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "no"
-}
--->
 # Generative Adversarial Networks
 
 I forrige seksjon lærte vi om **generative modeller**: modeller som kan generere nye bilder som ligner på de i treningsdatasettet. VAE var et godt eksempel på en generativ modell.
@@ -17,7 +8,7 @@ Men hvis vi prøver å generere noe virkelig meningsfullt, som et maleri med rim
 
 Hovedideen med en GAN er å ha to nevrale nettverk som trenes mot hverandre:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/no/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Bilde av [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ En generator er litt mer komplisert. Du kan se på den som en omvendt discrimina
 
 > ✅ Fordi konvolusjonslaget implementeres som et lineært filter som beveger seg over bildet, er dekonvolusjon i hovedsak lik konvolusjon og kan implementeres med samme laglogikk.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/no/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Bilde av [Dmitry Soshnikov](http://soshnikov.com)
 

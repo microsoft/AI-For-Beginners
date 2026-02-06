@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "62b3e3ad5182edb905eec649a87eeeb4",
-  "translation_date": "2025-08-26T00:46:49+00:00",
-  "source_file": "etc/TRANSLATIONS.md",
-  "language_code": "my"
-}
--->
 # သင်ခန်းစာများကို ဘာသာပြန်ခြင်းဖြင့် အထောက်အကူပြုပါ
 
 ဒီသင်ခန်းစာများအတွက် ဘာသာပြန်မှုများကို ကြိုဆိုပါသည်!

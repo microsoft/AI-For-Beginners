@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T15:50:23+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "lt"
-}
--->
 # Rekurentiniai neuroniniai tinklai
 
 ## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ Pažvelkime, kaip organizuota paprasta RNN ląstelė. Ji priima ankstesnę būse
 
 Paprasta RNN ląstelė turi du svorio matricas viduje: viena transformuoja įvesties simbolį (vadinkime ją W), o kita transformuoja įvesties būseną (H). Tokiu atveju tinklo išvestis apskaičiuojama kaip &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), kur &sigma; yra aktyvavimo funkcija, o b yra papildomas poslinkis.
 
-<img alt="RNN ląstelės anatomija" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="RNN ląstelės anatomija" src="../../../../../translated_images/lt/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Vaizdas sukurtas autoriaus
 

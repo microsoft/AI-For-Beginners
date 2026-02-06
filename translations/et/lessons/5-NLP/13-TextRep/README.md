@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dbd3f73e4139f030ecb2e20387d70fee",
-  "translation_date": "2025-10-11T11:41:12+00:00",
-  "source_file": "lessons/5-NLP/13-TextRep/README.md",
-  "language_code": "et"
-}
--->
 # Teksti esindamine tensoritena
 
 ## [Eelloengu viktoriin](https://ff-quizzes.netlify.app/en/ai/quiz/25)

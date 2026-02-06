@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0ff65b4da07b23697235de2beb2a3c25",
-  "translation_date": "2025-09-23T11:01:45+00:00",
-  "source_file": "lessons/4-ComputerVision/10-GANs/README.md",
-  "language_code": "sw"
-}
--->
 # Mitandao ya Kizazi ya Kihasama
 
 Katika sehemu iliyopita, tulijifunza kuhusu **miundo ya kizazi**: miundo inayoweza kuzalisha picha mpya zinazofanana na zile zilizopo kwenye seti ya mafunzo. VAE ilikuwa mfano mzuri wa muundo wa kizazi.
@@ -17,7 +8,7 @@ Hata hivyo, tukijaribu kuzalisha kitu chenye maana zaidi, kama mchoro wa ubora w
 
 Wazo kuu la GAN ni kuwa na mitandao miwili ya neva ambayo itafundishwa dhidi ya kila mmoja:
 
-<img src="images/gan_architecture.png" width="70%"/>
+<img src="../../../../../translated_images/sw/gan_architecture.8f3a5ab62b8d5d69.webp" width="70%"/>
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 
@@ -41,7 +32,7 @@ Generator ni ngumu kidogo. Unaweza kuichukulia kama discriminator iliyogeuzwa. K
 
 > ✅ Kwa sababu tabaka ya convolution inatekelezwa kama kichujio cha mstari kinachopita kwenye picha, deconvolution kimsingi ni sawa na convolution, na inaweza kutekelezwa kwa kutumia mantiki sawa ya tabaka.
 
-<img src="images/gan_arch_detail.png" width="70%"/>
+<img src="../../../../../translated_images/sw/gan_arch_detail.46b95fd366f8e543.webp" width="70%"/>
 
 > Picha na [Dmitry Soshnikov](http://soshnikov.com)
 

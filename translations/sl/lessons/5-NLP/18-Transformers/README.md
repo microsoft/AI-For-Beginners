@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T15:09:53+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "sl"
-}
--->
 # Mehanizmi pozornosti in transformatorji
 
 ## [Predavanje kviz](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ Ideja kodiranja položaja je naslednja.
 * Učljivo ugnezdenje, podobno ugnezdenju tokenov. To je pristop, ki ga obravnavamo tukaj. Na vrhu tako tokenov kot njihovih položajev uporabimo plasti ugnezdenja, kar rezultira v vektorjih ugnezdenja enakih dimenzij, ki jih nato seštejemo.
 * Fiksna funkcija kodiranja položaja, kot je predlagano v izvirnem članku.
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/sl/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > Slika avtorja
 

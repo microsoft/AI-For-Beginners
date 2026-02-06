@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5fef1a0b22498d7188959e2a2cb08af7",
-  "translation_date": "2025-08-24T21:02:56+00:00",
-  "source_file": "lessons/README.md",
-  "language_code": "ja"
-}
--->
 # 概要
 
 ![概要のイラスト](../../../translated_images/ja/ai-overview.0857791951d19500.webp)

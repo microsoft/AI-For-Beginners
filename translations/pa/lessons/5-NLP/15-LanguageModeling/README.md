@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7ba20f54a5bfcd6521018cdfb17c7c57",
-  "translation_date": "2025-09-23T07:39:25+00:00",
-  "source_file": "lessons/5-NLP/15-LanguageModeling/README.md",
-  "language_code": "pa"
-}
--->
 # ਭਾਸ਼ਾ ਮਾਡਲਿੰਗ
 
 ਸੈਮੈਂਟਿਕ ਐਮਬੈਡਿੰਗਜ਼, ਜਿਵੇਂ ਕਿ Word2Vec ਅਤੇ GloVe, ਅਸਲ ਵਿੱਚ **ਭਾਸ਼ਾ ਮਾਡਲਿੰਗ** ਵੱਲ ਪਹਿਲਾ ਕਦਮ ਹਨ - ਅਜਿਹੇ ਮਾਡਲ ਬਣਾਉਣਾ ਜੋ ਕਿਸੇ ਤਰੀਕੇ ਨਾਲ ਭਾਸ਼ਾ ਦੀ ਕੁਦਰਤ ਨੂੰ *ਸਮਝਦੇ* (ਜਾਂ *ਪ੍ਰਸਤੁਤ ਕਰਦੇ*) ਹਨ।

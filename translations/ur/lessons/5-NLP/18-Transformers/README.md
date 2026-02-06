@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "f335dfcb4a993920504c387973a36957",
-  "translation_date": "2025-09-23T06:48:34+00:00",
-  "source_file": "lessons/5-NLP/18-Transformers/README.md",
-  "language_code": "ur"
-}
--->
 # توجہ کے طریقہ کار اور ٹرانسفارمرز
 
 ## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ai/quiz/35)
@@ -56,7 +47,7 @@ positional encoding کا خیال درج ذیل ہے:
 * Trainable embedding، token embedding کی طرح۔ یہ وہ طریقہ ہے جس پر ہم یہاں غور کرتے ہیں۔ ہم tokens اور ان کی positions دونوں پر embedding layers لگاتے ہیں، جس کے نتیجے میں ایک ہی dimensions کے embedding vectors حاصل ہوتے ہیں، جنہیں ہم پھر ایک ساتھ جوڑتے ہیں۔
 * Fixed position encoding function، جیسا کہ اصل مقالے میں تجویز کیا گیا ہے۔
 
-<img src="images/pos-embedding.png" width="50%"/>
+<img src="../../../../../translated_images/ur/pos-embedding.e41ce9b6cf6078af.webp" width="50%"/>
 
 > تصویر مصنف کی طرف سے
 

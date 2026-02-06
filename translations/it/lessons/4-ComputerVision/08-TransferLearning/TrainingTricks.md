@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ae074cd940fc2f4dc24fc07b66ccbd99",
-  "translation_date": "2025-08-26T07:04:36+00:00",
-  "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
-  "language_code": "it"
-}
--->
 # Trucchi per l'Addestramento del Deep Learning
 
 Man mano che le reti neurali diventano più profonde, il processo di addestramento diventa sempre più complesso. Uno dei principali problemi è il cosiddetto [vanishing gradients](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) o [exploding gradients](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Questo post](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) offre una buona introduzione a questi problemi.

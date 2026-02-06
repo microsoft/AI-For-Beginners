@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47f7d3c6a5373543e051e4d1140ce898",
-  "translation_date": "2025-08-26T08:12:43+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/assignment.md",
-  "language_code": "ur"
-}
--->
 # اسائنمنٹ: نوٹ بکس
 
 اس سبق سے منسلک نوٹ بکس (چاہے PyTorch یا TensorFlow ورژن ہو) کا استعمال کرتے ہوئے، انہیں اپنے ڈیٹا سیٹ کے ساتھ دوبارہ چلائیں، شاید کوئی ایسا ڈیٹا سیٹ جو Kaggle سے لیا گیا ہو اور جس کا حوالہ دیا گیا ہو۔ نوٹ بک کو دوبارہ لکھیں تاکہ آپ کی اپنی دریافتوں کو اجاگر کیا جا سکے۔ کسی مختلف قسم کے ڈیٹا سیٹ کو آزمائیں اور اپنی دریافتوں کو دستاویزی شکل دیں، جیسے کہ [یہ Kaggle مقابلے کا ڈیٹا سیٹ جو موسم کے ٹویٹس کے بارے میں ہے](https://www.kaggle.com/competitions/crowdflower-weather-twitter/data?select=train.csv)۔

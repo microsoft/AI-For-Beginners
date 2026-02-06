@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "bc690ecf68b38d311cc9e12f3144a28c",
-  "translation_date": "2025-08-25T21:42:52+00:00",
-  "source_file": "lessons/5-NLP/14-Embeddings/assignment.md",
-  "language_code": "sr"
-}
--->
 # Задатак: Бележнице
 
 Користећи бележнице повезане са овом лекцијом (било верзију за PyTorch или TensorFlow), поново их покрените користећи сопствени скуп података, можда онај са Kaggle-а, уз навођење извора. Преправите бележницу како бисте истакли сопствене закључке. Испробајте другачији тип скупа података и документујте своја открића, користећи текст као што су [ови стихови Битлса](https://www.kaggle.com/datasets/jenlooper/beatles-lyrics).

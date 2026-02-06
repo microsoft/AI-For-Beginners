@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "6568aaae7e0e4afed4b5d74b5b223700",
-  "translation_date": "2025-09-23T12:29:37+00:00",
-  "source_file": "lessons/4-ComputerVision/12-Segmentation/README.md",
-  "language_code": "fa"
-}
--->
 # بخش‌بندی
 
 ما قبلاً درباره تشخیص اشیا یاد گرفتیم، که به ما امکان می‌دهد اشیا را در تصویر با پیش‌بینی *جعبه‌های محدودکننده* مکان‌یابی کنیم. با این حال، برای برخی وظایف، نه تنها به جعبه‌های محدودکننده نیاز داریم، بلکه به مکان‌یابی دقیق‌تر اشیا نیز احتیاج داریم. این وظیفه **بخش‌بندی** نامیده می‌شود.
@@ -20,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 برای بخش‌بندی نمونه‌ای، این گوسفندها اشیای مختلفی هستند، اما برای بخش‌بندی معنایی همه گوسفندها به عنوان یک کلاس نمایش داده می‌شوند.
 
-<img src="images/instance_vs_semantic.jpeg" width="50%">
+<img src="../../../../../translated_images/fa/instance_vs_semantic.eee9812bebf8cd45.webp" width="50%">
 
 > تصویر از [این پست وبلاگ](https://nirmalamurali.medium.com/image-classification-vs-semantic-segmentation-vs-instance-segmentation-625c33a08d50)
 
@@ -29,7 +20,7 @@ CO_OP_TRANSLATOR_METADATA:
 * **رمزگذار** ویژگی‌ها را از تصویر ورودی استخراج می‌کند.
 * **رمزگشا** این ویژگی‌ها را به تصویر **ماسک** تبدیل می‌کند، با همان اندازه و تعداد کانال‌ها که به تعداد کلاس‌ها مربوط می‌شود.
 
-<img src="images/segm.png" width="80%">
+<img src="../../../../../translated_images/fa/segm.92442f2cb42ff4fa.webp" width="80%">
 
 > تصویر از [این مقاله](https://arxiv.org/pdf/2001.05566.pdf)
 
@@ -43,7 +34,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > ✅ این تکنیک به طور خاص برای این نوع تصویربرداری پزشکی مناسب است، اما چه کاربردهای واقعی دیگری را می‌توانید تصور کنید؟
 
-<img alt="navi" src="images/navi.png"/>
+<img alt="navi" src="../../../../../translated_images/fa/navi.2f20b727910110ea.webp"/>
 
 > تصویر از پایگاه داده PH<sup>2</sup>
 

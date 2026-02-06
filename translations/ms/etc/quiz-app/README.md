@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d699cf8509f74baa5b0b838de5cf0662",
-  "translation_date": "2025-08-29T12:03:02+00:00",
-  "source_file": "etc/quiz-app/README.md",
-  "language_code": "ms"
-}
--->
 # Kuiz
 
 Kuiz-kuiz ini adalah kuiz sebelum dan selepas kuliah untuk kurikulum AI di https://aka.ms/ai-beginners

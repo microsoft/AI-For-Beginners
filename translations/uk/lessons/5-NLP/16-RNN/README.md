@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "e2273cc150380a5e191903cea858f021",
-  "translation_date": "2025-09-23T15:39:02+00:00",
-  "source_file": "lessons/5-NLP/16-RNN/README.md",
-  "language_code": "uk"
-}
--->
 # Рекурентні нейронні мережі
 
 ## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ai/quiz/31)
@@ -31,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Проста клітина RNN має дві матриці ваг всередині: одна трансформує вхідний символ (назвемо її W), а інша трансформує вхідний стан (H). У цьому випадку вихід мережі обчислюється як &sigma;(W&times;X<sub>i</sub>+H&times;S<sub>i-1</sub>+b), де &sigma; — це функція активації, а b — додатковий зсув.
 
-<img alt="Анатомія клітини RNN" src="images/rnn-anatomy.png" width="50%"/>
+<img alt="Анатомія клітини RNN" src="../../../../../translated_images/uk/rnn-anatomy.79ee3f3920b3294b.webp" width="50%"/>
 
 > Зображення автора
 
