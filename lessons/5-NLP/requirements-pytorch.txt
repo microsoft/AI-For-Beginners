@@ -4,7 +4,7 @@ matplotlib
 nltk==3.5
 numpy==1.22.0
 opencv-python==4.5.1.48
-Pillow==10.3.0
+Pillow==12.1.1
 scikit-learn
 scipy
 torch==2.8.0
