@@ -12,24 +12,24 @@
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-# ကလိပ်တစ်လုံးအတွက် အတုယူမှုသင်တန်း - သင်ခန်းစာအစီအစဉ်
+# စတင်လေ့လာသူများအတွက် အတုယူနိုင်သော ဉာဏ်ရည် - သင်ရိုးအစီအစဉ်
 
 |![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
 |:---:|
-| AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
+| အတုယူနိုင်သော ဉာဏ်ရည် - _[@girlie_mac](https://twitter.com/girlie_mac) မှ သရုပ်ပြမှတ်စု_ |
 
-**အတုယူမှုသင်တန်း** (AI) ၏ကမ္ဘာကို 12 ပတ်၊ 24 သင်ခန်းစာဖြင့် သွားလေ့လာကြပါစို့! ၎င်းတွင် လက်တွေ့သင်ခန်းစာများ၊ စစ်ဆေးမှု မေးခွန်းများနှင့် လက်တွေ့ လေ့ကျင့်ခန်းများပါဝင်သည်။ သင်ခန်းစာအစီအစဉ်သည် စတင်လေ့လာသူများအတွက် သက်တမ်းတော်ပြီး TensorFlow နှင့် PyTorch ကဲ့သို့သော ကိရိယာများနှင့်အတူ AI တွင် သေချာမှုအကြောင်းကိုလည်း ဖုံးလွှမ်းပေးသည်။
+**အတုယူနိုင်သော ဉာဏ်ရည်** (AI) ကမ္ဘာကြီးကို ကျွန်ုပ်တို့၏ ၁၂ ပတ်၊ ၂၄ ခန်းသင်ကြားရေးအစီအစဉ်ဖြင့် ရှာဖွေပါ! ၎င်းတွင် အကောင်အထည်ဖော်သင်ခန်းစာများ၊ စစ်ဆေးမှုများနှင့် လက်တွေ့ဌာနများ ပါဝင်သည်။ သင်ကြားရေးအစီအစဉ်သည် စတင်လေ့လာသူများအတွက် သင့်တော်ပြီး TensorFlow နှင့် PyTorch ကဲ့သို့သော ကိရိယာများနှင့် AI တွင် ကျင့်သုံးသည့် ဓလေ့များကို ပါဝင်သည်။
 
-### 🌐 ဘာသာစကားစုံ ထောက်ပံ့မှု
+### 🌐 ဘာသာစကားမျိုးစုံ ထောက်ပံ့မှု
 
-#### GitHub Action မှတဆင့် ထောက်ပံ့သည်(အလိုအလျောက်နှင့် အမြဲတမ်း နောက်ဆုံးပေါ်)
+#### GitHub Action မှတဆင့် ထောက်ပံ့ (အလိုအလျောက် & အမြဲပြောင်းလဲပြီး)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ဒေသတွင်းကွန်ပျူတာမှာ ကလုန်းလုပ်ချင်ပါသလား?**
+> **ဒေသခံကို ကလုံးချင်ပါသလား?**
 >
-> ဤ repository တွင် 50+ ဘာသာစကားဘာသာပြန်ဆိုမှုများပါဝင်သဖြင့် ဒေါင်းလုပ်အရွယ်အစားကို ထိရောက်စွာတိုးမြှင့်သည်။ ဘာသာပြန်ချက်များမပါဘဲ ကလုန်းလုပ်လိုပါက sparse checkout ကို အသုံးပြုပါ။
+> ဤဂိုဒေါင်းသည် ဘာသာစကား ၅၀ ကျော် ဘာသာပြန်မှုများ ပါဝင်ပြီး ဒေါင်းလုပ်ဖိုင်အရွယ်အစားကို ထိရောက်စွာ တိုးမြှင့်ပေးသည်။ ဘာသာပြန်မှု မပါဘဲ ကလုံးချင်လျှင် sparse checkout ကို အသုံးပြုပါ:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -45,135 +45,135 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> ၎င်းက သင်သင်ကြားမှုကို ပြီးမြောက်စေဖို့ လိုအပ်သမျှ အရာအားလုံးကို ပိုမိုလျင်မြန်စွာ ဒေါင်းလုပ်လုပ်နိုင်စေပါတယ်။
+> ၎င်းအဖြစ် သင်တန်းကို ပြီးမြောက်ရန် လိုအပ်သော အရာအားလုံးကို အမြန်ဆုံး ဒေါင်းလုပ်ပြုလုပ်နိုင်ပါသည်။
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**ထပ်မံသောဘာသာပြန်ချက်များလိုအပ်ပါက [ဒီနေရာမှာ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) တွင် ပါရှိသော်လည်း လမ်းညွှန်ချက်များ ရှိပါသည်။**
+**ထပ်ဆောင်းဘာသာစကားများ ထောက်ပံ့လိုပါက [ဒီနေရာတွင်](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) စာရင်းဖြင့် ကြည့်ရှုနိုင်ပါသည်**
 
-## အသိုင်းအဝိုင်းတွင် ပါဝင်ပါ
+## လူမှုအသိုင်းအဝိုင်းကို ပူးပေါင်းပါ
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-## သင်ယူမယ့်အကြောင်းအရာများ
+## သင်ဘာများ သင်ယူမည်လဲ
 
-**[သင်တန်းကြီး လမ်းညွှန်မြေပုံ](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[သင်တန်း၏ စိတ်ဓာတ်စက်ရေးမြေပုံ](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
-ဤ သင်တန်းအစီအစဉ်တွင် သင် တက်ရောက်သင်ယူမည့်အရာများမှာ-
+ဤသင်ရိုး၌ သင်မှာ-
 
-* အတုယူမှုနည်းလမ်းအမျိုးမျိုး၊ အထူးသဖြင့် **အသိပညာကို ကိုယ်စားပြုခြင်း**နှင့် အကြောင်းတရားသရုပ်ပြခြင်းပါဝင်သည့် "အဟောင်း အဆန်း" ဂုဏ်သရုပ်ဆိုင်ရာနည်းလမ်း ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence))။
-* ခေတ်သစ် AI ၏ အဓိက အစိတ်အပိုင်းဖြစ်သည့် **နယူးရယ်ကွန်ယက်များ** နှင့် **နက်ရှိုင်းသင်ယူမှု**များ။ ဤအကြောင်းအရာအရေးကြီးများ၏ အယူအဆများကို လူကြိုက်များသော Framework နှစ်ခုဖြစ်သည့် [TensorFlow](http://Tensorflow.org) နှင့် [PyTorch](http://pytorch.org) ကိုအသုံးပြုပြီး ကုဒ်ဖြင့်ရှင်းလင်းပြသမည်။
-* ပုံနှင့်စာသားများနှင့်အလုပ်လုပ်ဖို့အတွက် **နယူးရယ် ဖွဲ့စည်းမှုများ**။ နောက်ဆုံးပေါ် မော်ဒယ်များကို အနှောင့်အယှက်နည်းနည်းဖြင့် ဖုံးလွှမ်းပေးမည်။
-* နည်းလမ်းနည်းနည်း နာမည်ကြီးသည်မဟုတ်သော AI နည်းလမ်းများကဲ့သို့ **ယဉ်ကျေးမှုရေးဇီ၀ဗေဒနည်းလမ်းများ**နှင့် **စွမ်းဆောင်ရည်များစွာရှိသော စနစ်များ**။
+* အတုယူနိုင်သော ဉာဏ်ရည်အတွက် ကွဲပြားသောနည်းလမ်းများ၊ အထူးသဖြင့် **အသိပညာတင်စားခြင်း** နှင့် စဉ်းစားချက်များပါဝင်သော "ကောင်းမွန်သောဟောင်းရိုးသော" သင်္ကေတအခြေစိုက်နည်းလမ်း ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)) ကို သင်ကြားမည်။
+* စတင်လက်တွေ့အသုံးချ AI ၏ အဓိကအထောက်အထားဖြစ်သော **နယူးရယ်ကွန်ရက်များ** နှင့် **နက်ရှိုင်းလေ့လာမှု**ကို သင်ယူမည်။ ဤ အရေးကြီးသောအကြောင်းအရာများကို နိုင်ငံအလိုက်သုံးသပ်နိုင်ရန် ကုဒ်ဖြင့် [TensorFlow](http://Tensorflow.org) နှင့် [PyTorch](http://pytorch.org) ဆိုသော နာမည်ကျော် framework နှစ်ခုတွင် အညွှန်းပြသမည်။
+* ဓါတ်ပုံများနှင့် စာသားများကို ဆက်သွယ်ဆောင်ရွက်ရာတွင် အသုံးပြုသော **နယူးရယ်ဆောက်လုပ်ပုံများ**။ နောက်ဆုံးပေါ်ပုံစံများကို ဖော်ပြပါမည်၊ သို့သော် နည်းပညာအဆင့်အတန်းတွင် အနည်းငယ်ကျရှုံးနိုင်ပါသည်။
+* နည်းမကျယ်ပြန့်သော AI နည်းလမ်းများဖြစ်သည့် **ဂျီနက်တစ် အယ်လဂေါရီသမ်များ** နှင့် **အများအပြား ကိုယ်စားလှယ် စနစ်များ** ကိုလည်း ကောက်နှုတ်မည်။
 
-ဤ သင်တန်းအစီအစဉ်တွင် မဖုံးလွှမ်းမည့်အရာများမှာ-
+ဤသင်ရိုးတွင် မပါဝင်သော အကြောင်းအရာများ-
 
-> [ဤသင်တန်းအတွက် ထပ်မံလိုအပ်သော ရင်းမြစ်များအားလုံးကို ကျွန်ုပ်တို့၏ Microsoft Learn စုစည်းမှုတွင် ရှာဖွေပါ](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+> [ဤသင်တန်းအတွက် ထပ်ဆောင်းရင်းမြစ် အားလုံးကို Microsoft Learn စုစည်းမှုတွင် ရှာဖွေကြည့်ရှုနိုင်ပါသည်](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* စီးပွားရေးတွင် အသုံးပြုသော **AI စီးပွားရေးမှတ်စုများ**။ Microsoft Learn ပေါ်တွင် [စီးပွားရေး အသုံးပြုသူများအတွက် AI အခြေခံ](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်း သို့မဟုတ် [AI စီးပွားရေးကျောင်း](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum) မှာ သင်ကြားနိုင်သည်၊ ၎င်းကို [INSEAD](https://www.insead.edu/) နှင့် တွဲဖက်၍ ဖန်တီးထားသည်။
-* သာမာန် **စက်လေ့လာမှု**၊ ၎င်းကို ကျွန်ုပ်တို့၏ [စက်လေ့လာမှုကို စတင်သူများအတွက် သင်ခန်းစာပုံစံ](http://github.com/Microsoft/ML-for-Beginners) မှာ အသေးစိတ် ဖော်ပြထားသည်။
-* Practical AI applications များကို **[အကြောင်းအရာနှင့်ဆက်စပ်ဝန်ဆောင်မှုများ](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ဖြင့် တည်ဆောက်ခြင်း။ ၎င်းအတွက် Microsoft Learn တွင် [မြင်တွေ့မှု](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [သဘာဝဘာသာစကားကို လေ့လာခြင်း](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Azure OpenAI Service ဖြင့် ပြုလုပ်သော Generative AI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** နှင့် အခြားများကို စတင်ပါရန် အကြံပြုသည်။
-* အထူးသီးသန့် ML **Cloud Frameworks** များ၊ ဥပမာ [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) သို့မဟုတ် [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum) အသုံးပြုခြင်း။ [Azure Machine Learning ဖြင့် စက်လေ့လာမှု ဖြေရှင်းမှုများ ဖန်တီးခြင်းနှင့် လည်ပတ်ခြင်း](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) နှင့် [Azure Databricks ဖြင့် စက်လေ့လာမှု ဖြေရှင်းမှုများ ဖန်တီးခြင်းနှင့် လည်ပတ်ခြင်း](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းများကို သုံးစွဲဖို့ အကြံပြုသည်။
-* **ပြောဆိုဆက်ဆံရေး AI** နှင့် **စကားပြောအလိုလိုက် ခြေရာခံစနစ်များ**။ အသီးအသီး သီးခြား [ပြောဆိုဆက်ဆံရေး AI ဖြေရှင်းမှုများ ဖန်တီးခြင်း](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းရှိပြီး၊ အသေးစိတ်အတွက် [ဤ ဘလော့ဂ်ပို့စ်](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) ကိုလည်း ရည်ညွှန်းနိုင်သည်။
-* နက်ရှိုင်းတဲ့ သင်ယူမှု၏ နောက်ကွယ်ရှိ **နက်ရှိုင်းတဲ့ သင်ကြားမှု သင်္ချာ**။ ၎င်းအတွက် Ian Goodfellow, Yoshua Bengio နှင့် Aaron Courville တို့ရေးသားသော [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) စာအုပ်ကို အကြံပြုထားပြီး၊ အွန်လိုင်းတွင်ပါ ရနိုင်သည် - [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)။
+* **စီးပွားရေးလုပ်ငန်းများတွင် AI သုံးခြင်း** အကြောင်း လေ့လာချင်ပါက Microsoft Learn တွင်ရှိသော [စီးပွားရေးအသုံးပြုသူများအတွက် AI အကျဉ်း](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) သင်ကြားမှုလမ်းကြောင်း သို့မဟုတ် [AI စီးပွားရေးကျောင်း](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum) ကို [INSEAD](https://www.insead.edu/) နှင့် ပူးပေါင်းဖွံ့ဖြိုးထားသည်ကို သုံးပြိုင်ပါ။
+* ကျွန်ုပ်တို့၏ [စတင်လေ့လာသူများအတွက် စက်သင်ကြားမှု သင်ရိုး](http://github.com/Microsoft/ML-for-Beginners) တွင် လေ့လာထားသည့် **အားရေ Machine Learning** များ။
+* **[ပညာစွမ်းဆောင်မှု ဝန်ဆောင်မှုများ](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ဖြင့် ဆောက်လုပ်ထားသည့် လက်တွေ့ AI လျှောက်လွှာများ။ ဤအတွက်၊ Microsoft Learn တွင်ရှိသော [မြင်ကွင်း](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum)၊ [ဘာသာစကားသဘာဝ စီမံခန့်ခွဲမှု](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum)၊ **[Azure OpenAI ဝန်ဆောင်မှုဖြင့် ဖန်တီးရေး AI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** နှင့် အခြားများကို စတင်လေ့လာရန် အကြံပြုသည်။
+* [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum)၊ [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum) သို့မဟုတ် [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum) ကဲ့သို့သော စက်မှုလေ့လာမှုများအတွက် **Cloud Frameworks** များ။ [Azure Machine Learning ဖြင့် စက်မှုလေ့လာမှု ဖြေရှင်းချက်များ ဆောက်လုပ်နှင့် ပြောဆိုင်ခြင်း](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) နှင့် [Azure Databricks ဖြင့် စက်မှုလေ့လာမှု ဖြေရှင်းချက်များ ဆောက်လုပ်နှင့် ပြောဆိုင်ခြင်း](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) သင်ကြားလမ်းကြောင်းများကို အသုံးပြုပါ။
+* **ဘာသာစကား စကားပြော AI** နှင့် **စကားပြောဘော့များ**။ အကြောင်းအရာများကို အသီးသီးခြား၍ [ဘာသာစကား စကားပြော AI ဖြေရှင်းချက်များ ဖန်တီးခြင်း](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) သင်ကြားလမ်းကြောင်း ရှိပြီး၊ ပိုမိုအသေးစိတ်အတွက် [ဒီဘလော့ဂ်ပို့စ်](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) ကိုလည်း ဖတ်ရှုနိုင်ပါသည်။
+* နက်ရှိုင်းသော လေ့လာမှု၏ နောက်ခံ **ဂဏန်းသင်္ချာ**။ ဤအတွက် Ian Goodfellow၊ Yoshua Bengio နှင့် Aaron Courville တို့ရေးသားသော [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) စာအုပ်ကို တိုက်တွန်းပါမည်၊ လတ်တလောတွင် [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) တွင် အွန်လိုင်းလည်း ရပါသည်။
 
-_AI in the Cloud_ ခေါင်းစဉ်အား တဖြည်းဖြည်းသိရှိသွားရန်အတွက် [Get started with artificial intelligence on Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) သင်ခန်းစာလမ်းကြောင်းကို ကြည့်ရှုပါ။
+_Cloud တွင် AI_ ချဉ်းကပ်မှုအတွက် သက်တောင့်သက်သာ စတင်လေ့လာလိုပါက [Azure ပေါ်ရှိ အတုယူနိုင်သော ဉာဏ်ရည် စတင်ဆောင်ရွက်ခြင်း](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) သင်ကြားလမ်းကြောင်းကို စဥ်းစားနိုင်ပါသည်။
 
-# အကြောင်းအရာများ
+# အကြောင်းအရာ
 
-|     |                                                                 Lesson Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
+|     |                                                                 သင်ခန်းစာ Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | လက်တွေ့ဌာန                                                            |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
-| 0  |                                 [Course Setup](./lessons/0-course-setup/setup.md)                                 |                      [Setup Your Development Environment](./lessons/0-course-setup/how-to-run.md)                       |   |
-| I  |               [**AI သို့ သွားရောက်မှု**](./lessons/1-Intro/README.md)      | | |
-| 01  |       [AI ၏စာတမ်းနှင့် သမိုင်း](./lessons/1-Intro/README.md)       |           -                            | -  |
-| II |              **ဂုဏ်သရုပ်ဆိုင်ရာ AI**              |
-| 02  |       [အသိပညာကိုတင်ပြခြင်းနှင့် အထူးပြုစနစ်များ](./lessons/2-Symbolic/README.md)       |            [အထူးပြုစနစ်များ](./lessons/2-Symbolic/Animals.ipynb) /  [အယူအဆပေါ်လွင်မှု](./lessons/2-Symbolic/FamilyOntology.ipynb) /[အယူအဆဇယား](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
-| III |                        [**နယူးရယ်ကွန်ယက်များအကြောင်းအကျဉ်း**](./lessons/3-NeuralNetworks/README.md) |||
-| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [မှတ်စုစာအုပ်](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [ဆောင်းပါးခန်း](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
-| 04  |                   [Multi-Layered Perceptron နှင့် မိမိ Framework ကိုဖန်တီးခြင်း](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [မှတ်စုစာအုပ်](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [ဆောင်းပါးခန်း](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
-| 05  |            [Framework များ (PyTorch/TensorFlow) နှင့် Overfitting အကြောင်းအကျဉ်း](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
-| IV  |            [**ကွန်ပျူတာမြင်ကွင်း**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Microsoft Azure တွင် ကွန်ပျူတာမြင်ကွင်းကို စူးစမ်းကြည့်မည်](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [ကွန်ပျူတာမြင်ကွင်းအကြောင်းအကျဉ်း ဝင်ရောက်အကြောင်း OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [မှတ်စုစာအုပ်](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [ဆောင်းပါးခန်း](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
-| 07  |            [Convolutional Neural Networks](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [CNN အင်ဂျင်နီယာနည်းပညာများ](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [ရှေ့ပြေးလေ့ကျင့်ဆုံးဖွဲ့ပြီးသောကွန်ယက်များနှင့် သင်ကြားမှုလေ့ကျင့်မှု ပြောင်းလဲခြင်း](./lessons/4-ComputerVision/08-TransferLearning/README.md) နှင့် [သင်ကြားမှုနည်းလမ်းများ](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 0  |                                 [သင်တန်း ပတ်သတ်မှု](./lessons/0-course-setup/setup.md)                                 |                      [သင့်ဖွံ့ဖြိုးရေးပတ်ဝန်းကျင်ကို ပြင်ဆင်ခြင်း](./lessons/0-course-setup/how-to-run.md)                       |   |
+| I  |               [**AI မိတ်ဆက်**](./lessons/1-Intro/README.md)      | | |
+| 01  |       [AI မိတ်ဆက်နှင့် သမိုင်း](./lessons/1-Intro/README.md)       |           -                            | -  |
+| II |              **သင်္ကေတ AI**              |
+| 02  |       [အသိပညာကိုယ်စားပြုမှုနှင့် ကျွမ်းကျင်ပညာရှိစနစ်များ](./lessons/2-Symbolic/README.md)       |            [ကျွမ်းကျင်ပညာရှိစနစ်များ](./lessons/2-Symbolic/Animals.ipynb) /  [အသိအမြင်ရသပုံရိပ်](./lessons/2-Symbolic/FamilyOntology.ipynb) /[အတွေးအခေါ်ဇယား](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| III |                        [**နေ့ခြယ်ကွန်ယက်များသို့ နိဒါန်း**](./lessons/3-NeuralNetworks/README.md) |||
+| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [စာမျက်နှာဖြင့် စမ်းသပ်ရန်](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
+| 04  |                   [အလွှာ များပါသော Perceptron နှင့် ကိုယ်ပိုင် Framework ဖန်တီးခြင်း](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [စာမျက်နှာဖြင့် စမ်းသပ်ရန်](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 05  |            [Framework များသို့ နိဒါန်း (PyTorch/TensorFlow) နှင့် မကြာခဏဖြစ်သောမမှန်မှုများ](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| IV  |            [**ကွန်ပျူးတာမြင်ကွင်း**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Microsoft Azure တွင် ကွန်ပျူးတာမြင်ကွင်း ကို စူးစမ်းရန်](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [ကွန်ပျူးတာမြင်ကွင်းသို့ နိဒါန်း။ OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [စာမျက်နှာဖြင့် စမ်းသပ်ရန်](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| 07  |            [Convolutional Neural Networks](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [CNN အဆောက်အအုံများ](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
+| 08  |            [ရှေ့ပြေးကြိုတင်လေ့လာပြီးသောကွန်ယက်များနှင့် ဒေတာလွှဲပြောင်းသင်ကြားမှု](./lessons/4-ComputerVision/08-TransferLearning/README.md) နှင့် [ပြိုင်ဆိုင်သင်ကြားမှု လျှို့ဝှက်နည်းများ](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoencoders နှင့် VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Generative Adversarial Networks နှင့် အနုပညာ စတိုင်အသီးသီး လွှဲပြောင်းခြင်း](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
-| 11  |            [အရာဝတ္ထုဖော်ထုတ်ခြင်း](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [ဆောင်းပါးခန်း](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
-| 12  |            [အဓိပ္ပာယ်လိုက် သီးခြားခြင်း။ U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
-| V  |            [**ဘာသာစကားသက်ဆိုင်ရာ သဘာဝစွမ်းဆောင်မှု**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Microsoft Azure တွင် သဘာဝဘာသာစကား ဆော့ဖ်ဝဲဆိုင်ရာ စူးစမ်းကြည့်မည်](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [စာသားကိုယ်စားပြုမှု။ Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [အဓိပ္ပာယ် ပါသော စကားလုံးများ ထည့်သွင်းခြင်း။ Word2Vec နှင့် GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [ဘာသာစကား မော်ဒယ်ဖန်တီးခြင်း။ မိမိ၏ အတွဲများကို သင်ကြားခြင်း](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 10  |            [Generative Adversarial Networks နှင့် အနုပညာစတိုင် လွှဲပြောင်းမှု](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 11  |            [အရာဝတ္ထုဖော်ထုတ်ခြင်း](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
+| 12  |            [Semantic Segmentation. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
+| V  |            [**သဘာဝဘာသာစကား ပြုမူရေးသားခြင်း**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Microsoft Azure တွင် သဘာဝဘာသာစကား ပြုမူရေးသားခြင်း ကို စူးစမ်းရန်](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
+| 13  |            [စာသား ကိုယ်စားပြုခြင်း။ Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Semantic word embeddings. Word2Vec နှင့် GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [ဘာသာစကား မော်ဒယ်ပြုစုပြုလုပ်ခြင်း။ ကိုယ်ပိုင် embedding များ သင်ကြားခြင်း](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
 | 16  |            [Recurrent Neural Networks](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 17  |            [Generative Recurrent Networks](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [အမည်ထားရှိသည့် အဖွဲ့ဝင် ဖော်ထုတ်ခြင်း](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [ကြီးမားသော ဘာသာစကား မော်ဒယ်များ၊ Prompt Programming နှင့် Few-Shot လုပ်ငန်းများ](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
-| VI |            **အခြား AI နည်းစနစ်များ** || |
-| 21  |            [ဂျီနက်တစ်အယ်လ်ဂေါရစ်သမ်များ](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [မှတ်စုစာအုပ်](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
-| 22  |            [နက်ရှိုင်းသော အားပေးလေ့လာမှု](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [ဆောင်းပါးခန်း](./lessons/6-Other/22-DeepRL/lab/README.md) |
-| 23  |            [အများပြည်သူအေဂျင့်စနစ်များ](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
-| VII |            **AI သဘာဝကျကျ အကျင့်စရိုက်များ** | | |
-| 24  |            [AI သဘာဝကျကျ အကျင့်စရိုက်နှင့် တာဝန်ယူမှုရှိသော AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: တာဝန်ယူမှုရှိ AI ကိုယ်စားပြုချက်များ](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
-| IX  |            **ထပ်ဆောင်းများ** | | |
-| 25  |            [Multi-Modal Networks, CLIP နှင့် VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [မှတ်စုစာအုပ်](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
+| 19  |            [အမည်ရ အခန်းကဏ္ဍ အသိအမှတ်ပြုခြင်း](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [ကြီးမားသော ဘာသာစကား မော်ဒယ်များ၊ Prompt Programming နှင့် နည်းပါးသော တိုက်ရိုက် လုပ်ဆောင်မှုများ](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| VI |            **အခြား AI နည်းပညာများ** || |
+| 21  |            [Genetic Algorithms](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [စာမျက်နှာဖြင့် စမ်းသပ်ရန်](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
+| 22  |            [နက်ရှိုင်းသော အားပေးသင်ကြားမှု](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [လက်တွေ့ လေ့ကျင့်ခန်း](./lessons/6-Other/22-DeepRL/lab/README.md) |
+| 23  |            [ဗဟိုပြု စနစ်များ](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
+| VII |            **AI ကျင့်ဝတ်များ** | | |
+| 24  |            [AI ကျင့်ဝတ်ပြုမှုနှင့် တာဝန်ကျေမှုရှိသော AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: တာဝန်ရှိသော AI စည်းကမ်းများ](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| IX  |            **အပိုဆောင်းများ** | | |
+| 25  |            [အမျိုးမျိုးသော အချင်းချင်း ကွန်ယက်များ၊ CLIP နှင့် VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [စာမျက်နှာဖြင့် စမ်းသပ်ရန်](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
-## တစ်ခုချင်းလက်ကားတွင် ပါဝင်သော အရာများ
-* အကြိုဖတ်စာကြောင်းများ  
-* ချက်ချင်းအလုပ်လုပ်နိုင်သော Jupyter Notebooks များ၊ အများဆုံးသည် **PyTorch** သို့မဟုတ် **TensorFlow** ဖွဲ့စည်းမှုများအထူးသည့်။ အလုပ်လုပ်နိုင်သော notebook တွင် သီအိုရီဆိုင်ရာ အကြောင်းအရာများ များပြားသောကြောင့် နားလည်ရန်အတွက် အနည်းဆုံး notebook တစ်ခုလျှောက်လည်သင့်သည် (PyTorch သို့မဟုတ် TensorFlow)။  
-* တချို့ ရွေးချယ်မှုများတွင် **Labs** ရှိပြီး သင့်လေ့လာသင်ယူမှုကို အထူးပြု ပြဿနာတစ်ခုတွင် သုံးစွဲကြည့်ရန် အခွင့်အလမ်းပေးသည်။  
-* တချို့ အပိုင်းများတွင် [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) မော်ဂျူးများသို့ ချိတ်ဆက်ချက်များ ပါဝင်ကာ ဆက်စပ်အကြောင်းအရာများကို ပေးထားသည်။  
+## သင်ခန်းစာတိုင်းတွင် ပါဝင်သည်များ
+* ကြိုတင်ဖတ်ရှုရန်ပစ္စည်းများ
+* Framework တစ်ခုချင်းစီအတွက် အထူးပြုသော **PyTorch** သို့မဟုတ် **TensorFlow** ဖြင့်ရေးသားထားသည့် အကောင်အထည်ဖော်နိုင်သော Jupyter Notebooks များ။ အကောင်အထည်ဖော်နိုင်သော notebook တွင် လည်းသိပ္ပံနည်းကျ အကြောင်းအရာများများ ပါဝင်သောကြောင့်၊ ခေါင်းစဉ်ကိုနားလည်ရန်အတွက် PyTorch သို့မဟုတ် TensorFlow ထဲမှ တစ်ခုခုရဲ့ notebook ဗားရှင်းတစ်ခုကနေဖြတ်သန်းဖတ်ရှုရပါမည်။
+* သင်ယူလေ့လာထားသည့် ပစ္စည်းများကို သီးခြားပြဿနာတစ်ခုတည်ဆောက်ရန် ကြိုးစားလေ့လာစမ်းသပ်နိုင်သည့် **Labs** များအချို့အတွက်ရရှိနိုင်သည်။
+* ခေါင်းစဉ်အချို့တွင် ဆက်စပ်ခေါင်းစဉ်များကိုဖုံးလွှမ်းသည့် [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) modules များအတွက် လင့်များပါဝင်သည်။
 
-## စတင်ရန်
+## စတင်ခြင်း
 
-### 🎯 AI အကြောင်း အသစ်လား? ဒီနေရာကနေ စလိုက်ပါ!
+### 🎯 AI အသစ်လား? ဒီနေရာကနေ စတင်ပါ!
 
-AI အကြောင်း အသစ်ပြီး လျင်မြန်သော လက်တွေ့နမူနာများ လိုအပ်ပါက ကျွန်ုပ်တို့ရဲ့ [**အခြေခံသူများအတွက်နမူနာများ**](./examples/README.md) ကို ကြည့်ပါ။ အဆိုပါနမူနာများတွင် ပါဝင်သည်မှာ -  
+AI ကို အသစ်စ completely လုံးဝမသိဘဲ အမြန်လက်တွေ့ နမူနာများကူညီဖို့လိုရင်တော့ ကျွန်ုပ်တို့ရဲ့ [**ဆရာကြီးအတွက် အဆင်ပြေသော ဥပမာများ**](./examples/README.md) ကိုကြည့်ပေးပါ။ ဥပမာများတွင် ပါဝင်သည်မှာ -
 
-- 🌟 **Hello AI World** - သင့်ရဲ့ ပထမဆုံး AI ပရိုဂရမ် (ပုံစံ သတိပြုခြင်း)  
-- 🧠 **ရိုးရှင်းသော Neural Network** - Neural network ကို စတင်တည်ဆောက်ခြင်း  
-- 🖼️ **ပုံတစ်ပုံအမျိုးအစားခွဲခြားရေး** - ပုံများကို အသေးစိတ် မှတ်ချက်များဖြင့် ခွဲခြားပါ  
-- 💬 **စာသားခံစားချက်** - စာသားအပေါ် အပေါင်းအခြား စာသားများကို ခွဲခြားသုံးသပ်ခြင်း  
+- 🌟 **Hello AI World** - သင့်အတွက်ပထမဆုံး AI ပရိုဂရမ် (ပုံစံသိမြင်ခြင်း)
+- 🧠 **ရိုးရှင်းသော နေရယ်နက်နက်ဝက် (Neural Network)** - အခြေခံကနေ neural network တည်ဆောက်ခြင်း  
+- 🖼️ **ပုံရိပ်ခွဲခြားသူ** - အသေးစိတ်မှတ်ချက်များနှင့် ပုံများခွဲခြားခြင်း
+- 💬 **စာသားခံစားချက်** - အနောက် positive/negative စာသား ဝေဖန်ခြင်း
 
-ဒီနမူနာများသည် AI အယူအဆကို လေ့လာမှု အပြည့်အစုံထဲသို့ ဝင်မည့် အကြောင်းကို နားလည်ရန် အထောက်အကူပြုသည်။  
+ဒီဥပမာတွေက AI အကြောင်းအရာနားလည်မှုရဖို့လုပ်ထားပါတယ်၊ သင့်ကို အပြည့်အစုံ သင်ရဖြစ်တဲ့ဘာသာရပ်အထဲ ဝင်မတိုင်မှ ပိုကောင်းစေရန်ဖြစ်ပါတယ်။
 
-### 📚 စုံလင်သော သင်ရိုးညွှန်းတမ်း ပြင်ဆင်ခြင်း
+### 📚 အပြည့်အစုံ သင်ရေရာ့ ကုလားအုံ
 
-- သင်၏ ဖွံ့ဖြိုးမှု ပတ်ဝန်းကျင်ကို ပြင်ဆင်ရန်အတွက် [တပ်ဆင်မှု သင်ခန်းစာ](./lessons/0-course-setup/setup.md) တစ်ခု ပြုလုပ်ထားသည်။  
-- ဆရာ/ဆရာမများအတွက်လည်း [သင်ရိုးညွှန်းတမ်း ပြင်ဆင်ခြင်း သင်ခန်းစာ](./lessons/0-course-setup/for-teachers.md) တစ်ခု ပြုလုပ်ထားသည်။  
-- VSCode သို့မဟုတ် Codespace တွင် [ကုဒ်ဆောင်ရွက်နည်း](./lessons/0-course-setup/how-to-run.md)  
+- သင့်ရဲ့ ဖွံ့ဖြိုးတိုးတက်ရေးပတ်ဝန်းကျင်ကို သက်ဆိုင်ရာ ချိန်ညှိဖို့ [setup lesson](./lessons/0-course-setup/setup.md) သင်ခန်းစာပြုလုပ်ထားပါတယ်။ 
+- ပညာရှင်များအတွက်လည်း [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) ကို လုပ်ထားပါတယ်။
+- VSCode သို့မဟုတ် Codespace အတွင်း ကုဒ်ကို [ပြေးပေးနည်း](./lessons/0-course-setup/how-to-run.md) 
 
-အောက်ပါ အဆင့်များကို လိုက်နာပါ -  
+ဒီအဆင့်တွေကိုလိုက်နာပါ -
 
-Repository ကို Fork လုပ်ပါ - ဒီစာမျက်နှာ၏ အပေါ်ယံညာဘက် ကွက်တွင်ရှိသော "Fork" ခလုတ်ကို နှိပ်ပါ။  
+Repository ကို Fork လုပ်ပါ: ဒီစာမျက်နှာ၏ အပေါ်-ညာဘက်ထောင့်ရှိ "Fork" ခလုတ်ကိုနှိပ်ပါ။
 
-Repository ကို Clone လုပ်ပါ - `git clone https://github.com/microsoft/AI-For-Beginners.git`  
+Repository ကို Clone လုပ်ပါ: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-နောက်မှ ရှာဖွေ၊ အလွယ်တကူ ရနိုင်ဖို့အတွက် ဒီ repo ကို စတား (🌟) မမေ့ပါနှင့်။  
+နောက်တစ်ခါမှာ ရှာဖွေတွေ့ဖို့ အဆင်ပြေစေဖို့ ဒီ repo ကို ကြယ် (🌟) ဖြင့်မှတ်သားထားဖို့ မမေ့ပါနဲ့။
 
-## အခြားလေ့လာသူများနှင့် တွေ့ဆုံခြင်း
+## အခြား သင်ယူသူများနှင့် တွေ့ဆုံခြင်း
 
-ဒီသင်တန်းကို လက်ခံလေ့လာနေသူ အခြားလေ့လာသူများနှင့် တွေ့ဆုံ ဆက်ဆံရန်နှင့် ကူညီမှု ရရန် ကျွန်ုပ်တို့၏ [တရားဝင် AI Discord ဆာဗာ](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) တွင် ပါဝင်ပါ။  
+ဒီသင်တန်းကို လေ့လာနေသော အခြားသင်ယူသူများနှင့် တွေ့ဆုံပြီး လူမှုကွန်ယက်များ ပြုလုပ်နိုင်ရန်နှင့် အကူအညီရရန် အတွက် ကျွန်ုပ်တို့ရဲ့ [အတည်ပြု AI Discord server](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) ကို တက်ရောက်ပါ။
 
-ထုတ်ကုန်အကြံပြုချက် သို့မဟုတ် ညွှန်ကြားမှု ရှိပါက [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) သို့ သွားရောက်စုံစမ်းပါ။  
+စီမံကိန်းတည်ဆောက်မှုအတွင်း ထောက်ခံချက်၊ မေးခွန်းများ ရှိပါက ကျွန်ုပ်တို့ရဲ့ [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum) ကို ဝင်ကြည့်ပါ။
 
-## စစ်ဆေးမေးခွန်းများ  
+## စမ်းသပ်မေးခွန်းများ
 
-> **စစ်ဆေးမေးခွန်းများအကြောင်း မှတ်ချက်** - အားလုံးသော စစ်ဆေးမေးခွန်းများကို Quiz-app folder တွင် etc\quiz-app တွင်ထားသည်၊ ဒါမှမဟုတ် [အွန်လိုင်းတွင် ဒီနေရာမှာ](https://ff-quizzes.netlify.app/) ရနိုင်ပါသည်။ စစ်ဆေးမေးခွန်းများသည် သင်ခန်းစာများထဲမှ ချိတ်ဆက်ထားပြီး၊ quiz app ကို ဒေသခံတွင် ပြေးနိုင်သလို Azure တွင် တင်ထားနိုင်သည်။ quiz-app ဖိုလ်ဒါအတွင်း ဆင့်များကို အတိုက်အခိုက် လိုက်နာပါ။ အဆင့်ဆင့် ဘာသာပြန်ထားလျက်ရှိသည်။  
+> **စမ်းသပ်မေးခွန်း အကြောင်းမှတ်ချက်**: စမ်းသပ်မေးခွန်းအားလုံးကို Quiz-app ဖိုလ်ဒါထဲ etc\quiz-app တွင် ပါဝင်သည်၊ သို့မဟုတ် [အွန်လိုင်းတွင်](https://ff-quizzes.netlify.app/) လင့်ခ်ထားသည်။ စမ်းသပ်မေးခွန်း app ကို ဒေသတွင်းတွင် ပြေးနိုင်သလို Azure တွင် မိတ်ဆက်နိုင်ပါသည်။ `quiz-app` ဖိုလ်ဒါအတွင်းရှိ မှတ်ချက်များကို လိုက်နာဖြစ်စေပါ။ သင်္ချာအဆင့်တစ်ခုချင်းစီဖြင့် တစ်ကြောင်းချင်းဘာသာပြန်နေဖြစ်သည်။
 
-## အကူအညီလိုအပ်ပါသည်
+## အကူအညီ လိုအပ်ပါသလား
 
-အကြံပြုချက်များ သို့မဟုတ် အမှားစာလုံး (spelling) သို့မဟုတ် ကုဒ်အမှားတွေ ရှိပါက တင်ပြပါ သို့မဟုတ် Pull request တောင်းဆိုပါ။  
+အကြံပြုချက်များရှိပါသလား၊ စာလုံးမှားခြင်း သို့မဟုတ် ကုဒ်မှားများ တွေ့ရှိပါသလား? စိစစ်မှုတင်ရန် သို့မဟုတ် pull request ဖန်တီးရန် ပြုလုပ်ပါ။
 
-## အထူးကျေးဇူးတင်ပါသည်
+## အထူးကျေးဇူးများ
 
-* **✍️ အဓိကစာရေးသူ:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
-* **🔥 မျက်နှာဖုံးစောက်သူ:** [Jen Looper](https://twitter.com/jenlooper), PhD  
-* **🎨 Sketchnote ပန်းချီဆရာ:** [Tomomi Imura](https://twitter.com/girlie_mac)  
-* **✅ စစ်ဆေးမေးခွန်းဖန်တီးသူ:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
-* **🙏 အဓိက ပံ့ပိုးသူများ:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
+* **✍️ အဓိကရေးသားသူ:** [Dmitry Soshnikov](http://soshnikov.com), PhD
+* **🔥 ပြင်ဆင်သူ:** [Jen Looper](https://twitter.com/jenlooper), PhD
+* **🎨 စကက်ချန်းရေးဆွဲသူ:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **✅ စမ်းသပ်မေးခွန်း ဖန်တီးသူ:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **🙏 အဓိက ပါဝင်ဆောင်ရွက်သူများ:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## အခြား သင်ရိုးညွှန်းတမ်းများ
+## အခြားသင်ရိုးညွှန်း
 
-ကျွန်ုပ်တို့အသင်းသည် အခြားသင်ရိုးညွှန်းတမ်းများကို ထုတ်လုပ်လျက်ရှိသည်! စစ်ဆေးကြည့်ပါ -  
+ကျွန်ုပ်တို့အဖွဲ့သည် အခြားသင်ရိုးညွှန်းများလည်း ထုတ်လုပ်သည်။ ကြည့်ပါ -
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -215,19 +215,19 @@ Repository ကို Clone လုပ်ပါ - `git clone https://github.com/mi
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## အကူအညီ ရယူရန်
+## အကူအညီ ရယူခြင်း
 
-AI app များ တည်ဆောက်ရာတွင် ရပ်တန့်မဖြစ်ဘဲ မေးခွန်းများ ရှိပါက MCP နှင့် ပတ်သက်ပြီး အတွေ့အကြုံရှိသူအဖွဲ့နှင့် အခြားလေ့လာသူများနဲ့ ဆွေးနွေးရန် ပါဝင်ပါ။ ဒီသည် ဟာ မေးခွန်းများ လက်ခံပြီး အသိပညာ ရှင်းလင်းဝေမျှမှု အဆင်ပြေသော အသိုင်းအဝိုင်း ဖြစ်သည်။  
+AI အက်ပ်များ တည်ဆောက်ရာတွင် တားဆီးမှုရှိပါက သို့မဟုတ် မေးခွန်းများရှိပါက MCP နှင့်ပတ်သက်သော ဆွေးနွေးပွဲများတွင် သင်တန်းသားများနဲ့ အတွေ့အကြုံရှိ ဖွံ့ဖြိုးတိုးတက်သူများ နှင့် တွဲဖက်ပါဝင်ဆွေးနွေးနိုင်သည်။ ဆွေးနွေးပွဲသည် မေးခွန်းများ ကြိုဆိုပြီး အသိပညာ မျှဝေမှု လွတ်လပ်စွာ ဖြစ်ပွားသော ကြိုးစားမှု အသိုင်းအဝိုင်း ဖြစ်သည်။
 
-[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)  
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-ထုတ်ကုန် အကြံပြုချက် သို့မဟုတ် အမှားများ ရှိပါက ဤနေရာတွင် သွားရောက်ပါ -  
+တည်ဆောက်သည့်အခါ ထုတ်ကုန်အကြံပြုချက် သို့မဟုတ် မှားယွင်းချက်များရှိပါက -
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**အသိပေးချက်**  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားပေမယ့်၊ စက်မှုဘာသာပြန်မှုသည် အမှားများ သို့မဟုတ် မှားယွင်းမှုများ ပါဝင်နိုင်ကြောင်း သတိပြုပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။ မူလစာရွက်စာတမ်းကို မူလဘာသာဖြင့်သာ သေချာစွာ ကိုးကားရန် သင့်တော်ပါသည်။ အရေးကြီးသော သတင်းအချက်အလက်များအတွက် လူမှုပညာရှင်တို့၏ လုပ်ထုံးလုပ်နည်းဖြင့်ဘာသာပြန်ခြင်းကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှု အသုံးပြုမှုပေါ်တွင် ဖြစ်ပေါ်လာသော နားလည်မှုမှားခြင်းများ သို့မဟုတ် မှားယွင်းနားလည်မှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မရှိပါ။
+**အချက်ပြချက်**။  
+ဤစာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှုဖြစ်သော [Co-op Translator](https://github.com/Azure/co-op-translator) ဖြင့် ဘာသာပြန်ထားပါသည်။ ကျွမ်းကျင်မှုရှိရန် ကြိုးစားပါသော်လည်း၊ စက်ရုပ်ဘာသာပြန်ခြင်းအတွက် မမှန်ကန်မှုများ သို့မဟုတ် မှားယွင်းမှုများ ရှိနိုင်ကြောင်း သတိပြုရန်လိုအပ်ပါသည်။ မူလစာတမ်းကို သူ့ဘာသာစကားဖြင့်ပင် ကိုယ်စားပြုအချက်အလက် ဟုယူဆရမည်။ အရေးကြီးသော သတင်းအချက်အလက်များအတွက် လူအဆိုအရ ဘာသာပြန်ခြင်းကို သတင်းအချက်အလက်တပ်ဆင်ရန် အကြံပြုပါသည်။ ဤဘာသာပြန်ချက်လ်အပေါ်မှ မတူညီမှုများ သို့မဟုတ် မှားယွင်းနားမလည်မှုများအတွက် ကျွန်ုပ်တို့ တာဝန်မယူပါ။
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
