@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 117,
+        "title": "Generative networks: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "RNNs can be for generative tasks",
+            "answerOptions": [
+              {
+                "answerText": "yes",
+                "isCorrect": true
+              },
+              {
+                "answerText": "no",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "_____ is a traditional neural network with one input and one output",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sequence-to-sequence",
+                "isCorrect": false
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "RNN generates texts by generating next output token for each input token",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "title": "Generative networks: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Output encoder converts hidden state into _____ output",
+            "answerOptions": [
+              {
+                "answerText": "one-hot-encoded",
+                "isCorrect": true
+              },
+              {
+                "answerText": "sequence",
+                "isCorrect": false
+              },
+              {
+                "answerText": "number",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Selecting the character with higher probabilities always gives a meaningful text.",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              },
+              {
+                "answerText": "maybe",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Many-to-many can also be referred to as _____",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "sequence-to-sequence",
+                "isCorrect": true
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

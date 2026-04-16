@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 105,
+        "title": "Frameworks: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Deep Neural Network training requires a lot of computations",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Overfitting occurs because of ____",
+            "answerOptions": [
+              {
+                "answerText": "Not enough testing data",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Too powerful model",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Too much noise in output data",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Bias errors are caused by our ____ not being able to capture the relationship between training data correctly.",
+            "answerOptions": [
+              {
+                "answerText": "model",
+                "isCorrect": false
+              },
+              {
+                "answerText": "algorithm",
+                "isCorrect": true
+              },
+              {
+                "answerText": "computer",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 205,
+        "title": "Frameworks: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "After compiling our model object, we train by calling ____ function",
+            "answerOptions": [
+              {
+                "answerText": "fit",
+                "isCorrect": true
+              },
+              {
+                "answerText": "train",
+                "isCorrect": false
+              },
+              {
+                "answerText": "teach",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Binary cross-entropy is also called log loss",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "TensorFlow is to ____ while PyTorch is to ____",
+            "answerOptions": [
+              {
+                "answerText": "Facebook, Google",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Google, Facebook",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Microsoft, Google",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

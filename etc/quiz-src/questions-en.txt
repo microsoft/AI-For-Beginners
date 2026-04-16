@@ -1,0 +1,639 @@
+Lesson 1B Introduction to AI: Pre Quiz
+* A famous 19th century proto-computer engineer was
+- Charles Barkley
++ Charles Babbage
+- Charles Darwin
+* Weak AI is a system designed to solve many tasks
+- True
++ False
+* Chat bots are an example of truly intelligent systems
+- false, they are usually designed by a series of rules.
+- true, they are usually considered to be 'intelligent
++ false, but they are increasingly able to pass Turing tests as they become more sophisticated.
+
+Lesson 1E Introduction to AI: Post-Quiz
+* A top-down approach to AI is a model of reasoning called
+- strategic reasoning
++ symbolic reasoning
+- synergistic reasoning
+* A bottom-up approach to AI is based on neural networks
++ True
+- False
+* The AI Winter occurred in this era
+- 1950s
+- 1960s
++ 1970s
+
+Lesson 2B Knowledge Representation and Expert Systems: Pre-Quiz
+* The top-down approach to creating intelligent systems was based on:
+- knowledge seeking and reading
++ knowledge representation and reasoning
+- knowledge reasoning and seeking
+* Knowledge is the same as information
+- True
++ False
+* Knowledge is obtained by an:
++ active learning process
+- passive learning process
+- both of these
+
+Lesson 2E Knowledge Representation and Expert Systems: Post-Quiz
+* The simplest method of knowledge representation is:
++ algorithmic
+- symbolic
+- synergistic
+* Scenarios can represent complex situations that can unfold in time
++ true
+- false
+* Forward inference starts with initial data and then:
++ executes a reasoning loop
+- looks for a goal
+- starts over
+
+Lesson 3B Introduction to Neural Networks - Perceptron: Pre-Quiz
+* Early neural networks required
++ manual weight adjusting
+- terabytes of data
+- special reasoning
+* A simple neuron is also called a 'threshold logic unit'
++ true
+- false
+* A perceptron is a ___ type of model
+- multi-class classification
+- clustering
++ binary classification
+
+Lesson 3E Introduction to Neural Networks - Perceptron: Post-Quiz
+* To train a perceptron, find a weights vector that results in the smallest ___.
+- size
++ error
+- nodes
+* To minimize the function of weights, you can use gradient descent
++ true
+- false
+* During gradient descent, each step updates the ___
+- learning rate
++ weights
+- gradient
+
+Lesson 4B Neural Networks: Pre Quiz
+* The quality of prediction is measured by Loss function 
++ True
+- False
+* One layer network is capable of classifying ____
+- linearly joined classes
++ linearly separable classes
+- single layers of classes
+* The method of training multi-layered perceptron is called ____
++ back propagation
+- multiple propagation
+- front propagation
+
+Lesson 4E Neural Networks: Post Quiz
+* We use ____ for regression loss functions
+- absolute error
+- mean squared error
++ all of the above
+* All but one is a type of classification loss function
+- 0-1 loss
++ binary loss
+- logistic loss
+* Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions
++ True
+- False
+
+Lesson 5B Frameworks: Pre Quiz
+* Deep Neural Network training requires a lot of computations
++ True
+- False
+* Overfitting occurs because of ____
+- Not enough testing data
++ Too powerful model
+- Too much noise in output data
+* Bias errors are caused by our ____ not being able to capture the relationship between training data correctly.
+- model
++ algorithm
+- computer
+
+Lesson 5E Frameworks: Post Quiz
+* After compiling our model object, we train by calling ____ function
++ fit
+- train
+- teach
+* Binary cross-entropy is also called log loss
++ True
+- False
+* TensorFlow is to ____ while PyTorch is to ____
+- Facebook, Google
++ Google, Facebook
+- Microsoft, Google
+
+Lesson 6B Introduction to Computer Vision: Pre Quiz
+* Computer vision aims to allow computers gain understanding of _____
++ images
+- text
+- computers
+* Python libraries available for image processing includes
+- OpenCV
+- Pillow
++ a and b
+* Images cannot be represented as NumPy arrays in Python
+- true
++ False
+
+Lesson 6E Introduction to Computer Vision: Post Quiz
+* Optical Flow helps us to understand how each pixel on video frames move.
++ true
+- false
+* _____ computes the vector field that shows where each pixel is moving
+- Sparse Optical Flow
++ Dense Optical Flow
+- none
+* Resizing and Blurring are steps that can be taken during? 
++ pre-processing
+- training
+- image transformation
+
+Lesson 7B Convolutional Neural Networks: Pre Quiz
+* To extract patterns from images we use?
++ convolutional filters
+- extractor
+- filters
+* One of these is not a CNN Architecture
+- ResNet
+- MobileNet
++ TensorFlow
+* CNN are mostly used for computer vision tasks.
++ true
+- false
+
+Lesson 7E Convolutional Neural Networks: Post Quiz
+* Which pooling layer is used "scale down" the size of the image
+- average pooling
+- max pooling
++ a and b
+* Convolutional networks generalizes much better
++ True
+- False
+* To train our neural network, we need to convert images to tensors
++ true
+- false
+
+Lesson 8B Pre-trained Networks and Transfer Learning: Pre Quiz
+* Transfer learning approach uses untrained models for classification
+- true
++ false
+* One of these is not a normalization technique?
++ height normalization
+- weight normalization
+- layer normalization
+* We choose Stochastic Gradient Descent(SGD) in deep learning because classical gradient descent can be ____
+- fast
++ slow
+
+Lesson 8E Pre-trained Networks and Transfer Learning: Post Quiz
+* Dropout layers act as a ____ technique
+- gradient boosting
+- training
++ regularization
+* freezing weights of convolutional feature extractor can be done by ____
+- setting `requires_grad` property to `False`
+- setting `trainable` property to `False`
++ a and b
+* Batch normalization is to bring values that flow through the ____ to right interval
+- algorithms
+- batches
++ neural network
+
+Lesson 9B Autoencoders: Pre Quiz
+* Self-supervised learning uses ____ data for training
+- pre-trained
++ raw
+- labeled
+* Encoder Network coverts input images into latent spaces
++ true
+- false
+* VAE is short for?
+- Variable AutoEncoding
++ Variation auto-encoder
+- Variational automated encoders
+
+Lesson 9E Autoencoders: Post Quiz
+* Properties of autoencoders include
+- it is data Specific
+- works on unlabeled data
++ all of the above
+* Auto encoders can be used to effectively remove noise from images
++ true
+- false
+* Variational auto-encoders loss function does not consist of which of these?
+- reconstruction loss
+- KL loss
++ TF loss
+
+Lesson 10B Generative Adversarial Networks: Pre Quiz
+* Generators take vectors and produce ____
+- videos
++ image
+- gif
+* GANs is short for?
+- General adversarial networks
+- Generative advisor networks
++ Generative adversarial networks
+* GAN uses ____ neural networks
+- 1
++ 2
+- 3
+
+Lesson 10E Generative Adversarial Networks: Post Quiz
+* We can use Batch normalization and BatchNorm1D to stabilize the training
++ true
+- false
+* Deep Convolutional GAN uses convolutional layers for ____ and ____
++ generator, discriminator
+- CNN, generator
+- training, testing
+* Problems of GAN training includes
+- Sensitivity to hyperparameters
+- Keeping balance between generator and discriminator
++ all of the above
+
+Lesson 11B Object Detection: Pre Quiz
+* Neural networks can only be used to classify images
+- true
++ false
+* With object detection, we don't just get the class of an object, but also its ____
+- shape
++ location
+- type
+* How many objects can an object detection model detect?
+- one
+- two
++ any number
+
+Lesson 11E Object Detection: Post Quiz
+* An Object detection model gives us
+- object class
+- bounding box
++ both class and bounding box
+* Which object detection models are faster?
++ one-pass models
+- region proposal networks
+- Fast R-CNN
+* Which metric can be used to determine how well bounding boxes are aligned?
+- accuracy
+- precision
++ IoU
+
+Lesson 12B Segmentation: Pre Quiz
+* How many segmentation algorithm are there?
+- 1
++ 2
+- 3
+* Segmentation is a _____ task
++ computer vision
+- natural language processing
+- neural networks
+* Segmentation networks consist of ____ and ____ parts
+- classifier, divider
++ encoder, decoder
+- generator, discriminator
+
+Lesson 12E Segmentation: Post Quiz
+* ____ extracts features from an input image
+- decoder
+- generator
++ encoder
+* ____ transforms input features into mask image
++ decoder
+- generator
+- encoder
+* SegNet relies on ____ to train multi-layered network
++ batch normalization
+- height normalization
+- weight normalization
+
+Lesson 13B Text Representation: Pre Quiz
+* Each word in a Bag of Words is linked to a vector index
++ true
+- false
+* Text can be represented using _____ approaches
+- 1
++ 2
+- 3
+* Character level representation represents each _____ as a number
++ letter
+- word
+- symbol
+
+Lesson 13E Text Representation: Post Quiz
+* Word level representation represents _____ as a number
+- letter
++ word
+- symbol
+* N-Grams refers to _____
+- combination of n number of words and symbols
+- combination of n number of letters
++ combination of n number of Words
+* The main drawback of N-gram is that the vocabulary size grows fast
++ true
+- false
+
+Lesson 14B Embeddings: Pre Quiz
+* Embedding is used to represent words with _____ dimensional dense vectors
++ lower
+- higher
+- average
+* Word2Vec pre-trained embeddings can also be used in place of embedding layer in neural networks
++ True
+- False
+* Using embedding layer we cannot switch from bag-of-words to embedding bag
+- True
++ false
+
+Lesson 14E Embeddings: Post Quiz
+* Word2Vec has _____ main architectures
+- 1
++ 2
+- 3
+* Word sense disambiguation is a limitation of traditional pretrained embedding representations
++ True
+- False
+* An embedding layer takes _____ as input
++ word
+- symbol
+- number 
+
+Lesson 15B Language Modeling: Pre Quiz
+* Which of the following can be considered a language model?
++ Word2Vec embeddings
+- Embedding layer in RNN
+- RNN used for text classification
+* A language model should be able to ____ the next word in the sentence
+- use
++ predict
+- guess
+* Language models are trained on
+- language vocabulary
+- specially labeled data
++ any natural text
+ 
+Lesson 15E Language Modeling: Post Quiz
+* Which of the architectures predicts a word from neighboring words?
++ CBoW
+- Skip-gram
+- N-Gram
+* When we train a CBoW model, we obtain
+- A model that can generate text
++ Word2Vec embedding vectors
+- Text classification model
+* The CBoW model is based on
++ Dense neural network
+- Convolutional neural network
+- Recurrent neural network
+
+Lesson 16B RNN: Pre Quiz
+* RNN is short for?
+- regression neural network
++ recurrent neural network
+- re-iterative neural network
+* A simple RNN cell has two weight _____
++ matrices
+- cell
+- neuron
+* vanishing gradients is a problem of _____
++ RNN
+- CNN
+- KNN
+
+Lesson 16E RNN: Post Quiz
+* _____ takes some information from the input and hidden vector, and inserts it into state
+- forget gate
+- output gate
++ input gate
+* Bidirectional RNNs runs recurrent computation in _____
++ both directions
+- north-west direction
+- left-right direction
+* All RNN Cells have the same shareable weights
++ True
+- False
+
+Lesson 17B Generative networks: Pre Quiz
+* RNNs can be for generative tasks
++ yes
+- no
+* _____ is a traditional neural network with one input and one output
++ one-to-one
+- sequence-to-sequence
+- one-to-many
+* RNN generates texts by generating next output token for each input token
++ true
+- false
+
+Lesson 17E Generative networks: Post Quiz
+* Output encoder converts hidden state into _____ output
++ one-hot-encoded
+- sequence
+- number
+* Selecting the character with higher probabilities always gives a meaningful text.
+- true
++ false
+- maybe
+* Many-to-many can also be referred to as _____
+- one-to-one
++ sequence-to-sequence
+- one-to-many
+
+Lesson 18B Transformers: Pre Quiz
+* Attention mechanism provides a means of _____ the impact of an inout vector on an output prediction of RNN
++ weighting
+- training
+- testing
+* BERT is an acronym for
+- Bidirectional Encoded Representations From Transformers
++ Bidirectional Encoder Representations From Transformers
+- Bidirectional Encoder Representatives of Transformers
+* In positional encoding the relative position of the token is represented by number of steps
++ true
+- false
+
+Lesson 18E Transformers: Post Quiz
+* Positional embedding _____ the original token and its position within the sequence
+- separates
+- compares
++ embeds
+* Multi-Head Attention is used in transformers to give network the power to capture _____ of dependencies
++ different types
+- same type
+- none
+* In transformers attention is used in _____ instances
+- 1
++ 2
+- 3
+
+Lesson 19B Named Entity Recognition: Pre Quiz
+* What does NER stands for?
+- Nearest Estimated Region
+- Nearest Entity Region
++ Named Entity Recognition
+* An entity always consists of one token
+- true
++ false
+* To train NER model, we need
++ Labeled dataset
+- Any natural text
+- Translated texts in two languages
+
+Lesson 19E Named Entity Recognition: Post Quiz
+* NER model is essentially a ____ model
+- text classification
++ token classification
+- text regression
+* Which neural network types can be used for NER?
+- RNNs
+- Transformers
++ Both RNNs and Transformers
+* NER model is a good example of ____ network architecture
+- one-to-one
+- one-to-many
++ many-to-many
+
+Lesson 20B Language Models: Pre Quiz
+* What does GPT stand for?
+- Generic Pre-Trained network
++ Generative Pre-trained Transformers
+- Generic Positional Text
+* What can GPT be used for?
+- Text generation
+- Text classification
++ Both text generation and other tasks
+* GPT is based on transformer architecture
++ true
+- false
+
+Lesson 20E Language Models: Post Quiz
+* What is zero-shot learning?
++ Getting an answer from pre-trained network
+- Training the network from scratch
+- Training the network only for one epoch
+* Prompt engineering can be used with
+- Zero-shot learning
+- Few-shot learning
++ Both
+* Which metric can be used to estimate the quality of a language model?
+- accuracy
+- recall
++ perplexity
+
+Lesson 21B Genetic Algorithms: Pre Quiz
+* Genetic Algorithms are based on which of the following?
+- mutations
+- Selection
++ both a and b
+* Crossover allows us to combine two solutions together to obtain a new valid solution
++ true
+- false
+* Valid solutions to genetic algorithm can be represented as _____
++ genes
+- neurons
+- cells
+
+Lesson 21E Genetic Algorithms: Post Quiz
+* Genetic Algorithms can solve which of these tasks
+- Schedule optimization
+- Optimal packing
++ both of a and b
+* In implementing a genetic algorithm the first step is to randomly select two genes
+- true
++ false
+* When using Crossover operation the algorithm randomly selects _____ genes
+- 3
+- 1
++ 2 
+
+Lesson 22B Reinforcement Learning: Pre Quiz
+* To train RL model, we need
++ Simulation environment
+- Labeled dataset
+- Unlabeled dataset
+* What is a good example of Reinforcement learning:
+- Zero-shot image classification
+- Zero-shot text classification
++ Learning to play chess
+* When creating RL-based chess engine, we need to
+- use all existing chess matches as a dataset
++ let computer play against itself many times
+- program exhaustive search algorithm
+
+Lesson 22E Reinforcement Learning: Post Quiz
+* How does RL training algorithm knows how well it did?
+- It achieves high accuracy
+- Using perplexity metric
++ Using reward function
+* Which problem(s) is RL is applicable to?
+- With discrete environment
+- With continuous environment
++ Both
+* In Actor-Critic model, critic predicts
++ Reward function
+- Best next action
+- Probability of next actions
+
+Lesson 23B Multi-Agent Modeling: Pre Quiz
+* By modeling the behavior of simple agents, we can understand more complex behaviors of a system.
++ true
+- false
+* The principle of metasystem transition is derived from:
+- Evolutionary Cybernetics
+- Emergentism
++ both of these
+* Multi-Agent systems emerged in the ____:
+- 1970s
+- 1980s
++ 1990s
+
+Lesson 23E Multi-Agent Modeling: Post Quiz
+* An agent is:
+- an entity that lives alone
++ an entity that lives in an environment
+- an entity that is intelligent
+* Reactive agents usually have:
++ simple request-response behavior
+- complex behavior
+- no behavior
+* Multi-agent systems are used in:
+- video production and systems modeling
+- games and automations
++ both the above
+
+Lesson 24B Ethical and Responsible AI: Pre Quiz
+* Why we need to worry about Ethical AI?
+- AI is a very powerful tool and can cause harm
+- We need to make sure AI models do not discriminate people
++ Both
+* Which is the example of interpretable AI?
++ Expert system
+- Neural network
+- Image classifier
+* It is not ethical to use AI in medicine
+- true
++ false
+
+Lesson 24E Ethical and Responsible AI: Post Quiz
+* Why an AI model can discriminate?
+- Because it may become unfriendly
++ Because datasets were not properly balanced
+- Because developers programmed it in such a way
+* Which of the following is not a principle of Responsible AI?
+- Transparency
+- Fairness
++ Cleverness
+* Accountability of an AI system means that
++ there should be a human being involved in taking decisions, who can take responsibility
+- AI system should be held responsible for its actions
+- AI system developers should be held responsible
+* Model fairness is related to
+- Interpretability
++ Biases
+- Accountability

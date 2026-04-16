@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 102,
+        "title": "Knowledge Representation and Expert Systems: Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "The top-down approach to creating intelligent systems was based on:",
+            "answerOptions": [
+              {
+                "answerText": "knowledge seeking and reading",
+                "isCorrect": false
+              },
+              {
+                "answerText": "knowledge representation and reasoning",
+                "isCorrect": true
+              },
+              {
+                "answerText": "knowledge reasoning and seeking",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Knowledge is the same as information",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": false
+              },
+              {
+                "answerText": "False",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Knowledge is obtained by an:",
+            "answerOptions": [
+              {
+                "answerText": "active learning process",
+                "isCorrect": true
+              },
+              {
+                "answerText": "passive learning process",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both of these",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "title": "Knowledge Representation and Expert Systems: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "The simplest method of knowledge representation is:",
+            "answerOptions": [
+              {
+                "answerText": "algorithmic",
+                "isCorrect": true
+              },
+              {
+                "answerText": "symbolic",
+                "isCorrect": false
+              },
+              {
+                "answerText": "synergistic",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Scenarios can represent complex situations that can unfold in time",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Forward inference starts with initial data and then:",
+            "answerOptions": [
+              {
+                "answerText": "executes a reasoning loop",
+                "isCorrect": true
+              },
+              {
+                "answerText": "looks for a goal",
+                "isCorrect": false
+              },
+              {
+                "answerText": "starts over",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

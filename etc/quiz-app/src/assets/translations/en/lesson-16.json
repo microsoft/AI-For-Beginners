@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 116,
+        "title": "RNN: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "RNN is short for?",
+            "answerOptions": [
+              {
+                "answerText": "regression neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "recurrent neural network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "re-iterative neural network",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "A simple RNN cell has two weight _____",
+            "answerOptions": [
+              {
+                "answerText": "matrices",
+                "isCorrect": true
+              },
+              {
+                "answerText": "cell",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neuron",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "vanishing gradients is a problem of _____",
+            "answerOptions": [
+              {
+                "answerText": "RNN",
+                "isCorrect": true
+              },
+              {
+                "answerText": "CNN",
+                "isCorrect": false
+              },
+              {
+                "answerText": "KNN",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "title": "RNN: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "_____ takes some information from the input and hidden vector, and inserts it into state",
+            "answerOptions": [
+              {
+                "answerText": "forget gate",
+                "isCorrect": false
+              },
+              {
+                "answerText": "output gate",
+                "isCorrect": false
+              },
+              {
+                "answerText": "input gate",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Bidirectional RNNs runs recurrent computation in _____",
+            "answerOptions": [
+              {
+                "answerText": "both directions",
+                "isCorrect": true
+              },
+              {
+                "answerText": "north-west direction",
+                "isCorrect": false
+              },
+              {
+                "answerText": "left-right direction",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "All RNN Cells have the same shareable weights",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

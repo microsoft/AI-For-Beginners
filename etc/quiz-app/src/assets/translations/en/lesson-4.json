@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 104,
+        "title": "Neural Networks: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "The quality of prediction is measured by Loss function",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "One layer network is capable of classifying ____",
+            "answerOptions": [
+              {
+                "answerText": "linearly joined classes",
+                "isCorrect": false
+              },
+              {
+                "answerText": "linearly separable classes",
+                "isCorrect": true
+              },
+              {
+                "answerText": "single layers of classes",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "The method of training multi-layered perceptron is called ____",
+            "answerOptions": [
+              {
+                "answerText": "back propagation",
+                "isCorrect": true
+              },
+              {
+                "answerText": "multiple propagation",
+                "isCorrect": false
+              },
+              {
+                "answerText": "front propagation",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "title": "Neural Networks: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "We use ____ for regression loss functions",
+            "answerOptions": [
+              {
+                "answerText": "absolute error",
+                "isCorrect": false
+              },
+              {
+                "answerText": "mean squared error",
+                "isCorrect": false
+              },
+              {
+                "answerText": "all of the above",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "All but one is a type of classification loss function",
+            "answerOptions": [
+              {
+                "answerText": "0-1 loss",
+                "isCorrect": false
+              },
+              {
+                "answerText": "binary loss",
+                "isCorrect": true
+              },
+              {
+                "answerText": "logistic loss",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Cross-entropy loss is a function that can calculate similarity between two arbitrary probability distributions",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

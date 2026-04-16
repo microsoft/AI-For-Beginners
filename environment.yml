@@ -1,0 +1,24 @@
+name: ai4beg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyter
+  - matplotlib=3.9
+  - numpy=1.26
+  - python
+  - requests=2.32
+  - scikit-learn
+  - scipy=1.13
+  - pip
+  - conda-forge::opencv
+  - setuptools
+  - pytorch::pytorch
+  - pytorch::torchtext
+  - pytorch::torchvision
+  - pytorch::torchdata
+  - pip:
+    - -r requirements.txt

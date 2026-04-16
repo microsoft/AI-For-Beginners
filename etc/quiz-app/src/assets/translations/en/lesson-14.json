@@ -1,0 +1,111 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 114,
+        "title": "Embeddings: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Embedding is used to represent words with _____ dimensional dense vectors",
+            "answerOptions": [
+              {
+                "answerText": "lower",
+                "isCorrect": true
+              },
+              {
+                "answerText": "higher",
+                "isCorrect": false
+              },
+              {
+                "answerText": "average",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Word2Vec pre-trained embeddings can also be used in place of embedding layer in neural networks",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Using embedding layer we cannot switch from bag-of-words to embedding bag",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "title": "Embeddings: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Word2Vec has _____ main architectures",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Word sense disambiguation is a limitation of traditional pretrained embedding representations",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "An embedding layer takes _____ as input",
+            "answerOptions": [
+              {
+                "answerText": "word",
+                "isCorrect": true
+              },
+              {
+                "answerText": "symbol",
+                "isCorrect": false
+              },
+              {
+                "answerText": "number",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

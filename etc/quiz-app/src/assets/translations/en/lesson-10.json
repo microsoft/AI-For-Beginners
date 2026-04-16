@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 110,
+        "title": "Generative Adversarial Networks: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Generators take vectors and produce ____",
+            "answerOptions": [
+              {
+                "answerText": "videos",
+                "isCorrect": false
+              },
+              {
+                "answerText": "image",
+                "isCorrect": true
+              },
+              {
+                "answerText": "gif",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "GANs is short for?",
+            "answerOptions": [
+              {
+                "answerText": "General adversarial networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative advisor networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Generative adversarial networks",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "GAN uses ____ neural networks",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "title": "Generative Adversarial Networks: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "We can use Batch normalization and BatchNorm1D to stabilize the training",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Deep Convolutional GAN uses convolutional layers for ____ and ____",
+            "answerOptions": [
+              {
+                "answerText": "generator, discriminator",
+                "isCorrect": true
+              },
+              {
+                "answerText": "CNN, generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "training, testing",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Problems of GAN training includes",
+            "answerOptions": [
+              {
+                "answerText": "Sensitivity to hyperparameters",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Keeping balance between generator and discriminator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "all of the above",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

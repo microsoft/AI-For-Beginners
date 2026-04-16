@@ -1,0 +1,1786 @@
+@prefix fhkb: <http://www.example.com/genealogy.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.com/genealogy.owl#> a owl:Ontology .
+
+fhkb:DomainEntity a owl:Class .
+
+fhkb:Man a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( fhkb:Person [ a owl:Restriction ;
+                        owl:onProperty fhkb:hasSex ;
+                        owl:someValuesFrom fhkb:Male ] ) ] .
+
+fhkb:Woman a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( fhkb:Person [ a owl:Restriction ;
+                        owl:onProperty fhkb:hasSex ;
+                        owl:someValuesFrom fhkb:Female ] ) ] .
+
+fhkb:Person a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty fhkb:hasMother ;
+            owl:someValuesFrom fhkb:Woman ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+            owl:onClass fhkb:Person ;
+            owl:onProperty fhkb:hasParent ],
+        [ a owl:Restriction ;
+            owl:onProperty fhkb:hasFather ;
+            owl:someValuesFrom fhkb:Man ],
+        [ a owl:Restriction ;
+            owl:onProperty fhkb:hasSex ;
+            owl:someValuesFrom fhkb:Sex ],
+        fhkb:DomainEntity ;
+    owl:disjointWith fhkb:Sex ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:unionOf ( fhkb:Man fhkb:Woman ) ] .
+
+fhkb:Marriage a owl:Class ;
+    rdfs:subClassOf fhkb:DomainEntity .
+
+fhkb:Male a owl:Class ;
+    rdfs:subClassOf fhkb:Sex .
+
+fhkb:Female a owl:Class ;
+    rdfs:subClassOf fhkb:Sex ;
+    owl:disjointWith fhkb:Male .
+
+fhkb:Sex a owl:Class ;
+    rdfs:subClassOf fhkb:DomainEntity ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:unionOf ( fhkb:Female fhkb:Male ) ] .
+
+fhkb:Ancestor a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( fhkb:Person [ a owl:Restriction ;
+                        owl:onProperty fhkb:isAncestorOf ;
+                        owl:someValuesFrom fhkb:Person ] ) ] .
+
+fhkb:hasFemalePartner a owl:ObjectProperty ;
+    rdfs:range fhkb:Woman ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:subPropertyOf fhkb:hasPartner ;
+    owl:inverseOf fhkb:isFemalePartnerIn .
+
+fhkb:hasMalePartner a owl:ObjectProperty ;
+    rdfs:range fhkb:Man ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:subPropertyOf fhkb:hasPartner ;
+    owl:inverseOf fhkb:isMalePartnerIn .
+
+fhkb:isFatherOf a owl:ObjectProperty .
+
+fhkb:isMotherOf a owl:ObjectProperty .
+
+fhkb:isBrotherOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Man ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:isSiblingOf .
+
+fhkb:isSisterOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Woman ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:isSiblingOf .
+
+fhkb:hasHusband a owl:ObjectProperty ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasSpouse ;
+    owl:propertyChainAxiom ( fhkb:isFemalePartnerIn fhkb:hasMalePartner ) .
+
+fhkb:hasWife a owl:ObjectProperty ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasSpouse ;
+    owl:propertyChainAxiom ( fhkb:isMalePartnerIn fhkb:hasFemalePartner ) .
+
+fhkb:isHusbandOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasHusband .
+
+fhkb:isWifeOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasWife .
+
+fhkb:isPartnerIn a owl:ObjectProperty .
+
+fhkb:hasPartner a owl:ObjectProperty ;
+    rdfs:domain fhkb:Marriage ;
+    rdfs:range fhkb:Person ;
+    owl:inverseOf fhkb:isPartnerIn .
+
+fhkb:isSpouseOf a owl:ObjectProperty .
+
+fhkb:hasSpouse a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isSpouseOf .
+
+fhkb:isFemalePartnerIn a owl:ObjectProperty .
+
+fhkb:isMalePartnerIn a owl:ObjectProperty .
+
+fhkb:isSiblingOf a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:subPropertyOf fhkb:isBloodrelationOf ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:isParentOf ) .
+
+fhkb:hasChild a owl:ObjectProperty .
+
+fhkb:isChildOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasChild .
+
+fhkb:hasDaughter a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:hasChild .
+
+fhkb:hasSon a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:hasChild .
+
+fhkb:isDaughterOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:isChildOf ;
+    owl:inverseOf fhkb:hasDaughter .
+
+fhkb:isSonOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:isChildOf ;
+    owl:inverseOf fhkb:hasSon .
+
+fhkb:hasFather a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasParent ;
+    owl:inverseOf fhkb:isFatherOf .
+
+fhkb:hasMother a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasParent ;
+    owl:inverseOf fhkb:isMotherOf .
+
+fhkb:hasParent a owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:hasAncestor ;
+    owl:equivalentProperty fhkb:isChildOf ;
+    owl:inverseOf fhkb:isParentOf .
+
+fhkb:isParentOf a owl:ObjectProperty .
+
+fhkb:hasSex a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Sex .
+
+fhkb:isAncestorOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasAncestor .
+
+fhkb:hasRelation a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person .
+
+fhkb:isBloodrelationOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:hasRelation .
+
+fhkb:hasAncestor a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:subPropertyOf fhkb:hasRelation .
+
+fhkb:hasUncle a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isUncleOf .
+
+fhkb:isUncleOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Man ;
+    rdfs:range fhkb:Person ;
+    owl:propertyChainAxiom ( fhkb:isBrotherOf fhkb:isParentOf ) .
+
+fhkb:hasGreatUncle a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isGreatUncleOf .
+
+fhkb:isGreatUncleOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Man ;
+    rdfs:range fhkb:Person ;
+    owl:propertyChainAxiom ( fhkb:isBrotherOf fhkb:isGrandParentOf ) .
+
+fhkb:hasAunt a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isAuntOf .
+
+fhkb:isAuntOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Woman ;
+    rdfs:range fhkb:Person ;
+    owl:propertyChainAxiom ( fhkb:isSisterOf fhkb:isParentOf ) .
+
+fhkb:hasGreatAunt a owl:ObjectProperty ;
+    owl:inverseOf fhkb:isGreatAuntOf .
+
+fhkb:isGreatAuntOf a owl:ObjectProperty ;
+    rdfs:domain fhkb:Woman ;
+    rdfs:range fhkb:Person ;
+    owl:propertyChainAxiom ( fhkb:isSisterOf fhkb:isGrandParentOf ) .
+
+fhkb:isCousinOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf fhkb:isBloodrelationOf .
+
+fhkb:isFirstCousinOf a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:subPropertyOf fhkb:isCousinOf ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:isSiblingOf fhkb:isParentOf ) .
+
+fhkb:isSecondCousinOf a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:subPropertyOf fhkb:isCousinOf ;
+    owl:propertyChainAxiom ( fhkb:hasGrandParent fhkb:isSiblingOf fhkb:isGrandParentOf ) .
+
+fhkb:isThirdCousinOf a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:subPropertyOf fhkb:isCousinOf ;
+    owl:propertyChainAxiom ( fhkb:hasGreatGrandParent fhkb:isSiblingOf fhkb:isGreatGrandParentOf ) .
+
+fhkb:isGrandfatherOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGrandfather .
+
+fhkb:isGrandmotherOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGrandmother .
+
+fhkb:isGrandParentOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGrandParent .
+
+fhkb:hasGrandfather a owl:ObjectProperty ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasGrandParent ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasFather ) .
+
+fhkb:hasGrandmother a owl:ObjectProperty ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasGrandParent ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasMother ) .
+
+fhkb:hasGrandParent a owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:hasAncestor ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasParent ) .
+
+fhkb:isGreatGrandfatherOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGreatGrandfather .
+
+fhkb:isGreatGrandmotherOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGreatGrandmother .
+
+fhkb:isGreatGrandParentOf a owl:ObjectProperty ;
+    owl:inverseOf fhkb:hasGreatGrandParent .
+
+fhkb:hasGreatGrandfather a owl:ObjectProperty ;
+    rdfs:range fhkb:Man ;
+    rdfs:subPropertyOf fhkb:hasGreatGrandParent ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasGrandfather ) .
+
+fhkb:hasGreatGrandmother a owl:ObjectProperty ;
+    rdfs:range fhkb:Woman ;
+    rdfs:subPropertyOf fhkb:hasGreatGrandParent ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasGrandmother ) .
+
+fhkb:hasGreatGrandParent a owl:ObjectProperty ;
+    rdfs:domain fhkb:Person ;
+    rdfs:range fhkb:Person ;
+    rdfs:subPropertyOf fhkb:hasAncestor ;
+    owl:propertyChainAxiom ( fhkb:hasParent fhkb:hasParent fhkb:hasParent ) .
+fhkb:iq100158628 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mohammed bin Khalid Al Saud" .
+fhkb:iq100268543 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Noura bint Mohammed Al Saud" .
+fhkb:iq100579253 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq5431088, fhkb:iq99205504 ;
+    rdfs:label "Hessa bint Trad Al Shaalan" .
+fhkb:iq100728676 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Al Jawhara bint Fahd Al Saud" .
+fhkb:iq102205480 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1441884, fhkb:iq12223041 ;
+    rdfs:label "Aida Fustuq" .
+fhkb:iq102371457 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq20383955, fhkb:iq85202140, fhkb:iq12223024 ;
+    rdfs:label "Abdullah bin Saud bin Muhammad bin Abdulaziz Al Saud" .
+fhkb:iq104520507 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq616695, fhkb:iq7306919 ;
+    rdfs:label "Faisal bin Bandar bin Sultan Al Saud" .
+fhkb:iq104781582 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4165546, fhkb:iq98418867 ;
+    rdfs:label "Saad bin Faisal Al Saud" .
+fhkb:iq105492473 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223532 ;
+    rdfs:label "Jiluwi bin Abdulaziz Al Saud" .
+fhkb:iq1059677 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq307587 ;
+    rdfs:label "Khalid bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq106181708 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Qumash bint Abdulaziz Al Saud" .
+fhkb:iq106463171 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq57908430 ;
+    rdfs:label "Noura bint Mohammed bin Saud Al Kabir" .
+fhkb:iq106829332 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq5431087 ;
+    fhkb:isBrotherOf fhkb:iq57298, fhkb:iq7445959 ;
+    rdfs:label "Nouf bint Abdulaziz Al Saud" .
+fhkb:iq106830671 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Noura bint Sultan Al Saud" .
+fhkb:iq106855706 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Jawaher bint Majid Al Saud" .
+fhkb:iq106886010 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Maha bint Mishari Al Saud" .
+fhkb:iq106916742 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq23907942, fhkb:iq61679974 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Dalal bint Saud Al Saud" .
+fhkb:iq106949529 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq124208819 ;
+    fhkb:isBrotherOf fhkb:iq107007381, fhkb:iq12222758, fhkb:iq12240185 ;
+    rdfs:label "Saud bin Abdullah Al Saud" .
+fhkb:iq107007381 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12222758, fhkb:iq106949529, fhkb:iq12240185 ;
+    rdfs:label "Khalid bin Abdullah bin Faisal Al Saud" .
+fhkb:iq108113176 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq20385123 ;
+    rdfs:label "Abdullah bin Abdullah bin Thunayan Al Saud" .
+fhkb:iq108822039 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq371263 ;
+    rdfs:label "Haya bint Turki bin Abdulaziz Al Turki" .
+fhkb:iq109257408 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12243047, fhkb:iq125492927, fhkb:iq4664684 ;
+    rdfs:label "Q109257408" .
+fhkb:iq109257410 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q109257410" .
+fhkb:iq109258685 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq54861686 ;
+    rdfs:label "Q109258685" .
+fhkb:iq109298072 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Mamdouh bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq110260183 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Madawi bint Al Muntasir Al Saud" .
+fhkb:iq110260194 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Saif Al-Nasr bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq111842953 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q111842953" .
+fhkb:iq111995522 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq307590, fhkb:iq68169881, fhkb:iq12221727, fhkb:iq2227074, fhkb:iq317421 ;
+    rdfs:label "Noura bint Faisal bin Turki Al Saud" .
+fhkb:iq111995705 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Dashisha bint Dhidan bin Mandeel AlKhaldi" .
+fhkb:iq111995759 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Noura bint Abdullah bin Ali bin Rashid" .
+fhkb:iq112327295 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sarah bint Turki bin Abdullah Al Saud" .
+fhkb:iq112327297 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sarah bint Abdullah bin Faisal Al Saud" .
+fhkb:iq114259018 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Al-Jawhara bint Fahd bin Khalid Al Saud" .
+fhkb:iq114755933 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Saud Al Shaalan" .
+fhkb:iq114877101 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q114877101" .
+fhkb:iq12178747 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq5429531, fhkb:iq4665821, fhkb:iq379946 ;
+    rdfs:label "Ahmed bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq12181703 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4704128 ;
+    rdfs:label "Q12181703" .
+fhkb:iq12183621 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12240171, fhkb:iq12231666 ;
+    fhkb:isBrotherOf fhkb:iq12240143 ;
+    rdfs:label "Q12183621" .
+fhkb:iq12197692 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12243172 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Badr bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12197694 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7427049 ;
+    rdfs:label "Badr bin Abdul Muhsin bin Abdulaziz" .
+fhkb:iq12197696 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Badr Bin Muhammad Bin Abdullah Bin Jalawi Al Saud" .
+fhkb:iq12199301 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq6893450, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Bandar Al-Faisal bin Abdulaziz Al Saud" .
+fhkb:iq12199303 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12199303" .
+fhkb:iq12199305 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Prince Bandar bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12199308 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12202369 ;
+    fhkb:isBrotherOf fhkb:iq12210053, fhkb:iq12231232, fhkb:iq16123102 ;
+    rdfs:label "Bandar bin Muhammad Al-Saud" .
+fhkb:iq12199310 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28355874, fhkb:iq4666204, fhkb:iq12224200, fhkb:iq12222565, fhkb:iq2620640 ;
+    rdfs:label "Q12199310" .
+fhkb:iq12202369 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12202369" .
+fhkb:iq12202376 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12216044, fhkb:iq12231211, fhkb:iq12223795 ;
+    rdfs:label "Q12202376" .
+fhkb:iq12202378 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Turki Bin Mohammed Bin Nasser Bin Abdulaziz Al-Saud" .
+fhkb:iq12203729 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12199303 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Thamir bin Sa'ud Al Sa'ud" .
+fhkb:iq12203730 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231658 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312 ;
+    rdfs:label "Thamir bin Abdulaziz Al Saud" .
+fhkb:iq12207802 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Hussam bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12208891 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Hamoud bin Abdulaziz Al Saud" .
+fhkb:iq12210013 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq68168018 ;
+    rdfs:label "Khalid bin Saud al-Kabir bin Abdulaziz Al Saud" .
+fhkb:iq12210014 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Khalid bin Sa'ud Al Sa'ud" .
+fhkb:iq12210024 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq25451979, fhkb:iq12216038, fhkb:iq12231664, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Khalid bin Abdul Rahman bin Faisal bin Turki Al Saud" .
+fhkb:iq12210053 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12199308, fhkb:iq16123102, fhkb:iq12231232 ;
+    rdfs:label "Khalid bin Muhammad Al Saud" .
+fhkb:iq12210068 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12210068" .
+fhkb:iq12215931 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Sa'd bin Sa'ud Al Sa'ud" .
+fhkb:iq12216038 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Saud bin Abdul Rahman bin Faisal Al Saud" .
+fhkb:iq12216041 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Saud al-Kabeer" .
+fhkb:iq12216042 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Saud Bin Abdullah Bin Thenayan Al-Saud" .
+fhkb:iq12216044 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12202376, fhkb:iq12231211, fhkb:iq12223795 ;
+    rdfs:label "Q12216044" .
+fhkb:iq12216046 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Seoud Bin Abdallah" .
+fhkb:iq12216050 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12216050" .
+fhkb:iq12216469 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231210, fhkb:iq12222739, fhkb:iq12231656 ;
+    rdfs:label "Sultan bin Turki II bin Abdulaziz Al Saud" .
+fhkb:iq12216543 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Salman bin Sa'ud Al Sa'ud" .
+fhkb:iq12216545 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16193305 ;
+    fhkb:isBrotherOf fhkb:iq68169570 ;
+    rdfs:label "Salmane ben Mohammed ben Saoud Al Saoud" .
+fhkb:iq12217152 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Soheir Ramzy" .
+fhkb:iq12217829 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Saif al-Islam bin Sa'ud Al Sa'ud" .
+fhkb:iq12217836 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq16117995, fhkb:iq7636762, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Saif Al-Din bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12221727 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq307590, fhkb:iq68169881, fhkb:iq111995522, fhkb:iq2227074, fhkb:iq317421 ;
+    rdfs:label "Tarfa bint Faisal bin Turki Al Saud" .
+fhkb:iq12221822 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Talal bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12221823 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12221823" .
+fhkb:iq12222475 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abd al-Ilah bin Sa'ud Al Sa'ud" .
+fhkb:iq12222565 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28355874, fhkb:iq4666204, fhkb:iq12224200, fhkb:iq12199310, fhkb:iq2620640 ;
+    rdfs:label "Q12222565" .
+fhkb:iq12222739 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231210, fhkb:iq12231656, fhkb:iq12216469 ;
+    rdfs:label "Q12222739" .
+fhkb:iq12222758 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq107007381, fhkb:iq106949529, fhkb:iq12240185 ;
+    rdfs:label "Q12222758" .
+fhkb:iq12222771 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq22686427, fhkb:iq12223054 ;
+    rdfs:label "Q12222771" .
+fhkb:iq12223020 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq63122112, fhkb:iq60195440, fhkb:iq4119453, fhkb:iq4687985 ;
+    rdfs:label "Abdulaziz bin Bandar Al Saud" .
+fhkb:iq12223024 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq20383955, fhkb:iq85202140, fhkb:iq102371457 ;
+    rdfs:label "Q12223024" .
+fhkb:iq12223041 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq1441884 ;
+    rdfs:label "Abdulaziz bin Abdullah" .
+fhkb:iq12223054 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq3473090 ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq22686427 ;
+    rdfs:label "Abdulaziz bin Nasser bin Abdulaziz Al Saud" .
+fhkb:iq12223055 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12223532, fhkb:iq105492473 ;
+    rdfs:label "Abdul Aziz bin Musaid" .
+fhkb:iq12223496 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12223496" .
+fhkb:iq12223497 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abd Allah bin Sa'ud Al Sa'ud" .
+fhkb:iq12223498 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq7636762, fhkb:iq22688830, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdullah bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12223532 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq20667130 ;
+    fhkb:isBrotherOf fhkb:iq105492473 ;
+    rdfs:label "Abdullah bin Abdulaziz bin Musa'ed bin Jiluwi Al Saud" .
+fhkb:iq12223562 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdullah bin Faisal bin Turki I Al Saud" .
+fhkb:iq12223563 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq28715850 ;
+    rdfs:label "Q12223563" .
+fhkb:iq12223599 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12240273, fhkb:iq12222771, fhkb:iq7855211, fhkb:iq22686427, fhkb:iq12223054 ;
+    rdfs:label "Q12223599" .
+fhkb:iq12223752 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16118239, fhkb:iq16123896, fhkb:iq12207802, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abd al-Majid bin Sa'ud Al Sa'ud" .
+fhkb:iq12223790 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdul Mohsen bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12223794 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12197694, fhkb:iq7427049 ;
+    fhkb:isBrotherOf fhkb:iq208301, fhkb:iq1975943, fhkb:iq12242559 ;
+    rdfs:label "Abdul Muhsin bin Abdulaziz Al Saud" .
+fhkb:iq12223795 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12216044, fhkb:iq12202376, fhkb:iq12231211 ;
+    rdfs:label "Q12223795" .
+fhkb:iq12224167 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq98229031 ;
+    rdfs:label "ʿAbd-al-ʿAzīz Ibn-Saṭṭām Ibn-ʿAbd-al-ʿAzīz Āl-Suʿūd" .
+fhkb:iq12224200 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28355874, fhkb:iq4666204, fhkb:iq12222565, fhkb:iq12199310, fhkb:iq2620640 ;
+    rdfs:label "Abdullah bin Mosaad bin Abdulaziz Al Saud" .
+fhkb:iq12228536 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq79350994, fhkb:iq23639454 ;
+    rdfs:label "Amr bin Mohammed Al Faisal Al Saud" .
+fhkb:iq12229375 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Ghalib bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq12231207 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fahad bin Badr bin Abdulaziz Al Saud" .
+fhkb:iq12231210 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq55980039 ;
+    fhkb:isBrotherOf fhkb:iq12231656, fhkb:iq12222739, fhkb:iq12216469 ;
+    rdfs:label "Fahd bin Turki Al Saud" .
+fhkb:iq12231211 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12240243 ;
+    fhkb:isBrotherOf fhkb:iq12216044, fhkb:iq12202376, fhkb:iq12223795 ;
+    rdfs:label "Q12231211" .
+fhkb:iq12231214 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12231214" .
+fhkb:iq12231216 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12231216" .
+fhkb:iq12231217 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Fahad bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12231223 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4666095, fhkb:iq25451979, fhkb:iq12216038, fhkb:iq12231664, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Fahd bin Abdul Rahman bin Faisal Al Saud" .
+fhkb:iq12231231 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12247739 ;
+    rdfs:label "Q12231231" .
+fhkb:iq12231232 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq100728676 ;
+    fhkb:isBrotherOf fhkb:iq12199308, fhkb:iq12210053, fhkb:iq16123102 ;
+    rdfs:label "Q12231232" .
+fhkb:iq12231234 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq22686427, fhkb:iq12223054 ;
+    rdfs:label "Q12231234" .
+fhkb:iq12231655 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12223562 ;
+    rdfs:label "Faisal bin Turki I bin Abdulaziz Al Saud" .
+fhkb:iq12231656 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231210, fhkb:iq12222739, fhkb:iq12216469 ;
+    rdfs:label "Faisal bin Turki Al Saud" .
+fhkb:iq12231658 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12231658" .
+fhkb:iq12231660 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq5429527, fhkb:iq742051, fhkb:iq7855213, fhkb:iq556137, fhkb:iq7405429 ;
+    rdfs:label "Faisal bin Sultan bin Abdulaziz Al Saud" .
+fhkb:iq12231661 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Faysal bin Sa'ud Al Sa'ud" .
+fhkb:iq12231664 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq25451979, fhkb:iq12216038, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Faisal bin Abdul Rahman bin Faisal bin Turki Al Saud" .
+fhkb:iq12231666 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12240171 ;
+    rdfs:label "Q12231666" .
+fhkb:iq12231669 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq43282082 ;
+    rdfs:label "Faisal bin Mishaal bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12237259 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq14514894, fhkb:iq30081441, fhkb:iq1951883, fhkb:iq7636760, fhkb:iq373425 ;
+    rdfs:label "Latifa bint Fahd Al Saud" .
+fhkb:iq12237440 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Lamia bint Majed Al Saud" .
+fhkb:iq12238127 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12237440 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Majid bin Sa'ud Al Sa'ud" .
+fhkb:iq12238128 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq6875477, fhkb:iq4665823 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Majid bin Abdulaziz Al Saud" .
+fhkb:iq12240141 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16126258 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Muhammed bin Saud Al Saud" .
+fhkb:iq12240143 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12216545, fhkb:iq68169570 ;
+    fhkb:isBrotherOf fhkb:iq12183621 ;
+    rdfs:label "Q12240143" .
+fhkb:iq12240171 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq54861686, fhkb:iq109258685 ;
+    fhkb:isBrotherOf fhkb:iq12231666 ;
+    rdfs:label "Q12240171" .
+fhkb:iq12240185 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq100268543 ;
+    fhkb:isBrotherOf fhkb:iq107007381, fhkb:iq12222758, fhkb:iq106949529 ;
+    rdfs:label "Mohammed bin Abdullah Al Saud" .
+fhkb:iq12240243 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12240243" .
+fhkb:iq12240246 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12240246" .
+fhkb:iq12240273 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12202378 ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq7855211, fhkb:iq22686427, fhkb:iq12223054 ;
+    rdfs:label "Muhammad bin Nasser bin Abdulaziz" .
+fhkb:iq12242556 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Musa'id bin Sa'ud Al Sa'ud" .
+fhkb:iq12242559 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq28355874, fhkb:iq12224200, fhkb:iq12222565, fhkb:iq4666204, fhkb:iq12199310, fhkb:iq2620640 ;
+    fhkb:isBrotherOf fhkb:iq12223794, fhkb:iq1975943, fhkb:iq208301 ;
+    rdfs:label "Musa'id bin Abdulaziz Al Saud" .
+fhkb:iq12243047 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq125492927, fhkb:iq109257408, fhkb:iq4664684 ;
+    rdfs:label "Q12243047" .
+fhkb:iq12243051 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mishari bin Abdulaziz Al Saud" .
+fhkb:iq12243172 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12243172" .
+fhkb:iq12243174 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq43282082, fhkb:iq12231669 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Mishaal bin Saud" .
+fhkb:iq12243175 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6943650, fhkb:iq4682218, fhkb:iq39053932, fhkb:iq4164920 ;
+    rdfs:label "Mishaal bin Abdullah Al Saud" .
+fhkb:iq12243227 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Mashhoor bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12245053 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Mamdouh bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq12245610 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Mansur bin Sa'ud Al Sa'ud" .
+fhkb:iq12245615 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mansour bin Mutaib" .
+fhkb:iq12247734 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Nasser bin Sa'ud Al Sa'ud" .
+fhkb:iq12247736 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12247736" .
+fhkb:iq12247739 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12247739" .
+fhkb:iq12249079 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Nawaf bin Faisal bin Fahd Al Saud" .
+fhkb:iq12249080 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q12249080" .
+fhkb:iq122640080 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q122640080" .
+fhkb:iq123687980 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Samira bint Abdullah Al-Faisal" .
+fhkb:iq123688097 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Loulwa bint Yazeed Al Saud" .
+fhkb:iq124018912 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fahd bin Saad Al Saud" .
+fhkb:iq124208819 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Khalid bin Saud Al Saud" .
+fhkb:iq124341360 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16118284 ;
+    rdfs:label "Q124341360" .
+fhkb:iq124710 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12245615 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mutaib bin Abdulaziz Al Saud" .
+fhkb:iq125492927 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12243047, fhkb:iq4664684, fhkb:iq109257408 ;
+    rdfs:label "Q125492927" .
+fhkb:iq130482174 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Hala bint Abdullah bin Abdulaziz Al Saud" .
+fhkb:iq1319659 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4664686, fhkb:iq307187 ;
+    fhkb:isBrotherOf fhkb:iq16120280 ;
+    rdfs:label "Muhammad bin Saud" .
+fhkb:iq13426512 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq22688749 ;
+    rdfs:label "Sultan bin Mohammed bin Saud Al Kabeer" .
+fhkb:iq135419736 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Al-Waleed bin Khalid Al-Saud" .
+fhkb:iq136031796 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "AlAnoud" .
+fhkb:iq137386516 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdulaziz bin Saud bin Fahd Al Saud" .
+fhkb:iq138328160 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq30315032 ;
+    rdfs:label "Q138328160" .
+fhkb:iq1392056 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7445959, fhkb:iq21014401, fhkb:iq106829332, fhkb:iq57298, fhkb:iq22006937 ;
+    rdfs:label "Fahda bint Asi Al Shuraim" .
+fhkb:iq1393513 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq307590, fhkb:iq68169881, fhkb:iq111995522, fhkb:iq12221727, fhkb:iq2227074, fhkb:iq317421 ;
+    fhkb:isBrotherOf fhkb:iq6758324 ;
+    rdfs:label "Faisal bin Turki bin Abdullah Al Saud" .
+fhkb:iq1441884 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223041 ;
+    rdfs:label "Adila bint Abdulla Al Saud" .
+fhkb:iq1441910 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7855214, fhkb:iq4665226 ;
+    rdfs:label "Sara bint Talal bin Abdulaziz Al Saud" .
+fhkb:iq14514894 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq137386516 ;
+    fhkb:isBrotherOf fhkb:iq30081441, fhkb:iq1951883, fhkb:iq7636760, fhkb:iq373425, fhkb:iq12237259 ;
+    rdfs:label "Saud bin Fahd bin Abdulaziz Al Saud" .
+fhkb:iq151509 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq317832, fhkb:iq244206, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq2460829, fhkb:iq6463718, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq25336666, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq25336663, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq315587, fhkb:iq1975943, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq106829332, fhkb:iq57298, fhkb:iq4854440, fhkb:iq183187, fhkb:iq1998925, fhkb:iq7445959, fhkb:iq6982977, fhkb:iq12223794, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq307463, fhkb:iq217167, fhkb:iq208301, fhkb:iq981846, fhkb:iq6751859, fhkb:iq401645, fhkb:iq6496091, fhkb:iq4120307, fhkb:iq712690, fhkb:iq12242559, fhkb:iq4704127, fhkb:iq4665420, fhkb:iq367825, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Ibn Saud" .
+fhkb:iq1527923 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Khalid ibn Abdullah" .
+fhkb:iq1532250 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Faisal bin Fahd bin Abdullah Al Saud" .
+fhkb:iq16115255 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Janan Harb" .
+fhkb:iq16117559 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16117559" .
+fhkb:iq16117995 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq7636762, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Hamud bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq16118239 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16123896, fhkb:iq12207802, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdul Aziz bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16118255 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16118255" .
+fhkb:iq16118284 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq124341360 ;
+    rdfs:label "Q16118284" .
+fhkb:iq16118369 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Sattam bin Sa'ud Al Sa'ud" .
+fhkb:iq16118602 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdul Karim bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq16118777 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16118777" .
+fhkb:iq16119065 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16119065" .
+fhkb:iq16119071 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Ahmed bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16119531 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdul Malik bin Sa'ud Al Sa'ud" .
+fhkb:iq16120280 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq1319659 ;
+    rdfs:label "Thunayan bin Saud" .
+fhkb:iq16120810 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16120810" .
+fhkb:iq16120827 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16120827" .
+fhkb:iq16122140 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Nayef bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16123102 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12199308, fhkb:iq12210053, fhkb:iq12231232 ;
+    rdfs:label "Badr bin Muhammad bin Abdul-Rahman" .
+fhkb:iq16123896 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Jalawi bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16125353 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12216050 ;
+    rdfs:label "Q16125353" .
+fhkb:iq16126258 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16126258" .
+fhkb:iq16126730 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Musab bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16127600 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq87436373, fhkb:iq16128170 ;
+    rdfs:label "Q16127600" .
+fhkb:iq16128166 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16128166" .
+fhkb:iq16128170 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16127600, fhkb:iq87436373 ;
+    rdfs:label "Faisal bin Khalid bin Sultan bin Abdulaziz Al Saud" .
+fhkb:iq16128191 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Turki bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq16128196 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Yazid bin Sa'ud Al Sa'ud" .
+fhkb:iq16128401 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Muqrin bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq16193305 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7405428 ;
+    rdfs:label "Abdulaziz bin Salman bin Muhammad Al Saud" .
+fhkb:iq16677115 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q16677115" .
+fhkb:iq16713202 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Umar bin Abdulaziz Al Saud" .
+fhkb:iq16933359 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq62094755 ;
+    fhkb:isBrotherOf fhkb:iq338524 ;
+    rdfs:label "Moudi bint Khalid Al Saud" .
+fhkb:iq16933366 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6669035, fhkb:iq6893450, fhkb:iq58156, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Sara bint Faisal Al Saud" .
+fhkb:iq17001201 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq981846 ;
+    rdfs:label "Baraka Al Yamaniyah" .
+fhkb:iq183187 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq14514894, fhkb:iq4665291, fhkb:iq30081441, fhkb:iq1951883, fhkb:iq373425, fhkb:iq7636760, fhkb:iq12237259 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Fahd bin Abdulaziz Al Saud" .
+fhkb:iq18720234 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq5431086 ;
+    rdfs:label "Mamdouh bin Abdul-Rahman ibn Saud Al-Saud" .
+fhkb:iq19364800 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq19757674, fhkb:iq7855209 ;
+    rdfs:label "Mansour bin Muqrin" .
+fhkb:iq1951883 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq20399144 ;
+    fhkb:isBrotherOf fhkb:iq14514894, fhkb:iq30081441, fhkb:iq7636760, fhkb:iq373425, fhkb:iq12237259 ;
+    rdfs:label "Mohammad Bin Fahd" .
+fhkb:iq19757674 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq63469603 ;
+    fhkb:isBrotherOf fhkb:iq19364800, fhkb:iq7855209 ;
+    rdfs:label "Fahd bin Muqrin" .
+fhkb:iq1975943 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq138328160 ;
+    fhkb:isBrotherOf fhkb:iq12223794, fhkb:iq208301, fhkb:iq12242559 ;
+    rdfs:label "Muhammad bin Abdulaziz Al Saud" .
+fhkb:iq19895850 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "list of sons of King Abdulaziz ibn Saud by seniority" .
+fhkb:iq19895989 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Maha al-Sudairi" .
+fhkb:iq1998925 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231655 ;
+    fhkb:isBrotherOf fhkb:iq244206, fhkb:iq25336666 ;
+    rdfs:label "Turki I bin Abdul" .
+fhkb:iq20380927 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mashari bin Saud" .
+fhkb:iq20383955 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq85202140, fhkb:iq12223024, fhkb:iq102371457 ;
+    rdfs:label "Bader bin Saud bin Mohammed Al-Saud" .
+fhkb:iq20385123 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Ahmed bin Abdullah Al Thunayan" .
+fhkb:iq20386059 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq110260183 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Al-Muntasir bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq20387440 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q20387440" .
+fhkb:iq20396215 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Al-Mu'tasim bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq20399103 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q20399103" .
+fhkb:iq20399144 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Turki bin Mohamed bin Fahd Al Saud" .
+fhkb:iq20425317 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Nahar bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq205051 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq183187, fhkb:iq317832, fhkb:iq2460829, fhkb:iq25336702, fhkb:iq307463, fhkb:iq6463718, fhkb:iq401645, fhkb:iq6496091, fhkb:iq4704127, fhkb:iq315587, fhkb:iq367825 ;
+    rdfs:label "Hassa bint Ahmed Al Sudairi" .
+fhkb:iq20667130 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mish'aal bin Abdullah bin Abdulaziz bin Musa'ed Al Saud" .
+fhkb:iq20675805 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdulaziz Bin Turki Bin Talal Al-Saud" .
+fhkb:iq208301 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16933359, fhkb:iq338524, fhkb:iq25336699 ;
+    fhkb:isBrotherOf fhkb:iq12223794, fhkb:iq1975943, fhkb:iq12242559 ;
+    rdfs:label "Khalid of Saudi Arabia" .
+fhkb:iq21014401 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq22006937 ;
+    rdfs:label "Abdulaziz bin Saud bin Abdulaziz Al Rashid" .
+fhkb:iq21014402 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Ahmed bin Fahd bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq217167 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq6893450, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq371263, fhkb:iq98418867, fhkb:iq104781582, fhkb:iq4165546, fhkb:iq4165651 ;
+    fhkb:isBrotherOf fhkb:iq25336663 ;
+    rdfs:label "King Faisal bin Abdulaziz Al Saud" .
+fhkb:iq22006937 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq21014401 ;
+    rdfs:label "Mishaal bin Saud al-Rashid Al Saud" .
+fhkb:iq2227074 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12183621, fhkb:iq12240143 ;
+    fhkb:isBrotherOf fhkb:iq307590, fhkb:iq68169881, fhkb:iq111995522, fhkb:iq12221727, fhkb:iq317421 ;
+    rdfs:label "Saud II. ibn Faisal" .
+fhkb:iq2227089 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1059677, fhkb:iq307587 ;
+    rdfs:label "Saud al-Kabeer" .
+fhkb:iq22686307 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Al-Waleed bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq22686427 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq12223054 ;
+    rdfs:label "Q22686427" .
+fhkb:iq22687654 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q22687654" .
+fhkb:iq22688343 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq3953644, fhkb:iq7427054 ;
+    rdfs:label "Sultan bin Khalid Al Faisal Al Saud" .
+fhkb:iq22688749 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq50825607 ;
+    fhkb:isBrotherOf fhkb:iq13426512 ;
+    rdfs:label "Q22688749" .
+fhkb:iq22688769 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q22688769" .
+fhkb:iq22688830 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Izz al-Din bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq22689055 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Fawaz bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq22690359 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq67188262, fhkb:iq4665818 ;
+    rdfs:label "Nayef bin Ahmed Al Saud" .
+fhkb:iq22690424 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Nawaf bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq22690484 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4120307 ;
+    rdfs:label "Haya bint Sa'ad Al Sudairi" .
+fhkb:iq22690860 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499 ;
+    rdfs:label "Yusuf bin Saud bin Abdul Aziz Al Saud" .
+fhkb:iq23639454 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12228536, fhkb:iq79350994 ;
+    rdfs:label "Reem Al Faisal" .
+fhkb:iq23907942 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq61679974 ;
+    rdfs:label "Reem bint al-Waleed bin Talal" .
+fhkb:iq244206 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12223752, fhkb:iq16123896, fhkb:iq12207802, fhkb:iq16126730, fhkb:iq12231217, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12203729, fhkb:iq4665663, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12216543, fhkb:iq16117995, fhkb:iq22688830, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq16118239, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq16128196, fhkb:iq12229375, fhkb:iq12217836, fhkb:iq7636762, fhkb:iq12223498, fhkb:iq6875499, fhkb:iq22690860 ;
+    fhkb:isBrotherOf fhkb:iq25336666, fhkb:iq1998925 ;
+    rdfs:label "Saud of Saudi Arabia" .
+fhkb:iq2460824 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1393513, fhkb:iq6758324 ;
+    rdfs:label "Turki bin Abdullah Al Saud" .
+fhkb:iq2460829 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231210, fhkb:iq12222739, fhkb:iq12231656, fhkb:iq12216469 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Turki II bin Abdul-Aziz Al Saud" .
+fhkb:iq25336657 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sharifa bint Saqr Al Fajri" .
+fhkb:iq25336660 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq25336666, fhkb:iq1998925, fhkb:iq244206 ;
+    rdfs:label "Wadhah Bint Muhammad" .
+fhkb:iq25336663 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq217167 ;
+    rdfs:label "Nura bint Abdulaziz" .
+fhkb:iq25336666 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq244206, fhkb:iq1998925 ;
+    rdfs:label "Munira bint Abdulaziz" .
+fhkb:iq25336667 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sarah bint Abdullah bin Faisal" .
+fhkb:iq25336671 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq217167, fhkb:iq25336663 ;
+    rdfs:label "Tarfah bint Abdullah Al Sheikh" .
+fhkb:iq25336685 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Anud bint Abdulaziz" .
+fhkb:iq25336691 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Lulua bint Salih Al Dakhil" .
+fhkb:iq25336699 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdallah bin Khalid" .
+fhkb:iq25336702 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12216046, fhkb:iq3064457 ;
+    rdfs:label "Abdullah bin Mohammad" .
+fhkb:iq25336703 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq3064457 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Noura bint Saud" .
+fhkb:iq25343562 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq151509 ;
+    rdfs:label "Sarah Al Sudairi" .
+fhkb:iq25451979 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Saad II bin Abdul Rahman bin Faisal Al Saud" .
+fhkb:iq2600118 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sabah" .
+fhkb:iq2602302 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16118284, fhkb:iq124341360 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mishaal bin Abdulaziz Al Saud" .
+fhkb:iq2620640 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28355874, fhkb:iq4666204, fhkb:iq12224200, fhkb:iq12222565, fhkb:iq12199310 ;
+    rdfs:label "Faisal bin Musaid" .
+fhkb:iq27863010 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Turki bin Saud al-Kabir" .
+fhkb:iq2795275 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq104520507, fhkb:iq7306919, fhkb:iq616695 ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq6893450, fhkb:iq12199301, fhkb:iq4165651 ;
+    rdfs:label "Haifa bint Faisal" .
+fhkb:iq28197146 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759639, fhkb:iq56759632, fhkb:iq56759638 ;
+    rdfs:label "Saud Bin Salman bin Abdulaziz al Saud" .
+fhkb:iq28355874 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4666204, fhkb:iq12224200, fhkb:iq12222565, fhkb:iq12199310, fhkb:iq2620640 ;
+    rdfs:label "Q28355874" .
+fhkb:iq28715291 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq35369443, fhkb:iq6932844 ;
+    rdfs:label "Abdullah bin Saad" .
+fhkb:iq28715850 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q28715850" .
+fhkb:iq28794052 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Sara bint Abdulaziz Al Saud" .
+fhkb:iq290198 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Nayef bin Mamdouh bin Abdulaziz Al Saud" .
+fhkb:iq293679 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq23907942, fhkb:iq61679974 ;
+    fhkb:isBrotherOf fhkb:iq6399403 ;
+    rdfs:label "Alwaleed Bin Talal Bin Abdulaziz Al Saud" .
+fhkb:iq30081441 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq14514894, fhkb:iq1951883, fhkb:iq7636760, fhkb:iq373425, fhkb:iq12237259 ;
+    rdfs:label "Khaled bin Fahd" .
+fhkb:iq30082184 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6892571, fhkb:iq7855210 ;
+    rdfs:label "Khalid bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq3019911 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Nayef bin Fawaaz Al Shaalan" .
+fhkb:iq30315032 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mohammed bin Abdulaziz bin Mohammed Al Saud" .
+fhkb:iq30402542 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdulaziz bin Saud Al Saud" .
+fhkb:iq30512408 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7855210, fhkb:iq30082184, fhkb:iq6892571 ;
+    rdfs:label "Fahdah bint Falah bin Hathlain Alajmi" .
+fhkb:iq3064457 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1532250 ;
+    rdfs:label "Fahd bin Abdullah bin Mohammed Al Saud" .
+fhkb:iq307187 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq2227089, fhkb:iq16713202 ;
+    fhkb:isBrotherOf fhkb:iq4664686 ;
+    rdfs:label "Abdulaziz bin Mohammed" .
+fhkb:iq307463 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq63469597 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Abdul-Rahman bin Abdul-Aziz Al Saud" .
+fhkb:iq307587 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq1059677 ;
+    rdfs:label "Abdullah bin Saud Al Kabeer" .
+fhkb:iq307588 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq108113176 ;
+    rdfs:label "Abdullah bin Thunayan Al Saud" .
+fhkb:iq307590 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq68169881, fhkb:iq111995522, fhkb:iq12221727, fhkb:iq2227074, fhkb:iq317421 ;
+    rdfs:label "Abdullah bin Faisal" .
+fhkb:iq31149088 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1392056 ;
+    rdfs:label "Asi bin Shuraim Al Shammari" .
+fhkb:iq3133541 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12224167, fhkb:iq98229031 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Sattam bin Abdul-Aziz Al Saud" .
+fhkb:iq315587 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq5429527, fhkb:iq742051, fhkb:iq7855213, fhkb:iq556137, fhkb:iq7405429 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Sultan bin Abdulaziz" .
+fhkb:iq317421 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231664, fhkb:iq12216038, fhkb:iq12210024, fhkb:iq98767348, fhkb:iq6932834, fhkb:iq151509, fhkb:iq12231223, fhkb:iq4666095, fhkb:iq25451979, fhkb:iq7069938, fhkb:iq6799038 ;
+    fhkb:isBrotherOf fhkb:iq307590, fhkb:iq68169881, fhkb:iq111995522, fhkb:iq12221727, fhkb:iq2227074 ;
+    rdfs:label "Abdul Rahman bin Faisal" .
+fhkb:iq317783 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdullah bin Mutaib" .
+fhkb:iq317832 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7427055, fhkb:iq98944440, fhkb:iq455341 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Nayef bin Abdul-Aziz Al Saud" .
+fhkb:iq3270592 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Misha'al bint Fahd al Saud" .
+fhkb:iq338524 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16933359 ;
+    rdfs:label "Faisal bin Khalid bin Abdulaziz Al Saud" .
+fhkb:iq3473084 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16120280, fhkb:iq1319659 ;
+    rdfs:label "Saud I" .
+fhkb:iq3473086 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq21014401, fhkb:iq22006937 ;
+    rdfs:label "Saud bin Abdulaziz" .
+fhkb:iq3473090 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Saud bin Abdulaziz bin Nasser Al Saud" .
+fhkb:iq35369443 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28715291, fhkb:iq6932844 ;
+    rdfs:label "Abdulaziz bin Saad bin Abdulaziz" .
+fhkb:iq367825 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq56759639, fhkb:iq12178747, fhkb:iq56759638, fhkb:iq5429531, fhkb:iq6892571, fhkb:iq56759632, fhkb:iq7855210, fhkb:iq4665821, fhkb:iq379946, fhkb:iq30082184, fhkb:iq28197146 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq6463718 ;
+    rdfs:label "Salman bin Abdulaziz Al Saud" .
+fhkb:iq371263 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq3953644, fhkb:iq22688343, fhkb:iq7427054 ;
+    rdfs:label "Khalid bin Faisal" .
+fhkb:iq373425 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12249079 ;
+    fhkb:isBrotherOf fhkb:iq14514894, fhkb:iq30081441, fhkb:iq1951883, fhkb:iq7636760, fhkb:iq12237259 ;
+    rdfs:label "Faisal bin Fahd" .
+fhkb:iq37531194 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q37531194" .
+fhkb:iq379946 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq5429531, fhkb:iq4665821, fhkb:iq12178747 ;
+    rdfs:label "Sultan bin Salman Al Saud" .
+fhkb:iq39053932 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6943650, fhkb:iq4682218, fhkb:iq12243175, fhkb:iq4164920 ;
+    rdfs:label "Sultan bin Abdullah bin Aziz Al Saud" .
+fhkb:iq3953644 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq22688343, fhkb:iq7427054 ;
+    rdfs:label "Bandar ibn Khalid Al-Faisal Al Saud" .
+fhkb:iq401645 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq67188262, fhkb:iq4665818, fhkb:iq22690359 ;
+    fhkb:isBrotherOf fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Ahmed bin Abdulaziz Al Saud" .
+fhkb:iq40889378 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq293679, fhkb:iq6399403 ;
+    rdfs:label "Mona Al Solh" .
+fhkb:iq4115542 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Abdul Majeed bin Abdulaziz Al Saud" .
+fhkb:iq4117031 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Ameera al-Taweel" .
+fhkb:iq4119087 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq60914670 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Hazloul bin Abdulaziz Al Saud" .
+fhkb:iq4119453 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq63122112, fhkb:iq60195440, fhkb:iq12223020, fhkb:iq4687985 ;
+    rdfs:label "Faisal bin Bandar Al Saud" .
+fhkb:iq4120092 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq6893450, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Iffat Al-Thunayan" .
+fhkb:iq4120307 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231207 ;
+    rdfs:label "Badr bin Abdulaziz Al Saud" .
+fhkb:iq4120312 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq12203730 ;
+    rdfs:label "Fawwaz bin Abdulaziz Al Saud" .
+fhkb:iq4164920 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6943650, fhkb:iq39053932, fhkb:iq12243175, fhkb:iq4682218 ;
+    rdfs:label "Khaled bin Abdullah" .
+fhkb:iq4165546 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq106949529, fhkb:iq107007381, fhkb:iq12222758, fhkb:iq12240185 ;
+    fhkb:isBrotherOf fhkb:iq98418867, fhkb:iq104781582 ;
+    rdfs:label "Abdullah bin Faisal" .
+fhkb:iq4165651 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4665824, fhkb:iq5431089 ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq6893450, fhkb:iq12199301, fhkb:iq2795275 ;
+    rdfs:label "Turki bin Faisal Al Saud" .
+fhkb:iq43060553 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq205051 ;
+    rdfs:label "Ahmed bin Muhammed Al Sudairi" .
+fhkb:iq43282082 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231669 ;
+    rdfs:label "Q43282082" .
+fhkb:iq4549135 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq57908430 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mashhur bin Abdulaziz Al Saud" .
+fhkb:iq455341 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7427055, fhkb:iq98944440 ;
+    rdfs:label "Muhammad bin Nayef" .
+fhkb:iq4664684 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12216044, fhkb:iq12231211, fhkb:iq12202376, fhkb:iq12223795 ;
+    fhkb:isBrotherOf fhkb:iq12243047, fhkb:iq125492927, fhkb:iq109257408 ;
+    rdfs:label "Abdallah bin Jiluwi" .
+fhkb:iq4664686 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq2460824 ;
+    fhkb:isBrotherOf fhkb:iq307187 ;
+    rdfs:label "Abdallah bin Muhammad bin Saud" .
+fhkb:iq4665226 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7855214, fhkb:iq1441910 ;
+    rdfs:label "Abdul-Aziz bin Talal bin Abdul-Aziz Al Saud" .
+fhkb:iq4665291 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdulaziz bin Fahad bin Abdulaziz Al Saud" .
+fhkb:iq4665420 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Abdul Ilah bin Abdulaziz Al Saud" .
+fhkb:iq4665663 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq18720234, fhkb:iq5431086 ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Abdul Rahman bin Saud Al Saud" .
+fhkb:iq4665818 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq67188262, fhkb:iq22690359 ;
+    rdfs:label "Abdulaziz bin Ahmed Al Saud" .
+fhkb:iq4665821 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq5429531, fhkb:iq379946, fhkb:iq12178747 ;
+    rdfs:label "Abdulaziz bin Salman" .
+fhkb:iq4665823 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6875477 ;
+    rdfs:label "Abdulaziz bin Majid" .
+fhkb:iq4665824 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq5431089 ;
+    rdfs:label "Abdulaziz bin Turki Al-Faisal" .
+fhkb:iq4666095 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq1527923 ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Abdullah bin Abdul-Rahman" .
+fhkb:iq4666099 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Abdullah bin Faisal bin Turki" .
+fhkb:iq4666204 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq28355874, fhkb:iq12224200, fhkb:iq12222565, fhkb:iq12199310, fhkb:iq2620640 ;
+    rdfs:label "Abdulrahman bin Musa'id" .
+fhkb:iq46706439 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Badr bin Abdullah bin Mohammed Al Farhan" .
+fhkb:iq4682218 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6943650, fhkb:iq39053932, fhkb:iq12243175, fhkb:iq4164920 ;
+    rdfs:label "Turki bin Abdullah Al Saud" .
+fhkb:iq4687985 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq63122112, fhkb:iq60195440, fhkb:iq12223020, fhkb:iq4119453 ;
+    rdfs:label "Khalid bin Bandar Al Saud" .
+fhkb:iq4702270 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Al-Bandari bint Abdul-Aziz Al Saud" .
+fhkb:iq4704127 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Al Jawhara bint Abdulaziz Al Saud" .
+fhkb:iq4704128 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4665291 ;
+    rdfs:label "Al Jawhara bint Ibrahim Al Ibrahim" .
+fhkb:iq4704130 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12242559, fhkb:iq12223794, fhkb:iq1975943, fhkb:iq208301 ;
+    rdfs:label "Al Jawhara bint Musaed Al Jiluwi" .
+fhkb:iq4854440 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12223020, fhkb:iq63122112, fhkb:iq60195440, fhkb:iq4119453, fhkb:iq4687985 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Bandar bin Abdulaziz Al Saud" .
+fhkb:iq50825607 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fahad bin Abdallah bin Muhammad Al Saud al-Kabir" .
+fhkb:iq5103058 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Shams Elbarudi" .
+fhkb:iq52234598 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Noura bint Faisal Al-Saud" .
+fhkb:iq5429527 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq742051, fhkb:iq7855213, fhkb:iq556137, fhkb:iq7405429 ;
+    rdfs:label "Fahd bin Sultan" .
+fhkb:iq5429531 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq21014402 ;
+    fhkb:isBrotherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq4665821, fhkb:iq379946, fhkb:iq12178747 ;
+    rdfs:label "Fahd bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq5429532 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Fahda bint Saud" .
+fhkb:iq5431086 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq18720234 ;
+    rdfs:label "Faisal bin Abdulrahman bin Saud" .
+fhkb:iq5431087 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Faisal bin Abdullah bin Mohammed Al Saud" .
+fhkb:iq5431088 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq99205504 ;
+    rdfs:label "Faisal bin Abdullah" .
+fhkb:iq5431089 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4665824 ;
+    rdfs:label "Faisal bin Turki Al Faisal Al Saud" .
+fhkb:iq5431091 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759297, fhkb:iq5429531, fhkb:iq4665821, fhkb:iq379946, fhkb:iq12178747 ;
+    rdfs:label "Faisal bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq5431095 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Faisal bin Turki bin Nasser" .
+fhkb:iq54861686 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq85202140, fhkb:iq12223024, fhkb:iq102371457, fhkb:iq20383955 ;
+    fhkb:isBrotherOf fhkb:iq109258685 ;
+    rdfs:label "Q54861686" .
+fhkb:iq54875317 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Farhan bin Saud" .
+fhkb:iq54967144 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Alanoud Al-Fayez" .
+fhkb:iq556137 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq104520507, fhkb:iq7306919, fhkb:iq616695 ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq5429527, fhkb:iq742051, fhkb:iq7855213, fhkb:iq7405429 ;
+    rdfs:label "Bandar bin Sultan" .
+fhkb:iq55980039 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q55980039" .
+fhkb:iq56759297 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq5431091, fhkb:iq5429531, fhkb:iq4665821, fhkb:iq379946, fhkb:iq12178747 ;
+    rdfs:label "Hassa bint Salman Al Saud" .
+fhkb:iq56759632 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759639, fhkb:iq56759638, fhkb:iq28197146 ;
+    rdfs:label "Rakan bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq56759638 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759639, fhkb:iq56759632, fhkb:iq28197146 ;
+    rdfs:label "Nayef Bin Salman Al Saud" .
+fhkb:iq56759639 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq56759632, fhkb:iq56759638, fhkb:iq28197146 ;
+    rdfs:label "Bandar bin Salman bin Abdulaziz Al Saud" .
+fhkb:iq5685929 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Haya bint Abdulaziz Al Saud" .
+fhkb:iq57298 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq5431088, fhkb:iq12223041, fhkb:iq4682218, fhkb:iq1441884, fhkb:iq4164920, fhkb:iq99205504, fhkb:iq12243175, fhkb:iq39053932, fhkb:iq6943650 ;
+    fhkb:isBrotherOf fhkb:iq106829332, fhkb:iq7445959 ;
+    rdfs:label "Abdullah of Saudi Arabia" .
+fhkb:iq57334593 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq2227089 ;
+    rdfs:label "Al Jawhara Al Muammar" .
+fhkb:iq57908430 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sara bint Mashhur bin Abdulaziz Al Saud" .
+fhkb:iq58156 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq6893450, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Saud bin Faisal bin Abdulaziz Al Saud" .
+fhkb:iq60040445 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq6982977, fhkb:iq712690 ;
+    rdfs:label "Munaiyirah" .
+fhkb:iq60195440 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq63122112, fhkb:iq12223020, fhkb:iq4687985, fhkb:iq4119453 ;
+    rdfs:label "Abdullah bin Bandar bin Abdulaziz Al Saud" .
+fhkb:iq60565419 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q60565419" .
+fhkb:iq60565421 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q60565421" .
+fhkb:iq60565434 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq6893468 ;
+    rdfs:label "Faisal bin Nawaf Al Saud" .
+fhkb:iq60565446 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Moudi bint Abi Wahtan Al Kathiri" .
+fhkb:iq60572614 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q60572614" .
+fhkb:iq60914670 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Turki bin Hathloul bin Abdulaziz Al Saud" .
+fhkb:iq616695 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq104520507, fhkb:iq7306919 ;
+    rdfs:label "Khalid bin Bandar bin Sultan Al Saud" .
+fhkb:iq61679974 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq23907942 ;
+    rdfs:label "Khaled bin Alwaleed bin Talal Al Saud" .
+fhkb:iq620518 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Basmah bint Saud" .
+fhkb:iq62094755 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Al-Bandari Bint Abdul Rahman Al-Faisal" .
+fhkb:iq63122112 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq60195440, fhkb:iq12223020, fhkb:iq4687985, fhkb:iq4119453 ;
+    rdfs:label "Turki bin Bandar Al Saud" .
+fhkb:iq63313846 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sora bint Saud Al Saud" .
+fhkb:iq63469597 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Mohammed bin Abdul Rahman Al Saud" .
+fhkb:iq63469600 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fahd bin Turki Al Saud" .
+fhkb:iq63469603 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Faisal bin Fahd bin Muqrin Al Saud" .
+fhkb:iq6399403 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq135419736 ;
+    fhkb:isBrotherOf fhkb:iq293679 ;
+    rdfs:label "Khaled bin Talal bin Abdul Aziz Al Saud" .
+fhkb:iq6463718 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq4666099 ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq6496091, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825 ;
+    rdfs:label "Luluwah bint Abdul-Aziz Al Saud" .
+fhkb:iq6496091 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq401645, fhkb:iq183187, fhkb:iq317832, fhkb:iq2460829, fhkb:iq4704127, fhkb:iq315587, fhkb:iq307463, fhkb:iq367825, fhkb:iq6463718 ;
+    rdfs:label "Latifa bint Abdulaziz Al Saud" .
+fhkb:iq65227713 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231660, fhkb:iq5429527, fhkb:iq742051, fhkb:iq7855213, fhkb:iq556137, fhkb:iq7405429 ;
+    rdfs:label "Ahmed bin Sultan bin Abdul Aziz Al Saud" .
+fhkb:iq66091547 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q66091547" .
+fhkb:iq66309769 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Musa’ad bin Khalid Al Saud" .
+fhkb:iq6669035 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6893450, fhkb:iq58156, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Lolowah bint Faisal Al Saud" .
+fhkb:iq67188262 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4665818, fhkb:iq22690359 ;
+    rdfs:label "Q67188262" .
+fhkb:iq6745575 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq290198 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mamdoh bin Abdulaziz" .
+fhkb:iq6751859 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12221823 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Mansour bin Abdulaziz Al Saud" .
+fhkb:iq6758324 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12243047, fhkb:iq125492927, fhkb:iq4664684, fhkb:iq109257408 ;
+    fhkb:isBrotherOf fhkb:iq1393513 ;
+    rdfs:label "Jiluwi bin Turki Al Saud" .
+fhkb:iq6799038 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12231216 ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Sa'ad bin Abdul-Rahman" .
+fhkb:iq6800534 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q6800534" .
+fhkb:iq68168018 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq66091547 ;
+    fhkb:isBrotherOf fhkb:iq12210013 ;
+    rdfs:label "Turki bin Saud Al Kabir" .
+fhkb:iq68169570 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12216545 ;
+    rdfs:label "Q68169570" .
+fhkb:iq68169607 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q68169607" .
+fhkb:iq68169881 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq307590, fhkb:iq111995522, fhkb:iq12221727, fhkb:iq2227074, fhkb:iq317421 ;
+    rdfs:label "Q68169881" .
+fhkb:iq6853693 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q6853693" .
+fhkb:iq6871574 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq12223054, fhkb:iq22686427 ;
+    rdfs:label "Mansour bin Nasser bin Abdul Aziz" .
+fhkb:iq6875477 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq4665823 ;
+    rdfs:label "Mishaal bin Majid" .
+fhkb:iq6875499 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq7636762, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq22690860 ;
+    rdfs:label "Mishari bin Saud bin Abdulaziz Al Saud" .
+fhkb:iq6885493 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Nawaf bin Saad" .
+fhkb:iq6892571 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq30082184, fhkb:iq7855210 ;
+    rdfs:label "Mohammed bin Salman Al Saud" .
+fhkb:iq6893450 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq79350994, fhkb:iq12228536, fhkb:iq23639454 ;
+    fhkb:isBrotherOf fhkb:iq16933366, fhkb:iq6669035, fhkb:iq58156, fhkb:iq12199301, fhkb:iq2795275, fhkb:iq4165651 ;
+    rdfs:label "Mohammed bin Faisal Al Saud" .
+fhkb:iq6893468 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq60565434 ;
+    rdfs:label "Mohammed bin Nawwaf bin Abdulaziz" .
+fhkb:iq6932834 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12210053, fhkb:iq12231232, fhkb:iq25336702, fhkb:iq12199308, fhkb:iq16123102 ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq98767348 ;
+    rdfs:label "Muhammad bin Abdul-Rahman" .
+fhkb:iq6932844 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq114877101 ;
+    fhkb:isBrotherOf fhkb:iq28715291, fhkb:iq35369443 ;
+    rdfs:label "Muhammad bin Saad" .
+fhkb:iq6943650 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq317783 ;
+    fhkb:isBrotherOf fhkb:iq4682218, fhkb:iq39053932, fhkb:iq12243175, fhkb:iq4164920 ;
+    rdfs:label "Mutaib bin Abdullah" .
+fhkb:iq69673899 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq3473084 ;
+    rdfs:label "Muhammad Al Muqrin" .
+fhkb:iq6967643 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq7855211, fhkb:iq12223054, fhkb:iq22686427 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Nasser bin Abdulaziz" .
+fhkb:iq6982977 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq6893468, fhkb:iq60565434 ;
+    fhkb:isBrotherOf fhkb:iq712690 ;
+    rdfs:label "Nawwaf bin Abdulaziz Al Saud" .
+fhkb:iq7069938 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq98955767 ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq6799038, fhkb:iq98767348, fhkb:iq6932834 ;
+    rdfs:label "Noura bint Abdul Rahman Al Saud" .
+fhkb:iq712690 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq7855214, fhkb:iq1441910, fhkb:iq293679, fhkb:iq6399403, fhkb:iq4665226 ;
+    fhkb:isBrotherOf fhkb:iq6982977 ;
+    rdfs:label "Talal bin Abdulaziz Al Saud" .
+fhkb:iq72099398 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Faisal bin Farhan" .
+fhkb:iq7306919 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq616695, fhkb:iq104520507 ;
+    rdfs:label "Reema Bint Bandar Al Saud" .
+fhkb:iq73886507 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Haifa Mohammed Al Saud" .
+fhkb:iq7395569 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq28715291, fhkb:iq35369443, fhkb:iq6932844 ;
+    fhkb:isBrotherOf fhkb:iq7636778, fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Saad bin Abdulaziz" .
+fhkb:iq7405428 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Salman bin Abdulaziz bin Salman Al Saud" .
+fhkb:iq7405429 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq5429527, fhkb:iq742051, fhkb:iq7855213, fhkb:iq556137 ;
+    rdfs:label "Salman ibn Sultan" .
+fhkb:iq742051 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16127600, fhkb:iq87436373, fhkb:iq16128170 ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq5429527, fhkb:iq7855213, fhkb:iq556137, fhkb:iq7405429 ;
+    rdfs:label "Khalid bin Sultan" .
+fhkb:iq7426513 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Sattam bin Khalid bin Nasser Al Saud" .
+fhkb:iq7427049 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12197694 ;
+    rdfs:label "Saud bin Abdul Muhsin Al Saud" .
+fhkb:iq7427054 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq3953644, fhkb:iq22688343 ;
+    rdfs:label "Saud ibn Khalid Al Saud" .
+fhkb:iq7427055 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq30402542 ;
+    fhkb:isBrotherOf fhkb:iq455341, fhkb:iq98944440 ;
+    rdfs:label "Saud ibn Nayef Al Saud" .
+fhkb:iq7427056 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq68168018, fhkb:iq12210013, fhkb:iq98955767 ;
+    rdfs:label "Saud ibn Abd al-Aziz ibn Saud" .
+fhkb:iq7445959 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq50825607 ;
+    fhkb:isBrotherOf fhkb:iq106829332, fhkb:iq57298 ;
+    rdfs:label "Seeta bint Abdulaziz Al Saud" .
+fhkb:iq7531591 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq16933359, fhkb:iq338524 ;
+    rdfs:label "Sita bint Fahd Al Damir" .
+fhkb:iq75331065 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Lucy Caroline Cuthbert" .
+fhkb:iq76367273 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq56759297, fhkb:iq5431091, fhkb:iq5429531, fhkb:iq4665821, fhkb:iq379946, fhkb:iq12178747 ;
+    rdfs:label "Sultana bint Turki Al Sudairi" .
+fhkb:iq7636760 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq14514894, fhkb:iq30081441, fhkb:iq1951883, fhkb:iq373425, fhkb:iq12237259 ;
+    rdfs:label "Sultan bin Fahd" .
+fhkb:iq7636762 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12223752, fhkb:iq16118239, fhkb:iq12207802, fhkb:iq16123896, fhkb:iq12197692, fhkb:iq109298072, fhkb:iq16128191, fhkb:iq16126730, fhkb:iq25336703, fhkb:iq20386059, fhkb:iq12231217, fhkb:iq12245610, fhkb:iq20425317, fhkb:iq22690424, fhkb:iq106916742, fhkb:iq12223790, fhkb:iq12243174, fhkb:iq12247734, fhkb:iq16128401, fhkb:iq12242556, fhkb:iq12217829, fhkb:iq12243227, fhkb:iq16118369, fhkb:iq12223497, fhkb:iq16118602, fhkb:iq12203729, fhkb:iq12221822, fhkb:iq16119531, fhkb:iq4665663, fhkb:iq16119071, fhkb:iq12245053, fhkb:iq12231661, fhkb:iq12215931, fhkb:iq12222475, fhkb:iq5429532, fhkb:iq620518, fhkb:iq20396215, fhkb:iq12240141, fhkb:iq16128196, fhkb:iq110260194, fhkb:iq22689055, fhkb:iq22686307, fhkb:iq12238127, fhkb:iq12229375, fhkb:iq12216543, fhkb:iq12217836, fhkb:iq16117995, fhkb:iq12223498, fhkb:iq22688830, fhkb:iq12199305, fhkb:iq16122140, fhkb:iq12210014, fhkb:iq6875499, fhkb:iq22690860 ;
+    rdfs:label "Sultan bin Saud" .
+fhkb:iq7636778 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq25336685, fhkb:iq12208891, fhkb:iq5685929, fhkb:iq7395569, fhkb:iq3133541, fhkb:iq12238128, fhkb:iq2602302, fhkb:iq4702270, fhkb:iq6967643, fhkb:iq6745575, fhkb:iq4119087, fhkb:iq124710, fhkb:iq4115542, fhkb:iq4549135, fhkb:iq4854440, fhkb:iq12243051, fhkb:iq28794052, fhkb:iq6751859, fhkb:iq4665420, fhkb:iq4120312, fhkb:iq12203730 ;
+    rdfs:label "Sultana bint Abdul-Aziz Al Saud" .
+fhkb:iq7855209 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq19364800, fhkb:iq19757674 ;
+    rdfs:label "Turki bin Muqrin bin Abdul-Aziz" .
+fhkb:iq7855210 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq30082184, fhkb:iq6892571 ;
+    rdfs:label "Turki bin Salman Al Saud" .
+fhkb:iq7855211 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq5431095 ;
+    fhkb:isBrotherOf fhkb:iq12223599, fhkb:iq12231234, fhkb:iq6871574, fhkb:iq12222771, fhkb:iq12240273, fhkb:iq12223054, fhkb:iq22686427 ;
+    rdfs:label "Turki bin Nasser" .
+fhkb:iq7855213 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq65227713, fhkb:iq12231660, fhkb:iq5429527, fhkb:iq742051, fhkb:iq556137, fhkb:iq7405429 ;
+    rdfs:label "Turki bin Sultan" .
+fhkb:iq7855214 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq20675805 ;
+    fhkb:isBrotherOf fhkb:iq1441910, fhkb:iq4665226 ;
+    rdfs:label "Turki bin Talal bin Abdul Aziz Al Saud" .
+fhkb:iq79350994 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12228536, fhkb:iq23639454 ;
+    rdfs:label "Q79350994" .
+fhkb:iq81930169 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Haifa bint Mohammed bin Nasser Al Saud" .
+fhkb:iq81930631 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Daad bint Sultan bin Abdulaziz Al Saud" .
+fhkb:iq85202140 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq20383955, fhkb:iq12223024, fhkb:iq102371457 ;
+    rdfs:label "Q85202140" .
+fhkb:iq85870263 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Q85870263" .
+fhkb:iq85876226 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Haifa AlMogrin" .
+fhkb:iq87436373 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq16127600, fhkb:iq16128170 ;
+    rdfs:label "Abdullah bin Khalid bin Sultan Al Saud" .
+fhkb:iq93119034 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq21014402 ;
+    rdfs:label "Nouf bint Khaled bin Abdullah bin Abdulrahman Al Saud" .
+fhkb:iq98150162 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Aljohara bint Mohammad bin Saad bin Mohammad bin Saud bin Abdul Rahman Al-Saud" .
+fhkb:iq981846 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq19364800, fhkb:iq7855209, fhkb:iq19757674 ;
+    rdfs:label "Muqrin bin Abdul-Aziz Al Saud" .
+fhkb:iq98229031 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12224167 ;
+    rdfs:label "Faisal bin Sattam" .
+fhkb:iq98418867 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq62094755 ;
+    fhkb:isBrotherOf fhkb:iq4165546, fhkb:iq104781582 ;
+    rdfs:label "Abdul Rahman Al Faisal" .
+fhkb:iq98767348 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq12231223, fhkb:iq4666095, fhkb:iq12231664, fhkb:iq12216038, fhkb:iq25451979, fhkb:iq12210024, fhkb:iq7069938, fhkb:iq6799038, fhkb:iq6932834 ;
+    rdfs:label "Musaid bin Abdul Rahman" .
+fhkb:iq98944440 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isBrotherOf fhkb:iq455341, fhkb:iq7427055 ;
+    rdfs:label "Nawwaf bin Nayef" .
+fhkb:iq98955767 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq22688749, fhkb:iq13426512 ;
+    rdfs:label "Mohammed bin Saud Al Kabir" .
+fhkb:iq98970348 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Madawi bint Abdulaziz" .
+fhkb:iq99205504 a owl:NamedIndividual, owl:Thing ;
+    fhkb:isFatherOf fhkb:iq55980039 ;
+    fhkb:isBrotherOf fhkb:iq5431088 ;
+    rdfs:label "Abeer bint Abdullah" .
+fhkb:iq99446955 a owl:NamedIndividual, owl:Thing ;
+    rdfs:label "Fahda bint Fahd bin Khalid bin Nasser bin Abdulaziz Al Saud" .
+fhkb:if100 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq7531591 ;
+    fhkb:hasMalePartner fhkb:iq208301 .
+fhkb:if103 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq40889378 ;
+    fhkb:hasMalePartner fhkb:iq712690 .
+fhkb:if105 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq106916742 ;
+    fhkb:hasMalePartner fhkb:iq293679 .
+fhkb:if106 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq22690484 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if108 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq2795275 ;
+    fhkb:hasMalePartner fhkb:iq556137 .
+fhkb:if110 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq108822039 ;
+    fhkb:hasMalePartner fhkb:iq217167 .
+fhkb:if111 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq7445959 ;
+    fhkb:hasMalePartner fhkb:iq22688749 .
+fhkb:if115 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq17001201 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if117 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq30512408 ;
+    fhkb:hasMalePartner fhkb:iq367825 .
+fhkb:if12 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4704130 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if127 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq106463171 ;
+    fhkb:hasMalePartner fhkb:iq4549135 .
+fhkb:if131 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq1393513 ;
+    fhkb:hasMalePartner fhkb:iq111995705 .
+fhkb:if132 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq307590 ;
+    fhkb:hasMalePartner fhkb:iq111995759 .
+fhkb:if133 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4702270 ;
+    fhkb:hasMalePartner fhkb:iq12199308 .
+fhkb:if134 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq12217152 ;
+    fhkb:hasMalePartner fhkb:iq12210014 .
+fhkb:if135 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq2600118 ;
+    fhkb:hasMalePartner fhkb:iq12210014 .
+fhkb:if136 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq5103058 ;
+    fhkb:hasMalePartner fhkb:iq12210014 .
+fhkb:if137 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq16933366 ;
+    fhkb:hasMalePartner fhkb:iq12240141 .
+fhkb:if138 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq56759297 ;
+    fhkb:hasMalePartner fhkb:iq124018912 .
+fhkb:if139 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq60565446 ;
+    fhkb:hasMalePartner fhkb:iq1319659 .
+fhkb:if140 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq183187 ;
+    fhkb:hasMalePartner fhkb:iq136031796 .
+fhkb:if141 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq5431087 ;
+    fhkb:hasMalePartner fhkb:iq1441884 .
+fhkb:if142 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336657 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if143 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336667 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if144 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336691 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if145 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4704127 ;
+    fhkb:hasMalePartner fhkb:iq1527923 .
+fhkb:if146 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq183187 ;
+    fhkb:hasMalePartner fhkb:iq16115255 .
+fhkb:if147 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq56759297 ;
+    fhkb:hasMalePartner fhkb:iq18720234 .
+fhkb:if148 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq317832 ;
+    fhkb:hasMalePartner fhkb:iq19895989 .
+fhkb:if149 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq98150162 ;
+    fhkb:hasMalePartner fhkb:iq20399144 .
+fhkb:if150 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4117031 ;
+    fhkb:hasMalePartner fhkb:iq293679 .
+fhkb:if151 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq63313846 ;
+    fhkb:hasMalePartner fhkb:iq4665226 .
+fhkb:if152 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq7306919 ;
+    fhkb:hasMalePartner fhkb:iq5431095 .
+fhkb:if153 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq57298 ;
+    fhkb:hasMalePartner fhkb:iq54967144 .
+fhkb:if154 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq6892571 ;
+    fhkb:hasMalePartner fhkb:iq57908430 .
+fhkb:if155 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq75331065 ;
+    fhkb:hasMalePartner fhkb:iq616695 .
+fhkb:if156 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq7427049 ;
+    fhkb:hasMalePartner fhkb:iq6669035 .
+fhkb:if20 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq205051 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if41 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq7069938 ;
+    fhkb:hasMalePartner fhkb:iq7427056 .
+fhkb:if43 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq99205504 ;
+    fhkb:hasMalePartner fhkb:iq12231210 .
+fhkb:if44 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq100579253 ;
+    fhkb:hasMalePartner fhkb:iq57298 .
+fhkb:if49 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4120092 ;
+    fhkb:hasMalePartner fhkb:iq217167 .
+fhkb:if50 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336660 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if56 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25343562 ;
+    fhkb:hasMalePartner fhkb:iq317421 .
+fhkb:if58 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336671 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if59 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq16933359 ;
+    fhkb:hasMalePartner fhkb:iq98418867 .
+fhkb:if62 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq60040445 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if66 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq102205480 ;
+    fhkb:hasMalePartner fhkb:iq57298 .
+fhkb:if67 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq1392056 ;
+    fhkb:hasMalePartner fhkb:iq151509 .
+fhkb:if69 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq4704128 ;
+    fhkb:hasMalePartner fhkb:iq183187 .
+fhkb:if72 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq57334593 ;
+    fhkb:hasMalePartner fhkb:iq307187 .
+fhkb:if75 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq76367273 ;
+    fhkb:hasMalePartner fhkb:iq367825 .
+fhkb:if80 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq1392056 ;
+    fhkb:hasMalePartner fhkb:iq3473086 .
+fhkb:if92 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq205051 ;
+    fhkb:hasMalePartner fhkb:iq6932834 .
+fhkb:if93 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq25336703 ;
+    fhkb:hasMalePartner fhkb:iq25336702 .
+fhkb:if99 a owl:NamedIndividual, owl:Thing ;
+    fhkb:hasFemalePartner fhkb:iq93119034 ;
+    fhkb:hasMalePartner fhkb:iq5429531 .
+[] a owl:AllDifferent ;
+    owl:distinctMembers (    fhkb:iq100158628    fhkb:iq100268543    fhkb:iq100579253    fhkb:iq100728676    fhkb:iq102205480    fhkb:iq102371457    fhkb:iq104520507    fhkb:iq104781582    fhkb:iq105492473    fhkb:iq1059677    fhkb:iq106181708    fhkb:iq106463171    fhkb:iq106829332    fhkb:iq106830671    fhkb:iq106855706    fhkb:iq106886010    fhkb:iq106916742    fhkb:iq106949529    fhkb:iq107007381    fhkb:iq108113176    fhkb:iq108822039    fhkb:iq109257408    fhkb:iq109257410    fhkb:iq109258685    fhkb:iq109298072    fhkb:iq110260183    fhkb:iq110260194    fhkb:iq111842953    fhkb:iq111995522    fhkb:iq111995705    fhkb:iq111995759    fhkb:iq112327295    fhkb:iq112327297    fhkb:iq114259018    fhkb:iq114755933    fhkb:iq114877101    fhkb:iq12178747    fhkb:iq12181703    fhkb:iq12183621    fhkb:iq12197692    fhkb:iq12197694    fhkb:iq12197696    fhkb:iq12199301    fhkb:iq12199303    fhkb:iq12199305    fhkb:iq12199308    fhkb:iq12199310    fhkb:iq12202369    fhkb:iq12202376    fhkb:iq12202378    fhkb:iq12203729    fhkb:iq12203730    fhkb:iq12207802    fhkb:iq12208891    fhkb:iq12210013    fhkb:iq12210014    fhkb:iq12210024    fhkb:iq12210053    fhkb:iq12210068    fhkb:iq12215931    fhkb:iq12216038    fhkb:iq12216041    fhkb:iq12216042    fhkb:iq12216044    fhkb:iq12216046    fhkb:iq12216050    fhkb:iq12216469    fhkb:iq12216543    fhkb:iq12216545    fhkb:iq12217152    fhkb:iq12217829    fhkb:iq12217836    fhkb:iq12221727    fhkb:iq12221822    fhkb:iq12221823    fhkb:iq12222475    fhkb:iq12222565    fhkb:iq12222739    fhkb:iq12222758    fhkb:iq12222771    fhkb:iq12223020    fhkb:iq12223024    fhkb:iq12223041    fhkb:iq12223054    fhkb:iq12223055    fhkb:iq12223496    fhkb:iq12223497    fhkb:iq12223498    fhkb:iq12223532    fhkb:iq12223562    fhkb:iq12223563    fhkb:iq12223599    fhkb:iq12223752    fhkb:iq12223790    fhkb:iq12223794    fhkb:iq12223795    fhkb:iq12224167    fhkb:iq12224200    fhkb:iq12228536    fhkb:iq12229375    fhkb:iq12231207    fhkb:iq12231210    fhkb:iq12231211    fhkb:iq12231214    fhkb:iq12231216    fhkb:iq12231217    fhkb:iq12231223    fhkb:iq12231231    fhkb:iq12231232    fhkb:iq12231234    fhkb:iq12231655    fhkb:iq12231656    fhkb:iq12231658    fhkb:iq12231660    fhkb:iq12231661    fhkb:iq12231664    fhkb:iq12231666    fhkb:iq12231669    fhkb:iq12237259    fhkb:iq12237440    fhkb:iq12238127    fhkb:iq12238128    fhkb:iq12240141    fhkb:iq12240143    fhkb:iq12240171    fhkb:iq12240185    fhkb:iq12240243    fhkb:iq12240246    fhkb:iq12240273    fhkb:iq12242556    fhkb:iq12242559    fhkb:iq12243047    fhkb:iq12243051    fhkb:iq12243172    fhkb:iq12243174    fhkb:iq12243175    fhkb:iq12243227    fhkb:iq12245053    fhkb:iq12245610    fhkb:iq12245615    fhkb:iq12247734    fhkb:iq12247736    fhkb:iq12247739    fhkb:iq12249079    fhkb:iq12249080    fhkb:iq122640080    fhkb:iq123687980    fhkb:iq123688097    fhkb:iq124018912    fhkb:iq124208819    fhkb:iq124341360    fhkb:iq124710    fhkb:iq125492927    fhkb:iq130482174    fhkb:iq1319659    fhkb:iq13426512    fhkb:iq135419736    fhkb:iq136031796    fhkb:iq137386516    fhkb:iq138328160    fhkb:iq1392056    fhkb:iq1393513    fhkb:iq1441884    fhkb:iq1441910    fhkb:iq14514894    fhkb:iq151509    fhkb:iq1527923    fhkb:iq1532250    fhkb:iq16115255    fhkb:iq16117559    fhkb:iq16117995    fhkb:iq16118239    fhkb:iq16118255    fhkb:iq16118284    fhkb:iq16118369    fhkb:iq16118602    fhkb:iq16118777    fhkb:iq16119065    fhkb:iq16119071    fhkb:iq16119531    fhkb:iq16120280    fhkb:iq16120810    fhkb:iq16120827    fhkb:iq16122140    fhkb:iq16123102    fhkb:iq16123896    fhkb:iq16125353    fhkb:iq16126258    fhkb:iq16126730    fhkb:iq16127600    fhkb:iq16128166    fhkb:iq16128170    fhkb:iq16128191    fhkb:iq16128196    fhkb:iq16128401    fhkb:iq16193305    fhkb:iq16677115    fhkb:iq16713202    fhkb:iq16933359    fhkb:iq16933366    fhkb:iq17001201    fhkb:iq183187    fhkb:iq18720234    fhkb:iq19364800    fhkb:iq1951883    fhkb:iq19757674    fhkb:iq1975943    fhkb:iq19895850    fhkb:iq19895989    fhkb:iq1998925    fhkb:iq20380927    fhkb:iq20383955    fhkb:iq20385123    fhkb:iq20386059    fhkb:iq20387440    fhkb:iq20396215    fhkb:iq20399103    fhkb:iq20399144    fhkb:iq20425317    fhkb:iq205051    fhkb:iq20667130    fhkb:iq20675805    fhkb:iq208301    fhkb:iq21014401    fhkb:iq21014402    fhkb:iq217167    fhkb:iq22006937    fhkb:iq2227074    fhkb:iq2227089    fhkb:iq22686307    fhkb:iq22686427    fhkb:iq22687654    fhkb:iq22688343    fhkb:iq22688749    fhkb:iq22688769    fhkb:iq22688830    fhkb:iq22689055    fhkb:iq22690359    fhkb:iq22690424    fhkb:iq22690484    fhkb:iq22690860    fhkb:iq23639454    fhkb:iq23907942    fhkb:iq244206    fhkb:iq2460824    fhkb:iq2460829    fhkb:iq25336657    fhkb:iq25336660    fhkb:iq25336663    fhkb:iq25336666    fhkb:iq25336667    fhkb:iq25336671    fhkb:iq25336685    fhkb:iq25336691    fhkb:iq25336699    fhkb:iq25336702    fhkb:iq25336703    fhkb:iq25343562    fhkb:iq25451979    fhkb:iq2600118    fhkb:iq2602302    fhkb:iq2620640    fhkb:iq27863010    fhkb:iq2795275    fhkb:iq28197146    fhkb:iq28355874    fhkb:iq28715291    fhkb:iq28715850    fhkb:iq28794052    fhkb:iq290198    fhkb:iq293679    fhkb:iq30081441    fhkb:iq30082184    fhkb:iq3019911    fhkb:iq30315032    fhkb:iq30402542    fhkb:iq30512408    fhkb:iq3064457    fhkb:iq307187    fhkb:iq307463    fhkb:iq307587    fhkb:iq307588    fhkb:iq307590    fhkb:iq31149088    fhkb:iq3133541    fhkb:iq315587    fhkb:iq317421    fhkb:iq317783    fhkb:iq317832    fhkb:iq3270592    fhkb:iq338524    fhkb:iq3473084    fhkb:iq3473086    fhkb:iq3473090    fhkb:iq35369443    fhkb:iq367825    fhkb:iq371263    fhkb:iq373425    fhkb:iq37531194    fhkb:iq379946    fhkb:iq39053932    fhkb:iq3953644    fhkb:iq401645    fhkb:iq40889378    fhkb:iq4115542    fhkb:iq4117031    fhkb:iq4119087    fhkb:iq4119453    fhkb:iq4120092    fhkb:iq4120307    fhkb:iq4120312    fhkb:iq4164920    fhkb:iq4165546    fhkb:iq4165651    fhkb:iq43060553    fhkb:iq43282082    fhkb:iq4549135    fhkb:iq455341    fhkb:iq4664684    fhkb:iq4664686    fhkb:iq4665226    fhkb:iq4665291    fhkb:iq4665420    fhkb:iq4665663    fhkb:iq4665818    fhkb:iq4665821    fhkb:iq4665823    fhkb:iq4665824    fhkb:iq4666095    fhkb:iq4666099    fhkb:iq4666204    fhkb:iq46706439    fhkb:iq4682218    fhkb:iq4687985    fhkb:iq4702270    fhkb:iq4704127    fhkb:iq4704128    fhkb:iq4704130    fhkb:iq4854440    fhkb:iq50825607    fhkb:iq5103058    fhkb:iq52234598    fhkb:iq5429527    fhkb:iq5429531    fhkb:iq5429532    fhkb:iq5431086    fhkb:iq5431087    fhkb:iq5431088    fhkb:iq5431089    fhkb:iq5431091    fhkb:iq5431095    fhkb:iq54861686    fhkb:iq54875317    fhkb:iq54967144    fhkb:iq556137    fhkb:iq55980039    fhkb:iq56759297    fhkb:iq56759632    fhkb:iq56759638    fhkb:iq56759639    fhkb:iq5685929    fhkb:iq57298    fhkb:iq57334593    fhkb:iq57908430    fhkb:iq58156    fhkb:iq60040445    fhkb:iq60195440    fhkb:iq60565419    fhkb:iq60565421    fhkb:iq60565434    fhkb:iq60565446    fhkb:iq60572614    fhkb:iq60914670    fhkb:iq616695    fhkb:iq61679974    fhkb:iq620518    fhkb:iq62094755    fhkb:iq63122112    fhkb:iq63313846    fhkb:iq63469597    fhkb:iq63469600    fhkb:iq63469603    fhkb:iq6399403    fhkb:iq6463718    fhkb:iq6496091    fhkb:iq65227713    fhkb:iq66091547    fhkb:iq66309769    fhkb:iq6669035    fhkb:iq67188262    fhkb:iq6745575    fhkb:iq6751859    fhkb:iq6758324    fhkb:iq6799038    fhkb:iq6800534    fhkb:iq68168018    fhkb:iq68169570    fhkb:iq68169607    fhkb:iq68169881    fhkb:iq6853693    fhkb:iq6871574    fhkb:iq6875477    fhkb:iq6875499    fhkb:iq6885493    fhkb:iq6892571    fhkb:iq6893450    fhkb:iq6893468    fhkb:iq6932834    fhkb:iq6932844    fhkb:iq6943650    fhkb:iq69673899    fhkb:iq6967643    fhkb:iq6982977    fhkb:iq7069938    fhkb:iq712690    fhkb:iq72099398    fhkb:iq7306919    fhkb:iq73886507    fhkb:iq7395569    fhkb:iq7405428    fhkb:iq7405429    fhkb:iq742051    fhkb:iq7426513    fhkb:iq7427049    fhkb:iq7427054    fhkb:iq7427055    fhkb:iq7427056    fhkb:iq7445959    fhkb:iq7531591    fhkb:iq75331065    fhkb:iq76367273    fhkb:iq7636760    fhkb:iq7636762    fhkb:iq7636778    fhkb:iq7855209    fhkb:iq7855210    fhkb:iq7855211    fhkb:iq7855213    fhkb:iq7855214    fhkb:iq79350994    fhkb:iq81930169    fhkb:iq81930631    fhkb:iq85202140    fhkb:iq85870263    fhkb:iq85876226    fhkb:iq87436373    fhkb:iq93119034    fhkb:iq98150162    fhkb:iq981846    fhkb:iq98229031    fhkb:iq98418867    fhkb:iq98767348    fhkb:iq98944440    fhkb:iq98955767    fhkb:iq98970348    fhkb:iq99205504    fhkb:iq99446955    fhkb:if100    fhkb:if103    fhkb:if105    fhkb:if106    fhkb:if108    fhkb:if110    fhkb:if111    fhkb:if115    fhkb:if117    fhkb:if12    fhkb:if127    fhkb:if131    fhkb:if132    fhkb:if133    fhkb:if134    fhkb:if135    fhkb:if136    fhkb:if137    fhkb:if138    fhkb:if139    fhkb:if140    fhkb:if141    fhkb:if142    fhkb:if143    fhkb:if144    fhkb:if145    fhkb:if146    fhkb:if147    fhkb:if148    fhkb:if149    fhkb:if150    fhkb:if151    fhkb:if152    fhkb:if153    fhkb:if154    fhkb:if155    fhkb:if156    fhkb:if20    fhkb:if41    fhkb:if43    fhkb:if44    fhkb:if49    fhkb:if50    fhkb:if56    fhkb:if58    fhkb:if59    fhkb:if62    fhkb:if66    fhkb:if67    fhkb:if69    fhkb:if72    fhkb:if75    fhkb:if80    fhkb:if92    fhkb:if93    fhkb:if99    ) .

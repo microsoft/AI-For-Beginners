@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 123,
+        "title": "Multi-Agent Modeling: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "By modeling the behavior of simple agents, we can understand more complex behaviors of a system.",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "The principle of metasystem transition is derived from:",
+            "answerOptions": [
+              {
+                "answerText": "Evolutionary Cybernetics",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Emergentism",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both of these",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Multi-Agent systems emerged in the ____:",
+            "answerOptions": [
+              {
+                "answerText": "1970s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1980s",
+                "isCorrect": false
+              },
+              {
+                "answerText": "1990s",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 223,
+        "title": "Multi-Agent Modeling: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "An agent is:",
+            "answerOptions": [
+              {
+                "answerText": "an entity that lives alone",
+                "isCorrect": false
+              },
+              {
+                "answerText": "an entity that lives in an environment",
+                "isCorrect": true
+              },
+              {
+                "answerText": "an entity that is intelligent",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Reactive agents usually have:",
+            "answerOptions": [
+              {
+                "answerText": "simple request-response behavior",
+                "isCorrect": true
+              },
+              {
+                "answerText": "complex behavior",
+                "isCorrect": false
+              },
+              {
+                "answerText": "no behavior",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Multi-agent systems are used in:",
+            "answerOptions": [
+              {
+                "answerText": "video production and systems modeling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "games and automations",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both the above",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

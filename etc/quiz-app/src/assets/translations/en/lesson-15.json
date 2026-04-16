@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 115,
+        "title": "Language Modeling: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Which of the following can be considered a language model?",
+            "answerOptions": [
+              {
+                "answerText": "Word2Vec embeddings",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Embedding layer in RNN",
+                "isCorrect": false
+              },
+              {
+                "answerText": "RNN used for text classification",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "A language model should be able to ____ the next word in the sentence",
+            "answerOptions": [
+              {
+                "answerText": "use",
+                "isCorrect": false
+              },
+              {
+                "answerText": "predict",
+                "isCorrect": true
+              },
+              {
+                "answerText": "guess",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Language models are trained on",
+            "answerOptions": [
+              {
+                "answerText": "language vocabulary",
+                "isCorrect": false
+              },
+              {
+                "answerText": "specially labeled data",
+                "isCorrect": false
+              },
+              {
+                "answerText": "any natural text",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "title": "Language Modeling: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Which of the architectures predicts a word from neighboring words?",
+            "answerOptions": [
+              {
+                "answerText": "CBoW",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Skip-gram",
+                "isCorrect": false
+              },
+              {
+                "answerText": "N-Gram",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "When we train a CBoW model, we obtain",
+            "answerOptions": [
+              {
+                "answerText": "A model that can generate text",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Word2Vec embedding vectors",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Text classification model",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "The CBoW model is based on",
+            "answerOptions": [
+              {
+                "answerText": "Dense neural network",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Convolutional neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Recurrent neural network",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

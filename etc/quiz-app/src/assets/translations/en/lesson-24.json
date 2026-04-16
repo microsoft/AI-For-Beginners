@@ -1,0 +1,136 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 124,
+        "title": "Ethical and Responsible AI: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Why we need to worry about Ethical AI?",
+            "answerOptions": [
+              {
+                "answerText": "AI is a very powerful tool and can cause harm",
+                "isCorrect": false
+              },
+              {
+                "answerText": "We need to make sure AI models do not discriminate people",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Which is the example of interpretable AI?",
+            "answerOptions": [
+              {
+                "answerText": "Expert system",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Neural network",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Image classifier",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "It is not ethical to use AI in medicine",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 224,
+        "title": "Ethical and Responsible AI: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Why an AI model can discriminate?",
+            "answerOptions": [
+              {
+                "answerText": "Because it may become unfriendly",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Because datasets were not properly balanced",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Because developers programmed it in such a way",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Which of the following is not a principle of Responsible AI?",
+            "answerOptions": [
+              {
+                "answerText": "Transparency",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Fairness",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Cleverness",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Accountability of an AI system means that",
+            "answerOptions": [
+              {
+                "answerText": "there should be a human being involved in taking decisions, who can take responsibility",
+                "isCorrect": true
+              },
+              {
+                "answerText": "AI system should be held responsible for its actions",
+                "isCorrect": false
+              },
+              {
+                "answerText": "AI system developers should be held responsible",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Model fairness is related to",
+            "answerOptions": [
+              {
+                "answerText": "Interpretability",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Biases",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Accountability",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

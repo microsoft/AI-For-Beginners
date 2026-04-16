@@ -1,0 +1,111 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 107,
+        "title": "Convolutional Neural Networks: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "To extract patterns from images we use?",
+            "answerOptions": [
+              {
+                "answerText": "convolutional filters",
+                "isCorrect": true
+              },
+              {
+                "answerText": "extractor",
+                "isCorrect": false
+              },
+              {
+                "answerText": "filters",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "One of these is not a CNN Architecture",
+            "answerOptions": [
+              {
+                "answerText": "ResNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "MobileNet",
+                "isCorrect": false
+              },
+              {
+                "answerText": "TensorFlow",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "CNN are mostly used for computer vision tasks.",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "title": "Convolutional Neural Networks: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Which pooling layer is used \"scale down\" the size of the image",
+            "answerOptions": [
+              {
+                "answerText": "average pooling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "max pooling",
+                "isCorrect": false
+              },
+              {
+                "answerText": "a and b",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Convolutional networks generalizes much better",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": true
+              },
+              {
+                "answerText": "False",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "To train our neural network, we need to convert images to tensors",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 118,
+        "title": "Transformers: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Attention mechanism provides a means of _____ the impact of an inout vector on an output prediction of RNN",
+            "answerOptions": [
+              {
+                "answerText": "weighting",
+                "isCorrect": true
+              },
+              {
+                "answerText": "training",
+                "isCorrect": false
+              },
+              {
+                "answerText": "testing",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "BERT is an acronym for",
+            "answerOptions": [
+              {
+                "answerText": "Bidirectional Encoded Representations From Transformers",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Bidirectional Encoder Representations From Transformers",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Bidirectional Encoder Representatives of Transformers",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "In positional encoding the relative position of the token is represented by number of steps",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "title": "Transformers: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Positional embedding _____ the original token and its position within the sequence",
+            "answerOptions": [
+              {
+                "answerText": "separates",
+                "isCorrect": false
+              },
+              {
+                "answerText": "compares",
+                "isCorrect": false
+              },
+              {
+                "answerText": "embeds",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Multi-Head Attention is used in transformers to give network the power to capture _____ of dependencies",
+            "answerOptions": [
+              {
+                "answerText": "different types",
+                "isCorrect": true
+              },
+              {
+                "answerText": "same type",
+                "isCorrect": false
+              },
+              {
+                "answerText": "none",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "In transformers attention is used in _____ instances",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

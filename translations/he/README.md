@@ -1,0 +1,232 @@
+[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
+[![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+# אינטליגנציה מלאכותית למתחילים - תוכנית לימודים
+
+|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
+|:---:|
+| אינטליגנציה מלאכותית למתחילים - _סקצ׳נוט מאת [@girlie_mac](https://twitter.com/girlie_mac)_ |
+
+חקור את עולמו של **האינטליגנציה המלאכותית** (AI) עם תוכנית הלימודים שלנו המורכבת מ-12 שבועות ו-24 שיעורים! היא כוללת שיעורים מעשיים, חידונים ומעבדות. התוכנית ידידותית למתחילים ומכסה כלי עבודה כמו TensorFlow ו-PyTorch, וכן אתיקה ב-AI
+
+### 🌐 תמיכה בריבוי שפות
+
+#### נתמכת באמצעות GitHub Action (אוטומטית ותמיד מעודכנת)
+
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](./README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+
+> **מעדיפים לשכפל מקומית?**
+>
+> מאגר מידע זה כולל מעל 50 תרגומים בשפות שונות, מה שמגדיל משמעותית את גודל ההורדה. כדי לשכפל ללא תרגומים, השתמשו בביקורת ספסרית (sparse checkout):
+>
+> **Bash / macOS / Linux:**
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
+> cd AI-For-Beginners
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/AI-For-Beginners.git
+> cd AI-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> זה נותן לכם את כל מה שצריך כדי להשלים את הקורס במהירות הורדה גבוהה יותר.
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
+
+**אם תרצו שיתמכו בשפות תרגום נוספות, רשימת השפות הנתמכות מופיעה [כאן](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+
+## הצטרפו לקהילה
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+## מה תלמדו
+
+**[מפת חשיבה של הקורס](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+
+בתוכנית הלימודים הזו תלמדו:
+
+* גישות שונות לאינטליגנציה מלאכותית, כולל הגישה הסימבולית "הטובה הישנה" עם **ייצוג ידע** וניתוח ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **רשתות עצביות** ו**למידה עמוקה**, שהן בליבת ה-AI המודרני. נמחיש את המושגים מאחורי הנושאים החשובים הללו באמצעות קוד בשתי המסגרות הפופולריות ביותר - [TensorFlow](http://Tensorflow.org) ו-[PyTorch](http://pytorch.org).
+* **ארכיטקטורות עצביות** לעבודה עם תמונות וטקסט. נסקור מודלים עדכניים אך ייתכן שהסקירה שלנו תהיה מעט חסרה ביחס למצב האמנות.
+* גישות AI פחות פופולריות, כגון **אלגוריתמים גנטיים** ו**מערכות רב-סוכנים**.
+
+מה לא נכלול בתוכנית הלימודים הזו:
+
+> [מצאו את כל המשאבים הנוספים לקורס זה באוסף Microsoft Learn שלנו](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+
+* מקרים עסקיים של שימוש ב**AI בעסקים**. מומלץ לשקול לקחת את מסלול הלמידה [מבוא ל-AI למשתמשי עסקים](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) ב-Microsoft Learn, או את [בית הספר לעסקים של AI](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), שפותח בשיתוף עם [INSEAD](https://www.insead.edu/).
+* **למידת מכונה קלאסית**, שמתוארת היטב בתוכנית הלימודים שלנו [למידת מכונה למתחילים](http://github.com/Microsoft/ML-for-Beginners).
+* יישומי AI מעשיים שנבנו באמצעות **[שירותי קוגניציה](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. לצורך זה, אנו ממליצים להתחיל עם המודולים של Microsoft Learn עבור [ראייה](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [עיבוד שפה טבעית](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI גנרטיבי עם Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ואחרים.
+* **מסגרות לענן ספציפיות ללמידת מכונה**, כגון [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), או [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). מומלץ להשתמש במסלולי הלמידה [בניית והפעלת פתרונות למידת מכונה עם Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ו-[בניית והפעלת פתרונות למידת מכונה עם Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
+* **AI שיחתי** ו**בוטים שיחתיים**. יש מסלול למידה נפרד [יצירת פתרונות AI שיחתי](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), וניתן גם לעיין ב[פוסט בלוג זה](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) לפרטים נוספים.
+* **מתמטיקה עמוקה** מאחורי למידה עמוקה. לשם כך, אנו ממליצים על הספר [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) מאת Ian Goodfellow, Yoshua Bengio ו-Aaron Courville, הזמין גם באינטרנט ב-[https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+
+לקבלת מבוא רך לנושאי _AI בענן_ אפשר לשקול לקחת את מסלול הלמידה [התחילו עם אינטליגנציה מלאכותית על Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).
+
+# תוכן
+
+|     |                                                                 Lesson Link                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Lab                                                            |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
+| 0  |                                 [הגדרת הקורס](./lessons/0-course-setup/setup.md)                                 |                      [הגדרת סביבת הפיתוח שלך](./lessons/0-course-setup/how-to-run.md)                       |   |
+| I  |               [**מבוא לאינטליגנציה מלאכותית**](./lessons/1-Intro/README.md)      | | |
+| 01  |       [מבוא והיסטוריה של AI](./lessons/1-Intro/README.md)       |           -                            | -  |
+| II |              **אינטליגנציה מלאכותית סימבולית**              |
+| 02  |       [ייצוג ידע ומערכות מומחים](./lessons/2-Symbolic/README.md)       |            [מערכות מומחים](./lessons/2-Symbolic/Animals.ipynb) /  [אונטולוגיה](./lessons/2-Symbolic/FamilyOntology.ipynb) /[גרף מושגים](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| III |                        [**מבוא לרשתות עצביות**](./lessons/3-NeuralNetworks/README.md) |||
+| 03  |                [פרסטרון](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [מחברת](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [מעבדה](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
+| 04  |                   [פרסטרון רב-שכבתי ויצירת המסגרת שלנו](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [מחברת](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [מעבדה](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 05  |            [מבוא למסגרות (PyTorch/TensorFlow) ולהתאמה-יתר](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [מעבדה](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| IV  |            [**חזון ממוחשב**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [חקור חזון ממוחשב ב-Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [מבוא לחזון ממוחשב. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [מחברת](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [מעבדה](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| 07  |            [רשתות עצביות קונבולוציה](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [ארכיטקטורות CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [מעבדה](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
+| 08  |            [רשתות מאומנות מראש ולמידת העברה](./lessons/4-ComputerVision/08-TransferLearning/README.md) ו[טריקים לאימון](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [מעבדה](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| 09  |            [קידוד אוטומטי ו-VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
+| 10  |            [רשתות GAN והעברת סגנון אומנותי](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 11  |            [זיהוי אובייקטים](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [מעבדה](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
+| 12  |            [סגמנטציה סמנטית. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
+| V  |            [**עיבוד שפה טבעית**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [חקור עיבוד שפה טבעית ב-Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
+| 13  |            [ייצוג טקסט. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [הטמעות מילים סמנטיות. Word2Vec ו-GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [מודלי שפה. אימון הטמעות משלך](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [מעבדה](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [רשתות עצביות חוזרות](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [רשתות חוזרות גנרטיביות](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [מעבדה](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 18  |            [טרנספורמרים. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
+| 19  |            [זיהוי ישויות שמיות](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [מעבדה](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [מודלי שפה גדולים, תכנות פקודות ומשימות עם מעט דוגמאות](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| VI |            **שיטות נוספות של בינה מלאכותית** || |
+| 21  |            [אלגוריתמים גנטיים](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [מחברת](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
+| 22  |            [למידת חיזוק עמוקה](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [מעבדה](./lessons/6-Other/22-DeepRL/lab/README.md) |
+| 23  |            [מערכות רב-סוכנים](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
+| VII |            **אתיקה בבינה מלאכותית** | | |
+| 24  |            [אתיקה בבינה מלאכותית ובינה מלאכותית אחראית](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: עקרונות בינה מלאכותית אחראית](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| IX  |            **תוספות** | | |
+| 25  |            [רשתות מולטימודל, CLIP ו-VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [מחברת](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
+
+## כל שיעור מכיל
+* חומר לקריאה מוקדמת  
+* מחברות Jupyter ניתנות להרצה, שלרוב מותאמות לסביבת העבודה (**PyTorch** או **TensorFlow**). המחברת הניתנת להרצה מכילה גם חומר תיאורטי רב, ולכן להבנת הנושא יש לעבור לפחות על גרסה אחת של המחברת (או PyTorch או TensorFlow).  
+* **מעבדות** זמינות בחלק מהנושאים, שמאפשרות לך לנסות ליישם את החומר שלמדת על בעיה ספציפית.  
+* חלק מהקטעים כוללים קישורים ל[**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) למודולים אשר עוסקים בנושאים קשורים.  
+
+## התחלה
+
+### 🎯 חדש לבינה מלאכותית? התחל כאן!
+
+אם אתה חדש לחלוטין בבינה מלאכותית ורוצה דוגמאות מהירות עם יישום מעשי, בדוק את [**דוגמאות ידידותיות למתחילים**](./examples/README.md)! הן כוללות:
+
+- 🌟 **שלום עולם AI** - התוכנית הראשונה שלך בבינה מלאכותית (זיהוי דפוסים)  
+- 🧠 **רשת נוירונים פשוטה** - בניית רשת עצבית מאפס  
+- 🖼️ **מסווג תמונות** - סיווג תמונות עם הסברים מפורטים  
+- 💬 **סנטימנט של טקסט** - ניתוח טקסט חיובי/שלילי  
+
+דוגמאות אלה נועדו לעזור לך להבין מושגים בבינה מלאכותית לפני שתצלול לתוכן הקורס המלא.
+
+### 📚 הגדרת תכנית הלימודים המלאה
+
+- יצרנו [שיעור הגדרה](./lessons/0-course-setup/setup.md) שיעזור לך להקים את סביבת הפיתוח שלך. - למורים יצרנו גם [שיעור הגדרת תכנית לימודים](./lessons/0-course-setup/for-teachers.md)!  
+- כיצד [להריץ את הקוד ב-VSCode או Codespace](./lessons/0-course-setup/how-to-run.md)
+
+עקוב אחר הצעדים הבאים:
+
+צור פורק למאגר: לחץ על כפתור "Fork" בפינה הימנית העליונה של הדף הזה.
+
+שכפל את המאגר: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+
+אל תשכח לסמן בכוכב (🌟) את המאגר הזה כדי למצוא אותו בקלות מאוחר יותר.
+
+## הכרת לומדים אחרים
+
+הצטרף לשרת ה-Discord הרשמי שלנו ל-AI [‏כאן](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) כדי לפגוש וליצור קשר עם לומדים אחרים שלקחו את הקורס ולקבל תמיכה.
+
+אם יש לך משוב על המוצר או שאלות בזמן הפיתוח בקר בפורום המפתחים של [Azure AI Foundry](https://aka.ms/foundry/forum)
+
+## מבחנים
+
+> **הערה לגבי המבחנים**: כל המבחנים נמצאים בתיקיית Quiz-app ב־etc\quiz-app, או [בפורמט מקוון כאן](https://ff-quizzes.netlify.app/). הם מקושרים מתוך השיעורים, אפליקציית המבחנים ניתנת להרצה מקומית או לפריסה ב-Azure; עקוב אחר ההוראות שבתיקיית `quiz-app`. המבחנים מתורגמים בהדרגה.
+
+## דרוש עזרה
+
+האם יש לך הצעות או שמצאת טעויות כתיב או שגיאות בקוד? פתח נושא חדש או הגש Pull Request.
+
+## תודה מיוחדת
+
+* **✍️ מחבר ראשי:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
+* **🔥 עורך:** [Jen Looper](https://twitter.com/jenlooper), PhD  
+* **🎨 מאייר סקצ'נות:** [Tomomi Imura](https://twitter.com/girlie_mac)  
+* **✅ יוצר מבחנים:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
+* **🙏 תורמים מרכזיים:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
+
+## תכניות לימוד נוספות
+
+הצוות שלנו מייצר תכניות לימוד נוספות! בדוק:
+
+<!-- CO-OP TRANSLATOR OTHER COURSES START -->
+### LangChain
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
+---
+
+### Azure / Edge / MCP / Agents
+[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+ 
+### Generative AI Series
+[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+
+---
+ 
+### Core Learning
+[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+ 
+### Copilot Series
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+<!-- CO-OP TRANSLATOR OTHER COURSES END -->
+
+## קבלת סיוע
+
+אם נתקעת או יש לך שאלות לגבי פיתוח אפליקציות בינה מלאכותית. הצטרף ללומדים ומפתחים מנוסים בדיונים ב-MCP. זו קהילה תומכת שבה שאלות מתקבלות בשמחה וידע משתף בחופשיות.
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+אם יש לך משוב על המוצר או שגיאות במהלך הפיתוח בקר ב:
+
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**כתב ויתור**:  
+מסמך זה תורגם באמצעות שירות תרגום בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עלולים להכיל שגיאות או אי דיוקים. יש לראות במסמך המקורי בשפת המקור כמקור הסמכותי. למידע קריטי מומלץ לקבל תרגום מקצועי על ידי אדם. אנו לא נושאים באחריות לכל אי הבנה או פרשנות שגויה הנובעת משימוש בתרגום זה.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

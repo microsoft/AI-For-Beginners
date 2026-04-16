@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 109,
+        "title": "Autoencoders: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Self-supervised learning uses ____ data for training",
+            "answerOptions": [
+              {
+                "answerText": "pre-trained",
+                "isCorrect": false
+              },
+              {
+                "answerText": "raw",
+                "isCorrect": true
+              },
+              {
+                "answerText": "labeled",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Encoder Network coverts input images into latent spaces",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "VAE is short for?",
+            "answerOptions": [
+              {
+                "answerText": "Variable AutoEncoding",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Variation auto-encoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Variational automated encoders",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 209,
+        "title": "Autoencoders: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Properties of autoencoders include",
+            "answerOptions": [
+              {
+                "answerText": "it is data Specific",
+                "isCorrect": false
+              },
+              {
+                "answerText": "works on unlabeled data",
+                "isCorrect": false
+              },
+              {
+                "answerText": "all of the above",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Auto encoders can be used to effectively remove noise from images",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Variational auto-encoders loss function does not consist of which of these?",
+            "answerOptions": [
+              {
+                "answerText": "reconstruction loss",
+                "isCorrect": false
+              },
+              {
+                "answerText": "KL loss",
+                "isCorrect": false
+              },
+              {
+                "answerText": "TF loss",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

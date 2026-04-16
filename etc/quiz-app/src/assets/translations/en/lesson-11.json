@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 111,
+        "title": "Object Detection: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Neural networks can only be used to classify images",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "With object detection, we don't just get the class of an object, but also its ____",
+            "answerOptions": [
+              {
+                "answerText": "shape",
+                "isCorrect": false
+              },
+              {
+                "answerText": "location",
+                "isCorrect": true
+              },
+              {
+                "answerText": "type",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "How many objects can an object detection model detect?",
+            "answerOptions": [
+              {
+                "answerText": "one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "two",
+                "isCorrect": false
+              },
+              {
+                "answerText": "any number",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "title": "Object Detection: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "An Object detection model gives us",
+            "answerOptions": [
+              {
+                "answerText": "object class",
+                "isCorrect": false
+              },
+              {
+                "answerText": "bounding box",
+                "isCorrect": false
+              },
+              {
+                "answerText": "both class and bounding box",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "Which object detection models are faster?",
+            "answerOptions": [
+              {
+                "answerText": "one-pass models",
+                "isCorrect": true
+              },
+              {
+                "answerText": "region proposal networks",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Fast R-CNN",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Which metric can be used to determine how well bounding boxes are aligned?",
+            "answerOptions": [
+              {
+                "answerText": "accuracy",
+                "isCorrect": false
+              },
+              {
+                "answerText": "precision",
+                "isCorrect": false
+              },
+              {
+                "answerText": "IoU",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

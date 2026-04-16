@@ -1,0 +1,115 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 103,
+        "title": "Introduction to Neural Networks - Perceptron: Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "Early neural networks required",
+            "answerOptions": [
+              {
+                "answerText": "manual weight adjusting",
+                "isCorrect": true
+              },
+              {
+                "answerText": "terabytes of data",
+                "isCorrect": false
+              },
+              {
+                "answerText": "special reasoning",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "A simple neuron is also called a 'threshold logic unit'",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "A perceptron is a ___ type of model",
+            "answerOptions": [
+              {
+                "answerText": "multi-class classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "clustering",
+                "isCorrect": false
+              },
+              {
+                "answerText": "binary classification",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "title": "Introduction to Neural Networks - Perceptron: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "To train a perceptron, find a weights vector that results in the smallest ___.",
+            "answerOptions": [
+              {
+                "answerText": "size",
+                "isCorrect": false
+              },
+              {
+                "answerText": "error",
+                "isCorrect": true
+              },
+              {
+                "answerText": "nodes",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "To minimize the function of weights, you can use gradient descent",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": true
+              },
+              {
+                "answerText": "false",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "During gradient descent, each step updates the ___",
+            "answerOptions": [
+              {
+                "answerText": "learning rate",
+                "isCorrect": false
+              },
+              {
+                "answerText": "weights",
+                "isCorrect": true
+              },
+              {
+                "answerText": "gradient",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 112,
+        "title": "Segmentation: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "How many segmentation algorithm are there?",
+            "answerOptions": [
+              {
+                "answerText": "1",
+                "isCorrect": false
+              },
+              {
+                "answerText": "2",
+                "isCorrect": true
+              },
+              {
+                "answerText": "3",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Segmentation is a _____ task",
+            "answerOptions": [
+              {
+                "answerText": "computer vision",
+                "isCorrect": true
+              },
+              {
+                "answerText": "natural language processing",
+                "isCorrect": false
+              },
+              {
+                "answerText": "neural networks",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Segmentation networks consist of ____ and ____ parts",
+            "answerOptions": [
+              {
+                "answerText": "classifier, divider",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder, decoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "generator, discriminator",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "title": "Segmentation: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "____ extracts features from an input image",
+            "answerOptions": [
+              {
+                "answerText": "decoder",
+                "isCorrect": false
+              },
+              {
+                "answerText": "generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "____ transforms input features into mask image",
+            "answerOptions": [
+              {
+                "answerText": "decoder",
+                "isCorrect": true
+              },
+              {
+                "answerText": "generator",
+                "isCorrect": false
+              },
+              {
+                "answerText": "encoder",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "SegNet relies on ____ to train multi-layered network",
+            "answerOptions": [
+              {
+                "answerText": "batch normalization",
+                "isCorrect": true
+              },
+              {
+                "answerText": "height normalization",
+                "isCorrect": false
+              },
+              {
+                "answerText": "weight normalization",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

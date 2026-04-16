@@ -1,0 +1,119 @@
+[
+  {
+    "title": "AI for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 119,
+        "title": "Named Entity Recognition: Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "What does NER stands for?",
+            "answerOptions": [
+              {
+                "answerText": "Nearest Estimated Region",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Nearest Entity Region",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Named Entity Recognition",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "An entity always consists of one token",
+            "answerOptions": [
+              {
+                "answerText": "true",
+                "isCorrect": false
+              },
+              {
+                "answerText": "false",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "To train NER model, we need",
+            "answerOptions": [
+              {
+                "answerText": "Labeled dataset",
+                "isCorrect": true
+              },
+              {
+                "answerText": "Any natural text",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Translated texts in two languages",
+                "isCorrect": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 219,
+        "title": "Named Entity Recognition: Post Quiz",
+        "quiz": [
+          {
+            "questionText": "NER model is essentially a ____ model",
+            "answerOptions": [
+              {
+                "answerText": "text classification",
+                "isCorrect": false
+              },
+              {
+                "answerText": "token classification",
+                "isCorrect": true
+              },
+              {
+                "answerText": "text regression",
+                "isCorrect": false
+              }
+            ]
+          },
+          {
+            "questionText": "Which neural network types can be used for NER?",
+            "answerOptions": [
+              {
+                "answerText": "RNNs",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Transformers",
+                "isCorrect": false
+              },
+              {
+                "answerText": "Both RNNs and Transformers",
+                "isCorrect": true
+              }
+            ]
+          },
+          {
+            "questionText": "NER model is a good example of ____ network architecture",
+            "answerOptions": [
+              {
+                "answerText": "one-to-one",
+                "isCorrect": false
+              },
+              {
+                "answerText": "one-to-many",
+                "isCorrect": false
+              },
+              {
+                "answerText": "many-to-many",
+                "isCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
