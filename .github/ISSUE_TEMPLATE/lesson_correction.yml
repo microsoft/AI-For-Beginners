@@ -1,0 +1,25 @@
+name: "✍️ Lesson Correction / Typo"
+description: "Suggest corrections to spelling, broken links, or code errors in a lesson notebook"
+title: "[Correction]: "
+labels: ["bug", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our lessons! Please fill out the form below.
+  - type: input
+    id: lesson_name
+    attributes:
+      label: "Lesson Name or File Path"
+      description: "Which week, lesson, or notebook file path contains the error?"
+      placeholder: "e.g., lessons/2-NeuralNetworks/03-IntroPyTorch/README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: error_details
+    attributes:
+      label: "Correction Details"
+      description: "Describe what is incorrect and what the correct spelling or code should be."
+      placeholder: "The link to the PyTorch docs in section 3 is broken, it should point to..."
+    validations:
+      required: true
