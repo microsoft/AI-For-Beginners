@@ -1,0 +1,25 @@
+name: "🌐 Translation Feedback"
+description: "Suggest improvements or submit translations for a language"
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Target Language"
+      options:
+        - Spanish (ES)
+        - Chinese (ZH)
+        - Japanese (JA)
+        - Korean (KO)
+        - Arabic (AR)
+        - Other (please specify in details)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Specify the translation feedback, grammatical fixes, or new translation files you plan to submit."
+    validations:
+      required: true
