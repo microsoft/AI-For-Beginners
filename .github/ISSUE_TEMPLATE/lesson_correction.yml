@@ -12,7 +12,7 @@ body:
     attributes:
       label: "Lesson Name or File Path"
       description: "Which week, lesson, or notebook file path contains the error?"
-      placeholder: "e.g., lessons/2-NeuralNetworks/03-IntroPyTorch/README.md"
+      placeholder: "e.g., lessons/3-NeuralNetworks/03-Perceptron/README.md"
     validations:
       required: true
   - type: textarea
