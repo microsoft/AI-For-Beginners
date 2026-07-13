@@ -3,7 +3,7 @@ gym==0.26.2
 huggingface==0.0.1
 imageio==2.35.0
 keras==3.13.2
-nltk==3.9.4
+nltk==3.10.0
 pandas==2.2.2
 pillow==12.2.0
 pygame==2.6.0

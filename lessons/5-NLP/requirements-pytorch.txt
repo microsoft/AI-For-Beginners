@@ -1,7 +1,7 @@
 gensim>=4.3.0,<5
 huggingface==0.0.1
 matplotlib
-nltk==3.9.4
+nltk==3.10.0
 numpy==1.22.0
 opencv-python==4.5.1.48
 Pillow==12.2.0
