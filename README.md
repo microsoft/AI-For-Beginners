@@ -114,6 +114,8 @@ For a gentle introduction to _AI in the Cloud_ topics you may consider taking th
 | 23  |            [Multi-Agent Systems](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **AI Ethics** | | |
 | 24  |            [AI Ethics and Responsible AI](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Responsible AI Principles](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
+| VIII |            **AI Security** | | |
+| 25  |            [AI Security](./lessons/8-Security/README.md)             |           [Security Lab](./lessons/8-Security/security_lab.ipynb) | |
 | IX  |            **Extras** | | |
 | 25  |            [Multi-Modal Networks, CLIP and VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
