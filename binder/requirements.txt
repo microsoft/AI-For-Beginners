@@ -5,7 +5,7 @@ imageio==2.35.0
 keras==3.13.2
 nltk==3.10.0
 pandas==2.0.3
-pillow==12.2.0
+pillow==12.3.0
 pygame==2.6.0
 scikit-image==0.21.0
 seaborn==0.13.2
