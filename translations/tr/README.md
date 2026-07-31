@@ -117,7 +117,7 @@ _Cloud_ üzerindeki yapay zeka konularına nazik bir giriş için [Azure'da yapa
 | IX  |            **Ekstralar** | | |
 | 25  |            [Çok Modlu Ağlar, CLIP ve VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Defter](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
-## Her ders ne içerir?:
+## Her ders ne içerir?
 * Ön okuma materyali
 * Çoğunlukla framework’e özgü olan yürütülebilir Jupyter Notebooks (**PyTorch** veya **TensorFlow**). Yürütülebilir notebook ayrıca bol miktarda teorik materyal içerir, bu nedenle konuyu anlamak için en az bir notebook sürümünü (PyTorch veya TensorFlow) incelemeniz gerekir.
 * Bazı konular için **Lablar**, öğrendiğiniz materyali belirli bir probleme uygulama fırsatı sunar.
