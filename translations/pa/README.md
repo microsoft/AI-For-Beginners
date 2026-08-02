@@ -12,14 +12,13 @@
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-# ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਕృਤ੍ਰਿਮ ਬੁੱਧੀ - ਇੱਕ ਕੋਰਸ
+# AI ਸਿੱਖਣ ਵਾਲਿਆਂ ਲਈ ਸ਼ੁਰੂਆਤੀ ਪਾਠਕ੍ਰਮ
 
 |![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
 |:---:|
-| ਮੁਲਾਂਕਣ ਲਈ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ - _ਸਕੇਟਚਨੋਟ [@girlie_mac](https://twitter.com/girlie_mac) ਵਲੋਂ_ |
+| ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਬਾਰੇ ਸੰਖੇਪ ਜਾਣਕਾਰੀ - _ਸਕੇਟਚਨੋਟ [@girlie_mac](https://twitter.com/girlie_mac) ਵਲੋਂ_ |
 
-**ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ** ਦੇ ਸੰਸਾਰ ਨੂੰ ਪਤਾ ਲਗਾਓ 12-ਹਫ਼ਤਿਆਂ, 24-ਪਾਠਾਂ ਦੇ ਕੋਰਸ ਨਾਲ! ਇਸ ਵਿੱਚ ਕਾਰਗਰ ਪਾਠ, ਕਵੀਜ਼ ਅਤੇ ਲੈਬ ਸ਼ਾਮਲ ਹਨ। ਇਹ ਕੋਰਸ ਨਵੇਂ ਸਿੱਖਣ ਵਾਲਿਆਂ ਲਈ ਹੈ ਅਤੇ TensorFlow ਅਤੇ PyTorch ਵਰਗੇ ਟੂਲਾਂ ਦੇ ਨਾਲ ਨਾਲ AI ਵਿੱਚ ਨੈਤੀਕਤਾ ਨੂੰ ਵੀ ਕਵਰ ਕਰਦਾ ਹੈ।
-
+AI ਦੀ ਦੁਨੀਆ ਨੂੰ ਜਾਣੋ ਸਾਡੇ 12 ਹਫ਼ਤਿਆਂ ਅਤੇ 24 ਪਾਠਾਂ ਦੇ ਪਾਠਕ੍ਰਮ ਨਾਲ! ਇਸ ਪਾਠਕ੍ਰਮ ਵਿੱਚ ਵਿਹਾਰਕ ਪਾਠ, ਕਵਿਜ਼ ਅਤੇ ਲੈਬ ਸ਼ਾਮਲ ਹਨ। ਇਹ ਪਾਠਕ੍ਰਮ AI ਸਿੱਖਣਾ ਸ਼ੁਰੂ ਕਰਨ ਵਾਲਿਆਂ ਲਈ ਆਸਾਨ ਹੈ। ਇਸ ਵਿੱਚ TensorFlow ਅਤੇ PyTorch ਵਰਗੇ ਟੂਲਾਂ ਦੇ ਨਾਲ AI ਦੀ ਨੈਤਿਕਤਾ ਬਾਰੇ ਵੀ ਸਿਖਾਇਆ ਗਿਆ ਹੈ।
 
 ### 🌐 ਬਹੁ-ਭਾਸ਼ਾਈ ਸਮਰਥਨ
 
@@ -28,9 +27,9 @@
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](./README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ਆਪਣੇ ਸਿਸਟਮ ਤੇ ਕਲੋਨ ਕਰਨਾਨਾਂ ਹੈ?**
+> **ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਕੰਪਿਊਟਰ ਵਿੱਚ ਲੋਕਲ ਤੌਰ 'ਤੇ ਕਲੋਨ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?**
 >
-> ਇਹ ਰੇਪੋਜ਼ਿਟਰੀ 50+ ਭਾਸ਼ਾਈਆਂ ਦੇ ਅਨੁਵਾਦਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਦਾ ਹੈ ਜੋ ਡਾਊਨਲੋਡ ਸਾਈਜ਼ ਨੂੰ ਵੱਡਾ ਕਰਦਾ ਹੈ। ਬਿਨਾਂ ਅਨੁਵਾਦਾਂ ਦੇ ਕਲੋਨ ਕਰਨ ਲਈ sparse checkout ਦੀ ਵਰਤੋਂ ਕਰੋ:
+> ਇਸ ਰੇਪੋਜ਼ਿਟਰੀ ਵਿੱਚ 50 ਤੋਂ ਵੱਧ ਭਾਸ਼ਾਵਾਂ ਦੇ ਅਨੁਵਾਦ ਹਨ, ਜਿਸ ਕਰਕੇ ਇਸਦਾ ਡਾਊਨਲੋਡ ਸਾਈਜ਼ ਕਾਫ਼ੀ ਵੱਧ ਜਾਂਦਾ ਹੈ। ਜੇ ਤੁਹਾਨੂੰ ਅਨੁਵਾਦਾਂ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ, ਤਾਂ ਉਹਨਾਂ ਤੋਂ ਬਿਨਾਂ ਕਲੋਨ ਕਰਨ ਲਈ sparse checkout ਦੀ ਵਰਤੋਂ ਕਰੋ।
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -46,37 +45,44 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਲਈ ਸਾਰਾ ਸਮੱਗਰੀ ਬਹੁਤ ਤੇਜ਼ ਡਾਊਨਲੋਡ ਦੇ ਨਾਲ ਮਿਲ ਜਾਵੇਗਾ।
+> ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਲਈ ਲੋੜੀਂਦੀ ਸਾਰੀ ਸਮੱਗਰੀ ਤੇਜ਼ੀ ਨਾਲ ਡਾਊਨਲੋਡ ਹੋ ਜਾਵੇਗੀ।
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**ਜੇ ਤੁਸੀਂ ਹੋਰ ਅਨੁਵਾਦ ਭਾਸ਼ਾਵਾਂ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇਨ੍ਹਾਂ ਨੂੰ [ਇੱਥੇ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ਲਿਸਟ ਕੀਤਾ ਗਿਆ ਹੈ**
+**ਜੇ ਤੁਸੀਂ ਹੋਰ ਭਾਸ਼ਾਵਾਂ ਦੇ ਅਨੁਵਾਦ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਸਮਰਥਿਤ ਭਾਸ਼ਾਵਾਂ ਦੀ ਸੂਚੀ [ਇੱਥੇ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ਦਿੱਤੀ ਗਈ ਹੈ।**
 
 ## ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ
+
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 ## ਤੁਸੀਂ ਕੀ ਸਿੱਖੋਗੇ
 
-**[ਕੋਰਸ ਦਾ ਮਨ-ਨਕਸ਼ਾ](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[ਕੋਰਸ ਦਾ ਮਾਈਂਡ ਮੈਪ](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
 ਇਸ ਕੋਰਸ ਵਿੱਚ, ਤੁਸੀਂ ਸਿੱਖੋਗੇ:
 
-* ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਦੇ ਵੱਖ-ਵੱਖ ਤਰੀਕੇ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ "ਪੁਰਾਣਾ ਚੰਗਾ" ਪ੍ਰਤੀਕਾਤਮਕ ਤਰੀਕਾ ਹੈ ਜਿਸ ਵਿੱਚ **ਜਾਣਕਾਰੀ ਪ੍ਰਤੀਨਿਧਤਾ** ਅਤੇ ਤਰਕ ਸ਼ਾਮਲ ਹਨ ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence))।
-* **ਨਿュਰਲ ਨੈੱਟਵਰਕ** ਅਤੇ **ਡੀਪ ਲਰਨਿੰਗ**, ਜੋ ਆਧੁਨਿਕ AI ਦੇ ਮੁੱਖ ਹਨ। ਅਸੀਂ ਇਹ ਅਹੰਕਾਰ ਹੇਠਾਂ ਦੋ ਸਭ ਤੋਂ ਲੋਕਪ੍ਰਿਯ ਫਰੇਮਵਰਕਸ - [TensorFlow](http://Tensorflow.org) ਅਤੇ [PyTorch](http://pytorch.org) ਕੋਡ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਮਝਾਵਾਂਗੇ।
-* ਚਿੱਤਰਾਂ ਅਤੇ ਲਿਖਤਾਂ ਨਾਲ ਕੰਮ ਕਰਨ ਲਈ **ਨਯूरਲ ਆਰਕੀਟੈਕਚਰਜ਼**। ਅਸੀਂ ਤਾਜ਼ਾ ਮੌਡਲ ਕਵਰ ਕਰਾਂਗੇ ਪਰ ਸ਼ਾਇਦ ਸਟੇਟ-ਆਫ-ਦ-ਆਰਟ ਵਿੱਚ ਥੋੜ੍ਹਾ ਘਟ ਹੋਵੇ।
-* ਘੱਟ ਪ੍ਰਚਲਿਤ AI ਤਰੀਕੇ, ਜਿਵੇਂ ਕਿ **ਜਨੀਟੀਕ ਅਲਗੋਰਿਦਮ** ਅਤੇ **ਮਲਟੀ-ਏਜੰਟ ਸਿਸਟਮ**।
+* ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਦੇ ਵੱਖ-ਵੱਖ ਤਰੀਕਿਆਂ ਬਾਰੇ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ Knowledge Representation ਅਤੇ ਤਰਕ (Reasoning) 'ਤੇ ਆਧਾਰਿਤ ਰਵਾਇਤੀ ਪ੍ਰਤੀਕਾਤਮਕ ਤਰੀਕਾ ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)) ਵੀ ਸ਼ਾਮਲ ਹੈ।
 
-ਇਸ ਕੋਰਸ ਵਿੱਚ ਅਸੀਂ ਕਵਰੇਜ ਨਹੀਂ ਕਰਾਂਗੇ:
+* **ਨਿਊਰਲ ਨੈੱਟਵਰਕ** ਅਤੇ **ਡੀਪ ਲਰਨਿੰਗ**, ਜੋ ਆਧੁਨਿਕ AI ਦਾ ਅਹਿਮ ਹਿੱਸਾ ਹਨ। ਅਸੀਂ ਇਹਨਾਂ ਮਹੱਤਵਪੂਰਨ ਵਿਸ਼ਿਆਂ ਦੇ ਮੁੱਖ ਸਿਧਾਂਤ [TensorFlow](http://Tensorflow.org) ਅਤੇ [PyTorch](http://pytorch.org) ਵਰਗੇ ਦੋ ਸਭ ਤੋਂ ਲੋਕਪ੍ਰਿਯ ਫਰੇਮਵਰਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕੋਡ ਰਾਹੀਂ ਸਮਝਾਵਾਂਗੇ।
+* ਤਸਵੀਰਾਂ ਅਤੇ ਟੈਕਸਟ ਨਾਲ ਕੰਮ ਕਰਨ ਵਾਲੀਆਂ **ਨਿਊਰਲ ਆਰਕੀਟੈਕਚਰਾਂ**। ਅਸੀਂ ਨਵੇਂ ਮਾਡਲਾਂ ਬਾਰੇ ਸਿੱਖਾਂਗੇ, ਪਰ ਸਭ ਤੋਂ ਨਵੇਂ (state-of-the-art) ਮਾਡਲ ਸ਼ਾਇਦ ਸ਼ਾਮਲ ਨਾ ਹੋਣ।
+* ਘੱਟ ਵਰਤੇ ਜਾਣ ਵਾਲੇ AI ਤਰੀਕੇ, ਜਿਵੇਂ ਕਿ **Genetic Algorithms** ਅਤੇ **Multi-Agent Systems**।
 
-> [ਇਸ ਕੋਰਸ ਲਈ ਸਾਰੇ ਵਾਧੂ ਸਰੋਤਾਂ ਨੂੰ ਸਾਡੇ Microsoft Learn ਸੰਗ੍ਰਹਿ ਵਿੱਚ ਖੋਜੋ](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+ਇਸ ਪਾਠਕ੍ਰਮ ਵਿੱਚ ਅਸੀਂ ਹੇਠਾਂ ਦਿੱਤੇ ਵਿਸ਼ਿਆਂ ਬਾਰੇ ਚਰਚਾ ਨਹੀਂ ਕਰਾਂਗੇ:
 
-* ਕਾਰੋਬਾਰੀ ਮਾਮਲੇ ਜਿੱਥੇ **ਬਿਜ਼ਨਸ ਵਿੱਚ AI** ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਇਸ ਲਈ Microsoft Learn ਉੱਤੇ [Introduction to AI for business users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਜਾਂ [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), ਜੋ ਕਿ [INSEAD](https://www.insead.edu/) ਨਾਲ ਸਹਿਯੋਗ ਵਿੱਚ ਵਿਕਸਿਤ ਕੀਤਾ ਗਿਆ ਹੈ, ਲੈ ਸਕਦੇ ਹੋ।
-* **ਕਲਾਸਿਕ ਮਸ਼ੀਨ ਲਰਨਿੰਗ**, ਜੋ ਸਾਡੇ [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners) ਵਿੱਚ ਚੰਗੀ ਤਰ੍ਹਾਂ ਵਰਣਿਤ ਹੈ।
-* **[ਕੌਗਨਿਟਿਵ ਸਰਵਿਸਿਜ਼](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ਦੀ ਵਰਤੋਂ ਕਰ ਕੇ ਬਣਾਈਆਂ ਗਿਆ ਜਨਮੂਲਕ AI ਐਪਲੀਕੇਸ਼ਨਾਂ। ਇਸ ਲਈ ਅਸੀਂ Microsoft Learn ਦੇ ਮੌਡੀਊਲਾਂ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰਨ ਦੀ ਸਿਫਾਰਿਸ਼ ਕਰਦੇ ਹਾਂ ਜਿਵੇਂ ਕਿ [ਦ੍ਰਿਸ਼ਟੀ](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਪ੍ਰੋਸੈਸਿੰਗ](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Azure OpenAI ਸਰਵਿਸ ਨਾਲ ਜਨਰੇਟਿਵ AI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ਅਤੇ ਹੋਰ।
-* ਵਿਸ਼ੇਸ਼ ML **ਕਲਾਊਡ ਫਰੇਮਵਰਕਸ**, ਜਿਵੇਂ ਕਿ [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), ਜਾਂ [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)। [Azure Machine Learning ਨਾਲ ਮਸ਼ੀਨ ਲਰਨਿੰਗ 솔ੂਸ਼ਨ ਬਣਾਓ ਅਤੇ ਚਲਾਓ](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ਅਤੇ [Azure Databricks ਨਾਲ ਮਸ਼ੀਨ ਲਰਨਿੰਗ 솔ੂਸ਼ਨ ਬਣਾਓ ਅਤੇ ਚਲਾਓ](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
-* **ਗੱਲਬਾਤੀ AI** ਅਤੇ **ਚੈਟ ਬੋਟਸ**। ਇੱਕ ਵੱਖਰਾ [ਗੱਲਬਾਤੀ AI 솔ੂਸ਼ਨ ਬਣਾਓ](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਹੈ, ਅਤੇ ਤੁਸੀਂ ਹੋਰ ਵਿਸਥਾਰ ਲਈ [ਇਸ ਬਲੌਗ ਪੋਸਟ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) ਨੂੰ ਵੀ ਵੇਖ ਸਕਦੇ ਹੋ।
-* ਡੀਪ ਲਰਨਿੰਗ ਦੇ ਪਿੱਛੇ **ਗੰਭੀਰ ਗਣਿਤ**। ਇਸ ਲਈ ਅਸੀਂ Ian Goodfellow, Yoshua Bengio ਅਤੇ Aaron Courville ਦੀ [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) ਕਿਤਾਬ ਸਿਫਾਰਸ਼ ਕਰਾਂਗੇ, ਜੋ [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) ਤੇ ਵੀ ਉਪਲਬਧ ਹੈ।
+> [ਇਸ ਕੋਰਸ ਲਈ ਸਾਰੇ ਵਾਧੂ ਸਰੋਤ Microsoft Learn ਦੇ ਇਸ ਸੰਗ੍ਰਹਿ ਵਿੱਚ ਉਪਲਬਧ ਹਨ।](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-_ਕਲਾਊਡ ਵਿੱਚ AI_ ਟੌਪਿਕਾਂ ਲਈ ਤੁਸੀਂ [Azure ਤੇ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਨਾਲ ਮੁਕਾਮ ਹਾਸਲ ਕਰੋ](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਵੀ ਲੈ ਸਕਦੇ ਹੋ।
+* ਕਾਰੋਬਾਰ ਵਿੱਚ AI ਦੀ ਵਰਤੋਂ ਬਾਰੇ ਹੋਰ ਜਾਣਨ ਲਈ Microsoft Learn ਉੱਤੇ [Introduction to AI for Business Users](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਜਾਂ [AI Business School](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), ਜੋ [INSEAD](https://www.insead.edu/) ਦੇ ਸਹਿਯੋਗ ਨਾਲ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ, ਵੇਖ ਸਕਦੇ ਹੋ।
+
+* **ਕਲਾਸਿਕ ਮਸ਼ੀਨ ਲਰਨਿੰਗ**, ਜੋ ਸਾਡੇ [Machine Learning for Beginners Curriculum](http://github.com/Microsoft/ML-for-Beginners) ਵਿੱਚ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਮਝਾਈ ਗਈ ਹੈ।
+
+* **[ਕੌਗਨਿਟਿਵ ਸਰਵਿਸਿਜ਼](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)** ਦੀ ਵਰਤੋਂ ਨਾਲ ਬਣਾਈਆਂ ਗਈਆਂ AI ਐਪਲੀਕੇਸ਼ਨਾਂ। ਇਸ ਲਈ ਅਸੀਂ Microsoft Learn ਦੇ [ਦ੍ਰਿਸ਼ਟੀ](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਪ੍ਰੋਸੈਸਿੰਗ](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[Azure OpenAI ਸਰਵਿਸ ਨਾਲ ਜਨਰੇਟਿਵ AI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** ਅਤੇ ਹੋਰ ਮੋਡੀਊਲਾਂ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰਨ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੇ ਹਾਂ।
+
+* ਖ਼ਾਸ ML **ਕਲਾਊਡ ਫਰੇਮਵਰਕ**, ਜਿਵੇਂ ਕਿ [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), ਜਾਂ [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum)। ਇਸ ਲਈ [Azure Machine Learning ਨਾਲ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਹੱਲ ਬਣਾਓ ਅਤੇ ਚਲਾਓ](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) ਅਤੇ [Azure Databricks ਨਾਲ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਹੱਲ ਬਣਾਓ ਅਤੇ ਚਲਾਓ](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+
+* **ਗੱਲਬਾਤੀ AI** ਅਤੇ **ਚੈਟ ਬੋਟਸ**। ਇਸ ਲਈ ਇੱਕ ਵੱਖਰਾ [ਗੱਲਬਾਤੀ AI ਹੱਲ ਬਣਾਓ](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਉਪਲਬਧ ਹੈ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਤੁਸੀਂ [ਇਹ ਬਲੌਗ ਪੋਸਟ](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) ਵੀ ਵੇਖ ਸਕਦੇ ਹੋ।
+
+* ਡੀਪ ਲਰਨਿੰਗ ਦੇ ਪਿੱਛੇ ਦਾ **ਉੱਚ ਪੱਧਰੀ ਗਣਿਤ**। ਇਸ ਲਈ ਅਸੀਂ Ian Goodfellow, Yoshua Bengio ਅਤੇ Aaron Courville ਦੀ [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) ਕਿਤਾਬ ਪੜ੍ਹਨ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰਦੇ ਹਾਂ, ਜੋ [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/) 'ਤੇ ਵੀ ਪੜ੍ਹੀ ਜਾ ਸਕਦੀ ਹੈ।
+
+_ਕਲਾਊਡ ਵਿੱਚ AI_ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰਨ ਲਈ ਤੁਸੀਂ [Azure ਤੇ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum) ਲਰਨਿੰਗ ਪਾਥ ਵੇਖ ਸਕਦੇ ਹੋ।
 
 # ਸਮੱਗਰੀ
 
