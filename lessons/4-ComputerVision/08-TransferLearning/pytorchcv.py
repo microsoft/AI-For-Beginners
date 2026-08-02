@@ -134,7 +134,7 @@ def check_image(fn):
         im = Image.open(fn)
         im.verify()
         return True
-    except:
+    except Exception:
         return False
     
 def check_image_dir(path):
