@@ -59,7 +59,7 @@ Si vous souhaitez apprendre le TLN d’un point de vue classique du ML, visitez 
 Dans cette section, nous apprendrons à propos de :
 
 * [Représentation du texte sous forme de tenseurs](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Modélisation du langage](15-LanguageModeling/README.md)
 * [Réseaux de neurones récurrents](16-RNN/README.md)
 * [Réseaux génératifs](17-GenerativeNetworks/README.md)

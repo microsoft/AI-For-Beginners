@@ -59,7 +59,7 @@ Nếu bạn quan tâm đến việc học NLP từ góc nhìn ML cổ điển, h
 Trong phần này chúng ta sẽ học về:
 
 * [Biểu diễn văn bản dưới dạng tensor](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Mô hình Ngôn ngữ](15-LanguageModeling/README.md)
 * [Mạng Nơ-ron Hồi tiếp](16-RNN/README.md)
 * [Mạng Sinh tạo](17-GenerativeNetworks/README.md)

@@ -59,7 +59,7 @@ Als je geïnteresseerd bent in NLP leren vanuit een klassiek ML-perspectief, bez
 In deze sectie leren we over:
 
 * [Tekst representeren als tensors](13-TextRep/README.md)
-* [Woorden-embedding](14-Emdeddings/README.md)
+* [Woorden-embedding](14-Embeddings/README.md)
 * [Taalmodellering](15-LanguageModeling/README.md)
 * [Recurrente neurale netwerken](16-RNN/README.md)
 * [Generatieve netwerken](17-GenerativeNetworks/README.md)

@@ -59,7 +59,7 @@ If you want learn NLP from classic ML side, check [this suite of lessons](https:
 For this section, we go learn about:
 
 * [How to represent text as tensors](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Language Modeling](15-LanguageModeling/README.md)
 * [Recurrent Neural Networks](16-RNN/README.md)
 * [Generative Networks](17-GenerativeNetworks/README.md)

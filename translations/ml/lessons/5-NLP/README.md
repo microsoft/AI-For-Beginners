@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ഈ വിഭാഗത്തിൽ നാം പഠിക്കാനിരിക്കുന്നത്:
 
 * [ടെക്സ്റ്റ് ടെൻസറുകളായി പ്രതിപാദിക്കൽ](13-TextRep/README.md)
-* [വാക്ക് എംബെഡ്ഡിംഗ്സ്](14-Emdeddings/README.md)
+* [വാക്ക് എംബെഡ്ഡിംഗ്സ്](14-Embeddings/README.md)
 * [ഭാഷാ മോഡലിംഗ്](15-LanguageModeling/README.md)
 * [റികറന്റ് ന്യൂറൽ നെറ്റ്വർക്‌സ്](16-RNN/README.md)
 * [ജനറേറ്റീവ് നെറ്റ്‌വർക്കുകൾ](17-GenerativeNetworks/README.md)

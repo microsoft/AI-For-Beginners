@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 اس سیکشن میں ہم سیکھیں گے:
 
 * [متن کو ٹینسرز کے طور پر پیش کرنا](13-TextRep/README.md)
-* [ورڈ ایمبیڈنگز](14-Emdeddings/README.md)
+* [ورڈ ایمبیڈنگز](14-Embeddings/README.md)
 * [لینگویج ماڈلنگ](15-LanguageModeling/README.md)
 * [ریکرنٹ نیورل نیٹ ورکس](16-RNN/README.md)
 * [جنریٹو نیٹ ورکس](17-GenerativeNetworks/README.md)

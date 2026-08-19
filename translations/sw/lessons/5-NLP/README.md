@@ -59,7 +59,7 @@ Ikiwa unavutiwa na kujifunza kuhusu NLP kutoka kwa mtazamo wa ML wa jadi, tembel
 Katika sehemu hii tutajifunza kuhusu:
 
 * [Kuonyesha maandishi kama tensors](13-TextRep/README.md)
-* [Uingiliano wa Maneno](14-Emdeddings/README.md)
+* [Uingiliano wa Maneno](14-Embeddings/README.md)
 * [Mifano ya Lugha](15-LanguageModeling/README.md)
 * [Mitandao ya Neva Inayorudia](16-RNN/README.md)
 * [Mitandao Inazozalisha](17-GenerativeNetworks/README.md)

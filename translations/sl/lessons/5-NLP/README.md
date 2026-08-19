@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 V tem poglavju se bomo naučili o:
 
 * [Predstavljanje besedila kot tenzorji](13-TextRep/README.md)
-* [Vgradnje besed (Word Embeddings)](14-Emdeddings/README.md)
+* [Vgradnje besed (Word Embeddings)](14-Embeddings/README.md)
 * [Jezikovno modeliranje](15-LanguageModeling/README.md)
 * [Rekurentne nevronske mreže](16-RNN/README.md)
 * [Generativne mreže](17-GenerativeNetworks/README.md)

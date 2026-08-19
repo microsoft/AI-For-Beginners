@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 এই অংশে আমরা শিখব:
 
 * [টেক্সটকে টেনসর হিসেবে উপস্থাপন](13-TextRep/README.md)
-* [ওয়ার্ড এম্বেডিংস](14-Emdeddings/README.md)
+* [ওয়ার্ড এম্বেডিংস](14-Embeddings/README.md)
 * [ভাষা মডেলিং](15-LanguageModeling/README.md)
 * [রিকারেন্ট নিউরাল নেটওয়ার্ক](16-RNN/README.md)
 * [জেনারেটিভ নেটওয়ার্ক](17-GenerativeNetworks/README.md)

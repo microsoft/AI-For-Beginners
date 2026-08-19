@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 في هذا القسم سنتعلم عن:
 
 * [تمثيل النصوص كمصفوفات](13-TextRep/README.md)
-* [تضمين الكلمات](14-Emdeddings/README.md)
+* [تضمين الكلمات](14-Embeddings/README.md)
 * [نمذجة اللغة](15-LanguageModeling/README.md)
 * [الشبكات العصبية العودية](16-RNN/README.md)
 * [الشبكات التوليدية](17-GenerativeNetworks/README.md)

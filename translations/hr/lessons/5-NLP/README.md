@@ -59,7 +59,7 @@ Ako ste zainteresirani za učenje o NLP-u iz klasične perspektive strojnog uče
 U ovom odjeljku naučit ćemo o:
 
 * [Predstavljanje teksta kao tenzora](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Modeliranje jezika](15-LanguageModeling/README.md)
 * [Rekurentne neuronske mreže](16-RNN/README.md)
 * [Generativne mreže](17-GenerativeNetworks/README.md)

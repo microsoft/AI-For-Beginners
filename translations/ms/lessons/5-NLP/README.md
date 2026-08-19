@@ -59,7 +59,7 @@ Jika anda berminat untuk belajar tentang NLP dari perspektif ML klasik, lawati [
 Dalam bahagian ini kita akan belajar tentang:
 
 * [Mewakili teks sebagai tensor](13-TextRep/README.md)
-* [Penggantungan Perkataan](14-Emdeddings/README.md)
+* [Penggantungan Perkataan](14-Embeddings/README.md)
 * [Pemodelan Bahasa](15-LanguageModeling/README.md)
 * [Rangkaian Neural Berulang](16-RNN/README.md)
 * [Rangkaian Generatif](17-GenerativeNetworks/README.md)

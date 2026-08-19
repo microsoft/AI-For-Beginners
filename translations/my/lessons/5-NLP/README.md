@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ဒီအပိုင်းမှာ ကျွန်တော်တို့ သင်ကြားသွားမယ့် အကြောင်းများမှာ -
 
 * [စာသားကို tensor အဖြစ် ကိုယ်စားပြုခြင်း](13-TextRep/README.md)
-* [စကားလုံးထည့်သွင်းခြင်း](14-Emdeddings/README.md)
+* [စကားလုံးထည့်သွင်းခြင်း](14-Embeddings/README.md)
 * [ဘာသာစကားပုံစံဖန်တီးခြင်း](15-LanguageModeling/README.md)
 * [ကျန်ကြွယ်လာသော နယူးရယ်နက်ရွက်များ](16-RNN/README.md)
 * [ဖန်တီးရေးကွန်ယက်များ](17-GenerativeNetworks/README.md)

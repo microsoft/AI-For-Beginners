@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 Σε αυτήν την ενότητα θα μάθουμε για:
 
 * [Αναπαράσταση κειμένου ως τάνσορες](13-TextRep/README.md)
-* [Ενσωματώσεις λέξεων](14-Emdeddings/README.md)
+* [Ενσωματώσεις λέξεων](14-Embeddings/README.md)
 * [Μοντελοποίηση γλώσσας](15-LanguageModeling/README.md)
 * [Επαναλαμβανόμενα νευρωνικά δίκτυα](16-RNN/README.md)
 * [Γενετικά δίκτυα](17-GenerativeNetworks/README.md)

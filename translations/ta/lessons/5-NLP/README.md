@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 இந்தப் பிரிவில் நாங்கள் கற்கப்போகும் விஷயங்கள்:
 
 * [உரை துணைப்பொருள்களாக (tensors) பிரதிநிதிக்கும்](13-TextRep/README.md)
-* [வார்த்தை கையிருப்புக்கள்](14-Emdeddings/README.md)
+* [வார்த்தை கையிருப்புக்கள்](14-Embeddings/README.md)
 * [மொழிமுறை மாதிரிப்பாக்கம்](15-LanguageModeling/README.md)
 * [திரும்பி செயல்படும் நியூரல் நெட்வொர்க்குகள்](16-RNN/README.md)
 * [உருவாக்கும் நெட்வொர்க்குகள்](17-GenerativeNetworks/README.md)

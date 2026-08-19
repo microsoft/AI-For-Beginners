@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 У цьому розділі ми вивчимо:
 
 * [Подання тексту у вигляді тензорів](13-TextRep/README.md)
-* [Векторне подання слів (Word Embeddings)](14-Emdeddings/README.md)
+* [Векторне подання слів (Word Embeddings)](14-Embeddings/README.md)
 * [Моделювання мови](15-LanguageModeling/README.md)
 * [Рекурентні нейронні мережі](16-RNN/README.md)
 * [Генеративні мережі](17-GenerativeNetworks/README.md)

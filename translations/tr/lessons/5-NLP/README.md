@@ -59,7 +59,7 @@ Klasik ML bakış açısından NLP öğrenmek isterseniz, [bu ders setini](https
 Bu bölümde şunları öğreneceğiz:
 
 * [Metni tensörler olarak temsil etme](13-TextRep/README.md)
-* [Kelime Gömme](14-Emdeddings/README.md)
+* [Kelime Gömme](14-Embeddings/README.md)
 * [Dil Modellemesi](15-LanguageModeling/README.md)
 * [Geri Dönüşümlü Sinir Ağları](16-RNN/README.md)
 * [Üretici Ağlar](17-GenerativeNetworks/README.md)

@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 이 섹션에서는 다음 내용을 배울 것입니다:  
 
 * [텍스트를 텐서로 표현하기](13-TextRep/README.md)  
-* [단어 임베딩](14-Emdeddings/README.md)  
+* [단어 임베딩](14-Embeddings/README.md)  
 * [언어 모델링](15-LanguageModeling/README.md)  
 * [순환 신경망](16-RNN/README.md)  
 * [생성 네트워크](17-GenerativeNetworks/README.md)  

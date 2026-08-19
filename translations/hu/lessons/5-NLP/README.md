@@ -59,7 +59,7 @@ Ha érdekel az NLP klasszikus gépi tanulási nézőpontból, látogasd meg [ezt
 Ebben a szakaszban az alábbiakat tanuljuk meg:
 
 * [Szöveg reprezentálása tenzorokként](13-TextRep/README.md)
-* [Szóbeágyazások](14-Emdeddings/README.md)
+* [Szóbeágyazások](14-Embeddings/README.md)
 * [Nyelvmodellezés](15-LanguageModeling/README.md)
 * [Rekurzív neurális hálózatok](16-RNN/README.md)
 * [Generatív hálózatok](17-GenerativeNetworks/README.md)
