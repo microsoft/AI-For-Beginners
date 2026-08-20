@@ -15,6 +15,36 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
+> **Windows 注意事项**：如果创建环境时在安装 `gdk-pixbuf` 阶段失败，并出现提及 `gbk` 编码的 `UnicodeDecodeError`，请在您使用的终端中启用 Python UTF-8 模式，然后重试。请根据终端类型使用相应的语法：
+>
+> **PowerShell：**
+>
+> ```powershell
+> $env:PYTHONUTF8 = "1"
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **命令提示符（`cmd.exe`）或 Anaconda Prompt：**
+>
+> ```cmd
+> set PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Bash（包括 Git Bash）：**
+>
+> ```bash
+> export PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> 如果失败的尝试留下了 `ai4beg` 环境，请先停用并删除该课程环境，然后再重试。如果当前已激活某个环境，请先运行 `conda deactivate`：
+>
+> ```text
+> conda deactivate
+> conda env remove --name ai4beg
+> ```
+
 ### 使用带 Python 扩展的 Visual Studio Code
 
 在 [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) 中打开本课程并安装 [Python 扩展](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste)，是使用本课程的最佳方式。

@@ -15,6 +15,36 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
+> **Windows note**: If environment creation fails while installing `gdk-pixbuf` with a `UnicodeDecodeError` that mentions the `gbk` codec, enable Python's UTF-8 mode in your terminal and retry. Use the syntax for the terminal you are using:
+>
+> **PowerShell:**
+>
+> ```powershell
+> $env:PYTHONUTF8 = "1"
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Command Prompt (`cmd.exe`) or Anaconda Prompt:**
+>
+> ```cmd
+> set PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Bash, including Git Bash:**
+>
+> ```bash
+> export PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> If a failed attempt left the `ai4beg` environment behind, deactivate it and remove that environment before retrying. Use `conda deactivate` first when an environment is active:
+>
+> ```text
+> conda deactivate
+> conda env remove --name ai4beg
+> ```
+
 ### Using Visual Studio Code with Python Extension
 
 This curriculum is best used when opening it in [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) with [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
