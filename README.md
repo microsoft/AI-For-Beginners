@@ -166,8 +166,7 @@ Do you have suggestions or found spelling or code errors? Raise an issue or crea
 
 ## Special Thanks
 
-* **✍️ Primary Author:** [Dmitry Soshnikov](http://soshnikov.com), PhD
-* **🔥 Editor:** [Jen Looper](https://twitter.com/jenlooper), PhD
+* **✍️ Primary Author & 🔥 Editor:** Dr. Shashank Chaudhary, PhD
 * **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
 * **✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
 * **🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks)
