@@ -167,9 +167,7 @@ Do you have suggestions or found spelling or code errors? Raise an issue or crea
 ## Special Thanks
 
 * **✍️ Primary Author & 🔥 Editor:** Dr. Shashank Chaudhary, PhD
-* **🎨 Sketchnote illustrator:** [Tomomi Imura](https://twitter.com/girlie_mac)
-* **✅ Quiz Creator:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
-* **🙏 Core Contributors:** [Evgenii Pishchik](https://github.com/Pe4enIks)
+
 
 ## Other Curricula
 
