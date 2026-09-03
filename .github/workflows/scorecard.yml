@@ -10,9 +10,9 @@ on:
   # To guarantee Maintained check is occasionally updated. See
   # https://github.com/ossf/scorecard/blob/main/docs/checks.md#maintained
   schedule:
-    - cron: '44 15 * * 5'
+    - cron: "44 15 * * 5"
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 # Declare default permissions as read only.
 permissions: read-all
@@ -32,7 +32,7 @@ jobs:
 
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        uses: actions/checkout@v4 # v6.0.0
         with:
           persist-credentials: false
 
@@ -45,7 +45,7 @@ jobs:
           # - you want to enable the Branch-Protection check on a *public* repository, or
           # - you are installing Scorecard on a *private* repository
           # To create the PAT, follow the steps in https://github.com/ossf/scorecard-action?tab=readme-ov-file#authentication-with-fine-grained-pat-optional.
-          # repo_token: ${{ secrets.SCORECARD_TOKEN }}
+          repo_token: ${{ secrets.SCORECARD_TOKEN }}
 
           # Public repositories:
           #   - Publish results to OpenSSF REST API for easy access by consumers
@@ -59,9 +59,9 @@ jobs:
       # Upload the results as artifacts (optional). Commenting out will disable uploads of run results in SARIF
       # format to the repository Actions tab.
       - name: "Upload artifact"
-        uses: actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db # v3.pre.node20
+        uses: actions/upload-artifact@v4
         with:
-          name: SARIF file
+          name: results-sarif
           path: results.sarif
           retention-days: 5
 
@@ -71,3 +71,20 @@ jobs:
         uses: github/codeql-action/upload-sarif@1b1aada464948af03b950897e5eb522f92603cc2 # v3.24.9
         with:
           sarif_file: results.sarif
+
+  inspect-sarif:
+    name: Inspect SARIF artifact
+    needs: analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Download SARIF artifact"
+        uses: actions/download-artifact@v4
+        with:
+          name: results-sarif
+
+      - name: "List SARIF file"
+        run: |
+          echo "Downloaded files:"
+          ls -la || true
+          echo "If results-sarif/results.sarif is present, show basic info:"
+          file results-sarif/results.sarif || true

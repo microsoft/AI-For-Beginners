@@ -16,11 +16,20 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
-    "@vue/cli-service": "~5.0.8",
+    "@vue/cli-service": "~5.0.9",
     "babel-eslint": "^10.1.0",
     "eslint": "^9.33.0",
     "eslint-plugin-vue": "^10.4.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "overrides": {
+    "postcss": "8.5.12",
+    "@vue/vue-loader-v15": {
+      "loader-utils": "1.4.2"
+    },
+    "vue-style-loader": {
+      "loader-utils": "1.4.2"
+    }
   },
   "eslintConfig": {
     "root": true,

@@ -1,13 +1,13 @@
 gensim==3.8.3
 huggingface==0.0.1
 matplotlib
-nltk==3.10.0
+nltk==3.10.3
 numpy==1.22.0
-opencv-python==4.5.1.48
+opencv-python==4.8.1.78
 Pillow==12.2.0
 scikit-learn
 scipy
 TensorFlow
 TensorFlow_datasets
 TensorFlow_text
-transformers==5.5.0
+transformers==5.10.1
