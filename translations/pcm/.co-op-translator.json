@@ -23,19 +23,6 @@
     "source_file": "SECURITY.md",
     "language_code": "pcm"
   },
-  "__translation_failures__": {
-    "lessons/sketchnotes/LICENSE.md": {
-      "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-      "source_file": "lessons/sketchnotes/LICENSE.md",
-      "language_code": "pcm",
-      "failure_date": "2026-07-15T22:25:57+00:00",
-      "status": "failed",
-      "error_type": "TranslationIncompleteError",
-      "error_message": "Markdown translation remained incomplete for chunk 1.1.1 of 'LICENSE.md', and the chunk could not be split further.",
-      "translator_version": "0.20.0",
-      "failure_policy_version": 1
-    }
-  },
   "etc/CODE_OF_CONDUCT.md": {
     "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
     "translation_date": "2025-11-18T18:53:53+00:00",
@@ -410,7 +397,7 @@
   },
   "lessons/sketchnotes/LICENSE.md": {
     "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-    "translation_date": "2025-11-18T18:24:31+00:00",
+    "translation_date": "2026-09-04T15:10:24+00:00",
     "source_file": "lessons/sketchnotes/LICENSE.md",
     "language_code": "pcm"
   },
