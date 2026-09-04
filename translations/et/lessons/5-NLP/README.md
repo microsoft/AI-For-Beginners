@@ -59,7 +59,7 @@ Kui soovite õppida NLP-d klassikalisest masinõppe vaatenurgast, vaadake [seda 
 Selles peatükis õpime:
 
 * [Teksti esitamine tensoritena](13-TextRep/README.md)
-* [Sõnade embedid](14-Emdeddings/README.md)
+* [Sõnade embedid](14-Embeddings/README.md)
 * [Keelemudelid](15-LanguageModeling/README.md)
 * [Rekursiivsed närvivõrgud](16-RNN/README.md)
 * [Generatiivvõrgud](17-GenerativeNetworks/README.md)

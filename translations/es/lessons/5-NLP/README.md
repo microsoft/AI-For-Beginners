@@ -59,7 +59,7 @@ Si te interesa aprender sobre PLN desde una perspectiva clásica de ML, visita [
 En esta sección aprenderemos sobre:
 
 * [Representar texto como tensores](13-TextRep/README.md)
-* [Representaciones de palabras (Word Embeddings)](14-Emdeddings/README.md)
+* [Representaciones de palabras (Word Embeddings)](14-Embeddings/README.md)
 * [Modelado de lenguaje](15-LanguageModeling/README.md)
 * [Redes neuronales recurrentes](16-RNN/README.md)
 * [Redes generativas](17-GenerativeNetworks/README.md)

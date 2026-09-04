@@ -59,7 +59,7 @@ Pokud máte zájem učit se o NLP z klasické perspektivy strojového učení, n
 V této sekci se naučíme o:
 
 * [Reprezentaci textu jako tenzorů](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Jazykovém modelování](15-LanguageModeling/README.md)
 * [Rekurentních neuronových sítích](16-RNN/README.md)
 * [Generativních sítích](17-GenerativeNetworks/README.md)

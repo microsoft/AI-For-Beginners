@@ -59,7 +59,7 @@ Kung interesado kang matuto tungkol sa NLP mula sa klasikal na pananaw ng ML, bi
 Sa seksyong ito ay matututuhan natin ang tungkol sa:
 
 * [Pagre-representa ng teksto bilang mga tensor](13-TextRep/README.md)
-* [Mga Word Embeddings](14-Emdeddings/README.md)
+* [Mga Word Embeddings](14-Embeddings/README.md)
 * [Pagmomodelo ng Wika](15-LanguageModeling/README.md)
 * [Mga Recurrent Neural Network](16-RNN/README.md)
 * [Mga Generative Network](17-GenerativeNetworks/README.md)

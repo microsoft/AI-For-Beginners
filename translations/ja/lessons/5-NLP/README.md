@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 このセクションでは以下のことを学びます：
 
 * [テキストをテンソルとして表現する](13-TextRep/README.md)
-* [単語埋め込み](14-Emdeddings/README.md)
+* [単語埋め込み](14-Embeddings/README.md)
 * [言語モデル](15-LanguageModeling/README.md)
 * [リカレントニューラルネットワーク](16-RNN/README.md)
 * [生成モデル](17-GenerativeNetworks/README.md)

@@ -68,7 +68,7 @@ If you're interested in learning NLP from a traditional machine learning perspec
 In this section, we will cover:
 
 * [Representing text as tensors](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Language Modeling](15-LanguageModeling/README.md)
 * [Recurrent Neural Networks](16-RNN/README.md)
 * [Generative Networks](17-GenerativeNetworks/README.md)

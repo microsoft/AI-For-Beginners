@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ਇਸ ਭਾਗ ਵਿੱਚ ਅਸੀਂ ਸਿਖਾਂਗੇ:
 
 * [ਟੈਕਸਟ ਨੂੰ ਟੈਂਸਰ ਵਜੋਂ ਪ੍ਰਤੀਨਿਧਿਤ ਕਰਨਾ](13-TextRep/README.md)
-* [ਸ਼ਬਦ ਐਂਬੈੱਡਿੰਗਜ਼](14-Emdeddings/README.md)
+* [ਸ਼ਬਦ ਐਂਬੈੱਡਿੰਗਜ਼](14-Embeddings/README.md)
 * [ਭਾਸ਼ਾ ਮਾਡਲਿੰਗ](15-LanguageModeling/README.md)
 * [ਰਿਕਰਨਟ ਨਿਊਰਲ ਨੈੱਟਵਰਕ](16-RNN/README.md)
 * [ਜਨਰੇਟਿਵ ਨੈੱਟਵਰਕ](17-GenerativeNetworks/README.md)

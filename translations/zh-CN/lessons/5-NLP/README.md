@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 本节我们将学习：
 
 * [将文本表示为张量](13-TextRep/README.md)
-* [词嵌入](14-Emdeddings/README.md)
+* [词嵌入](14-Embeddings/README.md)
 * [语言模型](15-LanguageModeling/README.md)
 * [循环神经网络](16-RNN/README.md)
 * [生成网络](17-GenerativeNetworks/README.md)

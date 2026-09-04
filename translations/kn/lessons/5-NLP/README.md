@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ಈ ವಿಭಾಗದಲ್ಲಿ ನಾವು ಕಲಿಯಲಿರುವುದು:
 
 * [ಪಠ್ಯವನ್ನು ಟೆನ್ಸರ್‌ಗಳಾಗಿ ಪ್ರತಿನಿಧಿಸುವಿಕೆ](13-TextRep/README.md)
-* [ಪದ embeddings](14-Emdeddings/README.md)
+* [ಪದ embeddings](14-Embeddings/README.md)
 * [ಭಾಷಾ ಮಾದರಿಕರಣ](15-LanguageModeling/README.md)
 * [ಪುನರಾವೃತ್ತ ನ್ಯೂರಲ್ ನೆಟ್‌ವರ್ಕ್‌ಗಳು](16-RNN/README.md)
 * [ಸೃಜನಾತ್ಮಕ ಜಾಲಗಳು](17-GenerativeNetworks/README.md)

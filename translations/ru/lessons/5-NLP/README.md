@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 В этом разделе мы изучим:
 
 * [Представление текста в виде тензоров](13-TextRep/README.md)
-* [Встраивания слов](14-Emdeddings/README.md)
+* [Встраивания слов](14-Embeddings/README.md)
 * [Моделирование языка](15-LanguageModeling/README.md)
 * [Рекуррентные нейронные сети](16-RNN/README.md)
 * [Генеративные сети](17-GenerativeNetworks/README.md)

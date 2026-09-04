@@ -59,7 +59,7 @@ Se sei interessato a imparare NLP da una prospettiva classica di ML, visita [que
 In questa sezione impareremo:
 
 * [Rappresentare il testo come tensori](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Modellazione del linguaggio](15-LanguageModeling/README.md)
 * [Reti Neurali Ricorrenti](16-RNN/README.md)
 * [Reti generative](17-GenerativeNetworks/README.md)

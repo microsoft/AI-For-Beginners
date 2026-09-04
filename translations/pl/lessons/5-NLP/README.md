@@ -59,7 +59,7 @@ Jeśli chcesz nauczyć się NLP z klasycznej perspektywy ML, odwiedź [tę seri�
 W tej sekcji nauczymy się o:
 
 * [Reprezentowaniu tekstu jako tensory](13-TextRep/README.md)
-* [Osadzaniu słów (Word Embeddings)](14-Emdeddings/README.md)
+* [Osadzaniu słów (Word Embeddings)](14-Embeddings/README.md)
 * [Modelowaniu języka](15-LanguageModeling/README.md)
 * [Rekurencyjnych sieciach neuronowych](16-RNN/README.md)
 * [Sieciach generatywnych](17-GenerativeNetworks/README.md)

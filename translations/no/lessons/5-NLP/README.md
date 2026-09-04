@@ -59,7 +59,7 @@ Hvis du er interessert i å lære om NLP fra et klassisk ML-perspektiv, besøk [
 I denne seksjonen skal vi lære om:
 
 * [Representasjon av tekst som tensorer](13-TextRep/README.md)
-* [Ordinnstikk](14-Emdeddings/README.md)
+* [Ordinnstikk](14-Embeddings/README.md)
 * [Språkmodellering](15-LanguageModeling/README.md)
 * [Rekurrente nevrale nettverk](16-RNN/README.md)
 * [Generative nettverk](17-GenerativeNetworks/README.md)

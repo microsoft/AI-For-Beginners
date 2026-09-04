@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ఈ భాగంలో మనం నేర్చుకునేది:
 
 * [పదాలను టెన్సర్స్ రూపంలో ప్రాతినిధ్యం](13-TextRep/README.md)
-* [వర్డ్ ఎంబెడ్డింగ్స్](14-Emdeddings/README.md)
+* [వర్డ్ ఎంబెడ్డింగ్స్](14-Embeddings/README.md)
 * [భాషా మోడలింగ్](15-LanguageModeling/README.md)
 * [రికరెంట్ న్యూరల్ నెట్‌వర్క్స్](16-RNN/README.md)
 * [జనరేటివ్ నెట్‌వర్క్స్](17-GenerativeNetworks/README.md)

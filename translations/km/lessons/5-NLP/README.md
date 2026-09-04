@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 នៅក្នុងផ្នែកនេះ យើងនឹងរៀនពី៖
 
 * [កំណត់តំណាងអត្ថបទជាតង់ស័រ](13-TextRep/README.md)
-* [ការបញ្ចូលពាក្យ](14-Emdeddings/README.md)
+* [ការបញ្ចូលពាក្យ](14-Embeddings/README.md)
 * [ការម៉ូដែលភាសា](15-LanguageModeling/README.md)
 * [បណ្ដាញអាចប្រើឡើងវិញ](16-RNN/README.md)
 * [បណ្ដាញបង្កើត](17-GenerativeNetworks/README.md)

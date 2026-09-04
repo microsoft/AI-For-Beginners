@@ -59,7 +59,7 @@ Wenn Sie NLP aus einer klassischen ML-Perspektive kennenlernen möchten, besuche
 In diesem Abschnitt lernen wir:
 
 * [Text als Tensoren darstellen](13-TextRep/README.md)
-* [Wort-Einbettungen](14-Emdeddings/README.md)
+* [Wort-Einbettungen](14-Embeddings/README.md)
 * [Sprachmodellierung](15-LanguageModeling/README.md)
 * [Rekurrente neuronale Netze](16-RNN/README.md)
 * [Generative Netzwerke](17-GenerativeNetworks/README.md)
