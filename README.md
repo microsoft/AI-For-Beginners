@@ -54,6 +54,10 @@ Explore the world of **Artificial Intelligence** (AI) with our 12-week, 24-lesso
 ## Join the Community
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
+## 🤝 Contributing
+
+We welcome contributions from the community! Whether you're fixing typos, improving documentation, or adding new examples, your help makes this curriculum better for everyone. Check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide to get started.
+
 ## What you will learn
 
 **[Mindmap of the Course](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
