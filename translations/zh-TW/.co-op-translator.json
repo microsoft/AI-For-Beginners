@@ -22,7 +22,7 @@
       "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
       "source_file": "lessons/sketchnotes/LICENSE.md",
       "language_code": "zh-TW",
-      "failure_date": "2026-07-13T22:08:03+00:00",
+      "failure_date": "2026-07-15T21:53:23+00:00",
       "status": "failed",
       "error_type": "TranslationIncompleteError",
       "error_message": "Markdown translation remained incomplete for chunk 1.1.1 of 'LICENSE.md', and the chunk could not be split further.",
