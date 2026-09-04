@@ -59,7 +59,7 @@ Se estiver interessado em aprender sobre PLN a partir de uma perspetiva clássic
 Nesta secção vamos aprender sobre:
 
 * [Representar texto como tensores](13-TextRep/README.md)
-* [Word Embeddings (Incorporação de Palavras)](14-Emdeddings/README.md)
+* [Word Embeddings (Incorporação de Palavras)](14-Embeddings/README.md)
 * [Modelação de Linguagem](15-LanguageModeling/README.md)
 * [Redes Neurais Recorrentes](16-RNN/README.md)
 * [Redes Generativas](17-GenerativeNetworks/README.md)

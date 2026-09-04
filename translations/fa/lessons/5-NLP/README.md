@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 در این بخش درباره موارد زیر خواهیم آموخت:
 
 * [نمایش متن به صورت تنسورها](13-TextRep/README.md)
-* [توکارگذاری کلمات](14-Emdeddings/README.md)
+* [توکارگذاری کلمات](14-Embeddings/README.md)
 * [مدلسازی زبان](15-LanguageModeling/README.md)
 * [شبکه‌های عصبی بازگشتی](16-RNN/README.md)
 * [شبکه‌های مولد](17-GenerativeNetworks/README.md)

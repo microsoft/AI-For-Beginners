@@ -59,7 +59,7 @@ Om du är intresserad av att lära dig om NLP från ett klassiskt ML-perspektiv,
 I detta avsnitt kommer vi att lära oss om:
 
 * [Att representera text som tensorer](13-TextRep/README.md)
-* [Ordbäddningar](14-Emdeddings/README.md)
+* [Ordbäddningar](14-Embeddings/README.md)
 * [Språkmodellering](15-LanguageModeling/README.md)
 * [Rekurrenta neurala nätverk](16-RNN/README.md)
 * [Generativa nätverk](17-GenerativeNetworks/README.md)

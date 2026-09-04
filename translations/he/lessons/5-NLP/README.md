@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 בחלק זה נלמד על:
 
 * [ייצוג טקסט כמטריצות](13-TextRep/README.md)
-* [הנחת מילים](14-Emdeddings/README.md)
+* [הנחת מילים](14-Embeddings/README.md)
 * [מודלינג שפה](15-LanguageModeling/README.md)
 * [רשתות עצביות חוזרות](16-RNN/README.md)
 * [רשתות גנרטיביות](17-GenerativeNetworks/README.md)

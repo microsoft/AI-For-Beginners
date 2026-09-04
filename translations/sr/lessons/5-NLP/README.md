@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 У овом одељку ћемо научити о:
 
 * [Представљање текста као тензора](13-TextRep/README.md)
-* [Уградње речи](14-Emdeddings/README.md)
+* [Уградње речи](14-Embeddings/README.md)
 * [Језички модели](15-LanguageModeling/README.md)
 * [Рекурентне неуронске мреже](16-RNN/README.md)
 * [Генеративне мреже](17-GenerativeNetworks/README.md)

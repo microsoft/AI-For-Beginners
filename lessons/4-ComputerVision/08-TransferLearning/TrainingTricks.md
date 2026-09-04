@@ -14,7 +14,7 @@ Most activation functions have non-linearities around [-1..1], and thus it makes
 
 Ideally, we want the values to be in the same range after passing through network layers. Thus it is important to initialize weights in such a way as to preserve the distribution of values.
 
-Normal distribution **N(0,1)** is not a good idea, because if we have *n* inputs, the standard deviation of output would be *n*, and values are likely to jump out of [0..1] interval.
+Normal distribution **N(0,1)** is not a good idea, because if we have *n* inputs, the standard deviation of output would be *&radic;n*, and values are likely to jump out of [0..1] interval.
 
 The following initializations are often used:
 

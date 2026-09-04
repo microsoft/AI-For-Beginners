@@ -59,7 +59,7 @@ Dacă ești interesat să înveți despre NLP dintr-o perspectivă clasică ML, 
 În această secțiune vom învăța despre:
 
 * [Reprezentarea textului ca tensori](13-TextRep/README.md)
-* [Cuvinte încorporate (Word Embeddings)](14-Emdeddings/README.md)
+* [Cuvinte încorporate (Word Embeddings)](14-Embeddings/README.md)
 * [Modelarea limbajului](15-LanguageModeling/README.md)
 * [Rețele neuronale recurente](16-RNN/README.md)
 * [Rețele generative](17-GenerativeNetworks/README.md)

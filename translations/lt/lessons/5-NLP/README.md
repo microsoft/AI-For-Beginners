@@ -59,7 +59,7 @@ Jei jus domina NLP mokymasis iš klasikinio ML požiūrio, apsilankykite [šiame
 Šioje dalyje mes sužinosime apie:
 
 * [Teksto vaizdavimą tensoriais](13-TextRep/README.md)
-* [Žodžių įterpimus](14-Emdeddings/README.md)
+* [Žodžių įterpimus](14-Embeddings/README.md)
 * [Kalbos modeliavimą](15-LanguageModeling/README.md)
 * [Rekursinius neuroninius tinklus](16-RNN/README.md)
 * [Generatyvinius tinklus](17-GenerativeNetworks/README.md)

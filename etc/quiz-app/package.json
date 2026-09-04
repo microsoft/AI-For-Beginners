@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "serve:node17+": "npx --node-options=\"--openssl-legacy-provider\" vue-cli-service serve --skip-plugins eslint",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

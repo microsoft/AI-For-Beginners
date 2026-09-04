@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 ในส่วนนี้เราจะเรียนรู้เกี่ยวกับ:
 
 * [การแทนข้อความเป็นเทนเซอร์](13-TextRep/README.md)
-* [การฝังคำ](14-Emdeddings/README.md)
+* [การฝังคำ](14-Embeddings/README.md)
 * [การทำแบบจำลองภาษา](15-LanguageModeling/README.md)
 * [โครงข่ายประสาทเทียมวนซ้ำ](16-RNN/README.md)
 * [โครงข่ายสร้างสรรค์](17-GenerativeNetworks/README.md)

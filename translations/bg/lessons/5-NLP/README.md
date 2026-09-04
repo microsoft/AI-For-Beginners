@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 В този раздел ще научим за:
 
 * [Представяне на текст като тензори](13-TextRep/README.md)
-* [Векторни представяния на думи (Word Embeddings)](14-Emdeddings/README.md)
+* [Векторни представяния на думи (Word Embeddings)](14-Embeddings/README.md)
 * [Моделиране на езика](15-LanguageModeling/README.md)
 * [Рекурентни невронни мрежи](16-RNN/README.md)
 * [Генеративни мрежи](17-GenerativeNetworks/README.md)

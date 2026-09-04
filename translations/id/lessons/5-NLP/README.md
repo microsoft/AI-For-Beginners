@@ -59,7 +59,7 @@ Jika Anda tertarik belajar NLP dari perspektif ML klasik, kunjungi [rangkaian pe
 Dalam bagian ini kita akan mempelajari tentang:
 
 * [Merepresentasikan teks sebagai tensor](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Pemodelan Bahasa](15-LanguageModeling/README.md)
 * [Jaringan Saraf Berulang](16-RNN/README.md)
 * [Jaringan Generatif](17-GenerativeNetworks/README.md)

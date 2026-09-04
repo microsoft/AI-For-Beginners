@@ -48,7 +48,7 @@ def check_image(fn):
         im = Image.open(fn)
         im.verify()
         return im.format=='JPEG'
-    except:
+    except Exception:
         return False
     
 def check_image_dir(path):

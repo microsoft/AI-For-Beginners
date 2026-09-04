@@ -59,7 +59,7 @@ if len(physical_devices)>0:
 या विभागात आपण खालील गोष्टी शिकणार आहोत:
 
 * [मजकूराचे टेन्सर स्वरूप](13-TextRep/README.md)
-* [शब्द एम्बेडिंग्ज](14-Emdeddings/README.md)
+* [शब्द एम्बेडिंग्ज](14-Embeddings/README.md)
 * [भाषा मॉडेलिंग](15-LanguageModeling/README.md)
 * [पुनरावर्ती न्यूरल नेटवर्क्स](16-RNN/README.md)
 * [जनरेटिव्ह नेटवर्क्स](17-GenerativeNetworks/README.md)

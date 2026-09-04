@@ -21,7 +21,7 @@
                 :key="index"
                 v-for="(option, index) in quiz.quiz[currentQuestion]
                   .answerOptions"
-                @click="handleAnswerClick(option.isCorrect)"
+                @click="handleAnswerClick(option.isCorrect, quiz.quiz.length)"
                 class="btn ans-btn"
               >
                 {{ option.answerText }}
@@ -62,12 +62,11 @@ export default {
   },
 
   methods: {
-    handleAnswerClick(isCorrect) {
+    handleAnswerClick(isCorrect, questionCount) {
       this.error = false;
       let nextQuestion = this.currentQuestion + 1;
       if (isCorrect) {
-        //always 3 questions per quiz
-        if (nextQuestion < 3) {
+        if (nextQuestion < questionCount) {
           this.currentQuestion = nextQuestion;
         } else {
           this.complete = true;

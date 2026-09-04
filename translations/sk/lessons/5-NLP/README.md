@@ -59,7 +59,7 @@ Ak vás zaujíma učenie NLP z klasickej perspektívy strojového učenia, navš
 V tejto sekcii sa naučíme:
 
 * [Reprezentácia textu ako tenzorov](13-TextRep/README.md)
-* [Vkladanie slov](14-Emdeddings/README.md)
+* [Vkladanie slov](14-Embeddings/README.md)
 * [Modelovanie jazyka](15-LanguageModeling/README.md)
 * [Rekurentné neurónové siete](16-RNN/README.md)
 * [Generatívne siete](17-GenerativeNetworks/README.md)

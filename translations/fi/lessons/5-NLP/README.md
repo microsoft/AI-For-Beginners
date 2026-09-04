@@ -59,7 +59,7 @@ Jos olet kiinnostunut oppimaan NLP:tä klassisesta koneoppimisen näkökulmasta,
 Tässä osiossa opimme:
 
 * [Tekstin esittäminen tensoreina](13-TextRep/README.md)
-* [Sanasijoitukset](14-Emdeddings/README.md)
+* [Sanasijoitukset](14-Embeddings/README.md)
 * [Kielimallit](15-LanguageModeling/README.md)
 * [Toistuvat hermoverkot](16-RNN/README.md)
 * [Generatiiviset verkot](17-GenerativeNetworks/README.md)

@@ -59,7 +59,7 @@ Hvis du er interesseret i at lære om NLP fra et klassisk ML-perspektiv, besøg 
 I denne sektion vil vi lære om:
 
 * [At repræsentere tekst som tensors](13-TextRep/README.md)
-* [Word Embeddings](14-Emdeddings/README.md)
+* [Word Embeddings](14-Embeddings/README.md)
 * [Sprogsmodellering](15-LanguageModeling/README.md)
 * [Recurrent Neural Networks](16-RNN/README.md)
 * [Generative Networks](17-GenerativeNetworks/README.md)
