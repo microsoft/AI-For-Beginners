@@ -1,345 +1,440 @@
-Attribution-ShareAlike 4.0 Rahvusvaheline
+Attribution-ShareAlike 4.0 International
 
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") ei ole advokaadibüroo ega paku juriidilisi teenuseid või õigusnõu. Creative Commons avalike litsentside levitamine ei loo advokaadi-kliendi ega muud suhet. Creative Commons teeb oma litsentsid ja nendega seotud teabe kättesaadavaks "nagu on" põhimõttel. Creative Commons ei anna garantiisid oma litsentside, nende tingimuste alusel litsentsitud materjali ega sellega seotud teabe kohta. Creative Commons ei vastuta kahjude eest, mis tulenevad nende kasutamisest, maksimaalses seadusega lubatud ulatuses.
+Creative Commons Corporation ("Creative Commons") ei ole advokaadibüroo ning
+ei paku õiguslikke teenuseid ega juriidilist nõu. Litsentside levitamine
+Creative Commons avalike litsentside levitamine ei loo advokaadi-kliendi ega
+muud suhet. Creative Commons teeb oma litsentsid ja seotud
+informatsiooni kättesaadavaks "nagu on" alusel. Creative Commons ei anna mingeid
+garantiisid seoses oma litsentsidega, ühegi all nende
+tingimuste alusel litsentseeritud materjaliga ega ühegi seotud teabega.
+Creative Commons keeldub kõikidest kohustustest kahjude osas, mis tulenevad nende kasutamisest kuni
+kõige suurema lubatud ulatuseni.
 
-Creative Commonsi avalike litsentside kasutamine
+Using Creative Commons Public Licenses
 
-Creative Commonsi avalikud litsentsid pakuvad standardseid tingimusi, mida loojad ja muud õiguste omanikud võivad kasutada autoriõigusega kaitstud teoste ja muu materjali jagamiseks, millele kehtivad autoriõigused ja teatud muud allpool avalikus litsentsis määratletud õigused. Järgnevad kaalutlused on ainult informatiivsed, mitte ammendavad ega ole osa meie litsentsidest.
+Creative Commonsi avalikud litsentsid pakuvad standardset tingimuste ja
+sätete komplekti, mida loojad ja teised õiguste omanikud võivad kasutada jagamiseks
+originaaltööde ja muu autoriõiguse alla kuuluva materjali
+ja teatud muude õiguste, mis on allpool avalikus litsentsis täpsustatud. Järgmised
+kaalutlused on ainult informatiivse iseloomuga, ei ole
+ammendavad ega kuulu meie litsentside koosseisu.
 
-     Kaalutlused litsentsiandjatele: Meie avalikud litsentsid on
-     mõeldud kasutamiseks neile, kellel on õigus anda avalikkusele
-     luba kasutada materjali viisil, mis muidu oleks autoriõiguste ja
-     teatud muude õiguste tõttu piiratud. Meie litsentsid on
-     pöördumatud. Litsentsiandjad peaksid enne litsentsi rakendamist
-     lugema ja mõistma selle tingimusi. Litsentsiandjad peaksid
-     tagama kõik vajalikud õigused enne litsentsi rakendamist, et
-     avalikkus saaks materjali oodatud viisil uuesti kasutada.
-     Litsentsiandjad peaksid selgelt märkima materjali, millele
-     litsents ei kehti. See hõlmab teisi CC-litsentsiga materjale või
-     materjale, mida kasutatakse autoriõiguse erandi või piirangu
-     alusel. Rohkem kaalutlusi litsentsiandjatele:
+     Mõtlemisvõtud litsentsiandjatele: Meie avalikud litsentsid on
+     mõeldud kasutamiseks nende poolt, kellel on volitus anda avalikkusele
+     luba kasutada materjali viisil, mis muidu oleks piiratud autoriõiguse ja
+     teatud muude õigustega. Meie litsentsid on
+     tühistamatud. Litsentsiandjad peaksid valitud litsentsi tingimusi enne selle rakendamist läbi lugema ja mõistma.
+     enne selle rakendamist.
+     Litsentsiandjad peaksid samuti hankima kõik vajalikud õigused enne
+     meie litsentside rakendamist, et avalikkus saaks materjali oodatud viisil uuesti kasutada.
+     Litsentsiandjad peaksid selgelt märkima kõik materjalid, mis ei kuulu litsentsi alla.
+     See hõlmab muid CC-
+     litsentseeritud materjale või materjale, mida kasutatakse autoriõiguse erandi või piirangu alusel
+     . Rohkem kaalutlusi litsentsiandjatele:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     Kaalutlused avalikkusele: Kasutades ühte meie avalikest
-     litsentsidest, annab litsentsiandja avalikkusele loa kasutada
-     litsentsitud materjali määratletud tingimustel. Kui litsentsiandja
-     luba ei ole mingil põhjusel vajalik – näiteks autoriõiguse
-     erandi või piirangu tõttu – siis sellist kasutust litsents ei
-     reguleeri. Meie litsentsid annavad ainult autoriõiguse ja teatud
-     muude õiguste alusel antud lube, mida litsentsiandjal on õigus
-     anda. Litsentsitud materjali kasutamine võib siiski olla piiratud
-     muudel põhjustel, sealhulgas seetõttu, et teistel on materjali
-     suhtes autoriõigused või muud õigused. Litsentsiandja võib teha
-     erisoove, näiteks paluda, et kõik muudatused oleksid märgitud või
-     kirjeldatud. Kuigi meie litsentsid seda ei nõua, on soovitatav
-     neid mõistlikke soove austada. Rohkem kaalutlusi avalikkusele:
+     Avalikkuse jaoks mõeldud kaalutlused: Ühe meie avaliku litsentsi kasutamisel annab litsentsiandja avalikkusele loa
+     kasutada litsentseeritud materjali
+     vastavalt täpsustatud tingimustele. Kui
+     litsentsiandja luba ei ole mingil põhjusel vajalik—näiteks
+     seoses mõne rakenduva erandi või piiranguga autoriõiguse
+     puhul—siis seda kasutust litsents ei reguleeri. Meie
+     litsentsid annavad üksnes õigused autoriõiguse ja teatud
+     teiste õiguste osas, mida litsentsiandja võib anda. Litsentseeritud
+     materjali kasutamine võib siiski olla piiratud muudel
+     põhjustel, sealhulgas sellepärast, et teistel võivad olla autoriõigused või muud
+     õigused selles materjalis. Litsentsiandja võib teha erisoove,
+     näiteks nõuda, et kõik tehtud muudatused oleksid märgistatud või kirjeldatud.
+     Kuigi meie litsentsid seda ei nõua, soovitatakse teil
+     neid soove mõistlikul juhul austada. Rohkem kaalutlusi
+     avalikkusele:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 Rahvusvaheline Avalik
-Litsents
+Creative Commons Attribution-ShareAlike 4.0 International Public
+License
 
-Kasutades litsentsitud õigusi (määratletud allpool), nõustute ja
-kohustute järgima selle Creative Commons Attribution-ShareAlike 4.0
-Rahvusvahelise Avaliku Litsentsi ("Avalik Litsents") tingimusi. Kui
-seda Avalikku Litsentsi võib tõlgendada lepinguna, antakse teile
-litsentsitud õigused vastutasuks nende tingimuste aktsepteerimise eest,
-ja litsentsiandja annab teile need õigused vastutasuks kasu eest, mida
-litsentsiandja saab litsentsitud materjali nende tingimuste alusel
-kättesaadavaks tegemisest.
+Kasutades litsentseeritud õigusi (allpool määratletud), nõustute ja aktsepteerite
+olla seotud selle Creative Commonsi
+Attribution-ShareAlike 4.0 International Avaliku litsentsi ("Avalik
+litsents"). Selles osas, kui seda avalikku litsentsi võiks tõlgendada kui
+lepingut, antakse Teile litsentseeritud õigused Teie nende tingimuste vastuvõtmise
+tõttu ning litsentsiandja annab Teile sellised õigused
+selle eest, et litsentsiandja saab kasu
+sellest, et ta teeb litsentseeritud materjali kättesaadavaks nende
+tingimuste alusel.
 
 
-1. peatükk – Mõisted.
+Section 1 -- Definitions.
 
-  a. Kohandatud materjal tähendab autoriõiguse ja sarnaste õiguste
-     alusel kaitstud materjali, mis on tuletatud või põhineb
-     litsentsitud materjalil ning milles litsentsitud materjal on
-     tõlgitud, muudetud, korraldatud, ümber kujundatud või muul viisil
-     muudetud viisil, mis nõuab litsentsiandja autoriõiguse ja
-     sarnaste õiguste alusel luba. Selle Avaliku Litsentsi eesmärgil,
-     kui litsentsitud materjal on muusikaline teos, esitus või
-     helisalvestis, siis kohandatud materjal tekib alati, kui
-     litsentsitud materjal on ajaliselt seotud liikuvate piltidega.
+  a. Kohandatud materjal tähendab materjali, mis kuulub autoriõiguse ja sarnaste
 
-  b. Kohandaja litsents tähendab litsentsi, mille te rakendate oma
-     autoriõiguse ja sarnaste õiguste suhtes oma panustele kohandatud
-     materjalile vastavalt selle Avaliku Litsentsi tingimustele.
+     Õigused, mis tulenevad litsentseeritud materjalist või põhinevad sellel
+     ja milles on litsentseeritud materjal tõlgitud, muudetud,
+     kohandatud, teisendatud või muul viisil muudetud viisil, mis nõuab
+     luba vastavalt autoriõigusele ja sarnastele õigustele, mida omab
+     Litsentsiandja. Selle avaliku litsentsi tähenduses, kui litsentseeritud
+     materjal on muusikaline teos, esitus või helisalvestis,
+     tekib kohandatud materjal alati, kui litsentseeritud materjal on
+     ajaliselt sünkroonitud liikuva pildiga.
 
-  c. BY-SA ühilduv litsents tähendab litsentsi, mis on loetletud
-     creativecommons.org/compatiblelicenses ja mille Creative Commons
-     on heaks kiitnud kui sisuliselt samaväärset selle Avaliku
-     Litsentsiga.
+  b. Adapter's License means the license You apply to Your Copyright
+     and Similar Rights in Your contributions to Adapted Material in
+     accordance with the terms and conditions of this Public License.
 
-  d. Autoriõigus ja sarnased õigused tähendavad autoriõigust ja/või
-     autoriõigusega tihedalt seotud õigusi, sealhulgas, kuid mitte
-     ainult, esituse, edastuse, helisalvestise ja Sui Generis
-     andmebaasi õigusi, sõltumata sellest, kuidas õigused on
-     märgistatud või kategoriseeritud. Selle Avaliku Litsentsi
-     eesmärgil ei kuulu autoriõiguse ja sarnaste õiguste alla
-     õigused, mis on määratletud peatüki 2(b)(1)-(2) alusel.
+  c. BY-SA Compatible License means a license listed at
+     creativecommons.org/compatiblelicenses, heaks kiidetud Creative
+     Commonsi poolt kui põhimõtteliselt käesoleva avaliku litsentsiga võrdväärne.
 
-  e. Tõhusad tehnoloogilised meetmed tähendavad meetmeid, mida ei saa
-     ilma nõuetekohase volituseta seaduslikult vältida vastavalt
-     WIPO autoriõiguse lepingu artikli 11 kohustuste täitmisele,
-     mis võeti vastu 20. detsembril 1996, ja/või sarnastele
-     rahvusvahelistele kokkulepetele.
+  d. Copyright and Similar Rights means copyright and/or similar rights
+     closely related to copyright including, without limitation,
+     performance, broadcast, sound recording, and Sui Generis Database
+     õiguste hulka, sõltumata sellest, kuidas neid õigusi on nimetatud või
+     kategoriseeritud. Käesoleva avaliku litsentsi tähenduses ei ole lõigus
+     2(b)(1)-(2) sätestatud õigused autoriõiguse ja sarnaste
+     õiguste hulka.
 
-  f. Erandid ja piirangud tähendavad õiglase kasutuse, õiglase
-     käsitlemise ja/või mis tahes muud erandit või piirangut
-     autoriõiguse ja sarnaste õiguste suhtes, mis kehtib teie
-     litsentsitud materjali kasutamisele.
+  e. Effective Technological Measures means those measures that, in the
+     absence of proper authority, may not be circumvented under laws
+     fulfilling obligations under Article 11 of the WIPO Copyright
+     Treaty adopted on December 20, 1996, and/or similar international
+     agreements.
 
-  g. Litsentsi elemendid tähendavad Creative Commonsi Avaliku
-     Litsentsi nimes loetletud litsentsi atribuute. Selle Avaliku
-     Litsentsi litsentsi elemendid on Attribution ja ShareAlike.
+  f. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
 
-  h. Litsentsitud materjal tähendab kunstilist või kirjanduslikku
-     teost, andmebaasi või muud materjali, millele litsentsiandja
-     rakendas seda Avalikku Litsentsi.
+  g. License Elements means the license attributes listed in the name
+     of a Creative Commons Public License. The License Elements of this
+     Public License are Attribution and ShareAlike.
 
-  i. Litsentsitud õigused tähendavad õigusi, mis on teile antud
-     vastavalt selle Avaliku Litsentsi tingimustele ja mis piirduvad
-     kõigi autoriõiguse ja sarnaste õigustega, mis kehtivad teie
-     litsentsitud materjali kasutamisele ja mida litsentsiandjal on
-     õigus litsentsida.
+  h. Licensed Material means the artistic or literary work, database,
+     or other material to which the Licensor applied this Public
+     License.
 
-  j. Litsentsiandja tähendab isikut või üksust, kes annab õigusi
-     selle Avaliku Litsentsi alusel.
+  i. Licensed Rights means the rights granted to You subject to the
+     terms and conditions of this Public License, which are limited to
+     all Copyright and Similar Rights that apply to Your use of the
+     Licensed Material and that the Licensor has authority to license.
 
-  k. Jagamine tähendab materjali avalikkusele kättesaadavaks tegemist
-     mis tahes viisil või protsessiga, mis nõuab litsentsitud õiguste
-     alusel luba, näiteks reprodutseerimine, avalik kuvamine, avalik
-     esitamine, levitamine, edastamine, suhtlemine või importimine,
-     ning materjali kättesaadavaks tegemist avalikkusele, sealhulgas
-     viisil, mis võimaldab avalikkuse liikmetel materjali juurde
-     pääseda neile sobivast kohast ja ajal.
+  j. Licensor means the individual(s) or entity(ies) granting rights
+     under this Public License.
 
-  l. Sui Generis andmebaasi õigused tähendavad autoriõigusest erinevaid
-     õigusi, mis tulenevad Euroopa Parlamendi ja nõukogu 11. märtsi
-     1996. aasta direktiivist 96/9/EÜ andmebaaside õigusliku kaitse
-     kohta, mida on muudetud ja/või asendatud, samuti mujal maailmas
-     sisuliselt samaväärseid õigusi.
+  k. Share means to provide material to the public by any means or
+     process that requires permission under the Licensed Rights, such
+     as reproduction, public display, public performance, distribution,
+     dissemination, communication, or importation, and to make material
+     available to the public including in ways that members of the
+     public may access the material from a place and at a time
+     individually chosen by them.
 
-  m. Teie tähendab isikut või üksust, kes kasutab litsentsitud õigusi
-     selle Avaliku Litsentsi alusel. Teie vastav tähendus on "teie".
+  l. Sui Generis Database Rights means rights other than copyright
+     resulting from Directive 96/9/EC of the European Parliament and of
+     the Council of 11 March 1996 on the legal protection of databases,
+     as amended and/or succeeded, as well as other essentially
+     equivalent rights anywhere in the world.
 
-2. peatükk – Ulatus.
+  m. You means the individual or entity exercising the Licensed Rights
+     under this Public License. Your has a corresponding meaning.
+
+
+
+Jaotis 2 -- Ulatus.
+
 
   a. Litsentsi andmine.
 
-       1. Vastavalt selle Avaliku Litsentsi tingimustele annab
-          litsentsiandja teile ülemaailmse, tasudeta, mitte
-          all-litsentsitava, mitte eksklusiivse, pöördumatu litsentsi
-          kasutada litsentsitud õigusi litsentsitud materjalil:
+       1. Käesoleva avaliku litsentsi tingimuste ja nõuete alusel,
+          Litsentsiandja annab Teile käesolevaga ülemaailmse, autoritasudeta,
+          mitte-edalitsentsitava, mitte-eksklusiivse, tagasivõtmatu litsentsi, et
+          kasutada litsentsitud õigusi litsentseeritud materjalis, et:
 
-            a. reprodutseerida ja jagada litsentsitud materjali, kas
-               tervikuna või osaliselt; ja
+            a. paljundada ja Jagada litsentseeritud materjali, tervikuna või
+               osaliselt; ning
 
-            b. luua, reprodutseerida ja jagada kohandatud materjali.
+            b. toota, paljundada ja Jagada kohandatud materjali.
 
-       2. Erandid ja piirangud. Selguse huvides, kui teie kasutusele
-          kehtivad erandid ja piirangud, ei kehti see Avalik Litsents
-          ja te ei pea selle tingimusi järgima.
+       2. Erandid ja piirangud. Kahtluse vältimiseks, kui
+          Erandid ja piirangud kehtivad Teie kasutamise suhtes, siis see Avalik
+          Litsents ei kehti, ning Teil ei ole vaja järgida
+          selle tingimusi ja nõudeid.
 
-       3. Tähtaeg. Selle Avaliku Litsentsi tähtaeg on määratletud
-          peatükis 6(a).
+       3. Kehtivusaeg. Käesoleva avaliku litsentsi kehtivusaeg on määratletud jaotises
+          6(a).
 
-       4. Meedia ja formaadid; lubatud tehnilised muudatused.
-          Litsentsiandja lubab teil kasutada litsentsitud õigusi
-          kõigis meediates ja formaatides, mis on praegu teada või
-          tulevikus loodud, ning teha tehnilisi muudatusi, mis on
-          vajalikud nende õiguste kasutamiseks. Litsentsiandja loobub
-          ja/või nõustub mitte rakendama mis tahes õigust või
-          volitust keelata teil teha tehnilisi muudatusi, mis on
-          vajalikud litsentsitud õiguste kasutamiseks, sealhulgas
-          tehnilisi muudatusi, mis on vajalikud tõhusate
-          tehnoloogiliste meetmete vältimiseks. Selle Avaliku
-          Litsentsi eesmärgil ei tekita ainult selle peatüki 2(a)(4)
-          alusel lubatud muudatuste tegemine kunagi kohandatud
-          materjali.
+       4. Meediumid ja formaadid; tehnilised muudatused on lubatud. Litsentsiandja
+          annab Teile volituse kasutada litsentsitud õigusi
+          kõikides meediumites ja formaatides, olgu need praegu teada või edaspidi loodud,
+          ja teha selleks vajalikud tehnilised muudatused. Litsentsiandja
+          loobub ja/või kohustub mitteesitama ühtki õigust või
+          volitust keelata Teil teha tehnilisi muudatusi
+          mis on vajalikud litsentsitud õiguste kasutamiseks, sealhulgas
+          tehnilised muudatused, mis on vajalikud tõhusate
+          tehnoloogiliste meetmete vältimiseks. Käesoleva avaliku litsentsi,
+          lihtsalt selles jaotises 2(a) lubatud muudatuste tegemine
+          (4) ei tekita kunagi kohandatud materjali.
 
-       5. Edasised saajad.
+       5. Alamvastuvõtjad.
 
-            a. Pakkumine litsentsiandjalt – litsentsitud materjal.
-               Iga litsentsitud materjali saaja saab automaatselt
-               litsentsiandjalt pakkumise kasutada litsentsitud
-               õigusi selle Avaliku Litsentsi tingimustel.
+            a. Pakkumine litsentsiandjalt -- litsentseeritud materjal. Iga
+               litsentseeritud materjali saaja saab automaatselt
+               litsentsiandjalt pakkumise kasutada
+               litsentsitud õigusi selle
+               avaliku litsentsi.
 
-            b. Täiendav pakkumine litsentsiandjalt – kohandatud
-               materjal. Iga kohandatud materjali saaja teie poolt
-               saab automaatselt litsentsiandjalt pakkumise kasutada
-               litsentsitud õigusi kohandatud materjalil vastavalt
-               kohandaja litsentsi tingimustele, mida te rakendate.
+            b. Lisapakkumine litsentsiandjalt -- kohandatud materjal.
+               Iga Teilt saadud kohandatud materjali saaja
+               saab automaatselt litsentsiandjalt pakkumise
+               kasutada litsentsitud õigusi kohandatud materjalis
+               vastavalt Adapteri litsentsi tingimustele, mida Te rakendate.
 
-            c. Ei mingeid edasisi piiranguid. Te ei tohi pakkuda ega
-               kehtestada mingeid täiendavaid või erinevaid tingimusi
-               ega rakendada tõhusaid tehnoloogilisi meetmeid
-               litsentsitud materjalile, kui see piirab litsentsitud
-               õiguste kasutamist mis tahes litsentsitud materjali
-               saaja poolt.
+            c. Puuduvad edasised piirangud. Te ei tohi pakkuda ega kehtestada
+               mingeid täiendavaid või erinevaid tingimusi ega nõudeid
+               rakendada mingeid Tõhusaid Tehnoloogilisi Meetmeid
+               litsentseeritud materjalile, kui selle tegemine piirab litsentsitud
+               õiguste kasutamist ühegi litsentseeritud
+               materjali saaja poolt.
 
-       6. Ei mingit heakskiitu. Mitte miski selles Avalikus Litsentsis
-          ei anna ega tohi tõlgendada kui luba väita või vihjata, et
-          teie või teie litsentsitud materjali kasutamine on seotud
-          litsentsiandjaga, sponsoreeritud, heaks kiidetud või
-          ametlikult tunnustatud litsentsiandja või teiste poolt, kes
-          on määratud saama tunnustust vastavalt peatüki 3(a)(1)(A)(i)
-          tingimustele.
+       6. Mitte toetamine. Miski käesolevas avalikus litsentsis ei tähenda ega
+          võidakse tõlgendada kui luba väita või vihjata, et Teie
+          olete, või et Teie litsentseeritud materjali kasutamine on seotud
+          kellegagi, või sponsoreeritud, toetatud või antud ametlikku staatust
+          litsentsiandja või teiste poolt, kes on määratud saama tunnustust vastavalt
+          jaotisele 3(a)(1)(A)(i).
 
   b. Muud õigused.
 
-       1. Moraalsed õigused, nagu terviklikkuse õigus, ei ole
-          litsentsitud selle Avaliku Litsentsi alusel, samuti ei ole
-          avalikustamise, privaatsuse ja/või muud sarnased
-          isikuõigused; kuid võimaluse korral loobub litsentsiandja
-          ja/või nõustub mitte rakendama mis tahes selliseid õigusi,
-          mis kuuluvad litsentsiandjale, piiratud ulatuses, mis on
-          vajalik, et võimaldada teil kasutada litsentsitud õigusi,
-          kuid mitte muul viisil.
+       1. Moraalsed õigused, nagu terviklikkuse õigus, ei kuulu
+          selle avaliku litsentsi alla, samuti ei hõlma see
+          avalikkuse kasutamise õigusi, privaatsust ja/või muid sarnaseid isiksuseõigusi; siiski,
+          nii palju kui võimalik, loobub Litsentsiandja ja/või nõustub mitte
+          esitama või nõudma selliseid õigusi, mis kuuluvad Litsentsiandjale, kuni sellisel määral
+          mis on vajalik, et võimaldada Teil kasutada litsentsitud
+          õigusi, kuid mitte muul viisil.
 
-       2. Patendi- ja kaubamärgiõigused ei ole litsentsitud selle
-          Avaliku Litsentsi alusel.
-
-       3. Võimaluse korral loobub litsentsiandja mis tahes õigusest
-          koguda tasusid teie poolt litsentsitud õiguste kasutamise
-          eest, olgu see siis otse või kogumisseltsi kaudu mis tahes
-          vabatahtliku või loobutava seadusjärgse või kohustusliku
-          litsentsimisskeemi alusel. Kõigil muudel juhtudel jätab
-          litsentsiandja endale selgesõnaliselt õiguse selliseid
-          tasusid koguda.
+       2. Patendi- ja kaubamärgiõigused ei kuulu selle
+          Avaliku litsentsi alla.
 
 
-3. peatükk – Litsentsi tingimused.
+       3. Kui võimalik, loobub Litsentsiandja igasugusest õigusest
+          küsida Teilt tasusid litsentsitud
+          õiguste kasutamise eest, kas otse või läbi kogumisühistu
+          mis tahes vabatahtliku või loobutava seadusliku või kohustusliku
+          litsentsiskeemi puhul. Kõigil muudel juhtudel jätab Litsentsiandja selgesõnaliselt
+          õiguse selliseid tasusid nõuda.
 
-Teie litsentsitud õiguste kasutamine on selgesõnaliselt seotud
-järgmiste tingimustega.
 
-  a. Tunnustus.
+Section 3 -- License Conditions.
 
-       1. Kui jagate litsentsitud materjali (ka muudetud kujul), peate:
+Teie litsentsitud õiguste kasutamine allub selgesõnaliselt järgmistele
+järgnevatele tingimustele.
 
-            a. säilitama järgmise, kui litsentsiandja on selle
-               litsentsitud materjaliga kaasa andnud:
+  a. Attribution.
 
-                 i. litsentsitud materjali looja(te) ja teiste
-                    tunnustuse saamiseks määratud isikute
-                    identifitseerimine, mis tahes mõistlikul viisil,
-                    mida litsentsiandja on palunud (sealhulgas
-                    pseudonüümi kasutamine, kui see on määratud);
+       1. Kui Te jagate litsentsitud materjali (sealhulgas muudetud
+          kujul), peate Te:
 
-                ii. autoriõiguse teate;
+            a. säilitada järgnev, kui see on Litsentsiandja poolt
+               litsentsitud materjaliga kaasasolev:
 
-               iii. teate, mis viitab sellele Avalikule Litsentsile;
+                 i. litsentsitud materjali looja(te) tuvastamine
+                    ja kõigi teiste, keda on määratud
+                    tunnustuse saamiseks, mõistlikul viisil, nagu
+                    Litsentsiandja nõuab (sh pseudonüümi
+                    kasutamine, kui see on määratud);
 
-                iv. teate, mis viitab garantiide välistamisele;
+                ii. autoriõiguse märkus;
 
-                 v. URI või hüperlingi litsentsitud materjalile, kui
-                    see on mõistlikult teostatav;
+               iii. teade, mis viitab sellele Avalikule Litsentsile;
 
-            b. märkima, kui olete litsentsitud materjali muutnud, ja
-               säilitama viite varasematele muudatustele; ning
+                iv. teade, mis viitab garantiidest
+                    loobumisele;
 
-            c. märkima, et litsentsitud materjal on litsentsitud selle
-               Avaliku Litsentsi alusel, ja lisama selle Avaliku
-               Litsentsi teksti või URI või hüperlingi sellele.
+                 v. litsentsitud materjali URI või hüperlinki nii palju kui
+                    mõistlikult võimalik;
 
-       2. Peatüki 3(a)(1) tingimusi võib täita mis tahes mõistlikul
-          viisil, sõltuvalt meediumist, vahendist ja kontekstist, kus
-          jagate litsentsitud materjali. Näiteks võib olla mõistlik
-          täita tingimusi, pakkudes URI või hüperlingi ressursile, mis
-          sisaldab nõutavat teavet.
+            b. märkida, kui Te olete litsentsitud materjali muutnud ja
+               säilitada viide kõikidele varasematele muudatustele; ja
 
-       3. Kui litsentsiandja seda palub, peate eemaldama mis tahes
-          peatüki 3(a)(1)(A) alusel nõutava teabe, kui see on
-          mõistlikult teostatav.
+            c. märkida, et litsentsitud materjal on litsentsitud selle
+               Avaliku Litsentsi alusel, ning lisada selle teksti või URI või
+               sellele Avalikule Litsentsile viitav hüperlink.
+
+       2. Te võite täita jaotise 3(a)(1) tingimused igal
+          mõistlikul viisil, lähtudes meediumist, vahenditest ja kontekstist,
+          milles Te jagate litsentsitud materjali. Näiteks võib olla
+          mõistlik täita tingimused, pakkudes URI-d või hüperlinki
+          ressursile, mis sisaldab nõutavat
+          teavet.
+
+       3. Kui Litsentsiandja seda palub, peate Te eemaldama mistahes
+          jaotise 3(a)(1)(A) poolt nõutud teabe
+          ulatuses, mis on mõistlikult teostatav.
 
   b. ShareAlike.
 
-     Lisaks peatüki 3(a) tingimustele kehtivad järgmised tingimused,
-     kui jagate kohandatud materjali, mille olete loonud.
+     Lisaks jaotise 3(a) tingimustele, kui Te jagate
+     Teie loodud kohandatud materjali, kehtivad ka järgmised tingimused.
 
-       1. Kohandaja litsents, mida rakendate, peab olema Creative
-          Commonsi litsents, millel on samad litsentsi elemendid, see
-          versioon või hilisem, või BY-SA ühilduv litsents.
+       1. Adapteri litsents, mida Te rakendate, peab olema Creative Commons'i
+          litsents sama litsentsielementidega, selle versiooni või
+          uuemat versiooni alusel, või BY-SA ühilduv litsents.
 
-       2. Peate lisama kohandaja litsentsi teksti või URI või
-          hüperlingi, mida rakendate. Selle tingimuse võib täita mis
-          tahes mõistlikul viisil, sõltuvalt meediumist, vahendist ja
-          kontekstist, kus jagate kohandatud materjali.
+       2. Te peate kaasama rakendatava adapteri litsentsi teksti või selle URI või hüperlingi,
+          mida Te rakendate. Selle tingimuse võite täita mistahes mõistliku
+          viisi abil, lähtudes meediumist, vahenditest ja
+          kontekstist, milles Te jagate kohandatud materjali.
 
-       3. Te ei tohi pakkuda ega kehtestada mingeid täiendavaid või
-          erinevaid tingimusi ega rakendada tõhusaid tehnoloogilisi
-          meetmeid kohandatud materjalile, mis piiravad õiguste
-          kasutamist kohandaja litsentsi alusel, mida rakendate.
+       3. Te ei tohi pakkuda ega kehtestada mingeid täiendavaid või erinevaid tingimusi
+          ega tingimusi või rakendada mingeid tõhusaid tehnoloogilisi
+          meetmeid kohandatud materjali suhtes, mis piiravad adapteri litsentsi
+          alusel Teie poolt antud õiguste kasutamist.
 
 
-4. peatükk – Sui Generis andmebaasi õigused.
+Section 4 -- Sui Generis Database Rights.
 
-Kui litsentsitud õigused hõlmavad Sui Generis andmebaasi õigusi, mis
-kehtivad teie litsentsitud materjali kasutamisele:
+Kui litsentsitud õigused hõlmavad Sui Generis andmebaasiõigusi, mis
+kehtivad Teie litsentsitud materjali kasutamisele:
 
-  a. selguse huvides annab peatüki 2(a)(1) alusel teile õiguse
-     andmebaasi sisu tervikuna või olulises osas välja võtta, uuesti
-     kasutada, reprodutseerida ja jagada;
+  a. kahtluse vältimiseks annab jaotis 2(a)(1) Teile õiguse
+     välja võtta, taaskasutada, reprodutseerida ja jagada kogu või olulist
+     osa andmebaasi sisust;
 
-  b. kui lisate andmebaasi sisu tervikuna või olulises osas
-     andmebaasi, millele teil on Sui Generis andmebaasi õigused...
-Õigused, siis andmebaas, milles Teil on Sui Generis andmebaasi õigused (kuid mitte selle individuaalsed sisud), on kohandatud materjal, 
+  b. kui Te kaasate kogu või olulise osa andmebaasi
+     sisust andmebaasi, milles Teil on Sui Generis andmebaasi
 
-sealhulgas jaotise 3(b) eesmärkidel; ja  
-c. Te peate järgima jaotise 3(a) tingimusi, kui jagate kogu või olulise osa andmebaasi sisust.  
+     Rights, siis andmebaas, milles Teil on Sui Generis Database
+     Rights (kuid mitte selle üksikuid osi) on Adapted Material,
 
-Selguse huvides täiendab käesolev jaotis 4 Teie kohustusi vastavalt käesolevale avalikule litsentsile, kui litsentsitud õigused hõlmavad muid autoriõigusi ja sarnaseid õigusi.  
+     sealhulgas Section 3(b) eesmärgil; ja
 
-### Jaotis 5 – Garantii välistamine ja vastutuse piiramine  
+  c. Te peate järgima lõike 3(a) tingimusi, kui Te jagate
+     kogu või olulist osa andmebaasi sisust.
 
-a. KUI LITSENTSIANDJA EI OLE ERALDI KOHUSTUNUD, PAKUB LITSENTSIANDJA LITSENTSEERITUD MATERJALI VÕIMALIKULT "NAGU ON" JA "NAGU SAADAVAL" PÕHIMÕTTEL NING EI ANNA MINGEID KINNITUSI EGA GARANTIISID LITSENTSEERITUD MATERJALI KOHTA, OLGU NEED SELGED, KAUDSED, SEADUSLIKUD VÕI MUUD. SEE HÕLMAB MUUHULGAS GARANTIISID OMANDIÕIGUSE, KAUBANDUSLIKU KVALITEEDI, SOBIVUSE KOHTA KONKREETSEKS OTSTARBEKS, MITTERIKKUMISE, VARJATUD VÕI MUUDE DEFEKTIDE PUUDUMISE, TÄPSUSE VÕI VIGADE OLEMASOLU VÕI PUUDUMISE KOHTA, OLGU NEED TEADA VÕI AVASTATAVAD. KUS GARANTIIDE VÄLISTAMINE EI OLE TÄIELIKULT VÕI OSALISELT LUBATUD, EI PRUUGI SEE VÄLISTAMINE TEILE KEHTIDA.  
+Kahtluse vältimiseks täiendab see jaotis 4 ning ei asenda
+     Teie kohustusi selle avaliku litsentsi alusel, kui litsentseeritud
+     õigused hõlmavad muid autoriõigusi ja sarnaseid õigusi.
 
-b. VÕIMALIKULT EI OLE LITSENTSIANDJA MITTE ÜHELKI JUHUL TEIE EES VASTUTAV ÜHEGI ÕIGUSLIKU TEORIIA (KAASA ARVATUD, MUUHULGAS, HOOLETUS) VÕI MUUL VIISIL MIS TAHES OTSESETE, ERILISTE, KAUDSETE, JUHUSLIKE, JÄRGNEVATE, KARISTUSLIKE, NÄIDISLIKUDE VÕI MUUDE KAHJUDE, KULUDE, KULUTUSTE VÕI KAHJUDE EEST, MIS TULENEVAD KÄESOLEVAST AVALIKUST LITSENTSIST VÕI LITSENTSEERITUD MATERJALI KASUTAMISEST, ISEGI KUI LITSENTSIANDJAT ON TEAVITATUD SELLISTE KAHJUDE, KULUDE, KULUTUSTE VÕI KAHJUDE VÕIMALIKKUSEST. KUS VASTUTUSE PIIRAMINE EI OLE TÄIELIKULT VÕI OSALISELT LUBATUD, EI PRUUGI SEE PIIRAMINE TEILE KEHTIDA.  
 
-c. Ülaltoodud garantii välistamist ja vastutuse piiramist tuleb tõlgendada viisil, mis võimalikult täpselt läheneb absoluutsele garantii välistamisele ja vastutuse loobumisele.  
+Jaotis 5 -- Garantii-erandid ja vastutuse piiramine.
 
-### Jaotis 6 – Kehtivus ja lõpetamine  
+  a. KUI LITSENTSANDJA EI OLE TEISITI ERALDI VÕTNUD, KUI
+     VÕIMALIK, PAKUB LITSENTSANDJA LITSENTSEERITUD MATERJALI NII KUI ON
+     JA NII KUI SEE ON SAADAVAL, JA EI ANNA MINGISUGUSEID VÄITMISI VÕI GARANTII(E)
+     KAS SEE ON VÄLJENDATUD, IMPLITSIITNE, SEADUSEST TULENEV VÕI MUU. SEE HÕLMAB ILMA PIIRANGUTA,
+     OMANDIÕIGUSE GARANTII(E), KAUBANDUSKÕLBLIKKUSE GARANTII(E), SOBIVUST KONKREETSEKS
+     EESMÄRGIKS, MITTE-RIKKUMIST, VARJATUTE VÕI MUUDE DEFEKTIDE PUUDUMIST,
+     TÄPSUST VÕI VIGADE OLEKUT VÕI MITTEOLEKUT, OLENEVALT KAS NEED ON
+     TEADLIKUD VÕI AVASTATAVAD. KUI GARANTII-LOOBUMISI EI LUBA TÄIELIKULT VÕI
+     OSALISELT, EI OLE SEE GARANTII-LOOBUMINE TEILE RAKENDATAV.
 
-a. Käesolev avalik litsents kehtib litsentsitud autoriõiguste ja sarnaste õiguste kehtivusaja jooksul. Kui Te ei järgi käesolevat avalikku litsentsi, lõpevad Teie õigused käesoleva avaliku litsentsi alusel automaatselt.  
 
-b. Kui Teie õigus kasutada litsentseeritud materjali on lõppenud vastavalt jaotisele 6(a), taastatakse see:  
+  b. KUI VÕIMALIK, MITTE KUNAGI EI OLE LITSENTSANDJA VASTUTAV
+     TEIE EEST ÜHELGI ÕIGUSTEOORIAL (KAASATES, KUID MITTE PIIRATUD,
+     HOOLEPUUDUSE) VÕI MUUL VIISIL ÜHEGI OTSESE, ERI, KAUDSE,
+     JUHTUMILISE, JÄRGNEVA, KARISTUS- VÕI EESKUJU‑LAADSE VÕI MUUDE KAOTUSTE,
+     KULUDE, RÄNNUSTE VÕI KAHJUDE EEST, MIS TULENEVAD KÄESOLEVAST AVALIKUST LITSENTSIST VÕI
+     LITSENTSEERITUD MATERJALI KASUTUSEST, ISEGI KUI LITSENTSANDJA ON OLENUD
+     TEATATUD SELLISETE KAOTUSTE, KULUDE, RÄNNUSTE VÕI KAHJUDE VÕIMALIKKUSEST.
+     KUI VASTUTUSE PIIRAMINE EI OLE LUBA TÄIELIKULT VÕI OSALISELT,
+     EI OLE SEE PIIRANG TEIE KOHALDUV.
 
-1. automaatselt kuupäeval, mil rikkumine on parandatud, tingimusel et see parandatakse 30 päeva jooksul pärast rikkumise avastamist; või  
-2. litsentsiandja selgesõnalise taastamise korral.  
+  c. Ülaltoodud garantiidest loobumine ja vastutuse piiramine
+     tuleb tõlgendada nii, et see, kus vähegi võimalik,
+     vastaks võimalikult lähedaselt absoluutsele garantiist loobumisele ja
+     kõigi vastutuste loobumisele.
 
-Selguse huvides ei mõjuta käesolev jaotis 6(b) litsentsiandja õigust otsida õiguskaitsevahendeid Teie rikkumiste eest käesoleva avaliku litsentsi alusel.  
 
-c. Selguse huvides võib litsentsiandja pakkuda litsentseeritud materjali ka eraldi tingimustel või lõpetada litsentseeritud materjali levitamise igal ajal; kuid see ei lõpeta käesolevat avalikku litsentsi.  
+Jaotis 6 -- Kehtivusaeg ja lõpetamine.
 
-d. Jaotised 1, 5, 6, 7 ja 8 jäävad kehtima pärast käesoleva avaliku litsentsi lõpetamist.  
+  a. Käesolev avalik litsents kehtib autoriõiguse ja
+     sarnaste õiguste kehtivuse perioodi jooksul. Kui Te aga eirate
+     seda avalikku litsentsi, siis Teie õigused selle avaliku litsentsi
+     alusel lõpevad automaatselt.
 
-### Jaotis 7 – Muud tingimused  
+  b. Kui Teie õigus kasutada litsentseeritud materjali on lõppenud vastavalt
+     lõikele 6(a), taastub see:
 
-a. Litsentsiandjat ei seo Teie poolt edastatud täiendavad või erinevad tingimused, kui neid ei ole selgesõnaliselt kokku lepitud.  
+       1. automaatselt alates rikkumise kõrvaldamise kuupäevast, eeldusel
+          et see kõrvaldatakse 30 päeva jooksul pärast Teie rikkumise
+          avastamist; või
 
-b. Kõik kokkulepped, arusaamad või lepingud litsentseeritud materjali kohta, mida siin ei ole mainitud, on eraldi ja sõltumatud käesoleva avaliku litsentsi tingimustest.  
+       2. litsentsiandja selgesõnalise taastamise alusel.
 
-### Jaotis 8 – Tõlgendamine  
+     Kahtluse vältimiseks ei mõjuta see jaotis 6(b) ühegi
+     õigust, mis litsentsiandjal võib olla, otsida abinõusid Teie rikkumiste
+     eest selle avaliku litsentsi alusel.
 
-a. Selguse huvides ei vähenda, piira, kitsenda ega kehtesta käesolev avalik litsents mingeid tingimusi litsentseeritud materjali kasutamisele, mis oleks seaduslik ilma käesoleva avaliku litsentsi loata.  
+  c. Kahtluse vältimiseks võib litsentsiandja samuti pakkuda
+     litsentseeritud materjali eritingimustel või lõpetada
+     litsentseeritud materjali levitamise igal ajal; siiski
+     sellest ei tulene selle avaliku litsentsi lõpetamine.
 
-b. Võimaluse korral, kui mõni käesoleva avaliku litsentsi säte loetakse jõustamatuks, muudetakse see automaatselt minimaalsel määral, et muuta see jõustatavaks. Kui sätet ei saa muuta, eraldatakse see käesolevast avalikust litsentsist, mõjutamata ülejäänud tingimuste jõustatavust.  
+  d. Jaotised 1, 5, 6, 7 ja 8 jäävad kehtima ka pärast selle avaliku
+     litsentsi lõpetamist.
 
-c. Käesoleva avaliku litsentsi tingimustest ei loobuta ja rikkumist ei aktsepteerita, kui litsentsiandja ei ole selgesõnaliselt nõustunud.  
 
-d. Mitte miski käesolevas avalikus litsentsis ei kujuta endast ega tohi tõlgendada kui piirangut või loobumist mis tahes privileegidest ja immuniteetidest, mis kehtivad litsentsiandjale või Teile, sealhulgas mis tahes jurisdiktsiooni või ametiasutuse õigusprotsessidest.  
+Jaotis 7 -- Muud tingimused ja sätted.
 
-=======================================================================  
+  a. Litsentsiandjat ei ole kohustatud siduma Teie poolt edastatud täiendavad või erinevad
+     tingimused, välja arvatud juhul, kui selleks on selgesõnaliselt kokku lepitud.
 
-Creative Commons ei ole oma avalike litsentside osapool. Sellegipoolest võib Creative Commons otsustada rakendada ühte oma avalikest litsentsidest materjalile, mida ta avaldab, ja sellistel juhtudel loetakse ta "litsentsiandjaks". Creative Commonsi avalike litsentside tekst on pühendatud avalikule omandile CC0 Public Domain Dedication'i alusel. Välja arvatud piiratud eesmärgil, mis näitab, et materjal on jagatud Creative Commonsi avaliku litsentsi alusel või muul viisil vastavalt Creative Commonsi poliitikatele, mis on avaldatud aadressil creativecommons.org/policies, ei luba Creative Commons kasutada kaubamärki "Creative Commons" ega ühtegi muud Creative Commonsi kaubamärki või logo ilma eelneva kirjaliku nõusolekuta, sealhulgas, muuhulgas, seoses mis tahes volitamata muudatustega mis tahes selle avalikes litsentsides või mis tahes muude kokkulepete, arusaamade või lepingutega litsentseeritud materjali kasutamise kohta. Selguse huvides ei ole käesolev lõik osa avalikest litsentsidest.  
+  b. Kõik korraldused, kokkulepped või lepingud, mis puudutavad
+     litsentseeritud materjali ja mida siin ei ole välja toodud,
+     on eraldi ja sõltumatud käesoleva avaliku litsentsi tingimustest.
 
-Creative Commonsiga saab ühendust võtta aadressil creativecommons.org.  
+
+Jaotis 8 -- Tõlgendamine.
+
+  a. Kahtluse vältimiseks ei vähenda ega tohiks see avalik litsents
+     välja tõlgendada nii, et see piiraks või paneks tingimusi mis tahes
+     litsentseeritud materjali kasutamisele, mida oleks seaduslik teha ilma
+     loata vastavalt käesolevale avalikule litsentsile.
+
+  b. Kui vähegi võimalik, kui mõni käesoleva avaliku litsentsi sätetest
+     loetakse täitmiseks mittetäitvaks, muudetakse see automaatselt
+     miinimaalsel määral, mis on vajalik selle jõustatavaks tegemiseks.
+     Kui sätet ei saa ümber kujundada, eemaldatakse see käesolevast
+     avalikust litsentsist ilma, et see mõjutaks ülejäänud
+     tingimuste jõustatavust.
+
+  c. Ühtegi käesoleva avaliku litsentsi sätet ei loobuta ja
+     täitmata jätmisele ei anta nõusolekut, kui seda ei ole selgesõnaliselt
+     kokku lepitud litsentsiandjaga.
+
+  d. Miski käesolevas avalikus litsentsis ei tähenda ega peaks olema tõlgendatav
+     kui piirang või loobumine mistahes privileegidest ja immuniteetidest
+     mis kehtivad litsentsiandja või Teie suhtes, sealhulgas õigusalaste
+     protsesside osas mistahes jurisdiktsiooni või asutuse poolt.
+
+
+=======================================================================
+
+Creative Commons ei ole osaline oma avalikes
+litsentsides. Sellest hoolimata võib Creative Commons otsustada kohaldada üht
+oma avalikest litsentsidest materjalile, mida ta avaldab, ja sellistel juhtudel
+seda käsitatakse kui „Litsentsiandjat“. Creative Commonsi avalike litsentside tekst on pühendatud
+avalikule domeenile CC0 Public Domain Dedication alla.
+Domain Dedication. Välja arvatud piiratud eesmärgil, et näidata, et
+materjal jagatakse Creative Commonsi avaliku litsentsi alusel või nagu
+muul viisil lubatud Creative Commonsi poliitikate poolt, mis on avaldatud aadressil creativecommons.org/policies, Creative Commons ei anna luba kasutada
+kasutamist kaubamärgi "Creative Commons" või mis tahes muu Creative Commonsi kaubamärgi või logo
+ilma selle eelneva kirjaliku nõusolekuta, sealhulgas,
+piiranguta, mis puudutavad mis tahes volitamata muudatusi
+mis tahes selle avalike litsentside või mis tahes muude korralduste,
+mõistmiste või lepingute osas, mis käsitlevad litsentseeritud materjali kasutamist. Kahtluse vältimiseks
+see lõik ei ole osa
+avalikest litsentsidest.
+
+
+Creative Commonsiga saab ühendust aadressil creativecommons.org.
 
 ---
 
-**Lahtiütlus**:  
-See dokument on tõlgitud, kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi püüame tagada täpsust, palun arvestage, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algkeeles tuleks lugeda autoriteetseks allikaks. Olulise teabe puhul on soovitatav kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valede tõlgenduste eest.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Lahtiütlus**:
+See dokument on tõlgitud kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi me püüdleme täpsuse poole, palun pange tähele, et automatiseeritud tõlgetes võib esineda vigu või ebatäpsusi. Originaaldokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlkega seotud eksimustest või valesti mõistmistest.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
