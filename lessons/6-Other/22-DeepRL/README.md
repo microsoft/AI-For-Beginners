@@ -78,12 +78,67 @@ After running one of those algorithms, we can expect our CartPole to behave like
 
 ![a balancing cartpole](images/cartpole-balance.gif)
 
-## ✍️ Exercises: Policy Gradients and Actor-Critic RL
+## Value-Based RL: Deep Q-Networks (DQN)
+
+Policy gradients and actor-critic learn the **policy** directly. There is another big family of RL algorithms that does something different: it learns how **valuable** each action is, and then derives the policy from those values.
+
+The central object is the **Q-function** (Q stands for *quality*). *Q*(*s*, *a*) is the total discounted reward we expect to collect if we take action *a* in state *s*, and then keep playing as well as we can. If we knew *Q*, the policy would be trivial - in every state we simply pick the action with the highest value:
+
+```
+π(s) = argmax over a of Q(s, a)
+```
+
+> ✅ In the Actor-Critic section the *critic* estimated the value of a **state** *V*(*s*). The Q-function is similar, but it estimates the value of a **state-action pair**, which is what lets us choose between actions without a separate actor.
+
+### The Bellman equation
+
+The Q-function has a nice recursive property. The value of taking action *a* in state *s* is the reward *r* we get right away, plus the discounted value of the best action in the next state *s'*:
+
+```
+Q(s, a) = r + γ · max over a' of Q(s', a')
+```
+
+Here &gamma; is the same discount factor we used for the policy gradients. Classical **Q-learning** stores *Q* in a table (one row per state, one column per action) and repeatedly nudges each entry towards the right-hand side of this equation:
+
+```
+Q(s, a) ← Q(s, a) + α · ( r + γ · max over a' of Q(s', a') - Q(s, a) )
+```
+
+A table only works when there are few states. In CartPole the state consists of 4 continuous numbers, so there are infinitely many states. The idea of the **Deep Q-Network (DQN)** is to replace the table with a neural network that takes a state and returns one Q-value per action (for CartPole, two numbers: "push left" and "push right"). We train it like a regression model, where the target comes from the Bellman equation:
+
+```
+target = r + γ · max over a' of Q_target(s', a')      (just r if the episode has ended)
+loss   = (Q(s, a) - target)²
+```
+
+### Tricks that make DQN work
+
+Training a network on its own predictions is unstable, because the target keeps moving while we learn, and because consecutive steps of one episode are highly correlated (unlike shuffled examples in a normal dataset). The DQN algorithm, made famous by [DeepMind's results on Atari games](https://www.nature.com/articles/nature14236), uses three ingredients to deal with this:
+
+* **Replay buffer**. We store every transition (*s*, *a*, *r*, *s'*, *done*) in a large memory and train on small random batches from it. This breaks the correlation between consecutive steps and lets us re-use each experience many times.
+* **Target network**. We keep a second copy of the network that is used only to compute the targets, and update it slowly (copy the weights every once in a while, or blend them in a little at each step). The target stays still for a while, which makes the regression problem much more stable.
+* **&epsilon;-greedy exploration**. With probability &epsilon; we take a random action, otherwise we take the action with the highest Q-value. We start with &epsilon; close to 1 (mostly **exploration**) and gradually decrease it (more and more **exploitation**), which is exactly the balance we discussed at the beginning of this lesson.
+
+### Value-based vs. policy-based methods
+
+| | **Value-based** (Q-learning, DQN) | **Policy-based** (Policy Gradients, Actor-Critic) |
+|---|---|---|
+| What the network learns | Q-value of each action | Probability of each action (and, for actor-critic, the state value) |
+| How we choose an action | Highest Q-value (the policy is *implicit*) | Sample from the policy network (the policy is *explicit*) |
+| Action space | Discrete actions only (we need to take a max over actions) | Discrete or continuous |
+| Exploration | &epsilon;-greedy, added by hand | Comes from the randomness of the policy itself |
+| Data re-use | High - old experience stays useful (replay buffer) | Low - typically each experience is used for one update |
+| Typical weakness | Can be unstable and sensitive to hyper-parameters | High variance, many episodes are needed |
+
+**Which one should you pick?** For problems with a small set of discrete actions (CartPole, Atari games) DQN is a great and sample-efficient choice. When actions are continuous (for example, the torque of a robot joint), or when you need a stochastic policy, use policy-based methods. In practice, most of the modern algorithms (such as A2C/A3C, DDPG or SAC) combine both ideas, in the same way as actor-critic does.
+
+## ✍️ Exercises: Policy Gradients, Actor-Critic and DQN
 
 Continue your learning in the following notebooks:
 
 * [RL in TensorFlow](CartPole-RL-TF.ipynb)
 * [RL in PyTorch](CartPole-RL-PyTorch.ipynb)
+* [Deep Q-Network (DQN) in PyTorch](CartPole-DQN-PyTorch.ipynb)
 
 ## Other RL Tasks
 
@@ -95,7 +150,7 @@ Reinforcement Learning nowadays is a fast growing field of research. Some of the
 
 ## Conclusion
 
-We have now learned how to train agents to achieve good results just by providing them a reward function that defines the desired state of the game, and by giving them an opportunity to intelligently explore the search space. We have successfully tried two algorithms, and achieved a good result in a relatively short period of time. However, this is just the beginning of your journey into RL, and you should definitely consider taking a separate course is you want to dig deeper.
+We have now learned how to train agents to achieve good results just by providing them a reward function that defines the desired state of the game, and by giving them an opportunity to intelligently explore the search space. We have successfully tried three algorithms (policy gradients, actor-critic and Deep Q-Networks), and achieved a good result in a relatively short period of time. However, this is just the beginning of your journey into RL, and you should definitely consider taking a separate course is you want to dig deeper.
 
 ## 🚀 Challenge
 
