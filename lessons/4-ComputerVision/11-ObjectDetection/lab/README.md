@@ -8,7 +8,7 @@ Counting number of people on video surveillance camera stream is an important ta
 
 ## The Dataset
 
-[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) contains 369,846 human heads annotated in 224,740 movie frames from Hollywood movies. It is provided in [https://host.robots.ox.ac.uk/pascal/VOC/](PASCAL VOC) format, where for each image there is also an XML description file that looks like this:
+[Hollywood Heads Dataset](https://www.di.ens.fr/willow/research/headdetection/release/HollywoodHeads.zip) contains 369,846 human heads annotated in 224,740 movie frames from Hollywood movies. It is provided in [PASCAL VOC](https://host.robots.ox.ac.uk/pascal/VOC/) format, where for each image there is also an XML description file that looks like this:
 
 ```xml
 <annotation>
@@ -55,8 +55,9 @@ In this dataset, there is only one class of objects `head`, and for each head, y
 You can train an object detection model using one of the following ways:
 
 * Using [Azure Custom Vision](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/quickstarts/object-detection?tabs=visual-studio&WT.mc_id=academic-77998-cacaste) and it's Python API to programmatically train the model in the cloud. Custom vision will not be able to use more than a few hundred images for training the model, so you may need to limit the dataset.
-* Using the example from [Keras tutorial](https://keras.io/examples/vision/retinanet/) to train RetunaNet model.
+* Using the example from [Keras tutorial](https://keras.io/examples/vision/retinanet/) to train RetinaNet model.
 * Using [torchvision.models.detection.RetinaNet](https://pytorch.org/vision/stable/_modules/torchvision/models/detection/retinanet.html) build-in module in torchvision.
+* Fine-tuning a pretrained detector from torchvision, as described in the [TorchVision Object Detection Finetuning tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html). This is the quickest way to get a good result on a small subset of the dataset; the [ObjectDetectionPyTorch.ipynb](../ObjectDetectionPyTorch.ipynb) notebook shows how to load and run such a detector.
 
 ## Takeaway
 
