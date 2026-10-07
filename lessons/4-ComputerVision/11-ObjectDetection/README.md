@@ -18,7 +18,7 @@ Assuming we wanted to find a cat on a picture, a very naive approach to object d
 
 ![Naive Object Detection](images/naive-detection.png)
 
-> *Image from [Exercise Notebook](ObjectDetection-TF.ipynb)*
+> *Image from [Exercise Notebook](ObjectDetection.ipynb)*
 
 However, this approach is far from ideal, because it only allows the algorithm to locate the object's bounding box very imprecisely. For more precise location, we need to run some sort of **regression** to predict the coordinates of bounding boxes - and for that, we need specific datasets.
 

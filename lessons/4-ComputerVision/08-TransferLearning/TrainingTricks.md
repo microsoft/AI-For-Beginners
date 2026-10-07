@@ -46,9 +46,9 @@ This effect can be explained in several ways:
 
 ## Preventing overfitting
 
-One of the very important aspect of deep learning is too be able to prevent [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). While it might be tempting to use very powerful neural network model, we should always balance the number of model parameters with the number of training samples.
+One of the very important aspect of deep learning is too be able to prevent [overfitting](../../3-NeuralNetworks/05-Frameworks/README.md#overfitting). While it might be tempting to use very powerful neural network model, we should always balance the number of model parameters with the number of training samples.
 
-> Make sure you understand the concept of [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) we have introduced earlier!
+> Make sure you understand the concept of [overfitting](../../3-NeuralNetworks/05-Frameworks/README.md#overfitting) we have introduced earlier!
 
 There are several ways to prevent overfitting:
 
@@ -100,6 +100,6 @@ This can be done by multiplying &eta; by some number (eg. 0.98) after each epoch
 
 Selecting right network architecture for your problem can be tricky. Normally, we would take an architecture that has proven to work for our specific task (or similar one). Here is a [good overview](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) or neural network architectures for computer vision.
 
-> It is important to select an architecture that will be powerful enough for the number of training samples that we have. Selecting too powerful model can result in [overfitting](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
+> It is important to select an architecture that will be powerful enough for the number of training samples that we have. Selecting too powerful model can result in [overfitting](../../3-NeuralNetworks/05-Frameworks/README.md#overfitting)
 
 Another good way would be to use and architecture that will automatically adjust to the required complexity. To some extent, **ResNet** architecture and **Inception** are self-adjusting. [More on computer vision architectures](../07-ConvNets/CNN_Architectures.md)
