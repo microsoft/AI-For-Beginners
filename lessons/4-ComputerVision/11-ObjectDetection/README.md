@@ -18,7 +18,7 @@ Assuming we wanted to find a cat on a picture, a very naive approach to object d
 
 ![Naive Object Detection](images/naive-detection.png)
 
-> *Image from [Exercise Notebook](ObjectDetection-TF.ipynb)*
+> *Image from [Exercise Notebook](ObjectDetection.ipynb)*
 
 However, this approach is far from ideal, because it only allows the algorithm to locate the object's bounding box very imprecisely. For more precise location, we need to run some sort of **regression** to predict the coordinates of bounding boxes - and for that, we need specific datasets.
 
@@ -76,7 +76,17 @@ We shall consider only those detections, for which IoU is above a certain value.
 ### Mean Average Precision - mAP
 
 The main metric for Object Detection is called **Mean Average Precision**, or **mAP**. It is the value of Average Precision, average across all object classes, and sometimes also over $\mbox{IoU Threshold}$. In more detail, the process of calculating **mAP** is described
-[in this blog post](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)), and also [here with code samples](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
+[in this blog post](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3), and also [here with code samples](https://gist.github.com/tarlen5/008809c3decf19313de216b9208f3734).
+
+## Non-Maximum Suppression
+
+Detectors usually predict several overlapping boxes for the same object. To keep only one box per object, almost every detector finishes with **Non-Maximum Suppression** (NMS):
+
+1. Sort the boxes by confidence score and keep the best one.
+2. Discard all remaining boxes that overlap the kept box with an IoU above a threshold (e.g. 0.5) - they most likely describe the same object.
+3. Repeat with the boxes that are left.
+
+A separate **score threshold** removes the low-confidence boxes. Together, these two parameters control the trade-off between missed objects and false alarms. You can implement IoU, NMS and AP yourself in the [PyTorch notebook](ObjectDetectionPyTorch.ipynb).
 
 ## Different Object Detection Approaches
 
@@ -87,7 +97,7 @@ There are two broad classes of object detection algorithms:
 
 ### R-CNN: Region-Based CNN
 
-[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) uses [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) to generate hierarchical structure of ROI regions, which are then passed through CNN feature extractors and SVM-classifiers to determine the object class, and linear regression to determine *bounding box* coordinates. [Official Paper](https://arxiv.org/pdf/1506.01497v1.pdf)
+[R-CNN](http://islab.ulsan.ac.kr/files/announcement/513/rcnn_pami.pdf) uses [Selective Search](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf) to generate hierarchical structure of ROI regions, which are then passed through CNN feature extractors and SVM-classifiers to determine the object class, and linear regression to determine *bounding box* coordinates. [Official Paper](https://arxiv.org/abs/1311.2524)
 
 ![RCNN](images/rcnn1.png)
 
@@ -95,7 +105,7 @@ There are two broad classes of object detection algorithms:
 
 ![RCNN-1](images/rcnn2.png)
 
-> *Images from [this blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)
+> *Images from [this blog](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e)*
 
 ### F-RCNN - Fast R-CNN
 
@@ -144,11 +154,20 @@ YOLO is a realtime one-pass algorithm. The main idea is the following:
    - [Object Detection with RetinaNet](https://keras.io/examples/vision/retinanet/) in Keras Samples
 * SSD (Single Shot Detector): [official paper](https://arxiv.org/abs/1512.02325)
 
+### Modern Detectors
+
+Object detection is a fast-moving field, and the architectures above are the foundation for what is used today:
+
+* The **YOLO** family has continued to evolve far beyond the original version (YOLOv2, v3, ... and the maintained [Ultralytics YOLO](https://docs.ultralytics.com/) models). These models are popular for real-time applications and are easy to use with only a few lines of Python.
+* **DETR** ([paper](https://arxiv.org/abs/2005.12872)) uses a transformer to predict a fixed-size *set* of boxes directly, so it does not need NMS or hand-designed region proposals. Pretrained DETR models are available in the [Hugging Face Transformers](https://huggingface.co/docs/transformers/tasks/object_detection) library.
+* Pretrained Faster R-CNN, RetinaNet, SSD and other detectors trained on COCO are available out of the box in [torchvision](https://pytorch.org/vision/stable/models.html#object-detection-instance-segmentation-and-person-keypoint-detection). In practice, you will often start with such a model and fine-tune it on your own data.
+
 ## ✍️ Exercises: Object Detection
 
-Continue your learning in the following notebook:
+Continue your learning in the following notebooks:
 
-[ObjectDetection.ipynb](ObjectDetection.ipynb)
+* [ObjectDetection.ipynb](ObjectDetection.ipynb) - the naive tile-based approach and a simple bounding box regression model in Keras.
+* [ObjectDetectionPyTorch.ipynb](ObjectDetectionPyTorch.ipynb) - implement IoU, non-maximum suppression and Average Precision from scratch, and run a pretrained object detector from `torchvision` on a real image.
 
 ## Conclusion
 
