@@ -39,7 +39,7 @@ Continue your learning in the following notebooks:
 
 Low-Level API | [TensorFlow+Keras Notebook](IntroKerasTF.ipynb) | [PyTorch](IntroPyTorch.ipynb)
 --------------|-------------------------------------|--------------------------------
-High-level API| [Keras](IntroKeras.ipynb) | *PyTorch Lightning*
+High-level API| [Keras](IntroKeras.ipynb) | [PyTorch Lightning](IntroPyTorchLightning.ipynb)
 
 After mastering the frameworks, let's recap the notion of overfitting.
 
