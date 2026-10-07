@@ -25,6 +25,10 @@ Continue your learning in the following notebooks:
 * [Training CBoW Word2Vec with TensorFlow](CBoW-TF.ipynb)
 * [Training CBoW Word2Vec with PyTorch](CBoW-PyTorch.ipynb)
 
+Writing the training loop yourself is a good way to understand how embeddings are trained, but in practice we usually use a library. The following notebook uses **gensim** to train Word2Vec (both CBoW and skip-gram) and FastText embeddings on the AG News text. It also shows how the main hyper-parameters affect the result, how to visualize the embedding space, and how to save the embeddings and use them to initialize the embedding layer of a classifier:
+
+* [Training Word2Vec and FastText with Gensim](Embeddings-Gensim.ipynb)
+
 
 ## Conclusion
 
@@ -36,7 +40,7 @@ In the previous lesson we have seen that words embeddings work like magic! Now w
 
 * [Official PyTorch tutorial on Language Modeling](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
 * [Official TensorFlow tutorial on training Word2Vec model](https://www.TensorFlow.org/tutorials/text/word2vec).
-* Using the **gensim** framework to train most commonly used embeddings in a few lines of code is described [in this documentation](https://pytorch.org/tutorials/beginner/nlp/word_embeddings_tutorial.html).
+* Using the **gensim** framework to train most commonly used embeddings in a few lines of code is described [in this documentation](https://radimrehurek.com/gensim/models/word2vec.html).
 
 ## 🚀 [Assignment: Train Skip-Gram Model](lab/README.md)
 
