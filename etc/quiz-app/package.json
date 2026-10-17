@@ -24,6 +24,9 @@
   },
   "overrides": {
     "postcss": "8.5.12",
+    "@vue/component-compiler-utils": {
+      "postcss": "7.0.39"
+    },
     "@vue/vue-loader-v15": {
       "loader-utils": "1.4.2"
     },
