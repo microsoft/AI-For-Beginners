@@ -58,7 +58,7 @@
 
 <img alt="計算圖" src="../../../../../translated_images/zh-TW/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: 圖片引用
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ 我們將在筆記本範例中更詳細地介紹反向傳播。
 

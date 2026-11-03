@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/ar/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: مصدر الصورة
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ سنغطي الانتشار العكسي بمزيد من التفصيل في مثالنا في الدفتر.
 

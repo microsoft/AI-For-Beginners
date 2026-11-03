@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/el/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: αναφορά εικόνας
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Θα καλύψουμε το backprop με πολύ περισσότερες λεπτομέρειες στο παράδειγμα του notebook μας.  
 

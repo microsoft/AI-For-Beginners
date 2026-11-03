@@ -58,7 +58,7 @@ Všimněte si, že levá část všech těchto výrazů je stejná, a proto mů�
 
 <img alt="výpočetní graf" src="../../../../../translated_images/cs/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: citace obrázku
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Zpětnou propagaci probereme mnohem podrobněji v našem příkladovém notebooku.  
 

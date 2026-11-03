@@ -58,7 +58,7 @@
 
 <img alt="계산 그래프" src="../../../../../translated_images/ko/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: 이미지 출처
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ 역전파에 대해서는 노트북 예제에서 훨씬 더 자세히 다룰 것입니다.
 

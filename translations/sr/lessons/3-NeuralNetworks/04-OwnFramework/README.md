@@ -58,7 +58,7 @@
 
 <img alt="граф рачунања" src="../../../../../translated_images/sr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: цитирање слике
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ У нашем примеру у нотебуку детаљније ћемо обрадити назадно ширење.  
 

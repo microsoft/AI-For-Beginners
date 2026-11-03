@@ -58,7 +58,7 @@ Notez que la partie la plus à gauche de toutes ces expressions est la même, et
 
 <img alt="graphe de calcul" src="../../../../../translated_images/fr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO : citation de l'image
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Nous aborderons la rétropropagation en détail dans notre exemple de notebook.  
 

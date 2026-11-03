@@ -58,7 +58,7 @@ Opazite, da je skrajno levi del vseh teh izrazov enak, zato lahko učinkovito iz
 
 <img alt="računski graf" src="../../../../../translated_images/sl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: navedba vira slike
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Povratno razširjanje bomo podrobneje obravnavali v našem zvezku z zgledom.  
 

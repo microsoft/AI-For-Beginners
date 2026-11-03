@@ -58,7 +58,7 @@
 
 <img alt="कम्प्यूट ग्राफ" src="../../../../../translated_images/hi/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: इमेज का संदर्भ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ हम अपने नोटबुक उदाहरण में बैकप्रॉप को और अधिक विस्तार से कवर करेंगे।  
 

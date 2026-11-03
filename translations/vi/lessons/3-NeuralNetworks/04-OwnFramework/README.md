@@ -58,7 +58,7 @@ Lưu ý rằng phần bên trái nhất của tất cả các biểu thức này
 
 <img alt="compute graph" src="../../../../../translated_images/vi/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: trích dẫn hình ảnh
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Chúng ta sẽ tìm hiểu backprop chi tiết hơn trong ví dụ notebook của chúng ta.  
 

@@ -58,7 +58,7 @@ Observera att den vänstra delen av alla dessa uttryck är densamma, och därfö
 
 <img alt="compute graph" src="../../../../../translated_images/sv/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: bildcitering
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Vi kommer att gå igenom backpropagation mycket mer detaljerat i vårt notebook-exempel.  
 

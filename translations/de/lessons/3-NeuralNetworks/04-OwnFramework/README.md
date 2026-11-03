@@ -58,7 +58,7 @@ Beachte, dass der linke Teil all dieser Ausdrücke derselbe ist, und daher könn
 
 <img alt="Berechnungsgraph" src="../../../../../translated_images/de/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: Bildquelle angeben
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Wir werden Backpropagation in unserem Notebook-Beispiel noch viel detaillierter behandeln.
 

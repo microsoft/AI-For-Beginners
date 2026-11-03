@@ -58,7 +58,7 @@ Merk at den venstre delen av alle disse uttrykkene er den samme, og dermed kan v
 
 <img alt="beregningsgraf" src="../../../../../translated_images/no/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: bildehenvisning
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Vi vil dekke backpropagation i mye mer detalj i vårt notatbokeksempel.  
 

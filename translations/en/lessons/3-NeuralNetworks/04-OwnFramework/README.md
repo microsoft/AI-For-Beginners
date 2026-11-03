@@ -67,7 +67,7 @@ Notice that the leftmost part of all these expressions is the same, allowing us 
 
 <img alt="compute graph" src="images/ComputeGraphGrad.png"/>
 
-> TODO: image citation
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ We will explore backpropagation in much greater detail in our notebook example.
 

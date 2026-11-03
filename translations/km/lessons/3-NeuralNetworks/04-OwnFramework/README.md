@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/km/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: image citation
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ យើងនឹងពិនិត្យរឿង backprop ជាច្រើនលម្អិតនៅក្នុងឧទាហរណ៍សៀវភៅកំណត់ត្រារៀន។
 

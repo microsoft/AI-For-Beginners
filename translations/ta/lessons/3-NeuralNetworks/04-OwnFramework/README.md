@@ -58,7 +58,7 @@
 
 <img alt="கணக்கீட்டு வரைபடம்" src="../../../../../translated_images/ta/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: படம் மேற்கோள்
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ நாங்கள் எங்கள் நோட்புக் எடுத்துக்காட்டில் பின்செலுத்தல் பற்றி மேலும் விரிவாகக் கையாளுவோம்.  
 

@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/ne/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: चित्र स्रोत
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ हामी ब्याकप्रोपलाई हाम्रो नोटबुक उदाहरणमा धेरै विस्तृत रूपमा कभर गर्नेछौं।  
 

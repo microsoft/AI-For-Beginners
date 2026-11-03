@@ -58,7 +58,7 @@ Primijetite da je lijevi dio svih tih izraza isti, i stoga možemo učinkovito i
 
 <img alt="računski graf" src="../../../../../translated_images/hr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: citiranje slike
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Povratnu propagaciju ćemo detaljnije obraditi u našem primjeru u bilježnici.
 

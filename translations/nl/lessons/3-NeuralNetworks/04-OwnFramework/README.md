@@ -58,7 +58,7 @@ Merk op dat het meest linkse deel van al deze uitdrukkingen hetzelfde is, en dat
 
 <img alt="compute graph" src="../../../../../translated_images/nl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: afbeelding bronvermelding
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ We zullen backpropagation veel gedetailleerder behandelen in ons notebookvoorbeeld.  
 

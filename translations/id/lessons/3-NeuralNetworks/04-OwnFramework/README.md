@@ -58,7 +58,7 @@ Perhatikan bahwa bagian paling kiri dari semua ekspresi tersebut adalah sama, se
 
 <img alt="compute graph" src="../../../../../translated_images/id/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: sitasi gambar
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Kita akan membahas backprop secara lebih rinci dalam contoh notebook kita.  
 

@@ -58,7 +58,7 @@ Nota que la parte más a la izquierda de todas estas expresiones es la misma, y 
 
 <img alt="compute graph" src="../../../../../translated_images/es/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: cita de la imagen
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Cubriremos la retropropagación con mucho más detalle en nuestro ejemplo de notebook.  
 

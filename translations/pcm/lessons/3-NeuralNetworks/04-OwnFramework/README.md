@@ -58,7 +58,7 @@ Notice say di left-most part of all di expressions dey di same, so we fit calcul
 
 <img alt="compute graph" src="../../../../../translated_images/pcm/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: image citation
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ We go talk about backprop well for di notebook example.  
 

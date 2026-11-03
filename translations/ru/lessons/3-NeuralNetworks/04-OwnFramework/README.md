@@ -58,7 +58,7 @@
 
 <img alt="граф вычислений" src="../../../../../translated_images/ru/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ссылка на источник изображения
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Мы рассмотрим обратное распространение ошибки гораздо подробнее в нашем примере с ноутбуком.
 

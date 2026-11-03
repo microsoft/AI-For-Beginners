@@ -58,7 +58,7 @@
 
 <img alt="ਕੰਪਿਊਟ ਗ੍ਰਾਫ" src="../../../../../translated_images/pa/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ਚਿੱਤਰ ਦਾ ਹਵਾਲਾ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ ਅਸੀਂ ਆਪਣੇ ਨੋਟਬੁੱਕ ਉਦਾਹਰਨ ਵਿੱਚ ਬੈਕਪ੍ਰੋਪ ਨੂੰ ਹੋਰ ਵਿਸਤਾਰ ਵਿੱਚ ਕਵਰ ਕਰਾਂਗੇ।  
 

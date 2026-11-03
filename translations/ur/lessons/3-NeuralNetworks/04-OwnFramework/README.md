@@ -58,7 +58,7 @@
 
 <img alt="کمپیوٹ گراف" src="../../../../../translated_images/ur/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: تصویر کا حوالہ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ ہم بیک پروپ کو اپنے نوٹ بک کی مثال میں بہت زیادہ تفصیل سے کور کریں گے۔
 

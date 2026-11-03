@@ -58,7 +58,7 @@ Observați că partea din stânga a tuturor acestor expresii este aceeași, și 
 
 <img alt="compute graph" src="../../../../../translated_images/ro/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: citarea imaginii
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Vom acoperi backprop în mult mai multe detalii în exemplul nostru din notebook.  
 

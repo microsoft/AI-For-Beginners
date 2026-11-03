@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/te/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: చిత్రం మూలం
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ మనం బ్యాక్‌ప్రాప్‌ను మన నోట్బుక్ ఉదాహరణలో మరింత వివరంగా చూడబోతున్నాము.
 

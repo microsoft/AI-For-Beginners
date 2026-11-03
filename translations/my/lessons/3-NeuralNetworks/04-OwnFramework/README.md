@@ -59,7 +59,7 @@ Gradient descent algorithm သည် အတူတူပင်ဖြစ်သေ�
 
 <img alt="compute graph" src="../../../../../translated_images/my/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: image citation
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Backprop ကို notebook example တွင် ပိုမိုအသေးစိတ်ဖော်ပြမည်။
 

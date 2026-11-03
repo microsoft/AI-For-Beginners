@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/he/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ציון מקור התמונה  
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ נעסוק בבקפרופגציה בפירוט רב יותר בדוגמה במחברת שלנו.  
 

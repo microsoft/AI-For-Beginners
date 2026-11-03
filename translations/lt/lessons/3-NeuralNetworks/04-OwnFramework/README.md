@@ -58,7 +58,7 @@ Atkreipkite dėmesį, kad kairiausia visų šių išraiškų dalis yra ta pati, 
 
 <img alt="skaičiavimo grafikas" src="../../../../../translated_images/lt/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: paveikslėlio citata
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Atgalinį sklidimą išsamiau aptarsime mūsų užrašų knygelės pavyzdyje.
 

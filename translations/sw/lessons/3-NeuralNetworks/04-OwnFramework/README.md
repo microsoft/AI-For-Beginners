@@ -58,7 +58,7 @@ Kumbuka kwamba sehemu ya kushoto kabisa ya maelezo haya yote ni sawa, na hivyo t
 
 <img alt="compute graph" src="../../../../../translated_images/sw/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: rejea ya picha
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Tutashughulikia backprop kwa undani zaidi katika mfano wetu wa notebook.  
 

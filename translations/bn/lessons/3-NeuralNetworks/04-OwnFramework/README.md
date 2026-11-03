@@ -58,7 +58,7 @@
 
 <img alt="কম্পিউট গ্রাফ" src="../../../../../translated_images/bn/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: চিত্রের সূত্র
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ আমরা আমাদের নোটবুক উদাহরণে ব্যাকপ্রপ আরও বিস্তারিতভাবে আলোচনা করব।  
 

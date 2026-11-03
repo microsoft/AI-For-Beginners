@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/ml/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ചിത്രം സൈറ്റേഷൻ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ ബാക്ക്‌പ്രോപ്പ് നമുക്ക് നോട്ട്ബുക്കിൽ കൂടുതൽ വിശദമായി പഠിക്കാം.
 

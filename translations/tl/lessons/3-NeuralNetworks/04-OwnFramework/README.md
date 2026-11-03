@@ -58,7 +58,7 @@ Pansinin na ang kaliwang bahagi ng lahat ng mga ekspresyon ay pareho, kaya't maa
 
 <img alt="compute graph" src="../../../../../translated_images/tl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: citation ng imahe
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Tatalakayin natin ang backprop nang mas detalyado sa ating notebook na halimbawa.  
 

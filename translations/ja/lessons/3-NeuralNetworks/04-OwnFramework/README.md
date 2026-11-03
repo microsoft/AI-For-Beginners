@@ -58,7 +58,7 @@
 
 <img alt="計算グラフ" src="../../../../../translated_images/ja/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: 画像の引用元
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ バックプロップについては、ノートブックの例でさらに詳しく説明します。
 

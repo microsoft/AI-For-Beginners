@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/kn/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ಚಿತ್ರ ಉಲ್ಲೇಖ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ ನಾವು ನಮ್ಮ ನೋಟ್ಬುಕ್ ಉದಾಹರಣೆಯಲ್ಲಿ ಬ್ಯಾಕ್‌ಪ್ರೊಪ್ ಅನ್ನು ಹೆಚ್ಚಿನ ವಿವರದಲ್ಲಿ ಚರ್ಚಿಸುವೆವು.
 

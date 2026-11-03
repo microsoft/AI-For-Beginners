@@ -58,7 +58,7 @@ Nota che la parte più a sinistra di tutte queste espressioni è la stessa, e qu
 
 <img alt="compute graph" src="../../../../../translated_images/it/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: citazione immagine
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Approfondiremo il backpropagation in modo molto più dettagliato nel nostro esempio nel notebook.  
 

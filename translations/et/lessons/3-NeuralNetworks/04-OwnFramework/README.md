@@ -58,7 +58,7 @@ Pange tähele, et kõigi nende avaldiste vasakpoolne osa on sama, ja seega saame
 
 <img alt="arvutusgraaf" src="../../../../../translated_images/et/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: pildi viide
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Katame tagasileviku palju detailsemalt meie näidisnotebookis.  
 

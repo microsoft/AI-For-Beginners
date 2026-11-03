@@ -58,7 +58,7 @@
 
 <img alt="گراف محاسباتی" src="../../../../../translated_images/fa/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: ذکر منبع تصویر
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ ما پس‌انتشار را با جزئیات بیشتر در مثال دفترچه یادداشت خود پوشش خواهیم داد.
 

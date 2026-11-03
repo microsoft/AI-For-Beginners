@@ -58,7 +58,7 @@ Figyeljük meg, hogy ezeknek a kifejezéseknek a bal szélső része ugyanaz, í
 
 <img alt="számítási gráf" src="../../../../../translated_images/hu/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: kép forrásmegjelölés
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ A backpropagation-t sokkal részletesebben fogjuk tárgyalni a notebook példánkban.  
 

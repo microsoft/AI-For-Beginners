@@ -58,7 +58,7 @@ Dikkat edin, bu ifadelerin en sol kısmı aynıdır ve bu nedenle türevleri etk
 
 <img alt="hesaplama grafiği" src="../../../../../translated_images/tr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: görsel kaynağı
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Geri yayılımı, notebook örneğimizde çok daha ayrıntılı bir şekilde ele alacağız.
 

@@ -58,7 +58,7 @@ Perhatikan bahawa bahagian paling kiri semua ungkapan tersebut adalah sama, dan 
 
 <img alt="compute graph" src="../../../../../translated_images/ms/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: rujukan imej
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Kita akan membincangkan backprop dengan lebih terperinci dalam contoh notebook kita.  
 

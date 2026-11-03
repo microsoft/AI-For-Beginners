@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/mr/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: प्रतिमेचा संदर्भ
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ आपण बॅकप्रोपचा अधिक तपशीलवार अभ्यास आपल्या नोटबुक उदाहरणात करू.
 

@@ -58,7 +58,7 @@ Zauważ, że lewa część wszystkich tych wyrażeń jest taka sama, dzięki cze
 
 <img alt="graf obliczeniowy" src="../../../../../translated_images/pl/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: cytowanie obrazu
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Omówimy propagację wsteczną znacznie bardziej szczegółowo w naszym przykładzie w notebooku.  
 

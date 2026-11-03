@@ -58,7 +58,7 @@ Huomaa, että kaikkien näiden lausekkeiden vasemmanpuoleinen osa on sama, ja n�
 
 <img alt="laskentakaavio" src="../../../../../translated_images/fi/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: kuvan lähde
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Käymme takaisinkuljetuksen paljon yksityiskohtaisemmin läpi esimerkkimuistikirjassamme.  
 

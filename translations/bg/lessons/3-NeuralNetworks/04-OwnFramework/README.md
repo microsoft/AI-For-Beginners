@@ -58,7 +58,7 @@
 
 <img alt="compute graph" src="../../../../../translated_images/bg/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: цитиране на изображението
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Ще разгледаме обратната пропагация много по-подробно в нашия пример в ноутбука.  
 

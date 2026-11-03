@@ -58,7 +58,7 @@
 
 <img alt="граф обчислень" src="../../../../../translated_images/uk/ComputeGraphGrad.4626252c0de03507.webp"/>
 
-> TODO: цитування зображення
+> Image by [Dmitry Soshnikov](http://soshnikov.com)
 
 > ✅ Ми розглянемо зворотне поширення набагато детальніше в нашому прикладі в ноутбуці.
 
