@@ -19,6 +19,6 @@ We are currently actively looking for contributions on the following topics:
 
 - [ ] Write section on Deep Reinforcement Learning
 - [ ] Improve section + notebook on Object Detection
-- [ ] PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/3-NeuralNetworks/05-Frameworks/README.md))
+- [ ] PyTorch Lightning (for [this section](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md))
 - [ ] Write section + samples on Named Entity Recognition
-- [ ] Create samples for training our own embeddings for [this section](https://github.com/microsoft/AI-For-Beginners/tree/main/5-NLP/15-LanguageModeling) 
+- [ ] Create samples for training our own embeddings for [this section](https://github.com/microsoft/AI-For-Beginners/tree/main/lessons/5-NLP/15-LanguageModeling) 

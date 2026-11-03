@@ -21,7 +21,7 @@
  - [Multi-Layered Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/04-OwnFramework/README.md)
  - [Intro to Frameworks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
    - [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)
-   - [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.md)
+   - [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)
    - [Overfitting](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
 ## [Computer Vision](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/README.md)
@@ -58,7 +58,7 @@
  - [Generative Recurrent Networks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/README.md)
  - [Transformers and BERT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/README.md)
  - [Named Entity Recognition](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/19-NER/README.md)
- - [Text Generation and GPT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LanguageModels/README.md)
+ - [Text Generation and GPT](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/20-LangModels/README.md)
 ## Other Techniques
  - [Genetic Algorithms](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/21-GeneticAlgorithms/README.md)
  - [Deep Reinforcement Learning](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/6-Other/22-DeepRL/README.md)
