@@ -9,6 +9,7 @@ dependencies:
   - jupyter
   - matplotlib=3.9
   - numpy=1.26
+  - pyarrow<26
   - python
   - requests=2.32
   - scikit-learn
