@@ -15,12 +15,41 @@
 <body>
   <div id="app"></div>
   <script>
+    // Keep section links from the former history router (/?id=...) working with the hash router.
+    const legacyId = new URLSearchParams(location.search).get('id');
+    if (legacyId && !location.hash) {
+      history.replaceState(null, '', location.pathname + '#/?id=' + encodeURIComponent(legacyId));
+    }
+
     window.$docsify = {
       name: 'AI for Beginners',
       repo: 'https://github.com/Microsoft/AI-For-Beginners',
       relativePath: true,
       auto2top: true,
-      routerMode: 'history'
+      plugins: [
+        // Raw HTML in the lessons uses paths relative to its markdown file, but the hash router
+        // serves every page from the site root, so resolve them the way Docsify resolves markdown.
+        function (hook, vm) {
+          const isRelative = url => !/^([a-z][a-z\d+.-]*:|\/|#)/i.test(url);
+
+          hook.afterEach(function (html) {
+            const page = document.createElement('template');
+            page.innerHTML = html;
+            const file = new URL(vm.route.file, location.href);
+
+            page.content.querySelectorAll('[src]').forEach(el => {
+              const src = el.getAttribute('src');
+              if (isRelative(src)) el.setAttribute('src', new URL(src, file).href);
+            });
+            page.content.querySelectorAll('a[href]').forEach(el => {
+              const href = el.getAttribute('href');
+              if (isRelative(href)) el.setAttribute('href', vm.router.toURL(href, null, vm.router.getCurrentPath()));
+            });
+
+            return page.innerHTML;
+          });
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
