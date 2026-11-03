@@ -107,7 +107,7 @@ Q(s, a) ← Q(s, a) + α · ( r + γ · max over a' of Q(s', a') - Q(s, a) )
 A table only works when there are few states. In CartPole the state consists of 4 continuous numbers, so there are infinitely many states. The idea of the **Deep Q-Network (DQN)** is to replace the table with a neural network that takes a state and returns one Q-value per action (for CartPole, two numbers: "push left" and "push right"). We train it like a regression model, where the target comes from the Bellman equation:
 
 ```
-target = r + γ · max over a' of Q_target(s', a')      (just r if the episode has ended)
+target = r + γ · max over a' of Q_target(s', a')      (just r if terminated, but still bootstrap if only time-limit truncated)
 loss   = (Q(s, a) - target)²
 ```
 
