@@ -1,211 +1,434 @@
-Attribution-ShareAlike 4.0 Tarptautinė
+Attribution-ShareAlike 4.0 International
 
 =======================================================================
 
-Creative Commons Corporation („Creative Commons“) nėra advokatų kontora ir neteikia teisinių paslaugų ar konsultacijų. Creative Commons viešųjų licencijų platinimas nesukuria advokato-kliento ar kitokio santykio. Creative Commons pateikia savo licencijas ir susijusią informaciją „tokios, kokios yra“ pagrindu. Creative Commons nesuteikia jokių garantijų dėl savo licencijų, bet kokios medžiagos, licencijuotos pagal jų sąlygas, ar susijusios informacijos. Creative Commons atsisako bet kokios atsakomybės už žalą, atsiradusią dėl jų naudojimo, kiek tai leidžia įstatymai.
+Creative Commons Corporation („Creative Commons“) nėra teisinė firma ir
+nesuteikia teisinių paslaugų ar teisinių patarimų. Creative Commons viešųjų
+licencijų platinimas nesukuria teisininko-kliento ar kitų santykių.
+Creative Commons suteikia savo licencijas ir susijusią informaciją „kaip yra“.
+Creative Commons neduoda jokių garantijų dėl savo licencijų, bet kokios
+medžiagos, licencijuotos pagal jų sąlygas, ar bet kokios susijusios informacijos.
+Creative Commons neatsako už žalą, kylančią dėl jų naudojimo, didžiausia
+leidžiama taikoma apimtimi.
 
-Naudojimasis Creative Commons viešosiomis licencijomis
 
-Creative Commons viešosios licencijos suteikia standartines sąlygas, kurias kūrėjai ir kiti teisių turėtojai gali naudoti dalindamiesi originaliais kūriniais ir kita medžiaga, kuri yra saugoma autorių teisių ir tam tikrų kitų teisių, nurodytų žemiau pateiktoje viešojoje licencijoje. Toliau pateikti svarstymai yra tik informacinio pobūdžio, nėra išsamūs ir nėra mūsų licencijų dalis.
 
-     Svarstymai licencijų teikėjams: Mūsų viešosios licencijos yra
-     skirtos tiems, kurie turi teisę suteikti visuomenei leidimą
-     naudoti medžiagą būdais, kurie kitaip būtų ribojami autorių
-     teisių ir tam tikrų kitų teisių. Mūsų licencijos yra
-     neatšaukiamos. Licencijų teikėjai turėtų perskaityti ir
-     suprasti licencijos sąlygas prieš ją taikydami. Licencijų
-     teikėjai taip pat turėtų užtikrinti, kad turi visas būtinas
-     teises prieš taikydami mūsų licencijas, kad visuomenė galėtų
-     naudoti medžiagą, kaip tikėtasi. Licencijų teikėjai turėtų
-     aiškiai pažymėti bet kokią medžiagą, kuri nėra licencijos
-     dalis. Tai apima kitą CC licencijuotą medžiagą arba medžiagą,
-     naudojamą pagal išimtį ar apribojimą autorių teisėms. Daugiau
-     svarstymų licencijų teikėjams:
+
+kurį kūrėjai ir kiti teisių turėtojai gali naudoti, norėdami dalintis originaliais
+autoriaus darbais ir kita medžiaga, priklausančia autorių teisių ir tam tikrų kitų
+teisių sričiai, nurodytai žemiau esančioje viešojoje licencijoje. Toliau pateikti
+svarstymai yra tik informacinio pobūdžio, nėra išsamūs ir nėra mūsų licencijų dalis.
+
+išsamūs ir nėra mūsų licencijų dalis.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     Svarstymai visuomenei: Naudodamasis viena iš mūsų viešųjų
-     licencijų, licencijos teikėjas suteikia visuomenei leidimą
-     naudoti licencijuotą medžiagą pagal nurodytas sąlygas. Jei
-     licencijos teikėjo leidimas nėra būtinas dėl kokios nors
-     priežasties, pavyzdžiui, dėl taikomos išimties ar apribojimo
-     autorių teisėms, tada toks naudojimas nėra reguliuojamas
-     licencija. Mūsų licencijos suteikia tik leidimus pagal
-     autorių teises ir tam tikras kitas teises, kurias licencijos
-     teikėjas turi teisę suteikti. Licencijuotos medžiagos
-     naudojimas vis dar gali būti ribojamas dėl kitų priežasčių,
-     įskaitant tai, kad kiti turi autorių teises ar kitas teises
-     į medžiagą. Licencijos teikėjas gali pateikti specialius
-     prašymus, pavyzdžiui, prašyti, kad visi pakeitimai būtų
-     pažymėti ar aprašyti. Nors tai nėra privaloma pagal mūsų
-     licencijas, rekomenduojama gerbti tokius prašymus, jei jie
-     yra pagrįsti. Daugiau svarstymų visuomenei:
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 Tarptautinė viešoji licencija
+Creative Commons Attributavimo-Licencijavimo Panašiai 4.0 Tarptautinė
+Licencija
 
-Naudodamasis Licencijuotomis teisėmis (apibrėžta žemiau), Jūs sutinkate ir įsipareigojate laikytis šios Creative Commons Attribution-ShareAlike 4.0 Tarptautinės viešosios licencijos („Viešoji licencija“) sąlygų. Tiek, kiek ši Viešoji licencija gali būti interpretuojama kaip sutartis, Jums suteikiamos Licencijuotos teisės, atsižvelgiant į Jūsų sutikimą su šiomis sąlygomis, o Licencijos teikėjas suteikia Jums tokias teises, atsižvelgdamas į naudą, kurią jis gauna, padarydamas Licencijuotą medžiagą prieinamą pagal šias sąlygas.
-
-
-1 skyrius – Apibrėžimai.
-
-  a. Pritaikyta medžiaga reiškia medžiagą, saugomą autorių teisių ir panašių teisių, kuri yra išvestinė iš Licencijuotos medžiagos arba pagrįsta ja, ir kurioje Licencijuota medžiaga yra išversta, pakeista, sutvarkyta, transformuota ar kitaip modifikuota taip, kad reikalingas leidimas pagal Licencijos teikėjo turimas autorių teises ir panašias teises. Šios Viešosios licencijos tikslais, kai Licencijuota medžiaga yra muzikinis kūrinys, atlikimas ar garso įrašas, Pritaikyta medžiaga visada sukuriama, kai Licencijuota medžiaga yra sinchronizuota laiko atžvilgiu su judančiu vaizdu.
-
-  b. Adapterio licencija reiškia licenciją, kurią Jūs taikote savo autorių teisėms ir panašioms teisėms savo indėliui į Pritaikytą medžiagą pagal šios Viešosios licencijos sąlygas.
-
-  c. BY-SA suderinama licencija reiškia licenciją, išvardytą creativecommons.org/compatiblelicenses, kurią Creative Commons patvirtino kaip iš esmės lygiavertę šiai Viešajai licencijai.
-
-  d. Autorių teisės ir panašios teisės reiškia autorių teises ir/arba panašias teises, glaudžiai susijusias su autorių teisėmis, įskaitant, be apribojimų, atlikimo, transliavimo, garso įrašų ir Sui Generis duomenų bazės teises, neatsižvelgiant į tai, kaip teisės yra pažymėtos ar klasifikuojamos. Šios Viešosios licencijos tikslais teisės, nurodytos 2 skyriaus (b)(1)-(2) punkte, nėra autorių teisės ir panašios teisės.
-
-  e. Veiksmingos technologinės priemonės reiškia tas priemones, kurios, neturint tinkamos valdžios, negali būti apeitos pagal įstatymus, vykdančius įsipareigojimus pagal 1996 m. gruodžio 20 d. priimtą Pasaulinės intelektinės nuosavybės organizacijos (WIPO) autorių teisių sutarties 11 straipsnį ir/arba panašius tarptautinius susitarimus.
-
-  f. Išimtys ir apribojimai reiškia sąžiningą naudojimą, sąžiningą elgesį ir/arba bet kokią kitą išimtį ar apribojimą autorių teisėms ir panašioms teisėms, taikomą Jūsų naudojimui Licencijuota medžiaga.
-
-  g. Licencijos elementai reiškia licencijos atributus, išvardytus Creative Commons Viešosios licencijos pavadinime. Šios Viešosios licencijos Licencijos elementai yra Priskyrimas ir Dalijimasis panašiai.
-
-  h. Licencijuota medžiaga reiškia meninį ar literatūrinį kūrinį, duomenų bazę ar kitą medžiagą, kuriai Licencijos teikėjas taikė šią Viešąją licenciją.
-
-  i. Licencijuotos teisės reiškia teises, suteiktas Jums pagal šios Viešosios licencijos sąlygas, kurios apsiriboja visomis autorių teisėmis ir panašiomis teisėmis, taikomomis Jūsų naudojimui Licencijuota medžiaga, ir kurias Licencijos teikėjas turi teisę licencijuoti.
-
-  j. Licencijos teikėjas reiškia asmenį (-is) ar subjektą (-us), suteikiantį teises pagal šią Viešąją licenciją.
-
-  k. Dalijimasis reiškia medžiagos pateikimą visuomenei bet kokiomis priemonėmis ar procesais, kuriems reikalingas leidimas pagal Licencijuotas teises, pvz., reprodukcija, viešas rodymas, viešas atlikimas, platinimas, sklaida, komunikacija ar importavimas, ir medžiagos pateikimą visuomenei, įskaitant būdus, kuriais visuomenės nariai gali pasiekti medžiagą iš vietos ir laiko, pasirinkto individualiai.
-
-  l. Sui Generis duomenų bazės teisės reiškia teises, išskyrus autorių teises, atsirandančias iš 1996 m. kovo 11 d. Europos Parlamento ir Tarybos direktyvos 96/9/EB dėl duomenų bazių teisinės apsaugos, su pakeitimais ir/arba perėmimais, taip pat kitas iš esmės lygiavertes teises bet kurioje pasaulio vietoje.
-
-  m. Jūs reiškia asmenį ar subjektą, naudojantį Licencijuotas teises pagal šią Viešąją licenciją. Jūsų turi atitinkamą reikšmę.
+Naudojant Licencijuotas Teises (žr. žemiau), Jūs sutinkate ir įsipareigojate
+laikytis sąlygų ir nuostatų šios Creative Commons Attributavimo-Licencijavimo
+Panašiai 4.0 Tarptautinės Licencijos („Viešoji Licencija“). Tokiu mastu,
+kokiu ši Viešoji Licencija gali būti traktuojama kaip sutartis, Jums
+suteikiamos Licencijuotos Teisės, priimant šias sąlygas ir nuostatas, o
+Licencijos suteikėjas Jums suteikia tokias teises atsižvelgdamas į naudą, kurią
+Licencijos suteikėjas gauna padarydamas Licencijuotą Medžiagą prieinamą pagal
+šias sąlygas ir nuostatas.
 
 
-2 skyrius – Apimtis.
 
-  a. Licencijos suteikimas.
 
-       1. Atsižvelgiant į šios Viešosios licencijos sąlygas, Licencijos teikėjas suteikia Jums pasaulinę, be autorinio atlyginimo, nesublicencijuojamą, neišimtinę, neatšaukiamą licenciją naudotis Licencijuotomis teisėmis Licencijuotoje medžiagoje:
 
-            a. reprodukuoti ir dalintis Licencijuota medžiaga, visiškai ar iš dalies; ir
+     panašių teisių, paremta arba išvestinė iš Licencijuotos Medžiagos, kurioje
+     Licencijuota Medžiaga yra išversta, pakeista, sutvarkyta, transformuota ar
+     kitaip modifikuota taip, jog reikalinga Leidėjo (Licencijos suteikėjo) leidimas
+     pagal Autorių teises ir panašias teises. Šios Viešosios Licencijos
+     tikslais, kai Licencijuota Medžiaga yra muzikinis kūrinys, pasirodymas ar
+     garso įrašas, Adaptuota Medžiaga visada susidaro, kai Licencijuota Medžiaga
+     sinchronizuojama su judančiu vaizdu laiko atžvilgiu.
 
-            b. kurti, reprodukuoti ir dalintis Pritaikyta medžiaga.
+  b. Adaptuotojo Licencija reiškia licenciją, kurią Jūs taikote savo
 
-       2. Išimtys ir apribojimai. Siekiant išvengti nesusipratimų, jei Jūsų naudojimui taikomos išimtys ir apribojimai, ši Viešoji licencija netaikoma, ir Jums nereikia laikytis jos sąlygų.
+     Medžiagą pagal šios Viešosios Licencijos sąlygas ir nuostatas.
 
-       3. Terminas. Šios Viešosios licencijos terminas nurodytas 6 skyriaus (a) punkte.
+  c. BY-SA Suderinama Licencija reiškia licenciją, nurodytą puslapyje
 
-       4. Medijos ir formatai; leidžiami techniniai pakeitimai. Licencijos teikėjas leidžia Jums naudotis Licencijuotomis teisėmis visose medijose ir formatuose, tiek dabar žinomuose, tiek vėliau sukurtuose, ir atlikti techninius pakeitimus, būtinus tai padaryti. Licencijos teikėjas atsisako ir/arba sutinka nesiimti jokių teisių ar įgaliojimų drausti Jums atlikti techninius pakeitimus, būtinus naudotis Licencijuotomis teisėmis, įskaitant techninius pakeitimus, būtinus apeiti Veiksmingas technologines priemones. Šios Viešosios licencijos tikslais, paprastas pakeitimų atlikimas, leidžiamas pagal šį 2 skyriaus (a)(4) punktą, niekada nesukuria Pritaikytos medžiagos.
+     praktiškai lygiavertę šiai Viešajai Licencijai.
 
-       5. Tolimesni gavėjai.
+  d. Autorių teisės ir panašios teisės reiškia autorių teises ir (arba) su
 
-            a. Licencijos teikėjo pasiūlymas – Licencijuota medžiaga. Kiekvienas Licencijuotos medžiagos gavėjas automatiškai gauna Licencijos teikėjo pasiūlymą naudotis Licencijuotomis teisėmis pagal šios Viešosios licencijos sąlygas.
+     atlikti, transliuoti, įrašyti garsą ir Sui Generis duomenų bazių teises,
+     nepaisant kaip tos teisės pavadintos ar sugrupuotos. Šios Viešosios
+     Licencijos tikslais teisės, nurodytos 2(b)(1)-(2) punktuose, nelaikomos
+     Autorių teisėmis ir panašiomis teisėmis.
 
-            b. Papildomas Licencijos teikėjo pasiūlymas – Pritaikyta medžiaga. Kiekvienas Pritaikytos medžiagos gavėjas iš Jūsų automatiškai gauna Licencijos teikėjo pasiūlymą naudotis Licencijuotomis teisėmis Pritaikytoje medžiagoje pagal Adapterio licencijos sąlygas, kurias Jūs taikote.
+  e. Efektyvios Technologinės Priemonės reiškia tokias priemones, kurių be
+     tinkamos leidimo negalima apeiti pagal įstatymus, atitinkančius 1996 m.
 
-            c. Jokie tolimesni apribojimai. Jūs negalite siūlyti ar taikyti jokių papildomų ar skirtingų sąlygų ar taikyti Veiksmingų technologinių priemonių Licencijuotai medžiagai, jei tai riboja Licencijuotų teisių naudojimą bet kuriam Licencijuotos medžiagos gavėjui.
+     panašias tarptautines sutartis.
 
-       6. Jokio pritarimo. Nieko šioje Viešojoje licencijoje negalima interpretuoti kaip leidimo teigti ar daryti prielaidą, kad Jūs esate susijęs su Licencijos teikėju ar kad Jūsų naudojimasis Licencijuota medžiaga yra susijęs su Licencijos teikėju, remiamas, patvirtintas ar suteiktas oficialus statusas.
+  f. Išimtys ir apribojimai reiškia teisingą naudojimą, teisingą susitarimą ir (arba)
+     kitas išimtis arba apribojimus Autorių teisėms ir panašioms teisėms, kurie
+     taikomi Jūsų Licencijuotos Medžiagos naudojimui.
+
+  g. Licencijos elementai reiškia licencijos atributus, nurodytus Creative Commons
+     Viešosios Licencijos pavadinime. Šios Viešosios Licencijos Licencijos
+     elementai yra Attributavimas ir Panašiai.
+
+  h. Licencijuota Medžiaga reiškia meninį ar literatūrinį kūrinį, duomenų bazę
+     ar kitą medžiagą, kuriai Licencijos suteikėjas taikė šią Viešąją Licenciją.
+
+
+     Licencijos sąlygas, apribotos visomis Autorių teisėmis ir panašiomis teisėmis,
+     kurios taikomos Jūsų Licencijuotos Medžiagos naudojimui ir kurias
+     Licencijos suteikėjas turi teisę licencijuoti.
+
+  j. Licencijos suteikėjas reiškia asmenį (-is) ar subjektą (-us), suteikiantį
+     teises pagal šią Viešąją Licenciją.
+
+  k. Dalinti reiškia pateikti medžiagą visuomenei bet kokiu būdu ar procesu, kuris
+
+     viešas rodymas, viešas atlikimas, platinimas, sklaida, komunikacija ar
+     importavimas, taip pat padaryti medžiagą prieinamą visuomenei tokiais būdais,
+
+     laiko.
+
+     kaip kopijavimas, viešas rodymas, viešas atlikimas, platinimas,
+     sklaida, komunikacija arba importavimas, ir padaryti medžiagą
+     prieinamą visuomenei taip, kad visuomenės nariai galėtų prieiti prie medžiagos
+     iš vietos ir laiko, kuriuos jie pasirenka individualiai.
+
+
+  l. Sui Generis duomenų bazių teisės reiškia teises, išskyrus autorines teises,
+     kurios kyla iš 1996 m. kovo 11 d. Europos Parlamento ir Tarybos direktyvos 96/9/EB
+     dėl duomenų bazių teisines apsaugos,
+     su pakeitimais ir/ar pakeitimu, taip pat kitos esminės ekvivalentinės teisės bet kur pasaulyje.
+
+
+     šios viešosios licencijos rėmuose. Jūsų turi atitinkamą reikšmę.
+
+
+
+
+
+
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
+
+            b. produce, reproduce, and Share Adapted Material.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
 
   b. Kitos teisės.
 
-       1. Moralės teisės, tokios kaip teisė į vientisumą, nėra licencijuojamos pagal šią Viešąją licenciją, taip pat nėra viešumo, privatumo ir/arba kitos panašios asmenybės teisės; tačiau, kiek įmanoma, Licencijos teikėjas atsisako ir/arba sutinka nesiimti jokių tokių teisių, kurias turi Licencijos teikėjas, tiek, kiek būtina, kad Jūs galėtumėte naudotis Licencijuotomis teisėmis, bet ne daugiau.
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
 
-       2. Patentų ir prekių ženklų teisės nėra licencijuojamos pagal šią Viešąją licenciją.
+       2. Patent and trademark rights are not licensed under this
+          Public License.
 
-       3. Kiek įmanoma, Licencijos teikėjas atsisako teisės rinkti autorinius atlyginimus iš Jūsų už Licencijuotų teisių naudojimą, tiek tiesiogiai, tiek per kolektyvinę organizaciją pagal bet kokią savanorišką ar atsisakomą įstatyminę ar privalomą licencijavimo schemą. Visais kitais atvejais Licencijos teikėjas aiškiai pasilieka teisę rinkti tokius autorinius atlyginimus.
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
 
 
-3 skyrius – Licencijos sąlygos.
+3 skyrius -- Licencijos sąlygos.
 
-Jūsų naudojimasis Licencijuotomis teisėmis yra aiškiai sąlygotas šių sąlygų.
+Jūsų licencijuotų teisių vykdymas aiškiai priklauso nuo 
+šių sąlygų.
 
-  a. Priskyrimas.
+  a. Atpažinimas.
 
-       1. Jei Jūs dalinatės Licencijuota medžiaga (įskaitant modifikuotą formą), Jūs privalote:
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
 
-            a. išsaugoti šiuos elementus, jei jie pateikti Licencijos teikėjo kartu su Licencijuota medžiaga:
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
 
-                 i. kūrėjo (-ų) identifikaciją ir kitų asmenų, kuriems reikia priskyrimo, identifikaciją, bet kokiu pagrįstu būdu, kurį prašo Licencijos teikėjas (įskaitant pseudonimą, jei nurodyta);
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
 
-                ii. autorių teisių pranešimą;
+                ii. a copyright notice;
 
-               iii. pranešimą, kuris nurodo šią Viešąją licenciją;
+               iii. a notice that refers to this Public License;
 
-                iv. pranešimą, kuris nurodo garantijų atsisakymą;
+                iv. a notice that refers to the disclaimer of
+                    warranties;
 
-                 v. URI arba hipersaitą į Licencijuotą medžiagą, kiek tai pagrįstai įmanoma;
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
 
-            b. nurodyti, jei Jūs modifikavote Licencijuotą medžiagą, ir išsaugoti bet kokių ankstesnių modifikacijų indikaciją; ir
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
 
-            c. nurodyti, kad Licencijuota medžiaga yra licencijuota pagal šią Viešąją licenciją, ir įtraukti šios Viešosios licencijos tekstą arba URI ar hipersaitą.
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
 
-       2. Jūs galite įvykdyti 3 skyriaus (a)(1) sąlygas bet kokiu pagrįstu būdu, atsižvelgiant į mediją, priemones ir kontekstą, kuriame Jūs dalinatės Licencijuota medžiaga. Pavyzdžiui, gali būti pagrįsta įvykdyti sąlygas pateikiant URI arba hipersaitą į šaltinį, kuriame yra reikiama informacija.
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
 
-       3. Jei Licencijos teikėjas to prašo, Jūs privalote pašalinti bet kurią informaciją, reikalaujamą pagal 3 skyriaus (a)(1)(A) punktą, kiek tai pagrįstai įmanoma.
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
 
-  b. Dalijimasis panašiai.
+  b. Dalinimasis tokiomis pačiomis sąlygomis.
 
-     Be 3 skyriaus (a) sąlygų, jei Jūs dalinatės Pritaikyta medžiaga, kurią sukūrėte, taikomos šios sąlygos.
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
 
-       1.
-Teisės, tada duomenų bazė, kurioje Jūs turite Sui Generis duomenų bazės teises (bet ne jos atskirus turinius), yra Adaptuota medžiaga,
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
 
-įskaitant 3(b) skyriaus tikslams; ir  
-c. Jūs privalote laikytis 3(a) skyriaus sąlygų, jei dalinatės visa arba didžiąja dalimi duomenų bazės turinio.
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
 
-Siekiant išvengti nesusipratimų, šis 4 skyrius papildo ir nepakeičia Jūsų įsipareigojimų pagal šią viešąją licenciją, kai licencijuotos teisės apima kitas autorių teises ir panašias teises.
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+4 skyrius -- Sui Generis duomenų bazių teisės.
+
+Kai licencijuotos teisės apima Sui Generis duomenų bazių teises, kurios
+taikomos Jūsų naudotojo teisei naudotis licencijuota medžiaga:
+
+  a. dėl aiškumo, 2(a)(1) skyrius suteikia Jums teisę išgauti, pakartotinai naudoti,
+     atgaminti ir dalintis visa arba didžiąja duomenų bazės turinio dalimi;
+
+
+     kuriai turite Sui Generis duomenų bazių teises, tai duomenų bazė, kuriai 
+     turite Sui Generis duomenų bazių teises (bet ne jos atskiras turinys), 
+     yra pritaikyta medžiaga,
+
+
+     including for purposes of Section 3(b); and
+  c. Jei dalijatės visa arba didžiąja duomenų bazės turinio dalimi, privalote laikytis 3(a) skyriaus sąlygų.
+
+
+pagal šią Viešąją licenciją, kai licencijuotos teisės apima ir kitas autorių teises 
+bei panašias teises.
+
+
+
+
+
+     LICENCIUOTOJAS PATEIKIA LICENCIJUOTĄ MEDŽIAGĄ „TOKIĄ, KOKIA YRA“
+     IR „TOKIA, KOKIA GALIMA“, IR NEGARANTUOJA JOKIŲ GARANTIJŲ AR PAŽADŲ
+     SUSIJUSIŲ SU LICENCIJUOTA MEDŽIAGA, AR TIEK AIŠKIŲ, TIEK NUMATOMŲ,
+     ĮSTATYMINIŲ AR KITŲ. TAI APIMA, BE APRIBOJIMŲ, TURĖJIMO TEISĖS,
+     TINKAMUMO PREKYBAI, TINKAMUMO KONKREČIAM TIKSLUI, NEPAŽEIDŽIMO,
+     SLAPTAI AR KITŲ DEFEKTŲ TRŪKUMO, TIKSLUMO GARBĘ AR KLAIDŲ BUVIMO AR TRŪKUMO,
+     NESVARBU, AR JOS YRA ŽINOMOS AR ATRANDAMOS. TEN, KUR GARANTIJŲ VYKDYMAS
+     YRA APRIBOTAS AR NELEIDŽIAMAS VISAI AR DALINAI, ŠIS ATSISAKYMAS JUMS
+     NEGALIOJA.
+
+
+     PRINCIPU (ĮSKAITANT, BET NEAPSIRIBOJANT, NEATSARGUMĄ) AR KITAI UŽ
+     JOKIUS TIESIOGINIUS, IŠIMTINIUS, NETIESIOGINIUS, ATSITIKTINIUS,
+     NETIESIOGINIUS, BAUSMINGUS, PAVYZDINIUS AR KITOKIUS NUOSTOLIUS,
+     IŠLAIDAS, KAINAS AR ŽALAS, KILUSIAS IŠ ŠIOS VIEŠOSIOS LICENCIJOS AR
+     LICENCIJUOTOS MEDŽIAGOS NAUDOJIMO, NET JEI LICENCIUOTOJAS BUVO
+     ĮSPĖTAS APIE TOKIŲ NUOSTOLIŲ, IŠLAIDŲ AR ŽALŲ GALIMYBĘ. TEN, KUR
+     ATSAKOMYBĖS RIBOJIMAS YRA NELEIDŽIAMAS VISAI AR DALINAI, ŠIS RIBOJIMAS
+     JUMS NEGALIOJA.
+
+
+     taip, kad, kiek įmanoma, jis artimiausiai atitiktų absoliutų atsakomybės
+     atsisakymą ir visų atsakomybių atleidimą.
+
+
+
+
+  a. Ši Viešoji licencija galioja tiek, kiek galioja licencijuojamos autorių teisės
+
+     Jūsų teisės pagal šią Viešąją licenciją automatiškai nutraukiamos.
+
+  b. Kur Jūsų teisė naudoti licencijuotą medžiagą yra nutraukta pagal
+     nutraukti automatiškai.
+
+  b. Kai Jūsų teisė naudoti Licencijuotą Medžiagą yra nutraukta pagal
+     6 skirsnio (a punktas) dalyje atstatoma:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. Siekiant išvengti ginčų, Licencijų davėjas taip pat gali siūlyti
+     Licencijuotą medžiagą pagal atskiras sąlygas arba bet kada nutraukti
+     Licencijuotos medžiagos platinimą; tačiau tai nebus šios viešosios
+     licencijos nutraukimas.
+
+  d. 1, 5, 6, 7 ir 8 skirsniai išlieka galiojant šiai viešajai licencijai.
+
+
+
+
+
+     sąlygų, kurias Jūs jam pateikiate, nebent tai aiškiai sutarta.
+
+
+     medžiagos, nenurodyti čia, yra atskiri ir nepriklausomi nuo šios viešosios
+     licencijos sąlygų ir nuostatų.
+
+
+
+
+
+     ar nenumato jokių papildomų sąlygų dėl jokio Licencijuotos medžiagos naudojimo,
+     kuris galėtų būti teisėtai vykdomas be leidimo pagal šią viešąją licenciją.
+
+  b. Kiek tai įmanoma, jei bet kuri šios viešosios licencijos nuostata yra
+
+     mastą, kad būtų įgyvendinama. Jei nuostatą pakeisti neįmanoma, ji atskiriama
+     nuo šios viešosios licencijos, neturint poveikio likusių sąlygų ir nuostatų
+     galiojimui.
+
+  c. Nei viena šios viešosios licencijos sąlyga neatšaukiama ir joks nevykdymas
+     nepripažįstamas, išskyrus atvejus, kai tai aiškiai sutarta su Licencijų davėju.
+
+  d. Nieko šiame viešosios licencijos tekste nelaikoma ar interpretuojama kaip
+     apribojimas ar atsisakymas bet kokių privilegijų ir neliečiamybių, taikomų
+     Licencijų davėjui ar Jums, įskaitant teisminius procesus bet kurioje jurisdikcijoje
+
+
+
+=======================================================================
+
+
+
+medžiagai, kurią ji publikuoja, ir tokiais atvejais laikoma „Licencijų davėju.“
+
+pagal CC0 viešosios domeno licencijos suteikimą. Išskyrus ribotą tikslą
+nurodyti, kad medžiaga yra dalijama pagal Creative Commons viešąją licenciją
+arba kaip leidžiama kitais Creative Commons politikos prinicipais,
+paskelbtais creativecommons.org/policies, Creative Commons neleidžia naudoti prekės
+ženklo „Creative Commons“ ar bet kokio kito prekės ženklo ar logotipo be išankstinio
+raštiško sutikimo, įskaitant, bet neapsiribojant, bet kokius neautorizuotus pakeitimus
+bet kuriai viešajai licencijai ar bet kokiems kitiems susitarimams ar nuostatoms, susijusioms
+su licencijuotos medžiagos naudojimu. Siekiant išvengti abejonių, šis punktas nėra
+viešosios licencijos dalis.
+
+Su Creative Commons galite susisiekti adresu creativecommons.org.
+be apribojimų, susijusių su bet kokiais neteisėtais jos viešųjų licencijų arba bet kokių kitų susitarimų,
+sutarčių ar susitarimų dėl licencijuotos medžiagos naudojimo pakeitimais.
+Siekiant išvengti abejonių, šis punktas nėra viešųjų licencijų dalis.
+
+
+
+Su Creative Commons galima susisiekti adresu creativecommons.org.
 
 ---
 
-5 skyrius – Garantijų atsisakymas ir atsakomybės apribojimas.
-
-a. JEI LICENCIJOS DAVĖJAS NĖRA ATLIKĘS ATSKIRŲ ĮSIPAREIGOJIMŲ, KIEK TAI ĮMANOMA, LICENCIJOS DAVĖJAS SIŪLO LICENCIJUOTĄ MEDŽIAGĄ TOKIĄ, KOKIA JI YRA, IR TOKIĄ, KOKIA YRA PRIEINAMA, BE JOKIŲ PAREIŠKIMŲ AR GARANTIJŲ, NESVARBU, AR JOS BŪTŲ AIŠKIOS, NUMANOMOS, TEISINĖS AR KITOKIOS. TAI APIMA, BE APRIBOJIMŲ, NUOSAVYBĖS GARANTIJAS, TINKAMUMĄ PARDAVIMUI, TINKAMUMĄ KONKREČIAM TIKSLUI, NEPAŽEIDIMĄ, LATENTINIŲ AR KITŲ DEFEKTŲ NEBUVIMĄ, TIKSLUMĄ AR KLAIDŲ BUVIMĄ AR NEBUVIMĄ, NEPRIKLAUSOMAI NUO TO, AR JOS YRA ŽINOMOS AR ATRANDAMOS. JEI GARANTIJŲ ATSISAKYMAS NĖRA LEIDŽIAMAS VISIŠKAI AR IŠ DALIES, ŠIS ATSISAKYMAS JUMS GALI NEBŪTI TAIKOMAS.
-
-b. KIEK TAI ĮMANOMA, LICENCIJOS DAVĖJAS JOKIU ATVEJU NEBUS ATSAKINGAS JUMS PAGAL JOKIĄ TEISINĘ TEORIJĄ (ĮSKAITANT, BE APRIBOJIMŲ, NEATSARGUMĄ) AR KITAIP UŽ BET KOKIUS TIESIOGINIUS, SPECIALIUS, NETIESIOGINIUS, ATSITIKTINIUS, PASEKMINIUS, BAUDINIUS, PAVYZDINIUS AR KITUS NUOSTOLIUS, IŠLAIDAS, SĄNAUDAS AR ŽALĄ, ATSIRADUSIĄ DĖL ŠIOS VIEŠOSIOS LICENCIJOS AR LICENCIJUOTOS MEDŽIAGOS NAUDOJIMO, NET JEI LICENCIJOS DAVĖJAS BUVO INFORMUOTAS APIE TOKIŲ NUOSTOLIŲ, IŠLAIDŲ, SĄNAUDŲ AR ŽALOS GALIMYBĘ. JEI ATSAKOMYBĖS APRIBOJIMAS NĖRA LEIDŽIAMAS VISIŠKAI AR IŠ DALIES, ŠIS APRIBOJIMAS JUMS GALI NEBŪTI TAIKOMAS.
-
-c. Aukščiau pateiktas garantijų atsisakymas ir atsakomybės apribojimas turi būti aiškinamas taip, kad, kiek tai įmanoma, kuo labiau priartėtų prie absoliutaus atsisakymo ir visos atsakomybės atsisakymo.
-
----
-
-6 skyrius – Terminas ir nutraukimas.
-
-a. Ši viešoji licencija galioja visą licencijuotų autorių teisių ir panašių teisių galiojimo laikotarpį. Tačiau, jei Jūs nesilaikote šios viešosios licencijos, Jūsų teisės pagal šią viešąją licenciją automatiškai nutraukiamos.
-
-b. Kai Jūsų teisė naudoti licencijuotą medžiagą buvo nutraukta pagal 6(a) skyrių, ji atnaujinama:
-
-1. automatiškai nuo pažeidimo ištaisymo datos, jei jis ištaisomas per 30 dienų nuo Jūsų pažeidimo atradimo; arba  
-2. pagal aiškų licencijos davėjo atnaujinimą.
-
-Siekiant išvengti nesusipratimų, šis 6(b) skyrius neturi įtakos licencijos davėjo teisėms siekti teisių gynimo priemonių už Jūsų pažeidimus pagal šią viešąją licenciją.
-
-c. Siekiant išvengti nesusipratimų, licencijos davėjas taip pat gali siūlyti licencijuotą medžiagą pagal atskiras sąlygas arba bet kada nutraukti licencijuotos medžiagos platinimą; tačiau tai nesibaigs šios viešosios licencijos galiojimu.
-
-d. 1, 5, 6, 7 ir 8 skyriai išlieka galioti pasibaigus šios viešosios licencijos galiojimui.
-
----
-
-7 skyrius – Kitos sąlygos.
-
-a. Licencijos davėjas nėra įpareigotas laikytis jokių papildomų ar skirtingų sąlygų, kurias Jūs pranešėte, nebent jos būtų aiškiai sutartos.
-
-b. Bet kokie susitarimai, supratimai ar susitarimai dėl licencijuotos medžiagos, kurie nėra nurodyti čia, yra atskiri ir nepriklausomi nuo šios viešosios licencijos sąlygų.
-
----
-
-8 skyrius – Aiškinimas.
-
-a. Siekiant išvengti nesusipratimų, ši viešoji licencija nesumažina, neapriboja, nesuvaržo ir neįveda sąlygų jokiam licencijuotos medžiagos naudojimui, kuris galėtų būti teisėtai atliktas be leidimo pagal šią viešąją licenciją.
-
-b. Kiek tai įmanoma, jei bet kuri šios viešosios licencijos nuostata laikoma neįgyvendinama, ji automatiškai reformuojama iki minimalaus reikalingo lygio, kad būtų įgyvendinama. Jei nuostata negali būti reformuota, ji atskiriama nuo šios viešosios licencijos, nepažeidžiant likusių sąlygų ir nuostatų įgyvendinamumo.
-
-c. Jokia šios viešosios licencijos sąlyga ar nuostata nebus atsisakyta, o nesilaikymas nebus leidžiamas, nebent tai būtų aiškiai sutarta su licencijos davėju.
-
-d. Nieko šioje viešojoje licencijoje negalima laikyti ar interpretuoti kaip apribojimą ar atsisakymą bet kokių privilegijų ir imunitetų, kurie taikomi licencijos davėjui ar Jums, įskaitant teisinių procesų jurisdikcijoje ar institucijoje.
-
----
-
-Creative Commons nėra šios viešosios licencijos šalis. Nepaisant to, Creative Commons gali nuspręsti taikyti vieną iš savo viešųjų licencijų medžiagai, kurią ji publikuoja, ir tokiais atvejais bus laikoma „Licencijos davėju“. Creative Commons viešųjų licencijų tekstas yra skirtas viešajam domenui pagal CC0 viešojo domeno paskyrimą. Išskyrus ribotą tikslą nurodyti, kad medžiaga yra dalinama pagal Creative Commons viešąją licenciją arba kaip kitaip leidžiama pagal Creative Commons politiką, paskelbtą creativecommons.org/policies, Creative Commons neleidžia naudoti „Creative Commons“ prekių ženklo ar jokio kito Creative Commons prekių ženklo ar logotipo be išankstinio raštiško sutikimo, įskaitant, be apribojimų, bet kokius neleistinus viešųjų licencijų pakeitimus ar kitus susitarimus, supratimus ar susitarimus dėl licencijuotos medžiagos naudojimo. Siekiant išvengti nesusipratimų, šis paragrafas nėra viešųjų licencijų dalis.
-
-Creative Commons galima susisiekti creativecommons.org.
-
----
-
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius naudojant šį vertimą.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Atsakomybės apribojimas**:
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba laikomas autoritetingu šaltiniu. Svarbiai informacijai rekomenduojama naudoti profesionalų žmogiškąjį vertimą. Mes neatsakome už jokius nesusipratimus ar neteisingą interpretaciją, kilusią naudojantis šiuo vertimu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
