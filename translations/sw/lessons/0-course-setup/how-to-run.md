@@ -1,12 +1,12 @@
 # Jinsi ya Kuendesha Msimbo
 
-Mtaala huu una mifano mingi inayoweza kutekelezwa na maabara ambazo ungependa kuendesha. Ili kufanya hivyo, unahitaji uwezo wa kutekeleza msimbo wa Python katika Jupyter Notebooks zinazotolewa kama sehemu ya mtaala huu. Una chaguzi kadhaa za kuendesha msimbo:
+Mtaala huu una mifano mingi inayotekelezeka na maabara ambazo ungependa kuendesha. Ili kufanya hivyo, unahitaji uwezo wa kutekeleza msimbo wa Python katika Jupyter Notebooks zinazotolewa kama sehemu ya mtaala huu. Una chaguzi kadhaa za kuendesha msimbo:
 
 ## Endesha kwa ndani kwenye kompyuta yako
 
-Ili kuendesha msimbo kwa ndani kwenye kompyuta yako, unahitaji kuwa na usakinishaji wa Python. Moja ya mapendekezo ni kusakinisha **[miniconda](https://conda.io/en/latest/miniconda.html)** - ni usakinishaji mwepesi unaounga mkono meneja wa vifurushi `conda` kwa mazingira mbalimbali ya Python **virtual environments**.
+Ili kuendesha msimbo kwa ndani kwenye kompyuta yako, unahitaji usakinishaji wa Python. Pendekezo moja ni kusakinisha **[miniconda](https://conda.io/en/latest/miniconda.html)** - ni usakinishaji mwepesi unaounga mkono meneja wa kifurushi wa `conda` kwa mazingira tofauti ya Python **virtual environments**.
 
-Baada ya kusakinisha miniconda, nakili (clone) hifadhidata na unda mazingira ya virtual yatakayotumika kwa kozi hii:
+Baada ya kusakinisha miniconda, nakili (clone) hazina na unda mazingira ya virtual yatakayotumika kwa kozi hii:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -15,19 +15,49 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Kutumia Visual Studio Code na Virutubisho vya Python
+> **Kumbuka kwa Windows**: Ikiwa kuunda mazingira kunashindwa wakati wa kusakinisha `gdk-pixbuf` na `UnicodeDecodeError` inayotaja codec ya `gbk`, wwezeshaji hali ya UTF-8 ya Python kwenye terminal yako na jaribu tena. Tumia sarufi kwa terminal unayotumia:
+>
+> **PowerShell:**
+>
+> ```powershell
+> $env:PYTHONUTF8 = "1"
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Command Prompt (`cmd.exe`) au Anaconda Prompt:**
+>
+> ```cmd
+> set PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Bash, ikiwa ni pamoja na Git Bash:**
+>
+> ```bash
+> export PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> Ikiwa jaribio lililoshindwa liliacha mazingira ya `ai4beg`, zima mazingira hayo na uondoe kabla ya kujaribu tena. Tumia `conda deactivate` kwanza wakati mazingira yakiwa yanafanya kazi:
+>
+> ```text
+> conda deactivate
+> conda env remove --name ai4beg
+> ```
 
-Mtaala huu unatumika vizuri zaidi unapoufungua katika [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) ukiwa na [Virutubisho vya Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+### Kutumia Visual Studio Code na Ugani wa Python
 
-> **Kumbuka**: Mara baada ya kunakili na kufungua saraka katika VS Code, itapendekeza moja kwa moja kusakinisha virutubisho vya Python. Pia utahitaji kusakinisha miniconda kama ilivyoelezwa hapo juu.
+Mtaala huu unatumika vyema zaidi unapoufungua katika [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) ukiwa na [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Kumbuka**: Ikiwa VS Code itakupendekeza kufungua hifadhidata upya ndani ya kontena, unapaswa kukataa hii ili kutumia usakinishaji wa Python kwa ndani. 
+> **Kumbuka**: Mara tu unapofanya clone na ufungue saraka ndani ya VS Code, itapendekeza moja kwa moja kusakinisha ugani wa Python. Pia utalazimika kusakinisha miniconda kama ilivyoelezwa hapo juu.
 
-### Kutumia Jupyter katika Kivinjari
+> **Kumbuka**: Ikiwa VS Code itapendekeza kufungua tena hazina ndani ya kontena, unapaswa kukataa ili utumie usakinishaji wa Python wa ndani.
 
-Unaweza pia kutumia mazingira ya Jupyter kutoka kivinjari kwenye kompyuta yako mwenyewe. Jupyter wa kawaida na JupyterHub zote zinatoa mazingira mazuri ya maendeleo yenye utimilifu wa nira (auto-completion), muonekano wa msimbo, n.k.
+### Kutumia Jupyter kwenye Kivinjari
 
-Ili kuanza Jupyter kwa ndani, nenda kwenye saraka ya kozi, na tekeleza:
+Unaweza pia kutumia mazingira ya Jupyter kutoka kwenye kivinjari cha kompyuta yako binafsi. Jupyter ya kawaida na JupyterHub hutoa mazingira rahisi ya maendeleo yenye kukamilisha kiotomatiki, kuangazia msimbo, n.k.
+
+Ili kuanzisha Jupyter kwa ndani, nenda kwenye saraka ya kozi, kisha tekeleza:
 
 ```bash
 jupyter notebook
@@ -36,32 +66,32 @@ au
 ```bash
 jupyterhub
 ```
-Kisha unaweza kuvinjari faili yoyote ya `.ipynb`, ufungue na kuanza kufanya kazi.
+Kisha unaweza vinjari hadi faili yoyote ya `.ipynb`, ufungue na kuanza kufanya kazi.
 
-### Kuendesha katika kontena
+### Kuendesha ndani ya kontena
 
-Njia mbadala ya usakinishaji wa Python ni kuendesha msimbo katika kontena. Kwa kuwa hifadhidata yetu ina jalada maalum `.devcontainer` linaloelekeza jinsi ya kujenga kontena kwa ajili ya repository hii, VS Code inatoa fursa ya kufungua upya msimbo ndani ya kontena. Hii itahitaji usakinishaji wa Docker, na pia itakuwa ngumu zaidi, kwa hiyo tunapendekeza hii kwa watumiaji wenye uzoefu zaidi.
+Chaguo jingine badala ya usakinishaji wa Python ni kuendesha msimbo ndani ya kontena. Kwa kuwa hazina yetu inatoa folda maalum ya `.devcontainer` inayotoa maagizo ya jinsi ya kujenga kontena kwa hazina hii, VS Code inatoa fursa ya kufungua tena msimbo ndani ya kontena. Hii itahitaji usakinishaji wa Docker, pia itakuwa ngumu zaidi, hivyo tunapendekeza hii kwa watumiaji wenye uzoefu zaidi.
 
 ## Kuendesha kwenye Wingu
 
-Ikiwa hutaki kusakinisha Python kwa ndani, na una upatikanaji wa rasilimali za wingu - njia nzuri ni kuendesha msimbo kwenye wingu. Kuna njia kadhaa unazoweza kutumia kufanya hivi:
+Ikiwa hutaki kusakinisha Python kwa ndani, na unayo fursa ya kutumia rasilimali za wingu - chaguo nzuri ni kuendesha msimbo kwenye wingu. Kuna njia kadhaa za kufanya hivyo:
 
-* Kutumia **[GitHub Codespaces](https://github.com/features/codespaces)**, ambayo ni mazingira halisi yaliyoundwa kwa ajili yako kwenye GitHub, yanayopatikana kupitia kiolesura cha kivinjari cha VS Code. Ikiwa una upatikanaji wa Codespaces, unaweza kubofya tu kitufe cha **Code** katika repo, anza codespace, na uanze kuendesha mara moja.
-* Kutumia **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) hutoa rasilimali za kompyuta bure zinazotolewa kwenye wingu kwa watu kama wewe kujaribu msimbo wa GitHub. Kuna kitufe kwenye ukurasa wa mwanzo cha kufungua repository kwenye Binder - hii itakupeleka haraka kwenye tovuti ya binder, ambayo itajenga kontena la msingi na kuanzisha kiolesura cha wavuti cha Jupyter kwako kwa urahisi.
+* Kutumia **[GitHub Codespaces](https://github.com/features/codespaces)**, ambayo ni mazingira ya virtual yaliyotengenezwa kwa ajili yako kwenye GitHub, yanayopatikana kupitia kiolesura cha kivinjari cha VS Code. Ikiwa una ufikiaji wa Codespaces, unaweza tu kubofya kitufe cha **Code** kwenye hazina, anzisha codespace, na kuanza haraka.
+* Kutumia **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) hutoa rasilimali za kompyuta bure zinazotolewa kwenye wingu kwa watu kama wewe kujaribu msimbo fulani kwenye GitHub. Kuna kitufe kwenye ukurasa wa mbele cha kufungua hazina kwenye Binder - hii itakupeleka haraka kwenye tovuti ya binder, ambayo itajenga kontena la msingi na kuanzisha kiolesura cha mtandao cha Jupyter kwako bila matatizo.
 
-> **Kumbuka**: Ili kuzuia matumizi mabaya, Binder ina upatikanaji wa baadhi ya rasilimali za wavuti zilizozuiwa. Hii inaweza kuzuia baadhi ya misimbo kufanya kazi, ambayo hupakua mifano na/au seti za data kutoka kwenye mtandao wa umma. Huenda utahitaji kutafuta mbinu mbadala. Pia, rasilimali za kompyuta zinazotolewa na Binder ni za kawaida tu, kwa hiyo mafunzo yatakuwa polepole, hasa katika mafunzo ya baadaye, magumu zaidi.
+> **Kumbuka**: Ili kuzuia matumizi mabaya, Binder ina vizuizi kwenye baadhi ya rasilimali za mtandao. Hii inaweza kuzuia baadhi ya msimbo kufanya kazi, ambao hupakua mifano na/au seti za data kutoka mtandao wa umma. Huenda utahitaji kupata mbinu mbadala. Pia, rasilimali za kompyuta zinazotolewa na Binder ni za msingi kabisa, hivyo mafunzo yatakuwa polepole, hasa katika masomo ya baadaye, zaidi yenye ugumu.
 
 ## Kuendesha kwenye Wingu kwa GPU
 
-Baadhi ya masomo ya baadaye katika mtaala huu yangefaidika sana na msaada wa GPU. Mafunzo ya mifano, kwa mfano, yanaweza kuwa polepole sana vinginevyo. Kuna chaguzi kadhaa unazoweza kufuata, hasa ikiwa una upatikanaji wa wingu kupitia [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), au kupitia taasisi yako:
+Baadhi ya masomo ya baadaye katika mtaala huu yangepata faida kubwa kutoka kwa msaada wa GPU. Mafunzo ya modeli, kwa mfano, yanaweza kuwa polepole mno vinginevyo. Kuna chaguzi chache unaweza kufuata, hasa ikiwa una ufikiaji wa wingu kupitia [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), au kupitia taasisi yako:
 
-* Unda [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) na uunganishe kupitia Jupyter. Kisha unaweza kunakili repo moja kwa moja kwenye mashine, na kuanza kujifunza. VMs za NC-series zina msaada wa GPU.
+* Unda [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) na uungane nayo kupitia Jupyter. Basi unaweza nakili hazina moja kwa moja kwenye mashine hiyo, na kuanza kujifunza. NC-series VMs zina msaada wa GPU.
 
-> **Kumbuka**: Baadhi ya usajili, ikiwemo Azure for Students, haipati msaada wa GPU moja kwa moja. Huenda utahitaji kuomba cores za ziada za GPU kupitia ombi la msaada wa kiufundi.
+> **Kumbuka**: Baadhi ya usajili, ikiwa ni pamoja na Azure for Students, hazitoi msaada wa GPU moja kwa moja. Huenda utahitaji kuomba cores za ziada za GPU kwa ombi la msaada wa kiufundi.
 
-* Unda [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) na kisha tumia kipengele cha Notebook hapo. [Video hii](https://azure-for-academics.github.io/quickstart/azureml-papers/) inaonyesha jinsi ya kunakili repository ndani ya Azure ML notebook na kuanza kuitumia.
+* Unda [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) kisha tumia kipengele cha Notebook huko. [Video hii](https://azure-for-academics.github.io/quickstart/azureml-papers/) inaonyesha jinsi ya kufanya clone ya hazina ndani ya daftari la Azure ML na kuanza kuitumia.
 
-Unaweza pia kutumia Google Colab, ambayo huja na msaada wa GPU bure, na kupakia Jupyter Notebooks huko ili kuzitekeleza mmoja mmoja.
+Unaweza pia kutumia Google Colab, ambayo inakuja na msaada wa GPU wa bure, na kupakia Jupyter Notebooks huko na kuziendesha moja moja.
 
 ---
 

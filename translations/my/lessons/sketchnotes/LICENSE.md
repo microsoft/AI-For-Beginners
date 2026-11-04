@@ -1,133 +1,434 @@
-Attribution-ShareAlike 4.0 International
+Attribution-ShareAlike 4.0 အပြည်ပြည်ဆိုင်ရာ
 
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") သည် ဥပဒေရေးရာဝန်ဆောင်မှုများ သို့မဟုတ် ဥပဒေရေးရာအကြံဉာဏ်များ ပေးသည့် အဖွဲ့အစည်းမဟုတ်ပါ။ Creative Commons ၏ အများပြည်သူလိုင်စင်များကို ဖြန့်ဝေခြင်းသည် ရှေ့နေ-ဖောက်သည်ဆက်ဆံရေး သို့မဟုတ် အခြားဆက်ဆံရေးတစ်ရပ်တည်းကို ဖန်တီးပေးခြင်းမဟုတ်ပါ။ Creative Commons သည် ၎င်း၏လိုင်စင်များနှင့် ဆက်စပ်သည့် အချက်အလက်များကို "အခြေအနေအတိုင်း" ဖြင့်သာ ရရှိနိုင်စေပါသည်။ Creative Commons သည် ၎င်း၏လိုင်စင်များ၊ ၎င်းတို့၏ စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် လိုင်စင်ရရှိထားသည့် ပစ္စည်းများ သို့မဟုတ် ဆက်စပ်သည့် အချက်အလက်များနှင့် ပတ်သက်၍ အာမခံချက်မပေးပါ။ Creative Commons သည် ၎င်းတို့ကို အသုံးပြုမှုမှ ဖြစ်ပေါ်လာသည့် နစ်နာမှုများအတွက် တာဝန်မရှိကြောင်း အပြည့်အဝ ထုတ်ဖော်ကြေညာပါသည်။
+Creative Commons Corporation ("Creative Commons") သည် တရားဥပဒေကုမ္ပဏီမဟုတ်ပါ၊
+တရားဝင်ဝန်ဆောင်မှုများ သို့မဟုတ် တရားဥပဒေအကြံပေးမှု မပေးပါ။ Creative Commons
+ပြည်သူ့လိုင်စင်များ ဖြန့်ဝေခြင်းသည် ဥပဒေရေးရာ ညှိနှိုင်းသူ-ဖောက်သည် သို့မဟုတ်
+အခြားဆက်ဆံရေးမျိုး မဖန်တီးပါ။ Creative Commons သည် ၎င်း၏လိုင်စင်များနှင့်
+ဆက်စပ်သည့်အချက်အလက်များကို "တည်ရှိသည့်အတိုင်း" အခြေအနေဖြင့်သာရရှိနိုင်ပါသည်။
+Creative Commons သည် ၎င်း၏လိုင်စင်များ၊ ၎င်းတို့၏ စည်းကမ်းချက်များအရလိုင်စင်ရယူထားသော
+ပစ္စည်းများ၊ သို့မဟုတ် ဆက်စပ်သည့်အချက်အလက်များအတွက် အာမခံချက် မပေးပါ။
+Creative Commons သည် ၎င်းတို့၏အသုံးပြုမှုကြောင့် ဖြစ်ပေါ်လာသည့် ထိခိုက်ဒဏ်ရာများအတွက်
+စွဲမရနိုင်စွမ်းအထိ တာဝန်လွှဲခွားသည်။
 
-Creative Commons အများပြည်သူလိုင်စင်များကို အသုံးပြုခြင်း
+Creative Commons ပြည်သူ့လိုင်စင်များ အသုံးပြုခြင်း
 
-Creative Commons အများပြည်သူလိုင်စင်များသည် စာရေးသူများနှင့် အခြားအခွင့်အရေးပိုင်ရှင်များအတွက် မူပိုင်ခွင့်နှင့် အောက်တွင်ဖော်ပြထားသည့် အများပြည်သူလိုင်စင်အောက်တွင် သတ်မှတ်ထားသော အခြားအခွင့်အရေးများအောက်တွင် မူရင်းအလုပ်များနှင့် အခြားပစ္စည်းများကို မျှဝေရန် သတ်မှတ်ထားသော စည်းမျဉ်းနှင့် အခြေအနေများကို ပုံမှန်ပေးသည်။ အောက်ပါအချက်များသည် သတင်းအချက်အလက်ရည်ရွယ်ချက်များအတွက်သာဖြစ်ပြီး၊ ပြည့်စုံမှုမရှိသလို၊ ၎င်းတို့သည် ၎င်းတို့၏လိုင်စင်များ၏ အစိတ်အပိုင်းတစ်ခုအဖြစ် မပါဝင်ပါ။
+Creative Commons အများပြည်သူလိုင်စင်များသည် စံပြ စည်းကမ်းချက်များကို ပံ့ပိုးပေးပြီး
+ဖန်တီးသူများနှင့် အခြားသောအခွင့်အရေးပိုင်ရှင်များသည် မူရင်း ဖန်တီးမှုများနှင့်
+မူပိုင်ခွင့်ရှိသော အခြားသောပစ္စည်းများကို အောက်ဖော်ပြပါ အများပြည်သူလိုင်စင်တွင် သတ်မှတ်ထားသည့်
+အခွင့်အရေးအချို့နှင့်အတူ ဖြန့်ဝေပေးရန် အသုံးပြုနိုင်သည်။ 
+အောက်ပါအချက်များမှာ သတင်းအချက်အလက်ရည်ရွယ်ချက်ဖြစ်ပြီး
+ပြည့်စုံခြင်းမရှိခြင်းနှင့် ကျွန်ုပ်တို့၏လိုင်စင်များ၏ အစိတ်အပိုင်း မဖြစ်ပါ။
 
-     လိုင်စင်ပေးသူများအတွက် အချက်အလက်များ: ၎င်းတို့၏ အများပြည်သူလိုင်စင်များကို မူပိုင်ခွင့်နှင့် အခြားအခွင့်အရေးများဖြင့် ကန့်သတ်ထားသော ပစ္စည်းများကို အသုံးပြုရန် အများပြည်သူအား ခွင့်ပြုရန် အခွင့်အာဏာရှိသူများအတွက် အသုံးပြုရန် ရည်ရွယ်ထားသည်။ ၎င်းတို့၏လိုင်စင်များသည် ပြန်လည်ရုပ်သိမ်း၍ မရပါ။ လိုင်စင်ပေးသူများသည် ၎င်းတို့ရွေးချယ်သည့် လိုင်စင်၏ စည်းမျဉ်းနှင့် အခြေအနေများကို လိုင်စင်ကို အသုံးပြုမည့်မူမီမီ သဘောတူညီမှုမရှိမီ ဖတ်ရှုနားလည်ထားရမည်။ လိုင်စင်ပေးသူများသည် လိုင်စင်ကို အသုံးပြုမည့်အခါ အများပြည်သူမှ မျှော်မှန်းထားသည့်အတိုင်း ပစ္စည်းကို ပြန်လည်အသုံးပြုနိုင်စေရန် လိုအပ်သော အခွင့်အရေးအားလုံးကို လုံခြုံစေရမည်။ လိုင်စင်မရောက်မီ ပစ္စည်းများကို သက်ဆိုင်ရာအမှတ်အသားဖြင့် ပေါ်လွင်စွာ သတ်မှတ်ထားရမည်။ ၎င်းတွင် အခြား CC-လိုင်စင်ရရှိထားသော ပစ္စည်းများ သို့မဟုတ် မူပိုင်ခွင့်အပေါ် ကန့်သတ်ချက် သို့မဟုတ် ကင်းလွတ်ခွင့်အောက်တွင် အသုံးပြုထားသော ပစ္စည်းများ ပါဝင်သည်။ လိုင်စင်ပေးသူများအတွက် အခြားအချက်အလက်များ:  
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     အများပြည်သူအတွက် အချက်အလက်များ: ၎င်းတို့၏ အများပြည်သူလိုင်စင်တစ်ခုကို အသုံးပြုခြင်းဖြင့် လိုင်စင်ပေးသူသည် လိုင်စင်ရရှိထားသော ပစ္စည်းကို သတ်မှတ်ထားသော စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် အသုံးပြုရန် အများပြည်သူအား ခွင့်ပြုသည်။ လိုင်စင်ပေးသူ၏ ခွင့်ပြုချက်မလိုအပ်သည့် အကြောင်းတစ်စုံတစ်ရာရှိပါက—ဥပမာအားဖြင့် မူပိုင်ခွင့်အပေါ် သက်ဆိုင်ရာ ကင်းလွတ်ခွင့် သို့မဟုတ် ကန့်သတ်ချက်တစ်ခုကြောင့်—ထိုအသုံးပြုမှုသည် လိုင်စင်ဖြင့် စည်းမျဉ်းမထားပါ။ ၎င်းတို့၏လိုင်စင်များသည် မူပိုင်ခွင့်နှင့် လိုင်စင်ပေးသူ၏ အာဏာရှိသော အခြားအခွင့်အရေးများအောက်တွင်သာ ခွင့်ပြုချက်များကို ပေးသည်။ လိုင်စင်ရရှိထားသော ပစ္စည်းကို အသုံးပြုခြင်းသည် အခြားအကြောင်းတစ်စုံတစ်ရာကြောင့် အကန့်အသတ်ရှိနိုင်သည်၊ ၎င်းတွင် အခြားသူများသည် ထိုပစ္စည်းအပေါ် မူပိုင်ခွင့် သို့မဟုတ် အခြားအခွင့်အရေးများရှိကြောင်း ပါဝင်သည်။ လိုင်စင်ပေးသူသည် အထူးတောင်းဆိုမှုများကို ပြုလုပ်နိုင်သည်၊ ဥပမာအားဖြင့် အပြောင်းအလဲအားလုံးကို အမှတ်အသားပြုရန် သို့မဟုတ် ဖော်ပြရန် တောင်းဆိုခြင်းကဲ့သို့ဖြစ်သည်။ ၎င်းတို့၏လိုင်စင်များဖြင့် မလိုအပ်သော်လည်း၊ သင့်တောင်းဆိုမှုများကို သင့်လျော်သောနေရာတွင် လေးစားရန် အားပေးပါသည်။ အများပြည်သူအတွက် အခြားအချက်အလက်များ:  
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 International Public License
+Creative Commons Attribution-ShareAlike 4.0 International Public
+License
 
-လိုင်စင်ရရှိထားသော အခွင့်အရေးများကို (အောက်တွင် ဖော်ပြထားသည်) အသုံးပြုခြင်းဖြင့်၊ သင်သည် Creative Commons Attribution-ShareAlike 4.0 International Public License ("Public License") ၏ စည်းမျဉ်းနှင့် အခြေအနေများကို လိုက်နာရန် သဘောတူညီပြီး၊ ၎င်းတို့ကို လိုက်နာရန် သဘောတူညီသည်။ Public License ကို သဘောတူညီချက်အဖြစ် အဓိပ္ပာယ်ဖွင့်ဆိုနိုင်သည့် အတိုင်း၊ ၎င်းစည်းမျဉ်းနှင့် အခြေအနေများကို လက်ခံခြင်းအတွက် သင့်အား လိုင်စင်ရရှိထားသော အခွင့်အရေးများကို ခွင့်ပြုသည်။ ၎င်းစည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် လိုင်စင်ပေးသူသည် လိုင်စင်ရရှိထားသော ပစ္စည်းကို ရရှိနိုင်စေရန် ရရှိသည့် အကျိုးကျေးဇူးများအတွက် သင့်အား ထိုအခွင့်အရေးများကို ခွင့်ပြုသည်။
+လိုင်စင်ရရှိခွင့်များကို အသုံးပြုခြင်းအားဖြင့် (အောက်တွင် သတ်မှတ်ထားပါသည်)၊ သင်သည် Creative Commons Attribution-ShareAlike 4.0 International Public License ("အများပြည်သူ လိုင်စင်") ၏ စည်းကမ်းချက်များနှင့် ရပ်တည်မှုများကို လက်ခံလိုက်လျှင် သဘောတူသည်။ ဤအများပြည်သူ လိုင်စင်အား စာချုပ်တစ်ခုအဖြစ် ရှင်းလင်းနိုင်သည့်အထိ၊ သင်သည် ဤစည်းကမ်းချက်များကို လက်ခံခြင်းအတွက် လိုင်စင်ရရှိခွင့်များ ပေးခံရပြီး၊ ကုမ္ပဏီကိုယ်စား လိုင်စင်ပေးသူသည် လိုင်စင်ပစ္စည်းကို ဤစည်းကမ်းချက်များအောက်တွင် လွှမ်းမိုးပေးခြင်းမှ ရရှိသောအကျိုးအမြတ်အတွက် သင့်အား ထိုခွင့်များကို ပေးအပ်သည်။
+သဘောတူသည်။
 
-Section 1 -- အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ
 
-  a. Adapted Material ဆိုသည်မှာ မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများအောက်တွင် လိုင်စင်ရရှိထားသော ပစ္စည်းကို ဘာသာပြန်ခြင်း၊ ပြောင်းလဲခြင်း၊ စီစဉ်ခြင်း၊ ပြောင်းလဲခြင်း သို့မဟုတ် မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများအောက်တွင် ခွင့်ပြုချက်လိုအပ်သည့် နည်းလမ်းဖြင့် ပြုပြင်ပြောင်းလဲထားသော ပစ္စည်းများကို ဆိုလိုသည်။ Public License ၏ ရည်ရွယ်ချက်အတွက်၊ လိုင်စင်ရရှိထားသော ပစ္စည်းသည် ဂီတအလုပ်၊ ဖျော်ဖြေမှု သို့မဟုတ် အသံဖမ်းခြင်းဖြစ်ပါက၊ လိုင်စင်ရရှိထားသော ပစ္စည်းကို ရုပ်ရှင်နှင့် အချိန်ညီစွာ တိုက်ဆိုင်စေခြင်းဖြင့် အမြဲတမ်း Adapted Material ကို ထုတ်လုပ်သည်။
 
-  b. Adapter's License ဆိုသည်မှာ Public License ၏ စည်းမျဉ်းနှင့် အခြေအနေများနှင့် ကိုက်ညီစွာ Adapted Material အတွက် သင့်ရဲ့ မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများကို သင့်အား သတ်မှတ်ပေးသည့် လိုင်စင်ကို ဆိုလိုသည်။
 
-  c. BY-SA Compatible License ဆိုသည်မှာ creativecommons.org/compatiblelicenses တွင် ဖော်ပြထားသည့် လိုင်စင်ဖြစ်ပြီး၊ Public License ၏ အဓိကအတိုင်း တူညီကြောင်း Creative Commons မှ အတည်ပြုထားသည့် လိုင်စင်ကို ဆိုလိုသည်။
 
-  d. Copyright and Similar Rights ဆိုသည်မှာ မူပိုင်ခွင့်နှင့်/သို့မဟုတ် မူပိုင်ခွင့်နှင့် နီးစပ်သော အခွင့်အရေးများကို ဆိုလိုသည်။ ၎င်းတွင် ဖျော်ဖြေမှု၊ ထုတ်လွှင့်မှု၊ အသံဖမ်းခြင်းနှင့် Sui Generis Database Rights အပါအဝင်ဖြစ်သည်။ ၎င်းတို့၏ အမည် သို့မဟုတ် အမျိုးအစားကို မည်သို့သတ်မှတ်ထားသည်ကို မထည့်သွင်းစဉ်းစားပါ။ Public License ၏ ရည်ရွယ်ချက်အတွက်၊ Section 2(b)(1)-(2) တွင် ဖော်ပြထားသည့် အခွင့်အရေးများသည် မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများ မဟုတ်ပါ။
 
-  e. Effective Technological Measures ဆိုသည်မှာ WIPO Copyright Treaty ၏ Article 11 အောက်တွင် ပြုလုပ်ထားသည့် တာဝန်များကို ဖြည့်ဆည်းသည့် ဥပဒေများအောက်တွင် သက်ဆိုင်ရာ အာဏာမရှိဘဲ ရှောင်ရှား၍ မရနိုင်သော နည်းလမ်းများကို ဆိုလိုသည်။
 
-  f. Exceptions and Limitations ဆိုသည်မှာ မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများအောက်တွင် သင့်အား လိုင်စင်ရရှိထားသော ပစ္စည်းကို အသုံးပြုခွင့်ပြုသည့် Fair Use, Fair Dealing သို့မဟုတ် အခြားကင်းလွတ်ခွင့် သို့မဟုတ် ကန့်သတ်ချက်များကို ဆိုလိုသည်။
 
-  g. License Elements ဆိုသည်မှာ Creative Commons Public License ၏ အမည်တွင် ဖော်ပြထားသည့် လိုင်စင်အင်္ဂါရပ်များကို ဆိုလိုသည်။ Public License ၏ License Elements တွင် Attribution နှင့် ShareAlike ပါဝင်သည်။
 
-  h. Licensed Material ဆိုသည်မှာ လိုင်စင်ပေးသူက Public License ကို သတ်မှတ်ထားသော အနုပညာ သို့မဟုတ် စာပေအလုပ်၊ ဒေတာဘေ့စ် သို့မဟုတ် အခြားပစ္စည်းများကို ဆိုလိုသည်။
+အပိုဒ် ၁ -- အဓိပ္ပါယ်များ။
 
-  i. Licensed Rights ဆိုသည်မှာ Public License ၏ စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် သင့်အား ခွင့်ပြုထားသည့် အခွင့်အရေးများကို ဆိုလိုသည်။ ၎င်းတွင် သင့်အား လိုင်စင်ရရှိထားသော ပစ္စည်းကို အသုံးပြုရန် သက်ဆိုင်ရာ အာဏာရှိသော မူပိုင်ခွင့်နှင့် ဆက်စပ်အခွင့်အရေးများ ပါဝင်သည်။
+ က. ပြုပြင်ပြောင်းလဲထားသော ပစ္စည်း ဆိုသည်မှာ မူပိုင်ခွင့်နှင့် ဆင်တူသော
+     ခွင့်များမှ ကာကွယ်ထားသော ပစ္စည်းဖြစ်ပြီး ဂုဏ်ယူပိုင်ဆိုင်ခွင့် ရှိသူ၏ ပစ္စည်းမှ ယူဆောင်၍ သို့မဟုတ် အခြေခံ၍ ပြုလုပ်ထားပြီး၊ အဆိုပါပစ္စည်းကို ဘာသာပြန်၊ ပြင်ဆင်၊ စီစဉ်၊ ပြောင်းလဲခြင်း သို့မဟုတ် မူပိုင်ခွင့်နှင့် ဆင်တူသော ခွင့်များ ရှိသူ၏ ခွင့်ပြုချက် လိုအပ်သော စတိုင်ဖြင့် ပြောင်းလဲထားခြင်း ဖြစ်သည်။ အများပြည်သူ လိုင်စင်အတွက် ရည်ရွယ်ချက်အနေဖြင့် မူပိုင်ခွင့်ရရှိသော ပစ္စည်းသည် တေးစီးရီး၊ ပြသမှု သို့မဟုတ် အသံသွင်းခြင်းဖြစ်ပါက၊ ပြုပြင်ပြောင်းလဲထားသော ပစ္စည်းသည် မူပိုင်ခွင့်ရရှိသော ပစ္စည်းနှင့် ရုပ်ရှင်အတူတူ အချိန်လိုက် ဘက်ကျမှုရှိသော အခါတွင် အမြဲ ဖန်တီးပေးသည်။
 
-  j. Licensor ဆိုသည်မှာ Public License အောက်တွင် အခွင့်အရေးများကို ခွင့်ပြုသည့် ပုဂ္ဂိုလ်(များ) သို့မဟုတ် အဖွဲ့အစည်း(များ) ကို ဆိုလိုသည်။
 
-  k. Share ဆိုသည်မှာ လိုင်စင်ရရှိထားသော အခွင့်အရေးများအောက်တွင် ခွင့်ပြုချက်လိုအပ်သည့် နည်းလမ်း သို့မဟုတ် လုပ်ငန်းစဉ်များဖြင့် ပစ္စည်းကို အများပြည်သူထံ ပေးပို့ခြင်းကို ဆိုလိုသည်။ ၎င်းတွင် မိတ္တူကူးခြင်း၊ အများပြည်သူရှေ့တွင် ပြသခြင်း၊ ဖျော်ဖြေခြင်း၊ ဖြန့်ဝေခြင်း၊ ဆက်သွယ်ခြင်း သို့မဟုတ် သွင်းကုန်လုပ်ခြင်းတို့ ပါဝင်သည်။
 
-  l. Sui Generis Database Rights ဆိုသည်မှာ Directive 96/9/EC (11 March 1996) အောက်တွင် ဒေတာဘေ့စ်များ၏ ဥပဒေရေးရာကာကွယ်မှုအတွက် သတ်မှတ်ထားသည့် မူပိုင်ခွင့်အပြင် အခြားအခွင့်အရေးများကို ဆိုလိုသည်။
 
-  m. You ဆိုသည်မှာ Public License အောက်တွင် Licensed Rights ကို အသုံးပြုသည့် ပုဂ္ဂိုလ် သို့မဟုတ် အဖွဲ့အစည်းကို ဆိုလိုသည်။ Your သည် ဆက်စပ်အဓိပ္ပာယ်ရှိသည်။
 
-Section 2 -- လက်ဝင်မှု
 
-a. လိုင်စင်ပေးခြင်း
 
-1. Public License ၏ စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင်၊ Licensor သည် သင့်အား Licensed Material အပေါ် Licensed Rights ကို အောက်ပါအတိုင်း ခွင့်ပြုသည်:
 
-a. Licensed Material ကို အပိုင်းအစဖြစ်စေ၊ အပြည့်အစုံဖြစ်စေ မိတ္တူကူးခြင်းနှင့် မျှဝေခြင်း။
+ ခ. ပြုပြင်သူ၏ လိုင်စင် ဆိုသည်မှာ မူပိုင်ခွင့်နှင့် ဆင်တူသော ခွင့်များကို မူပိုင်ခွင့်ရရှိသူ၏ ပံ့ပိုးမှုတွင် ပြုပြင်ပြောင်းလဲထားသော ပစ္စည်းများအတွက် ဤ အများပြည်သူ လိုင်စင်၏ စည်းချက်များနှင့် ကိုက်ညီသည့် နည်းဖြင့် သင် ကော့ပီရိုက် ပိုင်ခွင့်နှင့် ဆင်တူသောခွင့်များကို ချမှတ်ထားသည်။
 
-b. Adapted Material ကို ထုတ်လုပ်ခြင်း၊ မိတ္တူကူးခြင်းနှင့် မျှဝေခြင်း။
 
-2. Exceptions and Limitations: Exceptions and Limitations သက်ဆိုင်ပါက၊ Public License သည် သင့်အသုံးပြုမှုအပေါ် မသက်ဆိုင်ပါ၊ သင့်အား ၎င်း၏ စည်းမျဉ်းနှင့် အခြေအနေများကို လိုက်နာရန် မလိုအပ်ပါ။
 
-3. သက်တမ်း: Public License ၏ သက်တမ်းကို Section 6(a) တွင် ဖော်ပြထားသည်။
+ ဃ. BY-SA ကိုက်ညီသည့် လိုင်စင် ဆိုသည်မှာ creativecommons.org/compatiblelicenses တွင် စာရင်းပြုထားပြီး Creative Commons မှ ဤ အများပြည်သူ လိုင်စင်နှင့် အနည်းဆုံးညီမျှတသည့် အဖြစ် သဘောတူပြုထားသော လိုင်စင်ဖြစ်သည်။
 
-4. မီဒီယာနှင့် ပုံစံများ; နည်းပညာပြုပြင်မှုများ ခွင့်ပြုထားသည်: Licensor သည် သင့်အား ယခုသိရှိထားသည့် သို့မဟုတ် နောက်ပိုင်းဖန်တီးမည့် မီဒီယာနှင့် ပုံစံများတွင် Licensed Rights ကို အသုံးပြုရန် ခွင့်ပြုသည်။
 
-5. Downstream recipients:
 
-a. Licensor မှ ပေးသော ကမ်းလှမ်းမှု -- Licensed Material: Licensed Material ၏ လက်ခံသူတိုင်းသည် Public License ၏ စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် Licensed Rights ကို အသုံးပြုရန် Licensor ၏ ကမ်းလှမ်းမှုကို အလိုအလျောက် ရရှိသည်။
+ င. မူပိုင်ခွင့်နှင့် ဆင်တူသော ခွင့်များ ဆိုသည်မှာ မူပိုင်ခွင့်နှင့် သက်ဆိုင်သော နီးကပ်စွာဆက်စပ်သော ခွင့်များမှတစ်ပါးဖြစ်ပြီး၊ ကန့်သတ်ခြင်းမရှိဘဲ လေ့လာခြင်း၊ ထုတ်လွှင့်ခြင်း၊ အသံသွင်းခြင်းနှင့် Sui Generis ဒေတာဘေ့စ် ခွင့်များ အပါအဝင် စသဖြင့် အမည် သတ်မှတ်ပေးထားခြင်း သို့မဟုတ် အမျိုးအစား ခွဲခြားပေးခြင်းမရှိဘဲ ရှိသည်။ အများပြည်သူ လိုင်စင် အတွက် ရည်ရွယ်ချက်တွင်၊ အဆိုပါ ခွင့်များသည်
+     မူပိုင်ခွင့်နှင့် နီးစပ်စွာဆက်နွယ်သော အရာများဖြစ်ပြီး၊ ကန့်သတ်ချက်မရှိဘဲ၊
+     အကောင်အထည်ဖော်ခြင်း၊ ထုတ်လွှင့်ခြင်း၊ အသံမှတ်တမ်းကူးခြင်း၊ နှင့် Sui Generis ဒေတာဘေ့စ်
+     အခွင့်အရေးများအပါအဝင်၊ အခွင့်အရေးများကို ဘယ်လို အမည်ပေးထားသော်လည်းကောင်း
+     အမျိုးစားခွဲခြားပြီး အကဲဖြတ်မှုမရှိဘဲ ဖြစ်သည်။ ဤ Public License ၏ ရည်ရွယ်ချက်အတွက်၊ အခွင့်အရေးများသည်
+     အပိုဒ် 2(b)(1)-(2) တွင် ဖော်ပြထားသည့်အတိုင်း Copyright နှင့် ဆင်တူအခွင့်အရေးများမဟုတ်ကြောင်း။
+     အခွင့်အရေးများ။
 
-b. Licensor မှ ပေးသော ထပ်ဆင့်ကမ်းလှမ်းမှု -- Adapted Material: Adapted Material ၏ လက်ခံသူတိုင်းသည် Adapter's License ၏ စည်းမျဉ်းနှင့် အခြေအနေများအောက်တွင် Adapted Material ကို အသုံးပြုရန် Licensor ၏ ကမ်းလှမ်းမှုကို အလိုအလျောက် ရရှိသည်။
+  e. ထိရောက်သော နည်းပညာဆိုင်ရာ အတိုင်းအတာများ ဆိုသည်မှာ
+     သင့်တော်သော အာဏာမရှိပါက ပြန်လည်ကျော်လွန်၍မရနိုင်သော
+     အတိုင်းအတာများဖြစ်ပြီး၊ 1996 ခုနှစ် ဒီဇင်ဘာ 20 ရက်တွင်
+     အတည်ပြုခဲ့သော WIPO Copyright သဘောတူညီချက်၏ အပိုဒ် 11
+     နှင့်/သို့မဟုတ် ဆင်တူနိုင်ငံတကာ သဘောတူညီချက်များအောက်တွင်၀တ္ထုငယ်တင်
 
-c. Downstream ကန့်သတ်ချက်များ မရှိ: Licensed Material ၏ လက်ခံသူတစ်ဦးဦးမှ Licensed Rights ကို အသုံးပြုရန် ကန့်သတ်မည့် ထပ်ဆင့် သို့မဟုတ် ကွဲပြားသော စည်းမျဉ်းနှင့် အခြေအနေများကို သင့်အား မပေးနိုင်ပါ။
 
-6. အတည်ပြုမှုမရှိ: Public License ၏ မည်သည့်အပိုင်းမှ သင့်အား Licensor သို့မဟုတ် Attribution ရရှိရန် သတ်မှတ်ထားသော အခြားသူများနှင့် ဆက်စပ်သည်ဟု သို့မဟုတ် အတည်ပြုသည်ဟု ဆိုရန် ခွင့်ပြုချက်မပေးပါ။
+  f. ကွာခြားချက်များနှင့် ကန့်သတ်ချက်များ ဆိုသည်မှာ
+     စနစ်တကျ သုံးစွဲမှု၊ တရားရာဇဝင်နှင့်/သို့မဟုတ်
 
-b. အခြားအခွင့်အရေးများ:
+     သက်ဆိုင်သော အခြား ကွာခြားချက်/ကန့်သတ်ချက်များဖြစ်သည်။
 
-1. Moral rights, such as the right of integrity, are not licensed under this Public License.
-အခွင့်အရေးများ၊ သင်သည် Sui Generis Database Rights ရှိသော ဒေတာဘေ့စ် (ဒါပေမယ့် ၎င်း၏ တစ်ခုချင်းစီပါဝင်မှုများမဟုတ်ပါ) သည် Adapted Material ဖြစ်သည်၊  
+  g. လိုင်စင် အချက်အလက်များ ဆိုသည်မှာ Creative Commons Public License ၏
 
-အပိုဒ် 3(b) ရည်ရွယ်ချက်များအတွက်ပါဝင်သည်။  
-c. သင်သည် ဒေတာဘေ့စ်၏ အကြောင်းအရာများအားလုံး သို့မဟုတ် အရေးပါသော အပိုင်းတစ်ခုခုကို မျှဝေပါက အပိုဒ် 3(a) တွင် ဖော်ပြထားသော အခြေအနေများကို လိုက်နာရမည်။  
+     လိုင်စင် အချက်အလက်များမှာ Attribution နှင့် ShareAlike ဖြစ်သည်။
 
-ရှင်းလင်းစွာဖော်ပြရန်၊ အပိုဒ် 4 သည် သင်၏ Public License အောက်ရှိ တာဝန်များကို ဖြည့်စွက်ပေးပြီး Licensed Rights တွင် အခြား Copyright နှင့် ဆင်တူသော အခွင့်အရေးများပါဝင်သောအခါ ၎င်းတို့ကို အစားထိုးမည်မဟုတ်ပါ။  
+  h. လိုင်စင်ဖွင့်ထားသော ဗဟုသုတပိုင်းဟုဆိုသည်မှာ အနုပညာ၊ စာပေ အလက်ဆင်၊ 
 
-အပိုဒ် 5 -- အာမခံချက်များမှ ဝန်ဆောင်မှုမရှိခြင်းနှင့် တာဝန်မရှိခြင်း။  
+     လိုင်စင်ပေးသူက ဤ Public License ဖြင့် လိုင်စင်ဖြင့်ထားသည်။
 
-a. Licensor မှ သီးခြားစွာ လုပ်ဆောင်ခြင်းမရှိသမျှ၊ အလားအလာရှိသမျှအတိုင်း Licensor သည် Licensed Material ကို "as-is" နှင့် "as-available" အဖြစ်ပေးသည်။ ထို့အပြင် Licensed Material နှင့်ပတ်သက်၍ အမျိုးမျိုးသော အာမခံချက်များ (ထင်ရှားသော၊ ဖွယ်ရှိသော၊ ဥပဒေကြောင်းအရ သို့မဟုတ် အခြား) မပြုလုပ်ပါ။ ၎င်းတွင် အမည်ပိုင်ခွင့်၊ စျေးကွက်အတွင်းသင့်တော်မှု၊ သတ်မှတ်ထားသော ရည်ရွယ်ချက်အတွက် သင့်တော်မှု၊ မူပိုင်ခွင့်ချိုးဖောက်မှုမရှိခြင်း၊ ဖုံးကွယ်ထားသော သို့မဟုတ် အခြားအမှားများမရှိခြင်း၊ တိကျမှု သို့မဟုတ် အမှားများရှိခြင်း/မရှိခြင်း (သိရှိထားခြင်း သို့မဟုတ် ရှာဖွေတွေ့ရှိနိုင်ခြင်းမရှိခြင်း) အပါအဝင်ဖြစ်သည်။ အာမခံချက်များကို အပြည့်အဝ သို့မဟုတ် အစိတ်အပိုင်းတစ်ခုခုတွင် ခွင့်မပြုသောနေရာများတွင်၊ ဤအာမခံချက်မှ ဝန်ဆောင်မှုမရှိခြင်းသည် သင့်အပေါ် မရောက်နိုင်ပါ။  
+  i. လိုင်စင်ပိုင်ခွင့်များ ဆိုသည်မှာ ဤ Public License ၏ စည်းမျဉ်းစည်းကမ်းများနှင့် စည်းမျဉ်းများအရ သင့်အား ပေးအပ်ထားသော အခွင့်အရေးများဖြစ်ပြီး
+     သင့်အသုံးပြုမှုအပေါ် မူတည်သော Copyright နှင့် ဆင်တူအခွင့်အရေးများအားလုံးနှင့်
 
-b. အလားအလာရှိသမျှအတိုင်း၊ ဤ Public License သို့မဟုတ် Licensed Material ကို အသုံးပြုမှုကြောင့် ဖြစ်ပေါ်လာသော တိုက်ရိုက်၊ အထူး၊ တိုက်ရိုက်မဟုတ်သော၊ အခြားသော ဆုံးရှုံးမှုများ၊ ကုန်ကျစရိတ်များ၊ သို့မဟုတ် ထိခိုက်မှုများအတွက် Licensor သည် သင့်အား တာဝန်မရှိပါ။ ဤကန့်သတ်ချက်ကို အပြည့်အဝ သို့မဟုတ် အစိတ်အပိုင်းတစ်ခုခုတွင် ခွင့်မပြုသောနေရာများတွင်၊ ဤကန့်သတ်ချက်သည် သင့်အပေါ် မရောက်နိုင်ပါ။  
+  j. Licensor ဆိုသည်မှာ ဤအများပြည်သူလိုင်စင်အောက်တွင် အခွင့်အရေးများ ခွင့်ပြုသော တစ်ဦးချင်း သို့မဟုတ် အသင်းအဖွဲ့(များ) ဖြစ်သည်။
+    ။
 
-c. အထက်ဖော်ပြထားသော အာမခံချက်မှ ဝန်ဆောင်မှုမရှိခြင်းနှင့် တာဝန်မရှိခြင်းကို အလားအလာရှိသမျှအတိုင်း အပြည့်အဝ ဝန်ဆောင်မှုမရှိခြင်းနှင့် တာဝန်လွှတ်ခြင်းအဖြစ် အနီးကပ်ဆုံး အဓိပ္ပာယ်ရစေရန် အဓိပ္ပာယ်ဖွင့်ဆိုရမည်။  
+  k. Share ဆိုသည်မှာ လိုင်စင်ခွင့်ပြုချက်များအောက်တွင် ခွင့်ပြုချက်လိုအပ်သော နည်းလမ်း သို့မဟုတ် ပုံစံဖြင့် ပစ္စည်းအကြောင်းအရာအား
+     ပြည်သူ့ကို ပို့ဆောင်ခြင်းဖြစ်ပြီး၊ ဥပမာအားဖြင့် မိတ္တိုင်၊ ပြည်သူ့ပြသမှု၊ ပြည်သူ့ ဖျော်ဖြေမှု၊ ဖြန့်ဝေခြင်း၊
+     ထုတ်ဖြန့်ခြင်း၊ ဆက်သွယ်ခြင်း သို့မဟုတ် သွင်းကုန်လုပ်ငန်းများကဲ့သို့ဖြစ်သည်၊ ထို့အပြင် အများပြည်သူကို ပစ္စည်းအကြောင်းအရာအားရရှိနိုင်ပါတယ်
+     ပြုလုပ်ပေးခြင်းဖြစ်ပြီး၊ ၎င်းသည် အများပြည်သူအဖွဲ့ဝင်များအနေဖြင့် သူတို့ရွေးချယ်သော နေရာနှင့်အချိန်တွင်
+     ဒီပစ္စည်းအကြောင်းအရာကိုရယူနိုင်ရန်ပါဝင်သည်။
 
-အပိုဒ် 6 -- သက်တမ်းနှင့် ဖျက်သိမ်းခြင်း။  
 
-a. ဤ Public License သည် ဤတွင် လိုင်စင်ရရှိထားသော Copyright နှင့် ဆင်တူသော အခွင့်အရေးများ၏ သက်တမ်းအတွင်း အကျုံးဝင်သည်။ သို့သော် သင်သည် ဤ Public License ကို လိုက်နာရန် မအောင်မြင်ပါက၊ ဤ Public License အောက်ရှိ သင့်အခွင့်အရေးများသည် အလိုအလျောက် ဖျက်သိမ်းခံရမည်။  
 
-b. အပိုဒ် 6(a) အောက်တွင် Licensed Material ကို အသုံးပြုရန် သင့်အခွင့်အရေး ဖျက်သိမ်းခံရသောနေရာတွင်၊ ၎င်းသည် အောက်ပါအတိုင်း ပြန်လည်သက်ဝင်မည်-  
+     ၁၁ မတ် ၁၉၉၆ တွင် မူပိုင်ခွင့်မဟုတ်သော ဒေတာဘေ့စ်များ၏ ဥပဒေပြုကာကွယ်မှုဆိုင်ရာညွှန်ကြားချက်၊ ပြင်ဆင်ထားခြင်း နှင့်/သို့မဟုတ် အစားထိုးထားခြင်း
+     အားဖြင့် ရရှိသောအခွင့်အရေးများနှင့် တစ်ကမ္ဘာလုံး၌ အခြား ထင်ရှားစွာ ဆင်တူညီမျှသောအခွင့်အရေးများဖြစ်သည်။
 
-1. သင့်အမှားကို သိရှိသည့်နေ့မှ 30 ရက်အတွင်း ပြင်ဆင်ပြီးပါက အလိုအလျောက် ပြန်လည်သက်ဝင်မည်။  
-2. Licensor မှ ထူးခြားစွာ ပြန်လည်သက်ဝင်ခွင့်ပြုပါက ပြန်လည်သက်ဝင်မည်။  
 
-ရှင်းလင်းစွာဖော်ပြရန်၊ အပိုဒ် 6(b) သည် သင့် Public License ကို ချိုးဖောက်မှုများအတွက် Licensor ၏ အခွင့်အရေးကို ထိခိုက်စေမည်မဟုတ်ပါ။  
+  m. You ဆိုသည်မှာ ဤအများပြည်သူလိုင်စင်အောက်၌ လိုင်စင်ခွင့်များကို အသက်သာအောင် လုပ်ဆောင်သူတစ်ဦးချင်း သို့မဟုတ် အသင်းအဖွဲ့ ဖြစ်သည်။
 
-c. ရှင်းလင်းစွာဖော်ပြရန်၊ Licensor သည် Licensed Material ကို သီးခြားစည်းမျဉ်းများနှင့် အခြေအနေများအောက်တွင် ပေးသွင်းနိုင်သည် သို့မဟုတ် Licensed Material ကို မည်သည့်အချိန်တွင်မဆို ဖြန့်ဝေမှုရပ်နိုင်သည်။ သို့သော် ဤလုပ်ဆောင်မှုသည် ဤ Public License ကို ဖျက်သိမ်းခြင်းမဟုတ်ပါ။  
 
-d. အပိုဒ် 1, 5, 6, 7, နှင့် 8 သည် ဤ Public License ဖျက်သိမ်းခြင်းမှ နောက်ပိုင်းတွင်လည်း သက်တမ်းရှိနေမည်။  
 
-အပိုဒ် 7 -- အခြားစည်းမျဉ်းများနှင့် အခြေအနေများ။  
 
-a. Licensor သည် သင့်အနေဖြင့် ဆက်သွယ်သော ထပ်ဆောင်း သို့မဟုတ် ကွဲပြားသော စည်းမျဉ်းများနှင့် အခြေအနေများကို ထူးခြားစွာ သဘောတူမိပါကသာ လိုက်နာရမည်။  
 
-b. ဤတွင် ဖော်ပြထားခြင်းမရှိသော Licensed Material နှင့်ပတ်သက်၍ သဘောတူညီချက်များ၊ နားလည်မှုများ သို့မဟုတ် စီစဉ်မှုများသည် ဤ Public License ၏ စည်းမျဉ်းများနှင့် အခြေအနေများနှင့် သီးခြားပြီး လွတ်လပ်သည်။  
+အပိုင်း ၂ -- အကွာအ၀ေး။
 
-အပိုဒ် 8 -- အဓိပ္ပာယ်ဖွင့်ဆိုခြင်း။  
+  က. လိုင်စင်ခွင့်ပေးခြင်း။
 
-a. ရှင်းလင်းစွာဖော်ပြရန်၊ ဤ Public License သည် Licensed Material ကို ဤ Public License အောက်တွင် ခွင့်ပြုချက်မလိုဘဲ တရားဝင်အသုံးပြုနိုင်သော အခြေအနေများကို လျှော့ချခြင်း၊ ကန့်သတ်ခြင်း သို့မဟုတ် အခြေအနေများ ထည့်သွင်းခြင်းမပြုပါ။  
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
 
-b. အလားအလာရှိသမျှအတိုင်း၊ ဤ Public License ၏ စည်းမျဉ်းတစ်ခုခုကို အကောင်အထည်မဖော်နိုင်ဟု သတ်မှတ်ပါက၊ ၎င်းကို အကောင်အထည်ဖော်နိုင်ရန် လိုအပ်သည့် အနည်းဆုံးအတိုင်း ပြင်ဆင်ရမည်။ ပြင်ဆင်၍မရပါက၊ ၎င်းကို ဤ Public License မှ ဖြုတ်ပစ်ရမည်။ သို့သော် ကျန်ရှိသော စည်းမျဉ်းများနှင့် အခြေအနေများ၏ အကောင်အထည်ဖော်နိုင်မှုကို ထိခိုက်စေမည်မဟုတ်ပါ။  
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
 
-c. ဤ Public License ၏ စည်းမျဉ်း သို့မဟုတ် အခြေအနေတစ်ခုခုကို လွှတ်ပေးခြင်း သို့မဟုတ် လိုက်နာရန် မလိုအပ်ခြင်းကို Licensor မှ ထူးခြားစွာ သဘောတူမိပါကသာ လက်ခံရမည်။  
+            b. produce, reproduce, and Share Adapted Material.
 
-d. ဤ Public License တွင် မည်သည့်အရာမျှ Licensor သို့မဟုတ် သင့်အပေါ် သက်ဆိုင်သော တရားစီရင်မှု သို့မဟုတ် အာဏာ၏ ဥပဒေကြောင်းအရ လုပ်ထုံးလုပ်နည်းများမှ ကင်းလွတ်ခွင့်များနှင့် အခွင့်အရေးများကို ကန့်သတ်ခြင်း သို့မဟုတ် လွှတ်ပေးခြင်းအဖြစ် ဖွင့်ဆိုခြင်းမပြုရ။  
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
 
-=======================================================================  
+       3. Term. The term of this Public License is specified in Section
+          6(a).
 
-Creative Commons သည် ၎င်း၏ Public Licenses များ၏ ပါတီမဟုတ်ပါ။ သို့သော် Creative Commons သည် ၎င်း၏ Public Licenses များကို ၎င်း၏ ပုံနှိပ်ထုတ်ဝေမှုများတွင် အသုံးပြုရန် ရွေးချယ်နိုင်ပြီး၊ ၎င်းတို့တွင် “Licensor” အဖြစ် သတ်မှတ်မည်ဖြစ်သည်။ Creative Commons Public Licenses ၏ စာသားကို CC0 Public Domain Dedication အောက်တွင် Public Domain သို့ လွှတ်ထားသည်။ Creative Commons Public License အောက်တွင် မျှဝေထားသော အကြောင်းအရာကို ဖော်ပြရန် သို့မဟုတ် creativecommons.org/policies တွင် ဖော်ပြထားသော Creative Commons ၏ မူဝါဒများအောက်တွင် ခွင့်ပြုထားသောအခြေအနေများအပြင်၊ Creative Commons သည် ၎င်း၏ အမှတ်တံဆိပ် "Creative Commons" သို့မဟုတ် Creative Commons ၏ အခြားအမှတ်တံဆိပ် သို့မဟုတ် လိုဂိုကို ၎င်း၏ ရေးသားခွင့်ပြုချက်မရှိဘဲ အသုံးပြုရန် ခွင့်မပြုပါ။ ၎င်းတွင် Creative Commons Public Licenses များကို မလိုလားအပ်သော ပြင်ဆင်မှုများနှင့် သက်ဆိုင်သော စီစဉ်မှုများ၊ နားလည်မှုများ သို့မဟုတ် သဘောတူညီမှုများပါဝင်သည်။ ရှင်းလင်းစွာဖော်ပြရန်၊ ဤစာပိုဒ်သည် Public Licenses ၏ အစိတ်အပိုင်းမဟုတ်ပါ။  
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
 
-Creative Commons သို့ creativecommons.org တွင် ဆက်သွယ်နိုင်သည်။  
+       5. Downstream recipients.
 
-**အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  ခ. အခြားအခွင့်အရေးများ။
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+အပိုင်း ၃ -- လိုင်စင်အခြေအနေများ။
+
+သင့်ထံရှိ လိုင်စင်ခွင့်ရကို ယခုအောက်ပါအခြေအနေများအရ သတ်မှတ်ခွင့်ပြုသည်။
+
+
+  က. မှတ်တမ်းတင်ခြင်း။
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  ခ. ShareAlike။
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+အပိုင်း ၄ -- တစ်ကိုယ်တော် Database အခွင့်အရေးများ။
+
+လိုင်စင်ခွင့်ရများတွင် သင့်လက်တွင်ရှိသော ပါဝင်ပစ္စည်း အသုံးပြုခြင်းအတွက်မှု တစ်ကိုယ်တော် Database အခွင့်အရေးများ ပါဝင်ပါက -
+
+
+
+  ခ. သင်သည် database ၏ပါဝင်မှု အစုတစ်စိတ်တစ်ပိုင်း သို့မဟုတ် အားလုံးကို သင်မှာ တစ်ကိုယ်တော် Database အခွင့်အရေးများရှိသော database တွင် ထည့်သွင်းပါက၊ သင်၏ တစ်ကိုယ်တော် Database အခွင့်အရေးများရှိသော database (သို့သော် ၎င်း၏ တစ်စိတ်တစ်ပိုင်း မဟုတ်သော) သည် ပြုပြင်ထားသော ပစ္စည်း ဖြစ်သည်။
+
+
+
+
+
+
+
+     including for purposes of Section 3(b); and
+  က。 သင်သည် ဒေတာဘေ့စ်ရဲ့ အကြောင်းအရာအားလုံး သို့မဟုတ် အသီးသီးပါးလွှာသော အပိုင်းအစကို မျှဝေသည့်အခါ အပိုဒ် ၃(က) တွင် ပါရှိသော အခြေခံဖြစ်စေရန် သဘောတူညီချက်များနှင့် လိုက်နာရမည်။
+     အားလုံးကို မျှဝေပလျှင် လိုက်နာရမည်။
+
+မသေချာမှုများကင်းစင်စေရန် ယခုအပိုဒ် ၄ သည် သင့်ဝတ္တရားများဖြင့် တင်ပြထားသည့် ပုလ္လင်ဆင်ဇာတ်အောက် ကျန်သော
+တာဝန်များအား ဖြည့်စွက်ပေးပါသည်၊ သို့သော် မဟုတ်ပါ၊ သင့်လက်မှတ်တမ်းများတွင် ပါဝင်သော အခြား မူပိုင်ခွင့်နှင့် ဆင်တူသောအခွင့်အရေးများအောက်တွင်ဖြစ်ပါက။
+
+
+
+
+
+     နှင့် ရရှိနိုင်သမျှအတိုင်း တင်ပြပေးပြီး၊ လိုင်စင်ရှိ ပစ္စည်းနှင့် သက်ဆိုင်သော ဂုဏ်သတင်းမရှိသော သို့မဟုတ် သက်ဆိုင်မှုအမျိုးမျိုးရှိသော တာဝန်ခံမှုပုံစံအမျိုးမျိုးကို ရှင်းပြခြင်းမပြုပါ။
+     ဒါတွင် မဟာမိတ်ပိုင်ခွင့်၊ အရည်အသွေးအရောင်းအဝယ် ချုပ်ဆိုခြင်း၊ အထူးရည်ရွယ်ချက်အတွက် အသင့်တော်မှု၊ ပုဂ္ဂိုလ်ရေး တားမြစ်ခြင်းမရှိမှု၊ မထင်မှတ်ထားခြင်း သို့မဟုတ် အနိမ့်ဆုံး ခွင့်လွှဲချက်များ၊ မှန်ကန်မှု၊ သို့မဟုတ် အမှားများရှိခြင်း သို့မဟုတ် မရှိခြင်း၊ သိရှိနေခြင်း သို့မဟုတ် ရှာဖွေတွေ့ရှိနိုင်ခြင်းမရှိခြင်း ပါဝင်သည်။
+     အာမခံချက်များကို လုံးဝ သို့မဟုတ် အပိုင်းအစဖြင့် မခွင့်ပြုထားသည့် နေရာများတွင် ဤအာမခံချက် များသည် သင့်အပေါ်အကျိုးသက်ရောက်မှု မရှိနိုင်ပါ။
+
+  ခ. အလွယ်တကူဖြစ်နိုင်သမျှ၊ အဖြစ်မှန်အားဖြင့် လိုင်စင်ရှင်ဆောင်သည် သင့်အား ဥပဒေရေးရာအယူအဆ အနက် တစ်ခုအပါအဝင် (အထူး၍ မရိုးမရွင်းမှု ရှိခြင်း) သို့မဟုတ်
+     အခြားအကြောင်းအရ အဘယ်သည့် တိုက်ရိုက်၊ အထူးပြု၊ အတိုင်းအတာနည်း၊ အထူးနည်းမျိုး၊ သဘာ၀ကျသော ဒဏ်ရာ, ပျက်စီးမှု, သေဆုံးမှု အသုံးစရိတ် သို့မဟုတ် ထိခိုက်မှုများအတွက် တာဝန်မခံပါ၊
+     ဤအများပြည်သူလိုင်စင်ခွင့်မှ သို့မဟုတ် လိုင်စင်ရှိ ပစ္စည်း၏ အသုံးပြုမှုမှ ဖြစ်ပေါ်လာသည့် အဲဒီလိုနည်းလမ်းများဖြစ်ပါက၊
+     ခန့်မှန်းချက်များရှိခဲ့ခဲ့ကတည်းက ဖြစ်ပါစေ၊ မဖြစ်စစေပါ။ တာဝန်ကန့်သတ်မှုများကို လုံးဝ သို့မဟုတ် အပိုင်းအစဖြင့် မခွင့်ပြုထားသည့် နေရာတွင် ဤကန့်သတ်ချက်သည် သင့်အပေါ် သက်ရောက်မှုမရှိနိုင်ပါ။
+
+  ဂ. အထက်ဖော်ပြထားသည့် အာမခံချက်နှင့် တာဝန်ကန့်သတ်ချက်များကို အလွယ်တကူဖြစ်နိုင်သည့်အတိုင်း သေချာဆုံးသည့် စိတ်ကူးယဉ်ချက်ဖြင့် အလုံးစုံအာမခံချက်ဖြင့်
+
+
+
+အပိုဒ် ၆ -- ကာလနှင့် ပိတ်သိမ်းခြင်း။
+
+  က. ဤအများပြည်သူလိုင်စင်သည် အဆိုပါ မူပိုင်ခွင့်နှင့် ဆင်တူအခွင့်အရေးများ၏ ကာလအတွင်း သက်ရှိစွာအတည်ပြုဖြစ်သည်။ သို့သော် သင်သည် ဤအများပြည်သူလိုင်စင်နှင့်သဘောတူညီမှု မလိုက်နာပါက သင့်အခွင့်အရေးများသည် သက်ဆိုင်ရာအများပြည်သူလိုင်စင်အောက်တွင် အလိုအလျော့ ပိတ်သိမ်းခံရပါမည်။
+
+  ခ. သင်၏ လိုင်စင်ရှိ ပစ္စည်း အသုံးပြုခွင့်သည် အပိုဒ် ၆(က) အရ ပိတ်သိမ်းခံရပါက၊ ၎င်းသည် ပြန်လည်ဖွင့်ပွဲ ပါရှိသည်။
+
+     အပိုင်းအားဖြင့်၊ ဤကန့်သတ်ချက်သည် သင့်အား မလီလားနိုင်ပါ။
+
+  ခ။ အထက်ပါ အာမခံချက်ပယ်ချခြင်းနှင့် တာဝန်သတ်မှတ်ချက်ကို
+     မဖြစ်နိုင်သော အလယ်တစ်လျှောက်၊ အပြည့်အစုံသော အာမခံချက်ပယ်ချခြင်းနှင့်
+     တာဝန်လုံးဝလွတ်မှတ်ချက်ကို အလားဆုံးနီးစပ်စေသည့်နည်းဖြင့် ဖော်ပြရမည်။
+
+
+
+
+
+     ကိုက်ညီသောအခွင့်အရေးများအတွက် သက်တမ်းအတွင်း ထိရောက်သည်။
+     သို့သော် သင်သည် ဤ Public License ကို မလိုက်နာပါက
+     သင့် အခွင့်အရေးများသည် အလိုအလျောက် ပယ်ချခံရမည်။
+
+
+     ရပ်ဆိုင်းခံရခြင်းဖြစ်ပါက၊ ထိုအခွင့်အရေးတက်မြှုပ်သည်။
+
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. မှားယွင်းမှုကင်းစင်ရန်အတွက်၊ အပိုင်ရှင်သည် လိုင်စင်ရရှိမှုရှိသည့် ပစ္စည်းကို သီးခြားသော အဖြစ်အပျက် သို့မဟုတ်အခြေအနေများဖြင့် သို့မဟုတ် မည်သည့်အချိန်တွင်မဆို ဖြန့်ဖြူးမှုကို ရပ်ဆိုင်းနိုင်ပါသည်။ သို့ရာတွင်၎င်းသည်၎င်း Public License ကို ပိတ်ဆိုင်းခြင်း မဖြစ်ပါ။
+     Licensed Material under separate terms or conditions or stop
+     distributing the Licensed Material at any time; however, doing so
+     will not terminate this Public License.
+
+  d. အပိုဒ် ၁၊ ၅၊ ၆၊ ၇ နှင့် ၈ များသည် ဤ Public License ပိတ်ဆိုင်းပြီးပါက ဖျက်သိမ်းခြင်း မဖြစ်ပါ။
+     License.
+
+
+အပိုဒ် ၇ -- အခြား မသတ်မှတ်ချက်များနှင့် အခြေအနေများ။
+
+  a. အပိုင်ရှင်သည် သင့်ထံမှ အသုံးပြုစာသို့မဟုတ် အခြားမည်သည့် ထပ်တိုးသတ်မှတ်ချက်များကို မှီသောလျှင်မှသာ သဘောတူညီချက်ရှိပါက သဘောတူညီမထားသည့် မြေခြယ်ထားသည့် သတ်မှတ်ချက်များနှင့် မလျှော့ချပါ။
+     terms or conditions communicated by You unless expressly agreed.
+
+  b. ဤနေရာတွင် မဖော်ပြထားသည့် လိုင်စင်ရရှိမှုရှိသည့် ပစ္စည်းနှင့် ပတ်သက်သည့် သဘောတူညီချက်များ၊ နားလည်မှုများ သို့မဟုတ် သဘောတူညီချက်များသည် ဤ Public License ၏ သတ်မှတ်ချက်များနှင့် မဆက်စပ်ပါ။
+     Licensed Material not stated herein are separate from and
+     independent of the terms and conditions of this Public License.
+
+
+အပိုဒ် ၈ -- အဓိပ္ပါယ်ဖေါ်ခြင်း။
+
+  a. မှားယွင်းမှုကင်းစင်ရန်အတွက်၊ ဤ Public License သည် လိုင်စင်ရရှိမှုရှိသည့် ပစ္စည်းကို ဥပဒေနှင့်သက်ဆိုင်သော သုံးစွဲမှုများကို လျှော့ချခြင်း၊ ကန့်သတ်ခြင်း သို့မဟုတ် အခြေအနေများ ပေးသည့် အတိုင်းမဟုတ်ပါ။
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
+
+  b. တတ်နိုင်သမျှ၊ ဤ Public License ၏ စည်းကမ်းချက်တစ်ခုခုကို လက်မခံနိုင်လျှင်၊ ၎င်းကို အလုပ်အပ်နိုင်ရန် လိုအပ်သည့် အနည်းဆုံးအတိုင်း ပြန်လည်ပြင်ဆင်မည် ဖြစ်သည်။ ပြုပြင်၍ မရသောအခါ၌၊ ဤအပိုဒ်ကို သီးခြားဖယ်ရှားပြီး ကျန်ရှိသည့် စည်းကမ်းချက်များ၏ လက်မခံနိုင်မှုသက်ရောက်မှုကို မထိခိုက်စေရပါ။
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
+
+  c. ဤ Public License ၏ သတ်မှတ်ချက်၊ အခြေအနေများ တစ်ခုခုကို လက်မခံ၍ အတည်မပြုမိပါက သို့မဟုတ် လုပ်ဆောင်မှုတစ်ခုကို အတည်မပြုမိပါက အပိုင်ရှင်၏ ဖေါ်ပြချက်မှသာလျှင် သဘောတူညီချက် ရရှိပါသည်။
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
+
+  d. ဤ Public License ထဲတွင် ပါဝင်သည့် ဘာမျှမသည် အပိုင်ရှင် သို့မဟုတ် သင့်အား ဆိုင်သည့် လွတ်လပ်ခွင့်များနှင့် ခွင့်အာဏာများကို ကန့်သတ်ခြင်း သို့မဟုတ် လျှော့ချခြင်း ဖြစ်စေစေ မဟုတ်ပါ။
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
+
+
+=======================================================================
+
+Creative Commons သည် ၎င်း၏ ပရိုမိုးရှင်း အများသုံး လိုင်စင်များ၏ ပါတီ မဟုတ်ပါ။ ထိုသို့ဖြစ်သော်လည်း Creative Commons သည် ၎င်းထုတ်ဝေသော ပစ္စည်းများအားလုံးအတွက် ၎င်း၏ Public License များကို အလေးထား အသုံးပြုနိုင်ပြီး ထိုအခါ၌ “အပိုင်ရှင်” ဟူ၍ တွက်ချက်သည်။ Creative Commons ၏ Public License စာတမ်းများသည် CC0 Public Domain Dedication ဖြင့် ရှေ့ပြေးအသုံးပြုမှုတွင် စိတ်ချမ်းသာမှုအဖြစ် ပြုလုပ်ထားသည်။ Creative Commons ၏ Public License အောက်တွင် ပစ္စည်းများ မျှဝေခြင်း သို့မဟုတ် creativecommons.org/policies တွင် ထုတ်ပြန်သည့် Creative Commons မူဝါဒများဖြင့် ခွင့်ပြုထားသည့် အခြားနည်းနှင့် မဟုတ်လျှင် "Creative Commons" စသည့် ကွန်ရက် အမည်သို့မဟုတ် လိုဂို ကို နောက်တစ်ကြိမ် အတည်မပြုဘဲ အသုံးပြုခြင်းကို ခွင့်ပြုသည် မဟုတ်ပါ။ အထူးသဖြင့် ၎င်း၏ Public License များအား မလိုလားအပ်ဘဲ ပြင်ဆင်ခြင်းများ သို့မဟုတ် လိုင်စင်ရရှိမှုရှိသော ပစ္စည်းများ၏ အသုံးပြုမှုနှင့် ဆိုင်သော သဘောတူညီချက်များနှင့် ထပ်တူညီချက်များကို ခွင့်ပြုမှာမဟုတ်ပါ။ တရားဝင် လက်မှတ် မထားသည့်ချိန်၌၊ ဤအပိုဒ်သည် Public License များ၏ အစိတ်အပိုင်း မဟုတ်ပါ။
+licenses. Notwithstanding, Creative Commons may elect to apply one of
+its public licenses to material it publishes and in those instances
+will be considered the “Licensor.” The text of the Creative Commons
+public licenses is dedicated to the public domain under the CC0 Public
+Domain Dedication. Except for the limited purpose of indicating that
+material is shared under a Creative Commons public license or as
+otherwise permitted by the Creative Commons policies published at
+creativecommons.org/policies, Creative Commons does not authorize the
+use of the trademark "Creative Commons" or any other trademark or logo
+of Creative Commons without its prior written consent including,
+without limitation, in connection with any unauthorized modifications
+to any of its public licenses or any other arrangements,
+understandings, or agreements concerning use of licensed material. For
+the avoidance of doubt, this paragraph does not form part of the
+public licenses.
+
+Creative Commons may be contacted at creativecommons.org.
+
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**ပြောကြားချက်**
+ဤစာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးပမ်းနေသော်လည်း၊ စက်ကိရိယာဘာသာပြန်ခြင်းများတွင် အမှားများ သို့မဟုတ် မှားယွင်းချက်များ ပါဝင်နိုင်ကြောင်း သတိပြုပါရန် လိုအပ်ပါသည်။ မူလစာတမ်းကို မူရင်းဘာသာဖြင့်သာ ယုံကြည်စိတ်ချရသော အချက်အလက်အဖြစ် သတ်မှတ်သင့်သည်။ အရေးကြီးသည့် သတင်းအချက်အလက်များအတွက် ပရော်ဖက်ရှင်နယ် လူသားဘာသာပြန်သူဝန်ဆောင်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်ချက်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော နားလည်မှုကွာခြားမှုများ သို့မဟုတ် မမှန်ကန်သော အသုံးပြုမှုများအတွက် ကျွန်ုပ်တို့ တာဝန်မခံပါ။
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

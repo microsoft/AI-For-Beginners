@@ -1,110 +1,112 @@
 # Syväoppimisen koulutusvinkit
 
-Kun neuroverkot syvenevät, niiden koulutusprosessi muuttuu yhä haastavammaksi. Yksi merkittävä ongelma on niin sanottu [häviävät gradientit](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) tai [räjähtävät gradientit](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Tämä artikkeli](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) tarjoaa hyvän johdannon näihin ongelmiin.
+Kun neuroverkot muuttuvat syvemmiksi, niiden kouluttamisesta tulee yhä haastavampaa. Yksi merkittävä ongelma ovat niin sanotut [häviävät gradientit](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) tai [räjähtävät gradientit](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Tämä kirjoitus](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) tarjoaa hyvän johdannon näihin ongelmiin.
 
-Jotta syvien verkkojen koulutus olisi tehokkaampaa, voidaan käyttää muutamia tekniikoita.
+Syvien verkkojen koulutuksen tehostamiseksi on olemassa muutamia tekniikoita, joita voidaan käyttää.
 
-## Arvojen pitäminen kohtuullisella välillä
+## Arvojen pitäminen järkevällä välillä
 
-Numeristen laskelmien vakauden varmistamiseksi haluamme varmistaa, että kaikki neuroverkon arvot ovat kohtuullisessa mittakaavassa, tyypillisesti [-1..1] tai [0..1]. Tämä ei ole kovin tiukka vaatimus, mutta liukulukulaskennan luonne on sellainen, että erimagnitudisia arvoja ei voida käsitellä tarkasti yhdessä. Esimerkiksi, jos lisäämme 10<sup>-10</sup> ja 10<sup>10</sup>, tuloksena on todennäköisesti 10<sup>10</sup>, koska pienempi arvo "muutetaan" samalle suuruusluokalle kuin suurempi, ja näin mantissa menetetään.
+Numeraalisten laskelmien vakauttamiseksi haluamme varmistaa, että kaikki arvot neuroverkossa ovat järkevällä skaalalla, tyypillisesti [-1..1] tai [0..1]. Tämä ei ole kovin tiukka vaatimus, mutta liukulukulaskennan luonne on sellainen, että eri suuruusluokan arvoja ei voi tarkasti käsitellä yhdessä. Esimerkiksi, jos lisäämme 10<sup>-10</sup> ja 10<sup>10</sup>, saamme todennäköisesti 10<sup>10</sup>, koska pienempi arvo ”muutetaan” saman suuruusluokan arvoon kuin suurempi, jolloin tarkkuus häviää.
 
-Useimmilla aktivointifunktioilla on epälineaarisuuksia alueella [-1..1], ja siksi on järkevää skaalata kaikki syöttödata [-1..1] tai [0..1] välille.
+Suurin osa aktivointifunktioista on ei-lineaarisia välillä [-1..1], joten on järkevää skaalata kaikki syöteaineisto välille [-1..1] tai [0..1].
 
-## Alkuarvojen alustaminen
+## Alkupainojen alustaminen
 
-Ihanteellisesti haluamme, että arvot pysyvät samassa mittakaavassa verkon kerrosten läpi kulkiessaan. Siksi on tärkeää alustaa painot siten, että arvojen jakauma säilyy.
+Ihanteellisesti haluamme, että arvot pysyvät samassa haarukassa kerrosten läpi kuljettaessa. Siksi on tärkeää alustaa painot siten, että arvon jakauma säilyy.
 
-Normaalijakauma **N(0,1)** ei ole hyvä idea, koska jos meillä on *n* syötettä, ulostulon keskihajonta olisi *n*, ja arvot todennäköisesti hyppäisivät ulos [0..1] välistä.
+Normaali jakauma **N(0,1)** ei ole hyvä idea, sillä jos meillä on *n* syötettä, lähtöarvojen keskihajonta olisi *&radic;n* ja arvot todennäköisesti hyppäisivät pois [0..1] -väliltä.
 
-Seuraavia alustuksia käytetään usein:
+Seuraavia alustustapoja käytetään usein:
 
-- Uniform-jakauma -- `uniform`
-- **N(0,1/n)** -- `gaussian`
-- **N(0,1/√n_in)** takaa, että syötteillä, joiden keskiarvo on nolla ja keskihajonta 1, sama keskiarvo/keskihajonta säilyy
-- **N(0,√2/(n_in+n_out))** -- niin sanottu **Xavier-alustus** (`glorot`), joka auttaa pitämään signaalit oikealla alueella sekä eteen- että taaksepäin kulkiessa
+ * Yhtenäinen jakauma -- `uniform`
+ * **N(0,1/n)** -- `gaussian`
+ * **N(0,1/&radic;n_in)** takaa, että jos syötteillä on keskiarvo nolla ja keskihajonta 1, sama keskiarvo/keskihajonta säilyy
+ * **N(0,&radic;2/(n_in+n_out))** -- niin kutsuttu **Xavier-alustus** (`glorot`), joka auttaa pitämään signaalit oikealla alueella sekä eteen- että taaksepäin kuljetuksessa
 
-## Eränormalisointi
+## Ryhmänormalisointi
 
-Vaikka painot alustettaisiin oikein, ne voivat koulutuksen aikana kasvaa tai pienentyä mielivaltaisesti, mikä vie signaalit pois oikealta alueelta. Voimme palauttaa signaalit oikealle alueelle käyttämällä yhtä **normalisointitekniikoista**. Vaikka niitä on useita (painonormalisointi, kerrosnormalisointi), yleisimmin käytetty on eränormalisointi.
+Vaikka painojen alustus olisi kunnossa, painot voivat tulla mielivaltaisen suuriksi tai pieniksi koulutuksen aikana, jolloin signaalit eivät pysy oikealla alueella. Voimme palauttaa signaalit oikealle alueelle käyttämällä yhtä **normalisointitekniikoista**. Vaikka niitä on useita (Painon normalisointi, Kerroksen normalisointi), yleisimmin käytetty on ryhmänormalisointi.
 
-**Eränormalisoinnin** idea on ottaa huomioon kaikki arvot minibatchin sisällä ja suorittaa normalisointi (eli vähentää keskiarvo ja jakaa keskihajonnalla) näiden arvojen perusteella. Se toteutetaan verkkokerroksena, joka suorittaa tämän normalisoinnin painojen soveltamisen jälkeen, mutta ennen aktivointifunktiota. Tämän seurauksena saavutetaan yleensä korkeampi lopullinen tarkkuus ja nopeampi koulutus.
+Ryhmänormalisoinnin idea on ottaa huomioon kaikki arvot miniryhmässä ja suorittaa normalisointi (eli vähentää keskiarvo ja jakaa keskihajonnalla) näiden arvojen perusteella. Se toteutetaan verkon osana, joka suorittaa tämän normalisoinnin painojen soveltamisen jälkeen ja ennen aktivointifunktiota. Tämän seurauksena näemme todennäköisesti paremman lopputarkkuuden ja nopeamman koulutuksen.
 
-Tässä on [alkuperäinen tutkimus](https://arxiv.org/pdf/1502.03167.pdf) eränormalisoinnista, [selitys Wikipediassa](https://en.wikipedia.org/wiki/Batch_normalization) ja [hyvä johdantoblogi](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (sekä yksi [venäjäksi](https://habrahabr.ru/post/309302/)).
+Tässä on [alkuperäinen artikkeli](https://arxiv.org/pdf/1502.03167.pdf) ryhmänormalisoinnista, [selitys Wikipediassa](https://en.wikipedia.org/wiki/Batch_normalization) ja [hyvä johdantoblogikirjoitus](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (sekä myös [venäjäksi](https://habrahabr.ru/post/309302/)).
 
-## Dropout
+## Pudotuskerros (Dropout)
 
-**Dropout** on mielenkiintoinen tekniikka, joka poistaa tietyn prosenttiosuuden satunnaisia neuroneja koulutuksen aikana. Se toteutetaan kerroksena, jossa on yksi parametri (poistettavien neuronien prosenttiosuus, tyypillisesti 10%-50%), ja koulutuksen aikana se nollaa syöttövektorin satunnaiset elementit ennen niiden siirtämistä seuraavaan kerrokseen.
+**Dropout** on kiinnostava tekniikka, joka poistaa satunnaisesti tietyn prosenttiosuuden neuroneista koulutuksen aikana. Se toteutetaan myös kerroksena, jolla on yksi parametri (poistettavien neuronien prosenttiosuus, tyypillisesti 10%-50%), ja koulutuksen aikana se nollaa satunnaisesti syötteen vektorin elementtejä ennen seuraavaan kerrokseen siirtymistä.
 
-Vaikka tämä saattaa kuulostaa oudolta idealta, voit nähdä dropoutin vaikutuksen MNIST-numeroiden luokittelijan koulutuksessa [`Dropout.ipynb`](Dropout.ipynb) -muistikirjassa. Se nopeuttaa koulutusta ja mahdollistaa korkeamman tarkkuuden saavuttamisen vähemmillä koulutusepookeilla.
+Vaikka tämä saattaa kuulostaa oudolta idealta, voit nähdä dropoutin vaikutuksen MNIST-käsinkirjoitettujen numeroiden luokittelijan koulutukseen [`Dropout.ipynb`](Dropout.ipynb) -muistikirjassa. Se nopeuttaa koulutusta ja mahdollistaa korkeamman tarkkuuden vähemmissä koulutuskierroissa.
 
-Tätä vaikutusta voidaan selittää useilla tavoilla:
+Tämän ilmiön voi selittää monella tavalla:
 
-- Sitä voidaan pitää satunnaisena shokkitekijänä mallille, joka vie optimoinnin pois paikallisesta minimistä
-- Sitä voidaan pitää *implisiittisenä mallin keskiarvona*, koska dropoutin aikana voidaan sanoa, että koulutamme hieman erilaista mallia
+ * Sitä voidaan pitää satunnaisena shokkitekijänä mallille, joka vie optimoinnin pois paikallisesta minimistä
+ * Sitä voidaan pitää *implisiittisenä malli-averagingina*, koska dropoutin aikana koulutamme hieman eri mallia
 
-> *Jotkut sanovat, että kun humalainen henkilö yrittää oppia jotain, hän muistaa sen paremmin seuraavana aamuna verrattuna selväpäiseen henkilöön, koska aivot, joissa jotkut neuronit eivät toimi kunnolla, yrittävät sopeutua paremmin ymmärtämään merkityksen. Emme ole koskaan testanneet itse, onko tämä totta vai ei.*
+> *Jotkut sanovat, että kun humalainen henkilö yrittää oppia jotain, hän muistaa sen paremmin seuraavana aamuna verrattuna raittiiseen, koska aivot, joissa on viallisia neuroneja, yrittävät mukautua paremmin ymmärtääkseen asian. Emme ole itse testanneet, onko tämä totta.*
 
-## Yliläräämisen estäminen
+## Ylitäytön ehkäisy
 
-Yksi syväoppimisen tärkeistä näkökohdista on kyky estää [ylilärääminen](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Vaikka voi olla houkuttelevaa käyttää erittäin tehokasta neuroverkkopohjaista mallia, meidän tulisi aina tasapainottaa mallin parametrien määrä koulutusnäytteiden määrän kanssa.
+Yksi hyvin tärkeä syväoppimisen osa-alue on kyky estää [ylitäyttöä](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Vaikka voi olla houkuttelevaa käyttää erittäin tehokasta neuroverkkopohjaista mallia, meidän pitäisi aina tasapainottaa mallin parametrien määrä koulutusnäytteiden määrän kanssa.
 
-> Varmista, että ymmärrät [yliläräämisen](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) käsitteen, jonka olemme aiemmin esitelleet!
+> Varmista, että ymmärrät aiemmin esitetyn [ylitäyttö](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) -käsitteen!
 
-Yliläräämisen estämiseen on useita tapoja:
+Ylitäytön estämiseen on useita menetelmiä:
 
-- Aikainen pysäytys -- seurataan jatkuvasti virhettä validointijoukossa ja lopetetaan koulutus, kun validointivirhe alkaa kasvaa.
-- Eksplisiittinen painojen heikkeneminen / regularisointi -- lisätään ylimääräinen rangaistus häviöfunktioon suurista painoarvoista, mikä estää mallia saamasta erittäin epävakaita tuloksia
-- Mallin keskiarvoistus -- koulutetaan useita malleja ja keskiarvoistetaan tulos. Tämä auttaa minimoimaan varianssia.
-- Dropout (implisiittinen mallin keskiarvoistus)
+ * Varhainen pysäytys – valvotaan jatkuvasti validointidatan virhettä ja lopetetaan koulutus, kun validoinnin virhe alkaa kasvaa.
+ * Selkeä painojen pienennys / regularisointi – lisätään tappiofunktioon ylimääräinen rangaistus vähentämään painojen suuria arvoja, mikä estää mallia saamasta epävakaita tuloksia
+ * Mallin yhteenlasku – useiden mallien kouluttaminen ja tulosten yhdistäminen auttaa vähentämään varianssia.
+ * Dropout (implisiittinen mallin yhteenlasku)
 
-## Optimointimenetelmät / koulutusalgoritmit
+## Optimointimenetelmät / Koulutusalgoritmit
 
-Toinen tärkeä koulutuksen näkökohta on valita hyvä koulutusalgoritmi. Vaikka klassinen **gradient descent** on järkevä valinta, se voi joskus olla liian hidas tai aiheuttaa muita ongelmia.
+Toinen tärkeä asia koulutuksessa on valita hyvä algoritmi. Vaikka klassinen **gradienttimenetys** on kohtuullinen valinta, se voi olla joskus liian hidas tai aiheuttaa muita ongelmia.
 
-Syväoppimisessa käytämme **Stokastista Gradienttilaskua** (SGD), joka on gradienttilasku, joka sovelletaan satunnaisesti valittuihin minibatcheihin koulutusjoukosta. Painot säädetään seuraavalla kaavalla:
+Syväoppimisessa käytämme **stokastista gradienttimenetystä** (SGD), joka on gradienttimenetys, jota sovelletaan satunnaisesti valittuihin miniryhmiin koulutusdatasta. Painoja säädetään kaavalla:
 
-w<sup>t+1</sup> = w<sup>t</sup> - η∇ℒ
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;&nabla;&lagran;
 
 ### Momentum
 
-**Momentum SGD**:ssä pidämme osan aiempien vaiheiden gradientista. Se on samanlainen kuin jos liikumme jonnekin inertiaa käyttäen, ja saamme iskun eri suuntaan, liikeratamme ei muutu välittömästi, vaan säilyttää osan alkuperäisestä liikkeestä. Tässä otamme käyttöön toisen vektorin v, joka edustaa *nopeutta*:
+**momentaalisessa SGD:ssä** pidämme osan edellisten vaiheiden gradientista. Se on samanlaista kuin liikkuminen hitaudella: jos liikumme johonkin suuntaan ja saamme iskun eri suuntaan, reittimme ei muutu heti, vaan jatkaa osin alkuperäistä liikettä. Tänne otamme mukaan toisen vektorin v, joka kuvaa *nopeutta*:
 
-- v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
-- w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
+* v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
+* w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Tässä parametri γ osoittaa, kuinka paljon otamme inertiaa huomioon: γ=0 vastaa klassista SGD:tä; γ=1 on puhdas liikeyhtälö.
+Parametri &gamma; kertoo, kuinka paljon hitaan liikkeen vaikutus otetaan huomioon: &gamma;=0 vastaa klassista SGD:tä; &gamma;=1 on siirtymisen laki.
 
-### Adam, Adagrad, jne.
+### Adam, Adagrad jne.
 
-Koska jokaisessa kerroksessa kerromme signaalit matriisilla W<sub>i</sub>, riippuen ||W<sub>i</sub>||:stä, gradientti voi joko hävitä ja olla lähellä 0:aa tai kasvaa rajattomasti. Tämä on räjähtävien/häviävien gradienttien ongelman ydin.
+Koska jokaisessa kerroksessa kerrotaan signaalit jollakin matriisilla W<sub>i</sub>, gradientti voi joko pienentyä lähelle nollaa tai kasvaa rajatta riippuen ||W<sub>i</sub>||:stä. Tämä on räjähtävien/häviävien gradienttien ongelman ydin.
 
-Yksi ratkaisu tähän ongelmaan on käyttää vain gradientin suuntaa yhtälössä ja jättää absoluuttinen arvo huomiotta, eli
+Yksi ratkaisu tähän ongelmaan on käyttää vain gradientin suuntaa kaavassa ja jättää pois itse arvo, eli:
 
-w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), missä ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), missä ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
 
-Tätä algoritmia kutsutaan **Adagrad**iksi. Muita algoritmeja, jotka käyttävät samaa ideaa: **RMSProp**, **Adam**
+Tätä algoritmia kutsutaan **Adagradiksi**. Samalla idealla toimivia algoritmeja ovat: **RMSProp**, **Adam**
 
-> **Adam**ia pidetään erittäin tehokkaana algoritmina moniin sovelluksiin, joten jos et ole varma, mitä käyttää - käytä Adamia.
+> **Adamia** pidetään erittäin tehokkaana algoritmina moniin käyttötarkoituksiin, joten jos et ole varma, kumpaa käyttää, valitse Adam.
 
-### Gradientin leikkaaminen
+### Gradientin rajaaminen
 
-Gradientin leikkaaminen on laajennus yllä olevalle idealle. Kun ||∇ℒ|| ≤ θ, otamme alkuperäisen gradientin huomioon painojen optimoinnissa, ja kun ||∇ℒ|| > θ - jaamme gradientin sen normilla. Tässä θ on parametri, useimmissa tapauksissa voimme ottaa θ=1 tai θ=10.
+Gradientin rajaaminen on yllä kuvatun idean laajennus. Kun ||&nabla;&lagran;|| &le; &theta;, käytämme alkuperäistä gradienttia painojen optimoinnissa, ja kun ||&nabla;&lagran;|| > &theta;, jaamme gradientin sen normilla. Tässä &theta; on parametri, useimmiten voidaan valita &theta;=1 tai &theta;=10.
 
-### Oppimisnopeuden heikkeneminen
+### Oppimisnopeuden vähennys
 
-Koulutuksen onnistuminen riippuu usein oppimisnopeusparametrista η. On loogista olettaa, että suuremmat η-arvot johtavat nopeampaan koulutukseen, mikä on yleensä toivottavaa koulutuksen alussa, ja sitten pienemmät η-arvot mahdollistavat verkon hienosäädön. Siksi useimmissa tapauksissa haluamme pienentää η:ta koulutuksen aikana.
+Koulutuksen onnistuminen riippuu usein oppimisnopeusparametrista &eta;. On loogista olettaa, että suuremmat &eta;-arvot johtavat nopeampaan koulutukseen, mikä on tyypillisesti hyvä alkuvaiheessa, ja pienempi &eta; mahdollistaa verkon hienosäädön. Siksi useimmissa tapauksissa haluamme pienentää &eta; koulutuksen aikana.
 
-Tämä voidaan tehdä kertomalla η jollain luvulla (esim. 0.98) jokaisen koulutusepookin jälkeen tai käyttämällä monimutkaisempaa **oppimisnopeuden aikataulua**.
+Tämä voidaan tehdä kertomalla &eta; jollakin luvulla (esim. 0.98) jokaisen epookin jälkeen tai käyttämällä monimutkaisempaa **oppimisnopeuden aikataulua**.
 
-## Eri verkkoarkkitehtuurit
+## Erilaiset verkkoarkkitehtuurit
 
-Oikean verkkoarkkitehtuurin valitseminen ongelmallesi voi olla haastavaa. Normaalisti valitsemme arkkitehtuurin, joka on osoittautunut toimivaksi kyseisessä tehtävässä (tai vastaavassa). Tässä on [hyvä yleiskatsaus](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) neuroverkkoarkkitehtuureista tietokonenäköön.
+Oikean verkkoarkkitehtuurin valinta ongelmaasi voi olla hankalaa. Tavallisesti valitsemme arkkitehtuurin, joka on todettu toimivaksi kyseiseen tehtävään (tai vastaavaan). Tässä on [hyvä yleiskatsaus](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) tietokonenäköarkkitehtuureista.
 
-> On tärkeää valita arkkitehtuuri, joka on riittävän tehokas koulutusnäytteiden määrälle, joka meillä on. Liian tehokkaan mallin valitseminen voi johtaa [yliläräämiseen](../../3-NeuralNetworks/05-Frameworks/Overfitting.md).
+> On tärkeää valita arkkitehtuuri, joka on riittävän tehokas suhteessa käytettävissä oleviin koulutusnäytteisiin. Liian tehokas malli voi johtaa [ylitäyttöön](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-Toinen hyvä tapa olisi käyttää arkkitehtuuria, joka mukautuu automaattisesti vaadittuun monimutkaisuuteen. Jossain määrin **ResNet**-arkkitehtuuri ja **Inception** ovat itseään mukautuvia. [Lisää tietokonenäköarkkitehtuureista](../07-ConvNets/CNN_Architectures.md)
+Toinen hyvä tapa on käyttää arkkitehtuuria, joka automaattisesti mukautuu vaadittuun monimutkaisuuteen. Jonkin verran itseään sääteviä ovat **ResNet-**- ja **Inception**-arkkitehtuurit. [Lisää tietokonenäköarkkitehtuureista](../07-ConvNets/CNN_Architectures.md)
 
 ---
 
-**Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vastuuvapauslauseke**:
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, otathan huomioon, että automaattiset käännökset saattavat sisältää virheitä tai epätarkkuuksia. Alkuperäinen asiakirja sen alkuperäiskielellä on virallinen lähde. Tärkeissä asioissa suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinymmärryksistä tai tulkinnoista.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

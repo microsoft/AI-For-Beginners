@@ -1,12 +1,12 @@
-# Paano Patakbuhin ang Kodigo
+# Paano Patakbuhin ang Code
 
-Ang kurikulum na ito ay naglalaman ng maraming maisasagawang halimbawa at mga laboratoryo na nais mong patakbuhin. Upang magawa ito, kailangan mong magkaroon ng kakayahang magpatakbo ng Python code sa Jupyter Notebooks na ibinigay bilang bahagi ng kurikulum na ito. Mayroon kang ilang mga opsyon para patakbuhin ang kodigo:
+Ang kurikulum na ito ay naglalaman ng maraming halimbawa at mga lab na nais mong patakbuhin. Upang gawin ito, kailangan mong magkaroon ng kakayahang patakbuhin ang Python code sa Jupyter Notebooks na bahagi ng kurikulum na ito. Mayroon kang ilang mga pagpipilian para sa pagpapatakbo ng code:
 
 ## Patakbuhin nang lokal sa iyong computer
 
-Upang patakbuhin ang kodigo nang lokal sa iyong computer, kinakailangan ang isang pag-install ng Python. Isang rekomendasyon ay mag-install ng **[miniconda](https://conda.io/en/latest/miniconda.html)** - ito ay isang magaan na pag-install na sumusuporta sa `conda` package manager para sa iba't ibang mga Python **virtual environment**.
+Upang patakbuhin ang code nang lokal sa iyong computer, kailangan ang isang Python installation. Isang rekomendasyon ay ang mag-install ng **[miniconda](https://conda.io/en/latest/miniconda.html)** - ito ay isang magaan na installation na sumusuporta sa `conda` package manager para sa iba't ibang Python **virtual environments**.
 
-Pagkatapos mong mag-install ng miniconda, i-clone ang repositoryo at gumawa ng virtual environment na gagamitin para sa kursong ito:
+Pagkatapos mong i-install ang miniconda, i-clone ang repository at gumawa ng virtual environment na gagamitin para sa kursong ito:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -15,19 +15,49 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
+> **Tala para sa Windows**: Kung nabigo ang paggawa ng environment habang ini-install ang `gdk-pixbuf` gamit ang isang `UnicodeDecodeError` na binanggit ang `gbk` codec, i-enable ang UTF-8 mode ng Python sa iyong terminal at subukang muli. Gamitin ang syntax para sa terminal na iyong ginagamit:
+>
+> **PowerShell:**
+>
+> ```powershell
+> $env:PYTHONUTF8 = "1"
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Command Prompt (`cmd.exe`) o Anaconda Prompt:**
+>
+> ```cmd
+> set PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Bash, kabilang ang Git Bash:**
+>
+> ```bash
+> export PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> Kung may naiwang nabigong pagtatangka sa environment na `ai4beg`, i-deactivate ito at alisin muna bago subukang muli. Gamitin muna ang `conda deactivate` kapag may aktibong environment:
+>
+> ```text
+> conda deactivate
+> conda env remove --name ai4beg
+> ```
+
 ### Paggamit ng Visual Studio Code na may Python Extension
 
-Ang kurikulum na ito ay pinakamainam gamitin kapag binuksan ito sa [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) na may [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+Ang kurikulum na ito ay pinakamainam gamitin kapag binuksan sa [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) na may kasamang [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Tandaan**: Kapag na-clone mo na at binuksan ang direktoryo sa VS Code, awtomatiko nitong mungkahiang mag-install ka ng mga Python extension. Kailangan mo ring mag-install ng miniconda gaya ng ipinaliwanag sa itaas.
+> **Tala**: Kapag naka-clone at nabuksan mo ang direktoryo sa VS Code, awtomatiko nitong ipapayo na mag-install ng mga Python extensions. Kailangan mo ring i-install ang miniconda gaya ng nabanggit sa itaas.
 
-> **Tandaan**: Kung iminumungkahi ng VS Code na muling buksan ang repositoryo sa isang container, dapat mong tanggihan ito upang magamit ang lokal na Python installation.
+> **Tala**: Kung iminungkahi ng VS Code na muling buksan ang repository sa isang container, dapat mong tanggihan ito upang magamit ang lokal na Python installation.
 
 ### Paggamit ng Jupyter sa Browser
 
-Maaari mo ring gamitin ang isang Jupyter environment mula sa browser sa iyong sariling computer. Parehong ang klasikong Jupyter at JupyterHub ay nag-aalok ng maginhawang kapaligiran sa pag-develop na may auto-completion, pag-highlight ng code, atbp.
+Maaari ka ring gumamit ng Jupyter environment mula sa browser sa iyong sariling computer. Ang parehong klasikong Jupyter at JupyterHub ay nagbibigay ng maginhawang development environment na may auto-completion, code highlighting, atbp.
 
-Upang simulan ang Jupyter nang lokal, pumunta sa direktoryo ng kurso, at patakbuhin ang:
+Upang simulan ang Jupyter nang lokal, pumunta sa direktoryo ng kurso, at patakbuhin:
 
 ```bash
 jupyter notebook
@@ -36,32 +66,32 @@ o
 ```bash
 jupyterhub
 ```
-Maaari ka nang mag-navigate sa kahit anong `.ipynb` na mga file, buksan ang mga ito at simulan ang pag-trabaho.
+Pagkatapos nito, maaari kang mag-navigate sa alinman sa mga `.ipynb` na file, buksan ang mga ito at simulan ang pagtatrabaho.
 
 ### Pagpapatakbo sa container
 
-Isang alternatibo sa pag-install ng Python ay ang pagpapatakbo ng kodigo sa isang container. Dahil ang aming repositoryo ay nagbibigay ng isang espesyal na `.devcontainer` folder na nagtuturo kung paano bumuo ng isang container para sa repo na ito, inaalok ng VS Code ang pagkakataong muling buksan ang kodigo sa isang container. Kakailanganin nito ang pag-install ng Docker, at magiging mas kumplikado, kaya inirerekomenda namin ito para sa mga mas bihasang gumagamit.
+Isang alternatibo sa Python installation ay ang pagpapatakbo ng code sa isang container. Dahil ang aming repository ay naglalaman ng espesyal na `.devcontainer` na folder na nagtuturo kung paano gumawa ng container para sa repo na ito, nag-aalok ang VS Code ng pagkakataon na muling buksan ang code sa isang container. Kailangan nito ang Docker installation, at mas kumplikado ito, kaya inirerekomenda namin ito para sa mas mga bihasang gumagamit.
 
 ## Pagpapatakbo sa Cloud
 
-Kung ayaw mong mag-install ng Python nang lokal, at may access ka sa ilang mga cloud resources - isang magandang alternatibo ang pagpapatakbo ng kodigo sa cloud. May ilang paraan upang gawin ito:
+Kung ayaw mong mag-install ng Python nang lokal, at may access ka sa ilang cloud resources - isang magandang alternatibo ay ang pagpapatakbo ng code sa cloud. Ilang paraan na maaari mong gawin ito:
 
-* Paggamit ng **[GitHub Codespaces](https://github.com/features/codespaces)**, na isang virtual environment na nilikha para sa iyo sa GitHub, na ma-access sa pamamagitan ng interface ng browser ng VS Code. Kung may access ka sa Codespaces, maaari mo lang i-click ang **Code** button sa repo, magsimula ng codespace, at agad na magsimula.
-* Paggamit ng **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. Nag-aalok ang [Binder](https://mybinder.org) ng mga libreng computing na resources na ibinibigay sa cloud para sa mga taong kagaya mo upang subukan ang ilang kodigo sa GitHub. May button sa front page para buksan ang repositoryo sa Binder - dadalhin ka nito agad sa binder site, na bubuo ng isang underlying container at magsisimula ng isang Jupyter web interface para sa iyo nang walang abala.
+* Paggamit ng **[GitHub Codespaces](https://github.com/features/codespaces)**, na isang virtual environment na nilikha para sa iyo sa GitHub, na naa-access sa pamamagitan ng VS Code browser interface. Kung may access ka sa Codespaces, maaari mo lamang pindutin ang **Code** button sa repo, simulan ang codespace, at agad na patakbuhin.
+* Paggamit ng **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. Nagbibigay ang [Binder](https://mybinder.org) ng libreng computing resources sa cloud para sa mga katulad mo na gustong subukan ang ilang code sa GitHub. May button sa front page upang buksan ang repository sa Binder - ito ay mabilis na magdadala sa iyo sa site ng binder, na bubuo ng underlying container at sisimulan ang Jupyter web interface nang tuloy-tuloy.
 
-> **Tandaan**: Upang maiwasan ang maling paggamit, may akses ang Binder sa ilang mga web resource na naka-block. Maaaring hadlangan nito ang ilang bahagi ng kodigo na gumagana, lalo na yung humihingi ng mga modelo at/o datasets mula sa pampublikong Internet. Maaaring kailanganin mong humanap ng ibang paraan. Gayundin, ang computing resources na ibinibigay ng Binder ay medyo basic lang, kaya mabagal ang training, lalo na sa mga huling leksyon na mas kumplikado.
+> **Tala**: Upang maiwasan ang maling paggamit, may mga web resources na hindi naa-access ng Binder. Maaaring pigilan nito ang ilang code na kumuha ng mga modelo at/o datasets mula sa pampublikong Internet. Kailangan mo ng mga workaround. Gayundin, ang compute resources ng Binder ay medyo basic lang, kaya mabagal ang training, lalo na sa mga mas huling, mas kumplikadong leksyon.
 
-## Pagpapatakbo sa Cloud na may GPU
+## Pagpapatakbo sa Cloud gamit ang GPU
 
-Ang ilan sa mga huling leksyon sa kurikulum na ito ay malaki ang mapapakinabangan mula sa suporta ng GPU. Halimbawa, ang pagte-train ng modelo ay maaaring maging napakabagal kung wala ito. May ilang mga opsyon na maaari mong sundan, lalo na kung may access ka sa cloud sa pamamagitan ng [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), o mula sa iyong institusyon:
+Ang ilang mga huling leksyon sa kurikulum na ito ay malaking pakinabang kung may suporta sa GPU. Halimbawa, ang pagsasanay ng modelo ay maaaring napakabagal kung wala ito. May ilang mga opsyon na maaari mong sundan, lalo na kung may access ka sa cloud sa pamamagitan ng [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste), o sa pamamagitan ng iyong institusyon:
 
-* Gumawa ng [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) at kumonekta dito gamit ang Jupyter. Maaari mong i-clone ang repo diretso sa makina, at simulan ang pag-aaral. Ang NC-series na mga VM ay may suporta sa GPU.
+* Gumawa ng [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) at kumonekta dito sa pamamagitan ng Jupyter. Maaari mong i-clone ang repo mismo sa makina, at magsimulang matuto. Ang NC-series VMs ay may suporta sa GPU.
 
-> **Tandaan**: Ang ilang mga subscription, kabilang ang Azure for Students, ay hindi agad nagbibigay ng suporta sa GPU. Maaaring kailanganin mong humiling ng karagdagang mga GPU core sa pamamagitan ng technical support request.
+> **Tala**: Ang ilang subscriptions, kabilang ang Azure for Students, ay hindi agad nagbibigay ng suporta sa GPU. Maaari kang kailangang humiling ng dagdag na GPU cores sa pamamagitan ng technical support request.
 
-* Gumawa ng [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) at pagkatapos ay gamitin ang Notebook feature doon. [Ang video na ito](https://azure-for-academics.github.io/quickstart/azureml-papers/) ay nagpapakita kung paano i-clone ang repository sa Azure ML notebook at simulan itong gamitin.
+* Gumawa ng [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) at gamitin ang Notebook feature doon. Ipinapakita ng [video na ito](https://azure-for-academics.github.io/quickstart/azureml-papers/) kung paano i-clone ang repository sa Azure ML notebook at simulan ang paggamit nito.
 
-Maaari mo ring gamitin ang Google Colab, na may kasamang libreng suporta sa GPU, at i-upload ang mga Jupyter Notebooks doon upang patakbuhin ang mga ito isa-isa.
+Maaari mo ring gamitin ang Google Colab, na may kasamang libreng GPU support, at i-upload doon ang Jupyter Notebooks para patakbuhin isa-isa.
 
 ---
 

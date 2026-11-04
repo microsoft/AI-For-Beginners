@@ -23,16 +23,55 @@
     "source_file": "SECURITY.md",
     "language_code": "ml"
   },
+  "Untitled.ipynb": {
+    "original_hash": "699f5dc1a7e008ad317e7d3c590af433",
+    "translation_date": "2026-11-04T04:29:26+00:00",
+    "source_file": "Untitled.ipynb",
+    "language_code": "ml"
+  },
   "__translation_failures__": {
-    "lessons/sketchnotes/LICENSE.md": {
-      "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-      "source_file": "lessons/sketchnotes/LICENSE.md",
+    "README.md": {
+      "original_hash": "a55c625d6c63edff877655fbe41597cb",
+      "source_file": "README.md",
       "language_code": "ml",
-      "failure_date": "2026-09-04T17:11:10+00:00",
+      "failure_date": "2026-11-04T03:50:06+00:00",
       "status": "failed",
       "error_type": "TranslationIncompleteError",
-      "error_message": "Markdown translation remained incomplete for chunk 1.1.1 of 'LICENSE.md', and the chunk could not be split further.",
-      "translator_version": "0.20.0",
+      "error_message": "Markdown translation remained incomplete for chunk 1.2.1.1.1.1 of 'README.md', and the chunk could not be split further.",
+      "translator_version": "0.23.2",
+      "failure_policy_version": 1
+    },
+    "lessons/0-course-setup/how-to-run.md": {
+      "original_hash": "15d1beb2119c08776923b99b6314fab0",
+      "source_file": "lessons/0-course-setup/how-to-run.md",
+      "language_code": "ml",
+      "failure_date": "2026-11-04T03:52:06+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1.2.1.1.1.1.1 of 'how-to-run.md', and the chunk could not be split further.",
+      "translator_version": "0.23.2",
+      "failure_policy_version": 1
+    },
+    "lessons/5-NLP/README.md": {
+      "original_hash": "af891212e50ea1ce4aa63db5d3178f86",
+      "source_file": "lessons/5-NLP/README.md",
+      "language_code": "ml",
+      "failure_date": "2026-11-04T03:54:52+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1.2.1.1.1.1.1 of 'README.md', and the chunk could not be split further.",
+      "translator_version": "0.23.2",
+      "failure_policy_version": 1
+    },
+    "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md": {
+      "original_hash": "9f29eb6d195fe962fb7efce6f3dbdf45",
+      "source_file": "lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md",
+      "language_code": "ml",
+      "failure_date": "2026-11-04T04:00:12+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1.2.2.1.1 of 'TrainingTricks.md', and the chunk could not be split further.",
+      "translator_version": "0.23.2",
       "failure_policy_version": 1
     }
   },
@@ -126,6 +165,12 @@
     "source_file": "lessons/2-Symbolic/assignment.md",
     "language_code": "ml"
   },
+  "lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb": {
+    "original_hash": "6906a25cc2b3c2ddcbb8edd211d3ddc5",
+    "translation_date": "2026-11-04T03:26:31+00:00",
+    "source_file": "lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb",
+    "language_code": "ml"
+  },
   "lessons/3-NeuralNetworks/03-Perceptron/README.md": {
     "original_hash": "c34cbba802058b6fa267e1a294d4e510",
     "translation_date": "2025-11-25T21:36:59+00:00",
@@ -136,6 +181,12 @@
     "original_hash": "ba5d1eb353d20d3e7181066b3c424b99",
     "translation_date": "2025-11-25T21:51:43+00:00",
     "source_file": "lessons/3-NeuralNetworks/03-Perceptron/lab/README.md",
+    "language_code": "ml"
+  },
+  "lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb": {
+    "original_hash": "8fe1b5eabec2dc444b6d645c203bb1ad",
+    "translation_date": "2026-11-04T03:25:17+00:00",
+    "source_file": "lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb",
     "language_code": "ml"
   },
   "lessons/3-NeuralNetworks/04-OwnFramework/README.md": {
@@ -163,8 +214,8 @@
     "language_code": "ml"
   },
   "lessons/3-NeuralNetworks/README.md": {
-    "original_hash": "f862a99d88088163df12270e2f2ad6c3",
-    "translation_date": "2025-11-25T21:08:13+00:00",
+    "original_hash": "8236f9a923dd3ef5bd90b94109cbfa0d",
+    "translation_date": "2026-11-04T03:52:34+00:00",
     "source_file": "lessons/3-NeuralNetworks/README.md",
     "language_code": "ml"
   },
@@ -276,6 +327,12 @@
     "source_file": "lessons/5-NLP/13-TextRep/assignment.md",
     "language_code": "ml"
   },
+  "lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb": {
+    "original_hash": "548df3e9a938f8f598f89e805d535c43",
+    "translation_date": "2026-11-04T03:29:46+00:00",
+    "source_file": "lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb",
+    "language_code": "ml"
+  },
   "lessons/5-NLP/14-Embeddings/README.md": {
     "original_hash": "b708c9b85b833864c73c6281f1e6b96e",
     "translation_date": "2025-11-25T22:56:39+00:00",
@@ -304,6 +361,12 @@
     "original_hash": "e2273cc150380a5e191903cea858f021",
     "translation_date": "2025-11-25T23:02:18+00:00",
     "source_file": "lessons/5-NLP/16-RNN/README.md",
+    "language_code": "ml"
+  },
+  "lessons/5-NLP/16-RNN/RNNTF.ipynb": {
+    "original_hash": "dbc06e04f4c87c8ca88258bc977f4bfc",
+    "translation_date": "2026-11-04T03:27:48+00:00",
+    "source_file": "lessons/5-NLP/16-RNN/RNNTF.ipynb",
     "language_code": "ml"
   },
   "lessons/5-NLP/16-RNN/assignment.md": {
@@ -410,7 +473,7 @@
   },
   "lessons/sketchnotes/LICENSE.md": {
     "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
-    "translation_date": "2025-11-25T21:28:52+00:00",
+    "translation_date": "2026-11-04T03:58:16+00:00",
     "source_file": "lessons/sketchnotes/LICENSE.md",
     "language_code": "ml"
   },

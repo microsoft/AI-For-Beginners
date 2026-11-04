@@ -1,187 +1,434 @@
-Attribution-ShareAlike 4.0 International
+Attribution-ShareAlike 4.0 Medzinárodná
 
 =======================================================================
 
-Creative Commons Corporation („Creative Commons“) nie je advokátska kancelária a neposkytuje právne služby ani právne poradenstvo. Distribúcia verejných licencií Creative Commons nevytvára vzťah medzi advokátom a klientom ani iný vzťah. Creative Commons sprístupňuje svoje licencie a súvisiace informácie „tak, ako sú“. Creative Commons neposkytuje žiadne záruky týkajúce sa svojich licencií, akéhokoľvek materiálu licencovaného podľa ich podmienok, ani súvisiacich informácií. Creative Commons sa v maximálnej možnej miere zrieka akejkoľvek zodpovednosti za škody vyplývajúce z ich použitia.
+Creative Commons Corporation („Creative Commons“) nie je advokátska kancelária a
+neposkytuje právne služby ani právne poradenstvo. Distribúcia
+verejných licencií Creative Commons nevytvára vzťah advokát-klient ani
+iný vzťah. Creative Commons sprístupňuje svoje licencie a súvisiace
+informácie „tak, ako sú“. Creative Commons neposkytuje žiadne
+záruky týkajúce sa svojich licencií, akéhokoľvek materiálu licencovaného podľa ich
+podmienok alebo akýchkoľvek súvisiacich informácií. Creative Commons
+v maximálnej možnej miere odmieta zodpovednosť za škody vyplývajúce z ich použitia.
+
 
 Používanie verejných licencií Creative Commons
 
-Verejné licencie Creative Commons poskytujú štandardný súbor podmienok, ktoré môžu autori a iní držitelia práv použiť na zdieľanie originálnych autorských diel a iného materiálu podliehajúceho autorským právam a určitým ďalším právam špecifikovaným v licencii uvedenej nižšie. Nasledujúce úvahy slúžia len na informačné účely, nie sú vyčerpávajúce a nie sú súčasťou našich licencií.
+Verejné licencie Creative Commons poskytujú súbor štandardných podmienok,
+ktoré môžu tvorcovia a iní držitelia práv použiť na zdieľanie
+originálnych autorských diel a iných materiálov podliehajúcich autorskému právu
+a určitým ďalším právam špecifikovaným v nižšie uvedenej verejnej licencii. 
+Nasledujúce úvahy sú určené iba na informačné účely, nie sú
+vyčerpávajúce a nie sú súčasťou našich licencií.
 
-     Úvahy pre poskytovateľov licencií: Naše verejné licencie sú
-     určené na použitie osobami, ktoré sú oprávnené udeliť verejnosti
-     povolenie na používanie materiálu spôsobmi, ktoré by inak boli
-     obmedzené autorským právom a určitými ďalšími právami. Naše
-     licencie sú neodvolateľné. Poskytovatelia licencií by si mali
-     prečítať a porozumieť podmienkam licencie, ktorú si vyberú, pred
-     jej použitím. Poskytovatelia licencií by si mali zabezpečiť všetky
-     potrebné práva pred použitím našich licencií, aby verejnosť mohla
-     materiál používať podľa očakávaní. Poskytovatelia licencií by mali
-     jasne označiť akýkoľvek materiál, ktorý nie je predmetom licencie.
-     To zahŕňa iný materiál licencovaný pod CC alebo materiál používaný
-     na základe výnimky alebo obmedzenia autorského práva. Viac úvah
-     pre poskytovateľov licencií:
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     Úvahy pre verejnosť: Použitím jednej z našich verejných licencií
-     poskytovateľ licencie udeľuje verejnosti povolenie na používanie
-     licencovaného materiálu podľa špecifikovaných podmienok. Ak
-     povolenie poskytovateľa licencie nie je potrebné z akéhokoľvek
-     dôvodu – napríklad kvôli výnimke alebo obmedzeniu autorského práva
-     – potom takéto použitie nie je regulované licenciou. Naše licencie
-     udeľujú len povolenia podľa autorského práva a určitých ďalších
-     práv, ktoré je poskytovateľ licencie oprávnený udeliť. Používanie
-     licencovaného materiálu môže byť stále obmedzené z iných dôvodov,
-     vrátane toho, že iní majú autorské práva alebo iné práva na
-     materiál. Poskytovateľ licencie môže mať špeciálne požiadavky,
-     napríklad žiadosť, aby boli všetky zmeny označené alebo opísané.
-     Hoci to nie je vyžadované našimi licenciami, odporúča sa rešpektovať
-     tieto požiadavky, ak sú rozumné. Viac úvah pre verejnosť:
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 International Public License
+Creative Commons Attribution-ShareAlike 4.0 Medzinárodná verejná
+licencia
 
-Používaním Licencovaných práv (definovaných nižšie) prijímate a súhlasíte
-s tým, že budete viazaní podmienkami tejto Creative Commons Attribution-
-ShareAlike 4.0 International Public License („Verejná licencia“). V rozsahu,
-v akom môže byť táto Verejná licencia interpretovaná ako zmluva, Vám sú
-udelené Licencované práva na základe Vášho prijatia týchto podmienok, a
-Poskytovateľ licencie Vám udeľuje tieto práva na základe výhod, ktoré
-Poskytovateľ licencie získava sprístupnením Licencovaného materiálu podľa
-týchto podmienok.
+Používaním licencovaných práv (definovaných nižšie) prijímate a súhlasíte,
+že budete viazaní podmienkami tejto Creative Commons Attribution-ShareAlike 4.0 Medzinárodnej
+verejnej licencie („Verejná licencia“). V rozsahu, v akom možno túto Verejnú licenciu vykladať ako
+zmluvu, udeľujú sa Vám licencované práva výmenou za Vaše
+prijatie týchto podmienok a na základe toho Licencdor Vám udeľuje
+také práva výmenou za výhody, ktoré Licencdor získava z
+sprístupnenia licencovaného materiálu za týchto podmienok.
 
 
-Sekcia 1 – Definície.
 
-  a. Upravený materiál znamená materiál podliehajúci autorským právam a
-     podobným právam, ktorý je odvodený od alebo založený na Licencovanom
-     materiáli a v ktorom je Licencovaný materiál preložený, upravený,
-     usporiadaný, transformovaný alebo inak modifikovaný spôsobom
-     vyžadujúcim povolenie podľa autorských práv a podobných práv
-     držaných Poskytovateľom licencie. Na účely tejto Verejnej licencie,
-     ak je Licencovaný materiál hudobné dielo, výkon alebo zvuková
-     nahrávka, Upravený materiál je vždy vytvorený, keď je Licencovaný
-     materiál synchronizovaný v časovom vzťahu s pohyblivým obrazom.
 
-  b. Licencia adaptéra znamená licenciu, ktorú uplatňujete na svoje
-     autorské práva a podobné práva vo svojich príspevkoch k Upravenému
-     materiálu v súlade s podmienkami tejto Verejnej licencie.
+  a. Adaptovaný materiál znamená materiál podliehajúci autorskému právu a podobným
 
-  c. Kompatibilná licencia BY-SA znamená licenciu uvedenú na
-     creativecommons.org/compatiblelicenses, schválenú Creative Commons
-     ako podstatne ekvivalentnú tejto Verejnej licencii.
+     a v ktorom je licencovaný materiál preložený, pozmenený,
+     upravený, transformovaný alebo inak modifikovaný spôsobom, ktorý si vyžaduje
+     povolenie podľa autorského práva a podobných práv, ktoré drží
+     licencdor. Pre účely tejto Verejnej licencie, ak je licencovaný
+     materiál hudobné dielo, predstaveniu alebo zvukový záznam,
+     adaptovaný materiál sa vždy vytvára, ak je licencovaný materiál
+     synchronizovaný v časovej súvislosti s pohyblivým obrazom.
 
-  d. Autorské práva a podobné práva znamenajú autorské práva a/alebo
-     podobné práva úzko súvisiace s autorskými právami vrátane, bez
-     obmedzenia, výkonu, vysielania, zvukovej nahrávky a práv na
-     sui generis databázy, bez ohľadu na to, ako sú práva označené alebo
-     kategorizované. Na účely tejto Verejnej licencie práva špecifikované
-     v Sekcii 2(b)(1)-(2) nie sú autorské práva a podobné práva.
+  b. Licencia adaptéra znamená licenciu, ktorú uplatňujete na Vaše autorské práva a
 
-  e. Účinné technologické opatrenia znamenajú opatrenia, ktoré, v
-     neprítomnosti riadneho povolenia, nemôžu byť obídené podľa zákonov
-     plniacich povinnosti podľa článku 11 Zmluvy WIPO o autorských právach
-     prijatej 20. decembra 1996 a/alebo podobných medzinárodných dohôd.
+     súlade s podmienkami tejto Verejnej licencie.
 
-  f. Výnimky a obmedzenia znamenajú spravodlivé použitie, spravodlivé
-     zaobchádzanie a/alebo akúkoľvek inú výnimku alebo obmedzenie
-     autorských práv a podobných práv, ktoré sa vzťahujú na Vaše použitie
-     Licencovaného materiálu.
+  c. Licencia kompatibilná s BY-SA znamená licenciu zoznamovanú na
 
-  g. Prvky licencie znamenajú atribúty licencie uvedené v názve Verejnej
-     licencie Creative Commons. Prvky licencie tejto Verejnej licencie sú
-     Atribúcia a Zdieľanie za rovnakých podmienok.
+     schválil ako v podstate ekvivalentnú tejto Verejnej licencii.
 
-  h. Licencovaný materiál znamená umelecké alebo literárne dielo,
-     databázu alebo iný materiál, na ktorý Poskytovateľ licencie uplatnil
-     túto Verejnú licenciu.
+  d. Autorské právo a podobné práva znamenajú autorské právo a/alebo podobné práva
 
-  i. Licencované práva znamenajú práva udelené Vám podľa podmienok tejto
-     Verejnej licencie, ktoré sú obmedzené na všetky autorské práva a
-     podobné práva, ktoré sa vzťahujú na Vaše použitie Licencovaného
-     materiálu a ktoré má Poskytovateľ licencie oprávnenie licencovať.
+     práva na výkon, vysielanie, zvukový záznam a sui generis databázové
+     práva, bez ohľadu na to, ako sú práva označené alebo
+     kategorizované. Pre účely tejto Verejnej licencie práva
+     špecifikované v článku 2(b)(1)-(2) nie sú autorské práva a podobné
+     práva.
 
-  j. Poskytovateľ licencie znamená jednotlivca alebo subjekt, ktorý udeľuje
-     práva podľa tejto Verejnej licencie.
+  e. Účinné technologické opatrenia znamenajú opatrenia, ktoré bez
 
-  k. Zdieľať znamená sprístupniť materiál verejnosti akýmkoľvek spôsobom
-     alebo procesom, ktorý vyžaduje povolenie podľa Licencovaných práv,
-     ako je reprodukcia, verejné zobrazenie, verejný výkon, distribúcia,
-     šírenie, komunikácia alebo import, a sprístupniť materiál verejnosti
-     vrátane spôsobov, ktoré umožňujú členom verejnosti prístup k
-     materiálu z miesta a v čase, ktorý si individuálne zvolia.
+     záväzky podľa článku 11 Dohovoru o autorskom práve WIPO prijatého 20.
+     decembra 1996 a/alebo obdobných medzinárodných dohôd.
 
-  l. Práva na sui generis databázy znamenajú práva iné ako autorské práva
-     vyplývajúce zo smernice 96/9/ES Európskeho parlamentu a Rady z 11.
-     marca 1996 o právnej ochrane databáz, v znení neskorších predpisov
-     a/alebo nástupcov, ako aj iné podstatne ekvivalentné práva kdekoľvek
-     na svete.
+  f. Výnimky a obmedzenia znamenajú spravodlivé používanie, spravodlivé zaobchádzanie a/alebo
+     akékoľvek iné výnimky alebo obmedzenia autorského práva a podobných práv,
 
-  m. Vy znamená jednotlivca alebo subjekt, ktorý uplatňuje Licencované
-     práva podľa tejto Verejnej licencie. Vaše má zodpovedajúci význam.
-Práva, potom databáza, v ktorej máte práva Sui Generis Database Rights (ale nie jej jednotlivé obsahy), je Adaptovaný materiál,
 
-vrátane na účely oddielu 3(b); a  
-c. Musíte dodržiavať podmienky uvedené v oddiele 3(a), ak zdieľate celý alebo podstatnú časť obsahu databázy.
+  g. Prvky licencie znamenajú atribúty licencie uvedené v názve
+     verejnej licencie Creative Commons. Prvky licencie tejto
 
-Pre vyjasnenie, tento oddiel 4 dopĺňa a nenahrádza vaše povinnosti podľa tejto verejnej licencie, ak licencované práva zahŕňajú iné autorské práva a podobné práva.
 
----
+  h. Licencovaný materiál znamená umelecké alebo literárne dielo, databázu
+     alebo iný materiál, na ktorý licencdor uplatnil túto Verejnú
 
-Oddiel 5 -- Zrieknutie sa záruk a obmedzenie zodpovednosti.
 
-a. POKIAĽ NIE JE LICENCOR SAMOSTATNE INAK ZAVIAZANÝ, V MAXIMÁLNOM MOŽNOM ROZSAHU PONÚKA LICENCOR LICENCOVANÝ MATERIÁL TAK, AKO JE, A TAK, AKO JE DOSTUPNÝ, A NEPOSKYTUJE ŽIADNE VYHLÁSENIA ANI ZÁRUKY AKÉHOKOĽVEK DRUHU TÝKAJÚCE SA LICENCOVANÉHO MATERIÁLU, ČI UŽ VÝSLOVNÉ, IMPLICITNÉ, ZÁKONNÉ ALEBO INÉ. TO ZAHŔŇA, BEZ OBMEDZENIA, ZÁRUKY VLASTNÍCTVA, OBCHODOVATEĽNOSTI, VHODNOSTI NA KONKRÉTNY ÚČEL, NEPORUŠENIA, ABSENCIE SKRYTÝCH ALEBO INÝCH VÁD, PRESNOSTI ALEBO PRÍTOMNOSTI ČI ABSENCIE CHÝB, ČI UŽ ZNÁMYCH ALEBO OBJAVITEĽNÝCH. TAM, KDE ZRIEKNUTIE SA ZÁRUK NIE JE POVOLENÉ V PLNOM ROZSAHU ALEBO ČIASTOČNE, TOTO ZRIEKNUTIE SA NA VÁS NEMUSÍ VZŤAHOVAŤ.
+  i. Licencované práva znamenajú práva udelené Vám za podmienok
+     tejto Verejnej licencie, ktoré sú obmedzené na všetky autorské práva a podobné práva,
 
-b. V MAXIMÁLNOM MOŽNOM ROZSAHU LICENCOR V ŽIADNOM PRÍPADE NEBUDE ZODPOVEDNÝ VOČI VÁM NA ZÁKLADE ŽIADNEJ PRÁVNEJ TEÓRIE (VRÁTANE, BEZ OBMEDZENIA, NEDBANLIVOSTI) ALEBO INAK ZA AKÉKOĽVEK PRIAME, ŠPECIÁLNE, NEPRIAME, NÁHODNÉ, NÁSLEDNÉ, TRESTNÉ, EXEMPLÁRNE ALEBO INÉ STRATY, NÁKLADY, VÝDAVKY ALEBO ŠKODY VYPLÝVAJÚCE Z TEJTO VEREJNEJ LICENCIE ALEBO POUŽÍVANIA LICENCOVANÉHO MATERIÁLU, AJ KEĎ BOL LICENCOR UPOZORNENÝ NA MOŽNOSŤ TAKÝCHTO STRÁT, NÁKLADOV, VÝDAVKOV ALEBO ŠKÔD. TAM, KDE OBMEDZENIE ZODPOVEDNOSTI NIE JE POVOLENÉ V PLNOM ROZSAHU ALEBO ČIASTOČNE, TOTO OBMEDZENIE SA NA VÁS NEMUSÍ VZŤAHOVAŤ.
+     licencdor právomoc licencovať.
 
-c. Zrieknutie sa záruk a obmedzenie zodpovednosti uvedené vyššie sa má interpretovať spôsobom, ktorý, v maximálnom možnom rozsahu, najviac pripomína absolútne zrieknutie sa a vzdanie sa všetkej zodpovednosti.
+  j. Licencdor znamená jednotlivca alebo entitu udeľujúcu práva podľa
+     tejto Verejnej licencie.
 
----
+  k. Zdieľať znamená sprístupniť materiál verejnosti akýmkoľvek spôsobom alebo
+     procesom, ktorý si vyžaduje povolenie podľa licencovaných práv, vrátane
 
-Oddiel 6 -- Trvanie a ukončenie.
+     šírenia, komunikácie alebo dovozu, a sprístupniť materiál
+     verejnosti vrátane spôsobov, kde členovia verejnosti môžu k materiálu
+     pristupovať z miesta a v čase podľa svojho výberu.
 
-a. Táto verejná licencia platí počas trvania autorských práv a podobných práv licencovaných tu. Ak však nedodržíte túto verejnú licenciu, vaše práva podľa tejto verejnej licencie sa automaticky ukončia.
+  l. Práva sui generis na databázu znamenajú práva odlišné od autorského
+     práva vyplývajúce z Nariadenia 96/9/ES Európskeho parlamentu a Rady
+     z 11. marca 1996 o právnej ochrane databáz, ako aj ich noviel a/alebo nahradení,
 
-b. Ak vaše právo používať licencovaný materiál bolo ukončené podľa oddielu 6(a), obnoví sa:
 
-1. automaticky k dátumu, keď bola porušenie napravené, za predpokladu, že bolo napravené do 30 dní od vášho zistenia porušenia; alebo  
-2. na základe výslovného obnovenia zo strany Licencora.
+  m. Vy znamená jednotlivca alebo entitu uplatňujúcu Licencované práva
+     podľa tejto Verejnej licencie. Vaše má zodpovedajúci význam.
 
-Pre vyjasnenie, tento oddiel 6(b) neovplyvňuje žiadne právo Licencora hľadať nápravu za vaše porušenia tejto verejnej licencie.
 
-c. Pre vyjasnenie, Licencor môže tiež ponúknuť licencovaný materiál za samostatných podmienok alebo zastaviť distribúciu licencovaného materiálu kedykoľvek; avšak, toto nezruší túto verejnú licenciu.
 
-d. Oddiely 1, 5, 6, 7 a 8 zostávajú v platnosti po ukončení tejto verejnej licencie.
+  Vy znamená jednotlivca alebo subjekt uplatňujúci Licencované práva
+     podľa tejto verejnej licencie. Vaše má zodpovedajúci význam.
 
----
 
-Oddiel 7 -- Iné podmienky.
+Časť 2 -- Rozsah.
 
-a. Licencor nie je viazaný žiadnymi dodatočnými alebo odlišnými podmienkami komunikovanými vami, pokiaľ s nimi výslovne nesúhlasí.
+  a. Poskytnutie licencie.
 
-b. Akékoľvek dohody, porozumenia alebo zmluvy týkajúce sa licencovaného materiálu, ktoré nie sú uvedené tu, sú oddelené od a nezávislé od podmienok tejto verejnej licencie.
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
 
----
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
 
-Oddiel 8 -- Interpretácia.
+            b. produce, reproduce, and Share Adapted Material.
 
-a. Pre vyjasnenie, táto verejná licencia neznižuje, neobmedzuje, neobmedzuje ani neukladá podmienky na akékoľvek použitie licencovaného materiálu, ktoré by mohlo byť zákonne vykonané bez povolenia podľa tejto verejnej licencie.
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
 
-b. V maximálnom možnom rozsahu, ak sa akékoľvek ustanovenie tejto verejnej licencie považuje za nevymáhateľné, automaticky sa upraví na minimálny rozsah potrebný na jeho vymáhateľnosť. Ak ustanovenie nemôže byť upravené, bude oddelené od tejto verejnej licencie bez ovplyvnenia vymáhateľnosti zostávajúcich podmienok.
+       3. Term. The term of this Public License is specified in Section
+          6(a).
 
-c. Žiadna podmienka tejto verejnej licencie nebude zrušená a žiadne nedodržanie nebude schválené, pokiaľ s tým výslovne nesúhlasí Licencor.
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
 
-d. Nič v tejto verejnej licencii nepredstavuje ani nemôže byť interpretované ako obmedzenie alebo vzdanie sa akýchkoľvek výsad a imunít, ktoré sa vzťahujú na Licencora alebo vás, vrátane právnych procesov akejkoľvek jurisdikcie alebo autority.
+       5. Downstream recipients.
 
----
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. Ostatné práva.
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+Časť 3 -- Podmienky licencie.
+
+Vaše uplatnenie Licencovaných práv je výslovne podmienené
+nasledujúcimi podmienkami.
+
+  a. Uznanie autorstva.
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  b. Zdieľaj rovnako.
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+Časť 4 -- Práva Sui Generis k databáze.
+
+Ak Licencované práva zahŕňajú Práva Sui Generis k databáze, ktoré
+sa vzťahujú na Vaše použitie Licencovaného materiálu:
+
+  a. na odstránenie pochybností, Časť 2(a)(1) Vám udeľuje právo
+     extrahovať, znovu používať, reprodukovať a Zdieľať celý alebo podstatnú
+     časť obsahu databázy;
+
+  b. ak zahrniete celý alebo podstatnú časť obsahu databázy
+     do databázy, na ktorú máte Práva Sui Generis k databáze,
+     potom databáza, na ktorú máte Práva Sui Generis k databáze
+     (ale nie jej jednotlivý obsah) je Adaptovaný materiál,
+
+     including for purposes of Section 3(b); and
+  c. Musíte dodržiavať podmienky uvedené v Časti 3(a), ak Zdieľate
+     celý alebo podstatnú časť obsahu databázy.
+
+Pre vylúčenie pochybností táto Časť 4 dopĺňa a nenahrádza Vaše povinnosti podľa tejto Verejnej licencie, ak Licencované
+     práva zahŕňajú ďalšie autorské práva a podobné práva.
+
+
+
+
+
+     LICENCOVATEĽ PONÚKA LICENCOVANÝ MATERIÁL TAK, AKO JE, A TAK, AKO JE K DISPOZÍCII,
+     A NEPOSKYTUJE ŽIADNE VYHLÁSENIA ANI ZÁRUKY AKÉHOKOĽVEK DRUHU TÝKAJÚCE SA LICENCOVANÉHO MATERIÁLU,
+     ČI UŽ VÝSLOVNÉ, IMPLICITNÉ, ZÁKONNÉ ALEBO INÉ. TO ZAHRŇA, BEZ OBMEDZENIA,
+     ZÁRUKY NA VLASTNÍCTVO, PREDAJNOSŤ, VHODNOSŤ NA URČITÝ ÚČEL, NEPORUŠENIE PRÁV,
+     ABSENCIU SKRYTÝCH ALEBO INÝCH VAD, PRESNOSŤ ALEBO PRÍTOMNOSŤ ALEBO NEPRÍTOMNOSŤ CHÝB,
+     ČI UŽ SÚ ZNÁME ALEBO OBJAVITEĽNÉ. KDE VYLOUČENIE ZÁRUK NIE JE POVOLENÉ CELOKOM ALEBO ČIASTOČNE,
+     TOTO VYLOUČENIE MÔŽE PRE VÁS NEPLATIŤ.
+
+  b. V NAJMENŠEJ MOŽNEJ MIERA NEBUDE LICENCOVATEĽ ZA ŽIADNYCH OKOLNOSTÍ ODPOVEDAŤ
+     VOČI VÁM NA ZÁKLADE AKÉHOKOĽVEK PRÁVNEHO TEÓRIE (VRÁTANE, BEZ OBMEDZENIA,
+
+     NÁHODNÉ, NÁSLEDNÉ, TRESTNÉ, PRÍKLADNÉ ALEBO INÉ STRATY,
+     NÁKLADY, VÝDAVKY ALEBO ŠKODY VZNIKNUTÉ V SÚVISLOSTI S TÚTO VEREJNOU LICENCIOU ALEBO
+     POUŽITÍM LICENCOVANÉHO MATERIÁLU, AJ KEĎ BOL LICENCOVATEĽ
+     UPOZORNENÝ NA MOŽNOSŤ TAKÝCHTO STRÁT, NÁKLADOV, VÝDAVKOV ALEBO
+     ŠKÔD. KDE OBMEDZENIE ZODPOVEDNOSTI NIE JE POVOLENÉ CELOKOM ALEBO ČIASTOČNE,
+     TOTO OBMEDZENIE MÔŽE PRE VÁS NEPLATIŤ.
+
+  c. Vylúčenie záruk a obmedzenie zodpovednosti uvedené
+     vyššie sa má vykladať spôsobom, ktorý, pokiaľ je to
+
+     vzdaniu sa akejkoľvek zodpovednosti.
+
+
+Časť 6 -- Doba platnosti a ukončenie.
+
+
+     podobných práv, ktoré sú tu licencované. Avšak, ak nesplníte podmienky
+
+     automaticky zanikajú.
+
+  b. Kde Vaše právo na používanie Licencovaného materiálu zaniklo podľa
+     Časti 6(a), dochádza k jeho obnove:
+
+  b. Keď vaše právo na používanie Licencovaného materiálu zaniklo podľa
+     Článku 6(a), obnoví ho:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. Pre odstránenie pochybností, Licencor môže tiež ponúkať
+     Licencovaný materiál podľa samostatných podmienok alebo prestať
+     distribuovať Licencovaný materiál kedykoľvek; avšak týmto
+     sa táto Verejná licencia neukončuje.
+
+  d. Časti 1, 5, 6, 7 a 8 zostávajú v platnosti aj po ukončení tejto
+     Verejnej licencie.
+
+
+Časť 7 -- Iné podmienky.
+
+  a. Licencor nie je viazaný žiadnymi dodatočnými alebo odlišnými
+     podmienkami, ktoré Vám boli oznámené, pokiaľ na tom výslovne
+
+
+  b. Akékoľvek dohody, porozumenia alebo dohodnuté podmienky
+     týkajúce sa Licencovaného materiálu, ktoré tu nie sú uvedené,
+
+
+
+
+
+  a. Pre odstránenie pochybností, táto Verejná licencia nespôsobuje a
+     nesmie byť vykladaná tak, že by znižovala, obmedzovala, zavádzala
+     obmedzenia alebo ukladala podmienky na akékoľvek použitie
+
+     povolenia podľa tejto Verejnej licencie.
+
+  b. Pokiaľ je to možné, akékoľvek ustanovenie tejto Verejnej licencie,
+     ktoré je považované za nevymáhateľné, bude automaticky upravené do
+     nevyhnutného minimálneho rozsahu tak, aby bolo vymáhateľné. Ak sa
+     nedá upraviť, bude z tejto Verejnej licencie odstránené bez
+
+
+  c. Žiadna podmienka tejto Verejnej licencie nebude vzdaná
+     a žiadne porušenie nebude tolerované, pokiaľ to výslovne neodsúhlasí
+
+
+  d. Nič v tejto Verejnej licencii nepredstavuje ani sa nesmie vykladať
+     ako obmedzenie alebo vzdanie sa akýchkoľvek privilégií a imunít,
+     ktoré sa vzťahujú na Licencora alebo na Vás, vrátane právnych
+
 
 =======================================================================
 
-Creative Commons nie je stranou svojich verejných licencií. Napriek tomu sa Creative Commons môže rozhodnúť použiť jednu zo svojich verejných licencií na materiál, ktorý publikuje, a v týchto prípadoch bude považovaný za „Licencora“. Text verejných licencií Creative Commons je venovaný verejnej doméne pod CC0 Public Domain Dedication. Okrem obmedzeného účelu označenia, že materiál je zdieľaný pod verejnou licenciou Creative Commons alebo ako inak povolené politikami Creative Commons publikovanými na creativecommons.org/policies, Creative Commons neautorizuje použitie ochrannej známky „Creative Commons“ alebo akejkoľvek inej ochrannej známky alebo loga Creative Commons bez predchádzajúceho písomného súhlasu, vrátane, bez obmedzenia, v súvislosti s akýmikoľvek neoprávnenými úpravami akýchkoľvek jeho verejných licencií alebo akýchkoľvek iných dohôd, porozumení alebo zmlúv týkajúcich sa použitia licencovaného materiálu. Pre vyjasnenie, tento odsek nie je súčasťou verejných licencií.
+Creative Commons nie je účastníkom svojich verejných licencií.
+Napriek tomu môže Creative Commons rozhodnúť o uplatnení jednej zo svojich
+verejných licencií na materiál, ktorý publikuje, a v takýchto prípadoch
+bude považovaný za „Licencora.“ Text verejných licencií Creative Commons
+je venovaný do verejnej domény podľa CC0 Verejného dedičstva. Okrem
+obmedzeného účelu označenia, že materiál je zdieľaný pod verejnou licenciou
+Creative Commons, alebo ako inak povolené politikami Creative Commons,
+ktoré sú publikované na creativecommons.org/policies, Creative Commons
+neautorizuje použitie obchodnej značky „Creative Commons“ ani žiadnej
+inej obchodnej značky alebo loga Creative Commons bez predchádzajúceho
+písomného súhlasu, vrátane, bez obmedzenia, v spojitosti s akýmikoľvek
+neautorizovanými úpravami akejkoľvek z jeho verejných licencií alebo
+akýmikoľvek inými dohodami, porozumeniami alebo dohodnutými podmienkami
+týkajúcimi sa použitia licencovaného materiálu. Pre odstránenie pochybností,
+tento odsek nie je súčasťou verejných licencií.
 
-Creative Commons môžete kontaktovať na creativecommons.org.
 
-**Zrieknutie sa zodpovednosti**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+Creative Commons je možné kontaktovať na creativecommons.org.
+
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vyhlásenie o zodpovednosti**:
+Tento dokument bol preložený pomocou AI prekladateľskej služby [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, vezmite prosím na vedomie, že automatické preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho natívnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

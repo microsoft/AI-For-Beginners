@@ -1,113 +1,434 @@
-Attribution-ShareAlike 4.0 国際
+帰属-継承 4.0 国際
 
 =======================================================================
 
-クリエイティブ・コモンズ・コーポレーション（以下「クリエイティブ・コモンズ」）は法律事務所ではなく、法的サービスや法的助言を提供するものではありません。クリエイティブ・コモンズのパブリックライセンスの配布は、弁護士と依頼者の関係やその他の関係を生じさせるものではありません。クリエイティブ・コモンズは、そのライセンスおよび関連情報を「現状のまま」提供します。クリエイティブ・コモンズは、そのライセンス、ライセンス条件に基づいてライセンスされた素材、または関連情報に関していかなる保証も行いません。クリエイティブ・コモンズは、それらの使用に起因する損害について、可能な限り最大限の範囲で責任を否認します。
+クリエイティブ・コモンズ・コーポレーション（「クリエイティブ・コモンズ」）は法律事務所ではなく、
+法律サービスや法律相談を提供していません。クリエイティブ・コモンズの
+パブリックライセンスの配布は、弁護士とクライアントの関係や
+その他の関係を生み出すものではありません。クリエイティブ・コモンズはそのライセンスと関連情報を
+「現状のまま」提供しています。クリエイティブ・コモンズはライセンス、その条件の下で許諾された
+素材、または関連情報に関して一切の保証を行いません。クリエイティブ・コモンズは、
+それらの使用から生じる損害について、可能な限り最大範囲で責任を否認します。
 
-クリエイティブ・コモンズのパブリックライセンスの使用
 
-クリエイティブ・コモンズのパブリックライセンスは、著作権および以下のパブリックライセンスで指定された特定の権利の対象となる著作物やその他の素材を共有するために、創作者やその他の権利者が使用できる標準的な条件を提供します。以下の考慮事項は情報提供のみを目的としており、網羅的なものではなく、ライセンスの一部を構成するものではありません。
 
-     ライセンサー向けの考慮事項: 私たちのパブリックライセンスは、著作権および特定の権利によって制限される素材の使用を一般に許可する権限を持つ人々による使用を意図しています。私たちのライセンスは取り消し不可能です。ライセンサーは、ライセンスを適用する前に、その条件を読み、理解する必要があります。また、ライセンサーは、ライセンスを適用する前に、素材を期待通りに再利用できるように、必要なすべての権利を確保する必要があります。ライセンサーは、ライセンスの対象外の素材を明確に表示する必要があります。これには、他のCCライセンス素材や、著作権の例外や制限の下で使用される素材が含まれます。ライセンサー向けのさらなる考慮事項:  
+
+
+著作物および下記のパブリックライセンスに指定された特定のその他の権利に
+かかる素材を共有する際に利用できる標準的な条件を提供しています。
+次に挙げる考慮事項は情報提供のみを目的としており、網羅的ではなく、
+また我々のライセンスの一部を構成するものではありません。
+
+
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     公衆向けの考慮事項: 私たちのパブリックライセンスを使用することで、ライセンサーは指定された条件の下でライセンスされた素材を使用する許可を公衆に与えます。ライセンサーの許可が不要な場合（例えば、適用される著作権の例外や制限のため）、その使用はライセンスによって規制されません。私たちのライセンスは、ライセンサーが許可を与える権限を持つ著作権および特定の権利の下でのみ許可を与えます。ライセンスされた素材の使用は、他の理由で制限される場合があります。例えば、他者がその素材に著作権やその他の権利を持っている場合です。ライセンサーは、すべての変更を記録または説明するよう求める場合があります。これはライセンスで義務付けられているわけではありませんが、合理的な範囲でそのような要求を尊重することが推奨されます。公衆向けのさらなる考慮事項:  
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-クリエイティブ・コモンズ 表示-継承 4.0 国際 公衆ライセンス
-
-ライセンスされた権利（以下で定義）を行使することにより、あなたはこのクリエイティブ・コモンズ 表示-継承 4.0 国際 公衆ライセンス（以下「公衆ライセンス」）の条件に拘束されることに同意し、受諾します。この公衆ライセンスが契約として解釈される範囲において、あなたはこれらの条件を受け入れることを考慮してライセンスされた権利を付与され、ライセンサーはこれらの条件の下でライセンスされた素材を利用可能にすることによる利益を考慮して、あなたにその権利を付与します。
-
-第1条 -- 定義
-
-  a. 改変された素材とは、ライセンサーが保有する著作権および類似の権利の下で許可が必要な方法で、ライセンスされた素材が翻訳、変更、編曲、変形、またはその他の方法で改変された素材を指します。この公衆ライセンスの目的上、ライセンスされた素材が音楽作品、演奏、または音声録音である場合、ライセンスされた素材が映像と同期している場合は常に改変された素材が生成されます。
-
-  b. 改変者のライセンスとは、この公衆ライセンスの条件に従って、改変された素材に対するあなたの著作権および類似の権利に適用されるライセンスを指します。
-
-  c. BY-SA互換ライセンスとは、クリエイティブ・コモンズがこの公衆ライセンスと本質的に同等であると承認したライセンスで、creativecommons.org/compatiblelicenses にリストされています。
-
-  d. 著作権および類似の権利とは、著作権および/または著作権に密接に関連する類似の権利を指し、これには、演奏、放送、音声録音、データベースの特有の権利（Sui Generis Database Rights）などが含まれますが、これらに限定されません。この公衆ライセンスの目的上、第2条(b)(1)-(2)で指定された権利は、著作権および類似の権利には含まれません。
-
-  e. 有効な技術的保護手段とは、1996年12月20日に採択されたWIPO著作権条約第11条の義務を履行する法律および/または類似の国際協定の下で、適切な権限がない場合に回避できない手段を指します。
-
-  f. 例外および制限とは、公正使用、公正取引、および/またはライセンスされた素材の使用に適用されるその他の例外または制限を指します。
-
-  g. ライセンス要素とは、クリエイティブ・コモンズの公衆ライセンスの名称に記載されているライセンス属性を指します。この公衆ライセンスのライセンス要素は、表示および継承です。
-
-  h. ライセンスされた素材とは、ライセンサーがこの公衆ライセンスを適用した芸術的または文学的作品、データベース、またはその他の素材を指します。
-
-  i. ライセンスされた権利とは、この公衆ライセンスの条件に従うことを条件として、ライセンスされた素材の使用に適用されるすべての著作権および類似の権利で、ライセンサーがライセンスする権限を持つものを指します。
-
-  j. ライセンサーとは、この公衆ライセンスの下で権利を付与する個人または団体を指します。
-
-  k. 共有とは、複製、公衆への表示、公衆への演奏、配布、普及、通信、または輸入など、ライセンスされた権利の下で許可が必要な方法またはプロセスによって素材を公衆に提供することを指します。また、素材を公衆が個別に選択した場所および時間にアクセスできるようにする方法も含まれます。
-
-  l. データベースの特有の権利（Sui Generis Database Rights）とは、1996年3月11日の欧州議会および理事会のデータベースの法的保護に関する指令96/9/ECの改正および/または後継として生じた権利、ならびに世界中の本質的に同等の権利を指します。
-
-  m. あなたとは、この公衆ライセンスの下でライセンスされた権利を行使する個人または団体を指します。あなたのは、対応する意味を持ちます。
+クリエイティブ・コモンズ 表示-継承 4.0 国際 パブリックライセンス
 
 
-権利、そしてあなたが Sui Generis Database Rights を有するデータベース（ただしその個々の内容物は含まない）は、適応された素材に該当します。
+表示-継承 4.0 国際パブリックライセンス（「パブリックライセンス」）の条項および条件に拘束されることに同意します。
+このパブリックライセンスが契約として解釈される範囲で、あなたは本条項および条件の承諾を対価としてライセンス権利を与えられ、
+ライセンサーはあなたに対し、本条項および条件のもとでライセンス素材を利用可能にすることから享受される利益に対して当該権利を付与します。
 
-これはセクション 3(b) の目的にも含まれます。そして  
-c. あなたがデータベースの内容全体またはその大部分を共有する場合、セクション 3(a) の条件を遵守しなければなりません。
 
-疑義を避けるために、このセクション 4 は、ライセンスされた権利が他の著作権および類似の権利を含む場合における、このパブリックライセンスに基づくあなたの義務を補足するものであり、置き換えるものではありません。
+第1条 -- 定義。
+
+  a. 派生作品とは、著作権および類似権の対象であり、ライセンス素材から派生した又は基づくものであって、
+     ライセンス素材が翻訳、変更、編曲、変換、またはその他著作権および類似権を保有するライセンサーの許可が必要な形で
+
+
+
+
+
+  c. BY-SA 互換ライセンスとは、creativecommons.org/compatiblelicenses に掲載され、
+     クリエイティブ・コモンズによって本パブリックライセンスと本質的に同等と認められたライセンスを意味します。
+
+  d. 著作権および類似権とは、著作権に密接に関連する権利を意味し、これには制限なく、
+     パフォーマンス、放送、音声録音、および特有データベース権利が含まれ、権利の分類や名称は問いません。
+     本パブリックライセンスの目的上、第2条(b)(1)-(2)に記載された権利は著作権および類似権に含まれません。
+
+  e. 効果的技術的手段とは、適切な権限がない限り回避できないとされる手段を意味し、
+
+
+  f. 例外および制限とは、公正利用、公正な取り扱い、および著作権および類似権に対する
+     あなたのライセンス素材の利用に適用されるその他の例外または制限を意味します。
+
+  g. ライセンス要素とは、クリエイティブ・コモンズ パブリックライセンスの名称に記載されたライセンス属性を意味します。
+     本パブリックライセンスのライセンス要素は「表示」と「継承」です。
+
+
+
+  i. ライセンス権利とは、本パブリックライセンスの条項および条件の対象となるあなたに付与された権利を意味し、
+     あなたのライセンス素材の利用に適用されるすべての著作権および類似権に限定され、ライセンサーに付与権限のあるものです。
+
+  j. ライセンサーとは、本パブリックライセンスの下で権利を付与する個人または団体を意味します。
+
+  k. シェアとは、複製、公開表示、公開実演、配布、伝播、通信、輸入などの
+
+     公衆のメンバーが個別に選択した場所と時刻から素材にアクセス可能な方法で公衆に素材を提供することを意味します。
+
+  l. 特有データベース権利とは、欧州議会および評議会指令96/9/ECに起因する著作権以外の権利を意味します。
+
+     契約。
+
+  f. 例外および制限とは、公正利用、公正取扱い、および/または
+     ライセンスされた資料の使用に適用される著作権および類似権利に対するその他の
+     例外または制限を意味します。
+
+  g. ライセンス要素とは、クリエイティブ・コモンズ・パブリック・ライセンス名に
+     記載されているライセンス属性を意味します。この
+     パブリック・ライセンスのライセンス要素は、表示（帰属）と継承です。
+
+  h. ライセンスされた資料とは、著作権者が本パブリック・ライセンスを
+     適用した芸術的または文学的作品、データベース、
+     またはその他の資料を意味します。
+
+  i. ライセンスされた権利とは、本パブリック・ライセンスの条件に従って
+     あなたに付与される権利であり、
+     ライセンスされた資料の使用に適用されるすべての著作権および類似権利に限られ、
+     かつ著作権者がライセンスを許諾する権限を持つものを意味します。
+
+  j. 著作権者とは、本パブリック・ライセンスに基づいて権利を
+     付与する個人または法人を意味します。
+
+  k. シェアするとは、複製、公開表示、公開演奏、配布、
+     普及、伝達、または輸入など、
+     ライセンスされた権利に基づいて許可が必要な方法や手段で資料を
+     公衆に提供し、公衆が個別に選択した場所や時間に
+     資料にアクセスできる方法を含め、公衆に利用可能にすることを意味します。
+
+
+
+     著作権以外の権利を意味します。
+     欧州議会および理事会の指令96/9/ECから生じる
+     1996年3月11日のデータベースの法的保護に関する理事会決定、
+     改正および/または後継のもの、ならびに世界中の他の本質的に
+     同等の権利を意味します。
+
+  m. あなたとは、このパブリックライセンスの下でライセンスを行使する
+     個人または団体を指します。Yourも同様の意味を持ちます。
+
+
+第2条 -- 範囲。
+
+  a. ライセンス付与。
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
+
+            b. produce, reproduce, and Share Adapted Material.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
+
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. その他の権利。
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
+
+
+セクション3 -- ライセンス条件。
+
+あなたのライセンス権の行使は、明示的に以下の条件の対象となります。
+
+
+
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  b. シェアアライク。
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+セクション4 -- 独自のデータベース権利（Sui Generis Database Rights）。
+
+ライセンス権利にあなたのライセンス資料の利用に適用される独自のデータベース権利が含まれる場合：
+
+
+
+
+
+
+  b. あなたが Sui Generis データベース権を有するデータベースにデータベースの全体またはかなりの部分の内容を含める場合、
+     あなたが Sui Generis データベース権を有するデータベース（その個々の内容ではなく）は改変資料となります。
+     権利は、ただし、その個々の内容ではなく、改変資料です。
+     権利は、ただし、その個々の内容ではなく、改変資料です。
+
+     including for purposes of Section 3(b); and
+  c. データベースの内容の全部または実質的な部分を共有する場合、セクション3(a)の条件を遵守する必要があります。
+     。
+
+誤解を避けるために、本セクション4は、このパブリックライセンスに基づくお客様の義務を補足するものであり、代替するものではありません。このライセンス権に他の著作権および類似の権利が含まれる場合でも同様です。
+
+
+
+
+セクション5 -- 保証の否認および責任制限。
+
+  a. ライセンサーが別途明示的に引き受けない限り、可能な限り、ライセンサーはライセンス素材を現状有姿かつ利用可能な状態で提供し、明示的か黙示的か法定かその他のいかなる保証も行いません。
+     。
+
+
+この保証の否認には、所有権、商品性、特定の目的への適合性、非侵害、隠れたまたはその他の欠陥の不存在、正確性、誤りの有無（既知または発見可能かを問いません）に関する保証が含まれますがこれに限定されません。
+
+
+
+保証の否認が全体または一部で許されない場合、この保証の否認はお客様には適用されないかもしれません。
+
+
+  b. 可能な限り、ライセンサーは法的理論（過失を含みますがこれに限定されません）に基づくかどうかに関わらず、本パブリックライセンス又はライセンス素材の使用に起因する直接的、特別、間接、偶発的、結果的、懲罰的、模範的またはその他の損失、費用、支出、損害に対して、一切の責任を負いません。
+
+
+
+
+
+
+責任制限が全体または一部で許されない場合、この責任制限はお客様には適用されないかもしれません。
+
+
+  c. 上記の保証の否認および責任制限は、可能な限り、絶対的な保証の否認およびすべての責任の放棄に最も近い形で解釈されるべきものとします。
+
+
+
+
+
+セクション6 -- 期間および終了。
+
+  a. 本パブリックライセンスは、本ライセンスされた著作権および類似の権利の期間中に適用されます。ただし、お客様が本パブリックライセンスに従わない場合、その時点でお客様の本パブリックライセンスに基づく権利は自動的に終了します。
+
+
+
+
+  b. セクション6(a)に基づきお客様のライセンス素材使用権が終了した場合は、次の条件でそれが再発します：
+
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. 誤解を避けるために、ライセンサーは別の条件または条項の下でライセンス素材を提供したり、いつでもライセンス素材の配布を停止したりすることができます。ただし、これにより本パブリックライセンスが終了することはありません。
+
+
+
+
+  d. セクション1、5、6、7、および8は、本パブリックライセンス終了後も存続します。
+
+
+
+セクション7 -- その他の条項および条件。
+
+  a. ライセンサーは、明示的に合意しない限り、あなたが伝えた追加的または異なる
+     条項や条件に拘束されません。
+
+  b. 本文書に記載されていない、ライセンス対象素材に関する取り決め、理解、または合意は
+     本パブリックライセンスの条項および条件とは別個であり、
+     独立しています。
+
+
+セクション8 -- 解釈。
+
+  a. 疑義のないように、本パブリックライセンスは、かつ
+     それを次のように解釈してはなりません：本パブリックライセンスの下で
+     許可なしに合法的に行われうるライセンス対象素材の使用を
+     減少、制限、抑制、または条件付けること。
+
+  b. 可能な限り、本パブリックライセンスのいかなる条項も
+     執行不能とみなされる場合、その条項は執行可能にするために
+     最小限度で自動修正されます。修正できない場合は、
+     このパブリックライセンスから切り離されても、
+     残る条項および条件の執行可能性には影響しません。
+
+
+  c. 本パブリックライセンスのいかなる条項も放棄されず、
+     また違反に対する合意は、明示的にライセンサーが合意しない限り認められません。
+
+
+  d. 本パブリックライセンスのいかなる内容も、ライセンサーまたはあなたに適用される特権や免責事項
+     を制限あるいは放棄するものとは見なされませんし、そのように解釈されてもなりません。
+     これにはいかなる法的管轄権または権限の法的手続きも含まれます。
+
+
+
+
+
+それにもかかわらず、Creative Commons は自らが公開する素材に
+いずれかのパブリックライセンスを適用することを選択する場合があり、
+その場合 Creative Commons は「ライセンサー」とみなされます。
+Creative Commonsのパブリックライセンスの本文は、CC0パブリックドメイン献呈の下で
+パブリックドメインに捧げられています。
+Creative Commonsのパブリックライセンスで共有されていることを示す
+限定的な目的、または creativecommons.org/policies に公開されている Creative Commons のポリシーにより
+許可された場合を除き、Creative Commons は
+事前の書面による同意なしに商標「Creative Commons」やその他の商標やロゴの
+使用を許可しません。これには、無断でのパブリックライセンスの改変や、
+ライセンス対象素材の使用に関するその他の取り決め、
+理解や合意も含みますがこれに限定されません。
+
+疑義のないようにするため、この段落はパブリックライセンスの一部ではありません。
+
+
+
+Creative Commonsにはcreativecommons.orgで連絡できます。
 
 ---
 
-### セクション 5 -- 保証の否認および責任の制限
-
-a. ライセンサーが別途明示的に行わない限り、可能な範囲で、ライセンサーはライセンスされた素材を「現状のまま」および「利用可能な状態で」提供し、ライセンスされた素材に関して、明示的、黙示的、法定、またはその他のいかなる種類の表明または保証も行いません。これには、所有権、商品性、特定の目的への適合性、非侵害、潜在的またはその他の欠陥の不存在、正確性、またはエラーの有無（既知または発見可能かどうかを問わない）に関する保証が含まれますが、これに限定されません。保証の否認が全面的または部分的に認められない場合、この否認はあなたに適用されない場合があります。
-
-b. 可能な範囲で、ライセンサーは、いかなる法的理論（過失を含むがこれに限定されない）またはその他の理由に基づいても、このパブリックライセンスまたはライセンスされた素材の使用に起因する直接的、特別、間接的、付随的、結果的、懲罰的、模範的、またはその他の損失、費用、経費、または損害について、たとえライセンサーがその可能性を知らされていたとしても、一切の責任を負いません。責任の制限が全面的または部分的に認められない場合、この制限はあなたに適用されない場合があります。
-
-c. 上記の保証の否認および責任の制限は、可能な範囲で、すべての責任を完全に否認し、放棄するものとして解釈されます。
-
----
-
-### セクション 6 -- 期間および終了
-
-a. このパブリックライセンスは、ここでライセンスされた著作権および類似の権利の期間中適用されます。ただし、あなたがこのパブリックライセンスに違反した場合、このパブリックライセンスに基づくあなたの権利は自動的に終了します。
-
-b. セクション 6(a) に基づきライセンスされた素材の使用権が終了した場合、以下の条件で再開されます：
-
-1. 違反が発見されてから30日以内に是正されることを条件に、違反が是正された日付に自動的に再開される。  
-2. ライセンサーによる明示的な再開の承認がある場合。
-
-疑義を避けるために、このセクション 6(b) は、あなたのこのパブリックライセンス違反に対してライセンサーが救済を求める権利に影響を与えません。
-
-c. 疑義を避けるために、ライセンサーは別の条件または規約の下でライセンスされた素材を提供したり、ライセンスされた素材の配布を停止したりすることができます。ただし、これによってこのパブリックライセンスが終了することはありません。
-
-d. セクション 1、5、6、7、および 8 は、このパブリックライセンスの終了後も存続します。
-
----
-
-### セクション 7 -- その他の条件および規約
-
-a. ライセンサーは、あなたが伝達した追加または異なる条件や規約に、明示的に同意しない限り拘束されません。
-
-b. ここに記載されていないライセンスされた素材に関する取り決め、理解、または合意は、このパブリックライセンスの条件および規約とは別個であり、独立しています。
-
----
-
-### セクション 8 -- 解釈
-
-a. 疑義を避けるために、このパブリックライセンスは、ライセンスされた素材をこのパブリックライセンスの許可なしに合法的に使用できる範囲を減少、制限、制約、または条件付けるものではなく、そのように解釈されることもありません。
-
-b. 可能な範囲で、このパブリックライセンスのいかなる条項も執行不能と見なされた場合、それは執行可能にするために必要最小限の範囲で自動的に修正されます。条項が修正できない場合、それはこのパブリックライセンスから切り離され、残りの条件および規約の執行可能性には影響を与えません。
-
-c. このパブリックライセンスのいかなる条項または条件も、ライセンサーが明示的に同意しない限り放棄されず、遵守が承諾されることもありません。
-
-d. このパブリックライセンスのいかなる内容も、ライセンサーまたはあなたに適用される特権および免責（いかなる管轄または権限の法的手続きからのものを含む）を制限または放棄するものとして解釈されることはありません。
-
----
-
-Creative Commons はそのパブリックライセンスの当事者ではありません。ただし、Creative Commons が公開する素材に対してそのパブリックライセンスのいずれかを適用することを選択した場合、その場合に限り「ライセンサー」と見なされます。Creative Commons のパブリックライセンスの文書は、CC0 Public Domain Dedication の下でパブリックドメインに捧げられています。Creative Commons のポリシー（creativecommons.org/policies）で許可されている場合を除き、Creative Commons の商標「Creative Commons」またはその他の商標やロゴを、Creative Commons の事前の書面による同意なしに使用することはできません。これには、パブリックライセンスの無許可の改変や、ライセンスされた素材の使用に関するその他の取り決め、理解、または合意に関連する場合が含まれますが、これに限定されません。疑義を避けるために、この段落はパブリックライセンスの一部ではありません。
-
-Creative Commons への連絡は creativecommons.org で可能です。
-
-**免責事項**:  
-この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があることをご承知おきください。原文（元の言語で記載された文書）が信頼できる情報源として優先されるべきです。重要な情報については、専門の人間による翻訳をお勧めします。本翻訳の使用に起因する誤解や誤認について、当方は一切の責任を負いかねます。
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**免責事項**：
+本書類は AI 翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を期していますが、自動翻訳には誤りや不正確な部分が含まれる可能性があることをご承知おきください。原文の原語版が正式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。本翻訳の利用により生じたいかなる誤解や解釈違いについても、当方は責任を負いかねます。
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

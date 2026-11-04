@@ -1,35 +1,36 @@
-[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Leseni ya GitHub](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)
+[![Wahifadhi wa GitHub](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)
+[![Masuala ya GitHub](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)
+[![Maombi ya kuvuta ya GitHub](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)
+[![Karibishwa PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
+[![Watazamaji wa GitHub](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)
+[![Viepuko vya GitHub](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)
+[![Nyota za GitHub](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/AI-For-Beginners/stargazers/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)
 [![Gitter](https://badges.gitter.im/Microsoft/ai-for-beginners.svg)](https://gitter.im/Microsoft/ai-for-beginners?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-# Akili Bandia kwa Watumizi Wa Mwanzo - Mtaala
+# Akili Bandia kwa Waanziaji - Mtaala
 
-|![Sketchnote by @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
+|![Sketchnote na @girlie_mac https://twitter.com/girlie_mac](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
 |:---:|
-| AI Kwa Watumizi Wa Mwanzo - _Sketchnote na [@girlie_mac](https://twitter.com/girlie_mac)_ |
+| AI Kwa Waanziaji - _Sketchnote na [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
-Chunguza dunia ya **Akili Bandia** (AI) kupitia mtaala wetu wa wiki 12, somo 24! Inajumuisha masomo ya vitendo, mitihani midogo, na maabara. Mtaala huu ni rafiki kwa wapya na unafunika zana kama TensorFlow na PyTorch, pia maadili katika AI.
+Gundua dunia ya **Akili Bandia** (AI) kupitia mtaala wetu wa wiki 12, masomo 24! Inajumuisha masomo ya vitendo, maswali ya kujitathmini, na maabara. Mtaala huu ni rafiki kwa wanaoanza na unafunika zana kama TensorFlow na PyTorch, pamoja na maadili katika AI
+
 
 ### 🌐 Msaada wa Lugha Nyingi
 
-#### Inayoambatana kupitia Hatua za GitHub (Imefanyiwa Otomatiki & Kila Wakati ni Mlitifu)
+#### Tafsiri zinahifadhiwa kwa kutumia [Co-op Translator](https://github.com/Azure/co-op-translator)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](./README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[Kiarabu](../ar/README.md) | [Kibengali](../bn/README.md) | [Kibulgaria](../bg/README.md) | [Kiburma (Myama)](../my/README.md) | [Kichina (Rahisi)](../zh-CN/README.md) | [Kichina (Kawaida, Hong Kong)](../zh-HK/README.md) | [Kichina (Kawaida, Makao)](../zh-MO/README.md) | [Kichina (Kawaida, Taiwani)](../zh-TW/README.md) | [Kikroashia](../hr/README.md) | [Kicheki](../cs/README.md) | [Kidenmaki](../da/README.md) | [Kiholanzi](../nl/README.md) | [Kiestoni](../et/README.md) | [Kifini](../fi/README.md) | [Kifaransa](../fr/README.md) | [Kijerumani](../de/README.md) | [Kigiriki](../el/README.md) | [Kiebrania](../he/README.md) | [Kihindi](../hi/README.md) | [Kihungari](../hu/README.md) | [Kiindonezia](../id/README.md) | [Kiitaliano](../it/README.md) | [Kijapani](../ja/README.md) | [Kikannada](../kn/README.md) | [Kikhmer](../km/README.md) | [Kikorea](../ko/README.md) | [Kilitwania](../lt/README.md) | [Kimalay](../ms/README.md) | [Kimalayalamu](../ml/README.md) | [Kimanipuri (Meitei Mayek)](../mni/README.md) | [Kimarathi](../mr/README.md) | [Kinepali](../ne/README.md) | [Pidgin ya Nigeria](../pcm/README.md) | [Kinonwe](../no/README.md) | [Kiajemi (Farsi)](../fa/README.md) | [Kipolandi](../pl/README.md) | [Kireno (Brazil)](../pt-BR/README.md) | [Kireno (Portugal)](../pt-PT/README.md) | [Kipunja (Gurmukhi)](../pa/README.md) | [Kiromania](../ro/README.md) | [Kirusi](../ru/README.md) | [Kiserbia (Kiriliki)](../sr/README.md) | [Kislovakia](../sk/README.md) | [Kislovenia](../sl/README.md) | [Kihispania](../es/README.md) | [Kiswahili](./README.md) | [Kiswidi](../sv/README.md) | [Kitagalog (Kifilipino)](../tl/README.md) | [Kitamili](../ta/README.md) | [Kitelugu](../te/README.md) | [Kithai](../th/README.md) | [Kituruki](../tr/README.md) | [Kiukraini](../uk/README.md) | [Kiurdu](../ur/README.md) | [Kivietinamu](../vi/README.md)
 
-> **Ungependa Kwenye Kunakili Kwenye Kompyuta Binafsi?**
+> **Unapendelea Kufanya Nakala Moja kwa Moja Nyumbani?**
 >
-> Hifadhi hii ina tafsiri zaidi ya 50 za lugha ambayo huongeza sana ukubwa wa upakuaji. Ili kunakili bila tafsiri, tumia sparse checkout:
+> Hifadhidata hii ina tafsiri zaidi ya 50 za lugha ambazo huongeza kiasi cha kupakua sana. Ili kunakili bila tafsiri, tumia sparse checkout:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -45,134 +46,139 @@ Chunguza dunia ya **Akili Bandia** (AI) kupitia mtaala wetu wa wiki 12, somo 24!
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> Hii inakupa kila unachohitaji kumaliza kozi kwa upakuaji wa haraka zaidi.
+> Hii inakupa kila kitu unachohitaji kumaliza kozi kwa upakuaji wa haraka zaidi.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Kama unataka kuongezwa kwa lugha za tafsiri zinazoungwa mkono zimetajwa [hapa](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Ikiwa unahitaji msaada wa lugha zingine za tafsiri zimetajwa [hapa](https://github.com/Azure/co-op-translator/blob/main/docs/supported-languages.md)**
 
 ## Jiunge na Jamii
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
+## 🤝 Kuchangia
+
+Tunakaribisha michango kutoka kwa jamii! Iwe unarekebisha makosa ya tahajia, kuboresha nyaraka, au kuongeza mifano mipya, msaada wako hufanya mtaala huu kuwa bora kwa kila mtu. Angalia mwongozo wetu [CONTRIBUTING.md](CONTRIBUTING.md) kuanza.
+
 ## Utajifunza Nini
 
-**[Ramani ya Akili ya Kozi](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
+**[Ramani ya Mawazo ya Kozi](http://soshnikov.com/courses/ai-for-beginners/mindmap.html)**
 
 Katika mtaala huu, utajifunza:
 
-* Njia mbalimbali za Akili Bandia, ikiwa ni pamoja na njia ya "ya zamani nzuri" ya alama na **Uwakamishaji wa Maarifa** na hoja ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
-* **Mitandao ya Neva** na **Mafunzo ya Kina**, ambayo ni kiini cha AI ya kisasa. Tutatoa mifano ya dhana nyuma ya mada hizi muhimu kwa kutumia msimbo katika mifumo miwili maarufu - [TensorFlow](http://Tensorflow.org) na [PyTorch](http://pytorch.org).
-* **Miundo ya Neva** kwa ajili ya kufanya kazi na picha na maandishi. Tutashughulikia mifano ya karibuni lakini huenda tukakosa mambo ya hali ya juu.
-* Njia zisizopendwa sana za AI, kama vile **Algorithimu za Kijenetiki** na **Mifumo ya Wakala Wengi**.
+* Mbinu tofauti za Akili Bandia, ikiwa ni pamoja na mbinu ya "kawaida" ishara na **Uwasilishaji wa Maarifa** na uelewa ([GOFAI](https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence)).
+* **Mitandao ya Neva** na **Kujifunza kwa Kina**, ambayo ni msingi wa AI ya kisasa. Tutaonyesha dhana za mada hizi muhimu kwa kutumia msimbo katika mifumo miwili maarufu - [TensorFlow](http://Tensorflow.org) na [PyTorch](http://pytorch.org).
+* **Miamilio ya Neva** kwa kazi na picha na maandishi. Tutafunika mifano ya hivi karibuni lakini inaweza kuwa haijajumuisha masuala ya hali ya juu kabisa.
+* Mbinu nyingine za AI zisizopendwa sana, kama **Algorithimu za Kijenetiki** na **Mifumo ya Wakala Nyingi**.
 
-Sio sehemu ya mtaala huu:
+Kile ambacho hatutakishughulikia katika mtaala huu:
 
-> [Pata rasilimali zote za ziada kwa kozi hii katika mkusanyiko wetu wa Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
+> [Pata rasilimali zote za ziada za kozi hii kwenye mkusanyiko wetu wa Microsoft Learn](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)
 
-* Mfano wa biashara za kutumia **AI katika Biashara**. Fikiria kuchukua njia ya kujifunza ya [Utangulizi wa AI kwa watumiaji wa biashara](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) kwenye Microsoft Learn, au [Shule ya AI Biashara](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), iliyotengenezwa kwa ushirikiano na [INSEAD](https://www.insead.edu/).
-* **Mafunzo ya Mashine ya Kawaida**, ambayo yameelezewa vizuri katika [Mtaala wa Mafunzo ya Mashine kwa Waanzilishi](http://github.com/Microsoft/ML-for-Beginners).
-* Maombi ya vitendo ya AI yaliyotengenezwa kwa kutumia **[Huduma za Kielelezo](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Kwa hili, tunapendekeza uanze na moduli za Microsoft Learn kwa [macho](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [usindikaji wa lugha asilia](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI ya Kuzalisha na Azure OpenAI Service](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** na nyinginezo.
-* **Mifumo ya Wingu Maalum ya ML**, kama vile [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), au [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Fikiria kutumia njia za kujifunza [Jenga na uendeshaji wa suluhisho za mafunzo ya mashine na Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) na [Jenga na Endesha Suluhisho za Mafunzo ya Mashine na Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
-* **AI ya Mazungumzo** na **Chat Bots**. Kuna njia tofauti ya kujifunza [Tengeneza suluhisho za AI za mazungumzo](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), na pia unaweza kurejelea [uachiaji huu wa blogu](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) kwa maelezo zaidi.
-* **Hisabati Nzito** nyuma ya mafundisho ya kina. Kwa hili, tunapendekeza [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) na Ian Goodfellow, Yoshua Bengio na Aaron Courville, ambayo pia inapatikana mtandaoni kwenye [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
+* Mambo ya biashara ya kutumia **AI katika Biashara**. Fikiria kuchukua njia ya kujifunza [Utangulizi wa AI kwa watumiaji wa biashara](https://docs.microsoft.com/learn/paths/introduction-ai-for-business-users/?WT.mc_id=academic-77998-bethanycheum) kwenye Microsoft Learn, au [Shule ya AI Biashara](https://www.microsoft.com/ai/ai-business-school/?WT.mc_id=academic-77998-bethanycheum), iliyoandaliwa kwa ushirikiano na [INSEAD](https://www.insead.edu/).
+* **Kujifunza Mashine Kawaida**, ambayo imeelezewa vizuri katika [Mtaala wa Kujifunza Mashine kwa Waanziaji](http://github.com/Microsoft/ML-for-Beginners).
+* Programu za vitendo za AI zilizojengwa kwa kutumia **[Huduma za Akili za Kiasi](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=academic-77998-bethanycheum)**. Kwa hili, tunapendekeza uanze na moduli za Microsoft Learn kwa [macho](https://docs.microsoft.com/learn/paths/create-computer-vision-solutions-azure-cognitive-services/?WT.mc_id=academic-77998-bethanycheum), [usindikaji wa lugha ya asili](https://docs.microsoft.com/learn/paths/explore-natural-language-processing/?WT.mc_id=academic-77998-bethanycheum), **[AI ya Kuanzisha kwa Huduma ya Azure OpenAI](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-openai/?WT.mc_id=academic-77998-bethanycheum)** na zingine.
+* Miundo maalum ya ML **Cloud**, kama [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-bethanycheum), [Microsoft Fabric](https://learn.microsoft.com/en-us/training/paths/get-started-fabric/?WT.mc_id=academic-77998-bethanycheum), au [Azure Databricks](https://docs.microsoft.com/learn/paths/data-engineer-azure-databricks?WT.mc_id=academic-77998-bethanycheum). Fikiria kutumia njia za kujifunza [Jenga na Endesha Suluhisho za Kujifunza Mashine kwa Azure Machine Learning](https://docs.microsoft.com/learn/paths/build-ai-solutions-with-azure-ml-service/?WT.mc_id=academic-77998-bethanycheum) na [Jenga na Endesha Suluhisho za Kujifunza Mashine kwa Azure Databricks](https://docs.microsoft.com/learn/paths/build-operate-machine-learning-solutions-azure-databricks/?WT.mc_id=academic-77998-bethanycheum).
+* **AI ya Mazungumzo** na **Bots za Chat**. Kuna njia ya kujifunza tofauti [Tengeneza suluhisho za AI za mazungumzo](https://docs.microsoft.com/learn/paths/create-conversational-ai-solutions/?WT.mc_id=academic-77998-bethanycheum), na pia unaweza rejea [chapisho la blogu hili](https://soshnikov.com/azure/hello-bot-conversational-ai-on-microsoft-platform/) kwa maelezo zaidi.
+* **Hisabati Zaidi** nyuma ya kujifunza kwa kina. Kwa hili, tunapendekeza [Kujifunza kwa Kina](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618) na Ian Goodfellow, Yoshua Bengio na Aaron Courville, ambayo pia inapatikana mtandaoni kwa [https://www.deeplearningbook.org/](https://www.deeplearningbook.org/).
 
-Kwa utangulizi mpole wa mada za _AI katika Wingu_ unaweza kufikiria kuchukua Njia ya Kujifunza [Anza na Akili Bandia kwenye Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).
+Kwa utangulizi mpole wa mada za _AI katika Wingu_ unaweza kufikiria kuchukua Njia ya Kujifunza [Anza na akili bandia kwenye Azure](https://docs.microsoft.com/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-77998-bethanycheum).
 
 # Yaliyomo
 
 |     |                                                                 Kiungo cha Somo                                                                  |                                           PyTorch/Keras/TensorFlow                                          | Maabara                                                            |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------ |
-| 0  |                                 [Usanidi wa Kozi](./lessons/0-course-setup/setup.md)                                 |                      [Sanidi Mazingira yako ya Maendeleo](./lessons/0-course-setup/how-to-run.md)                       |   |
+| 0  |                                 [Mipangilio ya Kozi](./lessons/0-course-setup/setup.md)                                 |                      [Andaa Mazingira Yako ya Maendeleo](./lessons/0-course-setup/how-to-run.md)                       |   |
 | I  |               [**Utangulizi wa AI**](./lessons/1-Intro/README.md)      | | |
 | 01  |       [Utangulizi na Historia ya AI](./lessons/1-Intro/README.md)       |           -                            | -  |
-| II |              **AI ya Alama**              |
-| 02  |       [Uwawakilishi wa Maarifa na Mifumo ya Mtaalamu](./lessons/2-Symbolic/README.md)       |            [Mifumo ya Mtaalamu](./lessons/2-Symbolic/Animals.ipynb) /  [Ontologia](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Grafu ya Dhana](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
-| III |                        [**Utangulizi kwa Mitandao ya Neva**](./lessons/3-NeuralNetworks/README.md) |||
-| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Daftari](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Lab](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
-| 04  |                   [Multi-Layered Perceptron na Kuunda Muktadha Wetu](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Daftari](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Lab](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
-| 05  |            [Utangulizi kwa Muktadha (PyTorch/TensorFlow) na Kupita Mchanganyiko](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
-| IV  |            [**Maono ya Kompyuta**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Chunguza Maono ya Kompyuta kwenye Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
-| 06  |            [Utangulizi kwa Maono ya Kompyuta. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Daftari](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Lab](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
-| 07  |            [Mitandao ya Neva ya Convolutional](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Miundo ya CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Lab](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
-| 08  |            [Mitandao Iliyoandaliwa Mapema na Kujifunza Kubadilishana](./lessons/4-ComputerVision/08-TransferLearning/README.md) na [Majaribio ya Mafunzo](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Lab](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
+| II |              **AI ya Ishara**              |
+| 02  |       [Uwasilishaji wa Maarifa na Mifumo ya Wataalamu](./lessons/2-Symbolic/README.md)       |            [Mifumo ya Wataalamu](./lessons/2-Symbolic/Animals.ipynb) /  [Ontolojia](./lessons/2-Symbolic/FamilyOntology.ipynb) /[Mchoro wa Dhana](./lessons/2-Symbolic/MSConceptGraph.ipynb)                             |  |
+| III |                        [**Utangulizi wa Mitandao ya Neva**](./lessons/3-NeuralNetworks/README.md) |||
+| 03  |                [Perceptron](./lessons/3-NeuralNetworks/03-Perceptron/README.md)                 |                       [Daftari](./lessons/3-NeuralNetworks/03-Perceptron/Perceptron.ipynb)                      | [Maabara](./lessons/3-NeuralNetworks/03-Perceptron/lab/README.md) |
+| 04  |                   [Multi-Layered Perceptron na Kuunda Mfumo wetu](./lessons/3-NeuralNetworks/04-OwnFramework/README.md)                   |        [Daftari](./lessons/3-NeuralNetworks/04-OwnFramework/OwnFramework.ipynb)        | [Maabara](./lessons/3-NeuralNetworks/04-OwnFramework/lab/README.md) |
+| 05  |            [Utangulizi wa Mifumo (PyTorch/TensorFlow) na Overfitting](./lessons/3-NeuralNetworks/05-Frameworks/README.md)             |           [PyTorch](./lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb) / [Keras](./lessons/3-NeuralNetworks/05-Frameworks/IntroKeras.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Maabara](./lessons/3-NeuralNetworks/05-Frameworks/lab/README.md) |
+| IV  |            [**Uchunguzi wa Kompyuta**](./lessons/4-ComputerVision/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-computer-vision-pytorch/?WT.mc_id=academic-77998-cacaste) / [TensorFlow](https://docs.microsoft.com/learn/modules/intro-computer-vision-TensorFlow/?WT.mc_id=academic-77998-cacaste)| [Chunguza Uchunguzi wa Kompyuta kwenye Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) |
+| 06  |            [Utangulizi wa Uchunguzi wa Kompyuta. OpenCV](./lessons/4-ComputerVision/06-IntroCV/README.md)             |           [Daftari](./lessons/4-ComputerVision/06-IntroCV/OpenCV.ipynb)         | [Maabara](./lessons/4-ComputerVision/06-IntroCV/lab/README.md) |
+| 07  |            [Mitandao ya Neva ya Convolutional](./lessons/4-ComputerVision/07-ConvNets/README.md) &  [Miamilio ya CNN](./lessons/4-ComputerVision/07-ConvNets/CNN_Architectures.md)             |           [PyTorch](./lessons/4-ComputerVision/07-ConvNets/ConvNetsPyTorch.ipynb) /[TensorFlow](./lessons/4-ComputerVision/07-ConvNets/ConvNetsTF.ipynb)             | [Maabara](./lessons/4-ComputerVision/07-ConvNets/lab/README.md) |
+| 08  |            [Mitandao Iliyopangwa awali na Kujifunza kwa Kuhamisha](./lessons/4-ComputerVision/08-TransferLearning/README.md) na [Mbinu za Mafunzo](./lessons/4-ComputerVision/08-TransferLearning/TrainingTricks.md)             |           [PyTorch](./lessons/4-ComputerVision/08-TransferLearning/TransferLearningPyTorch.ipynb) / [TensorFlow](./lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)             | [Maabara](./lessons/4-ComputerVision/08-TransferLearning/lab/README.md) |
 | 09  |            [Autoencoders na VAEs](./lessons/4-ComputerVision/09-Autoencoders/README.md)             |           [PyTorch](./lessons/4-ComputerVision/09-Autoencoders/AutoEncodersPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/09-Autoencoders/AutoencodersTF.ipynb)             |  |
-| 10  |            [Mitandao ya Adversarial ya Kizazi na Uhamishaji wa Mtindo wa Sanaa](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
-| 11  |            [Ugunduzi wa Vitu](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
-| 12  |            [Umgawanyiko wa Semantiki. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
-| V  |            [**Usindikaji wa Lugha Asilia**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Chunguza Usindikaji wa Lugha Asilia kwenye Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
-| 13  |            [Uwawakilishi wa Maandishi. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
-| 14  |            [Mbinu za Kuweka Maneno kwa Semantiki. Word2Vec na GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
-| 15  |            [Modeli ya Lugha. Kufuata mafunzo ya uwekeaji wako](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
-| 16  |            [Mitandao ya Neva ya Kurudia](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
-| 17  |            [Mitandao ya Kurudia ya Kizazi](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
+| 10  |            [Mitandao ya Kupigana ya Kizazi & Uhamishaji wa Mtindo wa Sanaa](./lessons/4-ComputerVision/10-GANs/README.md)             |           [PyTorch](./lessons/4-ComputerVision/10-GANs/GANPyTorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/10-GANs/GANTF.ipynb)             |  |
+| 11  |            [Uchunguzi wa Vitu](./lessons/4-ComputerVision/11-ObjectDetection/README.md)             |         [TensorFlow](./lessons/4-ComputerVision/11-ObjectDetection/ObjectDetection.ipynb)             | [Lab](./lessons/4-ComputerVision/11-ObjectDetection/lab/README.md) |
+| 12  |            [Ugawaji wa Kimaana. U-Net](./lessons/4-ComputerVision/12-Segmentation/README.md)             |           [PyTorch](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationPytorch.ipynb) / [TensorFlow](./lessons/4-ComputerVision/12-Segmentation/SemanticSegmentationTF.ipynb)             |  |
+| V  |            [**Usindikaji wa Lugha ya Asili**](./lessons/5-NLP/README.md)             | [PyTorch](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-pytorch/?WT.mc_id=academic-77998-cacaste) /[TensorFlow](https://docs.microsoft.com/learn/modules/intro-natural-language-processing-TensorFlow/?WT.mc_id=academic-77998-cacaste) | [Chunguza Usindikaji wa Lugha ya Asili kwenye Microsoft Azure](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum)|
+| 13  |            [Uwakilishi wa Maandishi. Bow/TF-IDF](./lessons/5-NLP/13-TextRep/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/13-TextRep/TextRepresentationTF.ipynb)             | |
+| 14  |            [Embedding za Maneno za Kimaana. Word2Vec na GloVe](./lessons/5-NLP/14-Embeddings/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/14-Embeddings/EmbeddingsTF.ipynb)             |  |
+| 15  |            [Uundaji wa Lugha. Kufundisha embeddings zako mwenyewe](./lessons/5-NLP/15-LanguageModeling/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-PyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/15-LanguageModeling/CBoW-TF.ipynb)             | [Lab](./lessons/5-NLP/15-LanguageModeling/lab/README.md) |
+| 16  |            [Mitandao ya Neva ya Marudio](./lessons/5-NLP/16-RNN/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNPyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/16-RNN/RNNTF.ipynb)             |  |
+| 17  |            [Mitandao ya Marudio ya Kizazi](./lessons/5-NLP/17-GenerativeNetworks/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativePyTorch.ipynb) / [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/17-GenerativeNetworks/GenerativeTF.ipynb)             | [Lab](./lessons/5-NLP/17-GenerativeNetworks/lab/README.md) |
 | 18  |            [Transformers. BERT.](./lessons/5-NLP/18-Transformers/README.md)             |           [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersPyTorch.ipynb) /[TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/5-NLP/18-Transformers/TransformersTF.ipynb)             |  |
-| 19  |            [Utambuzi wa Entiti Iliyotajwa](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
-| 20  |            [Modeli Kubwa za Lugha, Uandishi wa Maagizo na Majukumu Machache](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
+| 19  |            [Utambuzi wa Entity Zilizojulikana](./lessons/5-NLP/19-NER/README.md)             |           [TensorFlow](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/19-NER/NER-TF.ipynb)             | [Lab](./lessons/5-NLP/19-NER/lab/README.md) |
+| 20  |            [Modeli Kubwa za Lugha, Uandishi wa Prompt na Kazi za Few-Shot](./lessons/5-NLP/20-LangModels/README.md)             |           [PyTorch](https://microsoft.github.io/AI-For-Beginners/lessons/5-NLP/20-LangModels/GPT-PyTorch.ipynb) | |
 | VI |            **Mbinu Nyingine za AI** || |
-| 21  |            [Algoritmi za Kijenetiki](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Daftari](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
-| 22  |            [Kujifunza kwa Kina kwa Kurejesha](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
+| 21  |            [Algoriti za Kijenetiki](./lessons/6-Other/21-GeneticAlgorithms/README.md)             |           [Notebook](./lessons/6-Other/21-GeneticAlgorithms/Genetic.ipynb) | |
+| 22  |            [Kujifunza kwa Kina kwa Kuimarishwa](./lessons/6-Other/22-DeepRL/README.md)             |           [PyTorch](./lessons/6-Other/22-DeepRL/CartPole-RL-PyTorch.ipynb) /[TensorFlow](./lessons/6-Other/22-DeepRL/CartPole-RL-TF.ipynb)             | [Lab](./lessons/6-Other/22-DeepRL/lab/README.md) |
 | 23  |            [Mifumo ya Wakala Wengi](./lessons/6-Other/23-MultiagentSystems/README.md)             |  | |
 | VII |            **Maadili ya AI** | | |
 | 24  |            [Maadili ya AI na AI Inayowajibika](./lessons/7-Ethics/README.md)             |           [Microsoft Learn: Kanuni za AI Inayowajibika](https://docs.microsoft.com/learn/paths/responsible-ai-business-principles/?WT.mc_id=academic-77998-cacaste) | |
-| IX  |            **Zaidi** | | |
-| 25  |            [Mitandao ya Multi-Modal, CLIP na VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Daftari](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
+| IX  |            **Misingi ya Ziada** | | |
+| 25  |            [Mitandao Mbalimbali ya Modal, CLIP na VQGAN](./lessons/X-Extras/X1-MultiModal/README.md)             |           [Notebook](./lessons/X-Extras/X1-MultiModal/Clip.ipynb)    | |
 
-## Kila somo lina
-* Nyenzo za kusoma kabla
-* Daftari za Jupyter za Kutekeleza, ambazo mara nyingi ni maalum kwa mfumo wa (**PyTorch** au **TensorFlow**). Daftari la kutekeleza pia lina nyenzo nyingi za kinadharia, hivyo kuelewa mada unahitaji kupitia angalau toleo moja la daftari (iwe PyTorch au TensorFlow).
-* **Maabara** zinazopatikana kwa baadhi ya mada, ambazo zinakupa nafasi ya kujaribu kutekeleza nyenzo ulizojifunza kwa tatizo maalum.
-* Sehemu baadhi zina viungo kwa moduli za [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) ambazo zinahusiana na mada husika.
+## Kila somo linajumuisha
 
-## Kuanza
+* Vifaa vya kusoma kabla
+* Vitabu vya Jupyter vinavyoweza kutekelezwa, ambavyo mara nyingi ni maalum kwa mfumo (**PyTorch** au **TensorFlow**). Kitabu kinachotekelezwa pia kina mengi ya nadharia, hivyo kuelewa mada unahitaji kupitia angalau toleo moja la kitabu (iwe PyTorch au TensorFlow).
+* **Maabara** zinapatikana kwa baadhi ya mada, zinazokupa fursa ya kujaribu kutumia nyenzo ulizojifunza kwa shida mahususi.
+* Sehemu zingine zina viungo vya moduli za [**MS Learn**](https://learn.microsoft.com/en-us/collections/7w28iy2xrqzdj0?WT.mc_id=academic-77998-bethanycheum) zinazohusiana na mada.
 
-### 🎯 Mpya katika AI? Anza Hapa!
+## Kuanzia
 
-Ikiwa wewe ni mpya kabisa katika AI na unataka mifano ya haraka ya vitendo, angalia [**Mifano Rafiki kwa Waanzilishi**](./examples/README.md)! Hii ni pamoja na:
+### 🎯 Mpya kwa AI? Anza Hapa!
 
-- 🌟 **Hujambo AI Dunia** - Programu yako ya kwanza ya AI (utambuzi wa mifumo)
-- 🧠 **Mtandao Rahisi wa Neva** - Jenga mtandao wa neva kutoka mwanzo  
-- 🖼️ **Mchapishaji Picha** - Tingisha picha na maelezo ya kina  
-- 💬 **Hisia za Maandishi** - Changanua hisia za maandishi chanya/negativa
+Ikiwa wewe ni mpya kabisa kwa AI na unataka mifano ya haraka, za vitendo, angalia [**Mifano Rafiki kwa Waanzilishi**](./examples/README.md)! Hii ni pamoja na:
 
-Mifano hii imeundwa kusaidia kuelewa dhana za AI kabla ya kuingia katika mtaala mzima.
+- 🌟 **Hello AI World** - Programu yako ya kwanza ya AI (utambuzi wa mifumo)
+- 🧠 **Mitandao Rahisi ya Neva** - Jenga mtandao wa neva kutoka mwanzo  
+- 🖼️ **Kichanganuzi Picha** - Tangaza picha kwa maelezo kamili
+- 💬 **Hisia za Maandishi** - Changanua maandishi ya chanya/negativi
+
+Mifano hii imeandaliwa kusaidia kuelewa dhana za AI kabla ya kuingia kwenye kozi kamili.
 
 ### 📚 Mipangilio Kamili ya Mtaala
 
-- Tumeandaa [somu ya usanidi](./lessons/0-course-setup/setup.md) kukusaidia kusanidi mazingira yako ya maendeleo. - Kwa waalimu, tumeandaa pia [somu ya usanidi wa mitaala](./lessons/0-course-setup/for-teachers.md)!
-- Jinsi ya [Kukimbia msimbo katika VSCode au Codespace](./lessons/0-course-setup/how-to-run.md)
+- Tumeunda [somo la kuweka mazingira](./lessons/0-course-setup/setup.md) kusaidia kuweka mazingira ya maendeleo yako. - Kwa Walimu, pia tumeandaa [somo la kupanga mitaala](./lessons/0-course-setup/for-teachers.md)!
+- Jinsi ya [Kuendesha msimbo katika VSCode au Codespace](./lessons/0-course-setup/how-to-run.md)
 
 Fuata hatua hizi:
 
-Fungua Hazina: Bofya kitufe cha "Fork" upande wa juu kulia wa ukurasa huu.
+Toa Nakala ya Hazina: Bofya kitufe cha "Fork" upande wa juu kulia wa ukurasa huu.
 
 Nakili Hazina: `git clone https://github.com/microsoft/AI-For-Beginners.git`
 
-Usisahau kuipongeza (🌟) hazina hii ili kuipata kwa urahisi baadaye.
+Usisahau kuweka nyota (🌟) kwenye hazina hii ili kuipata kwa urahisi baadaye.
 
-## Kutana na Wanafunzi Wengine
+## Kutambua Wanafunzi Wengine
 
-Jiunge na [server rasmi ya Discord ya AI](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) ili kutana na kuungana na wanafunzi wengine wanaojiunga na kozi hii na kupokea msaada.
+Jiunge na [seva rasmi ya AI Discord](https://aka.ms/genai-discord?WT.mc_id=academic-105485-bethanycheum) ili kukutana na kuungana na wanafunzi wengine wanaochukua kozi hii na kupata msaada.
 
-Ikiwa una maoni kuhusu bidhaa au maswali wakati wa kujenga tembelea [Jukwaa la Wajenzi wa Azure AI Foundry](https://aka.ms/foundry/forum)
+Ikiwa una maoni kuhusu bidhaa au maswali wakati wa kujenga tembelea [Azure AI Foundry Developer Forum](https://aka.ms/foundry/forum)
 
-## Maswali
+## Jaribio 
 
-> **Kumbuka kuhusu maswali**: Maswali yote yapo katika folda ya Quiz-app ndani ya etc\quiz-app, au [Mtandaoni Hapa](https://ff-quizzes.netlify.app/) Yameunganishwa kutoka ndani ya somo; programu ya maswali inaweza kuendeshwa eneo la mahali au kuwekwa Azure; fuata maelekezo katika folda ya `quiz-app`. Yanaendelea kutafsiriwa.
+> **Kumbuka kuhusu jaribio**: Jaribio zote zipo katika folda ya Quiz-app katika etc\quiz-app, au [Mtandaoni Hapa](https://ff-quizzes.netlify.app/) Zinahusishwa ndani ya masomo, programu ya jaribio inaweza kuendeshwa kwa ndani au kuwekwa Azure; fuata maelekezo katika folda ya `quiz-app`. Zinatafsiriwa taratibu.
 
 ## Msaada Unahitajika
 
-Je, una mapendekezo au umekuta makosa ya tahajia au msimbo? Toa tatizo au tengeneza ombi la kuvuta.
+Je, una mapendekezo au umeona makosa ya tahajia au msimbo? Tengeneza tatizo au omba rufaa.
 
 ## Shukrani Maalum
 
-* **✍️ Mwandishi Mkuu:** [Dmitry Soshnikov](http://soshnikov.com), PhD  
-* **🔥 Mhariri:** [Jen Looper](https://twitter.com/jenlooper), PhD  
-* **🎨 Mchora Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)  
-* **✅ Muumbaji wa Maswali:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)  
-* **🙏 Wahusiki Wakuu:** [Evgenii Pishchik](https://github.com/Pe4enIks)  
+* **✍️ Mwandishi Mkuu:** [Dmitry Soshnikov](http://soshnikov.com), PhD
+* **🔥 Mhariri:** [Jen Looper](https://twitter.com/jenlooper), PhD
+* **🎨 Mchoraji wa Sketchnote:** [Tomomi Imura](https://twitter.com/girlie_mac)
+* **✅ Muundaji wa Jaribio:** [Lateefah Bello](https://github.com/CinnamonXI), [MLSA](https://studentambassadors.microsoft.com/)
+* **🙏 Washiriki Wakuu:** [Evgenii Pishchik](https://github.com/Pe4enIks)
 
-## Mitaala Mengine
+## Mitaala Nyingine
 
-Timu yetu huandaa mitaala mingine! Angalia:
+Timu yetu hutengeneza mitaala mingine! Tazama:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -188,35 +194,35 @@ Timu yetu huandaa mitaala mingine! Angalia:
 [![Wakala wa AI kwa Waanzilishi](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
-
-### Mfululizo wa AI Inayotokana
-[![AI Inayotokana kwa Waanzilishi](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Inayotokana (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![AI Inayotokana (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![AI Inayotokana (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+ 
+### Mfululizo wa AI ya Kizazi
+[![AI ya Kizazi kwa Waanzilishi](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI ya Kizazi (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![AI ya Kizazi (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![AI ya Kizazi (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
-
+ 
 ### Kujifunza Msingi
 [![ML kwa Waanzilishi](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Sayansi ya Takwimu kwa Waanzilishi](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![Sayansi ya Data kwa Waanzilishi](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI kwa Waanzilishi](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Usalama wa Mtandao kwa Waanzilishi](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Maendeleo ya Mtandao kwa Waanzilishi](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![Ufundi wa Mtandao kwa Waanzilishi](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT kwa Waanzilishi](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
 [![Maendeleo ya XR kwa Waanzilishi](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
-
+ 
 ### Mfululizo wa Copilot
-[![Copilot kwa Maandishi ya Pamoja ya AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot kwa Uandishi wa Pamoja wa AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot kwa C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventures](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## Kupata Msaada
 
-Ikiwa unakumbwa au una maswali yoyote kuhusu kujenga programu za AI. Jiunge na wanafunzi wenzako na waendelezaji wenye uzoefu katika majadiliano kuhusu MCP. Ni jamii inayosaidia ambapo maswali yanakaribishwa na maarifa hutolewa kwa uhuru.
+Ikiwa umekwama au una maswali yoyote kuhusu kujenga programu za AI. Jiunge na wanafunzi wenzao na waendelezaji wenye uzoefu katika mijadala kuhusu MCP. Ni jamii yenye msaada ambapo maswali yanakaribishwa na maarifa yanashirikiwa kwa uhuru.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
@@ -227,6 +233,6 @@ Ikiwa una maoni kuhusu bidhaa au makosa wakati wa kujenga tembelea:
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Kumbusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kufikia usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwepo kwa usahihi. Hati asili katika lugha yake ya asili inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatuwajibiki kwa kutoelewana au tafsiri potofu zitokanazo na matumizi ya tafsiri hii.
+**Kionyozo**:
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kupata usahihi, tafadhali fahamu kwamba tafsiri za kiotomatiki zinaweza kuwa na makosa au upungufu wa usahihi. Hati ya asili katika lugha yake halisi inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu inayofanywa na binadamu inapendekezwa. Hatutojibu kwa kuelewa vibaya au tafsiri potofu zinazotokea kutokana na matumizi ya tafsiri hii.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

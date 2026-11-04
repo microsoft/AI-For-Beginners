@@ -1,12 +1,12 @@
 # Kaip paleisti kodą
 
-Šioje mokymo programoje yra daug vykdomų pavyzdžių ir laboratorinių darbų, kuriuos norėsite paleisti. Tam reikia galimybės vykdyti Python kodą Jupyter užrašuose, kurie pateikti kaip šios mokymo programos dalis. Turite keletą galimybių, kaip paleisti kodą:
+Ši mokymo programa turi daug vykdomų pavyzdžių ir laboratorinių darbų, kuriuos norėsite paleisti. Tam reikia galimybės vykdyti Python kodą Jupyter sąsiuviniuose, pateiktuose kaip šios mokymo programos dalis. Yra keletas galimų būdų, kaip paleisti kodą:
 
-## Vykdyti vietoje savo kompiuteryje
+## Paleisti lokaliai savo kompiuteryje
 
-Norint paleisti kodą vietoje savo kompiuteryje, reikia turėti įdiegtą Python. Viena iš rekomendacijų – įdiegti **[miniconda](https://conda.io/en/latest/miniconda.html)** – tai pakankamai lengvas diegimas, kuris palaiko `conda` paketų tvarkyklę skirtingoms Python **virtualioms aplinkoms**.
+Norėdami paleisti kodą savo kompiuteryje lokaliai, reikia įdiegti Python. Vienas iš rekomenduojamų sprendimų yra įdiegti **[miniconda](https://conda.io/en/latest/miniconda.html)** - tai gana lengva diegimo versija, kuri palaiko `conda` paketų tvarkyklę, skirtą įvairioms Python **virtualioms aplinkoms**.
 
-Įdiegus miniconda, nuklonuokite saugyklą ir sukurkite virtualią aplinką, kuri bus naudojama šiame kurse:
+Įdiegę miniconda, nuklonuokite saugyklą ir sukurkite virtualią aplinką šiam kursui:
 
 ```bash
 git clone http://github.com/microsoft/ai-for-beginners
@@ -15,19 +15,49 @@ conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
 ```
 
-### Naudojant Visual Studio Code su Python papildiniu
+> **Windows pastaba**: jei kuriant aplinką nepavyksta įdiegti `gdk-pixbuf` ir atsiranda `UnicodeDecodeError` klaida, kuri nurodo `gbk` kodeką, įjunkite Python UTF-8 režimą savo terminale ir bandykite dar kartą. Naudokite savo terminalo sintaksę:
+>
+> **PowerShell:**
+>
+> ```powershell
+> $env:PYTHONUTF8 = "1"
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Komandos eilutė (`cmd.exe`) arba Anaconda Prompt:**
+>
+> ```cmd
+> set PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> **Bash, įskaitant Git Bash:**
+>
+> ```bash
+> export PYTHONUTF8=1
+> conda env create --name ai4beg --file .devcontainer/environment.yml
+> ```
+>
+> Jei nepavykusio bandymo metu liko `ai4beg` aplinka, išjunkite ją ir pašalinkite prieš bandydami dar kartą. Pirmiausia naudokite `conda deactivate` kai aplinka yra aktyvi:
+>
+> ```text
+> conda deactivate
+> conda env remove --name ai4beg
+> ```
 
-Šią mokymo programą geriausia naudoti atidarant ją [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) su [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
+### Naudojant Visual Studio Code su Python plėtiniu
 
-> **Pastaba**: Kai tik nuklonuosite ir atidarysite katalogą VS Code, jis automatiškai pasiūlys įdiegti Python papildinius. Taip pat turėsite įdiegti miniconda, kaip aprašyta aukščiau.
+Šią mokymo programą geriausia naudoti atidarant ją [Visual Studio Code](http://code.visualstudio.com/?WT.mc_id=academic-77998-cacaste) su [Python plėtiniu](https://marketplace.visualstudio.com/items?itemName=ms-python.python&WT.mc_id=academic-77998-cacaste).
 
-> **Pastaba**: Jei VS Code siūlo atidaryti saugyklą konteineryje, turėtumėte atsisakyti šio pasiūlymo, kad naudotumėte vietoje įdiegtą Python.
+> **Pastaba**: kai tik nuklonuosite ir atidarysite katalogą VS Code, jis automatiškai pasiūlys įdiegti Python plėtinius. Taip pat turėsite įdiegti miniconda, kaip aprašyta aukščiau.
+
+> **Pastaba**: jei VS Code pasiūlys atidaryti saugyklą konteineryje, turėtumėte atsisakyti šio pasiūlymo, kad galėtumėte naudoti vietinę Python diegimą.
 
 ### Naudojant Jupyter naršyklėje
 
-Taip pat galite naudoti Jupyter aplinką naršyklėje savo kompiuteryje. Tiek klasikinis Jupyter, tiek JupyterHub suteikia patogią vystymo aplinką su automatinio pildymo, kodo paryškinimo ir kitomis funkcijomis.
+Taip pat galite naudoti Jupyter aplinką naršyklėje savo kompiuteryje. Tiek klasikinis Jupyter, tiek JupyterHub suteikia patogią kūrimo aplinką su automatinio užbaigimo funkcija, kodo paryškinimu ir pan.
 
-Norėdami paleisti Jupyter vietoje, eikite į kurso katalogą ir vykdykite:
+Norėdami paleisti Jupyter lokaliai, eikite į kursų katalogą ir vykdykite:
 
 ```bash
 jupyter notebook
@@ -36,32 +66,32 @@ arba
 ```bash
 jupyterhub
 ```
-Tuomet galite naršyti bet kurį iš `.ipynb` failų, atidaryti juos ir pradėti darbą.
+Tuomet galite atidaryti bet kurį iš `.ipynb` failų ir pradėti darbą.
 
-### Vykdymas konteineryje
+### Paleidimas konteineryje
 
-Vienas iš Python diegimo alternatyvų yra paleisti kodą konteineryje. Kadangi mūsų saugykla turi specialų `.devcontainer` katalogą, kuris nurodo, kaip sukurti konteinerį šiai saugyklai, VS Code siūlo galimybę iš naujo atidaryti kodą konteineryje. Tam reikės įdiegti Docker, ir tai bus sudėtingiau, todėl rekomenduojame šį būdą labiau patyrusiems vartotojams.
+Viena iš alternatyvų Python diegimui yra paleisti kodą konteineryje. Kadangi mūsų saugykla pateikia specialų `.devcontainer` katalogą, kuriame aprašyta kaip sukurti konteinerį šiai saugyklai, VS Code siūlo galimybę atidaryti kodą konteineryje. Tam reikės įdiegti Docker, ir ši parinktis yra sudėtingesnė, todėl rekomenduojame ją labiau patyrusiems vartotojams.
 
-## Vykdymas debesyje
+## Paleidimas debesyje
 
-Jei nenorite diegti Python vietoje ir turite prieigą prie kokių nors debesies išteklių – geras pasirinkimas būtų vykdyti kodą debesyje. Tai galite padaryti keliais būdais:
+Jei nenorite lokaliai įdiegti Python ir turite prieigą prie debesies resursų, gera alternatyva būtų paleisti kodą debesyje. Galite rinktis kelis būdus:
 
-* Naudojant **[GitHub Codespaces](https://github.com/features/codespaces)**, tai yra virtuali aplinka, sukurta jums GitHub platformoje, pasiekiama per VS Code naršyklės sąsają. Jei turite prieigą prie Codespaces, tiesiog spauskite **Code** mygtuką saugykloje, pradėkite codespace ir pradėkite dirbti labai greitai.
-* Naudojant **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) suteikia nemokamus skaičiavimo išteklius debesyje žmonėms, norintiems išbandyti kodą GitHub platformoje. Pagrindiniame puslapyje yra mygtukas atidaryti saugyklą Binder – tai greitai nukels jus į Binder svetainę, kuri sukuria konteinerį ir sklandžiai paleidžia Jupyter interneto sąsają.
+* Naudojant **[GitHub Codespaces](https://github.com/features/codespaces)** – tai virtuali aplinka, sukurta jums GitHub platformoje, pasiekiama per VS Code naršyklės sąsają. Jei turite prieigą prie Codespaces, tiesiog paspauskite mygtuką **Code** saugykloje, sukurkite kodų erdvę ir pradėkite darbą per greitą laiką.
+* Naudojant **[Binder](https://mybinder.org/v2/gh/microsoft/ai-for-beginners/HEAD)**. [Binder](https://mybinder.org) suteikia nemokamus kompiuterinius resursus debesyje, skirtus jūsų kodo testavimui GitHub. Pradiniame puslapyje yra mygtukas, leidžiantis atidaryti saugyklą Binder aplinkoje – tai greitai nukreips jus į Binder svetainę, kuri automatiškai sukurs konteinerį ir pradės Jupyter žiniatinklio sąsają.
 
-> **Pastaba**: Norint išvengti piktnaudžiavimo, Binder blokuoja prieigą prie kai kurių internetinių šaltinių. Tai gali neleisti veikti kai kuriems kodo fragmentams, kurie naudoja modelius ir (arba) duomenų rinkinius iš interneto. Gali prireikti rasti sprendimų. Taip pat Binder skirti skaičiavimo ištekliai yra gana pagrindiniai, todėl treniruotės bus lėtos, ypač vėlesnėse, sudėtingesnėse pamokose.
+> **Pastaba**: norint išvengti piktnaudžiavimo, Binder blokuoja prieigą prie kai kurių interneto resursų. Tai gali trukdyti kai kuriems kodo fragmentams, kurie bando parsisiųsti modelius ir/ar duomenų rinkinius iš viešojo interneto, veikti. Gali tekti ieškoti apeinamojo sprendimo. Be to, Binder suteikiami kompiuteriniai resursai yra ganėtinai paprasti, todėl mokymasis vyksta lėtai, ypač vėlesniuose, sudėtingesniuose pamokose.
 
-## Vykdymas debesyje su GPU
+## Paleidimas debesyje su GPU
 
-Kai kurios vėlesnės šios mokymo programos pamokos labai naudotųsi GPU palaikymu. Modelių mokymas, pavyzdžiui, kitu atveju gali būti labai lėtas. Yra keletas variantų, kuriuos galite pasirinkti, ypač jei turite prieigą prie debesies per [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) arba per savo instituciją:
+Kai kurios vėlesnės šios mokymo programos pamokos ženkliai pasinaudotų GPU palaikymu. Pavyzdžiui, modelio mokymas be to gali būti labai lėtas. Yra keletas galimų būdų, ypač jei turite prieigą prie debesies per [Azure for Students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-77998-cacaste) arba savo instituciją:
 
-* Sukurkite [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ir prisijunkite prie jos per Jupyter. Galite tiesiog nuklonuoti saugyklą tiesiai į šį kompiuterį ir pradėti mokytis. NC serijos VM turi GPU palaikymą.
+* Sukurkite [Data Science Virtual Machine](https://docs.microsoft.com/learn/modules/intro-to-azure-data-science-virtual-machine/?WT.mc_id=academic-77998-cacaste) ir prisijunkite prie jos per Jupyter. Galite tiesiogiai klonuoti saugyklą į šią mašiną ir pradėti mokytis. NC serijos VM turi GPU palaikymą.
 
-> **Pastaba**: Kai kurios prenumeratos, įskaitant Azure for Students, pagal nutylėjimą neteikia GPU palaikymo. Gali prireikti pateikti užklausą techninės pagalbos skyriui dėl papildomų GPU branduolių.
+> **Pastaba**: kai kurios prenumeratos, įskaitant Azure for Students, neturi GPU palaikymo pagal numatytuosius nustatymus. Gali reikėti pateikti techninio palaikymo užklausą dėl papildomų GPU branduolių.
 
-* Sukurkite [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste), o tada naudokite ten esančią Notebook funkciją. [Šis video](https://azure-for-academics.github.io/quickstart/azureml-papers/) parodo, kaip nuklonuoti saugyklą į Azure ML užrašinį ir pradėti jį naudoti.
+* Sukurkite [Azure Machine Learning Workspace](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-77998-cacaste) ir naudokite ten Notebook funkciją. [Šis vaizdo įrašas](https://azure-for-academics.github.io/quickstart/azureml-papers/) rodo, kaip klonuoti saugyklą į Azure ML sąsiuvinį ir pradėti jį naudoti.
 
-Taip pat galite naudoti Google Colab, kuris suteikia nemokamą GPU palaikymą, ir įkelti Jupyter užrašus ten, kad paleistumėte juos po vieną.
+Taip pat galite naudoti Google Colab, kuris suteikia nemokamą GPU palaikymą, ir ten įkelti Jupyter sąsiuvinius juos vykdyti po vieną.
 
 ---
 

@@ -1,110 +1,112 @@
-# Giliojo mokymosi treniravimo gudrybės
+# Giluminio mokymosi triukai
 
-Kai neuroniniai tinklai tampa gilesni, jų treniravimo procesas tampa vis sudėtingesnis. Viena iš pagrindinių problemų yra vadinamosios [nykstančios gradientės](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) arba [sprogstančios gradientės](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Šis straipsnis](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) pateikia gerą įvadą į šias problemas.
+Kadangi neuroniniai tinklai tampa vis gilesni, jų mokymosi procesas tampa vis sudėtingesnis. Viena pagrindinių problemų yra vadinamieji [nykstantys gradientai](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) arba [eksploduojantys gradientai](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Šis įrašas](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) gerai pristato šias problemas.
 
-Norint efektyviau treniruoti gilius tinklus, galima naudoti keletą technikų.
+Norint efektyviau mokyti gilius tinklus, galima naudoti keletą metodų.
 
-## Vertybių išlaikymas pagrįstame intervale
+## Vertybių laikymas tinkamame intervale
 
-Norint užtikrinti skaičiavimų stabilumą, svarbu, kad visos neuroninio tinklo vertės būtų pagrįsto masto, paprastai [-1..1] arba [0..1]. Tai nėra labai griežtas reikalavimas, tačiau plaukiojančio kablelio skaičiavimų prigimtis yra tokia, kad skirtingų dydžių vertės negali būti tiksliai apdorojamos kartu. Pavyzdžiui, jei sudėsime 10<sup>-10</sup> ir 10<sup>10</sup>, greičiausiai gausime 10<sup>10</sup>, nes mažesnė vertė bus „konvertuota“ į tą patį dydį kaip didesnė, ir mantisa bus prarasta.
+Norint, kad skaičiavimai būtų stabilesni, turime užtikrinti, kad visos neuroninio tinklo vertės būtų tinkamo mastelio, paprastai intervale [-1..1] arba [0..1]. Tai nėra labai griežta taisyklė, tačiau plaukiojančių kablelių skaičiavimų esmė tokia, kad skirtingo dydžio reikšmės negali būti tiksliai apdorojamos kartu. Pavyzdžiui, jei sudėsime 10<sup>-10</sup> ir 10<sup>10</sup>, greičiausiai gausime 10<sup>10</sup>, nes mažesnė reikšmė bus "paversta" į tokį patį mastelį kaip ir didesnė, todėl mantisa pranyks.
 
-Dauguma aktyvavimo funkcijų turi nelinijines savybes aplink [-1..1], todėl prasminga visus įvesties duomenis skalėti į [-1..1] arba [0..1] intervalą.
+Dauguma aktyvacijos funkcijų yra netiesinės apie intervalą [-1..1], todėl prasminga visus įvesties duomenis paversti į intervalą [-1..1] arba [0..1].
 
-## Pradinis svorių inicializavimas
+## Pradinė svorių inicializacija
 
-Idealiu atveju norime, kad vertės išliktų tame pačiame intervale, kai jos pereina per tinklo sluoksnius. Todėl svarbu inicializuoti svorius taip, kad būtų išsaugotas vertybių pasiskirstymas.
+Idealiu atveju, norime, kad vertės būtų tame pačiame diapazone praėjus per tinklo sluoksnius. Todėl svarbu inicializuoti svorius taip, kad būtų išsaugota vertybių pasiskirstymo forma.
 
-Normalusis pasiskirstymas **N(0,1)** nėra gera idėja, nes jei turime *n* įėjimų, išėjimo standartinis nuokrypis bus *n*, ir vertės greičiausiai išeis už [0..1] intervalo ribų.
+Normalusis pasiskirstymas **N(0,1)** nėra gera idėja, nes turint *n* įėjimų, išėjimo standartinis nuokrypis bus *&radic;n*, ir vertės gali išeiti už intervalą [0..1].
 
-Dažnai naudojami šie inicializavimo būdai:
+Dažnai naudojamos šios inicializacijos:
 
-- Vienodas pasiskirstymas – `uniform`
-- **N(0,1/n)** – `gaussian`
-- **N(0,1/√n_in)** užtikrina, kad įėjimams su nuliu vidurkiu ir standartiniu nuokrypiu 1 išliks tas pats vidurkis ir standartinis nuokrypis
-- **N(0,√2/(n_in+n_out))** – vadinamasis **Xavier inicializavimas** (`glorot`), kuris padeda išlaikyti signalus tinkamame intervale tiek pirmyn, tiek atgal skaičiuojant gradientus
+ * Vienodas pasiskirstymas -- `uniform`
+ * **N(0,1/n)** -- `gaussian`
+ * **N(0,1/&radic;n_in)** garantuoja, kad įėjimams su nuliu vidurkiu ir standartiniu nuokrypiu 1 išlieka tas pats vidurkis/standartinis nuokrypis
+ * **N(0,&radic;2/(n_in+n_out))** -- vadinamoji **Xavier inicializacija** (`glorot`), kuri padeda signalus išlaikyti diapazone tiek tiesioginiame, tiek atvirkštiniame sklidimo metu
 
-## Partijos normalizavimas
+## Paketų normalizavimas
 
-Net ir tinkamai inicializavus svorius, treniravimo metu jie gali tapti labai dideli arba labai maži, o tai išves signalus iš tinkamo intervalo. Signalus galime grąžinti į tinkamą intervalą naudodami vieną iš **normalizavimo** technikų. Nors jų yra keletas (svorių normalizavimas, sluoksnio normalizavimas), dažniausiai naudojama yra partijos normalizavimas.
+Net ir su tinkama svorių inicializacija, svoriai gali tapti labai dideli arba maži mokymosi metu, ir tai išves signalus iš tinkamo diapazono. Signalus galima sugrąžinti naudojant vieną iš **normalizavimo** metodų. Nors jų yra keli (svorių normalizavimas, sluoksnio normalizavimas), dažniausiai naudojamas yra paketų normalizavimas.
 
-**Partijos normalizavimo** idėja yra atsižvelgti į visas vertes mini partijoje ir atlikti normalizavimą (t. y. atimti vidurkį ir padalinti iš standartinio nuokrypio) remiantis tomis vertėmis. Tai įgyvendinama kaip tinklo sluoksnis, kuris atlieka šį normalizavimą po svorių pritaikymo, bet prieš aktyvavimo funkciją. Dėl to greičiau treniruojama ir pasiekiamas didesnis galutinis tikslumas.
+Idėja, esanti **paketų normalizavime**, yra įvertinti visas reikšmes per mini paketą ir vykdyti normalizavimą (t. y. atimti vidurkį ir padalyti iš standartinio nuokrypio) remiantis šiomis reikšmėmis. Tai įgyvendinama kaip tinklo sluoksnis, kuris atlieka normalizavimą po svorių taikymo, bet prieš aktyvacijos funkciją. Dėl to dažniausiai matomas aukštesnis galutinis tikslumas ir greitesnis mokymasis.
 
-Čia yra [originalus straipsnis](https://arxiv.org/pdf/1502.03167.pdf) apie partijos normalizavimą, [paaiškinimas Vikipedijoje](https://en.wikipedia.org/wiki/Batch_normalization) ir [geras įvadinis tinklaraščio įrašas](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (ir vienas [rusiškai](https://habrahabr.ru/post/309302/)).
+Čia yra [originalus straipsnis](https://arxiv.org/pdf/1502.03167.pdf) apie paketų normalizavimą, [paaiškinimas Wikipedijoje](https://en.wikipedia.org/wiki/Batch_normalization) bei [geras pradedančiųjų tinklaraščio įrašas](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (ir vienas [rusų kalba](https://habrahabr.ru/post/309302/)).
 
-## Dropout
+## Droupautas
 
-**Dropout** yra įdomi technika, kuri treniravimo metu pašalina tam tikrą procentą atsitiktinių neuronų. Tai taip pat įgyvendinama kaip sluoksnis su vienu parametru (pašalinamų neuronų procentas, paprastai 10%-50%), o treniravimo metu atsitiktiniai įvesties vektoriaus elementai yra nustatomi į nulį prieš perduodant juos kitam sluoksniui.
+**Droupautas** yra įdomi technika, kuri mokymo metu pašalina tam tikrą procentą atsitiktinių neuronų. Tai taip pat įgyvendinama kaip sluoksnis su vienu parametru (pašalinamų neuronų procentas, dažniausiai 10%-50%), ir mokymo metu atsitiktiniai įvesties vektoriaus elementai yra nuliniai prieš perduodant kitam sluoksniui.
 
-Nors tai gali atrodyti kaip keista idėja, galite pamatyti dropout poveikį treniruojant MNIST skaitmenų klasifikatorių [`Dropout.ipynb`](Dropout.ipynb) užrašų knygelėje. Tai pagreitina treniravimą ir leidžia pasiekti didesnį tikslumą per mažiau treniravimo epochų.
+Nors tai gali skambėti keistai, galite pamatyti droupauto poveikį MNIST skaitmenų klasifikatoriui [`Dropout.ipynb`](Dropout.ipynb) užrašų knygoje. Tai pagreitina mokymą ir leidžia pasiekti didesnį tikslumą per mažiau mokymosi epochų.
 
 Šį efektą galima paaiškinti keliais būdais:
 
-- Tai galima laikyti atsitiktiniu šoku modeliui, kuris padeda išvengti optimizacijos įstrigimo lokaliame minimume
-- Tai galima laikyti *netiesioginiu modelio vidurkinimu*, nes dropout metu treniruojame šiek tiek kitokį modelį
+ * Jį galima laikyti kaip atsitiktinį smūgį modeliui, kuris išveda optimizaciją iš lokalaus minimumo
+ * Jį galima laikyti kaip *implicit model averaging* (netiesioginį modelių vidurkinimą), nes droupauto metu tarsi treniruojamas kiek kitoks modelis
 
-> *Kai kurie žmonės sako, kad kai girtas žmogus bando kažko išmokti, jis tai geriau prisimins kitą rytą, palyginti su blaiviu žmogumi, nes smegenys su kai kuriais neveikiančiais neuronais geriau prisitaiko suprasti prasmę. Mes niekada netikrinome, ar tai tiesa.*
+> *Kai kurie žmonės sako, kad kai girtautas žmogus bando ko nors išmokti, kitą rytą jis tai geriau prisimena nei blaivus žmogus, nes smegenys su kai kurių neuronų sutrikimais bando geriau prisitaikyti suvokti prasmę. Mes niekada nebandėme, ar tai tiesa.*
 
-## Perteklinio pritaikymo prevencija
+## Perpanaudojimo prevencija
 
-Vienas iš labai svarbių giluminio mokymosi aspektų yra gebėjimas išvengti [perteklinio pritaikymo](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Nors gali būti viliojanti idėja naudoti labai galingą neuroninio tinklo modelį, visada turėtume subalansuoti modelio parametrų skaičių su treniravimo pavyzdžių skaičiumi.
+Vienas iš labai svarbių giluminio mokymosi aspektų yra sugebėjimas užkirsti kelią [perpanaudojimui](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Nors gali būti pagunda naudoti labai galingą neuroninio tinklo modelį, visada turime subalansuoti modelio parametrų skaičių su mokymosi pavyzdžių skaičiumi.
 
-> Įsitikinkite, kad suprantate [perteklinio pritaikymo](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) sąvoką, kurią aptarėme anksčiau!
+> Įsitikinkite, kad suprantate [perpanaudojimo](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) koncepciją, kurią pristatėme anksčiau!
 
-Yra keletas būdų išvengti perteklinio pritaikymo:
+Yra keletas būdų užkirsti kelią perpanaudojimui:
 
-- Ankstyvas sustabdymas – nuolat stebėti klaidą validacijos rinkinyje ir sustabdyti treniravimą, kai validacijos klaida pradeda didėti.
-- Aiškus svorių mažinimas / reguliavimas – pridėti papildomą baudos terminą prie nuostolių funkcijos už dideles svorių absoliučias vertes, kad modelis negautų labai nestabilių rezultatų
-- Modelio vidurkinimas – treniruoti kelis modelius ir tada vidurkinti rezultatus. Tai padeda sumažinti dispersiją.
-- Dropout (netiesioginis modelio vidurkinimas)
+ * Ankstyvas sustabdymas -- nuolat stebėti klaidą validacijos rinkinyje ir sustabdyti mokymą, kai validacijos klaida pradeda didėti.
+ * Aiškus svorių mažinimas / reguliavimas -- pridedant papildomą bausmę nuostolių funkcijai už dideles absoliučias svorių reikšmes, kas padeda išvengti modelio labai nestabilių rezultatų
+ * Modelių vidurkinimas -- treniruojant kelis modelius ir vidurkinant rezultatus. Tai padeda sumažinti variaciją.
+ * Droupautas (netiesioginis modelių vidurkinimas)
 
-## Optimizatoriai / Treniravimo algoritmai
+## Optimizatoriai / Mokymosi algoritmai
 
-Kitas svarbus treniravimo aspektas yra pasirinkti gerą treniravimo algoritmą. Nors klasikinis **gradientinis nusileidimas** yra pagrįstas pasirinkimas, jis kartais gali būti per lėtas arba sukelti kitų problemų.
+Kitas svarbus mokymosi aspektas yra pasirinkti tinkamą mokymo algoritmą. Nors klasikinis **gradiento nuolydis** yra racionalus pasirinkimas, jis kartais gali būti per lėtas arba sukelti kitų problemų.
 
-Giliojo mokymosi srityje naudojame **stochastinį gradientinį nusileidimą** (SGD), kuris yra gradientinis nusileidimas, taikomas mini partijoms, atsitiktinai parinktoms iš treniravimo rinkinio. Svoriai koreguojami pagal šią formulę:
+Giluminiame mokyme mes naudojame **stokastinį gradiento nuolydį** (SGD), kuris taikomas minibachams, atsitiktinai atrinktiems iš mokymo duomenų rinkinio. Svoriai koreguojami pagal šią formulę:
 
-w<sup>t+1</sup> = w<sup>t</sup> - η∇ℒ
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;&nabla;&lagran;
 
-### Inercija
+### Momentumas
 
-**Inercijos SGD** metu išlaikome dalį ankstesnių žingsnių gradiento. Tai panašu į tai, kai judame su inercija, ir gavę smūgį kita kryptimi, mūsų trajektorija nepasikeičia iš karto, bet išlaiko dalį pradinio judėjimo. Čia įvedame kitą vektorių v, kuris atspindi *greitį*:
+**momentumo SGD** metu išlaikome dalį gradientų iš ankstesnių žingsnių. Tai panašu į situaciją, kai judame inercija, ir gauname smūgį į kitą pusę, trajektorija nesikeičia iš karto, bet saugo dalį pradinių judesių. Čia įvedame kitą vektorių v, kuris atspindi *greitį*:
 
-- v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
-- w<sup>t+1</sup> = w<sup>t</sup> + v<sup>t+1</sup>
+* v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
+* w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Čia parametras γ nurodo, kiek atsižvelgiame į inerciją: γ=0 atitinka klasikinį SGD; γ=1 yra grynas judėjimo lygtis.
+Čia parametras &gamma; nurodo, kiek atsižvelgiame į inertiją: &gamma;=0 atitinka klasikinį SGD; &gamma;=1 yra grynoji judėjimo lygtis.
 
 ### Adam, Adagrad ir kt.
 
-Kadangi kiekviename sluoksnyje signalus dauginame iš tam tikros matricos W<sub>i</sub>, priklausomai nuo ||W<sub>i</sub>||, gradientas gali arba sumažėti iki beveik 0, arba augti neribotai. Tai yra sprogstančių/nykstančių gradientų problemos esmė.
+Kadangi kiekviename sluoksnyje dauginame signalus iš matricos W<sub>i</sub>, priklausomai nuo ||W<sub>i</sub>||, gradientas gali arba išnykti ir priartėti prie 0, arba nevaldomai augti. Tai yra Exploding/Vanishing Gradients problemos esmė.
 
-Vienas iš šios problemos sprendimų yra naudoti tik gradiento kryptį lygties skaičiavime ir ignoruoti absoliučią vertę, t. y.
+Vienas iš šios problemos sprendimų yra naudoti tik gradiento kryptį lygties formulėje ir ignoruoti absoliučią vertę, t. y.
 
-w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), kur ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), kur ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
 
-Šis algoritmas vadinamas **Adagrad**. Kiti algoritmai, naudojantys tą pačią idėją: **RMSProp**, **Adam**
+Šis algoritmas vadinamas **Adagrad**. Kiti su tokia pačia idėja paremti algoritmai: **RMSProp**, **Adam**
 
-> **Adam** laikomas labai efektyviu algoritmu daugeliui užduočių, todėl, jei nesate tikri, kurį naudoti – rinkitės Adam.
+> **Adam** laikomas labai efektyviu algoritmu daugeliui pritaikymų, todėl jei nesate tikri, kurį naudoti – rinkitės Adam.
 
-### Gradientų ribojimas
+### Gradientų „apkarpymas“ (clipping)
 
-Gradientų ribojimas yra aukščiau pateiktos idėjos išplėtimas. Kai ||∇ℒ|| ≤ θ, svorių optimizavimui naudojame originalų gradientą, o kai ||∇ℒ|| > θ – gradientą dalijame iš jo normos. Čia θ yra parametras, daugeliu atvejų galime imti θ=1 arba θ=10.
+Gradientų apkarpymas yra minėtos idėjos plėtinys. Kai ||&nabla;&lagran;|| &le; &theta;, laikome originalų gradientą svorio optimizavimui, o kai ||&nabla;&lagran;|| > &theta;, dalijame gradientą iš jo normos. Čia &theta; yra parametras, daugeliu atvejų galime imti &theta;=1 arba &theta;=10.
 
 ### Mokymosi greičio mažinimas
 
-Treniravimo sėkmė dažnai priklauso nuo mokymosi greičio parametro η. Logiška manyti, kad didesnės η vertės lemia greitesnį treniravimą, ko paprastai norime treniravimo pradžioje, o mažesnės η vertės leidžia tinklą tiksliau sureguliuoti. Todėl daugeliu atvejų norime mažinti η treniravimo proceso metu.
+Mokymosi sėkmė dažnai priklauso nuo mokymosi parametro &eta;. Logiška manyti, kad didesnės &eta; reikšmės leidžia greičiau mokytis, kas dažnai pageidaujama mokymosi pradžioje, o mažesnės &eta; leidžia geriau tikslinti tinklą vėliau. Todėl daugeliu atvejų norime mažinti &eta; mokymosi metu.
 
-Tai galima padaryti dauginant η iš tam tikro skaičiaus (pvz., 0.98) po kiekvienos treniravimo epochos arba naudojant sudėtingesnį **mokymosi greičio grafiką**.
+Tai galima padaryti dauginant &eta; iš tam tikro skaičiaus (pvz., 0.98) po kiekvienos mokymosi epchos arba naudojant sudėtingesnį **mokymosi greičio tvarkaraštį**.
 
-## Skirtingos tinklo architektūros
+## Skirtingos tinklų architektūros
 
-Pasirinkti tinkamą tinklo architektūrą savo problemai gali būti sudėtinga. Paprastai pasirenkame architektūrą, kuri jau pasiteisino atliekant mūsų specifinę užduotį (arba panašią). Čia yra [geras apžvalga](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) apie neuroninių tinklų architektūras kompiuterinei regai.
+Teisingos tinklo architektūros pasirinkimas jūsų problemai gali būti sudėtingas. Paprastai pasirenkama architektūra, kuri įrodė savo veiksmingumą mūsų specifinei užduočiai (ar panašiai). Štai [geras apžvalginis straipsnis](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) apie neuroninių tinklų architektūras kompiuterinei vizijai.
 
-> Svarbu pasirinkti architektūrą, kuri bus pakankamai galinga turimam treniravimo pavyzdžių skaičiui. Per galingo modelio pasirinkimas gali sukelti [perteklinį pritaikymą](../../3-NeuralNetworks/05-Frameworks/Overfitting.md).
+> Svarbu pasirinkti tokį modelį, kuris būtų pakankamai galingas turimam mokymosi pavyzdžių kiekiui. Per galingas modelis gali sukelti [perpanaudojimą](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-Kitas geras būdas yra naudoti architektūrą, kuri automatiškai prisitaikys prie reikiamo sudėtingumo. Tam tikru mastu **ResNet** architektūra ir **Inception** yra savireguliuojančios. [Daugiau apie kompiuterinės regos architektūras](../07-ConvNets/CNN_Architectures.md).
+Kitas geras būdas būtų naudoti architektūrą, kuri automatiškai prisitaiko prie reikiamo sudėtingumo. Tam tikra prasme, tokie architektūros kaip **ResNet** ir **Inception** yra savaime pritaikomos. [Daugiau apie kompiuterinės vizijos architektūras](../07-ConvNets/CNN_Architectures.md)
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Atsakomybės apribojimas**:
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba laikomas autoritetingu šaltiniu. Svarbiai informacijai rekomenduojama naudoti profesionalų žmogiškąjį vertimą. Mes neatsakome už jokius nesusipratimus ar neteisingą interpretaciją, kilusią naudojantis šiuo vertimu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
