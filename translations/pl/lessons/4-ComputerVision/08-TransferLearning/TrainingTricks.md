@@ -1,108 +1,112 @@
-# Triki w trenowaniu głębokich sieci neuronowych
+# Triki treningowe w głębokim uczeniu
 
-Wraz z pogłębianiem się sieci neuronowych, proces ich trenowania staje się coraz bardziej wymagający. Jednym z głównych problemów są tzw. [zanikające gradienty](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) lub [eksplodujące gradienty](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Ten artykuł](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) dobrze wprowadza w te zagadnienia.
+W miarę pogłębiania się sieci neuronowych, proces ich treningu staje się coraz bardziej wymagający. Jednym z głównych problemów są tak zwane [znikające gradienty](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) lub [eksplodujące gradienty](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Ten wpis](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) daje dobre wprowadzenie do tych problemów.
 
-Aby uczynić trenowanie głębokich sieci bardziej efektywnym, można zastosować kilka technik.
+Aby uczynić trening głębokich sieci bardziej efektywnym, istnieje kilka technik, które można zastosować.
 
-## Utrzymywanie wartości w rozsądnym zakresie
+## Utrzymywanie wartości w rozsądnym przedziale
 
-Aby zapewnić stabilność obliczeń numerycznych, należy upewnić się, że wszystkie wartości w sieci neuronowej mieszczą się w rozsądnym zakresie, zazwyczaj [-1..1] lub [0..1]. Nie jest to bardzo rygorystyczny wymóg, ale natura obliczeń zmiennoprzecinkowych sprawia, że wartości o różnych rzędach wielkości nie mogą być dokładnie przetwarzane razem. Na przykład, jeśli dodamy 10<sup>-10</sup> i 10<sup>10</sup>, prawdopodobnie otrzymamy 10<sup>10</sup>, ponieważ mniejsza wartość zostanie "przekształcona" do tego samego rzędu co większa, co spowoduje utratę mantysy.
+Aby obliczenia numeryczne były bardziej stabilne, chcemy upewnić się, że wszystkie wartości w naszej sieci neuronowej mieszczą się w rozsądnym zakresie, typowo [-1..1] lub [0..1]. Nie jest to bardzo ścisły wymóg, ale natura obliczeń zmiennoprzecinkowych jest taka, że wartości o różnych wielkościach nie mogą być dokładnie manipulowane razem. Na przykład, jeśli dodamy 10<sup>-10</sup> i 10<sup>10</sup>, to najprawdopodobniej otrzymamy 10<sup>10</sup>, ponieważ mniejsza wartość zostanie „przekształcona” na ten sam rząd co większa i w ten sposób część mantysy zostanie utracona.
 
-Większość funkcji aktywacji ma nieliniowości w zakresie [-1..1], dlatego sensowne jest skalowanie wszystkich danych wejściowych do zakresu [-1..1] lub [0..1].
+Większość funkcji aktywacji ma nieliniowości wokół [-1..1], więc sensowne jest skalowanie wszystkich danych wejściowych do przedziału [-1..1] lub [0..1].
 
 ## Inicjalizacja wag
 
-Idealnie, chcemy, aby wartości pozostawały w tym samym zakresie po przejściu przez warstwy sieci. Dlatego ważne jest, aby inicjalizować wagi w taki sposób, aby zachować rozkład wartości.
+Idealnie chcemy, aby wartości znajdowały się w tym samym zakresie po przejściu przez warstwy sieci. Dlatego ważne jest, aby inicjalizować wagi w taki sposób, aby zachować rozkład wartości.
 
-Rozkład normalny **N(0,1)** nie jest dobrym pomysłem, ponieważ jeśli mamy *n* wejść, odchylenie standardowe wyjścia wynosiłoby *n*, a wartości prawdopodobnie wyjdą poza zakres [0..1].
+Rozkład normalny **N(0,1)** nie jest dobrym pomysłem, ponieważ jeśli mamy *n* wejść, odchylenie standardowe na wyjściu wyniesie *&radic;n*, a wartości mogą wyjść poza przedział [0..1].
 
-Często stosowane inicjalizacje to:
+Często stosuje się następujące inicjalizacje:
 
  * Rozkład jednostajny -- `uniform`
  * **N(0,1/n)** -- `gaussian`
- * **N(0,1/√n_in)** gwarantuje, że dla wejść o średniej zero i odchyleniu standardowym równym 1, te same parametry zostaną zachowane
- * **N(0,√2/(n_in+n_out))** -- tzw. **inicjalizacja Xaviera** (`glorot`), która pomaga utrzymać sygnały w zakresie zarówno podczas propagacji w przód, jak i wstecz
+ * **N(0,1/&radic;n_in)** gwarantuje, że dla danych wejściowych o zerowej średniej i odchyleniu standardowym 1, średnia i odchylenie pozostaną takie same
+ * **N(0,&radic;2/(n_in+n_out))** -- tzw. **inicjalizacja Xaviera** (`glorot`), pomaga utrzymać sygnały w zakresie podczas propagacji w przód i wstecz
 
 ## Normalizacja wsadowa
 
-Nawet przy odpowiedniej inicjalizacji wag, wagi mogą podczas trenowania przyjmować dowolnie duże lub małe wartości, co powoduje, że sygnały wychodzą poza właściwy zakres. Możemy przywrócić sygnały do odpowiedniego zakresu, stosując jedną z technik **normalizacji**. Chociaż istnieje kilka takich technik (normalizacja wag, normalizacja warstwowa), najczęściej stosowana jest normalizacja wsadowa.
+Nawet przy właściwej inicjalizacji wag, ich wartości mogą stać się bardzo duże lub bardzo małe podczas treningu, co powoduje wyjście sygnałów poza odpowiedni zakres. Możemy przywrócić sygnały do właściwego zakresu stosując jedną z technik **normalizacji**. Chociaż istnieje ich kilka (Weight normalization, Layer Normalization), najczęściej stosowana jest normalizacja wsadowa (Batch Normalization).
 
-Idea **normalizacji wsadowej** polega na uwzględnieniu wszystkich wartości w minibatchu i przeprowadzeniu normalizacji (tj. odjęciu średniej i podzieleniu przez odchylenie standardowe) na podstawie tych wartości. Jest to implementowane jako warstwa sieci, która wykonuje tę normalizację po zastosowaniu wag, ale przed funkcją aktywacji. W rezultacie możemy uzyskać wyższą końcową dokładność i szybsze trenowanie.
+Idea **normalizacji wsadowej** polega na uwzględnieniu wszystkich wartości w minibatchu oraz wykonaniu normalizacji (tzn. odjęcia średniej i podzielenia przez odchylenie standardowe) na podstawie tych wartości. Jest ona zaimplementowana jako warstwa sieci wykonująca normalizację po zastosowaniu wag, ale przed funkcją aktywacji. W rezultacie zazwyczaj obserwujemy wyższą końcową dokładność i szybszy trening.
 
-Oto [oryginalny artykuł](https://arxiv.org/pdf/1502.03167.pdf) na temat normalizacji wsadowej, [wyjaśnienie na Wikipedii](https://en.wikipedia.org/wiki/Batch_normalization) oraz [dobry wprowadzający artykuł](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (i [wersja po rosyjsku](https://habrahabr.ru/post/309302/)).
+Oto [oryginalny artykuł](https://arxiv.org/pdf/1502.03167.pdf) o normalizacji wsadowej, [wyjaśnienie na Wikipedii](https://en.wikipedia.org/wiki/Batch_normalization) oraz [dobry wprowadzający wpis na blogu](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (oraz wersja [po rosyjsku](https://habrahabr.ru/post/309302/)).
 
 ## Dropout
 
-**Dropout** to ciekawa technika, która usuwa pewien procent losowych neuronów podczas trenowania. Jest to również implementowane jako warstwa z jednym parametrem (procent neuronów do usunięcia, zazwyczaj 10%-50%), a podczas trenowania zeruje losowe elementy wektora wejściowego przed przekazaniem go do kolejnej warstwy.
+**Dropout** to ciekawa technika polegająca na usunięciu pewnego procentu losowych neuronów podczas treningu. Jest zaimplementowana jako warstwa z jednym parametrem (procent neuronów do usunięcia, zazwyczaj 10%-50%), która podczas treningu zeruje losowe elementy wektora wejściowego, zanim przekaże go dalej.
 
-Choć może to brzmieć dziwnie, efekt dropout można zobaczyć podczas trenowania klasyfikatora cyfr MNIST w notatniku [`Dropout.ipynb`](../../../../../lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb). Przyspiesza on trenowanie i pozwala osiągnąć wyższą dokładność w mniejszej liczbie epok.
+Choć może to brzmieć dziwnie, efekt dropout można zobaczyć na przykładzie klasyfikatora cyfr MNIST w notatniku [`Dropout.ipynb`](Dropout.ipynb). Przyspiesza on trening i pozwala osiągnąć wyższą dokładność w mniejszej liczbie epok.
 
-Efekt ten można wyjaśnić na kilka sposobów:
+Ten efekt da się wyjaśnić na kilka sposobów:
 
- * Można to uznać za losowy czynnik szokujący dla modelu, który wyprowadza optymalizację z lokalnego minimum
- * Można to traktować jako *implicit model averaging*, ponieważ można powiedzieć, że podczas dropout trenujemy nieco inny model
+ * Można go uważać za losowy czynnik szokujący model, który wyciąga optymalizację z lokalnego minimum
+ * Można go rozpatrywać jako *niejawne uśrednianie modelu*, ponieważ można powiedzieć, że podczas dropout trenujemy nieco inny model
 
-> *Niektórzy twierdzą, że gdy osoba pod wpływem alkoholu próbuje się czegoś nauczyć, zapamięta to lepiej następnego ranka w porównaniu z osobą trzeźwą, ponieważ mózg z pewnymi "niedziałającymi" neuronami lepiej dostosowuje się do uchwycenia sensu. Nigdy nie testowaliśmy tego sami, czy to prawda.*
+> *Niektórzy mówią, że gdy pijany człowiek stara się czegoś nauczyć, rano zapamiętuje to lepiej niż trzeźwy, ponieważ mózg z częściowo niesprawnymi neuronami stara się lepiej przyswoić znaczenie. Sami nigdy tego nie testowaliśmy.*
 
 ## Zapobieganie przeuczeniu
 
-Jednym z bardzo ważnych aspektów głębokiego uczenia jest umiejętność zapobiegania [przeuczeniu](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Chociaż może być kuszące użycie bardzo potężnego modelu sieci neuronowej, zawsze należy zrównoważyć liczbę parametrów modelu z liczbą próbek treningowych.
+Jednym z bardzo ważnych aspektów głębokiego uczenia jest możliwość zapobiegania [przeuczeniu](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Choć może kusić użycie bardzo potężnego modelu sieci neuronowej, zawsze powinniśmy wyważyć liczbę parametrów modelu z liczbą próbek treningowych.
 
-> Upewnij się, że rozumiesz koncepcję [przeuczenia](../../3-NeuralNetworks/05-Frameworks/Overfitting.md), którą wcześniej omówiliśmy!
+> Upewnij się, że rozumiesz pojęcie [przeuczenia](../../3-NeuralNetworks/05-Frameworks/Overfitting.md), które przedstawiliśmy wcześniej!
 
 Istnieje kilka sposobów zapobiegania przeuczeniu:
 
- * Wczesne zatrzymanie -- ciągłe monitorowanie błędu na zbiorze walidacyjnym i zatrzymanie trenowania, gdy błąd walidacyjny zaczyna rosnąć.
- * Jawne zanikanie wag / Regularizacja -- dodanie dodatkowej kary do funkcji straty za wysokie wartości bezwzględne wag, co zapobiega uzyskiwaniu przez model bardzo niestabilnych wyników
- * Uśrednianie modeli -- trenowanie kilku modeli i następnie uśrednianie wyników. Pomaga to zminimalizować wariancję.
- * Dropout (Implicit Model Averaging)
+ * Wczesne zatrzymanie -- ciągłe monitorowanie błędu na zbiorze walidacyjnym i zatrzymanie treningu, gdy błąd walidacyjny zaczyna rosnąć.
+ * Jawny rozkład wag / regularyzacja -- dodanie dodatkowej kary do funkcji straty za duże wartości wag, co zapobiega bardzo niestabilnym wynikom modelu
+ * Uśrednianie modeli -- trenowanie kilku modeli i uśrednianie wyników. Pomaga to zminimalizować wariancję.
+ * Dropout (niejawne uśrednianie modeli)
 
-## Optymalizatory / Algorytmy trenowania
+## Optymalizatory / Algorytmy treningowe
 
-Kolejnym ważnym aspektem trenowania jest wybór odpowiedniego algorytmu trenowania. Chociaż klasyczny **gradient descent** jest rozsądnym wyborem, czasami może być zbyt wolny lub prowadzić do innych problemów.
+Kolejnym ważnym aspektem treningu jest wybór dobrego algorytmu trenowania. Klasyczny **spadek gradientu** jest rozsądnym wyborem, ale czasem może być zbyt wolny lub powodować inne problemy.
 
-W głębokim uczeniu stosujemy **Stochastic Gradient Descent** (SGD), czyli gradient descent stosowany do minibatchy, losowo wybranych ze zbioru treningowego. Wagi są dostosowywane za pomocą tego wzoru:
+W głębokim uczeniu stosujemy **Stochastic Gradient Descent** (SGD), czyli spadek gradientu stosowany do minibatchy losowo wybranych ze zbioru treningowego. Wagi są aktualizowane według wzoru:
 
-w<sup>t+1</sup> = w<sup>t</sup> - η∇ℒ
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;&nabla;&lagran;
 
 ### Momentum
 
-W **momentum SGD** przechowujemy część gradientu z poprzednich kroków. Jest to podobne do sytuacji, gdy poruszamy się z bezwładnością, a następnie otrzymujemy impuls w innym kierunku – nasza trajektoria nie zmienia się natychmiast, ale zachowuje część pierwotnego ruchu. Wprowadzamy tutaj dodatkowy wektor v, który reprezentuje *prędkość*:
+W **momentum SGD** zachowujemy część gradientu z poprzednich kroków. Jest to podobne do ruchu z bezwładnością - jeśli idziemy w którąś stronę i dostajemy uderzenie z innej strony, nasza trajektoria nie zmienia się od razu, lecz zachowuje część pierwotnego ruchu. Wprowadzamy tutaj dodatkowy wektor v, reprezentujący *prędkość*:
 
-* v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
+* v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
 * w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Parametr γ wskazuje, w jakim stopniu uwzględniamy bezwładność: γ=0 odpowiada klasycznemu SGD; γ=1 to czysta równanie ruchu.
+Parametr &gamma; wskazuje, w jakim stopniu bierzemy pod uwagę bezwładność: &gamma;=0 odpowiada klasycznemu SGD, &gamma;=1 to czyste równanie ruchu.
 
-### Adam, Adagrad, itd.
+### Adam, Adagrad itd.
 
-Ponieważ w każdej warstwie mnożymy sygnały przez pewną macierz W<sub>i</sub>, w zależności od ||W<sub>i</sub>|| gradient może albo zanikać i być bliski 0, albo rosnąć w nieskończoność. To istota problemu eksplodujących/zanikających gradientów.
+Ponieważ na każdej warstwie mnożymy sygnały przez macierz W<sub>i</sub>, w zależności od ||W<sub>i</sub>|| gradient może maleć i zbliżać się do 0 albo rosnąć w nieskończoność. To jest istota problemu Eksplodujących/Znikających gradientów.
 
-Jednym z rozwiązań tego problemu jest użycie jedynie kierunku gradientu w równaniu, ignorując jego wartość bezwzględną, tj.
+Jednym z rozwiązań tego problemu jest używanie tylko kierunku gradientu w równaniu, zignorowanie wartości bezwzględnej, tzn.
 
-w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), gdzie ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), gdzie ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
 
-Ten algorytm nazywa się **Adagrad**. Inne algorytmy wykorzystujące podobną ideę: **RMSProp**, **Adam**
+Ten algorytm nazywa się **Adagrad**. Inne algorytmy stosujące tę samą ideę to: **RMSProp**, **Adam**
 
-> **Adam** jest uważany za bardzo efektywny algorytm w wielu zastosowaniach, więc jeśli nie jesteś pewien, którego użyć - wybierz Adam.
+> **Adam** uważany jest za bardzo efektywny algorytm do wielu zastosowań, więc jeśli nie wiesz, którego użyć – skorzystaj z Adama.
 
-### Gradient clipping
+### Ograniczanie gradientu
 
-Gradient clipping to rozszerzenie powyższej idei. Gdy ||∇ℒ|| ≤ θ, uwzględniamy oryginalny gradient w optymalizacji wag, a gdy ||∇ℒ|| > θ - dzielimy gradient przez jego normę. Tutaj θ to parametr, w większości przypadków możemy przyjąć θ=1 lub θ=10.
+Ograniczanie gradientu jest rozszerzeniem powyższej idei. Gdy ||&nabla;&lagran;|| &le; &theta;, przyjmujemy oryginalny gradient do optymalizacji wag, a gdy ||&nabla;&lagran;|| > &theta;, dzielimy gradient przez jego normę. Parametr &theta; można zazwyczaj ustawić na 1 lub 10.
 
-### Zmniejszanie współczynnika uczenia
+### Zmniejszanie współczynnika uczenia się
 
-Sukces trenowania często zależy od parametru współczynnika uczenia η. Logiczne jest założenie, że większe wartości η prowadzą do szybszego trenowania, co jest pożądane na początku procesu, a następnie mniejsze wartości η pozwalają na dopracowanie sieci. Dlatego w większości przypadków chcemy zmniejszać η w trakcie trenowania.
+Sukces treningu często zależy od parametru współczynnika uczenia się &eta;. Logicznie można założyć, że większe wartości &eta; prowadzą do szybszego treningu, co jest zazwyczaj pożądane na początku, a następnie mniejsze wartości &eta; pozwalają na dokładniejsze dostrojenie sieci. Dlatego też najczęściej chcemy zmniejszać &eta; w trakcie treningu.
 
-Można to zrobić, mnożąc η przez pewną liczbę (np. 0,98) po każdej epoce trenowania lub stosując bardziej skomplikowany **harmonogram współczynnika uczenia**.
+Można to zrobić, mnożąc &eta; przez pewną liczbę (np. 0.98) po każdej epoce treningu lub stosując bardziej skomplikowany **harmonogram zmiany współczynnika uczenia się**.
 
 ## Różne architektury sieci
 
-Wybór odpowiedniej architektury sieci dla danego problemu może być trudny. Zazwyczaj wybieramy architekturę, która sprawdziła się w naszym konkretnym zadaniu (lub podobnym). Oto [dobry przegląd](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) architektur sieci neuronowych dla wizji komputerowej.
+Dobór odpowiedniej architektury sieci do problemu może być trudny. Zwykle wybierzemy architekturę, która sprawdziła się dla naszego konkretnego zadania (lub podobnego). Oto [dobry przegląd](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) architektur sieci neuronowych dla widzenia komputerowego.
 
-> Ważne jest, aby wybrać architekturę, która będzie wystarczająco potężna dla liczby dostępnych próbek treningowych. Wybór zbyt potężnego modelu może prowadzić do [przeuczenia](../../3-NeuralNetworks/05-Frameworks/Overfitting.md).
+> Ważne jest, aby wybrać architekturę, która będzie wystarczająco potężna dla liczby próbek treningowych, które mamy. Wybranie zbyt potężnego modelu może prowadzić do [przeuczenia](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-Innym dobrym podejściem jest użycie architektury, która automatycznie dostosowuje się do wymaganej złożoności. Do pewnego stopnia architektury takie jak **ResNet** i **Inception** są samodostosowujące. [Więcej o architekturach wizji komputerowej](../07-ConvNets/CNN_Architectures.md)
+Innym dobrym rozwiązaniem jest użycie architektury, która automatycznie dostosuje się do wymaganej złożoności. Do pewnego stopnia architektury **ResNet** i **Inception** są samodopasowujące się. [Więcej o architekturach do widzenia komputerowego](../07-ConvNets/CNN_Architectures.md)
 
-**Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż dokładamy wszelkich starań, aby tłumaczenie było precyzyjne, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za autorytatywne źródło. W przypadku informacji o kluczowym znaczeniu zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Zastrzeżenie**:
+Niniejszy dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Choć dążymy do dokładności, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub niedokładności. Oryginalny dokument w jego języku źródłowym należy uznawać za autorytatywne źródło. W przypadku informacji krytycznych zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
