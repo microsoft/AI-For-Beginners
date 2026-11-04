@@ -1,108 +1,112 @@
-# Trucuri pentru antrenarea rețelelor neuronale profunde
+# Trucuri pentru Antrenamentul în Învățarea Profundă
 
-Pe măsură ce rețelele neuronale devin mai adânci, procesul de antrenare devine din ce în ce mai dificil. Una dintre principalele probleme este așa-numita [problemă a gradientului care dispare](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) sau [gradientul exploziv](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Acest articol](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) oferă o introducere bună în aceste probleme.
+Pe măsură ce rețelele neuronale devin mai adânci, procesul de antrenament devine din ce în ce mai dificil. O problemă majoră este așa-numitul [dispariția gradientului](https://en.wikipedia.org/wiki/Vanishing_gradient_problem) sau [explozia gradientului](https://deepai.org/machine-learning-glossary-and-terms/exploding-gradient-problem#:~:text=Exploding%20gradients%20are%20a%20problem,updates%20are%20small%20and%20controlled.). [Această postare](https://towardsdatascience.com/the-vanishing-exploding-gradient-problem-in-deep-neural-networks-191358470c11) oferă o bună introducere în aceste probleme.
 
-Pentru a face antrenarea rețelelor profunde mai eficientă, există câteva tehnici care pot fi utilizate.
+Pentru a face antrenamentul rețelelor profunde mai eficient, există câteva tehnici care pot fi folosite.
 
-## Menținerea valorilor într-un interval rezonabil
+## Menținerea valorilor în interval rezonabil
 
-Pentru a face calculele numerice mai stabile, dorim să ne asigurăm că toate valorile din rețeaua noastră neuronală sunt într-o scară rezonabilă, de obicei [-1..1] sau [0..1]. Nu este o cerință foarte strictă, dar natura calculelor cu punct flotant este astfel încât valorile de magnitudini diferite nu pot fi manipulate cu precizie împreună. De exemplu, dacă adunăm 10<sup>-10</sup> și 10<sup>10</sup>, este probabil să obținem 10<sup>10</sup>, deoarece valoarea mai mică ar fi „convertită” la același ordin ca cea mai mare, iar mantisa ar fi pierdută.
+Pentru a face calculele numerice mai stabile, vrem să ne asigurăm că toate valorile din rețeaua noastră neuronală sunt în cadrul unei scale rezonabile, de obicei [-1..1] sau [0..1]. Nu este o cerință foarte strictă, dar natura calculelor în virgulă mobilă este astfel încât valorile de magnitudini diferite nu pot fi manipulate corect împreună. De exemplu, dacă adunăm 10<sup>-10</sup> și 10<sup>10</sup>, este probabil să obținem 10<sup>10</sup>, deoarece valoarea mai mică ar fi „convertită” la aceeași ordine ca cea mai mare, iar mantisa s-ar pierde.
 
-Majoritatea funcțiilor de activare au neliniarități în jurul intervalului [-1..1], așa că are sens să scalăm toate datele de intrare în intervalul [-1..1] sau [0..1].
+Majoritatea funcțiilor de activare au neliniaritati în jurul intervalului [-1..1], așadar are sens să scalăm toate datele de intrare în intervalul [-1..1] sau [0..1].
 
-## Inițializarea greutăților
+## Inițializarea Greutăților
 
-Ideal, dorim ca valorile să fie în același interval după trecerea prin straturile rețelei. Prin urmare, este important să inițializăm greutățile astfel încât să păstrăm distribuția valorilor.
+Ideal, vrem ca valorile să rămână în aceeași gamă după ce trec prin straturile rețelei. De aceea este important să inițializăm greutățile astfel încât să se păstreze distribuția valorilor.
 
-Distribuția normală **N(0,1)** nu este o idee bună, deoarece dacă avem *n* intrări, deviația standard a ieșirii ar fi *n*, iar valorile ar putea să iasă din intervalul [0..1].
+Distribuția normală **N(0,1)** nu este o idee bună, pentru că dacă avem *n* intrări, deviația standard a ieșirii va fi *&radic;n*, iar valorile vor sări probabil din afara intervalului [0..1].
 
-Următoarele metode de inițializare sunt adesea utilizate:
+Următoarele inițializări sunt des folosite:
 
  * Distribuție uniformă -- `uniform`
  * **N(0,1/n)** -- `gaussian`
- * **N(0,1/√n_in)** garantează că pentru intrări cu medie zero și deviație standard de 1, aceeași medie/deviație standard va rămâne
- * **N(0,√2/(n_in+n_out))** -- așa-numita **inițializare Xavier** (`glorot`), care ajută la menținerea semnalelor în interval în timpul propagării înainte și înapoi
+ * **N(0,1/&radic;n_in)** garantează că pentru intrări cu medie zero și deviație standard 1 va rămâne aceeași medie/deviație standard
+ * **N(0,&radic;2/(n_in+n_out))** -- așa-numita **inițializare Xavier** (`glorot`), ajută să menținem semnalele în interval în timpul propagării înainte și înapoi
 
-## Normalizarea pe loturi (Batch Normalization)
+## Normalizarea Batch
 
-Chiar și cu o inițializare corectă a greutăților, acestea pot deveni arbitrar de mari sau mici în timpul antrenării, ceea ce va scoate semnalele din intervalul potrivit. Putem readuce semnalele în interval folosind una dintre tehnicile de **normalizare**. Deși există mai multe (Normalizarea greutăților, Normalizarea pe strat), cea mai utilizată este Normalizarea pe loturi.
+Chiar și cu o inițializare corectă a greutăților, acestea pot deveni arbitrar mari sau mici în timpul antrenamentului, ducând semnalele în afara intervalului potrivit. Putem readuce semnalele în interval utilizând una dintre tehnicile de **normalizare**. Deși există mai multe dintre ele (Normalizarea greutăților, Normalizarea stratului), cea mai des folosită este Normalizarea Batch.
 
-Ideea **normalizării pe loturi** este de a lua în considerare toate valorile din lotul de date și de a efectua normalizarea (adică scăderea mediei și împărțirea la deviația standard) pe baza acestor valori. Este implementată ca un strat al rețelei care face această normalizare după aplicarea greutăților, dar înainte de funcția de activare. Ca rezultat, este probabil să obținem o acuratețe finală mai mare și o antrenare mai rapidă.
+Ideea **normalizării batch** este să ținem cont de toate valorile din minibatch și să efectuăm normalizarea (adică scădem media și împărțim la deviația standard) pe baza acestor valori. Este implementată ca un strat în rețea care face această normalizare după aplicarea greutăților, dar înainte de funcția de activare. Ca rezultat, este probabil să obținem o acuratețe finală mai mare și un antrenament mai rapid.
 
-Iată [lucrarea originală](https://arxiv.org/pdf/1502.03167.pdf) despre normalizarea pe loturi, [explicația de pe Wikipedia](https://en.wikipedia.org/wiki/Batch_normalization) și [un articol introductiv bun](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (și unul [în rusă](https://habrahabr.ru/post/309302/)).
+Iată [lucrarea originală](https://arxiv.org/pdf/1502.03167.pdf) despre normalizarea batch, [explicația de pe Wikipedia](https://en.wikipedia.org/wiki/Batch_normalization), și [o bună postare introductivă pe blog](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338) (și una [în limba rusă](https://habrahabr.ru/post/309302/)).
 
 ## Dropout
 
-**Dropout** este o tehnică interesantă care elimină un anumit procent de neuroni aleatori în timpul antrenării. Este implementată ca un strat cu un parametru (procentul de neuroni de eliminat, de obicei 10%-50%), iar în timpul antrenării, elimină aleatoriu elemente din vectorul de intrare, înainte de a-l transmite stratului următor.
+**Dropout** este o tehnică interesantă care elimină un procentaj aleator de neuroni în timpul antrenamentului. Este, de asemenea, implementată ca un strat cu un parametru (procentul de neuroni de eliminat, în mod tipic 10%-50%), și în timpul antrenamentului setă random elementele vectorului de intrare la zero, înainte de a le trece la stratul următor.
 
-Deși poate suna ca o idee ciudată, puteți vedea efectul dropout-ului asupra antrenării unui clasificator de cifre MNIST în notebook-ul [`Dropout.ipynb`](../../../../../lessons/4-ComputerVision/08-TransferLearning/Dropout.ipynb). Aceasta accelerează antrenarea și ne permite să obținem o acuratețe mai mare în mai puține epoci de antrenare.
+Deși poate părea o idee ciudată, poți vedea efectul dropout asupra antrenamentului unui clasificator de cifre MNIST în notebook-ul [`Dropout.ipynb`](Dropout.ipynb). Reduce timpul de antrenament și permite obținerea unei acurateți mai mari cu mai puține epoci de antrenament.
 
 Acest efect poate fi explicat în mai multe moduri:
 
- * Poate fi considerat un factor de șoc aleatoriu pentru model, care scoate optimizarea dintr-un minim local
- * Poate fi considerat ca o *mediere implicită a modelului*, deoarece putem spune că în timpul dropout-ului antrenăm un model ușor diferit
+ * Poate fi considerat un factor aleatoriu de șoc pentru model, care scoate optimizarea dintr-un minim local
+ * Poate fi considerat *media implicită a modelelor*, pentru că putem spune că în timpul dropout antrenăm modele ușor diferite
 
-> *Unii oameni spun că atunci când o persoană beată încearcă să învețe ceva, își va aminti mai bine a doua zi dimineață, comparativ cu o persoană trează, deoarece un creier cu câțiva neuroni disfuncționali încearcă să se adapteze mai bine pentru a înțelege sensul. Nu am testat noi înșine dacă acest lucru este adevărat sau nu.*
+> *Unii spun că atunci când o persoană beată încearcă să învețe ceva, va reține mai bine dimineața următoare decât o persoană trează, pentru că creierul cu câțiva neuroni disfuncționali încearcă să se adapteze mai bine pentru a înțelege sensul. Nu am testat niciodată dacă acest lucru este adevărat sau nu*
 
-## Prevenirea supraînvățării (overfitting)
+## Prevenirea supraspecializării
 
-Unul dintre aspectele foarte importante ale învățării profunde este să putem preveni [supraînvățarea](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Deși poate fi tentant să folosim un model de rețea neuronală foarte puternic, ar trebui să echilibrăm întotdeauna numărul de parametri ai modelului cu numărul de mostre de antrenare.
+Unul dintre aspectele foarte importante în învățarea profundă este să putem preveni [supraspecializarea](../../3-NeuralNetworks/05-Frameworks/Overfitting.md). Deși poate fi tentant să folosim un model de rețea neuronală foarte puternic, trebuie să echilibrăm întotdeauna numărul de parametri ai modelului cu numărul de eșantioane de antrenament.
 
-> Asigurați-vă că înțelegeți conceptul de [supraînvățare](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) pe care l-am introdus anterior!
+> Asigură-te că înțelegi conceptul de [supraspecializare](../../3-NeuralNetworks/05-Frameworks/Overfitting.md) pe care l-am introdus anterior!
 
-Există mai multe modalități de a preveni supraînvățarea:
+Există mai multe moduri de a preveni supraspecializarea:
 
- * Oprirea timpurie -- monitorizarea continuă a erorii pe setul de validare și oprirea antrenării atunci când eroarea de validare începe să crească.
- * Penalizare explicită a greutăților / Regularizare -- adăugarea unei penalizări suplimentare la funcția de pierdere pentru valorile absolute mari ale greutăților, ceea ce previne obținerea unor rezultate foarte instabile
- * Medierea modelului -- antrenarea mai multor modele și apoi medierea rezultatului. Acest lucru ajută la minimizarea variației.
- * Dropout (Mediere implicită a modelului)
+ * Oprire timpurie -- monitorizează continuu eroarea pe setul de validare și oprește antrenamentul când eroarea pe validare începe să crească.
+ * Decădere explicită a greutăților / Regularizare -- adăugarea unei penalități suplimentare funcției de pierdere pentru valorile absolute mari ale greutăților, ceea ce previne ca modelul să dea rezultate foarte instabile
+ * Medierea modelului -- antrenarea mai multor modele și apoi media rezultatelor. Aceasta ajută la minimizarea variației.
+ * Dropout (media implicită a modelelor)
 
-## Optimizatori / Algoritmi de antrenare
+## Optimizatori / Algoritmi de Antrenament
 
-Un alt aspect important al antrenării este alegerea unui algoritm de antrenare bun. Deși **descendentul gradientului** clasic este o alegere rezonabilă, poate fi uneori prea lent sau poate duce la alte probleme.
+Un alt aspect important al antrenamentului este să alegem un algoritm de antrenament bun. Deși **gradientul descendent** clasic este o alegere rezonabilă, uneori poate fi prea lent sau poate duce la alte probleme.
 
-În învățarea profundă, folosim **Descendentul Gradientului Stocastic** (SGD), care este un descendent al gradientului aplicat pe loturi mici, selectate aleatoriu din setul de antrenare. Greutățile sunt ajustate folosind această formulă:
+În învățarea profundă, folosim **Gradientul Descendent Stocastic** (SGD), care este gradient descendent aplicat pe minibatch-uri, alese aleatoriu din setul de antrenament. Greutățile sunt ajustate folosind această formulă:
 
-w<sup>t+1</sup> = w<sup>t</sup> - η∇ℒ
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;&nabla;&lagran;
 
 ### Momentum
 
-În **SGD cu momentum**, păstrăm o parte din gradientul pașilor anteriori. Este similar cu situația în care ne deplasăm undeva cu inerție, iar dacă primim un impuls într-o direcție diferită, traiectoria noastră nu se schimbă imediat, ci păstrează o parte din mișcarea inițială. Aici introducem un alt vector v pentru a reprezenta *viteza*:
+În **momentum SGD**, păstrăm o parte din gradientul pașilor anteriori. Este similar cu situația când ne mișcăm undeva cu inerție și primim o lovitură în direcție diferită; traiectoria noastră nu se schimbă imediat, ci păstrează o parte din mișcarea inițială. Aici introducem un alt vector v pentru a reprezenta *viteza*:
 
-* v<sup>t+1</sup> = γ v<sup>t</sup> - η∇ℒ
+* v<sup>t+1</sup> = &gamma; v<sup>t</sup> - &eta;&nabla;&lagran;
 * w<sup>t+1</sup> = w<sup>t</sup>+v<sup>t+1</sup>
 
-Aici, parametrul γ indică măsura în care luăm în considerare inerția: γ=0 corespunde cu SGD clasic; γ=1 este o ecuație pură a mișcării.
+Parametrul &gamma; indică măsura în care ținem cont de inerție: &gamma;=0 corespunde SGD clasic; &gamma;=1 este o ecuație pură a mișcării.
 
 ### Adam, Adagrad, etc.
 
-Deoarece în fiecare strat înmulțim semnalele cu o matrice W<sub>i</sub>, în funcție de ||W<sub>i</sub>||, gradientul poate fie să dispară și să fie aproape de 0, fie să crească la infinit. Aceasta este esența problemei Gradientelor Explozive/Disparente.
+Deoarece în fiecare strat multiplicăm semnalele cu o matrice W<sub>i</sub>, în funcție de ||W<sub>i</sub>||, gradientul poate fie să scadă și să se apropie de 0, fie să crească la infinit. Aceasta este esența problemei Exploding/Vanishing Gradients.
 
-Una dintre soluțiile acestei probleme este să folosim doar direcția gradientului în ecuație și să ignorăm valoarea absolută, adică:
+Una dintre soluțiile acestei probleme este să folosim doar direcția gradientului în ecuație și să ignorăm valoarea absolută, adică
 
-w<sup>t+1</sup> = w<sup>t</sup> - η(∇ℒ/||∇ℒ||), unde ||∇ℒ|| = √∑(∇ℒ)<sup>2</sup>
+w<sup>t+1</sup> = w<sup>t</sup> - &eta;(&nabla;&lagran;/||&nabla;&lagran;||), unde ||&nabla;&lagran;|| = &radic;&sum;(&nabla;&lagran;)<sup>2</sup>
 
 Acest algoritm se numește **Adagrad**. Alte algoritme care folosesc aceeași idee: **RMSProp**, **Adam**
 
-> **Adam** este considerat a fi un algoritm foarte eficient pentru multe aplicații, așa că dacă nu sunteți sigur ce să folosiți - folosiți Adam.
+> **Adam** este considerat a fi un algoritm foarte eficient pentru multe aplicații, deci dacă nu știi care să folosești - folosește Adam.
 
-### Gradient clipping
+### Limitarea gradientului (Gradient clipping)
 
-Gradient clipping este o extensie a ideii de mai sus. Când ||∇ℒ|| ≤ θ, considerăm gradientul original în optimizarea greutății, iar când ||∇ℒ|| > θ - împărțim gradientul la norma sa. Aici θ este un parametru, în majoritatea cazurilor putem lua θ=1 sau θ=10.
+Limitarea gradientului este o extensie a ideii de mai sus. Când ||&nabla;&lagran;|| &le; &theta;, considerăm gradientul original în optimizarea greutăților, iar când ||&nabla;&lagran;|| > &theta; - împărțim gradientul la norma sa. Aici &theta; este un parametru, în cele mai multe cazuri putem lua &theta;=1 sau &theta;=10.
 
-### Reducerea ratei de învățare
+### Decăderea ratei de învățare
 
-Succesul antrenării depinde adesea de parametrul ratei de învățare η. Este logic să presupunem că valorile mai mari ale lui η duc la o antrenare mai rapidă, ceea ce este ceva ce ne dorim de obicei la începutul antrenării, iar apoi valorile mai mici ale lui η ne permit să ajustăm fin rețeaua. Astfel, în majoritatea cazurilor dorim să reducem η pe parcursul antrenării.
+Succesul antrenamentului depinde adesea de parametrul ratei de învățare &eta;. Este logic să presupunem că valori mai mari ale lui &eta; duc la un antrenament mai rapid, ceea ce de obicei vrem la începutul antrenamentului, iar valorile mai mici ale &eta; ne permit să reglăm fin rețeaua. Astfel, în majoritatea cazurilor vrem să scădem &eta; pe parcursul antrenamentului.
 
-Acest lucru poate fi realizat prin înmulțirea lui η cu un număr (de exemplu, 0.98) după fiecare epocă de antrenare sau prin utilizarea unui **program de reducere a ratei de învățare** mai complicat.
+Acest lucru se poate face prin înmulțirea lui &eta; cu un număr (de ex. 0.98) după fiecare epocă de antrenament, sau prin utilizarea unui **program mai complicat al ratei de învățare**.
 
-## Diferite arhitecturi de rețele
+## Diferite Arhitecturi de Rețele
 
-Selectarea arhitecturii potrivite pentru problema dvs. poate fi dificilă. De obicei, alegem o arhitectură care s-a dovedit a funcționa pentru sarcina noastră specifică (sau una similară). Iată o [prezentare generală bună](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) a arhitecturilor de rețele neuronale pentru viziunea computerizată.
+Alegerea arhitecturii corecte a rețelei pentru problema ta poate fi dificilă. Normal, am alege o arhitectură care a demonstrat că funcționează pentru sarcina noastră specifică (sau una similară). Iată o [bună prezentare generală](https://www.topbots.com/a-brief-history-of-neural-network-architectures/) a arhitecturilor de rețele neuronale pentru viziune computerizată.
 
-> Este important să selectați o arhitectură care să fie suficient de puternică pentru numărul de mostre de antrenare pe care le avem. Alegerea unui model prea puternic poate duce la [supraînvățare](../../3-NeuralNetworks/05-Frameworks/Overfitting.md).
+> Este important să alegi o arhitectură care va fi suficient de puternică pentru numărul de eșantioane de antrenament pe care le ai. Alegerea unui model prea puternic poate rezulta în [supraspecializare](../../3-NeuralNetworks/05-Frameworks/Overfitting.md)
 
-O altă metodă bună ar fi utilizarea unei arhitecturi care se ajustează automat la complexitatea necesară. Într-o anumită măsură, arhitecturile **ResNet** și **Inception** sunt auto-ajustabile. [Mai multe despre arhitecturile pentru viziunea computerizată](../07-ConvNets/CNN_Architectures.md).
+Un alt mod bun ar fi să folosim o arhitectură care se ajustează automat la complexitatea necesară. În oarecare măsură, arhitectura **ResNet** și **Inception** sunt autoajustabile. [Mai multe despre arhitecturile pentru viziunea computerizată](../07-ConvNets/CNN_Architectures.md)
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Declinare a responsabilității**:
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). În timp ce ne străduim pentru acuratețe, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa nativă trebuie considerat sursa autorizată. Pentru informații critice, se recomandă traducerea profesională realizată de un om. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care decurg din utilizarea acestei traduceri.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
