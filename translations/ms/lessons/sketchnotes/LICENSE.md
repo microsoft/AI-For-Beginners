@@ -1,149 +1,434 @@
-Hak Cipta Creative Commons Attribution-ShareAlike 4.0 Antarabangsa
+Atribusi-KongsiSerupa 4.0 Antarabangsa
 
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") bukan firma guaman dan tidak menyediakan perkhidmatan atau nasihat undang-undang. Pengedaran lesen awam Creative Commons tidak mewujudkan hubungan peguam-pelanggan atau hubungan lain. Creative Commons menyediakan lesen dan maklumat berkaitan secara "seadanya". Creative Commons tidak memberikan jaminan berkaitan lesen mereka, bahan yang dilesenkan di bawah terma dan syarat mereka, atau maklumat berkaitan. Creative Commons menafikan semua tanggungjawab terhadap kerosakan yang timbul daripada penggunaannya sejauh mana yang dibenarkan.
+Creative Commons Corporation ("Creative Commons") bukan firma undang-undang dan
+tidak menyediakan perkhidmatan undang-undang atau nasihat undang-undang. Pengedaran
+lesen awam Creative Commons tidak mewujudkan hubungan peguam-pelanggan atau
+hubungan lain. Creative Commons menyediakan lesen dan maklumat berkaitan
+berdasarkan "seadanya". Creative Commons tidak memberi
+jaminan mengenai lesen-lesen, mana-mana bahan yang dilesenkan di bawah
+terma dan syaratnya, atau mana-mana maklumat berkaitan. Creative Commons
+menafikan semua liabiliti untuk kerosakan yang timbul daripada penggunaannya
+sejauh yang boleh dilakukan.
 
 Menggunakan Lesen Awam Creative Commons
 
-Lesen awam Creative Commons menyediakan satu set terma dan syarat standard yang boleh digunakan oleh pencipta dan pemegang hak lain untuk berkongsi karya asli dan bahan lain yang tertakluk kepada hak cipta serta hak tertentu lain yang dinyatakan dalam lesen awam di bawah. Pertimbangan berikut adalah untuk tujuan maklumat sahaja, tidak lengkap, dan bukan sebahagian daripada lesen kami.
+Lesen awam Creative Commons menyediakan set terma dan syarat standard yang
+boleh digunakan oleh pencipta dan pemegang hak lain untuk berkongsi
+karya asli dan bahan lain yang tertakluk kepada hak cipta
+dan beberapa hak lain tertentu yang ditetapkan dalam lesen awam di bawah. 
+Pertimbangan berikut adalah untuk tujuan maklumat sahaja, tidak
+lengkap, dan tidak menjadi sebahagian daripada lesen kami.
 
-     Pertimbangan untuk pemberi lesen: Lesen awam kami bertujuan untuk digunakan oleh mereka yang diberi kuasa untuk memberikan kebenaran kepada orang awam untuk menggunakan bahan dengan cara yang sebaliknya dihadkan oleh hak cipta dan hak tertentu lain. Lesen kami tidak boleh ditarik balik. Pemberi lesen harus membaca dan memahami terma dan syarat lesen yang mereka pilih sebelum menggunakannya. Pemberi lesen juga harus mendapatkan semua hak yang diperlukan sebelum menggunakan lesen kami supaya orang awam boleh menggunakan semula bahan seperti yang diharapkan. Pemberi lesen harus menandakan dengan jelas mana-mana bahan yang tidak tertakluk kepada lesen. Ini termasuk bahan lain yang dilesenkan oleh CC, atau bahan yang digunakan di bawah pengecualian atau batasan hak cipta. Pertimbangan lanjut untuk pemberi lesen:  
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     Pertimbangan untuk orang awam: Dengan menggunakan salah satu lesen awam kami, pemberi lesen memberikan kebenaran kepada orang awam untuk menggunakan bahan yang dilesenkan di bawah terma dan syarat tertentu. Jika kebenaran pemberi lesen tidak diperlukan atas sebarang sebab—contohnya, kerana pengecualian atau batasan hak cipta yang terpakai—maka penggunaan tersebut tidak diatur oleh lesen. Lesen kami hanya memberikan kebenaran di bawah hak cipta dan hak tertentu lain yang pemberi lesen mempunyai kuasa untuk memberikan. Penggunaan bahan yang dilesenkan mungkin masih dihadkan atas sebab lain, termasuk kerana orang lain mempunyai hak cipta atau hak lain dalam bahan tersebut. Pemberi lesen boleh membuat permintaan khas, seperti meminta semua perubahan ditandakan atau diterangkan. Walaupun tidak diwajibkan oleh lesen kami, anda digalakkan untuk menghormati permintaan tersebut jika munasabah. Pertimbangan lanjut untuk orang awam:  
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More_considerations
+     for the public:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Lesen Awam Creative Commons Attribution-ShareAlike 4.0 Antarabangsa
+Lesen Awam Creative Commons Atribusi-KongsiSerupa 4.0 Antarabangsa
 
-Dengan menggunakan Hak Dilesenkan (ditakrifkan di bawah), Anda menerima dan bersetuju untuk terikat dengan terma dan syarat Lesen Awam Creative Commons Attribution-ShareAlike 4.0 Antarabangsa ini ("Lesen Awam"). Sejauh mana Lesen Awam ini boleh ditafsirkan sebagai kontrak, Anda diberikan Hak Dilesenkan sebagai pertimbangan atas penerimaan Anda terhadap terma dan syarat ini, dan Pemberi Lesen memberikan Anda hak tersebut sebagai pertimbangan atas manfaat yang diterima oleh Pemberi Lesen daripada membuat Bahan Dilesenkan tersedia di bawah terma dan syarat ini.
 
-Bahagian 1 -- Definisi.
+untuk terikat oleh terma dan syarat Lesen Awam Creative Commons
+Atribusi-KongsiSerupa 4.0 Antarabangsa ("Lesen Awam"). Sejauh mana Lesen Awam ini
+boleh ditafsirkan sebagai kontrak, Anda diberikan Hak Berlesen sebagai pertimbangan
+penerimaan terma dan syarat ini, dan Pemberi Lesen memberi Anda
+hak tersebut sebagai pertimbangan faedah yang diterima oleh Pemberi Lesen daripada
+menyediakan Bahan Berlesen di bawah terma dan syarat ini.
 
-  a. Bahan Diadaptasi bermaksud bahan yang tertakluk kepada Hak Cipta dan Hak Serupa yang berasal daripada atau berdasarkan Bahan Dilesenkan dan di mana Bahan Dilesenkan diterjemahkan, diubah, disusun, diubah bentuk, atau diubah dengan cara lain yang memerlukan kebenaran di bawah Hak Cipta dan Hak Serupa yang dipegang oleh Pemberi Lesen. Untuk tujuan Lesen Awam ini, di mana Bahan Dilesenkan adalah karya muzik, persembahan, atau rakaman bunyi, Bahan Diadaptasi sentiasa dihasilkan apabila Bahan Dilesenkan diselaraskan dalam hubungan masa dengan imej bergerak.
 
-  b. Lesen Pengadaptasi bermaksud lesen yang Anda gunakan untuk Hak Cipta dan Hak Serupa Anda dalam sumbangan Anda kepada Bahan Diadaptasi mengikut terma dan syarat Lesen Awam ini.
+Seksyen 1 -- Takrifan.
 
-  c. Lesen Serasi BY-SA bermaksud lesen yang disenaraikan di creativecommons.org/compatiblelicenses, yang diluluskan oleh Creative Commons sebagai pada dasarnya setara dengan Lesen Awam ini.
 
-  d. Hak Cipta dan Hak Serupa bermaksud hak cipta dan/atau hak serupa yang berkait rapat dengan hak cipta termasuk, tanpa had, persembahan, penyiaran, rakaman bunyi, dan Hak Pangkalan Data Sui Generis, tanpa mengira bagaimana hak tersebut dilabel atau dikategorikan. Untuk tujuan Lesen Awam ini, hak yang dinyatakan dalam Bahagian 2(b)(1)-(2) bukanlah Hak Cipta dan Hak Serupa.
+     yang diperoleh dari atau berdasar pada Bahan Berlesen dan di mana Bahan Berlesen
 
-  e. Langkah Teknologi Berkesan bermaksud langkah-langkah yang, tanpa kuasa yang betul, tidak boleh dielakkan di bawah undang-undang yang memenuhi kewajipan di bawah Artikel 11 Perjanjian Hak Cipta WIPO yang diterima pakai pada 20 Disember 1996, dan/atau perjanjian antarabangsa yang serupa.
+     memerlukan kebenaran di bawah Hak Cipta dan Hak Serupa yang dipegang oleh
+     Pemberi Lesen. Untuk tujuan Lesen Awam ini, apabila Bahan Berlesen adalah karya muzik,
+     persembahan, atau rakaman bunyi, Bahan Diubahsuai sentiasa dihasilkan apabila
+     Bahan Berlesen diselaraskan secara masa dengan imej bergerak.
 
-  f. Pengecualian dan Batasan bermaksud penggunaan wajar, urusan wajar, dan/atau sebarang pengecualian atau batasan lain kepada Hak Cipta dan Hak Serupa yang terpakai kepada penggunaan Anda terhadap Bahan Dilesenkan.
+  b. Lesen Pengubahsuai bermaksud lesen yang Anda gunakan untuk Hak Cipta dan Hak Serupa
+     Anda dalam sumbangan Anda kepada Bahan Diubahsuai mengikut terma dan syarat Lesen Awam ini.
 
-  g. Elemen Lesen bermaksud atribut lesen yang disenaraikan dalam nama Lesen Awam Creative Commons. Elemen Lesen bagi Lesen Awam ini ialah Pengiktirafan dan KongsiSerupa.
+  c. Lesen Serasi BY-SA bermaksud lesen yang disenaraikan di
 
-  h. Bahan Dilesenkan bermaksud karya seni atau sastera, pangkalan data, atau bahan lain yang mana Pemberi Lesen menggunakan Lesen Awam ini.
+     Commons sebagai setara dengan Lesen Awam ini.
 
-  i. Hak Dilesenkan bermaksud hak yang diberikan kepada Anda tertakluk kepada terma dan syarat Lesen Awam ini, yang terhad kepada semua Hak Cipta dan Hak Serupa yang terpakai kepada penggunaan Anda terhadap Bahan Dilesenkan dan yang Pemberi Lesen mempunyai kuasa untuk melesenkan.
+  d. Hak Cipta dan Hak Serupa bermaksud hak cipta dan/atau hak yang serupa
 
-  j. Pemberi Lesen bermaksud individu atau entiti yang memberikan hak di bawah Lesen Awam ini.
+     persembahan, siaran, rakaman bunyi, dan Hak Pangkalan Data Sui Generis,
+     tanpa mengira bagaimana hak tersebut dinamakan atau dikategorikan. Untuk tujuan
+     Lesen Awam ini, hak yang disebut dalam Seksyen 2(b)(1)-(2) bukan Hak Cipta dan Hak Serupa.
 
-  k. Kongsi bermaksud menyediakan bahan kepada orang awam melalui sebarang cara atau proses yang memerlukan kebenaran di bawah Hak Dilesenkan, seperti pengeluaran semula, paparan awam, persembahan awam, pengedaran, penyebaran, komunikasi, atau pengimportan, dan membuat bahan tersedia kepada orang awam termasuk dengan cara yang membolehkan orang awam mengakses bahan tersebut dari tempat dan pada masa yang dipilih secara individu oleh mereka.
+  e. Langkah Teknologi Berkesan bermaksud langkah-langkah yang, tanpa kebenaran
+     yang sewajarnya, tidak boleh dielakkan di bawah undang-undang yang memenuhi obligasi
+     di bawah Artikel 11 Perjanjian Hak Cipta WIPO yang diadopsi pada 20 Disember 1996,
+     dan/atau perjanjian antarabangsa yang serupa.
 
-  l. Hak Pangkalan Data Sui Generis bermaksud hak selain hak cipta yang timbul daripada Arahan 96/9/EC Parlimen Eropah dan Majlis pada 11 Mac 1996 mengenai perlindungan undang-undang pangkalan data, seperti yang dipinda dan/atau digantikan, serta hak lain yang pada dasarnya setara di mana-mana sahaja di dunia.
+  f. Pengecualian dan Had bermaksud penggunaan adil, urusan adil, dan/atau
+     sebarang pengecualian atau had lain terhadap Hak Cipta dan Hak Serupa
 
-  m. Anda bermaksud individu atau entiti yang menggunakan Hak Dilesenkan di bawah Lesen Awam ini. "Anda" mempunyai makna yang sepadan.
 
-Bahagian 2 -- Skop.
+  g. Elemen Lesen bermaksud atribut lesen yang disenaraikan dalam nama
+     Lesen Awam Creative Commons. Elemen Lesen Lesen Awam ini adalah Atribusi dan KongsiSerupa.
+
+  h. Bahan Berlesen bermaksud karya seni atau sastera, pangkalan data,
+
+
+  i. Hak Berlesen bermaksud hak yang diberikan kepada Anda tertakluk kepada
+     terma dan syarat Lesen Awam ini, yang terhad kepada kesemua Hak Cipta dan Hak Serupa
+
+     kuasa pemberian lesen oleh Pemberi Lesen.
+
+  j. Pemberi Lesen bermaksud individu atau entiti yang memberi hak
+
+
+  k. Kongsi bermaksud menyediakan bahan kepada orang awam dengan apa jua cara atau
+     proses yang memerlukan kebenaran di bawah Hak Berlesen, seperti
+
+     penyebaran, komunikasi, atau pengimportan, dan menjadikan bahan
+     tersedia kepada orang awam termasuk dengan cara yang membolehkan anggota
+     orang awam mengakses bahan tersebut dari tempat dan masa yang
+     mereka pilih secara individu.
+
+  l. Hak Pangkalan Data Sui Generis bermaksud hak selain daripada hak cipta
+     di bawah Lesen Awam ini.
+
+  k. Berkongsi bermaksud menyediakan bahan kepada umum melalui apa-apa cara atau
+     proses yang memerlukan kebenaran di bawah Hak Berlesen, seperti
+     penggandaan, paparan awam, persembahan awam, pengedaran,
+     penyebaran, komunikasi, atau pengimportan, dan menjadikan bahan
+     itu tersedia kepada umum termasuk dalam cara yang membolehkan ahli
+     umum mengakses bahan itu dari suatu tempat dan pada masa
+     yang dipilih secara individu oleh mereka.
+
+  l. Hak Pangkalan Data Sui Generis bermaksud hak selain daripada hak cipta
+     yang terhasil daripada Arahan 96/9/EC Parlimen Eropah dan
+     Majlis pada 11 Mac 1996 mengenai perlindungan undang-undang bagi pangkalan data,
+     yang dipinda dan/atau digantikan, serta hak-hak lain yang secara asasnya
+     setaraf di mana-mana sahaja di dunia.
+
+  m. Anda bermaksud individu atau entiti yang menggunakan Hak Berlesen
+     di bawah Lesen Awam ini. "Milik anda" mempunyai makna yang sepadan.
+
+
+Seksyen 2 -- Skop.
 
   a. Pemberian lesen.
 
-       1. Tertakluk kepada terma dan syarat Lesen Awam ini, Pemberi Lesen dengan ini memberikan Anda lesen global, bebas royalti, tidak boleh disublesenkan, tidak eksklusif, tidak boleh ditarik balik untuk menggunakan Hak Dilesenkan dalam Bahan Dilesenkan untuk:
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
 
-            a. mengeluarkan semula dan Kongsi Bahan Dilesenkan, secara keseluruhan atau sebahagian; dan
+            a. reproduce and Share the Licensed Material, in whole or
+               in part; and
 
-            b. menghasilkan, mengeluarkan semula, dan Kongsi Bahan Diadaptasi.
+            b. produce, reproduce, and Share Adapted Material.
 
-       2. Pengecualian dan Batasan. Untuk mengelakkan keraguan, di mana Pengecualian dan Batasan terpakai kepada penggunaan Anda, Lesen Awam ini tidak terpakai, dan Anda tidak perlu mematuhi terma dan syaratnya.
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
 
-       3. Tempoh. Tempoh Lesen Awam ini dinyatakan dalam Bahagian 6(a).
+       3. Term. The term of this Public License is specified in Section
+          6(a).
 
-       4. Media dan format; pengubahsuaian teknikal dibenarkan. Pemberi Lesen memberi kuasa kepada Anda untuk menggunakan Hak Dilesenkan dalam semua media dan format sama ada yang diketahui sekarang atau yang akan datang, dan untuk membuat pengubahsuaian teknikal yang diperlukan untuk melakukannya. Pemberi Lesen mengetepikan dan/atau bersetuju untuk tidak menegaskan sebarang hak atau kuasa untuk melarang Anda daripada membuat pengubahsuaian teknikal yang diperlukan untuk menggunakan Hak Dilesenkan, termasuk pengubahsuaian teknikal yang diperlukan untuk mengelakkan Langkah Teknologi Berkesan. Untuk tujuan Lesen Awam ini, hanya membuat pengubahsuaian yang dibenarkan oleh Bahagian 2(a)(4) tidak pernah menghasilkan Bahan Diadaptasi.
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
 
-       5. Penerima seterusnya.
+       5. Downstream recipients.
 
-            a. Tawaran daripada Pemberi Lesen -- Bahan Dilesenkan. Setiap penerima Bahan Dilesenkan secara automatik menerima tawaran daripada Pemberi Lesen untuk menggunakan Hak Dilesenkan di bawah terma dan syarat Lesen Awam ini.
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
 
-            b. Tawaran tambahan daripada Pemberi Lesen -- Bahan Diadaptasi. Setiap penerima Bahan Diadaptasi daripada Anda secara automatik menerima tawaran daripada Pemberi Lesen untuk menggunakan Hak Dilesenkan dalam Bahan Diadaptasi di bawah syarat Lesen Pengadaptasi yang Anda gunakan.
+            b. Additional offer from the Licensor -- Adapted Material.
+               Every recipient of Adapted Material from You
+               automatically receives an offer from the Licensor to
+               exercise the Licensed Rights in the Adapted Material
+               under the conditions of the Adapter's License You apply.
 
-            c. Tiada sekatan penerima seterusnya. Anda tidak boleh menawarkan atau mengenakan sebarang terma atau syarat tambahan atau berbeza pada, atau menggunakan sebarang Langkah Teknologi Berkesan pada, Bahan Dilesenkan jika berbuat demikian menyekat penggunaan Hak Dilesenkan oleh mana-mana penerima Bahan Dilesenkan.
+            c. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
 
-       6. Tiada sokongan. Tiada apa-apa dalam Lesen Awam ini yang membentuk atau boleh ditafsirkan sebagai kebenaran untuk menegaskan atau menyiratkan bahawa Anda, atau bahawa penggunaan Anda terhadap Bahan Dilesenkan, berkaitan dengan, atau disokong, disahkan, atau diberikan status rasmi oleh, Pemberi Lesen atau pihak lain yang ditetapkan untuk menerima pengiktirafan seperti yang dinyatakan dalam Bahagian 3(a)(1)(A)(i).
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
 
-  b. Hak lain.
+  b. Hak-hak lain.
 
-       1. Hak moral, seperti hak integriti, tidak dilesenkan di bawah Lesen Awam ini, begitu juga hak publisiti, privasi, dan/atau hak personaliti serupa lain; walau bagaimanapun, sejauh mana yang mungkin, Pemberi Lesen mengetepikan dan/atau bersetuju untuk tidak menegaskan sebarang hak sedemikian yang dipegang oleh Pemberi Lesen sejauh yang diperlukan untuk membolehkan Anda menggunakan Hak Dilesenkan, tetapi tidak sebaliknya.
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
 
-       2. Hak paten dan tanda dagangan tidak dilesenkan di bawah Lesen Awam ini.
+       2. Patent and trademark rights are not licensed under this
+          Public License.
 
-       3. Sejauh mana yang mungkin, Pemberi Lesen mengetepikan sebarang hak untuk mengutip royalti daripada Anda untuk penggunaan Hak Dilesenkan, sama ada secara langsung atau melalui persatuan pengutip di bawah sebarang skim pelesenan sukarela atau wajib yang boleh diketepikan. Dalam semua kes lain, Pemberi Lesen secara jelas mengekalkan sebarang hak untuk mengutip royalti tersebut.
-Hak, kemudian pangkalan data di mana Anda memiliki Hak Pangkalan Data Sui Generis (tetapi bukan kandungannya secara individu) adalah Bahan Adaptasi,
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties.
 
-termasuk untuk tujuan Seksyen 3(b); dan  
-c. Anda mesti mematuhi syarat dalam Seksyen 3(a) jika Anda Berkongsi semua atau sebahagian besar kandungan pangkalan data.
 
-Untuk mengelakkan keraguan, Seksyen 4 ini melengkapi dan tidak menggantikan kewajipan Anda di bawah Lesen Awam ini di mana Hak Berlesen termasuk Hak Cipta dan Hak Serupa lainnya.
+Seksyen 3 -- Syarat-syarat Lesen.
 
----
+Penggunaan Hak Berlesen oleh anda dengan ini secara nyata tertakluk kepada
+syarat-syarat berikut.
+
+  a. Penghargaan.
+
+       1. If You Share the Licensed Material (including in modified
+          form), You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+  b. Berkongsi Serupa.
+
+     In addition to the conditions in Section 3(a), if You Share
+     Adapted Material You produce, the following conditions also apply.
+
+       1. The Adapter's License You apply must be a Creative Commons
+          license with the same License Elements, this version or
+          later, or a BY-SA Compatible License.
+
+       2. You must include the text of, or the URI or hyperlink to, the
+          Adapter's License You apply. You may satisfy this condition
+          in any reasonable manner based on the medium, means, and
+          context in which You Share Adapted Material.
+
+       3. You may not offer or impose any additional or different terms
+          or conditions on, or apply any Effective Technological
+          Measures to, Adapted Material that restrict exercise of the
+          rights granted under the Adapter's License You apply.
+
+
+Seksyen 4 -- Hak Pangkalan Data Sui Generis.
+
+Di mana Hak Berlesen termasuk Hak Pangkalan Data Sui Generis yang
+terpakai untuk penggunaan anda terhadap Bahan Berlesen:
+
+  a. untuk mengelakkan keraguan, Seksyen 2(a)(1) memberikan anda hak
+     untuk mengekstrak, menggunakan semula, memperbanyak, dan Berkongsi
+     semua atau sebahagian besar kandungan pangkalan data;
+
+  b. jika anda memasukkan semua atau sebahagian besar kandungan pangkalan data
+     dalam pangkalan data di mana anda mempunyai Hak Pangkalan Data Sui Generis,
+     maka pangkalan data di mana anda mempunyai Hak Pangkalan Data Sui Generis
+     (tetapi bukan kandungan individu) adalah Bahan Diubahsuai,
+
+     including for purposes of Section 3(b); and
+  c. Anda mesti mematuhi syarat dalam Seksyen 3(a) jika anda Berkongsi
+     semua atau sebahagian besar kandungan pangkalan data.
+
+Untuk mengelakkan keraguan, Seksyen 4 ini melengkapkan dan tidak
+menggantikan kewajipan anda di bawah Lesen Awam ini di mana Hak Berlesen
+termasuk Hak Cipta dan Hak Serupa lain.
+
 
 Seksyen 5 -- Penafian Jaminan dan Had Tanggungjawab.
 
-a. KECUALI JIKA DILAKSANAKAN SECARA BERASINGAN OLEH PEMBERI LESEN, SEJAUH MUNGKIN, PEMBERI LESEN MENAWARKAN BAHAN BERLESEN SEBAGAIMANA ADANYA DAN SEBAGAIMANA TERSEDIA, DAN TIDAK MEMBUAT SEBARANG PERNYATAAN ATAU JAMINAN DALAM APA JUA BENTUK BERKAITAN BAHAN BERLESEN, SAMA ADA SECARA TERSURAT, TERSIRAT, BERKANUN, ATAU LAINNYA. INI TERMASUK, TANPA HAD, JAMINAN HAK MILIK, KESESUAIAN UNTUK TUJUAN TERTENTU, KETIDAKLANGGARAN, KETIADAAN KECACATAN TERSEMBUNYI ATAU LAINNYA, KETEPATAN, ATAU KEHADIRAN ATAU KETIADAAN KESALAHAN, SAMA ADA DIKETAHUI ATAU BOLEH DIKESAN. DI MANA PENAFIAN JAMINAN TIDAK DIBENARKAN SEPENUHNYA ATAU SEBAHAGIAN, PENAFIAN INI MUNGKIN TIDAK BERLAKU UNTUK ANDA.
+  a. KECUALI DILAKSANAKAN SECARA BERASINGAN OLEH PEMBERI LESEN, SEHINGGA
+     SEJUMLAH TERBAIK, PEMBERI LESEN MENAWARKAN BAHAN BERLESEN SEBAGAIMANA ADA
+     DAN SEBAGAIMANA TERSEDIA, DAN TIDAK MEMBUAT PERWAKILAN ATAU JAMINAN
+     DALAM APA JUA BENTUK BERKENAAN BAHAN BERLESEN, SAMA ADA SECARA NYATA,
+     TERSIRAT, STATUTORI, ATAU LAIN-LAIN. INI TERMASUK, TANPA HAD,
+     JAMINAN HAKMILIK, KELAYAKAN UNTUK DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN
+     TERTENTU, TIDAK BERSALAH, KETIADAAN KECACATAN TERSEMBUNYI ATAU LAIN,
+     KETEPATAN, ATAU KEHADIRAN ATAU KETIADAAN RALAT, SAMA ADA DIKETAHUI
+     ATAU BOLEH DICARI. DI MANA PENAFIAN JAMINAN TIDAK DIBENARKAN SEPENUHNYA
+     ATAU SEBAHAGIAN, PENAFIAN INI MUNGKIN TIDAK BERLAKU KEPADA ANDA.
 
-b. SEJAUH MUNGKIN, DALAM APA JUA KEADAAN PEMBERI LESEN TIDAK AKAN BERTANGGUNGJAWAB KEPADA ANDA ATAS SEBARANG TEORI UNDANG-UNDANG (TERMASUK, TANPA HAD, KECUAIAN) ATAU LAINNYA UNTUK SEBARANG KERUGIAN LANGSUNG, KHAS, TIDAK LANGSUNG, SAMPINGAN, AKIBAT, PUNITIF, CONTOH, ATAU KERUGIAN LAIN, KOS, PERBELANJAAN, ATAU KEROSAKAN YANG TIMBUL DARIPADA LESEN AWAM INI ATAU PENGGUNAAN BAHAN BERLESEN, WALAUPUN PEMBERI LESEN TELAH DIMAKLUMKAN TENTANG KEMUNGKINAN KERUGIAN, KOS, PERBELANJAAN, ATAU KEROSAKAN TERSEBUT. DI MANA HAD TANGGUNGJAWAB TIDAK DIBENARKAN SEPENUHNYA ATAU SEBAHAGIAN, HAD INI MUNGKIN TIDAK BERLAKU UNTUK ANDA.
+  b. SEHINGGA SEJUMLAH TERBAIK, DALAM APA JUA KES, PEMBERI LESEN TIDAK AKAN
+     BERTANGGUNGJAWAB KEPADA ANDA ATAS SEBARANG TEORI UNDANG-UNDANG
+     (TERMASUK, TANPA HAD, KALAUCUK, KETELANTARAN) ATAU SEBALIKNYA
+     UNTUK SEBARANG KERUGIAN TERUS, KHAS, TIDAK LANGSUNG, INSIDEN, KESAN,
+     PUNITIF, CONTOH, ATAU KERUGIAN LAIN, KOS, PERBELANJAAN, ATAU
+     GANTI RUGI YANG TIMBUL DARIPADA LESEN AWAM INI ATAU PENGGUNAAN BAHAN BERLESEN,
+     WALAU PUN PEMBERI LESEN TELAH DINASIHATI MENGENAI KEMUNGKINAN KERUGIAN,
+     KOS, PERBELANJAAN, ATAU GANTI RUGI TERSEBUT. DI MANA HAD TANGGUNGJAWAB
+     TIDAK DIBENARKAN SEPENUHNYA ATAU SEBAHAGIAN, HAD INI MUNGKIN TIDAK
 
-c. Penafian jaminan dan had tanggungjawab yang dinyatakan di atas hendaklah ditafsirkan dengan cara yang, sejauh mungkin, paling hampir menyerupai penafian mutlak dan pelepasan semua tanggungjawab.
 
----
+  c. Penafian jaminan dan had tanggungjawab yang disediakan di atas hendaklah
+     ditafsirkan dengan cara yang, sejauh mungkin, paling hampir dengan
+     penafian mutlak dan pelepasan semua tanggungjawab.
+
 
 Seksyen 6 -- Tempoh dan Penamatan.
 
-a. Lesen Awam ini terpakai untuk tempoh Hak Cipta dan Hak Serupa yang dilesenkan di sini. Walau bagaimanapun, jika Anda gagal mematuhi Lesen Awam ini, maka hak Anda di bawah Lesen Awam ini akan tamat secara automatik.
+  a. Lesen Awam ini terpakai untuk tempoh Hak Cipta dan Hak Serupa
+     yang dilesenkan di sini. Walau bagaimanapun, jika anda gagal mematuhi
+     Lesen Awam ini, maka hak anda di bawah Lesen Awam ini
+     akan tamat secara automatik.
 
-b. Di mana hak Anda untuk menggunakan Bahan Berlesen telah tamat di bawah Seksyen 6(a), ia akan dipulihkan:
+  b. Di mana hak anda menggunakan Bahan Berlesen telah tamat di bawah
+     Seksyen 6(a), ia dipulihkan semula:
 
-1. secara automatik pada tarikh pelanggaran diperbaiki, dengan syarat ia diperbaiki dalam masa 30 hari selepas Anda menyedari pelanggaran tersebut; atau  
-2. atas pemulihan secara nyata oleh Pemberi Lesen.
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
 
-Untuk mengelakkan keraguan, Seksyen 6(b) ini tidak menjejaskan sebarang hak yang mungkin dimiliki oleh Pemberi Lesen untuk mendapatkan remedi atas pelanggaran Anda terhadap Lesen Awam ini.
+       2. upon express reinstatement by the Licensor.
 
-c. Untuk mengelakkan keraguan, Pemberi Lesen juga boleh menawarkan Bahan Berlesen di bawah terma atau syarat yang berasingan atau berhenti mengedarkan Bahan Berlesen pada bila-bila masa; walau bagaimanapun, tindakan ini tidak akan menamatkan Lesen Awam ini.
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
 
-d. Seksyen 1, 5, 6, 7, dan 8 kekal selepas penamatan Lesen Awam ini.
+  c. Untuk mengelakkan keraguan, Pemberi Lesen juga boleh menawarkan
+     Bahan Berlesen di bawah syarat atau terma yang berasingan atau berhenti
+     mengedarkan Bahan Berlesen pada bila-bila masa; walau bagaimanapun, berbuat demikian
+     tidak akan menamatkan Lesen Awam ini.
 
----
+  d. Seksyen 1, 5, 6, 7, dan 8 kekal selepas penamatan Lesen Awam ini.
 
-Seksyen 7 -- Terma dan Syarat Lain.
 
-a. Pemberi Lesen tidak terikat oleh sebarang terma atau syarat tambahan atau berbeza yang disampaikan oleh Anda kecuali jika dipersetujui secara nyata.
 
-b. Sebarang pengaturan, pemahaman, atau perjanjian mengenai Bahan Berlesen yang tidak dinyatakan di sini adalah berasingan daripada dan bebas daripada terma dan syarat Lesen Awam ini.
 
----
 
-Seksyen 8 -- Tafsiran.
+     yang disampaikan oleh anda melainkan secara nyata dipersetujui.
 
-a. Untuk mengelakkan keraguan, Lesen Awam ini tidak, dan tidak boleh ditafsirkan untuk, mengurangkan, mengehadkan, menyekat, atau mengenakan syarat pada sebarang penggunaan Bahan Berlesen yang boleh dibuat secara sah tanpa kebenaran di bawah Lesen Awam ini.
 
-b. Sejauh mungkin, jika mana-mana peruntukan Lesen Awam ini dianggap tidak boleh dikuatkuasakan, ia akan secara automatik diperbaiki kepada tahap minimum yang diperlukan untuk menjadikannya boleh dikuatkuasakan. Jika peruntukan tersebut tidak boleh diperbaiki, ia akan dipisahkan daripada Lesen Awam ini tanpa menjejaskan kebolehkuatkuasaan terma dan syarat yang selebihnya.
+     tidak dinyatakan di sini adalah berasingan dan
+     bebas daripada terma dan syarat Lesen Awam ini.
 
-c. Tiada terma atau syarat Lesen Awam ini akan diketepikan dan tiada kegagalan untuk mematuhi yang disetujui kecuali jika dipersetujui secara nyata oleh Pemberi Lesen.
 
-d. Tiada apa-apa dalam Lesen Awam ini yang membentuk atau boleh ditafsirkan sebagai had ke atas, atau pelepasan, sebarang keistimewaan dan kekebalan yang terpakai kepada Pemberi Lesen atau Anda, termasuk daripada proses undang-undang mana-mana bidang kuasa atau pihak berkuasa.
 
----
 
-=======================================================================
 
-Creative Commons bukan pihak kepada lesen awamnya. Walau bagaimanapun, Creative Commons boleh memilih untuk menerapkan salah satu lesen awamnya kepada bahan yang diterbitkannya dan dalam keadaan tersebut akan dianggap sebagai "Pemberi Lesen." Teks lesen awam Creative Commons didedikasikan kepada domain awam di bawah Dedikasi Domain Awam CC0. Kecuali untuk tujuan terhad menunjukkan bahawa bahan dikongsi di bawah lesen awam Creative Commons atau sebagaimana yang dibenarkan oleh dasar Creative Commons yang diterbitkan di creativecommons.org/policies, Creative Commons tidak membenarkan penggunaan tanda dagangan "Creative Commons" atau sebarang tanda dagangan atau logo lain Creative Commons tanpa persetujuan bertulis terlebih dahulu termasuk, tanpa had, berkaitan dengan sebarang pengubahsuaian tidak sah kepada mana-mana lesen awamnya atau sebarang pengaturan, pemahaman, atau perjanjian lain mengenai penggunaan bahan berlesen. Untuk mengelakkan keraguan, perenggan ini bukan sebahagian daripada lesen awam.
+     tidak akan ditafsirkan untuk, mengurangkan, mengehadkan, menyekat, atau mengenakan
+     syarat ke atas sebarang penggunaan Bahan Berlesen yang boleh secara sah
+     dibuat tanpa kebenaran di bawah Lesen Awam ini.
+
+
+     dianggap tidak boleh dikuatkuasakan, ia hendaklah secara automatik dipinda
+     kepada tahap minima yang perlu untuk menjadikannya boleh dikuatkuasakan. Jika peruntukan
+     tidak dapat dipinda, ia hendaklah diputuskan daripada Lesen Awam ini
+     tanpa menjejaskan keupayaan menguatkuasakan terma dan syarat yang lain.
+
+  c. Tiada terma atau syarat Lesen Awam ini akan dikecualikan dan tiada
+
+     Pemberi Lesen.
+
+  d. Tiada apa-apa dalam Lesen Awam ini yang membentuk atau boleh ditafsirkan
+
+     yang terpakai untuk Pemberi Lesen atau anda, termasuk daripada proses perundangan
+     mana-mana bidang kuasa atau pihak berkuasa.
+
+
+
+
+Creative Commons bukan pihak kepada lesen awamnya.
+
+lesen awamnya untuk bahan yang diterbitkan dan dalam kes tersebut
+akan dianggap sebagai “Pemberi Lesen.” Teks lesen awam Creative Commons
+telah didedikasi kepada domain awam di bawah Pendedahan Domain Awam CC0.
+Kecuali untuk tujuan terhad menunjukkan bahawa bahan tersebut dikongsi
+di bawah lesen awam Creative Commons atau sebagaimana dibenarkan oleh
+dasar Creative Commons yang diterbitkan di creativecommons.org/policies,
+Creative Commons tidak membenarkan penggunaan tanda dagangan "Creative Commons"
+atau mana-mana tanda dagangan atau logo lain Creative Commons tanpa kebenaran bertulis sebelumnya termasuk,
+tanpa had, berkaitan sebarang pengubahsuaian tidak sah
+ke atas mana-mana lesen awamnya atau mana-mana peraturan,
+kefahaman, atau perjanjian lain mengenai penggunaan bahan berlesen. Untuk
+mengelakkan keraguan, perenggan ini bukan sebahagian daripada
+lesen awam.
+
+Creative Commons boleh dihubungi di creativecommons.org.
+lesen awam.
 
 Creative Commons boleh dihubungi di creativecommons.org.
 
 ---
 
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Penafian**:
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sahih. Untuk maklumat penting, terjemahan oleh manusia profesional adalah disyorkan. Kami tidak bertanggungjawab terhadap sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
