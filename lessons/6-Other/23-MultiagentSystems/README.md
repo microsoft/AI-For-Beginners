@@ -126,7 +126,7 @@ In order to do that, agents need to **communicate**. For successful communicatio
 * A **common ontology** to use, so that they refer to the same concepts knowing their semantics
 * A way to **discover** what different agents can do, also based on some sort of ontology
 
-Deliberative agents are much more complex than reactive, because they do not only react to changes in environment, they should also be able to *intiate* actions. One of the proposed architectures for deliberative agents is the so-called Belief-Desire-Intention (BDI) agent:
+Deliberative agents are much more complex than reactive, because they do not only react to changes in environment, they should also be able to *initiate* actions. One of the proposed architectures for deliberative agents is the so-called Belief-Desire-Intention (BDI) agent:
 
 * **Beliefs** form a set of knowledge about an agent's environment. It can be structured as a knowledge base or set of rules that an agent can apply to a specific situation in the environment.
 * **Desires** define what an agent wants to do, i.e. its goals. For example, the goal of the personal assistant agent above is to book a tour, and the goal of a hotel agent is to maximize profit.
