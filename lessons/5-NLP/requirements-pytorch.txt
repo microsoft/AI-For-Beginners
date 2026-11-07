@@ -1,15 +1,25 @@
+# The PyTorch NLP notebooks use torchtext, which is deprecated and no longer
+# developed. torchtext 0.18.0 is its final release. It is built against
+# torch 2.3 and only ships wheels for Python 3.8-3.12, so use Python 3.11 or
+# 3.12 (Pillow 13 needs Python >= 3.11).
+# torch, torchaudio, torchdata, torchtext and torchvision must be upgraded together.
+# torchtext.datasets needs torchdata < 0.10 (DataPipes) and portalocker.
+# torch 2.3 is built against NumPy 1.x, hence numpy < 2.
+# transformers 5.x requires torch >= 2.4, so stay on the transformers 4.x line.
 gensim>=4.3.0,<5
 huggingface==0.0.1
 matplotlib
 nltk==3.10.4
-numpy==1.22.0
-opencv-python==4.5.1.48
+numpy>=1.22,<2
+opencv-python==4.11.0.86
 Pillow==13.0.0
+portalocker>=2.0.0
 scikit-learn
 scipy
-torch==2.13.0
-torchaudio==0.8.1
+torch==2.3.1
+torchaudio==2.3.1
+torchdata==0.8.0
 torchinfo==0.0.8
-torchtext==0.9.1
-torchvision==0.9.1
-transformers==5.10.1
+torchtext==0.18.0
+torchvision==0.18.1
+transformers==4.57.6
