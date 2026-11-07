@@ -1,6 +1,9 @@
 import builtins
 import torch
 import torchtext
+import torchtext.data.utils
+import torchtext.datasets
+import torchtext.vocab
 import collections
 import os
 
