@@ -22,7 +22,7 @@
  - [Intro to Frameworks](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md)
    - [PyTorch](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroPyTorch.ipynb)
    - [TensorFlow](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/IntroKerasTF.ipynb)
-   - [Overfitting](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/Overfitting.md)
+   - [Overfitting](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/3-NeuralNetworks/05-Frameworks/README.md#overfitting)
 
 ## [Computer Vision](https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/4-ComputerVision/README.md)
  - On MS Learn
