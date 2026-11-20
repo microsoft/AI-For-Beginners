@@ -10,7 +10,7 @@
 
 Originally, computers were invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) to operate on numbers following a well-defined procedure - an algorithm. Modern computers, even though significantly more advanced than the original model proposed in the 19th century, still follow the same idea of controlled computations. Thus it is possible to program a computer to do something if we know the exact sequence of steps that we need to do in order to achieve the goal.
 
-![Photo of a person](images/dsh_age.png)
+![Photo of a person](../images/dsh_age.png)
 
 > Photo by [Vickie Soshnikova](http://twitter.com/vickievalerie)
 
@@ -30,7 +30,7 @@ The task of solving a specific human-like problem, such as determining a person'
 
 One of the problems when dealing with the term **[Intelligence](https://en.wikipedia.org/wiki/Intelligence)** is that there is no clear definition of this term. One can argue that intelligence is connected to **abstract thinking**, or to **self-awareness**, but we cannot properly define it.
 
-![Photo of a Cat](images/photo-cat.jpg)
+![Photo of a Cat](../images/photo-cat.jpg)
 
 > [Photo](https://unsplash.com/photos/75715CVEJhI) by [Amber Kipp](https://unsplash.com/@sadmax) from Unsplash
 
@@ -82,7 +82,7 @@ Alternately, we can try to model the simplest elements inside our brain – a ne
 
 > | What about ML?         |      |
 > |--------------|-----------|
-> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](images/ml-for-beginners.png)    |
+> | Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called **Machine Learning**. We will not consider classical machine learning in this course - we refer you to a separate [Machine Learning for Beginners](http://aka.ms/ml-beginners) curriculum. |   ![ML for Beginners](../images/ml-for-beginners.png)    |
 
 ## AIの歴史
 
@@ -116,11 +116,11 @@ Similarly, we can see how the approach towards creating “talking programs” (
 
 The huge recent growth in neural network research started around 2010, when large public datasets started to become available. A huge collection of images called [ImageNet](https://en.wikipedia.org/wiki/ImageNet), which contains around 14 million annotated images, gave birth to the [ImageNet Large Scale Visual Recognition Challenge](https://image-net.org/challenges/LSVRC/).
 
-![ILSVRC Accuracy](images/ilsvrc.gif)
+![ILSVRC Accuracy](../images/ilsvrc.gif)
 
 > Image by [Dmitry Soshnikov](http://soshnikov.com)
 
-In 2012, [Convolutional Neural Networks](../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
+In 2012, [Convolutional Neural Networks](../../4-ComputerVision/07-ConvNets/README.md) were first used in image classification, which led to a significant drop in classification errors (from almost 30% to 16.4%). In 2015, ResNet architecture from Microsoft Research [achieved human-level accuracy](https://doi.org/10.1109/ICCV.2015.123).
 
 Since then, Neural Networks demonstrated very successful behaviour in many tasks:
 
@@ -133,7 +133,7 @@ Year | Human Parity achieved
 2018 | [Automatic Machine Translation](https://arxiv.org/abs/1803.05567) (Chinese-to-English)
 2020 | [Image Captioning](https://arxiv.org/abs/2009.13682)
 
-Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happen happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../5-NLP/README.md) later in this course.
+Over the past few years we have witnessed huge successes with large language models, such as BERT and GPT-3. This happen happened mostly due to the fact that there is a lot of general text data available that allows us to train models to capture the structure and meaning of texts, pre-train them on general text collections, and then specialize those models for more specific tasks. We will learn more about [Natural Language Processing](../../5-NLP/README.md) later in this course.
 
 ## 🚀 挑戦してみよう
 
@@ -145,4 +145,4 @@ Do a tour of the internet to determine where, in your opinion, AI is most effect
 
 Review the history of AI and ML by reading through [this lesson](https://github.com/microsoft/ML-For-Beginners/tree/main/1-Introduction/2-history-of-ML). Take an element from the sketchnote at the top of that lesson or this one and research it in more depth to understand the cultural context informing its evolution.
 
-**Assignment**: [Game Jam](assignment.md)
+**Assignment**: [Game Jam](../assignment.md)
